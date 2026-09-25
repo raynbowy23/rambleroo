@@ -6,6 +6,8 @@ export interface Inks {
   dark: string
   accent: string
   water: string
+  /** Optional warm window ink for evening scenes. */
+  window?: string
 }
 export interface MotifProps {
   inks: Inks

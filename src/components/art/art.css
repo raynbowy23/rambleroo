@@ -209,3 +209,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+.rr-gallery-variety {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (max-width: 700px) {
+  .rr-gallery-variety {
+    grid-template-columns: 1fr;
+  }
+}

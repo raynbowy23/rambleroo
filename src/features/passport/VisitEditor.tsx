@@ -34,6 +34,7 @@ export function VisitEditor({
       {revealed ? (
         <div className={s.reveal}>
           <Stamp
+            look={byway.look}
             family={byway.scene}
             region={byway.region}
             motifs={story?.motifs}

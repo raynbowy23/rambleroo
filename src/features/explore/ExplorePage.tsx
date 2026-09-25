@@ -234,7 +234,7 @@ export default function ExplorePage() {
                     onFocus={() => useHover.getState().setId(b.id)}
                     onBlur={() => useHover.getState().setId(null)}
                   >
-                    <Scene family={b.scene} region={b.region} seed={b.seed} variant="thumb" />
+                    <Scene look={b.look} family={b.scene} region={b.region} seed={b.seed} variant="thumb" />
                     <span>
                       <strong>{b.name}</strong>
                       <small>

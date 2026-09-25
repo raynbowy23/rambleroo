@@ -1,3 +1,4 @@
+import { ShareControl } from '../share/ShareControl'
 import { useEffect, useId, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import { Icon, Scene } from '../../components/art'
@@ -53,6 +54,8 @@ export function Postcard({
         <div className={styles.art}>
           {gallery ? (
             <Scene
+              look={b.look}
+              lettering={{ title: b.name, subtitle: b.states.join(' · ') }}
               family={b.scene}
               seed={b.seed}
               region={b.region}
@@ -94,6 +97,7 @@ export function Postcard({
             {mapTo && <Link to={mapTo}>Show on map</Link>}
           </div>
           <div className={styles.actions}>
+            {gallery && <ShareControl byway={b} story={story} small />}
             <Link className="btn btn-primary" to={`/byway/${b.id}`}>
               {b.status === 'listing' ? 'Open details' : 'View story'}
               <Icon name="arrow-right" size={16} />

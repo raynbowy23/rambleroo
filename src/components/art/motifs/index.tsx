@@ -1,5 +1,5 @@
 import type { ComponentType } from 'react'
-import type { Motif, SceneFamily } from '../../../lib/types'
+import type { Motif, PostcardLook, SceneFamily } from '../../../lib/types'
 import type { Inks, MotifProps } from './types'
 import { RiverBluffs, LakeWide, LockAndDam, Paddlewheeler, Sandbars, LimestoneLedges, Lighthouse, SeaRock, WaterfallCove } from './water'
 import { RollingRidges, SnowPeaks, Switchbacks, Hoodoos, SlickrockRidge, Aspens, Orchard, RhododendronBald } from './terrain'
@@ -31,7 +31,19 @@ export const landmarks = {
   'waterfall-cove': { draw: WaterfallCove, family: 'coast' },
 } satisfies Record<Motif, { draw: ComponentType<MotifProps>; family: SceneFamily }>
 
-export function Motifs({ motifs, inks, height, hero }: { motifs: Motif[]; inks: Inks; height: number; hero: boolean }) {
+export function Motifs({
+  motifs,
+  inks,
+  height,
+  hero,
+  look,
+}: {
+  motifs: Motif[]
+  inks: Inks
+  height: number
+  hero: boolean
+  look?: PostcardLook
+}) {
   const selected = [...new Set(motifs)].slice(0, 3)
   const distantLandform = (motif: Motif) => motif === 'snow-peaks' || motif === 'rolling-ridges' || motif === 'lake-wide'
   // In heroes, bring the landmark forward while keeping broad terrain behind it.
@@ -54,9 +66,14 @@ export function Motifs({ motifs, inks, height, hero }: { motifs: Motif[]; inks: 
         // Motifs occupy roughly 200 units; center the hero lead in the right 55%.
         const center = index === 0 ? 290 : index === 1 ? 345 : 365
         const x = hero ? (backdrop ? 155 : center - 100 * size) : backdrop ? 25 : index === 0 ? 166 : index === 1 ? 12 : 92
+        const offset = look ? [0, -100, -45][look.layout % 3] : 0
         const ground = height * (backdrop ? (hero ? 0.62 : 0.76) : index === 2 ? 0.94 : index === 1 ? 0.67 : 0.84)
         return (
-          <g key={motif} data-motif={motif} transform={`translate(${x} ${ground - 150 * size}) scale(${size})`}>
+          <g
+            key={motif}
+            data-motif={motif}
+            transform={`translate(${x + (index === 0 && !hero ? offset : 0)} ${ground - 150 * size}) scale(${size})`}
+          >
             <Draw inks={inks} lighthouse={islandLight} />
           </g>
         )

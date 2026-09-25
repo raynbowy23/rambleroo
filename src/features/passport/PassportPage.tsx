@@ -147,7 +147,7 @@ export default function PassportPage() {
               return (
                 <article className={s.journal} key={v.id}>
                   <div>
-                    {b && <Scene family={b.scene} region={b.region} seed={b.seed} variant="thumb" />}
+                    {b && <Scene look={b.look} family={b.scene} region={b.region} seed={b.seed} variant="thumb" />}
                     <small className={s.muted}>Illustration</small>
                   </div>
                   <div>

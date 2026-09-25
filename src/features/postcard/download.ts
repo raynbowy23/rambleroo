@@ -1,3 +1,5 @@
+import type { Photo } from '../../lib/types'
+import { photoPath, photoCredit } from '../photos/Photos'
 export function downloadBlob(blob: Blob, filename: string) {
   const url = URL.createObjectURL(blob)
   const link = document.createElement('a')
@@ -32,6 +34,11 @@ async function svgImage(svg: SVGSVGElement) {
     }
     ;(clones[index] as SVGElement).style.animation = 'none'
   })
+  const viewBox = svg.getAttribute('viewBox')?.split(/\s+/).map(Number)
+  if (viewBox?.length === 4) {
+    copy.setAttribute('width', String(viewBox[2]))
+    copy.setAttribute('height', String(viewBox[3]))
+  }
   copy.setAttribute('xmlns', 'http://www.w3.org/2000/svg')
   const url = URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(copy)], { type: 'image/svg+xml' }))
   try {
@@ -90,7 +97,7 @@ function wrappedText(
   return y
 }
 
-export async function downloadPostcard(input: {
+export interface PostcardInput {
   scene: SVGSVGElement
   stamp: SVGSVGElement
   id: string
@@ -99,9 +106,14 @@ export async function downloadPostcard(input: {
   note: string
   postmark: string
   caption: string
-}) {
+  photo?: Photo
+}
+
+export async function renderPostcard(input: PostcardInput) {
   await document.fonts.ready
-  const [scene, stamp] = await Promise.all([svgImage(input.scene), svgImage(input.stamp)])
+  const photo = new Image()
+  if (input.photo) photo.src = photoPath(input.photo)
+  const [scene, stamp] = await Promise.all([input.photo ? photo.decode().then(() => photo) : svgImage(input.scene), svgImage(input.stamp)])
   const canvas = document.createElement('canvas')
   canvas.width = 1800
   canvas.height = 700
@@ -112,12 +124,19 @@ export async function downloadPostcard(input: {
   ctx.strokeStyle = '#89795d'
   ctx.strokeRect(14, 14, 872, 672)
   ctx.strokeRect(914, 14, 872, 672)
-  ctx.drawImage(scene, 30, 30, 840, 490)
+  if (input.photo) {
+    const scale = Math.max(840 / scene.width, 490 / scene.height)
+    const sw = 840 / scale
+    const sh = 490 / scale
+    ctx.drawImage(scene, (scene.width - sw) / 2, (scene.height - sh) / 2, sw, sh, 30, 30, 840, 490)
+  } else {
+    ctx.drawImage(scene, 30, 30, 840, 490)
+  }
   ctx.fillStyle = '#202925'
   ctx.font = '32px "Fraunces Variable", Georgia, serif'
   wrappedText(ctx, input.name, 40, 565, 810, 38, 72)
   ctx.font = '16px "Inter Variable", sans-serif'
-  wrappedText(ctx, input.caption, 40, 650, 810, 20, 40)
+  wrappedText(ctx, input.photo ? photoCredit(input.photo) : input.caption, 40, 615, 810, 20, 65)
   ctx.font = '32px "Fraunces Variable", Georgia, serif'
   ctx.fillText('P O S T   C A R D', 1180, 65)
   ctx.beginPath()
@@ -143,5 +162,10 @@ export async function downloadPostcard(input: {
   const blob = await new Promise<Blob>((resolve, reject) =>
     canvas.toBlob((value) => (value ? resolve(value) : reject(new Error('PNG export failed'))), 'image/png'),
   )
-  downloadBlob(blob, `rambleroo-${input.id}.png`)
+  return new File([blob], `rambleroo-${input.id}.png`, { type: 'image/png' })
+}
+
+export async function downloadPostcard(input: PostcardInput) {
+  const file = await renderPostcard(input)
+  downloadBlob(file, file.name)
 }

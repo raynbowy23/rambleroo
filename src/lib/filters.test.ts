@@ -18,6 +18,7 @@ const road = (name: string, states: string[], themes: BywaySummary['themes']): B
   status: 'listing',
   seed: 1,
   themeSource: 'inferred',
+  look: { palette: 0, layout: 0, season: 'summer', time: 'day', lettering: 'greetings', border: 'white', mirror: false },
 })
 const roads = [
   road('Old River Road', ['WI'], ['water']),

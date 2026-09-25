@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import type { Motif, Region, SceneFamily } from '../../lib/types'
+import type { Motif, PostcardLook, Region, SceneFamily } from '../../lib/types'
 import { Scene, Stamp, Seal, Compass, Logo, Icon } from './index'
 import type { SceneVariant, IconName } from './index'
 import { regions } from './regions'
@@ -18,6 +18,152 @@ const combinations: { label: string; family: SceneFamily; region: Region; motifs
   { label: 'San Juan Skyway', family: 'mountain', region: 'rockies', motifs: ['mining-town', 'snow-peaks'] },
   { label: 'Door County harbor', family: 'coast', region: 'great-lakes', motifs: ['harbor-village', 'lighthouse'] },
   { label: 'Door County shoreline', family: 'coast', region: 'great-lakes', motifs: ['limestone-ledges'] },
+]
+const postcardExamples: { name: string; region: Region; scene: SceneFamily; look: PostcardLook }[] = [
+  {
+    name: 'A1A Scenic & Historic Coastal Byway',
+    region: 'florida',
+    scene: 'coast',
+    look: { layout: 0, palette: 0, season: 'summer', time: 'day', lettering: 'greetings', border: 'white', mirror: false },
+  },
+  {
+    name: 'A1A Ocean Shore Scenic Highway',
+    region: 'florida',
+    scene: 'coast',
+    look: { layout: 1, palette: 1, season: 'spring', time: 'dawn', lettering: 'script', border: 'deckle', mirror: true },
+  },
+  {
+    name: 'Broward County A1A Scenic Highway',
+    region: 'florida',
+    scene: 'coast',
+    look: { layout: 2, palette: 2, season: 'winter', time: 'dusk', lettering: 'ribbon', border: 'linen', mirror: false },
+  },
+  {
+    name: 'Great River Road',
+    region: 'upper-midwest',
+    scene: 'river',
+    look: { layout: 0, palette: 0, season: 'autumn', time: 'golden', lettering: 'block', border: 'scallop', mirror: false },
+  },
+  {
+    name: 'Ohio River Scenic Byway',
+    region: 'great-lakes',
+    scene: 'river',
+    look: { layout: 1, palette: 1, season: 'winter', time: 'day', lettering: 'banner', border: 'white', mirror: true },
+  },
+  {
+    name: 'Creole Nature Trail',
+    region: 'deep-south',
+    scene: 'river',
+    look: { layout: 2, palette: 3, season: 'winter', time: 'dawn', lettering: 'script', border: 'linen', mirror: false },
+  },
+  {
+    name: 'San Juan Skyway',
+    region: 'rockies',
+    scene: 'mountain',
+    look: { layout: 0, palette: 1, season: 'autumn', time: 'golden', lettering: 'greetings', border: 'deckle', mirror: true },
+  },
+  {
+    name: 'Beartooth Highway',
+    region: 'rockies',
+    scene: 'mountain',
+    look: { layout: 1, palette: 2, season: 'winter', time: 'day', lettering: 'ribbon', border: 'white', mirror: false },
+  },
+  {
+    name: 'Blue Ridge Parkway',
+    region: 'appalachia',
+    scene: 'mountain',
+    look: { layout: 2, palette: 0, season: 'spring', time: 'dawn', lettering: 'block', border: 'scallop', mirror: false },
+  },
+  {
+    name: 'Redwood Highway',
+    region: 'pacific-northwest',
+    scene: 'forest',
+    look: { layout: 0, palette: 0, season: 'summer', time: 'day', lettering: 'banner', border: 'linen', mirror: false },
+  },
+  {
+    name: 'Talimena Scenic Drive',
+    region: 'ozarks',
+    scene: 'forest',
+    look: { layout: 1, palette: 1, season: 'autumn', time: 'golden', lettering: 'script', border: 'deckle', mirror: true },
+  },
+  {
+    name: 'Edge of the Wilderness',
+    region: 'upper-midwest',
+    scene: 'forest',
+    look: { layout: 2, palette: 2, season: 'winter', time: 'dusk', lettering: 'greetings', border: 'scallop', mirror: false },
+  },
+  {
+    name: 'Historic Route 66',
+    region: 'southwest',
+    scene: 'desert',
+    look: { layout: 0, palette: 0, season: 'summer', time: 'day', lettering: 'block', border: 'white', mirror: false },
+  },
+  {
+    name: 'Apache Trail',
+    region: 'southwest',
+    scene: 'desert',
+    look: { layout: 1, palette: 3, season: 'spring', time: 'dawn', lettering: 'ribbon', border: 'linen', mirror: true },
+  },
+  {
+    name: 'Scenic Byway 12',
+    region: 'southwest',
+    scene: 'desert',
+    look: { layout: 2, palette: 2, season: 'winter', time: 'dusk', lettering: 'banner', border: 'deckle', mirror: false },
+  },
+  {
+    name: 'Historic National Road',
+    region: 'mid-atlantic',
+    scene: 'town',
+    look: { layout: 0, palette: 0, season: 'summer', time: 'dusk', lettering: 'script', border: 'white', mirror: false },
+  },
+  {
+    name: 'Connecticut River Byway',
+    region: 'new-england',
+    scene: 'town',
+    look: { layout: 1, palette: 2, season: 'autumn', time: 'golden', lettering: 'ribbon', border: 'scallop', mirror: true },
+  },
+  {
+    name: 'Amish Country Byway',
+    region: 'great-lakes',
+    scene: 'town',
+    look: { layout: 2, palette: 1, season: 'winter', time: 'day', lettering: 'greetings', border: 'linen', mirror: false },
+  },
+  {
+    name: 'Flint Hills Scenic Byway',
+    region: 'great-plains',
+    scene: 'prairie',
+    look: { layout: 0, palette: 0, season: 'summer', time: 'day', lettering: 'banner', border: 'deckle', mirror: false },
+  },
+  {
+    name: 'Glacial Ridge Trail',
+    region: 'upper-midwest',
+    scene: 'prairie',
+    look: { layout: 1, palette: 3, season: 'spring', time: 'dawn', lettering: 'block', border: 'white', mirror: true },
+  },
+  {
+    name: 'Native Stone Scenic Byway',
+    region: 'great-plains',
+    scene: 'prairie',
+    look: { layout: 2, palette: 1, season: 'autumn', time: 'golden', lettering: 'script', border: 'scallop', mirror: false },
+  },
+  {
+    name: 'Hana Highway',
+    region: 'hawaii',
+    scene: 'coast',
+    look: { layout: 2, palette: 3, season: 'winter', time: 'golden', lettering: 'banner', border: 'linen', mirror: true },
+  },
+  {
+    name: 'Pacific Coast Highway',
+    region: 'california',
+    scene: 'coast',
+    look: { layout: 0, palette: 2, season: 'spring', time: 'dusk', lettering: 'ribbon', border: 'deckle', mirror: false },
+  },
+  {
+    name: 'Seward Highway',
+    region: 'alaska',
+    scene: 'mountain',
+    look: { layout: 1, palette: 3, season: 'winter', time: 'dawn', lettering: 'block', border: 'white', mirror: true },
+  },
 ]
 const seeds = [1, 7, 42, 2026]
 const ratios: Record<SceneVariant, string> = {
@@ -76,6 +222,32 @@ export default function ArtGallery() {
       <Logo size={40} />
       <h1>Illustration kit</h1>
       <p>Fifteen regions, twenty-three landmarks, seven landscape families. Six inks and warm paper.</p>
+      <section aria-labelledby="postcard-variety">
+        <h2 id="postcard-variety">Postcard variety</h2>
+        <p>
+          Twenty-four road souvenirs. The three Florida A1A routes share a region and landscape family, with a different view on each card.
+        </p>
+        <div className="rr-gallery-grid rr-gallery-variety">
+          {postcardExamples.map(({ name, region, scene, look }) => (
+            <figure key={name}>
+              <div className="rr-gallery-sample" style={{ aspectRatio: ratios.postcard }}>
+                <Scene
+                  family={scene}
+                  region={region}
+                  seed={42}
+                  look={look}
+                  framed
+                  title={name}
+                  lettering={{ title: name, subtitle: region.replaceAll('-', ' ') }}
+                />
+              </div>
+              <figcaption>
+                {name} · {look.season} · {look.time} · {look.lettering}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
       <h2>Ink & insignia</h2>
       <div className="rr-gallery-badges">
         <Seal />

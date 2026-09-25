@@ -1,5 +1,6 @@
+import photoData from '../../content/photos.json'
 import { useEffect, useState } from 'react'
-import type { BywaySummary, BywayStory, Collection } from './types'
+import type { BywaySummary, BywayStory, Collection, Photo } from './types'
 import collectionData from '../../content/collections.json'
 import wisconsin from '../../content/states/WI.json'
 export const collections: Collection[] = collectionData as Collection[]
@@ -78,4 +79,8 @@ export function useStory(id?: string) {
     }
   }, [id])
   return value.id === id ? value : { story: undefined, error: undefined, status: 'loading' as const }
+}
+
+export function usePhotos(bywayId?: string): Photo[] {
+  return (photoData as Photo[]).filter((photo) => photo.bywayId === bywayId)
 }

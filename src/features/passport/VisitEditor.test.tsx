@@ -21,6 +21,7 @@ const road: BywaySummary = {
   status: 'listing',
   seed: 1,
   themeSource: 'inferred',
+  look: { palette: 0, layout: 0, season: 'summer', time: 'day', lettering: 'greetings', border: 'white', mirror: false },
 }
 beforeAll(() => {
   vi.stubGlobal('matchMedia', () => ({ matches: false, addEventListener: vi.fn(), removeEventListener: vi.fn() }))

@@ -21,6 +21,12 @@ export default function AboutPage() {
         All scenic illustrations are generated artwork, not photographs or documentary views of a specific place. Decorative terrain symbols
         are atmospheric, not navigation landmarks.
       </p>
+      <h2>Photographs</h2>
+      <p>Real photographs come from Wikimedia Commons under their stated licences, credited on each image. Illustrations are artwork.</p>
+      <h2>Sharing postcards</h2>
+      <p>
+        Link previews on social sites show the generic Rambleroo card for now. Per-road preview images need prerendering, which is planned.
+      </p>
       <h2>Your passport stays here</h2>
       <p>
         Saves and visits live in this browser only. There is no account or synchronization. Clearing browser storage removes them; if

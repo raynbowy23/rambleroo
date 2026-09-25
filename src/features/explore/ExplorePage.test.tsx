@@ -25,6 +25,7 @@ const roads: BywaySummary[] = [
     status: 'listing',
     seed: 1,
     themeSource: 'inferred',
+    look: { palette: 0, layout: 0, season: 'summer', time: 'day', lettering: 'greetings', border: 'white', mirror: false },
   },
   {
     id: 'forest',
@@ -43,6 +44,7 @@ const roads: BywaySummary[] = [
     status: 'listing',
     seed: 2,
     themeSource: 'inferred',
+    look: { palette: 0, layout: 0, season: 'summer', time: 'day', lettering: 'greetings', border: 'white', mirror: false },
   },
 ]
 function Harness() {

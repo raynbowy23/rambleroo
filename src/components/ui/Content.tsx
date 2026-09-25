@@ -3,10 +3,11 @@ import { Link } from 'react-router'
 import { Scene } from '../art'
 import { themes } from '../../lib/filters'
 import { useMotionEnabled } from '../../lib/motion'
-import type { SceneFamily, Theme, Region, Motif } from '../../lib/types'
+import type { SceneFamily, Theme, Region, Motif, PostcardLook } from '../../lib/types'
 import { illustrationCaption } from '../../lib/format'
 import s from './Content.module.css'
 export function Hero({
+  look,
   region,
   motifs,
   editorial = false,
@@ -17,6 +18,7 @@ export function Hero({
   kicker,
   children,
 }: {
+  look?: PostcardLook
   region?: Region
   motifs?: Motif[]
   editorial?: boolean
@@ -32,7 +34,17 @@ export function Hero({
   return (
     <header className={`${s.hero} ${editorial ? s.collectionHero : ''} ${mobileArtBand ? s.mobileArtBand : ''}`}>
       <div className={s.heroArt}>
-        <Scene family={family} seed={seed} region={region} motifs={motifs} framed title={caption} variant="hero" animate={motion} />
+        <Scene
+          look={look}
+          family={family}
+          seed={seed}
+          region={region}
+          motifs={motifs}
+          framed
+          title={caption}
+          variant="hero"
+          animate={motion}
+        />
       </div>
       {editorial && <span className={s.editorial}>Editorial</span>}
       <div className={s.heroText}>

@@ -66,3 +66,55 @@ test('explore keeps a compact collection rail and hides the selected cartouche b
   await expect(page.getByRole('dialog', { name: /Door County/ })).toBeVisible()
   await expect(page.locator('[class*="selectedCartouche"]')).toBeHidden()
 })
+
+for (const width of [1280, 1440, 1968, 390]) {
+  test(`byway hero has readable text and inline facts at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 })
+    // Resolve the canonical ID from the catalog so this check survives catalog refreshes.
+    const road = await page.request
+      .get('/data/catalog.json')
+      .then((response) => response.json())
+      .then((catalog) => catalog.byways.find((road: { name: string }) => road.name === 'Scenic Byway 12'))
+    expect(road).toBeTruthy()
+    await page.goto(`/byway/${road.id}`)
+    const heading = page.getByRole('heading', { level: 1, name: 'Scenic Byway 12' })
+    await expect(heading).toBeVisible()
+    const geometry = await heading.evaluate((element) => {
+      const column = element.parentElement!
+      const style = getComputedStyle(element)
+      const facts = [...column.querySelectorAll('[class*="facts"] span')].map((fact) => fact.getBoundingClientRect())
+      return {
+        width: column.getBoundingClientRect().width,
+        overflowWrap: style.overflowWrap,
+        wordBreak: style.wordBreak,
+        hyphens: style.hyphens,
+        inlineFacts: facts.length > 1 && facts[0].top === facts[1].top,
+        fits: element.scrollWidth <= element.clientWidth,
+      }
+    })
+    expect(geometry.width).toBeCloseTo(width === 390 ? 390 : 640, 0)
+    expect(geometry.overflowWrap).toBe('normal')
+    expect(geometry.wordBreak).toBe('normal')
+    expect(geometry.hyphens).toBe('manual')
+    expect(geometry.inlineFacts).toBe(true)
+    expect(geometry.fits).toBe(true)
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
+  })
+}
+
+test('share fallback includes a typed note and closes with Escape', async ({ page }) => {
+  await page.addInitScript(() => Object.defineProperty(navigator, 'canShare', { value: () => false }))
+  await page.goto('/byway/door-county-coastal-byway-81450')
+  await page.getByRole('button', { name: 'Turn over', exact: true }).first().click()
+  await page.getByPlaceholder('A road to remember…').first().fill('Meet at the lake & bring tea!')
+  const share = page.locator('main header').getByRole('button', { name: 'Share', exact: true })
+  await share.click()
+  const email = page.getByRole('link', { name: 'Email', exact: true })
+  await expect(email).toBeVisible()
+  const body = new URL((await email.getAttribute('href'))!).searchParams.get('body')!
+  expect(body).toContain('Meet at the lake & bring tea!')
+  expect(body).toContain('/byway/door-county-coastal-byway-81450')
+  await page.keyboard.press('Escape')
+  await expect(email).toBeHidden()
+  await expect(share).toBeFocused()
+})

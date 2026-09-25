@@ -1,7 +1,8 @@
 // Data-quality gate for the published display data and hand-written content. Runs under `npm test`.
 import { describe, expect, it } from 'vitest'
-import { readFileSync, readdirSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { inferThemes, pickScene, slugify, hashSeed } from './classify'
+import { lookKey, visibleKey } from './looks'
 import type { BywaySummary, BywayStory, Collection } from '../../src/lib/types'
 
 const root = new URL('../../', import.meta.url)
@@ -57,6 +58,18 @@ describe('catalog', () => {
   })
 })
 
+describe('postcard looks', () => {
+  it('gives every byway a distinct look', () => {
+    expect(new Set(catalog.byways.map((b) => lookKey(b.look))).size).toBe(catalog.byways.length)
+  })
+  it('keeps the visible dimensions distinct within each region and scene family', () => {
+    const groups = new Map<string, string[]>()
+    for (const b of catalog.byways)
+      groups.set(`${b.region}|${b.scene}`, [...(groups.get(`${b.region}|${b.scene}`) ?? []), visibleKey(b.look)])
+    for (const [group, keys] of groups) expect(new Set(keys).size, group).toBe(keys.length)
+  })
+})
+
 describe('content', () => {
   const storyFiles = readdirSync(new URL('content/stories/', root)).filter((f) => f.endsWith('.json'))
   it.each(storyFiles)('story %s references a catalog byway and is honest about review', (file) => {
@@ -76,6 +89,24 @@ describe('content', () => {
     for (const m of wi.programs.flatMap((p) => p.members)) {
       if (m.bywayId) expect(byId.get(m.bywayId)?.states).toContain(wi.code)
       else expect(m.note).toBeTruthy()
+    }
+  })
+})
+
+describe('photos', () => {
+  const photos = json<import('../../src/lib/types').Photo[]>('content/photos.json')
+  const allowed = /^(CC0|Public domain|CC BY(-SA)? [0-9.]+)$/i
+  it.each(photos.map((p) => [p.file, p] as const))('%s is licensed, credited, present, and tied to a real story moment', (_, p) => {
+    expect(allowed.test(p.license), p.license).toBe(true)
+    expect(p.author).toBeTruthy()
+    expect(p.alt.length).toBeGreaterThan(20)
+    expect(p.sourceUrl).toMatch(/^https:\/\/commons\.wikimedia\.org\//)
+    expect(p.licenseUrl).toMatch(/^https?:\/\//)
+    expect(existsSync(new URL(`public${p.file}`, root))).toBe(true)
+    expect(byId.has(p.bywayId)).toBe(true)
+    if (p.moment) {
+      const story = json<BywayStory>(`content/stories/${p.bywayId}.json`)
+      expect(story.moments.map((m) => m.title)).toContain(p.moment)
     }
   })
 })

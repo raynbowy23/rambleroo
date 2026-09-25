@@ -171,3 +171,33 @@
 .rules {
   grid-column: 1 / -1;
 }
+
+.faceToggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 6px;
+  background: var(--paper);
+  font-size: 12px;
+}
+.faceToggle button {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+.faceToggle button[aria-pressed='true'] {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.photoCredit {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.front > img,
+.select > img {
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,49 @@
+.section {
+  margin-block: 32px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+  gap: 20px;
+}
+.figure {
+  margin: 0;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+.open {
+  display: block;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  cursor: zoom-in;
+  background: none;
+}
+.credit {
+  display: block;
+  font-size: 11px;
+  padding: 6px;
+  background: var(--paper);
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.credit a {
+  text-decoration: underline;
+}
+.toggle {
+  border: 0;
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 8px;
+}
+.lightbox img {
+  max-height: 70vh;
+  object-fit: contain;
+}

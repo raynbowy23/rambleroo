@@ -5,7 +5,7 @@ function Cottage({ inks: c }: MotifProps) {
     <g>
       <path d="M0 0v-29h34V0Z" fill={c.paper} />
       <path d="m-4-29 21-18 21 18Z" fill={c.accent} />
-      <path d="M7-20v9m10-9v9m9 11v-17" stroke={c.dark} strokeWidth="5" />
+      <path d="M7-20v9m10-9v9m9 11v-17" stroke={c.window ?? c.dark} strokeWidth="5" />
     </g>
   )
 }
@@ -20,7 +20,7 @@ export function SteepleTown({ inks: c }: MotifProps) {
       ))}
       <path d="M84 131V79h46v52M93 79V48h23v31" fill={c.paper} />
       <path d="m90 48 14-41 15 41Zm-12 32 28-21 30 21Z" fill={c.dark} />
-      <path d="M101 129v-18h10v18m-7-69v12" stroke={c.dark} strokeWidth="4" />
+      <path d="M101 129v-18h10v18m-7-69v12" stroke={c.window ?? c.dark} strokeWidth="4" />
     </g>
   )
 }
@@ -51,7 +51,7 @@ export function Gristmill({ inks: c }: MotifProps) {
       <path d="M30 124V54h103v70Z" fill={c.accent} />
       <path d="M20 55 81 15l63 40Z" fill={c.dark} />
       <path d="M38 68h86m-86 14h86m-86 14h86m-86 14h86" stroke={c.paper} strokeOpacity=".4" />
-      <path d="M54 70v14m42-14v14m-21 40V99" stroke={c.dark} strokeWidth="12" />
+      <path d="M54 70v14m42-14v14m-21 40V99" stroke={c.window ?? c.dark} strokeWidth="12" />
       <circle cx="142" cy="112" r="28" fill={c.dark} />
       <circle cx="142" cy="112" r="21" fill="none" stroke={c.paper} strokeWidth="3" />
       <path d="M142 85v54m-27-27h54m-46-19 38 38m0-38-38 38" stroke={c.mid} strokeWidth="4" />
@@ -97,7 +97,7 @@ export function MiningTown({ inks: c }: MotifProps) {
         <g key={x} transform={`translate(${x} ${139 - i * 3})`}>
           <path d="M0 0v-44h32V0Z" fill={i % 2 ? c.accent : c.paper} />
           <path d="M-3-44h38v-7H-3Z" fill={c.dark} />
-          <path d="M5-34h22m-21 10v10m15-10V0" stroke={c.dark} strokeWidth="5" />
+          <path d="M5-34h22m-21 10v10m15-10V0" stroke={c.window ?? c.dark} strokeWidth="5" />
         </g>
       ))}
       <path d="M146 129 155 30h23l16 99m-42-75 35 41m-38 0 32-41m-29 48h37M152 30h31v-9h-31Z" stroke={c.dark} strokeWidth="4" fill="none" />

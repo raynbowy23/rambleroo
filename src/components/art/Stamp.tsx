@@ -1,5 +1,5 @@
 import { useId } from 'react'
-import type { Motif, Region, SceneFamily } from '../../lib/types'
+import type { Motif, PostcardLook, Region, SceneFamily } from '../../lib/types'
 import { Scene } from './Scene'
 import { Trees } from './primitives'
 import { PrintDefs } from './PrintDefs'
@@ -10,6 +10,7 @@ export interface StampProps {
   seed?: number
   region?: Region
   motifs?: Motif[]
+  look?: PostcardLook
   /** Road name, printed in caps along the bottom. */
   title?: string
   /** Secondary line, usually the state(s). */
@@ -31,6 +32,7 @@ export function Stamp({
   seed = 1,
   region,
   motifs,
+  look,
   title = 'Scenic roads',
   subtitle,
   date,
@@ -93,7 +95,7 @@ export function Stamp({
           ) : (
             <>
               <svg x="20" y="20" width="160" height="164" viewBox="0 0 200 220" preserveAspectRatio="xMidYMid slice">
-                <Scene family={family} seed={seed} region={region} motifs={motifs} variant="stamp" />
+                <Scene family={family} seed={seed} region={region} motifs={motifs} look={look} variant="stamp" />
               </svg>
               <path d="M20 187h160" stroke="#214a3b" strokeWidth=".65" />
               {lines.map((line, i) => (

@@ -1,6 +1,9 @@
+import type { Photo } from '../../lib/types'
+import { PhotoGallery, MomentPhoto } from '../photos/Photos'
+import { ShareControl } from '../share/ShareControl'
 import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router'
-import { useByway, useStory } from '../../lib/data'
+import { useByway, useStory, usePhotos } from '../../lib/data'
 import { illustrationCaption, formatMiles, listingDescription, shortDesignation } from '../../lib/format'
 import { stateNames } from '../../lib/states'
 import { greatCircleMiles } from '../../lib/geo'
@@ -28,6 +31,9 @@ function partLength(points: number[][]) {
 }
 export default function BywayPage() {
   const { id } = useParams()
+  const photos = usePhotos(id)
+  const [photo, setPhoto] = useState<Photo>()
+  useEffect(() => setPhoto(undefined), [id])
   const { byway: b, status, byways } = useByway(id)
   const { story, status: storyStatus } = useStory(id)
   const saved = usePassport((p) => Boolean(id && p.saved[id]))
@@ -77,21 +83,10 @@ export default function BywayPage() {
   if (status === 'error') return <PageStatus title="The catalog could not be loaded" error />
   if (!b) return <PageStatus title="Byway not found" />
   const point = start?.id === b.id ? start.point : b.center
-  const share = async () => {
-    try {
-      if (navigator.share) await navigator.share({ title: b.name, url: window.location.href })
-      else {
-        await navigator.clipboard.writeText(window.location.href)
-        toast('Link copied')
-      }
-    } catch (error) {
-      if (!(error instanceof DOMException && error.name === 'AbortError'))
-        toast('Could not share. You can copy the address from your browser.')
-    }
-  }
   return (
     <main>
       <Hero
+        look={b.look}
         mobileArtBand
         region={b.region}
         motifs={story?.motifs}
@@ -134,9 +129,7 @@ export default function BywayPage() {
           <button className="btn btn-ghost" onClick={() => setEditing(true)}>
             Record a visit
           </button>
-          <button className="btn btn-ghost" onClick={() => void share()}>
-            Share
-          </button>
+          <ShareControl byway={b} story={story} note={note} photo={photo} />
           <Link className="btn btn-ghost" to={`/?byway=${b.id}`}>
             Show on the map
           </Link>
@@ -154,6 +147,7 @@ export default function BywayPage() {
                     <p key={i}>{p}</p>
                   ))}
                 </section>
+                <PhotoGallery photos={photos} />
                 <section className={s.section}>
                   <h2>Signature moments</h2>
                   <p className={s.muted}>Numbers identify moments on the map, not a suggested stop order. Map anchors are approximate.</p>
@@ -168,20 +162,23 @@ export default function BywayPage() {
                       onFocus={() => setActive(i)}
                       onBlur={() => setActive(null)}
                     >
-                      <div className={s.momentArt}>
-                        <Scene
-                          region={b.region}
-                          motifs={m.motifs}
-                          framed
-                          title={illustrationCaption(m.title, b.region, m.motifs)}
-                          family={m.scene}
-                          seed={b.seed + i + 1}
-                          variant="postcard"
-                        />
-                        <span className={s.credit} tabIndex={0} title={illustrationCaption(m.title, b.region, m.motifs)}>
-                          Illustration<span className="visually-hidden">: {illustrationCaption(m.title, b.region, m.motifs)}</span>
-                        </span>
-                      </div>
+                      <MomentPhoto photo={photos.find((photo) => photo.moment === m.title)}>
+                        <div className={s.momentArt}>
+                          <Scene
+                            look={b.look}
+                            region={b.region}
+                            motifs={m.motifs}
+                            framed
+                            title={illustrationCaption(m.title, b.region, m.motifs)}
+                            family={m.scene}
+                            seed={b.seed + i + 1}
+                            variant="postcard"
+                          />
+                          <span className={s.credit} tabIndex={0} title={illustrationCaption(m.title, b.region, m.motifs)}>
+                            Illustration<span className="visually-hidden">: {illustrationCaption(m.title, b.region, m.motifs)}</span>
+                          </span>
+                        </div>
+                      </MomentPhoto>
                       <div className={s.momentBody}>
                         <span className={s.badge}>{m.kind}</span>
                         <h3>
@@ -217,6 +214,7 @@ export default function BywayPage() {
                 </ul>
               </section>
             )}
+            {!story && <PhotoGallery photos={photos} />}
           </div>
           <aside className={s.companion}>
             <RouteMap
@@ -246,7 +244,7 @@ export default function BywayPage() {
         </div>
         <section className={s.section}>
           <h2>A postcard from the road</h2>
-          <PostcardArt key={b.id} byway={b} story={story} note={note} onNote={setNote} />
+          <PostcardArt photo={photo} onPhoto={setPhoto} key={b.id} byway={b} story={story} note={note} onNote={setNote} />
         </section>
         <section className={s.section}>
           <h2>Roads nearby</h2>

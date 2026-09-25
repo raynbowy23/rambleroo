@@ -5,6 +5,7 @@ import * as turf from '@turf/turf'
 import type { Feature, FeatureCollection, LineString, MultiLineString, Polygon, MultiPolygon, Position } from 'geojson'
 import type { BywaySummary, Theme, SceneFamily, EditorialStatus } from '../../src/lib/types.ts'
 import { inferThemes, pickScene, slugify, hashSeed, regionFor } from './classify.ts'
+import { assignLooks } from './looks.ts'
 
 const ROOT = new URL('../../', import.meta.url)
 const RAW = new URL('data/raw/', ROOT)
@@ -135,6 +136,7 @@ async function main() {
       scene,
       status: storyIds.get(id) ?? 'listing',
       region: regionFor(centerState),
+      look: undefined as unknown as BywaySummary['look'],
       seed: hashSeed(id),
     }
     catalog.push(summary)
@@ -149,6 +151,10 @@ async function main() {
   for (const oid of Object.keys(overrides))
     if (!oid.startsWith('_') && !catalog.some((b) => b.id === oid)) warnings.push(`override ${oid} has no matching catalog byway`)
   for (const sid of storyIds.keys()) if (!catalog.some((b) => b.id === sid)) warnings.push(`story ${sid} has no matching catalog byway`)
+
+  // Looks are assigned over the whole catalog at once so they can be kept unique.
+  const looks = assignLooks(catalog)
+  for (const b of catalog) b.look = looks.get(b.id)!
 
   catalog.sort((a, b) => a.name.localeCompare(b.name))
   const snapshot = manifest.sources.find((s: any) => s.name === 'scenic_byways')

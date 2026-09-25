@@ -50,6 +50,37 @@ export type Motif =
   | 'sea-rock'
   | 'waterfall-cove'
 
+/** Postcard art direction assigned at build time so no two byways share the same combination (see scripts/ingest/looks.ts). */
+export interface PostcardLook {
+  /** Index into the scene family's palette set. */
+  palette: number
+  /** Composition template within the family. */
+  layout: number
+  /** Seasonal colouring; the art kit softens it for regions where a season doesn't read (e.g. no snow in Florida). */
+  season: 'spring' | 'summer' | 'autumn' | 'winter'
+  time: 'dawn' | 'day' | 'golden' | 'dusk'
+  /** Postcard title lettering style. */
+  lettering: 'greetings' | 'ribbon' | 'block' | 'script' | 'banner'
+  border: 'white' | 'deckle' | 'linen' | 'scallop'
+  mirror: boolean
+}
+
+/** A rights-cleared photograph with its credit. Stored locally under public/photos/. */
+export interface Photo {
+  bywayId: string
+  /** Story moment title this photo shows, if any. */
+  moment?: string
+  file: string
+  width: number
+  height: number
+  title: string
+  alt: string
+  author: string
+  license: string
+  licenseUrl: string
+  sourceUrl: string
+}
+
 /** Editorial completeness, not road condition. See blueprint §7. */
 export type EditorialStatus = 'listing' | 'draft-story' | 'curated-story'
 
@@ -72,6 +103,7 @@ export interface BywaySummary {
   scene: SceneFamily
   status: EditorialStatus
   region: Region
+  look: PostcardLook
   /** Deterministic seed for procedural illustration variety. */
   seed: number
 }

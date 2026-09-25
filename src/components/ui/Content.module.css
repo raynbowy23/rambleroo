@@ -681,3 +681,32 @@
     bottom: auto;
   }
 }
+
+/* Keep the page margin outside the byway hero's readable text width. */
+.mobileArtBand .heroText {
+  box-sizing: border-box;
+  width: min(640px, 50%);
+  max-width: none;
+  margin-left: max(32px, calc((100vw - 1176px) / 2));
+  padding: 52px 24px 52px 0;
+}
+.mobileArtBand h1 {
+  font-size: clamp(32px, 3.8vw, 60px);
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: manual;
+}
+.mobileArtBand .facts {
+  display: flex;
+  flex-flow: row wrap;
+}
+@media (max-width: 700px) {
+  .mobileArtBand .heroText {
+    width: 100%;
+    margin-left: 0;
+    padding: 32px 24px;
+  }
+  .mobileArtBand h1 {
+    font-size: clamp(28px, 8vw, 40px);
+  }
+}
