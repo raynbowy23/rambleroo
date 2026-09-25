@@ -1,4 +1,4 @@
-import type { Map } from 'maplibre-gl'
+import type { Map } from './maplibre'
 import { palette } from './style'
 type Kind = 'pine' | 'mountain' | 'mesa' | 'cactus' | 'wave' | 'lighthouse' | 'sailboat'
 const groups: Record<Kind, [number, number][]> = {

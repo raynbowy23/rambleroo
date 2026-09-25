@@ -5,7 +5,7 @@ import { chromium } from '@playwright/test'
 const [outDir, size, ...paths] = process.argv.slice(2)
 const [width, height] = size.split('x').map(Number)
 const base = process.env.BASE ?? 'http://127.0.0.1:5199'
-const browser = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] })
+const browser = await chromium.launch()
 const page = await browser.newPage({ viewport: { width, height }, deviceScaleFactor: 1 })
 page.on('console', (m) => {
   if (m.type() === 'error' || m.type() === 'warning') console.log(`  [${m.type()}] ${m.text().slice(0, 300)}`)

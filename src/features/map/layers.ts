@@ -1,4 +1,4 @@
-import type { Map, ExpressionSpecification } from 'maplibre-gl'
+import type { Map, ExpressionSpecification } from './maplibre'
 import type { FeatureCollection, MultiLineString } from 'geojson'
 import type { BywaySummary } from '../../lib/types'
 import { palette } from './style'

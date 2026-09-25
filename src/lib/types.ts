@@ -6,6 +6,50 @@ export type Theme = 'water' | 'coast' | 'mountain' | 'forest' | 'desert' | 'hist
 /** Illustration family used for postcards, heroes, and stamps. */
 export type SceneFamily = 'river' | 'coast' | 'mountain' | 'forest' | 'desert' | 'town' | 'prairie'
 
+/** Landscape region, inferred from the state containing the byway's label point. Drives regional vegetation, landforms and palette in illustrations. */
+export type Region =
+  | 'pacific-northwest'
+  | 'california'
+  | 'southwest'
+  | 'rockies'
+  | 'great-plains'
+  | 'upper-midwest'
+  | 'great-lakes'
+  | 'ozarks'
+  | 'deep-south'
+  | 'florida'
+  | 'appalachia'
+  | 'mid-atlantic'
+  | 'new-england'
+  | 'alaska'
+  | 'hawaii'
+
+/** Named landmark or landform drawn into an illustration. Only used where editorial content says the place has it. */
+export type Motif =
+  | 'river-bluffs'
+  | 'lake-wide'
+  | 'lock-and-dam'
+  | 'paddlewheeler'
+  | 'sandbars'
+  | 'steeple-town'
+  | 'harbor-village'
+  | 'lighthouse'
+  | 'limestone-ledges'
+  | 'orchard'
+  | 'rolling-ridges'
+  | 'gristmill'
+  | 'viaduct'
+  | 'rhododendron-bald'
+  | 'snow-peaks'
+  | 'switchbacks'
+  | 'mining-town'
+  | 'aspens'
+  | 'hoodoos'
+  | 'slickrock-ridge'
+  | 'arch-bridge'
+  | 'sea-rock'
+  | 'waterfall-cove'
+
 /** Editorial completeness, not road condition. See blueprint §7. */
 export type EditorialStatus = 'listing' | 'draft-story' | 'curated-story'
 
@@ -27,6 +71,7 @@ export interface BywaySummary {
   themeSource: 'inferred' | 'curated'
   scene: SceneFamily
   status: EditorialStatus
+  region: Region
   /** Deterministic seed for procedural illustration variety. */
   seed: number
 }
@@ -36,6 +81,8 @@ export interface StoryMoment {
   kind: 'roadside' | 'short walk' | 'separate excursion' | 'town'
   text: string
   scene: SceneFamily
+  /** Landmark motifs for the illustration; omit when no specific landmark applies. */
+  motifs?: Motif[]
   /** [lng, lat] approximate anchor for the companion map. */
   at?: [number, number]
 }
@@ -43,6 +90,8 @@ export interface StoryMoment {
 export interface BywayStory {
   id: string
   tagline: string
+  /** Motifs for the story hero and postcard, most characteristic first. */
+  motifs?: Motif[]
   intro: string[]
   moments: StoryMoment[]
   season?: string

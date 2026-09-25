@@ -1,18 +1,64 @@
 {
   "id": "san-juan-skyway-2101",
   "tagline": "Alpine passes and mining towns in a single loop.",
+  "motifs": [
+    "snow-peaks",
+    "switchbacks",
+    "aspens"
+  ],
   "intro": [
     "The San Juan Skyway is a loop through southwest Colorado's San Juan Mountains, connecting Durango, Silverton, Ouray, Telluride, and Cortez. It climbs over high passes and runs past old mining country.",
     "The stretch between Silverton and Ouray is narrow, steep, and often without guardrails. Check conditions before crossing the passes, especially outside summer."
   ],
   "season": "Summer for the passes, late September for aspens.",
   "moments": [
-    { "title": "Ouray", "kind": "town", "scene": "town", "text": "A small town in a steep box canyon at the north end of the high passes.", "at": [-107.671, 38.022] },
-    { "title": "Red Mountain Pass", "kind": "roadside", "scene": "mountain", "text": "The high point between Ouray and Silverton, among old mine workings.", "at": [-107.712, 37.898] },
-    { "title": "Silverton", "kind": "town", "scene": "town", "text": "A former mining town in a high mountain valley.", "at": [-107.664, 37.812] }
+    {
+      "title": "Ouray",
+      "kind": "town",
+      "scene": "town",
+      "text": "A small town in a steep box canyon at the north end of the high passes.",
+      "at": [
+        -107.671,
+        38.022
+      ],
+      "motifs": [
+        "mining-town",
+        "snow-peaks"
+      ]
+    },
+    {
+      "title": "Red Mountain Pass",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "The high point between Ouray and Silverton, among old mine workings.",
+      "at": [
+        -107.712,
+        37.898
+      ],
+      "motifs": [
+        "switchbacks",
+        "snow-peaks"
+      ]
+    },
+    {
+      "title": "Silverton",
+      "kind": "town",
+      "scene": "town",
+      "text": "A former mining town in a high mountain valley.",
+      "at": [
+        -107.664,
+        37.812
+      ],
+      "motifs": [
+        "mining-town"
+      ]
+    }
   ],
   "sources": [
-    { "label": "Colorado Department of Transportation, Scenic Byways", "url": "https://www.codot.gov/travel/colorado-byways" }
+    {
+      "label": "Colorado Department of Transportation, Scenic Byways",
+      "url": "https://www.codot.gov/travel/colorado-byways"
+    }
   ],
   "reviewed": false
 }

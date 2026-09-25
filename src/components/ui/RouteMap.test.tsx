@@ -34,7 +34,7 @@ vi.mock('../../features/map/maplibre', () => ({
     },
   },
 }))
-vi.mock('../../features/map/style', () => ({ createAtlasStyle: () => ({}), palette: () => () => '#214a3b' }))
+vi.mock('../../features/map/style', () => ({ createMapStyle: () => ({}), palette: () => () => '#214a3b' }))
 vi.mock('../../lib/motion', () => ({ useMotionEnabled: () => false }))
 vi.mock('../../features/map/layers', () => ({
   addBywayLayers: vi.fn(),

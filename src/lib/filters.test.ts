@@ -14,6 +14,7 @@ const road = (name: string, states: string[], themes: BywaySummary['themes']): B
   bbox: [0, 0, 1, 1],
   center: [0, 0],
   scene: 'river',
+  region: 'upper-midwest',
   status: 'listing',
   seed: 1,
   themeSource: 'inferred',

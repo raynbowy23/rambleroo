@@ -234,7 +234,9 @@
   position: relative;
   display: flex;
   align-items: flex-end;
-  min-height: 440px;
+  /* Portrait by minimum height rather than aspect-ratio: with overflow hidden, aspect-ratio would clip the text band when it runs long. */
+  min-height: 540px;
+  background: var(--forest);
   border-radius: 10px;
   overflow: hidden;
   color: var(--paper);
@@ -246,7 +248,7 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  z-index: -2;
+  z-index: 0;
 }
 .cover:after {
   content: '';
@@ -254,10 +256,13 @@
   inset: 0;
   /* Clear over the upper art, dense only behind the text block so kicker and title keep AA contrast. */
   background: linear-gradient(transparent 30%, rgba(18, 36, 29, 0.55) 52%, rgba(18, 36, 29, 0.88) 72%, rgba(18, 36, 29, 0.94));
-  z-index: -1;
+  z-index: 1;
+  pointer-events: none;
 }
 .coverText {
-  padding: 28px;
+  position: relative;
+  z-index: 2;
+  padding: 36px;
   width: 100%;
 }
 .cover h2 {
@@ -503,4 +508,176 @@
   top: 10px;
   right: 10px;
   background: var(--paper);
+}
+
+/* Printed margins and a fleuron give each section its own breathing room. */
+.section {
+  border-top: 0;
+  position: relative;
+  padding-top: 48px;
+}
+.section::before {
+  content: '❦';
+  display: block;
+  width: 140px;
+  margin: -28px auto 28px;
+  text-align: center;
+  color: var(--ink-soft);
+  line-height: 1;
+  background:
+    linear-gradient(var(--line-strong), var(--line-strong)) left 40% / 46px 1px no-repeat,
+    linear-gradient(var(--line-strong), var(--line-strong)) right 40% / 46px 1px no-repeat,
+    linear-gradient(var(--line-strong), var(--line-strong)) left 65% / 46px 1px no-repeat,
+    linear-gradient(var(--line-strong), var(--line-strong)) right 65% / 46px 1px no-repeat;
+}
+.coverText {
+  padding: 40px 36px;
+}
+.cover h2 {
+  line-height: 1.05;
+  margin: 22px 0 30px;
+}
+.cover :global(.kicker),
+.heroText > :global(.kicker) {
+  white-space: nowrap;
+  letter-spacing: 0.12em;
+}
+.editorial {
+  position: absolute;
+  left: 24px;
+  top: 20px;
+  padding: 4px 9px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.cover,
+.moment {
+  border-radius: 2px;
+  outline: 1px solid var(--line-strong);
+  outline-offset: -9px;
+}
+.heroArt::after {
+  content: '';
+  position: absolute;
+  inset: 16px;
+  border: 1px solid #73624755;
+  background:
+    linear-gradient(135deg, #59472f 20px, transparent 21px) top left,
+    linear-gradient(225deg, #59472f 20px, transparent 21px) top right,
+    linear-gradient(45deg, #59472f 20px, transparent 21px) bottom left,
+    linear-gradient(315deg, #59472f 20px, transparent 21px) bottom right;
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+}
+@media (max-width: 700px) {
+  .coverText {
+    padding: 36px 24px;
+  }
+  .heroText {
+    padding: 64px 24px 52px;
+  }
+  .cover :global(.kicker),
+  .heroText > :global(.kicker) {
+    font-size: 10px;
+    letter-spacing: 0.07em;
+  }
+}
+
+@media (min-width: 701px) {
+  .heroText {
+    padding-right: 36px;
+  }
+}
+/* Keep the longest editorial kicker on one line inside the printed margin. */
+.cover :global(.kicker) {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.importFile {
+  max-width: 100%;
+  flex-wrap: wrap;
+  padding-block: 8px;
+}
+.importFile input {
+  width: 210px;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.cover .editorial,
+.cover .credit {
+  z-index: 2;
+  top: 20px;
+}
+.cover .credit {
+  right: 24px;
+}
+.collectionIntro {
+  display: block;
+  margin-bottom: 24px;
+}
+.collectionHero {
+  align-items: flex-end;
+  min-height: 640px;
+  color: var(--paper);
+}
+.collectionHero::after {
+  background: linear-gradient(transparent 20%, #12241d99 48%, #12241df2);
+}
+.collectionHero .heroText {
+  padding: 160px 36px 36px;
+  max-width: 800px;
+}
+.collectionHero .heroText > :global(.kicker),
+.collectionHero :global(.btn) {
+  color: var(--paper);
+}
+.collectionHero h1 {
+  line-height: 1.05;
+}
+.collectionHero .credit {
+  top: 20px;
+  bottom: auto;
+  right: 24px;
+}
+@media (max-width: 700px) {
+  .cover {
+    min-height: 500px;
+  }
+  .collectionHero .heroText {
+    padding: 160px 24px 24px;
+    max-width: 100%;
+  }
+}
+
+@media (width < 700px) {
+  .mobileArtBand {
+    display: block;
+    min-height: 0;
+    background: var(--paper);
+  }
+  .mobileArtBand::after {
+    display: none;
+  }
+  .mobileArtBand .heroArt {
+    position: relative;
+    height: 220px;
+    z-index: auto;
+  }
+  .mobileArtBand .heroArt > svg {
+    display: block;
+  }
+  .mobileArtBand .heroText {
+    max-width: 100%;
+    padding: 32px 24px;
+  }
+  .mobileArtBand > .credit {
+    top: 188px;
+    bottom: auto;
+  }
 }

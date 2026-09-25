@@ -1,20 +1,22 @@
 import { useEffect, useRef, useState } from 'react'
 import maplibregl from './maplibre'
-import type { GeoJSONSource, Map } from 'maplibre-gl'
+import type { GeoJSONSource, Map } from './maplibre'
 import type { BywaySummary } from '../../lib/types'
 import { useMotionEnabled } from '../../lib/motion'
-import { createAtlasStyle, palette } from './style'
+import { createMapStyle, palette } from './style'
 import { addBywayLayers, loadBywayGeometry } from './layers'
 import { addDecor } from './decor'
 import { useHover } from './hover'
+import { Compass } from '../../components/art'
+import { WaterLabels } from './WaterLabels'
 import styles from './Map.module.css'
-export { createAtlasStyle } from './style'
+export { createMapStyle } from './style'
 const regions: Record<string, [number, number, number, number]> = {
   'Lower 48': [-125, 24, -66, 50],
   Alaska: [-179, 51, -129, 72],
   Hawaii: [-161, 18, -154, 23],
 }
-export function AtlasMap({
+export function BywayMap({
   byways,
   selected,
   ids,
@@ -30,7 +32,7 @@ export function AtlasMap({
   const container = useRef<HTMLDivElement>(null)
   const ref = useRef<Map | null>(null)
   const [ready, setReady] = useState(false)
-  const [padding, setPadding] = useState({ top: 100, bottom: 170, left: 390, right: 40 })
+  const [padding, setPadding] = useState({ top: 100, bottom: 260, left: 390, right: 40 })
   useEffect(() => {
     const root = container.current?.parentElement
     if (!root) return
@@ -66,7 +68,7 @@ export function AtlasMap({
     try {
       map = new maplibregl.Map({
         container: container.current,
-        style: createAtlasStyle(),
+        style: createMapStyle(),
         center: [-98, 38],
         zoom: 3,
         attributionControl: false,
@@ -91,7 +93,7 @@ export function AtlasMap({
           setReady(true)
           map.fitBounds(regions['Lower 48'], {
             padding:
-              window.innerWidth < 760 ? { top: 80, bottom: 260, left: 25, right: 25 } : { top: 100, bottom: 125, left: 390, right: 60 },
+              window.innerWidth < 760 ? { top: 80, bottom: 260, left: 25, right: 25 } : { top: 100, bottom: 260, left: 390, right: 60 },
             duration: 0,
           })
           map.on('mousemove', 'byway-hit', (e) => {
@@ -152,8 +154,13 @@ export function AtlasMap({
         return
       }
       map.fitBounds(selected.bbox, {
-        padding,
-        maxZoom: 9,
+        padding: {
+          top: Math.max(64, padding.top),
+          bottom: Math.max(64, padding.bottom),
+          left: Math.max(64, padding.left),
+          right: Math.max(64, padding.right),
+        },
+        maxZoom: 8,
         duration: enabled ? 800 : 0,
       })
       const gold = palette()('gold')
@@ -180,11 +187,15 @@ export function AtlasMap({
   return (
     <>
       <div ref={container} className={styles.map} aria-label="Scenic byways map" />
-      <div className={`${styles.cartouche} ${selected ? styles.selectedCartouche : ''}`}>
-        <span className="kicker">A living atlas</span>
+      {ready && ref.current && <WaterLabels map={ref.current} />}
+      <div data-map-decoration className={`${styles.cartouche} ${selected ? styles.selectedCartouche : ''}`}>
+        <span className="kicker">Rambleroo · Est. 2026</span>
         <h2>America’s scenic byways</h2>
       </div>
-      <div className={`${styles.controls} ${selected ? styles.selectedControls : ''}`}>
+      <div data-map-decoration className={`${styles.compass} ${selected ? styles.selectedCompass : ''}`}>
+        <Compass size={70} />
+      </div>
+      <div data-map-decoration className={`${styles.controls} ${selected ? styles.selectedControls : ''}`}>
         <button className="btn btn-ghost" aria-label="Zoom in" onClick={() => ref.current?.zoomIn({ duration: enabled ? 250 : 0 })}>
           +
         </button>
@@ -209,7 +220,7 @@ export function AtlasMap({
           ))}
         </select>
       </div>
-      <div className={styles.legend}>
+      <div data-map-decoration className={styles.legend}>
         <span>Lines by landscape</span>
         <i />
         River / coast <i />

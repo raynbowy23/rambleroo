@@ -1,18 +1,63 @@
 {
   "id": "blue-ridge-parkway-2280",
   "tagline": "A ridgeline road with nowhere to be.",
+  "motifs": [
+    "rolling-ridges",
+    "viaduct"
+  ],
   "intro": [
     "The Blue Ridge Parkway links Shenandoah National Park in Virginia to Great Smoky Mountains National Park in North Carolina. It was designed for driving slowly, with no commercial traffic, frequent overlooks, and mileposts in place of exits.",
     "Sections close for weather and repairs, so check the National Park Service before a long trip."
   ],
   "season": "Spring bloom at the higher elevations, October for colour.",
   "moments": [
-    { "title": "Mabry Mill", "kind": "roadside", "scene": "town", "text": "A restored gristmill beside the parkway in Virginia.", "at": [-80.405, 36.749] },
-    { "title": "Linn Cove Viaduct", "kind": "roadside", "scene": "mountain", "text": "A curving bridge that carries the road around the slope of Grandfather Mountain.", "at": [-81.812, 36.087] },
-    { "title": "Craggy Gardens", "kind": "short walk", "scene": "mountain", "text": "Open, rhododendron-covered summits north of Asheville.", "at": [-82.38, 35.699] }
+    {
+      "title": "Mabry Mill",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "A restored gristmill beside the parkway in Virginia.",
+      "at": [
+        -80.405,
+        36.749
+      ],
+      "motifs": [
+        "gristmill"
+      ]
+    },
+    {
+      "title": "Linn Cove Viaduct",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "A curving bridge that carries the road around the slope of Grandfather Mountain.",
+      "at": [
+        -81.812,
+        36.087
+      ],
+      "motifs": [
+        "viaduct",
+        "rolling-ridges"
+      ]
+    },
+    {
+      "title": "Craggy Gardens",
+      "kind": "short walk",
+      "scene": "mountain",
+      "text": "Open, rhododendron-covered summits north of Asheville.",
+      "at": [
+        -82.38,
+        35.699
+      ],
+      "motifs": [
+        "rhododendron-bald",
+        "rolling-ridges"
+      ]
+    }
   ],
   "sources": [
-    { "label": "National Park Service, Blue Ridge Parkway", "url": "https://www.nps.gov/blri/" }
+    {
+      "label": "National Park Service, Blue Ridge Parkway",
+      "url": "https://www.nps.gov/blri/"
+    }
   ],
   "reviewed": false
 }

@@ -46,11 +46,6 @@
   background: none;
   cursor: pointer;
 }
-.title:after {
-  content: ' ↗';
-  font-size: 16px;
-  color: var(--rust);
-}
 .tagline {
   font-family: var(--font-serif);
   font-style: italic;
@@ -147,4 +142,12 @@
   margin-top: 10px;
   color: var(--ink-soft);
   font-size: 11px;
+}
+
+.art {
+  aspect-ratio: auto;
+  overflow: visible;
+}
+.card {
+  border-radius: 3px;
 }

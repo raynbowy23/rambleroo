@@ -132,3 +132,12 @@
     padding-bottom: 90px;
   }
 }
+
+.header {
+  border-bottom: 4px double var(--line-strong);
+}
+
+.tagline {
+  max-width: 230px;
+  font-size: 9px;
+}

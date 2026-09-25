@@ -3,15 +3,24 @@ import { Link } from 'react-router'
 import { Scene } from '../art'
 import { themes } from '../../lib/filters'
 import { useMotionEnabled } from '../../lib/motion'
-import type { SceneFamily, Theme } from '../../lib/types'
+import type { SceneFamily, Theme, Region, Motif } from '../../lib/types'
+import { illustrationCaption } from '../../lib/format'
 import s from './Content.module.css'
 export function Hero({
+  region,
+  motifs,
+  editorial = false,
+  mobileArtBand = false,
   family,
   seed,
   title,
   kicker,
   children,
 }: {
+  region?: Region
+  motifs?: Motif[]
+  editorial?: boolean
+  mobileArtBand?: boolean
   family: SceneFamily
   seed: number
   title: string
@@ -19,17 +28,21 @@ export function Hero({
   children?: ReactNode
 }) {
   const motion = useMotionEnabled()
+  const caption = region ? illustrationCaption(title, region, motifs) : 'Illustrated landscape. Not a photograph.'
   return (
-    <header className={s.hero}>
+    <header className={`${s.hero} ${editorial ? s.collectionHero : ''} ${mobileArtBand ? s.mobileArtBand : ''}`}>
       <div className={s.heroArt}>
-        <Scene family={family} seed={seed} variant="hero" animate={motion} />
+        <Scene family={family} seed={seed} region={region} motifs={motifs} framed title={caption} variant="hero" animate={motion} />
       </div>
+      {editorial && <span className={s.editorial}>Editorial</span>}
       <div className={s.heroText}>
         <span className="kicker">{kicker}</span>
         <h1>{title}</h1>
         {children}
       </div>
-      <span className={s.credit}>Illustration</span>
+      <span className={s.credit} tabIndex={0} title={caption}>
+        Illustration<span className="visually-hidden">: {caption}</span>
+      </span>
     </header>
   )
 }
@@ -69,7 +82,7 @@ export function PageStatus({ title, error }: { title: string; error?: boolean })
       <h1>{title}</h1>
       {error && <p role="alert">Please refresh to try again.</p>}
       <Link className="btn btn-ghost" to="/">
-        Back to the atlas
+        Back to the map
       </Link>
     </main>
   )

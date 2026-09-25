@@ -17,6 +17,7 @@ const road: BywaySummary = {
   bbox: [-92, 42, -90, 44],
   center: [-91, 43],
   scene: 'river',
+  region: 'upper-midwest',
   status: 'listing',
   seed: 1,
   themeSource: 'inferred',

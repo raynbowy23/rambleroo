@@ -1,9 +1,9 @@
 /* Rambleroo design tokens. Palette starts from blueprint §4 and was contrast-checked: ink on paper ≈ 14:1, rust on paper ≈ 4.6:1, paper on rust ≈ 5.2:1, paper on forest ≈ 9:1. */
 :root {
   /* Surfaces */
-  --paper: #f5f1e8;
+  --paper: #f3ead7;
   --paper-deep: #ece4d3;
-  --card: #fbf8f1;
+  --card: #faf3e4;
   --line: #ddd3bf;
   --line-strong: #c9bca2;
 
@@ -16,7 +16,7 @@
   --forest: #214a3b;
   --forest-2: #2f6b55;
   --forest-tint: #dfe6dc;
-  --rust: #b44c2a;
+  --rust: #a64226;
   --rust-2: #cf6a3e;
   --rust-tint: #f3dfd3;
   --gold: #e0a93b;
@@ -26,7 +26,7 @@
   --water-light: #bfd1d3;
   --water-deep: #5e8a96;
   --land: #efe7d4;
-  --land-us: #f3ecdc;
+  --land-us: #eee1c5;
   --sand: #d8cbb3;
   --sage: #a9b89a;
   --terrain: #c7b98f;
@@ -86,11 +86,4 @@
     --dur-panel: 0ms;
     --dur-trace: 0ms;
   }
-}
-
-/* Set by the motion toggle in the header; mirrors the OS preference. */
-:root[data-motion='off'] {
-  --dur-fast: 0ms;
-  --dur-panel: 0ms;
-  --dur-trace: 0ms;
 }

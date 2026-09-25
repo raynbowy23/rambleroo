@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import maplibre from '../../features/map/maplibre'
-import { createAtlasStyle, palette } from '../../features/map/style'
+import { createMapStyle, palette } from '../../features/map/style'
 import { addBywayLayers, loadBywayGeometry } from '../../features/map/layers'
 import type { BywaySummary, StoryMoment } from '../../lib/types'
 import s from './Content.module.css'
@@ -62,7 +62,7 @@ export function RouteMap({
       if (!disposed) setFailed(true)
     }
     try {
-      map = new maplibre.Map({ container: container.current, style: createAtlasStyle(), interactive: false, attributionControl: false })
+      map = new maplibre.Map({ container: container.current, style: createMapStyle(), interactive: false, attributionControl: false })
       const current = map
       mapRef.current = current
       // Start over the requested chapter before asynchronous sources finish loading.

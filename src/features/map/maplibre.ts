@@ -5,3 +5,13 @@ import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 maplibregl.setWorkerUrl(workerUrl)
 
 export default maplibregl
+
+export type {
+  Map,
+  GeoJSONSource,
+  ExpressionSpecification,
+  StyleSpecification,
+  LineLayerSpecification,
+  LayerSpecification,
+  SourceSpecification,
+} from 'maplibre-gl'

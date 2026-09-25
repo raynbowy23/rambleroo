@@ -5,7 +5,7 @@ export default function AboutPage() {
   return (
     <main className={styles.page}>
       <span className="kicker">About the data</span>
-      <h1>A living atlas, honestly mapped.</h1>
+      <h1>Scenic roads of America, honestly mapped.</h1>
       <p>
         Rambleroo brings together {meta?.bywayCount.toLocaleString() ?? '…'} scenic byways from the USDOT source layer, with{' '}
         {meta?.storyCount ?? '…'} stories. These stories are drafts pending review. This catalog is a snapshot of that source, not a

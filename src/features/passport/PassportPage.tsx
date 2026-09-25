@@ -6,10 +6,12 @@ import { useMotionEnabled } from '../../lib/motion'
 import { states } from '../../lib/states'
 import type { Visit } from '../../lib/types'
 import { Scene, Stamp } from '../../components/art'
+import { BywayStamp } from '../../components/ui/BywayStamp'
 import { PageStatus } from '../../components/ui/Content'
 import { RouteMap } from '../../components/ui/RouteMap'
 import { toast } from '../../components/ui/Toast'
 import { Postcard } from '../explore/Postcard'
+import { PassportData } from './PassportData'
 import { PassportBook } from './PassportBook'
 import { VisitEditor } from './VisitEditor'
 import s from '../../components/ui/Content.module.css'
@@ -95,9 +97,8 @@ export default function PassportPage() {
                 const b = byId.get(v.bywayId)
                 return (
                   <Link to={`/byway/${v.bywayId}`} key={v.bywayId}>
-                    <Stamp
-                      family={b?.scene}
-                      seed={b?.seed}
+                    <BywayStamp
+                      byway={b}
                       title={b?.name ?? 'Road no longer in catalog'}
                       subtitle={b?.states.join(' · ')}
                       date={v.date}
@@ -146,7 +147,7 @@ export default function PassportPage() {
               return (
                 <article className={s.journal} key={v.id}>
                   <div>
-                    {b && <Scene family={b.scene} seed={b.seed} variant="thumb" />}
+                    {b && <Scene family={b.scene} region={b.region} seed={b.seed} variant="thumb" />}
                     <small className={s.muted}>Illustration</small>
                   </div>
                   <div>
@@ -213,6 +214,7 @@ export default function PassportPage() {
           </section>
         </>
       )}
+      <PassportData />
       <footer className={s.section}>
         <Link to="/about">About the data</Link>
       </footer>

@@ -1,7 +1,7 @@
 import './art.css'
 export function Logo({ size = 32, withWordmark = true, className }: { size?: number; withWordmark?: boolean; className?: string }) {
   return (
-    <span className={`atlas-logo ${className ?? ''}`} style={{ gap: size * 0.24 }} role="img" aria-label="Rambleroo">
+    <span className={`rr-logo ${className ?? ''}`} style={{ gap: size * 0.24 }} role="img" aria-label="Rambleroo">
       <svg width={size * 1.45} height={size} viewBox="0 0 58 40" aria-hidden="true" fill="currentColor">
         <path d="M1 32 15 13 20 17 32 1 57 32H39L31 27 22 31Z" />
         <path d="m16 16-9 12 12-9 3 4 10-17 11 17-10-9-3 5-2-4-5 12Z" fill="#f5f1e8" />

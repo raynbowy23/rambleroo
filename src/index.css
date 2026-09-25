@@ -188,3 +188,55 @@ svg {
   border-color: var(--rust);
   color: var(--paper);
 }
+
+/* Warm edge staining stays decorative and never intercepts focus or clicks. */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+  background:
+    radial-gradient(ellipse at center, transparent 65%, #8b582510), radial-gradient(ellipse at 0 20%, #9b64200a, transparent 25%),
+    radial-gradient(ellipse at 100% 80%, #9b64200a, transparent 22%);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-variation-settings:
+    'SOFT' 80,
+    'WONK' 1;
+}
+p {
+  font-variant-numeric: oldstyle-nums;
+}
+.kicker {
+  line-height: 1.7;
+  font-variant-caps: small-caps;
+}
+.btn-primary {
+  box-shadow:
+    inset 0 2px 3px #51230c55,
+    inset 0 -1px #ffffff30;
+}
+.btn-ghost,
+.btn-secondary {
+  border-style: double;
+  border-width: 3px;
+  border-radius: 3px;
+}
+.btn:focus-visible {
+  box-shadow: var(--focus-ring);
+}
+.editorial-tag {
+  display: inline-block;
+  width: fit-content;
+  padding: 3px 8px;
+  border: 1px solid var(--line-strong);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}

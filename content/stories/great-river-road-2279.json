@@ -1,6 +1,11 @@
 {
   "id": "great-river-road-2279",
   "tagline": "Follow the bluffs, the river towns, and the long autumn views.",
+  "motifs": [
+    "river-bluffs",
+    "lake-wide",
+    "steeple-town"
+  ],
   "intro": [
     "The Great River Road follows the Mississippi from Minnesota to the Gulf through ten states. This story covers its Wisconsin section, which runs along the east bank on Highway 35 from Prescott in the north to the Illinois line.",
     "On the Wisconsin side the road sits between steep limestone bluffs and the river's backwaters, passing through a chain of old river towns. Lake Pepin, a natural widening of the Mississippi, is the broadest water along the way."
@@ -15,6 +20,10 @@
       "at": [
         -92.2,
         44.47
+      ],
+      "motifs": [
+        "lake-wide",
+        "river-bluffs"
       ]
     },
     {
@@ -25,6 +34,10 @@
       "at": [
         -91.914,
         44.32
+      ],
+      "motifs": [
+        "lock-and-dam",
+        "steeple-town"
       ]
     },
     {
@@ -35,6 +48,9 @@
       "at": [
         -91.47,
         44.017
+      ],
+      "motifs": [
+        "river-bluffs"
       ]
     },
     {
@@ -45,6 +61,9 @@
       "at": [
         -91.141,
         43.051
+      ],
+      "motifs": [
+        "steeple-town"
       ]
     }
   ],

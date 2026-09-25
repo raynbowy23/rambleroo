@@ -1,6 +1,11 @@
 {
   "id": "door-county-coastal-byway-81450",
   "tagline": "Lighthouses, orchards, and a shoreline on both sides.",
+  "motifs": [
+    "harbor-village",
+    "lighthouse",
+    "orchard"
+  ],
   "intro": [
     "The Door County Coastal Byway loops around the northern Door Peninsula, the thumb of land between Green Bay and Lake Michigan. One side of the loop follows the calmer bay shore and its harbour villages. The other follows the open Lake Michigan side, with limestone ledges and quieter coves.",
     "It is a short byway by distance, so the day is set by how often you stop."
@@ -15,6 +20,9 @@
       "at": [
         -87.21,
         45.16
+      ],
+      "motifs": [
+        "limestone-ledges"
       ]
     },
     {
@@ -25,6 +33,9 @@
       "at": [
         -87.168,
         45.157
+      ],
+      "motifs": [
+        "harbor-village"
       ]
     },
     {
@@ -35,6 +46,9 @@
       "at": [
         -87.047,
         45.088
+      ],
+      "motifs": [
+        "lighthouse"
       ]
     },
     {
@@ -45,6 +59,9 @@
       "at": [
         -87.18,
         44.93
+      ],
+      "motifs": [
+        "limestone-ledges"
       ]
     }
   ],

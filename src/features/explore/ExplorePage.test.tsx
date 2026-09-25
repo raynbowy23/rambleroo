@@ -4,8 +4,8 @@ import { MemoryRouter, useLocation, useNavigate } from 'react-router'
 import ExplorePage from './ExplorePage'
 import { usePassport } from '../../lib/passport'
 import type { BywaySummary } from '../../lib/types'
-vi.mock('../map/AtlasMap', () => ({
-  AtlasMap: ({ onFailure }: { onFailure: () => void }) => <button onClick={onFailure}>Simulate WebGL failure</button>,
+vi.mock('../map/BywayMap', () => ({
+  BywayMap: ({ onFailure }: { onFailure: () => void }) => <button onClick={onFailure}>Simulate WebGL failure</button>,
 }))
 const roads: BywaySummary[] = [
   {
@@ -21,6 +21,7 @@ const roads: BywaySummary[] = [
     bbox: [-92, 42, -90, 44],
     center: [-91, 43],
     scene: 'river',
+    region: 'upper-midwest',
     status: 'listing',
     seed: 1,
     themeSource: 'inferred',
@@ -38,6 +39,7 @@ const roads: BywaySummary[] = [
     bbox: [-120, 36, -119, 38],
     center: [-120, 37],
     scene: 'forest',
+    region: 'california',
     status: 'listing',
     seed: 2,
     themeSource: 'inferred',

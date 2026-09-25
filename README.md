@@ -1,8 +1,8 @@
 # Rambleroo
 
-A living atlas of America's scenic byways. Explore an illustrated national map, open a road's postcard and story, save it, record a visit, and collect a stamp in your passport.
+America's scenic byways, honestly mapped. Explore an illustrated national map, open a road's postcard and story, save it, record a visit, and collect a stamp in your passport.
 
-This is the overnight MVP of the concept in `docs/plan/Byway_Atlas_Product_and_Development_Blueprint.md`. The build plan and its decisions are in `docs/plan/MVP_PLAN.md`. The mockups in `Mock/` are art direction only; none of their numbers are used.
+This is the overnight MVP of the concept in the historical blueprint under `docs/plan/`. The build plan and its decisions are in `docs/plan/MVP_PLAN.md`. The mockups in `Mock/` are art direction only; none of their numbers are used.
 
 ## Run it
 
@@ -20,7 +20,7 @@ Playwright needs Chromium once: `npx playwright install chromium`.
 
 | Route | What it does |
 |---|---|
-| `/` | National atlas. Map, gallery, and list views share one selection and one filter state, all held in the URL (`byway`, `themes`, `state`, `q`, `view`). Hover previews, click selects and traces the route, and the postcard opens. Falls back to the list if WebGL is unavailable. |
+| `/` | National map. Map, gallery, and list views share one selection and one filter state, all held in the URL (`byway`, `themes`, `state`, `q`, `view`). Hover previews, click selects and traces the route, and the postcard opens. Falls back to the list if WebGL is unavailable. |
 | `/byway/:id` | Story page for curated roads (draft, pending review) and the same template for plain listings. Includes a companion map, signature moments marked roadside, short walk, or separate excursion, and directions to one point on the road. |
 | `/state/WI` | The curated Wisconsin chapter: the five WisDOT program byways and the two USFS byways, listed separately. Other state codes get a generic, uncurated chapter. |
 | `/collections`, `/collections/:slug` | Five small editorial collections with explicit member lists. |
@@ -57,6 +57,6 @@ scripts/ingest/     fetch, normalise, classify, data-quality tests
 src/components/art  illustration kit: Scene, Stamp, Seal, Compass, Logo, Icon
 src/components/ui   Dialog, Toast, RouteMap, shared content blocks
 src/features/       explore, map, byway, state, collections, passport, about
-src/lib/            types, data hooks, filters, formatting, passport + motion stores
+src/lib/            types, data hooks, filters, formatting, passport store and system motion preference
 tests/e2e/          Playwright loop test
 ```

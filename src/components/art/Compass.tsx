@@ -2,7 +2,7 @@ import './art.css'
 export function Compass({ size = 64, className }: { size?: number; className?: string }) {
   return (
     <svg
-      className={`atlas-compass ${className ?? ''}`}
+      className={`rr-compass ${className ?? ''}`}
       width={size}
       height={size}
       viewBox="0 0 100 100"
@@ -26,7 +26,7 @@ export function Compass({ size = 64, className }: { size?: number; className?: s
         ['S', 50, 98],
         ['W', 6, 53],
       ].map(([text, x, y]) => (
-        <text key={text} x={x} y={y} textAnchor="middle" stroke="none" fill="currentColor" fontSize="9" className="art-serif">
+        <text key={text} x={x} y={y} textAnchor="middle" stroke="none" fill="currentColor" fontSize="9" className="rr-serif">
           {text}
         </text>
       ))}

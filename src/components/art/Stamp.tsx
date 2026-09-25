@@ -1,12 +1,15 @@
 import { useId } from 'react'
-import type { SceneFamily } from '../../lib/types'
+import type { Motif, Region, SceneFamily } from '../../lib/types'
 import { Scene } from './Scene'
 import { Trees } from './primitives'
+import { PrintDefs } from './PrintDefs'
 import './art.css'
 
 export interface StampProps {
   family?: SceneFamily
   seed?: number
+  region?: Region
+  motifs?: Motif[]
   /** Road name, printed in caps along the bottom. */
   title?: string
   /** Secondary line, usually the state(s). */
@@ -26,6 +29,8 @@ const perforations = Array.from({ length: 19 }, (_, i) => 8 + i * 10)
 export function Stamp({
   family = 'river',
   seed = 1,
+  region,
+  motifs,
   title = 'Scenic roads',
   subtitle,
   date,
@@ -45,10 +50,11 @@ export function Stamp({
     else lines[last] += `${lines[last] ? ' ' : ''}${word}`
   }
   return (
-    <figure className={`atlas-stamp ${press ? 'art-press' : ''} ${className ?? ''}`} style={{ width: size }}>
+    <figure className={`rr-stamp ${press ? 'rr-press' : ''} ${className ?? ''}`} style={{ width: size }}>
       <svg width={size} height={size * 1.2} viewBox="0 0 200 240" role="img" aria-labelledby={`${id}-title`}>
         <title id={`${id}-title`}>{label}</title>
         <defs>
+          <PrintDefs id={id} ink="#704f3c" paper="#f1e8d5" />
           <mask id={`${id}-edge`} maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="240">
             <rect x="3" y="3" width="194" height="234" fill="white" />
             {perforations.map((n) => (
@@ -77,17 +83,17 @@ export function Stamp({
               <g transform="translate(14 30) scale(1.5)">
                 <Trees />
               </g>
-              <text x="100" y="174" textAnchor="middle" className="art-serif" fontSize="10" letterSpacing="1.8">
+              <text x="100" y="174" textAnchor="middle" className="rr-serif" fontSize="10" letterSpacing="1.8">
                 MORE ROADS
               </text>
-              <text x="100" y="190" textAnchor="middle" className="art-serif" fontSize="10" letterSpacing="1.8">
+              <text x="100" y="190" textAnchor="middle" className="rr-serif" fontSize="10" letterSpacing="1.8">
                 AHEAD
               </text>
             </g>
           ) : (
             <>
               <svg x="20" y="20" width="160" height="164" viewBox="0 0 200 220" preserveAspectRatio="xMidYMid slice">
-                <Scene family={family} seed={seed} variant="stamp" />
+                <Scene family={family} seed={seed} region={region} motifs={motifs} variant="stamp" />
               </svg>
               <path d="M20 187h160" stroke="#214a3b" strokeWidth=".65" />
               {lines.map((line, i) => (
@@ -97,7 +103,7 @@ export function Stamp({
                   y={lines.length === 1 ? 202 : 198 + i * 10}
                   textAnchor="middle"
                   fill="#202925"
-                  className="art-serif"
+                  className="rr-serif"
                   fontSize={line.length > 30 ? 6.5 : 8.5}
                   letterSpacing=".65"
                   textLength={line.length > 32 ? 156 : undefined}
@@ -124,12 +130,13 @@ export function Stamp({
           )}
         </g>
         {visited && !empty && (
-          <g className="art-cancel" transform="rotate(-14 135 154)" fill="none" stroke="#b44c2a" opacity=".76">
+          <g className="rr-cancel" transform="rotate(-14 135 154)" fill="none" stroke="#b44c2a" opacity=".58">
             <path d="M4 140q16-7 32 0t32 0m-64 9q16-7 32 0t32 0m-64 9q16-7 32 0t32 0" strokeWidth="1.4" />
-            <circle cx="132" cy="148" r="43" strokeWidth="1.8" />
+            <circle cx="132" cy="148" r="43" strokeWidth="1.5" opacity=".65" />
+            <circle cx="133.2" cy="148.5" r="43" strokeWidth=".65" strokeDasharray="17 2 6 1" opacity=".4" />
             <circle cx="132" cy="148" r="38" strokeWidth=".7" strokeDasharray="2 1" />
             <path d="M99 151h66" />
-            <text x="132" y="144" textAnchor="middle" fill="#b44c2a" stroke="none" fontSize="13" letterSpacing="1.4" className="art-serif">
+            <text x="132" y="144" textAnchor="middle" fill="#b44c2a" stroke="none" fontSize="13" letterSpacing="1.4" className="rr-serif">
               VISITED
             </text>
             {date && (
@@ -147,6 +154,7 @@ export function Stamp({
               </text>
             )}
             <path d="m128 121 4-3 4 3m-8 54 4 3 4-3" strokeWidth="1" />
+            <circle cx="132" cy="148" r="43" fill={`url(#${id}-grain)`} stroke="none" />
           </g>
         )}
       </svg>

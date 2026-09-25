@@ -4,7 +4,7 @@ import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises'
 import * as turf from '@turf/turf'
 import type { Feature, FeatureCollection, LineString, MultiLineString, Polygon, MultiPolygon, Position } from 'geojson'
 import type { BywaySummary, Theme, SceneFamily, EditorialStatus } from '../../src/lib/types.ts'
-import { inferThemes, pickScene, slugify, hashSeed } from './classify.ts'
+import { inferThemes, pickScene, slugify, hashSeed, regionFor } from './classify.ts'
 
 const ROOT = new URL('../../', import.meta.url)
 const RAW = new URL('data/raw/', ROOT)
@@ -115,6 +115,9 @@ async function main() {
     const override = overrides[id]
     const themes = override?.themes ?? inferThemes(name, designations, states, usfs)
     const scene = override?.scene ?? pickScene(themes, name)
+    // Region comes from the state that contains the label point, so multi-state roads get the landscape of their middle.
+    const center = labelPoint(simplified)
+    const centerState = states.find((s) => usStates.get(s) && turf.booleanPointInPolygon(turf.point(center), usStates.get(s)!)) ?? states[0]
     const summary: BywaySummary = {
       id,
       sourceId,
@@ -126,11 +129,12 @@ async function main() {
       mappedMiles,
       ...(stateMiles ? { stateMiles } : {}),
       bbox,
-      center: labelPoint(simplified),
+      center,
       themes,
       themeSource: override ? 'curated' : 'inferred',
       scene,
       status: storyIds.get(id) ?? 'listing',
+      region: regionFor(centerState),
       seed: hashSeed(id),
     }
     catalog.push(summary)

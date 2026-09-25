@@ -26,7 +26,7 @@ export default function StatePage() {
   const first = byId.get(members[0]) ?? roads[0]
   return (
     <main>
-      <Hero family={first?.scene ?? 'prairie'} seed={first?.seed ?? 1} title={states[code]} kicker="State chapter">
+      <Hero region={first?.region} family={first?.scene ?? 'prairie'} seed={first?.seed ?? 1} title={states[code]} kicker="State chapter">
         {chapter ? (
           <>
             <p className={s.subline}>{chapter.tagline}</p>
@@ -42,7 +42,7 @@ export default function StatePage() {
         )}
         <div className={s.actions}>
           <Link className="btn btn-primary" to={`/?state=${code}`}>
-            Explore {states[code]} on the atlas
+            Explore {states[code]} on the map
           </Link>
         </div>
       </Hero>

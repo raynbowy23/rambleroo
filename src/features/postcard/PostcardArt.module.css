@@ -1,0 +1,173 @@
+.postcard {
+  container-type: inline-size;
+  width: 100%;
+  max-width: 760px;
+  margin-inline: auto;
+  padding: 8px;
+  background: var(--card);
+  box-shadow: inset 0 0 0 1px var(--line-strong);
+  /* A restrained uneven paper edge. */
+  clip-path: polygon(0 0.5%, 22% 0, 48% 0.6%, 74% 0, 100% 0.5%, 99.6% 52%, 100% 99.5%, 70% 100%, 41% 99.5%, 0 100%, 0.4% 47%);
+}
+.viewport {
+  perspective: 1400px;
+}
+.faces {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  transform-style: preserve-3d;
+  transition: transform 500ms ease;
+}
+.turned {
+  transform: rotateY(180deg);
+}
+.front,
+.back {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  backface-visibility: hidden;
+  min-width: 0;
+}
+.front {
+  display: grid;
+  align-items: center;
+}
+.front svg {
+  width: 100%;
+  height: 100%;
+}
+.select {
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+.caption {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: var(--paper);
+  padding: 3px 8px;
+  font-size: 10px;
+}
+.back {
+  transform: rotateY(180deg);
+  background: var(--paper);
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr);
+  padding: clamp(8px, 3cqw, 24px);
+  gap: clamp(6px, 2cqw, 16px);
+  font-size: clamp(10px, 2cqw, 14px);
+}
+.back h3 {
+  grid-column: 1 / -1;
+  text-align: center;
+  letter-spacing: 0.25em;
+  font-size: clamp(12px, 3cqw, 22px);
+  margin: 0;
+}
+.message {
+  min-height: 0;
+  overflow-y: auto;
+  border-right: 1px solid var(--line-strong);
+  padding-right: 12px;
+}
+.message label {
+  display: block;
+  margin-top: 12px;
+}
+.message textarea {
+  width: 100%;
+  height: clamp(40px, 12cqw, 110px);
+  min-height: 40px;
+  resize: none;
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  color: var(--ink);
+  font: clamp(14px, 3cqw, 22px) var(--font-hand);
+}
+.address figure {
+  margin: 0 0 0 auto;
+}
+.postmark {
+  display: grid;
+  place-items: center;
+  width: clamp(42px, 13cqw, 82px);
+  aspect-ratio: 1;
+  border: 3px double var(--ink-soft);
+  border-radius: 50%;
+  text-align: center;
+  transform: rotate(-12deg);
+  font-size: clamp(7px, 1.6cqw, 10px);
+}
+.rules i {
+  display: block;
+  border-bottom: 1px solid var(--line-strong);
+  height: clamp(12px, 4cqw, 30px);
+}
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 4px 4px;
+}
+.tools button {
+  padding: 0 10px;
+  font-size: 12px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .faces,
+  .turned {
+    transform: none;
+  }
+  .front,
+  .back {
+    transform: none;
+    transition: opacity 150ms linear;
+  }
+  .front {
+    opacity: 1;
+  }
+  .back {
+    opacity: 0;
+  }
+  .turned .front {
+    opacity: 0;
+  }
+  .turned .back {
+    opacity: 1;
+  }
+}
+
+.address {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+  align-items: center;
+  gap: clamp(4px, 2cqw, 16px);
+  min-height: 0;
+}
+.address > div:first-child {
+  grid-column: 2;
+  grid-row: 1;
+  width: min(100%, 90px);
+  justify-self: end;
+}
+.address figure {
+  width: 100% !important;
+}
+.address figcaption {
+  display: none;
+}
+.postmark {
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 100%;
+}
+.rules {
+  grid-column: 1 / -1;
+}

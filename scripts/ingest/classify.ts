@@ -1,5 +1,5 @@
 // Name-based theme inference for listings without editorial review. Output is marked themeSource: 'inferred' and should be replaced by curated tags over time.
-import type { Theme, SceneFamily } from '../../src/lib/types.ts'
+import type { Theme, SceneFamily, Region } from '../../src/lib/types.ts'
 
 const RULES: [Theme, RegExp][] = [
   [
@@ -71,4 +71,63 @@ export function hashSeed(s: string): number {
     h = Math.imul(h, 0x01000193)
   }
   return h >>> 0
+}
+
+const REGION_BY_STATE: Record<string, Region> = {
+  WA: 'pacific-northwest',
+  OR: 'pacific-northwest',
+  CA: 'california',
+  AZ: 'southwest',
+  NM: 'southwest',
+  NV: 'southwest',
+  UT: 'southwest',
+  CO: 'rockies',
+  WY: 'rockies',
+  MT: 'rockies',
+  ID: 'rockies',
+  ND: 'great-plains',
+  SD: 'great-plains',
+  NE: 'great-plains',
+  KS: 'great-plains',
+  OK: 'great-plains',
+  TX: 'great-plains',
+  MN: 'upper-midwest',
+  WI: 'upper-midwest',
+  IA: 'upper-midwest',
+  MI: 'great-lakes',
+  IL: 'great-lakes',
+  IN: 'great-lakes',
+  OH: 'great-lakes',
+  MO: 'ozarks',
+  AR: 'ozarks',
+  LA: 'deep-south',
+  MS: 'deep-south',
+  AL: 'deep-south',
+  GA: 'deep-south',
+  SC: 'deep-south',
+  FL: 'florida',
+  NC: 'appalachia',
+  VA: 'appalachia',
+  WV: 'appalachia',
+  TN: 'appalachia',
+  KY: 'appalachia',
+  PA: 'mid-atlantic',
+  NY: 'mid-atlantic',
+  NJ: 'mid-atlantic',
+  MD: 'mid-atlantic',
+  DE: 'mid-atlantic',
+  DC: 'mid-atlantic',
+  ME: 'new-england',
+  NH: 'new-england',
+  VT: 'new-england',
+  MA: 'new-england',
+  CT: 'new-england',
+  RI: 'new-england',
+  AK: 'alaska',
+  HI: 'hawaii',
+}
+
+/** Coarse landscape region for a state; unknown codes fall back to the plains so illustration never fails. */
+export function regionFor(state: string): Region {
+  return REGION_BY_STATE[state] ?? 'great-plains'
 }

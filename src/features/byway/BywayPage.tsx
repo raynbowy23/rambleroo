@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router'
 import { useByway, useStory } from '../../lib/data'
-import { formatMiles, listingDescription, shortDesignation } from '../../lib/format'
+import { illustrationCaption, formatMiles, listingDescription, shortDesignation } from '../../lib/format'
 import { stateNames } from '../../lib/states'
+import { greatCircleMiles } from '../../lib/geo'
+import { PostcardArt } from '../postcard/PostcardArt'
 import { usePassport } from '../../lib/passport'
 import { Scene } from '../../components/art'
 import { Hero, PageStatus, Sources } from '../../components/ui/Content'
@@ -30,7 +32,9 @@ export default function BywayPage() {
   const { story, status: storyStatus } = useStory(id)
   const saved = usePassport((p) => Boolean(id && p.saved[id]))
   const toggleSave = usePassport((p) => p.toggleSave)
+  const [note, setNote] = useState('')
   const [editing, setEditing] = useState(false)
+  useEffect(() => setNote(''), [id])
   const [active, setActive] = useState<number | null>(null)
   const [start, setStart] = useState<{ id: string; point: number[] }>()
   useEffect(() => {
@@ -58,6 +62,17 @@ export default function BywayPage() {
       .sort((a, c) => rank(c.states) - rank(a.states) || a.name.localeCompare(c.name))
       .slice(0, 4)
   }, [b, byways])
+  const nearby = useMemo(
+    () =>
+      b
+        ? byways
+            .filter((road) => road.id !== b.id)
+            .map((road) => ({ road, miles: greatCircleMiles(b.center, road.center) }))
+            .sort((a, c) => a.miles - c.miles || a.road.id.localeCompare(c.road.id))
+            .slice(0, 4)
+        : [],
+    [b, byways],
+  )
   if (status === 'loading') return <PageStatus title="Opening the road…" />
   if (status === 'error') return <PageStatus title="The catalog could not be loaded" error />
   if (!b) return <PageStatus title="Byway not found" />
@@ -76,7 +91,15 @@ export default function BywayPage() {
   }
   return (
     <main>
-      <Hero family={b.scene} seed={b.seed} title={b.name} kicker={shortDesignation(b)}>
+      <Hero
+        mobileArtBand
+        region={b.region}
+        motifs={story?.motifs}
+        family={b.scene}
+        seed={b.seed}
+        title={b.name}
+        kicker={shortDesignation(b)}
+      >
         <p className={s.subline}>{story?.tagline ?? listingDescription(b)}</p>
         <p className={s.muted}>
           {story
@@ -115,7 +138,7 @@ export default function BywayPage() {
             Share
           </button>
           <Link className="btn btn-ghost" to={`/?byway=${b.id}`}>
-            Show on atlas
+            Show on the map
           </Link>
         </div>
         {saved && <small>Saved in this browser</small>}
@@ -146,8 +169,18 @@ export default function BywayPage() {
                       onBlur={() => setActive(null)}
                     >
                       <div className={s.momentArt}>
-                        <Scene family={m.scene} seed={b.seed + i + 1} variant="postcard" />
-                        <span className={s.credit}>Illustration</span>
+                        <Scene
+                          region={b.region}
+                          motifs={m.motifs}
+                          framed
+                          title={illustrationCaption(m.title, b.region, m.motifs)}
+                          family={m.scene}
+                          seed={b.seed + i + 1}
+                          variant="postcard"
+                        />
+                        <span className={s.credit} tabIndex={0} title={illustrationCaption(m.title, b.region, m.motifs)}>
+                          Illustration<span className="visually-hidden">: {illustrationCaption(m.title, b.region, m.motifs)}</span>
+                        </span>
                       </div>
                       <div className={s.momentBody}>
                         <span className={s.badge}>{m.kind}</span>
@@ -211,6 +244,22 @@ export default function BywayPage() {
             <p className={s.muted}>Opens directions to one point on the road, not a route along the byway.</p>
           </aside>
         </div>
+        <section className={s.section}>
+          <h2>A postcard from the road</h2>
+          <PostcardArt key={b.id} byway={b} story={story} note={note} onNote={setNote} />
+        </section>
+        <section className={s.section}>
+          <h2>Roads nearby</h2>
+          <p className={s.muted}>Distances between mapped road centers, not driving distances.</p>
+          <div className={s.rail}>
+            {nearby.map(({ road, miles }) => (
+              <div key={road.id}>
+                <p>≈ {Math.round(miles).toLocaleString('en-US')} mi away (straight line)</p>
+                <Postcard byway={road} layout="card" />
+              </div>
+            ))}
+          </div>
+        </section>
         {!!related.length && (
           <section className={s.section}>
             <h2>More roads like this</h2>
@@ -222,7 +271,7 @@ export default function BywayPage() {
           </section>
         )}
       </div>
-      {editing && <VisitEditor key={b.id} byway={b} onClose={() => setEditing(false)} />}
+      {editing && <VisitEditor initialNote={note} key={b.id} byway={b} onClose={() => setEditing(false)} />}
     </main>
   )
 }

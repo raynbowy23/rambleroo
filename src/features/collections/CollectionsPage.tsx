@@ -33,11 +33,13 @@ export default function CollectionsPage() {
           family={collection.scene}
           seed={collections.indexOf(collection) + 1}
           title={collection.title}
-          kicker={`Editorial · ${collection.kicker}`}
+          kicker={collection.kicker}
+          editorial
         >
           <p className={s.subline}>{collection.intro}</p>
           <p>
-            You've visited {collection.bywayIds.filter((id) => visited.has(id)).length} of {collection.bywayIds.length}
+            {collection.bywayIds.length} byways · You've visited {collection.bywayIds.filter((id) => visited.has(id)).length} of{' '}
+            {collection.bywayIds.length}
           </p>
           <div className={s.actions}>
             <Link className="btn btn-ghost" to="/collections">
@@ -70,18 +72,21 @@ export default function CollectionsPage() {
   const shown = collections.filter((c) => !theme || c.bywayIds.some((id) => byId.get(id)?.themes.includes(theme)))
   return (
     <main className={s.page}>
-      <span className="kicker">Editorial collections</span>
-      <h1>Collections</h1>
-      <p className={s.subline}>A few roads with something in common.</p>
-      <p>Explore small, handpicked sets from the byway catalog.</p>
+      <div className={s.collectionIntro}>
+        <span className="kicker">Editorial collections</span>
+        <h1>Collections</h1>
+        <p className={s.subline}>A few roads with something in common.</p>
+        <p>Explore small, handpicked sets from the byway catalog.</p>
+      </div>
       <ThemeChips value={theme} onChange={setTheme} />
       <div className={s.grid}>
         {shown.map((c) => (
           <Link className={s.cover} to={`/collections/${c.slug}`} key={c.slug}>
             <Scene family={c.scene} seed={collections.indexOf(c) + 1} variant="cover" />
+            <span className={s.editorial}>Editorial</span>
             <span className={s.credit}>Illustration</span>
             <div className={s.coverText}>
-              <span className="kicker">Editorial · {c.kicker}</span>
+              <span className="kicker">{c.kicker}</span>
               <h2>{c.title}</h2>
               <div className={s.coverFooter}>
                 <span>{c.bywayIds.length} byways</span>

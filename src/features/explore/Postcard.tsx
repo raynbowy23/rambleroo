@@ -1,20 +1,20 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { Link } from 'react-router'
-import { Scene, Icon } from '../../components/art'
+import { Icon, Scene } from '../../components/art'
 import type { BywaySummary } from '../../lib/types'
 import { useStory } from '../../lib/data'
-import { useMotionEnabled } from '../../lib/motion'
 import { usePassport } from '../../lib/passport'
-import { formatMiles, shortDesignation, listingDescription } from '../../lib/format'
+import { formatMiles, shortDesignation, listingDescription, illustrationCaption } from '../../lib/format'
 import { stateNames } from '../../lib/states'
 import { toast } from '../../components/ui/Toast'
 import styles from './Postcard.module.css'
+import { PostcardArt } from '../postcard/PostcardArt'
 import { VisitEditor } from '../passport/VisitEditor'
 export function Postcard({
   byway: b,
   onClose,
   onSelect,
-  onShowMap,
+  mapTo,
   selected = false,
   focusHeading = false,
   layout,
@@ -24,18 +24,20 @@ export function Postcard({
   byway: BywaySummary
   onClose?: () => void
   onSelect?: () => void
-  onShowMap?: () => void
+  mapTo?: string
   selected?: boolean
   focusHeading?: boolean
-  layout?: 'card'
+  layout?: 'card' | 'gallery'
   saveLabel?: string
   stateCode?: string
 }) {
+  const gallery = layout === 'gallery'
   const [editing, setEditing] = useState(false)
   const { story } = useStory(b.id)
-  const motion = useMotionEnabled()
+  const [note, setNote] = useState('')
   const saved = usePassport((s) => Boolean(s.saved[b.id]))
   const toggleSave = usePassport((s) => s.toggleSave)
+  useEffect(() => setNote(''), [b.id])
   const heading = useRef<HTMLHeadingElement>(null)
   const id = useId()
   useEffect(() => {
@@ -49,14 +51,19 @@ export function Postcard({
         aria-labelledby={id}
       >
         <div className={styles.art}>
-          {onSelect ? (
-            <button className={styles.artButton} aria-label={`Select ${b.name}`} aria-pressed={selected} onClick={onSelect}>
-              <Scene family={b.scene} seed={b.seed} variant="postcard" animate={motion && selected} />
-            </button>
+          {gallery ? (
+            <Scene
+              family={b.scene}
+              seed={b.seed}
+              region={b.region}
+              motifs={story?.motifs}
+              framed
+              variant="postcard"
+              title={illustrationCaption(b.name, b.region, story?.motifs)}
+            />
           ) : (
-            <Scene family={b.scene} seed={b.seed} variant="postcard" animate={motion} />
+            <PostcardArt key={b.id} byway={b} story={story} note={note} onNote={setNote} onSelect={onSelect} selected={selected} />
           )}
-          <span className={styles.credit}>Illustration</span>
           {onClose && (
             <button className={`btn btn-icon ${styles.close}`} aria-label="Back to results" onClick={onClose}>
               <Icon name="close" />
@@ -67,7 +74,7 @@ export function Postcard({
         <div className={styles.body}>
           <span className="kicker">{shortDesignation(b)}</span>
           <h2 ref={heading} tabIndex={-1} id={id}>
-            {onSelect ? (
+            {onSelect && !gallery ? (
               <button className={styles.title} onClick={onSelect} aria-pressed={selected}>
                 {b.name}
               </button>
@@ -84,6 +91,7 @@ export function Postcard({
                 : `${formatMiles(b.mappedMiles)} in total`}
             </span>
             <span>{story ? (story.reviewed ? 'Story' : 'Draft story · pending review') : 'Listing'}</span>
+            {mapTo && <Link to={mapTo}>Show on map</Link>}
           </div>
           <div className={styles.actions}>
             <Link className="btn btn-primary" to={`/byway/${b.id}`}>
@@ -102,19 +110,15 @@ export function Postcard({
               {saved ? (saveLabel ?? 'Saved') : 'Save'}
             </button>
           </div>
-          <button className={`btn btn-ghost ${styles.mapButton}`} onClick={() => setEditing(true)}>
-            Record a visit
-          </button>
-          {saved && <small>Saved in this browser</small>}
-          {onShowMap && (
-            <button className={`btn btn-ghost ${styles.mapButton}`} onClick={onShowMap}>
-              <Icon name="map" />
-              Show on map
+          {!gallery && (
+            <button className={`btn btn-ghost ${styles.mapButton}`} onClick={() => setEditing(true)}>
+              Record a visit
             </button>
           )}
+          {saved && <small>Saved in this browser</small>}
         </div>
       </article>
-      {editing && <VisitEditor byway={b} onClose={() => setEditing(false)} />}
+      {editing && <VisitEditor byway={b} initialNote={note} onClose={() => setEditing(false)} />}
     </>
   )
 }

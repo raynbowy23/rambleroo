@@ -9,7 +9,7 @@ import { usePassport, passportCounts } from '../../lib/passport'
 import { useHover } from '../map/hover'
 import { Postcard } from './Postcard'
 import styles from './Explore.module.css'
-const AtlasMap = lazy(() => import('../map/AtlasMap').then((module) => ({ default: module.AtlasMap })))
+const BywayMap = lazy(() => import('../map/BywayMap').then((module) => ({ default: module.BywayMap })))
 export default function ExplorePage() {
   const navigate = useNavigate()
   const catalog = useCatalog()
@@ -91,7 +91,7 @@ export default function ExplorePage() {
     <main className={`${styles.explore} ${view !== 'map' ? styles.browse : ''}`}>
       {view === 'map' && catalog.status === 'ready' && (
         <Suspense fallback={null}>
-          <AtlasMap byways={catalog.byways} selected={selected} ids={ids} onSelect={(id) => select(id)} onFailure={() => setFailed(true)} />
+          <BywayMap byways={catalog.byways} selected={selected} ids={ids} onSelect={(id) => select(id)} onFailure={() => setFailed(true)} />
         </Suspense>
       )}
       <aside
@@ -219,7 +219,7 @@ export default function ExplorePage() {
                   </button>
                 )}
               </div>
-              {catalog.status === 'loading' && <p role="status">Opening the atlas…</p>}
+              {catalog.status === 'loading' && <p role="status">Opening the map…</p>}
               {catalog.status === 'error' && <p role="alert">{catalog.error?.message}</p>}
               <div className={styles.results}>
                 {filtered.slice(0, limit).map((b) => (
@@ -234,7 +234,7 @@ export default function ExplorePage() {
                     onFocus={() => useHover.getState().setId(b.id)}
                     onBlur={() => useHover.getState().setId(null)}
                   >
-                    <Scene family={b.scene} seed={b.seed} variant="thumb" />
+                    <Scene family={b.scene} region={b.region} seed={b.seed} variant="thumb" />
                     <span>
                       <strong>{b.name}</strong>
                       <small>
@@ -271,7 +271,7 @@ export default function ExplorePage() {
             </p>
           )}
           <div className={styles.browseTitle}>
-            <span className="kicker">A living atlas</span>
+            <span className="kicker">Scenic roads of America</span>
             <h2>{view === 'gallery' ? 'Find your next road' : 'The byway index'}</h2>
           </div>
           {view === 'gallery' ? (
@@ -281,15 +281,8 @@ export default function ExplorePage() {
                   <Postcard
                     byway={b}
                     selected={selectedId === b.id}
-                    onSelect={() => select(b.id)}
-                    onShowMap={() =>
-                      setParams((p) => {
-                        const n = new URLSearchParams(p)
-                        n.set('byway', b.id)
-                        n.set('view', 'map')
-                        return n
-                      })
-                    }
+                    layout="gallery"
+                    mapTo={`/?${new URLSearchParams({ ...Object.fromEntries(params), byway: b.id, view: 'map' })}`}
                   />
                 </div>
               ))}
@@ -343,7 +336,7 @@ export default function ExplorePage() {
         </div>
       )}
       {view === 'map' && (
-        <div className={styles.rail}>
+        <div data-map-decoration className={styles.rail}>
           <Link className={styles.passport} to="/passport">
             <Icon name="stamp" size={30} />
             <span>

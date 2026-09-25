@@ -249,13 +249,15 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  flex: 0 0 140px;
+  flex: 0 0 200px;
+  height: 48px;
   font-size: 11px;
   text-decoration: none;
 }
 .collections svg {
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
   border-radius: var(--radius-sm);
 }
 .collections > .kicker {
@@ -489,4 +491,12 @@ tr[aria-selected='true'] {
   .withSelection {
     visibility: hidden;
   }
+}
+
+.collections > a > span {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.3;
 }

@@ -3,14 +3,11 @@ import { Icon, Logo, type IconName } from '../art'
 import { Toast } from '../ui/Toast'
 import { useCatalog } from '../../lib/data'
 import { usePassport } from '../../lib/passport'
-import { useMotion, useMotionEnabled } from '../../lib/motion'
 import styles from './Layout.module.css'
 export default function Layout() {
   const { pathname } = useLocation()
   const { meta } = useCatalog()
   const count = usePassport((s) => Object.keys(s.saved).length + s.visits.length)
-  const motion = useMotionEnabled()
-  const setPreference = useMotion((s) => s.setPreference)
   const nav = (
     <>
       {(
@@ -41,19 +38,10 @@ export default function Layout() {
         <Link to="/" className={styles.logo} aria-label="Rambleroo home">
           <Logo size={32} />
         </Link>
-        <span className={`kicker ${styles.tagline}`}>Scenic roads · wandered well</span>
+        <span className={`kicker ${styles.tagline}`}>Est. 2026 · Scenic roads of America</span>
         <nav className={styles.desktop} aria-label="Main navigation">
           {nav}
         </nav>
-        <button
-          className="btn btn-icon btn-ghost"
-          aria-label="Pause ambient motion"
-          title={motion ? 'Pause ambient motion' : 'Resume ambient motion'}
-          aria-pressed={!motion}
-          onClick={() => setPreference(motion ? 'off' : 'on')}
-        >
-          <Icon name={motion ? 'pause' : 'play'} />
-        </button>
         <Link className={styles.about} to="/about">
           About the data
         </Link>

@@ -17,3 +17,13 @@ export function listingDescription(b: BywaySummary) {
     .join(' and ')
   return `A ${character || 'scenic'} road${place ? ` through ${place}` : ''}.`
 }
+
+export function illustrationCaption(place: string, region: import('./types').Region, motifs?: import('./types').Motif[]) {
+  const label = region
+    .split('-')
+    .map((word) => word[0].toUpperCase() + word.slice(1))
+    .join(' ')
+  return motifs?.length
+    ? `Illustrated impression of ${place}. Not a photograph.`
+    : `Illustration of ${label} landscape, not a view of this road.`
+}

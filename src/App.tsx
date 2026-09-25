@@ -47,7 +47,7 @@ const router = createBrowserRouter([
           <main className={styles.page}>
             <h1>A little off the beaten path.</h1>
             <p>We couldn’t find that page.</p>
-            <Link to="/">Return to the atlas</Link>
+            <Link to="/">Return to the map</Link>
           </main>
         ),
       },
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
 ])
 export default function App() {
   return (
-    <Suspense fallback={<p role="status">Opening the atlas…</p>}>
+    <Suspense fallback={<p role="status">Opening the map…</p>}>
       <RouterProvider router={router} />
     </Suspense>
   )

@@ -12,20 +12,13 @@ export function Seal({
 }) {
   const id = `seal-${useId().replace(/[^a-zA-Z0-9_-]/g, '')}`
   return (
-    <svg
-      className={`atlas-seal ${className ?? ''}`}
-      width={size}
-      height={size}
-      viewBox="0 0 112 112"
-      aria-hidden="true"
-      fill="currentColor"
-    >
+    <svg className={`rr-seal ${className ?? ''}`} width={size} height={size} viewBox="0 0 112 112" aria-hidden="true" fill="currentColor">
       <defs>
         <path id={id} d="M56 13a43 43 0 1 1-.01 0" />
       </defs>
       <circle cx="56" cy="56" r="55" fill="none" stroke="currentColor" strokeWidth=".65" />
       <circle cx="56" cy="56" r="34" fill="none" stroke="currentColor" strokeWidth=".5" />
-      <text className="art-serif" fontSize="8.5" letterSpacing="2.4">
+      <text className="rr-serif" fontSize="8.5" letterSpacing="2.4">
         <textPath href={`#${id}`} startOffset="50%" textAnchor="middle" textLength="253" lengthAdjust="spacing">
           {text.toUpperCase()} ·
         </textPath>

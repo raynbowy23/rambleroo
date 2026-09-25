@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { Dialog } from '../../components/ui/Dialog'
 import { Stamp } from '../../components/art'
 import { toast } from '../../components/ui/Toast'
+import { useStory } from '../../lib/data'
 import { usePassport } from '../../lib/passport'
 import { useMotionEnabled } from '../../lib/motion'
 import type { BywaySummary, Visit, VisitScope } from '../../lib/types'
@@ -11,18 +12,31 @@ function localToday() {
   const date = new Date()
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
 }
-export function VisitEditor({ byway, visit, onClose }: { byway: BywaySummary; visit?: Visit; onClose: () => void }) {
+export function VisitEditor({
+  byway,
+  visit,
+  initialNote = '',
+  onClose,
+}: {
+  byway: BywaySummary
+  visit?: Visit
+  initialNote?: string
+  onClose: () => void
+}) {
   const [date, setDate] = useState(visit?.date ?? localToday())
   const [scope, setScope] = useState<VisitScope>(visit?.scope ?? 'part')
-  const [note, setNote] = useState(visit?.note ?? '')
+  const [note, setNote] = useState(visit?.note ?? initialNote)
   const [revealed, setRevealed] = useState(false)
   const motion = useMotionEnabled()
+  const { story } = useStory(byway.id)
   return (
     <Dialog title={revealed ? 'A road to remember' : visit ? 'Edit your visit' : 'Record a visit'} onClose={onClose}>
       {revealed ? (
         <div className={s.reveal}>
           <Stamp
             family={byway.scene}
+            region={byway.region}
+            motifs={story?.motifs}
             seed={byway.seed}
             title={byway.name}
             subtitle={byway.states.join(' · ')}

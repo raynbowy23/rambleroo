@@ -5,17 +5,18 @@
 }
 .cartouche {
   position: absolute;
-  top: 24px;
-  left: 390px;
-  right: 30px;
+  top: 16px;
+  left: calc(50% + 180px);
+  transform: translateX(-50%);
+  width: min(440px, calc(100% - 420px));
   text-align: center;
   pointer-events: none;
   text-shadow: 0 1px var(--paper);
 }
 .cartouche h2 {
-  font-size: clamp(24px, 3vw, 42px);
+  font-size: clamp(24px, 2.2vw, 30px);
   font-style: italic;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 .controls {
   position: absolute;
@@ -74,14 +75,11 @@
     max-width: 390px;
     flex-wrap: wrap;
   }
-  .cartouche {
-    right: 15px;
-  }
 }
 @media (max-width: 759px) {
   .cartouche {
-    left: 15px;
-    right: 15px;
+    left: 50%;
+    width: calc(100% - 30px);
     top: 18px;
   }
   .cartouche h2 {
@@ -89,7 +87,7 @@
   }
   .controls {
     right: 10px;
-    bottom: 240px;
+    bottom: 112px;
   }
   .legend {
     display: none;
@@ -136,5 +134,86 @@
 @media (max-width: 759px) {
   .controls {
     display: var(--mobile-controls, flex);
+  }
+}
+
+.cartouche {
+  border: 3px double var(--line-strong);
+  background: radial-gradient(ellipse at center, #f3ead7ed 20%, #f3ead7b8 65%, #f3ead740);
+  padding: 8px 24px;
+}
+.cartouche::before,
+.cartouche::after {
+  content: '❦';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+.cartouche::before {
+  left: 7px;
+}
+.cartouche::after {
+  right: 7px;
+}
+.controls {
+  bottom: 135px;
+}
+.legend {
+  bottom: 112px;
+}
+.compass {
+  position: absolute;
+  right: 26px;
+  bottom: 290px;
+  pointer-events: none;
+}
+.selectedCompass {
+  right: 366px;
+}
+.waterLabels {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.waterLabels span {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font: italic 13px var(--font-serif);
+  font-variant-caps: small-caps;
+  letter-spacing: 0.2em;
+  color: #355862;
+  text-shadow: 0 1px #f3ead788;
+}
+@media (max-width: 1100px) and (min-width: 760px) {
+  .selectedCompass {
+    right: 328px;
+  }
+}
+@media (max-width: 759px) {
+  .cartouche {
+    padding: 8px;
+  }
+  .cartouche h2 {
+    font-size: 23px;
+  }
+  .controls {
+    bottom: calc(var(--sheet-height, 270px) + 10px);
+  }
+  .compass {
+    right: 16px;
+    bottom: calc(var(--sheet-height, 270px) + 65px);
+  }
+  .selectedCompass {
+    display: none;
+  }
+}
+
+@media (max-width: 1279px) {
+  .selectedCartouche {
+    display: none;
   }
 }
