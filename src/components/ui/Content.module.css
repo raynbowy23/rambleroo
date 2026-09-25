@@ -1,0 +1,506 @@
+.page {
+  max-width: 1240px;
+  margin: auto;
+  padding: 48px 32px 72px;
+  min-height: 65vh;
+  overflow-wrap: anywhere;
+}
+.page h1 {
+  font-size: var(--step-5);
+  margin: 12px 0 20px;
+}
+.page h2 {
+  font-size: clamp(26px, 3vw, 38px);
+  margin: 0 0 20px;
+}
+.page h3 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+.section {
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+.intro {
+  max-width: 740px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.intro p + p {
+  margin-top: 20px;
+}
+.subline {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(20px, 2.6vw, 29px);
+  margin: 12px 0 24px;
+}
+.muted {
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+.actions,
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0;
+}
+.chips button {
+  min-height: 44px;
+  text-transform: capitalize;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.grid > * {
+  min-width: 0;
+}
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  background: var(--paper-deep);
+}
+.heroArt {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+.heroArt > svg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.hero:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(245, 241, 232, 0.98), rgba(245, 241, 232, 0.85) 42%, rgba(245, 241, 232, 0.06) 85%);
+}
+.heroText {
+  padding: 52px max(32px, calc((100vw - 1176px) / 2));
+  padding-right: 24px;
+  max-width: min(900px, 75%);
+}
+.hero h1 {
+  font-size: clamp(40px, 5.5vw, 76px);
+  margin: 12px 0 20px;
+  overflow-wrap: anywhere;
+}
+.hero p + p {
+  margin-top: 16px;
+}
+.credit {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+  margin: 24px 0;
+  font-size: 13px;
+}
+.facts span {
+  max-width: 100%;
+}
+.split {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 40px;
+  align-items: start;
+}
+.body {
+  min-width: 0;
+}
+.companion {
+  position: sticky;
+  top: 88px;
+  grid-column: 2;
+  grid-row: 1;
+}
+.map {
+  height: 360px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  background: var(--paper-deep);
+}
+.mapCanvas {
+  height: 100%;
+  width: 100%;
+}
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 12px 0;
+  font-size: 12px;
+}
+.legend span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.legend i {
+  width: 25px;
+  border-top: 3px solid var(--forest);
+}
+.legend .savedLine {
+  border-color: var(--rust);
+  border-top-style: dashed;
+}
+.marker {
+  border: 2px solid var(--paper);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background: var(--forest);
+  color: var(--paper);
+  font-weight: 700;
+  cursor: pointer;
+}
+.marker[aria-pressed='true'] {
+  background: var(--rust);
+  outline: 3px solid var(--gold);
+}
+.moment {
+  border: 1px solid var(--line);
+  background: var(--card);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 24px 0;
+  scroll-margin-top: 90px;
+}
+.momentArt {
+  position: relative;
+  max-height: 260px;
+  overflow: hidden;
+}
+.momentArt svg {
+  width: 100%;
+  height: 100%;
+}
+.momentBody {
+  padding: 24px;
+}
+.momentBody p {
+  margin-top: 16px;
+}
+.badge {
+  display: inline-block;
+  border: 1px solid var(--line-strong);
+  padding: 3px 9px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.sources {
+  padding-left: 20px;
+}
+.sources li {
+  margin: 8px 0;
+}
+.sources a {
+  display: inline-block;
+  min-height: 44px;
+  padding: 10px 0;
+}
+.pending {
+  padding: 28px;
+  border: 1px dashed var(--line-strong);
+  border-radius: 10px;
+  background: var(--paper-deep);
+  color: var(--ink-soft);
+}
+.pending p {
+  margin-top: 16px;
+}
+.cover {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 440px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: var(--paper);
+  text-decoration: none;
+  isolation: isolate;
+}
+.cover > svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+.cover:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  /* Clear over the upper art, dense only behind the text block so kicker and title keep AA contrast. */
+  background: linear-gradient(transparent 30%, rgba(18, 36, 29, 0.55) 52%, rgba(18, 36, 29, 0.88) 72%, rgba(18, 36, 29, 0.94));
+  z-index: -1;
+}
+.coverText {
+  padding: 28px;
+  width: 100%;
+}
+.cover h2 {
+  font-size: 40px;
+  font-style: italic;
+  margin: 16px 0;
+}
+.cover :global(.kicker) {
+  color: var(--paper);
+  opacity: 0.9;
+}
+.cover .credit {
+  top: 12px;
+  bottom: auto;
+}
+.coverFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow {
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+}
+.personal {
+  background: var(--forest-tint);
+  border: 1px dashed var(--forest);
+  padding: 32px;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+}
+.personal h2 {
+  margin: 20px 0;
+}
+.empty {
+  text-align: center;
+  padding: 40px 16px;
+}
+.empty svg {
+  max-width: 340px;
+  margin: 0 auto 24px;
+}
+.empty p {
+  margin: 16px auto;
+}
+.stampGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.stampGrid figure {
+  margin: 0;
+}
+.stampGrid a {
+  text-decoration: none;
+}
+.passportHeader {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  background: var(--paper-deep);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 40px;
+}
+.passportHeader h1 {
+  font-size: clamp(32px, 4vw, 58px);
+}
+.passportHeader p {
+  margin: 12px 0;
+}
+.journal {
+  display: grid;
+  grid-template-columns: 100px minmax(0, 1fr);
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+}
+.journal p {
+  margin: 10px 0;
+  white-space: pre-wrap;
+}
+.journal .actions {
+  margin: 16px 0 0;
+}
+.progress {
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) minmax(80px, 2fr) auto;
+  align-items: center;
+  gap: 16px;
+  margin: 16px 0;
+}
+.progress a {
+  padding: 10px 0;
+}
+.progress progress {
+  width: 100%;
+  accent-color: var(--forest);
+}
+.book {
+  width: 190px;
+  flex-shrink: 0;
+  filter: drop-shadow(4px 8px 5px #20292522);
+  transform: rotate(-5deg);
+}
+@media (max-width: 950px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .split {
+    gap: 24px;
+  }
+  .heroText {
+    max-width: 85%;
+  }
+  .passportHeader {
+    gap: 28px;
+    padding: 28px;
+  }
+}
+@media (max-width: 700px) {
+  .page {
+    padding: 32px 16px 56px;
+  }
+  .hero {
+    min-height: 540px;
+  }
+  .heroText {
+    padding: 32px 16px 52px;
+    max-width: 100%;
+  }
+  .hero:after {
+    background: linear-gradient(90deg, rgba(245, 241, 232, 0.96), rgba(245, 241, 232, 0.78));
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .split {
+    display: flex;
+    flex-direction: column;
+  }
+  .companion {
+    position: static;
+    order: -1;
+    width: 100%;
+  }
+  .map {
+    height: 290px;
+  }
+  .body {
+    width: 100%;
+  }
+  .passportHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+  }
+  .book {
+    width: 130px;
+    margin: 0 auto;
+  }
+  .journal {
+    grid-template-columns: 64px minmax(0, 1fr);
+    gap: 16px;
+  }
+  .stampGrid {
+    gap: 16px;
+  }
+  .cover {
+    min-height: 420px;
+  }
+  .section {
+    margin-top: 36px;
+  }
+  .progress {
+    gap: 10px;
+    font-size: 13px;
+  }
+}
+
+.rail {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+.rail > * {
+  min-width: 0;
+}
+.grid,
+.rail {
+  margin-top: 24px;
+}
+.page .journal a,
+.page .stampGrid a {
+  overflow-wrap: anywhere;
+}
+.page .journal h3 a {
+  display: inline-block;
+  min-height: 44px;
+}
+.intro h2 {
+  margin-top: 28px;
+}
+@media (max-width: 1050px) {
+  .rail {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 700px) {
+  .rail {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Names printed inside the stamp are only 5–6px at these display sizes. */
+.stampGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+  gap: 28px;
+}
+.stampGrid figure {
+  width: 100% !important;
+}
+.stampName {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .stampGrid {
+    grid-template-columns: repeat(auto-fill, 120px);
+    gap: 20px;
+  }
+}
+.mapToggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--paper);
+}

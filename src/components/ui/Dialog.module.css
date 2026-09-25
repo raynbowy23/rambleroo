@@ -1,0 +1,81 @@
+.dialog {
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 28px;
+  width: min(520px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+  box-shadow: var(--shadow-3);
+}
+.dialog::backdrop {
+  background: rgb(20 35 28 / 0.65);
+}
+.heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.heading h2 {
+  font-size: 30px;
+}
+.heading button {
+  flex-shrink: 0;
+}
+.dialog form {
+  display: grid;
+  gap: 20px;
+}
+.dialog label {
+  display: grid;
+  gap: 8px;
+}
+.dialog input[type='date'],
+.dialog textarea {
+  font: inherit;
+  min-width: 0;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--card);
+  color: var(--ink);
+}
+.dialog fieldset {
+  border: 1px solid var(--line-strong);
+  margin: 0;
+  padding: 12px 16px;
+}
+.dialog fieldset label {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+}
+.dialog input[type='radio'] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--forest);
+}
+.dialog textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+.dialog p {
+  margin: 12px 0;
+}
+.reveal {
+  text-align: center;
+}
+.reveal figure {
+  margin: 20px auto;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}

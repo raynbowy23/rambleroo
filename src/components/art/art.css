@@ -1,0 +1,207 @@
+.atlas-scene {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.art-serif {
+  font-family: var(--font-serif, Georgia, serif);
+}
+.atlas-stamp {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  vertical-align: top;
+  color: var(--ink, #202925);
+  transform-origin: 50% 55%;
+}
+.atlas-stamp > svg {
+  display: block;
+  overflow: visible;
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 1px 1px #20292520);
+}
+.atlas-stamp figcaption {
+  margin-top: 5px;
+  font-family: var(--font-sans, sans-serif);
+  font-size: clamp(8px, 0.65em, 11px);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  text-align: center;
+}
+.atlas-seal,
+.atlas-compass,
+.atlas-logo {
+  color: var(--forest, #214a3b);
+  flex-shrink: 0;
+}
+.atlas-logo {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-family: var(--font-serif, Georgia, serif);
+  font-weight: 560;
+  letter-spacing: -0.045em;
+  line-height: 1;
+}
+.art-animate .art-shimmer {
+  animation: atlas-shimmer 9s linear infinite;
+}
+.art-animate .art-mist {
+  animation: atlas-drift 14s ease-in-out infinite alternate;
+}
+.art-animate .art-cloud {
+  animation: atlas-drift 12s ease-in-out infinite alternate;
+}
+.art-animate .art-sun {
+  animation: atlas-glow 8s ease-in-out infinite alternate;
+}
+.art-animate .art-beam {
+  transform-origin: 0px -42px;
+  animation: atlas-beam 10s ease-in-out infinite alternate;
+}
+.art-press {
+  animation: atlas-press 450ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.art-press .art-cancel {
+  animation: atlas-ink 300ms ease-out 350ms both;
+}
+@keyframes atlas-shimmer {
+  to {
+    stroke-dashoffset: -78;
+  }
+}
+@keyframes atlas-drift {
+  to {
+    transform: translateX(9px);
+  }
+}
+@keyframes atlas-glow {
+  to {
+    opacity: 0.62;
+  }
+}
+@keyframes atlas-beam {
+  to {
+    transform: rotate(9deg);
+    opacity: 0.06;
+  }
+}
+@keyframes atlas-press {
+  0% {
+    transform: scale(1.15) rotate(-5deg);
+    filter: drop-shadow(0 12px 8px #20292530);
+  }
+  65% {
+    transform: scale(0.975) rotate(0.5deg);
+  }
+  82% {
+    transform: scale(1.015) rotate(-0.3deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+    filter: none;
+  }
+}
+@keyframes atlas-ink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.76;
+  }
+}
+:root[data-motion='off'] .art-animate *,
+:root[data-motion='off'] .art-press,
+:root[data-motion='off'] .art-press * {
+  animation: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .art-animate *,
+  .art-press,
+  .art-press * {
+    animation: none !important;
+  }
+}
+.art-gallery {
+  max-width: 1500px;
+  margin: auto;
+  padding: 40px 24px;
+  background: var(--paper, #f5f1e8);
+  color: var(--ink, #202925);
+}
+.art-gallery h1,
+.art-gallery h2,
+.art-gallery h3 {
+  font-family: var(--font-serif, Georgia, serif);
+}
+.art-gallery h1 {
+  font-size: clamp(32px, 5vw, 64px);
+  font-weight: 560;
+  margin: 24px 0 12px;
+}
+.art-gallery h2 {
+  margin-top: 48px;
+  border-top: 1px solid var(--line, #ddd3bf);
+  padding-top: 24px;
+}
+.art-gallery h3 {
+  text-transform: capitalize;
+}
+.art-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px 16px;
+}
+.art-gallery figure {
+  margin: 0;
+  min-width: 0;
+}
+.art-gallery figcaption {
+  font: 11px var(--font-sans, sans-serif);
+  letter-spacing: 0.06em;
+  padding-top: 8px;
+}
+.art-gallery-sample {
+  box-shadow: 0 2px 5px #20292516;
+  overflow: hidden;
+}
+.art-gallery-badges,
+.art-gallery-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+.art-gallery-icons > figure {
+  width: 100px;
+  text-align: center;
+}
+.art-gallery-icons svg {
+  margin: auto;
+}
+.art-gallery button {
+  border: 1px solid var(--forest, #214a3b);
+  background: transparent;
+  color: inherit;
+  border-radius: 3px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.art-gallery button:focus-visible {
+  outline: 2px solid var(--rust, #b44c2a);
+  outline-offset: 3px;
+}
+@media (max-width: 700px) {
+  .art-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.atlas-seal,
+.atlas-logo {
+  color: var(--ink, #202925);
+}

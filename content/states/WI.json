@@ -1,0 +1,32 @@
+{
+  "code": "WI",
+  "name": "Wisconsin",
+  "tagline": "Big rivers, two Great Lakes, and the small towns in between.",
+  "intro": "Wisconsin's scenic byways run along the Mississippi and Wisconsin rivers, around the Door Peninsula, and up to Lake Superior. This chapter follows the state's own byway program, and lists the national forest byways in the Chequamegon-Nicolet separately because they come from a different designation program.",
+  "programs": [
+    {
+      "label": "Wisconsin Scenic Byways program",
+      "issuer": "Wisconsin Department of Transportation",
+      "members": [
+        { "name": "Wisconsin Great River Road", "bywayId": "great-river-road-2279" },
+        { "name": "Lower Wisconsin River Road", "bywayId": "lower-wisconsin-river-road-scenic-byway-80920" },
+        { "name": "Door County Coastal Byway", "bywayId": "door-county-coastal-byway-81450" },
+        { "name": "Wisconsin Lake Superior Scenic Byway", "bywayId": null, "note": "Not in the 2022 national byway dataset this atlas draws from. Route line pending review." },
+        { "name": "Nicolet-Wolf River Scenic Byway", "bywayId": null, "note": "Not in the 2022 national byway dataset this atlas draws from. Route line pending review." }
+      ]
+    },
+    {
+      "label": "National Forest Scenic Byways",
+      "issuer": "USDA Forest Service",
+      "members": [
+        { "name": "Great Divide Highway", "bywayId": "great-divide-highway-2325" },
+        { "name": "Heritage Drive", "bywayId": "heritage-drive-2324" }
+      ]
+    }
+  ],
+  "sources": [
+    { "label": "WisDOT, Explore Wisconsin's Scenic Byways", "url": "https://wisconsindot.gov/Pages/travel/road/scenic-ways/byways.aspx" },
+    { "label": "USDOT Scenic Byways layer (2022-06-24)", "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/Scenic_Byways_2022_06_24/FeatureServer/0" }
+  ],
+  "bbox": [-92.95, 42.45, -86.75, 47.1]
+}

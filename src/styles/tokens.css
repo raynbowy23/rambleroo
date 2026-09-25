@@ -1,0 +1,96 @@
+/* Rambleroo design tokens. Palette starts from blueprint §4 and was contrast-checked: ink on paper ≈ 14:1, rust on paper ≈ 4.6:1, paper on rust ≈ 5.2:1, paper on forest ≈ 9:1. */
+:root {
+  /* Surfaces */
+  --paper: #f5f1e8;
+  --paper-deep: #ece4d3;
+  --card: #fbf8f1;
+  --line: #ddd3bf;
+  --line-strong: #c9bca2;
+
+  /* Ink */
+  --ink: #202925;
+  --ink-soft: #4a524d;
+  --ink-muted: #6b716b;
+
+  /* Brand */
+  --forest: #214a3b;
+  --forest-2: #2f6b55;
+  --forest-tint: #dfe6dc;
+  --rust: #b44c2a;
+  --rust-2: #cf6a3e;
+  --rust-tint: #f3dfd3;
+  --gold: #e0a93b;
+
+  /* Cartography */
+  --water: #91adb4;
+  --water-light: #bfd1d3;
+  --water-deep: #5e8a96;
+  --land: #efe7d4;
+  --land-us: #f3ecdc;
+  --sand: #d8cbb3;
+  --sage: #a9b89a;
+  --terrain: #c7b98f;
+
+  /* Scene palette used by illustrations */
+  --sky-dawn: #f2d9b8;
+  --sky-day: #cfe0e0;
+  --leaf-autumn: #c8742f;
+  --leaf-gold: #d9a441;
+  --stone: #b9ab92;
+
+  /* Type */
+  --font-serif: 'Fraunces Variable', 'Iowan Old Style', Georgia, serif;
+  --font-sans: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-hand: 'Caveat', 'Segoe Print', cursive;
+
+  --step--1: 0.8125rem;
+  --step-0: 0.9375rem;
+  --step-1: 1.125rem;
+  --step-2: 1.5rem;
+  --step-3: 2rem;
+  --step-4: clamp(2.25rem, 4vw + 1rem, 3.5rem);
+  --step-5: clamp(2.75rem, 6vw + 1rem, 5rem);
+  --tracking-caps: 0.18em;
+
+  /* Space, radius, shadow */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 72px;
+  --radius-sm: 6px;
+  --radius: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+  --shadow-1: 0 1px 2px rgb(32 41 37 / 0.06), 0 2px 8px rgb(32 41 37 / 0.05);
+  --shadow-2: 0 4px 14px rgb(32 41 37 / 0.1), 0 1px 3px rgb(32 41 37 / 0.08);
+  --shadow-3: 0 18px 48px rgb(32 41 37 / 0.18), 0 4px 10px rgb(32 41 37 / 0.08);
+
+  /* Motion (blueprint §6 starting points) */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast: 160ms;
+  --dur-panel: 360ms;
+  --dur-trace: 800ms;
+
+  --header-h: 64px;
+  --focus-ring: 0 0 0 3px var(--paper), 0 0 0 5px var(--forest-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur-panel: 0ms;
+    --dur-trace: 0ms;
+  }
+}
+
+/* Set by the motion toggle in the header; mirrors the OS preference. */
+:root[data-motion='off'] {
+  --dur-fast: 0ms;
+  --dur-panel: 0ms;
+  --dur-trace: 0ms;
+}

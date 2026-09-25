@@ -1,0 +1,18 @@
+{
+  "id": "route-1-big-sur-coast-highway-2301",
+  "tagline": "Mountains that drop straight into the Pacific.",
+  "intro": [
+    "Highway 1 through Big Sur follows a steep, largely undeveloped coastline where the Santa Lucia Mountains meet the ocean. The road is carved into the slope and crosses a series of canyons on high bridges.",
+    "Landslides close parts of this road for long periods. Check Caltrans for current status before planning a through trip."
+  ],
+  "season": "Spring for wildflowers, autumn for clearer skies. Summer mornings are often foggy.",
+  "moments": [
+    { "title": "Bixby Creek Bridge", "kind": "roadside", "scene": "coast", "text": "A concrete arch bridge high above the mouth of Bixby Creek.", "at": [-121.902, 36.372] },
+    { "title": "Point Sur", "kind": "separate excursion", "scene": "coast", "text": "A lighthouse on a volcanic rock off the coast, visited on guided tours.", "at": [-121.901, 36.306] },
+    { "title": "McWay Falls", "kind": "short walk", "scene": "coast", "text": "A waterfall that drops onto the beach of a small cove, seen from a short trail.", "at": [-121.672, 36.157] }
+  ],
+  "sources": [
+    { "label": "Caltrans, QuickMap road conditions", "url": "https://quickmap.dot.ca.gov/" }
+  ],
+  "reviewed": false
+}

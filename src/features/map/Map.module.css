@@ -1,0 +1,140 @@
+.map {
+  position: absolute;
+  inset: 0;
+  background: var(--water-light);
+}
+.cartouche {
+  position: absolute;
+  top: 24px;
+  left: 390px;
+  right: 30px;
+  text-align: center;
+  pointer-events: none;
+  text-shadow: 0 1px var(--paper);
+}
+.cartouche h2 {
+  font-size: clamp(24px, 3vw, 42px);
+  font-style: italic;
+  margin-top: 8px;
+}
+.controls {
+  position: absolute;
+  right: 20px;
+  bottom: 135px;
+  display: flex;
+  flex-direction: column;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+}
+.controls button {
+  font-size: 12px;
+  border: 0;
+  border-radius: 0;
+  padding: 0 12px;
+}
+.legend {
+  position: absolute;
+  left: 390px;
+  bottom: 112px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--card);
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  font-size: 10px;
+  box-shadow: var(--shadow-1);
+}
+.legend span {
+  display: none;
+}
+.legend i {
+  width: 16px;
+  height: 3px;
+  background: var(--water-deep);
+}
+.legend i:nth-of-type(2) {
+  background: var(--forest-2);
+}
+.legend i:nth-of-type(3) {
+  background: var(--rust-2);
+}
+.legend i:nth-of-type(4),
+.legend b {
+  color: var(--rust);
+  background: var(--rust);
+}
+.legend b {
+  background: none;
+}
+@media (max-width: 1100px) {
+  .legend {
+    max-width: 390px;
+    flex-wrap: wrap;
+  }
+  .cartouche {
+    right: 15px;
+  }
+}
+@media (max-width: 759px) {
+  .cartouche {
+    left: 15px;
+    right: 15px;
+    top: 18px;
+  }
+  .cartouche h2 {
+    font-size: 26px;
+  }
+  .controls {
+    right: 10px;
+    bottom: 240px;
+  }
+  .legend {
+    display: none;
+  }
+}
+
+.cartouche {
+  padding: 12px 24px 24px;
+  background: radial-gradient(ellipse at center, var(--paper) 15%, rgba(245, 241, 232, 0.92) 40%, transparent 72%);
+}
+.controls {
+  bottom: 170px;
+}
+.controls select {
+  min-height: 44px;
+  max-width: 100px;
+  border: 0;
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  font-size: 12px;
+}
+.selectedControls {
+  right: 360px;
+}
+@media (min-width: 760px) and (max-width: 1100px) {
+  .selectedControls {
+    right: 322px;
+  }
+}
+@media (max-width: 759px) {
+  .selectedCartouche {
+    display: none;
+  }
+  .controls,
+  .selectedControls {
+    right: 10px;
+    bottom: calc(var(--sheet-height, 270px) + 10px);
+    flex-direction: row;
+    max-height: 44px;
+  }
+}
+
+@media (max-width: 759px) {
+  .controls {
+    display: var(--mobile-controls, flex);
+  }
+}

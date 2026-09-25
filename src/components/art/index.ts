@@ -1,0 +1,7 @@
+// Public API of the illustration kit. Implementations live in sibling files; keep these signatures stable, other features import them.
+export { Scene, type SceneProps, type SceneVariant } from './Scene'
+export { Stamp, type StampProps } from './Stamp'
+export { Seal } from './Seal'
+export { Compass } from './Compass'
+export { Logo } from './Logo'
+export { Icon, type IconName } from './icons'

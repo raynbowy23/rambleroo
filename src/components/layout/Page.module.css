@@ -1,0 +1,27 @@
+.page {
+  max-width: 960px;
+  margin: auto;
+  padding: 64px 24px;
+  min-height: 65vh;
+}
+.page h1 {
+  font-size: var(--step-4);
+  margin: 12px 0 24px;
+}
+.page h2 {
+  margin: 28px 0 12px;
+}
+.page p {
+  max-width: 700px;
+  margin: 16px 0;
+  color: var(--ink-soft);
+}
+.page ul {
+  padding-left: 20px;
+}
+.page li {
+  margin: 12px 0;
+}
+.page a {
+  color: var(--forest);
+}

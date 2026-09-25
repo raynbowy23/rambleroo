@@ -1,0 +1,8 @@
+node_modules
+dist
+*.local
+.DS_Store
+# Raw source snapshots are large and reproducible with `npm run ingest:fetch`; data/raw/manifest.json is kept for provenance.
+data/raw/*.geojson
+test-results
+playwright-report
