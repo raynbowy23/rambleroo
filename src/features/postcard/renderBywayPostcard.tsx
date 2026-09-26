@@ -1,3 +1,5 @@
+import { firstPhoto } from '../../lib/data'
+import { PhotoLettering } from './PhotoPostcard'
 import { createRoot } from 'react-dom/client'
 import { flushSync } from 'react-dom'
 import { Scene, Stamp } from '../../components/art'
@@ -6,6 +8,7 @@ import { illustrationCaption, listingDescription } from '../../lib/format'
 import { renderPostcard } from './download'
 
 export async function renderBywayPostcard(byway: BywaySummary, story?: BywayStory | null, note = '', photo?: Photo) {
+  photo ??= firstPhoto([byway.id])
   const host = document.createElement('div')
   host.style.cssText = 'position:fixed;left:-10000px;top:0;width:840px;pointer-events:none'
   host.inert = true
@@ -28,6 +31,11 @@ export async function renderBywayPostcard(byway: BywaySummary, story?: BywayStor
               variant="postcard"
             />
           </div>
+          {photo && (
+            <div data-photo-lettering>
+              <PhotoLettering name={byway.name} states={byway.states.join(' · ')} family={byway.scene} look={byway.look} />
+            </div>
+          )}
           <div data-postcard-stamp>
             <Stamp
               family={byway.scene}
@@ -45,6 +53,7 @@ export async function renderBywayPostcard(byway: BywaySummary, story?: BywayStor
     const stamp = host.querySelector<SVGSVGElement>('[data-postcard-stamp] svg')!
     return await renderPostcard({
       scene,
+      lettering: host.querySelector<SVGSVGElement>('[data-photo-lettering] svg') ?? undefined,
       stamp,
       id: byway.id,
       name: byway.name,

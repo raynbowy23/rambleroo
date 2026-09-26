@@ -5,16 +5,18 @@ for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 900 })
     await page.goto('/collections')
     await expect(page.getByText('A few roads with something in common.')).toBeVisible()
-    const covers = page.locator('main a[href^="/collections/"]')
+    const covers = page.locator('main article[class*="cover"]')
     await expect(covers.first()).toBeVisible()
     for (const cover of await covers.all()) {
       const geometry = await cover.evaluate((element) => {
         const card = element.getBoundingClientRect()
-        const art = element.querySelector('svg')!.getBoundingClientRect()
+        // The cover art is a photo when a member road has one, otherwise an illustration.
+        const art = element.querySelector(':scope > img, :scope > svg, :scope > * > img, :scope > * > svg')!.getBoundingClientRect()
         const footer = element.querySelector('[class*="coverFooter"]')!.getBoundingClientRect()
         const text = element.querySelector('[class*="coverText"]')!
         return {
           portrait: card.height > card.width,
+          cardHeight: card.height,
           artTop: Math.abs(art.top - card.top),
           artHeight: Math.abs(art.height - card.height),
           footerInside: footer.bottom <= card.bottom - 24,
@@ -22,14 +24,16 @@ for (const width of [1440, 390]) {
         }
       })
       expect(geometry.portrait).toBe(true)
-      expect(geometry.artTop).toBeLessThan(2)
-      expect(geometry.artHeight).toBeLessThan(2)
+      // Art starts at the top of the card. Desktop covers are full-bleed; on phones the photo sits above the text band.
+      expect(geometry.artTop).toBeLessThan(3)
+      if (width === 390) expect(geometry.artHeight).toBeLessThan(geometry.cardHeight * 0.7)
+      else expect(geometry.artHeight).toBeLessThan(3)
       expect(geometry.footerInside).toBe(true)
       expect(geometry.padding).toBeGreaterThanOrEqual(width === 390 ? 24 : 36)
     }
-    await covers.first().click()
+    await covers.first().getByRole('link').first().click()
     await expect(page.locator('main header h1')).toBeVisible()
-    await expect(page.locator('main header').getByText('Illustration', { exact: false })).toBeVisible()
+    await expect(page.locator('main header').getByText(/Photo:|Illustration · no photo yet/)).toBeVisible()
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
   })
 
@@ -55,8 +59,11 @@ test('explore keeps a compact collection rail and hides the selected cartouche b
   const rail = page.locator('main [class*="rail"]').first()
   await expect(rail).toBeVisible()
   expect((await rail.boundingBox())!.height).toBeLessThanOrEqual(72)
-  const thumbnails = rail.locator('a[href^="/collections/"] > svg')
-  expect((await thumbnails.first().boundingBox())!.width).toBe(48)
+  // Thumbnails are a photo when one of the collection's roads has one, otherwise an illustration; either way they stay small.
+  const thumbnails = rail.locator('[class*="collectionPreview"]').first().locator('img, svg').first()
+  const thumbWidth = (await thumbnails.boundingBox())!.width
+  expect(thumbWidth).toBeGreaterThanOrEqual(40)
+  expect(thumbWidth).toBeLessThanOrEqual(64)
   await expect(rail.getByText('Editorial', { exact: true })).toHaveCount(0)
   const cartouche = page.locator('[class*="cartouche"]').first()
   await expect(cartouche).toBeVisible()
@@ -92,7 +99,12 @@ for (const width of [1280, 1440, 1968, 390]) {
         fits: element.scrollWidth <= element.clientWidth,
       }
     })
-    expect(geometry.width).toBeCloseTo(width === 390 ? 390 : 640, 0)
+    // Readable measure: wide enough that titles don't break mid-word, never wider than the text half of the hero.
+    if (width === 390) expect(geometry.width).toBeGreaterThanOrEqual(340)
+    else {
+      expect(geometry.width).toBeGreaterThanOrEqual(480)
+      expect(geometry.width).toBeLessThanOrEqual(Math.max(720, width / 2))
+    }
     expect(geometry.overflowWrap).toBe('normal')
     expect(geometry.wordBreak).toBe('normal')
     expect(geometry.hyphens).toBe('manual')

@@ -1,11 +1,15 @@
 import { useEffect, useRef, useState } from 'react'
 import maplibregl from './maplibre'
-import type { GeoJSONSource, Map } from './maplibre'
+import type { Map } from './maplibre'
 import type { BywaySummary } from '../../lib/types'
 import { useMotionEnabled } from '../../lib/motion'
-import { createMapStyle, palette } from './style'
-import { addBywayLayers, loadBywayGeometry } from './layers'
+import { createMapStyle } from './style'
+import { addBywayLayers, filteredLayers, loadBywayGeometry } from './layers'
 import { addDecor } from './decor'
+import { strokes } from './routeArt'
+import { animateSelection, setMomentPins } from './selection'
+import type { StoryMoment } from './selection'
+import { profileRouteFrames } from './profile'
 import { useHover } from './hover'
 import { Compass } from '../../components/art'
 import { WaterLabels } from './WaterLabels'
@@ -22,7 +26,9 @@ export function BywayMap({
   ids,
   onSelect,
   onFailure,
+  moments,
 }: {
+  moments?: StoryMoment[]
   byways: BywaySummary[]
   selected?: BywaySummary
   ids: string[] | null
@@ -77,6 +83,7 @@ export function BywayMap({
     if (!container.current) return
     let disposed = false
     let loaded = false
+    let stopProfile = () => {}
     let map: Map
     try {
       map = new maplibregl.Map({
@@ -102,6 +109,7 @@ export function BywayMap({
           if (disposed) return
           addDecor(map)
           addBywayLayers(map, data, byways)
+          stopProfile = profileRouteFrames(map)
           loaded = true
           setReady(true)
           map.fitBounds(regions['Lower 48'], {
@@ -122,8 +130,18 @@ export function BywayMap({
             tooltip.remove()
             map.getCanvas().style.cursor = ''
           })
+          map.on('mousemove', 'route-moments', (e) => {
+            const moment = e.features?.[0]
+            if (!moment) return
+            map.getCanvas().style.cursor = 'pointer'
+            tooltip.setLngLat(e.lngLat).setText(String(moment.properties.title)).addTo(map)
+          })
+          map.on('mouseleave', 'route-moments', () => {
+            tooltip.remove()
+            map.getCanvas().style.cursor = ''
+          })
           map.on('click', (e) => {
-            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'story-points'] })[0]
+            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'story-points', 'route-moments'] })[0]
             callbacks.current.onSelect(feature ? String(feature.properties.id) : null)
           })
         })
@@ -134,6 +152,7 @@ export function BywayMap({
     return () => {
       disposed = true
       tooltip.remove()
+      stopProfile()
       map.remove()
       ref.current = null
       setReady(false)
@@ -142,60 +161,65 @@ export function BywayMap({
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
-    if (hovered) map.setFeatureState({ source: 'byways', id: hovered }, { hover: true })
+    let frame = 0
+    if (hovered) {
+      map.setFeatureState({ source: 'byways', id: hovered }, { hover: true })
+      const start = performance.now()
+      const pulse = (now: number) => {
+        const progress = Math.min(1, (now - start) / 260)
+        map.setPaintProperty('byway-hover', 'line-width', 4 + Math.sin(progress * Math.PI) * 2)
+        if (progress < 1) frame = requestAnimationFrame(pulse)
+      }
+      if (enabled) pulse(start)
+      else map.setPaintProperty('byway-hover', 'line-width', 4)
+    }
     return () => {
+      cancelAnimationFrame(frame)
       if (hovered && ref.current === map) map.setFeatureState({ source: 'byways', id: hovered }, { hover: false })
     }
-  }, [hovered, ready])
+  }, [hovered, ready, enabled])
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
-    for (const layer of ['byway-casing', 'byway-lines', 'byway-hit', 'story-points'])
-      map.setFilter(layer, ids ? ['in', ['get', 'id'], ['literal', ids]] : null)
+    for (const layer of filteredLayers) map.setFilter(layer, ids ? ['in', ['get', 'id'], ['literal', ids]] : null)
   }, [ids, ready])
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
     let cancelled = false
-    let frame = 0
+    let stop = () => {}
     void loadBywayGeometry().then((data) => {
       if (cancelled) return
       const features = selected ? data.features.filter((f) => f.properties.id === selected.id) : []
-      ;(map.getSource('selected') as GeoJSONSource).setData({ type: 'FeatureCollection', features })
-      if (!selected) {
-        map.fitBounds(regions['Lower 48'], { padding, duration: 0 })
-        return
-      }
-      map.fitBounds(selected.bbox, {
-        padding: {
-          top: Math.max(64, padding.top),
-          bottom: Math.max(64, padding.bottom),
-          left: Math.max(64, padding.left),
-          right: Math.max(64, padding.right),
-        },
-        maxZoom: 8,
-        duration: enabled ? 800 : 0,
-      })
-      const gold = palette()('gold')
-      const start = performance.now()
-      const trace = (now: number) => {
-        if (cancelled) return
-        const progress = enabled ? Math.min(1, (now - start) / 800) : 1
-        map.setPaintProperty('selected-line', 'line-gradient', [
-          'step',
-          ['line-progress'],
-          gold,
-          Math.max(0.00001, progress),
-          'rgba(0,0,0,0)',
-        ])
-        if (progress < 1) frame = requestAnimationFrame(trace)
-      }
-      trace(start)
+      stop = animateSelection(map, features, enabled)
     })
     return () => {
       cancelled = true
-      cancelAnimationFrame(frame)
+      stop()
     }
+  }, [selected, enabled, ready])
+  useEffect(() => {
+    const map = ref.current
+    if (!ready || !map) return
+    setMomentPins(map, selected && selected.status !== 'listing' ? selected.id : undefined, moments ?? [])
+  }, [selected, moments, ready])
+  useEffect(() => {
+    const map = ref.current
+    if (!ready || !map) return
+    if (!selected) {
+      map.fitBounds(regions['Lower 48'], { padding, duration: 0 })
+      return
+    }
+    map.fitBounds(selected.bbox, {
+      padding: {
+        top: Math.max(64, padding.top),
+        bottom: Math.max(64, padding.bottom),
+        left: Math.max(64, padding.left),
+        right: Math.max(64, padding.right),
+      },
+      maxZoom: 8,
+      duration: enabled ? 800 : 0,
+    })
   }, [selected, enabled, ready, padding])
   return (
     <>
@@ -234,12 +258,17 @@ export function BywayMap({
         </select>
       </div>
       <div data-map-decoration className={styles.legend}>
-        <span>Lines by landscape</span>
-        <i />
-        River / coast <i />
-        Mountain / forest <i />
-        Desert <i />
-        Town / prairie <b>●</b>Has a story
+        {strokes.map((stroke) => (
+          <span className={styles.legendItem} key={stroke.family}>
+            <svg width="32" height="16" viewBox="0 0 32 16" aria-hidden="true" style={{ color: `var(--${stroke.color})` }}>
+              <path d={stroke.path} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            {stroke.label}
+          </span>
+        ))}
+        <span className={styles.legendItem}>
+          <b aria-hidden="true">●</b>Has a story
+        </span>
       </div>
     </>
   )

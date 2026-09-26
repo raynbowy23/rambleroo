@@ -1,9 +1,9 @@
 /* Rambleroo design tokens. Palette starts from blueprint §4 and was contrast-checked: ink on paper ≈ 14:1, rust on paper ≈ 4.6:1, paper on rust ≈ 5.2:1, paper on forest ≈ 9:1. */
 :root {
   /* Surfaces */
-  --paper: #f3ead7;
+  --paper: #f7f4ed;
   --paper-deep: #ece4d3;
-  --card: #faf3e4;
+  --card: #fffdf8;
   --line: #ddd3bf;
   --line-strong: #c9bca2;
 

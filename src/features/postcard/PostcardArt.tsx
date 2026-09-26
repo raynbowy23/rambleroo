@@ -7,9 +7,10 @@ import { downloadBlob } from './download'
 import { renderBywayPostcard } from './renderBywayPostcard'
 import { ShareControl } from '../share/ShareControl'
 import { usePhotos } from '../../lib/data'
-import { PhotoImage, PhotoCredit } from '../photos/Photos'
+import { PhotoChip } from '../photos/Photos'
 import type { Photo } from '../../lib/types'
 import s from './PostcardArt.module.css'
+import { PhotoPostcard } from './PhotoPostcard'
 
 export function PostcardArt({
   byway,
@@ -19,7 +20,6 @@ export function PostcardArt({
   onSelect,
   selected,
   photo,
-  onPhoto,
 }: {
   byway: BywaySummary
   story?: BywayStory | null
@@ -28,12 +28,9 @@ export function PostcardArt({
   onSelect?: () => void
   selected?: boolean
   photo?: Photo
-  onPhoto?: (photo?: Photo) => void
 }) {
   const photos = usePhotos(byway.id)
-  const [localPhoto, setLocalPhoto] = useState<Photo>()
-  const selectedPhoto = onPhoto ? photo : localPhoto
-  const selectPhoto = onPhoto ?? setLocalPhoto
+  const selectedPhoto = photo ?? photos[0]
   const [turned, setTurned] = useState(false)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
@@ -62,10 +59,10 @@ export function PostcardArt({
           <div className={s.front} inert={turned} aria-hidden={turned}>
             {onSelect ? (
               <button className={s.select} aria-label={`Select ${byway.name}`} aria-pressed={selected} onClick={onSelect}>
-                {selectedPhoto ? <PhotoImage photo={selectedPhoto} /> : scene}
+                {selectedPhoto ? <PhotoPostcard photo={selectedPhoto} byway={byway} /> : scene}
               </button>
             ) : selectedPhoto ? (
-              <PhotoImage photo={selectedPhoto} />
+              <PhotoPostcard photo={selectedPhoto} byway={byway} />
             ) : (
               scene
             )}
@@ -106,23 +103,12 @@ export function PostcardArt({
         <>
           {selectedPhoto ? (
             <div className={s.photoCredit}>
-              <PhotoCredit photo={selectedPhoto} />
+              <PhotoChip photo={selectedPhoto} />
             </div>
           ) : (
             <span className={s.caption} tabIndex={0} title={caption}>
-              Illustration<span className="visually-hidden">: {caption}</span>
+              Illustration · no photo yet<span className="visually-hidden">: {caption}</span>
             </span>
-          )}
-          {!!photos.length && (
-            <div className={s.faceToggle}>
-              <button aria-pressed={!!selectedPhoto} onClick={() => selectPhoto(photos[0])}>
-                Photo
-              </button>
-              <span> | </span>
-              <button aria-pressed={!selectedPhoto} onClick={() => selectPhoto(undefined)}>
-                Illustration
-              </button>
-            </div>
           )}
         </>
       )}

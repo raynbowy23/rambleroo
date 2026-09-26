@@ -41,34 +41,26 @@
   bottom: 112px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 8px 14px;
+  flex-wrap: wrap;
+  max-width: calc(100% - 420px);
   background: var(--card);
   padding: 8px 12px;
   border-radius: var(--radius);
   font-size: 13px;
   box-shadow: var(--shadow-1);
 }
-.legend span {
-  display: none;
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
 }
-.legend i {
-  width: 16px;
-  height: 3px;
-  background: var(--water-deep);
+.legendItem svg {
+  flex: none;
 }
-.legend i:nth-of-type(2) {
-  background: var(--forest-2);
-}
-.legend i:nth-of-type(3) {
-  background: var(--rust-2);
-}
-.legend i:nth-of-type(4),
 .legend b {
   color: var(--rust);
-  background: var(--rust);
-}
-.legend b {
-  background: none;
 }
 @media (max-width: 1100px) {
   .legend {
@@ -137,10 +129,11 @@
   }
 }
 
+/* Modern, lighter title: no framed box, just a soft paper halo so it reads over the routes. */
 .cartouche {
-  border: 3px double var(--line-strong);
-  background: radial-gradient(ellipse at center, #f3ead7ed 20%, #f3ead7b8 65%, #f3ead740);
-  padding: 8px 24px;
+  border: 0;
+  background: radial-gradient(ellipse at center, #f3ead7e6 25%, #f3ead799 55%, transparent 75%);
+  padding: 10px 32px 16px;
 }
 .cartouche::before,
 .cartouche::after {

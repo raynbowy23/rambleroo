@@ -21,8 +21,12 @@ export default function AboutPage() {
         All scenic illustrations are generated artwork, not photographs or documentary views of a specific place. Decorative terrain symbols
         are atmospheric, not navigation landmarks.
       </p>
-      <h2>Photographs</h2>
-      <p>Real photographs come from Wikimedia Commons under their stated licences, credited on each image. Illustrations are artwork.</p>
+      <h2>How we choose photos</h2>
+      <p>
+        We curate photographs for stories. For other listings, we use the lead image of the road’s Wikipedia article or the U.S. DOT
+        America’s Byways collection. Each photo is reviewed by eye, credited, and freely licensed. Roads without a suitable photo show an
+        illustration.
+      </p>
       <h2>Sharing postcards</h2>
       <p>
         Link previews on social sites show the generic Rambleroo card for now. Per-road preview images need prerendering, which is planned.

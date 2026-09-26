@@ -106,6 +106,7 @@ export interface PostcardInput {
   note: string
   postmark: string
   caption: string
+  lettering?: SVGSVGElement
   photo?: Photo
 }
 
@@ -124,17 +125,21 @@ export async function renderPostcard(input: PostcardInput) {
   ctx.strokeStyle = '#89795d'
   ctx.strokeRect(14, 14, 872, 672)
   ctx.strokeRect(914, 14, 872, 672)
+  const faceHeight = input.photo ? 560 : 490
   if (input.photo) {
-    const scale = Math.max(840 / scene.width, 490 / scene.height)
+    const scale = Math.max(840 / scene.width, faceHeight / scene.height)
     const sw = 840 / scale
-    const sh = 490 / scale
-    ctx.drawImage(scene, (scene.width - sw) / 2, (scene.height - sh) / 2, sw, sh, 30, 30, 840, 490)
+    const sh = faceHeight / scale
+    ctx.drawImage(scene, (scene.width - sw) / 2, (scene.height - sh) / 2, sw, sh, 30, 30, 840, faceHeight)
+    ctx.fillStyle = 'rgba(239, 202, 143, 0.04)'
+    ctx.fillRect(30, 30, 840, faceHeight)
+    if (input.lettering) ctx.drawImage(await svgImage(input.lettering), 30, 30, 840, faceHeight)
   } else {
     ctx.drawImage(scene, 30, 30, 840, 490)
   }
   ctx.fillStyle = '#202925'
   ctx.font = '32px "Fraunces Variable", Georgia, serif'
-  wrappedText(ctx, input.name, 40, 565, 810, 38, 72)
+  if (!input.photo) wrappedText(ctx, input.name, 40, 565, 810, 38, 72)
   ctx.font = '16px "Inter Variable", sans-serif'
   wrappedText(ctx, input.photo ? photoCredit(input.photo) : input.caption, 40, 615, 810, 20, 65)
   ctx.font = '32px "Fraunces Variable", Georgia, serif'

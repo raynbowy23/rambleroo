@@ -1,10 +1,9 @@
 import { requireNetwork } from '../../lib/network'
-import type { Photo } from '../../lib/types'
-import { PhotoGallery, MomentPhoto } from '../photos/Photos'
+import { PhotoGallery, MomentPhoto, PhotoCredit } from '../photos/Photos'
 import { ShareControl } from '../share/ShareControl'
 import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router'
-import { useByway, useStory, usePhotos } from '../../lib/data'
+import { useByway, useStory, usePhotos, stateChapters } from '../../lib/data'
 import { illustrationCaption, formatMiles, listingDescription, shortDesignation } from '../../lib/format'
 import { stateNames } from '../../lib/states'
 import { greatCircleMiles } from '../../lib/geo'
@@ -33,9 +32,8 @@ function partLength(points: number[][]) {
 export default function BywayPage() {
   const { id } = useParams()
   const photos = usePhotos(id)
-  const [photo, setPhoto] = useState<Photo>()
-  useEffect(() => setPhoto(undefined), [id])
-  const { byway: b, status, byways } = useByway(id)
+  const photo = photos[0]
+  const { byway: b, status, byways, meta } = useByway(id)
   const { story, status: storyStatus } = useStory(id)
   const saved = usePassport((p) => Boolean(id && p.saved[id]))
   const toggleSave = usePassport((p) => p.toggleSave)
@@ -85,8 +83,11 @@ export default function BywayPage() {
   if (!b) return <PageStatus title="Byway not found" />
   const point = start?.id === b.id ? start.point : b.center
   return (
-    <main>
+    <main className={story ? s.editorialPage : undefined}>
       <Hero
+        key={b.id}
+        photo={photo}
+        allowIllustration
         look={b.look}
         mobileArtBand
         region={b.region}
@@ -138,6 +139,68 @@ export default function BywayPage() {
         {saved && <small>Saved in this browser</small>}
       </Hero>
       <div className={s.page}>
+        <section className={s.listingInfo} aria-labelledby="listing-info">
+          <h2 id="listing-info">About this listing</h2>
+          <dl>
+            <div>
+              <dt>Designations & issuing programs</dt>
+              <dd>
+                <ul>
+                  {b.designations.map((designation) => (
+                    <li key={designation}>
+                      {designation} ·{' '}
+                      {designation.includes('National Forest')
+                        ? 'USDA Forest Service'
+                        : /National Scenic|All-American/i.test(designation)
+                          ? 'FHWA National Scenic Byways Program'
+                          : 'Issuing program not specified in the source layer'}
+                    </li>
+                  ))}
+                </ul>
+                {Object.values(stateChapters).flatMap((chapter) =>
+                  chapter.programs
+                    .filter((program) => program.members.some((member) => member.bywayId === b.id))
+                    .map((program) => (
+                      <p key={program.label}>
+                        {program.label} · {program.issuer}
+                      </p>
+                    )),
+                )}
+              </dd>
+            </div>
+            <div>
+              <dt>Data source</dt>
+              <dd>
+                <a href={meta?.source.url}>USDOT Scenic Byways layer</a> · retrieved {meta?.retrievedAt.slice(0, 10) ?? 'Unavailable'}
+              </dd>
+            </div>
+            <div>
+              <dt>Editorial status</dt>
+              <dd>{story ? (story.reviewed ? 'Reviewed story' : 'Draft story · pending review') : 'Listing'}</dd>
+            </div>
+            <div>
+              <dt>Lead photo</dt>
+              <dd>
+                {photo ? (
+                  <>
+                    {photo.source === 'wikipedia-lead'
+                      ? 'Wikipedia article lead image'
+                      : photo.source === 'nara'
+                        ? 'U.S. DOT America’s Byways collection'
+                        : 'Curated story photograph'}
+                    <PhotoCredit photo={photo} />
+                  </>
+                ) : (
+                  'Illustration · no photo yet'
+                )}
+              </dd>
+            </div>
+            <div>
+              <dt>Last updated</dt>
+              <dd>{meta?.builtAt.slice(0, 10) ?? 'Unavailable'}</dd>
+            </div>
+          </dl>
+        </section>
         <div className={s.split}>
           <div className={s.body}>
             {story ? (
@@ -176,7 +239,8 @@ export default function BywayPage() {
                             variant="postcard"
                           />
                           <span className={s.credit} tabIndex={0} title={illustrationCaption(m.title, b.region, m.motifs)}>
-                            Illustration<span className="visually-hidden">: {illustrationCaption(m.title, b.region, m.motifs)}</span>
+                            Illustration · no photo yet
+                            <span className="visually-hidden">: {illustrationCaption(m.title, b.region, m.motifs)}</span>
                           </span>
                         </div>
                       </MomentPhoto>
@@ -246,7 +310,7 @@ export default function BywayPage() {
         </div>
         <section className={s.section}>
           <h2>A postcard from the road</h2>
-          <PostcardArt photo={photo} onPhoto={setPhoto} key={b.id} byway={b} story={story} note={note} onNote={setNote} />
+          <PostcardArt photo={photo} key={b.id} byway={b} story={story} note={note} onNote={setNote} />
         </section>
         <section className={s.section}>
           <h2>Roads nearby</h2>

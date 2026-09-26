@@ -81,6 +81,12 @@ export function useStory(id?: string) {
   return value.id === id ? value : { story: undefined, error: undefined, status: 'loading' as const }
 }
 
+export function firstPhoto(bywayIds: string[]): Photo | undefined {
+  for (const id of bywayIds) {
+    const photo = (photoData as Photo[]).find((photo) => photo.bywayId === id)
+    if (photo) return photo
+  }
+}
 export function usePhotos(bywayId?: string): Photo[] {
   return (photoData as Photo[]).filter((photo) => photo.bywayId === bywayId)
 }

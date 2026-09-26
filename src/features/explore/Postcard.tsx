@@ -1,7 +1,8 @@
+import { RoadVisual } from '../photos/RoadVisual'
 import { ShareControl } from '../share/ShareControl'
 import { useEffect, useId, useRef, useState } from 'react'
 import { Link } from 'react-router'
-import { Icon, Scene } from '../../components/art'
+import { Icon } from '../../components/art'
 import type { BywaySummary } from '../../lib/types'
 import { useStory } from '../../lib/data'
 import { usePassport } from '../../lib/passport'
@@ -52,8 +53,9 @@ export function Postcard({
         aria-labelledby={id}
       >
         <div className={styles.art}>
-          {gallery ? (
-            <Scene
+          {layout ? (
+            <RoadVisual
+              bywayId={b.id}
               look={b.look}
               lettering={{ title: b.name, subtitle: b.states.join(' · ') }}
               family={b.scene}

@@ -132,7 +132,7 @@
 }
 .gridCard {
   height: 100%;
-  box-shadow: none;
+  box-shadow: var(--shadow-1);
 }
 .gridCard .body {
   padding: 20px;
@@ -149,7 +149,7 @@
   overflow: visible;
 }
 .card {
-  border-radius: 3px;
+  border-radius: 14px;
 }
 @media (max-width: 759px) {
   .tagline {

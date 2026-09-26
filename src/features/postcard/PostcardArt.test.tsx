@@ -39,17 +39,16 @@ const byway: BywaySummary = {
   look: { palette: 0, layout: 0, season: 'summer', time: 'day', lettering: 'greetings', border: 'white', mirror: false },
 }
 afterEach(cleanup)
-it('starts illustrated, then exports the chosen photo and note', async () => {
+it('defaults to a photo postcard and exports its photo and note', async () => {
   const file = new File(['png'], 'postcard.png', { type: 'image/png' })
   vi.mocked(renderBywayPostcard).mockResolvedValue(file)
   render(<PostcardArt byway={byway} note="A day on the river" onNote={() => {}} />)
-  expect(screen.queryByAltText(photo.alt)).toBeNull()
-  fireEvent.click(screen.getByRole('button', { name: 'Photo' }))
   expect(screen.getByAltText(photo.alt)).toBeTruthy()
+  fireEvent.click(screen.getByRole('button', { name: 'Photo credit: River bend' }))
   expect(screen.getByRole('link', { name: 'CC BY' })).toBeTruthy()
+  expect(document.querySelector('[data-lettering="greetings"]')).toBeTruthy()
   fireEvent.click(screen.getByRole('button', { name: 'Download postcard' }))
   await waitFor(() => expect(downloadBlob).toHaveBeenCalledWith(file, file.name))
   expect(renderBywayPostcard).toHaveBeenCalledWith(byway, undefined, 'A day on the river', photo)
-  fireEvent.click(screen.getByRole('button', { name: 'Illustration' }))
-  expect(screen.queryByAltText(photo.alt)).toBeNull()
+  expect(screen.queryByRole('button', { name: 'Illustration' })).toBeNull()
 })

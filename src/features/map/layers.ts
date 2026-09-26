@@ -2,6 +2,7 @@ import type { Map, ExpressionSpecification } from './maplibre'
 import type { FeatureCollection, MultiLineString } from 'geojson'
 import type { BywaySummary } from '../../lib/types'
 import { palette } from './style'
+import { addRouteArt } from './routeArt'
 export type BywayGeometry = FeatureCollection<MultiLineString, { id: string; name: string; scene: string; story: boolean }>
 let geometry: Promise<BywayGeometry> | undefined
 export function loadBywayGeometry() {
@@ -27,27 +28,95 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     c('rust-2'),
     c('rust'),
   ]
-  const width: ExpressionSpecification = [
-    'interpolate',
-    ['linear'],
-    ['zoom'],
-    3,
-    ['case', ['get', 'story'], 1.8, 1.2],
-    10,
-    ['case', ['get', 'story'], 5, 4],
-  ]
+  addRouteArt(map)
+  const round = { 'line-cap': 'round', 'line-join': 'round' } as const
+  const patternWidth: ExpressionSpecification = ['interpolate', ['linear'], ['zoom'], 2, 3.5, 5, 5.5, 8, 8]
   map.addSource('byways', { type: 'geojson', data, promoteId: 'id' })
   map.addLayer({
     id: 'byway-casing',
     type: 'line',
     source: 'byways',
-    paint: { 'line-color': c('paper'), 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 3.2, 10, 7] },
+    maxzoom: 8,
+    layout: round,
+    paint: {
+      'line-color': c('paper'),
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 4.5, 5, 6.5, 8, 9],
+      'line-opacity': ['interpolate', ['linear'], ['zoom'], 7, 0.8, 8, 0],
+    },
   })
   map.addLayer({
     id: 'byway-lines',
     type: 'line',
     source: 'byways',
-    paint: { 'line-color': ['case', ['boolean', ['feature-state', 'hover'], false], c('gold'), color], 'line-width': width },
+    maxzoom: 8,
+    layout: round,
+    paint: {
+      'line-pattern': [
+        'match',
+        ['get', 'scene'],
+        ['river', 'coast'],
+        'route-water',
+        'mountain',
+        'route-mountain',
+        'forest',
+        'route-forest',
+        'desert',
+        'route-desert',
+        'route-stitch',
+      ],
+      'line-width': patternWidth,
+      'line-opacity': ['interpolate', ['linear'], ['zoom'], 7, 1, 8, 0],
+    },
+  })
+  // Keep a cheap, family-specific alternative available for profiling low-end devices.
+  if (import.meta.env.DEV && new URLSearchParams(location.search).get('mapStrokes') === 'dash') {
+    map.setPaintProperty('byway-lines', 'line-pattern', undefined)
+    map.setPaintProperty('byway-lines', 'line-color', color)
+    map.setPaintProperty('byway-lines', 'line-width', ['interpolate', ['linear'], ['zoom'], 2, 1.3, 8, 3])
+    map.setPaintProperty('byway-lines', 'line-dasharray', [
+      'match',
+      ['get', 'scene'],
+      ['river', 'coast'],
+      ['literal', [4, 1]],
+      'mountain',
+      ['literal', [2, 1]],
+      'forest',
+      ['literal', [3, 1, 1, 1]],
+      'desert',
+      ['literal', [1, 2, 0.2, 2]],
+      ['literal', [2, 2]],
+    ])
+  }
+  for (const [id, color, width] of [
+    ['byway-road-outline', c('ink'), 8],
+    ['byway-road-fill', c('rust-2'), 5.5],
+    ['byway-road-center', c('paper'), 1.1],
+  ] as const) {
+    map.addLayer({
+      id,
+      type: 'line',
+      source: 'byways',
+      minzoom: 7,
+      layout: round,
+      paint: {
+        'line-color': color,
+        'line-width': ['interpolate', ['linear'], ['zoom'], 7, width * 0.65, 10, width, 14, width * 1.6],
+        'line-opacity': ['interpolate', ['linear'], ['zoom'], 7, 0, 8, 1],
+        ...(id === 'byway-road-center' ? { 'line-dasharray': [3, 3] } : {}),
+      },
+    })
+  }
+  map.addLayer({
+    id: 'byway-hover',
+    type: 'line',
+    source: 'byways',
+    layout: round,
+    paint: {
+      'line-color': c('gold'),
+      'line-width': 5,
+      'line-width-transition': { duration: 0 },
+      'line-opacity': ['case', ['boolean', ['feature-state', 'hover'], false], 0.75, 0],
+    },
   })
   map.addLayer({
     id: 'byway-hit',
@@ -71,13 +140,54 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     minzoom: 4,
     paint: { 'circle-radius': 4, 'circle-color': c('rust'), 'circle-stroke-color': c('paper'), 'circle-stroke-width': 2 },
   })
-  map.addSource('selected', { type: 'geojson', lineMetrics: true, data: { type: 'FeatureCollection', features: [] } })
+  // Preserve the selected vertices so the pen and car share the same projected distances.
+  map.addSource('selected', { type: 'geojson', lineMetrics: true, tolerance: 0, data: { type: 'FeatureCollection', features: [] } })
   map.addLayer({
     id: 'selected-glow',
     type: 'line',
     source: 'selected',
-    paint: { 'line-color': c('gold'), 'line-width': 13, 'line-blur': 1.5, 'line-opacity': 0.25 },
+    layout: round,
+    paint: { 'line-color': c('gold'), 'line-width': 15, 'line-blur': 5, 'line-opacity': 0.55 },
   })
-  map.addLayer({ id: 'selected-halo', type: 'line', source: 'selected', paint: { 'line-color': c('paper'), 'line-width': 8 } })
-  map.addLayer({ id: 'selected-line', type: 'line', source: 'selected', paint: { 'line-color': c('gold'), 'line-width': 3.5 } })
+  map.addLayer({
+    id: 'selected-halo',
+    type: 'line',
+    source: 'selected',
+    layout: round,
+    paint: { 'line-color': c('paper'), 'line-width': 6 },
+  })
+  map.addLayer({
+    id: 'selected-line',
+    type: 'line',
+    source: 'selected',
+    layout: round,
+    paint: { 'line-color': c('ink'), 'line-width': 3, 'line-gradient': ['literal', 'rgba(0,0,0,0)'] },
+  })
+  for (const source of ['route-flags', 'route-moments', 'route-car']) {
+    map.addSource(source, { type: 'geojson', data: { type: 'FeatureCollection', features: [] } })
+    map.addLayer({
+      id: source,
+      type: 'symbol',
+      source,
+      layout: {
+        'icon-image': source === 'route-car' ? 'route-car' : ['get', 'icon'],
+        'icon-allow-overlap': true,
+        'icon-ignore-placement': true,
+        'icon-anchor': source === 'route-flags' ? 'bottom-left' : 'center',
+        'icon-rotate': source === 'route-car' ? ['get', 'bearing'] : 0,
+        'icon-rotation-alignment': source === 'route-car' ? 'map' : 'viewport',
+      },
+    })
+  }
 }
+
+export const filteredLayers = [
+  'byway-casing',
+  'byway-lines',
+  'byway-road-outline',
+  'byway-road-fill',
+  'byway-road-center',
+  'byway-hover',
+  'byway-hit',
+  'story-points',
+]

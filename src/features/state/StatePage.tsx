@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router'
-import { stateChapters, useCatalog } from '../../lib/data'
+import { stateChapters, useCatalog, firstPhoto } from '../../lib/data'
 import { states } from '../../lib/states'
 import type { Theme } from '../../lib/types'
 import { Hero, PageStatus, Sources, ThemeChips } from '../../components/ui/Content'
@@ -26,7 +26,14 @@ export default function StatePage() {
   const first = byId.get(members[0]) ?? roads[0]
   return (
     <main>
-      <Hero region={first?.region} family={first?.scene ?? 'prairie'} seed={first?.seed ?? 1} title={states[code]} kicker="State chapter">
+      <Hero
+        photo={firstPhoto([...members, ...roads.map((road) => road.id)])}
+        region={first?.region}
+        family={first?.scene ?? 'prairie'}
+        seed={first?.seed ?? 1}
+        title={states[code]}
+        kicker="State chapter"
+      >
         {chapter ? (
           <>
             <p className={s.subline}>{chapter.tagline}</p>

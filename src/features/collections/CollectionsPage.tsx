@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router'
-import { collections, useCatalog } from '../../lib/data'
+import { collections, useCatalog, firstPhoto } from '../../lib/data'
 import { usePassport, visitedBywayIds } from '../../lib/passport'
 import type { Theme } from '../../lib/types'
+import { PhotoImage, PhotoChip } from '../photos/Photos'
 import { Scene } from '../../components/art'
 import { Hero, PageStatus, ThemeChips } from '../../components/ui/Content'
 import { RouteMap } from '../../components/ui/RouteMap'
@@ -28,8 +29,9 @@ export default function CollectionsPage() {
   if (collection) {
     const visited = visitedBywayIds(passport)
     return (
-      <main>
+      <main className={s.editorialPage}>
         <Hero
+          photo={firstPhoto(collection.bywayIds)}
           family={collection.scene}
           seed={collections.indexOf(collection) + 1}
           title={collection.title}
@@ -80,23 +82,39 @@ export default function CollectionsPage() {
       </div>
       <ThemeChips value={theme} onChange={setTheme} />
       <div className={s.grid}>
-        {shown.map((c) => (
-          <Link viewTransition className={s.cover} to={`/collections/${c.slug}`} key={c.slug}>
-            <Scene family={c.scene} seed={collections.indexOf(c) + 1} variant="cover" />
-            <span className={s.editorial}>Editorial</span>
-            <span className={s.credit}>Illustration</span>
-            <div className={s.coverText}>
-              <span className="kicker">{c.kicker}</span>
-              <h2>{c.title}</h2>
-              <div className={s.coverFooter}>
-                <span>{c.bywayIds.length} byways</span>
-                <span className={s.arrow} aria-hidden="true">
-                  →
-                </span>
+        {shown.map((c) => {
+          const photo = firstPhoto(c.bywayIds)
+          return (
+            <article className={s.cover} key={c.slug}>
+              {photo ? (
+                <>
+                  <PhotoImage photo={photo} />
+                  <PhotoChip photo={photo} />
+                </>
+              ) : (
+                <>
+                  <Scene family={c.scene} seed={collections.indexOf(c) + 1} variant="cover" />
+                  <span className={s.credit}>Illustration · no photo yet</span>
+                </>
+              )}
+              <span className={s.editorial}>Editorial</span>
+              <div className={s.coverText}>
+                <span className="kicker">{c.kicker}</span>
+                <h2>
+                  <Link viewTransition to={`/collections/${c.slug}`}>
+                    {c.title}
+                  </Link>
+                </h2>
+                <div className={s.coverFooter}>
+                  <span>{c.bywayIds.length} byways</span>
+                  <span className={s.arrow} aria-hidden="true">
+                    →
+                  </span>
+                </div>
               </div>
-            </div>
-          </Link>
-        ))}
+            </article>
+          )
+        })}
       </div>
       {!shown.length && <p>No collections match this theme yet.</p>}
       {!!Object.keys(passport.saved).length && (

@@ -79,6 +79,10 @@ export interface Photo {
   license: string
   licenseUrl: string
   sourceUrl: string
+  /** How the photo was chosen: hand-picked for a story, the lead image of the byway's Wikipedia article, or the U.S. DOT America's Byways collection (NARA). Auto-sourced photos are still reviewed by eye before publishing. */
+  source?: 'curated' | 'wikipedia-lead' | 'nara'
+  /** Small (~480px) version for cards and thumbnails. */
+  thumb?: string
 }
 
 /** Editorial completeness, not road condition. See blueprint §7. */

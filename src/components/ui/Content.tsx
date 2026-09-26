@@ -1,12 +1,15 @@
-import type { ReactNode } from 'react'
+import { useState, type ReactNode } from 'react'
 import { Link } from 'react-router'
 import { Scene } from '../art'
 import { themes } from '../../lib/filters'
 import { useMotionEnabled } from '../../lib/motion'
-import type { SceneFamily, Theme, Region, Motif, PostcardLook } from '../../lib/types'
+import type { SceneFamily, Theme, Region, Motif, PostcardLook, Photo } from '../../lib/types'
 import { illustrationCaption } from '../../lib/format'
+import { PhotoImage, PhotoCredit } from '../../features/photos/Photos'
 import s from './Content.module.css'
 export function Hero({
+  photo,
+  allowIllustration = false,
   look,
   region,
   motifs,
@@ -18,6 +21,8 @@ export function Hero({
   kicker,
   children,
 }: {
+  photo?: Photo
+  allowIllustration?: boolean
   look?: PostcardLook
   region?: Region
   motifs?: Motif[]
@@ -29,22 +34,29 @@ export function Hero({
   kicker: string
   children?: ReactNode
 }) {
+  const [illustration, setIllustration] = useState(false)
   const motion = useMotionEnabled()
   const caption = region ? illustrationCaption(title, region, motifs) : 'Illustrated landscape. Not a photograph.'
   return (
-    <header className={`${s.hero} ${editorial ? s.collectionHero : ''} ${mobileArtBand ? s.mobileArtBand : ''}`}>
+    <header
+      className={`${s.hero} ${editorial ? s.collectionHero : ''} ${mobileArtBand ? s.mobileArtBand : ''} ${photo ? s.photoHero : ''}`}
+    >
       <div className={s.heroArt}>
-        <Scene
-          look={look}
-          family={family}
-          seed={seed}
-          region={region}
-          motifs={motifs}
-          framed
-          title={caption}
-          variant="hero"
-          animate={motion}
-        />
+        {photo && !illustration ? (
+          <PhotoImage photo={photo} hero />
+        ) : (
+          <Scene
+            look={look}
+            family={family}
+            seed={seed}
+            region={region}
+            motifs={motifs}
+            framed
+            title={caption}
+            variant="hero"
+            animate={motion}
+          />
+        )}
       </div>
       {editorial && <span className={s.editorial}>Editorial</span>}
       <div className={s.heroText}>
@@ -52,9 +64,18 @@ export function Hero({
         <h1>{title}</h1>
         {children}
       </div>
-      <span className={s.credit} tabIndex={0} title={caption}>
-        Illustration<span className="visually-hidden">: {caption}</span>
-      </span>
+      <div className={s.heroCredit}>
+        {photo && !illustration ? (
+          <PhotoCredit photo={photo} />
+        ) : (
+          <span className={s.muted}>{photo ? 'Illustration' : 'Illustration · no photo yet'}</span>
+        )}
+        {photo && allowIllustration && (
+          <button className={s.illustrationAction} onClick={() => setIllustration(!illustration)}>
+            {illustration ? 'See photo' : 'See illustration'}
+          </button>
+        )}
+      </div>
     </header>
   )
 }

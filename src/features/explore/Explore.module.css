@@ -576,3 +576,55 @@ tr[aria-selected='true'] {
     min-height: 44px;
   }
 }
+
+.resultRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 0;
+}
+.resultRow > div {
+  width: 112px;
+  flex: 0 0 112px;
+  min-height: 96px;
+}
+.resultRow .result {
+  border: 0;
+  min-width: 0;
+  flex: 1;
+}
+.collectionPreview {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+/* Small square thumbs keep the rail a slim strip under the map. */
+.collectionPreview > div {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  min-height: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.collectionPreview > a {
+  font-size: 14px;
+}
+
+.listRoad {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.listRoad > div {
+  width: 112px;
+  min-height: 96px;
+  flex: 0 0 112px;
+}
+@media (max-width: 759px) {
+  .listRoad {
+    flex-wrap: wrap;
+  }
+}

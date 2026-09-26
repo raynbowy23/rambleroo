@@ -95,3 +95,18 @@
     height: 44px;
   }
 }
+
+.revealArt {
+  position: relative;
+  margin-bottom: 16px;
+}
+.revealArt > div {
+  min-height: 280px;
+}
+.revealArt > figure {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}

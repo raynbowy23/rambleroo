@@ -7,6 +7,7 @@
   gap: 20px;
 }
 .figure {
+  position: relative;
   margin: 0;
 }
 .image {
@@ -35,15 +36,70 @@
 .credit a {
   text-decoration: underline;
 }
-.toggle {
-  border: 0;
-  background: var(--paper);
-  color: var(--ink);
-  text-decoration: underline;
-  cursor: pointer;
-  padding: 8px;
-}
+
 .lightbox img {
   max-height: 70vh;
   object-fit: contain;
+}
+
+.image {
+  object-position: center;
+}
+.visual {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+}
+.visual > img,
+.visual > svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fallback {
+  display: block;
+  padding: 4px 8px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+.visual .fallback {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.chip {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  z-index: 5;
+  font-size: 13px;
+}
+.chip button,
+.popover button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+}
+.popover {
+  position: fixed;
+  z-index: 1000;
+  width: min(280px, 75vw);
+  max-height: 230px;
+  overflow: auto;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow-1);
+}
+.popover a {
+  display: inline-block;
+  min-height: 44px;
+  padding-block: 10px;
 }

@@ -1,6 +1,8 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams, useNavigate } from 'react-router'
-import { Icon, Scene } from '../../components/art'
+import { RoadVisual } from '../photos/RoadVisual'
+import { firstPhoto } from '../../lib/data'
+import { Icon } from '../../components/art'
 import { collections, useCatalog } from '../../lib/data'
 import { filterByways, themes } from '../../lib/filters'
 import { formatMiles, shortDesignation } from '../../lib/format'
@@ -216,26 +218,28 @@ export default function ExplorePage() {
               {catalog.status === 'error' && <p role="alert">{catalog.error?.message}</p>}
               <div className={styles.results}>
                 {filtered.slice(0, limit).map((b) => (
-                  <button
-                    className={styles.result}
-                    aria-label={`${b.name} ${b.states.join(', ')} ${formatMiles(b.mappedMiles)}`}
-                    key={b.id}
-                    aria-pressed={selectedId === b.id}
-                    onClick={() => select(b.id, true)}
-                    onMouseEnter={() => useHover.getState().setId(b.id)}
-                    onMouseLeave={() => useHover.getState().setId(null)}
-                    onFocus={() => useHover.getState().setId(b.id)}
-                    onBlur={() => useHover.getState().setId(null)}
-                  >
-                    <Scene look={b.look} family={b.scene} region={b.region} seed={b.seed} variant="thumb" />
-                    <span>
-                      <strong>{b.name}</strong>
-                      <small>
-                        {b.states.join(' · ')} · {formatMiles(b.mappedMiles)}
-                      </small>
-                      {b.status !== 'listing' && <em>Story</em>}
-                    </span>
-                  </button>
+                  <div className={styles.resultRow} key={b.id}>
+                    <RoadVisual bywayId={b.id} look={b.look} family={b.scene} region={b.region} seed={b.seed} variant="thumb" />
+                    <button
+                      className={styles.result}
+                      aria-label={`${b.name} ${b.states.join(', ')} ${formatMiles(b.mappedMiles)}`}
+                      key={b.id}
+                      aria-pressed={selectedId === b.id}
+                      onClick={() => select(b.id, true)}
+                      onMouseEnter={() => useHover.getState().setId(b.id)}
+                      onMouseLeave={() => useHover.getState().setId(null)}
+                      onFocus={() => useHover.getState().setId(b.id)}
+                      onBlur={() => useHover.getState().setId(null)}
+                    >
+                      <span>
+                        <strong>{b.name}</strong>
+                        <small>
+                          {b.states.join(' · ')} · {formatMiles(b.mappedMiles)}
+                        </small>
+                        {b.status !== 'listing' && <em>Story</em>}
+                      </span>
+                    </button>
+                  </div>
                 ))}
                 {!filtered.length && catalog.status === 'ready' && <p>No roads match yet. Try another name or clear the filters.</p>}
                 {limit < filtered.length && (
@@ -338,7 +342,10 @@ export default function ExplorePage() {
                   {filtered.slice(0, limit).map((b) => (
                     <tr role="row" key={b.id} aria-selected={selectedId === b.id}>
                       <td role="cell">
-                        <button onClick={() => select(b.id, true)}>{b.name}</button>
+                        <div className={styles.listRoad}>
+                          <RoadVisual bywayId={b.id} look={b.look} family={b.scene} region={b.region} seed={b.seed} variant="thumb" />
+                          <button onClick={() => select(b.id, true)}>{b.name}</button>
+                        </div>
                       </td>
                       <td role="cell">{stateNames(b.states)}</td>
                       <td role="cell">{formatMiles(b.mappedMiles)}</td>
@@ -387,10 +394,12 @@ export default function ExplorePage() {
           <div className={styles.collections}>
             <span className="kicker">Collections</span>
             {collections.map((c, i) => (
-              <Link viewTransition to={`/collections/${c.slug}`} key={c.slug}>
-                <Scene family={c.scene} seed={i} variant="thumb" />
-                <span>{c.title}</span>
-              </Link>
+              <div className={styles.collectionPreview} key={c.slug}>
+                <RoadVisual bywayId={firstPhoto(c.bywayIds)?.bywayId} family={c.scene} seed={i} variant="thumb" />
+                <Link viewTransition to={`/collections/${c.slug}`}>
+                  {c.title}
+                </Link>
+              </div>
             ))}
           </div>
         </div>

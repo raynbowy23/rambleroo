@@ -5,6 +5,7 @@ import { usePassport, passportCounts, visitedBywayIds } from '../../lib/passport
 import { useMotionEnabled } from '../../lib/motion'
 import { states } from '../../lib/states'
 import type { Visit } from '../../lib/types'
+import { RoadVisual } from '../photos/RoadVisual'
 import { Scene, Stamp } from '../../components/art'
 import { BywayStamp } from '../../components/ui/BywayStamp'
 import { PageStatus } from '../../components/ui/Content'
@@ -149,8 +150,7 @@ export default function PassportPage() {
               return (
                 <article className={s.journal} key={v.id}>
                   <div>
-                    {b && <Scene look={b.look} family={b.scene} region={b.region} seed={b.seed} variant="thumb" />}
-                    <small className={s.muted}>Illustration</small>
+                    {b && <RoadVisual bywayId={b.id} look={b.look} family={b.scene} region={b.region} seed={b.seed} variant="thumb" />}
                   </div>
                   <div>
                     <h3>

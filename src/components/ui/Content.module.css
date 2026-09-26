@@ -510,13 +510,13 @@
   background: var(--paper);
 }
 
-/* Printed margins and a fleuron give each section its own breathing room. */
+/* Ornamental dividers are reserved for editorial story and collection pages. */
 .section {
   border-top: 0;
   position: relative;
   padding-top: 48px;
 }
-.section::before {
+.editorialPage .section::before {
   content: '❦';
   display: block;
   width: 140px;
@@ -556,23 +556,11 @@
 }
 .cover,
 .moment {
-  border-radius: 2px;
-  outline: 1px solid var(--line-strong);
-  outline-offset: -9px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-1);
 }
-.heroArt::after {
-  content: '';
-  position: absolute;
-  inset: 16px;
-  border: 1px solid #73624755;
-  background:
-    linear-gradient(135deg, #59472f 20px, transparent 21px) top left,
-    linear-gradient(225deg, #59472f 20px, transparent 21px) top right,
-    linear-gradient(45deg, #59472f 20px, transparent 21px) bottom left,
-    linear-gradient(315deg, #59472f 20px, transparent 21px) bottom right;
-  background-size: 36px 36px;
-  background-repeat: no-repeat;
-}
+
 @media (max-width: 700px) {
   .coverText {
     padding: 36px 24px;
@@ -767,5 +755,159 @@
 @media (prefers-reduced-motion: reduce) {
   .mapPlaceholder {
     animation: none;
+  }
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.heroCredit {
+  position: relative;
+  align-self: end;
+  padding: 8px 24px;
+  background: var(--paper);
+}
+.illustrationAction {
+  border: 0;
+  background: none;
+  padding: 8px;
+  min-height: 44px;
+  color: var(--ink-soft);
+  text-decoration: underline;
+  font-size: 13px;
+  cursor: pointer;
+}
+.photoHero {
+  grid-template-columns: 1fr 1fr;
+  background: var(--paper);
+  color: var(--ink);
+}
+.photoHero::after {
+  display: none;
+}
+.photoHero .heroArt {
+  position: relative;
+  grid-column: 2;
+  grid-row: 1;
+  z-index: auto;
+  min-height: 440px;
+}
+.photoHero .heroArt > img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+}
+.photoHero .heroText {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 40px 32px;
+}
+.photoHero .heroCredit {
+  grid-column: 1 / -1;
+}
+.photoHero .heroText > :global(.kicker),
+.photoHero :global(.btn-ghost) {
+  color: var(--ink);
+}
+.cover > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cover h2 a {
+  text-decoration: none;
+}
+.cover {
+  padding: 0;
+}
+.listingInfo {
+  margin-bottom: 32px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--card);
+}
+.listingInfo h2 {
+  font-size: 24px;
+}
+.listingInfo dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 24px;
+  margin: 0;
+  font-size: 14px;
+}
+.listingInfo dt {
+  font-weight: 600;
+}
+.listingInfo dd {
+  margin: 4px 0 0;
+}
+.listingInfo ul {
+  margin: 0;
+  padding-left: 18px;
+}
+@media (max-width: 759px) {
+  .photoHero {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .photoHero .heroArt {
+    width: 100%;
+    height: min(65vw, 56vh);
+    min-height: 0;
+    flex: none;
+  }
+  .photoHero .heroText {
+    padding: 28px 24px;
+  }
+  .photoHero .heroCredit {
+    width: 100%;
+  }
+  .listingInfo dl {
+    grid-template-columns: 1fr;
+  }
+  .cover {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: var(--card);
+    color: var(--ink);
+    min-height: 0;
+  }
+  .cover > img,
+  .cover > svg {
+    position: relative;
+    aspect-ratio: 3 / 2;
+    height: auto;
+  }
+  .cover::after {
+    display: none;
+  }
+  .coverText {
+    padding: 24px;
+  }
+  .cover :global(.kicker) {
+    color: var(--ink-soft);
+  }
+  .cover .editorial {
+    display: none;
+  }
+  .journal {
+    grid-template-columns: 110px minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 759px) {
+  .cover > div:last-child {
+    padding-bottom: 64px;
   }
 }
