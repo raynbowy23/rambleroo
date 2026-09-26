@@ -327,3 +327,49 @@ p {
     font-size: 13px;
   }
 }
+
+/* Page transitions (View Transitions API, triggered by viewTransition links). The old page fades out quickly, the new one settles in with a slight rise, so navigation reads as turning a page rather than a cut. */
+::view-transition-old(root) {
+  animation: rr-vt-out 220ms ease-in both;
+}
+::view-transition-new(root) {
+  animation: rr-vt-in 460ms var(--ease-out) 60ms both;
+}
+::view-transition-group(site-header),
+::view-transition-group(tab-bar) {
+  animation: none;
+}
+@keyframes rr-vt-out {
+  to {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+@keyframes rr-vt-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
+
+/* Maps fade in once MapLibre has drawn, instead of popping in. */
+.maplibregl-canvas {
+  animation: rr-map-in 500ms ease-out both;
+}
+@keyframes rr-map-in {
+  from {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .maplibregl-canvas {
+    animation: none;
+  }
+}

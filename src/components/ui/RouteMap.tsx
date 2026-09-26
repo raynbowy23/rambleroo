@@ -8,8 +8,8 @@ export function RouteMap(props: ComponentProps<typeof MapComponent>) {
   return (
     <Suspense
       fallback={
-        <div className={s.map} role="status">
-          Opening the map…
+        <div className={`${s.map} ${s.mapPlaceholder}`} role="status">
+          <span className="visually-hidden">Opening the map…</span>
         </div>
       }
     >

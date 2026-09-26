@@ -73,7 +73,7 @@ export default function PassportPage() {
             {counts.visits} {counts.visits === 1 ? 'visit' : 'visits'} recorded
           </p>
           <p className={s.muted}>Saved in this browser. Accounts and sync come later.</p>
-          <Link className="btn btn-primary" to="/">
+          <Link viewTransition className="btn btn-primary" to="/">
             Find a road
           </Link>
         </div>
@@ -84,7 +84,7 @@ export default function PassportPage() {
           <small>Illustration</small>
           <h2>More roads ahead</h2>
           <p>Save a road that catches your eye, or record a stretch you remember.</p>
-          <Link className="btn btn-primary" to="/">
+          <Link viewTransition className="btn btn-primary" to="/">
             Find a road
           </Link>
         </section>
@@ -96,7 +96,7 @@ export default function PassportPage() {
               {latest.map((v) => {
                 const b = byId.get(v.bywayId)
                 return (
-                  <Link to={`/byway/${v.bywayId}`} key={v.bywayId}>
+                  <Link viewTransition to={`/byway/${v.bywayId}`} key={v.bywayId}>
                     <BywayStamp
                       byway={b}
                       title={b?.name ?? 'Road no longer in catalog'}
@@ -129,7 +129,9 @@ export default function PassportPage() {
               {stateProgress.map(({ code, count, total }) => {
                 return (
                   <div className={s.progress} key={code}>
-                    <Link to={`/state/${code}`}>{states[code]}</Link>
+                    <Link viewTransition to={`/state/${code}`}>
+                      {states[code]}
+                    </Link>
                     <progress max={total} value={count} aria-label={`${states[code]}: ${count} of ${total} catalog roads visited`} />
                     <span>
                       {count} / {total}
@@ -152,7 +154,9 @@ export default function PassportPage() {
                   </div>
                   <div>
                     <h3>
-                      <Link to={`/byway/${v.bywayId}`}>{b?.name ?? 'Road no longer in catalog'}</Link>
+                      <Link viewTransition to={`/byway/${v.bywayId}`}>
+                        {b?.name ?? 'Road no longer in catalog'}
+                      </Link>
                     </h3>
                     <p>
                       <time dateTime={v.date}>{v.date}</time> · {v.scope === 'part' ? 'Part of the road' : 'The whole road'}
@@ -216,7 +220,9 @@ export default function PassportPage() {
       )}
       <PassportData />
       <footer className={s.section}>
-        <Link to="/about">About the data</Link>
+        <Link viewTransition to="/about">
+          About the data
+        </Link>
       </footer>
       {editing && byId.has(editing.bywayId) && (
         <VisitEditor byway={byId.get(editing.bywayId)!} visit={editing} onClose={() => setEditing(undefined)} />

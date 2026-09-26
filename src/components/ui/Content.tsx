@@ -93,7 +93,7 @@ export function PageStatus({ title, error }: { title: string; error?: boolean })
     <main className={s.page}>
       <h1>{title}</h1>
       {error && <p role="alert">Please refresh to try again.</p>}
-      <Link className="btn btn-ghost" to="/">
+      <Link viewTransition className="btn btn-ghost" to="/">
         Back to the map
       </Link>
     </main>

@@ -2,12 +2,25 @@ import { lazy, Suspense } from 'react'
 import { createBrowserRouter, Link, RouterProvider } from 'react-router'
 import Layout from './components/layout/Layout'
 import styles from './components/layout/Page.module.css'
-const ExplorePage = lazy(() => import('./features/explore/ExplorePage'))
-const BywayPage = lazy(() => import('./features/byway/BywayPage'))
-const StatePage = lazy(() => import('./features/state/StatePage'))
-const CollectionsPage = lazy(() => import('./features/collections/CollectionsPage'))
-const PassportPage = lazy(() => import('./features/passport/PassportPage'))
-const AboutPage = lazy(() => import('./features/about/AboutPage'))
+// Route modules load through the router (not <Suspense>), so the current page stays on screen until the next one is ready,
+// and the swap then runs inside a view transition instead of flashing a loading message.
+const pages = {
+  explore: () => import('./features/explore/ExplorePage'),
+  byway: () => import('./features/byway/BywayPage'),
+  state: () => import('./features/state/StatePage'),
+  collections: () => import('./features/collections/CollectionsPage'),
+  passport: () => import('./features/passport/PassportPage'),
+  about: () => import('./features/about/AboutPage'),
+}
+const page = (load: () => Promise<{ default: React.ComponentType }>) => async () => ({ Component: (await load()).default })
+
+/** Fetch every page's code once the first screen is idle, so later navigations never wait on the network. */
+export function preloadPages() {
+  const run = () => Object.values(pages).forEach((load) => void load())
+  if ('requestIdleCallback' in window) requestIdleCallback(run, { timeout: 4000 })
+  else setTimeout(run, 2500)
+}
+
 const galleryModules = import.meta.glob<{ default: React.ComponentType }>('./components/art/ArtGallery.tsx')
 const ArtGallery = lazy(async () => {
   const loader = galleryModules['./components/art/ArtGallery.tsx']
@@ -25,14 +38,19 @@ const ArtGallery = lazy(async () => {
 const router = createBrowserRouter([
   {
     element: <Layout />,
+    HydrateFallback: () => (
+      <p role="status" className={styles.page}>
+        Opening the map…
+      </p>
+    ),
     children: [
-      { path: '/', element: <ExplorePage /> },
-      { path: '/byway/:id', element: <BywayPage /> },
-      { path: '/state/:code', element: <StatePage /> },
-      { path: '/collections', element: <CollectionsPage /> },
-      { path: '/collections/:slug', element: <CollectionsPage /> },
-      { path: '/passport', element: <PassportPage /> },
-      { path: '/about', element: <AboutPage /> },
+      { path: '/', lazy: page(pages.explore) },
+      { path: '/byway/:id', lazy: page(pages.byway) },
+      { path: '/state/:code', lazy: page(pages.state) },
+      { path: '/collections', lazy: page(pages.collections) },
+      { path: '/collections/:slug', lazy: page(pages.collections) },
+      { path: '/passport', lazy: page(pages.passport) },
+      { path: '/about', lazy: page(pages.about) },
       {
         path: '/dev/art',
         element: (
@@ -47,7 +65,9 @@ const router = createBrowserRouter([
           <main className={styles.page}>
             <h1>A little off the beaten path.</h1>
             <p>We couldn’t find that page.</p>
-            <Link to="/">Return to the map</Link>
+            <Link viewTransition to="/">
+              Return to the map
+            </Link>
           </main>
         ),
       },
@@ -55,9 +75,5 @@ const router = createBrowserRouter([
   },
 ])
 export default function App() {
-  return (
-    <Suspense fallback={<p role="status">Opening the map…</p>}>
-      <RouterProvider router={router} />
-    </Suspense>
-  )
+  return <RouterProvider router={router} />
 }

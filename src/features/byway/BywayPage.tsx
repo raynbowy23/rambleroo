@@ -131,7 +131,7 @@ export default function BywayPage() {
             Record a visit
           </button>
           <ShareControl byway={b} story={story} note={note} photo={photo} />
-          <Link className="btn btn-ghost" to={`/?byway=${b.id}`}>
+          <Link viewTransition className="btn btn-ghost" to={`/?byway=${b.id}`}>
             Show on the map
           </Link>
         </div>

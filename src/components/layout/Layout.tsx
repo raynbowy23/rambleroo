@@ -1,10 +1,12 @@
-import { Link, NavLink, Outlet, useLocation } from 'react-router'
+import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router'
 import { Icon, Logo, type IconName } from '../art'
 import { AppStatus } from '../ui/AppStatus'
 import { Toast } from '../ui/Toast'
 import { useCatalog } from '../../lib/data'
 import { usePassport } from '../../lib/passport'
 import styles from './Layout.module.css'
+const supportsViewTransitions = typeof document !== 'undefined' && 'startViewTransition' in document
+
 export default function Layout() {
   const { pathname } = useLocation()
   const { meta } = useCatalog()
@@ -18,7 +20,7 @@ export default function Layout() {
           ['/passport', 'Passport', 'stamp'],
         ] as [string, string, IconName][]
       ).map(([to, label, icon]) => (
-        <NavLink key={to} to={to} end={to === '/'}>
+        <NavLink viewTransition key={to} to={to} end={to === '/'}>
           <Icon name={icon} size={18} />
           {label}
           {label === 'Passport' && (
@@ -36,20 +38,22 @@ export default function Layout() {
         Skip to content
       </a>
       <header className={styles.header}>
-        <Link to="/" className={styles.logo} aria-label="Rambleroo home">
+        <Link viewTransition to="/" className={styles.logo} aria-label="Rambleroo home">
           <Logo size={32} />
         </Link>
         <span className={`kicker ${styles.tagline}`}>Est. 2026 · Scenic roads of America</span>
         <nav className={styles.desktop} aria-label="Main navigation">
           {nav}
         </nav>
-        <Link className={styles.about} to="/about">
+        <Link viewTransition className={styles.about} to="/about">
           About the data
         </Link>
       </header>
-      <div id="main-content" tabIndex={-1}>
+      {/* Keyed by path so browsers without the View Transitions API still get a soft fade-in (see .pageEnter). */}
+      <div id="main-content" tabIndex={-1} key={pathname} className={supportsViewTransitions ? undefined : styles.pageEnter}>
         <Outlet />
       </div>
+      <ScrollRestoration />
       {pathname !== '/' && (
         <footer className={styles.footer}>
           <span className="kicker">Explore / Collect / Remember</span>
@@ -58,7 +62,9 @@ export default function Layout() {
             {meta ? `, retrieved ${meta.retrievedAt.slice(0, 10)}` : ''}. Basemap:{' '}
             <a href="https://www.naturalearthdata.com/">Natural Earth</a>. Illustrations are generated artwork, not photographs.
           </p>
-          <Link to="/about">About the data</Link>
+          <Link viewTransition to="/about">
+            About the data
+          </Link>
         </footer>
       )}
       <nav className={styles.mobile} aria-label="Mobile navigation">

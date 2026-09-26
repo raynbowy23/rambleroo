@@ -753,3 +753,19 @@
 .importFile:focus-within {
   box-shadow: var(--focus-ring);
 }
+
+/* Quiet paper placeholder while an embedded map's code loads: no text popping in and out, just a soft breathing wash. */
+.mapPlaceholder {
+  background: linear-gradient(100deg, var(--paper-deep) 30%, var(--card) 50%, var(--paper-deep) 70%) 0 0 / 300% 100%;
+  animation: rr-placeholder 1.6s ease-in-out infinite;
+}
+@keyframes rr-placeholder {
+  to {
+    background-position: -150% 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mapPlaceholder {
+    animation: none;
+  }
+}

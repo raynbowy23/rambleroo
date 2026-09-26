@@ -42,7 +42,7 @@ export default function CollectionsPage() {
             {collection.bywayIds.length}
           </p>
           <div className={s.actions}>
-            <Link className="btn btn-ghost" to="/collections">
+            <Link viewTransition className="btn btn-ghost" to="/collections">
               All collections
             </Link>
           </div>
@@ -81,7 +81,7 @@ export default function CollectionsPage() {
       <ThemeChips value={theme} onChange={setTheme} />
       <div className={s.grid}>
         {shown.map((c) => (
-          <Link className={s.cover} to={`/collections/${c.slug}`} key={c.slug}>
+          <Link viewTransition className={s.cover} to={`/collections/${c.slug}`} key={c.slug}>
             <Scene family={c.scene} seed={collections.indexOf(c) + 1} variant="cover" />
             <span className={s.editorial}>Editorial</span>
             <span className={s.credit}>Illustration</span>
@@ -101,7 +101,7 @@ export default function CollectionsPage() {
       {!shown.length && <p>No collections match this theme yet.</p>}
       {!!Object.keys(passport.saved).length && (
         <section className={s.section}>
-          <Link className={s.personal} to="/passport#saved">
+          <Link viewTransition className={s.personal} to="/passport#saved">
             <span className="kicker">Yours</span>
             <h2>Your saved roads →</h2>
             <p>{Object.keys(passport.saved).length} saved roads · Saved in this browser</p>

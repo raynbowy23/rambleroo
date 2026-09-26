@@ -41,7 +41,7 @@ export default function StatePage() {
           </>
         )}
         <div className={s.actions}>
-          <Link className="btn btn-primary" to={`/?state=${code}`}>
+          <Link viewTransition className="btn btn-primary" to={`/?state=${code}`}>
             Explore {states[code]} on the map
           </Link>
         </div>

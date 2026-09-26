@@ -94,11 +94,15 @@ export function Postcard({
                 : `${formatMiles(b.mappedMiles)} in total`}
             </span>
             <span>{story ? (story.reviewed ? 'Story' : 'Draft story · pending review') : 'Listing'}</span>
-            {mapTo && <Link to={mapTo}>Show on map</Link>}
+            {mapTo && (
+              <Link viewTransition to={mapTo}>
+                Show on map
+              </Link>
+            )}
           </div>
           <div className={styles.actions}>
             {gallery && <ShareControl byway={b} story={story} small />}
-            <Link className="btn btn-primary" to={`/byway/${b.id}`}>
+            <Link viewTransition className="btn btn-primary" to={`/byway/${b.id}`}>
               {b.status === 'listing' ? 'Open details' : 'View story'}
               <Icon name="arrow-right" size={16} />
             </Link>

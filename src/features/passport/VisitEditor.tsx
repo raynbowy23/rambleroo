@@ -50,7 +50,7 @@ export function VisitEditor({
           <p>Stamp added to your passport</p>
           <p>Saved in this browser</p>
           <div className={s.actions}>
-            <Link className="btn btn-primary" to="/passport" onClick={onClose}>
+            <Link viewTransition className="btn btn-primary" to="/passport" onClick={onClose}>
               View passport
             </Link>
             <button className="btn btn-ghost" onClick={onClose}>

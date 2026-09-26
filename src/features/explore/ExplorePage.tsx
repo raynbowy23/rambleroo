@@ -184,7 +184,7 @@ export default function ExplorePage() {
                 </select>
               </label>
               {state && states[state] && (
-                <Link className="btn btn-ghost" to={`/state/${state}`}>
+                <Link viewTransition className="btn btn-ghost" to={`/state/${state}`}>
                   Open the {states[state]} chapter
                 </Link>
               )}
@@ -193,7 +193,7 @@ export default function ExplorePage() {
                 <select
                   value=""
                   onChange={(e) => {
-                    if (e.target.value) navigate(`/state/${e.target.value}`)
+                    if (e.target.value) navigate(`/state/${e.target.value}`, { viewTransition: true })
                   }}
                 >
                   <option value="">Choose a chapter</option>
@@ -375,7 +375,7 @@ export default function ExplorePage() {
       )}
       {view === 'map' && (
         <div data-map-decoration className={styles.rail}>
-          <Link className={styles.passport} to="/passport">
+          <Link viewTransition className={styles.passport} to="/passport">
             <Icon name="stamp" size={30} />
             <span>
               <strong>Your passport</strong>
@@ -387,7 +387,7 @@ export default function ExplorePage() {
           <div className={styles.collections}>
             <span className="kicker">Collections</span>
             {collections.map((c, i) => (
-              <Link to={`/collections/${c.slug}`} key={c.slug}>
+              <Link viewTransition to={`/collections/${c.slug}`} key={c.slug}>
                 <Scene family={c.scene} seed={i} variant="thumb" />
                 <span>{c.title}</span>
               </Link>
