@@ -40,12 +40,25 @@ export function BywayMap({
       const mobile = window.innerWidth < 760
       const panel = root.querySelector<HTMLElement>(`[data-map-panel="${selected ? 'postcard' : 'search'}"]`)
       const height = root.clientHeight
+      const width = root.clientWidth
       const panelHeight = panel?.getBoundingClientRect().height ?? 270
+      // Reserve the space actually covered by the search panel (left) and the postcard (right), measured rather than assumed.
+      const search = root.querySelector<HTMLElement>('[data-map-panel="search"]')
+      const searchRight = search && search.offsetParent ? search.getBoundingClientRect().right - root.getBoundingClientRect().left : 0
+      let left = mobile ? 25 : Math.max(40, searchRight + 30)
+      let right = mobile ? 25 : selected ? (panel?.offsetWidth ?? 320) + (width > 1100 ? 130 : 40) : 40
+      // Always leave at least 180px of open map for the road, shrinking both sides proportionally if needed.
+      const overflow = left + right - (width - 180)
+      if (overflow > 0) {
+        const k = (width - 180) / (left + right)
+        left = Math.round(left * k)
+        right = Math.round(right * k)
+      }
       setPadding({
         top: mobile ? 70 : 100,
         bottom: mobile ? Math.min(panelHeight + 20, height - 120) : 170,
-        left: mobile || (selected && window.innerWidth <= 1100) ? 25 : 390,
-        right: mobile ? 25 : selected ? (panel?.offsetWidth ?? 320) + 130 : 40,
+        left,
+        right,
       })
       root.style.setProperty('--sheet-height', `${panelHeight}px`)
       root.style.setProperty('--mobile-controls', panelHeight > height - 70 ? 'none' : 'flex')

@@ -47,3 +47,15 @@ test('list view works without the map', async ({ page }) => {
   await expect(page.getByRole('table')).toBeVisible()
   await expect(page.getByRole('row').nth(1)).toBeVisible()
 })
+
+// Regression: on mid-size windows the panel used to hide when a road was selected, taking the view switcher with it.
+test('map / gallery / list switcher stays usable with a road selected at 1024px', async ({ page }) => {
+  await page.setViewportSize({ width: 1024, height: 768 })
+  await page.goto('/?byway=great-river-road-2279')
+  await page.getByRole('button', { name: 'gallery', exact: true }).click()
+  await expect(page).toHaveURL(/view=gallery/)
+  await page.getByRole('button', { name: 'map', exact: true }).click()
+  await expect(page).toHaveURL(/view=map/)
+  await page.getByRole('button', { name: 'list', exact: true }).click()
+  await expect(page).toHaveURL(/view=list/)
+})

@@ -217,3 +217,10 @@
     display: none;
   }
 }
+
+/* Mid-size windows have no room for the legend beside the panel and postcard; line colours are also named in the About page. */
+@media (max-width: 1100px) {
+  .legend {
+    display: none;
+  }
+}
