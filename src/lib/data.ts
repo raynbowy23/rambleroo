@@ -90,3 +90,7 @@ export function firstPhoto(bywayIds: string[]): Photo | undefined {
 export function usePhotos(bywayId?: string): Photo[] {
   return (photoData as Photo[]).filter((photo) => photo.bywayId === bywayId)
 }
+
+const photographed = new Set((photoData as Photo[]).map((photo) => photo.bywayId))
+/** True when the road has at least one published photograph. */
+export const hasPhoto = (bywayId: string) => photographed.has(bywayId)

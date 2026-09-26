@@ -79,6 +79,16 @@ const slug = (s: string) =>
     .replace(/[^a-z0-9]+/g, '-')
     .slice(0, 60)
     .replace(/^-|-$/g, '')
+/** NARA descriptions open with archive boilerplate; their file titles ("Byway - Subject - NARA - id") name the subject cleanly. */
+function altText(c: Candidate, name: string) {
+  if (c.source === 'nara') {
+    const subject = c.file.replace(/^File:/, '').split(' - ')[1]
+    return subject ? `${name}: ${subject}.` : `A view along ${name}.`
+  }
+  const first = c.description.replace(/\s+/g, ' ').split(/(?<=\.)\s/)[0]
+  return first && first.length > 12 ? `${name}: ${first.slice(0, 160)}` : `A view along ${name}.`
+}
+
 let added = 0
 for (const [bywayId, c] of Object.entries(candidates)) {
   if (!c || rejected[bywayId] || registry.some((p) => p.bywayId === bywayId)) continue
@@ -103,7 +113,7 @@ for (const [bywayId, c] of Object.entries(candidates)) {
     height,
     title: c.file.replace(/^File:/, ''),
     // Descriptions from Commons vary in quality; the alt text states what we can vouch for.
-    alt: c.description ? `${name}: ${c.description.replace(/\s+/g, ' ').slice(0, 160)}` : `A view along ${name}.`,
+    alt: altText(c, name),
     author: c.author.replace(/\s+/g, ' ').slice(0, 120),
     license: c.license,
     licenseUrl: c.licenseUrl,

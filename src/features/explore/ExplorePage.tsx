@@ -1,7 +1,7 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams, useNavigate } from 'react-router'
 import { RoadVisual } from '../photos/RoadVisual'
-import { firstPhoto } from '../../lib/data'
+import { firstPhoto, hasPhoto } from '../../lib/data'
 import { Icon } from '../../components/art'
 import { collections, useCatalog } from '../../lib/data'
 import { filterByways, themes } from '../../lib/filters'
@@ -33,7 +33,13 @@ export default function ExplorePage() {
   const selectedId = params.get('byway')
   const view = failed ? 'list' : ['map', 'gallery', 'list'].includes(params.get('view') ?? '') ? params.get('view')! : 'map'
   const activeThemes = useMemo(() => themes.filter((t) => themeKey.split(',').includes(t)), [themeKey])
-  const filtered = useMemo(() => filterByways(catalog.byways, { q, state, themes: activeThemes }), [catalog.byways, q, state, activeThemes])
+  const filtered = useMemo(() => {
+    const matches = filterByways(catalog.byways, { q, state, themes: activeThemes })
+    // A typed search keeps its relevance order; browsing puts roads with real photos (and stories) first.
+    if (q) return matches
+    const rank = (id: string, status: string) => (status !== 'listing' ? 0 : hasPhoto(id) ? 1 : 2)
+    return [...matches].sort((a, b) => rank(a.id, a.status) - rank(b.id, b.status))
+  }, [catalog.byways, q, state, activeThemes])
   const active = Boolean(q || state || activeThemes.length)
   const ids = useMemo(() => (active ? filtered.map((b) => b.id) : null), [active, filtered])
   const selected = selectedId ? catalog.byId.get(selectedId) : undefined
