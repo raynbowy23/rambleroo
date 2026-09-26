@@ -110,3 +110,12 @@ describe('photos', () => {
     }
   })
 })
+
+describe('photo credits', () => {
+  it('never publish placeholder or run-together author text', () => {
+    for (const p of json<import('../../src/lib/types').Photo[]>('content/photos.json')) {
+      expect(p.author, p.file).not.toMatch(/unknown author.*unknown author|not provided/i)
+      expect(p.author.length, p.file).toBeLessThanOrEqual(120)
+    }
+  })
+})

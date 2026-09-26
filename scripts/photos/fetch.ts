@@ -89,6 +89,14 @@ function altText(c: Candidate, name: string) {
   return first && first.length > 12 ? `${name}: ${first.slice(0, 160)}` : `A view along ${name}.`
 }
 
+/** Commons renders a missing author as repeated placeholder text; NARA byway photos come from the U.S. DOT, so credit the agency and the archive instead. */
+function creditFor(c: Candidate) {
+  const author = c.author.replace(/\s+/g, ' ').trim()
+  if (!author || /unknown author/i.test(author))
+    return c.source === 'nara' ? 'U.S. Department of Transportation (National Archives)' : 'Unknown author'
+  return author.slice(0, 120)
+}
+
 let added = 0
 for (const [bywayId, c] of Object.entries(candidates)) {
   if (!c || rejected[bywayId] || registry.some((p) => p.bywayId === bywayId)) continue
@@ -114,7 +122,7 @@ for (const [bywayId, c] of Object.entries(candidates)) {
     title: c.file.replace(/^File:/, ''),
     // Descriptions from Commons vary in quality; the alt text states what we can vouch for.
     alt: altText(c, name),
-    author: c.author.replace(/\s+/g, ' ').slice(0, 120),
+    author: creditFor(c),
     license: c.license,
     licenseUrl: c.licenseUrl,
     sourceUrl: c.sourceUrl,
