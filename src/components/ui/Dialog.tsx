@@ -40,7 +40,7 @@ export function Dialog({ title, onClose, children }: { title: string; onClose: (
         if (e.key === 'Tab') {
           const items = Array.from(
             ref.current!.querySelectorAll<HTMLElement>(
-              'button:not([disabled]),a[href],input:not([disabled]),textarea:not([disabled]),[tabindex="0"]',
+              'button:not([disabled]),a[href],input:not([disabled]),textarea:not([disabled]),select:not([disabled]),[tabindex="0"]',
             ),
           )
           const first = items[0]

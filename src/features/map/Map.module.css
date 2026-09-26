@@ -30,7 +30,7 @@
   overflow: hidden;
 }
 .controls button {
-  font-size: 12px;
+  font-size: 13px;
   border: 0;
   border-radius: 0;
   padding: 0 12px;
@@ -45,7 +45,7 @@
   background: var(--card);
   padding: 8px 12px;
   border-radius: var(--radius);
-  font-size: 10px;
+  font-size: 13px;
   box-shadow: var(--shadow-1);
 }
 .legend span {
@@ -108,7 +108,7 @@
   background: var(--card);
   color: var(--ink);
   font: inherit;
-  font-size: 12px;
+  font-size: 13px;
 }
 .selectedControls {
   right: 360px;
@@ -148,7 +148,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink-soft);
 }
 .cartouche::before {

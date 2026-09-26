@@ -1,5 +1,6 @@
 import { Link, NavLink, Outlet, useLocation } from 'react-router'
 import { Icon, Logo, type IconName } from '../art'
+import { AppStatus } from '../ui/AppStatus'
 import { Toast } from '../ui/Toast'
 import { useCatalog } from '../../lib/data'
 import { usePassport } from '../../lib/passport'
@@ -64,6 +65,7 @@ export default function Layout() {
         {nav}
       </nav>
       <Toast />
+      <AppStatus />
     </>
   )
 }

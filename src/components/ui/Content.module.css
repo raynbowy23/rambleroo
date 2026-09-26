@@ -104,7 +104,7 @@
   bottom: 12px;
   background: var(--paper);
   color: var(--ink-soft);
-  font-size: 10px;
+  font-size: 13px;
   padding: 3px 8px;
   border-radius: 4px;
 }
@@ -150,7 +150,7 @@
   flex-wrap: wrap;
   gap: 16px;
   padding: 12px 0;
-  font-size: 12px;
+  font-size: 13px;
 }
 .legend span {
   display: flex;
@@ -207,7 +207,7 @@
   border: 1px solid var(--line-strong);
   padding: 3px 9px;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 13px;
 }
 .sources {
   padding-left: 20px;
@@ -550,7 +550,7 @@
   background: var(--paper);
   color: var(--ink);
   border: 1px solid var(--line-strong);
-  font-size: 10px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
@@ -582,7 +582,7 @@
   }
   .cover :global(.kicker),
   .heroText > :global(.kicker) {
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 0.07em;
   }
 }
@@ -594,7 +594,7 @@
 }
 /* Keep the longest editorial kicker on one line inside the printed margin. */
 .cover :global(.kicker) {
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 0.1em;
 }
 
@@ -709,4 +709,47 @@
   .mobileArtBand h1 {
     font-size: clamp(28px, 8vw, 40px);
   }
+}
+@media (max-width: 759px) {
+  .page {
+    padding-bottom: calc(32px + var(--mobile-nav-h));
+  }
+  .map {
+    height: 260px;
+  }
+  .cover :global(.kicker),
+  .heroText > :global(.kicker) {
+    white-space: normal;
+    font-size: 12px;
+  }
+  .split {
+    display: flex;
+    flex-direction: column;
+  }
+  .companion {
+    position: static;
+    order: -1;
+    width: 100%;
+  }
+}
+@media (min-width: 560px) and (max-width: 1100px) {
+  .grid,
+  .rail {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.importFile {
+  position: relative;
+  cursor: pointer;
+}
+.importFile input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.importFile:focus-within {
+  box-shadow: var(--focus-ring);
 }

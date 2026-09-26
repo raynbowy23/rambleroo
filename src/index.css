@@ -94,7 +94,7 @@ svg {
 
 .kicker {
   font-family: var(--font-sans);
-  font-size: 0.72rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: var(--tracking-caps);
   text-transform: uppercase;
@@ -236,7 +236,94 @@ p {
   border: 1px solid var(--line-strong);
   background: var(--paper);
   color: var(--ink);
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+
+:root {
+  --mobile-nav-h: calc(64px + env(safe-area-inset-bottom));
+}
+@media (any-pointer: coarse) {
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 759px) {
+  body {
+    font-size: 16px;
+  }
+  main {
+    padding-bottom: var(--mobile-nav-h);
+  }
+  a,
+  button,
+  input,
+  select,
+  textarea,
+  [role='button'],
+  summary {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  a {
+    display: inline-block;
+    padding-block: 10px;
+  }
+  button,
+  .btn,
+  .chip {
+    font-size: 13px;
+  }
+  p {
+    font-size: max(1em, 16px);
+  }
+  .kicker {
+    font-size: 12px;
+    white-space: normal;
+  }
+  .maplibregl-ctrl button {
+    width: 44px;
+    height: 44px;
+  }
+  .maplibregl-ctrl-attrib-button {
+    width: 44px;
+    height: 44px;
+  }
+  .maplibregl-ctrl-attrib {
+    min-height: 44px;
+  }
+  .maplibregl-ctrl-attrib a {
+    padding-block: 10px;
+  }
+}
+.maplibregl-cooperative-gesture-screen {
+  background: rgb(243 234 215 / 0.92);
+  color: var(--forest);
+  font-family: var(--font-sans);
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media (max-width: 759px), (any-pointer: coarse) {
+  /* Zero-specificity baseline: guarantees a 44px hit area on phones without overriding components that size themselves (a collection cover is a link, and !important used to flatten it to 44px). Components with deliberately small visuals pad their own hit area; tests/e2e/mobile.spec.ts checks every control. */
+  :where(a, button, input, select, textarea, [role='button'], summary):not(svg *) {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  :where(a:not([class])):not(svg *) {
+    display: inline-block;
+    padding-block: 10px;
+  }
+  small {
+    font-size: 13px;
+  }
 }

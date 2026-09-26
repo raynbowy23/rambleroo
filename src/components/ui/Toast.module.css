@@ -16,3 +16,9 @@
 .toast:empty {
   display: none;
 }
+
+@media (max-width: 759px) {
+  .toast {
+    bottom: calc(var(--mobile-nav-h) + 16px);
+  }
+}

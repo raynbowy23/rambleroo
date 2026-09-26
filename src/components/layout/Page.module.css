@@ -25,3 +25,9 @@
 .page a {
   color: var(--forest);
 }
+@media (max-width: 759px) {
+  .page {
+    padding: 32px 20px calc(32px + var(--mobile-nav-h));
+    overflow-wrap: anywhere;
+  }
+}

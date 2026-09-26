@@ -25,7 +25,7 @@ export function PassportData() {
           Download my passport
         </button>
         <label className={`btn btn-ghost ${s.importFile}`}>
-          Import
+          Import passport
           <input
             aria-label="Import passport"
             type="file"

@@ -7,6 +7,8 @@ import { formatMiles, shortDesignation } from '../../lib/format'
 import { states, stateNames } from '../../lib/states'
 import { usePassport, passportCounts } from '../../lib/passport'
 import { useHover } from '../map/hover'
+import { Dialog } from '../../components/ui/Dialog'
+import { useSheetDrag } from '../../lib/useSheetDrag'
 import { Postcard } from './Postcard'
 import styles from './Explore.module.css'
 const BywayMap = lazy(() => import('../map/BywayMap').then((module) => ({ default: module.BywayMap })))
@@ -16,12 +18,13 @@ export default function ExplorePage() {
   const [params, setParams] = useSearchParams()
   const [failed, setFailed] = useState(false)
   const [collapsed, setCollapsed] = useState(false)
-  const [snap, setSnap] = useState(1)
+  const [snap, setSnap] = useState(0)
   const [limit, setLimit] = useState(40)
   const opener = useRef<HTMLElement | null>(null)
   const focusHeading = useRef(false)
-  const drag = useRef(0)
-  const dragged = useRef(false)
+  const [filtersOpen, setFiltersOpen] = useState(false)
+  const sheet = useSheetDrag(snap, setSnap)
+  const postcardSwipe = useSheetDrag(0, () => select(null), true)
   const q = params.get('q') ?? ''
   const state = params.get('state') ?? ''
   const themeKey = params.get('themes') ?? ''
@@ -95,30 +98,14 @@ export default function ExplorePage() {
         </Suspense>
       )}
       <aside
+        ref={sheet.ref}
+        data-snap={snap}
+        style={sheet.style}
         data-map-panel="search"
         className={`${styles.panel} ${collapsed ? styles.collapsed : ''} ${styles[`snap${snap}`]} ${selected && view === 'map' ? styles.withSelection : ''}`}
         aria-label="Find a byway"
       >
-        <button
-          className={styles.handle}
-          aria-label="Change results sheet height"
-          onClick={() => {
-            if (!dragged.current) setSnap((snap + 1) % 3)
-            dragged.current = false
-          }}
-          onPointerDown={(e) => {
-            dragged.current = false
-            drag.current = e.clientY
-            e.currentTarget.setPointerCapture(e.pointerId)
-          }}
-          onPointerUp={(e) => {
-            const delta = drag.current - e.clientY
-            if (Math.abs(delta) > 25) {
-              dragged.current = true
-              setSnap((s) => Math.max(0, Math.min(2, s + (delta > 0 ? 1 : -1))))
-            }
-          }}
-        >
+        <button className={styles.handle} aria-label="Change results sheet height" {...sheet.handlers}>
           —
         </button>
         <div className={styles.panelContent}>
@@ -153,7 +140,10 @@ export default function ExplorePage() {
                   id="byway-search"
                   placeholder="Byway, state or designation"
                   value={q}
-                  onChange={(e) => set('q', e.target.value, true)}
+                  onChange={(e) => {
+                    set('q', e.target.value, true)
+                    if (e.target.value) setSnap(1)
+                  }}
                 />
                 {q && (
                   <button className="btn btn-icon" aria-label="Clear search" onClick={() => set('q', null, true)}>
@@ -161,6 +151,9 @@ export default function ExplorePage() {
                   </button>
                 )}
               </div>
+              <button className={`btn btn-ghost ${styles.filtersButton}`} onClick={() => setFiltersOpen(true)}>
+                Filters{active ? ' · Active' : ''}
+              </button>
               <div className={styles.chips}>
                 <button className="chip" aria-pressed={!activeThemes.length} onClick={() => set('themes', null)}>
                   All
@@ -263,6 +256,48 @@ export default function ExplorePage() {
           )}
         </div>
       </aside>
+      {filtersOpen && (
+        <Dialog title="Filter byways" onClose={() => setFiltersOpen(false)}>
+          <div className={styles.chips}>
+            <button className="chip" aria-pressed={!activeThemes.length} onClick={() => set('themes', null)}>
+              All
+            </button>
+            {themes.map((theme) => (
+              <button
+                key={theme}
+                className="chip"
+                aria-pressed={activeThemes.includes(theme)}
+                onClick={() =>
+                  set(
+                    'themes',
+                    (activeThemes.includes(theme) ? activeThemes.filter((t) => t !== theme) : [...activeThemes, theme]).join(','),
+                  )
+                }
+              >
+                {theme}
+              </button>
+            ))}
+          </div>
+          <label className={styles.state}>
+            State{' '}
+            <select value={state} onChange={(e) => set('state', e.target.value)}>
+              <option value="">All states</option>
+              {Object.entries(states).map(([code, name]) => (
+                <option key={code} value={code}>
+                  {name}
+                </option>
+              ))}
+            </select>
+          </label>
+          <p>{filtered.length} byways</p>
+          <button className="btn btn-ghost" onClick={clear}>
+            Clear filters
+          </button>{' '}
+          <button className="btn btn-primary" onClick={() => setFiltersOpen(false)}>
+            Show results
+          </button>
+        </Dialog>
+      )}
       {view !== 'map' && (
         <section className={styles.content} aria-label={view === 'gallery' ? 'Byway gallery' : 'Byway list'}>
           {failed && (
@@ -289,25 +324,25 @@ export default function ExplorePage() {
             </div>
           ) : (
             <div className={styles.tableWrap}>
-              <table>
+              <table role="table">
                 <caption className="visually-hidden">Scenic byways matching your filters</caption>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>States</th>
-                    <th>Miles</th>
-                    <th>Designation</th>
+                <thead role="rowgroup">
+                  <tr role="row">
+                    <th role="columnheader">Name</th>
+                    <th role="columnheader">States</th>
+                    <th role="columnheader">Miles</th>
+                    <th role="columnheader">Designation</th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody role="rowgroup">
                   {filtered.slice(0, limit).map((b) => (
-                    <tr key={b.id} aria-selected={selectedId === b.id}>
-                      <td>
+                    <tr role="row" key={b.id} aria-selected={selectedId === b.id}>
+                      <td role="cell">
                         <button onClick={() => select(b.id, true)}>{b.name}</button>
                       </td>
-                      <td>{stateNames(b.states)}</td>
-                      <td>{formatMiles(b.mappedMiles)}</td>
-                      <td>{shortDesignation(b)}</td>
+                      <td role="cell">{stateNames(b.states)}</td>
+                      <td role="cell">{formatMiles(b.mappedMiles)}</td>
+                      <td role="cell">{shortDesignation(b)}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -323,7 +358,10 @@ export default function ExplorePage() {
         </section>
       )}
       {selected && view !== 'gallery' && (
-        <div data-map-panel="postcard" className={styles.postcard}>
+        <div ref={postcardSwipe.ref} style={postcardSwipe.style} data-map-panel="postcard" className={styles.postcard}>
+          <button className={styles.handle} aria-label="Swipe down to close postcard" {...postcardSwipe.handlers}>
+            —
+          </button>
           <Postcard key={selected.id} byway={selected} onClose={() => select(null)} focusHeading={focusHeading.current} />
         </div>
       )}

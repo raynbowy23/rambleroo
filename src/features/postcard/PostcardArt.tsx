@@ -69,26 +69,6 @@ export function PostcardArt({
             ) : (
               scene
             )}
-            {selectedPhoto ? (
-              <div className={s.photoCredit}>
-                <PhotoCredit photo={selectedPhoto} />
-              </div>
-            ) : (
-              <span className={s.caption} tabIndex={0} title={caption}>
-                Illustration<span className="visually-hidden">: {caption}</span>
-              </span>
-            )}
-            {!!photos.length && (
-              <div className={s.faceToggle}>
-                <button aria-pressed={!!selectedPhoto} onClick={() => selectPhoto(photos[0])}>
-                  Photo
-                </button>
-                <span> | </span>
-                <button aria-pressed={!selectedPhoto} onClick={() => selectPhoto(undefined)}>
-                  Illustration
-                </button>
-              </div>
-            )}
           </div>
           <div className={s.back} inert={!turned} aria-hidden={!turned}>
             <h3>POST CARD</h3>
@@ -122,6 +102,30 @@ export function PostcardArt({
           </div>
         </div>
       </div>
+      {!turned && (
+        <>
+          {selectedPhoto ? (
+            <div className={s.photoCredit}>
+              <PhotoCredit photo={selectedPhoto} />
+            </div>
+          ) : (
+            <span className={s.caption} tabIndex={0} title={caption}>
+              Illustration<span className="visually-hidden">: {caption}</span>
+            </span>
+          )}
+          {!!photos.length && (
+            <div className={s.faceToggle}>
+              <button aria-pressed={!!selectedPhoto} onClick={() => selectPhoto(photos[0])}>
+                Photo
+              </button>
+              <span> | </span>
+              <button aria-pressed={!selectedPhoto} onClick={() => selectPhoto(undefined)}>
+                Illustration
+              </button>
+            </div>
+          )}
+        </>
+      )}
       <div className={s.tools}>
         <ShareControl byway={byway} story={story} note={note} photo={selectedPhoto} />
         <button className="btn btn-ghost" aria-pressed={turned} onClick={() => setTurned(!turned)}>

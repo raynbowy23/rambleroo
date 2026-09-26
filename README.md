@@ -14,7 +14,11 @@ npm run test:e2e     # playwright: the full explore → story → save → visit
 npm run build        # typecheck + production build into dist/
 ```
 
-Playwright needs Chromium once: `npx playwright install chromium`.
+Playwright needs its browsers once: `npx playwright install chromium webkit`. The e2e suite runs on three projects: desktop Chrome, Pixel 7, and iPhone 13 (WebKit), and checks every page on phones for sideways scrolling, tap targets under 40px, and text under 12px.
+
+### On phones
+
+Rambleroo is mobile-first below 760px: the explorer map fills the screen with a draggable bottom sheet (peek, half, full), gallery and list views get a compact top filter bar, dialogs become bottom sheets, and embedded maps use two-finger panning so they never trap page scrolling. It is an installable web app (vite-plugin-pwa): add it to the home screen, and the app shell, catalog, basemap, route lines, and any photos or pages you have opened keep working offline. New versions show a "Reload" prompt rather than updating under you. Service workers only run in production builds, so try this with `npm run build && npm run preview`.
 
 ## What's in it
 

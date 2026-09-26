@@ -1,0 +1,32 @@
+.status {
+  position: fixed;
+  z-index: 40;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  pointer-events: none;
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+}
+.status p,
+.update {
+  pointer-events: auto;
+  padding: 12px 16px;
+  background: var(--paper);
+  color: var(--forest);
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  box-shadow: var(--shadow-2);
+  max-width: 520px;
+}
+.update {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+@media (max-width: 759px) {
+  .status {
+    bottom: calc(var(--mobile-nav-h) + 8px);
+  }
+}

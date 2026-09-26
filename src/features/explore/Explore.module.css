@@ -59,7 +59,7 @@
   justify-content: center;
   gap: 6px;
   text-transform: capitalize;
-  font-size: 12px;
+  font-size: 13px;
   min-height: 36px;
   cursor: pointer;
   border-radius: var(--radius-sm);
@@ -83,7 +83,7 @@
   border: 0;
   padding: 12px 8px;
   font: inherit;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink);
 }
 .search button {
@@ -99,13 +99,13 @@
   min-height: 34px;
   gap: 4px;
   text-transform: capitalize;
-  font-size: 11px;
+  font-size: 13px;
 }
 .state {
   display: flex;
   gap: 8px;
   align-items: center;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--ink-soft);
 }
 .state select {
@@ -124,10 +124,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 13px;
 }
 .resultCount button {
-  font-size: 11px;
+  font-size: 13px;
   min-height: 28px;
   padding: 0 8px;
 }
@@ -164,12 +164,12 @@
 }
 .result small {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--ink-soft);
   margin-top: 5px;
 }
 .result em {
-  font-size: 9px;
+  font-size: 13px;
   font-style: normal;
   color: var(--rust);
   text-transform: uppercase;
@@ -230,12 +230,12 @@
 }
 .passport strong {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
 }
 .passport small {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--ink-soft);
 }
 .collections {
@@ -251,7 +251,7 @@
   gap: 8px;
   flex: 0 0 200px;
   height: 48px;
-  font-size: 11px;
+  font-size: 13px;
   text-decoration: none;
 }
 .collections svg {
@@ -261,7 +261,7 @@
   border-radius: var(--radius-sm);
 }
 .collections > .kicker {
-  font-size: 9px;
+  font-size: 13px;
 }
 .browse .panel {
   bottom: 20px;
@@ -293,7 +293,7 @@
 table {
   border-collapse: collapse;
   width: 100%;
-  font-size: 12px;
+  font-size: 13px;
   background: var(--card);
 }
 th,
@@ -343,139 +343,6 @@ tr[aria-selected='true'] {
     gap: 6px;
   }
 }
-@media (max-width: 759px) {
-  .explore {
-    height: calc(100dvh - var(--header-h) - 64px);
-  }
-  .panel {
-    left: 0;
-    right: 0;
-    top: auto;
-    bottom: 0;
-    width: 100%;
-    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-    transition: height var(--dur-panel);
-    height: 52%;
-  }
-  .panelContent {
-    padding: 0 18px 14px;
-    gap: 10px;
-    height: calc(100% - 44px);
-  }
-  .panelTop h1 {
-    font-size: 24px;
-  }
-  .panelTop button,
-  .subline {
-    display: none;
-  }
-  .handle {
-    display: block;
-    touch-action: none;
-    width: 100%;
-    height: 44px;
-    border: 0;
-    background: none;
-    font-size: 25px;
-    line-height: 20px;
-    color: var(--ink-muted);
-  }
-  .snap0 {
-    height: 270px;
-  }
-  .snap1 {
-    height: 55%;
-  }
-  .snap2 {
-    height: 92%;
-  }
-  .chips {
-    flex-wrap: nowrap;
-    overflow: auto;
-    flex-shrink: 0;
-  }
-  .chips button {
-    min-height: 44px;
-    flex-shrink: 0;
-  }
-  .segment button {
-    min-height: 44px;
-  }
-  .state select {
-    min-height: 44px;
-  }
-  .search {
-    flex-shrink: 0;
-  }
-  .panelContent > * {
-    flex-shrink: 0;
-  }
-  .panelContent > .results {
-    flex-shrink: 1;
-    min-height: 60px;
-  }
-  .snap0 .results,
-  .snap0 .state,
-  .snap0 .resultCount,
-  .snap0 .surprise {
-    display: none;
-  }
-  .rail {
-    display: none;
-  }
-  .postcard {
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: auto;
-    width: 100%;
-    max-height: 55%;
-    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-  }
-  .withSelection {
-    visibility: hidden;
-  }
-  .content {
-    margin: 0;
-    padding: 24px 16px 65vh;
-  }
-  .browseTitle h2 {
-    font-size: 28px;
-  }
-  .gallery {
-    grid-template-columns: 1fr;
-  }
-  .browse .panel {
-    bottom: 0;
-    height: 45%;
-  }
-  .browse .snap0 {
-    height: 270px;
-  }
-  .browse .snap2 {
-    height: 90%;
-  }
-  .invalid {
-    top: 70px;
-    right: 12px;
-  }
-  .collapsed {
-    width: 100%;
-    height: 270px;
-  }
-  .collapsed h1 {
-    display: block;
-  }
-}
-
-@media (max-width: 759px) {
-  .resultCount button {
-    min-height: 44px;
-  }
-  .handle {
-    flex-shrink: 0;
-  }
-}
 
 .state select {
   min-height: 44px;
@@ -504,4 +371,208 @@ tr[aria-selected='true'] {
   -webkit-line-clamp: 2;
   overflow: hidden;
   line-height: 1.3;
+}
+
+.filtersButton {
+  display: none;
+}
+@media (max-width: 759px) {
+  .explore {
+    height: calc(100svh - var(--header-h) - env(safe-area-inset-top) - var(--mobile-nav-h));
+    padding-bottom: 0;
+  }
+  .panel {
+    inset: auto 0 0;
+    width: 100%;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    transition: height var(--dur-panel) var(--ease-out);
+  }
+  .snap0 {
+    height: 150px;
+  }
+  .snap1 {
+    height: 50%;
+  }
+  .snap2 {
+    height: 88%;
+  }
+  .handle {
+    display: block;
+    touch-action: none;
+    width: 100%;
+    height: 44px;
+    border: 0;
+    background: var(--card);
+    font-size: 25px;
+    line-height: 20px;
+    cursor: grab;
+  }
+  .panelContent {
+    height: calc(100% - 44px);
+    padding: 0 max(16px, env(safe-area-inset-right)) 8px max(16px, env(safe-area-inset-left));
+    gap: 6px;
+    overscroll-behavior: contain;
+  }
+  .panelTop,
+  .subline {
+    display: none;
+  }
+  .panelContent > * {
+    flex-shrink: 0;
+  }
+  .search {
+    order: -3;
+    height: 44px;
+  }
+  .chips {
+    order: -2;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .chips button {
+    flex-shrink: 0;
+  }
+  .snap0 .panelContent {
+    overflow: hidden;
+  }
+  .explore:not(.browse) .snap0 .panelContent > :not(.search):not(.chips):not(:global(.visually-hidden)) {
+    display: none;
+  }
+  .results {
+    flex: none;
+    overflow: visible;
+  }
+  .rail {
+    display: none;
+  }
+  .postcard {
+    inset: auto 0 0;
+    width: 100%;
+    max-height: 75%;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    overscroll-behavior: contain;
+    padding-bottom: env(safe-area-inset-bottom);
+    background: var(--card);
+  }
+  .postcard > .handle {
+    position: sticky;
+    top: 0;
+    z-index: 6;
+  }
+  .withSelection {
+    visibility: hidden;
+  }
+  .browse {
+    height: auto;
+    min-height: calc(100svh - var(--header-h));
+    overflow: visible;
+    padding-bottom: var(--mobile-nav-h);
+  }
+  .browse .panel {
+    position: sticky;
+    top: calc(var(--header-h) + env(safe-area-inset-top));
+    height: auto !important;
+    border-radius: 0;
+    z-index: 10;
+  }
+  .browse .panelContent {
+    height: auto;
+    padding-block: 8px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    overflow: visible;
+  }
+  .browse .panel .handle,
+  .browse .panelContent > * {
+    display: none;
+  }
+  .browse .panelContent .segment {
+    display: flex;
+    grid-column: 1 / -1;
+    order: -4;
+  }
+  .browse .panelContent .search {
+    display: flex;
+  }
+  .browse .panelContent .filtersButton {
+    display: inline-flex;
+    order: -2;
+  }
+  .content {
+    margin: 0;
+    height: auto;
+    overflow: visible;
+    padding: 24px 16px;
+  }
+  .gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .browseTitle h2 {
+    font-size: 28px;
+  }
+  .browse .postcard {
+    position: fixed;
+    bottom: var(--mobile-nav-h);
+    max-height: 75svh;
+    z-index: 15;
+  }
+  .tableWrap {
+    overflow: visible;
+  }
+  .tableWrap table,
+  .tableWrap tbody {
+    display: block;
+  }
+  .tableWrap thead {
+    display: none;
+  }
+  .tableWrap tbody {
+    display: grid;
+    gap: 16px;
+  }
+  .tableWrap tr {
+    display: block;
+    padding: 12px;
+    border: 1px solid var(--line);
+  }
+  .tableWrap td {
+    display: block;
+    padding: 4px;
+    border: 0;
+  }
+  .tableWrap td button {
+    width: 100%;
+  }
+}
+@media (min-width: 560px) and (max-width: 759px) {
+  .gallery,
+  .tableWrap tbody {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 760px) and (max-width: 1100px) {
+  .browse .panel {
+    width: 260px;
+    left: 12px;
+  }
+  .browse .content {
+    margin-left: 284px;
+    padding-inline: 12px;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .panel {
+    transition: none;
+  }
+}
+
+/* Touch devices: the view switcher is the explorer's main control, so give it full-size hit areas. */
+@media (max-width: 759px), (any-pointer: coarse) {
+  .segment button {
+    min-height: 44px;
+  }
 }

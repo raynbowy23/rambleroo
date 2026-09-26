@@ -1,3 +1,4 @@
+import { requireNetwork } from '../../lib/network'
 import type { Photo } from '../../lib/types'
 import { PhotoGallery, MomentPhoto } from '../photos/Photos'
 import { ShareControl } from '../share/ShareControl'
@@ -232,6 +233,7 @@ export default function BywayPage() {
             <div className={s.actions}>
               <a
                 className="btn btn-ghost"
+                onClick={requireNetwork}
                 href={`https://www.google.com/maps/dir/?api=1&destination=${point[1]},${point[0]}`}
                 target="_blank"
                 rel="noreferrer"

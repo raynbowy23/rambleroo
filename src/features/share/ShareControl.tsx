@@ -1,3 +1,4 @@
+import { requireNetwork, useOnline } from '../../lib/network'
 import { useId, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import type { BywaySummary, BywayStory, Photo } from '../../lib/types'
@@ -20,6 +21,7 @@ export function ShareControl({
   photo?: Photo
   small?: boolean
 }) {
+  const online = useOnline()
   const id = useId()
   const trigger = useRef<HTMLButtonElement>(null)
   const menu = useRef<HTMLDivElement>(null)
@@ -56,6 +58,10 @@ export function ShareControl({
             menu.current?.hidePopover()
             return
           }
+          if (!online) {
+            showMenu()
+            return
+          }
           const probe = new File([], 'postcard.png', { type: 'image/png' })
           if (!navigator.share || !navigator.canShare?.({ files: [probe] })) {
             showMenu()
@@ -87,7 +93,23 @@ export function ShareControl({
           className={s.menu}
           aria-label={`Share ${byway.name}`}
           onToggle={(event) => setOpen(event.newState === 'open')}
+          role="dialog"
+          onClick={(event) => {
+            if ((event.target as HTMLElement).closest('a')) requireNetwork(event)
+          }}
           onKeyDown={(event) => {
+            if (event.key === 'Tab') {
+              const items = Array.from(menu.current!.querySelectorAll<HTMLElement>('a,button:not([disabled])'))
+              const first = items[0]
+              const last = items.at(-1)
+              if (event.shiftKey && document.activeElement === first) {
+                event.preventDefault()
+                last?.focus()
+              } else if (!event.shiftKey && document.activeElement === last) {
+                event.preventDefault()
+                first?.focus()
+              }
+            }
             if (event.key === 'Escape') {
               event.preventDefault()
               event.stopPropagation()
@@ -101,6 +123,7 @@ export function ShareControl({
             <strong>{byway.name}</strong>
             {note.trim() && <small>Your note is included</small>}
           </div>
+          {!online && <p role="status">Email and social sharing need an internet connection. You can still copy the link.</p>}
           <div className={s.grid}>
             <a className={s.dest} href={links.email}>
               Email
