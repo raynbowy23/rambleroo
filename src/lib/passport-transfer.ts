@@ -1,10 +1,11 @@
-import type { SavedStretch } from './passport'
+import type { KeptPostcard, SavedStretch } from './passport'
 import type { Visit } from './types'
 export interface PassportData {
   version: 1
   saved: Record<string, string>
   visits: Visit[]
   savedStretches?: SavedStretch[]
+  postcards?: KeptPostcard[]
 }
 const record = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value)
 const date = (value: unknown): value is string => typeof value === 'string' && Number.isFinite(Date.parse(value))
@@ -57,10 +58,23 @@ export function parsePassport(value: unknown): PassportData {
       throw new Error('Invalid saved stretch')
     return { bywayId: entry.bywayId, stretchId: entry.stretchId, savedAt: entry.savedAt }
   })
-  return { version: 1, saved, visits, savedStretches }
+  if (value.postcards !== undefined && !Array.isArray(value.postcards)) throw new Error('Invalid postcards')
+  const postcards = (value.postcards ?? []).map((entry: unknown): KeptPostcard => {
+    if (
+      !record(entry) ||
+      typeof entry.bywayId !== 'string' ||
+      !entry.bywayId.trim() ||
+      typeof entry.milestoneId !== 'string' ||
+      !entry.milestoneId.trim() ||
+      !date(entry.keptAt)
+    )
+      throw new Error('Invalid postcard')
+    return { bywayId: entry.bywayId, milestoneId: entry.milestoneId, keptAt: entry.keptAt }
+  })
+  return { version: 1, saved, visits, savedStretches, postcards }
 }
 
-export function mergePassport(current: Pick<PassportData, 'saved' | 'visits' | 'savedStretches'>, incoming: PassportData) {
+export function mergePassport(current: Pick<PassportData, 'saved' | 'visits' | 'savedStretches' | 'postcards'>, incoming: PassportData) {
   const saved = { ...current.saved }
   let savedAdded = 0
   for (const [id, when] of Object.entries(incoming.saved)) {
@@ -84,7 +98,14 @@ export function mergePassport(current: Pick<PassportData, 'saved' | 'visits' | '
     const previous = stretches.get(key)
     if (!previous || Date.parse(entry.savedAt) < Date.parse(previous.savedAt)) stretches.set(key, entry)
   }
+  const postcards = new Map((current.postcards ?? []).map((entry) => [JSON.stringify([entry.bywayId, entry.milestoneId]), entry]))
+  for (const entry of incoming.postcards ?? []) {
+    const key = JSON.stringify([entry.bywayId, entry.milestoneId])
+    const previous = postcards.get(key)
+    if (!previous || Date.parse(entry.keptAt) < Date.parse(previous.keptAt)) postcards.set(key, entry)
+  }
   return {
+    postcards: [...postcards.values()],
     saved,
     visits,
     savedStretches: [...stretches.values()],

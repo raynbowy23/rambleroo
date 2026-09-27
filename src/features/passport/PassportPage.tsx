@@ -1,3 +1,5 @@
+import { KeptMilestoneCard } from '../postcard/MilestonePostcard'
+import { GarageControls } from '../garage/GarageControls'
 import { SavedStretches } from '../strip/SavedStretches'
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useLocation } from 'react-router'
@@ -220,6 +222,29 @@ export default function PassportPage() {
           </section>
         </>
       )}
+      <GarageControls />
+      <section aria-label="Postcards" className={s.section}>
+        <h2>Postcards</h2>
+        {passport.postcards.length === 0 && <p>Keep a postcard from a town or moment along a strip map.</p>}
+        <div className="kept-postcards">
+          {passport.postcards.map((card) =>
+            byId.get(card.bywayId)! ? (
+              <KeptMilestoneCard
+                key={`${card.bywayId}#${card.milestoneId}`}
+                byway={byId.get(card.bywayId)!}
+                milestoneId={card.milestoneId}
+              />
+            ) : (
+              <article key={`${card.bywayId}#${card.milestoneId}`}>
+                <p>{card.milestoneId} · Road unavailable</p>
+                <button className="btn" onClick={() => passport.removePostcard(card.bywayId, card.milestoneId)}>
+                  Remove postcard
+                </button>
+              </article>
+            ),
+          )}
+        </div>
+      </section>
       <PassportData />
       <footer className={s.section}>
         <p>

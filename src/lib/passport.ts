@@ -7,7 +7,15 @@ export interface SavedStretch {
   stretchId: string
   savedAt: string
 }
+export interface KeptPostcard {
+  bywayId: string
+  milestoneId: string
+  keptAt: string
+}
 export interface PassportState {
+  postcards: KeptPostcard[]
+  keepPostcard: (bywayId: string, milestoneId: string) => void
+  removePostcard: (bywayId: string, milestoneId: string) => void
   savedStretches: SavedStretch[]
   saveStretch: (bywayId: string, stretchId: string) => void
   removeStretch: (bywayId: string, stretchId: string) => void
@@ -24,6 +32,15 @@ export interface PassportState {
 export const usePassport = create<PassportState>()(
   persist(
     (set, get) => ({
+      postcards: [],
+      keepPostcard: (bywayId, milestoneId) =>
+        set((state) => ({
+          postcards: state.postcards.some((card) => card.bywayId === bywayId && card.milestoneId === milestoneId)
+            ? state.postcards
+            : [...state.postcards, { bywayId, milestoneId, keptAt: new Date().toISOString() }],
+        })),
+      removePostcard: (bywayId, milestoneId) =>
+        set((state) => ({ postcards: state.postcards.filter((card) => card.bywayId !== bywayId || card.milestoneId !== milestoneId) })),
       savedStretches: [],
       saveStretch: (bywayId, stretchId) =>
         set((s) => ({
@@ -57,7 +74,7 @@ export const usePassport = create<PassportState>()(
     {
       name: 'rambleroo.passport.v1',
       storage: createJSONStorage(() => safeStorage),
-      partialize: (s) => ({ saved: s.saved, visits: s.visits, savedStretches: s.savedStretches }),
+      partialize: (s) => ({ saved: s.saved, visits: s.visits, savedStretches: s.savedStretches, postcards: s.postcards }),
     },
   ),
 )

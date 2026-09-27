@@ -40,6 +40,13 @@ export default function PrivacyPage() {
         cache contains public content only.
       </p>
 
+      <p>
+        Your car choices and postcard customizations are stored locally, like your passport. Photos you add to postcards stay in this
+        browser’s storage (IndexedDB) and are never uploaded by Rambleroo. They are not included in the passport export file; card
+        customizations are also excluded. Clearing the passport can also remove your added photos. Clearing site data removes them too. If
+        you choose to share or download a postcard image, that image includes the photo you selected.
+      </p>
+
       <h2>What reaches our server</h2>
       <p>
         Pages, route data and photos are loaded from the server that hosts Rambleroo. Like almost any website host, that server may record

@@ -34,3 +34,17 @@ it('imports old backups and merges saved stretches without duplicates', () => {
   expect(mergePassport(result, incoming).stretchesAdded).toBe(0)
   expect(() => parsePassport({ version: 1, saved: {}, visits: [], savedStretches: [{ ...entry, savedAt: 'bad' }] })).toThrow()
 })
+
+it('copies only postcard identities, excluding any embedded photos', () => {
+  const parsed = parsePassport({
+    version: 1,
+    saved: {},
+    visits: [],
+    userPhotos: { private: 'blob' },
+    postcards: [{ bywayId: 'door', milestoneId: 'ephraim', keptAt: '2026-09-27', photo: 'private-image' }],
+  })
+  expect(parsed.postcards).toEqual([{ bywayId: 'door', milestoneId: 'ephraim', keptAt: '2026-09-27' }])
+  expect(JSON.stringify(parsed)).not.toContain('private')
+  const merged = mergePassport(parsed, parsed)
+  expect(merged.postcards).toHaveLength(1)
+})

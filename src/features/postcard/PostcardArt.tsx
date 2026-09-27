@@ -1,16 +1,19 @@
 import { useState } from 'react'
-import { Scene, Stamp } from '../../components/art'
+import { Stamp } from '../../components/art'
 import type { BywaySummary, BywayStory } from '../../lib/types'
 import { illustrationCaption, listingDescription } from '../../lib/format'
-import { useMotionEnabled } from '../../lib/motion'
 import { downloadBlob } from './download'
 import { renderBywayPostcard } from './renderBywayPostcard'
 import { ShareControl } from '../share/ShareControl'
 import { usePhotos } from '../../lib/data'
-import { PhotoChip } from '../photos/Photos'
 import type { Photo } from '../../lib/types'
 import s from './PostcardArt.module.css'
-import { PhotoPostcard } from './PhotoPostcard'
+import { CardFront, useCardAssets } from './CardFront'
+import { PostcardStudio } from './PostcardStudio'
+import { useGarage } from '../../lib/garage'
+import { cardKey, creditedPhoto, postcardDefaults, usePostcards } from '../../lib/postcards'
+import { PhotoCredit } from '../photos/Photos'
+import { milestoneMessage, type Milestone } from './cardData'
 
 export function PostcardArt({
   byway,
@@ -20,6 +23,7 @@ export function PostcardArt({
   onSelect,
   selected,
   photo,
+  milestone,
 }: {
   byway: BywaySummary
   story?: BywayStory | null
@@ -28,30 +32,29 @@ export function PostcardArt({
   onSelect?: () => void
   selected?: boolean
   photo?: Photo
+  milestone?: Milestone
 }) {
   const photos = usePhotos(byway.id)
-  const selectedPhoto = photo ?? photos[0]
+  const selectedPhoto = milestone ? milestone.photo : (photo ?? photos[0])
+  const key = cardKey(byway.id, milestone?.id)
+  const saved = usePostcards((state) => state.cards[key])
+  const choices = saved ?? { ...postcardDefaults(selectedPhoto, milestone ? 'greetings' : byway.look.lettering), note }
+  const updateNote = (value: string) => {
+    usePostcards.getState().update(key, { note: value }, choices)
+    onNote(value)
+  }
+  const garage = useGarage()
+  const assets = useCardAssets(byway.id, choices, milestone)
+  const credit = creditedPhoto(choices, selectedPhoto)
+  const [studio, setStudio] = useState(false)
+  const frontProps = { byway, story, photo: selectedPhoto, choices, garage, milestone, ...assets }
   const [turned, setTurned] = useState(false)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
-  const motion = useMotionEnabled()
   const caption = illustrationCaption(byway.name, byway.region, story?.motifs)
-  const message = story?.tagline ?? listingDescription(byway)
+  const message = milestone ? milestoneMessage(byway, milestone) : (story?.tagline ?? listingDescription(byway))
   const postmark = `${byway.states[0] ?? 'USA'} · ${new Date().toLocaleDateString('en-US')}`
-  const scene = (
-    <Scene
-      look={byway.look}
-      lettering={{ title: byway.name, subtitle: byway.states.join(' · ') }}
-      family={byway.scene}
-      seed={byway.seed}
-      region={byway.region}
-      motifs={story?.motifs}
-      framed
-      variant="postcard"
-      title={caption}
-      animate={motion && !turned}
-    />
-  )
+  const scene = <CardFront {...frontProps} />
   return (
     <div className={s.postcard}>
       <div className={s.viewport}>
@@ -59,10 +62,8 @@ export function PostcardArt({
           <div className={s.front} inert={turned} aria-hidden={turned}>
             {onSelect ? (
               <button className={s.select} aria-label={`Select ${byway.name}`} aria-pressed={selected} onClick={onSelect}>
-                {selectedPhoto ? <PhotoPostcard photo={selectedPhoto} byway={byway} /> : scene}
+                {scene}
               </button>
-            ) : selectedPhoto ? (
-              <PhotoPostcard photo={selectedPhoto} byway={byway} />
             ) : (
               scene
             )}
@@ -73,9 +74,14 @@ export function PostcardArt({
               <p>{message}</p>
               <label>
                 Your note
-                <textarea maxLength={500} value={note} onChange={(event) => onNote(event.target.value)} placeholder="A road to remember…" />
+                <textarea
+                  maxLength={500}
+                  value={choices.note}
+                  onChange={(event) => updateNote(event.target.value)}
+                  placeholder="A road to remember…"
+                />
               </label>
-              <small>Local only. Saved only if you save a visit.</small>
+              <small>Saved in this browser.</small>
             </div>
             <div className={s.address}>
               <div>
@@ -101,19 +107,25 @@ export function PostcardArt({
       </div>
       {!turned && (
         <>
-          {selectedPhoto ? (
+          {credit ? (
             <div className={s.photoCredit}>
-              <PhotoChip photo={selectedPhoto} />
+              <div className="postcard-credit">
+                <PhotoCredit photo={credit} />
+              </div>
             </div>
           ) : (
             <span className={s.caption} tabIndex={0} title={caption}>
-              Illustration · no photo yet<span className="visually-hidden">: {caption}</span>
+              {choices.front === 'own' ? 'Your photo · local only' : 'Illustration'}
+              <span className="visually-hidden">: {caption}</span>
             </span>
           )}
         </>
       )}
       <div className={s.tools}>
-        <ShareControl byway={byway} story={story} note={note} photo={selectedPhoto} />
+        <button className="btn btn-ghost" onClick={() => setStudio(true)}>
+          Customize
+        </button>
+        <ShareControl byway={byway} story={story} note={choices.note} photo={selectedPhoto} milestone={milestone} />
         <button className="btn btn-ghost" aria-pressed={turned} onClick={() => setTurned(!turned)}>
           {turned ? 'Show front' : 'Turn over'}
         </button>
@@ -124,7 +136,9 @@ export function PostcardArt({
             setBusy(true)
             setError('')
             try {
-              const file = await renderBywayPostcard(byway, story, note, selectedPhoto)
+              const file = await (milestone
+                ? renderBywayPostcard(byway, story, choices.note, selectedPhoto, milestone)
+                : renderBywayPostcard(byway, story, choices.note, selectedPhoto))
               downloadBlob(file, file.name)
             } catch {
               setError('Could not download this postcard. Please try again.')
@@ -136,6 +150,8 @@ export function PostcardArt({
           {busy ? 'Preparing postcard…' : 'Download postcard'}
         </button>
       </div>
+      {studio && <PostcardStudio {...frontProps} onNote={updateNote} onClose={() => setStudio(false)} />}
+      {assets.photoError && <p role="alert">{assets.photoError}</p>}
       {error && <p role="alert">{error}</p>}
     </div>
   )

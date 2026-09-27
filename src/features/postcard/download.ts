@@ -108,13 +108,17 @@ export interface PostcardInput {
   caption: string
   lettering?: SVGSVGElement
   photo?: Photo
+  composedFront?: boolean
 }
 
 export async function renderPostcard(input: PostcardInput) {
   await document.fonts.ready
   const photo = new Image()
-  if (input.photo) photo.src = photoPath(input.photo)
-  const [scene, stamp] = await Promise.all([input.photo ? photo.decode().then(() => photo) : svgImage(input.scene), svgImage(input.stamp)])
+  if (input.photo && !input.composedFront) photo.src = photoPath(input.photo)
+  const [scene, stamp] = await Promise.all([
+    input.photo && !input.composedFront ? photo.decode().then(() => photo) : svgImage(input.scene),
+    svgImage(input.stamp),
+  ])
   const canvas = document.createElement('canvas')
   canvas.width = 1800
   canvas.height = 700
@@ -125,8 +129,8 @@ export async function renderPostcard(input: PostcardInput) {
   ctx.strokeStyle = '#89795d'
   ctx.strokeRect(14, 14, 872, 672)
   ctx.strokeRect(914, 14, 872, 672)
-  const faceHeight = input.photo ? 560 : 490
-  if (input.photo) {
+  const faceHeight = input.photo || input.composedFront ? 560 : 490
+  if (input.photo && !input.composedFront) {
     const scale = Math.max(840 / scene.width, faceHeight / scene.height)
     const sw = 840 / scale
     const sh = faceHeight / scale
@@ -135,11 +139,11 @@ export async function renderPostcard(input: PostcardInput) {
     ctx.fillRect(30, 30, 840, faceHeight)
     if (input.lettering) ctx.drawImage(await svgImage(input.lettering), 30, 30, 840, faceHeight)
   } else {
-    ctx.drawImage(scene, 30, 30, 840, 490)
+    ctx.drawImage(scene, 30, 30, 840, faceHeight)
   }
   ctx.fillStyle = '#202925'
   ctx.font = '32px "Fraunces Variable", Georgia, serif'
-  if (!input.photo) wrappedText(ctx, input.name, 40, 565, 810, 38, 72)
+  if (!input.photo && !input.composedFront) wrappedText(ctx, input.name, 40, 565, 810, 38, 72)
   ctx.font = '16px "Inter Variable", sans-serif'
   wrappedText(ctx, input.photo ? photoCredit(input.photo) : input.caption, 40, 615, 810, 20, 65)
   ctx.font = '32px "Fraunces Variable", Georgia, serif'

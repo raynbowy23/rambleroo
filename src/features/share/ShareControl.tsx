@@ -1,3 +1,4 @@
+import type { Milestone } from '../postcard/cardData'
 import { requireNetwork, useOnline } from '../../lib/network'
 import { useId, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
@@ -14,11 +15,13 @@ export function ShareControl({
   note = '',
   photo,
   small = false,
+  milestone,
 }: {
   byway: BywaySummary
   story?: BywayStory | null
   note?: string
   photo?: Photo
+  milestone?: Milestone
   small?: boolean
 }) {
   const online = useOnline()
@@ -37,7 +40,9 @@ export function ShareControl({
   const download = async () => {
     setBusy(true)
     try {
-      const file = await renderBywayPostcard(byway, story, note, photo)
+      const file = await (milestone
+        ? renderBywayPostcard(byway, story, note, photo, milestone)
+        : renderBywayPostcard(byway, story, note, photo))
       downloadBlob(file, file.name)
     } catch {
       toast('Could not download this postcard. Please try again.')
@@ -69,7 +74,9 @@ export function ShareControl({
           }
           setBusy(true)
           try {
-            const file = await renderBywayPostcard(byway, story, note, photo)
+            const file = await (milestone
+              ? renderBywayPostcard(byway, story, note, photo, milestone)
+              : renderBywayPostcard(byway, story, note, photo))
             if (navigator.canShare({ files: [file] })) await navigator.share({ files: [file], title: byway.name, text, url })
             else showMenu()
           } catch (error) {
@@ -171,7 +178,7 @@ export function ShareControl({
             ×
           </button>
         </div>,
-        document.body,
+        trigger.current?.closest('dialog') ?? document.body,
       )}
     </>
   )

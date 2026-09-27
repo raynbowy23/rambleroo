@@ -1,7 +1,10 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router'
 import { useByway, useStory } from '../../lib/data'
-import { Scene } from '../../components/art'
+import { GarageControls } from '../garage/GarageControls'
+import { Dialog } from '../../components/ui/Dialog'
+import { useGarage } from '../../lib/garage'
+import { Scene, Vehicle } from '../../components/art'
 import { usePassport } from '../../lib/passport'
 import { useMotionEnabled } from '../../lib/motion'
 import type { BywaySummary, PostcardLook } from '../../lib/types'
@@ -49,6 +52,8 @@ export default function StripPage() {
   return <StripExperience key={id} data={strip.data} byway={byway} />
 }
 function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary }) {
+  const garage = useGarage()
+  const [garageOpen, setGarageOpen] = useState(false)
   const [params, setParams] = useSearchParams()
   const selected = data.stretches.find((stretch) => stretch.id === params.get('stretch'))
   const [expandedTip, setTipOpen] = useState(selected?.on === 'branch')
@@ -250,7 +255,9 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         <output ref={counter} data-testid="mile-counter">
           Mile 0.0 of {data.main.miles.toFixed(1)}
         </output>
-        <span className={s.odometerNote}>THE SLOW WAY</span>
+        <button className="btn btn-ghost" onClick={() => setGarageOpen(true)}>
+          Change your car
+        </button>
       </div>
       <div className={s.mapDock}>
         <InsetMap data={data} registerPosition={registerPosition} />
@@ -293,7 +300,10 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
           <svg className={s.finishFlag} viewBox="0 0 40 40" width="40" height="40" aria-hidden="true">
             <path d="M9 36V5" stroke="var(--ink)" strokeWidth="2.4" strokeLinecap="round" />
             <path d="M10 6h24l-5 8 5 8H10Z" fill="var(--card)" stroke="var(--ink)" strokeWidth="1.6" strokeLinejoin="round" />
-            <path d="M10 6h6v4h-6Zm12 0h6v4h-6ZM16 10h6v4h-6Zm12 0h4l-2 4h-2ZM10 14h6v4h-6Zm12 0h6l1 2-1 2h-6ZM16 18h6v4h-6Zm12 0h3l1 4h-4Z" fill="var(--ink)" />
+            <path
+              d="M10 6h6v4h-6Zm12 0h6v4h-6ZM16 10h6v4h-6Zm12 0h4l-2 4h-2ZM10 14h6v4h-6Zm12 0h6l1 2-1 2h-6ZM16 18h6v4h-6Zm12 0h3l1 4h-4Z"
+              fill="var(--ink)"
+            />
             <circle cx="9" cy="36" r="2.6" fill="var(--signal)" />
           </svg>
           <h2>End of the mapped byway</h2>
@@ -307,17 +317,13 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         </div>
       </div>
       <div ref={car} className={s.car} aria-hidden="true">
-        <svg viewBox="0 0 30 52">
-          <rect x="1" y="9" width="5" height="12" rx="2" fill="#202925" />
-          <rect x="24" y="9" width="5" height="12" rx="2" fill="#202925" />
-          <rect x="1" y="34" width="5" height="11" rx="2" fill="#202925" />
-          <rect x="24" y="34" width="5" height="11" rx="2" fill="#202925" />
-          <rect x="4" y="1" width="22" height="49" rx="9" fill="#d95f1e" stroke="#1d2318" strokeWidth="2" />
-          <path d="M7 18Q15 14 23 18L21 27H9Z" fill="#bfd1d3" stroke="#202925" />
-          <path d="M9 36H21L23 42H7Z" fill="#bfd1d3" stroke="#202925" />
-          <path d="M8 47H22M8 4H22" stroke="#f7f4ed" strokeWidth="3" />
-        </svg>
+        <Vehicle view="top" size={30} {...garage} />
       </div>
+      {garageOpen && (
+        <Dialog title="Your car" onClose={() => setGarageOpen(false)}>
+          <GarageControls />
+        </Dialog>
+      )}
       {selected && (
         <section
           ref={panel}

@@ -1,3 +1,5 @@
+import { userPhotos } from '../../lib/userPhotos'
+import { usePostcards } from '../../lib/postcards'
 import { useState } from 'react'
 import { usePassport } from '../../lib/passport'
 import { mergePassport, parsePassport } from '../../lib/passport-transfer'
@@ -5,19 +7,24 @@ import { downloadBlob } from '../postcard/download'
 import s from '../../components/ui/Content.module.css'
 
 export function PassportData() {
+  const [clearPhotos, setClearPhotos] = useState(false)
+  const [clearing, setClearing] = useState(false)
   const [confirm, setConfirm] = useState(false)
   const [message, setMessage] = useState('')
   return (
     <section className={s.section}>
       <h2>Your data</h2>
-      <p>Saved in this browser. Downloads make a local backup; imports merge into this browser’s passport.</p>
+      <p>
+        Saved in this browser. Added photos and postcard customizations are not included in the passport backup. Downloads make a local
+        backup; imports merge into this browser’s passport.
+      </p>
       <div className={s.actions}>
         <button
           className="btn btn-ghost"
           onClick={() => {
-            const { saved, visits, savedStretches } = usePassport.getState()
+            const { saved, visits, savedStretches, postcards } = usePassport.getState()
             downloadBlob(
-              new Blob([JSON.stringify({ version: 1, saved, visits, savedStretches }, null, 2)], { type: 'application/json' }),
+              new Blob([JSON.stringify({ version: 1, saved, visits, savedStretches, postcards }, null, 2)], { type: 'application/json' }),
               'rambleroo-passport.json',
             )
           }}
@@ -37,7 +44,12 @@ export function PassportData() {
               try {
                 const incoming = parsePassport(JSON.parse(await file.text()))
                 const result = mergePassport(usePassport.getState(), incoming)
-                usePassport.setState({ saved: result.saved, visits: result.visits, savedStretches: result.savedStretches })
+                usePassport.setState({
+                  saved: result.saved,
+                  visits: result.visits,
+                  savedStretches: result.savedStretches,
+                  postcards: result.postcards,
+                })
                 setMessage(
                   `Added ${result.savedAdded} saved roads, ${result.stretchesAdded} stretches and ${result.visitsAdded} visits. Saved in this browser.`,
                 )
@@ -49,13 +61,29 @@ export function PassportData() {
         </label>
         {confirm ? (
           <div role="group" aria-label="Confirm clear passport">
-            <p>Remove all saved roads, stretches and visits from this browser?</p>
+            <p>Remove all saved roads, stretches, postcards, card customizations and visits from this browser?</p>
+            <label className="studio-controls">
+              <span>
+                <input type="checkbox" checked={clearPhotos} onChange={(e) => setClearPhotos(e.target.checked)} /> Also remove photos you
+                added to postcards
+              </span>
+            </label>
             <button
               className="btn btn-primary"
-              onClick={() => {
-                usePassport.setState({ saved: {}, savedStretches: [], visits: [], lastStampId: null })
-                setConfirm(false)
-                setMessage('Passport cleared in this browser.')
+              disabled={clearing}
+              onClick={async () => {
+                setClearing(true)
+                try {
+                  if (clearPhotos) await userPhotos.clear()
+                  usePassport.setState({ saved: {}, savedStretches: [], postcards: [], visits: [], lastStampId: null })
+                  usePostcards.getState().clear()
+                  setConfirm(false)
+                  setMessage('Passport cleared in this browser.')
+                } catch {
+                  setMessage('Could not remove your photos. Please try again; your passport has not been cleared.')
+                } finally {
+                  setClearing(false)
+                }
               }}
             >
               Yes, clear passport

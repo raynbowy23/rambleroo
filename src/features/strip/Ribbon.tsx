@@ -1,3 +1,5 @@
+import { MilestoneToken } from '../postcard/MilestonePostcard'
+import { milestones } from '../postcard/cardData'
 import { useMemo, type CSSProperties } from 'react'
 import { Scene } from '../../components/art'
 import type { BywaySummary, PostcardLook } from '../../lib/types'
@@ -37,6 +39,7 @@ export function Ribbon({
   selected?: Stretch
   select: (stretch: Stretch) => void
 }) {
+  const cards = useMemo(() => milestones(data), [data])
   const route = on === 'main' ? data.main : data.branch!
   const intervals = useMemo(() => mappedIntervals(route, from, to), [route, from, to])
   const height = (to - from) * PIXELS_PER_MILE
@@ -110,7 +113,7 @@ export function Ribbon({
           return gap.atMile < to && end > from && (end <= to || to === route.miles)
         })
         .map((gap) => (
-          <p className={s.gap} key={gap.atMile} style={{ top: y(gap.atMile) + 8 }}>
+          <p className={s.gap} key={gap.atMile} style={{ top: y(gap.atMile + gap.miles / 2) }}>
             Unmapped in the source data · {gap.miles.toFixed(1)} mi
           </p>
         ))}
@@ -142,6 +145,10 @@ export function Ribbon({
               <div key={town.name} className={`${s.town} ${i % 2 ? s.right : s.left}`} style={{ top: y(town.mile) }}>
                 <span aria-hidden="true">⌂</span>
                 <strong>{town.name}</strong>
+                {/* One postcard per place: when a story stop shares the town's name (Ephraim), the stop's card, which has the photo, carries it. */}
+                {!cards.some((card) => card.kind === 'moment' && card.name.toLowerCase() === town.name.toLowerCase()) && (
+                  <MilestoneToken byway={byway} milestone={cards.find((card) => card.name === town.name && card.kind === 'town')!} />
+                )}
                 <a href={town.source} target="_blank" rel="noreferrer" aria-label={`${town.name} on Wikipedia`}>
                   ⓘ
                 </a>
@@ -185,6 +192,7 @@ export function Ribbon({
                 {moment.kind} · mile {moment.mile.toFixed(1)}
               </small>
               <h3>{moment.title}</h3>
+              <MilestoneToken byway={byway} milestone={cards.find((card) => card.name === moment.title && card.kind === 'moment')!} />
               <p>{moment.text}</p>
               {moment.offRouteMiles > 0.3 && <strong className={s.detour}>{moment.offRouteMiles} mi off the road</strong>}
             </div>

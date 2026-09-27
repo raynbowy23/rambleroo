@@ -69,3 +69,15 @@ it('saves each stretch once and persists it independently of whole-road saves', 
   expect(usePassport.getState().savedStretches.map((entry) => entry.stretchId)).toEqual(['tip'])
   usePassport.setState({ savedStretches: [] })
 })
+
+it('keeps each milestone once and removes it independently', () => {
+  usePassport.setState({ postcards: [] })
+  const passport = usePassport.getState()
+  passport.keepPostcard('door', 'ephraim')
+  passport.keepPostcard('door', 'ephraim')
+  passport.keepPostcard('door', 'fish-creek')
+  expect(usePassport.getState().postcards).toHaveLength(2)
+  passport.removePostcard('door', 'ephraim')
+  expect(usePassport.getState().postcards.map((card) => card.milestoneId)).toEqual(['fish-creek'])
+  usePassport.setState({ postcards: [] })
+})

@@ -1,7 +1,12 @@
 import type { Map } from './maplibre'
 import { palette } from './style'
+import { createElement } from 'react'
+import { createRoot } from 'react-dom/client'
+import { flushSync } from 'react-dom'
+import { Vehicle } from '../../components/art/Vehicle'
+import { useGarage } from '../../lib/garage'
 
-// Power-of-two repeats keep the canvas textures seamless in MapLibre's atlas.
+// Power-of-two repeats keep the canvas textures seamless in MapLibre's image collection.
 export const strokes = [
   { family: 'water', label: 'River / coast', color: 'route-water', path: 'M0 8Q4 2 8 8T16 8T24 8T32 8' },
   { family: 'mountain', label: 'Mountain', color: 'route-mountain', path: 'M0 11L8 4L16 11L24 4L32 11' },
@@ -33,25 +38,45 @@ export function addRouteArt(map: Map) {
       ctx.stroke(new Path2D(stroke.path))
     })
   }
-  // The car faces north so geographic bearings map directly to icon-rotate.
-  canvasImage(map, 'route-car', 22, 26, (ctx) => {
-    ctx.fillStyle = c('ink')
-    for (const x of [3, 16]) for (const y of [5, 18]) ctx.fillRect(x, y, 3, 5)
-    ctx.fillStyle = c('signal')
-    ctx.strokeStyle = c('ink')
-    ctx.lineWidth = 1.2
-    ctx.beginPath()
-    ctx.roundRect(5, 2, 12, 22, [5, 5, 3, 3])
-    ctx.fill()
-    ctx.stroke()
-    ctx.fillStyle = c('paper')
-    ctx.beginPath()
-    ctx.roundRect(7, 8, 8, 5, 1.5)
-    ctx.roundRect(7, 18, 8, 3, 1)
-    ctx.fill()
-    ctx.fillStyle = c('gold')
-    ctx.fillRect(6, 3, 2, 2)
-    ctx.fillRect(14, 3, 2, 2)
+  // Reserve dimensions immediately; decoded SVG replaces this transparent image.
+  canvasImage(map, 'route-car', 30, 50, () => {})
+  let generation = 0
+  let disposed = false
+  const refresh = async () => {
+    const version = ++generation
+    const host = document.createElement('div')
+    const root = createRoot(host)
+    flushSync(() => root.render(createElement(Vehicle, { ...useGarage.getState(), view: 'top', size: 60 })))
+    const svg = new XMLSerializer().serializeToString(host.querySelector('svg')!)
+    root.unmount()
+    const url = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' }))
+    try {
+      const image = new Image()
+      image.src = url
+      await image.decode()
+      if (disposed || version !== generation) return
+      const canvas = document.createElement('canvas')
+      canvas.width = 60
+      canvas.height = 100
+      const context = canvas.getContext('2d')
+      if (!context) return
+      context.drawImage(image, 0, 0, 60, 100)
+      const pixels = context.getImageData(0, 0, 60, 100)
+      if (map.hasImage('route-car')) map.updateImage('route-car', pixels)
+      else map.addImage('route-car', pixels, { pixelRatio: 2 })
+    } catch {
+      /* Keep the map usable if image decoding fails. */
+    } finally {
+      URL.revokeObjectURL(url)
+    }
+  }
+  void refresh()
+  const unsubscribe = useGarage.subscribe(() => {
+    void refresh()
+  })
+  map.once('remove', () => {
+    disposed = true
+    unsubscribe()
   })
   for (const finish of [false, true]) {
     canvasImage(map, finish ? 'route-finish' : 'route-start', 26, 30, (ctx) => {
