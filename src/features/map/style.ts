@@ -1,7 +1,8 @@
 import type { StyleSpecification, LineLayerSpecification } from './maplibre'
+/** Map colours: a --map-<name> token wins over the UI token of the same name, so maps can stay colourful while the chrome stays olive. */
 export function palette() {
   const css = getComputedStyle(document.documentElement)
-  return (name: string) => css.getPropertyValue(`--${name}`).trim()
+  return (name: string) => css.getPropertyValue(`--map-${name}`).trim() || css.getPropertyValue(`--${name}`).trim()
 }
 export function createMapStyle(): StyleSpecification {
   const c = palette()

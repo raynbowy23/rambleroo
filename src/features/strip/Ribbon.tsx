@@ -6,14 +6,15 @@ import { buildRibbon, clamp, mappedIntervals, PIXELS_PER_MILE, sideOfRoad } from
 import type { Stretch, StripData } from './types'
 import s from './Strip.module.css'
 
+// Stretch brackets use the same colour per landscape as the map's road strokes (tokens in src/styles/tokens.css).
 const sceneColors = {
-  coast: '#537d88',
-  river: '#537d88',
-  forest: '#38634b',
-  town: '#8a6a3a',
-  mountain: '#666783',
-  desert: '#c4561b',
-  prairie: '#827024',
+  coast: 'var(--map-route-water)',
+  river: 'var(--map-route-water)',
+  forest: 'var(--map-route-forest)',
+  town: 'var(--map-route-town)',
+  mountain: 'var(--map-route-mountain)',
+  desert: 'var(--map-route-desert)',
+  prairie: 'var(--map-route-prairie)',
 }
 export function Ribbon({
   data,

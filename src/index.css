@@ -349,3 +349,16 @@ p {
     animation: none;
   }
 }
+
+/* Theme chips: the icon carries the road family's colour; a selected chip gets a light tint of it with dark text (AA-safe). */
+.chip-theme svg {
+  color: var(--chip-color);
+}
+.chip-theme[aria-pressed='true'] {
+  background: color-mix(in srgb, var(--chip-color) 20%, var(--card));
+  border-color: var(--chip-color);
+  color: var(--ink);
+}
+.chip-theme[aria-pressed='true'] svg {
+  color: var(--chip-color);
+}

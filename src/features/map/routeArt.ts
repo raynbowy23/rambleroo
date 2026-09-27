@@ -3,11 +3,12 @@ import { palette } from './style'
 
 // Power-of-two repeats keep the canvas textures seamless in MapLibre's atlas.
 export const strokes = [
-  { family: 'water', label: 'River / coast', color: 'water-deep', path: 'M0 8Q4 2 8 8T16 8T24 8T32 8' },
-  { family: 'mountain', label: 'Mountain', color: 'forest-2', path: 'M0 11L8 4L16 11L24 4L32 11' },
-  { family: 'forest', label: 'Forest', color: 'forest-2', path: 'M0 11H32M8 11V3M4 8L8 4L12 8M20 11V3M16 8L20 4L24 8' },
-  { family: 'desert', label: 'Desert', color: 'rust-2', path: 'M2 8H11M17 8H18M24 8H25' },
-  { family: 'stitch', label: 'Town / prairie', color: 'rust', path: 'M2 9L12 7M18 9L28 7' },
+  { family: 'water', label: 'River / coast', color: 'route-water', path: 'M0 8Q4 2 8 8T16 8T24 8T32 8' },
+  { family: 'mountain', label: 'Mountain', color: 'route-mountain', path: 'M0 11L8 4L16 11L24 4L32 11' },
+  { family: 'forest', label: 'Forest', color: 'route-forest', path: 'M0 11H32M8 11V3M4 8L8 4L12 8M20 11V3M16 8L20 4L24 8' },
+  { family: 'desert', label: 'Desert', color: 'route-desert', path: 'M2 8H11M17 8H18M24 8H25' },
+  { family: 'stitch', label: 'Town', color: 'route-town', path: 'M2 9L12 7M18 9L28 7' },
+  { family: 'prairie', label: 'Prairie', color: 'route-prairie', path: 'M2 9L12 7M18 9L28 7' },
 ] as const
 
 function canvasImage(map: Map, id: string, width: number, height: number, draw: (ctx: CanvasRenderingContext2D) => void) {

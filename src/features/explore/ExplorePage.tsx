@@ -14,6 +14,17 @@ import { useSheetDrag } from '../../lib/useSheetDrag'
 import { Postcard } from './Postcard'
 import styles from './Explore.module.css'
 const BywayMap = lazy(() => import('../map/BywayMap').then((module) => ({ default: module.BywayMap })))
+/** Each theme chip wears its road family's map colour (tokens in src/styles/tokens.css). */
+const themeColor: Record<string, string> = {
+  water: 'var(--map-route-water)',
+  coast: 'var(--map-route-water)',
+  mountain: 'var(--map-route-mountain)',
+  forest: 'var(--map-route-forest)',
+  desert: 'var(--map-route-desert)',
+  historic: 'var(--map-route-town)',
+  countryside: 'var(--map-route-prairie)',
+}
+
 export default function ExplorePage() {
   const navigate = useNavigate()
   const catalog = useCatalog()
@@ -168,7 +179,8 @@ export default function ExplorePage() {
                 </button>
                 {themes.map((t) => (
                   <button
-                    className="chip"
+                    className="chip chip-theme"
+                    style={{ '--chip-color': themeColor[t] } as React.CSSProperties}
                     aria-pressed={activeThemes.includes(t)}
                     key={t}
                     onClick={() =>

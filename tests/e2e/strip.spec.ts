@@ -88,3 +88,25 @@ test('town signs keep whole names and never overlap their info link', async ({ p
   )
   expect(problems).toEqual([])
 })
+
+test('shows the road in all four seasons at a glance, and picking one repaints the stops', async ({ page }) => {
+  await page.goto('/byway/door-county-coastal-byway-81450/strip')
+  const glance = page.getByRole('group', { name: 'The same road, four seasons' })
+  for (const season of ['spring', 'summer', 'autumn', 'winter']) {
+    await expect(glance.getByRole('button', { name: `Show ${season} along the road` })).toBeVisible()
+    await expect(glance.locator(`[data-season-atmosphere^="${season}"]`)).toHaveCount(1)
+  }
+  await glance.getByRole('button', { name: 'Show winter along the road' }).click()
+  await expect(glance.getByRole('button', { name: 'Show winter along the road' })).toHaveAttribute('aria-pressed', 'true')
+})
+
+test('header tagline stays on one line', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 800 })
+  await page.goto('/collections')
+  const tagline = page.getByText(/Scenic roads of America/i).first()
+  const box = await tagline.boundingBox()
+  const lineHeight = await tagline.evaluate(
+    (el) => parseFloat(getComputedStyle(el).lineHeight) || parseFloat(getComputedStyle(el).fontSize) * 1.5,
+  )
+  expect(box!.height).toBeLessThan(lineHeight * 1.6)
+})

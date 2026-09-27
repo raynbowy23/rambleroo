@@ -6,6 +6,7 @@ import { Motifs } from './motifs'
 import { RegionalLandscape, regions } from './regions'
 import { PrintDefs } from './PrintDefs'
 import { LookLandscape } from './LookLandscape'
+import { SeasonAtmosphere } from './SeasonAtmosphere'
 import { lookInks, lookSky } from './looks'
 import { DeckleClip, PostcardBorder, PostcardType } from './PostcardFinish'
 import type { PostcardLettering } from './PostcardFinish'
@@ -452,6 +453,7 @@ export const Scene = memo(function Scene({
               <>
                 <LookLandscape family={family} region={region} look={look} inks={inks} height={h} hasMotifs={Boolean(motifs?.length)} />
                 {motifs && <Motifs motifs={motifs} inks={inks} height={h} hero={hero} look={look} />}
+                <SeasonAtmosphere look={look} region={region} height={h} seed={seed} />
               </>
             )}
             <path

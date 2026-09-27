@@ -16,18 +16,17 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
   const color: ExpressionSpecification = [
     'match',
     ['get', 'scene'],
-    'river',
-    c('water-deep'),
-    'coast',
-    c('water-deep'),
+    ['river', 'coast'],
+    c('route-water'),
     'mountain',
-    c('forest-2'),
+    c('route-mountain'),
     'forest',
-    c('forest-2'),
+    c('route-forest'),
     'desert',
-    c('signal'),
-    // town and prairie roads: brass, so every family stays distinct from the olive mountain/forest roads
-    c('gold'),
+    c('route-desert'),
+    'prairie',
+    c('route-prairie'),
+    c('route-town'),
   ]
   addRouteArt(map)
   const round = { 'line-cap': 'round', 'line-join': 'round' } as const
@@ -63,6 +62,8 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
         'route-forest',
         'desert',
         'route-desert',
+        'prairie',
+        'route-prairie',
         'route-stitch',
       ],
       'line-width': patternWidth,
@@ -113,7 +114,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     source: 'byways',
     layout: round,
     paint: {
-      'line-color': c('signal'),
+      'line-color': c('gold'),
       'line-width': 5,
       'line-width-transition': { duration: 0 },
       'line-opacity': ['case', ['boolean', ['feature-state', 'hover'], false], 0.75, 0],
@@ -148,7 +149,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     type: 'line',
     source: 'selected',
     layout: round,
-    paint: { 'line-color': c('signal'), 'line-width': 15, 'line-blur': 5, 'line-opacity': 0.55 },
+    paint: { 'line-color': c('gold'), 'line-width': 15, 'line-blur': 5, 'line-opacity': 0.55 },
   })
   map.addLayer({
     id: 'selected-halo',

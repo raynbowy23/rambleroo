@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router'
-import { useByway } from '../../lib/data'
+import { useByway, useStory } from '../../lib/data'
+import { Scene } from '../../components/art'
 import { usePassport } from '../../lib/passport'
 import type { BywaySummary, PostcardLook } from '../../lib/types'
 import { toast } from '../../components/ui/Toast'
@@ -10,6 +11,9 @@ import { InsetMap, type PositionSink } from './InsetMap'
 import { Ribbon } from './Ribbon'
 import type { Stretch, StripData } from './types'
 import s from './Strip.module.css'
+
+/** Each season card also gets its natural light, so the four read apart even when a road's own look is, say, a pink dawn. */
+const seasonLight: Record<PostcardLook['season'], PostcardLook['time']> = { spring: 'dawn', summer: 'day', autumn: 'golden', winter: 'day' }
 
 export default function StripPage() {
   const { id = '' } = useParams()
@@ -49,6 +53,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
   const [expandedTip, setTipOpen] = useState(selected?.on === 'branch')
   const tipOpen = expandedTip || selected?.on === 'branch'
   const [season, setSeason] = useState<PostcardLook['season']>(byway.look.season)
+  const { story } = useStory(byway.id)
   const saved = usePassport((state) => state.savedStretches)
   const save = usePassport((state) => state.saveStretch)
   const unsave = usePassport((state) => state.removeStretch)
@@ -183,13 +188,31 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         <h1>{data.title}</h1>
         <p className={s.draft}>{data.reviewed ? 'Reviewed strip map' : 'Draft · pending review'}</p>
         <p>{data.direction}</p>
-        <fieldset className={s.seasons}>
-          <legend>A little change of season</legend>
-          {(['spring', 'summer', 'autumn', 'winter'] as const).map((value) => (
-            <button key={value} aria-pressed={season === value} onClick={() => setSeason(value)}>
-              {value}
-            </button>
-          ))}
+        {/* Seasons at a glance: the same illustrated view of this road in all four seasons, side by side, so the difference is visible
+            without toggling. Choosing one also repaints the illustrated stops along the ribbon. Photos never change with season. */}
+        <fieldset className={s.seasonGlance}>
+          <legend>The same road, four seasons</legend>
+          <div className={s.seasonGrid}>
+            {(['spring', 'summer', 'autumn', 'winter'] as const).map((value) => (
+              <button
+                key={value}
+                aria-pressed={season === value}
+                onClick={() => setSeason(value)}
+                aria-label={`Show ${value} along the road`}
+              >
+                <Scene
+                  family={byway.scene}
+                  region={byway.region}
+                  seed={byway.seed}
+                  motifs={story?.motifs}
+                  look={{ ...byway.look, season: value, time: seasonLight[value] }}
+                  variant="postcard"
+                />
+                <span>{value}</span>
+              </button>
+            ))}
+          </div>
+          <small>Illustrated seasons · artwork, not photographs</small>
         </fieldset>
         <p className={s.scrollHint}>
           Scroll to drive. Pick a stretch to make it yours. <span aria-hidden="true">↓</span>

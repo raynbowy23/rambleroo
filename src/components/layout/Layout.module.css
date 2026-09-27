@@ -137,9 +137,12 @@
   border-bottom: 1px solid var(--line-strong);
 }
 
+/* One line, always: the tagline hides (below 1000px) rather than wrapping. */
 .tagline {
-  max-width: 230px;
-  font-size: 13px;
+  max-width: none;
+  white-space: nowrap;
+  font-size: 12px;
+  letter-spacing: 0.16em;
 }
 @media (max-width: 759px) {
   .header {

@@ -260,7 +260,13 @@ export function BywayMap({
       <div data-map-decoration className={styles.legend}>
         {strokes.map((stroke) => (
           <span className={styles.legendItem} key={stroke.family}>
-            <svg width="32" height="16" viewBox="0 0 32 16" aria-hidden="true" style={{ color: `var(--${stroke.color})` }}>
+            <svg
+              width="32"
+              height="16"
+              viewBox="0 0 32 16"
+              aria-hidden="true"
+              style={{ color: `var(--map-${stroke.color}, var(--${stroke.color}))` }}
+            >
               <path d={stroke.path} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             {stroke.label}
