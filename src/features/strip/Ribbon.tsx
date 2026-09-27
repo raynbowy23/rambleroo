@@ -10,9 +10,9 @@ const sceneColors = {
   coast: '#537d88',
   river: '#537d88',
   forest: '#38634b',
-  town: '#a64226',
+  town: '#8a6a3a',
   mountain: '#666783',
-  desert: '#a64226',
+  desert: '#c4561b',
   prairie: '#827024',
 }
 export function Ribbon({

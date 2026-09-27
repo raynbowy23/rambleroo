@@ -15,11 +15,11 @@ export function Compass({ size = 64, className }: { size?: number; className?: s
       <circle cx="50" cy="50" r="28" />
       {[0, 45, 90, 135, 180, 225, 270, 315].map((angle, i) => (
         <g key={angle} transform={`rotate(${angle} 50 50)`}>
-          <path d={`M50 ${i % 2 ? 26 : 13}L55 50 50 56 45 50Z`} fill="#f5f1e8" />
-          <path d={`M50 ${i % 2 ? 26 : 13}V56L45 50Z`} fill={i === 0 ? '#b44c2a' : 'currentColor'} />
+          <path d={`M50 ${i % 2 ? 26 : 13}L55 50 50 56 45 50Z`} fill="#f3f4ea" />
+          <path d={`M50 ${i % 2 ? 26 : 13}V56L45 50Z`} fill={i === 0 ? '#d95f1e' : 'currentColor'} />
         </g>
       ))}
-      <circle cx="50" cy="50" r="3" fill="#f5f1e8" />
+      <circle cx="50" cy="50" r="3" fill="#f3f4ea" />
       {[
         ['N', 50, 9],
         ['E', 94, 53],

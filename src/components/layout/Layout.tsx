@@ -62,9 +62,17 @@ export default function Layout() {
             {meta ? `, retrieved ${meta.retrievedAt.slice(0, 10)}` : ''}. Basemap:{' '}
             <a href="https://www.naturalearthdata.com/">Natural Earth</a>. Illustrations are generated artwork, not photographs.
           </p>
-          <Link viewTransition to="/about">
-            About the data
-          </Link>
+          <nav className={styles.footerLinks} aria-label="Site information">
+            <Link viewTransition to="/about">
+              About the data
+            </Link>
+            <Link viewTransition to="/privacy">
+              Privacy
+            </Link>
+            <Link viewTransition to="/terms">
+              Terms
+            </Link>
+          </nav>
         </footer>
       )}
       <nav className={styles.mobile} aria-label="Mobile navigation">

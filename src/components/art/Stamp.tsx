@@ -69,14 +69,14 @@ export function Stamp({
         </defs>
         <g mask={`url(#${id}-edge)`}>
           <rect x="3" y="3" width="194" height="234" fill="#ece4d3" stroke="#c9bca2" />
-          <rect x="8" y="8" width="184" height="224" fill="#f5f1e8" />
+          <rect x="8" y="8" width="184" height="224" fill="#f3f4ea" />
           <rect
             x="14"
             y="14"
             width="172"
             height="212"
             fill="none"
-            stroke={empty ? '#b9ab92' : '#214a3b'}
+            stroke={empty ? '#b9ab92' : '#3f4b30'}
             strokeWidth=".8"
             strokeDasharray={empty ? '3 4' : undefined}
           />
@@ -97,7 +97,7 @@ export function Stamp({
               <svg x="20" y="20" width="160" height="164" viewBox="0 0 200 220" preserveAspectRatio="xMidYMid slice">
                 <Scene family={family} seed={seed} region={region} motifs={motifs} look={look} variant="stamp" />
               </svg>
-              <path d="M20 187h160" stroke="#214a3b" strokeWidth=".65" />
+              <path d="M20 187h160" stroke="#3f4b30" strokeWidth=".65" />
               {lines.map((line, i) => (
                 <text
                   key={i}
@@ -132,13 +132,13 @@ export function Stamp({
           )}
         </g>
         {visited && !empty && (
-          <g className="rr-cancel" transform="rotate(-14 135 154)" fill="none" stroke="#b44c2a" opacity=".58">
+          <g className="rr-cancel" transform="rotate(-14 135 154)" fill="none" stroke="#c4561b" opacity=".58">
             <path d="M4 140q16-7 32 0t32 0m-64 9q16-7 32 0t32 0m-64 9q16-7 32 0t32 0" strokeWidth="1.4" />
             <circle cx="132" cy="148" r="43" strokeWidth="1.5" opacity=".65" />
             <circle cx="133.2" cy="148.5" r="43" strokeWidth=".65" strokeDasharray="17 2 6 1" opacity=".4" />
             <circle cx="132" cy="148" r="38" strokeWidth=".7" strokeDasharray="2 1" />
             <path d="M99 151h66" />
-            <text x="132" y="144" textAnchor="middle" fill="#b44c2a" stroke="none" fontSize="13" letterSpacing="1.4" className="rr-serif">
+            <text x="132" y="144" textAnchor="middle" fill="#c4561b" stroke="none" fontSize="13" letterSpacing="1.4" className="rr-serif">
               VISITED
             </text>
             {date && (
@@ -146,7 +146,7 @@ export function Stamp({
                 x="132"
                 y="163"
                 textAnchor="middle"
-                fill="#b44c2a"
+                fill="#c4561b"
                 stroke="none"
                 fontSize="7"
                 textLength={date.length > 14 ? 63 : undefined}

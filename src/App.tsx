@@ -12,6 +12,8 @@ const pages = {
   collections: () => import('./features/collections/CollectionsPage'),
   passport: () => import('./features/passport/PassportPage'),
   about: () => import('./features/about/AboutPage'),
+  privacy: () => import('./features/legal/PrivacyPage'),
+  terms: () => import('./features/legal/TermsPage'),
 }
 const page = (load: () => Promise<{ default: React.ComponentType }>) => async () => ({ Component: (await load()).default })
 
@@ -53,6 +55,8 @@ const router = createBrowserRouter([
       { path: '/collections/:slug', lazy: page(pages.collections) },
       { path: '/passport', lazy: page(pages.passport) },
       { path: '/about', lazy: page(pages.about) },
+      { path: '/privacy', lazy: page(pages.privacy) },
+      { path: '/terms', lazy: page(pages.terms) },
       {
         path: '/dev/art',
         element: (

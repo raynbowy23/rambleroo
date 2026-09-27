@@ -222,9 +222,16 @@ export default function PassportPage() {
       )}
       <PassportData />
       <footer className={s.section}>
-        <Link viewTransition to="/about">
-          About the data
-        </Link>
+        <p>
+          Your passport stays in this browser; we never receive it. How that works:{' '}
+          <Link viewTransition to="/privacy">
+            privacy policy
+          </Link>{' '}
+          ·{' '}
+          <Link viewTransition to="/about">
+            About the data
+          </Link>
+        </p>
       </footer>
       {editing && byId.has(editing.bywayId) && (
         <VisitEditor byway={byId.get(editing.bywayId)!} visit={editing} onClose={() => setEditing(undefined)} />

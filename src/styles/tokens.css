@@ -1,35 +1,40 @@
-/* Rambleroo design tokens. Palette starts from blueprint §4 and was contrast-checked: ink on paper ≈ 14:1, rust on paper ≈ 4.6:1, paper on rust ≈ 5.2:1, paper on forest ≈ 9:1. */
+/* Rambleroo design tokens. MA-1 flight jacket palette: sage-olive shell, canvas paper, brass hardware, and a rescue-orange lining used only as a small accent.
+   Contrast (WCAG): ink on paper 13.3:1, ink-soft 7.4:1, ink-muted 4.6:1, card text on olive 8.5:1, olive text on paper 7.7:1, signal-text on paper 4.9:1.
+   --signal fails as a text background (3.4:1), so it is for non-text accents only (car, stamp ink, selected-route glow, focus). */
 :root {
-  /* Surfaces */
-  --paper: #f7f4ed;
-  --paper-deep: #ece4d3;
-  --card: #fffdf8;
-  --line: #ddd3bf;
-  --line-strong: #c9bca2;
+  /* Surfaces: a cool canvas rather than cream */
+  --paper: #e9eadf;
+  --paper-deep: #dfe1d3;
+  --card: #f5f6ee;
+  --line: #d2d4c4;
+  --line-strong: #b8bba6;
 
-  /* Ink */
-  --ink: #202925;
-  --ink-soft: #4a524d;
-  --ink-muted: #6b716b;
+  /* Ink: olive-black */
+  --ink: #1d2318;
+  --ink-soft: #454c3c;
+  --ink-muted: #646b5a;
 
-  /* Brand */
-  --forest: #214a3b;
-  --forest-2: #2f6b55;
-  --forest-tint: #dfe6dc;
-  --rust: #a64226;
-  --rust-2: #cf6a3e;
-  --rust-tint: #f3dfd3;
-  --gold: #e0a93b;
+  /* Brand. --forest is the MA-1 shell olive and the primary colour; --rust keeps its name for compatibility but now
+     means "primary action" and resolves to the same olive family. The orange lives in --signal. */
+  --forest: #3f4b30;
+  --forest-2: #5a6844;
+  --forest-tint: #dde2d0;
+  --rust: #3f4b30;
+  --rust-2: #5a6844;
+  --rust-tint: #dde2d0;
+  --signal: #d95f1e;
+  --signal-text: #a8440f;
+  --gold: #b8913e;
 
   /* Cartography */
-  --water: #91adb4;
-  --water-light: #bfd1d3;
-  --water-deep: #5e8a96;
-  --land: #efe7d4;
-  --land-us: #eee1c5;
-  --sand: #d8cbb3;
-  --sage: #a9b89a;
-  --terrain: #c7b98f;
+  --water: #8fa3a8;
+  --water-light: #c3cfcf;
+  --water-deep: #5b7d86;
+  --land: #e2e3d6;
+  --land-us: #eceddf;
+  --sand: #d3d0bc;
+  --sage: #a3ad8e;
+  --terrain: #b9b594;
 
   /* Scene palette used by illustrations */
   --sky-dawn: #f2d9b8;

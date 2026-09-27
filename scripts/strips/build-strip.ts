@@ -48,7 +48,7 @@ function project(line: Position[], cum: number[], p: Position) {
     const dx = (bx - ax) * kx
     const dy = by - ay
     const len2 = dx * dx + dy * dy
-    const t = len2 ? Math.max(0, Math.min(1, (((p[0] - ax) * kx) * dx + (p[1] - ay) * dy) / len2)) : 0
+    const t = len2 ? Math.max(0, Math.min(1, ((p[0] - ax) * kx * dx + (p[1] - ay) * dy) / len2)) : 0
     const q: Position = [ax + (bx - ax) * t, ay + (by - ay) * t]
     const off = miles(p, q)
     if (off < best.off) best = { mile: cum[i] + miles(line[i], q), off, at: q }
@@ -57,9 +57,9 @@ function project(line: Position[], cum: number[], p: Position) {
 }
 
 // ---------- 1. collect source parts ----------
-const raw = await json<{ features: { properties: { BYWAY_ID: number }; geometry: { type: string; coordinates: Position[] | Position[][] } }[] }>(
-  'data/raw/scenic_byways.geojson',
-)
+const raw = await json<{
+  features: { properties: { BYWAY_ID: number }; geometry: { type: string; coordinates: Position[] | Position[][] } }[]
+}>('data/raw/scenic_byways.geojson')
 let parts: Position[][] = raw.features
   .filter((f) => f.properties.BYWAY_ID === sourceId)
   .flatMap((f) => (f.geometry.type === 'LineString' ? [f.geometry.coordinates as Position[]] : (f.geometry.coordinates as Position[][])))
@@ -80,7 +80,7 @@ function chain(seed: Position[], pool: Position[][], tol: number) {
   const path = [...seed]
   const gaps: { atMile: number; miles: number }[] = []
   const used = new Set<Position[]>([seed])
-  for (let grew = true; grew; ) {
+  for (let grew = true; grew;) {
     grew = false
     for (const end of ['tail', 'head'] as const) {
       const tip = end === 'tail' ? path[path.length - 1] : path[0]
@@ -181,9 +181,23 @@ if (!catalog.some((b) => b.id === id)) throw new Error(`${id} not in catalog`)
 const story = await json<{ moments: { title: string; kind: string; text: string; scene: string; motifs?: string[]; at?: Position }[] }>(
   `content/stories/${id}.json`,
 ).catch(() => ({ moments: [] }))
-const photos = (await json<{ bywayId: string; moment?: string; file: string; thumb?: string; alt: string; author: string; license: string; licenseUrl: string; sourceUrl: string; width: number; height: number }[]>('content/photos.json')).filter(
-  (p) => p.bywayId === id,
-)
+const photos = (
+  await json<
+    {
+      bywayId: string
+      moment?: string
+      file: string
+      thumb?: string
+      alt: string
+      author: string
+      license: string
+      licenseUrl: string
+      sourceUrl: string
+      width: number
+      height: number
+    }[]
+  >('content/photos.json')
+).filter((p) => p.bywayId === id)
 
 type Where = { on: 'main' | 'branch'; mile: number; offRouteMiles: number; at: Position }
 /** `route` pins a place to one path ('main' | 'branch'); otherwise it goes to whichever is nearer. */
@@ -233,7 +247,11 @@ async function osrm(points: Position[]) {
   }
   throw new Error('OSRM unavailable')
 }
-const townAt = (name: string) => towns.find((t) => t.name === name) ?? (() => { throw new Error(`unknown town ${name}`) })()
+const townAt = (name: string) =>
+  towns.find((t) => t.name === name) ??
+  (() => {
+    throw new Error(`unknown town ${name}`)
+  })()
 const stretches = []
 for (const s of content.stretches) {
   const a = townAt(s.from)
@@ -253,7 +271,14 @@ for (const s of content.stretches) {
     toMile = b.mile
   }
   const routed = await osrm(line)
-  stretches.push({ ...s, on: s.branch ? 'branch' : 'main', fromMile: round(fromMile, 2), toMile: round(toMile, 2), mappedMiles: round(Math.abs(toMile - fromMile)), ...routed })
+  stretches.push({
+    ...s,
+    on: s.branch ? 'branch' : 'main',
+    fromMile: round(fromMile, 2),
+    toMile: round(toMile, 2),
+    mappedMiles: round(Math.abs(toMile - fromMile)),
+    ...routed,
+  })
   console.log(`${s.title}: ${round(Math.abs(toMile - fromMile))} mi mapped, ${routed.minutes} min routed`)
 }
 
@@ -270,8 +295,19 @@ const out = {
     towns: 'Wikipedia article coordinates',
     driveTimes: 'OSRM (router.project-osrm.org), OpenStreetMap data, computed at build time; excludes stops and traffic',
   },
-  main: { path: simplify(path), cumMiles: cum.map((m) => round(m, 3)), miles: round(total), gaps: gaps.map((g) => ({ atMile: round(g.atMile, 2), miles: round(g.miles, 2) })) },
-  branch: branchOut && { ...branchOut, path: simplify(branchOut.path), cumMiles: cumOf(branchOut.path).map((m) => round(m, 3)), miles: round(branchOut.miles), joinsAtMile: round(branchOut.joinsAtMile, 2) },
+  main: {
+    path: simplify(path),
+    cumMiles: cum.map((m) => round(m, 3)),
+    miles: round(total),
+    gaps: gaps.map((g) => ({ atMile: round(g.atMile, 2), miles: round(g.miles, 2) })),
+  },
+  branch: branchOut && {
+    ...branchOut,
+    path: simplify(branchOut.path),
+    cumMiles: cumOf(branchOut.path).map((m) => round(m, 3)),
+    miles: round(branchOut.miles),
+    joinsAtMile: round(branchOut.joinsAtMile, 2),
+  },
   towns,
   moments,
   stretches,
@@ -280,8 +316,18 @@ await mkdir(new URL('public/data/strips/', ROOT), { recursive: true })
 await writeFile(new URL(`public/data/strips/${id}.json`, ROOT), JSON.stringify(out))
 // Index of byways that have a strip map, so pages can offer "Unroll the road" without probing for files.
 const indexUrl = new URL('public/data/strips/index.json', ROOT)
-const index: string[] = await readFile(indexUrl, 'utf8').then((t) => JSON.parse(t)).catch(() => [])
+const index: string[] = await readFile(indexUrl, 'utf8')
+  .then((t) => JSON.parse(t))
+  .catch(() => [])
 await writeFile(indexUrl, JSON.stringify([...new Set([...index, id])].sort()))
-console.log(`main drive ${round(total)} mi with ${gaps.length} gap(s); branch ${branchOut ? round(branchOut.miles) + ' mi from mile ' + round(branchOut.joinsAtMile) : 'none'}`)
-for (const t of towns) console.log(`  ${t.on.padEnd(6)} mile ${String(t.mile).padStart(5)}  ${t.name}${t.offRouteMiles > 0.3 ? ` (${t.offRouteMiles} mi off the road)` : ''}`)
-for (const m of moments) console.log(`  ${m!.on.padEnd(6)} mile ${String(m!.mile).padStart(5)}  ◆ ${m!.title}${m!.offRouteMiles > 0.3 ? ` (${m!.offRouteMiles} mi off the road)` : ''}${m!.photo ? ' [photo]' : ''}`)
+console.log(
+  `main drive ${round(total)} mi with ${gaps.length} gap(s); branch ${branchOut ? round(branchOut.miles) + ' mi from mile ' + round(branchOut.joinsAtMile) : 'none'}`,
+)
+for (const t of towns)
+  console.log(
+    `  ${t.on.padEnd(6)} mile ${String(t.mile).padStart(5)}  ${t.name}${t.offRouteMiles > 0.3 ? ` (${t.offRouteMiles} mi off the road)` : ''}`,
+  )
+for (const m of moments)
+  console.log(
+    `  ${m!.on.padEnd(6)} mile ${String(m!.mile).padStart(5)}  ◆ ${m!.title}${m!.offRouteMiles > 0.3 ? ` (${m!.offRouteMiles} mi off the road)` : ''}${m!.photo ? ' [photo]' : ''}`,
+  )

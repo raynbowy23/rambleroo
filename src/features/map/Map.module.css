@@ -132,7 +132,7 @@
 /* Modern, lighter title: no framed box, just a soft paper halo so it reads over the routes. */
 .cartouche {
   border: 0;
-  background: radial-gradient(ellipse at center, #f3ead7e6 25%, #f3ead799 55%, transparent 75%);
+  background: radial-gradient(ellipse at center, #eceddfe6 25%, #eceddf99 55%, transparent 75%);
   padding: 10px 32px 16px;
 }
 .cartouche::before,
@@ -179,7 +179,7 @@
   font-variant-caps: small-caps;
   letter-spacing: 0.2em;
   color: #355862;
-  text-shadow: 0 1px #f3ead788;
+  text-shadow: 0 1px #eceddf88;
 }
 @media (max-width: 1100px) and (min-width: 760px) {
   .selectedCompass {

@@ -51,6 +51,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
   const [season, setSeason] = useState<PostcardLook['season']>(byway.look.season)
   const saved = usePassport((state) => state.savedStretches)
   const save = usePassport((state) => state.saveStretch)
+  const unsave = usePassport((state) => state.removeStretch)
   const ribbonArea = useRef<HTMLDivElement>(null)
   const counter = useRef<HTMLOutputElement>(null)
   const car = useRef<HTMLDivElement>(null)
@@ -262,7 +263,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
           <rect x="24" y="9" width="5" height="12" rx="2" fill="#202925" />
           <rect x="1" y="34" width="5" height="11" rx="2" fill="#202925" />
           <rect x="24" y="34" width="5" height="11" rx="2" fill="#202925" />
-          <rect x="4" y="1" width="22" height="49" rx="9" fill="#a64226" stroke="#202925" strokeWidth="2" />
+          <rect x="4" y="1" width="22" height="49" rx="9" fill="#d95f1e" stroke="#1d2318" strokeWidth="2" />
           <path d="M7 18Q15 14 23 18L21 27H9Z" fill="#bfd1d3" stroke="#202925" />
           <path d="M9 36H21L23 42H7Z" fill="#bfd1d3" stroke="#202925" />
           <path d="M8 47H22M8 4H22" stroke="#f7f4ed" strokeWidth="3" />
@@ -298,16 +299,27 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
             >
               Drive this stretch
             </a>
-            <button
-              className="btn btn-ghost"
-              onClick={() => {
-                save(byway.id, selected.id)
-                toast('Stretch saved in this browser')
-              }}
-              disabled={saved.some((entry) => entry.bywayId === byway.id && entry.stretchId === selected.id)}
-            >
-              {saved.some((entry) => entry.bywayId === byway.id && entry.stretchId === selected.id) ? 'Stretch saved' : 'Save stretch'}
-            </button>
+            {/* A toggle like the road Save button: saved stretches can be unsaved right here, not only from the passport. */}
+            {(() => {
+              const isSaved = saved.some((entry) => entry.bywayId === byway.id && entry.stretchId === selected.id)
+              return (
+                <button
+                  className="btn btn-ghost"
+                  aria-pressed={isSaved}
+                  onClick={() => {
+                    if (isSaved) {
+                      unsave(byway.id, selected.id)
+                      toast('Stretch removed from your passport')
+                    } else {
+                      save(byway.id, selected.id)
+                      toast('Stretch saved in this browser')
+                    }
+                  }}
+                >
+                  {isSaved ? 'Saved' : 'Save stretch'}
+                </button>
+              )
+            })()}
             <button
               className="btn btn-ghost"
               onClick={async () => {

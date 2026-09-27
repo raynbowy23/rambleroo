@@ -25,8 +25,9 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     'forest',
     c('forest-2'),
     'desert',
-    c('rust-2'),
-    c('rust'),
+    c('signal'),
+    // town and prairie roads: brass, so every family stays distinct from the olive mountain/forest roads
+    c('gold'),
   ]
   addRouteArt(map)
   const round = { 'line-cap': 'round', 'line-join': 'round' } as const
@@ -89,7 +90,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
   }
   for (const [id, color, width] of [
     ['byway-road-outline', c('ink'), 8],
-    ['byway-road-fill', c('rust-2'), 5.5],
+    ['byway-road-fill', c('terrain'), 5.5],
     ['byway-road-center', c('paper'), 1.1],
   ] as const) {
     map.addLayer({
@@ -112,7 +113,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     source: 'byways',
     layout: round,
     paint: {
-      'line-color': c('gold'),
+      'line-color': c('signal'),
       'line-width': 5,
       'line-width-transition': { duration: 0 },
       'line-opacity': ['case', ['boolean', ['feature-state', 'hover'], false], 0.75, 0],
@@ -138,7 +139,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     type: 'circle',
     source: 'story-points',
     minzoom: 4,
-    paint: { 'circle-radius': 4, 'circle-color': c('rust'), 'circle-stroke-color': c('paper'), 'circle-stroke-width': 2 },
+    paint: { 'circle-radius': 4, 'circle-color': c('signal'), 'circle-stroke-color': c('paper'), 'circle-stroke-width': 2 },
   })
   // Preserve the selected vertices so the pen and car share the same projected distances.
   map.addSource('selected', { type: 'geojson', lineMetrics: true, tolerance: 0, data: { type: 'FeatureCollection', features: [] } })
@@ -147,7 +148,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     type: 'line',
     source: 'selected',
     layout: round,
-    paint: { 'line-color': c('gold'), 'line-width': 15, 'line-blur': 5, 'line-opacity': 0.55 },
+    paint: { 'line-color': c('signal'), 'line-width': 15, 'line-blur': 5, 'line-opacity': 0.55 },
   })
   map.addLayer({
     id: 'selected-halo',

@@ -120,7 +120,7 @@ export async function renderPostcard(input: PostcardInput) {
   canvas.height = 700
   const ctx = canvas.getContext('2d')
   if (!ctx) throw new Error('Canvas unavailable')
-  ctx.fillStyle = '#f3ead7'
+  ctx.fillStyle = '#eceddf'
   ctx.fillRect(0, 0, 1800, 700)
   ctx.strokeStyle = '#89795d'
   ctx.strokeRect(14, 14, 872, 672)

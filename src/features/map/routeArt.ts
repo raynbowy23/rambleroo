@@ -36,7 +36,7 @@ export function addRouteArt(map: Map) {
   canvasImage(map, 'route-car', 22, 26, (ctx) => {
     ctx.fillStyle = c('ink')
     for (const x of [3, 16]) for (const y of [5, 18]) ctx.fillRect(x, y, 3, 5)
-    ctx.fillStyle = c('rust')
+    ctx.fillStyle = c('signal')
     ctx.strokeStyle = c('ink')
     ctx.lineWidth = 1.2
     ctx.beginPath()

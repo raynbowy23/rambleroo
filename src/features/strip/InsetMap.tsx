@@ -60,7 +60,7 @@ export function InsetMap({ data, registerPosition }: { data: StripData; register
         },
       })
       map.addLayer({ id: 'road-edge', type: 'line', source: 'road', paint: { 'line-color': '#202925', 'line-width': 4 } })
-      map.addLayer({ id: 'road', type: 'line', source: 'road', paint: { 'line-color': '#cf6a3e', 'line-width': 2 } })
+      map.addLayer({ id: 'road', type: 'line', source: 'road', paint: { 'line-color': '#d95f1e', 'line-width': 2 } })
       map.addSource('car', { type: 'geojson', data: pointFeature() })
       map.addLayer({
         id: 'car',
@@ -68,7 +68,7 @@ export function InsetMap({ data, registerPosition }: { data: StripData; register
         source: 'car',
         paint: {
           'circle-radius': 5,
-          'circle-color': '#214a3b',
+          'circle-color': '#3f4b30',
           'circle-stroke-color': '#fffdf8',
           'circle-stroke-width': 2,
           'circle-opacity': gap ? 0.3 : 1,

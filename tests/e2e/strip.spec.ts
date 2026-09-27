@@ -25,6 +25,11 @@ test('selects, shares a URL and saves Bay villages to the passport', async ({ pa
   await expect(page).toHaveURL(/stretch=bay-villages/)
   const href = await card.getByRole('link', { name: 'Drive this stretch' }).getAttribute('href')
   expect(new URL(href!).searchParams.get('waypoints')?.split('|')).toHaveLength(3)
+  // Save, unsave, and save again from the same card (it used to lock as "Stretch saved").
+  await card.getByRole('button', { name: 'Save stretch', exact: true }).click()
+  await expect(card.getByRole('button', { name: 'Saved', exact: true })).toHaveAttribute('aria-pressed', 'true')
+  await card.getByRole('button', { name: 'Saved', exact: true }).click()
+  await expect(card.getByRole('button', { name: 'Save stretch', exact: true })).toHaveAttribute('aria-pressed', 'false')
   await card.getByRole('button', { name: 'Save stretch', exact: true }).click()
   await page.goto('/passport')
   await expect(page.getByRole('heading', { name: 'Saved roads', exact: true })).toBeVisible()

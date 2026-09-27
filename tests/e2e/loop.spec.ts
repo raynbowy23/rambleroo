@@ -59,3 +59,14 @@ test('map / gallery / list switcher stays usable with a road selected at 1024px'
   await page.getByRole('button', { name: 'list', exact: true }).click()
   await expect(page).toHaveURL(/view=list/)
 })
+
+test('privacy and terms are reachable and state what stays in the browser', async ({ page }) => {
+  await page.goto('/about')
+  await page.getByRole('navigation', { name: 'Site information' }).getByRole('link', { name: 'Privacy' }).click()
+  await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
+  await expect(page.getByText(/stored only in this browser/)).toBeVisible()
+  await expect(page.getByText(/never sell or share personal information/)).toBeVisible()
+  await page.getByRole('link', { name: 'terms of use' }).click()
+  await expect(page).toHaveURL(/\/terms/)
+  await expect(page.getByText(/Do not use Rambleroo while driving/)).toBeVisible()
+})

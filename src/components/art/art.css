@@ -34,7 +34,7 @@
 .rr-seal,
 .rr-compass,
 .rr-logo {
-  color: var(--forest, #214a3b);
+  color: var(--forest, #3f4b30);
   flex-shrink: 0;
 }
 .rr-logo {
@@ -125,7 +125,7 @@
   max-width: 1500px;
   margin: auto;
   padding: 40px 24px;
-  background: var(--paper, #f5f1e8);
+  background: var(--paper, #e9eadf);
   color: var(--ink, #202925);
 }
 .rr-gallery h1,
@@ -179,7 +179,7 @@
   margin: auto;
 }
 .rr-gallery button {
-  border: 1px solid var(--forest, #214a3b);
+  border: 1px solid var(--forest, #3f4b30);
   background: transparent;
   color: inherit;
   border-radius: 3px;
@@ -187,7 +187,7 @@
   cursor: pointer;
 }
 .rr-gallery button:focus-visible {
-  outline: 2px solid var(--rust, #b44c2a);
+  outline: 2px solid var(--rust, #d95f1e);
   outline-offset: 3px;
 }
 @media (max-width: 700px) {
