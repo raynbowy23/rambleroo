@@ -73,3 +73,27 @@ it('gives a town and a story moment with the same name independent stable keys',
   } as StripData)
   expect(cards.map((card) => card.id)).toEqual(['ephraim', 'ephraim-moment'])
 })
+
+it('uses town photos under the postcard credit rule and renders a car sticker', () => {
+  const photo = {
+    file: '/photos/town.jpg',
+    alt: 'Town square',
+    author: 'Photographer',
+    license: 'CC BY',
+    title: 'Town',
+  } as import('../../lib/types').Photo
+  const [town] = milestones({ towns: [{ name: 'Town', mile: 10, on: 'main', photo }], moments: [] } as unknown as StripData)
+  expect(town.photo).toBe(photo)
+  const { container } = render(
+    <CardFront
+      byway={byway}
+      milestone={town}
+      photo={town.photo}
+      choices={postcardDefaults(town.photo)}
+      garage={{ ...defaultGarage, usePicture: true, picture: 'car' }}
+      pictureUrl="data:image/png;base64,cGljdHVyZQ=="
+    />,
+  )
+  expect(container.querySelector('image')?.getAttribute('href')).toBe(photo.file)
+  expect(container.querySelector('[data-vehicle="picture"] image')?.getAttribute('href')).toMatch(/^data:image\/png/)
+})

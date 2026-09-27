@@ -1,10 +1,10 @@
 import { MilestoneToken } from '../postcard/MilestonePostcard'
 import { milestones } from '../postcard/cardData'
-import { useMemo, type CSSProperties } from 'react'
+import { useLayoutEffect, useRef, useMemo, type CSSProperties } from 'react'
 import { Scene } from '../../components/art'
 import type { BywaySummary, PostcardLook } from '../../lib/types'
 import { PhotoChip, PhotoImage } from '../photos/Photos'
-import { buildRibbon, clamp, mappedIntervals, PIXELS_PER_MILE, sideOfRoad } from './geometry'
+import { buildRibbon, clamp, mappedIntervals, milePostInterval, sideOfRoad } from './geometry'
 import type { Stretch, StripData } from './types'
 import s from './Strip.module.css'
 
@@ -28,7 +28,9 @@ export function Ribbon({
   selected,
   select,
   geometry,
+  scale,
 }: {
+  scale: number
   data: StripData
   byway: BywaySummary
   on: 'main' | 'branch'
@@ -39,11 +41,45 @@ export function Ribbon({
   selected?: Stretch
   select: (stretch: Stretch) => void
 }) {
+  const root = useRef<HTMLElement>(null)
+  useLayoutEffect(() => {
+    const element = root.current
+    if (!element) return
+    const arrange = () => {
+      let tail = 0
+      for (const side of ['left', 'right']) {
+        const labels = [...element.querySelectorAll<HTMLElement>(`[data-label-side="${side}"]`)].sort(
+          (a, b) => Number(a.dataset.mile) - Number(b.dataset.mile),
+        )
+        let bottom = 0
+        for (const label of labels) {
+          const trueY = (Number(label.dataset.mile) - from) * scale
+          const desired = trueY - (label.dataset.town ? label.offsetHeight : 0)
+          const top = Math.max(bottom, desired)
+          label.style.top = `${top}px`
+          const leader = label.querySelector<HTMLElement>('[data-leader]')!
+          leader.style.top = `${Math.min(0, trueY - top)}px`
+          leader.style.height = `${Math.abs(trueY - top)}px`
+          leader.style.width = `${49 + (side === 'left' ? 1 : -1) * geometry.offset(Number(label.dataset.mile))}px`
+          leader.style.borderTopWidth = trueY <= top ? '1px' : '0'
+          leader.style.borderBottomWidth = trueY > top ? '1px' : '0'
+          bottom = top + label.offsetHeight + 14
+          tail = Math.max(tail, bottom)
+        }
+      }
+      element.style.marginBottom = `${Math.max(0, tail - (to - from) * scale)}px`
+    }
+    const observer = new ResizeObserver(arrange)
+    element.querySelectorAll<HTMLElement>('[data-label-side]').forEach((label) => observer.observe(label))
+    arrange()
+    return () => observer.disconnect()
+  }, [data, on, from, to, scale, geometry])
   const cards = useMemo(() => milestones(data), [data])
   const route = on === 'main' ? data.main : data.branch!
   const intervals = useMemo(() => mappedIntervals(route, from, to), [route, from, to])
-  const height = (to - from) * PIXELS_PER_MILE
-  const y = (mile: number) => (clamp(mile, from, to) - from) * PIXELS_PER_MILE
+  const postInterval = milePostInterval(scale)
+  const height = (to - from) * scale
+  const y = (mile: number) => (clamp(mile, from, to) - from) * scale
   const contains = (mile: number) => mile >= from && (mile < to || (to === route.miles && mile <= to + 0.1))
   const pathBetween = (a: number, b: number) => (
     <g key={a} transform={`translate(0 ${y(a)})`}>
@@ -54,6 +90,7 @@ export function Ribbon({
   )
   return (
     <section
+      ref={root}
       className={`${s.ribbon} ${on === 'branch' ? s.branchRibbon : ''}`}
       style={{ height }}
       data-ribbon={on}
@@ -98,7 +135,7 @@ export function Ribbon({
           )
         })}
       </svg>
-      {Array.from({ length: Math.floor(route.miles / 5) + 1 }, (_, i) => i * 5)
+      {Array.from({ length: Math.floor(route.miles / postInterval) + 1 }, (_, i) => i * postInterval)
         .filter(contains)
         .map((mile) => (
           <span className={s.milepost} key={mile} style={{ top: y(mile) }}>
@@ -142,11 +179,26 @@ export function Ribbon({
         .map(
           (town, i) =>
             contains(town.mile) && (
-              <div key={town.name} className={`${s.town} ${i % 2 ? s.right : s.left}`} style={{ top: y(town.mile) }}>
-                <span aria-hidden="true">⌂</span>
+              <div
+                data-mile={town.mile}
+                data-town="true"
+                data-label-side={i % 2 ? 'right' : 'left'}
+                key={town.name}
+                className={`${s.town} ${i % 2 ? s.right : s.left}`}
+                style={{ top: y(town.mile) }}
+              >
+                <span data-leader className={s.leader} aria-hidden="true" />
+                {town.photo ? (
+                  <div className={s.townPhoto}>
+                    <PhotoImage photo={town.photo} />
+                    <PhotoChip photo={town.photo} />
+                  </div>
+                ) : (
+                  <span aria-hidden="true">⌂</span>
+                )}
                 <strong>{town.name}</strong>
                 {/* One postcard per place: when a story stop shares the town's name (Ephraim), the stop's card, which has the photo, carries it. */}
-                {!cards.some((card) => card.kind === 'moment' && card.name.toLowerCase() === town.name.toLowerCase()) && (
+                {(town.photo || !cards.some((card) => card.kind === 'moment' && card.name.toLowerCase() === town.name.toLowerCase())) && (
                   <MilestoneToken byway={byway} milestone={cards.find((card) => card.name === town.name && card.kind === 'town')!} />
                 )}
                 <a href={town.source} target="_blank" rel="noreferrer" aria-label={`${town.name} on Wikipedia`}>
@@ -160,6 +212,8 @@ export function Ribbon({
         .filter((moment) => moment.on === on && contains(moment.mile))
         .map((moment, i) => (
           <article
+            data-mile={moment.mile}
+            data-label-side={sideOfRoad(route, moment.mile, moment.at)}
             key={moment.title}
             className={`${s.moment} ${sideOfRoad(route, moment.mile, moment.at) === 'left' ? s.left : s.right}`}
             style={
@@ -169,7 +223,7 @@ export function Ribbon({
               } as CSSProperties
             }
           >
-            <div className={s.spur} aria-hidden="true" />
+            <span data-leader className={s.leader} aria-hidden="true" />
             <div className={s.picture}>
               {moment.photo ? (
                 <>

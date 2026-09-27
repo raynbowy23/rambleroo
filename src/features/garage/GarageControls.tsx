@@ -1,8 +1,13 @@
+import { useState } from 'react'
+import { prepareCarPicture } from '../../lib/carPicture'
+import { userPhotos } from '../../lib/userPhotos'
 import { Vehicle } from '../../components/art'
 import { accents, models, roofs, swatches, useGarage } from '../../lib/garage'
 import './studio.css'
 export function GarageControls() {
   const car = useGarage()
+  const [busy, setBusy] = useState(false)
+  const [error, setError] = useState('')
   return (
     <section className="studio-controls" aria-label="Your car">
       <h2>Your car</h2>
@@ -10,6 +15,60 @@ export function GarageControls() {
         <Vehicle view="side" size={240} {...car} />
         <Vehicle view="top" size={70} {...car} />
       </div>
+      <fieldset>
+        <legend>Use your own picture</legend>
+        <label>
+          Choose a picture (up to 8 MB)
+          <input
+            type="file"
+            accept="image/*"
+            disabled={busy}
+            onChange={async (event) => {
+              const file = event.target.files?.[0]
+              event.target.value = ''
+              if (!file) return
+              setBusy(true)
+              setError('')
+              try {
+                const picture = await userPhotos.add(await prepareCarPicture(file))
+                const previous = useGarage.getState().picture
+                car.update({ picture, usePicture: true })
+                if (previous) await userPhotos.remove(previous)
+              } catch (error) {
+                setError(error instanceof Error ? error.message : 'Could not save your picture.')
+              } finally {
+                setBusy(false)
+              }
+            }}
+          />
+        </label>
+        <p>Transparent PNGs look best. Pictures are cropped to a square and stay in this browser.</p>
+        {busy && <p role="status">Preparing your sticker…</p>}
+        {error && <p role="alert">{error}</p>}
+        {car.picture && (
+          <div className="studio-options">
+            <button disabled={busy} aria-pressed={car.usePicture} onClick={() => car.update({ usePicture: !car.usePicture })}>
+              {car.usePicture ? 'Back to the drawn car' : 'Use your picture'}
+            </button>
+            <button
+              disabled={busy}
+              onClick={async () => {
+                setBusy(true)
+                try {
+                  await userPhotos.remove(car.picture!)
+                  car.update({ picture: undefined, usePicture: false })
+                } catch {
+                  setError('Could not remove your picture. Please try again.')
+                } finally {
+                  setBusy(false)
+                }
+              }}
+            >
+              Remove picture
+            </button>
+          </div>
+        )}
+      </fieldset>
       <fieldset>
         <legend>Model</legend>
         <div className="studio-options">

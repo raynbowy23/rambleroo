@@ -18,6 +18,8 @@ export const swatches = [
   ['Lilac', '#af96ca'],
 ] as const
 export interface Garage {
+  picture?: string
+  usePicture: boolean
   model: (typeof models)[number]
   body: string
   accent: (typeof accents)[number]
@@ -26,6 +28,7 @@ export interface Garage {
   plate: string
 }
 export const defaultGarage: Garage = {
+  usePicture: false,
   model: 'coupe',
   body: '#ee7430',
   accent: 'none',
@@ -35,6 +38,8 @@ export const defaultGarage: Garage = {
 }
 export function validateGarage(input: Partial<Garage>): Garage {
   return {
+    picture: typeof input.picture === 'string' ? input.picture : undefined,
+    usePicture: input.usePicture === true && typeof input.picture === 'string',
     model: models.includes(input.model!) ? input.model! : defaultGarage.model,
     body: /^#[0-9a-f]{6}$/i.test(input.body ?? '') ? input.body! : defaultGarage.body,
     accent: accents.includes(input.accent!) ? input.accent! : 'none',

@@ -21,6 +21,14 @@ export default function AboutPage() {
         All scenic illustrations are generated artwork, not photographs or documentary views of a specific place. Decorative terrain symbols
         are atmospheric, not navigation landmarks.
       </p>
+      <h2>3D terrain</h2>
+      <p>
+        3D terrain uses{' '}
+        <a href="https://github.com/tilezen/joerd/blob/master/docs/attribution.md">
+          Mapzen Terrain Tiles on AWS Open Data (USGS, NOAA and others)
+        </a>
+        . Elevation is exaggerated to give the paper map a raised-relief appearance.
+      </p>
       <h2>How we choose photos</h2>
       <p>
         We curate photographs for stories. For other listings, we use the lead image of the road’s Wikipedia article or the U.S. DOT

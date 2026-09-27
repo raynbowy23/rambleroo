@@ -19,6 +19,13 @@ vi.mock('../../features/map/maplibre', () => ({
       setLayoutProperty = vi.fn()
       getSource = () => ({ setData: vi.fn() })
       remove = vi.fn()
+      setTerrain = vi.fn()
+      setSky = vi.fn()
+      getLayer = vi.fn()
+      removeSource = vi.fn()
+      jumpTo = vi.fn()
+      off = vi.fn()
+      getCanvas = () => document.createElement('canvas')
       on(event: string, callback: () => void) {
         if (event === 'load') mocks.load = callback
       }

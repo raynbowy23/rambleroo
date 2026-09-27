@@ -1,0 +1,50 @@
+{
+  "bywayId": "route-1-big-sur-coast-highway-2301",
+  "reviewed": false,
+  "title": "Route 1 - Big Sur Coast Highway",
+  "direction": "Runs south from the Carmel end of the mapped road along the Big Sur coast toward San Luis Obispo County.",
+  "towns": [
+    {
+      "name": "Carmel Highlands",
+      "wikipedia": "Carmel Highlands, California"
+    },
+    {
+      "name": "Big Sur",
+      "wikipedia": "Big Sur Village, California"
+    },
+    {
+      "name": "Lucia",
+      "wikipedia": "Lucia, California"
+    },
+    {
+      "name": "Gorda",
+      "wikipedia": "Gorda, California"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "bridges-headlands",
+      "title": "Bridges and headlands",
+      "from": "Carmel Highlands",
+      "to": "Big Sur",
+      "scene": "coast",
+      "line": "The northern coast, where the road crosses canyon mouths on high bridges."
+    },
+    {
+      "id": "the-wild-coast",
+      "title": "The wild coast",
+      "from": "Big Sur",
+      "to": "Lucia",
+      "scene": "coast",
+      "line": "The long, remote middle of the coast, with the mountains close to the water."
+    },
+    {
+      "id": "south-to-gorda",
+      "title": "South to Gorda",
+      "from": "Lucia",
+      "to": "Gorda",
+      "scene": "coast",
+      "line": "A short run south along the slope above the ocean."
+    }
+  ]
+}

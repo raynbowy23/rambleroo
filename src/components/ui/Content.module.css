@@ -911,3 +911,11 @@
     padding-bottom: 64px;
   }
 }
+
+.reliefControls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 0;
+  align-items: center;
+}

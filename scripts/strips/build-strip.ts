@@ -4,7 +4,8 @@
 // Honesty rules: pieces are joined only where their ends meet; any larger break is kept as a labelled gap, never bridged.
 // Usage: npx tsx scripts/strips/build-strip.ts door-county-coastal-byway-81450
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
-import type { Position } from 'geojson'
+import type { Feature, MultiPolygon, Polygon, Position } from 'geojson'
+import { booleanPointInPolygon, point } from '@turf/turf'
 
 const ROOT = new URL('../../', import.meta.url)
 const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway strip maps; personal project)' }
@@ -25,6 +26,8 @@ interface StripContent {
   direction: string
   towns: { name: string; wikipedia: string; branch?: string }[]
   stretches: { id: string; title: string; from: string; to: string; branch?: string; scene: string; line: string }[]
+  /** Keep only source pieces whose midpoint lies in this state (for multi-state roads like the Great River Road). */
+  clipToState?: string
 }
 
 // ---------- geometry helpers (miles, WGS84 lng/lat) ----------
@@ -74,6 +77,18 @@ parts = parts.filter((l) => {
   return true
 })
 
+const content = await json<StripContent>(`content/strips/${id}.json`)
+if (content.clipToState) {
+  const states = await json<{ features: { properties: { postal: string }; geometry: Polygon | MultiPolygon }[] }>(
+    'public/data/basemap/states.geojson',
+  )
+  const shape = states.features.find((f) => f.properties.postal === content.clipToState)
+  if (!shape) throw new Error(`no basemap outline for ${content.clipToState}`)
+  const before = parts.length
+  parts = parts.filter((l) => booleanPointInPolygon(point(l[Math.floor(l.length / 2)]), shape as Feature<Polygon | MultiPolygon>))
+  console.log(`clipped to ${content.clipToState}: ${parts.length} of ${before} pieces`)
+}
+
 // ---------- 2. chain pieces into paths ----------
 /** Grow a path from `seed` at both ends, always attaching the longest unused piece whose end is within `tol` miles. */
 function chain(seed: Position[], pool: Position[][], tol: number) {
@@ -109,16 +124,24 @@ function chain(seed: Position[], pool: Position[][], tol: number) {
   return { path, gaps, used }
 }
 
-const content = await json<StripContent>(`content/strips/${id}.json`)
-
 // Town coordinates come from Wikipedia so placement is checkable, not typed from memory.
 async function coords(titles: string[]) {
   const url =
     'https://en.wikipedia.org/w/api.php?' +
-    new URLSearchParams({ action: 'query', format: 'json', formatversion: '2', prop: 'coordinates', titles: titles.join('|') })
+    new URLSearchParams({
+      action: 'query',
+      format: 'json',
+      formatversion: '2',
+      prop: 'coordinates',
+      colimit: 'max',
+      redirects: '1',
+      titles: titles.join('|'),
+    })
   const d = await (await fetch(url, { headers: UA })).json()
   const out = new Map<string, Position>()
-  for (const p of d.query.pages) if (p.coordinates) out.set(p.title, [p.coordinates[0].lon, p.coordinates[0].lat])
+  // Map redirected titles back to the title the content file asked for.
+  const asked = new Map<string, string>((d.query.redirects ?? []).map((r: { from: string; to: string }) => [r.to, r.from]))
+  for (const p of d.query.pages) if (p.coordinates) out.set(asked.get(p.title) ?? p.title, [p.coordinates[0].lon, p.coordinates[0].lat])
   return out
 }
 const townCoords = await coords(content.towns.map((t) => t.wikipedia))
@@ -231,22 +254,47 @@ function slice(line: Position[], lineCum: number[], from: number, to: number) {
   const out = line.filter((_, i) => lineCum[i] >= a && lineCum[i] <= b)
   return from < to ? out : out.reverse()
 }
-async function osrm(points: Position[]) {
-  // Waypoints sampled along the mapped stretch keep the router on the byway rather than a faster parallel road.
-  const n = Math.min(10, points.length)
-  const sample = Array.from({ length: n }, (_, i) => points[Math.round((i * (points.length - 1)) / (n - 1))])
-  const url = `https://router.project-osrm.org/route/v1/driving/${sample.map((p) => `${p[0].toFixed(5)},${p[1].toFixed(5)}`).join(';')}?overview=false`
-  for (let i = 0; i < 5; i++) {
-    await sleep(1200)
-    const res = await fetch(url, { headers: UA })
-    if (res.ok) {
-      const d = await res.json()
-      if (d.code === 'Ok') return { minutes: Math.round(d.routes[0].duration / 60), routedMiles: round(d.routes[0].distance / 1609.344) }
-    }
-    await sleep(5000 * (i + 1))
+/**
+ * Drive time for a stretch from OSRM routing (OpenStreetMap data), accepted only when the route verifiably follows the byway:
+ * its distance must be within 10% of the mapped miles and its average speed 20–65 mph. Tries the plain start→end route first, then 1–3 intermediate waypoints
+ * on the byway. If nothing passes, returns null and the UI shows distance only. (OSRM's /match service was tried and rejected:
+ * on mountain roads the public server matched partial traces at a flat 9.3 mph.)
+ */
+async function osrm(points: Position[]): Promise<{ minutes: number | null; routedMiles: number | null }> {
+  const mapped = lengthOf(points)
+  const at = (f: number) => points[Math.round(f * (points.length - 1))]
+  for (const waypoints of [0, 1, 3]) {
+    const sample = [0, ...Array.from({ length: waypoints }, (_, i) => (i + 1) / (waypoints + 1)), 1].map(at)
+    const url = `https://router.project-osrm.org/route/v1/driving/${sample.map((p) => `${p[0].toFixed(5)},${p[1].toFixed(5)}`).join(';')}?overview=false&continue_straight=true`
+    const d = await politeJson(url)
+    if (d?.code !== 'Ok') continue
+    const miles = d.routes[0].distance / 1609.344
+    const mph = miles / (d.routes[0].duration / 3600)
+    // Distance alone can't catch a same-length detour onto a jeep road (San Juan Skyway matched at ~12 mph), so the average
+    // speed must also be plausible for a paved scenic road.
+    if (Math.abs(miles - mapped) / mapped <= 0.1 && mph >= 20 && mph <= 65)
+      return { minutes: Math.round(d.routes[0].duration / 60), routedMiles: round(miles) }
   }
-  throw new Error('OSRM unavailable')
+  console.warn(`  no plausible route (within 10% of ${round(mapped)} mi at 20–65 mph); publishing distance only`)
+  return { minutes: null, routedMiles: null }
 }
+
+/** One request every 1.5 s, backing off on throttling (the public server answers 429 or an HTML "too many requests" page). */
+async function politeJson(url: string) {
+  for (let attempt = 0; attempt < 6; attempt++) {
+    await sleep(1500)
+    try {
+      const res = await fetch(url, { headers: UA })
+      const text = await res.text()
+      if (res.ok && text.startsWith('{')) return JSON.parse(text)
+    } catch {
+      // network hiccup: fall through to back-off
+    }
+    await sleep(10000 * (attempt + 1))
+  }
+  throw new Error('OSRM unavailable after retries')
+}
+
 const townAt = (name: string) =>
   towns.find((t) => t.name === name) ??
   (() => {

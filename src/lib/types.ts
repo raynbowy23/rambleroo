@@ -70,6 +70,8 @@ export interface Photo {
   bywayId: string
   /** Story moment title this photo shows, if any. */
   moment?: string
+  /** Town on the byway's strip map this photo shows (the lead image of the town's Wikipedia article), if any. */
+  town?: string
   file: string
   width: number
   height: number

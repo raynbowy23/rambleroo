@@ -19,3 +19,14 @@ it('persists every model with a custom body and curated second ink', async () =>
     expect(useGarage.getState()).toMatchObject({ model, body: '#123456', accent: 'two-tone', accentColor: '#af96ca' })
   }
 })
+
+it('keeps drawn choices while switching to and from a persisted picture', async () => {
+  const garage = useGarage.getState()
+  garage.update({ model: 'wagon', roof: 'canoe', body: '#123456', picture: 'local-picture', usePicture: true })
+  await useGarage.persist.rehydrate()
+  expect(useGarage.getState()).toMatchObject({ picture: 'local-picture', usePicture: true, model: 'wagon', roof: 'canoe' })
+  garage.update({ usePicture: false })
+  expect(useGarage.getState()).toMatchObject({ picture: 'local-picture', model: 'wagon', body: '#123456', roof: 'canoe' })
+  garage.update({ picture: undefined, usePicture: false })
+  expect(useGarage.getState().picture).toBeUndefined()
+})

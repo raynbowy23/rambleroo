@@ -1,3 +1,4 @@
+import { loadCarPicture } from '../../lib/carPicture'
 import type { Map } from './maplibre'
 import { palette } from './style'
 import { createElement } from 'react'
@@ -44,9 +45,12 @@ export function addRouteArt(map: Map) {
   let disposed = false
   const refresh = async () => {
     const version = ++generation
+    const garage = useGarage.getState()
+    const pictureUrl = garage.usePicture && garage.picture ? await loadCarPicture(garage.picture).catch(() => undefined) : undefined
+    if (disposed || version !== generation) return
     const host = document.createElement('div')
     const root = createRoot(host)
-    flushSync(() => root.render(createElement(Vehicle, { ...useGarage.getState(), view: 'top', size: 60 })))
+    flushSync(() => root.render(createElement(Vehicle, { ...garage, pictureUrl, view: 'top', size: 60 })))
     const svg = new XMLSerializer().serializeToString(host.querySelector('svg')!)
     root.unmount()
     const url = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' }))
@@ -60,7 +64,12 @@ export function addRouteArt(map: Map) {
       canvas.height = 100
       const context = canvas.getContext('2d')
       if (!context) return
-      context.drawImage(image, 0, 0, 60, 100)
+      context.drawImage(image, 0, garage.usePicture && pictureUrl ? 20 : 0, 60, garage.usePicture && pictureUrl ? 60 : 100)
+      if (map.getLayer('route-car')) {
+        map.setLayoutProperty('route-car', 'icon-rotate', garage.usePicture ? 0 : ['get', 'bearing'])
+        map.setLayoutProperty('route-car', 'icon-rotation-alignment', garage.usePicture ? 'viewport' : 'map')
+        map.setLayoutProperty('route-car', 'icon-pitch-alignment', garage.usePicture ? 'viewport' : 'map')
+      }
       const pixels = context.getImageData(0, 0, 60, 100)
       if (map.hasImage('route-car')) map.updateImage('route-car', pixels)
       else map.addImage('route-car', pixels, { pixelRatio: 2 })

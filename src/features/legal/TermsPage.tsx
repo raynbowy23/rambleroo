@@ -50,6 +50,13 @@ export default function TermsPage() {
         Rambleroo’s own text, design and illustrations may not be reused commercially without permission.
       </p>
 
+      <p>
+        3D terrain uses{' '}
+        <a href="https://github.com/tilezen/joerd/blob/master/docs/attribution.md">
+          Mapzen Terrain Tiles on AWS Open Data (USGS, NOAA and others)
+        </a>
+        . Elevation is exaggerated to give the paper map a raised-relief appearance.
+      </p>
       <h2>Fair use of the service</h2>
       <p>Please don’t attempt to disrupt the site, overload it with automated requests, or use it to harm others.</p>
 

@@ -1,3 +1,4 @@
+import { loadCarPicture } from '../../lib/carPicture'
 import { firstPhoto } from '../../lib/data'
 import { createRoot } from 'react-dom/client'
 import { flushSync } from 'react-dom'
@@ -33,6 +34,8 @@ export async function renderBywayPostcard(byway: BywaySummary, story?: BywayStor
     if (!blob) throw new Error('Choose your photo before exporting this card.')
     ownUrl = await dataUrl(blob)
   }
+  const garage = useGarage.getState()
+  const pictureUrl = garage.usePicture && garage.picture ? await loadCarPicture(garage.picture) : undefined
   const host = document.createElement('div')
   host.style.cssText = 'position:fixed;left:-10000px;top:0;width:840px;pointer-events:none'
   host.inert = true
@@ -49,7 +52,8 @@ export async function renderBywayPostcard(byway: BywaySummary, story?: BywayStor
               story={story}
               photo={photo}
               choices={choices}
-              garage={useGarage.getState()}
+              garage={garage}
+              pictureUrl={pictureUrl}
               milestone={milestone}
               route={route}
               ownUrl={ownUrl}

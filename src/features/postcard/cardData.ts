@@ -25,6 +25,7 @@ export function milestones(data: StripData): Milestone[] {
     ...data.towns.map((town) => ({
       id: milestoneId(town.name),
       kind: 'town' as const,
+      photo: town.photo,
       name: town.name,
       mile: town.mile,
       on: town.on,

@@ -93,3 +93,13 @@ describe('strip geometry', () => {
     expect(mappedIntervals(route, 0, 6)).toEqual([[0, 5]])
   })
 })
+
+it('scales long roads and branches consistently and spaces mile posts', async () => {
+  const { pixelsPerMile, milePostInterval } = await import('./geometry')
+  expect(pixelsPerMile(469) * 469).toBeCloseTo(9000)
+  expect(pixelsPerMile(123, true) * 123).toBeCloseTo(7000)
+  expect(pixelsPerMile(49)).toBe(110)
+  expect(pixelsPerMile(1000, true)).toBe(18)
+  expect([110, 50, 18].map(milePostInterval)).toEqual([5, 10, 25])
+  expect(buildRibbon(straight, pixelsPerMile(469)).path(0, 20)).toContain(`,${20 * pixelsPerMile(469)}`)
+})

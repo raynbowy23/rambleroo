@@ -16,8 +16,9 @@ export interface Stretch {
   fromMile: number
   toMile: number
   mappedMiles: number
-  minutes: number
-  routedMiles: number
+  /** Routed drive time; null when no route could be verified to follow the byway (the UI then shows distance only). */
+  minutes: number | null
+  routedMiles: number | null
   scene: SceneFamily
   line: string
 }
@@ -30,7 +31,7 @@ export interface StripData {
   sources: { geometry: string; towns: string; driveTimes: string }
   main: StripPath
   branch?: StripPath & { joinsAtMile: number; name: string }
-  towns: { name: string; source: string; on: 'main' | 'branch'; mile: number; offRouteMiles: number; at: Coordinate }[]
+  towns: { photo?: Photo; name: string; source: string; on: 'main' | 'branch'; mile: number; offRouteMiles: number; at: Coordinate }[]
   moments: (StoryMoment & { on: 'main' | 'branch'; mile: number; offRouteMiles: number; at: Coordinate; photo?: Photo })[]
   stretches: Stretch[]
 }

@@ -104,6 +104,10 @@ describe('photos', () => {
     expect(p.licenseUrl).toMatch(/^https?:\/\//)
     expect(existsSync(new URL(`public${p.file}`, root))).toBe(true)
     expect(byId.has(p.bywayId)).toBe(true)
+    if (p.town) {
+      const strip = json<{ towns: { name: string }[] }>(`content/strips/${p.bywayId}.json`)
+      expect(strip.towns.map((t) => t.name)).toContain(p.town)
+    }
     if (p.moment) {
       const story = json<BywayStory>(`content/stories/${p.bywayId}.json`)
       expect(story.moments.map((m) => m.title)).toContain(p.moment)

@@ -177,7 +177,6 @@
 .town {
   position: absolute;
   width: calc(50% - 49px);
-  transform: translateY(-100%);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -657,4 +656,32 @@
   order: 2;
   width: 100%;
   overflow-wrap: anywhere;
+}
+
+.townPhoto {
+  position: relative;
+  width: 100%;
+  height: 72px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.townPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.leader {
+  position: absolute;
+  width: 35px;
+  border-top: 1px solid var(--ink-muted);
+  border-bottom: 0 solid var(--ink-muted);
+  pointer-events: none;
+}
+.left .leader {
+  left: 100%;
+  border-left: 1px solid var(--ink-muted);
+}
+.right .leader {
+  right: 100%;
+  border-right: 1px solid var(--ink-muted);
 }

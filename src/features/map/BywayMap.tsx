@@ -1,3 +1,4 @@
+import { ReliefControls } from './ReliefControls'
 import { useEffect, useRef, useState } from 'react'
 import maplibregl from './maplibre'
 import type { Map } from './maplibre'
@@ -91,6 +92,7 @@ export function BywayMap({
         style: createMapStyle(),
         center: [-98, 38],
         zoom: 3,
+        maxPitch: 70,
         attributionControl: false,
       })
     } catch {
@@ -233,6 +235,7 @@ export function BywayMap({
         <Compass size={70} />
       </div>
       <div data-map-decoration className={`${styles.controls} ${selected ? styles.selectedControls : ''}`}>
+        {ready && ref.current && <ReliefControls map={ref.current} roadId={selected?.id} />}
         <button className="btn btn-ghost" aria-label="Zoom in" onClick={() => ref.current?.zoomIn({ duration: enabled ? 250 : 0 })}>
           +
         </button>

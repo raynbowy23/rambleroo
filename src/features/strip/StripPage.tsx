@@ -10,7 +10,7 @@ import { useMotionEnabled } from '../../lib/motion'
 import type { BywaySummary, PostcardLook } from '../../lib/types'
 import { toast } from '../../components/ui/Toast'
 import { useStrip } from './data'
-import { buildRibbon, clamp, coordinateAtMile, googleMapsUrl, PIXELS_PER_MILE } from './geometry'
+import { buildRibbon, clamp, coordinateAtMile, googleMapsUrl, pixelsPerMile } from './geometry'
 import { InsetMap, type PositionSink } from './InsetMap'
 import { Ribbon } from './Ribbon'
 import type { Stretch, StripData } from './types'
@@ -53,6 +53,14 @@ export default function StripPage() {
 }
 function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary }) {
   const garage = useGarage()
+  const [phone, setPhone] = useState(() => window.innerWidth < 760)
+  useEffect(() => {
+    const query = window.matchMedia('(max-width: 759px)')
+    const update = () => setPhone(query.matches)
+    query.addEventListener('change', update)
+    return () => query.removeEventListener('change', update)
+  }, [])
+  const scale = pixelsPerMile(data.main.miles, phone)
   const [garageOpen, setGarageOpen] = useState(false)
   const [params, setParams] = useSearchParams()
   const selected = data.stretches.find((stretch) => stretch.id === params.get('stretch'))
@@ -72,7 +80,10 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
   const registerPosition = useCallback((sink: PositionSink | undefined) => {
     position.current = sink
   }, [])
-  const geometry = useMemo(() => ({ main: buildRibbon(data.main), branch: data.branch ? buildRibbon(data.branch) : undefined }), [data])
+  const geometry = useMemo(
+    () => ({ main: buildRibbon(data.main, scale), branch: data.branch ? buildRibbon(data.branch, scale) : undefined }),
+    [data, scale],
+  )
   useEffect(() => {
     if (selected) panel.current?.focus({ preventScroll: true })
   }, [selected])
@@ -100,14 +111,14 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       const route = on === 'main' ? data.main : data.branch!
       const from = Number(active.element.dataset.from),
         to = Number(active.element.dataset.to)
-      const mile = clamp(from + (middle - active.rect.top) / PIXELS_PER_MILE, from, to)
+      const mile = clamp(from + (middle - active.rect.top) / scale, from, to)
       const inGap = !!route.gaps?.some((gap) => mile > gap.atMile && mile < gap.atMile + gap.miles)
       if (counter.current)
         counter.current.textContent = `${on === 'branch' ? 'Tip · mile' : 'Mile'} ${mile.toFixed(1)} of ${route.miles.toFixed(1)}${inGap ? ' · unmapped' : ''}`
       const ribbon = geometry[on]!
       if (car.current) {
-        const angle = (Math.atan2(ribbon.offset(mile + 0.05) - ribbon.offset(mile - 0.05), 0.1 * PIXELS_PER_MILE) * 180) / Math.PI
-        car.current.style.transform = `translate(${active.rect.left + active.rect.width / 2 + ribbon.offset(mile) - 15}px, ${active.rect.top + (mile - from) * PIXELS_PER_MILE - 26}px) rotate(${180 - angle}deg)`
+        const angle = (Math.atan2(ribbon.offset(mile + 0.05) - ribbon.offset(mile - 0.05), 0.1 * scale) * 180) / Math.PI
+        car.current.style.transform = `translate(${active.rect.left + active.rect.width / 2 + ribbon.offset(mile) - 15}px, ${active.rect.top + (mile - from) * scale - (garage.usePicture ? 15 : 26)}px) rotate(${garage.usePicture ? 0 : 180 - angle}deg)`
         car.current.style.opacity = active.rect.top <= middle && active.rect.bottom >= middle ? (inGap ? '0.35' : '1') : '0'
       }
       position.current?.(coordinateAtMile(route, mile), inGap)
@@ -126,7 +137,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       window.removeEventListener('scroll', schedule)
       window.removeEventListener('resize', schedule)
     }
-  }, [data, geometry, tipOpen])
+  }, [data, geometry, tipOpen, scale, garage.usePicture])
   const select = (stretch: Stretch) => {
     trigger.current = document.activeElement as HTMLElement
     setParams(
@@ -150,7 +161,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       const sections = [...(ribbonArea.current?.querySelectorAll<HTMLElement>(`[data-ribbon="${stretch.on}"]`) ?? [])]
       const section = sections.find((el) => Number(el.dataset.from) <= stretch.fromMile && stretch.fromMile <= Number(el.dataset.to))
       if (!section) return
-      const top = section.getBoundingClientRect().top + window.scrollY + (stretch.fromMile - Number(section.dataset.from)) * PIXELS_PER_MILE
+      const top = section.getBoundingClientRect().top + window.scrollY + (stretch.fromMile - Number(section.dataset.from)) * scale
       window.scrollTo({ top: Math.max(0, top - window.innerHeight / 2), behavior: motion ? 'smooth' : 'auto' })
     })
     return () => cancelAnimationFrame(frame)
@@ -182,7 +193,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
     ...data.stretches.map((stretch) => ({
       on: stretch.on,
       mile: stretch.fromMile,
-      label: `${stretch.title}, stretch to mile ${stretch.toMile}, about ${stretch.minutes} minutes driving`,
+      label: `${stretch.title}, stretch to mile ${stretch.toMile}${stretch.minutes === null ? '' : `, about ${stretch.minutes} minutes driving`}`,
     })),
   ].sort((a, b) => {
     const section = (entry: { on: string; mile: number }) =>
@@ -199,6 +210,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       to={to}
       season={season}
       geometry={geometry[on]!}
+      scale={scale}
       selected={selected}
       select={select}
     />
@@ -342,9 +354,14 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
           <h2>{selected.title}</h2>
           <p>{selected.line}</p>
           <strong>
-            ≈ {selected.mappedMiles} mi · about {selected.minutes} min driving
+            ≈ {selected.mappedMiles} mi
+            {selected.minutes === null ? ' · drive time not verified for this stretch' : ` · about ${selected.minutes} min driving`}
           </strong>
-          <small>Drive time routed with OpenStreetMap data (OSRM); excludes stops and traffic.</small>
+          <small>
+            {selected.minutes === null
+              ? 'We could not confirm a route that follows this exact stretch, so we show the mapped distance only.'
+              : 'Drive time routed with OpenStreetMap data (OSRM); excludes stops and traffic.'}
+          </small>
           <div className={s.panelActions}>
             <a
               className="btn btn-primary"

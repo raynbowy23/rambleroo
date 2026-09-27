@@ -1,9 +1,34 @@
+import { useId } from 'react'
+import { useCarPicture } from '../../lib/carPicture'
 import { defaultGarage, type Garage } from '../../lib/garage'
 
-export type VehicleProps = Partial<Garage> & { view: 'top' | 'side'; size?: number }
+export type VehicleProps = Partial<Garage> & { view: 'top' | 'side'; size?: number; pictureUrl?: string }
 /** Flat inks and a shared silhouette keep the map icon and printed car identical. */
-export function Vehicle({ view, size = 120, ...choices }: VehicleProps) {
+export function Vehicle({ view, size = 120, pictureUrl, ...choices }: VehicleProps) {
   const { model, body, accent, accentColor, roof, plate } = { ...defaultGarage, ...choices }
+  const clip = useId()
+  const storedPicture = useCarPicture(choices.usePicture && !pictureUrl ? choices.picture : undefined)
+  const picture = pictureUrl ?? storedPicture
+  if (choices.usePicture && picture)
+    return (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        width={size}
+        height={size}
+        role="img"
+        aria-label="Your car picture"
+        data-vehicle="picture"
+      >
+        <defs>
+          <clipPath id={clip}>
+            <circle cx="50" cy="50" r="43" />
+          </clipPath>
+        </defs>
+        <circle cx="50" cy="50" r="48" fill="#fbf5e6" stroke="#2b2a26" strokeWidth="1.5" />
+        <image href={picture} x="7" y="7" width="86" height="86" clipPath={`url(#${clip})`} />
+      </svg>
+    )
   const top = view === 'top'
   const bike = model === 'motorcycle'
   const bus = model === 'camper'

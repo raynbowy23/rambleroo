@@ -1,3 +1,5 @@
+import { ReliefControls } from '../../features/map/ReliefControls'
+import { isTerrainError } from '../../features/map/terrain'
 import { useEffect, useRef, useState } from 'react'
 import maplibre from '../../features/map/maplibre'
 import { createMapStyle, palette } from '../../features/map/style'
@@ -48,6 +50,7 @@ export function RouteMap({
   const storyBounds = useRef<[number, number, number, number] | null>(null)
   const mapRef = useRef<maplibre.Map | null>(null)
   const [wholeRoute, setWholeRoute] = useState(false)
+  const [ready, setReady] = useState(false)
   const [failed, setFailed] = useState(false)
   // Value keys keep maps alive when unrelated form/store state changes.
   const key = JSON.stringify({ ids: byways.map((b) => b.id), bbox, emphasized, visited, saved, moments })
@@ -66,6 +69,7 @@ export function RouteMap({
         container: container.current,
         style: createMapStyle(),
         interactive: true,
+        maxPitch: 70,
         cooperativeGestures: navigator.maxTouchPoints > 0,
         scrollZoom: false,
         attributionControl: false,
@@ -75,7 +79,9 @@ export function RouteMap({
       // Start over the requested chapter before asynchronous sources finish loading.
       current.fitBounds(bbox ?? unionBounds(byways), { padding: 40, maxZoom: 11, duration: 0 })
       current.addControl(new maplibre.AttributionControl({ compact: true, customAttribution: 'Natural Earth · USDOT' }))
-      current.on('error', fail)
+      current.on('error', (event) => {
+        if (!isTerrainError(event)) fail()
+      })
       current.on('load', () => {
         void loadBywayGeometry()
           .then((data) => {
@@ -150,6 +156,7 @@ export function RouteMap({
             storyBounds.current = bounds
             current.resize()
             current.fitBounds(bounds, { padding: 50, maxZoom: 11, duration: 0 })
+            setReady(true)
             markers.current = []
             moments.forEach((moment, index) => {
               if (!moment.at) return
@@ -185,6 +192,7 @@ export function RouteMap({
       disposed = true
       cancelAnimationFrame(frame)
       cancelAnimationFrame(mountFrame)
+      setReady(false)
       mapRef.current = null
       storyBounds.current = null
       observer?.disconnect()
@@ -218,6 +226,11 @@ export function RouteMap({
           </button>
         )}
       </div>
+      {ready && mapRef.current && (
+        <div className={s.reliefControls}>
+          <ReliefControls map={mapRef.current} roadId={byways.length === 1 && !visited ? byways[0].id : undefined} fly />
+        </div>
+      )}
       {visited && (
         <div className={s.legend}>
           <span>

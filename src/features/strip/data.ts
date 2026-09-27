@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import photoData from '../../../content/photos.json'
+import type { Photo } from '../../lib/types'
 import type { StripData } from './types'
 
 let indexPromise: Promise<string[]> | undefined
@@ -10,6 +12,11 @@ export function loadStripIndex() {
     return ids as string[]
   }))
 }
+/** Town photos live in the photo registry (content/photos.json, `town` field), so reviewed additions show up without rebuilding strips. */
+function withTownPhotos(data: StripData): StripData {
+  const photos = (photoData as Photo[]).filter((photo) => photo.bywayId === data.bywayId && photo.town)
+  return { ...data, towns: data.towns.map((town) => ({ ...town, photo: town.photo ?? photos.find((photo) => photo.town === town.name) })) }
+}
 const cache = new Map<string, Promise<StripData | undefined>>()
 export function loadStrip(id: string) {
   if (!cache.has(id)) {
@@ -19,7 +26,7 @@ export function loadStrip(id: string) {
         if (!ids.includes(id)) return undefined
         const response = await fetch(`/data/strips/${encodeURIComponent(id)}.json`)
         if (!response.ok) throw new Error('This strip map could not be loaded. Please refresh to try again.')
-        return response.json() as Promise<StripData>
+        return withTownPhotos((await response.json()) as StripData)
       }),
     )
   }

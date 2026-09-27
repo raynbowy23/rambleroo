@@ -1,0 +1,66 @@
+{
+  "bywayId": "blue-ridge-parkway-2280",
+  "reviewed": false,
+  "title": "Blue Ridge Parkway",
+  "direction": "Runs south from Rockfish Gap near Waynesboro, Virginia, along the Blue Ridge to Cherokee, North Carolina, at the edge of the Great Smoky Mountains.",
+  "towns": [
+    {
+      "name": "Waynesboro",
+      "wikipedia": "Waynesboro, Virginia"
+    },
+    {
+      "name": "Meadows of Dan",
+      "wikipedia": "Meadows of Dan, Virginia"
+    },
+    {
+      "name": "Blowing Rock",
+      "wikipedia": "Blowing Rock, North Carolina"
+    },
+    {
+      "name": "Little Switzerland",
+      "wikipedia": "Little Switzerland, North Carolina"
+    },
+    {
+      "name": "Asheville",
+      "wikipedia": "Asheville, North Carolina"
+    },
+    {
+      "name": "Cherokee",
+      "wikipedia": "Cherokee, North Carolina"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "mill-country",
+      "title": "Mill country",
+      "from": "Meadows of Dan",
+      "to": "Blowing Rock",
+      "scene": "mountain",
+      "line": "Rolling Blue Ridge farmland, with Mabry Mill near the start."
+    },
+    {
+      "id": "around-grandfather",
+      "title": "Around Grandfather Mountain",
+      "from": "Blowing Rock",
+      "to": "Little Switzerland",
+      "scene": "mountain",
+      "line": "Includes the Linn Cove Viaduct on the slope of Grandfather Mountain."
+    },
+    {
+      "id": "the-craggies",
+      "title": "The Craggies",
+      "from": "Little Switzerland",
+      "to": "Asheville",
+      "scene": "mountain",
+      "line": "High, open summits north of Asheville."
+    },
+    {
+      "id": "into-the-smokies",
+      "title": "Into the Smokies",
+      "from": "Asheville",
+      "to": "Cherokee",
+      "scene": "forest",
+      "line": "The highest miles of the parkway, ending at the Smokies."
+    }
+  ]
+}

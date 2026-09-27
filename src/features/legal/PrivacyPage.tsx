@@ -41,10 +41,10 @@ export default function PrivacyPage() {
       </p>
 
       <p>
-        Your car choices and postcard customizations are stored locally, like your passport. Photos you add to postcards stay in this
-        browser’s storage (IndexedDB) and are never uploaded by Rambleroo. They are not included in the passport export file; card
-        customizations are also excluded. Clearing the passport can also remove your added photos. Clearing site data removes them too. If
-        you choose to share or download a postcard image, that image includes the photo you selected.
+        Your car choices and postcard customizations are stored locally, like your passport. Your car picture and photos you add to
+        postcards stay in this browser’s storage (IndexedDB) and are never uploaded by Rambleroo. They are not included in the passport
+        export file; card customizations are also excluded. Clearing the passport can also remove your added photos. Clearing site data
+        removes them too. If you choose to share or download a postcard image, that image includes the photo you selected.
       </p>
 
       <h2>What reaches our server</h2>
@@ -54,6 +54,12 @@ export default function PrivacyPage() {
         with anything else or use them to profile anyone.
       </p>
 
+      <p>
+        When you turn on 3D, your browser loads elevation tiles directly from Amazon Web Services’ public open-data storage. These requests
+        reveal roughly which map area you are viewing, along with standard network request information such as your IP address. Rambleroo
+        sends no saved journeys, notes or pictures with them. The 3D preference is saved in this browser; turning it off stops elevation
+        requests.
+      </p>
       <h2>When you choose to leave Rambleroo</h2>
       <p>
         Some actions open another service, which then handles your information under its own policy: “Drive this stretch” and directions

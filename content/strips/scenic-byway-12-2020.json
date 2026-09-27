@@ -1,0 +1,58 @@
+{
+  "bywayId": "scenic-byway-12-2020",
+  "reviewed": false,
+  "title": "Scenic Byway 12",
+  "direction": "Runs east from US-89 near Red Canyon through canyon country, then north over Boulder Mountain to Torrey.",
+  "towns": [
+    {
+      "name": "Tropic",
+      "wikipedia": "Tropic, Utah"
+    },
+    {
+      "name": "Cannonville",
+      "wikipedia": "Cannonville, Utah"
+    },
+    {
+      "name": "Henrieville",
+      "wikipedia": "Henrieville, Utah"
+    },
+    {
+      "name": "Escalante",
+      "wikipedia": "Escalante, Utah"
+    },
+    {
+      "name": "Boulder",
+      "wikipedia": "Boulder, Utah"
+    },
+    {
+      "name": "Torrey",
+      "wikipedia": "Torrey, Utah"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "canyon-country",
+      "title": "Canyon country",
+      "from": "Tropic",
+      "to": "Escalante",
+      "scene": "desert",
+      "line": "Small towns strung along the road through red and white rock country."
+    },
+    {
+      "id": "the-hogback",
+      "title": "The Hogback",
+      "from": "Escalante",
+      "to": "Boulder",
+      "scene": "desert",
+      "line": "The stretch that includes the narrow ridge with drop-offs on both sides."
+    },
+    {
+      "id": "over-boulder-mountain",
+      "title": "Over Boulder Mountain",
+      "from": "Boulder",
+      "to": "Torrey",
+      "scene": "forest",
+      "line": "A climb into forest and back down toward Capitol Reef country."
+    }
+  ]
+}

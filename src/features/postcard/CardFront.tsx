@@ -57,10 +57,11 @@ export interface CardFrontProps {
   garage: Garage
   milestone?: Milestone
   route?: CardRoute
+  pictureUrl?: string
   ownUrl?: string
 }
 /** One SVG composition is used both live and in the exported PNG. */
-export function CardFront({ byway, story, photo, choices, garage, milestone, route, ownUrl }: CardFrontProps) {
+export function CardFront({ byway, story, photo, choices, garage, milestone, route, ownUrl, pictureUrl }: CardFrontProps) {
   const credit = creditedPhoto(choices, photo)
   const url = credit ? photoPath(credit) : choices.front === 'own' ? ownUrl : undefined
   const look = { ...byway.look, lettering: choices.lettering === 'off' ? byway.look.lettering : choices.lettering }
@@ -115,11 +116,11 @@ export function CardFront({ byway, story, photo, choices, garage, milestone, rou
       {choices.car &&
         (milestone && inset ? (
           <g transform={`translate(${inset.position[0] - 7} ${inset.position[1] - 12})`}>
-            <Vehicle {...garage} view="top" size={14} />
+            <Vehicle {...garage} pictureUrl={pictureUrl} view="top" size={14} />
           </g>
         ) : (
           <g transform="translate(20 191)">
-            <Vehicle {...garage} view="side" size={110} />
+            <Vehicle {...garage} pictureUrl={pictureUrl} view="side" size={110} />
           </g>
         ))}
     </svg>

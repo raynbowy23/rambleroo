@@ -1,0 +1,91 @@
+{
+  "bywayId": "great-river-road-2279",
+  "reviewed": false,
+  "title": "Great River Road (Wisconsin)",
+  "direction": "The Wisconsin section of the Great River Road, running south along the Mississippi from Prescott to the Illinois line.",
+  "towns": [
+    {
+      "name": "Prescott",
+      "wikipedia": "Prescott, Wisconsin"
+    },
+    {
+      "name": "Maiden Rock",
+      "wikipedia": "Maiden Rock, Wisconsin"
+    },
+    {
+      "name": "Stockholm",
+      "wikipedia": "Stockholm, Wisconsin"
+    },
+    {
+      "name": "Pepin",
+      "wikipedia": "Pepin, Wisconsin"
+    },
+    {
+      "name": "Alma",
+      "wikipedia": "Alma, Wisconsin"
+    },
+    {
+      "name": "Fountain City",
+      "wikipedia": "Fountain City, Wisconsin"
+    },
+    {
+      "name": "Trempealeau",
+      "wikipedia": "Trempealeau, Wisconsin"
+    },
+    {
+      "name": "Genoa",
+      "wikipedia": "Genoa, Wisconsin"
+    },
+    {
+      "name": "De Soto",
+      "wikipedia": "De Soto, Wisconsin"
+    },
+    {
+      "name": "Prairie du Chien",
+      "wikipedia": "Prairie du Chien, Wisconsin"
+    },
+    {
+      "name": "Cassville",
+      "wikipedia": "Cassville, Wisconsin"
+    },
+    {
+      "name": "Potosi",
+      "wikipedia": "Potosi, Wisconsin"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "lake-pepin",
+      "title": "Along Lake Pepin",
+      "from": "Maiden Rock",
+      "to": "Pepin",
+      "scene": "river",
+      "line": "The river widens into Lake Pepin beside the road."
+    },
+    {
+      "id": "lock-and-dam-towns",
+      "title": "Lock and dam towns",
+      "from": "Alma",
+      "to": "Trempealeau",
+      "scene": "river",
+      "line": "River towns between the bluffs, with locks on the Mississippi."
+    },
+    {
+      "id": "driftless-bluffs",
+      "title": "Driftless bluffs",
+      "from": "Genoa",
+      "to": "Prairie du Chien",
+      "scene": "river",
+      "line": "Bluffs and backwaters in the unglaciated Driftless Area."
+    },
+    {
+      "id": "south-to-potosi",
+      "title": "South to Potosi",
+      "from": "Cassville",
+      "to": "Potosi",
+      "scene": "town",
+      "line": "The southern end of the Wisconsin section."
+    }
+  ],
+  "clipToState": "WI"
+}

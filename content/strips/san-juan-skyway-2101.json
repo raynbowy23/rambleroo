@@ -1,0 +1,74 @@
+{
+  "bywayId": "san-juan-skyway-2101",
+  "reviewed": false,
+  "title": "San Juan Skyway",
+  "direction": "A loop from Durango: north over the passes to Silverton and Ouray, west toward Telluride, then south through Rico and Dolores and back east.",
+  "towns": [
+    {
+      "name": "Silverton",
+      "wikipedia": "Silverton, Colorado"
+    },
+    {
+      "name": "Ouray",
+      "wikipedia": "Ouray, Colorado"
+    },
+    {
+      "name": "Ridgway",
+      "wikipedia": "Ridgway, Colorado"
+    },
+    {
+      "name": "Placerville",
+      "wikipedia": "Placerville, Colorado"
+    },
+    {
+      "name": "Rico",
+      "wikipedia": "Rico, Colorado"
+    },
+    {
+      "name": "Dolores",
+      "wikipedia": "Dolores, Colorado"
+    },
+    {
+      "name": "Cortez",
+      "wikipedia": "Cortez, Colorado"
+    },
+    {
+      "name": "Mancos",
+      "wikipedia": "Mancos, Colorado"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "silverton-to-ouray",
+      "title": "Silverton to Ouray",
+      "from": "Silverton",
+      "to": "Ouray",
+      "scene": "mountain",
+      "line": "The high passes between two mining towns. Narrow and steep."
+    },
+    {
+      "id": "toward-telluride",
+      "title": "Toward Telluride",
+      "from": "Ridgway",
+      "to": "Rico",
+      "scene": "mountain",
+      "line": "From ranch country up the San Miguel valley and over to Rico."
+    },
+    {
+      "id": "dolores-river",
+      "title": "Down the Dolores",
+      "from": "Rico",
+      "to": "Dolores",
+      "scene": "forest",
+      "line": "Following the Dolores River down out of the mountains."
+    },
+    {
+      "id": "mesa-country",
+      "title": "Mesa country",
+      "from": "Cortez",
+      "to": "Mancos",
+      "scene": "desert",
+      "line": "Open mesa country on the way back toward Durango."
+    }
+  ]
+}

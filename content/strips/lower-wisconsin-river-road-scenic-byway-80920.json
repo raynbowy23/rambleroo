@@ -1,0 +1,58 @@
+{
+  "bywayId": "lower-wisconsin-river-road-scenic-byway-80920",
+  "reviewed": false,
+  "title": "Lower Wisconsin River Road",
+  "direction": "Runs west from Sauk Prairie along the Wisconsin River valley to its meeting with the Mississippi at Prairie du Chien.",
+  "towns": [
+    {
+      "name": "Sauk City",
+      "wikipedia": "Sauk City, Wisconsin"
+    },
+    {
+      "name": "Spring Green",
+      "wikipedia": "Spring Green, Wisconsin"
+    },
+    {
+      "name": "Lone Rock",
+      "wikipedia": "Lone Rock, Wisconsin"
+    },
+    {
+      "name": "Muscoda",
+      "wikipedia": "Muscoda, Wisconsin"
+    },
+    {
+      "name": "Boscobel",
+      "wikipedia": "Boscobel, Wisconsin"
+    },
+    {
+      "name": "Prairie du Chien",
+      "wikipedia": "Prairie du Chien, Wisconsin"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "sauk-to-spring-green",
+      "title": "Sauk Prairie to Spring Green",
+      "from": "Sauk City",
+      "to": "Spring Green",
+      "scene": "river",
+      "line": "Farm country and bluffs as the valley widens west of Sauk City."
+    },
+    {
+      "id": "river-towns",
+      "title": "River towns",
+      "from": "Spring Green",
+      "to": "Boscobel",
+      "scene": "river",
+      "line": "Small towns along the free-flowing middle of the river."
+    },
+    {
+      "id": "to-the-mississippi",
+      "title": "To the Mississippi",
+      "from": "Boscobel",
+      "to": "Prairie du Chien",
+      "scene": "river",
+      "line": "The last miles to where the Wisconsin meets the Mississippi."
+    }
+  ]
+}

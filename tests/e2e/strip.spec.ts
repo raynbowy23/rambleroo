@@ -17,11 +17,15 @@ test('unrolls from the byway page and drives as the page scrolls', async ({ page
 })
 
 test('selects, shares a URL and saves Bay villages to the passport', async ({ page }) => {
+  const strip = await (await page.request.get(`/data/strips/${id}.json`)).json()
+  const bay = strip.stretches.find((stretch: { id: string }) => stretch.id === 'bay-villages')
   await page.goto(route)
   await page.getByRole('navigation', { name: 'Choose a stretch' }).getByRole('button', { name: 'Bay villages' }).click()
   const card = page.getByRole('region', { name: 'Bay villages stretch' })
   await expect(card).toBeVisible()
-  await expect(card.getByText('≈ 15.8 mi · about 31 min driving')).toBeVisible()
+  // Stretches without a verified route show distance only.
+  const timing = bay.minutes === null ? 'drive time not verified for this stretch' : `about ${bay.minutes} min driving`
+  await expect(card.getByText(`≈ ${bay.mappedMiles} mi · ${timing}`)).toBeVisible()
   await expect(page).toHaveURL(/stretch=bay-villages/)
   const href = await card.getByRole('link', { name: 'Drive this stretch' }).getAttribute('href')
   expect(new URL(href!).searchParams.get('waypoints')?.split('|')).toHaveLength(3)
@@ -61,6 +65,7 @@ test('fits a 390px screen, including the expanded tip and selected card', async 
 })
 
 test('a road without strip data offers a way back', async ({ page }) => {
+  await page.route('**/data/strips/index.json', (route) => route.fulfill({ json: [] }))
   await page.goto('/byway/great-river-road-2279/strip')
   await expect(page.getByRole('heading', { name: 'No strip map for this road yet' })).toBeVisible()
   await expect(page.getByRole('link', { name: 'Back to the road' })).toHaveAttribute('href', '/byway/great-river-road-2279')
@@ -120,4 +125,22 @@ test('choosing a stretch drives to its first mile', async ({ page }) => {
     .poll(async () => Number((await counter.textContent())?.match(/Mile ([\d.]+)/)?.[1] ?? 0), { timeout: 5000 })
     .toBeGreaterThan(32)
   expect(Number((await counter.textContent())?.match(/Mile ([\d.]+)/)?.[1])).toBeLessThan(35.5)
+})
+
+test('Blue Ridge stays compact and jumps to Into the Smokies', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 800 })
+  const id = 'blue-ridge-parkway-2280'
+  const response = await page.request.get(`/data/strips/${id}.json`)
+  const data = await response.json()
+  const stretch = data.stretches.find((entry: { title: string }) => entry.title === 'Into the Smokies')
+  expect(stretch).toBeTruthy()
+  await page.goto(`/byway/${id}/strip`)
+  await expect(page.getByRole('heading', { name: data.title, exact: true })).toBeVisible()
+  expect(await page.evaluate(() => document.documentElement.scrollHeight)).toBeLessThan(16000)
+  await page.getByRole('navigation', { name: 'Choose a stretch' }).getByRole('button', { name: 'Into the Smokies' }).click()
+  await expect
+    .poll(async () =>
+      Math.abs(Number((await page.getByTestId('mile-counter').textContent())?.match(/Mile ([\d.]+)/)?.[1]) - stretch.fromMile),
+    )
+    .toBeLessThan(2)
 })
