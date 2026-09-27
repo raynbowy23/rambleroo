@@ -267,7 +267,7 @@ export function BywayMap({
               aria-hidden="true"
               style={{ color: `var(--map-${stroke.color}, var(--${stroke.color}))` }}
             >
-              <path d={stroke.path} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M1 8H31" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
             </svg>
             {stroke.label}
           </span>

@@ -23,6 +23,10 @@
   --rust-2: #5a6844;
   --rust-tint: #dde2d0;
   --signal: #d95f1e;
+  /* MA-1 rescue-orange lining for primary actions: always paired with --ink text (5.5:1; white would fail at 2.9:1). */
+  --lining: #ee7430;
+  --lining-hover: #e8622a;
+  --lining-edge: #c9591d;
   --signal-text: #a8440f;
   --gold: #b8913e;
 

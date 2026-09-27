@@ -118,12 +118,13 @@ svg {
   transform: translateY(1px) scale(0.98);
 }
 .btn-primary {
-  background: var(--rust);
-  color: var(--paper);
+  background: var(--lining);
+  color: var(--ink);
+  border-color: var(--lining-edge);
   box-shadow: var(--shadow-1);
 }
 .btn-primary:hover {
-  background: #2f3824;
+  background: var(--lining-hover);
 }
 .btn-secondary {
   background: transparent;

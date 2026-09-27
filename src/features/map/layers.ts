@@ -30,7 +30,6 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
   ]
   addRouteArt(map)
   const round = { 'line-cap': 'round', 'line-join': 'round' } as const
-  const patternWidth: ExpressionSpecification = ['interpolate', ['linear'], ['zoom'], 2, 3.5, 5, 5.5, 8, 8]
   map.addSource('byways', { type: 'geojson', data, promoteId: 'id' })
   map.addLayer({
     id: 'byway-casing',
@@ -44,6 +43,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
       'line-opacity': ['interpolate', ['linear'], ['zoom'], 7, 0.8, 8, 0],
     },
   })
+  // Solid, colour-coded lines at every zoom: patterned strokes broke up into dashes at the national view.
   map.addLayer({
     id: 'byway-lines',
     type: 'line',
@@ -51,44 +51,11 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     maxzoom: 8,
     layout: round,
     paint: {
-      'line-pattern': [
-        'match',
-        ['get', 'scene'],
-        ['river', 'coast'],
-        'route-water',
-        'mountain',
-        'route-mountain',
-        'forest',
-        'route-forest',
-        'desert',
-        'route-desert',
-        'prairie',
-        'route-prairie',
-        'route-stitch',
-      ],
-      'line-width': patternWidth,
+      'line-color': color,
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1.8, 5, 2.8, 8, 4.2],
       'line-opacity': ['interpolate', ['linear'], ['zoom'], 7, 1, 8, 0],
     },
   })
-  // Keep a cheap, family-specific alternative available for profiling low-end devices.
-  if (import.meta.env.DEV && new URLSearchParams(location.search).get('mapStrokes') === 'dash') {
-    map.setPaintProperty('byway-lines', 'line-pattern', undefined)
-    map.setPaintProperty('byway-lines', 'line-color', color)
-    map.setPaintProperty('byway-lines', 'line-width', ['interpolate', ['linear'], ['zoom'], 2, 1.3, 8, 3])
-    map.setPaintProperty('byway-lines', 'line-dasharray', [
-      'match',
-      ['get', 'scene'],
-      ['river', 'coast'],
-      ['literal', [4, 1]],
-      'mountain',
-      ['literal', [2, 1]],
-      'forest',
-      ['literal', [3, 1, 1, 1]],
-      'desert',
-      ['literal', [1, 2, 0.2, 2]],
-      ['literal', [2, 2]],
-    ])
-  }
   for (const [id, color, width] of [
     ['byway-road-outline', c('ink'), 8],
     ['byway-road-fill', c('terrain'), 5.5],
@@ -104,7 +71,6 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
         'line-color': color,
         'line-width': ['interpolate', ['linear'], ['zoom'], 7, width * 0.65, 10, width, 14, width * 1.6],
         'line-opacity': ['interpolate', ['linear'], ['zoom'], 7, 0, 8, 1],
-        ...(id === 'byway-road-center' ? { 'line-dasharray': [3, 3] } : {}),
       },
     })
   }

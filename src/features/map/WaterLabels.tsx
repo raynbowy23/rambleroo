@@ -5,7 +5,7 @@ import s from './Map.module.css'
 const labels: { name: string; at: [number, number] }[] = [
   { name: 'PACIFIC OCEAN', at: [-130, 37] },
   { name: 'ATLANTIC OCEAN', at: [-65, 34] },
-  { name: 'GULF OF MEXICO', at: [-90, 25] },
+  { name: 'GULF OF AMERICA', at: [-90, 25] },
   { name: 'LAKE SUPERIOR', at: [-88, 47.6] },
   { name: 'LAKE MICHIGAN', at: [-87.1, 43.8] },
 ]

@@ -3,6 +3,7 @@ import { Link, useParams, useSearchParams } from 'react-router'
 import { useByway, useStory } from '../../lib/data'
 import { Scene } from '../../components/art'
 import { usePassport } from '../../lib/passport'
+import { useMotionEnabled } from '../../lib/motion'
 import type { BywaySummary, PostcardLook } from '../../lib/types'
 import { toast } from '../../components/ui/Toast'
 import { useStrip } from './data'
@@ -132,6 +133,25 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       { preventScrollReset: true },
     )
   }
+  // Choosing a stretch drives there: scroll so the car sits at the stretch's first mile. Runs after render so the tip
+  // section exists when a tip stretch opens it, and also when a shared link arrives with ?stretch= already set.
+  const motion = useMotionEnabled()
+  const selectedId = selected?.id
+  useEffect(() => {
+    if (!selectedId) return
+    const stretch = data.stretches.find((entry) => entry.id === selectedId)
+    if (!stretch) return
+    const frame = requestAnimationFrame(() => {
+      const sections = [...(ribbonArea.current?.querySelectorAll<HTMLElement>(`[data-ribbon="${stretch.on}"]`) ?? [])]
+      const section = sections.find((el) => Number(el.dataset.from) <= stretch.fromMile && stretch.fromMile <= Number(el.dataset.to))
+      if (!section) return
+      const top = section.getBoundingClientRect().top + window.scrollY + (stretch.fromMile - Number(section.dataset.from)) * PIXELS_PER_MILE
+      window.scrollTo({ top: Math.max(0, top - window.innerHeight / 2), behavior: motion ? 'smooth' : 'auto' })
+    })
+    return () => cancelAnimationFrame(frame)
+    // Jump only when the chosen stretch changes, not on every scroll-driven re-render.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedId])
   const close = () => {
     setParams(
       (previous) => {
@@ -269,7 +289,13 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
           renderRibbon('main', 0, data.main.miles)
         )}
         <div className={s.finish}>
-          <span aria-hidden="true">✺</span>
+          {/* Finish flag (replaces a star glyph that read like an assistant's logo). */}
+          <svg className={s.finishFlag} viewBox="0 0 40 40" width="40" height="40" aria-hidden="true">
+            <path d="M9 36V5" stroke="var(--ink)" strokeWidth="2.4" strokeLinecap="round" />
+            <path d="M10 6h24l-5 8 5 8H10Z" fill="var(--card)" stroke="var(--ink)" strokeWidth="1.6" strokeLinejoin="round" />
+            <path d="M10 6h6v4h-6Zm12 0h6v4h-6ZM16 10h6v4h-6Zm12 0h4l-2 4h-2ZM10 14h6v4h-6Zm12 0h6l1 2-1 2h-6ZM16 18h6v4h-6Zm12 0h3l1 4h-4Z" fill="var(--ink)" />
+            <circle cx="9" cy="36" r="2.6" fill="var(--signal)" />
+          </svg>
           <h2>End of the mapped byway</h2>
           {lastTown && (
             <p>

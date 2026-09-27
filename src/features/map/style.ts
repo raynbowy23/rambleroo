@@ -47,7 +47,7 @@ export function createMapStyle(): StyleSpecification {
         id: 'states',
         type: 'line',
         source: 'states',
-        paint: { 'line-color': c('line-strong'), 'line-width': 0.8, 'line-dasharray': [5, 2, 1, 2] },
+        paint: { 'line-color': c('line-strong'), 'line-width': 0.8 },
       },
     ],
   }

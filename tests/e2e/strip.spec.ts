@@ -110,3 +110,14 @@ test('header tagline stays on one line', async ({ page }) => {
   )
   expect(box!.height).toBeLessThan(lineHeight * 1.6)
 })
+
+test('choosing a stretch drives to its first mile', async ({ page }) => {
+  await page.goto('/byway/door-county-coastal-byway-81450/strip')
+  const counter = page.locator('output').first()
+  await page.getByRole('navigation', { name: 'Choose a stretch' }).getByRole('button', { name: 'Bay villages' }).click()
+  // Bay villages starts at Sister Bay, mile 33.6.
+  await expect
+    .poll(async () => Number((await counter.textContent())?.match(/Mile ([\d.]+)/)?.[1] ?? 0), { timeout: 5000 })
+    .toBeGreaterThan(32)
+  expect(Number((await counter.textContent())?.match(/Mile ([\d.]+)/)?.[1])).toBeLessThan(35.5)
+})
