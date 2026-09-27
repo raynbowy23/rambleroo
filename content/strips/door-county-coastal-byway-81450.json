@@ -1,0 +1,51 @@
+{
+  "bywayId": "door-county-coastal-byway-81450",
+  "reviewed": false,
+  "title": "Door County Coastal Byway",
+  "direction": "Starts at the south end of the mapped byway, runs up the Lake Michigan side to Sister Bay, then down the Green Bay side through the harbour villages. The tip of the peninsula is a side branch from Sister Bay.",
+  "towns": [
+    { "name": "Jacksonport", "wikipedia": "Jacksonport, Wisconsin" },
+    { "name": "Baileys Harbor", "wikipedia": "Baileys Harbor, Wisconsin" },
+    { "name": "Sister Bay", "wikipedia": "Sister Bay, Wisconsin" },
+    { "name": "Ephraim", "wikipedia": "Ephraim, Wisconsin" },
+    { "name": "Fish Creek", "wikipedia": "Fish Creek, Wisconsin" },
+    { "name": "Egg Harbor", "wikipedia": "Egg Harbor, Wisconsin" },
+    { "name": "Ellison Bay", "wikipedia": "Ellison Bay, Wisconsin", "branch": "tip" },
+    { "name": "Gills Rock", "wikipedia": "Gills Rock, Wisconsin", "branch": "tip" }
+  ],
+  "stretches": [
+    {
+      "id": "lake-side",
+      "title": "The Lake Michigan side",
+      "from": "Jacksonport",
+      "to": "Baileys Harbor",
+      "scene": "coast",
+      "line": "The quieter, open-water side of the peninsula."
+    },
+    {
+      "id": "lighthouse-woods",
+      "title": "Lighthouse woods",
+      "from": "Baileys Harbor",
+      "to": "Sister Bay",
+      "scene": "forest",
+      "line": "Wooded miles between the two coasts, with Cana Island a short detour east."
+    },
+    {
+      "id": "bay-villages",
+      "title": "Bay villages",
+      "from": "Sister Bay",
+      "to": "Egg Harbor",
+      "scene": "town",
+      "line": "Harbour villages close together along Green Bay, and Peninsula State Park between them."
+    },
+    {
+      "id": "the-tip",
+      "title": "Out to the tip",
+      "from": "Sister Bay",
+      "to": "Gills Rock",
+      "branch": "tip",
+      "scene": "coast",
+      "line": "A side trip to the end of the peninsula."
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import { StripLink } from '../strip/StripLink'
 import { requireNetwork } from '../../lib/network'
 import { PhotoGallery, MomentPhoto, PhotoCredit } from '../photos/Photos'
 import { ShareControl } from '../share/ShareControl'
@@ -118,6 +119,7 @@ export default function BywayPage() {
           {story?.season && <span>{story.season}</span>}
         </div>
         <div className={s.actions}>
+          <StripLink id={b.id} />
           <button
             className="btn btn-primary"
             aria-pressed={saved}

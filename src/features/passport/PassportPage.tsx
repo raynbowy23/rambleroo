@@ -1,3 +1,4 @@
+import { SavedStretches } from '../strip/SavedStretches'
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useLocation } from 'react-router'
 import { useCatalog } from '../../lib/data'
@@ -79,7 +80,7 @@ export default function PassportPage() {
           </Link>
         </div>
       </header>
-      {!counts.saved && !counts.visits ? (
+      {!counts.saved && !counts.visits && !passport.savedStretches.length ? (
         <section className={s.empty}>
           <Scene family="forest" seed={17} variant="postcard" />
           <small>Illustration</small>
@@ -198,6 +199,7 @@ export default function PassportPage() {
           </section>
           <section className={s.section} id="saved" style={{ scrollMarginTop: 88 }}>
             <h2>Saved roads</h2>
+            <SavedStretches />
             <p className={s.muted}>Saved in this browser</p>
             <div className={s.grid}>
               {saved.map((id) => {

@@ -1,8 +1,10 @@
+import type { SavedStretch } from './passport'
 import type { Visit } from './types'
 export interface PassportData {
   version: 1
   saved: Record<string, string>
   visits: Visit[]
+  savedStretches?: SavedStretch[]
 }
 const record = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value)
 const date = (value: unknown): value is string => typeof value === 'string' && Number.isFinite(Date.parse(value))
@@ -42,10 +44,23 @@ export function parsePassport(value: unknown): PassportData {
       note: visit.note,
     }
   })
-  return { version: 1, saved, visits }
+  if (value.savedStretches !== undefined && !Array.isArray(value.savedStretches)) throw new Error('Invalid saved stretches')
+  const savedStretches = (value.savedStretches ?? []).map((entry: unknown): SavedStretch => {
+    if (
+      !record(entry) ||
+      typeof entry.bywayId !== 'string' ||
+      !entry.bywayId.trim() ||
+      typeof entry.stretchId !== 'string' ||
+      !entry.stretchId.trim() ||
+      !date(entry.savedAt)
+    )
+      throw new Error('Invalid saved stretch')
+    return { bywayId: entry.bywayId, stretchId: entry.stretchId, savedAt: entry.savedAt }
+  })
+  return { version: 1, saved, visits, savedStretches }
 }
 
-export function mergePassport(current: Pick<PassportData, 'saved' | 'visits'>, incoming: PassportData) {
+export function mergePassport(current: Pick<PassportData, 'saved' | 'visits' | 'savedStretches'>, incoming: PassportData) {
   const saved = { ...current.saved }
   let savedAdded = 0
   for (const [id, when] of Object.entries(incoming.saved)) {
@@ -62,5 +77,19 @@ export function mergePassport(current: Pick<PassportData, 'saved' | 'visits'>, i
       ids.add(visit.id)
     }
   }
-  return { saved, visits, savedAdded, visitsAdded: visits.length - current.visits.length }
+  const stretches = new Map((current.savedStretches ?? []).map((entry) => [JSON.stringify([entry.bywayId, entry.stretchId]), entry]))
+  const before = stretches.size
+  for (const entry of incoming.savedStretches ?? []) {
+    const key = JSON.stringify([entry.bywayId, entry.stretchId])
+    const previous = stretches.get(key)
+    if (!previous || Date.parse(entry.savedAt) < Date.parse(previous.savedAt)) stretches.set(key, entry)
+  }
+  return {
+    saved,
+    visits,
+    savedStretches: [...stretches.values()],
+    stretchesAdded: stretches.size - before,
+    savedAdded,
+    visitsAdded: visits.length - current.visits.length,
+  }
 }

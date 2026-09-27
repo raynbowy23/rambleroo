@@ -1,0 +1,577 @@
+.page {
+  color: var(--ink);
+  background: radial-gradient(ellipse at 12% 15%, #dfe6dc70, transparent 35%), var(--paper);
+  min-height: 100vh;
+  padding: 0 12px 40px;
+  font-size: 14px;
+}
+.page button,
+.page a {
+  min-height: 44px;
+  min-width: 44px;
+}
+.page button {
+  cursor: pointer;
+}
+.page small {
+  font-size: 12px;
+}
+.intro {
+  max-width: 640px;
+  margin: auto;
+  padding: 20px 10px 28px;
+}
+.back {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  font-size: 13px;
+}
+.intro h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(30px, 5vw, 44px);
+  line-height: 1.12;
+  margin: 12px 0;
+  max-width: 540px;
+}
+.intro p {
+  line-height: 1.65;
+}
+.draft {
+  color: var(--rust);
+  font-size: 12px;
+}
+.seasons {
+  border: 0;
+  padding: 0;
+  margin: 24px 0 10px;
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+.seasons legend {
+  font-family: var(--font-hand);
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+.seasons button {
+  border: 1px solid var(--line-strong);
+  background: var(--card);
+  color: var(--ink);
+  padding: 8px 12px;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+.seasons button:first-of-type {
+  border-radius: 20px 0 0 20px;
+}
+.seasons button:last-of-type {
+  border-radius: 0 20px 20px 0;
+}
+.seasons button[aria-pressed='true'] {
+  background: var(--forest);
+  color: var(--paper);
+  border-color: var(--forest);
+}
+.scrollHint {
+  font-family: var(--font-hand);
+  font-size: 22px;
+}
+.stretchChoices {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.stretchChoices button {
+  background: transparent;
+  color: var(--forest);
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 12px;
+}
+.stretchChoices button[aria-pressed='true'] {
+  background: var(--forest-tint);
+}
+.odometer {
+  position: sticky;
+  top: calc(var(--header-h) + env(safe-area-inset-top, 0px));
+  z-index: 18;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 8px;
+  margin: 0 -12px;
+  background: var(--forest);
+  color: var(--paper);
+  box-shadow: 0 4px 0 #20292520;
+  font-variant-numeric: tabular-nums;
+}
+.odometer output {
+  font-size: 14px;
+  font-weight: 650;
+}
+.odometerNote {
+  display: none;
+  font-size: 12px;
+  letter-spacing: 2px;
+  opacity: 0.75;
+}
+.journey {
+  max-width: 720px;
+  margin: auto;
+}
+.start {
+  height: 120px;
+  text-align: center;
+  padding-top: 32px;
+  font-family: var(--font-hand);
+  font-size: 28px;
+}
+.start span {
+  display: block;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.ribbon {
+  position: relative;
+}
+.road {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 50px);
+  overflow: visible;
+  pointer-events: none;
+}
+.milepost {
+  position: absolute;
+  left: calc(50% + 19px);
+  transform: translateY(-50%);
+  width: 29px;
+  min-height: 39px;
+  border: 1px solid var(--forest);
+  border-radius: 7px 7px 2px 2px;
+  color: var(--forest);
+  background: var(--card);
+  text-align: center;
+  font: 16px var(--font-serif);
+  box-shadow: 2px 2px 0 var(--line);
+  pointer-events: none;
+  z-index: 3;
+}
+.milepost small {
+  display: block;
+  font: 12px var(--font-sans);
+  border-bottom: 1px solid var(--line);
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.town {
+  position: absolute;
+  width: calc(50% - 49px);
+  transform: translateY(-100%);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  background: var(--forest);
+  color: var(--paper);
+  padding: 4px 7px;
+  border: 3px double var(--paper-deep);
+  box-shadow: 2px 3px 0 var(--sand);
+  z-index: 4;
+}
+.town strong {
+  font: 17px/1.15 var(--font-serif);
+  flex: 1 0 auto;
+  /* Town names wrap between words only; long single names shrink instead of breaking mid-word. */
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: manual;
+}
+@media (max-width: 480px) {
+  .town strong {
+    font-size: clamp(13px, 3.6vw, 16px);
+  }
+}
+.town a {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  text-decoration: none;
+}
+.town small {
+  width: 100%;
+}
+.moment {
+  position: absolute;
+  width: calc(50% - 49px);
+  background: var(--card);
+  border: 1px solid var(--line-strong);
+  border-radius: 3px 5px 4px 2px;
+  box-shadow: 3px 4px 0 #c9bca23b;
+  z-index: 3;
+}
+.picture {
+  position: relative;
+}
+.picture > svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.momentText {
+  padding: 10px;
+}
+.momentText > small {
+  color: var(--ink-soft);
+  line-height: 1.4;
+  display: block;
+}
+.moment h3 {
+  font: 19px/1.12 var(--font-serif);
+  margin: 7px 0;
+  overflow-wrap: anywhere;
+}
+.moment p {
+  font-size: 12px;
+  line-height: 1.55;
+  margin: 8px 0;
+}
+.detour {
+  display: block;
+  font-size: 12px;
+  color: var(--rust);
+  border-top: 1px dotted var(--line-strong);
+  padding-top: 8px;
+}
+.spur {
+  position: absolute;
+  width: var(--spur-length, 36px);
+  border-top: 2px dotted var(--ink-muted);
+  top: 0;
+}
+.left .spur {
+  left: 100%;
+}
+.right .spur {
+  right: 100%;
+}
+.bracket {
+  position: absolute;
+  left: calc(50% - 39px);
+  width: 44px;
+  padding: 0;
+  border: 0;
+  border-left: 3px solid var(--stretch-color);
+  color: var(--stretch-color);
+  background: transparent;
+  z-index: 2;
+  text-align: left;
+}
+.bracket::before,
+.bracket::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 3px;
+  background: var(--stretch-color);
+  left: -3px;
+}
+.bracket::before {
+  top: 0;
+}
+.bracket::after {
+  bottom: 0;
+}
+.bracket span {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  writing-mode: vertical-rl;
+  font: 13px var(--font-serif);
+  background: var(--paper);
+  padding: 10px 4px;
+  border-radius: 6px;
+  max-height: calc(100% - 100px);
+}
+.bracket[aria-pressed='true'] {
+  border-left-width: 5px;
+}
+.bracket:focus-visible {
+  outline: 3px solid var(--forest);
+  outline-offset: 4px;
+}
+.gap {
+  position: absolute;
+  right: 0;
+  width: calc(50% - 50px);
+  color: var(--ink-soft);
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 3px 5px;
+  background: var(--paper);
+  border-left: 2px dotted var(--line-strong);
+  z-index: 5;
+}
+.fork {
+  position: relative;
+  padding: 35px 0 25px;
+  text-align: center;
+  background: var(--paper);
+  z-index: 6;
+}
+.fork > span {
+  display: block;
+  font-size: 38px;
+  color: var(--forest);
+}
+.fork button {
+  display: block;
+  margin: auto;
+  border: 2px solid var(--forest);
+  border-radius: 2px 18px 18px 2px;
+  padding: 10px 16px;
+  background: var(--forest);
+  color: var(--paper);
+  font: 17px var(--font-serif);
+  box-shadow: 3px 3px 0 var(--sand);
+}
+.fork small {
+  display: block;
+  margin-top: 12px;
+}
+.branch {
+  margin-left: 16px;
+  padding-left: 8px;
+  border-left: 1px dashed var(--sage);
+  background: #dfe6dc38;
+}
+.branchHeading,
+.branchEnd {
+  margin: 0;
+  padding: 32px 0;
+  text-align: center;
+  font: 23px var(--font-hand);
+}
+.branchEnd {
+  font-size: 19px;
+}
+.finish {
+  text-align: center;
+  padding: 100px 20px 40px;
+}
+.finish > span {
+  font-size: 64px;
+  color: var(--rust);
+}
+.finish h2 {
+  font: 26px var(--font-serif);
+}
+.finish p {
+  font-size: 14px;
+}
+.finish p:last-child {
+  font: 25px var(--font-hand);
+}
+.car {
+  position: fixed;
+  width: 30px;
+  height: 52px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+  opacity: 0;
+  will-change: transform;
+  filter: drop-shadow(2px 3px 2px #20292550);
+}
+.inset {
+  position: fixed;
+  bottom: calc(var(--mobile-nav-h, 64px) + 12px);
+  right: 12px;
+  width: 120px;
+  height: 120px;
+  z-index: 19;
+  border: 3px solid var(--card);
+  border-radius: 8px;
+  box-shadow: var(--shadow-2);
+  background: var(--paper-deep);
+  overflow: hidden;
+}
+.map {
+  width: 100%;
+  height: 100%;
+}
+.mapToggle {
+  position: absolute;
+  inset: 0;
+  padding: 0 5px 25px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border: 0;
+  color: var(--ink);
+  background: linear-gradient(transparent 40%, #f7f4ede0);
+  font-size: 12px;
+}
+.mapCredit {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  pointer-events: none;
+}
+.expanded {
+  width: min(360px, calc(100vw - 24px));
+  height: min(420px, 60vh);
+}
+.expanded .mapToggle {
+  inset: auto 0 20px;
+  padding: 6px;
+  background: var(--paper);
+}
+.stretchPanel {
+  position: fixed;
+  bottom: var(--mobile-nav-h, 64px);
+  left: 0;
+  right: 0;
+  z-index: 25;
+  background: var(--card);
+  padding: 22px 20px 16px;
+  border-top: 3px solid var(--rust);
+  border-radius: 18px 18px 0 0;
+  box-shadow: var(--shadow-3);
+  max-height: min(65vh, 500px);
+  overflow: auto;
+}
+.stretchPanel h2 {
+  font: 27px var(--font-serif);
+  margin: 8px 35px 10px 0;
+}
+.stretchPanel p {
+  line-height: 1.5;
+  margin: 10px 0;
+}
+.stretchPanel > small {
+  display: block;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+.stretchPanel > strong {
+  display: block;
+  font-size: 15px;
+}
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 28px;
+}
+.panelActions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+.panelActions :global(.btn) {
+  font-size: 13px;
+  padding: 8px 12px;
+}
+.sources {
+  max-width: 640px;
+  margin: 30px auto 0;
+  padding: 24px 10px;
+  border-top: 1px solid var(--line-strong);
+  font-size: 12px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.sources h2 {
+  font: 24px var(--font-serif);
+}
+.sources dt {
+  font-weight: 650;
+  margin-top: 12px;
+}
+.sources dd {
+  margin: 0;
+}
+@media (min-width: 1000px) {
+  .page {
+    padding-right: 370px;
+    padding-left: 32px;
+  }
+  .odometer {
+    margin-right: -370px;
+    margin-left: -32px;
+  }
+  .odometerNote {
+    display: inline;
+  }
+  .mapDock {
+    position: sticky;
+    top: 155px;
+    height: 0;
+    margin-right: -342px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 19;
+  }
+  .inset {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+  }
+  .mapToggle {
+    display: none;
+  }
+  .mapCredit {
+    background: var(--paper);
+  }
+  .stretchPanel {
+    top: 495px;
+    left: auto;
+    right: 28px;
+    bottom: auto;
+    width: 320px;
+    max-height: calc(100vh - 515px);
+    border-radius: 12px;
+  }
+}
+@media (max-width: 759px) {
+  .page {
+    padding-bottom: calc(var(--mobile-nav-h, 64px) + 24px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .car {
+    will-change: auto;
+  }
+}
+
+/* The collapsed phone inset is too small for a credit line; it shows when expanded, and the page footer lists sources. */
+@media (max-width: 759px) {
+  .inset:not(.expanded) .mapCredit {
+    display: none;
+  }
+}

@@ -10,7 +10,7 @@ const supportsViewTransitions = typeof document !== 'undefined' && 'startViewTra
 export default function Layout() {
   const { pathname } = useLocation()
   const { meta } = useCatalog()
-  const count = usePassport((s) => Object.keys(s.saved).length + s.visits.length)
+  const count = usePassport((s) => Object.keys(s.saved).length + s.savedStretches.length + s.visits.length)
   const nav = (
     <>
       {(

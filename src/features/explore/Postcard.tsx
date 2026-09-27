@@ -1,3 +1,4 @@
+import { StripLink } from '../strip/StripLink'
 import { RoadVisual } from '../photos/RoadVisual'
 import { ShareControl } from '../share/ShareControl'
 import { useEffect, useId, useRef, useState } from 'react'
@@ -103,6 +104,7 @@ export function Postcard({
             )}
           </div>
           <div className={styles.actions}>
+            <StripLink id={b.id} />
             {gallery && <ShareControl byway={b} story={story} small />}
             <Link viewTransition className="btn btn-primary" to={`/byway/${b.id}`}>
               {b.status === 'listing' ? 'Open details' : 'View story'}

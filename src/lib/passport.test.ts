@@ -57,3 +57,15 @@ describe('passport', () => {
     read.mockRestore()
   })
 })
+
+it('saves each stretch once and persists it independently of whole-road saves', () => {
+  usePassport.setState({ savedStretches: [] })
+  usePassport.getState().saveStretch('road', 'bay')
+  usePassport.getState().saveStretch('road', 'bay')
+  usePassport.getState().saveStretch('road', 'tip')
+  expect(usePassport.getState().savedStretches).toHaveLength(2)
+  expect(JSON.parse(localStorage.getItem('rambleroo.passport.v1')!).state.savedStretches).toHaveLength(2)
+  usePassport.getState().removeStretch('road', 'bay')
+  expect(usePassport.getState().savedStretches.map((entry) => entry.stretchId)).toEqual(['tip'])
+  usePassport.setState({ savedStretches: [] })
+})

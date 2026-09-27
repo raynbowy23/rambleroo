@@ -6,6 +6,7 @@ import styles from './components/layout/Page.module.css'
 // and the swap then runs inside a view transition instead of flashing a loading message.
 const pages = {
   explore: () => import('./features/explore/ExplorePage'),
+  strip: () => import('./features/strip/StripPage'),
   byway: () => import('./features/byway/BywayPage'),
   state: () => import('./features/state/StatePage'),
   collections: () => import('./features/collections/CollectionsPage'),
@@ -45,6 +46,7 @@ const router = createBrowserRouter([
     ),
     children: [
       { path: '/', lazy: page(pages.explore) },
+      { path: '/byway/:id/strip', lazy: page(pages.strip) },
       { path: '/byway/:id', lazy: page(pages.byway) },
       { path: '/state/:code', lazy: page(pages.state) },
       { path: '/collections', lazy: page(pages.collections) },

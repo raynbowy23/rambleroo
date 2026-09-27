@@ -23,3 +23,14 @@ it('rejects impossible calendar dates and preserves existing visits with matchin
   expect(result.visits[0].note).toBe('')
   expect(result.savedAdded + result.visitsAdded).toBe(0)
 })
+
+it('imports old backups and merges saved stretches without duplicates', () => {
+  expect(parsePassport({ version: 1, saved: {}, visits: [] }).savedStretches).toEqual([])
+  const entry = { bywayId: 'road', stretchId: 'bay', savedAt: '2026-01-01' }
+  const incoming = parsePassport({ version: 1, saved: {}, visits: [], savedStretches: [entry, entry] })
+  const result = mergePassport({ saved: {}, visits: [] }, incoming)
+  expect(result.savedStretches).toEqual([entry])
+  expect(result.stretchesAdded).toBe(1)
+  expect(mergePassport(result, incoming).stretchesAdded).toBe(0)
+  expect(() => parsePassport({ version: 1, saved: {}, visits: [], savedStretches: [{ ...entry, savedAt: 'bad' }] })).toThrow()
+})

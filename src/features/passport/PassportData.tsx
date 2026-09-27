@@ -15,9 +15,9 @@ export function PassportData() {
         <button
           className="btn btn-ghost"
           onClick={() => {
-            const { saved, visits } = usePassport.getState()
+            const { saved, visits, savedStretches } = usePassport.getState()
             downloadBlob(
-              new Blob([JSON.stringify({ version: 1, saved, visits }, null, 2)], { type: 'application/json' }),
+              new Blob([JSON.stringify({ version: 1, saved, visits, savedStretches }, null, 2)], { type: 'application/json' }),
               'rambleroo-passport.json',
             )
           }}
@@ -37,8 +37,10 @@ export function PassportData() {
               try {
                 const incoming = parsePassport(JSON.parse(await file.text()))
                 const result = mergePassport(usePassport.getState(), incoming)
-                usePassport.setState({ saved: result.saved, visits: result.visits })
-                setMessage(`Added ${result.savedAdded} saved roads and ${result.visitsAdded} visits. Saved in this browser.`)
+                usePassport.setState({ saved: result.saved, visits: result.visits, savedStretches: result.savedStretches })
+                setMessage(
+                  `Added ${result.savedAdded} saved roads, ${result.stretchesAdded} stretches and ${result.visitsAdded} visits. Saved in this browser.`,
+                )
               } catch {
                 setMessage('Could not import: choose a valid version 1 Rambleroo passport JSON file.')
               }
@@ -47,11 +49,11 @@ export function PassportData() {
         </label>
         {confirm ? (
           <div role="group" aria-label="Confirm clear passport">
-            <p>Remove all saved roads and visits from this browser?</p>
+            <p>Remove all saved roads, stretches and visits from this browser?</p>
             <button
               className="btn btn-primary"
               onClick={() => {
-                usePassport.setState({ saved: {}, visits: [], lastStampId: null })
+                usePassport.setState({ saved: {}, savedStretches: [], visits: [], lastStampId: null })
                 setConfirm(false)
                 setMessage('Passport cleared in this browser.')
               }}

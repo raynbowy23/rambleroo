@@ -2,7 +2,15 @@ import { create } from 'zustand'
 import { createJSONStorage, persist } from 'zustand/middleware'
 import type { BywaySummary, Visit } from './types'
 import { safeStorage } from './storage'
+export interface SavedStretch {
+  bywayId: string
+  stretchId: string
+  savedAt: string
+}
 export interface PassportState {
+  savedStretches: SavedStretch[]
+  saveStretch: (bywayId: string, stretchId: string) => void
+  removeStretch: (bywayId: string, stretchId: string) => void
   saved: Record<string, string>
   visits: Visit[]
   lastStampId: string | null
@@ -16,6 +24,15 @@ export interface PassportState {
 export const usePassport = create<PassportState>()(
   persist(
     (set, get) => ({
+      savedStretches: [],
+      saveStretch: (bywayId, stretchId) =>
+        set((s) => ({
+          savedStretches: s.savedStretches.some((entry) => entry.bywayId === bywayId && entry.stretchId === stretchId)
+            ? s.savedStretches
+            : [...s.savedStretches, { bywayId, stretchId, savedAt: new Date().toISOString() }],
+        })),
+      removeStretch: (bywayId, stretchId) =>
+        set((s) => ({ savedStretches: s.savedStretches.filter((entry) => entry.bywayId !== bywayId || entry.stretchId !== stretchId) })),
       saved: {},
       visits: [],
       lastStampId: null,
@@ -40,7 +57,7 @@ export const usePassport = create<PassportState>()(
     {
       name: 'rambleroo.passport.v1',
       storage: createJSONStorage(() => safeStorage),
-      partialize: (s) => ({ saved: s.saved, visits: s.visits }),
+      partialize: (s) => ({ saved: s.saved, visits: s.visits, savedStretches: s.savedStretches }),
     },
   ),
 )

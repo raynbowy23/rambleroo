@@ -1,0 +1,194 @@
+import { useMemo, type CSSProperties } from 'react'
+import { Scene } from '../../components/art'
+import type { BywaySummary, PostcardLook } from '../../lib/types'
+import { PhotoChip, PhotoImage } from '../photos/Photos'
+import { buildRibbon, clamp, mappedIntervals, PIXELS_PER_MILE, sideOfRoad } from './geometry'
+import type { Stretch, StripData } from './types'
+import s from './Strip.module.css'
+
+const sceneColors = {
+  coast: '#537d88',
+  river: '#537d88',
+  forest: '#38634b',
+  town: '#a64226',
+  mountain: '#666783',
+  desert: '#a64226',
+  prairie: '#827024',
+}
+export function Ribbon({
+  data,
+  byway,
+  on,
+  from,
+  to,
+  season,
+  selected,
+  select,
+  geometry,
+}: {
+  data: StripData
+  byway: BywaySummary
+  on: 'main' | 'branch'
+  from: number
+  to: number
+  geometry: ReturnType<typeof buildRibbon>
+  season: PostcardLook['season']
+  selected?: Stretch
+  select: (stretch: Stretch) => void
+}) {
+  const route = on === 'main' ? data.main : data.branch!
+  const intervals = useMemo(() => mappedIntervals(route, from, to), [route, from, to])
+  const height = (to - from) * PIXELS_PER_MILE
+  const y = (mile: number) => (clamp(mile, from, to) - from) * PIXELS_PER_MILE
+  const contains = (mile: number) => mile >= from && (mile < to || (to === route.miles && mile <= to + 0.1))
+  const pathBetween = (a: number, b: number) => (
+    <g key={a} transform={`translate(0 ${y(a)})`}>
+      <path d={geometry.path(a, b)} stroke="var(--ink)" strokeWidth="22" />
+      <path d={geometry.path(a, b)} stroke="#c49868" strokeWidth="17" />
+      <path d={geometry.path(a, b)} stroke="var(--paper)" strokeWidth="2" strokeDasharray="9 12" />
+    </g>
+  )
+  return (
+    <section
+      className={`${s.ribbon} ${on === 'branch' ? s.branchRibbon : ''}`}
+      style={{ height }}
+      data-ribbon={on}
+      data-from={from}
+      data-to={to}
+      aria-label={on === 'branch' ? 'Tip branch' : `Main road, miles ${from.toFixed(1)} to ${to.toFixed(1)}`}
+    >
+      <svg className={s.road} width="100" height={height} aria-hidden="true" fill="none" strokeLinejoin="round">
+        {intervals.map(([a, b]) => pathBetween(a, b))}
+        {selected?.on === on &&
+          intervals.map(([a, b]) => {
+            const start = Math.max(a, selected.fromMile),
+              end = Math.min(b, selected.toMile)
+            return (
+              end > start && (
+                <path
+                  key={a}
+                  transform={`translate(0 ${y(start)})`}
+                  d={geometry.path(start, end)}
+                  stroke="#ffe0a0"
+                  strokeWidth="12"
+                  opacity="0.85"
+                />
+              )
+            )
+          })}
+        {(route.gaps ?? []).map((gap) => {
+          const a = Math.max(from, gap.atMile),
+            b = Math.min(to, gap.atMile + gap.miles)
+          return (
+            b > a && (
+              <path
+                key={gap.atMile}
+                transform={`translate(0 ${y(a)})`}
+                d={geometry.path(a, b)}
+                stroke="var(--ink-muted)"
+                strokeWidth="3"
+                strokeDasharray="2 7"
+                opacity="0.45"
+              />
+            )
+          )
+        })}
+      </svg>
+      {Array.from({ length: Math.floor(route.miles / 5) + 1 }, (_, i) => i * 5)
+        .filter(contains)
+        .map((mile) => (
+          <span className={s.milepost} key={mile} style={{ top: y(mile) }}>
+            <small>MILE</small>
+            {mile}
+          </span>
+        ))}
+      {(route.gaps ?? [])
+        .filter((gap) => {
+          const end = gap.atMile + gap.miles
+          // A fork may split a gap; keep its label on the section containing its end.
+          return gap.atMile < to && end > from && (end <= to || to === route.miles)
+        })
+        .map((gap) => (
+          <p className={s.gap} key={gap.atMile} style={{ top: y(gap.atMile) + 8 }}>
+            Unmapped in the source data · {gap.miles.toFixed(1)} mi
+          </p>
+        ))}
+      {data.stretches
+        .filter((stretch) => stretch.on === on && stretch.toMile > from && stretch.fromMile < to)
+        .map((stretch) => {
+          const start = Math.max(from, stretch.fromMile),
+            end = Math.min(to, stretch.toMile)
+          return (
+            <button
+              key={stretch.id}
+              className={s.bracket}
+              style={
+                { top: y(start), height: Math.max(44, y(end) - y(start)), '--stretch-color': sceneColors[stretch.scene] } as CSSProperties
+              }
+              aria-label={stretch.title}
+              aria-pressed={selected?.id === stretch.id}
+              onClick={() => select(stretch)}
+            >
+              {y(end) - y(start) > 120 && <span>{stretch.title}</span>}
+            </button>
+          )
+        })}
+      {data.towns
+        .filter((town) => town.on === on)
+        .map(
+          (town, i) =>
+            contains(town.mile) && (
+              <div key={town.name} className={`${s.town} ${i % 2 ? s.right : s.left}`} style={{ top: y(town.mile) }}>
+                <span aria-hidden="true">⌂</span>
+                <strong>{town.name}</strong>
+                <a href={town.source} target="_blank" rel="noreferrer" aria-label={`${town.name} on Wikipedia`}>
+                  ⓘ
+                </a>
+                {town.offRouteMiles > 0.3 && <small>{town.offRouteMiles} mi off the road</small>}
+              </div>
+            ),
+        )}
+      {data.moments
+        .filter((moment) => moment.on === on && contains(moment.mile))
+        .map((moment, i) => (
+          <article
+            key={moment.title}
+            className={`${s.moment} ${sideOfRoad(route, moment.mile, moment.at) === 'left' ? s.left : s.right}`}
+            style={
+              {
+                top: y(moment.mile),
+                '--spur-length': `${49 + (sideOfRoad(route, moment.mile, moment.at) === 'left' ? 1 : -1) * geometry.offset(moment.mile)}px`,
+              } as CSSProperties
+            }
+          >
+            <div className={s.spur} aria-hidden="true" />
+            <div className={s.picture}>
+              {moment.photo ? (
+                <>
+                  <PhotoImage photo={moment.photo} />
+                  <PhotoChip photo={moment.photo} />
+                </>
+              ) : (
+                <Scene
+                  family={moment.scene}
+                  motifs={moment.motifs}
+                  region={byway.region}
+                  look={{ ...byway.look, season }}
+                  seed={byway.seed + i}
+                  variant="postcard"
+                />
+              )}
+            </div>
+            <div className={s.momentText}>
+              <small>
+                {moment.kind} · mile {moment.mile.toFixed(1)}
+              </small>
+              <h3>{moment.title}</h3>
+              <p>{moment.text}</p>
+              {moment.offRouteMiles > 0.3 && <strong className={s.detour}>{moment.offRouteMiles} mi off the road</strong>}
+            </div>
+          </article>
+        ))}
+    </section>
+  )
+}
