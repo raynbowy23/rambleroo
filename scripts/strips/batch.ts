@@ -3,7 +3,7 @@
 // Order: states with no strip yet, then All-American Roads, then other national byways, then state byways (longest first).
 // A road is kept only with ≥ 2 towns on the main drive and ≥ 1 stretch; otherwise its files are removed and the reason logged.
 // Usage: npx tsx scripts/strips/batch.ts [--limit N] [--national-only]
-import { readFile, writeFile, appendFile, rm, mkdir } from 'node:fs/promises'
+import { readFile, writeFile, appendFile, rm, mkdir, rename } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { spawnSync } from 'node:child_process'
 
@@ -53,7 +53,9 @@ const run = (script: string, id: string, extra: string[] = []) =>
 
 async function drop(id: string, reason: string, createdContent: boolean) {
   skipped[id] = reason
-  await writeFile(path('data/strips/skipped.json'), JSON.stringify(skipped, null, 2) + '\n')
+  // Write to a temp file and rename, so an interrupted run (the host once killed it for low memory) can't leave the list empty.
+  await writeFile(path('data/strips/skipped.json.tmp'), JSON.stringify(skipped, null, 2) + '\n')
+  await rename(path('data/strips/skipped.json.tmp'), path('data/strips/skipped.json'))
   // Only remove content this run generated; never touch hand-written files.
   if (createdContent) await rm(path(`content/strips/${id}.json`), { force: true })
   await rm(path(`public/data/strips/${id}.json`), { force: true })
