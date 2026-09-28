@@ -62,37 +62,12 @@ it('persists the toggle and returns to a flat map with a toast on DEM failure', 
   expect(map.easeTo).toHaveBeenLastCalledWith(expect.objectContaining({ pitch: 0 }))
   expect(state.toast).toHaveBeenCalledWith("3D terrain isn't available right now")
 })
-it('keeps 3D available with reduced motion, without flight or camera easing', async () => {
+it('keeps 3D available with reduced motion, without camera easing', async () => {
   state.motion = false
   const map = mockMap()
-  render(<ReliefControls map={map as unknown as Map} roadId="road" fly />)
+  render(<ReliefControls map={map as unknown as Map} />)
   await act(async () => {})
   fireEvent.click(screen.getByRole('button', { name: '3D' }))
-  expect(screen.getByRole('status').textContent).toContain('Still 3D')
-  expect(screen.queryByRole('button', { name: 'Fly this road' })).toBeNull()
   expect(map.easeTo).not.toHaveBeenCalled()
   expect(map.jumpTo).toHaveBeenCalledWith(expect.objectContaining({ pitch: 60 }))
-})
-it('pauses, resumes, skips and cancels flights on interaction and unmount', async () => {
-  const cancel = vi.fn()
-  vi.stubGlobal(
-    'requestAnimationFrame',
-    vi.fn(() => 1),
-  )
-  vi.stubGlobal('cancelAnimationFrame', cancel)
-  const map = mockMap()
-  const view = render(<ReliefControls map={map as unknown as Map} roadId="road" fly />)
-  await act(async () => {})
-  fireEvent.click(screen.getByRole('button', { name: '3D' }))
-  fireEvent.click(screen.getByRole('button', { name: 'Fly this road' }))
-  fireEvent.click(screen.getByRole('button', { name: 'Pause' }))
-  expect(cancel).toHaveBeenCalledWith(1)
-  fireEvent.click(screen.getByRole('button', { name: 'Resume' }))
-  fireEvent.click(screen.getByRole('button', { name: 'Skip' }))
-  fireEvent.click(screen.getByRole('button', { name: 'Fly this road' }))
-  fireEvent.pointerDown(map.canvas)
-  expect(screen.getByRole('button', { name: 'Fly this road' })).toBeTruthy()
-  fireEvent.click(screen.getByRole('button', { name: 'Fly this road' }))
-  view.unmount()
-  expect(cancel).toHaveBeenCalledTimes(4)
 })

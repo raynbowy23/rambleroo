@@ -30,6 +30,8 @@ export function setRelief(map: Map, enabled: boolean, exaggeration = 1.6) {
         source: terrainSource,
         paint: {
           'hillshade-exaggeration': 0.24,
+          'hillshade-illumination-direction': 315,
+          'hillshade-illumination-anchor': 'map',
           'hillshade-highlight-color': c('paper'),
           'hillshade-shadow-color': c('water-deep'),
           'hillshade-accent-color': c('terrain'),

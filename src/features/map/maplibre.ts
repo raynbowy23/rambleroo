@@ -7,6 +7,7 @@ maplibregl.setWorkerUrl(workerUrl)
 export default maplibregl
 
 export type {
+  CustomLayerInterface,
   Map,
   GeoJSONSource,
   ExpressionSpecification,

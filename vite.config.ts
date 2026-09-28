@@ -19,7 +19,7 @@ export default defineConfig({
       workbox: {
         clientsClaim: true,
         globPatterns: ['**/*.{js,css,html,woff,woff2,ttf,ico}'],
-        globIgnores: ['data/**', 'photos/**'],
+        globIgnores: ['data/**', 'photos/**', 'assets/car3d-*.js'],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         navigateFallback: '/index.html',
         navigateFallbackDenylist: [/^\/data\//, /^\/photos\//],

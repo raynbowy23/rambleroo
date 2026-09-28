@@ -685,3 +685,102 @@
   right: 100%;
   border-right: 1px solid var(--ink-muted);
 }
+
+.reliefPage {
+  --strip-bar: 72px;
+}
+.reliefPage .mapDock {
+  position: sticky;
+  top: calc(var(--header-h) + env(safe-area-inset-top, 0px) + var(--strip-bar));
+  z-index: 17;
+  height: 42svh;
+  margin: 0 -12px;
+}
+.reliefPage .reliefMap {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+.reliefMap .mapCredit {
+  display: none;
+}
+@media (min-width: 760px) {
+  .reliefPage {
+    padding-left: 20px;
+    padding-right: 47%;
+  }
+  .reliefPage .odometer {
+    margin-left: -20px;
+    margin-right: calc(-100vw * 0.47);
+  }
+  .reliefPage .mapDock {
+    height: 0;
+    margin: 0;
+    display: block;
+  }
+  .reliefPage .reliefMap {
+    position: absolute;
+    left: calc(100% + 12px);
+    width: 46vw;
+    height: calc(100svh - var(--header-h) - var(--strip-bar) - env(safe-area-inset-top, 0px));
+  }
+}
+@media (max-width: 759px) {
+  .odometer {
+    gap: 6px;
+    padding-inline: 4px;
+  }
+  .odometer > span {
+    display: none;
+  }
+  .odometer output {
+    font-size: 12px;
+  }
+}
+
+/* 3D toggle: a small switch so the on/off state is visible at a glance. */
+.odometer .reliefToggle {
+  gap: 8px;
+  color: var(--paper);
+  border-color: color-mix(in srgb, var(--paper) 60%, transparent);
+}
+.reliefSwitch {
+  position: relative;
+  width: 30px;
+  height: 17px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper) 30%, transparent);
+  transition: background var(--dur-fast);
+}
+.reliefSwitch::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--paper);
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+.reliefToggle[aria-pressed='true'] .reliefSwitch {
+  background: var(--lining);
+}
+.reliefToggle[aria-pressed='true'] .reliefSwitch::after {
+  transform: translateX(13px);
+}
+/* Phones: keep the map credits to one compact line in the 3D panel. */
+@media (max-width: 759px) {
+  .mapDock :global(.maplibregl-ctrl-attrib) {
+    max-width: calc(100% - 16px);
+    font-size: 10px;
+  }
+  .mapDock :global(.maplibregl-ctrl-attrib.maplibregl-compact-show .maplibregl-ctrl-attrib-inner) {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

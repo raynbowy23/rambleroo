@@ -228,7 +228,7 @@ export function RouteMap({
       </div>
       {ready && mapRef.current && (
         <div className={s.reliefControls}>
-          <ReliefControls map={mapRef.current} roadId={byways.length === 1 && !visited ? byways[0].id : undefined} fly />
+          <ReliefControls map={mapRef.current} roadId={byways.length === 1 && !visited ? byways[0].id : undefined} />
         </div>
       )}
       {visited && (

@@ -51,8 +51,33 @@ export default function StripPage() {
     )
   return <StripExperience key={id} data={strip.data} byway={byway} />
 }
+function driveLine(relief: boolean, phone: boolean) {
+  if (!relief || !phone) return window.innerHeight / 2
+  const map = document.querySelector<HTMLElement>('[data-testid="strip-3d"]')
+  if (!map?.parentElement) return window.innerHeight / 2
+  const top = parseFloat(getComputedStyle(map.parentElement).top) || 0
+  return Math.min(window.innerHeight - 100, Math.max(window.innerHeight / 2, top + map.clientHeight + 60))
+}
 function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary }) {
   const garage = useGarage()
+  const [relief, setRelief] = useState(() => {
+    try {
+      return localStorage.getItem('rambleroo.strip3d.v1') === 'true'
+    } catch {
+      return false
+    }
+  })
+  useEffect(() => {
+    try {
+      localStorage.setItem('rambleroo.strip3d.v1', String(relief))
+    } catch {
+      /* Session-only preference. */
+    }
+  }, [relief])
+  const reliefFailed = useCallback(() => {
+    setRelief(false)
+    toast("3D terrain isn't available right now; showing the flat road map")
+  }, [])
   const [phone, setPhone] = useState(() => window.innerWidth < 760)
   useEffect(() => {
     const query = window.matchMedia('(max-width: 759px)')
@@ -77,8 +102,10 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
   const panel = useRef<HTMLElement>(null)
   const trigger = useRef<HTMLElement | null>(null)
   const position = useRef<PositionSink | undefined>(undefined)
+  const lastPosition = useRef<Parameters<PositionSink> | undefined>(undefined)
   const registerPosition = useCallback((sink: PositionSink | undefined) => {
     position.current = sink
+    if (sink && lastPosition.current) sink(...lastPosition.current)
   }, [])
   const geometry = useMemo(
     () => ({ main: buildRibbon(data.main, scale), branch: data.branch ? buildRibbon(data.branch, scale) : undefined }),
@@ -94,7 +121,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       const elements = [...(ribbonArea.current?.querySelectorAll<HTMLElement>('[data-ribbon]') ?? [])]
       // Read all bounds first; the remainder only writes styles/text and the map source.
       const sections = elements.map((element) => ({ element, rect: element.getBoundingClientRect() }))
-      const middle = window.innerHeight / 2
+      const middle = driveLine(relief, phone)
       const active =
         sections.find(({ rect }) => rect.top <= middle && rect.bottom >= middle) ??
         sections.reduce<(typeof sections)[number] | undefined>(
@@ -121,7 +148,8 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         car.current.style.transform = `translate(${active.rect.left + active.rect.width / 2 + ribbon.offset(mile) - 15}px, ${active.rect.top + (mile - from) * scale - (garage.usePicture ? 15 : 26)}px) rotate(${garage.usePicture ? 0 : 180 - angle}deg)`
         car.current.style.opacity = active.rect.top <= middle && active.rect.bottom >= middle ? (inGap ? '0.35' : '1') : '0'
       }
-      position.current?.(coordinateAtMile(route, mile), inGap)
+      lastPosition.current = [coordinateAtMile(route, mile), inGap, route, mile]
+      position.current?.(...lastPosition.current)
     }
     const schedule = () => {
       if (!frame) frame = requestAnimationFrame(update)
@@ -137,7 +165,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       window.removeEventListener('scroll', schedule)
       window.removeEventListener('resize', schedule)
     }
-  }, [data, geometry, tipOpen, scale, garage.usePicture])
+  }, [data, geometry, tipOpen, scale, garage.usePicture, relief, phone])
   const select = (stretch: Stretch) => {
     trigger.current = document.activeElement as HTMLElement
     setParams(
@@ -162,7 +190,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       const section = sections.find((el) => Number(el.dataset.from) <= stretch.fromMile && stretch.fromMile <= Number(el.dataset.to))
       if (!section) return
       const top = section.getBoundingClientRect().top + window.scrollY + (stretch.fromMile - Number(section.dataset.from)) * scale
-      window.scrollTo({ top: Math.max(0, top - window.innerHeight / 2), behavior: motion ? 'smooth' : 'auto' })
+      window.scrollTo({ top: Math.max(0, top - driveLine(relief, phone)), behavior: motion ? 'smooth' : 'auto' })
     })
     return () => cancelAnimationFrame(frame)
     // Jump only when the chosen stretch changes, not on every scroll-driven re-render.
@@ -216,7 +244,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
     />
   )
   return (
-    <main className={s.page}>
+    <main className={`${s.page} ${relief ? s.reliefPage : ''}`}>
       <header className={s.intro}>
         <Link className={s.back} to={`/byway/${byway.id}`}>
           ← Back to the road
@@ -270,9 +298,13 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         <button className="btn btn-ghost" onClick={() => setGarageOpen(true)}>
           Change your car
         </button>
+        <button className={`btn btn-ghost ${s.reliefToggle}`} aria-pressed={relief} onClick={() => setRelief(!relief)}>
+          <span className={s.reliefSwitch} aria-hidden="true" />
+          3D view
+        </button>
       </div>
       <div className={s.mapDock}>
-        <InsetMap data={data} registerPosition={registerPosition} />
+        <InsetMap data={data} registerPosition={registerPosition} relief={relief} scene={byway.scene} onFailure={reliefFailed} />
       </div>
       <div className={s.journey} ref={ribbonArea}>
         <div className={s.start}>

@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
-import type { GeoJSONSource, Map } from './maplibre'
+import type { Map } from './maplibre'
 import { useMotionEnabled } from '../../lib/motion'
 import { toast } from '../../components/ui/Toast'
 import { loadBywayGeometry } from './layers'
-import { bearing, journeyPoint, longestPart, type RoutePart } from './routeJourney'
+import { bearing, longestPart, type RoutePart } from './routeJourney'
+import { useGarage } from '../../lib/garage'
 import { setRelief, isTerrainError } from './terrain'
 
 const preference = 'rambleroo.relief.v1'
@@ -14,17 +15,15 @@ function savedPreference() {
     return false
   }
 }
-export function ReliefControls({ map, roadId, fly = false }: { map: Map; roadId?: string; fly?: boolean }) {
+export function ReliefControls({ map, roadId }: { map: Map; roadId?: string }) {
   const [enabled, setEnabled] = useState(savedPreference)
   const [part, setPart] = useState<RoutePart>()
-  const [flight, setFlight] = useState<'idle' | 'running' | 'paused'>('idle')
-  const progress = useRef(0)
+  const garage = useGarage()
   const wasEnabled = useRef(false)
   const motion = useMotionEnabled()
   useEffect(() => {
     let active = true
     setPart(undefined)
-    setFlight('idle')
     if (roadId)
       void loadBywayGeometry()
         .then((data) => {
@@ -63,90 +62,40 @@ export function ReliefControls({ map, roadId, fly = false }: { map: Map; roadId?
     // Let the parent finish framing the selected road before changing its angle.
     if (enabled && map.isMoving()) map.once('moveend', orient)
     else orient()
-    if (!enabled) setFlight('idle')
     return () => {
       map.off('error', fail)
       map.off('moveend', orient)
     }
   }, [map, enabled, motion, part])
   useEffect(() => {
-    if (!motion || !enabled) setFlight('idle')
-    if (!motion || !enabled || !part || flight !== 'running') return
-    let frame = 0
-    let previous: number | undefined
-    const duration = Math.min(20000, 12000 + part.groundLength * 3959 * 20)
-    const tick = (now: number) => {
-      if (previous !== undefined) progress.current = Math.min(1, progress.current + (now - previous) / duration)
-      previous = now
-      const point = journeyPoint(part, progress.current)
-      // Look a little ahead to soften changes between short source segments.
-      const ahead = journeyPoint(part, Math.min(1, progress.current + 0.003))
-      const heading = progress.current < 0.997 ? bearing(point.coordinates, ahead.coordinates) : point.bearing
-      map.jumpTo({ center: point.coordinates, bearing: heading, pitch: 65, zoom: 12 })
-      ;(map.getSource('route-car') as GeoJSONSource).setData({
-        type: 'Feature',
-        properties: { bearing: heading },
-        geometry: { type: 'Point', coordinates: point.coordinates },
+    if (!enabled || !part) return
+    let active = true
+    let remove = () => {}
+    void import('./car3d')
+      .then(({ createCarLayer, carLayerId }) => {
+        if (!active) return
+        const car = createCarLayer(garage, part.coordinates[0] as [number, number], bearing(part.coordinates[0], part.coordinates[1]))
+        map.addLayer(car.layer)
+        if (map.getLayer('route-car')) map.setLayoutProperty('route-car', 'visibility', 'none')
+        remove = () => {
+          if (map.getLayer(carLayerId)) map.removeLayer(carLayerId)
+          if (map.getLayer('route-car')) map.setLayoutProperty('route-car', 'visibility', 'visible')
+        }
       })
-      if (progress.current < 1) frame = requestAnimationFrame(tick)
-      else setFlight('idle')
-    }
-    map.stop()
-    frame = requestAnimationFrame(tick)
-    return () => cancelAnimationFrame(frame)
-  }, [map, enabled, motion, part, flight])
-  useEffect(() => {
-    const stop = () => setFlight('idle')
-    const canvas = map.getCanvas()
-    canvas.addEventListener('pointerdown', stop)
-    canvas.addEventListener('wheel', stop, { passive: true })
-    canvas.addEventListener('keydown', stop)
+      .catch(() => {
+        if (active) {
+          setEnabled(false)
+          toast("3D terrain isn't available right now")
+        }
+      })
     return () => {
-      canvas.removeEventListener('pointerdown', stop)
-      canvas.removeEventListener('wheel', stop)
-      canvas.removeEventListener('keydown', stop)
+      active = false
+      remove()
     }
-  }, [map])
+  }, [map, enabled, part, garage])
   return (
-    <>
-      <button className="btn btn-ghost" aria-pressed={enabled} onClick={() => setEnabled(!enabled)}>
-        3D
-      </button>
-      {enabled &&
-        fly &&
-        part &&
-        (motion ? (
-          <>
-            {flight === 'idle' ? (
-              <button
-                className="btn btn-ghost"
-                onClick={() => {
-                  progress.current = 0
-                  setFlight('running')
-                }}
-              >
-                Fly this road
-              </button>
-            ) : (
-              <>
-                <button className="btn btn-ghost" onClick={() => setFlight(flight === 'paused' ? 'running' : 'paused')}>
-                  {flight === 'paused' ? 'Resume' : 'Pause'}
-                </button>
-                <button
-                  className="btn btn-ghost"
-                  onClick={() => {
-                    setFlight('idle')
-                    map.stop()
-                  }}
-                >
-                  Skip
-                </button>
-              </>
-            )}
-          </>
-        ) : (
-          <span role="status">Still 3D view · reduced motion</span>
-        ))}
-    </>
+    <button className="btn btn-ghost" aria-pressed={enabled} onClick={() => setEnabled(!enabled)}>
+      3D
+    </button>
   )
 }

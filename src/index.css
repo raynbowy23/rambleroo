@@ -363,3 +363,9 @@ p {
 .chip-theme[aria-pressed='true'] svg {
   color: var(--chip-color);
 }
+
+/* MapLibre's compact credits button draws its icon as a background image; our 44px touch baseline enlarged the button, so keep one centred icon. */
+.maplibregl-ctrl-attrib-button {
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}

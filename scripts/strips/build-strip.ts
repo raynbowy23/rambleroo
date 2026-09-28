@@ -28,6 +28,8 @@ interface StripContent {
   stretches: { id: string; title: string; from: string; to: string; branch?: string; scene: string; line: string }[]
   /** Keep only source pieces whose midpoint lies in this state (for multi-state roads like the Great River Road). */
   clipToState?: string
+  /** Drafted by discover-towns.ts: towns are unordered and stretches are drafted here, not written by an editor. */
+  generated?: boolean
 }
 
 // ---------- geometry helpers (miles, WGS84 lng/lat) ----------
@@ -176,8 +178,18 @@ const cumOf = (line: Position[]) => {
 }
 let path = main.path
 let cum = cumOf(path)
-const firstTown = project(path, cum, townCoords.get(mainTowns[0].wikipedia)!).mile
-const lastTown = project(path, cum, townCoords.get(mainTowns[mainTowns.length - 1].wikipedia)!).mile
+// Generated content lists towns in no particular order, so orient by geography instead: start at the western (or, for mostly
+// north–south roads, the northern) end.
+const [firstTown, lastTown] = content.generated
+  ? (() => {
+      const [a, b] = [path[0], path[path.length - 1]]
+      const eastWest = Math.abs(a[0] - b[0]) >= Math.abs(a[1] - b[1])
+      return eastWest ? (a[0] <= b[0] ? [0, 1] : [1, 0]) : a[1] >= b[1] ? [0, 1] : [1, 0]
+    })()
+  : [
+      project(path, cum, townCoords.get(mainTowns[0].wikipedia)!).mile,
+      project(path, cum, townCoords.get(mainTowns[mainTowns.length - 1].wikipedia)!).mile,
+    ]
 let gaps = main.gaps
 if (firstTown > lastTown) {
   const total = cum[cum.length - 1]
@@ -199,7 +211,8 @@ if (branch) {
 }
 
 // ---------- 3. place things on the ribbon ----------
-const catalog = (await json<{ byways: { id: string; name: string }[] }>('public/data/catalog.json')).byways
+const catalog = (await json<{ byways: { id: string; name: string; scene: string }[] }>('public/data/catalog.json')).byways
+const sceneOf = catalog.find((b) => b.id === id)?.scene ?? 'prairie'
 if (!catalog.some((b) => b.id === id)) throw new Error(`${id} not in catalog`)
 const story = await json<{ moments: { title: string; kind: string; text: string; scene: string; motifs?: string[]; at?: Position }[] }>(
   `content/stories/${id}.json`,
@@ -233,12 +246,54 @@ function place(p: Position, route?: 'main' | 'branch'): Where | undefined {
   return { on: hit.on, mile: round(hit.mile, 2), offRouteMiles: round(hit.off, 1), at: [round(p[0], 5), round(p[1], 5)] }
 }
 const round = (n: number, d = 1) => Math.round(n * 10 ** d) / 10 ** d
+const slugifyTitle = (t: string) =>
+  t
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
 
-const towns = content.towns.map((t) => {
-  const where = place(townCoords.get(t.wikipedia)!, t.branch ? 'branch' : 'main')
-  if (!where) throw new Error(`${t.name} is more than ${PLACE_MI} mi from the mapped road`)
+const placed = content.towns.map((t) => {
+  const where = content.generated ? place(townCoords.get(t.wikipedia)!) : place(townCoords.get(t.wikipedia)!, t.branch ? 'branch' : 'main')
+  if (!where) {
+    if (content.generated) return undefined
+    throw new Error(`${t.name} is more than ${PLACE_MI} mi from the mapped road`)
+  }
   return { name: t.name, source: `https://en.wikipedia.org/wiki/${encodeURIComponent(t.wikipedia.replace(/ /g, '_'))}`, ...where }
 })
+let towns = placed.filter((t): t is NonNullable<typeof t> => !!t)
+if (content.generated) {
+  // Drive order, and at most one town every few miles so the ribbon doesn't crowd.
+  towns.sort((a, b) => (a.on === b.on ? a.mile - b.mile : a.on === 'main' ? -1 : 1))
+  const minGap = Math.max(3, (cum[cum.length - 1] || 0) / 16)
+  towns = towns.filter((t, i) => i === 0 || t.on !== towns[i - 1].on || t.mile - towns[i - 1].mile >= minGap)
+  if (!content.direction && towns.length >= 2)
+    content.direction = `Follows the mapped byway from ${towns[0].name} to ${towns.filter((t) => t.on === 'main').at(-1)!.name}.`
+  if (!content.stretches.length) content.stretches = draftStretches(towns.filter((t) => t.on === 'main'))
+}
+
+/** Drafts 2–5 stretches between consecutive towns, each roughly a quarter of the drive; titles only, no invented descriptions. */
+function draftStretches(main: { name: string; mile: number }[]): StripContent['stretches'] {
+  if (main.length < 2) return []
+  const total = main[main.length - 1].mile - main[0].mile
+  const target = Math.min(45, Math.max(12, total / 4))
+  const out: StripContent['stretches'] = []
+  let start = 0
+  for (let i = 1; i < main.length && out.length < 5; i++) {
+    if (main[i].mile - main[start].mile >= target || i === main.length - 1) {
+      const [a, b] = [main[start], main[i]]
+      out.push({
+        id: slugifyTitle(`${a.name}-${b.name}`),
+        title: `${a.name} to ${b.name}`,
+        from: a.name,
+        to: b.name,
+        scene: sceneOf,
+        line: `The byway between ${a.name} and ${b.name}.`,
+      })
+      start = i
+    }
+  }
+  return out
+}
 const moments = story.moments
   .filter((m) => m.at)
   .map((m) => {
@@ -336,6 +391,7 @@ const out = {
   bywayId: id,
   title: content.title,
   reviewed: content.reviewed,
+  generated: content.generated ?? false,
   direction: content.direction,
   builtAt: new Date().toISOString(),
   sources: {
