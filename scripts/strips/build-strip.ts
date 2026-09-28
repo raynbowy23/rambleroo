@@ -292,10 +292,12 @@ if (content.generated) {
 function draftStretches(main: { name: string; mile: number }[]): StripContent['stretches'] {
   if (main.length < 2) return []
   const total = main[main.length - 1].mile - main[0].mile
-  const target = Math.min(45, Math.max(12, total / 4))
+  // Long roads get up to eight stretches of roughly a sixth of the drive; others two to five of 12–45 miles.
+  const long = total > 300
+  const target = long ? total / 7 : Math.min(45, Math.max(12, total / 4))
   const out: StripContent['stretches'] = []
   let start = 0
-  for (let i = 1; i < main.length && out.length < 5; i++) {
+  for (let i = 1; i < main.length && out.length < (long ? 8 : 5); i++) {
     if (main[i].mile - main[start].mile >= target || i === main.length - 1) {
       const [a, b] = [main[start], main[i]]
       out.push({

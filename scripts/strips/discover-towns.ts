@@ -11,7 +11,9 @@ const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway strip maps; personal pro
 const NEAR_MI = 1.5 // a town must be this close to the mapped road
 // Every 8 mi: any road point is ≤ 4 mi from a search centre, so towns ≤ 1.5 mi off the road are ≤ 5.5 mi away, inside the 10 km (6.2 mi) radius.
 const SAMPLE_MI = 8
-const LANDMARK_NEAR_MI = 1
+// --wide (used when retrying dropped roads) widens the landmark search.
+const WIDE = process.argv.includes('--wide')
+const LANDMARK_NEAR_MI = WIDE ? 1.5 : 1
 // Buildings and facilities that merely contain a landmark word ("Milner Pass Road Camp Mess Hall and House").
 const NOT_A_LANDMARK =
   /\b(House|Hall|Club|Lodge|Station|Stations|Road|Highway|Byway|Historic District|Cabin|Entrance|Camp|Utility|Comfort|School|Church|Hotel|Inn|Store|Company|Mine|Resort|Airport|caldera)\b/i
@@ -51,7 +53,7 @@ const raw = await json<{
   features: { properties: { BYWAY_ID: number }; geometry: { type: string; coordinates: Position[] | Position[][] } }[]
 }>('data/raw/scenic_byways.geojson')
 
-for (const id of process.argv.slice(2)) {
+for (const id of process.argv.slice(2).filter((arg) => !arg.startsWith('--'))) {
   const target = new URL(`content/strips/${id}.json`, ROOT)
   if (existsSync(target)) {
     console.log(`${id}: content exists, skipping`)
@@ -92,7 +94,8 @@ for (const id of process.argv.slice(2)) {
   // Park and wilderness roads (Trail Ridge, Tioga) pass few or no towns: fall back to named natural and park landmarks close to
   // the road, marked kind "landmark" so the ribbon shows them as landmarks, not towns.
   const landmarks = new Map<string, Position>()
-  if (found.size < 2) {
+  // Fewer than three towns: add landmarks so the drive has enough places to read as a journey.
+  if (found.size < 3) {
     for (const c of centres) {
       const d = await api({
         action: 'query',

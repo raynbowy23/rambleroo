@@ -23,6 +23,12 @@ interface Byway {
 const args = process.argv.slice(2)
 const limit = args.includes('--limit') ? Number(args[args.indexOf('--limit') + 1]) : Infinity
 const nationalOnly = args.includes('--national-only')
+const minMiles = args.includes('--min') ? Number(args[args.indexOf('--min') + 1]) : 20
+const maxMiles = args.includes('--max') ? Number(args[args.indexOf('--max') + 1]) : 500
+// --retry-dropped: give roads dropped for too few places another try with the wider landmark search.
+const retryDropped = args.includes('--retry-dropped')
+// Not drives: ferry routes are byways on paper but have no road to scroll along.
+const NOT_A_DRIVE = /Marine Highway|Ferry/i
 
 await mkdir(path('data/strips/'), { recursive: true })
 const skipped = await json<Record<string, string>>('data/strips/skipped.json', {})
@@ -30,7 +36,9 @@ const catalog = (await json<{ byways: Byway[] }>('public/data/catalog.json')).by
 const indexIds = async () => new Set(await json<string[]>('public/data/strips/index.json', []))
 
 // Buildable: a real drive, not a spur or a cross-country route.
-const eligible = catalog.filter((b) => b.mappedMiles >= 20 && b.mappedMiles <= 500)
+if (retryDropped)
+  for (const [id, reason] of Object.entries(skipped)) if (/town\(s\) on the main drive|no stretches/.test(reason)) delete skipped[id]
+const eligible = catalog.filter((b) => b.mappedMiles >= minMiles && b.mappedMiles <= maxMiles && !NOT_A_DRIVE.test(b.name))
 const have = await indexIds()
 const coveredStates = new Set(catalog.filter((b) => have.has(b.id)).flatMap((b) => b.states))
 const national = (b: Byway) => b.nationalScenicByway || b.allAmericanRoad
@@ -42,8 +50,8 @@ const queue = eligible
 
 const log = async (entry: Record<string, unknown>) =>
   appendFile(path('data/strips/batch-log.jsonl'), JSON.stringify({ at: new Date().toISOString(), ...entry }) + '\n')
-const run = (script: string, id: string) =>
-  spawnSync('npx', ['tsx', `scripts/strips/${script}`, id], { cwd: ROOT, encoding: 'utf8', timeout: 20 * 60 * 1000 })
+const run = (script: string, id: string, extra: string[] = []) =>
+  spawnSync('npx', ['tsx', `scripts/strips/${script}`, id, ...extra], { cwd: ROOT, encoding: 'utf8', timeout: 30 * 60 * 1000 })
 
 async function drop(id: string, reason: string, createdContent: boolean) {
   skipped[id] = reason
@@ -62,7 +70,7 @@ for (const [n, b] of queue.entries()) {
   const started = Date.now()
   const createdContent = !existsSync(path(`content/strips/${b.id}.json`))
   if (createdContent) {
-    const d = run('discover-towns.ts', b.id)
+    const d = run('discover-towns.ts', b.id, retryDropped ? ['--wide'] : [])
     if (d.status !== 0) {
       await drop(b.id, `discovery failed: ${(d.stderr || d.stdout).split('\n').find((l) => /Error/.test(l)) ?? 'unknown'}`, createdContent)
       dropped++
