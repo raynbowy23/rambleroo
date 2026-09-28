@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import maplibregl, { type GeoJSONSource, type Map } from '../map/maplibre'
-import { setRelief, isTerrainError } from '../map/terrain'
+import { setRelief, isTerrainError, terrainSource } from '../map/terrain'
 import { bearing } from '../map/routeJourney'
 import { useGarage } from '../../lib/garage'
 import { useMotionEnabled } from '../../lib/motion'
@@ -12,12 +12,23 @@ import s from './Strip.module.css'
 import type { BywaySummary } from '../../lib/types'
 import { bindMapGestures, defaultView, type ViewOffsets } from './mapGestures'
 import { MapPins, type PinPosition } from './MapPins'
+import { applySeasonStyle, seasonalTerrain, seasonProfile, seasonLabel, seasons, type Season } from './seasonStyle'
+import { SeasonalWeather } from './SeasonalWeather'
 
 export type PositionSink = (point: Coordinate, inGap: boolean, route: StripPath, mile: number) => void
 
 declare global {
   interface Window {
-    __rambleroo3d?: { center: () => number[]; car: () => boolean; zoom: () => number; bearing: () => number; offsets: () => ViewOffsets }
+    __rambleroo3d?: {
+      center: () => number[]
+      car: () => boolean
+      zoom: () => number
+      bearing: () => number
+      offsets: () => ViewOffsets
+      season: () => Season
+      climate: () => string
+      landColor: () => unknown
+    }
   }
 }
 export function InsetMap({
@@ -27,14 +38,22 @@ export function InsetMap({
   relief,
   scene,
   onFailure,
+  season,
+  onSeasonChange,
 }: {
   data: StripData
   byway: BywaySummary
   registerPosition: (sink: PositionSink | undefined) => void
   relief: boolean
   scene: string
+  season: Season
+  onSeasonChange: (season: Season) => void
   onFailure: () => void
 }) {
+  const [elevation, setElevation] = useState<number>()
+  const profile = useMemo(() => seasonProfile(season, byway, elevation), [season, byway, elevation])
+  const currentProfile = useRef(profile)
+  currentProfile.current = profile
   const offsets = useRef(defaultView())
   const [adjusted, setAdjusted] = useState(false)
   const [hint, setHint] = useState(true)
@@ -182,6 +201,9 @@ export function InsetMap({
           zoom: () => map.getZoom(),
           bearing: () => map.getBearing(),
           offsets: () => ({ ...offsets.current }),
+          season: () => currentProfile.current.season,
+          climate: () => currentProfile.current.climate,
+          landColor: () => landColor(map),
         }
     })
     return () => {
@@ -194,10 +216,28 @@ export function InsetMap({
   }, [data, registerPosition, scene])
   useEffect(() => {
     if (!ready) return
+    if (!relief && ready.getLayer(seasonalTerrain)) ready.removeLayer(seasonalTerrain)
     setRelief(ready, relief)
     ready.setLayoutProperty('car', 'visibility', relief ? 'none' : 'visible')
     ready.resize()
     frameView.current()
+  }, [ready, relief])
+  useEffect(() => {
+    if (!ready) return
+    applySeasonStyle(ready, profile, relief)
+    car3d.current?.setSnow(profile.snowy)
+  }, [ready, profile, relief])
+  useEffect(() => {
+    if (!ready || !relief) return
+    const sample = () => {
+      if (!ready.isSourceLoaded(terrainSource)) return
+      const height = ready.queryTerrainElevation(currentPosition.current.point)
+      if (height !== null) setElevation(Math.round(height / (ready.getTerrain()?.exaggeration ?? 1)))
+    }
+    ready.on('idle', sample)
+    return () => {
+      ready.off('idle', sample)
+    }
   }, [ready, relief])
   useEffect(() => {
     if (!ready || !relief || !available) return
@@ -210,6 +250,7 @@ export function InsetMap({
         const car = createCarLayer(garage, point, heading)
         ready.addLayer(car.layer)
         car3d.current = car
+        car.setSnow(currentProfile.current.snowy)
         remove = () => {
           car3d.current = undefined
           if (ready.getLayer(carLayerId)) ready.removeLayer(carLayerId)
@@ -292,6 +333,16 @@ export function InsetMap({
       data-testid={relief ? 'strip-3d' : 'strip-inset'}
     >
       <div ref={container} className={s.map} />
+      {relief && motion && profile.weather && <SeasonalWeather kind={profile.weather} />}
+      {relief && (
+        <button
+          className={s.seasonChip}
+          aria-label={`Change map season: ${seasonLabel(profile, byway.region)}`}
+          onClick={() => onSeasonChange(seasons[(seasons.indexOf(season) + 1) % seasons.length])}
+        >
+          {seasonLabel(profile, byway.region)}
+        </button>
+      )}
       {ready && <MapPins map={ready} data={data} byway={byway} position={pinPosition} updatePins={updatePins} />}
       <div className={s.mapControls} role="group" aria-label="Map view controls">
         <button aria-label="Zoom in" onClick={() => adjust({ zoom: 0.5 })}>
@@ -335,4 +386,9 @@ export function InsetMap({
       <small className={s.mapCredit}>USDOT · Natural Earth</small>
     </aside>
   )
+}
+
+function landColor(map: Map) {
+  const paint = map.getPaintProperty('land', 'fill-color')
+  return Array.isArray(paint) ? paint[3] : paint
 }

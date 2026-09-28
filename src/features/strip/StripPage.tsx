@@ -254,7 +254,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         <p className={s.draft}>{data.reviewed ? 'Reviewed strip map' : 'Draft · pending review'}</p>
         <p>{data.direction}</p>
         {/* Seasons at a glance: the same illustrated view of this road in all four seasons, side by side, so the difference is visible
-            without toggling. Choosing one also repaints the illustrated stops along the ribbon. Photos never change with season. */}
+            without toggling. Choosing one repaints the map and illustrated stops along the ribbon. Photos never change with season. */}
         <fieldset className={s.seasonGlance}>
           <legend>The same road, four seasons</legend>
           <div className={s.seasonGrid}>
@@ -277,7 +277,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
               </button>
             ))}
           </div>
-          <small>Illustrated seasons · artwork, not photographs</small>
+          <small>Choose a season for the illustrations and map · artwork, not photographs</small>
         </fieldset>
         <p className={s.scrollHint}>
           Scroll to drive. Pick a stretch to make it yours. <span aria-hidden="true">↓</span>
@@ -309,6 +309,8 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
           data={data}
           registerPosition={registerPosition}
           relief={relief}
+          season={season}
+          onSeasonChange={setSeason}
           scene={byway.scene}
           onFailure={reliefFailed}
         />

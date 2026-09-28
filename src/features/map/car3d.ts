@@ -17,6 +17,17 @@ export function createCarLayer(garage: Garage, initial: [number, number], headin
   const view = new THREE.Matrix4()
   const scene = new THREE.Scene()
   const vehicle = buildVehicle(garage)
+  const snow = new THREE.Mesh(
+    new THREE.BoxGeometry(
+      1.75,
+      garage.model === 'camper' ? 3.6 : garage.model === 'pickup' ? 1.4 : garage.model === 'wagon' ? 2.8 : 2.1,
+      0.08,
+    ),
+    new THREE.MeshStandardMaterial({ color: '#f7faff', roughness: 1 }),
+  )
+  snow.position.set(0, garage.model === 'pickup' ? 0.65 : garage.model === 'camper' ? 0 : -0.15, garage.model === 'camper' ? 2.63 : 2.23)
+  snow.visible = false
+  vehicle.add(snow)
   scene.add(vehicle, new THREE.AmbientLight(0xffffff, 2))
   const sun = new THREE.DirectionalLight(0xfff5db, 3)
   sun.position.set(-4, 5, 8)
@@ -93,6 +104,10 @@ export function createCarLayer(garage: Garage, initial: [number, number], headin
   }
   return {
     layer,
+    setSnow(enabled: boolean) {
+      snow.visible = enabled && !garage.usePicture && garage.model !== 'motorcycle' && garage.model !== 'convertible'
+      map?.triggerRepaint()
+    },
     update(next: [number, number], angle: number) {
       point = next
       bearing = angle

@@ -936,3 +936,56 @@
     transition: none;
   }
 }
+
+.seasonChip {
+  position: absolute;
+  right: 8px;
+  bottom: 58px;
+  z-index: 2;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--ink-muted);
+  border-radius: var(--radius-pill);
+  background: var(--card);
+  color: var(--ink);
+  font-size: 12px;
+}
+.weather {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.weather i {
+  position: absolute;
+  top: -12px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.8;
+  animation: seasonalFall 10s linear infinite;
+}
+.weather[data-weather='leaves'] i {
+  width: 8px;
+  height: 5px;
+  border-radius: 0 70%;
+  background: #ae5726;
+}
+.weather[data-weather='petals'] i {
+  width: 7px;
+  background: #f8c8d9;
+}
+.weather[data-paused='true'] i {
+  animation-play-state: paused;
+}
+@keyframes seasonalFall {
+  to {
+    transform: translate(40px, 65vh) rotate(230deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .weather {
+    display: none;
+  }
+}
