@@ -31,7 +31,8 @@ export function MapPins({
     return [...data.towns, ...data.moments].map((place, i) => ({
       at: place.at,
       card: cards[i],
-      icon: landmarkKind('kind' in place ? place.kind : 'town', cards[i].scene, cards[i].motifs),
+      // Stops carry a moment kind; towns are 'town', and park landmarks get a roadside icon chosen by scene and motifs.
+      icon: landmarkKind('title' in place ? place.kind : place.kind === 'landmark' ? 'roadside' : 'town', cards[i].scene, cards[i].motifs),
     }))
   }, [data])
   const [hosts, setHosts] = useState<HTMLDivElement[]>([])

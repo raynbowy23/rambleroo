@@ -194,7 +194,8 @@ export function Ribbon({
                     <PhotoChip photo={town.photo} />
                   </div>
                 ) : (
-                  <span aria-hidden="true">⌂</span>
+                  // Park and wilderness roads have landmarks (passes, lakes, peaks) instead of towns.
+                  <span aria-hidden="true">{town.kind === 'landmark' ? '▲' : '⌂'}</span>
                 )}
                 <strong>{town.name}</strong>
                 {/* One postcard per place: when a story stop shares the town's name (Ephraim), the stop's card, which has the photo, carries it. */}

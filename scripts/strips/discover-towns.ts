@@ -11,6 +11,13 @@ const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway strip maps; personal pro
 const NEAR_MI = 1.5 // a town must be this close to the mapped road
 // Every 8 mi: any road point is ≤ 4 mi from a search centre, so towns ≤ 1.5 mi off the road are ≤ 5.5 mi away, inside the 10 km (6.2 mi) radius.
 const SAMPLE_MI = 8
+const LANDMARK_NEAR_MI = 1
+// Buildings and facilities that merely contain a landmark word ("Milner Pass Road Camp Mess Hall and House").
+const NOT_A_LANDMARK =
+  /\b(House|Hall|Club|Lodge|Station|Stations|Road|Highway|Byway|Historic District|Cabin|Entrance|Camp|Utility|Comfort|School|Church|Hotel|Inn|Store|Company|Mine|Resort|Airport|caldera)\b/i
+// Natural and park features only; buildings, companies and people are excluded by requiring one of these words.
+const LANDMARK =
+  /\b(Pass|Summit|Peak|Mountain|Mount|Dome|Lake|Falls|Overlook|Viewpoint|Vista|Point|Meadows?|Grove|Canyon|Gorge|Gap|Bald|Knob|Ridge|Visitor Center|Springs|Butte|Arch|Glacier|Notch)\b/
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 const json = async <T>(rel: string): Promise<T> => JSON.parse(await readFile(new URL(rel, ROOT), 'utf8'))
 
@@ -82,13 +89,54 @@ for (const id of process.argv.slice(2)) {
       if (nearest(at, pts) <= NEAR_MI) found.set(title, at)
     }
   }
+  // Park and wilderness roads (Trail Ridge, Tioga) pass few or no towns: fall back to named natural and park landmarks close to
+  // the road, marked kind "landmark" so the ribbon shows them as landmarks, not towns.
+  const landmarks = new Map<string, Position>()
+  if (found.size < 2) {
+    for (const c of centres) {
+      const d = await api({
+        action: 'query',
+        list: 'geosearch',
+        gscoord: `${c[1]}|${c[0]}`,
+        gsradius: '10000',
+        gslimit: '50',
+        gsnamespace: '0',
+      })
+      for (const hit of d.query?.geosearch ?? []) {
+        const title: string = hit.title
+        if (!LANDMARK.test(title) || NOT_A_LANDMARK.test(title) || /^(List|History|Timeline) of/.test(title)) continue
+        const at: Position = [hit.lon, hit.lat]
+        if (nearest(at, pts) <= LANDMARK_NEAR_MI) landmarks.set(title, at)
+      }
+    }
+  }
+
   // "Lincoln (CDP)" and "Lincoln" are the same place for a traveller; keep one, preferring the plain title.
   const byName = new Map<string, string>()
   for (const title of [...found.keys()].sort((a, b) => a.length - b.length)) {
     const name = title.split(',')[0].replace(/\s*\((CDP|village|town|city)\)$/i, '')
     if (!byName.has(name)) byName.set(name, title)
   }
-  const towns = [...byName].map(([name, wikipedia]) => ({ name, wikipedia }))
+  const towns: { name: string; wikipedia: string; kind?: 'landmark'; weight?: number }[] = [...byName].map(([name, wikipedia]) => ({
+    name,
+    wikipedia,
+  }))
+  for (const title of landmarks.keys())
+    towns.push({ name: title.replace(/\s*\(.*\)$/, '').split(',')[0], wikipedia: title, kind: 'landmark' })
+  // Article length as a notability weight, so spacing keeps Tuolumne Meadows over an obscure dome nearby.
+  for (let k = 0; k < towns.length; k += 50) {
+    const d = await api({
+      action: 'query',
+      prop: 'info',
+      redirects: '1',
+      titles: towns
+        .slice(k, k + 50)
+        .map((t) => t.wikipedia)
+        .join('|'),
+    })
+    const length = new Map<string, number>((d.query?.pages ?? []).map((p: { title: string; length?: number }) => [p.title, p.length ?? 0]))
+    for (const t of towns.slice(k, k + 50)) t.weight = length.get(t.wikipedia) ?? 0
+  }
   await writeFile(
     target,
     JSON.stringify(

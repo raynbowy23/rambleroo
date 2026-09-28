@@ -24,7 +24,7 @@ interface StripContent {
   reviewed: boolean
   title: string
   direction: string
-  towns: { name: string; wikipedia: string; branch?: string }[]
+  towns: { name: string; wikipedia: string; branch?: string; kind?: 'town' | 'landmark'; weight?: number }[]
   stretches: { id: string; title: string; from: string; to: string; branch?: string; scene: string; line: string }[]
   /** Keep only source pieces whose midpoint lies in this state (for multi-state roads like the Great River Road). */
   clipToState?: string
@@ -263,7 +263,12 @@ const placed = content.towns.map((t) => {
     if (content.generated) return undefined
     throw new Error(`${t.name} is more than ${PLACE_MI} mi from the mapped road`)
   }
-  return { name: t.name, source: `https://en.wikipedia.org/wiki/${encodeURIComponent(t.wikipedia.replace(/ /g, '_'))}`, ...where }
+  return {
+    name: t.name,
+    ...(t.kind ? { kind: t.kind } : {}),
+    source: `https://en.wikipedia.org/wiki/${encodeURIComponent(t.wikipedia.replace(/ /g, '_'))}`,
+    ...where,
+  }
 })
 let towns = placed.filter((t): t is NonNullable<typeof t> => !!t)
 if (content.generated) {
@@ -271,12 +276,13 @@ if (content.generated) {
   towns.sort((a, b) => (a.on === b.on ? a.mile - b.mile : a.on === 'main' ? -1 : 1))
   const minGap = Math.max(3, (cum[cum.length - 1] || 0) / 16)
   // Space against the last town kept (comparing to the previous candidate dropped almost every town on dense roads).
+  // Pick the most notable places first (Wikipedia article length, when discovery recorded it), keeping them minGap apart,
+  // then restore drive order. Without weights this is the same as taking places in mile order.
+  const weight = new Map(content.towns.map((t) => [t.name, t.weight ?? 0]))
+  const byNotability = [...towns].sort((a, b) => (weight.get(b.name) ?? 0) - (weight.get(a.name) ?? 0) || a.mile - b.mile)
   const spaced: typeof towns = []
-  for (const t of towns) {
-    const last = spaced.at(-1)
-    if (!last || t.on !== last.on || t.mile - last.mile >= minGap) spaced.push(t)
-  }
-  towns = spaced
+  for (const t of byNotability) if (spaced.every((k) => k.on !== t.on || Math.abs(k.mile - t.mile) >= minGap)) spaced.push(t)
+  towns = spaced.sort((a, b) => (a.on === b.on ? a.mile - b.mile : a.on === 'main' ? -1 : 1))
   if (!content.direction && towns.length >= 2)
     content.direction = `Follows the mapped byway from ${towns[0].name} to ${towns.filter((t) => t.on === 'main').at(-1)!.name}.`
   if (!content.stretches.length) content.stretches = draftStretches(towns.filter((t) => t.on === 'main'))

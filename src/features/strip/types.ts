@@ -31,7 +31,16 @@ export interface StripData {
   sources: { geometry: string; towns: string; driveTimes: string }
   main: StripPath
   branch?: StripPath & { joinsAtMile: number; name: string }
-  towns: { photo?: Photo; name: string; source: string; on: 'main' | 'branch'; mile: number; offRouteMiles: number; at: Coordinate }[]
+  towns: {
+    photo?: Photo
+    kind?: 'town' | 'landmark'
+    name: string
+    source: string
+    on: 'main' | 'branch'
+    mile: number
+    offRouteMiles: number
+    at: Coordinate
+  }[]
   moments: (StoryMoment & { on: 'main' | 'branch'; mile: number; offRouteMiles: number; at: Coordinate; photo?: Photo })[]
   stretches: Stretch[]
 }
