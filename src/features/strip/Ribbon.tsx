@@ -83,9 +83,20 @@ export function Ribbon({
   const contains = (mile: number) => mile >= from && (mile < to || (to === route.miles && mile <= to + 0.1))
   const pathBetween = (a: number, b: number) => (
     <g key={a} transform={`translate(0 ${y(a)})`}>
-      <path d={geometry.path(a, b)} stroke="var(--ink)" strokeWidth="22" />
-      <path d={geometry.path(a, b)} stroke="#c49868" strokeWidth="17" />
-      <path d={geometry.path(a, b)} stroke="var(--paper)" strokeWidth="2" strokeDasharray="9 12" />
+      {data.mode === 'ferry' ? (
+        // A sea lane: open water with a dashed ferry track, not a paved road.
+        <>
+          <path d={geometry.path(a, b)} stroke="var(--map-water-deep)" strokeWidth="26" strokeOpacity=".35" />
+          <path d={geometry.path(a, b)} stroke="var(--map-water)" strokeWidth="18" />
+          <path d={geometry.path(a, b)} stroke="var(--paper)" strokeWidth="2.4" strokeDasharray="3 9" strokeLinecap="round" />
+        </>
+      ) : (
+        <>
+          <path d={geometry.path(a, b)} stroke="var(--ink)" strokeWidth="22" />
+          <path d={geometry.path(a, b)} stroke="#c49868" strokeWidth="17" />
+          <path d={geometry.path(a, b)} stroke="var(--paper)" strokeWidth="2" strokeDasharray="9 12" />
+        </>
+      )}
     </g>
   )
   return (

@@ -27,8 +27,6 @@ const minMiles = args.includes('--min') ? Number(args[args.indexOf('--min') + 1]
 const maxMiles = args.includes('--max') ? Number(args[args.indexOf('--max') + 1]) : 500
 // --retry-dropped: give roads dropped for too few places another try with the wider landmark search.
 const retryDropped = args.includes('--retry-dropped')
-// Not drives: ferry routes are byways on paper but have no road to scroll along.
-const NOT_A_DRIVE = /Marine Highway|Ferry/i
 
 await mkdir(path('data/strips/'), { recursive: true })
 const skipped = await json<Record<string, string>>('data/strips/skipped.json', {})
@@ -38,7 +36,7 @@ const indexIds = async () => new Set(await json<string[]>('public/data/strips/in
 // Buildable: a real drive, not a spur or a cross-country route.
 if (retryDropped)
   for (const [id, reason] of Object.entries(skipped)) if (/town\(s\) on the main drive|no stretches/.test(reason)) delete skipped[id]
-const eligible = catalog.filter((b) => b.mappedMiles >= minMiles && b.mappedMiles <= maxMiles && !NOT_A_DRIVE.test(b.name))
+const eligible = catalog.filter((b) => b.mappedMiles >= minMiles && b.mappedMiles <= maxMiles)
 const have = await indexIds()
 const coveredStates = new Set(catalog.filter((b) => have.has(b.id)).flatMap((b) => b.states))
 const national = (b: Byway) => b.nationalScenicByway || b.allAmericanRoad

@@ -23,6 +23,8 @@ export interface Stretch {
   line: string
 }
 export interface StripData {
+  /** 'ferry' for sea routes (Alaska's Marine Highway): drawn as water, no driving times or road directions. */
+  mode?: 'drive' | 'ferry'
   bywayId: string
   title: string
   reviewed: boolean

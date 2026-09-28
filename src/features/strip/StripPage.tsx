@@ -85,7 +85,9 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
     query.addEventListener('change', update)
     return () => query.removeEventListener('change', update)
   }, [])
-  const scale = pixelsPerMile(data.main.miles, phone)
+  const ferry = data.mode === 'ferry'
+  // A 3,876-mile sea route needs a finer scale than any road to stay a readable scroll.
+  const scale = pixelsPerMile(data.main.miles, phone, ferry ? 2.4 : 6)
   const [garageOpen, setGarageOpen] = useState(false)
   const [params, setParams] = useSearchParams()
   const selected = data.stretches.find((stretch) => stretch.id === params.get('stretch'))
@@ -396,22 +398,35 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
           <p>{selected.line}</p>
           <strong>
             ≈ {selected.mappedMiles} mi
-            {selected.minutes === null ? ' · drive time not verified for this stretch' : ` · about ${selected.minutes} min driving`}
+            {ferry
+              ? ' by sea'
+              : selected.minutes === null
+                ? ' · drive time not verified for this stretch'
+                : ` · about ${selected.minutes} min driving`}
           </strong>
           <small>
-            {selected.minutes === null
-              ? 'We could not confirm a route that follows this exact stretch, so we show the mapped distance only.'
-              : 'Drive time routed with OpenStreetMap data (OSRM); excludes stops and traffic.'}
+            {ferry
+              ? 'A ferry route: sailings and times follow the ferry schedule, and your car can come aboard.'
+              : selected.minutes === null
+                ? 'We could not confirm a route that follows this exact stretch, so we show the mapped distance only.'
+                : 'Drive time routed with OpenStreetMap data (OSRM); excludes stops and traffic.'}
           </small>
           <div className={s.panelActions}>
-            <a
-              className="btn btn-primary"
-              href={googleMapsUrl(selected.on === 'main' ? data.main : data.branch!, selected)}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Drive this stretch
-            </a>
+            {ferry ? (
+              // Sea routes can't be handed to road navigation; link the operator's schedules instead.
+              <a className="btn btn-primary" href="https://dot.alaska.gov/amhs/" target="_blank" rel="noreferrer">
+                Ferry schedules
+              </a>
+            ) : (
+              <a
+                className="btn btn-primary"
+                href={googleMapsUrl(selected.on === 'main' ? data.main : data.branch!, selected)}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Drive this stretch
+              </a>
+            )}
             {/* A toggle like the road Save button: saved stretches can be unsaved right here, not only from the passport. */}
             {(() => {
               const isSaved = saved.some((entry) => entry.bywayId === byway.id && entry.stretchId === selected.id)

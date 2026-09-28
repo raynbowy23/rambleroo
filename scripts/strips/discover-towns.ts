@@ -38,11 +38,16 @@ const NOT_A_TOWN =
 
 async function api(params: Record<string, string>) {
   const url = 'https://en.wikipedia.org/w/api.php?' + new URLSearchParams({ format: 'json', formatversion: '2', ...params })
-  for (let i = 0; i < 6; i++) {
+  // Patient back-off (up to ~15 minutes in total): long roads make hundreds of requests, and throttling is temporary.
+  for (let i = 0; i < 10; i++) {
     await sleep(700)
-    const res = await fetch(url, { headers: UA })
-    if (res.ok) return res.json()
-    await sleep(10000 * (i + 1))
+    try {
+      const res = await fetch(url, { headers: UA })
+      if (res.ok) return res.json()
+    } catch {
+      // network hiccup: back off like a throttle
+    }
+    await sleep(Math.min(120000, 15000 * (i + 1)))
   }
   throw new Error('Wikipedia unavailable')
 }

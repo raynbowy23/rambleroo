@@ -218,6 +218,8 @@ if (branch) {
 // ---------- 3. place things on the ribbon ----------
 const catalog = (await json<{ byways: { id: string; name: string; scene: string }[] }>('public/data/catalog.json')).byways
 const sceneOf = catalog.find((b) => b.id === id)?.scene ?? 'prairie'
+// Sea routes (Alaska's Marine Highway) are byways but not drives: no road routing, and the UI draws them as water.
+const ferry = /Marine Highway|Ferry/i.test(catalog.find((b) => b.id === id)?.name ?? '')
 if (!catalog.some((b) => b.id === id)) throw new Error(`${id} not in catalog`)
 const story = await json<{ moments: { title: string; kind: string; text: string; scene: string; motifs?: string[]; at?: Position }[] }>(
   `content/stories/${id}.json`,
@@ -306,7 +308,7 @@ function draftStretches(main: { name: string; mile: number }[]): StripContent['s
         from: a.name,
         to: b.name,
         scene: sceneOf,
-        line: `The byway between ${a.name} and ${b.name}.`,
+        line: ferry ? `Sailing between ${a.name} and ${b.name}.` : `The byway between ${a.name} and ${b.name}.`,
       })
       start = i
     }
@@ -392,7 +394,7 @@ for (const s of content.stretches) {
     fromMile = a.mile
     toMile = b.mile
   }
-  let routed = await osrm(line)
+  let routed = ferry ? { minutes: null, routedMiles: null } : await osrm(line)
   // Also check against the miles the page shows (the sliced line can drop endpoints on very short stretches).
   const shown = Math.abs(toMile - fromMile)
   if (routed.routedMiles !== null && Math.abs(routed.routedMiles - shown) / shown > 0.1) routed = { minutes: null, routedMiles: null }
@@ -414,6 +416,7 @@ const out = {
   title: content.title,
   reviewed: content.reviewed,
   generated: content.generated ?? false,
+  mode: ferry ? 'ferry' : 'drive',
   direction: content.direction,
   builtAt: new Date().toISOString(),
   sources: {

@@ -1,7 +1,7 @@
 import type { Coordinate, Stretch, StripPath } from './types'
 
 // Floor of 6 px/mile keeps cross-country roads (Route 66, 1,637 mi) near a 10,000 px scroll instead of 29,000.
-export const pixelsPerMile = (miles: number, phone = false) => clamp((phone ? 7000 : 9000) / Math.max(1, miles), 6, 110)
+export const pixelsPerMile = (miles: number, phone = false, floor = 6) => clamp((phone ? 7000 : 9000) / Math.max(1, miles), floor, 110)
 export const milePostInterval = (scale: number) => (scale >= 60 ? 5 : scale >= 30 ? 10 : scale >= 12 ? 25 : 50)
 export const clamp = (value: number, min: number, max: number) => Math.max(min, Math.min(max, value))
 
