@@ -304,7 +304,14 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         </button>
       </div>
       <div className={s.mapDock}>
-        <InsetMap data={data} registerPosition={registerPosition} relief={relief} scene={byway.scene} onFailure={reliefFailed} />
+        <InsetMap
+          byway={byway}
+          data={data}
+          registerPosition={registerPosition}
+          relief={relief}
+          scene={byway.scene}
+          onFailure={reliefFailed}
+        />
       </div>
       <div className={s.journey} ref={ribbonArea}>
         <div className={s.start}>

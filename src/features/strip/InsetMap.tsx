@@ -6,30 +6,41 @@ import { useGarage } from '../../lib/garage'
 import { useMotionEnabled } from '../../lib/motion'
 import type { createCarLayer } from '../map/car3d'
 import { createMapStyle, palette } from '../map/style'
-import { coordinateAtMile, mappedIntervals } from './geometry'
+import { clamp, coordinateAtMile, mappedIntervals } from './geometry'
 import type { Coordinate, StripData, StripPath } from './types'
 import s from './Strip.module.css'
+import type { BywaySummary } from '../../lib/types'
+import { bindMapGestures, defaultView, type ViewOffsets } from './mapGestures'
+import { MapPins, type PinPosition } from './MapPins'
 
 export type PositionSink = (point: Coordinate, inGap: boolean, route: StripPath, mile: number) => void
 
 declare global {
   interface Window {
-    __rambleroo3d?: { center: () => number[]; car: () => boolean }
+    __rambleroo3d?: { center: () => number[]; car: () => boolean; zoom: () => number; bearing: () => number; offsets: () => ViewOffsets }
   }
 }
 export function InsetMap({
   data,
+  byway,
   registerPosition,
   relief,
   scene,
   onFailure,
 }: {
   data: StripData
+  byway: BywaySummary
   registerPosition: (sink: PositionSink | undefined) => void
   relief: boolean
   scene: string
   onFailure: () => void
 }) {
+  const offsets = useRef(defaultView())
+  const [adjusted, setAdjusted] = useState(false)
+  const [hint, setHint] = useState(true)
+  const surface = useRef<HTMLElement>(null)
+  const pinPosition = useRef<PinPosition>({ on: 'main', mile: 0 })
+  const updatePins = useRef<() => void>(() => {})
   const garage = useGarage()
   const motion = useMotionEnabled()
   const settings = useRef({ relief, motion, onFailure })
@@ -45,7 +56,13 @@ export function InsetMap({
     if (!container.current) return
     let map: Map
     try {
-      map = new maplibregl.Map({ container: container.current, style: createMapStyle(), interactive: false, attributionControl: false })
+      map = new maplibregl.Map({
+        container: container.current,
+        style: createMapStyle(),
+        interactive: false,
+        attributionControl: false,
+        maxPitch: 75,
+      })
     } catch {
       setAvailable(false)
       return
@@ -64,16 +81,23 @@ export function InsetMap({
     const points = [...data.main.path, ...(data.branch?.path ?? [])]
     const bounds = points.reduce((bounds, point) => bounds.extend(point), new maplibregl.LngLatBounds(points[0], points[0]))
     const fit = () => {
+      const offset = offsets.current
       if (settings.current.relief)
         map.jumpTo({
           center: currentPosition.current.point,
-          bearing: currentPosition.current.heading,
-          pitch: 62,
-          zoom: data.main.miles > 100 ? 13 : 13.7,
+          bearing: currentPosition.current.heading + offset.bearing,
+          pitch: clamp(62 + offset.pitch, 30, 75),
+          zoom: clamp((data.main.miles > 100 ? 13 : 13.7) + offset.zoom, map.getMinZoom(), map.getMaxZoom()),
         })
       else {
-        map.jumpTo({ pitch: 0, bearing: 0 })
-        map.fitBounds(bounds, { padding: 18, duration: 0 })
+        const camera = map.cameraForBounds(bounds, { padding: 18 })
+        if (camera)
+          map.jumpTo({
+            center: offset.zoom || offset.bearing ? currentPosition.current.point : camera.center,
+            zoom: clamp((camera.zoom ?? map.getZoom()) + offset.zoom, map.getMinZoom(), map.getMaxZoom()),
+            pitch: 0,
+            bearing: offset.bearing,
+          })
       }
     }
     frameView.current = fit
@@ -96,8 +120,10 @@ export function InsetMap({
             0.15
         : target
       currentPosition.current = { point, heading }
+      pinPosition.current = { on: route === data.branch ? 'branch' : 'main', mile }
+      updatePins.current()
+      if (settings.current.relief || offsets.current.zoom || offsets.current.bearing) fit()
       if (settings.current.relief) {
-        fit()
         car3d.current?.update(point, target)
       }
       current = point
@@ -153,6 +179,9 @@ export function InsetMap({
         window.__rambleroo3d = {
           center: () => map.getCenter().toArray(),
           car: () => !!map.getLayer('garage-car-3d'),
+          zoom: () => map.getZoom(),
+          bearing: () => map.getBearing(),
+          offsets: () => ({ ...offsets.current }),
         }
     })
     return () => {
@@ -197,6 +226,28 @@ export function InsetMap({
   useEffect(() => {
     if (relief && !available) onFailure()
   }, [relief, available, onFailure])
+  const adjust = (delta: Partial<ViewOffsets>) => {
+    const previous = offsets.current
+    offsets.current = {
+      zoom: clamp(previous.zoom + (delta.zoom ?? 0), -6, 6),
+      bearing: ((((previous.bearing + (delta.bearing ?? 0)) % 360) + 540) % 360) - 180,
+      pitch: relief ? clamp(previous.pitch + (delta.pitch ?? 0), -32, 13) : previous.pitch,
+    }
+    setAdjusted(Object.values(offsets.current).some((value) => value !== 0))
+    setHint(false)
+    frameView.current()
+  }
+  const gestureAdjust = useRef(adjust)
+  gestureAdjust.current = adjust
+  useEffect(() => {
+    if (!surface.current || !available) return
+    return bindMapGestures(surface.current, (delta) => gestureAdjust.current(delta))
+  }, [available])
+  useEffect(() => {
+    if (!ready) return
+    const timer = window.setTimeout(() => setHint(false), 6000)
+    return () => clearTimeout(timer)
+  }, [ready])
   if (!available) {
     const points = [...data.main.path, ...(data.branch?.path ?? [])]
     const west = Math.min(...points.map((p) => p[0])),
@@ -217,11 +268,60 @@ export function InsetMap({
   }
   return (
     <aside
+      ref={surface}
+      tabIndex={0}
+      onKeyDown={(event) => {
+        if (event.target !== event.currentTarget && event.target !== ready?.getCanvas()) return
+        const delta =
+          event.key === '+' || event.key === '='
+            ? { zoom: 0.5 }
+            : event.key === '-'
+              ? { zoom: -0.5 }
+              : event.key === '['
+                ? { bearing: -15 }
+                : event.key === ']'
+                  ? { bearing: 15 }
+                  : undefined
+        if (delta) {
+          event.preventDefault()
+          adjust(delta)
+        }
+      }}
       className={`${s.inset} ${expanded ? s.expanded : ''} ${relief ? s.reliefMap : ''}`}
       aria-label={relief ? '3D scroll-to-drive map' : 'Real road map'}
       data-testid={relief ? 'strip-3d' : 'strip-inset'}
     >
-      <div ref={container} className={s.map} aria-hidden="true" />
+      <div ref={container} className={s.map} />
+      {ready && <MapPins map={ready} data={data} byway={byway} position={pinPosition} updatePins={updatePins} />}
+      <div className={s.mapControls} role="group" aria-label="Map view controls">
+        <button aria-label="Zoom in" onClick={() => adjust({ zoom: 0.5 })}>
+          +
+        </button>
+        <button aria-label="Zoom out" onClick={() => adjust({ zoom: -0.5 })}>
+          −
+        </button>
+        <button aria-label="Rotate left" onClick={() => adjust({ bearing: -15 })}>
+          ↶
+        </button>
+        <button aria-label="Rotate right" onClick={() => adjust({ bearing: 15 })}>
+          ↷
+        </button>
+        {adjusted && (
+          <button
+            className={s.resetView}
+            onClick={() => {
+              offsets.current = defaultView()
+              setAdjusted(false)
+              frameView.current()
+            }}
+          >
+            Reset view
+          </button>
+        )}
+      </div>
+      <div className={`${s.mapHint} ${hint ? '' : s.hintHidden}`} aria-hidden="true">
+        Ctrl + scroll to zoom · Ctrl + drag to rotate
+      </div>
       {!relief && (
         <button
           className={s.mapToggle}

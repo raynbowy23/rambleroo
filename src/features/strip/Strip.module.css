@@ -784,3 +784,155 @@
     overflow: hidden;
   }
 }
+
+/* Leave native one-finger page scrolling available to the touch listeners. */
+.map,
+.map :global(.maplibregl-canvas-container),
+.map :global(.maplibregl-canvas) {
+  touch-action: auto;
+}
+.mapControls {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  pointer-events: none;
+}
+.mapControls button {
+  pointer-events: auto;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 4px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 22px;
+}
+.mapControls .resetView {
+  font-size: 12px;
+}
+.mapHint {
+  position: absolute;
+  bottom: 32px;
+  left: 8px;
+  right: 8px;
+  padding: 5px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 12px;
+  pointer-events: none;
+  transition: opacity 250ms;
+}
+.hintHidden {
+  opacity: 0;
+}
+.pinAnchor {
+  width: 44px;
+  height: 44px;
+}
+.mapPin {
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: var(--ink);
+}
+.pinPicture {
+  display: block;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  border: 2px solid var(--paper);
+  border-radius: 50%;
+  background: var(--paper);
+  box-shadow: 0 0 0 1px var(--ink);
+  overflow: hidden;
+}
+.pinPicture img,
+.pinPicture svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mapPin::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: var(--ink);
+  top: 24px;
+  bottom: 0;
+  left: calc(50% - 1px);
+}
+.pinLabel {
+  display: none;
+}
+.reliefMap .pinAnchor,
+.reliefMap .mapPin {
+  width: 48px;
+  height: 62px;
+}
+.reliefMap .pinPicture {
+  width: 48px;
+  height: 48px;
+  border-width: 3px;
+}
+.reliefMap .mapPin::after {
+  top: 48px;
+}
+.reliefMap [data-near='true'] .pinLabel {
+  display: block;
+  position: absolute;
+  top: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 130px;
+  font: 12px/1.2 var(--font-serif);
+  text-align: center;
+  text-shadow:
+    0 0 3px var(--paper),
+    1px 1px var(--paper),
+    -1px -1px var(--paper),
+    1px -1px var(--paper),
+    -1px 1px var(--paper);
+  pointer-events: none;
+}
+.inset:focus-visible,
+.mapPin:focus-visible {
+  outline: 3px solid var(--rust);
+  outline-offset: 2px;
+}
+.mapPin:focus-visible {
+  z-index: 2;
+}
+@media (max-width: 999px) {
+  .inset:not(.expanded):not(.reliefMap) {
+    width: 200px;
+    height: 190px;
+  }
+  .mapToggle,
+  .expanded .mapToggle {
+    inset: auto 0 20px;
+    padding: 6px;
+    background: var(--paper);
+  }
+}
+@media (hover: none) {
+  .mapHint {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mapHint {
+    transition: none;
+  }
+}

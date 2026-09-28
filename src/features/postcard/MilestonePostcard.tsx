@@ -1,21 +1,38 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, type ReactNode } from 'react'
 import { Dialog } from '../../components/ui/Dialog'
 import { usePassport } from '../../lib/passport'
 import type { BywaySummary } from '../../lib/types'
 import { PostcardArt } from './PostcardArt'
 import { milestones, type Milestone } from './cardData'
 import { useStrip } from '../strip/data'
-export function MilestoneToken({ byway, milestone }: { byway: BywaySummary; milestone: Milestone }) {
+export function MilestoneToken({
+  byway,
+  milestone,
+  children,
+  className,
+  label,
+}: {
+  byway: BywaySummary
+  milestone: Milestone
+  children?: ReactNode
+  className?: string
+  /** Accessible name prefix; map pins use "Map pin" so they're distinguishable from the ribbon token. */
+  label?: string
+}) {
   const [open, setOpen] = useState(false)
   const kept = usePassport((state) => state.postcards.some((card) => card.bywayId === byway.id && card.milestoneId === milestone.id))
   return (
     <>
       <button
-        className="postcard-token"
-        aria-label={`Postcard from ${milestone.name}${kept ? ', kept' : ''}`}
+        className={className ?? 'postcard-token'}
+        aria-label={`${label ?? 'Postcard from'} ${milestone.name}${kept ? ', kept' : ''}`}
         onClick={() => setOpen(true)}
       >
-        ✉ {kept && <span aria-label="Kept">✓ </span>}Postcard from {milestone.name}
+        {children ?? (
+          <>
+            ✉ {kept && <span aria-label="Kept">✓ </span>}Postcard from {milestone.name}
+          </>
+        )}
       </button>
       {open && (
         <Dialog title={`Postcard from ${milestone.name}`} onClose={() => setOpen(false)}>

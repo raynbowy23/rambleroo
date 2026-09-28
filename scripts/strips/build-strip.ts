@@ -128,25 +128,30 @@ function chain(seed: Position[], pool: Position[][], tol: number) {
 
 // Town coordinates come from Wikipedia so placement is checkable, not typed from memory.
 async function coords(titles: string[]) {
-  const url =
-    'https://en.wikipedia.org/w/api.php?' +
-    new URLSearchParams({
-      action: 'query',
-      format: 'json',
-      formatversion: '2',
-      prop: 'coordinates',
-      colimit: 'max',
-      redirects: '1',
-      titles: titles.join('|'),
-    })
-  const d = await (await fetch(url, { headers: UA })).json()
+  // The API accepts at most 50 titles per request.
   const out = new Map<string, Position>()
-  // Map redirected titles back to the title the content file asked for.
-  const asked = new Map<string, string>((d.query.redirects ?? []).map((r: { from: string; to: string }) => [r.to, r.from]))
-  for (const p of d.query.pages) if (p.coordinates) out.set(asked.get(p.title) ?? p.title, [p.coordinates[0].lon, p.coordinates[0].lat])
+  for (let k = 0; k < titles.length; k += 50) {
+    const url =
+      'https://en.wikipedia.org/w/api.php?' +
+      new URLSearchParams({
+        action: 'query',
+        format: 'json',
+        formatversion: '2',
+        prop: 'coordinates',
+        colimit: 'max',
+        redirects: '1',
+        titles: titles.slice(k, k + 50).join('|'),
+      })
+    const d = await politeJson(url)
+    // Map redirected titles back to the title the content file asked for.
+    const asked = new Map<string, string>((d.query.redirects ?? []).map((r: { from: string; to: string }) => [r.to, r.from]))
+    for (const p of d.query.pages) if (p.coordinates) out.set(asked.get(p.title) ?? p.title, [p.coordinates[0].lon, p.coordinates[0].lat])
+  }
   return out
 }
 const townCoords = await coords(content.towns.map((t) => t.wikipedia))
+// Hand-written content must resolve every town; generated content just drops towns Wikipedia can't place.
+if (content.generated) content.towns = content.towns.filter((t) => townCoords.has(t.wikipedia))
 for (const t of content.towns) if (!townCoords.has(t.wikipedia)) throw new Error(`no Wikipedia coordinates for ${t.wikipedia}`)
 
 // The main drive must pass every non-branch town; the branch holds the rest. Try each long piece as the seed and keep the
@@ -265,7 +270,13 @@ if (content.generated) {
   // Drive order, and at most one town every few miles so the ribbon doesn't crowd.
   towns.sort((a, b) => (a.on === b.on ? a.mile - b.mile : a.on === 'main' ? -1 : 1))
   const minGap = Math.max(3, (cum[cum.length - 1] || 0) / 16)
-  towns = towns.filter((t, i) => i === 0 || t.on !== towns[i - 1].on || t.mile - towns[i - 1].mile >= minGap)
+  // Space against the last town kept (comparing to the previous candidate dropped almost every town on dense roads).
+  const spaced: typeof towns = []
+  for (const t of towns) {
+    const last = spaced.at(-1)
+    if (!last || t.on !== last.on || t.mile - last.mile >= minGap) spaced.push(t)
+  }
+  towns = spaced
   if (!content.direction && towns.length >= 2)
     content.direction = `Follows the mapped byway from ${towns[0].name} to ${towns.filter((t) => t.on === 'main').at(-1)!.name}.`
   if (!content.stretches.length) content.stretches = draftStretches(towns.filter((t) => t.on === 'main'))

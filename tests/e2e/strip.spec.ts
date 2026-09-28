@@ -146,6 +146,8 @@ test('Blue Ridge stays compact and jumps to Into the Smokies', async ({ page }) 
 })
 
 test('3D scroll driving follows the ribbon, restores the inset and remembers the choice', async ({ page }) => {
+  // Test browsers render WebGL in software (SwiftShader), so 3D pages are slow under parallel load.
+  test.slow()
   // A deterministic, flat Terrarium tile keeps this UI test independent of AWS availability.
   await page.route('**/elevation-tiles-prod/terrarium/**', async (route) => {
     const png = await page.evaluate(() => {
@@ -192,6 +194,8 @@ test('3D scroll driving follows the ribbon, restores the inset and remembers the
 })
 
 test('terrain failure restores the flat strip map with a message', async ({ page }) => {
+  // Test browsers render WebGL in software (SwiftShader), so 3D pages are slow under parallel load.
+  test.slow()
   await page.route('**/elevation-tiles-prod/terrarium/**', (route) => route.abort())
   await page.goto(route)
   const toggle = page.getByRole('button', { name: '3D view', exact: true })
@@ -199,4 +203,96 @@ test('terrain failure restores the flat strip map with a message', async ({ page
   await expect(toggle).toHaveAttribute('aria-pressed', 'false')
   await expect(page.getByTestId('strip-inset')).toBeVisible()
   await expect(page.getByText("3D terrain isn't available right now; showing the flat road map")).toBeVisible()
+})
+
+for (const relief of [false, true]) {
+  test(`${relief ? '3D' : 'flat'} map preserves user camera offsets while driving`, async ({ page }) => {
+    // Test browsers render WebGL in software (SwiftShader), so 3D pages are slow under parallel load.
+    test.slow()
+    await page.route('**/elevation-tiles-prod/terrarium/**', async (request) => {
+      const png = await page.evaluate(() => {
+        const canvas = document.createElement('canvas')
+        canvas.width = canvas.height = 256
+        const ctx = canvas.getContext('2d')!
+        ctx.fillStyle = 'rgb(128, 0, 0)'
+        ctx.fillRect(0, 0, 256, 256)
+        return canvas.toDataURL().split(',')[1]
+      })
+      await request.fulfill({ contentType: 'image/png', body: Buffer.from(png, 'base64') })
+    })
+    await page.goto(route)
+    test.skip(!(await page.evaluate(() => !!document.createElement('canvas').getContext('webgl2'))), 'WebGL2 unavailable')
+    await expect.poll(() => page.evaluate(() => !!window.__rambleroo3d)).toBe(true)
+    await page.emulateMedia({ reducedMotion: 'reduce' })
+    if (relief) await page.getByRole('button', { name: '3D view', exact: true }).click()
+    await page.evaluate(() => window.scrollBy(0, 1400))
+    const map = page.getByTestId(relief ? 'strip-3d' : 'strip-inset')
+    await expect(map).toBeVisible()
+    const zoom = await page.evaluate(() => window.__rambleroo3d!.zoom())
+    const y = await page.evaluate(() => window.scrollY)
+    const box = (await map.boundingBox())!
+    // Ctrl + wheel is a desktop gesture (and mobile WebKit can't emulate a wheel); phones use pinch, covered by unit tests.
+    test.skip(!!test.info().project.use.isMobile, 'Ctrl + wheel is desktop-only')
+    await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2)
+    await page.keyboard.down('Control')
+    await page.mouse.wheel(0, -120)
+    await page.keyboard.up('Control')
+    await expect.poll(() => page.evaluate(() => window.__rambleroo3d!.zoom())).toBeGreaterThan(zoom)
+    expect(await page.evaluate(() => window.scrollY)).toBe(y)
+    await page.mouse.wheel(0, 400)
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(y)
+    const bearing = await page.evaluate(() => window.__rambleroo3d!.bearing())
+    await map.getByRole('button', { name: 'Rotate right', exact: true }).click()
+    expect(await page.evaluate(() => window.__rambleroo3d!.bearing())).not.toBe(bearing)
+    const offset = await page.evaluate(() => window.__rambleroo3d!.offsets())
+    await page.evaluate(() => window.scrollBy(0, 500))
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(y + 500)
+    expect(await page.evaluate(() => window.__rambleroo3d!.offsets())).toEqual(offset)
+    await map.getByRole('button', { name: 'Reset view', exact: true }).click()
+    expect(await page.evaluate(() => window.__rambleroo3d!.offsets())).toEqual({ zoom: 0, bearing: 0, pitch: 0 })
+    await expect.poll(() => page.evaluate(() => window.__rambleroo3d!.zoom())).toBeCloseTo(zoom, 4)
+    await expect(map.getByRole('button', { name: 'Reset view', exact: true })).toHaveCount(0)
+    await map.focus()
+    await page.keyboard.press('+')
+    await page.keyboard.press(']')
+    expect(await page.evaluate(() => window.__rambleroo3d!.offsets())).toEqual({ zoom: 0.5, bearing: 15, pitch: 0 })
+  })
+}
+
+test('3D photo pins open the landmark postcard', async ({ page }) => {
+  // Test browsers render WebGL in software (SwiftShader), so 3D pages are slow under parallel load.
+  test.slow()
+  await page.route('**/elevation-tiles-prod/terrarium/**', async (request) => {
+    const png = await page.evaluate(() => {
+      const canvas = document.createElement('canvas')
+      canvas.width = canvas.height = 256
+      const ctx = canvas.getContext('2d')!
+      ctx.fillStyle = 'rgb(128, 0, 0)'
+      ctx.fillRect(0, 0, 256, 256)
+      return canvas.toDataURL().split(',')[1]
+    })
+    await request.fulfill({ contentType: 'image/png', body: Buffer.from(png, 'base64') })
+  })
+  await page.goto(route)
+  test.skip(!(await page.evaluate(() => !!document.createElement('canvas').getContext('webgl2'))), 'WebGL2 unavailable')
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.getByRole('button', { name: '3D view', exact: true }).click()
+  const map = page.getByTestId('strip-3d')
+  await expect.poll(() => page.evaluate(() => window.__rambleroo3d?.car())).toBe(true)
+  for (const name of ['Cave Point County Park', 'Cana Island Lighthouse']) {
+    await expect(map.locator(`[data-photo-pin="${name}"] img`)).toBeAttached()
+  }
+  await page.getByRole('navigation', { name: 'Choose a stretch' }).getByRole('button', { name: 'The Lake Michigan side' }).click()
+  await page.getByRole('button', { name: 'Close stretch', exact: true }).click()
+  // The landmarks are several miles off the road, so widen the view to include the shore.
+  for (let i = 0; i < 7; i++) await map.getByRole('button', { name: 'Zoom out', exact: true }).click()
+  for (const name of ['Cave Point County Park', 'Cana Island Lighthouse']) {
+    // Keyboard activation: pins near the panel edge can sit under the sticky mile bar on small phones, and keyboard is the accessible path anyway.
+    const pin = map.getByRole('button', { name: `Map pin: postcard from ${name}`, exact: true })
+    await pin.focus()
+    await page.keyboard.press('Enter')
+    const dialog = page.getByRole('dialog', { name: `Postcard from ${name}`, exact: true })
+    await expect(dialog).toBeVisible()
+    await dialog.getByRole('button', { name: 'Close dialog', exact: true }).click()
+  }
 })
