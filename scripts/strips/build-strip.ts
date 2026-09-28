@@ -390,7 +390,10 @@ for (const s of content.stretches) {
     fromMile = a.mile
     toMile = b.mile
   }
-  const routed = await osrm(line)
+  let routed = await osrm(line)
+  // Also check against the miles the page shows (the sliced line can drop endpoints on very short stretches).
+  const shown = Math.abs(toMile - fromMile)
+  if (routed.routedMiles !== null && Math.abs(routed.routedMiles - shown) / shown > 0.1) routed = { minutes: null, routedMiles: null }
   stretches.push({
     ...s,
     on: s.branch ? 'branch' : 'main',

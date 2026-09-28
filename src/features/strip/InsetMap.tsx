@@ -383,7 +383,8 @@ export function InsetMap({
           {expanded ? 'Close map ↙' : 'Real road ↗'}
         </button>
       )}
-      <small className={s.mapCredit}>USDOT · Natural Earth</small>
+      {/* MapLibre's attribution control credits the live map; this line is only for the flat fallback without WebGL. */}
+      {!available && <small className={s.mapCredit}>USDOT · Natural Earth</small>}
     </aside>
   )
 }

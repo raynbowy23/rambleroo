@@ -32,7 +32,12 @@ export function MapPins({
       at: place.at,
       card: cards[i],
       // Stops carry a moment kind; towns are 'town', and park landmarks get a roadside icon chosen by scene and motifs.
-      icon: landmarkKind('title' in place ? place.kind : place.kind === 'landmark' ? 'roadside' : 'town', cards[i].scene, cards[i].motifs),
+      icon:
+        'title' in place
+          ? landmarkKind(place.kind, cards[i].scene, cards[i].motifs)
+          : place.kind === 'landmark'
+            ? landmarkKind(place.name, '', []) // the landmark's name picks the icon (Tenaya Lake, Tioga Pass)
+            : landmarkKind('town', cards[i].scene, cards[i].motifs),
     }))
   }, [data])
   const [hosts, setHosts] = useState<HTMLDivElement[]>([])
