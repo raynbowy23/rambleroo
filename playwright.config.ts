@@ -5,6 +5,8 @@ export default defineConfig({
   outputDir: 'test-results',
   // Three browsers with WebGL maps saturate a laptop CPU; cap workers, and allow one retry so load-induced timing shows up as "flaky" in the report instead of failing the run.
   workers: 3,
+  // Software WebGL (SwiftShader) makes 3D assertions slow under parallel load; give polls 10 s instead of 5.
+  expect: { timeout: 10_000 },
   retries: 1,
   use: { baseURL: 'http://127.0.0.1:5198' },
   projects: [
