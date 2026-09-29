@@ -21,7 +21,8 @@ const seasonLight: Record<PostcardLook['season'], PostcardLook['time']> = { spri
 
 export default function StripPage() {
   const { id = '' } = useParams()
-  const strip = useStrip(id)
+  const [search] = useSearchParams()
+  const strip = useStrip(id, search.get('part') ?? undefined)
   const { byway, status } = useByway(id)
   if (strip.loading || status === 'loading')
     return (
@@ -49,7 +50,8 @@ export default function StripPage() {
         </Link>
       </main>
     )
-  return <StripExperience key={id} data={strip.data} byway={byway} />
+  // Keyed by part too, so switching sections starts a fresh drive (mile 0, no stale stretch).
+  return <StripExperience key={`${id}.${strip.data.part?.key ?? ''}`} data={strip.data} byway={byway} />
 }
 function driveLine(relief: boolean, phone: boolean) {
   if (!relief || !phone) return window.innerHeight / 2
@@ -143,7 +145,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       const mile = clamp(from + (middle - active.rect.top) / scale, from, to)
       const inGap = !!route.gaps?.some((gap) => mile > gap.atMile && mile < gap.atMile + gap.miles)
       if (counter.current)
-        counter.current.textContent = `${on === 'branch' ? 'Tip · mile' : 'Mile'} ${mile.toFixed(1)} of ${route.miles.toFixed(1)}${inGap ? ' · unmapped' : ''}`
+        counter.current.textContent = `${on === 'branch' ? (data.branch?.label ? 'Branch · mile' : 'Tip · mile') : 'Mile'} ${mile.toFixed(1)} of ${route.miles.toFixed(1)}${inGap ? ' · unmapped' : ''}`
       const ribbon = geometry[on]!
       if (car.current) {
         const angle = (Math.atan2(ribbon.offset(mile + 0.05) - ribbon.offset(mile - 0.05), 0.1 * scale) * 180) / Math.PI
@@ -253,6 +255,22 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         </Link>
         <span className="kicker">A road worth taking slowly</span>
         <h1>{data.title}</h1>
+        {/* Multi-part roads: one strip per disconnected section, in travel order. */}
+        {data.parts && data.parts.length > 1 && (
+          <nav className={s.parts} aria-label="Parts of this road">
+            {data.parts.map((entry, i) => (
+              <Link
+                key={entry.key}
+                to={i === 0 ? `/byway/${byway.id}/strip` : `/byway/${byway.id}/strip?part=${entry.key}`}
+                aria-current={(data.part?.key ?? data.parts![0].key) === entry.key ? 'page' : undefined}
+                viewTransition
+              >
+                <strong>{entry.label}</strong>
+                <small>{Math.round(entry.miles)} mi</small>
+              </Link>
+            ))}
+          </nav>
+        )}
         <p className={s.draft}>{data.reviewed ? 'Reviewed strip map' : 'Draft · pending review'}</p>
         <p>{data.direction}</p>
         {/* Seasons at a glance: the same illustrated view of this road in all four seasons, side by side, so the difference is visible
@@ -334,15 +352,15 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
                   setTipOpen(!tipOpen)
                 }}
               >
-                Out to the tip · +{data.branch.miles} mi <span aria-hidden="true">{tipOpen ? '−' : '+'}</span>
+                {data.branch.label ?? 'Out to the tip'} · +{data.branch.miles} mi <span aria-hidden="true">{tipOpen ? '−' : '+'}</span>
               </button>
               <small>Optional side branch · main road continues below</small>
             </div>
             {tipOpen && (
               <div id="tip-ribbon" className={s.branch}>
-                <p className={s.branchHeading}>A little farther, to the tip →</p>
+                <p className={s.branchHeading}>{data.branch.label ? `${data.branch.label} →` : 'A little farther, to the tip →'}</p>
                 {renderRibbon('branch', 0, data.branch.miles)}
-                <p className={s.branchEnd}>Tip explored · return to the fork to continue</p>
+                <p className={s.branchEnd}>{data.branch.label ? 'Branch explored' : 'Tip explored'} · return to the fork to continue</p>
               </div>
             )}
             {renderRibbon('main', data.branch.joinsAtMile, data.main.miles)}

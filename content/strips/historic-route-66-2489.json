@@ -1086,5 +1086,32 @@
       "weight": 18645
     }
   ],
-  "stretches": []
+  "stretches": [],
+  "parts": [
+    {
+      "key": "il",
+      "label": "Illinois",
+      "state": "IL"
+    },
+    {
+      "key": "ok",
+      "label": "Oklahoma",
+      "state": "OK",
+      "startAt": "east"
+    },
+    {
+      "key": "nm",
+      "label": "New Mexico",
+      "state": "NM",
+      "startAt": "east",
+      "branchLabel": "East to Santa Rosa and Tucumcari",
+      "direction": "New Mexico's Route 66 includes both the 1926 alignment that loops north through Santa Fe and the later cutoff across to Albuquerque, so this strip follows the loop, with the eastern section toward Santa Rosa and Tucumcari as a branch."
+    },
+    {
+      "key": "az",
+      "label": "Arizona",
+      "state": "AZ",
+      "startAt": "east"
+    }
+  ]
 }

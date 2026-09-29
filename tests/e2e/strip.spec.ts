@@ -296,3 +296,16 @@ test('3D photo pins open the landmark postcard', async ({ page }) => {
     await dialog.getByRole('button', { name: 'Close dialog', exact: true }).click()
   }
 })
+
+test('multi-part roads switch between sections and start each one fresh', async ({ page }) => {
+  await page.goto('/byway/historic-route-66-2489/strip')
+  const parts = page.getByRole('navigation', { name: 'Parts of this road' })
+  await expect(parts.getByRole('link')).toHaveCount(4)
+  await expect(parts.getByRole('link', { name: /Illinois/ })).toHaveAttribute('aria-current', 'page')
+  await parts.getByRole('link', { name: /Oklahoma/ }).click()
+  await expect(page).toHaveURL(/part=ok/)
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Historic Route 66 · Oklahoma')
+  await expect(page.getByTestId('mile-counter')).toContainText('Mile 0.0 of 392.8')
+  await parts.getByRole('link', { name: /New Mexico/ }).click()
+  await expect(page.getByRole('button', { name: /East to Santa Rosa and Tucumcari/ })).toBeVisible()
+})

@@ -18,19 +18,21 @@ function withTownPhotos(data: StripData): StripData {
   return { ...data, towns: data.towns.map((town) => ({ ...town, photo: town.photo ?? photos.find((photo) => photo.town === town.name) })) }
 }
 const cache = new Map<string, Promise<StripData | undefined>>()
-export function loadStrip(id: string) {
-  if (!cache.has(id)) {
+/** `part` selects one section of a multi-part road (Route 66: il, ok, nm, az); without it the default part loads. */
+export function loadStrip(id: string, part?: string) {
+  const key = part ? `${id}.${part}` : id
+  if (!cache.has(key)) {
     cache.set(
-      id,
+      key,
       loadStripIndex().then(async (ids) => {
         if (!ids.includes(id)) return undefined
-        const response = await fetch(`/data/strips/${encodeURIComponent(id)}.json`)
+        const response = await fetch(`/data/strips/${encodeURIComponent(key)}.json`)
         if (!response.ok) throw new Error('This strip map could not be loaded. Please refresh to try again.')
         return withTownPhotos((await response.json()) as StripData)
       }),
     )
   }
-  return cache.get(id)!
+  return cache.get(key)!
 }
 export function useHasStrip(id?: string) {
   const [ids, setIds] = useState<string[]>([])
@@ -47,20 +49,21 @@ export function useHasStrip(id?: string) {
   }, [])
   return !!id && ids.includes(id)
 }
-export function useStrip(id: string) {
+export function useStrip(id: string, part?: string) {
+  const key = part ? `${id}.${part}` : id
   const [value, setValue] = useState<{ id: string; data?: StripData; error?: string }>()
   useEffect(() => {
     let active = true
-    void loadStrip(id)
+    void loadStrip(id, part)
       .then((data) => {
-        if (active) setValue({ id, data })
+        if (active) setValue({ id: key, data })
       })
       .catch((error: Error) => {
-        if (active) setValue({ id, error: error.message })
+        if (active) setValue({ id: key, error: error.message })
       })
     return () => {
       active = false
     }
-  }, [id])
-  return { loading: value?.id !== id, ...(value?.id === id ? value : {}) }
+  }, [id, part, key])
+  return { loading: value?.id !== key, ...(value?.id === key ? value : {}) }
 }

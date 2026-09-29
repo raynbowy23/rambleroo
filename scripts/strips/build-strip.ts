@@ -30,6 +30,16 @@ interface StripContent {
   clipToState?: string
   /** Drafted by discover-towns.ts: towns are unordered and stretches are drafted here, not written by an editor. */
   generated?: boolean
+  /** Multi-part roads (Route 66): one strip per disconnected section, built with `--part <key>`. */
+  parts?: {
+    key: string
+    label: string
+    state: string
+    startAt?: 'east'
+    branchLabel?: string
+    direction?: string
+    stretches?: StripContent['stretches']
+  }[]
 }
 
 // ---------- geometry helpers (miles, WGS84 lng/lat) ----------
@@ -80,6 +90,18 @@ parts = parts.filter((l) => {
 })
 
 const content = await json<StripContent>(`content/strips/${id}.json`)
+// --part <key>: build one section of a multi-part road, clipped to its state, from towns in that state.
+const partKey = process.argv.includes('--part') ? process.argv[process.argv.indexOf('--part') + 1] : undefined
+const part = partKey ? content.parts?.find((p) => p.key === partKey) : undefined
+if (partKey && !part) throw new Error(`${id} has no part "${partKey}"`)
+if (part) {
+  const stateName = (JSON.parse(await readFile(new URL('scripts/photos/states.json', ROOT), 'utf8')) as Record<string, string>)[part.state]
+  content.clipToState = part.state
+  content.towns = content.towns.filter((t) => t.wikipedia.endsWith(`, ${stateName}`))
+  content.stretches = part.stretches ?? []
+  content.direction = part.direction ?? ''
+  content.title = `${content.title} · ${part.label}`
+}
 if (content.clipToState) {
   const states = await json<{ features: { properties: { postal: string }; geometry: Polygon | MultiPolygon }[] }>(
     'public/data/basemap/states.geojson',
@@ -204,7 +226,10 @@ const [firstTown, lastTown] = content.generated
   ? (() => {
       const [a, b] = [path[0], path[path.length - 1]]
       const eastWest = Math.abs(a[0] - b[0]) >= Math.abs(a[1] - b[1])
-      return eastWest ? (a[0] <= b[0] ? [0, 1] : [1, 0]) : a[1] >= b[1] ? [0, 1] : [1, 0]
+      const forward = eastWest ? a[0] <= b[0] : a[1] >= b[1]
+      // A part can ask to start at its eastern end (Route 66 runs Chicago → Pacific, so its western parts go east to west).
+      const flip = part?.startAt === 'east' && eastWest
+      return forward !== flip ? [0, 1] : [1, 0]
     })()
   : [
       project(path, cum, townCoords.get(mainTowns[0].wikipedia)!).mile,
@@ -227,7 +252,14 @@ if (branch) {
   const e = project(path, cum, bp[bp.length - 1])
   if (e.off < s.off) bp = [...bp].reverse()
   const join = project(path, cum, bp[0])
-  if (join.off <= GAP_MI) branchOut = { path: bp, miles: lengthOf(bp), joinsAtMile: join.mile, name: 'tip' }
+  if (join.off <= GAP_MI)
+    branchOut = {
+      path: bp,
+      miles: lengthOf(bp),
+      joinsAtMile: join.mile,
+      name: 'tip',
+      ...(part?.branchLabel ? { label: part.branchLabel } : {}),
+    }
 }
 
 // ---------- 3. place things on the ribbon ----------
@@ -465,7 +497,15 @@ const out = {
   stretches,
 }
 await mkdir(new URL('public/data/strips/', ROOT), { recursive: true })
-await writeFile(new URL(`public/data/strips/${id}.json`, ROOT), JSON.stringify(out))
+const outFile = part ? `${id}.${part.key}.json` : `${id}.json`
+await writeFile(
+  new URL(`public/data/strips/${outFile}`, ROOT),
+  JSON.stringify(part ? { ...out, part: { key: part.key, label: part.label } } : out),
+)
+if (part) {
+  console.log(`part ${part.key}: ${round(total)} mi, ${towns.length} places`)
+  process.exit(0)
+}
 // Index of byways that have a strip map, so pages can offer "Unroll the road" without probing for files.
 const indexUrl = new URL('public/data/strips/index.json', ROOT)
 const index: string[] = await readFile(indexUrl, 'utf8')

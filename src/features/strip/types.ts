@@ -25,6 +25,9 @@ export interface Stretch {
 export interface StripData {
   /** 'ferry' for sea routes (Alaska's Marine Highway): drawn as water, no driving times or road directions. */
   mode?: 'drive' | 'ferry'
+  /** Multi-part roads (Route 66): every part lists all parts; `part` names the one this file holds. */
+  parts?: { key: string; label: string; miles: number; places: number }[]
+  part?: { key: string; label: string }
   bywayId: string
   title: string
   reviewed: boolean
@@ -32,7 +35,11 @@ export interface StripData {
   builtAt: string
   sources: { geometry: string; towns: string; driveTimes: string }
   main: StripPath
-  branch?: StripPath & { joinsAtMile: number; name: string }
+  branch?: StripPath & {
+    joinsAtMile: number
+    name: string
+    /** Human label for the side branch; Door County's tip uses the default wording. */ label?: string
+  }
   towns: {
     photo?: Photo
     kind?: 'town' | 'landmark'
