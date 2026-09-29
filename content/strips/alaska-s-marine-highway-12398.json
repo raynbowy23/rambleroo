@@ -1,0 +1,21 @@
+{
+  "bywayId": "alaska-s-marine-highway-12398",
+  "reviewed": false,
+  "title": "Alaska's Marine Highway",
+  "direction": "Sails south on the ferry mainline from Skagway, at the head of the Inside Passage, through Southeast Alaska's island towns and down the British Columbia coast to Bellingham, Washington.",
+  "towns": [
+    { "name": "Skagway", "wikipedia": "Skagway, Alaska" },
+    { "name": "Haines", "wikipedia": "Haines, Alaska" },
+    { "name": "Juneau", "wikipedia": "Juneau, Alaska" },
+    { "name": "Petersburg", "wikipedia": "Petersburg, Alaska" },
+    { "name": "Wrangell", "wikipedia": "Wrangell, Alaska" },
+    { "name": "Ketchikan", "wikipedia": "Ketchikan, Alaska" },
+    { "name": "Bellingham", "wikipedia": "Bellingham, Washington" }
+  ],
+  "stretches": [
+    { "id": "lynn-canal", "title": "Down Lynn Canal", "from": "Skagway", "to": "Juneau", "scene": "coast", "line": "From the head of the Inside Passage past Haines to Alaska's capital." },
+    { "id": "island-towns", "title": "The island towns", "from": "Juneau", "to": "Wrangell", "scene": "coast", "line": "South through the islands to the harbour towns of Petersburg and Wrangell." },
+    { "id": "to-ketchikan", "title": "On to Ketchikan", "from": "Wrangell", "to": "Ketchikan", "scene": "coast", "line": "The last Alaska port before the long run south." },
+    { "id": "the-long-run-south", "title": "The long run south", "from": "Ketchikan", "to": "Bellingham", "scene": "coast", "line": "Along the British Columbia coast to Washington." }
+  ]
+}

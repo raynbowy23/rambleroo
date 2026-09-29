@@ -147,6 +147,21 @@ async function coords(titles: string[]) {
     const asked = new Map<string, string>((d.query.redirects ?? []).map((r: { from: string; to: string }) => [r.to, r.from]))
     for (const p of d.query.pages) if (p.coordinates) out.set(asked.get(p.title) ?? p.title, [p.coordinates[0].lon, p.coordinates[0].lat])
   }
+  // Some articles (Ketchikan, Alaska) expose no coordinates through the API; fall back to the linked Wikidata item's P625.
+  for (const title of titles.filter((t) => !out.has(t))) {
+    const props = await politeJson(
+      'https://en.wikipedia.org/w/api.php?' +
+        new URLSearchParams({ action: 'query', format: 'json', formatversion: '2', prop: 'pageprops', redirects: '1', titles: title }),
+    )
+    const item = props.query?.pages?.[0]?.pageprops?.wikibase_item
+    if (!item) continue
+    const claims = await politeJson(
+      'https://www.wikidata.org/w/api.php?' +
+        new URLSearchParams({ action: 'wbgetclaims', format: 'json', property: 'P625', entity: item }),
+    )
+    const value = claims.claims?.P625?.[0]?.mainsnak?.datavalue?.value
+    if (value) out.set(title, [value.longitude, value.latitude])
+  }
   return out
 }
 const townCoords = await coords(content.towns.map((t) => t.wikipedia))
@@ -249,7 +264,8 @@ function place(p: Position, route?: 'main' | 'branch'): Where | undefined {
   const b = branchOut ? project(branchOut.path, cumOf(branchOut.path), p) : undefined
   const useBranch = b && (route ? route === 'branch' : b.off < m.off)
   const hit = useBranch ? { on: 'branch' as const, ...b! } : { on: 'main' as const, ...m }
-  if (hit.off > PLACE_MI) return undefined
+  // Ferry terminals often sit miles from the town centre (Juneau's is at Auke Bay), so ports may be placed from further away.
+  if (hit.off > (ferry ? 20 : PLACE_MI)) return undefined
   return { on: hit.on, mile: round(hit.mile, 2), offRouteMiles: round(hit.off, 1), at: [round(p[0], 5), round(p[1], 5)] }
 }
 const round = (n: number, d = 1) => Math.round(n * 10 ** d) / 10 ** d

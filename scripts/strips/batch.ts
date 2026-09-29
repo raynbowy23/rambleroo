@@ -49,7 +49,7 @@ const queue = eligible
 const log = async (entry: Record<string, unknown>) =>
   appendFile(path('data/strips/batch-log.jsonl'), JSON.stringify({ at: new Date().toISOString(), ...entry }) + '\n')
 const run = (script: string, id: string, extra: string[] = []) =>
-  spawnSync('npx', ['tsx', `scripts/strips/${script}`, id, ...extra], { cwd: ROOT, encoding: 'utf8', timeout: 30 * 60 * 1000 })
+  spawnSync('npx', ['tsx', `scripts/strips/${script}`, id, ...extra], { cwd: ROOT, encoding: 'utf8', timeout: 3 * 60 * 60 * 1000 })
 
 async function drop(id: string, reason: string, createdContent: boolean) {
   skipped[id] = reason

@@ -213,12 +213,12 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
     ...data.towns.map((town) => ({
       on: town.on,
       mile: town.mile,
-      label: `${town.name}, town${town.offRouteMiles > 0.3 ? `, ${town.offRouteMiles} miles off the road` : ''}`,
+      label: `${town.name}, town${town.offRouteMiles > 0.3 ? `, ${town.offRouteMiles} miles ${ferry ? 'from the ferry lane' : 'off the road'}` : ''}`,
     })),
     ...data.moments.map((moment) => ({
       on: moment.on,
       mile: moment.mile,
-      label: `${moment.title}, ${moment.kind}, ${moment.offRouteMiles} miles off the road`,
+      label: `${moment.title}, ${moment.kind}, ${moment.offRouteMiles} miles ${ferry ? 'from the ferry lane' : 'off the road'}`,
     })),
     ...data.stretches.map((stretch) => ({
       on: stretch.on,

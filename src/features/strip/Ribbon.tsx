@@ -77,6 +77,8 @@ export function Ribbon({
   const cards = useMemo(() => milestones(data), [data])
   const route = on === 'main' ? data.main : data.branch!
   const intervals = useMemo(() => mappedIntervals(route, from, to), [route, from, to])
+  // Ferry ports sit beside the sailing lane, not a road.
+  const offRoute = data.mode === 'ferry' ? 'from the ferry lane' : 'off the road'
   const postInterval = milePostInterval(scale)
   const height = (to - from) * scale
   const y = (mile: number) => (clamp(mile, from, to) - from) * scale
@@ -216,7 +218,11 @@ export function Ribbon({
                 <a href={town.source} target="_blank" rel="noreferrer" aria-label={`${town.name} on Wikipedia`}>
                   ⓘ
                 </a>
-                {town.offRouteMiles > 0.3 && <small>{town.offRouteMiles} mi off the road</small>}
+                {town.offRouteMiles > 0.3 && (
+                  <small>
+                    {town.offRouteMiles} mi {offRoute}
+                  </small>
+                )}
               </div>
             ),
         )}
@@ -260,7 +266,11 @@ export function Ribbon({
               <h3>{moment.title}</h3>
               <MilestoneToken byway={byway} milestone={cards.find((card) => card.name === moment.title && card.kind === 'moment')!} />
               <p>{moment.text}</p>
-              {moment.offRouteMiles > 0.3 && <strong className={s.detour}>{moment.offRouteMiles} mi off the road</strong>}
+              {moment.offRouteMiles > 0.3 && (
+                <strong className={s.detour}>
+                  {moment.offRouteMiles} mi {offRoute}
+                </strong>
+              )}
             </div>
           </article>
         ))}
