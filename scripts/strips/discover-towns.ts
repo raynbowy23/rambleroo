@@ -34,7 +34,7 @@ const nearest = (p: Position, pts: Position[]) => pts.reduce((best, q) => Math.m
 
 // Titles like "Tropic, Utah" are populated places; exclude counties, townships and non-place pages that share the pattern.
 const NOT_A_TOWN =
-  /^List of|\b(Purchase|Location|Grant|Gore|County|Township|Parish|Borough of|School|Park|Airport|Station|Church|Cemetery|House|Bridge|Dam|Mine|Mountain|Lake|River|Creek|Forest|Hospital|Historic District|Trail|Road|Highway)\b/i
+  /^(List|Timeline|History) of|metropolitan area|micropolitan|National Weather Service|\b(Purchase|Location|Grant|Gore|County|Township|Parish|Borough of|School|Park|Airport|Station|Church|Cemetery|House|Bridge|Dam|Mine|Mountain|Lake|River|Creek|Forest|Hospital|Historic District|Trail|Road|Highway)\b/i
 
 async function api(params: Record<string, string>) {
   const url = 'https://en.wikipedia.org/w/api.php?' + new URLSearchParams({ format: 'json', formatversion: '2', ...params })

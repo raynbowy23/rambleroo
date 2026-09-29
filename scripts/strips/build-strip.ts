@@ -358,7 +358,14 @@ async function osrm(points: Position[]): Promise<{ minutes: number | null; route
   for (const waypoints of [0, 1, 3]) {
     const sample = [0, ...Array.from({ length: waypoints }, (_, i) => (i + 1) / (waypoints + 1)), 1].map(at)
     const url = `https://router.project-osrm.org/route/v1/driving/${sample.map((p) => `${p[0].toFixed(5)},${p[1].toFixed(5)}`).join(';')}?overview=false&continue_straight=true`
-    const d = await politeJson(url)
+    // A routing outage on one stretch shouldn't sink the whole road: that stretch shows distance only.
+    let d
+    try {
+      d = await politeJson(url)
+    } catch {
+      console.warn('  routing server unavailable; publishing distance only')
+      return { minutes: null, routedMiles: null }
+    }
     if (d?.code !== 'Ok') continue
     const miles = d.routes[0].distance / 1609.344
     const mph = miles / (d.routes[0].duration / 3600)
