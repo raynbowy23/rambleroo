@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './fixtures'
 
 for (const road of [
   { id: 'door-county-coastal-byway-81450', region: 'upper-midwest', center: [-87.2, 45], climate: 'snowy', label: 'Winter · snowy' },

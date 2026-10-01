@@ -1,5 +1,5 @@
 // The blueprint's hero loop: find a byway, select it, open its story, save it, record a visit, see the stamp in the passport.
-import { expect, test } from '@playwright/test'
+import { expect, test } from './fixtures'
 
 test('explore → postcard → story → save → visit → passport stamp', async ({ page }) => {
   await page.goto('/')

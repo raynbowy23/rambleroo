@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './fixtures'
 const id = 'door-county-coastal-byway-81450'
 
 test('your model and colour follow you from the passport to the strip', async ({ page }) => {

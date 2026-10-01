@@ -1,3 +1,5 @@
+import { AddToTrip } from '../trip/AddToTrip'
+import { distanceLabel, sortByDistance, type Location } from './distance'
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams, useNavigate } from 'react-router'
 import { RoadVisual } from '../photos/RoadVisual'
@@ -26,6 +28,50 @@ const themeColor: Record<string, string> = {
 }
 
 export default function ExplorePage() {
+  const [location, setLocation] = useState<Location | null>(null)
+  const [locationMessage, setLocationMessage] = useState('')
+  const [locating, setLocating] = useState(false)
+  const nearMe = () => {
+    if (!navigator.geolocation) {
+      setLocationMessage('Location is unavailable. Your sort is unchanged.')
+      return
+    }
+    setLocating(true)
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => {
+        setLocation([coords.longitude, coords.latitude])
+        setLocationMessage('Straight-line distance. Your location stays on this device.')
+        setLocating(false)
+      },
+      () => {
+        setLocationMessage('Location is unavailable or permission was denied. Your sort is unchanged.')
+        setLocating(false)
+      },
+      { timeout: 10000, maximumAge: 0 },
+    )
+  }
+  const nearMeButton = (
+    <>
+      <button
+        className="btn btn-ghost"
+        disabled={locating}
+        aria-pressed={!!location}
+        onClick={() => {
+          if (location) {
+            setLocation(null)
+            setLocationMessage('')
+          } else nearMe()
+        }}
+      >
+        {locating ? 'Locating…' : location ? 'Clear near me' : 'Near me'}
+      </button>
+      {locationMessage && (
+        <small role="status" className={styles.locationNote}>
+          {locationMessage}
+        </small>
+      )}
+    </>
+  )
   const navigate = useNavigate()
   const catalog = useCatalog()
   const [params, setParams] = useSearchParams()
@@ -47,10 +93,11 @@ export default function ExplorePage() {
   const filtered = useMemo(() => {
     const matches = filterByways(catalog.byways, { q, state, themes: activeThemes })
     // A typed search keeps its relevance order; browsing puts roads with real photos (and stories) first.
+    if (location) return sortByDistance(matches, location)
     if (q) return matches
     const rank = (id: string, status: string) => (status !== 'listing' ? 0 : hasPhoto(id) ? 1 : 2)
     return [...matches].sort((a, b) => rank(a.id, a.status) - rank(b.id, b.status))
-  }, [catalog.byways, q, state, activeThemes])
+  }, [catalog.byways, q, state, activeThemes, location])
   const active = Boolean(q || state || activeThemes.length)
   const ids = useMemo(() => (active ? filtered.map((b) => b.id) : null), [active, filtered])
   const selected = selectedId ? catalog.byId.get(selectedId) : undefined
@@ -225,7 +272,10 @@ export default function ExplorePage() {
                 </select>
               </label>
               <div className={styles.resultCount} aria-live="polite">
-                <span>{filtered.length} byways</span>
+                <span>
+                  {filtered.length} byways{location ? ' · nearest first' : ''}
+                </span>
+                {view === 'map' && nearMeButton}
                 {active && (
                   <button className="btn btn-ghost" onClick={clear}>
                     Clear filters
@@ -254,6 +304,7 @@ export default function ExplorePage() {
                         <small>
                           {b.states.join(' · ')} · {formatMiles(b.mappedMiles)}
                         </small>
+                        {location && <small>{distanceLabel(location, b)}</small>}
                         {b.status !== 'listing' && <em>Story</em>}
                       </span>
                     </button>
@@ -311,7 +362,10 @@ export default function ExplorePage() {
               ))}
             </select>
           </label>
-          <p>{filtered.length} byways</p>
+          <p>
+            {filtered.length} byways{location ? ' · nearest first' : ''}
+          </p>
+          {nearMeButton}
           <button className="btn btn-ghost" onClick={clear}>
             Clear filters
           </button>{' '}
@@ -330,11 +384,13 @@ export default function ExplorePage() {
           <div className={styles.browseTitle}>
             <span className="kicker">Scenic roads of America</span>
             <h2>{view === 'gallery' ? 'Find your next road' : 'The byway index'}</h2>
+            <div className={styles.resultCount}>{nearMeButton}</div>
           </div>
           {view === 'gallery' ? (
             <div className={styles.gallery}>
               {filtered.slice(0, limit).map((b) => (
                 <div id={`gallery-${b.id}`} key={b.id}>
+                  {location && <p>{distanceLabel(location, b)}</p>}
                   <Postcard
                     byway={b}
                     selected={selectedId === b.id}
@@ -354,6 +410,7 @@ export default function ExplorePage() {
                     <th role="columnheader">States</th>
                     <th role="columnheader">Miles</th>
                     <th role="columnheader">Designation</th>
+                    <th role="columnheader">Trip</th>
                   </tr>
                 </thead>
                 <tbody role="rowgroup">
@@ -363,11 +420,15 @@ export default function ExplorePage() {
                         <div className={styles.listRoad}>
                           <RoadVisual bywayId={b.id} look={b.look} family={b.scene} region={b.region} seed={b.seed} variant="thumb" />
                           <button onClick={() => select(b.id, true)}>{b.name}</button>
+                          {location && <small>{distanceLabel(location, b)}</small>}
                         </div>
                       </td>
                       <td role="cell">{stateNames(b.states)}</td>
                       <td role="cell">{formatMiles(b.mappedMiles)}</td>
                       <td role="cell">{shortDesignation(b)}</td>
+                      <td role="cell">
+                        <AddToTrip bywayId={b.id} />
+                      </td>
                     </tr>
                   ))}
                 </tbody>

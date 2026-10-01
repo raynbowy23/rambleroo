@@ -1,3 +1,4 @@
+import { useTrip } from '../../lib/store'
 import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router'
 import { Icon, Logo, type IconName } from '../art'
 import { AppStatus } from '../ui/AppStatus'
@@ -10,6 +11,7 @@ const supportsViewTransitions = typeof document !== 'undefined' && 'startViewTra
 export default function Layout() {
   const { pathname } = useLocation()
   const { meta } = useCatalog()
+  const tripCount = useTrip((s) => s.roads.length)
   const count = usePassport((s) => Object.keys(s.saved).length + s.savedStretches.length + s.visits.length)
   const nav = (
     <>
@@ -18,11 +20,17 @@ export default function Layout() {
           ['/', 'Explore', 'map'],
           ['/collections', 'Collections', 'layers'],
           ['/passport', 'Passport', 'stamp'],
+          ['/trip', 'Trip', 'map'],
         ] as [string, string, IconName][]
       ).map(([to, label, icon]) => (
         <NavLink viewTransition key={to} to={to} end={to === '/'}>
           <Icon name={icon} size={18} />
           {label}
+          {label === 'Trip' && (
+            <span className={styles.badge} aria-label={`${tripCount} roads`}>
+              {tripCount}
+            </span>
+          )}
           {label === 'Passport' && (
             <span className={styles.badge} aria-label={`${count} saves and visits`}>
               {count}
@@ -60,7 +68,9 @@ export default function Layout() {
           <p>
             Byway lines: <a href={meta?.source.url}>USDOT Scenic Byways layer</a>
             {meta ? `, retrieved ${meta.retrievedAt.slice(0, 10)}` : ''}. Basemap:{' '}
-            <a href="https://www.naturalearthdata.com/">Natural Earth</a>. Illustrations are generated artwork, not photographs.
+            <a href="https://www.naturalearthdata.com/">Natural Earth</a> and <a href="https://openfreemap.org/">OpenFreeMap</a> (©{' '}
+            <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors). Illustrations are generated artwork, not
+            photographs.
           </p>
           <nav className={styles.footerLinks} aria-label="Site information">
             <Link viewTransition to="/about">

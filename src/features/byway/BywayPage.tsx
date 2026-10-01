@@ -1,3 +1,4 @@
+import { AddToTrip } from '../trip/AddToTrip'
 import { useStrip } from '../strip/data'
 import { RoadStats } from './RoadStats'
 import { LoadingRoad, NotFound } from '../../components/ui/RoadStatus'
@@ -122,6 +123,7 @@ export default function BywayPage() {
       <div className={roadStyle.summary}>
         <RoadStats byway={b} strip={strip.data} season={story?.season} />
         <div className={s.actions}>
+          <AddToTrip bywayId={b.id} />
           <StripLink id={b.id} />
           <button
             className="btn btn-ghost"

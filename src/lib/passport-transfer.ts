@@ -1,6 +1,8 @@
+import type { TripEntry } from './store'
 import type { KeptPostcard, SavedStretch } from './passport'
 import type { Visit } from './types'
 export interface PassportData {
+  trip?: { version: 1; roads: TripEntry[] }
   version: 1
   saved: Record<string, string>
   visits: Visit[]
@@ -71,7 +73,17 @@ export function parsePassport(value: unknown): PassportData {
       throw new Error('Invalid postcard')
     return { bywayId: entry.bywayId, milestoneId: entry.milestoneId, keptAt: entry.keptAt }
   })
-  return { version: 1, saved, visits, savedStretches, postcards }
+  let trip: PassportData['trip']
+  if (value.trip !== undefined) {
+    if (!record(value.trip) || value.trip.version !== 1 || !Array.isArray(value.trip.roads)) throw new Error('Invalid trip')
+    const roads = value.trip.roads.map((entry: unknown): TripEntry => {
+      if (!record(entry) || typeof entry.bywayId !== 'string' || !entry.bywayId.trim() || !date(entry.addedAt))
+        throw new Error('Invalid trip road')
+      return { bywayId: entry.bywayId, addedAt: entry.addedAt }
+    })
+    trip = { version: 1, roads: [...new Map(roads.map((r) => [r.bywayId, r])).values()] }
+  }
+  return { version: 1, saved, visits, savedStretches, postcards, ...(trip ? { trip } : {}) }
 }
 
 export function mergePassport(current: Pick<PassportData, 'saved' | 'visits' | 'savedStretches' | 'postcards'>, incoming: PassportData) {

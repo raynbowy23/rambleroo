@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './fixtures'
 
 for (const width of [1440, 390]) {
   test(`collection covers and hero keep their content at ${width}px`, async ({ page }) => {

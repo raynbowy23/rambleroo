@@ -1,7 +1,7 @@
 import { Link } from 'react-router'
 import styles from '../../components/layout/Page.module.css'
 import { Contact } from './Contact'
-import { PRIVACY_UPDATED } from './policy'
+import { PRIVACY_UPDATED, LOCATION_POLICY } from './policy'
 
 // Every statement here must match what the code actually does. If a feature changes what leaves the browser, update this page in the same commit.
 export default function PrivacyPage() {
@@ -18,10 +18,11 @@ export default function PrivacyPage() {
       <ul>
         <li>You can use everything without an account.</li>
         <li>
-          Your saved roads, stretches, visits, notes and postcards are stored only in this browser, on this device. We do not receive them.
+          Your trip, saved roads, stretches, visits, notes and postcards are stored only in this browser, on this device. We do not receive
+          them.
         </li>
         <li>We do not use cookies, analytics, advertising, or tracking of any kind, and we never sell or share personal information.</li>
-        <li>We do not collect your location. Nothing runs in the background.</li>
+        <li>{LOCATION_POLICY}</li>
         <li>
           If research participation opens in the future, it will be optional, asked for separately, and explained before anything is
           collected.
@@ -30,10 +31,10 @@ export default function PrivacyPage() {
 
       <h2>What is stored, and where</h2>
       <p>
-        Your passport (saved roads and stretches, visits with their dates, scope and notes) is kept in your browser’s local storage. It
-        never leaves your device unless you choose to export it. You can download it, import it on another browser, or clear it at any time
-        from the <Link to="/passport">Passport</Link> page. Clearing your browser’s site data also deletes it. Because we never hold a copy,
-        we cannot recover it for you if it is deleted.
+        Your trip and passport (saved roads and stretches, visits with their dates, scope and notes) are kept in your browser’s local
+        storage. It never leaves your device unless you choose to export it. You can download it, import it on another browser, or clear it
+        at any time from the <Link to="/passport">Passport</Link> page. Clearing your browser’s site data also deletes it. Because we never
+        hold a copy, we cannot recover it for you if it is deleted.
       </p>
       <p>
         So that Rambleroo keeps working offline, your browser also caches the app and the pages, route data and photos you have opened. This

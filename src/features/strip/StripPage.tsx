@@ -270,6 +270,12 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
           <Link className={s.back} to={`/byway/${byway.id}`}>
             ← Back to the road
           </Link>
+          <Link
+            className="btn btn-primary"
+            to={`/byway/${byway.id}/strip/print${data.part ? `?part=${encodeURIComponent(data.part.key)}` : ''}`}
+          >
+            Print this strip
+          </Link>
           <span className="kicker">A road worth taking slowly</span>
           <h1>{data.title}</h1>
           {/* Multi-part roads: one strip per disconnected section, in travel order. */}

@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from './fixtures'
 
 const id = 'door-county-coastal-byway-81450'
 const route = `/byway/${id}/strip`

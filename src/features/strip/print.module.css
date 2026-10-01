@@ -1,0 +1,135 @@
+.page {
+  margin: auto;
+  max-width: 8.5in;
+  padding: 24px;
+  font-size: var(--step-0);
+}
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.controls a,
+.controls button {
+  min-height: 44px;
+}
+.panel {
+  background: #fffdf4;
+  color: #252b20;
+  padding: 24px;
+  border: 1px solid #535c3d;
+  margin-bottom: 24px;
+}
+.panel h1 {
+  font-family: var(--font-serif);
+  font-size: var(--step-2);
+  margin: 8px 0;
+}
+.panel h2,
+.credits h2 {
+  font-size: var(--step-1);
+}
+.panel p,
+.panel footer {
+  font-size: var(--step--1);
+}
+.body {
+  display: grid;
+  grid-template-columns: 22% 1fr;
+  gap: 16px;
+}
+.body svg {
+  width: 100%;
+  height: 520px;
+}
+.places {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+}
+.places li {
+  font-size: var(--step--1);
+}
+.places strong,
+.places span {
+  display: block;
+}
+.credits {
+  overflow-wrap: anywhere;
+}
+@page {
+  size: letter portrait;
+  margin: 0.5in;
+}
+@media print {
+  :global(body):has(.page) {
+    background: white !important;
+  }
+  :global(body):has(.page) :global(#root > header),
+  :global(body):has(.page) :global(#root > footer),
+  :global(body):has(.page) :global(#root > nav),
+  :global(body):has(.page) :global(#root > a),
+  :global(body):has(.page) :global(#root > [role='status']) {
+    display: none !important;
+  }
+  :global(#main-content):has(.page) {
+    animation: none !important;
+    transform: none !important;
+  }
+  .page,
+  .page * {
+    animation: none !important;
+    transition: none !important;
+  }
+  .page {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+  .controls {
+    display: none;
+  }
+  .panel {
+    box-sizing: border-box;
+    height: 9.9in;
+    margin: 0;
+    padding: 0.18in;
+    break-after: page;
+    break-inside: avoid;
+    print-color-adjust: exact;
+  }
+  .panel h1 {
+    font-size: 22pt;
+  }
+  .panel h2 {
+    font-size: 14pt;
+  }
+  .panel p,
+  .panel footer,
+  .places li {
+    font-size: 10pt;
+  }
+  .body svg {
+    height: 5.8in;
+  }
+  .body {
+    height: 5.8in;
+  }
+  .panel footer {
+    margin-top: 12pt;
+  }
+  .credits {
+    font-size: 10pt;
+  }
+  .credits li {
+    break-inside: avoid;
+    margin-bottom: 8pt;
+  }
+  .credits a {
+    color: inherit;
+  }
+}

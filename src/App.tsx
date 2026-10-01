@@ -6,6 +6,8 @@ import styles from './components/layout/Page.module.css'
 // Route modules load through the router (not <Suspense>), so the current page stays on screen until the next one is ready,
 // and the swap then runs inside a view transition instead of flashing a loading message.
 const pages = {
+  trip: () => import('./features/trip/TripPage'),
+  print: () => import('./features/strip/print'),
   explore: () => import('./features/explore/ExplorePage'),
   strip: () => import('./features/strip/StripPage'),
   byway: () => import('./features/byway/BywayPage'),
@@ -54,6 +56,8 @@ const router = createBrowserRouter([
       { path: '/state/:code', lazy: page(pages.state) },
       { path: '/collections', lazy: page(pages.collections) },
       { path: '/collections/:slug', lazy: page(pages.collections) },
+      { path: '/trip', lazy: page(pages.trip) },
+      { path: '/byway/:id/strip/print', lazy: page(pages.print) },
       { path: '/passport', lazy: page(pages.passport) },
       { path: '/about', lazy: page(pages.about) },
       { path: '/privacy', lazy: page(pages.privacy) },

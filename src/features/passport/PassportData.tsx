@@ -1,3 +1,4 @@
+import { useTrip } from '../../lib/store'
 import { userPhotos } from '../../lib/userPhotos'
 import { usePostcards } from '../../lib/postcards'
 import { useState } from 'react'
@@ -16,7 +17,7 @@ export function PassportData() {
       <h2>Your data</h2>
       <p>
         Saved in this browser. Added photos and postcard customizations are not included in the passport backup. Downloads make a local
-        backup; imports merge into this browser’s passport.
+        backup including your trip; imports merge into this browser’s passport and trip.
       </p>
       <div className={s.actions}>
         <button
@@ -24,7 +25,16 @@ export function PassportData() {
           onClick={() => {
             const { saved, visits, savedStretches, postcards } = usePassport.getState()
             downloadBlob(
-              new Blob([JSON.stringify({ version: 1, saved, visits, savedStretches, postcards }, null, 2)], { type: 'application/json' }),
+              new Blob(
+                [
+                  JSON.stringify(
+                    { version: 1, saved, visits, savedStretches, postcards, trip: { version: 1, roads: useTrip.getState().roads } },
+                    null,
+                    2,
+                  ),
+                ],
+                { type: 'application/json' },
+              ),
               'rambleroo-passport.json',
             )
           }}
@@ -50,6 +60,11 @@ export function PassportData() {
                   savedStretches: result.savedStretches,
                   postcards: result.postcards,
                 })
+                if (incoming.trip) {
+                  const roads = useTrip.getState().roads
+                  const ids = new Set(roads.map((r) => r.bywayId))
+                  useTrip.setState({ roads: [...roads, ...incoming.trip.roads.filter((r) => !ids.has(r.bywayId))] })
+                }
                 setMessage(
                   `Added ${result.savedAdded} saved roads, ${result.stretchesAdded} stretches and ${result.visitsAdded} visits. Saved in this browser.`,
                 )

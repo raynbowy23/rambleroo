@@ -1,3 +1,4 @@
+import { AddToTrip } from '../trip/AddToTrip'
 import { StripLink } from '../strip/StripLink'
 import { RoadVisual } from '../photos/RoadVisual'
 import { ShareControl } from '../share/ShareControl'
@@ -104,6 +105,7 @@ export function Postcard({
             )}
           </div>
           <div className={styles.actions}>
+            <AddToTrip bywayId={b.id} />
             <StripLink id={b.id} />
             {gallery && <ShareControl byway={b} story={story} small />}
             <Link viewTransition className="btn btn-primary" to={`/byway/${b.id}`}>
