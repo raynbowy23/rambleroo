@@ -1,0 +1,96 @@
+[
+  {
+    "id": 980001,
+    "name": "Going-to-the-Sun Road",
+    "state": "MT",
+    "waypoints": [
+      "West Glacier, Montana",
+      "Lake McDonald Lodge",
+      "Logan Pass",
+      "St. Mary, Montana"
+    ],
+    "mustUse": "Going-to-the-Sun"
+  },
+  {
+    "id": 980002,
+    "name": "Road to Hana",
+    "state": "HI",
+    "waypoints": [
+      "Paia, Hawaii",
+      "Keanae, Hawaii",
+      "Hana, Hawaii"
+    ],
+    "mustUse": "Hana Highway|HI 360|HI 36|\\b36\\b|\\b360\\b"
+  },
+  {
+    "id": 980003,
+    "name": "Tail of the Dragon",
+    "state": "NC",
+    "waypoints": [
+      "Deals Gap, North Carolina",
+      "Calderwood Dam"
+    ],
+    "mustUse": "US 129|Tapoco|Calderwood|129"
+  },
+  {
+    "id": 980004,
+    "name": "Denali Highway",
+    "state": "AK",
+    "osm": {
+      "name": "Denali Highway",
+      "bbox": [
+        62.5,
+        -149.5,
+        63.8,
+        -145.0
+      ]
+    }
+  },
+  {
+    "id": 980005,
+    "name": "Tunnel of Trees (M-119)",
+    "state": "MI",
+    "osm": {
+      "ref": "M 119",
+      "bbox": [
+        45.44,
+        -85.15,
+        45.7,
+        -84.95
+      ]
+    }
+  },
+  {
+    "id": 980006,
+    "name": "Twisted Sisters (Ranch Road 337)",
+    "state": "TX",
+    "waypoints": [
+      "Camp Wood, Texas",
+      "Leakey, Texas",
+      "Vanderpool, Texas"
+    ],
+    "mustUse": "RM 337|FM 337|Ranch to Market Road 337|Ranch Road 337|\\b337\\b"
+  },
+  {
+    "id": 980007,
+    "name": "Texas Hill Country Wine Road (US 290)",
+    "state": "TX",
+    "waypoints": [
+      "Fredericksburg, Texas",
+      "Stonewall, Texas",
+      "Johnson City, Texas"
+    ],
+    "mustUse": "US 290|\\b290\\b"
+  },
+  {
+    "id": 980008,
+    "name": "Storm King Highway",
+    "state": "NY",
+    "waypoints": [
+      "Cornwall-on-Hudson, New York",
+      "Storm King Highway",
+      "Highland Falls, New York"
+    ],
+    "mustUse": "NY 218|Storm King|\\b218\\b"
+  }
+]

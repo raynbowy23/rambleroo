@@ -1,0 +1,27 @@
+{
+  "bywayId": "tail-of-the-dragon-980003",
+  "reviewed": false,
+  "title": "Tail of the Dragon",
+  "direction": "US 129 from Deals Gap on the North Carolina–Tennessee line toward Calderwood, a short road known for its many curves. Expect heavy motorcycle traffic and drive within your limits.",
+  "towns": [
+    {
+      "name": "Deals Gap",
+      "wikipedia": "Deals Gap, North Carolina"
+    },
+    {
+      "name": "Calderwood Dam",
+      "wikipedia": "Calderwood Dam",
+      "kind": "landmark"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "the-dragon",
+      "title": "The Dragon",
+      "from": "Deals Gap",
+      "to": "Calderwood Dam",
+      "scene": "forest",
+      "line": "The famous curves along US 129."
+    }
+  ]
+}

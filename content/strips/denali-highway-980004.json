@@ -1,0 +1,39 @@
+{
+  "bywayId": "denali-highway-980004",
+  "reviewed": false,
+  "title": "Denali Highway",
+  "direction": "A mostly gravel road across interior Alaska from Paxson to Cantwell, past the Tangle Lakes. Services are very limited and the road is closed in winter.",
+  "towns": [
+    {
+      "name": "Paxson",
+      "wikipedia": "Paxson, Alaska"
+    },
+    {
+      "name": "Tangle Lakes",
+      "wikipedia": "Tangle Lakes",
+      "kind": "landmark"
+    },
+    {
+      "name": "Cantwell",
+      "wikipedia": "Cantwell, Alaska"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "to-tangle-lakes",
+      "title": "To the Tangle Lakes",
+      "from": "Paxson",
+      "to": "Tangle Lakes",
+      "scene": "water",
+      "line": "The eastern end, toward a chain of lakes."
+    },
+    {
+      "id": "across-the-interior",
+      "title": "Across the interior",
+      "from": "Tangle Lakes",
+      "to": "Cantwell",
+      "scene": "mountain",
+      "line": "The long gravel middle and west of the highway."
+    }
+  ]
+}

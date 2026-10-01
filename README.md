@@ -22,20 +22,21 @@ Rambleroo is mobile-first below 760px: the explorer map fills the screen with a 
 
 ## What's in it
 
-| Route | What it does |
-|---|---|
-| `/` | National map. Map, gallery, and list views share one selection and one filter state, all held in the URL (`byway`, `themes`, `state`, `q`, `view`). Hover previews, click selects and traces the route, and the postcard opens. Falls back to the list if WebGL is unavailable. |
-| `/byway/:id` | Story page for curated roads (draft, pending review) and the same template for plain listings. Includes a companion map, signature moments marked roadside, short walk, or separate excursion, and directions to one point on the road. |
-| `/state/WI` | The curated Wisconsin chapter: the five WisDOT program byways and the two USFS byways, listed separately. Other state codes get a generic, uncurated chapter. |
-| `/collections`, `/collections/:slug` | Five small editorial collections with explicit member lists. |
-| `/passport` | Saves, visits (repeatable, part or whole road), stamps, travel map, per-state progress, journal. Stored in this browser only. |
-| `/about` | Coverage and provenance, stated plainly. |
-| `/dev/art` | Review gallery for the procedural illustration kit. |
+| Route                                | What it does                                                                                                                                                                                                                                                                    |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/`                                  | National map. Map, gallery, and list views share one selection and one filter state, all held in the URL (`byway`, `themes`, `state`, `q`, `view`). Hover previews, click selects and traces the route, and the postcard opens. Falls back to the list if WebGL is unavailable. |
+| `/byway/:id`                         | Story page for curated roads (draft, pending review) and the same template for plain listings. Includes a companion map, signature moments marked roadside, short walk, or separate excursion, and directions to one point on the road.                                         |
+| `/state/WI`                          | The curated Wisconsin chapter: the five WisDOT program byways and the two USFS byways, listed separately. Other state codes get a generic, uncurated chapter.                                                                                                                   |
+| `/collections`, `/collections/:slug` | Five small editorial collections with explicit member lists.                                                                                                                                                                                                                    |
+| `/passport`                          | Saves, visits (repeatable, part or whole road), stamps, travel map, per-state progress, journal. Stored in this browser only.                                                                                                                                                   |
+| `/about`                             | Coverage and provenance, stated plainly.                                                                                                                                                                                                                                        |
+| `/dev/art`                           | Review gallery for the procedural illustration kit.                                                                                                                                                                                                                             |
 
 ## Data
 
 ```bash
 npm run ingest:fetch   # raw snapshots into data/raw/ (USDOT byway layer, Natural Earth), with manifest + sha256
+npx tsx scripts/ingest/build-supplements.ts  # WisDOT byways missing federally + classic drives (content/classics.json)
 npm run ingest:build   # normalise into public/data/ (catalog.json, byways.geojson, basemap/*)
 ```
 

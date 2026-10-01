@@ -41,12 +41,22 @@ interface LookInput {
   scene: SceneFamily
 }
 
-export function assignLooks(byways: LookInput[]): Map<string, PostcardLook> {
+/** `previous` keeps looks already published (so adding roads never reshuffles existing postcards); only new roads get one. */
+export function assignLooks(byways: LookInput[], previous = new Map<string, PostcardLook>()): Map<string, PostcardLook> {
   const used = new Set<string>()
   const visibleUsed = new Map<string, Set<string>>()
   const out = new Map<string, PostcardLook>()
+  for (const b of byways) {
+    const look = previous.get(b.id)
+    if (!look) continue
+    const group = `${b.region}|${b.scene}`
+    visibleUsed.set(group, (visibleUsed.get(group) ?? new Set<string>()).add(visibleKey(look)))
+    used.add(lookKey(look))
+    out.set(b.id, look)
+  }
   // Stable order so rebuilding the same snapshot gives the same looks.
   for (const b of [...byways].sort((a, z) => a.id.localeCompare(z.id))) {
+    if (out.has(b.id)) continue
     const group = `${b.region}|${b.scene}`
     const seen = visibleUsed.get(group) ?? new Set<string>()
     visibleUsed.set(group, seen)

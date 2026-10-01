@@ -1,0 +1,26 @@
+{
+  "bywayId": "tunnel-of-trees-m-119-980005",
+  "reviewed": false,
+  "title": "Tunnel of Trees (M-119)",
+  "direction": "M-119 north from Harbor Springs to Cross Village along the Lake Michigan bluffs, a narrow road under a canopy of trees.",
+  "towns": [
+    {
+      "name": "Harbor Springs",
+      "wikipedia": "Harbor Springs, Michigan"
+    },
+    {
+      "name": "Cross Village",
+      "wikipedia": "Cross Village, Michigan"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "tunnel-of-trees",
+      "title": "Tunnel of Trees",
+      "from": "Harbor Springs",
+      "to": "Cross Village",
+      "scene": "forest",
+      "line": "The narrow, wooded lakeshore road."
+    }
+  ]
+}

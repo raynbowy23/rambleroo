@@ -8,25 +8,63 @@
       "label": "Wisconsin Scenic Byways program",
       "issuer": "Wisconsin Department of Transportation",
       "members": [
-        { "name": "Wisconsin Great River Road", "bywayId": "great-river-road-2279" },
-        { "name": "Lower Wisconsin River Road", "bywayId": "lower-wisconsin-river-road-scenic-byway-80920" },
-        { "name": "Door County Coastal Byway", "bywayId": "door-county-coastal-byway-81450" },
-        { "name": "Wisconsin Lake Superior Scenic Byway", "bywayId": null, "note": "Not in the 2022 national byway dataset Rambleroo draws from. Route line pending review." },
-        { "name": "Nicolet-Wolf River Scenic Byway", "bywayId": null, "note": "Not in the 2022 national byway dataset Rambleroo draws from. Route line pending review." }
+        {
+          "name": "Wisconsin Great River Road",
+          "bywayId": "great-river-road-2279"
+        },
+        {
+          "name": "Lower Wisconsin River Road",
+          "bywayId": "lower-wisconsin-river-road-scenic-byway-80920"
+        },
+        {
+          "name": "Door County Coastal Byway",
+          "bywayId": "door-county-coastal-byway-81450"
+        },
+        {
+          "name": "Wisconsin Lake Superior Scenic Byway",
+          "bywayId": "wisconsin-lake-superior-scenic-byway-990001",
+          "note": "Route line from WisDOT (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Nicolet-Wolf River Scenic Byway",
+          "bywayId": "nicolet-wolf-river-scenic-byway-990002",
+          "note": "Route line from WisDOT (not in the 2022 national dataset)."
+        }
       ]
     },
     {
       "label": "National Forest Scenic Byways",
       "issuer": "USDA Forest Service",
       "members": [
-        { "name": "Great Divide Highway", "bywayId": "great-divide-highway-2325" },
-        { "name": "Heritage Drive", "bywayId": "heritage-drive-2324" }
+        {
+          "name": "Great Divide Highway",
+          "bywayId": "great-divide-highway-2325"
+        },
+        {
+          "name": "Heritage Drive",
+          "bywayId": "heritage-drive-2324"
+        }
       ]
     }
   ],
   "sources": [
-    { "label": "WisDOT, Explore Wisconsin's Scenic Byways", "url": "https://wisconsindot.gov/Pages/travel/road/scenic-ways/byways.aspx" },
-    { "label": "USDOT Scenic Byways layer (2022-06-24)", "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/Scenic_Byways_2022_06_24/FeatureServer/0" }
+    {
+      "label": "WisDOT, Explore Wisconsin's Scenic Byways",
+      "url": "https://wisconsindot.gov/Pages/travel/road/scenic-ways/byways.aspx"
+    },
+    {
+      "label": "USDOT Scenic Byways layer (2022-06-24)",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/ArcGIS/rest/services/Scenic_Byways_2022_06_24/FeatureServer/0"
+    },
+    {
+      "label": "WisDOT Scenic Byways layer",
+      "url": "https://dotmaps.wi.gov/arcgis/rest/services/agohub/SCENIC_BYWAYS/MapServer/0"
+    }
   ],
-  "bbox": [-92.95, 42.45, -86.75, 47.1]
+  "bbox": [
+    -92.95,
+    42.45,
+    -86.75,
+    47.1
+  ]
 }

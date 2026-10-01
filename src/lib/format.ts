@@ -2,6 +2,8 @@ import type { BywaySummary } from './types'
 import { states } from './states'
 export const formatMiles = (miles: number) => `≈ ${Math.round(miles).toLocaleString('en-US')} mi mapped`
 export function shortDesignation(b: BywaySummary) {
+  // Famous drives outside the byway programs are labelled as such everywhere a designation shows.
+  if (b.designations.some((d) => /Classic drive/i.test(d))) return 'Classic drive · not a designated byway'
   if (b.allAmericanRoad) return 'All-American Road'
   if (b.nationalScenicByway) return 'National Scenic Byway'
   if (b.designations.some((d) => /National Forest/i.test(d))) return 'National Forest byway'

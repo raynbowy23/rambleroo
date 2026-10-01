@@ -75,6 +75,11 @@ function project(line: Position[], cum: number[], p: Position) {
 const raw = await json<{
   features: { properties: { BYWAY_ID: number }; geometry: { type: string; coordinates: Position[] | Position[][] } }[]
 }>('data/raw/scenic_byways.geojson')
+// Supplemental sources (WisDOT byways, classic drives) share the schema.
+for (const name of ['supplement-wisdot', 'supplement-classics']) {
+  const extra = await json<typeof raw>(`data/raw/${name}.geojson`).catch(() => undefined)
+  if (extra) raw.features.push(...extra.features)
+}
 let parts: Position[][] = raw.features
   .filter((f) => f.properties.BYWAY_ID === sourceId)
   .flatMap((f) => (f.geometry.type === 'LineString' ? [f.geometry.coordinates as Position[]] : (f.geometry.coordinates as Position[][])))
@@ -95,12 +100,18 @@ const partKey = process.argv.includes('--part') ? process.argv[process.argv.inde
 const part = partKey ? content.parts?.find((p) => p.key === partKey) : undefined
 if (partKey && !part) throw new Error(`${id} has no part "${partKey}"`)
 if (part) {
-  const stateName = (JSON.parse(await readFile(new URL('scripts/photos/states.json', ROOT), 'utf8')) as Record<string, string>)[part.state]
-  content.clipToState = part.state
-  content.towns = content.towns.filter((t) => t.wikipedia.endsWith(`, ${stateName}`))
+  if (part.state) {
+    const stateName = (JSON.parse(await readFile(new URL('scripts/photos/states.json', ROOT), 'utf8')) as Record<string, string>)[
+      part.state
+    ]
+    content.clipToState = part.state
+    content.towns = content.towns.filter((t) => t.wikipedia.endsWith(`, ${stateName}`))
+  }
   content.stretches = part.stretches ?? []
+  // A part without curated stretches is treated as generated: tolerant placement, spacing, drafted stretches.
+  if (!part.stretches) content.generated = true
   content.direction = part.direction ?? ''
-  content.title = `${content.title} · ${part.label}`
+  if (part.label) content.title = `${content.title} · ${part.label}`
 }
 if (content.clipToState) {
   const states = await json<{ features: { properties: { postal: string }; geometry: Polygon | MultiPolygon }[] }>(
@@ -193,6 +204,21 @@ for (const t of content.towns) if (!townCoords.has(t.wikipedia)) throw new Error
 
 // The main drive must pass every non-branch town; the branch holds the rest. Try each long piece as the seed and keep the
 // main path that covers the most main-route towns, then the longest.
+// Piece parts: split the road into its connected sections, longest first, and keep only the chosen section's pieces.
+if (part?.piece) {
+  const sections: ReturnType<typeof chain>[] = []
+  let remaining = [...parts]
+  while (remaining.length) {
+    const seed = [...remaining].sort((a, b) => lengthOf(b) - lengthOf(a))[0]
+    const section = chain(seed, remaining, GAP_MI)
+    sections.push(section)
+    remaining = remaining.filter((l) => !section.used.has(l))
+  }
+  sections.sort((a, b) => lengthOf(b.path) - lengthOf(a.path))
+  const chosen = sections[part.piece - 1]
+  if (!chosen) throw new Error(`${id} has only ${sections.length} section(s)`)
+  parts = parts.filter((l) => chosen.used.has(l))
+}
 const mainTowns = content.towns.filter((t) => !t.branch)
 const longest = [...parts].sort((a, b) => lengthOf(b) - lengthOf(a))
 let best: ReturnType<typeof chain> | undefined

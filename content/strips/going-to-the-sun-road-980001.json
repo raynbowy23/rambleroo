@@ -1,0 +1,52 @@
+{
+  "bywayId": "going-to-the-sun-road-980001",
+  "reviewed": false,
+  "title": "Going-to-the-Sun Road",
+  "direction": "Crosses Glacier National Park from West Glacier, along Lake McDonald and up to Logan Pass on the Continental Divide, then down to St. Mary. Vehicle size limits, seasonal closures and timed-entry rules apply; check the National Park Service before you go.",
+  "towns": [
+    {
+      "name": "West Glacier",
+      "wikipedia": "West Glacier, Montana"
+    },
+    {
+      "name": "Lake McDonald Lodge",
+      "wikipedia": "Lake McDonald Lodge",
+      "kind": "landmark"
+    },
+    {
+      "name": "Logan Pass",
+      "wikipedia": "Logan Pass",
+      "kind": "landmark"
+    },
+    {
+      "name": "St. Mary",
+      "wikipedia": "St. Mary, Montana"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "lake-mcdonald",
+      "title": "Along Lake McDonald",
+      "from": "West Glacier",
+      "to": "Lake McDonald Lodge",
+      "scene": "river",
+      "line": "The lake shore on the park's west side."
+    },
+    {
+      "id": "up-to-logan-pass",
+      "title": "Up to Logan Pass",
+      "from": "Lake McDonald Lodge",
+      "to": "Logan Pass",
+      "scene": "mountain",
+      "line": "The climb to the Continental Divide."
+    },
+    {
+      "id": "down-to-st-mary",
+      "title": "Down to St. Mary",
+      "from": "Logan Pass",
+      "to": "St. Mary",
+      "scene": "mountain",
+      "line": "The descent toward the park's east side."
+    }
+  ]
+}

@@ -29,6 +29,14 @@ export default function AboutPage() {
         </a>
         . Elevation is exaggerated to give the paper map a raised-relief appearance.
       </p>
+      <h2>Roads beyond the national dataset</h2>
+      <p>
+        Two Wisconsin byways missing from the 2022 national layer, the Wisconsin Lake Superior Scenic Byway and the Nicolet-Wolf River
+        Scenic Byway, use the route lines from WisDOT's own scenic byways layer. A small set of classic drives that were never designated
+        scenic byways, such as Going-to-the-Sun Road and the Road to Hana, are included and always labelled "Classic drive · not a
+        designated byway". Their route lines are routed or taken from OpenStreetMap data (© OpenStreetMap contributors) and checked to
+        follow the named road.
+      </p>
       <h2>How we choose photos</h2>
       <p>
         We curate photographs for stories. For other listings, we use the lead image of the road’s Wikipedia article or the U.S. DOT

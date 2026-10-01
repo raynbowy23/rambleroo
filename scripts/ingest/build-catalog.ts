@@ -37,6 +37,11 @@ async function main() {
   await mkdir(BASE_OUT, { recursive: true })
   const manifest = await readJson<any>(new URL('manifest.json', RAW))
   const raw = await readJson<FeatureCollection<LineString | MultiLineString, RawProps>>(new URL('scenic_byways.geojson', RAW))
+  // Supplements (scripts/ingest/build-supplements.ts): WisDOT byways missing federally, and classic drives. Same schema.
+  for (const name of ['supplement-wisdot.geojson', 'supplement-classics.geojson']) {
+    const extra = await readJson<FeatureCollection<LineString | MultiLineString, RawProps>>(new URL(name, RAW)).catch(() => undefined)
+    if (extra) raw.features.push(...extra.features)
+  }
   const statesFc = await readJson<FeatureCollection<Polygon | MultiPolygon, any>>(
     new URL('ne_50m_admin_1_states_provinces_lakes.geojson', RAW),
   )
@@ -153,7 +158,10 @@ async function main() {
   for (const sid of storyIds.keys()) if (!catalog.some((b) => b.id === sid)) warnings.push(`story ${sid} has no matching catalog byway`)
 
   // Looks are assigned over the whole catalog at once so they can be kept unique.
-  const looks = assignLooks(catalog)
+  const previous = await readJson<{ byways: { id: string; look?: BywaySummary['look'] }[] }>(new URL('catalog.json', OUT)).catch(() => ({
+    byways: [],
+  }))
+  const looks = assignLooks(catalog, new Map(previous.byways.filter((b) => b.look).map((b) => [b.id, b.look!])))
   for (const b of catalog) b.look = looks.get(b.id)!
 
   catalog.sort((a, b) => a.name.localeCompare(b.name))

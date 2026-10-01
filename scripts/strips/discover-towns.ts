@@ -19,7 +19,7 @@ const NOT_A_LANDMARK =
   /\b(House|Hall|Club|Lodge|Station|Stations|Road|Highway|Byway|Historic District|Cabin|Entrance|Camp|Utility|Comfort|School|Church|Hotel|Inn|Store|Company|Mine|Resort|Airport|caldera)\b/i
 // Natural and park features only; buildings, companies and people are excluded by requiring one of these words.
 const LANDMARK =
-  /\b(Pass|Summit|Peak|Mountain|Mount|Dome|Lake|Falls|Overlook|Viewpoint|Vista|Point|Meadows?|Grove|Canyon|Gorge|Gap|Bald|Knob|Ridge|Visitor Center|Springs|Butte|Arch|Glacier|Notch)\b/
+  /\b(Pass|Summit|Peak|Mountain|Mount|Dome|Lake|Falls|Overlook|Viewpoint|Vista|Point|Meadows?|Grove|Canyon|Gorge|Gap|Bald|Knob|Ridge|Visitor Center|Springs|Butte|Arch|Glacier|Notch|Rock|Rocks|Mesa|Spire|Needles|Cliffs?|Bluffs?|Beach|Cove|Island|Bay|Harbor|Lighthouse|Dunes)\b/
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 const json = async <T>(rel: string): Promise<T> => JSON.parse(await readFile(new URL(rel, ROOT), 'utf8'))
 
@@ -57,6 +57,11 @@ const catalog = (await json<{ byways: { id: string; name: string; states: string
 const raw = await json<{
   features: { properties: { BYWAY_ID: number }; geometry: { type: string; coordinates: Position[] | Position[][] } }[]
 }>('data/raw/scenic_byways.geojson')
+// Supplemental sources (WisDOT byways, classic drives) share the schema.
+for (const name of ['supplement-wisdot', 'supplement-classics']) {
+  const extra = await json<typeof raw>(`data/raw/${name}.geojson`).catch(() => undefined)
+  if (extra) raw.features.push(...extra.features)
+}
 
 for (const id of process.argv.slice(2).filter((arg) => !arg.startsWith('--'))) {
   const target = new URL(`content/strips/${id}.json`, ROOT)
@@ -122,7 +127,7 @@ for (const id of process.argv.slice(2).filter((arg) => !arg.startsWith('--'))) {
   // "Lincoln (CDP)" and "Lincoln" are the same place for a traveller; keep one, preferring the plain title.
   const byName = new Map<string, string>()
   for (const title of [...found.keys()].sort((a, b) => a.length - b.length)) {
-    const name = title.split(',')[0].replace(/\s*\((CDP|village|town|city)\)$/i, '')
+    const name = title.split(',')[0].replace(/\s*\((CDP|village|town|city|community)\)$/i, '')
     if (!byName.has(name)) byName.set(name, title)
   }
   const towns: { name: string; wikipedia: string; kind?: 'landmark'; weight?: number }[] = [...byName].map(([name, wikipedia]) => ({
