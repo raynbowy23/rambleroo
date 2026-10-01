@@ -1,0 +1,39 @@
+{
+  "bywayId": "baltimore-s-historic-charles-street-2271",
+  "reviewed": false,
+  "title": "Baltimore's Historic Charles Street",
+  "direction": "Charles Street north through Mount Vernon and Charles Village to the Homewood campus. A city drive: go slowly and expect traffic lights.",
+  "towns": [
+    {
+      "name": "Mount Vernon",
+      "wikipedia": "Mount Vernon, Baltimore"
+    },
+    {
+      "name": "Charles Village",
+      "wikipedia": "Charles Village, Baltimore"
+    },
+    {
+      "name": "Homewood Museum",
+      "wikipedia": "Homewood Museum",
+      "kind": "landmark"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "mount-vernon-north",
+      "title": "Mount Vernon to Charles Village",
+      "from": "Mount Vernon",
+      "to": "Charles Village",
+      "scene": "town",
+      "line": "Rowhouses, churches and squares around the Washington Monument."
+    },
+    {
+      "id": "to-homewood",
+      "title": "Up to Homewood",
+      "from": "Charles Village",
+      "to": "Homewood Museum",
+      "scene": "town",
+      "line": "The northern blocks past the university."
+    }
+  ]
+}

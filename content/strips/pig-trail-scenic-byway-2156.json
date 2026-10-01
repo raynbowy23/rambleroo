@@ -1,0 +1,78 @@
+{
+  "bywayId": "pig-trail-scenic-byway-2156",
+  "reviewed": false,
+  "generated": true,
+  "title": "Pig Trail Scenic Byway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Brashears",
+      "wikipedia": "Brashears, Arkansas",
+      "weight": 2931
+    },
+    {
+      "name": "Paradise",
+      "wikipedia": "",
+      "osm": "node/151338352",
+      "at": [
+        -93.8340843,
+        35.6323045
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Cass",
+      "wikipedia": "",
+      "osm": "node/151491878",
+      "at": [
+        -93.8193612,
+        35.6875812
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Barnes",
+      "wikipedia": "",
+      "osm": "node/151962354",
+      "at": [
+        -93.8204728,
+        35.63536
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Bend Hill",
+      "wikipedia": "",
+      "osm": "node/359006954",
+      "at": [
+        -93.8474179,
+        35.6456377
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Mahaffey Knob",
+      "wikipedia": "",
+      "osm": "node/359008701",
+      "at": [
+        -93.7996378,
+        35.8253571
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Whiting Mountain",
+      "wikipedia": "",
+      "osm": "node/359010149",
+      "at": [
+        -93.8168607,
+        35.736747
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

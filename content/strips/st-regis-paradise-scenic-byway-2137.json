@@ -1,0 +1,66 @@
+{
+  "bywayId": "st-regis-paradise-scenic-byway-2137",
+  "reviewed": false,
+  "generated": true,
+  "title": "St. Regis-Paradise Scenic Byway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "St. Regis",
+      "wikipedia": "St. Regis, Montana",
+      "weight": 11380
+    },
+    {
+      "name": "Donlan",
+      "wikipedia": "",
+      "osm": "node/150936716",
+      "at": [
+        -114.9354117,
+        47.3302094
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Saint Regis",
+      "wikipedia": "",
+      "osm": "node/150937393",
+      "at": [
+        -115.098712,
+        47.3011757
+      ],
+      "weight": 4000
+    },
+    {
+      "name": "Toole",
+      "wikipedia": "",
+      "osm": "node/150939765",
+      "at": [
+        -115.0229141,
+        47.3260425
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Quinns",
+      "wikipedia": "",
+      "osm": "node/150958534",
+      "at": [
+        -114.8010601,
+        47.3225729
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Tamarack Hill",
+      "wikipedia": "",
+      "osm": "node/357931084",
+      "at": [
+        -115.0395815,
+        47.338265
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

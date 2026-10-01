@@ -1,0 +1,36 @@
+{
+  "bywayId": "hilton-head-scenic-highway-73585",
+  "reviewed": false,
+  "generated": true,
+  "title": "Hilton Head Scenic Highway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Hardeeville",
+      "wikipedia": "Hardeeville, South Carolina",
+      "weight": 30327
+    },
+    {
+      "name": "Barrell Landing",
+      "wikipedia": "",
+      "osm": "node/154334732",
+      "at": [
+        -80.9306648,
+        32.295198
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Seagrass Station",
+      "wikipedia": "",
+      "osm": "node/5762437554",
+      "at": [
+        -80.9404608,
+        32.2827092
+      ],
+      "weight": 1000
+    }
+  ],
+  "stretches": []
+}

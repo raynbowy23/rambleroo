@@ -1,0 +1,31 @@
+{
+  "bywayId": "highlands-scenic-byway-10335",
+  "reviewed": false,
+  "generated": true,
+  "title": "Highlands Scenic Byway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Longdale Furnace",
+      "wikipedia": "",
+      "osm": "node/158486400",
+      "at": [
+        -79.6833784,
+        37.8101296
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Brushy Mountain",
+      "wikipedia": "",
+      "osm": "node/356583830",
+      "at": [
+        -79.6411557,
+        37.8717958
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

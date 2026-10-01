@@ -1,0 +1,35 @@
+{
+  "bywayId": "grassy-island-crossing-12823",
+  "reviewed": false,
+  "generated": true,
+  "title": "Grassy Island Crossing",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Ansonville",
+      "wikipedia": "Ansonville, North Carolina",
+      "weight": 10532
+    },
+    {
+      "name": "Cedar Hill",
+      "wikipedia": "",
+      "osm": "node/154345875",
+      "at": [
+        -80.1181147,
+        35.1429262
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Mangum",
+      "wikipedia": "",
+      "osm": "node/158570435",
+      "at": [
+        -79.9872787,
+        35.1229262
+      ],
+      "weight": 1000
+    }
+  ],
+  "stretches": []
+}

@@ -1,0 +1,36 @@
+{
+  "bywayId": "gypsum-hills-scenic-byway-2266",
+  "reviewed": false,
+  "generated": true,
+  "title": "Gypsum Hills Scenic Byway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Medicine Lodge",
+      "wikipedia": "Medicine Lodge, Kansas",
+      "weight": 29837
+    },
+    {
+      "name": "Coldwater",
+      "wikipedia": "",
+      "osm": "node/151559575",
+      "at": [
+        -99.3267808,
+        37.2689131
+      ],
+      "weight": 4000
+    },
+    {
+      "name": "Twin Peaks",
+      "wikipedia": "",
+      "osm": "node/358624452",
+      "at": [
+        -98.7070336,
+        37.2705791
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

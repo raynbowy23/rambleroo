@@ -1,0 +1,27 @@
+{
+  "bywayId": "nebo-loop-scenic-byway-2012",
+  "reviewed": false,
+  "title": "Nebo Loop Scenic Byway",
+  "direction": "Runs south from Payson along the flank of Mount Nebo in the Wasatch Range toward Nephi; the mapped road ends in Salt Creek Canyon, about five miles east of town. Closed in winter.",
+  "towns": [
+    {
+      "name": "Payson",
+      "wikipedia": "Payson, Utah"
+    },
+    {
+      "name": "Mount Nebo",
+      "wikipedia": "Mount Nebo (Utah)",
+      "kind": "landmark"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "nebo-loop",
+      "title": "Along Mount Nebo",
+      "from": "Payson",
+      "to": "Mount Nebo",
+      "scene": "mountain",
+      "line": "Canyon, high meadows and views of the Wasatch."
+    }
+  ]
+}

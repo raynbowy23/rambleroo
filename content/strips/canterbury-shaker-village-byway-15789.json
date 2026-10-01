@@ -1,0 +1,56 @@
+{
+  "bywayId": "canterbury-shaker-village-byway-15789",
+  "reviewed": false,
+  "generated": true,
+  "title": "Canterbury Shaker Village Byway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Canterbury",
+      "wikipedia": "Canterbury, New Hampshire",
+      "weight": 17403
+    },
+    {
+      "name": "Shaker Village",
+      "wikipedia": "",
+      "osm": "node/158812499",
+      "at": [
+        -71.4901501,
+        43.3591886
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Pearls Corner",
+      "wikipedia": "",
+      "osm": "node/158851916",
+      "at": [
+        -71.4684048,
+        43.3423018
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Kezer Seminary",
+      "wikipedia": "",
+      "osm": "node/158892128",
+      "at": [
+        -71.5106281,
+        43.3448015
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Cogswell Hill",
+      "wikipedia": "",
+      "osm": "node/357719266",
+      "at": [
+        -71.5811227,
+        43.3284465
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

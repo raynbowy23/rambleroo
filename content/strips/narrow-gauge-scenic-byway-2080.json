@@ -1,0 +1,36 @@
+{
+  "bywayId": "narrow-gauge-scenic-byway-2080",
+  "reviewed": false,
+  "generated": true,
+  "title": "Narrow-Gauge Scenic Byway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Dulce",
+      "wikipedia": "Dulce, New Mexico",
+      "weight": 19395
+    },
+    {
+      "name": "Navajo",
+      "wikipedia": "",
+      "osm": "node/151711909",
+      "at": [
+        -107.0630945,
+        36.9461201
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Dulce Rock / Loosi Hïk'âî",
+      "wikipedia": "",
+      "osm": "node/357585892",
+      "at": [
+        -107.005871,
+        36.9455655
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

@@ -1,0 +1,38 @@
+{
+  "bywayId": "route-151-shasta-dam-boulevard-10250",
+  "reviewed": false,
+  "generated": true,
+  "title": "Route 151--Shasta Dam Boulevard",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Shasta Lake",
+      "wikipedia": "Shasta Lake, California",
+      "kind": "landmark",
+      "weight": 19334
+    },
+    {
+      "name": "3 Shastas Viewpoint",
+      "wikipedia": "",
+      "osm": "node/1706585745",
+      "at": [
+        -122.425352,
+        40.7051891
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "chamise Peak",
+      "wikipedia": "",
+      "osm": "node/2175648867",
+      "at": [
+        -122.4367288,
+        40.6874091
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

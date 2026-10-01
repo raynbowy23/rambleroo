@@ -1,0 +1,47 @@
+{
+  "bywayId": "fishlake-scenic-byway-u-25-2018",
+  "reviewed": false,
+  "generated": true,
+  "title": "Fishlake Scenic Byway (U-25)",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Fish Lake",
+      "wikipedia": "Fish Lake (Utah)",
+      "kind": "landmark",
+      "weight": 11628
+    },
+    {
+      "name": "Lakeside Resort",
+      "wikipedia": "",
+      "osm": "node/150958961",
+      "at": [
+        -111.738521,
+        38.5352546
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Fishlake Resort",
+      "wikipedia": "",
+      "osm": "node/150967974",
+      "at": [
+        -111.7243541,
+        38.5474765
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Zedds Mountain",
+      "wikipedia": "",
+      "osm": "node/356680488",
+      "at": [
+        -111.6032404,
+        38.6060864
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

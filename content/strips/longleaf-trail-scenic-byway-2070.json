@@ -1,0 +1,42 @@
+{
+  "bywayId": "longleaf-trail-scenic-byway-2070",
+  "reviewed": false,
+  "generated": true,
+  "title": "Longleaf Trail Scenic Byway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Lotus",
+      "wikipedia": "",
+      "osm": "node/151355246",
+      "at": [
+        -93.1304429,
+        31.485451
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Bedstead Hill",
+      "wikipedia": "",
+      "osm": "node/358393191",
+      "at": [
+        -93.0882195,
+        31.4907279
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Coyote Camp Scenic Overlook",
+      "wikipedia": "",
+      "osm": "node/9463517664",
+      "at": [
+        -93.0494475,
+        31.519474
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

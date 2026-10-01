@@ -1,0 +1,39 @@
+{
+  "bywayId": "red-rock-scenic-byway-11290",
+  "reviewed": false,
+  "title": "Red Rock Scenic Byway",
+  "direction": "State Route 179 from the Village of Oak Creek north to Sedona, past Bell Rock and Courthouse Butte. Short, but slow with traffic and trailheads.",
+  "towns": [
+    {
+      "name": "Village of Oak Creek",
+      "wikipedia": "Village of Oak Creek, Arizona"
+    },
+    {
+      "name": "Bell Rock",
+      "wikipedia": "Bell Rock (Arizona)",
+      "kind": "landmark"
+    },
+    {
+      "name": "Sedona",
+      "wikipedia": "Sedona, Arizona"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "past-bell-rock",
+      "title": "Past Bell Rock",
+      "from": "Village of Oak Creek",
+      "to": "Bell Rock",
+      "scene": "desert",
+      "line": "Red buttes rise right beside the road."
+    },
+    {
+      "id": "into-sedona",
+      "title": "Into Sedona",
+      "from": "Bell Rock",
+      "to": "Sedona",
+      "scene": "desert",
+      "line": "The last miles into town along Oak Creek."
+    }
+  ]
+}

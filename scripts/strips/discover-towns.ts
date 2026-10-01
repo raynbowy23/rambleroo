@@ -40,7 +40,11 @@ async function overpass(query: string) {
   for (let i = 0; i < 6; i++) {
     await sleep(1500)
     try {
-      const res = await fetch('https://overpass-api.de/api/interpreter', { method: 'POST', headers: UA, body: new URLSearchParams({ data: query }) })
+      const res = await fetch('https://overpass-api.de/api/interpreter', {
+        method: 'POST',
+        headers: UA,
+        body: new URLSearchParams({ data: query }),
+      })
       if (res.ok) return res.json()
     } catch {
       // retry below
@@ -144,9 +148,9 @@ for (const id of process.argv.slice(2).filter((arg) => !arg.startsWith('--'))) {
     const name = title.split(',')[0].replace(/\s*\((CDP|village|town|city|community)\)$/i, '')
     if (!byName.has(name)) byName.set(name, title)
   }
-  const towns: { name: string; wikipedia: string; kind?: 'landmark'; weight?: number; osm?: string; at?: Position }[] = [
-    ...byName,
-  ].map(([name, wikipedia]) => ({ name, wikipedia }))
+  const towns: { name: string; wikipedia: string; kind?: 'landmark'; weight?: number; osm?: string; at?: Position }[] = [...byName].map(
+    ([name, wikipedia]) => ({ name, wikipedia }),
+  )
   for (const title of landmarks.keys())
     towns.push({ name: title.replace(/\s*\(.*\)$/, '').split(',')[0], wikipedia: title, kind: 'landmark' })
   // Article length as a notability weight, so spacing keeps Tuolumne Meadows over an obscure dome nearby.
@@ -177,11 +181,25 @@ for (const id of process.argv.slice(2).filter((arg) => !arg.startsWith('--'))) {
     const have = new Set(towns.map((t) => t.name))
     for (const n of d.elements as { id: number; lat: number; lon: number; tags: Record<string, string> }[]) {
       const at: Position = [n.lon, n.lat]
-      if (have.has(n.tags.name) || nearest(at, pts) > 1) continue
+      // Skip bare generic names ("Falls") and survey-style or lowercase labels ("3 post Creosote bush", "top lookout") that are not places a traveller would recognise.
+      if (
+        have.has(n.tags.name) ||
+        nearest(at, pts) > 1 ||
+        /^[\d\p{Ll}]/u.test(n.tags.name) ||
+        (!/\s/.test(n.tags.name.trim()) && /^(Falls|Peak|Point|Hill|Overlook|Viewpoint|Summit|Junction|Corner)$/i.test(n.tags.name))
+      )
+        continue
       have.add(n.tags.name)
       const isPlace = !!n.tags.place
       const rank = { city: 5, town: 4, suburb: 3, village: 3, quarter: 2, neighbourhood: 1, hamlet: 1 }[n.tags.place] ?? 1
-      towns.push({ name: n.tags.name, wikipedia: '', osm: `node/${n.id}`, at, weight: rank * 1000, ...(isPlace ? {} : { kind: 'landmark' as const }) })
+      towns.push({
+        name: n.tags.name,
+        wikipedia: '',
+        osm: `node/${n.id}`,
+        at,
+        weight: rank * 1000,
+        ...(isPlace ? {} : { kind: 'landmark' as const }),
+      })
     }
   }
   await writeFile(

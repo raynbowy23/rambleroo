@@ -1,0 +1,48 @@
+{
+  "bywayId": "route-78-anza-borrego-desert-state-park-road-2171",
+  "reviewed": false,
+  "generated": true,
+  "title": "Route 78--Anza-Borrego Desert State Park Road",
+  "direction": "",
+  "towns": [
+    {
+      "name": "San Felipe Valley",
+      "wikipedia": "San Felipe Valley, California",
+      "weight": 5120
+    },
+    {
+      "name": "Round Granite Hill",
+      "wikipedia": "",
+      "osm": "node/358791385",
+      "at": [
+        -116.3306662,
+        33.1281902
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Sentenac Mountain",
+      "wikipedia": "",
+      "osm": "node/358792425",
+      "at": [
+        -116.443178,
+        33.1070157
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Ravine Lookout",
+      "wikipedia": "",
+      "osm": "node/6377258985",
+      "at": [
+        -116.3740546,
+        33.1426914
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

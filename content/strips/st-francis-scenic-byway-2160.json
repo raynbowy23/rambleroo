@@ -1,0 +1,57 @@
+{
+  "bywayId": "st-francis-scenic-byway-2160",
+  "reviewed": false,
+  "generated": true,
+  "title": "St. Francis Scenic Byway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Marianna",
+      "wikipedia": "Marianna, Arkansas",
+      "weight": 19408
+    },
+    {
+      "name": "Phillips Bayou",
+      "wikipedia": "",
+      "osm": "node/151343881",
+      "at": [
+        -90.6398295,
+        34.6481557
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Southland",
+      "wikipedia": "",
+      "osm": "node/151741302",
+      "at": [
+        -90.6539967,
+        34.5853788
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Morrells Hill",
+      "wikipedia": "",
+      "osm": "node/359001496",
+      "at": [
+        -90.6420518,
+        34.6473223
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Look Out Point St. Francis National Forest",
+      "wikipedia": "",
+      "osm": "node/14152545050",
+      "at": [
+        -90.6203862,
+        34.6136587
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

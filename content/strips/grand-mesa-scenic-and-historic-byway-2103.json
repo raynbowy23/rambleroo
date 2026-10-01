@@ -1,0 +1,39 @@
+{
+  "bywayId": "grand-mesa-scenic-and-historic-byway-2103",
+  "reviewed": false,
+  "title": "Grand Mesa Scenic and Historic Byway",
+  "direction": "Climbs from the Plateau Creek valley over the Grand Mesa, a flat-topped mountain dotted with lakes, and down to Cedaredge. Snow can close the top well into spring.",
+  "towns": [
+    {
+      "name": "Mesa",
+      "wikipedia": "Mesa, Colorado"
+    },
+    {
+      "name": "Grand Mesa",
+      "wikipedia": "Grand Mesa",
+      "kind": "landmark"
+    },
+    {
+      "name": "Cedaredge",
+      "wikipedia": "Cedaredge, Colorado"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "up-the-mesa",
+      "title": "Up the mesa",
+      "from": "Mesa",
+      "to": "Grand Mesa",
+      "scene": "mountain",
+      "line": "The climb out of the valley onto the mesa top."
+    },
+    {
+      "id": "down-to-cedaredge",
+      "title": "Down to Cedaredge",
+      "from": "Grand Mesa",
+      "to": "Cedaredge",
+      "scene": "forest",
+      "line": "Lakes, aspen and the descent south."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "bywayId": "city-of-las-vegas-las-vegas-boulevard-state-scenic-byway-39538",
+  "reviewed": false,
+  "title": "Las Vegas Boulevard (City of Las Vegas)",
+  "direction": "The city section of Las Vegas Boulevard, between the Strat and the old downtown. Best after dark, when the signs are lit.",
+  "towns": [
+    {
+      "name": "The Strat",
+      "wikipedia": "The Strat",
+      "kind": "landmark"
+    },
+    {
+      "name": "Neon Museum",
+      "wikipedia": "Neon Museum",
+      "kind": "landmark"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "downtown-neon",
+      "title": "Toward downtown",
+      "from": "The Strat",
+      "to": "Neon Museum",
+      "scene": "town",
+      "line": "Motel signs and the road into old Las Vegas."
+    }
+  ]
+}

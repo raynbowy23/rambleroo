@@ -1,0 +1,53 @@
+{
+  "bywayId": "route-101-redwood-highway-2198",
+  "reviewed": false,
+  "generated": true,
+  "title": "Route 101--Redwood Highway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "False Klamath",
+      "wikipedia": "",
+      "osm": "node/147133987",
+      "at": [
+        -124.0953536,
+        41.591785
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Footsteps Rocks",
+      "wikipedia": "",
+      "osm": "node/358806451",
+      "at": [
+        -124.1147988,
+        41.6162288
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Crescent Beach Overlook",
+      "wikipedia": "",
+      "osm": "node/2295112086",
+      "at": [
+        -124.1437431,
+        41.7071501
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "SkyTrail Observation Deck",
+      "wikipedia": "",
+      "osm": "node/10224166234",
+      "at": [
+        -124.0781463,
+        41.5886333
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}
