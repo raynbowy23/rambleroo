@@ -1,3 +1,4 @@
+import { basemapService, detailLayers, mapFontFaces } from './basemap'
 import type { StyleSpecification, LineLayerSpecification } from './maplibre'
 /** Map colours: a --map-<name> token wins over the UI token of the same name, so maps can stay colourful while the chrome stays olive. */
 export function palette() {
@@ -21,9 +22,14 @@ export function createMapStyle(): StyleSpecification {
     }))
   return {
     version: 8,
-    sources: Object.fromEntries(
-      ['land', 'states', 'lakes', 'rivers'].map((name) => [name, { type: 'geojson', data: `/data/basemap/${name}.geojson` }]),
-    ),
+    glyphs: basemapService.glyphs,
+    'font-faces': mapFontFaces,
+    sources: {
+      openfreemap: { type: 'vector', url: basemapService.tiles, attribution: basemapService.attribution },
+      ...Object.fromEntries(
+        ['land', 'states', 'lakes', 'rivers'].map((name) => [name, { type: 'geojson', data: `/data/basemap/${name}.geojson` }]),
+      ),
+    },
     layers: [
       { id: 'sea', type: 'background', paint: { 'background-color': c('water-light') } },
       { id: 'land', type: 'fill', source: 'land', paint: { 'fill-color': ['case', ['==', ['get', 'us'], true], c('land-us'), c('land')] } },
@@ -43,6 +49,7 @@ export function createMapStyle(): StyleSpecification {
         source: 'rivers',
         paint: { 'line-color': c('water'), 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.4, 9, 1.4], 'line-opacity': 0.65 },
       },
+      ...detailLayers(c),
       {
         id: 'states',
         type: 'line',

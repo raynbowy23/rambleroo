@@ -1,5 +1,6 @@
+import { NotFound } from './components/ui/RoadStatus'
 import { lazy, Suspense } from 'react'
-import { createBrowserRouter, Link, RouterProvider } from 'react-router'
+import { createBrowserRouter, RouterProvider } from 'react-router'
 import Layout from './components/layout/Layout'
 import styles from './components/layout/Page.module.css'
 // Route modules load through the router (not <Suspense>), so the current page stays on screen until the next one is ready,
@@ -67,15 +68,7 @@ const router = createBrowserRouter([
       },
       {
         path: '*',
-        element: (
-          <main className={styles.page}>
-            <h1>A little off the beaten path.</h1>
-            <p>We couldn’t find that page.</p>
-            <Link viewTransition to="/">
-              Return to the map
-            </Link>
-          </main>
-        ),
+        element: <NotFound />,
       },
     ],
   },

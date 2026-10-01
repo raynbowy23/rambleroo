@@ -37,7 +37,7 @@ export function setRelief(map: Map, enabled: boolean, exaggeration = 1.6) {
           'hillshade-accent-color': c('terrain'),
         },
       },
-      'states',
+      'detail-roads',
     )
   map.setTerrain({ source: terrainSource, exaggeration: Math.max(1.2, Math.min(2, exaggeration)) })
   map.setSky({

@@ -1,3 +1,4 @@
+import { LoadingRoad, NotFound } from '../../components/ui/RoadStatus'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router'
 import { useByway, useStory } from '../../lib/data'
@@ -24,12 +25,8 @@ export default function StripPage() {
   const [search] = useSearchParams()
   const strip = useStrip(id, search.get('part') ?? undefined)
   const { byway, status } = useByway(id)
-  if (strip.loading || status === 'loading')
-    return (
-      <main className={s.page}>
-        <p role="status">Unrolling the road…</p>
-      </main>
-    )
+  if (strip.loading || status === 'loading') return <LoadingRoad title="Unrolling the road…" />
+  if (status !== 'error' && !byway) return <NotFound title="Road not found" />
   if (strip.error || status === 'error')
     return (
       <main className={s.page}>
@@ -101,6 +98,8 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
   const save = usePassport((state) => state.saveStretch)
   const unsave = usePassport((state) => state.removeStretch)
   const ribbonArea = useRef<HTMLDivElement>(null)
+  const progress = useRef<HTMLDivElement>(null)
+  const progressCar = useRef<HTMLDivElement>(null)
   const counter = useRef<HTMLOutputElement>(null)
   const car = useRef<HTMLDivElement>(null)
   const panel = useRef<HTMLElement>(null)
@@ -146,6 +145,17 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       const inGap = !!route.gaps?.some((gap) => mile > gap.atMile && mile < gap.atMile + gap.miles)
       if (counter.current)
         counter.current.textContent = `${on === 'branch' ? (data.branch?.label ? 'Branch · mile' : 'Tip · mile') : 'Mile'} ${mile.toFixed(1)} of ${route.miles.toFixed(1)}${inGap ? ' · unmapped' : ''}`
+      const mainMile = on === 'main' ? mile : (data.branch?.joinsAtMile ?? 0)
+      const percent = data.main.miles ? (100 * mainMile) / data.main.miles : 0
+      if (progress.current) {
+        progress.current.style.setProperty('--progress', `${percent}%`)
+        progress.current.setAttribute('aria-valuenow', mainMile.toFixed(1))
+        progress.current.setAttribute(
+          'aria-valuetext',
+          `${on === 'branch' ? 'Exploring the branch from main mile' : 'Mile'} ${mainMile.toFixed(1)}`,
+        )
+      }
+      if (progressCar.current) progressCar.current.style.left = `${percent}%`
       const ribbon = geometry[on]!
       if (car.current) {
         const angle = (Math.atan2(ribbon.offset(mile + 0.05) - ribbon.offset(mile - 0.05), 0.1 * scale) * 180) / Math.PI
@@ -184,17 +194,23 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
   // Choosing a stretch drives there: scroll so the car sits at the stretch's first mile. Runs after render so the tip
   // section exists when a tip stretch opens it, and also when a shared link arrives with ?stretch= already set.
   const motion = useMotionEnabled()
+  const jumpToMile = useCallback(
+    (on: 'main' | 'branch', mile: number) => {
+      const sections = [...(ribbonArea.current?.querySelectorAll<HTMLElement>(`[data-ribbon="${on}"]`) ?? [])]
+      const section = sections.find((el) => Number(el.dataset.from) <= mile && mile <= Number(el.dataset.to))
+      if (!section) return
+      const top = section.getBoundingClientRect().top + window.scrollY + (mile - Number(section.dataset.from)) * scale
+      window.scrollTo({ top: Math.max(0, top - driveLine(relief, phone)), behavior: motion ? 'smooth' : 'auto' })
+    },
+    [scale, relief, phone, motion],
+  )
   const selectedId = selected?.id
   useEffect(() => {
     if (!selectedId) return
     const stretch = data.stretches.find((entry) => entry.id === selectedId)
     if (!stretch) return
     const frame = requestAnimationFrame(() => {
-      const sections = [...(ribbonArea.current?.querySelectorAll<HTMLElement>(`[data-ribbon="${stretch.on}"]`) ?? [])]
-      const section = sections.find((el) => Number(el.dataset.from) <= stretch.fromMile && stretch.fromMile <= Number(el.dataset.to))
-      if (!section) return
-      const top = section.getBoundingClientRect().top + window.scrollY + (stretch.fromMile - Number(section.dataset.from)) * scale
-      window.scrollTo({ top: Math.max(0, top - driveLine(relief, phone)), behavior: motion ? 'smooth' : 'auto' })
+      jumpToMile(stretch.on, stretch.fromMile)
     })
     return () => cancelAnimationFrame(frame)
     // Jump only when the chosen stretch changes, not on every scroll-driven re-render.
@@ -250,55 +266,82 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
   return (
     <main className={`${s.page} ${relief ? s.reliefPage : ''}`}>
       <header className={s.intro}>
-        <Link className={s.back} to={`/byway/${byway.id}`}>
-          ← Back to the road
-        </Link>
-        <span className="kicker">A road worth taking slowly</span>
-        <h1>{data.title}</h1>
-        {/* Multi-part roads: one strip per disconnected section, in travel order. */}
-        {data.parts && data.parts.length > 1 && (
-          <nav className={s.parts} aria-label="Parts of this road">
-            {data.parts.map((entry, i) => (
-              <Link
-                key={entry.key}
-                to={i === 0 ? `/byway/${byway.id}/strip` : `/byway/${byway.id}/strip?part=${entry.key}`}
-                aria-current={(data.part?.key ?? data.parts![0].key) === entry.key ? 'page' : undefined}
-                viewTransition
-              >
-                <strong>{entry.label}</strong>
-                <small>{Math.round(entry.miles)} mi</small>
-              </Link>
-            ))}
-          </nav>
-        )}
-        <p className={s.draft}>{data.reviewed ? 'Reviewed strip map' : 'Draft · pending review'}</p>
-        <p>{data.direction}</p>
-        {/* Seasons at a glance: the same illustrated view of this road in all four seasons, side by side, so the difference is visible
+        <div className={s.introCopy}>
+          <Link className={s.back} to={`/byway/${byway.id}`}>
+            ← Back to the road
+          </Link>
+          <span className="kicker">A road worth taking slowly</span>
+          <h1>{data.title}</h1>
+          {/* Multi-part roads: one strip per disconnected section, in travel order. */}
+          {data.parts && data.parts.length > 1 && (
+            <nav className={s.parts} aria-label="Parts of this road">
+              {data.parts.map((entry, i) => (
+                <Link
+                  key={entry.key}
+                  to={i === 0 ? `/byway/${byway.id}/strip` : `/byway/${byway.id}/strip?part=${entry.key}`}
+                  aria-current={(data.part?.key ?? data.parts![0].key) === entry.key ? 'page' : undefined}
+                  viewTransition
+                >
+                  <strong>{entry.label}</strong>
+                  <small>{Math.round(entry.miles)} mi</small>
+                </Link>
+              ))}
+            </nav>
+          )}
+          <p className={s.draft}>{data.reviewed ? 'Reviewed strip map' : 'Draft · pending review'}</p>
+          <p>{data.direction}</p>
+          {/* Seasons at a glance: the same illustrated view of this road in all four seasons, side by side, so the difference is visible
             without toggling. Choosing one repaints the map and illustrated stops along the ribbon. Photos never change with season. */}
-        <fieldset className={s.seasonGlance}>
-          <legend>The same road, four seasons</legend>
-          <div className={s.seasonGrid}>
-            {(['spring', 'summer', 'autumn', 'winter'] as const).map((value) => (
-              <button
-                key={value}
-                aria-pressed={season === value}
-                onClick={() => setSeason(value)}
-                aria-label={`Show ${value} along the road`}
-              >
-                <Scene
-                  family={byway.scene}
-                  region={byway.region}
-                  seed={byway.seed}
-                  motifs={story?.motifs}
-                  look={{ ...byway.look, season: value, time: seasonLight[value] }}
-                  variant="postcard"
-                />
-                <span>{value}</span>
-              </button>
-            ))}
-          </div>
-          <small>Choose a season for the illustrations and map · artwork, not photographs</small>
-        </fieldset>
+        </div>
+        <div className={s.introOverview}>
+          <fieldset className={s.seasonGlance}>
+            <legend>The same road, four seasons</legend>
+            <div className={s.seasonGrid}>
+              {(['spring', 'summer', 'autumn', 'winter'] as const).map((value) => (
+                <button
+                  key={value}
+                  aria-pressed={season === value}
+                  onClick={() => setSeason(value)}
+                  aria-label={`Show ${value} along the road`}
+                >
+                  <Scene
+                    family={byway.scene}
+                    region={byway.region}
+                    seed={byway.seed}
+                    motifs={story?.motifs}
+                    look={{ ...byway.look, season: value, time: seasonLight[value] }}
+                    variant="postcard"
+                  />
+                  <span>{value}</span>
+                </button>
+              ))}
+            </div>
+            <small>Choose a season for the illustrations and map · artwork, not photographs</small>
+          </fieldset>
+          <dl className={s.keyStats}>
+            <div>
+              <dt>Mapped route</dt>
+              <dd>
+                {data.main.miles.toFixed(1)} mi{ferry ? ' by sea' : ''}
+              </dd>
+            </div>
+            <div>
+              <dt>Places</dt>
+              <dd>
+                {
+                  new Set([
+                    ...data.towns.map((town) => `${town.on}:${town.name.toLowerCase()}`),
+                    ...data.moments.map((moment) => `${moment.on}:${moment.title.toLowerCase()}`),
+                  ]).size
+                }
+              </dd>
+            </div>
+            <div>
+              <dt>Stretches</dt>
+              <dd>{data.stretches.length}</dd>
+            </div>
+          </dl>
+        </div>
         <p className={s.scrollHint}>
           Scroll to drive. Pick a stretch to make it yours. <span aria-hidden="true">↓</span>
         </p>
@@ -311,7 +354,34 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         </nav>
       </header>
       <div className={s.odometer}>
-        <span aria-hidden="true">↟</span>
+        <nav className={s.progressNav} aria-label="Jump to a town">
+          <div
+            ref={progress}
+            className={s.progressTrack}
+            role="progressbar"
+            aria-label="Main drive progress"
+            aria-valuemin={0}
+            aria-valuemax={data.main.miles}
+            aria-valuenow={0}
+          />
+          {data.towns
+            .filter((town) => town.on === 'main')
+            .map((town) => (
+              <button
+                key={`${town.name}-${town.mile}`}
+                className={s.progressTick}
+                style={{ left: `${data.main.miles ? (town.mile / data.main.miles) * 100 : 0}%` }}
+                title={`${town.name} · mile ${town.mile.toFixed(1)}`}
+                aria-label={`Jump to ${town.name}, mile ${town.mile.toFixed(1)}`}
+                onClick={() => jumpToMile('main', town.mile)}
+              >
+                <span />
+              </button>
+            ))}
+          <div ref={progressCar} className={s.progressCar} aria-hidden="true">
+            <Vehicle view="top" size={20} {...garage} />
+          </div>
+        </nav>
         <output ref={counter} data-testid="mile-counter">
           Mile 0.0 of {data.main.miles.toFixed(1)}
         </output>

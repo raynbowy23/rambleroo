@@ -8,7 +8,9 @@ test('your model and colour follow you from the passport to the strip', async ({
   await garage.getByRole('button', { name: 'Sky blue', exact: true }).click()
   await garage.getByLabel('Plate', { exact: true }).fill('ROAD 23')
   await page.goto(`/byway/${id}/strip`)
-  await expect(page.locator('[data-vehicle="camper"]')).toHaveAttribute('data-body', '#86b9d4')
+  // The ribbon car and the progress-bar marker both wear the garage choice.
+  for (const car of await page.locator('[data-vehicle="camper"]').all()) await expect(car).toHaveAttribute('data-body', '#86b9d4')
+  await expect(page.locator('[data-vehicle="camper"]')).not.toHaveCount(0)
   await page.getByRole('button', { name: 'Change your car' }).click()
   await expect(page.getByRole('radio', { name: 'camper', exact: true })).toBeChecked()
 })

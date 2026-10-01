@@ -4,7 +4,7 @@ import { useLayoutEffect, useRef, useMemo, type CSSProperties } from 'react'
 import { Scene } from '../../components/art'
 import type { BywaySummary, PostcardLook } from '../../lib/types'
 import { PhotoChip, PhotoImage } from '../photos/Photos'
-import { buildRibbon, clamp, mappedIntervals, milePostInterval, sideOfRoad } from './geometry'
+import { buildRibbon, clamp, mappedIntervals, milePostInterval } from './geometry'
 import type { Stretch, StripData } from './types'
 import s from './Strip.module.css'
 
@@ -75,6 +75,16 @@ export function Ribbon({
     return () => observer.disconnect()
   }, [data, on, from, to, scale, geometry])
   const cards = useMemo(() => milestones(data), [data])
+  const placeSides = useMemo(
+    () =>
+      new Map(
+        [...data.towns, ...data.moments]
+          .filter((place) => place.on === on)
+          .sort((a, b) => a.mile - b.mile)
+          .map((place, i) => [place, i % 2 ? 'right' : 'left'] as const),
+      ),
+    [data, on],
+  )
   const route = on === 'main' ? data.main : data.branch!
   const intervals = useMemo(() => mappedIntervals(route, from, to), [route, from, to])
   // Ferry ports sit beside the sailing lane, not a road.
@@ -111,6 +121,41 @@ export function Ribbon({
       data-to={to}
       aria-label={on === 'branch' ? 'Tip branch' : `Main road, miles ${from.toFixed(1)} to ${to.toFixed(1)}`}
     >
+      {data.stretches
+        .filter((stretch) => stretch.on === on && stretch.toMile > from && stretch.fromMile < to)
+        .map((stretch) => (
+          <div
+            key={stretch.id}
+            className={s.scenery}
+            data-scene={stretch.scene}
+            aria-hidden="true"
+            style={
+              {
+                top: y(Math.max(from, stretch.fromMile)),
+                height: y(Math.min(to, stretch.toMile)) - y(Math.max(from, stretch.fromMile)),
+                '--scenery-color': sceneColors[stretch.scene],
+              } as CSSProperties
+            }
+          >
+            <svg width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 600 600">
+              {stretch.scene === 'mountain' || stretch.scene === 'desert' ? (
+                <path d="M0 220 100 80 240 300 380 130 600 330V600H0Z" fill="currentColor" />
+              ) : stretch.scene === 'forest' ? (
+                <path
+                  d="m0 300 70-160 70 160H95l65 150h-90l80-200 90 200h-50l110-270 120 270h-60l90-210 150 280v80H0Z"
+                  fill="currentColor"
+                />
+              ) : (
+                <path
+                  d="M-50 180Q130 20 280 200T650 190M-50 330Q130 170 280 350T650 340M-50 480Q130 320 280 500T650 490"
+                  stroke="currentColor"
+                  strokeWidth={stretch.scene === 'prairie' ? 65 : 24}
+                  fill="none"
+                />
+              )}
+            </svg>
+          </div>
+        ))}
       <svg className={s.road} width="100" height={height} aria-hidden="true" fill="none" strokeLinejoin="round">
         {intervals.map(([a, b]) => pathBetween(a, b))}
         {selected?.on === on &&
@@ -187,17 +232,32 @@ export function Ribbon({
             </button>
           )
         })}
+      {data.stretches
+        .filter((stretch) => stretch.on === on && contains(stretch.fromMile))
+        .map((stretch) => (
+          <div
+            key={stretch.id}
+            className={`${s.stretchLabel} ${s.left}`}
+            data-label-side="left"
+            data-mile={stretch.fromMile}
+            style={{ top: y(stretch.fromMile) }}
+          >
+            <span data-leader className={s.leader} aria-hidden="true" />
+            <span className="kicker">Mile {stretch.fromMile.toFixed(1)}</span>
+            <h2>{stretch.title}</h2>
+          </div>
+        ))}
       {data.towns
         .filter((town) => town.on === on)
         .map(
-          (town, i) =>
+          (town) =>
             contains(town.mile) && (
               <div
                 data-mile={town.mile}
                 data-town="true"
-                data-label-side={i % 2 ? 'right' : 'left'}
+                data-label-side={placeSides.get(town)}
                 key={town.name}
-                className={`${s.town} ${i % 2 ? s.right : s.left}`}
+                className={`${s.town} ${placeSides.get(town) === 'right' ? s.right : s.left}`}
                 style={{ top: y(town.mile) }}
               >
                 <span data-leader className={s.leader} aria-hidden="true" />
@@ -211,11 +271,19 @@ export function Ribbon({
                   <span aria-hidden="true">{town.kind === 'landmark' ? '▲' : '⌂'}</span>
                 )}
                 <strong>{town.name}</strong>
+                <small>
+                  Mile {town.mile.toFixed(1)} · {town.kind === 'landmark' ? 'Landmark' : 'Town'}
+                </small>
                 {/* One postcard per place: when a story stop shares the town's name (Ephraim), the stop's card, which has the photo, carries it. */}
                 {(town.photo || !cards.some((card) => card.kind === 'moment' && card.name.toLowerCase() === town.name.toLowerCase())) && (
                   <MilestoneToken byway={byway} milestone={cards.find((card) => card.name === town.name && card.kind === 'town')!} />
                 )}
-                <a href={town.source} target="_blank" rel="noreferrer" aria-label={`${town.name} on Wikipedia`}>
+                <a
+                  href={town.source}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`${town.name} on ${town.source.includes('openstreetmap.org') ? 'OpenStreetMap' : 'Wikipedia'}`}
+                >
                   ⓘ
                 </a>
                 {town.offRouteMiles > 0.3 && (
@@ -231,13 +299,13 @@ export function Ribbon({
         .map((moment, i) => (
           <article
             data-mile={moment.mile}
-            data-label-side={sideOfRoad(route, moment.mile, moment.at)}
+            data-label-side={placeSides.get(moment)}
             key={moment.title}
-            className={`${s.moment} ${sideOfRoad(route, moment.mile, moment.at) === 'left' ? s.left : s.right}`}
+            className={`${s.moment} ${placeSides.get(moment) === 'left' ? s.left : s.right}`}
             style={
               {
                 top: y(moment.mile),
-                '--spur-length': `${49 + (sideOfRoad(route, moment.mile, moment.at) === 'left' ? 1 : -1) * geometry.offset(moment.mile)}px`,
+                '--spur-length': `${49 + (placeSides.get(moment) === 'left' ? 1 : -1) * geometry.offset(moment.mile)}px`,
               } as CSSProperties
             }
           >

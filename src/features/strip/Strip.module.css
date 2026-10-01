@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 .page small {
-  font-size: 12px;
+  font-size: var(--step--1);
 }
 .intro {
   max-width: 640px;
@@ -26,7 +26,7 @@
   align-items: center;
   margin-bottom: 20px;
   width: fit-content;
-  font-size: 13px;
+  font-size: var(--step--1);
 }
 .intro h1 {
   font-family: var(--font-serif);
@@ -40,7 +40,7 @@
 }
 .draft {
   color: var(--rust);
-  font-size: 12px;
+  font-size: var(--step--1);
 }
 .seasons {
   border: 0;
@@ -61,7 +61,7 @@
   color: var(--ink);
   padding: 8px 12px;
   text-transform: capitalize;
-  font-size: 12px;
+  font-size: var(--step--1);
 }
 .seasons button:first-of-type {
   border-radius: 20px 0 0 20px;
@@ -89,7 +89,7 @@
   border: 1px solid var(--line-strong);
   border-radius: 6px;
   padding: 8px 12px;
-  font-size: 12px;
+  font-size: var(--step--1);
 }
 .stretchChoices button[aria-pressed='true'] {
   background: var(--forest-tint);
@@ -115,7 +115,7 @@
 }
 .odometerNote {
   display: none;
-  font-size: 12px;
+  font-size: var(--step--1);
   letter-spacing: 2px;
   opacity: 0.75;
 }
@@ -134,7 +134,7 @@
   display: block;
   font-family: var(--font-sans);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: var(--step--1);
   letter-spacing: 3px;
 }
 .ribbon {
@@ -165,7 +165,7 @@
 }
 .milepost small {
   display: block;
-  font: 12px var(--font-sans);
+  font: var(--step--1) var(--font-sans);
   border-bottom: 1px solid var(--line);
 }
 .left {
@@ -190,15 +190,16 @@
 }
 .town strong {
   font: 17px/1.15 var(--font-serif);
-  flex: 1 0 auto;
-  /* Town names wrap between words only; long single names shrink instead of breaking mid-word. */
+  flex: 1 1 100%;
+  min-width: 0;
+  /* Give the name its own row so postcard and source controls cannot force the card wider. */
   overflow-wrap: normal;
   word-break: normal;
   hyphens: manual;
 }
 @media (max-width: 480px) {
   .town strong {
-    font-size: clamp(13px, 3.6vw, 16px);
+    font-size: var(--step-0);
   }
 }
 .town a {
@@ -243,13 +244,13 @@
   overflow-wrap: anywhere;
 }
 .moment p {
-  font-size: 12px;
+  font-size: var(--step--1);
   line-height: 1.55;
   margin: 8px 0;
 }
 .detour {
   display: block;
-  font-size: 12px;
+  font-size: var(--step--1);
   color: var(--rust);
   border-top: 1px dotted var(--line-strong);
   padding-top: 8px;
@@ -298,7 +299,7 @@
   top: 90px;
   left: 0;
   writing-mode: vertical-rl;
-  font: 13px var(--font-serif);
+  font: var(--step--1) var(--font-serif);
   background: var(--paper);
   padding: 10px 4px;
   border-radius: 6px;
@@ -320,7 +321,7 @@
   width: max-content;
   max-width: 46%;
   color: var(--ink-soft);
-  font-size: 12px;
+  font-size: var(--step--1);
   line-height: 1.3;
   margin: 0;
   padding: 3px 9px;
@@ -428,7 +429,7 @@
   border: 0;
   color: var(--ink);
   background: linear-gradient(transparent 40%, #f7f4ede0);
-  font-size: 12px;
+  font-size: var(--step--1);
 }
 .mapCredit {
   position: absolute;
@@ -494,7 +495,7 @@
   margin-top: 14px;
 }
 .panelActions :global(.btn) {
-  font-size: 13px;
+  font-size: var(--step--1);
   padding: 8px 12px;
 }
 .sources {
@@ -502,7 +503,7 @@
   margin: 30px auto 0;
   padding: 24px 10px;
   border-top: 1px solid var(--line-strong);
-  font-size: 12px;
+  font-size: var(--step--1);
   line-height: 1.6;
   overflow-wrap: anywhere;
 }
@@ -616,7 +617,7 @@
   height: auto;
 }
 .seasonGrid button span {
-  font: 600 12px var(--font-sans);
+  font: 600 var(--step--1) var(--font-sans);
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
@@ -631,7 +632,7 @@
 .seasonGlance small {
   display: block;
   margin-top: 8px;
-  font-size: 12px;
+  font-size: var(--step--1);
   color: var(--ink-muted);
 }
 @media (max-width: 559px) {
@@ -648,7 +649,7 @@
 .odometer button {
   color: var(--paper);
   border-color: var(--paper);
-  font-size: 12px;
+  font-size: var(--step--1);
   flex-shrink: 0;
   padding-inline: 8px;
 }
@@ -723,7 +724,7 @@
   .reliefPage .reliefMap {
     position: absolute;
     left: calc(100% + 12px);
-    width: 46vw;
+    width: calc(47vw - 24px);
     height: calc(100svh - var(--header-h) - var(--strip-bar) - env(safe-area-inset-top, 0px));
   }
 }
@@ -736,7 +737,7 @@
     display: none;
   }
   .odometer output {
-    font-size: 12px;
+    font-size: var(--step--1);
   }
 }
 
@@ -813,7 +814,7 @@
   font-size: 22px;
 }
 .mapControls .resetView {
-  font-size: 12px;
+  font-size: var(--step--1);
 }
 .mapHint {
   position: absolute;
@@ -823,7 +824,7 @@
   padding: 5px;
   background: var(--paper);
   color: var(--ink);
-  font-size: 12px;
+  font-size: var(--step--1);
   pointer-events: none;
   transition: opacity 250ms;
 }
@@ -896,7 +897,7 @@
   transform: translateX(-50%);
   width: max-content;
   max-width: 130px;
-  font: 12px/1.2 var(--font-serif);
+  font: var(--step--1)/1.2 var(--font-serif);
   text-align: center;
   text-shadow:
     0 0 3px var(--paper),
@@ -948,7 +949,7 @@
   border-radius: var(--radius-pill);
   background: var(--card);
   color: var(--ink);
-  font-size: 12px;
+  font-size: var(--step--1);
 }
 .weather {
   position: absolute;
@@ -1011,10 +1012,233 @@
   line-height: 1.2;
 }
 .parts a small {
-  font-size: 12px;
+  font-size: var(--step--1);
   color: var(--ink-muted);
 }
 .parts a[aria-current='page'] {
   border-color: var(--lining-edge);
   background: color-mix(in srgb, var(--lining) 20%, var(--card));
+}
+
+/* Header spans the map reservation too; the journey keeps its own readable width. */
+.intro {
+  max-width: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px 48px;
+  padding: 32px 20px;
+}
+.introCopy,
+.introOverview,
+.seasonGlance {
+  min-width: 0;
+}
+.intro h1 {
+  max-width: 720px;
+  font-size: var(--step-4);
+}
+.scrollHint,
+.stretchChoices {
+  grid-column: 1 / -1;
+}
+.keyStats {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin: 24px 0 0;
+}
+.keyStats dt {
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+}
+.keyStats dd {
+  margin: 4px 0 0;
+  font: var(--step-2) var(--font-serif);
+}
+.stretchChoices {
+  gap: 0;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.stretchChoices button {
+  flex: 1 1 160px;
+  border: 0;
+  border-right: 1px solid var(--line-strong);
+  border-radius: 0;
+  padding: 14px;
+  font-size: var(--step-0);
+  background: var(--card);
+}
+.stretchChoices button[aria-pressed='true'] {
+  background: var(--forest);
+  color: var(--paper);
+}
+.page {
+  font-size: var(--step-0);
+}
+.moment p,
+.sources {
+  font-size: var(--step-0);
+}
+.town {
+  padding: 10px;
+}
+.town strong {
+  flex: 1 1 100%;
+  min-width: 0;
+  font-size: var(--step-1);
+  overflow-wrap: break-word;
+}
+.townPhoto {
+  height: 110px;
+}
+.town :global(.postcard-token) {
+  min-width: 0;
+  white-space: normal;
+}
+.scenery {
+  position: absolute;
+  inset-inline: 0;
+  color: var(--scenery-color);
+  opacity: 0.075;
+  pointer-events: none;
+  overflow: hidden;
+}
+.stretchLabel {
+  position: absolute;
+  width: calc(50% - 49px);
+  z-index: 4;
+  padding: 12px 0;
+  background: var(--paper);
+}
+.stretchLabel h2 {
+  font: var(--step-2) var(--font-serif);
+  margin: 6px 0 0;
+  overflow-wrap: anywhere;
+}
+.progressNav {
+  position: relative;
+  flex: 1 1 300px;
+  height: 44px;
+  margin: 0 24px;
+}
+.progressTrack {
+  position: absolute;
+  inset: 20px 0;
+  border-radius: 4px;
+  background: linear-gradient(to right, var(--lining) var(--progress, 0%), #ffffff50 var(--progress, 0%));
+}
+.progressTick {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+.progressTick span {
+  display: block;
+  width: 2px;
+  height: 12px;
+  background: var(--paper);
+  margin: auto;
+}
+.progressTick:hover span,
+.progressTick:focus-visible span {
+  height: 20px;
+  background: var(--lining);
+}
+.progressCar {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  transform: translateX(-50%) rotate(90deg);
+  pointer-events: none;
+}
+.odometer {
+  flex-wrap: wrap;
+  padding-inline: 24px;
+}
+.odometer output {
+  font-size: var(--step--1);
+}
+@media (min-width: 1000px) {
+  .intro {
+    margin-right: -338px;
+  }
+  .journey {
+    max-width: 980px;
+  }
+}
+@media (min-width: 760px) {
+  .reliefPage .intro {
+    margin-right: calc(-47vw + 12px);
+  }
+}
+@media (max-width: 759px) {
+  .intro {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+    padding: 24px 4px;
+  }
+  .intro h1 {
+    font-size: var(--step-3);
+  }
+  .seasonGlance {
+    margin-top: 12px;
+  }
+  .seasonGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+  }
+  .seasonGrid button span {
+    font-size: var(--step--1);
+    letter-spacing: 0;
+    text-transform: capitalize;
+  }
+  .town {
+    padding: 6px;
+  }
+  .town strong {
+    font-size: var(--step-0);
+  }
+  .townPhoto {
+    height: 80px;
+  }
+  .momentText {
+    padding: 8px;
+  }
+  .moment h3,
+  .stretchLabel h2 {
+    font-size: var(--step-1);
+  }
+  .odometer {
+    gap: 4px 8px;
+    padding: 4px 8px;
+  }
+  .progressNav {
+    flex-basis: 100%;
+    height: 32px;
+    margin-inline: 22px;
+  }
+  .progressTrack {
+    inset-block: 14px;
+  }
+  .progressTick {
+    top: -6px;
+  }
+  .progressCar {
+    top: 2px;
+  }
+  .reliefPage {
+    --strip-bar: 88px;
+  }
+}
+
+/* Phones: the collapsed inset is too small for four 44 px buttons; pinch and two-finger rotate work there, and the buttons return when the map is expanded. */
+@media (max-width: 759px) {
+  .inset:not(.expanded):not(.reliefMap) .mapControls {
+    display: none;
+  }
 }

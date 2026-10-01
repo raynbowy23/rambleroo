@@ -1,0 +1,38 @@
+.page {
+  max-width: 1240px;
+  min-height: 70vh;
+  padding: 64px 24px;
+  margin: auto;
+}
+.page h1 {
+  font-size: var(--step-4);
+}
+.page p {
+  max-width: 60ch;
+  font-size: var(--step-0);
+  margin-block: 24px;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero {
+  height: 340px;
+  background: var(--paper-deep);
+  border-radius: var(--radius);
+}
+.lines {
+  display: grid;
+  gap: 20px;
+  margin-top: 32px;
+}
+.lines i {
+  display: block;
+  height: 24px;
+  width: 80%;
+  background: var(--paper-deep);
+}
+.lines i:last-child {
+  width: 55%;
+}

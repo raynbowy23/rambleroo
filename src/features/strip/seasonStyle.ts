@@ -93,13 +93,34 @@ export function applySeasonStyle(map: Map, profile: SeasonProfile, relief: boole
     ...['land', 'lakes'].flatMap((source) => [0, 1, 2, 3].map((i) => `${source}-waterline-${i}`)),
   ])
     map.setPaintProperty(id, 'line-color', tint('water-deep', profile.river))
+  map.setPaintProperty('detail-ground', 'background-color', tint('land-us', profile.land))
+  // Tint the geographic features individually so roads, water and labels remain legible in every season.
+  map.setPaintProperty('detail-landcover', 'fill-color', [
+    'match',
+    ['get', 'class'],
+    'wood',
+    profile.otherLand,
+    'sand',
+    tint('sand', profile.highlight),
+    profile.land,
+  ])
+  map.setPaintProperty('detail-landuse', 'fill-color', [
+    'match',
+    ['get', 'class'],
+    ['residential', 'commercial', 'industrial'],
+    tint('paper', profile.edge),
+    profile.land,
+  ])
+  map.setPaintProperty('detail-park', 'fill-color', profile.otherLand)
+  map.setPaintProperty('detail-water', 'fill-color', tint('water-light', profile.water))
+  map.setPaintProperty('detail-waterway', 'line-color', tint('water', profile.river))
   map.setPaintProperty('road', 'line-color', profile.road)
-  map.setPaintProperty('road', 'line-width', relief ? profile.width : 2)
+  map.setPaintProperty('road', 'line-width', relief ? profile.width + 2 : 4)
   map.setPaintProperty('road-edge', 'line-color', profile.edge)
-  map.setPaintProperty('road-edge', 'line-width', relief ? profile.width + 3 : 4)
+  map.setPaintProperty('road-edge', 'line-width', relief ? profile.width + 6 : 8)
   if (!relief) return
   if (!map.getLayer(seasonalTerrain))
-    map.addLayer({ id: seasonalTerrain, type: 'color-relief', source: terrainSource, paint: { 'color-relief-opacity': 0 } }, 'coast-wash')
+    map.addLayer({ id: seasonalTerrain, type: 'color-relief', source: terrainSource, paint: { 'color-relief-opacity': 0 } }, 'detail-water')
   map.setPaintProperty(seasonalTerrain, 'color-relief-color', snowTint(profile))
   map.setPaintProperty(seasonalTerrain, 'color-relief-opacity', profile.snowline === null ? 0 : 0.85)
   map.setPaintProperty('relief-shade', 'hillshade-highlight-color', profile.highlight)

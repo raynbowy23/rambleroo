@@ -36,6 +36,20 @@ const nearest = (p: Position, pts: Position[]) => pts.reduce((best, q) => Math.m
 const NOT_A_TOWN =
   /^(List|Timeline|History) of|metropolitan area|micropolitan|National Weather Service|\b(Purchase|Location|Grant|Gore|County|Township|Parish|Borough of|School|Park|Airport|Station|Church|Cemetery|House|Bridge|Dam|Mine|Mountain|Lake|River|Creek|Forest|Hospital|Historic District|Trail|Road|Highway)\b/i
 
+async function overpass(query: string) {
+  for (let i = 0; i < 6; i++) {
+    await sleep(1500)
+    try {
+      const res = await fetch('https://overpass-api.de/api/interpreter', { method: 'POST', headers: UA, body: new URLSearchParams({ data: query }) })
+      if (res.ok) return res.json()
+    } catch {
+      // retry below
+    }
+    await sleep(20000 * (i + 1))
+  }
+  throw new Error('Overpass unavailable')
+}
+
 async function api(params: Record<string, string>) {
   const url = 'https://en.wikipedia.org/w/api.php?' + new URLSearchParams({ format: 'json', formatversion: '2', ...params })
   // Patient back-off (up to ~15 minutes in total): long roads make hundreds of requests, and throttling is temporary.
@@ -130,25 +144,45 @@ for (const id of process.argv.slice(2).filter((arg) => !arg.startsWith('--'))) {
     const name = title.split(',')[0].replace(/\s*\((CDP|village|town|city|community)\)$/i, '')
     if (!byName.has(name)) byName.set(name, title)
   }
-  const towns: { name: string; wikipedia: string; kind?: 'landmark'; weight?: number }[] = [...byName].map(([name, wikipedia]) => ({
-    name,
-    wikipedia,
-  }))
+  const towns: { name: string; wikipedia: string; kind?: 'landmark'; weight?: number; osm?: string; at?: Position }[] = [
+    ...byName,
+  ].map(([name, wikipedia]) => ({ name, wikipedia }))
   for (const title of landmarks.keys())
     towns.push({ name: title.replace(/\s*\(.*\)$/, '').split(',')[0], wikipedia: title, kind: 'landmark' })
   // Article length as a notability weight, so spacing keeps Tuolumne Meadows over an obscure dome nearby.
-  for (let k = 0; k < towns.length; k += 50) {
+  const wiki = towns.filter((t) => t.wikipedia)
+  for (let k = 0; k < wiki.length; k += 50) {
     const d = await api({
       action: 'query',
       prop: 'info',
       redirects: '1',
-      titles: towns
+      titles: wiki
         .slice(k, k + 50)
         .map((t) => t.wikipedia)
         .join('|'),
     })
     const length = new Map<string, number>((d.query?.pages ?? []).map((p: { title: string; length?: number }) => [p.title, p.length ?? 0]))
-    for (const t of towns.slice(k, k + 50)) t.weight = length.get(t.wikipedia) ?? 0
+    for (const t of wiki.slice(k, k + 50)) t.weight = length.get(t.wikipedia) ?? 0
+  }
+  // Short local roads often have fewer than two Wikipedia places: fall back to named OpenStreetMap place nodes (hamlets,
+  // neighbourhoods) and viewpoints or peaks within a mile of the road, each linked to its OSM record so placement stays checkable.
+  if (towns.length < 2) {
+    const step = Math.max(1, Math.ceil(pts.length / 60))
+    const line = pts
+      .filter((_, i) => i % step === 0)
+      .map((p) => `${p[1].toFixed(5)},${p[0].toFixed(5)}`)
+      .join(',')
+    const query = `[out:json][timeout:60];(node(around:1600,${line})[place~"^(city|town|village|hamlet|suburb|neighbourhood|quarter)$"][name];node(around:1600,${line})[~"^(tourism|natural)$"~"^(viewpoint|peak)$"][name];);out;`
+    const d = await overpass(query)
+    const have = new Set(towns.map((t) => t.name))
+    for (const n of d.elements as { id: number; lat: number; lon: number; tags: Record<string, string> }[]) {
+      const at: Position = [n.lon, n.lat]
+      if (have.has(n.tags.name) || nearest(at, pts) > 1) continue
+      have.add(n.tags.name)
+      const isPlace = !!n.tags.place
+      const rank = { city: 5, town: 4, suburb: 3, village: 3, quarter: 2, neighbourhood: 1, hamlet: 1 }[n.tags.place] ?? 1
+      towns.push({ name: n.tags.name, wikipedia: '', osm: `node/${n.id}`, at, weight: rank * 1000, ...(isPlace ? {} : { kind: 'landmark' as const }) })
+    }
   }
   await writeFile(
     target,

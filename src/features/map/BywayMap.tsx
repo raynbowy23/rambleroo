@@ -5,6 +5,7 @@ import type { Map } from './maplibre'
 import type { BywaySummary } from '../../lib/types'
 import { useMotionEnabled } from '../../lib/motion'
 import { createMapStyle } from './style'
+import { bindBasemapFallback, basemapService } from './basemap'
 import { addBywayLayers, filteredLayers, loadBywayGeometry } from './layers'
 import { addDecor } from './decor'
 import { strokes } from './routeArt'
@@ -82,8 +83,11 @@ export function BywayMap({
   callbacks.current = { onSelect, onFailure }
   useEffect(() => {
     if (!container.current) return
+    const started = performance.mark('byways:map-start')
     let disposed = false
-    let loaded = false
+    const geometry = loadBywayGeometry()
+    // Attach a rejection handler immediately while the style initializes.
+    void geometry.catch(() => {})
     let stopProfile = () => {}
     let map: Map
     try {
@@ -99,20 +103,37 @@ export function BywayMap({
       callbacks.current.onFailure()
       return
     }
+    bindBasemapFallback(map)
+    if (import.meta.env.DEV) (window as unknown as { __rambleMap?: Map }).__rambleMap = map
     ref.current = map
-    map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Natural Earth · USDOT' }), 'bottom-left')
+    map.addControl(
+      new maplibregl.AttributionControl({ compact: true, customAttribution: `Natural Earth · USDOT · ${basemapService.attribution}` }),
+      'bottom-left',
+    )
     const tooltip = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12 })
-    map.on('error', () => {
-      if (!loaded && !disposed) callbacks.current.onFailure()
+    map.on('webglcontextlost', () => {
+      if (!disposed) callbacks.current.onFailure()
     })
-    map.on('load', () => {
-      void loadBywayGeometry()
+    // Source errors (including offline vector tiles) must not replace the local map.
+    map.on('error', (event) => {
+      if (import.meta.env.DEV) console.warn('[map]', event.error?.message ?? event)
+    })
+    map.once('style.load', () => {
+      performance.mark('byways:style-ready')
+      void geometry
         .then((data) => {
           if (disposed) return
           addDecor(map)
           addBywayLayers(map, data, byways)
+          performance.mark('byways:attached')
+          const firstRoutes = () => {
+            if (!map.queryRenderedFeatures({ layers: ['byway-lines', 'byway-road-fill'] }).length) return
+            performance.mark('byways:first-render')
+            performance.measure('byways:visible', { start: started.startTime, end: 'byways:first-render' })
+            map.off('render', firstRoutes)
+          }
+          map.on('render', firstRoutes)
           stopProfile = profileRouteFrames(map)
-          loaded = true
           setReady(true)
           map.fitBounds(regions['Lower 48'], {
             padding:

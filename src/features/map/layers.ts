@@ -6,10 +6,22 @@ import { addRouteArt } from './routeArt'
 export type BywayGeometry = FeatureCollection<MultiLineString, { id: string; name: string; scene: string; story: boolean }>
 let geometry: Promise<BywayGeometry> | undefined
 export function loadBywayGeometry() {
-  return (geometry ??= fetch('/data/byways.geojson').then((r) => {
-    if (!r.ok) throw new Error('Route geometry unavailable')
-    return r.json() as Promise<BywayGeometry>
-  }))
+  if (!geometry) {
+    performance.mark('byways:fetch-start')
+    geometry = fetch('/data/byways.geojson')
+      .then(async (r) => {
+        if (!r.ok) throw new Error('Route geometry unavailable')
+        const data = (await r.json()) as BywayGeometry
+        performance.mark('byways:fetch-end')
+        performance.measure('byways:fetch', 'byways:fetch-start', 'byways:fetch-end')
+        return data
+      })
+      .catch((error: unknown) => {
+        geometry = undefined
+        throw error
+      })
+  }
+  return geometry
 }
 export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySummary[]) {
   const c = palette()
@@ -30,7 +42,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
   ]
   addRouteArt(map)
   const round = { 'line-cap': 'round', 'line-join': 'round' } as const
-  map.addSource('byways', { type: 'geojson', data, promoteId: 'id' })
+  map.addSource('byways', { type: 'geojson', data, promoteId: 'id', tolerance: 1, buffer: 32, maxzoom: 12 })
   map.addLayer({
     id: 'byway-casing',
     type: 'line',

@@ -75,7 +75,7 @@ test('explore keeps a compact collection rail and hides the selected cartouche b
 })
 
 for (const width of [1280, 1440, 1968, 390]) {
-  test(`byway hero has readable text and inline facts at ${width}px`, async ({ page }) => {
+  test(`byway hero has readable text and a separate stats bar at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 })
     // Resolve the canonical ID from the catalog so this check survives catalog refreshes.
     const road = await page.request
@@ -89,7 +89,7 @@ for (const width of [1280, 1440, 1968, 390]) {
     const geometry = await heading.evaluate((element) => {
       const column = element.parentElement!
       const style = getComputedStyle(element)
-      const facts = [...column.querySelectorAll('[class*="facts"] span')].map((fact) => fact.getBoundingClientRect())
+      const facts = [...document.querySelectorAll('[aria-label="Road facts"] > div')].map((fact) => fact.getBoundingClientRect())
       return {
         width: column.getBoundingClientRect().width,
         overflowWrap: style.overflowWrap,
@@ -99,11 +99,11 @@ for (const width of [1280, 1440, 1968, 390]) {
         fits: element.scrollWidth <= element.clientWidth,
       }
     })
-    // Readable measure: wide enough that titles don't break mid-word, never wider than the text half of the hero.
+    // The title keeps a readable measure; facts now sit together in the bar below the hero.
     if (width === 390) expect(geometry.width).toBeGreaterThanOrEqual(340)
     else {
       expect(geometry.width).toBeGreaterThanOrEqual(480)
-      expect(geometry.width).toBeLessThanOrEqual(Math.max(720, width / 2))
+      expect(geometry.width).toBeLessThanOrEqual(Math.max(760, width / 2))
     }
     expect(geometry.overflowWrap).toBe('normal')
     expect(geometry.wordBreak).toBe('normal')
@@ -119,7 +119,7 @@ test('share fallback includes a typed note and closes with Escape', async ({ pag
   await page.goto('/byway/door-county-coastal-byway-81450')
   await page.getByRole('button', { name: 'Turn over', exact: true }).first().click()
   await page.getByPlaceholder('A road to remember…').first().fill('Meet at the lake & bring tea!')
-  const share = page.locator('main header').getByRole('button', { name: 'Share', exact: true })
+  const share = page.locator('main').getByRole('button', { name: 'Share', exact: true }).first()
   await share.click()
   const email = page.getByRole('link', { name: 'Email', exact: true })
   await expect(email).toBeVisible()

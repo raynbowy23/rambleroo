@@ -6,6 +6,7 @@ import { useGarage } from '../../lib/garage'
 import { useMotionEnabled } from '../../lib/motion'
 import type { createCarLayer } from '../map/car3d'
 import { createMapStyle, palette } from '../map/style'
+import { bindBasemapFallback, basemapService, placeFont } from '../map/basemap'
 import { clamp, coordinateAtMile, mappedIntervals } from './geometry'
 import type { Coordinate, StripData, StripPath } from './types'
 import s from './Strip.module.css'
@@ -92,10 +93,14 @@ export function InsetMap({
     map.on('error', (event) => {
       if (settings.current.relief && isTerrainError(event)) settings.current.onFailure()
     })
-    map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'USDOT · Natural Earth' }))
-    // On phones the credits start collapsed (one ⓘ); MapLibre opens them on load, which covered a third of the small 3D panel.
+    bindBasemapFallback(map)
+    map.addControl(
+      new maplibregl.AttributionControl({ compact: true, customAttribution: `USDOT · Natural Earth · ${basemapService.attribution}` }),
+    )
+    // In a small panel (phones, the 2D inset beside the ribbon) the credits start collapsed to one ⓘ; MapLibre opens them on load, which covered a third of the map.
     map.once('load', () => {
-      if (window.innerWidth < 760) container.current?.querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show')
+      if ((container.current?.clientWidth ?? 0) < 520)
+        container.current?.querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show')
     })
     const points = [...data.main.path, ...(data.branch?.path ?? [])]
     const bounds = points.reduce((bounds, point) => bounds.extend(point), new maplibregl.LngLatBounds(points[0], points[0]))
@@ -154,7 +159,8 @@ export function InsetMap({
       }
     }
     registerPosition(update)
-    map.on('load', () => {
+    fit()
+    map.once('style.load', () => {
       const lines = (route: StripPath) =>
         mappedIntervals(route).map(([from, to]) => [
           coordinateAtMile(route, from),
@@ -172,12 +178,46 @@ export function InsetMap({
           },
         },
       })
-      map.addLayer({ id: 'road-edge', type: 'line', source: 'road', paint: { 'line-color': '#202925', 'line-width': 4 } })
+      map.addLayer({
+        id: 'road-edge',
+        type: 'line',
+        source: 'road',
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: { 'line-color': palette()('paper'), 'line-width': 9 },
+      })
       map.addLayer({
         id: 'road',
         type: 'line',
         source: 'road',
-        paint: { 'line-color': palette()(`route-${scene === 'coast' || scene === 'river' ? 'water' : scene}`), 'line-width': 2 },
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: { 'line-color': palette()(`route-${scene === 'coast' || scene === 'river' ? 'water' : scene}`), 'line-width': 5 },
+      })
+      map.addSource('strip-towns', {
+        type: 'geojson',
+        data: {
+          type: 'FeatureCollection',
+          features: data.towns
+            .filter((town) => town.kind !== 'landmark')
+            .map((town) => ({
+              type: 'Feature',
+              properties: { name: town.name },
+              geometry: { type: 'Point', coordinates: town.at },
+            })),
+        },
+      })
+      map.addLayer({
+        id: 'strip-town-labels',
+        type: 'symbol',
+        source: 'strip-towns',
+        layout: {
+          'text-field': ['get', 'name'],
+          'text-font': placeFont,
+          'text-size': 14,
+          'text-anchor': 'top',
+          'text-offset': [0, 1.2],
+          'text-padding': 8,
+        },
+        paint: { 'text-color': palette()('ink'), 'text-halo-color': palette()('paper'), 'text-halo-width': 2 },
       })
       map.addSource('car', { type: 'geojson', data: pointFeature() })
       map.addLayer({

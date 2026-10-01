@@ -58,7 +58,9 @@ export default function AboutPage() {
         {meta && ` · retrieved ${meta.retrievedAt.slice(0, 10)} · ${meta.source.featureCount.toLocaleString()} source features`}.
       </p>
       <p>
-        Basemap: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public-domain geographic data.
+        Basemap: <a href="https://www.naturalearthdata.com/">Natural Earth</a>, public-domain geographic data. Detailed basemap:{' '}
+        <a href="https://openfreemap.org/">© OpenFreeMap</a>{' '}
+        <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>.
       </p>
     </main>
   )

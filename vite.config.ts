@@ -25,6 +25,15 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/data\//, /^\/photos\//],
         runtimeCaching: [
           {
+            urlPattern: ({ url }) => url.origin === 'https://tiles.openfreemap.org',
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'basemap-tiles-and-glyphs',
+              cacheableResponse: { statuses: [200] },
+              expiration: { maxEntries: 256, maxAgeSeconds: 7 * 24 * 60 * 60 },
+            },
+          },
+          {
             urlPattern: ({ url, sameOrigin }) =>
               sameOrigin &&
               (url.pathname === '/data/catalog.json' ||

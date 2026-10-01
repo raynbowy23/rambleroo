@@ -24,7 +24,8 @@ interface StripContent {
   reviewed: boolean
   title: string
   direction: string
-  towns: { name: string; wikipedia: string; branch?: string; kind?: 'town' | 'landmark'; weight?: number }[]
+  /** `osm` + `at`: a place with no Wikipedia article, placed from its OpenStreetMap node instead. */
+  towns: { name: string; wikipedia: string; branch?: string; kind?: 'town' | 'landmark'; weight?: number; osm?: string; at?: Position }[]
   stretches: { id: string; title: string; from: string; to: string; branch?: string; scene: string; line: string }[]
   /** Keep only source pieces whose midpoint lies in this state (for multi-state roads like the Great River Road). */
   clipToState?: string
@@ -197,7 +198,8 @@ async function coords(titles: string[]) {
   }
   return out
 }
-const townCoords = await coords(content.towns.map((t) => t.wikipedia))
+const townCoords = await coords(content.towns.filter((t) => !t.osm).map((t) => t.wikipedia))
+for (const t of content.towns) if (t.osm && t.at) townCoords.set((t.wikipedia ||= t.osm), t.at)
 // Hand-written content must resolve every town; generated content just drops towns Wikipedia can't place.
 if (content.generated) content.towns = content.towns.filter((t) => townCoords.has(t.wikipedia))
 for (const t of content.towns) if (!townCoords.has(t.wikipedia)) throw new Error(`no Wikipedia coordinates for ${t.wikipedia}`)
@@ -342,7 +344,7 @@ const placed = content.towns.map((t) => {
   return {
     name: t.name,
     ...(t.kind ? { kind: t.kind } : {}),
-    source: `https://en.wikipedia.org/wiki/${encodeURIComponent(t.wikipedia.replace(/ /g, '_'))}`,
+    source: t.osm ? `https://www.openstreetmap.org/${t.osm}` : `https://en.wikipedia.org/wiki/${encodeURIComponent(t.wikipedia.replace(/ /g, '_'))}`,
     ...where,
   }
 })
@@ -502,7 +504,7 @@ const out = {
   builtAt: new Date().toISOString(),
   sources: {
     geometry: 'USDOT Scenic_Byways_2022_06_24 (raw snapshot in data/raw)',
-    towns: 'Wikipedia article coordinates',
+    towns: content.towns.some((t) => t.osm) ? 'Wikipedia article coordinates; OpenStreetMap place nodes where no article exists' : 'Wikipedia article coordinates',
     driveTimes: 'OSRM (router.project-osrm.org), OpenStreetMap data, computed at build time; excludes stops and traffic',
   },
   main: {

@@ -1,3 +1,7 @@
+import { useStrip } from '../strip/data'
+import { RoadStats } from './RoadStats'
+import { LoadingRoad, NotFound } from '../../components/ui/RoadStatus'
+import roadStyle from './Byway.module.css'
 import { StripLink } from '../strip/StripLink'
 import { requireNetwork } from '../../lib/network'
 import { PhotoGallery, MomentPhoto, PhotoCredit } from '../photos/Photos'
@@ -5,8 +9,7 @@ import { ShareControl } from '../share/ShareControl'
 import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router'
 import { useByway, useStory, usePhotos, stateChapters } from '../../lib/data'
-import { illustrationCaption, formatMiles, listingDescription, shortDesignation } from '../../lib/format'
-import { stateNames } from '../../lib/states'
+import { illustrationCaption, listingDescription, shortDesignation } from '../../lib/format'
 import { greatCircleMiles } from '../../lib/geo'
 import { PostcardArt } from '../postcard/PostcardArt'
 import { usePassport } from '../../lib/passport'
@@ -32,6 +35,7 @@ function partLength(points: number[][]) {
 }
 export default function BywayPage() {
   const { id } = useParams()
+  const strip = useStrip(id ?? '')
   const photos = usePhotos(id)
   const photo = photos[0]
   const { byway: b, status, byways, meta } = useByway(id)
@@ -72,19 +76,23 @@ export default function BywayPage() {
     () =>
       b
         ? byways
-            .filter((road) => road.id !== b.id)
+            .filter(
+              (road) =>
+                road.id !== b.id &&
+                road.states.some((code) => b.states.includes(code) || b.states.some((state) => adjacent[state]?.includes(code))),
+            )
             .map((road) => ({ road, miles: greatCircleMiles(b.center, road.center) }))
             .sort((a, c) => a.miles - c.miles || a.road.id.localeCompare(c.road.id))
             .slice(0, 4)
         : [],
     [b, byways],
   )
-  if (status === 'loading') return <PageStatus title="Opening the road…" />
+  if (status === 'loading') return <LoadingRoad title="Opening the road…" />
   if (status === 'error') return <PageStatus title="The catalog could not be loaded" error />
-  if (!b) return <PageStatus title="Byway not found" />
+  if (!b) return <NotFound title="Road not found" />
   const point = start?.id === b.id ? start.point : b.center
   return (
-    <main className={story ? s.editorialPage : undefined}>
+    <main className={`${roadStyle.roadPage} ${story ? s.editorialPage : ''}`}>
       <Hero
         key={b.id}
         photo={photo}
@@ -110,18 +118,13 @@ export default function BywayPage() {
                 ? 'Story unavailable · showing listing'
                 : 'Listing'}
         </p>
-        <div className={s.facts}>
-          <span>{stateNames(b.states)}</span>
-          <span>{formatMiles(b.mappedMiles)} in total</span>
-          {b.designations.map((d) => (
-            <span key={d}>{d}</span>
-          ))}
-          {story?.season && <span>{story.season}</span>}
-        </div>
+      </Hero>
+      <div className={roadStyle.summary}>
+        <RoadStats byway={b} strip={strip.data} season={story?.season} />
         <div className={s.actions}>
           <StripLink id={b.id} />
           <button
-            className="btn btn-primary"
+            className="btn btn-ghost"
             aria-pressed={saved}
             onClick={() => {
               toggleSave(b.id)
@@ -139,70 +142,8 @@ export default function BywayPage() {
           </Link>
         </div>
         {saved && <small>Saved in this browser</small>}
-      </Hero>
+      </div>
       <div className={s.page}>
-        <section className={s.listingInfo} aria-labelledby="listing-info">
-          <h2 id="listing-info">About this listing</h2>
-          <dl>
-            <div>
-              <dt>Designations & issuing programs</dt>
-              <dd>
-                <ul>
-                  {b.designations.map((designation) => (
-                    <li key={designation}>
-                      {designation} ·{' '}
-                      {designation.includes('National Forest')
-                        ? 'USDA Forest Service'
-                        : /National Scenic|All-American/i.test(designation)
-                          ? 'FHWA National Scenic Byways Program'
-                          : 'Issuing program not specified in the source layer'}
-                    </li>
-                  ))}
-                </ul>
-                {Object.values(stateChapters).flatMap((chapter) =>
-                  chapter.programs
-                    .filter((program) => program.members.some((member) => member.bywayId === b.id))
-                    .map((program) => (
-                      <p key={program.label}>
-                        {program.label} · {program.issuer}
-                      </p>
-                    )),
-                )}
-              </dd>
-            </div>
-            <div>
-              <dt>Data source</dt>
-              <dd>
-                <a href={meta?.source.url}>USDOT Scenic Byways layer</a> · retrieved {meta?.retrievedAt.slice(0, 10) ?? 'Unavailable'}
-              </dd>
-            </div>
-            <div>
-              <dt>Editorial status</dt>
-              <dd>{story ? (story.reviewed ? 'Reviewed story' : 'Draft story · pending review') : 'Listing'}</dd>
-            </div>
-            <div>
-              <dt>Lead photo</dt>
-              <dd>
-                {photo ? (
-                  <>
-                    {photo.source === 'wikipedia-lead'
-                      ? 'Wikipedia article lead image'
-                      : photo.source === 'nara'
-                        ? 'U.S. DOT America’s Byways collection'
-                        : 'Curated story photograph'}
-                    <PhotoCredit photo={photo} />
-                  </>
-                ) : (
-                  'Illustration · no photo yet'
-                )}
-              </dd>
-            </div>
-            <div>
-              <dt>Last updated</dt>
-              <dd>{meta?.builtAt.slice(0, 10) ?? 'Unavailable'}</dd>
-            </div>
-          </dl>
-        </section>
         <div className={s.split}>
           <div className={s.body}>
             {story ? (
@@ -336,6 +277,68 @@ export default function BywayPage() {
             </div>
           </section>
         )}
+        <details className={s.listingInfo}>
+          <summary>About this listing</summary>
+          <dl>
+            <div>
+              <dt>Designations & issuing programs</dt>
+              <dd>
+                <ul>
+                  {b.designations.map((designation) => (
+                    <li key={designation}>
+                      {designation} ·{' '}
+                      {designation.includes('National Forest')
+                        ? 'USDA Forest Service'
+                        : /National Scenic|All-American/i.test(designation)
+                          ? 'FHWA National Scenic Byways Program'
+                          : 'Issuing program not specified in the source layer'}
+                    </li>
+                  ))}
+                </ul>
+                {Object.values(stateChapters).flatMap((chapter) =>
+                  chapter.programs
+                    .filter((program) => program.members.some((member) => member.bywayId === b.id))
+                    .map((program) => (
+                      <p key={program.label}>
+                        {program.label} · {program.issuer}
+                      </p>
+                    )),
+                )}
+              </dd>
+            </div>
+            <div>
+              <dt>Data source</dt>
+              <dd>
+                <a href={meta?.source.url}>USDOT Scenic Byways layer</a> · retrieved {meta?.retrievedAt.slice(0, 10) ?? 'Unavailable'}
+              </dd>
+            </div>
+            <div>
+              <dt>Editorial status</dt>
+              <dd>{story ? (story.reviewed ? 'Reviewed story' : 'Draft story · pending review') : 'Listing'}</dd>
+            </div>
+            <div>
+              <dt>Lead photo</dt>
+              <dd>
+                {photo ? (
+                  <>
+                    {photo.source === 'wikipedia-lead'
+                      ? 'Wikipedia article lead image'
+                      : photo.source === 'nara'
+                        ? 'U.S. DOT America’s Byways collection'
+                        : 'Curated story photograph'}
+                    <PhotoCredit photo={photo} />
+                  </>
+                ) : (
+                  'Illustration · no photo yet'
+                )}
+              </dd>
+            </div>
+            <div>
+              <dt>Last updated</dt>
+              <dd>{meta?.builtAt.slice(0, 10) ?? 'Unavailable'}</dd>
+            </div>
+          </dl>
+        </details>
       </div>
       {editing && <VisitEditor initialNote={note} key={b.id} byway={b} onClose={() => setEditing(false)} />}
     </main>
