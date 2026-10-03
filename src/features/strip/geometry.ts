@@ -20,7 +20,28 @@ export function coordinateAtMile(route: StripPath, mile: number): Coordinate {
   }
   const span = cumMiles[high] - cumMiles[low]
   const fraction = span ? (mile - cumMiles[low]) / span : 0
+  // Inside a gap, follow the connector road rather than a straight line that may cross water.
+  const via = route.gaps?.find((g) => g.via && Math.abs(g.atMile - cumMiles[low]) < 0.011)?.via
+  if (via) return alongLine(via, fraction)
   return [path[low][0] + (path[high][0] - path[low][0]) * fraction, path[low][1] + (path[high][1] - path[low][1]) * fraction]
+}
+const lineLengths = new WeakMap<Coordinate[], number[]>()
+/** The point a fraction of the way along a polyline, by flat-earth distance (connectors are a few miles at most). */
+function alongLine(line: Coordinate[], fraction: number): Coordinate {
+  let cum = lineLengths.get(line)
+  if (!cum) {
+    cum = [0]
+    for (let i = 1; i < line.length; i++)
+      cum.push(cum[i - 1] + Math.hypot((line[i][0] - line[i - 1][0]) * Math.cos((line[i][1] * Math.PI) / 180), line[i][1] - line[i - 1][1]))
+    lineLengths.set(line, cum)
+  }
+  const target = fraction * cum[cum.length - 1]
+  const i = Math.max(
+    1,
+    cum.findIndex((c) => c >= target),
+  )
+  const f = (target - cum[i - 1]) / (cum[i] - cum[i - 1] || 1)
+  return [line[i - 1][0] + (line[i][0] - line[i - 1][0]) * f, line[i - 1][1] + (line[i][1] - line[i - 1][1]) * f]
 }
 function bearing(a: Coordinate, b: Coordinate) {
   return Math.atan2((b[0] - a[0]) * Math.cos((((a[1] + b[1]) / 2) * Math.PI) / 180), b[1] - a[1])

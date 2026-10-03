@@ -5,7 +5,8 @@ export interface StripPath {
   path: Coordinate[]
   cumMiles: number[]
   miles: number
-  gaps?: { atMile: number; miles: number }[]
+  /** Unmapped stretches of the source line; `via` is the OpenStreetMap road between the gap's ends (OSRM, build time), used to move the car and drawn dashed. */
+  gaps?: { atMile: number; miles: number; via?: Coordinate[] }[]
 }
 export interface Stretch {
   id: string

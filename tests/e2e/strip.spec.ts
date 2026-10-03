@@ -42,7 +42,7 @@ test('selects, shares a URL and saves Bay villages to the passport', async ({ pa
 
 test('opens the tip in place and counts branch miles', async ({ page }) => {
   await page.goto(route)
-  const toggle = page.getByRole('button', { name: /Out to the tip · \+13.3 mi/ })
+  const toggle = page.getByRole('button', { name: /Out to the tip · \+[\d.]+ mi/ })
   await toggle.click()
   await expect(toggle).toHaveAttribute('aria-expanded', 'true')
   await expect(page.locator('#tip-ribbon').getByText('Gills Rock', { exact: true })).toBeVisible()

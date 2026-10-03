@@ -104,7 +104,6 @@ export function BywayMap({
       return
     }
     bindBasemapFallback(map)
-    if (import.meta.env.DEV) (window as unknown as { __rambleMap?: Map }).__rambleMap = map
     ref.current = map
     map.addControl(
       new maplibregl.AttributionControl({ compact: true, customAttribution: `Natural Earth · USDOT · ${basemapService.attribution}` }),

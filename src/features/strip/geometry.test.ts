@@ -105,3 +105,30 @@ it('scales long roads and branches consistently and spaces mile posts', async ()
   expect([110, 50, 18, 6].map(milePostInterval)).toEqual([5, 10, 25, 50])
   expect(buildRibbon(straight, pixelsPerMile(469)).path(0, 20)).toContain(`,${20 * pixelsPerMile(469)}`)
 })
+
+it('moves along a gap connector instead of the straight line across the gap', () => {
+  const route: StripPath = {
+    path: [
+      [0, 0],
+      [0, 1],
+    ],
+    cumMiles: [0, 1],
+    miles: 1,
+    gaps: [
+      {
+        atMile: 0,
+        miles: 1,
+        via: [
+          [0, 0],
+          [1, 0],
+          [1, 1],
+          [0, 1],
+        ],
+      },
+    ],
+  }
+  // Halfway along the U-shaped connector is its far side, not the straight-line midpoint.
+  const [lon, lat] = coordinateAtMile(route, 0.5)
+  expect(lon).toBeCloseTo(1, 1)
+  expect(lat).toBeCloseTo(0.5, 1)
+})

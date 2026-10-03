@@ -178,6 +178,25 @@ export function InsetMap({
           },
         },
       })
+      // OpenStreetMap connectors across unmapped gaps: dashed, so they read as "a road exists here" rather than as part of the byway.
+      map.addSource('road-connectors', {
+        type: 'geojson',
+        data: {
+          type: 'Feature',
+          properties: {},
+          geometry: {
+            type: 'MultiLineString',
+            coordinates: [...(data.main.gaps ?? []), ...(data.branch?.gaps ?? [])].flatMap((g) => (g.via ? [g.via] : [])),
+          },
+        },
+      })
+      map.addLayer({
+        id: 'road-connectors',
+        type: 'line',
+        source: 'road-connectors',
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: { 'line-color': palette()('ink-soft'), 'line-width': 2.5, 'line-dasharray': [1.5, 2] },
+      })
       map.addLayer({
         id: 'road-edge',
         type: 'line',

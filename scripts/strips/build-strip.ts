@@ -4,6 +4,7 @@
 // Honesty rules: pieces are joined only where their ends meet; any larger break is kept as a labelled gap, never bridged.
 // Usage: npx tsx scripts/strips/build-strip.ts door-county-coastal-byway-81450
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
+import { repairStrip } from './repair.ts'
 import type { Feature, MultiPolygon, Polygon, Position } from 'geojson'
 import { booleanPointInPolygon, point } from '@turf/turf'
 
@@ -344,7 +345,9 @@ const placed = content.towns.map((t) => {
   return {
     name: t.name,
     ...(t.kind ? { kind: t.kind } : {}),
-    source: t.osm ? `https://www.openstreetmap.org/${t.osm}` : `https://en.wikipedia.org/wiki/${encodeURIComponent(t.wikipedia.replace(/ /g, '_'))}`,
+    source: t.osm
+      ? `https://www.openstreetmap.org/${t.osm}`
+      : `https://en.wikipedia.org/wiki/${encodeURIComponent(t.wikipedia.replace(/ /g, '_'))}`,
     ...where,
   }
 })
@@ -504,7 +507,9 @@ const out = {
   builtAt: new Date().toISOString(),
   sources: {
     geometry: 'USDOT Scenic_Byways_2022_06_24 (raw snapshot in data/raw)',
-    towns: content.towns.some((t) => t.osm) ? 'Wikipedia article coordinates; OpenStreetMap place nodes where no article exists' : 'Wikipedia article coordinates',
+    towns: content.towns.some((t) => t.osm)
+      ? 'Wikipedia article coordinates; OpenStreetMap place nodes where no article exists'
+      : 'Wikipedia article coordinates',
     driveTimes: 'OSRM (router.project-osrm.org), OpenStreetMap data, computed at build time; excludes stops and traffic',
   },
   main: {
@@ -524,6 +529,10 @@ const out = {
   moments,
   stretches,
 }
+// Drop source spikes and route connectors across gaps (repair.ts) so the car neither doubles back nor crosses water.
+const repair = await repairStrip(out as unknown as Parameters<typeof repairStrip>[0])
+Object.assign(out, { repaired: true })
+console.log(`repair: ${repair.removed} spike point(s) removed, ${repair.connectors} gap connector(s)`)
 await mkdir(new URL('public/data/strips/', ROOT), { recursive: true })
 const outFile = part ? `${id}.${part.key}.json` : `${id}.json`
 await writeFile(
