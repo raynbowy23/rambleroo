@@ -193,7 +193,11 @@ export function InsetMap({
     }
     const update: PositionSink = (_point, inGap, route, mile) => {
       target = { route, mile, inGap }
-      if (!frame) frame = requestAnimationFrame(step)
+      // With reduced motion there is nothing to ease: follow the scroll in the same frame.
+      if (!settings.current.motion) {
+        cancelAnimationFrame(frame)
+        step(performance.now())
+      } else if (!frame) frame = requestAnimationFrame(step)
     }
     registerPosition(update)
     fit()

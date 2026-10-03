@@ -168,6 +168,16 @@ test('3D scroll driving follows the ribbon, restores the inset and remembers the
   await page.evaluate(() => window.scrollBy(0, 1500))
   await expect.poll(() => page.evaluate(() => window.__rambleroo3d!.center())).not.toEqual(center)
   await page.emulateMedia({ reducedMotion: 'reduce' })
+  // Let the eased drive from the previous scroll settle before measuring.
+  let previous = ''
+  await expect
+    .poll(async () => {
+      const now = JSON.stringify(await page.evaluate(() => window.__rambleroo3d!.center()))
+      const same = now === previous
+      previous = now
+      return same
+    })
+    .toBe(true)
   const reducedStart = await page.evaluate(() => window.__rambleroo3d!.center())
   await page.evaluate(() => window.scrollBy(0, 500))
   await expect.poll(() => page.evaluate(() => window.__rambleroo3d!.center())).not.toEqual(reducedStart)
