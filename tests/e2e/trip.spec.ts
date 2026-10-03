@@ -60,7 +60,12 @@ test('Near me requests location only on click and keeps it out of storage and UR
   expect(await page.evaluate(() => (window as unknown as { locationRequests: number }).locationRequests)).toBe(0)
   await page.getByRole('button', { name: 'Near me', exact: true }).click()
   await expect(page.getByText(/Your location stays on this device/)).toBeVisible()
-  await expect(page.getByText(/mi away, straight line/).filter({ visible: true }).first()).toBeVisible()
+  await expect(
+    page
+      .getByText(/mi away, straight line/)
+      .filter({ visible: true })
+      .first(),
+  ).toBeVisible()
   expect(page.url()).not.toContain('37.123456')
   expect(await page.evaluate(() => JSON.stringify(localStorage))).not.toMatch(/37\.123456|84\.654321/)
 })

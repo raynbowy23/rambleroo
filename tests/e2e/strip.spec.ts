@@ -1,4 +1,4 @@
-import { expect, test } from './fixtures'
+import { expect, test, flatTerrainTile } from './fixtures'
 
 const id = 'door-county-coastal-byway-81450'
 const route = `/byway/${id}/strip`
@@ -150,15 +150,7 @@ test('3D scroll driving follows the ribbon, restores the inset and remembers the
   test.slow()
   // A deterministic, flat Terrarium tile keeps this UI test independent of AWS availability.
   await page.route('**/elevation-tiles-prod/terrarium/**', async (route) => {
-    const png = await page.evaluate(() => {
-      const canvas = document.createElement('canvas')
-      canvas.width = canvas.height = 256
-      const ctx = canvas.getContext('2d')!
-      ctx.fillStyle = 'rgb(128, 0, 0)'
-      ctx.fillRect(0, 0, 256, 256)
-      return canvas.toDataURL().split(',')[1]
-    })
-    await route.fulfill({ contentType: 'image/png', body: Buffer.from(png, 'base64') })
+    await route.fulfill({ contentType: 'image/png', body: flatTerrainTile })
   })
   await page.goto(route)
   const webgl = await page.evaluate(() => !!document.createElement('canvas').getContext('webgl2'))
@@ -210,15 +202,7 @@ for (const relief of [false, true]) {
     // Test browsers render WebGL in software (SwiftShader), so 3D pages are slow under parallel load.
     test.slow()
     await page.route('**/elevation-tiles-prod/terrarium/**', async (request) => {
-      const png = await page.evaluate(() => {
-        const canvas = document.createElement('canvas')
-        canvas.width = canvas.height = 256
-        const ctx = canvas.getContext('2d')!
-        ctx.fillStyle = 'rgb(128, 0, 0)'
-        ctx.fillRect(0, 0, 256, 256)
-        return canvas.toDataURL().split(',')[1]
-      })
-      await request.fulfill({ contentType: 'image/png', body: Buffer.from(png, 'base64') })
+      await request.fulfill({ contentType: 'image/png', body: flatTerrainTile })
     })
     await page.goto(route)
     test.skip(!(await page.evaluate(() => !!document.createElement('canvas').getContext('webgl2'))), 'WebGL2 unavailable')
@@ -263,15 +247,7 @@ test('3D photo pins open the landmark postcard', async ({ page }) => {
   // Test browsers render WebGL in software (SwiftShader), so 3D pages are slow under parallel load.
   test.slow()
   await page.route('**/elevation-tiles-prod/terrarium/**', async (request) => {
-    const png = await page.evaluate(() => {
-      const canvas = document.createElement('canvas')
-      canvas.width = canvas.height = 256
-      const ctx = canvas.getContext('2d')!
-      ctx.fillStyle = 'rgb(128, 0, 0)'
-      ctx.fillRect(0, 0, 256, 256)
-      return canvas.toDataURL().split(',')[1]
-    })
-    await request.fulfill({ contentType: 'image/png', body: Buffer.from(png, 'base64') })
+    await request.fulfill({ contentType: 'image/png', body: flatTerrainTile })
   })
   await page.goto(route)
   test.skip(!(await page.evaluate(() => !!document.createElement('canvas').getContext('webgl2'))), 'WebGL2 unavailable')

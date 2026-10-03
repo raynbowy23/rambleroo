@@ -51,5 +51,8 @@ export function setRelief(map: Map, enabled: boolean, exaggeration = 1.6) {
 }
 
 export function isTerrainError(event: unknown) {
-  return !!event && typeof event === 'object' && 'sourceId' in event && event.sourceId === terrainSource
+  if (!event || typeof event !== 'object' || !('sourceId' in event) || event.sourceId !== terrainSource) return false
+  // A request cancelled by navigation or by the camera moving on is not a failure of the terrain service.
+  const error = 'error' in event ? (event.error as { name?: string; message?: string } | undefined) : undefined
+  return !(error?.name === 'AbortError' || /abort/i.test(error?.message ?? ''))
 }

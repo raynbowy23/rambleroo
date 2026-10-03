@@ -82,16 +82,26 @@ export function InsetMap({
         interactive: false,
         attributionControl: false,
         maxPitch: 75,
+        // Lighter on high-density screens: the inset is small, so 1.5× is indistinguishable from 3× and a fraction of the pixels.
+        pixelRatio: Math.min(window.devicePixelRatio || 1, 1.5),
+        fadeDuration: 0,
       })
     } catch {
       setAvailable(false)
       return
     }
+    let terrainErrors = 0
+    // Tile requests cut off by a reload or navigation fail with "Failed to fetch"; they must not switch 3D off (and save that choice).
+    let leaving = false
+    const leave = () => (leaving = true)
+    window.addEventListener('pagehide', leave)
+    window.addEventListener('beforeunload', leave)
     map.on('webglcontextlost', () => {
       setAvailable(false)
     })
     map.on('error', (event) => {
-      if (settings.current.relief && isTerrainError(event)) settings.current.onFailure()
+      // One missing tile shouldn't switch 3D off; give up only when the terrain service keeps failing.
+      if (settings.current.relief && !leaving && isTerrainError(event) && ++terrainErrors === 3) settings.current.onFailure()
     })
     bindBasemapFallback(map)
     map.addControl(
@@ -133,30 +143,57 @@ export function InsetMap({
     let current = data.main.path[0]
     let gap = false
     const pointFeature = () => ({ type: 'Feature' as const, properties: {}, geometry: { type: 'Point' as const, coordinates: current } })
-    const update: PositionSink = (point, inGap, route, mile) => {
+    // Scroll only sets a target; a frame loop eases the shown mile and headings toward it, so wheel notches and phone flicks glide
+    // instead of jumping, and the map does its work once per frame at most.
+    const angleStep = (from: number, to: number, k: number) =>
+      from + ((Math.atan2(Math.sin(((to - from) * Math.PI) / 180), Math.cos(((to - from) * Math.PI) / 180)) * 180) / Math.PI) * k
+    let target: { route: StripPath; mile: number; inGap: boolean } | undefined
+    let shown: { route: StripPath; mile: number } | undefined
+    let carHeading = 0
+    let pinsMile = -Infinity
+    let frame = 0
+    let last = 0
+    const step = (now: number) => {
+      frame = 0
+      if (!target) return
+      const dt = last ? Math.min(100, now - last) : 16
+      last = now
+      const smooth = settings.current.motion
+      // Snap on a route change (main ↔ branch) or a long jump (choosing a stretch scrolls there smoothly anyway).
+      if (!smooth || !shown || shown.route !== target.route || Math.abs(target.mile - shown.mile) > 25) shown = { ...target }
+      else shown.mile += (target.mile - shown.mile) * (1 - Math.exp(-dt / 140))
+      const { route, mile } = shown
+      const point = coordinateAtMile(route, mile)
       const ahead = coordinateAtMile(route, Math.min(route.miles, mile + 0.3))
       const behind = coordinateAtMile(route, Math.max(0, mile - 0.3))
-      const target = bearing(mile >= route.miles ? behind : point, ahead)
-      const previous = currentPosition.current.heading
-      const heading = settings.current.motion
-        ? previous +
-          ((Math.atan2(Math.sin(((target - previous) * Math.PI) / 180), Math.cos(((target - previous) * Math.PI) / 180)) * 180) / Math.PI) *
-            0.15
-        : target
+      const direction = bearing(mile >= route.miles ? behind : point, ahead)
+      // The camera turns slowly and the car a little faster, both by elapsed time, so bends read as a turn rather than a twitch.
+      const heading = smooth ? angleStep(currentPosition.current.heading, direction, 1 - Math.exp(-dt / 450)) : direction
+      carHeading = smooth ? angleStep(carHeading, direction, 1 - Math.exp(-dt / 160)) : direction
       currentPosition.current = { point, heading }
       pinPosition.current = { on: route === data.branch ? 'branch' : 'main', mile }
-      updatePins.current()
+      if (Math.abs(mile - pinsMile) > 0.25) {
+        pinsMile = mile
+        updatePins.current()
+      }
       if (settings.current.relief || offsets.current.zoom || offsets.current.bearing) fit()
-      if (settings.current.relief) {
-        car3d.current?.update(point, target)
-      }
+      if (settings.current.relief) car3d.current?.update(point, carHeading)
       current = point
-      gap = inGap
       const source = map.getSource('car') as GeoJSONSource | undefined
-      if (source) {
-        source.setData(pointFeature())
-        map.setPaintProperty('car', 'circle-opacity', gap ? 0.3 : 1)
-      }
+      if (source && !settings.current.relief) source.setData(pointFeature())
+      if (source && gap !== target.inGap) map.setPaintProperty('car', 'circle-opacity', target.inGap ? 0.3 : 1)
+      gap = target.inGap
+      // Stop once what is left is invisible (a few metres, a degree or two), so an idle page renders nothing.
+      const settled =
+        Math.abs(target.mile - mile) < 0.002 &&
+        Math.abs(angleStep(heading, direction, 1) - heading) < 1.5 &&
+        Math.abs(angleStep(carHeading, direction, 1) - carHeading) < 1.5
+      if (!settled) frame = requestAnimationFrame(step)
+      else last = 0
+    }
+    const update: PositionSink = (_point, inGap, route, mile) => {
+      target = { route, mile, inGap }
+      if (!frame) frame = requestAnimationFrame(step)
     }
     registerPosition(update)
     fit()
@@ -270,6 +307,9 @@ export function InsetMap({
       if (import.meta.env.DEV) delete window.__rambleroo3d
       resize.disconnect()
       registerPosition(undefined)
+      cancelAnimationFrame(frame)
+      window.removeEventListener('pagehide', leave)
+      window.removeEventListener('beforeunload', leave)
       map.remove()
     }
   }, [data, registerPosition, scene])

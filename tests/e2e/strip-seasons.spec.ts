@@ -1,4 +1,4 @@
-import { expect, test } from './fixtures'
+import { expect, test, flatTerrainTile } from './fixtures'
 
 for (const road of [
   { id: 'door-county-coastal-byway-81450', region: 'upper-midwest', center: [-87.2, 45], climate: 'snowy', label: 'Winter · snowy' },
@@ -13,15 +13,7 @@ for (const road of [
   test(`${road.id}: winter restyles the existing 3D map`, async ({ page }) => {
     test.slow()
     await page.route('**/elevation-tiles-prod/terrarium/**', async (request) => {
-      const png = await page.evaluate(() => {
-        const canvas = document.createElement('canvas')
-        canvas.width = canvas.height = 256
-        const context = canvas.getContext('2d')!
-        context.fillStyle = 'rgb(128, 0, 0)'
-        context.fillRect(0, 0, 256, 256)
-        return canvas.toDataURL().split(',')[1]
-      })
-      await request.fulfill({ contentType: 'image/png', body: Buffer.from(png, 'base64') })
+      await request.fulfill({ contentType: 'image/png', body: flatTerrainTile })
     })
     await page.goto(`/byway/${road.id}/strip`)
     test.skip(!(await page.evaluate(() => !!document.createElement('canvas').getContext('webgl2'))), 'WebGL2 unavailable')

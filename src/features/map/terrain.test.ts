@@ -45,3 +45,8 @@ it('distinguishes terrain failures from unrelated map errors', () => {
   expect(isTerrainError({ sourceId: 'byways' })).toBe(false)
   expect(isTerrainError(new Error('Other failure'))).toBe(false)
 })
+
+it('does not treat cancelled terrain requests as failures', () => {
+  expect(isTerrainError({ sourceId: terrainSource, error: { name: 'AbortError', message: 'The user aborted a request.' } })).toBe(false)
+  expect(isTerrainError({ sourceId: terrainSource, error: new Error('Failed to fetch') })).toBe(true)
+})
