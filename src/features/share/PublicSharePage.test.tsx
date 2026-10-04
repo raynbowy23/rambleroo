@@ -14,12 +14,20 @@ vi.mock('../../lib/data', () => ({
   }),
 }))
 vi.mock('../../components/art', () => ({ Scene: () => <svg aria-hidden="true" /> }))
-vi.setConfig({ testTimeout: 20_000 })
-// The first render compiles the page's map imports; on a cold CI machine that alone can take over a second.
 afterEach(() => {
   cleanup()
   vi.unstubAllGlobals()
 })
+// Node 24's built-in Request rejects jsdom's AbortSignal, which React Router passes when it starts a data navigation; real browsers
+// are unaffected. Tests drop the signal (fetch is mocked anyway).
+const NodeRequest = globalThis.Request
+class TestRequest extends NodeRequest {
+  constructor(input: RequestInfo | URL, init: RequestInit = {}) {
+    const { signal: _signal, ...rest } = init
+    super(input, rest)
+  }
+}
+globalThis.Request = TestRequest as typeof Request
 function open() {
   const router = createMemoryRouter([{ path: '/s/:slug', loader, Component: PublicSharePage, HydrateFallback: () => <p>Loading</p> }], {
     initialEntries: ['/s/abcdefghijklmnopqr'],
@@ -34,7 +42,7 @@ it('loads once in StrictMode, preserves road order, and cleans up noindex', asyn
   const fetcher = vi.fn().mockResolvedValue(Response.json({ kind: 'trip', title: 'Autumn', roads: ['b', 'a'] }))
   vi.stubGlobal('fetch', fetcher)
   const view = open()
-  await screen.findByRole('heading', { name: 'Autumn' }, { timeout: 10_000 })
+  await screen.findByRole('heading', { name: 'Autumn' })
   expect(screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)).toEqual(['Second road', 'First road'])
   expect(screen.getByText('2 roads · 30 mapped miles')).toBeTruthy()
   expect(fetcher).toHaveBeenCalledTimes(1)
@@ -46,12 +54,12 @@ it('loads once in StrictMode, preserves road order, and cleans up noindex', asyn
 it('shows the turned-off state for a 404', async () => {
   vi.stubGlobal('fetch', vi.fn().mockResolvedValue(Response.json({}, { status: 404 })))
   open()
-  await screen.findByRole('heading', { name: 'This link was turned off' }, { timeout: 10_000 })
+  await screen.findByRole('heading', { name: 'This link was turned off' })
 })
 it('keeps transient errors distinct from revoked links', async () => {
   vi.stubGlobal('fetch', vi.fn().mockResolvedValue(Response.json({}, { status: 503 })))
   open()
-  await screen.findByRole('heading', { name: 'This trip couldn’t be loaded' }, { timeout: 10_000 })
+  await screen.findByRole('heading', { name: 'This trip couldn’t be loaded' })
 })
 it('renders visit notes as text and retains missing roads', async () => {
   vi.stubGlobal(
@@ -66,7 +74,7 @@ it('renders visit notes as text and retains missing roads', async () => {
     ),
   )
   open()
-  await screen.findByText('<script>secret()</script>', undefined, { timeout: 10_000 })
+  await screen.findByText('<script>secret()</script>')
   expect(screen.getByText('Saved road')).toBeTruthy()
   expect(screen.getByText('2026-10-03')).toBeTruthy()
   expect(screen.getByRole('heading', { name: 'Road no longer in catalog' })).toBeTruthy()
