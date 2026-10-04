@@ -78,7 +78,7 @@ for (const source of stateSources) {
   const features: Feature<LineString, Props>[] = []
   for (const b of source.byways) {
     const q = new URLSearchParams({
-      where: `${source.nameField}='${b.name.replaceAll("'", "''")}'`,
+      where: `${source.nameField}='${(b.match ?? b.name).replaceAll("'", "''")}'`,
       outFields: '*',
       outSR: '4326',
       f: 'geojson',
@@ -137,6 +137,8 @@ async function coordinate(title: string): Promise<Position> {
 }
 
 const classicFeatures: Feature<LineString, Props>[] = []
+// Classic drives get their own feature-ID block, so adding a state never renumbers them.
+fid = 9_500_000
 for (const c of classics) {
   if (c.osm) {
     const [south, west, north, east] = c.osm.bbox

@@ -19,5 +19,41 @@
         "nsb": false
       }
     ]
+  },
+  {
+    "state": "FL",
+    "agency": "Florida Department of Transportation",
+    "layer": "https://services1.arcgis.com/O1JpcwDW8sjYuddV/arcgis/rest/services/Florida_Scenic_Highways/FeatureServer/0",
+    "nameField": "SCENIC_HWY",
+    "byways": [
+      {
+        "name": "A1A Ocean Islands Trail",
+        "match": "A1A OCEAN ISLANDS TRAIL",
+        "id": 991201,
+        "designation": "Florida State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "J.C. Penney Memorial Scenic Highway",
+        "match": "JC PENNEY MEM HWY",
+        "id": 991202,
+        "designation": "Florida State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Martin Grade Scenic Highway",
+        "match": "MARTIN GRADE HWY",
+        "id": 991203,
+        "designation": "Florida State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Scenic Sumter Heritage Byway",
+        "match": "SCENIC SUMTER HERITAGE BYWAY",
+        "id": 991204,
+        "designation": "Florida State Scenic Highway",
+        "nsb": false
+      }
+    ]
   }
 ]

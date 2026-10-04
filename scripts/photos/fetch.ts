@@ -11,7 +11,8 @@ const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway catalog; personal projec
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 interface Candidate {
-  source: 'wikipedia-lead' | 'nara'
+  /** commons-search: picked by hand from a wider Commons search (state chapters); the description is our own alt text. */
+  source: 'wikipedia-lead' | 'nara' | 'commons-search'
   file: string
   article?: string
   width: number

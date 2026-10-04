@@ -1,0 +1,36 @@
+{
+  "bywayId": "martin-grade-scenic-highway-991203",
+  "reviewed": false,
+  "title": "Martin Grade Scenic Highway",
+  "direction": "County Road 714 west of Stuart, under a long arch of old live oaks between ranches and groves.",
+  "towns": [
+    {
+      "name": "Bluefield",
+      "wikipedia": "",
+      "osm": "node/154079556",
+      "at": [
+        -80.58744,
+        27.2005
+      ]
+    },
+    {
+      "name": "Marcy",
+      "wikipedia": "",
+      "osm": "node/154042194",
+      "at": [
+        -80.652,
+        27.14227
+      ]
+    }
+  ],
+  "stretches": [
+    {
+      "id": "under-the-oaks",
+      "title": "Under the oaks",
+      "from": "Bluefield",
+      "to": "Marcy",
+      "scene": "forest",
+      "line": "The canopy road, once a logging trail and later a cattle route."
+    }
+  ]
+}

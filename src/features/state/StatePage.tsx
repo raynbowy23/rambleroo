@@ -85,7 +85,10 @@ export default function StatePage() {
                   {visible.map((m) => {
                     const road = m.bywayId ? byId.get(m.bywayId) : undefined
                     return road ? (
-                      <Postcard layout="card" byway={road} key={m.name} stateCode={code} officialUrl={m.url} />
+                      <div className={s.member} key={m.name}>
+                        <Postcard layout="card" byway={road} stateCode={code} officialUrl={m.url} description={m.blurb} />
+                        {m.note && <p className={s.muted}>{m.note}</p>}
+                      </div>
                     ) : (
                       <article className={s.pending} key={m.name}>
                         <span className="kicker">Route line pending</span>
@@ -95,6 +98,7 @@ export default function StatePage() {
                             <a href={m.url}>Official page</a>
                           </small>
                         )}
+                        {m.blurb && <p className={s.blurb}>{m.blurb}</p>}
                         <p>{'note' in m ? m.note : 'This route is not available in the catalog.'}</p>
                       </article>
                     )

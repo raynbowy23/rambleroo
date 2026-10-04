@@ -417,6 +417,8 @@ function slice(line: Position[], lineCum: number[], from: number, to: number) {
  * on mountain roads the public server matched partial traces at a flat 9.3 mph.)
  */
 async function osrm(points: Position[]): Promise<{ minutes: number | null; routedMiles: number | null }> {
+  // A stretch between two places at almost the same mile has no line to route; it shows distance only.
+  if (points.length < 2) return { minutes: null, routedMiles: null }
   const mapped = lengthOf(points)
   const at = (f: number) => points[Math.round(f * (points.length - 1))]
   for (const waypoints of [0, 1, 3]) {

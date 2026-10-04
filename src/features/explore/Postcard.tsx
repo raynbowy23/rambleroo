@@ -26,6 +26,7 @@ export function Postcard({
   saveLabel,
   stateCode,
   officialUrl,
+  description,
 }: {
   byway: BywaySummary
   onClose?: () => void
@@ -37,6 +38,8 @@ export function Postcard({
   saveLabel?: string
   stateCode?: string
   officialUrl?: string
+  /** A researched description (state chapters); replaces the generic listing line. */
+  description?: string
 }) {
   const gallery = layout === 'gallery'
   const [editing, setEditing] = useState(false)
@@ -97,7 +100,7 @@ export function Postcard({
               <a href={officialUrl}>Official page</a>
             </small>
           )}
-          <p className={styles.tagline}>{story?.tagline ?? listingDescription(b)}</p>
+          <p className={styles.tagline}>{story?.tagline ?? description ?? listingDescription(b)}</p>
           <div className={styles.facts}>
             <span>{stateNames(b.states)}</span>
             <span>

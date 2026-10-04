@@ -161,3 +161,18 @@ describe('photo credits', () => {
     }
   })
 })
+
+describe('overrides', () => {
+  // A scene that the illustrations don't know crashes every page that draws the road (a theme like "countryside" is not a scene).
+  it('use only known scenes and themes', () => {
+    const scenes = ['river', 'coast', 'mountain', 'forest', 'desert', 'town', 'prairie']
+    const themes = ['water', 'coast', 'mountain', 'forest', 'desert', 'historic', 'countryside']
+    const overrides = JSON.parse(readFileSync(new URL('content/overrides.json', root), 'utf8')) as Record<string, unknown>
+    for (const [id, value] of Object.entries(overrides)) {
+      if (id.startsWith('_') || typeof value !== 'object' || !value) continue
+      const { scene, themes: own } = value as { scene?: string; themes?: string[] }
+      if (scene) expect(scenes, `${id} scene`).toContain(scene)
+      for (const theme of own ?? []) expect(themes, `${id} theme`).toContain(theme)
+    }
+  })
+})

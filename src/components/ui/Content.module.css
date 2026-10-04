@@ -919,3 +919,17 @@
   padding: 8px 0;
   align-items: center;
 }
+
+/* A state chapter member: its postcard card, then a short description in the guide's voice. */
+.member {
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+.blurb {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: var(--step-0);
+  line-height: 1.5;
+  color: var(--ink);
+}

@@ -1,0 +1,27 @@
+{
+  "bywayId": "j-c-penney-memorial-scenic-highway-991202",
+  "reviewed": false,
+  "title": "J.C. Penney Memorial Scenic Highway",
+  "direction": "State Road 16 into Penney Farms, the town J.C. Penney founded, under oaks and magnolias.",
+  "towns": [
+    {
+      "name": "Penney Farms",
+      "wikipedia": "Penney Farms, Florida"
+    },
+    {
+      "name": "Memorial Home Community",
+      "wikipedia": "Memorial Home Community Historic District",
+      "kind": "landmark"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "into-penney-farms",
+      "title": "Into Penney Farms",
+      "from": "Penney Farms",
+      "to": "Memorial Home Community",
+      "scene": "forest",
+      "line": "Oaks and magnolias by the retirement community J.C. Penney built."
+    }
+  ]
+}

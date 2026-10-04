@@ -49,7 +49,7 @@ Research on 2026-10-04 (every link fetched and checked; the full registry with b
 | Colorado | [Colorado Department of Transportation (CDOT), with the Colorado Scenic and Historic Byways Commission](https://www.codot.gov/travel/coloradobyways) | yes | 26 | 2 |  |
 | Connecticut | [Connecticut Department of Transportation (CTDOT), Scenic Roads Advisory Committee](https://portal.ct.gov/dot/programs/connecticut-scenic-roads) | yes | — | — |  |
 | Delaware | [Delaware Department of Transportation (DelDOT)](https://deldot.gov/Programs/byways/index.shtml) | yes | 6 | 4 |  |
-| Florida | [Florida Department of Transportation (FDOT)](https://www.fdot.gov/roadway/landscape-architecture/florida-scenic-highways-program) | yes | 27 | 6 |  |
+| Florida | [Florida Department of Transportation (FDOT)](https://www.fdot.gov/roadway/landscape-architecture/florida-scenic-highways-program) | yes | 27 | 0 (4 filled, Halifax listed without a line) | done |
 | Georgia | [Georgia Department of Transportation (GDOT); designations approved by the State Transportation Board](https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx) | no | 17 | 3 |  |
 | Hawaii | not verified | no | — | — |  |
 | Idaho | [Idaho Transportation Department (ITD), with the Idaho Byways Advisory Committee; promoted by Visit Idaho (Idaho Department of Commerce)](https://visitidaho.org/things-to-do/scenic-byways/) | yes | 32 | 1 |  |

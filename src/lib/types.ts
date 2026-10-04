@@ -167,7 +167,8 @@ export interface StateChapter {
   programs: {
     label: string
     issuer: string
-    members: { name: string; bywayId: string | null; note?: string; url?: string }[]
+    /** `blurb`: a short description in Rambleroo's voice, paraphrased from the cited sources in the chapter file. */
+    members: { name: string; bywayId: string | null; note?: string; url?: string; blurb?: string }[]
   }[]
   sources: { label: string; url: string }[]
 }
