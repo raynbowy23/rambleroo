@@ -98,3 +98,12 @@
     background: none;
   }
 }
+
+/* Quiet qualifier under a figure, so a number never reads as more precise than it is. */
+.statNote {
+  display: block;
+  margin-top: 2px;
+  font-size: var(--step--1);
+  font-weight: 400;
+  color: var(--ink-soft);
+}

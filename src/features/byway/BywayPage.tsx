@@ -1,3 +1,4 @@
+import { savedMessage } from '../../lib/account'
 import { AddToTrip } from '../trip/AddToTrip'
 import { useStrip } from '../strip/data'
 import { RoadStats } from './RoadStats'
@@ -130,7 +131,7 @@ export default function BywayPage() {
             aria-pressed={saved}
             onClick={() => {
               toggleSave(b.id)
-              toast(saved ? 'Road removed from saved roads' : 'Saved in this browser')
+              toast(saved ? 'Road removed from saved roads' : savedMessage())
             }}
           >
             {saved ? 'Saved' : 'Save'}

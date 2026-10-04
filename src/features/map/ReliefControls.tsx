@@ -94,7 +94,12 @@ export function ReliefControls({ map, roadId }: { map: Map; roadId?: string }) {
     }
   }, [map, enabled, part, garage])
   return (
-    <button className="btn btn-ghost" aria-pressed={enabled} onClick={() => setEnabled(!enabled)}>
+    <button
+      className="btn btn-ghost"
+      aria-pressed={enabled}
+      title="Heights raised about 1.6× for a raised-relief look. Terrain: Mapzen Terrain Tiles on AWS Open Data."
+      onClick={() => setEnabled(!enabled)}
+    >
       3D
     </button>
   )

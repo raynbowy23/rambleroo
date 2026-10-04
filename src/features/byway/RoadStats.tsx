@@ -23,7 +23,10 @@ export function RoadStats({ byway, strip, season }: { byway: BywaySummary; strip
     <dl className={s.stats} aria-label="Road facts">
       <div>
         <dt>Mapped distance</dt>
-        <dd>{formatMiles(byway.mappedMiles)}</dd>
+        <dd>
+          {formatMiles(byway.mappedMiles)}
+          <small className={s.statNote}>Sum of the mapped road, rounded. Not a driving route.</small>
+        </dd>
       </div>
       {timed && (
         <div>

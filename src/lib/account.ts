@@ -7,6 +7,10 @@ import { dataKinds, parseDocument, type Documents } from './account-data'
 import { useGarage } from './garage'
 import { usePostcards } from './postcards'
 
+/** Shown on the passport when signed out: where things are saved, and how to keep them everywhere. */
+export const SIGNED_OUT_STATUS = 'Saved in this browser. Sign in to keep it on every device.'
+/** Toast after saving a road: true to where it went. */
+export const savedMessage = () => (useAccount.getState().user ? 'Saved to your passport' : 'Saved in this browser')
 export const accountClient = createAuthClient({ basePath: '/api/auth', plugins: [magicLinkClient()] })
 export interface AccountUser {
   id: string
@@ -18,7 +22,7 @@ export const useAccount = create<{
   user: AccountUser | null
   status: string
   importing: boolean
-}>()(() => ({ user: null, status: 'Saved in this browser', importing: false }))
+}>()(() => ({ user: null, status: SIGNED_OUT_STATUS, importing: false }))
 const memory = new Map<string, string>()
 const storage = {
   get(key: string): string | null {
@@ -129,7 +133,7 @@ export async function connectAccount(user: AccountUser | null) {
   if (!user) {
     if (owner) restoreGuest()
     storage.remove(`${prefix}owner`)
-    useAccount.setState({ user: null, status: 'Saved in this browser' })
+    useAccount.setState({ user: null, status: SIGNED_OUT_STATUS })
     return
   }
   useAccount.setState({ user })

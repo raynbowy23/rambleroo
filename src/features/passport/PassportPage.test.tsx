@@ -67,7 +67,7 @@ it('shows an honest empty passport', () => {
   )
   expect(screen.getByRole('heading', { name: '0 byways visited' })).toBeTruthy()
   expect(screen.getByText('0 visits recorded')).toBeTruthy()
-  expect(screen.getByText('Saved in this browser')).toBeTruthy()
+  expect(screen.getByText('Saved in this browser. Sign in to keep it on every device.')).toBeTruthy()
   expect(screen.getByRole('heading', { name: 'More roads ahead' })).toBeTruthy()
 })
 

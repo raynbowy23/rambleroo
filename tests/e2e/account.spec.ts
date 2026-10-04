@@ -17,7 +17,7 @@ test('sign-in is visible and signed-out trips stay in this browser', async ({ pa
   await page.goto('/passport')
   const area = isMobile ? page.locator('main') : page.locator('header').first()
   await expect(area.getByRole('button', { name: 'Sign in', exact: true })).toBeVisible()
-  await expect(page.getByText('Saved in this browser', { exact: true })).toBeVisible()
+  await expect(page.getByText('Saved in this browser. Sign in to keep it on every device.', { exact: true })).toBeVisible()
   await page.reload()
   await expect(area.getByRole('button', { name: 'Sign in', exact: true })).toBeVisible()
   const trip = await page.evaluate(() => JSON.parse(localStorage.getItem('rambleroo.trip.v1')!).state.roads)

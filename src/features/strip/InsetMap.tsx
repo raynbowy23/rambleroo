@@ -473,6 +473,8 @@ export function InsetMap({
           </button>
         )}
       </div>
+      {/* Always visible in 3D, so the exaggerated relief is never mistaken for true height. */}
+      {relief && <p className={s.reliefNote}>Heights exaggerated for relief</p>}
       <div className={`${s.mapHint} ${hint ? '' : s.hintHidden}`} aria-hidden="true">
         Ctrl + scroll to zoom · Ctrl + drag to rotate
       </div>

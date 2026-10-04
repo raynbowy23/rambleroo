@@ -394,7 +394,12 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         <button className="btn btn-ghost" onClick={() => setGarageOpen(true)}>
           Change your car
         </button>
-        <button className={`btn btn-ghost ${s.reliefToggle}`} aria-pressed={relief} onClick={() => setRelief(!relief)}>
+        <button
+          className={`btn btn-ghost ${s.reliefToggle}`}
+          aria-pressed={relief}
+          title="Heights raised about 1.6× for a raised-relief look. Terrain: Mapzen Terrain Tiles on AWS Open Data."
+          onClick={() => setRelief(!relief)}
+        >
           <span className={s.reliefSwitch} aria-hidden="true" />
           3D view
         </button>

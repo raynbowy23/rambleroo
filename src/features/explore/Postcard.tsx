@@ -1,3 +1,4 @@
+import { savedMessage } from '../../lib/account'
 import { AddToTrip } from '../trip/AddToTrip'
 import { StripLink } from '../strip/StripLink'
 import { RoadVisual } from '../photos/RoadVisual'
@@ -117,7 +118,7 @@ export function Postcard({
               aria-pressed={saved}
               onClick={() => {
                 toggleSave(b.id)
-                if (!saved) toast('Saved in this browser')
+                if (!saved) toast(savedMessage())
               }}
             >
               <Icon name={saved ? 'bookmark-filled' : 'bookmark'} />
