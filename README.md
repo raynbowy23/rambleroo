@@ -40,17 +40,19 @@ Everything works without signing in, and your passport, trip and car stay in you
 
 On a phone, below 760px wide, the map fills the screen under a bottom sheet you drag between peek, half and full. Dialogs become bottom sheets, and embedded maps pan with two fingers so they never trap the page scroll. Rambleroo installs to the home screen as a web app, and the app shell, catalog, basemap, route lines and any pages or photos you have already opened keep working offline. A new version asks before it reloads.
 
-## What's on the map, and how far to trust it
+## What's on the map
 
-The catalog has 792 roads: 778 byways from the USDOT national scenic byways layer (June 2022), 6 that layer is missing taken from the Wisconsin and Florida DOTs' own route layers, and 8 classic drives, such as Going-to-the-Sun Road and the Road to Hana, that were never designated byways and are labelled that way everywhere. There are 721 strip maps.
+**792 roads.** 778 byways come from the USDOT national scenic byways layer (June 2022). Six more, missing from that layer, come from the Wisconsin and Florida DOTs' own route maps. Eight are classic drives, such as Going-to-the-Sun Road and the Road to Hana, which aren't designated byways but are too good to leave out; they're labelled as classics.
 
-Rambleroo says what it knows and how it knows it.
+**Strip maps for 721 of them.** Each road unrolls into a ribbon you scroll down mile by mile. Towns, landmarks and photo stops sit at their real mile, stretches carry drive times routed on OpenStreetMap, and where the source data has a break, the car follows the real road across it on a dashed line.
 
-- **Distances are mapped miles,** the sum of the source segments drawn on the map. Divided highways can be counted twice, so the site always says "mapped" and never calls it a driving distance.
-- **Gaps stay gaps.** Where a road's source pieces don't meet, the map and the strip show the break instead of drawing a guess across it.
-- **Illustrations are illustrations.** Postcards, stamps and seasonal scenes are generated artwork and are labelled as such. Real photographs (159 of them, covering 113 roads) are freely licensed, checked by eye and credited to their photographers. A road without one says "Illustration · no photo yet".
-- **Drafts say so.** The 7 written stories and the strip maps are marked "Draft · pending review" until someone has checked them.
-- **Sources are named.** USDOT, WisDOT, FDOT, Natural Earth, OpenStreetMap, Wikipedia and Wikimedia Commons are credited on the About page, in the map attribution and in [docs/licensing.md](docs/licensing.md).
+**Every road has a postcard.** Each one gets its own illustrated postcard, no two alike, and its strip map shows the road in all four seasons. 159 freely licensed photographs, covering 113 roads, appear on the postcards, road pages and strip maps, each credited to its photographer.
+
+**Designations you can read at a glance.** National Scenic Byways, All-American Roads, state byways and national forest byways are named on every road, and state chapters list each state's program with links to the agency that designates its roads.
+
+**Distances are mapped miles,** measured along the road as it is drawn, so you can compare one road with another. Drive times come from routing and are shown only where the route matches the road.
+
+**Credits travel with the data.** USDOT, WisDOT, FDOT, Natural Earth, OpenStreetMap, Wikipedia and Wikimedia Commons are credited on the About page, in the map attribution and in [docs/licensing.md](docs/licensing.md).
 
 Built with React 19, React Router, Vite, MapLibre GL, three.js and Zustand, served by a Cloudflare Worker with D1 and R2 for accounts, and Better Auth for sign-in.
 
