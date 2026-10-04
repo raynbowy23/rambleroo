@@ -2,7 +2,7 @@ import { beforeEach, afterEach, describe, expect, it, vi } from 'vitest'
 import { createRequire } from 'node:module'
 import type { DatabaseSync as SQLiteDatabase } from 'node:sqlite'
 const { DatabaseSync } = createRequire(import.meta.url)('node:sqlite') as typeof import('node:sqlite')
-import { readFileSync } from 'node:fs'
+import { readdirSync, readFileSync } from 'node:fs'
 import type { Env, Statement } from './env'
 
 const session = vi.hoisted(() => ({ user: { id: 'one', name: 'One', email: 'one@example.test', image: null }, authenticated: true }))
@@ -31,7 +31,10 @@ beforeEach(() => {
   session.user.id = 'one'
   db = new DatabaseSync(':memory:')
   db.exec('PRAGMA foreign_keys = ON')
-  for (const file of ['0001_auth.sql', '0002_user_data.sql'])
+  // Every migration, in order, so the fake matches the live schema as it grows.
+  for (const file of readdirSync(new URL('../migrations/', import.meta.url))
+    .filter((f) => f.endsWith('.sql'))
+    .sort())
     db.exec(readFileSync(new URL(`../migrations/${file}`, import.meta.url), 'utf8'))
   db.exec(`INSERT INTO user VALUES ('one', 'One', 'one@example.test', 1, NULL, 1, 1), ('two', 'Two', 'two@example.test', 1, NULL, 1, 1)`)
   const prepare = (sql: string): Statement => {

@@ -12,6 +12,7 @@ import {
 import { Dialog } from '../../components/ui/Dialog'
 import styles from './AccountControl.module.css'
 import { SignInDialog } from './SignInDialog'
+import { PasskeyNudge, PasskeySection } from './Passkeys'
 
 export function AccountBridge() {
   const { data, isPending, error } = accountClient.useSession()
@@ -45,7 +46,9 @@ export function AccountBridge() {
         </button>
       </div>
     </Dialog>
-  ) : null
+  ) : (
+    <PasskeyNudge />
+  )
 }
 export function AccountControl({ placement }: { placement: 'header' | 'passport' }) {
   const { user, status } = useAccount()
@@ -80,6 +83,7 @@ export function AccountControl({ placement }: { placement: 'header' | 'passport'
               <button className="btn" disabled={busy} onClick={() => void run(retrySync)}>
                 Retry sync
               </button>
+              <PasskeySection />
               <button className="btn" disabled={busy} onClick={() => void run(exportAccount)}>
                 Export my data
               </button>

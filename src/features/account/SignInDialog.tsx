@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { accountClient } from '../../lib/account'
 import { Dialog } from '../../components/ui/Dialog'
 import styles from './AccountControl.module.css'
+import { passkeysSupported } from './Passkeys'
 
 /** Public Turnstile site key for rambleroo.app (and localhost). The secret lives only in the Worker. */
 export const TURNSTILE_SITE_KEY = '0x4AAAAAAFNPxH_0-wslQjiq'
@@ -90,6 +91,19 @@ export function SignInDialog({ onClose }: { onClose: () => void }) {
       ) : (
         <>
           <p>Keep your passport and trip on every device. No password needed.</p>
+          {passkeysSupported() && (
+            <button
+              className="btn"
+              onClick={() =>
+                void accountClient.signIn.passkey().then((result) => {
+                  if (result?.error) setError(result.error.message ?? 'Passkey sign-in did not finish.')
+                  else onClose()
+                })
+              }
+            >
+              Sign in with a passkey
+            </button>
+          )}
           <button
             className="btn btn-primary"
             onClick={() =>

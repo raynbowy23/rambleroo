@@ -56,3 +56,16 @@ test('email sign-in sends the Turnstile token with the request and confirms the 
   expect(captcha).toBe('test-token')
   expect(body.email).toBe('traveller@example.com')
 })
+
+test('the sign-in dialog offers passkeys where the browser supports them', async ({ page, isMobile }) => {
+  await page.route('**/api/auth/**', (route) => route.fulfill({ status: 200, contentType: 'application/json', body: 'null' }))
+  await page.route('https://challenges.cloudflare.com/**', (route) =>
+    route.fulfill({ contentType: 'text/javascript', body: 'window.turnstile={render:()=>"w1",remove(){},reset(){}}' }),
+  )
+  await page.goto('/passport')
+  const area = isMobile ? page.locator('main') : page.locator('header').first()
+  await area.getByRole('button', { name: 'Sign in', exact: true }).click()
+  const dialog = page.getByRole('dialog', { name: 'Sign in to Rambleroo' })
+  const supported = await page.evaluate(() => 'PublicKeyCredential' in window)
+  await expect(dialog.getByRole('button', { name: 'Sign in with a passkey' })).toHaveCount(supported ? 1 : 0)
+})

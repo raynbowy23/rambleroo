@@ -70,8 +70,20 @@ export default {
         const profile = await env.DB.prepare('SELECT id, name, email, emailVerified, image, createdAt, updatedAt FROM "user" WHERE id = ?')
           .bind(userId)
           .first()
+        // Passkey labels and dates only; public keys and credential IDs are not useful to a person and stay out of the export.
+        const passkeys = await env.DB.prepare('SELECT name, deviceType, backedUp, createdAt FROM passkey WHERE userId = ?')
+          .bind(userId)
+          .all()
         return json(
-          { version: 1, exportedAt: new Date().toISOString(), user: profile, data, accounts: accounts.results, sessions: sessions.results },
+          {
+            version: 1,
+            exportedAt: new Date().toISOString(),
+            user: profile,
+            data,
+            accounts: accounts.results,
+            sessions: sessions.results,
+            passkeys: passkeys.results,
+          },
           200,
           { 'Content-Disposition': 'attachment; filename="rambleroo-account.json"' },
         )

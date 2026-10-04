@@ -1,5 +1,6 @@
 import { createAuthClient } from 'better-auth/react'
 import { magicLinkClient } from 'better-auth/client/plugins'
+import { passkeyClient } from '@better-auth/passkey/client'
 import { create } from 'zustand'
 import { AccountSync, parseMap, type Journal } from './account-sync'
 import { applyDocuments, applyDocument, emptyDocuments, hasLocalData, readDocuments, subscribeDocuments } from './account-stores'
@@ -11,7 +12,7 @@ import { usePostcards } from './postcards'
 export const SIGNED_OUT_STATUS = 'Saved in this browser. Sign in to keep it on every device.'
 /** Toast after saving a road: true to where it went. */
 export const savedMessage = () => (useAccount.getState().user ? 'Saved to your passport' : 'Saved in this browser')
-export const accountClient = createAuthClient({ basePath: '/api/auth', plugins: [magicLinkClient()] })
+export const accountClient = createAuthClient({ basePath: '/api/auth', plugins: [magicLinkClient(), passkeyClient()] })
 export interface AccountUser {
   id: string
   name: string

@@ -113,6 +113,11 @@ export default function PrivacyPage() {
         policy. Showing your profile picture also sends a request to its image host.
       </p>
       <p>
+        If you add a passkey, we store its public key, a credential ID, the type of authenticator and when you added it. The private key,
+        and any fingerprint or face used to unlock it, never leave your device or your password manager. You can remove a passkey from the
+        account menu.
+      </p>
+      <p>
         You can instead sign in with an email link. We then store your email address, and a one-time link valid for 15 minutes is sent to it
         through Resend, our email delivery service. To stop automated abuse of that form, it loads Cloudflare Turnstile, which checks your
         browser when you open the email sign-in form and sends Cloudflare technical signals for that check. It is not loaded anywhere else

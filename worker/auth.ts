@@ -1,5 +1,6 @@
 import { betterAuth } from 'better-auth'
 import { captcha, magicLink } from 'better-auth/plugins'
+import { passkey } from '@better-auth/passkey'
 import type { Env } from './env'
 
 const createAuth = (env: Env) =>
@@ -13,6 +14,8 @@ const createAuth = (env: Env) =>
     socialProviders: { google: { clientId: env.GOOGLE_CLIENT_ID, clientSecret: env.GOOGLE_CLIENT_SECRET } },
     session: { expiresIn: 60 * 24 * 60 * 60, updateAge: 24 * 60 * 60 },
     plugins: [
+      // Passkeys: one-tap sign-in with Face ID, fingerprint or device PIN, bound to this site's domain.
+      passkey({ rpID: new URL(env.AUTH_URL).hostname, rpName: 'Rambleroo', origin: new URL(env.AUTH_URL).origin }),
       // Email sign-in: a single-use link valid for 15 minutes, sent through Resend from the verified send.rambleroo.app domain.
       magicLink({ expiresIn: 15 * 60, sendMagicLink: ({ email, url }) => sendSignInEmail(env, email, url) }),
       // Turnstile guards the only endpoint that sends email, so the form can't be used to spam inboxes or drain the Resend quota.
