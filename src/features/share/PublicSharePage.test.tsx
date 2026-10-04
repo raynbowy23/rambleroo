@@ -14,6 +14,8 @@ vi.mock('../../lib/data', () => ({
   }),
 }))
 vi.mock('../../components/art', () => ({ Scene: () => <svg aria-hidden="true" /> }))
+vi.setConfig({ testTimeout: 20_000 })
+// The first render compiles the page's map imports; on a cold CI machine that alone can take over a second.
 afterEach(() => {
   cleanup()
   vi.unstubAllGlobals()
@@ -32,7 +34,7 @@ it('loads once in StrictMode, preserves road order, and cleans up noindex', asyn
   const fetcher = vi.fn().mockResolvedValue(Response.json({ kind: 'trip', title: 'Autumn', roads: ['b', 'a'] }))
   vi.stubGlobal('fetch', fetcher)
   const view = open()
-  await screen.findByRole('heading', { name: 'Autumn' })
+  await screen.findByRole('heading', { name: 'Autumn' }, { timeout: 10_000 })
   expect(screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)).toEqual(['Second road', 'First road'])
   expect(screen.getByText('2 roads · 30 mapped miles')).toBeTruthy()
   expect(fetcher).toHaveBeenCalledTimes(1)
@@ -44,12 +46,12 @@ it('loads once in StrictMode, preserves road order, and cleans up noindex', asyn
 it('shows the turned-off state for a 404', async () => {
   vi.stubGlobal('fetch', vi.fn().mockResolvedValue(Response.json({}, { status: 404 })))
   open()
-  await screen.findByRole('heading', { name: 'This link was turned off' })
+  await screen.findByRole('heading', { name: 'This link was turned off' }, { timeout: 10_000 })
 })
 it('keeps transient errors distinct from revoked links', async () => {
   vi.stubGlobal('fetch', vi.fn().mockResolvedValue(Response.json({}, { status: 503 })))
   open()
-  await screen.findByRole('heading', { name: 'This trip couldn’t be loaded' })
+  await screen.findByRole('heading', { name: 'This trip couldn’t be loaded' }, { timeout: 10_000 })
 })
 it('renders visit notes as text and retains missing roads', async () => {
   vi.stubGlobal(
@@ -64,7 +66,7 @@ it('renders visit notes as text and retains missing roads', async () => {
     ),
   )
   open()
-  await screen.findByText('<script>secret()</script>')
+  await screen.findByText('<script>secret()</script>', undefined, { timeout: 10_000 })
   expect(screen.getByText('Saved road')).toBeTruthy()
   expect(screen.getByText('2026-10-03')).toBeTruthy()
   expect(screen.getByRole('heading', { name: 'Road no longer in catalog' })).toBeTruthy()
