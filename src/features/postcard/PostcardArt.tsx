@@ -115,7 +115,7 @@ export function PostcardArt({
             </div>
           ) : (
             <span className={s.caption} tabIndex={0} title={caption}>
-              {choices.front === 'own' ? 'Your photo · local only' : 'Illustration'}
+              {choices.front === 'own' ? 'Your photo' : 'Illustration'}
               <span className="visually-hidden">: {caption}</span>
             </span>
           )}

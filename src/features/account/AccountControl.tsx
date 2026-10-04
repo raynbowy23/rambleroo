@@ -33,8 +33,8 @@ export function AccountBridge() {
   return importing ? (
     <Dialog title="Bring this browser's passport and trip into your account?" onClose={() => answerImport(false)}>
       <p>
-        We’ll combine your saved roads, stretches, visits and trip. Your newer car and postcard choices come too. Your own photos stay on
-        this device.
+        We’ll combine your saved roads, stretches, visits and trip. Your newer car and postcard choices come too. Your photos sync privately
+        too, resized with location metadata removed.
       </p>
       <p>If you skip this, your browser-only data will be here again when you sign out.</p>
       <div className={styles.actions}>
@@ -118,7 +118,7 @@ export function AccountControl({ placement }: { placement: 'header' | 'passport'
           }}
         >
           <p>
-            This deletes your account and its synced passport, trip, car and postcard choices. Your browser-only data and photos stay on
+            This deletes your account, synced photos, passport, trip, car and postcard choices. Your browser-only data and photos stay on
             this device. This cannot be undone.
           </p>
           <label>

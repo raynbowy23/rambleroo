@@ -1,3 +1,27 @@
+import { useSyncExternalStore } from 'react'
+const removals = new Set<(id?: string) => void>()
+export function onPhotoRemoved(listener: (id?: string) => void) {
+  removals.add(listener)
+  return () => {
+    removals.delete(listener)
+  }
+}
+let revision = 0
+const listeners = new Set<() => void>()
+const notifyPhotos = () => {
+  revision++
+  listeners.forEach((listener) => listener())
+}
+export const usePhotoRevision = () =>
+  useSyncExternalStore(
+    (listener) => {
+      listeners.add(listener)
+      return () => {
+        listeners.delete(listener)
+      }
+    },
+    () => revision,
+  )
 /** Blobs are deliberately separate from JSON passport backups. */
 export interface PhotoStorage {
   get(id: string): Promise<Blob | undefined>
@@ -52,12 +76,15 @@ export const userPhotos = createUserPhotos({
   put: async (id, blob) => {
     const record: StoredPhoto = { type: blob.type || 'image/jpeg', bytes: await blob.arrayBuffer() }
     await transaction('readwrite', (store) => store.put(record, id))
+    notifyPhotos()
   },
   remove: async (id) => {
     await transaction('readwrite', (store) => store.delete(id))
+    removals.forEach((listener) => listener(id))
   },
   clear: async () => {
     await transaction('readwrite', (store) => store.clear())
+    removals.forEach((listener) => listener())
   },
 })
 export async function prepareUserPhoto(file: File): Promise<Blob> {

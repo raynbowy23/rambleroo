@@ -2,6 +2,9 @@ import { createAuthClient } from 'better-auth/react'
 import { magicLinkClient } from 'better-auth/client/plugins'
 import { passkeyClient } from '@better-auth/passkey/client'
 import { create } from 'zustand'
+import { PHOTO_ID } from './photo-limits'
+import { PhotoSync } from './photo-sync'
+import { userPhotos } from './userPhotos'
 import { AccountSync, parseMap, type Journal } from './account-sync'
 import { applyDocuments, applyDocument, emptyDocuments, hasLocalData, readDocuments, subscribeDocuments } from './account-stores'
 import { dataKinds, parseDocument, type Documents } from './account-data'
@@ -72,18 +75,6 @@ function readJournal(id: string): Journal | undefined {
     return
   }
 }
-interface LocalMedia {
-  picture?: string
-  usePicture: boolean
-  photos: Record<string, string | undefined>
-}
-function readLocalMedia(): LocalMedia {
-  return {
-    picture: useGarage.getState().picture,
-    usePicture: useGarage.getState().usePicture,
-    photos: Object.fromEntries(Object.entries(usePostcards.getState().cards).map(([key, card]) => [key, card.userPhotoId])),
-  }
-}
 function backupGuest() {
   storage.set(`${prefix}guest`, {
     documents: readDocuments(),
@@ -144,36 +135,52 @@ export async function connectAccount(user: AccountUser | null) {
   const token = generation
   const local = readDocuments()
   const pending = readJournal(user.id)
-  const choiceKey = `${prefix}imported.${user.id}`
-  const mediaKey = `${prefix}media.${user.id}`
-  let media: LocalMedia = readLocalMedia()
+  // Upgrade the former device-only account media journal before loading documents that omitted photo references.
+  const legacyMediaKey = `${prefix}media.${user.id}`
   try {
-    media = JSON.parse(storage.get(mediaKey) ?? 'null') ?? media
+    const media = JSON.parse(storage.get(legacyMediaKey) ?? 'null')
+    if (pending && media) {
+      if (typeof media.picture === 'string' && PHOTO_ID.test(media.picture) && !pending.documents.garage.car.picture) {
+        pending.documents.garage.car.picture = media.picture
+        pending.documents.garage.car.usePicture = media.usePicture === true
+        pending.documents.garage.updatedAt = Date.now()
+        if (!pending.dirty.includes('garage')) pending.dirty.push('garage')
+      }
+      for (const [key, card] of Object.entries(pending.documents.postcards.cards)) {
+        const id = media.photos?.[key]
+        if (!card.userPhotoId && typeof id === 'string' && PHOTO_ID.test(id)) {
+          card.userPhotoId = id
+          pending.documents.postcards.updatedAt = Date.now()
+          if (!pending.dirty.includes('postcards')) pending.dirty.push('postcards')
+        }
+      }
+    }
   } catch {
-    /* Keep this browser's current photo references. */
+    /* Original photos stay in IndexedDB if an old journal is unreadable. */
   }
+  const choiceKey = `${prefix}imported.${user.id}`
+  const photos = new PhotoSync(
+    user.id,
+    userPhotos,
+    readDocuments,
+    (...args) => fetch(...args),
+    (status) => {
+      if (token === generation) useAccount.setState({ status })
+    },
+  )
   const sync = new AccountSync(
     user.id,
     {
       read: readDocuments,
-      apply: (kind, document) => {
-        applyDocument(kind, document)
-        if (kind === 'garage') useGarage.setState({ picture: media.picture, usePicture: media.usePicture })
-        if (kind === 'postcards') {
-          const cards = Object.fromEntries(
-            Object.entries(usePostcards.getState().cards).map(([key, card]) => [key, { ...card, userPhotoId: media.photos[key] }]),
-          )
-          usePostcards.setState({ cards })
-        }
-      },
+      apply: applyDocument,
+      photos,
       fetch: (...args) => fetch(...args),
       save: (journal) => {
         storage.set(journalKey(user.id), journal)
-        media = readLocalMedia()
-        storage.set(mediaKey, media)
+        storage.remove(legacyMediaKey)
       },
       status: (status) => {
-        if (token === generation) useAccount.setState({ status })
+        if (token === generation) useAccount.setState({ status: photos.message || status })
       },
     },
     emptyDocuments(),

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { userPhotos } from './userPhotos'
+import { userPhotos, usePhotoRevision } from './userPhotos'
 
 export async function loadCarPicture(id: string) {
   const blob = await userPhotos.get(id)
@@ -12,6 +12,7 @@ export async function loadCarPicture(id: string) {
   })
 }
 export function useCarPicture(id?: string) {
+  const revision = usePhotoRevision()
   const [picture, setPicture] = useState<{ id: string; url: string }>()
   useEffect(() => {
     let active = true
@@ -24,7 +25,7 @@ export function useCarPicture(id?: string) {
     return () => {
       active = false
     }
-  }, [id])
+  }, [id, revision])
   return picture?.id === id ? picture?.url : undefined
 }
 export async function prepareCarPicture(file: File): Promise<Blob> {

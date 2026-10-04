@@ -19,7 +19,7 @@ export default function PrivacyPage() {
         <li>You can explore roads and keep a local passport without an account.</li>
         <li>
           Without an account, your trip, saved roads, stretches, visits, notes, car and postcards stay in this browser. When you sign in,
-          your account data syncs across devices. Your own photos stay on this device.
+          your account data syncs across devices. Photos you add also sync privately when signed in.
         </li>
         <li>
           On rambleroo.app we ask before using Google Analytics cookies to count visits. If you decline, no analytics cookie is set. We use
@@ -43,10 +43,11 @@ export default function PrivacyPage() {
 
       <p>
         Your car choices and postcard customizations are stored locally, and sync when you sign in. Your car picture and photos you add to
-        postcards stay in this browser’s storage (IndexedDB) and are never uploaded by Rambleroo. They are not included in the passport
-        export file. Card customizations are included in the account export, but not the browser passport export. Clearing the passport can
-        also remove your added photos. Clearing site data removes them too. If you choose to share or download a postcard image, that image
-        includes the photo you selected.
+        postcards remain in this browser’s storage (IndexedDB). When signed in, copies are resized, location metadata is removed, and they
+        are stored privately on Cloudflare R2, visible only to you. Signed out, they stay on this device. They are not included in the
+        passport export file. Card customizations are included in the account export, but not the browser passport export. Clearing the
+        passport can also remove your added photos. Clearing site data removes them too. If you choose to share or download a postcard
+        image, that image includes the photo you selected.
       </p>
 
       <h2>Share links</h2>
@@ -134,10 +135,10 @@ export default function PrivacyPage() {
       </p>
       <p>
         Account data is stored on Cloudflare in its D1 database: your passport (saved roads and stretches, visits, notes and kept
-        postcards), trip road order, car choices, and postcard customizations. Your own photo files and their browser references are not
-        uploaded. On your first sign-in here, we ask before bringing existing browser data into your account. After that, changes made while
-        signed in sync automatically. Conflicting saves can be combined; a removal may need repeating if another device changed the same
-        document.
+        postcards), trip road order, car choices, and postcard customizations. Photo references sync too; processed photo files are stored
+        privately on Cloudflare R2. Photo sync pauses when storage or monthly limits are reached, keeping your local photos safe. On your
+        first sign-in here, we ask before bringing existing browser data into your account. After that, changes made while signed in sync
+        automatically. Conflicting saves can be combined; a removal may need repeating if another device changed the same document.
       </p>
       <p>
         A strictly necessary session cookie, <code>__Secure-rambleroo.session_token</code>, keeps you signed in for up to 60 days and may be
@@ -147,10 +148,11 @@ export default function PrivacyPage() {
       </p>
       <p>
         In the account menu, “Export my data” downloads your stored profile, the four data kinds and sign-in metadata as JSON; it excludes
-        credentials, session tokens and photo files. “Delete my account” removes your user record, sessions, linked Google account record
-        and synced data from the live database. It does not delete your Google account or browser-only data and photos. Copies in hosting
-        backups or security logs may remain under Cloudflare’s retention practices. Signing out restores the browser-only data that was here
-        before sign-in.
+        credentials, session tokens and photo files; it includes photo metadata. “Delete my account” removes your user record, sessions,
+        linked Google account record and synced data from the live database, and deletes your R2 photos. If storage cleanup fails or a
+        monthly limit blocks it, leftover private files are logged for cleanup. It does not delete your Google account or browser-only data
+        and photos. Copies in hosting backups or security logs may remain under Cloudflare’s retention practices. Signing out restores the
+        browser-only data that was here before sign-in.
       </p>
 
       <h2>Children</h2>

@@ -17,14 +17,28 @@ describe('account documents', () => {
   it('limits UTF-8 bytes, not character count', () => {
     expect(() => parseDocument('passport', { ...passport, extra: 'é'.repeat(MAX_DOCUMENT_BYTES / 2) })).toThrow(/256 KB/)
   })
-  it('strips device-only photo references and rejects malformed choices', () => {
-    expect(parseDocument('garage', { version: 1, updatedAt: 2, car: { ...car, picture: 'private', usePicture: true } }).car).toEqual(car)
+  it('validates photo references and rejects malformed choices', () => {
+    expect(parseDocument('garage', { version: 1, updatedAt: 2, car: { ...car, picture: 'private', usePicture: true } }).car).toEqual({
+      ...car,
+      usePicture: true,
+    })
     expect(() => parseDocument('garage', { version: 1, updatedAt: 2, car: { ...car, model: 'spaceship' } })).toThrow()
     const card = { front: 'own', route: true, car: false, lettering: 'off', note: '' }
     expect(parseDocument('postcards', { version: 1, updatedAt: 2, cards: { a: { ...card, userPhotoId: 'private' } } }).cards.a).toEqual(
       card,
     )
     expect(() => parseDocument('postcards', { version: 1, updatedAt: 2, cards: { a: { ...card, note: 'a'.repeat(501) } } })).toThrow()
+  })
+  it('preserves valid photo references for both synced documents', () => {
+    const id = '12345678-1234-4234-8234-123456789abc'
+    expect(parseDocument('garage', { version: 1, updatedAt: 2, car: { ...car, picture: id, usePicture: true } }).car.picture).toBe(id)
+    expect(
+      parseDocument('postcards', {
+        version: 1,
+        updatedAt: 2,
+        cards: { a: { front: 'own', route: true, car: false, lettering: 'off', note: '', userPhotoId: id } },
+      }).cards.a.userPhotoId,
+    ).toBe(id)
   })
   it('unions passport IDs and keeps local visit edits', () => {
     const visit = { id: 'v', bywayId: 'a', date: '2026-10-04', createdAt: date, scope: 'part' as const, note: 'local' }

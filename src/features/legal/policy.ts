@@ -1,6 +1,6 @@
 // Single source of truth for the policy versions. Bump the date whenever the text of either page changes; git history keeps every past version,
 // so what a person agreed to on a given date can always be recovered.
-export const PRIVACY_UPDATED = '2026-10-04 (share links revision)'
+export const PRIVACY_UPDATED = '2026-10-04 (private photo sync revision)'
 export const TERMS_UPDATED = '2026-10-04'
 
 /** Rambleroo is open source; questions and requests go to its public GitHub issues (no personal details there). */

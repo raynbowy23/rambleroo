@@ -6,6 +6,12 @@ export interface Statement {
   run(): Promise<{ meta: { changes: number } }>
 }
 export interface Env {
+  PHOTOS: {
+    put(key: string, body: Uint8Array, options?: { httpMetadata: { contentType: string } }): Promise<unknown>
+    get(key: string): Promise<{ body: ReadableStream } | null>
+    delete(key: string): Promise<void>
+    list(options: { prefix: string; cursor?: string }): Promise<{ objects: { key: string }[]; truncated: boolean; cursor?: string }>
+  }
   DB: { prepare(query: string): Statement; batch(statements: Statement[]): Promise<unknown[]> }
   ASSETS: { fetch(request: Request): Promise<Response> }
   AUTH_URL: string

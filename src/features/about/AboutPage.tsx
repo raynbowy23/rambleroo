@@ -56,8 +56,8 @@ export default function AboutPage() {
       <h2>Your passport stays here</h2>
       <p>
         Without an account, saves and visits live in this browser only. Clearing browser storage removes them; if storage is blocked,
-        changes last only for this session. If you sign in, they sync to your account so every device sees them. Your own photos stay on the
-        device where you added them. See the <Link to="/privacy">privacy policy</Link> for what an account stores.
+        changes last only for this session. If you sign in, they sync to your account so every device sees them. Photos you add sync
+        privately too, resized with location metadata removed. See the <Link to="/privacy">privacy policy</Link> for what an account stores.
       </p>
       <h2>Sources and credits</h2>
       <p>

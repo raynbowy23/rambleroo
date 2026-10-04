@@ -1,6 +1,7 @@
 import { dataKinds, isRecord, mergeDocument, parseDocument, type DataKind, type DocumentMap, type Documents } from './account-data'
 
 export interface SyncPorts {
+  photos?: { sync(): Promise<void>; stop(): void; message: string }
   read(): Documents
   apply<K extends DataKind>(kind: K, document: Documents[K]): void
   save(journal: Journal): void
@@ -92,6 +93,7 @@ export class AccountSync {
       this.applying = false
     }
     this.ports.status(this.dirty.size ? 'Waiting to sync…' : 'Synced to your account')
+    if (!this.dirty.size) await this.ports.photos?.sync()
     this.schedule()
   }
   changed() {
@@ -115,7 +117,7 @@ export class AccountSync {
   }
   flush(): Promise<void> {
     if (this.running) return this.running
-    if (!this.active || !this.ready || !this.dirty.size) return Promise.resolve()
+    if (!this.active || !this.ready) return Promise.resolve()
     this.running = this.write().finally(() => {
       this.running = null
     })
@@ -166,7 +168,8 @@ export class AccountSync {
           break
         }
       }
-      this.ports.status(this.dirty.size ? 'Waiting to sync…' : 'Synced to your account')
+      if (!this.dirty.size) await this.ports.photos?.sync()
+      this.ports.status(this.ports.photos?.message || (this.dirty.size ? 'Waiting to sync…' : 'Synced to your account'))
       this.schedule()
     } catch (error) {
       if (this.active) this.ports.status(error instanceof Error ? error.message : 'Could not sync. Please retry.')
@@ -176,5 +179,6 @@ export class AccountSync {
     this.active = false
     clearTimeout(this.timer)
     this.abort.abort()
+    this.ports.photos?.stop()
   }
 }

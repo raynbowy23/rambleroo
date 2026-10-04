@@ -1,3 +1,4 @@
+import { photoRoute, photoList, photoUsage, deletePhotoPrefix } from './photos'
 import { buildSnapshot, createShareSlug, parseShareRequest } from '../src/lib/shares'
 import { getAuth } from './auth'
 import type { Env } from './env'
@@ -64,6 +65,9 @@ export default {
       if (request.headers.has('x-rambleroo-user') && request.headers.get('x-rambleroo-user') !== userId)
         return json({ error: 'Account changed' }, 409)
       const user = { id: userId, name: session.user.name, email: session.user.email, image: session.user.image ?? null }
+      if (pathname === '/api/usage' && request.method === 'GET') return await photoUsage(env, userId)
+      if (pathname === '/api/photos' && request.method === 'GET') return json(await photoList(env, userId))
+      if (pathname.startsWith('/api/photos/')) return await photoRoute(request, env, userId, pathname.slice('/api/photos/'.length))
       if (pathname === '/api/shares' && request.method === 'GET') {
         const shares = await env.DB.prepare(
           'SELECT slug, kind, title, created_at AS created, revoked_at AS revoked FROM shares WHERE user_id = ? ORDER BY created_at DESC',
@@ -128,6 +132,7 @@ export default {
           .all()
         return json(
           {
+            photos: await photoList(env, userId),
             shares: shares.results,
             version: 1,
             exportedAt: new Date().toISOString(),
@@ -142,6 +147,7 @@ export default {
         )
       }
       if (pathname === '/api/account' && request.method === 'DELETE') {
+        await deletePhotoPrefix(env, userId)
         await env.DB.prepare('DELETE FROM "user" WHERE id = ?').bind(userId).run()
         return json({ ok: true }, 200, {
           'Set-Cookie': '__Secure-rambleroo.session_token=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax',
@@ -187,7 +193,8 @@ export default {
         return json({ json: document, updatedAt })
       }
       return json({ error: 'Not found' }, 404)
-    } catch {
+    } catch (error) {
+      if (error instanceof Response) return error
       return json({ error: 'Account service unavailable' }, 503)
     }
   },

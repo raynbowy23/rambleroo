@@ -7,7 +7,7 @@ const empty = (): Documents => ({
   garage: {
     version: 1,
     updatedAt: 0,
-    car: { model: 'coupe', body: '#ee7430', accent: 'none', accentColor: '#f5e6c8', roof: 'none', plate: 'RAMBLE' },
+    car: { usePicture: false, model: 'coupe', body: '#ee7430', accent: 'none', accentColor: '#f5e6c8', roof: 'none', plate: 'RAMBLE' },
   },
   postcards: { version: 1, updatedAt: 0, cards: {} },
 })

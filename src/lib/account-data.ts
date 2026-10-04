@@ -1,3 +1,4 @@
+import { PHOTO_ID } from './photo-limits'
 import { mergePassport, parsePassport, type PassportData } from './passport-transfer'
 import type { Garage } from './garage'
 import type { PostcardChoices } from './postcards'
@@ -8,8 +9,8 @@ export const MAX_DOCUMENT_BYTES = 256 * 1024
 export interface Documents {
   passport: Omit<PassportData, 'trip'>
   trip: NonNullable<PassportData['trip']>
-  garage: { version: 1; updatedAt: number; car: Omit<Garage, 'picture' | 'usePicture'> }
-  postcards: { version: 1; updatedAt: number; cards: Record<string, Omit<PostcardChoices, 'userPhotoId'>> }
+  garage: { version: 1; updatedAt: number; car: Garage }
+  postcards: { version: 1; updatedAt: number; cards: Record<string, PostcardChoices> }
 }
 export type DocumentMap = { [K in DataKind]: { json: Documents[K]; updatedAt: number } | null }
 export const isRecord = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value)
@@ -40,6 +41,8 @@ export function parseDocument<K extends DataKind>(kind: K, value: unknown): Docu
         version: 1,
         updatedAt: value.updatedAt,
         car: {
+          picture: typeof car.picture === 'string' && PHOTO_ID.test(car.picture) ? car.picture : undefined,
+          usePicture: car.usePicture === true,
           model: member(car.model, ['coupe', 'pickup', 'camper', 'wagon', 'convertible', 'motorcycle']),
           body: color(car.body),
           accent: member(car.accent, ['none', 'stripe', 'two-tone']),
@@ -62,6 +65,7 @@ export function parseDocument<K extends DataKind>(kind: K, value: unknown): Docu
         )
           throw new Error('Invalid postcard')
         cards[id] = {
+          userPhotoId: typeof card.userPhotoId === 'string' && PHOTO_ID.test(card.userPhotoId) ? card.userPhotoId : undefined,
           front: member(card.front, ['photo', 'illustration', 'own']),
           route: card.route,
           car: card.car,

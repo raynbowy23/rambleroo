@@ -18,6 +18,8 @@
     { "pattern": "www.rambleroo.app", "custom_domain": true },
   ],
   "observability": { "enabled": true },
+  // Private photo objects are served only through authenticated Worker routes.
+  "r2_buckets": [{ "binding": "PHOTOS", "bucket_name": "rambleroo-photos" }],
   "d1_databases": [
     {
       "binding": "DB",

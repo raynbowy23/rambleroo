@@ -3,12 +3,13 @@ import { Scene, Vehicle } from '../../components/art'
 import type { Garage } from '../../lib/garage'
 import type { BywaySummary, BywayStory, Photo } from '../../lib/types'
 import { creditedPhoto, type PostcardChoices } from '../../lib/postcards'
-import { userPhotos } from '../../lib/userPhotos'
+import { userPhotos, usePhotoRevision } from '../../lib/userPhotos'
 import { PhotoLettering } from './PhotoPostcard'
 import { photoPath } from '../photos/Photos'
 import { cardTitle, loadCardRoute, routeInset, type CardRoute, type Milestone } from './cardData'
 import '../garage/studio.css'
 export function useCardAssets(id: string, choices: PostcardChoices, milestone?: Milestone) {
+  const revision = usePhotoRevision()
   const [route, setRoute] = useState<CardRoute>()
   const [own, setOwn] = useState<{ id: string; url: string }>()
   const [photoError, setPhotoError] = useState('')
@@ -46,7 +47,7 @@ export function useCardAssets(id: string, choices: PostcardChoices, milestone?: 
       active = false
       if (url) URL.revokeObjectURL(url)
     }
-  }, [choices.front, choices.userPhotoId])
+  }, [choices.front, choices.userPhotoId, revision])
   return { route, ownUrl: own && own.id === choices.userPhotoId ? own.url : undefined, photoError }
 }
 export interface CardFrontProps {

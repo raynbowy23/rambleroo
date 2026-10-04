@@ -70,7 +70,10 @@ export function PostcardStudio({ onClose, onNote, ...props }: CardFrontProps & {
         {busy && <p role="status">Saving photo in this browser…</p>}
         {error && <p role="alert">{error}</p>}
         {credit && <p>This photo's licence requires its credit. Choose your own photo or the illustration for a card without one.</p>}
-        <p>Photos you add stay in this browser. They are never uploaded and are not included in passport backups.</p>
+        <p>
+          Photos stay in this browser and sync privately when signed in, resized with location metadata removed. Photo files are not
+          included in passport backups.
+        </p>
         <label>
           <input type="checkbox" checked={choices.route} onChange={(e) => update({ route: e.target.checked })} />
           Route overlay

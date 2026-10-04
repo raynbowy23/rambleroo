@@ -33,12 +33,7 @@ export function applyDocument<K extends DataKind>(kind: K, value: Documents[K]) 
   }
   if (kind === 'postcards') {
     const data = value as Documents['postcards']
-    const local = usePostcards.getState().cards
-    // Photo IDs only make sense in this browser's IndexedDB and never travel in an account document.
-    const cards = Object.fromEntries(
-      Object.entries(data.cards).map(([key, card]) => [key, { ...card, userPhotoId: local[key]?.userPhotoId }]),
-    )
-    usePostcards.setState({ cards, updatedAt: data.updatedAt })
+    usePostcards.setState({ cards: data.cards, updatedAt: data.updatedAt })
   }
 }
 export function applyDocuments(docs: Documents) {
