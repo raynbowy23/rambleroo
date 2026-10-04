@@ -5,17 +5,19 @@ export default function AboutPage() {
   const { meta, byways } = useCatalog()
   // The catalog adds supplemental roads to the USDOT layer; count them apart so the totals stay honest.
   const classics = byways.filter((b) => b.designations.some((d) => d.startsWith('Classic drive'))).length
-  const wisdot = byways.filter((b) => b.id.endsWith('-990001') || b.id.endsWith('-990002')).length
-  const usdot = byways.length - classics - wisdot
+  // Roads from state DOT layers carry 99SSNN ids (content/state-sources.json).
+  const stateLayers = byways.filter((b) => /-99\d{4}$/.test(b.id)).length
+  const usdot = byways.length - classics - stateLayers
   return (
     <main className={styles.page}>
       <span className="kicker">About the data</span>
       <h1>Scenic roads of America, honestly mapped.</h1>
       <p>
         Rambleroo brings together {byways.length ? usdot.toLocaleString() : '…'} scenic byways from the USDOT source layer,{' '}
-        {byways.length ? wisdot : '…'} Wisconsin byways from WisDOT and {byways.length ? classics : '…'} classic drives that are not
-        designated byways, with {meta?.storyCount ?? '…'} stories. These stories are drafts pending review. This catalog is a snapshot of
-        that source, not a complete inventory of every scenic road or current designation.
+        {byways.length ? stateLayers : '…'} more from state DOT route layers (Wisconsin and Florida so far), and{' '}
+        {byways.length ? classics : '…'} classic drives that are not designated byways, with {meta?.storyCount ?? '…'} stories. These
+        stories are drafts pending review. This catalog is a snapshot of that source, not a complete inventory of every scenic road or
+        current designation.
       </p>
       <h2>What the map tells you</h2>
       <p>

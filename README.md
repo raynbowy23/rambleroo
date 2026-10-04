@@ -1,93 +1,124 @@
 # Rambleroo
 
-America's scenic byways, honestly mapped. Explore an illustrated national map, open a road's postcard and story, save it, record a visit, and collect a stamp in your passport.
+America's scenic byways, honestly mapped.
 
-Live at **https://rambleroo.app**. Rambleroo is a personal, noncommercial, open-source project: a React single-page app served by a Cloudflare Worker, with optional accounts (Google, email link or passkey) stored in Cloudflare D1.
+Rambleroo is an illustrated guide to nearly 800 scenic roads in the United States. Find a road on the national map, read its postcard, then scroll down the road mile by mile on a strip map. Save it, add it to a trip, record a visit and collect a stamp in your passport.
 
-Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). The next big piece of work is [state chapters](docs/state-coverage.md): every state's byway program, linked and mapped like Wisconsin's. Questions, ideas and road corrections: [open an issue](https://github.com/raynbowy23/rambleroo/issues/new/choose). Security problems: please report privately (see [SECURITY.md](SECURITY.md)).
+Open it at **https://rambleroo.app**. No account is needed. Rambleroo is a personal, noncommercial, open-source project, and [contributions are welcome](#contributing).
 
 ## Screenshots
 
-|                                                                                                                  |                                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| ![The explorer map: every scenic byway in faded screen-print inks](docs/screenshots/explore-map.jpg)             | ![A selected road with its postcard and the road's pictorial motif](docs/screenshots/road-selected.jpg) |
-| **Explore.** 788 roads on a vintage pictorial map.                                                               | **Pick a road.** Its postcard, photo credit and motif line.                                             |
-| ![Road page with photo hero, facts and the Drive it button](docs/screenshots/road-page.jpg)                      | ![Strip map header with the four seasons and the progress bar](docs/screenshots/strip-header.jpg)       |
-| **Road page.** Facts from real data and a Drive it button.                                                       | **Strip map.** The same road in four seasons.                                                           |
-| ![Scroll-to-drive: the car on the ribbon beside place cards and the inset map](docs/screenshots/strip-drive.jpg) | ![3D view following the car on a winter coast road](docs/screenshots/strip-3d.jpg)                      |
-| **Scroll to drive.** Places appear at their mile.                                                                | **3D view.** The camera follows your car, season by season.                                             |
+|                                                                                                                                                  |                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| ![The national map, every scenic byway drawn in faded screen-print inks](docs/screenshots/explore-map.jpg)                                       | ![Door County Coastal Byway selected on the map, with its photo postcard and route inset](docs/screenshots/road-selected.jpg) |
+| **Explore.** Every road on one pictorial map, filtered by theme or state.                                                                        | **Pick a road.** It traces itself on the map and its postcard opens, photo credit included.                                   |
+| ![Road page for Door County Coastal Byway with a photo hero, mapped distance, designation and a Drive it button](docs/screenshots/road-page.jpg) | ![Strip map header with the road shown in spring, summer, autumn and winter](docs/screenshots/strip-header.jpg)               |
+| **Road page.** The facts, where they come from, and a Drive it button.                                                                           | **Strip map.** The same road in four seasons, then the drive.                                                                 |
+| ![Scrolling the strip map: the car on the ribbon at mile 18.8, a park card at mile 15.9 and the inset map](docs/screenshots/strip-drive.jpg)     | ![3D view following the car along a snowy Lake Michigan shore](docs/screenshots/strip-3d.jpg)                                 |
+| **Scroll to drive.** Towns and stops appear at their mile.                                                                                       | **3D view.** The camera follows your car over raised relief.                                                                  |
 
-<p align="center"><img src="docs/screenshots/phone-strip.jpg" alt="The strip map on a phone, driving Big Sur" width="300"></p>
+<p align="center"><img src="docs/screenshots/phone-strip.jpg" alt="The strip map on a phone, driving the Big Sur coast at mile 8.6" width="300"></p>
 
-## Run it
+## What you can do
+
+| Route                                | What it does                                                                                                                                                                                                                                                             |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `/`                                  | The national map. Map, gallery and list views share one selection and one set of filters (theme, state, search), all kept in the URL so a view can be linked. Hover to preview, click to trace the route and open the postcard. Without WebGL it falls back to the list. |
+| `/byway/:id`                         | A road's page: mapped distance, states, designation and a companion map. Roads with a story add signature moments marked roadside, short walk or separate excursion, and directions to a point on the road.                                                              |
+| `/byway/:id/strip`                   | The strip map. A ribbon of the road you scroll down mile by mile, with towns and stops at their mile, four seasons of illustration, a 3D terrain view, a car you can repaint, and postcards from places along the way.                                                   |
+| `/byway/:id/strip/print`             | The strip map laid out for paper, with its sources and photo credits.                                                                                                                                                                                                    |
+| `/trip`                              | Roads you have added, in the order you want to drive them, with mapped miles and drive times for the main stretches.                                                                                                                                                     |
+| `/state/:code`                       | State chapters. Wisconsin and Florida are curated from their state byway programs, with forest service byways listed separately. Other states get a plain list until their chapter is written.                                                                           |
+| `/collections`, `/collections/:slug` | Six small editorial collections, such as Follow the Water and Desert Light.                                                                                                                                                                                              |
+| `/passport`                          | Saved roads, visits (repeatable, part or whole road), stamps, a travel map, progress by state, a journal and your postcards.                                                                                                                                             |
+| `/s/:slug`                           | A read-only snapshot of a trip or passport that a signed-in person chose to share.                                                                                                                                                                                       |
+| `/about`                             | Where the data comes from and what it can and cannot tell you.                                                                                                                                                                                                           |
+| `/privacy`, `/terms`                 | Privacy policy and terms.                                                                                                                                                                                                                                                |
+| `/dev/art`                           | Review gallery for the procedural illustration kit.                                                                                                                                                                                                                      |
+
+Everything works without signing in, and your passport, trip and car stay in your browser. An optional account (Google, an emailed sign-in link, or a passkey) syncs them across devices.
+
+On a phone, below 760px wide, the map fills the screen under a bottom sheet you drag between peek, half and full. Dialogs become bottom sheets, and embedded maps pan with two fingers so they never trap the page scroll. Rambleroo installs to the home screen as a web app, and the app shell, catalog, basemap, route lines and any pages or photos you have already opened keep working offline. A new version asks before it reloads.
+
+## What's on the map, and how far to trust it
+
+The catalog has 792 roads: 778 byways from the USDOT national scenic byways layer (June 2022), 6 that layer is missing taken from the Wisconsin and Florida DOTs' own route layers, and 8 classic drives, such as Going-to-the-Sun Road and the Road to Hana, that were never designated byways and are labelled that way everywhere. There are 721 strip maps.
+
+Rambleroo says what it knows and how it knows it.
+
+- **Distances are mapped miles,** the sum of the source segments drawn on the map. Divided highways can be counted twice, so the site always says "mapped" and never calls it a driving distance.
+- **Gaps stay gaps.** Where a road's source pieces don't meet, the map and the strip show the break instead of drawing a guess across it.
+- **Illustrations are illustrations.** Postcards, stamps and seasonal scenes are generated artwork and are labelled as such. Real photographs (159 of them, covering 113 roads) are freely licensed, checked by eye and credited to their photographers. A road without one says "Illustration · no photo yet".
+- **Drafts say so.** The 7 written stories and the strip maps are marked "Draft · pending review" until someone has checked them.
+- **Sources are named.** USDOT, WisDOT, FDOT, Natural Earth, OpenStreetMap, Wikipedia and Wikimedia Commons are credited on the About page, in the map attribution and in [docs/licensing.md](docs/licensing.md).
+
+Built with React 19, React Router, Vite, MapLibre GL, three.js and Zustand, served by a Cloudflare Worker with D1 and R2 for accounts, and Better Auth for sign-in.
+
+## Run it locally
+
+You need Node 22.13 or later.
 
 ```bash
 npm install
 npm run dev          # http://localhost:5173
-npm test             # vitest: domain logic, stores, components, data-quality gate
-npm run test:e2e     # playwright: the full explore → story → save → visit → passport loop
-npm run build        # typecheck + production build into dist/
+npm test             # vitest: domain logic, stores, components, the Worker, and the data-quality checks
+npm run test:e2e     # playwright: explore, story, save, visit, passport, strip maps, trips and sharing
+npm run build        # typecheck and production build into dist/
 ```
 
-Playwright needs its browsers once: `npx playwright install chromium webkit`. The e2e suite runs on three projects: desktop Chrome, Pixel 7, and iPhone 13 (WebKit), and checks every page on phones for sideways scrolling, tap targets under 40px, and text under 12px.
+Playwright needs its browsers once: `npx playwright install chromium webkit`. The e2e suite runs as desktop Chrome, a Pixel 7 and an iPhone 13 (WebKit), and on phones it fails any page that scrolls sideways, has a tap target under 40px or text under 12px.
 
-### On phones
-
-Rambleroo is mobile-first below 760px: the explorer map fills the screen with a draggable bottom sheet (peek, half, full), gallery and list views get a compact top filter bar, dialogs become bottom sheets, and embedded maps use two-finger panning so they never trap page scrolling. It is an installable web app (vite-plugin-pwa): add it to the home screen, and the app shell, catalog, basemap, route lines, and any photos or pages you have opened keep working offline. New versions show a "Reload" prompt rather than updating under you. Service workers only run in production builds, so try this with `npm run build && npm run preview`.
-
-## What's in it
-
-| Route                                | What it does                                                                                                                                                                                                                                                                    |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `/`                                  | National map. Map, gallery, and list views share one selection and one filter state, all held in the URL (`byway`, `themes`, `state`, `q`, `view`). Hover previews, click selects and traces the route, and the postcard opens. Falls back to the list if WebGL is unavailable. |
-| `/byway/:id`                         | Story page for curated roads (draft, pending review) and the same template for plain listings. Includes a companion map, signature moments marked roadside, short walk, or separate excursion, and directions to one point on the road.                                         |
-| `/state/WI`                          | The curated Wisconsin chapter: the five WisDOT program byways and the two USFS byways, listed separately. Other state codes get a generic, uncurated chapter.                                                                                                                   |
-| `/collections`, `/collections/:slug` | Five small editorial collections with explicit member lists.                                                                                                                                                                                                                    |
-| `/passport`                          | Saves, visits (repeatable, part or whole road), stamps, travel map, per-state progress, journal. Stored in this browser only.                                                                                                                                                   |
-| `/about`                             | Coverage and provenance, stated plainly.                                                                                                                                                                                                                                        |
-| `/dev/art`                           | Review gallery for the procedural illustration kit.                                                                                                                                                                                                                             |
+The offline app only runs in a production build, so try it with `npm run build && npm run preview`. To open the dev server from a phone on the same network, use `npm run dev:phone`.
 
 ## Data
 
-Check chapter source and member links by hand with `npx tsx scripts/states/check-links.ts` (reports failed URLs and redirects to another host).
+The display data in `public/data/` is built from source snapshots by scripts you can rerun.
 
 ```bash
-npm run ingest:fetch   # raw snapshots into data/raw/ (USDOT byway layer, Natural Earth), with manifest + sha256
-npx tsx scripts/ingest/build-supplements.ts  # WisDOT byways missing federally + classic drives (content/classics.json)
-npm run ingest:build   # normalise into public/data/ (catalog.json, byways.geojson, basemap/*)
+npm run ingest:fetch                          # snapshots into data/raw/ (USDOT byway layer, Natural Earth), with a manifest and sha256
+npx tsx scripts/ingest/build-supplements.ts  # roads missing from the national layer (content/state-sources.json) and classic drives (content/classics.json)
+npm run ingest:build                          # normalise into public/data/ (catalog.json, byways.geojson, basemap/)
+npm run strips:build -- <bywayId>             # build one road's strip map
 ```
 
-- **Byway lines:** the USDOT-hosted `Scenic_Byways_2022_06_24` ArcGIS layer. 3,427 segments are dissolved by `BYWAY_ID` into 778 byways and simplified for display. Parts are never bridged.
-- **Distances** are sums of the source `LENGTH` field (miles) over mapped segments. Divided carriageways can be counted twice, so the UI always says "mapped". Multi-state roads get per-state mileage by segment midpoint.
-- **Themes** are inferred from names (`scripts/ingest/classify.ts`) except where `content/overrides.json` sets them by hand.
-- **Basemap:** Natural Earth 1:50m (public domain), bundled. There is no tile provider, API key, or glyph server.
-- **Editorial content** lives in `content/`: stories, collections, the Wisconsin chapter, overrides. `scripts/ingest/content.test.ts` fails the build if content references a byway that doesn't exist.
+- **Byway lines:** the USDOT-hosted `Scenic_Byways_2022_06_24` ArcGIS layer. Its 3,427 segments are dissolved by `BYWAY_ID` into 778 byways and simplified for display. Parts are never bridged.
+- **Distances** sum the source `LENGTH` field (miles) over mapped segments. Multi-state roads get per-state mileage by segment midpoint.
+- **Roads beyond the national layer** come from state GIS layers listed in `content/state-sources.json` (Wisconsin and Florida so far). Classic drives are routed through Wikipedia and Wikidata waypoints with OSRM on OpenStreetMap data, and the build fails if a route doesn't use the road the drive is named for.
+- **Strip maps** (`scripts/strips/`) order towns and stops by their true mile along the road and route drive times with OSRM once, at build time.
+- **Themes** are inferred from road names (`scripts/ingest/classify.ts`) unless `content/overrides.json` sets them by hand.
+- **Basemap:** Natural Earth 1:50m (public domain) is bundled for the national view. Closer in, detail comes from OpenFreeMap vector tiles. Neither needs an API key.
+- **Photos** are proposed by `scripts/photos/discover.ts` from Wikipedia lead images and the U.S. DOT America's Byways collection on Commons, or picked by hand from a wider Commons search for a state chapter. Every one is reviewed by a person and published with `scripts/photos/fetch.ts` into `public/photos/` and `content/photos.json`.
+- **Editorial content** lives in `content/`: stories, strip text, collections, state chapters and overrides. `scripts/ingest/content.test.ts` fails the tests if content points at a road that doesn't exist.
 
-Known data gaps: the Wisconsin Lake Superior and Nicolet-Wolf River byways are missing from the 2022 national layer, so their lines come from the WisDOT Scenic Byways layer (`scripts/ingest/build-supplements.ts`). The Ohio River Scenic Byway's mileage can't be assigned to a state because its segment midpoints fall in the river.
-
-## Imagery
-
-There is no photography. Postcards, heroes, collection covers, and stamps are procedural SVG (`src/components/art/`), seeded per byway and credited as "Illustration" everywhere. Real, rights-cleared photos can slot in later through an asset field on the byway record.
+Known gaps: the Ohio River Scenic Byway's mileage can't all be assigned to a state, because many of its segment midpoints fall in the river. State chapter links are checked by hand with `npx tsx scripts/states/check-links.ts`, which reports failed URLs and redirects to another host.
 
 ## Layout
 
 ```text
-content/            stories, collections, state chapters, curated overrides
+content/            stories, strip text, collections, state chapters, photo credits, overrides
 data/raw/           source snapshots (gitignored except manifest.json)
 public/data/        built display data served to the app
+public/photos/      published, credited photographs
 scripts/ingest/     fetch, normalise, classify, data-quality tests
-src/components/art  illustration kit: Scene, Stamp, Seal, Compass, Logo, Icon
+scripts/strips/     strip map discovery, building and repair
+scripts/photos/     photo discovery and publishing
+scripts/states/     state sources and the chapter link checker
+src/components/art  illustration kit: Scene, Stamp, Seal, Compass, Logo, Vehicle
 src/components/ui   Dialog, Toast, RouteMap, shared content blocks
-src/features/       explore, map, byway, state, collections, passport, about
-src/lib/            types, data hooks, filters, formatting, passport store and system motion preference
-tests/e2e/          Playwright loop test
+src/features/       one folder per area: explore, map, byway, strip, trip, state, collections, passport, postcard, garage, share, account, about, legal
+src/lib/            types, data hooks, filters, formatting, stores, account and photo sync
+worker/             the Cloudflare Worker: auth, account data, photos, shares
+migrations/         D1 schema
+tests/e2e/          Playwright suites
 ```
 
 ## Accounts and local development
 
-Accounts use Google only, through Better Auth's built-in Kysely/D1 support. [Better Auth documents its D1 storage and core schema](https://better-auth.com/docs/concepts/database). There is no password sign-in or runtime migration. Apply the checked-in migrations before serving account requests. The four JSON documents each have a 256 KiB limit; their `updated_at` values are optimistic concurrency tokens. Garage/postcard `updatedAt` timestamps select the newer whole document when merging. Device clocks therefore affect those conflict choices.
+Accounts are optional and use Better Auth's built-in Kysely support for D1 ([Better Auth's database docs](https://better-auth.com/docs/concepts/database)). People sign in with Google, a single-use email link (sent through Resend and guarded by Turnstile), or a passkey. There are no passwords. Migrations are checked in and never run on a request, so apply them before serving account requests.
 
-Use Node 22.13+ (or Node 23 with the configured experimental SQLite flag) for the SQLite-backed Worker tests. Install dependencies with `npm install`. Create `.dev.vars` in the repository root (already gitignored; never commit real values):
+An account stores four JSON documents (passport, trip, garage, postcards), each limited to 256 KiB. Their `updated_at` values act as optimistic concurrency tokens. The garage and postcards merge by picking the newer whole document by its `updatedAt`, so device clocks can decide those conflicts. Photos you add yourself sync to a private R2 bucket within the ceilings in `src/lib/photo-limits.ts`; [docs/photo-sync.md](docs/photo-sync.md) covers operating that safely.
+
+To run the Worker and sign-in locally, use Node 22.13 or later (Node 23 works with the `--experimental-sqlite` flag that `vitest.config.ts` already sets for the Worker tests), run `npm install`, and create `.dev.vars` in the repository root. It is gitignored. Never commit real values.
 
 ```dotenv
 AUTH_URL=http://localhost:5173
@@ -96,7 +127,7 @@ GOOGLE_CLIENT_SECRET=your-development-google-client-secret
 BETTER_AUTH_SECRET=use-a-random-secret-of-at-least-32-characters
 ```
 
-Register `http://localhost:5173/api/auth/callback/google` as an authorized redirect URI in the development Google OAuth client. Use **localhost**, not a LAN hostname, for local sign-in: session cookies always have Secure set, and browsers special-case localhost. The production redirect is `https://rambleroo.app/api/auth/callback/google`. The public `AUTH_URL` must be the browser-facing origin, not port 8787.
+Email-link sign-in also reads `RESEND_API_KEY` and `TURNSTILE_SECRET`. Register `http://localhost:5173/api/auth/callback/google` as an authorized redirect URI on your development Google OAuth client. Use **localhost**, not a LAN hostname, because session cookies are always Secure and browsers make an exception only for localhost. `AUTH_URL` must be the origin the browser sees, not port 8787.
 
 ```sh
 npx wrangler d1 migrations apply rambleroo-db --local
@@ -104,16 +135,38 @@ npm run build
 npx wrangler dev --port 8787
 ```
 
-In another terminal run `npm run dev` and open `http://localhost:5173`. Vite proxies `/api` to Wrangler on port 8787, preserving the browser origin. If Vite selects a different port, update `AUTH_URL` and the Google redirect URI to match and restart Wrangler. Local D1 is separate from production. For production, apply migrations with `npx wrangler d1 migrations apply rambleroo-db --remote`, set `GOOGLE_CLIENT_SECRET` and `BETTER_AUTH_SECRET` using `wrangler secret put`, and deploy. Email links, Resend and Turnstile are not enabled in this phase.
+In another terminal run `npm run dev` and open `http://localhost:5173`. Vite proxies `/api` to Wrangler on port 8787 and keeps the browser origin. If Vite picks a different port, update `AUTH_URL` and the Google redirect URI to match and restart Wrangler. Local D1 is separate from production.
 
-On first sign-in per account/browser, existing browser data can be imported or left local. Signed-in edits debounce for 1.5 seconds. Pending writes and their base versions are saved per account in localStorage and retried after reconnecting, on the next sign-in, or with “Retry sync”. A 409 merges and retries once; a second conflict stays pending for an explicit retry. Signed-out browser data is backed up separately and restored on sign-out. Account export waits for pending changes to sync before downloading the server’s saved copy. Photos in IndexedDB never sync or appear in account exports.
+How sync behaves: on the first sign-in in a browser, existing browser data can be imported or left local. Signed-in edits are saved after 1.5 seconds. Pending writes and their base versions are kept per account in localStorage and retried after reconnecting, on the next sign-in, or with "Retry sync". A 409 merges and retries once, and a second conflict waits for an explicit retry. Signed-out browser data is backed up separately and restored on sign-out. Account export waits for pending changes, then downloads the server's copy, which lists photos and shares but never includes tokens, credentials or passkey keys.
 
-Before launch, verify with real development Google credentials: the callback succeeds; the session cookie is Secure/HttpOnly/SameSite=Lax with a 60-day lifetime; first-import accept/decline works; a second browser loads all four kinds; simultaneous edits produce the documented merge; offline changes survive reload and sync on reconnect; sign-out restores browser-only data; export contains the expected saved records and no tokens/photos; typed deletion removes user/session/account/user_data rows and invalidates the other browser's session. Google is not called by automated tests.
+Automated tests never call Google. When you change account code, check by hand with real development credentials:
 
-## Licence
-
-Code is [MIT](LICENSE). Written content and third-party data and media have their own terms; see [docs/licensing.md](docs/licensing.md).
+- the Google callback succeeds, and the session cookie is Secure, HttpOnly and SameSite=Lax with a 60-day lifetime
+- the first-sign-in import can be accepted or declined
+- a second browser loads all four documents, and simultaneous edits merge as described above
+- offline changes survive a reload and sync on reconnect
+- sign-out restores browser-only data
+- export contains the expected records and no tokens
+- typed deletion removes the user, session, account and user_data rows and signs the other browser out
 
 ## Running your own copy
 
-Nothing secret is in this repository. To deploy your own copy you need your own Cloudflare account (Worker, D1), a Google OAuth client, a Resend domain and a Turnstile widget; set `AUTH_URL`, `GOOGLE_CLIENT_ID` and the D1 `database_id` in `wrangler.jsonc`, the Turnstile site key in `src/features/account/SignInDialog.tsx`, the analytics ID (or remove it) in `src/lib/analytics.ts`, and the secrets with `wrangler secret put` (see "Accounts and local development" above).
+Nothing secret is in this repository. To deploy your own copy you need your own Cloudflare account (a Worker, a D1 database and an R2 bucket), a Google OAuth client, a Resend sending domain and a Turnstile widget. Then:
+
+- in `wrangler.jsonc`, set `AUTH_URL`, `GOOGLE_CLIENT_ID`, the routes, the D1 `database_id` and the R2 bucket name
+- set the Turnstile site key in `src/features/account/SignInDialog.tsx` and the sign-in email sender in `worker/auth.ts`
+- set the analytics ID in `src/lib/analytics.ts`, or remove it
+- set `GOOGLE_CLIENT_SECRET`, `BETTER_AUTH_SECRET`, `RESEND_API_KEY` and `TURNSTILE_SECRET` with `wrangler secret put`
+- apply migrations with `npx wrangler d1 migrations apply rambleroo-db --remote`, then `npm run deploy`
+
+## Contributing
+
+The most useful help is often a correction: a road drawn wrong, a place in the wrong spot, a photo credit. [Open an issue](https://github.com/raynbowy23/rambleroo/issues/new/choose) for those, for bugs, and for ideas. Pull requests for fixes are welcome; [CONTRIBUTING.md](CONTRIBUTING.md) lists the checks CI runs.
+
+The next big piece of work is [state chapters](docs/state-coverage.md): every state's byway program, linked to the agency that designates its roads and mapped as fully as Wisconsin and Florida are. The plan has a status table for all 50 states, and each one is a self-contained project for a contributor. Pick a state with the [State chapter](https://github.com/raynbowy23/rambleroo/issues/new?template=state-chapter.yml) issue template.
+
+Please report security problems privately, as described in [SECURITY.md](SECURITY.md).
+
+## Licence
+
+Code is [MIT](LICENSE). Written content is CC BY-NC 4.0, and third-party data and media keep their own terms; [docs/licensing.md](docs/licensing.md) sets out which is which.
