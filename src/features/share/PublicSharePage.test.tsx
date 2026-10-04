@@ -54,16 +54,14 @@ it('keeps transient errors distinct from revoked links', async () => {
 it('renders visit notes as text and retains missing roads', async () => {
   vi.stubGlobal(
     'fetch',
-    vi
-      .fn()
-      .mockResolvedValue(
-        Response.json({
-          kind: 'passport',
-          roads: ['a', 'missing'],
-          saved: ['a'],
-          visits: [{ bywayId: 'a', date: '2026-10-03', note: '<script>secret()</script>' }],
-        }),
-      ),
+    vi.fn().mockResolvedValue(
+      Response.json({
+        kind: 'passport',
+        roads: ['a', 'missing'],
+        saved: ['a'],
+        visits: [{ bywayId: 'a', date: '2026-10-03', note: '<script>secret()</script>' }],
+      }),
+    ),
   )
   open()
   await screen.findByText('<script>secret()</script>')

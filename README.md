@@ -4,7 +4,7 @@ America's scenic byways, honestly mapped. Explore an illustrated national map, o
 
 Live at **https://rambleroo.app**. Rambleroo is a personal, noncommercial, open-source project: a React single-page app served by a Cloudflare Worker, with optional accounts (Google, email link or passkey) stored in Cloudflare D1.
 
-Questions, ideas and road corrections: [open an issue](https://github.com/raynbowy23/rambleroo/issues/new/choose). Security problems: please report privately (see [SECURITY.md](SECURITY.md)).
+Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Questions, ideas and road corrections: [open an issue](https://github.com/raynbowy23/rambleroo/issues/new/choose). Security problems: please report privately (see [SECURITY.md](SECURITY.md)).
 
 ## Run it
 
@@ -48,7 +48,7 @@ npm run ingest:build   # normalise into public/data/ (catalog.json, byways.geojs
 - **Basemap:** Natural Earth 1:50m (public domain), bundled. There is no tile provider, API key, or glyph server.
 - **Editorial content** lives in `content/`: stories, collections, the Wisconsin chapter, overrides. `scripts/ingest/content.test.ts` fails the build if content references a byway that doesn't exist.
 
-Known data gaps: Wisconsin Lake Superior Scenic Byway and Nicolet-Wolf River Scenic Byway are not in the 2022 layer, so they show as "route line pending". The Ohio River Scenic Byway's mileage can't be assigned to a state because its segment midpoints fall in the river.
+Known data gaps: the Wisconsin Lake Superior and Nicolet-Wolf River byways are missing from the 2022 national layer, so their lines come from the WisDOT Scenic Byways layer (`scripts/ingest/build-supplements.ts`). The Ohio River Scenic Byway's mileage can't be assigned to a state because its segment midpoints fall in the river.
 
 ## Imagery
 
