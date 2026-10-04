@@ -1,0 +1,20 @@
+// Cloudflare Worker for rambleroo.app: serves the built single-page app (dist/) as static assets, with a small Worker in front of
+// /api/* only, so photo and data requests stay free static-asset hits (the free plan allows 100k Worker requests a day).
+// www.rambleroo.app → rambleroo.app is a Cloudflare Redirect Rule (dashboard), not Worker code, for the same reason.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "rambleroo",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-03",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "routes": [
+    { "pattern": "rambleroo.app", "custom_domain": true },
+    { "pattern": "www.rambleroo.app", "custom_domain": true }
+  ],
+  "observability": { "enabled": true }
+}

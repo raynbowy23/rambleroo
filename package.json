@@ -15,7 +15,9 @@
     "test:e2e": "playwright test",
     "format": "prettier --write src scripts tests *.ts",
     "dev:phone": "vite --host",
-    "strips:build": "tsx scripts/strips/build-strip.ts"
+    "strips:build": "tsx scripts/strips/build-strip.ts",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:preview": "npm run build && wrangler versions upload"
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.3.0",
@@ -47,6 +49,7 @@
     "typescript": "~6.0.2",
     "vite": "^8.3.0",
     "vite-plugin-pwa": "^1.3.0",
-    "vitest": "^3.2.7"
+    "vitest": "^3.2.7",
+    "wrangler": "^4.147.0"
   }
 }
