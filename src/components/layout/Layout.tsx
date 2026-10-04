@@ -1,3 +1,4 @@
+import { ConsentBanner, CookieSettingsButton } from '../../features/consent/ConsentBanner'
 import { useTrip } from '../../lib/store'
 import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router'
 import { Icon, Logo, type IconName } from '../art'
@@ -62,6 +63,7 @@ export default function Layout() {
         <Outlet />
       </div>
       <ScrollRestoration />
+      <ConsentBanner />
       {pathname !== '/' && (
         <footer className={styles.footer}>
           <span className="kicker">Explore / Collect / Remember</span>
@@ -82,6 +84,7 @@ export default function Layout() {
             <Link viewTransition to="/terms">
               Terms
             </Link>
+            <CookieSettingsButton className={styles.footerButton} />
           </nav>
         </footer>
       )}

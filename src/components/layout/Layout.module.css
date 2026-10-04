@@ -186,3 +186,14 @@
   flex-wrap: wrap;
   gap: 4px 20px;
 }
+
+/* "Cookie settings" sits with the footer links and looks like one. */
+.footerButton {
+  border: 0;
+  background: none;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}

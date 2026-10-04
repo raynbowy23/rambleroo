@@ -21,12 +21,11 @@ export default function PrivacyPage() {
           Your trip, saved roads, stretches, visits, notes and postcards are stored only in this browser, on this device. We do not receive
           them.
         </li>
-        <li>We do not use cookies, analytics, advertising, or tracking of any kind, and we never sell or share personal information.</li>
-        <li>{LOCATION_POLICY}</li>
         <li>
-          If research participation opens in the future, it will be optional, asked for separately, and explained before anything is
-          collected.
+          On rambleroo.app we ask before using Google Analytics cookies to count visits. If you decline, no analytics cookie is set. We use
+          no advertising, and we never sell or share personal information.
         </li>
+        <li>{LOCATION_POLICY}</li>
       </ul>
 
       <h2>What is stored, and where</h2>
@@ -56,6 +55,12 @@ export default function PrivacyPage() {
       </p>
 
       <p>
+        The road maps draw streets, towns, parks and water from OpenFreeMap, a free map service built on OpenStreetMap data. Your browser
+        requests those map tiles directly from OpenFreeMap, so the requests reveal roughly which map area you are viewing, along with
+        standard network information such as your IP address. Nothing else is sent with them.
+      </p>
+
+      <p>
         When you turn on 3D, your browser loads elevation tiles directly from Amazon Web Services’ public open-data storage. These requests
         reveal roughly which map area you are viewing, along with standard network request information such as your IP address. Rambleroo
         sends no saved journeys, notes or pictures with them. The 3D preference is saved in this browser; turning it off stops elevation
@@ -69,38 +74,36 @@ export default function PrivacyPage() {
         page tells you when that will happen. Nothing is sent to these services unless you tap the link.
       </p>
 
-      <h2>Accounts (not available yet)</h2>
+      <h2 id="cookies">Cookies and analytics</h2>
       <p>
-        Optional accounts may be added later so you can keep your journeys across devices. If they are, an account will only store what is
-        needed to keep your journeys. Having an account will not, by itself, enroll you in any research.
+        On rambleroo.app, a banner asks whether we may count visits with Google Analytics. Nothing from Google loads, and no analytics
+        cookie is set, until you choose Accept. If you accept, Google Analytics sets these cookies:
       </p>
-
-      <h2>Research participation (not active yet)</h2>
-      <p>Rambleroo exists partly to understand when extra time on the road feels worthwhile. If a study opens, these commitments apply:</p>
       <ul>
         <li>
-          <strong>Separate and optional.</strong> You will be asked in a dedicated consent step that explains exactly what is collected,
-          why, who can see it, and how long it is kept. You can use Rambleroo fully without joining.
-        </li>
-        <li>
-          <strong>Only what the study needs.</strong> For example, which road alternatives you were shown, the one you picked, why, and a
-          short reflection after the trip. No continuous location tracking.
-        </li>
-        <li>
-          <strong>Kept apart from who you are.</strong> Research records are stored under a random research ID, separately from any contact
-          details. We describe this as de-identified rather than “anonymous”, because travel records can sometimes point to a person even
-          without a name.
-        </li>
-        <li>
-          <strong>Never shared in identifiable form.</strong> We will not publish, sell or share information that could identify you or be
-          combined to single you out, such as individual trip records or exact places and dates. Findings are published only as aggregated
-          results.
-        </li>
-        <li>
-          <strong>You stay in control.</strong> You can withdraw at any time and ask for your contributions to be deleted. Results already
-          published in aggregate cannot be un-published, but they will not contain anything that identifies you.
+          <code>_ga</code> and <code>_ga_ZG7RVR9WL3</code>: tell visits apart so we can count them. They last up to 13 months.
         </li>
       </ul>
+      <p>
+        Google then receives which pages you open, roughly where you are (country and city, from your IP address), and your device and
+        browser type. We turned off Google signals and advertising features, so this is not used for ads. Google’s handling is described in
+        its{' '}
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
+          privacy policy
+        </a>
+        . You can change your choice at any time with “Cookie settings” in the site footer; declining removes the analytics cookies.
+      </p>
+      <p>
+        Everything else Rambleroo keeps in your browser is there because you asked for it, so it needs no consent: your choice in the cookie
+        banner, your trip, passport, car, postcards, and preferences such as the 3D view (local storage keys beginning with{' '}
+        <code>rambleroo.</code>), and the offline cache of pages you have opened.
+      </p>
+
+      <h2>Accounts (not available yet)</h2>
+      <p>
+        Optional accounts may be added later so you can keep your journeys across devices. If they are, this page will be updated before
+        they launch, and an account will only store what is needed to keep your journeys.
+      </p>
 
       <h2>Children</h2>
       <p>Rambleroo is not directed at children under 13, and we do not knowingly collect information from them.</p>
