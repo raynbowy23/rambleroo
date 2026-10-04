@@ -137,18 +137,22 @@
 }
 .cartouche::before,
 .cartouche::after {
-  content: '❦';
+  /* A horse-drawn carriage on each side of the title, both driving in toward it, like an old map cartouche. Drawn as a mask so it takes the ink colour. */
+  content: '';
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  font-size: 13px;
-  color: var(--ink-soft);
+  width: 46px;
+  height: 21px;
+  background: var(--ink-soft);
+  mask: url('./carriage.svg') center / contain no-repeat;
 }
 .cartouche::before {
-  left: 7px;
+  left: -14px;
+  transform: translateY(-30%);
 }
 .cartouche::after {
-  right: 7px;
+  right: -14px;
+  transform: translateY(-30%) scaleX(-1);
 }
 .controls {
   bottom: 135px;
