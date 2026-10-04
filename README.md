@@ -1,13 +1,12 @@
 # Rambleroo
 
-America's scenic byways, honestly mapped.
-
-Rambleroo is an illustrated guide to nearly 800 scenic roads in the United States. Find a road on the national map, read its postcard, then scroll down the road mile by mile on a strip map. Save it, add it to a trip, record a visit and collect a stamp in your passport.
+Drive into the heart of the American story. Rambleroo is a guide to nearly 800 scenic roads in the United States. Find a road on the national map, read its postcard, then scroll down the road mile by mile on a strip map. Save it, add it to a trip, record a visit and collect a stamp in your passport.
 
 Open it at **https://rambleroo.app**. No account is needed. Rambleroo is a personal, noncommercial, open-source project, and [contributions are welcome](#contributing).
 
-## Screenshots
+![The national map with scenic byways](docs/screenshots/explore-map.jpg)                 
 
+<!--
 |                                                                                                                                                  |                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
 | ![The national map, every scenic byway drawn in faded screen-print inks](docs/screenshots/explore-map.jpg)                                       | ![Door County Coastal Byway selected on the map, with its photo postcard and route inset](docs/screenshots/road-selected.jpg) |
@@ -17,7 +16,32 @@ Open it at **https://rambleroo.app**. No account is needed. Rambleroo is a perso
 | ![Scrolling the strip map: the car on the ribbon at mile 18.8, a park card at mile 15.9 and the inset map](docs/screenshots/strip-drive.jpg)     | ![3D view following the car along a snowy Lake Michigan shore](docs/screenshots/strip-3d.jpg)                                 |
 | **Scroll to drive.** Towns and stops appear at their mile.                                                                                       | **3D view.** The camera follows your car over raised relief.                                                                  |
 
+
 <p align="center"><img src="docs/screenshots/phone-strip.jpg" alt="The strip map on a phone, driving the Big Sur coast at mile 8.6" width="300"></p>
+-->
+
+## What's on the map
+
+Rambleroo catalogs **792 scenic drives across the United States**, combining federal layers, state DOT registries, and iconic routes:
+
+* **778 National & State Scenic Byways** from the USDOT National Scenic Byways layer (June 2022).
+* **6 State Additions** sourced directly from Wisconsin DOT and Florida DOT route GIS layers to patch federal gaps.
+* **8 Unofficial Classics** (e.g., *Going-to-the-Sun Road*, *Road to Hana*) labeled explicitly as un-designated classic routes.
+
+### Features
+
+* **Linear Strip Maps (721 routes):** Each corridor unrolls into a continuous linear ribbon as you scroll. Towns, natural landmarks, and scenic overlooks are pinned to their true relative milepost. Drive times are dynamically routed via OpenStreetMap, while data discontinuities render as dashed connector lines.
+* **Four-Season Visuals & Custom Postcards:** Every route features a procedural postcard and seasonal strip illustrations. For 113 roads, 159 human-verified, freely licensed photographs provide authentic field references.
+* **Granular Designations:** Instantly differentiate between *All-American Roads*, *National Scenic Byways*, *State Scenic Byways*, and *National Forest Byways*, with direct links to respective state agency programs.
+
+### Cartographic & Data Integrity
+
+Rambleroo prioritizes ground truth and transparency over smoothed assumptions:
+
+* **Mapped Miles vs. Driving Distance:** Mileage is calculated directly along mapped geometry rather than odometer estimates. Divided segments are summed as drawn.
+* **Explicit Discontinuities:** Gaps in source GIS layers remain visible as breaks—no synthetic route interpolation without indication.
+* **Clear Provenance:** Generated artwork, verified photographs, and work-in-progress routes carry clear state labels (`Illustration · no photo yet`, `Draft · pending review`).
+* **Open Source & Agency Attribution:** Sourced with attribution from USDOT, WisDOT, FDOT, Natural Earth, OpenStreetMap, Wikipedia, and Wikimedia Commons. See [docs/licensing.md](docs/licensing.md) for full attribution schemas.
 
 ## What you can do
 
@@ -36,23 +60,7 @@ Open it at **https://rambleroo.app**. No account is needed. Rambleroo is a perso
 | `/privacy`, `/terms`                 | Privacy policy and terms.                                                                                                                                                                                                                                                |
 | `/dev/art`                           | Review gallery for the procedural illustration kit.                                                                                                                                                                                                                      |
 
-Everything works without signing in, and your passport, trip and car stay in your browser. An optional account (Google, an emailed sign-in link, or a passkey) syncs them across devices.
 
-On a phone, below 760px wide, the map fills the screen under a bottom sheet you drag between peek, half and full. Dialogs become bottom sheets, and embedded maps pan with two fingers so they never trap the page scroll. Rambleroo installs to the home screen as a web app, and the app shell, catalog, basemap, route lines and any pages or photos you have already opened keep working offline. A new version asks before it reloads.
-
-## What's on the map, and how far to trust it
-
-The catalog has 792 roads: 778 byways from the USDOT national scenic byways layer (June 2022), 6 that layer is missing taken from the Wisconsin and Florida DOTs' own route layers, and 8 classic drives, such as Going-to-the-Sun Road and the Road to Hana, that were never designated byways and are labelled that way everywhere. There are 721 strip maps.
-
-Rambleroo says what it knows and how it knows it.
-
-- **Distances are mapped miles,** the sum of the source segments drawn on the map. Divided highways can be counted twice, so the site always says "mapped" and never calls it a driving distance.
-- **Gaps stay gaps.** Where a road's source pieces don't meet, the map and the strip show the break instead of drawing a guess across it.
-- **Illustrations are illustrations.** Postcards, stamps and seasonal scenes are generated artwork and are labelled as such. Real photographs (159 of them, covering 113 roads) are freely licensed, checked by eye and credited to their photographers. A road without one says "Illustration · no photo yet".
-- **Drafts say so.** The 7 written stories and the strip maps are marked "Draft · pending review" until someone has checked them.
-- **Sources are named.** USDOT, WisDOT, FDOT, Natural Earth, OpenStreetMap, Wikipedia and Wikimedia Commons are credited on the About page, in the map attribution and in [docs/licensing.md](docs/licensing.md).
-
-Built with React 19, React Router, Vite, MapLibre GL, three.js and Zustand, served by a Cloudflare Worker with D1 and R2 for accounts, and Better Auth for sign-in.
 
 ## Run it locally
 
@@ -69,6 +77,15 @@ npm run build        # typecheck and production build into dist/
 Playwright needs its browsers once: `npx playwright install chromium webkit`. The e2e suite runs as desktop Chrome, a Pixel 7 and an iPhone 13 (WebKit), and on phones it fails any page that scrolls sideways, has a tap target under 40px or text under 12px.
 
 The offline app only runs in a production build, so try it with `npm run build && npm run preview`. To open the dev server from a phone on the same network, use `npm run dev:phone`.
+
+
+### Tech Stack
+
+* **Frontend:** React 19, React Router, Vite, Zustand
+* **Cartography & Rendering:** MapLibre GL, three.js
+* **Backend & Edge:** Cloudflare Workers, Cloudflare D1 (SQL), Cloudflare R2 (Object Storage)
+* **Auth:** Better Auth
+
 
 ## Data
 
@@ -137,7 +154,7 @@ npx wrangler dev --port 8787
 
 In another terminal run `npm run dev` and open `http://localhost:5173`. Vite proxies `/api` to Wrangler on port 8787 and keeps the browser origin. If Vite picks a different port, update `AUTH_URL` and the Google redirect URI to match and restart Wrangler. Local D1 is separate from production.
 
-How sync behaves: on the first sign-in in a browser, existing browser data can be imported or left local. Signed-in edits are saved after 1.5 seconds. Pending writes and their base versions are kept per account in localStorage and retried after reconnecting, on the next sign-in, or with "Retry sync". A 409 merges and retries once, and a second conflict waits for an explicit retry. Signed-out browser data is backed up separately and restored on sign-out. Account export waits for pending changes, then downloads the server's copy, which lists photos and shares but never includes tokens, credentials or passkey keys.
+How sync behaves: on the first sign-in in a browser, existing browser data can be imported or left local. Signed-in edits are saved after 1.5 seconds. Pending writes and their base versions are kept per account in localStorage and retried after reconnecting, on the next sign-in, or with "Retry sync". A 409 merges and retries once, and a second conflict waits for an explicit retry. Signed-out browser data is backed up separately and restored on sign-out. Account export waits for pending changes, then downloads the server's copy, which lists photos and shares.
 
 Automated tests never call Google. When you change account code, check by hand with real development credentials:
 
@@ -151,7 +168,7 @@ Automated tests never call Google. When you change account code, check by hand w
 
 ## Running your own copy
 
-Nothing secret is in this repository. To deploy your own copy you need your own Cloudflare account (a Worker, a D1 database and an R2 bucket), a Google OAuth client, a Resend sending domain and a Turnstile widget. Then:
+To deploy your own copy you need your own Cloudflare account (a Worker, a D1 database and an R2 bucket), a Google OAuth client, a Resend sending domain and a Turnstile widget. Then:
 
 - in `wrangler.jsonc`, set `AUTH_URL`, `GOOGLE_CLIENT_ID`, the routes, the D1 `database_id` and the R2 bucket name
 - set the Turnstile site key in `src/features/account/SignInDialog.tsx` and the sign-in email sender in `worker/auth.ts`
