@@ -1,11 +1,12 @@
 import * as THREE from 'three'
 import maplibre, { type CustomLayerInterface, type Map } from './maplibre'
-import { buildVehicle, disposeVehicle } from '../../components/art/vehicle3d'
+import { buildShip, buildVehicle, disposeVehicle } from '../../components/art/vehicle3d'
 import type { Garage } from '../../lib/garage'
 import { loadCarPicture } from '../../lib/carPicture'
 
 export const carLayerId = 'garage-car-3d'
-export function createCarLayer(garage: Garage, initial: [number, number], heading = 0) {
+/** `ship`: a marine-highway route, where the car rides aboard a ferry instead of driving. */
+export function createCarLayer(garage: Garage, initial: [number, number], heading = 0, ship = false) {
   let point = initial
   let bearing = heading
   let map: Map
@@ -16,7 +17,7 @@ export function createCarLayer(garage: Garage, initial: [number, number], headin
   camera.matrixWorldAutoUpdate = false
   const view = new THREE.Matrix4()
   const scene = new THREE.Scene()
-  const vehicle = buildVehicle(garage)
+  const vehicle = ship ? buildShip(garage) : buildVehicle(garage)
   const snow = new THREE.Mesh(
     new THREE.BoxGeometry(
       1.75,
@@ -40,7 +41,8 @@ export function createCarLayer(garage: Garage, initial: [number, number], headin
       map = current
       renderer = new THREE.WebGLRenderer({ canvas: map.getCanvas(), context: gl })
       renderer.autoClear = false
-      if (garage.usePicture && garage.picture)
+      // A ferry stays a ferry; the round car picture is for roads.
+      if (!ship && garage.usePicture && garage.picture)
         void loadCarPicture(garage.picture)
           .then(async (url) => {
             if (!url || disposed) return
@@ -105,6 +107,7 @@ export function createCarLayer(garage: Garage, initial: [number, number], headin
   return {
     layer,
     setSnow(enabled: boolean) {
+      if (ship) return
       snow.visible = enabled && !garage.usePicture && garage.model !== 'motorcycle' && garage.model !== 'convertible'
       map?.triggerRepaint()
     },

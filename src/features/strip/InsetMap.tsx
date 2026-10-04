@@ -350,7 +350,7 @@ export function InsetMap({
       .then(({ createCarLayer, carLayerId }) => {
         if (!active) return
         const { point, heading } = currentPosition.current
-        const car = createCarLayer(garage, point, heading)
+        const car = createCarLayer(garage, point, heading, data.mode === 'ferry')
         ready.addLayer(car.layer)
         car3d.current = car
         car.setSnow(currentProfile.current.snowy)

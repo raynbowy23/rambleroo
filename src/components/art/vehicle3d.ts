@@ -94,3 +94,44 @@ export function disposeVehicle(group: THREE.Object3D) {
     material.dispose()
   }
 }
+
+/** A toy car ferry for marine highways, bow north (+Y), Z up, about 7 units long; your car rides on the foredeck. */
+export function buildShip(garage: Garage) {
+  const group = new THREE.Group()
+  const material = (color: string) => new THREE.MeshStandardMaterial({ color, flatShading: true, roughness: 0.8 })
+  const hullInk = material('#f4efe1'),
+    deck = material('#cfc7b0'),
+    cabin = material('#e6dfca'),
+    windows = material('#3f5a63'),
+    funnel = material('#9c4b40'),
+    band = material('#252b22'),
+    car = material(garage.body)
+  // Hull: a pointed-bow outline extruded upward, so the ship reads as a boat from above and from the side.
+  const outline = new THREE.Shape()
+  outline.moveTo(-1.4, -3.4)
+  outline.lineTo(1.4, -3.4)
+  outline.lineTo(1.4, 1.2)
+  outline.quadraticCurveTo(1.3, 2.7, 0, 3.8)
+  outline.quadraticCurveTo(-1.3, 2.7, -1.4, 1.2)
+  outline.closePath()
+  const hull = new THREE.Mesh(new THREE.ExtrudeGeometry(outline, { depth: 0.9, bevelEnabled: false }), hullInk)
+  group.add(hull)
+  const box = (x: number, y: number, z: number, w: number, l: number, h: number, ink: THREE.Material) => {
+    const mesh = new THREE.Mesh(new THREE.BoxGeometry(w, l, h), ink)
+    mesh.position.set(x, y, z)
+    group.add(mesh)
+  }
+  box(0, 1.1, 0.95, 2.2, 2.6, 0.1, deck)
+  box(0, 1.1, 1.3, 0.9, 1.6, 0.6, car)
+  box(0, -1.7, 1.45, 2.3, 2.6, 1.1, cabin)
+  box(0, -0.42, 1.7, 2.32, 0.06, 0.28, windows)
+  const stack = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.36, 0.9, 12), funnel)
+  stack.rotation.x = Math.PI / 2
+  stack.position.set(0, -2.2, 2.4)
+  group.add(stack)
+  const top = new THREE.Mesh(new THREE.CylinderGeometry(0.33, 0.33, 0.18, 12), band)
+  top.rotation.x = Math.PI / 2
+  top.position.set(0, -2.2, 2.9)
+  group.add(top)
+  return group
+}

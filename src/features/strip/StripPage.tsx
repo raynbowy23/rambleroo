@@ -5,7 +5,7 @@ import { useByway, useStory } from '../../lib/data'
 import { GarageControls } from '../garage/GarageControls'
 import { Dialog } from '../../components/ui/Dialog'
 import { useGarage } from '../../lib/garage'
-import { Scene, Vehicle } from '../../components/art'
+import { Scene, Ship, Vehicle } from '../../components/art'
 import { usePassport } from '../../lib/passport'
 import { useMotionEnabled } from '../../lib/motion'
 import type { BywaySummary, PostcardLook } from '../../lib/types'
@@ -157,9 +157,11 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       }
       if (progressCar.current) progressCar.current.style.left = `${percent}%`
       const ribbon = geometry[on]!
+      // A round car picture stays upright; the ship and drawn cars turn with the road.
+      const picture = garage.usePicture && !ferry
       if (car.current) {
         const angle = (Math.atan2(ribbon.offset(mile + 0.05) - ribbon.offset(mile - 0.05), 0.1 * scale) * 180) / Math.PI
-        car.current.style.transform = `translate(${active.rect.left + active.rect.width / 2 + ribbon.offset(mile) - 15}px, ${active.rect.top + (mile - from) * scale - (garage.usePicture ? 15 : 26)}px) rotate(${garage.usePicture ? 0 : 180 - angle}deg)`
+        car.current.style.transform = `translate(${active.rect.left + active.rect.width / 2 + ribbon.offset(mile) - 15}px, ${active.rect.top + (mile - from) * scale - (picture ? 15 : 26)}px) rotate(${picture ? 0 : 180 - angle}deg)`
         car.current.style.opacity = active.rect.top <= middle && active.rect.bottom >= middle ? (inGap ? '0.35' : '1') : '0'
       }
       lastPosition.current = [coordinateAtMile(route, mile), inGap, route, mile]
@@ -179,7 +181,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
       window.removeEventListener('scroll', schedule)
       window.removeEventListener('resize', schedule)
     }
-  }, [data, geometry, tipOpen, scale, garage.usePicture, relief, phone])
+  }, [data, geometry, tipOpen, scale, garage.usePicture, ferry, relief, phone])
   const select = (stretch: Stretch) => {
     trigger.current = document.activeElement as HTMLElement
     setParams(
@@ -385,7 +387,7 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
               </button>
             ))}
           <div ref={progressCar} className={s.progressCar} aria-hidden="true">
-            <Vehicle view="top" size={20} {...garage} />
+            {ferry ? <Ship size={20} body={garage.body} /> : <Vehicle view="top" size={20} {...garage} />}
           </div>
         </nav>
         <output ref={counter} data-testid="mile-counter">
@@ -471,7 +473,8 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
         </div>
       </div>
       <div ref={car} className={s.car} aria-hidden="true">
-        <Vehicle view="top" size={30} {...garage} />
+        {/* On a ferry route you sail: the car rides aboard a ship. */}
+        {ferry ? <Ship size={30} body={garage.body} /> : <Vehicle view="top" size={30} {...garage} />}
       </div>
       {garageOpen && (
         <Dialog title="Your car" onClose={() => setGarageOpen(false)}>
