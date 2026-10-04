@@ -5,13 +5,13 @@
 //     through Wikipedia/Wikidata waypoints with OSRM on OpenStreetMap data. Each route must use the roads the drive is known
 //     by (checked against OSRM step names), or the build fails rather than publish a shortcut.
 // Usage: npx tsx scripts/ingest/build-supplements.ts
+import { stateSources, supplementFile } from '../states/sources.ts'
 import { readFile, writeFile } from 'node:fs/promises'
 import type { Feature, LineString, Position } from 'geojson'
 
 const ROOT = new URL('../../', import.meta.url)
 const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway catalog; personal project)' }
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
-const WISDOT = 'https://dotmaps.wi.gov/arcgis/rest/services/agohub/SCENIC_BYWAYS/MapServer/0'
 
 async function getJson(url: string) {
   for (let i = 0; i < 8; i++) {
@@ -71,33 +71,33 @@ const feature = (
   geometry: { type: 'LineString', coordinates: line },
 })
 
-// ---------- 1. WisDOT ----------
-// IDs 990001+ never collide with USDOT BYWAY_IDs; designations follow WisDOT's own byway page.
-const wisdotByways = [
-  {
-    name: 'Wisconsin Lake Superior Scenic Byway',
-    id: 990001,
-    designation: 'National Scenic Byway, Wisconsin State Scenic Byway',
-    nsb: true,
-  },
-  { name: 'Nicolet-Wolf River Scenic Byway', id: 990002, designation: 'Wisconsin State Scenic Byway', nsb: false },
-]
-const wisdot: Feature<LineString, Props>[] = []
+// State agency lines retain source order and the existing Wisconsin feature IDs and property schema.
 let fid = 9_000_000
-for (const b of wisdotByways) {
-  const q = new URLSearchParams({ where: `BYWAY='${b.name}'`, outFields: '*', outSR: '4326', f: 'geojson' })
-  const d = await getJson(`${WISDOT}/query?${q}`)
-  for (const f of d.features) {
-    const lines: Position[][] = f.geometry.type === 'LineString' ? [f.geometry.coordinates] : f.geometry.coordinates
-    for (const line of lines) wisdot.push(feature(fid++, b.id, b.name, 'WI', b.designation, b.nsb, line))
+let stateFeatureCount = 0
+for (const source of stateSources) {
+  const features: Feature<LineString, Props>[] = []
+  for (const b of source.byways) {
+    const q = new URLSearchParams({
+      where: `${source.nameField}='${b.name.replaceAll("'", "''")}'`,
+      outFields: '*',
+      outSR: '4326',
+      f: 'geojson',
+    })
+    const d = await getJson(`${source.layer}/query?${q}`)
+    for (const f of d.features) {
+      const lines: Position[][] = f.geometry.type === 'LineString' ? [f.geometry.coordinates] : f.geometry.coordinates
+      for (const line of lines) features.push(feature(fid++, b.id, b.name, source.state, b.designation, b.nsb, line))
+    }
+    const pieces = features.filter((f) => f.properties.BYWAY_ID === b.id)
+    const total = pieces.reduce((s, f) => s + f.properties.LENGTH, 0)
+    console.log(`${source.agency} ${b.name}: ${Math.round(total)} mi in ${pieces.length} pieces`)
   }
-  const total = wisdot.filter((f) => f.properties.BYWAY_ID === b.id).reduce((s, f) => s + f.properties.LENGTH, 0)
-  console.log(`WisDOT ${b.name}: ${Math.round(total)} mi in ${wisdot.filter((f) => f.properties.BYWAY_ID === b.id).length} pieces`)
+  await writeFile(
+    new URL(`data/raw/${supplementFile(source.state)}`, ROOT),
+    JSON.stringify({ type: 'FeatureCollection', source: source.layer, retrievedAt: new Date().toISOString(), features }),
+  )
+  stateFeatureCount += features.length
 }
-await writeFile(
-  new URL('data/raw/supplement-wisdot.geojson', ROOT),
-  JSON.stringify({ type: 'FeatureCollection', source: WISDOT, retrievedAt: new Date().toISOString(), features: wisdot }),
-)
 
 // ---------- 2. Classic drives ----------
 interface Classic {
@@ -182,4 +182,4 @@ await writeFile(
     features: classicFeatures,
   }),
 )
-console.log(`wrote ${wisdot.length} WisDOT and ${classicFeatures.length} classic features`)
+console.log(`wrote ${stateFeatureCount} state agency and ${classicFeatures.length} classic features`)

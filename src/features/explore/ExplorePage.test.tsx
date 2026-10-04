@@ -2,6 +2,7 @@ import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest'
 import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { MemoryRouter, useLocation, useNavigate } from 'react-router'
 import ExplorePage from './ExplorePage'
+import { stateChapters } from '../../lib/data'
 import { usePassport } from '../../lib/passport'
 import type { BywaySummary } from '../../lib/types'
 vi.mock('../map/BywayMap', () => ({
@@ -70,6 +71,19 @@ beforeEach(() => {
   usePassport.setState({ saved: {}, visits: [], lastStampId: null })
 })
 describe('explorer loop', () => {
+  it('offers existing chapters while keeping every state available as a catalog filter', async () => {
+    render(
+      <MemoryRouter>
+        <Harness />
+      </MemoryRouter>,
+    )
+    await screen.findByRole('button', { name: /River Road WI/ })
+    const chapters = screen.getByRole('combobox', { name: 'Browse by state' }) as HTMLSelectElement
+    expect([...chapters.options].map((option) => option.value)).toEqual(['', ...Object.keys(stateChapters)])
+    for (const filter of screen.getAllByRole('combobox', { name: 'State' })) {
+      expect([...(filter as HTMLSelectElement).options].map((option) => option.value)).toContain('CA')
+    }
+  })
   it('selects by keyboard-accessible result, saves, and closes with Escape restoring focus', async () => {
     render(
       <MemoryRouter>

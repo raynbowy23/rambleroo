@@ -85,11 +85,16 @@ export default function StatePage() {
                   {visible.map((m) => {
                     const road = m.bywayId ? byId.get(m.bywayId) : undefined
                     return road ? (
-                      <Postcard layout="card" byway={road} key={m.name} stateCode={code} />
+                      <Postcard layout="card" byway={road} key={m.name} stateCode={code} officialUrl={m.url} />
                     ) : (
                       <article className={s.pending} key={m.name}>
                         <span className="kicker">Route line pending</span>
                         <h3>{m.name}</h3>
+                        {m.url && (
+                          <small>
+                            <a href={m.url}>Official page</a>
+                          </small>
+                        )}
                         <p>{'note' in m ? m.note : 'This route is not available in the catalog.'}</p>
                       </article>
                     )

@@ -1,0 +1,23 @@
+[
+  {
+    "state": "WI",
+    "agency": "Wisconsin Department of Transportation",
+    "layer": "https://dotmaps.wi.gov/arcgis/rest/services/agohub/SCENIC_BYWAYS/MapServer/0",
+    "nameField": "BYWAY",
+    "comment": "Supplement IDs use 99SSNN: SS is the state FIPS code, NN starts at 01. Wisconsin retains legacy IDs 990001 and 990002 instead of the 9955NN pattern.",
+    "byways": [
+      {
+        "name": "Wisconsin Lake Superior Scenic Byway",
+        "id": 990001,
+        "designation": "National Scenic Byway, Wisconsin State Scenic Byway",
+        "nsb": true
+      },
+      {
+        "name": "Nicolet-Wolf River Scenic Byway",
+        "id": 990002,
+        "designation": "Wisconsin State Scenic Byway",
+        "nsb": false
+      }
+    ]
+  }
+]

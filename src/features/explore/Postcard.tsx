@@ -25,6 +25,7 @@ export function Postcard({
   layout,
   saveLabel,
   stateCode,
+  officialUrl,
 }: {
   byway: BywaySummary
   onClose?: () => void
@@ -35,6 +36,7 @@ export function Postcard({
   layout?: 'card' | 'gallery'
   saveLabel?: string
   stateCode?: string
+  officialUrl?: string
 }) {
   const gallery = layout === 'gallery'
   const [editing, setEditing] = useState(false)
@@ -90,6 +92,11 @@ export function Postcard({
               b.name
             )}
           </h2>
+          {officialUrl && (
+            <small>
+              <a href={officialUrl}>Official page</a>
+            </small>
+          )}
           <p className={styles.tagline}>{story?.tagline ?? listingDescription(b)}</p>
           <div className={styles.facts}>
             <span>{stateNames(b.states)}</span>

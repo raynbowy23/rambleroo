@@ -1,3 +1,4 @@
+import { supplementFiles } from '../states/sources.ts'
 // Normalises the raw snapshots in data/raw/ into the display data the app loads from public/data/.
 // Run with `npm run ingest:build` after `npm run ingest:fetch`. Deterministic for a given snapshot.
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises'
@@ -38,7 +39,7 @@ async function main() {
   const manifest = await readJson<any>(new URL('manifest.json', RAW))
   const raw = await readJson<FeatureCollection<LineString | MultiLineString, RawProps>>(new URL('scenic_byways.geojson', RAW))
   // Supplements (scripts/ingest/build-supplements.ts): WisDOT byways missing federally, and classic drives. Same schema.
-  for (const name of ['supplement-wisdot.geojson', 'supplement-classics.geojson']) {
+  for (const name of supplementFiles) {
     const extra = await readJson<FeatureCollection<LineString | MultiLineString, RawProps>>(new URL(name, RAW)).catch(() => undefined)
     if (extra) raw.features.push(...extra.features)
   }

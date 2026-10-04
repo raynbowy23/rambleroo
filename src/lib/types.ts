@@ -157,3 +157,17 @@ export interface Visit {
   note: string
   createdAt: string
 }
+
+export interface StateChapter {
+  code: string
+  name: string
+  tagline: string
+  intro: string
+  bbox?: [number, number, number, number]
+  programs: {
+    label: string
+    issuer: string
+    members: { name: string; bywayId: string | null; note?: string; url?: string }[]
+  }[]
+  sources: { label: string; url: string }[]
+}

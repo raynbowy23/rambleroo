@@ -3,7 +3,10 @@ import { describe, expect, it } from 'vitest'
 import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { inferThemes, pickScene, slugify, hashSeed } from './classify'
 import { lookKey, visibleKey } from './looks'
-import type { BywaySummary, BywayStory, Collection } from '../../src/lib/types'
+import type { BywaySummary, BywayStory, Collection, StateChapter } from '../../src/lib/types'
+
+import { stateSources } from '../states/sources'
+import { stateFips } from '../states/fips'
 
 const root = new URL('../../', import.meta.url)
 const json = <T>(rel: string): T => JSON.parse(readFileSync(new URL(rel, root), 'utf8'))
@@ -84,11 +87,46 @@ describe('content', () => {
     for (const c of json<Collection[]>('content/collections.json'))
       for (const id of c.bywayIds) expect(byId.has(id), `${c.slug}: ${id}`).toBe(true)
   })
-  it('state chapter members are either mapped byways in that state or explicitly pending', () => {
-    const wi = json<{ code: string; programs: { members: { bywayId: string | null; note?: string }[] }[] }>('content/states/WI.json')
-    for (const m of wi.programs.flatMap((p) => p.members)) {
-      if (m.bywayId) expect(byId.get(m.bywayId)?.states).toContain(wi.code)
-      else expect(m.note).toBeTruthy()
+  const chapterFiles = readdirSync(new URL('content/states/', root)).filter((file) => file.endsWith('.json'))
+  it.each(chapterFiles)('chapter %s has valid members and HTTPS links', (file) => {
+    const chapter = json<StateChapter>(`content/states/${file}`)
+    expect(file).toBe(`${chapter.code}.json`)
+    expect(stateFips[chapter.code]).toBeDefined()
+    const ids = new Set<string>()
+    const names = new Set<string>()
+    for (const member of chapter.programs.flatMap((program) => program.members)) {
+      const name = member.name.trim().toLowerCase()
+      expect(names.has(name), `${file}: duplicate ${member.name}`).toBe(false)
+      names.add(name)
+      if (member.bywayId) {
+        expect(byId.get(member.bywayId)?.states, member.bywayId).toContain(chapter.code)
+        expect(ids.has(member.bywayId), `${file}: duplicate ${member.bywayId}`).toBe(false)
+        ids.add(member.bywayId)
+      } else expect(member.note).toBeTruthy()
+      if (member.url !== undefined) expect(new URL(member.url).protocol).toBe('https:')
+    }
+    for (const source of chapter.sources) expect(new URL(source.url).protocol).toBe('https:')
+  })
+  it('state sources have HTTPS layers and unique IDs using their state FIPS code', () => {
+    const states = new Set<string>()
+    const ids = new Set<number>()
+    for (const source of stateSources) {
+      expect(states.has(source.state)).toBe(false)
+      states.add(source.state)
+      expect(stateFips[source.state], source.state).toBeDefined()
+      expect(new URL(source.layer).protocol).toBe('https:')
+      expect(source.nameField).toMatch(/^[A-Za-z_][A-Za-z0-9_]*$/)
+      for (const byway of source.byways) {
+        expect(Number.isInteger(byway.id)).toBe(true)
+        expect(ids.has(byway.id), `duplicate ${byway.id}`).toBe(false)
+        ids.add(byway.id)
+        const legacy = source.state === 'WI' && [990001, 990002].includes(byway.id)
+        if (legacy) expect(source.comment).toContain('legacy')
+        else {
+          expect(String(byway.id)).toMatch(new RegExp(`^99${stateFips[source.state]}[0-9]{2}$`))
+          expect(byway.id % 100).toBeGreaterThan(0)
+        }
+      }
     }
   })
 })

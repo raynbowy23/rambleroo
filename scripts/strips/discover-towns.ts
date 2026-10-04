@@ -1,3 +1,4 @@
+import { supplementFiles } from '../states/sources.ts'
 // Drafts a strip content file for a byway that has none yet: finds towns along the road with Wikipedia's geosearch and writes
 // content/strips/<id>.json marked `generated: true`. build-strip.ts then orders the towns by mile and drafts stretches between
 // them. Nothing here is editorial: the output says so in the UI until someone reviews it.
@@ -76,8 +77,8 @@ const raw = await json<{
   features: { properties: { BYWAY_ID: number }; geometry: { type: string; coordinates: Position[] | Position[][] } }[]
 }>('data/raw/scenic_byways.geojson')
 // Supplemental sources (WisDOT byways, classic drives) share the schema.
-for (const name of ['supplement-wisdot', 'supplement-classics']) {
-  const extra = await json<typeof raw>(`data/raw/${name}.geojson`).catch(() => undefined)
+for (const name of supplementFiles) {
+  const extra = await json<typeof raw>(`data/raw/${name}`).catch(() => undefined)
   if (extra) raw.features.push(...extra.features)
 }
 

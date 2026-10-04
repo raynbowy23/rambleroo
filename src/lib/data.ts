@@ -1,10 +1,12 @@
 import photoData from '../../content/photos.json'
 import { useEffect, useState } from 'react'
-import type { BywaySummary, BywayStory, Collection, Photo } from './types'
+import type { BywaySummary, BywayStory, Collection, Photo, StateChapter } from './types'
 import collectionData from '../../content/collections.json'
-import wisconsin from '../../content/states/WI.json'
 export const collections: Collection[] = collectionData as Collection[]
-export const stateChapters: Record<string, typeof wisconsin> = { WI: wisconsin }
+const chapterModules = import.meta.glob<StateChapter>('../../content/states/*.json', { eager: true, import: 'default' })
+export const stateChapters: Record<string, StateChapter> = Object.fromEntries(
+  Object.values(chapterModules).map((chapter) => [chapter.code, chapter]),
+)
 export interface CatalogMeta {
   builtAt: string
   retrievedAt: string

@@ -49,6 +49,8 @@ Rambleroo is mobile-first below 760px: the explorer map fills the screen with a 
 
 ## Data
 
+Check chapter source and member links by hand with `npx tsx scripts/states/check-links.ts` (reports failed URLs and redirects to another host).
+
 ```bash
 npm run ingest:fetch   # raw snapshots into data/raw/ (USDOT byway layer, Natural Earth), with manifest + sha256
 npx tsx scripts/ingest/build-supplements.ts  # WisDOT byways missing federally + classic drives (content/classics.json)
