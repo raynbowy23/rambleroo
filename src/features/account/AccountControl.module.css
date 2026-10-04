@@ -50,3 +50,24 @@
     display: none;
   }
 }
+
+.or {
+  margin: 4px 0;
+  text-align: center;
+  color: var(--ink-soft);
+}
+.emailForm {
+  display: grid;
+  gap: 12px;
+}
+.emailForm label {
+  display: grid;
+  gap: 4px;
+}
+.emailForm input {
+  min-height: 44px;
+}
+/* Turnstile's managed widget is 300 × 65 px when it shows; most visitors pass without seeing a challenge. */
+.turnstile:empty {
+  display: none;
+}

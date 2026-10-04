@@ -11,6 +11,7 @@ import {
 } from '../../lib/account'
 import { Dialog } from '../../components/ui/Dialog'
 import styles from './AccountControl.module.css'
+import { SignInDialog } from './SignInDialog'
 
 export function AccountBridge() {
   const { data, isPending, error } = accountClient.useSession()
@@ -49,6 +50,7 @@ export function AccountBridge() {
 export function AccountControl({ placement }: { placement: 'header' | 'passport' }) {
   const { user, status } = useAccount()
   const [open, setOpen] = useState(false)
+  const [signingIn, setSigningIn] = useState(false)
   const [deleting, setDeleting] = useState(false)
   const [confirmation, setConfirmation] = useState('')
   const [busy, setBusy] = useState(false)
@@ -98,20 +100,12 @@ export function AccountControl({ placement }: { placement: 'header' | 'passport'
           )}
         </>
       ) : (
-        <button
-          className="btn"
-          disabled={busy}
-          onClick={() =>
-            void run(async () => {
-              const result = await accountClient.signIn.social({ provider: 'google', callbackURL: window.location.href })
-              if (result.error) throw new Error(result.error.message ?? 'Could not sign in.')
-            })
-          }
-        >
+        <button className="btn" disabled={busy} onClick={() => setSigningIn(true)}>
           Sign in
         </button>
       )}
       {error && <p role="alert">{error}</p>}
+      {signingIn && <SignInDialog onClose={() => setSigningIn(false)} />}
       {deleting && (
         <Dialog
           title="Delete your account?"

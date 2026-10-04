@@ -113,6 +113,12 @@ export default function PrivacyPage() {
         policy. Showing your profile picture also sends a request to its image host.
       </p>
       <p>
+        You can instead sign in with an email link. We then store your email address, and a one-time link valid for 15 minutes is sent to it
+        through Resend, our email delivery service. To stop automated abuse of that form, it loads Cloudflare Turnstile, which checks your
+        browser when you open the email sign-in form and sends Cloudflare technical signals for that check. It is not loaded anywhere else
+        and is not used for advertising.
+      </p>
+      <p>
         Account data is stored on Cloudflare in its D1 database: your passport (saved roads and stretches, visits, notes and kept
         postcards), trip road order, car choices, and postcard customizations. Your own photo files and their browser references are not
         uploaded. On your first sign-in here, we ask before bringing existing browser data into your account. After that, changes made while
