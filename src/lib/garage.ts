@@ -54,11 +54,22 @@ export function validateGarage(input: Partial<Garage>): Garage {
         : 'RAMBLE',
   }
 }
-export const useGarage = create<Garage & { update: (patch: Partial<Garage>) => void }>()(
-  persist((set, get) => ({ ...defaultGarage, update: (patch) => set(validateGarage({ ...get(), ...patch })) }), {
-    name: 'rambleroo.garage.v1',
-    storage: createJSONStorage(() => safeStorage),
-    partialize: (state) => validateGarage(state),
-    merge: (saved, current) => ({ ...current, ...validateGarage((saved ?? {}) as Partial<Garage>) }),
-  }),
+export const useGarage = create<Garage & { updatedAt: number; update: (patch: Partial<Garage>) => void }>()(
+  persist(
+    (set, get) => ({
+      ...defaultGarage,
+      updatedAt: 0,
+      update: (patch) => set({ ...validateGarage({ ...get(), ...patch }), updatedAt: Date.now() }),
+    }),
+    {
+      name: 'rambleroo.garage.v1',
+      storage: createJSONStorage(() => safeStorage),
+      partialize: (state) => ({ ...validateGarage(state), updatedAt: state.updatedAt }),
+      merge: (saved, current) => ({
+        ...current,
+        ...validateGarage((saved ?? {}) as Partial<Garage>),
+        updatedAt: Number((saved as { updatedAt?: number })?.updatedAt) || 0,
+      }),
+    },
+  ),
 )

@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": { "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.worker.tsbuildinfo" },
+  "include": ["worker/**/*.ts"],
+  "exclude": ["worker/**/*.test.ts"]
+}

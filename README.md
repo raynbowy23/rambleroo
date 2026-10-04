@@ -65,3 +65,30 @@ src/features/       explore, map, byway, state, collections, passport, about
 src/lib/            types, data hooks, filters, formatting, passport store and system motion preference
 tests/e2e/          Playwright loop test
 ```
+
+## Accounts and local development
+
+Accounts use Google only, through Better Auth's built-in Kysely/D1 support. [Better Auth documents its D1 storage and core schema](https://better-auth.com/docs/concepts/database). There is no password sign-in or runtime migration. Apply the checked-in migrations before serving account requests. The four JSON documents each have a 256 KiB limit; their `updated_at` values are optimistic concurrency tokens. Garage/postcard `updatedAt` timestamps select the newer whole document when merging. Device clocks therefore affect those conflict choices.
+
+Use Node 22.13+ (or Node 23 with the configured experimental SQLite flag) for the SQLite-backed Worker tests. Install dependencies with `npm install`. Create `.dev.vars` in the repository root (already gitignored; never commit real values):
+
+```dotenv
+AUTH_URL=http://localhost:5173
+GOOGLE_CLIENT_ID=your-development-google-client-id
+GOOGLE_CLIENT_SECRET=your-development-google-client-secret
+BETTER_AUTH_SECRET=use-a-random-secret-of-at-least-32-characters
+```
+
+Register `http://localhost:5173/api/auth/callback/google` as an authorized redirect URI in the development Google OAuth client. Use **localhost**, not a LAN hostname, for local sign-in: session cookies always have Secure set, and browsers special-case localhost. The production redirect is `https://rambleroo.app/api/auth/callback/google`. The public `AUTH_URL` must be the browser-facing origin, not port 8787.
+
+```sh
+npx wrangler d1 migrations apply rambleroo-db --local
+npm run build
+npx wrangler dev --port 8787
+```
+
+In another terminal run `npm run dev` and open `http://localhost:5173`. Vite proxies `/api` to Wrangler on port 8787, preserving the browser origin. If Vite selects a different port, update `AUTH_URL` and the Google redirect URI to match and restart Wrangler. Local D1 is separate from production. For production, apply migrations with `npx wrangler d1 migrations apply rambleroo-db --remote`, set `GOOGLE_CLIENT_SECRET` and `BETTER_AUTH_SECRET` using `wrangler secret put`, and deploy. Email links, Resend and Turnstile are not enabled in this phase.
+
+On first sign-in per account/browser, existing browser data can be imported or left local. Signed-in edits debounce for 1.5 seconds. Pending writes and their base versions are saved per account in localStorage and retried after reconnecting, on the next sign-in, or with “Retry sync”. A 409 merges and retries once; a second conflict stays pending for an explicit retry. Signed-out browser data is backed up separately and restored on sign-out. Account export waits for pending changes to sync before downloading the server’s saved copy. Photos in IndexedDB never sync or appear in account exports.
+
+Before launch, verify with real development Google credentials: the callback succeeds; the session cookie is Secure/HttpOnly/SameSite=Lax with a 60-day lifetime; first-import accept/decline works; a second browser loads all four kinds; simultaneous edits produce the documented merge; offline changes survive reload and sync on reconnect; sign-out restores browser-only data; export contains the expected saved records and no tokens/photos; typed deletion removes user/session/account/user_data rows and invalidates the other browser's session. Google is not called by automated tests.

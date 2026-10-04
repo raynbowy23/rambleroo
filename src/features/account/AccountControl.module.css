@@ -1,0 +1,52 @@
+.header,
+.passport {
+  position: relative;
+}
+.passport {
+  margin-block: 12px;
+}
+.identity {
+  max-width: 180px;
+}
+.identity span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.identity img {
+  border-radius: 50%;
+}
+.menu {
+  position: absolute;
+  z-index: 50;
+  right: 0;
+  top: 100%;
+  width: min(300px, 85vw);
+  padding: 16px;
+  background: var(--card);
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-2);
+  display: grid;
+  gap: 8px;
+}
+.passport .menu {
+  left: 0;
+  right: auto;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+@media (max-width: 759px) {
+  .header {
+    display: none;
+  }
+}
+@media (min-width: 760px) {
+  .passport {
+    display: none;
+  }
+}

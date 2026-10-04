@@ -1,3 +1,5 @@
+import { AccountControl } from '../account/AccountControl'
+import { useAccount } from '../../lib/account'
 import { KeptMilestoneCard } from '../postcard/MilestonePostcard'
 import { GarageControls } from '../garage/GarageControls'
 import { SavedStretches } from '../strip/SavedStretches'
@@ -20,6 +22,7 @@ import { PassportBook } from './PassportBook'
 import { VisitEditor } from './VisitEditor'
 import s from '../../components/ui/Content.module.css'
 export default function PassportPage() {
+  const accountStatus = useAccount((state) => state.status)
   const passport = usePassport()
   const { byways, byId, status } = useCatalog()
   const counts = passportCounts(passport, byways)
@@ -76,7 +79,10 @@ export default function PassportPage() {
           <p>
             {counts.visits} {counts.visits === 1 ? 'visit' : 'visits'} recorded
           </p>
-          <p className={s.muted}>Saved in this browser. Accounts and sync come later.</p>
+          <p className={s.muted} role="status">
+            {accountStatus}
+          </p>
+          <AccountControl placement="passport" />
           <Link viewTransition className="btn btn-primary" to="/">
             Find a road
           </Link>

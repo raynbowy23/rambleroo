@@ -6,6 +6,7 @@ import { defineConfig } from 'vite'
 const manifest = JSON.parse(readFileSync(new URL('./public/site.webmanifest', import.meta.url), 'utf8'))
 
 export default defineConfig({
+  server: { proxy: { '/api': { target: 'http://127.0.0.1:8787', changeOrigin: false } } },
   plugins: [
     react(),
     VitePWA({
@@ -22,7 +23,7 @@ export default defineConfig({
         globIgnores: ['data/**', 'photos/**', 'assets/car3d-*.js'],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         navigateFallback: '/index.html',
-        navigateFallbackDenylist: [/^\/data\//, /^\/photos\//],
+        navigateFallbackDenylist: [/^\/api\//, /^\/data\//, /^\/photos\//],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.origin === 'https://tiles.openfreemap.org',

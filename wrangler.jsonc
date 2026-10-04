@@ -6,21 +6,29 @@
   "name": "rambleroo",
   "main": "worker/index.ts",
   "compatibility_date": "2026-10-03",
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api/*"]
+    "run_worker_first": ["/api/*"],
   },
   "routes": [
     { "pattern": "rambleroo.app", "custom_domain": true },
-    { "pattern": "www.rambleroo.app", "custom_domain": true }
+    { "pattern": "www.rambleroo.app", "custom_domain": true },
   ],
   "observability": { "enabled": true },
-  "d1_databases": [{ "binding": "DB", "database_name": "rambleroo-db", "database_id": "9e0c4bea-ec2c-4f35-8577-e66a49b48a2d", "migrations_dir": "migrations" }],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "rambleroo-db",
+      "database_id": "9e0c4bea-ec2c-4f35-8577-e66a49b48a2d",
+      "migrations_dir": "migrations",
+    },
+  ],
   // Public settings. Secrets (GOOGLE_CLIENT_SECRET, BETTER_AUTH_SECRET, RESEND_API_KEY, TURNSTILE_SECRET) are set with `wrangler secret put`.
   "vars": {
     "AUTH_URL": "https://rambleroo.app",
-    "GOOGLE_CLIENT_ID": "876238604144-5hr3vgei01v0jme9l7l7rclndadum3i8.apps.googleusercontent.com"
-  }
+    "GOOGLE_CLIENT_ID": "876238604144-5hr3vgei01v0jme9l7l7rclndadum3i8.apps.googleusercontent.com",
+  },
 }

@@ -16,14 +16,14 @@ export default function PrivacyPage() {
 
       <h2>The short version</h2>
       <ul>
-        <li>You can use everything without an account.</li>
+        <li>You can explore roads and keep a local passport without an account.</li>
         <li>
-          Your trip, saved roads, stretches, visits, notes and postcards are stored only in this browser, on this device. We do not receive
-          them.
+          Without an account, your trip, saved roads, stretches, visits, notes, car and postcards stay in this browser. When you sign in,
+          your account data syncs across devices. Your own photos stay on this device.
         </li>
         <li>
           On rambleroo.app we ask before using Google Analytics cookies to count visits. If you decline, no analytics cookie is set. We use
-          no advertising, and we never sell or share personal information.
+          no advertising and do not sell your personal information. Hosting and sign-in providers handle information as described below.
         </li>
         <li>{LOCATION_POLICY}</li>
       </ul>
@@ -31,9 +31,10 @@ export default function PrivacyPage() {
       <h2>What is stored, and where</h2>
       <p>
         Your trip and passport (saved roads and stretches, visits with their dates, scope and notes) are kept in your browser’s local
-        storage. It never leaves your device unless you choose to export it. You can download it, import it on another browser, or clear it
-        at any time from the <Link to="/passport">Passport</Link> page. Clearing your browser’s site data also deletes it. Because we never
-        hold a copy, we cannot recover it for you if it is deleted.
+        storage. Without signing in, it only leaves this device when you choose to export or share it. You can download it, import it on
+        another browser, or clear it from the <Link to="/passport">Passport</Link> page. Clearing site data deletes the browser copy. We
+        cannot recover browser-only data. When signed in, changes sync to your account; unsent changes need this browser to stay available
+        until they sync.
       </p>
       <p>
         So that Rambleroo keeps working offline, your browser also caches the app and the pages, route data and photos you have opened. This
@@ -41,10 +42,11 @@ export default function PrivacyPage() {
       </p>
 
       <p>
-        Your car choices and postcard customizations are stored locally, like your passport. Your car picture and photos you add to
+        Your car choices and postcard customizations are stored locally, and sync when you sign in. Your car picture and photos you add to
         postcards stay in this browser’s storage (IndexedDB) and are never uploaded by Rambleroo. They are not included in the passport
-        export file; card customizations are also excluded. Clearing the passport can also remove your added photos. Clearing site data
-        removes them too. If you choose to share or download a postcard image, that image includes the photo you selected.
+        export file. Card customizations are included in the account export, but not the browser passport export. Clearing the passport can
+        also remove your added photos. Clearing site data removes them too. If you choose to share or download a postcard image, that image
+        includes the photo you selected.
       </p>
 
       <h2>What reaches our server</h2>
@@ -71,12 +73,17 @@ export default function PrivacyPage() {
         Some actions open another service, which then handles your information under its own policy: “Drive this stretch” and directions
         open Google Maps; share buttons open email, X, Facebook, Bluesky or Reddit with a link and short text you can edit; credits link to
         Wikipedia and Wikimedia Commons. A note you typed on a postcard is included in a share only when you choose to share it, and the
-        page tells you when that will happen. Nothing is sent to these services unless you tap the link.
+        page tells you when that will happen. These actions send information only when you choose them. Google sign-in and profile pictures
+        are described below.
       </p>
 
       <h2 id="cookies">Cookies and analytics</h2>
       <p>
-        On rambleroo.app, a banner asks whether we may count visits with Google Analytics. Nothing from Google loads, and no analytics
+        The account session cookie <code>__Secure-rambleroo.session_token</code> and temporary sign-in cookie{' '}
+        <code>__Secure-rambleroo.oauth_state</code> are strictly necessary when you sign in. They do not depend on your analytics choice.
+      </p>
+      <p>
+        On rambleroo.app, a banner asks whether we may count visits with Google Analytics. Google Analytics does not load, and no analytics
         cookie is set, until you choose Accept. If you accept, Google Analytics sets these cookies:
       </p>
       <ul>
@@ -99,10 +106,31 @@ export default function PrivacyPage() {
         <code>rambleroo.</code>), and the offline cache of pages you have opened.
       </p>
 
-      <h2>Accounts (not available yet)</h2>
+      <h2>Optional accounts</h2>
       <p>
-        Optional accounts may be added later so you can keep your journeys across devices. If they are, this page will be updated before
-        they launch, and an account will only store what is needed to keep your journeys.
+        You can sign in with Google to sync across devices. We store your Google name, email address, profile picture URL and Google account
+        identifier, along with the authentication records needed to sign you in. Google handles its sign-in page under its own privacy
+        policy. Showing your profile picture also sends a request to its image host.
+      </p>
+      <p>
+        Account data is stored on Cloudflare in its D1 database: your passport (saved roads and stretches, visits, notes and kept
+        postcards), trip road order, car choices, and postcard customizations. Your own photo files and their browser references are not
+        uploaded. On your first sign-in here, we ask before bringing existing browser data into your account. After that, changes made while
+        signed in sync automatically. Conflicting saves can be combined; a removal may need repeating if another device changed the same
+        document.
+      </p>
+      <p>
+        A strictly necessary session cookie, <code>__Secure-rambleroo.session_token</code>, keeps you signed in for up to 60 days and may be
+        renewed while you use the app. It is secure, HTTP-only and SameSite Lax. It needs no analytics consent. A short-lived{' '}
+        <code>__Secure-rambleroo.oauth_state</code> cookie protects the sign-in handoff. Session records may also include your browser’s
+        user-agent information; account sign-in does not record your IP address in the session table. Our hosting request logs are separate.
+      </p>
+      <p>
+        In the account menu, “Export my data” downloads your stored profile, the four data kinds and sign-in metadata as JSON; it excludes
+        credentials, session tokens and photo files. “Delete my account” removes your user record, sessions, linked Google account record
+        and synced data from the live database. It does not delete your Google account or browser-only data and photos. Copies in hosting
+        backups or security logs may remain under Cloudflare’s retention practices. Signing out restores the browser-only data that was here
+        before sign-in.
       </p>
 
       <h2>Children</h2>

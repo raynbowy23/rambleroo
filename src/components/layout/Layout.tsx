@@ -1,3 +1,4 @@
+import { AccountBridge, AccountControl } from '../../features/account/AccountControl'
 import { ConsentBanner, CookieSettingsButton } from '../../features/consent/ConsentBanner'
 import { useTrip } from '../../lib/store'
 import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router'
@@ -43,6 +44,7 @@ export default function Layout() {
   )
   return (
     <>
+      <AccountBridge />
       <a href="#main-content" className={styles.skip}>
         Skip to content
       </a>
@@ -57,6 +59,7 @@ export default function Layout() {
         <Link viewTransition className={styles.about} to="/about">
           About the data
         </Link>
+        <AccountControl placement="header" />
       </header>
       {/* Keyed by path so browsers without the View Transitions API still get a soft fade-in (see .pageEnter). */}
       <div id="main-content" tabIndex={-1} key={pathname} className={supportsViewTransitions ? undefined : styles.pageEnter}>

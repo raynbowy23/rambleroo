@@ -29,24 +29,30 @@ export function validatePostcard(value: Partial<PostcardChoices>, defaults = pos
 export const creditedPhoto = (choices: Pick<PostcardChoices, 'front'>, photo?: Photo) => (choices.front === 'photo' ? photo : undefined)
 export const usePostcards = create<{
   cards: Record<string, PostcardChoices>
+  updatedAt: number
   update: (key: string, patch: Partial<PostcardChoices>, defaults?: PostcardChoices) => void
   clear: () => void
 }>()(
   persist(
     (set) => ({
       cards: {},
+      updatedAt: 0,
       update: (key, patch, defaults) =>
-        set((state) => ({ cards: { ...state.cards, [key]: validatePostcard({ ...(state.cards[key] ?? defaults), ...patch }, defaults) } })),
-      clear: () => set({ cards: {} }),
+        set((state) => ({
+          updatedAt: Date.now(),
+          cards: { ...state.cards, [key]: validatePostcard({ ...(state.cards[key] ?? defaults), ...patch }, defaults) },
+        })),
+      clear: () => set({ cards: {}, updatedAt: Date.now() }),
     }),
     {
       name: 'rambleroo.postcards.v1',
       storage: createJSONStorage(() => safeStorage),
-      partialize: (state) => ({ cards: state.cards }),
+      partialize: (state) => ({ cards: state.cards, updatedAt: state.updatedAt }),
       merge: (saved, current) => {
         const cards = (saved as { cards?: Record<string, PostcardChoices> } | undefined)?.cards
         return {
           ...current,
+          updatedAt: Number((saved as { updatedAt?: number })?.updatedAt) || 0,
           cards: Object.fromEntries(
             Object.entries(cards ?? {})
               .filter(([, value]) => value && typeof value === 'object')
