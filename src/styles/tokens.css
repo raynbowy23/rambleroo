@@ -40,29 +40,30 @@
   --sage: #a3ad8e;
   --terrain: #b9b594;
 
-  /* Map palette. Maps are artwork, so they get their own bright, playful vintage-poster colours, separate from the olive UI chrome.
-     palette() in src/features/map/style.ts reads --map-<name> first and falls back to --<name>. */
-  --map-paper: #fbf5e6;
-  --map-land-us: #f4e8c8;
-  --map-land: #e8dec4;
-  --map-water: #86b9c7;
-  --map-water-light: #b8dbe2;
-  --map-water-deep: #3f8fa6;
-  --map-line-strong: #cdb893;
-  --map-terrain: #e7b35c;
-  --map-gold: #f2b53a;
-  --map-signal: #e2672a;
-  --map-rust: #c8412f;
-  --map-ink: #2b2a26;
-  --map-forest: #2f8a4e;
-  --map-forest-2: #2f8a4e;
+  /* Map palette. Maps are artwork with their own colours, separate from the olive UI chrome: faded screen-print inks on aged map
+     paper, one distinct hue per road family but none at full saturation. palette() in src/features/map/style.ts reads --map-<name>
+     first and falls back to --<name>. */
+  --map-paper: #f6efdc;
+  --map-land-us: #ece1c6;
+  --map-land: #e1d8c2;
+  --map-water: #93b3b1;
+  --map-water-light: #c3d4cd;
+  --map-water-deep: #5c8a8c;
+  --map-line-strong: #c4b291;
+  --map-terrain: #cfa765;
+  --map-gold: #c99f4a;
+  --map-signal: #c8642f;
+  --map-rust: #9e4a3e;
+  --map-ink: #2e2b25;
+  --map-forest: #5a7a4c;
+  --map-forest-2: #5a7a4c;
   /* One colour per road family, shared by the map strokes, legend, strip ribbon and theme chips. */
-  --map-route-water: #2b8aa6;
-  --map-route-mountain: #7b5aa6;
-  --map-route-forest: #2f8a4e;
-  --map-route-desert: #e2672a;
-  --map-route-town: #c8412f;
-  --map-route-prairie: #d49a1f;
+  --map-route-water: #3f7d88;
+  --map-route-mountain: #74607e;
+  --map-route-forest: #557a4a;
+  --map-route-desert: #b9703f;
+  --map-route-town: #9c4b40;
+  --map-route-prairie: #ae8a3a;
 
   /* Scene palette used by illustrations */
   --sky-dawn: #f2d9b8;
