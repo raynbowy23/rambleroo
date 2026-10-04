@@ -7,3 +7,8 @@ data/raw/*.geojson
 test-results
 playwright-report
 data/photos/candidates.json
+
+# Cloudflare credentials and local state
+.env
+.dev.vars
+.wrangler/
