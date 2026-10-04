@@ -89,6 +89,11 @@ export function RouteMap({
             const ids = new Set(byways.map((b) => b.id))
             addBywayLayers(current, { ...data, features: data.features.filter((f) => ids.has(f.properties.id)) }, byways)
             const c = palette()
+            // Passport and collection maps colour roads by state (visited, saved, emphasised), so they keep plain lines at every zoom.
+            if (visited || emphasized.length) {
+              for (const layer of ['byway-art', 'byway-ink']) current.setLayoutProperty(layer, 'visibility', 'none')
+              current.setPaintProperty('byway-lines', 'line-opacity', 1)
+            }
             if (visited) {
               current.setPaintProperty('byway-lines', 'line-color', c('forest'))
               current.setFilter('byway-lines', ['in', ['get', 'id'], ['literal', visited]])

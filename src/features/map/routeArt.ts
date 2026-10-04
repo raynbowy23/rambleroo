@@ -7,14 +7,34 @@ import { flushSync } from 'react-dom'
 import { Vehicle } from '../../components/art/Vehicle'
 import { useGarage } from '../../lib/garage'
 
-// Power-of-two repeats keep the canvas textures seamless in MapLibre's image collection.
+// Power-of-two repeats keep the canvas textures seamless in MapLibre's image collection. Every motif has an unbroken line through the
+// tile (32 × 16, centre line at y 8 to 10), so roads read as continuous at any zoom; the ornaments ride along it like an old
+// pictorial map. `fill` holds closed shapes (tree crowns, desert stones) painted solid.
 export const strokes = [
-  { family: 'water', label: 'River / coast', color: 'route-water', path: 'M0 8Q4 2 8 8T16 8T24 8T32 8' },
-  { family: 'mountain', label: 'Mountain', color: 'route-mountain', path: 'M0 11L8 4L16 11L24 4L32 11' },
-  { family: 'forest', label: 'Forest', color: 'route-forest', path: 'M0 11H32M8 11V3M4 8L8 4L12 8M20 11V3M16 8L20 4L24 8' },
-  { family: 'desert', label: 'Desert', color: 'route-desert', path: 'M2 8H11M17 8H18M24 8H25' },
-  { family: 'stitch', label: 'Town', color: 'route-town', path: 'M2 9L12 7M18 9L28 7' },
-  { family: 'prairie', label: 'Prairie', color: 'route-prairie', path: 'M2 9L12 7M18 9L28 7' },
+  { family: 'water', label: 'River / coast', color: 'route-water', path: 'M0 8Q4 4 8 8T16 8T24 8T32 8', fill: '' },
+  { family: 'mountain', label: 'Mountain', color: 'route-mountain', path: 'M0 11L8 5L16 11L24 5L32 11', fill: '' },
+  {
+    family: 'forest',
+    label: 'Forest',
+    color: 'route-forest',
+    path: 'M0 11H32M8 11V8M24 11V8',
+    fill: 'M4.5 8.5L8 3L11.5 8.5ZM20.5 8.5L24 3L27.5 8.5Z',
+  },
+  {
+    family: 'desert',
+    label: 'Desert',
+    color: 'route-desert',
+    path: 'M0 10H32',
+    fill: 'M6 5.6a2.2 2.2 0 1 0 0.01 0ZM16 4.8a1.7 1.7 0 1 0 0.01 0ZM26 5.6a2.2 2.2 0 1 0 0.01 0Z',
+  },
+  { family: 'stitch', label: 'Town', color: 'route-town', path: 'M0 8H32M4 5V11M12 5V11M20 5V11M28 5V11', fill: '' },
+  {
+    family: 'prairie',
+    label: 'Prairie',
+    color: 'route-prairie',
+    path: 'M0 11H32M6 11L4.5 6M8 11L8 5.5M10 11L11.5 6M22 11L20.5 6M24 11L24 5.5M26 11L27.5 6',
+    fill: '',
+  },
 ] as const
 
 function canvasImage(map: Map, id: string, width: number, height: number, draw: (ctx: CanvasRenderingContext2D) => void) {
@@ -35,8 +55,10 @@ export function addRouteArt(map: Map) {
   for (const stroke of strokes) {
     canvasImage(map, `route-${stroke.family}`, 32, 16, (ctx) => {
       ctx.strokeStyle = c(stroke.color)
-      ctx.lineWidth = 2.6
+      ctx.fillStyle = c(stroke.color)
+      ctx.lineWidth = 2.2
       ctx.stroke(new Path2D(stroke.path))
+      if (stroke.fill) ctx.fill(new Path2D(stroke.fill))
     })
   }
   // Reserve dimensions immediately; decoded SVG replaces this transparent image.

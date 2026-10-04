@@ -55,7 +55,19 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
       'line-opacity': ['interpolate', ['linear'], ['zoom'], 7, 0.8, 8, 0],
     },
   })
-  // Solid, colour-coded lines at every zoom: patterned strokes broke up into dashes at the national view.
+  // National view: a hand-inked line (thin ink edge round the colour) so tiny roads still read crisply and never break into dashes.
+  map.addLayer({
+    id: 'byway-ink',
+    type: 'line',
+    source: 'byways',
+    maxzoom: 6,
+    layout: round,
+    paint: {
+      'line-color': c('ink'),
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 3, 5, 4.4],
+      'line-opacity': ['interpolate', ['linear'], ['zoom'], 2, 0.45, 4.6, 0.45, 5.6, 0],
+    },
+  })
   map.addLayer({
     id: 'byway-lines',
     type: 'line',
@@ -65,7 +77,35 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     paint: {
       'line-color': color,
       'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1.8, 5, 2.8, 8, 4.2],
-      'line-opacity': ['interpolate', ['linear'], ['zoom'], 7, 1, 8, 0],
+      'line-opacity': ['interpolate', ['linear'], ['zoom'], 4.6, 1, 5.6, 0],
+    },
+  })
+  // Closer in, each road wears its landscape motif (waves, zigzags, trees, stones, rail ties, grass) on an unbroken line.
+  map.addLayer({
+    id: 'byway-art',
+    type: 'line',
+    source: 'byways',
+    minzoom: 4.5,
+    maxzoom: 8,
+    layout: round,
+    paint: {
+      'line-pattern': [
+        'match',
+        ['get', 'scene'],
+        ['river', 'coast'],
+        'route-water',
+        'mountain',
+        'route-mountain',
+        'forest',
+        'route-forest',
+        'desert',
+        'route-desert',
+        'prairie',
+        'route-prairie',
+        'route-stitch',
+      ],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 4.5, 7, 6, 9, 8, 12],
+      'line-opacity': ['interpolate', ['linear'], ['zoom'], 4.6, 0, 5.6, 1, 7, 1, 8, 0],
     },
   })
   for (const [id, color, width] of [
@@ -163,7 +203,9 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
 
 export const filteredLayers = [
   'byway-casing',
+  'byway-ink',
   'byway-lines',
+  'byway-art',
   'byway-road-outline',
   'byway-road-fill',
   'byway-road-center',

@@ -290,7 +290,9 @@ export function BywayMap({
               aria-hidden="true"
               style={{ color: `var(--map-${stroke.color}, var(--${stroke.color}))` }}
             >
-              <path d="M1 8H31" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+              {/* The same motif the map draws on each road, so the key matches what you see when zoomed in. */}
+              <path d={stroke.path} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              {stroke.fill && <path d={stroke.fill} fill="currentColor" />}
             </svg>
             {stroke.label}
           </span>
