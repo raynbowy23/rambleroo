@@ -1,0 +1,18 @@
+name: Road or place correction
+description: A road line, place, photo credit or story detail that looks wrong.
+labels: [data]
+body:
+  - type: input
+    id: road
+    attributes:
+      label: Road
+      description: The road's page address on rambleroo.app, or its name.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What looks wrong, and what should it be?
+      description: A source helps (a DOT page, Wikipedia, OpenStreetMap).
+    validations:
+      required: true

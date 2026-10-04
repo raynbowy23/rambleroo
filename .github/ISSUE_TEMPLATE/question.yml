@@ -1,0 +1,15 @@
+name: Question, idea or privacy request
+description: Anything else, including questions about your data.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Issues are public. Don't include your email address or other personal details.**
+        You can export or delete your account yourself from the account menu on rambleroo.app.
+        If your request needs personal details (for example, you lost access to your account), just say so here and we'll reply with a private way to reach us.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question or idea
+    validations:
+      required: true

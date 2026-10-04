@@ -37,17 +37,34 @@ export default function TermsPage() {
 
       <h2>Your content</h2>
       <p>
-        Notes, visits and postcards you create belong to you and are stored in your browser (see the{' '}
+        Notes, visits and postcards you create belong to you. They are stored in your browser, and in your account if you sign in (see the{' '}
         <Link to="/privacy">privacy policy</Link>
         ). If you share them, you are responsible for what you share and where.
       </p>
 
+      <h2>Accounts</h2>
+      <ul>
+        <li>Accounts are optional and free. You need to be at least 13 to create one, and an account is for one person.</li>
+        <li>Keep your Google account, email and passkeys secure; anyone who can use them can sign in as you.</li>
+        <li>You can export your data or delete your account at any time from the account menu.</li>
+        <li>We may suspend or remove an account that is used to abuse the service or other people.</li>
+        <li>
+          Rambleroo is a personal, noncommercial project and may change or stop. If it is going to stop, we will try to give notice so you
+          can export your data first, but we cannot promise to.
+        </li>
+      </ul>
+
       <h2>Our content and credits</h2>
       <p>
         Byway lines come from the U.S. Department of Transportation’s Scenic Byways layer, and the basemap from Natural Earth; both are
-        public domain. Drive times use data © OpenStreetMap contributors (ODbL). Photographs belong to their credited authors and are used
-        under the licence shown with each one; reuse must follow that licence. Illustrations are generated artwork, not photographs.
-        Rambleroo’s own text, design and illustrations may not be reused commercially without permission.
+        public domain. Drive times, map tiles, some road lines and places, and connectors across gaps use data © OpenStreetMap contributors
+        (ODbL). Photographs belong to their credited authors and are used under the licence shown with each one; reuse must follow that
+        licence. Illustrations are generated artwork, not photographs.
+      </p>
+      <p>
+        Rambleroo is open source. Its code, including the code that draws the illustrations, is available under the MIT licence; its written
+        stories and collection text are available under CC BY-NC 4.0 (credit Rambleroo, noncommercial use). See the{' '}
+        <a href="https://github.com/raynbowy23/rambleroo">source repository</a>.
       </p>
 
       <p>
@@ -68,7 +85,8 @@ export default function TermsPage() {
 
       <h2>Changes and contact</h2>
       <p>
-        We may update these terms; the date above will change and earlier versions remain on record. Questions: <Contact />.
+        We may update these terms; the date above will change and earlier versions remain on record. Questions: open <Contact /> (issues are
+        public, so leave out personal details).
       </p>
     </main>
   )

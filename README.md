@@ -2,7 +2,9 @@
 
 America's scenic byways, honestly mapped. Explore an illustrated national map, open a road's postcard and story, save it, record a visit, and collect a stamp in your passport.
 
-This is the overnight MVP of the concept in the historical blueprint under `docs/plan/`. The build plan and its decisions are in `docs/plan/MVP_PLAN.md`. The mockups in `Mock/` are art direction only; none of their numbers are used.
+Live at **https://rambleroo.app**. Rambleroo is a personal, noncommercial, open-source project: a React single-page app served by a Cloudflare Worker, with optional accounts (Google, email link or passkey) stored in Cloudflare D1.
+
+Questions, ideas and road corrections: [open an issue](https://github.com/raynbowy23/rambleroo/issues/new/choose). Security problems: please report privately (see [SECURITY.md](SECURITY.md)).
 
 ## Run it
 
@@ -92,3 +94,18 @@ In another terminal run `npm run dev` and open `http://localhost:5173`. Vite pro
 On first sign-in per account/browser, existing browser data can be imported or left local. Signed-in edits debounce for 1.5 seconds. Pending writes and their base versions are saved per account in localStorage and retried after reconnecting, on the next sign-in, or with “Retry sync”. A 409 merges and retries once; a second conflict stays pending for an explicit retry. Signed-out browser data is backed up separately and restored on sign-out. Account export waits for pending changes to sync before downloading the server’s saved copy. Photos in IndexedDB never sync or appear in account exports.
 
 Before launch, verify with real development Google credentials: the callback succeeds; the session cookie is Secure/HttpOnly/SameSite=Lax with a 60-day lifetime; first-import accept/decline works; a second browser loads all four kinds; simultaneous edits produce the documented merge; offline changes survive reload and sync on reconnect; sign-out restores browser-only data; export contains the expected saved records and no tokens/photos; typed deletion removes user/session/account/user_data rows and invalidates the other browser's session. Google is not called by automated tests.
+
+## Licence
+
+- **Code** (everything under `src/`, `scripts/`, `worker/`, `tests/`, including the code that draws the illustrations): [MIT](LICENSE).
+- **Written content** (`content/stories/`, `content/collections.json`, the story and stretch text in `content/strips/`): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Credit Rambleroo; noncommercial use.
+- **Third-party data and media** keep their own terms:
+  - USDOT Scenic Byways layer and Natural Earth: public domain.
+  - OpenStreetMap data (map tiles, OSRM drive times and gap connectors, OSM place nodes, classic-drive alignments, OSM-derived parts of `public/data/strips/`): © OpenStreetMap contributors, [ODbL](https://opendatacommons.org/licenses/odbl/).
+  - WisDOT Scenic Byways layer: WisDOT open data.
+  - Photographs in `public/photos/`: each under the licence and credit recorded in `content/photos.json` (Wikimedia Commons).
+  - 3D terrain: Mapzen Terrain Tiles on AWS Open Data (USGS, NOAA and others), loaded at runtime.
+
+## Running your own copy
+
+Nothing secret is in this repository. To deploy your own copy you need your own Cloudflare account (Worker, D1), a Google OAuth client, a Resend domain and a Turnstile widget; set `AUTH_URL`, `GOOGLE_CLIENT_ID` and the D1 `database_id` in `wrangler.jsonc`, the Turnstile site key in `src/features/account/SignInDialog.tsx`, the analytics ID (or remove it) in `src/lib/analytics.ts`, and the secrets with `wrangler secret put` (see "Accounts and local development" above).

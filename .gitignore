@@ -12,3 +12,9 @@ data/photos/candidates.json
 .env
 .dev.vars
 .wrangler/
+
+# Internal planning and art-direction files stay local
+Mock/
+docs/plan/
+data/strips/*.out
+scripts/strips/.queue.sh

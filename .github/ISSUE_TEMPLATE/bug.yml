@@ -1,0 +1,15 @@
+name: Something isn't working
+description: A bug on rambleroo.app.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Page and device
+      placeholder: e.g. /byway/…/strip on iPhone Safari

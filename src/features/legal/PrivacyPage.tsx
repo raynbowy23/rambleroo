@@ -149,7 +149,10 @@ export default function PrivacyPage() {
 
       <h2>Changes and contact</h2>
       <p>
-        If this policy changes, the date above will change and the previous versions remain on record. Questions or requests: <Contact />.
+        If this policy changes, the date above will change and the previous versions remain on record. You can export or delete your account
+        yourself from the account menu. For questions or other requests, open <Contact />. Issues are public, so please leave out your email
+        address and other personal details; if a request needs them (for example, you lost access to your account), say so in the issue and
+        we will reply with a private way to reach us.
       </p>
       <p>
         See also the <Link to="/terms">terms of use</Link>.
