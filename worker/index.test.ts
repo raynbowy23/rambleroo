@@ -140,3 +140,93 @@ describe('account Worker with SQLite-backed D1 fake', () => {
     expect(db.prepare('SELECT COUNT(*) AS n FROM user').get()?.n).toBe(1)
   })
 })
+
+describe('share API', () => {
+  async function createTrip() {
+    await request('/api/data/trip', 'PUT', { json: document, baseUpdatedAt: null })
+    const response = await request('/api/shares', 'POST', { kind: 'trip', title: 'Weekend roads' })
+    expect(response.status).toBe(201)
+    return response.json() as Promise<{ slug: string; kind: string; title: string; created: number; revoked: null }>
+  }
+  it('creates, lists privately, and reads an immutable snapshot signed out', async () => {
+    const share = await createTrip()
+    expect(share.slug).toMatch(/^[A-Za-z0-9_-]{18}$/)
+    const list = await request('/api/shares')
+    expect(list.headers.get('cache-control')).toBe('no-store')
+    expect(await list.json()).toEqual([share])
+    db.exec("DELETE FROM user_data WHERE user_id = 'one'")
+    session.user.id = 'two'
+    expect(await (await request('/api/shares')).json()).toEqual([])
+    session.authenticated = false
+    const response = await request(`/api/public/shares/${share.slug}`)
+    expect(response.status).toBe(200)
+    expect(response.headers.get('cache-control')).toBe('public, max-age=300')
+    expect(await response.json()).toEqual({ kind: 'trip', title: 'Weekend roads', roads: ['road'] })
+  })
+  it('allows only the owner to revoke and returns 404 publicly afterward', async () => {
+    const { slug } = await createTrip()
+    session.user.id = 'two'
+    expect((await request(`/api/shares/${slug}`, 'DELETE')).status).toBe(404)
+    expect((await request(`/api/public/shares/${slug}`)).status).toBe(200)
+    session.user.id = 'one'
+    expect((await request(`/api/shares/${slug}`, 'DELETE')).status).toBe(200)
+    expect((await request(`/api/shares/${slug}`, 'DELETE')).status).toBe(200)
+    expect((await (await request('/api/shares')).json())[0].revoked).toEqual(expect.any(Number))
+    session.authenticated = false
+    const response = await request(`/api/public/shares/${slug}`)
+    expect(response.status).toBe(404)
+    expect(response.headers.get('cache-control')).toBe('no-store')
+    expect((await request('/api/public/shares/doesnotexist123')).status).toBe(404)
+    expect((await request('/api/public/shares/bad')).status).toBe(404)
+  })
+  it('caps active shares at 50 and frees a slot on revocation', async () => {
+    const first = await createTrip()
+    for (let i = 1; i < 50; i++) expect((await request('/api/shares', 'POST', { kind: 'trip' })).status).toBe(201)
+    expect((await request('/api/shares', 'POST', { kind: 'trip' })).status).toBe(409)
+    await request(`/api/shares/${first.slug}`, 'DELETE')
+    expect((await request('/api/shares', 'POST', { kind: 'trip' })).status).toBe(201)
+  })
+  it('requires sign-in and same origin, and rejects empty or invalid inputs', async () => {
+    session.authenticated = false
+    for (const method of ['GET', 'POST']) expect((await request('/api/shares', method)).status).toBe(401)
+    expect((await request('/api/shares/abcdefghijkl', 'DELETE')).status).toBe(401)
+    session.authenticated = true
+    expect((await request('/api/shares', 'POST', { kind: 'trip' })).status).toBe(400)
+    expect((await request('/api/shares', 'POST', { kind: 'garage' })).status).toBe(400)
+    expect((await request('/api/shares', 'POST', {}, { Origin: 'https://elsewhere.test' })).status).toBe(403)
+    const { slug } = await createTrip()
+    expect((await request(`/api/shares/${slug}`, 'DELETE', undefined, { Origin: 'https://elsewhere.test' })).status).toBe(403)
+    expect((await request('/api/shares', 'POST', { kind: 'trip' }, { 'X-Rambleroo-User': 'two' })).status).toBe(409)
+  })
+  it('exports only share metadata and cascades account deletion', async () => {
+    const share = await createTrip()
+    const exported = await (await request('/api/export')).json()
+    expect(exported.shares).toEqual([share])
+    await request('/api/account', 'DELETE')
+    expect(db.prepare('SELECT COUNT(*) AS n FROM shares').get()?.n).toBe(0)
+    session.authenticated = false
+    expect((await request(`/api/public/shares/${share.slug}`)).status).toBe(404)
+  })
+  it('builds passport snapshots server-side with notes only on explicit opt-in', async () => {
+    await request('/api/data/passport', 'PUT', {
+      baseUpdatedAt: null,
+      json: {
+        version: 1,
+        saved: { road: '2026-10-04' },
+        visits: [{ id: 'secret', bywayId: 'road', date: '2026-10-04', createdAt: '2026-10-04', scope: 'whole', note: 'My note' }],
+      },
+    })
+    for (const includeNotes of [false, true]) {
+      const { slug } = await (
+        await request('/api/shares', 'POST', { kind: 'passport', includeNotes, snapshot: { email: 'injected' } })
+      ).json()
+      const snapshot = await (await request(`/api/public/shares/${slug}`)).json()
+      expect(snapshot).toEqual({
+        kind: 'passport',
+        roads: ['road'],
+        saved: ['road'],
+        visits: [{ bywayId: 'road', date: '2026-10-04', ...(includeNotes ? { note: 'My note' } : {}) }],
+      })
+    }
+  })
+})

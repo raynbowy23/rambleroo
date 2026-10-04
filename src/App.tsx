@@ -43,6 +43,14 @@ const ArtGallery = lazy(async () => {
 })
 const router = createBrowserRouter([
   {
+    path: '/s/:slug',
+    lazy: async () => {
+      const { default: Component, loader } = await import('./features/share/PublicSharePage')
+      return { Component, loader }
+    },
+    HydrateFallback: () => <p role="status">Opening shared roads…</p>,
+  },
+  {
     element: <Layout />,
     HydrateFallback: () => (
       <p role="status" className={styles.page}>

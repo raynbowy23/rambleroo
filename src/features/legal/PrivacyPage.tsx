@@ -49,6 +49,15 @@ export default function PrivacyPage() {
         includes the photo you selected.
       </p>
 
+      <h2>Share links</h2>
+      <p>
+        A share link keeps a snapshot of your trip’s road IDs and order, or your passport’s saved road IDs and visit dates, along with the
+        title you enter. Notes are included only if you select “Include my notes”; your account name, email and photos are never included.
+        Anyone with the link can see it. Later edits or deletions in your trip or passport do not change the snapshot. You can turn a link
+        off at any time from “Your share links” on the Trip page; cached copies may remain visible for up to five minutes, and recipients
+        may keep their own copies. Share links are deleted with your account. Account exports include your share link metadata.
+      </p>
+
       <h2>What reaches our server</h2>
       <p>
         Pages, route data and photos are loaded from the server that hosts Rambleroo. Like almost any website host, that server may record

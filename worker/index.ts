@@ -1,3 +1,4 @@
+import { buildSnapshot, createShareSlug, parseShareRequest } from '../src/lib/shares'
 import { getAuth } from './auth'
 import type { Env } from './env'
 import { dataKinds, MAX_DOCUMENT_BYTES, parsePut, type DataKind } from '../src/lib/account-data'
@@ -40,6 +41,14 @@ export default {
     if (!pathname.startsWith('/api/')) return env.ASSETS.fetch(request)
     if (pathname === '/api/health') return json({ ok: true })
     try {
+      const publicShare = pathname.match(/^\/api\/public\/shares\/([A-Za-z0-9_-]{12,128})$/)
+      if (publicShare && request.method === 'GET') {
+        const row = await env.DB.prepare('SELECT snapshot FROM shares WHERE slug = ? AND revoked_at IS NULL')
+          .bind(publicShare[1])
+          .first<{ snapshot: string }>()
+        return row ? json(JSON.parse(row.snapshot), 200, { 'Cache-Control': 'public, max-age=300' }) : json({ error: 'Not found' }, 404)
+      }
+      if (pathname.startsWith('/api/public/shares/')) return json({ error: 'Not found' }, 404)
       const auth = getAuth(env)
       if (pathname.startsWith('/api/auth/')) {
         const response = await auth.handler(request)
@@ -55,6 +64,44 @@ export default {
       if (request.headers.has('x-rambleroo-user') && request.headers.get('x-rambleroo-user') !== userId)
         return json({ error: 'Account changed' }, 409)
       const user = { id: userId, name: session.user.name, email: session.user.email, image: session.user.image ?? null }
+      if (pathname === '/api/shares' && request.method === 'GET') {
+        const shares = await env.DB.prepare(
+          'SELECT slug, kind, title, created_at AS created, revoked_at AS revoked FROM shares WHERE user_id = ? ORDER BY created_at DESC',
+        )
+          .bind(userId)
+          .all()
+        return json(shares.results)
+      }
+      if (pathname === '/api/shares' && request.method === 'POST') {
+        let input, snapshot
+        try {
+          input = parseShareRequest(await readBody(request))
+          const row = await env.DB.prepare('SELECT json FROM user_data WHERE user_id = ? AND kind = ?')
+            .bind(userId, input.kind)
+            .first<{ json: string }>()
+          if (!row) return json({ error: 'Add a road before creating a share link' }, 400)
+          snapshot = buildSnapshot(input, JSON.parse(row.json))
+        } catch (error) {
+          return json({ error: error instanceof Error ? error.message : 'Invalid request' }, error instanceof Response ? error.status : 400)
+        }
+        const slug = createShareSlug()
+        const created = Date.now()
+        // A single conditional insert serializes the limit check with creation, including concurrent requests.
+        const result = await env.DB.prepare(
+          'INSERT INTO shares (slug, user_id, kind, snapshot, title, created_at) SELECT ?, ?, ?, ?, ?, ? WHERE (SELECT COUNT(*) FROM shares WHERE user_id = ? AND revoked_at IS NULL) < 50',
+        )
+          .bind(slug, userId, input.kind, JSON.stringify(snapshot), input.title ?? null, created, userId)
+          .run()
+        if (!result.meta.changes) return json({ error: 'You have 50 active share links. Turn one off before creating another.' }, 409)
+        return json({ slug, kind: input.kind, title: input.title ?? null, created, revoked: null }, 201)
+      }
+      const ownedShare = pathname.match(/^\/api\/shares\/([A-Za-z0-9_-]{12,128})$/)
+      if (ownedShare && request.method === 'DELETE') {
+        const result = await env.DB.prepare('UPDATE shares SET revoked_at = COALESCE(revoked_at, ?) WHERE slug = ? AND user_id = ?')
+          .bind(Date.now(), ownedShare[1], userId)
+          .run()
+        return result.meta.changes ? json({ ok: true }) : json({ error: 'Not found' }, 404)
+      }
       if (pathname === '/api/me' && request.method === 'GET') return json(user)
       if ((pathname === '/api/data' || pathname === '/api/export') && request.method === 'GET') {
         const rows = await env.DB.prepare('SELECT kind, json, updated_at FROM user_data WHERE user_id = ?').bind(userId).all<Row>()
@@ -74,8 +121,14 @@ export default {
         const passkeys = await env.DB.prepare('SELECT name, deviceType, backedUp, createdAt FROM passkey WHERE userId = ?')
           .bind(userId)
           .all()
+        const shares = await env.DB.prepare(
+          'SELECT slug, kind, title, created_at AS created, revoked_at AS revoked FROM shares WHERE user_id = ?',
+        )
+          .bind(userId)
+          .all()
         return json(
           {
+            shares: shares.results,
             version: 1,
             exportedAt: new Date().toISOString(),
             user: profile,

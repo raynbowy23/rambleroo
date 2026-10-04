@@ -1,3 +1,4 @@
+import { SnapshotShare } from '../share/SnapshotShare'
 import { AccountControl } from '../account/AccountControl'
 import { useAccount } from '../../lib/account'
 import { KeptMilestoneCard } from '../postcard/MilestonePostcard'
@@ -83,6 +84,7 @@ export default function PassportPage() {
             {accountStatus}
           </p>
           <AccountControl placement="passport" />
+          <SnapshotShare kind="passport" />
           <Link viewTransition className="btn btn-primary" to="/">
             Find a road
           </Link>
@@ -254,7 +256,7 @@ export default function PassportPage() {
       <PassportData />
       <footer className={s.section}>
         <p>
-          Your passport stays in this browser; we never receive it. How that works:{' '}
+          Your passport stays in this browser unless you sign in to sync or create a share link. How that works:{' '}
           <Link viewTransition to="/privacy">
             privacy policy
           </Link>{' '}

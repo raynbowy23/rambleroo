@@ -1,3 +1,4 @@
+import { SnapshotShare, ShareLinks } from '../share/SnapshotShare'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router'
 import { useCatalog } from '../../lib/data'
@@ -39,6 +40,7 @@ export default function TripPage() {
     <main className={s.page}>
       <span className="kicker">One road after another</span>
       <h1>Your trip</h1>
+      <SnapshotShare kind="trip" />
       <p>Saved in this browser. Arrange the roads in the order you want to travel.</p>
       {catalog.status === 'error' && <p role="alert">{catalog.error?.message}</p>}
       <div role="status">
@@ -129,6 +131,7 @@ export default function TripPage() {
           </li>
         ))}
       </ol>
+      <ShareLinks />
     </main>
   )
 }

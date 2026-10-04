@@ -19,10 +19,10 @@ export function AccountBridge() {
   const importing = useAccount((state) => state.importing)
   useEffect(() => {
     if (!isPending && !error)
-      void connectAccount(data?.user ?? null).catch((cause: unknown) =>
+      void connectAccount(data?.user?.id ? data.user : null).catch((cause: unknown) =>
         useAccount.setState({ status: cause instanceof Error ? cause.message : 'Could not load your account.' }),
       )
-  }, [data?.user.id, isPending, error])
+  }, [data?.user?.id, isPending, error])
   useEffect(() => {
     const retry = () => {
       void retrySync()

@@ -245,3 +245,9 @@ export async function exportAccount() {
   link.click()
   setTimeout(() => URL.revokeObjectURL(url), 1000)
 }
+
+export async function syncBeforeSharing(userId: string) {
+  await retrySync()
+  if (useAccount.getState().user?.id !== userId) throw new Error('Account changed. Please reopen sharing.')
+  if (!engine || engine.hasPendingChanges()) throw new Error('Some changes have not synced yet. Retry sync before sharing.')
+}

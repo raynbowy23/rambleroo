@@ -29,7 +29,7 @@ function loadTurnstile() {
   return loading
 }
 
-export function SignInDialog({ onClose }: { onClose: () => void }) {
+export function SignInDialog({ onClose, reason }: { onClose: () => void; reason?: string }) {
   const [email, setEmail] = useState('')
   const [token, setToken] = useState('')
   const [state, setState] = useState<'idle' | 'sending' | 'sent'>('idle')
@@ -76,6 +76,7 @@ export function SignInDialog({ onClose }: { onClose: () => void }) {
   }
   return (
     <Dialog title="Sign in to Rambleroo" onClose={onClose}>
+      {reason && <p>{reason}</p>}
       {state === 'sent' ? (
         <>
           <p>

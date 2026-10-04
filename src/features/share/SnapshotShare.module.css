@@ -1,0 +1,100 @@
+.form {
+  display: grid;
+  gap: 1rem;
+}
+.form label {
+  display: grid;
+  gap: 0.5rem;
+}
+.form input:not([type='checkbox']) {
+  width: 100%;
+  min-width: 0;
+}
+.form .check {
+  display: flex;
+  align-items: center;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.owned {
+  margin-block: 2.5rem;
+}
+.owned ul {
+  padding: 0;
+  list-style: none;
+}
+.owned li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1rem;
+  border-bottom: 1px solid var(--line);
+  overflow-wrap: anywhere;
+}
+.page {
+  max-width: 960px;
+  margin: auto;
+  padding: clamp(1rem, 4vw, 3rem);
+}
+.page h1 {
+  overflow-wrap: anywhere;
+}
+.cards {
+  display: grid;
+  gap: 1.5rem;
+  padding-left: 1.5rem;
+  margin-block: 2rem;
+}
+.cards li {
+  padding: 1rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  box-shadow: 3px 4px 0 #454c3822;
+}
+.cards article {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1rem;
+}
+.cards svg {
+  width: 100%;
+  height: auto;
+}
+.cards p {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 600px) {
+  .cards article {
+    grid-template-columns: 1fr;
+  }
+}
+.page > * + * {
+  margin-top: 1.25rem;
+}
+.page h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+.cards h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+.cards p {
+  margin-top: 0.75rem;
+}
+.form input:not([type='checkbox']) {
+  font: inherit;
+  padding: 0.75rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--card);
+  color: var(--ink);
+}
+.check input {
+  accent-color: var(--forest);
+  width: 1.25rem;
+  height: 1.25rem;
+}
