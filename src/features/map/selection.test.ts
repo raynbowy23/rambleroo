@@ -27,8 +27,9 @@ const features: BywayGeometry['features'] = [
 function adapter() {
   const sources = Object.fromEntries(['selected', 'route-flags', 'route-car', 'route-moments'].map((id) => [id, { setData: vi.fn() }]))
   const paint = vi.fn()
-  const map = { getSource: (id: string) => sources[id], setPaintProperty: paint } as unknown as Map
-  return { map, sources, paint }
+  const layout = vi.fn()
+  const map = { getSource: (id: string) => sources[id], setPaintProperty: paint, setLayoutProperty: layout } as unknown as Map
+  return { map, sources, paint, layout }
 }
 beforeEach(() => {
   vi.spyOn(window, 'getComputedStyle').mockReturnValue({ getPropertyValue: () => '#202925' } as unknown as CSSStyleDeclaration)
@@ -41,8 +42,9 @@ afterEach(() => {
 it('draws fully and parks without scheduling frames under reduced motion', () => {
   const raf = vi.fn()
   vi.stubGlobal('requestAnimationFrame', raf)
-  const { map, sources, paint } = adapter()
+  const { map, sources, paint, layout } = adapter()
   animateSelection(map, features, false)
+  expect(layout).toHaveBeenLastCalledWith('selected-line', 'visibility', 'none')
   expect(raf).not.toHaveBeenCalled()
   // The finished pen trace lifts away so the road's motif shows.
   expect(paint).toHaveBeenLastCalledWith('selected-line', 'line-gradient', ['literal', 'rgba(0,0,0,0)'])

@@ -19,6 +19,7 @@ export function animateSelection(map: Map, features: BywayGeometry['features'], 
   )
   const ink = palette()('ink')
   map.setPaintProperty('selected-line', 'line-gradient', ['literal', 'rgba(0,0,0,0)'])
+  map.setLayoutProperty('selected-line', 'visibility', 'visible')
   ;(map.getSource('selected') as GeoJSONSource).setData({ type: 'FeatureCollection', features: lines })
   const part = longestPart(lines.map((f) => f.geometry.coordinates))
   const flags: Feature<Point>[] = part
@@ -46,8 +47,10 @@ export function animateSelection(map: Map, features: BywayGeometry['features'], 
         geometry: { type: 'Point', coordinates: point.coordinates },
       })
     }
-    // Once the pen reaches the end its ink lifts away, leaving the road's own motif (selected-art) under the gold glow.
+    // Once the pen reaches the end its ink lifts away, leaving the road's own motif (selected-art) under the gold glow. The layer is
+    // hidden too: MapLibre doesn't always repaint a final constant line-gradient, which left stretches of ink behind.
     if (progress < 1) frame = requestAnimationFrame(trace)
+    else map.setLayoutProperty('selected-line', 'visibility', 'none')
   }
   if (features.length) trace(start)
   return () => cancelAnimationFrame(frame)
