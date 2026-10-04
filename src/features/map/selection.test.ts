@@ -44,7 +44,8 @@ it('draws fully and parks without scheduling frames under reduced motion', () =>
   const { map, sources, paint } = adapter()
   animateSelection(map, features, false)
   expect(raf).not.toHaveBeenCalled()
-  expect(paint).toHaveBeenLastCalledWith('selected-line', 'line-gradient', ['literal', '#202925'])
+  // The finished pen trace lifts away so the road's motif shows.
+  expect(paint).toHaveBeenLastCalledWith('selected-line', 'line-gradient', ['literal', 'rgba(0,0,0,0)'])
   const car = sources['route-car'].setData.mock.lastCall![0]
   expect(car.geometry.coordinates[0]).toBeCloseTo(4)
   expect(car.properties.bearing).toBe(90)
@@ -68,7 +69,8 @@ it('only updates the car source during the trace and stops after 1.2 seconds', (
   expect(sources.selected.setData).toHaveBeenCalledTimes(1)
   callback(1200)
   expect(raf).toHaveBeenCalledTimes(2)
-  expect(paint).toHaveBeenLastCalledWith('selected-line', 'line-gradient', ['literal', '#202925'])
+  // The finished pen trace lifts away so the road's motif shows.
+  expect(paint).toHaveBeenLastCalledWith('selected-line', 'line-gradient', ['literal', 'rgba(0,0,0,0)'])
   stop()
   expect(cancel).toHaveBeenCalledWith(42)
 })

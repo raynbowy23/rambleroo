@@ -115,6 +115,7 @@ export function RouteMap({
                 features: data.features.filter((f) => ids.has(f.properties.id)),
               })
               current.setPaintProperty('selected-glow', 'line-opacity', 0)
+              current.setLayoutProperty('selected-art', 'visibility', 'none')
               const start = performance.now()
               const color = c('forest')
               const trace = (now: number) => {

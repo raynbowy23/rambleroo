@@ -40,6 +40,22 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     c('route-prairie'),
     c('route-town'),
   ]
+  const motif: ExpressionSpecification = [
+    'match',
+    ['get', 'scene'],
+    ['river', 'coast'],
+    'route-water',
+    'mountain',
+    'route-mountain',
+    'forest',
+    'route-forest',
+    'desert',
+    'route-desert',
+    'prairie',
+    'route-prairie',
+    'route-stitch',
+  ]
+  const motifWidth: ExpressionSpecification = ['interpolate', ['linear'], ['zoom'], 4.5, 7, 6, 9, 8, 12, 11, 16, 14, 22]
   addRouteArt(map)
   const round = { 'line-cap': 'round', 'line-join': 'round' } as const
   map.addSource('byways', { type: 'geojson', data, promoteId: 'id', tolerance: 1, buffer: 32, maxzoom: 12 })
@@ -47,12 +63,11 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     id: 'byway-casing',
     type: 'line',
     source: 'byways',
-    maxzoom: 8,
     layout: round,
     paint: {
       'line-color': c('paper'),
-      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 4.5, 5, 6.5, 8, 9],
-      'line-opacity': ['interpolate', ['linear'], ['zoom'], 7, 0.8, 8, 0],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 4.5, 5, 6.5, 8, 11, 11, 16, 14, 22],
+      'line-opacity': 0.8,
     },
   })
   // National view: a hand-inked line (thin ink edge round the colour) so tiny roads still read crisply and never break into dashes.
@@ -72,60 +87,27 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     id: 'byway-lines',
     type: 'line',
     source: 'byways',
-    maxzoom: 8,
     layout: round,
     paint: {
       'line-color': color,
-      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1.8, 5, 2.8, 8, 4.2],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1.8, 5, 2.8, 8, 4.2, 14, 6],
       'line-opacity': ['interpolate', ['linear'], ['zoom'], 4.6, 1, 5.6, 0],
     },
   })
-  // Closer in, each road wears its landscape motif (waves, zigzags, trees, stones, rail ties, grass) on an unbroken line.
+  // From the state view in, at every zoom, each road wears its landscape motif (waves, zigzags, trees, stones, rail ties, grass) on an
+  // unbroken line, like a pictorial map; the motif grows with the zoom.
   map.addLayer({
     id: 'byway-art',
     type: 'line',
     source: 'byways',
     minzoom: 4.5,
-    maxzoom: 8,
     layout: round,
     paint: {
-      'line-pattern': [
-        'match',
-        ['get', 'scene'],
-        ['river', 'coast'],
-        'route-water',
-        'mountain',
-        'route-mountain',
-        'forest',
-        'route-forest',
-        'desert',
-        'route-desert',
-        'prairie',
-        'route-prairie',
-        'route-stitch',
-      ],
-      'line-width': ['interpolate', ['linear'], ['zoom'], 4.5, 7, 6, 9, 8, 12],
-      'line-opacity': ['interpolate', ['linear'], ['zoom'], 4.6, 0, 5.6, 1, 7, 1, 8, 0],
+      'line-pattern': motif,
+      'line-width': motifWidth,
+      'line-opacity': ['interpolate', ['linear'], ['zoom'], 4.6, 0, 5.6, 1],
     },
   })
-  for (const [id, color, width] of [
-    ['byway-road-outline', c('ink'), 8],
-    ['byway-road-fill', c('terrain'), 5.5],
-    ['byway-road-center', c('paper'), 1.1],
-  ] as const) {
-    map.addLayer({
-      id,
-      type: 'line',
-      source: 'byways',
-      minzoom: 7,
-      layout: round,
-      paint: {
-        'line-color': color,
-        'line-width': ['interpolate', ['linear'], ['zoom'], 7, width * 0.65, 10, width, 14, width * 1.6],
-        'line-opacity': ['interpolate', ['linear'], ['zoom'], 7, 0, 8, 1],
-      },
-    })
-  }
   map.addLayer({
     id: 'byway-hover',
     type: 'line',
@@ -133,7 +115,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     layout: round,
     paint: {
       'line-color': c('gold'),
-      'line-width': 5,
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 5, 8, 14, 11, 19, 14, 26],
       'line-width-transition': { duration: 0 },
       'line-opacity': ['case', ['boolean', ['feature-state', 'hover'], false], 0.75, 0],
     },
@@ -142,7 +124,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     id: 'byway-hit',
     type: 'line',
     source: 'byways',
-    paint: { 'line-color': c('paper'), 'line-opacity': 0, 'line-width': 14 },
+    paint: { 'line-color': c('paper'), 'line-opacity': 0, 'line-width': ['interpolate', ['linear'], ['zoom'], 2, 14, 11, 20, 14, 28] },
   })
   map.addSource('story-points', {
     type: 'geojson',
@@ -167,14 +149,30 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     type: 'line',
     source: 'selected',
     layout: round,
-    paint: { 'line-color': c('gold'), 'line-width': 15, 'line-blur': 5, 'line-opacity': 0.55 },
+    paint: {
+      'line-color': c('gold'),
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 15, 8, 24, 14, 40],
+      'line-blur': 5,
+      'line-opacity': 0.55,
+    },
   })
   map.addLayer({
     id: 'selected-halo',
     type: 'line',
     source: 'selected',
     layout: round,
-    paint: { 'line-color': c('paper'), 'line-width': 6 },
+    paint: { 'line-color': c('paper'), 'line-width': ['interpolate', ['linear'], ['zoom'], 2, 6, 8, 15, 14, 28] },
+  })
+  // The chosen road keeps its pictorial motif, a size up; the pen trace below draws over it and then lifts away (selection.ts).
+  map.addLayer({
+    id: 'selected-art',
+    type: 'line',
+    source: 'selected',
+    layout: round,
+    paint: {
+      'line-pattern': motif,
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 5, 6, 11, 8, 14, 11, 19, 14, 26],
+    },
   })
   map.addLayer({
     id: 'selected-line',
@@ -201,15 +199,4 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
   }
 }
 
-export const filteredLayers = [
-  'byway-casing',
-  'byway-ink',
-  'byway-lines',
-  'byway-art',
-  'byway-road-outline',
-  'byway-road-fill',
-  'byway-road-center',
-  'byway-hover',
-  'byway-hit',
-  'story-points',
-]
+export const filteredLayers = ['byway-casing', 'byway-ink', 'byway-lines', 'byway-art', 'byway-hover', 'byway-hit', 'story-points']

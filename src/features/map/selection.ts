@@ -36,7 +36,7 @@ export function animateSelection(map: Map, features: BywayGeometry['features'], 
     map.setPaintProperty(
       'selected-line',
       'line-gradient',
-      progress === 1 ? ['literal', ink] : ['step', ['line-progress'], ink, Math.max(0.00001, progress), 'rgba(0,0,0,0)'],
+      progress === 1 ? ['literal', 'rgba(0,0,0,0)'] : ['step', ['line-progress'], ink, Math.max(0.00001, progress), 'rgba(0,0,0,0)'],
     )
     if (part) {
       const point = journeyPoint(part, progress)
@@ -46,6 +46,7 @@ export function animateSelection(map: Map, features: BywayGeometry['features'], 
         geometry: { type: 'Point', coordinates: point.coordinates },
       })
     }
+    // Once the pen reaches the end its ink lifts away, leaving the road's own motif (selected-art) under the gold glow.
     if (progress < 1) frame = requestAnimationFrame(trace)
   }
   if (features.length) trace(start)

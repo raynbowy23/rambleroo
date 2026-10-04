@@ -126,7 +126,7 @@ export function BywayMap({
           addBywayLayers(map, data, byways)
           performance.mark('byways:attached')
           const firstRoutes = () => {
-            if (!map.queryRenderedFeatures({ layers: ['byway-lines', 'byway-road-fill'] }).length) return
+            if (!map.queryRenderedFeatures({ layers: ['byway-lines', 'byway-art'] }).length) return
             performance.mark('byways:first-render')
             performance.measure('byways:visible', { start: started.startTime, end: 'byways:first-render' })
             map.off('render', firstRoutes)
