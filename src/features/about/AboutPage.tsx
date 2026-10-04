@@ -1,15 +1,21 @@
+import { Link } from 'react-router'
 import { useCatalog } from '../../lib/data'
 import styles from '../../components/layout/Page.module.css'
 export default function AboutPage() {
-  const { meta } = useCatalog()
+  const { meta, byways } = useCatalog()
+  // The catalog adds supplemental roads to the USDOT layer; count them apart so the totals stay honest.
+  const classics = byways.filter((b) => b.designations.some((d) => d.startsWith('Classic drive'))).length
+  const wisdot = byways.filter((b) => b.id.endsWith('-990001') || b.id.endsWith('-990002')).length
+  const usdot = byways.length - classics - wisdot
   return (
     <main className={styles.page}>
       <span className="kicker">About the data</span>
       <h1>Scenic roads of America, honestly mapped.</h1>
       <p>
-        Rambleroo brings together {meta?.bywayCount.toLocaleString() ?? '…'} scenic byways from the USDOT source layer, with{' '}
-        {meta?.storyCount ?? '…'} stories. These stories are drafts pending review. This catalog is a snapshot of that source, not a
-        complete inventory of every scenic road or current designation.
+        Rambleroo brings together {byways.length ? usdot.toLocaleString() : '…'} scenic byways from the USDOT source layer,{' '}
+        {byways.length ? wisdot : '…'} Wisconsin byways from WisDOT and {byways.length ? classics : '…'} classic drives that are not
+        designated byways, with {meta?.storyCount ?? '…'} stories. These stories are drafts pending review. This catalog is a snapshot of
+        that source, not a complete inventory of every scenic road or current designation.
       </p>
       <h2>What the map tells you</h2>
       <p>
@@ -49,8 +55,9 @@ export default function AboutPage() {
       </p>
       <h2>Your passport stays here</h2>
       <p>
-        Saves and visits live in this browser only. There is no account or synchronization. Clearing browser storage removes them; if
-        storage is blocked, changes last only for this session.
+        Without an account, saves and visits live in this browser only. Clearing browser storage removes them; if storage is blocked,
+        changes last only for this session. If you sign in, they sync to your account so every device sees them. Your own photos stay on the
+        device where you added them. See the <Link to="/privacy">privacy policy</Link> for what an account stores.
       </p>
       <h2>Sources and credits</h2>
       <p>
