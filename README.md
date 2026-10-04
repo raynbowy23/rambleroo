@@ -4,7 +4,20 @@ America's scenic byways, honestly mapped. Explore an illustrated national map, o
 
 Live at **https://rambleroo.app**. Rambleroo is a personal, noncommercial, open-source project: a React single-page app served by a Cloudflare Worker, with optional accounts (Google, email link or passkey) stored in Cloudflare D1.
 
-Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Questions, ideas and road corrections: [open an issue](https://github.com/raynbowy23/rambleroo/issues/new/choose). Security problems: please report privately (see [SECURITY.md](SECURITY.md)).
+Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). The next big piece of work is [state chapters](docs/state-coverage.md): every state's byway program, linked and mapped like Wisconsin's. Questions, ideas and road corrections: [open an issue](https://github.com/raynbowy23/rambleroo/issues/new/choose). Security problems: please report privately (see [SECURITY.md](SECURITY.md)).
+
+## Screenshots
+
+|                                                                                                                  |                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| ![The explorer map: every scenic byway in faded screen-print inks](docs/screenshots/explore-map.jpg)             | ![A selected road with its postcard and the road's pictorial motif](docs/screenshots/road-selected.jpg) |
+| **Explore.** 788 roads on a vintage pictorial map.                                                               | **Pick a road.** Its postcard, photo credit and motif line.                                             |
+| ![Road page with photo hero, facts and the Drive it button](docs/screenshots/road-page.jpg)                      | ![Strip map header with the four seasons and the progress bar](docs/screenshots/strip-header.jpg)       |
+| **Road page.** Facts from real data and a Drive it button.                                                       | **Strip map.** The same road in four seasons.                                                           |
+| ![Scroll-to-drive: the car on the ribbon beside place cards and the inset map](docs/screenshots/strip-drive.jpg) | ![3D view following the car on a winter coast road](docs/screenshots/strip-3d.jpg)                      |
+| **Scroll to drive.** Places appear at their mile.                                                                | **3D view.** The camera follows your car, season by season.                                             |
+
+<p align="center"><img src="docs/screenshots/phone-strip.jpg" alt="The strip map on a phone, driving Big Sur" width="300"></p>
 
 ## Run it
 
@@ -97,14 +110,7 @@ Before launch, verify with real development Google credentials: the callback suc
 
 ## Licence
 
-- **Code** (everything under `src/`, `scripts/`, `worker/`, `tests/`, including the code that draws the illustrations): [MIT](LICENSE).
-- **Written content** (`content/stories/`, `content/collections.json`, the story and stretch text in `content/strips/`): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Credit Rambleroo; noncommercial use.
-- **Third-party data and media** keep their own terms:
-  - USDOT Scenic Byways layer and Natural Earth: public domain.
-  - OpenStreetMap data (map tiles, OSRM drive times and gap connectors, OSM place nodes, classic-drive alignments, OSM-derived parts of `public/data/strips/`): © OpenStreetMap contributors, [ODbL](https://opendatacommons.org/licenses/odbl/).
-  - WisDOT Scenic Byways layer: WisDOT open data.
-  - Photographs in `public/photos/`: each under the licence and credit recorded in `content/photos.json` (Wikimedia Commons).
-  - 3D terrain: Mapzen Terrain Tiles on AWS Open Data (USGS, NOAA and others), loaded at runtime.
+Code is [MIT](LICENSE). Written content and third-party data and media have their own terms; see [docs/licensing.md](docs/licensing.md).
 
 ## Running your own copy
 

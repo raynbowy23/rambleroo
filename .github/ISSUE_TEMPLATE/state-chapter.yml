@@ -1,0 +1,20 @@
+name: State chapter
+description: Help map a state's scenic byway program (see docs/state-coverage.md).
+labels: [state-chapter]
+body:
+  - type: input
+    id: state
+    attributes:
+      label: State
+    validations:
+      required: true
+  - type: input
+    id: program
+    attributes:
+      label: Official program page
+      description: The state DOT's (or designating agency's) scenic byway page.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Byways, GIS layer, anything else
+      description: Byways missing from the map, an official GIS layer for route lines, or per-byway pages.
