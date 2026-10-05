@@ -1,0 +1,573 @@
+{
+  "note": "Facts and sources behind the member descriptions in OH.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Amish Country Byway",
+      "designation": "Ohio Scenic Byway; National Scenic Byway (America's Byway)",
+      "where": "Double loop on SR 39, US 62 and connecting roads through Holmes County and neighboring Tuscarawas, Wayne and Knox counties; Loudonville, Millersburg, Berlin, Walnut Creek, Sugarcreek",
+      "facts": [
+        {
+          "fact": "Holmes County holds Ohio's largest Amish settlement, founded in 1808; the Amish make up about half the county's population.",
+          "source": "https://en.wikipedia.org/wiki/Ohio%27s_Amish_Country"
+        },
+        {
+          "fact": "Tour stops include the Walnut Creek covered bridge, the Behalt cyclorama of Amish and Mennonite history, Guggisberg Cheese and the weekly Mt. Hope auction.",
+          "source": "https://storymaps.arcgis.com/stories/7baf2a8d9577402bab183f7369fb6d05"
+        },
+        {
+          "fact": "ODOT's byway layer gives the route as 196.4 miles and flags it as one of America's Byways.",
+          "source": "https://odotgis.dot.state.oh.us/arcgis/rest/services/ENV/ScenicBywaysExperienceMap/FeatureServer/0"
+        }
+      ],
+      "review": "ODOT's current line (196.4 mi) is about twice the catalog line (76 mi); the former Gateway to Amish Country byway (catalog gateway-to-amish-country-69094) lies wholly on the current ODOT line and appears to have been absorbed."
+    },
+    {
+      "name": "Appalachian Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "SR 78 from Clarington on the Ohio River through Woodsfield, Caldwell and McConnelsville to Nelsonville; Monroe, Noble, Morgan and Athens counties",
+      "facts": [
+        {
+          "fact": "The byway starts on SR 78 at Clarington in Monroe County, where it meets the Ohio River Scenic Byway, and ends in Nelsonville in Athens County.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "Stops include the Thorla-McKee oil well, the USS Shenandoah airship memorial, the Big Muskie dragline bucket and Burr Oak State Park.",
+          "source": "https://storymaps.arcgis.com/stories/fcf86bd6e4f14ce7b293c6c9a85b6ff4"
+        },
+        {
+          "fact": "Nelsonville's square is lined with the town's own Star Brick.",
+          "source": "https://storymaps.arcgis.com/stories/fcf86bd6e4f14ce7b293c6c9a85b6ff4"
+        }
+      ],
+      "review": "The catalog's Morgan County Scenic Byway (morgan-county-scenic-byway-13594) lies entirely on this route and covers roughly half of it; it appears to have been merged into the Appalachian Byway."
+    },
+    {
+      "name": "Big Darby Plains Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "Union County roads along Big Darby Creek: Plain City, Unionville Center, Milford Center, North Lewisburg",
+      "facts": [
+        {
+          "fact": "The main route runs beside the state and nationally designated scenic Big Darby Creek for more than 27 miles.",
+          "source": "https://storymaps.arcgis.com/stories/3b5e2b85173d4fd19f9413cc0e45bbc2"
+        },
+        {
+          "fact": "Union County's covered bridges on the route include Reuben Partridge's 1868 Culbertson bridge and the 2006 Buck Run bridge, called Ohio's longest single-span wooden bridge.",
+          "source": "https://storymaps.arcgis.com/stories/3b5e2b85173d4fd19f9413cc0e45bbc2"
+        },
+        {
+          "fact": "Small pioneer cemeteries kept as prairie preserves hold royal catchfly, which blooms from late July through August.",
+          "source": "https://storymaps.arcgis.com/stories/3b5e2b85173d4fd19f9413cc0e45bbc2"
+        }
+      ]
+    },
+    {
+      "name": "Drovers' Trail Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "SR 800 from Hendrysburg to Barnesville, then SR 147 to Bellaire on the Ohio River; Belmont County",
+      "facts": [
+        {
+          "fact": "The route follows SR 800 between Hendrysburg and Barnesville and SR 147 from Barnesville to Bellaire.",
+          "source": "https://storymaps.arcgis.com/stories/fd9128ed46234cbb977e3ff90815db8f"
+        },
+        {
+          "fact": "It recalls nineteenth-century cattle drives and links the Historic National Road with the Ohio River Scenic Byway in 37 miles.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "Dysart Woods along the way is a 51-acre tract of original oak forest with trees 300 to 400 years old; Woodside Farm still shows the trench of the old drove road.",
+          "source": "https://storymaps.arcgis.com/stories/fd9128ed46234cbb977e3ff90815db8f"
+        },
+        {
+          "fact": "The route ends at Bellaire near the Great Stone Viaduct, a mid-1800s railroad structure on the National Register.",
+          "source": "https://storymaps.arcgis.com/stories/fd9128ed46234cbb977e3ff90815db8f"
+        }
+      ]
+    },
+    {
+      "name": "Granville Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "About 10 miles from SR 37 by James Road north onto SR 661 through Granville; Licking County",
+      "facts": [
+        {
+          "fact": "The route begins at SR 37, meets James Road and continues north on SR 661.",
+          "source": "https://storymaps.arcgis.com/stories/0737198d2f5e4aeda70ac1e432debec6"
+        },
+        {
+          "fact": "The Buxton Inn, built in 1812, is described as Ohio's oldest inn still standing.",
+          "source": "https://storymaps.arcgis.com/stories/0737198d2f5e4aeda70ac1e432debec6"
+        },
+        {
+          "fact": "Alligator Mound, an effigy mound about 200 feet long, sits above the village, and Denison University's Swasey Chapel crowns College Hill.",
+          "source": "https://storymaps.arcgis.com/stories/0737198d2f5e4aeda70ac1e432debec6"
+        }
+      ]
+    },
+    {
+      "name": "Heritage Corridors of Bath",
+      "designation": "Ohio Scenic Byway",
+      "where": "Township roads linking the hamlets of Ghent, Bath Center and Ira; Bath Township, Summit County, next to Cuyahoga Valley National Park",
+      "facts": [
+        {
+          "fact": "Roadways connect nineteenth-century hamlets with mills, cemeteries, a nature preserve and the national park.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "The Ghent Woolen Mill of 1832 is called the oldest surviving woolen mill in Ohio, and nearby stands an 1859 two-story octagonal bee house.",
+          "source": "https://storymaps.arcgis.com/stories/942b42cba90a406e8525ba758de621e3"
+        },
+        {
+          "fact": "Hale Farm and Village, with more than ten buildings from 1825 to 1850, lies on Oak Hill Road at the end of the route.",
+          "source": "https://storymaps.arcgis.com/stories/942b42cba90a406e8525ba758de621e3"
+        }
+      ]
+    },
+    {
+      "name": "Historic National Road",
+      "designation": "Ohio Scenic Byway; All-American Road",
+      "where": "US 40 across the state, 225 miles from Bridgeport on the Ohio River through Zanesville, Columbus and Springfield to the Indiana line",
+      "facts": [
+        {
+          "fact": "In Ohio the byway runs 225 miles from the West Virginia line at the Ohio River to the Indiana line.",
+          "source": "https://storymaps.arcgis.com/stories/b210070ebc5c44119eab4ac8b83cbb7e"
+        },
+        {
+          "fact": "The 1828 Blaine Hill S Bridge over Wheeling Creek is the oldest documented standing bridge in Ohio.",
+          "source": "https://storymaps.arcgis.com/stories/b210070ebc5c44119eab4ac8b83cbb7e"
+        },
+        {
+          "fact": "Ohio's Madonna of the Trail statue, west of Springfield, was the first of twelve and was dedicated by Harry S. Truman in 1928.",
+          "source": "https://storymaps.arcgis.com/stories/b210070ebc5c44119eab4ac8b83cbb7e"
+        },
+        {
+          "fact": "The road is lined with pike towns that grew up around stopping points; the Red Brick Tavern at Lafayette hosted several presidents.",
+          "source": "https://storymaps.arcgis.com/stories/b210070ebc5c44119eab4ac8b83cbb7e"
+        }
+      ]
+    },
+    {
+      "name": "Hocking Hills Scenic Byway",
+      "designation": "Ohio Scenic Byway; National Scenic Byway (America's Byway)",
+      "where": "SR 374 (with SR 56) from South Bloomingville to Rockbridge on US 33, around Hocking State Forest; Hocking County",
+      "facts": [
+        {
+          "fact": "The byway follows SR 374 through the Hocking Hills and around Hocking State Forest.",
+          "source": "https://storymaps.arcgis.com/stories/09154611652c4441ad02c6a481757ffa"
+        },
+        {
+          "fact": "Ash Cave's sandstone rim spans 700 feet, with a waterfall dropping 90 feet; Conkle's Hollow is walled by Blackhand Sandstone cliffs up to 240 feet high.",
+          "source": "https://storymaps.arcgis.com/stories/09154611652c4441ad02c6a481757ffa"
+        },
+        {
+          "fact": "ODOT notes that the byway has been named one of America's Byways.",
+          "source": "https://www.transportation.ohio.gov/travel/driving/byways/hocking-hills-scenic-byway"
+        }
+      ],
+      "review": "Now a National Scenic Byway (ODOT page and Wikipedia's national list); the catalog lists it only as an Ohio State Scenic Byway."
+    },
+    {
+      "name": "Jefferson Township Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "Clark State Road, Reynoldsburg-New Albany Road, Kitzmiller Road and others in Jefferson Township, Franklin County, east of Columbus",
+      "facts": [
+        {
+          "fact": "The byway shows older barns and homes, many from the early 1800s, with streams and stands of trees.",
+          "source": "https://storymaps.arcgis.com/stories/90147420cfb64d41970f0775c0ff021c"
+        },
+        {
+          "fact": "A house of 1832 on Clark State Road served as the toll keeper's house when that road was the main route toward Newark and Granville.",
+          "source": "https://storymaps.arcgis.com/stories/90147420cfb64d41970f0775c0ff021c"
+        },
+        {
+          "fact": "Kitzmiller Road hugs Blacklick Creek, where water mills once stood.",
+          "source": "https://storymaps.arcgis.com/stories/90147420cfb64d41970f0775c0ff021c"
+        }
+      ],
+      "review": "ODOT names it simply 'Jefferson Township' (layer) or 'Jefferson Township Byway' (page)."
+    },
+    {
+      "name": "Johnny Appleseed Historic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "About 40 miles on SR 39 and connecting roads from Loudonville through Perrysville and Lucas to Mansfield and Mifflin; Ashland and Richland counties",
+      "facts": [
+        {
+          "fact": "The byway runs more than 30 miles along SR 39 and celebrates John Chapman, the orchardist and nurseryman.",
+          "source": "https://storymaps.arcgis.com/stories/657e6b737a66472d8ead3c68e2d9c671"
+        },
+        {
+          "fact": "A recorded 1826 lease near Loudonville gave Chapman half an acre to plant fruit, with the rent paid in 20 apple trees.",
+          "source": "https://storymaps.arcgis.com/stories/657e6b737a66472d8ead3c68e2d9c671"
+        },
+        {
+          "fact": "Stops include Mansfield's square, the Copus monument of 1882 and Louis Bromfield's Malabar Farm.",
+          "source": "https://storymaps.arcgis.com/stories/657e6b737a66472d8ead3c68e2d9c671"
+        }
+      ]
+    },
+    {
+      "name": "Lake Erie Coastal Ohio Trail",
+      "designation": "Ohio Scenic Byway; National Scenic Byway (America's Byway)",
+      "where": "About 293 miles along the Lake Erie shore from the Pennsylvania line (US 20, Conneaut) through Cleveland, Sandusky and Toledo to Waterville",
+      "facts": [
+        {
+          "fact": "The 293-mile byway passes beaches, state parks, lighthouses, vacation islands and villages as well as big cities.",
+          "source": "https://storymaps.arcgis.com/stories/a7fcf6f6d55b4214a8edd1de7acef920"
+        },
+        {
+          "fact": "The glacial grooves on Kelleys Island are 400 feet long and up to 15 feet deep.",
+          "source": "https://storymaps.arcgis.com/stories/a7fcf6f6d55b4214a8edd1de7acef920"
+        },
+        {
+          "fact": "Stops include the Ashtabula Harbor Lighthouse, Magee Marsh, Crane Creek and the Old Woman Creek estuary.",
+          "source": "https://storymaps.arcgis.com/stories/a7fcf6f6d55b4214a8edd1de7acef920"
+        }
+      ]
+    },
+    {
+      "name": "Land of the Cross-Tipped Churches",
+      "designation": "Ohio Scenic Byway",
+      "where": "About 38 miles of county and state roads among Catholic villages in Mercer, Auglaize, Shelby and Darke counties: Maria Stein, Minster, Fort Loramie, St. Henry, Coldwater",
+      "facts": [
+        {
+          "fact": "The 38-mile route is lined with cross-tipped churches listed on the National Register of Historic Places, in farm country settled early.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "St. Michael's at Fort Loramie, dedicated in 1881, has a tower more than 200 feet tall built of over a million bricks.",
+          "source": "https://storymaps.arcgis.com/stories/dc58f44ccadb43848c27ffb3642988c3"
+        },
+        {
+          "fact": "Swiss-born architect Anton DeCurtins and his sons designed many of the churches; the Shrine of the Holy Relics at Maria Stein grew from an 1844 convent.",
+          "source": "https://storymaps.arcgis.com/stories/dc58f44ccadb43848c27ffb3642988c3"
+        }
+      ],
+      "review": "ODOT layer and page show 47.4 miles; brochure says 38. Catalog line (14 vertices) covers only about a third of ODOT's line."
+    },
+    {
+      "name": "Lincoln Highway Historic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "About 241 miles across northern Ohio on US 30 and older Lincoln Highway alignments: East Liverpool, Lisbon, Canton, Wooster, Mansfield, Bucyrus, Lima, Van Wert",
+      "facts": [
+        {
+          "fact": "Ohio's portion of the Lincoln Highway, begun in 1913 as the first coast-to-coast road, is 241 miles long.",
+          "source": "https://storymaps.arcgis.com/stories/cf7120a995294ff6aacff7f8714490d6"
+        },
+        {
+          "fact": "Brick stretches of the original highway survive on Cindell and Baywood streets east of Canton.",
+          "source": "https://storymaps.arcgis.com/stories/cf7120a995294ff6aacff7f8714490d6"
+        },
+        {
+          "fact": "Stops include the Lincoln Highway pillars at Crestline and the Kewpee hamburger diner in Lima.",
+          "source": "https://storymaps.arcgis.com/stories/cf7120a995294ff6aacff7f8714490d6"
+        }
+      ],
+      "review": "Catalog line covers roughly two thirds of ODOT's line."
+    },
+    {
+      "name": "Lower Valley Pike Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "About 11 miles of Lower Valley Pike (CR 316) along the Mad River west of Springfield to Medway; Clark County",
+      "facts": [
+        {
+          "fact": "The byway follows County Road 316 for about 11 miles.",
+          "source": "https://storymaps.arcgis.com/stories/2674516d4fbc48549eb1e6c73060c56c"
+        },
+        {
+          "fact": "The Mad River runs beside it under limestone cliffs, with woods and wetlands.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "Jacob Huffman spent seven years building his limestone house from 1825; nearby is the site of the 1780 battle at Peckuwe.",
+          "source": "https://storymaps.arcgis.com/stories/2674516d4fbc48549eb1e6c73060c56c"
+        }
+      ],
+      "review": "ODOT calls it 'Lower Valley Pike' (layer) or 'Lower Valley Pike Byway' (page)."
+    },
+    {
+      "name": "Maumee Valley Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "About 90 miles along both banks of the Maumee River from Defiance through Napoleon, Grand Rapids, Waterville, Maumee and Perrysburg to Rossford; Defiance, Henry, Wood and Lucas counties",
+      "facts": [
+        {
+          "fact": "The 90-mile route begins in Defiance at SR 15 and River Drive.",
+          "source": "https://storymaps.arcgis.com/stories/cfec08b4642343c9bf39ce0eaf6b8ed7"
+        },
+        {
+          "fact": "War of 1812 sites include Fort Meigs; Fallen Timbers battlefield of 1794 is also on the route.",
+          "source": "https://storymaps.arcgis.com/stories/cfec08b4642343c9bf39ce0eaf6b8ed7"
+        },
+        {
+          "fact": "At Providence Metropark visitors ride a reproduction mule-drawn canal boat; Side Cut Metropark keeps three locks of the canal's side cut.",
+          "source": "https://storymaps.arcgis.com/stories/cfec08b4642343c9bf39ce0eaf6b8ed7"
+        }
+      ],
+      "review": "ODOT shows 89.5 miles; brochure says nearly 60."
+    },
+    {
+      "name": "Miami & Erie Canal Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "About 55 miles following the old canal from Piqua (Johnston Farm) through Lockington, Fort Loramie, Minster, New Bremen, St. Marys and Spencerville to Delphos; Miami, Shelby, Auglaize and Allen counties",
+      "facts": [
+        {
+          "fact": "At Lockington five stone lift locks once raised boats 67 feet.",
+          "source": "https://storymaps.arcgis.com/stories/a72f087646b2488da2aa1f13e488e1f0"
+        },
+        {
+          "fact": "Grand Lake St. Marys was built as a canal feeder reservoir and still supplies the canal through a three-mile feeder.",
+          "source": "https://storymaps.arcgis.com/stories/a72f087646b2488da2aa1f13e488e1f0"
+        },
+        {
+          "fact": "New Bremen's Lockkeeper's House visitor center stands on the Towpath Trail in a region settled by Germans.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        }
+      ],
+      "review": "ODOT calls it 'Miami and Erie Canal' (layer) or 'Miami and Erie Canal Byway' (page)."
+    },
+    {
+      "name": "Neil Armstrong Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "Streets of Wapakoneta, Auglaize County, along the route of the 1969 homecoming parade",
+      "facts": [
+        {
+          "fact": "The route through downtown Wapakoneta retraces Neil Armstrong's homecoming parade after the moon landing.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "The Armstrong Air & Space Museum, built to look like a moon base, opened on July 20, 1972.",
+          "source": "https://storymaps.arcgis.com/stories/901ddbb829304a25886248c0494e67c9"
+        },
+        {
+          "fact": "Armstrong earned his student pilot certificate at 16 at the Port Koneta field, before he had a driver's license.",
+          "source": "https://storymaps.arcgis.com/stories/901ddbb829304a25886248c0494e67c9"
+        }
+      ]
+    },
+    {
+      "name": "North Ridge Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "SR 254 (Detroit Road and North Ridge Road) through Avon and Sheffield Village, about 9 miles; Lorain County",
+      "facts": [
+        {
+          "fact": "The byway covers the whole of SR 254 in Lorain County and passes more than a hundred historic homes.",
+          "source": "https://storymaps.arcgis.com/stories/bd271f3d24c94b50ba451b9d7b3758a2"
+        },
+        {
+          "fact": "It follows the northernmost ancient beach ridge across Avon and Sheffield.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "Avon was once called the Greenhouse Capital of America; the 1840s Hurst stone house is nicknamed the Stone Eagle.",
+          "source": "https://storymaps.arcgis.com/stories/bd271f3d24c94b50ba451b9d7b3758a2"
+        }
+      ]
+    },
+    {
+      "name": "Ohio & Erie Canalway",
+      "designation": "Ohio Scenic Byway; National Scenic Byway (America's Byway)",
+      "where": "About 110 miles from Cleveland through Cuyahoga Valley National Park, Akron, Massillon and Zoar to New Philadelphia, with a spur to Canton",
+      "facts": [
+        {
+          "fact": "The 110-mile byway runs from Cleveland to New Philadelphia within the Ohio & Erie Canalway National Heritage Area, with a spur from Massillon to Canton.",
+          "source": "https://en.wikipedia.org/wiki/Ohio_%26_Erie_Canalway_Scenic_Byway"
+        },
+        {
+          "fact": "At Canal Fulton the mule-drawn boat St. Helena III gives rides on a restored stretch of canal.",
+          "source": "https://storymaps.arcgis.com/stories/2b1171254c4c4c4580f76c8e036cfa78"
+        },
+        {
+          "fact": "Stops include Hale Farm, the Cascade Locks in Akron, Zoar Village and Fort Laurens, Ohio's only Revolutionary War fort site.",
+          "source": "https://storymaps.arcgis.com/stories/2b1171254c4c4c4580f76c8e036cfa78"
+        }
+      ]
+    },
+    {
+      "name": "Ohio River Scenic Byway",
+      "designation": "Ohio Scenic Byway; National Scenic Byway (America's Byway)",
+      "where": "About 452 miles of SR 7 and US 52 along the Ohio River from East Liverpool through Marietta, Gallipolis and Portsmouth to Cincinnati; 14 counties",
+      "facts": [
+        {
+          "fact": "The byway spans 14 counties and the whole Ohio length of the river, 452 miles.",
+          "source": "https://storymaps.arcgis.com/stories/269995d1f71b4836b54874bc7b48e0b8"
+        },
+        {
+          "fact": "East Liverpool, the start, was built on pottery. The Fly ferry to Sistersville, West Virginia, in business since 1815, is the only ferry joining Ohio and West Virginia.",
+          "source": "https://storymaps.arcgis.com/stories/269995d1f71b4836b54874bc7b48e0b8"
+        },
+        {
+          "fact": "Portsmouth's floodwall murals cover about 2,000 feet; the Rankin House at Ripley was an Underground Railroad station.",
+          "source": "https://storymaps.arcgis.com/stories/269995d1f71b4836b54874bc7b48e0b8"
+        }
+      ]
+    },
+    {
+      "name": "Old Mill Stream Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "US 224 and SR 37 along the Blanchard River from Mt. Blanchard through Findlay, Gilboa and Ottawa to Glandorf; Hancock and Putnam counties",
+      "facts": [
+        {
+          "fact": "The byway follows the Blanchard River along US 224 and SR 37 in Putnam and Hancock counties.",
+          "source": "https://storymaps.arcgis.com/stories/c4ee901db371471698b06716e9a63567"
+        },
+        {
+          "fact": "It takes its name from the song 'Down by the Old Mill Stream' and passes through Findlay, Flag City USA.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "The Great Karg gas well came in at Findlay on January 20, 1886, and its flame burned for more than four months.",
+          "source": "https://storymaps.arcgis.com/stories/c4ee901db371471698b06716e9a63567"
+        }
+      ],
+      "review": "Catalog line covers about 60 percent of ODOT's line."
+    },
+    {
+      "name": "Quaker Heritage Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "About 54-mile loop between Waynesville and Wilmington by way of Caesar Creek; Warren and Clinton counties",
+      "facts": [
+        {
+          "fact": "The 54-mile loop traces the Quaker migration into Ohio.",
+          "source": "https://storymaps.arcgis.com/stories/78752b3e94994dc4964598db9f3ecca6"
+        },
+        {
+          "fact": "Waynesville's white brick Miami Meetinghouse of 1811 is described as the oldest continuously used religious building west of the Alleghenies.",
+          "source": "https://storymaps.arcgis.com/stories/78752b3e94994dc4964598db9f3ecca6"
+        },
+        {
+          "fact": "Caesar Creek's 1849 meetinghouse was moved to Pioneer Village when the lake was built; Isaac and Sarah Harvey went from here to see Lincoln about emancipation in 1862.",
+          "source": "https://storymaps.arcgis.com/stories/78752b3e94994dc4964598db9f3ecca6"
+        },
+        {
+          "fact": "The 1811 meetinghouse has two doors and two equal sides for men's and women's meetings; the Caesar Creek spillway is a fossil-hunting ground.",
+          "source": "https://storymaps.arcgis.com/stories/78752b3e94994dc4964598db9f3ecca6"
+        }
+      ],
+      "review": "Brochure places it in southeast Ohio, but ODOT's storymap and layer put it in southwest Ohio (Warren and Clinton counties). ODOT's layer name is 'Quaker Heritage Scenic Byway'; the storymap calls it 'Quaker Historic Byway'."
+    },
+    {
+      "name": "Scenic Olentangy Heritage Corridor",
+      "designation": "Ohio Scenic Byway",
+      "where": "SR 315 from I-270 in Franklin County north along the Olentangy River to US 23 in Delaware County, about 10 miles",
+      "facts": [
+        {
+          "fact": "The corridor begins at I-270 and follows the Olentangy River to US 23.",
+          "source": "https://storymaps.arcgis.com/stories/67705a328daf4fbcb693bce17d450057"
+        },
+        {
+          "fact": "SR 315 was the first road commissioned in Delaware County, in 1808.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "Highbanks Metro Park is named for a 100-foot shale bluff over the Olentangy State Scenic River, which runs east of and parallel to SR 315; stone houses and the Bieber Mill line the road.",
+          "source": "https://storymaps.arcgis.com/stories/67705a328daf4fbcb693bce17d450057"
+        }
+      ],
+      "review": "ODOT now calls it 'Olentangy Heritage Corridor'."
+    },
+    {
+      "name": "Scioto Heritage Trail",
+      "designation": "Ohio Scenic Byway",
+      "where": "Loop roads from Portsmouth west through Shawnee State Forest to Otway and Rarden and back by Duck Run and Lucasville; Scioto County",
+      "facts": [
+        {
+          "fact": "The byway begins in downtown Portsmouth and joins the Ohio River Scenic Byway near the floodwall murals.",
+          "source": "https://storymaps.arcgis.com/stories/cebb6dd727124a7892710ba889be9061"
+        },
+        {
+          "fact": "It passes the boyhood homes of Roy Rogers and Branch Rickey, plus remnants of the Ohio and Erie Canal.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "Otway's covered bridge dates from 1874, and the route runs through Shawnee, Ohio's largest state forest.",
+          "source": "https://storymaps.arcgis.com/stories/cebb6dd727124a7892710ba889be9061"
+        }
+      ],
+      "review": "ODOT now calls it 'Scioto Heritage Trail'."
+    },
+    {
+      "name": "Tappan-Moravian Trail Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "About 55 miles on US 250, SR 799 and county roads around Tappan and Clendening lakes, with a northern loop by SR 646 through Scio and Jewett; Harrison and Tuscarawas counties",
+      "facts": [
+        {
+          "fact": "The 55-mile byway winds past Tappan Lake and around Clendening Lake through rural eastern Ohio.",
+          "source": "https://storymaps.arcgis.com/stories/a68aed0661aa423ab947c40762aa0884"
+        },
+        {
+          "fact": "When Tappan Dam was built, Pleasant Valley Church and its graves were moved up the hill and the Brownsville church was moved from the abandoned village of Tappan.",
+          "source": "https://storymaps.arcgis.com/stories/a68aed0661aa423ab947c40762aa0884"
+        },
+        {
+          "fact": "New Rumley is the birthplace of George Armstrong Custer.",
+          "source": "https://storymaps.arcgis.com/stories/a68aed0661aa423ab947c40762aa0884"
+        }
+      ],
+      "review": "ODOT page slug is misspelled 'tappen-moravian-trail-byway' but works."
+    },
+    {
+      "name": "Wally Road Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "Wally Road (old Walhonding Valley rail bed) from Loudonville south along the Mohican River to Greer; Ashland, Holmes and Knox counties",
+      "facts": [
+        {
+          "fact": "The road uses the old bed of the 'Wally', the Toledo, Walhonding Valley and Ohio railway, in Mohican River country.",
+          "source": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+        },
+        {
+          "fact": "Loudonville calls itself the Canoe Capital of Ohio for its many liveries on the Mohican.",
+          "source": "https://storymaps.arcgis.com/stories/e90e110d00934d28a871dd7acf2ffebb"
+        },
+        {
+          "fact": "The hamlet of Greer was a stop on the railroad; a one-room Walnut Grove School of the late 1800s was restored in 2002.",
+          "source": "https://storymaps.arcgis.com/stories/e90e110d00934d28a871dd7acf2ffebb"
+        }
+      ],
+      "review": "ODOT line is about 10 miles; catalog covers about half of it."
+    },
+    {
+      "name": "Welsh Scenic Byway",
+      "designation": "Ohio Scenic Byway",
+      "where": "Loop through Gallia and Jackson counties: Gallipolis, Rio Grande, Centerville, Oak Hill, Jackson",
+      "facts": [
+        {
+          "fact": "The loop through Gallia and Jackson counties honors Welsh immigrants who settled southeastern Ohio in the nineteenth century.",
+          "source": "https://storymaps.arcgis.com/stories/2d8caba67bb74e3c90ed7dff790e2775"
+        },
+        {
+          "fact": "Many Welsh chapels on the route have two front doors and a tea house, or ty capel, for feeding the minister.",
+          "source": "https://storymaps.arcgis.com/stories/2d8caba67bb74e3c90ed7dff790e2775"
+        },
+        {
+          "fact": "Welsh settlers built charcoal iron furnaces; Buckeye Furnace is a restored example.",
+          "source": "https://storymaps.arcgis.com/stories/2d8caba67bb74e3c90ed7dff790e2775"
+        }
+      ],
+      "review": "ODOT line is 64.4 miles; catalog line (45 mi) covers under half of it."
+    },
+    {
+      "name": "Covered Bridge Scenic Byway",
+      "designation": "National Forest Scenic Byway",
+      "where": "SR 26 from Marietta to Woodsfield along the Little Muskingum River; Washington and Monroe counties",
+      "facts": [
+        {
+          "fact": "The byway follows SR 26 from Marietta to Woodsfield, mostly beside the Little Muskingum River.",
+          "source": "https://www.fs.usda.gov/r09/wayne/recreation/covered-bridge-scenic-byway"
+        },
+        {
+          "fact": "A self-guided tour covers 35 miles with ten marked stops and four campgrounds along the way.",
+          "source": "https://www.fs.usda.gov/r09/wayne/recreation/covered-bridge-scenic-byway"
+        }
+      ],
+      "review": "Not part of ODOT's Ohio Byways list."
+    }
+  ],
+  "issues": [
+    "Catalog roads not in ODOT's current list of 27: Accommodation Line Scenic Byway (Waynesville to Spring Valley, US 42; only ~20% overlaps the Quaker Heritage byway), Jefferson County Scenic Byway (Jefferson County near Smithfield), Presidential Pathways Ohio Scenic Byway (western Hamilton/Butler counties, US 27 area). They look de-designated; left out of the chapter.",
+    "Gateway to Amish Country (gateway-to-amish-country-69094) lies wholly on ODOT's current Amish Country Byway line, which is now 196.4 miles versus the catalog's 76; the catalog ACB line covers under half of the current route. Consider redrawing ACB from ODOT layer 0 (Byway_Name = 'Amish Country Byway') and retiring the Gateway entry.",
+    "Morgan County Scenic Byway (morgan-county-scenic-byway-13594) lies wholly on the Appalachian Byway (SR 78) and covers about half of it; looks merged. Appalachian Byway is given bywayId null with gisValue; consider retiring the Morgan County entry.",
+    "Hocking Hills Scenic Byway is a National Scenic Byway (ODOT page; Wikipedia's national list, 2021 round); the catalog flags it as state-only.",
+    "Brochure describes Quaker Heritage Scenic Byway as southeast Ohio, but its route and storymap are in southwest Ohio (Waynesville, Wilmington).",
+    "Brochure abbreviations are sloppy (Welsh labeled OEC, Hocking Hills labeled HCB in one place); lengths disagree across sources for Maumee Valley (60 vs 89.5 mi), Land of the Cross-Tipped Churches (38 vs 47.4), Amish Country (160 vs 196.4), Appalachian (105 vs 122.3).",
+    "Catalog lines cover only part of ODOT's line for Welsh (~42%), Wally Road (~48%), Old Mill Stream (~58%), Lincoln Highway (~67%), Historic National Road (~70%), Land of the Cross-Tipped Churches (~36%); could be redrawn from ODOT layer.",
+    "Facts cite ODOT StoryMap URLs; the text was read from the arcgis.com item data JSON for each story because the story pages render client-side.",
+    "Registry programUrl works (with a browser-like UA); list is client-rendered but the GIS layer and brochure give all 27. Update registry gisLayer to the ODOT layers above."
+  ]
+}

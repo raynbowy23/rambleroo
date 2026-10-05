@@ -13,6 +13,8 @@ export interface StateSource {
    * `replaces`: the USDOT BYWAY_ID whose line the agency's line replaces (the national one is drawn in the wrong place); the
    * road keeps that ID and `name` must equal its national name, so its slug, strip and photos survive.
    * `osm`: draw the road from these OpenStreetMap way IDs when the agency publishes no line.
+   * `layer`: this road's own layer, when the agency publishes one layer per road.
+   * `where`: a full SQL condition selecting the road, for layers with no usable name field (it replaces the name match).
    * `clip`: keep only `miles` either side of the point on the line nearest `center` ([lon, lat]), for designations that
    * cover a short stretch of a longer agency route.
    */
@@ -23,6 +25,8 @@ export interface StateSource {
     designation: string
     nsb: boolean
     replaces?: number
+    layer?: string
+    where?: string
     osm?: { ways: number[] }
     clip?: { center: [number, number]; miles: number }
   }[]

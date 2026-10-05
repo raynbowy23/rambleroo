@@ -71,14 +71,15 @@ export default function StatePage() {
           chapter.programs.map((program, index) => {
             const mapped = program.members.filter((m) => m.bywayId && byId.has(m.bywayId))
             const visible = program.members.filter((m) => !m.bywayId || !theme || byId.get(m.bywayId)?.themes.includes(theme))
+            const federal = program.kind ? program.kind === 'federal' : index > 0
             return (
               <section className={s.section} key={program.label}>
-                <span className="kicker">{index === 0 ? 'State designation' : 'Federal designation'}</span>
+                <span className="kicker">{federal ? 'Federal designation' : 'State designation'}</span>
                 <h2>
                   {program.label} · {program.issuer === 'Wisconsin Department of Transportation' ? 'WisDOT' : program.issuer}
                 </h2>
                 <p>
-                  {program.members.length} in {index === 0 ? 'the state program' : 'this program'}, {mapped.length} with mapped lines
+                  {program.members.length} in {federal ? 'this program' : 'the state program'}, {mapped.length} with mapped lines
                 </p>
                 {theme && <p className={s.muted}>Pending routes remain visible because their themes have not been cataloged.</p>}
                 <div className={s.grid}>

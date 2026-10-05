@@ -102,14 +102,26 @@ for (const source of stateSources) {
       )
     } else {
       const q = new URLSearchParams({
-        where: `${source.nameField}='${(b.match ?? b.name).replaceAll("'", "''")}'${source.where ? ` AND ${source.where}` : ''}`,
+        where: `${b.where ?? `${source.nameField}='${(b.match ?? b.name).replaceAll("'", "''")}'`}${source.where ? ` AND ${source.where}` : ''}`,
         outFields: '*',
         outSR: '4326',
         f: 'geojson',
       })
-      const d = await getJson(`${source.layer}/query?${q}`)
-      lines = d.features.flatMap((f: Feature<LineString | MultiLineString>) =>
-        f.geometry.type === 'LineString' ? [f.geometry.coordinates] : f.geometry.coordinates,
+      let d = await getJson(`${b.layer ?? source.layer}/query?${q}`)
+      if (d.error) {
+        // Older ArcGIS servers can't answer f=geojson; ask for Esri JSON and read its paths instead.
+        q.set('f', 'json')
+        d = await getJson(`${b.layer ?? source.layer}/query?${q}`)
+        if (d.error) throw new Error(`${b.name}: ${b.layer ?? source.layer} query failed: ${JSON.stringify(d.error)}`)
+        d = {
+          features: d.features.map((f: { geometry?: { paths: Position[][] } }) => ({
+            geometry: f.geometry?.paths ? { type: 'MultiLineString', coordinates: f.geometry.paths } : null,
+          })),
+        }
+      }
+      // Some agency layers hold rows with empty geometry; skip them.
+      lines = d.features.flatMap((f: Feature<LineString | MultiLineString> | { geometry: null }) =>
+        !f.geometry ? [] : f.geometry.type === 'LineString' ? [f.geometry.coordinates] : f.geometry.coordinates,
       )
     }
     if (b.clip) lines = [clipAround(lines, b.clip.center, b.clip.miles)]
