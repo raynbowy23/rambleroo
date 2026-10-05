@@ -1,3 +1,4 @@
+import { REPO_URL } from '../../features/legal/policy'
 import { AccountBridge, AccountControl } from '../../features/account/AccountControl'
 import { ConsentBanner, CookieSettingsButton } from '../../features/consent/ConsentBanner'
 import { useTrip } from '../../lib/store'
@@ -50,7 +51,7 @@ export default function Layout() {
       </a>
       <header className={styles.header}>
         <Link viewTransition to="/" className={styles.logo} aria-label="Rambleroo home">
-          <Logo size={32} />
+          <Logo size={52} />
         </Link>
         <span className={`kicker ${styles.tagline}`}>Est. 2026 · Scenic roads of America</span>
         <nav className={styles.desktop} aria-label="Main navigation">
@@ -87,6 +88,9 @@ export default function Layout() {
             <Link viewTransition to="/terms">
               Terms
             </Link>
+            <a href={REPO_URL} target="_blank" rel="noreferrer">
+              Source on GitHub
+            </a>
             <CookieSettingsButton className={styles.footerButton} />
           </nav>
         </footer>

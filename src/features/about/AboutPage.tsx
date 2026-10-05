@@ -1,3 +1,4 @@
+import { REPO_URL } from '../legal/policy'
 import { Link } from 'react-router'
 import { useCatalog } from '../../lib/data'
 import styles from '../../components/layout/Page.module.css'
@@ -60,6 +61,15 @@ export default function AboutPage() {
         Without an account, saves and visits live in this browser only. Clearing browser storage removes them; if storage is blocked,
         changes last only for this session. If you sign in, they sync to your account so every device sees them. Photos you add sync
         privately too, resized with location metadata removed. See the <Link to="/privacy">privacy policy</Link> for what an account stores.
+      </p>
+      <h2>Open source</h2>
+      <p>
+        Rambleroo is open source. The code, the data pipeline and the state chapters are on{' '}
+        <a href={REPO_URL} target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+        . Corrections are the most useful help: a road drawn in the wrong place, a town at the wrong mile, a photo credit. Open an issue
+        there, or help map a state&rsquo;s byway program.
       </p>
       <h2>Sources and credits</h2>
       <p>

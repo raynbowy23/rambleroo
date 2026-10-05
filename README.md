@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/logo.png" alt="Rambleroo" width="420"></p>
+
 # Rambleroo
 
 Drive into the heart of the American story. Rambleroo is a guide to nearly 800 scenic roads in the United States. Find a road on the national map, read its postcard, then scroll down the road mile by mile on a strip map. Save it, add it to a trip, record a visit and collect a stamp in your passport.

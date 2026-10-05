@@ -16,7 +16,7 @@ export default defineConfig({
         ...manifest,
         icons: [...manifest.icons, { src: '/icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' }],
       },
-      includeAssets: ['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png', 'icon-*.png'],
+      includeAssets: ['favicon.ico', 'favicon-*.png', 'apple-touch-icon.png', 'icon-*.png'],
       workbox: {
         clientsClaim: true,
         globPatterns: ['**/*.{js,css,html,woff,woff2,ttf,ico}'],
