@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 import { Link, useLoaderData, type LoaderFunctionArgs } from 'react-router'
 import { useCatalog } from '../../lib/data'
 import type { ShareSnapshot } from '../../lib/shares'
@@ -24,7 +24,8 @@ export default function PublicSharePage() {
   const { snapshot, missing, error } = useLoaderData<typeof loader>()
   const catalog = useCatalog()
   const [map, setMap] = useState(false)
-  useEffect(() => {
+  // Layout effect, so noindex is in the head in the same commit that renders the page (a passive effect can land after it).
+  useLayoutEffect(() => {
     const existing = document.querySelector<HTMLMetaElement>('meta[name="robots"]')
     const meta = existing ?? document.createElement('meta')
     const previous = meta.getAttribute('content')

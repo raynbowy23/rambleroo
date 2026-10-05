@@ -23,7 +23,7 @@ describe('location illustrations', () => {
         }
       }
     }
-  })
+  }, 20_000) // exhaustive: every landmark in every format, slow on shared CI runners
 
   it('keeps regions distinct and repeated inputs deterministic', () => {
     const samples = (Object.keys(regions) as Region[]).map((region) => {
