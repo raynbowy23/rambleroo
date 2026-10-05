@@ -37,7 +37,7 @@ Rambleroo catalogs **1,047 scenic drives across the United States**, combining f
 ### Features
 
 - **Linear Strip Maps (970 routes):** Each corridor unrolls into a continuous linear ribbon as you scroll. Towns, natural landmarks, and scenic overlooks are pinned to their true relative milepost. Drive times are dynamically routed via OpenStreetMap, while data discontinuities render as dashed connector lines.
-- **Four-Season Visuals & Custom Postcards:** Every route features a procedural postcard and seasonal strip illustrations. For 258 roads, 304 human-verified, freely licensed photographs provide authentic field references.
+- **Four-Season Visuals & Custom Postcards:** Every route features a procedural postcard and seasonal strip illustrations. For 317 roads, 363 human-verified, freely licensed photographs provide authentic field references.
 - **State Chapters:** Each state's byway program, its roads described one by one, and a link to the agency that designates them. Every state has one; [docs/state-programs.md](docs/state-programs.md) links each state's program.
 - **Granular Designations:** Instantly differentiate between _All-American Roads_, _National Scenic Byways_, _State Scenic Byways_, and _National Forest Byways_, with direct links to respective state agency programs.
 
