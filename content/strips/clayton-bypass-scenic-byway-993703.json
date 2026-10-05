@@ -1,0 +1,26 @@
+{
+  "bywayId": "clayton-bypass-scenic-byway-993703",
+  "reviewed": false,
+  "title": "Clayton Bypass Scenic Byway",
+  "direction": "US 70 around Clayton, one of two freeways in North Carolina with scenic byway status, over pasture and woodlots.",
+  "towns": [
+    {
+      "name": "Powhatan",
+      "wikipedia": "Powhatan, North Carolina"
+    },
+    {
+      "name": "Clayton",
+      "wikipedia": "Clayton, North Carolina"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "around-clayton",
+      "title": "Around Clayton",
+      "from": "Powhatan",
+      "to": "Clayton",
+      "scene": "prairie",
+      "line": "Long straightaways through Johnston County farm country."
+    }
+  ]
+}

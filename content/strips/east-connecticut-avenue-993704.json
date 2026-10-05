@@ -1,0 +1,27 @@
+{
+  "bywayId": "east-connecticut-avenue-993704",
+  "reviewed": false,
+  "title": "East Connecticut Avenue",
+  "direction": "A short, curving avenue out of Southern Pines through longleaf pine and horse farms toward the Fort Bragg gate.",
+  "towns": [
+    {
+      "name": "Southern Pines",
+      "wikipedia": "Southern Pines, North Carolina"
+    },
+    {
+      "name": "Weymouth Woods",
+      "wikipedia": "Weymouth Woods-Sandhills Nature Preserve",
+      "kind": "landmark"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "longleaf-pine",
+      "title": "Longleaf pine",
+      "from": "Southern Pines",
+      "to": "Weymouth Woods",
+      "scene": "forest",
+      "line": "Horse farms and old longleaf pine."
+    }
+  ]
+}

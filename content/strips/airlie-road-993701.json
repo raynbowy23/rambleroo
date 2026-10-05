@@ -1,0 +1,27 @@
+{
+  "bywayId": "airlie-road-993701",
+  "reviewed": false,
+  "title": "Airlie Road",
+  "direction": "Airlie Road from US 76 to the Wrightsville Beach drawbridge, under moss-hung oaks past Airlie Gardens.",
+  "towns": [
+    {
+      "name": "Airlie Gardens",
+      "wikipedia": "Airlie Gardens",
+      "kind": "landmark"
+    },
+    {
+      "name": "Wrightsville Beach",
+      "wikipedia": "Wrightsville Beach, North Carolina"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "under-the-oaks",
+      "title": "Under the oaks",
+      "from": "Airlie Gardens",
+      "to": "Wrightsville Beach",
+      "scene": "coast",
+      "line": "Moss-hung oaks, then marsh grass at the drawbridge."
+    }
+  ]
+}

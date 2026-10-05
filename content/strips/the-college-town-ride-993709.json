@@ -1,0 +1,27 @@
+{
+  "bywayId": "the-college-town-ride-993709",
+  "reviewed": false,
+  "title": "The College Town Ride",
+  "direction": "NC 115 down Davidson’s Main Street, then out on country roads to Fisher Farm Park.",
+  "towns": [
+    {
+      "name": "Davidson",
+      "wikipedia": "Davidson, North Carolina"
+    },
+    {
+      "name": "Davidson College",
+      "wikipedia": "Davidson College",
+      "kind": "landmark"
+    }
+  ],
+  "stretches": [
+    {
+      "id": "main-street",
+      "title": "Main Street",
+      "from": "Davidson",
+      "to": "Davidson College",
+      "scene": "town",
+      "line": "Past the college and the old Helper Hotel."
+    }
+  ]
+}

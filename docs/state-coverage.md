@@ -73,7 +73,7 @@ Research on 2026-10-04 (every link fetched and checked; the full registry with b
 | New Jersey | [New Jersey Department of Transportation (NJDOT), Community Programs](https://dot.nj.gov/transportation/community/scenic/byways.shtm) | no | 8 | 1 |  |
 | New Mexico | [New Mexico Department of Transportation (NMDOT); traveler pages hosted by New Mexico Tourism Department](https://www.newmexico.org/places-to-visit/scenic-byways/) | yes | 24 | 2 |  |
 | New York | [New York State Department of Transportation (NYSDOT)](https://www.dot.ny.gov/display/programs/scenic-byways/lists) | no | 30 | 10 |  |
-| North Carolina | [North Carolina Department of Transportation (NCDOT)](https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Pages/default.aspx) | yes | 63 | 16 |  |
+| North Carolina | [North Carolina Department of Transportation (NCDOT)](https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Pages/default.aspx) | yes | 63 | 0 (11 filled, 4 renamed) | done |
 | North Dakota | [North Dakota Department of Transportation (NDDOT) with North Dakota Tourism (Department of Commerce)](https://www.ndtourism.com/bywaysbackways) | yes | 10 | 1 |  |
 | Ohio | not verified | no | — | — |  |
 | Oklahoma | [Oklahoma Department of Transportation (ODOT), with University of Oklahoma Outreach; promoted by TravelOK (Oklahoma Tourism)](https://www.travelok.com/articles/oklahomasscenicbyways) | yes | 7 | 0 |  |
