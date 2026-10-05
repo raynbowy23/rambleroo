@@ -1,0 +1,38 @@
+{
+  "bywayId": "route-247-high-desert-barstow-to-yucca-valley-990611",
+  "reviewed": false,
+  "generated": true,
+  "title": "Route 247, High Desert (Barstow to Yucca Valley)",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Lucerne Lake",
+      "wikipedia": "Lucerne Lake (California)",
+      "kind": "landmark",
+      "weight": 1871
+    },
+    {
+      "name": "Peterman Hill",
+      "wikipedia": "",
+      "osm": "node/358790561",
+      "at": [
+        -116.9400354,
+        34.5380523
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Yucca Mesa",
+      "wikipedia": "",
+      "osm": "node/11360427087",
+      "at": [
+        -116.4301044,
+        34.1848068
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

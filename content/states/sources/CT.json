@@ -1,0 +1,834 @@
+{
+  "note": "Facts and sources behind the member descriptions in CT.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Merritt Parkway",
+      "designation": "Connecticut State Scenic Road (No. 15); National Scenic Byway",
+      "where": "Route 15 from the New York line at Greenwich to the Housatonic River in Stratford; Greenwich, Stamford, New Canaan, Norwalk, Westport, Fairfield, Trumbull, Stratford (Fairfield County)",
+      "facts": [
+        {
+          "fact": "Built 1934 to 1940 and opened in three sections (Greenwich to Norwalk on June 29, 1938), the parkway runs 37 miles from the New York line to the Housatonic River.",
+          "source": "https://en.wikipedia.org/wiki/Merritt_Parkway"
+        },
+        {
+          "fact": "When it was built each overpass was decorated differently so that no two bridges looked alike; FHWA describes the bridges as Art Deco or Art Moderne.",
+          "source": "https://en.wikipedia.org/wiki/Merritt_Parkway"
+        },
+        {
+          "fact": "Trucks, buses, trailers and vehicles 8 feet or taller are barred because of low bridges, narrow lanes and tight curves.",
+          "source": "https://en.wikipedia.org/wiki/Merritt_Parkway"
+        },
+        {
+          "fact": "FHWA byway page: the bridges are excellent examples of Art Deco or Art Moderne styles of the 1920s and 1930s; 37 miles.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2452"
+        },
+        {
+          "fact": "CTDOT scenic road No. 15, designated 1993-01-28, New York state line to the Housatonic River bridge, 37.27 miles.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ],
+      "review": "url is the Merritt Parkway Conservancy (advocacy group); FHWA page https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2452 also works."
+    },
+    {
+      "name": "Route 169",
+      "designation": "Connecticut State Scenic Road (No. 54); National Scenic Byway (Connecticut State Route 169)",
+      "where": "Route 169 (with short overlaps on US 44 in Pomfret and Route 171 in Woodstock) from Rocky Hollow Road in Lisbon through Canterbury, Brooklyn, Pomfret and Woodstock to the Massachusetts line",
+      "facts": [
+        {
+          "fact": "32.10 miles from Rocky Hollow Road in Lisbon to the Massachusetts line are a National Scenic Byway and state scenic road; the route in Connecticut is also the General Israel Putnam Highway.",
+          "source": "https://en.wikipedia.org/wiki/Route_169_(Connecticut%E2%80%93Massachusetts)"
+        },
+        {
+          "fact": "The Norwich and Woodstock Turnpike, incorporated 1801, followed Route 169 to Woodstock and the state line.",
+          "source": "https://en.wikipedia.org/wiki/Route_169_(Connecticut%E2%80%93Massachusetts)"
+        },
+        {
+          "fact": "The Pomfret Street Historic District along Route 169 is about two miles long and contains the Rectory School and Pomfret School (founded 1894).",
+          "source": "https://en.wikipedia.org/wiki/Pomfret_Street_Historic_District"
+        },
+        {
+          "fact": "FHWA: the byway passes colonial homesteads, churches, stone walls, meeting houses and private schools, with glacial rocks and boulders strewn through fields.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2451"
+        }
+      ]
+    },
+    {
+      "name": "Routes 49 and 14A",
+      "designation": "Connecticut State Scenic Road (Nos. 14, 27, 28)",
+      "where": "Route 49 from Route 184 in North Stonington through Voluntown to Route 14A in Sterling (not through the Route 165/138 overlap in Voluntown center), plus Route 14A from Route 49 east to Porter Pond Road in Sterling",
+      "facts": [
+        {
+          "fact": "Route 49 is a scenic route running 21.74 miles through Pachaug State Forest; scenic from Route 184 to south of Route 165 and from the Voluntown boat launch to Sterling.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_49"
+        },
+        {
+          "fact": "Pachaug is the largest forest in the Connecticut state forest system, over 27,000 acres, named for the Pachaug River.",
+          "source": "https://en.wikipedia.org/wiki/Pachaug_State_Forest"
+        },
+        {
+          "fact": "FHWA: the route is known for vistas from large hilltop farms defined by stone walls, grazing cattle and tall corn.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2461"
+        },
+        {
+          "fact": "A 2003 corridor management plan looked at speed, stone walls and the scenery along Route 49.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_49"
+        }
+      ],
+      "review": "State segments total 19.04 miles (10.86 + 7.61 + 0.57); FHWA gives 19.5; catalog maps 24."
+    },
+    {
+      "name": "US 7, Kent to Canaan",
+      "designation": "Connecticut State Scenic Road (Nos. 8, 9, 10, 11)",
+      "where": "US 7 from the New Milford-Kent line through Kent, Cornwall Bridge, Sharon and Salisbury to the Canaan-North Canaan line, including the short Route 4 overlap at Cornwall Bridge; Litchfield County",
+      "facts": [
+        {
+          "fact": "A 28.11-mile section of US 7 from the New Milford line in Kent through Cornwall, Sharon and Salisbury to the North Canaan line is a state scenic road, designated in four pieces between 1990 and 2002.",
+          "source": "https://en.wikipedia.org/wiki/U.S._Route_7_in_Connecticut"
+        },
+        {
+          "fact": "Kent Falls drops 250 feet in under a quarter mile, the largest cascade more than 70 feet; the park has a covered-bridge replica.",
+          "source": "https://en.wikipedia.org/wiki/Kent_Falls_State_Park"
+        },
+        {
+          "fact": "Housatonic Meadows State Park is at 90 US Route 7, Sharon; a two-mile stretch of river there is fly fishing only.",
+          "source": "https://portal.ct.gov/deep/state-parks/parks/housatonic-meadows-state-park"
+        },
+        {
+          "fact": "US 7 follows the east side of the Housatonic and crosses it on the Cornwall Bridge.",
+          "source": "https://en.wikipedia.org/wiki/Cornwall_Bridge,_Connecticut"
+        }
+      ],
+      "review": "Kent Falls lies beside the Kent segment (checked by coordinates; the park page gives only the street address)."
+    },
+    {
+      "name": "Route 4, Sharon to Cornwall Bridge",
+      "designation": "Connecticut State Scenic Road (Nos. 4, 5)",
+      "where": "Route 4 from the west junction of Old Sharon Road in Sharon east to US 7 at Cornwall Bridge; Litchfield County",
+      "facts": [
+        {
+          "fact": "In 1990 a 3.17-mile section of Route 4 in Sharon between Dunbar Road and US 7 was designated scenic; in 1992 it was extended 1.05 miles to Old Sharon Road.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_4"
+        },
+        {
+          "fact": "The section of Route 4 between Sharon and Cornwall Bridge was the Sharon and Cornwall Turnpike.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_4"
+        },
+        {
+          "fact": "In Cornwall Route 4 briefly overlaps US 7 to cross the Housatonic River on the Cornwall Bridge.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_4"
+        }
+      ]
+    },
+    {
+      "name": "Route 41, Sharon and Salisbury",
+      "designation": "Connecticut State Scenic Road (Nos. 19, 20, 21, 22)",
+      "where": "Route 41 for its full length, from the New York line at Amenia Union through Sharon, Lakeville and Salisbury to the Massachusetts line (the US 44 overlap is listed under US 44); Litchfield County",
+      "facts": [
+        {
+          "fact": "Route 41 runs 17.86 miles from the New York line to the Massachusetts line and is the only state-numbered route in Connecticut with both ends at a state border; designated scenic in stages from 1990 to 1993, it is now scenic its whole length.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_41"
+        },
+        {
+          "fact": "In Sharon Route 41 is South Main Street and Main Street; in Salisbury it overlaps US 44 into the center, then follows Under Mountain Road past Mount Riga State Park to the Massachusetts line.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_41"
+        },
+        {
+          "fact": "The Sharon Historic District centers on a mile-long town green, with Colonial Revival country estates south of it on South Main Street.",
+          "source": "https://en.wikipedia.org/wiki/Sharon_Historic_District_(Sharon,_Connecticut)"
+        },
+        {
+          "fact": "Lake Wononscopomuc in Lakeville is the deepest natural lake in Connecticut.",
+          "source": "https://en.wikipedia.org/wiki/Lake_Wononscopomuc"
+        },
+        {
+          "fact": "The Undermountain Trail runs from the Mount Riga State Park lot on Route 41 to the Appalachian Trail.",
+          "source": "https://en.wikipedia.org/wiki/Mount_Riga_State_Park"
+        }
+      ]
+    },
+    {
+      "name": "US 44, Salisbury",
+      "designation": "Connecticut State Scenic Road (No. 23)",
+      "where": "US 44 from the New York line near Millerton through Lakeville and Salisbury center to the North Canaan line (includes the Route 41 overlap); Litchfield County",
+      "facts": [
+        {
+          "fact": "Scenic road No. 23, designated 1993-12-20, US 44 from the New York line to the Salisbury-North Canaan line, 8.83 miles.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "From the New York line to Lakeville, US 44 was the westernmost section of the Salisbury and Canaan Turnpike.",
+          "source": "https://en.wikipedia.org/wiki/U.S._Route_44_in_Connecticut"
+        },
+        {
+          "fact": "From before the Revolution until about 1920 Salisbury was the seat of an important iron industry, its wrought iron used for gun barrels and its cast iron for railroad car wheels.",
+          "source": "https://en.wikipedia.org/wiki/Salisbury,_Connecticut"
+        }
+      ]
+    },
+    {
+      "name": "Lake Waramaug and New Preston",
+      "designation": "Connecticut State Scenic Road (Nos. 24, 25, 26, 61)",
+      "where": "Route 45 along the east shore and the unsigned loop road SSR 478 (West Shore and North Shore roads) around Lake Waramaug, plus US 202 from Route 45 in New Preston to Rabbit Hill Road; Washington, Warren, Kent",
+      "facts": [
+        {
+          "fact": "Route 45 runs along the east shore of Lake Waramaug; an unsigned state highway, SSR 478, loops around the south, west and north shores.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_45"
+        },
+        {
+          "fact": "Lake Waramaug covers 656 acres and is named after Chief Waramaug; its shore has houses, seasonal cottages and boat houses with few businesses.",
+          "source": "https://en.wikipedia.org/wiki/Lake_Waramaug"
+        },
+        {
+          "fact": "Lake Waramaug State Park on the northwest shore offers swimming, picnicking and camping.",
+          "source": "https://en.wikipedia.org/wiki/Lake_Waramaug_State_Park"
+        },
+        {
+          "fact": "The East Aspetuck River runs from the lake through New Preston village center and over New Preston Falls.",
+          "source": "https://en.wikipedia.org/wiki/New_Preston,_Connecticut"
+        },
+        {
+          "fact": "In 2010 the segment of US 202 between Route 45 and Rabbit Hill Road in New Preston was designated a state scenic road.",
+          "source": "https://en.wikipedia.org/wiki/U.S._Route_202_in_Connecticut"
+        }
+      ]
+    },
+    {
+      "name": "Route 109, Washington",
+      "designation": "Connecticut State Scenic Road (No. 42)",
+      "where": "Route 109 from the east end of its Route 47 overlap to Wood Creek Road, Washington; Litchfield County",
+      "facts": [
+        {
+          "fact": "Scenic road No. 42, designated 2017-03-09, 3.31 miles from the end of the Route 47 overlap to Wood Creek Road.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Route 109 runs from US 202 in New Milford into Washington, overlaps Route 47 briefly, then continues into Morris and on to Thomaston.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_109"
+        }
+      ],
+      "review": "Sources say little about this segment beyond its limits."
+    },
+    {
+      "name": "Litchfield",
+      "designation": "Connecticut State Scenic Road (Nos. 31, 43, 60, 67)",
+      "where": "Route 63 from the Morris line to the green and north to Sarcka Lane, US 202 at the green, Route 118 from the green east to Clark Road, and Route 254 from Camp Hill Road in Northfield to Route 118; Litchfield",
+      "facts": [
+        {
+          "fact": "All four Litchfield segments were designated on 2002-01-04.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "The Litchfield Historic District, a National Historic Landmark since 1968, centers on the town green at Route 202 and Route 63; the green was laid out in 1720 as common pasture and became a park in 1836.",
+          "source": "https://en.wikipedia.org/wiki/Litchfield_Historic_District"
+        },
+        {
+          "fact": "The district is anchored by the 1829 meetinghouse and is predominantly Georgian, with clapboarding, gables and hipped roofs.",
+          "source": "https://en.wikipedia.org/wiki/Litchfield_Historic_District"
+        },
+        {
+          "fact": "Route 254 is scenic from Camp Hill Road in the village of Northfield to its end at Route 118 in Litchfield borough.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_254"
+        }
+      ]
+    },
+    {
+      "name": "Harwinton",
+      "designation": "Connecticut State Scenic Road (Nos. 6, 7)",
+      "where": "Route 4 from Route 118 east to Rock Brook, and the last tenth of a mile of Route 118, Harwinton center; Litchfield County",
+      "facts": [
+        {
+          "fact": "A 1.51-mile section of Route 4 in Harwinton between Route 118 and Rock Brook was designated in 1996, connecting to a 0.1-mile scenic section of Route 118.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_4"
+        },
+        {
+          "fact": "The Litchfield and Harwinton Turnpike, chartered in 1798, used modern Route 118 and continued past Harwinton along modern Route 4.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_118"
+        }
+      ]
+    },
+    {
+      "name": "Farmington River to Collinsville",
+      "designation": "Connecticut State Scenic Road (Nos. 3, 55, 73)",
+      "where": "Route 4 from Perry Street in Farmington west to Route 179, Route 179 north through Burlington to Maple Avenue (SR 565) in Canton, and SR 565 to Allen Place in Collinsville",
+      "facts": [
+        {
+          "fact": "A 2.02-mile section of Route 4 in Farmington and Burlington between Route 179 and Perry Street was designated in 2013, and the scenic route continues north on Route 179.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_4"
+        },
+        {
+          "fact": "Route 179 heads north along the Farmington River into Canton and crosses the river in Collinsville.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_179"
+        },
+        {
+          "fact": "Collinsville grew around the Collins Company axe factory, which closed in 1966; its old buildings ramble along the riverbanks among a maze of sluices.",
+          "source": "https://en.wikipedia.org/wiki/Collinsville,_Connecticut"
+        }
+      ],
+      "review": "SR 565 is an unsigned state road; the line ends in Collinsville (checked by coordinates)."
+    },
+    {
+      "name": "Route 69, Burlington",
+      "designation": "Connecticut State Scenic Road (No. 34)",
+      "where": "Route 69 from Bradley Road to Saw Mill Road, Burlington; Hartford County",
+      "facts": [
+        {
+          "fact": "Scenic road No. 34, designated 2013-03-26, 3.17 miles from Bradley Road to Saw Mill Road.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Route 69 begins in the Amity section of New Haven and north of Bristol becomes a secondary road into Burlington, ending at Route 4 near the town center; the Burlington extension dates from 1962.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_69"
+        }
+      ],
+      "review": "Sources say little about this segment beyond its limits."
+    },
+    {
+      "name": "Route 10, Farmington",
+      "designation": "Connecticut State Scenic Road (No. 12)",
+      "where": "Route 10 (Main Street) from Tunxis Street to Route 4, Farmington center; Hartford County",
+      "facts": [
+        {
+          "fact": "In 1999 a 1.11-mile section of Route 10 in Farmington Center between Tunxis Road and Route 4 was designated scenic.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_10"
+        },
+        {
+          "fact": "The Farmington Historic District roughly follows Route 10 between Route 4 and US 6 and includes 115 buildings, mostly houses, built before 1835.",
+          "source": "https://en.wikipedia.org/wiki/Farmington_Historic_District_(Farmington,_Connecticut)"
+        },
+        {
+          "fact": "The First Church was built in 1771; the brick Union Hotel of about 1830 served Farmington Canal travelers and is now used by Miss Porter's School.",
+          "source": "https://en.wikipedia.org/wiki/Farmington_Historic_District_(Farmington,_Connecticut)"
+        }
+      ]
+    },
+    {
+      "name": "Barkhamsted Reservoir roads",
+      "designation": "Connecticut State Scenic Road (Nos. 56, 63, 64, 70)",
+      "where": "Route 181 from US 44 to Pleasant Valley, Route 318 across Saville Dam, and Route 219 along Lake McDonough from the East Branch Farmington River to Route 318; Barkhamsted and New Hartford",
+      "facts": [
+        {
+          "fact": "Route 181 runs north as River Road into Pleasant Valley, where it overlaps Route 318 across the West Branch Farmington River; that section is scenic.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_181"
+        },
+        {
+          "fact": "Route 318 crosses over Saville Dam past Lake McDonough to Route 219; the section from Route 181 to Route 219 is scenic.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_318"
+        },
+        {
+          "fact": "Saville Dam is an earthen embankment dam with masonry work, 135 feet tall and 1,950 feet long, completed in 1940; its Barkhamsted Reservoir is the primary water source for Hartford.",
+          "source": "https://en.wikipedia.org/wiki/Saville_Dam"
+        },
+        {
+          "fact": "Route 219 runs along the east shore of the McDonough Reservoir; it is scenic from the East Branch Farmington River to Route 318.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_219"
+        }
+      ]
+    },
+    {
+      "name": "US 202, New Hartford",
+      "designation": "Connecticut State Scenic Road (No. 59)",
+      "where": "US 202 from 0.2 mile north of East Cotton Hill Road to the Canton line, New Hartford; Litchfield County",
+      "facts": [
+        {
+          "fact": "Scenic road No. 59, designated 1991-08-12, 5.19 miles to the New Hartford-Canton line.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "The Nepaug River runs to the US 202 bridge and then enters the Nepaug Reservoir, which is managed by the Metropolitan District Commission.",
+          "source": "https://en.wikipedia.org/wiki/Nepaug_River"
+        }
+      ],
+      "review": "That the Nepaug bridge falls inside the scenic segment is inferred from the segment line, not stated by a source."
+    },
+    {
+      "name": "Colebrook",
+      "designation": "Connecticut State Scenic Road (No. 57)",
+      "where": "Route 183 from Route 182 through Colebrook center to Church Hill Road in North Colebrook, with Route 182A (Rockwell Road); Litchfield County",
+      "facts": [
+        {
+          "fact": "Route 183 becomes a scenic road at Route 182, runs through Colebrook center and North Colebrook, and the designation ends at Church Hill Road.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_183"
+        },
+        {
+          "fact": "The Colebrook Center Historic District lies in an isolated valley at Route 183; the village dates from 1767 and has seen little change since about 1860.",
+          "source": "https://en.wikipedia.org/wiki/Colebrook_Center_Historic_District"
+        },
+        {
+          "fact": "The district centers on a triangular common with a Greek Revival church of 1842 at its south end; 19th-century Colebrook raised sheep and cattle and ran tanneries.",
+          "source": "https://en.wikipedia.org/wiki/Colebrook_Center_Historic_District"
+        }
+      ]
+    },
+    {
+      "name": "Route 272, Norfolk",
+      "designation": "Connecticut State Scenic Road (No. 68)",
+      "where": "Route 272 from the Goshen line through Norfolk center (with its US 44 overlap) to the Massachusetts line; Litchfield County",
+      "facts": [
+        {
+          "fact": "The section of Route 272 in Norfolk is scenic; north of town it passes Haystack Mountain State Park and Campbell Falls State Park at the Massachusetts line.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_272"
+        },
+        {
+          "fact": "Haystack Mountain Tower, a 1929 stone observation tower, stands at the end of Stoeckel Drive, which begins on Route 272; it looks into three states.",
+          "source": "https://en.wikipedia.org/wiki/Haystack_Mountain_Tower"
+        },
+        {
+          "fact": "Norfolk center is built around a triangular green at US 44 and Route 272; the town grew as a summer resort after the railroad arrived in 1871.",
+          "source": "https://en.wikipedia.org/wiki/Norfolk_Historic_District"
+        }
+      ]
+    },
+    {
+      "name": "Roxbury",
+      "designation": "Connecticut State Scenic Road (Nos. 32, 33, 69)",
+      "where": "Route 67 from the Bridgewater line through Roxbury center to 0.3 mile east of Route 317, and Route 317 from Route 67 to Painter Hill Road; Litchfield County",
+      "facts": [
+        {
+          "fact": "A 3.77-mile section of Route 67 in Roxbury, from the Bridgewater line to 0.30 mile east of Route 317, is a state scenic road.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_67"
+        },
+        {
+          "fact": "Route 317 runs north from Route 67 along Church Street past the Roxbury Congregational Church; the section to Painter Hill Road is scenic.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_317"
+        },
+        {
+          "fact": "Granite from Roxbury's Mine Hill quarries went into the Brooklyn Bridge and Grand Central Terminal.",
+          "source": "https://en.wikipedia.org/wiki/Roxbury,_Connecticut"
+        }
+      ]
+    },
+    {
+      "name": "Route 33, Wilton",
+      "designation": "Connecticut State Scenic Road (No. 18)",
+      "where": "Route 33 (Ridgefield Road) from Old Ridgefield Road to the Ridgefield line, Wilton; Fairfield County",
+      "facts": [
+        {
+          "fact": "In Wilton Route 33 is a scenic route known as Ridgefield Road, from Old Ridgefield Road to the Ridgefield town line.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_33"
+        },
+        {
+          "fact": "The Wilton Center Historic District includes the 1790 Congregational Church at 70 Ridgefield Road, the oldest church building in Fairfield County.",
+          "source": "https://en.wikipedia.org/wiki/Wilton_Center_Historic_District"
+        },
+        {
+          "fact": "Scenic road No. 18, designated 1997-11-03, 4.81 miles.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ],
+      "review": "The segment begins at Wilton center (checked by coordinates)."
+    },
+    {
+      "name": "Route 53, Redding",
+      "designation": "Connecticut State Scenic Road (No. 29)",
+      "where": "Route 53 from the Weston line to the south junction with Route 107, Redding; Fairfield County",
+      "facts": [
+        {
+          "fact": "A 2.03-mile section of Route 53 in Redding from the Weston line to the start of the Route 107 overlap is a state scenic road.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_53"
+        },
+        {
+          "fact": "The Norwalk and Newtown Turnpike, organized in 1829, mostly used modern Route 53 from Norwalk to the Saugatuck Reservoir in Redding.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_53"
+        },
+        {
+          "fact": "The Saugatuck Reservoir straddles Redding, Weston and Easton; its 1942 dam flooded the villages of Hull and Valley Forge.",
+          "source": "https://en.wikipedia.org/wiki/Saugatuck_Reservoir"
+        }
+      ],
+      "review": "Proximity to the reservoir rests on the turnpike description and coordinates; no source maps the reservoir against this exact segment."
+    },
+    {
+      "name": "Route 58, Easton",
+      "designation": "Connecticut State Scenic Road (No. 30)",
+      "where": "Route 58 (Black Rock Turnpike) from the Fairfield line to Freeborn Road, Easton; Fairfield County",
+      "facts": [
+        {
+          "fact": "A 3.1-mile section of Route 58 in Easton near the Hemlock Reservoir is a scenic highway; the route passes the Hemlock and Aspetuck reservoirs, which supply the Bridgeport area.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_58"
+        },
+        {
+          "fact": "The Hemlock Reservoir dam was completed in 1914.",
+          "source": "https://en.wikipedia.org/wiki/Hemlock_Reservoir"
+        },
+        {
+          "fact": "On April 25, 1777, British troops under General William Tryon marched up the Redding Road, which paralleled present Route 58 south of Easton center, on their way to raid Danbury.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_58"
+        }
+      ]
+    },
+    {
+      "name": "Route 136, Westport",
+      "designation": "Connecticut State Scenic Road (No. 44)",
+      "where": "Route 136 from the Saugatuck River bridge to US 1 (Post Road East), Westport; Fairfield County",
+      "facts": [
+        {
+          "fact": "Scenic road No. 44, designated 2016-07-06, begins at the Saugatuck River bridge and runs 1.82 miles to US 1.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "The Saugatuck River Bridge, built in 1884, is the oldest surviving movable bridge in Connecticut; its wrought-iron swing span is hand-cranked. It was listed on the National Register in 1987.",
+          "source": "https://en.wikipedia.org/wiki/Saugatuck_River_Bridge"
+        }
+      ]
+    },
+    {
+      "name": "US 1, Madison",
+      "designation": "Connecticut State Scenic Road (No. 1)",
+      "where": "US 1 (Boston Post Road) from Neck Road to Lovers Lane, Madison; New Haven County",
+      "facts": [
+        {
+          "fact": "A 2.34-mile section of US 1 in Madison between Neck Road and Lover's Lane was designated scenic in 2008.",
+          "source": "https://en.wikipedia.org/wiki/U.S._Route_1_in_Connecticut"
+        },
+        {
+          "fact": "Madison Green, established in 1705 and bounded on the south by US 1, is fronted by the 1838 First Congregational Church; across the Post Road is a row of 18th- and 19th-century houses.",
+          "source": "https://en.wikipedia.org/wiki/Madison_Green_Historic_District"
+        }
+      ]
+    },
+    {
+      "name": "Routes 79 and 80, North Madison",
+      "designation": "Connecticut State Scenic Road (No. 39)",
+      "where": "Route 80 from Squires Road (the Route 79 roundabout area) east to the Killingworth line, North Madison; New Haven County",
+      "facts": [
+        {
+          "fact": "Scenic road No. 39, designated 2010-12-17, mostly Route 80 from Squires Road to the Madison-Killingworth line (1.96 miles) with short pieces of Route 79 at their junction.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Route 79 and Route 80 meet at a roundabout in North Madison; Route 80 crosses the Hammonasset River between Madison and Killingworth on Bridge No. 1132, an open-spandrel arch built in 1934.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_80"
+        },
+        {
+          "fact": "The Fairhaven Turnpike of 1824 ran east along modern Route 80 to Killingworth center.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_80"
+        }
+      ]
+    },
+    {
+      "name": "Route 146, Branford to Guilford",
+      "designation": "Connecticut State Scenic Road (No. 45)",
+      "where": "Route 146 from Eades Street in Branford along the shore through Indian Neck, Pine Orchard and Leetes Island to US 1 east of the Guilford green; New Haven County",
+      "facts": [
+        {
+          "fact": "Route 146 is a scenic alternative to US 1 between Branford and Guilford, scenic from 0.84 mile past its west end for the rest of its 13 miles.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_146"
+        },
+        {
+          "fact": "It runs along the shore at Indian Neck and Pine Orchard, then out Leetes Island Road into Guilford and past the south side of the Guilford green, crossing under the Amtrak tracks several times.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_146"
+        },
+        {
+          "fact": "The road and adjacent land from Flat Rock Road in Branford to the West River in Guilford are the Route 146 Historic District on the National Register.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_146"
+        }
+      ]
+    },
+    {
+      "name": "Route 77, Guilford to Durham",
+      "designation": "Connecticut State Scenic Road (Nos. 16, 37, 38)",
+      "where": "Route 77 for its full length from the Guilford green to Route 17 in Durham, plus Route 17 from Route 77 through Durham center to just north of Talcott Lane",
+      "facts": [
+        {
+          "fact": "Route 77 is a state scenic road for its entire length, from the Guilford green past Lake Quonnipaug to Durham; it was chartered in 1824 as the Guilford and Durham Turnpike.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_77"
+        },
+        {
+          "fact": "A 1.4-mile section of Route 17 in Durham, from Route 77 to north of Route 68, is a designated scenic road.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_17"
+        },
+        {
+          "fact": "Durham is a former farming village on the Coginchaug River whose autumn Durham Fair is the largest volunteer agricultural fair in New England.",
+          "source": "https://en.wikipedia.org/wiki/Durham,_Connecticut"
+        }
+      ]
+    },
+    {
+      "name": "US 1, Old Lyme",
+      "designation": "Connecticut State Scenic Road (No. 2)",
+      "where": "US 1 from the Lieutenant River bridge to Griswold Avenue, Old Lyme; New London County",
+      "facts": [
+        {
+          "fact": "A 0.96-mile section of US 1 in Old Lyme between the Lieutenant River and Griswold Avenue was designated scenic in 2012.",
+          "source": "https://en.wikipedia.org/wiki/U.S._Route_1_in_Connecticut"
+        },
+        {
+          "fact": "The Florence Griswold Museum, at 96 Lyme Street, was the boarding house at the center of the Old Lyme Art Colony, important in the development of American Impressionism; its gallery looks over the Lieutenant River.",
+          "source": "https://en.wikipedia.org/wiki/Florence_Griswold_Museum"
+        }
+      ],
+      "review": "The museum sits beside the segment (checked by coordinates)."
+    },
+    {
+      "name": "Route 154, Old Saybrook and Fenwick",
+      "designation": "Connecticut State Scenic Road (No. 50)",
+      "where": "Route 154 shore loop from US 1 at Saybrook Manor through Fenwick and Saybrook Point to Old Boston Post Road, Old Saybrook; Middlesex County",
+      "facts": [
+        {
+          "fact": "The southern loop of Route 154 in Old Saybrook, from Saybrook Manor to Old Boston Post Road in the center (6.10 miles), is a state scenic road serving the borough of Fenwick; it passes the Fenwick Golf Course and crosses South Cove.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_154"
+        },
+        {
+          "fact": "Fenwick sits where the Connecticut River meets Long Island Sound, reached by a causeway across a cove; it has Inner and Outer lighthouses at Lynde Point and many Shingle-style houses.",
+          "source": "https://en.wikipedia.org/wiki/Fenwick,_Connecticut"
+        }
+      ]
+    },
+    {
+      "name": "Route 154, Haddam",
+      "designation": "Connecticut State Scenic Road (No. 49)",
+      "where": "Route 154 from the Chester line to the Middletown line, including its overlap with Route 82, Haddam; Middlesex County",
+      "facts": [
+        {
+          "fact": "The 9.16-mile section of Route 154 in Haddam is a state scenic road running alongside the west bank of the Connecticut River.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_154"
+        },
+        {
+          "fact": "The west-bank road from Old Saybrook to Wethersfield was the Middlesex Turnpike, a toll road from 1802 to 1876.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_154"
+        },
+        {
+          "fact": "Haddam Meadows State Park covers 175 acres on the west bank, with marsh, beach, sand bar and meadow.",
+          "source": "https://en.wikipedia.org/wiki/Haddam_Meadows_State_Park"
+        }
+      ]
+    },
+    {
+      "name": "East Haddam Bridge and Route 149",
+      "designation": "Connecticut State Scenic Road (Nos. 40, 47)",
+      "where": "Route 82 on the East Haddam Bridge over the Connecticut River, and Route 149 from Route 82 north 2.3 miles along the Connecticut and Moodus rivers, East Haddam",
+      "facts": [
+        {
+          "fact": "Route 82 is a scenic road for the length of the East Haddam Bridge and enters East Haddam near the Goodspeed Opera House.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_82"
+        },
+        {
+          "fact": "The East Haddam Swing Bridge, a steel swing truss, opened on June 14, 1913 and was reputed to be the longest swing bridge of its kind.",
+          "source": "https://en.wikipedia.org/wiki/East_Haddam_Swing_Bridge"
+        },
+        {
+          "fact": "The Goodspeed Opera House (1876 to 1877) is the birthplace of musicals including Annie and Man of La Mancha.",
+          "source": "https://en.wikipedia.org/wiki/Goodspeed_Musicals"
+        },
+        {
+          "fact": "The first 2.31 miles of Route 149 are scenic and run through the East Haddam Historic District along the Connecticut and Moodus rivers.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_149"
+        }
+      ]
+    },
+    {
+      "name": "Lyme: Hadlyme ferry road and Hamburg",
+      "designation": "Connecticut State Scenic Road (Nos. 46, 51, 71, 72)",
+      "where": "Route 148 from the Chester-Hadlyme Ferry landing to Route 82, SR 431 north past Gillette Castle into East Haddam, and Route 156 from Route 82 south through Hamburg to the Old Lyme line",
+      "facts": [
+        {
+          "fact": "The Chester-Hadlyme Ferry, begun by Jonathan Warner in 1769, is part of the scenic portion of Route 148; the ferry Selden III carries 8 or 9 cars, runs April through November, and crosses in about five minutes.",
+          "source": "https://en.wikipedia.org/wiki/Chester%E2%80%93Hadlyme_Ferry"
+        },
+        {
+          "fact": "Gillette Castle, built 1914 to 1919 by William Gillette, the stage Sherlock Holmes, sits high above the river on the southernmost of the Seven Sisters hills.",
+          "source": "https://en.wikipedia.org/wiki/Gillette_Castle_State_Park"
+        },
+        {
+          "fact": "Route 156 is scenic in East Haddam and Lyme; its Lyme section was the old road serving the village of Hamburg.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_156"
+        }
+      ],
+      "review": "SR 431 is an unsigned state road; its run past Gillette Castle was checked by coordinates."
+    },
+    {
+      "name": "Route 151, Middle Haddam",
+      "designation": "Connecticut State Scenic Road (No. 48)",
+      "where": "Route 151 from 1.0 mile north of the Hurd State Park road to Route 66 at Cobalt, East Hampton; Middlesex County",
+      "facts": [
+        {
+          "fact": "A 1.51-mile section of Route 151, running along the east bank of the Connecticut River to its end at Route 66 in Cobalt, is a scenic road; it passes through the village of Middle Haddam.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_151"
+        },
+        {
+          "fact": "Middle Haddam was an important river port between about 1730 and 1880, with shipyards that built ocean-going vessels.",
+          "source": "https://en.wikipedia.org/wiki/Middle_Haddam_Historic_District"
+        }
+      ]
+    },
+    {
+      "name": "Route 160, Glastonbury ferry road",
+      "designation": "Connecticut State Scenic Road (No. 52)",
+      "where": "Route 160 from the Connecticut River (Rocky Hill-Glastonbury Ferry landing) to Roaring Brook, Glastonbury; Hartford County",
+      "facts": [
+        {
+          "fact": "A 1.06-mile section of Route 160 in Glastonbury, from the Connecticut River to Roaring Brook, is scenic; the route crosses the river on the Rocky Hill-Glastonbury Ferry.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_160"
+        },
+        {
+          "fact": "The ferry, started in 1655, is believed to be the oldest continuously operated ferry in the United States; today a three-car barge is towed by a diesel towboat.",
+          "source": "https://en.wikipedia.org/wiki/Rocky_Hill%E2%80%93Glastonbury_Ferry"
+        },
+        {
+          "fact": "The ferry historic district includes the Great Meadows of South Glastonbury, where farmland keeps 17th-century land-use patterns.",
+          "source": "https://en.wikipedia.org/wiki/Rocky_Hill%E2%80%93Glastonbury_Ferry"
+        }
+      ]
+    },
+    {
+      "name": "Windham Center and Scotland",
+      "designation": "Connecticut State Scenic Road (Nos. 13, 62)",
+      "where": "Route 203 from Route 32 in South Windham to Windham Center, and Route 14 from Windham Center east into Scotland (with short pieces of Routes 203 and 97); Windham County",
+      "facts": [
+        {
+          "fact": "Route 203 crosses the Shetucket River on its way to Windham center; the section from Route 32 to Route 14 is scenic.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_203"
+        },
+        {
+          "fact": "A 4.4-mile mostly rural section of Route 14 between Windham and Scotland is a state scenic road.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_14"
+        },
+        {
+          "fact": "Windham Center became the seat of Windham County in 1726; its green is bordered by the Congregational church and the 1832 Windham Bank, now the library.",
+          "source": "https://en.wikipedia.org/wiki/Windham_Center_Historic_District"
+        },
+        {
+          "fact": "The Huntington Homestead, a saltbox on Route 14 in Scotland, was the birthplace of Samuel Huntington, a signer of the Declaration of Independence.",
+          "source": "https://en.wikipedia.org/wiki/Samuel_Huntington_Birthplace"
+        }
+      ]
+    },
+    {
+      "name": "Route 97, Abington to Pomfret Center",
+      "designation": "Connecticut State Scenic Road (No. 41)",
+      "where": "Route 97 from the south junction with US 44 at Abington to its end at US 44 and Route 169 in Pomfret Center; Windham County",
+      "facts": [
+        {
+          "fact": "Route 97 is scenic from its southern intersection with US 44 in Pomfret to its northern end, 4.50 miles.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_97"
+        },
+        {
+          "fact": "The Abington Congregational Church on Route 97, built 1751, is the oldest church building in Connecticut in continuous religious use.",
+          "source": "https://en.wikipedia.org/wiki/Abington_Congregational_Church"
+        }
+      ],
+      "review": "The church stands just south of where the scenic segment begins."
+    },
+    {
+      "name": "Route 244, Pomfret",
+      "designation": "Connecticut State Scenic Road (No. 66)",
+      "where": "Route 244 from Ragged Hill Road to Route 97 in Pomfret Center; Windham County",
+      "facts": [
+        {
+          "fact": "Route 244 from Ragged Hill Road to its east end at Route 97 is scenic.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_244"
+        },
+        {
+          "fact": "Route 244 was part of the Middle Boston Post Road, chartered as the Boston Turnpike in 1797 and a public road again from 1879; it was one of the principal roads from Hartford to Boston and Providence.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_244"
+        }
+      ]
+    },
+    {
+      "name": "Route 164, Preston City",
+      "designation": "Connecticut State Scenic Road (No. 53)",
+      "where": "Route 164 from Preston City center north to the Griswold line; New London County",
+      "facts": [
+        {
+          "fact": "Route 164 is scenic from the center of Preston City to the Griswold town line.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_164"
+        },
+        {
+          "fact": "The Preston City Historic District has Greek Revival, Georgian and Federal buildings from the village's prosperous years, when Preston supplied farm goods to the port of Norwich; its first church was founded in 1698.",
+          "source": "https://en.wikipedia.org/wiki/Preston_City,_Connecticut"
+        }
+      ]
+    },
+    {
+      "name": "Route 27, Old Mystic",
+      "designation": "Connecticut State Scenic Road (No. 17)",
+      "where": "Route 27 from 0.25 mile north of Jerry Browne Road to Route 184 in Old Mystic; Stonington and Groton",
+      "facts": [
+        {
+          "fact": "Route 27 from Jerry Browne Road to Route 184 in Old Mystic is scenic and gives a view of the Mystic River, which it closely parallels.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_27"
+        },
+        {
+          "fact": "The road follows the east bank of the Mystic River between Mystic and Old Mystic and becomes Main Street through Old Mystic.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_27"
+        }
+      ]
+    },
+    {
+      "name": "Route 234, Pequot Trail",
+      "designation": "Connecticut State Scenic Road (No. 65)",
+      "where": "Route 234 (Pequot Trail) from Route 27 at Old Mystic to North Main Street, Stonington; New London County",
+      "facts": [
+        {
+          "fact": "Route 234 is the Pequot Trail for its whole length; the section from its west end at Route 27 to North Main Street is scenic.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_234"
+        },
+        {
+          "fact": "Numbered in 1932, the Pequot Trail reverted to the town in 1935, returned to the state in 1963 as SR 645, and became Route 234 in 1987.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_234"
+        }
+      ]
+    },
+    {
+      "name": "Route 207, Hebron to Sprague",
+      "designation": "Connecticut State Scenic Road (No. 74)",
+      "where": "Route 207 for its full length, Route 85 in Hebron through Lebanon and Franklin to Route 97 at Baltic in Sprague; Tolland, New London counties",
+      "facts": [
+        {
+          "fact": "Scenic road No. 74, designated 2022-06-08 (the newest on the list), 16.01 miles across Hebron, Lebanon, Franklin and Sprague.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Route 207 passes between Williams and Brewster ponds, through Lebanon center, past Gages Pond and ends at the Shetucket River in Baltic.",
+          "source": "https://en.wikipedia.org/wiki/Connecticut_Route_207"
+        },
+        {
+          "fact": "Lebanon's mile-long green is a rare surviving 18th-century town common; facing it are the Trumbull birthplace and the 1730 War Office where the state's Revolutionary war council met.",
+          "source": "https://en.wikipedia.org/wiki/Lebanon_Green_Historic_District"
+        }
+      ]
+    },
+    {
+      "name": "Tolland Green",
+      "designation": "Connecticut State Scenic Road (Nos. 35, 58)",
+      "where": "Route 74 (Tolland Stage Road) from west of Gottier Road across Tolland Green to Route 195, with Route 30's overlap and the north end of Route 195; Tolland County",
+      "facts": [
+        {
+          "fact": "Both Tolland segments were designated on 2018-09-26.",
+          "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Tolland Green is a long narrow green with Route 74 cutting across it; nearby stand the 1822 Old Tolland County Courthouse and the Old Tolland County Jail and Museum.",
+          "source": "https://en.wikipedia.org/wiki/Tolland_Green_Historic_District"
+        }
+      ]
+    },
+    {
+      "name": "Route 75, Suffield",
+      "designation": "Connecticut State Scenic Road (No. 36)",
+      "where": "Route 75 from Stony Brook north through Suffield center (Main Street) to the Massachusetts line; Hartford County",
+      "facts": [
+        {
+          "fact": "The northernmost 4.3 miles of Route 75 in Suffield are a designated state scenic road.",
+          "source": "https://en.wikipedia.org/wiki/Route_75_(Connecticut%E2%80%93Massachusetts)"
+        },
+        {
+          "fact": "The Suffield Historic District runs 2.5 miles along Main Street; the town grew prosperous on tobacco from the early 19th century, and Suffield Academy was founded just north of the center in 1833.",
+          "source": "https://en.wikipedia.org/wiki/Suffield_Historic_District"
+        }
+      ],
+      "review": "The segment starts just south of Suffield center and covers the Main Street district (checked by coordinates)."
+    }
+  ],
+  "issues": [
+    "Grouping is editorial: CTDOT designates 74 numbered segments (some only 0.1 to 0.5 mile, extensions of a neighbor), gathered here into 43 members by route and town. Each member's designation field lists the CTDOT numbers it contains.",
+    "The PDF list's text layer is font-scrambled (pdftotext gives gibberish); decoded with a character map, rows 1 to 56 match the GIS layer number for number. Rows on the PDF's second page use a different font mapping and were not decoded; the GIS layer has 74 numbers.",
+    "The program page states a one-mile minimum, but several designations are shorter (No. 7 is 0.10 mile, No. 24 0.56, No. 26 0.78, No. 58 0.36); all adjoin longer scenic sections.",
+    "The CTDOT interactive map link returns HTTP 403 to scripts; may be fine in a browser.",
+    "Catalog 'State Routes 49 & 14A' maps 24 miles; the state's three segments total 19.04 miles and FHWA says 19.5. Worth checking the catalog line against GIS Nos. 14, 27, 28 (it should skip the Voluntown center overlap with Routes 165 and 138).",
+    "Wikipedia's US 7 article dates the Kent section to October 1990; the GIS and PDF say 1991-10-17.",
+    "Thin sources: Route 109 (Washington), Route 69 (Burlington) and US 202 (New Hartford) blurbs rest mainly on route limits; a human may want a better detail for each.",
+    "Several landmark-on-route claims (Kent Falls, Florence Griswold Museum, Gillette Castle on SR 431, Nepaug River bridge, Collinsville, Wilton center, Suffield Main Street) were confirmed by comparing landmark coordinates with the GIS segment lines rather than by a sentence in a source.",
+    "No per-road official pages exist for the state scenic roads; url is null except for the Merritt Parkway and the two FHWA-listed routes."
+  ]
+}

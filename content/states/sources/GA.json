@@ -1,0 +1,311 @@
+{
+  "note": "Facts and sources behind the member descriptions in GA.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Altamaha Historic Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "SR 99 and US 17, Sapelo Island Visitors Center to Needwood Church and School via Darien; McIntosh and Glynn counties",
+      "facts": [
+        {
+          "fact": "Follows SR 99 and US 17 for 17 miles through McIntosh and Glynn counties and Darien, from the Sapelo Island Visitors Center to the historic Needwood Church and School, passing Fort King George, Butler Island, Hofwyl-Broadfield, the Darien waterfront and live oaks hung with Spanish moss.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Fort King George, built in 1721 with a cypress blockhouse, is the oldest English fort remaining on Georgia's coast and has been reconstructed on the Altamaha River.",
+          "source": "https://gastateparks.org/FortKingGeorge"
+        },
+        {
+          "fact": "Hofwyl-Broadfield Plantation keeps remnants of rice levees and moss-laden live oaks on the Altamaha; rice was grown there until 1913.",
+          "source": "https://gastateparks.org/HofwylBroadfieldPlantation"
+        }
+      ]
+    },
+    {
+      "name": "Cohutta-Chattahoochee Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "SR 2, US 41, county roads and SR 52, Prater's Mill (Whitfield Co.) to a mountaintop overlook past Fort Mountain (Murray Co.)",
+      "facts": [
+        {
+          "fact": "Begins at historic Prater's Mill in Whitfield County, follows SR 2, US 41 and county roads into Murray County and the Chattahoochee National Forest, skirts Chatsworth and climbs SR 52 past Fort Mountain State Park to a mountaintop overlook; 54 miles, with spurs to the Cohutta Fish Hatchery and Holly Creek.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "John Pitner built the grist mill, a sawmill and the miller's house at Prater's Mill in 1855.",
+          "source": "https://www.pratersmill.org/"
+        },
+        {
+          "fact": "Fort Mountain State Park, reached by Highway 52, has an ancient rock wall 855 feet long and a CCC-built stone fire tower on the highest point of the mountain.",
+          "source": "https://gastateparks.org/FortMountain"
+        }
+      ],
+      "review": "GDOT gives 54 miles; the catalog line maps 45 miles, so a spur or segment may be missing."
+    },
+    {
+      "name": "Enduring Farmlands Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "Routes linking Hawkinsville, Pineview, Rochelle and Abbeville (US 280, SR 112 and others); Pulaski and Wilcox counties",
+      "facts": [
+        {
+          "fact": "A 65-mile byway in Pulaski and Wilcox counties through the towns of Hawkinsville, Pineview, Rochelle and Abbeville; it begins at Hawkinsville's Old Opera House at N. Lumpkin and Broad streets.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Attractions include pecan groves, horse and cattle pasture, farmland in corn, cotton, peanuts, soybeans, peaches, blueberries and grapes, the Ocmulgee River, and the Lawrence Bennett Harness Horse racetrack in Hawkinsville.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        }
+      ]
+    },
+    {
+      "name": "Historic Dixie Highway Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "Albany to Thomasville via Baconton, Camilla, Pelham, Meigs and Ochlocknee; Dougherty, Mitchell and Thomas counties",
+      "facts": [
+        {
+          "fact": "The Historic Dixie Highway runs 62 miles through Dougherty, Mitchell and Thomas counties, through Albany, Baconton, Camilla, Pelham, Meigs, Ochlocknee and Thomasville, with views of the Flint River, live oaks and pecan groves; it begins at the Albany Welcome Center on Front Street.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Radium Springs, near the route, is described as the largest natural spring in Georgia, flowing 70,000 gallons a minute into the Flint River, with a 1920s casino and spa resort built above it.",
+          "source": "https://www.dot.ga.gov/AboutGeorgia/Board/Presentations/HistoricDixieHighway-ScenicBywaysProgramOverview.pdf"
+        },
+        {
+          "fact": "Camilla's Art Deco Mitchell County Courthouse, designed by William J.J. Chase, was built in 1936.",
+          "source": "https://www.dot.ga.gov/AboutGeorgia/Board/Presentations/HistoricDixieHighway-ScenicBywaysProgramOverview.pdf"
+        }
+      ],
+      "review": "Not in the catalog. GDOT's map PDF is the only line; no agency GIS layer. Sponsor was the City of Pelham; became the 15th Georgia Scenic Byway (c. 2016)."
+    },
+    {
+      "name": "Historic Effingham-Ebenezer Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "State and local roads through Rincon, Ebenezer, Springfield and Guyton; Effingham County",
+      "facts": [
+        {
+          "fact": "A 60-mile route on state and local roads through Ebenezer, Guyton, Springfield and Rincon in Effingham County, one of Georgia's eight original counties; Ebenezer was founded by German Lutherans seeking religious freedom.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Along the byway travelers can follow George Washington's 1791 Southern tour, see sites of Revolutionary-era taverns and ferries on the Savannah River, and retrace Sherman's March to the Sea.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        }
+      ]
+    },
+    {
+      "name": "Historic Piedmont Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "SR 15, SR 16, SR 77 and county roads linking Eatonton, Sparta, Linton, Culverton and Jewell; Putnam and Hancock counties",
+      "facts": [
+        {
+          "fact": "Runs 82 miles through Putnam and Hancock counties on SR 15, 16 and 77 and rural county roads linking Eatonton and Sparta with Linton, Culverton and Jewell.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Sights include the Rock Hawk effigy built by Native Americans thousands of years ago, Glen Mary Plantation and other antebellum homes, the Oconee National Forest, crossings of the Oconee and Ogeechee rivers, and rolling farmland.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        }
+      ],
+      "review": "GDOT gives 82 miles; the catalog line maps 59 miles, so part of the route (probably county-road segments) may be missing."
+    },
+    {
+      "name": "I-185 Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "Interstate 185 from I-85 to Exit 12 (Williams Road) north of Columbus; Troup, Harris and Muscogee counties",
+      "facts": [
+        {
+          "fact": "The byway is 38 miles of I-185 in Troup, Harris and Muscogee counties, from I-85 to Exit 12, Williams Road, just north of Columbus, through gently rolling mixed pine forest, with Pine Mountain and F.D. Roosevelt State Park nearby.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "F.D. Roosevelt State Park, at 10,874 acres Georgia's largest state park, includes Dowdell's Knob, where Roosevelt sometimes picnicked.",
+          "source": "https://gastateparks.org/FDRoosevelt"
+        }
+      ],
+      "review": "Catalog name 'Interstate 185' is the I-185 Scenic Byway."
+    },
+    {
+      "name": "Meriwether-Pike Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "Loop from Warm Springs on SR 85, SR 109 spur, Flat Shoals Road, SR 18 and SR 190 via Gay, Molena and Manchester; Meriwether and Pike counties",
+      "facts": [
+        {
+          "fact": "The 55-mile route begins at Warm Springs on SR 85, runs to Gay, crosses the Flint River on Flat Shoals Road, follows SR 18 to Molena and back to SR 85 and Manchester, and returns to Warm Springs on SR 190.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Attractions include the Red Oak Covered Bridge, Oakland Baptist Church and Jones Mill, where a grist mill and mill pond remain from a once-thriving farm community.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Roosevelt built the Little White House at Warm Springs in 1932 and died there on April 12, 1945; it is now a National Historic Landmark.",
+          "source": "https://gastateparks.org/LittleWhiteHouse"
+        }
+      ]
+    },
+    {
+      "name": "Millen-Jenkins County Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "Loop from downtown Millen on SR 23, Perkins Green Fork Road, Big Buckhead Church Road, Herndon Road and SR 17; Jenkins County",
+      "facts": [
+        {
+          "fact": "A 35-mile byway that begins in the Downtown Millen Historic District, whose railroad depots date from the early 1900s, and loops through woodlands, pasture, historic farmhouses and churches on SR 23, Perkins Green Fork Road and Herndon Road, returning on SR 17 across open farmland.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Magnolia Springs State Park, three miles from SR 17 and US 25, has crystal clear springs and the site of Camp Lawton, an 1864 prisoner-of-war camp.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Magnolia Springs flows 7 million gallons a day, and a boardwalk spans the spring.",
+          "source": "https://gastateparks.org/MagnoliaSprings"
+        }
+      ]
+    },
+    {
+      "name": "Monticello Crossroads Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "SR 11 and SR 83 north from Monticello to the Jasper County line",
+      "facts": [
+        {
+          "fact": "The 29-mile byway follows State Highways 11 and 83 north from Monticello through Jasper County pine forest and rolling pasture.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Native Americans and Methodist circuit riders used these routes, and Highway 83 was part of the Seven Island Stage Coach Road from Augusta to New Orleans and the Natchez Trace; Monticello's business district is on the National Register.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        }
+      ]
+    },
+    {
+      "name": "Ocmulgee-Piedmont Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "SR 11 north from Gray to Round Oak, then Round Oak-Juliette Road west to the Ocmulgee River at Juliette; Jones County",
+      "facts": [
+        {
+          "fact": "Begins at the Gray Depot in downtown Gray, follows SR 11 north about nine miles through Bradley, Wayside and Round Oak, then turns west on Round Oak-Juliette Road for about 12 miles to the Ocmulgee River at Juliette.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Round Oak-Juliette Road, originally an Indian trail, runs through the pine forests of Piedmont National Wildlife Refuge; East Juliette is a late 19th and early 20th century mill village, and Juliette across the river was the setting for the film Fried Green Tomatoes.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "Piedmont National Wildlife Refuge was established in 1939 to show that wildlife could be restored on worn-out, eroded land, and is home to the endangered red-cockaded woodpecker.",
+          "source": "https://www.fws.gov/refuge/piedmont"
+        }
+      ]
+    },
+    {
+      "name": "Ridge & Valley Scenic Byway",
+      "designation": "Georgia Scenic Byway (also a National Forest Scenic Byway)",
+      "where": "US 27, SR 156, SR 136 and county roads in the Armuchee Ridges; Walker, Floyd, Gordon and Chattooga counties area",
+      "facts": [
+        {
+          "fact": "The 51-mile byway travels US 27, State Highways 156 and 136 and rural county roads past mountain overlooks and farmland, with Keown Falls Scenic Area, The Pocket and John's Mountain Overlook along the way.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "A steep gravel road leads off the byway to the John's Mountain Overlook deck; the road closes January through early March.",
+          "source": "https://www.fs.usda.gov/r08/chattahoochee-oconee/recreation/johns-mountain-overlook"
+        },
+        {
+          "fact": "The Pocket, off the byway, was a Civilian Conservation Corps camp from 1938 until 1942, and some remains can still be seen.",
+          "source": "https://www.fs.usda.gov/r08/chattahoochee-oconee/recreation/pocket-recreation-area-group-picnic-shelter"
+        }
+      ]
+    },
+    {
+      "name": "Russell-Brasstown Scenic Byway",
+      "designation": "Georgia Scenic Byway (National Scenic Byway since 2000)",
+      "where": "Loop on SR 17/75, SR 180, SR 180 Spur, SR 348 and SR 75 Alt from Helen; White, Towns and Union counties",
+      "facts": [
+        {
+          "fact": "A 41-mile loop in the Chattahoochee National Forest on SR 348, 180 and 17/75, including Brasstown Bald, Georgia's highest mountain, near Helen; it encircles the headwaters of the Chattahoochee River and a section of the Appalachian Trail. National Scenic Byway since June 15, 2000.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "The loop crosses the Appalachian Trail at Hogpen Gap and passes Dukes Creek Falls and views of Mount Yonah's cliff face; Anna Ruby Falls is a 150-foot twin falls nearby.",
+          "source": "https://www.fs.usda.gov/r08/chattahoochee-oconee/recreation/russell-brasstown-national-scenic-byway"
+        },
+        {
+          "fact": "Designated route: SR 17/75 from SR 75 Alt to SR 180, SR 180 and SR 180 Spur to the Brasstown Bald Visitor Center, SR 180 to SR 348, SR 348 to SR 75 Alt, and SR 75 Alt back to Helen.",
+          "source": "https://mydocs.dot.ga.gov/info/honorariums/Resolutions/2011_RussellBrasstownScenicByway_OP.pdf"
+        }
+      ]
+    },
+    {
+      "name": "South Douglas Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "SR 166 from the Carroll-Douglas county line to SR 92, via Fairplay and McWhorter; Douglas County",
+      "facts": [
+        {
+          "fact": "Follows SR 166 for about 19 miles from the Carroll-Douglas county line to SR 92, through Fairplay and McWhorter, with wooded and rural views and agricultural land.",
+          "source": "https://mydocs.dot.ga.gov/info/honorariums/Resolutions/2024_SouthDouglasScenicByway_OP.pdf"
+        },
+        {
+          "fact": "The State Transportation Board designated the South Douglas Scenic Byway on March 17, 2022.",
+          "source": "https://www.douglascountyga.gov/CivicAlerts.aspx?AID=436&ARC=868"
+        },
+        {
+          "fact": "Highway 166, also the Duncan Memorial Highway, is mostly wooded; its most densely wooded stretch crosses the Dog River, the county's main drinking-water reservoir.",
+          "source": "https://douglascountyga.gov/DocumentCenter/View/7148/SDSB_Handout_82021?bidId="
+        }
+      ],
+      "review": "Not in the catalog; no agency GIS line. Douglas County says the board designated it March 17, 2022; GDOT's honorarium sheet is filed under 2024."
+    },
+    {
+      "name": "South Fulton Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "Loop on Cochran Mill Road, Hutcheson Ferry Road and SR 70; south Fulton County (Chattahoochee Hills)",
+      "facts": [
+        {
+          "fact": "A 29-mile loop in south Fulton County using Cochran Mill Road, Hutcheson Ferry Road and SR 70 through rolling hills, forested ridges and pastures, near Cochran Mill Park and the Chattahoochee River.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "The east side of Cochran Mill Park, an 800-acre park, has historic mill ruins and the old mill pond; Smith's Store stands in the Rico community.",
+          "source": "https://www.dot.ga.gov/DriveSmart/Travel/ScenicByways/SouthFulton-Brochure.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Tybee Road Scenic Byway",
+      "designation": "Georgia Scenic Byway",
+      "where": "US 80 (Victory Drive) from Turner's Creek east of Bryan Woods Road to the end of US 80 at Tybrisa Street, Tybee Island; Chatham County",
+      "facts": [
+        {
+          "fact": "Runs 11 miles on US 80 from Turner's Creek, east of Bryan Woods Road, to the end of US 80 on Tybee Island, along Victory Drive, a World War I memorial highway, with marsh and water scenery; designated 2024.",
+          "source": "https://mydocs.dot.ga.gov/info/honorariums/Resolutions/2024_TybeeRoadScenicByway_OP.pdf"
+        },
+        {
+          "fact": "The Fort Pulaski National Monument entrance is on US 80.",
+          "source": "https://www.nps.gov/fopu/planyourvisit/directions.htm"
+        }
+      ],
+      "review": "Not in the catalog; no agency GIS line. GDOT has no byway map PDF yet; the honorarium sheet is the only GDOT page specific to it. The sheet also says 'through Douglas County', evidently a copy-over from the South Douglas sheet."
+    },
+    {
+      "name": "Warren County-Piedmont Scenic Byway Extension",
+      "designation": "Georgia Scenic Byway",
+      "where": "SR 16 from the Hancock-Warren county line through Jewell to SR 12 in Warrenton; Warren County",
+      "facts": [
+        {
+          "fact": "Continues the Historic Piedmont Scenic Byway for 11 miles on SR 16 from the Hancock-Warren county line to SR 12 in Warrenton, through gently rolling hills, farmland and a wildlife management area; Jewell and Warrenton are National Register districts.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        },
+        {
+          "fact": "The route was once part of the Native American Okfuskee Trail, which linked the Augusta area with the Mississippi River.",
+          "source": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    "GDOT has no per-byway web pages; member urls point to GDOT's map PDFs (all returned 200 on 2026-10-05) except Russell-Brasstown (USFS page), South Douglas (Douglas County blog) and Tybee Road (GDOT honorarium PDF).",
+    "Three designated byways are missing from the catalog and have no agency GIS line: Historic Dixie Highway (62 mi, Albany to Thomasville), South Douglas (SR 166, ~19 mi) and Tybee Road (US 80, 11 mi).",
+    "Catalog mileage gaps: Historic Piedmont maps 59 mi vs GDOT's 82 mi; Cohutta-Chattahoochee 45 vs 54; Enduring Farmlands 57 vs 65; Altamaha 14 vs 17. Worth checking whether segments are missing.",
+    "USFS says the Russell-Brasstown loop is 40 miles, GDOT says 41; the USFS (via search snippet only, page 404) describes Ridge and Valley as a 47-mile loop vs GDOT's 51 miles.",
+    "South Douglas designation date: Douglas County says March 17, 2022; GDOT honorarium sheet labelled 2024. The Tybee Road honorarium sheet contains a copy-paste error ('through Douglas County').",
+    "Ridge and Valley and Russell-Brasstown are also National Forest Scenic Byways but are members of the state program, so no separate program is listed. No other catalog roads in GA fall outside the state program.",
+    "The URL search engines return for the program (https://dot.ga.gov/DS/Travel/Scenic) 404s; use the SharePoint URL."
+  ]
+}

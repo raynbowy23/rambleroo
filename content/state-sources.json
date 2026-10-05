@@ -349,5 +349,1782 @@
         }
       }
     ]
+  },
+  {
+    "state": "CO",
+    "agency": "Colorado Department of Transportation",
+    "layer": "https://dtdapps.codot.gov/server/rest/services/Webapps/open_data_sde/FeatureServer/29",
+    "nameField": "NAME",
+    "byways": [
+      {
+        "name": "Tracks Across Borders",
+        "id": 990801,
+        "designation": "Colorado Scenic and Historic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "NY",
+    "agency": "New York State Department of Transportation",
+    "layer": "https://gisportalny.dot.ny.gov/hostingny/rest/services/Roadways/RoadwayData/FeatureServer/0",
+    "nameField": "OBJECTID",
+    "byways": [
+      {
+        "name": "Palisades Scenic Byway, National Scenic Byway",
+        "id": 993601,
+        "designation": "National Scenic Byway (and New York State Scenic Byway)",
+        "nsb": false,
+        "where": "Scenic_Byway_Flag='T' AND Route_Display_Value='987C '"
+      },
+      {
+        "name": "Blue Ridge Road",
+        "id": 993602,
+        "designation": "New York State Scenic Byway",
+        "nsb": false,
+        "where": "County_Name='Essex' AND Roadway_Name='BLUE RIDGE RD' AND County_Road_Number='84'"
+      },
+      {
+        "name": "Catskill Mountains Scenic Byway",
+        "id": 993603,
+        "designation": "New York State Scenic Byway",
+        "nsb": false,
+        "where": "Scenic_Byway_Flag='T' AND ((Route_Display_Value='NY28 ' AND County_Name IN ('Ulster','Delaware')) OR (Route_Display_Value='NY42 ' AND County_Name='Ulster'))"
+      },
+      {
+        "name": "Durham Valley Scenic Byway",
+        "id": 993604,
+        "designation": "New York State Scenic Byway",
+        "nsb": false,
+        "where": "Scenic_Byway_Flag='T' AND County_Name='Greene' AND Located_Muni_Name IN ('Durham','Windham')"
+      },
+      {
+        "name": "Historic Parkways of Long Island",
+        "id": 993605,
+        "designation": "New York State Scenic Byway",
+        "nsb": false,
+        "where": "Scenic_Byway_Flag='T' AND (Route_Display_Value IN ('907E ','908C ','908E ','908T ','909D ','909E ') OR Roadway_Name='BAY PKWY')"
+      },
+      {
+        "name": "Maple Traditions",
+        "id": 993606,
+        "designation": "New York State Scenic Byway",
+        "nsb": false,
+        "where": "Scenic_Byway_Flag='T' AND (Route_Display_Value='NY812 ' OR (Route_Display_Value='NY68 ' AND County_Name='St Lawrence'))"
+      },
+      {
+        "name": "Mountain Cloves",
+        "id": 993607,
+        "designation": "New York State Scenic Byway",
+        "nsb": false,
+        "where": "Scenic_Byway_Flag='T' AND County_Name='Greene' AND Located_Muni_Name IN ('Hunter','Tannersville')"
+      },
+      {
+        "name": "Seneca Lake Byway",
+        "id": 993608,
+        "designation": "New York State Scenic Byway",
+        "nsb": false,
+        "where": "Scenic_Byway_Flag='T' AND Route_Display_Value='NY414 ' AND County_Name IN ('Schuyler','Seneca')"
+      },
+      {
+        "name": "Taconic Parkway",
+        "id": 993609,
+        "designation": "New York State Scenic Byway",
+        "nsb": false,
+        "where": "Scenic_Byway_Flag='T' AND Route_Display_Value='987G '"
+      }
+    ]
+  },
+  {
+    "state": "ID",
+    "agency": "Idaho Transportation Department",
+    "layer": "https://gisp.itd.idaho.gov/server/rest/services/GDWarehouse/RoadNetwork_Other/FeatureServer/6",
+    "nameField": "BywayName",
+    "byways": [
+      {
+        "name": "Lower Payette River Heritage Byway",
+        "match": "Lower Payette River Heritage Scenic Byway",
+        "id": 991601,
+        "designation": "Idaho Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "WA",
+    "agency": "Washington State Department of Transportation",
+    "layer": "https://data.wsdot.wa.gov/arcgis/rest/services/Shared/ScenicByways/MapServer/0",
+    "nameField": "Description",
+    "byways": [
+      {
+        "name": "Hidden Coast Scenic Byway",
+        "match": "JCT SR 101 VIC HOQUIAM TO TAHOLAH",
+        "id": 995301,
+        "designation": "Washington State Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Yakima River Canyon Scenic Byway",
+        "match": "JCT SR 82 VIC YAKIMA TO JCT SR 82 VIC ELLENSBURG",
+        "id": 995302,
+        "designation": "Washington State Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "OR",
+    "agency": "Oregon Department of Transportation",
+    "layer": "https://gis.odot.state.or.us/arcgis1006/rest/services/oregon_scenic_byways/oregon_scenic_byways/MapServer/1",
+    "nameField": "BYWAY_NAME",
+    "byways": [
+      {
+        "name": "Trees to Sea Scenic Byway",
+        "match": "TREES TO SEA",
+        "id": 994101,
+        "designation": "Oregon State Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "McKenzie River Scenic Byway",
+        "match": "MCKENZIE RIVER",
+        "id": 994102,
+        "designation": "Oregon State Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Umpqua River Scenic Byway",
+        "match": "UMPQUA RIVER",
+        "id": 994103,
+        "designation": "Oregon State Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Marys Peak to Pacific Scenic Byway",
+        "match": "MARYS PEAK TO PACIFIC",
+        "id": 994104,
+        "designation": "Oregon State Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Vineyard and Valley Tour Route",
+        "match": "VINEYARD AND VALLEY",
+        "id": 994105,
+        "designation": "Oregon Tour Route",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "UT",
+    "agency": "Utah State Scenic Byway Committee, with the Utah Department of Transportation",
+    "layer": "https://services.arcgis.com/pA2nEVnB6tquxgOW/arcgis/rest/services/Utah_Scenic_Byways/FeatureServer/0",
+    "nameField": "NAME",
+    "byways": [
+      {
+        "name": "Morgan-Parleys Scenic Byway",
+        "match": "Morgan-Parleys State Scenic Byway",
+        "id": 994901,
+        "designation": "Utah State Scenic Byway (designated December 11, 2017)",
+        "nsb": false
+      },
+      {
+        "name": "Zion Park Scenic Byway",
+        "id": 994902,
+        "designation": "Utah State Scenic Byway; the section from SR-17 in La Verkin to the East Rim Trail Road is the Zion National Scenic Byway (2021)",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "MD",
+    "agency": "Maryland Department of Transportation State Highway Administration",
+    "layer": "https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/MDOT_SHA_Scenic_Byways/FeatureServer/0",
+    "nameField": "BYWAY_NAME",
+    "byways": [
+      {
+        "name": "Cape to Cape",
+        "id": 992401,
+        "designation": "Maryland Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "CA",
+    "agency": "California Department of Transportation",
+    "layer": "https://services1.arcgis.com/8CpMUd3fdw6aXef7/arcgis/rest/services/Scenic_Highway_v2/FeatureServer/0",
+    "nameField": "Final_Loca",
+    "byways": [
+      {
+        "name": "Route 1, San Mateo County",
+        "match": "SCR CL/SO CiL Half Moon Bay",
+        "id": 990601,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Route 1, Santa Barbara County (Las Cruces to Lompoc)",
+        "match": "Route 101 (Near Las Cruces)/Near Lompoc",
+        "id": 990602,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Route 20, Nevada County",
+        "match": "Skillman Flat Campground/0.5 Mi EO Lowell Hill Rd",
+        "id": 990603,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Route 27, Topanga Canyon Boulevard",
+        "match": "Topanga Canyon State Scenic Highway",
+        "id": 990604,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Route 38, San Bernardino Mountains",
+        "match": "0.1 Mi EO S Fork Campground/2.9 Mi SO Route 18 (State Lane)",
+        "id": 990605,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Route 49, Sierra County",
+        "match": "YUB CL/Yuba Summit",
+        "id": 990606,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Route 52, Mission Trails",
+        "match": "Near Santo Rd/Near Mast Blvd",
+        "id": 990607,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Route 84, Niles Canyon Road",
+        "match": "Route 238/I-680 near Sunol",
+        "id": 990608,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Route 101, Gaviota Coast",
+        "match": "Gaviota Coast State Scenic Hwy (Near City of Goleta)/Route 1 (Las Cruses)",
+        "id": 990609,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Route 168, Bishop Creek",
+        "match": "Camp Sabrina/Brockman Ln (Pauite-Shos Ind Resv Near Bishop)",
+        "id": 990610,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Route 247, High Desert (Barstow to Yucca Valley)",
+        "match": "Barstow/Yucca Valley",
+        "id": 990611,
+        "designation": "State Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Laureles Grade Road",
+        "match": "Laureles Grade Rd from SR 68 to Carmel Valley Rd",
+        "id": 990612,
+        "designation": "County Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "River Road (Sacramento County)",
+        "match": "RIVER RD from SR 160 at the Isleton Bridge toSR 160 at the Paintersville Bridge",
+        "id": 990613,
+        "designation": "County Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Interlake Road (Lockwood to the San Luis Obispo County line)",
+        "match": "INTERLAKE RD from JOLON RD in Lockwood to the SLO COUNTY LINE",
+        "id": 990614,
+        "designation": "County Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Interlake Road and Nacimiento Drive",
+        "match": "INTERLAKE RD-NACIMIENTO DRIVE from the MONTEREY COUNTY LINE to CHIMNEY ROCK RD in San Luis Obispo County",
+        "id": 990615,
+        "designation": "County Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Lake Boulevard (County Road A-18)",
+        "match": "LAKE BLVD, COUNTY RD A-18, within the WHISKEYTOWN-SHASTATRINITY NAT'L REC. AREA",
+        "id": 990616,
+        "designation": "County Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Malibu Canyon-Las Virgenes Highway (N1)",
+        "match": "MALIBU CANYON-LAS VIRGENES HIGHWAY (N1) from ROUTE 1 to LOST HILLS RD",
+        "id": 990617,
+        "designation": "County Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Mulholland Highway",
+        "match": "MULHOLLAND HWY-FR RTE 1 to KANAN DUME RD and W CORNELL RD to LAS VIRGENES RD",
+        "id": 990618,
+        "designation": "County Scenic Highway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "SC",
+    "agency": "South Carolina Department of Transportation",
+    "layer": "https://services1.arcgis.com/VaY7cY9pvUYUP1Lf/arcgis/rest/services/Scenic_Byways/FeatureServer/0",
+    "nameField": "Name",
+    "byways": [
+      {
+        "name": "Edisto Beach Scenic Highway",
+        "match": "Edisto Beach",
+        "id": 994501,
+        "designation": "Scenic Highway",
+        "nsb": false
+      },
+      {
+        "name": "Falling Waters Scenic Byway",
+        "match": "Falling Waters",
+        "id": 994502,
+        "designation": "Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Plantersville Scenic Byway",
+        "match": "Plantersville",
+        "id": 994503,
+        "designation": "Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Western York County Scenic Byway",
+        "match": "Western York",
+        "id": 994504,
+        "designation": "Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "OH",
+    "agency": "Ohio Department of Transportation",
+    "layer": "https://odotgis.dot.state.oh.us/arcgis/rest/services/ENV/ScenicBywaysExperienceMap/FeatureServer/1",
+    "nameField": "Byway_Name",
+    "byways": [
+      {
+        "name": "Appalachian Byway",
+        "id": 993901,
+        "designation": "Ohio Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Granville Scenic Byway",
+        "id": 993902,
+        "designation": "Ohio Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Johnny Appleseed Historic Byway",
+        "id": 993903,
+        "designation": "Ohio Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Neil Armstrong Scenic Byway",
+        "id": 993904,
+        "designation": "Ohio Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Quaker Heritage Scenic Byway",
+        "id": 993905,
+        "designation": "Ohio Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "VA",
+    "agency": "Virginia Department of Transportation",
+    "layer": "https://services.arcgis.com/p5v98VHDX9Atv3l7/arcgis/rest/services/Byways_022024/FeatureServer/0",
+    "nameField": "LAD_SCENIC",
+    "byways": [
+      {
+        "name": "Trail of the Lonesome Pine",
+        "id": 995101,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='ALT US-58E' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties') OR (LAD_SCENIC='BUS US-19E' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties') OR (LAD_SCENIC='BUS(2) US-19E' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties') OR (LAD_SCENIC='BUS(2) US-23N' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties') OR (LAD_SCENIC='BUS(3) US-23N' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties') OR (LAD_SCENIC='BUS(4) US-23N' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties') OR (LAD_SCENIC='US-19N' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties') OR (LAD_SCENIC='US-23N' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties' AND LAD_SCEN_2='From Alternate Route 58 at Norton in Wise County to Business Route 23 south of Wise.') OR (LAD_SCENIC='US-23N' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties' AND LAD_SCEN_2='From Business Route 23 in Pound to the Kentucky State Line.') OR (LAD_SCENIC='US-23N' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties' AND LAD_SCEN_2='From Business Route 23 north of Wise to Business Route 23 south of Pound.') OR (LAD_SCENIC='VA-160E' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties') OR (LAD_SCENIC='VA-70N' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties') OR (LAD_SCENIC='VA-71E' AND LAD_SOURCE='Lee, Russell, Scott, Tazewell and Wise Counties')"
+      },
+      {
+        "name": "Fairfax County byways",
+        "id": 995102,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-5590N (Fairfax County)','SC-5734N (Fairfax County)','SC-609N (Fairfax County)','SC-611N (Fairfax County)','SC-612N (Fairfax County)','SC-643N (Fairfax County)','SC-645E (Fairfax County)','SC-654E (Fairfax County)','SC-658E (Fairfax County)','SC-660E (Fairfax County)','SC-674N (Fairfax County)','SC-743N (Fairfax County)')"
+      },
+      {
+        "name": "Prince William County byways",
+        "id": 995103,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('Aden Road','Antioch Road','Bristow Road','John Marshall Highway','Joplin Road','Waterfall Road')"
+      },
+      {
+        "name": "Loudoun County byways",
+        "id": 995104,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('BUS VA-7E   (3 Round Hill\\Purcellville\\Loudoun\\Hamilton)','SC-662E (Loudoun County)','SC-665N (Loudoun County)','SC-671N (Loudoun County)','SC-673E (Loudoun County)','SC-681N (Loudoun County)','SC-690N (Loudoun County)','SC-699N (Loudoun County)','SC-704N (Loudoun County)','SC-722N (Loudoun County)','SC-728E (Loudoun County)','SC-731N (Loudoun County)','SC-734E (Loudoun County)','SC-751N (Loudoun County)','VA-9E')"
+      },
+      {
+        "name": "Routes 245 and 626, Old Tavern to Middleburg, with Springs Road",
+        "id": 995105,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-626N (Fauquier County)','SC-802E (Culpeper County)','VA-245N')"
+      },
+      {
+        "name": "Clarke County byways",
+        "id": 995106,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-601N (Clarke County)','SC-606N (Clarke County)','SC-608N (Clarke County)','SC-612N (Clarke County)','SC-620E (Clarke County)','SC-621N (Clarke County)','SC-622E (Clarke County)','SC-624N (Clarke County)','SC-626E (Clarke County)','SC-627N (Clarke County)','SC-628E (Clarke County)','SC-633E (Clarke County)','SC-638N (Clarke County)','SC-649N (Clarke County)','SC-651N (Clarke County)','SC-652N (Clarke County)','SC-655N (Clarke County)','SC-658E (Clarke County)','SC-723N (Clarke County)','VA-255N')"
+      },
+      {
+        "name": "Route 55, Star Tannery to Front Royal",
+        "id": 995107,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='VA-55E' AND LAD_SOURCE='Frederick, Shenandoah and Warren Counties')"
+      },
+      {
+        "name": "Back Road, Middle Road and Star Tannery Road (Shenandoah and Frederick)",
+        "id": 995108,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-600N (Frederick County)','SC-604N (Frederick County)','SC-614N (Shenandoah County)','SC-623N (Shenandoah County)','SC-661N (Frederick County)')"
+      },
+      {
+        "name": "Shenandoah County byways",
+        "id": 995109,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='SC-675E (Shenandoah County)' AND LAD_SOURCE='Shenandoah County') OR (LAD_SCENIC='SC-717N (Shenandoah County)' AND LAD_SOURCE='Shenandoah County') OR (LAD_SCENIC='SC-767E (Shenandoah County)' AND LAD_SOURCE='Shenandoah County') OR (LAD_SCENIC='US-11N' AND LAD_SOURCE='Shenandoah County') OR (LAD_SCENIC='VA-263E' AND LAD_SOURCE='Shenandoah County') OR (LAD_SCENIC='VA-42N' AND LAD_SOURCE='Shenandoah County')"
+      },
+      {
+        "name": "Page County byways",
+        "id": 995110,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='SC-615N (Page County)' AND LAD_SOURCE='Page County') OR (LAD_SCENIC='SC-616N (Page County)' AND LAD_SOURCE='Page County') OR (LAD_SCENIC='SC-636N (Page County)' AND LAD_SOURCE='Page County') OR (LAD_SCENIC='SC-650N (Page County)' AND LAD_SOURCE='Page County') OR (LAD_SCENIC='SC-675N (Page County)' AND LAD_SOURCE='Page County') OR (LAD_SCENIC='US-211E' AND LAD_SOURCE='Page County') OR (LAD_SCENIC='US-340N' AND LAD_SOURCE='Page County')"
+      },
+      {
+        "name": "US 340, Front Royal to Overall",
+        "id": 995111,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='US-340N' AND LAD_SOURCE='Warren County')"
+      },
+      {
+        "name": "Rappahannock County byways (Flint Hill and Ben Venue)",
+        "id": 995112,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-606E (Rappahannock County)','SC-628N (Rappahannock County)','SC-641N (Rappahannock County)','SC-647E (Rappahannock County)','SC-729N (Rappahannock County)')"
+      },
+      {
+        "name": "US 522, Culpeper to Chester Gap",
+        "match": "US-522N",
+        "id": 995113,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Route 231 (Blue Ridge Turnpike and F.T. Valley Road)",
+        "id": 995114,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-687N (Madison County)','VA-231N')"
+      },
+      {
+        "name": "Route 615 (Rapidan Road), Orange to Rapidan",
+        "match": "SC-615N (Culpeper County)",
+        "id": 995115,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Route 613, Green Springs",
+        "match": "SC-613E (Louisa County)",
+        "id": 995116,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Albemarle County byways (Garth Road and Thomas Jefferson Parkway)",
+        "id": 995117,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-601N (Albemarle County)','SC-614E (Albemarle County)','SC-676N (Albemarle County)','VA-53E')"
+      },
+      {
+        "name": "Route 6 and US 250 west of Charlottesville",
+        "id": 995118,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='US-250E' AND LAD_SOURCE='Albemarle and Nelson Counties') OR (LAD_SCENIC='VA-151N' AND LAD_SOURCE='Albemarle and Nelson Counties') OR (LAD_SCENIC='VA-6E' AND LAD_SOURCE='Albemarle and Nelson Counties')"
+      },
+      {
+        "name": "Route 6 (River Road), Scottsville to Henrico",
+        "id": 995119,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='CR-7506E (Henrico County)' AND LAD_SOURCE='Fluvanna, Goochland and Henrico Counties') OR (LAD_SCENIC='SC-650E (Goochland County)' AND LAD_SOURCE='Fluvanna, Goochland and Henrico Counties') OR (LAD_SCENIC='VA-6E' AND LAD_SOURCE='Fluvanna, Goochland and Henrico Counties')"
+      },
+      {
+        "name": "Nelson County byways (Crabtree Falls Highway)",
+        "id": 995120,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='SC-617N (Nelson County)' AND LAD_SOURCE='Nelson County') OR (LAD_SCENIC='SC-664E (Nelson County)' AND LAD_SOURCE='Nelson County') OR (LAD_SCENIC='SC-800N (Albemarle County)' AND LAD_SOURCE='Nelson County/Albemarle County') OR (LAD_SCENIC='VA-56E' AND LAD_SOURCE='Nelson County')"
+      },
+      {
+        "name": "US 11 and Route 56 (Tye River Turnpike), Augusta and Rockbridge",
+        "id": 995121,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='US-11N' AND LAD_SOURCE='Augusta and Rockbridge Counties') OR (LAD_SCENIC='VA-56E' AND LAD_SOURCE='Augusta and Rockbridge Counties')"
+      },
+      {
+        "name": "Route 39 and Rockbridge County byways (Goshen Pass)",
+        "id": 995122,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-606E (Rockbridge County)','SC-663N (Rockbridge County)','VA-252N','VA-39E')"
+      },
+      {
+        "name": "Route 130, Natural Bridge to Elon",
+        "match": "VA-130E",
+        "id": 995123,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Route 629 to Douthat State Park",
+        "match": "SC-629N (Alleghany County)",
+        "id": 995124,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Routes 311, 42, 43 and 159 in the Alleghany Highlands",
+        "id": 995125,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='SC-615E (Craig County)' AND LAD_SOURCE='Alleghany, Botetourt, Craig, Giles and Roanoke Counties') OR (LAD_SCENIC='SC-616N (Alleghany County)' AND LAD_SOURCE='Alleghany, Botetourt, Craig, Giles and Roanoke Counties') OR (LAD_SCENIC='SC-621N (Alleghany County)' AND LAD_SOURCE='Alleghany, Botetourt, Craig, Giles and Roanoke Counties') OR (LAD_SCENIC='VA-159N' AND LAD_SOURCE='Alleghany, Botetourt, Craig, Giles and Roanoke Counties') OR (LAD_SCENIC='VA-311N' AND LAD_SOURCE='Alleghany, Botetourt, Craig, Giles and Roanoke Counties') OR (LAD_SCENIC='VA-42N' AND LAD_SOURCE=' ') OR (LAD_SCENIC='VA-42N' AND LAD_SOURCE='Alleghany, Botetourt, Craig, Giles and Roanoke Counties') OR (LAD_SCENIC='VA-43N' AND LAD_SOURCE='Alleghany, Botetourt, Craig, Giles and Roanoke Counties')"
+      },
+      {
+        "name": "Route 785, Catawba Valley",
+        "match": "SC-785E (Montgomery County)",
+        "id": 995126,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Whistle Stop Byway",
+        "id": 995127,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-600E (Craig County)','SC-635E (Giles County)')"
+      },
+      {
+        "name": "Routes 43 and 24, Altavista to the Peaks of Otter",
+        "id": 995128,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='VA-24E' AND LAD_SOURCE='Campbell County/Bedford County') OR (LAD_SCENIC='VA-43N' AND LAD_SOURCE='Bedford and Campbell Counties')"
+      },
+      {
+        "name": "Franklin County roads to the Parkway",
+        "id": 995129,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-602N (Franklin County)','SC-623N (Franklin County)','SC-640E (Floyd County)','SC-748E (Franklin County)')"
+      },
+      {
+        "name": "US 58 (J.E.B. Stuart Highway), Meadows of Dan to Stuart",
+        "id": 995130,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC='US-58E' AND LAD_SOURCE='Patrick County' AND RTE_FROM_M>=221"
+      },
+      {
+        "name": "Routes 91, 58, 603 and 600 around Damascus and Whitetop",
+        "id": 995131,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='SC-600N (Grayson County)' AND LAD_SOURCE='Washington, Smyth and Grayson Counties and the Towns of Damascus and Troutdale') OR (LAD_SCENIC='SC-603E (Grayson County)' AND LAD_SOURCE='Washington, Smyth and Grayson Counties and the Towns of Damascus and Troutdale') OR (LAD_SCENIC='US-58E' AND LAD_SOURCE='Washington, Smyth and Grayson Counties and the Towns of Damascus and Troutdale') OR (LAD_SCENIC='VA-91N' AND LAD_SOURCE='Washington, Smyth and Grayson Counties and the Towns of Damascus and Troutdale')"
+      },
+      {
+        "name": "Wythe County byways",
+        "id": 995132,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='SC-619E (Wythe County)' AND LAD_SOURCE='Wythe County') OR (LAD_SCENIC='SC-680E (Wythe County)' AND LAD_SOURCE='Wythe County') OR (LAD_SCENIC='SC-749E (Wythe County)' AND LAD_SOURCE='Wythe County') OR (LAD_SCENIC='US-52N' AND LAD_SOURCE='Wythe County') OR (LAD_SCENIC='VA-121N' AND LAD_SOURCE='Wythe County') OR (LAD_SCENIC='VA-90N' AND LAD_SOURCE='Wythe County')"
+      },
+      {
+        "name": "US 52 and Big Walker Mountain roads (Bland and Wythe)",
+        "id": 995133,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='SC-617E (Bland County)' AND LAD_SOURCE='Bland and Wythe Counties') OR (LAD_SCENIC='SC-717E (Bland County)' AND LAD_SOURCE='Bland and Wythe Counties') OR (LAD_SCENIC='US-52N' AND LAD_SOURCE='Bland and Wythe Counties')"
+      },
+      {
+        "name": "Route 16, Sugar Grove to Tazewell",
+        "match": "VA-16N",
+        "id": 995134,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Burke's Garden roads",
+        "id": 995135,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-623N (Tazewell County)','SC-625E (Tazewell County)','SC-666E (Tazewell County)','SC-667E (Tazewell County)','SC-727N (Tazewell County)')"
+      },
+      {
+        "name": "Route 640, St. Paul to Wardell",
+        "match": "SC-640E (Russell County)",
+        "id": 995136,
+        "designation": "Virginia Byway (designated by the General Assembly)",
+        "nsb": false
+      },
+      {
+        "name": "Dickenson County, Routes 631 and 611",
+        "id": 995137,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-611E (Dickenson County)','SC-631N (Dickenson County)')"
+      },
+      {
+        "name": "Halifax County byways",
+        "id": 995138,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-654E (Halifax County)','SC-659E (Halifax County)','VA-344E','VA-360E')"
+      },
+      {
+        "name": "Route 47, South Hill to Pamplin",
+        "match": "VA-47N",
+        "id": 995139,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Charlotte and Campbell County roads (Route 40 to Red Hill)",
+        "id": 995140,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-600N (Campbell County)','SC-607E (Charlotte County)','SC-612E (Charlotte County)','SC-619E (Campbell County)','SC-619E (Charlotte County)','SC-637N (Charlotte County)','SC-641N (Charlotte County)','VA-40E')"
+      },
+      {
+        "name": "Route 696 (Green Bay Road), Prince Edward County",
+        "match": "SC-696N (Prince Edward County)",
+        "id": 995141,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Robinson Ferry and Gasburg roads, Brunswick County",
+        "match": "SC-626E (Brunswick County)",
+        "id": 995142,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Huguenot Trail and Old River Trail, west of Richmond",
+        "id": 995143,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-617N (Powhatan County)','SC-673N (Chesterfield County)','UR-15N (City of Richmond)')"
+      },
+      {
+        "name": "Route 5 (John Tyler Highway)",
+        "match": "VA-5E",
+        "id": 995144,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "New Kent County byways",
+        "id": 995145,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-606N (New Kent County)','SC-608N (New Kent County)','SC-609N (New Kent County)','VA-249E')"
+      },
+      {
+        "name": "Greensprings Road and Jamestown Festival Parkway",
+        "id": 995146,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-614N (James City County)','VA-359N')"
+      },
+      {
+        "name": "Caroline County, Routes 606 and 721",
+        "id": 995147,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-606E (Caroline County)','SC-721E (Caroline County)')"
+      },
+      {
+        "name": "US 17 (Tidewater Trail), Tappahannock to Spotsylvania County",
+        "id": 995148,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='US-17N' AND LAD_SOURCE='Caroline/Essex Counties')"
+      },
+      {
+        "name": "Spotsylvania County byways",
+        "id": 995149,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-607E (Spotsylvania County)','SC-618E (Spotsylvania County)')"
+      },
+      {
+        "name": "Route 218, King George County",
+        "match": "VA-218E",
+        "id": 995150,
+        "designation": "Virginia Byway",
+        "nsb": false
+      },
+      {
+        "name": "Westmoreland County byways",
+        "id": 995151,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='SC-609N (Westmoreland County)' AND LAD_SOURCE='Westmoreland County') OR (LAD_SCENIC='SC-622N (Westmoreland County)' AND LAD_SOURCE='Westmoreland County') OR (LAD_SCENIC='VA-204E' AND LAD_SOURCE='Westmoreland County') OR (LAD_SCENIC='VA-214E' AND LAD_SOURCE='Westmoreland County') OR (LAD_SCENIC='VA-347N' AND LAD_SOURCE='Westmoreland County') OR (LAD_SCENIC='VA-3E' AND LAD_SOURCE='Westmoreland County')"
+      },
+      {
+        "name": "Northumberland County byways",
+        "id": 995152,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('SC-604E (Northumberland County)','SC-605E (Northumberland County)','SC-607E (Northumberland County)','SC-608E (Northumberland County)','SC-636N (Northumberland County)','SC-640N (Northumberland County)','SC-643N (Northumberland County)','SC-644N (Northumberland County)','SC-645N (Northumberland County)','SC-646E (Northumberland County)','SC-649N (Northumberland County)','SC-652E (Northumberland County)','SC-657N (Northumberland County)','SC-669N (Northumberland County)','SC-679N (Northumberland County)','US-360E')"
+      },
+      {
+        "name": "Lancaster County byways",
+        "id": 995153,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='SC-604N (Lancaster County)' AND LAD_SOURCE='Lancaster County') OR (LAD_SCENIC='SC-614E (Lancaster County)' AND LAD_SOURCE='Lancaster County') OR (LAD_SCENIC='VA-200N' AND LAD_SOURCE='Lancaster County') OR (LAD_SCENIC='VA-354N' AND LAD_SOURCE='Lancaster County') OR (LAD_SCENIC='VA-3E' AND LAD_SOURCE='Lancaster County')"
+      },
+      {
+        "name": "Route 14 (The Trail), King and Queen County",
+        "id": 995154,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='VA-14E' AND LAD_SOURCE='King and Queen County')"
+      },
+      {
+        "name": "Mathews County byways",
+        "id": 995155,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "(LAD_SCENIC='SC-600N (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='SC-608E (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='SC-609N (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='SC-611E (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='SC-613N (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='SC-617N (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='SC-618E (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='SC-642N (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='SC-643E (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='SC-660N (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='SC-685E (Mathews County)' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='VA-14E' AND LAD_SOURCE='Mathews County') OR (LAD_SCENIC='VA-198E' AND LAD_SOURCE='Mathews County')"
+      },
+      {
+        "name": "Eastern Shore byways (Seaside Road and Wachapreague)",
+        "id": 995156,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('BUS US-13N','SC-600N (Accomack County)','SC-600N (Northampton County)','SC-603N (Northampton County)','SC-605N (Accomack County)','VA-126E','VA-179E','VA-180E')"
+      },
+      {
+        "name": "Green Sea Byway",
+        "id": 995157,
+        "designation": "Virginia Byway",
+        "nsb": false,
+        "where": "LAD_SCENIC IN ('UR-8590E (City of Virginia Beach)','UR-8667N (City of Virginia Beach)','UR-8669N (City of Virginia Beach)','UR-8670E (City of Virginia Beach)','UR-8671N (City of Virginia Beach)','UR-8672E (City of Virginia Beach)','UR-8673N (City of Virginia Beach)')"
+      }
+    ]
+  },
+  {
+    "state": "PA",
+    "agency": "Pennsylvania Department of Transportation",
+    "layer": "https://gis.penndot.gov/arcgis/rest/services/opendata/roadwaysegments/MapServer/0",
+    "nameField": "OBJECTID",
+    "byways": [
+      {
+        "name": "Crawford Lakelands Byway",
+        "id": 994201,
+        "designation": "Pennsylvania Byway (legislative scenic byway, Act 68 of 2011)",
+        "nsb": false,
+        "where": "CTY_CODE='20' AND PA_BYWAY_IND<>'N'"
+      },
+      {
+        "name": "West Branch Susquehanna River Byway",
+        "id": 994202,
+        "designation": "Pennsylvania Byway (legislative scenic byway, Act 63 of 2011)",
+        "nsb": false,
+        "where": "CTY_CODE='17' AND PA_BYWAY_IND<>'N'"
+      },
+      {
+        "name": "U.S. Route 202 Parkway",
+        "id": 994203,
+        "designation": "Pennsylvania Byway (legislative scenic byway, Act 140 of 2012)",
+        "nsb": false,
+        "where": "ST_RT_NO='0202' AND CTY_CODE IN ('09','46') AND PA_BYWAY_IND<>'N'"
+      },
+      {
+        "name": "Conestoga Ridge Byway",
+        "id": 994204,
+        "designation": "Pennsylvania Byway",
+        "nsb": false,
+        "where": "CTY_CODE='36' AND ST_RT_NO='0023' AND PA_BYWAY_IND<>'N'"
+      },
+      {
+        "name": "Pennsylvania Route 6 Scenic Byway",
+        "id": 994205,
+        "designation": "Pennsylvania Byway",
+        "nsb": false,
+        "where": "ST_RT_NO='0006' AND CTY_CODE IN ('42','52','58','61') AND PA_BYWAY_IND<>'N'"
+      }
+    ]
+  },
+  {
+    "state": "WY",
+    "agency": "Wyoming Department of Transportation",
+    "layer": "https://services4.arcgis.com/3Gy6zyvWSR2Q8akX/arcgis/rest/services/scenic_highway_byway/FeatureServer/0",
+    "nameField": "Name",
+    "byways": [
+      {
+        "name": "Battle Pass Scenic Byway",
+        "id": 995601,
+        "designation": "Wyoming Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Wyoming Black Hills Scenic Byway",
+        "match": "Black Hills Scenic Byway",
+        "id": 995602,
+        "designation": "Wyoming Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "NV",
+    "agency": "Nevada Department of Transportation",
+    "layer": "https://services1.arcgis.com/9Y4hSlLf13E9S0Eo/arcgis/rest/services/StatewideRoutes/FeatureServer/0",
+    "nameField": "RouteNameFull",
+    "byways": [
+      {
+        "name": "Lehman Caves Road",
+        "match": "SR488",
+        "id": 993201,
+        "designation": "Nevada Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Baker Road",
+        "match": "SR487",
+        "id": 993202,
+        "designation": "Nevada Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Hoover Dam Road",
+        "match": "SR172",
+        "id": 993203,
+        "designation": "Nevada Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "LA",
+    "agency": "Louisiana Department of Culture, Recreation & Tourism, Office of Tourism",
+    "layer": "https://maps.dotd.la.gov/road/rest/services/Roads_and_Highways_OpenData/FeatureServer/46",
+    "nameField": "BywayName",
+    "where": "RouteID LIKE '%[_]1[_]%'",
+    "comment": "DOTD draws most routes once per travel direction (RouteID ..._1_1_... and ..._2_2_...); only direction 1 is kept.",
+    "byways": [
+      {
+        "name": "Cajun Corridor Byway",
+        "match": "Cajun Corridor",
+        "id": 992201,
+        "designation": "Louisiana Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Flyway Byway",
+        "id": 992202,
+        "designation": "Louisiana Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Historic US 80",
+        "match": "Historic US 80 Byway",
+        "id": 992203,
+        "designation": "Louisiana Scenic Byway (Historic US 80 / Dixie Overland)",
+        "nsb": false
+      },
+      {
+        "name": "Zydeco Cajun Prairie Scenic Byway",
+        "match": "Zydeco Cajun Prairie Byway",
+        "id": 992204,
+        "designation": "Louisiana Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Cane River National Heritage Trail Scenic Byway",
+        "match": "Cane River",
+        "id": 992205,
+        "designation": "Louisiana Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Southern Swamp Byway",
+        "match": "Southern Swamps Byway",
+        "id": 992206,
+        "designation": "Louisiana Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Zachary Taylor Parkway",
+        "id": 992207,
+        "designation": "Louisiana Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Northup Trail",
+        "id": 992208,
+        "designation": "Louisiana Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "KS",
+    "agency": "Kansas Tourism with the Kansas Department of Transportation",
+    "layer": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Transportation/Scenic_Byways/MapServer/0",
+    "nameField": "RouteDesignationName",
+    "byways": [
+      {
+        "name": "Land and Sky Scenic Byway",
+        "id": 992001,
+        "designation": "Kansas Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Kansas Pony Express Historic Byway",
+        "id": 992002,
+        "designation": "Kansas Historic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "TN",
+    "agency": "Tennessee Department of Transportation",
+    "layer": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_Scenic_Byways/FeatureServer/8",
+    "nameField": "ByWy_Name",
+    "byways": [
+      {
+        "name": "Sequatchie Valley National Scenic Byway",
+        "match": "Sequatchie Valley Scenic Byway",
+        "id": 994701,
+        "designation": "National Scenic Byway (Tennessee Scenic Byway)",
+        "nsb": false
+      },
+      {
+        "name": "Cumberland National Scenic Byway",
+        "match": "Cumberland Historic Byway",
+        "id": 994702,
+        "designation": "National Scenic Byway (Tennessee Scenic Byway)",
+        "nsb": false
+      },
+      {
+        "name": "Newfound Gap Road",
+        "id": 994703,
+        "designation": "All-American Road (Tennessee Scenic Byway)",
+        "nsb": false
+      },
+      {
+        "name": "Tennessee River Trail Scenic Byway",
+        "match": "River Trails Scenic Byway",
+        "id": 994704,
+        "designation": "Tennessee Scenic Byway (state)",
+        "nsb": false
+      },
+      {
+        "name": "Great Smoky Mountains Byway",
+        "id": 994705,
+        "designation": "Tennessee Scenic Byway (state)",
+        "nsb": false
+      },
+      {
+        "name": "Walton Road Scenic Byway",
+        "id": 994706,
+        "designation": "Tennessee Scenic Byway (state)",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "ME",
+    "agency": "Maine Department of Transportation",
+    "layer": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6",
+    "nameField": "sb_name",
+    "byways": [
+      {
+        "name": "Bold Coast National Scenic Byway",
+        "match": "BOLD COAST SCENIC BYWAY",
+        "id": 992301,
+        "designation": "National Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "MI",
+    "agency": "Michigan Department of Transportation",
+    "layer": "https://utility.arcgis.com/usrsvcs/servers/97bf1430871b4bc5a153ce954d9a1977/rest/services/MDOT/MdotByways/FeatureServer/0",
+    "nameField": "Name",
+    "byways": [
+      {
+        "name": "M-22 Byway",
+        "match": "M-22",
+        "id": 992601,
+        "designation": "State Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "M-37 Old Mission Peninsula",
+        "match": "Old Mission Peninsula",
+        "id": 992602,
+        "designation": "State Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "M-123 Tahquamenon",
+        "match": "Tahquamenon",
+        "id": 992603,
+        "designation": "State Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "US-2 Top of the Lake",
+        "match": "US-2 Top of the Lake Scenic Byway",
+        "id": 992604,
+        "designation": "State Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "US-23 Sunrise Coast",
+        "match": "Sunrise Coast",
+        "id": 992605,
+        "designation": "State Recreation Byway",
+        "nsb": false
+      },
+      {
+        "name": "I-69 Recreational",
+        "id": 992606,
+        "designation": "State Recreation Byway",
+        "nsb": false
+      },
+      {
+        "name": "M-15 Pathway to Family Fun",
+        "match": "Pathway to Family Fun",
+        "id": 992607,
+        "designation": "State Recreation Byway",
+        "nsb": false
+      },
+      {
+        "name": "M-35 Hidden Coast",
+        "match": "Hidden Coast",
+        "id": 992608,
+        "designation": "State Recreation Byway",
+        "nsb": false
+      },
+      {
+        "name": "Chief Noonday",
+        "id": 992609,
+        "designation": "State Recreation Byway",
+        "nsb": false
+      },
+      {
+        "name": "M-134 North Huron",
+        "match": "North Huron Recreational Trail",
+        "id": 992610,
+        "designation": "State Recreation Byway",
+        "nsb": false
+      },
+      {
+        "name": "US-31 West Michigan Pike",
+        "match": "West Michigan Pike",
+        "id": 992611,
+        "designation": "State Recreation Byway",
+        "nsb": false
+      },
+      {
+        "name": "US-12 Heritage Trail",
+        "id": 992612,
+        "designation": "State Historic Byway",
+        "nsb": false
+      },
+      {
+        "name": "US-2 Iron County Heritage Trail",
+        "match": "Iron County Heritage Trail",
+        "id": 992613,
+        "designation": "State Historic Byway",
+        "nsb": false
+      },
+      {
+        "name": "I-94 Marshall's Territorial Road",
+        "match": "Marshall's Territorial",
+        "id": 992614,
+        "designation": "State Historic Byway",
+        "nsb": false
+      },
+      {
+        "name": "M-15 and M-25 Center Avenue/Bay City",
+        "match": "Center Avenue/Bay City",
+        "id": 992615,
+        "designation": "State Historic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "NH",
+    "agency": "New Hampshire Department of Transportation",
+    "layer": "https://maps.dot.nh.gov/arcgis_server/rest/services/RoadsandHighways/NHDOT_SCENIC_BYWAYS/FeatureServer",
+    "nameField": "OBJECTID",
+    "byways": [
+      {
+        "name": "Enfield Shaker Village Scenic Byway",
+        "id": 993301,
+        "designation": "New Hampshire Scenic and Cultural Byway",
+        "nsb": false,
+        "layer": "https://maps.dot.nh.gov/arcgis_server/rest/services/RoadsandHighways/NHDOT_SCENIC_BYWAYS/FeatureServer/6",
+        "where": "1=1"
+      },
+      {
+        "name": "Mills Scenic Byway",
+        "id": 993302,
+        "designation": "New Hampshire Scenic and Cultural Byway",
+        "nsb": false,
+        "layer": "https://maps.dot.nh.gov/arcgis_server/rest/services/RoadsandHighways/NHDOT_SCENIC_BYWAYS/FeatureServer/11",
+        "where": "1=1"
+      },
+      {
+        "name": "Mountain Road Scenic Byway",
+        "id": 993303,
+        "designation": "New Hampshire Scenic and Cultural Byway",
+        "nsb": false,
+        "layer": "https://maps.dot.nh.gov/arcgis_server/rest/services/RoadsandHighways/NHDOT_SCENIC_BYWAYS/FeatureServer/13",
+        "where": "1=1"
+      },
+      {
+        "name": "Old Stagecoach Scenic Byway",
+        "id": 993304,
+        "designation": "New Hampshire Scenic and Cultural Byway",
+        "nsb": false,
+        "layer": "https://maps.dot.nh.gov/arcgis_server/rest/services/RoadsandHighways/NHDOT_SCENIC_BYWAYS/FeatureServer/14",
+        "where": "1=1"
+      },
+      {
+        "name": "Robert Frost Scenic Byway",
+        "id": 993305,
+        "designation": "New Hampshire Scenic and Cultural Byway",
+        "nsb": false,
+        "layer": "https://maps.dot.nh.gov/arcgis_server/rest/services/RoadsandHighways/NHDOT_SCENIC_BYWAYS/FeatureServer/17",
+        "where": "1=1"
+      },
+      {
+        "name": "Upper Lamprey Scenic Byway",
+        "id": 993306,
+        "designation": "New Hampshire Scenic and Cultural Byway",
+        "nsb": false,
+        "layer": "https://maps.dot.nh.gov/arcgis_server/rest/services/RoadsandHighways/NHDOT_SCENIC_BYWAYS/FeatureServer/18",
+        "where": "1=1"
+      }
+    ]
+  },
+  {
+    "state": "WV",
+    "agency": "West Virginia Department of Transportation",
+    "layer": "https://services2.arcgis.com/xLpB90lOmCXYDAWo/arcgis/rest/services/Byways_and_Backways_2019/FeatureServer/0",
+    "nameField": "NAME",
+    "byways": [
+      {
+        "name": "Cedar Creek Road",
+        "id": 995401,
+        "designation": "West Virginia State Backway",
+        "nsb": false
+      },
+      {
+        "name": "Mountain's Shadow Trail",
+        "id": 995402,
+        "designation": "West Virginia State Backway",
+        "nsb": false
+      },
+      {
+        "name": "Wellsburg-Bethany",
+        "id": 995403,
+        "designation": "West Virginia State Byway",
+        "nsb": false
+      },
+      {
+        "name": "Williams River",
+        "id": 995404,
+        "designation": "West Virginia State Backway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "DE",
+    "agency": "Delaware Department of Transportation",
+    "layer": "https://enterprise.firstmap.delaware.gov/arcgis/rest/services/Transportation/DE_Roadways_Other/FeatureServer/18",
+    "nameField": "FULL_NAME",
+    "byways": [
+      {
+        "name": "Harriet Tubman Underground Railroad Byway",
+        "id": 991001,
+        "designation": "Delaware Byway",
+        "nsb": false,
+        "where": "FULL_NAME LIKE 'Harriet Tubman Underground Railroad Byway%'"
+      },
+      {
+        "name": "Historic Lewes Byway, Gateway to the Bayshore",
+        "match": "Lewes Scenic and Historic Byway",
+        "id": 991002,
+        "designation": "Delaware Byway",
+        "nsb": false
+      },
+      {
+        "name": "Nanticoke Heritage Byway",
+        "id": 991003,
+        "designation": "Delaware Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "IA",
+    "agency": "Iowa Department of Transportation",
+    "layer": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0",
+    "nameField": "BYWAY",
+    "byways": [
+      {
+        "name": "Lincoln Highway Heritage Byway",
+        "match": "Lincoln HWY Heritage Byway,a National Scenic Byway",
+        "id": 991901,
+        "designation": "National Scenic Byway (Iowa Heritage Byway)",
+        "nsb": false
+      },
+      {
+        "name": "Covered Bridges Scenic Byway",
+        "match": "Covered Bridges Byway",
+        "id": 991902,
+        "designation": "Iowa Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Jefferson Highway Heritage Byway",
+        "id": 991903,
+        "designation": "Iowa Heritage Byway",
+        "nsb": false
+      },
+      {
+        "name": "White Pole Road Scenic Byway",
+        "id": 991904,
+        "designation": "Iowa Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "AR",
+    "agency": "Arkansas Department of Transportation",
+    "layer": "https://gis.ardot.gov/referenced/rest/services/TPP_GISMapping/Designated_Routes/FeatureServer/3",
+    "nameField": "Name",
+    "byways": [
+      {
+        "name": "Camden Expedition Scenic Byway",
+        "match": "Camden Expedition",
+        "id": 990501,
+        "designation": "Arkansas Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Boston Mountains Scenic Loop",
+        "id": 990502,
+        "designation": "Arkansas Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Interstate 530",
+        "match": "Interstate 530 Scenic Byway",
+        "id": 990503,
+        "designation": "Arkansas Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "West-Northwest Scenic Byway",
+        "id": 990504,
+        "designation": "Arkansas Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "MA",
+    "agency": "Massachusetts Department of Transportation",
+    "layer": "https://gis.massdot.state.ma.us/arcgis/rest/services/Roads/ScenicByways/FeatureServer/0",
+    "nameField": "BYWAYNAME",
+    "byways": [
+      {
+        "name": "Blackstone Canal Heritage Highway",
+        "id": 992501,
+        "designation": "Massachusetts Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Chappaquiddick Road",
+        "id": 992502,
+        "designation": "Massachusetts Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Minuteman Highway",
+        "id": 992503,
+        "designation": "Massachusetts Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Route 116 Scenic Byway",
+        "id": 992504,
+        "designation": "Massachusetts Scenic Byway",
+        "nsb": false
+      },
+      {
+        "name": "Taconic Trail",
+        "id": 992505,
+        "designation": "Massachusetts Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "CT",
+    "agency": "Connecticut Department of Transportation",
+    "layer": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14",
+    "nameField": "NATIONAL_SCEN",
+    "byways": [
+      {
+        "name": "US 7, Kent to Canaan",
+        "id": 990901,
+        "designation": "Connecticut State Scenic Road (Nos. 8, 9, 10, 11)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('8','9','10','11')"
+      },
+      {
+        "name": "Route 4, Sharon to Cornwall Bridge",
+        "id": 990902,
+        "designation": "Connecticut State Scenic Road (Nos. 4, 5)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('4','5')"
+      },
+      {
+        "name": "Route 41, Sharon and Salisbury",
+        "id": 990903,
+        "designation": "Connecticut State Scenic Road (Nos. 19, 20, 21, 22)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('19','20','21','22')"
+      },
+      {
+        "name": "US 44, Salisbury",
+        "match": "23",
+        "id": 990904,
+        "designation": "Connecticut State Scenic Road (No. 23)",
+        "nsb": false
+      },
+      {
+        "name": "Lake Waramaug and New Preston",
+        "id": 990905,
+        "designation": "Connecticut State Scenic Road (Nos. 24, 25, 26, 61)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('24','25','26','61')"
+      },
+      {
+        "name": "Route 109, Washington",
+        "match": "42",
+        "id": 990906,
+        "designation": "Connecticut State Scenic Road (No. 42)",
+        "nsb": false
+      },
+      {
+        "name": "Litchfield",
+        "id": 990907,
+        "designation": "Connecticut State Scenic Road (Nos. 31, 43, 60, 67)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('31','43','60','67')"
+      },
+      {
+        "name": "Harwinton",
+        "id": 990908,
+        "designation": "Connecticut State Scenic Road (Nos. 6, 7)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('6','7')"
+      },
+      {
+        "name": "Farmington River to Collinsville",
+        "id": 990909,
+        "designation": "Connecticut State Scenic Road (Nos. 3, 55, 73)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('3','55','73')"
+      },
+      {
+        "name": "Route 69, Burlington",
+        "match": "34",
+        "id": 990910,
+        "designation": "Connecticut State Scenic Road (No. 34)",
+        "nsb": false
+      },
+      {
+        "name": "Route 10, Farmington",
+        "match": "12",
+        "id": 990911,
+        "designation": "Connecticut State Scenic Road (No. 12)",
+        "nsb": false
+      },
+      {
+        "name": "Barkhamsted Reservoir roads",
+        "id": 990912,
+        "designation": "Connecticut State Scenic Road (Nos. 56, 63, 64, 70)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('56','63','64','70')"
+      },
+      {
+        "name": "US 202, New Hartford",
+        "match": "59",
+        "id": 990913,
+        "designation": "Connecticut State Scenic Road (No. 59)",
+        "nsb": false
+      },
+      {
+        "name": "Colebrook",
+        "match": "57",
+        "id": 990914,
+        "designation": "Connecticut State Scenic Road (No. 57)",
+        "nsb": false
+      },
+      {
+        "name": "Route 272, Norfolk",
+        "match": "68",
+        "id": 990915,
+        "designation": "Connecticut State Scenic Road (No. 68)",
+        "nsb": false
+      },
+      {
+        "name": "Roxbury",
+        "id": 990916,
+        "designation": "Connecticut State Scenic Road (Nos. 32, 33, 69)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('32','33','69')"
+      },
+      {
+        "name": "Route 33, Wilton",
+        "match": "18",
+        "id": 990917,
+        "designation": "Connecticut State Scenic Road (No. 18)",
+        "nsb": false
+      },
+      {
+        "name": "Route 53, Redding",
+        "match": "29",
+        "id": 990918,
+        "designation": "Connecticut State Scenic Road (No. 29)",
+        "nsb": false
+      },
+      {
+        "name": "Route 58, Easton",
+        "match": "30",
+        "id": 990919,
+        "designation": "Connecticut State Scenic Road (No. 30)",
+        "nsb": false
+      },
+      {
+        "name": "Route 136, Westport",
+        "match": "44",
+        "id": 990920,
+        "designation": "Connecticut State Scenic Road (No. 44)",
+        "nsb": false
+      },
+      {
+        "name": "US 1, Madison",
+        "match": "1",
+        "id": 990921,
+        "designation": "Connecticut State Scenic Road (No. 1)",
+        "nsb": false
+      },
+      {
+        "name": "Routes 79 and 80, North Madison",
+        "match": "39",
+        "id": 990922,
+        "designation": "Connecticut State Scenic Road (No. 39)",
+        "nsb": false
+      },
+      {
+        "name": "Route 146, Branford to Guilford",
+        "match": "45",
+        "id": 990923,
+        "designation": "Connecticut State Scenic Road (No. 45)",
+        "nsb": false
+      },
+      {
+        "name": "Route 77, Guilford to Durham",
+        "id": 990924,
+        "designation": "Connecticut State Scenic Road (Nos. 16, 37, 38)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('16','37','38')"
+      },
+      {
+        "name": "US 1, Old Lyme",
+        "match": "2",
+        "id": 990925,
+        "designation": "Connecticut State Scenic Road (No. 2)",
+        "nsb": false
+      },
+      {
+        "name": "Route 154, Old Saybrook and Fenwick",
+        "match": "50",
+        "id": 990926,
+        "designation": "Connecticut State Scenic Road (No. 50)",
+        "nsb": false
+      },
+      {
+        "name": "Route 154, Haddam",
+        "match": "49",
+        "id": 990927,
+        "designation": "Connecticut State Scenic Road (No. 49)",
+        "nsb": false
+      },
+      {
+        "name": "East Haddam Bridge and Route 149",
+        "id": 990928,
+        "designation": "Connecticut State Scenic Road (Nos. 40, 47)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('40','47')"
+      },
+      {
+        "name": "Lyme: Hadlyme ferry road and Hamburg",
+        "id": 990929,
+        "designation": "Connecticut State Scenic Road (Nos. 46, 51, 71, 72)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('46','51','71','72')"
+      },
+      {
+        "name": "Route 151, Middle Haddam",
+        "match": "48",
+        "id": 990930,
+        "designation": "Connecticut State Scenic Road (No. 48)",
+        "nsb": false
+      },
+      {
+        "name": "Route 160, Glastonbury ferry road",
+        "match": "52",
+        "id": 990931,
+        "designation": "Connecticut State Scenic Road (No. 52)",
+        "nsb": false
+      },
+      {
+        "name": "Windham Center and Scotland",
+        "id": 990932,
+        "designation": "Connecticut State Scenic Road (Nos. 13, 62)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('13','62')"
+      },
+      {
+        "name": "Route 97, Abington to Pomfret Center",
+        "match": "41",
+        "id": 990933,
+        "designation": "Connecticut State Scenic Road (No. 41)",
+        "nsb": false
+      },
+      {
+        "name": "Route 244, Pomfret",
+        "match": "66",
+        "id": 990934,
+        "designation": "Connecticut State Scenic Road (No. 66)",
+        "nsb": false
+      },
+      {
+        "name": "Route 164, Preston City",
+        "match": "53",
+        "id": 990935,
+        "designation": "Connecticut State Scenic Road (No. 53)",
+        "nsb": false
+      },
+      {
+        "name": "Route 27, Old Mystic",
+        "match": "17",
+        "id": 990936,
+        "designation": "Connecticut State Scenic Road (No. 17)",
+        "nsb": false
+      },
+      {
+        "name": "Route 234, Pequot Trail",
+        "match": "65",
+        "id": 990937,
+        "designation": "Connecticut State Scenic Road (No. 65)",
+        "nsb": false
+      },
+      {
+        "name": "Route 207, Hebron to Sprague",
+        "match": "74",
+        "id": 990938,
+        "designation": "Connecticut State Scenic Road (No. 74)",
+        "nsb": false
+      },
+      {
+        "name": "Tolland Green",
+        "id": 990939,
+        "designation": "Connecticut State Scenic Road (Nos. 35, 58)",
+        "nsb": false,
+        "where": "NATIONAL_SCEN IN ('35','58')"
+      },
+      {
+        "name": "Route 75, Suffield",
+        "match": "36",
+        "id": 990940,
+        "designation": "Connecticut State Scenic Road (No. 36)",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "OK",
+    "agency": "Oklahoma Department of Transportation",
+    "layer": "https://services6.arcgis.com/RBtoEUQ2lmN0K3GY/arcgis/rest/services/Billboards_Scenic_Byways/FeatureServer/1",
+    "nameField": "NAME",
+    "byways": [
+      {
+        "name": "Kenton to Keys State Scenic Byway",
+        "match": "A",
+        "id": 994001,
+        "designation": "Oklahoma State Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "RI",
+    "agency": "Rhode Island Department of Transportation",
+    "layer": "https://gisstage.dot.ri.gov/gpserver/rest/services/Roads/ScenicRoads/MapServer/0",
+    "nameField": "SCENIC",
+    "byways": [
+      {
+        "name": "Route 1 (Charlestown)",
+        "id": 994401,
+        "designation": "Rhode Island Scenic Roadway",
+        "nsb": false,
+        "where": "SCENIC = 8"
+      },
+      {
+        "name": "Route 1 (South Kingstown)",
+        "id": 994402,
+        "designation": "Rhode Island Scenic Roadway",
+        "nsb": false,
+        "where": "SCENIC = 9"
+      }
+    ]
+  },
+  {
+    "state": "VT",
+    "agency": "Vermont Agency of Transportation",
+    "layer": "https://maps.vtrans.vermont.gov/arcgis/rest/services/Layers/ScenicByways/MapServer/0",
+    "nameField": "SCENICBYWAY",
+    "byways": [
+      {
+        "name": "Green Mountain Byway",
+        "id": 995001,
+        "designation": "Vermont Byway",
+        "nsb": false,
+        "where": "SCENICBYWAY=600"
+      },
+      {
+        "name": "Northeast Kingdom Byway",
+        "id": 995002,
+        "designation": "Vermont Byway",
+        "nsb": false,
+        "where": "SCENICBYWAY=1000"
+      },
+      {
+        "name": "The Shires of Vermont Byway",
+        "id": 995003,
+        "designation": "Vermont Byway",
+        "nsb": false,
+        "where": "SCENICBYWAY=900"
+      }
+    ]
+  },
+  {
+    "state": "MT",
+    "agency": "Montana Department of Transportation",
+    "layer": "https://gis.mtmdt.us/server/rest/services/ALTIS/ALTIS_Route_Events/MapServer/11",
+    "nameField": "SPECIAL_DESIGNATION_NAME",
+    "byways": [
+      {
+        "name": "Giant Springs Road",
+        "id": 993001,
+        "designation": "Montana Scenic-Historic Byway (designated May 26, 2011)",
+        "nsb": false,
+        "layer": "https://gis.mtmdt.us/server/rest/services/ALTIS/ALTIS_Route_Events/MapServer/17",
+        "where": "ROUTE_NAME IN ('GIANT SPRINGS RD','GIANT SPRINGS')"
+      }
+    ]
+  },
+  {
+    "state": "HI",
+    "agency": "Hawaii Department of Transportation",
+    "layer": "https://geodata.hawaii.gov/arcgis/rest/services/Transportation/MapServer/6",
+    "nameField": "OBJECTID",
+    "byways": [
+      {
+        "name": "Kaʻū Scenic Byway – The Slopes of Mauna Loa",
+        "id": 991501,
+        "designation": "Hawaii Scenic Byway",
+        "nsb": false,
+        "where": "statertenm = '11' AND district = 'KAU'"
+      },
+      {
+        "name": "HWY 137 – The Red Road Scenic Byway",
+        "id": 991502,
+        "designation": "Hawaii Scenic Byway",
+        "nsb": false,
+        "where": "statertenm = '137' AND fullname = 'KALAPANA KAPOHO BEACH RD'"
+      }
+    ]
   }
 ]

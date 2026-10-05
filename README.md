@@ -2,7 +2,7 @@
 
 # Rambleroo
 
-Drive into the heart of the American story. Rambleroo is a guide to more than 800 scenic roads in the United States. Find a road on the national map, read its postcard, then scroll down the road mile by mile on a strip map. Save it, add it to a trip, record a visit and collect a stamp in your passport.
+Drive into the heart of the American story. Rambleroo is a guide to more than 1,000 scenic roads in the United States. Find a road on the national map, read its postcard, then scroll down the road mile by mile on a strip map. Save it, add it to a trip, record a visit and collect a stamp in your passport.
 
 Open it at **https://rambleroo.app**. No account is needed. Rambleroo is a personal, noncommercial, open-source project, and [contributions are welcome](#contributing).
 
@@ -28,17 +28,17 @@ Open it at **https://rambleroo.app**. No account is needed. Rambleroo is a perso
 
 ## What's on the map
 
-Rambleroo catalogs **{TOTAL} scenic drives across the United States**, combining federal layers, state DOT registries, and iconic routes:
+Rambleroo catalogs **1,047 scenic drives across the United States**, combining federal layers, state DOT registries, and iconic routes:
 
 - **778 National & State Scenic Byways** from the USDOT National Scenic Byways layer (June 2022).
-- **{STATE} State Additions** drawn from the route layers of six state DOTs (Wisconsin, Florida, North Carolina, Arizona, Minnesota and Kentucky) to fill federal gaps, plus {REPLACED} roads the national layer draws in the wrong place, redrawn from the state's own line.
+- **261 State Additions** drawn from the route layers of 37 state agencies to fill federal gaps, plus 3 roads the national layer draws in the wrong place, redrawn from the state's own line.
 - **8 Unofficial Classics** (e.g., _Going-to-the-Sun Road_, _Road to Hana_) labeled explicitly as un-designated classic routes.
 
 ### Features
 
-- **Linear Strip Maps ({STRIPS} routes):** Each corridor unrolls into a continuous linear ribbon as you scroll. Towns, natural landmarks, and scenic overlooks are pinned to their true relative milepost. Drive times are dynamically routed via OpenStreetMap, while data discontinuities render as dashed connector lines.
-- **Four-Season Visuals & Custom Postcards:** Every route features a procedural postcard and seasonal strip illustrations. For {PHOTOROADS} roads, {PHOTOS} human-verified, freely licensed photographs provide authentic field references.
-- **State Chapters:** Each state's byway program, its roads described one by one, and a link to the agency that designates them. Six states are written so far; [docs/state-programs.md](docs/state-programs.md) links every state's program.
+- **Linear Strip Maps (970 routes):** Each corridor unrolls into a continuous linear ribbon as you scroll. Towns, natural landmarks, and scenic overlooks are pinned to their true relative milepost. Drive times are dynamically routed via OpenStreetMap, while data discontinuities render as dashed connector lines.
+- **Four-Season Visuals & Custom Postcards:** Every route features a procedural postcard and seasonal strip illustrations. For 258 roads, 304 human-verified, freely licensed photographs provide authentic field references.
+- **State Chapters:** Each state's byway program, its roads described one by one, and a link to the agency that designates them. Every state has one; [docs/state-programs.md](docs/state-programs.md) links each state's program.
 - **Granular Designations:** Instantly differentiate between _All-American Roads_, _National Scenic Byways_, _State Scenic Byways_, and _National Forest Byways_, with direct links to respective state agency programs.
 
 ### Cartographic & Data Integrity
@@ -48,7 +48,7 @@ Rambleroo prioritizes ground truth and transparency over smoothed assumptions:
 - **Mapped Miles vs. Driving Distance:** Mileage is calculated directly along mapped geometry rather than odometer estimates. Divided segments are summed as drawn.
 - **Explicit Discontinuities:** Gaps in source GIS layers remain visible as breaks—no synthetic route interpolation without indication.
 - **Clear Provenance:** Generated artwork, verified photographs, and work-in-progress routes carry clear state labels (`Illustration · no photo yet`, `Draft · pending review`).
-- **Open Source & Agency Attribution:** Sourced with attribution from USDOT, six state DOTs, Natural Earth, OpenStreetMap, Wikipedia, and Wikimedia Commons. See [docs/licensing.md](docs/licensing.md) for full attribution schemas.
+- **Open Source & Agency Attribution:** Sourced with attribution from USDOT, state transportation and tourism agencies, Natural Earth, OpenStreetMap, Wikipedia, and Wikimedia Commons. See [docs/licensing.md](docs/licensing.md) for full attribution schemas.
 
 ## What you can do
 
@@ -59,7 +59,7 @@ Rambleroo prioritizes ground truth and transparency over smoothed assumptions:
 | **Strip map**                    | `/byway/:id/strip`             | The road as a ribbon you scroll mile by mile, in four seasons, with a 3D view and a printable version (`/print`).               |
 | **Trip**                         | `/trip`                        | Roads in the order you want to drive them, with mapped miles, drive times and Google Maps links.                                |
 | **Passport**                     | `/passport`                    | Saved roads, visits, stamps, your postcards and your car; share a trip or passport as a read-only link (`/s/:slug`).            |
-| **State chapters & collections** | `/state/:code`, `/collections` | Each state's byway program with links to its agency ([six states so far](docs/state-programs.md)), and editorial collections.   |
+| **State chapters & collections** | `/state/:code`, `/collections` | Each state's byway program with links to its agency ([all 50 states](docs/state-programs.md)), and editorial collections.   |
 
 ## Run it locally
 
@@ -137,7 +137,7 @@ Accounts are optional. Sign in with Google, an emailed link or a passkey, and yo
 
 The most useful help is often a correction: a road drawn wrong, a place in the wrong spot, a photo credit. [Open an issue](https://github.com/raynbowy23/rambleroo/issues/new/choose) for those, for bugs, and for ideas. Pull requests for fixes are welcome; [CONTRIBUTING.md](CONTRIBUTING.md) lists the checks CI runs.
 
-The next big piece of work is [state chapters](docs/state-coverage.md): every state's byway program, linked to the agency that designates its roads and mapped as fully as the six finished states. [docs/state-programs.md](docs/state-programs.md) links every state's program and agency, and the [plan](docs/state-coverage.md) tracks all 50; each state is a self-contained project for a contributor. Pick a state with the [State chapter](https://github.com/raynbowy23/rambleroo/issues/new?template=state-chapter.yml) issue template.
+Every state now has a [chapter](docs/state-programs.md), and each one has open questions: lines that stop short, roads a state may have dropped, missing photos. They are listed per state in `content/states/sources/`. [docs/state-programs.md](docs/state-programs.md) links every state's program and agency, and the [plan](docs/state-coverage.md) tracks all 50; each state is a self-contained project for a contributor. Pick a state with the [State chapter](https://github.com/raynbowy23/rambleroo/issues/new?template=state-chapter.yml) issue template.
 
 Please report security problems privately, as described in [SECURITY.md](SECURITY.md).
 

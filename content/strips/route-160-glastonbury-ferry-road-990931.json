@@ -1,0 +1,81 @@
+{
+  "bywayId": "route-160-glastonbury-ferry-road-990931",
+  "reviewed": false,
+  "generated": true,
+  "title": "Route 160, Glastonbury ferry road",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Rocky Hill",
+      "wikipedia": "",
+      "osm": "node/158860324",
+      "at": [
+        -72.6392587,
+        41.6648216
+      ],
+      "weight": 4000
+    },
+    {
+      "name": "South Glastonbury",
+      "wikipedia": "",
+      "osm": "node/158860380",
+      "at": [
+        -72.6028252,
+        41.6665303
+      ],
+      "weight": 3000
+    },
+    {
+      "name": "Red Hill",
+      "wikipedia": "",
+      "osm": "node/359290071",
+      "at": [
+        -72.6056462,
+        41.6773216
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "South Glastonbury Historic District",
+      "wikipedia": "",
+      "osm": "node/359290426",
+      "at": [
+        -72.6017572,
+        41.6675994
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Glastonbury–Rocky Hill Ferry Historic District",
+      "wikipedia": "",
+      "osm": "node/8902753523",
+      "at": [
+        -72.6194438,
+        41.6645051
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Elm Street Historic District",
+      "wikipedia": "",
+      "osm": "node/8902753528",
+      "at": [
+        -72.64365,
+        41.6645459
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Rocky Hill Center Historic District",
+      "wikipedia": "",
+      "osm": "node/8902769615",
+      "at": [
+        -72.6346115,
+        41.6648635
+      ],
+      "weight": 1000
+    }
+  ],
+  "stretches": []
+}

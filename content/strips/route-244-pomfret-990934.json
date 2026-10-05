@@ -1,0 +1,100 @@
+{
+  "bywayId": "route-244-pomfret-990934",
+  "reviewed": false,
+  "generated": true,
+  "title": "Route 244, Pomfret",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Bara-Hack",
+      "wikipedia": "Bara-Hack, Connecticut",
+      "weight": 3452
+    },
+    {
+      "name": "Pomfret",
+      "wikipedia": "",
+      "osm": "node/158855556",
+      "at": [
+        -71.9625736,
+        41.8975977
+      ],
+      "weight": 3000
+    },
+    {
+      "name": "Pomfret Center",
+      "wikipedia": "",
+      "osm": "node/158894794",
+      "at": [
+        -71.962018,
+        41.88732
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Ragged Hill",
+      "wikipedia": "",
+      "osm": "node/359267960",
+      "at": [
+        -72.0317415,
+        41.9025975
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Shaw Hill",
+      "wikipedia": "",
+      "osm": "node/359269390",
+      "at": [
+        -72.0006299,
+        41.8992643
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Hamlet Hill",
+      "wikipedia": "",
+      "osm": "node/359278320",
+      "at": [
+        -71.9858943,
+        41.8894317
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Pomfret Hill",
+      "wikipedia": "",
+      "osm": "node/359278621",
+      "at": [
+        -71.9628513,
+        41.8862089
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Wheaton Hill",
+      "wikipedia": "",
+      "osm": "node/359278934",
+      "at": [
+        -72.0336861,
+        41.8923198
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Pomfret Street Historic District",
+      "wikipedia": "",
+      "osm": "node/8914124172",
+      "at": [
+        -71.9641667,
+        41.8886111
+      ],
+      "weight": 1000
+    }
+  ],
+  "stretches": []
+}

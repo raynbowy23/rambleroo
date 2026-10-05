@@ -1,0 +1,51 @@
+{
+  "note": "Facts and sources behind the member descriptions in TX.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Twisted Sisters (Ranch Road 337)",
+      "designation": "Classic drive (not a designated scenic byway)",
+      "where": "RM 337 from Camp Wood (SH 55) east through Leakey (US 83) to Vanderpool, Real and Bandera counties",
+      "facts": [
+        {
+          "fact": "RM 337 runs from SH 55 in Camp Wood through Leakey, crosses the Frio River east of Leakey, and shares about a mile with RM 187 near Lost Maples State Natural Area before leaving it at Vanderpool (mile 37.7).",
+          "source": "https://en.wikipedia.org/wiki/Ranch_to_Market_Road_337"
+        },
+        {
+          "fact": "The road is known for hairpin switchbacks through Hill Country canyonland, and with RM 335 and RM 336 it forms a loop nicknamed the Twisted Sisters.",
+          "source": "https://en.wikipedia.org/wiki/Ranch_to_Market_Road_337"
+        },
+        {
+          "fact": "Lost Maples State Natural Area is known for bigtooth maples that color in the fall and has over 10 miles of hiking trails.",
+          "source": "https://tpwd.texas.gov/state-parks/lost-maples"
+        }
+      ],
+      "review": "The catalog line covers only the Camp Wood to Vanderpool part of RM 337 (37 of its 56 miles); the road continues east along the West Prong Medina River to SH 16 at Medina. The Twisted Sisters loop also includes RM 335 and RM 336, which the catalog does not draw. No official page exists for the drive."
+    },
+    {
+      "name": "Texas Hill Country Wine Road (US 290)",
+      "designation": "Classic drive (not a designated scenic byway)",
+      "where": "US 290 from Johnson City west through Stonewall to Fredericksburg, Blanco and Gillespie counties",
+      "facts": [
+        {
+          "fact": "US 290 leads from the park's visitor center and Johnson boyhood home in Johnson City 14 miles west to the LBJ Ranch district near Stonewall, and on 16 more miles to Fredericksburg.",
+          "source": "https://www.nps.gov/lyjo/planyourvisit/directions.htm"
+        },
+        {
+          "fact": "The Pedernales River flows past the LBJ Ranch, where Hereford cattle still graze as they did when Johnson started his herd in 1957.",
+          "source": "https://www.nps.gov/lyjo/index.htm"
+        },
+        {
+          "fact": "A wine trail along US 290 reaches many Hill Country wineries and vineyards, and Fredericksburg has long been known for its peach industry.",
+          "source": "https://en.wikipedia.org/wiki/Texas_Hill_Country_AVA"
+        }
+      ],
+      "review": "This segment lies within the statutory eligible segment 'US 290 between the western city limits of Austin and the eastern city limits of Fredericksburg', but no one has nominated it and it is not designated. Wine Road 290 is a winery association, not a government page."
+    }
+  ],
+  "issues": [
+    "No designated Texas Scenic Byways found as of 2026-10-05: the TxDOT program page lists only eligible segments and FHWA lists 0 byways for Texas. WebSearch budget was exhausted and DuckDuckGo/Bing returned nothing useful, so a Texas Transportation Commission minute order designating a byway in 2025-2026 cannot be fully ruled out; a human could check TxDOT commission minutes or email TPP_Scenic.Byways at txdot.gov.",
+    "TxDOT's page cites Transportation Code 391.252 for the eligible list while the eligible-routes PDF and ArcGIS item cite 391.256; one of them is a section-number slip.",
+    "Eligible list item 15 is 'a highway within Bandera County' (an area, not a route), which could cover the Bandera County end of RM 337; the catalog's Twisted Sisters line is mostly in Real County.",
+    "ftp.txdot.gov serves an incomplete TLS certificate chain, so curl fails without -k; the PDFs load in browsers."
+  ]
+}

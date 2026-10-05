@@ -1,0 +1,184 @@
+{
+  "note": "Facts and sources behind the member descriptions in HI.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Māmalahoa Kona Heritage Corridor",
+      "designation": "Hawaii Scenic Byway",
+      "where": "Māmalahoa Highway (Route 180), Palani Junction through Hōlualoa to Honalo, North Kona, Hawaiʻi Island",
+      "facts": [
+        {
+          "fact": "The corridor is about 10 miles of Māmalahoa Highway (Route 180) from the Palani junction south through Hōlualoa village to Honalo; designated Hawaiʻi's first state scenic byway in March 2009, sponsored by Pūlama ia Kona Heritage Preservation Council.",
+          "source": "https://www.pulama.org/scenicbyway"
+        },
+        {
+          "fact": "The road sits at the 1,400 to 1,500 foot elevation and remains a two-lane road with gentle curves.",
+          "source": "https://web.archive.org/web/20170310180002/http://www.hawaiiscenicbyways.org:80/index.php/byway/mamalahoa-kona-heritage-corridor"
+        },
+        {
+          "fact": "Go Hawaii describes the route as passing coffee farms, galleries and Hōlualoa Village between Palani Junction and State Route 11.",
+          "source": "https://www.gohawaii.com/islands/hawaii-big-island/things-to-do/land-activities/scenic-byways"
+        }
+      ]
+    },
+    {
+      "name": "Royal Footsteps Along the Kona Coast",
+      "designation": "Hawaii Scenic Byway",
+      "where": "Aliʻi Drive, Historic Kailua Village to Keauhou, North Kona, Hawaiʻi Island",
+      "facts": [
+        {
+          "fact": "About seven miles of Aliʻi Drive; designated the state's second Hawaiʻi Scenic Byway, sponsored by the Kailua Village Business Improvement District.",
+          "source": "https://historickailuavillage.com/explore/scenic-byway-app/"
+        },
+        {
+          "fact": "Kamakahonu, beside Kailua Pier, was the residential compound of Kamehameha the Great from 1813 until his death in 1819.",
+          "source": "https://historickailuavillage.com/explore/scenic-byway-app/"
+        },
+        {
+          "fact": "The drive from Kailua Village to Keauhou generally follows the ancient ala loa foot trail and passes Huliheʻe Palace, built in 1838.",
+          "source": "https://web.archive.org/web/20170628030952/http://www.hawaiiscenicbyways.org/index.php/byway/royal-footsteps-along-the-kona-coast"
+        }
+      ]
+    },
+    {
+      "name": "Kaʻū Scenic Byway – The Slopes of Mauna Loa",
+      "designation": "Hawaii Scenic Byway",
+      "where": "Highway 11 (Hawaiʻi Belt Road), Mānuka State Park to the main entrance of Hawaiʻi Volcanoes National Park, Kaʻū district, Hawaiʻi Island",
+      "facts": [
+        {
+          "fact": "The byway follows Highway 11 from Mānuka State Park past the Kahuku section and Honuʻapo Bay to the main entrance of Hawaiʻi Volcanoes National Park, winding into the Waiʻōhinu valley and passing the Nīnole Hills.",
+          "source": "https://web.archive.org/web/20170207164246/http://www.hawaiiscenicbyways.org:80/index.php/byway/kau-scenic-byway-the-slopes-of-mauna-loa"
+        },
+        {
+          "fact": "The road rises from sea level to over 4,000 feet and is partly inside the national park; sponsor group is the Kaʻū Chamber of Commerce.",
+          "source": "https://web.archive.org/web/20170207164246/http://www.hawaiiscenicbyways.org:80/index.php/byway/kau-scenic-byway-the-slopes-of-mauna-loa"
+        },
+        {
+          "fact": "Go Hawaii gives the byway as 54 miles of Highway 11 around the base of Mauna Loa, with Honuʻapo Overlook, Punaluʻu Black Sand Beach and Kula Kai Caverns along it.",
+          "source": "https://www.gohawaii.com/islands/hawaii-big-island/things-to-do/land-activities/scenic-byways"
+        }
+      ],
+      "review": "Not in the catalog. gisWhere selects all Route 11 centerline segments in the Kaʻū district of the Hawaii County Roads layer (70 features), which approximates Mānuka to the park entrance; check both ends against the district boundary. Go Hawaii spells Mauna Loa as 'Maunaloa' in the byway name."
+    },
+    {
+      "name": "Holo Holo Kōloa Scenic Byway",
+      "designation": "Hawaii Scenic Byway",
+      "where": "Maluhia Road (Route 520) to Kōloa town and the Poʻipū coast, south Kauaʻi",
+      "facts": [
+        {
+          "fact": "The 19.5-mile byway begins on Maluhia Road with its tree tunnel and leads to the sugar plantation town of Kōloa, Poʻipū Beach, the salt ponds and the National Tropical Botanical Garden.",
+          "source": "https://www.gohawaii.com/islands/kauai/things-to-do/land-activities/scenic-byways"
+        },
+        {
+          "fact": "The Maluhia Road eucalyptus trees were planted in 1911 by Walter Duncan McBryde; Kōloa Landing at Hanakaʻape Bay was the third largest whaling port in Hawaiʻi in the mid-1800s; Spouting Horn (Puhi) is a stop.",
+          "source": "https://web.archive.org/web/20170628034018/http://www.hawaiiscenicbyways.org/index.php/byway/holo-holo-koloa-scenic-byway"
+        },
+        {
+          "fact": "Designated in December 2011 as the third Hawaii Scenic Byway and the first on Kauaʻi, sponsored by Hui Mālama O Kōloa.",
+          "source": "https://web.archive.org/web/2017/http://www.hawaiiscenicbyways.org/index.php/news/holo-holo-koloa-scenic-byway-recognized"
+        }
+      ],
+      "review": "Not in the catalog. HDOT never published the exact road list; gisWhere is an approximation from the points of interest (Maluhia Rd, Poʻipū Rd, Lāwaʻi Rd to Spouting Horn, Hoʻonani Rd at Kōloa Landing, Ala Kinoiki). Kōloa Rd is left out because it runs west to Lāwaʻi; the few blocks of it in Old Kōloa Town may belong to the byway."
+    },
+    {
+      "name": "HWY 137 – The Red Road Scenic Byway",
+      "designation": "Hawaii Scenic Byway",
+      "where": "Route 137 (Kalapana–Kapoho Beach Road), Kapoho to Kaimū, Puna district, Hawaiʻi Island",
+      "facts": [
+        {
+          "fact": "Hwy 137 is a 15-mile road along the southeastern coast with huge mango trees, tree tunnels and lava fields; it was designated a Hawaii scenic byway in 2013 after two years of work.",
+          "source": "https://web.archive.org/web/20161222180718/http://hwy137redroad.org/wp-content/uploads/2015/10/CMP-_Narrative.pdf"
+        },
+        {
+          "fact": "Long paved with red volcanic cinder, most of the road was surfaced with black asphalt in 2000 but is still called the Red Road.",
+          "source": "https://en.wikipedia.org/wiki/Hawaii_Route_137"
+        },
+        {
+          "fact": "In the 2018 lower Puna eruption, lava buried Route 137 between Kamaili Road and Pohoiki Road and cut more of it near Kapoho.",
+          "source": "https://en.wikipedia.org/wiki/Hawaii_Route_137"
+        }
+      ],
+      "review": "Not in the catalog. The 2015 corridor management plan names it 'Red Road Scenic Byway' (Kapoho–Kaimū). The sponsor site hwy137redroad.org no longer resolves, so url is null. The northern end around Kapoho was destroyed in 2018; the GIS layer still carries 34 segments named KALAPANA KAPOHO BEACH RD and may include pre-2018 alignment. The layer also tags GOVERNMENT BEACH RD as route 137; it is excluded."
+    },
+    {
+      "name": "Diamond Head Scenic Byway: The Lei Around Lēʻahi",
+      "designation": "Hawaii Scenic Byway",
+      "where": "Diamond Head area, Honolulu, Oʻahu (exact roads not documented; presumably Diamond Head Road around the crater)",
+      "facts": [
+        {
+          "fact": "HDOT listed 'Diamond Head Scenic Byway: The Lei Around Leahi' among the byways that received state designation in 2013.",
+          "source": "https://web.archive.org/web/20170628013034/http://www.hawaiiscenicbyways.org/index.php"
+        },
+        {
+          "fact": "The Diamond Head State Monument Foundation sponsored community meetings on the proposed Diamond Head Road Scenic Byway in March and December 2012.",
+          "source": "https://web.archive.org/web/20170628030959/http://www.hawaiiscenicbyways.org/index.php/news"
+        },
+        {
+          "fact": "Diamond Head, known to Hawaiians as Lēʻahi, is a volcanic tuff cone, a State Monument and a National Natural Landmark, and a summit trail built in 1908 for the Army coastal defenses climbs it from the crater floor.",
+          "source": "https://en.wikipedia.org/wiki/Diamond_Head,_Hawaii"
+        }
+      ],
+      "review": "HDOT's list writes the name without diacritics ('Leahi'). No byway page or route description survives; route not drawn. 'Circling' rests on the byway's name (a lei around Lēʻahi) and the 2012 meetings' 'Diamond Head Road' title."
+    },
+    {
+      "name": "Maunalua–Makapuʻu Scenic Byway",
+      "designation": "Hawaii Scenic Byway",
+      "where": "East Honolulu, Oʻahu; presumably Kalanianaʻole Highway (Route 72) from Hawaiʻi Kai (Maunalua) to Makapuʻu",
+      "facts": [
+        {
+          "fact": "HDOT listed 'Maunalua-Makapuu Scenic Byway' among the byways that received state designation in 2013.",
+          "source": "https://web.archive.org/web/20170628013034/http://www.hawaiiscenicbyways.org/index.php"
+        },
+        {
+          "fact": "Hawaiʻi Kai, also called Maunalua, was dredged from the Kuapā fishpond from about 1959; east of it Kalanianaʻole Highway passes the Koko Head area and crosses to the windward side near Makapuʻu Point.",
+          "source": "https://en.wikipedia.org/wiki/Hawaii_Kai,_Hawaii"
+        },
+        {
+          "fact": "Route 72 climbs part of Koko Crater beyond Hawaiʻi Kai and turns northwest at Makapuʻu.",
+          "source": "https://en.wikipedia.org/wiki/Hawaii_Route_72"
+        }
+      ],
+      "review": "Route inferred from the name; no official route description found. The likely sponsor, Livable Hawaiʻi Kai Hui (now Livable Maunalua Hui), had a byway page at hawaiikaihui.org that is now offline. Not drawn."
+    },
+    {
+      "name": "Waikīkī – Kauhale O Hoʻokipa Scenic Byway",
+      "designation": "Hawaii Scenic Byway",
+      "where": "Waikīkī, Honolulu, Oʻahu (exact roads not documented)",
+      "facts": [
+        {
+          "fact": "HDOT listed 'Waikiki - Kauhale O Hookipa Scenic Byway' among the byways that received state designation in 2013.",
+          "source": "https://web.archive.org/web/20170628013034/http://www.hawaiiscenicbyways.org/index.php"
+        },
+        {
+          "fact": "The Native Hawaiian Hospitality Association held a community meeting on 4 September 2013 at 1958 Kalākaua Avenue about pursuing state designation of a Waikīkī scenic byway, after a State Senate Committee on Tourism and Hawaiian Affairs discussion in January 2013.",
+          "source": "https://web.archive.org/web/20170628030959/http://www.hawaiiscenicbyways.org/index.php/news"
+        }
+      ],
+      "review": "HDOT's list writes the name without diacritics. No route description or byway page found; not drawn."
+    },
+    {
+      "name": "Chain of Craters Road",
+      "designation": "Park road (catalog: Parkway)",
+      "where": "Hawaiʻi Volcanoes National Park, Kīlauea summit to the coast",
+      "facts": [
+        {
+          "fact": "Chain of Craters Road, formerly Cockett's Trail, was dedicated on April 15, 1928.",
+          "source": "https://www.nps.gov/havo/planyourvisit/ccr_tour.htm"
+        },
+        {
+          "fact": "Lava from Puʻuʻōʻō inundated nearly 9 miles of the road and covered the Kamoamoa village site in 1992; the road is now 18.8 miles to its end.",
+          "source": "https://www.nps.gov/havo/planyourvisit/ccr_tour.htm"
+        }
+      ],
+      "review": "Not a state scenic byway; the catalog's 'Parkway' designation is not a Hawaii program designation."
+    }
+  ],
+  "issues": [
+    "HDOT has no live page for the Hawaii Scenic Byways Program: hidot.hawaii.gov/highways/other/hawaii-scenic-byways-program/ now returns 404, and hawaiiscenicbyways.org was taken over by spam around 2017 and is now a parked domain. The eight-road list comes from the archived HDOT site (last updated June 2016). Whether any road has since been de-designated could not be checked; the program may be dormant.",
+    "Akoni Pule Highway (the Kohala Scenic Byway, Route 270) was removed from the state list in November 2011, per the archived HDOT news page; it is not included.",
+    "The National Scenic Byway Foundation page for the Red Road (nsbfoundation.com/sb/puna-the-red-road-scenic-byway/) points to the dead HDOT program page. Go Hawaii's Big Island page lists only three Big Island byways, leaving out the Red Road, probably because of the 2018 lava.",
+    "The four 2013 designations (Diamond Head, Maunalua–Makapuʻu, Waikīkī, Red Road) have no surviving official page; only the Red Road has a corridor management plan (archived). The three Oʻahu routes are undocumented and not drawn; a human should confirm their roads before drawing.",
+    "Kaʻū and Holo Holo Kōloa gisWhere clauses are approximations on county road centerline layers, not byway lines; Kōloa in particular may need Kōloa Rd in Old Kōloa Town added.",
+    "Catalog check: the Māmalahoa (11 mi) and Royal Footsteps (7 mi) catalog lines match the stated lengths. Road to Hana is a 'Classic drive' and is skipped; it is not a state byway.",
+    "Go Hawaii's summary gives the Kaʻū byway as 54 miles and frames it as linking to Kona; the archived HDOT page puts the ends at Mānuka State Park and the national park entrance, which is used here."
+  ]
+}

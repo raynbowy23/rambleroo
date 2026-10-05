@@ -1,0 +1,97 @@
+{
+  "code": "IL",
+  "name": "Illinois",
+  "tagline": "Mississippi bluffs, Starved Rock's canyons, Route 66 diners and the Shawnee forest on the Ohio.",
+  "intro": "Illinois's byways follow its rivers on three sides, the Mississippi down the western edge, the Illinois through its bluffs and canyons and the Ohio around the southern tip, and cross the prairie on three historic roads, the Lincoln Highway, Route 66 and the National Road. This chapter follows the state's seven scenic byways as the Illinois Department of Transportation maps them and the Illinois Office of Tourism promotes them. Illinois has no separate state list today: every road on it is a National Scenic Byway or All-American Road, though two of them began as Illinois State Scenic Byways in the late 1990s.",
+  "programs": [
+    {
+      "label": "Illinois Scenic Byways (the Seven Scenic Byways)",
+      "issuer": "Illinois Department of Transportation",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Great River Road",
+          "bywayId": "great-river-road-2279",
+          "url": "https://www.greatriverroad-illinois.org/",
+          "blurb": "Some 550 miles down the Mississippi side of Illinois, from the old river town of Galena past the Dutch windmill at Fulton and the mounds at Cahokia to the Devil's Backbone rocks at Grand Tower."
+        },
+        {
+          "name": "Meeting of the Great Rivers Scenic Route",
+          "bywayId": "meeting-of-the-great-rivers-scenic-route-10393",
+          "url": "https://www.riversandroutes.com/things-to-do/road-trips/meeting-of-the-great-rivers/",
+          "blurb": "Thirty-three miles north from the Lewis and Clark country at Hartford, past the painted Piasa Bird on the Alton bluffs and the old stone houses of Elsah, to Pere Marquette State Park where the Illinois meets the Mississippi."
+        },
+        {
+          "name": "Historic Route 66",
+          "bywayId": "historic-route-66-2489",
+          "url": "https://www.illinoisroute66.org/",
+          "blurb": "The Mother Road sets out from Chicago and runs southwest past the Gemini Giant at Wilmington and the Cozy Dog Drive-In at Springfield, finishing at the Mississippi by the old Chain of Rocks Bridge."
+        },
+        {
+          "name": "Illinois River Road",
+          "bywayId": "illinois-river-road-58611",
+          "url": "https://www.illinoisriverroad.org/",
+          "blurb": "The byway follows the Illinois River some 150 miles from Ottawa down to Havana, past the canyons and waterfalls of Starved Rock and along Peoria's Grandview Drive, which Theodore Roosevelt praised on a 1910 visit."
+        },
+        {
+          "name": "Lincoln Highway",
+          "bywayId": "lincoln-highway-13750",
+          "url": "https://www.enjoyillinois.com/things-to-do/illinois-scenic-byways/journey-along-the-lincoln-highway/",
+          "blurb": "The old coast-to-coast highway crosses 179 miles of northern Illinois farm country on US 30 and Illinois 38, past a restored Standard Oil station at Rochelle, ending at a Dutch windmill on the Fulton levee."
+        },
+        {
+          "name": "Ohio River Scenic Byway",
+          "bywayId": "ohio-river-scenic-byway-2286",
+          "url": "https://orsb-illinois.com/",
+          "blurb": "The byway curls 188 miles around the southern tip of Illinois through the Shawnee National Forest, by way of Cave-in-Rock and on to Metropolis, where a fifteen-foot Superman keeps watch over the town square."
+        },
+        {
+          "name": "Historic National Road",
+          "bywayId": "historic-national-road-2278",
+          "url": "https://www.enjoyillinois.com/plan-your-trip/travel-inspiration/historic-national-road/",
+          "blurb": "US 40 carries the old National Road 164 miles from Marshall to East St. Louis, crossing a timber covered bridge at Greenup and passing the old statehouse at Vandalia, where Lincoln sat as a young legislator."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Enjoy Illinois (Illinois Office of Tourism), Illinois Seven Scenic Byways",
+      "url": "https://www.enjoyillinois.com/things-to-do/illinois-scenic-byways/"
+    },
+    {
+      "label": "IDOT, ScenicByways MapServer (service description and layer)",
+      "url": "https://gis1.dot.illinois.gov/arcgis/rest/services/Operations/ScenicByways/MapServer"
+    },
+    {
+      "label": "FHWA America's Byways, Illinois",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/states/show/IL"
+    },
+    {
+      "label": "Enjoy Illinois, Journey Along the Lincoln Highway",
+      "url": "https://www.enjoyillinois.com/things-to-do/illinois-scenic-byways/journey-along-the-lincoln-highway/"
+    },
+    {
+      "label": "Enjoy Illinois, The Historic National Road in Illinois",
+      "url": "https://www.enjoyillinois.com/plan-your-trip/travel-inspiration/historic-national-road/"
+    },
+    {
+      "label": "Enjoy Illinois, Illinois River Road National Scenic Byway",
+      "url": "https://www.enjoyillinois.com/plan-your-trip/travel-inspiration/illinois-river-road-national-scenic-byway/"
+    },
+    {
+      "label": "Wikipedia, Meeting of the Great Rivers Scenic Route",
+      "url": "https://en.wikipedia.org/wiki/Meeting_of_the_Great_Rivers_Scenic_Route"
+    },
+    {
+      "label": "Illinois route layer (GIS)",
+      "url": "https://gis1.dot.illinois.gov/arcgis/rest/services/Operations/ScenicByways/MapServer/1"
+    }
+  ],
+  "bbox": [
+    -91.7,
+    36.8,
+    -87.3,
+    42.7
+  ]
+}

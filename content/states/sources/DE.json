@@ -1,0 +1,139 @@
+{
+  "note": "Facts and sources behind the member descriptions in DE.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Brandywine Valley National Scenic Byway",
+      "designation": "National Scenic Byway and Delaware Byway",
+      "where": "DE 52 (Kennett Pike) and DE 100 from Rodney Square in Wilmington to the Pennsylvania line, New Castle County, 12.25 miles",
+      "facts": [
+        {
+          "fact": "Runs from Rodney Square in Wilmington on Routes 52 and 100 to the Delaware-Pennsylvania line, 12.25 miles.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=brandywine"
+        },
+        {
+          "fact": "The area is often called Chateau Country; the lower Brandywine Creek's water-powered mills helped build Wilmington.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=brandywine"
+        },
+        {
+          "fact": "Points of interest include Winterthur, Nemours Mansion and Gardens, Hagley Museum and Library and Centreville village.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=brandywine"
+        },
+        {
+          "fact": "FHWA lists it as a National Scenic Byway in Pennsylvania and Delaware.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/States/Show/DE"
+        }
+      ]
+    },
+    {
+      "name": "Red Clay Scenic Byway",
+      "designation": "Delaware Byway",
+      "where": "Network of 28 roads in northern New Castle County between DE 52 and DE 48, about 27 miles",
+      "facts": [
+        {
+          "fact": "A network of 28 roads in New Castle County tied to Red Clay Creek and its watershed, about 27 miles, between Rt. 52 and Rt. 48.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=redclay"
+        },
+        {
+          "fact": "Yorklyn (historically Auburn Mills) had a 19th-century grist, snuff and paper milling industry.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=redclay"
+        },
+        {
+          "fact": "Steam trains of the Wilmington and Western run from Greenbank to Hockessin; Ashland and Wooddale covered bridges are points of interest.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=redclay"
+        }
+      ],
+      "review": "The program page calls it Red Clay Scenic Byway; the corridor plan and GIS layer use Red Clay Valley Scenic Byway."
+    },
+    {
+      "name": "Delaware Bayshore Byway",
+      "designation": "National Scenic Byway and Delaware Byway",
+      "where": "DE 9 and connecting roads from New Castle south along the Delaware River and Bay to the beaches outside Lewes, all three counties, about 100 miles",
+      "facts": [
+        {
+          "fact": "A two-lane road along the Delaware River and Bay from the historic City of New Castle to the beach resorts just outside Lewes, about 100 miles.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=route9"
+        },
+        {
+          "fact": "Lies within the Atlantic Flyway, where hundreds of thousands of migrating shorebirds feed and rest each spring; points of interest include Port Penn, Odessa and Bombay Hook National Wildlife Refuge.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=route9"
+        },
+        {
+          "fact": "Designated a National Scenic Byway in February 2021.",
+          "source": "https://delawaregreenways.org/delaware-bayshore-byway-project/"
+        },
+        {
+          "fact": "The northern portion is a series of historic roads known collectively as Route 9.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/States/Show/DE"
+        }
+      ],
+      "review": "Catalog entry is the older Route 9 Coastal Heritage Scenic Byway (56 mapped miles), which is the northern part of today's Bayshore Byway; the byway was extended south to Lewes and the catalog line likely stops short. DelDOT's page slug is still dc=route9."
+    },
+    {
+      "name": "Harriet Tubman Underground Railroad Byway",
+      "designation": "Delaware Byway",
+      "where": "From Willow Grove Road in Kent County (end of the Maryland byway) via Camden, Dover, US 13 through Smyrna, DE 15 to Middletown and Odessa, DE 9 to Wilmington and Kennett Pike to the Pennsylvania line, about 95 miles with loops",
+      "facts": [
+        {
+          "fact": "Begins where Maryland's Harriet Tubman Underground Railroad Byway ends on Willow Grove Road in Kent County and runs north through Camden, Dover, Smyrna, Middletown and Odessa, then Route 9 to Wilmington and Kennett Pike to the state line; about 95 miles.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=railroad"
+        },
+        {
+          "fact": "Wilmington Quaker Thomas Garrett helped organize the Underground Railroad network in Delaware; the route passes 13 Underground Railroad sites in Wilmington.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=railroad"
+        },
+        {
+          "fact": "The full Tubman Byway continues from Maryland's Eastern Shore through Delaware to Philadelphia.",
+          "source": "https://harriettubmanbyway.org/"
+        }
+      ],
+      "review": "GIS layer has the route as separate NB and SB lines; use the LIKE clause. The Maryland portion is an All-American Road but FHWA lists only Brandywine Valley and Delaware Bayshore for Delaware, so the Delaware portion is state-designated only."
+    },
+    {
+      "name": "Historic Lewes Byway, Gateway to the Bayshore",
+      "designation": "Delaware Byway",
+      "where": "Pilottown Road/First Street, Gills Neck Road, New Road, Kings Highway, Cape Henlopen Drive and Savannah Road in Lewes, Sussex County, 12.35 miles",
+      "facts": [
+        {
+          "fact": "12.35 miles on Pilottown Road/First Street, Gills Neck Road, New Road, Kings Highway, Cape Henlopen Drive and Savannah Road; reachable from New Jersey on the Cape May-Lewes Ferry.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=lewes"
+        },
+        {
+          "fact": "Cape Henlopen State Park's Great Dune rises 80 feet, and its walking dunes move slowly across the pine forest; the Great Marsh covers five square miles.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=lewes"
+        },
+        {
+          "fact": "Points of interest include the Zwaanendael Museum, Lightship Overfalls and the De Vries Palisade monument.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=lewes"
+        }
+      ],
+      "review": "GIS layer name is 'Lewes Scenic and Historic Byway'."
+    },
+    {
+      "name": "Nanticoke Heritage Byway",
+      "designation": "Delaware Byway",
+      "where": "Western Sussex County from US 13 at Bridgeville Road (Route 20 exit) through Seaford, Bethel and Laurel to Trap Pond State Park, about 35 miles",
+      "facts": [
+        {
+          "fact": "Runs about 35 miles from US 13 at Bridgeville Road through Seaford, Bethel and Laurel to Trap Pond State Park, crossing the Nanticoke River on the Woodland Ferry.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=sussex"
+        },
+        {
+          "fact": "Bethel and Seaford were known for shipbuilding; after the railroad came in 1856, Seaford and Laurel shipped oysters, fruit and baskets north.",
+          "source": "https://deldot.gov/Programs/byways/index.shtml?dc=sussex"
+        },
+        {
+          "fact": "The Woodland Ferry, historically Cannon's Ferry, is a cable ferry across the Nanticoke River west of Seaford, run year-round by DelDOT.",
+          "source": "https://en.wikipedia.org/wiki/Woodland_Ferry"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    "Catalog road route-9-coastal-heritage-scenic-byway-2334 is the pre-extension Route 9 Coastal Heritage Byway (56 mapped miles); today's Delaware Bayshore Byway runs about 100 miles to Lewes and has been a National Scenic Byway since 2021. Consider renaming the catalog entry, adding the National Scenic Byway designation, and checking whether its line should be replaced or extended from the FirstMap value 'The Delaware Bayshore Byway'.",
+    "Brandywine Valley: DelDOT gives 12.25 miles in Delaware; FHWA lists the national byway as Pennsylvania and Delaware, but the catalog entry is Delaware-only.",
+    "FirstMap Byways layer was last updated March 2020 and uses older names ('Lewes Scenic and Historic Byway', 'Red Clay Valley Scenic Byway'). It also contains three Washington-Rochambeau Revolutionary Route rows explicitly marked 'not a State Byway'; exclude them.",
+    "The Harriet Tubman byway has no single GIS name value (NB and SB variants); gisWhere uses LIKE.",
+    "delawarebayshorebyway.org (the traveler site linked by DelDOT) returned 403 to curl, so it was not used; the DelDOT page is given as the official URL.",
+    "Program page and corridor plans use some http:// links (e.g. harriettubmanbyway.org, story maps); https versions were used where they work."
+  ]
+}

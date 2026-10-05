@@ -10,7 +10,10 @@ import type { Feature, MultiPolygon, Polygon, Position } from 'geojson'
 import { booleanPointInPolygon, point } from '@turf/turf'
 
 const ROOT = new URL('../../', import.meta.url)
-const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway strip maps; personal project)' }
+const UA = {
+  'User-Agent':
+    'Rambleroo/0.1 (scenic byway strip maps; personal project; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues)',
+}
 const JOIN_MI = 0.08 // ends closer than this are the same point (digitising noise)
 const GAP_MI = 1.2 // ends further apart than this are not treated as part of the same drive
 const PLACE_MI = 4 // places further than this from the road are not placed on the ribbon (nearer ones show their distance)

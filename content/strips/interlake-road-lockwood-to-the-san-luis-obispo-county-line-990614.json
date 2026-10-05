@@ -1,0 +1,31 @@
+{
+  "bywayId": "interlake-road-lockwood-to-the-san-luis-obispo-county-line-990614",
+  "reviewed": false,
+  "generated": true,
+  "title": "Interlake Road (Lockwood to the San Luis Obispo County line)",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Lockwood",
+      "wikipedia": "",
+      "osm": "node/150977361",
+      "at": [
+        -121.0818785,
+        35.9442155
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Jackson Hill",
+      "wikipedia": "",
+      "osm": "node/358786450",
+      "at": [
+        -121.0804709,
+        35.9110784
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

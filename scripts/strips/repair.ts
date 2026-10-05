@@ -95,7 +95,12 @@ async function osrm(a: Position, b: Position) {
   for (let i = 0; i < 6; i++) {
     await sleep(1100)
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': 'Rambleroo/0.1 (scenic byway strip maps; personal project)' } })
+      const res = await fetch(url, {
+        headers: {
+          'User-Agent':
+            'Rambleroo/0.1 (scenic byway strip maps; personal project; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues)',
+        },
+      })
       if (res.ok) return (await res.json()) as { code: string; routes?: { distance: number; geometry: { coordinates: Position[] } }[] }
     } catch {
       // retry below

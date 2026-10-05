@@ -1,0 +1,275 @@
+{
+  "note": "Facts and sources behind the member descriptions in TN.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Great River Road",
+      "designation": "All-American Road (Tennessee Scenic Byway)",
+      "where": "Mississippi River corridor of West Tennessee, Kentucky line to Memphis and the Mississippi line",
+      "facts": [
+        {
+          "fact": "Reelfoot Lake State Park is known for its bald cypresses and is a stop for migrating birds.",
+          "source": "https://experiencemississippiriver.com/states/tennessee/"
+        },
+        {
+          "fact": "The route passes the Chickasaw Bluffs and the woods of Fort Pillow State Park, site of a Civil War battle, and reaches Memphis with Beale Street, Graceland and Sun Studio.",
+          "source": "https://experiencemississippiriver.com/states/tennessee/"
+        },
+        {
+          "fact": "TDOT lists it as one of Tennessee's three All-American Roads, 240 miles in the Memphis area.",
+          "source": "https://tnscenicbyways.com/"
+        }
+      ],
+      "review": "Not in the TDEC GIS layer; drawn from the catalog line."
+    },
+    {
+      "name": "Woodlands Trace",
+      "designation": "National Scenic Byway (Tennessee Scenic Byway)",
+      "where": "The Trace through Land Between the Lakes, Kentucky line south to US 79 near Dover, Stewart County",
+      "facts": [
+        {
+          "fact": "The 43-mile byway runs from Grand Rivers, Kentucky, south to Dover, Tennessee; TDOT gives 13.5 miles in Tennessee.",
+          "source": "https://www.landbetweenthelakes.us/outdoors-recreation/scenic-drives/"
+        },
+        {
+          "fact": "The South Bison Range lies across the Trace from the Homeplace, a working farm with 14 original buildings.",
+          "source": "https://www.landbetweenthelakes.us/outdoors-recreation/scenic-drives/"
+        },
+        {
+          "fact": "The route passes the ruins of the Great Western Iron Furnace.",
+          "source": "https://www.tnvacation.com/things-to-do/road-trips/trails-byways/tennessee-river-trail"
+        }
+      ],
+      "review": "Not in the TDEC GIS layer; drawn from the catalog line."
+    },
+    {
+      "name": "Natchez Trace Parkway",
+      "designation": "All-American Road (Tennessee Scenic Byway)",
+      "where": "NPS parkway from TN 100 at Pasquo (south of Nashville) to the Alabama line, about 102 miles in Tennessee",
+      "facts": [
+        {
+          "fact": "The Tennessee section begins at Pasquo at TN 100 and runs south to the Alabama line, 102 miles per TDOT.",
+          "source": "https://tnscenicbyways.com/directions/natchez_driving-directions.pdf"
+        },
+        {
+          "fact": "The Double Arch Bridge spans Birdsong Hollow and Tennessee Highway 96 and won a Presidential Award for Design Excellence in 1995.",
+          "source": "https://www.nps.gov/natr/index.htm"
+        },
+        {
+          "fact": "Meriwether Lewis died along the Old Natchez Trace in 1809, and his death and burial site is on the parkway.",
+          "source": "https://www.tn.gov/content/dam/tn/tdot/environmental/highway-beautification/scenic_byways/Tennessee%20Byways%20Flipbook.pdf"
+        }
+      ],
+      "review": "Not in the TDEC GIS layer; drawn from the catalog line."
+    },
+    {
+      "name": "Sequatchie Valley National Scenic Byway",
+      "designation": "National Scenic Byway (Tennessee Scenic Byway)",
+      "where": "TN 28 and US 127 from Jasper through Whitwell, Dunlap and Pikeville to I-40 at Crossville; Marion, Sequatchie, Bledsoe and Cumberland counties",
+      "facts": [
+        {
+          "fact": "The route follows TN 28 north from Jasper through Whitwell and Dunlap, then US 127 through Pikeville to Crossville.",
+          "source": "https://tnscenicbyways.com/directions/sequatchie_driving-directions.pdf"
+        },
+        {
+          "fact": "The valley is bordered on the west by Walden's Ridge and on the east by the escarpment of the Cumberland Plateau.",
+          "source": "https://www.tn.gov/content/dam/tn/tdot/environmental/highway-beautification/scenic_byways/Tennessee%20Byways%20Flipbook.pdf"
+        },
+        {
+          "fact": "Historic sites along the route include the Bledsoe County Jail (about 1851) and the Bellview School in Pikeville.",
+          "source": "https://sequatchievalleyscenicbyway.com/historic-sites/"
+        }
+      ],
+      "review": "FHWA lists it as 'Sequatchie Valley Scenic Byway' (National Scenic Byway, 65 mi); the byway's own site says 70 miles."
+    },
+    {
+      "name": "Norris Freeway National Scenic Byway",
+      "designation": "National Scenic Byway (Tennessee Scenic Byway)",
+      "where": "US 441 from Rocky Top through Norris to TN 131 at Halls Crossroads; Anderson, Campbell and Knox counties",
+      "facts": [
+        {
+          "fact": "The freeway was built in 1934 as a supply route for Norris Dam, the TVA's first hydroelectric project, and its structures share an Art Moderne design.",
+          "source": "https://tnscenicbyways.com/"
+        },
+        {
+          "fact": "It runs 21 miles from Rocky Top through the City of Norris to Halls, crosses Norris Dam and parallels the Clinch River.",
+          "source": "https://norrislakeproject.com/norrisfreeway/"
+        },
+        {
+          "fact": "Rocky Top was once known as Coal Creek.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/81522"
+        }
+      ],
+      "review": "No feature in the TDEC GIS layer; no agency line found."
+    },
+    {
+      "name": "Cumberland National Scenic Byway",
+      "designation": "National Scenic Byway (Tennessee Scenic Byway)",
+      "where": "TN 63 (Powell Valley), I-75, TN 63, US 27, TN 52, US 127, TN 111 and TN 52 from US 25E near Cumberland Gap to Celina; eight counties",
+      "facts": [
+        {
+          "fact": "The east end starts where Powell Valley Road (TN 63) meets US 25E south of Cumberland Gap and runs 32 miles through Powell Valley farmland below the Cumberland Plateau escarpment.",
+          "source": "https://cumberlandnationalscenicbyway.com/travel-route/"
+        },
+        {
+          "fact": "Farther west the route passes Historic Rugby, the Alvin York farm and gristmill, and Cordell Hull's birthplace.",
+          "source": "https://cumberlandnationalscenicbyway.com/travel-route/"
+        },
+        {
+          "fact": "It ends at Celina, where the Obey River meets the Cumberland, a former steamboat town and gateway to Dale Hollow Lake.",
+          "source": "https://cumberlandnationalscenicbyway.com/historic-sites/"
+        }
+      ],
+      "review": "FHWA and the GIS layer call it 'Cumberland Historic Byway' (FHWA: 156 mi). TDOT's tnscenicbyways.com wrongly gives its start as Cumberland Gap only and no route text in its directions PDF."
+    },
+    {
+      "name": "East Tennessee Crossing",
+      "designation": "National Scenic Byway (Tennessee Scenic Byway)",
+      "where": "US 25E from the Kentucky line at Cumberland Gap through Bean Station and Morristown to Newport, then US 25/70 to the North Carolina line",
+      "facts": [
+        {
+          "fact": "The route runs on US 25E from the Kentucky line through Cumberland Gap and White Pine to Newport, then US 25 through Del Rio to the North Carolina border.",
+          "source": "https://tnscenicbyways.com/directions/east-tn-crossing_driving-directions.pdf"
+        },
+        {
+          "fact": "It climbs Clinch Mountain with views across the Great Valley and passes Bean Station, a busy Wilderness Road trading post.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/76017"
+        },
+        {
+          "fact": "Crockett's Tavern Museum in Morristown, Davy Crockett's boyhood home, is on the byway.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/76017"
+        }
+      ],
+      "review": "Not in the TDEC GIS layer; drawn from the catalog line."
+    },
+    {
+      "name": "Newfound Gap Road",
+      "designation": "All-American Road (Tennessee Scenic Byway)",
+      "where": "US 441 inside Great Smoky Mountains National Park, from the park boundary at Gatlinburg over Newfound Gap to Cherokee, NC",
+      "facts": [
+        {
+          "fact": "Newfound Gap Road is a 31-mile road connecting Gatlinburg with Cherokee, NC, entirely inside the national park.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/81515"
+        },
+        {
+          "fact": "At Newfound Gap, on the state line, are overlooks and the Rockefeller Memorial; the road's bridges, tunnels and walls date from the 1930s and early 1940s.",
+          "source": "https://www.tn.gov/content/dam/tn/tdot/environmental/highway-beautification/scenic_byways/Tennessee%20Byways%20Flipbook.pdf"
+        },
+        {
+          "fact": "The gap area has spruce-fir forest and the Appalachian Trail, and Kuwohi Road (formerly Clingmans Dome Road) leads to a lookout tower at the top.",
+          "source": "https://www.nps.gov/grsm/planyourvisit/kuwohi-nfg.htm"
+        }
+      ],
+      "review": "FHWA name 'Newfound Gap Road Byway'. TDOT's site links https://www.nps.gov/grsm/planyourvisit/nfg.htm, which is dead (404); the NPS Kuwohi & Newfound Gap page is used instead. The GIS layer covers only the Tennessee half (SR 71 in Sevier County)."
+    },
+    {
+      "name": "Cherohala Skyway",
+      "designation": "National Scenic Byway (Tennessee Scenic Byway)",
+      "where": "TN 165 from Tellico Plains to the North Carolina line, continuing as NC 143 to Robbinsville",
+      "facts": [
+        {
+          "fact": "Elevations run from about 900 feet at the Tellico River in Tennessee to over 5,400 feet near the state line at Haw Knob.",
+          "source": "https://www.visitmonroetn.com/cherohala-skyway"
+        },
+        {
+          "fact": "The name combines the Cherokee and Nantahala national forests; the road was dedicated in 1996.",
+          "source": "https://www.visitmonroetn.com/cherohala-skyway"
+        },
+        {
+          "fact": "A wagon train of 67 covered wagons set out in 1958 to campaign for the road.",
+          "source": "https://www.visitmonroetn.com/cherohala-skyway"
+        }
+      ],
+      "review": "Also a National Forest Scenic Byway."
+    },
+    {
+      "name": "Ocoee Scenic Byway",
+      "designation": "National Forest Scenic Byway (Tennessee Scenic Byway)",
+      "where": "US 64 through the Ocoee River Gorge in the Cherokee National Forest, Polk County, plus Forest Road 77 (Chilhowee Scenic Spur)",
+      "facts": [
+        {
+          "fact": "The first national forest scenic byway in the nation, it includes 26 miles of US 64 and Forest Road 77.",
+          "source": "https://www.fs.usda.gov/r08/cherokee/recreation/ocoee-scenic-byway"
+        },
+        {
+          "fact": "It passes Parksville Lake, the rocky bluffs of the Ocoee River Gorge and the Ocoee Whitewater Center; the 7-mile Chilhowee Scenic Spur climbs to overlooks.",
+          "source": "https://www.fs.usda.gov/r08/cherokee/recreation/ocoee-scenic-byway"
+        },
+        {
+          "fact": "The area hosted kayak and rafting events of the 1996 Olympic Games.",
+          "source": "https://www.tn.gov/content/dam/tn/tdot/environmental/highway-beautification/scenic_byways/Tennessee%20Byways%20Flipbook.pdf"
+        }
+      ],
+      "review": "TDOT's 2022 memo calls it a National Scenic Byway, but FHWA does not list it; its national status is National Forest Scenic Byway (1988). TDOT's link to the old recarea page redirects to the Cherokee NF recreation index."
+    },
+    {
+      "name": "Tennessee River Trail Scenic Byway",
+      "designation": "Tennessee Scenic Byway (state)",
+      "where": "Loop of 22 segments on both banks of the Tennessee River: TN 13, 49, 76, 79, 69A, 69, 202, 203, US 64 and local roads through Waverly, Dover, Paris, Camden, Parsons, Savannah and Waynesboro; nine counties",
+      "facts": [
+        {
+          "fact": "At 440 miles it is the state's longest scenic byway, on two-lane roads along both banks of the Tennessee River.",
+          "source": "https://tnscenicbyways.com/"
+        },
+        {
+          "fact": "Attractions include the Civil War battlefields at Fort Donelson and Shiloh and the TVA story at Johnsonville State Historic Site.",
+          "source": "https://tnscenicbyways.com/"
+        },
+        {
+          "fact": "Savannah has a historic residential district on the river.",
+          "source": "https://www.tn.gov/content/dam/tn/tdot/environmental/highway-beautification/scenic_byways/Tennessee%20Byways%20Flipbook.pdf"
+        }
+      ],
+      "review": "GIS name 'River Trails Scenic Byway'. The tnvacation page is the Department of Tourist Development's Tennessee River Trail (a Discover Tennessee Trails route), which TDOT links as the byway's site."
+    },
+    {
+      "name": "Great Smoky Mountains Byway",
+      "designation": "Tennessee Scenic Byway (state)",
+      "where": "US 321 (with US 441) from I-75 at Lenoir City through Maryville, Pigeon Forge, Gatlinburg, Newport, Greeneville and Johnson City to Elizabethton; Loudon, Blount, Sevier, Cocke, Greene, Washington and Carter counties",
+      "facts": [
+        {
+          "fact": "The byway starts at I-75 and US 321 at Lenoir City and follows US 321 and US 441 through Maryville, Sevierville and Gatlinburg, then US 321 through Newport, Greeneville and Johnson City to Elizabethton.",
+          "source": "https://tnscenicbyways.com/directions/great-smoky_driving-directions.pdf"
+        },
+        {
+          "fact": "It is about 200 miles long along the foothills of the Smokies, through seven counties, and the region is home to the National Storytelling Festival.",
+          "source": "https://greatsmokymountainsbyway.com/"
+        },
+        {
+          "fact": "The route ends near the North Carolina border at Watauga Lake.",
+          "source": "https://www.tn.gov/content/dam/tn/tdot/environmental/highway-beautification/scenic_byways/Tennessee%20Byways%20Flipbook.pdf"
+        }
+      ],
+      "review": "The GIS layer includes Johnson County (SR 67, SR 159) and Carter County segments beyond Elizabethton, toward Watauga Lake and Roan Mountain; TDOT's directions end at Elizabethton. tnscenicbyways.com's summary card for this road is copy-pasted (says 83 miles, starts Cumberland Gap)."
+    },
+    {
+      "name": "Walton Road Scenic Byway",
+      "designation": "Tennessee Scenic Byway (state)",
+      "where": "US 70N and US 70 from Carthage through Cookeville, Monterey, Crossville, Crab Orchard, Ozone and Rockwood to Kingston; Smith, Putnam, Cumberland and Roane counties",
+      "facts": [
+        {
+          "fact": "Completed in 1801 as the Cumberland Turnpike, the road was named for its builder, Captain William Walton of Carthage, and US 70 closely follows it.",
+          "source": "https://waltonroad.com/historical-significance/"
+        },
+        {
+          "fact": "The old road passed the waterfalls at Ozone and crossed Walden's Ridge to present-day Rockwood.",
+          "source": "https://waltonroad.com/historical-significance/"
+        },
+        {
+          "fact": "Fort Southwest Point in Kingston, the eastern end, is the only federal-era fort in Tennessee reconstructed on its original foundation.",
+          "source": "https://tnscenicbyways.com/"
+        }
+      ],
+      "review": "tnscenicbyways.com says it starts at Cookeville (118 miles); TDOT's directions and the GIS layer start at Carthage in Smith County."
+    }
+  ],
+  "issues": [
+    "TDOT says 10 of its 13 byways are nationally designated, and its 2022 memo lists Ocoee as a National Scenic Byway, but FHWA lists only 9 in Tennessee; Ocoee is a National Forest Scenic Byway (1988), not an America's Byway. The 10th national count presumably includes Ocoee.",
+    "Seven of the 13 byways have no catalog entry: four national ones, Sequatchie Valley, Norris Freeway, Cumberland (FHWA 'Cumberland Historic Byway') and Newfound Gap Road (All-American Road), plus the state-only ones (Tennessee River Trail, Great Smoky Mountains Byway, Walton Road). All but Norris Freeway have a line in the TDEC layer; Norris Freeway (US 441, Rocky Top to Halls) has no agency line.",
+    "tnscenicbyways.com has copy-paste errors: the Newfound Gap card repeats the East Tennessee Crossing text, the Great Smoky Mountains card says '83 miles; Starts: Cumberland Gap', the Woodlands Trace directions PDF contains the Sequatchie Valley text, the Great River Road directions PDF contains Natchez Trace directions, and the Cumberland directions PDF has no route text.",
+    "Sequatchie Valley directions say the byway begins at TN 28 and 'I-40 (mile marker 155)' at Jasper; the interstate at Jasper is I-24 (exit 155). Lengths disagree: TDOT/FHWA 65 mi, byway site 70 mi.",
+    "Dead links on tnscenicbyways.com: the Resources PDFs under /content/dam/tn/tdot/environmental/... return 404 (the files moved to .../environmental/highway-beautification/...); the Newfound Gap link https://www.nps.gov/grsm/planyourvisit/nfg.htm is 404; the Ocoee USFS recarea link and the tnvacation Tennessee River Trail link redirect to generic index pages.",
+    "Clingmans Dome is now officially Kuwohi (NPS uses 'Kuwohi, formerly Clingmans Dome'); FHWA and TDOT texts still use the old name.",
+    "Tennessee also has a Scenic Highway system (TCA 54-17-114, legislated route by route) and a Tennessee Parkway system (TCA 54-17-203 plus later Commissioner designations) shown on the official transportation map; neither list was compiled here. A human may want to decide whether they belong in the chapter.",
+    "Great Smoky Mountains Byway: the GIS layer extends into Johnson County and along SR 67/SR 159 toward Watauga Lake, beyond the Elizabethton end in TDOT's directions; the flipbook says it ends at Watauga Lake. The true extent is unclear."
+  ]
+}

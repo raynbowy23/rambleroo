@@ -1,0 +1,299 @@
+{
+  "note": "Facts and sources behind the member descriptions in IA.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Great River Road National Scenic Byway",
+      "designation": "All-American Road and National Scenic Byway",
+      "where": "Mississippi River from Keokuk to New Albin, 10 counties",
+      "facts": [
+        {
+          "fact": "The Iowa Great River Road runs 355 miles through 10 counties from Keokuk to New Albin and is marked with green and white pilot wheel signs.",
+          "source": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "The Iowa DOT lists the Iowa Great River Road as an All-American Road as well as a National Scenic Byway.",
+          "source": "https://iowadot.gov/modes-travel/roads-highways/iowas-byways/program-information"
+        },
+        {
+          "fact": "Some of the 11 lock and dam sites on the Iowa river offer tours, and barges carrying corn, coal and equipment can be seen there.",
+          "source": "https://iowadot.gov/media/916/download?inline"
+        },
+        {
+          "fact": "Effigy Mounds National Monument near Harpers Ferry preserves animal-shaped mounds built by prehistoric Native Americans.",
+          "source": "https://www.traveliowa.com/trails/driftless-area-scenic-byway/3/"
+        }
+      ],
+      "review": "Travel Iowa gives 328 miles; the 2026 DOT guide and GIS layer give 355. The Iowa Mississippi River Parkway Commission's own site (iowagreatriverroad.com) did not respond."
+    },
+    {
+      "name": "Lincoln Highway Heritage Byway",
+      "designation": "National Scenic Byway (Iowa Heritage Byway)",
+      "where": "Original Lincoln Highway alignments across Iowa, Council Bluffs to Clinton, by way of Denison, Boone, Ames, Marshalltown and Cedar Rapids",
+      "facts": [
+        {
+          "fact": "The Lincoln Highway was established in 1913 as America's first transcontinental improved highway, from Times Square to San Francisco, and the Iowa byway covers 503 miles.",
+          "source": "https://iowadot.gov/media/916/download?inline"
+        },
+        {
+          "fact": "The byway passes many small towns bypassed when U.S. 30 was realigned; major cities include Council Bluffs, Carroll, Boone, Ames, Marshalltown, Cedar Rapids and Clinton.",
+          "source": "https://iowadot.gov/media/916/download?inline"
+        },
+        {
+          "fact": "Landmarks include Preston's Gas Station in Belle Plaine, the Lincoln Highway Bridge in Tama and the Reed-Niland Corner at Colo.",
+          "source": "https://iowadot.gov/media/916/download?inline"
+        }
+      ],
+      "review": "Not in the catalog for Iowa (catalog lincoln-highway-13750 is Illinois only). Draw from the DOT layer; note the BYWAY value includes the suffix ',a National Scenic Byway'. Length is 503 miles in the guide, 460 on Travel Iowa, 511 in the GIS layer."
+    },
+    {
+      "name": "Loess Hills National Scenic Byway",
+      "designation": "National Scenic Byway",
+      "where": "Western Iowa, Missouri line south of Hamburg north to Akron; Fremont, Mills, Pottawattamie, Harrison, Monona, Woodbury and Plymouth counties; plus excursion loops",
+      "facts": [
+        {
+          "fact": "The byway has a 220-mile paved main route and 185 miles of optional excursion loops, some on gravel, running from the Missouri border to Akron.",
+          "source": "https://www.traveliowa.com/trails/loess-hills-national-scenic-byway/10/"
+        },
+        {
+          "fact": "The Loess Hills formed from very fine windblown soil deposited at the end of the last ice age.",
+          "source": "https://www.traveliowa.com/trails/loess-hills-national-scenic-byway/10/"
+        },
+        {
+          "fact": "Broken Kettle Grasslands Preserve near Sioux City is the state's largest remnant prairie.",
+          "source": "https://www.traveliowa.com/trails/loess-hills-national-scenic-byway/10/"
+        },
+        {
+          "fact": "The route starts at the Missouri state border south of Hamburg.",
+          "source": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ],
+      "review": "GIS layer line (437 mi) includes the excursion loops; catalog maps 224 mi, likely the main route only."
+    },
+    {
+      "name": "Covered Bridges Scenic Byway",
+      "designation": "Iowa Scenic Byway",
+      "where": "Madison County, spokes out from Winterset to the covered bridges; through St. Charles and Bevington",
+      "facts": [
+        {
+          "fact": "The byway is 82 miles long, shaped like wheel spokes reaching out to red covered bridges, and passes the John Wayne birthplace.",
+          "source": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "A limestone courthouse stands at the center of the Winterset town square, a National Historic District.",
+          "source": "https://www.traveliowa.com/trails/covered-bridges-scenic-byway/98/"
+        },
+        {
+          "fact": "Holliwell Bridge near Winterset and Imes Bridge at St. Charles are listed attractions.",
+          "source": "https://iowadot.gov/media/916/download?inline"
+        }
+      ]
+    },
+    {
+      "name": "Delaware Crossing Scenic Byway",
+      "designation": "Iowa Scenic Byway",
+      "where": "36-mile loop in southern Delaware County through Manchester, Delhi, Hopkinton and Delaware",
+      "facts": [
+        {
+          "fact": "The byway is a 36-mile loop through the Maquoketa River valley of Delaware County with views of farmland and limestone bluffs.",
+          "source": "https://www.traveliowa.com/trails/delaware-crossing-scenic-byway/2/"
+        },
+        {
+          "fact": "The Manchester fish hatchery was built in 1897 as a federal hatchery and supplies trout for northeast Iowa streams.",
+          "source": "https://www.traveliowa.com/trails/delaware-crossing-scenic-byway/2/"
+        },
+        {
+          "fact": "The old Lenox College campus in Hopkinton is now a museum complex with a building on Civil War volunteers.",
+          "source": "https://www.traveliowa.com/trails/delaware-crossing-scenic-byway/2/"
+        }
+      ]
+    },
+    {
+      "name": "Driftless Area Scenic Byway",
+      "designation": "Iowa Scenic Byway",
+      "where": "Allamakee and Winneshiek counties: Postville, Harpers Ferry, Waukon, Lansing, New Albin, Decorah",
+      "facts": [
+        {
+          "fact": "The 144-mile byway zigzags across Allamakee and Winneshiek counties in a corner of Iowa the last glaciers left untouched.",
+          "source": "https://www.traveliowa.com/trails/driftless-area-scenic-byway/3/"
+        },
+        {
+          "fact": "Effigy Mounds National Monument near Harpers Ferry has animal-shaped mounds; the Vesterheim National Norwegian-American Museum is in Decorah.",
+          "source": "https://www.traveliowa.com/trails/driftless-area-scenic-byway/3/"
+        },
+        {
+          "fact": "Along the route are historic stone churches, pioneer cemeteries and cold-water trout streams.",
+          "source": "https://www.traveliowa.com/trails/driftless-area-scenic-byway/3/"
+        }
+      ],
+      "review": "Catalog maps 93 mi; the current route is 144 mi (Travel Iowa, DOT guide) and 150 mi in the GIS layer, now extending into Winneshiek County and Decorah. The GIS narrative still describes an Allamakee-only route. Catalog line is probably the older, shorter route."
+    },
+    {
+      "name": "Glacial Trail Scenic Byway",
+      "designation": "Iowa Scenic Byway",
+      "where": "36-mile loop in O'Brien, Clay, Buena Vista and Cherokee counties around Peterson and Linn Grove",
+      "facts": [
+        {
+          "fact": "The byway is a 36-mile loop through corners of O'Brien, Clay, Buena Vista and Cherokee counties and the towns of Peterson and Linn Grove.",
+          "source": "https://www.goldenhillsrcd.org/gtsb.html"
+        },
+        {
+          "fact": "Glacial meltwater carved the middle Little Sioux River valley, now flanked by steep unplowed prairie hills.",
+          "source": "https://www.goldenhillsrcd.org/gtsb.html"
+        },
+        {
+          "fact": "The Prairie Heritage Center near Peterson explains glacial remnants such as kames and kettles.",
+          "source": "https://www.traveliowa.com/trails/glacial-trail-scenic-byway/4/"
+        }
+      ],
+      "review": "Catalog name 'Old O'Brien Glacial Trail Scenic Byway' is an older name; the state now calls it Glacial Trail Scenic Byway."
+    },
+    {
+      "name": "Grant Wood Scenic Byway",
+      "designation": "Iowa Scenic Byway",
+      "where": "Stone City east through Anamosa, Wyoming and Maquoketa to Bellevue on the Mississippi; Jones and Jackson counties",
+      "facts": [
+        {
+          "fact": "The byway stretches 80 miles from Stone City to the Mississippi River, among limestone bluffs and the Wapsipinicon, Maquoketa and Mississippi rivers.",
+          "source": "https://www.traveliowa.com/trails/grant-wood-scenic-byway/5/"
+        },
+        {
+          "fact": "Grant Wood co-founded the Stone City Art Colony, and the route passes a castle-like late 19th-century penitentiary that still houses inmates.",
+          "source": "https://www.traveliowa.com/trails/grant-wood-scenic-byway/5/"
+        },
+        {
+          "fact": "Communities include Anamosa, Wyoming, Maquoketa and Bellevue.",
+          "source": "https://www.traveliowa.com/trails/grant-wood-scenic-byway/5/"
+        }
+      ],
+      "review": "Counties in 'where' (Jones, Jackson) inferred from the listed towns, not stated on the page."
+    },
+    {
+      "name": "Historic Hills Scenic Byway",
+      "designation": "Iowa Scenic Byway",
+      "where": "Southeast Iowa in Wapello, Appanoose, Davis, Van Buren and Lee counties; Moravia and Drakesville to Bloomfield, Keosauqua, Bentonsport, Farmington and Donnellson",
+      "facts": [
+        {
+          "fact": "The 105-mile route winds through rolling hills and forests; horses and buggies share the road and over 100 Amish and Mennonite businesses are in the Drakesville and Bloomfield areas.",
+          "source": "https://www.traveliowa.com/trails/historic-hills-scenic-byway/7/"
+        },
+        {
+          "fact": "Travelers can visit Iowa's oldest courthouse and the site of Iowa's only Civil War battle.",
+          "source": "https://www.traveliowa.com/trails/historic-hills-scenic-byway/7/"
+        },
+        {
+          "fact": "The byway runs through Wapello, Appanoose, Davis, Van Buren and Lee counties.",
+          "source": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ],
+      "review": "Length given as 105 mi in text, 110 mi in Travel Iowa info box and GIS; catalog maps 84 mi, so the catalog line may be missing segments."
+    },
+    {
+      "name": "Iowa Valley Scenic Byway",
+      "designation": "Iowa Scenic Byway",
+      "where": "Iowa River valley in Tama, Benton and Iowa counties, from Tama and the Meskwaki Settlement east to the Amana Colonies",
+      "facts": [
+        {
+          "fact": "The 77-mile byway's western end skirts the Meskwaki Settlement, home of the Sac & Fox Tribe of the Mississippi in Iowa, and its eastern end reaches the Amana Colonies, settled in 1855.",
+          "source": "https://www.traveliowa.com/trails/iowa-valley-scenic-byway/8/"
+        },
+        {
+          "fact": "The Czech Trail towns of Clutier, Vining, Elberon and Chelsea lie in an area locals call the Bohemian Alps.",
+          "source": "https://www.traveliowa.com/trails/iowa-valley-scenic-byway/8/"
+        },
+        {
+          "fact": "American lotus blooms by the thousands on Lily Lake at Amana in July.",
+          "source": "https://www.traveliowa.com/trails/iowa-valley-scenic-byway/8/"
+        }
+      ]
+    },
+    {
+      "name": "Jefferson Highway Heritage Byway",
+      "designation": "Iowa Heritage Byway",
+      "where": "Northwood (Minnesota line) to Lamoni, roughly along U.S. 65 and 69, through Mason City, Iowa Falls, Colo, Ankeny, Indianola and Osceola",
+      "facts": [
+        {
+          "fact": "The byway runs between Northwood and Lamoni roughly along U.S. Highways 65 and 69.",
+          "source": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "The Jefferson Highway Association, conceived by E.T. Meredith of Des Moines, first met in 1915 to promote a motor route from Winnipeg to New Orleans.",
+          "source": "https://www.traveliowa.com/trails/jefferson-highway-heritage-byway/99/"
+        },
+        {
+          "fact": "A restored gas, food and lodging stop at Reed-Niland Corner in Colo marks where the Jefferson and Lincoln highways cross.",
+          "source": "https://www.traveliowa.com/trails/jefferson-highway-heritage-byway/99/"
+        }
+      ],
+      "review": "Length 220 mi on Travel Iowa, 291 mi in GIS layer. Newer designation; GIS travel-guide fields say 'Coming Soon'."
+    },
+    {
+      "name": "River Bluffs Scenic Byway",
+      "designation": "Iowa Scenic Byway",
+      "where": "Fayette and Clayton counties: West Union, Fayette, Clermont, Elkader, Volga, McGregor, Marquette and a branch to Guttenberg",
+      "facts": [
+        {
+          "fact": "The 109-mile byway follows the Turkey, Volga and Mississippi rivers through country called Iowa's Little Switzerland, ending with a three-state view from Pikes Peak State Park near McGregor.",
+          "source": "https://www.traveliowa.com/trails/river-bluffs-scenic-byway/11/"
+        },
+        {
+          "fact": "Historic stops include Motor Mill and Montauk, home of Governor William Larrabee.",
+          "source": "https://www.traveliowa.com/trails/river-bluffs-scenic-byway/11/"
+        },
+        {
+          "fact": "A 20-mile branch in Clayton County runs from south of Elkader through Elkport and Garber to Guttenberg.",
+          "source": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ],
+      "review": "Length 109 mi on Travel Iowa and in the guide text, 119 mi in another guide passage and GIS."
+    },
+    {
+      "name": "Western Skies Scenic Byway",
+      "designation": "Iowa Scenic Byway",
+      "where": "Missouri Valley (I-29 exit 75) on U.S. 30 and Iowa 44 through Harlan, Kimballton, Guthrie Center and Panora, south on P28 to Stuart (I-80 exit 93); Harrison, Shelby, Audubon and Guthrie counties",
+      "facts": [
+        {
+          "fact": "The 142-mile byway runs from near Missouri Valley on U.S. 30 and Highway 44 through Harlan, Kimballton, Elk Horn, Guthrie Center and Panora, ending at Stuart; it was dedicated in 1998.",
+          "source": "https://www.goldenhillsrcd.org/wssb.html"
+        },
+        {
+          "fact": "Elk Horn has the only working Danish windmill in America, in the largest rural Danish settlement in the country.",
+          "source": "https://www.traveliowa.com/trails/western-skies-scenic-byway/12/"
+        },
+        {
+          "fact": "Westphalia and Panama have German churches built by their founders.",
+          "source": "https://www.traveliowa.com/trails/western-skies-scenic-byway/12/"
+        }
+      ]
+    },
+    {
+      "name": "White Pole Road Scenic Byway",
+      "designation": "Iowa Scenic Byway",
+      "where": "Old U.S. 6 just north of I-80 from Adair through Casey, Menlo and Stuart to Dexter",
+      "facts": [
+        {
+          "fact": "The roughly 26-mile route follows old U.S. Highway 6 between Adair and Dexter, north of Interstate 80, and is lined with 700 white-painted telephone poles.",
+          "source": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "A steam engine wheel at the western gateway marks where the Jesse James Gang robbed a moving train, and a Barrow Gang shootout site lies at the east end.",
+          "source": "https://iowadot.gov/media/916/download?inline"
+        },
+        {
+          "fact": "The road was Iowa's first certified route under the Iowa State Highway Commission.",
+          "source": "https://www.traveliowa.com/trails/white-pole-road/18/"
+        }
+      ],
+      "review": "Byway organization site: https://www.whitepoleroad.com/ (fetched, works)."
+    }
+  ],
+  "issues": [
+    "Registry gisValue for Lincoln Highway was truncated; exact BYWAY value is 'Lincoln HWY Heritage Byway,a National Scenic Byway'.",
+    "Driftless Area: catalog line is 93 mi but the current byway is 144 mi (Travel Iowa, 2026 DOT guide) / 150 mi (GIS), now reaching Winneshiek County and Decorah. Catalog line likely outdated; consider drawing from the DOT layer (BYWAY = 'Driftless Area Scenic Byway').",
+    "Historic Hills: catalog maps 84 mi versus 105 to 110 mi officially; may be missing segments.",
+    "Catalog name 'Old O'Brien Glacial Trail Scenic Byway' is outdated; state name is Glacial Trail Scenic Byway.",
+    "Lengths disagree across sources for several byways (Great River Road 328 vs 355; Lincoln 460 vs 503 vs 511; Jefferson 220 vs 291; River Bluffs 109 vs 119). Blurbs use the figures stated on the cited page.",
+    "The old iowabyways.org byway URLs in the GIS IOWA_BYWAYS field now redirect to a Travel Iowa page with 404 status; old iowadot.gov/iowasbyways travel guide PDF links in the GIS layer are dead (current guide is iowadot.gov/media/916/download?inline).",
+    "iowagreatriverroad.com (Iowa Mississippi River Parkway Commission) did not respond when fetched; Travel Iowa page used instead.",
+    "Iowa DOT program page lists the Iowa Great River Road as an All-American Road; the catalog only has National Scenic Byway for great-river-road-2279 (may be fine if multi-state entry)."
+  ]
+}

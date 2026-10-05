@@ -1,0 +1,78 @@
+{
+  "bywayId": "route-151-middle-haddam-990930",
+  "reviewed": false,
+  "generated": true,
+  "title": "Route 151, Middle Haddam",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Dart Island State Park",
+      "wikipedia": "Dart Island State Park",
+      "kind": "landmark",
+      "weight": 11338
+    },
+    {
+      "name": "Middle Haddam",
+      "wikipedia": "",
+      "osm": "node/158808879",
+      "at": [
+        -72.5502272,
+        41.554035
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Cobalt",
+      "wikipedia": "",
+      "osm": "node/158813975",
+      "at": [
+        -72.5559853,
+        41.5625153
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Cobalt Landing",
+      "wikipedia": "",
+      "osm": "node/158853872",
+      "at": [
+        -72.561946,
+        41.5563796
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Maromas",
+      "wikipedia": "",
+      "osm": "node/158855860",
+      "at": [
+        -72.5606456,
+        41.5434322
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Hog Hill",
+      "wikipedia": "",
+      "osm": "node/359264388",
+      "at": [
+        -72.5348114,
+        41.5392657
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Gate Hill",
+      "wikipedia": "",
+      "osm": "node/359277457",
+      "at": [
+        -72.5445337,
+        41.5684324
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

@@ -1,0 +1,491 @@
+{
+  "code": "VA",
+  "name": "Virginia",
+  "tagline": "Cumberland Gap to the Eastern Shore, by horse country, river necks and coal camps.",
+  "intro": "Virginia's byways climb the Blue Ridge and the Alleghenies, run the Shenandoah Valley's back roads and the coalfield hollows of the southwest, and wander the Piedmont horse country, the Northern Neck and the Eastern Shore. This chapter follows the Virginia Byways program created by the 1966 State Scenic Highway and Virginia Byway Act, under which the Commonwealth Transportation Board designates roads on the recommendation of VDOT and the Department of Conservation and Recreation once local governments ask, though the General Assembly has named a few directly. Most Virginia Byways are unnamed route segments rather than named trails, so this chapter groups them by the county or corridor in which they were designated, while the three national forest byways are listed separately.",
+  "programs": [
+    {
+      "label": "Virginia Byways",
+      "issuer": "Commonwealth Transportation Board",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Blue Ridge Parkway",
+          "bywayId": "blue-ridge-parkway-2280",
+          "url": "https://www.nps.gov/blri/index.htm",
+          "blurb": "The Virginia half of the parkway runs 217 miles from Rockfish Gap past the old farm buildings at Humpback Rock, canal locks on the James, the Peaks of Otter and the gristmill at Mabry Mill."
+        },
+        {
+          "name": "Skyline Drive",
+          "bywayId": "skyline-drive-60646",
+          "url": "https://www.nps.gov/shen/planyourvisit/driving-skyline-drive.htm",
+          "blurb": "A 105-mile park road along the crest of the Blue Ridge through Shenandoah National Park, with 75 overlooks that look west over the Shenandoah Valley and east across the Piedmont."
+        },
+        {
+          "name": "The Journey Through Hallowed Ground",
+          "bywayId": "journey-through-hallowed-ground-byway-2343",
+          "url": "https://www.hallowedground.org/preservation-conservation/national-scenic-byway/",
+          "blurb": "US 15 follows the old Carolina Road south from the Potomac through Leesburg, Warrenton, Culpeper and Orange, then side roads carry on past Monticello toward the James at Scottsville."
+        },
+        {
+          "name": "Colonial Parkway",
+          "bywayId": "colonial-parkway-60441",
+          "url": "https://www.nps.gov/colo/index.htm",
+          "blurb": "Twenty-three miles of shaded parkway between the James at Jamestown and the York at Yorktown, under brick-faced bridges and through a tunnel beneath Colonial Williamsburg, with pull-offs looking out over both rivers."
+        },
+        {
+          "name": "George Washington Memorial Parkway",
+          "bywayId": "george-washington-memorial-parkway-60807",
+          "url": "https://www.nps.gov/gwmp/index.htm",
+          "blurb": "The parkway keeps to the Virginia bank of the Potomac from Mount Vernon past Dyke Marsh, Fort Hunt and Alexandria to McLean, laid partly on an old railway right-of-way, with the Mount Vernon Trail running alongside."
+        },
+        {
+          "name": "Virginia Coal Heritage Trail",
+          "bywayId": "coal-heritage-trail-va-10341",
+          "url": "https://www.virginiacoaltrail.net/",
+          "blurb": "Starting at the exhibition mine in Pocahontas, the trail winds 325 miles through seven coalfield counties, past mining camps, coal towns and miners' monuments on back roads with the occasional hairpin turn.",
+          "note": "Shown on the map as Coal Heritage Trail - VA."
+        },
+        {
+          "name": "Daniel Boone Heritage Trail",
+          "bywayId": "trail-of-the-lonesome-pine-daniel-boone-heritage-trail-10300",
+          "blurb": "US 23 and US 58 run west from Weber City through Gate City and Jonesville, past farm hamlets under Poor Valley Ridge, and finish as Wilderness Road at the state line by Cumberland Gap."
+        },
+        {
+          "name": "Lee's Retreat",
+          "bywayId": "lee-s-retreat-10299",
+          "url": "https://www.nps.gov/apco/learn/historyculture/following-the-appomattox-campaign.htm",
+          "blurb": "Country roads trace the last week of Lee's army in April 1865, from Five Forks past Sailor's Creek and the long trestle of High Bridge to Appomattox, with a roadside radio station telling the story."
+        },
+        {
+          "name": "Georgetown Pike",
+          "bywayId": "old-georgetown-pike-10304",
+          "blurb": "Virginia's first byway, a turnpike built on stone between 1813 and 1827, bends sharply through Great Falls and down into the valley of Difficult Run, passing near enough the Potomac to hear the falls."
+        },
+        {
+          "name": "Trail of the Lonesome Pine",
+          "bywayId": "trail-of-the-lonesome-pine-995101",
+          "blurb": "A web of mountain highways from Bluefield to the Kentucky line, following the Clinch River and its rail line past Pounding Mill, then out to Big Stone Gap, where the John Fox Jr. and June Tolliver houses stand.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Fairfax County byways",
+          "bywayId": "fairfax-county-byways-995102",
+          "blurb": "Country roads around the old railroad town of Clifton, kept open by five-acre zoning near Bull Run and the Occoquan, along with Hunter Mill Road and the old line of Route 7 past the water-powered mill at Colvin Run.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Prince William County byways",
+          "bywayId": "prince-william-county-byways-995103",
+          "blurb": "Six country roads on Prince William's rural edge, from Waterfall Road by Chapman's Mill to the old courthouse village of Brentsville and the edge of Prince William Forest Park, meeting the Fauquier byways at the county line.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Loudoun County byways",
+          "bywayId": "loudoun-county-byways-995104",
+          "blurb": "Western Loudoun's old roads, Snickersville Turnpike over Hibbs Bridge, the lanes into the Quaker mill village of Waterford, and Charles Town Pike dropping from Keyes Gap through the valley called Between the Hills.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Fauquier County byways",
+          "bywayId": null,
+          "blurb": "Fauquier's long web of back roads takes in John Marshall Highway from Manassas Gap past his Oak Hill estate to Thoroughfare Gap, Winchester Road by Sky Meadows, Leeds Manor Road to Waterloo and lanes along the Rappahannock.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        },
+        {
+          "name": "Routes 245 and 626, Old Tavern to Middleburg, with Springs Road",
+          "bywayId": "routes-245-and-626-old-tavern-to-middleburg-with-springs-road-995105",
+          "blurb": "Old Tavern Road crosses farmland into The Plains, and Halfway Road, once part of US 15, carries on to Middleburg, while Springs Road angles up from Jeffersonton to Warrenton.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Clarke County byways",
+          "bywayId": "clarke-county-byways-995106",
+          "blurb": "A tangle of county roads around Millwood and White Post, past the stone Burwell-Morgan Mill and the post said to have been set by Washington, with one road along the Shenandoah and another on the Blue Ridge crest.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 55, Star Tannery to Front Royal",
+          "bywayId": "route-55-star-tannery-to-front-royal-995107",
+          "blurb": "John Marshall Highway comes off Great North Mountain at Star Tannery, runs through Strasburg, and crosses the North Fork under Signal Knob to reach Front Royal where the two forks of the Shenandoah meet.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Back Road, Middle Road and Star Tannery Road (Shenandoah and Frederick)",
+          "bywayId": "back-road-middle-road-and-star-tannery-road-shenandoah-and-frederick-995108",
+          "blurb": "The west side of the Shenandoah Valley by its old farm roads, Back Road and Middle Road running parallel to the Valley Pike, and Star Tannery Road crossing Fetzer Gap to the hamlet on Cedar Creek.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Shenandoah County byways",
+          "bywayId": "shenandoah-county-byways-995109",
+          "blurb": "The Old Valley Pike runs from New Market to Strasburg, while side roads climb Orkney Grade to the old springs hotel and cross Edinburg Gap toward Camp Roosevelt in the Fort Valley, a valley within the valley.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Page County byways",
+          "bywayId": "page-county-byways-995110",
+          "blurb": "The Page Valley between Massanutten and the Blue Ridge, crossed by US 211 from New Market Gap past the river landing and Luray Caverns to Thornton Gap, with back roads along the bends of the South Fork.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "US 340, Front Royal to Overall",
+          "bywayId": "us-340-front-royal-to-overall-995111",
+          "blurb": "From the foot of Skyline Drive at Front Royal, US 340 follows the South Fork of the Shenandoah past Bentonville and the state park on its bank to the deck truss bridge over Overall Run.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Rappahannock County byways (Flint Hill and Ben Venue)",
+          "bywayId": "rappahannock-county-byways-flint-hill-and-ben-venue-995112",
+          "blurb": "Fodderstack Road and its neighbors wind from Little Washington, a whole town on the historic register, through the village of Flint Hill toward the Rappahannock, and Ben Venue Road passes an 1840s brick farm.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "US 522, Culpeper to Chester Gap",
+          "bywayId": "us-522-culpeper-to-chester-gap-995113",
+          "blurb": "Sperryville Pike leaves Culpeper for the Blue Ridge foothills, slips between Butler and Bessie Bell mountains to old Sperryville, and as Zachary Taylor Highway passes Flint Hill and climbs to Chester Gap.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 231 (Blue Ridge Turnpike and F.T. Valley Road)",
+          "bywayId": "route-231-blue-ridge-turnpike-and-f-t-valley-road-995114",
+          "blurb": "From Gordonsville the road crosses the Southwest Mountains and the Rapidan to Madison, then runs up F.T. Valley through the Blue Ridge foothills past Etlan, with Old Rag Mountain standing close to the west.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 615 (Rapidan Road), Orange to Rapidan",
+          "bywayId": "route-615-rapidan-road-orange-to-rapidan-995115",
+          "blurb": "Rapidan Road runs out of Orange to the mill village of Rapidan, which sits on both banks of its river around an old ford and mill site, with the railroad running through.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 613, Green Springs",
+          "bywayId": "route-613-green-springs-995116",
+          "blurb": "Country roads north of Zion Crossroads through the Green Springs district, fourteen thousand acres of manor houses and working farms on unusually fertile ground, named for a spring Jefferson wrote about.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Albemarle County byways (Garth Road and Thomas Jefferson Parkway)",
+          "bywayId": "albemarle-county-byways-garth-road-and-thomas-jefferson-parkway-995117",
+          "blurb": "Garth Road runs west from Charlottesville through Owensville to the crossroads of White Hall, once a tavern stop, and Thomas Jefferson Parkway winds over Carters Mountain past Michie Tavern and the gate to Monticello.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 6 and US 250 west of Charlottesville",
+          "bywayId": "route-6-and-us-250-west-of-charlottesville-995118",
+          "blurb": "Route 6 leaves the James at Scottsville for the hill country of southern Albemarle, follows the Rockfish River and its valley, and climbs Afton Mountain, meeting US 250 on the old Three Notch'd Road below Rockfish Gap.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 6 (River Road), Scottsville to Henrico",
+          "bywayId": "route-6-river-road-scottsville-to-henrico-995119",
+          "blurb": "River Road keeps company with the James from Scottsville down through Fork Union, the old river town of Columbia and the Goochland courthouse toward Richmond's western edge.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Nelson County byways (Crabtree Falls Highway)",
+          "bywayId": "nelson-county-byways-crabtree-falls-highway-995120",
+          "blurb": "Crabtree Falls Highway drops from the Parkway through Montebello, past Crabtree Falls and the old mill at Tyro, then follows the Tye River down to Roseland, while Beech Grove Road climbs back up to Reeds Gap.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "US 11 and Route 56 (Tye River Turnpike), Augusta and Rockbridge",
+          "bywayId": "us-11-and-route-56-tye-river-turnpike-augusta-and-rockbridge-995121",
+          "blurb": "Two old valley roads, US 11 on the line of the Great Wagon Road south from Lexington to Natural Bridge, and the Tye River Turnpike climbing from McCormick's farm at Steeles Tavern past Vesuvius to the Parkway.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 39 and Rockbridge County byways (Goshen Pass)",
+          "bywayId": "route-39-and-rockbridge-county-byways-goshen-pass-995122",
+          "blurb": "Route 39 runs up the Maury River through Goshen Pass, where an anchor memorial to Matthew Fontaine Maury looks down on the river, then over the ridges to the Jefferson Pools at Warm Springs and the state line.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 130, Natural Bridge to Elon",
+          "bywayId": "route-130-natural-bridge-to-elon-995123",
+          "blurb": "From the hotel at Natural Bridge the road drops through Glasgow to the James and follows it beside the railroad through the river's gorge in the Blue Ridge, then crosses the Pedlar River toward Tobacco Row Mountain.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 629 to Douthat State Park",
+          "bywayId": "route-629-to-douthat-state-park-995124",
+          "blurb": "The road through Douthat State Park, one of six parks the Civilian Conservation Corps built in the 1930s around a small mountain lake, running from the interstate over to Route 39 near Bath Alum.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Routes 311, 42, 43 and 159 in the Alleghany Highlands",
+          "bywayId": "routes-311-42-43-and-159-in-the-alleghany-highlands-995125",
+          "blurb": "Route 311 crosses the Appalachian Trail on Catawba Mountain and follows Craig Creek to New Castle and Paint Bank, while Route 42 tumbles down past Meadow Creek Falls and Route 43 squeezes beside the James through Narrow Passage.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 785, Catawba Valley",
+          "bywayId": "route-785-catawba-valley-995126",
+          "blurb": "The main road of the Catawba Valley, a farming enclave just over the mountain from Roanoke, running from Lusters Gate along Catawba Creek to Route 311 as part of a cross-country bicycle route.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Whistle Stop Byway",
+          "bywayId": "whistle-stop-byway-995127",
+          "blurb": "Big Stony Creek Road follows an old Norfolk and Western branch line up from the New River near Pembroke, and after a dip through West Virginia, Waiteville Road comes back down to the red-clay banks of Paint Bank.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Routes 43 and 24, Altavista to the Peaks of Otter",
+          "bywayId": "routes-43-and-24-altavista-to-the-peaks-of-otter-995128",
+          "blurb": "Route 43 climbs from Altavista past Leesville Lake and through the town of Bedford to the Peaks of Otter, on a stretch whose street name is simply Virginia Byway.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Franklin County roads to the Parkway",
+          "bywayId": "franklin-county-roads-to-the-parkway-995129",
+          "blurb": "Back roads come down off the Blue Ridge at Adney Gap and Five Mile Mountain through Callaway and Ferrum toward Fairy Stone State Park, named for the little cross-shaped stones found nearby.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "US 58 (J.E.B. Stuart Highway), Meadows of Dan to Stuart",
+          "bywayId": "us-58-j-e-b-stuart-highway-meadows-of-dan-to-stuart-995130",
+          "blurb": "About a dozen miles of the J.E.B. Stuart Highway, winding down the Blue Ridge from the country shops of Meadows of Dan, near the Parkway crossing, to the edge of Stuart.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Routes 91, 58, 603 and 600 around Damascus and Whitetop",
+          "bywayId": "routes-91-58-603-and-600-around-damascus-and-whitetop-995131",
+          "blurb": "Route 91 comes down from Glade Spring across the forks of the Holston to Damascus, then US 58 and Route 603 climb past Konnarock to Troutdale, with Whitetop Road branching off by Elk Garden toward North Carolina.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Wythe County byways",
+          "bywayId": "wythe-county-byways-995132",
+          "blurb": "Country roads run south of Wytheville down to the New River at Austinville, birthplace of Stephen F. Austin, near the Jackson Ferry shot tower on the same river, and west through Speedwell to Rural Retreat.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "US 52 and Big Walker Mountain roads (Bland and Wythe)",
+          "bywayId": "us-52-and-big-walker-mountain-roads-bland-and-wythe-995133",
+          "blurb": "US 52, signed as the Scenic Highway, climbs over Big Walker Mountain past the hundred-foot lookout tower, the scenic way around the interstate tunnel between Bland and Stony Fork.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 16, Sugar Grove to Tazewell",
+          "bywayId": "route-16-sugar-grove-to-tazewell-995134",
+          "blurb": "Route 16 crosses the Appalachian Trail on its way to Marion and Hungry Mother Lake, then becomes the Back of the Dragon, twisting over three ridges and down a hairpin into Thompson Valley before Tazewell.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Burke's Garden roads",
+          "bywayId": "burke-s-garden-roads-995135",
+          "blurb": "Burkes Garden Road runs from Gratton into a high oval valley of farms ringed by Garden Mountain, some three thousand feet up, and the byway loops around it on the valley's own lanes.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 640, St. Paul to Wardell",
+          "bywayId": "route-640-st-paul-to-wardell-995136",
+          "blurb": "One county road with half a dozen names, River Road, Reeds Valley, Middle Valley and Long Hollow among them, running from the Clinch River town of St. Paul across Russell County toward Wardell.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Dickenson County, Routes 631 and 611",
+          "bywayId": "dickenson-county-routes-631-and-611-995137",
+          "blurb": "From the county seat of Clintwood, first called Holly Creek, Brush Creek Road and South of the Mountain Road wind through Isom, Blowing Rock and Bartlick to Route 80 near Haysi.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Halifax County byways",
+          "bywayId": "halifax-county-byways-995138",
+          "blurb": "The old US 360 runs from the state park where the Dan meets the Staunton, through Scottsburg and across the Banister River to the courthouse town of Halifax, while River Road wanders off toward Brooklyn.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 47, South Hill to Pamplin",
+          "bywayId": "route-47-south-hill-to-pamplin-995139",
+          "blurb": "A Southside highway that rides the ridge between the Meherrin and Roanoke rivers from South Hill through Chase City, Drakes Branch and Charlotte Court House, then traces the county line north toward Pamplin.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Charlotte and Campbell County roads (Route 40 to Red Hill)",
+          "bywayId": "charlotte-and-campbell-county-roads-route-40-to-red-hill-995140",
+          "blurb": "Route 40 leaves the Jefferson-designed courthouse where Patrick Henry made his last speech and runs through Phenix to Red Hill, his final home on the Staunton River, while River Road wanders toward Randolph.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 696 (Green Bay Road), Prince Edward County",
+          "bywayId": "route-696-green-bay-road-prince-edward-county-995141",
+          "blurb": "Green Bay Road, once a numbered state highway, runs through the Prince Edward countryside from the crossroads of Green Bay on US 360 to US 460 just east of Farmville.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Robinson Ferry and Gasburg roads, Brunswick County",
+          "bywayId": "robinson-ferry-and-gasburg-roads-brunswick-county-995142",
+          "blurb": "Southside back roads by the names of a mill and a ferry, Hendricks Mill Road and Robinson Ferry Road, running from the Mecklenburg line through the crossroads of Gasburg to Bowens Corner.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Huguenot Trail and Old River Trail, west of Richmond",
+          "bywayId": "huguenot-trail-and-old-river-trail-west-of-richmond-995143",
+          "blurb": "Roads leading west out of Richmond, Old Gun Road and the Huguenot Trail out toward Jefferson, then Old River Trail on through Powhatan County to the crossroads of Michaux.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 5 (John Tyler Highway)",
+          "bywayId": "route-5-john-tyler-highway-995144",
+          "blurb": "The old river road between Richmond and Williamsburg passes the lanes to Shirley, Berkeley, Westover and Sherwood Forest plantations and crosses the Chickahominy where a ferry once ran, with a bicycle trail running alongside.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "New Kent County byways",
+          "bywayId": "new-kent-county-byways-995145",
+          "blurb": "The old main road of New Kent County, through Talleysville to the courthouse village and out to Angelview Church, with Old Church Road and Old River Road looping off by Tunstall Station.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Greensprings Road and Jamestown Festival Parkway",
+          "bywayId": "greensprings-road-and-jamestown-festival-parkway-995146",
+          "blurb": "A short run from the site of Governor Berkeley's Green Spring plantation down Greensprings Road to the Jamestown Festival Parkway, which ends by the replica ships of Jamestown Settlement and the Colonial Parkway.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Caroline County, Routes 606 and 721",
+          "bywayId": "caroline-county-routes-606-and-721-995147",
+          "blurb": "Stonewall Jackson Road leads across Caroline County to Guinea Station, where Jackson died, and the old line of Route 14 wanders north from St. Stephens Church through Newtown and Sparta.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "US 17 (Tidewater Trail), Tappahannock to Spotsylvania County",
+          "bywayId": "us-17-tidewater-trail-tappahannock-to-spotsylvania-county-995148",
+          "blurb": "Tidewater Trail follows the Rappahannock upstream from Tappahannock, the oldest town in Essex County, through the crossroads of Champlain, Chance and Loretto to the river town of Port Royal.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Spotsylvania County byways",
+          "bywayId": "spotsylvania-county-byways-995149",
+          "blurb": "River Road leaves the Chancellorsville battlefield for the outskirts of Fredericksburg, and Guinea Station Road runs up to US 1 from the site where Stonewall Jackson died.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 218, King George County",
+          "bywayId": "route-218-king-george-county-995150",
+          "blurb": "Caledon Road curves through the King George woods past Passapatanzy, Goby and Osso, near the lanes down to the Potomac beaches, and along the old-growth forest of Caledon where bald eagles gather.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Westmoreland County byways",
+          "bywayId": "westmoreland-county-byways-995151",
+          "blurb": "Kings Highway runs through Montross past the old county courthouse, with short spurs north to the Potomac at Washington's birthplace on Popes Creek, Westmoreland State Park, Stratford Hall and Currioman Landing.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Northumberland County byways",
+          "bywayId": "northumberland-county-byways-995152",
+          "blurb": "Dead-end roads down the necks of the lower Northern Neck to Hughlett Point and Bluff Point, and a route that hugs the Potomac shore, crosses the Little Wicomico by ferry and ends at the menhaden town of Reedville.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Lancaster County byways",
+          "bywayId": "lancaster-county-byways-995153",
+          "blurb": "River Road runs down the neck past Belle Isle to the free ferry across the Corrotoman's Western Branch, and the loop comes back through White Stone, Irvington and Kilmarnock past old Christ Church.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 14 (The Trail), King and Queen County",
+          "bywayId": "route-14-the-trail-king-and-queen-county-995154",
+          "blurb": "The Trail is King and Queen County's main street in all but name, a winding road of right-angle turns through hamlets like Bruington and Shanghai and the small courthouse village at the county's middle.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Mathews County byways",
+          "bywayId": "mathews-county-byways-995155",
+          "blurb": "Tidewater roads around Mathews, down New Point Comfort Highway toward the 1804 lighthouse off the peninsula's tip, out to Haven and Bethel beaches, and along the North and East rivers to Mobjack Bay.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Eastern Shore byways (Seaside Road and Wachapreague)",
+          "bywayId": "eastern-shore-byways-seaside-road-and-wachapreague-995156",
+          "blurb": "Seaside Road runs north on the Eastern Shore from Kiptopeke through Nassawadox, and further north the byway crosses to Wachapreague's marsh channel and to Onancock, a creek town founded in 1680.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Green Sea Byway",
+          "bywayId": "green-sea-byway-995157",
+          "blurb": "Farm roads in the far south of Virginia Beach, curving around Back Bay from the dunes at Sandbridge past Mill Landing and the Pungo fields, among loblolly pine, live oak and cypress, to the Carolina line.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 72 (Dungannon Road / Hanging Rock Parkway), Coeburn to Dungannon",
+          "bywayId": null,
+          "blurb": "South from Coeburn the road crosses the Guest River and Stone Mountain, then follows the Clinch River down to Dungannon, on a route the state lists by way of Hanging Rock.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        },
+        {
+          "name": "Route 46 (Christanna Highway), Brunswick County",
+          "bywayId": null,
+          "blurb": "Christanna Highway runs north from the Carolina line past the site of old Fort Christanna, crosses the Meherrin into the county seat of Lawrenceville, and leaves Brunswick on the Kennedy Bridge over the Nottoway.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        },
+        {
+          "name": "Route 903 (Goodes Ferry Road), Mecklenburg County",
+          "bywayId": null,
+          "blurb": "Goodes Ferry Road leaves South Hill for the Brunswick County line near Joyceville, where it hands off to Hendricks Mill Road and Robinson Ferry Road on the Brunswick side.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        }
+      ]
+    },
+    {
+      "label": "National Forest Scenic Byways",
+      "issuer": "USDA Forest Service",
+      "kind": "federal",
+      "members": [
+        {
+          "name": "Big Walker Mountain Scenic Byway",
+          "bywayId": "big-walker-mountain-scenic-byway-44704",
+          "url": "https://nsbfoundation.com/sb/big-walker-mountain-scenic-byway/",
+          "blurb": "The road over Big Walker Mountain, an alternative to the I-77 tunnel beneath it, climbs to a 100-foot lookout tower above the ridges and drops past a picnic ground and the Stony Fork campground."
+        },
+        {
+          "name": "Highlands Scenic Byway",
+          "bywayId": "highlands-scenic-byway-10335",
+          "url": "https://scenicbyways.info/byway/10335.html",
+          "blurb": "A twenty-mile loop through national forest out of Longdale Furnace, where an 1827 stone furnace stack and the iron company's tall brick chimneys still stand among the remains of the old mining community."
+        },
+        {
+          "name": "Mount Rogers Scenic Byway",
+          "bywayId": "mount-rogers-scenic-byway-2323",
+          "url": "https://nsbfoundation.com/sb/mount-rogers-scenic-byway/",
+          "blurb": "Two mountain roads in the Mount Rogers high country, US 58 east from the trail town of Damascus and Route 603 from Konnarock to Troutdale, near Virginia's highest summit and the Appalachian and Virginia Creeper trails."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Virginia Department of Transportation, Virginia Byways",
+      "url": "https://www.vdot.virginia.gov/travel-traffic/travelers/virginia-byways/"
+    },
+    {
+      "label": "VDOT, Scenic Roads and Byways in Virginia (interactive map)",
+      "url": "https://experience.arcgis.com/experience/06a8ec8f96804c1cbf83c7f5bc5396e0"
+    },
+    {
+      "label": "VDOT ArcGIS, Virginia's Byways layer (Byways_022024)",
+      "url": "https://services.arcgis.com/p5v98VHDX9Atv3l7/arcgis/rest/services/Byways_022024/FeatureServer/0"
+    },
+    {
+      "label": "Wikipedia, List of Virginia Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
+    },
+    {
+      "label": "Commonwealth Transportation Board, Resolution 14, December 7, 2016 (Prince William County byways)",
+      "url": "https://ctb.virginia.gov/media/ctb/agendas-and-meeting-minutes/2016/dec/reso/Resolution_14_Byway_NoVA.pdf"
+    },
+    {
+      "label": "Virginia Law, 2007 Uncodified Acts, Chapter 531 (Virginia Coal Heritage Trail)",
+      "url": "https://law.lis.virginia.gov/uncodifiedacts/2007/session1/chapter531/"
+    }
+  ],
+  "bbox": [
+    -83.9,
+    36.4,
+    -75.0,
+    39.7
+  ]
+}

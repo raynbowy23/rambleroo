@@ -1,0 +1,360 @@
+{
+  "note": "Facts and sources behind the member descriptions in WV.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Historic National Road",
+      "designation": "All-American Road; West Virginia State Byway",
+      "where": "US 40 across Ohio County through Wheeling, Ohio line to Pennsylvania line, about 16 miles",
+      "facts": [
+        {
+          "fact": "In West Virginia the Historic National Road follows US 40 for 16 miles from the Ohio state line to the Pennsylvania state line.",
+          "source": "https://www.wvencyclopedia.org/entries/173"
+        },
+        {
+          "fact": "The Wheeling Suspension Bridge, a National Historic Landmark on the route, has carried travelers across the Ohio River since 1849.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        },
+        {
+          "fact": "West Virginia Independence Hall in Wheeling, the Civil War birthplace of the state, is also on the route; state designation came in August 1999 and national in June 2002.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        }
+      ],
+      "review": "Not in the 2019 WVDOT GIS layer; listed as the state's All-American Road by Scenic America (2023), e-WV and the WVDOH guide."
+    },
+    {
+      "name": "Coal Heritage Trail",
+      "designation": "National Scenic Byway; West Virginia State Byway",
+      "where": "US 52 from Bluefield to Welch, then WV 16 north through Mullens and Beckley toward Ansted; about 187 miles in 13 counties",
+      "facts": [
+        {
+          "fact": "The trail begins on US 52 in Bluefield, runs to Welch, then takes WV 16 north to Ansted.",
+          "source": "https://wvtourism.com/company/coal-heritage-trail/"
+        },
+        {
+          "fact": "The route passes National Register historic districts in Bluefield, Bramwell, Welch, Mullens and Beckley.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        },
+        {
+          "fact": "The corridor is lined with coal company towns, tipples, railroad structures and reclaimed mine lands.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10346"
+        }
+      ],
+      "review": "Lengths disagree: FHWA 97.56 mi, guide 171.8 mi, e-WV and WV Tourism 187 mi; catalog maps 154 mi. The GIS line also has branches into Kanawha County north of the WV Tourism description."
+    },
+    {
+      "name": "Highland Scenic Highway",
+      "designation": "National Scenic Byway; West Virginia State Byway (USFS, Monongahela National Forest)",
+      "where": "WV 39/55 and WV 150, Richwood to US 219 north of Marlinton, Nicholas, Webster and Pocahontas counties, 43 miles",
+      "facts": [
+        {
+          "fact": "The highway runs 43 miles from Richwood to US 219 north of Marlinton and rises from 2,325 feet near Richwood to more than 4,500 feet.",
+          "source": "https://www.fs.usda.gov/r09/monongahela/recreation/highland-scenic-highway"
+        },
+        {
+          "fact": "WV 150 is a 23-mile parkway section with four overlooks (Williams River, Big Spruce, Little Laurel, Red Lick); it is not maintained in winter and is closed to commercial trucks.",
+          "source": "https://www.fs.usda.gov/r09/monongahela/recreation/highland-scenic-highway"
+        },
+        {
+          "fact": "Sights include Cranberry Glades Botanical Area and Falls of Hills Creek, with dark spruce capping the high elevations.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2460"
+        }
+      ],
+      "review": "GIS value 'Highland Scenic Highway' (DESIGNATIO 'National Scenic Byway')."
+    },
+    {
+      "name": "Midland Trail",
+      "designation": "National Scenic Byway; West Virginia State Byway",
+      "where": "US 60, Kenova to White Sulphur Springs through Charleston, about 180 miles (national byway section Charleston to White Sulphur Springs, 117 miles)",
+      "facts": [
+        {
+          "fact": "The Midland Trail follows US 60 border to border across West Virginia, from Kenova at the Kentucky line through Charleston and Hawks Nest State Park to White Sulphur Springs, about 180 miles.",
+          "source": "https://wvtourism.com/company/midland-trail-national-scenic-highway/"
+        },
+        {
+          "fact": "Before the Civil War the road was the James River and Kanawha Turnpike, a route west for pioneers.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        },
+        {
+          "fact": "The route passes Malden, boyhood home of Booker T. Washington, and colonial Lewisburg.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10345"
+        }
+      ],
+      "review": "Not in the 2019 WVDOT GIS layer. Catalog line (113 mi) covers only the Charleston to White Sulphur Springs national section; WV Tourism and e-WV describe 180 miles west to Kenova. midlandtrail.com timed out."
+    },
+    {
+      "name": "Washington Heritage Trail",
+      "designation": "National Scenic Byway; West Virginia State Byway",
+      "where": "Loop through Jefferson, Berkeley and Morgan counties with a spur to Paw Paw, 136 miles",
+      "facts": [
+        {
+          "fact": "The trail covers 136 miles of the Eastern Panhandle and links five historic towns, Washington family homes and more than 50 sites.",
+          "source": "https://washingtonheritagetrail.com/"
+        },
+        {
+          "fact": "It is a 112-mile loop with a 25-mile spur to Paw Paw.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        },
+        {
+          "fact": "Stops include Harpers Ferry National Historical Park, Berkeley Springs and the Paw Paw Tunnel.",
+          "source": "https://wvtourism.com/company/george-washington-heritage-trail/"
+        }
+      ],
+      "review": "GIS value is 'George Washington Heritage Trail' (DESIGNATIO 'State Byway')."
+    },
+    {
+      "name": "Staunton-Parkersburg Turnpike",
+      "designation": "National Scenic Byway; West Virginia State Byway",
+      "where": "WV 47, US 33 and US 250, Parkersburg through Weston, Buckhannon, Elkins and Beverly to just past Bartow, 180 miles",
+      "facts": [
+        {
+          "fact": "The byway runs 180 miles from Parkersburg to just beyond Bartow.",
+          "source": "https://www.wvencyclopedia.org/entries/173"
+        },
+        {
+          "fact": "Engineered by Claudius Crozet, the turnpike is traced today by WV 47, US 33 through Weston and Buckhannon to Elkins, and US 250 through Beverly and Huttonsville.",
+          "source": "https://en.wikipedia.org/wiki/Staunton-Parkersburg_Turnpike"
+        },
+        {
+          "fact": "The road was crucial in the first campaign of the Civil War; nearby sites include Rich Mountain Battlefield, Cheat Summit Fort, Camp Bartow and Camp Allegheny.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        }
+      ],
+      "review": "The 2019 GIS layer has two rows named 'Staunton-Parkersburg Turnpike' covering only short pieces near Cheat Mountain and Bartow, plus one stray row near Charles Town in Jefferson County that is not on this road; use the catalog line. Older guide gave 43 miles (Huttonsville to Bartow section) before the route was extended to Parkersburg. Staunton-Parkersburg Turnpike Alliance site (spturnpike.org) no longer resolves."
+    },
+    {
+      "name": "Back Mountain",
+      "designation": "West Virginia State Backway",
+      "where": "Old turnpike up the east side of Cheat Mountain off US 250, Randolph County, 2.7 miles",
+      "facts": [
+        {
+          "fact": "The backway follows 2.7 miles of the original Staunton-Parkersburg Turnpike up the east side of Cheat Mountain.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10353"
+        },
+        {
+          "fact": "The blacktop road is lined with houses and was the main highway until the 1950s, when US 250 was built on a more direct line.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10353"
+        }
+      ]
+    },
+    {
+      "name": "Camp Allegheny",
+      "designation": "West Virginia State Backway",
+      "where": "Gravel original turnpike alignment from the top of Allegheny Mountain down to Bartow, Pocahontas County, 10.6 miles",
+      "facts": [
+        {
+          "fact": "This 10.58-mile gravel road follows the original turnpike alignment from the top of Allegheny Mountain down to Bartow.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10352"
+        },
+        {
+          "fact": "Camp Allegheny was held by Confederate troops against a Union attack on December 13, 1861, and its earthworks and chimney falls remain.",
+          "source": "https://wvtourism.com/company/camp-allegheny-1861-1862/"
+        },
+        {
+          "fact": "Traveller's Repose, a 19th-century turnpike inn, stands at the bottom intersection near the earthworks of Camp Bartow.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10352"
+        }
+      ]
+    },
+    {
+      "name": "Cheat Mountain",
+      "designation": "West Virginia State Backway",
+      "where": "Old turnpike south of US 250 to Cheat Summit Fort, Randolph County, 3.3 miles",
+      "facts": [
+        {
+          "fact": "This 3.32-mile piece of the original turnpike switchbacks south of US 250 to the top of Cheat Mountain.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10354"
+        },
+        {
+          "fact": "Union troops camped at Cheat Summit Fort from summer 1861 to spring 1862; the Monongahela National Forest site has trails and an overlook.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10354"
+        },
+        {
+          "fact": "General George B. McClellan ordered the fort built in 1861 to hold the turnpike and protect the B&O Railroad.",
+          "source": "https://wvtourism.com/company/cheat-summit-fort/"
+        }
+      ]
+    },
+    {
+      "name": "Rich Mountain",
+      "designation": "West Virginia State Backway",
+      "where": "Rich Mountain Road from Beverly west over Rich Mountain through Mabie to Coalton-Pumpkintown Road, Randolph County, 12.5 miles",
+      "facts": [
+        {
+          "fact": "The route runs 12.5 miles west from Beverly over Rich Mountain through Mabie, with about five miles still gravel.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10355"
+        },
+        {
+          "fact": "The battle at the Hart Farm on Rich Mountain was fought July 11, 1861; the site keeps graffiti carved by soldiers.",
+          "source": "https://beverlyheritagecenter.org/rich-mountain-battlefield/"
+        },
+        {
+          "fact": "Down the west side, trails lead to the earthworks of Confederate Camp Garnett.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10355"
+        }
+      ]
+    },
+    {
+      "name": "Cheat River",
+      "designation": "West Virginia State Byway",
+      "where": "WV 72 along the Cheat River Canyon through Rowlesburg, Preston County, 14.3 miles",
+      "facts": [
+        {
+          "fact": "WV 72 runs 14.3 miles along the Cheat River Canyon, and Rowlesburg is the only town on it.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/15740"
+        },
+        {
+          "fact": "Pull-offs give views of Buckhorn Run Waterfall and the B&O Railroad's Tray Run Viaduct.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Old Route 7",
+      "designation": "West Virginia State Byway",
+      "where": "WV 7, Morgantown east through Kingwood to Terra Alta and the Maryland line, Monongalia and Preston counties, 43 miles",
+      "facts": [
+        {
+          "fact": "WV 7 runs east from the Monongahela River in Morgantown to the Maryland line, along Deckers Creek, across the Cheat at Kingwood and up Briery Mountain (2,735 feet) to Terra Alta.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/15739"
+        },
+        {
+          "fact": "The route passes near Arthurdale, the first New Deal homestead, founded in 1933.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/15739"
+        }
+      ]
+    },
+    {
+      "name": "Northwestern Turnpike",
+      "designation": "West Virginia State Byway",
+      "where": "US 50 across Taylor and Preston counties through Grafton to the Maryland line, 54 miles",
+      "facts": [
+        {
+          "fact": "The byway is the section of US 50 crossing Preston and Taylor counties, which follows the Northwestern Turnpike route commissioned in 1830.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/15741"
+        },
+        {
+          "fact": "Cheat Mountain stands at 2,746 feet with a 9 percent grade for three miles and 28 curves; Laurel Mountain reaches 2,602 feet.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/15741"
+        },
+        {
+          "fact": "Nearby are the virgin forest of Cathedral State Park near Aurora and Grafton's 1911 B&O station.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Little Kanawha Parkway",
+      "designation": "West Virginia State Byway",
+      "where": "WV 5 and connecting routes along the Little Kanawha River, Burnsville to the Parkersburg area, 77.6 miles",
+      "facts": [
+        {
+          "fact": "The byway runs 77.63 miles along the Little Kanawha River through farmland and small rural towns.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/15738"
+        },
+        {
+          "fact": "It links I-79 and I-77; sights include Glenville State College, the Duck Run Cable Suspension Bridge and the Burnsville steel truss bridge.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        },
+        {
+          "fact": "WV 5 parallels the Little Kanawha River for almost its whole length.",
+          "source": "https://en.wikipedia.org/wiki/West_Virginia_Route_5"
+        }
+      ],
+      "review": "The 2004 guide calls it 'Little Kanawha Byway'; the 2019 GIS layer and FHWA use 'Little Kanawha Parkway'."
+    },
+    {
+      "name": "Farm Heritage Road",
+      "designation": "West Virginia State Byway",
+      "where": "Monroe County, Indian Creek through Union to the Sweet Springs Valley, 59.45 miles",
+      "facts": [
+        {
+          "fact": "The 59.45-mile road crosses three settings in Monroe County: the winding course of Indian Creek, rolling plateau farmland, and the Sweet Springs Valley beside Peters Mountain.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10348"
+        },
+        {
+          "fact": "Sights include the Indian Creek Covered Bridge, the Union Historic District, Old Sweet Springs and Salt Sulphur Springs.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Cedar Creek Road",
+      "designation": "West Virginia State Backway",
+      "where": "County roads along Cedar Creek in Gilmer and Braxton counties near Glenville and Flatwoods, 41.4 miles",
+      "facts": [
+        {
+          "fact": "The backway is near Flatwoods, the geographic center of the state, and follows Cedar Creek past farmsteads, hay meadows and pasture, with Cedarville and Exchange as its old commercial centers.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        },
+        {
+          "fact": "It is 41.42 miles: 5 miles of crushed rock, 14.5 miles of two-lane asphalt and 22 miles of one-lane asphalt; Cedar Creek State Park is on the route.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        }
+      ],
+      "review": "No official page found; FHWA has no entry for it."
+    },
+    {
+      "name": "Mountain's Shadow Trail",
+      "designation": "West Virginia State Backway",
+      "where": "One-lane paved and gravel roads along Peters Mountain, Monroe County, 29 miles",
+      "facts": [
+        {
+          "fact": "The 29-mile backway uses one-lane paved and gravel roads through farms in the mountain valleys under Peters Mountain, the county's 40-mile ridge.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        },
+        {
+          "fact": "It gives access to the Allegheny and Appalachian trails, the Salt Sulphur Turnpike, the site of Wood's Fort and the Hanging Rock Observatory.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        }
+      ],
+      "review": "No official page found."
+    },
+    {
+      "name": "Wellsburg-Bethany",
+      "designation": "West Virginia State Byway",
+      "where": "Loop between Wellsburg and Bethany, Brooke County (WV 67 and connecting roads per the GIS line)",
+      "facts": [
+        {
+          "fact": "Wellsburg, the Brooke County seat on the Ohio River, was laid out in 1790 and had the first glass factory in western Virginia in 1813.",
+          "source": "https://en.wikipedia.org/wiki/Wellsburg,_West_Virginia"
+        },
+        {
+          "fact": "Alexander Campbell founded Bethany College in 1840, the first institution of higher education in what is now West Virginia; the Bethany Historic District is on the National Register.",
+          "source": "https://en.wikipedia.org/wiki/Bethany,_West_Virginia"
+        }
+      ],
+      "review": "No state description of the route was found (the pages that would cover it are missing from the online copy of the guide). Route from the 2019 GIS line, which draws a loop between Wellsburg and Bethany."
+    },
+    {
+      "name": "Williams River",
+      "designation": "West Virginia State Backway",
+      "where": "Forest Roads 86 and 216 along the Williams River, Pocahontas and Webster counties toward Cowen, 28 miles",
+      "facts": [
+        {
+          "fact": "Known locally as Williams River Road, the 28-mile backway uses narrow gravel Monongahela National Forest roads 86 and 216 from near the river's headwaters to its confluence with the Gauley; the river is a stocked trout stream and the road gives access to the Cranberry Wilderness.",
+          "source": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+        },
+        {
+          "fact": "The river begins on Black Mountain and flows 33 miles to the Gauley River near Cowen.",
+          "source": "https://www.fs.usda.gov/r09/monongahela/recreation/williams-river"
+        },
+        {
+          "fact": "About 30 rustic campsites line the road, many close to the river and used by anglers.",
+          "source": "https://wvtourism.com/company/williams-river-sites-usda-forest-service/"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    "No current official list: WVDOT has no byways page (the 'Byways Backway Segmentation Application' page returns 404) and WV Tourism's Byways & Backways listing has no route names. The member list follows the WVDOT 2019 GIS layer plus Midland Trail and Historic National Road, which matches Scenic America's 2023 list of 19 (6 national, 13 state).",
+    "WV Tourism says the state has recognized 'more than 20 other' byways or backways; the 2004 WVDOH guide also has Lower Greenbrier River, Wolf Creek, Lowell and two Mountain Parkway routes, missing from the 2019 GIS and 2023 list. They are put in a separate program; their status should be confirmed with WVDOH.",
+    "The online copy of the 2004 guide (mh3wv.org) is missing book pages 26-33, which likely covered the Staunton-Parkersburg backways and Wellsburg-Bethany.",
+    "coalheritage.org, the National Coal Heritage Area site linked by WV Tourism, now serves gambling content; do not link it.",
+    "midlandtrail.com timed out repeatedly; spturnpike.org (Staunton-Parkersburg Turnpike Alliance) no longer resolves. FHWA pages are used instead.",
+    "GIS: one 'Staunton-Parkersburg Turnpike' row sits near Charles Town, far from the road; the other is a short fragment. Use the catalog line for that road.",
+    "Coal Heritage Trail length differs by source (97.56, 171.8, 187 miles); catalog maps 154 mi.",
+    "Midland Trail catalog line (113 mi) covers only Charleston to White Sulphur Springs; WV Tourism describes 180 miles from Kenova.",
+    "Wellsburg-Bethany route is known only from the GIS loop; no state description was found.",
+    "Left out of the chapter: Earlier West Virginia byways and backways (in the 2004 guide, not on current lists): Lower Greenbrier River, Wolf Creek, Lowell, Mountain Parkway (byway), Mountain Parkway (backway)"
+  ]
+}

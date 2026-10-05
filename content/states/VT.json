@@ -1,0 +1,119 @@
+{
+  "code": "VT",
+  "name": "Vermont",
+  "tagline": "From the Champlain Islands to the Connecticut River, through notches, slate towns and covered bridges.",
+  "intro": "Vermont's byways follow the Connecticut River down the eastern border and Lake Champlain along the western one, cross the Green Mountains on Routes 4 and 9, climb through Smugglers' Notch and the Mad River Valley, and wander the slate and marble country around Rutland and the Shires of Bennington County. This chapter follows the Vermont Byways Program, run by the Vermont Agency of Transportation with designations by the Vermont Transportation Board, using the ten byways listed by the state tourism office and drawn on the VTrans byway map. Only the Connecticut River Byway is a National Scenic Byway, though the tourism office calls all ten federally designated.",
+  "programs": [
+    {
+      "label": "Vermont Byways Program",
+      "issuer": "Vermont Agency of Transportation",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Connecticut River Byway",
+          "bywayId": "connecticut-river-byway-2487",
+          "url": "https://ctriverbyways.org/",
+          "blurb": "On the Vermont bank the byway follows US 5 and Route 102 up the Connecticut from Brattleboro and Bellows Falls to Canaan near the Canadian line, passing the 1912 Columbia covered bridge over to New Hampshire at Lemington."
+        },
+        {
+          "name": "Crossroad of Vermont Byway",
+          "bywayId": "crossroad-of-vermont-byway-81468",
+          "blurb": "US 4 runs east from the marble town of West Rutland over the Green Mountains at Killington, then down the Ottauquechee River through Woodstock and across the 165-foot Quechee Gorge to White River Junction."
+        },
+        {
+          "name": "Green Mountain Byway",
+          "bywayId": "green-mountain-byway-995001",
+          "url": "https://greenmountainbywayvt.com/",
+          "blurb": "From Waterbury the byway follows Route 100 to Stowe under Mount Mansfield, the state's highest peak, then loops through Morrisville and Johnson to Jeffersonville, while Route 108 climbs over Smugglers' Notch, a pass closed to cars in winter.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Lake Champlain Byway",
+          "bywayId": "lake-champlain-byway-vermont-53360",
+          "url": "https://lakechamplainbyway.com/",
+          "blurb": "US 2 hops from the Rouses Point bridge across the Champlain Islands by causeway, past orchards and the fossil reef on Isle La Motte, then US 7 runs south through Burlington into the Addison County farmland below the Adirondacks."
+        },
+        {
+          "name": "Mad River Byway",
+          "bywayId": "mad-river-byway-72875",
+          "url": "https://madrivervalley.com/attraction/mad-river-byway/",
+          "blurb": "Route 100 runs down the Mad River Valley from Granville through Warren and Waitsfield, then Route 100B carries on to Middlesex, past covered bridges and a round barn, with Sugarbush and Mad River Glen up in the hills."
+        },
+        {
+          "name": "Molly Stark Byway",
+          "bywayId": "molly-stark-scenic-byway-53358",
+          "url": "https://www.brattleborochamber.org/towns/route-9-the-molly-stark-byway/",
+          "blurb": "Route 9 crosses southern Vermont between Bennington and Brattleboro on the line General Stark's army took home in 1777, climbing Hogback Mountain to its hundred-mile view and passing the Bennington Battle Monument."
+        },
+        {
+          "name": "Northeast Kingdom Byway",
+          "bywayId": "northeast-kingdom-byway-995002",
+          "url": "https://www.northeastkingdom.com/scenic-drives",
+          "blurb": "From St. Johnsbury the byway follows the Passumpsic River to Lyndon and its covered bridges, then runs along Lake Willoughby beneath its cliffs, with a pull-off at Devil's Rock, before ending in Newport.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Scenic Route 100 Byway",
+          "bywayId": "scenic-route-100-byway-81467",
+          "blurb": "Vermont 100 climbs north from the Massachusetts line at Stamford along the eastern edge of the Green Mountain National Forest, past Mount Snow and Okemo, keeping a rural feel between the resort villages on its way to Granville."
+        },
+        {
+          "name": "The Shires of Vermont Byway",
+          "bywayId": "the-shires-of-vermont-byway-995003",
+          "url": "https://exploretheshires.com/",
+          "blurb": "Historic Route 7A, the old US 7, runs north from Bennington to Manchester between the Taconic and Green Mountains, by the Batten Kill, passing Robert Frost's stone house in Shaftsbury and the Norman Rockwell exhibition in Arlington.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Stone Valley Byway",
+          "bywayId": "stone-valley-byway-72908",
+          "blurb": "Route 30 heads north from Manchester up the Mettawee valley past the Dorset Playhouse to Poultney, a slate town of stone sidewalks and fences, then by Lake Bomoseen toward the Hubbardton battlefield of 1777."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Vermont Department of Tourism, Vermont Scenic Byways (lists the ten byways)",
+      "url": "https://vermontvacation.com/things-to-do/trip-ideas-itineraries/scenic-drives/vermont-byways/"
+    },
+    {
+      "label": "VTrans ArcGIS, Scenic Byways MapServer layer 0",
+      "url": "https://maps.vtrans.vermont.gov/arcgis/rest/services/Layers/ScenicByways/MapServer/0"
+    },
+    {
+      "label": "Connecticut River Byway, Travel the Byway",
+      "url": "https://ctriverbyways.org/travel-the-byway"
+    },
+    {
+      "label": "Lake Champlain Byway, Directions & Contact",
+      "url": "https://lakechamplainbyway.com/directions-contact/"
+    },
+    {
+      "label": "Green Mountain Byway",
+      "url": "https://greenmountainbywayvt.com/"
+    },
+    {
+      "label": "Mad River Valley Chamber, Mad River Byway",
+      "url": "https://madrivervalley.com/attraction/mad-river-byway/"
+    },
+    {
+      "label": "Brattleboro Area Chamber, Route 9, the Molly Stark Byway",
+      "url": "https://www.brattleborochamber.org/towns/route-9-the-molly-stark-byway/"
+    },
+    {
+      "label": "Northeast Kingdom Travel & Tourism, Scenic Drives",
+      "url": "https://www.northeastkingdom.com/scenic-drives"
+    },
+    {
+      "label": "The Shires of Southwestern Vermont",
+      "url": "https://exploretheshires.com/"
+    }
+  ],
+  "bbox": [
+    -73.6,
+    42.5,
+    -71.3,
+    45.2
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "code": "HI",
+  "name": "Hawaii",
+  "tagline": "Kona coffee roads, Kaʻū lava slopes, Puna's Red Road and the Kōloa tree tunnel.",
+  "intro": "Hawaiʻi's byways are short island roads: the coffee-country highway above Kona, the royal shoreline of Aliʻi Drive, the long climb across Kaʻū toward Kīlauea, the Puna coast, the Kōloa district of Kauaʻi and three corridors around Honolulu. This chapter follows the Hawaiʻi Scenic Byways Program of the Hawaiʻi Department of Transportation, which designated eight roads between 2009 and 2013 on the nomination of local sponsor groups. HDOT no longer keeps a public page or list for the program, so the list here comes from its archived website, and Chain of Craters Road appears separately as a national park road.",
+  "programs": [
+    {
+      "label": "Hawaii Scenic Byways Program",
+      "issuer": "Hawaii Department of Transportation",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Māmalahoa Kona Heritage Corridor",
+          "bywayId": "mamalahoa-kona-heritage-corridor-81305",
+          "url": "https://www.pulama.org/scenicbyway",
+          "blurb": "Some ten miles of the old Māmalahoa Highway, Route 180, hold to the Kona slope near 1,400 feet, passing coffee farms and the village of Hōlualoa. In 2009 it became Hawaiʻi's first state scenic byway.",
+          "note": "Shown on the map as Mamalahoa Kona Heritage Corridor."
+        },
+        {
+          "name": "Royal Footsteps Along the Kona Coast",
+          "bywayId": "royal-footsteps-along-the-kona-coast-81463",
+          "url": "https://historickailuavillage.com/explore/scenic-byway-app/",
+          "blurb": "Aliʻi Drive runs seven miles along the shore from Kailua Village to Keauhou, roughly on the line of the old ala loa foot trail, past Huliheʻe Palace and the Kamakahonu compound where Kamehameha spent his last years."
+        },
+        {
+          "name": "Kaʻū Scenic Byway – The Slopes of Mauna Loa",
+          "bywayId": "ka-u-scenic-byway-the-slopes-of-mauna-loa-991501",
+          "url": "https://www.gohawaii.com/islands/hawaii-big-island/things-to-do/land-activities/scenic-byways",
+          "blurb": "Highway 11 crosses the Kaʻū district from Mānuka State Park to the gate of Hawaiʻi Volcanoes National Park, dropping into the green Waiʻōhinu valley and down to Honuʻapo Bay before climbing past the Nīnole Hills to over 4,000 feet.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Holo Holo Kōloa Scenic Byway",
+          "bywayId": null,
+          "url": "https://www.gohawaii.com/islands/kauai/things-to-do/land-activities/scenic-byways",
+          "blurb": "About nineteen miles of south Kauaʻi road, entered through the eucalyptus tunnel McBryde planted along Maluhia Road in 1911, lead past the plantation town of Kōloa to Spouting Horn and the old whaling landing at Hanakaʻape Bay.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        },
+        {
+          "name": "HWY 137 – The Red Road Scenic Byway",
+          "bywayId": "hwy-137-the-red-road-scenic-byway-991502",
+          "blurb": "Route 137 wanders some fifteen miles of the Puna coast under mango trees and tree tunnels, its red cinder surface long since paved black. Lava from the 2018 eruption buried the stretch toward Kapoho.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Diamond Head Scenic Byway: The Lei Around Lēʻahi",
+          "bywayId": null,
+          "blurb": "The road circles Lēʻahi, the tuff cone Honolulu knows as Diamond Head, a state monument with a 1908 Army trail to its summit. The Diamond Head State Monument Foundation sponsored the byway, designated in 2013.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        },
+        {
+          "name": "Maunalua–Makapuʻu Scenic Byway",
+          "bywayId": null,
+          "blurb": "From Maunalua, the old name for Hawaiʻi Kai and its dredged Kuapā fishpond, Kalanianaʻole Highway climbs the flank of Koko Crater and runs out to Makapuʻu, where the road turns north for the windward side.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        },
+        {
+          "name": "Waikīkī – Kauhale O Hoʻokipa Scenic Byway",
+          "bywayId": null,
+          "blurb": "A byway through Waikīkī put forward by the Native Hawaiian Hospitality Association, which carried the idea to a State Senate committee and a community meeting on Kalākaua Avenue before the state designated it in 2013.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        }
+      ]
+    },
+    {
+      "label": "National Park Service roads",
+      "issuer": "National Park Service",
+      "kind": "federal",
+      "members": [
+        {
+          "name": "Chain of Craters Road",
+          "bywayId": "chain-of-craters-road-13751",
+          "url": "https://www.nps.gov/havo/planyourvisit/ccr_tour.htm",
+          "blurb": "The park road drops 18.8 miles from the Kīlauea summit to the sea, first dedicated in 1928 along old Cockett's Trail. Lava from Puʻuʻōʻō later buried nearly nine miles of it, and the Kamoamoa village site with it."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Hawaii Department of Transportation, Hawaii Scenic Byways home page (archived, last updated June 10, 2016; lists the four 2013 designations)",
+      "url": "https://web.archive.org/web/20170628013034/http://www.hawaiiscenicbyways.org/index.php"
+    },
+    {
+      "label": "Hawaii Scenic Byways, News (archived)",
+      "url": "https://web.archive.org/web/20170628030959/http://www.hawaiiscenicbyways.org/index.php/news"
+    },
+    {
+      "label": "Hawaii Department of Transportation, Hawaii Scenic Byways Program (archived 2014; 2012 call for nominations)",
+      "url": "https://web.archive.org/web/20141106162010/http://hidot.hawaii.gov/highways/other/hawaii-scenic-byways-program/"
+    },
+    {
+      "label": "Hawaiʻi Tourism Authority (Go Hawaii), Scenic Byways on the Island of Hawaiʻi",
+      "url": "https://www.gohawaii.com/islands/hawaii-big-island/things-to-do/land-activities/scenic-byways"
+    },
+    {
+      "label": "Hawaiʻi Tourism Authority (Go Hawaii), Kauaʻi Scenic Byways",
+      "url": "https://www.gohawaii.com/islands/kauai/things-to-do/land-activities/scenic-byways"
+    },
+    {
+      "label": "Hawaii Statewide GIS Program, Transportation MapServer (road centerlines; no byway layer)",
+      "url": "https://geodata.hawaii.gov/arcgis/rest/services/Transportation/MapServer"
+    }
+  ],
+  "bbox": [
+    -177.6,
+    18.8,
+    -154.6,
+    28.4
+  ]
+}

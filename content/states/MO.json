@@ -1,0 +1,171 @@
+{
+  "code": "MO",
+  "name": "Missouri",
+  "tagline": "Ozark ridges, Mississippi bluffs, Missouri River towns and the old Wire Road west.",
+  "intro": "Missouri's byways climb the Ozark ridges around Branson and the St. Francois Mountains, follow the bluffs of the Mississippi and the bottoms of the Missouri River, and run the old Route 66 from St. Louis to Joplin, with two short city routes in Kansas City. This chapter follows the Missouri Byways Program of the Missouri Department of Transportation, whose list is small and mostly local: several byways are only a few miles of one state route, and each has its own local sponsor rather than a state guidebook. The Great River Road beyond Pike County and three national forest byways in the Mark Twain are listed separately.",
+  "programs": [
+    {
+      "label": "Missouri Byways Program",
+      "issuer": "Missouri Department of Transportation",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Historic Route 66 Byway",
+          "bywayId": "historic-route-66-mo-71755",
+          "url": "https://www.missouri66.org/",
+          "blurb": "Route 66 crosses Missouri from the St. Louis riverfront to the Kansas line west of Joplin. Between St. Louis and Springfield it follows an old Osage trail that settlers later strung with telegraph wire and called the Wire Road."
+        },
+        {
+          "name": "Little Dixie Highway of the Great River Road",
+          "bywayId": null,
+          "url": "https://www.modot.org/media/11339",
+          "blurb": "Route 79 runs 29 miles down the Mississippi from the Ralls County line to Clarksville under limestone bluffs, passing through Louisiana, whose old downtown keeps what the state calls Missouri's most intact Victorian streetscape.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        },
+        {
+          "name": "Old Trails Road",
+          "bywayId": "old-trails-road-64976",
+          "url": "https://www.modot.org/media/11340",
+          "blurb": "Route 224 follows the Missouri River west from Lexington, where the 1861 Battle of the Hemp Bales was fought, to Wellington and Napoleon, two towns named for the generals at Waterloo with a Waterloo crossroads between them."
+        },
+        {
+          "name": "Cliff Drive",
+          "bywayId": "cliff-drive-2178",
+          "url": "https://kcparks.org/places/cliff-drive/",
+          "blurb": "A park road of the 1890s boulevard plan winds four miles under limestone bluffs in Kessler Park, above the East Bottoms and the Missouri River, to Indian Mound on Gladstone Boulevard. It is now closed to motor traffic."
+        },
+        {
+          "name": "Ozark Mountain Parkway",
+          "bywayId": "ozark-mountain-parkway-64978",
+          "url": "https://www.modot.org/media/11341",
+          "blurb": "Routes 265 and 248 wind through the Stone County hills by Reeds Spring and Galena on two-lane road striped no-passing the whole way, with switchbacks down to the James River crossing and the old Y-Bridge at Galena."
+        },
+        {
+          "name": "Bloomfield Stars and Stripes Historical/Cultural Byway",
+          "bywayId": "stars-and-stripes-historical-cultural-byway-73304",
+          "url": "https://www.nssml.org/",
+          "blurb": "A few miles of Routes 25 and AA around Bloomfield, the Stoddard County seat, where in November 1861 Union soldiers who were printers by trade took over a town press and printed the first Stars and Stripes."
+        },
+        {
+          "name": "Crowley's Ridge Parkway",
+          "bywayId": "crowley-s-ridge-parkway-2588",
+          "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2588",
+          "blurb": "The Missouri end of a 212-mile national byway follows Route 25 through Dunklin County to Malden along Crowley's Ridge, a long hump of windblown loess standing a few hundred feet above the flat Bootheel plain."
+        },
+        {
+          "name": "Show-Me Santa Fe Trail",
+          "bywayId": "sho-me-santa-fe-trails-73302",
+          "url": "https://www.modot.org/media/11343",
+          "blurb": "US 24 runs east from Lexington, where the Santa Fe Trail once passed, through the little town of Dover to Waverly, home of a small winery and once of Jo Shelby, a hemp farmer turned Confederate general.",
+          "note": "Shown on the map as Sho-Me Santa Fe Trails."
+        },
+        {
+          "name": "Spirit of Kansas City Regional Scenic Byway",
+          "bywayId": "spirit-of-kansas-city-73301",
+          "url": "https://www.modot.org/media/11344",
+          "blurb": "A short city route through the West Bottoms, facing Kaw Point where Lewis and Clark camped, past brick stockyard-era buildings now full of galleries and antique shops, then east along Berkley Parkway to the Missouri riverfront."
+        },
+        {
+          "name": "Ozark Mountain Highroad",
+          "bywayId": "ozark-mountain-highroad-73303",
+          "url": "https://www.modot.org/media/11342",
+          "blurb": "A four-lane highway opened in 2003 through wooded hills northwest of Branson, now carrying Route 76 around the town's strip from Stone County into Taney County, with ghost ramps at its unfinished southern end."
+        },
+        {
+          "name": "Ozark Run Scenic Byway",
+          "bywayId": null,
+          "url": "https://ozarkrun.org/",
+          "blurb": "Seventy-eight miles on Routes 21 and 8 from the Big River west to Courtois Creek at Berryman, then south through the St. Francois Mountains and the old towns of Caledonia, Pilot Knob, Ironton and Arcadia.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        }
+      ]
+    },
+    {
+      "label": "Great River Road",
+      "issuer": "Mississippi River Parkway Commission",
+      "kind": "federal",
+      "members": [
+        {
+          "name": "Great River Road - Missouri",
+          "bywayId": "great-river-road-missouri-2247",
+          "url": "https://experiencemississippiriver.com/states/missouri/",
+          "blurb": "The Mississippi river road in Missouri runs from Mark Twain's Hannibal past the Arch at St. Louis and the old French town of Ste. Genevieve, down to New Madrid and its memories of the 1811 earthquakes."
+        }
+      ]
+    },
+    {
+      "label": "National Scenic Byways",
+      "issuer": "Federal Highway Administration",
+      "kind": "federal",
+      "members": [
+        {
+          "name": "Great River Road",
+          "bywayId": "great-river-road-2279",
+          "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2279",
+          "blurb": "The national river road follows the Mississippi some 3,000 miles from northern Minnesota to the Gulf. In Missouri its designated stretch is the Route 79 bluff road through Pike County."
+        }
+      ]
+    },
+    {
+      "label": "National Forest Scenic Byways",
+      "issuer": "USDA Forest Service",
+      "kind": "federal",
+      "members": [
+        {
+          "name": "Glade Top Trail",
+          "bywayId": "glade-top-trail-2294",
+          "url": "https://www.fs.usda.gov/r09/marktwain/recreation/glade-top-national-forest-scenic-byway",
+          "blurb": "Twenty-three miles of gravel road the Civilian Conservation Corps laid along narrow ridgetops in the late 1930s, crossing sunny dolomite glades, with pull-outs that look south as far as Arkansas's Boston Mountains."
+        },
+        {
+          "name": "Blue Buck Knob Scenic Byway",
+          "bywayId": "blue-buck-knob-scenic-byway-2295",
+          "url": "https://www.fs.usda.gov/r09/marktwain/recreation/blue-buck-knob-national-forest-scenic-byway",
+          "blurb": "Twenty-four miles of pasture and wooded hillside with overlooks at Indian Creek and Blue Buck Knob, passing Noblett Lake, which a Depression-era CCC crew built, and the ruins of their Camp Willow."
+        },
+        {
+          "name": "Sugar Camp Scenic Byway",
+          "bywayId": "sugar-camp-scenic-byway-2296",
+          "url": "https://www.fs.usda.gov/r09/marktwain/recreation/sugar-camp-national-forest-scenic-byway",
+          "blurb": "From Roaring River State Park the road turns onto eight miles of forest gravel past a 1930s CCC fire tower, through hardwoods where settlers once tapped sugar maples, before rejoining the highway near Table Rock Lake."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "MoDOT, Scenic Byways",
+      "url": "https://www.modot.org/scenic-byways"
+    },
+    {
+      "label": "MoDOT, Scenic Byways Contacts (byway list and interactive map)",
+      "url": "https://www.modot.org/scenic-byways-contacts"
+    },
+    {
+      "label": "MoDOT, Missouri Designated Scenic Byways statewide map (May 2023)",
+      "url": "https://www.modot.org/media/11335"
+    },
+    {
+      "label": "MoDOT Scenic Byways Interactive Map (Google My Maps KML export)",
+      "url": "https://www.google.com/maps/d/kml?mid=1E_nUDLJtYIMxcv7bsD-bayyvG-W3SpA&forcekml=1"
+    },
+    {
+      "label": "FHWA America's Byways, Missouri",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/states/show/MO"
+    },
+    {
+      "label": "USDA Forest Service, Mark Twain National Forest, Scenic Drives",
+      "url": "https://www.fs.usda.gov/r09/marktwain/recreation/opportunities/scenic-drives"
+    },
+    {
+      "label": "Mississippi River Parkway Commission, Missouri Great River Road",
+      "url": "https://experiencemississippiriver.com/states/missouri/"
+    }
+  ],
+  "bbox": [
+    -96.0,
+    35.8,
+    -88.9,
+    40.8
+  ]
+}

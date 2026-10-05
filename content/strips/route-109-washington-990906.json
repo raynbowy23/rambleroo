@@ -1,0 +1,36 @@
+{
+  "bywayId": "route-109-washington-990906",
+  "reviewed": false,
+  "generated": true,
+  "title": "Route 109, Washington",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Washington",
+      "wikipedia": "Washington, Connecticut",
+      "weight": 53276
+    },
+    {
+      "name": "Robin Hill",
+      "wikipedia": "",
+      "osm": "node/359268200",
+      "at": [
+        -73.3059508,
+        41.6592624
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Washington Depot",
+      "wikipedia": "",
+      "osm": "node/3219353643",
+      "at": [
+        -73.3190148,
+        41.6404914
+      ],
+      "weight": 3000
+    }
+  ],
+  "stretches": []
+}
