@@ -2022,5 +2022,109 @@
         "nsb": false
       }
     ]
+  },
+  {
+    "state": "OK",
+    "agency": "Oklahoma Department of Transportation",
+    "layer": "https://services6.arcgis.com/RBtoEUQ2lmN0K3GY/arcgis/rest/services/Billboards_Scenic_Byways/FeatureServer/1",
+    "nameField": "NAME",
+    "byways": [
+      {
+        "name": "Kenton to Keys State Scenic Byway",
+        "match": "A",
+        "id": 994001,
+        "designation": "Oklahoma State Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "RI",
+    "agency": "Rhode Island Department of Transportation",
+    "layer": "https://gisstage.dot.ri.gov/gpserver/rest/services/Roads/ScenicRoads/MapServer/0",
+    "nameField": "SCENIC",
+    "byways": [
+      {
+        "name": "Route 1 (Charlestown)",
+        "id": 994401,
+        "designation": "Rhode Island Scenic Roadway",
+        "nsb": false,
+        "where": "SCENIC = 8"
+      },
+      {
+        "name": "Route 1 (South Kingstown)",
+        "id": 994402,
+        "designation": "Rhode Island Scenic Roadway",
+        "nsb": false,
+        "where": "SCENIC = 9"
+      }
+    ]
+  },
+  {
+    "state": "VT",
+    "agency": "Vermont Agency of Transportation",
+    "layer": "https://maps.vtrans.vermont.gov/arcgis/rest/services/Layers/ScenicByways/MapServer/0",
+    "nameField": "SCENICBYWAY",
+    "byways": [
+      {
+        "name": "Green Mountain Byway",
+        "id": 995001,
+        "designation": "Vermont Byway",
+        "nsb": false,
+        "where": "SCENICBYWAY=600"
+      },
+      {
+        "name": "Northeast Kingdom Byway",
+        "id": 995002,
+        "designation": "Vermont Byway",
+        "nsb": false,
+        "where": "SCENICBYWAY=1000"
+      },
+      {
+        "name": "The Shires of Vermont Byway",
+        "id": 995003,
+        "designation": "Vermont Byway",
+        "nsb": false,
+        "where": "SCENICBYWAY=900"
+      }
+    ]
+  },
+  {
+    "state": "MT",
+    "agency": "Montana Department of Transportation",
+    "layer": "https://gis.mtmdt.us/server/rest/services/ALTIS/ALTIS_Route_Events/MapServer/11",
+    "nameField": "SPECIAL_DESIGNATION_NAME",
+    "byways": [
+      {
+        "name": "Giant Springs Road",
+        "id": 993001,
+        "designation": "Montana Scenic-Historic Byway (designated May 26, 2011)",
+        "nsb": false,
+        "layer": "https://gis.mtmdt.us/server/rest/services/ALTIS/ALTIS_Route_Events/MapServer/17",
+        "where": "ROUTE_NAME IN ('GIANT SPRINGS RD','GIANT SPRINGS')"
+      }
+    ]
+  },
+  {
+    "state": "HI",
+    "agency": "Hawaii Department of Transportation",
+    "layer": "https://geodata.hawaii.gov/arcgis/rest/services/Transportation/MapServer/6",
+    "nameField": "OBJECTID",
+    "byways": [
+      {
+        "name": "Kaʻū Scenic Byway – The Slopes of Mauna Loa",
+        "id": 991501,
+        "designation": "Hawaii Scenic Byway",
+        "nsb": false,
+        "where": "statertenm = '11' AND district = 'KAU'"
+      },
+      {
+        "name": "HWY 137 – The Red Road Scenic Byway",
+        "id": 991502,
+        "designation": "Hawaii Scenic Byway",
+        "nsb": false,
+        "where": "statertenm = '137' AND fullname = 'KALAPANA KAPOHO BEACH RD'"
+      }
+    ]
   }
 ]

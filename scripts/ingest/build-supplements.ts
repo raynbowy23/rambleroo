@@ -10,7 +10,10 @@ import { readFile, writeFile } from 'node:fs/promises'
 import type { Feature, LineString, MultiLineString, Position } from 'geojson'
 
 const ROOT = new URL('../../', import.meta.url)
-const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway catalog; personal project)' }
+const UA = {
+  'User-Agent':
+    'Rambleroo/0.1 (scenic byway catalog; personal project; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues)',
+}
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 async function getJson(url: string) {

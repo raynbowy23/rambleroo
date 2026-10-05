@@ -7,7 +7,10 @@ import { existsSync } from 'node:fs'
 import type { Photo } from '../../src/lib/types.ts'
 
 const ROOT = new URL('../../', import.meta.url)
-const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway catalog; personal project) node-fetch' }
+const UA = {
+  'User-Agent':
+    'Rambleroo/0.1 (scenic byway catalog; personal project; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues) node-fetch',
+}
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 interface Candidate {

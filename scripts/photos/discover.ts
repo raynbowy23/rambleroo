@@ -7,7 +7,10 @@ import { existsSync } from 'node:fs'
 
 const ROOT = new URL('../../', import.meta.url)
 const OUT = new URL('data/photos/candidates.json', ROOT)
-const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway catalog; personal project) node-fetch' }
+const UA = {
+  'User-Agent':
+    'Rambleroo/0.1 (scenic byway catalog; personal project; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues) node-fetch',
+}
 const FREE = /^(CC0|Public domain|PD|CC BY(-SA)? [0-9.]+)/i
 const NOT_A_VIEW = /(map|shield|sign|logo|marker|locator|route[_ ]?\d|\.svg$|seal|flag|diagram|plan|emblem)/i
 const STATE_NAMES: Record<string, string> = JSON.parse(await readFile(new URL('scripts/photos/states.json', ROOT), 'utf8'))

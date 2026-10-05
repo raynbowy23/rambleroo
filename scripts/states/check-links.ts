@@ -4,7 +4,9 @@ import { pathToFileURL } from 'node:url'
 import type { StateChapter } from '../../src/lib/types.ts'
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
-const headers = { 'User-Agent': 'Rambleroo/0.1 (state chapter link checker)' }
+const headers = {
+  'User-Agent': 'Rambleroo/0.1 (state chapter link checker; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues)',
+}
 
 export async function checkLink(url: string, request: typeof fetch = fetch, pause: () => Promise<void> = () => sleep(1000)) {
   const issues = new Set<string>()

@@ -47,11 +47,11 @@ Research on 2026-10-04 (every link fetched and checked; the full registry with b
 | Arkansas | [Arkansas Department of Transportation (ARDOT), Right of Way Division, Beautification Section](https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/) | yes | 12 | 0 (4 filled) | done |
 | California | [California Department of Transportation (Caltrans)](https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-i-scenic-highways) | yes | 55 | 0 (18 filled) | done |
 | Colorado | [Colorado Department of Transportation (CDOT), with the Colorado Scenic and Historic Byways Commission](https://www.codot.gov/travel/coloradobyways) | yes | 26 | 0 (1 filled) | done |
-| Connecticut | [Connecticut Department of Transportation (CTDOT), Scenic Roads Advisory Committee](https://portal.ct.gov/dot/programs/connecticut-scenic-roads) | yes | 43 | 40 without a line | done |
+| Connecticut | [Connecticut Department of Transportation (CTDOT), Scenic Roads Advisory Committee](https://portal.ct.gov/dot/programs/connecticut-scenic-roads) | yes | 43 | 0 (40 filled) | done |
 | Delaware | [Delaware Department of Transportation (DelDOT)](https://deldot.gov/Programs/byways/index.shtml) | yes | 6 | 0 (3 filled) | done |
 | Florida | [Florida Department of Transportation (FDOT)](https://www.fdot.gov/roadway/landscape-architecture/florida-scenic-highways-program) | yes | 27 | 0 (4 filled, Halifax listed without a line) | done |
 | Georgia | [Georgia Department of Transportation (GDOT); designations approved by the State Transportation Board](https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx) | no | 17 | 3 without a line | done |
-| Hawaii | not verified | no | — | — |  |
+| Hawaii | not verified | no | 8 | 4 without a line (2 filled) | done |
 | Idaho | [Idaho Transportation Department (ITD), with the Idaho Byways Advisory Committee; promoted by Visit Idaho (Idaho Department of Commerce)](https://visitidaho.org/things-to-do/scenic-byways/) | yes | 32 | 0 (1 filled) | done |
 | Illinois | [Illinois Department of Transportation (IDOT) administers the national byways in the state; promoted by Enjoy Illinois (Illinois Office of Tourism)](https://www.enjoyillinois.com/things-to-do/illinois-scenic-byways/) | yes | 7 | 0 | done |
 | Indiana | [Indiana Department of Transportation (INDOT)](https://secure.in.gov/indot/public-involvement/planning-efforts-at-indot/indiana-scenic-byways/) | no | 9 | 2 without a line | done |
@@ -61,14 +61,14 @@ Research on 2026-10-04 (every link fetched and checked; the full registry with b
 | Louisiana | [Louisiana Department of Culture, Recreation & Tourism, Office of Tourism (Office of the Lt. Governor)](https://byways.explorelouisiana.com/) | no | 19 | 0 (8 filled) | done |
 | Maine | [Maine Department of Transportation (MaineDOT), Bureau of Planning; promoted by Visit Maine (Maine Office of Tourism)](https://visitmaine.com/things-to-do/scenic-byways-trails/) | yes | 13 | 0 (1 filled) | done |
 | Maryland | [Maryland Department of Transportation State Highway Administration (MDOT SHA), Office of Planning and Preliminary Engineering](https://roads.maryland.gov/mdotsha/pages/Index.aspx?PageId=97) | yes | 18 | 0 (1 filled) | done |
-| Massachusetts | not verified | yes | 14 | 5 without a line | done |
+| Massachusetts | not verified | yes | 14 | 0 (5 filled) | done |
 | Michigan | [Michigan Department of Transportation (MDOT)](https://www.michigan.gov/mdot/travel/tourists/byways/program-information) | no | 22 | 0 (15 filled) | done |
 | Minnesota | [Minnesota Department of Transportation (MnDOT), with Explore Minnesota Tourism and partner agencies](https://www.dot.state.mn.us/scenicbyways/) | yes | 22 | 0 (1 filled, 3 renamed) | done |
 | Mississippi | not verified | no | 15 | 7 without a line | done |
 | Missouri | [Missouri Department of Transportation (MoDOT)](https://www.modot.org/scenic-byways-contacts) | yes | 11 | 2 without a line | done |
-| Montana | [Montana Department of Transportation (MDT), Scenic Historic Byways Advisory Council and Montana Transportation Commission](https://www.mdt.mt.gov/travinfo/scenic.aspx) | no | — | — |  |
+| Montana | [Montana Department of Transportation (MDT), Scenic Historic Byways Advisory Council and Montana Transportation Commission](https://www.mdt.mt.gov/travinfo/scenic.aspx) | no | 2 | 0 (1 filled) | done |
 | Nebraska | [Nebraska Department of Transportation (NDOT)](https://dot.nebraska.gov/travel/scenic-byways/) | no | 9 | 0 | done |
-| Nevada | not verified | no | 17 | 1 without a line (3 filled) | done |
+| Nevada | not verified | no | 15 | 1 without a line (3 filled) | done |
 | New Hampshire | not verified | yes | 21 | 0 (6 filled) | done |
 | New Jersey | [New Jersey Department of Transportation (NJDOT), Community Programs](https://dot.nj.gov/transportation/community/scenic/byways.shtm) | no | 8 | 1 without a line | done |
 | New Mexico | [New Mexico Department of Transportation (NMDOT); traveler pages hosted by New Mexico Tourism Department](https://www.newmexico.org/places-to-visit/scenic-byways/) | yes | 25 | 0 | done |
@@ -76,16 +76,16 @@ Research on 2026-10-04 (every link fetched and checked; the full registry with b
 | North Carolina | [North Carolina Department of Transportation (NCDOT)](https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Pages/default.aspx) | yes | 63 | 0 (11 filled, 4 renamed) | done |
 | North Dakota | [North Dakota Department of Transportation (NDDOT) with North Dakota Tourism (Department of Commerce)](https://www.ndtourism.com/bywaysbackways) | yes | 10 | 0 | done |
 | Ohio | not verified | no | 27 | 0 (5 filled) | done |
-| Oklahoma | [Oklahoma Department of Transportation (ODOT), with University of Oklahoma Outreach; promoted by TravelOK (Oklahoma Tourism)](https://www.travelok.com/articles/oklahomasscenicbyways) | yes | 7 | 0 |  |
+| Oklahoma | [Oklahoma Department of Transportation (ODOT), with University of Oklahoma Outreach; promoted by TravelOK (Oklahoma Tourism)](https://www.travelok.com/articles/oklahomasscenicbyways) | yes | 8 | 0 (1 filled) | done |
 | Oregon | [Oregon Department of Transportation (ODOT); designations by the Oregon Transportation Commission with the Oregon Tourism Commission](https://tripcheck.com/Pages/Scenic-Byways) | yes | 29 | 0 (5 filled) | done |
 | Pennsylvania | [Pennsylvania Department of Transportation (PennDOT)](https://www.pa.gov/agencies/penndot/research-planning-and-innovation/byways-program) | no | 23 | 1 without a line (5 filled) | done |
-| Rhode Island | [Rhode Island Department of Transportation (RIDOT), Rhode Island Scenic Roadways Board](https://www.dot.ri.gov/projects/ScenicRoads/index.php) | no | 9 | 4 |  |
+| Rhode Island | [Rhode Island Department of Transportation (RIDOT), Rhode Island Scenic Roadways Board](https://www.dot.ri.gov/projects/ScenicRoads/index.php) | no | 9 | 0 (2 filled) | done |
 | South Carolina | [South Carolina Department of Transportation (SCDOT), with the South Carolina Scenic Highways Committee](https://www.scdot.org/projects/scenicByways.html) | yes | 22 | 1 without a line (4 filled) | done |
-| South Dakota | [South Dakota Department of Transportation (SDDOT); designations by the South Dakota Transportation Commission](https://dot.sd.gov/programs-services/programs/scenic-byways/) | no | — | — |  |
+| South Dakota | [South Dakota Department of Transportation (SDDOT); designations by the South Dakota Transportation Commission](https://dot.sd.gov/programs-services/programs/scenic-byways/) | no | 5 | 0 | done |
 | Tennessee | [Tennessee Department of Transportation (TDOT), Highway Beautification Office](https://tnscenicbyways.com/) | yes | 13 | 1 without a line (6 filled) | done |
-| Texas | [Texas Department of Transportation (TxDOT)](https://www.txdot.gov/business/grants-and-funding/scenic-byways.html) | no | — | — |  |
+| Texas | [Texas Department of Transportation (TxDOT)](https://www.txdot.gov/business/grants-and-funding/scenic-byways.html) | no | — | 0 | done |
 | Utah | not verified | yes | 32 | 0 (2 filled) | done |
-| Vermont | [Vermont Agency of Transportation (VTrans); designations by the Vermont Transportation Board](https://vermontvacation.com/things-to-do/trip-ideas-itineraries/scenic-drives/vermont-byways/) | yes | 10 | 3 |  |
+| Vermont | [Vermont Agency of Transportation (VTrans); designations by the Vermont Transportation Board](https://vermontvacation.com/things-to-do/trip-ideas-itineraries/scenic-drives/vermont-byways/) | yes | 10 | 0 (3 filled) | done |
 | Virginia | [Virginia Department of Transportation (VDOT), with the Department of Conservation and Recreation; designations by the Commonwealth Transportation Board](https://www.vdot.virginia.gov/travel-traffic/travelers/virginia-byways/) | yes | 70 | 4 without a line (57 filled) | done |
 | Washington | not verified | yes | 29 | 0 (2 filled) | done |
 | West Virginia | not verified | yes | 19 | 0 (4 filled) | done |

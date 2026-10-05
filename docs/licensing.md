@@ -7,7 +7,7 @@ Rambleroo combines its own code and writing with public data and freely licensed
 - **Third-party data and media** keep their own terms:
   - USDOT Scenic Byways layer and Natural Earth: public domain.
   - OpenStreetMap data (map tiles, OSRM drive times and gap connectors, OSM place nodes, classic-drive alignments, route lines drawn from OSM ways such as Walker Scenic Road, OSM-derived parts of `public/data/strips/`): © OpenStreetMap contributors, [ODbL](https://opendatacommons.org/licenses/odbl/).
-  - State route layers (WisDOT, FDOT, NCDOT, ADOT, MnDOT and KYTC, listed with their URLs in `content/state-sources.json`): each agency's public open data, credited on the state's chapter page.
+  - State route layers (37 state transportation, GIS and tourism agencies, each listed with its layer URL in `content/state-sources.json`): each agency's public open data, credited on the state's chapter page.
   - Photographs in `public/photos/`: each under the licence and credit recorded in `content/photos.json` (Wikimedia Commons).
   - 3D terrain: Mapzen Terrain Tiles on AWS Open Data (USGS, NOAA and others), loaded at runtime.
 

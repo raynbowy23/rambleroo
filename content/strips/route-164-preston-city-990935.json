@@ -1,0 +1,46 @@
+{
+  "bywayId": "route-164-preston-city-990935",
+  "reviewed": false,
+  "generated": true,
+  "title": "Route 164, Preston City",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Preston City",
+      "wikipedia": "Preston City, Connecticut",
+      "weight": 7109
+    },
+    {
+      "name": "Prospect Hill",
+      "wikipedia": "",
+      "osm": "node/359267805",
+      "at": [
+        -71.9811863,
+        41.5370426
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Preston City Historic District",
+      "wikipedia": "",
+      "osm": "node/359280404",
+      "at": [
+        -71.9747972,
+        41.5281538
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Preston",
+      "wikipedia": "",
+      "osm": "node/2459856297",
+      "at": [
+        -71.9765508,
+        41.5285255
+      ],
+      "weight": 3000
+    }
+  ],
+  "stretches": []
+}

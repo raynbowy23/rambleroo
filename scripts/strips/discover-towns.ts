@@ -8,7 +8,10 @@ import { existsSync } from 'node:fs'
 import type { Position } from 'geojson'
 
 const ROOT = new URL('../../', import.meta.url)
-const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway strip maps; personal project)' }
+const UA = {
+  'User-Agent':
+    'Rambleroo/0.1 (scenic byway strip maps; personal project; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues)',
+}
 const NEAR_MI = 1.5 // a town must be this close to the mapped road
 // Every 8 mi: any road point is ≤ 4 mi from a search centre, so towns ≤ 1.5 mi off the road are ≤ 5.5 mi away, inside the 10 km (6.2 mi) radius.
 const SAMPLE_MI = 8

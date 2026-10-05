@@ -1,0 +1,76 @@
+{
+  "bywayId": "m-134-north-huron-992610",
+  "reviewed": false,
+  "generated": true,
+  "title": "M-134 North Huron",
+  "direction": "",
+  "towns": [
+    {
+      "name": "DeTour Village",
+      "wikipedia": "DeTour Village, Michigan",
+      "weight": 10668
+    },
+    {
+      "name": "Cedarville",
+      "wikipedia": "",
+      "osm": "node/153913721",
+      "at": [
+        -84.3641135,
+        45.9984249
+      ],
+      "weight": 3000
+    },
+    {
+      "name": "Port Dolomite",
+      "wikipedia": "",
+      "osm": "node/154178739",
+      "at": [
+        -84.2750256,
+        45.9847416
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Hessel",
+      "wikipedia": "",
+      "osm": "node/154196020",
+      "at": [
+        -84.425869,
+        46.0041827
+      ],
+      "weight": 3000
+    },
+    {
+      "name": "Pontchartrain Shores",
+      "wikipedia": "",
+      "osm": "node/154384888",
+      "at": [
+        -84.5917121,
+        46.0294588
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Peek-A-Boo Hill",
+      "wikipedia": "",
+      "osm": "node/353997170",
+      "at": [
+        -84.3961452,
+        46.0169613
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "De Tour Village",
+      "wikipedia": "",
+      "osm": "node/8781326036",
+      "at": [
+        -83.9019487,
+        45.9935112
+      ],
+      "weight": 3000
+    }
+  ],
+  "stretches": []
+}

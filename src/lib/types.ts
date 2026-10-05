@@ -167,8 +167,9 @@ export interface StateChapter {
   programs: {
     label: string
     issuer: string
-    /** 'federal' for National Scenic Byway, USFS and BLM lists. Without it the first program is taken to be the state's own. */
-    kind?: 'state' | 'federal'
+    /** 'federal' for National Scenic Byway, USFS and BLM lists; 'other' for roads with no designation (classic drives, named highways).
+     * Without it the first program is taken to be the state's own. */
+    kind?: 'state' | 'federal' | 'other'
     /** `blurb`: a short description in Rambleroo's voice, paraphrased from the cited sources in the chapter file. */
     members: { name: string; bywayId: string | null; note?: string; url?: string; blurb?: string }[]
   }[]

@@ -1,0 +1,232 @@
+{
+  "note": "Facts and sources behind the member descriptions in VT.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Connecticut River Byway",
+      "designation": "National Scenic Byway (Vermont's only national byway); Vermont Byway",
+      "where": "US 5 and VT 102 along the Vermont bank of the Connecticut River from the Massachusetts line at Brattleboro north through Bellows Falls, White River Junction and St. Johnsbury to Canaan; Windham, Windsor, Orange, Caledonia and Essex counties (continues in NH and MA)",
+      "facts": [
+        {
+          "fact": "The byway is a corridor of highways, byways and waterways along the Connecticut River in Vermont and New Hampshire, over 500 miles from the Massachusetts line to the Canadian border.",
+          "source": "https://ctriverbyways.org/travel-the-byway"
+        },
+        {
+          "fact": "In Vermont it uses US 5 and Route 102, with stops including Brattleboro, Bellows Falls, White River Junction and St. Johnsbury; national designation came in 2005.",
+          "source": "https://nsbfoundation.com/nb/connecticut-river-byway-vt/"
+        },
+        {
+          "fact": "VT 102 follows the west bank of the Connecticut River from Guildhall to Canaan, paralleling US 3 on the New Hampshire bank.",
+          "source": "https://en.wikipedia.org/wiki/Vermont_Route_102"
+        },
+        {
+          "fact": "The Columbia Covered Bridge in Lemington carries Route 102 traffic across the Connecticut River; it was built in 1912.",
+          "source": "https://www.northeastkingdom.com/scenic-drives"
+        }
+      ],
+      "review": "Multi-state; this entry covers the Vermont segment. VTrans layer (SCENICBYWAY=100) has about 319 mi in Vermont, while the catalog stateMiles VT is 154.8, so the catalog line is likely partial on the Vermont side. VTrans layer value is 100 if a Vermont-only line is wanted."
+    },
+    {
+      "name": "Crossroad of Vermont Byway",
+      "designation": "Vermont Byway",
+      "where": "US 4 from West Rutland through Rutland, Mendon, Killington, Bridgewater, Woodstock and Quechee to White River Junction at the New Hampshire line; Rutland and Windsor counties",
+      "facts": [
+        {
+          "fact": "The byway is a 50-mile east-west route from Rutland to the New Hampshire border, including Killington and Woodstock.",
+          "source": "https://vermontvacation.com/things-to-do/trip-ideas-itineraries/scenic-drives/vermont-byways/"
+        },
+        {
+          "fact": "East of Rutland US 4 is a two-lane road through the Green Mountains past Mendon and Killington, then follows the Ottauquechee River through Bridgewater and Woodstock to Quechee.",
+          "source": "https://en.wikipedia.org/wiki/U.S._Route_4_in_Vermont"
+        },
+        {
+          "fact": "Quechee Gorge, 165 feet deep and the deepest gorge in Vermont, can be seen from the US 4 bridge.",
+          "source": "https://en.wikipedia.org/wiki/Quechee_Gorge"
+        },
+        {
+          "fact": "West Rutland is a place of marshes and marble.",
+          "source": "https://vermontvacation.com/72-hours-in-rutland-and-vermonts-stone-valley/"
+        }
+      ],
+      "review": "No byway website found (the old vermont-byways.us program site is dead). VTrans line (SCENICBYWAY=700) starts at West Rutland and is about 51 mi; the catalog line (42 mi) starts at Rutland and stops short of White River Junction."
+    },
+    {
+      "name": "Green Mountain Byway",
+      "designation": "Vermont Byway",
+      "where": "VT 100 Waterbury to Stowe and Morristown, VT 15/15A and VT 100C through Morrisville, Hyde Park and Johnson to Cambridge (Jeffersonville), and VT 108 over Smugglers' Notch; Washington and Lamoille counties",
+      "facts": [
+        {
+          "fact": "The 71-mile state-designated byway runs from Route 100 in Waterbury to Stowe, through Morristown and Hyde Park via Routes 15, 15A and 100C to Johnson and Cambridge, and includes Route 108 and the separately designated Smugglers' Notch Scenic Highway.",
+          "source": "https://greenmountainbywayvt.com/"
+        },
+        {
+          "fact": "The routes circle the northern Green Mountains around Mount Mansfield, Vermont's highest peak, and the Smugglers' Notch pass.",
+          "source": "https://greenmountainbywayvt.com/"
+        },
+        {
+          "fact": "VT 108 through Smugglers' Notch is so steep and winding that it is closed in winter, usually from late October until May.",
+          "source": "https://en.wikipedia.org/wiki/Vermont_Route_108"
+        }
+      ],
+      "review": "Not in the catalog. The VTrans layer (SCENICBYWAY=600) draws only about 14 mi, VT 100 from Waterbury to Stowe village; the byway's own site gives 71 mi, so the agency line covers only the original core. Draw from 600 but expect it to be short of the described loop."
+    },
+    {
+      "name": "Lake Champlain Byway",
+      "designation": "Vermont Byway",
+      "where": "US 2 from the Rouses Point bridge at Alburgh through the Champlain Islands (Grand Isle County), US 7 through Chittenden County and Burlington, then south into Addison County (Middlebury, VT 17 to Chimney Point, VT 22A/73 toward Orwell)",
+      "facts": [
+        {
+          "fact": "The formal route is 184 miles: US 2 through Grand Isle County, US 7 through Chittenden County, then south into Addison County, beginning on the Rouses Point Bridge.",
+          "source": "https://lakechamplainbyway.com/directions-contact/"
+        },
+        {
+          "fact": "The Champlain Islands are joined to the mainland by causeways and bridges; Isle La Motte protects outcrops of the 480-million-year-old Chazy Fossil Reef, and South Hero has apple orchards and vineyards.",
+          "source": "https://lakechamplainbyway.com/explore-our-regions/champlain-islands/"
+        },
+        {
+          "fact": "Addison County lies in the lower Champlain Valley between the Adirondacks to the west and the Green Mountains to the east.",
+          "source": "https://lakechamplainbyway.com/explore-our-regions/addison-county/"
+        }
+      ],
+      "review": "Catalog line (74.5 mi, lat 44.26 to 45.0) covers only the islands and Chittenden County; the VTrans line (SCENICBYWAY=200, about 179 mi) continues through Addison County to Middlebury, Chimney Point and the Orwell area."
+    },
+    {
+      "name": "Mad River Byway",
+      "designation": "Vermont Byway",
+      "where": "VT 100 from Granville through Warren, Waitsfield and Moretown, VT 100B to Middlesex, plus VT 17 and US 2; Addison and Washington counties",
+      "facts": [
+        {
+          "fact": "The byway is 36.5 miles through Middlesex, Moretown, Waitsfield, Buels Gore, Fayston, Warren and Granville on Routes 2, 100, 100B and 17, much of it beside the Green Mountain National Forest.",
+          "source": "https://madrivervalley.com/attraction/mad-river-byway/"
+        },
+        {
+          "fact": "Things to see include covered bridges, waterfalls and a round barn, and the valley holds the Sugarbush and Mad River Glen ski areas.",
+          "source": "https://madrivervalley.com/attraction/mad-river-byway/"
+        },
+        {
+          "fact": "VT 100B is an eight-mile spur from VT 100 in Moretown to US 2 in Middlesex.",
+          "source": "https://en.wikipedia.org/wiki/Vermont_Route_100"
+        }
+      ],
+      "review": "Catalog line (36.7 mi) matches the VTrans line (SCENICBYWAY=400, 34.7 mi)."
+    },
+    {
+      "name": "Molly Stark Byway",
+      "designation": "Vermont Byway",
+      "where": "VT 9 (Molly Stark Trail) from the New York line at Bennington through Woodford, Searsburg, Wilmington and Marlboro to Brattleboro and the New Hampshire line; Bennington and Windham counties",
+      "facts": [
+        {
+          "fact": "The byway follows the route General John Stark's army took home to New Hampshire after the Battle of Bennington in 1777 and is named for his wife, Molly Stark.",
+          "source": "https://www.brattleborochamber.org/towns/route-9-the-molly-stark-byway/"
+        },
+        {
+          "fact": "Hogback Mountain has an overlook known as the 100-mile view, taking in Vermont, New Hampshire and Massachusetts; Bennington has the Bennington Battle Monument.",
+          "source": "https://www.brattleborochamber.org/towns/route-9-the-molly-stark-byway/"
+        },
+        {
+          "fact": "VT 9 climbs along the Walloomsac River and City Stream to Woodford, crosses the Appalachian and Long trails, and passes Molly Stark State Park near Marlboro.",
+          "source": "https://en.wikipedia.org/wiki/Vermont_Route_9"
+        }
+      ],
+      "review": "State page names it 'Molly Stark Byway'; VTrans layer label is 'Molly Stark Trail: A Byway Through the Green Mountains' (SCENICBYWAY=300, 44.5 mi), matching the catalog line."
+    },
+    {
+      "name": "Northeast Kingdom Byway",
+      "designation": "Vermont Byway",
+      "where": "US 5, VT 114 and VT 5A from St. Johnsbury through Lyndon, East and West Burke, Westmore (Lake Willoughby) and Charleston to Derby and Newport; Caledonia and Orleans counties",
+      "facts": [
+        {
+          "fact": "The 51-mile byway takes in St. Johnsbury, Lyndon, East and West Burke, Westmore, Charleston, Derby and Newport.",
+          "source": "https://www.northeastkingdom.com/scenic-drives"
+        },
+        {
+          "fact": "Lyndon has several covered bridges, among them the Sanborn bridge (1867) and the Randall bridge in Lyndonville (1865).",
+          "source": "https://www.northeastkingdom.com/scenic-drives"
+        },
+        {
+          "fact": "US 5 follows the Passumpsic River north from St. Johnsbury to Lyndon.",
+          "source": "https://en.wikipedia.org/wiki/U.S._Route_5_in_Vermont"
+        },
+        {
+          "fact": "VT 5A runs along the east shore of Lake Willoughby, with overlooks at Devil's Rock and Mount Pisgah and cliffs rising on either side of the lake.",
+          "source": "https://en.wikipedia.org/wiki/Vermont_Route_5A"
+        }
+      ],
+      "review": "Not in the catalog. In the VTrans layer this road is SCENICBYWAY=1000 (about 53.5 mi, St. Johnsbury to the Newport/Derby area by geometry), even though the layer's renderer mislabels 1000 as 'The Shires of Vermont Byway'. Route numbers inferred from the towns listed; Westmore lies only on VT 5A."
+    },
+    {
+      "name": "Scenic Route 100 Byway",
+      "designation": "Vermont Byway",
+      "where": "VT 100 from the Massachusetts line at Stamford through Readsboro, Wilmington, Jamaica, Londonderry, Weston, Ludlow, Plymouth and Killington to Pittsfield, Rochester, Hancock and Granville, with VT 100A to Bridgewater; Bennington, Windham, Windsor, Rutland and Addison counties",
+      "facts": [
+        {
+          "fact": "VT 100 runs along the eastern edge of the Green Mountain National Forest for much of its length and keeps a rural feel through most towns despite the ski areas.",
+          "source": "https://en.wikipedia.org/wiki/Vermont_Route_100"
+        },
+        {
+          "fact": "Ski areas on or near VT 100 include Mount Snow, Okemo and Killington.",
+          "source": "https://en.wikipedia.org/wiki/Vermont_Route_100"
+        },
+        {
+          "fact": "The VTrans byway line (SCENICBYWAY=800) runs about 135 miles from the Massachusetts line at Stamford to the Granville area, with a branch on VT 100A.",
+          "source": "https://maps.vtrans.vermont.gov/arcgis/rest/services/Layers/ScenicByways/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=json"
+        }
+      ],
+      "review": "Catalog designation reads 'Virginia State Scenic Byway', which is wrong (should be Vermont). Catalog line is 47.2 mi (Ludlow to Pittsfield only); VTrans line is about 135 mi, Stamford to Granville. The tourism page gives 146 mi and mentions Stowe and Waterbury, which conflicts with the VTrans line (Stowe/Waterbury are on the Green Mountain Byway). No byway website found."
+    },
+    {
+      "name": "The Shires of Vermont Byway",
+      "designation": "Vermont Byway",
+      "where": "US 7 from the Massachusetts line at Pownal to Bennington, then Historic VT 7A through Shaftsbury and Arlington to Manchester; Bennington County",
+      "facts": [
+        {
+          "fact": "Bennington (the South Shire) and Manchester (the North Shire) are joined by Historic Route 7A, now The Shires of Vermont Byway, in a valley between the Taconic and Green Mountains.",
+          "source": "https://exploretheshires.com/"
+        },
+        {
+          "fact": "The byway is 33 miles, in the valley of the Batten Kill.",
+          "source": "https://vermontvacation.com/things-to-do/trip-ideas-itineraries/scenic-drives/vermont-byways/"
+        },
+        {
+          "fact": "VT 7A, the original routing of US 7, passes the Robert Frost Stone House Museum in Shaftsbury and the Norman Rockwell Gallery and Exhibition in Arlington.",
+          "source": "https://en.wikipedia.org/wiki/Vermont_Route_7A"
+        }
+      ],
+      "review": "Not in the catalog. VTrans line is SCENICBYWAY=900 (about 36 mi; by geometry it starts at the Massachusetts line in Pownal, so it includes US 7 south of Bennington). The layer's renderer also assigns the Shires label to value 1000, but 1000 is the Northeast Kingdom by geometry; use only 900."
+    },
+    {
+      "name": "Stone Valley Byway",
+      "designation": "Vermont Byway",
+      "where": "VT 30 from Manchester Center north through Dorset, Pawlet, Wells, Poultney and Castleton to Hubbardton; Bennington and Rutland counties",
+      "facts": [
+        {
+          "fact": "The byway passes the Dorset Playhouse, a Revolutionary War battlefield historic site and the museums of the Poultney Historical Society.",
+          "source": "https://vermontvacation.com/things-to-do/trip-ideas-itineraries/scenic-drives/vermont-byways/"
+        },
+        {
+          "fact": "North of Manchester VT 30 follows the Mettawee River through Dorset, Pawlet and Wells, passes Lake St. Catherine State Park at Poultney and runs along the east shore of Lake Bomoseen in Hubbardton.",
+          "source": "https://en.wikipedia.org/wiki/Vermont_Route_30"
+        },
+        {
+          "fact": "Poultney, on the Stone Valley Byway, was a slate town and still has slate sidewalks and fences.",
+          "source": "https://vermontvacation.com/72-hours-in-rutland-and-vermonts-stone-valley/"
+        },
+        {
+          "fact": "The Battle of Hubbardton, fought July 7, 1777, was the only battle of the Revolution in Vermont.",
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Hubbardton"
+        }
+      ],
+      "review": "Endpoints from the VTrans line (SCENICBYWAY=500, about 48 mi, Manchester Center to Hubbardton). Catalog line (29.4 mi) stops at Poultney and misses the Castleton and Hubbardton section. No byway website found."
+    }
+  ],
+  "issues": [
+    "No current VTrans program page found; the old program site vermont-byways.us does not resolve, and the list rests on the tourism office page plus the VTrans GIS layer, which agree on the same ten byways.",
+    "Tourism page calls all ten byways 'federally designated'; only the Connecticut River Byway is a National Scenic Byway.",
+    "Catalog scenic-route-100-byway-81467 is labeled 'Virginia State Scenic Byway'; should be Vermont. Its line (47 mi, Ludlow to Pittsfield) is a fraction of the VTrans line (about 135 mi, Stamford to Granville).",
+    "Tourism page describes Scenic Route 100 as 146 mi including Stowe and Waterbury and 'down to West Dover'; this conflicts with the VTrans line, which ends at Granville. Confirm the extent if a VTrans source turns up.",
+    "Catalog lines are partial for Lake Champlain (74.5 mi vs about 179 mi; Addison County missing), Stone Valley (29 mi vs 48; stops at Poultney), Crossroad of Vermont (42 vs 51) and the Vermont side of the Connecticut River (155 vs 319). Consider drawing these from the VTrans layer.",
+    "VTrans layer value 600 (Green Mountain Byway) is only about 14 mi (Waterbury to Stowe), while the byway's own site describes a 71-mile corridor with Routes 15, 15A, 100C and 108; the agency line is likely out of date.",
+    "VTrans layer renderer labels value 1000 as 'The Shires of Vermont Byway'; by geometry it is the Northeast Kingdom Byway.",
+    "Green Mountain Byway site mentions a 'separately designated Smugglers' Notch Scenic Highway' on VT 108; it is not on the byway list and was not added as its own entry.",
+    "No byway websites were found for Crossroad of Vermont, Scenic Route 100 and Stone Valley (url null)."
+  ]
+}

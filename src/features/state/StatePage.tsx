@@ -71,10 +71,13 @@ export default function StatePage() {
           chapter.programs.map((program, index) => {
             const mapped = program.members.filter((m) => m.bywayId && byId.has(m.bywayId))
             const visible = program.members.filter((m) => !m.bywayId || !theme || byId.get(m.bywayId)?.themes.includes(theme))
-            const federal = program.kind ? program.kind === 'federal' : index > 0
+            const kind = program.kind ?? (index > 0 ? 'federal' : 'state')
+            const federal = kind !== 'state'
             return (
               <section className={s.section} key={program.label}>
-                <span className="kicker">{federal ? 'Federal designation' : 'State designation'}</span>
+                <span className="kicker">
+                  {kind === 'other' ? 'Not designated' : federal ? 'Federal designation' : 'State designation'}
+                </span>
                 <h2>
                   {program.label} · {program.issuer === 'Wisconsin Department of Transportation' ? 'WisDOT' : program.issuer}
                 </h2>
