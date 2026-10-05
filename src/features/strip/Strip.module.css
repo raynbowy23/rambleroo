@@ -1255,3 +1255,13 @@
   font-size: var(--step--1);
   pointer-events: none;
 }
+
+/* Inset map tools stay out of the map's way on mouse-driven screens. */
+@media (pointer: fine) {
+  .mapControls button {
+    min-width: 30px;
+    min-height: 30px;
+    padding: 2px 8px;
+    font-size: 16px;
+  }
+}

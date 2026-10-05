@@ -369,3 +369,18 @@ p {
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
+
+/* Mouse and trackpad: compact buttons, so actions don't crowd cards and map overlays. Touch screens keep the 44 px targets above. */
+@media (pointer: fine) {
+  .btn {
+    min-height: 34px;
+    padding: 0 var(--space-4);
+    gap: 6px;
+    font-size: var(--step--1);
+    border-radius: 8px;
+  }
+  .btn-icon {
+    min-height: 32px;
+    min-width: 32px;
+  }
+}
