@@ -37,13 +37,13 @@ Wisconsin is the model. Its chapter (`content/states/WI.json`, shown at `/state/
 
 ## Status
 
-Research on 2026-10-04 (every link fetched and checked; the full registry with byway names and notes is ). "Possible gaps" counts official byway names with no close name match in the catalog for that state. It overcounts (spelling and naming differences), so each one needs a human check before it counts as missing. "—" means the official page doesn't list names.
+Research on 2026-10-04 (every link fetched and checked; the full registry with byway names and notes is in [content/state-programs.json](../content/state-programs.json)). "Possible gaps" counts official byway names with no close name match in the catalog for that state. It overcounts (spelling and naming differences), so each one needs a human check before it counts as missing. "—" means the official page doesn't list names.
 
 | State | Program page | GIS route lines | Byways listed | Possible gaps | Chapter |
 | --- | --- | --- | --- | --- | --- |
 | Alabama | [Alabama Scenic Byways Advisory Council (created by the Alabama the Beautiful Act, 2000), with an ALDOT state scenic byway coordinator; site run c/o Alabama Association of Regional Councils](https://alabamabyways.com/) | no | 11 | 2 |  |
 | Alaska | [Alaska Department of Transportation & Public Facilities (Data, Modernization, and Innovation Office)](https://dot.alaska.gov/dmio/scenic/) | yes | 18 | 7 |  |
-| Arizona | [Arizona Department of Transportation (ADOT), Parkways, Historic and Scenic Roads Advisory Committee](https://azdot.gov/about/historic-and-scenic-roads/list-scenic-roads) | yes | 28 | 8 |  |
+| Arizona | [Arizona Department of Transportation (ADOT), Parkways, Historic and Scenic Roads Advisory Committee](https://azdot.gov/about/historic-and-scenic-roads/list-scenic-roads) | yes | 28 | 0 (3 filled, Walker listed without a line) | done |
 | Arkansas | [Arkansas Department of Transportation (ARDOT), Right of Way Division, Beautification Section](https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/) | yes | 12 | 4 |  |
 | California | [California Department of Transportation (Caltrans)](https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-i-scenic-highways) | yes | — | — |  |
 | Colorado | [Colorado Department of Transportation (CDOT), with the Colorado Scenic and Historic Byways Commission](https://www.codot.gov/travel/coloradobyways) | yes | 26 | 2 |  |
@@ -57,13 +57,13 @@ Research on 2026-10-04 (every link fetched and checked; the full registry with b
 | Indiana | [Indiana Department of Transportation (INDOT)](https://secure.in.gov/indot/public-involvement/planning-efforts-at-indot/indiana-scenic-byways/) | no | 9 | 3 |  |
 | Iowa | [Iowa Department of Transportation](https://iowadot.gov/modes-travel/roads-highways/iowas-byways/program-information) | yes | — | — |  |
 | Kansas | [Kansas Tourism with the Kansas Department of Transportation (KDOT); designations by KDOT resolution](https://www.travelks.com/things-to-do/byways-and-highways/byways/) | yes | 13 | 2 |  |
-| Kentucky | [Kentucky Transportation Cabinet (KYTC), Office of Local Programs](https://transportation.ky.gov/LocalPrograms/Pages/Scenic-Byways.aspx) | yes | — | — |  |
+| Kentucky | [Kentucky Transportation Cabinet (KYTC), Office of Local Programs](https://transportation.ky.gov/LocalPrograms/Pages/Scenic-Byways.aspx) | yes | 38 | 0 (17 filled, 3 national lines disagree with KYTC) | done |
 | Louisiana | [Louisiana Department of Culture, Recreation & Tourism, Office of Tourism (Office of the Lt. Governor)](https://byways.explorelouisiana.com/) | no | 17 | 12 |  |
 | Maine | [Maine Department of Transportation (MaineDOT), Bureau of Planning; promoted by Visit Maine (Maine Office of Tourism)](https://visitmaine.com/things-to-do/scenic-byways-trails/) | yes | 13 | 7 |  |
 | Maryland | [Maryland Department of Transportation State Highway Administration (MDOT SHA), Office of Planning and Preliminary Engineering](https://roads.maryland.gov/mdotsha/pages/Index.aspx?PageId=97) | yes | — | — |  |
 | Massachusetts | not verified | yes | — | — |  |
 | Michigan | [Michigan Department of Transportation (MDOT)](https://www.michigan.gov/mdot/travel/tourists/byways/program-information) | no | 22 | 17 |  |
-| Minnesota | [Minnesota Department of Transportation (MnDOT), with Explore Minnesota Tourism and partner agencies](https://www.dot.state.mn.us/scenicbyways/) | yes | 22 | 4 |  |
+| Minnesota | [Minnesota Department of Transportation (MnDOT), with Explore Minnesota Tourism and partner agencies](https://www.dot.state.mn.us/scenicbyways/) | yes | 22 | 0 (1 filled, 3 renamed) | done |
 | Mississippi | not verified | no | — | — |  |
 | Missouri | [Missouri Department of Transportation (MoDOT)](https://www.modot.org/scenic-byways-contacts) | yes | 11 | 2 |  |
 | Montana | [Montana Department of Transportation (MDT), Scenic Historic Byways Advisory Council and Montana Transportation Commission](https://www.mdt.mt.gov/travinfo/scenic.aspx) | no | — | — |  |

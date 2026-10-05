@@ -78,7 +78,7 @@ for (const source of stateSources) {
   const features: Feature<LineString, Props>[] = []
   for (const b of source.byways) {
     const q = new URLSearchParams({
-      where: `${source.nameField}='${(b.match ?? b.name).replaceAll("'", "''")}'`,
+      where: `${source.nameField}='${(b.match ?? b.name).replaceAll("'", "''")}'${source.where ? ` AND ${source.where}` : ''}`,
       outFields: '*',
       outSR: '4326',
       f: 'geojson',

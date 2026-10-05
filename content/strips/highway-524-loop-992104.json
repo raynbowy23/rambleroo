@@ -1,0 +1,36 @@
+{
+  "bywayId": "highway-524-loop-992104",
+  "reviewed": false,
+  "generated": true,
+  "title": "Highway 524 Loop",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Westport",
+      "wikipedia": "Westport, Kentucky",
+      "weight": 5058
+    },
+    {
+      "name": "Oldham",
+      "wikipedia": "",
+      "osm": "node/153584509",
+      "at": [
+        -85.4210695,
+        38.4975639
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Green Hill",
+      "wikipedia": "",
+      "osm": "node/11380460101",
+      "at": [
+        -85.4543552,
+        38.4779427
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

@@ -129,5 +129,177 @@
         "nsb": false
       }
     ]
+  },
+  {
+    "state": "AZ",
+    "agency": "Arizona Department of Transportation",
+    "layer": "https://services1.arcgis.com/XAiBIVuto7zeZj1B/arcgis/rest/services/Historic_and_Scenic_Routes/FeatureServer/0",
+    "nameField": "Descriptio",
+    "byways": [
+      {
+        "name": "Copper Corridor Scenic Road (SR 77)",
+        "match": "Copper Corridor Scenic Road East",
+        "id": 990401,
+        "designation": "Arizona Scenic Road",
+        "nsb": false
+      },
+      {
+        "name": "Copper Corridor Scenic Road (SR 177)",
+        "match": "Copper Corridor Scenic Road West",
+        "id": 990402,
+        "designation": "Arizona Scenic Road",
+        "nsb": false
+      },
+      {
+        "name": "Organ Pipe Cactus Parkway",
+        "id": 990403,
+        "designation": "Arizona Parkway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "MN",
+    "agency": "Minnesota Department of Transportation",
+    "layer": "https://webgis.dot.state.mn.us/65agsf1/rest/services/sdw_trans/SCENIC_BYWAY/MapServer/0",
+    "nameField": "SCENIC_BYWAY_DESC",
+    "where": "ROUTE_ID LIKE '%-I'",
+    "comment": "MnDOT draws each route once per direction (ROUTE_ID ending -I and -D); only the increasing direction is kept.",
+    "byways": [
+      {
+        "name": "Lake Mille Lacs Scenic Byway",
+        "id": 992701,
+        "designation": "Minnesota State Scenic Byway",
+        "nsb": false
+      }
+    ]
+  },
+  {
+    "state": "KY",
+    "agency": "Kentucky Transportation Cabinet",
+    "layer": "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/Scenic_Byways_Public/FeatureServer/0",
+    "nameField": "ROAD",
+    "comment": "KYTC does not record which routes are scenic byways and which are scenic highways, so the designation names both.",
+    "byways": [
+      {
+        "name": "Blues to Bluegrass Scenic Byway (Bill Monroe Bluegrass Trail)",
+        "match": "BLUES TO BLUEGRASS-BILL MONROE BG TRAIL",
+        "id": 992101,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Blues to Bluegrass Scenic Byway (Everly Brothers Rock-N-Roll Trail)",
+        "match": "BLUES TO BG-EVERLY BROS. ROCK & ROLL TR.",
+        "id": 992102,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Blues to Bluegrass Scenic Byway (W.C. Handy Blues Trail)",
+        "match": "BLUES TO BLUEGRASS-W.C. HANDY BLUES TR.",
+        "id": 992103,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Highway 524 Loop",
+        "match": "HIGHWAY 524 LOOP",
+        "id": 992104,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Hughes Lane",
+        "match": "HUGHES LANE",
+        "id": 992105,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Ironworks Pike",
+        "match": "IRON WORKS PIKE",
+        "id": 992106,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "KY 160-Black Mountain",
+        "match": "KY 160-BLACK MOUNTAIN ROAD",
+        "id": 992107,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "KY 89",
+        "match": "KY 89",
+        "id": 992108,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Mary Ingles Highway",
+        "match": "MARY INGLES HIGHWAY",
+        "id": 992109,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "North Cleveland Road",
+        "match": "NORTH CLEVELAND ROAD",
+        "id": 992110,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Old Richmond Road and Grimes Mill Road",
+        "match": "OLD RICHMOND (US25)/GRIMES MILL ROAD",
+        "id": 992111,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Ridgetop Scenic Byway",
+        "match": "RIDGE TOP",
+        "id": 992112,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Russell Cave Road",
+        "match": "RUSSELL CAVE ROAD",
+        "id": 992113,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Van Meter, Rice, and Elkchester Roads",
+        "match": "RICE-VAN METER-ELKCHESTER ROAD",
+        "id": 992114,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Winchester Road Corridor",
+        "match": "WINCHESTER ROAD CORRIDOR",
+        "id": 992115,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Zollicoffer-Thomas Scenic Byway",
+        "match": "THE ZOLLICOFFER-THOMAS SCENIC BYWAY",
+        "id": 992116,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      },
+      {
+        "name": "Daniel Boone Heritage Trail",
+        "match": "DANIEL BOONE HERITAGE TRAIL",
+        "id": 992117,
+        "designation": "Kentucky Scenic Byway or Highway",
+        "nsb": false
+      }
+    ]
   }
 ]

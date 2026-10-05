@@ -5,6 +5,8 @@ export interface StateSource {
   agency: string
   layer: string
   nameField: string
+  /** Extra SQL condition ANDed onto every query, e.g. to keep one direction where a layer draws both carriageways. */
+  where?: string
   comment?: string
   /** `match`: the value in nameField when the agency abbreviates names (FDOT: 'JC PENNEY MEM HWY'); `name` is what Rambleroo shows. */
   byways: { name: string; match?: string; id: number; designation: string; nsb: boolean }[]
