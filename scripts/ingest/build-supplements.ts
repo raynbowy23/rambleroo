@@ -7,7 +7,7 @@
 // Usage: npx tsx scripts/ingest/build-supplements.ts
 import { stateSources, supplementFile } from '../states/sources.ts'
 import { readFile, writeFile } from 'node:fs/promises'
-import type { Feature, LineString, Position } from 'geojson'
+import type { Feature, LineString, MultiLineString, Position } from 'geojson'
 
 const ROOT = new URL('../../', import.meta.url)
 const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway catalog; personal project)' }
@@ -47,6 +47,18 @@ type Props = {
   NSB_DESIG: string
   USFS_DESIG: string
   DESIGNATS: string
+  /** 'T' on agency lines that replace a mis-drawn national line with the same BYWAY_ID (build-catalog drops the national parts). */
+  REPLACES?: 'T'
+}
+
+// The stretch of `lines` within `radius` miles (along the line) of the vertex nearest `center`.
+function clipAround(lines: Position[][], center: Position, radius: number): Position[] {
+  let best = { line: lines[0], index: 0, d: Infinity }
+  for (const line of lines) line.forEach((p, index) => miles(p, center) < best.d && (best = { line, index, d: miles(p, center) }))
+  const along = [0]
+  for (let i = 1; i < best.line.length; i++) along.push(along[i - 1] + miles(best.line[i - 1], best.line[i]))
+  const mid = along[best.index]
+  return best.line.filter((_, i) => Math.abs(along[i] - mid) <= radius)
 }
 const feature = (
   fid: number,
@@ -77,18 +89,37 @@ let stateFeatureCount = 0
 for (const source of stateSources) {
   const features: Feature<LineString, Props>[] = []
   for (const b of source.byways) {
-    const q = new URLSearchParams({
-      where: `${source.nameField}='${(b.match ?? b.name).replaceAll("'", "''")}'${source.where ? ` AND ${source.where}` : ''}`,
-      outFields: '*',
-      outSR: '4326',
-      f: 'geojson',
-    })
-    const d = await getJson(`${source.layer}/query?${q}`)
-    for (const f of d.features) {
-      const lines: Position[][] = f.geometry.type === 'LineString' ? [f.geometry.coordinates] : f.geometry.coordinates
-      for (const line of lines) features.push(feature(fid++, b.id, b.name, source.state, b.designation, b.nsb, line))
+    let lines: Position[][]
+    if (b.osm) {
+      const d = await getJson(
+        'https://overpass-api.de/api/interpreter?' +
+          new URLSearchParams({ data: `[out:json][timeout:60];way(id:${b.osm.ways.join(',')});out geom;` }),
+      )
+      if (d.elements.length !== b.osm.ways.length)
+        throw new Error(`${b.name}: expected ${b.osm.ways.length} OpenStreetMap ways, got ${d.elements.length}`)
+      lines = d.elements.map((way: { geometry: { lon: number; lat: number }[] }) =>
+        way.geometry.map((p) => [Math.round(p.lon * 1e5) / 1e5, Math.round(p.lat * 1e5) / 1e5]),
+      )
+    } else {
+      const q = new URLSearchParams({
+        where: `${source.nameField}='${(b.match ?? b.name).replaceAll("'", "''")}'${source.where ? ` AND ${source.where}` : ''}`,
+        outFields: '*',
+        outSR: '4326',
+        f: 'geojson',
+      })
+      const d = await getJson(`${source.layer}/query?${q}`)
+      lines = d.features.flatMap((f: Feature<LineString | MultiLineString>) =>
+        f.geometry.type === 'LineString' ? [f.geometry.coordinates] : f.geometry.coordinates,
+      )
     }
-    const pieces = features.filter((f) => f.properties.BYWAY_ID === b.id)
+    if (b.clip) lines = [clipAround(lines, b.clip.center, b.clip.miles)]
+    if (!lines.length) throw new Error(`${b.name}: no geometry`)
+    for (const line of lines) {
+      const f = feature(fid++, b.replaces ?? b.id, b.name, source.state, b.designation, b.nsb, line)
+      if (b.replaces) f.properties.REPLACES = 'T'
+      features.push(f)
+    }
+    const pieces = features.filter((f) => f.properties.BYWAY_ID === (b.replaces ?? b.id))
     const total = pieces.reduce((s, f) => s + f.properties.LENGTH, 0)
     console.log(`${source.agency} ${b.name}: ${Math.round(total)} mi in ${pieces.length} pieces`)
   }

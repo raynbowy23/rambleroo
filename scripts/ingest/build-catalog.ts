@@ -1,4 +1,4 @@
-import { supplementFiles } from '../states/sources.ts'
+import { applyReplacements, supplementFiles } from '../states/sources.ts'
 // Normalises the raw snapshots in data/raw/ into the display data the app loads from public/data/.
 // Run with `npm run ingest:build` after `npm run ingest:fetch`. Deterministic for a given snapshot.
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises'
@@ -32,6 +32,7 @@ interface RawProps {
   NSB_DESIG: string
   USFS_DESIG: string
   DESIGNATS: string
+  REPLACES?: 'T'
 }
 
 async function main() {
@@ -43,6 +44,8 @@ async function main() {
     const extra = await readJson<FeatureCollection<LineString | MultiLineString, RawProps>>(new URL(name, RAW)).catch(() => undefined)
     if (extra) raw.features.push(...extra.features)
   }
+  // An agency line marked REPLACES takes the place of the national parts with the same BYWAY_ID.
+  raw.features = applyReplacements(raw.features)
   const statesFc = await readJson<FeatureCollection<Polygon | MultiPolygon, any>>(
     new URL('ne_50m_admin_1_states_provinces_lakes.geojson', RAW),
   )

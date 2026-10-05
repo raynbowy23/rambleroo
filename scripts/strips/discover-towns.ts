@@ -1,4 +1,4 @@
-import { supplementFiles } from '../states/sources.ts'
+import { applyReplacements, supplementFiles } from '../states/sources.ts'
 // Drafts a strip content file for a byway that has none yet: finds towns along the road with Wikipedia's geosearch and writes
 // content/strips/<id>.json marked `generated: true`. build-strip.ts then orders the towns by mile and drafts stretches between
 // them. Nothing here is editorial: the output says so in the UI until someone reviews it.
@@ -74,13 +74,14 @@ async function api(params: Record<string, string>) {
 const stateNames: Record<string, string> = await json('scripts/photos/states.json')
 const catalog = (await json<{ byways: { id: string; name: string; states: string[] }[] }>('public/data/catalog.json')).byways
 const raw = await json<{
-  features: { properties: { BYWAY_ID: number }; geometry: { type: string; coordinates: Position[] | Position[][] } }[]
+  features: { properties: { BYWAY_ID: number; REPLACES?: string }; geometry: { type: string; coordinates: Position[] | Position[][] } }[]
 }>('data/raw/scenic_byways.geojson')
 // Supplemental sources (WisDOT byways, classic drives) share the schema.
 for (const name of supplementFiles) {
   const extra = await json<typeof raw>(`data/raw/${name}`).catch(() => undefined)
   if (extra) raw.features.push(...extra.features)
 }
+raw.features = applyReplacements(raw.features)
 
 for (const id of process.argv.slice(2).filter((arg) => !arg.startsWith('--'))) {
   const target = new URL(`content/strips/${id}.json`, ROOT)

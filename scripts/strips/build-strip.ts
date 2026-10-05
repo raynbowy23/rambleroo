@@ -1,4 +1,4 @@
-import { supplementFiles } from '../states/sources.ts'
+import { applyReplacements, supplementFiles } from '../states/sources.ts'
 // Builds a strip-map ("ribbon") dataset for one curated byway: the byway's source pieces chained into one ordered drive with
 // cumulative miles, a side branch where the road forks, towns / story moments / photos placed at their true mile, and
 // editorial stretches with drive times routed by OSRM once at build time.
@@ -76,13 +76,14 @@ function project(line: Position[], cum: number[], p: Position) {
 
 // ---------- 1. collect source parts ----------
 const raw = await json<{
-  features: { properties: { BYWAY_ID: number }; geometry: { type: string; coordinates: Position[] | Position[][] } }[]
+  features: { properties: { BYWAY_ID: number; REPLACES?: string }; geometry: { type: string; coordinates: Position[] | Position[][] } }[]
 }>('data/raw/scenic_byways.geojson')
 // Supplemental sources (WisDOT byways, classic drives) share the schema.
 for (const name of supplementFiles) {
   const extra = await json<typeof raw>(`data/raw/${name}`).catch(() => undefined)
   if (extra) raw.features.push(...extra.features)
 }
+raw.features = applyReplacements(raw.features)
 let parts: Position[][] = raw.features
   .filter((f) => f.properties.BYWAY_ID === sourceId)
   .flatMap((f) => (f.geometry.type === 'LineString' ? [f.geometry.coordinates as Position[]] : (f.geometry.coordinates as Position[][])))

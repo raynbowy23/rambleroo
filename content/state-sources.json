@@ -155,8 +155,25 @@
         "id": 990403,
         "designation": "Arizona Parkway",
         "nsb": false
+      },
+      {
+        "name": "Walker Scenic Road",
+        "id": 990404,
+        "designation": "Arizona Scenic Road",
+        "nsb": false,
+        "osm": {
+          "ways": [
+            16980860,
+            16980873,
+            194001301,
+            194001299,
+            16980071,
+            16958456
+          ]
+        }
       }
-    ]
+    ],
+    "comment": "Walker Scenic Road (Yavapai County Route 57) is in neither the national dataset nor ADOT's layer; it is drawn from the OpenStreetMap ways of Walker Road between SR 69 and Walker."
   },
   {
     "state": "MN",
@@ -179,126 +196,157 @@
     "agency": "Kentucky Transportation Cabinet",
     "layer": "https://services2.arcgis.com/CcI36Pduqd0OR4W9/arcgis/rest/services/Scenic_Byways_Public/FeatureServer/0",
     "nameField": "ROAD",
-    "comment": "KYTC does not record which routes are scenic byways and which are scenic highways, so the designation names both.",
+    "comment": "KYTC does not record which routes are scenic byways and which are scenic highways, so its own lines are labelled scenic highways. The national dataset draws Pisgah Pike, Boone Creek and Shakertown Road in the wrong place; KYTC's lines replace them (Shakertown Road is the 2.4 miles of US 68 at the Pleasant Hill entrance).",
     "byways": [
       {
         "name": "Blues to Bluegrass Scenic Byway (Bill Monroe Bluegrass Trail)",
         "match": "BLUES TO BLUEGRASS-BILL MONROE BG TRAIL",
         "id": 992101,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Blues to Bluegrass Scenic Byway (Everly Brothers Rock-N-Roll Trail)",
         "match": "BLUES TO BG-EVERLY BROS. ROCK & ROLL TR.",
         "id": 992102,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Blues to Bluegrass Scenic Byway (W.C. Handy Blues Trail)",
         "match": "BLUES TO BLUEGRASS-W.C. HANDY BLUES TR.",
         "id": 992103,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Highway 524 Loop",
         "match": "HIGHWAY 524 LOOP",
         "id": 992104,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Hughes Lane",
         "match": "HUGHES LANE",
         "id": 992105,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Ironworks Pike",
         "match": "IRON WORKS PIKE",
         "id": 992106,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "KY 160-Black Mountain",
         "match": "KY 160-BLACK MOUNTAIN ROAD",
         "id": 992107,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "KY 89",
         "match": "KY 89",
         "id": 992108,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Mary Ingles Highway",
         "match": "MARY INGLES HIGHWAY",
         "id": 992109,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "North Cleveland Road",
         "match": "NORTH CLEVELAND ROAD",
         "id": 992110,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Old Richmond Road and Grimes Mill Road",
         "match": "OLD RICHMOND (US25)/GRIMES MILL ROAD",
         "id": 992111,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Ridgetop Scenic Byway",
         "match": "RIDGE TOP",
         "id": 992112,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Russell Cave Road",
         "match": "RUSSELL CAVE ROAD",
         "id": 992113,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Van Meter, Rice, and Elkchester Roads",
         "match": "RICE-VAN METER-ELKCHESTER ROAD",
         "id": 992114,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Winchester Road Corridor",
         "match": "WINCHESTER ROAD CORRIDOR",
         "id": 992115,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Zollicoffer-Thomas Scenic Byway",
         "match": "THE ZOLLICOFFER-THOMAS SCENIC BYWAY",
         "id": 992116,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
       },
       {
         "name": "Daniel Boone Heritage Trail",
         "match": "DANIEL BOONE HERITAGE TRAIL",
         "id": 992117,
-        "designation": "Kentucky Scenic Byway or Highway",
+        "designation": "Kentucky Scenic Highway",
         "nsb": false
+      },
+      {
+        "name": "Pisgah Pike Scenic Byway",
+        "match": "PISGAH PIKE",
+        "id": 992118,
+        "designation": "Kentucky State Scenic Byway",
+        "nsb": false,
+        "replaces": 2131
+      },
+      {
+        "name": "Boone Creek Scenic Byway",
+        "match": "BOONE CREEK SCENIC ROAD",
+        "id": 992119,
+        "designation": "Kentucky State Scenic Byway",
+        "nsb": false,
+        "replaces": 2125
+      },
+      {
+        "name": "Shakertown Road",
+        "match": "US 68 HERITAGE CORRIDOR",
+        "id": 992120,
+        "designation": "Kentucky State Scenic Byway",
+        "nsb": false,
+        "replaces": 2128,
+        "clip": {
+          "center": [
+            -84.7403,
+            37.818
+          ],
+          "miles": 1.2
+        }
       }
     ]
   }

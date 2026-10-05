@@ -2,7 +2,7 @@
   "code": "KY",
   "name": "Kentucky",
   "tagline": "Horse farms behind stone fences, coal-town hollows and two rivers' worth of ferry landings.",
-  "intro": "Kentucky's byways wind between the plank and limestone fences of the Bluegrass horse farms, climb into the coal country of the Cumberland Plateau, follow Daniel Boone's road north from Cumberland Gap, and run along the Ohio and the Mississippi. This chapter follows the Scenic Byways and Highways program of the Kentucky Transportation Cabinet, whose 2016 list names each route; KYTC does not say which are byways and which are highways, so Rambleroo labels its own lines with both.",
+  "intro": "Kentucky's byways wind between the plank and limestone fences of the Bluegrass horse farms, climb into the coal country of the Cumberland Plateau, follow Daniel Boone's road north from Cumberland Gap, and run along the Ohio and the Mississippi. This chapter follows the Scenic Byways and Highways program of the Kentucky Transportation Cabinet, whose 2016 list names each route; KYTC does not say which are byways and which are highways, so lines drawn from its route layer are labelled scenic highways.",
   "programs": [
     {
       "label": "Kentucky Scenic Byways and Highways",
@@ -47,7 +47,7 @@
           "bywayId": "boone-creek-scenic-byway-2125",
           "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf",
           "blurb": "A short loop east of Lexington down into the valley of Boone's Creek, where Grimes Mill Road passes an 1803 stone mill with walls three and a half feet thick, the clubhouse of a fox hunt since 1928.",
-          "note": "The national dataset's line sits west of KYTC's Boone Creek loop and is shorter. The line here has not yet been checked against KYTC."
+          "note": "Route line from KYTC; the 2022 national dataset drew this road in the wrong place."
         },
         {
           "name": "Cordell Hull Highway",
@@ -164,7 +164,7 @@
           "bywayId": "pisgah-pike-scenic-byway-2131",
           "url": "https://nsbfoundation.com/sb/pisgah-pike-scenic-byway/",
           "blurb": "Five miles of Woodford County farm road from US 60 up to Old Frankfort Pike, through Pisgah, settled by Virginians in 1784, where the Presbyterian church has stood since 1812.",
-          "note": "The national dataset draws this road along a different line from KYTC, whose Pisgah Pike runs north from US 60 to Old Frankfort Pike. The line here has not yet been checked against KYTC."
+          "note": "Route line from KYTC; the 2022 national dataset drew this road in the wrong place."
         },
         {
           "name": "Red River Gorge Scenic Byways",
@@ -203,7 +203,7 @@
           "bywayId": "shakertown-road-2128",
           "url": "https://nsbfoundation.com/sb/shakertown-road/",
           "blurb": "A short run of US 68 between hand-laid stone fences into Pleasant Hill, where the Shakers lived from 1805 to 1910 in big stone and brick dwellings set along stone walks.",
-          "note": "KYTC designates 2.4 miles of US 68 at the Pleasant Hill entrance; the national dataset draws a much longer stretch."
+          "note": "Route line from KYTC: the 2.4 miles of US 68 either side of the Pleasant Hill entrance. The 2022 national dataset drew a much longer stretch."
         },
         {
           "name": "US 42",
