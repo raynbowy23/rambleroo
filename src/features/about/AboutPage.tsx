@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <main className={styles.page}>
       <span className="kicker">About the data</span>
-      <h1>Scenic roads of America, mile by mile.</h1>
+      <h1>America's scenic byways</h1>
       <p>
         Rambleroo brings together {byways.length ? usdot.toLocaleString() : '…'} scenic byways from the USDOT source layer,{' '}
         {byways.length ? stateLayers : '…'} more from state DOT route layers, and {byways.length ? classics : '…'} classic drives that are
