@@ -26,8 +26,22 @@ export function loadBywayGeometry() {
 }
 export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySummary[]) {
   const c = palette()
-  // One ink for every road; the landscape motif (closer in) and the landmark glyph tell the families apart, not the colour.
-  const color = c('route-ink')
+  // Each road family in its own earth ink (all browns and umbers, so the map stays sepia), with the landscape motif closer in.
+  const color: ExpressionSpecification = [
+    'match',
+    ['get', 'scene'],
+    ['river', 'coast'],
+    c('route-water'),
+    'mountain',
+    c('route-mountain'),
+    'forest',
+    c('route-forest'),
+    'desert',
+    c('route-desert'),
+    'prairie',
+    c('route-prairie'),
+    c('route-town'),
+  ]
   const motif: ExpressionSpecification = [
     'match',
     ['get', 'scene'],
@@ -43,7 +57,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     'route-prairie',
     'route-stitch',
   ]
-  const motifWidth: ExpressionSpecification = ['interpolate', ['linear'], ['zoom'], 4.5, 5, 6, 6.5, 8, 9, 11, 12, 14, 16]
+  const motifWidth: ExpressionSpecification = ['interpolate', ['linear'], ['zoom'], 4.5, 6, 6, 7.5, 8, 10, 11, 14, 14, 18]
   addRouteArt(map)
   const round = { 'line-cap': 'round', 'line-join': 'round' } as const
   map.addSource('byways', { type: 'geojson', data, promoteId: 'id', tolerance: 1, buffer: 32, maxzoom: 12 })
@@ -54,8 +68,8 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     layout: round,
     paint: {
       'line-color': c('paper'),
-      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 2.6, 5, 3.6, 8, 8, 11, 12, 14, 17],
-      'line-opacity': 0.7,
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 3.4, 5, 4.8, 8, 9, 11, 13, 14, 19],
+      'line-opacity': 0.8,
     },
   })
   // National view: a hand-inked line (thin ink edge round the colour) so tiny roads still read crisply and never break into dashes.
@@ -67,8 +81,8 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     layout: round,
     paint: {
       'line-color': c('ink'),
-      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1.6, 5, 2.4],
-      'line-opacity': ['interpolate', ['linear'], ['zoom'], 2, 0.18, 4.6, 0.18, 5.6, 0],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 2.4, 5, 3.4],
+      'line-opacity': ['interpolate', ['linear'], ['zoom'], 2, 0.3, 4.6, 0.3, 5.6, 0],
     },
   })
   map.addLayer({
@@ -78,7 +92,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     layout: round,
     paint: {
       'line-color': color,
-      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1.1, 5, 1.8, 8, 3, 14, 4.5],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1.6, 5, 2.4, 8, 3.6, 14, 5.2],
       'line-opacity': ['interpolate', ['linear'], ['zoom'], 4.6, 1, 5.6, 0],
     },
   })
@@ -121,7 +135,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     ctx.stroke(path)
     ctx.fill(path)
     ctx.fillStyle = c('land-us')
-    ctx.strokeStyle = c('route-ink')
+    ctx.strokeStyle = c('ink')
     ctx.lineWidth = 1.6
     ctx.fill(path)
     ctx.stroke(path)

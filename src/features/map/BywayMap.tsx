@@ -227,13 +227,18 @@ export function BywayMap({
     if (!ready || !map) return
     setMomentPins(map, selected && selected.status !== 'listing' ? selected.id : undefined, moments ?? [])
   }, [selected, moments, ready])
+  // Frame a road only when a different road is picked. Closing the card, or dragging the sheet (which changes the padding), keeps
+  // whatever view the reader has zoomed to.
+  const framed = useRef<string | undefined>(undefined)
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
     if (!selected) {
-      map.fitBounds(regions['Lower 48'], { padding, duration: 0 })
+      framed.current = undefined
       return
     }
+    if (framed.current === selected.id) return
+    framed.current = selected.id
     map.fitBounds(selected.bbox, {
       padding: {
         top: Math.max(64, padding.top),
@@ -285,7 +290,13 @@ export function BywayMap({
       <div data-map-decoration className={styles.legend}>
         {strokes.map((stroke) => (
           <span className={styles.legendItem} key={stroke.family}>
-            <svg width="32" height="16" viewBox="0 0 32 16" aria-hidden="true" style={{ color: 'var(--map-route-ink)' }}>
+            <svg
+              width="32"
+              height="16"
+              viewBox="0 0 32 16"
+              aria-hidden="true"
+              style={{ color: `var(--map-${stroke.color}, var(--${stroke.color}))` }}
+            >
               {/* The same motif the map draws on each road, so the key matches what you see when zoomed in. */}
               <path d={stroke.path} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               {stroke.fill && <path d={stroke.fill} fill="currentColor" />}

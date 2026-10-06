@@ -58,23 +58,12 @@
   --map-forest: #5a7a4c;
   --map-forest-2: #5a7a4c;
   /* One colour per road family, shared by the map strokes, legend, strip ribbon and theme chips. */
-  /* Every road is drawn in one ink: a muted map green that sits on the painted landscape. */
-  --map-route-ink: #3f5a36;
-  /* Painted landscape by elevation (metres) and its hill shading. */
-  --map-landscape-0: #c9cfa5;
-  --map-landscape-300: #ccd0a0;
-  --map-landscape-800: #d9cf9f;
-  --map-landscape-1400: #d8bd8a;
-  --map-landscape-2200: #c3a27c;
-  --map-landscape-3200: #ab9681;
-  --map-landscape-4200: #efe9dc;
-  --map-landscape-shadow: #5d5039;
-  --map-route-water: #3f7d88;
-  --map-route-mountain: #74607e;
-  --map-route-forest: #557a4a;
-  --map-route-desert: #b9703f;
-  --map-route-town: #9c4b40;
-  --map-route-prairie: #ae8a3a;
+  --map-route-water: #3f6a6c;
+  --map-route-mountain: #6a4a5c;
+  --map-route-forest: #4f5c2e;
+  --map-route-desert: #a35a2a;
+  --map-route-town: #7d3527;
+  --map-route-prairie: #94701f;
 
   /* Scene palette used by illustrations */
   --sky-dawn: #f2d9b8;
