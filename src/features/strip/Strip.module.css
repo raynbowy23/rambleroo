@@ -1265,3 +1265,25 @@
     font-size: 16px;
   }
 }
+
+/* Phones: the print button gets its own line above the kicker, and the floating inset map stays a small corner card. */
+@media (max-width: 759px) {
+  .introCopy > :global(.btn) {
+    display: flex;
+    width: fit-content;
+    margin: 10px 0 14px;
+  }
+  .intro h1 {
+    font-size: 32px;
+  }
+  .inset:not(.expanded):not(.reliefMap) {
+    width: 132px;
+    height: 132px;
+  }
+  .mapToggle,
+  .expanded .mapToggle {
+    inset: auto 0 6px;
+    padding: 2px 4px;
+    font-size: 12px;
+  }
+}

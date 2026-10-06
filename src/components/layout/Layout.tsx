@@ -30,12 +30,12 @@ export default function Layout() {
           <Icon name={icon} size={18} />
           {label}
           {label === 'Trip' && (
-            <span className={styles.badge} aria-label={`${tripCount} roads`}>
+            <span className={styles.badge} data-zero={tripCount ? undefined : ''} aria-label={`${tripCount} roads`}>
               {tripCount}
             </span>
           )}
           {label === 'Passport' && (
-            <span className={styles.badge} aria-label={`${count} saves and visits`}>
+            <span className={styles.badge} data-zero={count ? undefined : ''} aria-label={`${count} saves and visits`}>
               {count}
             </span>
           )}
@@ -51,7 +51,7 @@ export default function Layout() {
       </a>
       <header className={styles.header}>
         <Link viewTransition to="/" className={styles.logo} aria-label="Rambleroo home">
-          <Logo size={52} />
+          <Logo size={52} className={styles.logoImg} />
         </Link>
         <span className={`kicker ${styles.tagline}`}>Est. 2026 · Scenic roads of America</span>
         <nav className={styles.desktop} aria-label="Main navigation">

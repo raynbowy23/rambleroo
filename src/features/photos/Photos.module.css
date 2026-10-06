@@ -103,3 +103,21 @@
   min-height: 44px;
   padding-block: 10px;
 }
+
+/* The credit chip is a small label inside a full-size, invisible tap area. */
+.chip button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.chipLabel {
+  padding: 3px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  font-size: 12px;
+  line-height: 1.3;
+}

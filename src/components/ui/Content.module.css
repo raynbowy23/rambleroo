@@ -933,3 +933,20 @@
   line-height: 1.5;
   color: var(--ink);
 }
+
+/* Phones: hero titles and taglines at a size that leaves room for the text under them. */
+@media (max-width: 759px) {
+  .hero h1,
+  .page h1 {
+    font-size: 36px;
+    margin: 8px 0 12px;
+  }
+  .subline {
+    font-size: 19px;
+    line-height: 1.35;
+    margin: 8px 0 16px;
+  }
+  .passportHeader h1 {
+    font-size: 32px;
+  }
+}

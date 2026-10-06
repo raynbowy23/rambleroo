@@ -228,3 +228,52 @@
     font-size: 12px;
   }
 }
+
+/* Phones: the title box shrinks to its text, so the carriages sit right beside it instead of at the screen edges. */
+@media (max-width: 759px) {
+  .cartouche {
+    width: auto;
+    max-width: calc(100% - 110px);
+    padding: 6px 14px 10px;
+    white-space: nowrap;
+  }
+  .cartouche h2 {
+    font-size: 20px;
+  }
+  .cartouche :global(.kicker) {
+    font-size: 12px;
+    letter-spacing: 0.14em;
+  }
+  .cartouche::before,
+  .cartouche::after {
+    width: 34px;
+    height: 16px;
+  }
+  .cartouche::before {
+    left: -30px;
+  }
+  .cartouche::after {
+    right: -30px;
+  }
+  .controls,
+  .selectedControls {
+    max-height: 42px;
+    border-radius: 10px;
+  }
+  .controls :global(.btn) {
+    min-height: 42px;
+    min-width: 40px;
+    padding: 0 10px;
+    border: 0;
+  }
+  .controls select {
+    min-height: 40px;
+    max-width: 92px;
+    padding: 0 6px;
+    font-size: 13px;
+  }
+  .compass {
+    transform: scale(0.75);
+    transform-origin: bottom right;
+  }
+}

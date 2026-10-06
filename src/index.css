@@ -384,3 +384,37 @@ p {
     min-width: 32px;
   }
 }
+
+/* Phone scale: controls keep a 40px tap height (tests/e2e/mobile.spec.ts checks it) but lose the desktop padding and type, so
+   chips, buttons and kickers stop crowding small screens. Comes last so it wins over the 44px baseline above. */
+@media (max-width: 759px) {
+  .btn {
+    min-height: 42px;
+    padding: 0 14px;
+    gap: 6px;
+    font-size: 14px;
+    border-radius: 9px;
+  }
+  .btn-icon {
+    width: 40px;
+    min-width: 40px;
+    padding: 0;
+  }
+  .chip {
+    min-height: 42px;
+    padding: 0 12px;
+    gap: 5px;
+    font-size: 13px;
+  }
+  .chip svg {
+    width: 15px;
+    height: 15px;
+  }
+  .kicker {
+    letter-spacing: 0.12em;
+    font-size: 12px;
+  }
+  h1 {
+    letter-spacing: -0.02em;
+  }
+}
