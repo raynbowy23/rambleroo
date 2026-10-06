@@ -277,3 +277,18 @@
     transform-origin: bottom right;
   }
 }
+
+/* Touch tablets: compact square map tools instead of a tall column of 44px buttons. */
+@media (min-width: 760px) and (any-pointer: coarse) {
+  .controls :global(.btn) {
+    min-height: 42px;
+    height: 42px;
+    min-width: 42px;
+    padding: 0 10px;
+  }
+  .controls select {
+    min-height: 42px;
+    height: 42px;
+    max-width: 96px;
+  }
+}

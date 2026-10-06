@@ -390,7 +390,7 @@ p {
 @media (max-width: 759px) {
   .btn {
     min-height: 42px;
-    padding: 0 14px;
+    padding: 0 12px;
     gap: 6px;
     font-size: 14px;
     border-radius: 9px;
@@ -416,5 +416,21 @@ p {
   }
   h1 {
     letter-spacing: -0.02em;
+  }
+}
+
+/* Touch tablets: the same slim buttons as phones (tight padding, room between buttons), not the desktop 24px padding. */
+@media (min-width: 760px) and (any-pointer: coarse) {
+  .btn {
+    min-height: 42px;
+    padding: 0 14px;
+    gap: 6px;
+    font-size: 14px;
+    border-radius: 9px;
+  }
+  .chip {
+    min-height: 40px;
+    padding: 0 12px;
+    font-size: 13px;
   }
 }

@@ -1266,13 +1266,14 @@
   }
 }
 
-/* Phones: the print button gets its own line above the kicker, and the floating inset map stays a small corner card. */
+/* The print button gets its own line above the kicker at every width. */
+.introCopy > :global(.btn) {
+  display: flex;
+  width: fit-content;
+  margin: 12px 0 16px;
+}
+/* Phones: the floating inset map stays a small corner card. */
 @media (max-width: 759px) {
-  .introCopy > :global(.btn) {
-    display: flex;
-    width: fit-content;
-    margin: 10px 0 14px;
-  }
   .intro h1 {
     font-size: 32px;
   }
