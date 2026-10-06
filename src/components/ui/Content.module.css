@@ -950,3 +950,47 @@
     font-size: 32px;
   }
 }
+
+/* The arrow is a real link to the collection, its inked arrow centred in the ring. */
+.arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  z-index: 3;
+  transition:
+    background 160ms,
+    color 160ms;
+}
+.arrow:hover,
+.arrow:focus-visible {
+  background: currentColor;
+}
+.arrow:hover svg,
+.arrow:focus-visible svg {
+  color: var(--lining);
+}
+.arrow svg {
+  display: block;
+}
+/* The whole card opens the collection: the title link stretches over it (the photo credit chip stays above). */
+.cover h2 :global(a)::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+.cover .coverText {
+  position: static;
+}
+.cover .coverText > * {
+  position: relative;
+  z-index: 2;
+}
+.cover .coverText h2 {
+  position: static;
+}
