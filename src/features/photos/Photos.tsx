@@ -73,7 +73,7 @@ export function PhotoChip({ photo }: { photo: Photo }) {
       }}
     >
       <button ref={anchor} type="button" aria-label={`Photo credit: ${photo.title}`} aria-expanded={!!position} onClick={show}>
-        ⓘ Photo
+        <span className={s.chipLabel}>ⓘ Photo</span>
       </button>
       {position &&
         createPortal(
