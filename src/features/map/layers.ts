@@ -3,6 +3,7 @@ import type { FeatureCollection, MultiLineString } from 'geojson'
 import type { BywaySummary } from '../../lib/types'
 import { palette } from './style'
 import { addRouteArt } from './routeArt'
+import { glyphPaths, type Glyph } from './decor'
 export type BywayGeometry = FeatureCollection<MultiLineString, { id: string; name: string; scene: string; story: boolean }>
 let geometry: Promise<BywayGeometry> | undefined
 export function loadBywayGeometry() {
@@ -25,6 +26,7 @@ export function loadBywayGeometry() {
 }
 export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySummary[]) {
   const c = palette()
+  // Each road family in its own earth ink (all browns and umbers, so the map stays sepia), with the landscape motif closer in.
   const color: ExpressionSpecification = [
     'match',
     ['get', 'scene'],
@@ -55,7 +57,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     'route-prairie',
     'route-stitch',
   ]
-  const motifWidth: ExpressionSpecification = ['interpolate', ['linear'], ['zoom'], 4.5, 7, 6, 9, 8, 12, 11, 16, 14, 22]
+  const motifWidth: ExpressionSpecification = ['interpolate', ['linear'], ['zoom'], 4.5, 6, 6, 7.5, 8, 10, 11, 14, 14, 18]
   addRouteArt(map)
   const round = { 'line-cap': 'round', 'line-join': 'round' } as const
   map.addSource('byways', { type: 'geojson', data, promoteId: 'id', tolerance: 1, buffer: 32, maxzoom: 12 })
@@ -66,7 +68,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     layout: round,
     paint: {
       'line-color': c('paper'),
-      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 4.5, 5, 6.5, 8, 11, 11, 16, 14, 22],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 3.4, 5, 4.8, 8, 9, 11, 13, 14, 19],
       'line-opacity': 0.8,
     },
   })
@@ -79,8 +81,8 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     layout: round,
     paint: {
       'line-color': c('ink'),
-      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 3, 5, 4.4],
-      'line-opacity': ['interpolate', ['linear'], ['zoom'], 2, 0.45, 4.6, 0.45, 5.6, 0],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 2.4, 5, 3.4],
+      'line-opacity': ['interpolate', ['linear'], ['zoom'], 2, 0.3, 4.6, 0.3, 5.6, 0],
     },
   })
   map.addLayer({
@@ -90,7 +92,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     layout: round,
     paint: {
       'line-color': color,
-      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1.8, 5, 2.8, 8, 4.2, 14, 6],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1.6, 5, 2.4, 8, 3.6, 14, 5.2],
       'line-opacity': ['interpolate', ['linear'], ['zoom'], 4.6, 1, 5.6, 0],
     },
   })
@@ -107,6 +109,63 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
       'line-width': motifWidth,
       'line-opacity': ['interpolate', ['linear'], ['zoom'], 4.6, 0, 5.6, 1],
     },
+  })
+  // Each road's landmark: a small inked picture of its landscape at the road's middle, like the vignettes on an old pictorial map.
+  // Symbol collision keeps the national view airy (national byways claim their spot first); more appear as you zoom in.
+  const kinds: Record<string, Glyph> = {
+    river: 'wave',
+    coast: 'lighthouse',
+    mountain: 'mountain',
+    forest: 'pine',
+    desert: 'mesa',
+    prairie: 'windmill',
+  }
+  for (const glyph of new Set<Glyph>([...Object.values(kinds), 'church'])) {
+    const canvas = document.createElement('canvas')
+    canvas.width = canvas.height = 80
+    const ctx = canvas.getContext('2d')
+    if (!ctx) continue
+    ctx.scale(2, 2)
+    ctx.lineJoin = 'round'
+    ctx.lineCap = 'round'
+    const path = new Path2D(glyphPaths[glyph])
+    ctx.fillStyle = c('paper')
+    ctx.strokeStyle = c('paper')
+    ctx.lineWidth = 5
+    ctx.stroke(path)
+    ctx.fill(path)
+    ctx.fillStyle = c('land-us')
+    ctx.strokeStyle = c('ink')
+    ctx.lineWidth = 1.6
+    ctx.fill(path)
+    ctx.stroke(path)
+    map.addImage(`mark-${glyph}`, ctx.getImageData(0, 0, 80, 80), { pixelRatio: 2 })
+  }
+  const national = new Set(byways.filter((b) => b.nationalScenicByway || b.allAmericanRoad).map((b) => b.id))
+  map.addSource('byway-marks', {
+    type: 'geojson',
+    data: {
+      type: 'FeatureCollection',
+      features: byways.map((b) => ({
+        type: 'Feature' as const,
+        properties: { id: b.id, mark: `mark-${kinds[b.scene] ?? 'church'}`, rank: national.has(b.id) ? 0 : 1 },
+        geometry: { type: 'Point' as const, coordinates: b.center },
+      })),
+    },
+  })
+  map.addLayer({
+    id: 'byway-marks',
+    type: 'symbol',
+    source: 'byway-marks',
+    minzoom: 3,
+    layout: {
+      'icon-image': ['get', 'mark'],
+      'icon-size': ['interpolate', ['linear'], ['zoom'], 3, 0.42, 5, 0.6, 8, 0.85, 11, 1],
+      'icon-padding': ['interpolate', ['linear'], ['zoom'], 3, 14, 6, 8, 9, 4],
+      'symbol-sort-key': ['get', 'rank'],
+      'icon-allow-overlap': false,
+    },
+    paint: { 'icon-opacity': ['interpolate', ['linear'], ['zoom'], 3, 0, 3.4, 0.95] },
   })
   map.addLayer({
     id: 'byway-hover',
@@ -199,4 +258,13 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
   }
 }
 
-export const filteredLayers = ['byway-casing', 'byway-ink', 'byway-lines', 'byway-art', 'byway-hover', 'byway-hit', 'story-points']
+export const filteredLayers = [
+  'byway-casing',
+  'byway-ink',
+  'byway-lines',
+  'byway-art',
+  'byway-marks',
+  'byway-hover',
+  'byway-hit',
+  'story-points',
+]

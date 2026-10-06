@@ -56,7 +56,7 @@ export function addRouteArt(map: Map) {
     canvasImage(map, `route-${stroke.family}`, 32, 16, (ctx) => {
       ctx.strokeStyle = c(stroke.color)
       ctx.fillStyle = c(stroke.color)
-      ctx.lineWidth = 2.2
+      ctx.lineWidth = 2
       ctx.stroke(new Path2D(stroke.path))
       if (stroke.fill) ctx.fill(new Path2D(stroke.fill))
     })

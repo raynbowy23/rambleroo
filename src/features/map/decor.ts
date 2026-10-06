@@ -87,6 +87,20 @@ const groups: Record<Kind, [number, number][]> = {
     [-90, 48],
   ],
 }
+/** Inked map glyphs, 40 × 40, shared by the scenery decoration and the per-road landmarks (layers.ts). */
+export const glyphPaths = {
+  pine: 'M20 3L9 18H14L5 29H18V37H22V29H35L26 18H31Z',
+  mountain: 'M3 33L16 7L23 20L28 13L38 33ZM11 18L16 22L19 16',
+  mesa: 'M3 32L10 23L13 11H28L30 23L38 32ZM13 17H28M10 25H31',
+  cactus: 'M19 36V8Q22 3 24 8V21H29V13H32V23Q32 26 24 26V36ZM19 23H11Q8 23 8 20V12H11V19H19',
+  wave: 'M3 16Q8 10 14 16T26 16T38 16M3 25Q8 19 14 25T26 25T38 25',
+  lighthouse: 'M13 35L16 13H24L27 35ZM14 13V7H26V13ZM12 7L20 2L28 7M15 23H25',
+  sailboat: 'M4 29H36L30 35H10ZM20 4V27H5ZM23 10L34 26H23Z',
+  windmill: 'M17 37L19 16H21L23 37ZM20 15L20 3L23 6ZM20 15L32 12L29 16ZM20 15L26 26L22 25ZM20 15L8 18L11 14ZM20 15L14 4L18 5',
+  church: 'M10 37V21L20 13L30 21V37ZM20 13V3M16.5 6.5H23.5M17 37V29Q20 26 23 29V37',
+} as const
+export type Glyph = keyof typeof glyphPaths
+
 export function addDecor(map: Map) {
   const c = palette()
   for (const kind of Object.keys(groups) as Kind[]) {
@@ -101,17 +115,7 @@ export function addDecor(map: Map) {
     ctx.lineWidth = 1.2
     ctx.lineJoin = 'round'
     ctx.globalAlpha = 0.65
-    const path = new Path2D(
-      {
-        pine: 'M20 3L9 18H14L5 29H18V37H22V29H35L26 18H31Z',
-        mountain: 'M3 33L16 7L23 20L28 13L38 33ZM11 18L16 22L19 16',
-        mesa: 'M3 32L10 23L13 11H28L30 23L38 32ZM13 17H28M10 25H31',
-        cactus: 'M19 36V8Q22 3 24 8V21H29V13H32V23Q32 26 24 26V36ZM19 23H11Q8 23 8 20V12H11V19H19',
-        wave: 'M3 16Q8 10 14 16T26 16T38 16M3 25Q8 19 14 25T26 25T38 25',
-        lighthouse: 'M13 35L16 13H24L27 35ZM14 13V7H26V13ZM12 7L20 2L28 7M15 23H25',
-        sailboat: 'M4 29H36L30 35H10ZM20 4V27H5ZM23 10L34 26H23Z',
-      }[kind],
-    )
+    const path = new Path2D(glyphPaths[kind])
     ctx.fill(path)
     ctx.stroke(path)
     const data = ctx.getImageData(0, 0, 80, 80)

@@ -107,9 +107,19 @@ export default function CollectionsPage() {
                 </h2>
                 <div className={s.coverFooter}>
                   <span>{c.bywayIds.length} byways</span>
-                  <span className={s.arrow} aria-hidden="true">
-                    →
-                  </span>
+                  <Link viewTransition className={s.arrow} to={`/collections/${c.slug}`} aria-label={`Open ${c.title}`}>
+                    {/* An inked arrow with fletching, like the pointers on an old road map. */}
+                    <svg viewBox="0 0 32 16" width="26" height="13" aria-hidden="true">
+                      <path
+                        d="M3 8H27M21 3.5L27.5 8L21 12.5M7 8L4 4M10 8L7 4M7 8L4 12M10 8L7 12"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.6"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </Link>
                 </div>
               </div>
             </article>

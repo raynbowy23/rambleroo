@@ -78,6 +78,25 @@ export function BywayMap({
     return () => observer.disconnect()
   }, [selected])
   const enabled = useMotionEnabled()
+  // Phones: the road card covers the map when it opens, so the car's first run goes unseen. Scrolling or swiping the card replays
+  // the drive (at most every 2.5 s, never mid-run) while the road shows above the card.
+  const [replay, setReplay] = useState(0)
+  useEffect(() => {
+    const root = container.current?.parentElement
+    if (!root || !selected || !enabled) return
+    let last = performance.now()
+    const again = () => {
+      if (window.innerWidth >= 760 || performance.now() - last < 2500) return
+      last = performance.now()
+      setReplay((n) => n + 1)
+    }
+    root.addEventListener('scroll', again, { capture: true, passive: true })
+    root.addEventListener('touchmove', again, { passive: true })
+    return () => {
+      root.removeEventListener('scroll', again, { capture: true })
+      root.removeEventListener('touchmove', again)
+    }
+  }, [selected, enabled])
   const hovered = useHover((s) => s.id)
   const callbacks = useRef({ onSelect, onFailure })
   callbacks.current = { onSelect, onFailure }
@@ -165,7 +184,7 @@ export function BywayMap({
             map.getCanvas().style.cursor = ''
           })
           map.on('click', (e) => {
-            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'story-points', 'route-moments'] })[0]
+            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'byway-marks', 'story-points', 'route-moments'] })[0]
             callbacks.current.onSelect(feature ? String(feature.properties.id) : null)
           })
         })
@@ -221,19 +240,27 @@ export function BywayMap({
       cancelled = true
       stop()
     }
-  }, [selected, enabled, ready])
+  }, [selected, enabled, ready, replay])
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
     setMomentPins(map, selected && selected.status !== 'listing' ? selected.id : undefined, moments ?? [])
   }, [selected, moments, ready])
+  // Frame a road only when a different road is picked. Closing the card, or dragging the sheet (which changes the padding), keeps
+  // whatever view the reader has zoomed to.
+  const framed = useRef<string | undefined>(undefined)
+  const framedAt = useRef(0)
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
     if (!selected) {
-      map.fitBounds(regions['Lower 48'], { padding, duration: 0 })
+      framed.current = undefined
       return
     }
+    if (framed.current !== selected.id) {
+      framed.current = selected.id
+      framedAt.current = performance.now()
+    } else if (performance.now() - framedAt.current > 700) return
     map.fitBounds(selected.bbox, {
       padding: {
         top: Math.max(64, padding.top),
