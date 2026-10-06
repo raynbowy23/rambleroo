@@ -78,7 +78,7 @@ export function InsetMap({
     try {
       map = new maplibregl.Map({
         container: container.current,
-        style: createMapStyle(),
+        style: createMapStyle({ landscape: false }),
         interactive: false,
         attributionControl: false,
         maxPitch: 75,

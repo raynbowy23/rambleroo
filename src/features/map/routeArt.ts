@@ -54,9 +54,9 @@ export function addRouteArt(map: Map) {
   const c = palette()
   for (const stroke of strokes) {
     canvasImage(map, `route-${stroke.family}`, 32, 16, (ctx) => {
-      ctx.strokeStyle = c(stroke.color)
-      ctx.fillStyle = c(stroke.color)
-      ctx.lineWidth = 2.2
+      ctx.strokeStyle = c('route-ink')
+      ctx.fillStyle = c('route-ink')
+      ctx.lineWidth = 1.8
       ctx.stroke(new Path2D(stroke.path))
       if (stroke.fill) ctx.fill(new Path2D(stroke.fill))
     })

@@ -54,6 +54,10 @@ export const test = base.extend<{ stubBasemap: void }>({
           })
         return route.fulfill({ status: 200, contentType: 'application/x-protobuf', body: Buffer.alloc(0) })
       })
+      // The painted landscape's elevation tiles come back flat, so tests never wait on the terrain service.
+      await page.route('https://s3.amazonaws.com/elevation-tiles-prod/**', (route) =>
+        route.fulfill({ contentType: 'image/png', body: flatTerrainTile }),
+      )
       await use()
     },
     { auto: true },

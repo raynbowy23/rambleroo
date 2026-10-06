@@ -165,7 +165,7 @@ export function BywayMap({
             map.getCanvas().style.cursor = ''
           })
           map.on('click', (e) => {
-            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'story-points', 'route-moments'] })[0]
+            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'byway-marks', 'story-points', 'route-moments'] })[0]
             callbacks.current.onSelect(feature ? String(feature.properties.id) : null)
           })
         })
@@ -285,13 +285,7 @@ export function BywayMap({
       <div data-map-decoration className={styles.legend}>
         {strokes.map((stroke) => (
           <span className={styles.legendItem} key={stroke.family}>
-            <svg
-              width="32"
-              height="16"
-              viewBox="0 0 32 16"
-              aria-hidden="true"
-              style={{ color: `var(--map-${stroke.color}, var(--${stroke.color}))` }}
-            >
+            <svg width="32" height="16" viewBox="0 0 32 16" aria-hidden="true" style={{ color: 'var(--map-route-ink)' }}>
               {/* The same motif the map draws on each road, so the key matches what you see when zoomed in. */}
               <path d={stroke.path} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               {stroke.fill && <path d={stroke.fill} fill="currentColor" />}
