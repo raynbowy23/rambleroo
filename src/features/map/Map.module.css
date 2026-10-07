@@ -6,7 +6,8 @@
 .cartouche {
   position: absolute;
   top: 16px;
-  left: calc(50% + 180px);
+  /* Centred on the screen; nudged right only when the search panel (about 390px) would otherwise sit under it. */
+  left: max(50%, calc(400px + min(220px, 50% - 210px)));
   transform: translateX(-50%);
   width: min(440px, calc(100% - 420px));
   text-align: center;
