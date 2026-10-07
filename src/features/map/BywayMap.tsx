@@ -17,6 +17,8 @@ import { Compass } from '../../components/art'
 import { WaterLabels } from './WaterLabels'
 import styles from './Map.module.css'
 export { createMapStyle } from './style'
+/** Gentle ease for the zoom buttons: slow off the mark, slow into place. */
+const easeInOut = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2)
 const regions: Record<string, [number, number, number, number]> = {
   'Lower 48': [-125, 24, -66, 50],
   Alaska: [-179, 51, -129, 72],
@@ -229,11 +231,13 @@ export function BywayMap({
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
+    // Closing the card leaves the last road drawn, with its car parked at the end, until another road is picked.
+    if (!selected) return
     let cancelled = false
     let stop = () => {}
     void loadBywayGeometry().then((data) => {
       if (cancelled) return
-      const features = selected ? data.features.filter((f) => f.properties.id === selected.id) : []
+      const features = data.features.filter((f) => f.properties.id === selected.id)
       stop = animateSelection(map, features, enabled)
     })
     return () => {
@@ -269,7 +273,12 @@ export function BywayMap({
         right: Math.max(64, padding.right),
       },
       maxZoom: 8,
-      duration: enabled ? 800 : 0,
+      // Fly rather than slide: zoom out, glide over, zoom back in, like turning to another page of the atlas.
+      linear: false,
+      curve: 1.3,
+      speed: 1.1,
+      maxDuration: 2200,
+      ...(enabled ? {} : { duration: 0 }),
     })
   }, [selected, enabled, ready, padding])
   return (
@@ -285,10 +294,18 @@ export function BywayMap({
       </div>
       <div data-map-decoration className={`${styles.controls} ${selected ? styles.selectedControls : ''}`}>
         {ready && ref.current && <ReliefControls map={ref.current} roadId={selected?.id} />}
-        <button className="btn btn-ghost" aria-label="Zoom in" onClick={() => ref.current?.zoomIn({ duration: enabled ? 250 : 0 })}>
+        <button
+          className="btn btn-ghost"
+          aria-label="Zoom in"
+          onClick={() => ref.current?.zoomIn({ duration: enabled ? 600 : 0, easing: easeInOut })}
+        >
           +
         </button>
-        <button className="btn btn-ghost" aria-label="Zoom out" onClick={() => ref.current?.zoomOut({ duration: enabled ? 250 : 0 })}>
+        <button
+          className="btn btn-ghost"
+          aria-label="Zoom out"
+          onClick={() => ref.current?.zoomOut({ duration: enabled ? 600 : 0, easing: easeInOut })}
+        >
           −
         </button>
         <select
@@ -296,7 +313,8 @@ export function BywayMap({
           value=""
           onChange={(event) => {
             const bounds = regions[event.target.value]
-            if (bounds) ref.current?.fitBounds(bounds, { padding, duration: enabled ? 700 : 0 })
+            if (bounds)
+              ref.current?.fitBounds(bounds, { padding, linear: false, curve: 1.3, maxDuration: 2200, ...(enabled ? {} : { duration: 0 }) })
           }}
         >
           <option value="" disabled>
