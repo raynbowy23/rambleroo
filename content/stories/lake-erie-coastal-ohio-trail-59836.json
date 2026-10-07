@@ -1,0 +1,78 @@
+{
+  "id": "lake-erie-coastal-ohio-trail-59836",
+  "tagline": "The whole Ohio shore of Lake Erie, light by light.",
+  "motifs": [
+    "lighthouse",
+    "lake-wide"
+  ],
+  "intro": [
+    "From the Pennsylvania line at Conneaut the trail follows Lake Erie west for 293 miles, through Ashtabula and Cleveland, past Vermilion and Huron to Sandusky Bay and the Marblehead Peninsula, then along the marshes to Toledo and on to Waterville. Big cities and villages take turns along the way.",
+    "Private ferries carry cars, bicycles and people on foot out to Kelleys Island. There the glacier that made the Great Lakes left grooves in the bedrock 400 feet long and up to 15 feet deep, as though something very heavy had been dragged across it, which is about what happened."
+  ],
+  "moments": [
+    {
+      "title": "Ashtabula Harbor Light",
+      "kind": "roadside",
+      "scene": "coast",
+      "text": "In 1928 an ice storm sealed the keepers inside. After two days they got the door thawed open and tunneled out through some five feet of ice.",
+      "at": [
+        -80.796,
+        41.919
+      ],
+      "motifs": [
+        "lighthouse"
+      ]
+    },
+    {
+      "title": "Marblehead Lighthouse",
+      "kind": "roadside",
+      "scene": "coast",
+      "text": "The oldest light still working on the American side of the Great Lakes. Its first keeper lit thirteen whale-oil lamps each night, and when he died in 1832 his wife Rachel kept on.",
+      "at": [
+        -82.712,
+        41.536
+      ],
+      "motifs": [
+        "lighthouse",
+        "limestone-ledges"
+      ]
+    },
+    {
+      "title": "Magee Marsh",
+      "kind": "short walk",
+      "scene": "coast",
+      "text": "A soldier of the War of 1812 wrote that the waterfowl here were worth a journey of five hundred miles just to see. A boardwalk trail now goes out among them.",
+      "at": [
+        -83.163,
+        41.616
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "FHWA America's Byways, Lake Erie Coastal Ohio Trail",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/59836"
+    },
+    {
+      "label": "ODOT, Lake Erie Coastal Ohio Trail story map tour stops (query)",
+      "url": "https://services1.arcgis.com/1AlElnGrgBM62OSj/arcgis/rest/services/LET_Storymap_View/FeatureServer/0/query?where=1%3D1&outFields=AOI_Number%2CAOI_Name%2CAOI_Description&returnGeometry=true&outSR=4326&f=html"
+    },
+    {
+      "label": "Wikipedia, Kelleys Island, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Kelleys_Island,_Ohio"
+    },
+    {
+      "label": "Wikipedia, Ashtabula Harbor Light",
+      "url": "https://en.wikipedia.org/wiki/Ashtabula_Harbor_Light"
+    },
+    {
+      "label": "Wikipedia, Marblehead Light (Ohio)",
+      "url": "https://en.wikipedia.org/wiki/Marblehead_Light_(Ohio)"
+    },
+    {
+      "label": "Wikipedia, Magee Marsh Wildlife Area",
+      "url": "https://en.wikipedia.org/wiki/Magee_Marsh_Wildlife_Area"
+    }
+  ],
+  "reviewed": false
+}

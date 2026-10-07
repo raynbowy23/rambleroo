@@ -1,0 +1,77 @@
+{
+  "id": "ohio-and-erie-canalway-10501",
+  "tagline": "Down the old canal from Cleveland, lock by lock.",
+  "motifs": [
+    "lock-and-dam"
+  ],
+  "intro": [
+    "Out of Cleveland the byway goes three ways at once, through the old neighborhoods, the Warehouse District and the industrial area, and comes together in the Cuyahoga Valley. From there it follows the Ohio and Erie Canal south through Akron, Barberton and Massillon to New Philadelphia, 110 miles in all, with a spur over to Canton.",
+    "The canal carried freight from 1827 until the railroads took the trade in 1861, then served the towns and mills as a water supply until the flood of 1913 put most of it out of use. Much of its towpath is a trail now, for walking and bicycles."
+  ],
+  "moments": [
+    {
+      "title": "Cascade Locks, Akron",
+      "kind": "short walk",
+      "scene": "river",
+      "text": "The steepest grade on the whole canal. Twenty-one locks in Akron took boats six hours to cover two miles, and across from Lock 15 the Mustill Store was known as a swilling place.",
+      "at": [
+        -81.521,
+        41.093
+      ],
+      "motifs": [
+        "lock-and-dam"
+      ]
+    },
+    {
+      "title": "Canal Fulton",
+      "kind": "town",
+      "scene": "river",
+      "text": "The mule-drawn St. Helena III still takes passengers out on a two-and-a-half-mile round trip along a restored stretch of the canal.",
+      "at": [
+        -81.595,
+        40.89
+      ]
+    },
+    {
+      "title": "Zoar",
+      "kind": "town",
+      "scene": "town",
+      "text": "German Separatists founded the village in 1817 on land bought sight unseen, then paid off their loans on time by hiring out to dig the canal.",
+      "at": [
+        -81.423,
+        40.613
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "FHWA America's Byways, Ohio & Erie Canalway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10501"
+    },
+    {
+      "label": "ODOT, Ohio & Erie Canalway story map tour stops (query)",
+      "url": "https://services1.arcgis.com/1AlElnGrgBM62OSj/arcgis/rest/services/OEC_Storymap_View/FeatureServer/0/query?where=1%3D1&outFields=AOI_Number%2CAOI_Name%2CAOI_Description&returnGeometry=true&outSR=4326&f=html"
+    },
+    {
+      "label": "Wikipedia, Ohio & Erie Canalway Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Ohio_%26_Erie_Canalway_Scenic_Byway"
+    },
+    {
+      "label": "Wikipedia, Ohio and Erie Canal",
+      "url": "https://en.wikipedia.org/wiki/Ohio_and_Erie_Canal"
+    },
+    {
+      "label": "Wikipedia, Cascade Locks Historic District",
+      "url": "https://en.wikipedia.org/wiki/Cascade_Locks_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Canal Fulton, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Canal_Fulton,_Ohio"
+    },
+    {
+      "label": "Wikipedia, Zoar, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Zoar,_Ohio"
+    }
+  ],
+  "reviewed": false
+}
