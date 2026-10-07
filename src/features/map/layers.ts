@@ -183,7 +183,8 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
     id: 'byway-hit',
     type: 'line',
     source: 'byways',
-    paint: { 'line-color': c('paper'), 'line-opacity': 0, 'line-width': ['interpolate', ['linear'], ['zoom'], 2, 14, 11, 20, 14, 28] },
+    // Just wider than the drawn line, so a click beside a road reaches open map (which flies back to the whole country).
+    paint: { 'line-color': c('paper'), 'line-opacity': 0, 'line-width': ['interpolate', ['linear'], ['zoom'], 2, 7, 6, 9, 11, 14, 14, 20] },
   })
   map.addSource('story-points', {
     type: 'geojson',

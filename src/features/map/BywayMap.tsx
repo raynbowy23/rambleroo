@@ -325,7 +325,7 @@ export function BywayMap({
         <Compass size={70} />
       </div>
       <div data-map-decoration className={`${styles.controls} ${selected ? styles.selectedControls : ''}`}>
-        {ready && ref.current && <ReliefControls map={ref.current} roadId={selected?.id} />}
+        {ready && ref.current && <ReliefControls map={ref.current} roadId={selected?.id} onDrive={() => setReplay((n) => n + 1)} />}
         <button
           className="btn btn-ghost"
           aria-label="Zoom in"
