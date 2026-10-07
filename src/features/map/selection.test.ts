@@ -54,7 +54,7 @@ it('draws fully and parks without scheduling frames under reduced motion', () =>
   expect(sources['route-flags'].setData.mock.lastCall![0].features).toHaveLength(2)
 })
 
-it('only updates the car source during the trace and stops after 1.2 seconds', () => {
+it('only updates the car source during the trace and stops after 2.6 seconds', () => {
   let callback: FrameRequestCallback = () => {}
   vi.spyOn(performance, 'now').mockReturnValue(0)
   const raf = vi.fn((next: FrameRequestCallback) => {
@@ -66,10 +66,10 @@ it('only updates the car source during the trace and stops after 1.2 seconds', (
   vi.stubGlobal('cancelAnimationFrame', cancel)
   const { map, sources, paint } = adapter()
   const stop = animateSelection(map, features, true)
-  callback(600)
+  callback(1300)
   expect(sources['route-car'].setData.mock.lastCall![0].geometry.coordinates[0]).toBeCloseTo(2)
   expect(sources.selected.setData).toHaveBeenCalledTimes(1)
-  callback(1200)
+  callback(2600)
   expect(raf).toHaveBeenCalledTimes(2)
   // The finished pen trace lifts away so the road's motif shows.
   expect(paint).toHaveBeenLastCalledWith('selected-line', 'line-gradient', ['literal', 'rgba(0,0,0,0)'])

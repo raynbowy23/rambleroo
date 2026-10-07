@@ -33,7 +33,7 @@ export function animateSelection(map: Map, features: BywayGeometry['features'], 
   let frame = 0
   const start = performance.now()
   const trace = (now: number) => {
-    const progress = enabled ? Math.min(1, (now - start) / 1200) : 1
+    const progress = enabled ? Math.min(1, (now - start) / 2600) : 1
     map.setPaintProperty(
       'selected-line',
       'line-gradient',

@@ -658,3 +658,11 @@ tr[aria-selected='true'] {
     height: 15px;
   }
 }
+
+/* Mouse and trackpad: compact theme chips (the 44px tap height is for touch screens). */
+@media (pointer: fine) {
+  .chips button {
+    min-height: 30px;
+    padding: 0 10px;
+  }
+}
