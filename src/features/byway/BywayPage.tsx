@@ -7,7 +7,7 @@ import roadStyle from './Byway.module.css'
 import { StripLink } from '../strip/StripLink'
 import { requireNetwork } from '../../lib/network'
 import { PhotoGallery, MomentPhoto, PhotoCredit } from '../photos/Photos'
-import { StreetGallery } from '../photos/StreetViews'
+import { StreetGallery, MomentFrame, useMomentViews } from '../photos/StreetViews'
 import { ShareControl } from '../share/ShareControl'
 import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router'
@@ -40,6 +40,7 @@ export default function BywayPage() {
   const { id } = useParams()
   const strip = useStrip(id ?? '')
   const photos = usePhotos(id)
+  const momentViews = useMomentViews(id)
   const photo = photos[0]
   const { byway: b, status, byways, meta } = useByway(id)
   const { story, status: storyStatus } = useStory(id)
@@ -175,22 +176,24 @@ export default function BywayPage() {
                       onBlur={() => setActive(null)}
                     >
                       <MomentPhoto photo={photos.find((photo) => photo.moment === m.title)}>
-                        <div className={s.momentArt}>
-                          <Scene
-                            look={b.look}
-                            region={b.region}
-                            motifs={m.motifs}
-                            framed
-                            title={illustrationCaption(m.title, b.region, m.motifs)}
-                            family={m.scene}
-                            seed={b.seed + i + 1}
-                            variant="postcard"
-                          />
-                          <span className={s.credit} tabIndex={0} title={illustrationCaption(m.title, b.region, m.motifs)}>
-                            Illustration · no photo yet
-                            <span className="visually-hidden">: {illustrationCaption(m.title, b.region, m.motifs)}</span>
-                          </span>
-                        </div>
+                        <MomentFrame view={momentViews.find((v) => v.moment === m.title)} near={m.title}>
+                          <div className={s.momentArt}>
+                            <Scene
+                              look={b.look}
+                              region={b.region}
+                              motifs={m.motifs}
+                              framed
+                              title={illustrationCaption(m.title, b.region, m.motifs)}
+                              family={m.scene}
+                              seed={b.seed + i + 1}
+                              variant="postcard"
+                            />
+                            <span className={s.credit} tabIndex={0} title={illustrationCaption(m.title, b.region, m.motifs)}>
+                              Illustration · no photo yet
+                              <span className="visually-hidden">: {illustrationCaption(m.title, b.region, m.motifs)}</span>
+                            </span>
+                          </div>
+                        </MomentFrame>
                       </MomentPhoto>
                       <div className={s.momentBody}>
                         <span className={s.badge}>{m.kind}</span>

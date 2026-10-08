@@ -1,10 +1,11 @@
 import views from '../content/streetview.json'
+import momentViews from '../content/streetview-moments.json'
 import type { Env } from './env'
 
-// Serves the Mapillary frames picked in content/streetview.json. Mapillary image URLs are signed and expire, so the page asks
+// Serves the Mapillary frames picked in content/streetview.json and streetview-moments.json. Mapillary image URLs are signed and expire, so the page asks
 // us by id and we look up a fresh URL with the token. The bytes come through here rather than by redirect, so visitors' browsers
 // never contact Meta's image CDN, and each frame is cached at the edge.
-const allowed = new Set((views as { id: string }[]).map((v) => v.id))
+const allowed = new Set([...(views as { id: string }[]), ...(momentViews as { id: string }[])].map((v) => v.id))
 const edge = () => (globalThis.caches as unknown as { default?: Cache } | undefined)?.default
 
 export async function streetView(request: Request, env: Env, id: string): Promise<Response> {
