@@ -121,3 +121,50 @@
   font-size: 12px;
   line-height: 1.3;
 }
+
+/* Mapillary street-level frames. The Mapillary wordmark (from mapillary-js, MIT) sits on the frame as its terms require. */
+.street {
+  position: relative;
+  display: block;
+}
+.mapillary {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 4px 6px;
+  border-radius: 3px;
+  background: rgb(0 0 0 / 0.55);
+  line-height: 0;
+}
+.mapillary::after {
+  content: '';
+  display: block;
+  width: 61px;
+  height: 14px;
+  background: #fff;
+  mask: url('../../components/art/mapillary-logo.svg') center / contain no-repeat;
+}
+.note {
+  margin: -8px 0 16px;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+.streetGallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+/* Phones: one swipeable row instead of three tall frames. */
+@media (max-width: 700px) {
+  .streetGallery {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 82%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 4px;
+  }
+  .streetGallery > * {
+    scroll-snap-align: start;
+  }
+}
