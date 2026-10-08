@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <main className={styles.page}>
       <span className="kicker">About the data</span>
-      <h1>Scenic roads of America, honestly mapped.</h1>
+      <h1>Drive into the heart of the American story.</h1>
       <p>
         Rambleroo brings together {byways.length ? usdot.toLocaleString() : '…'} scenic byways from the USDOT source layer,{' '}
         {byways.length ? stateLayers : '…'} more from state DOT route layers (Wisconsin and Florida so far), and{' '}
