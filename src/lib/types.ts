@@ -90,6 +90,8 @@ export interface Photo {
 /** A Mapillary street-level frame on the byway. Only the id is stored; the Worker serves the picture, because Mapillary image URLs expire. */
 export interface StreetView {
   bywayId: string
+  /** Story moment this frame shows, for frames picked near a moment's anchor. */
+  moment?: string
   /** Mapillary image id. */
   id: string
   /** [lon, lat] where the frame was taken. */

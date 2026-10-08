@@ -176,3 +176,37 @@ describe('overrides', () => {
     }
   })
 })
+
+describe('street-level frames', () => {
+  const road = json<import('../../src/lib/types').StreetView[]>('content/streetview.json')
+  const moments = json<import('../../src/lib/types').StreetView[]>('content/streetview-moments.json')
+  const rejects = json<{ moments: { bywayId: string; moment: string }[]; images: { id: string }[] }>('scripts/streetview/rejects.json')
+  const ids = new Set(json<{ byways: BywaySummary[] }>('public/data/catalog.json').byways.map((b) => b.id))
+  it('point at real roads, at most three per road, with no rejected frame', () => {
+    const refused = new Set(rejects.images.map((r) => r.id))
+    const perRoad = new Map<string, number>()
+    for (const v of [...road, ...moments]) {
+      expect(ids.has(v.bywayId), v.bywayId).toBe(true)
+      expect(v.id, v.bywayId).toMatch(/^\d{1,24}$/)
+      expect(refused.has(v.id), `${v.bywayId} ${v.id}`).toBe(false)
+      expect(v.captured).toMatch(/^\d{4}-\d{2}-\d{2}$/)
+    }
+    for (const v of road) perRoad.set(v.bywayId, (perRoad.get(v.bywayId) ?? 0) + 1)
+    for (const [id, n] of perRoad) expect(n, id).toBeLessThanOrEqual(3)
+  })
+  it('only put moment frames on roadside and town moments that exist and were not turned down', () => {
+    const stories = new Map(
+      readdirSync(new URL('content/stories/', root))
+        .filter((f) => f.endsWith('.json'))
+        .map((f) => json<BywayStory>(`content/stories/${f}`))
+        .map((s) => [s.id, s] as const),
+    )
+    const refused = new Set(rejects.moments.map((r) => `${r.bywayId}|${r.moment}`))
+    for (const v of moments) {
+      const m = stories.get(v.bywayId)?.moments.find((x) => x.title === v.moment)
+      expect(m, `${v.bywayId} · ${v.moment}`).toBeDefined()
+      expect(['roadside', 'town']).toContain(m!.kind)
+      expect(refused.has(`${v.bywayId}|${v.moment}`)).toBe(false)
+    }
+  })
+})
