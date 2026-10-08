@@ -87,6 +87,19 @@ export interface Photo {
   thumb?: string
 }
 
+/** A Mapillary street-level frame on the byway. Only the id is stored; the Worker serves the picture, because Mapillary image URLs expire. */
+export interface StreetView {
+  bywayId: string
+  /** Mapillary image id. */
+  id: string
+  /** [lon, lat] where the frame was taken. */
+  at: [number, number]
+  /** Capture date, YYYY-MM-DD. */
+  captured: string
+  /** Mapillary username of the contributor. */
+  creator: string
+}
+
 /** Editorial completeness, not road condition. See blueprint §7. */
 export type EditorialStatus = 'listing' | 'draft-story' | 'curated-story'
 

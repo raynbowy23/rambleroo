@@ -7,6 +7,7 @@ import roadStyle from './Byway.module.css'
 import { StripLink } from '../strip/StripLink'
 import { requireNetwork } from '../../lib/network'
 import { PhotoGallery, MomentPhoto, PhotoCredit } from '../photos/Photos'
+import { StreetGallery } from '../photos/StreetViews'
 import { ShareControl } from '../share/ShareControl'
 import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router'
@@ -158,6 +159,7 @@ export default function BywayPage() {
                   ))}
                 </section>
                 <PhotoGallery photos={photos} />
+                <StreetGallery bywayId={b.id} />
                 <section className={s.section}>
                   <h2>Signature moments</h2>
                   <p className={s.muted}>Numbers identify moments on the map, not a suggested stop order. Map anchors are approximate.</p>
@@ -226,6 +228,7 @@ export default function BywayPage() {
               </section>
             )}
             {!story && <PhotoGallery photos={photos} />}
+            {!story && <StreetGallery bywayId={b.id} />}
           </div>
           <aside className={s.companion}>
             <RouteMap

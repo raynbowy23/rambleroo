@@ -52,6 +52,11 @@ export default function AboutPage() {
         America’s Byways collection. Each photo is reviewed by eye, credited, and freely licensed. Roads without a suitable photo show an
         illustration.
       </p>
+      <p>
+        Many road pages also show a few street-level frames from Mapillary, shared by contributors who drove the road. They are picked by a
+        script that keeps flat photos taken on the mapped line and looking along the road, and each is credited to its contributor with a
+        link to the original on Mapillary (CC BY-SA 4.0).
+      </p>
       <h2>Sharing postcards</h2>
       <p>
         Link previews on social sites show the generic Rambleroo card for now. Per-road preview images need prerendering, which is planned.
