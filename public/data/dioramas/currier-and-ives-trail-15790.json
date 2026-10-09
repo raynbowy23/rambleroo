@@ -3,12 +3,12 @@
   "bywayId": "currier-and-ives-trail-15790",
   "title": "Currier & Ives Trail",
   "longitude": -71.7162,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,49 +275,43 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Henniker",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.8118057563269513,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Henniker",
+      "model": "town-blocks",
+      "at": 0.8118057563269513,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
+      "model": "steeple-town",
+      "at": 0.5,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.4,
+      "scale": 1.5
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
+      "model": "ridge",
+      "at": 0.5,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.4,
+      "scale": 1.5
     },
     {
-      "model": "town-blocks",
-      "at": 0.375,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.875,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -339,7 +333,7 @@
     {
       "name": "Henniker",
       "at": 0.8121580547112462,
-      "landmark": ""
+      "landmark": "Henniker"
     },
     {
       "name": "Hillsborough",
@@ -348,6 +342,7 @@
     }
   ],
   "sources": [
+    "content/stories/currier-and-ives-trail-15790.json",
     "public/data/strips/currier-and-ives-trail-15790.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

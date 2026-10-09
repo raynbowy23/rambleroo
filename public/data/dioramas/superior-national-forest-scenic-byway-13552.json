@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Silver Bay",
+      "model": "town-blocks",
+      "at": 0.9868679999179575,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -386,10 +394,11 @@
     {
       "name": "Silver Bay",
       "at": 0.9870279146141215,
-      "landmark": ""
+      "landmark": "Silver Bay"
     }
   ],
   "sources": [
+    "content/stories/superior-national-forest-scenic-byway-13552.json",
     "public/data/strips/superior-national-forest-scenic-byway-13552.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -3,8 +3,8 @@
   "bywayId": "route-207-hebron-to-sprague-990938",
   "title": "Route 207, Hebron to Sprague",
   "longitude": -72.2494,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
@@ -275,119 +275,78 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Lebanon Green",
+      "model": "steeple-town",
+      "at": 0.5096147023680639,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lebanon Green",
+      "model": "town-blocks",
+      "at": 0.5096147023680639,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Baltic",
+      "model": "gristmill",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Baltic",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
-      "at": 0.125,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.20833333333333334,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.375,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.875,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
@@ -408,6 +367,7 @@
     }
   ],
   "sources": [
+    "content/stories/route-207-hebron-to-sprague-990938.json",
     "public/data/strips/route-207-hebron-to-sprague-990938.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

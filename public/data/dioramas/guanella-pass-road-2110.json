@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Georgetown",
+      "model": "town-blocks",
+      "at": 0.002291035967518301,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grant",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "conifer",
       "at": 0.0875,
@@ -366,7 +388,7 @@
     {
       "name": "Georgetown",
       "at": 0.0021097046413502112,
-      "landmark": ""
+      "landmark": "Georgetown"
     },
     {
       "name": "Guanella Pass",
@@ -380,6 +402,7 @@
     }
   ],
   "sources": [
+    "content/stories/guanella-pass-road-2110.json",
     "public/data/strips/guanella-pass-road-2110.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

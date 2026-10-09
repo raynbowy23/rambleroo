@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Louisville",
+      "model": "town-blocks",
+      "at": 0.1676920120181342,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Clayton",
+      "model": "steeple-town",
+      "at": 0.4101522158789841,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Clayton",
+      "model": "town-blocks",
+      "at": 0.4101522158789841,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -329,12 +351,12 @@
     {
       "name": "Louisville",
       "at": 0.16762402088772846,
-      "landmark": ""
+      "landmark": "Louisville"
     },
     {
       "name": "Clayton",
       "at": 0.40992167101827676,
-      "landmark": ""
+      "landmark": "Clayton"
     },
     {
       "name": "Eufaula",
@@ -343,6 +365,7 @@
     }
   ],
   "sources": [
+    "content/stories/barbour-county-governor-s-trail-2558.json",
     "public/data/strips/barbour-county-governor-s-trail-2558.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

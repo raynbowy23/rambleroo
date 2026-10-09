@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Charenton",
+      "model": "town-blocks",
+      "at": 0.6344534176472569,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Shadows-on-the-Teche",
+      "model": "town-blocks",
+      "at": 0.6542750739352652,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Breaux Bridge",
+      "model": "town-blocks",
+      "at": 0.9141091863450783,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -318,6 +340,7 @@
     }
   ],
   "sources": [
+    "content/stories/bayou-teche-scenic-byway-2066.json",
     "public/data/strips/bayou-teche-scenic-byway-2066.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

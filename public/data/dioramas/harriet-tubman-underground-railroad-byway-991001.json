@@ -16,44 +16,12 @@
         39.7255
       ],
       [
-        -75.55495,
-        39.73507
-      ],
-      [
-        -75.53857,
-        39.73844
-      ],
-      [
-        -75.59381,
-        39.77362
-      ],
-      [
-        -75.62696,
-        39.83216
-      ],
-      [
-        -75.59407,
-        39.77413
-      ],
-      [
-        -75.53857,
-        39.73844
-      ],
-      [
-        -75.55188,
-        39.73384
-      ],
-      [
-        -75.5427,
-        39.73008
-      ],
-      [
         -75.56007,
         39.66232
       ],
       [
-        -75.63148,
-        39.61559
+        -75.63152,
+        39.61535
       ],
       [
         -75.62932,
@@ -64,16 +32,12 @@
         39.5795
       ],
       [
-        -75.59475,
-        39.573
+        -75.57897,
+        39.50797
       ],
       [
-        -75.5766,
-        39.51672
-      ],
-      [
-        -75.63005,
-        39.44932
+        -75.63006,
+        39.44931
       ],
       [
         -75.66432,
@@ -104,36 +68,40 @@
         39.35987
       ],
       [
-        -75.7001,
-        39.33474
+        -75.70008,
+        39.33473
       ],
       [
         -75.66593,
         39.32208
       ],
       [
-        -75.66489,
+        -75.66492,
         39.28495
       ],
       [
-        -75.59952,
-        39.29619
+        -75.60014,
+        39.29759
       ],
       [
-        -75.57106,
-        39.21162
+        -75.571,
+        39.21192
       ],
       [
-        -75.53023,
-        39.18125
+        -75.52961,
+        39.18128
       ],
       [
-        -75.51558,
-        39.11805
+        -75.51559,
+        39.1182
       ],
       [
-        -75.49961,
-        39.11389
+        -75.50056,
+        39.12223
+      ],
+      [
+        -75.50145,
+        39.11005
       ],
       [
         -75.52906,
@@ -144,31 +112,31 @@
         39.10911
       ],
       [
-        -75.51584,
-        39.10033
+        -75.52906,
+        39.09812
       ],
       [
-        -75.50056,
-        39.12223
+        -75.49961,
+        39.11389
       ],
       [
-        -75.51559,
-        39.1182
+        -75.51558,
+        39.11805
       ],
       [
-        -75.52961,
-        39.18128
+        -75.53023,
+        39.18125
       ],
       [
-        -75.571,
-        39.21192
+        -75.57106,
+        39.21162
       ],
       [
-        -75.60014,
-        39.29759
+        -75.59952,
+        39.29619
       ],
       [
-        -75.66492,
+        -75.66489,
         39.28495
       ],
       [
@@ -176,8 +144,8 @@
         39.32208
       ],
       [
-        -75.70008,
-        39.33473
+        -75.7001,
+        39.33474
       ],
       [
         -75.70138,
@@ -208,12 +176,12 @@
         39.45834
       ],
       [
-        -75.63006,
-        39.44931
+        -75.63005,
+        39.44932
       ],
       [
-        -75.57897,
-        39.50797
+        -75.5766,
+        39.51672
       ],
       [
         -75.58754,
@@ -224,12 +192,44 @@
         39.58041
       ],
       [
-        -75.63152,
-        39.61535
+        -75.63148,
+        39.61559
       ],
       [
         -75.56007,
         39.66232
+      ],
+      [
+        -75.5427,
+        39.73008
+      ],
+      [
+        -75.55188,
+        39.73384
+      ],
+      [
+        -75.53857,
+        39.73844
+      ],
+      [
+        -75.59407,
+        39.77413
+      ],
+      [
+        -75.62696,
+        39.83216
+      ],
+      [
+        -75.59381,
+        39.77362
+      ],
+      [
+        -75.53857,
+        39.73844
+      ],
+      [
+        -75.55495,
+        39.73507
       ],
       [
         -75.54647,
@@ -275,7 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Appoquinimink Friends Meetinghouse",
+      "model": "steeple-town",
+      "at": 0.17594740419743798,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Appoquinimink Friends Meetinghouse",
+      "model": "town-blocks",
+      "at": 0.17594740419743798,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "New Castle Court House",
+      "model": "farmhouse",
+      "at": 0.17594740419743798,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "New Castle Court House",
+      "model": "town-blocks",
+      "at": 0.17594740419743798,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -322,60 +351,61 @@
   ],
   "towns": [
     {
-      "name": "Centerville",
-      "at": 0.0778469197261979,
-      "landmark": ""
-    },
-    {
-      "name": "Delaware City",
-      "at": 0.23472308649657747,
-      "landmark": ""
-    },
-    {
-      "name": "Middletown",
-      "at": 0.32632233976353453,
-      "landmark": ""
-    },
-    {
-      "name": "Smyrna",
-      "at": 0.4505289359054139,
-      "landmark": ""
-    },
-    {
-      "name": "Dover",
-      "at": 0.5202240199128811,
-      "landmark": ""
-    },
-    {
-      "name": "Sandtown",
-      "at": 0.5646511865853342,
-      "landmark": ""
-    },
-    {
-      "name": "Wyoming",
-      "at": 0.5678453351304522,
-      "landmark": ""
-    },
-    {
-      "name": "Clayton",
-      "at": 0.6991910392034848,
+      "name": "New Castle",
+      "at": 0.03366521468574979,
       "landmark": ""
     },
     {
       "name": "Mathews Corners",
-      "at": 0.8315494710640946,
+      "at": 0.1684505289359054,
       "landmark": ""
     },
     {
-      "name": "New Castle",
-      "at": 0.9663347853142502,
+      "name": "Clayton",
+      "at": 0.3008089607965152,
+      "landmark": ""
+    },
+    {
+      "name": "Sandtown",
+      "at": 0.4316600493961755,
+      "landmark": ""
+    },
+    {
+      "name": "Wyoming",
+      "at": 0.43485419793719604,
+      "landmark": ""
+    },
+    {
+      "name": "Dover",
+      "at": 0.47977598008711886,
+      "landmark": ""
+    },
+    {
+      "name": "Smyrna",
+      "at": 0.5494710640945861,
+      "landmark": ""
+    },
+    {
+      "name": "Middletown",
+      "at": 0.6736776602364655,
+      "landmark": ""
+    },
+    {
+      "name": "Delaware City",
+      "at": 0.7652769135034225,
+      "landmark": ""
+    },
+    {
+      "name": "Centerville",
+      "at": 0.922153080273802,
       "landmark": ""
     }
   ],
   "sources": [
+    "content/stories/harriet-tubman-underground-railroad-byway-991001.json",
     "public/data/strips/harriet-tubman-underground-railroad-byway-991001.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }

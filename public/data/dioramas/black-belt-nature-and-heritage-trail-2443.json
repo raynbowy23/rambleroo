@@ -3,12 +3,12 @@
   "bywayId": "black-belt-nature-and-heritage-trail-2443",
   "title": "Black Belt Nature and Heritage Trail",
   "longitude": -86.9685,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,49 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Edmund Pettus Bridge",
+      "model": "ledge",
+      "at": 0.39543824583355286,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lowndesboro",
+      "model": "steeple-town",
+      "at": 0.5229696334694139,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lowndesboro",
+      "model": "town-blocks",
+      "at": 0.5229696334694139,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.375,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.875,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -354,7 +341,7 @@
     {
       "name": "Lowndesboro",
       "at": 0.5229032258064517,
-      "landmark": ""
+      "landmark": "Lowndesboro"
     },
     {
       "name": "Mount Meigs",
@@ -373,6 +360,7 @@
     }
   ],
   "sources": [
+    "content/stories/black-belt-nature-and-heritage-trail-2443.json",
     "public/data/strips/black-belt-nature-and-heritage-trail-2443.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

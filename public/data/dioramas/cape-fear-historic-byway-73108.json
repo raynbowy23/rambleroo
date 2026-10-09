@@ -3,12 +3,12 @@
   "bywayId": "cape-fear-historic-byway-73108",
   "title": "Cape Fear Historic Byway",
   "longitude": -77.9332,
-  "ground": "low-shore",
-  "palette": "coast",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -278,32 +278,11 @@
   "landmarks": [],
   "dressing": [
     {
-      "model": "sandbar",
-      "at": 0.041666666666666664,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
-    },
-    {
-      "model": "sandbar",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
-    },
-    {
-      "model": "sandbar",
-      "at": 0.5416666666666666,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
-    },
-    {
-      "model": "sandbar",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -324,6 +303,7 @@
     }
   ],
   "sources": [
+    "content/stories/cape-fear-historic-byway-73108.json",
     "public/data/strips/cape-fear-historic-byway-73108.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

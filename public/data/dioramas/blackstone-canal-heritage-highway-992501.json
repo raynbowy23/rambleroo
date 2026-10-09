@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Grafton Common",
+      "model": "town-blocks",
+      "at": 0.10747190741307795,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Millville",
+      "model": "town-blocks",
+      "at": 0.8396842657690421,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -313,6 +328,7 @@
     }
   ],
   "sources": [
+    "content/stories/blackstone-canal-heritage-highway-992501.json",
     "public/data/strips/blackstone-canal-heritage-highway-992501.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

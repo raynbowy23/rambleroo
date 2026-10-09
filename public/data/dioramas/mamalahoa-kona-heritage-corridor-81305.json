@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Hōlualoa",
+      "model": "town-blocks",
+      "at": 0.5020584443101879,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -329,7 +337,7 @@
     {
       "name": "Hōlualoa",
       "at": 0.5054054054054055,
-      "landmark": ""
+      "landmark": "Hōlualoa"
     },
     {
       "name": "Kealakekua",
@@ -338,6 +346,7 @@
     }
   ],
   "sources": [
+    "content/stories/mamalahoa-kona-heritage-corridor-81305.json",
     "public/data/strips/mamalahoa-kona-heritage-corridor-81305.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

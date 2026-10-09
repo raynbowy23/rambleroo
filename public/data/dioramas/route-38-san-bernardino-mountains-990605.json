@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Big Bear City",
+      "model": "town-blocks",
+      "at": 0.15354011719084565,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "San Gorgonio Mountain",
+      "model": "snow-peak",
+      "at": 0.9111135184294854,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -366,10 +381,11 @@
     {
       "name": "Big Bear City",
       "at": 0.15320512820512822,
-      "landmark": ""
+      "landmark": "Big Bear City"
     }
   ],
   "sources": [
+    "content/stories/route-38-san-bernardino-mountains-990605.json",
     "public/data/strips/route-38-san-bernardino-mountains-990605.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

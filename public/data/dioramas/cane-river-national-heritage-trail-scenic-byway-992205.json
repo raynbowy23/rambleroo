@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Natchitoches",
+      "model": "town-blocks",
+      "at": 0.373809232004701,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -299,7 +307,7 @@
     {
       "name": "Natchitoches",
       "at": 0.3741116751269035,
-      "landmark": ""
+      "landmark": "Natchitoches"
     },
     {
       "name": "Vienna Bend",
@@ -338,6 +346,7 @@
     }
   ],
   "sources": [
+    "content/stories/cane-river-national-heritage-trail-scenic-byway-992205.json",
     "public/data/strips/cane-river-national-heritage-trail-scenic-byway-992205.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

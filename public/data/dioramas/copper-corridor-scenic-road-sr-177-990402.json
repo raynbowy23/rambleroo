@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Ray",
+      "model": "false-front-town",
+      "at": 0.505052512533661,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Kearny",
+      "model": "false-front-town",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Kearny",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -310,7 +332,7 @@
     {
       "name": "Ray",
       "at": 0.5060402684563758,
-      "landmark": ""
+      "landmark": "Ray"
     },
     {
       "name": "Kelvin",
@@ -319,6 +341,7 @@
     }
   ],
   "sources": [
+    "content/stories/copper-corridor-scenic-road-sr-177-990402.json",
     "public/data/strips/copper-corridor-scenic-road-sr-177-990402.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

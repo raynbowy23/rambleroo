@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Collinsville",
+      "model": "gristmill",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Collinsville",
+      "model": "town-blocks",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,10 +304,11 @@
     {
       "name": "Collinsville",
       "at": 0.12093023255813955,
-      "landmark": ""
+      "landmark": "Collinsville"
     }
   ],
   "sources": [
+    "content/stories/farmington-river-to-collinsville-990909.json",
     "public/data/strips/farmington-river-to-collinsville-990909.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

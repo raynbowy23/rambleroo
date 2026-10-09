@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Kaibeto",
+      "model": "town-blocks",
+      "at": 0.4941295527208533,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Square Butte",
+      "model": "mesa",
+      "at": 0.6992114717448119,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -319,6 +334,7 @@
     }
   ],
   "sources": [
+    "content/stories/naat-tsis-aan-navajo-mountain-scenic-road-59473.json",
     "public/data/strips/naat-tsis-aan-navajo-mountain-scenic-road-59473.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

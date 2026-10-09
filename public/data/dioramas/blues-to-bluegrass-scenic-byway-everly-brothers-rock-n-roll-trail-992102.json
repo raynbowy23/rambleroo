@@ -275,7 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Calhoun",
+      "model": "dam",
+      "at": 0.43292831931089415,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Calhoun",
+      "model": "town-blocks",
+      "at": 0.43292831931089415,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sacramento",
+      "model": "town-blocks",
+      "at": 0.5358061369320466,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Drakesboro",
+      "model": "town-blocks",
+      "at": 0.7539438898851692,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -334,12 +363,12 @@
     {
       "name": "Calhoun",
       "at": 0.432776617954071,
-      "landmark": ""
+      "landmark": "Calhoun"
     },
     {
       "name": "Sacramento",
       "at": 0.5355949895615867,
-      "landmark": ""
+      "landmark": "Sacramento"
     },
     {
       "name": "Central City",
@@ -349,7 +378,7 @@
     {
       "name": "Drakesboro",
       "at": 0.7536534446764093,
-      "landmark": ""
+      "landmark": "Drakesboro"
     },
     {
       "name": "Greenville",
@@ -363,6 +392,7 @@
     }
   ],
   "sources": [
+    "content/stories/blues-to-bluegrass-scenic-byway-everly-brothers-rock-n-roll-trail-992102.json",
     "public/data/strips/blues-to-bluegrass-scenic-byway-everly-brothers-rock-n-roll-trail-992102.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Thousand Springs State Park",
+      "model": "cove-waterfall",
+      "at": 0.09615812709088369,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Buhl",
+      "model": "town-blocks",
+      "at": 0.5354213608040154,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -299,7 +314,7 @@
     {
       "name": "Buhl",
       "at": 0.535431654676259,
-      "landmark": ""
+      "landmark": "Buhl"
     },
     {
       "name": "Filer",
@@ -318,6 +333,7 @@
     }
   ],
   "sources": [
+    "content/stories/thousand-springs-scenic-byway-2038.json",
     "public/data/strips/thousand-springs-scenic-byway-2038.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

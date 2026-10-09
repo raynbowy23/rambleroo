@@ -3,12 +3,12 @@
   "bywayId": "route-9-coastal-heritage-scenic-byway-2334",
   "title": "Route 9 Coastal Heritage Scenic Byway",
   "longitude": -75.6309,
-  "ground": "low-shore",
-  "palette": "coast",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,35 +275,64 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "New Castle",
+      "model": "harbor",
+      "at": 0.10772191624441516,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "New Castle",
+      "model": "town-blocks",
+      "at": 0.10772191624441516,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "sandbar",
+      "model": "town-blocks",
       "at": 0.041666666666666664,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "sandbar",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "sandbar",
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
       "at": 0.5416666666666666,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "sandbar",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
@@ -315,7 +344,7 @@
     {
       "name": "New Castle",
       "at": 0.10767857142857143,
-      "landmark": ""
+      "landmark": "New Castle"
     },
     {
       "name": "Tybouts Corner",
@@ -354,6 +383,7 @@
     }
   ],
   "sources": [
+    "content/stories/route-9-coastal-heritage-scenic-byway-2334.json",
     "public/data/strips/route-9-coastal-heritage-scenic-byway-2334.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

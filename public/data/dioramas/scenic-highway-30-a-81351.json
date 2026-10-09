@@ -3,12 +3,12 @@
   "bywayId": "scenic-highway-30-a-81351",
   "title": "Scenic Highway 30-A",
   "longitude": -86.2656,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "low-shore",
+  "palette": "coast",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,119 +275,57 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Grayton Beach",
+      "model": "alpine-lake",
+      "at": 0.5298999510186336,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grayton Beach",
+      "model": "town-blocks",
+      "at": 0.5298999510186336,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Seaside",
+      "model": "town-blocks",
+      "at": 0.6319197137473668,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
+      "model": "sandbar",
       "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "sandbar",
       "at": 0.2916666666666667,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "sandbar",
       "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "field",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "sandbar",
       "at": 0.7916666666666666,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.875,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.4
     }
   ],
   "towns": [
@@ -399,7 +337,7 @@
     {
       "name": "Seaside",
       "at": 0.6329004329004329,
-      "landmark": ""
+      "landmark": "Seaside"
     },
     {
       "name": "Rosemary Beach",
@@ -408,6 +346,7 @@
     }
   ],
   "sources": [
+    "content/stories/scenic-highway-30-a-81351.json",
     "public/data/strips/scenic-highway-30-a-81351.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

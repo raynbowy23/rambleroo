@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Motor Mill",
+      "model": "gristmill",
+      "at": 0.8089605058528369,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Guttenberg",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "river",
       "at": 0.5,
@@ -349,10 +371,11 @@
     {
       "name": "Guttenberg",
       "at": 0.9998078770413065,
-      "landmark": ""
+      "landmark": "Guttenberg"
     }
   ],
   "sources": [
+    "content/stories/river-bluffs-scenic-byway-2184.json",
     "public/data/strips/river-bluffs-scenic-byway-2184.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "American Beach",
+      "model": "town-blocks",
+      "at": 0.3073357610252681,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mayport Ferry",
+      "model": "harbor",
+      "at": 0.7124548088878334,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "sandbar",
@@ -315,7 +330,7 @@
     {
       "name": "American Beach",
       "at": 0.3072769953051643,
-      "landmark": ""
+      "landmark": "American Beach"
     },
     {
       "name": "Sawpit Bluff",
@@ -334,6 +349,7 @@
     }
   ],
   "sources": [
+    "content/stories/a1a-ocean-islands-trail-991201.json",
     "public/data/strips/a1a-ocean-islands-trail-991201.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -3,8 +3,8 @@
   "bywayId": "cache-la-poudre-north-park-scenic-and-historic-byway-2104",
   "title": "Cache La Poudre-North Park Scenic and Historic Byway",
   "longitude": -105.7269,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
@@ -239,43 +239,65 @@
     "elevation": [
       [
         0,
-        0.35
+        0.45
       ],
       [
         0.125,
-        0.453
+        0.692
       ],
       [
         0.25,
-        0.7
+        1.275
       ],
       [
         0.375,
-        0.947
+        1.858
       ],
       [
         0.5,
-        1.05
+        2.1
       ],
       [
         0.625,
-        0.947
+        1.858
       ],
       [
         0.75,
-        0.7
+        1.275
       ],
       [
         0.875,
-        0.453
+        0.692
       ],
       [
         1,
-        0.35
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Gould",
+      "model": "aspen",
+      "at": 0.21447005235417954,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Gould",
+      "model": "town-blocks",
+      "at": 0.21447005235417954,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rustic",
+      "model": "town-blocks",
+      "at": 0.582441133680585,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -371,7 +393,7 @@
     {
       "name": "Gould",
       "at": 0.21450459652706844,
-      "landmark": ""
+      "landmark": "Gould"
     },
     {
       "name": "Kinikinik",
@@ -381,7 +403,7 @@
     {
       "name": "Rustic",
       "at": 0.5824310520939734,
-      "landmark": ""
+      "landmark": "Rustic"
     },
     {
       "name": "Laporte",
@@ -390,6 +412,7 @@
     }
   ],
   "sources": [
+    "content/stories/cache-la-poudre-north-park-scenic-and-historic-byway-2104.json",
     "public/data/strips/cache-la-poudre-north-park-scenic-and-historic-byway-2104.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

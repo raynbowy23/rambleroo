@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Williamsport",
+      "model": "dam",
+      "at": 0.4696119442695141,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Williamsport",
+      "model": "town-blocks",
+      "at": 0.4696119442695141,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Great Falls",
+      "model": "ledge",
+      "at": 0.928560987809478,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -304,7 +326,7 @@
     {
       "name": "Williamsport",
       "at": 0.4695035460992908,
-      "landmark": ""
+      "landmark": "Williamsport"
     },
     {
       "name": "Sharpsburg",
@@ -343,6 +365,7 @@
     }
   ],
   "sources": [
+    "content/stories/chesapeake-and-ohio-canal-byway-69089.json",
     "public/data/strips/chesapeake-and-ohio-canal-byway-69089.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

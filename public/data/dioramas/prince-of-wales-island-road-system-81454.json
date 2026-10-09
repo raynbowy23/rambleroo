@@ -275,8 +275,37 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Hydaburg",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Klawock",
+      "model": "town-blocks",
+      "at": 0.24498706779875812,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Kasaan",
+      "model": "town-blocks",
+      "at": 0.9995887533734367,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "harbor",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "sandbar",
       "at": 0.041666666666666664,
@@ -310,12 +339,12 @@
     {
       "name": "Hydaburg",
       "at": 0,
-      "landmark": ""
+      "landmark": "Hydaburg"
     },
     {
       "name": "Klawock",
       "at": 0.24493361285814114,
-      "landmark": ""
+      "landmark": "Klawock"
     },
     {
       "name": "Naukati Bay",
@@ -345,10 +374,11 @@
     {
       "name": "Kasaan",
       "at": 0.9994409503843468,
-      "landmark": ""
+      "landmark": "Kasaan"
     }
   ],
   "sources": [
+    "content/stories/prince-of-wales-island-road-system-81454.json",
     "public/data/strips/prince-of-wales-island-road-system-81454.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

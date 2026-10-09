@@ -275,8 +275,23 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Coolidge",
+      "model": "false-front-town",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 1; separate excursion. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "conifer",
       "at": 0.0875,
@@ -375,6 +390,7 @@
     }
   ],
   "sources": [
+    "content/stories/pioneer-mountains-scenic-byway-2136.json",
     "public/data/strips/pioneer-mountains-scenic-byway-2136.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

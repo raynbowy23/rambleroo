@@ -3,12 +3,12 @@
   "bywayId": "ponderosa-pine-scenic-byway-2041",
   "title": "Ponderosa Pine Scenic Byway",
   "longitude": -115.6056,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,44 +239,73 @@
     "elevation": [
       [
         0,
-        0.35
+        0.45
       ],
       [
         0.125,
-        0.453
+        0.692
       ],
       [
         0.25,
-        0.7
+        1.275
       ],
       [
         0.375,
-        0.947
+        1.858
       ],
       [
         0.5,
-        1.05
+        2.1
       ],
       [
         0.625,
-        0.947
+        1.858
       ],
       [
         0.75,
-        0.7
+        1.275
       ],
       [
         0.875,
-        0.453
+        0.692
       ],
       [
         1,
-        0.35
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Idaho City",
+      "model": "false-front-town",
+      "at": 0.27201367169743806,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Idaho City",
+      "model": "town-blocks",
+      "at": 0.27201367169743806,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lowman",
+      "model": "town-blocks",
+      "at": 0.5323186053904982,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "conifer",
       "at": 0.0875,
@@ -366,12 +395,12 @@
     {
       "name": "Idaho City",
       "at": 0.271939586645469,
-      "landmark": ""
+      "landmark": "Idaho City"
     },
     {
       "name": "Lowman",
       "at": 0.5321939586645469,
-      "landmark": ""
+      "landmark": "Lowman"
     },
     {
       "name": "Stanley",
@@ -380,6 +409,7 @@
     }
   ],
   "sources": [
+    "content/stories/ponderosa-pine-scenic-byway-2041.json",
     "public/data/strips/ponderosa-pine-scenic-byway-2041.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

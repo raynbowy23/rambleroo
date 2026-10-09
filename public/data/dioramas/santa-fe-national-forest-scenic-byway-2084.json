@@ -3,8 +3,8 @@
   "bywayId": "santa-fe-national-forest-scenic-byway-2084",
   "title": "Santa Fe National Forest Scenic Byway",
   "longitude": -105.8467,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -219,43 +219,58 @@
     "elevation": [
       [
         0,
-        0.35
+        0.45
       ],
       [
         0.125,
-        0.453
+        0.692
       ],
       [
         0.25,
-        0.7
+        1.275
       ],
       [
         0.375,
-        0.947
+        1.858
       ],
       [
         0.5,
-        1.05
+        2.1
       ],
       [
         0.625,
-        0.947
+        1.858
       ],
       [
         0.75,
-        0.7
+        1.275
       ],
       [
         0.875,
-        0.453
+        0.692
       ],
       [
         1,
-        0.35
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Palace of the Governors",
+      "model": "town-blocks",
+      "at": 0.009106314232664675,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hyde Memorial State Park",
+      "model": "aspen",
+      "at": 0.5410505294033037,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -355,6 +370,7 @@
     }
   ],
   "sources": [
+    "content/stories/santa-fe-national-forest-scenic-byway-2084.json",
     "public/data/strips/santa-fe-national-forest-scenic-byway-2084.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Kirkwood",
+      "model": "town-blocks",
+      "at": 0.6218552806998626,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Woodfords",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -366,7 +388,7 @@
     {
       "name": "Kirkwood",
       "at": 0.6219465648854963,
-      "landmark": ""
+      "landmark": "Kirkwood"
     },
     {
       "name": "Alpine Village",
@@ -375,6 +397,7 @@
     }
   ],
   "sources": [
+    "content/stories/carson-pass-highway-route-88-2291.json",
     "public/data/strips/carson-pass-highway-route-88-2291.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

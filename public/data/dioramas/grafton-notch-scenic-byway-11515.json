@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Screw Auger Falls",
+      "model": "cove-waterfall",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -375,6 +383,7 @@
     }
   ],
   "sources": [
+    "content/stories/grafton-notch-scenic-byway-11515.json",
     "public/data/strips/grafton-notch-scenic-byway-11515.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

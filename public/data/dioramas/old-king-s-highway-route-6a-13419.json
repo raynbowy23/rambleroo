@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Sandwich",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Brewster",
+      "model": "town-blocks",
+      "at": 0.851176286813279,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -324,7 +339,7 @@
     {
       "name": "Sandwich",
       "at": 0,
-      "landmark": ""
+      "landmark": "Sandwich"
     },
     {
       "name": "East Sandwich",
@@ -354,7 +369,7 @@
     {
       "name": "Brewster",
       "at": 0.8518272425249169,
-      "landmark": ""
+      "landmark": "Brewster"
     },
     {
       "name": "Orleans",
@@ -363,6 +378,7 @@
     }
   ],
   "sources": [
+    "content/stories/old-king-s-highway-route-6a-13419.json",
     "public/data/strips/old-king-s-highway-route-6a-13419.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

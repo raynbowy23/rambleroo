@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Garrison",
+      "model": "alpine-lake",
+      "at": 0.46662078750870944,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Garrison",
+      "model": "town-blocks",
+      "at": 0.46662078750870944,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -309,7 +324,7 @@
     {
       "name": "Garrison",
       "at": 0.4666110183639399,
-      "landmark": ""
+      "landmark": "Garrison"
     },
     {
       "name": "Cutler",
@@ -328,6 +343,7 @@
     }
   ],
   "sources": [
+    "content/stories/lake-mille-lacs-scenic-byway-992701.json",
     "public/data/strips/lake-mille-lacs-scenic-byway-992701.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

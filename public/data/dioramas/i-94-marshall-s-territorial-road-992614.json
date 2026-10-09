@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Honolulu House",
+      "model": "steeple-town",
+      "at": 0.038390383135812514,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Honolulu House",
+      "model": "farmhouse",
+      "at": 0.038390383135812514,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Fountain Circle",
+      "model": "town-blocks",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -328,6 +350,7 @@
     }
   ],
   "sources": [
+    "content/stories/i-94-marshall-s-territorial-road-992614.json",
     "public/data/strips/i-94-marshall-s-territorial-road-992614.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

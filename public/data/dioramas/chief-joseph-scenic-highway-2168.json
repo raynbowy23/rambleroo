@@ -278,6 +278,13 @@
   "landmarks": [],
   "dressing": [
     {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
       "model": "conifer",
       "at": 0.0875,
       "side": -1,
@@ -380,6 +387,7 @@
     }
   ],
   "sources": [
+    "content/stories/chief-joseph-scenic-highway-2168.json",
     "public/data/strips/chief-joseph-scenic-highway-2168.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

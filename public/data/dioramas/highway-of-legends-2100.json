@@ -3,8 +3,8 @@
   "bywayId": "highway-of-legends-2100",
   "title": "Highway of Legends",
   "longitude": -105.0427,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
@@ -239,44 +239,66 @@
     "elevation": [
       [
         0,
-        0.35
+        0.45
       ],
       [
         0.125,
-        0.453
+        0.692
       ],
       [
         0.25,
-        0.7
+        1.275
       ],
       [
         0.375,
-        0.947
+        1.858
       ],
       [
         0.5,
-        1.05
+        2.1
       ],
       [
         0.625,
-        0.947
+        1.858
       ],
       [
         0.75,
-        0.7
+        1.275
       ],
       [
         0.875,
-        0.453
+        0.692
       ],
       [
         1,
-        0.35
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "La Veta",
+      "model": "town-blocks",
+      "at": 0.19584794321549695,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "false-front-town",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "conifer",
       "at": 0.0875,
@@ -371,7 +393,7 @@
     {
       "name": "La Veta",
       "at": 0.1958128078817734,
-      "landmark": ""
+      "landmark": "La Veta"
     },
     {
       "name": "Cuchara",
@@ -405,6 +427,7 @@
     }
   ],
   "sources": [
+    "content/stories/highway-of-legends-2100.json",
     "public/data/strips/highway-of-legends-2100.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

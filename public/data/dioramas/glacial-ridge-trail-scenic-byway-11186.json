@@ -275,8 +275,23 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Terrace Mill",
+      "model": "gristmill",
+      "at": 0.7974320167885665,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -405,6 +420,7 @@
     }
   ],
   "sources": [
+    "content/stories/glacial-ridge-trail-scenic-byway-11186.json",
     "public/data/strips/glacial-ridge-trail-scenic-byway-11186.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

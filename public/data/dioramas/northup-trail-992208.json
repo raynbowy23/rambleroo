@@ -275,7 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Epps House",
+      "model": "farmhouse",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Epps House",
+      "model": "town-blocks",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Cheneyville",
+      "model": "town-blocks",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Marksville",
+      "model": "town-blocks",
+      "at": 0.9158774042297271,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -329,7 +358,7 @@
     {
       "name": "Cheneyville",
       "at": 0.20766129032258066,
-      "landmark": ""
+      "landmark": "Cheneyville"
     },
     {
       "name": "Bunkie",
@@ -348,6 +377,7 @@
     }
   ],
   "sources": [
+    "content/stories/northup-trail-992208.json",
     "public/data/strips/northup-trail-992208.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

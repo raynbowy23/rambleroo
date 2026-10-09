@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Detour",
+      "model": "town-blocks",
+      "at": 0.19408840215585124,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Taneytown",
+      "model": "town-blocks",
+      "at": 0.7899297152458001,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Emmitsburg",
+      "model": "town-blocks",
+      "at": 0.9930126976260412,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -359,15 +381,16 @@
     {
       "name": "Taneytown",
       "at": 0.7898383371824481,
-      "landmark": ""
+      "landmark": "Taneytown"
     },
     {
       "name": "Emmitsburg",
       "at": 0.9930715935334874,
-      "landmark": ""
+      "landmark": "Emmitsburg"
     }
   ],
   "sources": [
+    "content/stories/old-main-streets-69091.json",
     "public/data/strips/old-main-streets-69091.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Landers",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -314,6 +322,7 @@
     }
   ],
   "sources": [
+    "content/stories/route-247-high-desert-barstow-to-yucca-valley-990611.json",
     "public/data/strips/route-247-high-desert-barstow-to-yucca-valley-990611.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

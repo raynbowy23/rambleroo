@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "North Fork",
+      "model": "town-blocks",
+      "at": 0.15235612049335817,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Clayton",
+      "model": "town-blocks",
+      "at": 0.7872372048715754,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Custer",
+      "model": "false-front-town",
+      "at": 0.9196494141735269,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -294,7 +316,7 @@
     {
       "name": "North Fork",
       "at": 0.1523248605083695,
-      "landmark": ""
+      "landmark": "North Fork"
     },
     {
       "name": "Salmon",
@@ -319,7 +341,7 @@
     {
       "name": "Clayton",
       "at": 0.7871047737135771,
-      "landmark": ""
+      "landmark": "Clayton"
     },
     {
       "name": "Stanley",
@@ -328,6 +350,7 @@
     }
   ],
   "sources": [
+    "content/stories/salmon-river-scenic-byway-2042.json",
     "public/data/strips/salmon-river-scenic-byway-2042.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

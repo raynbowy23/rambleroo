@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Why",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lukeville",
+      "model": "town-blocks",
+      "at": 0.9933903549959615,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -310,15 +325,16 @@
     {
       "name": "Why",
       "at": 0,
-      "landmark": ""
+      "landmark": "Why"
     },
     {
       "name": "Lukeville",
       "at": 0.9923913043478261,
-      "landmark": ""
+      "landmark": "Lukeville"
     }
   ],
   "sources": [
+    "content/stories/organ-pipe-cactus-parkway-990403.json",
     "public/data/strips/organ-pipe-cactus-parkway-990403.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

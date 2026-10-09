@@ -275,7 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Snow Camp",
+      "model": "gristmill",
+      "at": 0.5519606770236654,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Snow Camp",
+      "model": "town-blocks",
+      "at": 0.5519606770236654,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Eli Whitney",
+      "model": "town-blocks",
+      "at": 0.7130157621226878,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Carrboro",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -394,20 +423,21 @@
     {
       "name": "Snow Camp",
       "at": 0.5514412416851441,
-      "landmark": ""
+      "landmark": "Snow Camp"
     },
     {
       "name": "Eli Whitney",
       "at": 0.7121951219512195,
-      "landmark": ""
+      "landmark": "Eli Whitney"
     },
     {
       "name": "Carrboro",
       "at": 0.998891352549889,
-      "landmark": ""
+      "landmark": "Carrboro"
     }
   ],
   "sources": [
+    "content/stories/football-road-12820.json",
     "public/data/strips/football-road-12820.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

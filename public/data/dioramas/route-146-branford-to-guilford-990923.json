@@ -3,12 +3,12 @@
   "bywayId": "route-146-branford-to-guilford-990923",
   "title": "Route 146, Branford to Guilford",
   "longitude": -72.7751,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "low-shore",
+  "palette": "coast",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,119 +275,64 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Indian Neck",
+      "model": "harbor",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Indian Neck",
+      "model": "town-blocks",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Guilford Green",
+      "model": "steeple-town",
+      "at": 0.6666666666666666,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Guilford Green",
+      "model": "town-blocks",
+      "at": 0.6666666666666666,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
+      "model": "sandbar",
       "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "sandbar",
       "at": 0.2916666666666667,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "sandbar",
       "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "field",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "sandbar",
       "at": 0.7916666666666666,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.875,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.4
     }
   ],
   "towns": [
@@ -403,6 +348,7 @@
     }
   ],
   "sources": [
+    "content/stories/route-146-branford-to-guilford-990923.json",
     "public/data/strips/route-146-branford-to-guilford-990923.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

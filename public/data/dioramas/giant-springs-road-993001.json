@@ -278,6 +278,13 @@
   "landmarks": [],
   "dressing": [
     {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
       "model": "river",
       "at": 0.5,
       "side": 1,
@@ -293,6 +300,7 @@
     }
   ],
   "sources": [
+    "content/stories/giant-springs-road-993001.json",
     "public/data/strips/giant-springs-road-993001.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

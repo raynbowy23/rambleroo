@@ -3,12 +3,12 @@
   "bywayId": "white-mountain-scenic-road-2060",
   "title": "White Mountain Scenic Road",
   "longitude": -109.4119,
-  "ground": "alpine-plateau",
-  "palette": "mountain",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,44 +239,73 @@
     "elevation": [
       [
         0,
-        0.45
+        0.2
       ],
       [
         0.125,
-        0.692
+        0.218
       ],
       [
         0.25,
-        1.275
+        0.26
       ],
       [
         0.375,
-        1.858
+        0.302
       ],
       [
         0.5,
-        2.1
+        0.32
       ],
       [
         0.625,
-        1.858
+        0.302
       ],
       [
         0.75,
-        1.275
+        0.26
       ],
       [
         0.875,
-        0.692
+        0.218
       ],
       [
         1,
-        0.45
+        0.2
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "McNary",
+      "model": "town-blocks",
+      "at": 0.037853176525669885,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Eagar",
+      "model": "town-blocks",
+      "at": 0.9931246605898338,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Greer",
+      "model": "town-blocks",
+      "at": 0.9931246605898338,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -360,26 +389,34 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
     {
       "name": "McNary",
       "at": 0.03791208791208791,
-      "landmark": ""
+      "landmark": "McNary"
     },
     {
       "name": "Greer",
       "at": 0.5027472527472527,
-      "landmark": ""
+      "landmark": "Greer"
     },
     {
       "name": "Eagar",
       "at": 0.9931246605898338,
-      "landmark": ""
+      "landmark": "Eagar"
     }
   ],
   "sources": [
+    "content/stories/white-mountain-scenic-road-2060.json",
     "public/data/strips/white-mountain-scenic-road-2060.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

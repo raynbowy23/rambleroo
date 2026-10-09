@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Friars Point",
+      "model": "town-blocks",
+      "at": 0.27844598156633754,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rosedale",
+      "model": "town-blocks",
+      "at": 0.4795119858438206,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -314,7 +329,7 @@
     {
       "name": "Rosedale",
       "at": 0.4794238683127572,
-      "landmark": ""
+      "landmark": "Rosedale"
     },
     {
       "name": "Benoit",
@@ -343,6 +358,7 @@
     }
   ],
   "sources": [
+    "content/stories/mississippi-delta-great-river-road-64069.json",
     "public/data/strips/mississippi-delta-great-river-road-64069.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

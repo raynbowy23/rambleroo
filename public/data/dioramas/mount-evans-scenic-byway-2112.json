@@ -3,8 +3,8 @@
   "bywayId": "mount-evans-scenic-byway-2112",
   "title": "Mount Evans Scenic Byway",
   "longitude": -105.5971,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
@@ -239,43 +239,65 @@
     "elevation": [
       [
         0,
-        0.35
+        0.45
       ],
       [
         0.125,
-        0.453
+        0.692
       ],
       [
         0.25,
-        0.7
+        1.275
       ],
       [
         0.375,
-        0.947
+        1.858
       ],
       [
         0.5,
-        1.05
+        2.1
       ],
       [
         0.625,
-        0.947
+        1.858
       ],
       [
         0.75,
-        0.7
+        1.275
       ],
       [
         0.875,
-        0.453
+        0.692
       ],
       [
         1,
-        0.35
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Echo Lake",
+      "model": "alpine-lake",
+      "at": 0.46116947791738716,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Summit Lake",
+      "model": "alpine-lake",
+      "at": 0.8031849380301834,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mount Blue Sky",
+      "model": "snow-peak",
+      "at": 0.9959675931084192,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -385,6 +407,7 @@
     }
   ],
   "sources": [
+    "content/stories/mount-evans-scenic-byway-2112.json",
     "public/data/strips/mount-evans-scenic-byway-2112.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

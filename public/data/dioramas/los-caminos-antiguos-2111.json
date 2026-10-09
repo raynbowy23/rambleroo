@@ -275,8 +275,37 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Conejos",
+      "model": "town-blocks",
+      "at": 0.2704875928208216,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "San Luis",
+      "model": "town-blocks",
+      "at": 0.5359774719982683,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Fort Garland",
+      "model": "town-blocks",
+      "at": 0.6384102446173539,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "snow-peak",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "conifer",
       "at": 0.0875,
@@ -381,7 +410,7 @@
     {
       "name": "Fort Garland",
       "at": 0.6413654618473895,
-      "landmark": ""
+      "landmark": "Fort Garland"
     },
     {
       "name": "Mosca",
@@ -395,6 +424,7 @@
     }
   ],
   "sources": [
+    "content/stories/los-caminos-antiguos-2111.json",
     "public/data/strips/los-caminos-antiguos-2111.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

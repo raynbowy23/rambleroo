@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Libby Dam",
+      "model": "alpine-lake",
+      "at": 0.23858906794887846,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rexford",
+      "model": "town-blocks",
+      "at": 0.9204789010830937,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Eureka",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -371,6 +393,7 @@
   ],
   "towns": [],
   "sources": [
+    "content/stories/lake-koocanusa-scenic-byway-2135.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],

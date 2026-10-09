@@ -3,12 +3,12 @@
   "bywayId": "whitewater-canal-scenic-byway-74696",
   "title": "Whitewater Canal Scenic Byway",
   "longitude": -85.1841,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,14 +275,78 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Cambridge City",
+      "model": "town-blocks",
+      "at": 0.140834358508305,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Laurel",
+      "model": "town-blocks",
+      "at": 0.5059394701447096,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Metamora",
+      "model": "gristmill",
+      "at": 0.6192154134614587,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Metamora",
+      "model": "town-blocks",
+      "at": 0.6192154134614587,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "river",
-      "at": 0.5,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
@@ -294,7 +358,7 @@
     {
       "name": "Cambridge City",
       "at": 0.14089506172839508,
-      "landmark": ""
+      "landmark": "Cambridge City"
     },
     {
       "name": "Connersville",
@@ -309,12 +373,12 @@
     {
       "name": "Laurel",
       "at": 0.5060185185185185,
-      "landmark": ""
+      "landmark": "Laurel"
     },
     {
       "name": "Metamora",
       "at": 0.6192901234567902,
-      "landmark": ""
+      "landmark": "Metamora"
     },
     {
       "name": "Brookville",
@@ -338,6 +402,7 @@
     }
   ],
   "sources": [
+    "content/stories/whitewater-canal-scenic-byway-74696.json",
     "public/data/strips/whitewater-canal-scenic-byway-74696.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

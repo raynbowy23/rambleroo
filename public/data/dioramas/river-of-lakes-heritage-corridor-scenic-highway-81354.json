@@ -275,8 +275,23 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "DeLand",
+      "model": "town-blocks",
+      "at": 0.7187973531883013,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "paddlewheeler",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "river",
       "at": 0.5,
@@ -289,7 +304,7 @@
     {
       "name": "DeLand",
       "at": 0.7149532710280375,
-      "landmark": ""
+      "landmark": "DeLand"
     },
     {
       "name": "DeLeon Springs",
@@ -298,6 +313,7 @@
     }
   ],
   "sources": [
+    "content/stories/river-of-lakes-heritage-corridor-scenic-highway-81354.json",
     "public/data/strips/river-of-lakes-heritage-corridor-scenic-highway-81354.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

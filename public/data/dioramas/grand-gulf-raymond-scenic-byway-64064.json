@@ -3,12 +3,12 @@
   "bywayId": "grand-gulf-raymond-scenic-byway-64064",
   "title": "Grand Gulf - Raymond Scenic Byway",
   "longitude": -90.7706,
-  "ground": "low-shore",
-  "palette": "coast",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,35 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Grand Gulf",
+      "model": "ledge",
+      "at": 0.006821535439647293,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Raymond",
+      "model": "town-blocks",
+      "at": 0.9946166449603423,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "sandbar",
-      "at": 0.041666666666666664,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
-    },
-    {
-      "model": "sandbar",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
-    },
-    {
-      "model": "sandbar",
-      "at": 0.5416666666666666,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
-    },
-    {
-      "model": "sandbar",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -324,6 +318,7 @@
     }
   ],
   "sources": [
+    "content/stories/grand-gulf-raymond-scenic-byway-64064.json",
     "public/data/strips/grand-gulf-raymond-scenic-byway-64064.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

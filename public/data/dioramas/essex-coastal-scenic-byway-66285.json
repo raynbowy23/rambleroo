@@ -3,12 +3,12 @@
   "bywayId": "essex-coastal-scenic-byway-66285",
   "title": "Essex Coastal Scenic Byway",
   "longitude": -70.8374,
-  "ground": "low-shore",
-  "palette": "coast",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,35 +275,71 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Ipswich",
+      "model": "town-blocks",
+      "at": 0.4927452163124538,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Essex",
+      "model": "town-blocks",
+      "at": 0.7218852212210196,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Gloucester",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "sandbar",
+      "model": "town-blocks",
       "at": 0.041666666666666664,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "sandbar",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "sandbar",
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
       "at": 0.5416666666666666,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "sandbar",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
@@ -320,20 +356,21 @@
     {
       "name": "Ipswich",
       "at": 0.4919148936170213,
-      "landmark": ""
+      "landmark": "Ipswich"
     },
     {
       "name": "Essex",
       "at": 0.7204255319148936,
-      "landmark": ""
+      "landmark": "Essex"
     },
     {
       "name": "Gloucester",
       "at": 0.9978723404255319,
-      "landmark": ""
+      "landmark": "Gloucester"
     }
   ],
   "sources": [
+    "content/stories/essex-coastal-scenic-byway-66285.json",
     "public/data/strips/essex-coastal-scenic-byway-66285.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Ocotillo Wells",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -319,6 +327,7 @@
     }
   ],
   "sources": [
+    "content/stories/route-78-anza-borrego-desert-state-park-road-2171.json",
     "public/data/strips/route-78-anza-borrego-desert-state-park-road-2171.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

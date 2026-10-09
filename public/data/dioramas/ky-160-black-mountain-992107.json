@@ -275,7 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Benham",
+      "model": "false-front-town",
+      "at": 0.09152939758936138,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Benham",
+      "model": "town-blocks",
+      "at": 0.09152939758936138,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lynch",
+      "model": "false-front-town",
+      "at": 0.30083439581158355,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lynch",
+      "model": "town-blocks",
+      "at": 0.30083439581158355,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -371,10 +400,11 @@
     {
       "name": "Lynch",
       "at": 0.30097087378640774,
-      "landmark": ""
+      "landmark": "Lynch"
     }
   ],
   "sources": [
+    "content/stories/ky-160-black-mountain-992107.json",
     "public/data/strips/ky-160-black-mountain-992107.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

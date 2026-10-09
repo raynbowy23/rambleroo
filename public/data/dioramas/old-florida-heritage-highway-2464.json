@@ -3,8 +3,8 @@
   "bywayId": "old-florida-heritage-highway-2464",
   "title": "Old Florida Heritage Highway",
   "longitude": -82.2584,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "prairie-grid",
+  "palette": "prairie",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -275,49 +275,134 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Micanopy",
+      "model": "town-blocks",
+      "at": 0.33786206030886856,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Marjorie Kinnan Rawlings Historic State Park",
+      "model": "orchard",
+      "at": 0.7850130306977291,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
+      "model": "field",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 0.85,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
       "scale": 0.8
     },
     {
-      "model": "town-blocks",
+      "model": "field",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
       "at": 0.20833333333333334,
       "side": -1,
-      "distance": 0.85,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
       "scale": 0.8
     },
     {
-      "model": "town-blocks",
+      "model": "field",
       "at": 0.375,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.3,
+      "scale": 1.3
     },
     {
-      "model": "town-blocks",
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
       "at": 0.5416666666666666,
       "side": -1,
-      "distance": 0.85,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
       "scale": 0.8
     },
     {
-      "model": "town-blocks",
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 0.85,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
       "scale": 0.8
     },
     {
-      "model": "town-blocks",
+      "model": "field",
       "at": 0.875,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
     }
   ],
   "towns": [
@@ -329,7 +414,7 @@
     {
       "name": "Micanopy",
       "at": 0.3375545851528385,
-      "landmark": ""
+      "landmark": "Micanopy"
     },
     {
       "name": "McIntosh",
@@ -338,6 +423,7 @@
     }
   ],
   "sources": [
+    "content/stories/old-florida-heritage-highway-2464.json",
     "public/data/strips/old-florida-heritage-highway-2464.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

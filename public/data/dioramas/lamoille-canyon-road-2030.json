@@ -3,8 +3,8 @@
   "bywayId": "lamoille-canyon-road-2030",
   "title": "Lamoille Canyon Road",
   "longitude": -115.4287,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -239,43 +239,51 @@
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Terraces Picnic Area",
+      "model": "aspen",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -360,13 +368,6 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
-    },
-    {
-      "model": "sandbar",
-      "at": 0.5,
-      "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
     }
   ],
   "towns": [
@@ -382,6 +383,7 @@
     }
   ],
   "sources": [
+    "content/stories/lamoille-canyon-road-2030.json",
     "public/data/strips/lamoille-canyon-road-2030.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

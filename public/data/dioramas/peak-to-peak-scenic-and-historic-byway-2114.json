@@ -275,7 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Ward",
+      "model": "false-front-town",
+      "at": 0.5038111520802935,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ward",
+      "model": "town-blocks",
+      "at": 0.5038111520802935,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Nederland",
+      "model": "false-front-town",
+      "at": 0.6916148996324929,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Nederland",
+      "model": "town-blocks",
+      "at": 0.6916148996324929,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -371,12 +400,12 @@
     {
       "name": "Ward",
       "at": 0.5038525963149079,
-      "landmark": ""
+      "landmark": "Ward"
     },
     {
       "name": "Nederland",
       "at": 0.6916247906197655,
-      "landmark": ""
+      "landmark": "Nederland"
     },
     {
       "name": "Rollinsville",
@@ -390,6 +419,7 @@
     }
   ],
   "sources": [
+    "content/stories/peak-to-peak-scenic-and-historic-byway-2114.json",
     "public/data/strips/peak-to-peak-scenic-and-historic-byway-2114.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

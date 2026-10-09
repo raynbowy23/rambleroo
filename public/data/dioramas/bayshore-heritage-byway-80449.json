@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Greenwich",
+      "model": "town-blocks",
+      "at": 0.5445387099762877,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "East Point Light",
+      "model": "lighthouse-on-rock",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "harbor",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "sandbar",
       "at": 0.041666666666666664,
@@ -339,6 +361,7 @@
     }
   ],
   "sources": [
+    "content/stories/bayshore-heritage-byway-80449.json",
     "public/data/strips/bayshore-heritage-byway-80449.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

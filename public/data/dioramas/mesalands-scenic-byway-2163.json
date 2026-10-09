@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Conchas Lake",
+      "model": "alpine-lake",
+      "at": 0.9217874887434259,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -339,6 +347,7 @@
     }
   ],
   "sources": [
+    "content/stories/mesalands-scenic-byway-2163.json",
     "public/data/strips/mesalands-scenic-byway-2163.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

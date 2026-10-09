@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Cordova",
+      "model": "harbor",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cordova",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -298,6 +313,7 @@
     }
   ],
   "sources": [
+    "content/stories/copper-river-highway-81453.json",
     "public/data/strips/copper-river-highway-81453.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

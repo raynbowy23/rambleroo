@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Yanceyville",
+      "model": "town-blocks",
+      "at": 0.2911066495142415,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Milton",
+      "model": "town-blocks",
+      "at": 0.4301447541246133,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -324,12 +339,12 @@
     {
       "name": "Yanceyville",
       "at": 0.290899241603467,
-      "landmark": ""
+      "landmark": "Yanceyville"
     },
     {
       "name": "Milton",
       "at": 0.4299024918743229,
-      "landmark": ""
+      "landmark": "Milton"
     },
     {
       "name": "Hightowers",
@@ -348,6 +363,7 @@
     }
   ],
   "sources": [
+    "content/stories/colonial-heritage-byway-11642.json",
     "public/data/strips/colonial-heritage-byway-11642.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Blackduck",
+      "model": "town-blocks",
+      "at": 0.002737373400565963,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -366,7 +374,7 @@
     {
       "name": "Blackduck",
       "at": 0.002651515151515152,
-      "landmark": ""
+      "landmark": "Blackduck"
     },
     {
       "name": "Pennington",
@@ -375,6 +383,7 @@
     }
   ],
   "sources": [
+    "content/stories/lady-slipper-scenic-byway-13550.json",
     "public/data/strips/lady-slipper-scenic-byway-13550.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

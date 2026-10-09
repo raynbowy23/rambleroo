@@ -3,12 +3,12 @@
   "bywayId": "grassy-island-crossing-12823",
   "title": "Grassy Island Crossing",
   "longitude": -79.9996,
-  "ground": "low-shore",
-  "palette": "coast",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,35 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Ansonville",
+      "model": "town-blocks",
+      "at": 0.1390945057091282,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "sandbar",
-      "at": 0.041666666666666664,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
-    },
-    {
-      "model": "sandbar",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
-    },
-    {
-      "model": "sandbar",
-      "at": 0.5416666666666666,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
-    },
-    {
-      "model": "sandbar",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.4
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -315,7 +302,7 @@
     {
       "name": "Ansonville",
       "at": 0.1388235294117647,
-      "landmark": ""
+      "landmark": "Ansonville"
     },
     {
       "name": "Mangum",
@@ -324,6 +311,7 @@
     }
   ],
   "sources": [
+    "content/stories/grassy-island-crossing-12823.json",
     "public/data/strips/grassy-island-crossing-12823.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

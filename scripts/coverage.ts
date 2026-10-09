@@ -14,11 +14,12 @@ const momentFrames = await json<StreetView[]>('content/streetview-moments.json')
 const stories = new Map<string, BywayStory>()
 for (const f of (await readdir(new URL('content/stories/', ROOT))).filter((f) => f.endsWith('.json')))
   stories.set(f.replace(/\.json$/, ''), await json<BywayStory>(`content/stories/${f}`))
-const dioramas = new Set(
-  (await readdir(new URL('content/dioramas/', ROOT)))
-    .filter((f) => f.endsWith('.json') && f !== 'schema.json')
-    .map((f) => f.replace(/\.json$/, '')),
-)
+// Miniature per road: 'landmarks' when its scene names places from the story, 'terrain' when it shows only land, water and towns.
+const dioramas = new Map<string, string>()
+for (const f of (await readdir(new URL('public/data/dioramas/', ROOT))).filter((f) => f.endsWith('.json'))) {
+  const spec = await json<{ landmarks?: unknown[] }>(`public/data/dioramas/${f}`)
+  dioramas.set(f.replace(/\.json$/, ''), spec.landmarks?.length ? 'landmarks' : 'terrain')
+}
 // Material a story writer would start from: the chapter blurb and the sourced facts kept for the road.
 const facts = new Map<string, number>()
 for (const f of (await readdir(new URL('content/states/', ROOT))).filter((f) => f.endsWith('.json'))) {
@@ -86,7 +87,7 @@ const rows = byways
       p,
       s,
       momentCount.get(b.id) ?? 0,
-      dioramas.has(b.id) ? 'yes' : 'no',
+      dioramas.get(b.id) ?? 'none',
       strip ? 'yes' : 'no',
       picture,
       needs.join(' + ') || 'complete',
@@ -101,7 +102,9 @@ console.log(`story: ${by(4, 'reviewed')} reviewed, ${by(4, 'draft')} draft, ${by
 console.log(
   `picture: ${by(11, 'photo')} photo, ${by(11, 'street frame')} street frame only, ${by(11, 'illustration only')} illustration only`,
 )
-console.log(`miniature: ${by(9, 'yes')} · strip: ${by(10, 'yes')}`)
+console.log(
+  `miniature: ${by(9, 'landmarks')} with landmarks, ${by(9, 'terrain')} terrain only, ${by(9, 'none')} none · strip: ${by(10, 'yes')}`,
+)
 for (const t of ['national', 'state', 'classic drive', 'other'])
   console.log(
     `  ${t}: ${rows.filter((r) => r[3] === t).length} roads, ${rows.filter((r) => r[3] === t && r[4] === 'none').length} without a story`,

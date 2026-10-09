@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Oldtown",
+      "model": "town-blocks",
+      "at": 0.05930279124087235,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dover",
+      "model": "town-blocks",
+      "at": 0.8792370575479704,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,7 +304,7 @@
     {
       "name": "Oldtown",
       "at": 0.059154929577464786,
-      "landmark": ""
+      "landmark": "Oldtown"
     },
     {
       "name": "Laclede",
@@ -299,7 +314,7 @@
     {
       "name": "Dover",
       "at": 0.8785211267605634,
-      "landmark": ""
+      "landmark": "Dover"
     },
     {
       "name": "Sandpoint",
@@ -308,6 +323,7 @@
     }
   ],
   "sources": [
+    "content/stories/panhandle-historic-rivers-passage-scenic-byway-13574.json",
     "public/data/strips/panhandle-historic-rivers-passage-scenic-byway-13574.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

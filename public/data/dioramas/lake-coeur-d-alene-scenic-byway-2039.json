@@ -275,8 +275,23 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Harrison",
+      "model": "town-blocks",
+      "at": 0.6997436434775457,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "river",
       "at": 0.5,
@@ -299,10 +314,11 @@
     {
       "name": "Harrison",
       "at": 0.7002808988764044,
-      "landmark": ""
+      "landmark": "Harrison"
     }
   ],
   "sources": [
+    "content/stories/lake-coeur-d-alene-scenic-byway-2039.json",
     "public/data/strips/lake-coeur-d-alene-scenic-byway-2039.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

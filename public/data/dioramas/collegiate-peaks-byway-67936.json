@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Granite",
+      "model": "false-front-town",
+      "at": 0.012875587274522253,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Granite",
+      "model": "town-blocks",
+      "at": 0.012875587274522253,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Buena Vista",
+      "model": "town-blocks",
+      "at": 0.32425745341072626,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -366,12 +388,12 @@
     {
       "name": "Granite",
       "at": 0.012839059674502712,
-      "landmark": ""
+      "landmark": "Granite"
     },
     {
       "name": "Buena Vista",
       "at": 0.32405063291139247,
-      "landmark": ""
+      "landmark": "Buena Vista"
     },
     {
       "name": "Nathrop",
@@ -390,6 +412,7 @@
     }
   ],
   "sources": [
+    "content/stories/collegiate-peaks-byway-67936.json",
     "public/data/strips/collegiate-peaks-byway-67936.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

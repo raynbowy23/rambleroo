@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Sedona",
+      "model": "mesa",
+      "at": 0.9998577378314836,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sedona",
+      "model": "town-blocks",
+      "at": 0.9998577378314836,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -299,10 +314,11 @@
     {
       "name": "Sedona",
       "at": 1,
-      "landmark": ""
+      "landmark": "Sedona"
     }
   ],
   "sources": [
+    "content/stories/dry-creek-scenic-road-11294.json",
     "public/data/strips/dry-creek-scenic-road-11294.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

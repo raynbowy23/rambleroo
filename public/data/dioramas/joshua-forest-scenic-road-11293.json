@@ -3,8 +3,8 @@
   "bywayId": "joshua-forest-scenic-road-11293",
   "title": "Joshua Forest Scenic Road",
   "longitude": -113.2635,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "desert-mesas",
+  "palette": "desert",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -239,43 +239,51 @@
     "elevation": [
       [
         0,
-        0.35
+        0.2
       ],
       [
         0.125,
-        0.453
+        0.218
       ],
       [
         0.25,
-        0.7
+        0.26
       ],
       [
         0.375,
-        0.947
+        0.302
       ],
       [
         0.5,
-        1.05
+        0.32
       ],
       [
         0.625,
-        0.947
+        0.302
       ],
       [
         0.75,
-        0.7
+        0.26
       ],
       [
         0.875,
-        0.453
+        0.218
       ],
       [
         1,
-        0.35
+        0.2
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Burro Creek",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -360,6 +368,13 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5,
+      "side": -1,
+      "distance": 0.7,
+      "scale": 1.8
     }
   ],
   "towns": [
@@ -375,6 +390,7 @@
     }
   ],
   "sources": [
+    "content/stories/joshua-forest-scenic-road-11293.json",
     "public/data/strips/joshua-forest-scenic-road-11293.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

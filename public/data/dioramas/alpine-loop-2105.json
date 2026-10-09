@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Henson",
+      "model": "false-front-town",
+      "at": 0.3578109359053728,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Capitol City",
+      "model": "false-front-town",
+      "at": 0.3578109359053728,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Animas Forks",
+      "model": "false-front-town",
+      "at": 0.8139636230845846,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -366,17 +388,17 @@
     {
       "name": "Capitol City",
       "at": 0.2770392749244713,
-      "landmark": ""
+      "landmark": "Capitol City"
     },
     {
       "name": "Henson",
       "at": 0.3577039274924471,
-      "landmark": ""
+      "landmark": "Henson"
     },
     {
       "name": "Animas Forks",
       "at": 0.813595166163142,
-      "landmark": ""
+      "landmark": "Animas Forks"
     },
     {
       "name": "Howardsville",
@@ -390,6 +412,7 @@
     }
   ],
   "sources": [
+    "content/stories/alpine-loop-2105.json",
     "public/data/strips/alpine-loop-2105.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

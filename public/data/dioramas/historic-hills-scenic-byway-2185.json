@@ -3,12 +3,12 @@
   "bywayId": "historic-hills-scenic-byway-2185",
   "title": "Historic Hills Scenic Byway",
   "longitude": -92.1796,
-  "ground": "alpine-plateau",
-  "palette": "mountain",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,127 +239,72 @@
     "elevation": [
       [
         0,
-        0.45
+        0.2
       ],
       [
         0.125,
-        0.692
+        0.218
       ],
       [
         0.25,
-        1.275
+        0.26
       ],
       [
         0.375,
-        1.858
+        0.302
       ],
       [
         0.5,
-        2.1
+        0.32
       ],
       [
         0.625,
-        1.858
+        0.302
       ],
       [
         0.75,
-        1.275
+        0.26
       ],
       [
         0.875,
-        0.692
+        0.218
       ],
       [
         1,
-        0.45
+        0.2
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Bloomfield",
+      "model": "town-blocks",
+      "at": 0.3533810510560009,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Keosauqua",
+      "model": "town-blocks",
+      "at": 0.6603621322467814,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bonaparte",
+      "model": "town-blocks",
+      "at": 0.7963973402747562,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "hardwood",
-      "at": 0.0875,
-      "side": -1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.09949999999999999,
-      "side": -1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.11149999999999999,
-      "side": -1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.3375,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
       "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.34950000000000003,
-      "side": 1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.36150000000000004,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5875,
-      "side": -1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5995,
-      "side": -1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.6115,
-      "side": -1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8375,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8495,
-      "side": 1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8615,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.05
+      "scale": 1
     }
   ],
   "towns": [
@@ -381,7 +326,7 @@
     {
       "name": "Bloomfield",
       "at": 0.3531435349940688,
-      "landmark": ""
+      "landmark": "Bloomfield"
     },
     {
       "name": "Troy",
@@ -391,12 +336,12 @@
     {
       "name": "Keosauqua",
       "at": 0.6603795966785291,
-      "landmark": ""
+      "landmark": "Keosauqua"
     },
     {
       "name": "Bonaparte",
       "at": 0.796085409252669,
-      "landmark": ""
+      "landmark": "Bonaparte"
     },
     {
       "name": "Farmington",
@@ -410,6 +355,7 @@
     }
   ],
   "sources": [
+    "content/stories/historic-hills-scenic-byway-2185.json",
     "public/data/strips/historic-hills-scenic-byway-2185.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

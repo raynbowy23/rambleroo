@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Mount Vernon",
+      "model": "town-blocks",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -324,7 +332,7 @@
     {
       "name": "Mount Vernon",
       "at": 0.09258064516129033,
-      "landmark": ""
+      "landmark": "Mount Vernon"
     },
     {
       "name": "Mechanicsville",
@@ -373,6 +381,7 @@
     }
   ],
   "sources": [
+    "content/stories/lincoln-highway-heritage-byway-991901.json",
     "public/data/strips/lincoln-highway-heritage-byway-991901.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

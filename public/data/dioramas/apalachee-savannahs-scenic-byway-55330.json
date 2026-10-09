@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Sumatra",
+      "model": "town-blocks",
+      "at": 0.6778154504712239,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -371,10 +379,11 @@
     {
       "name": "Sumatra",
       "at": 0.6785310734463277,
-      "landmark": ""
+      "landmark": "Sumatra"
     }
   ],
   "sources": [
+    "content/stories/apalachee-savannahs-scenic-byway-55330.json",
     "public/data/strips/apalachee-savannahs-scenic-byway-55330.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

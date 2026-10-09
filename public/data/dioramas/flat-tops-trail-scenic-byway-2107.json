@@ -3,8 +3,8 @@
   "bywayId": "flat-tops-trail-scenic-byway-2107",
   "title": "Flat Tops Trail Scenic Byway",
   "longitude": -107.3297,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
@@ -239,43 +239,65 @@
     "elevation": [
       [
         0,
-        0.35
+        0.45
       ],
       [
         0.125,
-        0.453
+        0.692
       ],
       [
         0.25,
-        0.7
+        1.275
       ],
       [
         0.375,
-        0.947
+        1.858
       ],
       [
         0.5,
-        1.05
+        2.1
       ],
       [
         0.625,
-        0.947
+        1.858
       ],
       [
         0.75,
-        0.7
+        1.275
       ],
       [
         0.875,
-        0.453
+        0.692
       ],
       [
         1,
-        0.35
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Meeker",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Trappers Lake",
+      "model": "alpine-lake",
+      "at": 0.4812309470037134,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Yampa",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -366,7 +388,7 @@
     {
       "name": "Meeker",
       "at": 0,
-      "landmark": ""
+      "landmark": "Meeker"
     },
     {
       "name": "Buford",
@@ -376,10 +398,11 @@
     {
       "name": "Yampa",
       "at": 1,
-      "landmark": ""
+      "landmark": "Yampa"
     }
   ],
   "sources": [
+    "content/stories/flat-tops-trail-scenic-byway-2107.json",
     "public/data/strips/flat-tops-trail-scenic-byway-2107.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

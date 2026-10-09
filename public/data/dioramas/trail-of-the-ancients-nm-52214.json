@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "El Morro National Monument",
+      "model": "mesa",
+      "at": 0.8303876991558421,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -359,6 +367,7 @@
     }
   ],
   "sources": [
+    "content/stories/trail-of-the-ancients-nm-52214.json",
     "public/data/strips/trail-of-the-ancients-nm-52214.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

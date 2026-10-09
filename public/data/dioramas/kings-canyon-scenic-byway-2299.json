@@ -3,12 +3,12 @@
   "bywayId": "kings-canyon-scenic-byway-2299",
   "title": "Kings Canyon Scenic Byway",
   "longitude": -118.9084,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Wilsonia",
+      "model": "town-blocks",
+      "at": 0.305224945565454,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cedar Grove",
+      "model": "town-blocks",
+      "at": 0.8884524207563614,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -362,11 +384,11 @@
       "scale": 1.05
     },
     {
-      "model": "sandbar",
+      "model": "river",
       "at": 0.5,
-      "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -383,10 +405,11 @@
     {
       "name": "Wilsonia",
       "at": 0.30551181102362207,
-      "landmark": ""
+      "landmark": "Wilsonia"
     }
   ],
   "sources": [
+    "content/stories/kings-canyon-scenic-byway-2299.json",
     "public/data/strips/kings-canyon-scenic-byway-2299.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

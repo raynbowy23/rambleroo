@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Subligna",
+      "model": "town-blocks",
+      "at": 0.16176378979609762,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Villanow",
+      "model": "town-blocks",
+      "at": 0.3573263275102458,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -371,7 +393,7 @@
     {
       "name": "Subligna",
       "at": 0.16252465483234713,
-      "landmark": ""
+      "landmark": "Subligna"
     },
     {
       "name": "East Armuchee",
@@ -381,7 +403,7 @@
     {
       "name": "Villanow",
       "at": 0.357396449704142,
-      "landmark": ""
+      "landmark": "Villanow"
     },
     {
       "name": "Everett Springs",
@@ -395,6 +417,7 @@
     }
   ],
   "sources": [
+    "content/stories/ridge-and-valley-scenic-byway-15724.json",
     "public/data/strips/ridge-and-valley-scenic-byway-15724.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

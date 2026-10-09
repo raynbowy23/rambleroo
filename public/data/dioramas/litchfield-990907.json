@@ -3,8 +3,8 @@
   "bywayId": "litchfield-990907",
   "title": "Litchfield",
   "longitude": -73.1453,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
@@ -275,126 +275,85 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Tapping Reeve House and Law School",
+      "model": "farmhouse",
+      "at": 0.29731541161995256,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Litchfield",
+      "model": "steeple-town",
+      "at": 0.4577423516689085,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Litchfield",
+      "model": "town-blocks",
+      "at": 0.4577423516689085,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Northfield",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
-      "at": 0.125,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.20833333333333334,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.375,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.875,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
     {
       "name": "Litchfield",
       "at": 0.45698924731182794,
-      "landmark": ""
+      "landmark": "Litchfield"
     },
     {
       "name": "Litchfield (borough)",
@@ -404,10 +363,11 @@
     {
       "name": "Northfield",
       "at": 0.9978494623655912,
-      "landmark": ""
+      "landmark": "Northfield"
     }
   ],
   "sources": [
+    "content/stories/litchfield-990907.json",
     "public/data/strips/litchfield-990907.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

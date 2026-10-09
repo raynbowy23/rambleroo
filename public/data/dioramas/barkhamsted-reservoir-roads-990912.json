@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Pleasant Valley",
+      "model": "town-blocks",
+      "at": 0.07628568233786458,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Saville Dam",
+      "model": "alpine-lake",
+      "at": 0.4860860142705625,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -293,6 +308,7 @@
     }
   ],
   "sources": [
+    "content/stories/barkhamsted-reservoir-roads-990912.json",
     "public/data/strips/barkhamsted-reservoir-roads-990912.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

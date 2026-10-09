@@ -3,12 +3,12 @@
   "bywayId": "route-84-niles-canyon-road-990608",
   "title": "Route 84, Niles Canyon Road",
   "longitude": -121.9028,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,35 +275,71 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Niles",
+      "model": "town-blocks",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Sunol",
+      "model": "town-blocks",
+      "at": 0.854100749118007,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "mesa",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "mesa",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "mesa",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "sandbar",
+      "model": "gristmill",
       "at": 0.5,
       "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
@@ -315,10 +351,11 @@
     {
       "name": "Sunol",
       "at": 0.8561643835616438,
-      "landmark": ""
+      "landmark": "Sunol"
     }
   ],
   "sources": [
+    "content/stories/route-84-niles-canyon-road-990608.json",
     "public/data/strips/route-84-niles-canyon-road-990608.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

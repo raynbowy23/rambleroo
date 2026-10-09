@@ -8,7 +8,7 @@
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -111,8 +111,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Taylor Creek",
+      "model": "mesa",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Timber Creek Overlook",
+      "model": "overlook-pullout",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "mesa",
       "at": 0.041666666666666664,
@@ -144,6 +166,7 @@
   ],
   "towns": [],
   "sources": [
+    "content/stories/kolob-fingers-road-scenic-byway-2027.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],

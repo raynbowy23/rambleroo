@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Lake Mattamuskeet",
+      "model": "alpine-lake",
+      "at": 0.05239797785175432,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Columbia",
+      "model": "town-blocks",
+      "at": 0.4846072348346535,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Manns Harbor",
+      "model": "town-blocks",
+      "at": 0.8809541863675981,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,12 +311,12 @@
     {
       "name": "Columbia",
       "at": 0.4844897959183673,
-      "landmark": ""
+      "landmark": "Columbia"
     },
     {
       "name": "Manns Harbor",
       "at": 0.8808163265306121,
-      "landmark": ""
+      "landmark": "Manns Harbor"
     },
     {
       "name": "Manteo",
@@ -303,6 +325,7 @@
     }
   ],
   "sources": [
+    "content/stories/alligator-river-route-12810.json",
     "public/data/strips/alligator-river-route-12810.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
