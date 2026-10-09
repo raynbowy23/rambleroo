@@ -1,0 +1,165 @@
+{
+  "authored": false,
+  "bywayId": "taconic-trail-992505",
+  "title": "Taconic Trail",
+  "longitude": -73.2558,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -73.273,
+        42.7239
+      ],
+      [
+        -73.2724,
+        42.7239
+      ],
+      [
+        -73.2691,
+        42.7238
+      ],
+      [
+        -73.2619,
+        42.7183
+      ],
+      [
+        -73.2601,
+        42.7137
+      ],
+      [
+        -73.2559,
+        42.7106
+      ],
+      [
+        -73.2405,
+        42.704
+      ],
+      [
+        -73.2376,
+        42.7011
+      ],
+      [
+        -73.2373,
+        42.6984
+      ],
+      [
+        -73.2392,
+        42.6922
+      ],
+      [
+        -73.2366,
+        42.6885
+      ],
+      [
+        -73.2365,
+        42.6885
+      ],
+      [
+        -73.235,
+        42.6882
+      ],
+      [
+        -73.2318,
+        42.687
+      ],
+      [
+        -73.2307,
+        42.6867
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

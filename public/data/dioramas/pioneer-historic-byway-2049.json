@@ -1,0 +1,382 @@
+{
+  "authored": false,
+  "bywayId": "pioneer-historic-byway-2049",
+  "title": "Pioneer Historic Byway",
+  "longitude": -111.6338,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -111.81275,
+        41.99891
+      ],
+      [
+        -111.80419,
+        42.01885
+      ],
+      [
+        -111.81598,
+        42.05216
+      ],
+      [
+        -111.87624,
+        42.09073
+      ],
+      [
+        -111.87707,
+        42.10947
+      ],
+      [
+        -111.86147,
+        42.11211
+      ],
+      [
+        -111.83484,
+        42.13245
+      ],
+      [
+        -111.82457,
+        42.14741
+      ],
+      [
+        -111.83736,
+        42.17399
+      ],
+      [
+        -111.83306,
+        42.19354
+      ],
+      [
+        -111.84619,
+        42.22933
+      ],
+      [
+        -111.83578,
+        42.25779
+      ],
+      [
+        -111.79222,
+        42.30291
+      ],
+      [
+        -111.76613,
+        42.31913
+      ],
+      [
+        -111.761,
+        42.32954
+      ],
+      [
+        -111.71891,
+        42.3398
+      ],
+      [
+        -111.7113,
+        42.34918
+      ],
+      [
+        -111.72127,
+        42.36799
+      ],
+      [
+        -111.71366,
+        42.37831
+      ],
+      [
+        -111.71578,
+        42.39492
+      ],
+      [
+        -111.72682,
+        42.41123
+      ],
+      [
+        -111.7211,
+        42.42558
+      ],
+      [
+        -111.72079,
+        42.45528
+      ],
+      [
+        -111.73077,
+        42.48103
+      ],
+      [
+        -111.73024,
+        42.64897
+      ],
+      [
+        -111.64245,
+        42.66156
+      ],
+      [
+        -111.61116,
+        42.6547
+      ],
+      [
+        -111.59479,
+        42.6546
+      ],
+      [
+        -111.58455,
+        42.66065
+      ],
+      [
+        -111.58412,
+        42.68116
+      ],
+      [
+        -111.5646,
+        42.71205
+      ],
+      [
+        -111.56381,
+        42.81434
+      ],
+      [
+        -111.5447,
+        42.85051
+      ],
+      [
+        -111.54907,
+        42.88347
+      ],
+      [
+        -111.50216,
+        42.93195
+      ],
+      [
+        -111.50858,
+        42.96351
+      ],
+      [
+        -111.49979,
+        42.98854
+      ],
+      [
+        -111.51037,
+        43.01118
+      ],
+      [
+        -111.45421,
+        42.98905
+      ],
+      [
+        -111.44349,
+        42.99709
+      ],
+      [
+        -111.43519,
+        42.98981
+      ],
+      [
+        -111.38113,
+        42.99423
+      ],
+      [
+        -111.37687,
+        42.97499
+      ],
+      [
+        -111.36691,
+        42.96946
+      ],
+      [
+        -111.35127,
+        42.97329
+      ],
+      [
+        -111.341,
+        42.96787
+      ],
+      [
+        -111.31553,
+        42.97072
+      ],
+      [
+        -111.29433,
+        42.96464
+      ],
+      [
+        -111.29015,
+        42.97093
+      ],
+      [
+        -111.26563,
+        42.96799
+      ],
+      [
+        -111.24495,
+        42.97724
+      ],
+      [
+        -111.1812,
+        42.97464
+      ],
+      [
+        -111.16762,
+        42.97883
+      ],
+      [
+        -111.15004,
+        42.99641
+      ],
+      [
+        -111.1254,
+        43.00475
+      ],
+      [
+        -111.04406,
+        42.99634
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Franklin",
+      "model": "steeple-town",
+      "at": 0.00574427172069005,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Franklin",
+      "model": "town-blocks",
+      "at": 0.00574427172069005,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Franklin",
+      "at": 0.006277244986922392,
+      "landmark": "Franklin"
+    },
+    {
+      "name": "Preston",
+      "at": 0.08204010462074973,
+      "landmark": ""
+    },
+    {
+      "name": "Treasureton",
+      "at": 0.18683522231909333,
+      "landmark": ""
+    },
+    {
+      "name": "Thatcher",
+      "at": 0.3089799476896251,
+      "landmark": ""
+    },
+    {
+      "name": "Grace",
+      "at": 0.4106364428945075,
+      "landmark": ""
+    },
+    {
+      "name": "Soda Springs",
+      "at": 0.5222319093286836,
+      "landmark": ""
+    },
+    {
+      "name": "Wayan",
+      "at": 0.8315605928509154,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/pioneer-historic-byway-2049.json",
+    "public/data/strips/pioneer-historic-byway-2049.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

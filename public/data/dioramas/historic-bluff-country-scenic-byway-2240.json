@@ -1,0 +1,369 @@
+{
+  "authored": false,
+  "bywayId": "historic-bluff-country-scenic-byway-2240",
+  "title": "Historic Bluff Country Scenic Byway",
+  "longitude": -91.9412,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -91.3038,
+        43.82596
+      ],
+      [
+        -91.30207,
+        43.79242
+      ],
+      [
+        -91.33404,
+        43.78367
+      ],
+      [
+        -91.34574,
+        43.76254
+      ],
+      [
+        -91.39038,
+        43.75766
+      ],
+      [
+        -91.42242,
+        43.76638
+      ],
+      [
+        -91.44499,
+        43.76412
+      ],
+      [
+        -91.47134,
+        43.77141
+      ],
+      [
+        -91.50297,
+        43.77378
+      ],
+      [
+        -91.51557,
+        43.77198
+      ],
+      [
+        -91.52764,
+        43.76415
+      ],
+      [
+        -91.58361,
+        43.76293
+      ],
+      [
+        -91.62677,
+        43.77488
+      ],
+      [
+        -91.64595,
+        43.76435
+      ],
+      [
+        -91.66491,
+        43.76127
+      ],
+      [
+        -91.68317,
+        43.76632
+      ],
+      [
+        -91.69435,
+        43.78586
+      ],
+      [
+        -91.7166,
+        43.78526
+      ],
+      [
+        -91.74118,
+        43.79779
+      ],
+      [
+        -91.75295,
+        43.79761
+      ],
+      [
+        -91.75323,
+        43.80546
+      ],
+      [
+        -91.8018,
+        43.79933
+      ],
+      [
+        -91.80986,
+        43.79276
+      ],
+      [
+        -91.82488,
+        43.79029
+      ],
+      [
+        -91.82493,
+        43.77972
+      ],
+      [
+        -91.83828,
+        43.77338
+      ],
+      [
+        -91.8687,
+        43.7773
+      ],
+      [
+        -91.87095,
+        43.76351
+      ],
+      [
+        -91.88462,
+        43.76037
+      ],
+      [
+        -91.88073,
+        43.75137
+      ],
+      [
+        -91.88332,
+        43.74701
+      ],
+      [
+        -91.91016,
+        43.74994
+      ],
+      [
+        -91.91565,
+        43.73165
+      ],
+      [
+        -91.92883,
+        43.72985
+      ],
+      [
+        -91.94058,
+        43.74398
+      ],
+      [
+        -91.9445,
+        43.73622
+      ],
+      [
+        -91.96094,
+        43.73179
+      ],
+      [
+        -91.96047,
+        43.72205
+      ],
+      [
+        -91.96939,
+        43.72035
+      ],
+      [
+        -91.97184,
+        43.71406
+      ],
+      [
+        -91.9809,
+        43.7139
+      ],
+      [
+        -91.98318,
+        43.7066
+      ],
+      [
+        -91.99539,
+        43.70202
+      ],
+      [
+        -91.99859,
+        43.6959
+      ],
+      [
+        -91.99499,
+        43.69389
+      ],
+      [
+        -92.03346,
+        43.66354
+      ],
+      [
+        -92.08547,
+        43.67577
+      ],
+      [
+        -92.09378,
+        43.68552
+      ],
+      [
+        -92.1462,
+        43.68099
+      ],
+      [
+        -92.25441,
+        43.68143
+      ],
+      [
+        -92.26704,
+        43.68848
+      ],
+      [
+        -92.28288,
+        43.68879
+      ],
+      [
+        -92.32634,
+        43.68164
+      ],
+      [
+        -92.37088,
+        43.68154
+      ],
+      [
+        -92.42376,
+        43.71104
+      ],
+      [
+        -92.70064,
+        43.71037
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lanesboro",
+      "model": "ledge",
+      "at": 0.5319430465622934,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lanesboro",
+      "model": "town-blocks",
+      "at": 0.5319430465622934,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "steeple-town",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "La Crescent",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Hokah",
+      "at": 0.06636155606407335,
+      "landmark": ""
+    },
+    {
+      "name": "Perkins",
+      "at": 0.23890160183066367,
+      "landmark": ""
+    },
+    {
+      "name": "Peterson",
+      "at": 0.3799771167048056,
+      "landmark": ""
+    },
+    {
+      "name": "Lanesboro",
+      "at": 0.5318077803203661,
+      "landmark": "Lanesboro"
+    },
+    {
+      "name": "Preston",
+      "at": 0.625858123569794,
+      "landmark": ""
+    },
+    {
+      "name": "Wykoff",
+      "at": 0.74279176201373,
+      "landmark": ""
+    },
+    {
+      "name": "Spring Valley",
+      "at": 0.8148741418764303,
+      "landmark": ""
+    },
+    {
+      "name": "Grand Meadow",
+      "at": 0.9265446224256293,
+      "landmark": ""
+    },
+    {
+      "name": "Dexter",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/historic-bluff-country-scenic-byway-2240.json",
+    "public/data/strips/historic-bluff-country-scenic-byway-2240.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

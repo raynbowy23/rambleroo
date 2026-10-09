@@ -1,0 +1,118 @@
+{
+  "authored": false,
+  "bywayId": "lake-wilhelm-scenic-byway-69076",
+  "title": "Lake Wilhelm Scenic Byway",
+  "longitude": -80.1479,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.0804,
+        41.357
+      ],
+      [
+        -80.0836,
+        41.3648
+      ],
+      [
+        -80.0881,
+        41.3672
+      ],
+      [
+        -80.0887,
+        41.3741
+      ],
+      [
+        -80.096,
+        41.3824
+      ],
+      [
+        -80.0962,
+        41.3852
+      ],
+      [
+        -80.0981,
+        41.3872
+      ],
+      [
+        -80.106,
+        41.3962
+      ],
+      [
+        -80.1248,
+        41.4041
+      ],
+      [
+        -80.1341,
+        41.4106
+      ],
+      [
+        -80.1664,
+        41.424
+      ],
+      [
+        -80.1677,
+        41.4294
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

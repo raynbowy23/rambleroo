@@ -1,0 +1,438 @@
+{
+  "authored": false,
+  "bywayId": "white-pass-scenic-byway-2064",
+  "title": "White Pass Scenic Byway",
+  "longitude": -121.7408,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -122.87662,
+        46.54736
+      ],
+      [
+        -122.80061,
+        46.54389
+      ],
+      [
+        -122.74627,
+        46.53223
+      ],
+      [
+        -122.6139,
+        46.53309
+      ],
+      [
+        -122.57619,
+        46.51325
+      ],
+      [
+        -122.55931,
+        46.51866
+      ],
+      [
+        -122.55378,
+        46.53163
+      ],
+      [
+        -122.54656,
+        46.53597
+      ],
+      [
+        -122.49366,
+        46.53297
+      ],
+      [
+        -122.45229,
+        46.54291
+      ],
+      [
+        -122.38681,
+        46.5326
+      ],
+      [
+        -122.3664,
+        46.54194
+      ],
+      [
+        -122.32771,
+        46.54473
+      ],
+      [
+        -122.29548,
+        46.55446
+      ],
+      [
+        -122.27139,
+        46.55067
+      ],
+      [
+        -122.21068,
+        46.51212
+      ],
+      [
+        -122.1957,
+        46.50819
+      ],
+      [
+        -122.07488,
+        46.54769
+      ],
+      [
+        -122.00565,
+        46.5358
+      ],
+      [
+        -121.7792,
+        46.53374
+      ],
+      [
+        -121.75728,
+        46.53909
+      ],
+      [
+        -121.69094,
+        46.57614
+      ],
+      [
+        -121.686,
+        46.5909
+      ],
+      [
+        -121.66169,
+        46.62067
+      ],
+      [
+        -121.60644,
+        46.65178
+      ],
+      [
+        -121.59448,
+        46.66739
+      ],
+      [
+        -121.57777,
+        46.6744
+      ],
+      [
+        -121.57484,
+        46.6824
+      ],
+      [
+        -121.57957,
+        46.68903
+      ],
+      [
+        -121.56765,
+        46.69611
+      ],
+      [
+        -121.53894,
+        46.67927
+      ],
+      [
+        -121.4886,
+        46.66946
+      ],
+      [
+        -121.44038,
+        46.62371
+      ],
+      [
+        -121.39654,
+        46.63594
+      ],
+      [
+        -121.3761,
+        46.64887
+      ],
+      [
+        -121.36446,
+        46.64893
+      ],
+      [
+        -121.36114,
+        46.65435
+      ],
+      [
+        -121.34172,
+        46.65939
+      ],
+      [
+        -121.30875,
+        46.65681
+      ],
+      [
+        -121.27265,
+        46.64481
+      ],
+      [
+        -121.18213,
+        46.64292
+      ],
+      [
+        -121.16994,
+        46.64714
+      ],
+      [
+        -121.15205,
+        46.64454
+      ],
+      [
+        -121.13191,
+        46.6545
+      ],
+      [
+        -121.12595,
+        46.66506
+      ],
+      [
+        -121.0948,
+        46.66713
+      ],
+      [
+        -121.07009,
+        46.67703
+      ],
+      [
+        -120.97498,
+        46.67121
+      ],
+      [
+        -120.91954,
+        46.6954
+      ],
+      [
+        -120.90169,
+        46.69474
+      ],
+      [
+        -120.89935,
+        46.70312
+      ],
+      [
+        -120.88274,
+        46.71277
+      ],
+      [
+        -120.84473,
+        46.72164
+      ],
+      [
+        -120.81837,
+        46.71956
+      ],
+      [
+        -120.7918,
+        46.73602
+      ],
+      [
+        -120.7885,
+        46.7483
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Riffe Lake",
+      "model": "alpine-lake",
+      "at": 0.19619723037844644,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Morton",
+      "model": "town-blocks",
+      "at": 0.259876976148266,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "White Pass",
+      "model": "snow-peak",
+      "at": 0.7105334744595512,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Mary's Corner",
+      "at": 0.021940928270042195,
+      "landmark": ""
+    },
+    {
+      "name": "Salkum",
+      "at": 0.10185654008438819,
+      "landmark": ""
+    },
+    {
+      "name": "Mossyrock",
+      "at": 0.16649789029535866,
+      "landmark": ""
+    },
+    {
+      "name": "Morton",
+      "at": 0.25991561181434597,
+      "landmark": "Morton"
+    },
+    {
+      "name": "Randle",
+      "at": 0.4079324894514768,
+      "landmark": ""
+    },
+    {
+      "name": "Cora",
+      "at": 0.4750210970464135,
+      "landmark": ""
+    },
+    {
+      "name": "Packwood",
+      "at": 0.5443881856540085,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/white-pass-scenic-byway-2064.json",
+    "public/data/strips/white-pass-scenic-byway-2064.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

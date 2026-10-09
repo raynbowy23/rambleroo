@@ -26,7 +26,6 @@ import { loadBywayGeometry } from '../map/layers'
 import s from '../../components/ui/Content.module.css'
 // Shared-boundary neighbors derived from the bundled us-atlas/states-10m.json topology.
 import adjacentStates from './adjacent-states.json'
-import { specs as dioramaSpecs } from '../../components/art/diorama3d/spec'
 
 // three.js loads only on pages that have a miniature.
 const RoadMiniature = lazy(() => import('./RoadMiniature'))
@@ -99,10 +98,9 @@ export default function BywayPage() {
   if (status === 'error') return <PageStatus title="The catalog could not be loaded" error />
   if (!b) return <NotFound title="Road not found" />
   const point = start?.id === b.id ? start.point : b.center
-  const spec = dioramaSpecs.find((d) => d.bywayId === b.id)
-  const miniature = spec && (
+  const miniature = (
     <Suspense fallback={null}>
-      <RoadMiniature spec={spec} latitude={b.center[1]} />
+      <RoadMiniature id={b.id} latitude={b.center[1]} />
     </Suspense>
   )
   return (

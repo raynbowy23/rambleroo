@@ -1,0 +1,426 @@
+{
+  "authored": false,
+  "bywayId": "top-of-the-rockies-2119",
+  "title": "Top of the Rockies",
+  "longitude": -106.5001,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -106.44873,
+        39.60835
+      ],
+      [
+        -106.43619,
+        39.60051
+      ],
+      [
+        -106.42924,
+        39.58566
+      ],
+      [
+        -106.40793,
+        39.57428
+      ],
+      [
+        -106.40136,
+        39.55284
+      ],
+      [
+        -106.39699,
+        39.55636
+      ],
+      [
+        -106.40001,
+        39.54153
+      ],
+      [
+        -106.39126,
+        39.53722
+      ],
+      [
+        -106.3892,
+        39.52015
+      ],
+      [
+        -106.36795,
+        39.49484
+      ],
+      [
+        -106.36206,
+        39.47426
+      ],
+      [
+        -106.33287,
+        39.45634
+      ],
+      [
+        -106.33569,
+        39.44835
+      ],
+      [
+        -106.31669,
+        39.41726
+      ],
+      [
+        -106.31745,
+        39.38082
+      ],
+      [
+        -106.30827,
+        39.36537
+      ],
+      [
+        -106.33228,
+        39.34729
+      ],
+      [
+        -106.32912,
+        39.33983
+      ],
+      [
+        -106.33585,
+        39.32117
+      ],
+      [
+        -106.32287,
+        39.27734
+      ],
+      [
+        -106.29028,
+        39.26511
+      ],
+      [
+        -106.29015,
+        39.2438
+      ],
+      [
+        -106.34875,
+        39.22125
+      ],
+      [
+        -106.34391,
+        39.20375
+      ],
+      [
+        -106.32219,
+        39.17655
+      ],
+      [
+        -106.32621,
+        39.1634
+      ],
+      [
+        -106.31662,
+        39.13222
+      ],
+      [
+        -106.28126,
+        39.07598
+      ],
+      [
+        -106.29626,
+        39.07792
+      ],
+      [
+        -106.32957,
+        39.09811
+      ],
+      [
+        -106.36724,
+        39.09331
+      ],
+      [
+        -106.39785,
+        39.07524
+      ],
+      [
+        -106.40606,
+        39.06266
+      ],
+      [
+        -106.40945,
+        39.069
+      ],
+      [
+        -106.44561,
+        39.07172
+      ],
+      [
+        -106.51138,
+        39.06906
+      ],
+      [
+        -106.54107,
+        39.08634
+      ],
+      [
+        -106.54487,
+        39.10753
+      ],
+      [
+        -106.53871,
+        39.11613
+      ],
+      [
+        -106.55152,
+        39.10244
+      ],
+      [
+        -106.5714,
+        39.09906
+      ],
+      [
+        -106.5532,
+        39.10567
+      ],
+      [
+        -106.57385,
+        39.1097
+      ],
+      [
+        -106.57368,
+        39.11975
+      ],
+      [
+        -106.58131,
+        39.12463
+      ],
+      [
+        -106.5818,
+        39.11399
+      ],
+      [
+        -106.60009,
+        39.10684
+      ],
+      [
+        -106.61664,
+        39.11044
+      ],
+      [
+        -106.62171,
+        39.12329
+      ],
+      [
+        -106.64078,
+        39.12609
+      ],
+      [
+        -106.72729,
+        39.12011
+      ],
+      [
+        -106.76524,
+        39.13459
+      ],
+      [
+        -106.78347,
+        39.14999
+      ],
+      [
+        -106.79556,
+        39.17661
+      ],
+      [
+        -106.81496,
+        39.18979
+      ],
+      [
+        -106.84936,
+        39.20124
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Gilman",
+      "model": "false-front-town",
+      "at": 0.08340550944108707,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Climax",
+      "model": "false-front-town",
+      "at": 0.23432496301509984,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Independence Pass",
+      "model": "snow-peak",
+      "at": 0.76589399983796,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Minturn",
+      "at": 0.07969762419006479,
+      "landmark": ""
+    },
+    {
+      "name": "Pando",
+      "at": 0.16025917926565875,
+      "landmark": ""
+    },
+    {
+      "name": "Climax",
+      "at": 0.23432496301509984,
+      "landmark": "Climax"
+    },
+    {
+      "name": "Leadville North",
+      "at": 0.34136069114470846,
+      "landmark": ""
+    },
+    {
+      "name": "Dayton",
+      "at": 0.5798056155507559,
+      "landmark": ""
+    },
+    {
+      "name": "Aspen",
+      "at": 0.9908207343412527,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/top-of-the-rockies-2119.json",
+    "public/data/strips/top-of-the-rockies-2119.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

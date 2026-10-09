@@ -1,0 +1,119 @@
+{
+  "authored": false,
+  "bywayId": "socorro-historical-district-scenic-byway-2473",
+  "title": "Socorro Historical District Scenic Byway",
+  "longitude": -106.8959,
+  "ground": "desert-mesas",
+  "palette": "desert",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -106.8976,
+        34.0575
+      ],
+      [
+        -106.8959,
+        34.0575
+      ],
+      [
+        -106.8939,
+        34.0584
+      ],
+      [
+        -106.8935,
+        34.0581
+      ],
+      [
+        -106.8935,
+        34.0575
+      ],
+      [
+        -106.8939,
+        34.0575
+      ],
+      [
+        -106.8959,
+        34.0575
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "mesa",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5,
+      "side": -1,
+      "distance": 0.7,
+      "scale": 1.8
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

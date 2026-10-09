@@ -1,0 +1,391 @@
+{
+  "authored": false,
+  "bywayId": "connecticut-state-route-169-2451",
+  "title": "Connecticut State Route 169",
+  "longitude": -71.9557,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -72.01803,
+        41.60472
+      ],
+      [
+        -72.01605,
+        41.61357
+      ],
+      [
+        -72.01603,
+        41.61609
+      ],
+      [
+        -72.01723,
+        41.61881
+      ],
+      [
+        -72.0168,
+        41.6215
+      ],
+      [
+        -72.01227,
+        41.62528
+      ],
+      [
+        -71.99949,
+        41.63246
+      ],
+      [
+        -71.99041,
+        41.64239
+      ],
+      [
+        -71.98468,
+        41.64699
+      ],
+      [
+        -71.98337,
+        41.64921
+      ],
+      [
+        -71.97531,
+        41.65503
+      ],
+      [
+        -71.97521,
+        41.65814
+      ],
+      [
+        -71.97202,
+        41.6671
+      ],
+      [
+        -71.97271,
+        41.676
+      ],
+      [
+        -71.96935,
+        41.67838
+      ],
+      [
+        -71.96648,
+        41.68228
+      ],
+      [
+        -71.96927,
+        41.69222
+      ],
+      [
+        -71.97189,
+        41.69636
+      ],
+      [
+        -71.96804,
+        41.70406
+      ],
+      [
+        -71.97122,
+        41.71564
+      ],
+      [
+        -71.97071,
+        41.71925
+      ],
+      [
+        -71.96482,
+        41.72977
+      ],
+      [
+        -71.96505,
+        41.73637
+      ],
+      [
+        -71.96153,
+        41.74011
+      ],
+      [
+        -71.95991,
+        41.74345
+      ],
+      [
+        -71.9606,
+        41.74974
+      ],
+      [
+        -71.95755,
+        41.7552
+      ],
+      [
+        -71.95636,
+        41.76596
+      ],
+      [
+        -71.94962,
+        41.78432
+      ],
+      [
+        -71.94817,
+        41.79749
+      ],
+      [
+        -71.95122,
+        41.80537
+      ],
+      [
+        -71.95464,
+        41.80955
+      ],
+      [
+        -71.9579,
+        41.81729
+      ],
+      [
+        -71.95934,
+        41.86283
+      ],
+      [
+        -71.96039,
+        41.86706
+      ],
+      [
+        -71.96278,
+        41.86867
+      ],
+      [
+        -71.96171,
+        41.87595
+      ],
+      [
+        -71.96214,
+        41.89753
+      ],
+      [
+        -71.95849,
+        41.90494
+      ],
+      [
+        -71.95832,
+        41.9091
+      ],
+      [
+        -71.9559,
+        41.91306
+      ],
+      [
+        -71.95691,
+        41.92233
+      ],
+      [
+        -71.95698,
+        41.93447
+      ],
+      [
+        -71.96401,
+        41.94216
+      ],
+      [
+        -71.97107,
+        41.94323
+      ],
+      [
+        -71.97446,
+        41.94862
+      ],
+      [
+        -71.98063,
+        41.95299
+      ],
+      [
+        -71.98267,
+        41.9601
+      ],
+      [
+        -71.9892,
+        41.97024
+      ],
+      [
+        -71.99638,
+        41.98558
+      ],
+      [
+        -71.99712,
+        41.99102
+      ],
+      [
+        -71.9995,
+        41.99555
+      ],
+      [
+        -71.9995,
+        42.00153
+      ],
+      [
+        -72.00211,
+        42.01123
+      ],
+      [
+        -72.00866,
+        42.02046
+      ],
+      [
+        -72.01006,
+        42.02696
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Prudence Crandall Museum, Canterbury",
+      "model": "town-blocks",
+      "at": 0.2380748831344538,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Brooklyn",
+      "model": "town-blocks",
+      "at": 0.443591176498865,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Roseland Cottage, Woodstock",
+      "model": "town-blocks",
+      "at": 0.8193648528936327,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "steeple-town",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Lisbon",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Canterbury",
+      "at": 0.23406940063091475,
+      "landmark": ""
+    },
+    {
+      "name": "Brooklyn",
+      "at": 0.44290220820189274,
+      "landmark": "Brooklyn"
+    },
+    {
+      "name": "Pomfret",
+      "at": 0.6242902208201893,
+      "landmark": ""
+    },
+    {
+      "name": "South Woodstock",
+      "at": 0.7804416403785489,
+      "landmark": ""
+    },
+    {
+      "name": "Woodstock",
+      "at": 0.8757097791798107,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/connecticut-state-route-169-2451.json",
+    "public/data/strips/connecticut-state-route-169-2451.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

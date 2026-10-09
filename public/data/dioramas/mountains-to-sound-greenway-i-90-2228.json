@@ -1,0 +1,396 @@
+{
+  "authored": false,
+  "bywayId": "mountains-to-sound-greenway-i-90-2228",
+  "title": "Mountains to Sound Greenway - I-90",
+  "longitude": -121.431,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -122.32897,
+        47.59031
+      ],
+      [
+        -122.31645,
+        47.59485
+      ],
+      [
+        -122.30807,
+        47.58997
+      ],
+      [
+        -122.24386,
+        47.59197
+      ],
+      [
+        -122.20677,
+        47.57779
+      ],
+      [
+        -122.1333,
+        47.57822
+      ],
+      [
+        -122.04331,
+        47.54389
+      ],
+      [
+        -122.02583,
+        47.53172
+      ],
+      [
+        -122.00903,
+        47.53656
+      ],
+      [
+        -121.99104,
+        47.53124
+      ],
+      [
+        -121.97021,
+        47.5358
+      ],
+      [
+        -121.9456,
+        47.53158
+      ],
+      [
+        -121.9349,
+        47.52195
+      ],
+      [
+        -121.90074,
+        47.50595
+      ],
+      [
+        -121.83735,
+        47.51424
+      ],
+      [
+        -121.78126,
+        47.47403
+      ],
+      [
+        -121.74164,
+        47.47308
+      ],
+      [
+        -121.70849,
+        47.46291
+      ],
+      [
+        -121.69925,
+        47.4489
+      ],
+      [
+        -121.69113,
+        47.4443
+      ],
+      [
+        -121.66049,
+        47.44252
+      ],
+      [
+        -121.63404,
+        47.42994
+      ],
+      [
+        -121.59753,
+        47.42446
+      ],
+      [
+        -121.57162,
+        47.40592
+      ],
+      [
+        -121.5485,
+        47.39771
+      ],
+      [
+        -121.48763,
+        47.39684
+      ],
+      [
+        -121.46946,
+        47.39278
+      ],
+      [
+        -121.44942,
+        47.39717
+      ],
+      [
+        -121.43099,
+        47.42469
+      ],
+      [
+        -121.41899,
+        47.4282
+      ],
+      [
+        -121.4103,
+        47.42325
+      ],
+      [
+        -121.41103,
+        47.41345
+      ],
+      [
+        -121.40375,
+        47.40174
+      ],
+      [
+        -121.38034,
+        47.388
+      ],
+      [
+        -121.36352,
+        47.34233
+      ],
+      [
+        -121.35201,
+        47.33956
+      ],
+      [
+        -121.30223,
+        47.30229
+      ],
+      [
+        -121.28806,
+        47.29699
+      ],
+      [
+        -121.28026,
+        47.27884
+      ],
+      [
+        -121.26989,
+        47.27101
+      ],
+      [
+        -121.23816,
+        47.26811
+      ],
+      [
+        -121.19727,
+        47.25549
+      ],
+      [
+        -121.14955,
+        47.22074
+      ],
+      [
+        -121.1062,
+        47.21293
+      ],
+      [
+        -121.05228,
+        47.19473
+      ],
+      [
+        -121.0391,
+        47.18235
+      ],
+      [
+        -120.99551,
+        47.18494
+      ],
+      [
+        -120.95945,
+        47.19469
+      ],
+      [
+        -120.90576,
+        47.18432
+      ],
+      [
+        -120.8715,
+        47.16345
+      ],
+      [
+        -120.82598,
+        47.15627
+      ],
+      [
+        -120.79806,
+        47.11703
+      ],
+      [
+        -120.76723,
+        47.10678
+      ],
+      [
+        -120.76006,
+        47.09613
+      ],
+      [
+        -120.73886,
+        47.08327
+      ],
+      [
+        -120.66628,
+        47.05411
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Issaquah",
+      "model": "town-blocks",
+      "at": 0.15332444387098992,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Keechelus Lake",
+      "model": "alpine-lake",
+      "at": 0.5707067960372164,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Thorp",
+      "model": "town-blocks",
+      "at": 0.992825626257452,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "snow-peak",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Beaux Arts Village",
+      "at": 0.06659939455095863,
+      "landmark": ""
+    },
+    {
+      "name": "Issaquah",
+      "at": 0.15327951564076692,
+      "landmark": "Issaquah"
+    },
+    {
+      "name": "North Bend",
+      "at": 0.2898082744702321,
+      "landmark": ""
+    },
+    {
+      "name": "Rockdale",
+      "at": 0.4752774974772957,
+      "landmark": ""
+    },
+    {
+      "name": "Easton",
+      "at": 0.6954591321897075,
+      "landmark": ""
+    },
+    {
+      "name": "South Cle Elum",
+      "at": 0.822300706357215,
+      "landmark": ""
+    },
+    {
+      "name": "Thorp",
+      "at": 0.9927346115035318,
+      "landmark": "Thorp"
+    }
+  ],
+  "sources": [
+    "content/stories/mountains-to-sound-greenway-i-90-2228.json",
+    "public/data/strips/mountains-to-sound-greenway-i-90-2228.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

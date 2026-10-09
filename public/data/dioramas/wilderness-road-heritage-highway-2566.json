@@ -1,0 +1,436 @@
+{
+  "authored": false,
+  "bywayId": "wilderness-road-heritage-highway-2566",
+  "title": "Wilderness Road Heritage Highway",
+  "longitude": -84.0295,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -83.67597,
+        36.5981
+      ],
+      [
+        -83.70009,
+        36.60557
+      ],
+      [
+        -83.70356,
+        36.61443
+      ],
+      [
+        -83.7006,
+        36.658
+      ],
+      [
+        -83.68425,
+        36.67633
+      ],
+      [
+        -83.68486,
+        36.69455
+      ],
+      [
+        -83.69661,
+        36.70623
+      ],
+      [
+        -83.68967,
+        36.71759
+      ],
+      [
+        -83.69608,
+        36.73749
+      ],
+      [
+        -83.69371,
+        36.75728
+      ],
+      [
+        -83.73557,
+        36.77539
+      ],
+      [
+        -83.77196,
+        36.81993
+      ],
+      [
+        -83.79484,
+        36.86177
+      ],
+      [
+        -83.81379,
+        36.87421
+      ],
+      [
+        -83.82774,
+        36.8754
+      ],
+      [
+        -83.85528,
+        36.85188
+      ],
+      [
+        -83.87782,
+        36.86151
+      ],
+      [
+        -83.8889,
+        36.90438
+      ],
+      [
+        -83.90563,
+        36.91793
+      ],
+      [
+        -83.89339,
+        36.93177
+      ],
+      [
+        -83.89177,
+        36.95578
+      ],
+      [
+        -83.90458,
+        36.97074
+      ],
+      [
+        -83.92602,
+        36.97513
+      ],
+      [
+        -83.92873,
+        36.98572
+      ],
+      [
+        -83.92355,
+        36.99452
+      ],
+      [
+        -83.9275,
+        37.00323
+      ],
+      [
+        -83.94774,
+        37.014
+      ],
+      [
+        -83.95997,
+        37.03087
+      ],
+      [
+        -84.01428,
+        37.03752
+      ],
+      [
+        -84.04238,
+        37.08
+      ],
+      [
+        -84.06255,
+        37.08783
+      ],
+      [
+        -84.07514,
+        37.11972
+      ],
+      [
+        -84.10197,
+        37.14242
+      ],
+      [
+        -84.10498,
+        37.1574
+      ],
+      [
+        -84.13735,
+        37.18599
+      ],
+      [
+        -84.15514,
+        37.19313
+      ],
+      [
+        -84.1725,
+        37.22193
+      ],
+      [
+        -84.18155,
+        37.22081
+      ],
+      [
+        -84.21905,
+        37.23865
+      ],
+      [
+        -84.22974,
+        37.26642
+      ],
+      [
+        -84.21859,
+        37.27506
+      ],
+      [
+        -84.22143,
+        37.29272
+      ],
+      [
+        -84.21422,
+        37.29648
+      ],
+      [
+        -84.22255,
+        37.30229
+      ],
+      [
+        -84.23477,
+        37.30018
+      ],
+      [
+        -84.24565,
+        37.30998
+      ],
+      [
+        -84.24857,
+        37.32819
+      ],
+      [
+        -84.34054,
+        37.35289
+      ],
+      [
+        -84.33052,
+        37.37769
+      ],
+      [
+        -84.33645,
+        37.40915
+      ],
+      [
+        -84.33253,
+        37.42808
+      ],
+      [
+        -84.31754,
+        37.43826
+      ],
+      [
+        -84.33287,
+        37.47056
+      ],
+      [
+        -84.31383,
+        37.52337
+      ],
+      [
+        -84.30597,
+        37.56773
+      ],
+      [
+        -84.29661,
+        37.56854
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Cumberland Gap",
+      "model": "ridge",
+      "at": 0.001584153415549771,
+      "offset": "roadside",
+      "notes": "Story moment 1; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Pineville",
+      "model": "town-blocks",
+      "at": 0.1393671889390376,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Renfro Valley",
+      "model": "town-blocks",
+      "at": 0.8559786824414202,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Middlesboro",
+      "at": 0.021443298969072155,
+      "landmark": ""
+    },
+    {
+      "name": "Wallsend",
+      "at": 0.14659793814432986,
+      "landmark": ""
+    },
+    {
+      "name": "Himyar",
+      "at": 0.21680412371134017,
+      "landmark": ""
+    },
+    {
+      "name": "Slick Lizard Coal Camp",
+      "at": 0.3165979381443298,
+      "landmark": ""
+    },
+    {
+      "name": "Sublimity City",
+      "at": 0.5403092783505155,
+      "landmark": ""
+    },
+    {
+      "name": "East Bernstadt",
+      "at": 0.6170103092783505,
+      "landmark": ""
+    },
+    {
+      "name": "Livingston",
+      "at": 0.7343298969072165,
+      "landmark": ""
+    },
+    {
+      "name": "Roundstone",
+      "at": 0.897319587628866,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/wilderness-road-heritage-highway-2566.json",
+    "public/data/strips/wilderness-road-heritage-highway-2566.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

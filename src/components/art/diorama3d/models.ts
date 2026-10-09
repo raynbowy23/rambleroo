@@ -60,6 +60,88 @@ export function buildModel(model: Model, ink: Pigments) {
   }
   const window = (x: number, y: number, z: number) => box(x, y, z, 0.075, 0.095, 0.012, ink.night ? '#f7c76a' : ink.water, ink.night)
   switch (model) {
+    case 'town-blocks':
+      for (let i = 0; i < 3; i++) box((i - 1) * 0.3, 0.13, 0, 0.24, 0.26 + (i % 2) * 0.12, 0.3, i % 2 ? ink.paper : ink.accent)
+      break
+    case 'field':
+      box(0, 0.015, 0, 0.85, 0.03, 0.65, ink.accent)
+      for (let i = 0; i < 2; i++) box(-0.24 + i * 0.48, 0.035, 0, 0.025, 0.015, 0.63, ink.foliage)
+      break
+    case 'sandbar':
+      patch(ink.accent, 0.8, 0.3)
+      break
+    case 'ridge':
+    case 'mesa':
+    case 'ledge':
+      mesh(new T.CylinderGeometry(model === 'ridge' ? 0.05 : 0.5, 0.7, 0.55, 4), model === 'ridge' ? ink.mid : ink.accent, 0, 0.27)
+      break
+    case 'hoodoo':
+      for (const x of [-0.3, 0, 0.3]) {
+        mesh(new T.CylinderGeometry(0.09, 0.16, 0.75, 5), ink.accent, x, 0.37)
+        mesh(new T.OctahedronGeometry(0.18), ink.far, x, 0.8)
+      }
+      break
+    case 'snow-peak':
+      cone(0, 0.45, 0, 0.7, 0.9, ink.far, 4)
+      cone(0, 0.8, 0, 0.2, 0.3, ink.paper, 4)
+      break
+    case 'bald':
+      patch(ink.foliage, 0.8, 0.6)
+      for (const x of [-0.3, 0, 0.3]) mesh(new T.OctahedronGeometry(0.13), ink.accent, x, 0.1)
+      break
+    case 'aspen':
+    case 'orchard':
+      for (const x of [-0.3, 0, 0.3]) {
+        box(x, 0.2, 0, 0.035, 0.4, 0.035, ink.paper)
+        const crown = mesh(new T.OctahedronGeometry(0.22), ink.foliage, x, 0.48)
+        crown.scale.y = model === 'aspen' ? 1.6 : 0.8
+      }
+      break
+    case 'switchback':
+      // A schematic hairpin on a rock slope, only authorized by this motif.
+      cone(0, 0.18, 0, 0.6, 0.36, ink.far, 4)
+      for (const z of [-0.18, 0.18]) box(0, 0.3, z, 0.65, 0.035, 0.1, ink.dark)
+      box(0.28, 0.3, 0, 0.1, 0.035, 0.45, ink.dark)
+      break
+    case 'dam':
+      patch(ink.water, 0.85, 0.6)
+      box(0, 0.18, 0, 1.2, 0.36, 0.16, ink.paper)
+      for (const x of [-0.4, 0, 0.4]) box(x, 0.2, 0.09, 0.14, 0.25, 0.02, ink.water)
+      break
+    case 'viaduct':
+      box(0, 0.65, 0, 0.35, 0.08, 1.4, ink.paper)
+      for (const z of [-0.55, 0, 0.55]) box(0, 0.3, z, 0.15, 0.6, 0.12, ink.paper)
+      break
+    case 'steeple-town':
+      box(0, 0.2, 0, 0.5, 0.4, 0.5, ink.paper)
+      roof(0, 0.5, 0, 0.4, 0.5)
+      box(0, 0.6, 0.17, 0.16, 0.6, 0.16, ink.paper)
+      cone(0, 1, 0.17, 0.16, 0.35, ink.dark, 4)
+      break
+    case 'harbor':
+      patch(ink.water, 0.9, 0.65)
+      box(0, 0.06, 0, 1.1, 0.1, 0.12, ink.accent)
+      for (const x of [-0.35, 0.35]) box(x, 0.1, -0.3, 0.3, 0.2, 0.3, ink.paper)
+      break
+    case 'paddlewheeler':
+      box(0, 0.08, 0, 0.4, 0.16, 0.9, ink.dark)
+      box(0, 0.25, 0, 0.32, 0.2, 0.65, ink.paper)
+      box(0, 0.4, 0, 0.38, 0.07, 0.7, ink.accent)
+      for (const x of [-0.1, 0.1]) box(x, 0.56, 0.18, 0.06, 0.3, 0.06, ink.dark)
+      {
+        const wheel = mesh(new T.CylinderGeometry(0.2, 0.2, 0.48, 8), ink.accent, 0, 0.17, -0.33)
+        wheel.rotation.z = Math.PI / 2
+      }
+      break
+    case 'gristmill':
+      box(0, 0.25, 0, 0.5, 0.5, 0.45, ink.accent)
+      roof(0, 0.58, 0, 0.4, 0.5)
+      {
+        const wheel = mesh(new T.CylinderGeometry(0.26, 0.26, 0.08, 8), ink.dark, 0.31, 0.24, 0)
+        wheel.rotation.z = Math.PI / 2
+      }
+      for (const z of [-0.16, 0.16]) box(0.36, 0.24, z, 0.025, 0.36, 0.025, ink.paper)
+      break
     case 'conifer':
       cone(0, 0.37, 0, 0.23, 0.74, ink.snow ? ink.paper : ink.dark, 4)
       break

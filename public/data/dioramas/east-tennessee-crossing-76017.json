@@ -1,0 +1,389 @@
+{
+  "authored": false,
+  "bywayId": "east-tennessee-crossing-76017",
+  "title": "East Tennessee Crossing",
+  "longitude": -83.2723,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -83.67597,
+        36.5981
+      ],
+      [
+        -83.65847,
+        36.58856
+      ],
+      [
+        -83.65309,
+        36.56631
+      ],
+      [
+        -83.64317,
+        36.55177
+      ],
+      [
+        -83.62776,
+        36.53515
+      ],
+      [
+        -83.61856,
+        36.53166
+      ],
+      [
+        -83.6153,
+        36.52073
+      ],
+      [
+        -83.59474,
+        36.50183
+      ],
+      [
+        -83.58454,
+        36.47959
+      ],
+      [
+        -83.56471,
+        36.45428
+      ],
+      [
+        -83.56834,
+        36.44047
+      ],
+      [
+        -83.55218,
+        36.42526
+      ],
+      [
+        -83.52374,
+        36.42393
+      ],
+      [
+        -83.49332,
+        36.40458
+      ],
+      [
+        -83.46395,
+        36.40752
+      ],
+      [
+        -83.44868,
+        36.39206
+      ],
+      [
+        -83.44626,
+        36.37817
+      ],
+      [
+        -83.43256,
+        36.36366
+      ],
+      [
+        -83.43493,
+        36.35253
+      ],
+      [
+        -83.42946,
+        36.34735
+      ],
+      [
+        -83.34,
+        36.361
+      ],
+      [
+        -83.33301,
+        36.34515
+      ],
+      [
+        -83.30053,
+        36.34622
+      ],
+      [
+        -83.28277,
+        36.33228
+      ],
+      [
+        -83.295,
+        36.31256
+      ],
+      [
+        -83.27972,
+        36.2872
+      ],
+      [
+        -83.28391,
+        36.26027
+      ],
+      [
+        -83.26352,
+        36.24047
+      ],
+      [
+        -83.25618,
+        36.21893
+      ],
+      [
+        -83.26658,
+        36.20498
+      ],
+      [
+        -83.26554,
+        36.19318
+      ],
+      [
+        -83.27219,
+        36.18702
+      ],
+      [
+        -83.27427,
+        36.17415
+      ],
+      [
+        -83.27048,
+        36.16539
+      ],
+      [
+        -83.28587,
+        36.11357
+      ],
+      [
+        -83.26206,
+        36.07058
+      ],
+      [
+        -83.25601,
+        36.03803
+      ],
+      [
+        -83.2428,
+        36.0246
+      ],
+      [
+        -83.2429,
+        36.00523
+      ],
+      [
+        -83.22369,
+        35.99714
+      ],
+      [
+        -83.211,
+        35.97166
+      ],
+      [
+        -83.1795,
+        35.96616
+      ],
+      [
+        -83.17237,
+        35.9586
+      ],
+      [
+        -83.15734,
+        35.95443
+      ],
+      [
+        -83.11542,
+        35.95277
+      ],
+      [
+        -83.10888,
+        35.95606
+      ],
+      [
+        -83.08141,
+        35.93743
+      ],
+      [
+        -83.0524,
+        35.94776
+      ],
+      [
+        -83.03103,
+        35.92603
+      ],
+      [
+        -83.00166,
+        35.92666
+      ],
+      [
+        -82.98664,
+        35.91482
+      ],
+      [
+        -82.97181,
+        35.92547
+      ],
+      [
+        -82.9584,
+        35.91943
+      ],
+      [
+        -82.94652,
+        35.9229
+      ],
+      [
+        -82.93097,
+        35.91461
+      ],
+      [
+        -82.91236,
+        35.91784
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Bean Station",
+      "model": "alpine-lake",
+      "at": 0.413958733732782,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bean Station",
+      "model": "town-blocks",
+      "at": 0.413958733732782,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Cumberland Gap",
+      "at": 0.004311377245508982,
+      "landmark": ""
+    },
+    {
+      "name": "Tazewell",
+      "at": 0.14467065868263473,
+      "landmark": ""
+    },
+    {
+      "name": "Thorn Hill",
+      "at": 0.31580838323353294,
+      "landmark": ""
+    },
+    {
+      "name": "Tate Springs",
+      "at": 0.38107784431137726,
+      "landmark": ""
+    },
+    {
+      "name": "Witt",
+      "at": 0.5917365269461078,
+      "landmark": ""
+    },
+    {
+      "name": "Newport",
+      "at": 0.7674251497005988,
+      "landmark": ""
+    },
+    {
+      "name": "Del Rio",
+      "at": 0.9059880239520959,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/east-tennessee-crossing-76017.json",
+    "public/data/strips/east-tennessee-crossing-76017.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

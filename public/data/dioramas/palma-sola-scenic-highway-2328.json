@@ -1,0 +1,239 @@
+{
+  "authored": false,
+  "bywayId": "palma-sola-scenic-highway-2328",
+  "title": "Palma Sola Scenic Highway",
+  "longitude": -82.672,
+  "ground": "prairie-grid",
+  "palette": "prairie",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -82.70749,
+        27.49715
+      ],
+      [
+        -82.70258,
+        27.49714
+      ],
+      [
+        -82.69042,
+        27.49642
+      ],
+      [
+        -82.68824,
+        27.49625
+      ],
+      [
+        -82.68112,
+        27.49624
+      ],
+      [
+        -82.67738,
+        27.49628
+      ],
+      [
+        -82.676,
+        27.49619
+      ],
+      [
+        -82.67107,
+        27.49629
+      ],
+      [
+        -82.66082,
+        27.49623
+      ],
+      [
+        -82.65187,
+        27.49624
+      ],
+      [
+        -82.6432,
+        27.49616
+      ],
+      [
+        -82.64296,
+        27.4961
+      ],
+      [
+        -82.63662,
+        27.49604
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "field",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    }
+  ],
+  "towns": [
+    {
+      "name": "Holmes Beach",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "West Bradenton",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "public/data/strips/palma-sola-scenic-highway-2328.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

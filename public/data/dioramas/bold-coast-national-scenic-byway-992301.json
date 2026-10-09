@@ -1,0 +1,416 @@
+{
+  "authored": false,
+  "bywayId": "bold-coast-national-scenic-byway-992301",
+  "title": "Bold Coast National Scenic Byway",
+  "longitude": -67.4938,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -67.88601,
+        44.53057
+      ],
+      [
+        -67.88115,
+        44.53754
+      ],
+      [
+        -67.91966,
+        44.57032
+      ],
+      [
+        -67.92823,
+        44.597
+      ],
+      [
+        -67.82443,
+        44.62263
+      ],
+      [
+        -67.80025,
+        44.61892
+      ],
+      [
+        -67.72931,
+        44.65634
+      ],
+      [
+        -67.70746,
+        44.64898
+      ],
+      [
+        -67.71165,
+        44.62152
+      ],
+      [
+        -67.69105,
+        44.61465
+      ],
+      [
+        -67.62034,
+        44.5501
+      ],
+      [
+        -67.62125,
+        44.52889
+      ],
+      [
+        -67.60024,
+        44.53192
+      ],
+      [
+        -67.57758,
+        44.55135
+      ],
+      [
+        -67.58137,
+        44.55989
+      ],
+      [
+        -67.57165,
+        44.56719
+      ],
+      [
+        -67.57287,
+        44.57989
+      ],
+      [
+        -67.5603,
+        44.59908
+      ],
+      [
+        -67.56828,
+        44.61134
+      ],
+      [
+        -67.60174,
+        44.60956
+      ],
+      [
+        -67.60645,
+        44.61892
+      ],
+      [
+        -67.593,
+        44.63636
+      ],
+      [
+        -67.5982,
+        44.64977
+      ],
+      [
+        -67.54543,
+        44.67426
+      ],
+      [
+        -67.49282,
+        44.67931
+      ],
+      [
+        -67.45165,
+        44.71903
+      ],
+      [
+        -67.40564,
+        44.72355
+      ],
+      [
+        -67.38966,
+        44.73919
+      ],
+      [
+        -67.38833,
+        44.72695
+      ],
+      [
+        -67.36729,
+        44.70879
+      ],
+      [
+        -67.34478,
+        44.70167
+      ],
+      [
+        -67.29629,
+        44.7083
+      ],
+      [
+        -67.29398,
+        44.69729
+      ],
+      [
+        -67.25925,
+        44.6694
+      ],
+      [
+        -67.20369,
+        44.65752
+      ],
+      [
+        -67.18708,
+        44.68109
+      ],
+      [
+        -67.16768,
+        44.68807
+      ],
+      [
+        -67.14003,
+        44.71283
+      ],
+      [
+        -67.12336,
+        44.74138
+      ],
+      [
+        -67.0736,
+        44.76953
+      ],
+      [
+        -67.06497,
+        44.80557
+      ],
+      [
+        -67.06995,
+        44.8148
+      ],
+      [
+        -67.17415,
+        44.78884
+      ],
+      [
+        -67.16192,
+        44.82926
+      ],
+      [
+        -67.18291,
+        44.87393
+      ],
+      [
+        -67.22606,
+        44.90979
+      ],
+      [
+        -67.22227,
+        44.93884
+      ],
+      [
+        -67.1818,
+        44.94793
+      ],
+      [
+        -67.15596,
+        44.96261
+      ],
+      [
+        -67.11798,
+        44.94992
+      ],
+      [
+        -67.08868,
+        44.95296
+      ],
+      [
+        -67.0753,
+        44.97053
+      ],
+      [
+        -67.04033,
+        44.95454
+      ],
+      [
+        -67.02513,
+        44.9279
+      ],
+      [
+        -66.99727,
+        44.90656
+      ],
+      [
+        -66.98493,
+        44.90574
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Burnham Tavern, Machias",
+      "model": "town-blocks",
+      "at": 0.4348982715431565,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "West Quoddy Head Light",
+      "model": "lighthouse-on-rock",
+      "at": 0.7033299368446896,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Eastport",
+      "model": "harbor",
+      "at": 0.9946846004954408,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Eastport",
+      "model": "town-blocks",
+      "at": 0.9946846004954408,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Milbridge",
+      "at": 0.0016637478108581436,
+      "landmark": ""
+    },
+    {
+      "name": "Columbia",
+      "at": 0.09842381786339754,
+      "landmark": ""
+    },
+    {
+      "name": "Jonesport",
+      "at": 0.26654991243432574,
+      "landmark": ""
+    },
+    {
+      "name": "Jonesboro",
+      "at": 0.3550788091068301,
+      "landmark": ""
+    },
+    {
+      "name": "Machias",
+      "at": 0.43493870402802104,
+      "landmark": ""
+    },
+    {
+      "name": "Cutler",
+      "at": 0.5702276707530648,
+      "landmark": ""
+    },
+    {
+      "name": "Lubec",
+      "at": 0.7042907180385289,
+      "landmark": ""
+    },
+    {
+      "name": "Pembroke",
+      "at": 0.8803852889667251,
+      "landmark": ""
+    },
+    {
+      "name": "Calais",
+      "at": 0.8924121954980532,
+      "landmark": ""
+    },
+    {
+      "name": "Robbinston",
+      "at": 0.8934153716443766,
+      "landmark": ""
+    },
+    {
+      "name": "Eastport",
+      "at": 0.9943957968476357,
+      "landmark": "Eastport"
+    }
+  ],
+  "sources": [
+    "content/stories/bold-coast-national-scenic-byway-992301.json",
+    "public/data/strips/bold-coast-national-scenic-byway-992301.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

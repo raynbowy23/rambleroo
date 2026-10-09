@@ -1,0 +1,375 @@
+{
+  "authored": false,
+  "bywayId": "alaska-s-marine-highway-12398",
+  "title": "Alaska's Marine Highway",
+  "longitude": -128.0864,
+  "ground": "coastal-cliff",
+  "palette": "coast",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "cliff-shelf",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -122.51219,
+        48.72192
+      ],
+      [
+        -122.57144,
+        48.63968
+      ],
+      [
+        -122.6262,
+        48.62366
+      ],
+      [
+        -122.78527,
+        48.74798
+      ],
+      [
+        -123.00212,
+        48.82974
+      ],
+      [
+        -123.44455,
+        49.08955
+      ],
+      [
+        -123.78527,
+        49.33892
+      ],
+      [
+        -124.32662,
+        49.43039
+      ],
+      [
+        -125.2024,
+        49.9927
+      ],
+      [
+        -125.35154,
+        50.12742
+      ],
+      [
+        -125.42709,
+        50.33534
+      ],
+      [
+        -125.88706,
+        50.39123
+      ],
+      [
+        -126.14508,
+        50.47086
+      ],
+      [
+        -126.60324,
+        50.5066
+      ],
+      [
+        -126.80512,
+        50.55854
+      ],
+      [
+        -126.79413,
+        50.65071
+      ],
+      [
+        -126.8354,
+        50.67664
+      ],
+      [
+        -127.619,
+        50.88687
+      ],
+      [
+        -128.81921,
+        51.75185
+      ],
+      [
+        -131.07931,
+        53.79405
+      ],
+      [
+        -131.71805,
+        54.97582
+      ],
+      [
+        -131.61514,
+        55.29848
+      ],
+      [
+        -131.79163,
+        55.42435
+      ],
+      [
+        -132.20936,
+        55.58737
+      ],
+      [
+        -132.38869,
+        55.7922
+      ],
+      [
+        -132.76025,
+        56.06106
+      ],
+      [
+        -132.7581,
+        56.22109
+      ],
+      [
+        -132.6207,
+        56.27332
+      ],
+      [
+        -132.55872,
+        56.43122
+      ],
+      [
+        -132.39364,
+        56.47402
+      ],
+      [
+        -132.59903,
+        56.43681
+      ],
+      [
+        -132.95791,
+        56.50087
+      ],
+      [
+        -132.97615,
+        56.60352
+      ],
+      [
+        -132.92096,
+        56.65134
+      ],
+      [
+        -132.98717,
+        56.80469
+      ],
+      [
+        -132.86517,
+        56.86345
+      ],
+      [
+        -132.90573,
+        56.91934
+      ],
+      [
+        -133.09893,
+        57.04607
+      ],
+      [
+        -133.67281,
+        57.1452
+      ],
+      [
+        -133.72272,
+        57.70885
+      ],
+      [
+        -134.14904,
+        58.16474
+      ],
+      [
+        -134.59847,
+        58.22528
+      ],
+      [
+        -134.71096,
+        58.30218
+      ],
+      [
+        -134.67955,
+        58.38121
+      ],
+      [
+        -134.73585,
+        58.32065
+      ],
+      [
+        -134.9249,
+        58.4268
+      ],
+      [
+        -134.97703,
+        58.42423
+      ],
+      [
+        -134.99581,
+        58.37207
+      ],
+      [
+        -135.08465,
+        58.52299
+      ],
+      [
+        -135.09208,
+        58.69857
+      ],
+      [
+        -135.18972,
+        58.85356
+      ],
+      [
+        -135.25345,
+        59.08073
+      ],
+      [
+        -135.35614,
+        59.21407
+      ],
+      [
+        -135.46217,
+        59.28182
+      ],
+      [
+        -135.38493,
+        59.28524
+      ],
+      [
+        -135.32543,
+        59.44884
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.85
+      ],
+      [
+        0.125,
+        0.894
+      ],
+      [
+        0.25,
+        1
+      ],
+      [
+        0.375,
+        1.106
+      ],
+      [
+        0.5,
+        1.15
+      ],
+      [
+        0.625,
+        1.106
+      ],
+      [
+        0.75,
+        1
+      ],
+      [
+        0.875,
+        0.894
+      ],
+      [
+        1,
+        0.85
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Petersburg",
+      "model": "harbor",
+      "at": 0.7641368339844332,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Petersburg",
+      "model": "town-blocks",
+      "at": 0.7641368339844332,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Skagway",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Bellingham",
+      "at": 0.00012256057320647606,
+      "landmark": ""
+    },
+    {
+      "name": "Ketchikan",
+      "at": 0.6228716885075893,
+      "landmark": ""
+    },
+    {
+      "name": "Wrangell",
+      "at": 0.7200622230602433,
+      "landmark": ""
+    },
+    {
+      "name": "Petersburg",
+      "at": 0.7641274629961347,
+      "landmark": "Petersburg"
+    },
+    {
+      "name": "Juneau",
+      "at": 0.885924389554068,
+      "landmark": ""
+    },
+    {
+      "name": "Haines",
+      "at": 0.9828792306967097,
+      "landmark": ""
+    },
+    {
+      "name": "Skagway",
+      "at": 1,
+      "landmark": "Skagway"
+    }
+  ],
+  "sources": [
+    "content/stories/alaska-s-marine-highway-12398.json",
+    "public/data/strips/alaska-s-marine-highway-12398.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

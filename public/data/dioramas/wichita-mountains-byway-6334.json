@@ -1,0 +1,461 @@
+{
+  "authored": false,
+  "bywayId": "wichita-mountains-byway-6334",
+  "title": "Wichita Mountains Byway",
+  "longitude": -98.7261,
+  "ground": "prairie-grid",
+  "palette": "prairie",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -98.36689,
+        34.89864
+      ],
+      [
+        -98.45421,
+        34.89868
+      ],
+      [
+        -98.46408,
+        34.89619
+      ],
+      [
+        -98.47183,
+        34.89857
+      ],
+      [
+        -98.52823,
+        34.89849
+      ],
+      [
+        -98.53916,
+        34.89692
+      ],
+      [
+        -98.5648,
+        34.89877
+      ],
+      [
+        -98.60231,
+        34.89878
+      ],
+      [
+        -98.60334,
+        35.10184
+      ],
+      [
+        -98.60895,
+        35.1014
+      ],
+      [
+        -98.61999,
+        35.09195
+      ],
+      [
+        -98.62404,
+        35.09061
+      ],
+      [
+        -98.63939,
+        35.09454
+      ],
+      [
+        -98.72628,
+        35.09451
+      ],
+      [
+        -98.72588,
+        34.95779
+      ],
+      [
+        -98.70838,
+        34.95709
+      ],
+      [
+        -98.70795,
+        34.86992
+      ],
+      [
+        -98.69036,
+        34.86965
+      ],
+      [
+        -98.68983,
+        34.84846
+      ],
+      [
+        -98.69414,
+        34.8473
+      ],
+      [
+        -98.69358,
+        34.84059
+      ],
+      [
+        -98.66812,
+        34.84035
+      ],
+      [
+        -98.66769,
+        34.82685
+      ],
+      [
+        -98.66648,
+        34.8259
+      ],
+      [
+        -98.63273,
+        34.82602
+      ],
+      [
+        -98.63206,
+        34.81198
+      ],
+      [
+        -98.62432,
+        34.81092
+      ],
+      [
+        -98.61481,
+        34.80384
+      ],
+      [
+        -98.61083,
+        34.79703
+      ],
+      [
+        -98.58035,
+        34.79667
+      ],
+      [
+        -98.57931,
+        34.78272
+      ],
+      [
+        -98.58104,
+        34.77937
+      ],
+      [
+        -98.58043,
+        34.75041
+      ],
+      [
+        -98.58222,
+        34.7478
+      ],
+      [
+        -98.58156,
+        34.74526
+      ],
+      [
+        -98.58338,
+        34.74356
+      ],
+      [
+        -98.58191,
+        34.73865
+      ],
+      [
+        -98.58341,
+        34.73555
+      ],
+      [
+        -98.58801,
+        34.73407
+      ],
+      [
+        -98.59985,
+        34.72355
+      ],
+      [
+        -98.60375,
+        34.71791
+      ],
+      [
+        -98.61472,
+        34.71043
+      ],
+      [
+        -98.62849,
+        34.70862
+      ],
+      [
+        -98.62976,
+        34.71489
+      ],
+      [
+        -98.64247,
+        34.72168
+      ],
+      [
+        -98.65566,
+        34.71836
+      ],
+      [
+        -98.66708,
+        34.72287
+      ],
+      [
+        -98.67877,
+        34.72522
+      ],
+      [
+        -98.68492,
+        34.729
+      ],
+      [
+        -98.70021,
+        34.73465
+      ],
+      [
+        -98.72096,
+        34.73634
+      ],
+      [
+        -98.7306,
+        34.74164
+      ],
+      [
+        -98.74877,
+        34.74506
+      ],
+      [
+        -98.75367,
+        34.74814
+      ],
+      [
+        -98.76534,
+        34.74848
+      ],
+      [
+        -98.77342,
+        34.75178
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Meers",
+      "model": "false-front-town",
+      "at": 0.7987536561409337,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Meers",
+      "model": "town-blocks",
+      "at": 0.7987536561409337,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mount Scott",
+      "model": "ridge",
+      "at": 0.8271900488754933,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Medicine Park",
+      "model": "town-blocks",
+      "at": 0.8384886948552828,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "field",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    }
+  ],
+  "towns": [
+    {
+      "name": "Apache",
+      "at": 0.00012422360248454112,
+      "landmark": ""
+    },
+    {
+      "name": "Boone",
+      "at": 0.0667080745341615,
+      "landmark": ""
+    },
+    {
+      "name": "Alden",
+      "at": 0.23254658385093163,
+      "landmark": ""
+    },
+    {
+      "name": "Carnegie",
+      "at": 0.3412422360248447,
+      "landmark": ""
+    },
+    {
+      "name": "Meers",
+      "at": 0.7990062111801242,
+      "landmark": "Meers"
+    },
+    {
+      "name": "Lawtonka Acres",
+      "at": 0.7990756346750585,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/wichita-mountains-byway-6334.json",
+    "public/data/strips/wichita-mountains-byway-6334.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

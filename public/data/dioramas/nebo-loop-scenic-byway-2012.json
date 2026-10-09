@@ -1,0 +1,406 @@
+{
+  "authored": false,
+  "bywayId": "nebo-loop-scenic-byway-2012",
+  "title": "Nebo Loop Scenic Byway",
+  "longitude": -111.6902,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -111.7322,
+        40.05548
+      ],
+      [
+        -111.73227,
+        40.04454
+      ],
+      [
+        -111.72337,
+        40.04449
+      ],
+      [
+        -111.72146,
+        40.02179
+      ],
+      [
+        -111.70879,
+        40.01138
+      ],
+      [
+        -111.7001,
+        39.99688
+      ],
+      [
+        -111.69757,
+        39.9836
+      ],
+      [
+        -111.69125,
+        39.97836
+      ],
+      [
+        -111.69312,
+        39.96937
+      ],
+      [
+        -111.69088,
+        39.97154
+      ],
+      [
+        -111.68958,
+        39.96069
+      ],
+      [
+        -111.68739,
+        39.95739
+      ],
+      [
+        -111.67487,
+        39.95329
+      ],
+      [
+        -111.68071,
+        39.95411
+      ],
+      [
+        -111.6785,
+        39.95215
+      ],
+      [
+        -111.68122,
+        39.94896
+      ],
+      [
+        -111.67881,
+        39.94364
+      ],
+      [
+        -111.67442,
+        39.94246
+      ],
+      [
+        -111.672,
+        39.94556
+      ],
+      [
+        -111.67096,
+        39.94052
+      ],
+      [
+        -111.66249,
+        39.946
+      ],
+      [
+        -111.65119,
+        39.93958
+      ],
+      [
+        -111.64208,
+        39.94077
+      ],
+      [
+        -111.63444,
+        39.93439
+      ],
+      [
+        -111.63127,
+        39.92355
+      ],
+      [
+        -111.63571,
+        39.91342
+      ],
+      [
+        -111.65237,
+        39.90669
+      ],
+      [
+        -111.65663,
+        39.89831
+      ],
+      [
+        -111.69242,
+        39.9028
+      ],
+      [
+        -111.69792,
+        39.89861
+      ],
+      [
+        -111.69433,
+        39.88984
+      ],
+      [
+        -111.68742,
+        39.88523
+      ],
+      [
+        -111.68312,
+        39.87689
+      ],
+      [
+        -111.68613,
+        39.87205
+      ],
+      [
+        -111.68567,
+        39.86613
+      ],
+      [
+        -111.69374,
+        39.86197
+      ],
+      [
+        -111.70347,
+        39.84971
+      ],
+      [
+        -111.70723,
+        39.85078
+      ],
+      [
+        -111.71813,
+        39.84516
+      ],
+      [
+        -111.72546,
+        39.83737
+      ],
+      [
+        -111.72283,
+        39.83485
+      ],
+      [
+        -111.71471,
+        39.83598
+      ],
+      [
+        -111.70112,
+        39.81768
+      ],
+      [
+        -111.69727,
+        39.8182
+      ],
+      [
+        -111.69499,
+        39.80599
+      ],
+      [
+        -111.68098,
+        39.8049
+      ],
+      [
+        -111.67843,
+        39.79293
+      ],
+      [
+        -111.68131,
+        39.78848
+      ],
+      [
+        -111.67851,
+        39.78472
+      ],
+      [
+        -111.68746,
+        39.78999
+      ],
+      [
+        -111.69056,
+        39.7801
+      ],
+      [
+        -111.69236,
+        39.78161
+      ],
+      [
+        -111.70398,
+        39.77296
+      ],
+      [
+        -111.7102,
+        39.76198
+      ],
+      [
+        -111.71273,
+        39.74065
+      ],
+      [
+        -111.73119,
+        39.71846
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Payson Lakes",
+      "model": "aspen",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Illustrative position in driving order."
+    },
+    {
+      "name": "Devils Kitchen",
+      "model": "hoodoo",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Illustrative position in driving order."
+    },
+    {
+      "name": "Mount Nebo",
+      "model": "snow-peak",
+      "at": 0.6673476142532234,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Payson",
+      "at": 0.019689119170984454,
+      "landmark": ""
+    },
+    {
+      "name": "Mount Nebo",
+      "at": 0.6676165803108808,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/nebo-loop-scenic-byway-2012.json",
+    "public/data/strips/nebo-loop-scenic-byway-2012.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

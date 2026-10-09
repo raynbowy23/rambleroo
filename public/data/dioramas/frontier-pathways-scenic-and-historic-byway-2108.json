@@ -1,0 +1,391 @@
+{
+  "authored": false,
+  "bywayId": "frontier-pathways-scenic-and-historic-byway-2108",
+  "title": "Frontier Pathways Scenic and Historic Byway",
+  "longitude": -105.0578,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -105.46372,
+        38.13597
+      ],
+      [
+        -105.4173,
+        38.13502
+      ],
+      [
+        -105.38816,
+        38.13757
+      ],
+      [
+        -105.3564,
+        38.15205
+      ],
+      [
+        -105.35121,
+        38.15059
+      ],
+      [
+        -105.35088,
+        38.14427
+      ],
+      [
+        -105.34313,
+        38.14094
+      ],
+      [
+        -105.3376,
+        38.14468
+      ],
+      [
+        -105.33352,
+        38.1435
+      ],
+      [
+        -105.32426,
+        38.14533
+      ],
+      [
+        -105.3078,
+        38.15676
+      ],
+      [
+        -105.2871,
+        38.16455
+      ],
+      [
+        -105.27373,
+        38.16464
+      ],
+      [
+        -105.25921,
+        38.15992
+      ],
+      [
+        -105.22451,
+        38.16462
+      ],
+      [
+        -105.21827,
+        38.1673
+      ],
+      [
+        -105.20145,
+        38.16657
+      ],
+      [
+        -105.1914,
+        38.16426
+      ],
+      [
+        -105.18456,
+        38.17065
+      ],
+      [
+        -105.17911,
+        38.17112
+      ],
+      [
+        -105.17218,
+        38.17516
+      ],
+      [
+        -105.15923,
+        38.17105
+      ],
+      [
+        -105.15237,
+        38.17502
+      ],
+      [
+        -105.14446,
+        38.17331
+      ],
+      [
+        -105.14029,
+        38.17645
+      ],
+      [
+        -105.12867,
+        38.17569
+      ],
+      [
+        -105.11621,
+        38.17794
+      ],
+      [
+        -105.10667,
+        38.18243
+      ],
+      [
+        -105.10481,
+        38.18509
+      ],
+      [
+        -105.10441,
+        38.19282
+      ],
+      [
+        -105.09407,
+        38.2134
+      ],
+      [
+        -105.09072,
+        38.23034
+      ],
+      [
+        -105.08662,
+        38.23797
+      ],
+      [
+        -105.08297,
+        38.2383
+      ],
+      [
+        -105.0796,
+        38.24322
+      ],
+      [
+        -105.0582,
+        38.24343
+      ],
+      [
+        -105.0549,
+        38.24204
+      ],
+      [
+        -105.05293,
+        38.23832
+      ],
+      [
+        -105.05036,
+        38.23784
+      ],
+      [
+        -105.02871,
+        38.25143
+      ],
+      [
+        -104.94112,
+        38.25224
+      ],
+      [
+        -104.92822,
+        38.25819
+      ],
+      [
+        -104.88573,
+        38.25938
+      ],
+      [
+        -104.82053,
+        38.25822
+      ],
+      [
+        -104.8121,
+        38.25545
+      ],
+      [
+        -104.77663,
+        38.23051
+      ],
+      [
+        -104.74413,
+        38.22921
+      ],
+      [
+        -104.73779,
+        38.23036
+      ],
+      [
+        -104.73245,
+        38.23353
+      ],
+      [
+        -104.71979,
+        38.25361
+      ],
+      [
+        -104.71139,
+        38.25934
+      ],
+      [
+        -104.69723,
+        38.25657
+      ],
+      [
+        -104.68047,
+        38.25888
+      ],
+      [
+        -104.63798,
+        38.25869
+      ],
+      [
+        -104.62183,
+        38.27054
+      ],
+      [
+        -104.60509,
+        38.27084
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Silver Cliff",
+      "model": "false-front-town",
+      "at": 0.0523532950470306,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Silver Cliff",
+      "model": "town-blocks",
+      "at": 0.0523532950470306,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Westcliffe",
+      "model": "town-blocks",
+      "at": 0.0523532950470306,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Westcliffe",
+      "at": 0.0014440433212996391,
+      "landmark": "Westcliffe"
+    },
+    {
+      "name": "Querida",
+      "at": 0.13429602888086645,
+      "landmark": ""
+    },
+    {
+      "name": "San Isabel",
+      "at": 0.38584561640045006,
+      "landmark": ""
+    },
+    {
+      "name": "Rye",
+      "at": 0.39014938938619625,
+      "landmark": ""
+    },
+    {
+      "name": "Wetmore",
+      "at": 0.47220216606498194,
+      "landmark": ""
+    },
+    {
+      "name": "Pueblo",
+      "at": 0.9900722021660651,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/frontier-pathways-scenic-and-historic-byway-2108.json",
+    "public/data/strips/frontier-pathways-scenic-and-historic-byway-2108.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -100,8 +100,8 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
     return m
   }
   // A coarse, closed height field with independently coloured geological strata.
-  const n = 12,
-    vertices: number[] = []
+  const n = 12
+  const groundBatches = new Map<string, number[]>()
   const heights = Array.from({ length: n + 1 }, (_, i) =>
     Array.from({ length: n + 1 }, (_, j) => route.height(-4 + (i * 8) / n, -4 + (j * 8) / n)),
   )
@@ -127,9 +127,32 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
         b = vertex(x + 8 / n, z),
         c = vertex(x, z + 8 / n),
         d = vertex(x + 8 / n, z + 8 / n)
-      vertices.push(...a.toArray(), ...c.toArray(), ...b.toArray(), ...b.toArray(), ...c.toArray(), ...d.toArray())
+      const near = route.nearest(x, z)
+      const color = snow
+        ? ink.paper
+        : spec.ground === 'alpine-plateau'
+          ? near.y > 1.3
+            ? ink.far
+            : ink.mid
+          : spec.ground === 'desert-mesas'
+            ? (i + j) % 3
+              ? ink.accent
+              : ink.far
+            : spec.ground === 'prairie-grid'
+              ? (Math.floor(i / 3) + Math.floor(j / 3)) % 2
+                ? ink.accent
+                : ink.mid
+              : spec.ground === 'low-shore'
+                ? ink.accent
+                : spec.ground === 'main-street'
+                  ? ink.far
+                  : (i + j) % 4 === 0
+                    ? ink.foliage
+                    : ink.mid
+      if (!groundBatches.has(color)) groundBatches.set(color, [])
+      groundBatches.get(color)!.push(...a.toArray(), ...c.toArray(), ...b.toArray(), ...b.toArray(), ...c.toArray(), ...d.toArray())
     }
-  add(geometry(vertices), snow ? ink.paper : ink.mid)
+  for (const [color, points] of groundBatches) add(geometry(points), color)
   for (let layer = 0; layer < 3; layer++) {
     const base = add(new T.BoxGeometry(8, 0.17, 8), [ink.dark, '#a38266', ink.accent][layer])
     base.position.y = -0.46 + layer * 0.17
@@ -146,7 +169,7 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
       sides.push(...a.toArray(), ...aa.toArray(), ...b.toArray(), ...b.toArray(), ...aa.toArray(), ...bb.toArray())
     }
   add(geometry(sides), ink.far)
-  if (spec.ground === 'coastal-cliff') {
+  if (spec.ground === 'coastal-cliff' || spec.ground === 'low-shore') {
     const sea = add(new T.PlaneGeometry(8, 8), ink.water)
     sea.rotation.x = -Math.PI / 2
     sea.position.y = 0.13
@@ -154,27 +177,36 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
   // Seat route vertices on the actual triangulated height field. Bixby's deck spans the canyon instead.
   for (const p of route.points) {
     const at = route.nearest(p.x, p.z).at
-    if (!(spec.ground === 'coastal-cliff' && Math.abs(at - 0.18) < 0.055)) p.y = terrainHeight(p.x, p.z)
+    if (!spec.landmarks.some((l) => l.model === 'open-spandrel-arch-bridge' && l.offset === 'on-road' && Math.abs(at - l.at) < 0.1))
+      p.y = terrainHeight(p.x, p.z)
   }
   route.height = terrainHeight
   // The road ribbon and car share these terrain-conforming elevations.
   const road = route.points.map((p) => p.clone().add(new T.Vector3(0, 0.045, 0)))
-  add(ribbon(road, 0.17, 0.06, 0.009), ink.dark)
+  add(ribbon(road, 0.34, 0.06, 0.009), ink.dark)
   add(
     ribbon(
       road.map((p) => p.clone().add(new T.Vector3(0, 0.009, 0))),
-      0.014,
+      0.028,
       0,
     ),
     '#e9cb85',
   )
   const landmarkGroups: T.Group[] = []
   for (const landmark of spec.landmarks) {
-    const distance = landmark.offset === 'on-road' ? 0 : landmark.offset === 'seaward' ? 1.05 : 0.55
+    const peers = spec.landmarks.filter((l) => l.at === landmark.at)
+    const peer = peers.indexOf(landmark)
+    const distance =
+      (peer % 2 ? -1 : 1) * (landmark.offset === 'on-road' ? 0 : landmark.offset === 'seaward' ? 1.25 : 0.9 + Math.floor(peer / 2) * 0.5)
     const { point, angle } = route.frame(landmark.at, distance)
+    point.x = T.MathUtils.clamp(point.x, -3.3, 3.3)
+    point.z = T.MathUtils.clamp(point.z, -3.3, 3.3)
     point.y = landmark.offset === 'on-road' ? route.sample(landmark.at).y + 0.06 : route.height(point.x, point.z) + 0.025
     if (landmark.offset === 'seaward') point.y = 0.16
+    // Roadside bridges are standalone silhouettes; seat their arch feet, not the deck, on the ground.
+    if (landmark.model === 'open-spandrel-arch-bridge' && landmark.offset !== 'on-road') point.y += 0.85 * 2.25
     const model = buildModel(landmark.model, ink)
+    model.scale.setScalar(2.25)
     model.name = landmark.name
     model.position.copy(point)
     model.rotation.y = angle
@@ -185,16 +217,16 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
   for (const item of spec.dressing) {
     if (item.model === 'river') {
       const pts = Array.from({ length: 25 }, (_, i) => {
-        const p = route.frame(0.43 + (i * 0.57) / 24, item.distance).point
+        const p = route.frame((spec.authored ? 0.43 : 0) + (i * (spec.authored ? 0.57 : 1)) / 24, item.side * item.distance).point
         p.y = route.height(p.x, p.z) + 0.035
         return p
       })
-      add(ribbon(pts, 0.18, 0), ink.water)
+      add(ribbon(pts, 0.32, 0), ink.water)
       continue
     }
     const { point, angle } = route.frame(item.at, item.side * item.distance)
     // Leave clearings around named landmarks; no implicit species or roadside buildings.
-    if (landmarkGroups.some((g) => Math.hypot(g.position.x - point.x, g.position.z - point.z) < 0.6)) continue
+    if (landmarkGroups.some((g) => Math.hypot(g.position.x - point.x, g.position.z - point.z) < 1.0)) continue
     point.y = route.height(point.x, point.z) + 0.025
     if (item.model === 'surf' || item.model === 'sea-stack' || item.model === 'fog-bank') point.y = 0.16
     const model = buildModel(item.model, {
@@ -206,10 +238,22 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
     model.scale.setScalar(item.scale)
     world.add(model)
   }
+  const townAnchors: { name: string; point: T.Vector3 }[] = []
+  for (const town of spec.towns) {
+    const existing = landmarkGroups.find((g) => g.name === town.landmark)
+    const point = existing ? existing.position.clone() : route.frame(town.at, -0.85).point
+    if (!existing) {
+      point.y = route.height(point.x, point.z) + 0.025
+      const model = buildModel('town-blocks', ink)
+      model.position.copy(point)
+      world.add(model)
+    }
+    townAnchors.push({ name: town.name, point: point.clone().add(new T.Vector3(0, 0.55, 0)) })
+  }
   const car = buildVehicle(garage)
   // Vehicle uses Z up and +Y forward. This mount maps it into our Y-up world.
   car.rotation.set(-Math.PI / 2, 0, Math.PI)
-  car.scale.setScalar(0.055)
+  car.scale.setScalar(0.11)
   const driver = new T.Group()
   driver.name = 'visitor-car'
   driver.add(car)
@@ -225,7 +269,7 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
   scene.add(ambient)
   const sun = new T.DirectionalLight(
     night ? '#9ab1dc' : warm ? '#ffc58f' : '#fff3db',
-    night ? 0.55 : conditions.weather === 'clear' ? 2.6 : 1.2,
+    night ? 0.55 : conditions.weather === 'clear' ? 1.4 : 1.0,
   )
   const phase = ((hour - 6) / 12) * Math.PI
   sun.position.set(Math.cos(phase) * 8, Math.max(1, Math.sin(phase) * 10), 4)
@@ -321,7 +365,7 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
       particles.position.y = -((seconds * (conditions.weather === 'rain' ? 2 : 0.3)) % 1.5)
   }
   update(0)
-  return { scene, world, camera, route, driver, landmarkGroups, update, dispose: () => disposeVehicle(scene) }
+  return { scene, world, camera, route, driver, landmarkGroups, townAnchors, update, dispose: () => disposeVehicle(scene) }
 }
 export type BuiltScene = ReturnType<typeof buildScene>
 export function triangleCount(object: T.Object3D) {

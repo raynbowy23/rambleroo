@@ -1,0 +1,429 @@
+{
+  "authored": false,
+  "bywayId": "lower-mississippi-historic-scenic-byway-62295",
+  "title": "Lower Mississippi Historic Scenic Byway",
+  "longitude": -90.891,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -91.04616,
+        31.82923
+      ],
+      [
+        -91.01979,
+        31.84604
+      ],
+      [
+        -91.01282,
+        31.8745
+      ],
+      [
+        -90.99667,
+        31.90117
+      ],
+      [
+        -90.99674,
+        31.92515
+      ],
+      [
+        -90.98272,
+        31.95857
+      ],
+      [
+        -91.00213,
+        31.95613
+      ],
+      [
+        -91.01105,
+        31.96295
+      ],
+      [
+        -91.02374,
+        31.9591
+      ],
+      [
+        -91.03432,
+        31.96529
+      ],
+      [
+        -91.10423,
+        31.94422
+      ],
+      [
+        -91.13111,
+        31.94416
+      ],
+      [
+        -91.13435,
+        31.91416
+      ],
+      [
+        -91.12679,
+        31.89942
+      ],
+      [
+        -91.13058,
+        31.88286
+      ],
+      [
+        -91.12547,
+        31.86587
+      ],
+      [
+        -91.09952,
+        31.85137
+      ],
+      [
+        -91.07804,
+        31.85354
+      ],
+      [
+        -91.04418,
+        31.83438
+      ],
+      [
+        -91.05893,
+        31.79301
+      ],
+      [
+        -91.05055,
+        31.76753
+      ],
+      [
+        -91.05374,
+        31.75011
+      ],
+      [
+        -91.06026,
+        31.73116
+      ],
+      [
+        -91.08024,
+        31.70211
+      ],
+      [
+        -91.12761,
+        31.66634
+      ],
+      [
+        -91.14287,
+        31.64989
+      ],
+      [
+        -91.20564,
+        31.63655
+      ],
+      [
+        -91.22923,
+        31.62123
+      ],
+      [
+        -91.27346,
+        31.60449
+      ],
+      [
+        -91.29607,
+        31.57969
+      ],
+      [
+        -91.36736,
+        31.55958
+      ],
+      [
+        -91.37869,
+        31.53676
+      ],
+      [
+        -91.39055,
+        31.527
+      ],
+      [
+        -91.38441,
+        31.51529
+      ],
+      [
+        -91.37087,
+        31.50646
+      ],
+      [
+        -91.36762,
+        31.48903
+      ],
+      [
+        -91.38979,
+        31.43054
+      ],
+      [
+        -91.39509,
+        31.37074
+      ],
+      [
+        -91.38572,
+        31.34821
+      ],
+      [
+        -91.35597,
+        31.3273
+      ],
+      [
+        -91.3594,
+        31.3055
+      ],
+      [
+        -91.35089,
+        31.28243
+      ],
+      [
+        -91.33646,
+        31.26967
+      ],
+      [
+        -91.32272,
+        31.24597
+      ],
+      [
+        -91.3012,
+        31.23421
+      ],
+      [
+        -91.28579,
+        31.21306
+      ],
+      [
+        -91.28297,
+        31.1673
+      ],
+      [
+        -91.27346,
+        31.15292
+      ],
+      [
+        -91.27468,
+        31.1297
+      ],
+      [
+        -91.29294,
+        31.11213
+      ],
+      [
+        -91.29396,
+        31.09168
+      ],
+      [
+        -91.30704,
+        31.0821
+      ],
+      [
+        -91.32669,
+        31.05083
+      ],
+      [
+        -91.33306,
+        31.028
+      ],
+      [
+        -91.34857,
+        31.00622
+      ],
+      [
+        -91.34818,
+        30.99908
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Rodney",
+      "model": "ledge",
+      "at": 0.24295424208862243,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Clark Creek Natural Area",
+      "model": "cove-waterfall",
+      "at": 0.9947563561779388,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Russum",
+      "at": 0.040075614366729684,
+      "landmark": ""
+    },
+    {
+      "name": "Alcorn",
+      "at": 0.2350661625708885,
+      "landmark": ""
+    },
+    {
+      "name": "Lorman",
+      "at": 0.3068998109640832,
+      "landmark": ""
+    },
+    {
+      "name": "Fayette",
+      "at": 0.38024574669187144,
+      "landmark": ""
+    },
+    {
+      "name": "Cannonsburg",
+      "at": 0.4785444234404537,
+      "landmark": ""
+    },
+    {
+      "name": "Washington",
+      "at": 0.541398865784499,
+      "landmark": ""
+    },
+    {
+      "name": "Sibley",
+      "at": 0.7114366729678638,
+      "landmark": ""
+    },
+    {
+      "name": "Woodville",
+      "at": 0.9218336483931947,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/lower-mississippi-historic-scenic-byway-62295.json",
+    "public/data/strips/lower-mississippi-historic-scenic-byway-62295.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

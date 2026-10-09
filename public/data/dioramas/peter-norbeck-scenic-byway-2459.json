@@ -1,0 +1,404 @@
+{
+  "authored": false,
+  "bywayId": "peter-norbeck-scenic-byway-2459",
+  "title": "Peter Norbeck Scenic Byway",
+  "longitude": -103.4326,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -103.56339,
+        43.84079
+      ],
+      [
+        -103.59251,
+        43.81541
+      ],
+      [
+        -103.58516,
+        43.76836
+      ],
+      [
+        -103.54476,
+        43.7722
+      ],
+      [
+        -103.51311,
+        43.76389
+      ],
+      [
+        -103.50814,
+        43.76766
+      ],
+      [
+        -103.51049,
+        43.77158
+      ],
+      [
+        -103.50357,
+        43.77109
+      ],
+      [
+        -103.47753,
+        43.76068
+      ],
+      [
+        -103.42637,
+        43.77628
+      ],
+      [
+        -103.40677,
+        43.77495
+      ],
+      [
+        -103.40512,
+        43.77882
+      ],
+      [
+        -103.38748,
+        43.76507
+      ],
+      [
+        -103.36274,
+        43.7606
+      ],
+      [
+        -103.34378,
+        43.76532
+      ],
+      [
+        -103.33934,
+        43.77273
+      ],
+      [
+        -103.35134,
+        43.79175
+      ],
+      [
+        -103.34101,
+        43.79316
+      ],
+      [
+        -103.34094,
+        43.80051
+      ],
+      [
+        -103.35266,
+        43.82131
+      ],
+      [
+        -103.36909,
+        43.82676
+      ],
+      [
+        -103.36923,
+        43.83437
+      ],
+      [
+        -103.39804,
+        43.84198
+      ],
+      [
+        -103.40987,
+        43.85506
+      ],
+      [
+        -103.42704,
+        43.85403
+      ],
+      [
+        -103.43441,
+        43.86067
+      ],
+      [
+        -103.43135,
+        43.8581
+      ],
+      [
+        -103.43637,
+        43.85361
+      ],
+      [
+        -103.44226,
+        43.8611
+      ],
+      [
+        -103.43413,
+        43.86761
+      ],
+      [
+        -103.43983,
+        43.87479
+      ],
+      [
+        -103.43668,
+        43.886
+      ],
+      [
+        -103.44559,
+        43.8861
+      ],
+      [
+        -103.45203,
+        43.87461
+      ],
+      [
+        -103.46008,
+        43.87413
+      ],
+      [
+        -103.46423,
+        43.88369
+      ],
+      [
+        -103.47894,
+        43.88853
+      ],
+      [
+        -103.48571,
+        43.89864
+      ],
+      [
+        -103.51581,
+        43.89519
+      ],
+      [
+        -103.53393,
+        43.90129
+      ],
+      [
+        -103.56583,
+        43.89193
+      ],
+      [
+        -103.57915,
+        43.89723
+      ],
+      [
+        -103.58847,
+        43.89192
+      ],
+      [
+        -103.57676,
+        43.87871
+      ],
+      [
+        -103.586,
+        43.86309
+      ],
+      [
+        -103.5746,
+        43.85227
+      ],
+      [
+        -103.57789,
+        43.84492
+      ],
+      [
+        -103.5565,
+        43.84014
+      ],
+      [
+        -103.53659,
+        43.84218
+      ],
+      [
+        -103.52264,
+        43.82108
+      ],
+      [
+        -103.49679,
+        43.82554
+      ],
+      [
+        -103.49021,
+        43.81979
+      ],
+      [
+        -103.46462,
+        43.81794
+      ],
+      [
+        -103.44513,
+        43.79961
+      ],
+      [
+        -103.43525,
+        43.80322
+      ],
+      [
+        -103.45724,
+        43.76789
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Iron Mountain Road",
+      "model": "switchback",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Sylvan Lake",
+      "model": "alpine-lake",
+      "at": 0.803229419873362,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Custer",
+      "at": 0.08625180897250362,
+      "landmark": ""
+    },
+    {
+      "name": "Spokane",
+      "at": 0.4299565846599132,
+      "landmark": ""
+    },
+    {
+      "name": "Etta",
+      "at": 0.5568740955137482,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/peter-norbeck-scenic-byway-2459.json",
+    "public/data/strips/peter-norbeck-scenic-byway-2459.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

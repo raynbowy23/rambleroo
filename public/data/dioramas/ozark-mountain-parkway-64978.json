@@ -1,0 +1,171 @@
+{
+  "authored": false,
+  "bywayId": "ozark-mountain-parkway-64978",
+  "title": "Ozark Mountain Parkway",
+  "longitude": -93.2183,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -93.222,
+        36.6573
+      ],
+      [
+        -93.2204,
+        36.6557
+      ],
+      [
+        -93.2205,
+        36.651
+      ],
+      [
+        -93.2184,
+        36.6465
+      ],
+      [
+        -93.2171,
+        36.6383
+      ],
+      [
+        -93.2136,
+        36.6346
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

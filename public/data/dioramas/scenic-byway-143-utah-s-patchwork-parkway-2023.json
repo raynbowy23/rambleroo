@@ -1,0 +1,418 @@
+{
+  "authored": false,
+  "bywayId": "scenic-byway-143-utah-s-patchwork-parkway-2023",
+  "title": "Scenic Byway 143 - Utah's Patchwork Parkway",
+  "longitude": -112.7156,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -112.86918,
+        37.83924
+      ],
+      [
+        -112.81991,
+        37.83901
+      ],
+      [
+        -112.81167,
+        37.82451
+      ],
+      [
+        -112.80852,
+        37.81421
+      ],
+      [
+        -112.80934,
+        37.80852
+      ],
+      [
+        -112.81841,
+        37.79411
+      ],
+      [
+        -112.8507,
+        37.76356
+      ],
+      [
+        -112.84883,
+        37.75963
+      ],
+      [
+        -112.83773,
+        37.75193
+      ],
+      [
+        -112.83695,
+        37.73373
+      ],
+      [
+        -112.84686,
+        37.71584
+      ],
+      [
+        -112.85193,
+        37.71101
+      ],
+      [
+        -112.84507,
+        37.69832
+      ],
+      [
+        -112.85351,
+        37.6899
+      ],
+      [
+        -112.85547,
+        37.68174
+      ],
+      [
+        -112.84285,
+        37.6767
+      ],
+      [
+        -112.83737,
+        37.66072
+      ],
+      [
+        -112.83425,
+        37.65767
+      ],
+      [
+        -112.82622,
+        37.65439
+      ],
+      [
+        -112.81287,
+        37.65576
+      ],
+      [
+        -112.78931,
+        37.65023
+      ],
+      [
+        -112.77835,
+        37.6535
+      ],
+      [
+        -112.75626,
+        37.65405
+      ],
+      [
+        -112.74931,
+        37.65824
+      ],
+      [
+        -112.72328,
+        37.66461
+      ],
+      [
+        -112.71763,
+        37.66276
+      ],
+      [
+        -112.71438,
+        37.6551
+      ],
+      [
+        -112.70219,
+        37.65446
+      ],
+      [
+        -112.69415,
+        37.65074
+      ],
+      [
+        -112.68931,
+        37.65081
+      ],
+      [
+        -112.68429,
+        37.65489
+      ],
+      [
+        -112.66967,
+        37.65609
+      ],
+      [
+        -112.66569,
+        37.65987
+      ],
+      [
+        -112.66896,
+        37.66838
+      ],
+      [
+        -112.66228,
+        37.69803
+      ],
+      [
+        -112.65213,
+        37.70267
+      ],
+      [
+        -112.62657,
+        37.70844
+      ],
+      [
+        -112.62275,
+        37.71577
+      ],
+      [
+        -112.62618,
+        37.72021
+      ],
+      [
+        -112.62549,
+        37.72312
+      ],
+      [
+        -112.61485,
+        37.7229
+      ],
+      [
+        -112.60639,
+        37.72982
+      ],
+      [
+        -112.60514,
+        37.73582
+      ],
+      [
+        -112.59408,
+        37.73568
+      ],
+      [
+        -112.58609,
+        37.74609
+      ],
+      [
+        -112.57037,
+        37.74898
+      ],
+      [
+        -112.55052,
+        37.76691
+      ],
+      [
+        -112.535,
+        37.76736
+      ],
+      [
+        -112.52684,
+        37.76254
+      ],
+      [
+        -112.50663,
+        37.76058
+      ],
+      [
+        -112.49979,
+        37.7642
+      ],
+      [
+        -112.47541,
+        37.76827
+      ],
+      [
+        -112.45972,
+        37.76645
+      ],
+      [
+        -112.44582,
+        37.77202
+      ],
+      [
+        -112.43686,
+        37.79248
+      ],
+      [
+        -112.43563,
+        37.82275
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Cedar Breaks National Monument",
+      "model": "hoodoo",
+      "at": 0.358103060765764,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Panguitch Lake",
+      "model": "alpine-lake",
+      "at": 0.649702723851655,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Panguitch",
+      "model": "town-blocks",
+      "at": 0.9992304949818877,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Parowan",
+      "at": 0.008383233532934131,
+      "landmark": ""
+    },
+    {
+      "name": "Brian Head",
+      "at": 0.28622754491017965,
+      "landmark": ""
+    },
+    {
+      "name": "Panguitch",
+      "at": 0.9996007984031936,
+      "landmark": "Panguitch"
+    }
+  ],
+  "sources": [
+    "content/stories/scenic-byway-143-utah-s-patchwork-parkway-2023.json",
+    "public/data/strips/scenic-byway-143-utah-s-patchwork-parkway-2023.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

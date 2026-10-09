@@ -1,0 +1,384 @@
+{
+  "authored": false,
+  "bywayId": "amish-country-byway-13793",
+  "title": "Amish Country Byway",
+  "longitude": -82.1284,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -82.18368,
+        40.46907
+      ],
+      [
+        -82.17421,
+        40.45909
+      ],
+      [
+        -82.17109,
+        40.45786
+      ],
+      [
+        -82.15888,
+        40.46158
+      ],
+      [
+        -82.15119,
+        40.46635
+      ],
+      [
+        -82.14501,
+        40.46382
+      ],
+      [
+        -82.12998,
+        40.46457
+      ],
+      [
+        -82.12402,
+        40.46166
+      ],
+      [
+        -82.11951,
+        40.46363
+      ],
+      [
+        -82.1077,
+        40.46081
+      ],
+      [
+        -82.09044,
+        40.46046
+      ],
+      [
+        -82.07006,
+        40.46864
+      ],
+      [
+        -82.05816,
+        40.47836
+      ],
+      [
+        -82.03703,
+        40.48208
+      ],
+      [
+        -82.02886,
+        40.48064
+      ],
+      [
+        -81.98544,
+        40.48177
+      ],
+      [
+        -81.98017,
+        40.48673
+      ],
+      [
+        -81.97696,
+        40.49747
+      ],
+      [
+        -81.96935,
+        40.50455
+      ],
+      [
+        -81.96535,
+        40.50465
+      ],
+      [
+        -81.95279,
+        40.49745
+      ],
+      [
+        -81.9414,
+        40.50216
+      ],
+      [
+        -81.93481,
+        40.50934
+      ],
+      [
+        -81.92206,
+        40.51313
+      ],
+      [
+        -81.9209,
+        40.5241
+      ],
+      [
+        -81.9159,
+        40.53938
+      ],
+      [
+        -81.91807,
+        40.54911
+      ],
+      [
+        -81.91735,
+        40.55418
+      ],
+      [
+        -81.90121,
+        40.55529
+      ],
+      [
+        -81.89199,
+        40.55876
+      ],
+      [
+        -81.88072,
+        40.55474
+      ],
+      [
+        -81.83557,
+        40.55302
+      ],
+      [
+        -81.82811,
+        40.5553
+      ],
+      [
+        -81.81541,
+        40.55564
+      ],
+      [
+        -81.80202,
+        40.56173
+      ],
+      [
+        -81.79411,
+        40.5612
+      ],
+      [
+        -81.76465,
+        40.58821
+      ],
+      [
+        -81.75184,
+        40.59456
+      ],
+      [
+        -81.7443,
+        40.60089
+      ],
+      [
+        -81.7343,
+        40.60453
+      ],
+      [
+        -81.72133,
+        40.60498
+      ],
+      [
+        -81.70745,
+        40.61006
+      ],
+      [
+        -81.70978,
+        40.60156
+      ],
+      [
+        -81.7054,
+        40.59458
+      ],
+      [
+        -81.70688,
+        40.58346
+      ],
+      [
+        -81.71344,
+        40.57416
+      ],
+      [
+        -81.71318,
+        40.56497
+      ],
+      [
+        -81.72037,
+        40.56167
+      ],
+      [
+        -81.72131,
+        40.54579
+      ],
+      [
+        -81.71973,
+        40.54304
+      ],
+      [
+        -81.7209,
+        40.54147
+      ],
+      [
+        -81.72613,
+        40.54142
+      ],
+      [
+        -81.72306,
+        40.53916
+      ],
+      [
+        -81.70785,
+        40.51644
+      ],
+      [
+        -81.6861,
+        40.5197
+      ],
+      [
+        -81.66677,
+        40.5168
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Behalt, Berlin",
+      "model": "town-blocks",
+      "at": 0.6330110579735403,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mount Hope",
+      "model": "town-blocks",
+      "at": 0.7169078329659134,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Brinkhaven",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Loudonville",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Stillwell",
+      "at": 0.13111638954869356,
+      "landmark": ""
+    },
+    {
+      "name": "Nashville",
+      "at": 0.18662063966633152,
+      "landmark": ""
+    },
+    {
+      "name": "Killbuck",
+      "at": 0.3065944746091076,
+      "landmark": ""
+    },
+    {
+      "name": "Millersburg",
+      "at": 0.4660332541567696,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/amish-country-byway-13793.json",
+    "public/data/strips/amish-country-byway-13793.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

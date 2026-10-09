@@ -1,0 +1,414 @@
+{
+  "authored": false,
+  "bywayId": "great-lakes-seaway-trail-2488",
+  "title": "Great Lakes Seaway Trail",
+  "longitude": -76.3772,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.5193,
+        41.94392
+      ],
+      [
+        -79.67264,
+        42.29797
+      ],
+      [
+        -79.42984,
+        42.42005
+      ],
+      [
+        -79.35327,
+        42.48425
+      ],
+      [
+        -79.10946,
+        42.56487
+      ],
+      [
+        -79.11924,
+        42.59298
+      ],
+      [
+        -79.02489,
+        42.69516
+      ],
+      [
+        -78.85353,
+        42.77946
+      ],
+      [
+        -78.84563,
+        42.81483
+      ],
+      [
+        -78.9001,
+        42.9097
+      ],
+      [
+        -78.87895,
+        43.01623
+      ],
+      [
+        -78.89167,
+        43.04982
+      ],
+      [
+        -78.9599,
+        43.08026
+      ],
+      [
+        -79.06377,
+        43.08842
+      ],
+      [
+        -79.02858,
+        43.17285
+      ],
+      [
+        -79.04639,
+        43.17614
+      ],
+      [
+        -79.0426,
+        43.26672
+      ],
+      [
+        -78.62985,
+        43.34898
+      ],
+      [
+        -78.30942,
+        43.34985
+      ],
+      [
+        -78.12972,
+        43.37478
+      ],
+      [
+        -77.74166,
+        43.33091
+      ],
+      [
+        -77.68889,
+        43.27205
+      ],
+      [
+        -77.55415,
+        43.23473
+      ],
+      [
+        -77.55739,
+        43.17636
+      ],
+      [
+        -77.51158,
+        43.17613
+      ],
+      [
+        -77.5037,
+        43.24715
+      ],
+      [
+        -77.21855,
+        43.28153
+      ],
+      [
+        -76.98905,
+        43.27032
+      ],
+      [
+        -76.98196,
+        43.2112
+      ],
+      [
+        -76.73797,
+        43.22437
+      ],
+      [
+        -76.72643,
+        43.29921
+      ],
+      [
+        -76.62912,
+        43.33046
+      ],
+      [
+        -76.62283,
+        43.37119
+      ],
+      [
+        -76.56383,
+        43.43509
+      ],
+      [
+        -76.22264,
+        43.51393
+      ],
+      [
+        -76.15568,
+        43.62102
+      ],
+      [
+        -76.14932,
+        43.6578
+      ],
+      [
+        -76.20065,
+        43.77843
+      ],
+      [
+        -76.19465,
+        43.86393
+      ],
+      [
+        -76.04873,
+        43.96663
+      ],
+      [
+        -76.04735,
+        44.02909
+      ],
+      [
+        -76.14778,
+        44.07375
+      ],
+      [
+        -76.25203,
+        44.07601
+      ],
+      [
+        -76.33749,
+        44.12744
+      ],
+      [
+        -76.01253,
+        44.2581
+      ],
+      [
+        -75.86355,
+        44.34949
+      ],
+      [
+        -75.75183,
+        44.44241
+      ],
+      [
+        -75.76717,
+        44.48764
+      ],
+      [
+        -75.7386,
+        44.52386
+      ],
+      [
+        -75.30725,
+        44.81377
+      ],
+      [
+        -75.14425,
+        44.88691
+      ],
+      [
+        -75.02294,
+        44.91004
+      ],
+      [
+        -74.978,
+        44.95128
+      ],
+      [
+        -74.85367,
+        44.97055
+      ],
+      [
+        -74.81007,
+        44.95295
+      ],
+      [
+        -74.73847,
+        44.97839
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Presque Isle",
+      "model": "lighthouse-on-rock",
+      "at": 0.04561188707762404,
+      "offset": "roadside",
+      "notes": "Story moment 1; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lewiston",
+      "model": "town-blocks",
+      "at": 0.2971893763608881,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sackets Harbor",
+      "model": "harbor",
+      "at": 0.7339176728141488,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sackets Harbor",
+      "model": "town-blocks",
+      "at": 0.7339176728141488,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Erie",
+      "at": 0.0537875751503006,
+      "landmark": ""
+    },
+    {
+      "name": "Dunkirk",
+      "at": 0.14857715430861723,
+      "landmark": ""
+    },
+    {
+      "name": "Shaleton",
+      "at": 0.2134869739478958,
+      "landmark": ""
+    },
+    {
+      "name": "Niagara Falls",
+      "at": 0.27771543086172346,
+      "landmark": ""
+    },
+    {
+      "name": "Somerset",
+      "at": 0.3644689378757515,
+      "landmark": ""
+    },
+    {
+      "name": "Irondequoit",
+      "at": 0.4797394789579158,
+      "landmark": ""
+    },
+    {
+      "name": "Sodus Point",
+      "at": 0.554128256513026,
+      "landmark": ""
+    },
+    {
+      "name": "Oswego",
+      "at": 0.6346092184368738,
+      "landmark": ""
+    },
+    {
+      "name": "Sackets Harbor",
+      "at": 0.7338877755511022,
+      "landmark": "Sackets Harbor"
+    },
+    {
+      "name": "Alexandria Bay",
+      "at": 0.8349498997995992,
+      "landmark": ""
+    },
+    {
+      "name": "Ogdensburg",
+      "at": 0.9076352705410822,
+      "landmark": ""
+    },
+    {
+      "name": "Massena",
+      "at": 0.9879158316633267,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/great-lakes-seaway-trail-2488.json",
+    "public/data/strips/great-lakes-seaway-trail-2488.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,404 @@
+{
+  "authored": false,
+  "bywayId": "outer-banks-scenic-byway-12834",
+  "title": "Outer Banks Scenic Byway",
+  "longitude": -75.6305,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -75.59806,
+        35.90531
+      ],
+      [
+        -75.5465,
+        35.80292
+      ],
+      [
+        -75.54542,
+        35.78081
+      ],
+      [
+        -75.51936,
+        35.76413
+      ],
+      [
+        -75.50383,
+        35.74076
+      ],
+      [
+        -75.48628,
+        35.69615
+      ],
+      [
+        -75.4657,
+        35.60779
+      ],
+      [
+        -75.48889,
+        35.4059
+      ],
+      [
+        -75.51947,
+        35.26678
+      ],
+      [
+        -75.53525,
+        35.26942
+      ],
+      [
+        -75.58623,
+        35.25989
+      ],
+      [
+        -75.63796,
+        35.22689
+      ],
+      [
+        -75.68158,
+        35.21472
+      ],
+      [
+        -75.69386,
+        35.21903
+      ],
+      [
+        -75.70165,
+        35.20682
+      ],
+      [
+        -75.72649,
+        35.21189
+      ],
+      [
+        -75.78102,
+        35.19247
+      ],
+      [
+        -75.78473,
+        35.18051
+      ],
+      [
+        -75.91499,
+        35.13174
+      ],
+      [
+        -75.95989,
+        35.10617
+      ],
+      [
+        -75.98557,
+        35.11613
+      ],
+      [
+        -76.01146,
+        35.1156
+      ],
+      [
+        -76.15228,
+        35.06627
+      ],
+      [
+        -76.31243,
+        35.01985
+      ],
+      [
+        -76.3178,
+        35.01437
+      ],
+      [
+        -76.29941,
+        34.97523
+      ],
+      [
+        -76.30822,
+        34.97174
+      ],
+      [
+        -76.32704,
+        34.9444
+      ],
+      [
+        -76.35997,
+        34.93104
+      ],
+      [
+        -76.37214,
+        34.91231
+      ],
+      [
+        -76.36043,
+        34.89775
+      ],
+      [
+        -76.34024,
+        34.896
+      ],
+      [
+        -76.33418,
+        34.88896
+      ],
+      [
+        -76.34012,
+        34.8813
+      ],
+      [
+        -76.35642,
+        34.87363
+      ],
+      [
+        -76.37047,
+        34.88029
+      ],
+      [
+        -76.3858,
+        34.8725
+      ],
+      [
+        -76.39516,
+        34.88998
+      ],
+      [
+        -76.40611,
+        34.8902
+      ],
+      [
+        -76.41456,
+        34.88008
+      ],
+      [
+        -76.41595,
+        34.84891
+      ],
+      [
+        -76.45031,
+        34.82077
+      ],
+      [
+        -76.45978,
+        34.79777
+      ],
+      [
+        -76.47952,
+        34.80714
+      ],
+      [
+        -76.50719,
+        34.79423
+      ],
+      [
+        -76.51791,
+        34.76348
+      ],
+      [
+        -76.52788,
+        34.75888
+      ],
+      [
+        -76.51974,
+        34.74898
+      ],
+      [
+        -76.51584,
+        34.72818
+      ],
+      [
+        -76.53201,
+        34.73643
+      ],
+      [
+        -76.535,
+        34.72569
+      ],
+      [
+        -76.54337,
+        34.72671
+      ],
+      [
+        -76.54997,
+        34.73724
+      ],
+      [
+        -76.57196,
+        34.72813
+      ],
+      [
+        -76.58089,
+        34.70084
+      ],
+      [
+        -76.52829,
+        34.68529
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Cape Hatteras Lighthouse",
+      "model": "lighthouse-on-rock",
+      "at": 0.3278314662218099,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ocracoke Light",
+      "model": "lighthouse-on-rock",
+      "at": 0.5397123860237484,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ocracoke Light",
+      "model": "town-blocks",
+      "at": 0.5397123860237484,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Atlantic",
+      "model": "harbor",
+      "at": 0.7738598195074567,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Atlantic",
+      "model": "town-blocks",
+      "at": 0.7738598195074567,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Whalebone Junction",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Rodanthe",
+      "at": 0.16443046820405313,
+      "landmark": ""
+    },
+    {
+      "name": "Avon",
+      "at": 0.2827393431167016,
+      "landmark": ""
+    },
+    {
+      "name": "Frisco",
+      "at": 0.3763801537386443,
+      "landmark": ""
+    },
+    {
+      "name": "Ocracoke",
+      "at": 0.5380852550663872,
+      "landmark": ""
+    },
+    {
+      "name": "Cedar Island",
+      "at": 0.6914046121593291,
+      "landmark": ""
+    },
+    {
+      "name": "Atlantic",
+      "at": 0.7737246680642907,
+      "landmark": "Atlantic"
+    },
+    {
+      "name": "Davis",
+      "at": 0.8688329839273236,
+      "landmark": ""
+    },
+    {
+      "name": "Otway",
+      "at": 0.9115014158114533,
+      "landmark": ""
+    },
+    {
+      "name": "Gloucester",
+      "at": 0.9438853948287911,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/outer-banks-scenic-byway-12834.json",
+    "public/data/strips/outer-banks-scenic-byway-12834.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

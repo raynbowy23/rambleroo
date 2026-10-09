@@ -1,0 +1,183 @@
+{
+  "authored": false,
+  "bywayId": "a1a-ocean-shore-scenic-highway-2556",
+  "title": "A1A Ocean Shore Scenic Highway",
+  "longitude": -81.1247,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.14847,
+        29.52285
+      ],
+      [
+        -81.14458,
+        29.5151
+      ],
+      [
+        -81.14295,
+        29.51274
+      ],
+      [
+        -81.14154,
+        29.50997
+      ],
+      [
+        -81.13722,
+        29.5012
+      ],
+      [
+        -81.13318,
+        29.49268
+      ],
+      [
+        -81.13157,
+        29.48943
+      ],
+      [
+        -81.12974,
+        29.4859
+      ],
+      [
+        -81.12585,
+        29.47781
+      ],
+      [
+        -81.12397,
+        29.47404
+      ],
+      [
+        -81.1174,
+        29.46009
+      ],
+      [
+        -81.11058,
+        29.4448
+      ],
+      [
+        -81.1099,
+        29.44316
+      ],
+      [
+        -81.10945,
+        29.44082
+      ],
+      [
+        -81.10867,
+        29.43888
+      ],
+      [
+        -81.1076,
+        29.43664
+      ],
+      [
+        -81.10741,
+        29.43634
+      ],
+      [
+        -81.10639,
+        29.43511
+      ],
+      [
+        -81.10586,
+        29.43426
+      ],
+      [
+        -81.10257,
+        29.42716
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Beverly Beach",
+      "at": 0.0625,
+      "landmark": ""
+    },
+    {
+      "name": "Flagler Beach",
+      "at": 0.5083333333333333,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "public/data/strips/a1a-ocean-shore-scenic-highway-2556.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

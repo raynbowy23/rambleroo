@@ -1,0 +1,451 @@
+{
+  "authored": false,
+  "bywayId": "crowley-s-ridge-parkway-2588",
+  "title": "Crowley's Ridge Parkway",
+  "longitude": -90.66,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -90.59119,
+        34.5281
+      ],
+      [
+        -90.64133,
+        34.54394
+      ],
+      [
+        -90.647,
+        34.57528
+      ],
+      [
+        -90.62506,
+        34.56845
+      ],
+      [
+        -90.6096,
+        34.59907
+      ],
+      [
+        -90.63719,
+        34.63453
+      ],
+      [
+        -90.65778,
+        34.64054
+      ],
+      [
+        -90.66067,
+        34.65486
+      ],
+      [
+        -90.67938,
+        34.65833
+      ],
+      [
+        -90.67487,
+        34.68465
+      ],
+      [
+        -90.72369,
+        34.72097
+      ],
+      [
+        -90.72376,
+        34.75735
+      ],
+      [
+        -90.76687,
+        34.76722
+      ],
+      [
+        -90.7976,
+        34.81069
+      ],
+      [
+        -90.79062,
+        34.94846
+      ],
+      [
+        -90.78183,
+        34.95578
+      ],
+      [
+        -90.78725,
+        35.02011
+      ],
+      [
+        -90.72207,
+        35.11241
+      ],
+      [
+        -90.73666,
+        35.15325
+      ],
+      [
+        -90.72405,
+        35.20332
+      ],
+      [
+        -90.7548,
+        35.22322
+      ],
+      [
+        -90.71213,
+        35.2484
+      ],
+      [
+        -90.70359,
+        35.34045
+      ],
+      [
+        -90.67159,
+        35.4224
+      ],
+      [
+        -90.6807,
+        35.52155
+      ],
+      [
+        -90.70803,
+        35.56352
+      ],
+      [
+        -90.65711,
+        35.59791
+      ],
+      [
+        -90.66576,
+        35.76476
+      ],
+      [
+        -90.68505,
+        35.77811
+      ],
+      [
+        -90.70569,
+        35.82136
+      ],
+      [
+        -90.70139,
+        35.92097
+      ],
+      [
+        -90.71058,
+        35.92433
+      ],
+      [
+        -90.71575,
+        35.97166
+      ],
+      [
+        -90.70872,
+        36.00338
+      ],
+      [
+        -90.64821,
+        36.07076
+      ],
+      [
+        -90.5618,
+        36.06749
+      ],
+      [
+        -90.50519,
+        36.05263
+      ],
+      [
+        -90.49871,
+        36.07164
+      ],
+      [
+        -90.51394,
+        36.18076
+      ],
+      [
+        -90.50507,
+        36.20125
+      ],
+      [
+        -90.53243,
+        36.22361
+      ],
+      [
+        -90.48119,
+        36.25546
+      ],
+      [
+        -90.47015,
+        36.28145
+      ],
+      [
+        -90.44464,
+        36.28457
+      ],
+      [
+        -90.44437,
+        36.33406
+      ],
+      [
+        -90.38472,
+        36.33403
+      ],
+      [
+        -90.38918,
+        36.43448
+      ],
+      [
+        -90.25686,
+        36.43274
+      ],
+      [
+        -90.19261,
+        36.38309
+      ],
+      [
+        -90.1506,
+        36.38223
+      ],
+      [
+        -90.14697,
+        36.45352
+      ],
+      [
+        -90.07042,
+        36.49632
+      ],
+      [
+        -90.06613,
+        36.52401
+      ],
+      [
+        -90.04812,
+        36.53375
+      ],
+      [
+        -90.05224,
+        36.56462
+      ],
+      [
+        -89.97071,
+        36.56385
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Helena",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Crowley's Ridge State Park",
+      "model": "ridge",
+      "at": 0.6166318470210639,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "West Helena",
+      "at": 0.016808712121212044,
+      "landmark": ""
+    },
+    {
+      "name": "Marianna",
+      "at": 0.1340435606060606,
+      "landmark": ""
+    },
+    {
+      "name": "Forrest City",
+      "at": 0.2205018939393939,
+      "landmark": ""
+    },
+    {
+      "name": "Birdeye",
+      "at": 0.36808712121212117,
+      "landmark": ""
+    },
+    {
+      "name": "Harrisburg",
+      "at": 0.4349431818181818,
+      "landmark": ""
+    },
+    {
+      "name": "Jonesboro",
+      "at": 0.5307765151515151,
+      "landmark": ""
+    },
+    {
+      "name": "Walcott",
+      "at": 0.6156249999999999,
+      "landmark": ""
+    },
+    {
+      "name": "Oak Grove Heights",
+      "at": 0.6919034090909091,
+      "landmark": ""
+    },
+    {
+      "name": "Knob",
+      "at": 0.7629734848484848,
+      "landmark": ""
+    },
+    {
+      "name": "Pollard",
+      "at": 0.8627367424242425,
+      "landmark": ""
+    },
+    {
+      "name": "Campbell",
+      "at": 0.95,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/crowley-s-ridge-parkway-2588.json",
+    "public/data/strips/crowley-s-ridge-parkway-2588.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

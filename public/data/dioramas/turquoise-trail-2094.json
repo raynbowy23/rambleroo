@@ -1,0 +1,428 @@
+{
+  "authored": false,
+  "bywayId": "turquoise-trail-2094",
+  "title": "Turquoise Trail",
+  "longitude": -106.174,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -106.38427,
+        35.07345
+      ],
+      [
+        -106.38733,
+        35.07588
+      ],
+      [
+        -106.38779,
+        35.07966
+      ],
+      [
+        -106.38032,
+        35.0852
+      ],
+      [
+        -106.38173,
+        35.09095
+      ],
+      [
+        -106.37989,
+        35.099
+      ],
+      [
+        -106.37423,
+        35.10592
+      ],
+      [
+        -106.37321,
+        35.11548
+      ],
+      [
+        -106.36648,
+        35.12882
+      ],
+      [
+        -106.3656,
+        35.13607
+      ],
+      [
+        -106.35687,
+        35.15419
+      ],
+      [
+        -106.33695,
+        35.17383
+      ],
+      [
+        -106.32211,
+        35.18506
+      ],
+      [
+        -106.31453,
+        35.19536
+      ],
+      [
+        -106.31176,
+        35.20558
+      ],
+      [
+        -106.30271,
+        35.21798
+      ],
+      [
+        -106.29756,
+        35.22074
+      ],
+      [
+        -106.29256,
+        35.22001
+      ],
+      [
+        -106.26589,
+        35.22335
+      ],
+      [
+        -106.25044,
+        35.2363
+      ],
+      [
+        -106.22192,
+        35.24875
+      ],
+      [
+        -106.214,
+        35.26224
+      ],
+      [
+        -106.21346,
+        35.2705
+      ],
+      [
+        -106.21112,
+        35.27797
+      ],
+      [
+        -106.21621,
+        35.28632
+      ],
+      [
+        -106.21455,
+        35.33521
+      ],
+      [
+        -106.21298,
+        35.33954
+      ],
+      [
+        -106.20743,
+        35.34396
+      ],
+      [
+        -106.1988,
+        35.3458
+      ],
+      [
+        -106.19377,
+        35.35068
+      ],
+      [
+        -106.18692,
+        35.354
+      ],
+      [
+        -106.18544,
+        35.36212
+      ],
+      [
+        -106.17513,
+        35.36821
+      ],
+      [
+        -106.1744,
+        35.37816
+      ],
+      [
+        -106.16019,
+        35.39577
+      ],
+      [
+        -106.15476,
+        35.40521
+      ],
+      [
+        -106.15249,
+        35.4057
+      ],
+      [
+        -106.15094,
+        35.40978
+      ],
+      [
+        -106.13685,
+        35.41509
+      ],
+      [
+        -106.13777,
+        35.41838
+      ],
+      [
+        -106.13518,
+        35.42185
+      ],
+      [
+        -106.13464,
+        35.4255
+      ],
+      [
+        -106.13048,
+        35.43041
+      ],
+      [
+        -106.11358,
+        35.43568
+      ],
+      [
+        -106.09461,
+        35.4298
+      ],
+      [
+        -106.08988,
+        35.43003
+      ],
+      [
+        -106.08338,
+        35.43493
+      ],
+      [
+        -106.07779,
+        35.44562
+      ],
+      [
+        -106.07729,
+        35.45034
+      ],
+      [
+        -106.07015,
+        35.45386
+      ],
+      [
+        -106.06917,
+        35.47699
+      ],
+      [
+        -106.05387,
+        35.54859
+      ],
+      [
+        -106.05323,
+        35.59055
+      ],
+      [
+        -106.05109,
+        35.59452
+      ],
+      [
+        -106.03695,
+        35.59984
+      ],
+      [
+        -106.03483,
+        35.6053
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Golden",
+      "model": "false-front-town",
+      "at": 0.36182813481132015,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Golden",
+      "model": "town-blocks",
+      "at": 0.36182813481132015,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Madrid",
+      "model": "false-front-town",
+      "at": 0.6153288871930538,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Madrid",
+      "model": "town-blocks",
+      "at": 0.6153288871930538,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Cedar Crest",
+      "at": 0.0660377358490567,
+      "landmark": ""
+    },
+    {
+      "name": "Paa-Ko",
+      "at": 0.20188679245283025,
+      "landmark": ""
+    },
+    {
+      "name": "Golden",
+      "at": 0.36142557651991614,
+      "landmark": "Golden"
+    },
+    {
+      "name": "Los Cerrillos",
+      "at": 0.6746331236897275,
+      "landmark": ""
+    },
+    {
+      "name": "Valle Vista",
+      "at": 0.9570230607966457,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/turquoise-trail-2094.json",
+    "public/data/strips/turquoise-trail-2094.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,453 @@
+{
+  "authored": false,
+  "bywayId": "stevens-pass-greenway-2231",
+  "title": "Stevens Pass Greenway",
+  "longitude": -121.129,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -122.01218,
+        47.87416
+      ],
+      [
+        -121.95812,
+        47.8566
+      ],
+      [
+        -121.8622,
+        47.851
+      ],
+      [
+        -121.76465,
+        47.86966
+      ],
+      [
+        -121.72077,
+        47.86613
+      ],
+      [
+        -121.64907,
+        47.83463
+      ],
+      [
+        -121.62043,
+        47.83518
+      ],
+      [
+        -121.61837,
+        47.82523
+      ],
+      [
+        -121.59828,
+        47.81473
+      ],
+      [
+        -121.57179,
+        47.81362
+      ],
+      [
+        -121.55718,
+        47.80753
+      ],
+      [
+        -121.54003,
+        47.81011
+      ],
+      [
+        -121.51797,
+        47.80429
+      ],
+      [
+        -121.51223,
+        47.79278
+      ],
+      [
+        -121.46215,
+        47.75418
+      ],
+      [
+        -121.36779,
+        47.71016
+      ],
+      [
+        -121.34493,
+        47.71452
+      ],
+      [
+        -121.30479,
+        47.7112
+      ],
+      [
+        -121.27904,
+        47.7172
+      ],
+      [
+        -121.23265,
+        47.71815
+      ],
+      [
+        -121.1571,
+        47.71108
+      ],
+      [
+        -121.12308,
+        47.7171
+      ],
+      [
+        -121.13784,
+        47.72476
+      ],
+      [
+        -121.12136,
+        47.74605
+      ],
+      [
+        -121.09101,
+        47.74501
+      ],
+      [
+        -121.08428,
+        47.74829
+      ],
+      [
+        -121.07556,
+        47.7572
+      ],
+      [
+        -121.07723,
+        47.76979
+      ],
+      [
+        -121.05939,
+        47.78073
+      ],
+      [
+        -121.03059,
+        47.78395
+      ],
+      [
+        -121.01536,
+        47.77328
+      ],
+      [
+        -120.98856,
+        47.76697
+      ],
+      [
+        -120.94023,
+        47.7818
+      ],
+      [
+        -120.91212,
+        47.77968
+      ],
+      [
+        -120.87468,
+        47.79112
+      ],
+      [
+        -120.8638,
+        47.79026
+      ],
+      [
+        -120.78956,
+        47.7645
+      ],
+      [
+        -120.7722,
+        47.76724
+      ],
+      [
+        -120.74308,
+        47.76138
+      ],
+      [
+        -120.73779,
+        47.75331
+      ],
+      [
+        -120.73654,
+        47.72505
+      ],
+      [
+        -120.7458,
+        47.69762
+      ],
+      [
+        -120.73506,
+        47.68749
+      ],
+      [
+        -120.73625,
+        47.66489
+      ],
+      [
+        -120.72956,
+        47.66005
+      ],
+      [
+        -120.72,
+        47.64034
+      ],
+      [
+        -120.72788,
+        47.63087
+      ],
+      [
+        -120.7053,
+        47.58562
+      ],
+      [
+        -120.67886,
+        47.58715
+      ],
+      [
+        -120.65295,
+        47.59905
+      ],
+      [
+        -120.61437,
+        47.58106
+      ],
+      [
+        -120.61274,
+        47.57348
+      ],
+      [
+        -120.60361,
+        47.56511
+      ],
+      [
+        -120.55397,
+        47.53631
+      ],
+      [
+        -120.51234,
+        47.53545
+      ],
+      [
+        -120.4544,
+        47.52076
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Wallace Falls",
+      "model": "cove-waterfall",
+      "at": 0.17037084255192106,
+      "offset": "roadside",
+      "notes": "Story moment 1; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Index",
+      "model": "town-blocks",
+      "at": 0.24490520555843814,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Leavenworth",
+      "model": "town-blocks",
+      "at": 0.8772100628943297,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "snow-peak",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "conifer",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Monroe North",
+      "at": 0.006767676767676768,
+      "landmark": ""
+    },
+    {
+      "name": "Sultan",
+      "at": 0.1009090909090909,
+      "landmark": ""
+    },
+    {
+      "name": "Reiter",
+      "at": 0.1919191919191919,
+      "landmark": ""
+    },
+    {
+      "name": "Baring",
+      "at": 0.2918181818181818,
+      "landmark": ""
+    },
+    {
+      "name": "Skykomish",
+      "at": 0.36363636363636365,
+      "landmark": ""
+    },
+    {
+      "name": "Wellington",
+      "at": 0.507979797979798,
+      "landmark": ""
+    },
+    {
+      "name": "Merritt",
+      "at": 0.6707070707070708,
+      "landmark": ""
+    },
+    {
+      "name": "Winton",
+      "at": 0.7404040404040404,
+      "landmark": ""
+    },
+    {
+      "name": "Leavenworth",
+      "at": 0.8771717171717172,
+      "landmark": "Leavenworth"
+    },
+    {
+      "name": "Dryden",
+      "at": 0.9444444444444444,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/stevens-pass-greenway-2231.json",
+    "public/data/strips/stevens-pass-greenway-2231.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

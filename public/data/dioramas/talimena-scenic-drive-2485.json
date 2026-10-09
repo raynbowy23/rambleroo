@@ -1,0 +1,399 @@
+{
+  "authored": false,
+  "bywayId": "talimena-scenic-drive-2485",
+  "title": "Talimena Scenic Drive",
+  "longitude": -94.6946,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -94.95409,
+        34.79675
+      ],
+      [
+        -94.94339,
+        34.79629
+      ],
+      [
+        -94.93679,
+        34.7989
+      ],
+      [
+        -94.92553,
+        34.79543
+      ],
+      [
+        -94.90661,
+        34.79543
+      ],
+      [
+        -94.90268,
+        34.78999
+      ],
+      [
+        -94.90071,
+        34.7794
+      ],
+      [
+        -94.89177,
+        34.7711
+      ],
+      [
+        -94.88219,
+        34.76996
+      ],
+      [
+        -94.87331,
+        34.77275
+      ],
+      [
+        -94.85648,
+        34.76682
+      ],
+      [
+        -94.83757,
+        34.75531
+      ],
+      [
+        -94.80623,
+        34.74895
+      ],
+      [
+        -94.79452,
+        34.74989
+      ],
+      [
+        -94.77191,
+        34.74658
+      ],
+      [
+        -94.75162,
+        34.74074
+      ],
+      [
+        -94.74394,
+        34.74249
+      ],
+      [
+        -94.73831,
+        34.73798
+      ],
+      [
+        -94.71676,
+        34.73542
+      ],
+      [
+        -94.7011,
+        34.72209
+      ],
+      [
+        -94.68747,
+        34.71888
+      ],
+      [
+        -94.67337,
+        34.71188
+      ],
+      [
+        -94.65788,
+        34.71396
+      ],
+      [
+        -94.6539,
+        34.71191
+      ],
+      [
+        -94.64558,
+        34.71318
+      ],
+      [
+        -94.63928,
+        34.71144
+      ],
+      [
+        -94.62632,
+        34.70221
+      ],
+      [
+        -94.62106,
+        34.69372
+      ],
+      [
+        -94.624,
+        34.68908
+      ],
+      [
+        -94.63563,
+        34.68404
+      ],
+      [
+        -94.63237,
+        34.67995
+      ],
+      [
+        -94.6296,
+        34.67977
+      ],
+      [
+        -94.63017,
+        34.6749
+      ],
+      [
+        -94.61949,
+        34.67892
+      ],
+      [
+        -94.60575,
+        34.67922
+      ],
+      [
+        -94.59877,
+        34.68312
+      ],
+      [
+        -94.58671,
+        34.68521
+      ],
+      [
+        -94.49741,
+        34.69529
+      ],
+      [
+        -94.42027,
+        34.69147
+      ],
+      [
+        -94.38688,
+        34.68779
+      ],
+      [
+        -94.38311,
+        34.68572
+      ],
+      [
+        -94.36213,
+        34.68647
+      ],
+      [
+        -94.33477,
+        34.67834
+      ],
+      [
+        -94.31784,
+        34.67079
+      ],
+      [
+        -94.29939,
+        34.66701
+      ],
+      [
+        -94.2917,
+        34.66239
+      ],
+      [
+        -94.28847,
+        34.65622
+      ],
+      [
+        -94.27985,
+        34.65137
+      ],
+      [
+        -94.27144,
+        34.6529
+      ],
+      [
+        -94.26874,
+        34.64592
+      ],
+      [
+        -94.25455,
+        34.63723
+      ],
+      [
+        -94.24852,
+        34.63018
+      ],
+      [
+        -94.24597,
+        34.63033
+      ],
+      [
+        -94.23762,
+        34.61065
+      ],
+      [
+        -94.24354,
+        34.60437
+      ],
+      [
+        -94.24322,
+        34.60108
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Winding Stair Mountains",
+      "model": "ridge",
+      "at": 0.3664614036844182,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mena",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Page",
+      "at": 0.5853515625,
+      "landmark": ""
+    },
+    {
+      "name": "Mena",
+      "at": 0.9994140625,
+      "landmark": "Mena"
+    }
+  ],
+  "sources": [
+    "content/stories/talimena-scenic-drive-2485.json",
+    "public/data/strips/talimena-scenic-drive-2485.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

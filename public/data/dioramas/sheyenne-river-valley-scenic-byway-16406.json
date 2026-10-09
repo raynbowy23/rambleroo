@@ -1,0 +1,346 @@
+{
+  "authored": false,
+  "bywayId": "sheyenne-river-valley-scenic-byway-16406",
+  "title": "Sheyenne River Valley Scenic Byway",
+  "longitude": -97.9958,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -98.00231,
+        47.03725
+      ],
+      [
+        -98.06597,
+        47.03827
+      ],
+      [
+        -98.07122,
+        47.03534
+      ],
+      [
+        -98.0714,
+        47.03119
+      ],
+      [
+        -98.07679,
+        47.03225
+      ],
+      [
+        -98.09348,
+        47.02259
+      ],
+      [
+        -98.09825,
+        47.01448
+      ],
+      [
+        -98.0928,
+        46.99462
+      ],
+      [
+        -98.06585,
+        46.97432
+      ],
+      [
+        -98.03348,
+        46.96764
+      ],
+      [
+        -97.99668,
+        46.94664
+      ],
+      [
+        -97.9971,
+        46.935
+      ],
+      [
+        -98.00349,
+        46.935
+      ],
+      [
+        -98.00302,
+        46.92332
+      ],
+      [
+        -98.01343,
+        46.92284
+      ],
+      [
+        -98.01317,
+        46.91593
+      ],
+      [
+        -97.99677,
+        46.89636
+      ],
+      [
+        -97.99721,
+        46.80712
+      ],
+      [
+        -97.99193,
+        46.80205
+      ],
+      [
+        -97.99136,
+        46.79133
+      ],
+      [
+        -97.98391,
+        46.78912
+      ],
+      [
+        -97.98304,
+        46.77074
+      ],
+      [
+        -97.97862,
+        46.75456
+      ],
+      [
+        -97.98135,
+        46.73055
+      ],
+      [
+        -97.97613,
+        46.71976
+      ],
+      [
+        -97.97693,
+        46.68392
+      ],
+      [
+        -97.96403,
+        46.67412
+      ],
+      [
+        -97.93897,
+        46.67278
+      ],
+      [
+        -97.9288,
+        46.66297
+      ],
+      [
+        -97.92386,
+        46.65517
+      ],
+      [
+        -97.92377,
+        46.64366
+      ],
+      [
+        -97.93418,
+        46.63206
+      ],
+      [
+        -97.93449,
+        46.62471
+      ],
+      [
+        -97.92344,
+        46.61761
+      ],
+      [
+        -97.8922,
+        46.60808
+      ],
+      [
+        -97.88339,
+        46.58674
+      ],
+      [
+        -97.89296,
+        46.57742
+      ],
+      [
+        -97.88912,
+        46.57355
+      ],
+      [
+        -97.89377,
+        46.57241
+      ],
+      [
+        -97.90809,
+        46.5578
+      ],
+      [
+        -97.92476,
+        46.55051
+      ],
+      [
+        -97.9239,
+        46.52324
+      ],
+      [
+        -97.89013,
+        46.51026
+      ],
+      [
+        -97.87344,
+        46.50945
+      ],
+      [
+        -97.86237,
+        46.51411
+      ],
+      [
+        -97.84708,
+        46.5142
+      ],
+      [
+        -97.84695,
+        46.51918
+      ],
+      [
+        -97.82605,
+        46.5258
+      ],
+      [
+        -97.80032,
+        46.52413
+      ],
+      [
+        -97.7779,
+        46.51342
+      ],
+      [
+        -97.77066,
+        46.50434
+      ],
+      [
+        -97.76969,
+        46.49728
+      ],
+      [
+        -97.77558,
+        46.48183
+      ],
+      [
+        -97.77179,
+        46.4738
+      ],
+      [
+        -97.72155,
+        46.4623
+      ],
+      [
+        -97.68146,
+        46.44945
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Hi-Line Railroad Bridge",
+      "model": "viaduct",
+      "at": 0.2102852188728427,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Fort Ransom",
+      "model": "town-blocks",
+      "at": 0.7520072121376994,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lisbon",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Valley City",
+      "at": 0.23265306122448978,
+      "landmark": ""
+    },
+    {
+      "name": "Kathryn",
+      "at": 0.5150706436420722,
+      "landmark": ""
+    },
+    {
+      "name": "Fort Ransom",
+      "at": 0.7518053375196232,
+      "landmark": "Fort Ransom"
+    },
+    {
+      "name": "Lisbon",
+      "at": 0.9998430141287283,
+      "landmark": "Lisbon"
+    }
+  ],
+  "sources": [
+    "content/stories/sheyenne-river-valley-scenic-byway-16406.json",
+    "public/data/strips/sheyenne-river-valley-scenic-byway-16406.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

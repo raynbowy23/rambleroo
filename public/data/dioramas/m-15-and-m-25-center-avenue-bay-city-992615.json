@@ -1,0 +1,169 @@
+{
+  "authored": false,
+  "bywayId": "m-15-and-m-25-center-avenue-bay-city-992615",
+  "title": "M-15 and M-25 Center Avenue/Bay City",
+  "longitude": -83.8693,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -83.88453,
+        43.59778
+      ],
+      [
+        -83.88347,
+        43.59772
+      ],
+      [
+        -83.88237,
+        43.59763
+      ],
+      [
+        -83.88132,
+        43.59756
+      ],
+      [
+        -83.87998,
+        43.59744
+      ],
+      [
+        -83.879,
+        43.59738
+      ],
+      [
+        -83.87805,
+        43.5973
+      ],
+      [
+        -83.87705,
+        43.59723
+      ],
+      [
+        -83.87605,
+        43.59715
+      ],
+      [
+        -83.87464,
+        43.59704
+      ],
+      [
+        -83.87365,
+        43.59696
+      ],
+      [
+        -83.87268,
+        43.59688
+      ],
+      [
+        -83.87146,
+        43.59677
+      ],
+      [
+        -83.86919,
+        43.59658
+      ],
+      [
+        -83.86726,
+        43.59644
+      ],
+      [
+        -83.86232,
+        43.59605
+      ],
+      [
+        -83.86106,
+        43.59594
+      ],
+      [
+        -83.86059,
+        43.59591
+      ],
+      [
+        -83.85931,
+        43.59583
+      ],
+      [
+        -83.85901,
+        43.5958
+      ],
+      [
+        -83.85568,
+        43.59557
+      ],
+      [
+        -83.85451,
+        43.59547
+      ],
+      [
+        -83.85415,
+        43.59543
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Bay City",
+      "at": 0,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "public/data/strips/m-15-and-m-25-center-avenue-bay-city-992615.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

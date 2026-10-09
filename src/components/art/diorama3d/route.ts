@@ -12,7 +12,7 @@ export function makeRoute(spec: DioramaSpec) {
     zs = coords.map((p) => -p[1])
   const midX = (Math.max(...xs) + Math.min(...xs)) / 2,
     midZ = (Math.max(...zs) + Math.min(...zs)) / 2
-  const scale = 7 / Math.max(Math.max(...xs) - Math.min(...xs), Math.max(...zs) - Math.min(...zs))
+  const scale = 7 / Math.max(0.000001, Math.max(...xs) - Math.min(...xs), Math.max(...zs) - Math.min(...zs))
   const flat = coords.map((_, i) => new T.Vector3((xs[i] - midX) * scale, 0, (zs[i] - midZ) * scale))
   const distances = [0]
   for (let i = 1; i < flat.length; i++) distances.push(distances[i - 1] + flat[i].distanceTo(flat[i - 1]))
@@ -25,7 +25,7 @@ export function makeRoute(spec: DioramaSpec) {
     )
     const a = knots[i - 1],
       b = knots[i]
-    return T.MathUtils.lerp(a[1], b[1], T.MathUtils.clamp((t - a[0]) / (b[0] - a[0]), 0, 1))
+    return T.MathUtils.lerp(a[1], b[1], T.MathUtils.smoothstep(t, a[0], b[0]))
   }
   const points = flat.map((p, i) => p.clone().setY(elevation(distances[i] / total)))
   function sample(t: number) {
@@ -58,9 +58,13 @@ export function makeRoute(spec: DioramaSpec) {
   const height = (x: number, z: number) => {
     const n = nearest(x, z)
     if (spec.ground === 'coastal-cliff') {
-      const canyon = Math.exp(-Math.pow((n.at - 0.18) / 0.027, 2)) * 0.95
+      const bridge = spec.landmarks.find((l) => l.model === 'open-spandrel-arch-bridge' && l.offset === 'on-road')
+      const canyon = bridge ? Math.exp(-Math.pow((n.at - bridge.at) / 0.065, 2)) * 1.7 : 0
       return Math.max(0.08, n.y + (n.side > 0 ? -Math.max(0, n.distance - 0.19) * 2.8 : n.distance * 0.48) - canyon)
     }
+    if (spec.ground === 'low-shore') return Math.max(0.08, n.y - (n.side > 0 ? n.distance * 0.25 : 0))
+    if (spec.ground === 'main-street' || spec.ground === 'prairie-grid') return n.y
+    if (spec.ground === 'desert-mesas') return n.y + Math.min(0.7, Math.max(0, n.distance - 0.5)) * 0.7
     const ridge = spec.ground === 'forested-ridges' ? 0.7 : 0.38
     return Math.max(0.1, n.y + Math.min(n.distance, 2) * ridge + Math.sin(x * 2 + z) * Math.min(n.distance, 0.2))
   }

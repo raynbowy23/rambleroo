@@ -1,0 +1,219 @@
+{
+  "authored": false,
+  "bywayId": "us-421-scenic-byway-81462",
+  "title": "US 421 Scenic Byway",
+  "longitude": -81.5676,
+  "ground": "prairie-grid",
+  "palette": "prairie",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.6389,
+        36.2213
+      ],
+      [
+        -81.6334,
+        36.2235
+      ],
+      [
+        -81.61,
+        36.2252
+      ],
+      [
+        -81.5928,
+        36.231
+      ],
+      [
+        -81.5829,
+        36.2294
+      ],
+      [
+        -81.5719,
+        36.2342
+      ],
+      [
+        -81.5581,
+        36.236
+      ],
+      [
+        -81.5518,
+        36.2404
+      ],
+      [
+        -81.5343,
+        36.2434
+      ],
+      [
+        -81.5091,
+        36.2363
+      ],
+      [
+        -81.4994,
+        36.2298
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "field",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

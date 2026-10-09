@@ -1,0 +1,362 @@
+{
+  "authored": false,
+  "bywayId": "western-heritage-historic-byway-2593",
+  "title": "Western Heritage Historic Byway",
+  "longitude": -116.4138,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -116.39369,
+        43.59344
+      ],
+      [
+        -116.39384,
+        43.57288
+      ],
+      [
+        -116.39376,
+        43.57072
+      ],
+      [
+        -116.39384,
+        43.55376
+      ],
+      [
+        -116.39375,
+        43.54643
+      ],
+      [
+        -116.3939,
+        43.53189
+      ],
+      [
+        -116.39386,
+        43.49022
+      ],
+      [
+        -116.3943,
+        43.48941
+      ],
+      [
+        -116.39497,
+        43.48882
+      ],
+      [
+        -116.39604,
+        43.48837
+      ],
+      [
+        -116.39655,
+        43.4883
+      ],
+      [
+        -116.41242,
+        43.48849
+      ],
+      [
+        -116.41285,
+        43.48852
+      ],
+      [
+        -116.41343,
+        43.48876
+      ],
+      [
+        -116.41373,
+        43.48842
+      ],
+      [
+        -116.41361,
+        43.47117
+      ],
+      [
+        -116.41369,
+        43.46287
+      ],
+      [
+        -116.41384,
+        43.45935
+      ],
+      [
+        -116.41386,
+        43.45175
+      ],
+      [
+        -116.4139,
+        43.30051
+      ],
+      [
+        -116.41384,
+        43.30026
+      ],
+      [
+        -116.41331,
+        43.29968
+      ],
+      [
+        -116.41314,
+        43.29958
+      ],
+      [
+        -116.41255,
+        43.29954
+      ],
+      [
+        -116.39477,
+        43.2994
+      ],
+      [
+        -116.39436,
+        43.29933
+      ],
+      [
+        -116.39419,
+        43.29918
+      ],
+      [
+        -116.39408,
+        43.29787
+      ],
+      [
+        -116.39419,
+        43.27685
+      ],
+      [
+        -116.37213,
+        43.25087
+      ],
+      [
+        -116.36693,
+        43.23852
+      ],
+      [
+        -116.36696,
+        43.23818
+      ],
+      [
+        -116.3671,
+        43.23799
+      ],
+      [
+        -116.36744,
+        43.23788
+      ],
+      [
+        -116.36792,
+        43.23796
+      ],
+      [
+        -116.36813,
+        43.23821
+      ],
+      [
+        -116.36848,
+        43.23929
+      ],
+      [
+        -116.36935,
+        43.24053
+      ],
+      [
+        -116.37118,
+        43.2428
+      ],
+      [
+        -116.37203,
+        43.24412
+      ],
+      [
+        -116.37248,
+        43.24465
+      ],
+      [
+        -116.374,
+        43.24592
+      ],
+      [
+        -116.37419,
+        43.24626
+      ],
+      [
+        -116.37434,
+        43.2475
+      ],
+      [
+        -116.37589,
+        43.24927
+      ],
+      [
+        -116.37678,
+        43.24999
+      ],
+      [
+        -116.37716,
+        43.24999
+      ],
+      [
+        -116.37745,
+        43.24977
+      ],
+      [
+        -116.37749,
+        43.24961
+      ],
+      [
+        -116.37643,
+        43.24815
+      ],
+      [
+        -116.37596,
+        43.24715
+      ],
+      [
+        -116.37591,
+        43.24676
+      ],
+      [
+        -116.37593,
+        43.24643
+      ],
+      [
+        -116.37635,
+        43.24595
+      ],
+      [
+        -116.377,
+        43.24467
+      ],
+      [
+        -116.37711,
+        43.24399
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Kuna",
+      "model": "town-blocks",
+      "at": 0.252098776194357,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Swan Falls Dam",
+      "model": "ledge",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Meridian",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Kuna",
+      "at": 0.2519434628975265,
+      "landmark": "Kuna"
+    },
+    {
+      "name": "Swan Falls",
+      "at": 0.9996466431095405,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/western-heritage-historic-byway-2593.json",
+    "public/data/strips/western-heritage-historic-byway-2593.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

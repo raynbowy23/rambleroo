@@ -1,0 +1,353 @@
+{
+  "authored": false,
+  "bywayId": "gold-belt-tour-scenic-and-historic-byway-2109",
+  "title": "Gold Belt Tour Scenic and Historic Byway",
+  "longitude": -105.4185,
+  "ground": "desert-mesas",
+  "palette": "desert",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -105.19942,
+        38.41758
+      ],
+      [
+        -105.20867,
+        38.44818
+      ],
+      [
+        -105.20858,
+        38.5084
+      ],
+      [
+        -105.22211,
+        38.56002
+      ],
+      [
+        -105.23543,
+        38.5787
+      ],
+      [
+        -105.22493,
+        38.59902
+      ],
+      [
+        -105.22962,
+        38.60746
+      ],
+      [
+        -105.21785,
+        38.61955
+      ],
+      [
+        -105.2229,
+        38.62956
+      ],
+      [
+        -105.21233,
+        38.6353
+      ],
+      [
+        -105.22666,
+        38.66447
+      ],
+      [
+        -105.17727,
+        38.71976
+      ],
+      [
+        -105.17606,
+        38.74273
+      ],
+      [
+        -105.17319,
+        38.72983
+      ],
+      [
+        -105.16228,
+        38.7309
+      ],
+      [
+        -105.16484,
+        38.71113
+      ],
+      [
+        -105.13349,
+        38.71063
+      ],
+      [
+        -105.12329,
+        38.70082
+      ],
+      [
+        -105.12827,
+        38.68035
+      ],
+      [
+        -105.10723,
+        38.63439
+      ],
+      [
+        -105.13439,
+        38.61317
+      ],
+      [
+        -105.10332,
+        38.57756
+      ],
+      [
+        -105.08497,
+        38.57064
+      ],
+      [
+        -105.09332,
+        38.55317
+      ],
+      [
+        -105.12793,
+        38.5329
+      ],
+      [
+        -105.12742,
+        38.52055
+      ],
+      [
+        -105.10503,
+        38.50318
+      ],
+      [
+        -105.12059,
+        38.47608
+      ],
+      [
+        -105.11262,
+        38.45482
+      ],
+      [
+        -105.11777,
+        38.38995
+      ],
+      [
+        -105.18381,
+        38.41746
+      ],
+      [
+        -105.23126,
+        38.42492
+      ],
+      [
+        -105.23489,
+        38.44219
+      ],
+      [
+        -105.2535,
+        38.43546
+      ],
+      [
+        -105.25395,
+        38.46388
+      ],
+      [
+        -105.26826,
+        38.48393
+      ],
+      [
+        -105.28887,
+        38.49583
+      ],
+      [
+        -105.35026,
+        38.49844
+      ],
+      [
+        -105.36494,
+        38.51791
+      ],
+      [
+        -105.41822,
+        38.53904
+      ],
+      [
+        -105.42522,
+        38.55215
+      ],
+      [
+        -105.42439,
+        38.5737
+      ],
+      [
+        -105.41527,
+        38.58249
+      ],
+      [
+        -105.41642,
+        38.6223
+      ],
+      [
+        -105.40231,
+        38.63315
+      ],
+      [
+        -105.37238,
+        38.63425
+      ],
+      [
+        -105.35864,
+        38.67051
+      ],
+      [
+        -105.33348,
+        38.67612
+      ],
+      [
+        -105.33366,
+        38.6842
+      ],
+      [
+        -105.28019,
+        38.7237
+      ],
+      [
+        -105.28846,
+        38.77282
+      ],
+      [
+        -105.27673,
+        38.80541
+      ],
+      [
+        -105.25926,
+        38.82342
+      ],
+      [
+        -105.27259,
+        38.83988
+      ],
+      [
+        -105.27117,
+        38.89578
+      ],
+      [
+        -105.28942,
+        38.94615
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Victor",
+      "model": "false-front-town",
+      "at": 0.2641814612443746,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Victor",
+      "model": "town-blocks",
+      "at": 0.2641814612443746,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "mesa",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5,
+      "side": -1,
+      "distance": 0.7,
+      "scale": 1.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Goldfield",
+      "at": 0.2686650679456435,
+      "landmark": ""
+    },
+    {
+      "name": "Cañon City",
+      "at": 0.5942446043165468,
+      "landmark": ""
+    },
+    {
+      "name": "Parkdale",
+      "at": 0.6782573940847322,
+      "landmark": ""
+    },
+    {
+      "name": "Florissant",
+      "at": 0.9993605115907274,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/gold-belt-tour-scenic-and-historic-byway-2109.json",
+    "public/data/strips/gold-belt-tour-scenic-and-historic-byway-2109.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

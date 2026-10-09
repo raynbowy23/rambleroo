@@ -1,0 +1,376 @@
+{
+  "authored": false,
+  "bywayId": "international-selkirk-loop-2486",
+  "title": "International Selkirk Loop",
+  "longitude": -117.3392,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -117.2996,
+        48.9999
+      ],
+      [
+        -117.30162,
+        48.99051
+      ],
+      [
+        -117.31324,
+        48.98446
+      ],
+      [
+        -117.31141,
+        48.96929
+      ],
+      [
+        -117.31988,
+        48.94116
+      ],
+      [
+        -117.3072,
+        48.92879
+      ],
+      [
+        -117.32403,
+        48.91726
+      ],
+      [
+        -117.32822,
+        48.89351
+      ],
+      [
+        -117.33803,
+        48.88266
+      ],
+      [
+        -117.35715,
+        48.86615
+      ],
+      [
+        -117.3626,
+        48.86871
+      ],
+      [
+        -117.364,
+        48.85983
+      ],
+      [
+        -117.37548,
+        48.86598
+      ],
+      [
+        -117.38845,
+        48.85655
+      ],
+      [
+        -117.39453,
+        48.82686
+      ],
+      [
+        -117.42356,
+        48.78515
+      ],
+      [
+        -117.40246,
+        48.76793
+      ],
+      [
+        -117.41789,
+        48.74442
+      ],
+      [
+        -117.41031,
+        48.69016
+      ],
+      [
+        -117.37137,
+        48.63882
+      ],
+      [
+        -117.36259,
+        48.60273
+      ],
+      [
+        -117.35267,
+        48.59055
+      ],
+      [
+        -117.35203,
+        48.56128
+      ],
+      [
+        -117.30568,
+        48.54136
+      ],
+      [
+        -117.30416,
+        48.52642
+      ],
+      [
+        -117.27814,
+        48.51156
+      ],
+      [
+        -117.26901,
+        48.49927
+      ],
+      [
+        -117.27547,
+        48.47941
+      ],
+      [
+        -117.32129,
+        48.46817
+      ],
+      [
+        -117.32674,
+        48.45482
+      ],
+      [
+        -117.31305,
+        48.41109
+      ],
+      [
+        -117.31475,
+        48.39213
+      ],
+      [
+        -117.30487,
+        48.3748
+      ],
+      [
+        -117.30397,
+        48.3352
+      ],
+      [
+        -117.25776,
+        48.26623
+      ],
+      [
+        -117.22261,
+        48.23526
+      ],
+      [
+        -117.07406,
+        48.21549
+      ],
+      [
+        -117.04614,
+        48.18405
+      ],
+      [
+        -116.88998,
+        48.18043
+      ],
+      [
+        -116.83823,
+        48.14795
+      ],
+      [
+        -116.74758,
+        48.17286
+      ],
+      [
+        -116.72342,
+        48.18912
+      ],
+      [
+        -116.71951,
+        48.21326
+      ],
+      [
+        -116.69839,
+        48.23374
+      ],
+      [
+        -116.68975,
+        48.25171
+      ],
+      [
+        -116.66948,
+        48.25912
+      ],
+      [
+        -116.6062,
+        48.25132
+      ],
+      [
+        -116.54772,
+        48.27314
+      ],
+      [
+        -116.55338,
+        48.27609
+      ],
+      [
+        -116.55311,
+        48.28813
+      ],
+      [
+        -116.54616,
+        48.30222
+      ],
+      [
+        -116.54319,
+        48.38393
+      ],
+      [
+        -116.52571,
+        48.40836
+      ],
+      [
+        -116.497,
+        48.42359
+      ],
+      [
+        -116.4433,
+        48.51856
+      ],
+      [
+        -116.39402,
+        48.56507
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Metaline Falls",
+      "model": "town-blocks",
+      "at": 0.2102984619461827,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bonners Ferry",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Metaline Falls",
+      "at": 0.09991980753809142,
+      "landmark": "Metaline Falls"
+    },
+    {
+      "name": "Ione",
+      "at": 0.18291900561347232,
+      "landmark": ""
+    },
+    {
+      "name": "Blueslide",
+      "at": 0.29190056134723336,
+      "landmark": ""
+    },
+    {
+      "name": "Jared",
+      "at": 0.3662389735364876,
+      "landmark": ""
+    },
+    {
+      "name": "Cusick",
+      "at": 0.4474739374498797,
+      "landmark": ""
+    },
+    {
+      "name": "Newport",
+      "at": 0.5857257417802727,
+      "landmark": ""
+    },
+    {
+      "name": "Laclede",
+      "at": 0.7072975140336808,
+      "landmark": ""
+    },
+    {
+      "name": "Dover",
+      "at": 0.7886126704089815,
+      "landmark": ""
+    },
+    {
+      "name": "Colburn",
+      "at": 0.8906174819566961,
+      "landmark": ""
+    },
+    {
+      "name": "Naples",
+      "at": 0.9998396150761829,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/international-selkirk-loop-2486.json",
+    "public/data/strips/international-selkirk-loop-2486.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

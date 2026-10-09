@@ -1,0 +1,440 @@
+{
+  "authored": false,
+  "bywayId": "blue-ridge-parkway-2280",
+  "title": "Blue Ridge Parkway",
+  "longitude": -79.8582,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -78.85818,
+        38.03123
+      ],
+      [
+        -79.00536,
+        37.88615
+      ],
+      [
+        -79.11752,
+        37.90118
+      ],
+      [
+        -79.1593,
+        37.8803
+      ],
+      [
+        -79.14444,
+        37.85608
+      ],
+      [
+        -79.18655,
+        37.80299
+      ],
+      [
+        -79.27008,
+        37.78774
+      ],
+      [
+        -79.33406,
+        37.6827
+      ],
+      [
+        -79.31874,
+        37.60084
+      ],
+      [
+        -79.35338,
+        37.55689
+      ],
+      [
+        -79.45704,
+        37.55962
+      ],
+      [
+        -79.60857,
+        37.44557
+      ],
+      [
+        -79.67137,
+        37.48452
+      ],
+      [
+        -79.83632,
+        37.39766
+      ],
+      [
+        -79.85782,
+        37.26249
+      ],
+      [
+        -80.08232,
+        37.18005
+      ],
+      [
+        -80.12917,
+        37.11976
+      ],
+      [
+        -80.10435,
+        37.02618
+      ],
+      [
+        -80.1566,
+        36.95622
+      ],
+      [
+        -80.39172,
+        36.79314
+      ],
+      [
+        -80.41542,
+        36.72019
+      ],
+      [
+        -80.49005,
+        36.65394
+      ],
+      [
+        -80.6855,
+        36.66822
+      ],
+      [
+        -80.90731,
+        36.56978
+      ],
+      [
+        -81.04359,
+        36.4304
+      ],
+      [
+        -81.16654,
+        36.43793
+      ],
+      [
+        -81.2038,
+        36.38836
+      ],
+      [
+        -81.36137,
+        36.3665
+      ],
+      [
+        -81.3785,
+        36.27673
+      ],
+      [
+        -81.41403,
+        36.29475
+      ],
+      [
+        -81.50454,
+        36.22095
+      ],
+      [
+        -81.59597,
+        36.21735
+      ],
+      [
+        -81.64189,
+        36.13683
+      ],
+      [
+        -81.67245,
+        36.15686
+      ],
+      [
+        -81.77043,
+        36.12856
+      ],
+      [
+        -81.89582,
+        35.98552
+      ],
+      [
+        -81.95893,
+        35.96011
+      ],
+      [
+        -81.9858,
+        35.8806
+      ],
+      [
+        -82.10012,
+        35.85268
+      ],
+      [
+        -82.21162,
+        35.7225
+      ],
+      [
+        -82.26338,
+        35.70156
+      ],
+      [
+        -82.33537,
+        35.74954
+      ],
+      [
+        -82.38631,
+        35.68229
+      ],
+      [
+        -82.47518,
+        35.6671
+      ],
+      [
+        -82.49668,
+        35.63263
+      ],
+      [
+        -82.47603,
+        35.58138
+      ],
+      [
+        -82.513,
+        35.52598
+      ],
+      [
+        -82.64445,
+        35.44857
+      ],
+      [
+        -82.71566,
+        35.44999
+      ],
+      [
+        -82.83044,
+        35.31553
+      ],
+      [
+        -82.9402,
+        35.30087
+      ],
+      [
+        -83.04268,
+        35.39677
+      ],
+      [
+        -83.03392,
+        35.43477
+      ],
+      [
+        -83.14288,
+        35.4562
+      ],
+      [
+        -83.15914,
+        35.51261
+      ],
+      [
+        -83.30082,
+        35.50556
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Mabry Mill",
+      "model": "gristmill",
+      "at": 0.37489679896403566,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Linn Cove Viaduct",
+      "model": "viaduct",
+      "at": 0.6489070482569538,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Linn Cove Viaduct",
+      "model": "ridge",
+      "at": 0.6489070482569538,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Craggy Gardens",
+      "model": "bald",
+      "at": 0.777880341197754,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Craggy Gardens",
+      "model": "ridge",
+      "at": 0.777880341197754,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Waynesboro",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Meadows of Dan",
+      "at": 0.3759113195480708,
+      "landmark": ""
+    },
+    {
+      "name": "Blowing Rock",
+      "at": 0.6199317842677468,
+      "landmark": ""
+    },
+    {
+      "name": "Little Switzerland",
+      "at": 0.7123641014709017,
+      "landmark": ""
+    },
+    {
+      "name": "Asheville",
+      "at": 0.8118311660626731,
+      "landmark": ""
+    },
+    {
+      "name": "Cherokee",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/blue-ridge-parkway-2280.json",
+    "public/data/strips/blue-ridge-parkway-2280.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

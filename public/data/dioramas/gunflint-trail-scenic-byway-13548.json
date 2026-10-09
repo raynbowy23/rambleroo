@@ -1,0 +1,421 @@
+{
+  "authored": false,
+  "bywayId": "gunflint-trail-scenic-byway-13548",
+  "title": "Gunflint Trail Scenic Byway",
+  "longitude": -90.4414,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -90.32442,
+        47.75446
+      ],
+      [
+        -90.32594,
+        47.75902
+      ],
+      [
+        -90.34062,
+        47.75933
+      ],
+      [
+        -90.34276,
+        47.7617
+      ],
+      [
+        -90.31826,
+        47.77372
+      ],
+      [
+        -90.31703,
+        47.78116
+      ],
+      [
+        -90.32864,
+        47.78508
+      ],
+      [
+        -90.32847,
+        47.78917
+      ],
+      [
+        -90.30287,
+        47.8092
+      ],
+      [
+        -90.28997,
+        47.84119
+      ],
+      [
+        -90.25661,
+        47.86651
+      ],
+      [
+        -90.25985,
+        47.8796
+      ],
+      [
+        -90.25677,
+        47.90233
+      ],
+      [
+        -90.27107,
+        47.91067
+      ],
+      [
+        -90.29607,
+        47.9187
+      ],
+      [
+        -90.3091,
+        47.92912
+      ],
+      [
+        -90.32632,
+        47.93731
+      ],
+      [
+        -90.3293,
+        47.94227
+      ],
+      [
+        -90.32684,
+        47.94816
+      ],
+      [
+        -90.3283,
+        47.95805
+      ],
+      [
+        -90.32006,
+        47.96816
+      ],
+      [
+        -90.34331,
+        47.98174
+      ],
+      [
+        -90.35616,
+        47.99872
+      ],
+      [
+        -90.37207,
+        48.01161
+      ],
+      [
+        -90.37502,
+        48.01871
+      ],
+      [
+        -90.45932,
+        48.04144
+      ],
+      [
+        -90.48144,
+        48.04406
+      ],
+      [
+        -90.48771,
+        48.04885
+      ],
+      [
+        -90.52023,
+        48.05531
+      ],
+      [
+        -90.54677,
+        48.0685
+      ],
+      [
+        -90.56843,
+        48.07329
+      ],
+      [
+        -90.61664,
+        48.07509
+      ],
+      [
+        -90.65303,
+        48.0681
+      ],
+      [
+        -90.7052,
+        48.06998
+      ],
+      [
+        -90.72657,
+        48.06799
+      ],
+      [
+        -90.75412,
+        48.07125
+      ],
+      [
+        -90.7625,
+        48.07772
+      ],
+      [
+        -90.76301,
+        48.08121
+      ],
+      [
+        -90.77459,
+        48.08429
+      ],
+      [
+        -90.81719,
+        48.08292
+      ],
+      [
+        -90.82199,
+        48.08495
+      ],
+      [
+        -90.82727,
+        48.09361
+      ],
+      [
+        -90.82812,
+        48.10486
+      ],
+      [
+        -90.83584,
+        48.118
+      ],
+      [
+        -90.84038,
+        48.12067
+      ],
+      [
+        -90.85275,
+        48.11861
+      ],
+      [
+        -90.86392,
+        48.12481
+      ],
+      [
+        -90.85721,
+        48.13841
+      ],
+      [
+        -90.85975,
+        48.14514
+      ],
+      [
+        -90.86608,
+        48.14968
+      ],
+      [
+        -90.86928,
+        48.16281
+      ],
+      [
+        -90.87852,
+        48.16407
+      ],
+      [
+        -90.88911,
+        48.15608
+      ],
+      [
+        -90.89416,
+        48.16067
+      ],
+      [
+        -90.89703,
+        48.15833
+      ],
+      [
+        -90.89304,
+        48.15887
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Hungry Jack Lake",
+      "model": "alpine-lake",
+      "at": 0.49687344789373805,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Saganaga Lake",
+      "model": "alpine-lake",
+      "at": 0.9677342663996417,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Grand Marais",
+      "at": 0.0008976660682227244,
+      "landmark": ""
+    },
+    {
+      "name": "Hungry Jack Lake",
+      "at": 0.49730700179533216,
+      "landmark": ""
+    },
+    {
+      "name": "Mayhew Lake",
+      "at": 0.6263913824057451,
+      "landmark": ""
+    },
+    {
+      "name": "Loon Lake",
+      "at": 0.714362657091562,
+      "landmark": ""
+    },
+    {
+      "name": "Cross River",
+      "at": 0.7951526032315979,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/gunflint-trail-scenic-byway-13548.json",
+    "public/data/strips/gunflint-trail-scenic-byway-13548.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

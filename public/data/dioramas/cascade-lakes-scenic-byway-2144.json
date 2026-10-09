@@ -1,0 +1,409 @@
+{
+  "authored": false,
+  "bywayId": "cascade-lakes-scenic-byway-2144",
+  "title": "Cascade Lakes Scenic Byway",
+  "longitude": -121.7712,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -121.36521,
+        44.02175
+      ],
+      [
+        -121.38325,
+        44.01609
+      ],
+      [
+        -121.39201,
+        43.99869
+      ],
+      [
+        -121.41567,
+        43.99768
+      ],
+      [
+        -121.43454,
+        43.98818
+      ],
+      [
+        -121.46261,
+        43.98045
+      ],
+      [
+        -121.4818,
+        43.97986
+      ],
+      [
+        -121.49487,
+        43.98444
+      ],
+      [
+        -121.51411,
+        43.98094
+      ],
+      [
+        -121.56471,
+        43.9885
+      ],
+      [
+        -121.58643,
+        43.98013
+      ],
+      [
+        -121.60178,
+        43.98386
+      ],
+      [
+        -121.61953,
+        43.98246
+      ],
+      [
+        -121.6406,
+        43.98476
+      ],
+      [
+        -121.65559,
+        43.99133
+      ],
+      [
+        -121.67083,
+        44.00784
+      ],
+      [
+        -121.6908,
+        44.0193
+      ],
+      [
+        -121.70171,
+        44.02086
+      ],
+      [
+        -121.7194,
+        44.01843
+      ],
+      [
+        -121.72555,
+        44.02597
+      ],
+      [
+        -121.7426,
+        44.0328
+      ],
+      [
+        -121.752,
+        44.03081
+      ],
+      [
+        -121.7661,
+        44.03655
+      ],
+      [
+        -121.80998,
+        43.97884
+      ],
+      [
+        -121.80885,
+        43.96513
+      ],
+      [
+        -121.78663,
+        43.93841
+      ],
+      [
+        -121.78727,
+        43.92964
+      ],
+      [
+        -121.7803,
+        43.9094
+      ],
+      [
+        -121.76703,
+        43.89222
+      ],
+      [
+        -121.78477,
+        43.86022
+      ],
+      [
+        -121.7801,
+        43.84829
+      ],
+      [
+        -121.78031,
+        43.84116
+      ],
+      [
+        -121.78443,
+        43.83423
+      ],
+      [
+        -121.83993,
+        43.78284
+      ],
+      [
+        -121.82956,
+        43.73218
+      ],
+      [
+        -121.83222,
+        43.70356
+      ],
+      [
+        -121.82883,
+        43.67984
+      ],
+      [
+        -121.8157,
+        43.66372
+      ],
+      [
+        -121.80252,
+        43.66199
+      ],
+      [
+        -121.79909,
+        43.65632
+      ],
+      [
+        -121.80719,
+        43.64667
+      ],
+      [
+        -121.8087,
+        43.6374
+      ],
+      [
+        -121.81521,
+        43.62773
+      ],
+      [
+        -121.81803,
+        43.60376
+      ],
+      [
+        -121.82981,
+        43.59189
+      ],
+      [
+        -121.84915,
+        43.58373
+      ],
+      [
+        -121.85707,
+        43.57225
+      ],
+      [
+        -121.8574,
+        43.55285
+      ],
+      [
+        -121.8655,
+        43.53544
+      ],
+      [
+        -121.8581,
+        43.52582
+      ],
+      [
+        -121.85585,
+        43.5055
+      ],
+      [
+        -121.85129,
+        43.49926
+      ],
+      [
+        -121.86811,
+        43.49701
+      ],
+      [
+        -121.88283,
+        43.49013
+      ],
+      [
+        -121.90502,
+        43.48946
+      ],
+      [
+        -121.9086,
+        43.4872
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Sparks Lake",
+      "model": "snow-peak",
+      "at": 0.3179203881761567,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Devils Lake",
+      "model": "alpine-lake",
+      "at": 0.338662141513942,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "conifer",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Seventh Mountain",
+      "at": 0.02423357664233572,
+      "landmark": ""
+    },
+    {
+      "name": "Mount Bachelor ski area",
+      "at": 0.26175182481751824,
+      "landmark": ""
+    },
+    {
+      "name": "Devils Lake",
+      "at": 0.33824817518248174,
+      "landmark": ""
+    },
+    {
+      "name": "Lava Lake",
+      "at": 0.47605839416058393,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/cascade-lakes-scenic-byway-2144.json",
+    "public/data/strips/cascade-lakes-scenic-byway-2144.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

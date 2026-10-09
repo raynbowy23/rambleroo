@@ -1,0 +1,362 @@
+{
+  "authored": false,
+  "bywayId": "baltimore-s-historic-charles-street-2271",
+  "title": "Baltimore's Historic Charles Street",
+  "longitude": -76.6215,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -76.61378,
+        39.26735
+      ],
+      [
+        -76.61475,
+        39.2825
+      ],
+      [
+        -76.61462,
+        39.28359
+      ],
+      [
+        -76.61511,
+        39.28878
+      ],
+      [
+        -76.61547,
+        39.29407
+      ],
+      [
+        -76.61559,
+        39.29636
+      ],
+      [
+        -76.61546,
+        39.29637
+      ],
+      [
+        -76.6155,
+        39.29734
+      ],
+      [
+        -76.61537,
+        39.29754
+      ],
+      [
+        -76.61548,
+        39.29771
+      ],
+      [
+        -76.61558,
+        39.29856
+      ],
+      [
+        -76.61573,
+        39.2987
+      ],
+      [
+        -76.6158,
+        39.29965
+      ],
+      [
+        -76.61739,
+        39.3245
+      ],
+      [
+        -76.61774,
+        39.32893
+      ],
+      [
+        -76.61791,
+        39.33265
+      ],
+      [
+        -76.61847,
+        39.34064
+      ],
+      [
+        -76.61844,
+        39.34124
+      ],
+      [
+        -76.61999,
+        39.34203
+      ],
+      [
+        -76.6218,
+        39.34347
+      ],
+      [
+        -76.6231,
+        39.35108
+      ],
+      [
+        -76.62433,
+        39.357
+      ],
+      [
+        -76.62747,
+        39.38235
+      ],
+      [
+        -76.62703,
+        39.38328
+      ],
+      [
+        -76.62623,
+        39.3845
+      ],
+      [
+        -76.62595,
+        39.38484
+      ],
+      [
+        -76.62435,
+        39.38629
+      ],
+      [
+        -76.62411,
+        39.38683
+      ],
+      [
+        -76.62405,
+        39.38731
+      ],
+      [
+        -76.6243,
+        39.38792
+      ],
+      [
+        -76.62472,
+        39.38836
+      ],
+      [
+        -76.62544,
+        39.38868
+      ],
+      [
+        -76.62736,
+        39.38928
+      ],
+      [
+        -76.62794,
+        39.38972
+      ],
+      [
+        -76.62824,
+        39.39031
+      ],
+      [
+        -76.62813,
+        39.39329
+      ],
+      [
+        -76.62802,
+        39.39395
+      ],
+      [
+        -76.62775,
+        39.39458
+      ],
+      [
+        -76.62673,
+        39.39589
+      ],
+      [
+        -76.62648,
+        39.39655
+      ],
+      [
+        -76.62605,
+        39.39856
+      ],
+      [
+        -76.62607,
+        39.39903
+      ],
+      [
+        -76.62618,
+        39.39935
+      ],
+      [
+        -76.6266,
+        39.39994
+      ],
+      [
+        -76.6282,
+        39.40076
+      ],
+      [
+        -76.62967,
+        39.40218
+      ],
+      [
+        -76.63137,
+        39.40303
+      ],
+      [
+        -76.63187,
+        39.40338
+      ],
+      [
+        -76.63242,
+        39.40404
+      ],
+      [
+        -76.63267,
+        39.40481
+      ],
+      [
+        -76.63257,
+        39.40564
+      ],
+      [
+        -76.63125,
+        39.40898
+      ],
+      [
+        -76.63095,
+        39.41007
+      ],
+      [
+        -76.63028,
+        39.41344
+      ],
+      [
+        -76.62993,
+        39.41466
+      ],
+      [
+        -76.62914,
+        39.41683
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Washington Monument, Mount Vernon Place",
+      "model": "steeple-town",
+      "at": 0.1946500417023632,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Charles Village",
+      "model": "town-blocks",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Mount Vernon",
+      "at": 0.20185185185185187,
+      "landmark": ""
+    },
+    {
+      "name": "Charles Village",
+      "at": 0.36481481481481476,
+      "landmark": "Charles Village"
+    },
+    {
+      "name": "Homewood Museum",
+      "at": 0.399074074074074,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/baltimore-s-historic-charles-street-2271.json",
+    "public/data/strips/baltimore-s-historic-charles-street-2271.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

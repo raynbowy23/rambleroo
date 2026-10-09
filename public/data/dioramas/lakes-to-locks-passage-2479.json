@@ -1,0 +1,391 @@
+{
+  "authored": false,
+  "bywayId": "lakes-to-locks-passage-2479",
+  "title": "Lakes to Locks Passage",
+  "longitude": -73.5786,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -73.67381,
+        42.78866
+      ],
+      [
+        -73.66517,
+        42.81617
+      ],
+      [
+        -73.68763,
+        42.9073
+      ],
+      [
+        -73.59897,
+        43.01221
+      ],
+      [
+        -73.5776,
+        43.1092
+      ],
+      [
+        -73.58831,
+        43.12734
+      ],
+      [
+        -73.57493,
+        43.15479
+      ],
+      [
+        -73.57722,
+        43.21332
+      ],
+      [
+        -73.59208,
+        43.2405
+      ],
+      [
+        -73.57998,
+        43.26282
+      ],
+      [
+        -73.58609,
+        43.30161
+      ],
+      [
+        -73.49417,
+        43.38727
+      ],
+      [
+        -73.48546,
+        43.42155
+      ],
+      [
+        -73.4518,
+        43.44566
+      ],
+      [
+        -73.4035,
+        43.55412
+      ],
+      [
+        -73.40792,
+        43.56681
+      ],
+      [
+        -73.43951,
+        43.57711
+      ],
+      [
+        -73.43154,
+        43.60411
+      ],
+      [
+        -73.44677,
+        43.63334
+      ],
+      [
+        -73.40967,
+        43.67618
+      ],
+      [
+        -73.43521,
+        43.70394
+      ],
+      [
+        -73.39886,
+        43.74653
+      ],
+      [
+        -73.41512,
+        43.78221
+      ],
+      [
+        -73.39928,
+        43.83041
+      ],
+      [
+        -73.44947,
+        43.87955
+      ],
+      [
+        -73.41769,
+        43.92949
+      ],
+      [
+        -73.41815,
+        43.94888
+      ],
+      [
+        -73.44845,
+        43.98008
+      ],
+      [
+        -73.46256,
+        44.03358
+      ],
+      [
+        -73.4583,
+        44.08485
+      ],
+      [
+        -73.43273,
+        44.11439
+      ],
+      [
+        -73.42349,
+        44.17028
+      ],
+      [
+        -73.46272,
+        44.22748
+      ],
+      [
+        -73.40117,
+        44.26638
+      ],
+      [
+        -73.40225,
+        44.30416
+      ],
+      [
+        -73.34913,
+        44.31915
+      ],
+      [
+        -73.36486,
+        44.35181
+      ],
+      [
+        -73.46543,
+        44.40316
+      ],
+      [
+        -73.489,
+        44.44366
+      ],
+      [
+        -73.47947,
+        44.50801
+      ],
+      [
+        -73.44839,
+        44.54126
+      ],
+      [
+        -73.45028,
+        44.57459
+      ],
+      [
+        -73.43967,
+        44.5829
+      ],
+      [
+        -73.45139,
+        44.70943
+      ],
+      [
+        -73.4258,
+        44.73922
+      ],
+      [
+        -73.42449,
+        44.77705
+      ],
+      [
+        -73.39037,
+        44.78638
+      ],
+      [
+        -73.40992,
+        44.83767
+      ],
+      [
+        -73.37828,
+        44.88622
+      ],
+      [
+        -73.39026,
+        44.89761
+      ],
+      [
+        -73.38018,
+        44.912
+      ],
+      [
+        -73.41108,
+        44.94165
+      ],
+      [
+        -73.3845,
+        44.94218
+      ],
+      [
+        -73.37221,
+        44.95996
+      ],
+      [
+        -73.36293,
+        44.98264
+      ],
+      [
+        -73.37089,
+        45.01046
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Whitehall",
+      "model": "dam",
+      "at": 0.32395700644712383,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Whitehall",
+      "model": "town-blocks",
+      "at": 0.32395700644712383,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Fort Ticonderoga",
+      "model": "alpine-lake",
+      "at": 0.45334729048671274,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rouses Point",
+      "model": "town-blocks",
+      "at": 0.991315760098295,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Waterford",
+      "at": 0.0016375545851528006,
+      "landmark": ""
+    },
+    {
+      "name": "Stillwater",
+      "at": 0.06550218340611358,
+      "landmark": ""
+    },
+    {
+      "name": "Fort Edward",
+      "at": 0.17980349344978164,
+      "landmark": ""
+    },
+    {
+      "name": "Fort Ann",
+      "at": 0.2653930131004366,
+      "landmark": ""
+    },
+    {
+      "name": "Whitehall",
+      "at": 0.32395700644712383,
+      "landmark": "Whitehall"
+    },
+    {
+      "name": "Clemons",
+      "at": 0.36435589519650646,
+      "landmark": ""
+    },
+    {
+      "name": "Wright",
+      "at": 0.4407205240174672,
+      "landmark": ""
+    },
+    {
+      "name": "Crown Point",
+      "at": 0.5097161572052402,
+      "landmark": ""
+    },
+    {
+      "name": "Westport",
+      "at": 0.6054585152838428,
+      "landmark": ""
+    },
+    {
+      "name": "Willsboro",
+      "at": 0.7009825327510917,
+      "landmark": ""
+    },
+    {
+      "name": "Port Kent",
+      "at": 0.7887554585152838,
+      "landmark": ""
+    },
+    {
+      "name": "Cumberland Head",
+      "at": 0.8661572052401747,
+      "landmark": ""
+    },
+    {
+      "name": "Rouses Point",
+      "at": 0.9911026200873363,
+      "landmark": "Rouses Point"
+    }
+  ],
+  "sources": [
+    "content/stories/lakes-to-locks-passage-2479.json",
+    "public/data/strips/lakes-to-locks-passage-2479.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

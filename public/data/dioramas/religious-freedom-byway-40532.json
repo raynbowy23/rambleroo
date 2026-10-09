@@ -1,0 +1,381 @@
+{
+  "authored": false,
+  "bywayId": "religious-freedom-byway-40532",
+  "title": "Religious Freedom Byway",
+  "longitude": -77.2541,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -76.99957,
+        38.55629
+      ],
+      [
+        -77.01487,
+        38.54941
+      ],
+      [
+        -77.0116,
+        38.53176
+      ],
+      [
+        -77.01781,
+        38.51559
+      ],
+      [
+        -77.05835,
+        38.50298
+      ],
+      [
+        -77.06836,
+        38.49028
+      ],
+      [
+        -77.08624,
+        38.48147
+      ],
+      [
+        -77.11994,
+        38.4861
+      ],
+      [
+        -77.13695,
+        38.48162
+      ],
+      [
+        -77.16051,
+        38.4911
+      ],
+      [
+        -77.15547,
+        38.47325
+      ],
+      [
+        -77.19907,
+        38.44036
+      ],
+      [
+        -77.1997,
+        38.42575
+      ],
+      [
+        -77.19615,
+        38.41933
+      ],
+      [
+        -77.17651,
+        38.41862
+      ],
+      [
+        -77.15784,
+        38.40921
+      ],
+      [
+        -77.15482,
+        38.39451
+      ],
+      [
+        -77.20554,
+        38.37695
+      ],
+      [
+        -77.22325,
+        38.38086
+      ],
+      [
+        -77.2552,
+        38.41153
+      ],
+      [
+        -77.24861,
+        38.44849
+      ],
+      [
+        -77.25673,
+        38.488
+      ],
+      [
+        -77.24455,
+        38.51353
+      ],
+      [
+        -77.23311,
+        38.52014
+      ],
+      [
+        -77.22821,
+        38.53238
+      ],
+      [
+        -77.21056,
+        38.53124
+      ],
+      [
+        -77.17954,
+        38.54404
+      ],
+      [
+        -77.15467,
+        38.57464
+      ],
+      [
+        -77.11894,
+        38.58397
+      ],
+      [
+        -77.10136,
+        38.57324
+      ],
+      [
+        -77.07796,
+        38.54657
+      ],
+      [
+        -77.03949,
+        38.54949
+      ],
+      [
+        -77.03606,
+        38.53372
+      ],
+      [
+        -77.01845,
+        38.51377
+      ],
+      [
+        -77.01455,
+        38.48402
+      ],
+      [
+        -77.02617,
+        38.46635
+      ],
+      [
+        -77.00328,
+        38.4662
+      ],
+      [
+        -76.99139,
+        38.45848
+      ],
+      [
+        -76.98043,
+        38.43928
+      ],
+      [
+        -76.99236,
+        38.40404
+      ],
+      [
+        -76.98541,
+        38.39225
+      ],
+      [
+        -76.95844,
+        38.39243
+      ],
+      [
+        -76.9533,
+        38.40747
+      ],
+      [
+        -76.91444,
+        38.42045
+      ],
+      [
+        -76.8876,
+        38.40905
+      ],
+      [
+        -76.86349,
+        38.41174
+      ],
+      [
+        -76.83583,
+        38.40394
+      ],
+      [
+        -76.8118,
+        38.3747
+      ],
+      [
+        -76.78244,
+        38.36848
+      ],
+      [
+        -76.80817,
+        38.34707
+      ],
+      [
+        -76.8097,
+        38.31682
+      ],
+      [
+        -76.76908,
+        38.28941
+      ],
+      [
+        -76.77755,
+        38.27867
+      ],
+      [
+        -76.76444,
+        38.26242
+      ],
+      [
+        -76.77103,
+        38.24596
+      ],
+      [
+        -76.75137,
+        38.22512
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Port Tobacco",
+      "model": "town-blocks",
+      "at": 0.592876506644037,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "St. Clement's Island",
+      "model": "steeple-town",
+      "at": 0.592876506644037,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Illustrative position in driving order."
+    },
+    {
+      "name": "Historic St. Mary's City",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "lighthouse-on-rock",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Welcome",
+      "at": 0.09509269356597601,
+      "landmark": ""
+    },
+    {
+      "name": "Nanjemoy",
+      "at": 0.18647764449291168,
+      "landmark": ""
+    },
+    {
+      "name": "Chicamuxen",
+      "at": 0.42290076335877863,
+      "landmark": ""
+    },
+    {
+      "name": "Potomac Heights",
+      "at": 0.49367502726281354,
+      "landmark": ""
+    },
+    {
+      "name": "Port Tobacco Village",
+      "at": 0.5931297709923664,
+      "landmark": ""
+    },
+    {
+      "name": "Faulkner",
+      "at": 0.6715376226826608,
+      "landmark": ""
+    },
+    {
+      "name": "Newburg",
+      "at": 0.7260336622156,
+      "landmark": ""
+    },
+    {
+      "name": "Chaptico",
+      "at": 0.8636859323882224,
+      "landmark": ""
+    },
+    {
+      "name": "Rock Point",
+      "at": 0.921479657172313,
+      "landmark": ""
+    },
+    {
+      "name": "Bushwood",
+      "at": 0.9327153762268265,
+      "landmark": ""
+    },
+    {
+      "name": "Coltons Point",
+      "at": 0.999236641221374,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/religious-freedom-byway-40532.json",
+    "public/data/strips/religious-freedom-byway-40532.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

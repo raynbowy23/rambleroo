@@ -1,0 +1,457 @@
+{
+  "authored": false,
+  "bywayId": "door-county-coastal-byway-81450",
+  "title": "Door County Coastal Byway",
+  "longitude": -87.1981,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -87.27198,
+        45.06166
+      ],
+      [
+        -87.2547,
+        45.07479
+      ],
+      [
+        -87.2483,
+        45.08777
+      ],
+      [
+        -87.24543,
+        45.10934
+      ],
+      [
+        -87.24539,
+        45.11855
+      ],
+      [
+        -87.24302,
+        45.12364
+      ],
+      [
+        -87.24674,
+        45.1262
+      ],
+      [
+        -87.24655,
+        45.12782
+      ],
+      [
+        -87.23887,
+        45.12563
+      ],
+      [
+        -87.23043,
+        45.12506
+      ],
+      [
+        -87.22932,
+        45.12696
+      ],
+      [
+        -87.19402,
+        45.14064
+      ],
+      [
+        -87.19099,
+        45.14233
+      ],
+      [
+        -87.18896,
+        45.14552
+      ],
+      [
+        -87.1699,
+        45.15488
+      ],
+      [
+        -87.16891,
+        45.171
+      ],
+      [
+        -87.17045,
+        45.1705
+      ],
+      [
+        -87.17143,
+        45.16942
+      ],
+      [
+        -87.17216,
+        45.15686
+      ],
+      [
+        -87.17038,
+        45.15534
+      ],
+      [
+        -87.16452,
+        45.171
+      ],
+      [
+        -87.15357,
+        45.17809
+      ],
+      [
+        -87.13707,
+        45.18539
+      ],
+      [
+        -87.12394,
+        45.18648
+      ],
+      [
+        -87.12214,
+        45.18482
+      ],
+      [
+        -87.12298,
+        45.17775
+      ],
+      [
+        -87.13257,
+        45.16965
+      ],
+      [
+        -87.13272,
+        45.09197
+      ],
+      [
+        -87.1217,
+        45.07558
+      ],
+      [
+        -87.12148,
+        45.07241
+      ],
+      [
+        -87.12449,
+        45.06902
+      ],
+      [
+        -87.12344,
+        45.06479
+      ],
+      [
+        -87.12544,
+        45.05628
+      ],
+      [
+        -87.13085,
+        45.0523
+      ],
+      [
+        -87.13206,
+        45.04805
+      ],
+      [
+        -87.14651,
+        45.03654
+      ],
+      [
+        -87.14672,
+        45.02053
+      ],
+      [
+        -87.15102,
+        45.0118
+      ],
+      [
+        -87.16606,
+        45.00469
+      ],
+      [
+        -87.17176,
+        44.99749
+      ],
+      [
+        -87.17211,
+        44.99327
+      ],
+      [
+        -87.17422,
+        44.98883
+      ],
+      [
+        -87.18248,
+        44.9823
+      ],
+      [
+        -87.18901,
+        44.97348
+      ],
+      [
+        -87.19431,
+        44.97204
+      ],
+      [
+        -87.21043,
+        44.96097
+      ],
+      [
+        -87.21727,
+        44.95777
+      ],
+      [
+        -87.24264,
+        44.93795
+      ],
+      [
+        -87.25392,
+        44.92633
+      ],
+      [
+        -87.26233,
+        44.91028
+      ],
+      [
+        -87.26517,
+        44.90836
+      ],
+      [
+        -87.27447,
+        44.90741
+      ],
+      [
+        -87.30754,
+        44.87298
+      ],
+      [
+        -87.31008,
+        44.87169
+      ],
+      [
+        -87.3364,
+        44.87135
+      ],
+      [
+        -87.33694,
+        44.96592
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Peninsula State Park",
+      "model": "ledge",
+      "at": 0.17209405516768644,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ephraim",
+      "model": "harbor",
+      "at": 0.2465420510312908,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ephraim",
+      "model": "town-blocks",
+      "at": 0.2465420510312908,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cana Island Lighthouse",
+      "model": "lighthouse-on-rock",
+      "at": 0.4780361046673632,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cave Point County Park",
+      "model": "ledge",
+      "at": 0.6751540163469176,
+      "offset": "roadside",
+      "notes": "Story moment 4; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "orchard",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Egg Harbor",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Fish Creek",
+      "at": 0.103265306122449,
+      "landmark": ""
+    },
+    {
+      "name": "Ephraim",
+      "at": 0.2416326530612246,
+      "landmark": "Ephraim"
+    },
+    {
+      "name": "Sister Bay",
+      "at": 0.3136734693877551,
+      "landmark": ""
+    },
+    {
+      "name": "Ellison Bay",
+      "at": 0.31395508041577125,
+      "landmark": ""
+    },
+    {
+      "name": "Gills Rock",
+      "at": 0.31395508041577125,
+      "landmark": ""
+    },
+    {
+      "name": "Baileys Harbor",
+      "at": 0.493265306122449,
+      "landmark": ""
+    },
+    {
+      "name": "Jacksonport",
+      "at": 0.6383673469387756,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/door-county-coastal-byway-81450.json",
+    "public/data/strips/door-county-coastal-byway-81450.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

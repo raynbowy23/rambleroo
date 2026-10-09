@@ -1,0 +1,368 @@
+{
+  "authored": false,
+  "bywayId": "a1a-scenic-and-historic-coastal-byway-2477",
+  "title": "A1A Scenic & Historic Coastal Byway",
+  "longitude": -81.2673,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.38844,
+        30.25594
+      ],
+      [
+        -81.38761,
+        30.24218
+      ],
+      [
+        -81.38581,
+        30.23478
+      ],
+      [
+        -81.38548,
+        30.2274
+      ],
+      [
+        -81.38093,
+        30.21458
+      ],
+      [
+        -81.38015,
+        30.20324
+      ],
+      [
+        -81.38074,
+        30.19513
+      ],
+      [
+        -81.37853,
+        30.18145
+      ],
+      [
+        -81.37309,
+        30.17153
+      ],
+      [
+        -81.36687,
+        30.16692
+      ],
+      [
+        -81.36214,
+        30.16202
+      ],
+      [
+        -81.35625,
+        30.15853
+      ],
+      [
+        -81.33548,
+        30.07565
+      ],
+      [
+        -81.3294,
+        30.04651
+      ],
+      [
+        -81.31069,
+        29.973
+      ],
+      [
+        -81.3107,
+        29.96877
+      ],
+      [
+        -81.3084,
+        29.96499
+      ],
+      [
+        -81.29281,
+        29.91853
+      ],
+      [
+        -81.30355,
+        29.91738
+      ],
+      [
+        -81.3127,
+        29.91095
+      ],
+      [
+        -81.32035,
+        29.90949
+      ],
+      [
+        -81.31381,
+        29.89833
+      ],
+      [
+        -81.3112,
+        29.8958
+      ],
+      [
+        -81.31102,
+        29.89276
+      ],
+      [
+        -81.30467,
+        29.89298
+      ],
+      [
+        -81.29207,
+        29.88879
+      ],
+      [
+        -81.28981,
+        29.8836
+      ],
+      [
+        -81.28652,
+        29.8803
+      ],
+      [
+        -81.28157,
+        29.86078
+      ],
+      [
+        -81.27047,
+        29.86233
+      ],
+      [
+        -81.2675,
+        29.86052
+      ],
+      [
+        -81.26735,
+        29.83928
+      ],
+      [
+        -81.27182,
+        29.82584
+      ],
+      [
+        -81.26414,
+        29.79916
+      ],
+      [
+        -81.25569,
+        29.77354
+      ],
+      [
+        -81.23619,
+        29.72251
+      ],
+      [
+        -81.22987,
+        29.71161
+      ],
+      [
+        -81.2234,
+        29.68981
+      ],
+      [
+        -81.22161,
+        29.68118
+      ],
+      [
+        -81.2145,
+        29.67266
+      ],
+      [
+        -81.20716,
+        29.65426
+      ],
+      [
+        -81.20727,
+        29.64864
+      ],
+      [
+        -81.20359,
+        29.64424
+      ],
+      [
+        -81.20537,
+        29.624
+      ],
+      [
+        -81.20352,
+        29.61714
+      ],
+      [
+        -81.19377,
+        29.59223
+      ],
+      [
+        -81.19063,
+        29.58813
+      ],
+      [
+        -81.18193,
+        29.56608
+      ],
+      [
+        -81.1789,
+        29.56359
+      ],
+      [
+        -81.17108,
+        29.56307
+      ],
+      [
+        -81.16842,
+        29.56184
+      ],
+      [
+        -81.16709,
+        29.56032
+      ],
+      [
+        -81.12397,
+        29.47404
+      ],
+      [
+        -81.11058,
+        29.4448
+      ],
+      [
+        -81.10867,
+        29.43888
+      ],
+      [
+        -81.10257,
+        29.42716
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "St. Augustine Light",
+      "model": "lighthouse-on-rock",
+      "at": 0.4526655833212565,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Marineland",
+      "model": "town-blocks",
+      "at": 0.7136038106303686,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Ponte Vedra Beach",
+      "at": 0.024610591900311528,
+      "landmark": ""
+    },
+    {
+      "name": "Vilano Beach",
+      "at": 0.3598130841121495,
+      "landmark": ""
+    },
+    {
+      "name": "St. Augustine",
+      "at": 0.4364485981308411,
+      "landmark": ""
+    },
+    {
+      "name": "St. Augustine Beach",
+      "at": 0.5144859813084112,
+      "landmark": ""
+    },
+    {
+      "name": "Summer Haven",
+      "at": 0.67601246105919,
+      "landmark": ""
+    },
+    {
+      "name": "Painters Hill",
+      "at": 0.8781931464174455,
+      "landmark": ""
+    },
+    {
+      "name": "Flagler Beach",
+      "at": 0.9450155763239875,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/a1a-scenic-and-historic-coastal-byway-2477.json",
+    "public/data/strips/a1a-scenic-and-historic-coastal-byway-2477.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

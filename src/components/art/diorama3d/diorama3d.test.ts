@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import Ajv from 'ajv'
 import * as T from 'three'
-import { specs, specSchema } from './spec'
+import { specs, specSchema } from './fixtures.test-data'
 import { buildScene, solarHour, triangleCount } from './scene'
 import { defaultGarage, models as vehicles } from '../../../lib/garage'
 import { makeRoute, SPIN_PER_SECOND, DRAG_RADIANS_PER_PX } from './route'

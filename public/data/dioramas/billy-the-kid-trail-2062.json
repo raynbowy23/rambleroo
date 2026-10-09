@@ -1,0 +1,433 @@
+{
+  "authored": false,
+  "bywayId": "billy-the-kid-trail-2062",
+  "title": "Billy the Kid Trail",
+  "longitude": -105.3376,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -105.55721,
+        33.54335
+      ],
+      [
+        -105.57296,
+        33.54184
+      ],
+      [
+        -105.55202,
+        33.54648
+      ],
+      [
+        -105.58719,
+        33.54056
+      ],
+      [
+        -105.573,
+        33.54556
+      ],
+      [
+        -105.54968,
+        33.54655
+      ],
+      [
+        -105.50949,
+        33.53
+      ],
+      [
+        -105.54013,
+        33.54344
+      ],
+      [
+        -105.573,
+        33.54556
+      ],
+      [
+        -105.61406,
+        33.52551
+      ],
+      [
+        -105.64296,
+        33.49587
+      ],
+      [
+        -105.66197,
+        33.44442
+      ],
+      [
+        -105.67418,
+        33.43677
+      ],
+      [
+        -105.67544,
+        33.42648
+      ],
+      [
+        -105.67027,
+        33.41841
+      ],
+      [
+        -105.64041,
+        33.41669
+      ],
+      [
+        -105.62503,
+        33.43129
+      ],
+      [
+        -105.57348,
+        33.44502
+      ],
+      [
+        -105.56674,
+        33.45232
+      ],
+      [
+        -105.55252,
+        33.45589
+      ],
+      [
+        -105.54908,
+        33.46287
+      ],
+      [
+        -105.51924,
+        33.46885
+      ],
+      [
+        -105.50166,
+        33.47916
+      ],
+      [
+        -105.52449,
+        33.4959
+      ],
+      [
+        -105.51454,
+        33.50651
+      ],
+      [
+        -105.50606,
+        33.52678
+      ],
+      [
+        -105.48654,
+        33.51755
+      ],
+      [
+        -105.44128,
+        33.52704
+      ],
+      [
+        -105.35637,
+        33.47442
+      ],
+      [
+        -105.33451,
+        33.4543
+      ],
+      [
+        -105.3209,
+        33.45005
+      ],
+      [
+        -105.30307,
+        33.42077
+      ],
+      [
+        -105.28451,
+        33.40794
+      ],
+      [
+        -105.27333,
+        33.38966
+      ],
+      [
+        -105.30819,
+        33.39707
+      ],
+      [
+        -105.33077,
+        33.41103
+      ],
+      [
+        -105.38143,
+        33.422
+      ],
+      [
+        -105.43027,
+        33.41942
+      ],
+      [
+        -105.46986,
+        33.40496
+      ],
+      [
+        -105.50051,
+        33.38213
+      ],
+      [
+        -105.52997,
+        33.37405
+      ],
+      [
+        -105.55331,
+        33.35363
+      ],
+      [
+        -105.57152,
+        33.34663
+      ],
+      [
+        -105.57754,
+        33.33763
+      ],
+      [
+        -105.59011,
+        33.33137
+      ],
+      [
+        -105.63379,
+        33.32258
+      ],
+      [
+        -105.65533,
+        33.32398
+      ],
+      [
+        -105.6813,
+        33.33385
+      ],
+      [
+        -105.67411,
+        33.34089
+      ],
+      [
+        -105.67491,
+        33.35088
+      ],
+      [
+        -105.6674,
+        33.3552
+      ],
+      [
+        -105.6637,
+        33.36426
+      ],
+      [
+        -105.67264,
+        33.37545
+      ],
+      [
+        -105.68066,
+        33.39913
+      ],
+      [
+        -105.66889,
+        33.41386
+      ],
+      [
+        -105.67111,
+        33.41965
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Capitan",
+      "model": "town-blocks",
+      "at": 0.15650195668620354,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lincoln",
+      "model": "town-blocks",
+      "at": 0.5308169708838265,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "snow-peak",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "orchard",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Capitan",
+      "at": 0.06106382978723404,
+      "landmark": "Capitan"
+    },
+    {
+      "name": "Lincoln",
+      "at": 0.5306382978723404,
+      "landmark": "Lincoln"
+    },
+    {
+      "name": "Hondo",
+      "at": 0.6336170212765958,
+      "landmark": ""
+    },
+    {
+      "name": "Glencoe",
+      "at": 0.7524468085106384,
+      "landmark": ""
+    },
+    {
+      "name": "Ruidoso Downs",
+      "at": 0.865531914893617,
+      "landmark": ""
+    },
+    {
+      "name": "Alto",
+      "at": 0.9791489361702128,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/billy-the-kid-trail-2062.json",
+    "public/data/strips/billy-the-kid-trail-2062.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

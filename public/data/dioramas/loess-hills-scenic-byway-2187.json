@@ -1,0 +1,414 @@
+{
+  "authored": false,
+  "bywayId": "loess-hills-scenic-byway-2187",
+  "title": "Loess Hills Scenic Byway",
+  "longitude": -95.9053,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -95.6321,
+        40.58397
+      ],
+      [
+        -95.70574,
+        40.66243
+      ],
+      [
+        -95.68366,
+        40.704
+      ],
+      [
+        -95.73419,
+        40.75139
+      ],
+      [
+        -95.74553,
+        40.78473
+      ],
+      [
+        -95.74797,
+        40.81978
+      ],
+      [
+        -95.70924,
+        40.84029
+      ],
+      [
+        -95.6956,
+        40.87215
+      ],
+      [
+        -95.67122,
+        40.87273
+      ],
+      [
+        -95.671,
+        41.03057
+      ],
+      [
+        -95.75532,
+        41.03327
+      ],
+      [
+        -95.74513,
+        41.05393
+      ],
+      [
+        -95.76255,
+        41.07007
+      ],
+      [
+        -95.79317,
+        41.16552
+      ],
+      [
+        -95.77814,
+        41.20273
+      ],
+      [
+        -95.82445,
+        41.22661
+      ],
+      [
+        -95.85083,
+        41.21959
+      ],
+      [
+        -95.85402,
+        41.24425
+      ],
+      [
+        -95.85361,
+        41.2619
+      ],
+      [
+        -95.76365,
+        41.31753
+      ],
+      [
+        -95.77244,
+        41.38119
+      ],
+      [
+        -95.74583,
+        41.43597
+      ],
+      [
+        -95.75116,
+        41.56111
+      ],
+      [
+        -95.77491,
+        41.57525
+      ],
+      [
+        -95.85033,
+        41.57604
+      ],
+      [
+        -95.78916,
+        41.64303
+      ],
+      [
+        -95.81942,
+        41.68601
+      ],
+      [
+        -95.94661,
+        41.69822
+      ],
+      [
+        -95.9717,
+        41.72761
+      ],
+      [
+        -95.97228,
+        41.759
+      ],
+      [
+        -95.94479,
+        41.7823
+      ],
+      [
+        -95.91536,
+        41.8575
+      ],
+      [
+        -95.85107,
+        41.92071
+      ],
+      [
+        -95.90134,
+        41.94895
+      ],
+      [
+        -95.92919,
+        42.00825
+      ],
+      [
+        -95.95341,
+        42.01617
+      ],
+      [
+        -95.91857,
+        42.04714
+      ],
+      [
+        -95.9129,
+        42.07188
+      ],
+      [
+        -95.92682,
+        42.07637
+      ],
+      [
+        -95.89825,
+        42.10305
+      ],
+      [
+        -95.93346,
+        42.16326
+      ],
+      [
+        -95.98353,
+        42.17302
+      ],
+      [
+        -95.93073,
+        42.22892
+      ],
+      [
+        -96.03482,
+        42.22865
+      ],
+      [
+        -96.04464,
+        42.26123
+      ],
+      [
+        -96.10325,
+        42.28344
+      ],
+      [
+        -96.18535,
+        42.37712
+      ],
+      [
+        -96.21726,
+        42.37902
+      ],
+      [
+        -96.24426,
+        42.40238
+      ],
+      [
+        -96.36835,
+        42.40063
+      ],
+      [
+        -96.39205,
+        42.48444
+      ],
+      [
+        -96.46628,
+        42.49192
+      ],
+      [
+        -96.47616,
+        42.55586
+      ],
+      [
+        -96.51519,
+        42.63041
+      ],
+      [
+        -96.61262,
+        42.73231
+      ],
+      [
+        -96.55622,
+        42.83203
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Tabor",
+      "model": "town-blocks",
+      "at": 0.12384890106051859,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Preparation Canyon State Park",
+      "model": "ridge",
+      "at": 0.5567134437085386,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sergeant Floyd Monument",
+      "model": "ledge",
+      "at": 0.856774462404841,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Hamburg",
+      "at": 0.009660107334525936,
+      "landmark": ""
+    },
+    {
+      "name": "Tabor",
+      "at": 0.12397137745974951,
+      "landmark": "Tabor"
+    },
+    {
+      "name": "Glenwood",
+      "at": 0.19172629695885512,
+      "landmark": ""
+    },
+    {
+      "name": "Weston",
+      "at": 0.3148032200357781,
+      "landmark": ""
+    },
+    {
+      "name": "Beebeetown",
+      "at": 0.37763864042933815,
+      "landmark": ""
+    },
+    {
+      "name": "Magnolia",
+      "at": 0.47307692307692306,
+      "landmark": ""
+    },
+    {
+      "name": "Moorhead",
+      "at": 0.5717352415026833,
+      "landmark": ""
+    },
+    {
+      "name": "Castana",
+      "at": 0.6350626118067979,
+      "landmark": ""
+    },
+    {
+      "name": "Smithland",
+      "at": 0.7061717352415027,
+      "landmark": ""
+    },
+    {
+      "name": "Grange",
+      "at": 0.798479427549195,
+      "landmark": ""
+    },
+    {
+      "name": "Sioux City",
+      "at": 0.8655635062611806,
+      "landmark": ""
+    },
+    {
+      "name": "Akron",
+      "at": 0.9981216457960644,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/loess-hills-scenic-byway-2187.json",
+    "public/data/strips/loess-hills-scenic-byway-2187.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

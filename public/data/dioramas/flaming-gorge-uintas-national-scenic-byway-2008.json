@@ -1,0 +1,428 @@
+{
+  "authored": false,
+  "bywayId": "flaming-gorge-uintas-national-scenic-byway-2008",
+  "title": "Flaming Gorge-Uintas National Scenic Byway",
+  "longitude": -109.4897,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -109.72273,
+        40.98825
+      ],
+      [
+        -109.72231,
+        40.9763
+      ],
+      [
+        -109.71309,
+        40.96724
+      ],
+      [
+        -109.7105,
+        40.94481
+      ],
+      [
+        -109.71332,
+        40.94
+      ],
+      [
+        -109.70086,
+        40.9361
+      ],
+      [
+        -109.70675,
+        40.93109
+      ],
+      [
+        -109.71838,
+        40.93368
+      ],
+      [
+        -109.72122,
+        40.92848
+      ],
+      [
+        -109.67818,
+        40.91465
+      ],
+      [
+        -109.69468,
+        40.90773
+      ],
+      [
+        -109.70041,
+        40.91009
+      ],
+      [
+        -109.69748,
+        40.90819
+      ],
+      [
+        -109.70496,
+        40.89824
+      ],
+      [
+        -109.72168,
+        40.89196
+      ],
+      [
+        -109.7102,
+        40.89108
+      ],
+      [
+        -109.69314,
+        40.88219
+      ],
+      [
+        -109.69239,
+        40.87243
+      ],
+      [
+        -109.68477,
+        40.86594
+      ],
+      [
+        -109.68535,
+        40.85854
+      ],
+      [
+        -109.66296,
+        40.84223
+      ],
+      [
+        -109.64932,
+        40.84118
+      ],
+      [
+        -109.62761,
+        40.85166
+      ],
+      [
+        -109.59348,
+        40.85314
+      ],
+      [
+        -109.584,
+        40.84962
+      ],
+      [
+        -109.49594,
+        40.87202
+      ],
+      [
+        -109.46235,
+        40.85474
+      ],
+      [
+        -109.4655,
+        40.84502
+      ],
+      [
+        -109.46167,
+        40.82529
+      ],
+      [
+        -109.4662,
+        40.81917
+      ],
+      [
+        -109.4661,
+        40.79678
+      ],
+      [
+        -109.47081,
+        40.78516
+      ],
+      [
+        -109.4689,
+        40.72444
+      ],
+      [
+        -109.47469,
+        40.71664
+      ],
+      [
+        -109.48906,
+        40.71561
+      ],
+      [
+        -109.49385,
+        40.71132
+      ],
+      [
+        -109.49491,
+        40.68975
+      ],
+      [
+        -109.47887,
+        40.66298
+      ],
+      [
+        -109.49095,
+        40.65388
+      ],
+      [
+        -109.48762,
+        40.64154
+      ],
+      [
+        -109.48416,
+        40.64385
+      ],
+      [
+        -109.47503,
+        40.63222
+      ],
+      [
+        -109.47584,
+        40.61936
+      ],
+      [
+        -109.47276,
+        40.61886
+      ],
+      [
+        -109.47763,
+        40.61444
+      ],
+      [
+        -109.47119,
+        40.61462
+      ],
+      [
+        -109.47795,
+        40.6091
+      ],
+      [
+        -109.46938,
+        40.60862
+      ],
+      [
+        -109.46579,
+        40.59895
+      ],
+      [
+        -109.46898,
+        40.58508
+      ],
+      [
+        -109.47998,
+        40.57468
+      ],
+      [
+        -109.49417,
+        40.57029
+      ],
+      [
+        -109.52592,
+        40.54696
+      ],
+      [
+        -109.52146,
+        40.52426
+      ],
+      [
+        -109.52917,
+        40.50358
+      ],
+      [
+        -109.52851,
+        40.45572
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Flaming Gorge Dam",
+      "model": "alpine-lake",
+      "at": 0.45850036058962607,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dutch John",
+      "model": "town-blocks",
+      "at": 0.45850036058962607,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sheep Creek",
+      "model": "switchback",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Manila",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Greendale",
+      "at": 0.43121019108280256,
+      "landmark": ""
+    },
+    {
+      "name": "Flaming Gorge",
+      "at": 0.43306891471912984,
+      "landmark": ""
+    },
+    {
+      "name": "Dutch John",
+      "at": 0.45850036058962607,
+      "landmark": "Dutch John"
+    },
+    {
+      "name": "Vernal",
+      "at": 0.999203821656051,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/flaming-gorge-uintas-national-scenic-byway-2008.json",
+    "public/data/strips/flaming-gorge-uintas-national-scenic-byway-2008.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

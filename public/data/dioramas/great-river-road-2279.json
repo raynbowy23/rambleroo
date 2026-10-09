@@ -1,0 +1,414 @@
+{
+  "authored": false,
+  "bywayId": "great-river-road-2279",
+  "title": "Great River Road",
+  "longitude": -90.931,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -92.80446,
+        44.74888
+      ],
+      [
+        -92.75401,
+        44.72612
+      ],
+      [
+        -92.70256,
+        44.72869
+      ],
+      [
+        -92.64727,
+        44.70607
+      ],
+      [
+        -92.63421,
+        44.65263
+      ],
+      [
+        -92.51753,
+        44.59478
+      ],
+      [
+        -92.45936,
+        44.58497
+      ],
+      [
+        -92.42061,
+        44.59465
+      ],
+      [
+        -92.32094,
+        44.56792
+      ],
+      [
+        -92.2953,
+        44.54349
+      ],
+      [
+        -92.28252,
+        44.49419
+      ],
+      [
+        -92.2177,
+        44.46205
+      ],
+      [
+        -92.13859,
+        44.439
+      ],
+      [
+        -92.01103,
+        44.43279
+      ],
+      [
+        -91.92666,
+        44.34821
+      ],
+      [
+        -91.90123,
+        44.29044
+      ],
+      [
+        -91.7729,
+        44.1863
+      ],
+      [
+        -91.75631,
+        44.15894
+      ],
+      [
+        -91.6436,
+        44.07724
+      ],
+      [
+        -91.45106,
+        44.07002
+      ],
+      [
+        -91.442,
+        44.00576
+      ],
+      [
+        -91.2818,
+        43.99317
+      ],
+      [
+        -91.23028,
+        43.87397
+      ],
+      [
+        -91.24796,
+        43.85274
+      ],
+      [
+        -91.25351,
+        43.80091
+      ],
+      [
+        -91.20018,
+        43.74993
+      ],
+      [
+        -91.22059,
+        43.67907
+      ],
+      [
+        -91.22944,
+        43.56278
+      ],
+      [
+        -91.21148,
+        43.44588
+      ],
+      [
+        -91.17766,
+        43.3904
+      ],
+      [
+        -91.07955,
+        43.33905
+      ],
+      [
+        -91.04891,
+        43.29064
+      ],
+      [
+        -91.059,
+        43.24262
+      ],
+      [
+        -91.13747,
+        43.16208
+      ],
+      [
+        -91.14053,
+        43.04252
+      ],
+      [
+        -91.11012,
+        43.01678
+      ],
+      [
+        -91.05892,
+        43.00898
+      ],
+      [
+        -91.03471,
+        42.97983
+      ],
+      [
+        -90.99373,
+        42.97647
+      ],
+      [
+        -90.97251,
+        42.9527
+      ],
+      [
+        -90.9626,
+        42.91207
+      ],
+      [
+        -90.92947,
+        42.8874
+      ],
+      [
+        -90.95085,
+        42.87953
+      ],
+      [
+        -90.95034,
+        42.82673
+      ],
+      [
+        -90.97443,
+        42.78661
+      ],
+      [
+        -91.00166,
+        42.76861
+      ],
+      [
+        -90.99709,
+        42.71844
+      ],
+      [
+        -90.94585,
+        42.70276
+      ],
+      [
+        -90.90538,
+        42.72189
+      ],
+      [
+        -90.73331,
+        42.66691
+      ],
+      [
+        -90.71144,
+        42.68978
+      ],
+      [
+        -90.682,
+        42.68546
+      ],
+      [
+        -90.64095,
+        42.64535
+      ],
+      [
+        -90.58706,
+        42.6175
+      ],
+      [
+        -90.61205,
+        42.57215
+      ],
+      [
+        -90.61492,
+        42.52075
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lake Pepin",
+      "model": "alpine-lake",
+      "at": 0.16976818560864182,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lake Pepin",
+      "model": "ledge",
+      "at": 0.16976818560864182,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Alma",
+      "model": "dam",
+      "at": 0.2494750191969451,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Alma",
+      "model": "steeple-town",
+      "at": 0.2494750191969451,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Alma",
+      "model": "town-blocks",
+      "at": 0.2494750191969451,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Perrot State Park",
+      "model": "ledge",
+      "at": 0.39548836346823896,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Prairie du Chien",
+      "model": "steeple-town",
+      "at": 0.7284442458245417,
+      "offset": "roadside",
+      "notes": "Story moment 4; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Prairie du Chien",
+      "model": "town-blocks",
+      "at": 0.7284442458245417,
+      "offset": "roadside",
+      "notes": "Story moment 4; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Prescott",
+      "at": 0.0013104013104013104,
+      "landmark": ""
+    },
+    {
+      "name": "Maiden Rock",
+      "at": 0.13321048321048323,
+      "landmark": ""
+    },
+    {
+      "name": "Stockholm",
+      "at": 0.15663390663390664,
+      "landmark": ""
+    },
+    {
+      "name": "Pepin",
+      "at": 0.1821867321867322,
+      "landmark": ""
+    },
+    {
+      "name": "Alma",
+      "at": 0.2432841932841933,
+      "landmark": "Alma"
+    },
+    {
+      "name": "Fountain City",
+      "at": 0.32059787059787065,
+      "landmark": ""
+    },
+    {
+      "name": "Trempealeau",
+      "at": 0.397993447993448,
+      "landmark": ""
+    },
+    {
+      "name": "Genoa",
+      "at": 0.5581900081900082,
+      "landmark": ""
+    },
+    {
+      "name": "De Soto",
+      "at": 0.6025798525798526,
+      "landmark": ""
+    },
+    {
+      "name": "Prairie du Chien",
+      "at": 0.7282145782145782,
+      "landmark": "Prairie du Chien"
+    },
+    {
+      "name": "Cassville",
+      "at": 0.8597870597870598,
+      "landmark": ""
+    },
+    {
+      "name": "Potosi",
+      "at": 0.932964782964783,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/great-river-road-2279.json",
+    "public/data/strips/great-river-road-2279.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

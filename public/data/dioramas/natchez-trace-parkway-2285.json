@@ -1,0 +1,454 @@
+{
+  "authored": false,
+  "bywayId": "natchez-trace-parkway-2285",
+  "title": "Natchez Trace Parkway",
+  "longitude": -89.6119,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -86.97578,
+        36.03458
+      ],
+      [
+        -87.0141,
+        35.92542
+      ],
+      [
+        -87.00614,
+        35.90318
+      ],
+      [
+        -87.05589,
+        35.84349
+      ],
+      [
+        -87.18334,
+        35.81328
+      ],
+      [
+        -87.21313,
+        35.73625
+      ],
+      [
+        -87.30605,
+        35.69792
+      ],
+      [
+        -87.31971,
+        35.66333
+      ],
+      [
+        -87.36038,
+        35.65638
+      ],
+      [
+        -87.43272,
+        35.58196
+      ],
+      [
+        -87.43151,
+        35.53511
+      ],
+      [
+        -87.46455,
+        35.49593
+      ],
+      [
+        -87.46907,
+        35.44654
+      ],
+      [
+        -87.51852,
+        35.41198
+      ],
+      [
+        -87.63646,
+        35.24913
+      ],
+      [
+        -87.68833,
+        35.24603
+      ],
+      [
+        -87.71613,
+        35.22229
+      ],
+      [
+        -87.73649,
+        35.15559
+      ],
+      [
+        -87.81408,
+        35.04808
+      ],
+      [
+        -87.8255,
+        34.94679
+      ],
+      [
+        -88.03158,
+        34.74875
+      ],
+      [
+        -88.03597,
+        34.70285
+      ],
+      [
+        -88.09378,
+        34.65821
+      ],
+      [
+        -88.2423,
+        34.59526
+      ],
+      [
+        -88.29847,
+        34.50982
+      ],
+      [
+        -88.62826,
+        34.41164
+      ],
+      [
+        -88.71137,
+        34.32983
+      ],
+      [
+        -88.9304,
+        33.96728
+      ],
+      [
+        -88.92557,
+        33.92741
+      ],
+      [
+        -89.01158,
+        33.78926
+      ],
+      [
+        -89.04734,
+        33.6747
+      ],
+      [
+        -89.29145,
+        33.37304
+      ],
+      [
+        -89.33807,
+        33.35626
+      ],
+      [
+        -89.40143,
+        33.29608
+      ],
+      [
+        -89.46199,
+        33.16862
+      ],
+      [
+        -89.59605,
+        33.02065
+      ],
+      [
+        -89.61752,
+        32.91837
+      ],
+      [
+        -89.66616,
+        32.85243
+      ],
+      [
+        -89.68962,
+        32.7397
+      ],
+      [
+        -89.71979,
+        32.69136
+      ],
+      [
+        -90.01781,
+        32.49796
+      ],
+      [
+        -90.0857,
+        32.42706
+      ],
+      [
+        -90.20754,
+        32.42045
+      ],
+      [
+        -90.34874,
+        32.3479
+      ],
+      [
+        -90.40472,
+        32.29359
+      ],
+      [
+        -90.47645,
+        32.27752
+      ],
+      [
+        -90.72432,
+        32.14784
+      ],
+      [
+        -90.82581,
+        32.06075
+      ],
+      [
+        -90.8619,
+        32.00436
+      ],
+      [
+        -90.9421,
+        31.98579
+      ],
+      [
+        -91.08263,
+        31.81196
+      ],
+      [
+        -91.1639,
+        31.76973
+      ],
+      [
+        -91.18151,
+        31.69238
+      ],
+      [
+        -91.22177,
+        31.6354
+      ],
+      [
+        -91.29465,
+        31.57173
+      ],
+      [
+        -91.36172,
+        31.5498
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Double Arch Bridge",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.9788662017930199,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Pasquo",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Greenfield Bend",
+      "at": 0.08364864864864865,
+      "landmark": ""
+    },
+    {
+      "name": "Collinwood",
+      "at": 0.19779279279279277,
+      "landmark": ""
+    },
+    {
+      "name": "Mingo",
+      "at": 0.305563063063063,
+      "landmark": ""
+    },
+    {
+      "name": "Saltillo",
+      "at": 0.391981981981982,
+      "landmark": ""
+    },
+    {
+      "name": "Van Vleet",
+      "at": 0.45921171171171166,
+      "landmark": ""
+    },
+    {
+      "name": "Mathiston",
+      "at": 0.538108108108108,
+      "landmark": ""
+    },
+    {
+      "name": "Kosciusko",
+      "at": 0.6370045045045045,
+      "landmark": ""
+    },
+    {
+      "name": "Farmhaven",
+      "at": 0.712027027027027,
+      "landmark": ""
+    },
+    {
+      "name": "Cynthia",
+      "at": 0.7864864864864864,
+      "landmark": ""
+    },
+    {
+      "name": "Cayuga",
+      "at": 0.8586711711711712,
+      "landmark": ""
+    },
+    {
+      "name": "Russum",
+      "at": 0.9232657657657658,
+      "landmark": ""
+    },
+    {
+      "name": "Washington",
+      "at": 0.9896396396396396,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/natchez-trace-parkway-2285.json",
+    "public/data/strips/natchez-trace-parkway-2285.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,431 @@
+{
+  "authored": false,
+  "bywayId": "volcanic-legacy-scenic-byway-2587",
+  "title": "Volcanic Legacy Scenic Byway",
+  "longitude": -122.1919,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -121.42461,
+        40.68064
+      ],
+      [
+        -121.40093,
+        40.67731
+      ],
+      [
+        -121.39665,
+        40.70346
+      ],
+      [
+        -121.34157,
+        40.65848
+      ],
+      [
+        -121.16662,
+        40.64678
+      ],
+      [
+        -120.911,
+        40.45061
+      ],
+      [
+        -120.75521,
+        40.41122
+      ],
+      [
+        -120.94494,
+        40.3182
+      ],
+      [
+        -121.07457,
+        40.29371
+      ],
+      [
+        -121.08062,
+        40.17199
+      ],
+      [
+        -121.21048,
+        40.22839
+      ],
+      [
+        -121.25352,
+        40.2788
+      ],
+      [
+        -121.39441,
+        40.25973
+      ],
+      [
+        -121.49775,
+        40.36273
+      ],
+      [
+        -121.54243,
+        40.34856
+      ],
+      [
+        -121.52729,
+        40.4644
+      ],
+      [
+        -121.45457,
+        40.46065
+      ],
+      [
+        -121.42525,
+        40.49285
+      ],
+      [
+        -121.529,
+        40.56983
+      ],
+      [
+        -121.55076,
+        40.53781
+      ],
+      [
+        -121.57978,
+        40.55435
+      ],
+      [
+        -121.48141,
+        40.62279
+      ],
+      [
+        -121.418,
+        40.70362
+      ],
+      [
+        -121.49783,
+        40.75899
+      ],
+      [
+        -121.51409,
+        40.83323
+      ],
+      [
+        -121.64907,
+        41.01094
+      ],
+      [
+        -121.62135,
+        41.0181
+      ],
+      [
+        -121.64993,
+        41.15055
+      ],
+      [
+        -121.78009,
+        41.20489
+      ],
+      [
+        -121.8564,
+        41.26602
+      ],
+      [
+        -122.13492,
+        41.25109
+      ],
+      [
+        -122.30557,
+        41.28528
+      ],
+      [
+        -122.38924,
+        41.42786
+      ],
+      [
+        -122.30678,
+        41.51947
+      ],
+      [
+        -122.19688,
+        41.57135
+      ],
+      [
+        -122.18971,
+        41.63771
+      ],
+      [
+        -122.04185,
+        41.68976
+      ],
+      [
+        -122.06645,
+        41.75592
+      ],
+      [
+        -121.79984,
+        42.15443
+      ],
+      [
+        -121.79985,
+        42.19148
+      ],
+      [
+        -121.88058,
+        42.27003
+      ],
+      [
+        -122.11684,
+        42.4461
+      ],
+      [
+        -122.08417,
+        42.49159
+      ],
+      [
+        -122.08864,
+        42.6637
+      ],
+      [
+        -121.99576,
+        42.67541
+      ],
+      [
+        -121.99595,
+        42.70375
+      ],
+      [
+        -122.17001,
+        42.87112
+      ],
+      [
+        -122.14524,
+        42.86754
+      ],
+      [
+        -122.13513,
+        42.89527
+      ],
+      [
+        -122.0803,
+        42.884
+      ],
+      [
+        -122.05941,
+        42.92501
+      ],
+      [
+        -122.02867,
+        42.9304
+      ],
+      [
+        -122.07563,
+        42.98113
+      ],
+      [
+        -122.15158,
+        42.96605
+      ],
+      [
+        -122.11618,
+        43.08899
+      ],
+      [
+        -121.82507,
+        43.0807
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lassen Peak",
+      "model": "snow-peak",
+      "at": 0.2867588766463714,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Burney Falls",
+      "model": "cove-waterfall",
+      "at": 0.43264713495453944,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Crater Lake",
+      "model": "alpine-lake",
+      "at": 0.936646772860834,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.2000000000000002,
+      "scale": 1.2
+    },
+    {
+      "model": "hardwood",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.6,
+      "scale": 1.2
+    }
+  ],
+  "towns": [
+    {
+      "name": "Almanor",
+      "at": 0.19145576967726952,
+      "landmark": ""
+    },
+    {
+      "name": "Mineral",
+      "at": 0.2548873926166705,
+      "landmark": ""
+    },
+    {
+      "name": "Carrick",
+      "at": 0.5798467610866032,
+      "landmark": ""
+    },
+    {
+      "name": "Macdoel",
+      "at": 0.6667285813791503,
+      "landmark": ""
+    },
+    {
+      "name": "Malone",
+      "at": 0.7134307462669878,
+      "landmark": ""
+    },
+    {
+      "name": "Running Y Ranch",
+      "at": 0.749338286510332,
+      "landmark": ""
+    },
+    {
+      "name": "Fort Klamath",
+      "at": 0.8453447875551428,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/volcanic-legacy-scenic-byway-2587.json",
+    "public/data/strips/volcanic-legacy-scenic-byway-2587.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

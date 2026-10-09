@@ -1,0 +1,419 @@
+{
+  "authored": false,
+  "bywayId": "staunton-parkersburg-turnpike-10351",
+  "title": "Staunton-Parkersburg Turnpike",
+  "longitude": -80.3525,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.53119,
+        39.25796
+      ],
+      [
+        -81.50231,
+        39.21622
+      ],
+      [
+        -81.43347,
+        39.19657
+      ],
+      [
+        -81.44157,
+        39.16851
+      ],
+      [
+        -81.43435,
+        39.15066
+      ],
+      [
+        -81.40858,
+        39.13849
+      ],
+      [
+        -81.363,
+        39.14862
+      ],
+      [
+        -81.30622,
+        39.12734
+      ],
+      [
+        -81.28806,
+        39.1332
+      ],
+      [
+        -81.27487,
+        39.10849
+      ],
+      [
+        -81.2106,
+        39.07829
+      ],
+      [
+        -81.17474,
+        39.08559
+      ],
+      [
+        -81.16029,
+        39.07877
+      ],
+      [
+        -81.14712,
+        39.08745
+      ],
+      [
+        -81.11971,
+        39.07313
+      ],
+      [
+        -81.07259,
+        39.07354
+      ],
+      [
+        -81.03316,
+        39.05116
+      ],
+      [
+        -80.9668,
+        39.04212
+      ],
+      [
+        -80.85775,
+        39.05907
+      ],
+      [
+        -80.81971,
+        39.0379
+      ],
+      [
+        -80.80046,
+        39.04251
+      ],
+      [
+        -80.72015,
+        39.00793
+      ],
+      [
+        -80.67208,
+        39.03776
+      ],
+      [
+        -80.6238,
+        39.03258
+      ],
+      [
+        -80.59914,
+        39.05983
+      ],
+      [
+        -80.55952,
+        39.04895
+      ],
+      [
+        -80.48342,
+        39.04967
+      ],
+      [
+        -80.36193,
+        38.99481
+      ],
+      [
+        -80.30937,
+        39.01332
+      ],
+      [
+        -80.19605,
+        38.98856
+      ],
+      [
+        -80.13642,
+        38.95313
+      ],
+      [
+        -80.11618,
+        38.91746
+      ],
+      [
+        -80.08949,
+        38.92432
+      ],
+      [
+        -80.07541,
+        38.90377
+      ],
+      [
+        -80.05606,
+        38.90671
+      ],
+      [
+        -80.02958,
+        38.89171
+      ],
+      [
+        -79.9542,
+        38.94494
+      ],
+      [
+        -79.85047,
+        38.92955
+      ],
+      [
+        -79.84175,
+        38.92122
+      ],
+      [
+        -79.8467,
+        38.88969
+      ],
+      [
+        -79.87617,
+        38.83951
+      ],
+      [
+        -79.87765,
+        38.81363
+      ],
+      [
+        -79.96177,
+        38.74804
+      ],
+      [
+        -79.9794,
+        38.7139
+      ],
+      [
+        -79.97391,
+        38.68399
+      ],
+      [
+        -79.92173,
+        38.66035
+      ],
+      [
+        -79.92625,
+        38.63127
+      ],
+      [
+        -79.87176,
+        38.62812
+      ],
+      [
+        -79.84305,
+        38.59066
+      ],
+      [
+        -79.84239,
+        38.56602
+      ],
+      [
+        -79.82749,
+        38.54558
+      ],
+      [
+        -79.77371,
+        38.53808
+      ],
+      [
+        -79.73401,
+        38.55349
+      ],
+      [
+        -79.72601,
+        38.51881
+      ],
+      [
+        -79.69868,
+        38.49341
+      ],
+      [
+        -79.69898,
+        38.47517
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Beverly",
+      "model": "town-blocks",
+      "at": 0.7467591232928213,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Camp Allegheny",
+      "model": "ridge",
+      "at": 0.9959359897904538,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Parkersburg",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Leachtown",
+      "at": 0.06568796776050663,
+      "landmark": ""
+    },
+    {
+      "name": "Girta",
+      "at": 0.13747841105354058,
+      "landmark": ""
+    },
+    {
+      "name": "Smithville",
+      "at": 0.20840529648819808,
+      "landmark": ""
+    },
+    {
+      "name": "Newberne",
+      "at": 0.2858376511226252,
+      "landmark": ""
+    },
+    {
+      "name": "Linn",
+      "at": 0.3552677029360968,
+      "landmark": ""
+    },
+    {
+      "name": "Camden",
+      "at": 0.4194012665515256,
+      "landmark": ""
+    },
+    {
+      "name": "Gaston",
+      "at": 0.48526194588370763,
+      "landmark": ""
+    },
+    {
+      "name": "South Buckhannon",
+      "at": 0.5499712147380541,
+      "landmark": ""
+    },
+    {
+      "name": "Pumpkintown",
+      "at": 0.6423143350604491,
+      "landmark": ""
+    },
+    {
+      "name": "Elkins",
+      "at": 0.7142199194012666,
+      "landmark": ""
+    },
+    {
+      "name": "East Dailey",
+      "at": 0.7778929188255614,
+      "landmark": ""
+    },
+    {
+      "name": "Braucher",
+      "at": 0.9063327576280945,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/staunton-parkersburg-turnpike-10351.json",
+    "public/data/strips/staunton-parkersburg-turnpike-10351.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,436 @@
+{
+  "authored": false,
+  "bywayId": "indiana-s-historic-pathways-76130",
+  "title": "Indiana's Historic Pathways",
+  "longitude": -85.828,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -85.76007,
+        38.27374
+      ],
+      [
+        -85.76282,
+        38.29017
+      ],
+      [
+        -85.7804,
+        38.30243
+      ],
+      [
+        -85.82828,
+        38.28124
+      ],
+      [
+        -85.84893,
+        38.30027
+      ],
+      [
+        -85.88959,
+        38.30242
+      ],
+      [
+        -85.90096,
+        38.33676
+      ],
+      [
+        -85.96445,
+        38.36712
+      ],
+      [
+        -86.26905,
+        38.45342
+      ],
+      [
+        -86.3335,
+        38.49569
+      ],
+      [
+        -86.46454,
+        38.55614
+      ],
+      [
+        -86.51266,
+        38.57116
+      ],
+      [
+        -86.56099,
+        38.57342
+      ],
+      [
+        -86.57229,
+        38.58156
+      ],
+      [
+        -86.61436,
+        38.5785
+      ],
+      [
+        -86.64627,
+        38.59258
+      ],
+      [
+        -86.66945,
+        38.58715
+      ],
+      [
+        -86.69936,
+        38.61281
+      ],
+      [
+        -86.7753,
+        38.63433
+      ],
+      [
+        -86.78856,
+        38.66541
+      ],
+      [
+        -86.74655,
+        38.67575
+      ],
+      [
+        -86.73486,
+        38.68951
+      ],
+      [
+        -86.71068,
+        38.69841
+      ],
+      [
+        -86.70124,
+        38.71553
+      ],
+      [
+        -86.67852,
+        38.72404
+      ],
+      [
+        -86.63772,
+        38.72023
+      ],
+      [
+        -86.53888,
+        38.78874
+      ],
+      [
+        -86.51656,
+        38.81268
+      ],
+      [
+        -86.51757,
+        38.82287
+      ],
+      [
+        -86.49727,
+        38.83547
+      ],
+      [
+        -86.48876,
+        38.86104
+      ],
+      [
+        -86.46048,
+        38.86115
+      ],
+      [
+        -86.43419,
+        38.87539
+      ],
+      [
+        -86.30352,
+        38.87336
+      ],
+      [
+        -86.26407,
+        38.88489
+      ],
+      [
+        -86.16125,
+        38.86879
+      ],
+      [
+        -86.12736,
+        38.88012
+      ],
+      [
+        -86.04342,
+        38.87633
+      ],
+      [
+        -85.89808,
+        38.95508
+      ],
+      [
+        -85.65947,
+        38.98513
+      ],
+      [
+        -85.64261,
+        39.00056
+      ],
+      [
+        -85.50907,
+        39.03329
+      ],
+      [
+        -85.45612,
+        39.06526
+      ],
+      [
+        -85.3763,
+        39.0749
+      ],
+      [
+        -85.27429,
+        39.07467
+      ],
+      [
+        -85.23628,
+        39.061
+      ],
+      [
+        -85.19525,
+        39.06347
+      ],
+      [
+        -85.10933,
+        39.04671
+      ],
+      [
+        -85.04635,
+        39.01964
+      ],
+      [
+        -85.00782,
+        39.03014
+      ],
+      [
+        -84.94447,
+        39.02993
+      ],
+      [
+        -84.89743,
+        39.06242
+      ],
+      [
+        -84.87615,
+        39.0885
+      ],
+      [
+        -84.85255,
+        39.09769
+      ],
+      [
+        -84.85048,
+        39.12023
+      ],
+      [
+        -84.82027,
+        39.14912
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Paoli",
+      "model": "steeple-town",
+      "at": 0.24450418758394757,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Paoli",
+      "model": "town-blocks",
+      "at": 0.24450418758394757,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Shoals",
+      "model": "town-blocks",
+      "at": 0.35812312529884016,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Vincennes",
+      "model": "town-blocks",
+      "at": 0.35812312529884016,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Silver Hills",
+      "at": 0.03399795501022495,
+      "landmark": ""
+    },
+    {
+      "name": "Palmyra",
+      "at": 0.12811860940695297,
+      "landmark": ""
+    },
+    {
+      "name": "Rego",
+      "at": 0.19309815950920248,
+      "landmark": ""
+    },
+    {
+      "name": "Abydel",
+      "at": 0.27280163599182006,
+      "landmark": ""
+    },
+    {
+      "name": "Lacy",
+      "at": 0.34596114519427407,
+      "landmark": ""
+    },
+    {
+      "name": "Shoals",
+      "at": 0.35812312529884016,
+      "landmark": "Shoals"
+    },
+    {
+      "name": "Cannelburg",
+      "at": 0.35812312529884016,
+      "landmark": ""
+    },
+    {
+      "name": "Maysville",
+      "at": 0.35812312529884016,
+      "landmark": ""
+    },
+    {
+      "name": "Vincennes",
+      "at": 0.35812312529884016,
+      "landmark": "Vincennes"
+    },
+    {
+      "name": "Bryantsville",
+      "at": 0.43711656441717794,
+      "landmark": ""
+    },
+    {
+      "name": "Ewing",
+      "at": 0.6059304703476482,
+      "landmark": ""
+    },
+    {
+      "name": "Hayden",
+      "at": 0.7048057259713703,
+      "landmark": ""
+    },
+    {
+      "name": "Butlerville",
+      "at": 0.7731083844580777,
+      "landmark": ""
+    },
+    {
+      "name": "Versailles",
+      "at": 0.8506646216768916,
+      "landmark": ""
+    },
+    {
+      "name": "Cochran",
+      "at": 0.9521472392638037,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/indiana-s-historic-pathways-76130.json",
+    "public/data/strips/indiana-s-historic-pathways-76130.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}
