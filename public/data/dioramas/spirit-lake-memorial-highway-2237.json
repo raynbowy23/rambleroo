@@ -3,12 +3,12 @@
   "bywayId": "spirit-lake-memorial-highway-2237",
   "title": "Spirit Lake Memorial Highway",
   "longitude": -122.5351,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,43 +239,51 @@
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Kid Valley",
+      "model": "town-blocks",
+      "at": 0.38266991997704275,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -360,13 +368,6 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
-    },
-    {
-      "model": "river",
-      "at": 0.5,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1
     }
   ],
   "towns": [
@@ -378,10 +379,11 @@
     {
       "name": "Kid Valley",
       "at": 0.38242950108459867,
-      "landmark": ""
+      "landmark": "Kid Valley"
     }
   ],
   "sources": [
+    "content/stories/spirit-lake-memorial-highway-2237.json",
     "public/data/strips/spirit-lake-memorial-highway-2237.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -3,12 +3,12 @@
   "bywayId": "bighorn-scenic-byway-2053",
   "title": "Bighorn Scenic Byway",
   "longitude": -107.494,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,44 +239,59 @@
     "elevation": [
       [
         0,
-        0.35
+        0.45
       ],
       [
         0.125,
-        0.453
+        0.692
       ],
       [
         0.25,
-        0.7
+        1.275
       ],
       [
         0.375,
-        0.947
+        1.858
       ],
       [
         0.5,
-        1.05
+        2.1
       ],
       [
         0.625,
-        0.947
+        1.858
       ],
       [
         0.75,
-        0.7
+        1.275
       ],
       [
         0.875,
-        0.453
+        0.692
       ],
       [
         1,
-        0.35
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Shell Falls",
+      "model": "cove-waterfall",
+      "at": 0.2121980377753732,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "conifer",
       "at": 0.0875,
@@ -380,6 +395,7 @@
     }
   ],
   "sources": [
+    "content/stories/bighorn-scenic-byway-2053.json",
     "public/data/strips/bighorn-scenic-byway-2053.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

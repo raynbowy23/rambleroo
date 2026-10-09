@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Northwest Railway Museum, Snoqualmie",
+      "model": "town-blocks",
+      "at": 0.8988333234536631,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "North Bend",
+      "model": "town-blocks",
+      "at": 0.99419732636266,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -381,10 +396,11 @@
     {
       "name": "North Bend",
       "at": 0.9943521594684385,
-      "landmark": ""
+      "landmark": "North Bend"
     }
   ],
   "sources": [
+    "content/stories/cascade-valleys-heritage-corridor-2229.json",
     "public/data/strips/cascade-valleys-heritage-corridor-2229.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
