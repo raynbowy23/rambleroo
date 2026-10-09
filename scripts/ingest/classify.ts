@@ -1,5 +1,5 @@
 // Name-based theme inference for listings without editorial review. Output is marked themeSource: 'inferred' and should be replaced by curated tags over time.
-import type { Theme, SceneFamily, Region } from '../../src/lib/types.ts'
+import type { Theme, SceneFamily, Region, MapMark } from '../../src/lib/types.ts'
 
 const RULES: [Theme, RegExp][] = [
   [
@@ -28,10 +28,13 @@ const RULES: [Theme, RegExp][] = [
 
 const DESERT_STATES = new Set(['AZ', 'NM', 'NV', 'UT'])
 const MOUNTAIN_STATES = new Set(['CO', 'MT', 'WY', 'ID'])
+// States with a sea or Great Lakes shore. Names like "Kenton to Keys" (Keyes, Oklahoma) or "Silver Island" (Utah salt flats) are not coasts.
+const SHORE_STATES = new Set('AK AL CA CT DE FL GA HI IL IN LA MA MD ME MI MN MS NC NH NJ NY OH OR PA RI SC TX VA WA WI'.split(' '))
 
 export function inferThemes(name: string, designations: string[], states: string[], usfs: boolean): Theme[] {
   const themes = new Set<Theme>()
   for (const [theme, re] of RULES) if (re.test(name)) themes.add(theme)
+  if (themes.has('coast') && !states.some((s) => SHORE_STATES.has(s))) themes.delete('coast')
   if (usfs) themes.add('forest')
   if (designations.some((d) => /historic/i.test(d))) themes.add('historic')
   if (!themes.has('water') && !themes.has('coast') && !themes.has('forest') && states.every((s) => DESERT_STATES.has(s)))
@@ -130,4 +133,21 @@ const REGION_BY_STATE: Record<string, Region> = {
 /** Coarse landscape region for a state; unknown codes fall back to the plains so illustration never fails. */
 export function regionFor(state: string): Region {
   return REGION_BY_STATE[state] ?? 'great-plains'
+}
+
+/** The inked picture on the national map. A story's own landmarks decide it; without a story it shows the road's kind of country, never a specific landmark it may not have. */
+export function pickMark(scene: SceneFamily, motifs: string[]): MapMark {
+  if (motifs.includes('lighthouse')) return 'lighthouse'
+  for (const m of motifs) {
+    if (['snow-peaks', 'switchbacks', 'rolling-ridges', 'rhododendron-bald'].includes(m)) return 'mountain'
+    if (['hoodoos', 'slickrock-ridge', 'limestone-ledges'].includes(m)) return 'mesa'
+    if (['aspens'].includes(m)) return 'pine'
+    if (['steeple-town', 'harbor-village', 'gristmill', 'mining-town'].includes(m)) return 'church'
+    if (['orchard'].includes(m)) return 'windmill'
+    if (['river-bluffs', 'lock-and-dam', 'paddlewheeler', 'sandbars', 'lake-wide', 'waterfall-cove', 'sea-rock'].includes(m))
+      return scene === 'coast' ? 'sailboat' : 'wave'
+  }
+  return (
+    { river: 'wave', coast: 'sailboat', mountain: 'mountain', forest: 'pine', desert: 'mesa', prairie: 'windmill', town: 'church' } as const
+  )[scene]
 }

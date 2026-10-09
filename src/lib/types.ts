@@ -102,6 +102,9 @@ export interface StreetView {
   creator: string
 }
 
+/** Map glyph names; drawings live in src/features/map/decor.ts. */
+export type MapMark = 'wave' | 'sailboat' | 'lighthouse' | 'mountain' | 'pine' | 'mesa' | 'windmill' | 'church'
+
 /** Editorial completeness, not road condition. See blueprint §7. */
 export type EditorialStatus = 'listing' | 'draft-story' | 'curated-story'
 
@@ -122,6 +125,8 @@ export interface BywaySummary {
   themes: Theme[]
   themeSource: 'inferred' | 'curated'
   scene: SceneFamily
+  /** Inked picture on the national map, chosen from the story's landmarks when there is one. */
+  mark?: MapMark
   status: EditorialStatus
   region: Region
   look: PostcardLook
