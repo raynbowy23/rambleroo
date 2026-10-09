@@ -3,8 +3,8 @@
   "bywayId": "route-47-south-hill-to-pamplin-995139",
   "title": "Route 47, South Hill to Pamplin",
   "longitude": -78.2872,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -12,228 +12,228 @@
     "lanes": 2,
     "coordinates": [
       [
-        -78.68146,
-        37.24998
-      ],
-      [
-        -78.6831,
-        37.23562
-      ],
-      [
-        -78.69063,
-        37.2191
-      ],
-      [
-        -78.68558,
-        37.1951
-      ],
-      [
-        -78.69165,
-        37.18576
-      ],
-      [
-        -78.70039,
-        37.18
-      ],
-      [
-        -78.70435,
-        37.16986
-      ],
-      [
-        -78.70097,
-        37.15155
-      ],
-      [
-        -78.70288,
-        37.14146
-      ],
-      [
-        -78.69015,
-        37.13449
-      ],
-      [
-        -78.66133,
-        37.1266
-      ],
-      [
-        -78.64977,
-        37.11843
-      ],
-      [
-        -78.64338,
-        37.10587
-      ],
-      [
-        -78.64388,
-        37.09234
-      ],
-      [
-        -78.63315,
-        37.06515
-      ],
-      [
-        -78.63765,
-        37.05543
-      ],
-      [
-        -78.62128,
-        37.04275
-      ],
-      [
-        -78.61945,
-        37.03399
-      ],
-      [
-        -78.61421,
-        37.02684
-      ],
-      [
-        -78.61265,
-        37.01455
-      ],
-      [
-        -78.60652,
-        37.00645
-      ],
-      [
-        -78.60478,
-        36.99618
-      ],
-      [
-        -78.59231,
-        36.98527
-      ],
-      [
-        -78.58989,
-        36.97805
-      ],
-      [
-        -78.5811,
-        36.97349
-      ],
-      [
-        -78.57659,
-        36.96025
-      ],
-      [
-        -78.57937,
-        36.95082
-      ],
-      [
-        -78.57391,
-        36.94161
-      ],
-      [
-        -78.57251,
-        36.93169
-      ],
-      [
-        -78.56435,
-        36.92676
-      ],
-      [
-        -78.5543,
-        36.91391
-      ],
-      [
-        -78.52337,
-        36.8976
-      ],
-      [
-        -78.51353,
-        36.87953
-      ],
-      [
-        -78.50186,
-        36.86819
-      ],
-      [
-        -78.50204,
-        36.85906
-      ],
-      [
-        -78.49388,
-        36.84483
-      ],
-      [
-        -78.49935,
-        36.82979
-      ],
-      [
-        -78.49421,
-        36.82259
-      ],
-      [
-        -78.46686,
-        36.81619
-      ],
-      [
-        -78.45869,
-        36.79924
-      ],
-      [
-        -78.43927,
-        36.80334
-      ],
-      [
-        -78.43081,
-        36.80908
-      ],
-      [
-        -78.4149,
-        36.81409
-      ],
-      [
-        -78.39103,
-        36.81756
-      ],
-      [
-        -78.35421,
-        36.79513
-      ],
-      [
-        -78.3235,
-        36.78485
-      ],
-      [
-        -78.31036,
-        36.79014
-      ],
-      [
-        -78.3031,
-        36.79022
-      ],
-      [
-        -78.26943,
-        36.77214
-      ],
-      [
-        -78.25878,
-        36.77176
-      ],
-      [
-        -78.24435,
-        36.78034
-      ],
-      [
-        -78.22617,
-        36.77257
-      ],
-      [
-        -78.19109,
-        36.77305
-      ],
-      [
-        -78.17482,
-        36.76212
+        -78.12909,
+        36.7265
       ],
       [
         -78.14364,
         36.72995
       ],
       [
-        -78.12909,
-        36.7265
+        -78.17482,
+        36.76212
+      ],
+      [
+        -78.19109,
+        36.77305
+      ],
+      [
+        -78.22617,
+        36.77257
+      ],
+      [
+        -78.24435,
+        36.78034
+      ],
+      [
+        -78.25878,
+        36.77176
+      ],
+      [
+        -78.26943,
+        36.77214
+      ],
+      [
+        -78.3031,
+        36.79022
+      ],
+      [
+        -78.31036,
+        36.79014
+      ],
+      [
+        -78.3235,
+        36.78485
+      ],
+      [
+        -78.35421,
+        36.79513
+      ],
+      [
+        -78.39103,
+        36.81756
+      ],
+      [
+        -78.4149,
+        36.81409
+      ],
+      [
+        -78.43081,
+        36.80908
+      ],
+      [
+        -78.43927,
+        36.80334
+      ],
+      [
+        -78.45869,
+        36.79924
+      ],
+      [
+        -78.46686,
+        36.81619
+      ],
+      [
+        -78.49421,
+        36.82259
+      ],
+      [
+        -78.49935,
+        36.82979
+      ],
+      [
+        -78.49388,
+        36.84483
+      ],
+      [
+        -78.50204,
+        36.85906
+      ],
+      [
+        -78.50186,
+        36.86819
+      ],
+      [
+        -78.51353,
+        36.87953
+      ],
+      [
+        -78.52337,
+        36.8976
+      ],
+      [
+        -78.5543,
+        36.91391
+      ],
+      [
+        -78.56435,
+        36.92676
+      ],
+      [
+        -78.57251,
+        36.93169
+      ],
+      [
+        -78.57391,
+        36.94161
+      ],
+      [
+        -78.57937,
+        36.95082
+      ],
+      [
+        -78.57659,
+        36.96025
+      ],
+      [
+        -78.5811,
+        36.97349
+      ],
+      [
+        -78.58989,
+        36.97805
+      ],
+      [
+        -78.59231,
+        36.98527
+      ],
+      [
+        -78.60478,
+        36.99618
+      ],
+      [
+        -78.60652,
+        37.00645
+      ],
+      [
+        -78.61265,
+        37.01455
+      ],
+      [
+        -78.61421,
+        37.02684
+      ],
+      [
+        -78.61945,
+        37.03399
+      ],
+      [
+        -78.62128,
+        37.04275
+      ],
+      [
+        -78.63765,
+        37.05543
+      ],
+      [
+        -78.63315,
+        37.06515
+      ],
+      [
+        -78.64388,
+        37.09234
+      ],
+      [
+        -78.64338,
+        37.10587
+      ],
+      [
+        -78.64977,
+        37.11843
+      ],
+      [
+        -78.66133,
+        37.1266
+      ],
+      [
+        -78.69015,
+        37.13449
+      ],
+      [
+        -78.70288,
+        37.14146
+      ],
+      [
+        -78.70097,
+        37.15155
+      ],
+      [
+        -78.70435,
+        37.16986
+      ],
+      [
+        -78.70039,
+        37.18
+      ],
+      [
+        -78.69165,
+        37.18576
+      ],
+      [
+        -78.68558,
+        37.1951
+      ],
+      [
+        -78.69063,
+        37.2191
+      ],
+      [
+        -78.6831,
+        37.23562
+      ],
+      [
+        -78.68146,
+        37.24998
       ]
     ],
     "elevation": [
@@ -275,157 +275,117 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Chase City",
+      "model": "town-blocks",
+      "at": 0.36114296245451505,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Charlotte Court House",
+      "model": "farmhouse",
+      "at": 0.7363894731198798,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Charlotte Court House",
+      "model": "town-blocks",
+      "at": 0.7363894731198798,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Pamplin City",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
-      "at": 0.125,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.20833333333333334,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.375,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.875,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
     {
-      "name": "Pamplin City",
-      "at": 0,
-      "landmark": ""
-    },
-    {
-      "name": "Cullen",
-      "at": 0.19083333333333333,
-      "landmark": ""
-    },
-    {
-      "name": "Drakes Branch",
-      "at": 0.3515,
-      "landmark": ""
-    },
-    {
-      "name": "Chase City",
-      "at": 0.6386666666666667,
+      "name": "South Hill",
+      "at": 0.0016666666666667052,
       "landmark": ""
     },
     {
       "name": "Wightman",
-      "at": 0.8019999999999999,
+      "at": 0.19800000000000006,
       "landmark": ""
     },
     {
-      "name": "South Hill",
-      "at": 0.9983333333333333,
+      "name": "Chase City",
+      "at": 0.3613333333333333,
+      "landmark": "Chase City"
+    },
+    {
+      "name": "Drakes Branch",
+      "at": 0.6485000000000001,
       "landmark": ""
+    },
+    {
+      "name": "Cullen",
+      "at": 0.8091666666666667,
+      "landmark": ""
+    },
+    {
+      "name": "Pamplin City",
+      "at": 1,
+      "landmark": "Pamplin City"
     }
   ],
   "sources": [
+    "content/stories/route-47-south-hill-to-pamplin-995139.json",
     "public/data/strips/route-47-south-hill-to-pamplin-995139.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }

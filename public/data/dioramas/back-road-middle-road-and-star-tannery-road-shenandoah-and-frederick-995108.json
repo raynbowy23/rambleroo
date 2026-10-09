@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Star Tannery",
+      "model": "town-blocks",
+      "at": 0.9682321030947777,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -414,10 +422,11 @@
     {
       "name": "Star Tannery",
       "at": 0.9665071770334929,
-      "landmark": ""
+      "landmark": "Star Tannery"
     }
   ],
   "sources": [
+    "content/stories/back-road-middle-road-and-star-tannery-road-shenandoah-and-frederick-995108.json",
     "public/data/strips/back-road-middle-road-and-star-tannery-road-shenandoah-and-frederick-995108.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -3,8 +3,8 @@
   "bywayId": "markagunt-high-plateau-scenic-byway-u-14-2021",
   "title": "Markagunt High Plateau Scenic Byway (U-14)",
   "longitude": -112.7948,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -239,44 +239,66 @@
     "elevation": [
       [
         0,
-        0.35
+        0.45
       ],
       [
         0.125,
-        0.453
+        0.692
       ],
       [
         0.25,
-        0.7
+        1.275
       ],
       [
         0.375,
-        0.947
+        1.858
       ],
       [
         0.5,
-        1.05
+        2.1
       ],
       [
         0.625,
-        0.947
+        1.858
       ],
       [
         0.75,
-        0.7
+        1.275
       ],
       [
         0.875,
-        0.453
+        0.692
       ],
       [
         1,
-        0.35
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Navajo Lake",
+      "model": "alpine-lake",
+      "at": 0.5910116266315135,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Duck Creek Village",
+      "model": "town-blocks",
+      "at": 0.741055288137553,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -391,7 +413,7 @@
     {
       "name": "Duck Creek Village",
       "at": 0.7415841584158416,
-      "landmark": ""
+      "landmark": "Duck Creek Village"
     },
     {
       "name": "Long Valley Junction",
@@ -400,6 +422,7 @@
     }
   ],
   "sources": [
+    "content/stories/markagunt-high-plateau-scenic-byway-u-14-2021.json",
     "public/data/strips/markagunt-high-plateau-scenic-byway-u-14-2021.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

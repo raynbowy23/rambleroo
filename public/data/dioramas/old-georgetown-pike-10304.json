@@ -3,12 +3,12 @@
   "bywayId": "old-georgetown-pike-10304",
   "title": "Old Georgetown Pike",
   "longitude": -77.247,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "forested-ridges",
+  "palette": "forest",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,85 +239,142 @@
     "elevation": [
       [
         0,
-        0.2
+        0.35
       ],
       [
         0.125,
-        0.218
+        0.453
       ],
       [
         0.25,
-        0.26
+        0.7
       ],
       [
         0.375,
-        0.302
+        0.947
       ],
       [
         0.5,
-        0.32
+        1.05
       ],
       [
         0.625,
-        0.302
+        0.947
       ],
       [
         0.75,
-        0.26
+        0.7
       ],
       [
         0.875,
-        0.218
+        0.453
       ],
       [
         1,
-        0.2
+        0.35
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Great Falls",
+      "model": "town-blocks",
+      "at": 0.26223107541698704,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bull Neck Run",
+      "model": "viaduct",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
+      "model": "hardwood",
+      "at": 0.0875,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
+      "model": "hardwood",
+      "at": 0.09949999999999999,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.375,
+      "model": "hardwood",
+      "at": 0.11149999999999999,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.5,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.875,
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
     }
   ],
   "towns": [
@@ -329,7 +386,7 @@
     {
       "name": "Great Falls",
       "at": 0.261864406779661,
-      "landmark": ""
+      "landmark": "Great Falls"
     },
     {
       "name": "McLean",
@@ -338,6 +395,7 @@
     }
   ],
   "sources": [
+    "content/stories/old-georgetown-pike-10304.json",
     "public/data/strips/old-georgetown-pike-10304.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

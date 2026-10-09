@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Paris Landing State Park",
+      "model": "alpine-lake",
+      "at": 0.07589524147436744,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Savannah",
+      "model": "town-blocks",
+      "at": 0.5388551962739239,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -309,7 +324,7 @@
     {
       "name": "Savannah",
       "at": 0.5389299438368311,
-      "landmark": ""
+      "landmark": "Savannah"
     },
     {
       "name": "Crump",
@@ -333,6 +348,7 @@
     }
   ],
   "sources": [
+    "content/stories/tennessee-river-trail-scenic-byway-994704.json",
     "public/data/strips/tennessee-river-trail-scenic-byway-994704.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

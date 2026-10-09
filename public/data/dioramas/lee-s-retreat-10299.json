@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Appomattox Court House",
+      "model": "farmhouse",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -443,6 +451,7 @@
     }
   ],
   "sources": [
+    "content/stories/lee-s-retreat-10299.json",
     "public/data/strips/lee-s-retreat-10299.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

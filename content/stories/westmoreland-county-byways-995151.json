@@ -1,0 +1,67 @@
+{
+  "id": "westmoreland-county-byways-995151",
+  "tagline": "Kings Highway, with short roads down to the Potomac.",
+  "intro": [
+    "From Oak Grove, Kings Highway runs east across the Northern Neck through Wakefield Corner, Potomac Mills and Baynesville to Montross, the county seat. Along the way short roads turn off toward the Potomac, one to Popes Creek and Washington's birthplace, one into Westmoreland State Park.",
+    "At Montross, Route 622 turns off and runs down to the Potomac at Currioman Landing on Currioman Bay. A side road off it leads to Stratford Hall, where four generations of Lees lived and Robert E. Lee was born."
+  ],
+  "moments": [
+    {
+      "title": "George Washington Birthplace National Monument",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "Where Popes Creek meets the Potomac, the house Washington was born in was lost to fire on Christmas Day 1779, and crushed oyster shells now outline his boyhood home's foundation.",
+      "at": [
+        -76.91638889,
+        38.18555556
+      ]
+    },
+    {
+      "title": "Westmoreland State Park",
+      "kind": "separate excursion",
+      "scene": "coast",
+      "text": "A trail runs down to the Potomac below the Horsehead Cliffs, which hold fossils of porpoises, whales and sharks from as long as 15 million years ago.",
+      "at": [
+        -76.86611111,
+        38.1625
+      ]
+    },
+    {
+      "title": "Montross",
+      "kind": "town",
+      "scene": "town",
+      "text": "At the old courthouse here in June 1774, a meeting adopted Richard Henry Lee's resolution to send aid to blockaded Boston.",
+      "at": [
+        -76.82611111,
+        38.09388889
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia, Virginia State Route 3",
+      "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_3"
+    },
+    {
+      "label": "Wikipedia, George Washington Birthplace National Monument",
+      "url": "https://en.wikipedia.org/wiki/George_Washington_Birthplace_National_Monument"
+    },
+    {
+      "label": "Wikipedia, Westmoreland State Park",
+      "url": "https://en.wikipedia.org/wiki/Westmoreland_State_Park"
+    },
+    {
+      "label": "Wikipedia, Montross, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Montross,_Virginia"
+    },
+    {
+      "label": "Wikipedia, Stratford Hall (plantation)",
+      "url": "https://en.wikipedia.org/wiki/Stratford_Hall_(plantation)"
+    },
+    {
+      "label": "VDOT, Virginia Byways layer, Westmoreland County segments",
+      "url": "https://services.arcgis.com/p5v98VHDX9Atv3l7/arcgis/rest/services/Byways_022024/FeatureServer/0/query?where=LAD_SOURCE%3D%27Westmoreland+County%27&outFields=RTE_COMMON,LAD_SCEN_2&returnGeometry=false&returnDistinctValues=true&f=json"
+    }
+  ],
+  "reviewed": false
+}

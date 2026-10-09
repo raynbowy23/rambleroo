@@ -3,12 +3,12 @@
   "bywayId": "lake-champlain-byway-vermont-53360",
   "title": "Lake Champlain Byway - Vermont",
   "longitude": -73.297,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "low-shore",
+  "palette": "coast",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,14 +275,57 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "South Hero",
+      "model": "orchard",
+      "at": 0.44039171852465936,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "South Hero",
+      "model": "town-blocks",
+      "at": 0.44039171852465936,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sand Bar State Park",
+      "model": "alpine-lake",
+      "at": 0.4978164173595518,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "river",
-      "at": 0.5,
+      "model": "sandbar",
+      "at": 0.041666666666666664,
       "side": 1,
-      "distance": 0.8,
-      "scale": 1
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
     }
   ],
   "towns": [
@@ -304,7 +347,7 @@
     {
       "name": "South Hero",
       "at": 0.4404411764705882,
-      "landmark": ""
+      "landmark": "South Hero"
     },
     {
       "name": "Milton",
@@ -328,6 +371,7 @@
     }
   ],
   "sources": [
+    "content/stories/lake-champlain-byway-vermont-53360.json",
     "public/data/strips/lake-champlain-byway-vermont-53360.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

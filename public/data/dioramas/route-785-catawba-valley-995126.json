@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "McDonalds Mill",
+      "model": "town-blocks",
+      "at": 0.3851499698229124,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Catawba",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -399,15 +414,16 @@
     {
       "name": "McDonalds Mill",
       "at": 0.3845714285714286,
-      "landmark": ""
+      "landmark": "McDonalds Mill"
     },
     {
       "name": "Catawba",
       "at": 0.9988571428571429,
-      "landmark": ""
+      "landmark": "Catawba"
     }
   ],
   "sources": [
+    "content/stories/route-785-catawba-valley-995126.json",
     "public/data/strips/route-785-catawba-valley-995126.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

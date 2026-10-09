@@ -3,237 +3,237 @@
   "bywayId": "cumberland-national-scenic-byway-994702",
   "title": "Cumberland National Scenic Byway",
   "longitude": -83.7906,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
-        -85.50202,
-        36.5434
-      ],
-      [
-        -85.48421,
-        36.51711
-      ],
-      [
-        -85.45708,
-        36.50156
-      ],
-      [
-        -85.4262,
-        36.50332
-      ],
-      [
-        -85.37207,
-        36.47547
-      ],
-      [
-        -85.3472,
-        36.4357
-      ],
-      [
-        -85.33199,
-        36.42768
-      ],
-      [
-        -85.32656,
-        36.39504
-      ],
-      [
-        -85.30144,
-        36.39671
-      ],
-      [
-        -85.27376,
-        36.43668
-      ],
-      [
-        -85.20749,
-        36.45414
-      ],
-      [
-        -85.16171,
-        36.53054
-      ],
-      [
-        -85.16833,
-        36.55392
-      ],
-      [
-        -85.16264,
-        36.57049
-      ],
-      [
-        -85.13854,
-        36.57582
-      ],
-      [
-        -85.11763,
-        36.60656
-      ],
-      [
-        -85.08835,
-        36.62197
-      ],
-      [
-        -85.07029,
-        36.62
-      ],
-      [
-        -85.03235,
-        36.56293
-      ],
-      [
-        -85.01461,
-        36.5664
-      ],
-      [
-        -84.95349,
-        36.53917
-      ],
-      [
-        -84.95668,
-        36.51988
-      ],
-      [
-        -84.97035,
-        36.50815
-      ],
-      [
-        -84.96817,
-        36.48925
-      ],
-      [
-        -84.93679,
-        36.46777
-      ],
-      [
-        -84.90327,
-        36.39811
-      ],
-      [
-        -84.8355,
-        36.35968
-      ],
-      [
-        -84.76368,
-        36.37362
-      ],
-      [
-        -84.72202,
-        36.34998
-      ],
-      [
-        -84.66022,
-        36.34765
-      ],
-      [
-        -84.60264,
-        36.33169
-      ],
-      [
-        -84.56542,
-        36.38169
-      ],
-      [
-        -84.54401,
-        36.38386
-      ],
-      [
-        -84.5378,
-        36.41251
-      ],
-      [
-        -84.46981,
-        36.41491
-      ],
-      [
-        -84.41711,
-        36.3828
-      ],
-      [
-        -84.36771,
-        36.37736
-      ],
-      [
-        -84.3131,
-        36.3964
-      ],
-      [
-        -84.3009,
-        36.41467
-      ],
-      [
-        -84.23328,
-        36.36717
-      ],
-      [
-        -84.22557,
-        36.32232
-      ],
-      [
-        -84.23284,
-        36.31055
-      ],
-      [
-        -84.21454,
-        36.29871
-      ],
-      [
-        -84.1914,
-        36.32988
-      ],
-      [
-        -84.14897,
-        36.35382
-      ],
-      [
-        -84.11405,
-        36.38753
-      ],
-      [
-        -84.02107,
-        36.42999
-      ],
-      [
-        -83.98725,
-        36.44402
-      ],
-      [
-        -83.87148,
-        36.46051
-      ],
-      [
-        -83.80005,
-        36.5047
-      ],
-      [
-        -83.66777,
-        36.54772
-      ],
-      [
-        -83.65379,
-        36.57337
-      ],
-      [
-        -83.65949,
-        36.58974
-      ],
-      [
-        -83.67608,
-        36.59812
+        -83.65346,
+        36.567
       ],
       [
         -83.65846,
         36.58819
       ],
       [
-        -83.65346,
-        36.567
+        -83.67608,
+        36.59812
+      ],
+      [
+        -83.65949,
+        36.58974
+      ],
+      [
+        -83.65379,
+        36.57337
+      ],
+      [
+        -83.66777,
+        36.54772
+      ],
+      [
+        -83.80005,
+        36.5047
+      ],
+      [
+        -83.87148,
+        36.46051
+      ],
+      [
+        -83.98725,
+        36.44402
+      ],
+      [
+        -84.02107,
+        36.42999
+      ],
+      [
+        -84.11405,
+        36.38753
+      ],
+      [
+        -84.14897,
+        36.35382
+      ],
+      [
+        -84.1914,
+        36.32988
+      ],
+      [
+        -84.21454,
+        36.29871
+      ],
+      [
+        -84.23284,
+        36.31055
+      ],
+      [
+        -84.22557,
+        36.32232
+      ],
+      [
+        -84.23328,
+        36.36717
+      ],
+      [
+        -84.3009,
+        36.41467
+      ],
+      [
+        -84.3131,
+        36.3964
+      ],
+      [
+        -84.36771,
+        36.37736
+      ],
+      [
+        -84.41711,
+        36.3828
+      ],
+      [
+        -84.46981,
+        36.41491
+      ],
+      [
+        -84.5378,
+        36.41251
+      ],
+      [
+        -84.54401,
+        36.38386
+      ],
+      [
+        -84.56542,
+        36.38169
+      ],
+      [
+        -84.60264,
+        36.33169
+      ],
+      [
+        -84.66022,
+        36.34765
+      ],
+      [
+        -84.72202,
+        36.34998
+      ],
+      [
+        -84.76368,
+        36.37362
+      ],
+      [
+        -84.8355,
+        36.35968
+      ],
+      [
+        -84.90327,
+        36.39811
+      ],
+      [
+        -84.93679,
+        36.46777
+      ],
+      [
+        -84.96817,
+        36.48925
+      ],
+      [
+        -84.97035,
+        36.50815
+      ],
+      [
+        -84.95668,
+        36.51988
+      ],
+      [
+        -84.95349,
+        36.53917
+      ],
+      [
+        -85.01461,
+        36.5664
+      ],
+      [
+        -85.03235,
+        36.56293
+      ],
+      [
+        -85.07029,
+        36.62
+      ],
+      [
+        -85.08835,
+        36.62197
+      ],
+      [
+        -85.11763,
+        36.60656
+      ],
+      [
+        -85.13854,
+        36.57582
+      ],
+      [
+        -85.16264,
+        36.57049
+      ],
+      [
+        -85.16833,
+        36.55392
+      ],
+      [
+        -85.16171,
+        36.53054
+      ],
+      [
+        -85.20749,
+        36.45414
+      ],
+      [
+        -85.27376,
+        36.43668
+      ],
+      [
+        -85.30144,
+        36.39671
+      ],
+      [
+        -85.32656,
+        36.39504
+      ],
+      [
+        -85.33199,
+        36.42768
+      ],
+      [
+        -85.3472,
+        36.4357
+      ],
+      [
+        -85.37207,
+        36.47547
+      ],
+      [
+        -85.4262,
+        36.50332
+      ],
+      [
+        -85.45708,
+        36.50156
+      ],
+      [
+        -85.48421,
+        36.51711
+      ],
+      [
+        -85.50202,
+        36.5434
       ]
     ],
     "elevation": [
@@ -275,187 +275,105 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Rugby",
+      "model": "town-blocks",
+      "at": 0.5246954628556993,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Alvin York farm and gristmill",
+      "model": "gristmill",
+      "at": 0.683145586516544,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Celina",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.875,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
     {
-      "name": "Celina",
-      "at": 0,
-      "landmark": ""
-    },
-    {
-      "name": "Livingston",
-      "at": 0.10018552875695733,
-      "landmark": ""
-    },
-    {
-      "name": "Byrdstown",
-      "at": 0.2179344465058751,
-      "landmark": ""
-    },
-    {
-      "name": "Pall Mall",
-      "at": 0.3111317254174397,
-      "landmark": ""
-    },
-    {
-      "name": "Jamestown",
-      "at": 0.37538651824366115,
-      "landmark": ""
-    },
-    {
-      "name": "Rugby",
-      "at": 0.4753865182436612,
-      "landmark": ""
-    },
-    {
-      "name": "Huntsville",
-      "at": 0.5816326530612245,
-      "landmark": ""
-    },
-    {
-      "name": "Royal Blue",
-      "at": 0.6850958565244281,
-      "landmark": ""
-    },
-    {
-      "name": "Block",
-      "at": 0.7069035668893717,
-      "landmark": ""
-    },
-    {
-      "name": "LaFollette",
-      "at": 0.7770562770562771,
+      "name": "Harrogate",
+      "at": 0.006555349412492251,
       "landmark": ""
     },
     {
       "name": "Speedwell",
-      "at": 0.8748917748917749,
+      "at": 0.12510822510822506,
       "landmark": ""
     },
     {
-      "name": "Harrogate",
-      "at": 0.9934446505875077,
+      "name": "LaFollette",
+      "at": 0.2229437229437229,
       "landmark": ""
+    },
+    {
+      "name": "Block",
+      "at": 0.293096352470457,
+      "landmark": ""
+    },
+    {
+      "name": "Royal Blue",
+      "at": 0.31490414347557194,
+      "landmark": ""
+    },
+    {
+      "name": "Huntsville",
+      "at": 0.41836734693877553,
+      "landmark": ""
+    },
+    {
+      "name": "Rugby",
+      "at": 0.5246134817563388,
+      "landmark": "Rugby"
+    },
+    {
+      "name": "Jamestown",
+      "at": 0.6246134817563389,
+      "landmark": ""
+    },
+    {
+      "name": "Pall Mall",
+      "at": 0.6888682745825603,
+      "landmark": ""
+    },
+    {
+      "name": "Byrdstown",
+      "at": 0.7820655534941249,
+      "landmark": ""
+    },
+    {
+      "name": "Livingston",
+      "at": 0.8998144712430427,
+      "landmark": ""
+    },
+    {
+      "name": "Celina",
+      "at": 1,
+      "landmark": "Celina"
     }
   ],
   "sources": [
+    "content/stories/cumberland-national-scenic-byway-994702.json",
     "public/data/strips/cumberland-national-scenic-byway-994702.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }

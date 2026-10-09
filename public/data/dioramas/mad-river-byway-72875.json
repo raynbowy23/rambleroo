@@ -3,12 +3,12 @@
   "bywayId": "mad-river-byway-72875",
   "title": "Mad River Byway",
   "longitude": -72.7556,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,50 +239,142 @@
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Great Eddy Covered Bridge",
+      "model": "covered-bridge",
+      "at": 0.4288262934507855,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Granville",
+      "model": "town-blocks",
+      "at": 0.9430870424468768,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "river",
-      "at": 0.5,
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
       "side": 1,
       "distance": 0.8,
-      "scale": 1
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
     }
   ],
   "towns": [
@@ -304,10 +396,11 @@
     {
       "name": "Granville",
       "at": 0.9439024390243903,
-      "landmark": ""
+      "landmark": "Granville"
     }
   ],
   "sources": [
+    "content/stories/mad-river-byway-72875.json",
     "public/data/strips/mad-river-byway-72875.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
