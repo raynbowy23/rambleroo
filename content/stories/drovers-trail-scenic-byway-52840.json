@@ -1,0 +1,66 @@
+{
+  "id": "drovers-trail-scenic-byway-52840",
+  "tagline": "The old cattle road from the National Road to the Ohio.",
+  "motifs": [
+    "viaduct"
+  ],
+  "intro": [
+    "From Hendrysburg, SR 800 runs down to Barnesville, and from there SR 147 heads east across Belmont County to the Ohio River at Bellaire, about 37 miles from the National Road to the river. In the mid-1800s the drove road was the main way through this country, and livestock went east along it. A few drovers' farmsteads remain, built with small upstairs rooms for the droving crews.",
+    "Centerville once had a drovers' hotel, cattle yards and a whip maker whose Centerville Whip the drovers favored. The hotel and the yards are gone. His house, about 150 years old, is still there. At Bellaire the road ends near the stone arches of a railroad viaduct from the mid-1800s."
+  ],
+  "moments": [
+    {
+      "title": "Woodside Farm",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "A 13-room drovers' farmhouse with a wide stone chimney at each end, facing south toward the old drove road, whose deep trench still runs over the hill and down into the valley.",
+      "at": [
+        -81.09350278,
+        40.00585833
+      ]
+    },
+    {
+      "title": "Dysart Woods",
+      "kind": "short walk",
+      "scene": "forest",
+      "text": "Fifty-one acres of original oak forest that two nieces kept from the lumber and coal companies, though half its old trees died within a year of a coal mine dug beneath it in 2010.",
+      "at": [
+        -80.9976,
+        39.9846
+      ]
+    },
+    {
+      "title": "Scatterday Barn",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "A big barn that fed animals on their way east, sided in part with pegged planks taken from the Ohio River barges that carried livestock across.",
+      "at": [
+        -80.93165556,
+        39.96125278
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ohio Department of Transportation, Drovers' Trail Scenic Byway story map",
+      "url": "https://storymaps.arcgis.com/stories/fd9128ed46234cbb977e3ff90815db8f"
+    },
+    {
+      "label": "Ohio Department of Transportation, Drovers' Trail story map places layer (query)",
+      "url": "https://services1.arcgis.com/1AlElnGrgBM62OSj/arcgis/rest/services/DTP_StoryMap_View/FeatureServer/0/query?where=1%3D1&outFields=AOI_Name%2CAOI_Description&outSR=4326&f=pjson"
+    },
+    {
+      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
+      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+    },
+    {
+      "label": "Wikipedia, Dysart Woods",
+      "url": "https://en.wikipedia.org/wiki/Dysart_Woods"
+    },
+    {
+      "label": "Wikipedia, Bellaire, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Bellaire,_Ohio"
+    }
+  ],
+  "reviewed": false
+}
