@@ -1,0 +1,392 @@
+{
+  "authored": false,
+  "bywayId": "route-9-coastal-heritage-scenic-byway-2334",
+  "title": "Route 9 Coastal Heritage Scenic Byway",
+  "longitude": -75.6309,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -75.55037,
+        39.74006
+      ],
+      [
+        -75.54046,
+        39.7345
+      ],
+      [
+        -75.54537,
+        39.72707
+      ],
+      [
+        -75.54379,
+        39.72604
+      ],
+      [
+        -75.54563,
+        39.71964
+      ],
+      [
+        -75.56129,
+        39.67423
+      ],
+      [
+        -75.56105,
+        39.66675
+      ],
+      [
+        -75.56952,
+        39.65985
+      ],
+      [
+        -75.59293,
+        39.65032
+      ],
+      [
+        -75.63141,
+        39.61575
+      ],
+      [
+        -75.62933,
+        39.58043
+      ],
+      [
+        -75.61346,
+        39.58143
+      ],
+      [
+        -75.59936,
+        39.57617
+      ],
+      [
+        -75.58451,
+        39.56428
+      ],
+      [
+        -75.58034,
+        39.55204
+      ],
+      [
+        -75.57782,
+        39.52186
+      ],
+      [
+        -75.57923,
+        39.51723
+      ],
+      [
+        -75.57662,
+        39.5167
+      ],
+      [
+        -75.58135,
+        39.50409
+      ],
+      [
+        -75.58755,
+        39.50066
+      ],
+      [
+        -75.58965,
+        39.4919
+      ],
+      [
+        -75.59443,
+        39.48766
+      ],
+      [
+        -75.60452,
+        39.48674
+      ],
+      [
+        -75.60194,
+        39.47921
+      ],
+      [
+        -75.6051,
+        39.46844
+      ],
+      [
+        -75.61648,
+        39.46406
+      ],
+      [
+        -75.63002,
+        39.4494
+      ],
+      [
+        -75.62963,
+        39.44604
+      ],
+      [
+        -75.6413,
+        39.43826
+      ],
+      [
+        -75.63375,
+        39.43139
+      ],
+      [
+        -75.62909,
+        39.41601
+      ],
+      [
+        -75.6208,
+        39.40235
+      ],
+      [
+        -75.60298,
+        39.40089
+      ],
+      [
+        -75.59825,
+        39.40539
+      ],
+      [
+        -75.58933,
+        39.40627
+      ],
+      [
+        -75.58438,
+        39.39955
+      ],
+      [
+        -75.56983,
+        39.38768
+      ],
+      [
+        -75.55949,
+        39.36426
+      ],
+      [
+        -75.55053,
+        39.35581
+      ],
+      [
+        -75.54144,
+        39.34151
+      ],
+      [
+        -75.5126,
+        39.326
+      ],
+      [
+        -75.51506,
+        39.3152
+      ],
+      [
+        -75.51593,
+        39.28463
+      ],
+      [
+        -75.52131,
+        39.27433
+      ],
+      [
+        -75.51701,
+        39.23956
+      ],
+      [
+        -75.51311,
+        39.23631
+      ],
+      [
+        -75.51107,
+        39.22066
+      ],
+      [
+        -75.50099,
+        39.20761
+      ],
+      [
+        -75.48551,
+        39.19766
+      ],
+      [
+        -75.46763,
+        39.19229
+      ],
+      [
+        -75.45246,
+        39.17702
+      ],
+      [
+        -75.44356,
+        39.15566
+      ],
+      [
+        -75.4482,
+        39.13568
+      ],
+      [
+        -75.44332,
+        39.12689
+      ],
+      [
+        -75.44436,
+        39.11832
+      ],
+      [
+        -75.45419,
+        39.10485
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "New Castle",
+      "model": "harbor",
+      "at": 0.10772191624441516,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "New Castle",
+      "model": "town-blocks",
+      "at": 0.10772191624441516,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Wilmington Public Library",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "New Castle",
+      "at": 0.10767857142857143,
+      "landmark": "New Castle"
+    },
+    {
+      "name": "Tybouts Corner",
+      "at": 0.19339285714285714,
+      "landmark": ""
+    },
+    {
+      "name": "Delaware City",
+      "at": 0.2742857142857143,
+      "landmark": ""
+    },
+    {
+      "name": "Port Penn",
+      "at": 0.3501785714285714,
+      "landmark": ""
+    },
+    {
+      "name": "Mathews Corners",
+      "at": 0.47874999999999995,
+      "landmark": ""
+    },
+    {
+      "name": "Flemings Landing",
+      "at": 0.6398214285714285,
+      "landmark": ""
+    },
+    {
+      "name": "Leipsic",
+      "at": 0.7973214285714285,
+      "landmark": ""
+    },
+    {
+      "name": "Cowgills Corner",
+      "at": 0.8673214285714286,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-9-coastal-heritage-scenic-byway-2334.json",
+    "public/data/strips/route-9-coastal-heritage-scenic-byway-2334.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

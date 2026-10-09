@@ -1,0 +1,392 @@
+{
+  "authored": false,
+  "bywayId": "antietam-campaign-byway-69085",
+  "title": "Antietam Campaign Byway",
+  "longitude": -77.6008,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -77.45914,
+        39.19503
+      ],
+      [
+        -77.46606,
+        39.19407
+      ],
+      [
+        -77.46518,
+        39.17169
+      ],
+      [
+        -77.47407,
+        39.16965
+      ],
+      [
+        -77.47553,
+        39.16418
+      ],
+      [
+        -77.45378,
+        39.15961
+      ],
+      [
+        -77.43273,
+        39.14785
+      ],
+      [
+        -77.41674,
+        39.14606
+      ],
+      [
+        -77.41907,
+        39.16168
+      ],
+      [
+        -77.41296,
+        39.17928
+      ],
+      [
+        -77.39477,
+        39.20013
+      ],
+      [
+        -77.38208,
+        39.20954
+      ],
+      [
+        -77.37776,
+        39.22079
+      ],
+      [
+        -77.35001,
+        39.24695
+      ],
+      [
+        -77.38715,
+        39.25281
+      ],
+      [
+        -77.40156,
+        39.2511
+      ],
+      [
+        -77.39863,
+        39.24604
+      ],
+      [
+        -77.41902,
+        39.22305
+      ],
+      [
+        -77.42644,
+        39.22458
+      ],
+      [
+        -77.44238,
+        39.24866
+      ],
+      [
+        -77.46515,
+        39.26165
+      ],
+      [
+        -77.46518,
+        39.2768
+      ],
+      [
+        -77.43229,
+        39.33245
+      ],
+      [
+        -77.42004,
+        39.33055
+      ],
+      [
+        -77.41496,
+        39.3255
+      ],
+      [
+        -77.40958,
+        39.32692
+      ],
+      [
+        -77.40353,
+        39.33205
+      ],
+      [
+        -77.39995,
+        39.34543
+      ],
+      [
+        -77.38709,
+        39.36046
+      ],
+      [
+        -77.40796,
+        39.39765
+      ],
+      [
+        -77.40364,
+        39.40173
+      ],
+      [
+        -77.42258,
+        39.39868
+      ],
+      [
+        -77.4345,
+        39.40768
+      ],
+      [
+        -77.43482,
+        39.41537
+      ],
+      [
+        -77.49778,
+        39.42217
+      ],
+      [
+        -77.50915,
+        39.43097
+      ],
+      [
+        -77.54086,
+        39.44292
+      ],
+      [
+        -77.55251,
+        39.44415
+      ],
+      [
+        -77.61443,
+        39.47923
+      ],
+      [
+        -77.61638,
+        39.48392
+      ],
+      [
+        -77.63806,
+        39.49122
+      ],
+      [
+        -77.65219,
+        39.50642
+      ],
+      [
+        -77.70061,
+        39.49061
+      ],
+      [
+        -77.70708,
+        39.47823
+      ],
+      [
+        -77.71805,
+        39.46741
+      ],
+      [
+        -77.76582,
+        39.45354
+      ],
+      [
+        -77.78046,
+        39.44141
+      ],
+      [
+        -77.79943,
+        39.43642
+      ],
+      [
+        -77.78981,
+        39.43237
+      ],
+      [
+        -77.75982,
+        39.4299
+      ],
+      [
+        -77.7421,
+        39.41651
+      ],
+      [
+        -77.72045,
+        39.41026
+      ],
+      [
+        -77.72226,
+        39.39669
+      ],
+      [
+        -77.72802,
+        39.38551
+      ],
+      [
+        -77.71178,
+        39.38231
+      ],
+      [
+        -77.71396,
+        39.37943
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Poolesville",
+      "model": "town-blocks",
+      "at": 0.09039209914302053,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Tolson's Chapel",
+      "model": "town-blocks",
+      "at": 0.84072038469282,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Poolesville",
+      "at": 0.09014084507042264,
+      "landmark": "Poolesville"
+    },
+    {
+      "name": "Barnesville",
+      "at": 0.1747887323943661,
+      "landmark": ""
+    },
+    {
+      "name": "Dickerson",
+      "at": 0.28549295774647887,
+      "landmark": ""
+    },
+    {
+      "name": "Adamstown",
+      "at": 0.3750704225352113,
+      "landmark": ""
+    },
+    {
+      "name": "Lewistown",
+      "at": 0.49732394366197186,
+      "landmark": ""
+    },
+    {
+      "name": "Braddock Heights",
+      "at": 0.6004225352112675,
+      "landmark": ""
+    },
+    {
+      "name": "Boonsboro",
+      "at": 0.7507042253521127,
+      "landmark": ""
+    },
+    {
+      "name": "Sharpsburg",
+      "at": 0.8415492957746479,
+      "landmark": ""
+    },
+    {
+      "name": "Antietam",
+      "at": 0.9391549295774648,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/antietam-campaign-byway-69085.json",
+    "public/data/strips/antietam-campaign-byway-69085.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

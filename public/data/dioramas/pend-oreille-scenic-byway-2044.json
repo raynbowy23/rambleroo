@@ -1,0 +1,346 @@
+{
+  "authored": false,
+  "bywayId": "pend-oreille-scenic-byway-2044",
+  "title": "Pend Oreille Scenic Byway",
+  "longitude": -116.2914,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -116.55057,
+        48.28993
+      ],
+      [
+        -116.54686,
+        48.29109
+      ],
+      [
+        -116.54645,
+        48.29554
+      ],
+      [
+        -116.52949,
+        48.30921
+      ],
+      [
+        -116.51253,
+        48.30919
+      ],
+      [
+        -116.48272,
+        48.31762
+      ],
+      [
+        -116.46398,
+        48.31464
+      ],
+      [
+        -116.46082,
+        48.31575
+      ],
+      [
+        -116.45606,
+        48.31976
+      ],
+      [
+        -116.45192,
+        48.32158
+      ],
+      [
+        -116.41334,
+        48.32654
+      ],
+      [
+        -116.4011,
+        48.32928
+      ],
+      [
+        -116.39429,
+        48.32833
+      ],
+      [
+        -116.38796,
+        48.32423
+      ],
+      [
+        -116.37915,
+        48.32308
+      ],
+      [
+        -116.37655,
+        48.3214
+      ],
+      [
+        -116.37499,
+        48.31739
+      ],
+      [
+        -116.37217,
+        48.31454
+      ],
+      [
+        -116.37012,
+        48.30628
+      ],
+      [
+        -116.36734,
+        48.30126
+      ],
+      [
+        -116.35077,
+        48.28567
+      ],
+      [
+        -116.34532,
+        48.27578
+      ],
+      [
+        -116.34012,
+        48.27149
+      ],
+      [
+        -116.33473,
+        48.26374
+      ],
+      [
+        -116.31723,
+        48.25281
+      ],
+      [
+        -116.31459,
+        48.24932
+      ],
+      [
+        -116.30518,
+        48.24551
+      ],
+      [
+        -116.29927,
+        48.24124
+      ],
+      [
+        -116.29256,
+        48.23935
+      ],
+      [
+        -116.27896,
+        48.23317
+      ],
+      [
+        -116.26922,
+        48.22263
+      ],
+      [
+        -116.25737,
+        48.21559
+      ],
+      [
+        -116.24726,
+        48.19562
+      ],
+      [
+        -116.24532,
+        48.19003
+      ],
+      [
+        -116.24278,
+        48.18687
+      ],
+      [
+        -116.23067,
+        48.17855
+      ],
+      [
+        -116.21243,
+        48.17553
+      ],
+      [
+        -116.20778,
+        48.17348
+      ],
+      [
+        -116.20499,
+        48.16864
+      ],
+      [
+        -116.19623,
+        48.16267
+      ],
+      [
+        -116.18988,
+        48.15536
+      ],
+      [
+        -116.18497,
+        48.15269
+      ],
+      [
+        -116.18067,
+        48.14774
+      ],
+      [
+        -116.17186,
+        48.14372
+      ],
+      [
+        -116.1705,
+        48.13771
+      ],
+      [
+        -116.16867,
+        48.13497
+      ],
+      [
+        -116.15706,
+        48.12612
+      ],
+      [
+        -116.14783,
+        48.12207
+      ],
+      [
+        -116.14297,
+        48.11843
+      ],
+      [
+        -116.12926,
+        48.10186
+      ],
+      [
+        -116.12364,
+        48.09953
+      ],
+      [
+        -116.07815,
+        48.08917
+      ],
+      [
+        -116.06979,
+        48.08981
+      ],
+      [
+        -116.06147,
+        48.09311
+      ],
+      [
+        -116.05449,
+        48.0918
+      ],
+      [
+        -116.04946,
+        48.09204
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Hope",
+      "model": "alpine-lake",
+      "at": 0.4654803929602061,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hope",
+      "model": "town-blocks",
+      "at": 0.4654803929602061,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Clark Fork",
+      "model": "town-blocks",
+      "at": 0.7625089078885509,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cabinet",
+      "model": "town-blocks",
+      "at": 0.9615142442208211,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Sandpoint",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Hope",
+      "at": 0.46475903614457825,
+      "landmark": "Hope"
+    },
+    {
+      "name": "Clark Fork",
+      "at": 0.7617469879518072,
+      "landmark": "Clark Fork"
+    },
+    {
+      "name": "Cabinet",
+      "at": 0.96144578313253,
+      "landmark": "Cabinet"
+    }
+  ],
+  "sources": [
+    "content/stories/pend-oreille-scenic-byway-2044.json",
+    "public/data/strips/pend-oreille-scenic-byway-2044.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

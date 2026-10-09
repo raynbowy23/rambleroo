@@ -1,0 +1,401 @@
+{
+  "authored": false,
+  "bywayId": "routes-79-and-80-north-madison-990922",
+  "title": "Routes 79 and 80, North Madison",
+  "longitude": -72.631,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -72.63838,
+        41.36017
+      ],
+      [
+        -72.63849,
+        41.36011
+      ],
+      [
+        -72.63865,
+        41.35995
+      ],
+      [
+        -72.63872,
+        41.35973
+      ],
+      [
+        -72.63767,
+        41.36017
+      ],
+      [
+        -72.63806,
+        41.3602
+      ],
+      [
+        -72.63826,
+        41.36019
+      ],
+      [
+        -72.63838,
+        41.36017
+      ],
+      [
+        -72.63849,
+        41.36011
+      ],
+      [
+        -72.63865,
+        41.35995
+      ],
+      [
+        -72.63872,
+        41.35973
+      ],
+      [
+        -72.6388,
+        41.35959
+      ],
+      [
+        -72.63891,
+        41.35948
+      ],
+      [
+        -72.63781,
+        41.35938
+      ],
+      [
+        -72.63763,
+        41.35952
+      ],
+      [
+        -72.63753,
+        41.35968
+      ],
+      [
+        -72.63753,
+        41.35977
+      ],
+      [
+        -72.6488,
+        41.3573
+      ],
+      [
+        -72.64422,
+        41.35785
+      ],
+      [
+        -72.6433,
+        41.35797
+      ],
+      [
+        -72.64277,
+        41.35807
+      ],
+      [
+        -72.64242,
+        41.35815
+      ],
+      [
+        -72.64151,
+        41.3584
+      ],
+      [
+        -72.64091,
+        41.35861
+      ],
+      [
+        -72.63908,
+        41.35936
+      ],
+      [
+        -72.63879,
+        41.35939
+      ],
+      [
+        -72.63824,
+        41.35933
+      ],
+      [
+        -72.63805,
+        41.35933
+      ],
+      [
+        -72.63794,
+        41.35934
+      ],
+      [
+        -72.63781,
+        41.35938
+      ],
+      [
+        -72.63763,
+        41.35952
+      ],
+      [
+        -72.63753,
+        41.35968
+      ],
+      [
+        -72.63753,
+        41.35977
+      ],
+      [
+        -72.63748,
+        41.35986
+      ],
+      [
+        -72.63742,
+        41.35995
+      ],
+      [
+        -72.63729,
+        41.36008
+      ],
+      [
+        -72.63715,
+        41.36017
+      ],
+      [
+        -72.63658,
+        41.36039
+      ],
+      [
+        -72.63633,
+        41.36047
+      ],
+      [
+        -72.63563,
+        41.36066
+      ],
+      [
+        -72.6353,
+        41.36073
+      ],
+      [
+        -72.63497,
+        41.36078
+      ],
+      [
+        -72.63403,
+        41.36088
+      ],
+      [
+        -72.63323,
+        41.36088
+      ],
+      [
+        -72.63241,
+        41.36081
+      ],
+      [
+        -72.63149,
+        41.36064
+      ],
+      [
+        -72.63106,
+        41.36053
+      ],
+      [
+        -72.62792,
+        41.35981
+      ],
+      [
+        -72.62525,
+        41.35918
+      ],
+      [
+        -72.62175,
+        41.35838
+      ],
+      [
+        -72.61835,
+        41.35758
+      ],
+      [
+        -72.6176,
+        41.35744
+      ],
+      [
+        -72.61728,
+        41.35739
+      ],
+      [
+        -72.61627,
+        41.35729
+      ],
+      [
+        -72.61554,
+        41.35726
+      ],
+      [
+        -72.61299,
+        41.35722
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "North Madison",
+      "model": "town-blocks",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Hammonasset River Bridge",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.6666666666666666,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "North Madison",
+      "at": 0.10689655172413794,
+      "landmark": "North Madison"
+    }
+  ],
+  "sources": [
+    "content/stories/routes-79-and-80-north-madison-990922.json",
+    "public/data/strips/routes-79-and-80-north-madison-990922.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,387 @@
+{
+  "authored": false,
+  "bywayId": "booth-s-escape-2269",
+  "title": "Booth's Escape",
+  "longitude": -76.8415,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -76.95808,
+        38.8549
+      ],
+      [
+        -76.94165,
+        38.83359
+      ],
+      [
+        -76.92506,
+        38.82592
+      ],
+      [
+        -76.91075,
+        38.81174
+      ],
+      [
+        -76.89434,
+        38.7831
+      ],
+      [
+        -76.89882,
+        38.78219
+      ],
+      [
+        -76.90026,
+        38.77297
+      ],
+      [
+        -76.89501,
+        38.75686
+      ],
+      [
+        -76.89742,
+        38.74575
+      ],
+      [
+        -76.89473,
+        38.73889
+      ],
+      [
+        -76.89656,
+        38.72542
+      ],
+      [
+        -76.88538,
+        38.7135
+      ],
+      [
+        -76.88287,
+        38.70474
+      ],
+      [
+        -76.87595,
+        38.7018
+      ],
+      [
+        -76.87207,
+        38.69535
+      ],
+      [
+        -76.8761,
+        38.6698
+      ],
+      [
+        -76.87251,
+        38.64825
+      ],
+      [
+        -76.87495,
+        38.61782
+      ],
+      [
+        -76.86361,
+        38.61895
+      ],
+      [
+        -76.84478,
+        38.61338
+      ],
+      [
+        -76.8258,
+        38.61541
+      ],
+      [
+        -76.82202,
+        38.60642
+      ],
+      [
+        -76.82425,
+        38.59938
+      ],
+      [
+        -76.82181,
+        38.59315
+      ],
+      [
+        -76.81738,
+        38.58998
+      ],
+      [
+        -76.82443,
+        38.58704
+      ],
+      [
+        -76.83908,
+        38.56832
+      ],
+      [
+        -76.84309,
+        38.55201
+      ],
+      [
+        -76.83979,
+        38.54605
+      ],
+      [
+        -76.84259,
+        38.52615
+      ],
+      [
+        -76.84107,
+        38.52184
+      ],
+      [
+        -76.86097,
+        38.51026
+      ],
+      [
+        -76.86772,
+        38.50234
+      ],
+      [
+        -76.87376,
+        38.49137
+      ],
+      [
+        -76.87265,
+        38.48205
+      ],
+      [
+        -76.88278,
+        38.4798
+      ],
+      [
+        -76.896,
+        38.48238
+      ],
+      [
+        -76.90321,
+        38.48638
+      ],
+      [
+        -76.92817,
+        38.49121
+      ],
+      [
+        -76.9428,
+        38.50009
+      ],
+      [
+        -76.94746,
+        38.49501
+      ],
+      [
+        -76.95266,
+        38.47448
+      ],
+      [
+        -76.9903,
+        38.45981
+      ],
+      [
+        -76.98922,
+        38.44979
+      ],
+      [
+        -76.98029,
+        38.43951
+      ],
+      [
+        -76.98633,
+        38.4148
+      ],
+      [
+        -76.99236,
+        38.40404
+      ],
+      [
+        -76.99102,
+        38.39867
+      ],
+      [
+        -76.98541,
+        38.39225
+      ],
+      [
+        -76.95844,
+        38.39243
+      ],
+      [
+        -76.96166,
+        38.38639
+      ],
+      [
+        -76.95682,
+        38.37959
+      ],
+      [
+        -76.95745,
+        38.37615
+      ],
+      [
+        -76.96104,
+        38.3698
+      ],
+      [
+        -76.96828,
+        38.36562
+      ],
+      [
+        -77.01462,
+        38.35928
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Surratt House, Clinton",
+      "model": "farmhouse",
+      "at": 0.14862478350118247,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dr. Samuel A. Mudd House",
+      "model": "farmhouse",
+      "at": 0.4185148120449545,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Camp Springs",
+      "at": 0.07822736030828516,
+      "landmark": ""
+    },
+    {
+      "name": "Clinton",
+      "at": 0.1508670520231214,
+      "landmark": ""
+    },
+    {
+      "name": "Brandywine",
+      "at": 0.2524084778420039,
+      "landmark": ""
+    },
+    {
+      "name": "Waldorf",
+      "at": 0.3210019267822736,
+      "landmark": ""
+    },
+    {
+      "name": "Bryantown",
+      "at": 0.5048169556840078,
+      "landmark": ""
+    },
+    {
+      "name": "Dentsville",
+      "at": 0.6396917148362236,
+      "landmark": ""
+    },
+    {
+      "name": "Bel Alton",
+      "at": 0.7710982658959539,
+      "landmark": ""
+    },
+    {
+      "name": "Newburg",
+      "at": 0.9308285163776494,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/booth-s-escape-2269.json",
+    "public/data/strips/booth-s-escape-2269.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,438 @@
+{
+  "authored": false,
+  "bywayId": "geronimo-trail-scenic-byway-2091",
+  "title": "Geronimo Trail Scenic Byway",
+  "longitude": -107.661,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -108.10955,
+        33.42381
+      ],
+      [
+        -108.088,
+        33.42585
+      ],
+      [
+        -108.08055,
+        33.41828
+      ],
+      [
+        -108.07386,
+        33.42781
+      ],
+      [
+        -108.02684,
+        33.43991
+      ],
+      [
+        -107.96233,
+        33.4221
+      ],
+      [
+        -107.93739,
+        33.44362
+      ],
+      [
+        -107.90001,
+        33.43509
+      ],
+      [
+        -107.80758,
+        33.46709
+      ],
+      [
+        -107.78897,
+        33.48454
+      ],
+      [
+        -107.74781,
+        33.48557
+      ],
+      [
+        -107.70596,
+        33.47033
+      ],
+      [
+        -107.67457,
+        33.4696
+      ],
+      [
+        -107.67664,
+        33.44378
+      ],
+      [
+        -107.69341,
+        33.42204
+      ],
+      [
+        -107.65065,
+        33.35234
+      ],
+      [
+        -107.62289,
+        33.36645
+      ],
+      [
+        -107.61292,
+        33.38446
+      ],
+      [
+        -107.6012,
+        33.38353
+      ],
+      [
+        -107.59717,
+        33.37262
+      ],
+      [
+        -107.55326,
+        33.35031
+      ],
+      [
+        -107.52086,
+        33.31904
+      ],
+      [
+        -107.46802,
+        33.30012
+      ],
+      [
+        -107.43137,
+        33.26763
+      ],
+      [
+        -107.36436,
+        33.23694
+      ],
+      [
+        -107.34949,
+        33.2357
+      ],
+      [
+        -107.34217,
+        33.2528
+      ],
+      [
+        -107.27147,
+        33.25256
+      ],
+      [
+        -107.25443,
+        33.22108
+      ],
+      [
+        -107.20848,
+        33.17968
+      ],
+      [
+        -107.21747,
+        33.14961
+      ],
+      [
+        -107.23219,
+        33.13564
+      ],
+      [
+        -107.29841,
+        33.11151
+      ],
+      [
+        -107.29356,
+        33.0699
+      ],
+      [
+        -107.31283,
+        33.01852
+      ],
+      [
+        -107.31554,
+        32.99608
+      ],
+      [
+        -107.30424,
+        32.98634
+      ],
+      [
+        -107.31195,
+        32.95314
+      ],
+      [
+        -107.35383,
+        32.96691
+      ],
+      [
+        -107.43028,
+        32.97386
+      ],
+      [
+        -107.4816,
+        32.96305
+      ],
+      [
+        -107.49377,
+        32.94621
+      ],
+      [
+        -107.54757,
+        32.93503
+      ],
+      [
+        -107.5528,
+        32.92114
+      ],
+      [
+        -107.69575,
+        32.91999
+      ],
+      [
+        -107.73285,
+        32.89378
+      ],
+      [
+        -107.74969,
+        32.90505
+      ],
+      [
+        -107.76799,
+        32.90198
+      ],
+      [
+        -107.76588,
+        32.91167
+      ],
+      [
+        -107.775,
+        32.91666
+      ],
+      [
+        -107.81521,
+        32.9084
+      ],
+      [
+        -107.83516,
+        32.89075
+      ],
+      [
+        -107.86354,
+        32.8856
+      ],
+      [
+        -107.89126,
+        32.84592
+      ],
+      [
+        -107.90826,
+        32.79414
+      ],
+      [
+        -107.93235,
+        32.79882
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Truth or Consequences",
+      "model": "town-blocks",
+      "at": 0.5475552005167759,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Elephant Butte Dam",
+      "model": "alpine-lake",
+      "at": 0.5475552005167759,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Kingston",
+      "model": "false-front-town",
+      "at": 0.8278005931902461,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Kingston",
+      "model": "town-blocks",
+      "at": 0.8278005931902461,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Winston",
+      "at": 0.2770068027210884,
+      "landmark": ""
+    },
+    {
+      "name": "Cuchillo",
+      "at": 0.4285034013605442,
+      "landmark": ""
+    },
+    {
+      "name": "Hot Springs Landing",
+      "at": 0.5035374149659864,
+      "landmark": ""
+    },
+    {
+      "name": "Williamsburg",
+      "at": 0.5690476190476191,
+      "landmark": ""
+    },
+    {
+      "name": "Caballo",
+      "at": 0.637891156462585,
+      "landmark": ""
+    },
+    {
+      "name": "Hillsboro",
+      "at": 0.767891156462585,
+      "landmark": ""
+    },
+    {
+      "name": "Casas Adobes",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/geronimo-trail-scenic-byway-2091.json",
+    "public/data/strips/geronimo-trail-scenic-byway-2091.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,374 @@
+{
+  "authored": false,
+  "bywayId": "barbour-county-governor-s-trail-2558",
+  "title": "Barbour County Governor's Trail",
+  "longitude": -85.4217,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -85.6105,
+        31.70877
+      ],
+      [
+        -85.60868,
+        31.71297
+      ],
+      [
+        -85.60393,
+        31.71786
+      ],
+      [
+        -85.60191,
+        31.72598
+      ],
+      [
+        -85.60574,
+        31.73474
+      ],
+      [
+        -85.59867,
+        31.74734
+      ],
+      [
+        -85.59172,
+        31.75405
+      ],
+      [
+        -85.58407,
+        31.75628
+      ],
+      [
+        -85.57271,
+        31.76738
+      ],
+      [
+        -85.56842,
+        31.77363
+      ],
+      [
+        -85.56173,
+        31.77931
+      ],
+      [
+        -85.55779,
+        31.78001
+      ],
+      [
+        -85.55067,
+        31.79126
+      ],
+      [
+        -85.55022,
+        31.80274
+      ],
+      [
+        -85.5483,
+        31.80686
+      ],
+      [
+        -85.54367,
+        31.80904
+      ],
+      [
+        -85.53441,
+        31.8104
+      ],
+      [
+        -85.53252,
+        31.81422
+      ],
+      [
+        -85.52685,
+        31.81555
+      ],
+      [
+        -85.52093,
+        31.82105
+      ],
+      [
+        -85.51733,
+        31.8222
+      ],
+      [
+        -85.5092,
+        31.83002
+      ],
+      [
+        -85.5098,
+        31.8371
+      ],
+      [
+        -85.50813,
+        31.84098
+      ],
+      [
+        -85.5031,
+        31.84415
+      ],
+      [
+        -85.49701,
+        31.85184
+      ],
+      [
+        -85.49339,
+        31.85379
+      ],
+      [
+        -85.48093,
+        31.85316
+      ],
+      [
+        -85.4718,
+        31.86061
+      ],
+      [
+        -85.47062,
+        31.86439
+      ],
+      [
+        -85.46548,
+        31.87058
+      ],
+      [
+        -85.45003,
+        31.87572
+      ],
+      [
+        -85.44955,
+        31.87823
+      ],
+      [
+        -85.43542,
+        31.8777
+      ],
+      [
+        -85.43353,
+        31.87353
+      ],
+      [
+        -85.43401,
+        31.8686
+      ],
+      [
+        -85.43232,
+        31.86556
+      ],
+      [
+        -85.40122,
+        31.85996
+      ],
+      [
+        -85.35921,
+        31.86939
+      ],
+      [
+        -85.34915,
+        31.87873
+      ],
+      [
+        -85.33741,
+        31.88086
+      ],
+      [
+        -85.33102,
+        31.88391
+      ],
+      [
+        -85.31901,
+        31.88527
+      ],
+      [
+        -85.30701,
+        31.89284
+      ],
+      [
+        -85.29758,
+        31.89441
+      ],
+      [
+        -85.26367,
+        31.87966
+      ],
+      [
+        -85.24491,
+        31.87624
+      ],
+      [
+        -85.23397,
+        31.87707
+      ],
+      [
+        -85.22399,
+        31.87608
+      ],
+      [
+        -85.20295,
+        31.86616
+      ],
+      [
+        -85.17984,
+        31.8573
+      ],
+      [
+        -85.16677,
+        31.85716
+      ],
+      [
+        -85.16435,
+        31.86259
+      ],
+      [
+        -85.14696,
+        31.88055
+      ],
+      [
+        -85.14565,
+        31.88411
+      ],
+      [
+        -85.14582,
+        31.89144
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Louisville",
+      "model": "town-blocks",
+      "at": 0.1676920120181342,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Clayton",
+      "model": "steeple-town",
+      "at": 0.4101522158789841,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Clayton",
+      "model": "town-blocks",
+      "at": 0.4101522158789841,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Clio",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Louisville",
+      "at": 0.16762402088772846,
+      "landmark": "Louisville"
+    },
+    {
+      "name": "Clayton",
+      "at": 0.40992167101827676,
+      "landmark": "Clayton"
+    },
+    {
+      "name": "Eufaula",
+      "at": 0.9968668407310706,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/barbour-county-governor-s-trail-2558.json",
+    "public/data/strips/barbour-county-governor-s-trail-2558.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

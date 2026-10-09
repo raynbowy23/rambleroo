@@ -1,0 +1,166 @@
+{
+  "authored": false,
+  "bywayId": "river-road-scenic-byway-74703",
+  "title": "River Road Scenic Byway",
+  "longitude": -86.9455,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -87.0771,
+        40.4012
+      ],
+      [
+        -87.0786,
+        40.4044
+      ],
+      [
+        -87.0789,
+        40.4094
+      ],
+      [
+        -87.0696,
+        40.4095
+      ],
+      [
+        -87.0693,
+        40.4168
+      ],
+      [
+        -87.0548,
+        40.4165
+      ],
+      [
+        -87.0462,
+        40.4183
+      ],
+      [
+        -87.0392,
+        40.416
+      ],
+      [
+        -87.021,
+        40.4181
+      ],
+      [
+        -86.9955,
+        40.4166
+      ],
+      [
+        -86.9709,
+        40.4107
+      ],
+      [
+        -86.9686,
+        40.4087
+      ],
+      [
+        -86.9508,
+        40.4024
+      ],
+      [
+        -86.9326,
+        40.4024
+      ],
+      [
+        -86.9225,
+        40.4061
+      ],
+      [
+        -86.9162,
+        40.4091
+      ],
+      [
+        -86.9098,
+        40.4145
+      ],
+      [
+        -86.9033,
+        40.4237
+      ],
+      [
+        -86.8975,
+        40.4356
+      ],
+      [
+        -86.8938,
+        40.4566
+      ],
+      [
+        -86.8854,
+        40.4707
+      ],
+      [
+        -86.8816,
+        40.4813
+      ],
+      [
+        -86.8688,
+        40.4928
+      ],
+      [
+        -86.8683,
+        40.4968
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "whitewater-canal-scenic-byway-74696",
+  "title": "Whitewater Canal Scenic Byway",
+  "longitude": -85.1841,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -85.16122,
+        39.91082
+      ],
+      [
+        -85.1434,
+        39.90978
+      ],
+      [
+        -85.14476,
+        39.8359
+      ],
+      [
+        -85.15362,
+        39.82416
+      ],
+      [
+        -85.15469,
+        39.81685
+      ],
+      [
+        -85.17531,
+        39.81721
+      ],
+      [
+        -85.16492,
+        39.80268
+      ],
+      [
+        -85.15518,
+        39.79917
+      ],
+      [
+        -85.15557,
+        39.78303
+      ],
+      [
+        -85.15207,
+        39.77667
+      ],
+      [
+        -85.13733,
+        39.76482
+      ],
+      [
+        -85.13895,
+        39.6457
+      ],
+      [
+        -85.15494,
+        39.5978
+      ],
+      [
+        -85.16226,
+        39.59311
+      ],
+      [
+        -85.1585,
+        39.58656
+      ],
+      [
+        -85.15925,
+        39.57179
+      ],
+      [
+        -85.17555,
+        39.55611
+      ],
+      [
+        -85.173,
+        39.53367
+      ],
+      [
+        -85.17634,
+        39.53331
+      ],
+      [
+        -85.17924,
+        39.5104
+      ],
+      [
+        -85.18759,
+        39.49932
+      ],
+      [
+        -85.20063,
+        39.494
+      ],
+      [
+        -85.19655,
+        39.47901
+      ],
+      [
+        -85.18536,
+        39.47179
+      ],
+      [
+        -85.18558,
+        39.45522
+      ],
+      [
+        -85.18176,
+        39.451
+      ],
+      [
+        -85.16449,
+        39.44774
+      ],
+      [
+        -85.14454,
+        39.45027
+      ],
+      [
+        -85.12764,
+        39.44608
+      ],
+      [
+        -85.11375,
+        39.45216
+      ],
+      [
+        -85.10825,
+        39.45002
+      ],
+      [
+        -85.10188,
+        39.44044
+      ],
+      [
+        -85.0856,
+        39.44479
+      ],
+      [
+        -85.07303,
+        39.44192
+      ],
+      [
+        -85.06768,
+        39.43734
+      ],
+      [
+        -85.04683,
+        39.43457
+      ],
+      [
+        -85.04194,
+        39.43039
+      ],
+      [
+        -85.02821,
+        39.43409
+      ],
+      [
+        -85.01284,
+        39.42807
+      ],
+      [
+        -85.01057,
+        39.40965
+      ],
+      [
+        -85.00488,
+        39.40172
+      ],
+      [
+        -84.99121,
+        39.39405
+      ],
+      [
+        -84.98977,
+        39.38907
+      ],
+      [
+        -84.98149,
+        39.3869
+      ],
+      [
+        -84.9523,
+        39.36286
+      ],
+      [
+        -84.91773,
+        39.35116
+      ],
+      [
+        -84.91645,
+        39.34142
+      ],
+      [
+        -84.89592,
+        39.32601
+      ],
+      [
+        -84.89629,
+        39.32165
+      ],
+      [
+        -84.903,
+        39.31491
+      ],
+      [
+        -84.90154,
+        39.31086
+      ],
+      [
+        -84.88556,
+        39.2965
+      ],
+      [
+        -84.8701,
+        39.28877
+      ],
+      [
+        -84.86287,
+        39.27956
+      ],
+      [
+        -84.82517,
+        39.27658
+      ],
+      [
+        -84.81984,
+        39.27003
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Cambridge City",
+      "model": "town-blocks",
+      "at": 0.140834358508305,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Laurel",
+      "model": "town-blocks",
+      "at": 0.5059394701447096,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Metamora",
+      "model": "gristmill",
+      "at": 0.6192154134614587,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Metamora",
+      "model": "town-blocks",
+      "at": 0.6192154134614587,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Hagerstown",
+      "at": 0.004629629629629629,
+      "landmark": ""
+    },
+    {
+      "name": "Cambridge City",
+      "at": 0.14089506172839508,
+      "landmark": "Cambridge City"
+    },
+    {
+      "name": "Connersville",
+      "at": 0.3282407407407407,
+      "landmark": ""
+    },
+    {
+      "name": "Alpine",
+      "at": 0.4404320987654321,
+      "landmark": ""
+    },
+    {
+      "name": "Laurel",
+      "at": 0.5060185185185185,
+      "landmark": "Laurel"
+    },
+    {
+      "name": "Metamora",
+      "at": 0.6192901234567902,
+      "landmark": "Metamora"
+    },
+    {
+      "name": "Brookville",
+      "at": 0.7354938271604938,
+      "landmark": ""
+    },
+    {
+      "name": "Cedar Grove",
+      "at": 0.8408950617283951,
+      "landmark": ""
+    },
+    {
+      "name": "New Trenton",
+      "at": 0.9162037037037037,
+      "landmark": ""
+    },
+    {
+      "name": "West Harrison",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/whitewater-canal-scenic-byway-74696.json",
+    "public/data/strips/whitewater-canal-scenic-byway-74696.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,357 @@
+{
+  "authored": false,
+  "bywayId": "attakapas-coushatta-scenic-byway-52924",
+  "title": "Attakapas-Coushatta Scenic Byway",
+  "longitude": -93.4826,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -93.6084,
+        30.74671
+      ],
+      [
+        -93.60755,
+        30.74648
+      ],
+      [
+        -93.6058,
+        30.74584
+      ],
+      [
+        -93.60268,
+        30.74453
+      ],
+      [
+        -93.60174,
+        30.74431
+      ],
+      [
+        -93.60094,
+        30.74422
+      ],
+      [
+        -93.59941,
+        30.74431
+      ],
+      [
+        -93.55688,
+        30.75168
+      ],
+      [
+        -93.55535,
+        30.75226
+      ],
+      [
+        -93.55283,
+        30.75394
+      ],
+      [
+        -93.55001,
+        30.7553
+      ],
+      [
+        -93.54944,
+        30.75566
+      ],
+      [
+        -93.5488,
+        30.75623
+      ],
+      [
+        -93.54074,
+        30.76421
+      ],
+      [
+        -93.54023,
+        30.76477
+      ],
+      [
+        -93.53946,
+        30.76581
+      ],
+      [
+        -93.53874,
+        30.76703
+      ],
+      [
+        -93.53834,
+        30.76856
+      ],
+      [
+        -93.53841,
+        30.77032
+      ],
+      [
+        -93.53837,
+        30.77119
+      ],
+      [
+        -93.53854,
+        30.78397
+      ],
+      [
+        -93.53849,
+        30.7848
+      ],
+      [
+        -93.53825,
+        30.78589
+      ],
+      [
+        -93.53789,
+        30.78698
+      ],
+      [
+        -93.53485,
+        30.79567
+      ],
+      [
+        -93.53418,
+        30.79717
+      ],
+      [
+        -93.53338,
+        30.79839
+      ],
+      [
+        -93.53143,
+        30.80067
+      ],
+      [
+        -93.53089,
+        30.80118
+      ],
+      [
+        -93.53019,
+        30.80173
+      ],
+      [
+        -93.52787,
+        30.80312
+      ],
+      [
+        -93.52678,
+        30.80414
+      ],
+      [
+        -93.51852,
+        30.81394
+      ],
+      [
+        -93.51784,
+        30.81515
+      ],
+      [
+        -93.51233,
+        30.82843
+      ],
+      [
+        -93.50894,
+        30.83611
+      ],
+      [
+        -93.50854,
+        30.83679
+      ],
+      [
+        -93.50754,
+        30.83786
+      ],
+      [
+        -93.50659,
+        30.83849
+      ],
+      [
+        -93.50569,
+        30.83889
+      ],
+      [
+        -93.50447,
+        30.83919
+      ],
+      [
+        -93.50328,
+        30.83927
+      ],
+      [
+        -93.49419,
+        30.83919
+      ],
+      [
+        -93.43017,
+        30.83925
+      ],
+      [
+        -93.38204,
+        30.83917
+      ],
+      [
+        -93.35318,
+        30.83927
+      ],
+      [
+        -93.35146,
+        30.83936
+      ],
+      [
+        -93.34994,
+        30.83956
+      ],
+      [
+        -93.34701,
+        30.84012
+      ],
+      [
+        -93.32733,
+        30.84554
+      ],
+      [
+        -93.32364,
+        30.84643
+      ],
+      [
+        -93.32207,
+        30.84667
+      ],
+      [
+        -93.31888,
+        30.84694
+      ],
+      [
+        -93.3133,
+        30.84701
+      ],
+      [
+        -93.29939,
+        30.84697
+      ],
+      [
+        -93.28903,
+        30.84675
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Merryville",
+      "model": "town-blocks",
+      "at": 0.45906036646735016,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Beauregard Parish Jail",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Merryville",
+      "at": 0.1761904761904762,
+      "landmark": "Merryville"
+    },
+    {
+      "name": "DeRidder",
+      "at": 0.9930735930735931,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/attakapas-coushatta-scenic-byway-52924.json",
+    "public/data/strips/attakapas-coushatta-scenic-byway-52924.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

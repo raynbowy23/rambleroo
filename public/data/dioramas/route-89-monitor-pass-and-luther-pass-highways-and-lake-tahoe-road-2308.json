@@ -1,0 +1,438 @@
+{
+  "authored": false,
+  "bywayId": "route-89-monitor-pass-and-luther-pass-highways-and-lake-tahoe-road-2308",
+  "title": "Route 89--Monitor Pass & Luther Pass Highways & Lake Tahoe Road",
+  "longitude": -119.9313,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -119.57832,
+        38.65448
+      ],
+      [
+        -119.59718,
+        38.65554
+      ],
+      [
+        -119.58588,
+        38.66052
+      ],
+      [
+        -119.59593,
+        38.66169
+      ],
+      [
+        -119.58468,
+        38.67001
+      ],
+      [
+        -119.59511,
+        38.68133
+      ],
+      [
+        -119.60541,
+        38.67398
+      ],
+      [
+        -119.61993,
+        38.67637
+      ],
+      [
+        -119.64027,
+        38.6642
+      ],
+      [
+        -119.65636,
+        38.67349
+      ],
+      [
+        -119.66415,
+        38.67217
+      ],
+      [
+        -119.66567,
+        38.65661
+      ],
+      [
+        -119.67621,
+        38.65587
+      ],
+      [
+        -119.69319,
+        38.66584
+      ],
+      [
+        -119.72643,
+        38.66057
+      ],
+      [
+        -119.73537,
+        38.67583
+      ],
+      [
+        -119.74963,
+        38.68008
+      ],
+      [
+        -119.7571,
+        38.68943
+      ],
+      [
+        -119.76597,
+        38.68984
+      ],
+      [
+        -119.77066,
+        38.69874
+      ],
+      [
+        -119.77853,
+        38.69359
+      ],
+      [
+        -119.78938,
+        38.7026
+      ],
+      [
+        -119.79308,
+        38.71612
+      ],
+      [
+        -119.81043,
+        38.73737
+      ],
+      [
+        -119.81531,
+        38.76542
+      ],
+      [
+        -119.82351,
+        38.77543
+      ],
+      [
+        -119.85608,
+        38.76376
+      ],
+      [
+        -119.86923,
+        38.76673
+      ],
+      [
+        -119.88473,
+        38.77763
+      ],
+      [
+        -119.91881,
+        38.77635
+      ],
+      [
+        -119.92297,
+        38.79327
+      ],
+      [
+        -119.94331,
+        38.78708
+      ],
+      [
+        -119.9676,
+        38.79711
+      ],
+      [
+        -119.98414,
+        38.79675
+      ],
+      [
+        -120.00829,
+        38.78706
+      ],
+      [
+        -120.01836,
+        38.81873
+      ],
+      [
+        -120.02233,
+        38.85103
+      ],
+      [
+        -120.01355,
+        38.85528
+      ],
+      [
+        -120.00671,
+        38.86902
+      ],
+      [
+        -119.99835,
+        38.90313
+      ],
+      [
+        -120.00518,
+        38.91415
+      ],
+      [
+        -120.02581,
+        38.92303
+      ],
+      [
+        -120.03401,
+        38.93285
+      ],
+      [
+        -120.07697,
+        38.93349
+      ],
+      [
+        -120.07872,
+        38.94938
+      ],
+      [
+        -120.08778,
+        38.95146
+      ],
+      [
+        -120.10295,
+        38.94569
+      ],
+      [
+        -120.11138,
+        38.95098
+      ],
+      [
+        -120.09743,
+        38.96749
+      ],
+      [
+        -120.10837,
+        38.98427
+      ],
+      [
+        -120.1172,
+        39.01217
+      ],
+      [
+        -120.12654,
+        39.01732
+      ],
+      [
+        -120.11628,
+        39.0322
+      ],
+      [
+        -120.12583,
+        39.03651
+      ],
+      [
+        -120.11723,
+        39.05336
+      ],
+      [
+        -120.12833,
+        39.06735
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Markleeville",
+      "model": "town-blocks",
+      "at": 0.2913337030179127,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Woodfords",
+      "model": "town-blocks",
+      "at": 0.3872659641827993,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Emerald Bay",
+      "model": "alpine-lake",
+      "at": 0.8248614376767022,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Loope",
+      "at": 0.18861911987860402,
+      "landmark": ""
+    },
+    {
+      "name": "Markleeville",
+      "at": 0.2908952959028832,
+      "landmark": "Markleeville"
+    },
+    {
+      "name": "Alpine Village",
+      "at": 0.38194233687405166,
+      "landmark": ""
+    },
+    {
+      "name": "Meyers",
+      "at": 0.6259484066767831,
+      "landmark": ""
+    },
+    {
+      "name": "Tahoe Keys",
+      "at": 0.7311077389984826,
+      "landmark": ""
+    },
+    {
+      "name": "Rubicon",
+      "at": 0.9066767830045523,
+      "landmark": ""
+    },
+    {
+      "name": "Tahoma",
+      "at": 0.998937784522003,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-89-monitor-pass-and-luther-pass-highways-and-lake-tahoe-road-2308.json",
+    "public/data/strips/route-89-monitor-pass-and-luther-pass-highways-and-lake-tahoe-road-2308.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

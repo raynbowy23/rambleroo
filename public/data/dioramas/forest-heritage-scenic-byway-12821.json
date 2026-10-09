@@ -1,0 +1,404 @@
+{
+  "authored": false,
+  "bywayId": "forest-heritage-scenic-byway-12821",
+  "title": "Forest Heritage Scenic Byway",
+  "longitude": -82.9083,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -82.83889,
+        35.14362
+      ],
+      [
+        -82.83144,
+        35.15765
+      ],
+      [
+        -82.84341,
+        35.16809
+      ],
+      [
+        -82.83858,
+        35.17228
+      ],
+      [
+        -82.84838,
+        35.18441
+      ],
+      [
+        -82.84547,
+        35.1933
+      ],
+      [
+        -82.85777,
+        35.20375
+      ],
+      [
+        -82.85647,
+        35.21885
+      ],
+      [
+        -82.87312,
+        35.22899
+      ],
+      [
+        -82.8727,
+        35.2364
+      ],
+      [
+        -82.89387,
+        35.25347
+      ],
+      [
+        -82.9105,
+        35.25883
+      ],
+      [
+        -82.9205,
+        35.25524
+      ],
+      [
+        -82.91938,
+        35.28789
+      ],
+      [
+        -82.90835,
+        35.30303
+      ],
+      [
+        -82.90935,
+        35.31262
+      ],
+      [
+        -82.91457,
+        35.31115
+      ],
+      [
+        -82.90819,
+        35.31569
+      ],
+      [
+        -82.90085,
+        35.33942
+      ],
+      [
+        -82.9044,
+        35.35013
+      ],
+      [
+        -82.9174,
+        35.35345
+      ],
+      [
+        -82.91947,
+        35.36226
+      ],
+      [
+        -82.94076,
+        35.37506
+      ],
+      [
+        -82.94109,
+        35.3913
+      ],
+      [
+        -82.91932,
+        35.42798
+      ],
+      [
+        -82.92631,
+        35.43474
+      ],
+      [
+        -82.91633,
+        35.43636
+      ],
+      [
+        -82.91716,
+        35.4431
+      ],
+      [
+        -82.90602,
+        35.44436
+      ],
+      [
+        -82.89027,
+        35.4578
+      ],
+      [
+        -82.88471,
+        35.47101
+      ],
+      [
+        -82.8641,
+        35.46139
+      ],
+      [
+        -82.85505,
+        35.46316
+      ],
+      [
+        -82.83987,
+        35.45233
+      ],
+      [
+        -82.82182,
+        35.45087
+      ],
+      [
+        -82.81358,
+        35.44169
+      ],
+      [
+        -82.81418,
+        35.41416
+      ],
+      [
+        -82.80844,
+        35.41248
+      ],
+      [
+        -82.81538,
+        35.39635
+      ],
+      [
+        -82.80918,
+        35.37704
+      ],
+      [
+        -82.81761,
+        35.36509
+      ],
+      [
+        -82.81029,
+        35.37106
+      ],
+      [
+        -82.79448,
+        35.36721
+      ],
+      [
+        -82.79108,
+        35.37337
+      ],
+      [
+        -82.79285,
+        35.36242
+      ],
+      [
+        -82.77956,
+        35.36874
+      ],
+      [
+        -82.78004,
+        35.35118
+      ],
+      [
+        -82.79009,
+        35.34073
+      ],
+      [
+        -82.78748,
+        35.31205
+      ],
+      [
+        -82.77326,
+        35.30602
+      ],
+      [
+        -82.76749,
+        35.29734
+      ],
+      [
+        -82.77099,
+        35.29271
+      ],
+      [
+        -82.75623,
+        35.28084
+      ],
+      [
+        -82.75114,
+        35.28832
+      ],
+      [
+        -82.73505,
+        35.28793
+      ],
+      [
+        -82.70475,
+        35.27397
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Looking Glass Falls",
+      "model": "cove-waterfall",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Rosman",
+      "at": 0.009175738724727838,
+      "landmark": ""
+    },
+    {
+      "name": "Balsam Grove",
+      "at": 0.13405909797822704,
+      "landmark": ""
+    },
+    {
+      "name": "Cruso",
+      "at": 0.6508553654743391,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/forest-heritage-scenic-byway-12821.json",
+    "public/data/strips/forest-heritage-scenic-byway-12821.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

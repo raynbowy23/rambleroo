@@ -1,0 +1,376 @@
+{
+  "authored": false,
+  "bywayId": "litchfield-990907",
+  "title": "Litchfield",
+  "longitude": -73.1453,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -73.15258,
+        41.76145
+      ],
+      [
+        -73.15396,
+        41.76135
+      ],
+      [
+        -73.15536,
+        41.76103
+      ],
+      [
+        -73.15662,
+        41.76048
+      ],
+      [
+        -73.1574,
+        41.75986
+      ],
+      [
+        -73.15794,
+        41.75911
+      ],
+      [
+        -73.1582,
+        41.75809
+      ],
+      [
+        -73.15811,
+        41.7574
+      ],
+      [
+        -73.15719,
+        41.75433
+      ],
+      [
+        -73.15733,
+        41.75329
+      ],
+      [
+        -73.15775,
+        41.75253
+      ],
+      [
+        -73.1585,
+        41.75182
+      ],
+      [
+        -73.16025,
+        41.75075
+      ],
+      [
+        -73.16084,
+        41.75022
+      ],
+      [
+        -73.16135,
+        41.74954
+      ],
+      [
+        -73.16261,
+        41.74736
+      ],
+      [
+        -73.16313,
+        41.74675
+      ],
+      [
+        -73.16395,
+        41.74603
+      ],
+      [
+        -73.16514,
+        41.74526
+      ],
+      [
+        -73.16624,
+        41.74475
+      ],
+      [
+        -73.16747,
+        41.74435
+      ],
+      [
+        -73.16871,
+        41.74409
+      ],
+      [
+        -73.16976,
+        41.74404
+      ],
+      [
+        -73.1712,
+        41.74425
+      ],
+      [
+        -73.17184,
+        41.74445
+      ],
+      [
+        -73.17726,
+        41.74673
+      ],
+      [
+        -73.18138,
+        41.7476
+      ],
+      [
+        -73.18295,
+        41.74769
+      ],
+      [
+        -73.18699,
+        41.74736
+      ],
+      [
+        -73.18797,
+        41.74699
+      ],
+      [
+        -73.18895,
+        41.7468
+      ],
+      [
+        -73.18922,
+        41.74682
+      ],
+      [
+        -73.19414,
+        41.7569
+      ],
+      [
+        -73.19238,
+        41.7558
+      ],
+      [
+        -73.19194,
+        41.75526
+      ],
+      [
+        -73.19009,
+        41.74743
+      ],
+      [
+        -73.16966,
+        41.74404
+      ],
+      [
+        -73.16938,
+        41.74348
+      ],
+      [
+        -73.16892,
+        41.74294
+      ],
+      [
+        -73.16144,
+        41.73615
+      ],
+      [
+        -73.15663,
+        41.73116
+      ],
+      [
+        -73.15196,
+        41.72749
+      ],
+      [
+        -73.14762,
+        41.72388
+      ],
+      [
+        -73.14559,
+        41.72142
+      ],
+      [
+        -73.14116,
+        41.71802
+      ],
+      [
+        -73.14046,
+        41.71738
+      ],
+      [
+        -73.13954,
+        41.71613
+      ],
+      [
+        -73.1362,
+        41.71003
+      ],
+      [
+        -73.13586,
+        41.70955
+      ],
+      [
+        -73.13541,
+        41.70912
+      ],
+      [
+        -73.13475,
+        41.70869
+      ],
+      [
+        -73.12928,
+        41.70575
+      ],
+      [
+        -73.12859,
+        41.70552
+      ],
+      [
+        -73.12164,
+        41.70393
+      ],
+      [
+        -73.12078,
+        41.70352
+      ],
+      [
+        -73.11928,
+        41.70263
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Tapping Reeve House and Law School",
+      "model": "farmhouse",
+      "at": 0.29731541161995256,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Litchfield",
+      "model": "steeple-town",
+      "at": 0.4577423516689085,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Litchfield",
+      "model": "town-blocks",
+      "at": 0.4577423516689085,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Northfield",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Litchfield",
+      "at": 0.45698924731182794,
+      "landmark": "Litchfield"
+    },
+    {
+      "name": "Litchfield (borough)",
+      "at": 0.46629088387512824,
+      "landmark": ""
+    },
+    {
+      "name": "Northfield",
+      "at": 0.9978494623655912,
+      "landmark": "Northfield"
+    }
+  ],
+  "sources": [
+    "content/stories/litchfield-990907.json",
+    "public/data/strips/litchfield-990907.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

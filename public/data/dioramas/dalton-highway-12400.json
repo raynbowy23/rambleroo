@@ -1,0 +1,399 @@
+{
+  "authored": false,
+  "bywayId": "dalton-highway-12400",
+  "title": "Dalton Highway",
+  "longitude": -149.7321,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -148.65508,
+        65.48935
+      ],
+      [
+        -148.85702,
+        65.52222
+      ],
+      [
+        -148.94575,
+        65.57748
+      ],
+      [
+        -149.06969,
+        65.57863
+      ],
+      [
+        -149.02769,
+        65.62842
+      ],
+      [
+        -149.08847,
+        65.68529
+      ],
+      [
+        -149.36652,
+        65.74337
+      ],
+      [
+        -149.37679,
+        65.78011
+      ],
+      [
+        -149.49799,
+        65.83308
+      ],
+      [
+        -149.71638,
+        65.84982
+      ],
+      [
+        -149.7186,
+        65.8854
+      ],
+      [
+        -150.0769,
+        66.00179
+      ],
+      [
+        -150.1548,
+        66.05083
+      ],
+      [
+        -150.15037,
+        66.10023
+      ],
+      [
+        -150.23015,
+        66.20611
+      ],
+      [
+        -150.81633,
+        66.56022
+      ],
+      [
+        -150.66347,
+        66.64721
+      ],
+      [
+        -150.66779,
+        66.73322
+      ],
+      [
+        -150.70261,
+        66.73984
+      ],
+      [
+        -150.67334,
+        66.74849
+      ],
+      [
+        -150.6736,
+        66.81632
+      ],
+      [
+        -150.2822,
+        67.00784
+      ],
+      [
+        -150.34445,
+        67.0568
+      ],
+      [
+        -150.35962,
+        67.15443
+      ],
+      [
+        -150.17424,
+        67.25643
+      ],
+      [
+        -150.07811,
+        67.44231
+      ],
+      [
+        -149.86917,
+        67.49248
+      ],
+      [
+        -149.79446,
+        67.61774
+      ],
+      [
+        -149.70947,
+        67.65489
+      ],
+      [
+        -149.82765,
+        67.821
+      ],
+      [
+        -149.8269,
+        67.92881
+      ],
+      [
+        -149.70045,
+        68.02846
+      ],
+      [
+        -149.43806,
+        68.1322
+      ],
+      [
+        -149.42114,
+        68.24984
+      ],
+      [
+        -149.31491,
+        68.37071
+      ],
+      [
+        -149.55872,
+        68.63051
+      ],
+      [
+        -149.08102,
+        68.68697
+      ],
+      [
+        -148.81512,
+        68.81054
+      ],
+      [
+        -148.87033,
+        68.88216
+      ],
+      [
+        -148.84444,
+        68.91073
+      ],
+      [
+        -148.87091,
+        68.95255
+      ],
+      [
+        -148.81374,
+        68.99711
+      ],
+      [
+        -148.84193,
+        69.02234
+      ],
+      [
+        -148.81239,
+        69.06332
+      ],
+      [
+        -148.85101,
+        69.11181
+      ],
+      [
+        -148.83569,
+        69.1801
+      ],
+      [
+        -148.72227,
+        69.31495
+      ],
+      [
+        -148.75583,
+        69.36593
+      ],
+      [
+        -148.72194,
+        69.41213
+      ],
+      [
+        -148.55357,
+        69.47607
+      ],
+      [
+        -148.70238,
+        69.65761
+      ],
+      [
+        -148.69917,
+        69.76151
+      ],
+      [
+        -148.80034,
+        69.89868
+      ],
+      [
+        -148.51158,
+        70.09944
+      ],
+      [
+        -148.40849,
+        70.19836
+      ],
+      [
+        -148.44023,
+        70.20652
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Coldfoot",
+      "model": "false-front-town",
+      "at": 0.4218349079556547,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Coldfoot",
+      "model": "town-blocks",
+      "at": 0.4218349079556547,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Coldfoot",
+      "at": 0.4218523878437048,
+      "landmark": "Coldfoot"
+    },
+    {
+      "name": "Sagwon",
+      "at": 0.8455861070911722,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/dalton-highway-12400.json",
+    "public/data/strips/dalton-highway-12400.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,423 @@
+{
+  "authored": false,
+  "bywayId": "pig-trail-scenic-byway-2156",
+  "title": "Pig Trail Scenic Byway",
+  "longitude": -93.8028,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -93.79538,
+        35.81198
+      ],
+      [
+        -93.79339,
+        35.80608
+      ],
+      [
+        -93.78597,
+        35.79459
+      ],
+      [
+        -93.78658,
+        35.79019
+      ],
+      [
+        -93.79035,
+        35.78396
+      ],
+      [
+        -93.79537,
+        35.78059
+      ],
+      [
+        -93.79881,
+        35.77344
+      ],
+      [
+        -93.80389,
+        35.76893
+      ],
+      [
+        -93.80397,
+        35.75978
+      ],
+      [
+        -93.80544,
+        35.75584
+      ],
+      [
+        -93.80644,
+        35.74894
+      ],
+      [
+        -93.8073,
+        35.74784
+      ],
+      [
+        -93.81273,
+        35.74578
+      ],
+      [
+        -93.81149,
+        35.74245
+      ],
+      [
+        -93.81384,
+        35.7406
+      ],
+      [
+        -93.8106,
+        35.73755
+      ],
+      [
+        -93.81108,
+        35.73582
+      ],
+      [
+        -93.81294,
+        35.7343
+      ],
+      [
+        -93.81293,
+        35.73226
+      ],
+      [
+        -93.81171,
+        35.73124
+      ],
+      [
+        -93.80995,
+        35.72691
+      ],
+      [
+        -93.80564,
+        35.72519
+      ],
+      [
+        -93.80403,
+        35.72325
+      ],
+      [
+        -93.80293,
+        35.72109
+      ],
+      [
+        -93.80375,
+        35.71788
+      ],
+      [
+        -93.80332,
+        35.71531
+      ],
+      [
+        -93.80255,
+        35.71391
+      ],
+      [
+        -93.79965,
+        35.71232
+      ],
+      [
+        -93.80186,
+        35.70766
+      ],
+      [
+        -93.80408,
+        35.70646
+      ],
+      [
+        -93.80541,
+        35.7043
+      ],
+      [
+        -93.80528,
+        35.70144
+      ],
+      [
+        -93.80424,
+        35.70278
+      ],
+      [
+        -93.80382,
+        35.69945
+      ],
+      [
+        -93.80176,
+        35.69608
+      ],
+      [
+        -93.80592,
+        35.69462
+      ],
+      [
+        -93.80683,
+        35.69342
+      ],
+      [
+        -93.81845,
+        35.69115
+      ],
+      [
+        -93.81988,
+        35.6862
+      ],
+      [
+        -93.82613,
+        35.68263
+      ],
+      [
+        -93.83072,
+        35.67623
+      ],
+      [
+        -93.83341,
+        35.67466
+      ],
+      [
+        -93.82829,
+        35.66737
+      ],
+      [
+        -93.829,
+        35.65726
+      ],
+      [
+        -93.83388,
+        35.65149
+      ],
+      [
+        -93.83355,
+        35.64948
+      ],
+      [
+        -93.83588,
+        35.64717
+      ],
+      [
+        -93.83952,
+        35.64638
+      ],
+      [
+        -93.83679,
+        35.6452
+      ],
+      [
+        -93.83837,
+        35.64331
+      ],
+      [
+        -93.83365,
+        35.63338
+      ],
+      [
+        -93.83572,
+        35.63068
+      ],
+      [
+        -93.83517,
+        35.6259
+      ],
+      [
+        -93.83352,
+        35.62478
+      ],
+      [
+        -93.83544,
+        35.61533
+      ],
+      [
+        -93.83715,
+        35.61305
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Brashears",
+      "model": "town-blocks",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Brashears",
+      "at": 0,
+      "landmark": "Brashears"
+    },
+    {
+      "name": "Whiting Mountain",
+      "at": 0.36242774566473984,
+      "landmark": ""
+    },
+    {
+      "name": "Cass",
+      "at": 0.6375722543352601,
+      "landmark": ""
+    },
+    {
+      "name": "Bend Hill",
+      "at": 0.8445086705202312,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/pig-trail-scenic-byway-2156.json",
+    "public/data/strips/pig-trail-scenic-byway-2156.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

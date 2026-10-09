@@ -1,0 +1,334 @@
+{
+  "authored": false,
+  "bywayId": "colonial-parkway-60441",
+  "title": "Colonial Parkway",
+  "longitude": -76.6754,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -76.77726,
+        37.21203
+      ],
+      [
+        -76.78077,
+        37.21241
+      ],
+      [
+        -76.78373,
+        37.21517
+      ],
+      [
+        -76.78433,
+        37.21754
+      ],
+      [
+        -76.78417,
+        37.22249
+      ],
+      [
+        -76.78281,
+        37.22427
+      ],
+      [
+        -76.77892,
+        37.22405
+      ],
+      [
+        -76.77199,
+        37.22106
+      ],
+      [
+        -76.76496,
+        37.21964
+      ],
+      [
+        -76.75789,
+        37.21724
+      ],
+      [
+        -76.74981,
+        37.21648
+      ],
+      [
+        -76.73564,
+        37.2135
+      ],
+      [
+        -76.72615,
+        37.21389
+      ],
+      [
+        -76.705,
+        37.21717
+      ],
+      [
+        -76.70135,
+        37.21839
+      ],
+      [
+        -76.69673,
+        37.2221
+      ],
+      [
+        -76.69455,
+        37.22724
+      ],
+      [
+        -76.69485,
+        37.22935
+      ],
+      [
+        -76.6969,
+        37.23324
+      ],
+      [
+        -76.70041,
+        37.24915
+      ],
+      [
+        -76.70362,
+        37.25459
+      ],
+      [
+        -76.70189,
+        37.25941
+      ],
+      [
+        -76.70228,
+        37.26677
+      ],
+      [
+        -76.69947,
+        37.27272
+      ],
+      [
+        -76.69862,
+        37.27711
+      ],
+      [
+        -76.69236,
+        37.27836
+      ],
+      [
+        -76.68284,
+        37.27686
+      ],
+      [
+        -76.67717,
+        37.27864
+      ],
+      [
+        -76.67266,
+        37.27895
+      ],
+      [
+        -76.66346,
+        37.27767
+      ],
+      [
+        -76.65851,
+        37.28112
+      ],
+      [
+        -76.65155,
+        37.28126
+      ],
+      [
+        -76.64504,
+        37.28356
+      ],
+      [
+        -76.62559,
+        37.2811
+      ],
+      [
+        -76.62011,
+        37.27887
+      ],
+      [
+        -76.61358,
+        37.27492
+      ],
+      [
+        -76.60904,
+        37.27435
+      ],
+      [
+        -76.60084,
+        37.27167
+      ],
+      [
+        -76.59496,
+        37.27134
+      ],
+      [
+        -76.58987,
+        37.274
+      ],
+      [
+        -76.58728,
+        37.27429
+      ],
+      [
+        -76.57532,
+        37.27136
+      ],
+      [
+        -76.55663,
+        37.2688
+      ],
+      [
+        -76.55463,
+        37.26758
+      ],
+      [
+        -76.54841,
+        37.26107
+      ],
+      [
+        -76.54305,
+        37.25747
+      ],
+      [
+        -76.53934,
+        37.25253
+      ],
+      [
+        -76.53284,
+        37.24935
+      ],
+      [
+        -76.52699,
+        37.24395
+      ],
+      [
+        -76.52347,
+        37.23926
+      ],
+      [
+        -76.52085,
+        37.23141
+      ],
+      [
+        -76.51937,
+        37.2297
+      ],
+      [
+        -76.51582,
+        37.22879
+      ],
+      [
+        -76.51092,
+        37.23015
+      ],
+      [
+        -76.50397,
+        37.22988
+      ],
+      [
+        -76.50284,
+        37.23073
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Colonial Williamsburg",
+      "model": "town-blocks",
+      "at": 0.4230051990281602,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Yorktown",
+      "model": "harbor",
+      "at": 0.9805468160286229,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Yorktown",
+      "model": "town-blocks",
+      "at": 0.9805468160286229,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Williamsburg",
+      "at": 0.4161572052401747,
+      "landmark": ""
+    },
+    {
+      "name": "Penniman",
+      "at": 0.6275109170305677,
+      "landmark": ""
+    },
+    {
+      "name": "Yorktown",
+      "at": 0.9816593886462883,
+      "landmark": "Yorktown"
+    }
+  ],
+  "sources": [
+    "content/stories/colonial-parkway-60441.json",
+    "public/data/strips/colonial-parkway-60441.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

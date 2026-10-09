@@ -1,0 +1,369 @@
+{
+  "authored": false,
+  "bywayId": "i-69-recreational-992606",
+  "title": "I-69 Recreational",
+  "longitude": -84.9973,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -84.98985,
+        41.75957
+      ],
+      [
+        -84.98775,
+        41.77088
+      ],
+      [
+        -84.99925,
+        41.81497
+      ],
+      [
+        -84.99821,
+        41.84619
+      ],
+      [
+        -84.99169,
+        41.86321
+      ],
+      [
+        -84.99073,
+        41.90283
+      ],
+      [
+        -84.97643,
+        41.91733
+      ],
+      [
+        -84.97334,
+        41.92364
+      ],
+      [
+        -84.97216,
+        41.98558
+      ],
+      [
+        -84.97262,
+        42.0113
+      ],
+      [
+        -84.9771,
+        42.0263
+      ],
+      [
+        -84.97956,
+        42.06718
+      ],
+      [
+        -84.98275,
+        42.07275
+      ],
+      [
+        -84.99545,
+        42.08172
+      ],
+      [
+        -84.99819,
+        42.08617
+      ],
+      [
+        -84.9956,
+        42.13601
+      ],
+      [
+        -84.99059,
+        42.14817
+      ],
+      [
+        -84.99364,
+        42.16006
+      ],
+      [
+        -84.98516,
+        42.17346
+      ],
+      [
+        -84.98217,
+        42.21872
+      ],
+      [
+        -84.98631,
+        42.23627
+      ],
+      [
+        -84.98516,
+        42.24571
+      ],
+      [
+        -84.98877,
+        42.26346
+      ],
+      [
+        -84.99808,
+        42.28974
+      ],
+      [
+        -84.99241,
+        42.32383
+      ],
+      [
+        -84.98235,
+        42.34292
+      ],
+      [
+        -84.9808,
+        42.36511
+      ],
+      [
+        -84.96812,
+        42.38403
+      ],
+      [
+        -84.9691,
+        42.40746
+      ],
+      [
+        -84.958,
+        42.42212
+      ],
+      [
+        -84.96782,
+        42.40776
+      ],
+      [
+        -84.96713,
+        42.38446
+      ],
+      [
+        -84.98018,
+        42.36459
+      ],
+      [
+        -84.98131,
+        42.34305
+      ],
+      [
+        -84.9921,
+        42.32307
+      ],
+      [
+        -84.99759,
+        42.29011
+      ],
+      [
+        -84.98836,
+        42.26377
+      ],
+      [
+        -84.98448,
+        42.24504
+      ],
+      [
+        -84.98539,
+        42.23588
+      ],
+      [
+        -84.98126,
+        42.22001
+      ],
+      [
+        -84.9843,
+        42.17342
+      ],
+      [
+        -84.99248,
+        42.16028
+      ],
+      [
+        -84.9893,
+        42.14797
+      ],
+      [
+        -84.99514,
+        42.13491
+      ],
+      [
+        -84.99763,
+        42.08764
+      ],
+      [
+        -84.99435,
+        42.08158
+      ],
+      [
+        -84.97933,
+        42.06909
+      ],
+      [
+        -84.97666,
+        42.02633
+      ],
+      [
+        -84.97176,
+        42.01005
+      ],
+      [
+        -84.97273,
+        41.92331
+      ],
+      [
+        -84.99029,
+        41.90149
+      ],
+      [
+        -84.9908,
+        41.8612
+      ],
+      [
+        -84.99804,
+        41.84113
+      ],
+      [
+        -84.99871,
+        41.81405
+      ],
+      [
+        -84.9872,
+        41.77044
+      ],
+      [
+        -84.98948,
+        41.75957
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Tibbits Opera House, Coldwater",
+      "model": "farmhouse",
+      "at": 0.13666258792961422,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Tibbits Opera House, Coldwater",
+      "model": "town-blocks",
+      "at": 0.13666258792961422,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Marshall",
+      "model": "town-blocks",
+      "at": 0.6666666666666666,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Coldwater",
+      "at": 0.13621964097148892,
+      "landmark": ""
+    },
+    {
+      "name": "Lyon Lake",
+      "at": 0.6755015839493136,
+      "landmark": ""
+    },
+    {
+      "name": "Tekonsha",
+      "at": 0.7470960929250263,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/i-69-recreational-992606.json",
+    "public/data/strips/i-69-recreational-992606.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

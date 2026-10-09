@@ -1,0 +1,349 @@
+{
+  "authored": false,
+  "bywayId": "paul-bunyan-scenic-byway-11180",
+  "title": "Paul Bunyan Scenic Byway",
+  "longitude": -94.1782,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -94.31341,
+        46.60264
+      ],
+      [
+        -94.27916,
+        46.60304
+      ],
+      [
+        -94.25569,
+        46.60235
+      ],
+      [
+        -94.24984,
+        46.60056
+      ],
+      [
+        -94.24032,
+        46.59931
+      ],
+      [
+        -94.23028,
+        46.59367
+      ],
+      [
+        -94.21935,
+        46.59144
+      ],
+      [
+        -94.21929,
+        46.60238
+      ],
+      [
+        -94.21817,
+        46.60488
+      ],
+      [
+        -94.21976,
+        46.60793
+      ],
+      [
+        -94.2202,
+        46.61451
+      ],
+      [
+        -94.2178,
+        46.61669
+      ],
+      [
+        -94.20154,
+        46.61683
+      ],
+      [
+        -94.19725,
+        46.61593
+      ],
+      [
+        -94.19311,
+        46.61675
+      ],
+      [
+        -94.13181,
+        46.61704
+      ],
+      [
+        -94.1316,
+        46.62529
+      ],
+      [
+        -94.13049,
+        46.62803
+      ],
+      [
+        -94.11721,
+        46.63723
+      ],
+      [
+        -94.11499,
+        46.64
+      ],
+      [
+        -94.11428,
+        46.65807
+      ],
+      [
+        -94.11277,
+        46.66243
+      ],
+      [
+        -94.11358,
+        46.6665
+      ],
+      [
+        -94.10904,
+        46.67019
+      ],
+      [
+        -94.10879,
+        46.67574
+      ],
+      [
+        -94.11088,
+        46.67968
+      ],
+      [
+        -94.11191,
+        46.6855
+      ],
+      [
+        -94.11392,
+        46.68903
+      ],
+      [
+        -94.11353,
+        46.69278
+      ],
+      [
+        -94.11588,
+        46.69809
+      ],
+      [
+        -94.12082,
+        46.70192
+      ],
+      [
+        -94.12241,
+        46.70684
+      ],
+      [
+        -94.12462,
+        46.70928
+      ],
+      [
+        -94.12425,
+        46.71278
+      ],
+      [
+        -94.12499,
+        46.71626
+      ],
+      [
+        -94.12801,
+        46.72166
+      ],
+      [
+        -94.13458,
+        46.728
+      ],
+      [
+        -94.13452,
+        46.73993
+      ],
+      [
+        -94.19218,
+        46.74027
+      ],
+      [
+        -94.20488,
+        46.73336
+      ],
+      [
+        -94.23785,
+        46.73286
+      ],
+      [
+        -94.23917,
+        46.73139
+      ],
+      [
+        -94.23971,
+        46.71993
+      ],
+      [
+        -94.24165,
+        46.71863
+      ],
+      [
+        -94.28768,
+        46.71827
+      ],
+      [
+        -94.28809,
+        46.69824
+      ],
+      [
+        -94.29057,
+        46.69672
+      ],
+      [
+        -94.301,
+        46.69667
+      ],
+      [
+        -94.30327,
+        46.69562
+      ],
+      [
+        -94.30408,
+        46.6766
+      ],
+      [
+        -94.30611,
+        46.67548
+      ],
+      [
+        -94.31236,
+        46.6746
+      ],
+      [
+        -94.33232,
+        46.67488
+      ],
+      [
+        -94.335,
+        46.67364
+      ],
+      [
+        -94.33479,
+        46.64987
+      ],
+      [
+        -94.33658,
+        46.64839
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Pequot Lakes",
+      "model": "town-blocks",
+      "at": 0.02198409064834781,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Breezy Point",
+      "model": "alpine-lake",
+      "at": 0.1673644284931903,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Breezy Point",
+      "model": "town-blocks",
+      "at": 0.1673644284931903,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Pequot Lakes",
+      "at": 0.020916905444125944,
+      "landmark": "Pequot Lakes"
+    },
+    {
+      "name": "Breezy Point",
+      "at": 0.16647564469914033,
+      "landmark": "Breezy Point"
+    },
+    {
+      "name": "Ideal Corners",
+      "at": 0.20806866524598408,
+      "landmark": ""
+    },
+    {
+      "name": "Crosslake",
+      "at": 0.430945558739255,
+      "landmark": ""
+    },
+    {
+      "name": "Swanburg",
+      "at": 0.6226361031518625,
+      "landmark": ""
+    },
+    {
+      "name": "Jenkins",
+      "at": 0.9965616045845272,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/paul-bunyan-scenic-byway-11180.json",
+    "public/data/strips/paul-bunyan-scenic-byway-11180.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

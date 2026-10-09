@@ -1,0 +1,433 @@
+{
+  "authored": false,
+  "bywayId": "rogue-umpqua-scenic-byway-2147",
+  "title": "Rogue-Umpqua Scenic Byway",
+  "longitude": -122.1268,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -123.34316,
+        43.21339
+      ],
+      [
+        -123.28054,
+        43.21952
+      ],
+      [
+        -123.24442,
+        43.21171
+      ],
+      [
+        -123.21524,
+        43.25957
+      ],
+      [
+        -123.16676,
+        43.30252
+      ],
+      [
+        -123.10469,
+        43.29613
+      ],
+      [
+        -123.05522,
+        43.32363
+      ],
+      [
+        -123.02824,
+        43.32286
+      ],
+      [
+        -123.00925,
+        43.33359
+      ],
+      [
+        -122.94726,
+        43.29979
+      ],
+      [
+        -122.88954,
+        43.29682
+      ],
+      [
+        -122.73743,
+        43.34571
+      ],
+      [
+        -122.69868,
+        43.32795
+      ],
+      [
+        -122.67484,
+        43.30423
+      ],
+      [
+        -122.60747,
+        43.29573
+      ],
+      [
+        -122.59427,
+        43.28674
+      ],
+      [
+        -122.54484,
+        43.29157
+      ],
+      [
+        -122.50518,
+        43.30543
+      ],
+      [
+        -122.47635,
+        43.29334
+      ],
+      [
+        -122.44718,
+        43.26366
+      ],
+      [
+        -122.41834,
+        43.2611
+      ],
+      [
+        -122.37481,
+        43.24096
+      ],
+      [
+        -122.32887,
+        43.25129
+      ],
+      [
+        -122.23635,
+        43.24722
+      ],
+      [
+        -122.17316,
+        43.25828
+      ],
+      [
+        -122.14015,
+        43.23229
+      ],
+      [
+        -122.1244,
+        43.15824
+      ],
+      [
+        -122.12692,
+        43.13203
+      ],
+      [
+        -122.20737,
+        43.09211
+      ],
+      [
+        -122.31202,
+        43.0898
+      ],
+      [
+        -122.33631,
+        43.0719
+      ],
+      [
+        -122.35785,
+        43.03694
+      ],
+      [
+        -122.36732,
+        43.03501
+      ],
+      [
+        -122.38827,
+        42.99211
+      ],
+      [
+        -122.39876,
+        42.98593
+      ],
+      [
+        -122.39858,
+        42.96668
+      ],
+      [
+        -122.47896,
+        42.85004
+      ],
+      [
+        -122.48479,
+        42.8323
+      ],
+      [
+        -122.47677,
+        42.7972
+      ],
+      [
+        -122.48951,
+        42.75894
+      ],
+      [
+        -122.53377,
+        42.72148
+      ],
+      [
+        -122.59808,
+        42.70361
+      ],
+      [
+        -122.60133,
+        42.68951
+      ],
+      [
+        -122.64626,
+        42.66313
+      ],
+      [
+        -122.68803,
+        42.65639
+      ],
+      [
+        -122.7545,
+        42.66357
+      ],
+      [
+        -122.80852,
+        42.6476
+      ],
+      [
+        -122.80679,
+        42.62863
+      ],
+      [
+        -122.81909,
+        42.59922
+      ],
+      [
+        -122.81058,
+        42.55751
+      ],
+      [
+        -122.81421,
+        42.52392
+      ],
+      [
+        -122.84877,
+        42.52565
+      ],
+      [
+        -122.96462,
+        42.47679
+      ],
+      [
+        -123.00128,
+        42.4756
+      ],
+      [
+        -123.03827,
+        42.45449
+      ],
+      [
+        -123.04889,
+        42.43118
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Glide",
+      "model": "town-blocks",
+      "at": 0.1018294526418012,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Toketee Falls",
+      "model": "cove-waterfall",
+      "at": 0.35941162727254705,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mount Thielsen",
+      "model": "snow-peak",
+      "at": 0.49398759473948084,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Dixonville",
+      "at": 0.03233128834355828,
+      "landmark": ""
+    },
+    {
+      "name": "Glide",
+      "at": 0.10184049079754602,
+      "landmark": "Glide"
+    },
+    {
+      "name": "Clearwater",
+      "at": 0.3631288343558282,
+      "landmark": ""
+    },
+    {
+      "name": "Prospect",
+      "at": 0.7295092024539878,
+      "landmark": ""
+    },
+    {
+      "name": "McLeod",
+      "at": 0.8095092024539876,
+      "landmark": ""
+    },
+    {
+      "name": "Sams Valley",
+      "at": 0.9639263803680982,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/rogue-umpqua-scenic-byway-2147.json",
+    "public/data/strips/rogue-umpqua-scenic-byway-2147.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

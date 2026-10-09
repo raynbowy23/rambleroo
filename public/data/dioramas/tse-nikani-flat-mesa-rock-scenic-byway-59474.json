@@ -1,0 +1,357 @@
+{
+  "authored": false,
+  "bywayId": "tse-nikani-flat-mesa-rock-scenic-byway-59474",
+  "title": "Tse' nikani - Flat Mesa Rock Scenic Byway",
+  "longitude": -109.5662,
+  "ground": "desert-mesas",
+  "palette": "desert",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -109.61805,
+        36.35282
+      ],
+      [
+        -109.61549,
+        36.35885
+      ],
+      [
+        -109.61421,
+        36.36304
+      ],
+      [
+        -109.60659,
+        36.41829
+      ],
+      [
+        -109.60634,
+        36.42165
+      ],
+      [
+        -109.60646,
+        36.42501
+      ],
+      [
+        -109.608,
+        36.45465
+      ],
+      [
+        -109.6077,
+        36.45622
+      ],
+      [
+        -109.60694,
+        36.45807
+      ],
+      [
+        -109.60516,
+        36.46063
+      ],
+      [
+        -109.60395,
+        36.46171
+      ],
+      [
+        -109.60178,
+        36.46305
+      ],
+      [
+        -109.59874,
+        36.46417
+      ],
+      [
+        -109.59669,
+        36.46454
+      ],
+      [
+        -109.58253,
+        36.46557
+      ],
+      [
+        -109.58022,
+        36.46591
+      ],
+      [
+        -109.56188,
+        36.47162
+      ],
+      [
+        -109.55943,
+        36.47136
+      ],
+      [
+        -109.55483,
+        36.46863
+      ],
+      [
+        -109.55154,
+        36.46794
+      ],
+      [
+        -109.52771,
+        36.46965
+      ],
+      [
+        -109.52511,
+        36.46996
+      ],
+      [
+        -109.52351,
+        36.47046
+      ],
+      [
+        -109.52117,
+        36.47176
+      ],
+      [
+        -109.47259,
+        36.50901
+      ],
+      [
+        -109.52896,
+        36.5444
+      ],
+      [
+        -109.52997,
+        36.54536
+      ],
+      [
+        -109.53066,
+        36.54689
+      ],
+      [
+        -109.5308,
+        36.54972
+      ],
+      [
+        -109.53164,
+        36.55142
+      ],
+      [
+        -109.54272,
+        36.56418
+      ],
+      [
+        -109.5781,
+        36.61276
+      ],
+      [
+        -109.57943,
+        36.61538
+      ],
+      [
+        -109.5828,
+        36.6242
+      ],
+      [
+        -109.60151,
+        36.67718
+      ],
+      [
+        -109.60294,
+        36.68031
+      ],
+      [
+        -109.60722,
+        36.687
+      ],
+      [
+        -109.62548,
+        36.71397
+      ],
+      [
+        -109.62579,
+        36.71515
+      ],
+      [
+        -109.62611,
+        36.71873
+      ],
+      [
+        -109.62801,
+        36.72107
+      ],
+      [
+        -109.63353,
+        36.73473
+      ],
+      [
+        -109.63605,
+        36.73947
+      ],
+      [
+        -109.65278,
+        36.7649
+      ],
+      [
+        -109.65428,
+        36.76639
+      ],
+      [
+        -109.65979,
+        36.77022
+      ],
+      [
+        -109.66114,
+        36.7721
+      ],
+      [
+        -109.66145,
+        36.77372
+      ],
+      [
+        -109.66098,
+        36.77564
+      ],
+      [
+        -109.6506,
+        36.79243
+      ],
+      [
+        -109.64991,
+        36.7941
+      ],
+      [
+        -109.64246,
+        36.8375
+      ],
+      [
+        -109.62797,
+        36.88503
+      ],
+      [
+        -109.62356,
+        36.91077
+      ],
+      [
+        -109.62219,
+        36.9142
+      ],
+      [
+        -109.61494,
+        36.92533
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Many Farms",
+      "model": "town-blocks",
+      "at": 0.00593599880128431,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Round Rock",
+      "model": "town-blocks",
+      "at": 0.33292179866678057,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rock Point",
+      "model": "mesa",
+      "at": 0.6883447156742043,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rock Point",
+      "model": "town-blocks",
+      "at": 0.6883447156742043,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "mesa",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5,
+      "side": -1,
+      "distance": 0.7,
+      "scale": 1.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Many Farms",
+      "at": 0.005544147843942526,
+      "landmark": "Many Farms"
+    },
+    {
+      "name": "Rock Point",
+      "at": 0.6882956878850103,
+      "landmark": "Rock Point"
+    }
+  ],
+  "sources": [
+    "content/stories/tse-nikani-flat-mesa-rock-scenic-byway-59474.json",
+    "public/data/strips/tse-nikani-flat-mesa-rock-scenic-byway-59474.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

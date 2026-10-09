@@ -1,0 +1,370 @@
+{
+  "authored": false,
+  "bywayId": "bayshore-heritage-byway-80449",
+  "title": "Bayshore Heritage Byway",
+  "longitude": -74.9127,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -75.47089,
+        39.67134
+      ],
+      [
+        -75.43625,
+        39.64078
+      ],
+      [
+        -75.44534,
+        39.59404
+      ],
+      [
+        -75.46412,
+        39.58064
+      ],
+      [
+        -75.46736,
+        39.57197
+      ],
+      [
+        -75.47679,
+        39.57405
+      ],
+      [
+        -75.4771,
+        39.57101
+      ],
+      [
+        -75.48067,
+        39.57382
+      ],
+      [
+        -75.48624,
+        39.5708
+      ],
+      [
+        -75.49569,
+        39.57107
+      ],
+      [
+        -75.50066,
+        39.5663
+      ],
+      [
+        -75.51108,
+        39.5632
+      ],
+      [
+        -75.50763,
+        39.55663
+      ],
+      [
+        -75.52078,
+        39.54897
+      ],
+      [
+        -75.51714,
+        39.54466
+      ],
+      [
+        -75.49909,
+        39.53975
+      ],
+      [
+        -75.49928,
+        39.53704
+      ],
+      [
+        -75.48256,
+        39.52687
+      ],
+      [
+        -75.46638,
+        39.52267
+      ],
+      [
+        -75.46273,
+        39.51203
+      ],
+      [
+        -75.45373,
+        39.50252
+      ],
+      [
+        -75.44931,
+        39.504
+      ],
+      [
+        -75.43643,
+        39.50067
+      ],
+      [
+        -75.4117,
+        39.4665
+      ],
+      [
+        -75.40231,
+        39.46151
+      ],
+      [
+        -75.37888,
+        39.43583
+      ],
+      [
+        -75.36601,
+        39.43177
+      ],
+      [
+        -75.35068,
+        39.41831
+      ],
+      [
+        -75.34706,
+        39.40821
+      ],
+      [
+        -75.3421,
+        39.40264
+      ],
+      [
+        -75.34556,
+        39.39936
+      ],
+      [
+        -75.33889,
+        39.38965
+      ],
+      [
+        -75.31842,
+        39.41095
+      ],
+      [
+        -75.30697,
+        39.40904
+      ],
+      [
+        -75.29313,
+        39.401
+      ],
+      [
+        -75.24855,
+        39.39297
+      ],
+      [
+        -75.24408,
+        39.41408
+      ],
+      [
+        -75.23699,
+        39.42777
+      ],
+      [
+        -75.23396,
+        39.42743
+      ],
+      [
+        -75.22937,
+        39.41208
+      ],
+      [
+        -75.22248,
+        39.40019
+      ],
+      [
+        -75.22185,
+        39.38374
+      ],
+      [
+        -75.21927,
+        39.38212
+      ],
+      [
+        -75.22384,
+        39.37904
+      ],
+      [
+        -75.22484,
+        39.36146
+      ],
+      [
+        -75.21292,
+        39.34601
+      ],
+      [
+        -75.20376,
+        39.34218
+      ],
+      [
+        -75.2031,
+        39.33488
+      ],
+      [
+        -75.16432,
+        39.30589
+      ],
+      [
+        -75.16429,
+        39.30315
+      ],
+      [
+        -75.177,
+        39.29684
+      ],
+      [
+        -75.17351,
+        39.27909
+      ],
+      [
+        -75.16599,
+        39.27153
+      ],
+      [
+        -75.1645,
+        39.25727
+      ],
+      [
+        -75.17138,
+        39.24816
+      ],
+      [
+        -75.1685,
+        39.24001
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Greenwich",
+      "model": "town-blocks",
+      "at": 0.5445387099762877,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "East Point Light",
+      "model": "lighthouse-on-rock",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "harbor",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Marshalltown",
+      "at": 0.04599236641221374,
+      "landmark": ""
+    },
+    {
+      "name": "Salem",
+      "at": 0.16793893129770995,
+      "landmark": ""
+    },
+    {
+      "name": "Othello",
+      "at": 0.5072519083969466,
+      "landmark": ""
+    },
+    {
+      "name": "Sheppards Mill",
+      "at": 0.5807251908396946,
+      "landmark": ""
+    },
+    {
+      "name": "Fairton",
+      "at": 0.7828244274809161,
+      "landmark": ""
+    },
+    {
+      "name": "Fortescue",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/bayshore-heritage-byway-80449.json",
+    "public/data/strips/bayshore-heritage-byway-80449.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

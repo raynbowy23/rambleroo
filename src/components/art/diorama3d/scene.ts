@@ -23,45 +23,27 @@ function geometry(vertices: number[]) {
   g.computeVertexNormals()
   return g
 }
-/** Rectangular extrusion along a polyline, with a small cross slope into the hillside. */
-function ribbon(points: T.Vector3[], width: number, depth: number, bank = 0) {
+/** Shared mitered cross-sections keep both edges joined through every bend. */
+export function ribbon(points: T.Vector3[], width: number, _depth = 0) {
+  const edges = points.map((p, i) => {
+    const before = p
+      .clone()
+      .sub(points[Math.max(0, i - 1)])
+      .setY(0)
+      .normalize()
+    const after = points[Math.min(points.length - 1, i + 1)].clone().sub(p).setY(0).normalize()
+    if (!i) before.copy(after)
+    if (i === points.length - 1) after.copy(before)
+    const normal = new T.Vector3(-before.z - after.z, 0, before.x + after.x).normalize()
+    const length = Math.min(width, width / 2 / Math.max(0.5, normal.dot(new T.Vector3(-after.z, 0, after.x))))
+    normal.multiplyScalar(length)
+    return [p.clone().add(normal), p.clone().sub(normal)]
+  })
   const vertices: number[] = []
-  for (let i = 1; i < points.length; i++) {
-    const a = points[i - 1],
-      b = points[i],
-      normal = new T.Vector3(-(b.z - a.z), 0, b.x - a.x).normalize().multiplyScalar(width / 2)
-    const corners = [
-      a
-        .clone()
-        .add(normal)
-        .add(new T.Vector3(0, bank, 0)),
-      a
-        .clone()
-        .sub(normal)
-        .add(new T.Vector3(0, -bank, 0)),
-      b
-        .clone()
-        .add(normal)
-        .add(new T.Vector3(0, bank, 0)),
-      b
-        .clone()
-        .sub(normal)
-        .add(new T.Vector3(0, -bank, 0)),
-    ]
-    const push = (a: T.Vector3, b: T.Vector3, c: T.Vector3) => vertices.push(...a.toArray(), ...b.toArray(), ...c.toArray())
-    const [al, ar, bl, br] = corners
-    push(al, bl, ar)
-    push(ar, bl, br)
-    if (depth > 0)
-      for (const [p, q] of [
-        [al, bl],
-        [br, ar],
-      ]) {
-        const lowP = p.clone().add(new T.Vector3(0, -depth, 0)),
-          lowQ = q.clone().add(new T.Vector3(0, -depth, 0))
-        push(p, lowP, q)
-        push(q, lowP, lowQ)
-      }
+  for (let i = 1; i < edges.length; i++) {
+    const [al, ar] = edges[i - 1],
+      [bl, br] = edges[i]
+    for (const p of [al, bl, ar, ar, bl, br]) vertices.push(...p.toArray())
   }
   return geometry(vertices)
 }
@@ -93,15 +75,23 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
   const world = new T.Group()
   scene.add(world)
   const route = makeRoute(spec)
-  const material = (color: string) => new T.MeshStandardMaterial({ color, flatShading: true, roughness: 1, side: T.DoubleSide })
+  const material = (color: string) =>
+    new T.MeshStandardMaterial({
+      color,
+      emissive: night ? color : '#000000',
+      emissiveIntensity: night ? 0.16 : 0,
+      flatShading: true,
+      roughness: 1,
+      side: T.DoubleSide,
+    })
   const add = (g: T.BufferGeometry, color: string) => {
     const m = new T.Mesh(g, material(color))
     world.add(m)
     return m
   }
   // A coarse, closed height field with independently coloured geological strata.
-  const n = 12,
-    vertices: number[] = []
+  const n = 12
+  const groundBatches = new Map<string, number[]>()
   const heights = Array.from({ length: n + 1 }, (_, i) =>
     Array.from({ length: n + 1 }, (_, j) => route.height(-4 + (i * 8) / n, -4 + (j * 8) / n)),
   )
@@ -127,9 +117,28 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
         b = vertex(x + 8 / n, z),
         c = vertex(x, z + 8 / n),
         d = vertex(x + 8 / n, z + 8 / n)
-      vertices.push(...a.toArray(), ...c.toArray(), ...b.toArray(), ...b.toArray(), ...c.toArray(), ...d.toArray())
+      const near = route.nearest(x, z)
+      const color = snow
+        ? ink.paper
+        : spec.ground === 'alpine-plateau'
+          ? near.y > 1.3
+            ? ink.far
+            : ink.mid
+          : spec.ground === 'desert-mesas'
+            ? a.y > 0.8
+              ? ink.far
+              : ink.accent
+            : spec.ground === 'prairie-grid'
+              ? ink.mid
+              : spec.ground === 'low-shore'
+                ? ink.accent
+                : spec.ground === 'main-street'
+                  ? ink.far
+                  : ink.mid
+      if (!groundBatches.has(color)) groundBatches.set(color, [])
+      groundBatches.get(color)!.push(...a.toArray(), ...c.toArray(), ...b.toArray(), ...b.toArray(), ...c.toArray(), ...d.toArray())
     }
-  add(geometry(vertices), snow ? ink.paper : ink.mid)
+  for (const [color, points] of groundBatches) add(geometry(points), color)
   for (let layer = 0; layer < 3; layer++) {
     const base = add(new T.BoxGeometry(8, 0.17, 8), [ink.dark, '#a38266', ink.accent][layer])
     base.position.y = -0.46 + layer * 0.17
@@ -146,7 +155,7 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
       sides.push(...a.toArray(), ...aa.toArray(), ...b.toArray(), ...b.toArray(), ...aa.toArray(), ...bb.toArray())
     }
   add(geometry(sides), ink.far)
-  if (spec.ground === 'coastal-cliff') {
+  if (spec.ground === 'coastal-cliff' || spec.ground === 'low-shore') {
     const sea = add(new T.PlaneGeometry(8, 8), ink.water)
     sea.rotation.x = -Math.PI / 2
     sea.position.y = 0.13
@@ -154,27 +163,62 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
   // Seat route vertices on the actual triangulated height field. Bixby's deck spans the canyon instead.
   for (const p of route.points) {
     const at = route.nearest(p.x, p.z).at
-    if (!(spec.ground === 'coastal-cliff' && Math.abs(at - 0.18) < 0.055)) p.y = terrainHeight(p.x, p.z)
+    if (!spec.landmarks.some((l) => l.model === 'open-spandrel-arch-bridge' && l.offset === 'on-road' && Math.abs(at - l.at) < 0.1))
+      p.y = Math.max(
+        ...[
+          [0, 0],
+          [0.2, 0],
+          [-0.2, 0],
+          [0, 0.2],
+          [0, -0.2],
+        ].map(([x, z]) => terrainHeight(p.x + x, p.z + z)),
+      )
   }
   route.height = terrainHeight
   // The road ribbon and car share these terrain-conforming elevations.
   const road = route.points.map((p) => p.clone().add(new T.Vector3(0, 0.045, 0)))
-  add(ribbon(road, 0.17, 0.06, 0.009), ink.dark)
+  add(ribbon(road, 0.34), ink.dark)
   add(
     ribbon(
       road.map((p) => p.clone().add(new T.Vector3(0, 0.009, 0))),
-      0.014,
+      0.028,
       0,
     ),
     '#e9cb85',
   )
   const landmarkGroups: T.Group[] = []
+  const placedKinds = new Map<string, T.Vector3[]>()
   for (const landmark of spec.landmarks) {
-    const distance = landmark.offset === 'on-road' ? 0 : landmark.offset === 'seaward' ? 1.05 : 0.55
-    const { point, angle } = route.frame(landmark.at, distance)
+    const peers = spec.landmarks.filter((l) => l.at === landmark.at)
+    const peer = peers.indexOf(landmark)
+    const distance =
+      (peer % 2 ? -1 : 1) * (landmark.offset === 'on-road' ? 0 : landmark.offset === 'seaward' ? 1.25 : 0.9 + Math.floor(peer / 2) * 0.5)
+    let displayAt = landmark.at
+    const sameKind = placedKinds.get(landmark.model) ?? []
+    if (landmark.offset !== 'on-road') {
+      const candidates = [displayAt, ...Array.from({ length: 41 }, (_, i) => i / 40)].sort(
+        (a, b) => Math.abs(a - landmark.at) - Math.abs(b - landmark.at),
+      )
+      displayAt =
+        candidates.find((at) =>
+          sameKind.every((p) => {
+            const q = route.frame(at, distance).point
+            return Math.hypot(p.x - T.MathUtils.clamp(q.x, -3.3, 3.3), p.z - T.MathUtils.clamp(q.z, -3.3, 3.3)) >= 1.8
+          }),
+        ) ?? displayAt
+    }
+    const { point, angle } = route.frame(displayAt, distance)
+    point.x = T.MathUtils.clamp(point.x, -3.3, 3.3)
+    point.z = T.MathUtils.clamp(point.z, -3.3, 3.3)
     point.y = landmark.offset === 'on-road' ? route.sample(landmark.at).y + 0.06 : route.height(point.x, point.z) + 0.025
     if (landmark.offset === 'seaward') point.y = 0.16
     const model = buildModel(landmark.model, ink)
+    const size = new T.Box3().setFromObject(model).getSize(new T.Vector3())
+    const scale = Math.min(2.25, 8 / 3 / Math.max(size.x, size.y, size.z))
+    model.scale.setScalar(scale)
+    if (landmark.model === 'open-spandrel-arch-bridge' && landmark.offset !== 'on-road') point.y += 0.85 * scale
+    sameKind.push(point.clone())
+    placedKinds.set(landmark.model, sameKind)
     model.name = landmark.name
     model.position.copy(point)
     model.rotation.y = angle
@@ -185,31 +229,97 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
   for (const item of spec.dressing) {
     if (item.model === 'river') {
       const pts = Array.from({ length: 25 }, (_, i) => {
-        const p = route.frame(0.43 + (i * 0.57) / 24, item.distance).point
+        const p = route.frame((spec.authored ? 0.43 : 0) + (i * (spec.authored ? 0.57 : 1)) / 24, item.side * item.distance).point
         p.y = route.height(p.x, p.z) + 0.035
         return p
       })
-      add(ribbon(pts, 0.18, 0), ink.water)
+      add(ribbon(pts, 0.32, 0), ink.water)
       continue
     }
+    // Fog is optional scenery; omit it rather than putting a solid bank on land.
+    if (item.model === 'fog-bank') continue
     const { point, angle } = route.frame(item.at, item.side * item.distance)
+    if (item.model === 'field') {
+      if (spec.ground === 'coastal-cliff' || spec.ground === 'low-shore' || spec.ground === 'river-valley') continue
+      const vertices: number[] = []
+      const polygon = [
+        [-0.65, -0.18],
+        [-0.22, -0.24],
+        [0.6, -0.13],
+        [0.52, 0.18],
+        [-0.4, 0.26],
+      ].map(([x, z]) => {
+        const px = point.x + (x * Math.cos(angle) - z * Math.sin(angle)) * item.scale
+        const pz = point.z + (x * Math.sin(angle) + z * Math.cos(angle)) * item.scale
+        return new T.Vector3(px, terrainHeight(px, pz) + 0.018, pz)
+      })
+      const probes = [...polygon, point.clone().setY(terrainHeight(point.x, point.z))]
+      if (
+        probes.some(
+          (p) =>
+            Math.abs(p.x) > 3.9 ||
+            Math.abs(p.z) > 3.9 ||
+            p.y < 0.16 ||
+            route.nearest(p.x, p.z).distance < 0.3 ||
+            Math.hypot(
+              terrainHeight(p.x + 0.1, p.z) - terrainHeight(p.x - 0.1, p.z),
+              terrainHeight(p.x, p.z + 0.1) - terrainHeight(p.x, p.z - 0.1),
+            ) /
+              0.2 >
+              0.25,
+        )
+      )
+        continue
+      for (let i = 1; i < polygon.length - 1; i++)
+        vertices.push(...polygon[0].toArray(), ...polygon[i].toArray(), ...polygon[i + 1].toArray())
+      add(geometry(vertices), snow ? ink.paper : ['#9c9869', '#aaa077', '#918c63'][Math.floor(item.at * 37) % 3])
+      continue
+    }
     // Leave clearings around named landmarks; no implicit species or roadside buildings.
-    if (landmarkGroups.some((g) => Math.hypot(g.position.x - point.x, g.position.z - point.z) < 0.6)) continue
+    if (landmarkGroups.some((g) => Math.hypot(g.position.x - point.x, g.position.z - point.z) < 1.0)) continue
     point.y = route.height(point.x, point.z) + 0.025
-    if (item.model === 'surf' || item.model === 'sea-stack' || item.model === 'fog-bank') point.y = 0.16
+    if (item.model === 'surf' || item.model === 'sea-stack') point.y = 0.16
     const model = buildModel(item.model, {
       ...ink,
       foliage: conditions.season === 'autumn' && item.at % 0.1 < 0.05 ? '#d8a348' : ink.foliage,
     })
+    const tree = ['hardwood', 'conifer', 'aspen', 'orchard', 'cypress'].includes(item.model)
+    if (tree && (route.nearest(point.x, point.z).distance < 0.55 || point.y < 0.17 || Math.abs(point.x) > 3.7 || Math.abs(point.z) > 3.7)) {
+      disposeVehicle(model)
+      continue
+    }
     model.position.copy(point)
     model.rotation.y = angle
-    model.scale.setScalar(item.scale)
+    model.scale.setScalar(item.scale * (tree ? 0.8 : 1))
     world.add(model)
+  }
+  const townAnchors: { name: string; point: T.Vector3 }[] = []
+  for (const town of spec.towns) {
+    const existing = landmarkGroups.find((g) => g.name === town.landmark)
+    const point = existing ? existing.position.clone() : route.frame(town.at, -0.85).point
+    if (!existing) {
+      point.y = route.height(point.x, point.z) + 0.025
+      const model = buildModel('town-blocks', ink)
+      model.position.copy(point)
+      world.add(model)
+    }
+    townAnchors.push({ name: town.name, point: point.clone().add(new T.Vector3(0, 0.55, 0)) })
   }
   const car = buildVehicle(garage)
   // Vehicle uses Z up and +Y forward. This mount maps it into our Y-up world.
   car.rotation.set(-Math.PI / 2, 0, Math.PI)
-  car.scale.setScalar(0.055)
+  car.scale.setScalar(0.135)
+  // Keep the visitor readable even when the rotating foreground ridge crosses it.
+  // Its physical position and pitch still come from the road surface.
+  car.traverse((object) => {
+    if (!(object instanceof T.Mesh)) return
+    object.renderOrder = 10
+    const materials = Array.isArray(object.material) ? object.material : [object.material]
+    for (const material of materials) {
+      material.depthTest = false
+      material.depthWrite = false
+    }
+  })
   const driver = new T.Group()
   driver.name = 'visitor-car'
   driver.add(car)
@@ -221,11 +331,11 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
       light.target.position.set(x, 0, 1.5)
       driver.add(light, light.target)
     }
-  const ambient = new T.HemisphereLight(night ? '#98afd5' : '#fff0d0', ink.dark, night ? 0.9 : 2.2)
+  const ambient = new T.HemisphereLight(night ? '#98afd5' : '#fff0d0', night ? '#71819a' : ink.dark, night ? 1.5 : 2.2)
   scene.add(ambient)
   const sun = new T.DirectionalLight(
     night ? '#9ab1dc' : warm ? '#ffc58f' : '#fff3db',
-    night ? 0.55 : conditions.weather === 'clear' ? 2.6 : 1.2,
+    night ? 0.8 : conditions.weather === 'clear' ? 1.4 : 1.0,
   )
   const phase = ((hour - 6) / 12) * Math.PI
   sun.position.set(Math.cos(phase) * 8, Math.max(1, Math.sin(phase) * 10), 4)
@@ -321,7 +431,7 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
       particles.position.y = -((seconds * (conditions.weather === 'rain' ? 2 : 0.3)) % 1.5)
   }
   update(0)
-  return { scene, world, camera, route, driver, landmarkGroups, update, dispose: () => disposeVehicle(scene) }
+  return { scene, world, camera, route, driver, landmarkGroups, townAnchors, update, dispose: () => disposeVehicle(scene) }
 }
 export type BuiltScene = ReturnType<typeof buildScene>
 export function triangleCount(object: T.Object3D) {

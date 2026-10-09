@@ -1,0 +1,413 @@
+{
+  "authored": false,
+  "bywayId": "route-168-bishop-creek-990610",
+  "title": "Route 168, Bishop Creek",
+  "longitude": -118.5269,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -118.60653,
+        37.21829
+      ],
+      [
+        -118.60479,
+        37.22146
+      ],
+      [
+        -118.60095,
+        37.22578
+      ],
+      [
+        -118.59937,
+        37.2289
+      ],
+      [
+        -118.59734,
+        37.23204
+      ],
+      [
+        -118.59719,
+        37.23281
+      ],
+      [
+        -118.59718,
+        37.24125
+      ],
+      [
+        -118.59648,
+        37.24282
+      ],
+      [
+        -118.58871,
+        37.24833
+      ],
+      [
+        -118.58747,
+        37.2487
+      ],
+      [
+        -118.58313,
+        37.24914
+      ],
+      [
+        -118.58209,
+        37.24968
+      ],
+      [
+        -118.58156,
+        37.25033
+      ],
+      [
+        -118.58142,
+        37.25093
+      ],
+      [
+        -118.58154,
+        37.25319
+      ],
+      [
+        -118.58011,
+        37.25601
+      ],
+      [
+        -118.5797,
+        37.2578
+      ],
+      [
+        -118.5798,
+        37.25932
+      ],
+      [
+        -118.58058,
+        37.26289
+      ],
+      [
+        -118.58039,
+        37.26436
+      ],
+      [
+        -118.57517,
+        37.27412
+      ],
+      [
+        -118.57423,
+        37.27544
+      ],
+      [
+        -118.55346,
+        37.29235
+      ],
+      [
+        -118.54461,
+        37.29719
+      ],
+      [
+        -118.53825,
+        37.29985
+      ],
+      [
+        -118.5322,
+        37.30275
+      ],
+      [
+        -118.52934,
+        37.30525
+      ],
+      [
+        -118.52764,
+        37.30768
+      ],
+      [
+        -118.51958,
+        37.31355
+      ],
+      [
+        -118.51895,
+        37.31421
+      ],
+      [
+        -118.51413,
+        37.32361
+      ],
+      [
+        -118.51405,
+        37.32527
+      ],
+      [
+        -118.51495,
+        37.3267
+      ],
+      [
+        -118.51564,
+        37.3272
+      ],
+      [
+        -118.51701,
+        37.32773
+      ],
+      [
+        -118.5186,
+        37.32782
+      ],
+      [
+        -118.52161,
+        37.32724
+      ],
+      [
+        -118.52263,
+        37.32735
+      ],
+      [
+        -118.52353,
+        37.32773
+      ],
+      [
+        -118.52448,
+        37.32863
+      ],
+      [
+        -118.52477,
+        37.32949
+      ],
+      [
+        -118.52468,
+        37.33035
+      ],
+      [
+        -118.5239,
+        37.33144
+      ],
+      [
+        -118.50852,
+        37.33892
+      ],
+      [
+        -118.50673,
+        37.33953
+      ],
+      [
+        -118.48079,
+        37.34208
+      ],
+      [
+        -118.47882,
+        37.34263
+      ],
+      [
+        -118.47766,
+        37.34329
+      ],
+      [
+        -118.46452,
+        37.3535
+      ],
+      [
+        -118.46191,
+        37.35627
+      ],
+      [
+        -118.45898,
+        37.35875
+      ],
+      [
+        -118.45702,
+        37.35989
+      ],
+      [
+        -118.45523,
+        37.36058
+      ],
+      [
+        -118.45327,
+        37.36107
+      ],
+      [
+        -118.45129,
+        37.36124
+      ],
+      [
+        -118.4313,
+        37.36139
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lake Sabrina",
+      "model": "alpine-lake",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Aspendell",
+      "model": "aspen",
+      "at": 0.09213822383532522,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Aspendell",
+      "model": "town-blocks",
+      "at": 0.09213822383532522,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bishop",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Aspendell",
+      "at": 0.09202453987730061,
+      "landmark": "Aspendell"
+    },
+    {
+      "name": "West Bishop",
+      "at": 0.9061349693251534,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-168-bishop-creek-990610.json",
+    "public/data/strips/route-168-bishop-creek-990610.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

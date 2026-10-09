@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "seboomook-scenic-byway-71994",
+  "title": "Seboomook Scenic Byway",
+  "longitude": -69.8027,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -69.59153,
+        45.45898
+      ],
+      [
+        -69.62174,
+        45.46114
+      ],
+      [
+        -69.62594,
+        45.46667
+      ],
+      [
+        -69.62583,
+        45.46943
+      ],
+      [
+        -69.6227,
+        45.47262
+      ],
+      [
+        -69.62396,
+        45.47506
+      ],
+      [
+        -69.63051,
+        45.47577
+      ],
+      [
+        -69.63529,
+        45.47828
+      ],
+      [
+        -69.65594,
+        45.48043
+      ],
+      [
+        -69.66496,
+        45.48725
+      ],
+      [
+        -69.67132,
+        45.49984
+      ],
+      [
+        -69.67233,
+        45.51155
+      ],
+      [
+        -69.67761,
+        45.5258
+      ],
+      [
+        -69.68766,
+        45.5362
+      ],
+      [
+        -69.69313,
+        45.53853
+      ],
+      [
+        -69.69605,
+        45.54297
+      ],
+      [
+        -69.70178,
+        45.57022
+      ],
+      [
+        -69.72581,
+        45.58795
+      ],
+      [
+        -69.72595,
+        45.59595
+      ],
+      [
+        -69.73021,
+        45.61492
+      ],
+      [
+        -69.73508,
+        45.62377
+      ],
+      [
+        -69.74021,
+        45.6451
+      ],
+      [
+        -69.74738,
+        45.65673
+      ],
+      [
+        -69.74263,
+        45.67495
+      ],
+      [
+        -69.74546,
+        45.67919
+      ],
+      [
+        -69.75487,
+        45.67895
+      ],
+      [
+        -69.76303,
+        45.68191
+      ],
+      [
+        -69.77704,
+        45.67897
+      ],
+      [
+        -69.7822,
+        45.67507
+      ],
+      [
+        -69.79451,
+        45.67103
+      ],
+      [
+        -69.80548,
+        45.65529
+      ],
+      [
+        -69.80154,
+        45.64791
+      ],
+      [
+        -69.80225,
+        45.64614
+      ],
+      [
+        -69.82095,
+        45.63781
+      ],
+      [
+        -69.82562,
+        45.63105
+      ],
+      [
+        -69.83986,
+        45.61752
+      ],
+      [
+        -69.86845,
+        45.60909
+      ],
+      [
+        -69.89015,
+        45.59772
+      ],
+      [
+        -69.93718,
+        45.59962
+      ],
+      [
+        -69.95766,
+        45.60765
+      ],
+      [
+        -69.96658,
+        45.60524
+      ],
+      [
+        -69.97656,
+        45.607
+      ],
+      [
+        -69.99129,
+        45.60442
+      ],
+      [
+        -70.04428,
+        45.60415
+      ],
+      [
+        -70.06036,
+        45.6083
+      ],
+      [
+        -70.07136,
+        45.61639
+      ],
+      [
+        -70.09011,
+        45.62278
+      ],
+      [
+        -70.10361,
+        45.62354
+      ],
+      [
+        -70.13053,
+        45.61946
+      ],
+      [
+        -70.1383,
+        45.62386
+      ],
+      [
+        -70.15264,
+        45.62461
+      ],
+      [
+        -70.16685,
+        45.63075
+      ],
+      [
+        -70.17493,
+        45.63219
+      ],
+      [
+        -70.20167,
+        45.63218
+      ],
+      [
+        -70.22828,
+        45.62166
+      ],
+      [
+        -70.24384,
+        45.61786
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Greenville",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mount Kineo",
+      "model": "alpine-lake",
+      "at": 0.4034474867091724,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Jackman",
+      "model": "town-blocks",
+      "at": 0.9393777396702648,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Greenville",
+      "at": 0,
+      "landmark": "Greenville"
+    },
+    {
+      "name": "Rockwood",
+      "at": 0.4052301255230125,
+      "landmark": ""
+    },
+    {
+      "name": "Askwith",
+      "at": 0.5579497907949791,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/seboomook-scenic-byway-71994.json",
+    "public/data/strips/seboomook-scenic-byway-71994.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

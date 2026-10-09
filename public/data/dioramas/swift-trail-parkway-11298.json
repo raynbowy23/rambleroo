@@ -1,0 +1,416 @@
+{
+  "authored": false,
+  "bywayId": "swift-trail-parkway-11298",
+  "title": "Swift Trail Parkway",
+  "longitude": -109.8135,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -109.87341,
+        32.66752
+      ],
+      [
+        -109.87307,
+        32.66452
+      ],
+      [
+        -109.86623,
+        32.66214
+      ],
+      [
+        -109.86504,
+        32.65746
+      ],
+      [
+        -109.8604,
+        32.65624
+      ],
+      [
+        -109.86227,
+        32.64864
+      ],
+      [
+        -109.85885,
+        32.64855
+      ],
+      [
+        -109.85637,
+        32.64391
+      ],
+      [
+        -109.85369,
+        32.64526
+      ],
+      [
+        -109.84938,
+        32.64346
+      ],
+      [
+        -109.84827,
+        32.63501
+      ],
+      [
+        -109.84188,
+        32.63481
+      ],
+      [
+        -109.84244,
+        32.63255
+      ],
+      [
+        -109.83954,
+        32.62864
+      ],
+      [
+        -109.83616,
+        32.62776
+      ],
+      [
+        -109.83068,
+        32.62182
+      ],
+      [
+        -109.82574,
+        32.62032
+      ],
+      [
+        -109.82371,
+        32.62238
+      ],
+      [
+        -109.82874,
+        32.62619
+      ],
+      [
+        -109.82976,
+        32.62944
+      ],
+      [
+        -109.82632,
+        32.62565
+      ],
+      [
+        -109.82715,
+        32.62982
+      ],
+      [
+        -109.82474,
+        32.62677
+      ],
+      [
+        -109.8252,
+        32.63102
+      ],
+      [
+        -109.82268,
+        32.62787
+      ],
+      [
+        -109.81659,
+        32.63079
+      ],
+      [
+        -109.81563,
+        32.63232
+      ],
+      [
+        -109.81769,
+        32.63241
+      ],
+      [
+        -109.81667,
+        32.63325
+      ],
+      [
+        -109.81836,
+        32.63311
+      ],
+      [
+        -109.81875,
+        32.63534
+      ],
+      [
+        -109.82256,
+        32.63447
+      ],
+      [
+        -109.82485,
+        32.63689
+      ],
+      [
+        -109.81581,
+        32.64475
+      ],
+      [
+        -109.81907,
+        32.64967
+      ],
+      [
+        -109.81295,
+        32.64887
+      ],
+      [
+        -109.81207,
+        32.64573
+      ],
+      [
+        -109.81191,
+        32.64917
+      ],
+      [
+        -109.81106,
+        32.64734
+      ],
+      [
+        -109.80868,
+        32.64996
+      ],
+      [
+        -109.81298,
+        32.65138
+      ],
+      [
+        -109.8049,
+        32.65378
+      ],
+      [
+        -109.80614,
+        32.65615
+      ],
+      [
+        -109.80049,
+        32.6635
+      ],
+      [
+        -109.80254,
+        32.66667
+      ],
+      [
+        -109.79629,
+        32.66559
+      ],
+      [
+        -109.79682,
+        32.66771
+      ],
+      [
+        -109.78645,
+        32.67043
+      ],
+      [
+        -109.77714,
+        32.67638
+      ],
+      [
+        -109.77619,
+        32.67879
+      ],
+      [
+        -109.77276,
+        32.67922
+      ],
+      [
+        -109.76261,
+        32.69019
+      ],
+      [
+        -109.76065,
+        32.68981
+      ],
+      [
+        -109.75954,
+        32.6866
+      ],
+      [
+        -109.75666,
+        32.68758
+      ],
+      [
+        -109.71397,
+        32.72988
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Turkey Flat",
+      "model": "switchback",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Columbine",
+      "model": "town-blocks",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Grant Hill",
+      "at": 0.009170305676855896,
+      "landmark": ""
+    },
+    {
+      "name": "Ladybug Peak",
+      "at": 0.265938864628821,
+      "landmark": ""
+    },
+    {
+      "name": "Cyclone Hill",
+      "at": 0.8502183406113537,
+      "landmark": ""
+    },
+    {
+      "name": "Swift Trail Junction",
+      "at": 0.997816593886463,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/swift-trail-parkway-11298.json",
+    "public/data/strips/swift-trail-parkway-11298.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

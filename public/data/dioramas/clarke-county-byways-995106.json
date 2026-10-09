@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "clarke-county-byways-995106",
+  "title": "Clarke County byways",
+  "longitude": -77.8953,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -78.04268,
+        39.12399
+      ],
+      [
+        -78.0431,
+        39.12384
+      ],
+      [
+        -78.05208,
+        39.11332
+      ],
+      [
+        -78.04268,
+        39.12399
+      ],
+      [
+        -78.03009,
+        39.12395
+      ],
+      [
+        -78.02701,
+        39.12434
+      ],
+      [
+        -78.02573,
+        39.12364
+      ],
+      [
+        -78.02451,
+        39.12364
+      ],
+      [
+        -78.02386,
+        39.12298
+      ],
+      [
+        -78.02248,
+        39.12313
+      ],
+      [
+        -78.02037,
+        39.12197
+      ],
+      [
+        -78.0196,
+        39.12279
+      ],
+      [
+        -78.01866,
+        39.12332
+      ],
+      [
+        -78.01384,
+        39.12091
+      ],
+      [
+        -78.00904,
+        39.11947
+      ],
+      [
+        -78.00553,
+        39.11677
+      ],
+      [
+        -78.01422,
+        39.10786
+      ],
+      [
+        -78.01388,
+        39.1075
+      ],
+      [
+        -78.01449,
+        39.10366
+      ],
+      [
+        -78.0175,
+        39.09868
+      ],
+      [
+        -78.01922,
+        39.09514
+      ],
+      [
+        -78.02289,
+        39.09097
+      ],
+      [
+        -78.03261,
+        39.08277
+      ],
+      [
+        -78.03345,
+        39.07722
+      ],
+      [
+        -78.03499,
+        39.07241
+      ],
+      [
+        -78.03615,
+        39.07095
+      ],
+      [
+        -78.03828,
+        39.06972
+      ],
+      [
+        -78.03277,
+        39.08212
+      ],
+      [
+        -78.03281,
+        39.08462
+      ],
+      [
+        -78.03485,
+        39.09179
+      ],
+      [
+        -78.04259,
+        39.10263
+      ],
+      [
+        -78.04351,
+        39.10543
+      ],
+      [
+        -78.04575,
+        39.10846
+      ],
+      [
+        -78.08426,
+        39.12878
+      ],
+      [
+        -78.10344,
+        39.12019
+      ],
+      [
+        -78.10315,
+        39.11769
+      ],
+      [
+        -78.10286,
+        39.1173
+      ],
+      [
+        -78.09902,
+        39.11534
+      ],
+      [
+        -78.09645,
+        39.11325
+      ],
+      [
+        -78.08242,
+        39.10574
+      ],
+      [
+        -78.06795,
+        39.09763
+      ],
+      [
+        -78.05613,
+        39.08953
+      ],
+      [
+        -78.04189,
+        39.07551
+      ],
+      [
+        -78.04123,
+        39.07338
+      ],
+      [
+        -78.03828,
+        39.06972
+      ],
+      [
+        -78.04118,
+        39.05887
+      ],
+      [
+        -78.04463,
+        39.0503
+      ],
+      [
+        -78.04467,
+        39.05012
+      ],
+      [
+        -78.04347,
+        39.04982
+      ],
+      [
+        -78.04323,
+        39.04906
+      ],
+      [
+        -78.0501,
+        39.0382
+      ],
+      [
+        -78.05353,
+        39.03552
+      ],
+      [
+        -78.05701,
+        39.03207
+      ],
+      [
+        -78.06056,
+        39.02901
+      ],
+      [
+        -78.06976,
+        39.02803
+      ],
+      [
+        -78.08331,
+        39.01515
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Burwell-Morgan Mill",
+      "model": "gristmill",
+      "at": 0.8026317911705225,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "White Post",
+      "model": "town-blocks",
+      "at": 0.9528355577171077,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Blue Ridge Mountain Road",
+      "model": "ridge",
+      "at": 0.9528355577171077,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Briggs",
+      "at": 0.19836065573770492,
+      "landmark": ""
+    },
+    {
+      "name": "Boyce",
+      "at": 0.7188524590163935,
+      "landmark": ""
+    },
+    {
+      "name": "Greenway Court",
+      "at": 0.9827868852459017,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/clarke-county-byways-995106.json",
+    "public/data/strips/clarke-county-byways-995106.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

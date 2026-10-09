@@ -1,0 +1,406 @@
+{
+  "authored": false,
+  "bywayId": "forest-heritage-national-scenic-byway-77229",
+  "title": "Forest Heritage National Scenic Byway",
+  "longitude": -82.7915,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -82.81763,
+        35.36601
+      ],
+      [
+        -82.81585,
+        35.36471
+      ],
+      [
+        -82.81473,
+        35.36788
+      ],
+      [
+        -82.81232,
+        35.36687
+      ],
+      [
+        -82.81049,
+        35.37098
+      ],
+      [
+        -82.80717,
+        35.3713
+      ],
+      [
+        -82.80482,
+        35.3707
+      ],
+      [
+        -82.80292,
+        35.36717
+      ],
+      [
+        -82.79891,
+        35.36655
+      ],
+      [
+        -82.79822,
+        35.3688
+      ],
+      [
+        -82.79448,
+        35.36721
+      ],
+      [
+        -82.79313,
+        35.37135
+      ],
+      [
+        -82.79054,
+        35.37331
+      ],
+      [
+        -82.7895,
+        35.36559
+      ],
+      [
+        -82.79245,
+        35.36398
+      ],
+      [
+        -82.79257,
+        35.36235
+      ],
+      [
+        -82.79192,
+        35.36359
+      ],
+      [
+        -82.78487,
+        35.36495
+      ],
+      [
+        -82.78631,
+        35.36892
+      ],
+      [
+        -82.78061,
+        35.36758
+      ],
+      [
+        -82.7796,
+        35.36884
+      ],
+      [
+        -82.78035,
+        35.36716
+      ],
+      [
+        -82.7828,
+        35.36724
+      ],
+      [
+        -82.77875,
+        35.35795
+      ],
+      [
+        -82.77974,
+        35.35212
+      ],
+      [
+        -82.78474,
+        35.34641
+      ],
+      [
+        -82.78536,
+        35.34355
+      ],
+      [
+        -82.79009,
+        35.34073
+      ],
+      [
+        -82.78716,
+        35.33927
+      ],
+      [
+        -82.78683,
+        35.33712
+      ],
+      [
+        -82.7909,
+        35.33159
+      ],
+      [
+        -82.79007,
+        35.3244
+      ],
+      [
+        -82.79186,
+        35.31936
+      ],
+      [
+        -82.7897,
+        35.31611
+      ],
+      [
+        -82.78645,
+        35.31481
+      ],
+      [
+        -82.78748,
+        35.31204
+      ],
+      [
+        -82.78282,
+        35.30658
+      ],
+      [
+        -82.77547,
+        35.30336
+      ],
+      [
+        -82.77441,
+        35.30609
+      ],
+      [
+        -82.77325,
+        35.30603
+      ],
+      [
+        -82.77019,
+        35.30104
+      ],
+      [
+        -82.77043,
+        35.29901
+      ],
+      [
+        -82.76756,
+        35.29774
+      ],
+      [
+        -82.77146,
+        35.29513
+      ],
+      [
+        -82.76999,
+        35.29161
+      ],
+      [
+        -82.76113,
+        35.289
+      ],
+      [
+        -82.76138,
+        35.28575
+      ],
+      [
+        -82.75542,
+        35.2806
+      ],
+      [
+        -82.75248,
+        35.28097
+      ],
+      [
+        -82.75547,
+        35.28468
+      ],
+      [
+        -82.75114,
+        35.28832
+      ],
+      [
+        -82.74376,
+        35.2861
+      ],
+      [
+        -82.73506,
+        35.28793
+      ],
+      [
+        -82.7157,
+        35.2812
+      ],
+      [
+        -82.71167,
+        35.27581
+      ],
+      [
+        -82.70475,
+        35.27397
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Looking Glass Falls",
+      "model": "cove-waterfall",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Sliding Rock",
+      "model": "cove-waterfall",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Old Butt Knob",
+      "at": 0.0005617977528089887,
+      "landmark": ""
+    },
+    {
+      "name": "Looking Glass Rock",
+      "at": 0.5758426966292135,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/forest-heritage-national-scenic-byway-77229.json",
+    "public/data/strips/forest-heritage-national-scenic-byway-77229.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

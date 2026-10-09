@@ -1,0 +1,364 @@
+{
+  "authored": false,
+  "bywayId": "historic-hills-scenic-byway-2185",
+  "title": "Historic Hills Scenic Byway",
+  "longitude": -92.1796,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -92.63956,
+        41.01613
+      ],
+      [
+        -92.63435,
+        40.99098
+      ],
+      [
+        -92.63935,
+        40.9572
+      ],
+      [
+        -92.63913,
+        40.89071
+      ],
+      [
+        -92.63226,
+        40.88441
+      ],
+      [
+        -92.63253,
+        40.87939
+      ],
+      [
+        -92.61863,
+        40.87805
+      ],
+      [
+        -92.59803,
+        40.8686
+      ],
+      [
+        -92.59688,
+        40.85912
+      ],
+      [
+        -92.58654,
+        40.85336
+      ],
+      [
+        -92.57332,
+        40.85599
+      ],
+      [
+        -92.55839,
+        40.85112
+      ],
+      [
+        -92.539,
+        40.8531
+      ],
+      [
+        -92.53742,
+        40.84232
+      ],
+      [
+        -92.50806,
+        40.84168
+      ],
+      [
+        -92.50549,
+        40.83462
+      ],
+      [
+        -92.49708,
+        40.83155
+      ],
+      [
+        -92.49315,
+        40.8243
+      ],
+      [
+        -92.48608,
+        40.82288
+      ],
+      [
+        -92.48303,
+        40.79857
+      ],
+      [
+        -92.39925,
+        40.79776
+      ],
+      [
+        -92.39926,
+        40.77533
+      ],
+      [
+        -92.4137,
+        40.75067
+      ],
+      [
+        -92.39059,
+        40.74761
+      ],
+      [
+        -92.17136,
+        40.74834
+      ],
+      [
+        -92.13985,
+        40.72649
+      ],
+      [
+        -92.04399,
+        40.72545
+      ],
+      [
+        -92.03259,
+        40.72187
+      ],
+      [
+        -92.02595,
+        40.72305
+      ],
+      [
+        -92.02262,
+        40.73056
+      ],
+      [
+        -92.00964,
+        40.73182
+      ],
+      [
+        -91.99031,
+        40.74685
+      ],
+      [
+        -91.98223,
+        40.74037
+      ],
+      [
+        -91.96652,
+        40.74018
+      ],
+      [
+        -91.95962,
+        40.73621
+      ],
+      [
+        -91.96499,
+        40.7309
+      ],
+      [
+        -91.9507,
+        40.71759
+      ],
+      [
+        -91.86668,
+        40.719
+      ],
+      [
+        -91.8611,
+        40.72942
+      ],
+      [
+        -91.84513,
+        40.72338
+      ],
+      [
+        -91.81947,
+        40.72099
+      ],
+      [
+        -91.81513,
+        40.71669
+      ],
+      [
+        -91.81477,
+        40.6983
+      ],
+      [
+        -91.80309,
+        40.69804
+      ],
+      [
+        -91.80438,
+        40.65891
+      ],
+      [
+        -91.79965,
+        40.65181
+      ],
+      [
+        -91.75065,
+        40.63943
+      ],
+      [
+        -91.74117,
+        40.6418
+      ],
+      [
+        -91.73559,
+        40.63212
+      ],
+      [
+        -91.7147,
+        40.62537
+      ],
+      [
+        -91.70792,
+        40.61959
+      ],
+      [
+        -91.68466,
+        40.6269
+      ],
+      [
+        -91.67467,
+        40.63399
+      ],
+      [
+        -91.65295,
+        40.63178
+      ],
+      [
+        -91.64072,
+        40.63896
+      ],
+      [
+        -91.56447,
+        40.639
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Bloomfield",
+      "model": "town-blocks",
+      "at": 0.3533810510560009,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Keosauqua",
+      "model": "town-blocks",
+      "at": 0.6603621322467814,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bonaparte",
+      "model": "town-blocks",
+      "at": 0.7963973402747562,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Blakesburg",
+      "at": 0.04519572953736655,
+      "landmark": ""
+    },
+    {
+      "name": "Ash Grove",
+      "at": 0.18102016607354687,
+      "landmark": ""
+    },
+    {
+      "name": "Drakesville",
+      "at": 0.2615658362989324,
+      "landmark": ""
+    },
+    {
+      "name": "Bloomfield",
+      "at": 0.3531435349940688,
+      "landmark": "Bloomfield"
+    },
+    {
+      "name": "Troy",
+      "at": 0.4852906287069988,
+      "landmark": ""
+    },
+    {
+      "name": "Keosauqua",
+      "at": 0.6603795966785291,
+      "landmark": "Keosauqua"
+    },
+    {
+      "name": "Bonaparte",
+      "at": 0.796085409252669,
+      "landmark": "Bonaparte"
+    },
+    {
+      "name": "Farmington",
+      "at": 0.8769869513641757,
+      "landmark": ""
+    },
+    {
+      "name": "Donnellson",
+      "at": 0.999644128113879,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/historic-hills-scenic-byway-2185.json",
+    "public/data/strips/historic-hills-scenic-byway-2185.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -33,9 +33,12 @@
   box-shadow: 0 20px 35px -25px #35473880;
 }
 .rr-mini-view {
-  height: 330px;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 1;
+  margin-inline: auto;
   position: relative;
-  touch-action: pan-y;
+  touch-action: none;
   cursor: grab;
   background: #c9ded5;
 }
@@ -117,4 +120,26 @@
 }
 .rr-mini-view:active {
   cursor: grabbing;
+}
+
+.rr-mini-town {
+  position: absolute;
+  z-index: 6;
+  pointer-events: none;
+  transform: translate(-50%, -100%);
+  font:
+    10px/1.2 Georgia,
+    serif;
+  color: #354738;
+  background: #f6ead3e6;
+  padding: 2px 4px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.rr-mini-gallery > label {
+  display: block;
+  margin-bottom: 24px;
+}
+.rr-mini-gallery > label select {
+  max-width: 100%;
 }

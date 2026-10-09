@@ -1,0 +1,441 @@
+{
+  "authored": false,
+  "bywayId": "high-road-to-taos-52023",
+  "title": "High Road to Taos",
+  "longitude": -105.7673,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -106.03802,
+        35.88759
+      ],
+      [
+        -106.02243,
+        35.8902
+      ],
+      [
+        -106.0136,
+        35.89749
+      ],
+      [
+        -105.99607,
+        35.8958
+      ],
+      [
+        -105.97725,
+        35.89879
+      ],
+      [
+        -105.97598,
+        35.9061
+      ],
+      [
+        -105.96524,
+        35.91567
+      ],
+      [
+        -105.95604,
+        35.93494
+      ],
+      [
+        -105.9532,
+        35.95146
+      ],
+      [
+        -105.93737,
+        35.95616
+      ],
+      [
+        -105.93041,
+        35.98593
+      ],
+      [
+        -105.93346,
+        35.99044
+      ],
+      [
+        -105.92785,
+        36.00415
+      ],
+      [
+        -105.91281,
+        36.00609
+      ],
+      [
+        -105.90364,
+        36.00277
+      ],
+      [
+        -105.88544,
+        36.00858
+      ],
+      [
+        -105.87152,
+        36.00919
+      ],
+      [
+        -105.85373,
+        36.02347
+      ],
+      [
+        -105.84797,
+        36.02473
+      ],
+      [
+        -105.83916,
+        36.03952
+      ],
+      [
+        -105.81292,
+        36.04416
+      ],
+      [
+        -105.80947,
+        36.0529
+      ],
+      [
+        -105.80507,
+        36.05344
+      ],
+      [
+        -105.80964,
+        36.05844
+      ],
+      [
+        -105.80269,
+        36.06274
+      ],
+      [
+        -105.7963,
+        36.07683
+      ],
+      [
+        -105.7974,
+        36.08069
+      ],
+      [
+        -105.78895,
+        36.08211
+      ],
+      [
+        -105.78021,
+        36.0916
+      ],
+      [
+        -105.77186,
+        36.11584
+      ],
+      [
+        -105.76281,
+        36.12903
+      ],
+      [
+        -105.74183,
+        36.13663
+      ],
+      [
+        -105.73993,
+        36.15838
+      ],
+      [
+        -105.72858,
+        36.17917
+      ],
+      [
+        -105.70597,
+        36.18389
+      ],
+      [
+        -105.68668,
+        36.16943
+      ],
+      [
+        -105.67791,
+        36.17956
+      ],
+      [
+        -105.67949,
+        36.18796
+      ],
+      [
+        -105.66791,
+        36.19095
+      ],
+      [
+        -105.63798,
+        36.18603
+      ],
+      [
+        -105.62028,
+        36.17686
+      ],
+      [
+        -105.62382,
+        36.17988
+      ],
+      [
+        -105.61953,
+        36.18316
+      ],
+      [
+        -105.61851,
+        36.19024
+      ],
+      [
+        -105.59292,
+        36.21216
+      ],
+      [
+        -105.59434,
+        36.22307
+      ],
+      [
+        -105.60183,
+        36.22857
+      ],
+      [
+        -105.59881,
+        36.23862
+      ],
+      [
+        -105.60348,
+        36.23977
+      ],
+      [
+        -105.59238,
+        36.25115
+      ],
+      [
+        -105.57896,
+        36.25657
+      ],
+      [
+        -105.57407,
+        36.26858
+      ],
+      [
+        -105.57934,
+        36.28179
+      ],
+      [
+        -105.58202,
+        36.31831
+      ],
+      [
+        -105.59836,
+        36.34337
+      ],
+      [
+        -105.60398,
+        36.36293
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Truchas",
+      "model": "town-blocks",
+      "at": 0.3630424202877992,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Las Trampas",
+      "model": "steeple-town",
+      "at": 0.5021166098724124,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hoodoo",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Jacona",
+      "at": 0.000532859680284048,
+      "landmark": ""
+    },
+    {
+      "name": "Nambé Pueblo",
+      "at": 0.06714031971580803,
+      "landmark": ""
+    },
+    {
+      "name": "Chimayo",
+      "at": 0.21811722912966247,
+      "landmark": ""
+    },
+    {
+      "name": "Cordova",
+      "at": 0.28809946714031975,
+      "landmark": ""
+    },
+    {
+      "name": "Truchas",
+      "at": 0.36341030195381874,
+      "landmark": "Truchas"
+    },
+    {
+      "name": "Las Trampas",
+      "at": 0.5012433392539964,
+      "landmark": ""
+    },
+    {
+      "name": "Rio Lucio",
+      "at": 0.591829484902309,
+      "landmark": ""
+    },
+    {
+      "name": "Vadito",
+      "at": 0.6637655417406749,
+      "landmark": ""
+    },
+    {
+      "name": "Ranchos de Taos",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/high-road-to-taos-52023.json",
+    "public/data/strips/high-road-to-taos-52023.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,348 @@
+{
+  "authored": false,
+  "bywayId": "broward-county-a1a-scenic-highway-81355",
+  "title": "Broward County A1A Scenic Highway",
+  "longitude": -80.1006,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.07573,
+        26.32084
+      ],
+      [
+        -80.07628,
+        26.31642
+      ],
+      [
+        -80.07784,
+        26.31619
+      ],
+      [
+        -80.0776,
+        26.30457
+      ],
+      [
+        -80.07952,
+        26.28995
+      ],
+      [
+        -80.07928,
+        26.28783
+      ],
+      [
+        -80.07978,
+        26.28471
+      ],
+      [
+        -80.07976,
+        26.27966
+      ],
+      [
+        -80.08032,
+        26.27589
+      ],
+      [
+        -80.08058,
+        26.26682
+      ],
+      [
+        -80.08228,
+        26.26219
+      ],
+      [
+        -80.08677,
+        26.25929
+      ],
+      [
+        -80.08715,
+        26.25858
+      ],
+      [
+        -80.08709,
+        26.25539
+      ],
+      [
+        -80.08647,
+        26.25404
+      ],
+      [
+        -80.08655,
+        26.24928
+      ],
+      [
+        -80.08861,
+        26.23896
+      ],
+      [
+        -80.09001,
+        26.23747
+      ],
+      [
+        -80.0904,
+        26.23643
+      ],
+      [
+        -80.0909,
+        26.23326
+      ],
+      [
+        -80.09134,
+        26.22018
+      ],
+      [
+        -80.09555,
+        26.2005
+      ],
+      [
+        -80.09749,
+        26.18275
+      ],
+      [
+        -80.09939,
+        26.17642
+      ],
+      [
+        -80.10122,
+        26.16157
+      ],
+      [
+        -80.10124,
+        26.15408
+      ],
+      [
+        -80.10092,
+        26.15164
+      ],
+      [
+        -80.10317,
+        26.13687
+      ],
+      [
+        -80.10367,
+        26.12572
+      ],
+      [
+        -80.10517,
+        26.1236
+      ],
+      [
+        -80.10589,
+        26.12124
+      ],
+      [
+        -80.10529,
+        26.11455
+      ],
+      [
+        -80.10596,
+        26.11015
+      ],
+      [
+        -80.10867,
+        26.10649
+      ],
+      [
+        -80.10952,
+        26.10246
+      ],
+      [
+        -80.1106,
+        26.10138
+      ],
+      [
+        -80.11175,
+        26.10095
+      ],
+      [
+        -80.1369,
+        26.10035
+      ],
+      [
+        -80.13659,
+        26.08981
+      ],
+      [
+        -80.13374,
+        26.07651
+      ],
+      [
+        -80.13368,
+        26.07383
+      ],
+      [
+        -80.13433,
+        26.07134
+      ],
+      [
+        -80.13593,
+        26.06875
+      ],
+      [
+        -80.14255,
+        26.06333
+      ],
+      [
+        -80.14338,
+        26.0621
+      ],
+      [
+        -80.14387,
+        26.06023
+      ],
+      [
+        -80.14368,
+        26.05225
+      ],
+      [
+        -80.11437,
+        26.05314
+      ],
+      [
+        -80.11422,
+        26.0544
+      ],
+      [
+        -80.11342,
+        26.05418
+      ],
+      [
+        -80.11437,
+        26.05314
+      ],
+      [
+        -80.11519,
+        26.03681
+      ],
+      [
+        -80.11817,
+        26.00769
+      ],
+      [
+        -80.11795,
+        26.00151
+      ],
+      [
+        -80.12026,
+        25.97781
+      ],
+      [
+        -80.11959,
+        25.97524
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Hillsboro Inlet Light",
+      "model": "lighthouse-on-rock",
+      "at": 0.1491750848720946,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bonnet House",
+      "model": "farmhouse",
+      "at": 0.46638451075177434,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Hillsboro Beach",
+      "at": 0.09964788732394367,
+      "landmark": ""
+    },
+    {
+      "name": "Sea Ranch Lakes",
+      "at": 0.3059859154929577,
+      "landmark": ""
+    },
+    {
+      "name": "Dania Beach",
+      "at": 0.7503521126760563,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/broward-county-a1a-scenic-highway-81355.json",
+    "public/data/strips/broward-county-a1a-scenic-highway-81355.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "highland-scenic-highway-2460",
+  "title": "Highland Scenic Highway",
+  "longitude": -80.2539,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.5333,
+        38.2251
+      ],
+      [
+        -80.52725,
+        38.22723
+      ],
+      [
+        -80.53013,
+        38.2403
+      ],
+      [
+        -80.52306,
+        38.25088
+      ],
+      [
+        -80.51696,
+        38.25516
+      ],
+      [
+        -80.50165,
+        38.25374
+      ],
+      [
+        -80.48515,
+        38.2468
+      ],
+      [
+        -80.46673,
+        38.24415
+      ],
+      [
+        -80.46053,
+        38.24542
+      ],
+      [
+        -80.4535,
+        38.24305
+      ],
+      [
+        -80.44826,
+        38.23669
+      ],
+      [
+        -80.44024,
+        38.2338
+      ],
+      [
+        -80.44758,
+        38.22501
+      ],
+      [
+        -80.43619,
+        38.21592
+      ],
+      [
+        -80.42779,
+        38.21593
+      ],
+      [
+        -80.41966,
+        38.22906
+      ],
+      [
+        -80.4065,
+        38.23347
+      ],
+      [
+        -80.39557,
+        38.2218
+      ],
+      [
+        -80.39,
+        38.21027
+      ],
+      [
+        -80.37652,
+        38.20807
+      ],
+      [
+        -80.36658,
+        38.19171
+      ],
+      [
+        -80.35295,
+        38.19167
+      ],
+      [
+        -80.34101,
+        38.18146
+      ],
+      [
+        -80.31452,
+        38.18679
+      ],
+      [
+        -80.30303,
+        38.18726
+      ],
+      [
+        -80.29655,
+        38.18469
+      ],
+      [
+        -80.2895,
+        38.18873
+      ],
+      [
+        -80.26875,
+        38.17689
+      ],
+      [
+        -80.26574,
+        38.17988
+      ],
+      [
+        -80.25482,
+        38.18256
+      ],
+      [
+        -80.25418,
+        38.18787
+      ],
+      [
+        -80.23885,
+        38.19918
+      ],
+      [
+        -80.2143,
+        38.21254
+      ],
+      [
+        -80.21634,
+        38.22107
+      ],
+      [
+        -80.22013,
+        38.22519
+      ],
+      [
+        -80.23926,
+        38.23111
+      ],
+      [
+        -80.24028,
+        38.24529
+      ],
+      [
+        -80.24372,
+        38.25016
+      ],
+      [
+        -80.2443,
+        38.26281
+      ],
+      [
+        -80.23766,
+        38.27196
+      ],
+      [
+        -80.23735,
+        38.2852
+      ],
+      [
+        -80.23878,
+        38.28884
+      ],
+      [
+        -80.2479,
+        38.29541
+      ],
+      [
+        -80.24849,
+        38.30065
+      ],
+      [
+        -80.23128,
+        38.33024
+      ],
+      [
+        -80.20954,
+        38.33086
+      ],
+      [
+        -80.18072,
+        38.34108
+      ],
+      [
+        -80.15747,
+        38.34107
+      ],
+      [
+        -80.15228,
+        38.33712
+      ],
+      [
+        -80.14917,
+        38.3233
+      ],
+      [
+        -80.13674,
+        38.31462
+      ],
+      [
+        -80.13651,
+        38.30892
+      ],
+      [
+        -80.12905,
+        38.30865
+      ],
+      [
+        -80.12432,
+        38.31136
+      ],
+      [
+        -80.11042,
+        38.30478
+      ],
+      [
+        -80.09435,
+        38.30667
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Richwood",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Big Spruce Overlook",
+      "model": "ridge",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Big Spruce Overlook",
+      "model": "overlook-pullout",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Richwood",
+      "at": 0,
+      "landmark": "Richwood"
+    },
+    {
+      "name": "North Bend",
+      "at": 0.17069351230425053,
+      "landmark": ""
+    },
+    {
+      "name": "Raintown",
+      "at": 0.5011185682326621,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/highland-scenic-highway-2460.json",
+    "public/data/strips/highland-scenic-highway-2460.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

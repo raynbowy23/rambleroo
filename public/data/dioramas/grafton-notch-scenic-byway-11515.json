@@ -1,0 +1,392 @@
+{
+  "authored": false,
+  "bywayId": "grafton-notch-scenic-byway-11515",
+  "title": "Grafton Notch Scenic Byway",
+  "longitude": -70.9297,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -71.03396,
+        44.6985
+      ],
+      [
+        -71.02099,
+        44.69714
+      ],
+      [
+        -71.0111,
+        44.69404
+      ],
+      [
+        -70.9931,
+        44.68347
+      ],
+      [
+        -70.98334,
+        44.67936
+      ],
+      [
+        -70.97588,
+        44.67691
+      ],
+      [
+        -70.97236,
+        44.67213
+      ],
+      [
+        -70.96775,
+        44.66772
+      ],
+      [
+        -70.96487,
+        44.66315
+      ],
+      [
+        -70.96334,
+        44.6586
+      ],
+      [
+        -70.95846,
+        44.65455
+      ],
+      [
+        -70.95654,
+        44.64551
+      ],
+      [
+        -70.95694,
+        44.63635
+      ],
+      [
+        -70.96136,
+        44.63085
+      ],
+      [
+        -70.96182,
+        44.62854
+      ],
+      [
+        -70.96136,
+        44.62591
+      ],
+      [
+        -70.95681,
+        44.61895
+      ],
+      [
+        -70.95374,
+        44.61693
+      ],
+      [
+        -70.94641,
+        44.61026
+      ],
+      [
+        -70.9451,
+        44.6073
+      ],
+      [
+        -70.94553,
+        44.59973
+      ],
+      [
+        -70.94687,
+        44.59615
+      ],
+      [
+        -70.94596,
+        44.59136
+      ],
+      [
+        -70.94665,
+        44.58891
+      ],
+      [
+        -70.94558,
+        44.58711
+      ],
+      [
+        -70.9431,
+        44.58546
+      ],
+      [
+        -70.92917,
+        44.58066
+      ],
+      [
+        -70.92152,
+        44.57488
+      ],
+      [
+        -70.91876,
+        44.57362
+      ],
+      [
+        -70.90793,
+        44.57194
+      ],
+      [
+        -70.89722,
+        44.5728
+      ],
+      [
+        -70.88502,
+        44.57062
+      ],
+      [
+        -70.86947,
+        44.57068
+      ],
+      [
+        -70.86515,
+        44.56937
+      ],
+      [
+        -70.85658,
+        44.56512
+      ],
+      [
+        -70.85199,
+        44.56118
+      ],
+      [
+        -70.84151,
+        44.55485
+      ],
+      [
+        -70.84087,
+        44.55368
+      ],
+      [
+        -70.84037,
+        44.54927
+      ],
+      [
+        -70.83729,
+        44.5468
+      ],
+      [
+        -70.83377,
+        44.54541
+      ],
+      [
+        -70.83024,
+        44.5396
+      ],
+      [
+        -70.82579,
+        44.53422
+      ],
+      [
+        -70.82523,
+        44.53081
+      ],
+      [
+        -70.82267,
+        44.52732
+      ],
+      [
+        -70.82233,
+        44.52195
+      ],
+      [
+        -70.82044,
+        44.51832
+      ],
+      [
+        -70.82002,
+        44.51203
+      ],
+      [
+        -70.82344,
+        44.50656
+      ],
+      [
+        -70.82311,
+        44.50555
+      ],
+      [
+        -70.80995,
+        44.50097
+      ],
+      [
+        -70.8034,
+        44.49939
+      ],
+      [
+        -70.79962,
+        44.49756
+      ],
+      [
+        -70.79475,
+        44.49502
+      ],
+      [
+        -70.79295,
+        44.49166
+      ],
+      [
+        -70.78729,
+        44.48722
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Screw Auger Falls",
+      "model": "cove-waterfall",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Grafton Notch State Park",
+      "at": 0.43818181818181823,
+      "landmark": ""
+    },
+    {
+      "name": "Newry",
+      "at": 0.8972727272727272,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/grafton-notch-scenic-byway-11515.json",
+    "public/data/strips/grafton-notch-scenic-byway-11515.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

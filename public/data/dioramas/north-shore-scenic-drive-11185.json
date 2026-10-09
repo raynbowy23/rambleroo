@@ -1,0 +1,458 @@
+{
+  "authored": false,
+  "bywayId": "north-shore-scenic-drive-11185",
+  "title": "North Shore Scenic Drive",
+  "longitude": -90.7731,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -92.09224,
+        46.78028
+      ],
+      [
+        -92.09816,
+        46.78695
+      ],
+      [
+        -92.08578,
+        46.79648
+      ],
+      [
+        -92.04379,
+        46.82202
+      ],
+      [
+        -92.00108,
+        46.83846
+      ],
+      [
+        -91.97607,
+        46.86034
+      ],
+      [
+        -91.85509,
+        46.9259
+      ],
+      [
+        -91.82605,
+        46.93201
+      ],
+      [
+        -91.79478,
+        46.94669
+      ],
+      [
+        -91.6913,
+        47.02472
+      ],
+      [
+        -91.67101,
+        47.02561
+      ],
+      [
+        -91.67101,
+        47.019
+      ],
+      [
+        -91.66105,
+        47.01881
+      ],
+      [
+        -91.66266,
+        47.02707
+      ],
+      [
+        -91.60917,
+        47.06328
+      ],
+      [
+        -91.59218,
+        47.06968
+      ],
+      [
+        -91.5751,
+        47.09384
+      ],
+      [
+        -91.55235,
+        47.09546
+      ],
+      [
+        -91.52461,
+        47.10739
+      ],
+      [
+        -91.46813,
+        47.14368
+      ],
+      [
+        -91.45368,
+        47.14739
+      ],
+      [
+        -91.40633,
+        47.18468
+      ],
+      [
+        -91.35934,
+        47.20911
+      ],
+      [
+        -91.31724,
+        47.24778
+      ],
+      [
+        -91.27697,
+        47.27316
+      ],
+      [
+        -91.25058,
+        47.30227
+      ],
+      [
+        -91.21696,
+        47.32145
+      ],
+      [
+        -91.1842,
+        47.34972
+      ],
+      [
+        -91.16272,
+        47.37623
+      ],
+      [
+        -91.10062,
+        47.41683
+      ],
+      [
+        -91.06112,
+        47.44968
+      ],
+      [
+        -91.01464,
+        47.47066
+      ],
+      [
+        -90.89602,
+        47.54455
+      ],
+      [
+        -90.77771,
+        47.60651
+      ],
+      [
+        -90.70628,
+        47.63957
+      ],
+      [
+        -90.67423,
+        47.64718
+      ],
+      [
+        -90.52835,
+        47.70628
+      ],
+      [
+        -90.4456,
+        47.72396
+      ],
+      [
+        -90.43939,
+        47.73151
+      ],
+      [
+        -90.36596,
+        47.74913
+      ],
+      [
+        -90.33803,
+        47.74934
+      ],
+      [
+        -90.23276,
+        47.77626
+      ],
+      [
+        -90.19312,
+        47.77757
+      ],
+      [
+        -90.16332,
+        47.79287
+      ],
+      [
+        -90.10754,
+        47.79816
+      ],
+      [
+        -90.05262,
+        47.81771
+      ],
+      [
+        -89.9777,
+        47.83169
+      ],
+      [
+        -89.97054,
+        47.83995
+      ],
+      [
+        -89.92535,
+        47.86251
+      ],
+      [
+        -89.79429,
+        47.89269
+      ],
+      [
+        -89.77746,
+        47.90289
+      ],
+      [
+        -89.75974,
+        47.90685
+      ],
+      [
+        -89.71217,
+        47.93541
+      ],
+      [
+        -89.69844,
+        47.94706
+      ],
+      [
+        -89.69368,
+        47.97103
+      ],
+      [
+        -89.67986,
+        47.97667
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Gooseberry Falls State Park",
+      "model": "cove-waterfall",
+      "at": 0.28435572048371305,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Split Rock Lighthouse",
+      "model": "lighthouse-on-rock",
+      "at": 0.3256232352217206,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Duluth",
+      "at": 0.0037966101694915256,
+      "landmark": ""
+    },
+    {
+      "name": "Palmers",
+      "at": 0.10806779661016949,
+      "landmark": ""
+    },
+    {
+      "name": "Two Harbors",
+      "at": 0.18427118644067797,
+      "landmark": ""
+    },
+    {
+      "name": "Castle Danger",
+      "at": 0.26657627118644067,
+      "landmark": ""
+    },
+    {
+      "name": "Beaver Bay",
+      "at": 0.3599322033898305,
+      "landmark": ""
+    },
+    {
+      "name": "Little Marais",
+      "at": 0.4554576271186441,
+      "landmark": ""
+    },
+    {
+      "name": "Taconite Harbor",
+      "at": 0.5341016949152543,
+      "landmark": ""
+    },
+    {
+      "name": "Lutsen",
+      "at": 0.6344406779661017,
+      "landmark": ""
+    },
+    {
+      "name": "Grand Marais",
+      "at": 0.7548474576271187,
+      "landmark": ""
+    },
+    {
+      "name": "Hovland",
+      "at": 0.8802033898305086,
+      "landmark": ""
+    },
+    {
+      "name": "Grand Portage",
+      "at": 0.991186440677966,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/north-shore-scenic-drive-11185.json",
+    "public/data/strips/north-shore-scenic-drive-11185.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

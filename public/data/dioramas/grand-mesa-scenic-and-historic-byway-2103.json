@@ -1,0 +1,404 @@
+{
+  "authored": false,
+  "bywayId": "grand-mesa-scenic-and-historic-byway-2103",
+  "title": "Grand Mesa Scenic and Historic Byway",
+  "longitude": -108.0831,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -108.28135,
+        39.1826
+      ],
+      [
+        -108.27672,
+        39.17748
+      ],
+      [
+        -108.25826,
+        39.19119
+      ],
+      [
+        -108.24934,
+        39.19231
+      ],
+      [
+        -108.24572,
+        39.18823
+      ],
+      [
+        -108.23958,
+        39.19466
+      ],
+      [
+        -108.23545,
+        39.19123
+      ],
+      [
+        -108.22724,
+        39.1956
+      ],
+      [
+        -108.21439,
+        39.19488
+      ],
+      [
+        -108.19334,
+        39.20111
+      ],
+      [
+        -108.1864,
+        39.19608
+      ],
+      [
+        -108.17385,
+        39.19537
+      ],
+      [
+        -108.1657,
+        39.18809
+      ],
+      [
+        -108.14139,
+        39.19055
+      ],
+      [
+        -108.13695,
+        39.12957
+      ],
+      [
+        -108.14149,
+        39.11225
+      ],
+      [
+        -108.13476,
+        39.09926
+      ],
+      [
+        -108.12577,
+        39.09933
+      ],
+      [
+        -108.12427,
+        39.09508
+      ],
+      [
+        -108.1267,
+        39.08305
+      ],
+      [
+        -108.14168,
+        39.07218
+      ],
+      [
+        -108.12939,
+        39.06898
+      ],
+      [
+        -108.11696,
+        39.07102
+      ],
+      [
+        -108.10696,
+        39.06716
+      ],
+      [
+        -108.09903,
+        39.07367
+      ],
+      [
+        -108.09309,
+        39.07241
+      ],
+      [
+        -108.09664,
+        39.07037
+      ],
+      [
+        -108.09318,
+        39.06797
+      ],
+      [
+        -108.0991,
+        39.06847
+      ],
+      [
+        -108.10032,
+        39.05935
+      ],
+      [
+        -108.08706,
+        39.04949
+      ],
+      [
+        -108.05229,
+        39.0594
+      ],
+      [
+        -108.05453,
+        39.05535
+      ],
+      [
+        -108.06538,
+        39.05065
+      ],
+      [
+        -108.06859,
+        39.04453
+      ],
+      [
+        -108.0656,
+        39.03583
+      ],
+      [
+        -108.05222,
+        39.03032
+      ],
+      [
+        -108.02736,
+        39.02699
+      ],
+      [
+        -108.00388,
+        39.0402
+      ],
+      [
+        -107.9863,
+        39.0437
+      ],
+      [
+        -108.00155,
+        39.02552
+      ],
+      [
+        -107.99613,
+        39.00776
+      ],
+      [
+        -107.97183,
+        38.99783
+      ],
+      [
+        -107.95716,
+        38.99773
+      ],
+      [
+        -107.95128,
+        39.00311
+      ],
+      [
+        -107.94403,
+        39.00464
+      ],
+      [
+        -107.94071,
+        39.00114
+      ],
+      [
+        -107.93173,
+        39.00033
+      ],
+      [
+        -107.93146,
+        38.99228
+      ],
+      [
+        -107.93921,
+        38.98751
+      ],
+      [
+        -107.9263,
+        38.97283
+      ],
+      [
+        -107.93482,
+        38.97146
+      ],
+      [
+        -107.94365,
+        38.97477
+      ],
+      [
+        -107.94575,
+        38.97215
+      ],
+      [
+        -107.92631,
+        38.95777
+      ],
+      [
+        -107.92378,
+        38.90072
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Grand Mesa",
+      "model": "alpine-lake",
+      "at": 0.5814502293156287,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cedaredge",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Mesa",
+      "at": 0.23313492063492064,
+      "landmark": ""
+    },
+    {
+      "name": "Grand Mesa",
+      "at": 0.5815476190476191,
+      "landmark": ""
+    },
+    {
+      "name": "Cedaredge",
+      "at": 1,
+      "landmark": "Cedaredge"
+    }
+  ],
+  "sources": [
+    "content/stories/grand-mesa-scenic-and-historic-byway-2103.json",
+    "public/data/strips/grand-mesa-scenic-and-historic-byway-2103.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

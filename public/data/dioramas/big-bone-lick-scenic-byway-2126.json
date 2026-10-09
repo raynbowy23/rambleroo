@@ -1,0 +1,367 @@
+{
+  "authored": false,
+  "bywayId": "big-bone-lick-scenic-byway-2126",
+  "title": "Big Bone Lick Scenic Byway",
+  "longitude": -84.8526,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -84.69885,
+        38.87867
+      ],
+      [
+        -84.71518,
+        38.88411
+      ],
+      [
+        -84.72284,
+        38.88562
+      ],
+      [
+        -84.7262,
+        38.88568
+      ],
+      [
+        -84.73192,
+        38.88411
+      ],
+      [
+        -84.73434,
+        38.88408
+      ],
+      [
+        -84.74484,
+        38.88907
+      ],
+      [
+        -84.75363,
+        38.88867
+      ],
+      [
+        -84.75722,
+        38.88781
+      ],
+      [
+        -84.77101,
+        38.8941
+      ],
+      [
+        -84.7753,
+        38.89326
+      ],
+      [
+        -84.78123,
+        38.89457
+      ],
+      [
+        -84.78455,
+        38.89371
+      ],
+      [
+        -84.78744,
+        38.89419
+      ],
+      [
+        -84.79648,
+        38.9019
+      ],
+      [
+        -84.79962,
+        38.9035
+      ],
+      [
+        -84.80663,
+        38.90431
+      ],
+      [
+        -84.81065,
+        38.90624
+      ],
+      [
+        -84.81967,
+        38.9086
+      ],
+      [
+        -84.82416,
+        38.90876
+      ],
+      [
+        -84.82703,
+        38.91033
+      ],
+      [
+        -84.82974,
+        38.91075
+      ],
+      [
+        -84.83249,
+        38.91031
+      ],
+      [
+        -84.83898,
+        38.91458
+      ],
+      [
+        -84.84354,
+        38.91481
+      ],
+      [
+        -84.85287,
+        38.91818
+      ],
+      [
+        -84.85196,
+        38.92178
+      ],
+      [
+        -84.84989,
+        38.9253
+      ],
+      [
+        -84.84776,
+        38.92709
+      ],
+      [
+        -84.84686,
+        38.93007
+      ],
+      [
+        -84.83847,
+        38.93137
+      ],
+      [
+        -84.83683,
+        38.93449
+      ],
+      [
+        -84.83019,
+        38.93767
+      ],
+      [
+        -84.82972,
+        38.94016
+      ],
+      [
+        -84.82813,
+        38.94098
+      ],
+      [
+        -84.8266,
+        38.94322
+      ],
+      [
+        -84.82609,
+        38.94643
+      ],
+      [
+        -84.82253,
+        38.94819
+      ],
+      [
+        -84.82372,
+        38.95174
+      ],
+      [
+        -84.82143,
+        38.95387
+      ],
+      [
+        -84.82128,
+        38.95592
+      ],
+      [
+        -84.82359,
+        38.96004
+      ],
+      [
+        -84.82303,
+        38.97518
+      ],
+      [
+        -84.8249,
+        38.98144
+      ],
+      [
+        -84.82757,
+        38.98603
+      ],
+      [
+        -84.82386,
+        38.9879
+      ],
+      [
+        -84.82619,
+        38.99268
+      ],
+      [
+        -84.81904,
+        38.99752
+      ],
+      [
+        -84.81256,
+        39.00008
+      ],
+      [
+        -84.8108,
+        39.00388
+      ],
+      [
+        -84.81082,
+        39.00742
+      ],
+      [
+        -84.79945,
+        39.01285
+      ],
+      [
+        -84.79559,
+        39.01302
+      ],
+      [
+        -84.79274,
+        39.01221
+      ],
+      [
+        -84.78829,
+        39.0085
+      ],
+      [
+        -84.78396,
+        39.00866
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Beaverlick",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rabbit Hash",
+      "model": "town-blocks",
+      "at": 0.49457167099531735,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Beaverlick",
+      "at": 0,
+      "landmark": "Beaverlick"
+    },
+    {
+      "name": "Big Bone",
+      "at": 0.16363636363636358,
+      "landmark": ""
+    },
+    {
+      "name": "Rabbit Hash",
+      "at": 0.49411764705882344,
+      "landmark": "Rabbit Hash"
+    },
+    {
+      "name": "Belleview",
+      "at": 0.7727272727272727,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/big-bone-lick-scenic-byway-2126.json",
+    "public/data/strips/big-bone-lick-scenic-byway-2126.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

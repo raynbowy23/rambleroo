@@ -1,0 +1,425 @@
+{
+  "authored": false,
+  "bywayId": "white-mountain-scenic-road-2060",
+  "title": "White Mountain Scenic Road",
+  "longitude": -109.4119,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -109.90473,
+        34.08042
+      ],
+      [
+        -109.88674,
+        34.07869
+      ],
+      [
+        -109.87137,
+        34.0823
+      ],
+      [
+        -109.86224,
+        34.07412
+      ],
+      [
+        -109.84351,
+        34.07215
+      ],
+      [
+        -109.833,
+        34.07298
+      ],
+      [
+        -109.81849,
+        34.07936
+      ],
+      [
+        -109.79232,
+        34.07812
+      ],
+      [
+        -109.77505,
+        34.06448
+      ],
+      [
+        -109.7525,
+        34.05314
+      ],
+      [
+        -109.73192,
+        34.0527
+      ],
+      [
+        -109.70703,
+        34.0439
+      ],
+      [
+        -109.67753,
+        34.04187
+      ],
+      [
+        -109.64729,
+        34.02357
+      ],
+      [
+        -109.59203,
+        34.04336
+      ],
+      [
+        -109.58007,
+        34.02392
+      ],
+      [
+        -109.56824,
+        34.01542
+      ],
+      [
+        -109.56594,
+        34.00544
+      ],
+      [
+        -109.55411,
+        33.99977
+      ],
+      [
+        -109.52988,
+        34.00201
+      ],
+      [
+        -109.50239,
+        33.98183
+      ],
+      [
+        -109.49897,
+        33.96556
+      ],
+      [
+        -109.50795,
+        33.95965
+      ],
+      [
+        -109.4951,
+        33.9556
+      ],
+      [
+        -109.49014,
+        33.94541
+      ],
+      [
+        -109.49219,
+        33.93469
+      ],
+      [
+        -109.48764,
+        33.93106
+      ],
+      [
+        -109.46101,
+        33.92549
+      ],
+      [
+        -109.45536,
+        33.92071
+      ],
+      [
+        -109.4314,
+        33.92108
+      ],
+      [
+        -109.41453,
+        33.91184
+      ],
+      [
+        -109.41181,
+        33.91534
+      ],
+      [
+        -109.41206,
+        33.92505
+      ],
+      [
+        -109.40485,
+        33.93793
+      ],
+      [
+        -109.40584,
+        33.94459
+      ],
+      [
+        -109.3692,
+        33.98425
+      ],
+      [
+        -109.3654,
+        33.99225
+      ],
+      [
+        -109.37106,
+        34.00352
+      ],
+      [
+        -109.3616,
+        34.01501
+      ],
+      [
+        -109.35857,
+        34.02757
+      ],
+      [
+        -109.3481,
+        34.03509
+      ],
+      [
+        -109.34873,
+        34.04198
+      ],
+      [
+        -109.36141,
+        34.04846
+      ],
+      [
+        -109.34757,
+        34.05133
+      ],
+      [
+        -109.35751,
+        34.05821
+      ],
+      [
+        -109.3537,
+        34.06056
+      ],
+      [
+        -109.35623,
+        34.06693
+      ],
+      [
+        -109.35095,
+        34.06739
+      ],
+      [
+        -109.35137,
+        34.07
+      ],
+      [
+        -109.3478,
+        34.07097
+      ],
+      [
+        -109.34825,
+        34.07455
+      ],
+      [
+        -109.35361,
+        34.07565
+      ],
+      [
+        -109.34534,
+        34.08142
+      ],
+      [
+        -109.34169,
+        34.09097
+      ],
+      [
+        -109.34197,
+        34.10092
+      ],
+      [
+        -109.34491,
+        34.1057
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "McNary",
+      "model": "town-blocks",
+      "at": 0.037853176525669885,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Eagar",
+      "model": "town-blocks",
+      "at": 0.9931246605898338,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Greer",
+      "model": "town-blocks",
+      "at": 0.9931246605898338,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "McNary",
+      "at": 0.03791208791208791,
+      "landmark": "McNary"
+    },
+    {
+      "name": "Greer",
+      "at": 0.5027472527472527,
+      "landmark": "Greer"
+    },
+    {
+      "name": "Eagar",
+      "at": 0.9931246605898338,
+      "landmark": "Eagar"
+    }
+  ],
+  "sources": [
+    "content/stories/white-mountain-scenic-road-2060.json",
+    "public/data/strips/white-mountain-scenic-road-2060.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,418 @@
+{
+  "authored": false,
+  "bywayId": "kings-canyon-scenic-byway-2299",
+  "title": "Kings Canyon Scenic Byway",
+  "longitude": -118.9084,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -119.12428,
+        36.76079
+      ],
+      [
+        -119.12245,
+        36.75834
+      ],
+      [
+        -119.10719,
+        36.76035
+      ],
+      [
+        -119.0784,
+        36.74358
+      ],
+      [
+        -119.06892,
+        36.74492
+      ],
+      [
+        -119.05724,
+        36.74052
+      ],
+      [
+        -119.06372,
+        36.7484
+      ],
+      [
+        -119.0449,
+        36.74695
+      ],
+      [
+        -119.04444,
+        36.74282
+      ],
+      [
+        -119.02773,
+        36.74132
+      ],
+      [
+        -119.01286,
+        36.72538
+      ],
+      [
+        -119.00141,
+        36.72002
+      ],
+      [
+        -118.99373,
+        36.72017
+      ],
+      [
+        -118.99115,
+        36.72355
+      ],
+      [
+        -118.97943,
+        36.71475
+      ],
+      [
+        -118.96482,
+        36.71451
+      ],
+      [
+        -118.96386,
+        36.71881
+      ],
+      [
+        -118.9704,
+        36.7229
+      ],
+      [
+        -118.95492,
+        36.7254
+      ],
+      [
+        -118.9626,
+        36.73315
+      ],
+      [
+        -118.96602,
+        36.74719
+      ],
+      [
+        -118.95965,
+        36.75238
+      ],
+      [
+        -118.9562,
+        36.76562
+      ],
+      [
+        -118.96113,
+        36.77441
+      ],
+      [
+        -118.95551,
+        36.79437
+      ],
+      [
+        -118.94212,
+        36.80569
+      ],
+      [
+        -118.93374,
+        36.80191
+      ],
+      [
+        -118.91335,
+        36.81073
+      ],
+      [
+        -118.91442,
+        36.81651
+      ],
+      [
+        -118.90834,
+        36.81611
+      ],
+      [
+        -118.90855,
+        36.83065
+      ],
+      [
+        -118.90277,
+        36.82996
+      ],
+      [
+        -118.90083,
+        36.83369
+      ],
+      [
+        -118.89025,
+        36.8317
+      ],
+      [
+        -118.89751,
+        36.82202
+      ],
+      [
+        -118.88819,
+        36.82503
+      ],
+      [
+        -118.88851,
+        36.81669
+      ],
+      [
+        -118.87517,
+        36.83227
+      ],
+      [
+        -118.84829,
+        36.8246
+      ],
+      [
+        -118.8352,
+        36.81327
+      ],
+      [
+        -118.83067,
+        36.81722
+      ],
+      [
+        -118.83522,
+        36.8226
+      ],
+      [
+        -118.8298,
+        36.82442
+      ],
+      [
+        -118.81492,
+        36.81187
+      ],
+      [
+        -118.80567,
+        36.81298
+      ],
+      [
+        -118.79793,
+        36.80744
+      ],
+      [
+        -118.75704,
+        36.81015
+      ],
+      [
+        -118.74558,
+        36.80238
+      ],
+      [
+        -118.69896,
+        36.80272
+      ],
+      [
+        -118.68756,
+        36.79883
+      ],
+      [
+        -118.67996,
+        36.79134
+      ],
+      [
+        -118.64909,
+        36.78215
+      ],
+      [
+        -118.62403,
+        36.78208
+      ],
+      [
+        -118.5989,
+        36.79367
+      ],
+      [
+        -118.58275,
+        36.79572
+      ],
+      [
+        -118.58604,
+        36.79411
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Wilsonia",
+      "model": "town-blocks",
+      "at": 0.305224945565454,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cedar Grove",
+      "model": "town-blocks",
+      "at": 0.8884524207563614,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Dunlap",
+      "at": 0.005314960629921261,
+      "landmark": ""
+    },
+    {
+      "name": "Millwood",
+      "at": 0.21377952755905513,
+      "landmark": ""
+    },
+    {
+      "name": "Wilsonia",
+      "at": 0.30551181102362207,
+      "landmark": "Wilsonia"
+    }
+  ],
+  "sources": [
+    "content/stories/kings-canyon-scenic-byway-2299.json",
+    "public/data/strips/kings-canyon-scenic-byway-2299.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

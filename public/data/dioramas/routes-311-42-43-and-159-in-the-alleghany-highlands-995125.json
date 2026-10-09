@@ -1,0 +1,436 @@
+{
+  "authored": false,
+  "bywayId": "routes-311-42-43-and-159-in-the-alleghany-highlands-995125",
+  "title": "Routes 311, 42, 43 and 159 in the Alleghany Highlands",
+  "longitude": -80.2059,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.04125,
+        37.32763
+      ],
+      [
+        -80.04494,
+        37.33307
+      ],
+      [
+        -80.04666,
+        37.35141
+      ],
+      [
+        -80.05088,
+        37.3658
+      ],
+      [
+        -80.05401,
+        37.36976
+      ],
+      [
+        -80.05796,
+        37.37106
+      ],
+      [
+        -80.06151,
+        37.37788
+      ],
+      [
+        -80.06754,
+        37.38274
+      ],
+      [
+        -80.08953,
+        37.38029
+      ],
+      [
+        -80.11069,
+        37.38236
+      ],
+      [
+        -80.11647,
+        37.37979
+      ],
+      [
+        -80.12689,
+        37.38017
+      ],
+      [
+        -80.14638,
+        37.37449
+      ],
+      [
+        -80.15354,
+        37.37696
+      ],
+      [
+        -80.15669,
+        37.38114
+      ],
+      [
+        -80.15638,
+        37.39928
+      ],
+      [
+        -80.15207,
+        37.41472
+      ],
+      [
+        -80.14568,
+        37.41746
+      ],
+      [
+        -80.13983,
+        37.42915
+      ],
+      [
+        -80.13057,
+        37.43459
+      ],
+      [
+        -80.12639,
+        37.4407
+      ],
+      [
+        -80.11991,
+        37.44301
+      ],
+      [
+        -80.1094,
+        37.45529
+      ],
+      [
+        -80.10481,
+        37.47486
+      ],
+      [
+        -80.10695,
+        37.48294
+      ],
+      [
+        -80.10382,
+        37.48655
+      ],
+      [
+        -80.10977,
+        37.50114
+      ],
+      [
+        -80.11254,
+        37.50287
+      ],
+      [
+        -80.13725,
+        37.50522
+      ],
+      [
+        -80.16222,
+        37.49808
+      ],
+      [
+        -80.1688,
+        37.50156
+      ],
+      [
+        -80.17205,
+        37.50093
+      ],
+      [
+        -80.17412,
+        37.50421
+      ],
+      [
+        -80.18507,
+        37.50819
+      ],
+      [
+        -80.19864,
+        37.50992
+      ],
+      [
+        -80.20112,
+        37.51589
+      ],
+      [
+        -80.20986,
+        37.51916
+      ],
+      [
+        -80.21768,
+        37.53147
+      ],
+      [
+        -80.23735,
+        37.52582
+      ],
+      [
+        -80.24167,
+        37.52795
+      ],
+      [
+        -80.24772,
+        37.52747
+      ],
+      [
+        -80.24964,
+        37.52537
+      ],
+      [
+        -80.24843,
+        37.52816
+      ],
+      [
+        -80.23549,
+        37.53463
+      ],
+      [
+        -80.27105,
+        37.53786
+      ],
+      [
+        -80.26198,
+        37.54359
+      ],
+      [
+        -80.25047,
+        37.54706
+      ],
+      [
+        -80.24312,
+        37.55307
+      ],
+      [
+        -80.26282,
+        37.5708
+      ],
+      [
+        -80.24887,
+        37.58228
+      ],
+      [
+        -80.24759,
+        37.58523
+      ],
+      [
+        -80.25217,
+        37.58509
+      ],
+      [
+        -80.25261,
+        37.58657
+      ],
+      [
+        -80.24812,
+        37.59221
+      ],
+      [
+        -80.2453,
+        37.60234
+      ],
+      [
+        -80.24091,
+        37.60668
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "McAfee Knob",
+      "model": "ridge",
+      "at": 0.09843371903308293,
+      "offset": "roadside",
+      "notes": "Story moment 1; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Meadow Creek Falls",
+      "model": "cove-waterfall",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Paint Bank",
+      "model": "town-blocks",
+      "at": 0.9077372146141891,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Hanging Rock",
+      "at": 0.0012820512820511665,
+      "landmark": ""
+    },
+    {
+      "name": "Catawba",
+      "at": 0.17230769230769227,
+      "landmark": ""
+    },
+    {
+      "name": "Simmonsville",
+      "at": 0.24928146082962072,
+      "landmark": ""
+    },
+    {
+      "name": "Abbott",
+      "at": 0.34769230769230763,
+      "landmark": ""
+    },
+    {
+      "name": "Marshalltown",
+      "at": 0.4926222810110424,
+      "landmark": ""
+    },
+    {
+      "name": "New Castle",
+      "at": 0.4935897435897436,
+      "landmark": ""
+    },
+    {
+      "name": "Paint Bank",
+      "at": 0.9076923076923077,
+      "landmark": "Paint Bank"
+    },
+    {
+      "name": "Sweet Chalybeate",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/routes-311-42-43-and-159-in-the-alleghany-highlands-995125.json",
+    "public/data/strips/routes-311-42-43-and-159-in-the-alleghany-highlands-995125.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,376 @@
+{
+  "authored": false,
+  "bywayId": "route-207-hebron-to-sprague-990938",
+  "title": "Route 207, Hebron to Sprague",
+  "longitude": -72.2494,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -72.33246,
+        41.63889
+      ],
+      [
+        -72.33566,
+        41.63968
+      ],
+      [
+        -72.34311,
+        41.63975
+      ],
+      [
+        -72.34665,
+        41.63884
+      ],
+      [
+        -72.33246,
+        41.63889
+      ],
+      [
+        -72.32769,
+        41.63759
+      ],
+      [
+        -72.3247,
+        41.63627
+      ],
+      [
+        -72.31812,
+        41.63162
+      ],
+      [
+        -72.31242,
+        41.62853
+      ],
+      [
+        -72.30698,
+        41.62922
+      ],
+      [
+        -72.30271,
+        41.62902
+      ],
+      [
+        -72.29616,
+        41.63029
+      ],
+      [
+        -72.29362,
+        41.63
+      ],
+      [
+        -72.28485,
+        41.62429
+      ],
+      [
+        -72.27521,
+        41.61999
+      ],
+      [
+        -72.27328,
+        41.61787
+      ],
+      [
+        -72.27151,
+        41.6174
+      ],
+      [
+        -72.26928,
+        41.61801
+      ],
+      [
+        -72.26596,
+        41.62003
+      ],
+      [
+        -72.25417,
+        41.62062
+      ],
+      [
+        -72.23987,
+        41.62605
+      ],
+      [
+        -72.22107,
+        41.63228
+      ],
+      [
+        -72.21247,
+        41.63632
+      ],
+      [
+        -72.20056,
+        41.64568
+      ],
+      [
+        -72.19743,
+        41.64675
+      ],
+      [
+        -72.19473,
+        41.64695
+      ],
+      [
+        -72.19125,
+        41.64413
+      ],
+      [
+        -72.18793,
+        41.64319
+      ],
+      [
+        -72.18327,
+        41.6409
+      ],
+      [
+        -72.17884,
+        41.6395
+      ],
+      [
+        -72.1733,
+        41.63868
+      ],
+      [
+        -72.16924,
+        41.6363
+      ],
+      [
+        -72.16508,
+        41.63552
+      ],
+      [
+        -72.16339,
+        41.63353
+      ],
+      [
+        -72.15828,
+        41.63334
+      ],
+      [
+        -72.15302,
+        41.63053
+      ],
+      [
+        -72.15054,
+        41.63089
+      ],
+      [
+        -72.14822,
+        41.63282
+      ],
+      [
+        -72.14664,
+        41.63338
+      ],
+      [
+        -72.14179,
+        41.63287
+      ],
+      [
+        -72.13228,
+        41.63389
+      ],
+      [
+        -72.13024,
+        41.63358
+      ],
+      [
+        -72.12861,
+        41.63254
+      ],
+      [
+        -72.12624,
+        41.62957
+      ],
+      [
+        -72.12164,
+        41.62787
+      ],
+      [
+        -72.11908,
+        41.62617
+      ],
+      [
+        -72.11827,
+        41.62465
+      ],
+      [
+        -72.11816,
+        41.62005
+      ],
+      [
+        -72.11709,
+        41.61869
+      ],
+      [
+        -72.11552,
+        41.61794
+      ],
+      [
+        -72.11051,
+        41.61772
+      ],
+      [
+        -72.10597,
+        41.61825
+      ],
+      [
+        -72.1009,
+        41.61731
+      ],
+      [
+        -72.09229,
+        41.61733
+      ],
+      [
+        -72.08835,
+        41.61613
+      ],
+      [
+        -72.08506,
+        41.61722
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lebanon Green",
+      "model": "steeple-town",
+      "at": 0.5096147023680639,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lebanon Green",
+      "model": "town-blocks",
+      "at": 0.5096147023680639,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Baltic",
+      "model": "gristmill",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Baltic",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Lebanon",
+      "at": 0.4293413173652695,
+      "landmark": ""
+    },
+    {
+      "name": "Franklin",
+      "at": 0.7467065868263474,
+      "landmark": ""
+    },
+    {
+      "name": "Sprague",
+      "at": 0.9994011976047905,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-207-hebron-to-sprague-990938.json",
+    "public/data/strips/route-207-hebron-to-sprague-990938.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

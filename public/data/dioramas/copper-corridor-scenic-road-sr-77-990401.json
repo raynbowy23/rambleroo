@@ -1,0 +1,337 @@
+{
+  "authored": false,
+  "bywayId": "copper-corridor-scenic-road-sr-77-990401",
+  "title": "Copper Corridor Scenic Road (SR 77)",
+  "longitude": -110.7487,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -110.71185,
+        32.84543
+      ],
+      [
+        -110.7089,
+        32.85298
+      ],
+      [
+        -110.70849,
+        32.85826
+      ],
+      [
+        -110.71192,
+        32.87615
+      ],
+      [
+        -110.71575,
+        32.88746
+      ],
+      [
+        -110.71917,
+        32.91251
+      ],
+      [
+        -110.72919,
+        32.92678
+      ],
+      [
+        -110.73493,
+        32.93269
+      ],
+      [
+        -110.73717,
+        32.93796
+      ],
+      [
+        -110.74124,
+        32.94335
+      ],
+      [
+        -110.74483,
+        32.95259
+      ],
+      [
+        -110.74957,
+        32.95958
+      ],
+      [
+        -110.76749,
+        32.9768
+      ],
+      [
+        -110.76969,
+        32.98379
+      ],
+      [
+        -110.76946,
+        32.99566
+      ],
+      [
+        -110.76466,
+        33.00466
+      ],
+      [
+        -110.75511,
+        33.00692
+      ],
+      [
+        -110.74698,
+        33.01466
+      ],
+      [
+        -110.74467,
+        33.01871
+      ],
+      [
+        -110.73246,
+        33.02554
+      ],
+      [
+        -110.72967,
+        33.03056
+      ],
+      [
+        -110.72968,
+        33.03835
+      ],
+      [
+        -110.72505,
+        33.04266
+      ],
+      [
+        -110.72017,
+        33.04416
+      ],
+      [
+        -110.71807,
+        33.04604
+      ],
+      [
+        -110.71776,
+        33.05226
+      ],
+      [
+        -110.7198,
+        33.05735
+      ],
+      [
+        -110.72345,
+        33.06133
+      ],
+      [
+        -110.72633,
+        33.06924
+      ],
+      [
+        -110.72262,
+        33.07287
+      ],
+      [
+        -110.72177,
+        33.0765
+      ],
+      [
+        -110.71828,
+        33.07996
+      ],
+      [
+        -110.71525,
+        33.08807
+      ],
+      [
+        -110.71696,
+        33.08975
+      ],
+      [
+        -110.72568,
+        33.09252
+      ],
+      [
+        -110.73521,
+        33.09984
+      ],
+      [
+        -110.74553,
+        33.10225
+      ],
+      [
+        -110.7688,
+        33.11238
+      ],
+      [
+        -110.7767,
+        33.12724
+      ],
+      [
+        -110.79994,
+        33.14653
+      ],
+      [
+        -110.80515,
+        33.1529
+      ],
+      [
+        -110.80579,
+        33.15548
+      ],
+      [
+        -110.80437,
+        33.15972
+      ],
+      [
+        -110.80543,
+        33.16734
+      ],
+      [
+        -110.81094,
+        33.17521
+      ],
+      [
+        -110.81162,
+        33.18246
+      ],
+      [
+        -110.80872,
+        33.18841
+      ],
+      [
+        -110.80557,
+        33.1909
+      ],
+      [
+        -110.80356,
+        33.20301
+      ],
+      [
+        -110.79821,
+        33.21001
+      ],
+      [
+        -110.79637,
+        33.21605
+      ],
+      [
+        -110.7899,
+        33.22407
+      ],
+      [
+        -110.78846,
+        33.2304
+      ],
+      [
+        -110.78368,
+        33.23903
+      ],
+      [
+        -110.7819,
+        33.24882
+      ],
+      [
+        -110.7767,
+        33.25859
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Dudleyville",
+      "model": "town-blocks",
+      "at": 0.1787895283298473,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Christmas",
+      "model": "false-front-town",
+      "at": 0.5159894292732586,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Dudleyville",
+      "at": 0.17809798270893384,
+      "landmark": "Dudleyville"
+    },
+    {
+      "name": "Hayden",
+      "at": 0.33198847262247844,
+      "landmark": ""
+    },
+    {
+      "name": "Christmas",
+      "at": 0.5155619596541787,
+      "landmark": "Christmas"
+    },
+    {
+      "name": "Dripping Springs",
+      "at": 0.6409221902017291,
+      "landmark": ""
+    },
+    {
+      "name": "El Capitan",
+      "at": 0.9576368876080692,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/copper-corridor-scenic-road-sr-77-990401.json",
+    "public/data/strips/copper-corridor-scenic-road-sr-77-990401.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

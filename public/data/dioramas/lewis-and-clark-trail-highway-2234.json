@@ -1,0 +1,389 @@
+{
+  "authored": false,
+  "bywayId": "lewis-and-clark-trail-highway-2234",
+  "title": "Lewis and Clark Trail Highway",
+  "longitude": -121.1888,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -117.0392,
+        46.42025
+      ],
+      [
+        -117.24497,
+        46.40339
+      ],
+      [
+        -117.43058,
+        46.43616
+      ],
+      [
+        -117.48231,
+        46.46754
+      ],
+      [
+        -117.70173,
+        46.46409
+      ],
+      [
+        -117.88385,
+        46.54676
+      ],
+      [
+        -117.97298,
+        46.50869
+      ],
+      [
+        -117.93276,
+        46.39706
+      ],
+      [
+        -117.97302,
+        46.3241
+      ],
+      [
+        -118.02936,
+        46.29027
+      ],
+      [
+        -118.21935,
+        46.26664
+      ],
+      [
+        -118.30134,
+        46.29983
+      ],
+      [
+        -118.71927,
+        46.29775
+      ],
+      [
+        -118.87611,
+        46.21544
+      ],
+      [
+        -118.94607,
+        46.21191
+      ],
+      [
+        -119.12042,
+        46.24866
+      ],
+      [
+        -119.20478,
+        46.16354
+      ],
+      [
+        -119.22788,
+        46.01642
+      ],
+      [
+        -119.33389,
+        45.97604
+      ],
+      [
+        -119.33621,
+        45.94526
+      ],
+      [
+        -119.5979,
+        45.9386
+      ],
+      [
+        -119.74104,
+        45.8764
+      ],
+      [
+        -119.84546,
+        45.86868
+      ],
+      [
+        -120.27802,
+        45.72778
+      ],
+      [
+        -120.47604,
+        45.70262
+      ],
+      [
+        -120.56201,
+        45.75014
+      ],
+      [
+        -120.63796,
+        45.75449
+      ],
+      [
+        -120.89519,
+        45.66617
+      ],
+      [
+        -121.10549,
+        45.6485
+      ],
+      [
+        -121.18238,
+        45.64908
+      ],
+      [
+        -121.30709,
+        45.70523
+      ],
+      [
+        -121.42459,
+        45.69946
+      ],
+      [
+        -121.52704,
+        45.72951
+      ],
+      [
+        -121.71016,
+        45.6989
+      ],
+      [
+        -121.81421,
+        45.71706
+      ],
+      [
+        -121.92743,
+        45.64857
+      ],
+      [
+        -122.24787,
+        45.55943
+      ],
+      [
+        -122.67149,
+        45.62258
+      ],
+      [
+        -122.65389,
+        45.72282
+      ],
+      [
+        -122.70685,
+        45.86725
+      ],
+      [
+        -122.8428,
+        46.00066
+      ],
+      [
+        -122.89665,
+        46.14489
+      ],
+      [
+        -123.15196,
+        46.19325
+      ],
+      [
+        -123.30531,
+        46.15578
+      ],
+      [
+        -123.38749,
+        46.20845
+      ],
+      [
+        -123.41033,
+        46.26128
+      ],
+      [
+        -123.46015,
+        46.27342
+      ],
+      [
+        -123.49801,
+        46.34649
+      ],
+      [
+        -123.57165,
+        46.36065
+      ],
+      [
+        -123.6897,
+        46.31828
+      ],
+      [
+        -123.80263,
+        46.37596
+      ],
+      [
+        -123.80758,
+        46.28567
+      ],
+      [
+        -123.87367,
+        46.24126
+      ],
+      [
+        -124.00581,
+        46.32208
+      ],
+      [
+        -124.0639,
+        46.31051
+      ],
+      [
+        -124.0483,
+        46.27903
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Dayton",
+      "model": "town-blocks",
+      "at": 0.14671284044773564,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cape Disappointment",
+      "model": "lighthouse-on-rock",
+      "at": 0.9977780169021897,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Clarkston",
+      "at": 0.0010919414719371412,
+      "landmark": ""
+    },
+    {
+      "name": "Pomeroy",
+      "at": 0.06597510373443982,
+      "landmark": ""
+    },
+    {
+      "name": "Waitsburg",
+      "at": 0.16601878139331727,
+      "landmark": ""
+    },
+    {
+      "name": "Walla Walla",
+      "at": 0.1734007104598175,
+      "landmark": ""
+    },
+    {
+      "name": "Wallula",
+      "at": 0.25708612279930015,
+      "landmark": ""
+    },
+    {
+      "name": "Kennewick",
+      "at": 0.28912426293950644,
+      "landmark": ""
+    },
+    {
+      "name": "Paterson",
+      "at": 0.36501419523913514,
+      "landmark": ""
+    },
+    {
+      "name": "Roosevelt",
+      "at": 0.4389823105481546,
+      "landmark": ""
+    },
+    {
+      "name": "Wishram",
+      "at": 0.5257916575671544,
+      "landmark": ""
+    },
+    {
+      "name": "Stevenson",
+      "at": 0.6325835335226031,
+      "landmark": ""
+    },
+    {
+      "name": "Vancouver",
+      "at": 0.7302904564315352,
+      "landmark": ""
+    },
+    {
+      "name": "Longview",
+      "at": 0.8228215767634854,
+      "landmark": ""
+    },
+    {
+      "name": "Skamokawa",
+      "at": 0.8911989517361869,
+      "landmark": ""
+    },
+    {
+      "name": "Long Beach",
+      "at": 0.9934920288272548,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/lewis-and-clark-trail-highway-2234.json",
+    "public/data/strips/lewis-and-clark-trail-highway-2234.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

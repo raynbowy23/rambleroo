@@ -1,0 +1,378 @@
+{
+  "authored": false,
+  "bywayId": "dinosaur-diamond-prehistoric-highway-2474",
+  "title": "Dinosaur Diamond Prehistoric Highway",
+  "longitude": -110.5258,
+  "ground": "desert-mesas",
+  "palette": "desert",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -108.64425,
+        39.11228
+      ],
+      [
+        -108.81326,
+        39.17892
+      ],
+      [
+        -108.817,
+        39.40979
+      ],
+      [
+        -108.74839,
+        39.49235
+      ],
+      [
+        -108.82726,
+        39.58903
+      ],
+      [
+        -108.79412,
+        39.60839
+      ],
+      [
+        -108.7995,
+        39.72639
+      ],
+      [
+        -108.72926,
+        39.8559
+      ],
+      [
+        -108.78315,
+        39.9969
+      ],
+      [
+        -108.77697,
+        40.08792
+      ],
+      [
+        -109.00135,
+        40.16704
+      ],
+      [
+        -109.00953,
+        40.24578
+      ],
+      [
+        -109.05686,
+        40.27729
+      ],
+      [
+        -109.39928,
+        40.37123
+      ],
+      [
+        -109.49771,
+        40.41391
+      ],
+      [
+        -109.51181,
+        40.45579
+      ],
+      [
+        -109.5738,
+        40.43246
+      ],
+      [
+        -109.63194,
+        40.33774
+      ],
+      [
+        -109.78285,
+        40.30336
+      ],
+      [
+        -109.98859,
+        40.30205
+      ],
+      [
+        -110.06624,
+        40.25428
+      ],
+      [
+        -110.07113,
+        40.19534
+      ],
+      [
+        -110.17106,
+        40.15908
+      ],
+      [
+        -110.40307,
+        40.1634
+      ],
+      [
+        -110.57092,
+        40.00807
+      ],
+      [
+        -110.74877,
+        39.89808
+      ],
+      [
+        -110.79342,
+        39.77703
+      ],
+      [
+        -110.86709,
+        39.72672
+      ],
+      [
+        -110.86132,
+        39.62871
+      ],
+      [
+        -110.81897,
+        39.59099
+      ],
+      [
+        -110.74138,
+        39.54324
+      ],
+      [
+        -110.62385,
+        39.54646
+      ],
+      [
+        -110.53795,
+        39.51026
+      ],
+      [
+        -110.37675,
+        39.34688
+      ],
+      [
+        -110.298,
+        39.02417
+      ],
+      [
+        -110.23635,
+        38.98409
+      ],
+      [
+        -110.11097,
+        38.98893
+      ],
+      [
+        -109.97003,
+        38.92618
+      ],
+      [
+        -109.81678,
+        38.94303
+      ],
+      [
+        -109.81053,
+        38.86992
+      ],
+      [
+        -109.73535,
+        38.74205
+      ],
+      [
+        -109.66181,
+        38.63485
+      ],
+      [
+        -109.60028,
+        38.60541
+      ],
+      [
+        -109.4863,
+        38.63277
+      ],
+      [
+        -109.4975,
+        38.67121
+      ],
+      [
+        -109.42264,
+        38.6836
+      ],
+      [
+        -109.33162,
+        38.74163
+      ],
+      [
+        -109.33924,
+        38.80226
+      ],
+      [
+        -109.28582,
+        38.81863
+      ],
+      [
+        -109.28205,
+        38.84554
+      ],
+      [
+        -109.35626,
+        38.94801
+      ],
+      [
+        -109.30119,
+        38.97766
+      ],
+      [
+        -109.11506,
+        39.18765
+      ],
+      [
+        -109.00953,
+        39.19249
+      ],
+      [
+        -108.90827,
+        39.23303
+      ],
+      [
+        -108.81292,
+        39.1967
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Fruita",
+      "model": "town-blocks",
+      "at": 0.013081608261576434,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Castle Gate",
+      "model": "mesa",
+      "at": 0.5350422996370826,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "mesa",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5,
+      "side": -1,
+      "distance": 0.7,
+      "scale": 1.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Loma",
+      "at": 0.028406518786781354,
+      "landmark": ""
+    },
+    {
+      "name": "Rangely",
+      "at": 0.18605703938433682,
+      "landmark": ""
+    },
+    {
+      "name": "Jensen",
+      "at": 0.27795382526029877,
+      "landmark": ""
+    },
+    {
+      "name": "Gusher",
+      "at": 0.35269352648257124,
+      "landmark": ""
+    },
+    {
+      "name": "Bridgeland",
+      "at": 0.41548211860570394,
+      "landmark": ""
+    },
+    {
+      "name": "Wellington",
+      "at": 0.5730194658216388,
+      "landmark": ""
+    },
+    {
+      "name": "Woodside",
+      "at": 0.6447713897691263,
+      "landmark": ""
+    },
+    {
+      "name": "Cisco",
+      "at": 0.9138750565866908,
+      "landmark": ""
+    },
+    {
+      "name": "Mack",
+      "at": 0.99259846084201,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/dinosaur-diamond-prehistoric-highway-2474.json",
+    "public/data/strips/dinosaur-diamond-prehistoric-highway-2474.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

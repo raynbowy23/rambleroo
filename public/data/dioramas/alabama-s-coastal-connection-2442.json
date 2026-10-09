@@ -1,0 +1,373 @@
+{
+  "authored": false,
+  "bywayId": "alabama-s-coastal-connection-2442",
+  "title": "Alabama's Coastal Connection",
+  "longitude": -87.9331,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -87.91174,
+        30.65577
+      ],
+      [
+        -87.9126,
+        30.63758
+      ],
+      [
+        -87.91071,
+        30.63116
+      ],
+      [
+        -87.91146,
+        30.6248
+      ],
+      [
+        -87.90971,
+        30.6196
+      ],
+      [
+        -87.90284,
+        30.61188
+      ],
+      [
+        -87.90285,
+        30.58398
+      ],
+      [
+        -87.9048,
+        30.57801
+      ],
+      [
+        -87.89996,
+        30.56265
+      ],
+      [
+        -87.89964,
+        30.5529
+      ],
+      [
+        -87.8962,
+        30.54595
+      ],
+      [
+        -87.90275,
+        30.5303
+      ],
+      [
+        -87.903,
+        30.52443
+      ],
+      [
+        -87.90956,
+        30.52443
+      ],
+      [
+        -87.91148,
+        30.52319
+      ],
+      [
+        -87.91821,
+        30.51397
+      ],
+      [
+        -87.91951,
+        30.50807
+      ],
+      [
+        -87.92179,
+        30.50425
+      ],
+      [
+        -87.92631,
+        30.49147
+      ],
+      [
+        -87.93129,
+        30.48796
+      ],
+      [
+        -87.93294,
+        30.48419
+      ],
+      [
+        -87.92283,
+        30.47816
+      ],
+      [
+        -87.9176,
+        30.47131
+      ],
+      [
+        -87.9162,
+        30.45788
+      ],
+      [
+        -87.91243,
+        30.44542
+      ],
+      [
+        -87.90914,
+        30.42321
+      ],
+      [
+        -87.90806,
+        30.4217
+      ],
+      [
+        -87.8598,
+        30.4213
+      ],
+      [
+        -87.84678,
+        30.41852
+      ],
+      [
+        -87.83279,
+        30.42066
+      ],
+      [
+        -87.82959,
+        30.41937
+      ],
+      [
+        -87.81577,
+        30.40736
+      ],
+      [
+        -87.81239,
+        30.40634
+      ],
+      [
+        -87.62312,
+        30.40688
+      ],
+      [
+        -87.60908,
+        30.41408
+      ],
+      [
+        -87.5983,
+        30.41429
+      ],
+      [
+        -87.59895,
+        30.37071
+      ],
+      [
+        -87.65317,
+        30.37012
+      ],
+      [
+        -87.65313,
+        30.36326
+      ],
+      [
+        -87.65427,
+        30.3584
+      ],
+      [
+        -87.65379,
+        30.32657
+      ],
+      [
+        -87.65029,
+        30.31836
+      ],
+      [
+        -87.64,
+        30.31723
+      ],
+      [
+        -87.63743,
+        30.31544
+      ],
+      [
+        -87.63697,
+        30.30119
+      ],
+      [
+        -87.63069,
+        30.29416
+      ],
+      [
+        -87.62951,
+        30.29016
+      ],
+      [
+        -87.58747,
+        30.29043
+      ],
+      [
+        -87.58156,
+        30.29207
+      ],
+      [
+        -87.57279,
+        30.29222
+      ],
+      [
+        -87.56465,
+        30.29436
+      ],
+      [
+        -87.55487,
+        30.2945
+      ],
+      [
+        -87.54253,
+        30.29682
+      ],
+      [
+        -87.52358,
+        30.30267
+      ],
+      [
+        -87.51998,
+        30.30565
+      ],
+      [
+        -87.51654,
+        30.30559
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Bayou La Batre",
+      "model": "harbor",
+      "at": 0.2311463485904174,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bayou La Batre",
+      "model": "town-blocks",
+      "at": 0.2311463485904174,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Montrose",
+      "at": 0.11734513274336283,
+      "landmark": ""
+    },
+    {
+      "name": "Point Clear",
+      "at": 0.20920353982300885,
+      "landmark": ""
+    },
+    {
+      "name": "Barnwell",
+      "at": 0.3486725663716814,
+      "landmark": ""
+    },
+    {
+      "name": "Magnolia Springs",
+      "at": 0.46318584070796465,
+      "landmark": ""
+    },
+    {
+      "name": "Foley",
+      "at": 0.6012389380530974,
+      "landmark": ""
+    },
+    {
+      "name": "Elberta",
+      "at": 0.7067256637168141,
+      "landmark": ""
+    },
+    {
+      "name": "Orange Beach",
+      "at": 0.8948672566371682,
+      "landmark": ""
+    },
+    {
+      "name": "Ono Island",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/alabama-s-coastal-connection-2442.json",
+    "public/data/strips/alabama-s-coastal-connection-2442.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

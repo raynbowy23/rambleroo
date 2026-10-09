@@ -1,0 +1,412 @@
+{
+  "authored": false,
+  "bywayId": "tioga-road-big-oak-flat-road-2302",
+  "title": "Tioga Road/Big Oak Flat Road",
+  "longitude": -119.5831,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -119.87241,
+        37.81026
+      ],
+      [
+        -119.87534,
+        37.79886
+      ],
+      [
+        -119.87261,
+        37.79169
+      ],
+      [
+        -119.8765,
+        37.78887
+      ],
+      [
+        -119.86139,
+        37.77602
+      ],
+      [
+        -119.85924,
+        37.76662
+      ],
+      [
+        -119.83434,
+        37.76227
+      ],
+      [
+        -119.82499,
+        37.75194
+      ],
+      [
+        -119.81744,
+        37.75593
+      ],
+      [
+        -119.80387,
+        37.74722
+      ],
+      [
+        -119.7977,
+        37.75248
+      ],
+      [
+        -119.80481,
+        37.75811
+      ],
+      [
+        -119.80194,
+        37.76091
+      ],
+      [
+        -119.79177,
+        37.75688
+      ],
+      [
+        -119.77906,
+        37.75941
+      ],
+      [
+        -119.77217,
+        37.7554
+      ],
+      [
+        -119.76993,
+        37.75853
+      ],
+      [
+        -119.775,
+        37.76246
+      ],
+      [
+        -119.77119,
+        37.76891
+      ],
+      [
+        -119.75253,
+        37.7752
+      ],
+      [
+        -119.73517,
+        37.78889
+      ],
+      [
+        -119.72429,
+        37.78972
+      ],
+      [
+        -119.71321,
+        37.81114
+      ],
+      [
+        -119.71408,
+        37.81955
+      ],
+      [
+        -119.70485,
+        37.82158
+      ],
+      [
+        -119.70175,
+        37.83119
+      ],
+      [
+        -119.67121,
+        37.85001
+      ],
+      [
+        -119.65339,
+        37.85018
+      ],
+      [
+        -119.6439,
+        37.85766
+      ],
+      [
+        -119.62266,
+        37.84915
+      ],
+      [
+        -119.59699,
+        37.84867
+      ],
+      [
+        -119.59219,
+        37.83903
+      ],
+      [
+        -119.58736,
+        37.84615
+      ],
+      [
+        -119.57528,
+        37.85202
+      ],
+      [
+        -119.5717,
+        37.84864
+      ],
+      [
+        -119.58136,
+        37.82782
+      ],
+      [
+        -119.57799,
+        37.8191
+      ],
+      [
+        -119.58055,
+        37.81542
+      ],
+      [
+        -119.5687,
+        37.80824
+      ],
+      [
+        -119.54491,
+        37.80672
+      ],
+      [
+        -119.51643,
+        37.81794
+      ],
+      [
+        -119.50791,
+        37.81662
+      ],
+      [
+        -119.50828,
+        37.81118
+      ],
+      [
+        -119.4977,
+        37.81714
+      ],
+      [
+        -119.48481,
+        37.81092
+      ],
+      [
+        -119.47694,
+        37.82374
+      ],
+      [
+        -119.44939,
+        37.84069
+      ],
+      [
+        -119.42555,
+        37.87335
+      ],
+      [
+        -119.40674,
+        37.87658
+      ],
+      [
+        -119.4007,
+        37.88148
+      ],
+      [
+        -119.38682,
+        37.87377
+      ],
+      [
+        -119.36882,
+        37.87194
+      ],
+      [
+        -119.32398,
+        37.88214
+      ],
+      [
+        -119.27684,
+        37.87929
+      ],
+      [
+        -119.26019,
+        37.893
+      ],
+      [
+        -119.25784,
+        37.91154
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Tuolumne Meadows",
+      "model": "snow-peak",
+      "at": 0.8762666122519585,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Tuolumne Grove",
+      "at": 0.16818181818181818,
+      "landmark": ""
+    },
+    {
+      "name": "Quaking Aspen Falls",
+      "at": 0.521090909090909,
+      "landmark": ""
+    },
+    {
+      "name": "Tenaya Lake",
+      "at": 0.7294545454545454,
+      "landmark": ""
+    },
+    {
+      "name": "Daff Dome",
+      "at": 0.8027272727272727,
+      "landmark": ""
+    },
+    {
+      "name": "Tuolumne Meadows",
+      "at": 0.8763636363636365,
+      "landmark": ""
+    },
+    {
+      "name": "Gaylor Peak",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/tioga-road-big-oak-flat-road-2302.json",
+    "public/data/strips/tioga-road-big-oak-flat-road-2302.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

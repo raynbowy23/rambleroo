@@ -1,0 +1,330 @@
+{
+  "authored": false,
+  "bywayId": "winchester-road-corridor-992115",
+  "title": "Winchester Road Corridor",
+  "longitude": -84.3342,
+  "ground": "prairie-grid",
+  "palette": "prairie",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -84.3775,
+        38.03387
+      ],
+      [
+        -84.37707,
+        38.03376
+      ],
+      [
+        -84.37557,
+        38.03337
+      ],
+      [
+        -84.37469,
+        38.03315
+      ],
+      [
+        -84.37112,
+        38.03223
+      ],
+      [
+        -84.36193,
+        38.02988
+      ],
+      [
+        -84.36155,
+        38.02979
+      ],
+      [
+        -84.3612,
+        38.02972
+      ],
+      [
+        -84.36092,
+        38.02968
+      ],
+      [
+        -84.36024,
+        38.02962
+      ],
+      [
+        -84.35931,
+        38.02962
+      ],
+      [
+        -84.35852,
+        38.02965
+      ],
+      [
+        -84.35635,
+        38.02969
+      ],
+      [
+        -84.34767,
+        38.02938
+      ],
+      [
+        -84.34153,
+        38.0292
+      ],
+      [
+        -84.337,
+        38.02905
+      ],
+      [
+        -84.33375,
+        38.02897
+      ],
+      [
+        -84.33332,
+        38.02897
+      ],
+      [
+        -84.3287,
+        38.02886
+      ],
+      [
+        -84.31456,
+        38.02854
+      ],
+      [
+        -84.31269,
+        38.0285
+      ],
+      [
+        -84.31124,
+        38.02848
+      ],
+      [
+        -84.31065,
+        38.02851
+      ],
+      [
+        -84.31033,
+        38.02854
+      ],
+      [
+        -84.30971,
+        38.02864
+      ],
+      [
+        -84.30343,
+        38.02993
+      ],
+      [
+        -84.29898,
+        38.03083
+      ],
+      [
+        -84.29845,
+        38.0309
+      ],
+      [
+        -84.29801,
+        38.03093
+      ],
+      [
+        -84.29681,
+        38.03092
+      ],
+      [
+        -84.2957,
+        38.03087
+      ],
+      [
+        -84.29389,
+        38.03083
+      ],
+      [
+        -84.29291,
+        38.03078
+      ],
+      [
+        -84.2921,
+        38.03069
+      ],
+      [
+        -84.29173,
+        38.03063
+      ],
+      [
+        -84.29131,
+        38.03056
+      ],
+      [
+        -84.29044,
+        38.03038
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "field",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    }
+  ],
+  "towns": [
+    {
+      "name": "Uttingertown",
+      "at": 0.06041666666666667,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "public/data/strips/winchester-road-corridor-992115.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

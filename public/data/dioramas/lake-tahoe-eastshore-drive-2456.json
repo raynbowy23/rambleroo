@@ -1,0 +1,365 @@
+{
+  "authored": false,
+  "bywayId": "lake-tahoe-eastshore-drive-2456",
+  "title": "Lake Tahoe - Eastshore Drive",
+  "longitude": -119.928,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -119.94202,
+        38.95921
+      ],
+      [
+        -119.93497,
+        38.9703
+      ],
+      [
+        -119.9363,
+        38.97787
+      ],
+      [
+        -119.93861,
+        38.98106
+      ],
+      [
+        -119.94852,
+        38.98829
+      ],
+      [
+        -119.94849,
+        38.99424
+      ],
+      [
+        -119.9548,
+        38.99874
+      ],
+      [
+        -119.95587,
+        39.00113
+      ],
+      [
+        -119.95455,
+        39.0028
+      ],
+      [
+        -119.94884,
+        39.00254
+      ],
+      [
+        -119.94693,
+        39.00464
+      ],
+      [
+        -119.94752,
+        39.01567
+      ],
+      [
+        -119.9452,
+        39.02473
+      ],
+      [
+        -119.94693,
+        39.03383
+      ],
+      [
+        -119.94938,
+        39.03652
+      ],
+      [
+        -119.9475,
+        39.04117
+      ],
+      [
+        -119.94799,
+        39.04708
+      ],
+      [
+        -119.94416,
+        39.04959
+      ],
+      [
+        -119.94231,
+        39.06234
+      ],
+      [
+        -119.94314,
+        39.06556
+      ],
+      [
+        -119.94068,
+        39.07066
+      ],
+      [
+        -119.94289,
+        39.08077
+      ],
+      [
+        -119.94097,
+        39.08248
+      ],
+      [
+        -119.93592,
+        39.08282
+      ],
+      [
+        -119.92834,
+        39.08566
+      ],
+      [
+        -119.91826,
+        39.08504
+      ],
+      [
+        -119.91424,
+        39.08698
+      ],
+      [
+        -119.91027,
+        39.0925
+      ],
+      [
+        -119.91093,
+        39.09543
+      ],
+      [
+        -119.9095,
+        39.10072
+      ],
+      [
+        -119.92182,
+        39.10802
+      ],
+      [
+        -119.92297,
+        39.11255
+      ],
+      [
+        -119.92624,
+        39.11522
+      ],
+      [
+        -119.93166,
+        39.12969
+      ],
+      [
+        -119.93084,
+        39.13368
+      ],
+      [
+        -119.92467,
+        39.14024
+      ],
+      [
+        -119.92699,
+        39.15104
+      ],
+      [
+        -119.93042,
+        39.15709
+      ],
+      [
+        -119.93018,
+        39.16459
+      ],
+      [
+        -119.92314,
+        39.17452
+      ],
+      [
+        -119.92677,
+        39.1835
+      ],
+      [
+        -119.92674,
+        39.19413
+      ],
+      [
+        -119.93042,
+        39.20349
+      ],
+      [
+        -119.92741,
+        39.22019
+      ],
+      [
+        -119.93279,
+        39.22609
+      ],
+      [
+        -119.93214,
+        39.23211
+      ],
+      [
+        -119.92867,
+        39.23846
+      ],
+      [
+        -119.9415,
+        39.24766
+      ],
+      [
+        -119.94745,
+        39.24938
+      ],
+      [
+        -119.97303,
+        39.25129
+      ],
+      [
+        -119.98437,
+        39.24942
+      ],
+      [
+        -119.99243,
+        39.2496
+      ],
+      [
+        -119.99617,
+        39.24779
+      ],
+      [
+        -120.00045,
+        39.24199
+      ],
+      [
+        -120.00363,
+        39.22875
+      ],
+      [
+        -120.00558,
+        39.22742
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Glenbrook",
+      "model": "town-blocks",
+      "at": 0.3591736814063826,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sand Harbor",
+      "model": "alpine-lake",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Illustrative position in driving order."
+    },
+    {
+      "name": "Incline Village",
+      "model": "town-blocks",
+      "at": 0.8560194743932343,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Zephyr Cove–Round Hill Village",
+      "at": 0.10105263157894728,
+      "landmark": ""
+    },
+    {
+      "name": "Lakeridge",
+      "at": 0.21719298245614038,
+      "landmark": ""
+    },
+    {
+      "name": "Glenbrook",
+      "at": 0.3589473684210527,
+      "landmark": "Glenbrook"
+    },
+    {
+      "name": "Incline Village",
+      "at": 0.856140350877193,
+      "landmark": "Incline Village"
+    },
+    {
+      "name": "Crystal Bay",
+      "at": 0.9978947368421053,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/lake-tahoe-eastshore-drive-2456.json",
+    "public/data/strips/lake-tahoe-eastshore-drive-2456.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

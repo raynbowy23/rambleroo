@@ -1,0 +1,399 @@
+{
+  "authored": false,
+  "bywayId": "logan-canyon-scenic-byway-2001",
+  "title": "Logan Canyon Scenic Byway",
+  "longitude": -111.5679,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -111.79683,
+        41.74379
+      ],
+      [
+        -111.77348,
+        41.74157
+      ],
+      [
+        -111.73138,
+        41.74823
+      ],
+      [
+        -111.72496,
+        41.75323
+      ],
+      [
+        -111.7159,
+        41.7541
+      ],
+      [
+        -111.70335,
+        41.76219
+      ],
+      [
+        -111.68473,
+        41.76594
+      ],
+      [
+        -111.66812,
+        41.7647
+      ],
+      [
+        -111.65842,
+        41.77038
+      ],
+      [
+        -111.65768,
+        41.77326
+      ],
+      [
+        -111.64185,
+        41.7815
+      ],
+      [
+        -111.64125,
+        41.78509
+      ],
+      [
+        -111.64618,
+        41.78927
+      ],
+      [
+        -111.64412,
+        41.79782
+      ],
+      [
+        -111.63096,
+        41.8029
+      ],
+      [
+        -111.62457,
+        41.81355
+      ],
+      [
+        -111.61893,
+        41.81398
+      ],
+      [
+        -111.61256,
+        41.82207
+      ],
+      [
+        -111.60148,
+        41.82528
+      ],
+      [
+        -111.60447,
+        41.83059
+      ],
+      [
+        -111.59313,
+        41.83281
+      ],
+      [
+        -111.59574,
+        41.83736
+      ],
+      [
+        -111.58563,
+        41.84169
+      ],
+      [
+        -111.58847,
+        41.84452
+      ],
+      [
+        -111.58442,
+        41.85002
+      ],
+      [
+        -111.58568,
+        41.85606
+      ],
+      [
+        -111.57842,
+        41.85719
+      ],
+      [
+        -111.57156,
+        41.86314
+      ],
+      [
+        -111.56286,
+        41.88121
+      ],
+      [
+        -111.56559,
+        41.89313
+      ],
+      [
+        -111.56045,
+        41.92272
+      ],
+      [
+        -111.56145,
+        41.93203
+      ],
+      [
+        -111.55806,
+        41.93655
+      ],
+      [
+        -111.54705,
+        41.94286
+      ],
+      [
+        -111.5406,
+        41.95729
+      ],
+      [
+        -111.5294,
+        41.96414
+      ],
+      [
+        -111.52202,
+        41.96499
+      ],
+      [
+        -111.517,
+        41.95929
+      ],
+      [
+        -111.50414,
+        41.95898
+      ],
+      [
+        -111.49531,
+        41.95179
+      ],
+      [
+        -111.48354,
+        41.95058
+      ],
+      [
+        -111.4816,
+        41.94744
+      ],
+      [
+        -111.48217,
+        41.93405
+      ],
+      [
+        -111.47781,
+        41.92845
+      ],
+      [
+        -111.45962,
+        41.92149
+      ],
+      [
+        -111.4547,
+        41.92762
+      ],
+      [
+        -111.44748,
+        41.93193
+      ],
+      [
+        -111.44281,
+        41.92902
+      ],
+      [
+        -111.43415,
+        41.93159
+      ],
+      [
+        -111.43268,
+        41.92664
+      ],
+      [
+        -111.42725,
+        41.92228
+      ],
+      [
+        -111.42481,
+        41.93034
+      ],
+      [
+        -111.41905,
+        41.93087
+      ],
+      [
+        -111.41279,
+        41.9353
+      ],
+      [
+        -111.40651,
+        41.9462
+      ],
+      [
+        -111.39336,
+        41.94667
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Ricks Spring",
+      "model": "ledge",
+      "at": 0.4362580591849397,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bear Lake",
+      "model": "alpine-lake",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Logan Canyon",
+      "at": 0.24420485175202156,
+      "landmark": ""
+    },
+    {
+      "name": "Garden City",
+      "at": 0.9590296495956873,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/logan-canyon-scenic-byway-2001.json",
+    "public/data/strips/logan-canyon-scenic-byway-2001.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,431 @@
+{
+  "authored": false,
+  "bywayId": "white-pine-scenic-byway-2040",
+  "title": "White Pine Scenic Byway",
+  "longitude": -116.4911,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -116.4423,
+        47.57465
+      ],
+      [
+        -116.44141,
+        47.55911
+      ],
+      [
+        -116.47426,
+        47.537
+      ],
+      [
+        -116.5172,
+        47.53411
+      ],
+      [
+        -116.51397,
+        47.52532
+      ],
+      [
+        -116.51867,
+        47.5147
+      ],
+      [
+        -116.54056,
+        47.50733
+      ],
+      [
+        -116.56356,
+        47.49067
+      ],
+      [
+        -116.57568,
+        47.4753
+      ],
+      [
+        -116.57967,
+        47.459
+      ],
+      [
+        -116.60379,
+        47.45589
+      ],
+      [
+        -116.63047,
+        47.46078
+      ],
+      [
+        -116.63719,
+        47.45657
+      ],
+      [
+        -116.64178,
+        47.44929
+      ],
+      [
+        -116.62784,
+        47.43808
+      ],
+      [
+        -116.62378,
+        47.41326
+      ],
+      [
+        -116.64127,
+        47.41731
+      ],
+      [
+        -116.65985,
+        47.41304
+      ],
+      [
+        -116.65731,
+        47.38825
+      ],
+      [
+        -116.66714,
+        47.38515
+      ],
+      [
+        -116.66363,
+        47.37659
+      ],
+      [
+        -116.68094,
+        47.36421
+      ],
+      [
+        -116.66836,
+        47.34842
+      ],
+      [
+        -116.62172,
+        47.34683
+      ],
+      [
+        -116.5828,
+        47.32372
+      ],
+      [
+        -116.56129,
+        47.31912
+      ],
+      [
+        -116.56241,
+        47.31522
+      ],
+      [
+        -116.52789,
+        47.29678
+      ],
+      [
+        -116.49478,
+        47.2627
+      ],
+      [
+        -116.49214,
+        47.25754
+      ],
+      [
+        -116.50085,
+        47.25528
+      ],
+      [
+        -116.50529,
+        47.24628
+      ],
+      [
+        -116.49171,
+        47.23773
+      ],
+      [
+        -116.49071,
+        47.21568
+      ],
+      [
+        -116.47835,
+        47.20114
+      ],
+      [
+        -116.48414,
+        47.18712
+      ],
+      [
+        -116.49707,
+        47.17897
+      ],
+      [
+        -116.4818,
+        47.16552
+      ],
+      [
+        -116.48641,
+        47.15295
+      ],
+      [
+        -116.51515,
+        47.15535
+      ],
+      [
+        -116.54829,
+        47.14917
+      ],
+      [
+        -116.5877,
+        47.13025
+      ],
+      [
+        -116.60297,
+        47.11237
+      ],
+      [
+        -116.64951,
+        47.09031
+      ],
+      [
+        -116.65977,
+        47.07946
+      ],
+      [
+        -116.658,
+        47.0703
+      ],
+      [
+        -116.67528,
+        47.06755
+      ],
+      [
+        -116.67052,
+        47.05424
+      ],
+      [
+        -116.6797,
+        47.02298
+      ],
+      [
+        -116.66807,
+        46.98852
+      ],
+      [
+        -116.66867,
+        46.95431
+      ],
+      [
+        -116.71355,
+        46.92307
+      ],
+      [
+        -116.73125,
+        46.91712
+      ],
+      [
+        -116.7925,
+        46.92118
+      ],
+      [
+        -116.84144,
+        46.91376
+      ],
+      [
+        -116.9325,
+        46.92935
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Harvard",
+      "model": "town-blocks",
+      "at": 0.8743978547723609,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Potlatch",
+      "model": "town-blocks",
+      "at": 0.9765737956706656,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Lane",
+      "at": 0.09584859584859584,
+      "landmark": ""
+    },
+    {
+      "name": "Medimont",
+      "at": 0.17045177045177046,
+      "landmark": ""
+    },
+    {
+      "name": "Parkline",
+      "at": 0.32002442002442,
+      "landmark": ""
+    },
+    {
+      "name": "St. Maries",
+      "at": 0.398046398046398,
+      "landmark": ""
+    },
+    {
+      "name": "Emida",
+      "at": 0.6543345543345543,
+      "landmark": ""
+    },
+    {
+      "name": "Harvard",
+      "at": 0.8748473748473748,
+      "landmark": "Harvard"
+    },
+    {
+      "name": "Potlatch",
+      "at": 0.9770451770451769,
+      "landmark": "Potlatch"
+    }
+  ],
+  "sources": [
+    "content/stories/white-pine-scenic-byway-2040.json",
+    "public/data/strips/white-pine-scenic-byway-2040.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

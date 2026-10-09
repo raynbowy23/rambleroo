@@ -1,0 +1,372 @@
+{
+  "authored": false,
+  "bywayId": "m-134-north-huron-992610",
+  "title": "M-134 North Huron",
+  "longitude": -84.2897,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -84.68301,
+        46.05691
+      ],
+      [
+        -84.6496,
+        46.05648
+      ],
+      [
+        -84.64554,
+        46.05432
+      ],
+      [
+        -84.63098,
+        46.0408
+      ],
+      [
+        -84.62712,
+        46.03923
+      ],
+      [
+        -84.61908,
+        46.03815
+      ],
+      [
+        -84.60903,
+        46.03247
+      ],
+      [
+        -84.59174,
+        46.03159
+      ],
+      [
+        -84.56447,
+        46.03311
+      ],
+      [
+        -84.56006,
+        46.03184
+      ],
+      [
+        -84.53105,
+        46.01713
+      ],
+      [
+        -84.52409,
+        46.01506
+      ],
+      [
+        -84.4423,
+        46.01322
+      ],
+      [
+        -84.42669,
+        46.00644
+      ],
+      [
+        -84.39597,
+        46.00557
+      ],
+      [
+        -84.38139,
+        45.99876
+      ],
+      [
+        -84.30418,
+        46.00011
+      ],
+      [
+        -84.29357,
+        45.99746
+      ],
+      [
+        -84.28782,
+        45.99238
+      ],
+      [
+        -84.28092,
+        45.98873
+      ],
+      [
+        -84.2765,
+        45.98886
+      ],
+      [
+        -84.26925,
+        45.9917
+      ],
+      [
+        -84.25598,
+        45.99217
+      ],
+      [
+        -84.24022,
+        45.98945
+      ],
+      [
+        -84.22934,
+        45.99013
+      ],
+      [
+        -84.20144,
+        45.98175
+      ],
+      [
+        -84.19524,
+        45.98074
+      ],
+      [
+        -84.17357,
+        45.98318
+      ],
+      [
+        -84.1421,
+        45.98005
+      ],
+      [
+        -84.12268,
+        45.98348
+      ],
+      [
+        -84.11693,
+        45.98354
+      ],
+      [
+        -84.08865,
+        45.97319
+      ],
+      [
+        -84.07056,
+        45.96882
+      ],
+      [
+        -84.05672,
+        45.96777
+      ],
+      [
+        -84.03403,
+        45.96261
+      ],
+      [
+        -84.00424,
+        45.96149
+      ],
+      [
+        -83.99814,
+        45.96266
+      ],
+      [
+        -83.97919,
+        45.9694
+      ],
+      [
+        -83.94279,
+        45.97101
+      ],
+      [
+        -83.93158,
+        45.97467
+      ],
+      [
+        -83.91344,
+        45.97778
+      ],
+      [
+        -83.90876,
+        45.97947
+      ],
+      [
+        -83.90291,
+        45.98496
+      ],
+      [
+        -83.90188,
+        45.99233
+      ],
+      [
+        -83.87714,
+        45.98877
+      ],
+      [
+        -83.87269,
+        45.99289
+      ],
+      [
+        -83.86334,
+        45.99428
+      ],
+      [
+        -83.85656,
+        45.99716
+      ],
+      [
+        -83.85138,
+        45.9976
+      ],
+      [
+        -83.82252,
+        45.99027
+      ],
+      [
+        -83.80735,
+        45.98287
+      ],
+      [
+        -83.79284,
+        45.98289
+      ],
+      [
+        -83.77927,
+        45.9889
+      ],
+      [
+        -83.77925,
+        45.99507
+      ],
+      [
+        -83.77444,
+        45.99894
+      ],
+      [
+        -83.73863,
+        45.99889
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Hessel",
+      "model": "harbor",
+      "at": 0.2733768775266465,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hessel",
+      "model": "town-blocks",
+      "at": 0.2733768775266465,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "DeTour Village",
+      "model": "alpine-lake",
+      "at": 0.8183572766060352,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "DeTour Village",
+      "model": "town-blocks",
+      "at": 0.8183572766060352,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Pontchartrain Shores",
+      "at": 0.10240963855421686,
+      "landmark": ""
+    },
+    {
+      "name": "Hessel",
+      "at": 0.27309236947791166,
+      "landmark": "Hessel"
+    },
+    {
+      "name": "Cedarville",
+      "at": 0.33594377510040163,
+      "landmark": ""
+    },
+    {
+      "name": "Port Dolomite",
+      "at": 0.4263052208835342,
+      "landmark": ""
+    },
+    {
+      "name": "DeTour Village",
+      "at": 0.8180722891566266,
+      "landmark": "DeTour Village"
+    }
+  ],
+  "sources": [
+    "content/stories/m-134-north-huron-992610.json",
+    "public/data/strips/m-134-north-huron-992610.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

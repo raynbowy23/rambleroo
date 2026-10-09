@@ -1,7 +1,7 @@
 import { afterEach, expect, it, vi } from 'vitest'
 import * as T from 'three'
 import { buildScene } from './scene'
-import { specs } from './spec'
+import { specs } from './fixtures.test-data'
 import { defaultGarage } from '../../../lib/garage'
 
 const mock = vi.hoisted(() => ({ created: 0, render: vi.fn(), dispose: vi.fn(), contextLoss: vi.fn() }))
@@ -41,7 +41,8 @@ it('shares one WebGL context, sleeps off screen and releases resources', () => {
     return next++
   })
   vi.stubGlobal('cancelAnimationFrame', (id: number) => callbacks.delete(id))
-  vi.stubGlobal('matchMedia', () => ({ matches: false, addEventListener() {}, removeEventListener() {} }))
+  let reduceMotion = false
+  vi.stubGlobal('matchMedia', () => ({ matches: reduceMotion, addEventListener() {}, removeEventListener() {} }))
   let intersect: IntersectionObserverCallback = () => {}
   vi.stubGlobal(
     'IntersectionObserver',
@@ -85,11 +86,57 @@ it('shares one WebGL context, sleeps off screen and releases resources', () => {
   tick()
   expect(mock.render).toHaveBeenCalledTimes(3)
   expect(callbacks.size).toBe(1)
+  // The same projected framing is used for desktop and 390px-phone card widths.
+  for (const width of [360, 560]) {
+    elements[0].getBoundingClientRect = () => ({
+      left: 0,
+      top: 0,
+      right: width,
+      bottom: width,
+      width,
+      height: width,
+      x: 0,
+      y: 0,
+      toJSON() {},
+    })
+    registrations[0].rotateBy(0)
+    tick()
+    built[0].world.updateMatrixWorld(true)
+    built[0].camera.updateMatrixWorld(true)
+    const corners = [
+      [-4, -4],
+      [-4, 4],
+      [4, -4],
+      [4, 4],
+    ].map(([x, z]) => new T.Vector3(x, 0, z).applyMatrix4(built[0].world.matrixWorld).project(built[0].camera))
+    const coverage = (Math.max(...corners.map((p) => p.x)) - Math.min(...corners.map((p) => p.x))) / 2
+    expect(coverage).toBeCloseTo(0.85, 1)
+  }
   registrations[0].grab()
   registrations[0].rotateBy(1.5)
   tick()
   expect(built[0].world.rotation.y).toBeCloseTo(1.5)
+  registrations[0].tiltBy(100)
+  tick()
+  const highY = built[0].camera.position.y
+  registrations[0].tiltBy(100)
+  tick()
+  expect(built[0].camera.position.y).toBeCloseTo(highY)
+  registrations[0].tiltBy(-100)
+  tick()
+  expect(built[0].camera.position.y).toBeLessThan(highY)
   registrations[0].release()
+  reduceMotion = true
+  const angle = built[0].world.rotation.y
+  const position = built[0].driver.position.clone()
+  tick()
+  expect(callbacks.size).toBe(0)
+  expect(built[0].world.rotation.y).toBe(angle)
+  expect(built[0].driver.position.equals(position)).toBe(true)
+  registrations[0].rotateBy(0.2)
+  tick()
+  expect(built[0].world.rotation.y).toBeCloseTo(angle + 0.2)
+  expect(callbacks.size).toBe(0)
   intersect(entries(false), {} as IntersectionObserver)
   tick()
   expect(callbacks.size).toBe(0)

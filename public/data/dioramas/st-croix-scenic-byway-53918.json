@@ -1,0 +1,369 @@
+{
+  "authored": false,
+  "bywayId": "st-croix-scenic-byway-53918",
+  "title": "St. Croix Scenic Byway",
+  "longitude": -92.7442,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -92.81774,
+        44.75121
+      ],
+      [
+        -92.81741,
+        44.77676
+      ],
+      [
+        -92.80724,
+        44.78685
+      ],
+      [
+        -92.79707,
+        44.83545
+      ],
+      [
+        -92.80188,
+        44.87474
+      ],
+      [
+        -92.78345,
+        44.89449
+      ],
+      [
+        -92.77112,
+        44.92864
+      ],
+      [
+        -92.7789,
+        45.01601
+      ],
+      [
+        -92.80733,
+        45.05963
+      ],
+      [
+        -92.80727,
+        45.07538
+      ],
+      [
+        -92.78146,
+        45.0885
+      ],
+      [
+        -92.78736,
+        45.0997
+      ],
+      [
+        -92.75792,
+        45.13863
+      ],
+      [
+        -92.7724,
+        45.18927
+      ],
+      [
+        -92.76377,
+        45.23265
+      ],
+      [
+        -92.77152,
+        45.23942
+      ],
+      [
+        -92.77034,
+        45.26118
+      ],
+      [
+        -92.7782,
+        45.27687
+      ],
+      [
+        -92.76203,
+        45.30599
+      ],
+      [
+        -92.72358,
+        45.32737
+      ],
+      [
+        -92.72386,
+        45.34249
+      ],
+      [
+        -92.7135,
+        45.34941
+      ],
+      [
+        -92.70373,
+        45.38311
+      ],
+      [
+        -92.68246,
+        45.38097
+      ],
+      [
+        -92.66931,
+        45.39404
+      ],
+      [
+        -92.6528,
+        45.39913
+      ],
+      [
+        -92.65142,
+        45.42655
+      ],
+      [
+        -92.65522,
+        45.44286
+      ],
+      [
+        -92.69562,
+        45.4738
+      ],
+      [
+        -92.70903,
+        45.49787
+      ],
+      [
+        -92.75516,
+        45.49882
+      ],
+      [
+        -92.75405,
+        45.55313
+      ],
+      [
+        -92.78791,
+        45.55654
+      ],
+      [
+        -92.8059,
+        45.55041
+      ],
+      [
+        -92.84492,
+        45.55251
+      ],
+      [
+        -92.85578,
+        45.54634
+      ],
+      [
+        -92.87252,
+        45.55958
+      ],
+      [
+        -92.89809,
+        45.5652
+      ],
+      [
+        -92.90745,
+        45.5814
+      ],
+      [
+        -92.93408,
+        45.58966
+      ],
+      [
+        -92.9747,
+        45.58619
+      ],
+      [
+        -92.97206,
+        45.60725
+      ],
+      [
+        -92.96051,
+        45.61856
+      ],
+      [
+        -92.96044,
+        45.75832
+      ],
+      [
+        -92.97036,
+        45.7708
+      ],
+      [
+        -92.97054,
+        45.82992
+      ],
+      [
+        -92.95303,
+        45.95254
+      ],
+      [
+        -92.95216,
+        45.97629
+      ],
+      [
+        -92.95808,
+        45.97658
+      ],
+      [
+        -92.94493,
+        45.98927
+      ],
+      [
+        -92.94285,
+        46.01762
+      ],
+      [
+        -92.93001,
+        46.04197
+      ],
+      [
+        -92.92831,
+        46.11574
+      ],
+      [
+        -92.90208,
+        46.12463
+      ],
+      [
+        -92.87094,
+        46.12494
+      ],
+      [
+        -92.86632,
+        46.17101
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Stillwater",
+      "model": "town-blocks",
+      "at": 0.18275259157541637,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Interstate State Park",
+      "model": "ledge",
+      "at": 0.41494384679324936,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hinckley",
+      "model": "town-blocks",
+      "at": 0.8893821547256942,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Point Douglas",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Afton",
+      "at": 0.0925531914893617,
+      "landmark": ""
+    },
+    {
+      "name": "Stillwater",
+      "at": 0.18273322422258587,
+      "landmark": "Stillwater"
+    },
+    {
+      "name": "Copas",
+      "at": 0.29746317512274967,
+      "landmark": ""
+    },
+    {
+      "name": "Taylors Falls",
+      "at": 0.42864157119476276,
+      "landmark": ""
+    },
+    {
+      "name": "Sunrise",
+      "at": 0.5796235679214403,
+      "landmark": ""
+    },
+    {
+      "name": "Rush City",
+      "at": 0.6978723404255319,
+      "landmark": ""
+    },
+    {
+      "name": "Pine City",
+      "at": 0.784860883797054,
+      "landmark": ""
+    },
+    {
+      "name": "Hinckley",
+      "at": 0.8893617021276596,
+      "landmark": "Hinckley"
+    },
+    {
+      "name": "Sandstone",
+      "at": 0.9770049099836334,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/st-croix-scenic-byway-53918.json",
+    "public/data/strips/st-croix-scenic-byway-53918.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

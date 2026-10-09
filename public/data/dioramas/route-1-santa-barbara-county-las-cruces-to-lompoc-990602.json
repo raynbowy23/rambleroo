@@ -1,0 +1,387 @@
+{
+  "authored": false,
+  "bywayId": "route-1-santa-barbara-county-las-cruces-to-lompoc-990602",
+  "title": "Route 1, Santa Barbara County (Las Cruces to Lompoc)",
+  "longitude": -120.3396,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -120.22589,
+        34.50921
+      ],
+      [
+        -120.22693,
+        34.51001
+      ],
+      [
+        -120.23727,
+        34.51243
+      ],
+      [
+        -120.23299,
+        34.51072
+      ],
+      [
+        -120.22693,
+        34.51001
+      ],
+      [
+        -120.22785,
+        34.51054
+      ],
+      [
+        -120.23317,
+        34.51091
+      ],
+      [
+        -120.24332,
+        34.51466
+      ],
+      [
+        -120.24877,
+        34.51596
+      ],
+      [
+        -120.25292,
+        34.51744
+      ],
+      [
+        -120.26196,
+        34.51823
+      ],
+      [
+        -120.27368,
+        34.52205
+      ],
+      [
+        -120.28152,
+        34.52323
+      ],
+      [
+        -120.28632,
+        34.52558
+      ],
+      [
+        -120.28927,
+        34.52624
+      ],
+      [
+        -120.29214,
+        34.52611
+      ],
+      [
+        -120.30002,
+        34.52433
+      ],
+      [
+        -120.3086,
+        34.52152
+      ],
+      [
+        -120.3151,
+        34.51819
+      ],
+      [
+        -120.31689,
+        34.51763
+      ],
+      [
+        -120.32697,
+        34.51823
+      ],
+      [
+        -120.33842,
+        34.52225
+      ],
+      [
+        -120.34082,
+        34.5243
+      ],
+      [
+        -120.34471,
+        34.53042
+      ],
+      [
+        -120.35268,
+        34.5383
+      ],
+      [
+        -120.35862,
+        34.55055
+      ],
+      [
+        -120.36198,
+        34.55586
+      ],
+      [
+        -120.36599,
+        34.56597
+      ],
+      [
+        -120.36871,
+        34.56814
+      ],
+      [
+        -120.37138,
+        34.57308
+      ],
+      [
+        -120.37987,
+        34.58008
+      ],
+      [
+        -120.38251,
+        34.58122
+      ],
+      [
+        -120.38387,
+        34.58279
+      ],
+      [
+        -120.38524,
+        34.58351
+      ],
+      [
+        -120.39655,
+        34.58509
+      ],
+      [
+        -120.40456,
+        34.58368
+      ],
+      [
+        -120.40586,
+        34.58386
+      ],
+      [
+        -120.40709,
+        34.58453
+      ],
+      [
+        -120.40858,
+        34.59005
+      ],
+      [
+        -120.41064,
+        34.59559
+      ],
+      [
+        -120.41197,
+        34.5966
+      ],
+      [
+        -120.41648,
+        34.5978
+      ],
+      [
+        -120.41761,
+        34.59878
+      ],
+      [
+        -120.41781,
+        34.59988
+      ],
+      [
+        -120.41728,
+        34.60205
+      ],
+      [
+        -120.41819,
+        34.60662
+      ],
+      [
+        -120.4189,
+        34.60813
+      ],
+      [
+        -120.42031,
+        34.60932
+      ],
+      [
+        -120.42579,
+        34.61217
+      ],
+      [
+        -120.42711,
+        34.61368
+      ],
+      [
+        -120.42792,
+        34.61885
+      ],
+      [
+        -120.42967,
+        34.62375
+      ],
+      [
+        -120.43268,
+        34.62847
+      ],
+      [
+        -120.43284,
+        34.62997
+      ],
+      [
+        -120.43245,
+        34.63146
+      ],
+      [
+        -120.42967,
+        34.62375
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lompoc",
+      "model": "town-blocks",
+      "at": 0.9705307656178447,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Gaviota Hot Springs",
+      "at": 0.0015873015873014706,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-1-santa-barbara-county-las-cruces-to-lompoc-990602.json",
+    "public/data/strips/route-1-santa-barbara-county-las-cruces-to-lompoc-990602.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

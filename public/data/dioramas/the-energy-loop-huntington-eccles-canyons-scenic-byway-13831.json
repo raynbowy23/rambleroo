@@ -1,0 +1,423 @@
+{
+  "authored": false,
+  "bywayId": "the-energy-loop-huntington-eccles-canyons-scenic-byway-13831",
+  "title": "The Energy Loop: Huntington/Eccles Canyons Scenic Byway",
+  "longitude": -111.1546,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -110.96468,
+        39.33431
+      ],
+      [
+        -111.00187,
+        39.35109
+      ],
+      [
+        -111.04718,
+        39.36243
+      ],
+      [
+        -111.07803,
+        39.38565
+      ],
+      [
+        -111.1093,
+        39.39642
+      ],
+      [
+        -111.10971,
+        39.40281
+      ],
+      [
+        -111.11664,
+        39.40647
+      ],
+      [
+        -111.11524,
+        39.4134
+      ],
+      [
+        -111.12956,
+        39.42655
+      ],
+      [
+        -111.14474,
+        39.46274
+      ],
+      [
+        -111.15846,
+        39.47701
+      ],
+      [
+        -111.15931,
+        39.50157
+      ],
+      [
+        -111.15375,
+        39.51898
+      ],
+      [
+        -111.15642,
+        39.53654
+      ],
+      [
+        -111.19458,
+        39.59008
+      ],
+      [
+        -111.21635,
+        39.60072
+      ],
+      [
+        -111.22783,
+        39.59477
+      ],
+      [
+        -111.2306,
+        39.58284
+      ],
+      [
+        -111.24134,
+        39.58739
+      ],
+      [
+        -111.24492,
+        39.58195
+      ],
+      [
+        -111.25685,
+        39.58348
+      ],
+      [
+        -111.27936,
+        39.60788
+      ],
+      [
+        -111.28181,
+        39.61754
+      ],
+      [
+        -111.29441,
+        39.62035
+      ],
+      [
+        -111.30701,
+        39.61489
+      ],
+      [
+        -111.32096,
+        39.62512
+      ],
+      [
+        -111.33055,
+        39.64341
+      ],
+      [
+        -111.32881,
+        39.66417
+      ],
+      [
+        -111.31309,
+        39.67775
+      ],
+      [
+        -111.29804,
+        39.65588
+      ],
+      [
+        -111.28649,
+        39.65117
+      ],
+      [
+        -111.25543,
+        39.64892
+      ],
+      [
+        -111.24357,
+        39.64217
+      ],
+      [
+        -111.23837,
+        39.64527
+      ],
+      [
+        -111.24607,
+        39.68733
+      ],
+      [
+        -111.23056,
+        39.68008
+      ],
+      [
+        -111.21163,
+        39.68345
+      ],
+      [
+        -111.21285,
+        39.67792
+      ],
+      [
+        -111.1998,
+        39.68443
+      ],
+      [
+        -111.18065,
+        39.68194
+      ],
+      [
+        -111.15535,
+        39.68534
+      ],
+      [
+        -111.16322,
+        39.7076
+      ],
+      [
+        -111.16014,
+        39.72863
+      ],
+      [
+        -111.15431,
+        39.73318
+      ],
+      [
+        -111.1503,
+        39.75077
+      ],
+      [
+        -111.13318,
+        39.78654
+      ],
+      [
+        -111.1197,
+        39.78737
+      ],
+      [
+        -111.13245,
+        39.79241
+      ],
+      [
+        -111.13502,
+        39.82226
+      ],
+      [
+        -111.13929,
+        39.82961
+      ],
+      [
+        -111.12978,
+        39.83665
+      ],
+      [
+        -111.12367,
+        39.86189
+      ],
+      [
+        -111.11703,
+        39.86459
+      ],
+      [
+        -111.10475,
+        39.8589
+      ],
+      [
+        -111.08048,
+        39.8563
+      ],
+      [
+        -111.02691,
+        39.86193
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Huntington Reservoir",
+      "model": "alpine-lake",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Electric Lake",
+      "model": "alpine-lake",
+      "at": 0.35157671476397906,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Winter Quarters",
+      "model": "false-front-town",
+      "at": 0.7671807998615237,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Huntington",
+      "at": 0.00013440860215063744,
+      "landmark": ""
+    },
+    {
+      "name": "Connellsville",
+      "at": 0.351478494623656,
+      "landmark": ""
+    },
+    {
+      "name": "Scofield",
+      "at": 0.7682795698924731,
+      "landmark": ""
+    },
+    {
+      "name": "Hale",
+      "at": 0.8469086021505376,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/the-energy-loop-huntington-eccles-canyons-scenic-byway-13831.json",
+    "public/data/strips/the-energy-loop-huntington-eccles-canyons-scenic-byway-13831.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

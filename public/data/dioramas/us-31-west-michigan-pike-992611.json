@@ -1,0 +1,392 @@
+{
+  "authored": false,
+  "bywayId": "us-31-west-michigan-pike-992611",
+  "title": "US-31 West Michigan Pike",
+  "longitude": -86.1907,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -86.36556,
+        42.22974
+      ],
+      [
+        -86.33774,
+        42.2542
+      ],
+      [
+        -86.28746,
+        42.34964
+      ],
+      [
+        -86.26475,
+        42.36936
+      ],
+      [
+        -86.25188,
+        42.43068
+      ],
+      [
+        -86.22284,
+        42.47057
+      ],
+      [
+        -86.21823,
+        42.61679
+      ],
+      [
+        -86.1718,
+        42.66866
+      ],
+      [
+        -86.16996,
+        42.69956
+      ],
+      [
+        -86.15153,
+        42.72754
+      ],
+      [
+        -86.0844,
+        42.77012
+      ],
+      [
+        -86.08101,
+        42.79355
+      ],
+      [
+        -86.10685,
+        42.85974
+      ],
+      [
+        -86.21979,
+        43.03274
+      ],
+      [
+        -86.20265,
+        43.2811
+      ],
+      [
+        -86.24137,
+        43.32603
+      ],
+      [
+        -86.24827,
+        43.35039
+      ],
+      [
+        -86.33705,
+        43.43532
+      ],
+      [
+        -86.33878,
+        43.47181
+      ],
+      [
+        -86.36655,
+        43.48789
+      ],
+      [
+        -86.38458,
+        43.52002
+      ],
+      [
+        -86.39841,
+        43.58211
+      ],
+      [
+        -86.38986,
+        43.60062
+      ],
+      [
+        -86.39267,
+        43.68918
+      ],
+      [
+        -86.39901,
+        43.66262
+      ],
+      [
+        -86.39032,
+        43.60076
+      ],
+      [
+        -86.39984,
+        43.58128
+      ],
+      [
+        -86.38542,
+        43.52014
+      ],
+      [
+        -86.3677,
+        43.48709
+      ],
+      [
+        -86.33969,
+        43.47196
+      ],
+      [
+        -86.33794,
+        43.43522
+      ],
+      [
+        -86.24895,
+        43.34978
+      ],
+      [
+        -86.24221,
+        43.32614
+      ],
+      [
+        -86.20364,
+        43.28155
+      ],
+      [
+        -86.21975,
+        43.03321
+      ],
+      [
+        -86.10601,
+        42.85871
+      ],
+      [
+        -86.08056,
+        42.77714
+      ],
+      [
+        -86.15278,
+        42.7251
+      ],
+      [
+        -86.16959,
+        42.69956
+      ],
+      [
+        -86.17147,
+        42.66771
+      ],
+      [
+        -86.21812,
+        42.61621
+      ],
+      [
+        -86.2225,
+        42.47053
+      ],
+      [
+        -86.25151,
+        42.43065
+      ],
+      [
+        -86.26397,
+        42.37022
+      ],
+      [
+        -86.28685,
+        42.35001
+      ],
+      [
+        -86.33745,
+        42.25407
+      ],
+      [
+        -86.49378,
+        42.09516
+      ],
+      [
+        -86.51412,
+        42.05768
+      ],
+      [
+        -86.51425,
+        42.03107
+      ],
+      [
+        -86.53203,
+        42.02048
+      ],
+      [
+        -86.57116,
+        41.92128
+      ],
+      [
+        -86.60379,
+        41.8683
+      ],
+      [
+        -86.70824,
+        41.79913
+      ],
+      [
+        -86.60348,
+        41.86819
+      ],
+      [
+        -86.53169,
+        42.02048
+      ],
+      [
+        -86.51425,
+        42.03107
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Holland",
+      "model": "town-blocks",
+      "at": 0.15579824696160693,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grand Haven",
+      "model": "lighthouse-on-rock",
+      "at": 0.569149960820228,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grand Haven",
+      "model": "town-blocks",
+      "at": 0.569149960820228,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "harbor",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "South Haven",
+      "at": 0.04897592526051024,
+      "landmark": ""
+    },
+    {
+      "name": "Holland",
+      "at": 0.15580309019044197,
+      "landmark": "Holland"
+    },
+    {
+      "name": "Lakewood Club",
+      "at": 0.30927057132590724,
+      "landmark": ""
+    },
+    {
+      "name": "Hart",
+      "at": 0.3991376212720086,
+      "landmark": ""
+    },
+    {
+      "name": "Montague",
+      "at": 0.4697808120733022,
+      "landmark": ""
+    },
+    {
+      "name": "Grand Haven",
+      "at": 0.5692058929213079,
+      "landmark": "Grand Haven"
+    },
+    {
+      "name": "Benton Harbor",
+      "at": 0.8315486884656844,
+      "landmark": ""
+    },
+    {
+      "name": "New Buffalo",
+      "at": 0.928602227811714,
+      "landmark": ""
+    },
+    {
+      "name": "Stevensville",
+      "at": 0.9944304707150556,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/us-31-west-michigan-pike-992611.json",
+    "public/data/strips/us-31-west-michigan-pike-992611.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

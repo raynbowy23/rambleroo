@@ -1,0 +1,283 @@
+{
+  "authored": false,
+  "bywayId": "heritage-drive-2324",
+  "title": "Heritage Drive",
+  "longitude": -89.0624,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -89.0791,
+        45.9324
+      ],
+      [
+        -89.0788,
+        45.9314
+      ],
+      [
+        -89.0715,
+        45.9288
+      ],
+      [
+        -89.0702,
+        45.9262
+      ],
+      [
+        -89.069,
+        45.9212
+      ],
+      [
+        -89.0702,
+        45.9143
+      ],
+      [
+        -89.0683,
+        45.9103
+      ],
+      [
+        -89.0694,
+        45.903
+      ],
+      [
+        -89.0672,
+        45.9013
+      ],
+      [
+        -89.0655,
+        45.8987
+      ],
+      [
+        -89.067,
+        45.8932
+      ],
+      [
+        -89.0669,
+        45.8866
+      ],
+      [
+        -89.0708,
+        45.8775
+      ],
+      [
+        -89.0693,
+        45.8736
+      ],
+      [
+        -89.072,
+        45.8696
+      ],
+      [
+        -89.0702,
+        45.8671
+      ],
+      [
+        -89.0605,
+        45.8662
+      ],
+      [
+        -89.0612,
+        45.8612
+      ],
+      [
+        -89.0578,
+        45.8579
+      ],
+      [
+        -89.0571,
+        45.8542
+      ],
+      [
+        -89.0531,
+        45.8521
+      ],
+      [
+        -89.0549,
+        45.8498
+      ],
+      [
+        -89.0625,
+        45.849
+      ],
+      [
+        -89.0652,
+        45.8448
+      ],
+      [
+        -89.0701,
+        45.8415
+      ],
+      [
+        -89.0704,
+        45.8369
+      ],
+      [
+        -89.0657,
+        45.8273
+      ],
+      [
+        -89.0713,
+        45.8188
+      ],
+      [
+        -89.0714,
+        45.8133
+      ],
+      [
+        -89.0732,
+        45.8103
+      ],
+      [
+        -89.0707,
+        45.8076
+      ],
+      [
+        -89.0686,
+        45.8006
+      ],
+      [
+        -89.0767,
+        45.7939
+      ],
+      [
+        -89.0844,
+        45.7931
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

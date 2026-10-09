@@ -1,0 +1,384 @@
+{
+  "authored": false,
+  "bywayId": "midland-trail-10345",
+  "title": "Midland Trail",
+  "longitude": -80.9665,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.29746,
+        37.79657
+      ],
+      [
+        -80.3099,
+        37.78317
+      ],
+      [
+        -80.37071,
+        37.77154
+      ],
+      [
+        -80.4112,
+        37.79299
+      ],
+      [
+        -80.46161,
+        37.80699
+      ],
+      [
+        -80.48705,
+        37.83109
+      ],
+      [
+        -80.47468,
+        37.85382
+      ],
+      [
+        -80.48436,
+        37.86761
+      ],
+      [
+        -80.52797,
+        37.87561
+      ],
+      [
+        -80.54962,
+        37.86996
+      ],
+      [
+        -80.58643,
+        37.89026
+      ],
+      [
+        -80.63087,
+        37.89895
+      ],
+      [
+        -80.65732,
+        37.95291
+      ],
+      [
+        -80.69795,
+        37.96469
+      ],
+      [
+        -80.7323,
+        37.98953
+      ],
+      [
+        -80.74024,
+        38.00447
+      ],
+      [
+        -80.75179,
+        38.00201
+      ],
+      [
+        -80.74751,
+        37.98934
+      ],
+      [
+        -80.76709,
+        37.96876
+      ],
+      [
+        -80.80821,
+        37.96518
+      ],
+      [
+        -80.84028,
+        37.98558
+      ],
+      [
+        -80.86031,
+        37.98707
+      ],
+      [
+        -80.88231,
+        38.01138
+      ],
+      [
+        -80.91617,
+        38.02247
+      ],
+      [
+        -80.92835,
+        38.05103
+      ],
+      [
+        -80.95448,
+        38.05005
+      ],
+      [
+        -80.97545,
+        38.0669
+      ],
+      [
+        -80.99224,
+        38.10655
+      ],
+      [
+        -81.01274,
+        38.12858
+      ],
+      [
+        -81.06834,
+        38.12411
+      ],
+      [
+        -81.07707,
+        38.13323
+      ],
+      [
+        -81.10041,
+        38.13629
+      ],
+      [
+        -81.1123,
+        38.12379
+      ],
+      [
+        -81.1394,
+        38.12326
+      ],
+      [
+        -81.1465,
+        38.14151
+      ],
+      [
+        -81.17226,
+        38.13543
+      ],
+      [
+        -81.17312,
+        38.14726
+      ],
+      [
+        -81.19902,
+        38.16364
+      ],
+      [
+        -81.21327,
+        38.15835
+      ],
+      [
+        -81.21286,
+        38.14026
+      ],
+      [
+        -81.2227,
+        38.12503
+      ],
+      [
+        -81.23315,
+        38.12348
+      ],
+      [
+        -81.28023,
+        38.1419
+      ],
+      [
+        -81.3028,
+        38.16476
+      ],
+      [
+        -81.30769,
+        38.18184
+      ],
+      [
+        -81.36616,
+        38.19273
+      ],
+      [
+        -81.3805,
+        38.21397
+      ],
+      [
+        -81.41475,
+        38.20557
+      ],
+      [
+        -81.4284,
+        38.2206
+      ],
+      [
+        -81.4423,
+        38.22233
+      ],
+      [
+        -81.49854,
+        38.20064
+      ],
+      [
+        -81.56486,
+        38.25421
+      ],
+      [
+        -81.556,
+        38.30058
+      ],
+      [
+        -81.56101,
+        38.31601
+      ],
+      [
+        -81.58577,
+        38.33211
+      ],
+      [
+        -81.61654,
+        38.33638
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "The Greenbrier",
+      "model": "town-blocks",
+      "at": 0.00930977505373613,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hawks Nest State Park",
+      "model": "ledge",
+      "at": 0.6155747817939554,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Kanawha Falls",
+      "model": "cove-waterfall",
+      "at": 0.6913246268580877,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "North Caldwell",
+      "at": 0.060512367491166175,
+      "landmark": ""
+    },
+    {
+      "name": "Richlands",
+      "at": 0.13842756183745586,
+      "landmark": ""
+    },
+    {
+      "name": "Crawley",
+      "at": 0.2568904593639576,
+      "landmark": ""
+    },
+    {
+      "name": "Charmco",
+      "at": 0.3230565371024735,
+      "landmark": ""
+    },
+    {
+      "name": "Maywood",
+      "at": 0.3863074204946997,
+      "landmark": ""
+    },
+    {
+      "name": "Medo",
+      "at": 0.4786219081272085,
+      "landmark": ""
+    },
+    {
+      "name": "Hico",
+      "at": 0.542226148409894,
+      "landmark": ""
+    },
+    {
+      "name": "Chimney Corner",
+      "at": 0.6375441696113074,
+      "landmark": ""
+    },
+    {
+      "name": "Montgomery Heights",
+      "at": 0.7342756183745583,
+      "landmark": ""
+    },
+    {
+      "name": "Handley",
+      "at": 0.7976148409893993,
+      "landmark": ""
+    },
+    {
+      "name": "Coalburg",
+      "at": 0.863339222614841,
+      "landmark": ""
+    },
+    {
+      "name": "Lower Belle",
+      "at": 0.9293286219081272,
+      "landmark": ""
+    },
+    {
+      "name": "Charleston",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/midland-trail-10345.json",
+    "public/data/strips/midland-trail-10345.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

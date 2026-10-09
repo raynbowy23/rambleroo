@@ -1,0 +1,391 @@
+{
+  "authored": false,
+  "bywayId": "meriwether-pike-scenic-byway-69743",
+  "title": "Meriwether-Pike Scenic Byway",
+  "longitude": -84.6032,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -84.57382,
+        33.09263
+      ],
+      [
+        -84.5719,
+        33.06658
+      ],
+      [
+        -84.56252,
+        33.02708
+      ],
+      [
+        -84.57265,
+        32.99543
+      ],
+      [
+        -84.5798,
+        32.98809
+      ],
+      [
+        -84.59265,
+        32.98562
+      ],
+      [
+        -84.59851,
+        32.97783
+      ],
+      [
+        -84.60286,
+        32.96429
+      ],
+      [
+        -84.62431,
+        32.95518
+      ],
+      [
+        -84.65278,
+        32.92977
+      ],
+      [
+        -84.66107,
+        32.91784
+      ],
+      [
+        -84.67652,
+        32.90906
+      ],
+      [
+        -84.68073,
+        32.90228
+      ],
+      [
+        -84.68154,
+        32.8926
+      ],
+      [
+        -84.67738,
+        32.87096
+      ],
+      [
+        -84.6988,
+        32.85518
+      ],
+      [
+        -84.70035,
+        32.85174
+      ],
+      [
+        -84.69179,
+        32.84382
+      ],
+      [
+        -84.67336,
+        32.84219
+      ],
+      [
+        -84.62812,
+        32.84367
+      ],
+      [
+        -84.61681,
+        32.84799
+      ],
+      [
+        -84.60054,
+        32.86308
+      ],
+      [
+        -84.59715,
+        32.87318
+      ],
+      [
+        -84.59777,
+        32.8799
+      ],
+      [
+        -84.56546,
+        32.90524
+      ],
+      [
+        -84.56229,
+        32.91245
+      ],
+      [
+        -84.55256,
+        32.91727
+      ],
+      [
+        -84.54673,
+        32.91623
+      ],
+      [
+        -84.53699,
+        32.91934
+      ],
+      [
+        -84.535,
+        32.92313
+      ],
+      [
+        -84.53656,
+        32.93423
+      ],
+      [
+        -84.5466,
+        32.95248
+      ],
+      [
+        -84.54406,
+        32.95724
+      ],
+      [
+        -84.54766,
+        32.96346
+      ],
+      [
+        -84.54281,
+        32.97552
+      ],
+      [
+        -84.53517,
+        32.98172
+      ],
+      [
+        -84.53436,
+        32.98824
+      ],
+      [
+        -84.50583,
+        32.99525
+      ],
+      [
+        -84.50243,
+        33.00058
+      ],
+      [
+        -84.50206,
+        33.00874
+      ],
+      [
+        -84.48892,
+        33.04832
+      ],
+      [
+        -84.47858,
+        33.05592
+      ],
+      [
+        -84.4655,
+        33.05847
+      ],
+      [
+        -84.46009,
+        33.06797
+      ],
+      [
+        -84.52135,
+        33.06874
+      ],
+      [
+        -84.53118,
+        33.06535
+      ],
+      [
+        -84.53864,
+        33.06784
+      ],
+      [
+        -84.54603,
+        33.07725
+      ],
+      [
+        -84.56872,
+        33.08716
+      ],
+      [
+        -84.57439,
+        33.09389
+      ],
+      [
+        -84.5934,
+        33.08889
+      ],
+      [
+        -84.61309,
+        33.07514
+      ],
+      [
+        -84.61464,
+        33.07642
+      ],
+      [
+        -84.61501,
+        33.07921
+      ],
+      [
+        -84.59133,
+        33.1084
+      ],
+      [
+        -84.57439,
+        33.09389
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Little White House",
+      "model": "farmhouse",
+      "at": 0.29248561412261503,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Red Oak Creek Covered Bridge",
+      "model": "covered-bridge",
+      "at": 0.29248561412261503,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Gay",
+      "model": "town-blocks",
+      "at": 0.887312575064123,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "gristmill",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Woodbury",
+      "at": 0.1254934210526315,
+      "landmark": ""
+    },
+    {
+      "name": "Raleigh",
+      "at": 0.20888157894736836,
+      "landmark": ""
+    },
+    {
+      "name": "Warm Springs",
+      "at": 0.28388157894736843,
+      "landmark": ""
+    },
+    {
+      "name": "Manchester",
+      "at": 0.42993421052631586,
+      "landmark": ""
+    },
+    {
+      "name": "Molena",
+      "at": 0.6791118421052631,
+      "landmark": ""
+    },
+    {
+      "name": "Gay",
+      "at": 1,
+      "landmark": "Gay"
+    }
+  ],
+  "sources": [
+    "content/stories/meriwether-pike-scenic-byway-69743.json",
+    "public/data/strips/meriwether-pike-scenic-byway-69743.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

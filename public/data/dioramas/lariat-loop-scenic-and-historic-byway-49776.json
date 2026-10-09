@@ -1,0 +1,397 @@
+{
+  "authored": false,
+  "bywayId": "lariat-loop-scenic-and-historic-byway-49776",
+  "title": "Lariat Loop Scenic and Historic Byway",
+  "longitude": -105.3329,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -105.18912,
+        39.65373
+      ],
+      [
+        -105.21629,
+        39.65329
+      ],
+      [
+        -105.21932,
+        39.65704
+      ],
+      [
+        -105.22795,
+        39.65821
+      ],
+      [
+        -105.22778,
+        39.66036
+      ],
+      [
+        -105.23293,
+        39.65903
+      ],
+      [
+        -105.2359,
+        39.66285
+      ],
+      [
+        -105.23956,
+        39.66149
+      ],
+      [
+        -105.24429,
+        39.66618
+      ],
+      [
+        -105.25064,
+        39.66278
+      ],
+      [
+        -105.25634,
+        39.66845
+      ],
+      [
+        -105.27209,
+        39.66529
+      ],
+      [
+        -105.27549,
+        39.66683
+      ],
+      [
+        -105.27989,
+        39.66356
+      ],
+      [
+        -105.28607,
+        39.66495
+      ],
+      [
+        -105.28463,
+        39.66226
+      ],
+      [
+        -105.28754,
+        39.65694
+      ],
+      [
+        -105.30699,
+        39.65411
+      ],
+      [
+        -105.30787,
+        39.64356
+      ],
+      [
+        -105.31106,
+        39.64215
+      ],
+      [
+        -105.31166,
+        39.63828
+      ],
+      [
+        -105.32337,
+        39.63203
+      ],
+      [
+        -105.32876,
+        39.63401
+      ],
+      [
+        -105.35332,
+        39.66066
+      ],
+      [
+        -105.36472,
+        39.6765
+      ],
+      [
+        -105.36629,
+        39.6853
+      ],
+      [
+        -105.36136,
+        39.69417
+      ],
+      [
+        -105.33937,
+        39.69199
+      ],
+      [
+        -105.33881,
+        39.69743
+      ],
+      [
+        -105.33132,
+        39.69909
+      ],
+      [
+        -105.31318,
+        39.71412
+      ],
+      [
+        -105.27966,
+        39.70925
+      ],
+      [
+        -105.27231,
+        39.71053
+      ],
+      [
+        -105.2723,
+        39.71302
+      ],
+      [
+        -105.26239,
+        39.71255
+      ],
+      [
+        -105.25307,
+        39.71635
+      ],
+      [
+        -105.24701,
+        39.72607
+      ],
+      [
+        -105.23731,
+        39.73187
+      ],
+      [
+        -105.23885,
+        39.73399
+      ],
+      [
+        -105.24324,
+        39.73147
+      ],
+      [
+        -105.2462,
+        39.7335
+      ],
+      [
+        -105.23921,
+        39.74223
+      ],
+      [
+        -105.24,
+        39.74792
+      ],
+      [
+        -105.24476,
+        39.74877
+      ],
+      [
+        -105.23933,
+        39.74938
+      ],
+      [
+        -105.23056,
+        39.74032
+      ],
+      [
+        -105.22752,
+        39.74006
+      ],
+      [
+        -105.22846,
+        39.74258
+      ],
+      [
+        -105.22361,
+        39.74552
+      ],
+      [
+        -105.20918,
+        39.73011
+      ],
+      [
+        -105.21009,
+        39.72129
+      ],
+      [
+        -105.20478,
+        39.71024
+      ],
+      [
+        -105.20354,
+        39.69424
+      ],
+      [
+        -105.19453,
+        39.67635
+      ],
+      [
+        -105.19364,
+        39.66006
+      ],
+      [
+        -105.18912,
+        39.65373
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Red Rocks Amphitheatre",
+      "model": "mesa",
+      "at": 0.9740386081607163,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Genesee",
+      "at": 0.13972602739726037,
+      "landmark": ""
+    },
+    {
+      "name": "Kittredge",
+      "at": 0.2326027397260274,
+      "landmark": ""
+    },
+    {
+      "name": "Mount Vernon",
+      "at": 0.9197260273972603,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/lariat-loop-scenic-and-historic-byway-49776.json",
+    "public/data/strips/lariat-loop-scenic-and-historic-byway-49776.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

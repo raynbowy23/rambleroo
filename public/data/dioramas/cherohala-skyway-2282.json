@@ -1,0 +1,399 @@
+{
+  "authored": false,
+  "bywayId": "cherohala-skyway-2282",
+  "title": "Cherohala Skyway",
+  "longitude": -84.1386,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -84.28024,
+        35.36171
+      ],
+      [
+        -84.24333,
+        35.34556
+      ],
+      [
+        -84.24562,
+        35.35122
+      ],
+      [
+        -84.23708,
+        35.34589
+      ],
+      [
+        -84.23199,
+        35.35086
+      ],
+      [
+        -84.22881,
+        35.34755
+      ],
+      [
+        -84.2198,
+        35.35207
+      ],
+      [
+        -84.2175,
+        35.34851
+      ],
+      [
+        -84.21163,
+        35.35054
+      ],
+      [
+        -84.19989,
+        35.34644
+      ],
+      [
+        -84.19198,
+        35.35151
+      ],
+      [
+        -84.17824,
+        35.35221
+      ],
+      [
+        -84.17291,
+        35.34924
+      ],
+      [
+        -84.15954,
+        35.35279
+      ],
+      [
+        -84.13916,
+        35.36495
+      ],
+      [
+        -84.13193,
+        35.37606
+      ],
+      [
+        -84.11972,
+        35.38524
+      ],
+      [
+        -84.12415,
+        35.36863
+      ],
+      [
+        -84.13045,
+        35.36612
+      ],
+      [
+        -84.13491,
+        35.35922
+      ],
+      [
+        -84.13071,
+        35.35351
+      ],
+      [
+        -84.11157,
+        35.36507
+      ],
+      [
+        -84.09917,
+        35.3572
+      ],
+      [
+        -84.08225,
+        35.35693
+      ],
+      [
+        -84.06921,
+        35.35149
+      ],
+      [
+        -84.06441,
+        35.34567
+      ],
+      [
+        -84.03794,
+        35.34813
+      ],
+      [
+        -84.02898,
+        35.34229
+      ],
+      [
+        -84.03396,
+        35.34165
+      ],
+      [
+        -84.03439,
+        35.33811
+      ],
+      [
+        -84.02499,
+        35.33746
+      ],
+      [
+        -84.02298,
+        35.33267
+      ],
+      [
+        -84.02417,
+        35.32592
+      ],
+      [
+        -84.03251,
+        35.32492
+      ],
+      [
+        -84.03021,
+        35.31555
+      ],
+      [
+        -84.02462,
+        35.31818
+      ],
+      [
+        -84.01963,
+        35.31542
+      ],
+      [
+        -84.02489,
+        35.30609
+      ],
+      [
+        -84.02157,
+        35.30234
+      ],
+      [
+        -84.01382,
+        35.30674
+      ],
+      [
+        -84.00647,
+        35.30331
+      ],
+      [
+        -83.99698,
+        35.30623
+      ],
+      [
+        -83.98861,
+        35.31785
+      ],
+      [
+        -83.97888,
+        35.32277
+      ],
+      [
+        -83.97642,
+        35.3214
+      ],
+      [
+        -83.98282,
+        35.31706
+      ],
+      [
+        -83.98306,
+        35.31271
+      ],
+      [
+        -83.95986,
+        35.31968
+      ],
+      [
+        -83.96297,
+        35.32405
+      ],
+      [
+        -83.94725,
+        35.32972
+      ],
+      [
+        -83.93442,
+        35.33057
+      ],
+      [
+        -83.92999,
+        35.32793
+      ],
+      [
+        -83.92127,
+        35.33627
+      ],
+      [
+        -83.91699,
+        35.33415
+      ],
+      [
+        -83.90526,
+        35.33673
+      ],
+      [
+        -83.89406,
+        35.34564
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Haw Knob",
+      "model": "ridge",
+      "at": 0.6968504295369041,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hooper Bald",
+      "model": "bald",
+      "at": 0.757844332702287,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Tellico Plains",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Haw Knob",
+      "at": 0.6985111662531017,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/cherohala-skyway-2282.json",
+    "public/data/strips/cherohala-skyway-2282.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

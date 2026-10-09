@@ -1,0 +1,362 @@
+{
+  "authored": false,
+  "bywayId": "pyramid-lake-scenic-byway-2457",
+  "title": "Pyramid Lake Scenic Byway",
+  "longitude": -119.491,
+  "ground": "desert-mesas",
+  "palette": "desert",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -119.60545,
+        39.95039
+      ],
+      [
+        -119.60266,
+        39.94381
+      ],
+      [
+        -119.60069,
+        39.94035
+      ],
+      [
+        -119.59389,
+        39.93257
+      ],
+      [
+        -119.59187,
+        39.93067
+      ],
+      [
+        -119.58428,
+        39.92575
+      ],
+      [
+        -119.57858,
+        39.92272
+      ],
+      [
+        -119.57699,
+        39.92133
+      ],
+      [
+        -119.57492,
+        39.91867
+      ],
+      [
+        -119.56988,
+        39.91537
+      ],
+      [
+        -119.56868,
+        39.91424
+      ],
+      [
+        -119.56582,
+        39.9125
+      ],
+      [
+        -119.56403,
+        39.91177
+      ],
+      [
+        -119.55769,
+        39.91064
+      ],
+      [
+        -119.52224,
+        39.89532
+      ],
+      [
+        -119.51976,
+        39.89349
+      ],
+      [
+        -119.51127,
+        39.88503
+      ],
+      [
+        -119.50116,
+        39.87675
+      ],
+      [
+        -119.49896,
+        39.87586
+      ],
+      [
+        -119.49412,
+        39.87516
+      ],
+      [
+        -119.49189,
+        39.87393
+      ],
+      [
+        -119.4749,
+        39.8577
+      ],
+      [
+        -119.47078,
+        39.85413
+      ],
+      [
+        -119.46935,
+        39.85354
+      ],
+      [
+        -119.4658,
+        39.85288
+      ],
+      [
+        -119.4634,
+        39.85215
+      ],
+      [
+        -119.46019,
+        39.85035
+      ],
+      [
+        -119.45693,
+        39.84765
+      ],
+      [
+        -119.45527,
+        39.8466
+      ],
+      [
+        -119.43696,
+        39.83984
+      ],
+      [
+        -119.41508,
+        39.83072
+      ],
+      [
+        -119.3627,
+        39.82034
+      ],
+      [
+        -119.36673,
+        39.7968
+      ],
+      [
+        -119.36668,
+        39.79592
+      ],
+      [
+        -119.36615,
+        39.79462
+      ],
+      [
+        -119.34551,
+        39.77267
+      ],
+      [
+        -119.34427,
+        39.77069
+      ],
+      [
+        -119.3362,
+        39.755
+      ],
+      [
+        -119.33445,
+        39.75244
+      ],
+      [
+        -119.33245,
+        39.75017
+      ],
+      [
+        -119.33185,
+        39.74879
+      ],
+      [
+        -119.33179,
+        39.74753
+      ],
+      [
+        -119.33391,
+        39.73885
+      ],
+      [
+        -119.3337,
+        39.73743
+      ],
+      [
+        -119.33259,
+        39.73449
+      ],
+      [
+        -119.33248,
+        39.73328
+      ],
+      [
+        -119.33435,
+        39.7224
+      ],
+      [
+        -119.33511,
+        39.68615
+      ],
+      [
+        -119.32894,
+        39.65477
+      ],
+      [
+        -119.32839,
+        39.65358
+      ],
+      [
+        -119.32751,
+        39.6525
+      ],
+      [
+        -119.32511,
+        39.65096
+      ],
+      [
+        -119.29238,
+        39.63847
+      ],
+      [
+        -119.29115,
+        39.63732
+      ],
+      [
+        -119.29062,
+        39.63602
+      ],
+      [
+        -119.29058,
+        39.63093
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Sutcliffe",
+      "model": "town-blocks",
+      "at": 0.007638470389859699,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Anaho Island",
+      "model": "sea-stack",
+      "at": 0.14574309367087315,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "The Pyramid",
+      "model": "sea-stack",
+      "at": 0.14574309367087315,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "mesa",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5,
+      "side": -1,
+      "distance": 0.7,
+      "scale": 1.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Sutcliffe",
+      "at": 0.007692307692307692,
+      "landmark": "Sutcliffe"
+    },
+    {
+      "name": "Nixon",
+      "at": 0.52056347880488,
+      "landmark": ""
+    },
+    {
+      "name": "Wadsworth",
+      "at": 0.9897435897435898,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/pyramid-lake-scenic-byway-2457.json",
+    "public/data/strips/pyramid-lake-scenic-byway-2457.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,419 @@
+{
+  "authored": false,
+  "bywayId": "russell-brasstown-national-scenic-byway-13739",
+  "title": "Russell-Brasstown National Scenic Byway",
+  "longitude": -83.7842,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -83.8102,
+        34.87404
+      ],
+      [
+        -83.8132,
+        34.87355
+      ],
+      [
+        -83.80512,
+        34.86956
+      ],
+      [
+        -83.8074,
+        34.86757
+      ],
+      [
+        -83.79925,
+        34.86027
+      ],
+      [
+        -83.80232,
+        34.86004
+      ],
+      [
+        -83.79847,
+        34.84762
+      ],
+      [
+        -83.79202,
+        34.85464
+      ],
+      [
+        -83.78495,
+        34.85615
+      ],
+      [
+        -83.78059,
+        34.85417
+      ],
+      [
+        -83.7729,
+        34.83943
+      ],
+      [
+        -83.76292,
+        34.83205
+      ],
+      [
+        -83.74494,
+        34.83409
+      ],
+      [
+        -83.73014,
+        34.83222
+      ],
+      [
+        -83.74488,
+        34.80982
+      ],
+      [
+        -83.74262,
+        34.79194
+      ],
+      [
+        -83.74586,
+        34.77595
+      ],
+      [
+        -83.73742,
+        34.77772
+      ],
+      [
+        -83.74883,
+        34.76779
+      ],
+      [
+        -83.75063,
+        34.76133
+      ],
+      [
+        -83.7489,
+        34.72837
+      ],
+      [
+        -83.75131,
+        34.7253
+      ],
+      [
+        -83.74757,
+        34.72289
+      ],
+      [
+        -83.74518,
+        34.71307
+      ],
+      [
+        -83.75304,
+        34.70901
+      ],
+      [
+        -83.75918,
+        34.7011
+      ],
+      [
+        -83.7666,
+        34.70181
+      ],
+      [
+        -83.77116,
+        34.69344
+      ],
+      [
+        -83.77792,
+        34.69547
+      ],
+      [
+        -83.78104,
+        34.70244
+      ],
+      [
+        -83.78688,
+        34.7006
+      ],
+      [
+        -83.78839,
+        34.70346
+      ],
+      [
+        -83.78368,
+        34.7105
+      ],
+      [
+        -83.78728,
+        34.7101
+      ],
+      [
+        -83.79219,
+        34.71627
+      ],
+      [
+        -83.8089,
+        34.72646
+      ],
+      [
+        -83.82362,
+        34.73125
+      ],
+      [
+        -83.82773,
+        34.73022
+      ],
+      [
+        -83.82922,
+        34.7258
+      ],
+      [
+        -83.83517,
+        34.72794
+      ],
+      [
+        -83.83836,
+        34.72496
+      ],
+      [
+        -83.84406,
+        34.72885
+      ],
+      [
+        -83.84792,
+        34.72645
+      ],
+      [
+        -83.84495,
+        34.74943
+      ],
+      [
+        -83.8616,
+        34.76083
+      ],
+      [
+        -83.86962,
+        34.76181
+      ],
+      [
+        -83.88387,
+        34.77019
+      ],
+      [
+        -83.88049,
+        34.77517
+      ],
+      [
+        -83.87752,
+        34.79506
+      ],
+      [
+        -83.86321,
+        34.80011
+      ],
+      [
+        -83.85014,
+        34.80974
+      ],
+      [
+        -83.83861,
+        34.8098
+      ],
+      [
+        -83.82954,
+        34.81928
+      ],
+      [
+        -83.81593,
+        34.82445
+      ],
+      [
+        -83.80439,
+        34.83506
+      ],
+      [
+        -83.79847,
+        34.84762
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Brasstown Bald",
+      "model": "ridge",
+      "at": 0.0011696263637003537,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dukes Creek Falls",
+      "model": "cove-waterfall",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Brasstown Bald",
+      "at": 0.0033816425120772953,
+      "landmark": ""
+    },
+    {
+      "name": "Blue Hole Falls",
+      "at": 0.2219806763285024,
+      "landmark": ""
+    },
+    {
+      "name": "Raven Cliff Falls",
+      "at": 0.6147342995169082,
+      "landmark": ""
+    },
+    {
+      "name": "Tesnatee Gap",
+      "at": 0.6939613526570049,
+      "landmark": ""
+    },
+    {
+      "name": "Choestoe",
+      "at": 0.8439613526570048,
+      "landmark": ""
+    },
+    {
+      "name": "Jacks Knob",
+      "at": 0.9695652173913044,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/russell-brasstown-national-scenic-byway-13739.json",
+    "public/data/strips/russell-brasstown-national-scenic-byway-13739.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

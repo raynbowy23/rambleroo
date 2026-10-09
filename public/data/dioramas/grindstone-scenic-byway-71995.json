@@ -1,0 +1,362 @@
+{
+  "authored": false,
+  "bywayId": "grindstone-scenic-byway-71995",
+  "title": "Grindstone Scenic Byway",
+  "longitude": -68.4479,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -68.53295,
+        45.61339
+      ],
+      [
+        -68.54042,
+        45.63702
+      ],
+      [
+        -68.55064,
+        45.64491
+      ],
+      [
+        -68.55038,
+        45.65234
+      ],
+      [
+        -68.56053,
+        45.66147
+      ],
+      [
+        -68.57391,
+        45.68302
+      ],
+      [
+        -68.58694,
+        45.69368
+      ],
+      [
+        -68.58613,
+        45.69932
+      ],
+      [
+        -68.59443,
+        45.71388
+      ],
+      [
+        -68.58715,
+        45.7256
+      ],
+      [
+        -68.58846,
+        45.73337
+      ],
+      [
+        -68.57385,
+        45.756
+      ],
+      [
+        -68.57197,
+        45.76969
+      ],
+      [
+        -68.53463,
+        45.78519
+      ],
+      [
+        -68.52772,
+        45.80546
+      ],
+      [
+        -68.52752,
+        45.8146
+      ],
+      [
+        -68.51685,
+        45.82643
+      ],
+      [
+        -68.51277,
+        45.84003
+      ],
+      [
+        -68.50521,
+        45.85189
+      ],
+      [
+        -68.50532,
+        45.86266
+      ],
+      [
+        -68.487,
+        45.8604
+      ],
+      [
+        -68.4833,
+        45.86406
+      ],
+      [
+        -68.48456,
+        45.87057
+      ],
+      [
+        -68.48059,
+        45.87546
+      ],
+      [
+        -68.41807,
+        45.87541
+      ],
+      [
+        -68.41797,
+        45.88482
+      ],
+      [
+        -68.43381,
+        45.90307
+      ],
+      [
+        -68.43858,
+        45.91498
+      ],
+      [
+        -68.43819,
+        45.92469
+      ],
+      [
+        -68.44717,
+        45.92999
+      ],
+      [
+        -68.4528,
+        45.94472
+      ],
+      [
+        -68.44694,
+        46.00141
+      ],
+      [
+        -68.47671,
+        46.00165
+      ],
+      [
+        -68.50494,
+        46.02928
+      ],
+      [
+        -68.5204,
+        46.05223
+      ],
+      [
+        -68.5397,
+        46.07197
+      ],
+      [
+        -68.55096,
+        46.09741
+      ],
+      [
+        -68.55647,
+        46.10106
+      ],
+      [
+        -68.55533,
+        46.10514
+      ],
+      [
+        -68.56164,
+        46.10958
+      ],
+      [
+        -68.56418,
+        46.12832
+      ],
+      [
+        -68.57687,
+        46.12787
+      ],
+      [
+        -68.58532,
+        46.13862
+      ],
+      [
+        -68.59564,
+        46.13953
+      ],
+      [
+        -68.60329,
+        46.14671
+      ],
+      [
+        -68.63147,
+        46.1454
+      ],
+      [
+        -68.6365,
+        46.14167
+      ],
+      [
+        -68.6463,
+        46.14152
+      ],
+      [
+        -68.64927,
+        46.13907
+      ],
+      [
+        -68.70441,
+        46.1329
+      ],
+      [
+        -68.71026,
+        46.12911
+      ],
+      [
+        -68.73998,
+        46.12341
+      ],
+      [
+        -68.76468,
+        46.1254
+      ],
+      [
+        -68.77191,
+        46.12355
+      ],
+      [
+        -68.7766,
+        46.13165
+      ],
+      [
+        -68.79849,
+        46.13441
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Millinocket",
+      "model": "town-blocks",
+      "at": 0.10827929780749951,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Patten",
+      "model": "town-blocks",
+      "at": 0.6101668766627432,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "East Millinocket",
+      "at": 0.04142614601018668,
+      "landmark": ""
+    },
+    {
+      "name": "Stacyville",
+      "at": 0.37317487266553473,
+      "landmark": ""
+    },
+    {
+      "name": "Patten",
+      "at": 0.6103565365025467,
+      "landmark": "Patten"
+    }
+  ],
+  "sources": [
+    "content/stories/grindstone-scenic-byway-71995.json",
+    "public/data/strips/grindstone-scenic-byway-71995.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

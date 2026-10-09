@@ -1,0 +1,455 @@
+{
+  "authored": false,
+  "bywayId": "northeast-kingdom-byway-995002",
+  "title": "Northeast Kingdom Byway",
+  "longitude": -72.0127,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -72.01593,
+        44.41771
+      ],
+      [
+        -72.01481,
+        44.42545
+      ],
+      [
+        -72.018,
+        44.43038
+      ],
+      [
+        -72.01405,
+        44.44025
+      ],
+      [
+        -72.0165,
+        44.45464
+      ],
+      [
+        -72.01326,
+        44.46888
+      ],
+      [
+        -72.01689,
+        44.47833
+      ],
+      [
+        -72.00477,
+        44.49428
+      ],
+      [
+        -72.00398,
+        44.5009
+      ],
+      [
+        -72.01168,
+        44.50985
+      ],
+      [
+        -72.01084,
+        44.51404
+      ],
+      [
+        -72.00077,
+        44.52097
+      ],
+      [
+        -72.00045,
+        44.52767
+      ],
+      [
+        -72.00496,
+        44.53537
+      ],
+      [
+        -71.99569,
+        44.54914
+      ],
+      [
+        -71.96925,
+        44.55429
+      ],
+      [
+        -71.96105,
+        44.56069
+      ],
+      [
+        -71.94901,
+        44.57545
+      ],
+      [
+        -71.94723,
+        44.58844
+      ],
+      [
+        -71.93633,
+        44.60932
+      ],
+      [
+        -71.94915,
+        44.62218
+      ],
+      [
+        -71.96518,
+        44.62838
+      ],
+      [
+        -71.96623,
+        44.63203
+      ],
+      [
+        -71.98143,
+        44.64454
+      ],
+      [
+        -71.98208,
+        44.65427
+      ],
+      [
+        -71.99359,
+        44.6651
+      ],
+      [
+        -71.99642,
+        44.68968
+      ],
+      [
+        -72.00454,
+        44.70144
+      ],
+      [
+        -72.02898,
+        44.71415
+      ],
+      [
+        -72.03138,
+        44.72187
+      ],
+      [
+        -72.04434,
+        44.73578
+      ],
+      [
+        -72.05232,
+        44.74991
+      ],
+      [
+        -72.05349,
+        44.76957
+      ],
+      [
+        -72.06407,
+        44.77872
+      ],
+      [
+        -72.07127,
+        44.78114
+      ],
+      [
+        -72.07913,
+        44.79334
+      ],
+      [
+        -72.0851,
+        44.79775
+      ],
+      [
+        -72.08501,
+        44.80415
+      ],
+      [
+        -72.07771,
+        44.8103
+      ],
+      [
+        -72.05129,
+        44.85847
+      ],
+      [
+        -72.06097,
+        44.87325
+      ],
+      [
+        -72.05648,
+        44.88504
+      ],
+      [
+        -72.05685,
+        44.89685
+      ],
+      [
+        -72.06959,
+        44.89982
+      ],
+      [
+        -72.07614,
+        44.90523
+      ],
+      [
+        -72.08786,
+        44.9065
+      ],
+      [
+        -72.09572,
+        44.91123
+      ],
+      [
+        -72.1092,
+        44.92188
+      ],
+      [
+        -72.11302,
+        44.92954
+      ],
+      [
+        -72.13408,
+        44.94392
+      ],
+      [
+        -72.13038,
+        44.95443
+      ],
+      [
+        -72.1622,
+        44.95146
+      ],
+      [
+        -72.18641,
+        44.94254
+      ],
+      [
+        -72.20371,
+        44.94249
+      ],
+      [
+        -72.20807,
+        44.9362
+      ],
+      [
+        -72.20433,
+        44.94149
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lyndon",
+      "model": "town-blocks",
+      "at": 0.16570521471252458,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Devil's Rock, Lake Willoughby",
+      "model": "alpine-lake",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Newport",
+      "model": "alpine-lake",
+      "at": 0.9894007161846882,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Newport",
+      "model": "town-blocks",
+      "at": 0.9894007161846882,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "St. Johnsbury",
+      "at": 0.10119284294234587,
+      "landmark": ""
+    },
+    {
+      "name": "Lyndon",
+      "at": 0.16640159045725644,
+      "landmark": "Lyndon"
+    },
+    {
+      "name": "East Burke",
+      "at": 0.28111332007952294,
+      "landmark": ""
+    },
+    {
+      "name": "West Burke",
+      "at": 0.37972166998011925,
+      "landmark": ""
+    },
+    {
+      "name": "West Charleston",
+      "at": 0.784493041749503,
+      "landmark": ""
+    },
+    {
+      "name": "Derby",
+      "at": 0.8924453280318091,
+      "landmark": ""
+    },
+    {
+      "name": "Derby Center",
+      "at": 0.9015908902412151,
+      "landmark": ""
+    },
+    {
+      "name": "Derby Line",
+      "at": 0.9015908902412151,
+      "landmark": ""
+    },
+    {
+      "name": "Newport",
+      "at": 0.9892644135188867,
+      "landmark": "Newport"
+    }
+  ],
+  "sources": [
+    "content/stories/northeast-kingdom-byway-995002.json",
+    "public/data/strips/northeast-kingdom-byway-995002.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

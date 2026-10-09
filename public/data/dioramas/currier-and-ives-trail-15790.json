@@ -1,0 +1,351 @@
+{
+  "authored": false,
+  "bywayId": "currier-and-ives-trail-15790",
+  "title": "Currier & Ives Trail",
+  "longitude": -71.7162,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -71.69069,
+        43.39385
+      ],
+      [
+        -71.69708,
+        43.38646
+      ],
+      [
+        -71.73982,
+        43.37015
+      ],
+      [
+        -71.74129,
+        43.36731
+      ],
+      [
+        -71.74182,
+        43.36508
+      ],
+      [
+        -71.74072,
+        43.36195
+      ],
+      [
+        -71.74123,
+        43.35756
+      ],
+      [
+        -71.74062,
+        43.35611
+      ],
+      [
+        -71.72996,
+        43.34885
+      ],
+      [
+        -71.71606,
+        43.32859
+      ],
+      [
+        -71.71896,
+        43.32568
+      ],
+      [
+        -71.72104,
+        43.32034
+      ],
+      [
+        -71.71937,
+        43.31633
+      ],
+      [
+        -71.71864,
+        43.30998
+      ],
+      [
+        -71.71271,
+        43.29918
+      ],
+      [
+        -71.7122,
+        43.29615
+      ],
+      [
+        -71.71321,
+        43.29016
+      ],
+      [
+        -71.71064,
+        43.28796
+      ],
+      [
+        -71.71705,
+        43.28393
+      ],
+      [
+        -71.72625,
+        43.28095
+      ],
+      [
+        -71.72731,
+        43.27517
+      ],
+      [
+        -71.72429,
+        43.2709
+      ],
+      [
+        -71.72477,
+        43.26906
+      ],
+      [
+        -71.72807,
+        43.26611
+      ],
+      [
+        -71.73405,
+        43.25821
+      ],
+      [
+        -71.73489,
+        43.25258
+      ],
+      [
+        -71.72821,
+        43.24724
+      ],
+      [
+        -71.71597,
+        43.22724
+      ],
+      [
+        -71.71444,
+        43.22329
+      ],
+      [
+        -71.69834,
+        43.21867
+      ],
+      [
+        -71.68988,
+        43.20776
+      ],
+      [
+        -71.68666,
+        43.20576
+      ],
+      [
+        -71.67414,
+        43.19131
+      ],
+      [
+        -71.67696,
+        43.19189
+      ],
+      [
+        -71.67949,
+        43.19083
+      ],
+      [
+        -71.68741,
+        43.18296
+      ],
+      [
+        -71.69075,
+        43.17764
+      ],
+      [
+        -71.6967,
+        43.17689
+      ],
+      [
+        -71.70792,
+        43.17966
+      ],
+      [
+        -71.72524,
+        43.17665
+      ],
+      [
+        -71.73614,
+        43.18075
+      ],
+      [
+        -71.74739,
+        43.17833
+      ],
+      [
+        -71.77914,
+        43.18243
+      ],
+      [
+        -71.7922,
+        43.1854
+      ],
+      [
+        -71.80142,
+        43.18546
+      ],
+      [
+        -71.81309,
+        43.19051
+      ],
+      [
+        -71.82351,
+        43.18967
+      ],
+      [
+        -71.84154,
+        43.17839
+      ],
+      [
+        -71.85061,
+        43.17139
+      ],
+      [
+        -71.86347,
+        43.15271
+      ],
+      [
+        -71.87674,
+        43.1441
+      ],
+      [
+        -71.8783,
+        43.1414
+      ],
+      [
+        -71.87962,
+        43.13271
+      ],
+      [
+        -71.88621,
+        43.12541
+      ],
+      [
+        -71.88703,
+        43.11975
+      ],
+      [
+        -71.89496,
+        43.11471
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Henniker",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.8118057563269513,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Henniker",
+      "model": "town-blocks",
+      "at": 0.8118057563269513,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "steeple-town",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Webster",
+      "at": 0.25440729483282676,
+      "landmark": ""
+    },
+    {
+      "name": "Hopkinton",
+      "at": 0.51580547112462,
+      "landmark": ""
+    },
+    {
+      "name": "West Hopkinton",
+      "at": 0.6677811550151975,
+      "landmark": ""
+    },
+    {
+      "name": "Henniker",
+      "at": 0.8121580547112462,
+      "landmark": "Henniker"
+    },
+    {
+      "name": "Hillsborough",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/currier-and-ives-trail-15790.json",
+    "public/data/strips/currier-and-ives-trail-15790.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

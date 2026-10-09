@@ -1,0 +1,423 @@
+{
+  "authored": false,
+  "bywayId": "st-regis-paradise-scenic-byway-2137",
+  "title": "St. Regis-Paradise Scenic Byway",
+  "longitude": -114.9097,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -115.09887,
+        47.29772
+      ],
+      [
+        -115.08949,
+        47.3061
+      ],
+      [
+        -115.07721,
+        47.32043
+      ],
+      [
+        -115.07513,
+        47.32195
+      ],
+      [
+        -115.05126,
+        47.32955
+      ],
+      [
+        -115.03858,
+        47.32816
+      ],
+      [
+        -115.02292,
+        47.32853
+      ],
+      [
+        -115.02097,
+        47.32976
+      ],
+      [
+        -115.01952,
+        47.33359
+      ],
+      [
+        -115.01685,
+        47.33741
+      ],
+      [
+        -115.01485,
+        47.33893
+      ],
+      [
+        -114.99897,
+        47.34381
+      ],
+      [
+        -114.99204,
+        47.34486
+      ],
+      [
+        -114.95841,
+        47.34177
+      ],
+      [
+        -114.93201,
+        47.3338
+      ],
+      [
+        -114.92793,
+        47.3342
+      ],
+      [
+        -114.91776,
+        47.33825
+      ],
+      [
+        -114.91077,
+        47.33875
+      ],
+      [
+        -114.90864,
+        47.33798
+      ],
+      [
+        -114.90747,
+        47.33671
+      ],
+      [
+        -114.90813,
+        47.33235
+      ],
+      [
+        -114.90695,
+        47.32857
+      ],
+      [
+        -114.90458,
+        47.32649
+      ],
+      [
+        -114.89839,
+        47.3236
+      ],
+      [
+        -114.87082,
+        47.31892
+      ],
+      [
+        -114.86896,
+        47.31773
+      ],
+      [
+        -114.86702,
+        47.31378
+      ],
+      [
+        -114.86513,
+        47.31222
+      ],
+      [
+        -114.86238,
+        47.31167
+      ],
+      [
+        -114.85685,
+        47.31245
+      ],
+      [
+        -114.85387,
+        47.31218
+      ],
+      [
+        -114.8428,
+        47.30731
+      ],
+      [
+        -114.83888,
+        47.30813
+      ],
+      [
+        -114.83298,
+        47.3122
+      ],
+      [
+        -114.83065,
+        47.31247
+      ],
+      [
+        -114.82113,
+        47.30266
+      ],
+      [
+        -114.8171,
+        47.3021
+      ],
+      [
+        -114.81337,
+        47.30386
+      ],
+      [
+        -114.81121,
+        47.30682
+      ],
+      [
+        -114.81105,
+        47.30897
+      ],
+      [
+        -114.81293,
+        47.31294
+      ],
+      [
+        -114.8123,
+        47.31458
+      ],
+      [
+        -114.81024,
+        47.31566
+      ],
+      [
+        -114.80483,
+        47.31694
+      ],
+      [
+        -114.79626,
+        47.32791
+      ],
+      [
+        -114.79324,
+        47.3302
+      ],
+      [
+        -114.79005,
+        47.33143
+      ],
+      [
+        -114.78308,
+        47.33148
+      ],
+      [
+        -114.7809,
+        47.33231
+      ],
+      [
+        -114.77941,
+        47.33372
+      ],
+      [
+        -114.77847,
+        47.3366
+      ],
+      [
+        -114.77955,
+        47.34114
+      ],
+      [
+        -114.78196,
+        47.34507
+      ],
+      [
+        -114.78255,
+        47.34756
+      ],
+      [
+        -114.78192,
+        47.35018
+      ],
+      [
+        -114.77869,
+        47.35435
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "St. Regis",
+      "model": "town-blocks",
+      "at": 0.0023360861155817033,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "The river crossing",
+      "model": "ledge",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Paradise",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "St. Regis",
+      "at": 0.0023364485981308414,
+      "landmark": "St. Regis"
+    },
+    {
+      "name": "Tamarack Hill",
+      "at": 0.17149532710280374,
+      "landmark": ""
+    },
+    {
+      "name": "Donlan",
+      "at": 0.441588785046729,
+      "landmark": ""
+    },
+    {
+      "name": "Quinns",
+      "at": 0.866355140186916,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/st-regis-paradise-scenic-byway-2137.json",
+    "public/data/strips/st-regis-paradise-scenic-byway-2137.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

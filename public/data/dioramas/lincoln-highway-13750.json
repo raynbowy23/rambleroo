@@ -1,0 +1,431 @@
+{
+  "authored": false,
+  "bywayId": "lincoln-highway-13750",
+  "title": "Lincoln Highway",
+  "longitude": -88.9492,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -87.52516,
+        41.49458
+      ],
+      [
+        -87.63774,
+        41.48088
+      ],
+      [
+        -87.64098,
+        41.50617
+      ],
+      [
+        -87.81841,
+        41.50743
+      ],
+      [
+        -87.88135,
+        41.50272
+      ],
+      [
+        -87.96144,
+        41.51234
+      ],
+      [
+        -88.0256,
+        41.53003
+      ],
+      [
+        -88.09129,
+        41.52813
+      ],
+      [
+        -88.20204,
+        41.6055
+      ],
+      [
+        -88.20291,
+        41.63711
+      ],
+      [
+        -88.25156,
+        41.63636
+      ],
+      [
+        -88.25337,
+        41.67989
+      ],
+      [
+        -88.27493,
+        41.67995
+      ],
+      [
+        -88.27568,
+        41.7091
+      ],
+      [
+        -88.28437,
+        41.7229
+      ],
+      [
+        -88.28823,
+        41.75067
+      ],
+      [
+        -88.32045,
+        41.75806
+      ],
+      [
+        -88.31285,
+        41.76697
+      ],
+      [
+        -88.3274,
+        41.81839
+      ],
+      [
+        -88.31171,
+        41.84695
+      ],
+      [
+        -88.31266,
+        41.87319
+      ],
+      [
+        -88.30512,
+        41.88756
+      ],
+      [
+        -88.58556,
+        41.87957
+      ],
+      [
+        -88.58527,
+        41.89419
+      ],
+      [
+        -88.618,
+        41.90478
+      ],
+      [
+        -88.68681,
+        41.91293
+      ],
+      [
+        -88.75427,
+        41.93076
+      ],
+      [
+        -88.81007,
+        41.9362
+      ],
+      [
+        -88.96113,
+        41.9352
+      ],
+      [
+        -88.96472,
+        41.93101
+      ],
+      [
+        -88.97093,
+        41.93505
+      ],
+      [
+        -89.06645,
+        41.93399
+      ],
+      [
+        -89.06633,
+        41.92168
+      ],
+      [
+        -89.07922,
+        41.91931
+      ],
+      [
+        -89.21315,
+        41.91027
+      ],
+      [
+        -89.21732,
+        41.90593
+      ],
+      [
+        -89.2167,
+        41.86728
+      ],
+      [
+        -89.29954,
+        41.84469
+      ],
+      [
+        -89.29953,
+        41.83875
+      ],
+      [
+        -89.48021,
+        41.83794
+      ],
+      [
+        -89.48479,
+        41.84843
+      ],
+      [
+        -89.50311,
+        41.84762
+      ],
+      [
+        -89.56578,
+        41.824
+      ],
+      [
+        -89.6392,
+        41.82169
+      ],
+      [
+        -89.68147,
+        41.79157
+      ],
+      [
+        -89.69604,
+        41.78791
+      ],
+      [
+        -89.74216,
+        41.79309
+      ],
+      [
+        -89.76977,
+        41.80583
+      ],
+      [
+        -89.81213,
+        41.79104
+      ],
+      [
+        -89.87219,
+        41.79047
+      ],
+      [
+        -89.96758,
+        41.81012
+      ],
+      [
+        -90.00632,
+        41.83014
+      ],
+      [
+        -90.05003,
+        41.84091
+      ],
+      [
+        -90.08166,
+        41.86037
+      ],
+      [
+        -90.1657,
+        41.8629
+      ],
+      [
+        -90.16711,
+        41.86805
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Rochelle",
+      "model": "town-blocks",
+      "at": 0.6041749322126277,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Franklin Grove",
+      "model": "steeple-town",
+      "at": 0.7119328550793144,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Franklin Grove",
+      "model": "town-blocks",
+      "at": 0.7119328550793144,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Fulton",
+      "model": "town-blocks",
+      "at": 0.9993776924002048,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Chicago Heights",
+      "at": 0.045069605568445525,
+      "landmark": ""
+    },
+    {
+      "name": "Frankfort",
+      "at": 0.10771461716937347,
+      "landmark": ""
+    },
+    {
+      "name": "Joliet",
+      "at": 0.17714617169373548,
+      "landmark": ""
+    },
+    {
+      "name": "Plainfield",
+      "at": 0.25069605568445474,
+      "landmark": ""
+    },
+    {
+      "name": "Batavia",
+      "at": 0.3579466357308585,
+      "landmark": ""
+    },
+    {
+      "name": "Elburn",
+      "at": 0.42059164733178656,
+      "landmark": ""
+    },
+    {
+      "name": "Cortland",
+      "at": 0.48700696055684456,
+      "landmark": ""
+    },
+    {
+      "name": "Malta",
+      "at": 0.5531322505800464,
+      "landmark": ""
+    },
+    {
+      "name": "Flagg",
+      "at": 0.6435614849187935,
+      "landmark": ""
+    },
+    {
+      "name": "Franklin Grove",
+      "at": 0.7117169373549883,
+      "landmark": "Franklin Grove"
+    },
+    {
+      "name": "Dixon",
+      "at": 0.7744199535962877,
+      "landmark": ""
+    },
+    {
+      "name": "Galt",
+      "at": 0.859338747099768,
+      "landmark": ""
+    },
+    {
+      "name": "Morrison",
+      "at": 0.9276102088167053,
+      "landmark": ""
+    },
+    {
+      "name": "Fulton",
+      "at": 0.9986078886310905,
+      "landmark": "Fulton"
+    }
+  ],
+  "sources": [
+    "content/stories/lincoln-highway-13750.json",
+    "public/data/strips/lincoln-highway-13750.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

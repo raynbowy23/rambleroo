@@ -1,0 +1,177 @@
+{
+  "authored": false,
+  "bywayId": "historic-flat-rock-scenic-byway-81458",
+  "title": "Historic Flat Rock Scenic Byway",
+  "longitude": -82.4719,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -82.501,
+        35.2714
+      ],
+      [
+        -82.4951,
+        35.2712
+      ],
+      [
+        -82.4899,
+        35.2655
+      ],
+      [
+        -82.4831,
+        35.2635
+      ],
+      [
+        -82.4757,
+        35.2641
+      ],
+      [
+        -82.4693,
+        35.2694
+      ],
+      [
+        -82.4619,
+        35.2688
+      ],
+      [
+        -82.4608,
+        35.2709
+      ],
+      [
+        -82.4567,
+        35.2719
+      ],
+      [
+        -82.4552,
+        35.2737
+      ],
+      [
+        -82.4482,
+        35.2747
+      ],
+      [
+        -82.4419,
+        35.2728
+      ],
+      [
+        -82.4392,
+        35.267
+      ],
+      [
+        -82.4378,
+        35.2576
+      ],
+      [
+        -82.435,
+        35.2526
+      ],
+      [
+        -82.4283,
+        35.2509
+      ],
+      [
+        -82.4273,
+        35.2488
+      ],
+      [
+        -82.4231,
+        35.2477
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,354 @@
+{
+  "authored": false,
+  "bywayId": "scenic-sumter-heritage-byway-991204",
+  "title": "Scenic Sumter Heritage Byway",
+  "longitude": -82.1036,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -82.22217,
+        28.85161
+      ],
+      [
+        -82.19562,
+        28.85663
+      ],
+      [
+        -82.17387,
+        28.85867
+      ],
+      [
+        -82.1738,
+        28.8434
+      ],
+      [
+        -82.17801,
+        28.832
+      ],
+      [
+        -82.17797,
+        28.8233
+      ],
+      [
+        -82.17597,
+        28.8194
+      ],
+      [
+        -82.16867,
+        28.81379
+      ],
+      [
+        -82.15591,
+        28.81
+      ],
+      [
+        -82.15318,
+        28.80403
+      ],
+      [
+        -82.14828,
+        28.80026
+      ],
+      [
+        -82.13403,
+        28.79981
+      ],
+      [
+        -82.13322,
+        28.79385
+      ],
+      [
+        -82.12285,
+        28.77404
+      ],
+      [
+        -82.11267,
+        28.75983
+      ],
+      [
+        -82.10878,
+        28.75662
+      ],
+      [
+        -82.09709,
+        28.75399
+      ],
+      [
+        -82.09177,
+        28.74891
+      ],
+      [
+        -82.06247,
+        28.74885
+      ],
+      [
+        -82.07241,
+        28.73043
+      ],
+      [
+        -82.08392,
+        28.72462
+      ],
+      [
+        -82.10376,
+        28.70779
+      ],
+      [
+        -82.10519,
+        28.66599
+      ],
+      [
+        -82.11263,
+        28.6649
+      ],
+      [
+        -82.11481,
+        28.65761
+      ],
+      [
+        -82.15673,
+        28.65771
+      ],
+      [
+        -82.16962,
+        28.6476
+      ],
+      [
+        -82.20342,
+        28.64053
+      ],
+      [
+        -82.20348,
+        28.61429
+      ],
+      [
+        -82.20782,
+        28.61045
+      ],
+      [
+        -82.21005,
+        28.6022
+      ],
+      [
+        -82.20085,
+        28.60256
+      ],
+      [
+        -82.18918,
+        28.5999
+      ],
+      [
+        -82.1726,
+        28.60315
+      ],
+      [
+        -82.15501,
+        28.60695
+      ],
+      [
+        -82.14758,
+        28.61027
+      ],
+      [
+        -82.13763,
+        28.61174
+      ],
+      [
+        -82.1348,
+        28.61751
+      ],
+      [
+        -82.11263,
+        28.61739
+      ],
+      [
+        -82.10777,
+        28.61622
+      ],
+      [
+        -82.09821,
+        28.61755
+      ],
+      [
+        -82.08082,
+        28.61595
+      ],
+      [
+        -82.07325,
+        28.61375
+      ],
+      [
+        -82.05472,
+        28.61371
+      ],
+      [
+        -82.05472,
+        28.60276
+      ],
+      [
+        -82.08445,
+        28.60272
+      ],
+      [
+        -82.08738,
+        28.60098
+      ],
+      [
+        -82.08841,
+        28.58712
+      ],
+      [
+        -82.0942,
+        28.58256
+      ],
+      [
+        -82.09752,
+        28.57673
+      ],
+      [
+        -82.10391,
+        28.5705
+      ],
+      [
+        -82.10447,
+        28.56469
+      ],
+      [
+        -82.10254,
+        28.56201
+      ],
+      [
+        -82.08732,
+        28.5555
+      ],
+      [
+        -82.05164,
+        28.55534
+      ],
+      [
+        -81.97385,
+        28.58028
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Rutland",
+      "model": "town-blocks",
+      "at": 0.009769040858348978,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lake Panasoffkee",
+      "model": "alpine-lake",
+      "at": 0.18829711695106757,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lake Panasoffkee",
+      "model": "town-blocks",
+      "at": 0.18829711695106757,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Rutland",
+      "at": 0.00969479353680431,
+      "landmark": "Rutland"
+    },
+    {
+      "name": "Sumterville",
+      "at": 0.28007181328545777,
+      "landmark": ""
+    },
+    {
+      "name": "Bushnell",
+      "at": 0.4312387791741472,
+      "landmark": ""
+    },
+    {
+      "name": "Croom",
+      "at": 0.5684021543985637,
+      "landmark": ""
+    },
+    {
+      "name": "St. Catherine",
+      "at": 0.6491921005385995,
+      "landmark": ""
+    },
+    {
+      "name": "Webster",
+      "at": 0.7462676969716323,
+      "landmark": ""
+    },
+    {
+      "name": "Linden",
+      "at": 0.9308797127468581,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/scenic-sumter-heritage-byway-991204.json",
+    "public/data/strips/scenic-sumter-heritage-byway-991204.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

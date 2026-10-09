@@ -1,0 +1,312 @@
+{
+  "authored": false,
+  "bywayId": "sho-me-santa-fe-trails-73302",
+  "title": "Sho-Me Santa Fe Trails",
+  "longitude": -93.6031,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -93.68774,
+        39.19311
+      ],
+      [
+        -93.68613,
+        39.1932
+      ],
+      [
+        -93.68538,
+        39.19329
+      ],
+      [
+        -93.68299,
+        39.19365
+      ],
+      [
+        -93.68229,
+        39.19379
+      ],
+      [
+        -93.68063,
+        39.1942
+      ],
+      [
+        -93.67907,
+        39.19466
+      ],
+      [
+        -93.67647,
+        39.19562
+      ],
+      [
+        -93.67583,
+        39.19581
+      ],
+      [
+        -93.67531,
+        39.19591
+      ],
+      [
+        -93.67444,
+        39.19598
+      ],
+      [
+        -93.66407,
+        39.19594
+      ],
+      [
+        -93.64075,
+        39.1956
+      ],
+      [
+        -93.63912,
+        39.19548
+      ],
+      [
+        -93.63729,
+        39.19525
+      ],
+      [
+        -93.63123,
+        39.19434
+      ],
+      [
+        -93.62507,
+        39.19349
+      ],
+      [
+        -93.62319,
+        39.19344
+      ],
+      [
+        -93.61395,
+        39.19369
+      ],
+      [
+        -93.61307,
+        39.19384
+      ],
+      [
+        -93.61241,
+        39.19402
+      ],
+      [
+        -93.6119,
+        39.19425
+      ],
+      [
+        -93.60183,
+        39.19983
+      ],
+      [
+        -93.6012,
+        39.20012
+      ],
+      [
+        -93.60042,
+        39.20037
+      ],
+      [
+        -93.59929,
+        39.2006
+      ],
+      [
+        -93.5984,
+        39.20068
+      ],
+      [
+        -93.58959,
+        39.20125
+      ],
+      [
+        -93.58567,
+        39.20154
+      ],
+      [
+        -93.58204,
+        39.20175
+      ],
+      [
+        -93.57468,
+        39.20149
+      ],
+      [
+        -93.57362,
+        39.2015
+      ],
+      [
+        -93.55531,
+        39.20234
+      ],
+      [
+        -93.55234,
+        39.20242
+      ],
+      [
+        -93.5516,
+        39.20226
+      ],
+      [
+        -93.55104,
+        39.20203
+      ],
+      [
+        -93.55058,
+        39.20177
+      ],
+      [
+        -93.54931,
+        39.20051
+      ],
+      [
+        -93.54871,
+        39.20016
+      ],
+      [
+        -93.54816,
+        39.19999
+      ],
+      [
+        -93.54758,
+        39.19988
+      ],
+      [
+        -93.54681,
+        39.19984
+      ],
+      [
+        -93.54214,
+        39.19981
+      ],
+      [
+        -93.54113,
+        39.19997
+      ],
+      [
+        -93.53996,
+        39.20042
+      ],
+      [
+        -93.52902,
+        39.20637
+      ],
+      [
+        -93.52808,
+        39.20673
+      ],
+      [
+        -93.52754,
+        39.2068
+      ],
+      [
+        -93.52529,
+        39.20688
+      ],
+      [
+        -93.52,
+        39.20744
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lexington",
+      "model": "ledge",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lexington",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dover",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Waverly",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Dover",
+      "at": 0,
+      "landmark": "Dover"
+    },
+    {
+      "name": "Waverly",
+      "at": 0.9989361702127659,
+      "landmark": "Waverly"
+    }
+  ],
+  "sources": [
+    "content/stories/sho-me-santa-fe-trails-73302.json",
+    "public/data/strips/sho-me-santa-fe-trails-73302.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

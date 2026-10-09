@@ -1,0 +1,441 @@
+{
+  "authored": false,
+  "bywayId": "mt-hood-scenic-byway-61400",
+  "title": "Mt. Hood Scenic Byway",
+  "longitude": -121.5793,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -121.50281,
+        45.7075
+      ],
+      [
+        -121.51337,
+        45.67047
+      ],
+      [
+        -121.51299,
+        45.63085
+      ],
+      [
+        -121.5314,
+        45.62121
+      ],
+      [
+        -121.53647,
+        45.60519
+      ],
+      [
+        -121.54757,
+        45.59922
+      ],
+      [
+        -121.55605,
+        45.57137
+      ],
+      [
+        -121.5681,
+        45.55506
+      ],
+      [
+        -121.56134,
+        45.4743
+      ],
+      [
+        -121.56516,
+        45.46645
+      ],
+      [
+        -121.58089,
+        45.46058
+      ],
+      [
+        -121.58269,
+        45.44991
+      ],
+      [
+        -121.5691,
+        45.42121
+      ],
+      [
+        -121.56967,
+        45.34075
+      ],
+      [
+        -121.59886,
+        45.32252
+      ],
+      [
+        -121.64021,
+        45.31755
+      ],
+      [
+        -121.65179,
+        45.30884
+      ],
+      [
+        -121.66072,
+        45.31343
+      ],
+      [
+        -121.66293,
+        45.30639
+      ],
+      [
+        -121.67574,
+        45.29991
+      ],
+      [
+        -121.67067,
+        45.28797
+      ],
+      [
+        -121.67647,
+        45.28352
+      ],
+      [
+        -121.68621,
+        45.28425
+      ],
+      [
+        -121.68922,
+        45.2918
+      ],
+      [
+        -121.72355,
+        45.28394
+      ],
+      [
+        -121.73497,
+        45.29007
+      ],
+      [
+        -121.73505,
+        45.30075
+      ],
+      [
+        -121.78196,
+        45.30343
+      ],
+      [
+        -121.79323,
+        45.3123
+      ],
+      [
+        -121.82071,
+        45.30299
+      ],
+      [
+        -121.83491,
+        45.31001
+      ],
+      [
+        -121.87118,
+        45.30527
+      ],
+      [
+        -121.89742,
+        45.31498
+      ],
+      [
+        -121.92679,
+        45.33874
+      ],
+      [
+        -122.0473,
+        45.37971
+      ],
+      [
+        -122.10829,
+        45.37788
+      ],
+      [
+        -122.15619,
+        45.36643
+      ],
+      [
+        -122.22262,
+        45.37608
+      ],
+      [
+        -122.25048,
+        45.39578
+      ],
+      [
+        -122.27047,
+        45.39743
+      ],
+      [
+        -122.24501,
+        45.39573
+      ],
+      [
+        -122.24308,
+        45.40629
+      ],
+      [
+        -122.22827,
+        45.4117
+      ],
+      [
+        -122.23918,
+        45.42873
+      ],
+      [
+        -122.24994,
+        45.4292
+      ],
+      [
+        -122.24474,
+        45.44091
+      ],
+      [
+        -122.25446,
+        45.44552
+      ],
+      [
+        -122.26055,
+        45.44171
+      ],
+      [
+        -122.25756,
+        45.44795
+      ],
+      [
+        -122.29758,
+        45.46758
+      ],
+      [
+        -122.37932,
+        45.47191
+      ],
+      [
+        -122.3997,
+        45.48671
+      ],
+      [
+        -122.41392,
+        45.5017
+      ],
+      [
+        -122.41303,
+        45.52963
+      ],
+      [
+        -122.41845,
+        45.53709
+      ],
+      [
+        -122.37729,
+        45.53818
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Government Camp",
+      "model": "town-blocks",
+      "at": 0.44743292966753545,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Timberline Lodge",
+      "model": "snow-peak",
+      "at": 0.44743292966753545,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "orchard",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Odell",
+      "at": 0.07321041214750545,
+      "landmark": ""
+    },
+    {
+      "name": "Parkdale",
+      "at": 0.1543383947939263,
+      "landmark": ""
+    },
+    {
+      "name": "Government Camp",
+      "at": 0.447180043383948,
+      "landmark": "Government Camp"
+    },
+    {
+      "name": "Rhododendron",
+      "at": 0.5239696312364426,
+      "landmark": ""
+    },
+    {
+      "name": "Brightwood",
+      "at": 0.6169197396963124,
+      "landmark": ""
+    },
+    {
+      "name": "Cherryville",
+      "at": 0.6906724511930586,
+      "landmark": ""
+    },
+    {
+      "name": "Bull Run",
+      "at": 0.8086767895878525,
+      "landmark": ""
+    },
+    {
+      "name": "Orient",
+      "at": 0.9032537960954446,
+      "landmark": ""
+    },
+    {
+      "name": "Troutdale",
+      "at": 0.9983731019522777,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/mt-hood-scenic-byway-61400.json",
+    "public/data/strips/mt-hood-scenic-byway-61400.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

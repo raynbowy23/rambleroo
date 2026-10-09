@@ -1,0 +1,299 @@
+{
+  "authored": false,
+  "bywayId": "killdeer-mountain-four-bears-scenic-byway-16405",
+  "title": "Killdeer Mountain Four Bears Scenic Byway",
+  "longitude": -102.8437,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -102.7541,
+        47.3719
+      ],
+      [
+        -102.7603,
+        47.3866
+      ],
+      [
+        -102.7996,
+        47.4137
+      ],
+      [
+        -102.801,
+        47.417
+      ],
+      [
+        -102.801,
+        47.4307
+      ],
+      [
+        -102.8031,
+        47.4344
+      ],
+      [
+        -102.826,
+        47.4488
+      ],
+      [
+        -102.8384,
+        47.4545
+      ],
+      [
+        -102.8427,
+        47.4588
+      ],
+      [
+        -102.8436,
+        47.472
+      ],
+      [
+        -102.8408,
+        47.482
+      ],
+      [
+        -102.8436,
+        47.4925
+      ],
+      [
+        -102.8437,
+        47.5429
+      ],
+      [
+        -102.8398,
+        47.5457
+      ],
+      [
+        -102.8172,
+        47.5457
+      ],
+      [
+        -102.8067,
+        47.5494
+      ],
+      [
+        -102.7968,
+        47.549
+      ],
+      [
+        -102.7877,
+        47.5575
+      ],
+      [
+        -102.7747,
+        47.5599
+      ],
+      [
+        -102.7708,
+        47.5622
+      ],
+      [
+        -102.77,
+        47.564
+      ],
+      [
+        -102.7715,
+        47.5683
+      ],
+      [
+        -102.7681,
+        47.571
+      ],
+      [
+        -102.767,
+        47.5737
+      ],
+      [
+        -102.7649,
+        47.574
+      ],
+      [
+        -102.7658,
+        47.5794
+      ],
+      [
+        -102.764,
+        47.5829
+      ],
+      [
+        -102.7646,
+        47.5924
+      ],
+      [
+        -102.7708,
+        47.6091
+      ],
+      [
+        -102.7707,
+        47.6121
+      ],
+      [
+        -102.7594,
+        47.6229
+      ],
+      [
+        -102.7556,
+        47.6235
+      ],
+      [
+        -102.7484,
+        47.6221
+      ],
+      [
+        -102.7391,
+        47.6231
+      ],
+      [
+        -102.7318,
+        47.6295
+      ],
+      [
+        -102.7263,
+        47.6431
+      ],
+      [
+        -102.7263,
+        47.6708
+      ],
+      [
+        -102.7273,
+        47.6742
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

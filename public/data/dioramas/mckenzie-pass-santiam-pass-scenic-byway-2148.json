@@ -1,0 +1,416 @@
+{
+  "authored": false,
+  "bywayId": "mckenzie-pass-santiam-pass-scenic-byway-2148",
+  "title": "McKenzie Pass-Santiam Pass Scenic Byway",
+  "longitude": -121.6272,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -122.07397,
+        44.18423
+      ],
+      [
+        -122.06247,
+        44.18294
+      ],
+      [
+        -122.05303,
+        44.17241
+      ],
+      [
+        -122.02169,
+        44.15915
+      ],
+      [
+        -121.95393,
+        44.17033
+      ],
+      [
+        -121.92476,
+        44.16652
+      ],
+      [
+        -121.92616,
+        44.16978
+      ],
+      [
+        -121.91579,
+        44.17653
+      ],
+      [
+        -121.90518,
+        44.17509
+      ],
+      [
+        -121.90932,
+        44.17988
+      ],
+      [
+        -121.89949,
+        44.18321
+      ],
+      [
+        -121.89693,
+        44.18914
+      ],
+      [
+        -121.88256,
+        44.18834
+      ],
+      [
+        -121.88449,
+        44.19333
+      ],
+      [
+        -121.87506,
+        44.20546
+      ],
+      [
+        -121.87826,
+        44.22075
+      ],
+      [
+        -121.87258,
+        44.22287
+      ],
+      [
+        -121.86303,
+        44.2387
+      ],
+      [
+        -121.80968,
+        44.25998
+      ],
+      [
+        -121.79335,
+        44.26102
+      ],
+      [
+        -121.7758,
+        44.27815
+      ],
+      [
+        -121.77123,
+        44.27788
+      ],
+      [
+        -121.7632,
+        44.2896
+      ],
+      [
+        -121.7256,
+        44.30539
+      ],
+      [
+        -121.70168,
+        44.30942
+      ],
+      [
+        -121.63437,
+        44.30992
+      ],
+      [
+        -121.57415,
+        44.29141
+      ],
+      [
+        -121.55527,
+        44.29154
+      ],
+      [
+        -121.6233,
+        44.37013
+      ],
+      [
+        -121.65772,
+        44.3817
+      ],
+      [
+        -121.71344,
+        44.42952
+      ],
+      [
+        -121.76615,
+        44.41839
+      ],
+      [
+        -121.82065,
+        44.42537
+      ],
+      [
+        -121.87329,
+        44.41888
+      ],
+      [
+        -121.87839,
+        44.4224
+      ],
+      [
+        -121.87572,
+        44.43098
+      ],
+      [
+        -121.92146,
+        44.42866
+      ],
+      [
+        -121.92664,
+        44.43392
+      ],
+      [
+        -121.94037,
+        44.43659
+      ],
+      [
+        -121.97075,
+        44.4322
+      ],
+      [
+        -122.00348,
+        44.41862
+      ],
+      [
+        -122.00543,
+        44.37727
+      ],
+      [
+        -121.99481,
+        44.35941
+      ],
+      [
+        -121.99626,
+        44.32488
+      ],
+      [
+        -122.00734,
+        44.31174
+      ],
+      [
+        -122.02457,
+        44.30359
+      ],
+      [
+        -122.02715,
+        44.29173
+      ],
+      [
+        -122.04122,
+        44.28471
+      ],
+      [
+        -122.04702,
+        44.27604
+      ],
+      [
+        -122.03893,
+        44.25081
+      ],
+      [
+        -122.05512,
+        44.23958
+      ],
+      [
+        -122.05966,
+        44.2278
+      ],
+      [
+        -122.05781,
+        44.21938
+      ],
+      [
+        -122.03855,
+        44.20405
+      ],
+      [
+        -122.04048,
+        44.1944
+      ],
+      [
+        -122.07397,
+        44.18423
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Dee Wright Observatory",
+      "model": "snow-peak",
+      "at": 0.2568364646169038,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Proxy Falls",
+      "model": "cove-waterfall",
+      "at": 0.2568364646169038,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Sisters",
+      "at": 0.4292941176470588,
+      "landmark": ""
+    },
+    {
+      "name": "Black Butte Ranch",
+      "at": 0.5211764705882352,
+      "landmark": ""
+    },
+    {
+      "name": "Santiam Junction",
+      "at": 0.7284705882352941,
+      "landmark": ""
+    },
+    {
+      "name": "Belknap Springs",
+      "at": 0.9848235294117647,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/mckenzie-pass-santiam-pass-scenic-byway-2148.json",
+    "public/data/strips/mckenzie-pass-santiam-pass-scenic-byway-2148.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

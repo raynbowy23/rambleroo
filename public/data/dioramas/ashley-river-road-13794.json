@@ -1,0 +1,236 @@
+{
+  "authored": false,
+  "bywayId": "ashley-river-road-13794",
+  "title": "Ashley River Road",
+  "longitude": -80.1066,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.03804,
+        32.82394
+      ],
+      [
+        -80.04144,
+        32.82842
+      ],
+      [
+        -80.04529,
+        32.83365
+      ],
+      [
+        -80.04686,
+        32.8356
+      ],
+      [
+        -80.04741,
+        32.83616
+      ],
+      [
+        -80.04802,
+        32.83667
+      ],
+      [
+        -80.04915,
+        32.8375
+      ],
+      [
+        -80.05424,
+        32.84042
+      ],
+      [
+        -80.05507,
+        32.84096
+      ],
+      [
+        -80.05555,
+        32.84135
+      ],
+      [
+        -80.07439,
+        32.85738
+      ],
+      [
+        -80.08362,
+        32.8654
+      ],
+      [
+        -80.09075,
+        32.87135
+      ],
+      [
+        -80.09165,
+        32.8722
+      ],
+      [
+        -80.0989,
+        32.87813
+      ],
+      [
+        -80.09995,
+        32.87907
+      ],
+      [
+        -80.10273,
+        32.88116
+      ],
+      [
+        -80.10807,
+        32.88388
+      ],
+      [
+        -80.11721,
+        32.88792
+      ],
+      [
+        -80.11933,
+        32.88847
+      ],
+      [
+        -80.12161,
+        32.88893
+      ],
+      [
+        -80.12373,
+        32.88929
+      ],
+      [
+        -80.12741,
+        32.89007
+      ],
+      [
+        -80.1281,
+        32.89031
+      ],
+      [
+        -80.12874,
+        32.8907
+      ],
+      [
+        -80.13807,
+        32.89742
+      ],
+      [
+        -80.14068,
+        32.89956
+      ],
+      [
+        -80.14474,
+        32.90305
+      ],
+      [
+        -80.14622,
+        32.90454
+      ],
+      [
+        -80.147,
+        32.9058
+      ],
+      [
+        -80.14894,
+        32.90916
+      ],
+      [
+        -80.1496,
+        32.91001
+      ],
+      [
+        -80.15257,
+        32.91269
+      ],
+      [
+        -80.16082,
+        32.92088
+      ],
+      [
+        -80.16259,
+        32.92252
+      ],
+      [
+        -80.16349,
+        32.92326
+      ],
+      [
+        -80.17917,
+        32.93594
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Shadowmoss",
+      "at": 0.18157894736842106,
+      "landmark": ""
+    },
+    {
+      "name": "Runnymede",
+      "at": 0.45789473684210535,
+      "landmark": ""
+    },
+    {
+      "name": "Dorchester",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/ashley-river-road-13794.json",
+    "public/data/strips/ashley-river-road-13794.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

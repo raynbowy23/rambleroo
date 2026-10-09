@@ -1,0 +1,423 @@
+{
+  "authored": false,
+  "bywayId": "old-canada-road-scenic-byway-11510",
+  "title": "Old Canada Road Scenic Byway",
+  "longitude": -70.007,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -69.80712,
+        44.88873
+      ],
+      [
+        -69.82734,
+        44.92286
+      ],
+      [
+        -69.84077,
+        44.93745
+      ],
+      [
+        -69.861,
+        44.95066
+      ],
+      [
+        -69.86747,
+        44.9819
+      ],
+      [
+        -69.85818,
+        45.0027
+      ],
+      [
+        -69.85766,
+        45.02837
+      ],
+      [
+        -69.86215,
+        45.03897
+      ],
+      [
+        -69.88151,
+        45.05162
+      ],
+      [
+        -69.8852,
+        45.06727
+      ],
+      [
+        -69.89925,
+        45.07359
+      ],
+      [
+        -69.90376,
+        45.0836
+      ],
+      [
+        -69.91861,
+        45.08628
+      ],
+      [
+        -69.9233,
+        45.09907
+      ],
+      [
+        -69.93512,
+        45.09828
+      ],
+      [
+        -69.94209,
+        45.10276
+      ],
+      [
+        -69.94928,
+        45.1248
+      ],
+      [
+        -69.94579,
+        45.13735
+      ],
+      [
+        -69.94781,
+        45.15324
+      ],
+      [
+        -69.9832,
+        45.16768
+      ],
+      [
+        -69.98132,
+        45.19303
+      ],
+      [
+        -69.98824,
+        45.22421
+      ],
+      [
+        -69.99653,
+        45.2366
+      ],
+      [
+        -69.98941,
+        45.2474
+      ],
+      [
+        -69.98889,
+        45.25665
+      ],
+      [
+        -69.99643,
+        45.26781
+      ],
+      [
+        -69.98097,
+        45.3066
+      ],
+      [
+        -69.98056,
+        45.31671
+      ],
+      [
+        -69.96754,
+        45.33597
+      ],
+      [
+        -69.98989,
+        45.35805
+      ],
+      [
+        -70.00753,
+        45.36556
+      ],
+      [
+        -70.02007,
+        45.38591
+      ],
+      [
+        -70.03387,
+        45.39441
+      ],
+      [
+        -70.05493,
+        45.43848
+      ],
+      [
+        -70.05708,
+        45.46064
+      ],
+      [
+        -70.06521,
+        45.46876
+      ],
+      [
+        -70.06489,
+        45.47647
+      ],
+      [
+        -70.07959,
+        45.5043
+      ],
+      [
+        -70.09076,
+        45.51269
+      ],
+      [
+        -70.10399,
+        45.53877
+      ],
+      [
+        -70.13454,
+        45.55829
+      ],
+      [
+        -70.15206,
+        45.57759
+      ],
+      [
+        -70.18389,
+        45.58522
+      ],
+      [
+        -70.2009,
+        45.60553
+      ],
+      [
+        -70.21586,
+        45.61184
+      ],
+      [
+        -70.23824,
+        45.61417
+      ],
+      [
+        -70.25968,
+        45.62739
+      ],
+      [
+        -70.26762,
+        45.65901
+      ],
+      [
+        -70.28377,
+        45.67513
+      ],
+      [
+        -70.29594,
+        45.74164
+      ],
+      [
+        -70.30744,
+        45.74967
+      ],
+      [
+        -70.31033,
+        45.76196
+      ],
+      [
+        -70.31794,
+        45.76972
+      ],
+      [
+        -70.35222,
+        45.77982
+      ],
+      [
+        -70.37406,
+        45.79879
+      ],
+      [
+        -70.39717,
+        45.80632
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "The Forks",
+      "model": "town-blocks",
+      "at": 0.458499510363906,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Attean Pond Lookout",
+      "model": "ridge",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Jackman",
+      "model": "town-blocks",
+      "at": 0.7582648794277955,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Bingham",
+      "at": 0.13725992317541613,
+      "landmark": ""
+    },
+    {
+      "name": "Caratunk",
+      "at": 0.3646606914212548,
+      "landmark": ""
+    },
+    {
+      "name": "West Forks",
+      "at": 0.5163892445582585,
+      "landmark": ""
+    },
+    {
+      "name": "Jackman",
+      "at": 0.758258642765685,
+      "landmark": "Jackman"
+    }
+  ],
+  "sources": [
+    "content/stories/old-canada-road-scenic-byway-11510.json",
+    "public/data/strips/old-canada-road-scenic-byway-11510.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

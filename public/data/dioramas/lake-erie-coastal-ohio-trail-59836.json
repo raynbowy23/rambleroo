@@ -1,0 +1,412 @@
+{
+  "authored": false,
+  "bywayId": "lake-erie-coastal-ohio-trail-59836",
+  "title": "Lake Erie Coastal Ohio Trail",
+  "longitude": -82.1371,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.5193,
+        41.94392
+      ],
+      [
+        -80.54887,
+        41.94051
+      ],
+      [
+        -80.56758,
+        41.96091
+      ],
+      [
+        -80.9575,
+        41.85966
+      ],
+      [
+        -80.94268,
+        41.81677
+      ],
+      [
+        -80.96485,
+        41.79937
+      ],
+      [
+        -81.01588,
+        41.79835
+      ],
+      [
+        -81.00875,
+        41.84184
+      ],
+      [
+        -81.03214,
+        41.8415
+      ],
+      [
+        -81.12135,
+        41.81093
+      ],
+      [
+        -81.12109,
+        41.78804
+      ],
+      [
+        -81.16386,
+        41.79384
+      ],
+      [
+        -81.16383,
+        41.77456
+      ],
+      [
+        -81.2129,
+        41.74669
+      ],
+      [
+        -81.26234,
+        41.75456
+      ],
+      [
+        -81.2647,
+        41.7308
+      ],
+      [
+        -81.29688,
+        41.75136
+      ],
+      [
+        -81.31148,
+        41.72117
+      ],
+      [
+        -81.36137,
+        41.71964
+      ],
+      [
+        -81.36129,
+        41.70501
+      ],
+      [
+        -81.40961,
+        41.69329
+      ],
+      [
+        -81.42537,
+        41.66704
+      ],
+      [
+        -81.72083,
+        41.48651
+      ],
+      [
+        -81.87331,
+        41.48154
+      ],
+      [
+        -82.01926,
+        41.51302
+      ],
+      [
+        -82.48882,
+        41.3781
+      ],
+      [
+        -82.61838,
+        41.41327
+      ],
+      [
+        -82.70306,
+        41.46066
+      ],
+      [
+        -82.73433,
+        41.43992
+      ],
+      [
+        -82.82917,
+        41.46276
+      ],
+      [
+        -82.83799,
+        41.50342
+      ],
+      [
+        -82.76559,
+        41.50471
+      ],
+      [
+        -82.71276,
+        41.5275
+      ],
+      [
+        -82.71891,
+        41.54105
+      ],
+      [
+        -82.85867,
+        41.52383
+      ],
+      [
+        -82.832,
+        41.56067
+      ],
+      [
+        -82.83681,
+        41.58664
+      ],
+      [
+        -82.88928,
+        41.52085
+      ],
+      [
+        -82.99607,
+        41.52103
+      ],
+      [
+        -83.0714,
+        41.5571
+      ],
+      [
+        -83.10063,
+        41.60325
+      ],
+      [
+        -83.25756,
+        41.6043
+      ],
+      [
+        -83.26223,
+        41.63809
+      ],
+      [
+        -83.37062,
+        41.63823
+      ],
+      [
+        -83.37078,
+        41.67471
+      ],
+      [
+        -83.42959,
+        41.67417
+      ],
+      [
+        -83.44063,
+        41.69079
+      ],
+      [
+        -83.50481,
+        41.65398
+      ],
+      [
+        -83.51476,
+        41.67916
+      ],
+      [
+        -83.83812,
+        41.67225
+      ],
+      [
+        -83.82487,
+        41.52748
+      ],
+      [
+        -83.72064,
+        41.49936
+      ],
+      [
+        -83.71425,
+        41.53352
+      ],
+      [
+        -83.60991,
+        41.58167
+      ],
+      [
+        -83.48598,
+        41.68738
+      ],
+      [
+        -83.47976,
+        41.73227
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Ashtabula Harbor Light",
+      "model": "lighthouse-on-rock",
+      "at": 0.057068907674602015,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Marblehead Lighthouse",
+      "model": "lighthouse-on-rock",
+      "at": 0.585809462116203,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Marblehead Lighthouse",
+      "model": "ledge",
+      "at": 0.585809462116203,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "North Kingsville",
+      "at": 0.038316797810468706,
+      "landmark": ""
+    },
+    {
+      "name": "Geneva",
+      "at": 0.10338693123503262,
+      "landmark": ""
+    },
+    {
+      "name": "Painesville",
+      "at": 0.19787889154977767,
+      "landmark": ""
+    },
+    {
+      "name": "Bratenahl",
+      "at": 0.2911050290797126,
+      "landmark": ""
+    },
+    {
+      "name": "Bay Village",
+      "at": 0.36082791652411905,
+      "landmark": ""
+    },
+    {
+      "name": "Vermilion",
+      "at": 0.44276428327061246,
+      "landmark": ""
+    },
+    {
+      "name": "Sandusky",
+      "at": 0.5198426274375643,
+      "landmark": ""
+    },
+    {
+      "name": "Lakeside",
+      "at": 0.5930550803968526,
+      "landmark": ""
+    },
+    {
+      "name": "Lacarne",
+      "at": 0.6768388641806364,
+      "landmark": ""
+    },
+    {
+      "name": "Curtice",
+      "at": 0.7534382483749573,
+      "landmark": ""
+    },
+    {
+      "name": "Ottawa Hills",
+      "at": 0.8232637700992131,
+      "landmark": ""
+    },
+    {
+      "name": "Whitehouse",
+      "at": 0.9059869996578858,
+      "landmark": ""
+    },
+    {
+      "name": "Toledo",
+      "at": 0.973178241532672,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/lake-erie-coastal-ohio-trail-59836.json",
+    "public/data/strips/lake-erie-coastal-ohio-trail-59836.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,406 @@
+{
+  "authored": false,
+  "bywayId": "sky-island-scenic-byway-50186",
+  "title": "Sky Island Scenic Byway",
+  "longitude": -110.6987,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -110.75929,
+        32.43879
+      ],
+      [
+        -110.76028,
+        32.4455
+      ],
+      [
+        -110.75428,
+        32.44797
+      ],
+      [
+        -110.75178,
+        32.43395
+      ],
+      [
+        -110.73495,
+        32.42385
+      ],
+      [
+        -110.73903,
+        32.42365
+      ],
+      [
+        -110.73988,
+        32.42083
+      ],
+      [
+        -110.73592,
+        32.41558
+      ],
+      [
+        -110.73245,
+        32.41549
+      ],
+      [
+        -110.7311,
+        32.41255
+      ],
+      [
+        -110.72599,
+        32.41001
+      ],
+      [
+        -110.72267,
+        32.41112
+      ],
+      [
+        -110.71517,
+        32.41095
+      ],
+      [
+        -110.71217,
+        32.4087
+      ],
+      [
+        -110.70492,
+        32.40961
+      ],
+      [
+        -110.70345,
+        32.40643
+      ],
+      [
+        -110.69958,
+        32.4057
+      ],
+      [
+        -110.70076,
+        32.40152
+      ],
+      [
+        -110.69118,
+        32.40142
+      ],
+      [
+        -110.68968,
+        32.39781
+      ],
+      [
+        -110.69217,
+        32.39476
+      ],
+      [
+        -110.69711,
+        32.39304
+      ],
+      [
+        -110.6949,
+        32.39041
+      ],
+      [
+        -110.69575,
+        32.38651
+      ],
+      [
+        -110.69421,
+        32.3837
+      ],
+      [
+        -110.6973,
+        32.37924
+      ],
+      [
+        -110.71661,
+        32.3685
+      ],
+      [
+        -110.71446,
+        32.36766
+      ],
+      [
+        -110.70622,
+        32.37324
+      ],
+      [
+        -110.69331,
+        32.37532
+      ],
+      [
+        -110.68829,
+        32.37799
+      ],
+      [
+        -110.68869,
+        32.37543
+      ],
+      [
+        -110.70117,
+        32.37093
+      ],
+      [
+        -110.71502,
+        32.36199
+      ],
+      [
+        -110.72009,
+        32.36186
+      ],
+      [
+        -110.72611,
+        32.35593
+      ],
+      [
+        -110.72288,
+        32.35446
+      ],
+      [
+        -110.72483,
+        32.35222
+      ],
+      [
+        -110.72373,
+        32.34899
+      ],
+      [
+        -110.71762,
+        32.34767
+      ],
+      [
+        -110.71828,
+        32.34276
+      ],
+      [
+        -110.71529,
+        32.33939
+      ],
+      [
+        -110.69701,
+        32.33711
+      ],
+      [
+        -110.69274,
+        32.33882
+      ],
+      [
+        -110.69048,
+        32.33711
+      ],
+      [
+        -110.69482,
+        32.33352
+      ],
+      [
+        -110.69601,
+        32.32969
+      ],
+      [
+        -110.70609,
+        32.32478
+      ],
+      [
+        -110.71264,
+        32.3117
+      ],
+      [
+        -110.71946,
+        32.30919
+      ],
+      [
+        -110.72123,
+        32.31154
+      ],
+      [
+        -110.72686,
+        32.30937
+      ],
+      [
+        -110.72857,
+        32.31121
+      ],
+      [
+        -110.74084,
+        32.30809
+      ],
+      [
+        -110.74195,
+        32.31237
+      ],
+      [
+        -110.74528,
+        32.304
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Summerhaven",
+      "model": "town-blocks",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Summerhaven",
+      "at": 0,
+      "landmark": "Summerhaven"
+    },
+    {
+      "name": "Willow Canyon",
+      "at": 0.3611111111111111,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/sky-island-scenic-byway-50186.json",
+    "public/data/strips/sky-island-scenic-byway-50186.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,7 +1,4 @@
-import coast from '../../../../content/dioramas/route-1-big-sur-coast-highway-2301.json'
-import alpine from '../../../../content/dioramas/beartooth-highway-2281.json'
-import forest from '../../../../content/dioramas/kancamagus-scenic-byway-2458.json'
-
+import type { SceneFamily } from '../../../lib/types'
 export const models = [
   'open-spandrel-arch-bridge',
   'covered-bridge',
@@ -20,18 +17,38 @@ export const models = [
   'river',
   'surf',
   'fog-bank',
+  'gristmill',
+  'viaduct',
+  'dam',
+  'paddlewheeler',
+  'sandbar',
+  'steeple-town',
+  'harbor',
+  'ledge',
+  'orchard',
+  'ridge',
+  'bald',
+  'snow-peak',
+  'switchback',
+  'aspen',
+  'hoodoo',
+  'mesa',
+  'field',
+  'town-blocks',
 ] as const
 export type Model = (typeof models)[number]
 export interface DioramaSpec {
+  authored: boolean
   bywayId: string
   title: string
   longitude: number
-  ground: 'coastal-cliff' | 'alpine-plateau' | 'forested-ridges'
-  palette: 'coast' | 'mountain' | 'forest'
+  ground:
+    'coastal-cliff' | 'alpine-plateau' | 'forested-ridges' | 'low-shore' | 'river-valley' | 'desert-mesas' | 'prairie-grid' | 'main-street'
+  palette: SceneFamily
   snowInWinter: boolean
   road: {
     shape: 'from-geometry'
-    profile: 'cliff-shelf' | 'switchbacks' | 'valley-floor'
+    profile: 'cliff-shelf' | 'switchbacks' | 'valley-floor' | 'rolling' | 'level'
     lanes: 2
     coordinates: number[][]
     elevation: number[][]
@@ -42,7 +59,3 @@ export interface DioramaSpec {
   sources: string[]
   geometryNotes: string
 }
-
-// Also used by the build tests: the authoring schema is checked against every scene in tests.
-export { default as specSchema } from '../../../../content/dioramas/schema.json'
-export const specs = [coast, alpine, forest] as DioramaSpec[]

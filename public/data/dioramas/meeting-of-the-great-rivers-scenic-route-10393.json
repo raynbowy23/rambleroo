@@ -1,0 +1,368 @@
+{
+  "authored": false,
+  "bywayId": "meeting-of-the-great-rivers-scenic-route-10393",
+  "title": "Meeting of the Great Rivers Scenic Route",
+  "longitude": -90.3408,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -90.09915,
+        38.83357
+      ],
+      [
+        -90.09768,
+        38.83925
+      ],
+      [
+        -90.09863,
+        38.84587
+      ],
+      [
+        -90.10121,
+        38.85035
+      ],
+      [
+        -90.10868,
+        38.85835
+      ],
+      [
+        -90.11264,
+        38.85747
+      ],
+      [
+        -90.11712,
+        38.85754
+      ],
+      [
+        -90.13335,
+        38.86259
+      ],
+      [
+        -90.13907,
+        38.86704
+      ],
+      [
+        -90.15278,
+        38.87306
+      ],
+      [
+        -90.15907,
+        38.87799
+      ],
+      [
+        -90.16559,
+        38.88112
+      ],
+      [
+        -90.17098,
+        38.88767
+      ],
+      [
+        -90.18536,
+        38.8894
+      ],
+      [
+        -90.187,
+        38.8904
+      ],
+      [
+        -90.19166,
+        38.89114
+      ],
+      [
+        -90.19596,
+        38.89386
+      ],
+      [
+        -90.19898,
+        38.89726
+      ],
+      [
+        -90.22628,
+        38.91457
+      ],
+      [
+        -90.25243,
+        38.92753
+      ],
+      [
+        -90.27742,
+        38.93572
+      ],
+      [
+        -90.28262,
+        38.93872
+      ],
+      [
+        -90.28936,
+        38.9392
+      ],
+      [
+        -90.30103,
+        38.93465
+      ],
+      [
+        -90.31078,
+        38.93391
+      ],
+      [
+        -90.31473,
+        38.93445
+      ],
+      [
+        -90.32699,
+        38.93752
+      ],
+      [
+        -90.34326,
+        38.94284
+      ],
+      [
+        -90.37338,
+        38.95609
+      ],
+      [
+        -90.39006,
+        38.96258
+      ],
+      [
+        -90.41116,
+        38.96763
+      ],
+      [
+        -90.42147,
+        38.96759
+      ],
+      [
+        -90.42857,
+        38.9698
+      ],
+      [
+        -90.44777,
+        38.96974
+      ],
+      [
+        -90.46067,
+        38.97184
+      ],
+      [
+        -90.46836,
+        38.97218
+      ],
+      [
+        -90.47686,
+        38.97155
+      ],
+      [
+        -90.48115,
+        38.97231
+      ],
+      [
+        -90.48564,
+        38.97011
+      ],
+      [
+        -90.49489,
+        38.96791
+      ],
+      [
+        -90.50825,
+        38.9691
+      ],
+      [
+        -90.51866,
+        38.96792
+      ],
+      [
+        -90.5314,
+        38.96754
+      ],
+      [
+        -90.53914,
+        38.96832
+      ],
+      [
+        -90.54472,
+        38.97328
+      ],
+      [
+        -90.54609,
+        38.98181
+      ],
+      [
+        -90.54211,
+        38.98879
+      ],
+      [
+        -90.54215,
+        38.99487
+      ],
+      [
+        -90.54553,
+        38.9995
+      ],
+      [
+        -90.54637,
+        39.00487
+      ],
+      [
+        -90.54597,
+        39.01258
+      ],
+      [
+        -90.5484,
+        39.01538
+      ],
+      [
+        -90.55047,
+        39.02457
+      ],
+      [
+        -90.55198,
+        39.02727
+      ],
+      [
+        -90.55299,
+        39.03293
+      ],
+      [
+        -90.5553,
+        39.03931
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Elsah",
+      "model": "town-blocks",
+      "at": 0.5324730434311951,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grafton",
+      "model": "paddlewheeler",
+      "at": 0.6553955583532047,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grafton",
+      "model": "ledge",
+      "at": 0.6553955583532047,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grafton",
+      "model": "town-blocks",
+      "at": 0.6553955583532047,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Pere Marquette State Park",
+      "model": "ledge",
+      "at": 0.9038368438696004,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Hartford",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Alton",
+      "at": 0.18145896656534954,
+      "landmark": ""
+    },
+    {
+      "name": "Lockhaven",
+      "at": 0.40699088145896645,
+      "landmark": ""
+    },
+    {
+      "name": "Elsah",
+      "at": 0.5322188449848024,
+      "landmark": "Elsah"
+    },
+    {
+      "name": "Grafton",
+      "at": 0.6550151975683891,
+      "landmark": "Grafton"
+    },
+    {
+      "name": "Marshall Landing",
+      "at": 0.7808510638297872,
+      "landmark": ""
+    },
+    {
+      "name": "Rosedale",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/meeting-of-the-great-rivers-scenic-route-10393.json",
+    "public/data/strips/meeting-of-the-great-rivers-scenic-route-10393.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

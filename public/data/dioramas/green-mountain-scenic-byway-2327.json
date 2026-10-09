@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "green-mountain-scenic-byway-2327",
+  "title": "Green Mountain Scenic Byway",
+  "longitude": -81.6774,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.58564,
+        28.56564
+      ],
+      [
+        -81.594,
+        28.56377
+      ],
+      [
+        -81.60267,
+        28.55981
+      ],
+      [
+        -81.60402,
+        28.5584
+      ],
+      [
+        -81.60488,
+        28.55593
+      ],
+      [
+        -81.60652,
+        28.55482
+      ],
+      [
+        -81.62384,
+        28.55469
+      ],
+      [
+        -81.62684,
+        28.55518
+      ],
+      [
+        -81.63587,
+        28.55489
+      ],
+      [
+        -81.63654,
+        28.55449
+      ],
+      [
+        -81.63748,
+        28.55292
+      ],
+      [
+        -81.63864,
+        28.55215
+      ],
+      [
+        -81.64274,
+        28.55222
+      ],
+      [
+        -81.64449,
+        28.5518
+      ],
+      [
+        -81.65152,
+        28.54682
+      ],
+      [
+        -81.65296,
+        28.54694
+      ],
+      [
+        -81.65503,
+        28.54648
+      ],
+      [
+        -81.65924,
+        28.55003
+      ],
+      [
+        -81.66034,
+        28.55056
+      ],
+      [
+        -81.66676,
+        28.55039
+      ],
+      [
+        -81.66986,
+        28.55091
+      ],
+      [
+        -81.67232,
+        28.55207
+      ],
+      [
+        -81.67802,
+        28.55996
+      ],
+      [
+        -81.68378,
+        28.56263
+      ],
+      [
+        -81.68757,
+        28.56591
+      ],
+      [
+        -81.68927,
+        28.56917
+      ],
+      [
+        -81.68904,
+        28.56995
+      ],
+      [
+        -81.68789,
+        28.57111
+      ],
+      [
+        -81.68506,
+        28.57153
+      ],
+      [
+        -81.68364,
+        28.57269
+      ],
+      [
+        -81.68246,
+        28.57398
+      ],
+      [
+        -81.68187,
+        28.57597
+      ],
+      [
+        -81.67574,
+        28.58247
+      ],
+      [
+        -81.67478,
+        28.58619
+      ],
+      [
+        -81.67466,
+        28.60061
+      ],
+      [
+        -81.6778,
+        28.60109
+      ],
+      [
+        -81.68137,
+        28.60247
+      ],
+      [
+        -81.68551,
+        28.60285
+      ],
+      [
+        -81.69408,
+        28.6067
+      ],
+      [
+        -81.69655,
+        28.60727
+      ],
+      [
+        -81.70263,
+        28.61134
+      ],
+      [
+        -81.7038,
+        28.61412
+      ],
+      [
+        -81.70303,
+        28.61901
+      ],
+      [
+        -81.70334,
+        28.62232
+      ],
+      [
+        -81.69959,
+        28.6274
+      ],
+      [
+        -81.6993,
+        28.62841
+      ],
+      [
+        -81.69988,
+        28.63103
+      ],
+      [
+        -81.69933,
+        28.63478
+      ],
+      [
+        -81.7003,
+        28.64021
+      ],
+      [
+        -81.70189,
+        28.64151
+      ],
+      [
+        -81.70815,
+        28.64315
+      ],
+      [
+        -81.71085,
+        28.64539
+      ],
+      [
+        -81.7225,
+        28.6485
+      ],
+      [
+        -81.73098,
+        28.66603
+      ],
+      [
+        -81.73201,
+        28.6668
+      ],
+      [
+        -81.73741,
+        28.66686
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Winter Garden",
+      "model": "town-blocks",
+      "at": 0.11071585960223419,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Montverde",
+      "model": "town-blocks",
+      "at": 0.5732033335370293,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sugarloaf Mountain",
+      "model": "ridge",
+      "at": 0.9178332496047671,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Oakland",
+      "at": 0.16763005780346818,
+      "landmark": ""
+    },
+    {
+      "name": "Montverde",
+      "at": 0.5722543352601156,
+      "landmark": "Montverde"
+    },
+    {
+      "name": "Ferndale",
+      "at": 0.7502890173410405,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/green-mountain-scenic-byway-2327.json",
+    "public/data/strips/green-mountain-scenic-byway-2327.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

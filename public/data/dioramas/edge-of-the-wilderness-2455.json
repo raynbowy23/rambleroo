@@ -1,0 +1,423 @@
+{
+  "authored": false,
+  "bywayId": "edge-of-the-wilderness-2455",
+  "title": "Edge of the Wilderness",
+  "longitude": -93.6455,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -93.53298,
+        47.23595
+      ],
+      [
+        -93.53354,
+        47.2499
+      ],
+      [
+        -93.5273,
+        47.25436
+      ],
+      [
+        -93.53322,
+        47.2626
+      ],
+      [
+        -93.53342,
+        47.29355
+      ],
+      [
+        -93.56283,
+        47.31106
+      ],
+      [
+        -93.56562,
+        47.31754
+      ],
+      [
+        -93.56959,
+        47.3209
+      ],
+      [
+        -93.57495,
+        47.35829
+      ],
+      [
+        -93.58531,
+        47.37186
+      ],
+      [
+        -93.58595,
+        47.38986
+      ],
+      [
+        -93.59746,
+        47.40453
+      ],
+      [
+        -93.5925,
+        47.41109
+      ],
+      [
+        -93.59253,
+        47.41633
+      ],
+      [
+        -93.59707,
+        47.41919
+      ],
+      [
+        -93.60035,
+        47.42676
+      ],
+      [
+        -93.6063,
+        47.43219
+      ],
+      [
+        -93.60725,
+        47.43503
+      ],
+      [
+        -93.60503,
+        47.44063
+      ],
+      [
+        -93.61537,
+        47.4515
+      ],
+      [
+        -93.61649,
+        47.45585
+      ],
+      [
+        -93.64046,
+        47.47084
+      ],
+      [
+        -93.64974,
+        47.48422
+      ],
+      [
+        -93.64361,
+        47.50227
+      ],
+      [
+        -93.6436,
+        47.50908
+      ],
+      [
+        -93.64078,
+        47.51313
+      ],
+      [
+        -93.64189,
+        47.52651
+      ],
+      [
+        -93.64924,
+        47.53272
+      ],
+      [
+        -93.64383,
+        47.53802
+      ],
+      [
+        -93.65037,
+        47.5519
+      ],
+      [
+        -93.65054,
+        47.56015
+      ],
+      [
+        -93.64826,
+        47.56393
+      ],
+      [
+        -93.64797,
+        47.56837
+      ],
+      [
+        -93.66679,
+        47.58258
+      ],
+      [
+        -93.68561,
+        47.58755
+      ],
+      [
+        -93.69102,
+        47.59323
+      ],
+      [
+        -93.68853,
+        47.5981
+      ],
+      [
+        -93.67235,
+        47.60871
+      ],
+      [
+        -93.67095,
+        47.61273
+      ],
+      [
+        -93.67046,
+        47.61637
+      ],
+      [
+        -93.67259,
+        47.62005
+      ],
+      [
+        -93.67259,
+        47.63943
+      ],
+      [
+        -93.66872,
+        47.64668
+      ],
+      [
+        -93.67776,
+        47.6534
+      ],
+      [
+        -93.67653,
+        47.67623
+      ],
+      [
+        -93.67884,
+        47.68212
+      ],
+      [
+        -93.68112,
+        47.70066
+      ],
+      [
+        -93.67908,
+        47.70994
+      ],
+      [
+        -93.66557,
+        47.7288
+      ],
+      [
+        -93.66418,
+        47.73347
+      ],
+      [
+        -93.65574,
+        47.74155
+      ],
+      [
+        -93.65312,
+        47.74668
+      ],
+      [
+        -93.65678,
+        47.74841
+      ],
+      [
+        -93.65671,
+        47.75398
+      ],
+      [
+        -93.64299,
+        47.7699
+      ],
+      [
+        -93.64301,
+        47.84006
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Marcell",
+      "model": "town-blocks",
+      "at": 0.6090316513408875,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Scenic State Park",
+      "model": "alpine-lake",
+      "at": 0.8493382041770194,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Grand Rapids",
+      "at": 0.002991452991452981,
+      "landmark": ""
+    },
+    {
+      "name": "Marcell",
+      "at": 0.6094017094017093,
+      "landmark": "Marcell"
+    },
+    {
+      "name": "Bigfork",
+      "at": 0.8527777777777777,
+      "landmark": ""
+    },
+    {
+      "name": "Effie",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/edge-of-the-wilderness-2455.json",
+    "public/data/strips/edge-of-the-wilderness-2455.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

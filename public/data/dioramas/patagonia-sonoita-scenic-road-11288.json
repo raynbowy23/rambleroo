@@ -1,0 +1,426 @@
+{
+  "authored": false,
+  "bywayId": "patagonia-sonoita-scenic-road-11288",
+  "title": "Patagonia-Sonoita Scenic Road",
+  "longitude": -110.6907,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -110.69186,
+        32.00942
+      ],
+      [
+        -110.65907,
+        31.93151
+      ],
+      [
+        -110.65705,
+        31.92086
+      ],
+      [
+        -110.66683,
+        31.89311
+      ],
+      [
+        -110.67439,
+        31.88317
+      ],
+      [
+        -110.67764,
+        31.87077
+      ],
+      [
+        -110.68872,
+        31.86564
+      ],
+      [
+        -110.69901,
+        31.84801
+      ],
+      [
+        -110.69941,
+        31.84342
+      ],
+      [
+        -110.70175,
+        31.84083
+      ],
+      [
+        -110.70175,
+        31.83382
+      ],
+      [
+        -110.71329,
+        31.83038
+      ],
+      [
+        -110.71422,
+        31.82461
+      ],
+      [
+        -110.7113,
+        31.81984
+      ],
+      [
+        -110.71162,
+        31.81183
+      ],
+      [
+        -110.70415,
+        31.80218
+      ],
+      [
+        -110.69881,
+        31.7894
+      ],
+      [
+        -110.68269,
+        31.76872
+      ],
+      [
+        -110.6573,
+        31.72668
+      ],
+      [
+        -110.65554,
+        31.71796
+      ],
+      [
+        -110.65581,
+        31.67939
+      ],
+      [
+        -110.66625,
+        31.6764
+      ],
+      [
+        -110.68436,
+        31.66258
+      ],
+      [
+        -110.71054,
+        31.65517
+      ],
+      [
+        -110.71412,
+        31.65282
+      ],
+      [
+        -110.7157,
+        31.64818
+      ],
+      [
+        -110.71366,
+        31.63276
+      ],
+      [
+        -110.7194,
+        31.61902
+      ],
+      [
+        -110.73064,
+        31.56987
+      ],
+      [
+        -110.73879,
+        31.5508
+      ],
+      [
+        -110.76359,
+        31.53395
+      ],
+      [
+        -110.76738,
+        31.52724
+      ],
+      [
+        -110.78468,
+        31.51606
+      ],
+      [
+        -110.79499,
+        31.51487
+      ],
+      [
+        -110.80808,
+        31.50486
+      ],
+      [
+        -110.81171,
+        31.49398
+      ],
+      [
+        -110.81723,
+        31.48844
+      ],
+      [
+        -110.81718,
+        31.48041
+      ],
+      [
+        -110.82005,
+        31.47566
+      ],
+      [
+        -110.82187,
+        31.46682
+      ],
+      [
+        -110.83296,
+        31.45314
+      ],
+      [
+        -110.84149,
+        31.44528
+      ],
+      [
+        -110.84449,
+        31.43552
+      ],
+      [
+        -110.8429,
+        31.42813
+      ],
+      [
+        -110.85566,
+        31.41388
+      ],
+      [
+        -110.86653,
+        31.40513
+      ],
+      [
+        -110.87008,
+        31.39876
+      ],
+      [
+        -110.87095,
+        31.38966
+      ],
+      [
+        -110.88354,
+        31.38218
+      ],
+      [
+        -110.89402,
+        31.36954
+      ],
+      [
+        -110.91438,
+        31.35891
+      ],
+      [
+        -110.92477,
+        31.34913
+      ],
+      [
+        -110.92833,
+        31.34938
+      ],
+      [
+        -110.92741,
+        31.35105
+      ],
+      [
+        -110.92894,
+        31.35052
+      ],
+      [
+        -110.92833,
+        31.34938
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Sonoita",
+      "model": "town-blocks",
+      "at": 0.45314802222231554,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Patagonia",
+      "model": "town-blocks",
+      "at": 0.6768210224771367,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Vail",
+      "at": 0.007282415630550622,
+      "landmark": ""
+    },
+    {
+      "name": "Rosemont Camp",
+      "at": 0.25843694493783304,
+      "landmark": ""
+    },
+    {
+      "name": "Sonoita",
+      "at": 0.45293072824156305,
+      "landmark": "Sonoita"
+    },
+    {
+      "name": "Patagonia",
+      "at": 0.6765541740674956,
+      "landmark": "Patagonia"
+    },
+    {
+      "name": "Beyerville",
+      "at": 0.919182948490231,
+      "landmark": ""
+    },
+    {
+      "name": "Nogales",
+      "at": 0.9937833037300179,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/patagonia-sonoita-scenic-road-11288.json",
+    "public/data/strips/patagonia-sonoita-scenic-road-11288.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

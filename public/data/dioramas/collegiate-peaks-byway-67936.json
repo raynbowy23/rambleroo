@@ -1,0 +1,421 @@
+{
+  "authored": false,
+  "bywayId": "collegiate-peaks-byway-67936",
+  "title": "Collegiate Peaks Byway",
+  "longitude": -106.0911,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -106.27026,
+        39.05282
+      ],
+      [
+        -106.26627,
+        39.04712
+      ],
+      [
+        -106.26437,
+        39.03907
+      ],
+      [
+        -106.25791,
+        39.0339
+      ],
+      [
+        -106.25164,
+        39.03255
+      ],
+      [
+        -106.24719,
+        39.02926
+      ],
+      [
+        -106.24406,
+        39.02284
+      ],
+      [
+        -106.23921,
+        39.01851
+      ],
+      [
+        -106.23909,
+        39.01604
+      ],
+      [
+        -106.24292,
+        39.01127
+      ],
+      [
+        -106.24214,
+        39.00713
+      ],
+      [
+        -106.23632,
+        39.00278
+      ],
+      [
+        -106.22638,
+        39.00131
+      ],
+      [
+        -106.22198,
+        38.99748
+      ],
+      [
+        -106.2148,
+        38.97674
+      ],
+      [
+        -106.20741,
+        38.96915
+      ],
+      [
+        -106.18355,
+        38.93102
+      ],
+      [
+        -106.1808,
+        38.91402
+      ],
+      [
+        -106.17365,
+        38.90208
+      ],
+      [
+        -106.17325,
+        38.89384
+      ],
+      [
+        -106.16177,
+        38.88087
+      ],
+      [
+        -106.15165,
+        38.86521
+      ],
+      [
+        -106.14238,
+        38.8573
+      ],
+      [
+        -106.11996,
+        38.81924
+      ],
+      [
+        -106.11402,
+        38.80268
+      ],
+      [
+        -106.11351,
+        38.78289
+      ],
+      [
+        -106.10755,
+        38.77826
+      ],
+      [
+        -106.1042,
+        38.77121
+      ],
+      [
+        -106.08979,
+        38.76156
+      ],
+      [
+        -106.08162,
+        38.75285
+      ],
+      [
+        -106.08102,
+        38.74541
+      ],
+      [
+        -106.08572,
+        38.73472
+      ],
+      [
+        -106.08586,
+        38.71958
+      ],
+      [
+        -106.09186,
+        38.71021
+      ],
+      [
+        -106.0901,
+        38.69319
+      ],
+      [
+        -106.09224,
+        38.67798
+      ],
+      [
+        -106.08245,
+        38.63934
+      ],
+      [
+        -106.07747,
+        38.62605
+      ],
+      [
+        -106.08465,
+        38.59418
+      ],
+      [
+        -106.07992,
+        38.56896
+      ],
+      [
+        -106.08327,
+        38.55437
+      ],
+      [
+        -106.07964,
+        38.54909
+      ],
+      [
+        -106.08042,
+        38.52063
+      ],
+      [
+        -106.07659,
+        38.51457
+      ],
+      [
+        -106.01619,
+        38.5241
+      ],
+      [
+        -105.98495,
+        38.52363
+      ],
+      [
+        -105.98516,
+        38.53245
+      ],
+      [
+        -105.99838,
+        38.54193
+      ],
+      [
+        -106.00692,
+        38.54336
+      ],
+      [
+        -106.01112,
+        38.54984
+      ],
+      [
+        -106.01735,
+        38.55536
+      ],
+      [
+        -106.05701,
+        38.58404
+      ],
+      [
+        -106.0641,
+        38.59383
+      ],
+      [
+        -106.0636,
+        38.60679
+      ],
+      [
+        -106.07078,
+        38.61632
+      ],
+      [
+        -106.07894,
+        38.61867
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Granite",
+      "model": "false-front-town",
+      "at": 0.012875587274522253,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Granite",
+      "model": "town-blocks",
+      "at": 0.012875587274522253,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Buena Vista",
+      "model": "town-blocks",
+      "at": 0.32425745341072626,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Granite",
+      "at": 0.012839059674502712,
+      "landmark": "Granite"
+    },
+    {
+      "name": "Buena Vista",
+      "at": 0.32405063291139247,
+      "landmark": "Buena Vista"
+    },
+    {
+      "name": "Nathrop",
+      "at": 0.44267631103074145,
+      "landmark": ""
+    },
+    {
+      "name": "Salida",
+      "at": 0.8193490054249549,
+      "landmark": ""
+    },
+    {
+      "name": "Smeltertown",
+      "at": 0.8849909584086799,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/collegiate-peaks-byway-67936.json",
+    "public/data/strips/collegiate-peaks-byway-67936.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

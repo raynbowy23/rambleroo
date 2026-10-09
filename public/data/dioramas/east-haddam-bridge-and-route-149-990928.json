@@ -1,0 +1,366 @@
+{
+  "authored": false,
+  "bywayId": "east-haddam-bridge-and-route-149-990928",
+  "title": "East Haddam Bridge and Route 149",
+  "longitude": -72.4659,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -72.46585,
+        41.45128
+      ],
+      [
+        -72.4644,
+        41.45169
+      ],
+      [
+        -72.46116,
+        41.45273
+      ],
+      [
+        -72.46141,
+        41.4523
+      ],
+      [
+        -72.46163,
+        41.45208
+      ],
+      [
+        -72.4618,
+        41.45198
+      ],
+      [
+        -72.46197,
+        41.45195
+      ],
+      [
+        -72.46214,
+        41.45196
+      ],
+      [
+        -72.46273,
+        41.45213
+      ],
+      [
+        -72.46116,
+        41.45273
+      ],
+      [
+        -72.46115,
+        41.45317
+      ],
+      [
+        -72.46121,
+        41.45343
+      ],
+      [
+        -72.4616,
+        41.45437
+      ],
+      [
+        -72.46333,
+        41.4578
+      ],
+      [
+        -72.46355,
+        41.45833
+      ],
+      [
+        -72.46364,
+        41.45887
+      ],
+      [
+        -72.46395,
+        41.46136
+      ],
+      [
+        -72.46417,
+        41.46229
+      ],
+      [
+        -72.46423,
+        41.46308
+      ],
+      [
+        -72.4643,
+        41.46322
+      ],
+      [
+        -72.46476,
+        41.46379
+      ],
+      [
+        -72.46484,
+        41.46394
+      ],
+      [
+        -72.46496,
+        41.46427
+      ],
+      [
+        -72.46505,
+        41.46464
+      ],
+      [
+        -72.46536,
+        41.46646
+      ],
+      [
+        -72.46537,
+        41.46738
+      ],
+      [
+        -72.46542,
+        41.46794
+      ],
+      [
+        -72.46563,
+        41.46838
+      ],
+      [
+        -72.46636,
+        41.46936
+      ],
+      [
+        -72.46669,
+        41.46968
+      ],
+      [
+        -72.4673,
+        41.47015
+      ],
+      [
+        -72.46756,
+        41.47041
+      ],
+      [
+        -72.46766,
+        41.47055
+      ],
+      [
+        -72.4683,
+        41.4719
+      ],
+      [
+        -72.46915,
+        41.47388
+      ],
+      [
+        -72.46931,
+        41.47432
+      ],
+      [
+        -72.46938,
+        41.47463
+      ],
+      [
+        -72.46941,
+        41.47492
+      ],
+      [
+        -72.46939,
+        41.47553
+      ],
+      [
+        -72.46906,
+        41.47803
+      ],
+      [
+        -72.46903,
+        41.47818
+      ],
+      [
+        -72.46896,
+        41.47832
+      ],
+      [
+        -72.46861,
+        41.47881
+      ],
+      [
+        -72.46852,
+        41.47909
+      ],
+      [
+        -72.46853,
+        41.47941
+      ],
+      [
+        -72.46861,
+        41.47986
+      ],
+      [
+        -72.46887,
+        41.48071
+      ],
+      [
+        -72.46886,
+        41.48102
+      ],
+      [
+        -72.46876,
+        41.48128
+      ],
+      [
+        -72.46859,
+        41.48149
+      ],
+      [
+        -72.46727,
+        41.48249
+      ],
+      [
+        -72.46693,
+        41.48278
+      ],
+      [
+        -72.46676,
+        41.48302
+      ],
+      [
+        -72.46645,
+        41.48357
+      ],
+      [
+        -72.46631,
+        41.48388
+      ],
+      [
+        -72.46628,
+        41.48414
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Goodspeed Opera House",
+      "model": "farmhouse",
+      "at": 0.12821419537976317,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Goodspeed Opera House",
+      "model": "town-blocks",
+      "at": 0.12821419537976317,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "East Haddam Historic District",
+      "model": "town-blocks",
+      "at": 0.26348038109978994,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "harbor",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Johnsonville Village",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/east-haddam-bridge-and-route-149-990928.json",
+    "public/data/strips/east-haddam-bridge-and-route-149-990928.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,346 @@
+{
+  "authored": false,
+  "bywayId": "apple-blossom-scenic-drive-2238",
+  "title": "Apple Blossom Scenic Drive",
+  "longitude": -91.3355,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -91.30824,
+        43.82814
+      ],
+      [
+        -91.30858,
+        43.83624
+      ],
+      [
+        -91.30992,
+        43.83756
+      ],
+      [
+        -91.31294,
+        43.83881
+      ],
+      [
+        -91.31394,
+        43.84049
+      ],
+      [
+        -91.31504,
+        43.84741
+      ],
+      [
+        -91.31422,
+        43.84833
+      ],
+      [
+        -91.31186,
+        43.84848
+      ],
+      [
+        -91.31141,
+        43.84967
+      ],
+      [
+        -91.31315,
+        43.85122
+      ],
+      [
+        -91.31334,
+        43.85812
+      ],
+      [
+        -91.31538,
+        43.85974
+      ],
+      [
+        -91.32037,
+        43.85992
+      ],
+      [
+        -91.32218,
+        43.86057
+      ],
+      [
+        -91.3228,
+        43.86207
+      ],
+      [
+        -91.32197,
+        43.86489
+      ],
+      [
+        -91.32216,
+        43.866
+      ],
+      [
+        -91.32432,
+        43.86877
+      ],
+      [
+        -91.33323,
+        43.87132
+      ],
+      [
+        -91.33612,
+        43.87534
+      ],
+      [
+        -91.3374,
+        43.87606
+      ],
+      [
+        -91.3512,
+        43.87855
+      ],
+      [
+        -91.35237,
+        43.87949
+      ],
+      [
+        -91.35465,
+        43.88348
+      ],
+      [
+        -91.35818,
+        43.88645
+      ],
+      [
+        -91.36613,
+        43.88732
+      ],
+      [
+        -91.37401,
+        43.8875
+      ],
+      [
+        -91.37566,
+        43.88836
+      ],
+      [
+        -91.3763,
+        43.89135
+      ],
+      [
+        -91.37759,
+        43.89223
+      ],
+      [
+        -91.38706,
+        43.89297
+      ],
+      [
+        -91.39682,
+        43.89656
+      ],
+      [
+        -91.39865,
+        43.89817
+      ],
+      [
+        -91.39918,
+        43.90139
+      ],
+      [
+        -91.40586,
+        43.90102
+      ],
+      [
+        -91.41775,
+        43.90131
+      ],
+      [
+        -91.42731,
+        43.90487
+      ],
+      [
+        -91.436,
+        43.90491
+      ],
+      [
+        -91.43613,
+        43.92228
+      ],
+      [
+        -91.43687,
+        43.92398
+      ],
+      [
+        -91.43994,
+        43.92728
+      ],
+      [
+        -91.43664,
+        43.92823
+      ],
+      [
+        -91.42956,
+        43.93184
+      ],
+      [
+        -91.42883,
+        43.9336
+      ],
+      [
+        -91.42952,
+        43.93796
+      ],
+      [
+        -91.43037,
+        43.93938
+      ],
+      [
+        -91.43448,
+        43.94231
+      ],
+      [
+        -91.43984,
+        43.94348
+      ],
+      [
+        -91.44278,
+        43.9454
+      ],
+      [
+        -91.44448,
+        43.94719
+      ],
+      [
+        -91.44598,
+        43.95182
+      ],
+      [
+        -91.44028,
+        43.9597
+      ],
+      [
+        -91.4409,
+        43.9622
+      ],
+      [
+        -91.44028,
+        43.96414
+      ],
+      [
+        -91.42889,
+        43.9734
+      ],
+      [
+        -91.42663,
+        43.97442
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "La Crescent",
+      "model": "town-blocks",
+      "at": 0.007822769149895617,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dakota",
+      "model": "orchard",
+      "at": 0.42746396140073284,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dakota",
+      "model": "town-blocks",
+      "at": 0.42746396140073284,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Great River Bluffs State Park",
+      "model": "ledge",
+      "at": 0.800947854794622,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Dresbach",
+      "at": 0.3407407407407407,
+      "landmark": ""
+    },
+    {
+      "name": "Dakota",
+      "at": 0.42746396140073284,
+      "landmark": "Dakota"
+    },
+    {
+      "name": "Nodine",
+      "at": 0.634567901234568,
+      "landmark": ""
+    },
+    {
+      "name": "Donehower",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/apple-blossom-scenic-drive-2238.json",
+    "public/data/strips/apple-blossom-scenic-drive-2238.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

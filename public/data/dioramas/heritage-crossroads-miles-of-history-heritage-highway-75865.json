@@ -1,0 +1,435 @@
+{
+  "authored": false,
+  "bywayId": "heritage-crossroads-miles-of-history-heritage-highway-75865",
+  "title": "Heritage Crossroads: Miles of History Heritage Highway",
+  "longitude": -81.3693,
+  "ground": "prairie-grid",
+  "palette": "prairie",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.28544,
+        29.64035
+      ],
+      [
+        -81.28085,
+        29.61378
+      ],
+      [
+        -81.28322,
+        29.59903
+      ],
+      [
+        -81.27687,
+        29.57716
+      ],
+      [
+        -81.26388,
+        29.5496
+      ],
+      [
+        -81.26276,
+        29.51995
+      ],
+      [
+        -81.26772,
+        29.48284
+      ],
+      [
+        -81.26646,
+        29.47215
+      ],
+      [
+        -81.27699,
+        29.46704
+      ],
+      [
+        -81.3122,
+        29.46836
+      ],
+      [
+        -81.34754,
+        29.48191
+      ],
+      [
+        -81.34746,
+        29.49972
+      ],
+      [
+        -81.34558,
+        29.50282
+      ],
+      [
+        -81.31175,
+        29.50429
+      ],
+      [
+        -81.30939,
+        29.50947
+      ],
+      [
+        -81.31251,
+        29.52139
+      ],
+      [
+        -81.34612,
+        29.58598
+      ],
+      [
+        -81.36146,
+        29.6056
+      ],
+      [
+        -81.36922,
+        29.62335
+      ],
+      [
+        -81.37369,
+        29.64102
+      ],
+      [
+        -81.37998,
+        29.65177
+      ],
+      [
+        -81.28738,
+        29.65885
+      ],
+      [
+        -81.28544,
+        29.64035
+      ],
+      [
+        -81.27234,
+        29.63846
+      ],
+      [
+        -81.25792,
+        29.63306
+      ],
+      [
+        -81.25016,
+        29.62543
+      ],
+      [
+        -81.23226,
+        29.60018
+      ],
+      [
+        -81.23936,
+        29.59394
+      ],
+      [
+        -81.22018,
+        29.55851
+      ],
+      [
+        -81.21199,
+        29.556
+      ],
+      [
+        -81.21405,
+        29.54798
+      ],
+      [
+        -81.20228,
+        29.53276
+      ],
+      [
+        -81.20182,
+        29.52769
+      ],
+      [
+        -81.19117,
+        29.50637
+      ],
+      [
+        -81.18946,
+        29.49581
+      ],
+      [
+        -81.18209,
+        29.47911
+      ],
+      [
+        -81.17918,
+        29.47591
+      ],
+      [
+        -81.14583,
+        29.47645
+      ],
+      [
+        -81.13735,
+        29.45407
+      ],
+      [
+        -81.1305,
+        29.44674
+      ],
+      [
+        -81.11771,
+        29.40967
+      ],
+      [
+        -81.13772,
+        29.40325
+      ],
+      [
+        -81.18203,
+        29.40353
+      ],
+      [
+        -81.19714,
+        29.40685
+      ],
+      [
+        -81.20335,
+        29.4105
+      ],
+      [
+        -81.21098,
+        29.41954
+      ],
+      [
+        -81.23155,
+        29.43249
+      ],
+      [
+        -81.25346,
+        29.46269
+      ],
+      [
+        -81.25773,
+        29.46573
+      ],
+      [
+        -81.28505,
+        29.43381
+      ],
+      [
+        -81.29738,
+        29.42551
+      ],
+      [
+        -81.30458,
+        29.41423
+      ],
+      [
+        -81.31175,
+        29.37106
+      ],
+      [
+        -81.31041,
+        29.31988
+      ],
+      [
+        -81.33666,
+        29.27249
+      ],
+      [
+        -81.33472,
+        29.26533
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Codys Corner",
+      "model": "town-blocks",
+      "at": 0.9328324779690739,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "field",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    }
+  ],
+  "towns": [
+    {
+      "name": "Palm Coast",
+      "at": 0.0880232558139535,
+      "landmark": ""
+    },
+    {
+      "name": "Espanola",
+      "at": 0.24290697674418604,
+      "landmark": ""
+    },
+    {
+      "name": "Flagler Beach",
+      "at": 0.6496511627906977,
+      "landmark": ""
+    },
+    {
+      "name": "Dupont",
+      "at": 0.7827906976744186,
+      "landmark": ""
+    },
+    {
+      "name": "Codys Corner",
+      "at": 0.9332558139534884,
+      "landmark": "Codys Corner"
+    }
+  ],
+  "sources": [
+    "content/stories/heritage-crossroads-miles-of-history-heritage-highway-75865.json",
+    "public/data/strips/heritage-crossroads-miles-of-history-heritage-highway-75865.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

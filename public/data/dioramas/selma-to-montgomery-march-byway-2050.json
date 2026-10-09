@@ -1,0 +1,337 @@
+{
+  "authored": false,
+  "bywayId": "selma-to-montgomery-march-byway-2050",
+  "title": "Selma to Montgomery March Byway",
+  "longitude": -86.6638,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -87.01784,
+        32.41488
+      ],
+      [
+        -87.01492,
+        32.40986
+      ],
+      [
+        -87.01995,
+        32.40776
+      ],
+      [
+        -87.01658,
+        32.40184
+      ],
+      [
+        -87.0085,
+        32.37447
+      ],
+      [
+        -87.00691,
+        32.37174
+      ],
+      [
+        -87.00292,
+        32.36872
+      ],
+      [
+        -86.99219,
+        32.36478
+      ],
+      [
+        -86.97453,
+        32.35681
+      ],
+      [
+        -86.93927,
+        32.32748
+      ],
+      [
+        -86.90938,
+        32.32414
+      ],
+      [
+        -86.89372,
+        32.31747
+      ],
+      [
+        -86.8647,
+        32.31289
+      ],
+      [
+        -86.85393,
+        32.30964
+      ],
+      [
+        -86.83326,
+        32.30781
+      ],
+      [
+        -86.82019,
+        32.30335
+      ],
+      [
+        -86.80549,
+        32.29149
+      ],
+      [
+        -86.80264,
+        32.29001
+      ],
+      [
+        -86.76705,
+        32.28134
+      ],
+      [
+        -86.7606,
+        32.27765
+      ],
+      [
+        -86.73529,
+        32.2706
+      ],
+      [
+        -86.70945,
+        32.26749
+      ],
+      [
+        -86.69771,
+        32.26752
+      ],
+      [
+        -86.67913,
+        32.26171
+      ],
+      [
+        -86.64331,
+        32.26203
+      ],
+      [
+        -86.61626,
+        32.26625
+      ],
+      [
+        -86.59607,
+        32.26689
+      ],
+      [
+        -86.58442,
+        32.26924
+      ],
+      [
+        -86.57126,
+        32.26846
+      ],
+      [
+        -86.51386,
+        32.26981
+      ],
+      [
+        -86.50235,
+        32.27461
+      ],
+      [
+        -86.48704,
+        32.28327
+      ],
+      [
+        -86.47074,
+        32.29016
+      ],
+      [
+        -86.46563,
+        32.29167
+      ],
+      [
+        -86.45528,
+        32.29302
+      ],
+      [
+        -86.44373,
+        32.30026
+      ],
+      [
+        -86.43584,
+        32.30164
+      ],
+      [
+        -86.42751,
+        32.30138
+      ],
+      [
+        -86.41473,
+        32.30437
+      ],
+      [
+        -86.36215,
+        32.3108
+      ],
+      [
+        -86.34985,
+        32.31137
+      ],
+      [
+        -86.34952,
+        32.31772
+      ],
+      [
+        -86.34826,
+        32.32171
+      ],
+      [
+        -86.34409,
+        32.32877
+      ],
+      [
+        -86.34029,
+        32.3399
+      ],
+      [
+        -86.33969,
+        32.3449
+      ],
+      [
+        -86.33789,
+        32.35033
+      ],
+      [
+        -86.33599,
+        32.35125
+      ],
+      [
+        -86.32489,
+        32.3514
+      ],
+      [
+        -86.32517,
+        32.36601
+      ],
+      [
+        -86.32066,
+        32.3661
+      ],
+      [
+        -86.32081,
+        32.36964
+      ],
+      [
+        -86.31908,
+        32.36963
+      ],
+      [
+        -86.31518,
+        32.37372
+      ],
+      [
+        -86.30953,
+        32.37762
+      ],
+      [
+        -86.30127,
+        32.3777
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Edmund Pettus Bridge",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.016620577252687625,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Alabama State Capitol",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Selma",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Selmont-West Selmont",
+      "at": 0.06509803921568627,
+      "landmark": ""
+    },
+    {
+      "name": "Benton",
+      "at": 0.3050980392156863,
+      "landmark": ""
+    },
+    {
+      "name": "Lowndesboro",
+      "at": 0.560392156862745,
+      "landmark": ""
+    },
+    {
+      "name": "Montgomery",
+      "at": 0.9996078431372548,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/selma-to-montgomery-march-byway-2050.json",
+    "public/data/strips/selma-to-montgomery-march-byway-2050.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,416 @@
+{
+  "authored": false,
+  "bywayId": "mount-evans-scenic-byway-2112",
+  "title": "Mount Evans Scenic Byway",
+  "longitude": -105.5971,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -105.51958,
+        39.74134
+      ],
+      [
+        -105.52727,
+        39.73515
+      ],
+      [
+        -105.54239,
+        39.72856
+      ],
+      [
+        -105.5614,
+        39.72421
+      ],
+      [
+        -105.56971,
+        39.72003
+      ],
+      [
+        -105.57095,
+        39.7169
+      ],
+      [
+        -105.59386,
+        39.70884
+      ],
+      [
+        -105.60092,
+        39.70961
+      ],
+      [
+        -105.61725,
+        39.69422
+      ],
+      [
+        -105.6127,
+        39.6961
+      ],
+      [
+        -105.61567,
+        39.69264
+      ],
+      [
+        -105.612,
+        39.68482
+      ],
+      [
+        -105.61445,
+        39.68146
+      ],
+      [
+        -105.61245,
+        39.68062
+      ],
+      [
+        -105.61649,
+        39.68049
+      ],
+      [
+        -105.61678,
+        39.67724
+      ],
+      [
+        -105.61004,
+        39.67689
+      ],
+      [
+        -105.6065,
+        39.68202
+      ],
+      [
+        -105.60939,
+        39.68299
+      ],
+      [
+        -105.60576,
+        39.68321
+      ],
+      [
+        -105.60509,
+        39.67878
+      ],
+      [
+        -105.59513,
+        39.67561
+      ],
+      [
+        -105.5924,
+        39.67252
+      ],
+      [
+        -105.59776,
+        39.67114
+      ],
+      [
+        -105.59678,
+        39.66706
+      ],
+      [
+        -105.60216,
+        39.66665
+      ],
+      [
+        -105.60476,
+        39.66058
+      ],
+      [
+        -105.59309,
+        39.654
+      ],
+      [
+        -105.59888,
+        39.65465
+      ],
+      [
+        -105.60652,
+        39.65218
+      ],
+      [
+        -105.58441,
+        39.64795
+      ],
+      [
+        -105.59283,
+        39.64303
+      ],
+      [
+        -105.5904,
+        39.64573
+      ],
+      [
+        -105.60097,
+        39.64457
+      ],
+      [
+        -105.60676,
+        39.63588
+      ],
+      [
+        -105.6035,
+        39.63156
+      ],
+      [
+        -105.60385,
+        39.62635
+      ],
+      [
+        -105.5984,
+        39.62143
+      ],
+      [
+        -105.60835,
+        39.62133
+      ],
+      [
+        -105.60797,
+        39.61427
+      ],
+      [
+        -105.62391,
+        39.61025
+      ],
+      [
+        -105.62732,
+        39.60251
+      ],
+      [
+        -105.64072,
+        39.59763
+      ],
+      [
+        -105.62642,
+        39.58189
+      ],
+      [
+        -105.63728,
+        39.57933
+      ],
+      [
+        -105.62873,
+        39.58207
+      ],
+      [
+        -105.63184,
+        39.58401
+      ],
+      [
+        -105.63074,
+        39.58167
+      ],
+      [
+        -105.63344,
+        39.58305
+      ],
+      [
+        -105.63938,
+        39.58128
+      ],
+      [
+        -105.6371,
+        39.58312
+      ],
+      [
+        -105.64262,
+        39.58422
+      ],
+      [
+        -105.63811,
+        39.5849
+      ],
+      [
+        -105.64377,
+        39.58579
+      ],
+      [
+        -105.63999,
+        39.58592
+      ],
+      [
+        -105.64318,
+        39.58769
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Echo Lake",
+      "model": "alpine-lake",
+      "at": 0.46116947791738716,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Summit Lake",
+      "model": "alpine-lake",
+      "at": 0.8031849380301834,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mount Blue Sky",
+      "model": "snow-peak",
+      "at": 0.9959675931084192,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Idaho Springs Downtown Commercial District",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Echo Lake Park",
+      "at": 0.46064981949458483,
+      "landmark": ""
+    },
+    {
+      "name": "Summit Lake Park",
+      "at": 0.8021660649819494,
+      "landmark": ""
+    },
+    {
+      "name": "Mount Blue Sky",
+      "at": 0.9949458483754512,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/mount-evans-scenic-byway-2112.json",
+    "public/data/strips/mount-evans-scenic-byway-2112.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,453 @@
+{
+  "authored": false,
+  "bywayId": "lincoln-heritage-scenic-highway-2348",
+  "title": "Lincoln Heritage Scenic Highway",
+  "longitude": -85.3484,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -85.73295,
+        37.53139
+      ],
+      [
+        -85.73555,
+        37.54738
+      ],
+      [
+        -85.73464,
+        37.55863
+      ],
+      [
+        -85.74024,
+        37.57356
+      ],
+      [
+        -85.73067,
+        37.57311
+      ],
+      [
+        -85.71681,
+        37.57936
+      ],
+      [
+        -85.70469,
+        37.58096
+      ],
+      [
+        -85.69041,
+        37.58813
+      ],
+      [
+        -85.66986,
+        37.58616
+      ],
+      [
+        -85.66444,
+        37.58917
+      ],
+      [
+        -85.65983,
+        37.59954
+      ],
+      [
+        -85.64805,
+        37.60121
+      ],
+      [
+        -85.64032,
+        37.60508
+      ],
+      [
+        -85.63272,
+        37.61549
+      ],
+      [
+        -85.60702,
+        37.63202
+      ],
+      [
+        -85.60228,
+        37.63947
+      ],
+      [
+        -85.60134,
+        37.64702
+      ],
+      [
+        -85.59394,
+        37.6525
+      ],
+      [
+        -85.59148,
+        37.66323
+      ],
+      [
+        -85.57432,
+        37.67564
+      ],
+      [
+        -85.55638,
+        37.698
+      ],
+      [
+        -85.54687,
+        37.70079
+      ],
+      [
+        -85.53378,
+        37.71071
+      ],
+      [
+        -85.52545,
+        37.72317
+      ],
+      [
+        -85.52672,
+        37.72947
+      ],
+      [
+        -85.50736,
+        37.74092
+      ],
+      [
+        -85.50312,
+        37.75546
+      ],
+      [
+        -85.49679,
+        37.76574
+      ],
+      [
+        -85.49508,
+        37.77857
+      ],
+      [
+        -85.47096,
+        37.81002
+      ],
+      [
+        -85.45366,
+        37.80733
+      ],
+      [
+        -85.44348,
+        37.79887
+      ],
+      [
+        -85.42466,
+        37.79593
+      ],
+      [
+        -85.41897,
+        37.78847
+      ],
+      [
+        -85.4025,
+        37.7854
+      ],
+      [
+        -85.38891,
+        37.77642
+      ],
+      [
+        -85.36131,
+        37.77522
+      ],
+      [
+        -85.35157,
+        37.76334
+      ],
+      [
+        -85.31326,
+        37.75903
+      ],
+      [
+        -85.28467,
+        37.72886
+      ],
+      [
+        -85.27803,
+        37.71748
+      ],
+      [
+        -85.25867,
+        37.70951
+      ],
+      [
+        -85.24038,
+        37.69222
+      ],
+      [
+        -85.23381,
+        37.69129
+      ],
+      [
+        -85.21281,
+        37.68176
+      ],
+      [
+        -85.20161,
+        37.68629
+      ],
+      [
+        -85.19985,
+        37.67835
+      ],
+      [
+        -85.19464,
+        37.67246
+      ],
+      [
+        -85.1732,
+        37.66123
+      ],
+      [
+        -85.11079,
+        37.65782
+      ],
+      [
+        -85.08223,
+        37.65061
+      ],
+      [
+        -85.04336,
+        37.64716
+      ],
+      [
+        -85.00774,
+        37.65024
+      ],
+      [
+        -84.94853,
+        37.65045
+      ],
+      [
+        -84.91751,
+        37.65345
+      ],
+      [
+        -84.77404,
+        37.64592
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Bardstown",
+      "model": "steeple-town",
+      "at": 0.39902574915202715,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bardstown",
+      "model": "town-blocks",
+      "at": 0.39902574915202715,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mordecai Lincoln House",
+      "model": "farmhouse",
+      "at": 0.5967479560439195,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Perryville Battlefield",
+      "model": "ridge",
+      "at": 0.8513242319484176,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Hodgenville",
+      "at": 0.03997175141242938,
+      "landmark": ""
+    },
+    {
+      "name": "White City",
+      "at": 0.10677966101694915,
+      "landmark": ""
+    },
+    {
+      "name": "Athertonville",
+      "at": 0.17598870056497176,
+      "landmark": ""
+    },
+    {
+      "name": "Balltown",
+      "at": 0.3117231638418079,
+      "landmark": ""
+    },
+    {
+      "name": "Bardstown",
+      "at": 0.39887005649717516,
+      "landmark": "Bardstown"
+    },
+    {
+      "name": "Fredericktown",
+      "at": 0.507768361581921,
+      "landmark": ""
+    },
+    {
+      "name": "Saint Catharine",
+      "at": 0.5970338983050848,
+      "landmark": ""
+    },
+    {
+      "name": "Texas",
+      "at": 0.7365819209039548,
+      "landmark": ""
+    },
+    {
+      "name": "Perryville",
+      "at": 0.8610169491525425,
+      "landmark": ""
+    },
+    {
+      "name": "Danville",
+      "at": 0.9995762711864407,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/lincoln-heritage-scenic-highway-2348.json",
+    "public/data/strips/lincoln-heritage-scenic-highway-2348.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

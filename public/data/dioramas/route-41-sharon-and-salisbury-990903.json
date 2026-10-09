@@ -1,0 +1,406 @@
+{
+  "authored": false,
+  "bywayId": "route-41-sharon-and-salisbury-990903",
+  "title": "Route 41, Sharon and Salisbury",
+  "longitude": -73.4297,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -73.42224,
+        41.98354
+      ],
+      [
+        -73.42231,
+        41.98361
+      ],
+      [
+        -73.42241,
+        41.98383
+      ],
+      [
+        -73.42354,
+        41.98699
+      ],
+      [
+        -73.42381,
+        41.98848
+      ],
+      [
+        -73.42418,
+        41.98966
+      ],
+      [
+        -73.42439,
+        41.99003
+      ],
+      [
+        -73.42541,
+        41.9914
+      ],
+      [
+        -73.42612,
+        41.99254
+      ],
+      [
+        -73.42638,
+        41.99316
+      ],
+      [
+        -73.42649,
+        41.99369
+      ],
+      [
+        -73.42647,
+        41.99416
+      ],
+      [
+        -73.42633,
+        41.99484
+      ],
+      [
+        -73.42578,
+        41.99681
+      ],
+      [
+        -73.42482,
+        41.99865
+      ],
+      [
+        -73.42405,
+        42.00048
+      ],
+      [
+        -73.42395,
+        42.00079
+      ],
+      [
+        -73.42387,
+        42.00124
+      ],
+      [
+        -73.42388,
+        42.00255
+      ],
+      [
+        -73.42392,
+        42.00287
+      ],
+      [
+        -73.42563,
+        42.00864
+      ],
+      [
+        -73.42653,
+        42.01085
+      ],
+      [
+        -73.42671,
+        42.0112
+      ],
+      [
+        -73.42704,
+        42.01168
+      ],
+      [
+        -73.42857,
+        42.01331
+      ],
+      [
+        -73.42888,
+        42.01374
+      ],
+      [
+        -73.42906,
+        42.01414
+      ],
+      [
+        -73.43025,
+        42.01873
+      ],
+      [
+        -73.43034,
+        42.01941
+      ],
+      [
+        -73.43026,
+        42.01997
+      ],
+      [
+        -73.43007,
+        42.02049
+      ],
+      [
+        -73.42895,
+        42.02229
+      ],
+      [
+        -73.42868,
+        42.02283
+      ],
+      [
+        -73.42862,
+        42.02309
+      ],
+      [
+        -73.42862,
+        42.02373
+      ],
+      [
+        -73.42885,
+        42.0264
+      ],
+      [
+        -73.42884,
+        42.02716
+      ],
+      [
+        -73.42815,
+        42.03437
+      ],
+      [
+        -73.42803,
+        42.03518
+      ],
+      [
+        -73.42787,
+        42.03556
+      ],
+      [
+        -73.42681,
+        42.03735
+      ],
+      [
+        -73.42579,
+        42.03856
+      ],
+      [
+        -73.42535,
+        42.03899
+      ],
+      [
+        -73.42493,
+        42.03931
+      ],
+      [
+        -73.42457,
+        42.03966
+      ],
+      [
+        -73.42377,
+        42.04098
+      ],
+      [
+        -73.42351,
+        42.04154
+      ],
+      [
+        -73.42351,
+        42.04208
+      ],
+      [
+        -73.42372,
+        42.04336
+      ],
+      [
+        -73.4239,
+        42.04445
+      ],
+      [
+        -73.42414,
+        42.04537
+      ],
+      [
+        -73.42456,
+        42.04645
+      ],
+      [
+        -73.42534,
+        42.04809
+      ],
+      [
+        -73.42612,
+        42.04992
+      ],
+      [
+        -73.42618,
+        42.05013
+      ],
+      [
+        -73.4262,
+        42.05045
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Sharon",
+      "model": "steeple-town",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sharon",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lake Wononscopomuc",
+      "model": "alpine-lake",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Salisbury",
+      "at": 0.012499999999999956,
+      "landmark": ""
+    },
+    {
+      "name": "Mount Riga State Park",
+      "at": 0.7583333333333333,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-41-sharon-and-salisbury-990903.json",
+    "public/data/strips/route-41-sharon-and-salisbury-990903.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

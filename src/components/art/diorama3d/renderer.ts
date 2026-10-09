@@ -6,6 +6,8 @@ interface Slot {
   element: HTMLElement
   built: BuiltScene
   angle: number
+  tilt: number
+  labels: HTMLSpanElement[]
   dragging: boolean
   visible: boolean
   elapsed: number
@@ -47,10 +49,21 @@ function draw(now: number) {
     slot.built.update(slot.elapsed)
     const camera = slot.built.camera,
       aspect = r.width / r.height
-    camera.left = -5.7 * aspect
-    camera.right = 5.7 * aspect
-    camera.top = 5.7
-    camera.bottom = -5.7
+    const azimuth = Math.PI / 4 - slot.angle
+    const elevation = Math.PI / 5.3 + slot.tilt
+    // Projected square width / 85%: fill consistently throughout the turntable.
+    const half = (4 * (Math.abs(Math.cos(azimuth)) + Math.abs(Math.sin(azimuth)))) / 0.85
+    const span = Math.max(half / aspect, 5.6)
+    camera.position.set(
+      Math.cos(Math.PI / 4) * 20 * Math.cos(elevation),
+      0.7 + 20 * Math.sin(elevation),
+      Math.sin(Math.PI / 4) * 20 * Math.cos(elevation),
+    )
+    camera.lookAt(0, 0.7, 0)
+    camera.left = -span * aspect
+    camera.right = span * aspect
+    camera.top = span
+    camera.bottom = -span
     camera.updateProjectionMatrix()
     renderer.setViewport(r.left, height - r.bottom, r.width, r.height)
     renderer.setScissor(
@@ -60,6 +73,14 @@ function draw(now: number) {
       Math.min(height, r.bottom) - Math.max(0, r.top),
     )
     renderer.render(slot.built.scene, camera)
+    slot.built.world.updateMatrixWorld(true)
+    slot.built.townAnchors.forEach((town, i) => {
+      const point = town.point.clone().applyMatrix4(slot.built.world.matrixWorld).project(camera)
+      const label = slot.labels[i]
+      label.style.left = `${(point.x + 1) * 50}%`
+      label.style.top = `${(1 - point.y) * 50}%`
+      label.hidden = Math.abs(point.x) > 0.94 || Math.abs(point.y) > 0.94
+    })
   }
   if (active && !reduced()) frame = requestAnimationFrame(draw)
 }
@@ -89,7 +110,14 @@ function createRenderer() {
 }
 export function registerScene(element: HTMLElement, built: BuiltScene) {
   if (!renderer) createRenderer()
-  const slot: Slot = { element, built, angle: 0, dragging: false, visible: false, elapsed: 0 }
+  const labels = built.townAnchors.map((town) => {
+    const label = document.createElement('span')
+    label.className = 'rr-mini-town'
+    label.textContent = town.name
+    element.append(label)
+    return label
+  })
+  const slot: Slot = { element, built, labels, angle: 0, tilt: 0, dragging: false, visible: false, elapsed: 0 }
   slots.add(slot)
   observer!.observe(element)
   wake()
@@ -101,6 +129,10 @@ export function registerScene(element: HTMLElement, built: BuiltScene) {
       if (Number.isFinite(delta)) slot.angle += delta
       wake()
     },
+    tiltBy(delta: number) {
+      if (Number.isFinite(delta)) slot.tilt = T.MathUtils.clamp(slot.tilt + delta, -Math.PI / 12, Math.PI / 12)
+      wake()
+    },
     release() {
       slot.dragging = false
       wake()
@@ -108,6 +140,7 @@ export function registerScene(element: HTMLElement, built: BuiltScene) {
     dispose() {
       observer!.unobserve(element)
       slots.delete(slot)
+      labels.forEach((label) => label.remove())
       built.dispose()
       wake()
       if (!slots.size) {

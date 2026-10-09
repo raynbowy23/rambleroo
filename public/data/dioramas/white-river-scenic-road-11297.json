@@ -1,0 +1,142 @@
+{
+  "authored": false,
+  "bywayId": "white-river-scenic-road-11297",
+  "title": "White River Scenic Road",
+  "longitude": -109.9007,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -109.9047,
+        34.0804
+      ],
+      [
+        -109.9098,
+        34.0675
+      ],
+      [
+        -109.9175,
+        34.0607
+      ],
+      [
+        -109.917,
+        34.0575
+      ],
+      [
+        -109.9194,
+        34.0484
+      ],
+      [
+        -109.9222,
+        34.044
+      ],
+      [
+        -109.9221,
+        34.04
+      ],
+      [
+        -109.9205,
+        34.0361
+      ],
+      [
+        -109.9109,
+        34.0291
+      ],
+      [
+        -109.909,
+        34.0256
+      ],
+      [
+        -109.9026,
+        34.0199
+      ],
+      [
+        -109.9004,
+        34.012
+      ],
+      [
+        -109.9063,
+        33.9991
+      ],
+      [
+        -109.9164,
+        33.9824
+      ],
+      [
+        -109.9178,
+        33.976
+      ],
+      [
+        -109.9251,
+        33.9686
+      ],
+      [
+        -109.9247,
+        33.9602
+      ],
+      [
+        -109.9338,
+        33.9421
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

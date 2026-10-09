@@ -1,0 +1,366 @@
+{
+  "authored": false,
+  "bywayId": "grant-wood-scenic-byway-2183",
+  "title": "Grant Wood Scenic Byway",
+  "longitude": -90.9906,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -91.28516,
+        42.10828
+      ],
+      [
+        -91.27949,
+        42.10829
+      ],
+      [
+        -91.27809,
+        42.10475
+      ],
+      [
+        -91.2666,
+        42.10383
+      ],
+      [
+        -91.24152,
+        42.09544
+      ],
+      [
+        -91.23804,
+        42.08707
+      ],
+      [
+        -91.23462,
+        42.0849
+      ],
+      [
+        -91.17652,
+        42.08443
+      ],
+      [
+        -91.14877,
+        42.07086
+      ],
+      [
+        -91.1259,
+        42.06355
+      ],
+      [
+        -91.08311,
+        42.06266
+      ],
+      [
+        -91.04765,
+        42.05395
+      ],
+      [
+        -91.02501,
+        42.05598
+      ],
+      [
+        -91.01745,
+        42.05878
+      ],
+      [
+        -90.99579,
+        42.05893
+      ],
+      [
+        -90.99349,
+        42.0657
+      ],
+      [
+        -90.98192,
+        42.06754
+      ],
+      [
+        -90.96929,
+        42.07413
+      ],
+      [
+        -90.94441,
+        42.07345
+      ],
+      [
+        -90.92827,
+        42.06651
+      ],
+      [
+        -90.90758,
+        42.07327
+      ],
+      [
+        -90.83643,
+        42.07319
+      ],
+      [
+        -90.81928,
+        42.07571
+      ],
+      [
+        -90.73151,
+        42.05531
+      ],
+      [
+        -90.70499,
+        42.05459
+      ],
+      [
+        -90.69474,
+        42.05987
+      ],
+      [
+        -90.68729,
+        42.06828
+      ],
+      [
+        -90.68213,
+        42.06888
+      ],
+      [
+        -90.68233,
+        42.07919
+      ],
+      [
+        -90.69829,
+        42.07989
+      ],
+      [
+        -90.70468,
+        42.08477
+      ],
+      [
+        -90.71966,
+        42.08734
+      ],
+      [
+        -90.73561,
+        42.09943
+      ],
+      [
+        -90.75811,
+        42.10602
+      ],
+      [
+        -90.76534,
+        42.1194
+      ],
+      [
+        -90.77173,
+        42.14161
+      ],
+      [
+        -90.76099,
+        42.14639
+      ],
+      [
+        -90.74201,
+        42.16278
+      ],
+      [
+        -90.73137,
+        42.16444
+      ],
+      [
+        -90.64933,
+        42.16565
+      ],
+      [
+        -90.63069,
+        42.16396
+      ],
+      [
+        -90.62446,
+        42.15695
+      ],
+      [
+        -90.59469,
+        42.15695
+      ],
+      [
+        -90.59461,
+        42.15294
+      ],
+      [
+        -90.56883,
+        42.15137
+      ],
+      [
+        -90.54102,
+        42.15528
+      ],
+      [
+        -90.53396,
+        42.15789
+      ],
+      [
+        -90.52697,
+        42.16407
+      ],
+      [
+        -90.47714,
+        42.16397
+      ],
+      [
+        -90.4763,
+        42.18908
+      ],
+      [
+        -90.46449,
+        42.19501
+      ],
+      [
+        -90.46064,
+        42.20438
+      ],
+      [
+        -90.44276,
+        42.22559
+      ],
+      [
+        -90.44161,
+        42.23201
+      ],
+      [
+        -90.41461,
+        42.24345
+      ],
+      [
+        -90.42307,
+        42.25868
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Stone City",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bellevue",
+      "model": "dam",
+      "at": 0.9980151564411026,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bellevue",
+      "model": "town-blocks",
+      "at": 0.9980151564411026,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Anamosa",
+      "at": 0.017065868263473054,
+      "landmark": ""
+    },
+    {
+      "name": "Wyoming",
+      "at": 0.23712574850299403,
+      "landmark": ""
+    },
+    {
+      "name": "Baldwin",
+      "at": 0.3770958083832336,
+      "landmark": ""
+    },
+    {
+      "name": "Maquoketa",
+      "at": 0.5079189486571625,
+      "landmark": ""
+    },
+    {
+      "name": "Fulton",
+      "at": 0.7100299401197605,
+      "landmark": ""
+    },
+    {
+      "name": "Andrew",
+      "at": 0.7842814371257485,
+      "landmark": ""
+    },
+    {
+      "name": "Springbrook",
+      "at": 0.8799401197604791,
+      "landmark": ""
+    },
+    {
+      "name": "Bellevue",
+      "at": 0.9983532934131737,
+      "landmark": "Bellevue"
+    }
+  ],
+  "sources": [
+    "content/stories/grant-wood-scenic-byway-2183.json",
+    "public/data/strips/grant-wood-scenic-byway-2183.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

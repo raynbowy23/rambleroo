@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "guanella-pass-road-2110",
+  "title": "Guanella Pass Road",
+  "longitude": -105.7227,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -105.69798,
+        39.70372
+      ],
+      [
+        -105.69689,
+        39.70363
+      ],
+      [
+        -105.69996,
+        39.70316
+      ],
+      [
+        -105.69569,
+        39.70286
+      ],
+      [
+        -105.70059,
+        39.70172
+      ],
+      [
+        -105.69481,
+        39.69932
+      ],
+      [
+        -105.70289,
+        39.68243
+      ],
+      [
+        -105.69951,
+        39.67675
+      ],
+      [
+        -105.70294,
+        39.67942
+      ],
+      [
+        -105.70583,
+        39.67628
+      ],
+      [
+        -105.70314,
+        39.6694
+      ],
+      [
+        -105.70945,
+        39.65522
+      ],
+      [
+        -105.70764,
+        39.65087
+      ],
+      [
+        -105.70768,
+        39.63895
+      ],
+      [
+        -105.71064,
+        39.63436
+      ],
+      [
+        -105.71284,
+        39.62422
+      ],
+      [
+        -105.71801,
+        39.61255
+      ],
+      [
+        -105.7179,
+        39.60963
+      ],
+      [
+        -105.71495,
+        39.60954
+      ],
+      [
+        -105.7113,
+        39.60484
+      ],
+      [
+        -105.71383,
+        39.60584
+      ],
+      [
+        -105.70804,
+        39.59906
+      ],
+      [
+        -105.71024,
+        39.60039
+      ],
+      [
+        -105.70919,
+        39.59815
+      ],
+      [
+        -105.71089,
+        39.59514
+      ],
+      [
+        -105.71851,
+        39.58997
+      ],
+      [
+        -105.71904,
+        39.58334
+      ],
+      [
+        -105.72195,
+        39.57948
+      ],
+      [
+        -105.72181,
+        39.57714
+      ],
+      [
+        -105.72669,
+        39.57555
+      ],
+      [
+        -105.72461,
+        39.57298
+      ],
+      [
+        -105.72395,
+        39.56701
+      ],
+      [
+        -105.71776,
+        39.55915
+      ],
+      [
+        -105.7176,
+        39.55249
+      ],
+      [
+        -105.72016,
+        39.55613
+      ],
+      [
+        -105.7211,
+        39.55333
+      ],
+      [
+        -105.71868,
+        39.54802
+      ],
+      [
+        -105.72018,
+        39.54224
+      ],
+      [
+        -105.72872,
+        39.53421
+      ],
+      [
+        -105.73165,
+        39.52586
+      ],
+      [
+        -105.7298,
+        39.52197
+      ],
+      [
+        -105.72512,
+        39.51792
+      ],
+      [
+        -105.71243,
+        39.51301
+      ],
+      [
+        -105.71135,
+        39.509
+      ],
+      [
+        -105.70879,
+        39.50713
+      ],
+      [
+        -105.70593,
+        39.50829
+      ],
+      [
+        -105.70808,
+        39.50641
+      ],
+      [
+        -105.70338,
+        39.50488
+      ],
+      [
+        -105.69724,
+        39.49795
+      ],
+      [
+        -105.69414,
+        39.48744
+      ],
+      [
+        -105.69433,
+        39.48261
+      ],
+      [
+        -105.68305,
+        39.47268
+      ],
+      [
+        -105.6758,
+        39.47014
+      ],
+      [
+        -105.67204,
+        39.46476
+      ],
+      [
+        -105.66646,
+        39.46342
+      ],
+      [
+        -105.66172,
+        39.45955
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Georgetown",
+      "model": "town-blocks",
+      "at": 0.002291035967518301,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grant",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Georgetown",
+      "at": 0.0021097046413502112,
+      "landmark": "Georgetown"
+    },
+    {
+      "name": "Guanella Pass",
+      "at": 0.4451476793248946,
+      "landmark": ""
+    },
+    {
+      "name": "Arrowhead Mountain",
+      "at": 0.7987341772151899,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/guanella-pass-road-2110.json",
+    "public/data/strips/guanella-pass-road-2110.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

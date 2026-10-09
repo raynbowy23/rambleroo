@@ -1,0 +1,402 @@
+{
+  "authored": false,
+  "bywayId": "trail-ridge-road-beaver-meadow-road-2102",
+  "title": "Trail Ridge Road/Beaver Meadow Road",
+  "longitude": -105.7877,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -105.61078,
+        40.38712
+      ],
+      [
+        -105.58615,
+        40.37063
+      ],
+      [
+        -105.59217,
+        40.36842
+      ],
+      [
+        -105.58439,
+        40.36573
+      ],
+      [
+        -105.56805,
+        40.36947
+      ],
+      [
+        -105.54798,
+        40.3635
+      ],
+      [
+        -105.52354,
+        40.37292
+      ],
+      [
+        -105.54131,
+        40.38295
+      ],
+      [
+        -105.55463,
+        40.38266
+      ],
+      [
+        -105.56922,
+        40.39864
+      ],
+      [
+        -105.59741,
+        40.40602
+      ],
+      [
+        -105.60337,
+        40.40187
+      ],
+      [
+        -105.62259,
+        40.40626
+      ],
+      [
+        -105.62718,
+        40.40334
+      ],
+      [
+        -105.62614,
+        40.39831
+      ],
+      [
+        -105.6164,
+        40.39511
+      ],
+      [
+        -105.61078,
+        40.38712
+      ],
+      [
+        -105.64422,
+        40.39978
+      ],
+      [
+        -105.65051,
+        40.39684
+      ],
+      [
+        -105.64356,
+        40.39835
+      ],
+      [
+        -105.63118,
+        40.38745
+      ],
+      [
+        -105.64343,
+        40.39473
+      ],
+      [
+        -105.65441,
+        40.38688
+      ],
+      [
+        -105.66675,
+        40.38584
+      ],
+      [
+        -105.67527,
+        40.38973
+      ],
+      [
+        -105.66382,
+        40.40048
+      ],
+      [
+        -105.66676,
+        40.40223
+      ],
+      [
+        -105.68615,
+        40.39274
+      ],
+      [
+        -105.70835,
+        40.39326
+      ],
+      [
+        -105.71024,
+        40.40334
+      ],
+      [
+        -105.71812,
+        40.40968
+      ],
+      [
+        -105.74343,
+        40.41233
+      ],
+      [
+        -105.74879,
+        40.42296
+      ],
+      [
+        -105.75292,
+        40.42097
+      ],
+      [
+        -105.76064,
+        40.43073
+      ],
+      [
+        -105.76827,
+        40.43282
+      ],
+      [
+        -105.75583,
+        40.44068
+      ],
+      [
+        -105.75446,
+        40.44719
+      ],
+      [
+        -105.76191,
+        40.441
+      ],
+      [
+        -105.78595,
+        40.4369
+      ],
+      [
+        -105.8026,
+        40.42792
+      ],
+      [
+        -105.83116,
+        40.39894
+      ],
+      [
+        -105.835,
+        40.3994
+      ],
+      [
+        -105.83809,
+        40.41005
+      ],
+      [
+        -105.83873,
+        40.40538
+      ],
+      [
+        -105.84423,
+        40.40834
+      ],
+      [
+        -105.8483,
+        40.41679
+      ],
+      [
+        -105.84469,
+        40.39438
+      ],
+      [
+        -105.85328,
+        40.37476
+      ],
+      [
+        -105.85757,
+        40.33872
+      ],
+      [
+        -105.85244,
+        40.32109
+      ],
+      [
+        -105.84323,
+        40.3148
+      ],
+      [
+        -105.84281,
+        40.28837
+      ],
+      [
+        -105.83092,
+        40.26143
+      ],
+      [
+        -105.83814,
+        40.2579
+      ],
+      [
+        -105.83563,
+        40.25064
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Alpine Visitor Center",
+      "model": "snow-peak",
+      "at": 0.5938696943470175,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Beaver Meadows Visitor Center",
+      "at": 0.07974217311233878,
+      "landmark": ""
+    },
+    {
+      "name": "Fall River Pass",
+      "at": 0.5941068139963168,
+      "landmark": ""
+    },
+    {
+      "name": "Milner Pass",
+      "at": 0.6734806629834253,
+      "landmark": ""
+    },
+    {
+      "name": "Grand Lake",
+      "at": 0.9983425414364641,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/trail-ridge-road-beaver-meadow-road-2102.json",
+    "public/data/strips/trail-ridge-road-beaver-meadow-road-2102.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

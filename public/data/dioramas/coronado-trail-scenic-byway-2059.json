@@ -1,0 +1,416 @@
+{
+  "authored": false,
+  "bywayId": "coronado-trail-scenic-byway-2059",
+  "title": "Coronado Trail Scenic Byway",
+  "longitude": -109.3436,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -109.32481,
+        33.05062
+      ],
+      [
+        -109.34027,
+        33.06938
+      ],
+      [
+        -109.38076,
+        33.07574
+      ],
+      [
+        -109.37492,
+        33.15327
+      ],
+      [
+        -109.36382,
+        33.16993
+      ],
+      [
+        -109.38571,
+        33.18674
+      ],
+      [
+        -109.37553,
+        33.20994
+      ],
+      [
+        -109.39346,
+        33.2279
+      ],
+      [
+        -109.37789,
+        33.23738
+      ],
+      [
+        -109.36892,
+        33.24935
+      ],
+      [
+        -109.37163,
+        33.25921
+      ],
+      [
+        -109.35633,
+        33.27453
+      ],
+      [
+        -109.36086,
+        33.29666
+      ],
+      [
+        -109.34996,
+        33.30532
+      ],
+      [
+        -109.34596,
+        33.3526
+      ],
+      [
+        -109.32613,
+        33.37091
+      ],
+      [
+        -109.33266,
+        33.37896
+      ],
+      [
+        -109.32936,
+        33.39409
+      ],
+      [
+        -109.3696,
+        33.41457
+      ],
+      [
+        -109.37033,
+        33.4295
+      ],
+      [
+        -109.37654,
+        33.42849
+      ],
+      [
+        -109.37676,
+        33.44216
+      ],
+      [
+        -109.36933,
+        33.45114
+      ],
+      [
+        -109.36118,
+        33.44852
+      ],
+      [
+        -109.37154,
+        33.46141
+      ],
+      [
+        -109.35926,
+        33.46505
+      ],
+      [
+        -109.37442,
+        33.47296
+      ],
+      [
+        -109.37477,
+        33.48213
+      ],
+      [
+        -109.34345,
+        33.48756
+      ],
+      [
+        -109.31695,
+        33.51615
+      ],
+      [
+        -109.30687,
+        33.51756
+      ],
+      [
+        -109.30464,
+        33.52824
+      ],
+      [
+        -109.33231,
+        33.57003
+      ],
+      [
+        -109.35428,
+        33.56639
+      ],
+      [
+        -109.36454,
+        33.58172
+      ],
+      [
+        -109.32791,
+        33.61529
+      ],
+      [
+        -109.32621,
+        33.64032
+      ],
+      [
+        -109.2711,
+        33.65331
+      ],
+      [
+        -109.25024,
+        33.67943
+      ],
+      [
+        -109.20963,
+        33.69597
+      ],
+      [
+        -109.19803,
+        33.72353
+      ],
+      [
+        -109.20433,
+        33.74549
+      ],
+      [
+        -109.21698,
+        33.75741
+      ],
+      [
+        -109.15566,
+        33.79376
+      ],
+      [
+        -109.16214,
+        33.81568
+      ],
+      [
+        -109.14649,
+        33.84874
+      ],
+      [
+        -109.16605,
+        33.86918
+      ],
+      [
+        -109.15569,
+        33.89748
+      ],
+      [
+        -109.21123,
+        33.95253
+      ],
+      [
+        -109.18877,
+        33.98564
+      ],
+      [
+        -109.18354,
+        34.02648
+      ],
+      [
+        -109.20273,
+        34.09077
+      ],
+      [
+        -109.21744,
+        34.09987
+      ],
+      [
+        -109.241,
+        34.0891
+      ],
+      [
+        -109.27005,
+        34.13284
+      ],
+      [
+        -109.2857,
+        34.13362
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Morenci Mine",
+      "model": "false-front-town",
+      "at": 0.05746022633127232,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Alpine",
+      "model": "town-blocks",
+      "at": 0.7682210731605037,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Stargo",
+      "at": 0.028229255774166018,
+      "landmark": ""
+    },
+    {
+      "name": "Alpine",
+      "at": 0.7682634730538922,
+      "landmark": "Alpine"
+    },
+    {
+      "name": "Nutrioso",
+      "at": 0.846792130025663,
+      "landmark": ""
+    },
+    {
+      "name": "Springerville",
+      "at": 0.9967493584260051,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/coronado-trail-scenic-byway-2059.json",
+    "public/data/strips/coronado-trail-scenic-byway-2059.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

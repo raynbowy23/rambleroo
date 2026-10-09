@@ -1,0 +1,228 @@
+{
+  "authored": false,
+  "bywayId": "route-156-monterey-county-2312",
+  "title": "Route 156--Monterey County",
+  "longitude": -121.7072,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -121.74665,
+        36.7669
+      ],
+      [
+        -121.74554,
+        36.7675
+      ],
+      [
+        -121.74483,
+        36.76778
+      ],
+      [
+        -121.74158,
+        36.76872
+      ],
+      [
+        -121.73942,
+        36.76951
+      ],
+      [
+        -121.73936,
+        36.76957
+      ],
+      [
+        -121.71986,
+        36.77519
+      ],
+      [
+        -121.71431,
+        36.77686
+      ],
+      [
+        -121.70651,
+        36.77904
+      ],
+      [
+        -121.70347,
+        36.77995
+      ],
+      [
+        -121.7003,
+        36.78083
+      ],
+      [
+        -121.6921,
+        36.78321
+      ],
+      [
+        -121.69069,
+        36.78372
+      ],
+      [
+        -121.68322,
+        36.78699
+      ],
+      [
+        -121.68194,
+        36.78746
+      ],
+      [
+        -121.68086,
+        36.78773
+      ],
+      [
+        -121.67415,
+        36.78881
+      ],
+      [
+        -121.67289,
+        36.78885
+      ],
+      [
+        -121.67112,
+        36.78871
+      ],
+      [
+        -121.67011,
+        36.78879
+      ],
+      [
+        -121.66921,
+        36.789
+      ],
+      [
+        -121.66756,
+        36.78957
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Castroville",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Prunedale",
+      "model": "orchard",
+      "at": 0.9556488707649811,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Prunedale",
+      "model": "town-blocks",
+      "at": 0.9556488707649811,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Castroville",
+      "at": 0,
+      "landmark": "Castroville"
+    },
+    {
+      "name": "Prunedale",
+      "at": 0.9510638297872339,
+      "landmark": "Prunedale"
+    }
+  ],
+  "sources": [
+    "content/stories/route-156-monterey-county-2312.json",
+    "public/data/strips/route-156-monterey-county-2312.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

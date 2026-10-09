@@ -1,0 +1,363 @@
+{
+  "authored": false,
+  "bywayId": "lower-wisconsin-river-road-scenic-byway-80920",
+  "title": "Lower Wisconsin River Road Scenic Byway",
+  "longitude": -90.2987,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -89.52663,
+        43.31383
+      ],
+      [
+        -89.54468,
+        43.30118
+      ],
+      [
+        -89.56298,
+        43.29986
+      ],
+      [
+        -89.60078,
+        43.30148
+      ],
+      [
+        -89.63199,
+        43.30763
+      ],
+      [
+        -89.65597,
+        43.30835
+      ],
+      [
+        -89.66574,
+        43.30412
+      ],
+      [
+        -89.6747,
+        43.31029
+      ],
+      [
+        -89.69621,
+        43.30695
+      ],
+      [
+        -89.72291,
+        43.29302
+      ],
+      [
+        -89.71797,
+        43.28548
+      ],
+      [
+        -89.72213,
+        43.27084
+      ],
+      [
+        -89.79457,
+        43.27066
+      ],
+      [
+        -89.81668,
+        43.25098
+      ],
+      [
+        -89.83919,
+        43.24668
+      ],
+      [
+        -89.84385,
+        43.24015
+      ],
+      [
+        -89.87171,
+        43.22619
+      ],
+      [
+        -89.87644,
+        43.21696
+      ],
+      [
+        -89.87582,
+        43.20589
+      ],
+      [
+        -89.90638,
+        43.19813
+      ],
+      [
+        -89.9358,
+        43.20144
+      ],
+      [
+        -89.94599,
+        43.19713
+      ],
+      [
+        -89.97884,
+        43.20464
+      ],
+      [
+        -90.02055,
+        43.19717
+      ],
+      [
+        -90.03299,
+        43.19004
+      ],
+      [
+        -90.21699,
+        43.19149
+      ],
+      [
+        -90.2872,
+        43.21705
+      ],
+      [
+        -90.29156,
+        43.22326
+      ],
+      [
+        -90.30279,
+        43.22271
+      ],
+      [
+        -90.30531,
+        43.21627
+      ],
+      [
+        -90.31635,
+        43.21394
+      ],
+      [
+        -90.43123,
+        43.20195
+      ],
+      [
+        -90.44876,
+        43.20455
+      ],
+      [
+        -90.46305,
+        43.21278
+      ],
+      [
+        -90.4666,
+        43.2196
+      ],
+      [
+        -90.55833,
+        43.21978
+      ],
+      [
+        -90.56515,
+        43.2074
+      ],
+      [
+        -90.64541,
+        43.20403
+      ],
+      [
+        -90.70606,
+        43.16792
+      ],
+      [
+        -90.70587,
+        43.16292
+      ],
+      [
+        -90.71455,
+        43.1543
+      ],
+      [
+        -90.74556,
+        43.13498
+      ],
+      [
+        -90.81221,
+        43.10517
+      ],
+      [
+        -90.858,
+        43.1006
+      ],
+      [
+        -90.86804,
+        43.09043
+      ],
+      [
+        -90.88426,
+        43.08348
+      ],
+      [
+        -90.92866,
+        43.07937
+      ],
+      [
+        -90.95512,
+        43.06097
+      ],
+      [
+        -90.98343,
+        43.04901
+      ],
+      [
+        -90.99092,
+        43.03247
+      ],
+      [
+        -91.02621,
+        43.02523
+      ],
+      [
+        -91.04299,
+        43.01226
+      ],
+      [
+        -91.05889,
+        43.00898
+      ],
+      [
+        -91.10959,
+        43.01658
+      ],
+      [
+        -91.13789,
+        43.03512
+      ],
+      [
+        -91.1412,
+        43.05125
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Sauk Prairie",
+      "model": "steeple-town",
+      "at": 0.12469822931683563,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sauk Prairie",
+      "model": "town-blocks",
+      "at": 0.12469822931683563,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Spring Green",
+      "model": "town-blocks",
+      "at": 0.3453382300113229,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Riverway sandbars",
+      "model": "sandbar",
+      "at": 0.5487630147883431,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Wyalusing State Park",
+      "model": "ledge",
+      "at": 0.9656785607369154,
+      "offset": "roadside",
+      "notes": "Story moment 4; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Sauk City",
+      "at": 0.13309426229508198,
+      "landmark": ""
+    },
+    {
+      "name": "Spring Green",
+      "at": 0.3626024590163935,
+      "landmark": "Spring Green"
+    },
+    {
+      "name": "Lone Rock",
+      "at": 0.41147540983606556,
+      "landmark": ""
+    },
+    {
+      "name": "Muscoda",
+      "at": 0.5544057377049181,
+      "landmark": ""
+    },
+    {
+      "name": "Boscobel",
+      "at": 0.7273565573770492,
+      "landmark": ""
+    },
+    {
+      "name": "Prairie du Chien",
+      "at": 0.9995901639344263,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/lower-wisconsin-river-road-scenic-byway-80920.json",
+    "public/data/strips/lower-wisconsin-river-road-scenic-byway-80920.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

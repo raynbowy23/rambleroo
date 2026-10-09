@@ -1,0 +1,382 @@
+{
+  "authored": false,
+  "bywayId": "route-112-scenic-byway-75246",
+  "title": "Route 112 Scenic Byway",
+  "longitude": -72.9066,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -72.72139,
+        42.73411
+      ],
+      [
+        -72.71339,
+        42.72887
+      ],
+      [
+        -72.70299,
+        42.70836
+      ],
+      [
+        -72.69689,
+        42.70238
+      ],
+      [
+        -72.69029,
+        42.68208
+      ],
+      [
+        -72.69689,
+        42.67274
+      ],
+      [
+        -72.71085,
+        42.6745
+      ],
+      [
+        -72.71543,
+        42.67207
+      ],
+      [
+        -72.71745,
+        42.66647
+      ],
+      [
+        -72.71418,
+        42.65916
+      ],
+      [
+        -72.71536,
+        42.64957
+      ],
+      [
+        -72.72054,
+        42.64208
+      ],
+      [
+        -72.7334,
+        42.63503
+      ],
+      [
+        -72.73661,
+        42.62905
+      ],
+      [
+        -72.7342,
+        42.62531
+      ],
+      [
+        -72.73495,
+        42.61106
+      ],
+      [
+        -72.74719,
+        42.61744
+      ],
+      [
+        -72.76911,
+        42.6131
+      ],
+      [
+        -72.79962,
+        42.57999
+      ],
+      [
+        -72.80513,
+        42.55648
+      ],
+      [
+        -72.80104,
+        42.54432
+      ],
+      [
+        -72.80405,
+        42.54066
+      ],
+      [
+        -72.81138,
+        42.50463
+      ],
+      [
+        -72.80762,
+        42.49634
+      ],
+      [
+        -72.80973,
+        42.47129
+      ],
+      [
+        -72.80324,
+        42.44624
+      ],
+      [
+        -72.82058,
+        42.44972
+      ],
+      [
+        -72.83068,
+        42.45609
+      ],
+      [
+        -72.85159,
+        42.45561
+      ],
+      [
+        -72.86138,
+        42.44177
+      ],
+      [
+        -72.86702,
+        42.44024
+      ],
+      [
+        -72.87573,
+        42.45143
+      ],
+      [
+        -72.88342,
+        42.45566
+      ],
+      [
+        -72.9109,
+        42.46743
+      ],
+      [
+        -72.93211,
+        42.46886
+      ],
+      [
+        -72.93341,
+        42.44932
+      ],
+      [
+        -72.93827,
+        42.4457
+      ],
+      [
+        -72.93948,
+        42.43913
+      ],
+      [
+        -72.92259,
+        42.42697
+      ],
+      [
+        -72.92428,
+        42.41858
+      ],
+      [
+        -72.93704,
+        42.41024
+      ],
+      [
+        -72.93811,
+        42.40101
+      ],
+      [
+        -72.92901,
+        42.38422
+      ],
+      [
+        -72.91024,
+        42.36942
+      ],
+      [
+        -72.90456,
+        42.35193
+      ],
+      [
+        -72.88894,
+        42.3427
+      ],
+      [
+        -72.88081,
+        42.33172
+      ],
+      [
+        -72.87122,
+        42.32542
+      ],
+      [
+        -72.86184,
+        42.30678
+      ],
+      [
+        -72.87087,
+        42.29122
+      ],
+      [
+        -72.87065,
+        42.2843
+      ],
+      [
+        -72.8613,
+        42.27421
+      ],
+      [
+        -72.86672,
+        42.26723
+      ],
+      [
+        -72.86389,
+        42.25919
+      ],
+      [
+        -72.87227,
+        42.23639
+      ],
+      [
+        -72.87974,
+        42.23354
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Colrain",
+      "model": "town-blocks",
+      "at": 0.09067087689090819,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "William Cullen Bryant Homestead",
+      "model": "farmhouse",
+      "at": 0.6342990846697304,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Colrain",
+      "at": 0.09077212806026366,
+      "landmark": "Colrain"
+    },
+    {
+      "name": "Shelburne Falls",
+      "at": 0.20433145009416195,
+      "landmark": ""
+    },
+    {
+      "name": "Buckland",
+      "at": 0.2792843691148776,
+      "landmark": ""
+    },
+    {
+      "name": "Ashfield",
+      "at": 0.3662900188323917,
+      "landmark": ""
+    },
+    {
+      "name": "Goshen",
+      "at": 0.4760828625235405,
+      "landmark": ""
+    },
+    {
+      "name": "Cummington",
+      "at": 0.596045197740113,
+      "landmark": ""
+    },
+    {
+      "name": "Worthington",
+      "at": 0.7465160075329567,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-112-scenic-byway-75246.json",
+    "public/data/strips/route-112-scenic-byway-75246.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

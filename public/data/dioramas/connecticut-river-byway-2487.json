@@ -1,0 +1,393 @@
+{
+  "authored": false,
+  "bywayId": "connecticut-river-byway-2487",
+  "title": "Connecticut River Byway",
+  "longitude": -72.5642,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -72.46454,
+        42.72704
+      ],
+      [
+        -72.53292,
+        42.78961
+      ],
+      [
+        -72.56037,
+        42.8761
+      ],
+      [
+        -72.43911,
+        43.08605
+      ],
+      [
+        -72.46136,
+        43.18073
+      ],
+      [
+        -72.39864,
+        43.30991
+      ],
+      [
+        -72.4044,
+        43.53293
+      ],
+      [
+        -72.31524,
+        43.6579
+      ],
+      [
+        -72.30825,
+        43.71353
+      ],
+      [
+        -72.20682,
+        43.77243
+      ],
+      [
+        -72.17697,
+        43.88382
+      ],
+      [
+        -72.12287,
+        43.92464
+      ],
+      [
+        -72.12771,
+        43.99635
+      ],
+      [
+        -72.04801,
+        44.08907
+      ],
+      [
+        -72.06923,
+        44.27404
+      ],
+      [
+        -72.03534,
+        44.31227
+      ],
+      [
+        -72.04604,
+        44.35944
+      ],
+      [
+        -72.01547,
+        44.41934
+      ],
+      [
+        -71.93428,
+        44.45123
+      ],
+      [
+        -71.88478,
+        44.42861
+      ],
+      [
+        -71.85455,
+        44.46923
+      ],
+      [
+        -71.79545,
+        44.44957
+      ],
+      [
+        -71.60025,
+        44.49008
+      ],
+      [
+        -71.60011,
+        44.55884
+      ],
+      [
+        -71.54867,
+        44.58757
+      ],
+      [
+        -71.63355,
+        44.75124
+      ],
+      [
+        -71.50464,
+        44.89827
+      ],
+      [
+        -71.57308,
+        44.788
+      ],
+      [
+        -71.62883,
+        44.7516
+      ],
+      [
+        -71.5113,
+        44.59495
+      ],
+      [
+        -71.57905,
+        44.55748
+      ],
+      [
+        -71.56961,
+        44.48724
+      ],
+      [
+        -71.78406,
+        44.38555
+      ],
+      [
+        -71.80473,
+        44.32354
+      ],
+      [
+        -71.86553,
+        44.30995
+      ],
+      [
+        -71.90683,
+        44.34589
+      ],
+      [
+        -72.05328,
+        44.28481
+      ],
+      [
+        -72.02609,
+        44.0811
+      ],
+      [
+        -72.1556,
+        43.88038
+      ],
+      [
+        -72.14948,
+        43.81661
+      ],
+      [
+        -72.28934,
+        43.70243
+      ],
+      [
+        -72.3514,
+        43.54199
+      ],
+      [
+        -72.38759,
+        43.51407
+      ],
+      [
+        -72.39484,
+        43.40444
+      ],
+      [
+        -72.3377,
+        43.37273
+      ],
+      [
+        -72.42182,
+        43.25593
+      ],
+      [
+        -72.4517,
+        43.14761
+      ],
+      [
+        -72.428,
+        43.11424
+      ],
+      [
+        -72.43633,
+        43.0087
+      ],
+      [
+        -72.48647,
+        42.7841
+      ],
+      [
+        -72.4465,
+        42.71828
+      ],
+      [
+        -72.47636,
+        42.59642
+      ],
+      [
+        -72.58455,
+        42.45294
+      ],
+      [
+        -72.56474,
+        42.40609
+      ],
+      [
+        -72.60317,
+        42.2921
+      ],
+      [
+        -72.57474,
+        42.25922
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Cornish-Windsor Covered Bridge",
+      "model": "covered-bridge",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Orford",
+      "model": "paddlewheeler",
+      "at": 0.6925471691790861,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Orford",
+      "model": "town-blocks",
+      "at": 0.6925471691790861,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Columbia Covered Bridge",
+      "model": "covered-bridge",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "orchard",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Vernon",
+      "at": 0.0055287910071117235,
+      "landmark": ""
+    },
+    {
+      "name": "Rockingham",
+      "at": 0.08410185822436338,
+      "landmark": ""
+    },
+    {
+      "name": "Windsor",
+      "at": 0.14661619637531545,
+      "landmark": ""
+    },
+    {
+      "name": "Bradford",
+      "at": 0.24367974306033494,
+      "landmark": ""
+    },
+    {
+      "name": "St. Johnsbury",
+      "at": 0.32131222757513195,
+      "landmark": ""
+    },
+    {
+      "name": "Guildhall",
+      "at": 0.39153475567790774,
+      "landmark": ""
+    },
+    {
+      "name": "Columbia",
+      "at": 0.4697866483138335,
+      "landmark": ""
+    },
+    {
+      "name": "Lancaster",
+      "at": 0.5468685478320716,
+      "landmark": ""
+    },
+    {
+      "name": "Bath",
+      "at": 0.6498738242716219,
+      "landmark": ""
+    },
+    {
+      "name": "Claremont",
+      "at": 0.7996558843771507,
+      "landmark": ""
+    },
+    {
+      "name": "Northfield",
+      "at": 0.91906400550585,
+      "landmark": ""
+    },
+    {
+      "name": "Hadley",
+      "at": 0.9824730442762102,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/connecticut-river-byway-2487.json",
+    "public/data/strips/connecticut-river-byway-2487.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

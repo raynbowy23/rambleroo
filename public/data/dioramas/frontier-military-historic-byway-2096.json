@@ -1,0 +1,412 @@
+{
+  "authored": false,
+  "bywayId": "frontier-military-historic-byway-2096",
+  "title": "Frontier Military Historic Byway",
+  "longitude": -94.7051,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -94.7407,
+        36.99868
+      ],
+      [
+        -94.73601,
+        37.01045
+      ],
+      [
+        -94.73473,
+        37.05634
+      ],
+      [
+        -94.70429,
+        37.08862
+      ],
+      [
+        -94.70696,
+        37.38181
+      ],
+      [
+        -94.72484,
+        37.40849
+      ],
+      [
+        -94.70502,
+        37.44082
+      ],
+      [
+        -94.70533,
+        37.51291
+      ],
+      [
+        -94.71113,
+        37.52382
+      ],
+      [
+        -94.70995,
+        37.54974
+      ],
+      [
+        -94.70457,
+        37.55825
+      ],
+      [
+        -94.70609,
+        37.77143
+      ],
+      [
+        -94.70196,
+        37.82907
+      ],
+      [
+        -94.7091,
+        37.96065
+      ],
+      [
+        -94.7042,
+        37.97289
+      ],
+      [
+        -94.70378,
+        38.02425
+      ],
+      [
+        -94.71344,
+        38.08315
+      ],
+      [
+        -94.71376,
+        38.13386
+      ],
+      [
+        -94.69612,
+        38.16013
+      ],
+      [
+        -94.69642,
+        38.17424
+      ],
+      [
+        -94.70532,
+        38.19341
+      ],
+      [
+        -94.70496,
+        38.21107
+      ],
+      [
+        -94.68728,
+        38.24809
+      ],
+      [
+        -94.66835,
+        38.27199
+      ],
+      [
+        -94.67744,
+        38.29537
+      ],
+      [
+        -94.67816,
+        38.33497
+      ],
+      [
+        -94.68752,
+        38.35616
+      ],
+      [
+        -94.68458,
+        38.53545
+      ],
+      [
+        -94.69671,
+        38.57307
+      ],
+      [
+        -94.6942,
+        38.63453
+      ],
+      [
+        -94.68504,
+        38.65307
+      ],
+      [
+        -94.68503,
+        38.67438
+      ],
+      [
+        -94.67655,
+        38.69806
+      ],
+      [
+        -94.67667,
+        38.89498
+      ],
+      [
+        -94.70145,
+        38.91586
+      ],
+      [
+        -94.70702,
+        38.93448
+      ],
+      [
+        -94.73923,
+        38.93511
+      ],
+      [
+        -94.7731,
+        38.94673
+      ],
+      [
+        -94.77644,
+        38.98921
+      ],
+      [
+        -94.78497,
+        39.00689
+      ],
+      [
+        -94.79135,
+        39.059
+      ],
+      [
+        -94.81056,
+        39.09823
+      ],
+      [
+        -94.82042,
+        39.1438
+      ],
+      [
+        -94.82084,
+        39.15799
+      ],
+      [
+        -94.80115,
+        39.17872
+      ],
+      [
+        -94.80052,
+        39.18787
+      ],
+      [
+        -94.81778,
+        39.20078
+      ],
+      [
+        -94.82838,
+        39.20196
+      ],
+      [
+        -94.84331,
+        39.21624
+      ],
+      [
+        -94.8631,
+        39.21592
+      ],
+      [
+        -94.86297,
+        39.23335
+      ],
+      [
+        -94.88165,
+        39.26233
+      ],
+      [
+        -94.89053,
+        39.2669
+      ],
+      [
+        -94.89076,
+        39.27353
+      ],
+      [
+        -94.89977,
+        39.27424
+      ],
+      [
+        -94.91218,
+        39.31088
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Fort Scott National Historic Site",
+      "model": "town-blocks",
+      "at": 0.3508501782489299,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Fort Leavenworth",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Baxter Springs",
+      "at": 0.00888369374634701,
+      "landmark": ""
+    },
+    {
+      "name": "Crestline",
+      "at": 0.07323202805376972,
+      "landmark": ""
+    },
+    {
+      "name": "Pittsburg",
+      "at": 0.17597895967270594,
+      "landmark": ""
+    },
+    {
+      "name": "Englevale",
+      "at": 0.2489772063120982,
+      "landmark": ""
+    },
+    {
+      "name": "Fort Scott",
+      "at": 0.3439509059029807,
+      "landmark": ""
+    },
+    {
+      "name": "Fulton",
+      "at": 0.4180596142606663,
+      "landmark": ""
+    },
+    {
+      "name": "Pleasanton",
+      "at": 0.4895382817066043,
+      "landmark": ""
+    },
+    {
+      "name": "Linn Valley",
+      "at": 0.5734658094681473,
+      "landmark": ""
+    },
+    {
+      "name": "Louisburg",
+      "at": 0.6721800116890707,
+      "landmark": ""
+    },
+    {
+      "name": "Stanley",
+      "at": 0.7678550555230859,
+      "landmark": ""
+    },
+    {
+      "name": "Shawnee",
+      "at": 0.8556399766218585,
+      "landmark": ""
+    },
+    {
+      "name": "Wolcott",
+      "at": 0.9299240210403272,
+      "landmark": ""
+    },
+    {
+      "name": "Leavenworth",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/frontier-military-historic-byway-2096.json",
+    "public/data/strips/frontier-military-historic-byway-2096.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

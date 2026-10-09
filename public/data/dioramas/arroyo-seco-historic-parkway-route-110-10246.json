@@ -1,0 +1,357 @@
+{
+  "authored": false,
+  "bywayId": "arroyo-seco-historic-parkway-route-110-10246",
+  "title": "Arroyo Seco Historic Parkway - Route 110",
+  "longitude": -118.1902,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -118.24875,
+        34.06258
+      ],
+      [
+        -118.24656,
+        34.06433
+      ],
+      [
+        -118.24558,
+        34.06471
+      ],
+      [
+        -118.2436,
+        34.06515
+      ],
+      [
+        -118.24282,
+        34.06545
+      ],
+      [
+        -118.23764,
+        34.06806
+      ],
+      [
+        -118.23595,
+        34.06917
+      ],
+      [
+        -118.23543,
+        34.06991
+      ],
+      [
+        -118.23489,
+        34.07169
+      ],
+      [
+        -118.23457,
+        34.07233
+      ],
+      [
+        -118.23215,
+        34.07499
+      ],
+      [
+        -118.22535,
+        34.08073
+      ],
+      [
+        -118.22083,
+        34.08385
+      ],
+      [
+        -118.21926,
+        34.08477
+      ],
+      [
+        -118.2182,
+        34.08518
+      ],
+      [
+        -118.21422,
+        34.08627
+      ],
+      [
+        -118.21177,
+        34.08657
+      ],
+      [
+        -118.21064,
+        34.08712
+      ],
+      [
+        -118.20849,
+        34.08892
+      ],
+      [
+        -118.20756,
+        34.09
+      ],
+      [
+        -118.20635,
+        34.09201
+      ],
+      [
+        -118.20618,
+        34.09389
+      ],
+      [
+        -118.2059,
+        34.09465
+      ],
+      [
+        -118.20293,
+        34.0991
+      ],
+      [
+        -118.20049,
+        34.10139
+      ],
+      [
+        -118.19957,
+        34.10194
+      ],
+      [
+        -118.19693,
+        34.10288
+      ],
+      [
+        -118.1938,
+        34.10277
+      ],
+      [
+        -118.19305,
+        34.10287
+      ],
+      [
+        -118.19213,
+        34.10321
+      ],
+      [
+        -118.18763,
+        34.10643
+      ],
+      [
+        -118.18547,
+        34.10827
+      ],
+      [
+        -118.18499,
+        34.10896
+      ],
+      [
+        -118.18459,
+        34.11052
+      ],
+      [
+        -118.18397,
+        34.11115
+      ],
+      [
+        -118.18296,
+        34.11146
+      ],
+      [
+        -118.18099,
+        34.11108
+      ],
+      [
+        -118.17974,
+        34.11132
+      ],
+      [
+        -118.17833,
+        34.11198
+      ],
+      [
+        -118.17641,
+        34.11326
+      ],
+      [
+        -118.17357,
+        34.11434
+      ],
+      [
+        -118.16971,
+        34.11723
+      ],
+      [
+        -118.16897,
+        34.11762
+      ],
+      [
+        -118.16182,
+        34.11915
+      ],
+      [
+        -118.15835,
+        34.11899
+      ],
+      [
+        -118.15022,
+        34.11913
+      ],
+      [
+        -118.14829,
+        34.11939
+      ],
+      [
+        -118.14702,
+        34.12006
+      ],
+      [
+        -118.14648,
+        34.12062
+      ],
+      [
+        -118.1461,
+        34.12128
+      ],
+      [
+        -118.14589,
+        34.12221
+      ],
+      [
+        -118.14607,
+        34.12393
+      ],
+      [
+        -118.14707,
+        34.12656
+      ],
+      [
+        -118.14719,
+        34.12754
+      ],
+      [
+        -118.14741,
+        34.14463
+      ],
+      [
+        -118.14756,
+        34.1458
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Santa Fe Arroyo Seco Railroad Bridge",
+      "model": "viaduct",
+      "at": 0.5601984392576713,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Pasadena",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Vista Hermosa Natural Park",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Pasadena",
+      "at": 0.9989361702127659,
+      "landmark": "Pasadena"
+    }
+  ],
+  "sources": [
+    "content/stories/arroyo-seco-historic-parkway-route-110-10246.json",
+    "public/data/strips/arroyo-seco-historic-parkway-route-110-10246.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

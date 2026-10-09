@@ -1,0 +1,406 @@
+{
+  "authored": false,
+  "bywayId": "route-24-alameda-county-10253",
+  "title": "Route 24--Alameda County",
+  "longitude": -122.1483,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -122.20922,
+        37.86171
+      ],
+      [
+        -122.20906,
+        37.86254
+      ],
+      [
+        -122.20896,
+        37.8638
+      ],
+      [
+        -122.2087,
+        37.86446
+      ],
+      [
+        -122.20819,
+        37.86509
+      ],
+      [
+        -122.20764,
+        37.86554
+      ],
+      [
+        -122.20727,
+        37.86575
+      ],
+      [
+        -122.20641,
+        37.8661
+      ],
+      [
+        -122.20312,
+        37.86705
+      ],
+      [
+        -122.20153,
+        37.86727
+      ],
+      [
+        -122.1982,
+        37.8673
+      ],
+      [
+        -122.19727,
+        37.86745
+      ],
+      [
+        -122.19622,
+        37.86777
+      ],
+      [
+        -122.19556,
+        37.86808
+      ],
+      [
+        -122.19477,
+        37.86859
+      ],
+      [
+        -122.19022,
+        37.87194
+      ],
+      [
+        -122.18757,
+        37.874
+      ],
+      [
+        -122.1862,
+        37.87518
+      ],
+      [
+        -122.18442,
+        37.87709
+      ],
+      [
+        -122.18036,
+        37.88246
+      ],
+      [
+        -122.17766,
+        37.88679
+      ],
+      [
+        -122.1764,
+        37.88825
+      ],
+      [
+        -122.1749,
+        37.88948
+      ],
+      [
+        -122.17302,
+        37.89062
+      ],
+      [
+        -122.17144,
+        37.8913
+      ],
+      [
+        -122.16881,
+        37.89209
+      ],
+      [
+        -122.1676,
+        37.89235
+      ],
+      [
+        -122.16581,
+        37.89263
+      ],
+      [
+        -122.16402,
+        37.89278
+      ],
+      [
+        -122.16307,
+        37.89281
+      ],
+      [
+        -122.16091,
+        37.89272
+      ],
+      [
+        -122.15939,
+        37.89259
+      ],
+      [
+        -122.14811,
+        37.89087
+      ],
+      [
+        -122.14722,
+        37.89081
+      ],
+      [
+        -122.14607,
+        37.89087
+      ],
+      [
+        -122.14316,
+        37.89123
+      ],
+      [
+        -122.14219,
+        37.89125
+      ],
+      [
+        -122.14155,
+        37.89118
+      ],
+      [
+        -122.13739,
+        37.89038
+      ],
+      [
+        -122.1365,
+        37.89034
+      ],
+      [
+        -122.13528,
+        37.89043
+      ],
+      [
+        -122.13387,
+        37.89072
+      ],
+      [
+        -122.12387,
+        37.89318
+      ],
+      [
+        -122.12166,
+        37.89367
+      ],
+      [
+        -122.09929,
+        37.89731
+      ],
+      [
+        -122.09673,
+        37.89752
+      ],
+      [
+        -122.08543,
+        37.89782
+      ],
+      [
+        -122.08356,
+        37.8977
+      ],
+      [
+        -122.08117,
+        37.89725
+      ],
+      [
+        -122.07629,
+        37.89592
+      ],
+      [
+        -122.07502,
+        37.89582
+      ],
+      [
+        -122.07367,
+        37.89603
+      ],
+      [
+        -122.07294,
+        37.89627
+      ],
+      [
+        -122.07205,
+        37.89688
+      ],
+      [
+        -122.07164,
+        37.8973
+      ],
+      [
+        -122.07122,
+        37.89795
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Orinda",
+      "model": "ridge",
+      "at": 0.265854102267801,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Orinda",
+      "model": "town-blocks",
+      "at": 0.265854102267801,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lafayette",
+      "model": "town-blocks",
+      "at": 0.6814238433080331,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Orinda",
+      "at": 0.26666666666666666,
+      "landmark": "Orinda"
+    },
+    {
+      "name": "Lafayette",
+      "at": 0.6839080459770116,
+      "landmark": "Lafayette"
+    }
+  ],
+  "sources": [
+    "content/stories/route-24-alameda-county-10253.json",
+    "public/data/strips/route-24-alameda-county-10253.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

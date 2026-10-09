@@ -1,0 +1,459 @@
+{
+  "authored": false,
+  "bywayId": "pacific-coast-scenic-byway-oregon-2143",
+  "title": "Pacific Coast Scenic Byway - Oregon",
+  "longitude": -124.1248,
+  "ground": "coastal-cliff",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "cliff-shelf",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -123.87187,
+        46.23495
+      ],
+      [
+        -123.84887,
+        46.189
+      ],
+      [
+        -123.92897,
+        46.13251
+      ],
+      [
+        -123.91089,
+        46.01194
+      ],
+      [
+        -123.91941,
+        45.93924
+      ],
+      [
+        -123.95925,
+        45.88399
+      ],
+      [
+        -123.96698,
+        45.7983
+      ],
+      [
+        -123.94347,
+        45.77275
+      ],
+      [
+        -123.96351,
+        45.75127
+      ],
+      [
+        -123.87681,
+        45.69914
+      ],
+      [
+        -123.92429,
+        45.68808
+      ],
+      [
+        -123.94773,
+        45.58719
+      ],
+      [
+        -123.93352,
+        45.56065
+      ],
+      [
+        -123.89145,
+        45.56237
+      ],
+      [
+        -123.90552,
+        45.54708
+      ],
+      [
+        -123.84644,
+        45.49085
+      ],
+      [
+        -123.80448,
+        45.36259
+      ],
+      [
+        -123.83748,
+        45.33362
+      ],
+      [
+        -123.82167,
+        45.2893
+      ],
+      [
+        -123.84852,
+        45.24716
+      ],
+      [
+        -123.96903,
+        45.14392
+      ],
+      [
+        -123.98193,
+        45.10094
+      ],
+      [
+        -123.9462,
+        45.07509
+      ],
+      [
+        -123.95215,
+        45.03484
+      ],
+      [
+        -124.00608,
+        44.99459
+      ],
+      [
+        -124.02365,
+        44.9366
+      ],
+      [
+        -124.0082,
+        44.89739
+      ],
+      [
+        -124.06576,
+        44.82707
+      ],
+      [
+        -124.05014,
+        44.61356
+      ],
+      [
+        -124.08307,
+        44.49547
+      ],
+      [
+        -124.06721,
+        44.42701
+      ],
+      [
+        -124.11295,
+        44.28826
+      ],
+      [
+        -124.12646,
+        44.12254
+      ],
+      [
+        -124.09814,
+        44.06533
+      ],
+      [
+        -124.10413,
+        43.94183
+      ],
+      [
+        -124.15386,
+        43.81606
+      ],
+      [
+        -124.09892,
+        43.7139
+      ],
+      [
+        -124.18752,
+        43.66333
+      ],
+      [
+        -124.1801,
+        43.59943
+      ],
+      [
+        -124.22939,
+        43.45748
+      ],
+      [
+        -124.19793,
+        43.33768
+      ],
+      [
+        -124.21284,
+        43.29875
+      ],
+      [
+        -124.31823,
+        43.19393
+      ],
+      [
+        -124.39468,
+        43.15491
+      ],
+      [
+        -124.41497,
+        43.11531
+      ],
+      [
+        -124.4156,
+        43.00188
+      ],
+      [
+        -124.49789,
+        42.76657
+      ],
+      [
+        -124.45289,
+        42.69368
+      ],
+      [
+        -124.41951,
+        42.68296
+      ],
+      [
+        -124.3917,
+        42.61072
+      ],
+      [
+        -124.38461,
+        42.56367
+      ],
+      [
+        -124.43093,
+        42.43228
+      ],
+      [
+        -124.41324,
+        42.4292
+      ],
+      [
+        -124.42337,
+        42.32916
+      ],
+      [
+        -124.34853,
+        42.11185
+      ],
+      [
+        -124.20826,
+        41.9984
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.85
+      ],
+      [
+        0.125,
+        0.894
+      ],
+      [
+        0.25,
+        1
+      ],
+      [
+        0.375,
+        1.106
+      ],
+      [
+        0.5,
+        1.15
+      ],
+      [
+        0.625,
+        1.106
+      ],
+      [
+        0.75,
+        1
+      ],
+      [
+        0.875,
+        0.894
+      ],
+      [
+        1,
+        0.85
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Haystack Rock",
+      "model": "sea-stack",
+      "at": 0.07969447984566508,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "lighthouse-on-rock",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Warrenton",
+      "at": 0.019826839826839828,
+      "landmark": ""
+    },
+    {
+      "name": "Arch Cape",
+      "at": 0.09088023088023088,
+      "landmark": ""
+    },
+    {
+      "name": "Twin Rocks",
+      "at": 0.1553823953823954,
+      "landmark": ""
+    },
+    {
+      "name": "Beaver",
+      "at": 0.2367676767676768,
+      "landmark": ""
+    },
+    {
+      "name": "Otis",
+      "at": 0.3025108225108225,
+      "landmark": ""
+    },
+    {
+      "name": "Otter Rock",
+      "at": 0.37076479076479074,
+      "landmark": ""
+    },
+    {
+      "name": "Bayshore",
+      "at": 0.43422799422799424,
+      "landmark": ""
+    },
+    {
+      "name": "Florence",
+      "at": 0.5325252525252525,
+      "landmark": ""
+    },
+    {
+      "name": "Reedsport",
+      "at": 0.6007503607503607,
+      "landmark": ""
+    },
+    {
+      "name": "North Bend",
+      "at": 0.6662049062049062,
+      "landmark": ""
+    },
+    {
+      "name": "Randolph",
+      "at": 0.7290620490620491,
+      "landmark": ""
+    },
+    {
+      "name": "Sixes",
+      "at": 0.8056277056277056,
+      "landmark": ""
+    },
+    {
+      "name": "Nesika Beach",
+      "at": 0.8793073593073594,
+      "landmark": ""
+    },
+    {
+      "name": "Brookings",
+      "at": 0.9785281385281386,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/pacific-coast-scenic-byway-oregon-2143.json",
+    "public/data/strips/pacific-coast-scenic-byway-oregon-2143.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

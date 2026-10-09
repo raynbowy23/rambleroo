@@ -1,0 +1,364 @@
+{
+  "authored": false,
+  "bywayId": "blues-to-bluegrass-scenic-byway-bill-monroe-bluegrass-trail-992101",
+  "title": "Blues to Bluegrass Scenic Byway (Bill Monroe Bluegrass Trail)",
+  "longitude": -87.2819,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -86.87749,
+        37.41459
+      ],
+      [
+        -86.85436,
+        37.41634
+      ],
+      [
+        -86.84162,
+        37.42535
+      ],
+      [
+        -86.81659,
+        37.42582
+      ],
+      [
+        -86.76857,
+        37.4473
+      ],
+      [
+        -86.75184,
+        37.44583
+      ],
+      [
+        -86.7414,
+        37.45057
+      ],
+      [
+        -86.73444,
+        37.47186
+      ],
+      [
+        -86.73734,
+        37.51931
+      ],
+      [
+        -86.75535,
+        37.5386
+      ],
+      [
+        -86.77037,
+        37.54135
+      ],
+      [
+        -86.77314,
+        37.55947
+      ],
+      [
+        -86.75425,
+        37.58558
+      ],
+      [
+        -86.7433,
+        37.61738
+      ],
+      [
+        -86.71764,
+        37.6361
+      ],
+      [
+        -86.74039,
+        37.63513
+      ],
+      [
+        -86.75213,
+        37.65237
+      ],
+      [
+        -86.76393,
+        37.69012
+      ],
+      [
+        -86.75498,
+        37.71762
+      ],
+      [
+        -86.75665,
+        37.73697
+      ],
+      [
+        -86.76688,
+        37.74598
+      ],
+      [
+        -86.76628,
+        37.75428
+      ],
+      [
+        -86.78077,
+        37.77656
+      ],
+      [
+        -86.76241,
+        37.7966
+      ],
+      [
+        -86.75892,
+        37.83515
+      ],
+      [
+        -86.74005,
+        37.88144
+      ],
+      [
+        -86.75727,
+        37.9006
+      ],
+      [
+        -86.80925,
+        37.92376
+      ],
+      [
+        -86.80875,
+        37.94315
+      ],
+      [
+        -86.79768,
+        37.95131
+      ],
+      [
+        -86.79794,
+        37.96132
+      ],
+      [
+        -86.80191,
+        37.9757
+      ],
+      [
+        -86.81452,
+        37.9887
+      ],
+      [
+        -86.84153,
+        37.97534
+      ],
+      [
+        -86.86638,
+        37.95686
+      ],
+      [
+        -86.86619,
+        37.95164
+      ],
+      [
+        -86.87772,
+        37.95427
+      ],
+      [
+        -86.90301,
+        37.93788
+      ],
+      [
+        -86.89538,
+        37.92376
+      ],
+      [
+        -86.94016,
+        37.88888
+      ],
+      [
+        -86.98697,
+        37.87838
+      ],
+      [
+        -87.0025,
+        37.8654
+      ],
+      [
+        -87.00183,
+        37.85627
+      ],
+      [
+        -87.01187,
+        37.84419
+      ],
+      [
+        -87.03515,
+        37.83148
+      ],
+      [
+        -87.05564,
+        37.79187
+      ],
+      [
+        -87.09895,
+        37.7734
+      ],
+      [
+        -87.16565,
+        37.77501
+      ],
+      [
+        -87.15867,
+        37.75512
+      ],
+      [
+        -87.22389,
+        37.75853
+      ],
+      [
+        -87.2468,
+        37.75317
+      ],
+      [
+        -87.27903,
+        37.73695
+      ],
+      [
+        -87.28963,
+        37.71613
+      ],
+      [
+        -87.28931,
+        37.69815
+      ],
+      [
+        -87.32999,
+        37.69444
+      ],
+      [
+        -87.3564,
+        37.66175
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Rosine",
+      "model": "town-blocks",
+      "at": 0.0848226505062267,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lewisport",
+      "model": "town-blocks",
+      "at": 0.6184282554527517,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Owensboro",
+      "model": "town-blocks",
+      "at": 0.8065546712390123,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Hartford",
+      "at": 0.0005102040816326037,
+      "landmark": ""
+    },
+    {
+      "name": "Dundee",
+      "at": 0.17540816326530606,
+      "landmark": ""
+    },
+    {
+      "name": "Fordsville",
+      "at": 0.24010204081632658,
+      "landmark": ""
+    },
+    {
+      "name": "Hawesville",
+      "at": 0.46183673469387754,
+      "landmark": ""
+    },
+    {
+      "name": "Lewisport",
+      "at": 0.6186734693877551,
+      "landmark": "Lewisport"
+    },
+    {
+      "name": "Maceo",
+      "at": 0.7012244897959183,
+      "landmark": ""
+    },
+    {
+      "name": "Owensboro",
+      "at": 0.8066326530612244,
+      "landmark": "Owensboro"
+    },
+    {
+      "name": "Sorgho",
+      "at": 0.8980612244897959,
+      "landmark": ""
+    },
+    {
+      "name": "Saint Joseph",
+      "at": 0.9693877551020408,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/blues-to-bluegrass-scenic-byway-bill-monroe-bluegrass-trail-992101.json",
+    "public/data/strips/blues-to-bluegrass-scenic-byway-bill-monroe-bluegrass-trail-992101.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

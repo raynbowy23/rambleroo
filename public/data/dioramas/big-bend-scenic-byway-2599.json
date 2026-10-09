@@ -1,0 +1,397 @@
+{
+  "authored": false,
+  "bywayId": "big-bend-scenic-byway-2599",
+  "title": "Big Bend Scenic Byway",
+  "longitude": -84.6359,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -84.18019,
+        30.07426
+      ],
+      [
+        -84.14981,
+        30.11127
+      ],
+      [
+        -84.13846,
+        30.14219
+      ],
+      [
+        -84.17424,
+        30.19804
+      ],
+      [
+        -84.1844,
+        30.20042
+      ],
+      [
+        -84.20603,
+        30.22477
+      ],
+      [
+        -84.2796,
+        30.24271
+      ],
+      [
+        -84.31337,
+        30.2438
+      ],
+      [
+        -84.32229,
+        30.25221
+      ],
+      [
+        -84.35466,
+        30.25874
+      ],
+      [
+        -84.39893,
+        30.28699
+      ],
+      [
+        -84.3969,
+        30.32683
+      ],
+      [
+        -84.37894,
+        30.35258
+      ],
+      [
+        -84.36024,
+        30.37355
+      ],
+      [
+        -84.32181,
+        30.3938
+      ],
+      [
+        -84.35246,
+        30.39972
+      ],
+      [
+        -84.35324,
+        30.43502
+      ],
+      [
+        -84.39654,
+        30.44394
+      ],
+      [
+        -84.52142,
+        30.43612
+      ],
+      [
+        -84.5645,
+        30.40449
+      ],
+      [
+        -84.63425,
+        30.38836
+      ],
+      [
+        -84.65688,
+        30.35366
+      ],
+      [
+        -84.68017,
+        30.34965
+      ],
+      [
+        -84.69093,
+        30.34046
+      ],
+      [
+        -84.69436,
+        30.31442
+      ],
+      [
+        -84.71185,
+        30.29292
+      ],
+      [
+        -84.6862,
+        30.25983
+      ],
+      [
+        -84.67299,
+        30.21441
+      ],
+      [
+        -84.65778,
+        30.19806
+      ],
+      [
+        -84.6547,
+        30.15831
+      ],
+      [
+        -84.62238,
+        30.08414
+      ],
+      [
+        -84.60331,
+        30.07489
+      ],
+      [
+        -84.53138,
+        30.09036
+      ],
+      [
+        -84.49932,
+        30.06265
+      ],
+      [
+        -84.51948,
+        30.0634
+      ],
+      [
+        -84.54216,
+        30.04471
+      ],
+      [
+        -84.53422,
+        30.01786
+      ],
+      [
+        -84.51189,
+        30.0016
+      ],
+      [
+        -84.50395,
+        30.0024
+      ],
+      [
+        -84.50055,
+        29.94117
+      ],
+      [
+        -84.52008,
+        29.92417
+      ],
+      [
+        -84.51777,
+        29.91716
+      ],
+      [
+        -84.4457,
+        29.93331
+      ],
+      [
+        -84.40708,
+        29.92243
+      ],
+      [
+        -84.38861,
+        29.94013
+      ],
+      [
+        -84.38334,
+        29.98024
+      ],
+      [
+        -84.3984,
+        29.99955
+      ],
+      [
+        -84.38779,
+        30.038
+      ],
+      [
+        -84.38922,
+        30.07859
+      ],
+      [
+        -84.38533,
+        30.09718
+      ],
+      [
+        -84.36547,
+        30.12633
+      ],
+      [
+        -84.25744,
+        30.15643
+      ],
+      [
+        -84.24054,
+        30.18215
+      ],
+      [
+        -84.21564,
+        30.19053
+      ],
+      [
+        -84.2034,
+        30.15465
+      ],
+      [
+        -84.20987,
+        30.15143
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "St. Marks Light",
+      "model": "lighthouse-on-rock",
+      "at": 0.000032087041454482675,
+      "offset": "roadside",
+      "notes": "Story moment 1; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sopchoppy",
+      "model": "town-blocks",
+      "at": 0.6446004733397732,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Carrabelle",
+      "model": "harbor",
+      "at": 0.7431386015864411,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Carrabelle",
+      "model": "town-blocks",
+      "at": 0.7431386015864411,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Magnolia",
+      "at": 0.08100637845499647,
+      "landmark": ""
+    },
+    {
+      "name": "Hilliardville",
+      "at": 0.1822111977321048,
+      "landmark": ""
+    },
+    {
+      "name": "Bloxham",
+      "at": 0.4065201984408221,
+      "landmark": ""
+    },
+    {
+      "name": "Sumatra",
+      "at": 0.5614623990206031,
+      "landmark": ""
+    },
+    {
+      "name": "Sopchoppy",
+      "at": 0.6445074415308292,
+      "landmark": "Sopchoppy"
+    },
+    {
+      "name": "Lanark Village",
+      "at": 0.7431386015864411,
+      "landmark": ""
+    },
+    {
+      "name": "Eastpoint",
+      "at": 0.7431386015864411,
+      "landmark": ""
+    },
+    {
+      "name": "Ochlockonee Bay",
+      "at": 0.8250177179305457,
+      "landmark": ""
+    },
+    {
+      "name": "Medart",
+      "at": 0.8917080085046066,
+      "landmark": ""
+    },
+    {
+      "name": "St. Marks",
+      "at": 0.989652728561304,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/big-bend-scenic-byway-2599.json",
+    "public/data/strips/big-bend-scenic-byway-2599.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

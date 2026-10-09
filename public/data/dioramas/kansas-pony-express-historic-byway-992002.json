@@ -1,0 +1,397 @@
+{
+  "authored": false,
+  "bywayId": "kansas-pony-express-historic-byway-992002",
+  "title": "Kansas Pony Express Historic Byway",
+  "longitude": -96.5231,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -95.03956,
+        39.78793
+      ],
+      [
+        -95.05115,
+        39.79302
+      ],
+      [
+        -95.05294,
+        39.79348
+      ],
+      [
+        -95.07335,
+        39.79254
+      ],
+      [
+        -95.08362,
+        39.79439
+      ],
+      [
+        -95.09684,
+        39.79449
+      ],
+      [
+        -95.10053,
+        39.79479
+      ],
+      [
+        -95.11565,
+        39.79786
+      ],
+      [
+        -95.14313,
+        39.79808
+      ],
+      [
+        -95.14284,
+        39.76349
+      ],
+      [
+        -95.1439,
+        39.75572
+      ],
+      [
+        -95.14378,
+        39.73992
+      ],
+      [
+        -95.26464,
+        39.74026
+      ],
+      [
+        -95.265,
+        39.73957
+      ],
+      [
+        -95.26478,
+        39.71111
+      ],
+      [
+        -95.265,
+        39.67516
+      ],
+      [
+        -95.26543,
+        39.67476
+      ],
+      [
+        -95.3022,
+        39.67483
+      ],
+      [
+        -95.30257,
+        39.67532
+      ],
+      [
+        -95.30248,
+        39.68158
+      ],
+      [
+        -95.30306,
+        39.68208
+      ],
+      [
+        -95.41347,
+        39.68207
+      ],
+      [
+        -95.41439,
+        39.6819
+      ],
+      [
+        -95.41521,
+        39.6812
+      ],
+      [
+        -95.41532,
+        39.67788
+      ],
+      [
+        -95.41564,
+        39.67738
+      ],
+      [
+        -95.42467,
+        39.67728
+      ],
+      [
+        -95.42459,
+        39.66737
+      ],
+      [
+        -95.47068,
+        39.66719
+      ],
+      [
+        -95.48972,
+        39.66754
+      ],
+      [
+        -95.5152,
+        39.66725
+      ],
+      [
+        -95.73067,
+        39.66754
+      ],
+      [
+        -95.7297,
+        39.7377
+      ],
+      [
+        -95.72928,
+        39.81863
+      ],
+      [
+        -95.72975,
+        39.82157
+      ],
+      [
+        -95.73362,
+        39.83415
+      ],
+      [
+        -95.73505,
+        39.83774
+      ],
+      [
+        -95.73707,
+        39.84125
+      ],
+      [
+        -95.83034,
+        39.84163
+      ],
+      [
+        -95.98388,
+        39.84122
+      ],
+      [
+        -96.06676,
+        39.84128
+      ],
+      [
+        -96.12966,
+        39.84173
+      ],
+      [
+        -96.20614,
+        39.84145
+      ],
+      [
+        -96.26189,
+        39.84161
+      ],
+      [
+        -96.27639,
+        39.84206
+      ],
+      [
+        -96.30279,
+        39.84214
+      ],
+      [
+        -96.32396,
+        39.84171
+      ],
+      [
+        -96.36178,
+        39.84171
+      ],
+      [
+        -96.37728,
+        39.84204
+      ],
+      [
+        -96.49036,
+        39.84128
+      ],
+      [
+        -96.56551,
+        39.84179
+      ],
+      [
+        -96.58206,
+        39.84152
+      ],
+      [
+        -96.64562,
+        39.84218
+      ],
+      [
+        -96.86243,
+        39.84181
+      ],
+      [
+        -96.86226,
+        39.9002
+      ],
+      [
+        -96.84811,
+        39.90019
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Seneca",
+      "model": "town-blocks",
+      "at": 0.6203113209458546,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Marysville",
+      "model": "town-blocks",
+      "at": 0.864980639738302,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Troy",
+      "at": 0.024473257698541362,
+      "landmark": ""
+    },
+    {
+      "name": "Denton",
+      "at": 0.1352512155591573,
+      "landmark": ""
+    },
+    {
+      "name": "Purcell",
+      "at": 0.1994327390599676,
+      "landmark": ""
+    },
+    {
+      "name": "Horton",
+      "at": 0.294165316045381,
+      "landmark": ""
+    },
+    {
+      "name": "Kickapoo Site 5",
+      "at": 0.3587520259319288,
+      "landmark": ""
+    },
+    {
+      "name": "Fairview",
+      "at": 0.4752025931928687,
+      "landmark": ""
+    },
+    {
+      "name": "Seneca",
+      "at": 0.6204213938411669,
+      "landmark": "Seneca"
+    },
+    {
+      "name": "Beattie",
+      "at": 0.7700162074554295,
+      "landmark": ""
+    },
+    {
+      "name": "Marysville",
+      "at": 0.8649918962722852,
+      "landmark": "Marysville"
+    },
+    {
+      "name": "Hanover",
+      "at": 0.9899513776337115,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/kansas-pony-express-historic-byway-992002.json",
+    "public/data/strips/kansas-pony-express-historic-byway-992002.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

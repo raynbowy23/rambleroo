@@ -14,7 +14,8 @@
     "dressing",
     "towns",
     "sources",
-    "geometryNotes"
+    "geometryNotes",
+    "authored"
   ],
   "properties": {
     "bywayId": {
@@ -31,10 +32,27 @@
       "maximum": 180
     },
     "ground": {
-      "enum": ["coastal-cliff", "alpine-plateau", "forested-ridges"]
+      "enum": [
+        "coastal-cliff",
+        "alpine-plateau",
+        "forested-ridges",
+        "low-shore",
+        "river-valley",
+        "desert-mesas",
+        "prairie-grid",
+        "main-street"
+      ]
     },
     "palette": {
-      "enum": ["coast", "mountain", "forest"]
+      "enum": [
+        "coast",
+        "mountain",
+        "forest",
+        "river",
+        "desert",
+        "prairie",
+        "town"
+      ]
     },
     "snowInWinter": {
       "type": "boolean"
@@ -42,13 +60,25 @@
     "road": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["shape", "profile", "lanes", "coordinates", "elevation"],
+      "required": [
+        "shape",
+        "profile",
+        "lanes",
+        "coordinates",
+        "elevation"
+      ],
       "properties": {
         "shape": {
           "const": "from-geometry"
         },
         "profile": {
-          "enum": ["cliff-shelf", "switchbacks", "valley-floor"]
+          "enum": [
+            "cliff-shelf",
+            "switchbacks",
+            "valley-floor",
+            "rolling",
+            "level"
+          ]
         },
         "lanes": {
           "const": 2
@@ -82,12 +112,18 @@
     },
     "landmarks": {
       "type": "array",
-      "minItems": 2,
-      "maxItems": 4,
+      "minItems": 0,
+      "maxItems": 16,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "model", "at", "offset", "notes"],
+        "required": [
+          "name",
+          "model",
+          "at",
+          "offset",
+          "notes"
+        ],
         "properties": {
           "name": {
             "type": "string",
@@ -111,7 +147,25 @@
               "alpine-lake",
               "river",
               "surf",
-              "fog-bank"
+              "fog-bank",
+              "gristmill",
+              "viaduct",
+              "dam",
+              "paddlewheeler",
+              "sandbar",
+              "steeple-town",
+              "harbor",
+              "ledge",
+              "orchard",
+              "ridge",
+              "bald",
+              "snow-peak",
+              "switchback",
+              "aspen",
+              "hoodoo",
+              "mesa",
+              "field",
+              "town-blocks"
             ]
           },
           "at": {
@@ -120,7 +174,11 @@
             "maximum": 1
           },
           "offset": {
-            "enum": ["on-road", "roadside", "seaward"]
+            "enum": [
+              "on-road",
+              "roadside",
+              "seaward"
+            ]
           },
           "notes": {
             "type": "string",
@@ -134,7 +192,13 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["model", "at", "side", "distance", "scale"],
+        "required": [
+          "model",
+          "at",
+          "side",
+          "distance",
+          "scale"
+        ],
         "properties": {
           "model": {
             "enum": [
@@ -154,7 +218,25 @@
               "alpine-lake",
               "river",
               "surf",
-              "fog-bank"
+              "fog-bank",
+              "gristmill",
+              "viaduct",
+              "dam",
+              "paddlewheeler",
+              "sandbar",
+              "steeple-town",
+              "harbor",
+              "ledge",
+              "orchard",
+              "ridge",
+              "bald",
+              "snow-peak",
+              "switchback",
+              "aspen",
+              "hoodoo",
+              "mesa",
+              "field",
+              "town-blocks"
             ]
           },
           "at": {
@@ -163,7 +245,10 @@
             "maximum": 1
           },
           "side": {
-            "enum": [-1, 1]
+            "enum": [
+              -1,
+              1
+            ]
           },
           "distance": {
             "type": "number",
@@ -183,7 +268,11 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "at", "landmark"],
+        "required": [
+          "name",
+          "at",
+          "landmark"
+        ],
         "properties": {
           "name": {
             "type": "string"
@@ -208,6 +297,9 @@
     },
     "geometryNotes": {
       "type": "string"
+    },
+    "authored": {
+      "type": "boolean"
     }
   }
 }

@@ -1,0 +1,423 @@
+{
+  "authored": false,
+  "bywayId": "strait-of-juan-de-fuca-highway-sr-112-13740",
+  "title": "Strait of Juan de Fuca Highway - SR 112",
+  "longitude": -124.0761,
+  "ground": "coastal-cliff",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "cliff-shelf",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -123.53987,
+        48.09752
+      ],
+      [
+        -123.56061,
+        48.10226
+      ],
+      [
+        -123.56805,
+        48.11445
+      ],
+      [
+        -123.61873,
+        48.11936
+      ],
+      [
+        -123.6764,
+        48.11958
+      ],
+      [
+        -123.72253,
+        48.13391
+      ],
+      [
+        -123.75483,
+        48.13838
+      ],
+      [
+        -123.79926,
+        48.13955
+      ],
+      [
+        -123.84052,
+        48.14722
+      ],
+      [
+        -123.85984,
+        48.14721
+      ],
+      [
+        -123.88825,
+        48.13614
+      ],
+      [
+        -123.91646,
+        48.13655
+      ],
+      [
+        -123.92959,
+        48.14535
+      ],
+      [
+        -123.93175,
+        48.15362
+      ],
+      [
+        -123.92435,
+        48.15471
+      ],
+      [
+        -123.94217,
+        48.16328
+      ],
+      [
+        -123.95398,
+        48.16523
+      ],
+      [
+        -123.96041,
+        48.15991
+      ],
+      [
+        -123.99129,
+        48.165
+      ],
+      [
+        -123.99943,
+        48.16306
+      ],
+      [
+        -124.00707,
+        48.17126
+      ],
+      [
+        -124.06098,
+        48.17446
+      ],
+      [
+        -124.06361,
+        48.1757
+      ],
+      [
+        -124.06252,
+        48.1823
+      ],
+      [
+        -124.06698,
+        48.17954
+      ],
+      [
+        -124.06555,
+        48.18429
+      ],
+      [
+        -124.0991,
+        48.19645
+      ],
+      [
+        -124.11199,
+        48.19302
+      ],
+      [
+        -124.11903,
+        48.19734
+      ],
+      [
+        -124.13888,
+        48.18932
+      ],
+      [
+        -124.16519,
+        48.19136
+      ],
+      [
+        -124.16961,
+        48.1872
+      ],
+      [
+        -124.18028,
+        48.18728
+      ],
+      [
+        -124.19598,
+        48.17754
+      ],
+      [
+        -124.20302,
+        48.18043
+      ],
+      [
+        -124.21487,
+        48.17674
+      ],
+      [
+        -124.21652,
+        48.18386
+      ],
+      [
+        -124.23372,
+        48.19945
+      ],
+      [
+        -124.24976,
+        48.20634
+      ],
+      [
+        -124.24861,
+        48.21296
+      ],
+      [
+        -124.25777,
+        48.23555
+      ],
+      [
+        -124.25516,
+        48.24361
+      ],
+      [
+        -124.26028,
+        48.25417
+      ],
+      [
+        -124.27406,
+        48.25351
+      ],
+      [
+        -124.28257,
+        48.2576
+      ],
+      [
+        -124.34697,
+        48.26758
+      ],
+      [
+        -124.3619,
+        48.27745
+      ],
+      [
+        -124.39476,
+        48.28727
+      ],
+      [
+        -124.41722,
+        48.30173
+      ],
+      [
+        -124.43847,
+        48.30722
+      ],
+      [
+        -124.44803,
+        48.31632
+      ],
+      [
+        -124.49068,
+        48.33175
+      ],
+      [
+        -124.51312,
+        48.3442
+      ],
+      [
+        -124.52544,
+        48.3488
+      ],
+      [
+        -124.53684,
+        48.34869
+      ],
+      [
+        -124.55245,
+        48.35683
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.85
+      ],
+      [
+        0.125,
+        0.894
+      ],
+      [
+        0.25,
+        1
+      ],
+      [
+        0.375,
+        1.106
+      ],
+      [
+        0.5,
+        1.15
+      ],
+      [
+        0.625,
+        1.106
+      ],
+      [
+        0.75,
+        1
+      ],
+      [
+        0.875,
+        0.894
+      ],
+      [
+        1,
+        0.85
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Clallam Bay",
+      "model": "lighthouse-on-rock",
+      "at": 0.7263716081375001,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Clallam Bay",
+      "model": "town-blocks",
+      "at": 0.7263716081375001,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Makah Museum, Neah Bay",
+      "model": "harbor",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Makah Museum, Neah Bay",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Joyce",
+      "at": 0.16529605263157887,
+      "landmark": ""
+    },
+    {
+      "name": "Gettysburg",
+      "at": 0.24309210526315783,
+      "landmark": ""
+    },
+    {
+      "name": "Pysht",
+      "at": 0.5353618421052632,
+      "landmark": ""
+    },
+    {
+      "name": "Sekiu",
+      "at": 0.7661184210526315,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/strait-of-juan-de-fuca-highway-sr-112-13740.json",
+    "public/data/strips/strait-of-juan-de-fuca-highway-sr-112-13740.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

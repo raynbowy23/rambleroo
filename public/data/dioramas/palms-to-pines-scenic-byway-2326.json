@@ -1,0 +1,430 @@
+{
+  "authored": false,
+  "bywayId": "palms-to-pines-scenic-byway-2326",
+  "title": "Palms to Pines Scenic Byway",
+  "longitude": -116.6709,
+  "ground": "desert-mesas",
+  "palette": "desert",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -116.39122,
+        33.72144
+      ],
+      [
+        -116.4093,
+        33.67172
+      ],
+      [
+        -116.39552,
+        33.65525
+      ],
+      [
+        -116.40356,
+        33.65576
+      ],
+      [
+        -116.39469,
+        33.65011
+      ],
+      [
+        -116.40155,
+        33.65194
+      ],
+      [
+        -116.40805,
+        33.64663
+      ],
+      [
+        -116.39979,
+        33.6482
+      ],
+      [
+        -116.40364,
+        33.62566
+      ],
+      [
+        -116.4114,
+        33.62198
+      ],
+      [
+        -116.42025,
+        33.60774
+      ],
+      [
+        -116.42747,
+        33.58539
+      ],
+      [
+        -116.47284,
+        33.58
+      ],
+      [
+        -116.50416,
+        33.56861
+      ],
+      [
+        -116.52429,
+        33.57035
+      ],
+      [
+        -116.54082,
+        33.56111
+      ],
+      [
+        -116.5812,
+        33.56454
+      ],
+      [
+        -116.59416,
+        33.57215
+      ],
+      [
+        -116.604,
+        33.5895
+      ],
+      [
+        -116.66525,
+        33.65769
+      ],
+      [
+        -116.66966,
+        33.66731
+      ],
+      [
+        -116.72447,
+        33.70328
+      ],
+      [
+        -116.72616,
+        33.70805
+      ],
+      [
+        -116.72109,
+        33.70732
+      ],
+      [
+        -116.716,
+        33.71376
+      ],
+      [
+        -116.72537,
+        33.7196
+      ],
+      [
+        -116.71991,
+        33.72858
+      ],
+      [
+        -116.7241,
+        33.7351
+      ],
+      [
+        -116.71407,
+        33.74929
+      ],
+      [
+        -116.72437,
+        33.75349
+      ],
+      [
+        -116.73757,
+        33.74805
+      ],
+      [
+        -116.73505,
+        33.7548
+      ],
+      [
+        -116.7409,
+        33.77064
+      ],
+      [
+        -116.73608,
+        33.77679
+      ],
+      [
+        -116.75204,
+        33.78675
+      ],
+      [
+        -116.74105,
+        33.79679
+      ],
+      [
+        -116.74537,
+        33.79463
+      ],
+      [
+        -116.74843,
+        33.79882
+      ],
+      [
+        -116.75454,
+        33.79624
+      ],
+      [
+        -116.76443,
+        33.7999
+      ],
+      [
+        -116.77742,
+        33.79722
+      ],
+      [
+        -116.78056,
+        33.80389
+      ],
+      [
+        -116.78671,
+        33.80513
+      ],
+      [
+        -116.78904,
+        33.81901
+      ],
+      [
+        -116.79647,
+        33.83114
+      ],
+      [
+        -116.8381,
+        33.8593
+      ],
+      [
+        -116.84252,
+        33.8784
+      ],
+      [
+        -116.85668,
+        33.88522
+      ],
+      [
+        -116.85481,
+        33.89025
+      ],
+      [
+        -116.86241,
+        33.891
+      ],
+      [
+        -116.86148,
+        33.89935
+      ],
+      [
+        -116.87049,
+        33.90049
+      ],
+      [
+        -116.8548,
+        33.89957
+      ],
+      [
+        -116.86167,
+        33.90605
+      ],
+      [
+        -116.87403,
+        33.90771
+      ],
+      [
+        -116.87672,
+        33.92546
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Pinyon Pines",
+      "model": "town-blocks",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Idyllwild",
+      "model": "town-blocks",
+      "at": 0.6197237077804578,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "snow-peak",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5,
+      "side": -1,
+      "distance": 0.7,
+      "scale": 1.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Palm Desert",
+      "at": 0.0016742770167427201,
+      "landmark": ""
+    },
+    {
+      "name": "Pinyon Pines",
+      "at": 0.23181126331811264,
+      "landmark": "Pinyon Pines"
+    },
+    {
+      "name": "Idyllwild–Pine Cove",
+      "at": 0.6199391171993912,
+      "landmark": ""
+    },
+    {
+      "name": "Banning",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/palms-to-pines-scenic-byway-2326.json",
+    "public/data/strips/palms-to-pines-scenic-byway-2326.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

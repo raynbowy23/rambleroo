@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
-import { specs, type DioramaSpec } from './spec'
+import type { DioramaSpec } from './spec'
+import { useCatalog } from '../../../lib/data'
+import { useDioramaSpec } from './useDioramaSpec'
 import { RoadDiorama3D } from './RoadDiorama3D'
 import { solarHour } from './scene'
 import type { Season, Weather } from '../diorama/environment'
@@ -48,7 +50,7 @@ function Card({ spec, now }: { spec: DioramaSpec; now: Date }) {
         </label>
         <ol>
           {spec.landmarks.map((l) => (
-            <li key={l.name}>{l.name}</li>
+            <li key={l.name + l.model}>{l.name}</li>
           ))}
         </ol>
       </div>
@@ -56,6 +58,9 @@ function Card({ spec, now }: { spec: DioramaSpec; now: Date }) {
   )
 }
 export default function DioramaGallery() {
+  const catalog = useCatalog()
+  const [id, setId] = useState('route-1-big-sur-coast-highway-2301')
+  const spec = useDioramaSpec(id)
   const [now, setNow] = useState(() => new Date())
   useEffect(() => {
     const id = setInterval(() => {
@@ -68,15 +73,23 @@ export default function DioramaGallery() {
       <header>
         <p className="rr-mini-kicker">Rambleroo · The miniature workshop</p>
         <h1>
-          Three roads.
+          Every road.
           <br />A world in each.
         </h1>
-        <p>Hover, focus or gently drag a landscape to turn it. Your garage car follows the road.</p>
+        <p>Gently drag a landscape to turn and tilt it. Your garage car follows the road.</p>
       </header>
-      <section className="rr-mini-grid" aria-label="Three road miniatures">
-        {specs.map((spec) => (
-          <Card key={spec.bywayId} spec={spec} now={now} />
-        ))}
+      <label>
+        Road{' '}
+        <select value={id} onChange={(e) => setId(e.target.value)}>
+          {catalog.byways.map((road) => (
+            <option key={road.id} value={road.id}>
+              {road.name}
+            </option>
+          ))}
+        </select>
+      </label>
+      <section className="rr-mini-grid" aria-label="Road miniature">
+        {spec && <Card key={spec.bywayId} spec={spec} now={now} />}
       </section>
     </main>
   )

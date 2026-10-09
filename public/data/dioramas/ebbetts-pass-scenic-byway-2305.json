@@ -1,0 +1,419 @@
+{
+  "authored": false,
+  "bywayId": "ebbetts-pass-scenic-byway-2305",
+  "title": "Ebbetts Pass Scenic Byway",
+  "longitude": -119.9816,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -120.35105,
+        38.25551
+      ],
+      [
+        -120.31062,
+        38.27482
+      ],
+      [
+        -120.29828,
+        38.29094
+      ],
+      [
+        -120.27712,
+        38.30064
+      ],
+      [
+        -120.27772,
+        38.31028
+      ],
+      [
+        -120.26477,
+        38.31523
+      ],
+      [
+        -120.26044,
+        38.32225
+      ],
+      [
+        -120.25063,
+        38.32274
+      ],
+      [
+        -120.21519,
+        38.34049
+      ],
+      [
+        -120.21213,
+        38.35728
+      ],
+      [
+        -120.19286,
+        38.37109
+      ],
+      [
+        -120.18248,
+        38.3929
+      ],
+      [
+        -120.17092,
+        38.39527
+      ],
+      [
+        -120.15533,
+        38.40922
+      ],
+      [
+        -120.13954,
+        38.40871
+      ],
+      [
+        -120.13264,
+        38.41465
+      ],
+      [
+        -120.08544,
+        38.42165
+      ],
+      [
+        -120.07595,
+        38.44165
+      ],
+      [
+        -120.06103,
+        38.44728
+      ],
+      [
+        -120.05119,
+        38.4588
+      ],
+      [
+        -120.03371,
+        38.46245
+      ],
+      [
+        -120.02084,
+        38.48219
+      ],
+      [
+        -120.00297,
+        38.47824
+      ],
+      [
+        -119.99056,
+        38.48291
+      ],
+      [
+        -119.98115,
+        38.49309
+      ],
+      [
+        -119.96648,
+        38.49054
+      ],
+      [
+        -119.95583,
+        38.50219
+      ],
+      [
+        -119.93134,
+        38.51482
+      ],
+      [
+        -119.90951,
+        38.51595
+      ],
+      [
+        -119.89951,
+        38.52603
+      ],
+      [
+        -119.9028,
+        38.53611
+      ],
+      [
+        -119.88429,
+        38.54318
+      ],
+      [
+        -119.87567,
+        38.54217
+      ],
+      [
+        -119.84858,
+        38.55267
+      ],
+      [
+        -119.81248,
+        38.54369
+      ],
+      [
+        -119.80729,
+        38.54862
+      ],
+      [
+        -119.8031,
+        38.56669
+      ],
+      [
+        -119.80724,
+        38.56934
+      ],
+      [
+        -119.80702,
+        38.57961
+      ],
+      [
+        -119.79358,
+        38.58646
+      ],
+      [
+        -119.78909,
+        38.58333
+      ],
+      [
+        -119.79187,
+        38.59
+      ],
+      [
+        -119.78693,
+        38.5853
+      ],
+      [
+        -119.78431,
+        38.59457
+      ],
+      [
+        -119.76229,
+        38.61314
+      ],
+      [
+        -119.72352,
+        38.63033
+      ],
+      [
+        -119.72186,
+        38.64336
+      ],
+      [
+        -119.72796,
+        38.64792
+      ],
+      [
+        -119.72381,
+        38.65503
+      ],
+      [
+        -119.72861,
+        38.66932
+      ],
+      [
+        -119.74963,
+        38.68008
+      ],
+      [
+        -119.7571,
+        38.68943
+      ],
+      [
+        -119.76597,
+        38.68984
+      ],
+      [
+        -119.77066,
+        38.69874
+      ],
+      [
+        -119.77505,
+        38.69371
+      ],
+      [
+        -119.78027,
+        38.69493
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Arnold",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ebbetts Pass",
+      "model": "switchback",
+      "at": 0.7038040249990316,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Arnold",
+      "at": 0,
+      "landmark": "Arnold"
+    },
+    {
+      "name": "Dorrington",
+      "at": 0.09261083743842365,
+      "landmark": ""
+    },
+    {
+      "name": "Cottage Springs",
+      "at": 0.19178981937602627,
+      "landmark": ""
+    },
+    {
+      "name": "Ganns",
+      "at": 0.27307060755336615,
+      "landmark": ""
+    },
+    {
+      "name": "Tamarack",
+      "at": 0.3697865353037767,
+      "landmark": ""
+    },
+    {
+      "name": "Markleeville",
+      "at": 0.9991789819376027,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/ebbetts-pass-scenic-byway-2305.json",
+    "public/data/strips/ebbetts-pass-scenic-byway-2305.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,377 @@
+{
+  "authored": false,
+  "bywayId": "washington-heritage-trail-13753",
+  "title": "Washington Heritage Trail",
+  "longitude": -78.1125,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -78.23612,
+        39.62332
+      ],
+      [
+        -78.22721,
+        39.62975
+      ],
+      [
+        -78.21512,
+        39.61839
+      ],
+      [
+        -78.18649,
+        39.62419
+      ],
+      [
+        -78.15412,
+        39.64059
+      ],
+      [
+        -78.09453,
+        39.62976
+      ],
+      [
+        -78.06463,
+        39.5916
+      ],
+      [
+        -78.03949,
+        39.5784
+      ],
+      [
+        -78.03652,
+        39.55848
+      ],
+      [
+        -77.99983,
+        39.55827
+      ],
+      [
+        -77.98964,
+        39.54909
+      ],
+      [
+        -77.95971,
+        39.49767
+      ],
+      [
+        -77.95462,
+        39.47178
+      ],
+      [
+        -77.96355,
+        39.45747
+      ],
+      [
+        -77.91124,
+        39.43854
+      ],
+      [
+        -77.87162,
+        39.39974
+      ],
+      [
+        -77.80485,
+        39.4284
+      ],
+      [
+        -77.81014,
+        39.40287
+      ],
+      [
+        -77.80002,
+        39.37965
+      ],
+      [
+        -77.79893,
+        39.31527
+      ],
+      [
+        -77.79053,
+        39.31445
+      ],
+      [
+        -77.8599,
+        39.28906
+      ],
+      [
+        -77.84662,
+        39.27342
+      ],
+      [
+        -77.86419,
+        39.26271
+      ],
+      [
+        -77.92381,
+        39.26387
+      ],
+      [
+        -77.92279,
+        39.30394
+      ],
+      [
+        -77.9732,
+        39.30594
+      ],
+      [
+        -78.01451,
+        39.3315
+      ],
+      [
+        -78.03759,
+        39.36082
+      ],
+      [
+        -78.09301,
+        39.36786
+      ],
+      [
+        -78.11133,
+        39.38023
+      ],
+      [
+        -78.10875,
+        39.41811
+      ],
+      [
+        -78.11657,
+        39.43509
+      ],
+      [
+        -78.14832,
+        39.45246
+      ],
+      [
+        -78.16907,
+        39.45172
+      ],
+      [
+        -78.16853,
+        39.4606
+      ],
+      [
+        -78.20891,
+        39.43729
+      ],
+      [
+        -78.23263,
+        39.44302
+      ],
+      [
+        -78.253,
+        39.43592
+      ],
+      [
+        -78.31226,
+        39.46255
+      ],
+      [
+        -78.28038,
+        39.52575
+      ],
+      [
+        -78.28838,
+        39.53241
+      ],
+      [
+        -78.27756,
+        39.56385
+      ],
+      [
+        -78.23612,
+        39.62332
+      ],
+      [
+        -78.24914,
+        39.62392
+      ],
+      [
+        -78.24934,
+        39.63368
+      ],
+      [
+        -78.26982,
+        39.61466
+      ],
+      [
+        -78.2996,
+        39.61836
+      ],
+      [
+        -78.34493,
+        39.5552
+      ],
+      [
+        -78.35471,
+        39.5116
+      ],
+      [
+        -78.37758,
+        39.4824
+      ],
+      [
+        -78.3915,
+        39.48349
+      ],
+      [
+        -78.40527,
+        39.50134
+      ],
+      [
+        -78.43727,
+        39.49137
+      ],
+      [
+        -78.43561,
+        39.51467
+      ],
+      [
+        -78.45566,
+        39.53823
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Jefferson Rock, Harpers Ferry",
+      "model": "ledge",
+      "at": 0.3602764064337628,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "George Washington's Bathtub, Berkeley Springs",
+      "model": "town-blocks",
+      "at": 0.3602764064337628,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "North Berkeley",
+      "at": 0.006469212782540978,
+      "landmark": ""
+    },
+    {
+      "name": "Mount Trimble",
+      "at": 0.06983632112236948,
+      "landmark": ""
+    },
+    {
+      "name": "Hedgesville",
+      "at": 0.14816835541699147,
+      "landmark": ""
+    },
+    {
+      "name": "Winebrenners Crossroad",
+      "at": 0.24045206547155107,
+      "landmark": ""
+    },
+    {
+      "name": "Halltown",
+      "at": 0.3570537802026501,
+      "landmark": ""
+    },
+    {
+      "name": "Silver Grove",
+      "at": 0.3602764064337628,
+      "landmark": ""
+    },
+    {
+      "name": "Charles Town",
+      "at": 0.42353858144972734,
+      "landmark": ""
+    },
+    {
+      "name": "Inwood",
+      "at": 0.5363211223694466,
+      "landmark": ""
+    },
+    {
+      "name": "Shanghai",
+      "at": 0.6058456742010911,
+      "landmark": ""
+    },
+    {
+      "name": "Unger",
+      "at": 0.6774746687451286,
+      "landmark": ""
+    },
+    {
+      "name": "Rock Gap",
+      "at": 0.7524551831644584,
+      "landmark": ""
+    },
+    {
+      "name": "Woodmont",
+      "at": 0.8500389711613406,
+      "landmark": ""
+    },
+    {
+      "name": "Paw Paw",
+      "at": 0.9960249415432579,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/washington-heritage-trail-13753.json",
+    "public/data/strips/washington-heritage-trail-13753.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

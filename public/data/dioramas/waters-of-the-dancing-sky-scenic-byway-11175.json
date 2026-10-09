@@ -1,0 +1,395 @@
+{
+  "authored": false,
+  "bywayId": "waters-of-the-dancing-sky-scenic-byway-11175",
+  "title": "Waters of the Dancing Sky Scenic Byway",
+  "longitude": -94.8068,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -93.15812,
+        48.59549
+      ],
+      [
+        -93.17044,
+        48.59884
+      ],
+      [
+        -93.20356,
+        48.59394
+      ],
+      [
+        -93.31109,
+        48.60989
+      ],
+      [
+        -93.34897,
+        48.60858
+      ],
+      [
+        -93.37385,
+        48.60171
+      ],
+      [
+        -93.41167,
+        48.60289
+      ],
+      [
+        -93.43958,
+        48.58666
+      ],
+      [
+        -93.44145,
+        48.55474
+      ],
+      [
+        -93.48341,
+        48.53465
+      ],
+      [
+        -93.50793,
+        48.53394
+      ],
+      [
+        -93.53607,
+        48.52349
+      ],
+      [
+        -93.65433,
+        48.51513
+      ],
+      [
+        -93.80728,
+        48.51299
+      ],
+      [
+        -93.81995,
+        48.52578
+      ],
+      [
+        -93.81752,
+        48.58937
+      ],
+      [
+        -93.83954,
+        48.62668
+      ],
+      [
+        -93.90652,
+        48.632
+      ],
+      [
+        -94.10793,
+        48.62704
+      ],
+      [
+        -94.13929,
+        48.64352
+      ],
+      [
+        -94.22603,
+        48.64685
+      ],
+      [
+        -94.2522,
+        48.65322
+      ],
+      [
+        -94.2571,
+        48.66037
+      ],
+      [
+        -94.25693,
+        48.68429
+      ],
+      [
+        -94.28401,
+        48.69924
+      ],
+      [
+        -94.41435,
+        48.69962
+      ],
+      [
+        -94.43187,
+        48.69118
+      ],
+      [
+        -94.45342,
+        48.69076
+      ],
+      [
+        -94.53767,
+        48.69993
+      ],
+      [
+        -94.55229,
+        48.71181
+      ],
+      [
+        -94.71085,
+        48.71079
+      ],
+      [
+        -95.08836,
+        48.7984
+      ],
+      [
+        -95.27722,
+        48.87581
+      ],
+      [
+        -95.31884,
+        48.89752
+      ],
+      [
+        -95.32125,
+        48.91087
+      ],
+      [
+        -95.33123,
+        48.91431
+      ],
+      [
+        -95.48069,
+        48.88648
+      ],
+      [
+        -95.51749,
+        48.87241
+      ],
+      [
+        -95.57651,
+        48.86505
+      ],
+      [
+        -95.62259,
+        48.84897
+      ],
+      [
+        -95.83909,
+        48.84785
+      ],
+      [
+        -95.90572,
+        48.83817
+      ],
+      [
+        -95.95594,
+        48.82182
+      ],
+      [
+        -96.0045,
+        48.7965
+      ],
+      [
+        -96.00851,
+        48.78418
+      ],
+      [
+        -96.03155,
+        48.76113
+      ],
+      [
+        -96.13959,
+        48.72261
+      ],
+      [
+        -96.17806,
+        48.69965
+      ],
+      [
+        -96.19253,
+        48.69774
+      ],
+      [
+        -96.21044,
+        48.6793
+      ],
+      [
+        -96.419,
+        48.64015
+      ],
+      [
+        -96.44345,
+        48.62846
+      ],
+      [
+        -96.45046,
+        48.61008
+      ],
+      [
+        -96.46711,
+        48.59258
+      ],
+      [
+        -96.49054,
+        48.5912
+      ],
+      [
+        -96.52161,
+        48.57817
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Baudette",
+      "model": "town-blocks",
+      "at": 0.4451947443379948,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Zippel Bay State Park",
+      "model": "alpine-lake",
+      "at": 0.5294718613059098,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Warroad",
+      "model": "town-blocks",
+      "at": 0.6481334182282213,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Island View",
+      "at": 0.002491694352159457,
+      "landmark": ""
+    },
+    {
+      "name": "International Falls",
+      "at": 0.0655592469545958,
+      "landmark": ""
+    },
+    {
+      "name": "Indus",
+      "at": 0.2325027685492801,
+      "landmark": ""
+    },
+    {
+      "name": "Birchdale",
+      "at": 0.3002214839424142,
+      "landmark": ""
+    },
+    {
+      "name": "Central",
+      "at": 0.3774086378737541,
+      "landmark": ""
+    },
+    {
+      "name": "Baudette",
+      "at": 0.4452934662236987,
+      "landmark": "Baudette"
+    },
+    {
+      "name": "Williams",
+      "at": 0.5402547065337763,
+      "landmark": ""
+    },
+    {
+      "name": "Warroad",
+      "at": 0.6481727574750831,
+      "landmark": "Warroad"
+    },
+    {
+      "name": "Roseau",
+      "at": 0.7671650055370985,
+      "landmark": ""
+    },
+    {
+      "name": "Greenbush",
+      "at": 0.8946290143964563,
+      "landmark": ""
+    },
+    {
+      "name": "Karlstad",
+      "at": 0.9999446290143964,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/waters-of-the-dancing-sky-scenic-byway-11175.json",
+    "public/data/strips/waters-of-the-dancing-sky-scenic-byway-11175.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,346 @@
+{
+  "authored": false,
+  "bywayId": "colorado-river-headwaters-byway-2106",
+  "title": "Colorado River Headwaters Byway",
+  "longitude": -106.2604,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -105.83563,
+        40.25064
+      ],
+      [
+        -105.86188,
+        40.21546
+      ],
+      [
+        -105.86179,
+        40.20354
+      ],
+      [
+        -105.90025,
+        40.17427
+      ],
+      [
+        -105.89778,
+        40.16368
+      ],
+      [
+        -105.88853,
+        40.15116
+      ],
+      [
+        -105.8987,
+        40.12476
+      ],
+      [
+        -105.91043,
+        40.11609
+      ],
+      [
+        -105.94928,
+        40.10021
+      ],
+      [
+        -105.95783,
+        40.09063
+      ],
+      [
+        -105.96999,
+        40.09647
+      ],
+      [
+        -105.97624,
+        40.10749
+      ],
+      [
+        -105.98995,
+        40.1107
+      ],
+      [
+        -106.02162,
+        40.108
+      ],
+      [
+        -106.03214,
+        40.09968
+      ],
+      [
+        -106.06365,
+        40.0936
+      ],
+      [
+        -106.10001,
+        40.0732
+      ],
+      [
+        -106.11077,
+        40.0733
+      ],
+      [
+        -106.1175,
+        40.06502
+      ],
+      [
+        -106.1336,
+        40.05984
+      ],
+      [
+        -106.1359,
+        40.05065
+      ],
+      [
+        -106.16985,
+        40.05141
+      ],
+      [
+        -106.18076,
+        40.06281
+      ],
+      [
+        -106.22154,
+        40.06769
+      ],
+      [
+        -106.24783,
+        40.06264
+      ],
+      [
+        -106.26734,
+        40.06777
+      ],
+      [
+        -106.28992,
+        40.06508
+      ],
+      [
+        -106.34985,
+        40.05024
+      ],
+      [
+        -106.38875,
+        40.05884
+      ],
+      [
+        -106.38818,
+        40.05462
+      ],
+      [
+        -106.37147,
+        40.05083
+      ],
+      [
+        -106.37154,
+        40.04463
+      ],
+      [
+        -106.37423,
+        40.03645
+      ],
+      [
+        -106.38907,
+        40.02733
+      ],
+      [
+        -106.38916,
+        40.01798
+      ],
+      [
+        -106.40534,
+        40.00578
+      ],
+      [
+        -106.40701,
+        39.99608
+      ],
+      [
+        -106.43774,
+        39.98507
+      ],
+      [
+        -106.45101,
+        39.99218
+      ],
+      [
+        -106.4747,
+        39.99482
+      ],
+      [
+        -106.48505,
+        40.00188
+      ],
+      [
+        -106.50382,
+        39.97386
+      ],
+      [
+        -106.50375,
+        39.96589
+      ],
+      [
+        -106.52046,
+        39.96558
+      ],
+      [
+        -106.51965,
+        39.95528
+      ],
+      [
+        -106.529,
+        39.94598
+      ],
+      [
+        -106.52707,
+        39.92899
+      ],
+      [
+        -106.55059,
+        39.91674
+      ],
+      [
+        -106.58269,
+        39.90773
+      ],
+      [
+        -106.59578,
+        39.89919
+      ],
+      [
+        -106.60806,
+        39.89981
+      ],
+      [
+        -106.60687,
+        39.89415
+      ],
+      [
+        -106.62234,
+        39.88797
+      ],
+      [
+        -106.6438,
+        39.86727
+      ],
+      [
+        -106.64251,
+        39.85697
+      ],
+      [
+        -106.65136,
+        39.85758
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Grand Lake",
+      "model": "alpine-lake",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grand Lake",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hot Sulphur Springs",
+      "model": "town-blocks",
+      "at": 0.3489953211035865,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Gore Canyon",
+      "model": "ledge",
+      "at": 0.7793598719553303,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Hot Sulphur Springs",
+      "at": 0.3484490398818316,
+      "landmark": "Hot Sulphur Springs"
+    },
+    {
+      "name": "Parshall",
+      "at": 0.42481536189069424,
+      "landmark": ""
+    },
+    {
+      "name": "Troublesome",
+      "at": 0.5251107828655834,
+      "landmark": ""
+    },
+    {
+      "name": "Kremmling",
+      "at": 0.5915805022156573,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/colorado-river-headwaters-byway-2106.json",
+    "public/data/strips/colorado-river-headwaters-byway-2106.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

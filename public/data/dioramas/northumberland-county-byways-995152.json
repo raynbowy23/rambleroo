@@ -1,0 +1,353 @@
+{
+  "authored": false,
+  "bywayId": "northumberland-county-byways-995152",
+  "title": "Northumberland County byways",
+  "longitude": -76.2964,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -76.28115,
+        37.81717
+      ],
+      [
+        -76.2782,
+        37.81622
+      ],
+      [
+        -76.27773,
+        37.81701
+      ],
+      [
+        -76.27627,
+        37.81686
+      ],
+      [
+        -76.27173,
+        37.81833
+      ],
+      [
+        -76.26804,
+        37.82565
+      ],
+      [
+        -76.26668,
+        37.83326
+      ],
+      [
+        -76.26279,
+        37.8381
+      ],
+      [
+        -76.26376,
+        37.84168
+      ],
+      [
+        -76.26971,
+        37.84841
+      ],
+      [
+        -76.2716,
+        37.84955
+      ],
+      [
+        -76.27063,
+        37.8505
+      ],
+      [
+        -76.26517,
+        37.85144
+      ],
+      [
+        -76.26206,
+        37.85718
+      ],
+      [
+        -76.26144,
+        37.85981
+      ],
+      [
+        -76.26024,
+        37.86013
+      ],
+      [
+        -76.2603,
+        37.86514
+      ],
+      [
+        -76.2637,
+        37.86612
+      ],
+      [
+        -76.26426,
+        37.86692
+      ],
+      [
+        -76.26115,
+        37.86966
+      ],
+      [
+        -76.26023,
+        37.87213
+      ],
+      [
+        -76.25837,
+        37.87422
+      ],
+      [
+        -76.26974,
+        37.89071
+      ],
+      [
+        -76.27217,
+        37.89574
+      ],
+      [
+        -76.28229,
+        37.9058
+      ],
+      [
+        -76.28222,
+        37.90895
+      ],
+      [
+        -76.2831,
+        37.91027
+      ],
+      [
+        -76.2912,
+        37.90909
+      ],
+      [
+        -76.29369,
+        37.90929
+      ],
+      [
+        -76.29655,
+        37.91194
+      ],
+      [
+        -76.30061,
+        37.91436
+      ],
+      [
+        -76.30489,
+        37.91539
+      ],
+      [
+        -76.31032,
+        37.91913
+      ],
+      [
+        -76.31412,
+        37.91943
+      ],
+      [
+        -76.32216,
+        37.91622
+      ],
+      [
+        -76.3302,
+        37.91385
+      ],
+      [
+        -76.3348,
+        37.91394
+      ],
+      [
+        -76.33495,
+        37.9119
+      ],
+      [
+        -76.33326,
+        37.9088
+      ],
+      [
+        -76.33842,
+        37.90386
+      ],
+      [
+        -76.34741,
+        37.90569
+      ],
+      [
+        -76.35377,
+        37.90332
+      ],
+      [
+        -76.35805,
+        37.90426
+      ],
+      [
+        -76.36291,
+        37.90303
+      ],
+      [
+        -76.36454,
+        37.90653
+      ],
+      [
+        -76.37248,
+        37.90672
+      ],
+      [
+        -76.37884,
+        37.91055
+      ],
+      [
+        -76.38892,
+        37.91114
+      ],
+      [
+        -76.39554,
+        37.91233
+      ],
+      [
+        -76.39998,
+        37.91158
+      ],
+      [
+        -76.4033,
+        37.91005
+      ],
+      [
+        -76.40558,
+        37.9072
+      ],
+      [
+        -76.41257,
+        37.90539
+      ],
+      [
+        -76.42413,
+        37.90724
+      ],
+      [
+        -76.4257,
+        37.90892
+      ],
+      [
+        -76.42433,
+        37.90855
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Reedville",
+      "model": "harbor",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Reedville",
+      "model": "town-blocks",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Reedville",
+      "at": 0.15254237288135586,
+      "landmark": "Reedville"
+    },
+    {
+      "name": "Ophelia",
+      "at": 0.4666666666666667,
+      "landmark": ""
+    },
+    {
+      "name": "Gonyon",
+      "at": 0.6915254237288135,
+      "landmark": ""
+    },
+    {
+      "name": "Claraville",
+      "at": 0.9926553672316384,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/northumberland-county-byways-995152.json",
+    "public/data/strips/northumberland-county-byways-995152.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

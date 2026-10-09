@@ -1,0 +1,347 @@
+{
+  "authored": false,
+  "bywayId": "prince-william-county-byways-995103",
+  "title": "Prince William County byways",
+  "longitude": -77.5255,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -77.56527,
+        38.70771
+      ],
+      [
+        -77.56402,
+        38.70639
+      ],
+      [
+        -77.5722,
+        38.68723
+      ],
+      [
+        -77.57334,
+        38.68501
+      ],
+      [
+        -77.5761,
+        38.68184
+      ],
+      [
+        -77.576,
+        38.68107
+      ],
+      [
+        -77.57497,
+        38.68025
+      ],
+      [
+        -77.51576,
+        38.6416
+      ],
+      [
+        -77.50941,
+        38.64177
+      ],
+      [
+        -77.50356,
+        38.64389
+      ],
+      [
+        -77.50126,
+        38.64401
+      ],
+      [
+        -77.48861,
+        38.63827
+      ],
+      [
+        -77.48349,
+        38.63975
+      ],
+      [
+        -77.4768,
+        38.63968
+      ],
+      [
+        -77.47251,
+        38.6359
+      ],
+      [
+        -77.46543,
+        38.63312
+      ],
+      [
+        -77.46019,
+        38.632
+      ],
+      [
+        -77.4523,
+        38.63163
+      ],
+      [
+        -77.44736,
+        38.63252
+      ],
+      [
+        -77.44281,
+        38.63096
+      ],
+      [
+        -77.4367,
+        38.63328
+      ],
+      [
+        -77.43494,
+        38.63455
+      ],
+      [
+        -77.43805,
+        38.63573
+      ],
+      [
+        -77.4368,
+        38.63229
+      ],
+      [
+        -77.43692,
+        38.62796
+      ],
+      [
+        -77.43777,
+        38.62546
+      ],
+      [
+        -77.43529,
+        38.6171
+      ],
+      [
+        -77.43279,
+        38.61367
+      ],
+      [
+        -77.42953,
+        38.61176
+      ],
+      [
+        -77.42702,
+        38.60862
+      ],
+      [
+        -77.42283,
+        38.60598
+      ],
+      [
+        -77.42306,
+        38.6007
+      ],
+      [
+        -77.42532,
+        38.59815
+      ],
+      [
+        -77.42654,
+        38.58985
+      ],
+      [
+        -77.42952,
+        38.58533
+      ],
+      [
+        -77.42925,
+        38.5837
+      ],
+      [
+        -77.42763,
+        38.58144
+      ],
+      [
+        -77.42796,
+        38.57963
+      ],
+      [
+        -77.42471,
+        38.57793
+      ],
+      [
+        -77.42361,
+        38.57665
+      ],
+      [
+        -77.42304,
+        38.57464
+      ],
+      [
+        -77.41705,
+        38.5714
+      ],
+      [
+        -77.41275,
+        38.56702
+      ],
+      [
+        -77.41089,
+        38.56611
+      ],
+      [
+        -77.4077,
+        38.56591
+      ],
+      [
+        -77.40605,
+        38.5651
+      ],
+      [
+        -77.39939,
+        38.56384
+      ],
+      [
+        -77.39328,
+        38.56391
+      ],
+      [
+        -77.38487,
+        38.56111
+      ],
+      [
+        -77.37835,
+        38.56076
+      ],
+      [
+        -77.36938,
+        38.5577
+      ],
+      [
+        -77.36643,
+        38.55469
+      ],
+      [
+        -77.36203,
+        38.55477
+      ],
+      [
+        -77.35907,
+        38.55303
+      ],
+      [
+        -77.35454,
+        38.55156
+      ],
+      [
+        -77.34731,
+        38.55146
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Beverley Mill",
+      "model": "gristmill",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Brentsville",
+      "model": "town-blocks",
+      "at": 0.3407007492434212,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Bristow",
+      "at": 0.0010060500826975863,
+      "landmark": ""
+    },
+    {
+      "name": "Nokesville",
+      "at": 0.04009661835748792,
+      "landmark": ""
+    },
+    {
+      "name": "Aden",
+      "at": 0.2309178743961353,
+      "landmark": ""
+    },
+    {
+      "name": "Brentsville",
+      "at": 0.3407007492434212,
+      "landmark": "Brentsville"
+    },
+    {
+      "name": "Independent Hill",
+      "at": 0.5454106280193236,
+      "landmark": ""
+    },
+    {
+      "name": "Kopp",
+      "at": 0.7333333333333334,
+      "landmark": ""
+    },
+    {
+      "name": "Hickory Ridge",
+      "at": 0.9246376811594204,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/prince-william-county-byways-995103.json",
+    "public/data/strips/prince-william-county-byways-995103.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,167 @@
+{
+  "authored": false,
+  "bywayId": "wild-horse-canyon-scenic-backcountry-byway-2175",
+  "title": "Wild Horse Canyon Scenic Backcountry Byway",
+  "longitude": -115.4566,
+  "ground": "desert-mesas",
+  "palette": "desert",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -115.4025,
+        35.1364
+      ],
+      [
+        -115.4168,
+        35.1296
+      ],
+      [
+        -115.4276,
+        35.1261
+      ],
+      [
+        -115.4448,
+        35.1173
+      ],
+      [
+        -115.4468,
+        35.1119
+      ],
+      [
+        -115.4446,
+        35.1059
+      ],
+      [
+        -115.4462,
+        35.1032
+      ],
+      [
+        -115.4467,
+        35.0952
+      ],
+      [
+        -115.4529,
+        35.0892
+      ],
+      [
+        -115.457,
+        35.0767
+      ],
+      [
+        -115.4505,
+        35.0722
+      ],
+      [
+        -115.4503,
+        35.0682
+      ],
+      [
+        -115.4432,
+        35.0629
+      ],
+      [
+        -115.4348,
+        35.0427
+      ],
+      [
+        -115.4259,
+        35.0365
+      ],
+      [
+        -115.4184,
+        35.0341
+      ],
+      [
+        -115.4095,
+        35.0354
+      ],
+      [
+        -115.4068,
+        35.0377
+      ],
+      [
+        -115.3898,
+        35.0386
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "mesa",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5,
+      "side": -1,
+      "distance": 0.7,
+      "scale": 1.8
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,393 @@
+{
+  "authored": false,
+  "bywayId": "chesapeake-country-scenic-byway-2261",
+  "title": "Chesapeake Country Scenic Byway",
+  "longitude": -76.0778,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -75.81385,
+        39.52925
+      ],
+      [
+        -75.81886,
+        39.5199
+      ],
+      [
+        -75.84759,
+        39.4875
+      ],
+      [
+        -75.84887,
+        39.47566
+      ],
+      [
+        -75.86715,
+        39.4648
+      ],
+      [
+        -75.87122,
+        39.45852
+      ],
+      [
+        -75.8688,
+        39.44647
+      ],
+      [
+        -75.86202,
+        39.43821
+      ],
+      [
+        -75.86076,
+        39.42015
+      ],
+      [
+        -75.87136,
+        39.39905
+      ],
+      [
+        -75.87192,
+        39.38836
+      ],
+      [
+        -75.8834,
+        39.37272
+      ],
+      [
+        -75.88365,
+        39.36605
+      ],
+      [
+        -75.87692,
+        39.35566
+      ],
+      [
+        -75.8786,
+        39.34073
+      ],
+      [
+        -75.92006,
+        39.33555
+      ],
+      [
+        -75.9365,
+        39.32689
+      ],
+      [
+        -75.95725,
+        39.32808
+      ],
+      [
+        -75.96629,
+        39.32255
+      ],
+      [
+        -75.98072,
+        39.31935
+      ],
+      [
+        -76.02225,
+        39.27985
+      ],
+      [
+        -76.0538,
+        39.26115
+      ],
+      [
+        -76.07255,
+        39.2298
+      ],
+      [
+        -76.06486,
+        39.21063
+      ],
+      [
+        -76.01012,
+        39.18439
+      ],
+      [
+        -75.98805,
+        39.17037
+      ],
+      [
+        -75.98063,
+        39.15235
+      ],
+      [
+        -75.98807,
+        39.14248
+      ],
+      [
+        -76.02136,
+        39.11596
+      ],
+      [
+        -76.0339,
+        39.10177
+      ],
+      [
+        -76.03361,
+        39.07962
+      ],
+      [
+        -76.04833,
+        39.0713
+      ],
+      [
+        -76.05548,
+        39.05195
+      ],
+      [
+        -76.07231,
+        39.04017
+      ],
+      [
+        -76.0736,
+        39.03616
+      ],
+      [
+        -76.08672,
+        39.03015
+      ],
+      [
+        -76.12266,
+        39.02673
+      ],
+      [
+        -76.12781,
+        39.02202
+      ],
+      [
+        -76.12688,
+        39.01564
+      ],
+      [
+        -76.13091,
+        39.00751
+      ],
+      [
+        -76.14245,
+        38.99431
+      ],
+      [
+        -76.1575,
+        38.99065
+      ],
+      [
+        -76.15301,
+        38.98762
+      ],
+      [
+        -76.16872,
+        38.98085
+      ],
+      [
+        -76.18417,
+        38.96721
+      ],
+      [
+        -76.182,
+        38.96514
+      ],
+      [
+        -76.18541,
+        38.96193
+      ],
+      [
+        -76.19194,
+        38.95982
+      ],
+      [
+        -76.21103,
+        38.95836
+      ],
+      [
+        -76.22193,
+        38.96446
+      ],
+      [
+        -76.25236,
+        38.9716
+      ],
+      [
+        -76.26074,
+        38.96842
+      ],
+      [
+        -76.28213,
+        38.97426
+      ],
+      [
+        -76.28733,
+        38.97839
+      ],
+      [
+        -76.29628,
+        38.97613
+      ],
+      [
+        -76.31622,
+        38.97996
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Chesapeake City",
+      "model": "town-blocks",
+      "at": 0.0011505764561650534,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Chestertown",
+      "model": "harbor",
+      "at": 0.4736761154852905,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Chestertown",
+      "model": "town-blocks",
+      "at": 0.4736761154852905,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rock Hall",
+      "model": "harbor",
+      "at": 0.7763974006932278,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rock Hall",
+      "model": "town-blocks",
+      "at": 0.7763974006932278,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Chesapeake City",
+      "at": 0.0011023622047244095,
+      "landmark": "Chesapeake City"
+    },
+    {
+      "name": "Hack's Point",
+      "at": 0.09291338582677165,
+      "landmark": ""
+    },
+    {
+      "name": "Cecilton",
+      "at": 0.15811023622047243,
+      "landmark": ""
+    },
+    {
+      "name": "Galena",
+      "at": 0.2303937007874016,
+      "landmark": ""
+    },
+    {
+      "name": "Kennedyville",
+      "at": 0.3436220472440945,
+      "landmark": ""
+    },
+    {
+      "name": "Fairlee",
+      "at": 0.4526999554879929,
+      "landmark": ""
+    },
+    {
+      "name": "Edesville",
+      "at": 0.4736761154852905,
+      "landmark": ""
+    },
+    {
+      "name": "Chestertown",
+      "at": 0.4737007874015748,
+      "landmark": "Chestertown"
+    },
+    {
+      "name": "Centreville",
+      "at": 0.7176377952755906,
+      "landmark": ""
+    },
+    {
+      "name": "Queenstown",
+      "at": 0.8324409448818898,
+      "landmark": ""
+    },
+    {
+      "name": "Kent Narrows",
+      "at": 0.9291338582677166,
+      "landmark": ""
+    },
+    {
+      "name": "Stevensville",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/chesapeake-country-scenic-byway-2261.json",
+    "public/data/strips/chesapeake-country-scenic-byway-2261.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}
