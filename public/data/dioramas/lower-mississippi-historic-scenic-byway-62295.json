@@ -3,12 +3,12 @@
   "bywayId": "lower-mississippi-historic-scenic-byway-62295",
   "title": "Lower Mississippi Historic Scenic Byway",
   "longitude": -90.891,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,39 +239,39 @@
     "elevation": [
       [
         0,
-        0.35
+        0.2
       ],
       [
         0.125,
-        0.453
+        0.218
       ],
       [
         0.25,
-        0.7
+        0.26
       ],
       [
         0.375,
-        0.947
+        0.302
       ],
       [
         0.5,
-        1.05
+        0.32
       ],
       [
         0.625,
-        0.947
+        0.302
       ],
       [
         0.75,
-        0.7
+        0.26
       ],
       [
         0.875,
-        0.453
+        0.218
       ],
       [
         1,
-        0.35
+        0.2
       ]
     ]
   },
@@ -293,88 +293,11 @@
   ],
   "dressing": [
     {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 0.8,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.125,
-      "side": 1,
-      "distance": 1.2000000000000002,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
       "distance": 0.8,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.2000000000000002,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.6,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.8,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.2000000000000002,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.875,
-      "side": -1,
-      "distance": 1.2000000000000002,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.6,
-      "scale": 1.2
+      "scale": 1
     }
   ],
   "towns": [

@@ -13,7 +13,13 @@ export function makeRoute(spec: DioramaSpec) {
   const midX = (Math.max(...xs) + Math.min(...xs)) / 2,
     midZ = (Math.max(...zs) + Math.min(...zs)) / 2
   const scale = 7 / Math.max(0.000001, Math.max(...xs) - Math.min(...xs), Math.max(...zs) - Math.min(...zs))
-  const flat = coords.map((_, i) => new T.Vector3((xs[i] - midX) * scale, 0, (zs[i] - midZ) * scale))
+  const bends = coords.map((_, i) => new T.Vector3((xs[i] - midX) * scale, 0, (zs[i] - midZ) * scale))
+  const length = bends.slice(1).reduce((sum, p, i) => sum + p.distanceTo(bends[i]), 0)
+  const flat = [bends[0]]
+  for (let i = 1; i < bends.length; i++) {
+    const steps = Math.max(1, Math.ceil(bends[i].distanceTo(bends[i - 1]) / Math.max(0.18, length / 90)))
+    for (let j = 1; j <= steps; j++) flat.push(bends[i - 1].clone().lerp(bends[i], j / steps))
+  }
   const distances = [0]
   for (let i = 1; i < flat.length; i++) distances.push(distances[i - 1] + flat[i].distanceTo(flat[i - 1]))
   const total = distances.at(-1)!

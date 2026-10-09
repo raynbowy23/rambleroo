@@ -93,6 +93,19 @@ export function connectedPaths(paths: Point[][]) {
   }
   return chains
 }
+/** Editorial moments decide the landscape; motifs disambiguate flat scenes. */
+export function storyScene(road: BywaySummary, story?: BywayStory): SceneFamily {
+  if (!story) return road.scene
+  const counts = new Map<SceneFamily, number>()
+  for (const moment of story.moments) counts.set(moment.scene, (counts.get(moment.scene) ?? 0) + 1)
+  const ranked = [...counts].sort((a, b) => b[1] - a[1] || (a[0] === 'mountain' ? -1 : b[0] === 'mountain' ? 1 : 0))
+  let scene = ranked[0]?.[0] ?? 'forest'
+  const motifs = new Set<string>([...(story.motifs ?? []), ...story.moments.flatMap((m) => m.motifs ?? [])])
+  if (['town', 'prairie', 'forest'].includes(scene) && ['snow-peaks', 'switchbacks', 'rolling-ridges'].some((m) => motifs.has(m)))
+    scene = 'mountain'
+  if (['town', 'prairie', 'forest'].includes(scene) && ['lake-wide', 'river-bluffs'].some((m) => motifs.has(m))) scene = 'river'
+  return scene
+}
 export function generateSpec(road: BywaySummary, paths: Point[][], story?: BywayStory, strip?: Strip): DioramaSpec {
   // A strip supplies an ordered main route. Otherwise use the longest mapped component,
   // avoiding fictitious road connections between disconnected catalog branches.
@@ -106,7 +119,7 @@ export function generateSpec(road: BywaySummary, paths: Point[][], story?: Byway
     path = [...path].reverse()
     reversed = true
   }
-  const scene: SceneFamily = story?.moments[0]?.scene ?? road.scene
+  const scene: SceneFamily = storyScene(road, story)
   const cliff = ['california', 'pacific-northwest', 'alaska', 'hawaii'].includes(road.region)
   const ground: DioramaSpec['ground'] = {
     coast: cliff ? 'coastal-cliff' : 'low-shore',
@@ -158,7 +171,13 @@ export function generateSpec(road: BywaySummary, paths: Point[][], story?: Byway
     const at = (i + 0.5) / 12,
       side = i % 2 ? 1 : -1
     if (scene === 'forest' || scene === 'mountain' || road.themes.includes('forest'))
-      add(['rockies', 'alaska', 'pacific-northwest'].includes(road.region) ? 'conifer' : 'hardwood', at, side, 0.8 + (i % 3) * 0.4, 1.2)
+      add(
+        ['rockies', 'alaska', 'pacific-northwest'].includes(road.region) ? 'conifer' : 'hardwood',
+        (Math.floor(i / 3) + 0.35) / 4 + (i % 3) * 0.012,
+        Math.floor(i / 3) % 2 ? 1 : -1,
+        0.8 + (i % 3) * 0.35,
+        1.05,
+      )
     else if (scene === 'prairie') {
       add('field', at, side, 1.3, 1.3)
       if (i % 3 === 0) add('hardwood', at, side, 1.9, 0.8)

@@ -124,3 +124,68 @@ it('preserves authored bytes and joins only connected geometry', () => {
     ],
   ])
 })
+
+it('gives Mount Greylock mountain ground and lets editorial evidence override catalog inference', () => {
+  const road = catalog.find((r) => r.id === 'mount-greylock-scenic-byway-2569')!
+  const path = [
+    [
+      [0, 0],
+      [1, 1],
+    ],
+  ]
+  expect(generateSpec(road, path).ground).toBe('alpine-plateau')
+  expect(read(`public/data/dioramas/${road.id}.json`).ground).toBe('alpine-plateau')
+  const story: BywayStory = {
+    id: road.id,
+    tagline: '',
+    intro: [],
+    sources: [],
+    reviewed: false,
+    moments: [
+      { title: 'Town', kind: 'roadside', scene: 'town', text: '' },
+      { title: 'Peak', kind: 'roadside', scene: 'mountain', text: '' },
+    ],
+  }
+  const inferred = { ...road, scene: 'prairie' as const }
+  expect(generateSpec(inferred, path, story).ground).toBe('alpine-plateau')
+  story.moments.push(
+    { title: 'Forest', kind: 'roadside', scene: 'forest', text: '' },
+    { title: 'Woods', kind: 'roadside', scene: 'forest', text: '' },
+  )
+  expect(generateSpec(inferred, path, story).ground).toBe('forested-ridges')
+  story.motifs = ['rolling-ridges']
+  expect(generateSpec(inferred, path, story).ground).toBe('alpine-plateau')
+  story.motifs = ['lake-wide']
+  expect(generateSpec(inferred, path, story).ground).toBe('river-valley')
+})
+
+it('keeps Outer Banks lighthouses small and separated in daylight and at night', () => {
+  const spec = read('public/data/dioramas/outer-banks-scenic-byway-12834.json') as DioramaSpec
+  for (const hour of [12, 21]) {
+    const built = buildScene(spec, defaultGarage, { hour, season: 'summer', weather: 'clear' })
+    const towers = built.landmarkGroups.filter((_, i) => spec.landmarks[i].model === 'lighthouse-on-rock')
+    expect(towers).toHaveLength(2)
+    expect(Math.hypot(towers[0].position.x - towers[1].position.x, towers[0].position.z - towers[1].position.z)).toBeGreaterThanOrEqual(1.8)
+    // The prototype is 1.445 units tall, including its rocky base.
+    for (const tower of towers) expect(tower.scale.y * 1.445).toBeLessThanOrEqual(8 / 3 + 0.00001)
+    built.dispose()
+  }
+})
+
+it('keeps the road surface and visitor above the terrain on the reviewed miniatures', () => {
+  const ids = [
+    'route-1-big-sur-coast-highway-2301',
+    'talimena-scenic-drive-2485',
+    'kenton-to-keys-state-scenic-byway-994001',
+    'mount-greylock-scenic-byway-2569',
+    'outer-banks-scenic-byway-12834',
+  ]
+  for (const id of ids) {
+    const built = buildScene(read(`public/data/dioramas/${id}.json`), defaultGarage, { hour: 12, season: 'summer', weather: 'clear' })
+    for (let i = 0; i <= 1000; i++) {
+      const p = built.route.sample(i / 1000)
+      expect(p.y + 0.045, id).toBeGreaterThan(built.route.height(p.x, p.z))
+    }
+    built.dispose()
+  }
+})

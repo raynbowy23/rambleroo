@@ -3,8 +3,8 @@
   "bywayId": "door-county-coastal-byway-81450",
   "title": "Door County Coastal Byway",
   "longitude": -87.1981,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "low-shore",
+  "palette": "coast",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
@@ -239,39 +239,39 @@
     "elevation": [
       [
         0,
-        0.35
+        0.2
       ],
       [
         0.125,
-        0.453
+        0.218
       ],
       [
         0.25,
-        0.7
+        0.26
       ],
       [
         0.375,
-        0.947
+        0.302
       ],
       [
         0.5,
-        1.05
+        0.32
       ],
       [
         0.625,
-        0.947
+        0.302
       ],
       [
         0.75,
-        0.7
+        0.26
       ],
       [
         0.875,
-        0.453
+        0.218
       ],
       [
         1,
-        0.35
+        0.2
       ]
     ]
   },
@@ -321,88 +321,32 @@
       "scale": 1.5
     },
     {
-      "model": "hardwood",
+      "model": "sandbar",
       "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 0.8,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.125,
       "side": 1,
-      "distance": 1.2000000000000002,
-      "scale": 1.2
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "hardwood",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
+      "model": "sandbar",
       "at": 0.2916666666666667,
       "side": 1,
-      "distance": 0.8,
-      "scale": 1.2
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "hardwood",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.2000000000000002,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.6,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
+      "model": "sandbar",
       "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.8,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.625,
       "side": 1,
-      "distance": 1.2000000000000002,
-      "scale": 1.2
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "hardwood",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
+      "model": "sandbar",
       "at": 0.7916666666666666,
       "side": 1,
-      "distance": 0.8,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.875,
-      "side": -1,
-      "distance": 1.2000000000000002,
-      "scale": 1.2
-    },
-    {
-      "model": "hardwood",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.6,
-      "scale": 1.2
+      "distance": 1.5,
+      "scale": 1.4
     }
   ],
   "towns": [

@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import Ajv from 'ajv'
 import * as T from 'three'
 import { specs, specSchema } from './fixtures.test-data'
-import { buildScene, solarHour, triangleCount } from './scene'
+import { buildScene, solarHour, triangleCount, ribbon } from './scene'
 import { defaultGarage, models as vehicles } from '../../../lib/garage'
 import { makeRoute, SPIN_PER_SECOND, DRAG_RADIANS_PER_PX } from './route'
 import { buildModel } from './models'
@@ -88,4 +88,18 @@ it('turns a full circle in about forty seconds and drags at a steady rate', () =
 it('resolves longitude-based solar time across midnight', () => {
   expect(solarHour(-120, new Date('2026-07-01T21:00:00Z'))).toBe(13)
   expect(solarHour(-120, new Date('2026-07-01T05:00:00Z'))).toBe(21)
+})
+
+it('joins road and centre-line corners continuously through sharp bends', () => {
+  const points = [new T.Vector3(0, 0, 0), new T.Vector3(1, 0.3, 0), new T.Vector3(1, 0.5, 1), new T.Vector3(0.8, 0.6, 0.2)]
+  for (const width of [0.34, 0.028]) {
+    const mesh = ribbon(points, width)
+    const positions = mesh.getAttribute('position')
+    const vertex = (i: number) => new T.Vector3().fromBufferAttribute(positions, i)
+    for (let i = 6; i < positions.count; i += 6) {
+      expect(vertex(i).distanceTo(vertex(i - 5))).toBe(0)
+      expect(vertex(i + 2).distanceTo(vertex(i - 1))).toBe(0)
+    }
+    mesh.dispose()
+  }
 })

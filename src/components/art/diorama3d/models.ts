@@ -20,8 +20,8 @@ export function buildModel(model: Model, ink: Pigments) {
       color,
       roughness: 1,
       flatShading: true,
-      emissive: glow ? color : '#000000',
-      emissiveIntensity: glow ? 0.85 : 0,
+      emissive: glow || ink.night ? color : '#000000',
+      emissiveIntensity: glow ? 0.85 : ink.night ? 0.16 : 0,
     })
   const materials = new Map<string, T.Material>()
   const mesh = (geo: T.BufferGeometry, color: string, x = 0, y = 0, z = 0, glow = false) => {
@@ -92,8 +92,8 @@ export function buildModel(model: Model, ink: Pigments) {
     case 'aspen':
     case 'orchard':
       for (const x of [-0.3, 0, 0.3]) {
-        box(x, 0.2, 0, 0.035, 0.4, 0.035, ink.paper)
-        const crown = mesh(new T.OctahedronGeometry(0.22), ink.foliage, x, 0.48)
+        box(x, 0.11, 0, 0.04, 0.22, 0.04, ink.paper)
+        const crown = mesh(new T.SphereGeometry(0.19, 6, 3), ink.foliage, x, 0.3)
         crown.scale.y = model === 'aspen' ? 1.6 : 0.8
       }
       break
@@ -143,19 +143,19 @@ export function buildModel(model: Model, ink: Pigments) {
       for (const z of [-0.16, 0.16]) box(0.36, 0.24, z, 0.025, 0.36, 0.025, ink.paper)
       break
     case 'conifer':
-      cone(0, 0.37, 0, 0.23, 0.74, ink.snow ? ink.paper : ink.dark, 4)
+      box(0, 0.09, 0, 0.05, 0.18, 0.05)
+      cone(0, 0.32, 0, 0.21, 0.48, ink.snow ? ink.paper : ink.foliage, 6)
       break
     case 'hardwood': {
-      const m = mesh(new T.OctahedronGeometry(0.28), ink.foliage, 0, 0.4)
-      m.scale.y = 1.2
-      const g = new T.BufferGeometry().setFromPoints([new T.Vector3(0, 0, 0), new T.Vector3(0, 0.35, 0)])
-      group.add(new T.Line(g, new T.LineBasicMaterial({ color: ink.dark })))
+      box(0, 0.1, 0, 0.055, 0.2, 0.055)
+      const crown = mesh(new T.SphereGeometry(0.23, 6, 3), ink.foliage, 0, 0.33)
+      crown.scale.y = 0.9
       break
     }
     case 'cypress':
       box(0, 0.22, 0, 0.055, 0.44, 0.055)
       {
-        const m = mesh(new T.OctahedronGeometry(0.38), ink.mid, 0, 0.48)
+        const m = mesh(new T.SphereGeometry(0.32, 6, 3), ink.mid, 0, 0.48)
         m.scale.set(1.35, 0.45, 0.75)
       }
       break
@@ -239,11 +239,19 @@ export function buildModel(model: Model, ink: Pigments) {
       cone(0, 1.37, 0, 0.19, 0.15, ink.dark, 6)
       if (ink.night) {
         const beam = new T.Mesh(
-          new T.ConeGeometry(0.4, 2.6, 8, 1, true),
-          new T.MeshBasicMaterial({ color: '#ffe0a0', transparent: true, opacity: 0.12, depthWrite: false, side: T.DoubleSide }),
+          new T.ConeGeometry(0.22, 0.95, 10, 3, true),
+          new T.MeshBasicMaterial({ color: '#ffe0a0', transparent: true, opacity: 0.065, depthWrite: false, side: T.DoubleSide }),
         )
+        const positions = beam.geometry.getAttribute('position')
+        const colors: number[] = []
+        for (let i = 0; i < positions.count; i++) {
+          const fade = Math.max(0, (positions.getY(i) + 0.475) / 0.95)
+          colors.push(1, 1, 1, fade * 0.8)
+        }
+        beam.geometry.setAttribute('color', new T.Float32BufferAttribute(colors, 4))
+        beam.material.vertexColors = true
         beam.rotation.z = Math.PI / 2
-        beam.position.set(1.3, 1.24, 0)
+        beam.position.set(0.475, 1.24, 0)
         const pivot = new T.Group()
         pivot.name = 'lighthouse-beam'
         pivot.add(beam)

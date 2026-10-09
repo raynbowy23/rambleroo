@@ -23,7 +23,8 @@ outlook and town models; tests check their evidence too.
 Inputs are used in this order:
 
 1. Story moments supply driving order, scenes, motifs, kinds and optional coordinates.
-   Their first scene selects the overall landscape. Coordinates project onto the route;
+   Their majority scene selects the overall landscape, with mountain winning ties.
+   Hill and water motifs correct otherwise flat scenes. Coordinates project onto the route;
    missing coordinates get illustrative positions in moment order. Projected positions
    are kept nondecreasing to preserve editorial driving order. Excursions remain
    schematic roadside models, not newly invented access roads.
@@ -53,7 +54,7 @@ Existing stories and strips are not necessarily reviewed.
 | River    | Valley floor, continuous river ribbon beside the route, wooded slopes when forest is a theme                             |
 | Desert   | Ochre mesas and pale sandy washes; sparse bare rock                                                                      |
 | Forest   | Wooded hills; conifers in Rockies, Alaska and Pacific Northwest, generic broadleaf canopy elsewhere                      |
-| Prairie  | Low profile, alternating farmland patches, crop rows and tree windbreaks                                                 |
+| Prairie  | Low profile, irregular earth-tone strips restricted to flat dry land                                                     |
 | Town     | Level main street and small generic building blocks                                                                      |
 
 Switchbacks select the switchback profile only when that motif is present. The main
@@ -103,8 +104,10 @@ and retains the local time, season and weather controls.
 
 Views are square, at most 560px wide. Orthographic framing tracks the projected
 square's width through rotation, targeting about 85% of the view, with a vertical
-margin for elevated terrain. Landmarks are 2.25× their prototype scale, the road and
-cream centre line are 2× wider, and the garage car is 2× larger. Terrain uses the
+margin for elevated terrain. Landmarks are enlarged up to a maximum dimension of one third of the tile depth.
+The continuous road and centre line share joined corners and terrain elevations.
+Smaller rounded or conical trees sit on short solid trunks; the larger visitor car
+stays visible through foreground scenery. Fog-bank dressing is omitted. Terrain uses the
 scene inks from `looks.ts`, with forest, grass, cultivated patches, exposed rock,
 snow, sand and water differentiated. Matte materials, soft ink edges and CSS paper
 grain preserve the printed treatment without glossy lighting or postprocessing.
@@ -115,7 +118,8 @@ turntable, car, weather and beacon until an explicit view interaction redraws.
 
 `renderer.ts` retains one scissored WebGL canvas, a 1.5× DPR cap, off-screen scene
 release, and no animation while all views are off screen or the document is hidden.
-Static meshes batch by pigment. Town labels are DOM text, avoiding GPU textures.
+Static meshes batch by pigment. Night materials have a modest colour lift, and
+lighthouse beams fade over a short cone. Town labels are DOM text, avoiding GPU textures.
 All scenes stay under 2,000 triangles excluding the visitor's vehicle.
 
 ## Checks and limits
