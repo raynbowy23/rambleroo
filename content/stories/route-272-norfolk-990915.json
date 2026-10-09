@@ -1,0 +1,73 @@
+{
+  "id": "route-272-norfolk-990915",
+  "tagline": "Through the Icebox of Connecticut to the Massachusetts line.",
+  "motifs": [
+    "steeple-town",
+    "waterfall-cove"
+  ],
+  "intro": [
+    "Route 272 comes over from Goshen into Norfolk, runs north past Dennis Hill State Park, shares the center of town with US 44, then goes on past Haystack Mountain and turns northwest by Campbell Falls to the Massachusetts line.",
+    "Norfolk stands at 1,230 feet and is sometimes called the Icebox of Connecticut. When the railroad came in 1871 the town sold that high, fresh air to summer people. The lowest temperature ever recorded in the state, 37 below, was taken here in February 1943."
+  ],
+  "moments": [
+    {
+      "title": "Norfolk",
+      "kind": "town",
+      "scene": "town",
+      "text": "A Stanford White fountain marks the tip of the green, and the Stoeckel estate west of it holds Yale's summer chamber music festival, believed the oldest still running in North America.",
+      "at": [
+        -73.19638889,
+        41.98361111
+      ],
+      "motifs": [
+        "steeple-town"
+      ]
+    },
+    {
+      "title": "Haystack Mountain Tower",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "Stoeckel Drive leaves Route 272 and runs 1.3 paved miles up to a 50-foot tower of granite quarried on the spot, built in 1929 and looking into three states.",
+      "at": [
+        -73.20805556,
+        42.00444444
+      ]
+    },
+    {
+      "title": "Campbell Falls",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Just over the line in Massachusetts the Whiting River drops nearly 100 feet, in a park the two states run together, with a stone monument marking the border.",
+      "at": [
+        -73.23277778,
+        42.04583333
+      ],
+      "motifs": [
+        "waterfall-cove"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia, Connecticut Route 272",
+      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_272"
+    },
+    {
+      "label": "Wikipedia, Norfolk, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Norfolk,_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Norfolk Historic District",
+      "url": "https://en.wikipedia.org/wiki/Norfolk_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Haystack Mountain Tower",
+      "url": "https://en.wikipedia.org/wiki/Haystack_Mountain_Tower"
+    },
+    {
+      "label": "Wikipedia, Campbell Falls State Park Reserve",
+      "url": "https://en.wikipedia.org/wiki/Campbell_Falls_State_Park_Reserve"
+    }
+  ],
+  "reviewed": false
+}
