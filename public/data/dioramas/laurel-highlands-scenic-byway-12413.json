@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Fort Ligonier",
+      "model": "town-blocks",
+      "at": 0.2688136827611636,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ohiopyle",
+      "model": "town-blocks",
+      "at": 0.783107063333519,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -391,7 +413,7 @@
     {
       "name": "Ohiopyle",
       "at": 0.7829197080291971,
-      "landmark": ""
+      "landmark": "Ohiopyle"
     },
     {
       "name": "Farmington",
@@ -400,6 +422,7 @@
     }
   ],
   "sources": [
+    "content/stories/laurel-highlands-scenic-byway-12413.json",
     "public/data/strips/laurel-highlands-scenic-byway-12413.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

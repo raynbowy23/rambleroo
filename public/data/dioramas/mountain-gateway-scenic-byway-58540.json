@@ -3,8 +3,8 @@
   "bywayId": "mountain-gateway-scenic-byway-58540",
   "title": "Mountain Gateway Scenic Byway",
   "longitude": -94.6253,
-  "ground": "alpine-plateau",
-  "palette": "mountain",
+  "ground": "forested-ridges",
+  "palette": "forest",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -239,43 +239,65 @@
     "elevation": [
       [
         0,
-        0.45
+        0.35
       ],
       [
         0.125,
-        0.692
+        0.453
       ],
       [
         0.25,
-        1.275
+        0.7
       ],
       [
         0.375,
-        1.858
+        0.947
       ],
       [
         0.5,
-        2.1
+        1.05
       ],
       [
         0.625,
-        1.858
+        0.947
       ],
       [
         0.75,
-        1.275
+        0.7
       ],
       [
         0.875,
-        0.692
+        0.453
       ],
       [
         1,
-        0.45
+        0.35
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Heavener",
+      "model": "town-blocks",
+      "at": 0.0009909984541383195,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Stapp",
+      "model": "town-blocks",
+      "at": 0.4959167820924851,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Page",
+      "model": "town-blocks",
+      "at": 0.7599184920875084,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -366,7 +388,7 @@
     {
       "name": "Heavener",
       "at": 0.0008733624454148472,
-      "landmark": ""
+      "landmark": "Heavener"
     },
     {
       "name": "Hodgen",
@@ -376,15 +398,16 @@
     {
       "name": "Stapp",
       "at": 0.4960698689956332,
-      "landmark": ""
+      "landmark": "Stapp"
     },
     {
       "name": "Page",
       "at": 0.7602620087336245,
-      "landmark": ""
+      "landmark": "Page"
     }
   ],
   "sources": [
+    "content/stories/mountain-gateway-scenic-byway-58540.json",
     "public/data/strips/mountain-gateway-scenic-byway-58540.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

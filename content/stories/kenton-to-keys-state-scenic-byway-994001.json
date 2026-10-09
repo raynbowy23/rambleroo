@@ -1,0 +1,71 @@
+{
+  "id": "kenton-to-keys-state-scenic-byway-994001",
+  "tagline": "Out of the one Oklahoma town that keeps Mountain Time.",
+  "intro": [
+    "SH 325 comes in from New Mexico at the far tip of the Panhandle, bridges Carrizozo Creek and passes through Kenton, down in the Cimarron River valley among mesas formed by ancient lava flows. Black Mesa, the top of Oklahoma at 4,973 feet, stands just north of town.",
+    "Past South Carrizo Creek the road swings south for about 12 miles, then east, and the rest is a mostly flat, straight shot into Boise City. From there the byway carries on along the US highways to Keyes, a railroad town of 1925."
+  ],
+  "moments": [
+    {
+      "title": "Kenton",
+      "kind": "town",
+      "scene": "desert",
+      "text": "Kenton keeps Mountain Time informally, because most of the people it deals with come from New Mexico or Colorado, and posted business hours end in MT to settle the matter.",
+      "at": [
+        -102.96333,
+        36.90306
+      ]
+    },
+    {
+      "title": "Black Mesa State Park",
+      "kind": "separate excursion",
+      "scene": "desert",
+      "text": "Lake Carl Etling, dammed on South Carrizo Creek in 1959, lies under the darkest sky of any state park in Oklahoma.",
+      "at": [
+        -102.8802,
+        36.84586
+      ]
+    },
+    {
+      "title": "Boise City",
+      "kind": "town",
+      "scene": "prairie",
+      "text": "Its founders sold 3,000 lots off brochures promising paved, tree-lined streets, none of it true, and in 1943 a lost B-17 crew practice-bombed the town square.",
+      "at": [
+        -102.51139,
+        36.73
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "TravelOK, City of Kenton",
+      "url": "https://www.travelok.com/Kenton"
+    },
+    {
+      "label": "Oklahoma Department of Transportation, scenic byways layer",
+      "url": "https://services6.arcgis.com/RBtoEUQ2lmN0K3GY/arcgis/rest/services/Billboards_Scenic_Byways/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Oklahoma State Highway 325",
+      "url": "https://en.wikipedia.org/wiki/Oklahoma_State_Highway_325"
+    },
+    {
+      "label": "Wikipedia, Kenton, Oklahoma",
+      "url": "https://en.wikipedia.org/wiki/Kenton,_Oklahoma"
+    },
+    {
+      "label": "Wikipedia, Black Mesa State Park",
+      "url": "https://en.wikipedia.org/wiki/Black_Mesa_State_Park"
+    },
+    {
+      "label": "Wikipedia, Boise City, Oklahoma",
+      "url": "https://en.wikipedia.org/wiki/Boise_City,_Oklahoma"
+    },
+    {
+      "label": "Wikipedia, Keyes, Oklahoma",
+      "url": "https://en.wikipedia.org/wiki/Keyes,_Oklahoma"
+    }
+  ],
+  "reviewed": false
+}

@@ -275,8 +275,44 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Blue Ball",
+      "model": "town-blocks",
+      "at": 0.10770481793698601,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Churchtown",
+      "model": "town-blocks",
+      "at": 0.6057852045321733,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bangor Episcopal Church",
+      "model": "steeple-town",
+      "at": 0.6235027839173675,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bangor Episcopal Church",
+      "model": "town-blocks",
+      "at": 0.6235027839173675,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -366,12 +402,12 @@
     {
       "name": "Blue Ball",
       "at": 0.10760869565217392,
-      "landmark": ""
+      "landmark": "Blue Ball"
     },
     {
       "name": "Churchtown",
       "at": 0.5391304347826087,
-      "landmark": ""
+      "landmark": "Churchtown"
     },
     {
       "name": "Morgantown",
@@ -380,6 +416,7 @@
     }
   ],
   "sources": [
+    "content/stories/conestoga-ridge-byway-994204.json",
     "public/data/strips/conestoga-ridge-byway-994204.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

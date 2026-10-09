@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Diamond",
+      "model": "town-blocks",
+      "at": 0.1061919452860324,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -394,7 +402,7 @@
     {
       "name": "Diamond",
       "at": 0.10616570327552986,
-      "landmark": ""
+      "landmark": "Diamond"
     },
     {
       "name": "New Princeton",
@@ -408,6 +416,7 @@
     }
   ],
   "sources": [
+    "content/stories/diamond-loop-back-country-byway-68915.json",
     "public/data/strips/diamond-loop-back-country-byway-68915.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

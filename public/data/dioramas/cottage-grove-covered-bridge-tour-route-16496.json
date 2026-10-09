@@ -3,12 +3,12 @@
   "bywayId": "cottage-grove-covered-bridge-tour-route-16496",
   "title": "Cottage Grove Covered Bridge Tour Route",
   "longitude": -122.9196,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,43 +239,51 @@
     "elevation": [
       [
         0,
-        0.35
+        0.2
       ],
       [
         0.125,
-        0.453
+        0.218
       ],
       [
         0.25,
-        0.7
+        0.26
       ],
       [
         0.375,
-        0.947
+        0.302
       ],
       [
         0.5,
-        1.05
+        0.32
       ],
       [
         0.625,
-        0.947
+        0.302
       ],
       [
         0.75,
-        0.7
+        0.26
       ],
       [
         0.875,
-        0.453
+        0.218
       ],
       [
         1,
-        0.35
+        0.2
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Dorena",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -360,6 +368,13 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -376,10 +391,11 @@
     {
       "name": "Dorena",
       "at": 0.9979591836734695,
-      "landmark": ""
+      "landmark": "Dorena"
     }
   ],
   "sources": [
+    "content/stories/cottage-grove-covered-bridge-tour-route-16496.json",
     "public/data/strips/cottage-grove-covered-bridge-tour-route-16496.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
