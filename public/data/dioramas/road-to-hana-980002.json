@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Pāʻia",
+      "model": "town-blocks",
+      "at": 0.00004620487738095936,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Keʻanae",
+      "model": "town-blocks",
+      "at": 0.6425184800986357,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hāna",
+      "model": "town-blocks",
+      "at": 0.9999704457394497,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -366,7 +388,7 @@
     {
       "name": "Pāʻia",
       "at": 0,
-      "landmark": ""
+      "landmark": "Pāʻia"
     },
     {
       "name": "Peʻahi",
@@ -376,7 +398,7 @@
     {
       "name": "Keʻanae",
       "at": 0.6425287356321839,
-      "landmark": ""
+      "landmark": "Keʻanae"
     },
     {
       "name": "Nāhiku",
@@ -386,10 +408,11 @@
     {
       "name": "Hāna",
       "at": 1,
-      "landmark": ""
+      "landmark": "Hāna"
     }
   ],
   "sources": [
+    "content/stories/road-to-hana-980002.json",
     "public/data/strips/road-to-hana-980002.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

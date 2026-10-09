@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Artanna",
+      "model": "town-blocks",
+      "at": 0.7910946851414081,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Martinsburg",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -344,15 +359,16 @@
     {
       "name": "Artanna",
       "at": 0.7892156862745099,
-      "landmark": ""
+      "landmark": "Artanna"
     },
     {
       "name": "Martinsburg",
       "at": 0.9975490196078433,
-      "landmark": ""
+      "landmark": "Martinsburg"
     }
   ],
   "sources": [
+    "content/stories/gateway-to-amish-country-69094.json",
     "public/data/strips/gateway-to-amish-country-69094.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

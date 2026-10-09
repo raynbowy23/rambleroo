@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Simmesport",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Maringouin",
+      "model": "town-blocks",
+      "at": 0.36391417140280535,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,7 +304,7 @@
     {
       "name": "Simmesport",
       "at": 0,
-      "landmark": ""
+      "landmark": "Simmesport"
     },
     {
       "name": "Innis",
@@ -309,7 +324,7 @@
     {
       "name": "Maringouin",
       "at": 0.36378539493293593,
-      "landmark": ""
+      "landmark": "Maringouin"
     },
     {
       "name": "Plaquemine",
@@ -338,6 +353,7 @@
     }
   ],
   "sources": [
+    "content/stories/louisiana-scenic-bayou-byway-2074.json",
     "public/data/strips/louisiana-scenic-bayou-byway-2074.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

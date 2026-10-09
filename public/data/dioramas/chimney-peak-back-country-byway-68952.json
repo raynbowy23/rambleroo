@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Canebrake",
+      "model": "town-blocks",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -364,6 +372,7 @@
   ],
   "towns": [],
   "sources": [
+    "content/stories/chimney-peak-back-country-byway-68952.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],

@@ -3,12 +3,12 @@
   "bywayId": "black-hills-back-country-byway-68912",
   "title": "Black Hills Back Country Byway",
   "longitude": -109.3276,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,42 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Clifton",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Gila River Bridge",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.18546782061798564,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "mesa",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "mesa",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "mesa",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "sandbar",
+      "model": "river",
       "at": 0.5,
-      "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
     {
       "name": "Clifton",
       "at": 0,
-      "landmark": ""
+      "landmark": "Clifton"
     },
     {
       "name": "Black Gap Bridge",
@@ -319,6 +313,7 @@
     }
   ],
   "sources": [
+    "content/stories/black-hills-back-country-byway-68912.json",
     "public/data/strips/black-hills-back-country-byway-68912.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

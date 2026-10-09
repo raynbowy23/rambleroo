@@ -243,7 +243,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Locust Point",
+      "model": "town-blocks",
+      "at": 0.12037743518552999,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Fells Point",
+      "model": "town-blocks",
+      "at": 0.659919302738293,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -292,15 +307,16 @@
     {
       "name": "Locust Point",
       "at": 0.12033898305084745,
-      "landmark": ""
+      "landmark": "Locust Point"
     },
     {
       "name": "Fells Point",
       "at": 0.6627118644067796,
-      "landmark": ""
+      "landmark": "Fells Point"
     }
   ],
   "sources": [
+    "content/stories/national-historic-seaport-2270.json",
     "public/data/strips/national-historic-seaport-2270.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

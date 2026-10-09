@@ -131,7 +131,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Beverly Beach",
+      "model": "town-blocks",
+      "at": 0.062130004612076996,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Flagler Beach Historical Museum",
+      "model": "town-blocks",
+      "at": 0.4502296314179299,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "sandbar",
@@ -166,7 +181,7 @@
     {
       "name": "Beverly Beach",
       "at": 0.0625,
-      "landmark": ""
+      "landmark": "Beverly Beach"
     },
     {
       "name": "Flagler Beach",
@@ -175,6 +190,7 @@
     }
   ],
   "sources": [
+    "content/stories/a1a-ocean-shore-scenic-highway-2556.json",
     "public/data/strips/a1a-ocean-shore-scenic-highway-2556.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

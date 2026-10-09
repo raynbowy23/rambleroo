@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Fort Bragg",
+      "model": "town-blocks",
+      "at": 0.054019555902447974,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Davenport",
+      "model": "town-blocks",
+      "at": 0.3528533936780132,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lucia",
+      "model": "town-blocks",
+      "at": 0.4870492730854177,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "sandbar",
@@ -310,7 +332,7 @@
     {
       "name": "Fort Bragg",
       "at": 0.05401953418482344,
-      "landmark": ""
+      "landmark": "Fort Bragg"
     },
     {
       "name": "Fort Ross",
@@ -325,7 +347,7 @@
     {
       "name": "Davenport",
       "at": 0.35282995241672926,
-      "landmark": ""
+      "landmark": "Davenport"
     },
     {
       "name": "Monterey",
@@ -335,7 +357,7 @@
     {
       "name": "Lucia",
       "at": 0.48701477585775105,
-      "landmark": ""
+      "landmark": "Lucia"
     },
     {
       "name": "San Luis Obispo",
@@ -364,6 +386,7 @@
     }
   ],
   "sources": [
+    "content/stories/pacific-coast-highway-california-s-route-1-12744.json",
     "public/data/strips/pacific-coast-highway-california-s-route-1-12744.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
