@@ -3,53 +3,53 @@
   "bywayId": "spirit-of-kansas-city-73301",
   "title": "Spirit of Kansas City",
   "longitude": -94.5983,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
-        -94.5634,
-        39.1068
-      ],
-      [
-        -94.5699,
-        39.107
-      ],
-      [
-        -94.5704,
-        39.1078
-      ],
-      [
-        -94.5688,
-        39.1079
-      ],
-      [
-        -94.5699,
-        39.107
-      ],
-      [
-        -94.6033,
-        39.1076
-      ],
-      [
-        -94.6093,
-        39.1096
-      ],
-      [
-        -94.6155,
-        39.1141
+        -94.6106,
+        39.1181
       ],
       [
         -94.6125,
         39.1185
       ],
       [
-        -94.6106,
-        39.1181
+        -94.6155,
+        39.1141
+      ],
+      [
+        -94.6093,
+        39.1096
+      ],
+      [
+        -94.6033,
+        39.1076
+      ],
+      [
+        -94.5699,
+        39.107
+      ],
+      [
+        -94.5688,
+        39.1079
+      ],
+      [
+        -94.5704,
+        39.1078
+      ],
+      [
+        -94.5699,
+        39.107
+      ],
+      [
+        -94.5634,
+        39.1068
       ]
     ],
     "elevation": [
@@ -91,125 +91,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "West Bottoms",
+      "model": "town-blocks",
+      "at": 0.3459034988188506,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.875,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [],
   "sources": [
+    "content/stories/spirit-of-kansas-city-73301.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }

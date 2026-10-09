@@ -3,12 +3,12 @@
   "bywayId": "main-oregon-trail-back-country-byway-81053",
   "title": "Main Oregon Trail Back Country Byway",
   "longitude": -115.5229,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "desert-mesas",
+  "palette": "desert",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -278,50 +278,37 @@
   "landmarks": [],
   "dressing": [
     {
-      "model": "town-blocks",
+      "model": "mesa",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.6,
+      "scale": 1.3
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
+      "model": "mesa",
       "at": 0.375,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.6,
+      "scale": 1.3
     },
     {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
+      "model": "mesa",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.6,
+      "scale": 1.3
     },
     {
-      "model": "town-blocks",
-      "at": 0.875,
+      "model": "sandbar",
+      "at": 0.5,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 0.7,
+      "scale": 1.8
     }
   ],
   "towns": [],
   "sources": [
+    "content/stories/main-oregon-trail-back-country-byway-81053.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],

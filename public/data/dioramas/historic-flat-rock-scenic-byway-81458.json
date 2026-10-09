@@ -123,7 +123,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Flat Rock Playhouse",
+      "model": "town-blocks",
+      "at": 0.6166773762032073,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -170,6 +178,7 @@
   ],
   "towns": [],
   "sources": [
+    "content/stories/historic-flat-rock-scenic-byway-81458.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],

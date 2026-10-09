@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Mountainburg",
+      "model": "town-blocks",
+      "at": 0.06287362372289501,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Winslow",
+      "model": "town-blocks",
+      "at": 0.2649254497936574,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -366,7 +381,7 @@
     {
       "name": "Mountainburg",
       "at": 0.06298932384341636,
-      "landmark": ""
+      "landmark": "Mountainburg"
     },
     {
       "name": "Artist Point",
@@ -376,7 +391,7 @@
     {
       "name": "Winslow",
       "at": 0.265005931198102,
-      "landmark": ""
+      "landmark": "Winslow"
     },
     {
       "name": "West Fork",
@@ -410,6 +425,7 @@
     }
   ],
   "sources": [
+    "content/stories/boston-mountains-scenic-loop-990502.json",
     "public/data/strips/boston-mountains-scenic-loop-990502.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
