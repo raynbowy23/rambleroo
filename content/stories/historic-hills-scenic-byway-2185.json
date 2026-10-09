@@ -1,0 +1,71 @@
+{
+  "id": "historic-hills-scenic-byway-2185",
+  "tagline": "Buggies, river towns and Iowa's oldest courthouse.",
+  "intro": [
+    "The byway winds about 105 miles through the rolling hills and forests of southeast Iowa, across Wapello, Appanoose, Davis, Van Buren and Lee counties, through 20 towns without a fast-food restaurant among them. More than 100 Amish and Mennonite businesses work around Drakesville and Bloomfield, and horses and buggies share the road.",
+    "Farther east it reaches the Des Moines River and the corner of Iowa that Europeans settled first, with the oldest courthouse in the state, built at Keosauqua in 1843 and never replaced, and the site of Iowa's only Civil War battle."
+  ],
+  "moments": [
+    {
+      "title": "Bloomfield",
+      "kind": "town",
+      "scene": "town",
+      "text": "On October 12, 1864, a small party of Confederate soldiers raided the town and killed three citizens before retreating into Missouri.",
+      "at": [
+        -92.417,
+        40.751
+      ]
+    },
+    {
+      "title": "Keosauqua",
+      "kind": "town",
+      "scene": "river",
+      "text": "South of town in 1839, Iowa and Missouri militias faced off over the border in the Honey War, named for three bee trees cut down, and not a shot was fired.",
+      "at": [
+        -91.96,
+        40.735
+      ]
+    },
+    {
+      "title": "Bonaparte",
+      "kind": "town",
+      "scene": "river",
+      "text": "William Meek admired the Emperor, so he named this river town Bonaparte and gave a townsite across the river the name Napoleon, which never developed.",
+      "at": [
+        -91.801,
+        40.701
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Travel Iowa, Historic Hills Scenic Byway",
+      "url": "https://www.traveliowa.com/trails/historic-hills-scenic-byway/7/"
+    },
+    {
+      "label": "Iowa DOT, Iowa Byways Official Travel Guide",
+      "url": "https://iowadot.gov/media/916/download?inline"
+    },
+    {
+      "label": "Wikipedia, Bloomfield, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Bloomfield,_Iowa"
+    },
+    {
+      "label": "Wikipedia, Keosauqua, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Keosauqua,_Iowa"
+    },
+    {
+      "label": "Wikipedia, Van Buren County Courthouse (Iowa)",
+      "url": "https://en.wikipedia.org/wiki/Van_Buren_County_Courthouse_(Iowa)"
+    },
+    {
+      "label": "Wikipedia, Bonaparte, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Bonaparte,_Iowa"
+    },
+    {
+      "label": "Iowa DOT, Scenic Byway View (ArcGIS feature service)",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    }
+  ],
+  "reviewed": false
+}

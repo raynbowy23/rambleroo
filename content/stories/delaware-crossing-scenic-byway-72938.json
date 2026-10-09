@@ -1,0 +1,60 @@
+{
+  "id": "delaware-crossing-scenic-byway-72938",
+  "tagline": "A short loop of the Maquoketa valley, trout and all.",
+  "motifs": [
+    "river-bluffs"
+  ],
+  "intro": [
+    "The byway is a 36-mile loop through the Maquoketa River valley of southern Delaware County, past farmland, rolling hills and limestone bluffs, by way of Manchester, Delhi, Hopkinton and Delaware. Being a loop, it can be picked up anywhere. Some of the county's seventy-odd painted barn quilts are along it.",
+    "At Manchester a fish hatchery built in 1897 as a federal hatchery, one of the oldest in the nation, raises trout for streams across northeast Iowa, several of them along this loop."
+  ],
+  "moments": [
+    {
+      "title": "Lake Delhi",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "After about ten inches of rain in twelve hours in July 2010, the Maquoketa topped the dam below Delhi and the lake ran out, and the dam was rebuilt in 2016.",
+      "at": [
+        -91.345,
+        42.408
+      ]
+    },
+    {
+      "title": "Hopkinton",
+      "kind": "town",
+      "scene": "town",
+      "text": "Most of the young men of Lenox College went to the Civil War with their dean as captain, and in 1865 the campus raised a monument to them, the first such on any campus.",
+      "at": [
+        -91.243,
+        42.345
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Travel Iowa, Delaware Crossing Scenic Byway",
+      "url": "https://www.traveliowa.com/trails/delaware-crossing-scenic-byway/2/"
+    },
+    {
+      "label": "Iowa DOT, Iowa Byways Official Travel Guide",
+      "url": "https://iowadot.gov/media/916/download?inline"
+    },
+    {
+      "label": "Wikipedia, Delhi Dam",
+      "url": "https://en.wikipedia.org/wiki/Delhi_Dam"
+    },
+    {
+      "label": "Wikipedia, Lenox College",
+      "url": "https://en.wikipedia.org/wiki/Lenox_College"
+    },
+    {
+      "label": "Wikipedia, Hopkinton, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Hopkinton,_Iowa"
+    },
+    {
+      "label": "Iowa DOT, Scenic Byway View (ArcGIS feature service)",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    }
+  ],
+  "reviewed": false
+}
