@@ -3,12 +3,12 @@
   "bywayId": "william-bartram-scenic-and-historic-trail-71029",
   "title": "William Bartram Scenic and Historic Trail",
   "longitude": -81.6506,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,49 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Switzerland",
+      "model": "town-blocks",
+      "at": 0.2546724663906682,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.375,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.875,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -329,10 +302,11 @@
     {
       "name": "Switzerland",
       "at": 0.25470588235294117,
-      "landmark": ""
+      "landmark": "Switzerland"
     }
   ],
   "sources": [
+    "content/stories/william-bartram-scenic-and-historic-trail-71029.json",
     "public/data/strips/william-bartram-scenic-and-historic-trail-71029.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

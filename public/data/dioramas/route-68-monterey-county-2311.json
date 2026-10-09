@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Spreckels",
+      "model": "town-blocks",
+      "at": 0.8918169792253129,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -404,10 +412,11 @@
     {
       "name": "Spreckels",
       "at": 0.8923076923076924,
-      "landmark": ""
+      "landmark": "Spreckels"
     }
   ],
   "sources": [
+    "content/stories/route-68-monterey-county-2311.json",
     "public/data/strips/route-68-monterey-county-2311.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

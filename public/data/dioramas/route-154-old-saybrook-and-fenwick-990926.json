@@ -3,12 +3,12 @@
   "bywayId": "route-154-old-saybrook-and-fenwick-990926",
   "title": "Route 154, Old Saybrook and Fenwick",
   "longitude": -72.3653,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "low-shore",
+  "palette": "coast",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,49 +275,57 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Fenwick",
+      "model": "town-blocks",
+      "at": 0.5934842547371354,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lynde Point lighthouses",
+      "model": "lighthouse-on-rock",
+      "at": 0.5934842547371354,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Illustrative position in driving order."
+    },
+    {
+      "name": "Old Saybrook",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
+      "model": "sandbar",
       "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "town-blocks",
-      "at": 0.375,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
+      "model": "sandbar",
       "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.875,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
     }
   ],
   "towns": [
@@ -329,10 +337,11 @@
     {
       "name": "Old Saybrook",
       "at": 1,
-      "landmark": ""
+      "landmark": "Old Saybrook"
     }
   ],
   "sources": [
+    "content/stories/route-154-old-saybrook-and-fenwick-990926.json",
     "public/data/strips/route-154-old-saybrook-and-fenwick-990926.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

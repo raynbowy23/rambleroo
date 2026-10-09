@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Jerusalem Lutheran Church",
+      "model": "town-blocks",
+      "at": 0.08832909340667616,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Guyton",
+      "model": "town-blocks",
+      "at": 0.6331242260595732,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -344,7 +359,7 @@
     {
       "name": "Guyton",
       "at": 0.6336693548387097,
-      "landmark": ""
+      "landmark": "Guyton"
     },
     {
       "name": "Blitchton",
@@ -353,6 +368,7 @@
     }
   ],
   "sources": [
+    "content/stories/historic-effingham-ebenezer-scenic-byway-81455.json",
     "public/data/strips/historic-effingham-ebenezer-scenic-byway-81455.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

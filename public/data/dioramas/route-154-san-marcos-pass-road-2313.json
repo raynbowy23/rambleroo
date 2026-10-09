@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Cachuma Lake",
+      "model": "alpine-lake",
+      "at": 0.4133573496629343,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cold Spring Canyon Arch Bridge",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.71753813172338,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -385,6 +400,7 @@
     }
   ],
   "sources": [
+    "content/stories/route-154-san-marcos-pass-road-2313.json",
     "public/data/strips/route-154-san-marcos-pass-road-2313.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

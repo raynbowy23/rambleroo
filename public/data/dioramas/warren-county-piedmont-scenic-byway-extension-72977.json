@@ -3,12 +3,12 @@
   "bywayId": "warren-county-piedmont-scenic-byway-extension-72977",
   "title": "Warren County-Piedmont Scenic Byway Extension",
   "longitude": -82.7224,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,139 +275,64 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Jewell",
+      "model": "town-blocks",
+      "at": 0.0389477296600091,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Beall Springs",
+      "model": "town-blocks",
+      "at": 0.3055451491500557,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Warrenton",
+      "model": "town-blocks",
+      "at": 0.996141726651286,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
-      "at": 0.041666666666666664,
+      "model": "ridge",
+      "at": 0.5,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.4,
+      "scale": 1.5
     },
     {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.875,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
     {
       "name": "Jewell",
       "at": 0.039473684210526314,
-      "landmark": ""
+      "landmark": "Jewell"
     },
     {
       "name": "Beall Springs",
       "at": 0.30701754385964913,
-      "landmark": ""
+      "landmark": "Beall Springs"
     },
     {
       "name": "Warrenton",
       "at": 1,
-      "landmark": ""
+      "landmark": "Warrenton"
     }
   ],
   "sources": [
+    "content/stories/warren-county-piedmont-scenic-byway-extension-72977.json",
     "public/data/strips/warren-county-piedmont-scenic-byway-extension-72977.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Goshen",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Westport",
+      "model": "town-blocks",
+      "at": 0.5223134213999124,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -394,7 +409,7 @@
     {
       "name": "Goshen",
       "at": 0,
-      "landmark": ""
+      "landmark": "Goshen"
     },
     {
       "name": "Skylight",
@@ -403,6 +418,7 @@
     }
   ],
   "sources": [
+    "content/stories/us-42-74950.json",
     "public/data/strips/us-42-74950.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

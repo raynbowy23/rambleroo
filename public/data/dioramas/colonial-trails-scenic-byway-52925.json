@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Natchitoches",
+      "model": "town-blocks",
+      "at": 0.8180121503587764,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -334,7 +342,7 @@
     {
       "name": "Natchitoches",
       "at": 0.8177330895795246,
-      "landmark": ""
+      "landmark": "Natchitoches"
     },
     {
       "name": "Grand Ecore",
@@ -348,6 +356,7 @@
     }
   ],
   "sources": [
+    "content/stories/colonial-trails-scenic-byway-52925.json",
     "public/data/strips/colonial-trails-scenic-byway-52925.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

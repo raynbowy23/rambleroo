@@ -3,321 +3,294 @@
   "bywayId": "route-395-inyo-county-2309",
   "title": "Route 395--Inyo County",
   "longitude": -118.2362,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
-        -118.25283,
-        37.10589
-      ],
-      [
-        -118.24042,
-        37.06745
-      ],
-      [
-        -118.23761,
-        37.05955
-      ],
-      [
-        -118.23687,
-        37.05836
-      ],
-      [
-        -118.23538,
-        37.05677
-      ],
-      [
-        -118.23473,
-        37.05599
-      ],
-      [
-        -118.23434,
-        37.05533
-      ],
-      [
-        -118.23411,
-        37.05482
-      ],
-      [
-        -118.23389,
-        37.05405
-      ],
-      [
-        -118.23377,
-        37.05345
-      ],
-      [
-        -118.23373,
-        37.0526
-      ],
-      [
-        -118.23353,
-        37.05084
-      ],
-      [
-        -118.23285,
-        37.04543
-      ],
-      [
-        -118.23259,
-        37.04301
-      ],
-      [
-        -118.23263,
-        37.0429
-      ],
-      [
-        -118.23076,
-        37.02622
-      ],
-      [
-        -118.23072,
-        37.02495
-      ],
-      [
-        -118.23083,
-        37.02354
-      ],
-      [
-        -118.23381,
-        36.98949
-      ],
-      [
-        -118.23399,
-        36.98824
-      ],
-      [
-        -118.2353,
-        36.98179
-      ],
-      [
-        -118.23955,
-        36.96191
-      ],
-      [
-        -118.23984,
-        36.96018
-      ],
-      [
-        -118.2403,
-        36.94572
-      ],
-      [
-        -118.24065,
-        36.93173
-      ],
-      [
-        -118.24181,
-        36.89222
-      ],
-      [
-        -118.24174,
-        36.89076
-      ],
-      [
-        -118.24156,
-        36.88956
-      ],
-      [
-        -118.237,
-        36.87086
-      ],
-      [
-        -118.23407,
-        36.85914
-      ],
-      [
-        -118.23266,
-        36.85319
-      ],
-      [
-        -118.23255,
-        36.85305
+        -118.23125,
+        36.84777
       ],
       [
         -118.23206,
         36.85091
       ],
       [
-        -118.23125,
-        36.84777
+        -118.23255,
+        36.85305
+      ],
+      [
+        -118.23266,
+        36.85319
+      ],
+      [
+        -118.23407,
+        36.85914
+      ],
+      [
+        -118.237,
+        36.87086
+      ],
+      [
+        -118.24156,
+        36.88956
+      ],
+      [
+        -118.24174,
+        36.89076
+      ],
+      [
+        -118.24181,
+        36.89222
+      ],
+      [
+        -118.24065,
+        36.93173
+      ],
+      [
+        -118.2403,
+        36.94572
+      ],
+      [
+        -118.23984,
+        36.96018
+      ],
+      [
+        -118.23955,
+        36.96191
+      ],
+      [
+        -118.2353,
+        36.98179
+      ],
+      [
+        -118.23399,
+        36.98824
+      ],
+      [
+        -118.23381,
+        36.98949
+      ],
+      [
+        -118.23083,
+        37.02354
+      ],
+      [
+        -118.23072,
+        37.02495
+      ],
+      [
+        -118.23076,
+        37.02622
+      ],
+      [
+        -118.23263,
+        37.0429
+      ],
+      [
+        -118.23259,
+        37.04301
+      ],
+      [
+        -118.23285,
+        37.04543
+      ],
+      [
+        -118.23353,
+        37.05084
+      ],
+      [
+        -118.23373,
+        37.0526
+      ],
+      [
+        -118.23377,
+        37.05345
+      ],
+      [
+        -118.23389,
+        37.05405
+      ],
+      [
+        -118.23411,
+        37.05482
+      ],
+      [
+        -118.23434,
+        37.05533
+      ],
+      [
+        -118.23473,
+        37.05599
+      ],
+      [
+        -118.23538,
+        37.05677
+      ],
+      [
+        -118.23687,
+        37.05836
+      ],
+      [
+        -118.23761,
+        37.05955
+      ],
+      [
+        -118.24042,
+        37.06745
+      ],
+      [
+        -118.25283,
+        37.10589
       ]
     ],
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
   "landmarks": [],
   "dressing": [
     {
-      "model": "field",
-      "at": 0.041666666666666664,
+      "model": "hardwood",
+      "at": 0.0875,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
       "model": "hardwood",
-      "at": 0.041666666666666664,
+      "at": 0.09949999999999999,
       "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
       "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.375,
+      "at": 0.11149999999999999,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.05
     },
     {
       "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
+      "at": 0.3375,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
       "model": "hardwood",
-      "at": 0.7916666666666666,
+      "at": 0.34950000000000003,
       "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "field",
-      "at": 0.875,
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "field",
-      "at": 0.9583333333333334,
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
     }
   ],
   "towns": [
     {
-      "name": "Fish Springs",
-      "at": 0.1138121546961326,
+      "name": "Mount Whitney Fish Hatchery",
+      "at": 0,
       "landmark": ""
     },
     {
-      "name": "Mount Whitney Fish Hatchery",
-      "at": 1,
+      "name": "Fish Springs",
+      "at": 0.8861878453038674,
       "landmark": ""
     }
   ],
   "sources": [
+    "content/stories/route-395-inyo-county-2309.json",
     "public/data/strips/route-395-inyo-county-2309.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }
