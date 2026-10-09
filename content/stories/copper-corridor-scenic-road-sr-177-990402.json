@@ -1,0 +1,80 @@
+{
+  "id": "copper-corridor-scenic-road-sr-177-990402",
+  "tagline": "South from Superior, past the pit that swallowed a town.",
+  "motifs": [
+    "mining-town"
+  ],
+  "intro": [
+    "SR 177 leaves Superior heading south, into the rough country of Apache Leap and the Dripping Spring Mountains. The road cuts along the way lay open the strata of a copper-bearing region, and the designation was made for the geology and the terrain.",
+    "Past the mountains comes the open pit of the Ray mine, a whole landscape made by people, and then the road follows the Gila River past the mining towns. It was dirt and gravel until the state took it over in 1952, and has been paved since the middle of that decade."
+  ],
+  "moments": [
+    {
+      "title": "Ray",
+      "kind": "roadside",
+      "scene": "desert",
+      "text": "Named, by way of its mine, for a miner's sister. The people began leaving for Kearny in 1958, ahead of the pit.",
+      "at": [
+        -110.9975,
+        33.18333
+      ],
+      "motifs": [
+        "mining-town"
+      ]
+    },
+    {
+      "title": "Kelvin",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "A Gila River settlement named in 1900 for Kelvin Grove in Scotland, where the adobe post office still partly stands and the ruins of the old mill lie in plain view.",
+      "at": [
+        -110.97333,
+        33.11139
+      ]
+    },
+    {
+      "title": "Kearny",
+      "kind": "town",
+      "scene": "town",
+      "text": "Kennecott built the town in 1958 for the people of Ray, Sonora and Barcelona. Some of the houses were simply moved down the road.",
+      "at": [
+        -110.90889,
+        33.05417
+      ],
+      "motifs": [
+        "mining-town"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "ADOT, List of Historic Roads (Wayback Machine snapshot)",
+      "url": "https://web.archive.org/web/20260519152218/https://azdot.gov/about/historic-and-scenic-roads/list-historic-roads"
+    },
+    {
+      "label": "Wikipedia, Arizona State Route 177",
+      "url": "https://en.wikipedia.org/wiki/Arizona_State_Route_177"
+    },
+    {
+      "label": "Wikipedia, Superior, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Superior,_Arizona"
+    },
+    {
+      "label": "Wikipedia, Ray, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Ray,_Arizona"
+    },
+    {
+      "label": "Wikipedia, Ray mine",
+      "url": "https://en.wikipedia.org/wiki/Ray_mine"
+    },
+    {
+      "label": "Wikipedia, Kelvin, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Kelvin,_Arizona"
+    },
+    {
+      "label": "Wikipedia, Kearny, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Kearny,_Arizona"
+    }
+  ],
+  "reviewed": false
+}
