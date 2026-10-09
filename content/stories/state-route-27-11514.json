@@ -1,0 +1,85 @@
+{
+  "id": "state-route-27-11514",
+  "tagline": "Up the Carrabassett, along the Dead River, on to Quebec.",
+  "motifs": [
+    "lake-wide"
+  ],
+  "intro": [
+    "From Kingfield, Route 27 follows the Carrabassett River up its valley past Sugarloaf, the third-highest peak in Maine, and over to Stratton and Eustis. Then it passes Flagstaff Lake and traces the Dead River, and north of Eustis the country grows wilder, past Shadagee Falls, Sarampus Falls and the Chain of Ponds, climbing through the Boundary Mountains to the Quebec line at Coburn Gore.",
+    "Benedict Arnold's men came this way in October 1775, bound for Quebec. They found the Dead River running fast enough that they had trouble poling against it, whatever its name said."
+  ],
+  "moments": [
+    {
+      "title": "Kingfield",
+      "kind": "town",
+      "scene": "river",
+      "text": "The Stanley twins, sons of one of the early settlers of this mill town on the Carrabassett, went on to build the Stanley Steamer automobile.",
+      "at": [
+        -70.15389,
+        44.95917
+      ]
+    },
+    {
+      "title": "Flagstaff Lake",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Long Falls Dam raised the lake out of a smaller one in 1950, and parts of four abandoned townships, Flagstaff among them, lie under it now.",
+      "at": [
+        -70.31456,
+        45.19414
+      ],
+      "motifs": [
+        "lake-wide"
+      ]
+    },
+    {
+      "title": "Coburn Gore",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "At the line stands a border station built in 1931, when Prohibition smuggling was rampant, with houses for its officers because the nearest town, Eustis, is 22 miles back.",
+      "at": [
+        -70.80792,
+        45.37865
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "National Scenic Byway Foundation, High Peaks Scenic Byway (Wayback Machine snapshot)",
+      "url": "https://web.archive.org/web/20260225020534/https://nsbfoundation.com/sb/high-peaks-scenic-byway-2/"
+    },
+    {
+      "label": "MaineDOT, Scenic Byways open data",
+      "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Maine State Route 27",
+      "url": "https://en.wikipedia.org/wiki/Maine_State_Route_27"
+    },
+    {
+      "label": "Wikipedia, Kingfield, Maine",
+      "url": "https://en.wikipedia.org/wiki/Kingfield,_Maine"
+    },
+    {
+      "label": "Wikipedia, Sugarloaf Mountain (Maine)",
+      "url": "https://en.wikipedia.org/wiki/Sugarloaf_Mountain_(Maine)"
+    },
+    {
+      "label": "Wikipedia, Flagstaff Lake (Maine)",
+      "url": "https://en.wikipedia.org/wiki/Flagstaff_Lake_(Maine)"
+    },
+    {
+      "label": "Wikipedia, Eustis, Maine",
+      "url": "https://en.wikipedia.org/wiki/Eustis,_Maine"
+    },
+    {
+      "label": "Wikipedia, Benedict Arnold's expedition to Quebec",
+      "url": "https://en.wikipedia.org/wiki/Benedict_Arnold%27s_expedition_to_Quebec"
+    },
+    {
+      "label": "Wikipedia, Coburn Gore–Woburn Border Crossing",
+      "url": "https://en.wikipedia.org/wiki/Coburn_Gore%E2%80%93Woburn_Border_Crossing"
+    }
+  ],
+  "reviewed": false
+}
