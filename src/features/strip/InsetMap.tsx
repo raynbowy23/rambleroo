@@ -133,6 +133,11 @@ export function InsetMap({
             bearing: offset.bearing,
           })
       }
+      // A dragged view keeps its offset from the car, so the reader can look around while still driving.
+      if (offset.panX || offset.panY) {
+        const canvas = map.getCanvas()
+        map.jumpTo({ center: map.unproject([canvas.clientWidth / 2 - offset.panX, canvas.clientHeight / 2 - offset.panY]) })
+      }
     }
     frameView.current = fit
     const resize = new ResizeObserver(() => {
@@ -176,7 +181,7 @@ export function InsetMap({
         pinsMile = mile
         updatePins.current()
       }
-      if (settings.current.relief || offsets.current.zoom || offsets.current.bearing) fit()
+      if (settings.current.relief || offsets.current.zoom || offsets.current.bearing || offsets.current.panX || offsets.current.panY) fit()
       if (settings.current.relief) car3d.current?.update(point, carHeading)
       current = point
       const source = map.getSource('car') as GeoJSONSource | undefined
@@ -376,6 +381,8 @@ export function InsetMap({
       zoom: clamp(previous.zoom + (delta.zoom ?? 0), -6, 6),
       bearing: ((((previous.bearing + (delta.bearing ?? 0)) % 360) + 540) % 360) - 180,
       pitch: relief ? clamp(previous.pitch + (delta.pitch ?? 0), -32, 13) : previous.pitch,
+      panX: clamp(previous.panX + (delta.panX ?? 0), -3000, 3000),
+      panY: clamp(previous.panY + (delta.panY ?? 0), -3000, 3000),
     }
     setAdjusted(Object.values(offsets.current).some((value) => value !== 0))
     setHint(false)
@@ -476,7 +483,7 @@ export function InsetMap({
       {/* Always visible in 3D, so the exaggerated relief is never mistaken for true height. */}
       {relief && <p className={s.reliefNote}>Heights exaggerated for relief</p>}
       <div className={`${s.mapHint} ${hint ? '' : s.hintHidden}`} aria-hidden="true">
-        Ctrl + scroll to zoom · Ctrl + drag to rotate
+        Drag to look around · Ctrl + scroll to zoom · Ctrl + drag to rotate
       </div>
       {!relief && (
         <button

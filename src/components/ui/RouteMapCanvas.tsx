@@ -70,14 +70,16 @@ export function RouteMap({
         style: createMapStyle(),
         interactive: true,
         maxPitch: 70,
+        // Drag to move, scroll to zoom, right-drag (or two fingers on a phone) to turn and tilt.
         cooperativeGestures: navigator.maxTouchPoints > 0,
-        scrollZoom: false,
+        scrollZoom: true,
         attributionControl: false,
       })
       const current = map
       mapRef.current = current
       // Start over the requested chapter before asynchronous sources finish loading.
       current.fitBounds(bbox ?? unionBounds(byways), { padding: 40, maxZoom: 11, duration: 0 })
+      current.addControl(new maplibre.NavigationControl({ visualizePitch: true }), 'bottom-left')
       current.addControl(new maplibre.AttributionControl({ compact: true, customAttribution: 'Natural Earth · USDOT' }))
       current.on('error', (event) => {
         if (!isTerrainError(event)) fail()
