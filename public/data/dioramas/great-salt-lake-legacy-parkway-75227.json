@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Farmington",
+      "model": "town-blocks",
+      "at": 0.01987901469538071,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Centerville",
+      "model": "town-blocks",
+      "at": 0.33449829371727857,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "river",
       "at": 0.5,
@@ -289,12 +311,12 @@
     {
       "name": "Farmington",
       "at": 0.019672131147540985,
-      "landmark": ""
+      "landmark": "Farmington"
     },
     {
       "name": "Centerville",
       "at": 0.3344262295081967,
-      "landmark": ""
+      "landmark": "Centerville"
     },
     {
       "name": "Woods Cross",
@@ -303,6 +325,7 @@
     }
   ],
   "sources": [
+    "content/stories/great-salt-lake-legacy-parkway-75227.json",
     "public/data/strips/great-salt-lake-legacy-parkway-75227.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

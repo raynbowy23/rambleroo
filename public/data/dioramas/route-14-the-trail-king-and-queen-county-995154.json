@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Stevensville",
+      "model": "town-blocks",
+      "at": 0.3580272468351408,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "King and Queen Court House",
+      "model": "farmhouse",
+      "at": 0.5759029028193998,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "King and Queen Court House",
+      "model": "town-blocks",
+      "at": 0.5759029028193998,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -334,7 +356,7 @@
     {
       "name": "Stevensville",
       "at": 0.35761589403973515,
-      "landmark": ""
+      "landmark": "Stevensville"
     },
     {
       "name": "Boardley",
@@ -353,6 +375,7 @@
     }
   ],
   "sources": [
+    "content/stories/route-14-the-trail-king-and-queen-county-995154.json",
     "public/data/strips/route-14-the-trail-king-and-queen-county-995154.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

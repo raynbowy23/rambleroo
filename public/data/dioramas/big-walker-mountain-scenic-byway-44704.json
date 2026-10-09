@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Bland",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Big Walker Lookout",
+      "model": "ridge",
+      "at": 0.40165861790094803,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Wytheville",
+      "model": "town-blocks",
+      "at": 0.9979107773670053,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -366,7 +388,7 @@
     {
       "name": "Bland",
       "at": 0,
-      "landmark": ""
+      "landmark": "Bland"
     },
     {
       "name": "Shupe",
@@ -376,10 +398,11 @@
     {
       "name": "Wytheville",
       "at": 1,
-      "landmark": ""
+      "landmark": "Wytheville"
     }
   ],
   "sources": [
+    "content/stories/big-walker-mountain-scenic-byway-44704.json",
     "public/data/strips/big-walker-mountain-scenic-byway-44704.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

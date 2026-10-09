@@ -3,12 +3,12 @@
   "bywayId": "route-640-st-paul-to-wardell-995136",
   "title": "Route 640, St. Paul to Wardell",
   "longitude": -82.0177,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,134 +275,52 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "St. Paul",
+      "model": "town-blocks",
+      "at": 0.00007804989416480948,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Castlewood",
+      "model": "town-blocks",
+      "at": 0.058094864243880266,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lebanon",
+      "model": "town-blocks",
+      "at": 0.41935373525460834,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.875,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
     {
       "name": "Castlewood",
       "at": 0.05808080808080807,
-      "landmark": ""
+      "landmark": "Castlewood"
     },
     {
       "name": "Lebanon",
       "at": 0.4191919191919192,
-      "landmark": ""
+      "landmark": "Lebanon"
     }
   ],
   "sources": [
+    "content/stories/route-640-st-paul-to-wardell-995136.json",
     "public/data/strips/route-640-st-paul-to-wardell-995136.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

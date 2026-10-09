@@ -3,12 +3,12 @@
   "bywayId": "mt-carmel-scenic-byway-2025",
   "title": "Mt. Carmel Scenic Byway",
   "longitude": -112.5913,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,35 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Hatch",
+      "model": "town-blocks",
+      "at": 0.13385542769048642,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Orderville",
+      "model": "town-blocks",
+      "at": 0.6635460444267057,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Kanab",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "mesa",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "mesa",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "mesa",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "sandbar",
+      "model": "river",
       "at": 0.5,
-      "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -315,7 +316,7 @@
     {
       "name": "Hatch",
       "at": 0.13388704318936878,
-      "landmark": ""
+      "landmark": "Hatch"
     },
     {
       "name": "Asay",
@@ -330,15 +331,16 @@
     {
       "name": "Orderville",
       "at": 0.6637873754152823,
-      "landmark": ""
+      "landmark": "Orderville"
     },
     {
       "name": "Kanab",
       "at": 1,
-      "landmark": ""
+      "landmark": "Kanab"
     }
   ],
   "sources": [
+    "content/stories/mt-carmel-scenic-byway-2025.json",
     "public/data/strips/mt-carmel-scenic-byway-2025.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

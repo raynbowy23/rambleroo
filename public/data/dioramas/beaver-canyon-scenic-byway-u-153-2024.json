@@ -3,8 +3,8 @@
   "bywayId": "beaver-canyon-scenic-byway-u-153-2024",
   "title": "Beaver Canyon Scenic Byway (U-153)",
   "longitude": -112.4873,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -239,43 +239,51 @@
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Beaver",
+      "model": "town-blocks",
+      "at": 0.005588266880129543,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -360,20 +368,13 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
-    },
-    {
-      "model": "sandbar",
-      "at": 0.5,
-      "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
     }
   ],
   "towns": [
     {
       "name": "Beaver",
       "at": 0.005825242718446601,
-      "landmark": ""
+      "landmark": "Beaver"
     },
     {
       "name": "Elk Mountain",
@@ -382,6 +383,7 @@
     }
   ],
   "sources": [
+    "content/stories/beaver-canyon-scenic-byway-u-153-2024.json",
     "public/data/strips/beaver-canyon-scenic-byway-u-153-2024.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

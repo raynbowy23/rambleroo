@@ -8,7 +8,7 @@
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -278,6 +278,13 @@
   "landmarks": [],
   "dressing": [
     {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
       "model": "mesa",
       "at": 0.041666666666666664,
       "side": -1,
@@ -319,6 +326,7 @@
     }
   ],
   "sources": [
+    "content/stories/dead-horse-mesa-scenic-byway-2484.json",
     "public/data/strips/dead-horse-mesa-scenic-byway-2484.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
