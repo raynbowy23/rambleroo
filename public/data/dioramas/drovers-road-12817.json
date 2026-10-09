@@ -3,301 +3,282 @@
   "bywayId": "drovers-road-12817",
   "title": "Drovers Road",
   "longitude": -82.3448,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
-        -82.2871,
-        35.4515
-      ],
-      [
-        -82.29,
-        35.4533
-      ],
-      [
-        -82.2962,
-        35.4523
-      ],
-      [
-        -82.2984,
-        35.4572
-      ],
-      [
-        -82.3017,
-        35.4579
-      ],
-      [
-        -82.3052,
-        35.4614
-      ],
-      [
-        -82.3076,
-        35.4606
-      ],
-      [
-        -82.313,
-        35.4617
-      ],
-      [
-        -82.3293,
-        35.4698
-      ],
-      [
-        -82.3304,
-        35.4714
-      ],
-      [
-        -82.3278,
-        35.4707
-      ],
-      [
-        -82.3305,
-        35.4725
-      ],
-      [
-        -82.3356,
-        35.4741
-      ],
-      [
-        -82.3366,
-        35.4724
-      ],
-      [
-        -82.338,
-        35.4745
-      ],
-      [
-        -82.3489,
-        35.4803
-      ],
-      [
-        -82.3527,
-        35.4862
-      ],
-      [
-        -82.3524,
-        35.4875
-      ],
-      [
-        -82.3626,
-        35.49
-      ],
-      [
-        -82.3631,
-        35.4908
-      ],
-      [
-        -82.3614,
-        35.4911
-      ],
-      [
-        -82.3654,
-        35.4926
-      ],
-      [
-        -82.3632,
-        35.4936
-      ],
-      [
-        -82.3653,
-        35.4948
-      ],
-      [
-        -82.3653,
-        35.4971
-      ],
-      [
-        -82.3679,
-        35.5005
-      ],
-      [
-        -82.3823,
-        35.5092
-      ],
-      [
-        -82.3905,
-        35.5088
-      ],
-      [
-        -82.396,
-        35.514
-      ],
-      [
-        -82.3979,
-        35.5151
+        -82.4045,
+        35.5216
       ],
       [
         -82.4025,
         35.5177
       ],
       [
-        -82.4045,
-        35.5216
+        -82.3979,
+        35.5151
+      ],
+      [
+        -82.396,
+        35.514
+      ],
+      [
+        -82.3905,
+        35.5088
+      ],
+      [
+        -82.3823,
+        35.5092
+      ],
+      [
+        -82.3679,
+        35.5005
+      ],
+      [
+        -82.3653,
+        35.4971
+      ],
+      [
+        -82.3653,
+        35.4948
+      ],
+      [
+        -82.3632,
+        35.4936
+      ],
+      [
+        -82.3654,
+        35.4926
+      ],
+      [
+        -82.3614,
+        35.4911
+      ],
+      [
+        -82.3631,
+        35.4908
+      ],
+      [
+        -82.3626,
+        35.49
+      ],
+      [
+        -82.3524,
+        35.4875
+      ],
+      [
+        -82.3527,
+        35.4862
+      ],
+      [
+        -82.3489,
+        35.4803
+      ],
+      [
+        -82.338,
+        35.4745
+      ],
+      [
+        -82.3366,
+        35.4724
+      ],
+      [
+        -82.3356,
+        35.4741
+      ],
+      [
+        -82.3305,
+        35.4725
+      ],
+      [
+        -82.3278,
+        35.4707
+      ],
+      [
+        -82.3304,
+        35.4714
+      ],
+      [
+        -82.3293,
+        35.4698
+      ],
+      [
+        -82.313,
+        35.4617
+      ],
+      [
+        -82.3076,
+        35.4606
+      ],
+      [
+        -82.3052,
+        35.4614
+      ],
+      [
+        -82.3017,
+        35.4579
+      ],
+      [
+        -82.2984,
+        35.4572
+      ],
+      [
+        -82.2962,
+        35.4523
+      ],
+      [
+        -82.29,
+        35.4533
+      ],
+      [
+        -82.2871,
+        35.4515
       ]
     ],
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Gerton",
+      "model": "town-blocks",
+      "at": 0.5205159093290131,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
-      "at": 0.041666666666666664,
+      "model": "hardwood",
+      "at": 0.0875,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
       "model": "hardwood",
-      "at": 0.041666666666666664,
+      "at": 0.09949999999999999,
       "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
       "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.375,
+      "at": 0.11149999999999999,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.05
     },
     {
       "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
+      "at": 0.3375,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
       "model": "hardwood",
-      "at": 0.7916666666666666,
+      "at": 0.34950000000000003,
       "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "field",
-      "at": 0.875,
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "field",
-      "at": 0.9583333333333334,
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
     }
   ],
   "towns": [],
   "sources": [
+    "content/stories/drovers-road-12817.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }

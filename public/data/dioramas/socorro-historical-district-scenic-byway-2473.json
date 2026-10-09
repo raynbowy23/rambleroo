@@ -3,12 +3,12 @@
   "bywayId": "socorro-historical-district-scenic-byway-2473",
   "title": "Socorro Historical District Scenic Byway",
   "longitude": -106.8959,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -79,39 +79,83 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "San Miguel de Socorro",
+      "model": "town-blocks",
+      "at": 0.5204332000808878,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Socorro Wheel of History",
+      "model": "town-blocks",
+      "at": 0.5204332000808878,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Garcia Opera House",
+      "model": "farmhouse",
+      "at": 0.5910578985297867,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Garcia Opera House",
+      "model": "town-blocks",
+      "at": 0.5910578985297867,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "mesa",
+      "model": "town-blocks",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "mesa",
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
       "at": 0.375,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "mesa",
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "sandbar",
-      "at": 0.5,
+      "model": "town-blocks",
+      "at": 0.875,
       "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [],
   "sources": [
+    "content/stories/socorro-historical-district-scenic-byway-2473.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],

@@ -8,7 +8,7 @@
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -83,8 +83,23 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Cheat Bridge",
+      "model": "town-blocks",
+      "at": 0.2825992324006742,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -172,6 +187,7 @@
   ],
   "towns": [],
   "sources": [
+    "content/stories/cheat-mountain-backway-10354.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],

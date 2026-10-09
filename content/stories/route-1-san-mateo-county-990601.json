@@ -1,0 +1,69 @@
+{
+  "id": "route-1-san-mateo-county-990601",
+  "tagline": "Up the San Mateo coast, past seals and a lighthouse.",
+  "motifs": [
+    "lighthouse"
+  ],
+  "intro": [
+    "Out of Santa Cruz County, Highway 1 runs 26 miles up the west coast of the San Francisco Peninsula to the edge of Half Moon Bay, past the marine mammal colonies at Año Nuevo and the lighthouse at Pigeon Point. San Gregorio sits a mile inland up Highway 84 from its state beach.",
+    "The weather station at San Gregorio finds fog and low overcast common at night and in the morning, especially in summer, usually clearing back to the shoreline by afternoon. A few miles inland it is often much warmer."
+  ],
+  "moments": [
+    {
+      "title": "Año Nuevo",
+      "kind": "separate excursion",
+      "scene": "coast",
+      "text": "A low, windswept point, as undeveloped as when Vizcaíno sailed past in 1603, where elephant seals, once nearly hunted out, now breed in one of the largest mainland colonies.",
+      "at": [
+        -122.33306,
+        37.13306
+      ]
+    },
+    {
+      "title": "Pigeon Point Lighthouse",
+      "kind": "roadside",
+      "scene": "coast",
+      "text": "A white masonry tower of 1871 on a rocky promontory beside the highway, named, like the point, for the ship Carrier Pigeon that wrecked there in 1853.",
+      "at": [
+        -122.39392,
+        37.18175
+      ],
+      "motifs": [
+        "lighthouse"
+      ]
+    },
+    {
+      "title": "Purissima",
+      "kind": "town",
+      "scene": "coast",
+      "text": "Four miles short of Half Moon Bay, near Verde Road, lies one of the earliest settlements on this coast, now a ghost town and the setting of a 1958 crime novel by Ross Macdonald.",
+      "at": [
+        -122.41694,
+        37.40306
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia, California State Route 1",
+      "url": "https://en.wikipedia.org/wiki/California_State_Route_1"
+    },
+    {
+      "label": "Wikipedia, Año Nuevo State Park",
+      "url": "https://en.wikipedia.org/wiki/A%C3%B1o_Nuevo_State_Park"
+    },
+    {
+      "label": "Wikipedia, Pigeon Point Lighthouse",
+      "url": "https://en.wikipedia.org/wiki/Pigeon_Point_Lighthouse"
+    },
+    {
+      "label": "Wikipedia, San Gregorio, California",
+      "url": "https://en.wikipedia.org/wiki/San_Gregorio,_California"
+    },
+    {
+      "label": "Wikipedia, Purissima, California",
+      "url": "https://en.wikipedia.org/wiki/Purissima,_California"
+    }
+  ],
+  "reviewed": false
+}

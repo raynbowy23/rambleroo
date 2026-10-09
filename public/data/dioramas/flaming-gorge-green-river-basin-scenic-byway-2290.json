@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Green River",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Flaming Gorge Reservoir",
+      "model": "alpine-lake",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -287,6 +302,7 @@
   ],
   "towns": [],
   "sources": [
+    "content/stories/flaming-gorge-green-river-basin-scenic-byway-2290.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],

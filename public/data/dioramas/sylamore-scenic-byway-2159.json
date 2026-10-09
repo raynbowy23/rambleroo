@@ -3,12 +3,12 @@
   "bywayId": "sylamore-scenic-byway-2159",
   "title": "Sylamore Scenic Byway",
   "longitude": -92.0981,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,43 +239,51 @@
     "elevation": [
       [
         0,
-        0.35
+        0.2
       ],
       [
         0.125,
-        0.453
+        0.218
       ],
       [
         0.25,
-        0.7
+        0.26
       ],
       [
         0.375,
-        0.947
+        0.302
       ],
       [
         0.5,
-        1.05
+        0.32
       ],
       [
         0.625,
-        0.947
+        0.302
       ],
       [
         0.75,
-        0.7
+        0.26
       ],
       [
         0.875,
-        0.453
+        0.218
       ],
       [
         1,
-        0.35
+        0.2
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Calico Rock",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -360,13 +368,20 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
     {
       "name": "Calico Rock",
       "at": 0,
-      "landmark": ""
+      "landmark": "Calico Rock"
     },
     {
       "name": "Optimus",
@@ -380,6 +395,7 @@
     }
   ],
   "sources": [
+    "content/stories/sylamore-scenic-byway-2159.json",
     "public/data/strips/sylamore-scenic-byway-2159.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
