@@ -3,8 +3,8 @@
   "bywayId": "land-of-the-cross-tipped-churches-scenic-byway-13596",
   "title": "Land of the Cross-Tipped Churches Scenic Byway",
   "longitude": -84.6014,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
@@ -275,119 +275,85 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "St. Henry",
+      "model": "steeple-town",
+      "at": 0.44497272667731663,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "St. Henry",
+      "model": "town-blocks",
+      "at": 0.44497272667731663,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Maria Stein",
+      "model": "town-blocks",
+      "at": 0.6730219962265298,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Minster",
+      "model": "steeple-town",
+      "at": 0.8318184611223927,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Minster",
+      "model": "town-blocks",
+      "at": 0.8318184611223927,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
-      "at": 0.125,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.20833333333333334,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.375,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.875,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
@@ -404,7 +370,7 @@
     {
       "name": "St. Henry",
       "at": 0.4566233766233766,
-      "landmark": ""
+      "landmark": "St. Henry"
     },
     {
       "name": "St. Rose",
@@ -414,7 +380,7 @@
     {
       "name": "Minster",
       "at": 0.8316883116883118,
-      "landmark": ""
+      "landmark": "Minster"
     },
     {
       "name": "McCartyville",
@@ -423,6 +389,7 @@
     }
   ],
   "sources": [
+    "content/stories/land-of-the-cross-tipped-churches-scenic-byway-13596.json",
     "public/data/strips/land-of-the-cross-tipped-churches-scenic-byway-13596.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

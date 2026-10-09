@@ -3,12 +3,12 @@
   "bywayId": "north-fork-trail-63611",
   "title": "North Fork Trail",
   "longitude": -72.3478,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "low-shore",
+  "palette": "coast",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,56 +275,71 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Southold",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Greenport",
+      "model": "harbor",
+      "at": 0.32580434829588323,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Greenport",
+      "model": "town-blocks",
+      "at": 0.32580434829588323,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Orient",
+      "model": "town-blocks",
+      "at": 0.7233338371164637,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
+      "model": "sandbar",
       "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "town-blocks",
-      "at": 0.375,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
+      "model": "sandbar",
       "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
     },
     {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.875,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
     }
   ],
   "towns": [
     {
       "name": "Southold",
       "at": 0,
-      "landmark": ""
+      "landmark": "Southold"
     },
     {
       "name": "Dering Harbor",
@@ -334,10 +349,11 @@
     {
       "name": "Orient",
       "at": 0.7246268656716418,
-      "landmark": ""
+      "landmark": "Orient"
     }
   ],
   "sources": [
+    "content/stories/north-fork-trail-63611.json",
     "public/data/strips/north-fork-trail-63611.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

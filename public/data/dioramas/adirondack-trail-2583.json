@@ -3,12 +3,12 @@
   "bywayId": "adirondack-trail-2583",
   "title": "Adirondack Trail",
   "longitude": -74.432,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,49 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Paul Smiths",
+      "model": "town-blocks",
+      "at": 0.17818468431979248,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Speculator",
+      "model": "town-blocks",
+      "at": 0.7000909111681477,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
+      "model": "alpine-lake",
+      "at": 0.5,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.4,
+      "scale": 1.5
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.375,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.875,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -334,7 +321,7 @@
     {
       "name": "Paul Smiths",
       "at": 0.1781390134529148,
-      "landmark": ""
+      "landmark": "Paul Smiths"
     },
     {
       "name": "Sabael",
@@ -344,7 +331,7 @@
     {
       "name": "Speculator",
       "at": 0.6999439461883408,
-      "landmark": ""
+      "landmark": "Speculator"
     },
     {
       "name": "Wells",
@@ -358,6 +345,7 @@
     }
   ],
   "sources": [
+    "content/stories/adirondack-trail-2583.json",
     "public/data/strips/adirondack-trail-2583.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

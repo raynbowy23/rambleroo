@@ -275,7 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Lodi",
+      "model": "town-blocks",
+      "at": 0.03065110735629725,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Watkins Glen",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Watkins Glen State Park",
+      "model": "open-spandrel-arch-bridge",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Watkins Glen State Park",
+      "model": "cove-waterfall",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,15 +318,16 @@
     {
       "name": "Lodi",
       "at": 0.031213872832369944,
-      "landmark": ""
+      "landmark": "Lodi"
     },
     {
       "name": "Watkins Glen",
       "at": 1,
-      "landmark": ""
+      "landmark": "Watkins Glen"
     }
   ],
   "sources": [
+    "content/stories/seneca-lake-byway-993608.json",
     "public/data/strips/seneca-lake-byway-993608.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

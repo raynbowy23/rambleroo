@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Grand Lake St. Marys",
+      "model": "alpine-lake",
+      "at": 0.4319746446329605,
+      "offset": "roadside",
+      "notes": "Story moment 1; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "New Bremen",
+      "model": "town-blocks",
+      "at": 0.574203066566537,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -333,6 +348,7 @@
     }
   ],
   "sources": [
+    "content/stories/miami-and-erie-canal-scenic-byway-15643.json",
     "public/data/strips/miami-and-erie-canal-scenic-byway-15643.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

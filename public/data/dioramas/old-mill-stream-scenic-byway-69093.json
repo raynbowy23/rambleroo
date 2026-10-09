@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Great Karg Well",
+      "model": "town-blocks",
+      "at": 0.5156225828148142,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -343,6 +351,7 @@
     }
   ],
   "sources": [
+    "content/stories/old-mill-stream-scenic-byway-69093.json",
     "public/data/strips/old-mill-stream-scenic-byway-69093.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

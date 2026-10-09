@@ -275,7 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Ogdensburg",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lowville",
+      "model": "town-blocks",
+      "at": 0.6128510377677295,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lyons Falls",
+      "model": "cove-waterfall",
+      "at": 0.7256158248311715,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lyons Falls",
+      "model": "town-blocks",
+      "at": 0.7256158248311715,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,7 +318,7 @@
     {
       "name": "Ogdensburg",
       "at": 0,
-      "landmark": ""
+      "landmark": "Ogdensburg"
     },
     {
       "name": "De Kalb",
@@ -314,12 +343,12 @@
     {
       "name": "Lowville",
       "at": 0.6129317269076305,
-      "landmark": ""
+      "landmark": "Lowville"
     },
     {
       "name": "Lyons Falls",
       "at": 0.7257028112449799,
-      "landmark": ""
+      "landmark": "Lyons Falls"
     },
     {
       "name": "Boonville",
@@ -338,6 +367,7 @@
     }
   ],
   "sources": [
+    "content/stories/black-river-trail-2223.json",
     "public/data/strips/black-river-trail-2223.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

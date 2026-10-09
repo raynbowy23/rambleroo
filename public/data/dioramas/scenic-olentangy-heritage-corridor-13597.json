@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Stratford",
+      "model": "town-blocks",
+      "at": 0.0007737483439346033,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bieber Mill",
+      "model": "gristmill",
+      "at": 0.17356227624620382,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -324,7 +339,7 @@
     {
       "name": "Stratford",
       "at": 0,
-      "landmark": ""
+      "landmark": "Stratford"
     },
     {
       "name": "Williamsville",
@@ -338,6 +353,7 @@
     }
   ],
   "sources": [
+    "content/stories/scenic-olentangy-heritage-corridor-13597.json",
     "public/data/strips/scenic-olentangy-heritage-corridor-13597.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

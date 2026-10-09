@@ -3,12 +3,12 @@
   "bywayId": "lower-valley-pike-scenic-byway-2330",
   "title": "Lower Valley Pike Scenic Byway",
   "longitude": -83.9362,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,49 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Huffman House",
+      "model": "farmhouse",
+      "at": 0.8080423999098751,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
+      "model": "ledge",
+      "at": 0.5,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.4,
+      "scale": 1.5
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.375,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.875,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -338,6 +318,7 @@
     }
   ],
   "sources": [
+    "content/stories/lower-valley-pike-scenic-byway-2330.json",
     "public/data/strips/lower-valley-pike-scenic-byway-2330.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
