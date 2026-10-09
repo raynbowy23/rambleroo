@@ -8,7 +8,7 @@
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,8 +275,23 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Austin",
+      "model": "town-blocks",
+      "at": 0.34508988514063765,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "mesa",
       "at": 0.041666666666666664,
@@ -320,7 +335,7 @@
     {
       "name": "Austin",
       "at": 0.34511021421918653,
-      "landmark": ""
+      "landmark": "Austin"
     },
     {
       "name": "Eureka",
@@ -334,6 +349,7 @@
     }
   ],
   "sources": [
+    "content/stories/the-loneliest-road-in-america-2033.json",
     "public/data/strips/the-loneliest-road-in-america-2033.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Snake River Road",
+      "model": "ledge",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Huntington",
+      "model": "town-blocks",
+      "at": 0.5204467162262659,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rye Valley",
+      "model": "town-blocks",
+      "at": 0.635177870083101,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -294,12 +316,12 @@
     {
       "name": "Huntington",
       "at": 0.5205921938088829,
-      "landmark": ""
+      "landmark": "Huntington"
     },
     {
       "name": "Rye Valley",
       "at": 0.6353297442799462,
-      "landmark": ""
+      "landmark": "Rye Valley"
     },
     {
       "name": "Baker City",
@@ -308,6 +330,7 @@
     }
   ],
   "sources": [
+    "content/stories/snake-river-mormon-basin-back-country-byway-68917.json",
     "public/data/strips/snake-river-mormon-basin-back-country-byway-68917.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

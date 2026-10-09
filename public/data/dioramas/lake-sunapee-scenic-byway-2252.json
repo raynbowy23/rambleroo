@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Sunapee Harbor",
+      "model": "town-blocks",
+      "at": 0.4307699793378306,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Newbury Harbor",
+      "model": "town-blocks",
+      "at": 0.7168879487910713,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "harbor",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "river",
       "at": 0.5,
@@ -313,6 +335,7 @@
     }
   ],
   "sources": [
+    "content/stories/lake-sunapee-scenic-byway-2252.json",
     "public/data/strips/lake-sunapee-scenic-byway-2252.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

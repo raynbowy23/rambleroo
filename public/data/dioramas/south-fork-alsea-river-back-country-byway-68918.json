@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Alsea",
+      "model": "town-blocks",
+      "at": 0.00028505494905837954,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Alpine",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,15 +304,16 @@
     {
       "name": "Alsea",
       "at": 0.0005128205128205128,
-      "landmark": ""
+      "landmark": "Alsea"
     },
     {
       "name": "Alpine",
       "at": 1,
-      "landmark": ""
+      "landmark": "Alpine"
     }
   ],
   "sources": [
+    "content/stories/south-fork-alsea-river-back-country-byway-68918.json",
     "public/data/strips/south-fork-alsea-river-back-country-byway-68918.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

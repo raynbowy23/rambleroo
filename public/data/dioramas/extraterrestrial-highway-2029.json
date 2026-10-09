@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Rachel",
+      "model": "town-blocks",
+      "at": 0.5953037054630553,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Crystal Springs",
+      "model": "town-blocks",
+      "at": 0.992010931550251,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -310,15 +325,16 @@
     {
       "name": "Rachel",
       "at": 0.595050505050505,
-      "landmark": ""
+      "landmark": "Rachel"
     },
     {
       "name": "Crystal Springs",
       "at": 0.9916161616161616,
-      "landmark": ""
+      "landmark": "Crystal Springs"
     }
   ],
   "sources": [
+    "content/stories/extraterrestrial-highway-2029.json",
     "public/data/strips/extraterrestrial-highway-2029.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
