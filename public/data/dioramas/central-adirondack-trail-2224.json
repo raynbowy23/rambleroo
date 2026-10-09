@@ -3,12 +3,12 @@
   "bywayId": "central-adirondack-trail-2224",
   "title": "Central Adirondack Trail",
   "longitude": -74.5,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,49 +275,43 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Fort Stanwix",
+      "model": "town-blocks",
+      "at": 0.0005419212636305784,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Inlet",
+      "model": "town-blocks",
+      "at": 0.4237829360657866,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Warrensburg",
+      "model": "town-blocks",
+      "at": 0.8970078519505281,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
+      "model": "alpine-lake",
+      "at": 0.5,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.4,
+      "scale": 1.5
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.375,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.875,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -344,7 +338,7 @@
     {
       "name": "Inlet",
       "at": 0.4238379814077025,
-      "landmark": ""
+      "landmark": "Inlet"
     },
     {
       "name": "Wevertown",
@@ -354,7 +348,7 @@
     {
       "name": "Warrensburg",
       "at": 0.8971447543160692,
-      "landmark": ""
+      "landmark": "Warrensburg"
     },
     {
       "name": "Glens Falls",
@@ -363,6 +357,7 @@
     }
   ],
   "sources": [
+    "content/stories/central-adirondack-trail-2224.json",
     "public/data/strips/central-adirondack-trail-2224.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

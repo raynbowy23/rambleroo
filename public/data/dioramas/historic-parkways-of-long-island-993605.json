@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Oak Beach",
+      "model": "town-blocks",
+      "at": 0.8173244497448323,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "sandbar",
@@ -315,10 +323,11 @@
     {
       "name": "Oak Beach",
       "at": 0.8141304347826088,
-      "landmark": ""
+      "landmark": "Oak Beach"
     }
   ],
   "sources": [
+    "content/stories/historic-parkways-of-long-island-993605.json",
     "public/data/strips/historic-parkways-of-long-island-993605.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

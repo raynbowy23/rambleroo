@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Wapa Theater",
+      "model": "town-blocks",
+      "at": 0.47299175816104333,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -408,6 +416,7 @@
     }
   ],
   "sources": [
+    "content/stories/neil-armstrong-scenic-byway-993904.json",
     "public/data/strips/neil-armstrong-scenic-byway-993904.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

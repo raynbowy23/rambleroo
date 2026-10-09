@@ -3,12 +3,12 @@
   "bywayId": "tappan-moravian-trail-scenic-byway-10503",
   "title": "Tappan-Moravian Trail Scenic Byway",
   "longitude": -80.9474,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,49 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Tappan Dam",
+      "model": "alpine-lake",
+      "at": 0.04874320931440921,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "New Rumley",
+      "model": "town-blocks",
+      "at": 0.89942299882788,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.375,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.875,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -344,10 +324,11 @@
     {
       "name": "New Rumley",
       "at": 0.9003067484662577,
-      "landmark": ""
+      "landmark": "New Rumley"
     }
   ],
   "sources": [
+    "content/stories/tappan-moravian-trail-scenic-byway-10503.json",
     "public/data/strips/tappan-moravian-trail-scenic-byway-10503.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

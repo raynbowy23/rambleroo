@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Elephant Rock",
+      "model": "mesa",
+      "at": 0.9074855431286871,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -319,6 +327,7 @@
     }
   ],
   "sources": [
+    "content/stories/valley-of-fire-state-park-roadways-2036.json",
     "public/data/strips/valley-of-fire-state-park-roadways-2036.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

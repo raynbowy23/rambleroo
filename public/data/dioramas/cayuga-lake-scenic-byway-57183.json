@@ -275,8 +275,37 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Taughannock Falls State Park",
+      "model": "cove-waterfall",
+      "at": 0.39292068992222845,
+      "offset": "roadside",
+      "notes": "Story moment 1; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Aurora",
+      "model": "town-blocks",
+      "at": 0.8161458037291158,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Union Springs",
+      "model": "town-blocks",
+      "at": 0.897579569572404,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "river",
       "at": 0.5,
@@ -324,7 +353,7 @@
     {
       "name": "Union Springs",
       "at": 0.8971131639722864,
-      "landmark": ""
+      "landmark": "Union Springs"
     },
     {
       "name": "Cayuga",
@@ -333,6 +362,7 @@
     }
   ],
   "sources": [
+    "content/stories/cayuga-lake-scenic-byway-57183.json",
     "public/data/strips/cayuga-lake-scenic-byway-57183.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

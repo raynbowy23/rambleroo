@@ -3,8 +3,8 @@
   "bywayId": "granville-scenic-byway-993902",
   "title": "Granville Scenic Byway",
   "longitude": -82.5186,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
@@ -275,119 +275,64 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Buxton Inn",
+      "model": "town-blocks",
+      "at": 0.5995101915351276,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Swasey Chapel",
+      "model": "town-blocks",
+      "at": 0.631714914956048,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
-      "at": 0.125,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.20833333333333334,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.375,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
+      "distance": 0.85,
       "scale": 0.8
     },
     {
-      "model": "field",
+      "model": "town-blocks",
       "at": 0.875,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
@@ -398,6 +343,7 @@
     }
   ],
   "sources": [
+    "content/stories/granville-scenic-byway-993902.json",
     "public/data/strips/granville-scenic-byway-993902.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

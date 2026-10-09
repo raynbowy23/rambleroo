@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Red Rock Canyon Scenic Loop",
+      "model": "mesa",
+      "at": 0.5124995069463547,
+      "offset": "roadside",
+      "notes": "Story moment 1; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Blue Diamond",
+      "model": "town-blocks",
+      "at": 0.9186892535616126,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -315,10 +330,11 @@
     {
       "name": "Blue Diamond",
       "at": 0.9180904522613066,
-      "landmark": ""
+      "landmark": "Blue Diamond"
     }
   ],
   "sources": [
+    "content/stories/red-rock-canyon-road-2035.json",
     "public/data/strips/red-rock-canyon-road-2035.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

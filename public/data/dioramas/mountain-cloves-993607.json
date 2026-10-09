@@ -3,12 +3,12 @@
   "bywayId": "mountain-cloves-993607",
   "title": "Mountain Cloves",
   "longitude": -74.1322,
-  "ground": "alpine-plateau",
-  "palette": "mountain",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,127 +239,107 @@
     "elevation": [
       [
         0,
-        0.45
+        0.2
       ],
       [
         0.125,
-        0.692
+        0.218
       ],
       [
         0.25,
-        1.275
+        0.26
       ],
       [
         0.375,
-        1.858
+        0.302
       ],
       [
         0.5,
-        2.1
+        0.32
       ],
       [
         0.625,
-        1.858
+        0.302
       ],
       [
         0.75,
-        1.275
+        0.26
       ],
       [
         0.875,
-        0.692
+        0.218
       ],
       [
         1,
-        0.45
+        0.2
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Tannersville",
+      "model": "town-blocks",
+      "at": 0.37709517293248357,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Kaaterskill Falls",
+      "model": "cove-waterfall",
+      "at": 0.8506230042606605,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Palenville",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "hardwood",
-      "at": 0.0875,
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
       "side": -1,
-      "distance": 0.8,
-      "scale": 1.05
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "hardwood",
-      "at": 0.09949999999999999,
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
       "side": -1,
-      "distance": 1.15,
-      "scale": 1.05
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "hardwood",
-      "at": 0.11149999999999999,
+      "model": "town-blocks",
+      "at": 0.375,
       "side": -1,
-      "distance": 1.5,
-      "scale": 1.05
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "hardwood",
-      "at": 0.3375,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.34950000000000003,
-      "side": 1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.36150000000000004,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5875,
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
       "side": -1,
-      "distance": 0.8,
-      "scale": 1.05
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "hardwood",
-      "at": 0.5995,
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
       "side": -1,
-      "distance": 1.15,
-      "scale": 1.05
+      "distance": 0.85,
+      "scale": 0.8
     },
     {
-      "model": "hardwood",
-      "at": 0.6115,
+      "model": "town-blocks",
+      "at": 0.875,
       "side": -1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8375,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8495,
-      "side": 1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8615,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.05
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
@@ -371,7 +351,7 @@
     {
       "name": "Tannersville",
       "at": 0.37763157894736843,
-      "landmark": ""
+      "landmark": "Tannersville"
     },
     {
       "name": "West Saugerties",
@@ -381,10 +361,11 @@
     {
       "name": "Palenville",
       "at": 1,
-      "landmark": ""
+      "landmark": "Palenville"
     }
   ],
   "sources": [
+    "content/stories/mountain-cloves-993607.json",
     "public/data/strips/mountain-cloves-993607.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

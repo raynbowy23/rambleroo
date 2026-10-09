@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Mansfield Square",
+      "model": "town-blocks",
+      "at": 0.01879373536928473,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -338,6 +346,7 @@
     }
   ],
   "sources": [
+    "content/stories/johnny-appleseed-historic-byway-993903.json",
     "public/data/strips/johnny-appleseed-historic-byway-993903.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
