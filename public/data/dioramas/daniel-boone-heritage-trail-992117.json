@@ -3,12 +3,12 @@
   "bywayId": "daniel-boone-heritage-trail-992117",
   "title": "Daniel Boone Heritage Trail",
   "longitude": -84.284,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,59 +275,33 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Boonesborough",
+      "model": "town-blocks",
+      "at": 0.9370028600321655,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.375,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
-    },
-    {
-      "model": "town-blocks",
-      "at": 0.875,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
     {
       "name": "Boonesborough",
       "at": 0.9363636363636363,
-      "landmark": ""
+      "landmark": "Boonesborough"
     }
   ],
   "sources": [
+    "content/stories/daniel-boone-heritage-trail-992117.json",
     "public/data/strips/daniel-boone-heritage-trail-992117.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

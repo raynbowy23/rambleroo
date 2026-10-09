@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Clam Lake",
+      "model": "town-blocks",
+      "at": 0.5919012699786471,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -371,10 +379,11 @@
     {
       "name": "Clam Lake",
       "at": 0.5930147058823529,
-      "landmark": ""
+      "landmark": "Clam Lake"
     }
   ],
   "sources": [
+    "content/stories/great-divide-highway-2325.json",
     "public/data/strips/great-divide-highway-2325.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

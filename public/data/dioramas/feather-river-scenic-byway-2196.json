@@ -275,8 +275,23 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Paxton",
+      "model": "town-blocks",
+      "at": 0.9887619407000313,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -408,10 +423,11 @@
     {
       "name": "Paxton",
       "at": 0.9889072847682119,
-      "landmark": ""
+      "landmark": "Paxton"
     }
   ],
   "sources": [
+    "content/stories/feather-river-scenic-byway-2196.json",
     "public/data/strips/feather-river-scenic-byway-2196.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

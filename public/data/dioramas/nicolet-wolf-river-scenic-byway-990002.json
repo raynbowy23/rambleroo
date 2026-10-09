@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Hiles",
+      "model": "town-blocks",
+      "at": 0.39887974455464525,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Crandon",
+      "model": "town-blocks",
+      "at": 0.5615429304297267,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lily",
+      "model": "town-blocks",
+      "at": 0.8599859426712212,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -371,7 +393,7 @@
     {
       "name": "Hiles",
       "at": 0.3990267639902676,
-      "landmark": ""
+      "landmark": "Hiles"
     },
     {
       "name": "Argonne",
@@ -381,7 +403,7 @@
     {
       "name": "Crandon",
       "at": 0.5618004866180049,
-      "landmark": ""
+      "landmark": "Crandon"
     },
     {
       "name": "Ainsworth",
@@ -400,6 +422,7 @@
     }
   ],
   "sources": [
+    "content/stories/nicolet-wolf-river-scenic-byway-990002.json",
     "public/data/strips/nicolet-wolf-river-scenic-byway-990002.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

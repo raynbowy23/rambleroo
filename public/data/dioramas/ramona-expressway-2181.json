@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Lakeview",
+      "model": "town-blocks",
+      "at": 0.3557642178607268,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Valle Vista",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -394,7 +409,7 @@
     {
       "name": "Lakeview",
       "at": 0.35518672199170126,
-      "landmark": ""
+      "landmark": "Lakeview"
     },
     {
       "name": "San Jacinto",
@@ -404,10 +419,11 @@
     {
       "name": "Valle Vista",
       "at": 0.9987551867219917,
-      "landmark": ""
+      "landmark": "Valle Vista"
     }
   ],
   "sources": [
+    "content/stories/ramona-expressway-2181.json",
     "public/data/strips/ramona-expressway-2181.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

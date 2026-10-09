@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Lockwood",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -394,10 +402,11 @@
     {
       "name": "Lockwood",
       "at": 0,
-      "landmark": ""
+      "landmark": "Lockwood"
     }
   ],
   "sources": [
+    "content/stories/interlake-road-lockwood-to-the-san-luis-obispo-county-line-990614.json",
     "public/data/strips/interlake-road-lockwood-to-the-san-luis-obispo-county-line-990614.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

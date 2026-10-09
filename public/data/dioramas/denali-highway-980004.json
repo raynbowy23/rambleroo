@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Cantwell",
+      "model": "town-blocks",
+      "at": 0.9796270570093409,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -376,10 +384,11 @@
     {
       "name": "Cantwell",
       "at": 0.9796634967081199,
-      "landmark": ""
+      "landmark": "Cantwell"
     }
   ],
   "sources": [
+    "content/stories/denali-highway-980004.json",
     "public/data/strips/denali-highway-980004.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

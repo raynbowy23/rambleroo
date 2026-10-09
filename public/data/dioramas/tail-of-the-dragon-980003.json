@@ -3,12 +3,12 @@
   "bywayId": "tail-of-the-dragon-980003",
   "title": "Tail of the Dragon",
   "longitude": -83.9425,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,44 +239,59 @@
     "elevation": [
       [
         0,
-        0.35
+        0.2
       ],
       [
         0.125,
-        0.453
+        0.218
       ],
       [
         0.25,
-        0.7
+        0.26
       ],
       [
         0.375,
-        0.947
+        0.302
       ],
       [
         0.5,
-        1.05
+        0.32
       ],
       [
         0.625,
-        0.947
+        0.302
       ],
       [
         0.75,
-        0.7
+        0.26
       ],
       [
         0.875,
-        0.453
+        0.218
       ],
       [
         1,
-        0.35
+        0.2
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Calderwood Overlook",
+      "model": "overlook-pullout",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -360,6 +375,13 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -375,6 +397,7 @@
     }
   ],
   "sources": [
+    "content/stories/tail-of-the-dragon-980003.json",
     "public/data/strips/tail-of-the-dragon-980003.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
