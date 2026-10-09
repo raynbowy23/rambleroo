@@ -18,10 +18,21 @@ export async function streetView(request: Request, env: Env, id: string): Promis
     headers: { Authorization: `OAuth ${env.MAPILLARY_TOKEN}` },
   })
   const url = meta.ok ? ((await meta.json()) as { thumb_1024_url?: string }).thumb_1024_url : undefined
-  if (!url) return new Response('Street view unavailable', { status: 502 })
+  if (!url) {
+    console.warn(
+      'street view: Mapillary lookup failed',
+      id,
+      meta.status,
+      env.MAPILLARY_TOKEN ? `token length ${env.MAPILLARY_TOKEN.length}, starts ${env.MAPILLARY_TOKEN.slice(0, 4)}` : 'no token',
+    )
+    return new Response('Street view unavailable', { status: 502 })
+  }
   const image = await fetch(url)
   const type = image.headers.get('Content-Type') ?? ''
-  if (!image.ok || !type.startsWith('image/')) return new Response('Street view unavailable', { status: 502 })
+  if (!image.ok || !type.startsWith('image/')) {
+    console.warn('street view: image fetch failed', id, image.status, type)
+    return new Response('Street view unavailable', { status: 502 })
+  }
   const response = new Response(image.body, {
     headers: { 'Content-Type': type, 'Cache-Control': 'public, max-age=604800', 'X-Content-Type-Options': 'nosniff' },
   })
