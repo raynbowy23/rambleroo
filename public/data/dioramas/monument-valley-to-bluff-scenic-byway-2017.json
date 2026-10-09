@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Mexican Hat",
+      "model": "town-blocks",
+      "at": 0.561362865313243,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bluff",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -315,10 +330,11 @@
     {
       "name": "Mexican Hat",
       "at": 0.5615942028985508,
-      "landmark": ""
+      "landmark": "Mexican Hat"
     }
   ],
   "sources": [
+    "content/stories/monument-valley-to-bluff-scenic-byway-2017.json",
     "public/data/strips/monument-valley-to-bluff-scenic-byway-2017.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

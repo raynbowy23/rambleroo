@@ -3,8 +3,8 @@
   "bywayId": "little-cottonwood-canyon-scenic-byway-2005",
   "title": "Little Cottonwood Canyon Scenic Byway",
   "longitude": -111.7042,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -239,43 +239,58 @@
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Snowbird",
+      "model": "town-blocks",
+      "at": 0.6186904168636709,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Alta",
+      "model": "town-blocks",
+      "at": 0.7123364396728532,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -360,13 +375,6 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
-    },
-    {
-      "model": "sandbar",
-      "at": 0.5,
-      "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
     }
   ],
   "towns": [
@@ -378,7 +386,7 @@
     {
       "name": "Snowbird",
       "at": 0.6192660550458715,
-      "landmark": ""
+      "landmark": "Snowbird"
     },
     {
       "name": "Sugarloaf Mountain",
@@ -387,6 +395,7 @@
     }
   ],
   "sources": [
+    "content/stories/little-cottonwood-canyon-scenic-byway-2005.json",
     "public/data/strips/little-cottonwood-canyon-scenic-byway-2005.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

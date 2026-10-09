@@ -3,12 +3,12 @@
   "bywayId": "provo-canyon-scenic-byway-2006",
   "title": "Provo Canyon Scenic Byway",
   "longitude": -111.4946,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,35 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Bridal Veil Falls",
+      "model": "cove-waterfall",
+      "at": 0.1515065158423636,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Midway",
+      "model": "town-blocks",
+      "at": 0.8685481066850669,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "mesa",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "mesa",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "mesa",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
-    },
-    {
-      "model": "sandbar",
+      "model": "river",
       "at": 0.5,
-      "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -315,7 +309,7 @@
     {
       "name": "Midway",
       "at": 0.8702040816326531,
-      "landmark": ""
+      "landmark": "Midway"
     },
     {
       "name": "Heber City",
@@ -324,6 +318,7 @@
     }
   ],
   "sources": [
+    "content/stories/provo-canyon-scenic-byway-2006.json",
     "public/data/strips/provo-canyon-scenic-byway-2006.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

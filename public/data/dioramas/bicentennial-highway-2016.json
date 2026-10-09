@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Hite Crossing Bridge",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.3908665073393266,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Fry Canyon",
+      "model": "town-blocks",
+      "at": 0.5889320235216681,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -315,10 +330,11 @@
     {
       "name": "Fry Canyon",
       "at": 0.5888797364085666,
-      "landmark": ""
+      "landmark": "Fry Canyon"
     }
   ],
   "sources": [
+    "content/stories/bicentennial-highway-2016.json",
     "public/data/strips/bicentennial-highway-2016.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

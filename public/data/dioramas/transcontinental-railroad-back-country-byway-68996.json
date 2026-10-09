@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Kelton",
+      "model": "town-blocks",
+      "at": 0.6208191464837884,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -325,7 +333,7 @@
     {
       "name": "Kelton",
       "at": 0.6205976520811098,
-      "landmark": ""
+      "landmark": "Kelton"
     },
     {
       "name": "Kosmo",
@@ -339,6 +347,7 @@
     }
   ],
   "sources": [
+    "content/stories/transcontinental-railroad-back-country-byway-68996.json",
     "public/data/strips/transcontinental-railroad-back-country-byway-68996.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

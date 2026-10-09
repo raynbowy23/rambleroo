@@ -275,8 +275,23 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Eagle City",
+      "model": "town-blocks",
+      "at": 0.2489214265102695,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "false-front-town",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -371,7 +386,7 @@
     {
       "name": "Eagle City",
       "at": 0.2488454706927176,
-      "landmark": ""
+      "landmark": "Eagle City"
     },
     {
       "name": "Durfey Butte",
@@ -395,6 +410,7 @@
     }
   ],
   "sources": [
+    "content/stories/bull-creek-pass-national-back-country-byway-68992.json",
     "public/data/strips/bull-creek-pass-national-back-country-byway-68992.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

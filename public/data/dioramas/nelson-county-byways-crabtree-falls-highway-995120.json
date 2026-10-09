@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Tyro",
+      "model": "gristmill",
+      "at": 0.7292254260353274,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Tyro",
+      "model": "town-blocks",
+      "at": 0.7292254260353274,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Massies Mill",
+      "model": "town-blocks",
+      "at": 0.8908931912687619,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -299,15 +321,16 @@
     {
       "name": "Tyro",
       "at": 0.7142857142857143,
-      "landmark": ""
+      "landmark": "Tyro"
     },
     {
       "name": "Massies Mill",
       "at": 0.8895604395604396,
-      "landmark": ""
+      "landmark": "Massies Mill"
     }
   ],
   "sources": [
+    "content/stories/nelson-county-byways-crabtree-falls-highway-995120.json",
     "public/data/strips/nelson-county-byways-crabtree-falls-highway-995120.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

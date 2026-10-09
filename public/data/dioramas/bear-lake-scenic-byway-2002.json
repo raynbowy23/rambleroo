@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Bear Lake",
+      "model": "alpine-lake",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Garden City",
+      "model": "town-blocks",
+      "at": 0.4269455695499725,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Laketown",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,15 +311,16 @@
     {
       "name": "Garden City",
       "at": 0.42826086956521736,
-      "landmark": ""
+      "landmark": "Garden City"
     },
     {
       "name": "Laketown",
       "at": 1,
-      "landmark": ""
+      "landmark": "Laketown"
     }
   ],
   "sources": [
+    "content/stories/bear-lake-scenic-byway-2002.json",
     "public/data/strips/bear-lake-scenic-byway-2002.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
