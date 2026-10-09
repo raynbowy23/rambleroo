@@ -3,12 +3,12 @@
   "bywayId": "southern-adirondack-trail-63610",
   "title": "Southern Adirondack Trail",
   "longitude": -74.8428,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,85 +239,149 @@
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Little Falls",
+      "model": "town-blocks",
+      "at": 0.31477094010687046,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Nobleboro",
+      "model": "town-blocks",
+      "at": 0.6995083225861741,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Speculator",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
+      "model": "hardwood",
+      "at": 0.0875,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
+      "model": "hardwood",
+      "at": 0.09949999999999999,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.375,
+      "model": "hardwood",
+      "at": 0.11149999999999999,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.5,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.875,
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
     }
   ],
   "towns": [
@@ -334,7 +398,7 @@
     {
       "name": "Little Falls",
       "at": 0.31478800413650465,
-      "landmark": ""
+      "landmark": "Little Falls"
     },
     {
       "name": "Newport",
@@ -344,7 +408,7 @@
     {
       "name": "Nobleboro",
       "at": 0.6995863495346433,
-      "landmark": ""
+      "landmark": "Nobleboro"
     },
     {
       "name": "Hoffmeister",
@@ -358,6 +422,7 @@
     }
   ],
   "sources": [
+    "content/stories/southern-adirondack-trail-63610.json",
     "public/data/strips/southern-adirondack-trail-63610.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

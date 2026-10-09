@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Edisto Beach",
+      "model": "town-blocks",
+      "at": 0.7018893699150406,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "sandbar",
@@ -310,10 +318,11 @@
     {
       "name": "Edisto Beach",
       "at": 0.7097560975609757,
-      "landmark": ""
+      "landmark": "Edisto Beach"
     }
   ],
   "sources": [
+    "content/stories/edisto-beach-scenic-highway-994501.json",
     "public/data/strips/edisto-beach-scenic-highway-994501.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

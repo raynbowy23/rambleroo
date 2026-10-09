@@ -3,8 +3,8 @@
   "bywayId": "mt-wilson-back-country-byway-68959",
   "title": "Mt. Wilson Back Country Byway",
   "longitude": -114.2308,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -239,71 +239,135 @@
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Pioche",
+      "model": "town-blocks",
+      "at": 0.9924420288117453,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "mesa",
-      "at": 0.041666666666666664,
+      "model": "hardwood",
+      "at": 0.0875,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "mesa",
-      "at": 0.375,
+      "model": "hardwood",
+      "at": 0.09949999999999999,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "mesa",
-      "at": 0.7083333333333334,
+      "model": "hardwood",
+      "at": 0.11149999999999999,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.05
     },
     {
-      "model": "sandbar",
-      "at": 0.5,
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
       "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
     }
   ],
   "towns": [
@@ -315,10 +379,11 @@
     {
       "name": "Pioche",
       "at": 0.9928652321630804,
-      "landmark": ""
+      "landmark": "Pioche"
     }
   ],
   "sources": [
+    "content/stories/mt-wilson-back-country-byway-68959.json",
     "public/data/strips/mt-wilson-back-country-byway-68959.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

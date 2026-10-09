@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Gold Butte townsite",
+      "model": "town-blocks",
+      "at": 0.7376935859264285,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -319,6 +327,7 @@
     }
   ],
   "sources": [
+    "content/stories/gold-butte-back-country-byway-68960.json",
     "public/data/strips/gold-butte-back-country-byway-68960.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

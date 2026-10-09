@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "McGees Mills Covered Bridge",
+      "model": "covered-bridge",
+      "at": 0.03627661651801396,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cherry Tree",
+      "model": "town-blocks",
+      "at": 0.03627661651801396,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -299,7 +314,7 @@
     {
       "name": "Cherry Tree",
       "at": 0.03627661651801396,
-      "landmark": ""
+      "landmark": "Cherry Tree"
     },
     {
       "name": "Grampian",
@@ -333,6 +348,7 @@
     }
   ],
   "sources": [
+    "content/stories/west-branch-susquehanna-river-byway-994202.json",
     "public/data/strips/west-branch-susquehanna-river-byway-994202.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

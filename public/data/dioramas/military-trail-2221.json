@@ -3,8 +3,8 @@
   "bywayId": "military-trail-2221",
   "title": "Military Trail",
   "longitude": -74.1933,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "prairie-grid",
+  "palette": "prairie",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -275,49 +275,141 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Wilder Homestead",
+      "model": "farmhouse",
+      "at": 0.45130162236765603,
+      "offset": "roadside",
+      "notes": "Story moment 1; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Chateaugay",
+      "model": "town-blocks",
+      "at": 0.5662943260242571,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rouses Point",
+      "model": "town-blocks",
+      "at": 0.9974960906666236,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
+      "model": "field",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 0.85,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
       "scale": 0.8
     },
     {
-      "model": "town-blocks",
+      "model": "field",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
       "at": 0.20833333333333334,
       "side": -1,
-      "distance": 0.85,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
       "scale": 0.8
     },
     {
-      "model": "town-blocks",
+      "model": "field",
       "at": 0.375,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.3,
+      "scale": 1.3
     },
     {
-      "model": "town-blocks",
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
       "at": 0.5416666666666666,
       "side": -1,
-      "distance": 0.85,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
       "scale": 0.8
     },
     {
-      "model": "town-blocks",
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 0.85,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
       "scale": 0.8
     },
     {
-      "model": "town-blocks",
+      "model": "field",
       "at": 0.875,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
     }
   ],
   "towns": [
@@ -349,7 +441,7 @@
     {
       "name": "Chateaugay",
       "at": 0.5661764705882353,
-      "landmark": ""
+      "landmark": "Chateaugay"
     },
     {
       "name": "Ellenburg",
@@ -364,10 +456,11 @@
     {
       "name": "Rouses Point",
       "at": 0.9971719457013575,
-      "landmark": ""
+      "landmark": "Rouses Point"
     }
   ],
   "sources": [
+    "content/stories/military-trail-2221.json",
     "public/data/strips/military-trail-2221.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

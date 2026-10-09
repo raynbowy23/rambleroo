@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Maupin",
+      "model": "town-blocks",
+      "at": 0.6741458675094261,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Section Foreman's House",
+      "model": "farmhouse",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -294,10 +309,11 @@
     {
       "name": "Maupin",
       "at": 0.6738095238095239,
-      "landmark": ""
+      "landmark": "Maupin"
     }
   ],
   "sources": [
+    "content/stories/lower-deschutes-river-back-country-byway-68921.json",
     "public/data/strips/lower-deschutes-river-back-country-byway-68921.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

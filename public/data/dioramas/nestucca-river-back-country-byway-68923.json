@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Beaver",
+      "model": "town-blocks",
+      "at": 0.0079494729088869,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Carlton",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,15 +304,16 @@
     {
       "name": "Beaver",
       "at": 0.007964601769911504,
-      "landmark": ""
+      "landmark": "Beaver"
     },
     {
       "name": "Carlton",
       "at": 1,
-      "landmark": ""
+      "landmark": "Carlton"
     }
   ],
   "sources": [
+    "content/stories/nestucca-river-back-country-byway-68923.json",
     "public/data/strips/nestucca-river-back-country-byway-68923.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
