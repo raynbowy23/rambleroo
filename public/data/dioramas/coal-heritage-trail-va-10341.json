@@ -3,399 +3,471 @@
   "bywayId": "coal-heritage-trail-va-10341",
   "title": "Coal Heritage Trail - VA",
   "longitude": -82.6395,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
-        -82.31185,
-        36.90247
-      ],
-      [
-        -82.34903,
-        36.91794
-      ],
-      [
-        -82.3731,
-        36.90566
-      ],
-      [
-        -82.39061,
-        36.93893
-      ],
-      [
-        -82.4301,
-        36.94842
-      ],
-      [
-        -82.74563,
-        36.92458
-      ],
-      [
-        -82.7905,
-        36.89825
-      ],
-      [
-        -82.75337,
-        36.86181
-      ],
-      [
-        -82.82472,
-        36.77195
-      ],
-      [
-        -82.79782,
-        36.74636
-      ],
-      [
-        -82.79492,
-        36.71326
-      ],
-      [
-        -82.75414,
-        36.69523
-      ],
-      [
-        -82.75252,
-        36.66874
-      ],
-      [
-        -82.65205,
-        36.70434
-      ],
-      [
-        -82.61761,
-        36.75864
-      ],
-      [
-        -82.53587,
-        36.80318
-      ],
-      [
-        -82.30028,
-        36.87156
-      ],
-      [
-        -82.31082,
-        36.90626
-      ],
-      [
-        -82.27826,
-        36.92504
-      ],
-      [
-        -82.29754,
-        36.9754
-      ],
-      [
-        -82.25487,
-        36.99246
-      ],
-      [
-        -82.37286,
-        37.08935
-      ],
-      [
-        -82.38691,
-        37.12196
-      ],
-      [
-        -82.333,
-        37.19598
-      ],
-      [
-        -82.27571,
-        37.2181
-      ],
-      [
-        -82.28047,
-        37.29506
-      ],
-      [
-        -82.25948,
-        37.27922
-      ],
-      [
-        -82.16439,
-        37.31206
-      ],
-      [
-        -82.18946,
-        37.35416
-      ],
-      [
-        -82.10284,
-        37.36285
-      ],
-      [
-        -82.04222,
-        37.3489
-      ],
-      [
-        -82.05618,
-        37.32579
-      ],
-      [
-        -82.04609,
-        37.29861
-      ],
-      [
-        -82.10829,
-        37.27381
-      ],
-      [
-        -82.09861,
-        37.23214
-      ],
-      [
-        -82.03893,
-        37.23486
-      ],
-      [
-        -81.99598,
-        37.26592
-      ],
-      [
-        -81.97792,
-        37.25456
-      ],
-      [
-        -81.94947,
-        37.30585
-      ],
-      [
-        -81.87788,
-        37.289
-      ],
-      [
-        -81.89777,
-        37.24587
-      ],
-      [
-        -81.87196,
-        37.24356
-      ],
-      [
-        -81.87225,
-        37.20959
-      ],
-      [
-        -81.83888,
-        37.1924
-      ],
-      [
-        -81.81595,
-        37.20789
-      ],
-      [
-        -81.78401,
-        37.19689
-      ],
-      [
-        -81.79535,
-        37.1801
-      ],
-      [
-        -81.78057,
-        37.12389
-      ],
-      [
-        -81.79595,
-        37.0998
-      ],
-      [
-        -81.75522,
-        37.08111
-      ],
-      [
-        -81.75198,
-        37.06263
-      ],
-      [
-        -81.60308,
-        37.11656
-      ],
-      [
-        -81.53018,
-        37.12342
-      ],
-      [
-        -81.27153,
-        37.25355
+        -81.30995,
+        37.29246
       ],
       [
         -81.31123,
         37.27504
       ],
       [
-        -81.30995,
-        37.29246
+        -81.27153,
+        37.25355
+      ],
+      [
+        -81.53018,
+        37.12342
+      ],
+      [
+        -81.60308,
+        37.11656
+      ],
+      [
+        -81.75198,
+        37.06263
+      ],
+      [
+        -81.75522,
+        37.08111
+      ],
+      [
+        -81.79595,
+        37.0998
+      ],
+      [
+        -81.78057,
+        37.12389
+      ],
+      [
+        -81.79535,
+        37.1801
+      ],
+      [
+        -81.78401,
+        37.19689
+      ],
+      [
+        -81.81595,
+        37.20789
+      ],
+      [
+        -81.83888,
+        37.1924
+      ],
+      [
+        -81.87225,
+        37.20959
+      ],
+      [
+        -81.87196,
+        37.24356
+      ],
+      [
+        -81.89777,
+        37.24587
+      ],
+      [
+        -81.87788,
+        37.289
+      ],
+      [
+        -81.94947,
+        37.30585
+      ],
+      [
+        -81.97792,
+        37.25456
+      ],
+      [
+        -81.99598,
+        37.26592
+      ],
+      [
+        -82.03893,
+        37.23486
+      ],
+      [
+        -82.09861,
+        37.23214
+      ],
+      [
+        -82.10829,
+        37.27381
+      ],
+      [
+        -82.04609,
+        37.29861
+      ],
+      [
+        -82.05618,
+        37.32579
+      ],
+      [
+        -82.04222,
+        37.3489
+      ],
+      [
+        -82.10284,
+        37.36285
+      ],
+      [
+        -82.18946,
+        37.35416
+      ],
+      [
+        -82.16439,
+        37.31206
+      ],
+      [
+        -82.25948,
+        37.27922
+      ],
+      [
+        -82.28047,
+        37.29506
+      ],
+      [
+        -82.27571,
+        37.2181
+      ],
+      [
+        -82.333,
+        37.19598
+      ],
+      [
+        -82.38691,
+        37.12196
+      ],
+      [
+        -82.37286,
+        37.08935
+      ],
+      [
+        -82.25487,
+        36.99246
+      ],
+      [
+        -82.29754,
+        36.9754
+      ],
+      [
+        -82.27826,
+        36.92504
+      ],
+      [
+        -82.31082,
+        36.90626
+      ],
+      [
+        -82.30028,
+        36.87156
+      ],
+      [
+        -82.53587,
+        36.80318
+      ],
+      [
+        -82.61761,
+        36.75864
+      ],
+      [
+        -82.65205,
+        36.70434
+      ],
+      [
+        -82.75252,
+        36.66874
+      ],
+      [
+        -82.75414,
+        36.69523
+      ],
+      [
+        -82.79492,
+        36.71326
+      ],
+      [
+        -82.79782,
+        36.74636
+      ],
+      [
+        -82.82472,
+        36.77195
+      ],
+      [
+        -82.75337,
+        36.86181
+      ],
+      [
+        -82.7905,
+        36.89825
+      ],
+      [
+        -82.74563,
+        36.92458
+      ],
+      [
+        -82.4301,
+        36.94842
+      ],
+      [
+        -82.39061,
+        36.93893
+      ],
+      [
+        -82.3731,
+        36.90566
+      ],
+      [
+        -82.34903,
+        36.91794
+      ],
+      [
+        -82.31185,
+        36.90247
       ]
     ],
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Pocahontas Exhibition Mine",
+      "model": "false-front-town",
+      "at": 0.0012823977694362318,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Pocahontas Exhibition Mine",
+      "model": "town-blocks",
+      "at": 0.0012823977694362318,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grundy",
+      "model": "town-blocks",
+      "at": 0.3407195371218328,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Big Stone Gap",
+      "model": "town-blocks",
+      "at": 0.8570388777006714,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
+      "model": "hardwood",
+      "at": 0.0875,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
+      "model": "hardwood",
+      "at": 0.09949999999999999,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.375,
+      "model": "hardwood",
+      "at": 0.11149999999999999,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.5,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.875,
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
     }
   ],
   "towns": [
     {
-      "name": "Coeburn",
-      "at": 0.04622309197651664,
-      "landmark": ""
-    },
-    {
-      "name": "Andover",
-      "at": 0.12461667096422349,
-      "landmark": ""
-    },
-    {
-      "name": "Big Stone Gap",
-      "at": 0.143013698630137,
-      "landmark": ""
-    },
-    {
-      "name": "Pennington Gap",
-      "at": 0.17266932098447663,
-      "landmark": ""
-    },
-    {
-      "name": "Clinchport",
-      "at": 0.21244618395303327,
-      "landmark": ""
-    },
-    {
-      "name": "Castlewood",
-      "at": 0.35033268101761256,
-      "landmark": ""
-    },
-    {
-      "name": "Nora",
-      "at": 0.4267318982387476,
-      "landmark": ""
-    },
-    {
-      "name": "Haysi",
-      "at": 0.49350293542074364,
-      "landmark": ""
-    },
-    {
-      "name": "Conaway",
-      "at": 0.5821135029354207,
-      "landmark": ""
-    },
-    {
-      "name": "Grundy",
-      "at": 0.6592954990215264,
-      "landmark": ""
-    },
-    {
-      "name": "Whitewood",
-      "at": 0.7782387475538161,
-      "landmark": ""
-    },
-    {
-      "name": "Richlands",
-      "at": 0.8442270058708414,
+      "name": "Pocahontas",
+      "at": 0.0012524461839530376,
       "landmark": ""
     },
     {
       "name": "Tazewell",
-      "at": 0.915812133072407,
+      "at": 0.08418786692759295,
       "landmark": ""
     },
     {
-      "name": "Pocahontas",
-      "at": 0.998747553816047,
+      "name": "Richlands",
+      "at": 0.15577299412915857,
+      "landmark": ""
+    },
+    {
+      "name": "Whitewood",
+      "at": 0.22176125244618394,
+      "landmark": ""
+    },
+    {
+      "name": "Grundy",
+      "at": 0.3407045009784736,
+      "landmark": "Grundy"
+    },
+    {
+      "name": "Conaway",
+      "at": 0.41788649706457925,
+      "landmark": ""
+    },
+    {
+      "name": "Haysi",
+      "at": 0.5064970645792564,
+      "landmark": ""
+    },
+    {
+      "name": "Nora",
+      "at": 0.5732681017612524,
+      "landmark": ""
+    },
+    {
+      "name": "Castlewood",
+      "at": 0.6496673189823874,
+      "landmark": ""
+    },
+    {
+      "name": "Clinchport",
+      "at": 0.7875538160469667,
+      "landmark": ""
+    },
+    {
+      "name": "Pennington Gap",
+      "at": 0.8273304129358366,
+      "landmark": ""
+    },
+    {
+      "name": "Big Stone Gap",
+      "at": 0.856986301369863,
+      "landmark": "Big Stone Gap"
+    },
+    {
+      "name": "Andover",
+      "at": 0.8753831954669887,
+      "landmark": ""
+    },
+    {
+      "name": "Coeburn",
+      "at": 0.9537769080234834,
       "landmark": ""
     }
   ],
   "sources": [
+    "content/stories/coal-heritage-trail-va-10341.json",
     "public/data/strips/coal-heritage-trail-va-10341.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }

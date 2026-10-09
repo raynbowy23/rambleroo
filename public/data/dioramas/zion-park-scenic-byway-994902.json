@@ -8,7 +8,7 @@
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Zion-Mount Carmel Tunnel",
+      "model": "switchback",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -339,6 +347,7 @@
     }
   ],
   "sources": [
+    "content/stories/zion-park-scenic-byway-994902.json",
     "public/data/strips/zion-park-scenic-byway-994902.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

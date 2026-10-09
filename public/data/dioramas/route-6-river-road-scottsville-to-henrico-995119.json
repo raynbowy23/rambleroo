@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Scottsville",
+      "model": "town-blocks",
+      "at": 0.0063250448201294125,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Columbia",
+      "model": "town-blocks",
+      "at": 0.3826460583354346,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Goochland",
+      "model": "town-blocks",
+      "at": 0.6562211045876698,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,7 +311,7 @@
     {
       "name": "Scottsville",
       "at": 0.00639344262295082,
-      "landmark": ""
+      "landmark": "Scottsville"
     },
     {
       "name": "Kidds Store",
@@ -304,7 +326,7 @@
     {
       "name": "Columbia",
       "at": 0.3826229508196721,
-      "landmark": ""
+      "landmark": "Columbia"
     },
     {
       "name": "Fife",
@@ -314,7 +336,7 @@
     {
       "name": "Goochland",
       "at": 0.6526229508196721,
-      "landmark": ""
+      "landmark": "Goochland"
     },
     {
       "name": "Crozier",
@@ -328,6 +350,7 @@
     }
   ],
   "sources": [
+    "content/stories/route-6-river-road-scottsville-to-henrico-995119.json",
     "public/data/strips/route-6-river-road-scottsville-to-henrico-995119.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

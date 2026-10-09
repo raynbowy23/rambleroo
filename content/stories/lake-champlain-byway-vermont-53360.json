@@ -1,0 +1,85 @@
+{
+  "id": "lake-champlain-byway-vermont-53360",
+  "tagline": "Island to island down the lake, then south past Burlington.",
+  "motifs": [
+    "lake-wide",
+    "orchard"
+  ],
+  "intro": [
+    "The byway begins on the Rouses Point Bridge, where US 2 crosses from New York into Alburgh, and then goes island to island down Lake Champlain by bridge and causeway, through North Hero, Grand Isle and South Hero. From Alburgh to Burlington the highway runs north and south but is signed east and west the whole way.",
+    "At Milton it comes ashore and heads into Burlington. From there US 7 carries on south through Shelburne to Charlotte, a town named for Queen Charlotte that puts the accent on the second syllable, and the full byway goes on south into Addison County."
+  ],
+  "moments": [
+    {
+      "title": "Isle La Motte",
+      "kind": "separate excursion",
+      "scene": "coast",
+      "text": "Samuel de Champlain stepped ashore here in 1609 on an island built as a reef in a tropical sea 480 million years ago, whose dark limestone was sold as black marble.",
+      "at": [
+        -73.35888889,
+        44.86527778
+      ]
+    },
+    {
+      "title": "South Hero",
+      "kind": "town",
+      "scene": "prairie",
+      "text": "Apples and dairy are still the island town's mainstays, with orchards and dairy farms throughout.",
+      "at": [
+        -73.31,
+        44.6375
+      ],
+      "motifs": [
+        "orchard"
+      ]
+    },
+    {
+      "title": "Sand Bar State Park",
+      "kind": "roadside",
+      "scene": "coast",
+      "text": "A natural sandbar spans the lake from South Hero to Milton with US 2 riding a causeway on top, and at its eastern end the CCC built the park's stone bathhouse in the 1930s.",
+      "at": [
+        -73.23985,
+        44.62709
+      ],
+      "motifs": [
+        "lake-wide"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Lake Champlain Byway, Directions & Contact",
+      "url": "https://lakechamplainbyway.com/directions-contact/"
+    },
+    {
+      "label": "Lake Champlain Byway, Champlain Islands",
+      "url": "https://lakechamplainbyway.com/explore-our-regions/champlain-islands/"
+    },
+    {
+      "label": "Wikipedia, U.S. Route 2 in Vermont",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_2_in_Vermont"
+    },
+    {
+      "label": "Wikipedia, Isle La Motte",
+      "url": "https://en.wikipedia.org/wiki/Isle_La_Motte"
+    },
+    {
+      "label": "Wikipedia, South Hero, Vermont",
+      "url": "https://en.wikipedia.org/wiki/South_Hero,_Vermont"
+    },
+    {
+      "label": "Wikipedia, Sand Bar State Park",
+      "url": "https://en.wikipedia.org/wiki/Sand_Bar_State_Park"
+    },
+    {
+      "label": "Wikipedia, U.S. Route 7 in Vermont",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_7_in_Vermont"
+    },
+    {
+      "label": "Wikipedia, Charlotte, Vermont",
+      "url": "https://en.wikipedia.org/wiki/Charlotte,_Vermont"
+    }
+  ],
+  "reviewed": false
+}

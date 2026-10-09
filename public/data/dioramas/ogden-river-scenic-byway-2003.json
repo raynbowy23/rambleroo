@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Pineview Reservoir",
+      "model": "alpine-lake",
+      "at": 0.1009304872251693,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Woodruff",
+      "model": "town-blocks",
+      "at": 0.9991612123012166,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -378,10 +400,11 @@
     {
       "name": "Woodruff",
       "at": 0.9985024958402662,
-      "landmark": ""
+      "landmark": "Woodruff"
     }
   ],
   "sources": [
+    "content/stories/ogden-river-scenic-byway-2003.json",
     "public/data/strips/ogden-river-scenic-byway-2003.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

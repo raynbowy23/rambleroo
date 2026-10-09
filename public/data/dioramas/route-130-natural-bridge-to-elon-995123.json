@@ -3,12 +3,12 @@
   "bywayId": "route-130-natural-bridge-to-elon-995123",
   "title": "Route 130, Natural Bridge to Elon",
   "longitude": -79.1984,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,119 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Glasgow",
+      "model": "town-blocks",
+      "at": 0.15502805532944147,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.375,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.875,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1
     }
   ],
   "towns": [
@@ -399,7 +302,7 @@
     {
       "name": "Glasgow",
       "at": 0.15494505494505495,
-      "landmark": ""
+      "landmark": "Glasgow"
     },
     {
       "name": "Elon",
@@ -413,6 +316,7 @@
     }
   ],
   "sources": [
+    "content/stories/route-130-natural-bridge-to-elon-995123.json",
     "public/data/strips/route-130-natural-bridge-to-elon-995123.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
