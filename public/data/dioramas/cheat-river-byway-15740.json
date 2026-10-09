@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Dunkard Bottom",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rowlesburg",
+      "model": "town-blocks",
+      "at": 0.7851062946643168,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "viaduct",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "river",
       "at": 0.5,
@@ -289,12 +311,12 @@
     {
       "name": "Dunkard Bottom",
       "at": 0,
-      "landmark": ""
+      "landmark": "Dunkard Bottom"
     },
     {
       "name": "Rowlesburg",
       "at": 0.7865248226950354,
-      "landmark": ""
+      "landmark": "Rowlesburg"
     },
     {
       "name": "Macomber",
@@ -303,6 +325,7 @@
     }
   ],
   "sources": [
+    "content/stories/cheat-river-byway-15740.json",
     "public/data/strips/cheat-river-byway-15740.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

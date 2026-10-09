@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Newcastle",
+      "model": "town-blocks",
+      "at": 0.7320607518703957,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Four Corners",
+      "model": "town-blocks",
+      "at": 0.905549991151914,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -376,7 +391,7 @@
     {
       "name": "Newcastle",
       "at": 0.7321022727272728,
-      "landmark": ""
+      "landmark": "Newcastle"
     },
     {
       "name": "Cambria",
@@ -386,10 +401,11 @@
     {
       "name": "Four Corners",
       "at": 0.9056818181818183,
-      "landmark": ""
+      "landmark": "Four Corners"
     }
   ],
   "sources": [
+    "content/stories/wyoming-black-hills-scenic-byway-995602.json",
     "public/data/strips/wyoming-black-hills-scenic-byway-995602.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

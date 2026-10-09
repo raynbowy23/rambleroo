@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Peterstown",
+      "model": "town-blocks",
+      "at": 0.0036698469349251,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Gap Mills",
+      "model": "town-blocks",
+      "at": 0.9999409095842605,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -366,7 +381,7 @@
     {
       "name": "Peterstown",
       "at": 0.003767123287671233,
-      "landmark": ""
+      "landmark": "Peterstown"
     },
     {
       "name": "Lindside",
@@ -386,10 +401,11 @@
     {
       "name": "Gap Mills",
       "at": 1,
-      "landmark": ""
+      "landmark": "Gap Mills"
     }
   ],
   "sources": [
+    "content/stories/mountain-s-shadow-trail-995402.json",
     "public/data/strips/mountain-s-shadow-trail-995402.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

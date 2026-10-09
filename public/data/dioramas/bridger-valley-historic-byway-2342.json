@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Lyman",
+      "model": "town-blocks",
+      "at": 0.5070134596335164,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -334,10 +342,11 @@
     {
       "name": "Lyman",
       "at": 0.5077922077922078,
-      "landmark": ""
+      "landmark": "Lyman"
     }
   ],
   "sources": [
+    "content/stories/bridger-valley-historic-byway-2342.json",
     "public/data/strips/bridger-valley-historic-byway-2342.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Clovis",
+      "model": "town-blocks",
+      "at": 0.08866311156160255,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Prather",
+      "model": "town-blocks",
+      "at": 0.4394938242269291,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -371,7 +386,7 @@
     {
       "name": "Clovis",
       "at": 0.08862629246676514,
-      "landmark": ""
+      "landmark": "Clovis"
     },
     {
       "name": "Sentinel",
@@ -381,7 +396,7 @@
     {
       "name": "Prather",
       "at": 0.43943870014771047,
-      "landmark": ""
+      "landmark": "Prather"
     },
     {
       "name": "Auberry",
@@ -405,6 +420,7 @@
     }
   ],
   "sources": [
+    "content/stories/sierra-heritage-scenic-byway-route-168-2314.json",
     "public/data/strips/sierra-heritage-scenic-byway-route-168-2314.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

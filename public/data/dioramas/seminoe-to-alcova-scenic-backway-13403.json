@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Sinclair",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -371,10 +379,11 @@
     {
       "name": "Sinclair",
       "at": 1,
-      "landmark": ""
+      "landmark": "Sinclair"
     }
   ],
   "sources": [
+    "content/stories/seminoe-to-alcova-scenic-backway-13403.json",
     "public/data/strips/seminoe-to-alcova-scenic-backway-13403.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

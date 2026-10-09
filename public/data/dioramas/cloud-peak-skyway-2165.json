@@ -8,7 +8,7 @@
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Ten Sleep Canyon",
+      "model": "switchback",
+      "at": 0.6666666666666666,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -375,6 +383,7 @@
     }
   ],
   "sources": [
+    "content/stories/cloud-peak-skyway-2165.json",
     "public/data/strips/cloud-peak-skyway-2165.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

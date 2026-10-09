@@ -1,0 +1,43 @@
+{
+  "id": "route-163-cabrillo-freeway-10248",
+  "tagline": "A parkway beneath the exposition arches.",
+  "motifs": [
+    "arch-bridge"
+  ],
+  "intro": [
+    "From downtown San Diego, Route 163 enters Balboa Park on four lanes divided by a broad grassy median planted with trees. The curves tighten. Above the canyon floor, Cabrillo Bridge carries the approach to the old exposition grounds, while the freeway passes underneath.",
+    "The park section opened in 1948 as part of US 395. The bridge had been built for the 1915 Panama–California Exposition, leaving the later road to find its way beneath seven concrete arches."
+  ],
+  "moments": [
+    {
+      "title": "Balboa Park",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "A grassy median with trees separates the four lanes through Balboa Park, where the freeway, built to parkway standards, takes several very sharp curves."
+    },
+    {
+      "title": "Cabrillo Bridge",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "Seven arches span the canyon above the freeway, high enough to hide the traffic crossing the bridge from the traffic below.",
+      "at": [
+        -117.154185,
+        32.731412
+      ],
+      "motifs": [
+        "arch-bridge"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia, California State Route 163",
+      "url": "https://en.wikipedia.org/wiki/California_State_Route_163"
+    },
+    {
+      "label": "Wikipedia, Cabrillo Bridge",
+      "url": "https://en.wikipedia.org/wiki/Cabrillo_Bridge"
+    }
+  ],
+  "reviewed": false
+}
