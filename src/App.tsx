@@ -41,6 +41,7 @@ const ArtGallery = lazy(async () => {
         ),
       }
 })
+const DioramaGallery = lazy(() => import('./components/art/diorama3d/DioramaGallery'))
 const router = createBrowserRouter([
   {
     path: '/s/:slug',
@@ -70,6 +71,14 @@ const router = createBrowserRouter([
       { path: '/about', lazy: page(pages.about) },
       { path: '/privacy', lazy: page(pages.privacy) },
       { path: '/terms', lazy: page(pages.terms) },
+      {
+        path: '/dev/diorama',
+        element: (
+          <Suspense fallback={<p>Opening the dioramas…</p>}>
+            <DioramaGallery />
+          </Suspense>
+        ),
+      },
       {
         path: '/dev/art',
         element: (
