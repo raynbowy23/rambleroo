@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Leaburg",
+      "model": "town-blocks",
+      "at": 0.31592377601501526,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -294,7 +302,7 @@
     {
       "name": "Leaburg",
       "at": 0.31575091575091574,
-      "landmark": ""
+      "landmark": "Leaburg"
     },
     {
       "name": "Vida",
@@ -308,6 +316,7 @@
     }
   ],
   "sources": [
+    "content/stories/mckenzie-river-scenic-byway-994102.json",
     "public/data/strips/mckenzie-river-scenic-byway-994102.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

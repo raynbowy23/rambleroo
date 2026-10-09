@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Riddle",
+      "model": "town-blocks",
+      "at": 0.089719354196197,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Glendale",
+      "model": "town-blocks",
+      "at": 0.9294470748074473,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -294,15 +309,16 @@
     {
       "name": "Riddle",
       "at": 0.08973214285714286,
-      "landmark": ""
+      "landmark": "Riddle"
     },
     {
       "name": "Glendale",
       "at": 0.9285714285714287,
-      "landmark": ""
+      "landmark": "Glendale"
     }
   ],
   "sources": [
+    "content/stories/cow-creek-tour-route-16494.json",
     "public/data/strips/cow-creek-tour-route-16494.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

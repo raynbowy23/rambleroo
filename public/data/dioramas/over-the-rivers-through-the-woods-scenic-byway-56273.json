@@ -3,12 +3,12 @@
   "bywayId": "over-the-rivers-through-the-woods-scenic-byway-56273",
   "title": "Over the Rivers - Through the Woods Scenic Byway",
   "longitude": -122.4851,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Brownsville",
+      "model": "town-blocks",
+      "at": 0.0529052396786839,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cascadia",
+      "model": "town-blocks",
+      "at": 0.4907076254301433,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -360,20 +375,13 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
-    },
-    {
-      "model": "river",
-      "at": 0.5,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1
     }
   ],
   "towns": [
     {
       "name": "Brownsville",
       "at": 0.05293233082706767,
-      "landmark": ""
+      "landmark": "Brownsville"
     },
     {
       "name": "Crawfordsville",
@@ -393,7 +401,7 @@
     {
       "name": "Cascadia",
       "at": 0.4906766917293233,
-      "landmark": ""
+      "landmark": "Cascadia"
     },
     {
       "name": "Santiam Junction",
@@ -402,6 +410,7 @@
     }
   ],
   "sources": [
+    "content/stories/over-the-rivers-through-the-woods-scenic-byway-56273.json",
     "public/data/strips/over-the-rivers-through-the-woods-scenic-byway-56273.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -1,0 +1,82 @@
+{
+  "id": "conestoga-ridge-byway-994204",
+  "tagline": "Eight miles along the ridge, above the Amish farms.",
+  "motifs": [
+    "rolling-ridges",
+    "steeple-town"
+  ],
+  "intro": [
+    "From the crossroads at Blue Ball, PA 23 runs east along a ridge above the Conestoga River, through Goodville and Churchtown toward Morgantown, about eight miles in all. Below it the rolling valleys are laid out in small Amish and Mennonite farms, bordered by wooded hillsides.",
+    "It is an old way to go. At Blue Ball the road was the French Creek Path, a Native American trail, where it met another called the Paxtang, now US 322."
+  ],
+  "moments": [
+    {
+      "title": "Blue Ball",
+      "kind": "town",
+      "scene": "town",
+      "text": "Early in the 1700s John Wallace hung a blue ball from a post outside his building at the crossroads, the locals named the place for it, and in 1833 Earl Town made it official.",
+      "at": [
+        -76.0472,
+        40.1186
+      ]
+    },
+    {
+      "title": "Churchtown",
+      "kind": "town",
+      "scene": "prairie",
+      "text": "Churchtown sits on a ridge draining south to the Conestoga, and near it the first settlers of the Lancaster Amish settlement, the oldest still in existence, made their start.",
+      "at": [
+        -75.9647,
+        40.1331
+      ]
+    },
+    {
+      "title": "Bangor Episcopal Church",
+      "kind": "town",
+      "scene": "town",
+      "text": "The brownstone church dates from 1830 and got its steeple about fifty years later, and its churchyard holds graves from the Revolutionary War on.",
+      "at": [
+        -75.9617,
+        40.1336
+      ],
+      "motifs": [
+        "steeple-town"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "VisitPA, Conestoga Ridge Road PA Scenic Byway",
+      "url": "https://www.visitpa.com/listing/conestoga-ridge-road-pa-scenic-byway/1514/"
+    },
+    {
+      "label": "PennDOT, Pennsylvania Byways list (RW-745ISB)",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
+    },
+    {
+      "label": "PennDOT, Pennsylvania Byways map layer descriptions",
+      "url": "https://services.arcgis.com/r2LkBfrj09zQhbhB/arcgis/rest/services/PAByways_Simple_Descript/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Pennsylvania Route 23",
+      "url": "https://en.wikipedia.org/wiki/Pennsylvania_Route_23"
+    },
+    {
+      "label": "Wikipedia, Blue Ball, Pennsylvania",
+      "url": "https://en.wikipedia.org/wiki/Blue_Ball,_Pennsylvania"
+    },
+    {
+      "label": "Wikipedia, Goodville, Pennsylvania",
+      "url": "https://en.wikipedia.org/wiki/Goodville,_Pennsylvania"
+    },
+    {
+      "label": "Wikipedia, Churchtown, Pennsylvania",
+      "url": "https://en.wikipedia.org/wiki/Churchtown,_Pennsylvania"
+    },
+    {
+      "label": "Wikipedia, Bangor Episcopal Church",
+      "url": "https://en.wikipedia.org/wiki/Bangor_Episcopal_Church"
+    }
+  ],
+  "reviewed": false
+}

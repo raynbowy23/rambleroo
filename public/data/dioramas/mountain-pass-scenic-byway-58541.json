@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Big Cedar",
+      "model": "town-blocks",
+      "at": 0.39700167209912823,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Octavia",
+      "model": "town-blocks",
+      "at": 0.990290670547373,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "hardwood",
       "at": 0.0875,
@@ -366,15 +388,16 @@
     {
       "name": "Big Cedar",
       "at": 0.3970212765957447,
-      "landmark": ""
+      "landmark": "Big Cedar"
     },
     {
       "name": "Octavia",
       "at": 0.9897872340425533,
-      "landmark": ""
+      "landmark": "Octavia"
     }
   ],
   "sources": [
+    "content/stories/mountain-pass-scenic-byway-58541.json",
     "public/data/strips/mountain-pass-scenic-byway-58541.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

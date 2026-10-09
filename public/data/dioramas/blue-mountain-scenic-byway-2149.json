@@ -3,12 +3,12 @@
   "bywayId": "blue-mountain-scenic-byway-2149",
   "title": "Blue Mountain Scenic Byway",
   "longitude": -119.3393,
-  "ground": "alpine-plateau",
-  "palette": "mountain",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,43 +239,58 @@
     "elevation": [
       [
         0,
-        0.45
+        0.2
       ],
       [
         0.125,
-        0.692
+        0.218
       ],
       [
         0.25,
-        1.275
+        0.26
       ],
       [
         0.375,
-        1.858
+        0.302
       ],
       [
         0.5,
-        2.1
+        0.32
       ],
       [
         0.625,
-        1.858
+        0.302
       ],
       [
         0.75,
-        1.275
+        0.26
       ],
       [
         0.875,
-        0.692
+        0.218
       ],
       [
         1,
-        0.45
+        0.2
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Heppner",
+      "model": "town-blocks",
+      "at": 0.34342503915842787,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ukiah",
+      "model": "town-blocks",
+      "at": 0.6950211465892062,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -381,15 +396,16 @@
     {
       "name": "Heppner",
       "at": 0.34346182917611484,
-      "landmark": ""
+      "landmark": "Heppner"
     },
     {
       "name": "Ukiah",
       "at": 0.6950113378684807,
-      "landmark": ""
+      "landmark": "Ukiah"
     }
   ],
   "sources": [
+    "content/stories/blue-mountain-scenic-byway-2149.json",
     "public/data/strips/blue-mountain-scenic-byway-2149.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

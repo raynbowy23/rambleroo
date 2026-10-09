@@ -3,12 +3,12 @@
   "bywayId": "kenton-to-keys-state-scenic-byway-994001",
   "title": "Kenton to Keys State Scenic Byway",
   "longitude": -102.7082,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "desert-mesas",
+  "palette": "desert",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,131 +275,62 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Kenton",
+      "model": "town-blocks",
+      "at": 0.04077029788670852,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Boise City",
+      "model": "town-blocks",
+      "at": 0.7028606618186549,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
+      "model": "mesa",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 1.3,
+      "distance": 1.6,
       "scale": 1.3
     },
     {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
+      "model": "mesa",
       "at": 0.375,
       "side": -1,
-      "distance": 1.3,
+      "distance": 1.6,
       "scale": 1.3
     },
     {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "mesa",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 1.3,
+      "distance": 1.6,
       "scale": 1.3
     },
     {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.875,
+      "model": "sandbar",
+      "at": 0.5,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.7,
+      "scale": 1.8
     }
   ],
   "towns": [
     {
       "name": "Kenton",
       "at": 0.04085027726432532,
-      "landmark": ""
+      "landmark": "Kenton"
     },
     {
       "name": "Boise City",
       "at": 0.7031423290203327,
-      "landmark": ""
+      "landmark": "Boise City"
     },
     {
       "name": "Keyes",
@@ -408,6 +339,7 @@
     }
   ],
   "sources": [
+    "content/stories/kenton-to-keys-state-scenic-byway-994001.json",
     "public/data/strips/kenton-to-keys-state-scenic-byway-994001.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

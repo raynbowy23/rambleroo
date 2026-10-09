@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Medical Springs",
+      "model": "town-blocks",
+      "at": 0.8054078723466943,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cove",
+      "model": "town-blocks",
+      "at": 0.8054078723466943,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -399,7 +414,7 @@
     {
       "name": "Cove",
       "at": 0.2790216368767639,
-      "landmark": ""
+      "landmark": "Cove"
     },
     {
       "name": "Union",
@@ -419,10 +434,11 @@
     {
       "name": "Medical Springs",
       "at": 0.8056444026340546,
-      "landmark": ""
+      "landmark": "Medical Springs"
     }
   ],
   "sources": [
+    "content/stories/grande-tour-route-16497.json",
     "public/data/strips/grande-tour-route-16497.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
