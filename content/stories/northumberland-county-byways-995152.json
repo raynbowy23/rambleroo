@@ -1,0 +1,80 @@
+{
+  "id": "northumberland-county-byways-995152",
+  "tagline": "Down the necks of the Northern Neck, with a ferry crossing.",
+  "motifs": [
+    "harbor-village"
+  ],
+  "intro": [
+    "The lower Northern Neck runs out into the Chesapeake in necks and points, and several of these byways are roads down them, to Hughlett Point, out Bluff Point Neck and to Ditchley. One, laid out in 1992, runs from US 360 near Avalon as close to the Potomac as it can without doubling back. On the way it comes to the Little Wicomico River, and there the road goes onto a ferry. It ends at Reedville.",
+    "Reedville was built on a small oily fish. A sea captain from Maine came down in 1874 to render menhaden for oil by the millions, and the town of about 500 was once called the wealthiest in the country."
+  ],
+  "moments": [
+    {
+      "title": "Hughlett Point Natural Area Preserve",
+      "kind": "short walk",
+      "scene": "coast",
+      "text": "At the end of Balls Neck Road, trails and a boardwalk cross a preserve of wetland, dunes, upland forest and undeveloped beach, a staging ground for migrating birds.",
+      "at": [
+        -76.3121,
+        37.738
+      ]
+    },
+    {
+      "title": "Sunnybank Ferry",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "SR 644 crosses the Little Wicomico, a nine-mile, mostly tidal river, on a small cable-guided ferry that VDOT runs free of charge."
+    },
+    {
+      "title": "Reedville",
+      "kind": "town",
+      "scene": "coast",
+      "text": "At the head of Cockrell's Creek, menhaden captains and factory owners built the Victorian mansions of Millionaire's Row along what is now Main Street, and the boats still land their catch here.",
+      "at": [
+        -76.27583333,
+        37.84194444
+      ],
+      "motifs": [
+        "harbor-village"
+      ]
+    }
+  ],
+  "practical": [
+    "The Sunnybank Ferry is a small cable-guided boat, and 511Virginia posts whether it is running."
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia, List of Virginia Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
+    },
+    {
+      "label": "VDOT, Virginia Byways layer (Byways_022024), Sunnybank Ferry segment (query)",
+      "url": "https://services.arcgis.com/p5v98VHDX9Atv3l7/arcgis/rest/services/Byways_022024/FeatureServer/0/query?where=LAD_SCEN_2+like+%27%25Sunnybank%25%27&outFields=RTE_COMMON%2CLAD_SCEN_2%2CLAD_SOURCE&returnGeometry=false&f=pjson"
+    },
+    {
+      "label": "Wikipedia, Hughlett Point Natural Area Preserve",
+      "url": "https://en.wikipedia.org/wiki/Hughlett_Point_Natural_Area_Preserve"
+    },
+    {
+      "label": "Wikipedia, Little Wicomico River",
+      "url": "https://en.wikipedia.org/wiki/Little_Wicomico_River"
+    },
+    {
+      "label": "Wikipedia, Reedville, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Reedville,_Virginia"
+    },
+    {
+      "label": "Wikipedia, Transportation in Virginia",
+      "url": "https://en.wikipedia.org/wiki/Transportation_in_Virginia"
+    },
+    {
+      "label": "Rappahannock Record, Northern Neck ferries secured ahead of storms",
+      "url": "https://rrecord.com/northern-neck-ferries-secured-ahead-of-storms/"
+    },
+    {
+      "label": "Rappahannock Record, Sunnybank Ferry resumes operations",
+      "url": "https://rrecord.com/sunnybank-ferry-resumes-operations/"
+    }
+  ],
+  "reviewed": false
+}
