@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Marianna",
+      "model": "town-blocks",
+      "at": 0.04295012778434706,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -366,7 +374,7 @@
     {
       "name": "Marianna",
       "at": 0.04297520661157025,
-      "landmark": ""
+      "landmark": "Marianna"
     },
     {
       "name": "Phillips Bayou",
@@ -380,6 +388,7 @@
     }
   ],
   "sources": [
+    "content/stories/st-francis-scenic-byway-2160.json",
     "public/data/strips/st-francis-scenic-byway-2160.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

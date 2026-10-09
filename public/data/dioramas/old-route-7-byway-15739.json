@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Masontown",
+      "model": "town-blocks",
+      "at": 0.282448758821399,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Terra Alta",
+      "model": "town-blocks",
+      "at": 0.8787724071847056,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -334,7 +349,7 @@
     {
       "name": "Masontown",
       "at": 0.28218390804597704,
-      "landmark": ""
+      "landmark": "Masontown"
     },
     {
       "name": "Arthurdale",
@@ -354,7 +369,7 @@
     {
       "name": "Terra Alta",
       "at": 0.8775862068965518,
-      "landmark": ""
+      "landmark": "Terra Alta"
     },
     {
       "name": "Corinth",
@@ -363,6 +378,7 @@
     }
   ],
   "sources": [
+    "content/stories/old-route-7-byway-15739.json",
     "public/data/strips/old-route-7-byway-15739.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

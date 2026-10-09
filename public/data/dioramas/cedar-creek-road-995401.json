@@ -3,12 +3,12 @@
   "bywayId": "cedar-creek-road-995401",
   "title": "Cedar Creek Road",
   "longitude": -80.8402,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Cedarville",
+      "model": "town-blocks",
+      "at": 0.36358941239224024,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Exchange",
+      "model": "town-blocks",
+      "at": 0.9867550134078554,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Flatwoods",
+      "model": "town-blocks",
+      "at": 0.9867550134078554,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -360,13 +382,6 @@
       "side": 1,
       "distance": 1.5,
       "scale": 1.05
-    },
-    {
-      "model": "river",
-      "at": 0.5,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1
     }
   ],
   "towns": [
@@ -378,7 +393,7 @@
     {
       "name": "Cedarville",
       "at": 0.3635491606714628,
-      "landmark": ""
+      "landmark": "Cedarville"
     },
     {
       "name": "Cutlips",
@@ -388,15 +403,16 @@
     {
       "name": "Flatwoods",
       "at": 0.8100719424460432,
-      "landmark": ""
+      "landmark": "Flatwoods"
     },
     {
       "name": "Exchange",
       "at": 0.9868105515587529,
-      "landmark": ""
+      "landmark": "Exchange"
     }
   ],
   "sources": [
+    "content/stories/cedar-creek-road-995401.json",
     "public/data/strips/cedar-creek-road-995401.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

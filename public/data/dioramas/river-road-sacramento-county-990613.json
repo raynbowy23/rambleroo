@@ -3,12 +3,12 @@
   "bywayId": "river-road-sacramento-county-990613",
   "title": "River Road (Sacramento County)",
   "longitude": -121.522,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,21 +275,64 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Courtland",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "river",
-      "at": 0.5,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
     {
       "name": "Courtland",
       "at": 0,
-      "landmark": ""
+      "landmark": "Courtland"
     },
     {
       "name": "Walnut Grove",
@@ -303,6 +346,7 @@
     }
   ],
   "sources": [
+    "content/stories/river-road-sacramento-county-990613.json",
     "public/data/strips/river-road-sacramento-county-990613.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

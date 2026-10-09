@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Peterstown",
+      "model": "town-blocks",
+      "at": 0.004191329122321723,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Indian Creek Covered Bridge",
+      "model": "covered-bridge",
+      "at": 0.5592497806178522,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Union",
+      "model": "town-blocks",
+      "at": 0.6433266545578007,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -324,7 +346,7 @@
     {
       "name": "Peterstown",
       "at": 0.004121863799283154,
-      "landmark": ""
+      "landmark": "Peterstown"
     },
     {
       "name": "Cashmere",
@@ -349,7 +371,7 @@
     {
       "name": "Union",
       "at": 0.6431899641577061,
-      "landmark": ""
+      "landmark": "Union"
     },
     {
       "name": "Keenan",
@@ -373,6 +395,7 @@
     }
   ],
   "sources": [
+    "content/stories/farm-heritage-road-10348.json",
     "public/data/strips/farm-heritage-road-10348.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Running Springs",
+      "model": "town-blocks",
+      "at": 0.3670260722470256,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Angelus Oaks",
+      "model": "town-blocks",
+      "at": 0.8916966448371737,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -376,7 +391,7 @@
     {
       "name": "Running Springs",
       "at": 0.36703187250996017,
-      "landmark": ""
+      "landmark": "Running Springs"
     },
     {
       "name": "Fawnskin",
@@ -396,10 +411,11 @@
     {
       "name": "Angelus Oaks",
       "at": 0.8918326693227092,
-      "landmark": ""
+      "landmark": "Angelus Oaks"
     }
   ],
   "sources": [
+    "content/stories/rim-of-the-world-scenic-byway-2595.json",
     "public/data/strips/rim-of-the-world-scenic-byway-2595.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
