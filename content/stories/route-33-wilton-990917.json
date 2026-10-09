@@ -1,0 +1,51 @@
+{
+  "id": "route-33-wilton-990917",
+  "tagline": "Out of Wilton center on the old ridge road.",
+  "motifs": [
+    "steeple-town",
+    "rolling-ridges"
+  ],
+  "intro": [
+    "Route 33, called Ridgefield Road here, leaves Wilton center and runs nearly five miles northwest to the Ridgefield line.",
+    "Wilton began in 1726 as a parish of Norwalk, forty families who wanted a church of their own, and a center grew up around their first meetinghouse. In 1802, over Norwalk's objections, it became a town by itself."
+  ],
+  "moments": [
+    {
+      "title": "Wilton Center",
+      "kind": "town",
+      "scene": "town",
+      "text": "The second meetinghouse had fallen into disrepair in under sixty years, and the third, put up on Ridgefield Road in 1790, is now the oldest church building in Fairfield County.",
+      "at": [
+        -73.43888889,
+        41.19527778
+      ],
+      "motifs": [
+        "steeple-town"
+      ]
+    },
+    {
+      "title": "Ridgefield Road",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "Early settlers farmed this ridge after clearing the forest and prying out hundreds of glacial rocks, which went into the stone walls Wilton still prizes.",
+      "motifs": [
+        "rolling-ridges"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia, Connecticut Route 33",
+      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_33"
+    },
+    {
+      "label": "Wikipedia, Wilton Center Historic District",
+      "url": "https://en.wikipedia.org/wiki/Wilton_Center_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Wilton, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Wilton,_Connecticut"
+    }
+  ],
+  "reviewed": false
+}

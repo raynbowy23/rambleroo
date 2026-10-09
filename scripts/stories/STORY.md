@@ -61,3 +61,6 @@ For each story, reread every sentence against your sources and cut anything you 
 
 ## Blocked pages
 If a page returns 403 or will not load, do not rely on a WebFetch summary of it: that is a model's paraphrase, not the page. Base each claim on page text you actually fetched (Wikipedia API, FHWA, NPS, USFS, state DOT pages that load). Never list a source you did not fetch yourself. Report any blocked pages in your final notes.
+
+## Order and practical notes
+Never order moments or state anything from your own knowledge. If no source gives the driving order, follow the strip-map mile order in the material. Practical notes must be lasting facts (seasonal gates, unpaved stretches, vehicle limits), never a temporary closure with dates that will expire.

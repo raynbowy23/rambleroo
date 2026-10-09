@@ -1,0 +1,66 @@
+{
+  "id": "quaker-heritage-scenic-byway-993905",
+  "tagline": "A loop through Quaker farm country, meetinghouse to meetinghouse.",
+  "motifs": [
+    "rolling-ridges"
+  ],
+  "intro": [
+    "From Wilmington, named for the Quaker town in North Carolina, the loop runs west along Todd's Fork on the Wilmington-Lebanon Pike, laid out in 1810. The Harvey, Hadley and Hale families came up from North Carolina around 1806 and built on the rises above the creek. The next generation built along the new road, and their houses still stand along it. The loop takes in Caesar Creek and Waynesville before it closes.",
+    "Some came ahead of the rest. One First Day morning in silent meeting, Hannah Maden heard a cowbell she knew, and understood that her husband's family had arrived."
+  ],
+  "moments": [
+    {
+      "title": "Isaac and Sarah Harvey House",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "An 1848 farmhouse on a hilltop facing the Springfield meetinghouse across the valley, from which Isaac and Sarah Harvey went in the fall of 1862 to see President Lincoln about emancipation.",
+      "at": [
+        -83.9532511,
+        39.4431608
+      ]
+    },
+    {
+      "title": "Caesar Creek Spillway and Fossil Bed",
+      "kind": "short walk",
+      "scene": "river",
+      "text": "The largest trilobite on display at the Smithsonian came out of Caesar Creek, and collectors here may keep what fits in the palm of a hand, found without tools.",
+      "at": [
+        -84.057249,
+        39.480111
+      ]
+    },
+    {
+      "title": "Miami White Brick Meetinghouse",
+      "kind": "town",
+      "scene": "town",
+      "text": "Waynesville's meetinghouse of 1811 has two doors and two equal sides, and a partition lowered on rope pulleys split it for the men's and women's business meetings.",
+      "at": [
+        -84.0932697,
+        39.5307483
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ohio Department of Transportation, Quaker Heritage Scenic Byway story map",
+      "url": "https://storymaps.arcgis.com/stories/78752b3e94994dc4964598db9f3ecca6"
+    },
+    {
+      "label": "Ohio Department of Transportation, Quaker Heritage story map places layer (query)",
+      "url": "https://services1.arcgis.com/1AlElnGrgBM62OSj/arcgis/rest/services/QSB_Storymap_View/FeatureServer/0/query?where=1%3D1&outFields=AOI_Name%2CAOI_Description&outSR=4326&f=pjson"
+    },
+    {
+      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
+      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+    },
+    {
+      "label": "Wikipedia, Waynesville, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Waynesville,_Ohio"
+    },
+    {
+      "label": "Wikipedia, Caesar Creek State Park",
+      "url": "https://en.wikipedia.org/wiki/Caesar_Creek_State_Park"
+    }
+  ],
+  "reviewed": false
+}

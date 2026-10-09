@@ -1,0 +1,60 @@
+{
+  "id": "jefferson-highway-heritage-byway-991903",
+  "tagline": "Two lanes down Iowa on the old Palm to Pine Highway.",
+  "intro": [
+    "The byway keeps to two-lane country roads roughly along US 65 and 69, from Northwood down to Lamoni, through farmland under open sky and from one courthouse square to the next. It is the way people drove town to town before the interstates, when there was little pavement and plenty of prairie and marsh mud.",
+    "E.T. Meredith of Des Moines was behind the Jefferson Highway Association, which first met in 1915 to promote a motor route from Winnipeg to New Orleans, nicknamed the Palm to Pine Highway. At Colo it still crosses the Lincoln Highway at the restored Reed-Niland Corner."
+  ],
+  "moments": [
+    {
+      "title": "Stockman House, Mason City",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "Frank Lloyd Wright designed this Prairie house in 1908 from his plan for \"A Fireproof House for $5000\", and at auction in 1987 its only bidder wanted a parking lot.",
+      "at": [
+        -93.192,
+        43.152
+      ]
+    },
+    {
+      "title": "Iowa Falls",
+      "kind": "town",
+      "scene": "river",
+      "text": "The town gave up its first name, Rocksylvania, as too hard to spell, and here the Iowa River runs through a limestone gorge 70 feet deep.",
+      "at": [
+        -93.267,
+        42.517
+      ],
+      "motifs": [
+        "river-bluffs"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Travel Iowa, Jefferson Highway Heritage Byway",
+      "url": "https://www.traveliowa.com/trails/jefferson-highway-heritage-byway/99/"
+    },
+    {
+      "label": "Iowa DOT, Iowa Byways Official Travel Guide",
+      "url": "https://iowadot.gov/media/916/download?inline"
+    },
+    {
+      "label": "Wikipedia, Jefferson Highway",
+      "url": "https://en.wikipedia.org/wiki/Jefferson_Highway"
+    },
+    {
+      "label": "Wikipedia, Dr. G.C. Stockman House",
+      "url": "https://en.wikipedia.org/wiki/Dr._G.C._Stockman_House"
+    },
+    {
+      "label": "Wikipedia, Iowa Falls, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Iowa_Falls,_Iowa"
+    },
+    {
+      "label": "Iowa DOT, Scenic Byway View (ArcGIS feature service)",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,78 @@
+{
+  "id": "river-bluffs-scenic-byway-2184",
+  "tagline": "Hide and seek with three rivers in Iowa's Little Switzerland.",
+  "motifs": [
+    "river-bluffs",
+    "gristmill"
+  ],
+  "intro": [
+    "The byway runs 109 miles through Fayette and Clayton counties, country sometimes called Iowa's Little Switzerland, playing hide and seek with the Turkey, the Volga and the Mississippi, now crossing them and now looking down their valleys from a distance. It passes through 13 towns, and three of them, McGregor, Marquette and Guttenberg, sit on the Mississippi.",
+    "Near McGregor, Pikes Peak State Park looks out across the Mississippi into three states. At Froelich a village of the 1890s marks where the first successful gasoline tractor was built."
+  ],
+  "moments": [
+    {
+      "title": "Montauk, Clermont",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "Governor William Larrabee built his Italianate house on the hill in 1874 because his wife feared malaria down by the Turkey River, and named it for a lighthouse.",
+      "at": [
+        -91.649,
+        43.008
+      ]
+    },
+    {
+      "title": "Motor Mill",
+      "kind": "short walk",
+      "scene": "river",
+      "text": "Legend says four German stonemasons each took a wall of the six-story mill and tried to outdo the others, which is why three walls are rounded stone and one is square-cut.",
+      "at": [
+        -91.351,
+        42.807
+      ],
+      "motifs": [
+        "gristmill"
+      ]
+    },
+    {
+      "title": "Guttenberg",
+      "kind": "town",
+      "scene": "river",
+      "text": "Nearly all German by 1850, the river town built in limestone, named itself for the inventor of movable type and named its streets for German writers and poets.",
+      "at": [
+        -91.106,
+        42.788
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Travel Iowa, River Bluffs Scenic Byway",
+      "url": "https://www.traveliowa.com/trails/river-bluffs-scenic-byway/11/"
+    },
+    {
+      "label": "Iowa DOT, Iowa Byways Official Travel Guide",
+      "url": "https://iowadot.gov/media/916/download?inline"
+    },
+    {
+      "label": "Wikipedia, McGregor, Iowa",
+      "url": "https://en.wikipedia.org/wiki/McGregor,_Iowa"
+    },
+    {
+      "label": "Wikipedia, Montauk (Clermont, Iowa)",
+      "url": "https://en.wikipedia.org/wiki/Montauk_(Clermont,_Iowa)"
+    },
+    {
+      "label": "Wikipedia, Motor Mill Historic District",
+      "url": "https://en.wikipedia.org/wiki/Motor_Mill_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Guttenberg, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Guttenberg,_Iowa"
+    },
+    {
+      "label": "Iowa DOT, Scenic Byway View (ArcGIS feature service)",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    }
+  ],
+  "reviewed": false
+}
