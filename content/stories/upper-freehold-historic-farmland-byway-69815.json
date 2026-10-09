@@ -1,0 +1,61 @@
+{
+  "id": "upper-freehold-historic-farmland-byway-69815",
+  "tagline": "Farm lanes out of Allentown, ending at a mill.",
+  "motifs": [
+    "gristmill"
+  ],
+  "intro": [
+    "The loop starts at the Presbyterian Church on High Street in Allentown and goes out into Upper Freehold Township by county routes and farm lanes, Rues Road and Red Valley Road among them. Many of the farms along the way have been worked by the same families for generations, and this was contested ground in the Revolution, held by each side at different times.",
+    "Near the end the route turns onto Walnford Road and crosses Crosswicks Creek on the old iron bridge. The two pieces of Walnford Road were once connected. The second one dead-ends at the mill."
+  ],
+  "moments": [
+    {
+      "title": "Imlaystown",
+      "kind": "town",
+      "scene": "town",
+      "text": "A hamlet founded in 1690 and largely rebuilt after an 1898 fire, gathered around Salter's Mill and a 28-acre millpond that once kept an ice business too.",
+      "at": [
+        -74.51527778,
+        40.1675
+      ]
+    },
+    {
+      "title": "Old Yellow Meeting House",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "A short spur north off Route 526 leads to the meeting house that a congregation begun in 1720 built in 1737."
+    },
+    {
+      "title": "Walnford",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "At the end of the road is the grist mill on Crosswicks Creek, in the mill village a Philadelphia merchant, Richard Waln, bought in 1772 and his family kept nearly 200 years.",
+      "at": [
+        -74.56,
+        40.13444444
+      ],
+      "motifs": [
+        "gristmill"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "NJDOT, Upper Freehold Historic Farmland Scenic Byway",
+      "url": "https://dot.nj.gov/transportation/community/scenic/freehold.shtm"
+    },
+    {
+      "label": "Wikipedia, Imlaystown, New Jersey",
+      "url": "https://en.wikipedia.org/wiki/Imlaystown,_New_Jersey"
+    },
+    {
+      "label": "Wikipedia, Walnford, New Jersey",
+      "url": "https://en.wikipedia.org/wiki/Walnford,_New_Jersey"
+    },
+    {
+      "label": "Wikipedia, Upper Freehold Township, New Jersey",
+      "url": "https://en.wikipedia.org/wiki/Upper_Freehold_Township,_New_Jersey"
+    }
+  ],
+  "reviewed": false
+}

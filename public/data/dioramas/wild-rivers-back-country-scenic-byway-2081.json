@@ -3,12 +3,12 @@
   "bywayId": "wild-rivers-back-country-scenic-byway-2081",
   "title": "Wild Rivers Back Country Scenic Byway",
   "longitude": -105.6874,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "prairie-grid",
+  "palette": "prairie",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,14 +275,127 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Cerro",
+      "model": "town-blocks",
+      "at": 0.870971762836769,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "river",
-      "at": 0.5,
+      "model": "field",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.125,
       "side": 1,
-      "distance": 0.8,
-      "scale": 1
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
     }
   ],
   "towns": [
@@ -299,10 +412,11 @@
     {
       "name": "Cerro",
       "at": 0.8682926829268294,
-      "landmark": ""
+      "landmark": "Cerro"
     }
   ],
   "sources": [
+    "content/stories/wild-rivers-back-country-scenic-byway-2081.json",
     "public/data/strips/wild-rivers-back-country-scenic-byway-2081.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

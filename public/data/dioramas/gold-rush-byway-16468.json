@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Chadron",
+      "model": "town-blocks",
+      "at": 0.10466053579459211,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -394,7 +402,7 @@
     {
       "name": "Chadron",
       "at": 0.10465890183028285,
-      "landmark": ""
+      "landmark": "Chadron"
     },
     {
       "name": "Alliance",
@@ -428,6 +436,7 @@
     }
   ],
   "sources": [
+    "content/stories/gold-rush-byway-16468.json",
     "public/data/strips/gold-rush-byway-16468.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

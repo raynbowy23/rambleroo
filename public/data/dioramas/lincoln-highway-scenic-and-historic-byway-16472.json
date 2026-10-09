@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Ogallala",
+      "model": "town-blocks",
+      "at": 0.2779411884137128,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "North Platte",
+      "model": "town-blocks",
+      "at": 0.3909442227773791,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Columbus",
+      "model": "town-blocks",
+      "at": 0.8391453114594267,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -334,12 +356,12 @@
     {
       "name": "Ogallala",
       "at": 0.2779578246392897,
-      "landmark": ""
+      "landmark": "Ogallala"
     },
     {
       "name": "North Platte",
       "at": 0.39096559378468365,
-      "landmark": ""
+      "landmark": "North Platte"
     },
     {
       "name": "Vroman",
@@ -369,7 +391,7 @@
     {
       "name": "Columbus",
       "at": 0.8392008879023307,
-      "landmark": ""
+      "landmark": "Columbus"
     },
     {
       "name": "North Bend",
@@ -383,6 +405,7 @@
     }
   ],
   "sources": [
+    "content/stories/lincoln-highway-scenic-and-historic-byway-16472.json",
     "public/data/strips/lincoln-highway-scenic-and-historic-byway-16472.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

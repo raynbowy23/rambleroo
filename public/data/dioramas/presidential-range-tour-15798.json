@@ -278,6 +278,13 @@
   "landmarks": [],
   "dressing": [
     {
+      "model": "snow-peak",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
       "model": "hardwood",
       "at": 0.0875,
       "side": -1,
@@ -410,6 +417,7 @@
     }
   ],
   "sources": [
+    "content/stories/presidential-range-tour-15798.json",
     "public/data/strips/presidential-range-tour-15798.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

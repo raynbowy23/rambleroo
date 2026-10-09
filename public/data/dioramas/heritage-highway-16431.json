@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Red Cloud",
+      "model": "town-blocks",
+      "at": 0.307326639558749,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -339,7 +347,7 @@
     {
       "name": "Red Cloud",
       "at": 0.30734177215189873,
-      "landmark": ""
+      "landmark": "Red Cloud"
     },
     {
       "name": "Ruskin",
@@ -373,6 +381,7 @@
     }
   ],
   "sources": [
+    "content/stories/heritage-highway-16431.json",
     "public/data/strips/heritage-highway-16431.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

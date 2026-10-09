@@ -3,8 +3,8 @@
   "bywayId": "woodland-heritage-trail-15799",
   "title": "Woodland Heritage Trail",
   "longitude": -71.5688,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
@@ -239,43 +239,51 @@
     "elevation": [
       [
         0,
-        0.35
+        0.45
       ],
       [
         0.125,
-        0.453
+        0.692
       ],
       [
         0.25,
-        0.7
+        1.275
       ],
       [
         0.375,
-        0.947
+        1.858
       ],
       [
         0.5,
-        1.05
+        2.1
       ],
       [
         0.625,
-        0.947
+        1.858
       ],
       [
         0.75,
-        0.7
+        1.275
       ],
       [
         0.875,
-        0.453
+        0.692
       ],
       [
         1,
-        0.35
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Stark Covered Bridge",
+      "model": "covered-bridge",
+      "at": 0.29988253989264435,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -400,6 +408,7 @@
     }
   ],
   "sources": [
+    "content/stories/woodland-heritage-trail-15799.json",
     "public/data/strips/woodland-heritage-trail-15799.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
