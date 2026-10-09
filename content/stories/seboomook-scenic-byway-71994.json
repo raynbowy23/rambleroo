@@ -1,0 +1,81 @@
+{
+  "id": "seboomook-scenic-byway-71994",
+  "tagline": "Up the west shore of Moosehead, then into the woods.",
+  "motifs": [
+    "lake-wide"
+  ],
+  "intro": [
+    "Route 15 leaves Greenville beside Moosehead Lake and runs up to Rockwood, on the west side of the lake, then on through the woods to Jackman.",
+    "Moosehead is the largest lake in Maine, about 40 miles by 10, and takes its name from the way it looks on a map, like an antlered moose. The highway came late to it. Route 15 reached Rockwood around 1934 and Jackman only in 1940."
+  ],
+  "moments": [
+    {
+      "title": "Greenville",
+      "kind": "town",
+      "scene": "town",
+      "text": "Henry Gower cleared land by the lake here in 1835 and put up the first hotel, a two-story building he called the Seboomook House.",
+      "at": [
+        -69.59056,
+        45.45944
+      ]
+    },
+    {
+      "title": "Mount Kineo",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "Across the water from Rockwood its cliffs rise 700 feet straight out of the lake, and the state park around them can only be reached by boat.",
+      "at": [
+        -69.73389,
+        45.69972
+      ],
+      "motifs": [
+        "lake-wide"
+      ]
+    },
+    {
+      "title": "Jackman",
+      "kind": "town",
+      "scene": "forest",
+      "text": "The road ends at US 201 in a town named for Captain James Jackman, whom the state hired in the 1830s to build the road through to Canada.",
+      "at": [
+        -70.18972,
+        45.60833
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "National Scenic Byway Foundation, Moosehead Lake Scenic Byway (Wayback Machine snapshot)",
+      "url": "https://web.archive.org/web/20260222190942/https://nsbfoundation.com/sb/moosehead-lake-scenic-byway/"
+    },
+    {
+      "label": "MaineDOT, Scenic Byways open data",
+      "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Maine State Route 15",
+      "url": "https://en.wikipedia.org/wiki/Maine_State_Route_15"
+    },
+    {
+      "label": "Wikipedia, Moosehead Lake",
+      "url": "https://en.wikipedia.org/wiki/Moosehead_Lake"
+    },
+    {
+      "label": "Wikipedia, Greenville, Maine",
+      "url": "https://en.wikipedia.org/wiki/Greenville,_Maine"
+    },
+    {
+      "label": "Wikipedia, Rockwood, Maine",
+      "url": "https://en.wikipedia.org/wiki/Rockwood,_Maine"
+    },
+    {
+      "label": "Wikipedia, Mount Kineo",
+      "url": "https://en.wikipedia.org/wiki/Mount_Kineo"
+    },
+    {
+      "label": "Wikipedia, Jackman, Maine",
+      "url": "https://en.wikipedia.org/wiki/Jackman,_Maine"
+    }
+  ],
+  "reviewed": false
+}

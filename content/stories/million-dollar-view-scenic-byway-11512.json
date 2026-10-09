@@ -1,0 +1,73 @@
+{
+  "id": "million-dollar-view-scenic-byway-11512",
+  "tagline": "A short run of US 1, all turnouts and long views.",
+  "motifs": [
+    "lake-wide"
+  ],
+  "intro": [
+    "From the Danforth town line, US 1 runs north through Weston to just past the Orient line, and the road keeps pulling over. From the turnouts the view takes in hayfields, the Chiputneticook lakes, East Grand, Brackett and Deering, and the country of New Brunswick, with Peekaboo Mountain and the far shape of Katahdin on the other hand.",
+    "It is called the Million Dollar View. The town at the middle of it came cheaper. Weston was supposedly named for the man who surveyed it in 1835, and nobody kept his full name."
+  ],
+  "moments": [
+    {
+      "title": "East Grand Lake",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Twenty-two miles of water with the international boundary passing through it, one of the chain of lakes at the head of the St. Croix River.",
+      "at": [
+        -67.8,
+        45.7
+      ],
+      "motifs": [
+        "lake-wide"
+      ]
+    },
+    {
+      "title": "Weston",
+      "kind": "town",
+      "scene": "prairie",
+      "text": "A town of about 250 people with nearly ten of its forty square miles under water.",
+      "at": [
+        -67.87167,
+        45.73806
+      ]
+    },
+    {
+      "title": "Orient",
+      "kind": "town",
+      "scene": "forest",
+      "text": "The byway ends just past the Orient line, in a town whose eastern edge is the St. Croix River and the Orient–Fosterville border crossing into New Brunswick.",
+      "at": [
+        -67.87389,
+        45.8225
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "National Scenic Byway Foundation, Million Dollar View Scenic Byway (Wayback Machine snapshot)",
+      "url": "https://web.archive.org/web/20260910161455/https://nsbfoundation.com/sb/million-dollar-view-scenic-byway/"
+    },
+    {
+      "label": "MaineDOT, Scenic Byways open data",
+      "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, East Grand Lake",
+      "url": "https://en.wikipedia.org/wiki/East_Grand_Lake"
+    },
+    {
+      "label": "Wikipedia, Weston, Maine",
+      "url": "https://en.wikipedia.org/wiki/Weston,_Maine"
+    },
+    {
+      "label": "Wikipedia, Orient, Maine",
+      "url": "https://en.wikipedia.org/wiki/Orient,_Maine"
+    },
+    {
+      "label": "Wikipedia, Danforth, Maine",
+      "url": "https://en.wikipedia.org/wiki/Danforth,_Maine"
+    }
+  ],
+  "reviewed": false
+}
