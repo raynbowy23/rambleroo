@@ -1,0 +1,85 @@
+{
+  "id": "lincoln-heritage-scenic-highway-2348",
+  "tagline": "Over the knobs from Lincoln's birthplace to Kentucky's first capital.",
+  "motifs": [
+    "rolling-ridges",
+    "steeple-town"
+  ],
+  "intro": [
+    "The highway starts in Hodgenville, where Abraham Lincoln was born in a cabin on Sinking Spring Farm in 1809, and runs up to Bardstown before turning east over the Kentucky knobs. Springfield and Perryville come next, and the road ends in Danville, about 71 miles on. The Bourbon Trail shares the way, and so does Gethsemani, the oldest Trappist monastery in the country.",
+    "Most of the Lincoln houses in Kentucky are gone. Thomas Lincoln's two farms were razed in the 19th century, and his brother Josiah's cabin came down in 1941. Mordecai's house, outside Springfield, is the one that stayed."
+  ],
+  "moments": [
+    {
+      "title": "Bardstown",
+      "kind": "town",
+      "scene": "town",
+      "text": "The Old Talbott Tavern went up in 1780, a year before the town did, and still calls itself the oldest western stagecoach stop in operation.",
+      "at": [
+        -85.455,
+        37.8175
+      ],
+      "motifs": [
+        "steeple-town"
+      ]
+    },
+    {
+      "title": "Mordecai Lincoln House",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Six miles north of Springfield, the farmhouse of the uncle who once saved his younger brother Thomas, the president's father, by shooting the attacker reaching for him.",
+      "at": [
+        -85.20972222,
+        37.74833333
+      ]
+    },
+    {
+      "title": "Perryville Battlefield",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "Cannons and monuments stand in the fields west of town where two armies met on October 8, 1862. Bragg won the day, then withdrew from Kentucky.",
+      "at": [
+        -84.96972222,
+        37.67527778
+      ],
+      "motifs": [
+        "rolling-ridges"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "FHWA America's Byways, Lincoln Heritage Scenic Highway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2348"
+    },
+    {
+      "label": "Wikipedia, Hodgenville, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Hodgenville,_Kentucky"
+    },
+    {
+      "label": "Wikipedia, Bardstown, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Bardstown,_Kentucky"
+    },
+    {
+      "label": "Wikipedia, Springfield, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Springfield,_Kentucky"
+    },
+    {
+      "label": "Wikipedia, Mordecai Lincoln House (Springfield, Kentucky)",
+      "url": "https://en.wikipedia.org/wiki/Mordecai_Lincoln_House_(Springfield,_Kentucky)"
+    },
+    {
+      "label": "Wikipedia, Perryville Battlefield State Historic Site",
+      "url": "https://en.wikipedia.org/wiki/Perryville_Battlefield_State_Historic_Site"
+    },
+    {
+      "label": "Wikipedia, Perryville, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Perryville,_Kentucky"
+    },
+    {
+      "label": "Wikipedia, Danville, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Danville,_Kentucky"
+    }
+  ],
+  "reviewed": false
+}

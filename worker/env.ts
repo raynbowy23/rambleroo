@@ -20,4 +20,5 @@ export interface Env {
   BETTER_AUTH_SECRET: string
   RESEND_API_KEY: string
   TURNSTILE_SECRET: string
+  MAPILLARY_TOKEN: string
 }

@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <main className={styles.page}>
       <span className="kicker">About the data</span>
-      <h1>Scenic roads of America, honestly mapped.</h1>
+      <h1>America’s scenic byways</h1>
       <p>
         Rambleroo brings together {byways.length ? usdot.toLocaleString() : '…'} scenic byways from the USDOT source layer,{' '}
         {byways.length ? stateLayers : '…'} more from state DOT route layers (Wisconsin and Florida so far), and{' '}
@@ -51,6 +51,11 @@ export default function AboutPage() {
         We curate photographs for stories. For other listings, we use the lead image of the road’s Wikipedia article or the U.S. DOT
         America’s Byways collection. Each photo is reviewed by eye, credited, and freely licensed. Roads without a suitable photo show an
         illustration.
+      </p>
+      <p>
+        Many road pages also show a few street-level frames from Mapillary, shared by contributors who drove the road. They are picked by a
+        script that keeps flat photos taken on the mapped line and looking along the road, and each is credited to its contributor with a
+        link to the original on Mapillary (CC BY-SA 4.0).
       </p>
       <h2>Sharing postcards</h2>
       <p>

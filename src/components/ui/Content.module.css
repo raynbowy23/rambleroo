@@ -516,19 +516,29 @@
   position: relative;
   padding-top: 48px;
 }
+/* Rules either side of a small carriage, the same one that drives in toward the map title. */
 .editorialPage .section::before {
-  content: '❦';
+  content: '';
   display: block;
   width: 140px;
+  height: 16px;
   margin: -28px auto 28px;
-  text-align: center;
-  color: var(--ink-soft);
-  line-height: 1;
   background:
     linear-gradient(var(--line-strong), var(--line-strong)) left 40% / 46px 1px no-repeat,
     linear-gradient(var(--line-strong), var(--line-strong)) right 40% / 46px 1px no-repeat,
     linear-gradient(var(--line-strong), var(--line-strong)) left 65% / 46px 1px no-repeat,
     linear-gradient(var(--line-strong), var(--line-strong)) right 65% / 46px 1px no-repeat;
+}
+.editorialPage .section::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 34px;
+  height: 16px;
+  transform: translateX(-50%);
+  background: var(--ink-soft);
+  mask: url('../art/carriage.svg') center / contain no-repeat;
 }
 .coverText {
   padding: 40px 36px;

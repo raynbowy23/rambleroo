@@ -101,6 +101,7 @@ export function BywayMap({
   }, [selected, enabled])
   const hovered = useHover((s) => s.id)
   const callbacks = useRef({ onSelect, onFailure })
+  const goHome = useRef(false)
   callbacks.current = { onSelect, onFailure }
   useEffect(() => {
     if (!container.current) return
@@ -187,6 +188,8 @@ export function BywayMap({
           })
           map.on('click', (e) => {
             const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'byway-marks', 'story-points', 'route-moments'] })[0]
+            // A click on open map (not a road) goes back to the whole country; the card's close button keeps the view instead.
+            if (!feature) goHome.current = true
             callbacks.current.onSelect(feature ? String(feature.properties.id) : null)
           })
         })
@@ -231,14 +234,43 @@ export function BywayMap({
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
-    // Closing the card leaves the last road drawn, with its car parked at the end, until another road is picked.
-    if (!selected) return
+    // Closing the card leaves the last road drawn, with its car parked at the end, until another road is picked. A click on open
+    // map clears it and flies back to the whole country.
+    if (!selected) {
+      if (!goHome.current) return
+      goHome.current = false
+      animateSelection(map, [], enabled)
+      map.fitBounds(regions['Lower 48'], {
+        padding: window.innerWidth < 760 ? { top: 80, bottom: 260, left: 25, right: 25 } : { top: 100, bottom: 260, left: 390, right: 60 },
+        linear: false,
+        curve: 1.3,
+        maxDuration: 2200,
+        ...(enabled ? {} : { duration: 0 }),
+      })
+      return
+    }
     let cancelled = false
     let stop = () => {}
     void loadBywayGeometry().then((data) => {
       if (cancelled) return
       const features = data.features.filter((f) => f.properties.id === selected.id)
-      stop = animateSelection(map, features, enabled)
+      // Drive only once the camera has arrived, so the whole run is on screen.
+      const run = () => {
+        if (!cancelled) stop = animateSelection(map, features, enabled)
+      }
+      // The card's size is measured a moment after it opens and the camera may re-frame once, so wait until it is truly still.
+      let timer = 0
+      const settle = () => {
+        timer = window.setTimeout(() => (map.isMoving() ? map.once('moveend', settle) : run()), 120)
+      }
+      if (map.isMoving()) map.once('moveend', settle)
+      else settle()
+      const previous = stop
+      stop = () => {
+        window.clearTimeout(timer)
+        map.off('moveend', settle)
+        previous()
+      }
     })
     return () => {
       cancelled = true
@@ -293,7 +325,7 @@ export function BywayMap({
         <Compass size={70} />
       </div>
       <div data-map-decoration className={`${styles.controls} ${selected ? styles.selectedControls : ''}`}>
-        {ready && ref.current && <ReliefControls map={ref.current} roadId={selected?.id} />}
+        {ready && ref.current && <ReliefControls map={ref.current} roadId={selected?.id} onDrive={() => setReplay((n) => n + 1)} />}
         <button
           className="btn btn-ghost"
           aria-label="Zoom in"
