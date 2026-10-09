@@ -3,12 +3,12 @@
   "bywayId": "theodore-roosevelt-national-park-north-unit-scenic-byway-16409",
   "title": "Theodore Roosevelt National Park North Unit Scenic Byway",
   "longitude": -103.3615,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "desert-mesas",
+  "palette": "desert",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,119 +275,50 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "River Bend Overlook",
+      "model": "overlook-pullout",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Oxbow Overlook",
+      "model": "overlook-pullout",
+      "at": 0.6666666666666666,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "field",
+      "model": "mesa",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 1.3,
+      "distance": 1.6,
       "scale": 1.3
     },
     {
-      "model": "hardwood",
-      "at": 0.041666666666666664,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.125,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.20833333333333334,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.2916666666666667,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
+      "model": "mesa",
       "at": 0.375,
       "side": -1,
-      "distance": 1.3,
+      "distance": 1.6,
       "scale": 1.3
     },
     {
-      "model": "field",
-      "at": 0.4583333333333333,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.625,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
+      "model": "mesa",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 1.3,
+      "distance": 1.6,
       "scale": 1.3
     },
     {
-      "model": "field",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "hardwood",
-      "at": 0.7916666666666666,
-      "side": 1,
-      "distance": 1.9,
-      "scale": 0.8
-    },
-    {
-      "model": "field",
-      "at": 0.875,
+      "model": "sandbar",
+      "at": 0.5,
       "side": -1,
-      "distance": 1.3,
-      "scale": 1.3
-    },
-    {
-      "model": "field",
-      "at": 0.9583333333333334,
-      "side": 1,
-      "distance": 1.3,
-      "scale": 1.3
+      "distance": 0.7,
+      "scale": 1.8
     }
   ],
   "towns": [
@@ -403,6 +334,7 @@
     }
   ],
   "sources": [
+    "content/stories/theodore-roosevelt-national-park-north-unit-scenic-byway-16409.json",
     "public/data/strips/theodore-roosevelt-national-park-north-unit-scenic-byway-16409.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
