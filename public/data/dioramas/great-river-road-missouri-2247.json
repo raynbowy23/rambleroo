@@ -275,7 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Hannibal",
+      "model": "ledge",
+      "at": 0.15134328117219895,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hannibal",
+      "model": "town-blocks",
+      "at": 0.15134328117219895,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ste. Genevieve",
+      "model": "town-blocks",
+      "at": 0.5917810013121871,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "New Madrid",
+      "model": "town-blocks",
+      "at": 0.8754634237360608,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -294,7 +323,7 @@
     {
       "name": "Hannibal",
       "at": 0.15132898696088265,
-      "landmark": ""
+      "landmark": "Hannibal"
     },
     {
       "name": "Louisiana",
@@ -319,7 +348,7 @@
     {
       "name": "Ste. Genevieve",
       "at": 0.5917251755265797,
-      "landmark": ""
+      "landmark": "Ste. Genevieve"
     },
     {
       "name": "Le Grand Village Sauvage",
@@ -348,6 +377,7 @@
     }
   ],
   "sources": [
+    "content/stories/great-river-road-missouri-2247.json",
     "public/data/strips/great-river-road-missouri-2247.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Bay St. Louis",
+      "model": "town-blocks",
+      "at": 0.33642000408670814,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Waveland",
+      "model": "town-blocks",
+      "at": 0.5774708195274545,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "sandbar",
@@ -310,7 +325,7 @@
     {
       "name": "Bay St. Louis",
       "at": 0.33644067796610166,
-      "landmark": ""
+      "landmark": "Bay St. Louis"
     },
     {
       "name": "Lakeshore",
@@ -319,6 +334,7 @@
     }
   ],
   "sources": [
+    "content/stories/beach-boulevard-scenic-byway-81464.json",
     "public/data/strips/beach-boulevard-scenic-byway-81464.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

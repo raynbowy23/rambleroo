@@ -3,12 +3,12 @@
   "bywayId": "barrel-springs-back-country-byway-2333",
   "title": "Barrel Springs Back Country Byway",
   "longitude": -120.0153,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "desert-mesas",
+  "palette": "desert",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,21 +275,50 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Fort Bidwell",
+      "model": "town-blocks",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "river",
+      "model": "mesa",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "sandbar",
       "at": 0.5,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1
+      "side": -1,
+      "distance": 0.7,
+      "scale": 1.8
     }
   ],
   "towns": [
     {
       "name": "Fort Bidwell",
       "at": 0.10536529680365297,
-      "landmark": ""
+      "landmark": "Fort Bidwell"
     },
     {
       "name": "Vya",
@@ -298,6 +327,7 @@
     }
   ],
   "sources": [
+    "content/stories/barrel-springs-back-country-byway-2333.json",
     "public/data/strips/barrel-springs-back-country-byway-2333.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

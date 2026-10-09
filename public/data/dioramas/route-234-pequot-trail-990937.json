@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Old Mystic",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -324,7 +332,7 @@
     {
       "name": "Old Mystic",
       "at": 0,
-      "landmark": ""
+      "landmark": "Old Mystic"
     },
     {
       "name": "Stonington",
@@ -333,6 +341,7 @@
     }
   ],
   "sources": [
+    "content/stories/route-234-pequot-trail-990937.json",
     "public/data/strips/route-234-pequot-trail-990937.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
