@@ -1,0 +1,213 @@
+{
+  "bywayId": "route-1-big-sur-coast-highway-2301",
+  "title": "Route 1 - Big Sur Coast Highway",
+  "longitude": -121.68117343750001,
+  "ground": "coastal-cliff",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "cliff-shelf",
+    "lanes": 2,
+    "coordinates": [
+      [-121.9112, 36.556],
+      [-121.9086, 36.5414],
+      [-121.9376, 36.5143],
+      [-121.9378, 36.4845],
+      [-121.9348, 36.4717],
+      [-121.9244, 36.4591],
+      [-121.9264, 36.4488],
+      [-121.9127, 36.4256],
+      [-121.9147, 36.4105],
+      [-121.9033, 36.3971],
+      [-121.9001, 36.3835],
+      [-121.9048, 36.3735],
+      [-121.8994, 36.3652],
+      [-121.9027, 36.3569],
+      [-121.8918, 36.3437],
+      [-121.8912, 36.3363],
+      [-121.8853, 36.3331],
+      [-121.8942, 36.3273],
+      [-121.891, 36.3152],
+      [-121.8758, 36.2999],
+      [-121.8537, 36.2891],
+      [-121.844, 36.2884],
+      [-121.8252, 36.2761],
+      [-121.7958, 36.2643],
+      [-121.7888, 36.2592],
+      [-121.7865, 36.2503],
+      [-121.7778, 36.2407],
+      [-121.7689, 36.2362],
+      [-121.7505, 36.215],
+      [-121.7345, 36.2087],
+      [-121.7353, 36.2053],
+      [-121.7287, 36.2017],
+      [-121.711, 36.1964],
+      [-121.6982, 36.1768],
+      [-121.6782, 36.1676],
+      [-121.6417, 36.1277],
+      [-121.631, 36.1209],
+      [-121.621, 36.1025],
+      [-121.6174, 36.0867],
+      [-121.6059, 36.0726],
+      [-121.5922, 36.0659],
+      [-121.5876, 36.0543],
+      [-121.5895, 36.049],
+      [-121.571, 36.0241],
+      [-121.5401, 36.0197],
+      [-121.5013, 36.0001],
+      [-121.4835, 35.9683],
+      [-121.4805, 35.9518],
+      [-121.4694, 35.9353],
+      [-121.466, 35.9236],
+      [-121.4692, 35.9156],
+      [-121.4614, 35.9049],
+      [-121.4602, 35.8868],
+      [-121.4353, 35.8665],
+      [-121.4122, 35.8557],
+      [-121.4008, 35.8399],
+      [-121.392, 35.8357],
+      [-121.386, 35.8267],
+      [-121.3748, 35.8218],
+      [-121.3661, 35.8119],
+      [-121.3586, 35.8153],
+      [-121.3609, 35.8091],
+      [-121.3496, 35.8041],
+      [-121.345, 35.7949]
+    ],
+    "elevation": [
+      [0, 1.25],
+      [1, 1.25]
+    ]
+  },
+  "towns": [],
+  "sources": [
+    "content/stories/route-1-big-sur-coast-highway-2301.json",
+    "content/strips/route-1-big-sur-coast-highway-2301.json",
+    "public/data/byways.geojson"
+  ],
+  "geometryNotes": "Connected catalog route (Beartooth segments joined at shared endpoints), simplified with Douglas-Peucker in longitude/latitude; fitted without changing aspect ratio. Heights and landmark fractions are illustrative, not surveyed.",
+  "landmarks": [
+    {
+      "name": "Bixby Creek Bridge",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.18,
+      "offset": "on-road",
+      "notes": "Single tall concrete arch over a narrow canyon opening to the sea; highway crosses the deck."
+    },
+    {
+      "name": "Point Sur Light",
+      "model": "lighthouse-on-rock",
+      "at": 0.35,
+      "offset": "seaward",
+      "notes": "Stone lighthouse on a high volcanic rock just offshore."
+    },
+    {
+      "name": "McWay Falls",
+      "model": "cove-waterfall",
+      "at": 0.8,
+      "offset": "seaward",
+      "notes": "Thin fall from a cliff onto a sandy cove."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "cypress",
+      "at": 0.05,
+      "side": -1,
+      "distance": 0.6,
+      "scale": 0.65
+    },
+    {
+      "model": "cypress",
+      "at": 0.28,
+      "side": -1,
+      "distance": 0.6,
+      "scale": 0.65
+    },
+    {
+      "model": "cypress",
+      "at": 0.48,
+      "side": -1,
+      "distance": 0.6,
+      "scale": 0.65
+    },
+    {
+      "model": "cypress",
+      "at": 0.6,
+      "side": -1,
+      "distance": 0.6,
+      "scale": 0.65
+    },
+    {
+      "model": "cypress",
+      "at": 0.9,
+      "side": -1,
+      "distance": 0.6,
+      "scale": 0.65
+    },
+    {
+      "model": "sea-stack",
+      "at": 0.1,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 0.7
+    },
+    {
+      "model": "sea-stack",
+      "at": 0.55,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 0.7
+    },
+    {
+      "model": "sea-stack",
+      "at": 0.92,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 0.7
+    },
+    {
+      "model": "surf",
+      "at": 0.08,
+      "side": 1,
+      "distance": 1.1,
+      "scale": 1
+    },
+    {
+      "model": "surf",
+      "at": 0.3,
+      "side": 1,
+      "distance": 1.1,
+      "scale": 1
+    },
+    {
+      "model": "surf",
+      "at": 0.5,
+      "side": 1,
+      "distance": 1.1,
+      "scale": 1
+    },
+    {
+      "model": "surf",
+      "at": 0.7,
+      "side": 1,
+      "distance": 1.1,
+      "scale": 1
+    },
+    {
+      "model": "surf",
+      "at": 0.9,
+      "side": 1,
+      "distance": 1.1,
+      "scale": 1
+    },
+    {
+      "model": "fog-bank",
+      "at": 0.5,
+      "side": 1,
+      "distance": 1.7,
+      "scale": 0.8
+    }
+  ]
+}

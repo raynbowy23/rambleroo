@@ -1,0 +1,244 @@
+{
+  "bywayId": "beartooth-highway-2281",
+  "title": "Beartooth Highway",
+  "longitude": -109.54453272727275,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [-109.247, 45.1858],
+      [-109.2502, 45.1741],
+      [-109.2698, 45.1565],
+      [-109.3203, 45.092],
+      [-109.3331, 45.086],
+      [-109.37, 45.086],
+      [-109.4196, 45.0468],
+      [-109.4283, 45.0306],
+      [-109.416, 45.0434],
+      [-109.4184, 45.0299],
+      [-109.4287, 45.0237],
+      [-109.4153, 45.0282],
+      [-109.415, 45.037],
+      [-109.4074, 45.0428],
+      [-109.4018, 45.0362],
+      [-109.4067, 45.0397],
+      [-109.4127, 45.0339],
+      [-109.4, 45.0139],
+      [-109.4267, 44.9902],
+      [-109.4265, 44.9805],
+      [-109.4301, 44.9773],
+      [-109.4267, 44.9755],
+      [-109.4347, 44.9748],
+      [-109.437, 44.969],
+      [-109.4593, 44.9752],
+      [-109.4743, 44.9679],
+      [-109.479, 44.9705],
+      [-109.4765, 44.9632],
+      [-109.4816, 44.9685],
+      [-109.479, 44.9644],
+      [-109.4867, 44.9585],
+      [-109.4795, 44.9486],
+      [-109.4862, 44.952],
+      [-109.5126, 44.9371],
+      [-109.5293, 44.9354],
+      [-109.5679, 44.9447],
+      [-109.5938, 44.9424],
+      [-109.6375, 44.9319],
+      [-109.6318, 44.9291],
+      [-109.6298, 44.9212],
+      [-109.6548, 44.9333],
+      [-109.6682, 44.9338],
+      [-109.6721, 44.9279],
+      [-109.6939, 44.925],
+      [-109.7034, 44.9291],
+      [-109.7487, 44.9326],
+      [-109.8199, 44.962],
+      [-109.8485, 44.9838],
+      [-109.8539, 44.99],
+      [-109.855, 45.0007],
+      [-109.8841, 45.0258],
+      [-109.8975, 45.0274],
+      [-109.9396, 45.0184],
+      [-109.9614, 45.0184],
+      [-110.0015, 45.0035]
+    ],
+    "elevation": [
+      [0, 0.35],
+      [0.2, 1.5],
+      [0.35, 2.15],
+      [0.65, 2.25],
+      [1, 0.5]
+    ]
+  },
+  "towns": [
+    {
+      "name": "Cooke City",
+      "at": 0.96,
+      "landmark": "Cooke City"
+    }
+  ],
+  "sources": ["content/stories/beartooth-highway-2281.json", "content/strips/beartooth-highway-2281.json", "public/data/byways.geojson"],
+  "geometryNotes": "Connected catalog route (Beartooth segments joined at shared endpoints), simplified with Douglas-Peucker in longitude/latitude; fitted without changing aspect ratio. Heights and landmark fractions are illustrative, not surveyed.",
+  "landmarks": [
+    {
+      "name": "Vista Point",
+      "model": "overlook-pullout",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Pull-out above the Rock Creek canyon."
+    },
+    {
+      "name": "Beartooth Basin Ski Area",
+      "model": "ski-lift",
+      "at": 0.43,
+      "offset": "roadside",
+      "notes": "T-bar silhouette on a summer snowfield near the summit; no lodge."
+    },
+    {
+      "name": "Cooke City",
+      "model": "false-front-town",
+      "at": 0.96,
+      "offset": "roadside",
+      "notes": "Log and false-front buildings in the far valley."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.02,
+      "side": -1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.02,
+      "side": 1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.06,
+      "side": -1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.06,
+      "side": 1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.1,
+      "side": -1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.1,
+      "side": 1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.14,
+      "side": -1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.14,
+      "side": 1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.85,
+      "side": -1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.85,
+      "side": 1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.9,
+      "side": -1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.9,
+      "side": 1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.98,
+      "side": -1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "conifer",
+      "at": 0.98,
+      "side": 1,
+      "distance": 0.65,
+      "scale": 0.7
+    },
+    {
+      "model": "snowfield",
+      "at": 0.32,
+      "side": -1,
+      "distance": 0.65,
+      "scale": 1
+    },
+    {
+      "model": "snowfield",
+      "at": 0.48,
+      "side": -1,
+      "distance": 0.65,
+      "scale": 1
+    },
+    {
+      "model": "snowfield",
+      "at": 0.65,
+      "side": -1,
+      "distance": 0.65,
+      "scale": 1
+    },
+    {
+      "model": "alpine-lake",
+      "at": 0.55,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 0.8
+    },
+    {
+      "model": "alpine-lake",
+      "at": 0.7,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 0.8
+    }
+  ]
+}

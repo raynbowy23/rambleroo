@@ -9,7 +9,7 @@ import { requireNetwork } from '../../lib/network'
 import { PhotoGallery, MomentPhoto, PhotoCredit } from '../photos/Photos'
 import { StreetGallery, MomentFrame, useMomentViews } from '../photos/StreetViews'
 import { ShareControl } from '../share/ShareControl'
-import { useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router'
 import { useByway, useStory, usePhotos, stateChapters } from '../../lib/data'
 import { illustrationCaption, listingDescription, shortDesignation } from '../../lib/format'
@@ -26,6 +26,10 @@ import { loadBywayGeometry } from '../map/layers'
 import s from '../../components/ui/Content.module.css'
 // Shared-boundary neighbors derived from the bundled us-atlas/states-10m.json topology.
 import adjacentStates from './adjacent-states.json'
+import { specs as dioramaSpecs } from '../../components/art/diorama3d/spec'
+
+// three.js loads only on pages that have a miniature.
+const RoadMiniature = lazy(() => import('./RoadMiniature'))
 const adjacent: Record<string, string[]> = adjacentStates
 // Great-circle length chooses the longest geometry part; it is never presented as catalog mileage.
 function partLength(points: number[][]) {
@@ -95,8 +99,17 @@ export default function BywayPage() {
   if (status === 'error') return <PageStatus title="The catalog could not be loaded" error />
   if (!b) return <NotFound title="Road not found" />
   const point = start?.id === b.id ? start.point : b.center
+  const spec = dioramaSpecs.find((d) => d.bywayId === b.id)
+  const miniature = spec && (
+    <Suspense fallback={null}>
+      <RoadMiniature spec={spec} latitude={b.center[1]} />
+    </Suspense>
+  )
   return (
     <main className={`${roadStyle.roadPage} ${story ? s.editorialPage : ''}`}>
+      <Link className={roadStyle.backToMap} to={`/?byway=${b.id}`}>
+        ← Back to the map
+      </Link>
       <Hero
         key={b.id}
         photo={photo}
@@ -159,6 +172,7 @@ export default function BywayPage() {
                     <p key={i}>{p}</p>
                   ))}
                 </section>
+                {miniature}
                 <PhotoGallery photos={photos} />
                 <StreetGallery bywayId={b.id} />
                 <section className={s.section}>
@@ -230,6 +244,7 @@ export default function BywayPage() {
                 </ul>
               </section>
             )}
+            {!story && miniature}
             {!story && <PhotoGallery photos={photos} />}
             {!story && <StreetGallery bywayId={b.id} />}
           </div>
