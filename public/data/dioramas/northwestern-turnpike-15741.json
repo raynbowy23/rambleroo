@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Pruntytown",
+      "model": "town-blocks",
+      "at": 0.23822710854817045,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grafton",
+      "model": "town-blocks",
+      "at": 0.31373705879180847,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -334,12 +349,12 @@
     {
       "name": "Pruntytown",
       "at": 0.23838951310861425,
-      "landmark": ""
+      "landmark": "Pruntytown"
     },
     {
       "name": "Grafton",
       "at": 0.31348314606741573,
-      "landmark": ""
+      "landmark": "Grafton"
     },
     {
       "name": "Thornton",
@@ -368,6 +383,7 @@
     }
   ],
   "sources": [
+    "content/stories/northwestern-turnpike-15741.json",
     "public/data/strips/northwestern-turnpike-15741.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

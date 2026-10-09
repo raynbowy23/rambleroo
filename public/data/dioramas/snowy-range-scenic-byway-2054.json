@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Centennial",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Libby Flats",
+      "model": "snow-peak",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -371,10 +386,11 @@
     {
       "name": "Centennial",
       "at": 0.9996466431095405,
-      "landmark": ""
+      "landmark": "Centennial"
     }
   ],
   "sources": [
+    "content/stories/snowy-range-scenic-byway-2054.json",
     "public/data/strips/snowy-range-scenic-byway-2054.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

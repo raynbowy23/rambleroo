@@ -3,8 +3,8 @@
   "bywayId": "mount-baker-highway-route-542-2236",
   "title": "Mount Baker Highway (Route 542)",
   "longitude": -122.0666,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -239,43 +239,58 @@
     "elevation": [
       [
         0,
-        0.35
+        0.45
       ],
       [
         0.125,
-        0.453
+        0.692
       ],
       [
         0.25,
-        0.7
+        1.275
       ],
       [
         0.375,
-        0.947
+        1.858
       ],
       [
         0.5,
-        1.05
+        2.1
       ],
       [
         0.625,
-        0.947
+        1.858
       ],
       [
         0.75,
-        0.7
+        1.275
       ],
       [
         0.875,
-        0.453
+        0.692
       ],
       [
         1,
-        0.35
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Picture Lake",
+      "model": "snow-peak",
+      "at": 0.7532794174795749,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Artist Point",
+      "model": "snow-peak",
+      "at": 0.7532794174795749,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -395,6 +410,7 @@
     }
   ],
   "sources": [
+    "content/stories/mount-baker-highway-route-542-2236.json",
     "public/data/strips/mount-baker-highway-route-542-2236.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

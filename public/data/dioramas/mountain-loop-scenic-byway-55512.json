@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Monte Cristo",
+      "model": "false-front-town",
+      "at": 0.486898300169341,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "conifer",
@@ -380,6 +388,7 @@
     }
   ],
   "sources": [
+    "content/stories/mountain-loop-scenic-byway-55512.json",
     "public/data/strips/mountain-loop-scenic-byway-55512.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Bingen",
+      "model": "town-blocks",
+      "at": 0.5873856182694146,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Maryhill",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -314,7 +329,7 @@
     {
       "name": "Bingen",
       "at": 0.587764705882353,
-      "landmark": ""
+      "landmark": "Bingen"
     },
     {
       "name": "Lyle",
@@ -329,10 +344,11 @@
     {
       "name": "Maryhill",
       "at": 1,
-      "landmark": ""
+      "landmark": "Maryhill"
     }
   ],
   "sources": [
+    "content/stories/columbia-river-gorge-scenic-byway-washington-2235.json",
     "public/data/strips/columbia-river-gorge-scenic-byway-washington-2235.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

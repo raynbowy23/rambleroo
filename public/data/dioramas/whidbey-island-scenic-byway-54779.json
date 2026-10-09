@@ -275,7 +275,36 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Deception Pass",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Coupeville",
+      "model": "harbor",
+      "at": 0.42665688368838156,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Coupeville",
+      "model": "town-blocks",
+      "at": 0.42665688368838156,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Greenbank",
+      "model": "town-blocks",
+      "at": 0.6504198674878767,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "sandbar",
@@ -315,12 +344,12 @@
     {
       "name": "Coupeville",
       "at": 0.42658227848101266,
-      "landmark": ""
+      "landmark": "Coupeville"
     },
     {
       "name": "Greenbank",
       "at": 0.650210970464135,
-      "landmark": ""
+      "landmark": "Greenbank"
     },
     {
       "name": "Freeland",
@@ -334,6 +363,7 @@
     }
   ],
   "sources": [
+    "content/stories/whidbey-island-scenic-byway-54779.json",
     "public/data/strips/whidbey-island-scenic-byway-54779.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

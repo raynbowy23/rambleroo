@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Grays Harbor Lighthouse",
+      "model": "lighthouse-on-rock",
+      "at": 0.15605182656439565,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "sandbar",
@@ -329,6 +337,7 @@
     }
   ],
   "sources": [
+    "content/stories/cranberry-coast-scenic-byway-54778.json",
     "public/data/strips/cranberry-coast-scenic-byway-54778.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

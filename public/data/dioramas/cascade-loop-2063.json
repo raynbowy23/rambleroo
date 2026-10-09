@@ -275,8 +275,30 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Leavenworth",
+      "model": "town-blocks",
+      "at": 0.2539193871455473,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Deception Pass",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.8767535882296916,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "orchard",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "conifer",
       "at": 0.0875,
@@ -376,7 +398,7 @@
     {
       "name": "Leavenworth",
       "at": 0.2539399624765479,
-      "landmark": ""
+      "landmark": "Leavenworth"
     },
     {
       "name": "Entiat",
@@ -420,6 +442,7 @@
     }
   ],
   "sources": [
+    "content/stories/cascade-loop-2063.json",
     "public/data/strips/cascade-loop-2063.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

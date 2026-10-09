@@ -8,7 +8,7 @@
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,8 +275,37 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Republic",
+      "model": "false-front-town",
+      "at": 0.005138912225053953,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Republic",
+      "model": "town-blocks",
+      "at": 0.005138912225053953,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Kettle Falls",
+      "model": "town-blocks",
+      "at": 0.9909008100912797,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "conifer",
       "at": 0.0875,
@@ -366,7 +395,7 @@
     {
       "name": "Republic",
       "at": 0.005116279069767442,
-      "landmark": ""
+      "landmark": "Republic"
     },
     {
       "name": "Barney's Junction",
@@ -376,10 +405,11 @@
     {
       "name": "Kettle Falls",
       "at": 0.9906976744186047,
-      "landmark": ""
+      "landmark": "Kettle Falls"
     }
   ],
   "sources": [
+    "content/stories/sherman-pass-scenic-byway-2232.json",
     "public/data/strips/sherman-pass-scenic-byway-2232.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

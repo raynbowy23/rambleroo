@@ -8,7 +8,7 @@
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "switchbacks",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,8 +275,37 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Concrete",
+      "model": "town-blocks",
+      "at": 0.1810885943757574,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Diablo Lake",
+      "model": "alpine-lake",
+      "at": 0.48509548264145735,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Washington Pass",
+      "model": "snow-peak",
+      "at": 0.7606847810344317,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "conifer",
       "at": 0.0875,
@@ -371,7 +400,7 @@
     {
       "name": "Concrete",
       "at": 0.18109177215189873,
-      "landmark": ""
+      "landmark": "Concrete"
     },
     {
       "name": "Marblemount",
@@ -395,6 +424,7 @@
     }
   ],
   "sources": [
+    "content/stories/north-cascades-scenic-highway-2230.json",
     "public/data/strips/north-cascades-scenic-highway-2230.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
