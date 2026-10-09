@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Ellsworth",
+      "model": "town-blocks",
+      "at": 0.11538533295431795,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Broken Bow",
+      "model": "town-blocks",
+      "at": 0.7051154086319128,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "field",
@@ -399,7 +414,7 @@
     {
       "name": "Ellsworth",
       "at": 0.1154072981938813,
-      "landmark": ""
+      "landmark": "Ellsworth"
     },
     {
       "name": "Hyannis",
@@ -429,7 +444,7 @@
     {
       "name": "Broken Bow",
       "at": 0.7051971986730556,
-      "landmark": ""
+      "landmark": "Broken Bow"
     },
     {
       "name": "Mason City",
@@ -448,6 +463,7 @@
     }
   ],
   "sources": [
+    "content/stories/sandhills-journey-16470.json",
     "public/data/strips/sandhills-journey-16470.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

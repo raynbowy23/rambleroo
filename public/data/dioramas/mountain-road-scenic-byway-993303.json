@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Weeks house",
+      "model": "farmhouse",
+      "at": 0.9954045358401266,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -370,6 +378,7 @@
     }
   ],
   "sources": [
+    "content/stories/mountain-road-scenic-byway-993303.json",
     "public/data/strips/mountain-road-scenic-byway-993303.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Imlaystown",
+      "model": "town-blocks",
+      "at": 0.3863988258608675,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Old Yellow Meeting House",
+      "model": "farmhouse",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Illustrative position in driving order."
+    },
+    {
+      "name": "Walnford",
+      "model": "gristmill",
+      "at": 0.8678107226803097,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "town-blocks",
@@ -334,7 +356,7 @@
     {
       "name": "Imlaystown",
       "at": 0.3865853658536585,
-      "landmark": ""
+      "landmark": "Imlaystown"
     },
     {
       "name": "Cream Ridge",
@@ -348,6 +370,7 @@
     }
   ],
   "sources": [
+    "content/stories/upper-freehold-historic-farmland-byway-69815.json",
     "public/data/strips/upper-freehold-historic-farmland-byway-69815.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

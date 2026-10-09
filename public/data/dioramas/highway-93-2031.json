@@ -3,8 +3,8 @@
   "bywayId": "highway-93-2031",
   "title": "Highway 93",
   "longitude": -114.5221,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -239,78 +239,163 @@
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Pioche",
+      "model": "false-front-town",
+      "at": 0.5421708129264198,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Pioche",
+      "model": "town-blocks",
+      "at": 0.5421708129264198,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cathedral Gorge State Park",
+      "model": "hoodoo",
+      "at": 0.6127478855933186,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Caliente",
+      "model": "town-blocks",
+      "at": 0.7122296293662397,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "mesa",
-      "at": 0.041666666666666664,
+      "model": "hardwood",
+      "at": 0.0875,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "mesa",
-      "at": 0.375,
+      "model": "hardwood",
+      "at": 0.09949999999999999,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "mesa",
-      "at": 0.7083333333333334,
+      "model": "hardwood",
+      "at": 0.11149999999999999,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.05
     },
     {
-      "model": "sandbar",
-      "at": 0.5,
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
       "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
     }
   ],
   "towns": [
     {
       "name": "Pioche",
       "at": 0.5421759570181329,
-      "landmark": ""
+      "landmark": "Pioche"
     },
     {
       "name": "Panaca",
@@ -320,7 +405,7 @@
     {
       "name": "Caliente",
       "at": 0.7122901276024177,
-      "landmark": ""
+      "landmark": "Caliente"
     },
     {
       "name": "Crystal Springs",
@@ -329,6 +414,7 @@
     }
   ],
   "sources": [
+    "content/stories/highway-93-2031.json",
     "public/data/strips/highway-93-2031.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

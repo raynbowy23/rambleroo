@@ -3,12 +3,12 @@
   "bywayId": "loup-rivers-scenic-byway-16473",
   "title": "Loup Rivers Scenic Byway",
   "longitude": -98.9767,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,14 +275,64 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Ord",
+      "model": "town-blocks",
+      "at": 0.541336644414179,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dannebrog",
+      "model": "town-blocks",
+      "at": 0.8384200934844698,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "river",
-      "at": 0.5,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
@@ -314,7 +364,7 @@
     {
       "name": "Ord",
       "at": 0.5412765957446808,
-      "landmark": ""
+      "landmark": "Ord"
     },
     {
       "name": "North Loup",
@@ -329,7 +379,7 @@
     {
       "name": "Dannebrog",
       "at": 0.8382978723404255,
-      "landmark": ""
+      "landmark": "Dannebrog"
     },
     {
       "name": "Cairo",
@@ -338,6 +388,7 @@
     }
   ],
   "sources": [
+    "content/stories/loup-rivers-scenic-byway-16473.json",
     "public/data/strips/loup-rivers-scenic-byway-16473.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

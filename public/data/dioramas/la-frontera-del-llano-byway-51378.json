@@ -3,12 +3,12 @@
   "bywayId": "la-frontera-del-llano-byway-51378",
   "title": "La Frontera del Llano Byway",
   "longitude": -103.9189,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "prairie-grid",
+  "palette": "prairie",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -275,35 +275,134 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Roy",
+      "model": "town-blocks",
+      "at": 0.27694650440861995,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mosquero",
+      "model": "town-blocks",
+      "at": 0.47488393565327397,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "mesa",
+      "model": "field",
       "at": 0.041666666666666664,
       "side": -1,
-      "distance": 1.6,
+      "distance": 1.3,
       "scale": 1.3
     },
     {
-      "model": "mesa",
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
       "at": 0.375,
       "side": -1,
-      "distance": 1.6,
+      "distance": 1.3,
       "scale": 1.3
     },
     {
-      "model": "mesa",
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
       "at": 0.7083333333333334,
       "side": -1,
-      "distance": 1.6,
+      "distance": 1.3,
       "scale": 1.3
     },
     {
-      "model": "sandbar",
-      "at": 0.5,
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.875,
       "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
     }
   ],
   "towns": [
@@ -315,7 +414,7 @@
     {
       "name": "Roy",
       "at": 0.27681623931623933,
-      "landmark": ""
+      "landmark": "Roy"
     },
     {
       "name": "Solano",
@@ -325,10 +424,11 @@
     {
       "name": "Mosquero",
       "at": 0.47478632478632476,
-      "landmark": ""
+      "landmark": "Mosquero"
     }
   ],
   "sources": [
+    "content/stories/la-frontera-del-llano-byway-51378.json",
     "public/data/strips/la-frontera-del-llano-byway-51378.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

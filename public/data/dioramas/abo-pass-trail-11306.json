@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Abo",
+      "model": "town-blocks",
+      "at": 0.8907666820735495,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "mesa",
@@ -315,10 +323,11 @@
     {
       "name": "Abo",
       "at": 0.8914666666666666,
-      "landmark": ""
+      "landmark": "Abo"
     }
   ],
   "sources": [
+    "content/stories/abo-pass-trail-11306.json",
     "public/data/strips/abo-pass-trail-11306.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"

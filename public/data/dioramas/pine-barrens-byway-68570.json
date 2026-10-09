@@ -275,7 +275,29 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Batsto Village",
+      "model": "town-blocks",
+      "at": 0.01453266335660653,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Tuckerton Seaport",
+      "model": "harbor",
+      "at": 0.11697992303957534,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mauricetown",
+      "model": "town-blocks",
+      "at": 0.9106379234129911,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",
@@ -366,7 +388,7 @@
     {
       "name": "Batsto Village",
       "at": 0.014520311149524632,
-      "landmark": ""
+      "landmark": "Batsto Village"
     },
     {
       "name": "Tuckerton",
@@ -406,10 +428,11 @@
     {
       "name": "Mauricetown",
       "at": 0.9106309420916162,
-      "landmark": ""
+      "landmark": "Mauricetown"
     }
   ],
   "sources": [
+    "content/stories/pine-barrens-byway-68570.json",
     "public/data/strips/pine-barrens-byway-68570.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
