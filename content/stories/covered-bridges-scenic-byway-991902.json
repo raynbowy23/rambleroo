@@ -1,0 +1,67 @@
+{
+  "id": "covered-bridges-scenic-byway-991902",
+  "tagline": "Spokes out of Winterset to the covered bridges.",
+  "intro": [
+    "From the square at Winterset, where a limestone courthouse stands in the middle, the byway runs out like the spokes of a wheel, 82 miles in all, to the red covered bridges of Madison County that a novel, a movie and a musical called The Bridges of Madison County made famous. Between bridges it keeps to farm country and the North River and Middle River valleys.",
+    "Winterset was platted during a cool spell in the summer of 1849. The commissioners had meant to call it Summerset. The weather changed their minds."
+  ],
+  "moments": [
+    {
+      "title": "Winterset",
+      "kind": "town",
+      "scene": "town",
+      "text": "John Wayne was born here, and the town keeps his birthplace along with a museum given over entirely to him, the only one in the world.",
+      "at": [
+        -94.001,
+        41.37
+      ]
+    },
+    {
+      "title": "Holliwell Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Two miles southeast of town the Holliwell crosses the Middle River on a 110-foot span, the longest of the county's six remaining covered bridges and one of the film's bridges.",
+      "at": [
+        -93.959,
+        41.323
+      ]
+    },
+    {
+      "title": "Imes Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "The oldest covered bridge left in the county, built in 1870 over the Middle River, has been moved twice, the second time in 1977 to its present spot at St. Charles.",
+      "at": [
+        -93.801,
+        41.289
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Travel Iowa, Covered Bridges Scenic Byway",
+      "url": "https://www.traveliowa.com/trails/covered-bridges-scenic-byway/98/"
+    },
+    {
+      "label": "Iowa DOT, Iowa Byways Official Travel Guide",
+      "url": "https://iowadot.gov/media/916/download?inline"
+    },
+    {
+      "label": "Wikipedia, Winterset, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Winterset,_Iowa"
+    },
+    {
+      "label": "Wikipedia, Holliwell Covered Bridge",
+      "url": "https://en.wikipedia.org/wiki/Holliwell_Covered_Bridge"
+    },
+    {
+      "label": "Wikipedia, Imes Bridge",
+      "url": "https://en.wikipedia.org/wiki/Imes_Bridge"
+    },
+    {
+      "label": "Iowa DOT, Scenic Byway View (ArcGIS feature service)",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    }
+  ],
+  "reviewed": false
+}
