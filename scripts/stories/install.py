@@ -1,6 +1,9 @@
-# Copy checked stories into content/stories after mechanical checks. Run from the repo root: python3 scripts/stories/install.py <work dir>
+# Copy checked stories into content/stories after mechanical checks. Run from the repo root:
+#   python3 scripts/stories/install.py <work dir> [<batch file> ...]
+# Name the batch files whose checkers have finished; a checker still running may have half-written files in checked/.
 import json, glob, os, re, sys
 S = sys.argv[1]
+only = {l.strip() for f in sys.argv[2:] for l in open(f) if l.strip()}
 MOTIFS = set('river-bluffs lake-wide lock-and-dam paddlewheeler sandbars steeple-town harbor-village lighthouse limestone-ledges orchard rolling-ridges gristmill viaduct rhododendron-bald snow-peaks switchbacks mining-town aspens hoodoos slickrock-ridge arch-bridge sea-rock waterfall-cove'.split())
 KINDS = {'roadside', 'short walk', 'separate excursion', 'town'}
 SCENES = {'river', 'coast', 'mountain', 'forest', 'desert', 'town', 'prairie'}
@@ -9,6 +12,7 @@ cat = {b['id']: b for b in json.load(open('public/data/catalog.json'))['byways']
 ok = bad = 0
 for f in sorted(glob.glob(f'{S}/checked/*.json')):
     d = json.load(open(f)); i = d.get('id'); errs = []
+    if only and i not in only: continue
     if i not in cat: errs.append('unknown id')
     if os.path.exists(f'content/stories/{i}.json') and json.load(open(f'content/stories/{i}.json')).get('reviewed'): errs.append('reviewed story exists')
     d['motifs'] = [m for m in d.get('motifs', []) if m in MOTIFS]
