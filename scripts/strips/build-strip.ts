@@ -132,7 +132,8 @@ if (content.clipToState) {
 }
 
 // ---------- 2. chain pieces into paths ----------
-/** Grow a path from `seed` at both ends, always attaching the longest unused piece whose end is within `tol` miles. */
+/** Grow a path from `seed` at both ends, attaching the longest unused piece that touches the tip (within JOIN_MI), or failing
+ *  that the longest whose end is within `tol` miles. Roads cut into many short edges stay continuous instead of jumping. */
 function chain(seed: Position[], pool: Position[][], tol: number) {
   const path = [...seed]
   const gaps: { atMile: number; miles: number }[] = []
@@ -146,7 +147,9 @@ function chain(seed: Position[], pool: Position[][], tol: number) {
         if (used.has(l)) continue
         for (const cand of [l, [...l].reverse()]) {
           const d = miles(tip, end === 'tail' ? cand[0] : cand[cand.length - 1])
-          if (d <= tol && (!pick || lengthOf(cand) > lengthOf(pick.line))) pick = { line: cand, d }
+          const touches = d <= JOIN_MI
+          const better = !pick || (touches && pick.d > JOIN_MI) || ((touches || pick.d > JOIN_MI) && lengthOf(cand) > lengthOf(pick.line))
+          if (d <= tol && better) pick = { line: cand, d }
         }
       }
       if (!pick) continue
