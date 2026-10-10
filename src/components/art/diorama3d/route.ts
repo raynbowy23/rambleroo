@@ -3,6 +3,8 @@ import type { DioramaSpec } from './spec'
 
 /** One full turn about every 40 seconds. */
 export const SPIN_PER_SECOND = (2 * Math.PI) / 40
+/** The car drives the whole road once every 100 seconds. */
+export const DRIVE_SECONDS = 100
 /** Radians turned per pixel dragged. */
 export const DRAG_RADIANS_PER_PX = Math.PI / 300
 export function makeRoute(spec: DioramaSpec) {

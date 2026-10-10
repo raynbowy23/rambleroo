@@ -5,7 +5,7 @@ import { buildVehicle, disposeVehicle } from '../vehicle3d'
 import type { Garage } from '../../../lib/garage'
 import type { Season, Weather } from '../diorama/environment'
 import type { DioramaSpec } from './spec'
-import { makeRoute } from './route'
+import { DRIVE_SECONDS, makeRoute } from './route'
 import { buildModel, type Pigments } from './models'
 
 export interface Conditions {
@@ -414,7 +414,7 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
   outline.position.y = -0.29
   world.add(outline)
   function update(seconds: number) {
-    const t = (seconds / 100) % 1,
+    const t = (seconds / DRIVE_SECONDS) % 1,
       p = route.sample(t).add(new T.Vector3(0, 0.06, 0)),
       tangent = route.frame(t).tangent
     driver.position.copy(p)

@@ -3,8 +3,8 @@ import { useGarage } from '../../../lib/garage'
 import type { DioramaSpec } from './spec'
 import { buildScene, type Conditions } from './scene'
 import { registerScene, MAX_ZOOM, MIN_ZOOM } from './renderer'
-import { DRAG_RADIANS_PER_PX } from './route'
-import { canMakeVideo, canShareFiles, compose, makeClip, save, shareOrSave, TURN_SECONDS, type ClipFormat } from './share'
+import { DRAG_RADIANS_PER_PX, DRIVE_SECONDS } from './route'
+import { canMakeVideo, canShareFiles, compose, makeClip, save, shareOrSave, CLIP_SECONDS, type ClipFormat } from './share'
 import './diorama3d.css'
 
 export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditions: Conditions }) {
@@ -21,7 +21,7 @@ export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditi
     zoom.current = controller.current?.zoomBy(factor) ?? zoom.current
     setZoomLevel(zoom.current)
   }
-  // Sharing: one full turn of the turntable from the current view, as a video or a looping GIF. Encoding takes a few seconds, and a
+  // Sharing: the car's drive along the road from the current view, held still, as a video or a looping GIF. Encoding takes a few seconds, and a
   // share sheet needs a fresh tap, so the finished file waits behind its own Share and Save buttons.
   const [share, setShare] = useState<
     | { step: 'closed' | 'choose' }
@@ -42,7 +42,7 @@ export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditi
     try {
       const blob = await makeClip(
         format,
-        (i, count, width) => compose(miniature.snapshot(width, (2 * Math.PI * i) / count, (TURN_SECONDS * i) / count), spec.title, canvas),
+        (i, count, width) => compose(miniature.snapshot(width, 0, (DRIVE_SECONDS * i) / count), spec.title, canvas),
         (progress) => setShare({ step: 'making', format, progress }),
       )
       setShare({ step: 'ready', file: new File([blob], `${spec.bywayId}-miniature.${format}`, { type: blob.type }) })
@@ -174,8 +174,8 @@ export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditi
         </button>
         <button
           type="button"
-          aria-label="Share this miniature as a video or GIF"
-          title="Share this miniature as a video or GIF"
+          aria-label="Share the drive as a video or GIF"
+          title="Share the drive as a video or GIF"
           aria-expanded={share.step !== 'closed'}
           onClick={() => setShare(share.step === 'closed' ? { step: 'choose' } : { step: 'closed' })}
         >
@@ -195,7 +195,7 @@ export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditi
         <div className="rr-mini-share" onPointerDown={(e) => e.stopPropagation()} onKeyDown={(e) => e.stopPropagation()}>
           {share.step === 'choose' && (
             <>
-              <p>One full turn of this view, {TURN_SECONDS} seconds.</p>
+              <p>The drive along the road from this view, {CLIP_SECONDS} seconds.</p>
               {video && (
                 <button type="button" onClick={() => void make('mp4')}>
                   Video (MP4)
