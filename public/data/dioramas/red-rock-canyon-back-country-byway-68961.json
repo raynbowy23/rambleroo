@@ -3,8 +3,8 @@
   "bywayId": "red-rock-canyon-back-country-byway-68961",
   "title": "Red Rock Canyon Back Country Byway",
   "longitude": -115.4737,
-  "ground": "desert-mesas",
-  "palette": "desert",
+  "ground": "alpine-plateau",
+  "palette": "mountain",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -48,10 +48,6 @@
         36.12983
       ],
       [
-        -115.47336,
-        36.13368
-      ],
-      [
         -115.47419,
         36.13812
       ],
@@ -76,28 +72,48 @@
         36.14172
       ],
       [
-        -115.47646,
-        36.14272
+        -115.47634,
+        36.14264
       ],
       [
         -115.47699,
         36.14365
       ],
       [
-        -115.47668,
-        36.14461
+        -115.47629,
+        36.14554
       ],
       [
-        -115.48591,
-        36.15379
+        -115.47676,
+        36.1466
+      ],
+      [
+        -115.48356,
+        36.14988
+      ],
+      [
+        -115.48744,
+        36.15401
+      ],
+      [
+        -115.49022,
+        36.15552
+      ],
+      [
+        -115.48949,
+        36.15614
+      ],
+      [
+        -115.48613,
+        36.15385
       ],
       [
         -115.48499,
         36.15411
       ],
       [
-        -115.48372,
-        36.15588
+        -115.48366,
+        36.15615
       ],
       [
         -115.48368,
@@ -128,10 +144,6 @@
         36.17113
       ],
       [
-        -115.47264,
-        36.17103
-      ],
-      [
         -115.47106,
         36.16945
       ],
@@ -160,16 +172,8 @@
         36.17229
       ],
       [
-        -115.46266,
-        36.17018
-      ],
-      [
         -115.46143,
         36.1682
-      ],
-      [
-        -115.46359,
-        36.16456
       ],
       [
         -115.4634,
@@ -190,10 +194,6 @@
       [
         -115.45162,
         36.15863
-      ],
-      [
-        -115.44995,
-        36.16036
       ],
       [
         -115.44896,
@@ -224,12 +224,12 @@
         36.14173
       ],
       [
-        -115.42742,
-        36.13967
+        -115.4272,
+        36.13913
       ],
       [
-        -115.42573,
-        36.13764
+        -115.4242,
+        36.13464
       ],
       [
         -115.42388,
@@ -239,86 +239,151 @@
     "elevation": [
       [
         0,
-        0.2
+        0.45
       ],
       [
         0.125,
-        0.218
+        0.692
       ],
       [
         0.25,
-        0.26
+        1.275
       ],
       [
         0.375,
-        0.302
+        1.858
       ],
       [
         0.5,
-        0.32
+        2.1
       ],
       [
         0.625,
-        0.302
+        1.858
       ],
       [
         0.75,
-        0.26
+        1.275
       ],
       [
         0.875,
-        0.218
+        0.692
       ],
       [
         1,
-        0.2
+        0.45
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Bridge Mountain",
+      "model": "mesa",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
-      "model": "mesa",
-      "at": 0.041666666666666664,
+      "model": "hardwood",
+      "at": 0.0875,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "mesa",
-      "at": 0.375,
+      "model": "hardwood",
+      "at": 0.09949999999999999,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "mesa",
-      "at": 0.7083333333333334,
+      "model": "hardwood",
+      "at": 0.11149999999999999,
       "side": -1,
-      "distance": 1.6,
-      "scale": 1.3
+      "distance": 1.5,
+      "scale": 1.05
     },
     {
-      "model": "sandbar",
-      "at": 0.5,
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
       "side": -1,
-      "distance": 0.7,
-      "scale": 1.8
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
     }
   ],
   "towns": [
     {
       "name": "Bridge Mountain",
-      "at": 0.2537190082644628,
+      "at": 0.23984374999999997,
       "landmark": ""
     },
     {
       "name": "Red Rock Canyon National Conservation Area",
-      "at": 0.9826446280991736,
+      "at": 0.9757812499999999,
       "landmark": ""
     }
   ],
   "sources": [
+    "content/stories/red-rock-canyon-back-country-byway-68961.json",
     "public/data/strips/red-rock-canyon-back-country-byway-68961.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
