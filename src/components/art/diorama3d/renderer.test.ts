@@ -4,7 +4,14 @@ import { buildScene } from './scene'
 import { specs } from './fixtures.test-data'
 import { defaultGarage } from '../../../lib/garage'
 
-const mock = vi.hoisted(() => ({ created: 0, render: vi.fn(), dispose: vi.fn(), contextLoss: vi.fn() }))
+const mock = vi.hoisted(() => ({
+  created: 0,
+  render: vi.fn(),
+  clearDepth: vi.fn(),
+  scissor: vi.fn(),
+  dispose: vi.fn(),
+  contextLoss: vi.fn(),
+}))
 vi.mock('three', async () => {
   const actual = await vi.importActual<typeof import('three')>('three')
   return {
@@ -20,7 +27,8 @@ vi.mock('three', async () => {
       setClearColor() {}
       clear() {}
       setViewport() {}
-      setScissor() {}
+      setScissor = mock.scissor
+      clearDepth = mock.clearDepth
       render = mock.render
       dispose = mock.dispose
       forceContextLoss = mock.contextLoss
@@ -60,6 +68,10 @@ it('shares one WebGL context, sleeps off screen and releases resources', () => {
     e.getBoundingClientRect = () => ({ left: 20, top: 20, right: 380, bottom: 350, width: 360, height: 330, x: 20, y: 20, toJSON() {} })
     return e
   })
+  const passes: { layer: number; background: T.Scene['background'] }[] = []
+  mock.render.mockImplementation((scene: T.Scene, camera: T.Camera) =>
+    passes.push({ layer: camera.layers.mask, background: scene.background }),
+  )
   const built = specs.map((s) => buildScene(s, defaultGarage, { hour: 13, season: 'summer', weather: 'clear' }))
   const registrations = built.map((b, i) => registerScene(elements[i], b))
   expect(mock.created).toBe(1)
@@ -84,7 +96,12 @@ it('shares one WebGL context, sleeps off screen and releases resources', () => {
   expect(callbacks.size).toBe(0)
   intersect(entries(true), {} as IntersectionObserver)
   tick()
-  expect(mock.render).toHaveBeenCalledTimes(3)
+  expect(mock.render).toHaveBeenCalledTimes(6)
+  expect(mock.clearDepth).toHaveBeenCalledTimes(3)
+  expect(mock.scissor.mock.invocationCallOrder[0]).toBeLessThan(mock.clearDepth.mock.invocationCallOrder[0])
+  expect(passes.slice(0, 6).map((pass) => pass.layer)).toEqual([1, 2, 1, 2, 1, 2])
+  expect(passes.filter((pass) => pass.layer === 2).every((pass) => pass.background === null)).toBe(true)
+  expect(built.every((scene) => scene.scene.background !== null && scene.camera.layers.mask === 1)).toBe(true)
   expect(callbacks.size).toBe(1)
   // The same projected framing is used for desktop and 390px-phone card widths.
   for (const width of [360, 560]) {

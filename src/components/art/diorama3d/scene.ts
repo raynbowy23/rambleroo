@@ -309,17 +309,8 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
   // Vehicle uses Z up and +Y forward. This mount maps it into our Y-up world.
   car.rotation.set(-Math.PI / 2, 0, Math.PI)
   car.scale.setScalar(0.135)
-  // Keep the visitor readable even when the rotating foreground ridge crosses it.
-  // Its physical position and pitch still come from the road surface.
-  car.traverse((object) => {
-    if (!(object instanceof T.Mesh)) return
-    object.renderOrder = 10
-    const materials = Array.isArray(object.material) ? object.material : [object.material]
-    for (const material of materials) {
-      material.depthTest = false
-      material.depthWrite = false
-    }
-  })
+  // Layer 1 gets a fresh depth buffer in the shared renderer, preserving self-occlusion.
+  car.traverse((object) => object.layers.set(1))
   const driver = new T.Group()
   driver.name = 'visitor-car'
   driver.add(car)
@@ -332,6 +323,7 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
       driver.add(light, light.target)
     }
   const ambient = new T.HemisphereLight(night ? '#98afd5' : '#fff0d0', night ? '#71819a' : ink.dark, night ? 1.5 : 2.2)
+  ambient.layers.enable(1)
   scene.add(ambient)
   const sun = new T.DirectionalLight(
     night ? '#9ab1dc' : warm ? '#ffc58f' : '#fff3db',
@@ -339,6 +331,7 @@ export function buildScene(spec: DioramaSpec, garage: Garage, conditions: Condit
   )
   const phase = ((hour - 6) / 12) * Math.PI
   sun.position.set(Math.cos(phase) * 8, Math.max(1, Math.sin(phase) * 10), 4)
+  sun.layers.enable(1)
   scene.add(sun)
   const camera = new T.OrthographicCamera(-6.3, 6.3, 5.8, -5.8, 0.1, 60)
   camera.position.set(12, 11, 12)
