@@ -4,6 +4,7 @@ import type { DioramaSpec } from './spec'
 import { buildScene, type Conditions } from './scene'
 import { registerScene, MAX_ZOOM, MIN_ZOOM } from './renderer'
 import { DRAG_RADIANS_PER_PX } from './route'
+import { canMakeVideo, canShareFiles, compose, makeClip, save, shareOrSave, TURN_SECONDS, type ClipFormat } from './share'
 import './diorama3d.css'
 
 export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditions: Conditions }) {
@@ -20,34 +21,36 @@ export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditi
     zoom.current = controller.current?.zoomBy(factor) ?? zoom.current
     setZoomLevel(zoom.current)
   }
-  // The view as a picture, with the road's name on a paper band beneath it, like a postcard caption.
-  const download = () => {
-    const view = controller.current?.snapshot()
-    if (!view) return
-    const band = Math.round(view.width * 0.09)
-    const picture = document.createElement('canvas')
-    picture.width = view.width
-    picture.height = view.height + band
-    const ctx = picture.getContext('2d')!
-    ctx.fillStyle = '#f6ead3'
-    ctx.fillRect(0, 0, picture.width, picture.height)
-    ctx.drawImage(view, 0, 0)
-    ctx.fillStyle = '#354738'
-    ctx.textBaseline = 'middle'
-    ctx.font = `${Math.round(band * 0.36)}px 'Fraunces Variable', Georgia, serif`
-    ctx.fillText(spec.title, band * 0.4, view.height + band / 2, picture.width * 0.7)
-    ctx.textAlign = 'right'
-    ctx.globalAlpha = 0.7
-    ctx.font = `${Math.round(band * 0.2)}px Georgia, serif`
-    ctx.fillText('rambleroo.app', picture.width - band * 0.4, view.height + band / 2)
-    picture.toBlob((blob) => {
-      if (!blob) return
-      const link = document.createElement('a')
-      link.href = URL.createObjectURL(blob)
-      link.download = `${spec.bywayId}-miniature.png`
-      link.click()
-      setTimeout(() => URL.revokeObjectURL(link.href), 1000)
-    }, 'image/png')
+  // Sharing: one full turn of the turntable from the current view, as a video or a looping GIF. Encoding takes a few seconds, and a
+  // share sheet needs a fresh tap, so the finished file waits behind its own Share and Save buttons.
+  const [share, setShare] = useState<
+    | { step: 'closed' | 'choose' }
+    | { step: 'making'; format: ClipFormat; progress: number }
+    | { step: 'ready'; file: File }
+    | { step: 'failed' }
+  >({ step: 'closed' })
+  const [video, setVideo] = useState(false)
+  useEffect(() => {
+    if (share.step === 'choose') void canMakeVideo().then(setVideo)
+  }, [share.step])
+  const make = async (format: ClipFormat) => {
+    const miniature = controller.current
+    if (!miniature) return
+    setShare({ step: 'making', format, progress: 0 })
+    const release = miniature.hold()
+    const canvas = document.createElement('canvas')
+    try {
+      const blob = await makeClip(
+        format,
+        (i, count, width) => compose(miniature.snapshot(width, (2 * Math.PI * i) / count, (TURN_SECONDS * i) / count), spec.title, canvas),
+        (progress) => setShare({ step: 'making', format, progress }),
+      )
+      setShare({ step: 'ready', file: new File([blob], `${spec.bywayId}-miniature.${format}`, { type: blob.type }) })
+    } catch {
+      setShare({ step: 'failed' })
+    } finally {
+      release()
+    }
   }
   const garage = useGarage()
   const [error, setError] = useState(false),
@@ -169,12 +172,66 @@ export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditi
         <button type="button" aria-label="Zoom out" disabled={zoomLevel <= MIN_ZOOM} onClick={() => zoomBy(1 / 1.25)}>
           −
         </button>
-        <button type="button" aria-label="Download a picture of this view" title="Download a picture of this view" onClick={download}>
+        <button
+          type="button"
+          aria-label="Share this miniature as a video or GIF"
+          title="Share this miniature as a video or GIF"
+          aria-expanded={share.step !== 'closed'}
+          onClick={() => setShare(share.step === 'closed' ? { step: 'choose' } : { step: 'closed' })}
+        >
           <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
-            <path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M3 13h10" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+            <path
+              d="M8 10V2M5 4.5 8 1.5l3 3M4.5 7H3.5v7h9V7h-1"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
           </svg>
         </button>
       </div>
+      {share.step !== 'closed' && (
+        <div className="rr-mini-share" onPointerDown={(e) => e.stopPropagation()} onKeyDown={(e) => e.stopPropagation()}>
+          {share.step === 'choose' && (
+            <>
+              <p>One full turn of this view, {TURN_SECONDS} seconds.</p>
+              {video && (
+                <button type="button" onClick={() => void make('mp4')}>
+                  Video (MP4)
+                </button>
+              )}
+              <button type="button" onClick={() => void make('gif')}>
+                Looping GIF
+              </button>
+            </>
+          )}
+          {share.step === 'making' && (
+            <p role="status">
+              Making the {share.format === 'mp4' ? 'video' : 'GIF'}… {Math.round(share.progress * 100)}%
+            </p>
+          )}
+          {share.step === 'ready' && (
+            <>
+              <p role="status">Ready, {(share.file.size / 1e6).toFixed(1)} MB.</p>
+              {canShareFiles(share.file) && (
+                <button type="button" onClick={() => void shareOrSave(share.file, spec.title)}>
+                  Share
+                </button>
+              )}
+              <button type="button" onClick={() => save(share.file)}>
+                Save
+              </button>
+            </>
+          )}
+          {share.step === 'failed' && <p role="status">That didn't work. Keep the miniature on screen while it records and try again.</p>}
+          {share.step !== 'making' && (
+            <button type="button" className="rr-mini-share-close" aria-label="Close" onClick={() => setShare({ step: 'closed' })}>
+              ×
+            </button>
+          )}
+        </div>
+      )}
       {error && <p role="status">This miniature needs WebGL. Its landmarks are listed below.</p>}
     </div>
   )
