@@ -77,7 +77,16 @@ function draw(now: number) {
       Math.min(width, r.right) - Math.max(0, r.left),
       Math.min(height, r.bottom) - Math.max(0, r.top),
     )
+    camera.layers.set(0)
     renderer.render(slot.built.scene, camera)
+    // Scissor is still set to this miniature: neighbouring tiles retain their depth.
+    renderer.clearDepth()
+    const background = slot.built.scene.background
+    slot.built.scene.background = null
+    camera.layers.set(1)
+    renderer.render(slot.built.scene, camera)
+    camera.layers.set(0)
+    slot.built.scene.background = background
     slot.built.world.updateMatrixWorld(true)
     slot.built.townAnchors.forEach((town, i) => {
       const point = town.point.clone().applyMatrix4(slot.built.world.matrixWorld).project(camera)
@@ -99,6 +108,7 @@ function createRenderer() {
   canvasWidth = 0
   canvasHeight = 0
   renderer = new T.WebGLRenderer({ alpha: true, antialias: true, powerPreference: 'low-power' })
+  renderer.autoClear = false
   renderer.setPixelRatio(Math.min(devicePixelRatio, 1.5))
   renderer.outputColorSpace = T.SRGBColorSpace
   renderer.domElement.className = 'rr-mini-canvas'
