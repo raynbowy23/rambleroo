@@ -21,7 +21,7 @@ npm run build
 npx wrangler dev --port 8787
 ```
 
-In another terminal run `npm run dev` and open `http://localhost:5173`. Vite proxies `/api` to Wrangler on port 8787 and keeps the browser origin. If Vite picks a different port, update `AUTH_URL` and the Google redirect URI to match and restart Wrangler. Local D1 is separate from production.
+In another terminal run `npm run dev` and open `http://localhost:5173`. `npm run dev:api` starts Wrangler the same way (building `dist/` first if it is missing). Without Wrangler the app still runs, but everything under `/api` fails: street frames, sign-in and sync, and Vite logs `http proxy error ... ECONNREFUSED 127.0.0.1:8787` for each request. Street frames also need `MAPILLARY_TOKEN` in `.dev.vars`. Vite proxies `/api` to Wrangler on port 8787 and keeps the browser origin. If Vite picks a different port, update `AUTH_URL` and the Google redirect URI to match and restart Wrangler. Local D1 is separate from production.
 
 How sync behaves: on the first sign-in in a browser, existing browser data can be imported or left local. Signed-in edits are saved after 1.5 seconds. Pending writes and their base versions are kept per account in localStorage and retried after reconnecting, on the next sign-in, or with "Retry sync". A 409 merges and retries once, and a second conflict waits for an explicit retry. Signed-out browser data is backed up separately and restored on sign-out. Account export waits for pending changes, then downloads the server's copy, which lists photos and shares.
 

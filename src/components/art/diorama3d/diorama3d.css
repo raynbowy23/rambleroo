@@ -118,6 +118,35 @@
   font-size: 12px;
   line-height: 1.8;
 }
+.rr-mini-zoom {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.rr-mini-zoom button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #b5ac92;
+  border-radius: 6px;
+  background: #f6ead3e6;
+  color: #354738;
+  font:
+    18px/1 Georgia,
+    serif;
+  cursor: pointer;
+}
+.rr-mini-zoom button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.rr-mini-zoom button:focus-visible {
+  outline: 2px solid #bd6339;
+  outline-offset: 1px;
+}
 .rr-mini-view:active {
   cursor: grabbing;
 }
