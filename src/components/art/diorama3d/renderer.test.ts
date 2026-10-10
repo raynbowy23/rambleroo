@@ -149,6 +149,25 @@ it('shares one WebGL context, sleeps off screen and releases resources', () => {
   expect(registrations[0].zoomBy(100)).toBe(MAX_ZOOM)
   expect(registrations[0].zoomBy(0.0001)).toBe(MIN_ZOOM)
   expect(registrations[0].zoomBy(Number.NaN)).toBe(MIN_ZOOM)
+  // Panning follows the finger once zoomed in, stays inside the tile, and pulling back recentres the view.
+  const origin = () => {
+    tick()
+    built[0].world.updateMatrixWorld(true)
+    built[0].camera.updateMatrixWorld(true)
+    return new T.Vector3(0, 0.7, 0).applyMatrix4(built[0].world.matrixWorld).project(built[0].camera)
+  }
+  registrations[0].panBy(100, 0)
+  expect(origin().x).toBeCloseTo(0, 5)
+  registrations[0].zoomBy(MAX_ZOOM)
+  registrations[0].panBy(56, 0)
+  expect(origin().x).toBeCloseTo(0.2, 3)
+  registrations[0].panBy(0, 56)
+  expect(origin().y).toBeCloseTo(-0.2, 3)
+  registrations[0].panBy(1e6, 0)
+  expect(origin().x).toBeLessThan(5)
+  registrations[0].zoomBy(0.0001)
+  const home = origin()
+  expect(Math.hypot(home.x, home.y)).toBeCloseTo(0, 5)
   registrations[0].zoomBy(1 / MIN_ZOOM)
   registrations[0].release()
   reduceMotion = true

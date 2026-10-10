@@ -139,6 +139,11 @@
     serif;
   cursor: pointer;
 }
+.rr-mini-zoom button:last-child {
+  margin-top: 6px;
+  display: grid;
+  place-items: center;
+}
 .rr-mini-zoom button:disabled {
   opacity: 0.4;
   cursor: default;
