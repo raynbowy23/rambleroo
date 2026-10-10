@@ -1,5 +1,5 @@
 import { loadCarPicture } from '../../lib/carPicture'
-import { firstPhoto } from '../../lib/data'
+import { loadFirstPhoto } from '../../lib/data'
 import { createRoot } from 'react-dom/client'
 import { flushSync } from 'react-dom'
 import { Stamp } from '../../components/art'
@@ -21,7 +21,7 @@ function dataUrl(blob: Blob): Promise<string> {
   })
 }
 export async function renderBywayPostcard(byway: BywaySummary, story?: BywayStory | null, note = '', photo?: Photo, milestone?: Milestone) {
-  photo = milestone ? milestone.photo : (photo ?? firstPhoto([byway.id]))
+  photo = milestone ? milestone.photo : (photo ?? (await loadFirstPhoto([byway.id])))
   const choices = usePostcards.getState().cards[cardKey(byway.id, milestone?.id)] ?? {
     ...postcardDefaults(photo, milestone ? 'greetings' : byway.look.lettering),
     note,
