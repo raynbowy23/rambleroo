@@ -23,6 +23,8 @@ let canvasWidth = 0,
 let frame = 0,
   last = 0
 const slots = new Set<Slot>()
+/** While a recording is being made the page's miniatures stand still, so the shared canvas is free for its frames. */
+let held = 0
 /** How far a reader can pull back from, or move in on, the tile. */
 export const MIN_ZOOM = 0.8
 export const MAX_ZOOM = 4
@@ -32,7 +34,7 @@ const panLimit = (zoom: number) => Math.max(0, PAN_LIMIT * (1 - 1 / zoom))
 const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
 function draw(now: number) {
   frame = 0
-  if (!renderer || document.hidden) return
+  if (!renderer || document.hidden || held) return
   const dt = Math.min((now - last) / 1000, 0.05)
   last = now
   const width = window.innerWidth,
@@ -111,8 +113,17 @@ function paint(slot: Slot, camera: T.OrthographicCamera) {
   camera.layers.set(0)
   slot.built.scene.background = background
 }
-/** A still of the miniature as the reader sees it now, `width` pixels wide, with its town names. */
-function snapshot(slot: Slot, width: number) {
+/**
+ * A still of the miniature as the reader sees it now, `width` pixels wide, with its town names; `turn` radians further round the
+ * turntable and `seconds` further along the drive, for the frames of a recording.
+ */
+function snapshot(slot: Slot, width: number, turn = 0, seconds = 0) {
+  const angle = slot.angle,
+    elapsed = slot.elapsed
+  slot.angle += turn
+  slot.elapsed += seconds
+  slot.built.world.rotation.y = slot.angle
+  slot.built.update(slot.elapsed)
   const r = slot.element.getBoundingClientRect()
   const aspect = r.width / r.height || 1
   const height = Math.round(width / aspect)
@@ -151,6 +162,8 @@ function snapshot(slot: Slot, width: number) {
     ctx.fillStyle = '#354738'
     ctx.fillText(town.name, x, y - size * 0.2)
   }
+  slot.angle = angle
+  slot.elapsed = elapsed
   wake()
   return out
 }
@@ -242,8 +255,19 @@ export function registerScene(element: HTMLElement, built: BuiltScene) {
       if (slot.focus.length() > panLimit(slot.zoom)) slot.focus.setLength(panLimit(slot.zoom))
       wake()
     },
-    snapshot(width = 1600) {
-      return snapshot(slot, width)
+    snapshot(width = 1600, turn = 0, seconds = 0) {
+      return snapshot(slot, width, turn, seconds)
+    },
+    /** Stops the page's miniatures drawing until the returned function is called. */
+    hold() {
+      held++
+      let released = false
+      return () => {
+        if (released) return
+        released = true
+        held--
+        wake()
+      }
     },
     release() {
       slot.dragging = false

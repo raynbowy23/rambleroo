@@ -169,6 +169,16 @@ it('shares one WebGL context, sleeps off screen and releases resources', () => {
   const home = origin()
   expect(Math.hypot(home.x, home.y)).toBeCloseTo(0, 5)
   registrations[0].zoomBy(1 / MIN_ZOOM)
+  // While a recording holds the canvas, the page's miniatures stop drawing; letting go starts them again.
+  const release = registrations[0].hold()
+  const before = mock.render.mock.calls.length
+  registrations[0].rotateBy(0)
+  tick()
+  expect(mock.render.mock.calls.length).toBe(before)
+  release()
+  release()
+  tick()
+  expect(mock.render.mock.calls.length).toBeGreaterThan(before)
   registrations[0].release()
   reduceMotion = true
   const angle = built[0].world.rotation.y
