@@ -46,17 +46,6 @@
   outline: 3px solid #bd6339;
   outline-offset: -4px;
 }
-.rr-mini-view::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 5;
-  pointer-events: none;
-  opacity: 0.1;
-  background-image: repeating-radial-gradient(circle at 25% 15%, #573b25 0 0.45px, transparent 0.75px 3px);
-  background-size: 7px 9px;
-  mix-blend-mode: multiply;
-}
 .rr-mini-view::before {
   content: '';
   position: absolute;

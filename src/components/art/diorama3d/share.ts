@@ -1,8 +1,9 @@
-// Turns a miniature into something to send: one full turn of the turntable as an MP4 video or a looping GIF, with the road's name on a
+// Turns a miniature into something to send: the car's drive along the whole road, seen from the reader's view held still, as an MP4
+// video or a looping GIF, with the road's name on a
 // paper band beneath it like a postcard caption. Frames come from the renderer's snapshot; the encoders load only when asked for.
 
-/** One full turn of the turntable, in seconds. The car drives on at its usual pace meanwhile. */
-export const TURN_SECONDS = 6
+/** Length of the clip, in seconds: the car's whole drive, sped up to fit, while the view stays where the reader left it. */
+export const CLIP_SECONDS = 8
 export type ClipFormat = 'mp4' | 'gif'
 export const CLIP = {
   mp4: { width: 1080, fps: 30, type: 'video/mp4' },
@@ -52,7 +53,7 @@ const nextTask = () => new Promise((resolve) => setTimeout(resolve, 0))
 
 export async function makeClip(format: ClipFormat, frame: FrameSource, onProgress: (share: number) => void): Promise<Blob> {
   const { width, fps } = CLIP[format]
-  const count = TURN_SECONDS * fps
+  const count = CLIP_SECONDS * fps
   return format === 'mp4' ? makeVideo(frame, count, width, fps, onProgress) : makeGif(frame, count, width, fps, onProgress)
 }
 
