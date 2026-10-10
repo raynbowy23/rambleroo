@@ -1,4 +1,3 @@
-import photoData from '../../content/photos.json'
 import { useEffect, useState } from 'react'
 import type { BywaySummary, BywayStory, Collection, Photo, StateChapter } from './types'
 import collectionData from '../../content/collections.json'
@@ -83,16 +82,73 @@ export function useStory(id?: string) {
   return value.id === id ? value : { story: undefined, error: undefined, status: 'loading' as const }
 }
 
-export function firstPhoto(bywayIds: string[]): Photo | undefined {
-  for (const id of bywayIds) {
-    const photo = (photoData as Photo[]).find((photo) => photo.bywayId === id)
-    if (photo) return photo
-  }
+// Photos are fetched, not bundled: covers.json (one cover per road) for cards and list pages, and one file per road with all of its
+// photos for that road's page, postcards and strip map. scripts/photos/split.ts writes both from content/photos.json.
+// Loaded values are kept so a page mounted later starts with its photo instead of flashing the illustration first.
+let coversPromise: Promise<Record<string, Photo>> | undefined
+let coversLoaded: Record<string, Photo> | undefined
+export function loadCovers() {
+  return (coversPromise ??= fetch('/data/photos/covers.json')
+    .then((r) => (r.ok ? (r.json() as Promise<Record<string, Photo>>) : {}))
+    .then((c) => (coversLoaded = c))
+    .catch(() => {
+      coversPromise = undefined
+      return {}
+    }))
 }
-export function usePhotos(bywayId?: string): Photo[] {
-  return (photoData as Photo[]).filter((photo) => photo.bywayId === bywayId)
+/** Cover photos by road id; undefined until loaded, so callers can keep their illustration until then. */
+export function useCovers() {
+  const [covers, setCovers] = useState(coversLoaded)
+  useEffect(() => {
+    let active = true
+    void loadCovers().then((c) => {
+      if (active) setCovers(c)
+    })
+    return () => {
+      active = false
+    }
+  }, [])
+  return covers
+}
+/** The first of these roads that has a cover photo. */
+export const firstPhoto = (covers: Record<string, Photo> | undefined, bywayIds: string[]) =>
+  covers && bywayIds.map((id) => covers[id]).find(Boolean)
+export async function loadFirstPhoto(bywayIds: string[]) {
+  return firstPhoto(await loadCovers(), bywayIds)
 }
 
-const photographed = new Set((photoData as Photo[]).map((photo) => photo.bywayId))
-/** True when the road has at least one published photograph. */
-export const hasPhoto = (bywayId: string) => photographed.has(bywayId)
+const roadPhotos = new Map<string, Promise<Photo[]>>()
+const roadPhotosLoaded = new Map<string, Photo[]>()
+export function loadPhotos(bywayId: string) {
+  if (!roadPhotos.has(bywayId))
+    roadPhotos.set(
+      bywayId,
+      fetch(`/data/photos/${encodeURIComponent(bywayId)}.json`)
+        .then((r) => (r.ok ? (r.json() as Promise<Photo[]>) : []))
+        .then((photos) => {
+          roadPhotosLoaded.set(bywayId, photos)
+          return photos
+        })
+        .catch(() => {
+          roadPhotos.delete(bywayId)
+          return []
+        }),
+    )
+  return roadPhotos.get(bywayId)!
+}
+const none: Photo[] = []
+/** All of one road's photos, empty while they load. */
+export function usePhotos(bywayId?: string): Photo[] {
+  const [value, setValue] = useState<{ id?: string; photos: Photo[] }>({ photos: none })
+  useEffect(() => {
+    let active = true
+    if (!bywayId) return
+    void loadPhotos(bywayId).then((photos) => {
+      if (active) setValue({ id: bywayId, photos })
+    })
+    return () => {
+      active = false
+    }
+  }, [bywayId])
+  return value.id === bywayId ? value.photos : ((bywayId ? roadPhotosLoaded.get(bywayId) : undefined) ?? none)
+}

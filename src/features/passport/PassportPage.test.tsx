@@ -31,6 +31,7 @@ vi.mock('../../lib/data', () => ({
   useCatalog: () => ({ byways: roads, byId: new Map(roads.map((b) => [b.id, b])), status: 'ready' }),
   useStory: () => ({ story: undefined }),
   usePhotos: () => [],
+  useCovers: () => ({}),
 }))
 vi.mock('../../components/ui/RouteMap', () => ({ RouteMap: () => null }))
 beforeAll(() => vi.stubGlobal('matchMedia', () => ({ matches: false, addEventListener: vi.fn(), removeEventListener: vi.fn() })))

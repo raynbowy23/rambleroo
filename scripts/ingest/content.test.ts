@@ -153,6 +153,18 @@ describe('photos', () => {
   })
 })
 
+describe('photo files the app fetches', () => {
+  it('match content/photos.json (run npx tsx scripts/photos/split.ts after editing it)', async () => {
+    const { photoFiles } = await import('../photos/split')
+    const files = photoFiles(
+      json<import('../../src/lib/types').Photo[]>('content/photos.json'),
+      json<{ byways: { id: string }[] }>('public/data/catalog.json').byways.map((b) => b.id),
+    )
+    for (const [name, text] of Object.entries(files))
+      expect(readFileSync(new URL(`public/data/photos/${name}`, root), 'utf8'), name).toBe(text)
+  })
+})
+
 describe('photo credits', () => {
   it('never publish placeholder or run-together author text', () => {
     for (const p of json<import('../../src/lib/types').Photo[]>('content/photos.json')) {
