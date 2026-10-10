@@ -89,7 +89,7 @@ function altText(c: Candidate, name: string) {
     const subject = c.file.replace(/^File:/, '').split(' - ')[1]
     return subject ? `${name}: ${subject}.` : `A view along ${name}.`
   }
-  const first = c.description.replace(/\s+/g, ' ').split(/(?<=\.)\s/)[0]
+  const first = c.description.replace(/\s+/g, ' ').split(/(?<=[a-z]{2}\.)\s/)[0]
   return first && first.length > 12 ? `${name}: ${first.slice(0, 160)}` : `A view along ${name}.`
 }
 
