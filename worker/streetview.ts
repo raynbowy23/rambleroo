@@ -23,7 +23,8 @@ export async function streetView(request: Request, env: Env, id: string): Promis
       'street view: Mapillary lookup failed',
       id,
       meta.status,
-      env.MAPILLARY_TOKEN ? `token length ${env.MAPILLARY_TOKEN.length}, starts ${env.MAPILLARY_TOKEN.slice(0, 4)}` : 'no token',
+      // Whether a token is set, never any part of it: Worker logs are kept by Cloudflare observability.
+      env.MAPILLARY_TOKEN ? 'token set' : 'no token',
     )
     return new Response('Street view unavailable', { status: 502 })
   }

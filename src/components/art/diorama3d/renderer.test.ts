@@ -27,7 +27,7 @@ vi.mock('three', async () => {
     },
   }
 })
-import { registerScene } from './renderer'
+import { registerScene, MAX_ZOOM, MIN_ZOOM } from './renderer'
 afterEach(() => {
   vi.unstubAllGlobals()
   vi.restoreAllMocks()
@@ -125,6 +125,14 @@ it('shares one WebGL context, sleeps off screen and releases resources', () => {
   registrations[0].tiltBy(-100)
   tick()
   expect(built[0].camera.position.y).toBeLessThan(highY)
+  const wide = built[0].camera.top
+  registrations[0].zoomBy(2)
+  tick()
+  expect(built[0].camera.top).toBeCloseTo(wide / 2)
+  expect(registrations[0].zoomBy(100)).toBe(MAX_ZOOM)
+  expect(registrations[0].zoomBy(0.0001)).toBe(MIN_ZOOM)
+  expect(registrations[0].zoomBy(Number.NaN)).toBe(MIN_ZOOM)
+  registrations[0].zoomBy(1 / MIN_ZOOM)
   registrations[0].release()
   reduceMotion = true
   const angle = built[0].world.rotation.y

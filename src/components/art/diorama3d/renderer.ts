@@ -7,6 +7,8 @@ interface Slot {
   built: BuiltScene
   angle: number
   tilt: number
+  /** 1 frames the whole tile; larger values move in on the middle of it. */
+  zoom: number
   labels: HTMLSpanElement[]
   dragging: boolean
   visible: boolean
@@ -19,6 +21,9 @@ let canvasWidth = 0,
 let frame = 0,
   last = 0
 const slots = new Set<Slot>()
+/** How far a reader can pull back from, or move in on, the tile. */
+export const MIN_ZOOM = 0.8
+export const MAX_ZOOM = 3
 const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches
 function draw(now: number) {
   frame = 0
@@ -53,7 +58,7 @@ function draw(now: number) {
     const elevation = Math.PI / 5.3 + slot.tilt
     // Projected square width / 85%: fill consistently throughout the turntable.
     const half = (4 * (Math.abs(Math.cos(azimuth)) + Math.abs(Math.sin(azimuth)))) / 0.85
-    const span = Math.max(half / aspect, 5.6)
+    const span = Math.max(half / aspect, 5.6) / slot.zoom
     camera.position.set(
       Math.cos(Math.PI / 4) * 20 * Math.cos(elevation),
       0.7 + 20 * Math.sin(elevation),
@@ -98,7 +103,9 @@ function createRenderer() {
   renderer.outputColorSpace = T.SRGBColorSpace
   renderer.domElement.className = 'rr-mini-canvas'
   renderer.domElement.setAttribute('aria-hidden', 'true')
-  document.body.append(renderer.domElement)
+  // Inside #root, not after it: #root is its own stacking context (z-index 1), so a canvas outside it would cover the town labels,
+  // the zoom buttons and the sticky header that live inside it.
+  ;(document.getElementById('root') ?? document.body).append(renderer.domElement)
   observer = new IntersectionObserver((entries) => {
     for (const entry of entries) for (const slot of slots) if (slot.element === entry.target) slot.visible = entry.isIntersecting
     wake()
@@ -117,7 +124,7 @@ export function registerScene(element: HTMLElement, built: BuiltScene) {
     element.append(label)
     return label
   })
-  const slot: Slot = { element, built, labels, angle: 0, tilt: 0, dragging: false, visible: false, elapsed: 0 }
+  const slot: Slot = { element, built, labels, angle: 0, tilt: 0, zoom: 1, dragging: false, visible: false, elapsed: 0 }
   slots.add(slot)
   observer!.observe(element)
   wake()
@@ -132,6 +139,11 @@ export function registerScene(element: HTMLElement, built: BuiltScene) {
     tiltBy(delta: number) {
       if (Number.isFinite(delta)) slot.tilt = T.MathUtils.clamp(slot.tilt + delta, -Math.PI / 12, Math.PI / 12)
       wake()
+    },
+    zoomBy(factor: number) {
+      if (Number.isFinite(factor) && factor > 0) slot.zoom = T.MathUtils.clamp(slot.zoom * factor, MIN_ZOOM, MAX_ZOOM)
+      wake()
+      return slot.zoom
     },
     release() {
       slot.dragging = false
