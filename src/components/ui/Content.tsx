@@ -6,6 +6,7 @@ import { useMotionEnabled } from '../../lib/motion'
 import type { SceneFamily, Theme, Region, Motif, PostcardLook, Photo } from '../../lib/types'
 import { illustrationCaption } from '../../lib/format'
 import { PhotoImage, PhotoCredit } from '../../features/photos/Photos'
+import { Contact } from '../../features/legal/Contact'
 import s from './Content.module.css'
 export function Hero({
   photo,
@@ -106,6 +107,10 @@ export function Sources({ sources }: { sources: { label: string; url: string }[]
           </li>
         ))}
       </ul>
+      <p className={s.corrections}>
+        This text is researched from the sources above, but it may contain mistakes or fall out of date. If you spot one, corrections are
+        always welcome: open <Contact /> (issues are public, so leave out personal details).
+      </p>
     </section>
   )
 }
