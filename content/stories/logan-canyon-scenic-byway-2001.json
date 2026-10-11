@@ -1,20 +1,21 @@
 {
   "id": "logan-canyon-scenic-byway-2001",
-  "tagline": "Up the Logan River and over the top to turquoise water.",
+  "tagline": "Follow the Logan River through limestone cliffs toward Bear Lake.",
   "motifs": [
     "limestone-ledges",
     "lake-wide"
   ],
   "intro": [
-    "From Logan, US 89 goes up the canyon beside the Logan River, between deeply cut limestone walls laden with fossils and some 500 million years of geologic history. It climbs about 2,900 feet to a summit near 7,800. Just over the top the overlooks take in Bear Lake, and then the road drops steeply to Garden City on its shore.",
-    "Thomas Ricks and his neighbors began the road at Brigham Young's suggestion, and within a decade the stretch to Ricks Spring was a favorite outing for camping and automobiling. In 1903 Horatio Nelson Jackson stopped in Garden City on the first automobile trip across the country."
+    "US 89 follows the Logan River between limestone cliffs, climbing through Logan Canyon before descending steeply toward Bear Lake Valley. The Forest Service describes this National Scenic Byway as a winding journey northeast through national forest, with fossil-bearing canyon walls exposing 500 million years of geologic history.",
+    "Thomas E. Ricks had settled in Cache Valley in 1859, when Logan Canyon supplied timber and other resources to nearby settlements. The road began as a connection to Bear Lake Valley: at Brigham Young’s recommendation, Ricks and other community members undertook its construction. The section reaching Ricks Spring was completed first, before winter; that road is now part of US 89 and the scenic byway. National designation in 2002 also changed the corridor: the stretch north from Garden City to the Idaho line became part of the Bear Lake Scenic Byway.",
+    "Beginning at 1500 East in Logan, the route connects Cache Valley with Bear Lake Valley. The canyon climbs about 2,900 feet to approximately 7,800 feet above sea level. Beyond the summit, overlooks face Bear Lake and the road drops steeply into its valley. The designated corridor finishes at SR 30 in Garden City."
   ],
   "moments": [
     {
       "title": "Jardine Juniper",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "A Rocky Mountain juniper long credited with 3,000 years. Cores taken in the 1950s put it nearer 1,500, which is still a long while to stand in one canyon.",
+      "text": "Often credited with more than 3,000 years, this Rocky Mountain juniper yielded core samples in the 1950s that put its age at around 1,500 years. It stands approximately 40 feet tall in Logan Canyon. Maurice Blood Linford found it in 1923 while a student at Utah State Agricultural College. Its name honors another alumnus, William Marion Jardine, who served as U.S. secretary of agriculture.",
       "at": [
         -111.6326,
         41.8161
@@ -24,7 +25,7 @@
       "title": "Ricks Spring",
       "kind": "roadside",
       "scene": "river",
-      "text": "Visitors carried home barrels of its spring water and came down with giardia. In 1972 dye put into the Logan River turned up here, coming back out of the limestone.",
+      "text": "Ricks Spring brings river water back out of the rock. Visitors once took jugs and barrels home, mistaking the water for the product of a deep aquifer; giardia made many of them sick. Hydrogeologists suspected the link in the 1950s after noticing a pattern in the flows. In 1972, dye placed in the Logan River appeared at the spring, confirming the connection. Further tracing linked it to minor streams and Tony Grove Lake as well. Water eroded passages through fractured limestone, making a route from higher inflows to this cave outflow.",
       "at": [
         -111.5925,
         41.8439
@@ -37,7 +38,8 @@
       "title": "Bear Lake",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "From the overlooks just past the summit the lake shows the turquoise that suspended calcium carbonate gives it, the color behind its name, the Caribbean of the Rockies.",
+      "text": "The overlooks beyond Logan Canyon’s summit reveal Bear Lake before the descent into its valley. Its turquoise-blue color comes from suspended calcium carbonate deposits that refract light. This natural lake straddles Utah and Idaho, occupying a basin formed by fault subsidence that continues to deepen its eastern side. Its relationship with the Bear River changed in 1911, when a diversion directed most of the river’s flow into the lake through Mud Lake. An outlet canal returns the water to the Bear River. That connection allows water to be stored for irrigation later in the year.",
+      "notice": "Notice the lake’s turquoise-blue water, colored by suspended calcium carbonate.",
       "at": [
         -111.3333,
         42.0
@@ -47,16 +49,9 @@
       ]
     }
   ],
-  "practical": [
-    "The canyon road is winding with sharp changes in elevation, and winter weather makes it hazardous."
-  ],
   "sources": [
     {
-      "label": "USDA Forest Service, Logan Canyon National Scenic Byway",
-      "url": "https://www.fs.usda.gov/r04/uinta-wasatch-cache/recreation/logan-canyon-national-scenic-byway"
-    },
-    {
-      "label": "Visit Utah, Scenic Byways",
+      "label": "Utah Office of Tourism, Utah’s Scenic Byways",
       "url": "https://www.visitutah.com/things-to-do/road-trips/scenic-byways"
     },
     {
@@ -64,20 +59,24 @@
       "url": "https://en.wikipedia.org/wiki/Logan_Canyon"
     },
     {
-      "label": "Wikipedia, Jardine Juniper",
-      "url": "https://en.wikipedia.org/wiki/Jardine_Juniper"
+      "label": "USDA Forest Service, Logan Canyon National Scenic Byway",
+      "url": "https://www.fs.usda.gov/r04/uinta-wasatch-cache/recreation/logan-canyon-national-scenic-byway"
     },
     {
       "label": "Wikipedia, Ricks Spring",
       "url": "https://en.wikipedia.org/wiki/Ricks_Spring"
     },
     {
-      "label": "Wikipedia, Bear Lake (Idaho-Utah)",
-      "url": "https://en.wikipedia.org/wiki/Bear_Lake_(Idaho%E2%80%93Utah)"
+      "label": "Cornell Legal Information Institute, Utah Admin. Code R926-13-4",
+      "url": "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R926-13-4"
     },
     {
-      "label": "Wikipedia, Garden City, Utah",
-      "url": "https://en.wikipedia.org/wiki/Garden_City,_Utah"
+      "label": "Wikipedia, Jardine Juniper",
+      "url": "https://en.wikipedia.org/wiki/Jardine_Juniper"
+    },
+    {
+      "label": "Wikipedia, Bear Lake (Idaho–Utah)",
+      "url": "https://en.wikipedia.org/wiki/Bear_Lake_%28Idaho%E2%80%93Utah%29"
     }
   ],
   "reviewed": false

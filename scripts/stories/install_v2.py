@@ -12,6 +12,9 @@ SCENES = {'river', 'coast', 'mountain', 'forest', 'desert', 'town', 'prairie'}
 HERE = os.path.dirname(os.path.abspath(__file__))
 cat = {b['id']: b for b in json.load(open('public/data/catalog.json'))['byways']}
 photos = json.load(open('content/photos.json'))
+# Street-level frames are only placed on roadside and town moments (content/streetview-moments.json), so a moment that has one keeps
+# that kind even if the writer reclassified it.
+framed = {(v['bywayId'], v['moment']) for v in json.load(open('content/streetview-moments.json'))}
 photos_changed = False
 os.makedirs('content/story-notes', exist_ok=True)
 installed = []
@@ -33,6 +36,9 @@ for W in sys.argv[1:]:
         practical, moments = [], []
         for m in d['moments']:
             keep = {'title': m['title'], 'kind': m['kind'] if m.get('kind') in KINDS else 'roadside', 'scene': m['scene'] if m.get('scene') in SCENES else cat[i]['scene'], 'text': m['text']}
+            if (i, m['title']) in framed and keep['kind'] not in ('roadside', 'town'):
+                before = next((c['kind'] for c in json.load(open(f'{W}/current/{i}.json'))['moments'] if c['title'] == m['title']), 'roadside')
+                keep['kind'] = before if before in ('roadside', 'town') else 'roadside'
             if m.get('notice'): keep['notice'] = m['notice']
             if isinstance(m.get('at'), list) and len(m['at']) == 2: keep['at'] = m['at']
             motifs = [x for x in m.get('motifs') or [] if x in MOTIFS]

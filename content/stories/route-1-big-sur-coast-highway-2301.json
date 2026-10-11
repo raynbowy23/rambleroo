@@ -1,21 +1,21 @@
 {
   "id": "route-1-big-sur-coast-highway-2301",
-  "tagline": "Mountains that drop straight into the Pacific.",
+  "tagline": "Concrete arches carry a cliffside highway through canyons and redwood country.",
   "motifs": [
     "arch-bridge",
     "sea-rock"
   ],
   "intro": [
-    "Highway 1 through Big Sur follows a steep, largely undeveloped coastline where the Santa Lucia Mountains meet the ocean. The road is carved into the slope and crosses a series of canyons on high bridges.",
-    "Landslides close parts of this road for long periods. Check Caltrans for current status before planning a through trip."
+    "Highway 1 winds along Big Sur’s cliffs, crossing canyons on bridges and briefly leaving the coast for redwood forest in the Big Sur River valley. The Federal Highway Administration lists the Big Sur Coast Highway as a 72-mile All-American Road, highlighting rugged canyons, redwoods and Pacific coastal views. The Big Sur coast section became California’s first State Scenic Highway in 1965.",
+    "California approved the Carmel–San Simeon Highway in 1919 to connect Big Sur with the rest of the state. San Quentin State Prison established three temporary camps whose inmates supplied construction labor. The route required 33 bridges, with Bixby the largest. New Deal funds helped finish the work during the Depression, and the paved two-lane road opened on June 17, 1937, after eighteen years of construction. Landslides have repeatedly interrupted this coastal connection, including a 2011 slide that closed the highway for months.",
+    "Traveling south, Carmel Highlands forms the northern gateway to the Big Sur coast. Bixby Creek Bridge comes before Point Sur and the Big Sur River valley. Farther south, the highway passes Lucia and Gorda toward San Carpóforo Creek. San Carpóforo Creek flows through its canyon into a small Pacific bay and is generally considered the southern boundary of the Big Sur region."
   ],
-  "season": "Spring for wildflowers, autumn for clearer skies. Summer mornings are often foggy.",
   "moments": [
     {
       "title": "Bixby Creek Bridge",
       "kind": "roadside",
       "scene": "coast",
-      "text": "A concrete arch bridge high above the mouth of Bixby Creek.",
+      "text": "Bixby’s concrete arch replaced a long diversion inland. Before the bridge opened in 1932, the Old Coast Road went eleven miles inland and became impassable in winter. Engineers considered a smaller inland bridge with a tunnel before choosing the coastal crossing. Concrete reduced construction and maintenance costs and echoed the surrounding rock, part of the reason engineers chose it over steel. The arch has tall supporting columns above it; the two large vertical buttresses at its sides are decorative rather than structurally necessary. The bridge was finished five years before the through highway.",
       "at": [
         -121.902,
         36.372
@@ -28,7 +28,7 @@
       "title": "Point Sur",
       "kind": "separate excursion",
       "scene": "coast",
-      "text": "A lighthouse on a volcanic rock off the coast, visited on guided tours.",
+      "text": "Point Sur’s lighthouse had a road connection in the making before the coastal highway. In 1888, Joseph Post won a government contract to link his father’s road with Point Sur, the future lighthouse site. The point’s name predates that work: the U.S. Coast Survey named it Point Sur in 1851, describing a point that looked like an island. Offshore from nearby Andrew Molera State Park, the Point Sur marine reserve and conservation area protect ocean wildlife and ecosystems.",
       "at": [
         -121.901,
         36.306
@@ -42,7 +42,7 @@
       "title": "McWay Falls",
       "kind": "short walk",
       "scene": "coast",
-      "text": "A waterfall that drops onto the beach of a small cove, seen from a short trail.",
+      "text": "McWay Falls is a waterfall in Julia Pfeiffer Burns State Park.",
       "at": [
         -121.672,
         36.157
@@ -54,8 +54,52 @@
   ],
   "sources": [
     {
-      "label": "Caltrans, QuickMap road conditions",
-      "url": "https://quickmap.dot.ca.gov/"
+      "label": "Wikipedia, California State Route 1",
+      "url": "https://en.wikipedia.org/wiki/California_State_Route_1"
+    },
+    {
+      "label": "Federal Highway Administration, Route 1 - Big Sur Coast Highway (archived)",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2301"
+    },
+    {
+      "label": "Wikipedia, Carmel Highlands, California",
+      "url": "https://en.wikipedia.org/wiki/Carmel_Highlands%2C_California"
+    },
+    {
+      "label": "Wikipedia, Bixby Bridge",
+      "url": "https://en.wikipedia.org/wiki/Bixby_Bridge"
+    },
+    {
+      "label": "Wikipedia, Palo Colorado Canyon, California",
+      "url": "https://en.wikipedia.org/wiki/Palo_Colorado_Canyon%2C_California"
+    },
+    {
+      "label": "Wikipedia, Lucia, California",
+      "url": "https://en.wikipedia.org/wiki/Lucia%2C_California"
+    },
+    {
+      "label": "Wikipedia, Gorda, California",
+      "url": "https://en.wikipedia.org/wiki/Gorda%2C_California"
+    },
+    {
+      "label": "Wikipedia, San Carpóforo Canyon",
+      "url": "https://en.wikipedia.org/wiki/San_Carp%C3%B3foro_Canyon"
+    },
+    {
+      "label": "Big Sur Chamber of Commerce, Big Sur California",
+      "url": "https://www.bigsurcalifornia.org/"
+    },
+    {
+      "label": "Wikipedia, Posts, California",
+      "url": "https://en.wikipedia.org/wiki/Posts%2C_California"
+    },
+    {
+      "label": "Wikipedia, Big Sur River",
+      "url": "https://en.wikipedia.org/wiki/Big_Sur_River"
+    },
+    {
+      "label": "Wikipedia, Andrew Molera State Park",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Molera_State_Park"
     }
   ],
   "reviewed": false

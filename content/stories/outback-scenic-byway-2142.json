@@ -1,20 +1,21 @@
 {
   "id": "outback-scenic-byway-2142",
-  "tagline": "Out of the pines, under the long wall of Abert Rim.",
+  "tagline": "From pine forest to sagebrush plains beneath the wall of Abert Rim.",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "South of La Pine, Route 31 runs southeast through lodgepole and ponderosa pine. Twenty-seven miles on, the forest quits all at once for sagebrush plains. The road passes Silver Lake, named for a dry basin a few miles east that fills about once every 30 years, climbs over Picture Rock Pass at 4,830 feet and comes down along Summer Lake, long, shallow and strongly alkaline.",
-    "Beyond Paisley, which holds a Mosquito Festival every July, Route 31 meets US 395 at Valley Falls, and the byway runs on through Lakeview to the California line at New Pine Creek, 171 miles from the pines."
+    "The Outback Scenic Byway runs 171 miles from the La Pine area to New Pine Creek at the California border. Its two-lane rural roads cross from pine forest into sagebrush plains, climb Picture Rock Pass and pass alkaline lakes. Oregon’s transportation department presents this National Scenic Byway as a journey through the Great Basin’s varied high-desert landscape, with lakes used by Pacific Flyway waterfowl. It gives a minimum driving time of four to six hours.",
+    "Part of the journey follows an earlier transportation corridor: the main north-south stage road that is now Oregon Route 31. In 1909, a new connecting road linked it to Fremont as the homestead town grew. By 1912, a daily stage brought settlers from the Bend railhead. Drought beginning in 1915 eventually forced homesteaders to abandon farms; Fremont’s post office closed in 1919.",
+    "From near La Pine, Route 31 heads southeast through lodgepole and ponderosa pine before the landscape opens into sagebrush. Fort Rock is a separate excursion off the highway. Continuing through Silver Lake, the road climbs 4,830-foot Picture Rock Pass, with Summer Lake visible below. Paisley comes next, then Valley Falls, where Route 31 meets U.S. 395 beneath Abert Rim. The drive continues through Lakeview to New Pine Creek."
   ],
-  "season": "June to October.",
   "moments": [
     {
       "title": "Fort Rock",
       "kind": "separate excursion",
       "scene": "desert",
-      "text": "A ring of volcanic tuff that stood as an island in an ice-age lake until waves broke through its south wall. A cave nearby kept sagebrush sandals up to 13,000 years old.",
+      "text": "Fort Rock’s walls began as volcanic material thrown up through a lake bottom. Steam drove lava particles and ash into the air; they fell into a ring that stood like an island in the lake. Waves cut terraces into its outer walls, leaving marks of former lake levels above the dry valley floor. Nearby Fort Rock Cave yielded sandals woven from sagebrush bark during excavations led by Luther Cressman. The rock formation is reached by a seven-mile excursion from Route 31. The name Fort Rock refers to the tall, straight sides, which resemble the palisades of a fort.",
+      "notice": "Wave-cut terraces on the south side record former lake levels.",
       "at": [
         -121.074,
         43.372
@@ -24,7 +25,8 @@
       "title": "Abert Rim",
       "kind": "roadside",
       "scene": "desert",
-      "text": "A fault scarp more than 30 miles long, rising nearly 2,500 feet to a sheer basalt cap above the highway and Lake Abert, which has no outlet.",
+      "text": "At Valley Falls, Abert Rim rises more than 2,000 feet above the byway, a 30-mile escarpment along the horizon. The wall records two different processes: basalt lava first covered the region, then faults broke and tilted great blocks of land. A sheer basalt cap finishes the rim. Lake Abert occupies another block and has no outlet, although the Chewaucan River feeds it from the south. A byway kiosk just south of Valley Falls explains the rim’s formation. The lake’s highly alkaline water supports brine shrimp, which in turn feed migrating birds along this high-desert corridor.",
+      "notice": "From Valley Falls, the cliff face of Abert Rim is unobstructed.",
       "at": [
         -120.18,
         42.65
@@ -37,24 +39,25 @@
       "title": "Lakeview",
       "kind": "town",
       "scene": "desert",
-      "text": "Oregon's self-styled tallest town keeps a geyser, Old Perpetual, that shoots about 60 feet every 90 seconds, though it sometimes goes quiet from September to mid-October.",
+      "text": "Lakeview calls itself the “Tallest Town in Oregon,” standing in Goose Lake Valley at the foot of the Warner Mountains. Its downtown was largely remade after a fire destroyed 64 buildings in May 1900. The Lake County Examiner salvaged enough equipment to publish the next day, and most of the town had been rebuilt by October. Financing and leadership from Bernard Daly helped that recovery. A narrow-gauge railway reached Lakeview from Reno in 1911; its later conversion to standard gauge encouraged sawmills to open and broadened the town’s economy. U.S. 395 carries the byway through town toward the California border.",
       "at": [
         -120.353,
         42.192
       ]
     }
   ],
-  "practical": [
-    "Expect occasional snow in winter and temperatures in the 90s in summer."
-  ],
   "sources": [
     {
-      "label": "ODOT TripCheck, Outback Scenic Byway",
+      "label": "Oregon Department of Transportation, The Oregon Outback Scenic Byway",
       "url": "https://tripcheck.com/Pages/Scenic-Byways-Outback"
     },
     {
       "label": "Wikipedia, Outback Scenic Byway",
       "url": "https://en.wikipedia.org/wiki/Outback_Scenic_Byway"
+    },
+    {
+      "label": "Wikipedia, Fremont, Oregon",
+      "url": "https://en.wikipedia.org/wiki/Fremont%2C_Oregon"
     },
     {
       "label": "Wikipedia, Fort Rock",
@@ -69,8 +72,12 @@
       "url": "https://en.wikipedia.org/wiki/Abert_Rim"
     },
     {
+      "label": "Wikipedia, Valley Falls, Oregon",
+      "url": "https://en.wikipedia.org/wiki/Valley_Falls%2C_Oregon"
+    },
+    {
       "label": "Wikipedia, Lakeview, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Lakeview,_Oregon"
+      "url": "https://en.wikipedia.org/wiki/Lakeview%2C_Oregon"
     }
   ],
   "reviewed": false

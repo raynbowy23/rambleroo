@@ -1,20 +1,32 @@
 {
   "id": "mt-hood-scenic-byway-61400",
-  "tagline": "Up through the orchards and down the old Barlow Road.",
+  "tagline": "Fruit valleys and fir forests frame an old wagon-road crossing",
   "motifs": [
     "snow-peaks",
     "orchard"
   ],
   "intro": [
-    "Out of Hood River the byway takes OR 35 south up the Hood River Valley among pear, cherry and apple trees, past Parkdale and into the Mt. Hood National Forest. It bends west around the mountain, crosses the White River below the summit and tops Barlow Pass at 4,155 feet, where the Oregon Trail crested the Cascades.",
-    "From Government Camp it is downhill on US 26 by Rhododendron, Zigzag, Welches and Brightwood to Sandy and on to Troutdale. Wagons on the old Barlow Road paid a toll of five dollars apiece at first, about a week's wages, for the privilege."
+    "The Mt. Hood Scenic Byway skirts the mountain through fruit valleys and fir forest, with a steep, twisting six-mile spur to Timberline Lodge. Travel Oregon gives the drive three to four hours. The Federal Highway Administration lists it as a National Scenic Byway and highlights its volcanic geology, wild rivers, pastoral valleys and Barlow Road history.",
+    "Sam Barlow and Philip Foster built the Barlow Road in 1846, opening an overland wagon crossing of the Cascades to the Willamette Valley. Before that road opened, arrivals from the east at The Dalles had faced a river journey down the Columbia. The Mount Hood Highway later displaced much of the wagon road; part of the historic route joined the scenic byway in 2005. The original toll was five dollars for each wagon.",
+    "Starting at Troutdale, the byway follows local streets toward Sandy, then climbs on US 26 toward Government Camp. Laurel Hill lies west of Government Camp; the Timberline Lodge spur leaves just east of town. Back on the main route, OR 35 winds over Bennett Pass and along the mountain’s eastern side before descending into the Hood River Valley. Pear, cherry and apple orchards mark the valley on the way to Hood River."
   ],
   "moments": [
+    {
+      "title": "Laurel Hill",
+      "kind": "short walk",
+      "scene": "forest",
+      "text": "Laurel Hill put wagon brakes to a severe test on the Barlow Road. Travelers dragged trees behind their wagons to slow the descent, or lowered them with ropes and chains. They considered this the worst part of the Oregon Trail. Even the name records a mistake: travelers took the rhododendrons here for laurels. A historical marker on US 26 and a short trail identify the place now. The trail reaches the top and bottom of a wagon chute, as well as the later Mt. Hood Loop Highway. A better road was blasted through the hill in 1861, ending the route’s effectively one-way passage.",
+      "notice": "The trail reaches the top and bottom of a wagon chute.",
+      "at": [
+        -121.818,
+        45.307
+      ]
+    },
     {
       "title": "Government Camp",
       "kind": "town",
       "scene": "mountain",
-      "text": "The only town within five miles of Mount Hood, named for the wagons the Army's Mounted Riflemen had to abandon here in 1849.",
+      "text": "Government Camp takes its name from wagons that did not finish their journey. Settlers on the Barlow Road found wagons abandoned by the Regiment of Mounted Riflemen; a sign outside the post office dates the naming to 1849. The community sits on US 26 near its junction with OR 35 and serves as a gateway to Timberline Lodge and Mount Hood Skibowl. Travel Oregon describes a summer and winter recreation hub whose story is presented at the Mt. Hood Cultural Center & Museum. Government Camp also has a smaller ski area of its own, Summit Pass.",
       "at": [
         -121.753,
         45.302
@@ -24,23 +36,14 @@
       "title": "Timberline Lodge",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Six twisting miles above Government Camp, the WPA's stone and timber lodge stands at 6,000 feet. Skiing goes on all twelve months. Its exterior played the Overlook Hotel in The Shining.",
+      "text": "A twisting six-mile road climbs from Government Camp to Timberline Lodge at 6,000 feet. The Works Progress Administration built the lodge from 1936 to 1938, with local artisans making its furnishings during the Great Depression. Reused materials became part of the craft: old Civilian Conservation Corps blankets supplied hooked rugs, and discarded cedar utility poles became carved newel posts. Local boulders form the heavy ground-floor masonry, with timber above. The National Historic Landmark’s exterior also served as the Overlook Hotel in The Shining. Fireplace screens were made from tire chains, and railroad tracks supplied metal for the ironwork.",
+      "notice": "Heavy rubble masonry forms the ground-floor walls, with timber above.",
       "at": [
         -121.71,
         45.331
       ],
       "motifs": [
         "snow-peaks"
-      ]
-    },
-    {
-      "title": "Laurel Hill",
-      "kind": "short walk",
-      "scene": "forest",
-      "text": "Travelers counted it the worst stretch of the Oregon Trail, winching wagons down chutes or dragging trees behind for brakes. They named it for its laurels, which were rhododendrons.",
-      "at": [
-        -121.818,
-        45.307
       ]
     }
   ],
@@ -50,20 +53,28 @@
       "url": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/mt-hood-scenic-byway/"
     },
     {
+      "label": "Wikipedia, Barlow Road",
+      "url": "https://en.wikipedia.org/wiki/Barlow_Road"
+    },
+    {
+      "label": "Federal Highway Administration, Mt. Hood Scenic Byway",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/61400"
+    },
+    {
+      "label": "Wikipedia, Mount Hood Highway",
+      "url": "https://en.wikipedia.org/wiki/Mount_Hood_Highway"
+    },
+    {
+      "label": "Wikipedia, Laurel Hill (Oregon)",
+      "url": "https://en.wikipedia.org/wiki/Laurel_Hill_%28Oregon%29"
+    },
+    {
       "label": "Wikipedia, Government Camp, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Government_Camp,_Oregon"
+      "url": "https://en.wikipedia.org/wiki/Government_Camp%2C_Oregon"
     },
     {
       "label": "Wikipedia, Timberline Lodge",
       "url": "https://en.wikipedia.org/wiki/Timberline_Lodge"
-    },
-    {
-      "label": "Wikipedia, Laurel Hill (Oregon)",
-      "url": "https://en.wikipedia.org/wiki/Laurel_Hill_(Oregon)"
-    },
-    {
-      "label": "Wikipedia, Barlow Road",
-      "url": "https://en.wikipedia.org/wiki/Barlow_Road"
     }
   ],
   "reviewed": false

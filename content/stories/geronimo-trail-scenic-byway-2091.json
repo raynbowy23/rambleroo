@@ -1,30 +1,22 @@
 {
   "id": "geronimo-trail-scenic-byway-2091",
-  "tagline": "From a renamed spa town up to the emptied silver camps.",
+  "tagline": "Desert reservoirs and hot springs lead toward the Black Range’s mining towns",
   "motifs": [
     "mining-town",
     "lake-wide"
   ],
   "intro": [
-    "The trail starts in Truth or Consequences, a desert town built over hot springs, and goes two ways from there. One arm runs out past Elephant Butte Dam and north through Cuchillo and Winston to the Beaverhead Ranger Station in the Gila National Forest. The other goes south by Caballo Lake, then west to Hillsboro and Kingston in the Black Range.",
-    "Gold and silver built the towns on both arms, and many of them have since emptied. Hillsboro was a gold camp in 1877 and the county seat until the 1930s, when the honor went to the town with the springs."
+    "Geronimo Trail Scenic Byway links desert reservoirs with wooded mountain passes and old mining towns. The National Scenic Byway extends from Beaverhead Ranger Station to San Lorenzo, with Truth or Consequences at its center. New Mexico’s tourism department emphasizes the changing terrain, from desert sands to the piñon and ponderosa country of the Gila. The Federal Highway Administration lists 154 miles and allows 13 hours of driving, including backtracking.",
+    "The route commemorates Chiricahua Apache warrior Geronimo. Its roads also carry the history of mining and water development. Hillsboro formed after a gold discovery in 1877; Kingston was surveyed after a silver discovery in 1882. Elephant Butte Dam construction began in 1911, requiring crews to build and improve roads as well as worker camps. The completed dam stored runoff for agriculture farther down the Rio Grande. Near Hillsboro, a steel truss bridge carried NM 90 over Percha Creek; built in 1927, it was bypassed in 1995.",
+    "From the Beaverhead end, the northern arm leads through Winston and Cuchillo toward Elephant Butte and Truth or Consequences. Continue south through Williamsburg and Caballo, then west through Hillsboro and Kingston in the Black Range. Beyond the mountains, San Lorenzo marks the southern end."
   ],
   "moments": [
-    {
-      "title": "Truth or Consequences",
-      "kind": "town",
-      "scene": "town",
-      "text": "In March 1950 the town of Hot Springs voted 1,294 to 295 to take the name of a radio quiz show. The host came back the first weekend of every May for 50 years.",
-      "at": [
-        -107.25277778,
-        33.13527778
-      ]
-    },
     {
       "title": "Elephant Butte Dam",
       "kind": "roadside",
       "scene": "river",
-      "text": "The dam takes its name from a volcanic plug said to look like an elephant lying on its side. The lake made an island of it, except at low water.",
+      "text": "The rock that names Elephant Butte Dam is the solidified core of a volcano whose sides have eroded away. It was said to resemble an elephant lying on its side. The reservoir turned the butte into an island, though low water joins it to the shore. Construction of the concrete dam began in 1911 and finished in 1916. Crews built roads, camps and a hospital to support the work. The dam stands 301 feet high and stretches 1,674 feet long, including its spillway. Agriculture remains the reservoir’s main use, alongside recreation, hydroelectricity and flood control.",
+      "notice": "At low water, an isthmus connects the volcanic butte to land.",
       "at": [
         -107.192113,
         33.153969
@@ -34,10 +26,20 @@
       ]
     },
     {
+      "title": "Truth or Consequences",
+      "kind": "town",
+      "scene": "town",
+      "text": "A radio contest gave Hot Springs a new name in 1950. Host Ralph Edwards promised to broadcast his quiz show’s tenth anniversary from the first town to rename itself after the program. On March 31, residents voted 1,294 to 295 in favor, and the broadcast followed the next evening. Edwards returned on the first weekend of May for the next 50 years. Those visits became Fiesta, a celebration the city continues each May. The earlier name remains rooted in the place: thermal springs within the city draw from the Hot Springs Artesian Basin.",
+      "at": [
+        -107.25277778,
+        33.13527778
+      ]
+    },
+    {
       "title": "Kingston",
       "kind": "town",
       "scene": "mountain",
-      "text": "Out the south arm, silver turned up in 1882, the camp soon had 1,800 people, and Lillian Russell once performed there. The 2020 census counted 50.",
+      "text": "Kingston’s silver boom began with discoveries that quickly became a town. Jack Sheddon found silver at the future Solitaire Mine in 1882; the settlement was surveyed that year under its early name, Percha City. It soon had 1,800 people, and performer Lillian Russell appeared here. The district’s 27 mines produced almost six million ounces of silver between 1883 and 1893. The Depression of 1893 curtailed mining, followed by a brief resurgence during World War II. By 1952, most production had ceased. The community remains on NM 152 in the Black Range; the 2020 census counted 50 residents.",
       "at": [
         -107.70944444,
         32.91722222
@@ -49,36 +51,44 @@
   ],
   "sources": [
     {
-      "label": "New Mexico True, Geronimo Trail Scenic Byway",
-      "url": "https://www.newmexico.org/places-to-visit/scenic-byways/geronimo-trail-national/"
-    },
-    {
-      "label": "FHWA America's Byways, Geronimo Trail Scenic Byway",
-      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2091"
-    },
-    {
       "label": "Wikipedia, Geronimo Trail Scenic Byway",
       "url": "https://en.wikipedia.org/wiki/Geronimo_Trail_Scenic_Byway"
     },
     {
+      "label": "Federal Highway Administration, Geronimo Trail Scenic Byway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2091"
+    },
+    {
       "label": "Wikipedia, Truth or Consequences, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Truth_or_Consequences,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Truth_or_Consequences%2C_New_Mexico"
+    },
+    {
+      "label": "New Mexico Tourism Department, Geronimo Trail Scenic Byway",
+      "url": "https://www.newmexico.org/places-to-visit/scenic-byways/geronimo-trail-national/"
+    },
+    {
+      "label": "Wikipedia, Hillsboro, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Hillsboro%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Kingston, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Kingston%2C_New_Mexico"
     },
     {
       "label": "Wikipedia, Elephant Butte Dam",
       "url": "https://en.wikipedia.org/wiki/Elephant_Butte_Dam"
     },
     {
-      "label": "Wikipedia, Hillsboro, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Hillsboro,_New_Mexico"
+      "label": "Wikipedia, Elephant Butte Historic District",
+      "url": "https://en.wikipedia.org/wiki/Elephant_Butte_Historic_District"
     },
     {
-      "label": "Wikipedia, Kingston, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Kingston,_New_Mexico"
+      "label": "Wikipedia, Percha Creek Bridge",
+      "url": "https://en.wikipedia.org/wiki/Percha_Creek_Bridge"
     },
     {
-      "label": "Wikipedia, Chloride, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Chloride,_New_Mexico"
+      "label": "Wikipedia, Hot Springs Artesian Basin",
+      "url": "https://en.wikipedia.org/wiki/Hot_Springs_Artesian_Basin"
     }
   ],
   "reviewed": false

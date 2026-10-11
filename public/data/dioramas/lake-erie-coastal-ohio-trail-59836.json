@@ -88,10 +88,6 @@
         41.71964
       ],
       [
-        -81.36129,
-        41.70501
-      ],
-      [
         -81.40961,
         41.69329
       ],
@@ -200,36 +196,40 @@
         41.69079
       ],
       [
-        -83.50481,
-        41.65398
+        -83.50404,
+        41.65405
       ],
       [
-        -83.51476,
-        41.67916
-      ],
-      [
-        -83.83812,
-        41.67225
-      ],
-      [
-        -83.82487,
-        41.52748
-      ],
-      [
-        -83.72064,
-        41.49936
-      ],
-      [
-        -83.71425,
-        41.53352
+        -83.51417,
+        41.676
       ],
       [
         -83.60991,
         41.58167
       ],
       [
-        -83.48598,
-        41.68738
+        -83.71425,
+        41.53352
+      ],
+      [
+        -83.72064,
+        41.49936
+      ],
+      [
+        -83.82487,
+        41.52748
+      ],
+      [
+        -83.83812,
+        41.67225
+      ],
+      [
+        -83.5077,
+        41.66957
+      ],
+      [
+        -83.47998,
+        41.69568
       ],
       [
         -83.47976,
@@ -279,21 +279,21 @@
     {
       "name": "Ashtabula Harbor Light",
       "model": "lighthouse-on-rock",
-      "at": 0.057068907674602015,
+      "at": 0.05706176397183923,
       "offset": "roadside",
-      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+      "notes": "Story moment 1; separate excursion. Projected coordinate, kept in driving order."
     },
     {
       "name": "Marblehead Lighthouse",
       "model": "lighthouse-on-rock",
-      "at": 0.585809462116203,
+      "at": 0.5857361323672466,
       "offset": "roadside",
       "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
     },
     {
       "name": "Marblehead Lighthouse",
       "model": "ledge",
-      "at": 0.585809462116203,
+      "at": 0.5857361323672466,
       "offset": "roadside",
       "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
     }
@@ -338,67 +338,67 @@
   "towns": [
     {
       "name": "North Kingsville",
-      "at": 0.038316797810468706,
+      "at": 0.03817995210400282,
       "landmark": ""
     },
     {
       "name": "Geneva",
-      "at": 0.10338693123503262,
+      "at": 0.10328429695518304,
       "landmark": ""
     },
     {
       "name": "Painesville",
-      "at": 0.19787889154977767,
+      "at": 0.19770783441669526,
       "landmark": ""
     },
     {
       "name": "Bratenahl",
-      "at": 0.2911050290797126,
+      "at": 0.2909681833732467,
       "landmark": ""
     },
     {
       "name": "Bay Village",
-      "at": 0.36082791652411905,
+      "at": 0.36065685939103664,
       "landmark": ""
     },
     {
       "name": "Vermilion",
-      "at": 0.44276428327061246,
+      "at": 0.44262743756414646,
       "landmark": ""
     },
     {
       "name": "Sandusky",
-      "at": 0.5198426274375643,
+      "at": 0.5197057817310983,
       "landmark": ""
     },
     {
       "name": "Lakeside",
-      "at": 0.5930550803968526,
+      "at": 0.5929182346903866,
       "landmark": ""
     },
     {
       "name": "Lacarne",
-      "at": 0.6768388641806364,
+      "at": 0.6767020184741703,
       "landmark": ""
     },
     {
-      "name": "Curtice",
-      "at": 0.7534382483749573,
-      "landmark": ""
-    },
-    {
-      "name": "Ottawa Hills",
-      "at": 0.8232637700992131,
-      "landmark": ""
-    },
-    {
-      "name": "Whitehouse",
-      "at": 0.9059869996578858,
+      "name": "Yondota",
+      "at": 0.7434485118029421,
       "landmark": ""
     },
     {
       "name": "Toledo",
-      "at": 0.973178241532672,
+      "at": 0.8101607937050975,
+      "landmark": ""
+    },
+    {
+      "name": "Whitehouse",
+      "at": 0.8773520355798837,
+      "landmark": ""
+    },
+    {
+      "name": "Diocese of Toledo",
+      "at": 0.9698939445774889,
       "landmark": ""
     }
   ],

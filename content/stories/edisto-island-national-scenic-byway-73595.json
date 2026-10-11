@@ -1,16 +1,18 @@
 {
   "id": "edisto-island-national-scenic-byway-73595",
-  "tagline": "Down the island under the live oaks, to the beach.",
+  "tagline": "Across salt marsh and beneath live oaks, an island road reaches the Atlantic.",
   "intro": [
-    "From the Dawhoo River bridge, SC 174 runs the length of Edisto Island to the Atlantic, across salt marsh and creeks and through maritime forest and farm fields. It travels under old live oaks, past small homes, prayer chapels, churches and country stores, and at roadside stands the baskets are sweetgrass.",
-    "The island grew long-staple Sea Island cotton on the labor of enslaved Africans, who developed the Gullah language and culture of the islands and the Lowcountry. In the 1920s the way onto it was across the marsh at low tide, on beds of oyster shell. The beach is still where the road gives out."
+    "SC 174 carries the Edisto Island National Scenic Byway from the Dawhoo River Bridge toward the Atlantic Ocean. The paved route crosses salt marsh and creeks, passing maritime forest, farm fields and historic churches. Live oaks arch over the island’s main road. The Federal Highway Administration’s National Scenic Byway description highlights this landscape alongside roadside sweetgrass baskets and local produce. SC 174 serves as the island’s main spine, with smaller roads and lanes branching toward more distant parts of the island.",
+    "The Dawhoo crossing has changed three times: a manually operated, single-lane swing bridge opened in 1920, followed by an electrically powered two-lane span in 1950. The present bridge, dedicated in 1993, replaced a swing span whose openings for boats delayed road traffic. It honors legislator McKinley Washington Jr., who led the effort to fund the replacement. The road itself changed too: straightening and paving about 1940 left an older section isolated as Wescott Road, an oak-lined dirt road established in the Colonial era.",
+    "From the bridge, follow the island road past homes, prayer chapels, churches and country stores. The journey ends at Edisto Beach, bordered to the north and east by Edisto Beach State Park. Near the coast, the park’s trails continue through maritime forest to a shell midden and an old survey monument."
   ],
   "moments": [
     {
       "title": "Edisto Island Presbyterian Church",
       "kind": "roadside",
       "scene": "town",
-      "text": "A congregation gathered in 1685 worships in a church built in 1831, with its burying ground alongside.",
+      "text": "The congregation’s history reaches back further than the building: it was founded in 1685, while the present church dates to 1831. A burying ground adjoins the church. The building entered the National Register of Historic Places in 1971, and the congregation belongs to the Presbyterian Church (USA).",
+      "notice": "The burying ground sits beside the church building.",
       "at": [
         -80.2969,
         32.5789
@@ -20,7 +22,7 @@
       "title": "Botany Bay",
       "kind": "separate excursion",
       "scene": "coast",
-      "text": "Two old plantations made into one state preserve, where three 1840s outbuildings of Bleak Hall survive. Its Sea Island cotton once sold to lace-makers in Belgium and France.",
+      "text": "Three Bleak Hall outbuildings survive at Botany Bay, including an icehouse with pointed windows and wooden spires. Plantation owner John Townsend sold Sea Island cotton to lace-makers in Belgium and France; the 1860 census recorded him as holding 272 people enslaved. Bleak Hall and Sea Cloud were combined as Botany Bay Plantation in 1933. The property was bequeathed to South Carolina as a wildlife preserve in 1977, but opened to the public in 2008 after the owner’s widow died. Bleak Hall’s main house burned during or shortly after the Civil War and was replaced with a house combining Victorian styles.",
       "at": [
         -80.2336,
         32.5525
@@ -30,7 +32,7 @@
       "title": "Edisto Beach State Park",
       "kind": "short walk",
       "scene": "coast",
-      "text": "Trails through the maritime forest lead to a Native American shell midden dated to 2000 BC, in a park the Civilian Conservation Corps built on land given in 1935.",
+      "text": "Trails through Edisto Beach State Park’s maritime forest reach a Native American shell midden and an 1850 survey monument placed by Alexander Bache. The park itself developed on land the Edisto Company donated in 1935. The Civilian Conservation Corps built the park, and many of its original buildings remain in use. At the Edisto Interpretive Center, interactive displays explain the ACE Basin estuarine reserve. The survey marker belongs to work Alexander Dallas Bache and his assistants carried out in January 1850 for the United States Coast Survey. They marked the line’s endpoints with buried granite blocks topped by granite monuments.",
       "at": [
         -80.2999,
         32.5128
@@ -39,24 +41,32 @@
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Edisto Island National Scenic Byway",
+      "label": "Federal Highway Administration, Edisto Island National Scenic Byway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/73595"
-    },
-    {
-      "label": "Edisto Island National Scenic Byway",
-      "url": "https://www.edistoscenicbyway.org/"
     },
     {
       "label": "Wikipedia, South Carolina Highway 174",
       "url": "https://en.wikipedia.org/wiki/South_Carolina_Highway_174"
     },
     {
-      "label": "Wikipedia, Edisto Island",
-      "url": "https://en.wikipedia.org/wiki/Edisto_Island"
+      "label": "Edisto Island National Scenic Byway, Gateway to the ACE Basin",
+      "url": "https://www.edistoscenicbyway.org/"
+    },
+    {
+      "label": "Wikipedia, McKinley Washington Jr. Bridge",
+      "url": "https://en.wikipedia.org/wiki/McKinley_Washington_Jr._Bridge"
+    },
+    {
+      "label": "Wikipedia, Wescott Road",
+      "url": "https://en.wikipedia.org/wiki/Wescott_Road"
     },
     {
       "label": "Wikipedia, Edisto Beach, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Edisto_Beach,_South_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Edisto_Beach%2C_South_Carolina"
+    },
+    {
+      "label": "Wikipedia, Edisto Beach State Park",
+      "url": "https://en.wikipedia.org/wiki/Edisto_Beach_State_Park"
     },
     {
       "label": "Wikipedia, Edisto Island Presbyterian Church",
@@ -67,8 +77,8 @@
       "url": "https://en.wikipedia.org/wiki/Botany_Bay_Plantation_Wildlife_Management_Area"
     },
     {
-      "label": "Wikipedia, Edisto Beach State Park",
-      "url": "https://en.wikipedia.org/wiki/Edisto_Beach_State_Park"
+      "label": "Wikipedia, Alexander Bache U.S. Coast Survey Line",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Bache_U.S._Coast_Survey_Line"
     }
   ],
   "reviewed": false

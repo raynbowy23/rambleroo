@@ -1,19 +1,20 @@
 {
   "id": "gold-belt-tour-scenic-and-historic-byway-2109",
-  "tagline": "To the gold camps by stage road and ore-train grade.",
+  "tagline": "Stage roads and a railroad grade link gold towns through winding canyons.",
   "motifs": [
     "mining-town"
   ],
   "intro": [
-    "From Cañon City the Shelf Road heads north up Fourmile Canyon past Garden Park. It was built in 1892 as a toll road for stagecoaches and wagons, and in one stretch it clings to the canyon wall 200 feet above the stream. It comes out at Cripple Creek and Victor, where gold is still mined, and the way back down is Phantom Canyon, on the bed of an old ore railroad.",
-    "That railroad climbed 4,550 feet in 30 miles. It took on a helper engine at Cramer and water at Adelaide. A paved third leg, High Park Road, crosses open cattle range with Pikes Peak in view."
+    "The Gold Belt Tour makes a three-legged loop: narrow gravel on Phantom Canyon Road, an unimproved Shelf Road and paved High Park Road. CDOT lists 131 miles and five hours of driving. A National Scenic Byway since 2000, the tour follows the historic railroad and stagecoach routes that the Federal Highway Administration highlights alongside fossil sites and gold camps.",
+    "The 1890s gold boom underlies the route’s story. Shelf Road was built in 1892 for stagecoaches and wagons paying a toll; one stretch hangs 200 feet above the stream bed. Phantom Canyon carried ore and mining supplies by rail, climbing 4,550 feet in 30 miles. Trains added a helper engine at Cramer and took water at Adelaide to make the climb.",
+    "Mining continues in Cripple Creek and Victor. On the canyon roads, CDOT notes narrow, rugged stretches; on the paved High Park leg, historic cattle ranches occupy open country. The loop takes in Florissant and Cañon City, with High Park Road crossing cattle-ranch country and views toward Pikes Peak. From Cañon City, Garden Park lies to the north; Shelf Road runs through Fourmile Canyon. After the mining town of Victor, Phantom Canyon provides an unpaved return toward Cañon City."
   ],
   "moments": [
     {
       "title": "Garden Park",
       "kind": "roadside",
       "scene": "desert",
-      "text": "A valley named for the vegetables it grew for Cripple Creek miners, where Marsh and Cope made finds in the Bone Wars. One of its Stegosaurus is at the National Museum of Natural History.",
+      "text": "Garden Park’s name comes from vegetables grown for Cripple Creek miners in the 19th century. Its Jurassic dinosaur discoveries became part of the Bone Wars, with both Othniel Charles Marsh and Edward Drinker Cope making major finds here. Four Mile Creek cuts through sedimentary rocks, exposing the Morrison Formation in the canyon. The dinosaur sites now form the Garden Park Paleontological Resource Area, overseen by the Bureau of Land Management. The valley itself forms a triangle, bounded by cliffs on two sides and mountains to the north; the dinosaur sites extend onto and along those cliffs.",
       "at": [
         -105.2253,
         38.5733
@@ -23,7 +24,8 @@
       "title": "Victor",
       "kind": "town",
       "scene": "town",
-      "text": "In 1894 the Woods brothers hit gold while digging a building foundation in town, and that was the start of the Gold Coin Mine. Jack Dempsey worked as a mucker in the Portland.",
+      "text": "In Victor, a building foundation became a gold mine. The Woods brothers struck gold while digging in 1894, creating the Gold Coin Mine. Five years later, a five-hour fire destroyed the business district. Many historic buildings date to that rebuilding year, 1899. The town’s surviving mining equipment includes shaft elevators and mine carts repurposed as flower planters. On the hillsides, tall gallows frames hold the old elevator pulleys that served the mines. Victor housed most of the miners working the district’s 500 mines, while mine owners and investors lived in neighboring Cripple Creek.",
+      "notice": "Look for gallows frames on the hillsides, with their old elevator pulleys.",
       "at": [
         -105.14,
         38.71
@@ -36,32 +38,36 @@
       "title": "Phantom Canyon",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The gravel road follows Eight Mile Creek on the old Florence and Cripple Creek grade, through two tunnels cut in granite that never needed timber and across the 1897 Steel Bridge."
+      "text": "Eight Mile Creek formed Phantom Canyon; the Florence and Cripple Creek Railroad made it a route for gold and supplies. The road now follows that railroad route, unpaved between Victor and Cañon City. Its engineering included two tunnels cut through granite without timber supports and the Steel Bridge, built in 1897. The former ore railroad climbed 4,550 feet over 30 miles. CDOT describes the road as narrow and rugged in places. At Adelaide, a water tank replenished steam engines; at McCourt Station, telegraph messages helped manage train movements along the route."
     }
   ],
   "practical": [
-    "Phantom Canyon and Shelf Road are narrow and rugged in places. No vehicles over 25 feet long on Phantom Canyon Road, and four-wheel drive is recommended on the upper Shelf Road."
+    "Phantom Canyon: CDOT prohibits vehicles over 25 feet on Phantom Canyon Road and recommends four-wheel drive on Upper Shelf Road. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "CDOT, Gold Belt Tour",
-      "url": "https://www.codot.gov/travel/coloradobyways/south-central/gold-belt"
+      "label": "Federal Highway Administration, Gold Belt Tour Scenic and Historic Byway",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2109"
     },
     {
       "label": "Wikipedia, Gold Belt Tour Scenic and Historic Byway",
       "url": "https://en.wikipedia.org/wiki/Gold_Belt_Tour_Scenic_and_Historic_Byway"
     },
     {
-      "label": "Wikipedia, Garden Park, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Garden_Park,_Colorado"
+      "label": "Colorado Department of Transportation, Gold Belt Tour",
+      "url": "https://www.codot.gov/travel/coloradobyways/south-central/gold-belt"
     },
     {
-      "label": "Wikipedia, Victor, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Victor,_Colorado"
+      "label": "Wikipedia, Garden Park, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Garden_Park%2C_Colorado"
     },
     {
       "label": "Wikipedia, Phantom Canyon (Pikes Peak Area)",
-      "url": "https://en.wikipedia.org/wiki/Phantom_Canyon_(Pikes_Peak_Area)"
+      "url": "https://en.wikipedia.org/wiki/Phantom_Canyon_%28Pikes_Peak_Area%29"
+    },
+    {
+      "label": "Wikipedia, Victor, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Victor%2C_Colorado"
     }
   ],
   "reviewed": false

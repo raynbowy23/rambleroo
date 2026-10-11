@@ -1,75 +1,67 @@
 {
   "id": "forest-heritage-national-scenic-byway-77229",
-  "tagline": "Up Looking Glass Creek to where American forestry went to school.",
+  "tagline": "Former logging cuts carry a mountain drive past waterfalls and forestry’s classrooms",
   "motifs": [
     "waterfall-cove",
     "switchbacks"
   ],
   "intro": [
-    "The byway starts at a pair of stone pillars on US 276 outside Brevard, the gate to the Pisgah National Forest, where an arch once stood. It follows the Davidson River and Looking Glass Creek upstream, past Looking Glass Falls and Sliding Rock, to the Cradle of Forestry and the Pink Beds, an upland bog grown thick with rhododendron and laurel. Then it switchbacks up Pisgah Ridge, crosses the Blue Ridge Parkway at Wagon Road Gap, 4,528 feet, and comes down to Shining Creek Gap.",
-    "The woods look old and are not. More than a century ago this valley was logged and farmed, and stretches of the road run on the old logging railroad grades."
+    "The Forest Heritage National Scenic Byway winds through Pisgah National Forest on 17.6 miles of US 276. It climbs Pisgah Ridge, crosses the Blue Ridge Parkway and turns through switchbacks above the Pink Beds, an upland bog of rhododendrons and laurels. The Federal Highway Administration presents the drive as a way to understand forest history through old settlement roads, mountain peaks and waterfalls. This national section is part of a longer National Forest Scenic Byway loop using NC 215, US 276 and US 64.",
+    "Some of those road cuts began as logging railways. After buying timber rights from George Vanderbilt, Louis Carr laid tracks along creeks to carry out wood. The landscape also became a classroom for Carl Schenck’s Biltmore Forest School, where students learned forest management through fieldwork. The wider Forest Heritage route gained Forest Service designation in 1989; this US 276 section became a National Scenic Byway in 2009.",
+    "Driving south from Shining Creek Gap, climb to Wagon Road Gap, then descend into the Pink Beds and the Cradle of Forestry. Sliding Rock follows, then Looking Glass Falls. Near Brevard, two stone pillars mark the forest boundary and honor Transylvania County residents who served in World War I. The national byway ends at US 64 and NC 280."
   ],
   "moments": [
     {
-      "title": "Looking Glass Falls",
-      "kind": "roadside",
+      "title": "Cradle of Forestry",
+      "kind": "short walk",
       "scene": "forest",
-      "text": "A 60-foot fall right at the side of the road, with a path down to the plunge pool. In winter it freezes solid and the ice climbers come.",
-      "motifs": [
-        "waterfall-cove"
+      "text": "Carl Schenck’s forestry students learned their trade in the woods as well as the classroom. His early classrooms occupied abandoned farm buildings on Vanderbilt’s estate. They felled trees, operated machinery, transplanted seedlings and tended nurseries. Schenck had come from Germany in 1895 to manage George Vanderbilt’s forests, then began teaching volunteers who helped with the work. The Biltmore Forest School became North America’s first forestry school. Its former grounds are now the Cradle of Forestry in America, with exhibits on forestry and conservation. A 1914 logging locomotive and a portable sawmill give that practical education a material presence.",
+      "at": [
+        -82.78111111,
+        35.35111111
       ]
     },
     {
       "title": "Sliding Rock",
       "kind": "short walk",
       "scene": "river",
-      "text": "Looking Glass Creek slides down 60 feet of gently sloping rock into an eight-foot pool that stays near 55 degrees all year. Sliding is done sitting upright.",
+      "text": "Looking Glass Creek makes a sloping slide here, about 60 feet long, ending in a deep pool. The water stays near 55°F year round. The Forest Service developed the natural slide into a recreation area, now managed by Adventure Pisgah. A viewing platform provides a place to watch; a lower platform was destroyed by flooding in 2021. Steps lead down to the pool, while a railing on the left helps sliders climb the rock. The parking area sits above the rock beside US 276, placing this stretch of Looking Glass Creek close to the road.",
+      "notice": "The creek runs down a gentle rock slope into a deep pool.",
       "motifs": [
         "waterfall-cove"
       ]
     },
     {
-      "title": "Cradle of Forestry",
-      "kind": "short walk",
+      "title": "Looking Glass Falls",
+      "kind": "roadside",
       "scene": "forest",
-      "text": "Carl Schenck's Biltmore Forest School opened here a few weeks ahead of Cornell's in 1898, the first in North America, though Schenck said there was never a formal opening.",
-      "at": [
-        -82.78111111,
-        35.35111111
+      "text": "A roadside overlook faces the 60-foot main drop of Looking Glass Falls. The overlook is on the east side of the road. The falls take their name from Looking Glass Creek and nearby Looking Glass Rock. Water freezing on that rock’s sides reflects the sun like a mirror, giving the name its wintertime meaning. The creek flows through Pisgah National Forest, and a path leads down to the plunge pool beside US 276. The whole waterfall is just under 70 feet from top to bottom; the familiar 60-foot measurement describes its main fall.",
+      "notice": "The main waterfall drops 60 feet, visible from the roadside overlook.",
+      "motifs": [
+        "waterfall-cove"
       ]
     }
   ],
-  "practical": [
-    "US 276 has 9% grades and slow curves, and the byway is not recommended for recreational vehicles or buses."
-  ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Forest Heritage National Scenic Byway",
+      "label": "Federal Highway Administration, Forest Heritage National Scenic Byway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/77229"
+    },
+    {
+      "label": "Wikipedia, Biltmore Forest School",
+      "url": "https://en.wikipedia.org/wiki/Biltmore_Forest_School"
     },
     {
       "label": "Wikipedia, Forest Heritage Scenic Byway",
       "url": "https://en.wikipedia.org/wiki/Forest_Heritage_Scenic_Byway"
     },
     {
-      "label": "Wikipedia, U.S. Route 276",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_276"
-    },
-    {
-      "label": "Wikipedia, Pisgah National Forest",
-      "url": "https://en.wikipedia.org/wiki/Pisgah_National_Forest"
-    },
-    {
-      "label": "Wikipedia, Looking Glass Falls",
-      "url": "https://en.wikipedia.org/wiki/Looking_Glass_Falls"
-    },
-    {
       "label": "Wikipedia, Sliding Rock",
       "url": "https://en.wikipedia.org/wiki/Sliding_Rock"
     },
     {
-      "label": "Wikipedia, Biltmore Forest School",
-      "url": "https://en.wikipedia.org/wiki/Biltmore_Forest_School"
+      "label": "Wikipedia, Looking Glass Falls",
+      "url": "https://en.wikipedia.org/wiki/Looking_Glass_Falls"
     }
   ],
   "reviewed": false

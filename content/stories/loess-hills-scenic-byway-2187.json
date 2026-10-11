@@ -1,30 +1,36 @@
 {
   "id": "loess-hills-scenic-byway-2187",
-  "tagline": "North along a band of hills the wind built.",
+  "tagline": "A paved journey beside the Missouri through hills built by wind",
   "motifs": [
     "river-bluffs",
     "rolling-ridges"
   ],
   "intro": [
-    "From the Missouri line below Hamburg the byway runs north 220 paved miles to Akron, along the first rise of land east of the Missouri River floodplain. The hills are loess, fine silt the wind lifted off drying mud flats as the last glaciers melted and piled into a band some 200 miles long. To see taller loess, the state tourism office notes, a traveler would have to go to China.",
-    "Dry loess stands in vertical columns, so the hills have worn into razor ridges, some under ten feet wide with sixty-foot drops on either side, and slumped into cat-step terraces. Locals call it sugar clay."
+    "The Loess Hills National Scenic Byway follows a 220-mile paved main route through western Iowa. Travel Iowa describes views across Missouri River valley farmland, wooded hills and grasslands, with parking and interpretive signs at scenic overlooks. Beyond the main drive, 185 miles of optional excursion loops range from interstate highways to gravel roads.",
+    "The landscape began with ice, water and wind: glaciers ground rock into fine sediment, which meltwater carried into the Missouri River valley. As exposed mud flats dried, winds lifted the silt and deposited dunes that grass later stabilized. Erosion cut those deposits into the sharply divided bluffs visible now. Dry loess can stand in vertical columns; slumping and shearing create the small terraces called cat-steps.",
+    "Start at Akron and travel south toward Sioux City, where the Sergeant Floyd Monument overlooks the Missouri River valley. Near Sioux City, Travel Iowa points travelers to Broken Kettle Grasslands Preserve, the state’s largest remnant prairie, as a place to encounter the hills’ plants and wildlife. Preparation Canyon, north of Pisgah, offers a separate excursion among the ridges. Farther south, Glenwood occupies a hollow in the hills. Continue through Tabor toward Hamburg and the Missouri state line, the southern end of the byway."
   ],
+  "notice": "Look for narrow ridges and the small terraces called cat-steps.",
   "moments": [
     {
-      "title": "Tabor",
-      "kind": "town",
-      "scene": "town",
-      "text": "Abolitionists settled this high ground in 1852. Two hundred Sharps rifles bound for Kansas waited in a minister's barn, and John Brown wintered here training men for Harpers Ferry.",
+      "title": "Sergeant Floyd Monument",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "The white sandstone obelisk above the Missouri marks a grave that the river once threatened to erase. Charles Floyd died during the Lewis and Clark expedition in 1804 and was buried on the bluff. By 1857, erosion had swept away part of his grave and its cedar marker. Residents recovered his remains and reburied them 200 meters east. Publication of his journal in 1894 renewed interest in Floyd, and a local association raised money for a monument. Completed in 1901, the obelisk stands 100 feet high in a park overlooking the river valley.",
+      "notice": "A white sandstone obelisk rises above the Missouri River valley.",
       "at": [
-        -95.674,
-        40.895
+        -96.378,
+        42.463
+      ],
+      "motifs": [
+        "river-bluffs"
       ]
     },
     {
       "title": "Preparation Canyon State Park",
       "kind": "separate excursion",
       "scene": "prairie",
-      "text": "Settlers who named their town Preparation, for the world to come, fell out with their leader, Father Ephraim, before the Iowa Supreme Court. He fled the state. The canyon kept the name.",
+      "text": "Preparation Canyon takes its name from a town whose residents understood earthly life as preparation for the world to come. Charles B. Thompson and his Mormon followers established it in the 1850s after leaving wagon trains bound for Utah. A dispute over their property reached the Iowa Supreme Court; Thompson, known to his followers as Father Ephraim, fled Iowa. Descendants of the settlers, Walter and Martha Perrin, sold the first 82 acres for the park to Iowa in 1934. Ridges border the park on three sides, and trails lead to hike-in campsites.",
       "at": [
         -95.906,
         41.893
@@ -34,21 +40,15 @@
       ]
     },
     {
-      "title": "Sergeant Floyd Monument",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "Sergeant Charles Floyd of the Lewis and Clark expedition was buried on this Missouri River bluff in 1804. The river took part of the grave, so he was moved back from the edge.",
+      "title": "Tabor",
+      "kind": "town",
+      "scene": "town",
+      "text": "John Todd’s house connects Tabor’s abolitionist history to a surviving place. Families from Oberlin, Ohio, founded the town in 1852, and Todd served as a conductor on the Underground Railroad. During the conflict over slavery in Kansas, Tabor offered antislavery travelers a route that avoided Missouri. Two hundred Sharps rifles sent from Boston for free-state partisans in Kansas were stored in Todd’s barn. His two-story clapboard house, built in 1853, served as an Underground Railroad stop. The house stands on Park Street in Tabor. The Tabor Historical Society maintains it as a museum.",
       "at": [
-        -96.378,
-        42.463
-      ],
-      "motifs": [
-        "river-bluffs"
+        -95.674,
+        40.895
       ]
     }
-  ],
-  "practical": [
-    "Beyond the paved main route are 185 miles of optional excursion loops, some of them on gravel."
   ],
   "sources": [
     {
@@ -60,16 +60,28 @@
       "url": "https://en.wikipedia.org/wiki/Loess_Hills"
     },
     {
-      "label": "Wikipedia, Tabor, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Tabor,_Iowa"
+      "label": "Iowa Department of Transportation, Scenic Byway View",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Sergeant Floyd Monument",
+      "url": "https://en.wikipedia.org/wiki/Sergeant_Floyd_Monument"
     },
     {
       "label": "Wikipedia, Preparation Canyon State Park",
       "url": "https://en.wikipedia.org/wiki/Preparation_Canyon_State_Park"
     },
     {
-      "label": "Wikipedia, Sergeant Floyd Monument",
-      "url": "https://en.wikipedia.org/wiki/Sergeant_Floyd_Monument"
+      "label": "Wikipedia, Glenwood, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Glenwood%2C_Iowa"
+    },
+    {
+      "label": "Wikipedia, Tabor, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Tabor%2C_Iowa"
+    },
+    {
+      "label": "Wikipedia, Todd House (Tabor, Iowa)",
+      "url": "https://en.wikipedia.org/wiki/Todd_House_%28Tabor%2C_Iowa%29"
     }
   ],
   "reviewed": false

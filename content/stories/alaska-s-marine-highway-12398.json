@@ -1,25 +1,30 @@
 {
   "id": "alaska-s-marine-highway-12398",
-  "tagline": "Three days up the Inside Passage on the state's own ferries.",
+  "tagline": "Working ferries link island towns through the sheltered Inside Passage.",
   "motifs": [
     "harbor-village"
   ],
   "intro": [
-    "This road begins at a dock. From Bellingham the mainline ferries take just under three days to reach Skagway, working north through the Inside Passage, where more than 1,500 islands keep off the big Pacific surges. Cabins cost extra. Every mainline boat has a solarium and lounges for sleeping, and tent cities commonly go up at the stern.",
-    "It is a working line before it is anything else, carrying people, freight and vehicles to Southeast towns that no road reaches, and most of the food is served cafeteria-style."
+    "Alaska’s Marine Highway carries people, freight and vehicles aboard state ferries, reaching Southeast communities without road access. Its routes collectively form an All-American Road; Alaska’s transportation department highlights the Inside Passage’s fjords, islands and forests of hemlock and spruce. More than 1,500 islands shelter that passage from large Pacific surges. These are working transportation links: the Southeast network combines mainline voyages typically lasting more than a day with shorter routes whose boats return to their home ports the same day.",
+    "The network began with a much smaller connection: in 1948, Haines residents Steve Homer and Ray Gelotte founded Chilkoot Motorship Lines. Their converted landing craft ran weekly from Tee Harbor to Haines and Skagway, linking the territorial capital with the international road system. The territory bought the line in 1951; in 1959, voters approved an $18 million bond package for vessels and docks. The southern terminus moved from Seattle to Bellingham in 1989.",
+    "Follow the Inside Passage portion south from Skagway through Haines and Juneau, then Petersburg, Wrangell and Ketchikan toward Bellingham. Along this journey, Alaska’s byway account points to Skagway’s Klondike history, Petersburg’s fishing community and Wrangell’s concentration of petroglyphs. For the whole ferry byway, the Federal Highway Administration describes trips ranging from single-day excursions to several weeks."
   ],
   "moments": [
     {
-      "title": "Petroglyph Beach, Wrangell",
-      "kind": "short walk",
-      "scene": "coast",
-      "text": "Barely a mile out of Wrangell, at least 40 Tlingit carvings of whales, salmon and faces sit on the shore boulders, some of them below the high-tide line."
+      "title": "Skagway",
+      "kind": "town",
+      "scene": "mountain",
+      "text": "Skagway’s port stands at the beginning of a railway built during the Klondike gold rush. On July 29, 1897, the steamer Queen brought the first boatload of prospectors to Moore’s wharf. The White Pass and Yukon Route began laying narrow-gauge tracks in May 1898. By the time the railroad was completed in 1900, the rush was nearly over. The town occupies a narrow glaciated valley at the head of Taiya Inlet. Its historic district contains about 100 gold-rush-era buildings. The White Pass and Yukon Route now runs narrow-gauge passenger trains from the port during the summer months.",
+      "at": [
+        -135.314,
+        59.458
+      ]
     },
     {
       "title": "Petersburg",
       "kind": "town",
       "scene": "coast",
-      "text": "Little Norway keeps Norwegian Constitution Day for several days in May, and townspeople who visited Norway found their celebration runs longer than Norway's own.",
+      "text": "Icebergs from LeConte Glacier once supplied Petersburg’s fishing port with ice to cool its catch. In the nineteenth century, Norwegian immigrant Peter Buschmann built a cannery, sawmill and docks here; the settlement took his name. Scandinavian immigration gave the town its nickname, Little Norway. Petersburg celebrates Norwegian Constitution Day with Mayfest on the third weekend in May. Commercial fishing remains the main driver of the economy. The town sits at the north end of Mitkof Island, where Wrangell Narrows meets Frederick Sound. It is also the headquarters of the Petersburg Indian Association, a federally recognized tribe of Tlingit people.",
       "at": [
         -132.942,
         56.804
@@ -29,47 +34,37 @@
       ]
     },
     {
-      "title": "Skagway",
-      "kind": "town",
-      "scene": "mountain",
-      "text": "The first boatload of Klondike prospectors landed here in July 1897, and the narrow-gauge White Pass and Yukon Route still sets out from the port each summer.",
-      "at": [
-        -135.314,
-        59.458
-      ]
+      "title": "Petroglyph Beach, Wrangell",
+      "kind": "short walk",
+      "scene": "coast",
+      "text": "Whales, salmon and faces appear in carvings on Wrangell’s shore. At Petroglyph Beach, barely a mile out of town, at least 40 petroglyphs have been found. They occupy boulders and bedrock outcrops just above and below mean high tide. The carvings are thought to have been made by members of the Tlingit tribe. The beach became a State Historic Park in 2000. Alaska’s transportation department identifies it as Southeast Alaska’s highest concentration of petroglyphs. The metamorphic rock tends to be dark gray and finely grained; Wikipedia suggests that its ease of fracture would have helped the carvers work it.",
+      "notice": "Look for carved figures on shore boulders and bedrock above and below mean high tide."
     }
   ],
-  "practical": [
-    "Service drops off considerably in winter, when the vessels usually go in for overhauls."
-  ],
   "sources": [
-    {
-      "label": "Alaska DOT&PF, Alaska Marine Highway: Inside Passage",
-      "url": "https://dot.alaska.gov/dmio/scenic/byways-AMHinside.shtml"
-    },
     {
       "label": "Wikipedia, Alaska Marine Highway",
       "url": "https://en.wikipedia.org/wiki/Alaska_Marine_Highway"
     },
     {
-      "label": "Wikipedia, Inside Passage",
-      "url": "https://en.wikipedia.org/wiki/Inside_Passage"
+      "label": "Alaska Department of Transportation & Public Facilities, Alaska Marine Highway: Inside Passage Routes",
+      "url": "https://dot.alaska.gov/dmio/scenic/byways-AMHinside.shtml"
+    },
+    {
+      "label": "Wikipedia, Petersburg, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Petersburg%2C_Alaska"
+    },
+    {
+      "label": "Federal Highway Administration, Alaska Marine Highway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/12398"
+    },
+    {
+      "label": "Wikipedia, Skagway, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Skagway%2C_Alaska"
     },
     {
       "label": "Wikipedia, Petroglyph Beach State Historic Park",
       "url": "https://en.wikipedia.org/wiki/Petroglyph_Beach_State_Historic_Park"
-    },
-    {
-      "label": "Wikipedia, Petersburg, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Petersburg,_Alaska"
-    },
-    {
-      "label": "Wikipedia, Wrangell, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Wrangell,_Alaska"
-    },
-    {
-      "label": "Wikipedia, Skagway, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Skagway,_Alaska"
     }
   ],
   "reviewed": false
