@@ -41,10 +41,7 @@ export default function PrintStrip() {
                 Rambleroo · strip map · {index + 1} / {panels.length}
               </span>
               <h1>{data.title}</h1>
-              <p>
-                {data.reviewed ? 'Reviewed strip map' : 'Draft · pending review'}
-                {data.part ? ` · ${data.part.label}` : ''}
-              </p>
+              {data.part && <p>{data.part.label}</p>}
               <h2>
                 {panel.on === 'branch' ? 'Optional branch' : 'Main road'} · miles {panel.from.toFixed(1)}–{panel.to.toFixed(1)}
                 {panel.continuation ? ' · continued' : ''}

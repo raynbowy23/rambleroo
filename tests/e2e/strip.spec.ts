@@ -8,7 +8,6 @@ test('unrolls from the byway page and drives as the page scrolls', async ({ page
   await page.getByRole('link', { name: 'Drive it' }).first().click()
   await expect(page).toHaveURL(new RegExp(route))
   await expect(page.getByRole('heading', { name: 'Door County Coastal Byway', exact: true })).toBeVisible()
-  await expect(page.getByText('Draft · pending review', { exact: true })).toBeVisible()
   const counter = page.getByTestId('mile-counter')
   const mile = async () => Number((await counter.textContent())?.match(/Mile ([\d.]+)/)?.[1])
   const before = await mile()
