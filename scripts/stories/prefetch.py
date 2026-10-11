@@ -3,7 +3,7 @@
 # Also pulls Wikipedia articles for places near the mapped line (geosearch), as the writers do by hand.
 # Writes <work dir>/cache/<id>/NN.txt, each starting with "URL: <the page's real address>" and then plain text,
 # plus index.txt listing them. Wikipedia pages also record their coordinates. A 403 falls back to the newest full Wayback capture.
-import html, json, os, re, subprocess, sys, time, urllib.parse, urllib.request
+import html, json, os, re, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 
 S, batch = sys.argv[1], sys.argv[2]
 UA = 'Rambleroo/0.1 (story research; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues)'
@@ -11,8 +11,15 @@ UA = 'Rambleroo/0.1 (story research; https://rambleroo.app; https://github.com/r
 
 def get(url, timeout=40):
     req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'text/html,application/json,*/*'})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        data = r.read()
+    for attempt in range(6):  # Wikipedia answers 429 when several prefetches run at once; back off and retry
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                data = r.read()
+            break
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or attempt == 5 or 'wikipedia.org' not in url:
+                raise
+            time.sleep(10 * (attempt + 1))
     if data[:5] == b'%PDF-':  # route descriptions are often PDFs; keep their text, not the raw bytes
         out = subprocess.run(['pdftotext', '-layout', '-', '-'], input=data, capture_output=True, timeout=120)
         return html.escape(out.stdout.decode('utf-8', 'replace'))
@@ -80,6 +87,8 @@ def nearby(lon, lat):
 for rid in [l.strip() for l in open(batch) if l.strip()]:
     m = json.load(open(f'{S}/material/{rid}.json'))
     out = f'{S}/cache/{rid}'
+    if os.path.exists(f'{out}/index.txt'):  # already fetched; rerunning a batch resumes where it stopped
+        continue
     os.makedirs(out, exist_ok=True)
     got, seen = [], set()
 

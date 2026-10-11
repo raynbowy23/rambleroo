@@ -167,6 +167,7 @@ export default function BywayPage() {
                   {story.intro.map((p, i) => (
                     <p key={i}>{p}</p>
                   ))}
+                  {story.notice && <Notice text={story.notice} />}
                 </section>
                 {miniature}
                 <PhotoGallery photos={photos} />
@@ -210,7 +211,10 @@ export default function BywayPage() {
                         <h3>
                           {i + 1}. {m.title}
                         </h3>
-                        <p>{m.text}</p>
+                        {m.text.split('\n\n').map((p, j) => (
+                          <p key={j}>{p}</p>
+                        ))}
+                        {m.notice && <Notice text={m.notice} />}
                       </div>
                     </article>
                   ))}
@@ -362,5 +366,14 @@ export default function BywayPage() {
       </div>
       {editing && <VisitEditor initialNote={note} key={b.id} byway={b} onClose={() => setEditing(false)} />}
     </main>
+  )
+}
+
+function Notice({ text }: { text: string }) {
+  return (
+    <p className={s.notice}>
+      <strong>What to notice</strong>
+      {text}
+    </p>
   )
 }

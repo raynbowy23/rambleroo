@@ -143,6 +143,8 @@ export interface StoryMoment {
   motifs?: Motif[]
   /** [lng, lat] approximate anchor for the companion map. */
   at?: [number, number]
+  /** What to notice here: one sourced, visible detail. */
+  notice?: string
 }
 
 export interface BywayStory {
@@ -151,6 +153,8 @@ export interface BywayStory {
   /** Motifs for the story hero and postcard, most characteristic first. */
   motifs?: Motif[]
   intro: string[]
+  /** What to notice along the whole drive: one sourced, visible detail. */
+  notice?: string
   moments: StoryMoment[]
   season?: string
   practical?: string[]
