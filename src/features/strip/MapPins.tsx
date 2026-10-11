@@ -67,7 +67,11 @@ export function MapPins({
     return createPortal(
       <MilestoneToken byway={byway} milestone={card} className={s.mapPin} label="Map pin: postcard from">
         <span className={s.pinPicture} data-photo-pin={card.photo ? card.name : undefined}>
-          {card.photo ? <img src={photoPath(card.photo, true)} alt="" loading="lazy" /> : <LandmarkIcon kind={icon} />}
+          {card.photo ? (
+            <img src={photoPath(card.photo, true)} alt="" loading="lazy" crossOrigin="anonymous" />
+          ) : (
+            <LandmarkIcon kind={icon} />
+          )}
         </span>
         <span className={s.pinLabel}>{card.name}</span>
       </MilestoneToken>,

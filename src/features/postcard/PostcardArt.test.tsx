@@ -44,7 +44,7 @@ it('defaults to a photo postcard and exports its photo and note', async () => {
   vi.mocked(renderBywayPostcard).mockResolvedValue(file)
   render(<PostcardArt byway={byway} note="A day on the river" onNote={() => {}} />)
   expect(screen.getByRole('img', { name: `River Road postcard: ${photo.alt}` })).toBeTruthy()
-  expect(document.querySelector('image')?.getAttribute('href')).toBe('/photos/river/river.jpg')
+  expect(document.querySelector('image')?.getAttribute('href')).toBe('https://photos.rambleroo.app/river/river.jpg')
   expect(screen.getByRole('link', { name: 'CC BY' })).toBeTruthy()
   expect(document.querySelector('[data-lettering="greetings"]')).toBeTruthy()
   fireEvent.click(screen.getByRole('button', { name: 'Download postcard' }))

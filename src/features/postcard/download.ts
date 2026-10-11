@@ -114,6 +114,8 @@ export interface PostcardInput {
 export async function renderPostcard(input: PostcardInput) {
   await document.fonts.ready
   const photo = new Image()
+  // The library is on its own domain; CORS keeps the canvas readable for export.
+  photo.crossOrigin = 'anonymous'
   if (input.photo && !input.composedFront) photo.src = photoPath(input.photo)
   const [scene, stamp] = await Promise.all([
     input.photo && !input.composedFront ? photo.decode().then(() => photo) : svgImage(input.scene),

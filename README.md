@@ -101,7 +101,7 @@ npm run strips:build -- <bywayId>             # build one road's strip map
 - **Strip maps** (`scripts/strips/`) order towns and stops by their true mile along the road and route drive times with OSRM once, at build time.
 - **Themes** are inferred from road names (`scripts/ingest/classify.ts`) unless `content/overrides.json` sets them by hand.
 - **Basemap:** Natural Earth 1:50m (public domain) is bundled for the national view. Closer in, detail comes from OpenFreeMap vector tiles. Neither needs an API key.
-- **Photos** are proposed by `scripts/photos/discover.ts` from Wikipedia lead images and the U.S. DOT America's Byways collection on Commons, or picked by hand from a wider Commons search for a state chapter. Every one is reviewed by a person and published with `scripts/photos/fetch.ts` into `public/photos/` and `content/photos.json`.
+- **Photos** are proposed by `scripts/photos/discover.ts` from Wikipedia lead images and the U.S. DOT America's Byways collection on Commons, or picked by hand from a wider Commons search for a state chapter. Every one is reviewed by a person and published with `scripts/photos/fetch.ts` into `content/photos.json`. Photos of the towns on the strip maps and the places in the stories come from `scripts/photos/towns.ts` and `moments.ts`, are screened on contact sheets, and are published with `scripts/photos/fetch-places.ts`. The scripts download into `public/photos/` (not committed); `npm run photos:upload` then puts the files in the public R2 bucket served at https://photos.rambleroo.app (see infra/README.md).
 - **Editorial content** lives in `content/`: stories, strip text, collections, state chapters and overrides. `scripts/ingest/content.test.ts` fails the tests if content points at a road that doesn't exist.
 
 Known gaps: the Ohio River Scenic Byway's mileage can't all be assigned to a state, because many of its segment midpoints fall in the river. State chapter links are checked by hand with `npx tsx scripts/states/check-links.ts`, which reports failed URLs and redirects to another host.
@@ -112,7 +112,7 @@ Known gaps: the Ohio River Scenic Byway's mileage can't all be assigned to a sta
 content/            stories, strip text, collections, state chapters, photo credits, overrides
 data/raw/           source snapshots (gitignored except manifest.json)
 public/data/        built display data served to the app
-public/photos/      published, credited photographs
+content/photos.json the credited photo library (files at photos.rambleroo.app)
 scripts/ingest/     fetch, normalise, classify, data-quality tests
 scripts/strips/     strip map discovery, building and repair
 scripts/photos/     photo discovery and publishing
