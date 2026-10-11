@@ -12,72 +12,40 @@
     "lanes": 2,
     "coordinates": [
       [
-        -89.75578,
-        40.56059
+        -89.45047,
+        41.37125
       ],
       [
-        -89.677,
-        40.59055
+        -89.47406,
+        41.368
       ],
       [
-        -89.64884,
-        40.65355
+        -89.46505,
+        41.37176
       ],
       [
-        -89.55209,
-        40.72723
+        -89.46786,
+        41.3953
       ],
       [
-        -89.57608,
-        40.79766
+        -89.4509,
+        41.39532
       ],
       [
-        -89.56097,
-        40.82753
+        -89.43935,
+        41.34603
       ],
       [
-        -89.50089,
-        40.87885
+        -89.37963,
+        41.31164
       ],
       [
-        -89.47458,
-        40.95658
+        -89.36879,
+        41.29257
       ],
       [
-        -89.47602,
-        40.99068
-      ],
-      [
-        -89.4464,
-        40.98949
-      ],
-      [
-        -89.42564,
-        41.06388
-      ],
-      [
-        -89.36971,
-        41.11021
-      ],
-      [
-        -89.36992,
-        41.14586
-      ],
-      [
-        -89.40079,
-        41.19275
-      ],
-      [
-        -89.40022,
-        41.23886
-      ],
-      [
-        -89.38892,
-        41.27342
-      ],
-      [
-        -89.34541,
-        41.32434
+        -89.34179,
+        41.3261
       ],
       [
         -89.26061,
@@ -100,12 +68,12 @@
         41.33208
       ],
       [
-        -88.98027,
-        41.32378
+        -88.9813,
+        41.32388
       ],
       [
-        -88.84265,
-        41.34574
+        -88.84019,
+        41.34038
       ],
       [
         -88.87956,
@@ -128,12 +96,36 @@
         41.25801
       ],
       [
+        -89.3299,
+        41.23837
+      ],
+      [
+        -89.30908,
+        41.206
+      ],
+      [
         -89.30446,
         41.14405
       ],
       [
+        -89.33184,
+        41.10482
+      ],
+      [
         -89.40532,
         41.03934
+      ],
+      [
+        -89.4099,
+        40.99148
+      ],
+      [
+        -89.43213,
+        40.94336
+      ],
+      [
+        -89.428,
+        40.89414
       ],
       [
         -89.44175,
@@ -166,6 +158,10 @@
       [
         -89.66477,
         40.53821
+      ],
+      [
+        -89.7101,
+        40.53765
       ],
       [
         -89.78373,
@@ -224,6 +220,10 @@
         40.54567
       ],
       [
+        -89.93776,
+        40.52539
+      ],
+      [
         -89.90445,
         40.51685
       ],
@@ -279,28 +279,28 @@
     {
       "name": "Starved Rock State Park",
       "model": "cove-waterfall",
-      "at": 0.3432437348676322,
+      "at": 0.18891195215900153,
       "offset": "roadside",
       "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
     },
     {
       "name": "Starved Rock State Park",
       "model": "ledge",
-      "at": 0.3432437348676322,
+      "at": 0.18891195215900153,
       "offset": "roadside",
       "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
     },
     {
       "name": "Grandview Drive",
       "model": "ledge",
-      "at": 0.3432437348676322,
+      "at": 0.5730285241671836,
       "offset": "roadside",
       "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
     },
     {
       "name": "Havana",
       "model": "town-blocks",
-      "at": 0.8553462143286988,
+      "at": 0.8213538829213927,
       "offset": "roadside",
       "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
@@ -316,73 +316,88 @@
   ],
   "towns": [
     {
-      "name": "Peoria",
-      "at": 0.05500776397515539,
-      "landmark": ""
-    },
-    {
-      "name": "Chillicothe",
-      "at": 0.12562111801242237,
-      "landmark": ""
-    },
-    {
-      "name": "Putnam",
-      "at": 0.21292701863354047,
+      "name": "Princeton",
+      "at": 0.010977948226270375,
       "landmark": ""
     },
     {
       "name": "Bureau Junction",
-      "at": 0.24330913801834383,
+      "at": 0.06616889573303154,
       "landmark": ""
     },
     {
-      "name": "Peru",
-      "at": 0.30267857142857146,
+      "name": "DePue",
+      "at": 0.0897411313518696,
       "landmark": ""
     },
     {
-      "name": "Naplate",
-      "at": 0.3664596273291927,
+      "name": "North Utica",
+      "at": 0.17277085330776606,
       "landmark": ""
     },
     {
-      "name": "Oglesby",
-      "at": 0.43486024844720494,
+      "name": "Jonesville",
+      "at": 0.29554170661553214,
       "landmark": ""
     },
     {
       "name": "Hennepin",
-      "at": 0.4973990683229814,
+      "at": 0.37919463087248323,
+      "landmark": ""
+    },
+    {
+      "name": "Henry",
+      "at": 0.4331816957753438,
       "landmark": ""
     },
     {
       "name": "Lacon",
-      "at": 0.566304347826087,
+      "at": 0.46428571428571425,
       "landmark": ""
     },
     {
-      "name": "Bay View Gardens",
-      "at": 0.6345496894409939,
+      "name": "Chillicothe",
+      "at": 0.5007334554986498,
       "landmark": ""
     },
     {
-      "name": "Pekin",
-      "at": 0.7137810559006211,
+      "name": "Spring Bay",
+      "at": 0.5452061361457335,
       "landmark": ""
     },
     {
-      "name": "Topeka",
-      "at": 0.8175077639751553,
+      "name": "Peoria Heights",
+      "at": 0.5681613823151237,
       "landmark": ""
+    },
+    {
+      "name": "Marquette Heights",
+      "at": 0.6273250239693193,
+      "landmark": ""
+    },
+    {
+      "name": "Mapleton",
+      "at": 0.6739730845688826,
+      "landmark": ""
+    },
+    {
+      "name": "Manito",
+      "at": 0.7262703739213806,
+      "landmark": ""
+    },
+    {
+      "name": "Havana",
+      "at": 0.8211409395973154,
+      "landmark": "Havana"
     },
     {
       "name": "Maples Mill",
-      "at": 0.9115295031055901,
+      "at": 0.8906040268456377,
       "landmark": ""
     },
     {
-      "name": "Kingston Mines",
-      "at": 1,
+      "name": "Banner",
+      "at": 0.9625599232981783,
       "landmark": ""
     }
   ],
@@ -392,5 +407,5 @@
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }

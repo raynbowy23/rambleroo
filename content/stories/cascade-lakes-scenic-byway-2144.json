@@ -1,21 +1,23 @@
 {
   "id": "cascade-lakes-scenic-byway-2144",
-  "tagline": "Around Mount Bachelor to a string of lakes the lava made.",
+  "tagline": "From a former dirt road to lakes shaped by lava and ice",
   "motifs": [
     "snow-peaks",
     "lake-wide"
   ],
   "intro": [
-    "Out of Bend, Century Drive climbs steadily into the Deschutes National Forest, past a lava flow that once shoved the river off its course, and on under the cone of Mount Bachelor. Beyond the ski area the byway turns south along the Cascades by Todd, Sparks, Devils, Elk and Lava lakes, and follows the young Deschutes down to Oregon Route 58, 66 miles from town.",
-    "The lakes formed behind lava dams and moraines, in old craters and in basins the glaciers dug. In the mid-1960s astronauts trained along this road for the trip to the moon."
+    "Century Drive climbs steadily from Bend into the Deschutes National Forest, then the Cascade Lakes Scenic Byway runs past Mount Bachelor and south along the Cascades. Oregon DOT gives the drive 66 miles and three to five hours. The Federal Highway Administration describes this National Scenic Byway through its lava flows, alpine lakes and meadows. The geological variety is visible from the road: west of Bend, a lava flow that changed the Deschutes River’s course comes into view.",
+    "Oregon DOT traces Century Drive’s name to a 100-mile dirt road of horse-and-buggy days. A primitive road from Bend reached Elk Lake in 1920, helping make the lake a summer recreation destination. Growing visitor numbers brought more ranger work, and the Forest Service built Elk Lake Guard Station in 1929 to support that presence.",
+    "From Bend, travel west past Mount Bachelor to Todd Lake, then Sparks Lake and Devils Lake. Continue south past Elk Lake toward Lava Lake and Little Lava Lake, where the Deschutes begins. The young river runs through a meadow beside the byway on the way toward Cultus Lake and Crane Prairie Reservoir. Beyond Crane Prairie, the road continues south to Davis Lake and ends at Oregon Route 58 near Crescent and Odell lakes."
   ],
-  "season": "June to October.",
+  "notice": "West of Bend, a lava flow that altered the Deschutes River’s course is visible from the road.",
   "moments": [
     {
       "title": "Sparks Lake",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "What is left of a larger lake, partly filled with sediment and plants. It has no outlet you can see, and its water slips away into crevices along the southwest shore.",
+      "text": "Sparks Lake loses water through openings along its southwest shore rather than a visible outlet stream. Lava flows from the Three Sisters and Mount Bachelor systems formed its closed basin. Snowmelt from South Sister and Broken Top feeds it. Sediment and vegetation have partly filled what was once a larger lake. Mount Bachelor, the Three Sisters and Broken Top are visible from the lake, putting the water beside the volcanic peaks that frame it. The Forest Service maintains a boat launch here, with a parking area and a trail beside the lake.",
+      "notice": "Water flows into crevices and outcrops along the southwest shore.",
       "at": [
         -121.745,
         44.016
@@ -28,7 +30,8 @@
       "title": "Devils Lake",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Green water over a white pumice bottom, so clear and shallow that boats seem to hang in midair. In 1971 a rock from a dome nearby went to the moon with Apollo 15.",
+      "text": "At Devils Lake, clear water and a shallow white pumice bottom create an optical illusion: boats can seem suspended above the lakebed. The lake covers 23 acres at an elevation of 5,446 feet. The surrounding volcanic country also became a training ground for astronauts preparing for the Apollo missions in the mid-1960s. Oregon DOT records that Jim Irwin left a rock from a volcanic dome near Devils Lake on the lunar surface during Apollo 15 in 1971.",
+      "notice": "Clear water lies over a shallow white pumice bottom.",
       "at": [
         -121.762,
         44.034
@@ -41,19 +44,17 @@
       "title": "Lava Lake",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Lava from Mount Bachelor made it, and a wall of hardened lava still parts it from Little Lava Lake, where the Deschutes starts out as a small creek.",
+      "text": "Solidified lava separates Lava Lake from Little Lava Lake and is visible along both shorelines. Flows from Mount Bachelor changed the local drainage patterns, forming these neighboring lakes. The two lakes sit in the Deschutes National Forest; Lava Lake’s elevation is 4,740 feet, and Little Lava Lake’s is 4,744 feet. Lava Lake covers 368 acres and averages 20 feet deep. To the north, Broken Top and South Sister rise into view. At nearby Little Lava Lake, the Deschutes starts as a small creek flowing south before its later turn north toward the Columbia.",
+      "notice": "Solidified lava is visible along the shores of Lava Lake and Little Lava Lake.",
       "at": [
         -121.773,
         43.92
       ]
     }
   ],
-  "practical": [
-    "The byway closes beyond Mount Bachelor ski area in winter."
-  ],
   "sources": [
     {
-      "label": "ODOT TripCheck, Cascade Lakes Scenic Byway",
+      "label": "Oregon Department of Transportation, The Cascade Lakes Scenic Byway",
       "url": "https://tripcheck.com/Pages/Scenic-Byways-Cascade-Lakes"
     },
     {
@@ -61,16 +62,28 @@
       "url": "https://en.wikipedia.org/wiki/Cascade_Lakes_Scenic_Byway"
     },
     {
+      "label": "Federal Highway Administration, Cascade Lakes Scenic Byway (archived)",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2144"
+    },
+    {
+      "label": "Wikipedia, Elk Lake Guard Station",
+      "url": "https://en.wikipedia.org/wiki/Elk_Lake_Guard_Station"
+    },
+    {
       "label": "Wikipedia, Sparks Lake",
       "url": "https://en.wikipedia.org/wiki/Sparks_Lake"
     },
     {
       "label": "Wikipedia, Devils Lake (Deschutes County, Oregon)",
-      "url": "https://en.wikipedia.org/wiki/Devils_Lake_(Deschutes_County,_Oregon)"
+      "url": "https://en.wikipedia.org/wiki/Devils_Lake_%28Deschutes_County%2C_Oregon%29"
     },
     {
       "label": "Wikipedia, Lava Lake (Oregon)",
-      "url": "https://en.wikipedia.org/wiki/Lava_Lake_(Oregon)"
+      "url": "https://en.wikipedia.org/wiki/Lava_Lake_%28Oregon%29"
+    },
+    {
+      "label": "Wikipedia, Little Lava Lake",
+      "url": "https://en.wikipedia.org/wiki/Little_Lava_Lake"
     }
   ],
   "reviewed": false

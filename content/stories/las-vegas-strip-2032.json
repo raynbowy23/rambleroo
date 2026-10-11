@@ -1,45 +1,51 @@
 {
   "id": "las-vegas-strip-2032",
-  "tagline": "A nighttime byway, four and a half miles under the lights.",
+  "tagline": "A former through highway becomes a nighttime road of lights and resorts.",
   "intro": [
-    "The byway starts at the Welcome to Fabulous Las Vegas sign, in the median just south of Russell Road, and runs north up Las Vegas Boulevard past Mandalay Bay, the southernmost resort, to the Sahara at Sahara Avenue, where the city limits begin. The Federal Highway Administration counts it among the country's only nighttime byways.",
-    "Before it was the Strip it was Highway 91, the Los Angeles Highway. Guy McAfee, a Los Angeles police officer and businessman, named it for the Sunset Strip back home. When the city tried to annex it in 1950, the casino men had the county make it two towns of its own instead."
+    "On the Las Vegas Strip, the roadside landscape consists of casino resorts, huge video signs and lights. FHWA lists this 4.5-mile stretch of Las Vegas Boulevard as an All-American Road and calls it one of the country’s few nighttime byways. The agency allows 30 minutes for the drive and several hours to enjoy the byway, emphasizing its history and roadside character.",
+    "The boulevard formerly carried U.S. 91, the main highway between Los Angeles and Salt Lake City. El Rancho Vegas opened in 1941 as the Strip’s first full-service casino resort; its success helped bring another hotel the following year. When Las Vegas sought annexation in 1950, casino executives led by the Flamingo’s Gus Greenbaum lobbied county commissioners for town status. The eventual creation of Paradise and Winchester kept the Strip in unincorporated communities. Construction of I-15 changed the boulevard from a through route to a street serving local residents and visitors. The Las Vegas Boulevard name has been in effect since 1959.",
+    "Traveling south, Sahara Avenue marks the departure from the City of Las Vegas, with the Sahara resort anchoring the Strip’s northern end. Continue along the boulevard past the Flamingo toward Mandalay Bay, the southernmost resort in the traditional Strip definition. Beyond Russell Road, the Welcome to Fabulous Las Vegas sign stands in the median beside the airport’s western edge."
   ],
   "moments": [
     {
-      "title": "Welcome to Fabulous Las Vegas sign",
+      "title": "Sahara",
       "kind": "roadside",
       "scene": "town",
-      "text": "Betty Willis designed it in 1959, with silver dollars spelling Welcome across the top. The north side, less photographed, reads Drive Carefully, Come Back Soon.",
+      "text": "The Sahara’s name returned after an eight-year absence. Opened in 1952 as the Strip’s sixth resort, it expanded upward with hotel towers designed by Martin Stern Jr. A 14-story tower opened in 1960, followed by a 24-story tower in 1963. A renovation begun in 1996 demolished the original poolside motel structures, another break between the early resort and its later form. The resort closed in 2011 and reopened after renovation as SLS Las Vegas in 2014. In 2019, another renovation restored the Sahara name. The property anchors the Strip’s north end at Sahara Avenue.",
       "at": [
-        -115.17277778,
-        36.08205556
+        -115.15639,
+        36.14222
       ]
     },
     {
       "title": "Flamingo Las Vegas",
       "kind": "roadside",
       "scene": "town",
-      "text": "Bugsy Siegel took over and the cost went from $1 million to $6 million. The casino opened December 26, 1946. No resort on the Strip has run longer. Siegel lasted until June.",
+      "text": "The Flamingo’s long operating history does not mean its original hotel survives. Billy Wilkerson proposed the resort, but financing brought in partners including Benjamin “Bugsy” Siegel, who took control of the project. The casino opened in December 1946, followed by the three-story hotel in March 1947. High-rise additions began opening in 1978. In 1993, the three-story hotel, the last original structure, was demolished to help make room for the final tower addition. Part of the property became a pool area and animal habitat with flamingos. It remains the Strip’s oldest continuously operating resort, despite those changes in its buildings.",
       "at": [
         -115.17055556,
         36.11611111
       ]
     },
     {
-      "title": "Sahara",
+      "title": "Welcome to Fabulous Las Vegas sign",
       "kind": "roadside",
       "scene": "town",
-      "text": "The sixth resort on the Strip opened here in 1952 with an African theme. It anchors the north end, at the corner where the City of Las Vegas takes over.",
+      "text": "The circles spelling “Welcome” represent silver dollars, a reference to Nevada’s Silver State nickname. Betty Willis designed the sign, which Western Neon installed in 1959 under contract with Clark County. Its stretched diamond sits on two flat poles beneath an eight-pointed star. The greeting faces south; the north side asks drivers to drive carefully and come back soon. The sign entered the National Register of Historic Places in 2009. A 2008 project added a parking area and paved walkway to the median, creating official public access to the sign for the first time.",
+      "notice": "The white circles across the top are designed as silver dollars.",
       "at": [
-        -115.15639,
-        36.14222
+        -115.17277778,
+        36.08205556
       ]
     }
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Las Vegas Strip",
+      "label": "Wikipedia, Las Vegas Boulevard",
+      "url": "https://en.wikipedia.org/wiki/Las_Vegas_Boulevard"
+    },
+    {
+      "label": "Federal Highway Administration, Las Vegas Strip",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2032"
     },
     {
@@ -47,20 +53,16 @@
       "url": "https://en.wikipedia.org/wiki/Las_Vegas_Strip"
     },
     {
-      "label": "Wikipedia, Las Vegas Boulevard",
-      "url": "https://en.wikipedia.org/wiki/Las_Vegas_Boulevard"
-    },
-    {
-      "label": "Wikipedia, Welcome to Fabulous Las Vegas sign",
-      "url": "https://en.wikipedia.org/wiki/Welcome_to_Fabulous_Las_Vegas_sign"
+      "label": "Wikipedia, Sahara Las Vegas",
+      "url": "https://en.wikipedia.org/wiki/Sahara_Las_Vegas"
     },
     {
       "label": "Wikipedia, Flamingo Las Vegas",
       "url": "https://en.wikipedia.org/wiki/Flamingo_Las_Vegas"
     },
     {
-      "label": "Wikipedia, Sahara Las Vegas",
-      "url": "https://en.wikipedia.org/wiki/Sahara_Las_Vegas"
+      "label": "Wikipedia, Welcome to Fabulous Las Vegas sign",
+      "url": "https://en.wikipedia.org/wiki/Welcome_to_Fabulous_Las_Vegas_sign"
     }
   ],
   "reviewed": false

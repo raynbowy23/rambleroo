@@ -1,52 +1,58 @@
 {
   "id": "international-selkirk-loop-2486",
-  "tagline": "Up a north-running river and around the Selkirks.",
+  "tagline": "Rivers, lakeshores and a ferry carry the journey around the Selkirks.",
   "motifs": [
     "lake-wide",
     "rolling-ridges"
   ],
   "intro": [
-    "Out of Newport the loop turns north beside the Pend Oreille River, which flows north toward Canada and takes the road along with it. Near Usk the Kalispel Tribe's bison may be seen grazing off LeClerc Road. Above Ione the highway crosses the river and runs up through the Colville National Forest to the border.",
-    "The loop goes around the Selkirk Mountains through British Columbia, over Kootenay Lake on a free ferry, and comes back into Idaho at Porthill. From there nearly all of it keeps to river or lakeshore, south to Bonners Ferry on the Kootenai and on to Sandpoint on Lake Pend Oreille, the largest and deepest lake in Idaho."
+    "The International Selkirk Loop circles the Selkirk Mountains through Washington, Idaho and British Columbia over 280 miles. The U.S. portion is an All-American Road. Washington State Tourism highlights forest walks, river views and small towns; Visit Idaho describes nearly its entire section as following rivers and lakeshores. The Kootenay Lake ferry forms part of the circuit. In Idaho, the loop joins two existing scenic byways: Wild Horse Trail and Panhandle Historic Rivers Passage.",
+    "The Washington border connection developed in stages. Completion of the Pend Oreille Highway in 1921 created the crossing at Nelway; the British Columbia highway officially opened in 1923. Its narrow, winding surface drew criticism, and realignment and paving began in 1948. The scenic loop received All-American Road designation in 2005.",
+    "Starting at Metaline Falls, travel south past Ione and Tiger toward Usk. Near Usk, the road passes the Kalispel Tribe of Indians reservation. Washington State Tourism notes that travelers on LeClerc Road may spot the tribe’s bison herd grazing in the distance. Continue through Newport at the Idaho border. The Idaho leg runs through Sandpoint and Bonners Ferry to Porthill. Across the border, the circuit continues through Creston, along Kootenay Lake and across the lake by ferry. Nelson and Salmo complete the Canadian arc before the return through Nelway to Washington."
   ],
   "moments": [
-    {
-      "title": "Tiger",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "At the junction of highways 20 and 31, a 1913 store and post office is all that is left of Tiger, and it keeps the town's museum, open in season.",
-      "at": [
-        -117.408,
-        48.692
-      ]
-    },
     {
       "title": "Metaline Falls",
       "kind": "town",
       "scene": "river",
-      "text": "Where the river zigzags around Washington Rock, the newspaper and most of this lead-and-zinc town vouched for their Japanese-American hardware merchant in 1942, and the FBI let him go.",
+      "text": "At Metaline Falls, the Pend Oreille River turns east to get past Washington Rock before continuing toward Canada. The town developed with lead and zinc mining, then gained a railroad connection in 1910 and a cement plant drawing on local limestone. One building has made a different transition. Kirtland Cutter designed the 1912 school in the classical revival style. After its abandonment in 1972, residents organized to care for it in 1990; the former school now serves as the Cutter Theater and community center. Washington Rock towers immediately north of the town and its river bridge.",
       "at": [
         -117.374,
         48.861
       ]
     },
     {
+      "title": "Tiger",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Tiger began at a river landing established by George Tiger in 1899. The community stands on the west bank of the north-flowing Pend Oreille. At the junction of highways 20 and 31, its 1913 store and post office now houses the Tiger Historical Center and Museum. Washington State Tourism identifies it as the community’s only remaining building.",
+      "at": [
+        -117.408,
+        48.692
+      ]
+    },
+    {
       "title": "Bonners Ferry",
       "kind": "town",
       "scene": "river",
-      "text": "A gold-rush ferry crossing that once stood on stilts against the Kootenai floods, where in 1974 the Kootenai Tribe declared war, tolled the highway through town and came away with a reservation.",
+      "text": "A ferry gave Bonners Ferry its name, but flooding shaped its streets. Edwin Bonner started the crossing in 1864 where the Wildhorse Trail met the Kootenai River, serving the route to British Columbia’s goldfields. Richard Fry and his Sinixt wife, Justine Su-steel Fry, leased the ferry in 1875; Bonner’s name remained. The growing town raised buildings on stilts against spring floods. Later, levees and brick construction changed downtown, and much of Main Street dates from that period of permanent building. Completion of Libby Dam in 1975 reduced the threat of serious flooding.",
       "at": [
         -116.319,
         48.693
       ]
     }
   ],
-  "practical": [
-    "The loop crosses the Canadian border twice. Portions of the Idaho route may close in winter, and the road can be icy."
-  ],
   "sources": [
     {
-      "label": "International Selkirk Loop, official site",
+      "label": "Visit Idaho, International Selkirk Loop – Idaho Portion (archived February 2026)",
+      "url": "https://web.archive.org/web/20260211183335/https://visitidaho.org/things-to-do/atv-recreation-motorsports/international-selkirk-loop/"
+    },
+    {
+      "label": "Wikipedia, International Selkirk Loop",
+      "url": "https://en.wikipedia.org/wiki/International_Selkirk_Loop"
+    },
+    {
+      "label": "International Selkirk Loop, Loop Overview",
       "url": "https://selkirkloop.org/"
     },
     {
@@ -54,32 +60,20 @@
       "url": "https://stateofwatourism.com/scenic-byways/international-selkirk-loop/"
     },
     {
-      "label": "Visit Idaho, International Selkirk Loop",
-      "url": "https://visitidaho.org/things-to-do/atv-recreation-motorsports/international-selkirk-loop/"
-    },
-    {
-      "label": "Wikipedia, International Selkirk Loop",
-      "url": "https://en.wikipedia.org/wiki/International_Selkirk_Loop"
-    },
-    {
-      "label": "Wikipedia, Tiger, Washington",
-      "url": "https://en.wikipedia.org/wiki/Tiger,_Washington"
+      "label": "Wikipedia, Metaline Falls–Nelway Border Crossing",
+      "url": "https://en.wikipedia.org/wiki/Metaline_Falls%E2%80%93Nelway_Border_Crossing"
     },
     {
       "label": "Wikipedia, Metaline Falls, Washington",
-      "url": "https://en.wikipedia.org/wiki/Metaline_Falls,_Washington"
+      "url": "https://en.wikipedia.org/wiki/Metaline_Falls%2C_Washington"
+    },
+    {
+      "label": "Wikipedia, Tiger, Washington",
+      "url": "https://en.wikipedia.org/wiki/Tiger%2C_Washington"
     },
     {
       "label": "Wikipedia, Bonners Ferry, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Bonners_Ferry,_Idaho"
-    },
-    {
-      "label": "Wikipedia, Porthill-Rykerts Border Crossing",
-      "url": "https://en.wikipedia.org/wiki/Porthill-Rykerts_Border_Crossing"
-    },
-    {
-      "label": "Wikipedia, Sandpoint, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Sandpoint,_Idaho"
+      "url": "https://en.wikipedia.org/wiki/Bonners_Ferry%2C_Idaho"
     }
   ],
   "reviewed": false

@@ -1,19 +1,21 @@
 {
   "id": "ohio-and-erie-canalway-10501",
-  "tagline": "Down the old canal from Cleveland, lock by lock.",
+  "tagline": "Follow a freight canal through industrial cities and surviving canal towns",
   "motifs": [
     "lock-and-dam"
   ],
   "intro": [
-    "Out of Cleveland the byway goes three ways at once, through the old neighborhoods, the Warehouse District and the industrial area, and comes together in the Cuyahoga Valley. From there it follows the Ohio and Erie Canal south through Akron, Barberton and Massillon to New Philadelphia, 110 miles in all, with a spur over to Canton.",
-    "The canal carried freight from 1827 until the railroads took the trade in 1861, then served the towns and mills as a water supply until the flood of 1913 put most of it out of use. Much of its towpath is a trail now, for walking and bicycles."
+    "The Ohio & Erie Canalway drive links Cleveland’s neighborhoods and industrial districts with the Cuyahoga Valley and canal towns farther south. The Federal Highway Administration lists this 110-mile route as a National Scenic Byway, allowing four and a half hours for the drive. Its description emphasizes working rivers, industrial landscapes and natural areas, with journeys by trail and train as well as road.",
+    "The canal supplied the earlier transportation corridor. Engineer James Geddes, who had worked on New York’s canals, was hired to design the system. Construction began in 1825, and the first boat traveled from Akron to Cleveland in July 1827. Completion in 1832 connected Cleveland with the Ohio River at Portsmouth. Railroads drew business away, while the canal continued supplying water to factories and towns. The 1913 flood destroyed aqueducts, banks and locks; a few sections nevertheless continued carrying local cargo afterward.",
+    "From Cleveland, three branches pass through historic neighborhoods, the industrial area or the Warehouse District before reaching Cuyahoga Valley National Park. Continue south through Akron’s Cascade Locks and Barberton to Canal Fulton. Massillon has the spur to Canton; the main journey continues through Navarre and Zoar to New Philadelphia. A bicycle and pedestrian trail follows the old towpath route in the Cleveland and Akron area."
   ],
   "moments": [
     {
       "title": "Cascade Locks, Akron",
       "kind": "short walk",
       "scene": "river",
-      "text": "The steepest grade on the whole canal. Twenty-one locks in Akron took boats six hours to cover two miles, and across from Lock 15 the Mustill Store was known as a swilling place.",
+      "text": "Twenty-one locks made two miles of canal through Akron a six-hour boat journey. Cascade Locks occupied the steepest grade on the canal, in a ravine northwest of downtown. The stops at each lock brought time for trade, while the parallel Crosby’s Mill Race supplied hydraulic power to industry. The 1913 flood badly damaged the locks. A footpath now runs beside them, and the Mustill Store serves as a visitor center and canal museum. The district also contains two railroad bridges across the gorge and the site of Ferdinand Schumacher’s original mills.",
+      "notice": "A footpath follows the locks; the Mustill Store is a visitor center and canal museum.",
       "at": [
         -81.521,
         41.093
@@ -26,7 +28,7 @@
       "title": "Canal Fulton",
       "kind": "town",
       "scene": "river",
-      "text": "The mule-drawn St. Helena III still takes passengers out on a two-and-a-half-mile round trip along a restored stretch of the canal.",
+      "text": "St. Helena III puts a reproduction canal boat back on the water at Canal Fulton. Ohio’s byway story map describes a mule-drawn, two-and-a-half-mile round-trip tour, with canal-era memorabilia at the Heritage House/Old Canal Days Museum. The town itself grew from settlements on the Tuscarawas River. Canal construction between 1826 and 1828 brought Fulton into being across the river from Milan. Fulton added “Canal” to its name in 1832 and absorbed Milan and West Fulton in 1853. The Canalway Visitor Center supplies interpretation of the town and canal, with the boat tours as a central feature.",
       "at": [
         -81.595,
         40.89
@@ -36,7 +38,8 @@
       "title": "Zoar",
       "kind": "town",
       "scene": "town",
-      "text": "German Separatists founded the village in 1817 on land bought sight unseen, then paid off their loans on time by hiring out to dig the canal.",
+      "text": "Digging the canal helped Zoar’s communal society pay for its land. German religious dissenters founded the Society of Separatists of Zoar in 1817. They had bought land sight unseen with loans to repay; when Ohio needed a canal right of way, it offered them paid excavation work. That work allowed them to clear the debt on time. Elected trustees had managed the society’s farms, shops and factories, with all property held in common. The society dissolved in 1898, dividing its property among the remaining residents. Much of the early village layout and many buildings survive.",
+      "notice": "Much of Zoar’s early layout and many buildings from its communal period survive.",
       "at": [
         -81.423,
         40.613
@@ -44,14 +47,6 @@
     }
   ],
   "sources": [
-    {
-      "label": "FHWA America's Byways, Ohio & Erie Canalway",
-      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10501"
-    },
-    {
-      "label": "ODOT, Ohio & Erie Canalway story map tour stops (query)",
-      "url": "https://services1.arcgis.com/1AlElnGrgBM62OSj/arcgis/rest/services/OEC_Storymap_View/FeatureServer/0/query?where=1%3D1&outFields=AOI_Number%2CAOI_Name%2CAOI_Description&returnGeometry=true&outSR=4326&f=html"
-    },
     {
       "label": "Wikipedia, Ohio & Erie Canalway Scenic Byway",
       "url": "https://en.wikipedia.org/wiki/Ohio_%26_Erie_Canalway_Scenic_Byway"
@@ -61,16 +56,24 @@
       "url": "https://en.wikipedia.org/wiki/Ohio_and_Erie_Canal"
     },
     {
+      "label": "Federal Highway Administration, Ohio & Erie Canalway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10501"
+    },
+    {
+      "label": "Ohio Department of Transportation, Ohio & Erie Canalway story-map tour stops",
+      "url": "https://services1.arcgis.com/1AlElnGrgBM62OSj/arcgis/rest/services/OEC_Storymap_View/FeatureServer/0/query?where=1%3D1&outFields=AOI_Number%2CAOI_Name%2CAOI_Description&returnGeometry=true&outSR=4326&f=html"
+    },
+    {
       "label": "Wikipedia, Cascade Locks Historic District",
       "url": "https://en.wikipedia.org/wiki/Cascade_Locks_Historic_District"
     },
     {
       "label": "Wikipedia, Canal Fulton, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Canal_Fulton,_Ohio"
+      "url": "https://en.wikipedia.org/wiki/Canal_Fulton%2C_Ohio"
     },
     {
       "label": "Wikipedia, Zoar, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Zoar,_Ohio"
+      "url": "https://en.wikipedia.org/wiki/Zoar%2C_Ohio"
     }
   ],
   "reviewed": false

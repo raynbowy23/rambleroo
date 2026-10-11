@@ -1,19 +1,31 @@
 {
   "id": "jemez-mountain-trail-2061",
-  "tagline": "Up a red rock canyon to an old volcano's floor.",
+  "tagline": "Volcanic cliffs, steep grades and grass valleys along a mountain highway",
   "motifs": [
     "switchbacks"
   ],
   "intro": [
-    "From US 550 at San Ysidro, NM 4 runs north past Jemez Pueblo and up the red rock of San Diego Canyon beside the Jemez River, under high volcanic cliffs, to the village of Jemez Springs. Then it climbs steeply into the Santa Fe National Forest, skirts the Valles Caldera and drops on hairpin turns toward Los Alamos. A second arm, NM 126, goes west by Fenton Lake to Cuba, and US 550 brings the loop back south.",
-    "Jemez Springs had its bathhouse by the 1880s. In 1942 it was the second choice for the Manhattan Project laboratory. Los Alamos, up the road, got it."
+    "The Jemez Mountain Trail climbs from red-rock canyon country into the Santa Fe National Forest, with NM 4 as its main artery. NM 4 is paved throughout and predominantly two lanes; on the mountains’ east side, it descends steeply through hairpin turns with views into Frijoles Canyon. The Federal Highway Administration lists a 163-mile National Scenic Byway and suggests three hours to drive it or a full day to see it. Its account emphasizes geological formations and the area’s logging, mining and ranching heritage. The wider byway also includes excursions on NM 126, NM 290 and NM 502, extending beyond this main mountain crossing.",
+    "At Valles Caldera, that working landscape became protected land: the caldera joined the Baca Ranch in 1876, and the federal government purchased the ranch under legislation creating the national preserve in 2000. The National Park Service took over day-to-day management in 2015.",
+    "Begin the NM 4 drive at San Ysidro’s junction with US 550, passing Jemez Pueblo and Jemez Springs before the climb into the mountains. The highway skirts Valles Caldera’s southern boundary, then descends toward the NM 501 junction for Los Alamos. NM 4 continues past Bandelier’s main entrance and White Rock to NM 502, east of Los Alamos."
   ],
   "moments": [
+    {
+      "title": "Cabezon Peak",
+      "kind": "separate excursion",
+      "scene": "desert",
+      "text": "Cabezon Peak rises nearly 2,000 feet above the Rio Puerco Valley, a basalt core left after the surrounding volcanic material eroded away. The Spanish name means “big head.” Its shape comes from lava that collected inside a volcanic cone and hardened into a massive plug. Erosion stripped away the less resistant scoria, leaving the plug exposed. Basalt columns stand vertically in its upper section and spread outward at the base; a remnant of the original cone remains at the top. The peak belongs to the Mount Taylor volcanic field, and marine sedimentary rocks are exposed at its base.",
+      "at": [
+        -107.0958761,
+        35.5994727
+      ]
+    },
     {
       "title": "Jemez Historic Site",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "North of the village stand the limestone walls of San José de los Jémez, a mission church 110 feet long, begun in 1621 beside the older Gíusewa Pueblo. The pueblo emptied in 1680.",
+      "text": "The church walls at Jemez Historic Site are six to seven feet thick at their bases, built mainly from limestone with sandstone and volcanic tuff. They belong to San José de los Jémez, the Spanish colonial mission beside Gíusewa Pueblo. The surviving structures were begun in 1621. The Jémez continued living in the pueblo and built a square kiva within the mission compound before leaving in 1680 during the Pueblo Rebellion. The site’s description identifies it as an ancestral place for Jemez Pueblo people living nearby. Wall tops have received restorative work to limit erosion, while some pueblo remains have been backfilled for protection.",
+      "notice": "The mission’s remnant church walls extend 110 feet in length.",
       "at": [
         -106.68638889,
         35.77722222
@@ -23,51 +35,37 @@
       "title": "Valles Caldera",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "A volcanic caldera nearly 14 miles across, with grass valleys below Redondo Peak. Valle Grande, the largest of them, is the only one a paved road reaches.",
+      "text": "Grass valleys lie inside Valles Caldera’s 13.7-mile-wide volcanic basin. The largest, Valle Grande, is the only one reached by a paved road. Redondo Peak rises within the caldera as a resurgent lava dome, the high point of this landscape. The caldera collapsed over and buried the older Toledo Caldera. Hot springs and fumaroles mark an active geothermal system. NASA used this volcanic landscape to train Apollo astronauts in 1964 and 1966, teaching recognition of features including ash-flow tuffs, pumice and rhyolite domes. The valley floor is above 8,000 feet, and the caldera contains a network of ranch roads and livestock trails.",
       "at": [
         -106.53333333,
         35.9
-      ]
-    },
-    {
-      "title": "Cabezon Peak",
-      "kind": "separate excursion",
-      "scene": "desert",
-      "text": "Cabezon means big head. The volcanic plug stands nearly 2,000 feet over the Rio Puerco valley, and in Navajo tradition it is the head of a giant the twins slew.",
-      "at": [
-        -107.0958761,
-        35.5994727
       ]
     }
   ],
   "sources": [
     {
-      "label": "New Mexico True, Jemez Mountain Trail National Scenic Byway",
+      "label": "New Mexico Tourism Department, Jemez Mountain Trail National Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/jemez-mountain-trail-national/"
-    },
-    {
-      "label": "FHWA America's Byways, Jemez Mountain Trail",
-      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2061"
     },
     {
       "label": "Wikipedia, New Mexico State Road 4",
       "url": "https://en.wikipedia.org/wiki/New_Mexico_State_Road_4"
     },
     {
-      "label": "Wikipedia, Jemez Springs, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Jemez_Springs,_New_Mexico"
-    },
-    {
-      "label": "Wikipedia, Jemez Historic Site",
-      "url": "https://en.wikipedia.org/wiki/Jemez_Historic_Site"
-    },
-    {
       "label": "Wikipedia, Valles Caldera",
       "url": "https://en.wikipedia.org/wiki/Valles_Caldera"
     },
     {
+      "label": "Federal Highway Administration, Jemez Mountain Trail",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2061"
+    },
+    {
       "label": "Wikipedia, Cabezon Peak",
       "url": "https://en.wikipedia.org/wiki/Cabezon_Peak"
+    },
+    {
+      "label": "Wikipedia, Jemez Historic Site",
+      "url": "https://en.wikipedia.org/wiki/Jemez_Historic_Site"
     }
   ],
   "reviewed": false

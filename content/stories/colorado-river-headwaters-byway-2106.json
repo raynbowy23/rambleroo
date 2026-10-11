@@ -1,43 +1,22 @@
 {
   "id": "colorado-river-headwaters-byway-2106",
-  "tagline": "The Colorado River back when it was only a brook.",
+  "tagline": "A headwaters journey through river gorges, reservoirs and a natural lake.",
   "motifs": [
     "river-bluffs",
     "lake-wide"
   ],
   "intro": [
-    "Out of Grand Lake the byway follows the young Colorado down by Granby to Hot Sulphur Springs, where the river goes into Byers Canyon, and on to Kremmling in the dry lower end of Middle Park. At Kremmling the pavement gives out. The rest is gravel, the county road along the south rim of Gore Canyon and on to State Bridge.",
-    "Downstream the Colorado waters and powers a good part of the Southwest. Up here, as the state's byway page has it, it is no different from dozens of other Rocky Mountain streams, a clear brook across meadows and down red rock gorges."
+    "The Colorado River Headwaters byway links Grand Lake and State Bridge through meadows and red-rock gorges. Colorado’s transportation department lists 80 miles and two driving hours, and promotes fishing, canoeing and rafting along this upper reach of the river. The U.S. Secretary of Transportation designated it a National Scenic Byway in 2005. Between State Bridge and Kremmling, the road is gravel and visitor services are limited.",
+    "At State Bridge, the Missouri Valley Bridge Company built a two-span Howe truss road bridge in 1890 for the Colorado State Engineer. The canyon farther upstream posed another transport problem: the railroad went through Gore Canyon, while the county road passes along its southern rim. That road offers a view into part of the gorge.",
+    "Driving toward Grand Lake from State Bridge, pass the southern rim of Gore Canyon before reaching Kremmling in the arid lower part of Middle Park. Continue east on US 40 through Parshall and Byers Canyon to Hot Sulphur Springs, then Granby. US 34 connects Granby with Grand Lake, the resort town beside Colorado’s largest natural lake. The town originally supplied the mining settlements of Lulu City, Teller City and Gaskill; it is now a tourist destination beside Rocky Mountain National Park."
   ],
+  "notice": "Part of Gore Canyon is visible from Trough Road along its southern rim.",
   "moments": [
-    {
-      "title": "Grand Lake",
-      "kind": "town",
-      "scene": "town",
-      "text": "The Utes called it Spirit Lake. Now water from Lake Granby is at times pumped back into it and sent under the Continental Divide to the eastern slope.",
-      "at": [
-        -105.8161,
-        40.245
-      ],
-      "motifs": [
-        "lake-wide"
-      ]
-    },
-    {
-      "title": "Hot Sulphur Springs",
-      "kind": "town",
-      "scene": "river",
-      "text": "Spring water comes up at 125 degrees, and the town keeps Halloween on October 30, from when the 31st was payday and payday meant gunfights.",
-      "at": [
-        -106.1031,
-        40.075
-      ]
-    },
     {
       "title": "Gore Canyon",
       "kind": "roadside",
       "scene": "river",
-      "text": "The gravel road keeps to the south rim. Below, in a roadless three-mile gorge with walls about 1,000 feet high, only the railroad and the whitewater boats get through.",
+      "text": "Trough Road follows Gore Canyon’s southern rim, giving views into part of a gorge that has no road through it. The Colorado carved this approximately three-mile canyon at the northern end of the Gore Range, southwest of Kremmling. Walls rise approximately 1,000 feet on either side. The canyon marks the southwestern end of the Middle Park basin, where the river leaves that mountain basin. The railroad found a route through the gorge, and the California Zephyr travels it. Below the rim road, the river carries class V whitewater used by expert kayakers and rafters.",
       "at": [
         -106.5078,
         39.9906
@@ -45,31 +24,70 @@
       "motifs": [
         "river-bluffs"
       ]
+    },
+    {
+      "title": "Hot Sulphur Springs",
+      "kind": "town",
+      "scene": "river",
+      "text": "Hot Sulphur Springs stands just upstream of the Colorado River’s entrance to Byers Canyon. Its geothermal spring water emerges at 125°F. The town also played a part in the development of Colorado winter sports. A carnival on December 31, 1911, proved successful enough to prompt a three-day event the following February. The next winter’s carnival was planned with Steamboat Springs’ first winter sports carnival. The town first served as Grand County’s seat from 1874 to 1882, and regained that role in 1888. US 40 passes through town as Byers Avenue, linking the springs with Granby and Kremmling.",
+      "at": [
+        -106.1031,
+        40.075
+      ]
+    },
+    {
+      "title": "Grand Lake",
+      "kind": "town",
+      "scene": "town",
+      "text": "Colorado’s largest and deepest natural lake also serves as a passage for diverted river water. A glacial terminal moraine formed the natural dam that created the lake. The Colorado–Big Thompson Project connects it with Shadow Mountain Lake and Lake Granby. When the project diverts water to northeastern Colorado, pumps can send water from Lake Granby back into Shadow Mountain Lake and onward into Grand Lake. The Alva B. Adams Tunnel then carries it beneath the Continental Divide to the eastern slope. On the eastern slope, the diverted water reaches the South Platte River for agricultural, municipal and industrial use.",
+      "at": [
+        -105.8161,
+        40.245
+      ],
+      "motifs": [
+        "lake-wide"
+      ]
     }
   ],
   "practical": [
-    "The road between Kremmling and State Bridge is gravel, with limited services."
+    "Gore Canyon: The road between Kremmling and State Bridge has a gravel surface and limited visitor services. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "CDOT, Colorado River Headwaters",
+      "label": "Colorado Department of Transportation, Colorado River Headwaters",
       "url": "https://www.codot.gov/travel/coloradobyways/northwest/colorado-river-headwaters"
     },
     {
       "label": "Wikipedia, Grand Lake (Colorado)",
-      "url": "https://en.wikipedia.org/wiki/Grand_Lake_(Colorado)"
+      "url": "https://en.wikipedia.org/wiki/Grand_Lake_%28Colorado%29"
     },
     {
-      "label": "Wikipedia, Hot Sulphur Springs, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Hot_Sulphur_Springs,_Colorado"
-    },
-    {
-      "label": "Wikipedia, Kremmling, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Kremmling,_Colorado"
+      "label": "Wikipedia, State Bridge (Eagle County, Colorado)",
+      "url": "https://en.wikipedia.org/wiki/State_Bridge_%28Eagle_County%2C_Colorado%29"
     },
     {
       "label": "Wikipedia, Gore Canyon",
       "url": "https://en.wikipedia.org/wiki/Gore_Canyon"
+    },
+    {
+      "label": "Wikipedia, Kremmling, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Kremmling%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Parshall, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Parshall%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Hot Sulphur Springs, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Hot_Sulphur_Springs%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Byers Canyon",
+      "url": "https://en.wikipedia.org/wiki/Byers_Canyon"
+    },
+    {
+      "label": "Wikipedia, Grand Lake, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Grand_Lake%2C_Colorado"
     }
   ],
   "reviewed": false

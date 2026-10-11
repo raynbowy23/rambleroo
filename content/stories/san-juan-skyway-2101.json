@@ -1,36 +1,37 @@
 {
   "id": "san-juan-skyway-2101",
-  "tagline": "Alpine passes and mining towns in a single loop.",
+  "tagline": "Mining railroads and mountain passes shape a loop through the San Juans.",
   "motifs": [
     "snow-peaks",
     "switchbacks",
     "aspens"
   ],
   "intro": [
-    "The San Juan Skyway is a loop through southwest Colorado's San Juan Mountains, connecting Durango, Silverton, Ouray, Telluride, and Cortez. It climbs over high passes and runs past old mining country.",
-    "The stretch between Silverton and Ouray is narrow, steep, and often without guardrails. Check conditions before crossing the passes, especially outside summer."
+    "The San Juan Skyway loops through southwest Colorado, climbing forested passes and threading the Uncompahgre Gorge between mining towns. South of Ouray, the route passes through a tunnel and a snow shed beneath the Riverside Slide avalanche zone before climbing switchbacks toward Red Mountain Pass. Colorado’s Department of Transportation gives the drive as 236 miles and six hours. Designated an All-American Road in 1996, the route is celebrated by CDOT for its Victorian towns, national forests, Mesa Verde and roads beneath 14,000-foot peaks.",
+    "The circuit’s origins reach back to the Denver & Rio Grande’s promoted Around the Circle Route, and it roughly parallels former narrow-gauge railway routes. Railways carried ore; the construction of U.S. 550 later helped tourists reach Silverton in the 1930s. The Skyway received National Forest Scenic Byway status in 1988 and Colorado Scenic and Historic Byway status the following year.",
+    "From Durango, travel north over Coal Bank and Molas passes to Silverton, then cross Red Mountain Pass to Ouray. Continue through Ridgway, over Dallas Divide to Placerville and toward the Telluride spur. Lizard Head Pass leads to Rico and the Dolores River; return through Dolores, Cortez and Mancos, passing the Mesa Verde entrance on the way to Durango."
   ],
-  "season": "Summer for the passes, late September for aspens.",
   "moments": [
     {
-      "title": "Ouray",
+      "title": "Silverton",
       "kind": "town",
       "scene": "town",
-      "text": "A small town in a steep box canyon at the north end of the high passes.",
+      "text": "Silverton’s narrow-gauge railroad was built primarily to carry ore from the mining district to Durango. In 1960, the Denver and Rio Grande Western asked to abandon the line, but the Interstate Commerce Commission refused because tourist traffic was strong. The town occupies a flat stretch of the Animas River valley beneath steep peaks. The entire town is included in the Silverton Historic District, a federally designated National Historic Landmark District. Its last operating mine closed in 1992, ending work for more than a third of the town’s workforce. The Durango and Silverton Narrow Gauge Railroad continues bringing passengers here during its operating season.",
+      "notice": "Silverton occupies a flat part of the Animas River valley surrounded by steep peaks.",
       "at": [
-        -107.671,
-        38.022
+        -107.664,
+        37.812
       ],
       "motifs": [
-        "mining-town",
-        "snow-peaks"
+        "mining-town"
       ]
     },
     {
       "title": "Red Mountain Pass",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The high point between Ouray and Silverton, among old mine workings.",
+      "text": "Iron oxide gives the nearby Red Mountain slopes their color and the pass its name. At 11,018 feet, the pass divides the Uncompahgre and Las Animas River watersheds. The Uncompahgre and San Juan national forests meet at this divide as well. On the Ouray side, the paved road descends through switchbacks and an 8 percent grade. The mining district north of the divide boomed in silver from 1882 to 1893. Old mine headframes remain visible from the highway, together with the remains of Red Mountain Town, Ironton and Guston. Farther down toward Ouray, the narrow road is cut into near-vertical quartzite cliffs.",
+      "notice": "Old mine headframes are visible from the highway north of the divide.",
       "at": [
         -107.712,
         37.898
@@ -41,23 +42,48 @@
       ]
     },
     {
-      "title": "Silverton",
+      "title": "Ouray",
       "kind": "town",
       "scene": "town",
-      "text": "A former mining town in a high mountain valley.",
+      "text": "Ouray’s Main Street keeps much of its late-nineteenth-century building stock within a National Historic District. Miners seeking silver and gold established the town, enclosed by steep mountains at the narrow head of a valley. The Denver & Rio Grande Railway arrived in 1887, but automobile and truck traffic later reduced ridership. Regular passenger service ended in 1930, and the line to Ridgway was abandoned in 1953. The district also includes the county courthouse and Wright’s Opera House. Among the district’s buildings is St. Joseph’s Miners’ Hospital, which houses the Ouray County Historical Society and Museum.",
+      "notice": "Most buildings along the Main Street historic district date from the late nineteenth century.",
       "at": [
-        -107.664,
-        37.812
+        -107.671,
+        38.022
       ],
       "motifs": [
-        "mining-town"
+        "mining-town",
+        "snow-peaks"
       ]
     }
   ],
+  "practical": [
+    "Red Mountain Pass: Avalanches can block the pass. CDOT advises checking winter road conditions and directs travelers to COtrip.org for the latest conditions. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "Colorado Department of Transportation, Scenic Byways",
+      "label": "Wikipedia, San Juan Skyway Scenic and Historic Byway",
+      "url": "https://en.wikipedia.org/wiki/San_Juan_Skyway_Scenic_and_Historic_Byway"
+    },
+    {
+      "label": "Colorado Department of Transportation, San Juan Skyway",
+      "url": "https://www.codot.gov/travel/coloradobyways/southwest/san-juan-skyway"
+    },
+    {
+      "label": "Wikipedia, Silverton, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Silverton%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Red Mountain Pass",
+      "url": "https://en.wikipedia.org/wiki/Red_Mountain_Pass"
+    },
+    {
+      "label": "Colorado Department of Transportation, Colorado Scenic & Historic Byways",
       "url": "https://www.codot.gov/travel/colorado-byways"
+    },
+    {
+      "label": "Wikipedia, Ouray, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Ouray%2C_Colorado"
     }
   ],
   "reviewed": false

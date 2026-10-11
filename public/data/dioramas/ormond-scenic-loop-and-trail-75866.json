@@ -12,76 +12,8 @@
     "lanes": 2,
     "coordinates": [
       [
-        -81.04754,
-        29.2889
-      ],
-      [
-        -81.04893,
-        29.2914
-      ],
-      [
-        -81.04997,
-        29.29418
-      ],
-      [
-        -81.05235,
-        29.29839
-      ],
-      [
-        -81.05329,
-        29.30134
-      ],
-      [
-        -81.05511,
-        29.3048
-      ],
-      [
-        -81.05604,
-        29.30732
-      ],
-      [
-        -81.06038,
-        29.31684
-      ],
-      [
-        -81.061,
-        29.31872
-      ],
-      [
-        -81.06256,
-        29.32134
-      ],
-      [
-        -81.06388,
-        29.32544
-      ],
-      [
-        -81.07029,
-        29.34043
-      ],
-      [
-        -81.08379,
-        29.37336
-      ],
-      [
-        -81.08548,
-        29.37871
-      ],
-      [
-        -81.08723,
-        29.38245
-      ],
-      [
-        -81.09218,
-        29.3957
-      ],
-      [
-        -81.09808,
-        29.40901
-      ],
-      [
-        -81.09483,
-        29.41015
+        -81.10257,
+        29.42716
       ],
       [
         -81.07676,
@@ -184,6 +116,10 @@
         29.40919
       ],
       [
+        -81.11849,
+        29.40808
+      ],
+      [
         -81.11804,
         29.40705
       ],
@@ -228,12 +164,76 @@
         29.40901
       ],
       [
-        -81.09483,
-        29.41015
+        -81.09218,
+        29.3957
       ],
       [
-        -81.10257,
-        29.42716
+        -81.08723,
+        29.38245
+      ],
+      [
+        -81.08548,
+        29.37871
+      ],
+      [
+        -81.08379,
+        29.37336
+      ],
+      [
+        -81.08243,
+        29.37036
+      ],
+      [
+        -81.07705,
+        29.35678
+      ],
+      [
+        -81.07029,
+        29.34043
+      ],
+      [
+        -81.06388,
+        29.32544
+      ],
+      [
+        -81.06256,
+        29.32134
+      ],
+      [
+        -81.061,
+        29.31872
+      ],
+      [
+        -81.06038,
+        29.31684
+      ],
+      [
+        -81.05604,
+        29.30732
+      ],
+      [
+        -81.05511,
+        29.3048
+      ],
+      [
+        -81.05329,
+        29.30134
+      ],
+      [
+        -81.05235,
+        29.29839
+      ],
+      [
+        -81.04997,
+        29.29418
+      ],
+      [
+        -81.04893,
+        29.2914
+      ],
+      [
+        -81.04754,
+        29.2889
       ]
     ],
     "elevation": [
@@ -279,7 +279,7 @@
     {
       "name": "The Casements",
       "model": "town-blocks",
-      "at": 0.5487019701688307,
+      "at": 0.3190144323678121,
       "offset": "roadside",
       "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
     }
@@ -295,13 +295,13 @@
   ],
   "towns": [
     {
-      "name": "Ormond-by-the-Sea",
-      "at": 0.11886227544910177,
+      "name": "Ellinor Village",
+      "at": 0.3181818181818182,
       "landmark": ""
     },
     {
-      "name": "Ellinor Village",
-      "at": 0.5485029940119761,
+      "name": "Ormond-by-the-Sea",
+      "at": 0.8790909090909091,
       "landmark": ""
     }
   ],
@@ -311,5 +311,5 @@
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }

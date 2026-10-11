@@ -277,18 +277,18 @@
   },
   "landmarks": [
     {
-      "name": "Looking Glass Falls",
-      "model": "cove-waterfall",
-      "at": 0.25,
-      "offset": "roadside",
-      "notes": "Story moment 1; roadside. Illustrative position in driving order."
-    },
-    {
       "name": "Sliding Rock",
       "model": "cove-waterfall",
       "at": 0.5,
       "offset": "roadside",
       "notes": "Story moment 2; short walk. Illustrative position in driving order."
+    },
+    {
+      "name": "Looking Glass Falls",
+      "model": "cove-waterfall",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
     }
   ],
   "dressing": [
