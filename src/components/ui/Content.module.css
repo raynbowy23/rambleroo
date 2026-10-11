@@ -1004,3 +1004,7 @@
 .cover .coverText h2 {
   position: static;
 }
+.corrections {
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+}
