@@ -1,19 +1,21 @@
 {
   "id": "angel-lake-road-2028",
-  "tagline": "Twelve paved miles up to a tarn under the cliffs.",
+  "tagline": "A paved climb from Wells into the ice-carved East Humboldt Range",
   "motifs": [
     "switchbacks"
   ],
   "intro": [
-    "Angel Lake Road starts in Wells, just south of I-80, and climbs about 12 miles into the East Humboldt Range, the last of it by switchbacks up the steep eastern face. Clover Valley drops away below. Above, the range runs up to Greys Peak at 10,674 feet.",
-    "The Forest Service counts it the only paved road in the area to an alpine lake."
+    "Angel Lake Road climbs from Wells into the East Humboldt Range, a 12-mile paved drive through switchbacks to a glacial lake. U-shaped canyons, moraines and granite cliffs show the work of past glaciers along the way. Designated a Nevada Scenic Byway in 1995, the road reaches what the Forest Service calls the area’s only alpine lake accessible by pavement. The range has a steep eastern escarpment and gentler slopes to the west, the result of its tilted fault-block formation.",
+    "The lake takes its name from Warren M. Angel, an early rancher in Clover Valley. The road became a state highway on July 1, 1976, before receiving its scenic designation on June 30, 1995.",
+    "Starting at Humboldt Avenue in Wells, just south of I-80, follow Angel Lake Road toward the mountains and their eastern switchbacks. The state highway ends at the Angel Lake fee booth, beside the lake’s picnic and campground areas. At the lake, high cliffs enclose the basin, with Greys Peak to the west and Chimney Rock’s pinnacles to the south. Clover Valley and Wells lie below to the east."
   ],
+  "notice": "U-shaped canyons, moraines and granite cliffs are visible from the road.",
   "moments": [
     {
       "title": "Wells",
       "kind": "town",
       "scene": "town",
-      "text": "The town began as Humboldt Wells, near the springs where the Humboldt River starts, and got its short name after an 1877 telegraph that said only that Wells was burning.",
+      "text": "Before the mountain drive, Wells offers another kind of travel history: a California-trail stopping place that became a railroad town. Its original name, Humboldt Wells, refers to springs and swampy ground west of the city where the Humboldt River begins. During an 1877 fire, a telegraph message called for help: “Wells is burning”. The rebuilt town used the shorter name. The original Transcontinental Railroad once brought passenger trains here; Wells now stands at the junction of I-80 and US 93. The city stands at an elevation of 5,630 feet.",
       "at": [
         -114.96722222,
         41.12
@@ -23,7 +25,8 @@
       "title": "The switchbacks",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "On the way up the road shows the work of the ice ages, U-shaped canyons, moraines and steeply carved granite cliffs and cirques.",
+      "text": "The road’s switchbacks climb the steep eastern side of the East Humboldt Range. The range formed as a tilted fault block, with more gradual slopes and valleys on its western side. Glaciers later left U-shaped canyons, moraines, granite cliffs and cirques, all visible from the road to Angel Lake. Greys Peak reaches 10,674 feet near the northern end of the range; farther south, the mountains rise higher at Hole in the Mountain Peak. Clover Valley borders the mountains to the east, while Starr Valley and Dennis Flats lie on their western side.",
+      "notice": "The mountain road reveals U-shaped canyons and steep granite cliffs.",
       "motifs": [
         "switchbacks"
       ]
@@ -32,7 +35,8 @@
       "title": "Angel Lake",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The road ends at 8,378 feet beside a 13-acre tarn under cirque cliffs, named not for any angel but for Warren M. Angel, an early Clover Valley rancher.",
+      "text": "Angel Lake occupies a glacial basin at 8,378 feet in the northern East Humboldt Range. Its approximately 13 acres sit beneath high cirque cliffs, with the pinnacles of Chimney Rock to the south. The lake reaches a depth of up to 29 feet beneath those enclosing cliffs. The lake bears the name of Warren M. Angel, an early Clover Valley rancher. The Forest Service describes a lakeshore picnic area and a campground beside the lake, flanked by glacial cirques. The Forest Service lists both facilities as closed for the season.",
+      "notice": "High cliffs enclose the lake, with Chimney Rock’s pinnacles to the south.",
       "at": [
         -115.085,
         41.02666667
@@ -40,16 +44,13 @@
     }
   ],
   "practical": [
-    "The road may be closed in winter, and the campground at the lake is generally open from Memorial Day to Labor Day."
+    "The switchbacks: Angel Lake Road may be closed during winter. (checked 2026-10-11)",
+    "Angel Lake: The Forest Service lists the campground and picnic site as closed, with a seasonal closing alert. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "USDA Forest Service, Angel Lake Campground",
-      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/angel-lake-campground"
-    },
-    {
-      "label": "USDA Forest Service, Angel Lake Picnic Site",
-      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/angel-lake-picnic-site"
+      "label": "Wikipedia, East Humboldt Range",
+      "url": "https://en.wikipedia.org/wiki/East_Humboldt_Range"
     },
     {
       "label": "Wikipedia, Nevada State Route 231",
@@ -60,12 +61,16 @@
       "url": "https://en.wikipedia.org/wiki/Angel_Lake"
     },
     {
-      "label": "Wikipedia, East Humboldt Range",
-      "url": "https://en.wikipedia.org/wiki/East_Humboldt_Range"
+      "label": "US Forest Service, Angel Lake Picnic Site",
+      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/angel-lake-picnic-site"
     },
     {
       "label": "Wikipedia, Wells, Nevada",
-      "url": "https://en.wikipedia.org/wiki/Wells,_Nevada"
+      "url": "https://en.wikipedia.org/wiki/Wells%2C_Nevada"
+    },
+    {
+      "label": "US Forest Service, Angel Lake Campground",
+      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/angel-lake-campground"
     }
   ],
   "reviewed": false

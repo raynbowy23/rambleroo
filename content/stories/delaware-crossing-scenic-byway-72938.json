@@ -1,19 +1,20 @@
 {
   "id": "delaware-crossing-scenic-byway-72938",
-  "tagline": "A short loop of the Maquoketa valley, trout and all.",
+  "tagline": "A Maquoketa valley loop through farmland, limestone bluffs and trout country",
   "motifs": [
     "river-bluffs"
   ],
   "intro": [
-    "The byway is a 36-mile loop through the Maquoketa River valley of southern Delaware County, past farmland, rolling hills and limestone bluffs, by way of Manchester, Delhi, Hopkinton and Delaware. Being a loop, it can be picked up anywhere. Some of the county's seventy-odd painted barn quilts are along it.",
-    "At Manchester a fish hatchery built in 1897 as a federal hatchery, one of the oldest in the nation, raises trout for streams across northeast Iowa, several of them along this loop."
+    "Delaware Crossing makes a 36-mile loop through the Maquoketa River valley, with farmland, rolling hills and limestone bluffs along the way. The Iowa tourism office lists both paved and gravel surfaces. An Iowa state byway, it brings together the river valley, Civil War history and outdoor recreation highlighted in the state’s official byways guide. The DOT describes fields of corn and forested riverbanks giving way to limestone outcroppings and boulders of glacial origin.",
+    "Water here has served both industry and recreation. Interstate Power Company built Delhi Dam between 1922 and 1929 to generate electricity. The generators stopped in 1973, shortly before a recreation association took ownership. After heavy rain caused the dam to fail in 2010 and the lake to empty, the dam was rebuilt in 2016.",
+    "Take Delhi and nearby Lake Delhi as a starting point, then continue to Hopkinton and the former Lenox College campus. The college grounds now serve as a museum complex. Include a separate excursion to Manchester’s fish hatchery, built in 1897 and still supplying trout to northeast Iowa streams, before completing the circuit through Delaware. Along the byway, painted barn quilts are among the county’s outdoor sights."
   ],
   "moments": [
     {
       "title": "Lake Delhi",
       "kind": "roadside",
       "scene": "river",
-      "text": "After about ten inches of rain in twelve hours in July 2010, the Maquoketa topped the dam below Delhi and the lake ran out, and the dam was rebuilt in 2016.",
+      "text": "Lake Delhi began as a hydroelectric reservoir on the Maquoketa River. Interstate Power Company built the dam between 1922 and 1929; its generators stopped in 1973, and recreation became its use. On July 24, 2010, after about ten inches of rain in twelve hours, the southern embankment failed. Overtopping water washed away a 200-foot section of embankment and roadway, emptying the lake. The dam was rebuilt in 2016, and the river level returned to its pre-flood level that September. Reconstruction funding came from the state, county and assessments against local property owners.",
       "at": [
         -91.345,
         42.408
@@ -23,37 +24,44 @@
       "title": "Hopkinton",
       "kind": "town",
       "scene": "town",
-      "text": "Most of the young men of Lenox College went to the Civil War with their dean as captain, and in 1865 the campus raised a monument to them, the first such on any campus.",
+      "text": "A Civil War monument stands at the center of the former Lenox College campus in Hopkinton. Most of the college’s young men enlisted with their dean as captain, forcing the school to close temporarily. The monument, dedicated on November 17, 1865, honors them. The college ultimately closed in 1944. Its buildings now form part of the Delaware County Historical Museum Complex, where one building interprets the lives of early doctors and Civil War volunteers. The museum complex also includes Hopkinton’s depot, moved here in 1969, and a one-room school moved here in 1971.",
+      "notice": "The Civil War monument occupies the center of the former college campus.",
       "at": [
         -91.243,
         42.345
       ]
+    },
+    {
+      "title": "Manchester Fish Hatchery",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "Built as a federal fish hatchery in 1897, the Manchester Fish Hatchery continues to supply trout for streams throughout northeast Iowa. Several of those streams lie within the Delaware Crossing corridor. Fishing is part of the site’s present use as well: anglers can fish at the hatchery or at Bailey’s Ford Park."
     }
   ],
   "sources": [
     {
-      "label": "Travel Iowa, Delaware Crossing Scenic Byway",
+      "label": "Iowa Tourism Office, Delaware Crossing Scenic Byway",
       "url": "https://www.traveliowa.com/trails/delaware-crossing-scenic-byway/2/"
     },
     {
-      "label": "Iowa DOT, Iowa Byways Official Travel Guide",
+      "label": "Iowa Department of Transportation, The Official Travel Guide to Iowa’s Byways",
       "url": "https://iowadot.gov/media/916/download?inline"
+    },
+    {
+      "label": "Iowa Department of Transportation, Scenic Byway View",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
       "label": "Wikipedia, Delhi Dam",
       "url": "https://en.wikipedia.org/wiki/Delhi_Dam"
     },
     {
+      "label": "Wikipedia, Delhi, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Delhi%2C_Iowa"
+    },
+    {
       "label": "Wikipedia, Lenox College",
       "url": "https://en.wikipedia.org/wiki/Lenox_College"
-    },
-    {
-      "label": "Wikipedia, Hopkinton, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Hopkinton,_Iowa"
-    },
-    {
-      "label": "Iowa DOT, Scenic Byway View (ArcGIS feature service)",
-      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     }
   ],
   "reviewed": false

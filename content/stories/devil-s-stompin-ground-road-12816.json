@@ -1,51 +1,68 @@
 {
   "id": "devil-s-stompin-ground-road-12816",
-  "tagline": "Out of Pittsboro to a ring where nothing grows, they say.",
+  "tagline": "A woodland circle near Harpers Crossroads carries a tale of the devil.",
   "intro": [
-    "NC 902 leaves the Chatham County Courthouse in Pittsboro and heads out into the lower Piedmont, past Round Top Mountain and over the Rocky River, through farmland and forest to Harpers Crossroads. From there it runs on to NC 42, and Howard Mill Road finishes the trip through the Moore County countryside to NC 705.",
-    "The road takes its name from a bare ring in the woods near Bear Creek. The story goes that the devil walks it in circles at night, plotting new trouble for the world, and that nothing has grown in it for a hundred years."
+    "Devil’s Tramping Ground Road belongs to North Carolina’s scenic-byway network. Its Chatham County setting is gently rolling Piedmont country, with higher hills rising above the general terrain. NCDOT describes its byways as alternatives to the faster traffic and commercial areas of major highways.",
+    "Near Harpers Crossroads, a forest clearing called the Devil’s Tramping Ground has inspired persistent local legends. Journalist John William Harden described the story told by Chatham residents: the devil paces the bare circle while devising trouble for humanity.",
+    "Pittsboro’s courthouse occupies a traffic circle at the center of town. Farther along the journey, Harpers Crossroads marks the meeting of NC 902 and Siler City Glendon Road. The woodland circle lies near this crossroads in the Bear Creek area."
   ],
   "moments": [
     {
       "title": "Pittsboro",
       "kind": "town",
       "scene": "town",
-      "text": "The county seat is named for William Pitt the Younger, though the county is named for his father, and the town was once considered for both the state university and the capital.",
+      "text": "Pittsboro’s town plan began with a land problem. In 1787, the legislature ruled out establishing a town on Mial Scurlock’s property, where the courthouse had been built. The trustees bought adjoining land from William Petty and laid out the town there; Pittsboro officially became the county seat that year. Its name honors William Pitt the Younger, while Chatham County honors his father. The town was considered for both the state university and the state capital. As county seat, it became a center for trade and local government, drawing farmers into town on weekends to do business.",
       "at": [
         -79.16944444,
         35.72777778
       ]
     },
     {
+      "title": "Chatham County Courthouse",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "A three-stage cupola rises above the Chatham County Courthouse’s two-story classical portico. Built in 1881, the rectangular brick courthouse stands in the traffic circle at Pittsboro’s center. The Works Progress Administration added a one-story extension in the 1930s, and extensive renovations followed in 1959. The courthouse entered the National Register of Historic Places in 1979. A fire during renovation badly damaged the building in March 2010. The restored courthouse reopened in April 2013, with a county-history exhibit downstairs and a courtroom upstairs.",
+      "notice": "The portico rises two stories beneath a three-stage cupola.",
+      "at": [
+        -79.17722222,
+        35.72027778
+      ]
+    },
+    {
       "title": "Devil's Tramping Ground",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "From Harpers Crossroads a side road leads 1.7 miles to a gravel pull-off, and a path runs a few hundred feet into the woods to the bare circle.",
+      "text": "The Devil’s Tramping Ground is a woodland circle near Harpers Crossroads whose reputation rests on local lore. Journalist and author John William Harden recorded Chatham residents’ story of the devil walking in circles here while thinking up ways to cause trouble for humanity. In Harden’s telling, that pacing takes place on the bare circle during the night. The place also appears in Poppy Z. Brite’s horror novels Lost Souls and Drawing Blood. Both novels are set at least partly in Missing Mile, a fictional North Carolina city. The real place is also called Devil’s Stomping Ground.",
       "at": [
         -79.486658,
         35.584811
       ]
     }
   ],
-  "practical": [
-    "The Devil's Tramping Ground is on private property."
-  ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 170)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=170"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 171)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=171"
-    },
-    {
-      "label": "Wikipedia, Devil's Tramping Ground",
+      "label": "Wikipedia, Devil’s Tramping Ground",
       "url": "https://en.wikipedia.org/wiki/Devil%27s_Tramping_Ground"
     },
     {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, fifth edition",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=170"
+    },
+    {
+      "label": "Wikipedia, Chatham County, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Chatham_County%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Chatham County Courthouse",
+      "url": "https://en.wikipedia.org/wiki/Chatham_County_Courthouse"
+    },
+    {
+      "label": "Wikipedia, Harpers Crossroads, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Harpers_Crossroads%2C_North_Carolina"
+    },
+    {
       "label": "Wikipedia, Pittsboro, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Pittsboro,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Pittsboro%2C_North_Carolina"
     }
   ],
   "reviewed": false

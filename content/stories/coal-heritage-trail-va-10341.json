@@ -1,19 +1,40 @@
 {
   "id": "coal-heritage-trail-va-10341",
-  "tagline": "Through the Virginia coalfields, starting inside a mine.",
+  "tagline": "Coal towns and mining camps linked by Virginia’s winding byways",
   "motifs": [
     "mining-town"
   ],
   "intro": [
-    "The trail begins at the exhibition mine in Pocahontas, the first company mining town in Virginia, and runs 325 miles through seven coalfield counties in three loops. The first goes 157 miles to St. Paul by way of Tazewell, Buchanan, Dickenson, Russell and Wise counties, past more than 50 coal-related sites visible from the byway.",
-    "The Norton, Wise and Lee loop turns onto back roads through Appalachia, Pennington Gap and Big Stone Gap, past old and new mining camps. The roads there are curvy and twisty, with a few hairpin turns."
+    "Virginia’s Coal Heritage Trail links coalfield towns over a network of roads through seven counties. On the Norton/Wise/Lee loop, back roads pass old and new mining camps, with curves and a few hairpin turns. The Heart of Appalachia Tourism Authority presents the trail as a way to experience mining towns’ cultural heritage, including working mines, museums and mountain music halls. The 157-mile Pocahontas-to-St. Paul section passes more than fifty coal-related sites visible from the road, through Tazewell, Buchanan, Dickenson, Russell and Wise counties.",
+    "In 2007, Virginia’s General Assembly designated the highway segments as both the Virginia Coal Heritage Trail and Virginia byways. Heart of Appalachia developed the trail with counties, planning districts, tourism partners and community groups. Each county developed its section, and communities divided the journey into three parts with food, fuel and lodging at their ends. The partnership’s stated mission joins interpretation and promotion with protection and management of the trail through Southwest Virginia’s coalfields.",
+    "The official starting point is Pocahontas Exhibition Mine. For a journey toward that end, the western loops connect Coeburn and Norton with Big Stone Gap and St. Paul. Continue through the coalfields toward Grundy, then Whitewood, Richlands and Tazewell, reaching Pocahontas by way of Bluefield."
   ],
   "moments": [
     {
-      "title": "Pocahontas Exhibition Mine",
+      "title": "Big Stone Gap",
       "kind": "town",
       "scene": "mountain",
-      "text": "The mine that opened the Pocahontas coalfield in 1882 became the country's first exhibition mine in 1938, and until 1970 visitors could drive their cars straight through it.",
+      "text": "Coal and iron development made Big Stone Gap an important center in the 1880s and 1890s. Its museums preserve different parts of that story. The Southwest Virginia Museum occupies a house completed in 1895 and acquired by C. Bascom Slemp in 1929. Before his death, Slemp established a foundation and hoped the house would become a museum. Virginia acquired it in 1946, and the foundation donated the initial collection. The town’s Meador Coal Museum draws on objects collected during Meador’s work with the Westmoreland Coal Company. Dedicated in 1982 after his death, that museum preserves the collection he assembled during the first half of the twentieth century.",
+      "at": [
+        -82.74722222,
+        36.88166667
+      ]
+    },
+    {
+      "title": "Grundy",
+      "kind": "town",
+      "scene": "river",
+      "text": "Grundy’s flood-control project changed the ground beneath the town. After repeated floods of the Levisa Fork, a relocation project began in 2001. Workers blasted the mountain across the river to create 13 acres of relatively level land, then installed utilities and built new bridges. Buildings backing onto the river were demolished, and a flood wall now protects the county courthouse. US 460 was moved to the top of that wall. The altered road and riverfront are part of the same effort to move businesses out of flood danger. The courthouse protected by that wall was built in 1905–06, then rebuilt and expanded by 1917 after a fire gutted it in 1915.",
+      "at": [
+        -82.09902222,
+        37.27788889
+      ]
+    },
+    {
+      "title": "Pocahontas Exhibition Mine",
+      "kind": "short walk",
+      "scene": "mountain",
+      "text": "Visitors once drove their own cars through Pocahontas Exhibition Mine, entering through the fan opening and leaving through the original mine entry. Opened for mining in 1882, it became the United States’ first exhibition coal mine in 1938. The drive-through practice ended in 1970 because exhaust damaged the mine roof. The tunnel remains open to tourists beside the former coal office and shower house, now converted into a coal museum. Within a hundred yards of the mine, an old railroad track has become a two-mile walking and bicycle path, another change in how people move through the mining landscape.",
       "at": [
         -81.34972222,
         37.30805556
@@ -21,52 +42,36 @@
       "motifs": [
         "mining-town"
       ]
-    },
-    {
-      "title": "Grundy",
-      "kind": "town",
-      "scene": "river",
-      "text": "After nine major floods of the Levisa Fork since 1929, the mountain across the river was blasted into level ground and much of the town moved up onto it.",
-      "at": [
-        -82.09902222,
-        37.27788889
-      ]
-    },
-    {
-      "title": "Big Stone Gap",
-      "kind": "town",
-      "scene": "mountain",
-      "text": "When coal and iron were being developed here in the 1880s, the town hoped to become the Pittsburgh of the South, a nickname the much larger Birmingham, Alabama, later took instead.",
-      "at": [
-        -82.74722222,
-        36.88166667
-      ]
     }
   ],
   "sources": [
     {
-      "label": "Virginia Coal Heritage Trail, home page",
-      "url": "https://www.virginiacoaltrail.net/"
-    },
-    {
-      "label": "Virginia Coal Heritage Trail, Trail and Loops",
+      "label": "Heart of Appalachia Tourism Authority, Trail & Loops",
       "url": "https://www.virginiacoaltrail.net/trail-loops"
     },
     {
-      "label": "Wikipedia, Pocahontas, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Pocahontas,_Virginia"
+      "label": "Heart of Appalachia Tourism Authority, Virginia Coal Heritage Trail",
+      "url": "https://www.virginiacoaltrail.net/"
+    },
+    {
+      "label": "Virginia General Assembly, 2007 Uncodified Act, Chapter 531",
+      "url": "https://law.lis.virginia.gov/uncodifiedacts/2007/session1/chapter531/"
+    },
+    {
+      "label": "Wikipedia, Big Stone Gap, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Big_Stone_Gap%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Grundy, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Grundy%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Buchanan County Courthouse (Virginia)",
+      "url": "https://en.wikipedia.org/wiki/Buchanan_County_Courthouse_%28Virginia%29"
     },
     {
       "label": "Wikipedia, Pocahontas Exhibition Coal Mine",
       "url": "https://en.wikipedia.org/wiki/Pocahontas_Exhibition_Coal_Mine"
-    },
-    {
-      "label": "Wikipedia, Grundy, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Grundy,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Big Stone Gap, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Big_Stone_Gap,_Virginia"
     }
   ],
   "reviewed": false

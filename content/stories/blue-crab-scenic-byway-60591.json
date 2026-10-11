@@ -1,16 +1,18 @@
 {
   "id": "blue-crab-scenic-byway-60591",
-  "tagline": "Old shore towns, stitched together by water.",
+  "tagline": "Two shores and old town streets along a byway with two successors.",
   "intro": [
-    "From Berlin's rows of nineteenth-century commercial buildings, the drive reaches Snow Hill and continues toward Pocomoke City. Snow Hill stands at the head of navigation on the Pocomoke River and was made a port of entry in 1694. Its settlers may have named it for a street in London, though the town sits 16 feet above sea level and seldom sees snow.",
-    "The Blue Crab name once covered two routes, now the Lower Eastern Shore section of Chesapeake Country and the Cape to Cape byway, which runs through Berlin and Snow Hill."
+    "Blue Crab is an older name on Maryland's scenic-byway map, linking Chesapeake Bay waterfronts with towns near the Atlantic and its back bays. The western drive passes farmland and preserved eighteenth- and nineteenth-century buildings. To the east, the roads reach Berlin and Snow Hill, with branches toward Assateague Island and Chincoteague Bay.",
+    "The name originally covered western and eastern portions that now have separate identities. The western portion became the Lower Eastern Shore section of Chesapeake Country, part of a state-designated extension of that byway. The eastern portion became Cape to Cape, running between Ocean City and the Virginia border south of Snow Hill.",
+    "For the eastern drive, Berlin's Main Street leads south to US 113 and Snow Hill, where the byway leaves on MD 12 for the Virginia border. Pocomoke River State Park lies between Snow Hill and Pocomoke City, with freshwater swamp and upland on both riverbanks. On the Chesapeake side, the Lower Eastern Shore route begins at Vienna, reaches Quantico and branches to Salisbury before continuing to Whitehaven and Princess Anne. From Princess Anne, one branch follows Deal Island Road to Deal Island; the main route continues to Crisfield."
   ],
   "moments": [
     {
       "title": "Berlin Commercial District",
       "kind": "short walk",
       "scene": "town",
-      "text": "About 47 small commercial buildings of the late nineteenth century line both sides of the main street, most of them built in rows with shared walls.",
+      "text": "Berlin developed in the early nineteenth century at the crossroads of the Philadelphia post road and Sinepuxent Road. Berlin's commercial streets took much of their Victorian form after a fire in 1895 destroyed a large part of the central district. Rebuilding brought Queen Anne, Italianate and Second Empire details to Main Street. The district contains approximately 47 late-nineteenth-century commercial buildings, ranging from one to three stories. Most stand in rows with shared walls, lining the main street and its secondary streets. Nearby Ocean City's growth as a tourist destination in the early twentieth century helped Berlin's economy by making it a rest stop.",
+      "notice": "Look for rows of one- to three-story commercial buildings sharing common walls.",
       "at": [
         -75.21916667,
         38.32472222
@@ -20,7 +22,7 @@
       "title": "All Hallows Episcopal Church",
       "kind": "short walk",
       "scene": "town",
-      "text": "A 1748 tax on tobacco paid for this church, finished in 1756 and unusually elaborate for its time and place; it is still an active parish.",
+      "text": "A tobacco tax helped build All Hallows in Snow Hill. The Maryland Colonial Assembly authorized the funding in 1748; the church was completed in 1756. Its parish belongs to Maryland's original group of 30 Anglican parishes. The building at 109 West Market Street entered the National Register of Historic Places in 1979. All Hallows remains an active parish in the Episcopal Diocese of Easton.",
       "at": [
         -75.39523056,
         38.17564167
@@ -30,10 +32,31 @@
       "title": "Julia A. Purnell Museum",
       "kind": "short walk",
       "scene": "town",
-      "text": "The 1891 St. Agnes Catholic Church now holds Julia Purnell's needlework of Snow Hill houses and gardens, made in her eighties and nineties, along with her son's miniature fleas.",
+      "text": "Snow Hill houses, churches and gardens became needlework subjects for Julia A. Purnell. She made more than 1,000 pieces during her eighties and nineties. Her son William opened a museum on his home property in 1942, displaying some of his mother's work. The museum exhibits more than 500 years of local history. In 1957 the collection moved into the former St. Agnes Catholic Church, a building dating to 1891. The museum at 208 West Market Street houses her needlework alongside objects from early Snow Hill and Worcester County life, plus William's collection of oddities, including miniature fleas.",
+      "notice": "Purnell's needlework depicts Snow Hill homes, churches and gardens.",
       "at": [
         -75.39694444,
         38.17555556
+      ]
+    },
+    {
+      "title": "Pocomoke River State Park",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "Two landings place Pocomoke River State Park on opposite banks: Shad Landing to the south and Milburn Landing to the north. Both lie within Pocomoke State Forest, between Snow Hill and Pocomoke City. The Civilian Conservation Corps developed recreation facilities in the forest during the 1930s. Maryland assumed control of the landings under a federal license agreement in 1939, then took full possession of the forest lands in 1955. The park sits between northern and southern natural regions, contributing to its variety of plants and animals. Freshwater swamp and upland support plants including bald cypress, tupelo and loblolly pine.",
+      "at": [
+        -75.48972222,
+        38.12472222
+      ]
+    },
+    {
+      "title": "Deal Island",
+      "kind": "town",
+      "scene": "coast",
+      "text": "Deal Island's skipjacks are wooden sailing boats with triangular sails, designed for dredging oysters. Skipjacks were used extensively from the 1880s through the 1960s. Watermen prefer the term bateau for the two-sail vessels. Once the port of a large fleet, Deal Island retains most of the few skipjacks still commercially oystering on the bay. Its Labor Day weekend Skipjack Race began in 1959. At the western end of Deal Island Road is Wenona, another community on the island. Deal Island Road crosses the island and connects it eastward to Princess Anne.",
+      "at": [
+        -75.94555556,
+        38.15444444
       ]
     }
   ],
@@ -43,8 +66,20 @@
       "url": "https://en.wikipedia.org/wiki/List_of_Maryland_Scenic_Byways"
     },
     {
-      "label": "Wikipedia, Snow Hill, Maryland",
-      "url": "https://en.wikipedia.org/wiki/Snow_Hill%2C_Maryland"
+      "label": "Wikipedia, Berlin, Maryland",
+      "url": "https://en.wikipedia.org/wiki/Berlin%2C_Maryland"
+    },
+    {
+      "label": "Wikipedia, Pocomoke River State Park",
+      "url": "https://en.wikipedia.org/wiki/Pocomoke_River_State_Park"
+    },
+    {
+      "label": "Wikipedia, Deal Island, Maryland",
+      "url": "https://en.wikipedia.org/wiki/Deal_Island%2C_Maryland"
+    },
+    {
+      "label": "Wikipedia, Berlin Commercial District",
+      "url": "https://en.wikipedia.org/wiki/Berlin_Commercial_District"
     },
     {
       "label": "Wikipedia, All Hallows Episcopal Church",
@@ -55,8 +90,8 @@
       "url": "https://en.wikipedia.org/wiki/Julia_A._Purnell_Museum"
     },
     {
-      "label": "Wikipedia, Berlin Commercial District",
-      "url": "https://en.wikipedia.org/wiki/Berlin_Commercial_District"
+      "label": "Wikipedia, Wenona, Maryland",
+      "url": "https://en.wikipedia.org/wiki/Wenona%2C_Maryland"
     }
   ],
   "reviewed": false

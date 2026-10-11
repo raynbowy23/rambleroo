@@ -1,20 +1,22 @@
 {
   "id": "wisconsin-lake-superior-scenic-byway-990001",
-  "tagline": "Around the Bayfield Peninsula, harbor to harbor, apples on the hills.",
+  "tagline": "Harbor towns and sandstone cliffs along Lake Superior’s Bayfield Peninsula.",
   "motifs": [
     "harbor-village",
     "sea-rock"
   ],
   "intro": [
-    "From a roundabout outside Ashland, WIS 13 follows Chequamegon Bay to Washburn, a brownstone boomtown, then runs north through open fields and pine to Bayfield, where the Apostle Islands come into view on the long hill into town. Past Red Cliff the road turns west along the top of the peninsula, drops steeply into Cornucopia and goes on by Herbster and Port Wing, crossing ravines at four or five to the mile, to the Brule River.",
-    "Lake Superior averages about 40 degrees and seldom freezes, which keeps the hills above Bayfield fit for apples and berries. The Apple Festival in October brings in tens of thousands. Bayfield, the smallest city in Wisconsin, has 584 people."
+    "Wisconsin’s Lake Superior Scenic Byway follows WIS 13 for 70 miles along the Bayfield Peninsula, linking harbor towns, forests and sandy beaches. The drive changes from gently rolling fields north of Washburn to pine and cedar woods, then makes a steep descent into Cornucopia. The byway organization presents the route as a showcase of the region’s geology, history, culture, ecology and recreation. Orchards occupy the hills above Bayfield, where the byway organization credits Lake Superior’s moderating effect on temperature with helping fruit grow this far north. The scenic corridor received National Scenic Byway designation in February 2021.",
+    "WIS 13’s original 1918 routing ended in Bayfield. Later extensions carried the highway west to Port Wing and then Superior, continuing the road beyond its former endpoint.",
+    "Begin at the US 2 and WIS 13 roundabout in Barksdale and follow Chequamegon Bay to Washburn. The long climb into Bayfield brings more Apostle Islands into view; beyond Red Cliff, the road turns west across the peninsula’s north side. Meyers Road branches toward the mainland sea caves before Cornucopia. From Cornucopia, continue through Herbster, then climb steeply across deep, tree-lined ravines descending toward Lake Superior. Continue through Port Wing to County H in Cloverland, where the byway ends before the Brule River crossing."
   ],
   "moments": [
     {
       "title": "Bayfield",
       "kind": "town",
       "scene": "coast",
-      "text": "From the marina a ferry crosses to Madeline Island, the one Apostle left out of the national lakeshore, and the visitor center keeps an actual lighthouse light to stand beside.",
+      "text": "Bayfield’s waterfront links the mainland to La Pointe on Madeline Island by ferry. The city’s lakeside position served transportation and commerce from its beginnings, when La Pointe and Ashland were common destinations. Lumbering and commercial fishing were former industries; Bayfield now serves as a gateway to the Apostle Islands National Lakeshore. Madeline is the largest Apostle Island and the only one outside the national lakeshore. At the lakeshore visitor center, an actual lighthouse light accompanies displays on the islands’ lighthouses. The park headquarters occupies the old county courthouse, which the National Park Service began leasing in 1976.",
+      "notice": "The visitor center displays an actual lighthouse light.",
       "at": [
         -90.82,
         46.812
@@ -27,7 +29,8 @@
       "title": "Mawikwe Bay sea caves",
       "kind": "separate excursion",
       "scene": "coast",
-      "text": "Down Meyers Road, kayakers in summer and hikers in winter set out from the beach for the sea caves, and a trail runs along the top of the red sandstone cliffs.",
+      "text": "Mawikwe Bay’s sea caves belong to the mainland shore of the Apostle Islands National Lakeshore. The byway tour identifies Meyers Beach as a summer departure point for kayakers heading to the caves. Above the water, a National Park Service hiking trail follows the tops of red sandstone cliffs with views of Lake Superior. The protected lakeshore includes both islands and mainland: its founding legislation in 1970 included 20 islands and a 12-mile mainland strip. Meyers Road meets the byway beside the lakeshore’s mainland unit, along the drive west from Red Cliff.",
+      "notice": "Red sandstone cliffs rise along the mainland lakeshore.",
       "motifs": [
         "sea-rock"
       ]
@@ -36,7 +39,7 @@
       "title": "Cornucopia",
       "kind": "town",
       "scene": "coast",
-      "text": "Wisconsin's northernmost town, reached by a steep descent, where an artesian well runs cold off the beach all year and Ehlers General Store has been open a hundred years.",
+      "text": "Cornucopia’s harbor sits where the Siskiwit River meets Lake Superior, with commercial fishing vessels and pleasure craft sharing the port. Lake trout, whitefish and freshwater herring have been the harbor’s commercial catch. After World War II, tourism replaced logging, farming and fishing as the community’s dominant industry. The Green Shed museum on the harbor holds photographs, family histories and historic artifacts. The highway descends steeply into town, beside Siskiwit Bay at the peninsula’s northern end. The brick Bell Town Hall in the community’s center served as a school until the 1970s.",
       "at": [
         -91.102,
         46.854
@@ -46,12 +49,9 @@
       ]
     }
   ],
-  "practical": [
-    "There is a fee to park at Meyers Beach."
-  ],
   "sources": [
     {
-      "label": "Wisconsin Lake Superior Scenic Byway, home page",
+      "label": "Wisconsin Lake Superior Scenic Byway, Home",
       "url": "https://www.lakesuperiorbyway.org/"
     },
     {
@@ -59,8 +59,12 @@
       "url": "https://www.lakesuperiorbyway.org/byway-tour.html"
     },
     {
-      "label": "Wisconsin Lake Superior Scenic Byway, Orchards and Berry Farms",
-      "url": "https://www.lakesuperiorbyway.org/orchards-and-berry-farms.html"
+      "url": "https://www.lakesuperiorbyway.org/orchards-and-berry-farms.html",
+      "label": "Wisconsin Lake Superior Scenic Byway, Orchards and Berry Farms"
+    },
+    {
+      "label": "Wikipedia, List of Wisconsin Scenic Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Wisconsin_Scenic_Byways"
     },
     {
       "label": "Wikipedia, Wisconsin Highway 13",
@@ -68,11 +72,15 @@
     },
     {
       "label": "Wikipedia, Bayfield, Wisconsin",
-      "url": "https://en.wikipedia.org/wiki/Bayfield,_Wisconsin"
+      "url": "https://en.wikipedia.org/wiki/Bayfield%2C_Wisconsin"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Old_Bayfield_County_Courthouse",
+      "label": "Wikipedia, Old Bayfield County Courthouse"
     },
     {
       "label": "Wikipedia, Cornucopia, Wisconsin",
-      "url": "https://en.wikipedia.org/wiki/Cornucopia,_Wisconsin"
+      "url": "https://en.wikipedia.org/wiki/Cornucopia%2C_Wisconsin"
     },
     {
       "label": "Wikipedia, Apostle Islands National Lakeshore",

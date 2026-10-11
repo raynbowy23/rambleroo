@@ -1,19 +1,26 @@
 {
   "id": "appalachian-medley-12811",
-  "tagline": "With Luck comes Trust, and then Hot Springs.",
+  "tagline": "Through Luck and Trust, a creek-side road reaches Hot Springs.",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "NC 209 leaves I-40 at Exit 24 near Lake Junaluska and works north through Haywood County, past Fines Creek, to Betsy's Gap, with Hebo Mountain to the south and Pug Knob to the north. From the gap Spring Creek does the steering, and the road follows it down through Luck and Trust to Hot Springs on the French Broad. US 25/70 runs on from there to Walnut.",
-    "Local folklore says Fines Creek is named for a man killed in a skirmish in the late 1700s. With no time to dig a grave in the snow, his brother slid the body into the river through a hole in the ice, meaning to come back for it. The current got there first."
+    "Appalachian Medley runs through forests and mountain coves before opening into a valley, with Pisgah National Forest closely bordering the route. North of Betsy’s Gap, the drive follows Spring Creek toward Hot Springs, where the creek meets the French Broad River. NCDOT’s scenic-byway guide presents the journey through the area’s musical history and wooded hills, listing 43 miles and a drive time of one hour and 15 minutes.",
+    "At Hot Springs, earlier travelers included drovers taking cattle, hogs and horses to markets in South Carolina and Georgia. Construction of the Buncombe Turnpike through town in 1828 made the springs more accessible. The railroad arrived in 1882, while resort hotels rose and burned: the Warm Springs Hotel burned in 1884 and its successor, the Mountain Park, was built in 1886. The Appalachian Trail now follows Bridge Street through downtown.",
+    "Start on NC 209 at I-40 Exit 24 near Lake Junaluska and head north toward Betsy’s Gap. Hebo Mountain lies south of the gap and Pug Knob north; beyond them, Spring Creek accompanies the road through Luck and Trust toward Hot Springs. Continue on US 25/70 to Walnut, where the guidebook’s route ends at Walnut Drive."
   ],
   "moments": [
+    {
+      "title": "Betsy’s Gap",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "At Betsy’s Gap, the mountains have names on either side of the road: Hebo Mountain to the south and Pug Knob to the north. From this point north, the byway follows Spring Creek. The creek flows through Pisgah National Forest along much of its lower course and joins the French Broad River in Hot Springs. Luck is a few miles beyond the gap, with Trust farther north on NC 209."
+    },
     {
       "title": "Trust",
       "kind": "town",
       "scene": "forest",
-      "text": "As the locals say, with Luck comes Trust, a mile or so on, where St. Jude's Chapel of Hope was built by a local woman after she beat a terminal illness.",
+      "text": "Trust sits north of Luck at the junction of NC 63 and NC 209, spreading along Spring and Friezeland creeks. The origin of its name is obscure, though NCDOT’s guidebook records the local saying “with Luck comes Trust.” The guide places the communities a mile or so apart and identifies St. Jude’s Chapel of Hope as a landmark in Trust. It credits the chapel to a local woman and recounts her recovery from a terminal illness.",
       "at": [
         -82.87,
         35.7525
@@ -23,7 +30,7 @@
       "title": "Hot Springs",
       "kind": "town",
       "scene": "river",
-      "text": "Drovers stopped at the only hot spring known in North Carolina, 108 degrees where Spring Creek meets the French Broad, and the Appalachian Trail now runs down Bridge Street.",
+      "text": "The name changed when a hotter spring was found: Warm Springs became Hot Springs in 1886. The town occupies the meeting of Spring Creek and the French Broad River. Its resort buildings changed repeatedly, too. The Warm Springs Hotel burned in 1884, and the Mountain Park Hotel followed in 1886. In 1917, the U.S. government leased the hotel and grounds for an internment camp that held German and Austro-Hungarian civilians. That hotel burned in 1920. Another travel route now passes through town: the Appalachian Trail follows Bridge Street and climbs the mountains on both sides of the river.",
       "at": [
         -82.83027778,
         35.89333333
@@ -32,24 +39,24 @@
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 44)",
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways guidebook, Appalachian Medley",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=44"
     },
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 45)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=45"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 46)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=46"
+      "label": "Wikipedia, Trust, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Trust%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Hot Springs, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Hot_Springs,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Hot_Springs%2C_North_Carolina"
     },
     {
-      "label": "Wikipedia, Trust, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Trust,_North_Carolina"
+      "label": "Wikipedia, Spring Creek (Madison County, North Carolina)",
+      "url": "https://en.wikipedia.org/wiki/Spring_Creek_%28Madison_County%2C_North_Carolina%29"
+    },
+    {
+      "label": "Wikipedia, Luck, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Luck%2C_North_Carolina"
     }
   ],
   "reviewed": false

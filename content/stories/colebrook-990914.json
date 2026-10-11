@@ -1,20 +1,21 @@
 {
   "id": "colebrook-990914",
-  "tagline": "A hill village that stopped changing around 1860.",
+  "tagline": "A former stagecoach road links Colebrook’s village common and farmsteads.",
   "motifs": [
     "steeple-town",
     "rolling-ridges"
   ],
   "intro": [
-    "Route 183 turns scenic at Route 182 and runs into Colebrook center, a village in an isolated valley in the hills just south of the Massachusetts line, then goes on northwest to North Colebrook, where the designation ends at Church Hill Road. It is under four miles.",
-    "There was little land here fit for crops, so the 19th-century town raised sheep and cattle and ran tanneries on Center Brook. Since about 1860 the village has seen little change. Summer visitors are its trade now."
+    "Route 183’s scenic section runs through Colebrook center and northwest to North Colebrook, in the hills of northwestern Connecticut. The village occupies an isolated valley, where a triangular common gathers the church and civic buildings. The scenic designation begins at Route 182 and ends at Church Hill Avenue. South of the scenic section, the two-lane approach from Winchester meanders northwest as Coe Street becomes Colebrook Road. Colebrook center’s principal buildings mostly predate 1880, with later construction concentrated in barns, garages and other secondary structures.",
+    "Part of today’s Route 183 once carried stagecoaches between Hartford and Albany. That traffic helped make the Phelps family’s inn a success; Arah Phelps also sold his farm products there. In 1922, the Winsted-to-state-line route became State Highway 174. Ten years later, the state renumbered it Route 183; the extension south to Torrington followed in 1955.",
+    "Travel north from Route 182 into Colebrook center, where Route 183 turns northwest at the junction with Rockwell Road. The 1812 store faces the town hall; beyond the Samuel Rockwell House, the district slopes toward Center Brook. In northern Colebrook, Phelps family farm buildings occupy land along Route 183 and Prock Hill Road. Continue toward North Colebrook and the end of the scenic section at Church Hill Avenue."
   ],
   "moments": [
     {
       "title": "Colebrook Center",
       "kind": "town",
       "scene": "town",
-      "text": "The town argued over where its center belonged until about 1790, and the 1842 Greek Revival church now stands at the south end of the triangular common.",
+      "text": "A Greek Revival church built in 1842 anchors the south end of Colebrook’s triangular common. Route 183, Smith Hill Road and Thompson Road form its edges. The town’s limited crop land shaped a nineteenth-century economy of sheep, cattle and related businesses, including tanneries on Center Brook. Most of the district’s principal buildings date from before 1880. Later construction chiefly added garages, barns and other secondary buildings. The oldest surviving village house is an ell of the Samuel Rockwell House, north of the store and above Center Brook. The district entered the National Register of Historic Places in 1991.",
       "at": [
         -73.09583333,
         41.98944444
@@ -25,23 +26,41 @@
     },
     {
       "title": "Colebrook Store",
-      "kind": "town",
+      "kind": "roadside",
       "scene": "town",
-      "text": "Opposite the town hall stands the Federal-style store of 1812, and past the Samuel Rockwell House beyond it the village runs down to Center Brook."
+      "text": "Four slender Tuscan columns support a two-story temple front at Colebrook Store. Above them, a half-round fan decorates the gable. William Swift, a local carpenter who chiefly made bedsteads, built the store in 1812. The upper doorway once served as a loading entrance, a working detail within the symmetrical facade. The clapboarded building stands at the northwest corner of Colebrook Road and Rockwell Road. Its gabled roof and half-round ornament belong to the Federal design; inside, nineteenth-century fittings include tin ceilings, hardwood floors and counters. Windows flank doorways on both levels of the symmetrical front."
+    },
+    {
+      "title": "Phelps Farm Historic District",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "Open pasture surrounds a cluster of Phelps family buildings along Route 183 and Prock Hill Road. Arah Phelps dammed Sandy Brook and built a sawmill in the 1780s. The family’s inn served Hartford-to-Albany stagecoach traffic, while Arah sold farm products to its customers. His son Edward took over in the 1830s and built many of the surviving farm buildings, including a Gothic Revival cottage for farmhands. The former inn is now a private residence. Sandy Brook bounds the property on the west and south, beside pasture and buildings that developed from the family’s milling and farming.",
+      "at": [
+        -73.1149,
+        42.016
+      ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, Connecticut Route 183",
-      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_183"
+      "label": "Wikipedia, Phelps Farms Historic District",
+      "url": "https://en.wikipedia.org/wiki/Phelps_Farms_Historic_District"
     },
     {
       "label": "Wikipedia, Colebrook Center Historic District",
       "url": "https://en.wikipedia.org/wiki/Colebrook_Center_Historic_District"
     },
     {
-      "label": "Wikipedia, Colebrook, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Colebrook,_Connecticut"
+      "label": "Wikipedia, Connecticut Route 183",
+      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_183"
+    },
+    {
+      "label": "Wikipedia, Colebrook Store",
+      "url": "https://en.wikipedia.org/wiki/Colebrook_Store"
+    },
+    {
+      "label": "Wikipedia, Arah Phelps Inn",
+      "url": "https://en.wikipedia.org/wiki/Arah_Phelps_Inn"
     }
   ],
   "reviewed": false

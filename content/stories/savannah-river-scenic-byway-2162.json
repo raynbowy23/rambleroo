@@ -1,19 +1,21 @@
 {
   "id": "savannah-river-scenic-byway-2162",
-  "tagline": "A hundred miles down a river that became three lakes.",
+  "tagline": "Three reservoirs reshape the Savannah River corridor beside South Carolina’s byway.",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "From Oakway in Oconee County the byway strings state highways together and keeps to the South Carolina side of the Savannah River, down past Calhoun Falls and through McCormick, to the Georgia line below Clarks Hill. Along the way the river has become three Army Corps lakes, Hartwell, Russell and Thurmond, a chain about 120 miles long.",
-    "Russell, the newest, is kept within five feet of full pool, so it always looks full, and its shore is almost wholly undeveloped. Near Thurmond the road passes through Sumter National Forest."
+    "The Savannah River Scenic Byway connects lake country, small towns and a stretch of Sumter National Forest on South Carolina’s side of the river. FHWA lists this National Scenic Byway as 110 miles and allows three hours to enjoy it, highlighting scenic views and rural Southern life. State parks beside Hartwell, Russell and Thurmond lakes offer access to the water along the corridor.",
+    "The landscape beside the road changed through a succession of Army Corps projects. Thurmond Lake filled in 1951 and 1952 for flood control, hydropower and navigation; the Hartwell project was completed in 1963 and Russell in 1985. Together, the reservoirs form a 120-mile chain. At Russell, filling submerged archaeological sites and the Georgia-Carolina Memorial Bridge.",
+    "Begin at Oakway and follow the corridor south toward Calhoun Falls, where Lake Russell lies to the west. Continue toward McCormick, whose downtown includes a historic railroad depot. Near Thurmond Lake the drive enters Sumter National Forest, then ends at the Georgia border south of Clarks Hill."
   ],
   "moments": [
     {
       "title": "Richard B. Russell Lake",
       "kind": "roadside",
       "scene": "river",
-      "text": "Before the water rose in 1983 crews dug the plantation, fort and mound sites it would cover. The old Georgia-Carolina Memorial Bridge was simply left, and stands intact beneath the lake.",
+      "text": "Lake Russell’s almost wholly undeveloped shore reflects a deliberate limit on private use. The Corps of Engineers prohibits exclusive private use of the shoreline and owns a 300-foot buffer along it to offset habitat lost when the reservoir was created. Before filling began in October 1983, archaeological work examined Millwood Plantation, Fort Independence and a Native American village and mound. Filling continued until December 1984, when the reservoir reached full pool. The Georgia-Carolina Memorial Bridge was left intact beneath the water. It belongs to the submerged landscape, beyond what a roadside view reveals.",
+      "notice": "Much of Russell’s shoreline is undeveloped, apart from state parks and day-use areas.",
       "at": [
         -82.63,
         34.092
@@ -26,7 +28,7 @@
       "title": "McCormick",
       "kind": "town",
       "scene": "town",
-      "text": "William Dorn took nearly a million dollars in gold from his mine here in the 1850s. Cyrus McCormick bought it in 1869, searched until 1882, then sold the land for a town.",
+      "text": "McCormick’s town name came from an inventor whose search for gold here ended in land sales. William Dorn operated the mine after gold was struck in 1852, extracting nearly a million dollars’ worth before it was exhausted in the late 1850s. Cyrus McCormick bought the mine in 1869. He ended his unsuccessful search in 1882 and began selling land that would become the town. A historic railroad depot is part of downtown; the mine site and McCormick Train Station are both listed in the National Register of Historic Places. The mine joined the register in 1985.",
       "at": [
         -82.266,
         33.921
@@ -36,7 +38,7 @@
       "title": "Lake Strom Thurmond",
       "kind": "roadside",
       "scene": "river",
-      "text": "A clerical slip made it Clark Hill. Strom Thurmond's bill later put the s back, and in 1988 Congress gave it his own name. Georgia still calls it Clarks Hill.",
+      "text": "One reservoir has two official names: J. Strom Thurmond Reservoir at the federal level and Clarks Hill Lake in Georgia. An earlier naming problem began with a missing letter. A clerical error in the congressional authorization omitted the “s” from Clarks, producing Clark Hill Dam and Lake. Legislation sponsored by Strom Thurmond restored it; later federal legislation gave the project his name. Georgia made Clarks Hill its official state name for the dam and reservoir in 1989, and its state map uses that name. The water itself filled during 1951 and 1952, decades before the federal renaming.",
       "at": [
         -82.199,
         33.661
@@ -48,12 +50,16 @@
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Savannah River Scenic Byway",
-      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2162"
+      "label": "Wikipedia, Lake Strom Thurmond",
+      "url": "https://en.wikipedia.org/wiki/Lake_Strom_Thurmond"
     },
     {
-      "label": "South Carolina Encyclopedia, Savannah River Scenic Highway",
+      "label": "University of South Carolina, South Carolina Encyclopedia: Savannah River Scenic Highway",
       "url": "https://www.scencyclopedia.org/sce/entries/savannah-river-scenic-highway/"
+    },
+    {
+      "label": "Federal Highway Administration, Savannah River Scenic Byway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2162"
     },
     {
       "label": "Wikipedia, Richard B. Russell Lake",
@@ -61,19 +67,15 @@
     },
     {
       "label": "Wikipedia, Calhoun Falls, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Calhoun_Falls,_South_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Calhoun_Falls%2C_South_Carolina"
     },
     {
       "label": "Wikipedia, McCormick, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/McCormick,_South_Carolina"
+      "url": "https://en.wikipedia.org/wiki/McCormick%2C_South_Carolina"
     },
     {
       "label": "Wikipedia, Dorn Gold Mine",
       "url": "https://en.wikipedia.org/wiki/Dorn_Gold_Mine"
-    },
-    {
-      "label": "Wikipedia, Lake Strom Thurmond",
-      "url": "https://en.wikipedia.org/wiki/Lake_Strom_Thurmond"
     }
   ],
   "reviewed": false

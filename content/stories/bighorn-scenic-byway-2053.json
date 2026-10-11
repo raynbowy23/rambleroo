@@ -1,20 +1,22 @@
 {
   "id": "bighorn-scenic-byway-2053",
-  "tagline": "Up Shell Canyon in switchbacks, down the gentle side to Dayton.",
+  "tagline": "Shell Canyon switchbacks lead to granite heights and a gentler eastern descent",
   "motifs": [
     "switchbacks",
     "waterfall-cove"
   ],
   "intro": [
-    "About four miles out of Shell, a town named for the fossil shells found around it, US 14 reaches the national forest and starts up the Bighorns in a run of switchbacks and squeezes through Shell Canyon, where at times the creek is hidden far below the roadway. At Granite Pass, 9,033 feet, it tops out among windswept vegetation and solid granite. The way down the east side toward Dayton is steady and not as steep.",
-    "The names take some sorting out. Anything the federal government runs is Bighorn, one word, and everything else is Big Horn, two. All of it is named for the bighorn sheep."
+    "US 14 crosses the Bighorns on a paved, two-lane road, climbing western switchbacks before descending more gradually toward Dayton. Wyoming’s Transportation Commission adopted 47 miles between Shell and Dayton as the Big Horn Scenic Byway. The tourism office describes a drive past forests, meadows, waterfalls and deep canyons. WYDOT gives approximately an hour as the minimum driving time, with stops taking longer. Along Shell Canyon, cottonwoods and willows give way at higher elevations to slopes dominated by juniper and sagebrush.",
+    "The highway number once took a different course across the mountains. Before 1940, US 14 ran through Lovell and Powell on the route now signed US 14A. In 1940 it took over Wyoming 520 between Greybull and Burgess Junction, bringing the US 14 designation to the Shell Canyon crossing. The older route became Wyoming 14 and, after confusion over the names, US 14A in 1965.",
+    "Starting from Shell, the designated stretch begins around four miles from town at the national forest boundary. The road squeezes through Shell Canyon, where the creek sometimes disappears from view far below. Shell Falls and Granite Creek come before 9,033-foot Granite Pass. Continue through Burgess Junction, then descend toward the overlook at Fallen City, 6.5 miles west of Dayton."
   ],
   "moments": [
     {
       "title": "Shell Falls",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "On the north side of the highway Shell Creek dives 120 feet down a slide of Precambrian granite into the gorge, with nature trails and signs at the stop.",
+      "text": "Shell Creek drops 120 feet over granite at Shell Falls, on the north side of the highway. The falls expose a much longer story in the surrounding rock. From the rest area and interpretive center, Cambrian sandstone, about 550 million years old, can be seen resting on Precambrian rock 2.9 billion years old. Copman’s Tomb, a large limestone promontory, is visible to the north. Wyoming’s tourism account describes nature trails and interpretive signs accompanying the waterfall. Downstream, the town of Shell takes its name from the abundance of fossil shells found in the area.",
+      "notice": "Look for sandstone resting on much older Precambrian rock near the falls.",
       "at": [
         -107.61333,
         44.58639
@@ -27,42 +29,46 @@
       "title": "Granite Creek",
       "kind": "roadside",
       "scene": "forest",
-      "text": "A sign at the picnic area points out the damaged trees across on the opposite mountain, where a freak tornado came through in 1959."
+      "text": "A tornado crossed Granite Creek in 1959, leaving damaged trees on the opposite mountain. WYDOT’s 2000 brochure describes an interpretive sign at the picnic area explaining the damage. It also notes that trees recover slowly in this environment and at this elevation."
     },
     {
       "title": "Fallen City",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "At the forest boundary, 6.5 miles west of Dayton, an overlook takes in the Powder River Basin and Fallen City, a field of limestone blocks that toppled onto the rocks below."
+      "text": "Fallen City is a field of Madison limestone blocks that toppled onto the rock below. The Forest Service places the formation’s story in the uplift of the Bighorn Mountains, when faults and fractures developed in the rock. WYDOT describes the overlook at the national forest boundary, 6.5 miles west of Dayton, as a place to see both these blocks and the Powder River Basin beyond. This boundary marks the official eastern end of the designated drive. The road’s eastern descent from Granite Pass is steadier and less steep than the switchback climb through the western canyon."
     }
   ],
   "practical": [
-    "WYDOT notes the two-lane byway can close for short periods in heavy winter or early-spring snow, while summer and fall travel is normally not interrupted."
+    "Shell Falls: WYDOT notes that heavy snow can briefly close the byway in winter or early spring. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "WYDOT, Big Horn Mountain Country Scenic Byways brochure, Big Horn Scenic Byway",
-      "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Planning/Big%20Horn%20Scenic%20Byway.pdf#page=6"
+      "label": "Wyoming Department of Transportation, Exploring the Big Horn Mountain Country Scenic Byways",
+      "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Planning/Big%20Horn%20Scenic%20Byway.pdf"
     },
     {
-      "label": "WYDOT, Big Horn Mountain Country Scenic Byways brochure, names and spellings",
-      "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Planning/Big%20Horn%20Scenic%20Byway.pdf#page=3"
+      "label": "Wyoming Department of Transportation, Wyoming Scenic Byways and Backways Program (2009)",
+      "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Planning/The%20Wyoming%20Scenic%20Byways%20Program%20Book%202009.pdf"
     },
     {
-      "label": "Travel Wyoming, Bighorn Scenic Byway",
+      "label": "Wyoming Office of Tourism, Bighorn Scenic Byway",
       "url": "https://travelwyoming.com/listing/bighorn-scenic-byway/136/"
+    },
+    {
+      "label": "Wikipedia, U.S. Route 14 in Wyoming",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_14_in_Wyoming"
     },
     {
       "label": "Wikipedia, Shell Falls",
       "url": "https://en.wikipedia.org/wiki/Shell_Falls"
     },
     {
-      "label": "Wikipedia, Granite Pass (Wyoming)",
-      "url": "https://en.wikipedia.org/wiki/Granite_Pass_(Wyoming)"
+      "label": "Wikipedia, Shell, Wyoming",
+      "url": "https://en.wikipedia.org/wiki/Shell%2C_Wyoming"
     },
     {
-      "label": "Wikipedia, Shell, Wyoming",
-      "url": "https://en.wikipedia.org/wiki/Shell,_Wyoming"
+      "label": "USDA Forest Service, Bighorn National Forest Scenic Drives",
+      "url": "https://www.fs.usda.gov/r02/bighorn/recreation/opportunities/scenic-drives"
     }
   ],
   "reviewed": false

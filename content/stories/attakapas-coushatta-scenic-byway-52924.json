@@ -1,16 +1,18 @@
 {
   "id": "attakapas-coushatta-scenic-byway-52924",
-  "tagline": "Through the old No Man's Land, once a haven for outlaws.",
+  "tagline": "A Sabine River crossing, Civil War earthworks and a Gothic jail",
   "intro": [
-    "This is mostly flat country, first settled by the Atakapa and Coushatta. After the Louisiana Purchase nobody could agree where the western border ran, and France, New Spain, Mexico and the United States all had a claim on it. People called it No Man's Land, and land pirates and outlaws found it a comfortable place to be.",
-    "The drive starts at Burr Ferry, where LA 8 meets LA 111, and heads south. Keep on down LA 111 and it comes to Merryville, four miles from the Sabine River and Texas. From there US 190 runs north and east about 19 miles to DeRidder."
+    "The drive from Burr Ferry through Merryville to DeRidder crosses the mostly flat country promoted by Louisiana’s tourism office as part of the Myths and Legends Byway. The state’s byway presentation brings together historic river crossings, Civil War earthworks and DeRidder’s Gothic Revival jail. Its larger itinerary includes both documented history and ghost stories. At Burr Ferry, LA 8 meets Texas State Highway 63 at the Sabine River bridge; farther along the itinerary, US 190 connects the towns of Merryville and DeRidder.",
+    "At Burr Ferry, the road’s history centers on crossing the Sabine. The western boundary after the Louisiana Purchase was disputed, and this region became known as No Man’s Land. A cable ferry carried traffic across the river; its cables could be lowered to let boats pass and raised again for crossing. The ferry operated until a bridge was built in 1937.",
+    "Begin at Burr Ferry’s junction of LA 8 and LA 111, then head south on LA 111. To include Merryville, continue south instead of taking the earlier eastward turn at US 190. From Merryville, US 190 leads north and east for 19 miles to DeRidder. The former parish jail stands in the center of town."
   ],
   "moments": [
     {
       "title": "Burr Ferry",
       "kind": "roadside",
       "scene": "river",
-      "text": "After Natchez fell and Alexandria burned, trenches and breastworks went up here against an attack that never came, and their remains can still be seen.",
+      "text": "The earthworks at Burr Ferry were defenses for a battle that never came. After Natchez fell to the Union Army and Alexandria burned, Confederate forces feared an attack on the crossing. Trenches and breastworks were constructed under H. W. Scoggins, Sr. Louisiana’s tourism office identifies surviving breastwork remnants as a feature visitors can see. The old ferry site lies two miles from the community at the Sabine River, where a bridge replaced ferry service in 1937. The ferry’s cables could be lowered for passing boats, then raised to resume carrying traffic across the river.",
+      "notice": "Remnants of the Civil War breastworks remain visible.",
       "at": [
         -93.49611111,
         31.06638889
@@ -20,7 +22,7 @@
       "title": "Merryville",
       "kind": "town",
       "scene": "town",
-      "text": "The town keeps the grave of Charles Smith, called Leather Britches, who fought in its union strike and died in an ambush, a hero or an outlaw depending on who in Merryville tells it.",
+      "text": "Merryville lies four miles east of the Sabine River, the boundary between Louisiana and Texas. Louisiana’s tourism office points travelers to the grave of Charles Smith, known as Leather Britches. Its account places him in the town’s union strike and says he was killed in an ambush. The same account presents divided descriptions of him as hero or outlaw. US 190 links Merryville with DeRidder to the north and east.",
       "at": [
         -93.53694444,
         30.75388889
@@ -30,7 +32,7 @@
       "title": "Beauregard Parish Jail",
       "kind": "town",
       "scene": "town",
-      "text": "DeRidder's Gothic Revival jail, with a spiral staircase up to the cells and a tunnel to the courthouse, took on the name Hanging Jail after 1928 and is open now for tours.",
+      "text": "DeRidder’s former parish jail has Gothic Revival features more familiar from colleges and churches: shallow arches, dormer windows and a central tower. Inside, a spiral staircase gave access to cells equipped with a toilet, shower, lavatory and window. A tunnel connected the jail with the courthouse for moving prisoners to trial. Two men convicted of murdering taxi driver J. J. Brevelle were hanged here on March 9, 1928. The executions gave the building its Hanging Jail name. The bottom floor contained quarters for the jailer as well as a kitchen.",
       "at": [
         -93.28821,
         30.84625
@@ -39,20 +41,24 @@
   ],
   "sources": [
     {
-      "label": "Louisiana Office of Tourism, Myths and Legends Byway (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20240910204032/https://byways.explorelouisiana.com/byway/myths-and-legends-byway"
-    },
-    {
       "label": "Wikipedia, Burr Ferry, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Burr_Ferry,_Louisiana"
-    },
-    {
-      "label": "Wikipedia, Merryville, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Merryville,_Louisiana"
+      "url": "https://en.wikipedia.org/wiki/Burr_Ferry%2C_Louisiana"
     },
     {
       "label": "Wikipedia, Beauregard Parish Jail",
       "url": "https://en.wikipedia.org/wiki/Beauregard_Parish_Jail"
+    },
+    {
+      "label": "Louisiana Office of Tourism, Myths and Legends Byway (archived page)",
+      "url": "https://web.archive.org/web/20240910204032/https://byways.explorelouisiana.com/byway/myths-and-legends-byway"
+    },
+    {
+      "label": "Wikipedia, Merryville, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Merryville%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, DeRidder, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/DeRidder%2C_Louisiana"
     }
   ],
   "reviewed": false

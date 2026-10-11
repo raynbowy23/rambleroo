@@ -1,19 +1,21 @@
 {
   "id": "bear-lake-scenic-byway-2002",
-  "tagline": "A short shore road where the mountain men once met.",
+  "tagline": "Turquoise water beside a shore road from Garden City to Laketown",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "US 89 comes south from the Idaho line to Garden City, where the byway turns onto SR-30 and keeps to the shore as far as Laketown. The water is the turquoise that earned the lake its name as the Caribbean of the Rockies, a color owed to limestone held in suspension.",
-    "Mormon settlers built Garden City, Pickelville and Laketown along the shore after 1863. The road began in 1990 as the Laketown Scenic Byway and reached north to the state line in 2002."
+    "Bear Lake Scenic Byway follows US 89 from the Idaho line to Garden City, then SR-30 beside the lake toward Laketown. Utah’s tourism office presents the shore drive as a chance to see turquoise water and sandy beaches, with raspberry milkshakes in Garden City during summer. It lists the SR-30 trip between the two towns as ten miles and fifteen minutes. The lake straddles Utah and Idaho, and its turquoise-blue color comes from suspended calcium carbonate deposits.",
+    "The road east of Garden City entered the state highway system in 1910, on the stretch to Sage Creek Junction. The state designated the Laketown Scenic Byway in April 1990. Its northern reach changed in June 2002, when Logan Canyon received National Scenic Byway status. The US 89 section between Garden City and Idaho was transferred from Logan Canyon’s state designation to the extended, renamed Bear Lake Scenic Byway.",
+    "Traveling south from the state line brings you to Garden City, where SR-30 branches from US 89. The road follows Bear Lake’s south shore to Laketown. The lake’s southern end was a gathering place for fur traders and Native Americans in 1827 and 1828. The designated drive ends at East Shore Road in Laketown."
   ],
+  "notice": "Bear Lake’s turquoise-blue water gets its color from suspended calcium carbonate deposits.",
   "moments": [
     {
       "title": "Bear Lake",
       "kind": "roadside",
       "scene": "river",
-      "text": "A lake at least 250,000 years old, formed by a sinking fault that is still at work, slowly deepening it along the eastern side.",
+      "text": "Bear Lake’s turquoise-blue color comes from suspended calcium carbonate, the mineral in limestone. The lake occupies a depression formed by fault movement, a process that continues to deepen its eastern side. It is at least 250,000 years old. Human engineering has also changed its water: in 1911 a diversion redirected most of the Bear River’s flow into the lake through Mud Lake. The connection allows its upper 21 feet to store spring runoff for irrigation later in the year. Before that engineered connection, the lake had been separated from the Bear River for 11,000 years.",
       "motifs": [
         "lake-wide"
       ]
@@ -22,7 +24,7 @@
       "title": "Garden City",
       "kind": "town",
       "scene": "town",
-      "text": "In 1903 the first automobile journey across the United States stopped here, some while before the town became known for raspberry milkshakes in summer.",
+      "text": "Horatio Nelson Jackson and Sewall Crocker stopped in Garden City in 1903 on the first automobile journey across the United States. The lakeshore town had been settled in 1877; in 1979 it merged with neighboring Pickelville. Expansion of the water system prompted that merger. Garden City also celebrates the valley’s raspberry harvest with its annual Raspberry Days festival. Raspberry Days generally falls in the first week of August and includes parades, a craft fair and a raspberry recipe cookoff. Utah’s tourism office singles out the town’s raspberry milkshakes as a summer stop along SR-30.",
       "at": [
         -111.39306,
         41.92167
@@ -32,7 +34,7 @@
       "title": "Laketown",
       "kind": "town",
       "scene": "river",
-      "text": "The trappers' rendezvous of 1827 met near here, and Jedediah Smith arrived back from California to a considerable bustle, he and his party having been given up as lost.",
+      "text": "The south end of Bear Lake, in the area of present-day Laketown, hosted the Rocky Mountain Rendezvous in 1827 and 1828. Trappers, trade-goods suppliers and Native Americans from several tribes gathered to exchange furs for supplies. Jedediah Smith arrived in June 1827 after an overland round trip to California. His journal records that his party had been given up as lost. Rendezvous Beach takes its name from those summer trading gatherings. The beach forms part of Utah’s Bear Lake State Park, whose other recreation areas include Bear Lake Marina and East Side.",
       "at": [
         -111.32417,
         41.8275
@@ -41,28 +43,32 @@
   ],
   "sources": [
     {
-      "label": "Visit Utah, Utah's Scenic Byways",
+      "label": "Utah Office of Tourism, Utah’s Scenic Byways",
       "url": "https://www.visitutah.com/things-to-do/road-trips/scenic-byways"
     },
     {
-      "label": "Utah Admin. Code R926-13-4, State Scenic Byways (LII)",
+      "label": "Cornell Law School, Utah Administrative Code R926-13-4",
       "url": "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R926-13-4"
     },
     {
       "label": "Wikipedia, Bear Lake (Idaho–Utah)",
-      "url": "https://en.wikipedia.org/wiki/Bear_Lake_(Idaho%E2%80%93Utah)"
+      "url": "https://en.wikipedia.org/wiki/Bear_Lake_%28Idaho%E2%80%93Utah%29"
     },
     {
       "label": "Wikipedia, Utah State Route 30",
       "url": "https://en.wikipedia.org/wiki/Utah_State_Route_30"
     },
     {
-      "label": "Wikipedia, Garden City, Utah",
-      "url": "https://en.wikipedia.org/wiki/Garden_City,_Utah"
+      "label": "Wikipedia, Bear Lake State Park (Utah)",
+      "url": "https://en.wikipedia.org/wiki/Bear_Lake_State_Park_%28Utah%29"
     },
     {
-      "label": "Wikipedia, Laketown, Utah",
-      "url": "https://en.wikipedia.org/wiki/Laketown,_Utah"
+      "label": "Wikipedia, Garden City, Utah",
+      "url": "https://en.wikipedia.org/wiki/Garden_City%2C_Utah"
+    },
+    {
+      "label": "Wikipedia, Pickelville, Utah",
+      "url": "https://en.wikipedia.org/wiki/Pickelville%2C_Utah"
     }
   ],
   "reviewed": false

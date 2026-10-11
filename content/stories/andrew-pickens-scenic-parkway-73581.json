@@ -1,30 +1,36 @@
 {
   "id": "andrew-pickens-scenic-parkway-73581",
-  "tagline": "SC 11 under its older name, through Pickens's own country.",
+  "tagline": "One foothills highway keeps two names beside Lake Keowee",
   "motifs": [
     "lake-wide",
     "rolling-ridges"
   ],
   "intro": [
-    "The name came first. When the state made all of SC 11 the Cherokee Foothills Scenic Highway, it provided that the stretch in Oconee and Pickens counties would continue to be known as the Andrew Pickens Scenic Parkway. Pickens was a militia general of the Revolution, later given the name Skyagunsta, the Wizard Owl.",
-    "It starts at Exit 1 of I-85, under a mile from Georgia, and runs north through Walhalla toward the Blue Ridge. In Pickens County bridges carry it over Lake Keowee, and it passes near Table Rock before it reaches Greenville County."
+    "The Andrew Pickens Scenic Parkway is the Oconee and Pickens county portion of SC 11, the Cherokee Foothills Scenic Highway. The road follows the southern Blue Ridge, crossing Lake Keowee on bridges and passing near Table Rock State Park. South Carolina’s designation law preserves both names: Cherokee Foothills for SC 11 and Andrew Pickens for these two counties.",
+    "The corridor’s travel history reaches back beyond the numbered highway. The earlier Cherokee Path, also called the Keowee Path, carried Cherokee people and English and French fur traders between Tennessee and Charleston. When the state designated SC 11 as the Cherokee Foothills Scenic Highway, its law explicitly retained the Andrew Pickens name in the western counties. Pickens was a Revolutionary militia leader, planter and slaveholder whose Hopewell plantation stood across the Keowee River from the Cherokee town of Isunigu, also known as Seneca.",
+    "Traveling west from the Pickens–Greenville county boundary, the drive passes near Table Rock before crossing Lake Keowee into Oconee County. Sunset lies along SC 11, and the highway’s route includes Walhalla. Farther south, it runs through South Union and ends this journey at I-85’s Exit 1, near the Georgia border."
   ],
+  "notice": "Bridges carry SC 11 across Lake Keowee.",
   "moments": [
     {
-      "title": "Tamassee",
-      "kind": "town",
+      "title": "Table Rock State Park",
+      "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Ambushed near the Cherokee town here in 1776, Andrew Pickens's outnumbered militia fought in a ring within a ring, one firing while the other reloaded. He died near Tamassee in 1817.",
+      "text": "Table Rock’s log lodge grew out of the Civilian Conservation Corps’ work to make a mountain park. Two companies of World War I veterans began the work in the 1930s; two junior CCC companies replaced them in 1936. One company built the dam and spillway for Pinnacle Lake, while the other built trails, roads, cabins and park buildings. The park opened in April 1938. The lodge remains a park feature, with a kitchen and a 72-seat dining room. Its original plan placed a great hall on the main level and a dining hall, sun porch and kitchen below.",
+      "notice": "The CCC lodge is an L-shaped log building.",
       "at": [
-        -83.01611111,
-        34.87722222
+        -82.70591667,
+        35.03588889
+      ],
+      "motifs": [
+        "rolling-ridges"
       ]
     },
     {
       "title": "Keowee-Toxaway State Park",
       "kind": "short walk",
       "scene": "river",
-      "text": "Made in 1970 from Duke Power land on the shore of Lake Keowee, the park keeps the 1.4-mile Natural Bridge trail and the longer Raven Rock trail.",
+      "text": "Keowee-Toxaway became a state park in 1970 on land formerly owned by Duke Power along Lake Keowee. Its two named hiking routes offer different lengths: Natural Bridge is 1.4 miles, while Raven Rock is 3.1 miles. The park also has picnic shelters and fishing and boat access to the lake.",
       "at": [
         -82.88305556,
         34.93
@@ -34,22 +40,20 @@
       ]
     },
     {
-      "title": "Table Rock State Park",
-      "kind": "separate excursion",
+      "title": "Tamassee",
+      "kind": "town",
       "scene": "mountain",
-      "text": "Two companies of World War I veterans began the park for the CCC, were apparently too old for the mountain work, and gave way in 1936 to junior companies, who built the log lodge.",
+      "text": "A state historical marker in the Cheohee Valley identifies the Cherokee village of Tamassee Town. The village’s history includes the Ring Fight of August 12, 1776, when Andrew Pickens’s militia detachment fought Cherokee and Loyalist forces. Later that day, South Carolina militiamen under Andrew Williamson destroyed the village and drove out the Cherokee. Much of the present community occupies the Cheohee Valley, with the Pickens Ranger District of Sumter National Forest bordering Tamassee to the west and north. The surrounding valley lies within the southern Blue Ridge Mountains’ Chattooga Escarpment, beyond which flows the Chattooga River.",
+      "notice": "A state historical marker identifies Tamassee Town in the Cheohee Valley.",
       "at": [
-        -82.70591667,
-        35.03588889
-      ],
-      "motifs": [
-        "rolling-ridges"
+        -83.01611111,
+        34.87722222
       ]
     }
   ],
   "sources": [
     {
-      "label": "South Carolina Code of Laws, Title 57 Chapter 23 (Section 57-23-110)",
+      "label": "South Carolina Legislature, Code of Laws, Section 57-23-110",
       "url": "https://www.scstatehouse.gov/code/t57c023.php"
     },
     {
@@ -58,19 +62,27 @@
     },
     {
       "label": "Wikipedia, Andrew Pickens (congressman)",
-      "url": "https://en.wikipedia.org/wiki/Andrew_Pickens_(congressman)"
+      "url": "https://en.wikipedia.org/wiki/Andrew_Pickens_%28congressman%29"
     },
     {
-      "label": "Wikipedia, Tamassee, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Tamassee,_South_Carolina"
+      "label": "Wikipedia, Sunset, South Carolina",
+      "url": "https://en.wikipedia.org/wiki/Sunset%2C_South_Carolina"
+    },
+    {
+      "label": "Wikipedia, South Union, South Carolina",
+      "url": "https://en.wikipedia.org/wiki/South_Union%2C_South_Carolina"
+    },
+    {
+      "label": "Wikipedia, Table Rock State Park (South Carolina)",
+      "url": "https://en.wikipedia.org/wiki/Table_Rock_State_Park_%28South_Carolina%29"
     },
     {
       "label": "Wikipedia, Keowee-Toxaway State Park",
       "url": "https://en.wikipedia.org/wiki/Keowee-Toxaway_State_Park"
     },
     {
-      "label": "Wikipedia, Table Rock State Park (South Carolina)",
-      "url": "https://en.wikipedia.org/wiki/Table_Rock_State_Park_(South_Carolina)"
+      "label": "Wikipedia, Tamassee, South Carolina",
+      "url": "https://en.wikipedia.org/wiki/Tamassee%2C_South_Carolina"
     }
   ],
   "reviewed": false

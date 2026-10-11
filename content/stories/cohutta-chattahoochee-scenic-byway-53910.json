@@ -1,19 +1,21 @@
 {
   "id": "cohutta-chattahoochee-scenic-byway-53910",
-  "tagline": "From a creek-powered mill up to a wall of uncertain age.",
+  "tagline": "From a creek-powered mill, climb toward Fort Mountain’s stone wall.",
   "motifs": [
     "gristmill"
   ],
   "intro": [
-    "The byway starts at Prater's Mill on Coahulla Creek in Whitfield County and follows State Route 2 past pasture into Murray County, then US 41 and quiet county roads into the Chattahoochee National Forest. It skirts Chatsworth and takes State Route 52 up into the Cohutta Mountains. The climb runs from around 800 feet to above 2,500, past Fort Mountain State Park to an overlook at the top.",
-    "Spurs run off to the Cohutta Fish Hatchery and to a Forest Service camp on Holly Creek, the stream that runs down the east edge of Chatsworth."
+    "The Cohutta-Chattahoochee Scenic Byway crosses rolling farmland before climbing into the Cohutta Mountains. Georgia DOT includes it among the state’s designated scenic byways, describing a 54-mile route linking pastoral land, national forest and a mountaintop overlook. On Fort Mountain, State Route 52 is steep and curving, with views of the Cohutta Mountains and an overlook with parking. The climb east of Chatsworth takes SR 2 and SR 52 from around 800 feet to above 2,500 feet before the roads curve southeast.",
+    "The mountain highway acquired its present number in stages. The Dalton-to-Chatsworth section had already appeared on state road maps in 1920 as part of SR 2. By early 1932, a new road section connected Chatsworth with Ellijay under the SR 2 designation. The Dalton-to-Ellijay stretch became SR 52 in 1949, completing that highway’s routing and designation. That numbered highway is one part of the scenic route, which also uses county roads.",
+    "Begin at Prater’s Mill in Whitfield County and follow SR 2 through the rolling land into Murray County. The byway continues into the Chattahoochee National Forest, skirts Chatsworth and climbs SR 52 past Fort Mountain State Park to its final overlook. Spurs lead to the Cohutta Fish Hatchery and a Forest Service campsite along Holly Creek."
   ],
+  "notice": "SR 52’s mountain stretch has views of the Cohutta Mountains and an overlook with parking.",
   "moments": [
     {
       "title": "Prater's Mill",
       "kind": "roadside",
       "scene": "river",
-      "text": "Coahulla Creek ran the machinery here, and for almost a hundred years farmers lined up early with their mules and wagons to wait their turn with the millers.",
+      "text": "A turbine beneath the water does the work at Prater’s Mill. Water enters a nine-foot-deep forebay, then rushes through gates to spin the turbine’s vanes and shaft. John Pitner built the gristmill, sawmill and miller’s house in 1855. His son-in-law Benjamin Franklin Prater inherited the site and expanded it into a complex with a blacksmith shop, country store, cotton gin and workers’ housing. Customers could have horses shod and cotton ginned while their grain was processed. In the 1890s, Prater’s son William installed a flour-milling system, adding another service to the family operation.",
       "at": [
         -84.922,
         34.896
@@ -26,7 +28,7 @@
       "title": "Chatsworth",
       "kind": "town",
       "scene": "town",
-      "text": "The town began in 1905 as a railroad depot, and the story goes that it took its name from a sign that fell off a passing freight train.",
+      "text": "Chatsworth began as a Louisville and Nashville Railroad depot in 1905. It became a town the following year, then took over as Murray County’s seat from Spring Place in 1915. The town sits west of Holly Creek’s valley, with Fort Mountain and Cohutta Mountain rising to the east. From here, SR 2 and SR 52 climb together into the Cohutta Mountains, passing Fort Mountain State Park seven miles east of the city center. Holly Creek runs along the city’s eastern edge before joining the Conasauga River, part of the Oostanaula, Coosa and Alabama watershed.",
       "at": [
         -84.779,
         34.772
@@ -34,9 +36,9 @@
     },
     {
       "title": "Fort Mountain State Park",
-      "kind": "roadside",
+      "kind": "short walk",
       "scene": "mountain",
-      "text": "On the peak a zigzag wall of local stone runs along the summit, and a 1956 archaeological report declined to guess how old it is.",
+      "text": "Two stone structures share Fort Mountain’s highest ground: an ancient wall and a Civilian Conservation Corps fire tower. The wall zigzags across the summit, built from local stone. A 1956 archaeological report called it a prehistoric construction but declined to assign a precise age or purpose without further investigation. The CCC’s work extended beyond the tower to the lake, trails and park buildings. Trails wind through hardwood forest and blueberry thickets, cross streams and circle the lake. The park occupies the southwestern end of the Cohutta Mountains, near the Cohutta Wilderness.",
       "at": [
         -84.707,
         34.761
@@ -45,20 +47,32 @@
   ],
   "sources": [
     {
-      "label": "Georgia DOT, Scenic Byways",
-      "url": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
-    },
-    {
-      "label": "Wikipedia, Prater's Mill",
+      "label": "Wikipedia, Prater’s Mill",
       "url": "https://en.wikipedia.org/wiki/Prater%27s_Mill"
     },
     {
-      "label": "Wikipedia, Chatsworth, Georgia",
-      "url": "https://en.wikipedia.org/wiki/Chatsworth,_Georgia"
+      "label": "Georgia Department of Transportation, Scenic Byways",
+      "url": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
+    },
+    {
+      "label": "Georgia Department of Natural Resources, Fort Mountain State Park",
+      "url": "https://gastateparks.org/FortMountain"
+    },
+    {
+      "label": "Wikipedia, Fort Mountain (Murray County, Georgia)",
+      "url": "https://en.wikipedia.org/wiki/Fort_Mountain_%28Murray_County%2C_Georgia%29"
     },
     {
       "label": "Wikipedia, Georgia State Route 52",
       "url": "https://en.wikipedia.org/wiki/Georgia_State_Route_52"
+    },
+    {
+      "label": "Prater’s Mill Foundation, Historic Site",
+      "url": "https://www.pratersmill.org/"
+    },
+    {
+      "label": "Wikipedia, Chatsworth, Georgia",
+      "url": "https://en.wikipedia.org/wiki/Chatsworth%2C_Georgia"
     },
     {
       "label": "Wikipedia, Fort Mountain State Park",
