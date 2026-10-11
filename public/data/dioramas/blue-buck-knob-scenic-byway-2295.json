@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Blue Buck Overlook",
+      "model": "overlook-pullout",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "hardwood",

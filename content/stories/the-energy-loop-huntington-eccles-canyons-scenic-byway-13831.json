@@ -1,29 +1,35 @@
 {
   "id": "the-energy-loop-huntington-eccles-canyons-scenic-byway-13831",
-  "tagline": "Over the Wasatch Plateau and down two canyons of coal country.",
+  "tagline": "Reservoirs and coal country meet on roads across the Wasatch Plateau",
   "motifs": [
     "mining-town",
     "aspens"
   ],
   "intro": [
-    "From Fairview, SR-31 follows Cottonwood Creek up Fairview Canyon and tops out on the Wasatch Plateau at about 8,800 feet, where the loop splits. The south branch climbs past 9,600 feet by Huntington and Cleveland reservoirs and follows Huntington Creek down its canyon to the town of Huntington. The north branch runs along Electric Lake and over into Eccles Canyon, down to Scofield and its reservoir and on toward Colton.",
-    "This is coal country, and still working. Skyline Mine operates along the route, and Electric Lake keeps enough water in store to cool a power plant through a four-year drought."
+    "The Energy Loop climbs across the Wasatch Plateau through canyons, forest and reservoir country. On SR 31, the southern branch rises above 9,600 feet before descending Huntington Canyon. The Forest Service presents this National Scenic Byway through its mining and energy history, recreation and interpretive sites. Utah’s tourism office highlights autumn aspens beside green conifers.",
+    "Better highways in the 1940s and 1950s enabled miners to commute from Huntington to Carbon County mines. Carbon County’s tourism account still identifies Skyline Mine as an operating industry along the corridor. The byway grew in stages: Utah designated SR 31 and SR 264 in 1990, then added SR 96 between Clear Creek and Colton circa 1992. National Scenic Byway designation followed in 2000. In 2011, the state corridor expanded along US 6 from Colton to Helper and along SR 10 to Huntington State Park.",
+    "For the mountain crossing, travel from Colton past Scofield Reservoir and Scofield, then climb Eccles Canyon toward Electric Lake on SR 264. Continue to SR 31; a trip east along that road passes Huntington Reservoir and Cleveland Reservoir before descending Huntington Canyon to Huntington. The western arm instead descends Fairview Canyon beside Cottonwood Creek to Fairview and US 89."
   ],
+  "notice": "In autumn, yellow aspens contrast with green conifers along the route.",
   "moments": [
     {
-      "title": "Huntington Reservoir",
-      "kind": "roadside",
-      "scene": "mountain",
-      "text": "Crews rebuilding the dam here in 1988 turned up the nearly complete skeleton of a Columbian mammoth some 9,500 years old. It is on display now at the museum in Price.",
+      "title": "Winter Quarters",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "West of Scofield, Winter Quarters takes its name from miners stranded by an early winter storm in 1877. On May 1, 1900, an explosion in its Number Four mine also sent lethal gas into the connected Number One mine. The Pleasant Valley Coal Company reported 200 deaths; other reports put the toll at 246. Rescuers from Clear Creek, Castle Gate and Sunnyside joined local men in recovering bodies for almost a week. Walls of the Wasatch Store can be seen from the approach road, and foundations and blacksmith-shop remains survive. The townsite is private property posted against trespassing.",
+      "at": [
+        -111.1878,
+        39.7206
+      ],
       "motifs": [
-        "lake-wide"
+        "mining-town"
       ]
     },
     {
       "title": "Electric Lake",
       "kind": "roadside",
       "scene": "forest",
-      "text": "A 1974 reservoir high on the east slope of the plateau, held for irrigation and power plant cooling. The highways along its shores are maintained year-round.",
+      "text": "Electric Lake stores water for irrigation and power-plant cooling high on the Wasatch Plateau’s eastern slope. The reservoir stores enough cooling water for a four-year drought, keeping levels deep through most summers. An earth-fill dam created the reservoir in 1974. Beneath its water lies Connellsville, a coal-mining and coke-making settlement abandoned in 1878. Its coal made poor coke, and the settlement lacked transportation facilities. Before inundation, Utah Power funded an archaeological survey and reconstructed one coke oven above the waterline. SR 31 follows the south shore near the dam; SR 264 follows the north shore.",
       "at": [
         -111.2204,
         39.6051
@@ -33,47 +39,54 @@
       ]
     },
     {
-      "title": "Winter Quarters",
-      "kind": "separate excursion",
-      "scene": "town",
-      "text": "Fourteen miners caught for months by snow in the winter of 1877 gave the camp its name. On May 1, 1900, an explosion in the Number Four mine killed 200 men.",
-      "at": [
-        -111.1878,
-        39.7206
-      ],
+      "title": "Huntington Reservoir",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Rebuilding Huntington Reservoir Dam brought a nearly complete Columbian mammoth skeleton to light. Utah’s tourism office identifies the stop as the Mammoth Discovery Site of August 8, 1988. Carbon County dates the animal to nearly 9,500 years ago and identifies its present display as the USU Eastern Prehistoric Museum in Price. The Forest Service includes the recovery site among the byway’s interpretive stops. Huntington Reservoir lies on the SR 31 branch, before Cleveland Reservoir when driving east from the high plateau.",
       "motifs": [
-        "mining-town"
+        "lake-wide"
       ]
     }
   ],
+  "practical": [
+    "Winter Quarters: The Winter Quarters site is private property posted against trespassing. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "USDA Forest Service, The Energy Loop: Huntington and Eccles Canyons NSB",
-      "url": "https://www.fs.usda.gov/r04/manti-lasal/recreation/energy-loop-huntington-eccles-canyons-nsb"
+      "label": "Utah Office of Tourism, Utah’s Scenic Byways",
+      "url": "https://www.visitutah.com/things-to-do/road-trips/scenic-byways"
     },
     {
       "label": "Carbon County, Energy Loop Scenic Byway",
       "url": "https://www.carbon.utah.gov/attraction/energy-loop-scenic-byway/"
     },
     {
-      "label": "Visit Utah, Scenic Byways",
-      "url": "https://www.visitutah.com/things-to-do/road-trips/scenic-byways"
+      "label": "Wikipedia, The Energy Loop: Huntington/Eccles Canyons Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/The_Energy_Loop%3A_Huntington/Eccles_Canyons_Scenic_Byway"
     },
     {
-      "label": "Wikipedia, The Energy Loop: Huntington/Eccles Canyons Scenic Byway",
-      "url": "https://en.wikipedia.org/wiki/The_Energy_Loop:_Huntington/Eccles_Canyons_Scenic_Byway"
+      "label": "USDA Forest Service, The Energy Loop: Huntington & Eccles Canyons NSB",
+      "url": "https://www.fs.usda.gov/r04/manti-lasal/recreation/energy-loop-huntington-eccles-canyons-nsb"
+    },
+    {
+      "label": "Wikipedia, Huntington, Utah",
+      "url": "https://en.wikipedia.org/wiki/Huntington%2C_Utah"
+    },
+    {
+      "label": "Cornell Law School Legal Information Institute, Utah Admin. Code R926-13-4",
+      "url": "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R926-13-4"
+    },
+    {
+      "label": "Wikipedia, Winter Quarters, Utah",
+      "url": "https://en.wikipedia.org/wiki/Winter_Quarters%2C_Utah"
     },
     {
       "label": "Wikipedia, Electric Lake",
       "url": "https://en.wikipedia.org/wiki/Electric_Lake"
     },
     {
-      "label": "Wikipedia, Winter Quarters, Utah",
-      "url": "https://en.wikipedia.org/wiki/Winter_Quarters,_Utah"
-    },
-    {
-      "label": "Wikipedia, Scofield Mine disaster",
-      "url": "https://en.wikipedia.org/wiki/Scofield_Mine_disaster"
+      "label": "Wikipedia, Connellsville, Utah",
+      "url": "https://en.wikipedia.org/wiki/Connellsville%2C_Utah"
     },
     {
       "label": "Wikipedia, Herrett Center for Arts and Science",

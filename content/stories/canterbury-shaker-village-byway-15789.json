@@ -1,26 +1,34 @@
 {
   "id": "canterbury-shaker-village-byway-15789",
-  "tagline": "A village of shared work and useful inventions.",
+  "tagline": "Shaker-planted maples line the road to a village of practical inventions.",
   "intro": [
-    "From Canterbury Center, where Captain Jeremiah Clough once kept a timber fort and trading post for the Pennacook, the byway runs out to the Shaker village in the eastern part of town. Founded in 1792, it held some 300 people in 100 buildings by the middle of the nineteenth century.",
-    "The Shakers farmed, sold seeds and herbal medicines, and made pails and brooms. They took to new machinery too, from telephones in 1901 to a washing machine of their own that won a gold medal at the 1876 Centennial Exposition. The last of them, Sister Ethel Hudson, died in 1992. The sugar maples along Meetinghouse Lane and Shaker Road are theirs too."
+    "Sugar maples planted by the Shakers line Meetinghouse Lane and Shaker Road along the Canterbury Shaker Village Byway. The Federal Highway Administration’s byway description highlights open marshes, stone walls, conservation areas and pre-Revolutionary homes, with woodland trails leading to ponds, mills and dams. It recommends about three hours to take in some of the route’s places. The village is a National Historic Landmark, with 694 acres of woodland, fields, gardens and mill ponds under permanent conservation protection.",
+    "Local families donated the land on which the Shaker community was founded in 1792 under Father Job Bishop. By 1850, the community housed 300 members in 100 buildings. Its members farmed and sold seeds, herbal medicines, textiles, pails and brooms. They also patented a washing machine that won a gold medal at the 1876 Centennial Exposition. A nonprofit formed in 1969 to preserve their heritage; Sister Ethel Hudson, Canterbury’s last resident Shaker, died in 1992.",
+    "Start in Canterbury’s village center, a separate community from the Shaker settlement, with its town hall, church, store and gazebo. Continue toward the Shaker Village in the eastern part of town. There, original and reconstructed Shaker buildings form the museum, with nature trails leading to ponds, mills, dams and the Physician’s Botanical Garden."
   ],
   "moments": [
     {
       "title": "Canterbury",
       "kind": "town",
       "scene": "town",
-      "text": "Canterbury Center keeps its town hall, country store and gazebo, and the historical society's museum in the old one-room Center Schoolhouse.",
+      "text": "Canterbury’s center developed separately from the Shaker community, and its civic buildings include a town hall, public library and gazebo. Near the center, Captain Jeremiah Clough’s timber fort and trading post once occupied a hill where Pennacook people came to trade. The town was first granted in 1727 and named for William Wake, Archbishop of Canterbury, before incorporation in 1741. The historical society maintains the Elizabeth Houser Museum in the former one-room Center Schoolhouse, along with an archive of local material reaching back to the early eighteenth century.",
       "at": [
         -71.56527778,
         43.33694444
       ]
     },
     {
+      "title": "Shaker Road maples",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "The sugar maples along Shaker Road and Meetinghouse Lane were planted by the Shakers. Their autumn color is one of the features the Federal Highway Administration highlights for this byway. The route also passes open marshes, stone walls and cemeteries, with access to Hutchins Forest.",
+      "notice": "Sugar maples planted by the Shakers line Shaker Road and Meetinghouse Lane."
+    },
+    {
       "title": "Canterbury Shaker Village",
       "kind": "short walk",
       "scene": "town",
-      "text": "The community's own powerhouse, built in 1910, first lit sixteen buildings; now fields, gardens and mill ponds surround the original and reconstructed buildings of the museum.",
+      "text": "Canterbury’s Shakers generated their own electric light: a powerhouse built in 1910 first supplied sixteen community buildings. Telephones had arrived in 1901, installed by the New England Telephone Company. The community also developed its own labor-saving machinery, including the patented washing machine honored at the 1876 Centennial Exposition. Friends of the community gave the Canterbury Shakers a television set in the 1950s, adding another new technology to village life. The museum preserves both original Shaker buildings and four reconstructions within forests, fields, gardens and mill ponds protected by a conservation easement. A nonprofit organization established in 1969 operates the site.",
       "at": [
         -71.49,
         43.35888889
@@ -29,16 +37,16 @@
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Canterbury Shaker Village Byway",
+      "label": "Federal Highway Administration, Canterbury Shaker Village Byway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/15789"
-    },
-    {
-      "label": "Wikipedia, Canterbury, New Hampshire",
-      "url": "https://en.wikipedia.org/wiki/Canterbury%2C_New_Hampshire"
     },
     {
       "label": "Wikipedia, Canterbury Shaker Village",
       "url": "https://en.wikipedia.org/wiki/Canterbury_Shaker_Village"
+    },
+    {
+      "label": "Wikipedia, Canterbury, New Hampshire",
+      "url": "https://en.wikipedia.org/wiki/Canterbury%2C_New_Hampshire"
     }
   ],
   "reviewed": false

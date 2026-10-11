@@ -1,19 +1,41 @@
 {
   "id": "pioneer-historic-byway-2049",
-  "tagline": "North out of Cache Valley to a geyser kept on a timer.",
+  "tagline": "Settlement buildings and a drilled geyser mark an old emigrant corridor",
   "motifs": [
     "steeple-town"
   ],
   "intro": [
-    "From the Utah line US 91 runs up the north end of Cache Valley to Franklin and Preston, where Idaho 34 turns north into Gem Valley. Around Grace the valley floor lies flat on the lava flow that turned the Bear River from the Pacific into the Great Basin. The road goes east from there to Soda Springs, an Oregon Trail landmark named for its hundreds of carbonated springs, then north on Idaho 34 toward Wyoming.",
-    "The towns were settled by Latter-day Saint pioneers. At Preston they first called their town Worm Creek, until church leaders in Salt Lake City objected in 1881. A few miles northwest of town is the site of the Bear River Massacre of 1863."
+    "The Pioneer Historic Byway crosses southeastern Idaho from the Wyoming border toward Cache Valley, passing Soda Springs and the flat volcanic floor of Gem Valley near Grace. Visit Idaho describes a 114-mile drive taking two hours and 13 minutes, with the Soda Springs geyser and historic Chesterfield among its attractions. The Federal Highway Administration lists it as a National Scenic Byway and highlights its emigrant routes, settlement history and geological sites.",
+    "At Soda Springs, natural carbonated springs known to Native Americans became an Oregon Trail landmark in the mid-nineteenth century. Mormon settlers founded Chesterfield along a branch of that trail in 1881. A railroad through Bancroft to the south drew momentum away from the community; agricultural troubles later contributed to its decline. Settlement histories differed along the corridor: Grace, unlike Franklin, was not originally settled by Mormon pioneers, though it later became predominantly Mormon.",
+    "Drive south on Idaho 34 from the Wyoming side through Wayan, in the Grays Lake valley, to Soda Springs. Continue west on U.S. 30, then south on Idaho 34 toward Grace and Preston. Preston lies at the northern end of Cache Valley; U.S. 91 is its main north–south street. Follow it south through Franklin to the Utah line."
   ],
   "moments": [
+    {
+      "title": "Soda Springs Geyser",
+      "kind": "short walk",
+      "scene": "town",
+      "text": "A swimming-pool project struck the wrong kind of water in 1937. Town leaders seeking hot water drilled into a chamber of pressurized carbon dioxide and cold water, releasing the Soda Springs Geyser. It ran for weeks and flooded downtown before being capped. At first, it was released by hand on request as a tourist attraction. The drilled well taps the carbonated aquifer beneath the city. The geyser’s water is about 70 degrees Fahrenheit, rather than the hot bathing water the drilling project sought. Viewing platforms stand at either end of its travertine mound, with signs explaining the phenomenon.",
+      "notice": "The geyser erupts from a travertine mound between viewing platforms.",
+      "at": [
+        -111.605,
+        42.657
+      ]
+    },
+    {
+      "title": "Chesterfield",
+      "kind": "separate excursion",
+      "scene": "prairie",
+      "text": "Chesterfield’s tithing buildings explain how a farm community supported its church when cash was scarce. Grain, vegetables, eggs and animals served as payments; the tithing office and granary were built in 1900 to handle these goods. Grain went into the granary, while the office received payments and distributed goods to people in need. The village was laid out in a grid of thirty-five ten-acre blocks after church leaders asked residents to move away from the flood plain. The surviving meetinghouse was built between 1887 and 1892. The neighboring amusement hall, originally erected in 1895, fell into ruin before restoration between 1999 and 2003.",
+      "at": [
+        -111.902,
+        42.867
+      ]
+    },
     {
       "title": "Franklin",
       "kind": "town",
       "scene": "town",
-      "text": "Mormon pioneers settled here in 1860 thinking they were in Utah, until an 1872 survey put the town a mile into Idaho, its first permanent European settlement.",
+      "text": "Franklin’s founders thought they were settling in Utah Territory in 1860, but the town was in Washington Territory. The townsite itself was platted into square blocks in 1864, before the territorial uncertainty had been resolved. An 1872 survey settled its position in Idaho Territory, about a mile north of Utah’s boundary. The Mormon settlement’s early stone construction survives in the Franklin Cooperative Mercantile Institution, built in 1869. The store drew goods from wholesalers and community residents as part of a wider cooperative movement. After the cooperative era ended, the building became a history museum in 1923, preceding Franklin’s Relic Hall.",
       "at": [
         -111.805,
         42.006
@@ -21,59 +43,51 @@
       "motifs": [
         "steeple-town"
       ]
-    },
-    {
-      "title": "Chesterfield",
-      "kind": "separate excursion",
-      "scene": "prairie",
-      "text": "A farm town founded in 1881 and emptied by the end of the 1930s, its meetinghouse, amusement hall and tithing house still standing for guided tours.",
-      "at": [
-        -111.902,
-        42.867
-      ]
-    },
-    {
-      "title": "Soda Springs Geyser",
-      "kind": "short walk",
-      "scene": "town",
-      "text": "Drilling for a hot swimming pool in 1937, the town struck a geyser of cold carbonated water instead, which flooded downtown for weeks and now goes off by timer every hour on the hour.",
-      "at": [
-        -111.605,
-        42.657
-      ]
     }
   ],
   "practical": [
-    "This is heavy snowfall country. Idaho 34 between Soda Springs and the Wyoming line may close at times in winter."
+    "Soda Springs Geyser: Idaho 34 between Soda Springs and the Wyoming border may occasionally close in winter because this is a heavy-snowfall area. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Visit Idaho, Pioneer Historic Byway",
-      "url": "https://visitidaho.org/things-to-do/atv-recreation-motorsports/pioneer-historic-byway/"
-    },
-    {
-      "label": "Wikipedia, Franklin, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Franklin,_Idaho"
-    },
-    {
-      "label": "Wikipedia, Preston, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Preston,_Idaho"
-    },
-    {
-      "label": "Wikipedia, Grace, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Grace,_Idaho"
+      "label": "Federal Highway Administration, Pioneer Historic Byway (archived)",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2049"
     },
     {
       "label": "Wikipedia, Chesterfield, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Chesterfield,_Idaho"
-    },
-    {
-      "label": "Wikipedia, Soda Springs, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Soda_Springs,_Idaho"
+      "url": "https://en.wikipedia.org/wiki/Chesterfield%2C_Idaho"
     },
     {
       "label": "Wikipedia, Soda Springs Geyser",
       "url": "https://en.wikipedia.org/wiki/Soda_Springs_Geyser"
+    },
+    {
+      "label": "Visit Idaho, Pioneer Historic Byway (archived)",
+      "url": "https://web.archive.org/web/20251210160945/https://visitidaho.org/things-to-do/atv-recreation-motorsports/pioneer-historic-byway/"
+    },
+    {
+      "label": "Wikipedia, Grace, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Grace%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Soda Springs, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Soda_Springs%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Wayan, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Wayan%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Preston, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Preston%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Franklin, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Franklin%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Franklin Historic Properties",
+      "url": "https://en.wikipedia.org/wiki/Franklin_Historic_Properties"
     }
   ],
   "reviewed": false

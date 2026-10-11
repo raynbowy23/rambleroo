@@ -1,16 +1,17 @@
 {
   "id": "big-sky-back-country-byway-68956",
-  "tagline": "Yellowstone to Missouri on the old Regina-Yellowstone Trail.",
+  "tagline": "From Yellowstone to Missouri through prairie, badlands and an older tourist corridor",
   "intro": [
-    "Out of Terry on the Yellowstone, Highway 253 heads north to meet Highway 200 for Circle, and Highway 13 carries on to Wolf Point on the Missouri, 105 miles from one of the state's two big rivers to the other. It is paved all the way now. The road follows part of the old Regina-Yellowstone Trail, which Canadian tourists once took south to Yellowstone National Park.",
-    "Between the towns it is dry-land farms and prairie grass, scoria buttes and badlands. Kiosks in Terry, Circle and Wolf Point tell the local history."
+    "Big Sky Back Country Byway links Terry and Wolf Point across 105 miles of eastern Montana badlands and rolling prairie. BLM gives the drive two hours one way and says the entire route is paved. The agency identifies it with the National Scenic Byways Program, while Visit Montana highlights dry-land farming, prairie grassland, scoria buttes and badlands along the corridor between the Yellowstone and Missouri rivers. Visit Montana also describes directional signs along the entire route and opportunities for wildlife viewing, hiking and bird watching.",
+    "The byway follows a section of the historic Regina–Yellowstone Trail, used by Canadian tourists traveling to Yellowstone National Park. Highway numbering has changed: Montana Highway 13 formerly continued south of Circle through Brockway to Terry. At the northern river crossing, the Lewis and Clark Bridge opened in 1930, filling a 350-mile stretch of the Missouri without another bridge.",
+    "Start at Terry on the Yellowstone side and follow Highway 253 north through Brockway, then Highway 200 to Circle. Highway 13 carries the drive north through Vida toward the Missouri and Wolf Point. Information kiosks in Terry, Circle and Wolf Point interpret local history and culture. The northern segment offers a view of the historic Lewis and Clark Bridge over the river."
   ],
   "moments": [
     {
       "title": "Terry",
       "kind": "town",
       "scene": "river",
-      "text": "The town began as Joubert's Landing, a supply point for freighters on the Yellowstone, and took General Alfred Terry's name when the Northern Pacific arrived in 1881.",
+      "text": "Before the railroad arrived, this place was called Joubert’s Landing. It was a supply point on the Yellowstone River for freighters traveling from Bismarck to Miles City. When the Northern Pacific arrived in 1881, the town took the name of General Alfred Howe Terry. The Milwaukee Road’s Pacific Extension made Terry a two-railroad town in the early twentieth century. A byway kiosk interprets local history; across the Yellowstone to the north lie the Terry Badlands. The town stands just north of Interstate 94, at the junction of old Highway 10 and Highway 253.",
       "at": [
         -105.3125,
         46.79222222
@@ -20,7 +21,7 @@
       "title": "Circle",
       "kind": "town",
       "scene": "prairie",
-      "text": "The town is named for the brand a rancher here put on his cattle.",
+      "text": "Circle’s name began as a cattle brand: a rancher marked his animals with a circle. Peter Rorvik arrived in 1905 and opened a post office and general store; homesteaders began moving into the area in 1909. Oil discovered southeast of town in 1951 brought a temporary rise in population, but agriculture remains a mainstay of the economy. The McCone County Museum holds an old Northern Pacific depot on its grounds, and the byway’s Circle kiosk is at the museum. The town’s Redwater River runs northeast to the Missouri near Poplar, while Highway 13 heads north toward Wolf Point.",
       "at": [
         -105.58694444,
         47.41777778
@@ -30,7 +31,8 @@
       "title": "Lewis and Clark Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "When this five-span through truss opened in 1930 as the only bridge on 350 miles of the Missouri, more than 10,000 people came with five bands and fireworks.",
+      "text": "Five through-truss spans mark the historic Lewis and Clark Bridge, which formerly carried Highway 13 over the Missouri. The Missouri Valley Bridge and Iron Company completed it in 1930, when it was the only bridge in a 350-mile stretch of the river. More than 10,000 people attended its July 9 opening, with five bands and fireworks. Its longest span measures 400 feet. The bridge joined the National Register of Historic Places in 1997, recognizing the older crossing. Visit Montana identifies a view of this historic structure from the northern part of the byway.",
+      "notice": "The historic bridge has five through-truss spans, with a longest span of 400 feet.",
       "at": [
         -105.535,
         48.06722222
@@ -39,28 +41,32 @@
   ],
   "sources": [
     {
-      "label": "BLM, Big Sky Back Country Byway",
-      "url": "https://www.blm.gov/visit/big-sky-back-country-byway"
-    },
-    {
       "label": "Visit Montana, Big Sky Back Country Byway",
       "url": "https://visitmt.com/listing/big-sky-back-country-byway-15808"
+    },
+    {
+      "label": "Bureau of Land Management, Big Sky Back Country Byway",
+      "url": "https://www.blm.gov/visit/big-sky-back-country-byway"
     },
     {
       "label": "Wikipedia, Montana Highway 13",
       "url": "https://en.wikipedia.org/wiki/Montana_Highway_13"
     },
     {
+      "label": "Wikipedia, Lewis and Clark Bridge (Wolf Point, Montana)",
+      "url": "https://en.wikipedia.org/wiki/Lewis_and_Clark_Bridge_%28Wolf_Point%2C_Montana%29"
+    },
+    {
       "label": "Wikipedia, Terry, Montana",
-      "url": "https://en.wikipedia.org/wiki/Terry,_Montana"
+      "url": "https://en.wikipedia.org/wiki/Terry%2C_Montana"
+    },
+    {
+      "label": "Wikipedia, Brockway, Montana",
+      "url": "https://en.wikipedia.org/wiki/Brockway%2C_Montana"
     },
     {
       "label": "Wikipedia, Circle, Montana",
-      "url": "https://en.wikipedia.org/wiki/Circle,_Montana"
-    },
-    {
-      "label": "Wikipedia, Lewis and Clark Bridge (Wolf Point, Montana)",
-      "url": "https://en.wikipedia.org/wiki/Lewis_and_Clark_Bridge_(Wolf_Point,_Montana)"
+      "url": "https://en.wikipedia.org/wiki/Circle%2C_Montana"
     }
   ],
   "reviewed": false

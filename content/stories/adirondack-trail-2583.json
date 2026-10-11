@@ -1,19 +1,20 @@
 {
   "id": "adirondack-trail-2583",
-  "tagline": "Route 30, lake after lake, clear across the Adirondack Park.",
+  "tagline": "Mountain lakes link former resorts, a college and a history museum.",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "Out of Malone, Route 30 runs south past Duane into the Adirondack Park and down a string of lakes, Meacham and Upper Saranac among them, to Tupper Lake. Farther on it borrows other roads for a while, 28N from Long Lake to Blue Mountain Lake, 28 on to Indian Lake, 8 between Speculator and Wells, and leaves the park near Mayfield, bound for Fonda.",
-    "NYSDOT counts 188 miles from end to end, skirting mountain ponds and peak-rimmed lakes. Paul Smiths, near the north end, once reached 48 below in January 1912, tying the state record for the month."
+    "The Adirondack Trail crosses the park through forests and past mountain ponds and lakes, including Tupper, Long and Indian lakes. NYSDOT’s scenic-byway account gives the Fonda-to-Malone corridor a length of 188 miles and identifies its scenic, recreational and natural qualities. NY 30 carries the drive through the Adirondacks; NY 30A serves the southern cities and Fonda. NYSDOT describes glacial lakes and ponds scattered throughout the park.",
+    "That continuous Route 30 number came later than much of the road. In 1930, NY 30 ended at Wells; the road north of Speculator belonged to NY 10. Circa 1960, NY 30 extended north over the former NY 10 alignment. A further change came circa 1961, when a new highway along Great Sacandaga Lake’s western shore bypassed Northville. Before that move, the route passed through Northville on Bridge, Main and Reed streets, then followed the eastern lakeshore toward Hope.",
+    "Southbound from Malone, pass Meacham Lake and Paul Smiths before continuing to Tupper Lake, Long Lake and Blue Mountain Lake. NY 30 crosses a narrow section of Long Lake, then shares NY 28N to Blue Mountain Lake and NY 28 toward Indian Lake. Beyond Speculator and Wells, continue south toward Mayfield, then follow NY 30A through Gloversville and Johnstown to Fonda."
   ],
   "moments": [
     {
       "title": "Paul Smiths",
       "kind": "town",
-      "scene": "river",
-      "text": "A hamlet on Lower St. Regis Lake named for Paul Smith's hotel of 1859, one of the first wilderness resorts, with a college built where it burned in 1930.",
+      "scene": "forest",
+      "text": "A college occupies the site of the resort that gave Paul Smiths its name. Apollos “Paul” Smith founded the Saint Regis House in 1859, one of the Adirondacks’ first wilderness resorts. The hotel burned in 1930; the college built on its site was funded by the estate of Smith’s son Phelps, who died in 1937. The hamlet lies between Lower St. Regis Lake and Osgood Pond, and its census-designated boundaries correspond to the college campus. Route 30 passes here on its way between Malone and Tupper Lake. Here, NY 86 branches southeast toward the village of Saranac Lake.",
       "at": [
         -74.25194,
         44.43611
@@ -22,14 +23,15 @@
     {
       "title": "Blue Mountain Lake",
       "kind": "roadside",
-      "scene": "river",
-      "text": "Just east of the hamlet on Route 30, a museum of Adirondack history stands on the site of the 1876 Blue Mountain House, begun to save an abandoned steam locomotive."
+      "scene": "forest",
+      "text": "An abandoned steam locomotive and two cars helped start the museum at Blue Mountain Lake. Harold K. Hochschild began the preservation effort in 1948; in 1953, the historic Blue Mountain House property was purchased for the museum. Demolition, construction and collecting followed before the museum opened in 1957. Renamed Adirondack Experience in 2017, it preserves regional history through objects including guideboats, a Pullman car and a one-room schoolhouse. Its collection also includes the Log Hotel, built in 1876 and original to the site. The collection also preserves the complete cabin of author and ecologist Anne LaBastille."
     },
     {
       "title": "Speculator",
       "kind": "town",
       "scene": "town",
-      "text": "Once Newton's Corners, the village at the northeast end of Lake Pleasant took its present name in 1896 from the mountain across the water.",
+      "text": "Speculator took its name from the mountain across Lake Pleasant in 1896. Earlier it was Newton’s Corners, named after the post office secured by Joel Newton when he built a store and hotel in 1864. That building burned in 1870; Henry Dunning built another hotel on the site in 1882. The village incorporated in 1925, distinct from the earlier change of name. At the center, Routes 8 and 30 meet at the intersection locally called the Four Corners. Speculator Mountain remains visible from most of the village. The village occupies the northeastern end of Lake Pleasant.",
+      "notice": "Speculator Mountain is visible from most of the village.",
       "at": [
         -74.36306,
         43.52694
@@ -38,32 +40,32 @@
   ],
   "sources": [
     {
-      "label": "NYSDOT, Adirondack Trail",
-      "url": "https://www.dot.ny.gov/display/programs/scenic-byways/adirondack-trail"
-    },
-    {
-      "label": "Adirondack Regional Tourism Council, Adirondack North Country Scenic Byways guide, page 5",
-      "url": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf#page=5"
-    },
-    {
-      "label": "Wikipedia, New York State Route 30",
-      "url": "https://en.wikipedia.org/wiki/New_York_State_Route_30"
+      "label": "Adirondack Regional Tourism Council, Adirondack North Country Scenic Byways",
+      "url": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
     },
     {
       "label": "Wikipedia, Paul Smiths, New York",
-      "url": "https://en.wikipedia.org/wiki/Paul_Smiths,_New_York"
-    },
-    {
-      "label": "Wikipedia, Blue Mountain Lake (hamlet), New York",
-      "url": "https://en.wikipedia.org/wiki/Blue_Mountain_Lake_(hamlet),_New_York"
+      "url": "https://en.wikipedia.org/wiki/Paul_Smiths%2C_New_York"
     },
     {
       "label": "Wikipedia, Adirondack Experience",
       "url": "https://en.wikipedia.org/wiki/Adirondack_Experience"
     },
     {
+      "label": "New York State Department of Transportation, Adirondack Trail",
+      "url": "https://www.dot.ny.gov/display/programs/scenic-byways/adirondack-trail"
+    },
+    {
+      "label": "Wikipedia, New York State Route 30",
+      "url": "https://en.wikipedia.org/wiki/New_York_State_Route_30"
+    },
+    {
+      "label": "Wikipedia, Long Lake (Hamilton County, New York)",
+      "url": "https://en.wikipedia.org/wiki/Long_Lake_%28Hamilton_County%2C_New_York%29"
+    },
+    {
       "label": "Wikipedia, Speculator, New York",
-      "url": "https://en.wikipedia.org/wiki/Speculator,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Speculator%2C_New_York"
     }
   ],
   "reviewed": false

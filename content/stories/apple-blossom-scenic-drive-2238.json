@@ -1,30 +1,35 @@
 {
   "id": "apple-blossom-scenic-drive-2238",
-  "tagline": "Up onto the bluff tops, where the orchards are.",
+  "tagline": "Orchards and rolling farmland above the Mississippi River valley",
   "motifs": [
     "orchard",
     "river-bluffs"
   ],
   "intro": [
-    "From La Crescent, County Highway 29 heads up onto the bluff tops and runs north through rolling farmland high above the Mississippi valley, until it comes back down to Highway 61, the Great River Road, which meets it at both ends. Orchards along the way sell apples, cider and pumpkins.",
-    "The apples began in La Crescent with John S. Harris, who planted the area's first trees in 1857 in spite of the belief, held by 99 people out of 100, that apples could not grow in Minnesota. He tried hundreds of varieties until he had trees hardy enough for the winters. Half of them, he said, were total failures."
+    "Apple Blossom Drive follows county roads through rolling farmland on the bluffs high above the Mississippi River. Explore Minnesota presents the scenic byway as a drive of river-valley overlooks, orchards, bluffs and farms, with Highway 61 connecting at both ends. Visit Bluff Country identifies County Highway 29 as its route and La Crescent, Dakota and Nodine as access towns. The tourism listing also points to apples, cider and pumpkins available along the route.",
+    "The orchard landscape has roots in John S. Harris’s experiments at La Crescent. He planted the area’s first apple trees in 1857, testing varieties until he found trees that could withstand Minnesota winters. He planted thousands of trees and hundreds of varieties; he called half of them total failures. Harris became a founding member of the Minnesota State Horticultural Society, and his planting helped establish the city’s orchard identity.",
+    "For a southbound journey, begin at the northern Highway 61 connection and include Great River Bluffs State Park, where short paths reach overlooks of the river valley. Dakota offers another connection to the drive, and Nodine lies on the Apple Blossom Scenic Drive near the park. Continue toward La Crescent through the byway’s farmland and orchards, returning to Highway 61 at the other end."
   ],
+  "notice": "The drive crosses rolling farmland above the Mississippi River valley.",
   "moments": [
     {
-      "title": "La Crescent",
-      "kind": "town",
+      "title": "Great River Bluffs State Park",
+      "kind": "short walk",
       "scene": "river",
-      "text": "One of its founders, Peter Cameron, set out to dig a canal turning the Mississippi toward his town and away from La Crosse, and died ten weeks before it was due to be finished.",
+      "text": "Bluffs rise 500 feet above the Mississippi here, but establishing a park with river views proved difficult. The first plan, authorized in 1963, called for a narrow strip between La Crescent and Dresbach. Landowners would not sell, and none of that land was acquired. A transfer of state forest land farther north in 1971 gave the park a different home; it opened in 1976. Short trails reach river viewpoints and overlooks of steep grasslands known as goat prairies. Steep terrain and fragile habitats limited development, leaving the park’s roads and trails winding along fairly level ridgetops.",
       "at": [
-        -91.30444,
-        43.83
+        -91.39944,
+        43.94639
+      ],
+      "motifs": [
+        "river-bluffs"
       ]
     },
     {
       "title": "Dakota",
       "kind": "town",
       "scene": "river",
-      "text": "Laid out in 1855 by Nathan Brown, who ran a ferry across to Wisconsin, the town was once the center of berry growing and grows apples now.",
+      "text": "Dakota Creek meets the Mississippi at Dakota, a town with both ferry and fruit-growing history. The town was laid out in 1855 and developed in 1859 by Nathan Brown, who operated a stockyard and a ferry to Wisconsin. Berry growing once centered here; apple growing became the main industry. County Road 12, part of the Apple Blossom Scenic Drive, is among the routes serving the town.",
       "at": [
         -91.36056,
         43.91056
@@ -34,22 +39,19 @@
       ]
     },
     {
-      "title": "Great River Bluffs State Park",
-      "kind": "short walk",
+      "title": "La Crescent",
+      "kind": "town",
       "scene": "river",
-      "text": "Short paths lead out to overlooks from bluffs 500 feet above the river, and to goat prairies, grass on slopes so steep it seems only goats could graze them.",
+      "text": "Peter Cameron tried to bring the Mississippi closer to La Crescent by digging a canal that would bypass La Crosse across the river. He and Emma Cameron had founded the town in 1851 under the name Camerons. Peter died ten weeks before the canal’s scheduled completion in 1857, and the work was never finished. The town’s later name came from the crescent-shaped bend of the Mississippi. The Great River Road passes through La Crescent on US 61 and a short section of Minnesota 16. The unfinished canal remains visible in aerial photographs of the city, a trace of Cameron’s attempt to alter the river’s course.",
       "at": [
-        -91.39944,
-        43.94639
-      ],
-      "motifs": [
-        "river-bluffs"
+        -91.30444,
+        43.83
       ]
     }
   ],
   "sources": [
     {
-      "label": "Explore Minnesota, Apple Blossom Drive Scenic Byway (Wayback Machine snapshot)",
+      "label": "Explore Minnesota, Apple Blossom Drive Scenic Byway (archived page)",
       "url": "https://web.archive.org/web/20260207102358/https://www.exploreminnesota.com/profile/apple-blossom-drive-scenic-byway/2330"
     },
     {
@@ -58,15 +60,19 @@
     },
     {
       "label": "Wikipedia, La Crescent, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/La_Crescent,_Minnesota"
+      "url": "https://en.wikipedia.org/wiki/La_Crescent%2C_Minnesota"
     },
     {
-      "label": "Wikipedia, Dakota, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/Dakota,_Minnesota"
+      "label": "Wikipedia, Nodine, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Nodine%2C_Minnesota"
     },
     {
       "label": "Wikipedia, Great River Bluffs State Park",
       "url": "https://en.wikipedia.org/wiki/Great_River_Bluffs_State_Park"
+    },
+    {
+      "label": "Wikipedia, Dakota, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Dakota%2C_Minnesota"
     }
   ],
   "reviewed": false

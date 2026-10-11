@@ -1,16 +1,27 @@
 {
   "id": "camden-expedition-scenic-byway-990501",
-  "tagline": "A long loop following a failed campaign.",
+  "tagline": "A modern highway loop links the battlefields of a failed Union campaign.",
   "intro": [
-    "From Little Rock, the byway runs southwest toward Washington, then turns back through Prescott and east to Camden. The return goes by Fordyce and the Saline River country near Leola and Sheridan. It traces communities caught in a Union campaign that never reached its intended meeting at Shreveport.",
-    "At Poison Springs, Confederate and Choctaw troops overcame a Union supply train, and the battle hastened the expedition's failure. At Jenkins' Ferry on the Saline, the fighting let the Federal army finish its retreat from Camden to Little Rock."
+    "The Camden Expedition Scenic Byway makes a loop from Little Rock, combining Interstate 30 with highways through Washington, Camden and the Saline River country at Jenkins’ Ferry. Its battlefield stops include wooded ground at Poison Springs and a bend of the Saline at Jenkins’ Ferry. Designated in 2021, it promotes heritage and Civil War tourism in communities affected by the expedition, the Arkansas Department of Transportation explains. Arkansas includes Historic Washington and the Poison Springs, Marks’ Mills and Jenkins’ Ferry battlefield parks in the route, linking the communities and battle sites.",
+    "In March 1864, Major General Frederick Steele left Little Rock to join Union forces at Shreveport. His army occupied Camden but found no supplies waiting. A foraging party lost its corn wagons at Poison Spring; another wagon-train defeat at Marks’ Mills helped force the retreat. Fighting at Jenkins’ Ferry enabled Steele’s men to cross the Saline and return to Little Rock.",
+    "Drive the modern loop southwest from Little Rock to Washington, then back to Prescott and east on Highway 24 to Camden. From Camden, Highway 79 leads north to Fordyce. The route continues northwest toward Tulip, then northeast through Leola and Sheridan, before returning through Benton to Little Rock."
   ],
   "moments": [
+    {
+      "title": "White Oak Lake State Park",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Submerged trees remain in White Oak Lake because the reservoir was created in woodland. They provide cover for bass, crappie and bream. Completed in 1961, the lake lies off Highways 387 and 24, southeast of Prescott and northwest of Camden. Tall pines surround the reservoir. The lake was created by the Arkansas Game and Fish Commission; the state park includes hiking and mountain biking trails. The park’s Beech Ridge and Silver Maples trails pass through its West Gulf Coastal Plain forest setting, and Poison Springs Battleground is nearby.",
+      "at": [
+        -93.11441667,
+        33.6895
+      ]
+    },
     {
       "title": "Poison Springs Battleground",
       "kind": "short walk",
       "scene": "forest",
-      "text": "Highway 76 follows the old supply-train road at a battlefield remembered for the killing of Black Union soldiers after their defeat.",
+      "text": "Highway 76 follows the historic road where Confederate forces blocked and attacked a Union supply train on April 18, 1864. Most men in the 1st Kansas Colored had formerly been enslaved in Arkansas and Missouri. The Confederates defeated the foraging party and captured its wagons. They massacred Black soldiers of the 1st Kansas Colored Infantry Regiment during and after the fighting, killing wounded men and men trying to surrender. The park preserves part of the battlefield, where formerly cultivated land has reverted to forest. Interpretive signs stand north of the highway.",
       "at": [
         -93.0044,
         33.6389
@@ -20,7 +31,8 @@
       "title": "Jenkins' Ferry Battleground",
       "kind": "short walk",
       "scene": "river",
-      "text": "Beside a bend in the Saline River, the park preserves part of the old road and the eastern end of the ferry crossing.",
+      "text": "Part of the old Little Rock and Camden road and the eastern end of Jenkins’ Ferry crossing survive within the park at a bend in the Saline River. On April 30, 1864, Union troops repulsed repeated Confederate attacks while Steele’s army crossed the river on a pontoon bridge. After crossing, the army destroyed the bridge to prevent pursuit. The crossing enabled a retreat, not the planned advance to Shreveport. The site was donated to Arkansas in 1961. Historic markers explain the battle in the park, west of Highway 46 between Leola and Sheridan.",
+      "notice": "The park includes part of the old Little Rock and Camden road and the eastern end of the ferry crossing.",
       "at": [
         -92.54738889,
         34.21316667
@@ -45,8 +57,16 @@
       "url": "https://en.wikipedia.org/wiki/Jenkins%27_Ferry_Battleground_State_Park"
     },
     {
+      "label": "Wikipedia, Battle of Poison Spring",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Poison_Spring"
+    },
+    {
       "label": "Wikipedia, Battle of Jenkins' Ferry",
       "url": "https://en.wikipedia.org/wiki/Battle_of_Jenkins%27_Ferry"
+    },
+    {
+      "label": "Wikipedia, White Oak Lake State Park",
+      "url": "https://en.wikipedia.org/wiki/White_Oak_Lake_State_Park"
     }
   ],
   "reviewed": false

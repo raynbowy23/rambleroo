@@ -1,20 +1,21 @@
 {
   "id": "cape-to-cape-992401",
-  "tagline": "From the Pocomoke cypress to a barrier island of wild horses.",
+  "tagline": "Old post roads connect river towns with Atlantic beaches and Assateague Island.",
   "motifs": [
     "sandbars",
     "steeple-town"
   ],
   "intro": [
-    "Up from the Virginia line through Stockton, the byway follows the Pocomoke country north to Snow Hill, crosses to Berlin and comes out on the back bays at Ocean City. Side roads run off to bayfront landings at Public Landing and George's Island Landing. Maryland holds 79 miles of a longer route that runs from Cape May in New Jersey to Cape Henry in Virginia.",
-    "Offshore lies Assateague, 37 miles of barrier island. It was joined to Fenwick Island until the hurricane of 1933 cut an inlet south of Ocean City, and the jetties built afterward kept it cut."
+    "Cape to Cape links Atlantic beaches and back bays with the inland towns of Berlin and Snow Hill. Maryland’s tourism office describes a 79-mile scenic drive on local and state roads, with five to seven hours allowed. Its highlights range from Berlin’s red-brick buildings to Assateague’s undeveloped barrier shore and free-roaming horses. Ocean City adds ten miles of beach and a wooden Victorian boardwalk; Snow Hill’s municipal parks provide landings for boats on the inland part of the journey.",
+    "The byway was originally the eastern part of the Blue Crab Scenic Byway. Parts of its course are much older: modern MD 12 generally follows the post road from Snow Hill south to Virginia. At Stockton, that route met a road linking a Pocomoke River landing with Chincoteague Bay, where small seagoing vessels could anchor.",
+    "Travel north from the Virginia line through Stockton to Snow Hill, at the head of navigation on the Pocomoke. Continue to Berlin, then turn east on MD 376 toward the MD 611 branch for Assateague Island. The Verrazano Bridge carries the island approach across Sinepuxent Bay. Back on the mainland, the route continues toward Ocean City via US 50, ending among the resort’s beaches and boardwalk."
   ],
   "moments": [
     {
       "title": "Snow Hill",
       "kind": "town",
       "scene": "river",
-      "text": "Founded in 1686 and possibly named for a London street, the county seat stands 16 feet above sea level at the head of navigation on the Pocomoke, where canoes go out among bald cypress.",
+      "text": "Snow Hill’s position at the head of navigation on the Pocomoke River made it a port and county seat. Fires in 1844 and 1893 destroyed the center, including successive courthouses. Some eighteenth-century buildings survived both, but rapid rebuilding after the second fire left many commercial buildings from the late nineteenth and early twentieth centuries. It became a port of entry in 1694 and the Worcester County seat in 1742. Municipal parks now provide boat landings and dockage. The Pocomoke broadens into a slow, meandering river at Porter’s Crossing before flowing past the town.",
       "at": [
         -75.39083333,
         38.175
@@ -24,7 +25,8 @@
       "title": "Berlin",
       "kind": "town",
       "scene": "town",
-      "text": "A main street of old brick that was dressed up as Hale, Maryland, for the 1999 film Runaway Bride, with the Hotel Atlantic as one of the settings.",
+      "text": "Main Street follows a former post road to Philadelphia, at the crossroads where Berlin developed in the early nineteenth century. A fire in 1895 destroyed much of the commercial center; rebuilding brought Queen Anne, Italianate and Second Empire details to its Victorian buildings. Rail service after the Civil War made Berlin a commercial center, while Ocean City’s growth later brought travelers through as a rest stop. Those streets later took on another identity for Runaway Bride in 1999, when Main Street and nearby areas became the fictional Hale, Maryland. The historic downtown has undergone revitalization since the late 1980s.",
+      "notice": "Main Street’s Victorian buildings include Queen Anne, Italianate and Second Empire details.",
       "at": [
         -75.21667,
         38.33333
@@ -37,7 +39,7 @@
       "title": "Assateague Island",
       "kind": "separate excursion",
       "scene": "coast",
-      "text": "Feral horses roam the dunes in bands of two to twelve, called horses in Maryland and ponies in Virginia, with a fence at the state line to keep the two herds apart.",
+      "text": "Assateague’s barrier shore once carried plans for development, with a paved road called Baltimore Boulevard. The Ash Wednesday Storm of 1962 destroyed or buried most of that road and wrecked many island structures. Maryland then generally supported a national seashore, which Congress established in 1965. Feral horses live on the island, with fencing at the state boundary separating the Maryland and Virginia herds. Maryland’s herd is managed by the National Park Service, while Virginia’s ponies belong to the Chincoteague Volunteer Fire Company. The two sides also have separate road approaches; no road runs the island’s full length.",
       "at": [
         -75.30475556,
         37.97640833
@@ -47,33 +49,38 @@
       ]
     }
   ],
-  "practical": [
-    "Visit Maryland asks visitors to stay 40 feet from the wild ponies and never feed them."
-  ],
   "sources": [
     {
-      "label": "Visit Maryland, Cape to Cape (Wayback Machine snapshot, September 2025)",
-      "url": "https://web.archive.org/web/20250906135250/https://www.visitmaryland.org/scenic-byways/cape-to-cape"
+      "label": "Wikipedia, Stockton, Maryland",
+      "url": "https://en.wikipedia.org/wiki/Stockton%2C_Maryland"
     },
     {
-      "label": "Visit Maryland, Cape to Cape (Wayback Machine snapshot, August 2024)",
+      "label": "Wikipedia, List of Maryland Scenic Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Maryland_Scenic_Byways"
+    },
+    {
+      "label": "Maryland Office of Tourism Development, Cape to Cape (archived August 2024)",
       "url": "https://web.archive.org/web/20240805163728/https://www.visitmaryland.org/scenic-byways/cape-to-cape"
     },
     {
-      "label": "Wikipedia, Assateague Island",
-      "url": "https://en.wikipedia.org/wiki/Assateague_Island"
-    },
-    {
       "label": "Wikipedia, Snow Hill, Maryland",
-      "url": "https://en.wikipedia.org/wiki/Snow_Hill,_Maryland"
+      "url": "https://en.wikipedia.org/wiki/Snow_Hill%2C_Maryland"
     },
     {
-      "label": "Wikipedia, Berlin, Maryland",
-      "url": "https://en.wikipedia.org/wiki/Berlin,_Maryland"
+      "label": "Wikipedia, Verrazano Bridge (Maryland)",
+      "url": "https://en.wikipedia.org/wiki/Verrazano_Bridge_%28Maryland%29"
     },
     {
       "label": "Wikipedia, Pocomoke River",
       "url": "https://en.wikipedia.org/wiki/Pocomoke_River"
+    },
+    {
+      "label": "Wikipedia, Berlin, Maryland",
+      "url": "https://en.wikipedia.org/wiki/Berlin%2C_Maryland"
+    },
+    {
+      "label": "Wikipedia, Assateague Island",
+      "url": "https://en.wikipedia.org/wiki/Assateague_Island"
     }
   ],
   "reviewed": false

@@ -1,16 +1,18 @@
 {
   "id": "deer-creek-road-state-route-158-71119",
-  "tagline": "A mountain road with a front-row seat on the Atomic Era.",
+  "tagline": "A forest road links mountain canyons with a Mojave Desert overlook",
   "intro": [
-    "Deer Creek Road starts at Kyle Canyon Road, east of Mount Charleston, and heads north for 8.8 miles to Lee Canyon Road, first along the edge of the Humboldt-Toiyabe National Forest and then into it. All of it, State Route 158, is a Nevada Scenic Byway.",
-    "Hilltop Campground sits high in the forest with a view over the valley and takes the occasional high wind for its trouble. About halfway along, at 8,300 feet, a seasonal stream runs beside the wooded path at the Deer Creek picnic area."
+    "Deer Creek Road connects Kyle Canyon Road and Lee Canyon Road through the Spring Mountains, following the Humboldt-Toiyabe National Forest boundary before entering the forest. The Nevada Scenic Byway encompasses all 8.8 miles of State Route 158. Along it, the Forest Service describes wooded paths, canyon caves and views across the Mojave Desert.",
+    "At Mahogany Grove, campground remnants date to the Civilian Conservation Corps’ work in the 1930s. A short interpretive trail explains camping in the Spring Mountains. Farther north, Desert View Overlook’s panels address the Atomic Era, when the overlook served as a vantage point for bomb detonations.",
+    "Start at Kyle Canyon Road east of Mount Charleston and head north toward Robber’s Roost and Mahogany Grove. About halfway along, Deer Creek Picnic Area has a wooded path beside a seasonal stream. Desert View Overlook comes before the junction with Lee Canyon Road, where the byway ends."
   ],
   "moments": [
     {
       "title": "Robber's Roost",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "A short loop climbs a canyon to a couple of caves where, local folklore says, bandits hid goods and livestock taken from Mormon Trail travelers. Nobody knows if it is true.",
+      "text": "The short loop at Robber’s Roost climbs a canyon to two caves, then passes through pinion pines and mountain mahogany on its return to the main trail. The trailhead sits on the opposite side of Deer Creek Road from its parking area. The Forest Service describes year-round use as dependent on weather and conditions.",
+      "notice": "The loop climbs to caves, then winds through pinion pines and mountain mahogany.",
       "at": [
         -115.61,
         36.304
@@ -20,7 +22,8 @@
       "title": "Mahogany Grove",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Beside the remains of a 1930s Civilian Conservation Corps campground, a short trail with signs tells the story of camping in the Spring Mountains.",
+      "text": "Mahogany Grove’s updated group campground sits near the remains of a Civilian Conservation Corps campground developed in the 1930s. A short trail with interpretive signs tells the history of camping in the Spring Mountains. The present campground offers six group sites for tents.",
+      "notice": "Interpretive signs along a short trail explain camping in the Spring Mountains.",
       "at": [
         -115.6182,
         36.3136
@@ -30,15 +33,13 @@
       "title": "Desert View Overlook",
       "kind": "short walk",
       "scene": "desert",
-      "text": "A paved path winds down to platforms looking out over the Mojave Desert, a vantage point in the Atomic Era for watching bomb detonations.",
+      "text": "A paved walkway descends through gentle switchbacks to viewing platforms over the Mojave Desert. Benches and educational panels stand near trees at the viewpoints. The overlook served as a place to watch bomb detonations during the Atomic Era, a history addressed by many of the panels. Other panels explain the surrounding mountains and dry lake beds through their plants, animals and geology. The out-and-back trail covers 0.4 mile for the round trip. The path heads north from the trailhead, gradually winding downhill between its sequence of viewing platforms.",
+      "notice": "The viewing platforms face the Mojave Desert; panels interpret the Atomic Era and the surrounding landscape.",
       "at": [
         -115.6284,
         36.3375
       ]
     }
-  ],
-  "practical": [
-    "The Desert View Overlook parking lot stays open in winter, but its trail is not cleared of snow."
   ],
   "sources": [
     {
@@ -46,24 +47,20 @@
       "url": "https://en.wikipedia.org/wiki/Nevada_State_Route_158"
     },
     {
-      "label": "USDA Forest Service, Robber's Roost Trailhead",
-      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/robbers-roost-trailhead"
-    },
-    {
-      "label": "USDA Forest Service, Hilltop Campground",
-      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/hilltop-campground"
+      "label": "USDA Forest Service, Desert View Outlook",
+      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/desert-view-outlook"
     },
     {
       "label": "USDA Forest Service, Deer Creek Picnic Site",
       "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/deer-creek-picnic-site"
     },
     {
-      "label": "USDA Forest Service, Mahogany Grove Group Campground",
-      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/mahogany-grove-group-campground"
+      "label": "USDA Forest Service, Robber's Roost Trailhead",
+      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/robbers-roost-trailhead"
     },
     {
-      "label": "USDA Forest Service, Desert View Overlook",
-      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/desert-view-outlook"
+      "label": "USDA Forest Service, Mahogany Grove Group Campground",
+      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/mahogany-grove-group-campground"
     }
   ],
   "reviewed": false

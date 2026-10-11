@@ -1,29 +1,30 @@
 {
   "id": "alaska-railroad-12399",
-  "tagline": "The train still stops for a wave of a white cloth.",
+  "tagline": "Steel bridges and flag stops connect Alaska’s coast with the Interior",
   "motifs": [
     "arch-bridge"
   ],
   "intro": [
-    "The main line starts at tidewater in Seward and runs about 470 miles north to Fairbanks. Within 48 miles of Seward the Bartlett and Spencer glaciers come into view, and a short spur tunnels through the Chugach Mountains to Whittier. Then it follows Turnagain Arm to Anchorage, which began in 1914 as the railroad's construction camp on Ship Creek and is now the state's largest city.",
-    "It is one of the last lines in the country where the train stops wherever a passenger wants on or off. Between Talkeetna and the Hurricane area there are no roads at all, and on the Hurricane Turn a rider boards by waving a large white flag or cloth beside the track."
+    "The Alaska Railroad carries this scenic journey on rails between Fairbanks in the Interior and tidewater at Seward, about 470 miles apart along the main line. Alaska’s transportation department includes the railroad in its scenic-byway program, highlighting glaciers, Turnagain Arm, Denali National Park and Hurricane Gulch. Between Anchorage and Fairbanks, the tracks wind through mountains and valleys.",
+    "The Alaska Central Railroad began building north from Seward in 1903. In 1914, the federal government bought its successor, the Alaska Northern Railroad, and extended the line northward. The government also acquired the Tanana Valley Railroad in Fairbanks, principally for its terminal facilities. The Mears Memorial Bridge across the Tanana River supplied the final link in 1923. The line remained federally owned until January 6, 1985, when Alaska bought it from the United States. The state immediately invested in repairs and improvements after years of deferred maintenance.",
+    "Traveling south from Fairbanks, the route reaches Nenana, Denali National Park and Hurricane Gulch before Talkeetna. The Hurricane Turn serves the roadless area between Talkeetna and Hurricane, where passengers flag the train with a large white flag or cloth. Beyond Anchorage, the line follows Turnagain Arm, then crosses mountains on the way to Seward. A separate spur tunnels through the Chugach Mountains to Whittier."
   ],
   "moments": [
     {
-      "title": "Talkeetna",
+      "title": "Nenana",
       "kind": "town",
-      "scene": "town",
-      "text": "A town that began in 1916 as a railroad district headquarters, where three rivers meet, and now the base for expeditions to Denali.",
+      "scene": "river",
+      "text": "The final connection across the Tanana River preceded the golden-spike ceremony. The 700-foot Mears Memorial Bridge entered service in February 1923; President Warren G. Harding drove the ceremonial last spike at its north end on July 15. Nenana developed as a Lower Tanana community where the Nenana River meets the Tanana. The railroad later made it a transfer point in the 1925 serum run to Nome: diphtheria antitoxin arrived by rail from Anchorage and continued by dog sled. The bridge was named for Colonel Frederick Mears, chairman and chief engineer of the Alaska Engineering Commission, which built and originally operated the railroad.",
       "at": [
-        -150.10944,
-        62.32389
+        -149.09056,
+        64.55806
       ]
     },
     {
       "title": "Hurricane Gulch Bridge",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "mountain",
-      "text": "The train crosses a 918-foot steel arch at Milepost 284, 296 feet above Hurricane Creek, built from both sides at once off an aerial tram strung across the gulch in 1921.",
+      "text": "An aerial tram helped put this steel arch across Hurricane Gulch. The American Bridge Company began work early in 1921, erecting steel from both sides of the gulch after stringing the tram across it. The first steel went up in June, and the first passenger train crossed on August 15 of the same year. The bridge measures 918 feet long and carries the railroad 296 feet above Hurricane Creek at milepost 284.2 from Seward. A different bridge with the same name carries a road upstream, slightly east of the rail crossing.",
       "at": [
         -149.61667,
         63.015
@@ -33,43 +34,40 @@
       ]
     },
     {
-      "title": "Nenana",
+      "title": "Talkeetna",
       "kind": "town",
-      "scene": "river",
-      "text": "At the north end of the 700-foot bridge over the Tanana, Harding, the first president to visit Alaska, drove the golden spike on July 15, 1923, and died 18 days later.",
+      "scene": "town",
+      "text": "Three rivers meet at Talkeetna: the Susitna, Chulitna and Talkeetna. The railroad chose the site for a district headquarters in 1916, and cabins and businesses followed. Residents asked the government to survey their house lots in 1917. When the railroad auctioned 80 lots in 1919, 41 already had permanent structures. The downtown historic district includes buildings from the early 1900s. Talkeetna now serves as a base for expeditions to Denali, with the park’s Walter Harper Talkeetna Ranger Station in town. Its depot serves the Denali Star, Aurora Winter Train and Hurricane Turn, keeping the railroad headquarters town connected to the line that prompted its development.",
       "at": [
-        -149.09056,
-        64.55806
+        -150.10944,
+        62.32389
       ]
     }
   ],
-  "practical": [
-    "Passenger trains run year-round between Anchorage and Fairbanks. Service to Seward, Whittier, Talkeetna and Denali is offered in summer."
-  ],
   "sources": [
     {
-      "label": "Alaska DOT&PF, Scenic Byways: Alaska Railroad",
+      "label": "Alaska DOT&PF, Alaska Railroad Scenic Byway",
       "url": "https://dot.alaska.gov/dmio/scenic/byways-akrr.shtml"
-    },
-    {
-      "label": "Wikipedia, Alaska Railroad",
-      "url": "https://en.wikipedia.org/wiki/Alaska_Railroad"
     },
     {
       "label": "Wikipedia, Hurricane Gulch Bridge",
       "url": "https://en.wikipedia.org/wiki/Hurricane_Gulch_Bridge"
     },
     {
+      "label": "Wikipedia, Alaska Railroad",
+      "url": "https://en.wikipedia.org/wiki/Alaska_Railroad"
+    },
+    {
       "label": "Wikipedia, Mears Memorial Bridge",
       "url": "https://en.wikipedia.org/wiki/Mears_Memorial_Bridge"
     },
     {
-      "label": "Wikipedia, Talkeetna, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Talkeetna,_Alaska"
+      "label": "Wikipedia, Nenana, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Nenana%2C_Alaska"
     },
     {
-      "label": "Wikipedia, Nenana, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Nenana,_Alaska"
+      "label": "Wikipedia, Talkeetna, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Talkeetna%2C_Alaska"
     }
   ],
   "reviewed": false

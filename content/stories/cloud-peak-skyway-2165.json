@@ -1,41 +1,58 @@
 {
   "id": "cloud-peak-skyway-2165",
-  "tagline": "A high pass and limestone walls on the way down.",
+  "tagline": "Limestone canyon turns lead toward an exposed pass in the Bighorns",
   "motifs": [
     "switchbacks"
   ],
   "intro": [
-    "From the Buffalo side, US 16 crosses the Bighorn National Forest and crests at Powder River Pass, 9,666 feet above sea level. The pavement has two lanes. Across the range, switchbacks and hairpins work their way between the limestone walls of Ten Sleep Canyon.",
-    "The route gives a view of Cloud Peak, 13,167 feet high. Down in the canyon, rock climbers have furnished the walls with names of their own, including the less reassuring Wall of Denial."
+    "Cloud Peak Skyway crosses the southern Bighorn National Forest on a paved, two-lane section of US 16. The designated 47-mile scenic byway extends between the forest boundaries, reached from Ten Sleep in the west or Buffalo in the east. Wyoming’s tourism office highlights the view of Cloud Peak and the switchbacks and hairpins between Ten Sleep Canyon’s limestone walls. It advises at least one hour for the drive. Occasional pullouts interrupt the climb toward Powder River Pass. This crossing makes a more gradual ascent of the mountains than the routes to the north.",
+    "The forest was established in 1897 by President Grover Cleveland. In 1942, the Civilian Conservation Corps built High Park Lookout to help rangers watch for forest fires and communicate. The lookout served until 1972, when crewed aircraft replaced it.",
+    "Coming from Ten Sleep, enter the designated route at the forest boundary slightly more than seven miles east of town. The canyon climb leads toward Meadowlark Lake, then Powder River Pass at 9,666 feet. At the pass, open ground rises above timberline; the descent leads into willow bogs and wet meadows. Beyond the pass, pullouts and campgrounds accompany the descent eastward. Hospital Hill marks the eastern forest boundary; Buffalo lies about ten miles below the byway’s end."
   ],
+  "notice": "At Powder River Pass, compare the open ground with trees at the same elevation on Hesse Mountain to the south.",
   "moments": [
-    {
-      "title": "Powder River Pass",
-      "kind": "roadside",
-      "scene": "mountain",
-      "text": "Also known as Muddy Pass, the 9,666-foot crest is the high point of US 16, with Buffalo on one side and Ten Sleep on the other.",
-      "at": [
-        -107.07944444,
-        44.14972222
-      ]
-    },
     {
       "title": "Ten Sleep Canyon",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Switchbacks and hairpins carry the road between limestone walls, some of them named Home Alone and Plea Bargain by rock climbers.",
+      "text": "Ten Sleep Canyon makes a winding western entrance to the Skyway, with switchbacks and hairpins between limestone walls. Ponderosa pine grows with Douglas fir, cottonwood and aspen along this forested approach. Two adjacent scenic pullouts carry interpretive signs: one describes the large bighorn sheep herds that once lived here. The other explains a stone monument high on the canyon’s south wall, erected in 1889 for English nobleman Gilbert Leigh, who fell to his death while hunting sheep. Climbers have given individual rock faces their own names, including Home Alone, Plea Bargain and The Wall of Denial.",
       "motifs": [
         "switchbacks"
       ]
+    },
+    {
+      "title": "Meadowlark Lake",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Meadowlark Lake occupies a valley on the south side of the road, within the Meadowlark Recreation Area. A meadow of wildflowers surrounds the lake. The recreation area provides access to the Big Horn Ski Area and groomed Nordic ski trails at Willow Park. A boat ramp and fishing-area parking serve the lake.",
+      "at": [
+        -107.20861111,
+        44.19416667
+      ]
+    },
+    {
+      "title": "Powder River Pass",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Also known as Muddy Pass, this is the mountain crossing between Buffalo and Ten Sleep, traversed by the same numbered highway as the scenic byway. At 9,666 feet, Powder River Pass is the highest point on US 16. The pass is above timberline, yet trees grow at the same elevation on Hesse Mountain several miles south. Wind patterns and local soils, as well as elevation, influence where grass and trees grow. Winter snow stored in these peaks and valleys supplies spring and summer runoff to lakes, reservoirs, streams and rivers below.",
+      "at": [
+        -107.07944444,
+        44.14972222
+      ]
     }
-  ],
-  "practical": [
-    "Snow can fall in any month at these elevations, though it rarely affects travel in summer and early fall."
   ],
   "sources": [
     {
       "label": "Wyoming Office of Tourism, Cloud Peak Skyway Scenic Byway",
       "url": "https://travelwyoming.com/listing/cloud-peak-skyway-scenic-byway/292/"
+    },
+    {
+      "label": "Wyoming Department of Transportation, Exploring the Big Horn Mountain Country Scenic Byways",
+      "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Planning/Big%20Horn%20Scenic%20Byway.pdf"
+    },
+    {
+      "label": "Wikipedia, James T. Saban Lookout",
+      "url": "https://en.wikipedia.org/wiki/James_T._Saban_Lookout"
     },
     {
       "label": "Wikipedia, Powder River Pass",

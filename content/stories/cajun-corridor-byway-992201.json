@@ -1,16 +1,17 @@
 {
   "id": "cajun-corridor-byway-992201",
-  "tagline": "Across the rice country to the shrimp boats at Delcambre.",
+  "tagline": "Rice-growing country and a shrimping port connected by Highway 14.",
   "intro": [
-    "Highway 14 runs 34 miles across Vermilion Parish from Gueydan to Delcambre, over gently sloping land with allées of shade trees and cheniers, coastal ridges grown up in oak. The drained marshes are rice fields that double as crawfish ponds, and cattle graze near the marsh edge. Many people here speak French, as their ancestors did.",
-    "It was hunting country first. In the 1860s Jean Pierre Gueydan came out from Abbeville after deer, ducks and geese, then gave land to bring a Southern Pacific branch line in for the rice farmers. The first irrigation pump in Louisiana went in nearby, at Primeaux Landing."
+    "Highway 14 connects Gueydan, Kaplan and Abbeville, then reaches Delcambre on the Vermilion–Iberia parish boundary. At Gueydan, the land is nearly flat prairie; at Delcambre, Bayou Carlin passes through town and supports much of the local fishing industry.",
+    "Jean Pierre Gueydan donated land and right-of-way to attract a Southern Pacific branch line from Midland. An irrigation pump at nearby Primeaux Landing enabled thousands of acres to grow rice. Farther east, the Delcambre Canal was first dredged in 1906; it connects the shrimping town to the Gulf of Mexico.",
+    "Traveling east from Gueydan, Highway 14 reaches Kaplan before Abbeville, where the Vermilion River runs through downtown. Erath lies east of Abbeville on Highway 14, followed by Delcambre. There the canal runs from Lake Peigneur toward Vermilion Bay and crosses the Gulf Intracoastal Waterway."
   ],
   "moments": [
     {
       "title": "Kaplan",
       "kind": "town",
       "scene": "town",
-      "text": "Most of the first settlers were Acadian and spoke French, and on July 14, 1906, the young town held its first Bastille Day celebration.",
+      "text": "French was the main language of the growing settlement where Holy Rosary Catholic Church was established in 1896; most residents were Acadian. The town took the name of Abrom Kaplan, who bought the Jim Todd Plantation in 1901. Kaplan was established in 1902, and residents created its first school the following year. Its first Bastille Day celebration followed on July 14, 1906. The church’s establishment preceded both the town’s formal founding and its first school, which residents created in 1903. Highway 14 passes through Kaplan between Gueydan to the west and Abbeville to the east.",
       "at": [
         -92.27916667,
         30.00277778
@@ -20,7 +21,8 @@
       "title": "Abbeville",
       "kind": "town",
       "scene": "town",
-      "text": "Père Mégret named the town in 1844 for his birthplace in France, and the C.S. Steen mill here has made pure cane syrup for close to a hundred years.",
+      "text": "A statue of Père Mégret stands in Magdalen Square, among large oaks, a fountain and a gazebo. The missionary bought the land that became Abbeville in 1843 and converted Joseph LeBlanc and Isabelle Broussard's former home into a chapel. Mégret’s 1846 plan followed a French provincial village model, with Bayou Vermilion forming the western boundary. The present St. Mary Magdalen Church is a later building, a red-brick Gothic-style basilica with buff brick accents and projecting buttresses. The earlier church and its attached presbytery burned in 1907.",
+      "notice": "Magdalen Square has large oaks, a fountain, a gazebo and a statue of Père Mégret.",
       "at": [
         -92.11527778,
         29.975
@@ -30,7 +32,7 @@
       "title": "Delcambre",
       "kind": "town",
       "scene": "town",
-      "text": "A shrimping town on the Vermilion and Iberia parish line, where the shrimp boats and their nets are on view and the shrimp get a festival of their own.",
+      "text": "Bayou Carlin, also called the Delcambre Canal, passes through this fishing town on the Vermilion–Iberia parish boundary. First dredged in 1906, the canal connects Delcambre's shrimping industry to the Gulf of Mexico. In 1980, an oil rig pierced a salt mine beneath Lake Peigneur. The lake drained into the mine, and the canal reversed direction, carrying Gulf water into the lake until it refilled. The canal runs between Lake Peigneur and Vermilion Bay, crossing the Gulf Intracoastal Waterway along the way. Lake Peigneur lies north of town, at the head of the canal.",
       "at": [
         -91.99916667,
         29.9525
@@ -42,24 +44,32 @@
   ],
   "sources": [
     {
-      "label": "Louisiana Office of Tourism, Cajun Corridor Byway (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20250715033523/https://byways.explorelouisiana.com/byway/cajun-corridor-byway"
-    },
-    {
       "label": "Wikipedia, Gueydan, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Gueydan,_Louisiana"
+      "url": "https://en.wikipedia.org/wiki/Gueydan%2C_Louisiana"
     },
     {
       "label": "Wikipedia, Kaplan, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Kaplan,_Louisiana"
-    },
-    {
-      "label": "Wikipedia, Abbeville, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Abbeville,_Louisiana"
+      "url": "https://en.wikipedia.org/wiki/Kaplan%2C_Louisiana"
     },
     {
       "label": "Wikipedia, Delcambre, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Delcambre,_Louisiana"
+      "url": "https://en.wikipedia.org/wiki/Delcambre%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Delcambre Canal",
+      "url": "https://en.wikipedia.org/wiki/Delcambre_Canal"
+    },
+    {
+      "label": "Wikipedia, Abbeville, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Abbeville%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Erath, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Erath%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, St. Mary Magdalen Church (Abbeville)",
+      "url": "https://en.wikipedia.org/wiki/St._Mary_Magdalen_Church_%28Abbeville%29"
     }
   ],
   "reviewed": false
