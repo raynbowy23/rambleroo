@@ -1,3 +1,5 @@
+> Superseded on 2026-10-11 by STYLE.md (the owner's style guide) and CODEX_BRIEF.md: Codex writes and backs every claim with a verbatim source quote, verify.py checks the quotes, install_v2.py installs. Kept for the history of the first story pass.
+
 # Checking Rambleroo road stories
 
 You fact-check stories another agent wrote. Do not modify anything in the repository. Work in the directory your prompt names as S. The writer's brief is scripts/stories/STORY.md in the repository.

@@ -1,19 +1,21 @@
 {
   "id": "seward-highway-10390",
-  "tagline": "Along Turnagain Arm's forty-foot tides, then over the Kenai to Seward.",
+  "tagline": "From Turnagain Arm’s tidal shore through mountains to a railroad port",
   "motifs": [
     "harbor-village"
   ],
   "intro": [
-    "South out of Anchorage the highway comes down to Turnagain Arm and spends its first 50 miles between the Chugach Mountains and the water. The tides here can run to 40 feet, and the flood sometimes arrives as a bore, a single wave pushing up the arm. At low water the arm is a broad mud flat. Beluga whales travel it with the tides.",
-    "At the head of the arm the road turns into the Kenai Mountains, past Summit Lake and along Upper Trail Lake at Moose Pass, and comes down to Resurrection Bay. Until the highway was finished in 1951, Seward could be reached only by sea, rail or air."
+    "South of Anchorage, the Seward Highway follows the base of the Chugach Mountains and the shore of Turnagain Arm before turning into the mountains. Alaska’s transportation department lists 127 miles and three designations: USDA Forest Service Scenic Byway, Alaska Scenic Byway and All-American Road. The agency identifies scenic, natural, historical and recreational values as the reasons for that recognition. The Federal Highway Administration’s byway guide allows five hours for the drive.",
+    "Building the connection took decades. A road from Seward to Kenai Lake was finished in 1923, followed by the Moose Pass–Hope section in 1937. The Mile 18 bridge joined the Seward and Moose Pass sections in 1946; the full highway finally connected Seward to Anchorage in 1951. Paving followed in 1952. Then the 1964 earthquake lowered parts of the road below Turnagain Arm’s high-water mark. Crews raised and rebuilt the highway and bridges in 1964–66.",
+    "Follow the arm past Girdwood to Portage, then climb toward Turnagain Pass and continue past Summit Lake. At Tern Lake Junction, the Seward Highway changes from Alaska Route 1 to Route 9. It follows Upper Trail Lake through Moose Pass, then passes Kenai Lake and Primrose on the way to Seward and Resurrection Bay."
   ],
   "moments": [
     {
       "title": "Turnagain Arm",
       "kind": "roadside",
       "scene": "coast",
-      "text": "Captain Cook ran the Resolution aground on a sandbar here, found no Northwest Passage, and in a bad mood named the place River Turnagain.",
+      "text": "At low tide, Turnagain Arm becomes a broad mudflat crossed by stream channels. The tidal range can reach 40 feet, and the incoming tide often begins with a bore, especially during large tides with a strong east wind. The waterway is one of two narrow branches at the northern end of Cook Inlet; the other branch is Knik Arm. Mountains rise on both sides; larger valleys show the U-shaped cross sections left by glaciers. Alaska’s transportation department identifies bore tides and beluga whales among the things to look for along the road.",
+      "notice": "At low tide, stream channels cut across the broad mudflat.",
       "at": [
         -149.795,
         60.987
@@ -23,7 +25,8 @@
       "title": "Portage",
       "kind": "roadside",
       "scene": "coast",
-      "text": "The 1964 earthquake dropped the ground about six feet and put the town below high tide. A few ruins remain, with a ghost forest of trees killed by the salt water.",
+      "text": "Dead trees and a few building ruins mark the former settlement of Portage at the head of Turnagain Arm. The 1964 earthquake lowered the ground about six feet, leaving most of the town below the high-tide level. Salt water reached the trees’ roots and killed them. Along the highway, Alaska’s transportation department records hundreds of spruce trees killed by the same change in ground level. The former townsite is now a junction linking the Seward Highway and Alaska Railroad toward Portage Glacier and the Anton Anderson Memorial Tunnel, which leads to Whittier.",
+      "notice": "The dead trees and remaining building ruins mark the former townsite.",
       "at": [
         -148.985,
         60.837
@@ -33,7 +36,7 @@
       "title": "Seward",
       "kind": "town",
       "scene": "coast",
-      "text": "On the shore at the south end of town a marker shows Mile 0 of the original Iditarod Trail, and the Alaska Railroad comes to its end here too.",
+      "text": "Mile 0 of the original Iditarod Trail is marked on the shoreline at Seward’s southern end. The historic trail led into Interior Alaska. The town on Resurrection Bay is also the southern terminus of the Alaska Railroad, where rail freight meets ocean shipping. Rail passengers now arrive on the Coastal Classic, a seasonal service into Seward. The highway added the first road connection to Anchorage in 1951; before that, travelers reached Seward by sea, rail or air. A paved bicycle path follows the waterfront from downtown through the harbor and continues beside the highway.",
       "at": [
         -149.433,
         60.124
@@ -45,12 +48,24 @@
   ],
   "sources": [
     {
-      "label": "Alaska DOT&PF, Seward Highway",
+      "label": "Alaska Department of Transportation and Public Facilities, Seward Highway",
       "url": "https://dot.alaska.gov/dmio/scenic/byways-seward.shtml"
+    },
+    {
+      "label": "Wikipedia, Seward, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Seward%2C_Alaska"
+    },
+    {
+      "label": "Federal Highway Administration, Seward Highway (archived)",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/10390"
     },
     {
       "label": "Wikipedia, Seward Highway",
       "url": "https://en.wikipedia.org/wiki/Seward_Highway"
+    },
+    {
+      "label": "Wikipedia, Moose Pass, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Moose_Pass%2C_Alaska"
     },
     {
       "label": "Wikipedia, Turnagain Arm",
@@ -58,15 +73,7 @@
     },
     {
       "label": "Wikipedia, Portage, Anchorage, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Portage,_Anchorage,_Alaska"
-    },
-    {
-      "label": "Wikipedia, Moose Pass, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Moose_Pass,_Alaska"
-    },
-    {
-      "label": "Wikipedia, Seward, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Seward,_Alaska"
+      "url": "https://en.wikipedia.org/wiki/Portage%2C_Anchorage%2C_Alaska"
     }
   ],
   "reviewed": false

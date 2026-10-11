@@ -97,16 +97,23 @@ export function ThemeChips({ value, onChange }: { value: Theme | ''; onChange: (
 export function Sources({ sources }: { sources: { label: string; url: string }[] }) {
   return (
     <section className={s.section}>
-      <h2>Sources</h2>
-      <ul className={s.sources}>
-        {sources.map((source) => (
-          <li key={source.url}>
-            <a href={source.url} target="_blank" rel="noreferrer">
-              {source.label} ↗
-            </a>
-          </li>
-        ))}
-      </ul>
+      <details className={s.sourceList}>
+        <summary>
+          <h2>Sources</h2>
+          <span className={s.muted}>
+            {sources.length} {sources.length === 1 ? 'reference' : 'references'}
+          </span>
+        </summary>
+        <ul className={s.sources}>
+          {sources.map((source) => (
+            <li key={source.url}>
+              <a href={source.url} target="_blank" rel="noreferrer">
+                {source.label} ↗
+              </a>
+            </li>
+          ))}
+        </ul>
+      </details>
       <p className={s.corrections}>
         This text is researched from the sources above, but it may contain mistakes or fall out of date. If you spot one, corrections are
         always welcome: open <Contact /> (issues are public, so leave out personal details).
