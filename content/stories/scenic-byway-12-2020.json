@@ -1,21 +1,22 @@
 {
   "id": "scenic-byway-12-2020",
-  "tagline": "Red rock, slickrock, and a road along a knife edge.",
+  "tagline": "Red rock canyons, high plateaus and a narrow ridge crossing.",
   "motifs": [
     "hoodoos",
     "slickrock-ridge"
   ],
   "intro": [
-    "Utah's Scenic Byway 12 runs between US-89 near Panguitch and Torrey, passing Red Canyon, Bryce Canyon, the town of Escalante, and Boulder Mountain. It crosses canyon country, slickrock plateaus, and high forest in a single drive.",
-    "Services are far apart on the middle stretch. Fill the tank and carry water."
+    "Scenic Byway 12 crosses high desert plateaus, red rock canyons and alpine forests between US 89 near Panguitch and Torrey. At the Hogback, the road occupies a narrow ridge with steep drops on both sides. Designated an All-American Road in 2002, the route is presented by Bryce Canyon Country as a journey through geology and human history. The Federal Highway Administration allows three hours for the drive.",
+    "The highway took shape in pieces: the Bryce Canyon Junction-to-Tropic road entered the state system in 1914. A forest road branching toward Bryce Canyon followed in 1923. Later routes were combined under SR 12 in 1969, while the Bryce Canyon spur became SR 63 in 1975. In 1985, SR 12 was extended north from Boulder to SR 24, completing its present northern reach. State byway designation followed in 1990, when the initial interpretive planning organized the route’s stories for travelers.",
+    "Begin at US 89 and pass through Red Canyon, then continue past the Bryce Canyon junction toward Tropic. Beyond Cannonville and Henrieville, the highway crosses parts of Grand Staircase–Escalante National Monument and reaches Escalante. Cross the Escalante River and the Hogback to Boulder, then climb and descend Boulder Mountain before finishing at SR 24 in Torrey."
   ],
-  "season": "Spring and autumn. Summer is hot at the low end and busy at Bryce.",
   "moments": [
     {
       "title": "Red Canyon",
       "kind": "roadside",
       "scene": "desert",
-      "text": "Red hoodoos and rock arches right beside the road at the west end.",
+      "text": "At Red Canyon, State Route 12 passes through a tunnel cut through a rock fin. Bryce Canyon Country lists the Red Canyon visitor center among the byway’s principal interpretive sites. These sites introduce the geology, ecology, archaeology and human history along the road.",
+      "notice": "The Red Canyon tunnel carries the road through a rock fin.",
       "at": [
         -112.31,
         37.74
@@ -28,7 +29,8 @@
       "title": "The Hogback",
       "kind": "roadside",
       "scene": "desert",
-      "text": "Between Escalante and Boulder the road runs along a narrow ridge with drop-offs on both sides.",
+      "text": "The Hogback carries the highway along a narrow ridge, with steep drop-offs on both sides and no shoulders or guardrails. Traveling from Escalante toward Boulder, the route crosses the Escalante River before reaching the ridge. Beyond it, SR 12 continues north through more of Grand Staircase–Escalante National Monument toward Boulder.",
+      "notice": "The road follows a narrow ridge with steep drops on either side.",
       "at": [
         -111.44,
         37.83
@@ -41,7 +43,7 @@
       "title": "Boulder Mountain",
       "kind": "roadside",
       "scene": "forest",
-      "text": "The road climbs into aspen and conifer forest with views back over the desert.",
+      "text": "Boulder Mountain gives the northern stretch of SR 12 a 30-mile ascent and descent on the Aquarius Plateau. The road’s identity here changed repeatedly. An earlier state route reached south to Boulder in 1957 and joined SR 54 in 1966. When SR 54 became part of SR 12 in 1969, most of that northern section was dropped. SR 12 then ended at Boulder’s northern limit, on the boundary of Dixie National Forest, with a separate Bryce Canyon spur. The 1985 extension restored SR 12’s connection to SR 24, using a different alignment north of Grover.",
       "at": [
         -111.42,
         38.05
@@ -49,12 +51,39 @@
       "motifs": [
         "aspens"
       ]
+    },
+    {
+      "title": "Torrey Log Church–Schoolhouse",
+      "kind": "town",
+      "scene": "town",
+      "text": "A bell tower above the door and peaked window tops give Torrey’s log church-schoolhouse details beyond its simple one-room plan. Built in 1898, it served as an LDS meetinghouse and a school, with classroom use ending in 1917 and religious meetings in 1928. Inside, beaded planking lines the room, which is open to the rafters; metal tie rods keep the log walls from spreading. The local Daughters of Utah Pioneers chapter continued meeting there until the 1970s. The building was moved to a temporary location in 1991 and has since been fully restored.",
+      "notice": "Peaked window heads and a bell tower distinguish the one-story log building.",
+      "at": [
+        -111.41944444,
+        38.29916667
+      ]
     }
   ],
   "sources": [
     {
-      "label": "Utah Office of Tourism, Scenic Byway 12",
-      "url": "https://www.visitutah.com/places-to-go/most-visited-parks/scenic-byway-12"
+      "label": "Bryce Canyon Country, Scenic Byway 12 – Interpretive Info. Locations",
+      "url": "https://www.brycecanyoncountry.com/scenic-byway-12-interpretive-info-locations/"
+    },
+    {
+      "label": "Wikipedia, Utah State Route 12",
+      "url": "https://en.wikipedia.org/wiki/Utah_State_Route_12"
+    },
+    {
+      "label": "Cornell Law School Legal Information Institute, Utah Admin. Code R926-13-5",
+      "url": "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R926-13-5"
+    },
+    {
+      "label": "Federal Highway Administration, Scenic Byway 12 (archived)",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2020"
+    },
+    {
+      "label": "Wikipedia, Torrey Log Church–Schoolhouse",
+      "url": "https://en.wikipedia.org/wiki/Torrey_Log_Church%E2%80%93Schoolhouse"
     }
   ],
   "reviewed": false

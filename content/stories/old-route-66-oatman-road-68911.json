@@ -1,20 +1,21 @@
 {
   "id": "old-route-66-oatman-road-68911",
-  "tagline": "The old highway takes the mining road over the mountains.",
+  "tagline": "Mining country sent Route 66 over the Black Mountains in hairpin turns.",
   "motifs": [
     "switchbacks",
     "mining-town"
   ],
   "intro": [
-    "From McConnico, the Oatman Highway heads for the Black Mountains and winds over Sitgreaves Pass before dropping into Oatman. The eight miles through the mountains, known as the Sidewinder, hold 191 curves, turns, and switchbacks. This stretch of Route 66 followed the National Old Trails Road through gold-mining country, while the railroad took more level ground.",
-    "Some early motorists hired local drivers to handle the grade. Beyond Oatman the road follows the mountain foothills toward Golden Shores and Topock, where the Colorado River brought another succession of crossings, from railroad bridges to highway spans."
+    "The Oatman Highway crosses the Black Mountains on a winding road with hairpin curves and steep grades at Sitgreaves Pass. Its eight-mile mountain stretch, called the Sidewinder, contains 191 curves, turns and switchbacks. The pass forms part of the Route 66 Historic Back Country Byway, which Wikipedia identifies as maintained by the Bureau of Land Management.",
+    "This mountain crossing followed the National Old Trails Road through the gold-mining communities of Oatman and Goldroad, while the railroad used flatter ground to the east. Some early motorists hired local drivers to negotiate the grade. The state gave the bypass priority because U.S. 66 carried military defense traffic; the replacement followed level ground near the railroad between Topock and Kingman. Arizona later built a bypass through Yucca and moved U.S. 66 onto it. Oatman declined after losing that traffic; in 1955, the old highway passed to Mohave County.",
+    "Traveling southwest from McConnico, head toward the mountains and cross Sitgreaves Pass before descending through Goldroad into Oatman. Beyond town, the road follows the mountain foothills, then continues through Golden Shores toward Topock and the Colorado River. The Old Trails Bridge marks a former highway crossing there, now carrying a gas pipeline."
   ],
   "moments": [
     {
       "title": "Sitgreaves Pass",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Hairpin curves cross a pass named for Lorenzo Sitgreaves, whose own expedition crossed the Black Mountains somewhere else.",
+      "text": "Sitgreaves Pass bears the name of an explorer whose expedition crossed the Black Mountains somewhere else. Sitgreaves had led the 1851 Expedition Down the Zuni and Colorado Rivers for the Corps of Topographical Engineers. Edward Fitzgerald Beale built his wagon road over this gap in 1857 and named it John Howells Pass for an expedition member. The following year, Lieutenant Joseph Christmas Ives mistakenly believed Lorenzo Sitgreaves had used the crossing and gave it his name. The pass later became a landmark on U.S. 66. Its hairpin curves and steep grades are part of the road 4.4 miles northeast of Oatman.",
       "at": [
         -114.36055556,
         35.04583333
@@ -24,7 +25,8 @@
       "title": "Oatman",
       "kind": "town",
       "scene": "desert",
-      "text": "Wild burros wander the streets of the former gold-mining town, where wooden sidewalks accompany the Route 66 trade.",
+      "text": "Wild burros wander Oatman’s streets beside wooden sidewalks and businesses serving Route 66 travelers. Gold prospecting in the surrounding Black Mountains went back to John Thomas Moss’s claims in 1863. The town’s mining boom accelerated after a 1915 discovery at the United Eastern Mining Company property. United Eastern shut down permanently in 1924, and the government ordered the remaining gold mines closed in 1941 as other metals took wartime priority. Route 66 traffic supported the town until the highway bypassed it. The Oatman Hotel on Main Street, formerly the Durlin Hotel, is a two-story adobe building associated with that mining era.",
+      "notice": "Wooden sidewalks and wandering burros are documented features of Oatman’s streets.",
       "at": [
         -114.38388889,
         35.0275
@@ -34,7 +36,8 @@
       "title": "Topock",
       "kind": "town",
       "scene": "river",
-      "text": "The Old Trails Bridge once carried Route 66 over the Colorado here, then exchanged highway traffic for a gas pipeline.",
+      "text": "The Old Trails Bridge spans the Colorado at Topock with a gas pipeline where road traffic once crossed. Built in 1915–1916, the arch bridge carried the National Old Trails Road and later U.S. 66. In 1947, highway traffic moved to the nearby Red Rock Bridge, a former railroad crossing converted with a concrete road deck. That crossing yielded to I-40 in 1966 and was demolished in 1976. The Old Trails arch survived the succession of crossings through its conversion by Pacific Gas and Electric to carry natural gas. The Red Rock Bridge’s remaining concrete pilings mark its former position on the two riverbanks.",
+      "notice": "The surviving Old Trails arch carries a pipeline; the Red Rock Bridge was demolished.",
       "at": [
         -114.47888889,
         34.72
@@ -47,24 +50,24 @@
       "url": "https://en.wikipedia.org/wiki/County_Route_10_%28Mohave_County%2C_Arizona%29"
     },
     {
-      "label": "Wikipedia, Oatman, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Oatman%2C_Arizona"
-    },
-    {
-      "label": "Wikipedia, Topock, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Topock%2C_Arizona"
-    },
-    {
       "label": "Wikipedia, Sitgreaves Pass",
       "url": "https://en.wikipedia.org/wiki/Sitgreaves_Pass"
     },
     {
-      "label": "Wikipedia, Old Trails Bridge",
-      "url": "https://en.wikipedia.org/wiki/Old_Trails_Bridge"
-    },
-    {
       "label": "Wikipedia, Red Rock Bridge",
       "url": "https://en.wikipedia.org/wiki/Red_Rock_Bridge"
+    },
+    {
+      "label": "Wikipedia, Oatman, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Oatman%2C_Arizona"
+    },
+    {
+      "label": "Wikipedia, Durlin Hotel",
+      "url": "https://en.wikipedia.org/wiki/Durlin_Hotel"
+    },
+    {
+      "label": "Wikipedia, Old Trails Bridge",
+      "url": "https://en.wikipedia.org/wiki/Old_Trails_Bridge"
     }
   ],
   "reviewed": false

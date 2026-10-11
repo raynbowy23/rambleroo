@@ -1,48 +1,47 @@
 {
   "id": "door-county-coastal-byway-81450",
-  "tagline": "Lighthouses, orchards, and a shoreline on both sides.",
+  "tagline": "Two shores, orchards and bluffs, with lights built to guide boats",
   "motifs": [
     "harbor-village",
     "lighthouse",
     "orchard"
   ],
   "intro": [
-    "The Door County Coastal Byway loops around the northern Door Peninsula, the thumb of land between Green Bay and Lake Michigan. One side of the loop follows the calmer bay shore and its harbour villages. The other follows the open Lake Michigan side, with limestone ledges and quieter coves.",
-    "It is a short byway by distance, so the day is set by how often you stop."
+    "The Door County Coastal Byway follows WIS 42 and WIS 57 along Lake Michigan and Green Bay, passing orchards, vineyards and forests. The two shores bring harbor views and limestone bluffs into the journey: Ephraim faces the bluffs across Eagle Harbor, while Peninsula State Park includes limestone Eagle Bluff. Wisconsin’s Department of Transportation lists it as a National Scenic Byway and highlights three state parks, ten county parks and several lighthouses.",
+    "The route received National Scenic Byway designation in February 2021. Wisconsin’s state byway system aims to promote tourism and awareness of communities along its roads. Older landmarks along the route tell of travel by water: Asa Thorp built Fish Creek’s first dock in 1855, and a pair of range lights began guiding boats into Baileys Harbor in 1870. Peninsula State Park was intended to provide a playground and resting place for people whose finances or location prevented them from owning summer cottages.",
+    "From the WIS 42/57 junction north of Sturgeon Bay, take the eastern side through Jacksonport to Baileys Harbor and Sister Bay. WIS 42 continues north through Ellison Bay and Gills Rock toward Northport. Return to Sister Bay for the western leg south through Ephraim, Fish Creek and Egg Harbor to Sturgeon Bay."
   ],
-  "season": "Summer for the villages, autumn for colour along the bluff.",
   "moments": [
     {
-      "title": "Peninsula State Park",
-      "kind": "short walk",
-      "scene": "forest",
-      "text": "Wooded bluffs above Green Bay between Fish Creek and Ephraim.",
+      "title": "Cave Point County Park",
+      "kind": "roadside",
+      "scene": "coast",
+      "text": "A shoreline trail connects Cave Point County Park with Whitefish Dunes State Park. Cave Point is an enclave within the larger state park, and the connecting trail gives visitors free access on foot to Whitefish Dunes. That park protects sand dunes on Lake Michigan’s western shore, on the eastern side of the Door Peninsula.",
       "at": [
-        -87.21,
-        45.16
+        -87.18,
+        44.93
       ],
       "motifs": [
         "limestone-ledges"
       ]
     },
     {
-      "title": "Ephraim",
-      "kind": "town",
-      "scene": "town",
-      "text": "A small harbour village on Eagle Harbor, on the bay side of the loop.",
+      "title": "Baileys Harbor Range Lights",
+      "kind": "short walk",
+      "scene": "coast",
+      "text": "Two lights aligned to guide boats into Baileys Harbor replaced the earlier lighthouse in 1870. They stand approximately 980 feet apart. After 1969, the Coast Guard removed their equipment and substituted a single directional light on the beach. The Ridges Sanctuary took possession in 1990 and restored the buildings, rewiring them during the 1990s. A skeleton tower guided shipping during the intervening years before the pair resumed their original work. In 2015, modern LED lamps returned the original range lights to service. The grounds form part of the Ridges Sanctuary and can be visited.",
+      "notice": "The two lighthouse buildings stand approximately 980 feet apart on the same bearing.",
       "at": [
-        -87.168,
-        45.157
-      ],
-      "motifs": [
-        "harbor-village"
+        -87.12027778,
+        45.07194444
       ]
     },
     {
       "title": "Cana Island Lighthouse",
       "kind": "short walk",
       "scene": "coast",
-      "text": "A lighthouse on a small island off the Lake Michigan shore, reached by a causeway.",
+      "text": "Steel cladding protects the brick tower at Cana Island, just north of Baileys Harbor. The lighthouse was first lit in 1870, but storms and icy winters soon damaged its cream city brick; the steel covering followed in 1902. Inside, 102 cast-iron steps lead to the watch room. The light uses a third-order Fresnel lens. Keepers once carried oil up the tower each night to fuel the lamp. Electricity arrived in 1945, initially supplied by a generator and batteries. The ball at the top served as a vent for the oil lamp’s smoke and soot.",
+      "notice": "The ball at the tower’s top vented smoke and soot from the oil lamp.",
       "at": [
         -87.047,
         45.088
@@ -52,27 +51,85 @@
       ]
     },
     {
-      "title": "Cave Point County Park",
-      "kind": "roadside",
-      "scene": "coast",
-      "text": "Wave-cut limestone ledges on the Lake Michigan side.",
+      "title": "Ephraim",
+      "kind": "town",
+      "scene": "town",
+      "text": "Two church steeples mark Ephraim’s waterfront skyline as seen from Eagle Harbor. The village has white buildings and views of bluffs across Eagle Harbor. The Reverend Andreas Iverson founded the village as a Moravian community in 1853. The Moravian church originally stood on the shore before moving to its present location in 1883. Education also shaped the settlement: an 1869 one-room school replaced an earlier log schoolhouse. Children attended until a new school opened in 1948. The old building now serves as the Pioneer Schoolhouse Museum, operated by the Ephraim Historical Foundation.",
+      "notice": "Notice the white buildings and church steeples, with bluffs visible across Eagle Harbor.",
       "at": [
-        -87.18,
-        44.93
+        -87.168,
+        45.157
+      ],
+      "motifs": [
+        "harbor-village"
+      ]
+    },
+    {
+      "title": "Peninsula State Park",
+      "kind": "short walk",
+      "scene": "forest",
+      "text": "Peninsula State Park has eight miles of Green Bay shoreline, with hardwoods and marshes along its Sunset Bike Trail. In 1908, State Park Board members examined possible sites in Door County, viewing the high limestone bluffs from a boat as well as from land. John Nolen recommended the site near Fish Creek. The park was established in 1909; early work created roads, scenic lookouts and campgrounds. Eagle Bluff Lighthouse predates the park: built in 1868, it was automated in 1926, and its former keeper’s home has served as a museum since 1963.",
+      "at": [
+        -87.21,
+        45.16
       ],
       "motifs": [
         "limestone-ledges"
       ]
     }
   ],
-  "practical": [
-    "Directions go to Sturgeon Bay, where the loop begins.",
-    "WisDOT now lists this road as a National Scenic Byway. The 2022 national dataset shown here records only its state designation."
-  ],
   "sources": [
     {
-      "label": "WisDOT, Explore Wisconsin's Scenic Byways",
+      "label": "Wikipedia, List of Wisconsin Scenic Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Wisconsin_Scenic_Byways"
+    },
+    {
+      "label": "Wikipedia, Ephraim, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Ephraim%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Baileys Harbor Range Lights",
+      "url": "https://en.wikipedia.org/wiki/Baileys_Harbor_Range_Lights"
+    },
+    {
+      "label": "Wikipedia, Peninsula State Park",
+      "url": "https://en.wikipedia.org/wiki/Peninsula_State_Park"
+    },
+    {
+      "label": "Wisconsin Department of Transportation, Explore Wisconsin’s Scenic Byways",
       "url": "https://wisconsindot.gov/Pages/travel/road/scenic-ways/byways.aspx"
+    },
+    {
+      "label": "Wikipedia, Fish Creek, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Fish_Creek%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Baileys Harbor (CDP), Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Baileys_Harbor_%28CDP%29%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Sister Bay, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Sister_Bay%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Carlsville, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Carlsville%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Whitefish Dunes State Park",
+      "url": "https://en.wikipedia.org/wiki/Whitefish_Dunes_State_Park"
+    },
+    {
+      "label": "Wikipedia, Cana Island Light",
+      "url": "https://en.wikipedia.org/wiki/Cana_Island_Light"
+    },
+    {
+      "label": "Wikipedia, Ephraim Moravian Church",
+      "url": "https://en.wikipedia.org/wiki/Ephraim_Moravian_Church"
+    },
+    {
+      "label": "Wikipedia, Gibraltar District School No. 2",
+      "url": "https://en.wikipedia.org/wiki/Gibraltar_District_School_No._2"
     }
   ],
   "reviewed": false
