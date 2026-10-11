@@ -100,9 +100,6 @@ export function Sources({ sources }: { sources: { label: string; url: string }[]
       <details className={s.sourceList}>
         <summary>
           <h2>Sources</h2>
-          <span className={s.muted}>
-            {sources.length} {sources.length === 1 ? 'reference' : 'references'}
-          </span>
         </summary>
         <ul className={s.sources}>
           {sources.map((source) => (
