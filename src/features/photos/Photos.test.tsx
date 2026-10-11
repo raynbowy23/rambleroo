@@ -59,14 +59,15 @@ it('uses registry thumbnails for cards and full images with priority for heroes'
   const withThumb = { ...photo, thumb: 'river-480.jpg' }
   const { rerender } = render(<PhotoImage photo={withThumb} />)
   const img = screen.getByAltText(photo.alt)
-  expect(img.getAttribute('src')).toBe('/photos/river/river-480.jpg')
+  expect(img.getAttribute('src')).toBe('https://photos.rambleroo.app/river/river-480.jpg')
   expect(img.getAttribute('decoding')).toBe('async')
   rerender(<PhotoImage photo={withThumb} hero />)
-  expect(img.getAttribute('src')).toBe('/photos/river/river.jpg')
+  expect(img.getAttribute('src')).toBe('https://photos.rambleroo.app/river/river.jpg')
   expect(img.getAttribute('loading')).toBe('eager')
   expect(img.getAttribute('fetchpriority')).toBe('high')
-  expect(photoPath({ ...photo, thumb: '/photos/thumb.jpg' }, true)).toBe('/photos/thumb.jpg')
-  expect(photoPath(photo, true)).toBe('/photos/river/river.jpg')
+  expect(photoPath({ ...photo, thumb: '/photos/thumb.jpg' }, true)).toBe('https://photos.rambleroo.app/thumb.jpg')
+  expect(photoPath(photo, true)).toBe('https://photos.rambleroo.app/river/river.jpg')
+  expect(img.getAttribute('crossorigin')).toBe('anonymous')
 })
 it('keeps an illustration when a moment has no suitable photo', () => {
   render(

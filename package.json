@@ -17,6 +17,8 @@
     "dev:phone": "vite --host",
     "dev:api": "test -d dist || npm run build; wrangler dev --port 8787",
     "dev:all": "node scripts/dev-all.mjs",
+    "photos:upload": "tsx scripts/photos/upload.ts",
+    "photos:check": "tsx scripts/photos/upload.ts --check",
     "strips:build": "tsx scripts/strips/build-strip.ts",
     "deploy": "npm run build && wrangler deploy",
     "deploy:preview": "npm run build && wrangler versions upload"
