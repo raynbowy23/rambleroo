@@ -1,0 +1,285 @@
+{
+  "note": "Facts and sources behind the member descriptions in ME.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Schoodic National Scenic Byway",
+      "designation": "National Scenic Byway",
+      "where": "US 1 from Hancock through Sullivan, then SR 186 around the Schoodic Peninsula via Winter Harbor to Prospect Harbor; Hancock County",
+      "facts": [
+        {
+          "fact": "The byway is 29 miles long, beginning in Hancock and running through Sullivan, Gouldsboro, Winter Harbor and Birch Harbor to the Schoodic section of Acadia National Park.",
+          "source": "https://schoodicnationalbyway.org/"
+        },
+        {
+          "fact": "SR 186 makes a half-loop from US 1 south and east along the Gouldsboro coast to Winter Harbor and back to US 1.",
+          "source": "https://en.wikipedia.org/wiki/Maine_State_Route_186"
+        },
+        {
+          "fact": "Prospect Harbor Point Light's present round wood-frame tower, clad in wooden shingles, was built in 1891.",
+          "source": "https://en.wikipedia.org/wiki/Prospect_Harbor_Point_Light"
+        },
+        {
+          "fact": "FHWA describes a coast where lobstering and clamming remain a tradition, on the quiet side of Acadia National Park.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/13792"
+        }
+      ],
+      "review": "Catalog name 'Schoodic Scenic Byway'. MaineDOT GIS name 'SCHOODIC NATIONAL SCENIC BYWAY'. The old byway domain schoodicbyway.org now redirects to schoodicnationalbyway.org."
+    },
+    {
+      "name": "Bold Coast National Scenic Byway",
+      "designation": "National Scenic Byway",
+      "where": "US 1 and coastal loops (SR 187, SR 191 and others) from Milbridge through Jonesport, Machias, Cutler and Lubec to Eastport and Calais; Washington County",
+      "facts": [
+        {
+          "fact": "The Bold Coast is a 147-mile driving route through coastal Washington County from Milbridge to Calais, on the St. Croix River.",
+          "source": "https://downeastacadia.com/road-trips/scenicbyways/boldcoast/"
+        },
+        {
+          "fact": "Milbridge and Jonesport are described as working waterfronts.",
+          "source": "https://downeastacadia.com/road-trips/scenicbyways/boldcoast/"
+        },
+        {
+          "fact": "In the Battle of Machias in June 1775 townspeople armed local ships and captured the British armed sloop HMS Margaretta.",
+          "source": "https://en.wikipedia.org/wiki/Battle_of_Machias"
+        },
+        {
+          "fact": "West Quoddy Head Light in Lubec, at the easternmost point of the contiguous United States, has a red-and-white striped tower built in 1858.",
+          "source": "https://en.wikipedia.org/wiki/West_Quoddy_Head_Light"
+        }
+      ],
+      "review": "Not in the catalog. MaineDOT layer has two rows with this name: the 2011 state designation (Milbridge to the Lubec/Eastport loops) and a 2021 extension on Route 1 to Calais plus Route 9 to the border. Nationally designated 2021 (FHWA byway 81499)."
+    },
+    {
+      "name": "Rangeley Lakes National Scenic Byway",
+      "designation": "National Scenic Byway",
+      "where": "SR 17 from north of Byron to Oquossoc, SR 16 east to Rangeley, SR 4 south to Smalls Falls; Oxford and Franklin counties",
+      "facts": [
+        {
+          "fact": "The byway begins just north of Byron on Route 17, runs north to Oquossoc, east on Route 16 toward Rangeley and south on Route 4 to Smalls Falls.",
+          "source": "https://nsbfoundation.com/nb/rangeley-lakes-scenic-byway/"
+        },
+        {
+          "fact": "Height of Land is a viewpoint looking out over the Rangeley Lakes region; Rangeley Lakes Heritage Trust posts byway ambassadors there in summer.",
+          "source": "https://rlht.org/rangeley-lakes-national-scenic-byway/"
+        },
+        {
+          "fact": "Smalls Falls is a 54-foot series of waterfalls and pools on the Sandy River, reached from a rest area on Route 4.",
+          "source": "https://en.wikipedia.org/wiki/Smalls_Falls"
+        }
+      ],
+      "review": "Lengths disagree: FHWA 35.6 mi, NSBF page 52 mi. The catalog line (35 mi) may not include the Route 4 leg to Smalls Falls; MaineDOT layer has a 2000 national row and a short 2013 state extension row under the same name."
+    },
+    {
+      "name": "Old Canada Road National Scenic Byway",
+      "designation": "National Scenic Byway",
+      "where": "US 201 from Solon through Bingham, Caratunk and The Forks to Jackman and the Canadian border; Somerset County",
+      "facts": [
+        {
+          "fact": "The byway travels 78 miles along Route 201 from Solon to the Canadian border.",
+          "source": "https://visitmaine.com/things-to-do/scenic-byways-trails/"
+        },
+        {
+          "fact": "It traces the route of travelers between Maine and Quebec, beside the Kennebec River, Wyman Lake and the Dead River.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/11510"
+        },
+        {
+          "fact": "North of The Forks US 201 climbs past Coburn Mountain to the Attean Pond Lookout rest area before descending into Jackman.",
+          "source": "https://en.wikipedia.org/wiki/U.S._Route_201"
+        },
+        {
+          "fact": "The Forks is the confluence of the Dead and Kennebec rivers; the byway is known for whitewater rafting.",
+          "source": "https://nsbfoundation.com/nb/old-canada-road-national-scenic-byway/"
+        }
+      ],
+      "review": "Catalog name 'Old Canada Road Scenic Byway'."
+    },
+    {
+      "name": "Katahdin Woods & Waters National Scenic Byway",
+      "designation": "National Scenic Byway",
+      "where": "Millinocket Road from Baxter State Park's south gate through Millinocket, SR 11 north via East Millinocket, Medway and Stacyville to Patten, SR 159 and Grand Lake Road to Baxter's north gate at Grand Lake Matagamon; Penobscot County",
+      "facts": [
+        {
+          "fact": "The byway runs 89 miles from Baxter State Park's southern entrance through Millinocket along Route 11 and the Penobscot River to Patten, ending at the northern entrance near Grand Lake Matagamon.",
+          "source": "https://destinationkatahdin.org/about-the-byway/"
+        },
+        {
+          "fact": "Katahdin is Maine's tallest mountain at 5,268 feet and the northern terminus of the Appalachian Trail; Ash Hill south of Patten is a Katahdin viewpoint.",
+          "source": "https://destinationkatahdin.org/about-the-byway/"
+        },
+        {
+          "fact": "Sights along the route include Grindstone Falls and the Patten Lumbermen's Museum.",
+          "source": "https://nsbfoundation.com/nb/katahdin-woods-waters-scenic-byway/"
+        }
+      ],
+      "review": "Matched to catalog 'Grindstone Scenic Byway' (towns East Millinocket, Stacyville, Patten), which covers only the Route 11 middle section, named for Grindstone Falls on the Penobscot. The full state line is in the MaineDOT layer as sb_name 'KATAHDIN WOODS & WATERS SCENIC BYWAY' (designated 2010, national 2021, FHWA 81500). Consider replacing the catalog line and name."
+    },
+    {
+      "name": "St. John Valley Cultural Byway/Fish River Scenic Byway",
+      "designation": "National Scenic Byway",
+      "where": "SR 161 from Dickey (Allagash) along the St. John River to Fort Kent; SR 11 south from Fort Kent past Eagle Lake to Portage Lake; US 1 east through Madawaska and Van Buren to Hamlin, with spurs on SR 162 to Sinclair and US 1 to Cyr Plantation; Aroostook County",
+      "facts": [
+        {
+          "fact": "The national byway combines Maine's first scenic byway (Fish River) and its first cultural byway (St. John Valley).",
+          "source": "https://www.visitaroostook.com/post/st-john-valley-fish-river-national-scenic-byway"
+        },
+        {
+          "fact": "In the valley it is as common to hear French as English; Fort Kent has a blockhouse built by the U.S. in 1839, and the Fish River stretch has views of Eagle Lake.",
+          "source": "https://www.visitaroostook.com/post/st-john-valley-fish-river-national-scenic-byway"
+        },
+        {
+          "fact": "The route starts in Dickey on Route 161 along the St. John River to Fort Kent, runs south on Route 11 to Portage Lake, and east on US 1 to Hamlin.",
+          "source": "https://nsbfoundation.com/nb/st-john-valley-cultural-fish-river-byway/"
+        }
+      ],
+      "review": "Matched to catalog 'State Route 11' (towns Portage, Fort Kent, Winterville), which is only the Fish River section. MaineDOT layer splits the byway: 'FISH RIVER SCENIC BYWAY' (1971, Route 11) and 'ST JOHN VALLEY CULTURAL BYWAY' (2010 plus two 2014 extensions, three rows). Lengths given as 129, 134 and 136 miles by different sources. National designation 2021 (FHWA 81501)."
+    },
+    {
+      "name": "Acadia All-American Road",
+      "designation": "All-American Road",
+      "where": "SR 3 from Trenton onto Mount Desert Island to Bar Harbor, then the Park Loop Road in Acadia National Park; Hancock County",
+      "facts": [
+        {
+          "fact": "The road follows Route 3 from Trenton to Bar Harbor and then the park loop road through Acadia National Park, about 40 miles.",
+          "source": "https://nsbfoundation.com/nb/acadia-all-american-road/"
+        },
+        {
+          "fact": "The 27-mile Park Loop Road was built between 1921 and 1958 and reaches Sieur de Monts, Sand Beach, Otter Point, Jordan Pond and Cadillac Mountain.",
+          "source": "https://www.nps.gov/acad/planyourvisit/park-loop-road.htm"
+        },
+        {
+          "fact": "FHWA mentions fishing and sailboats in Frenchman Bay and the old cottages of Bar Harbor.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/13791"
+        }
+      ],
+      "review": "MaineDOT GIS name 'ACADIA SCENIC BYWAY'. National Park entrance fee applies on the Park Loop Road."
+    },
+    {
+      "name": "Blackwoods Scenic Byway",
+      "designation": "Maine Scenic Byway",
+      "where": "SR 182 from the Franklin town line east through East Hancock to Cherryfield; Hancock and Washington counties",
+      "facts": [
+        {
+          "fact": "MaineDOT's designation (1971) runs on SR 182 from the Franklin–T9 SD town line east to the railroad tracks in Cherryfield.",
+          "source": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Through the unorganized territory of East Hancock, SR 182 winds around Fox Pond, Spring River Lake and Tunk Lake and past Tunk and Catherine mountains, ending near the Narraguagus River at Cherryfield.",
+          "source": "https://en.wikipedia.org/wiki/Maine_State_Route_182"
+        },
+        {
+          "fact": "Cherryfield calls itself the wild blueberry capital of the world; its blueberry barrens are harvested in late July and early August.",
+          "source": "https://nsbfoundation.com/sb/blackwoods-scenic-byway/"
+        }
+      ],
+      "review": "Catalog name 'Blackwoods Byway'. Visit Maine lists it as 'Blackwoods Scenic Byway (Route 182)'."
+    },
+    {
+      "name": "High Peaks Scenic Byway",
+      "designation": "Maine Scenic Byway",
+      "where": "SR 27 from just north of Kingfield through Carrabassett Valley, Stratton and Eustis to Coburn Gore at the Quebec border; Franklin County",
+      "facts": [
+        {
+          "fact": "MaineDOT's 1971 designation begins 0.8 mile north of the Route 16/27 junction in Kingfield and runs north through Carrabassett Valley, Eustis and Chain of Ponds.",
+          "source": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "SR 27 passes Sugarloaf Mountain, Stratton and Eustis, then crosses into Quebec at Coburn Gore.",
+          "source": "https://en.wikipedia.org/wiki/Maine_State_Route_27"
+        },
+        {
+          "fact": "Kingfield is a 19th-century mill town; the byway passes Flagstaff Lake, the Dead River of Benedict Arnold's expedition, and Chain of Ponds.",
+          "source": "https://nsbfoundation.com/sb/high-peaks-scenic-byway-2/"
+        }
+      ],
+      "review": "Catalog name 'State Route 27'; MaineDOT GIS name 'STATE ROUTE 27 SCENIC BYWAY'. Visit Maine calls it 'High Peaks Scenic Byway (Route 27)'. Suggest renaming the catalog entry."
+    },
+    {
+      "name": "Moosehead Lake Scenic Byway",
+      "designation": "Maine Scenic Byway",
+      "where": "SR 6/15 from the Indian Hill rest area at Greenville via Rockwood to US 201 at Jackman; extension on Lily Bay Road from Greenville to Kokadjo; Piscataquis and Somerset counties",
+      "facts": [
+        {
+          "fact": "The byway follows Route 15 from Greenville to Jackman, 59 miles.",
+          "source": "https://nsbfoundation.com/sb/moosehead-lake-scenic-byway/"
+        },
+        {
+          "fact": "A 2011 extension runs from downtown Greenville north on the Lily Bay Road to Kokadjo.",
+          "source": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Rockwood is on the west side of Moosehead Lake near Mount Kineo, whose 700-foot cliffs rise straight from the water.",
+          "source": "https://en.wikipedia.org/wiki/Mount_Kineo"
+        }
+      ],
+      "review": "Matched to catalog 'Seboomook Scenic Byway' (towns Greenville, Askwith, Rockwood; line reaches Jackman), which looks like an older name for this Route 15 corridor. The catalog line does not include the Lily Bay Road extension. Full state line: MaineDOT sb_name 'MOOSEHEAD LAKE SCENIC BYWAY' (2007 and 2011 rows). Suggest renaming."
+    },
+    {
+      "name": "Grafton Notch Scenic Byway",
+      "designation": "Maine Scenic Byway",
+      "where": "SR 26 from North Newry through Grafton Notch State Park to Upton; Oxford County",
+      "facts": [
+        {
+          "fact": "The byway begins in Newry just north of Sunday River, follows the Bear River and runs through Grafton Notch State Park toward Lake Umbagog; 21 miles.",
+          "source": "https://nsbfoundation.com/sb/grafton-notch-scenic-byway/"
+        },
+        {
+          "fact": "Grafton Notch is the pass between Old Speck Mountain and Baldpate Mountain in the Mahoosuc Range.",
+          "source": "https://en.wikipedia.org/wiki/Grafton_Notch_State_Park"
+        },
+        {
+          "fact": "Screw Auger Falls lies in a steep gorge along the Bear River, cut in Devonian granite; the park also has Mother Walker Falls and Moose Cave.",
+          "source": "https://en.wikipedia.org/wiki/Grafton_Notch_State_Park"
+        }
+      ]
+    },
+    {
+      "name": "Million Dollar View Scenic Byway",
+      "designation": "Maine Scenic Byway",
+      "where": "US 1 from the Danforth–Weston town line north to just past the Weston–Orient line; Aroostook County",
+      "facts": [
+        {
+          "fact": "MaineDOT's 1971 designation runs on US 1 from the Danforth–Weston town line to about 0.5 mile north of the Weston–Orient town line.",
+          "source": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Scenic turnouts look over the Chiputneticook chain of lakes (East Grand, Brackett and Deering), hayfields, Mount Katahdin and New Brunswick.",
+          "source": "https://nsbfoundation.com/sb/million-dollar-view-scenic-byway/"
+        },
+        {
+          "fact": "East Grand Lake, 22 miles long, straddles the Maine–New Brunswick boundary and heads the St. Croix River.",
+          "source": "https://en.wikipedia.org/wiki/East_Grand_Lake"
+        }
+      ],
+      "review": "NSBF gives 8 miles; catalog line 11.7 mi."
+    },
+    {
+      "name": "Pequawket Trail Scenic Byway",
+      "designation": "Maine Scenic Byway",
+      "where": "SR 113 from SR 25 in Standish north through the Saco valley and Fryeburg to the Batchelders Grant/Gilead line; Cumberland, York and Oxford counties",
+      "facts": [
+        {
+          "fact": "MaineDOT's 2007 designation runs on Route 113 from its intersection with Route 25 in Standish to the Batchelders Grant/Gilead town line.",
+          "source": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Fryeburg was the site of Pequawket, an Abenaki village of the Sokokis at a large bend in the Saco River.",
+          "source": "https://en.wikipedia.org/wiki/Fryeburg,_Maine"
+        },
+        {
+          "fact": "The northern part of SR 113 runs along the New Hampshire border and crosses into and out of New Hampshire twice.",
+          "source": "https://en.wikipedia.org/wiki/Maine_State_Route_113"
+        }
+      ],
+      "review": "Catalog line (30 mi, Hiram to Fryeburg) covers only part of the state byway; the full designation (Standish to Gilead, roughly 60 mi per NSBF) is in the MaineDOT layer as sb_name 'PEQUAWKET TRAIL SCENIC BYWAY'. Lines may need replacing."
+    }
+  ],
+  "issues": [
+    "MaineDOT's own byway site (exploremaine.org) no longer resolves and no current MaineDOT list page was found; the list here is Visit Maine's (13 byways), which agrees with the MaineDOT GIS layer.",
+    "Catalog names are out of date: 'Seboomook Scenic Byway' is the Route 15 Moosehead Lake Scenic Byway, 'Grindstone Scenic Byway' is the middle of the Katahdin Woods & Waters byway, 'State Route 11' is the Fish River half of the St. John Valley/Fish River byway, and 'State Route 27' is the High Peaks Scenic Byway. Please check the Seboomook and Grindstone matches against the drawn lines before renaming.",
+    "Catalog lines are partial for Katahdin Woods & Waters (Route 11 section only), St. John Valley/Fish River (Fish River only), Moosehead Lake (no Lily Bay Road extension), Pequawket Trail (Hiram to Fryeburg only, not Standish to Gilead) and possibly Rangeley Lakes (Route 4 leg). The MaineDOT layer has full lines under the sb_name values given in each note.",
+    "Bold Coast National Scenic Byway (2021) is missing from the catalog; draw from GIS sb_name 'BOLD COAST SCENIC BYWAY' (two rows).",
+    "Lengths disagree between sources: St. John Valley/Fish River 129/134/136 mi, Rangeley Lakes 35.6 (FHWA) vs 52 mi (NSBF), Pequawket 60 mi (NSBF).",
+    "nsbfoundation.com, schoodicnationalbyway.org, downeastacadia.com, destinationkatahdin.org and oldcanadaroadbyway.org return 403 to curl but load in a browser (checked via WebFetch). Several facts from the NSBF pages were read through WebFetch summaries.",
+    "No national forest or BLM byways in Maine; no second program."
+  ]
+}

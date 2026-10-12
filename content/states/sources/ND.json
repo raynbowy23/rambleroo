@@ -1,0 +1,216 @@
+{
+  "note": "Facts and sources behind the member descriptions in ND.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Chan SanSan Scenic Backway",
+      "designation": "North Dakota Scenic Backway",
+      "where": "James River valley from ND 46 south to the LaMoure-Dickey county line, via Grand Rapids and LaMoure, LaMoure County",
+      "facts": [
+        {
+          "fact": "Begins at State Highway 46 and runs south to the county line, bisecting LaMoure County and passing Adrian, Dickey, Grand Rapids and LaMoure.",
+          "source": "https://www.ndtourism.com/jamestown/attractions-entertainment/free-attractions/chan-sansan-scenic-backway"
+        },
+        {
+          "fact": "Descends into the James River valley, a winding river among tall grass prairie and wildflowers; the area has earthen mounds and early settlement history.",
+          "source": "https://www.ndtourism.com/jamestown/attractions-entertainment/free-attractions/chan-sansan-scenic-backway"
+        },
+        {
+          "fact": "Stops include a Double Pony Truss Bridge, the LaMoure County Courthouse and the Grand Rapids Museum.",
+          "source": "https://www.ndtourism.com/jamestown/attractions-entertainment/free-attractions/chan-sansan-scenic-backway"
+        }
+      ]
+    },
+    {
+      "name": "Des Lacs National Wildlife Refuge Scenic Backway",
+      "designation": "North Dakota Scenic Backway",
+      "where": "Refuge roads from US 52 about 6 miles south of Kenmare north to Ward County Road 1, Ward and Burke counties",
+      "facts": [
+        {
+          "fact": "13 miles, from US 52 about 6 miles south of Kenmare north to the end of the refuge at Ward County Road 1.",
+          "source": "https://www.ndtourism.com/kenmare/attractions/des-lacs-national-wildlife-refuge-scenic-backway"
+        },
+        {
+          "fact": "More than 250 bird species recorded; deer and moose live there, and bald eagles pass in the fall migration.",
+          "source": "https://www.ndtourism.com/kenmare/attractions/des-lacs-national-wildlife-refuge-scenic-backway"
+        },
+        {
+          "fact": "Kenmare has a wind-powered Danish mill built by settlers in 1902.",
+          "source": "https://www.ndtourism.com/kenmare/attractions/des-lacs-national-wildlife-refuge-scenic-backway"
+        }
+      ],
+      "review": "Catalog maps 39.9 miles against the 13 the tourism page gives; the state GIS layer's two features come to roughly 22 miles. Check the catalog line for duplicated or extra segments."
+    },
+    {
+      "name": "Killdeer Mountain Four Bears Scenic Byway",
+      "designation": "North Dakota Scenic Byway",
+      "where": "ND 22 from north of Manning through Killdeer to ND 23, then east on ND 23 to New Town",
+      "facts": [
+        {
+          "fact": "64 miles, beginning north of Manning on Highway 22, through Killdeer to Highway 23, then east to New Town.",
+          "source": "https://www.ndtourism.com/killdeer/attractions/killdeer-mountain-four-bears-scenic-byway"
+        },
+        {
+          "fact": "Runs from the Killdeer Mountains to the entrenched Little Missouri River breaks and badlands; the region carries Mandan, Hidatsa and Arikara heritage and cowboy and rodeo traditions.",
+          "source": "https://www.ndtourism.com/killdeer/attractions/killdeer-mountain-four-bears-scenic-byway"
+        },
+        {
+          "fact": "Stops include Killdeer Battlefield State Historic Site, Crow Flies High Butte Overlook and the Four Bears Museum.",
+          "source": "https://www.ndtourism.com/killdeer/attractions/killdeer-mountain-four-bears-scenic-byway"
+        }
+      ],
+      "review": "Catalog line (28.2 mapped miles, bbox lon -102.84 to -102.73) seems to cover only the ND 22 part; the ND 23 leg east to New Town is missing. The state GIS feature looks like the full route (about 65 miles)."
+    },
+    {
+      "name": "Sakakawea Scenic Byway",
+      "designation": "North Dakota Scenic Byway",
+      "where": "ND 200A between Washburn and Stanton, McLean and Mercer counties",
+      "facts": [
+        {
+          "fact": "Follows Highway 200A from Washburn to Stanton through the Missouri River valley.",
+          "source": "https://www.ndtourism.com/washburn/attractions/sakakawea-scenic-byway"
+        },
+        {
+          "fact": "Follows the course of Lewis and Clark's journey on the high ground above the winding Missouri.",
+          "source": "https://www.ndtourism.com/bywaysbackways"
+        },
+        {
+          "fact": "Sites along it include the Lewis and Clark Interpretive Center, Fort Mandan, Cross Ranch State Park, Fort Clark State Historic Site and Knife River Indian Villages National Historic Site.",
+          "source": "https://www.ndtourism.com/washburn/attractions/sakakawea-scenic-byway"
+        }
+      ]
+    },
+    {
+      "name": "Old Red Old Ten Scenic Byway",
+      "designation": "North Dakota Scenic Byway",
+      "where": "Old US 10 between Mandan and Dickinson via Almont, New Salem, Glen Ullin, Hebron and Richardton, plus the Curlew Loop near Almont",
+      "facts": [
+        {
+          "fact": "Old Highway 10 between Mandan and Dickinson, an alternative to I-94 through Almont, New Salem, Glen Ullin, Hebron and Richardton; mostly blacktop with gravel between New Salem and Glen Ullin and on the Curlew Loop near Almont.",
+          "source": "https://www.ndtourism.com/hebron/attractions/old-red-old-ten-scenic-byway"
+        },
+        {
+          "fact": "It began as the Red Trail, which ran from Seattle to New York before becoming Highway 10; Custer used the route on his march west.",
+          "source": "https://www.ndtourism.com/hebron/attractions/old-red-old-ten-scenic-byway"
+        },
+        {
+          "fact": "Landmarks include Salem Sue at New Salem, Sims Church, Fort Sauerkraut at Hebron and Assumption Abbey at Richardton.",
+          "source": "https://www.ndtourism.com/hebron/attractions/old-red-old-ten-scenic-byway"
+        }
+      ]
+    },
+    {
+      "name": "Rendezvous Region Scenic Backway",
+      "designation": "North Dakota Scenic Backway",
+      "where": "Roads west of Walhalla along the Pembina River and the Pembina Gorge, Pembina and Cavalier counties",
+      "facts": [
+        {
+          "fact": "Winds along the bends of the Pembina River with views of the Pembina Gorge.",
+          "source": "https://www.ndtourism.com/bywaysbackways"
+        },
+        {
+          "fact": "North Dakota Tourism recommends the backway as the way to see the gorge up close without leaving the car.",
+          "source": "https://www.ndtourism.com/walhalla"
+        },
+        {
+          "fact": "The Pembina Gorge holds about 12,500 acres of woodland, one of the largest uninterrupted blocks in the state, in one of its deepest and steepest river valleys.",
+          "source": "https://www.ndtourism.com/walhalla/attractions-entertainment/family-fun/pembina-gorge"
+        },
+        {
+          "fact": "Walhalla sits on the Pembina River five miles from the Manitoba border.",
+          "source": "https://en.wikipedia.org/wiki/Walhalla,_North_Dakota"
+        }
+      ],
+      "review": "No page of its own. The program list links to the Pembina Gorge State Park page (https://www.parkrec.nd.gov/pembina-gorge-state-park), which does not mention the backway; url given is the North Dakota Tourism Walhalla page, which does. Exact roads not stated in any source fetched."
+    },
+    {
+      "name": "Sheyenne River Valley National Scenic Byway",
+      "designation": "North Dakota Scenic Byway and National Scenic Byway",
+      "where": "Barnes County Hwy 21 from Getchell Township Hall past Baldhill Dam, Valley City, Kathryn and Fort Ransom to Lisbon via Ransom County Hwy 13; Barnes and Ransom counties",
+      "facts": [
+        {
+          "fact": "63 miles from Getchell Township Hall past Baldhill Dam through Valley City, Kathryn and Fort Ransom to Lisbon.",
+          "source": "https://www.valleycitytourism.com/scenic-byway"
+        },
+        {
+          "fact": "Among the first three byways designated by North Dakota in 1997, extended 16 miles north to Baldhill Dam in 2000, and named a National Scenic Byway in 2002.",
+          "source": "https://www.valleycitytourism.com/scenic-byway"
+        },
+        {
+          "fact": "The valley is up to 330 feet deep and a mile wide, the largest glacial meltwater trench in eastern North Dakota.",
+          "source": "https://www.valleycitytourism.com/scenic-byway"
+        },
+        {
+          "fact": "FHWA describes it as a dip into a tree-speckled valley in a state known for flat horizons.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/16406"
+        }
+      ]
+    },
+    {
+      "name": "Standing Rock National Native American Scenic Byway",
+      "designation": "North Dakota Scenic Byway; North Dakota segment of the Native American Scenic Byway (National Scenic Byway)",
+      "where": "ND 1806 and ND 24 from the Cannonball River south through Fort Yates to the South Dakota line, Sioux County",
+      "facts": [
+        {
+          "fact": "Begins at the Cannonball River and runs south on Highways 1806 and 24 to the South Dakota line, across the Standing Rock Sioux Reservation above the Missouri.",
+          "source": "https://www.ndtourism.com/fort-yates/attractions/standing-rock-national-native-american-scenic-byway"
+        },
+        {
+          "fact": "Sitting Bull lived and died in this country; stops include the Sitting Bull Burial Site, Standing Rock Monument and the Fort Yates Stockade.",
+          "source": "https://www.ndtourism.com/fort-yates/attractions/standing-rock-national-native-american-scenic-byway"
+        },
+        {
+          "fact": "The full national byway runs about 350 miles across the Standing Rock, Cheyenne River, Lower Brule and Crow Creek reservations in North and South Dakota.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2596"
+        }
+      ],
+      "review": "State name for the ND part of the national Native American Scenic Byway (ND and SD). The state page's external link (nativeamerica.travel) now redirects to a search page on destinationnativeamerica.com, so the ND tourism page is used."
+    },
+    {
+      "name": "Theodore Roosevelt National Park North Unit Scenic Byway",
+      "designation": "North Dakota Scenic Byway",
+      "where": "North Unit Scenic Drive from US 85 about 15 miles south of Watford City west to Oxbow Overlook, McKenzie County",
+      "facts": [
+        {
+          "fact": "Begins about 15 miles south of Watford City at US 85 and runs west on the park's scenic drive.",
+          "source": "https://www.ndtourism.com/watford-city/attractions/theodore-roosevelt-national-park-north-unit-scenic-byway"
+        },
+        {
+          "fact": "The 14-mile out-and-back Scenic Drive follows the badlands floor, climbs out to River Bend Overlook, then runs along the rim to Oxbow Overlook at road's end; nearly all paved with one gravel stretch.",
+          "source": "https://www.nps.gov/thro/planyourvisit/north-unit.htm"
+        },
+        {
+          "fact": "River Bend Overlook has a CCC shelter; bison range through the park.",
+          "source": "https://www.ndtourism.com/watford-city/attractions/theodore-roosevelt-national-park-north-unit-scenic-byway"
+        }
+      ]
+    },
+    {
+      "name": "Turtle Mountain Scenic Byway",
+      "designation": "North Dakota Scenic Byway",
+      "where": "County Hwy 43 from 3 miles north of Rolla west to US 281, then ND 43 west to ND 14; Rolette and Bottineau counties",
+      "facts": [
+        {
+          "fact": "Begins 3 miles north of Rolla, runs west on County Highway 43 to Highway 281, then west on State Highway 43 to Highway 14.",
+          "source": "https://www.ndtourism.com/bottineau/attractions/turtle-mountain-byway"
+        },
+        {
+          "fact": "Winds through the Turtle Mountains past farmsteads, pasture, lakes and wooded wildlife areas, then descends with a view over the prairie.",
+          "source": "https://www.ndtourism.com/bottineau/attractions/turtle-mountain-byway"
+        },
+        {
+          "fact": "Points of interest include Lake Metigoshe State Park, Lake Upsilon, Butte St. Paul and the International Peace Garden.",
+          "source": "https://www.ndtourism.com/bottineau/attractions/turtle-mountain-byway"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    "Designating agency is not stated on the North Dakota Tourism program page or anywhere fetched; NDDOT's site has no byway page. Issuer is given as North Dakota Tourism with NDDOT per the registry, unverified. The Valley City CVB says only 'designated by the State of North Dakota in 1997'.",
+    "The program page also lists three non-designated drives (Theodore Roosevelt National Park South Unit Loop, Enchanted Highway, Devils Lake Loop); excluded.",
+    "Killdeer Mountain Four Bears: catalog line (28.2 mi) appears to stop on ND 22 and omit the ND 23 leg to New Town; the state page gives 64 miles and the state GIS feature is roughly that long.",
+    "Des Lacs NWR backway: catalog maps 39.9 miles, the tourism page says 13 miles, the state GIS layer about 22 miles. Catalog line may include extra or duplicated segments.",
+    "Rendezvous Region Scenic Backway has no dedicated page; the program list links to the Pembina Gorge State Park page, which does not mention it. Exact route roads were not found in any fetched source.",
+    "Standing Rock page's external link (https://nativeamerica.travel/experiences/native-american-scenic-byway) redirects to a generic search page. The ND tourism page also claims the area is Sakakawea's final resting place, which is disputed; left out of the blurb.",
+    "Sheyenne mileage: state and FHWA say 63 miles; catalog maps 77.5 and the state GIS layer has paved and gravel features that together run longer, likely including alternate segments."
+  ]
+}

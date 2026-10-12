@@ -1,0 +1,422 @@
+{
+  "authored": false,
+  "bywayId": "trail-of-the-lonesome-pine-daniel-boone-heritage-trail-10300",
+  "title": "Trail of the Lonesome Pine / Daniel Boone Heritage Trail",
+  "longitude": -83.0527,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -82.57208,
+        36.59457
+      ],
+      [
+        -82.5672,
+        36.61869
+      ],
+      [
+        -82.55248,
+        36.63017
+      ],
+      [
+        -82.5591,
+        36.63692
+      ],
+      [
+        -82.57309,
+        36.63732
+      ],
+      [
+        -82.58847,
+        36.63118
+      ],
+      [
+        -82.60886,
+        36.63094
+      ],
+      [
+        -82.61403,
+        36.634
+      ],
+      [
+        -82.6966,
+        36.64186
+      ],
+      [
+        -82.73976,
+        36.64124
+      ],
+      [
+        -82.74931,
+        36.64803
+      ],
+      [
+        -82.74706,
+        36.65713
+      ],
+      [
+        -82.7529,
+        36.66375
+      ],
+      [
+        -82.75612,
+        36.67503
+      ],
+      [
+        -82.75383,
+        36.69504
+      ],
+      [
+        -82.7725,
+        36.70036
+      ],
+      [
+        -82.78064,
+        36.71087
+      ],
+      [
+        -82.80651,
+        36.71079
+      ],
+      [
+        -82.819,
+        36.71457
+      ],
+      [
+        -82.88072,
+        36.71134
+      ],
+      [
+        -82.9037,
+        36.70699
+      ],
+      [
+        -82.90934,
+        36.70962
+      ],
+      [
+        -82.91286,
+        36.7196
+      ],
+      [
+        -82.92607,
+        36.71618
+      ],
+      [
+        -82.93376,
+        36.72161
+      ],
+      [
+        -82.94086,
+        36.72209
+      ],
+      [
+        -82.95842,
+        36.71117
+      ],
+      [
+        -82.97721,
+        36.70394
+      ],
+      [
+        -83.02101,
+        36.69769
+      ],
+      [
+        -83.02388,
+        36.69321
+      ],
+      [
+        -83.03273,
+        36.69741
+      ],
+      [
+        -83.06206,
+        36.69618
+      ],
+      [
+        -83.07913,
+        36.69148
+      ],
+      [
+        -83.08747,
+        36.69389
+      ],
+      [
+        -83.10137,
+        36.68763
+      ],
+      [
+        -83.11099,
+        36.68902
+      ],
+      [
+        -83.13315,
+        36.683
+      ],
+      [
+        -83.15463,
+        36.68108
+      ],
+      [
+        -83.1928,
+        36.66995
+      ],
+      [
+        -83.21069,
+        36.67427
+      ],
+      [
+        -83.23871,
+        36.69464
+      ],
+      [
+        -83.25564,
+        36.69907
+      ],
+      [
+        -83.28182,
+        36.69241
+      ],
+      [
+        -83.3072,
+        36.6911
+      ],
+      [
+        -83.34754,
+        36.67888
+      ],
+      [
+        -83.3642,
+        36.6795
+      ],
+      [
+        -83.36879,
+        36.67408
+      ],
+      [
+        -83.42764,
+        36.639
+      ],
+      [
+        -83.45904,
+        36.62991
+      ],
+      [
+        -83.48713,
+        36.6325
+      ],
+      [
+        -83.53177,
+        36.62884
+      ],
+      [
+        -83.58806,
+        36.60547
+      ],
+      [
+        -83.61592,
+        36.60485
+      ],
+      [
+        -83.62928,
+        36.59975
+      ],
+      [
+        -83.64558,
+        36.6034
+      ],
+      [
+        -83.65563,
+        36.60029
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Weber City",
+      "model": "town-blocks",
+      "at": 0.02949307359525809,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Gate City",
+      "at": 0.062059620596205956,
+      "landmark": ""
+    },
+    {
+      "name": "Clinchport",
+      "at": 0.22046070460704603,
+      "landmark": ""
+    },
+    {
+      "name": "Duffield",
+      "at": 0.28401084010840105,
+      "landmark": ""
+    },
+    {
+      "name": "Stickleyville",
+      "at": 0.3686991869918699,
+      "landmark": ""
+    },
+    {
+      "name": "Jonesville",
+      "at": 0.5528455284552846,
+      "landmark": ""
+    },
+    {
+      "name": "Smiley",
+      "at": 0.6957994579945799,
+      "landmark": ""
+    },
+    {
+      "name": "Ewing",
+      "at": 0.820460704607046,
+      "landmark": ""
+    },
+    {
+      "name": "Wheeler",
+      "at": 0.9173441734417345,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/trail-of-the-lonesome-pine-daniel-boone-heritage-trail-10300.json",
+    "public/data/strips/trail-of-the-lonesome-pine-daniel-boone-heritage-trail-10300.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

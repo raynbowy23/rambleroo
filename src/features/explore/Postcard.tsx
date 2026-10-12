@@ -108,7 +108,7 @@ export function Postcard({
                 ? `${formatMiles(b.stateMiles[stateCode])} in ${stateNames([stateCode])} · ${formatMiles(b.mappedMiles)} in total`
                 : `${formatMiles(b.mappedMiles)} in total`}
             </span>
-            <span>{story ? (story.reviewed ? 'Story' : 'Draft story · pending review') : 'Listing'}</span>
+            <span>{story ? (story.draft ? 'Draft story' : 'Story') : 'Listing'}</span>
             {mapTo && (
               <Link viewTransition to={mapTo}>
                 Show on map

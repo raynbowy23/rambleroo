@@ -1,0 +1,256 @@
+{
+  "authored": false,
+  "bywayId": "harquahala-mountain-back-country-byway-68910",
+  "title": "Harquahala Mountain Back Country Byway",
+  "longitude": -113.3376,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -113.2938,
+        33.728
+      ],
+      [
+        -113.3046,
+        33.732
+      ],
+      [
+        -113.3129,
+        33.7367
+      ],
+      [
+        -113.3152,
+        33.7456
+      ],
+      [
+        -113.3152,
+        33.7553
+      ],
+      [
+        -113.3188,
+        33.7607
+      ],
+      [
+        -113.3278,
+        33.7623
+      ],
+      [
+        -113.3307,
+        33.7673
+      ],
+      [
+        -113.338,
+        33.7748
+      ],
+      [
+        -113.3455,
+        33.7762
+      ],
+      [
+        -113.347,
+        33.7731
+      ],
+      [
+        -113.3483,
+        33.7757
+      ],
+      [
+        -113.3509,
+        33.7771
+      ],
+      [
+        -113.3502,
+        33.7794
+      ],
+      [
+        -113.3526,
+        33.7816
+      ],
+      [
+        -113.3533,
+        33.7864
+      ],
+      [
+        -113.3506,
+        33.7943
+      ],
+      [
+        -113.3522,
+        33.796
+      ],
+      [
+        -113.3528,
+        33.8001
+      ],
+      [
+        -113.3542,
+        33.8009
+      ],
+      [
+        -113.3538,
+        33.8042
+      ],
+      [
+        -113.356,
+        33.8075
+      ],
+      [
+        -113.3539,
+        33.8098
+      ],
+      [
+        -113.3493,
+        33.8108
+      ],
+      [
+        -113.3465,
+        33.8071
+      ],
+      [
+        -113.3452,
+        33.8097
+      ],
+      [
+        -113.3467,
+        33.812
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "content/stories/harquahala-mountain-back-country-byway-68910.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

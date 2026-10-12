@@ -1,0 +1,401 @@
+{
+  "authored": false,
+  "bywayId": "m-15-pathway-to-family-fun-992607",
+  "title": "M-15 Pathway to Family Fun",
+  "longitude": -83.5202,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -83.41851,
+        42.7205
+      ],
+      [
+        -83.42139,
+        42.78929
+      ],
+      [
+        -83.42231,
+        42.80049
+      ],
+      [
+        -83.42327,
+        42.80504
+      ],
+      [
+        -83.42199,
+        42.80927
+      ],
+      [
+        -83.42213,
+        42.8111
+      ],
+      [
+        -83.42319,
+        42.81253
+      ],
+      [
+        -83.42668,
+        42.81482
+      ],
+      [
+        -83.4386,
+        42.8214
+      ],
+      [
+        -83.44264,
+        42.82498
+      ],
+      [
+        -83.44736,
+        42.83741
+      ],
+      [
+        -83.44789,
+        42.84371
+      ],
+      [
+        -83.45143,
+        42.85164
+      ],
+      [
+        -83.46522,
+        42.86654
+      ],
+      [
+        -83.47807,
+        42.8829
+      ],
+      [
+        -83.48354,
+        42.89132
+      ],
+      [
+        -83.48976,
+        42.89637
+      ],
+      [
+        -83.49482,
+        42.90203
+      ],
+      [
+        -83.50004,
+        42.90659
+      ],
+      [
+        -83.50131,
+        42.90871
+      ],
+      [
+        -83.50203,
+        42.92645
+      ],
+      [
+        -83.50477,
+        42.93355
+      ],
+      [
+        -83.50473,
+        42.94728
+      ],
+      [
+        -83.50619,
+        42.96247
+      ],
+      [
+        -83.50716,
+        42.99648
+      ],
+      [
+        -83.50881,
+        42.99936
+      ],
+      [
+        -83.5154,
+        43.00479
+      ],
+      [
+        -83.51687,
+        43.00747
+      ],
+      [
+        -83.51744,
+        43.01049
+      ],
+      [
+        -83.51952,
+        43.15019
+      ],
+      [
+        -83.52059,
+        43.15233
+      ],
+      [
+        -83.5254,
+        43.15585
+      ],
+      [
+        -83.52632,
+        43.15933
+      ],
+      [
+        -83.52437,
+        43.16605
+      ],
+      [
+        -83.52443,
+        43.17134
+      ],
+      [
+        -83.52092,
+        43.1749
+      ],
+      [
+        -83.52008,
+        43.17689
+      ],
+      [
+        -83.52018,
+        43.21248
+      ],
+      [
+        -83.52906,
+        43.23789
+      ],
+      [
+        -83.53017,
+        43.28522
+      ],
+      [
+        -83.54301,
+        43.30893
+      ],
+      [
+        -83.57844,
+        43.34892
+      ],
+      [
+        -83.5803,
+        43.35362
+      ],
+      [
+        -83.57999,
+        43.37048
+      ],
+      [
+        -83.58342,
+        43.37204
+      ],
+      [
+        -83.58956,
+        43.37244
+      ],
+      [
+        -83.60202,
+        43.37678
+      ],
+      [
+        -83.70494,
+        43.42137
+      ],
+      [
+        -83.72127,
+        43.42505
+      ],
+      [
+        -83.72853,
+        43.42561
+      ],
+      [
+        -83.74764,
+        43.43636
+      ],
+      [
+        -83.74934,
+        43.43884
+      ],
+      [
+        -83.76781,
+        43.47792
+      ],
+      [
+        -83.85397,
+        43.5765
+      ],
+      [
+        -83.76803,
+        43.47777
+      ],
+      [
+        -83.75508,
+        43.45059
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Clarkston",
+      "model": "town-blocks",
+      "at": 0.013553166163007876,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ortonville",
+      "model": "gristmill",
+      "at": 0.12169936245331077,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ortonville",
+      "model": "town-blocks",
+      "at": 0.12169936245331077,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Vassar",
+      "model": "town-blocks",
+      "at": 0.6070042726861438,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Clarkston",
+      "at": 0.013682864450128007,
+      "landmark": "Clarkston"
+    },
+    {
+      "name": "Ortonville",
+      "at": 0.12186700767263425,
+      "landmark": "Ortonville"
+    },
+    {
+      "name": "Goodrich",
+      "at": 0.19066496163682867,
+      "landmark": ""
+    },
+    {
+      "name": "Davison",
+      "at": 0.2970588235294118,
+      "landmark": ""
+    },
+    {
+      "name": "Otisville",
+      "at": 0.41483375959079294,
+      "landmark": ""
+    },
+    {
+      "name": "Millington",
+      "at": 0.5184143222506394,
+      "landmark": ""
+    },
+    {
+      "name": "Vassar",
+      "at": 0.6070332480818414,
+      "landmark": "Vassar"
+    },
+    {
+      "name": "Bay City",
+      "at": 0.8714009675602937,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/m-15-pathway-to-family-fun-992607.json",
+    "public/data/strips/m-15-pathway-to-family-fun-992607.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

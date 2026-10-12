@@ -7,8 +7,9 @@ import roadStyle from './Byway.module.css'
 import { StripLink } from '../strip/StripLink'
 import { requireNetwork } from '../../lib/network'
 import { PhotoGallery, MomentPhoto, PhotoCredit } from '../photos/Photos'
+import { StreetGallery, MomentFrame, useMomentViews } from '../photos/StreetViews'
 import { ShareControl } from '../share/ShareControl'
-import { useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router'
 import { useByway, useStory, usePhotos, stateChapters } from '../../lib/data'
 import { illustrationCaption, listingDescription, shortDesignation } from '../../lib/format'
@@ -25,6 +26,9 @@ import { loadBywayGeometry } from '../map/layers'
 import s from '../../components/ui/Content.module.css'
 // Shared-boundary neighbors derived from the bundled us-atlas/states-10m.json topology.
 import adjacentStates from './adjacent-states.json'
+
+// three.js loads only on pages that have a miniature.
+const RoadMiniature = lazy(() => import('./RoadMiniature'))
 const adjacent: Record<string, string[]> = adjacentStates
 // Great-circle length chooses the longest geometry part; it is never presented as catalog mileage.
 function partLength(points: number[][]) {
@@ -39,6 +43,7 @@ export default function BywayPage() {
   const { id } = useParams()
   const strip = useStrip(id ?? '')
   const photos = usePhotos(id)
+  const momentViews = useMomentViews(id)
   const photo = photos[0]
   const { byway: b, status, byways, meta } = useByway(id)
   const { story, status: storyStatus } = useStory(id)
@@ -93,8 +98,16 @@ export default function BywayPage() {
   if (status === 'error') return <PageStatus title="The catalog could not be loaded" error />
   if (!b) return <NotFound title="Road not found" />
   const point = start?.id === b.id ? start.point : b.center
+  const miniature = (
+    <Suspense fallback={null}>
+      <RoadMiniature id={b.id} latitude={b.center[1]} />
+    </Suspense>
+  )
   return (
     <main className={`${roadStyle.roadPage} ${story ? s.editorialPage : ''}`}>
+      <Link className={roadStyle.backToMap} to={`/?byway=${b.id}`}>
+        ← Back to the map
+      </Link>
       <Hero
         key={b.id}
         photo={photo}
@@ -111,9 +124,9 @@ export default function BywayPage() {
         <p className={s.subline}>{story?.tagline ?? listingDescription(b)}</p>
         <p className={s.muted}>
           {story
-            ? !story.reviewed
-              ? 'Draft story · pending review'
-              : 'Reviewed story'
+            ? story.draft
+              ? 'Draft story · pending rewrite'
+              : 'Story'
             : storyStatus === 'loading'
               ? 'Opening story…'
               : storyStatus === 'error'
@@ -156,8 +169,11 @@ export default function BywayPage() {
                   {story.intro.map((p, i) => (
                     <p key={i}>{p}</p>
                   ))}
+                  {story.notice && <Notice text={story.notice} />}
                 </section>
+                {miniature}
                 <PhotoGallery photos={photos} />
+                <StreetGallery bywayId={b.id} />
                 <section className={s.section}>
                   <h2>Signature moments</h2>
                   <p className={s.muted}>Numbers identify moments on the map, not a suggested stop order. Map anchors are approximate.</p>
@@ -173,29 +189,34 @@ export default function BywayPage() {
                       onBlur={() => setActive(null)}
                     >
                       <MomentPhoto photo={photos.find((photo) => photo.moment === m.title)}>
-                        <div className={s.momentArt}>
-                          <Scene
-                            look={b.look}
-                            region={b.region}
-                            motifs={m.motifs}
-                            framed
-                            title={illustrationCaption(m.title, b.region, m.motifs)}
-                            family={m.scene}
-                            seed={b.seed + i + 1}
-                            variant="postcard"
-                          />
-                          <span className={s.credit} tabIndex={0} title={illustrationCaption(m.title, b.region, m.motifs)}>
-                            Illustration · no photo yet
-                            <span className="visually-hidden">: {illustrationCaption(m.title, b.region, m.motifs)}</span>
-                          </span>
-                        </div>
+                        <MomentFrame view={momentViews.find((v) => v.moment === m.title)} near={m.title}>
+                          <div className={s.momentArt}>
+                            <Scene
+                              look={b.look}
+                              region={b.region}
+                              motifs={m.motifs}
+                              framed
+                              title={illustrationCaption(m.title, b.region, m.motifs)}
+                              family={m.scene}
+                              seed={b.seed + i + 1}
+                              variant="postcard"
+                            />
+                            <span className={s.credit} tabIndex={0} title={illustrationCaption(m.title, b.region, m.motifs)}>
+                              Illustration · no photo yet
+                              <span className="visually-hidden">: {illustrationCaption(m.title, b.region, m.motifs)}</span>
+                            </span>
+                          </div>
+                        </MomentFrame>
                       </MomentPhoto>
                       <div className={s.momentBody}>
                         <span className={s.badge}>{m.kind}</span>
                         <h3>
                           {i + 1}. {m.title}
                         </h3>
-                        <p>{m.text}</p>
+                        {m.text.split('\n\n').map((p, j) => (
+                          <p key={j}>{p}</p>
+                        ))}
+                        {m.notice && <Notice text={m.notice} />}
                       </div>
                     </article>
                   ))}
@@ -225,7 +246,9 @@ export default function BywayPage() {
                 </ul>
               </section>
             )}
+            {!story && miniature}
             {!story && <PhotoGallery photos={photos} />}
+            {!story && <StreetGallery bywayId={b.id} />}
           </div>
           <aside className={s.companion}>
             <RouteMap
@@ -317,7 +340,7 @@ export default function BywayPage() {
             </div>
             <div>
               <dt>Editorial status</dt>
-              <dd>{story ? (story.reviewed ? 'Reviewed story' : 'Draft story · pending review') : 'Listing'}</dd>
+              <dd>{story ? (story.draft ? 'Draft story · pending rewrite' : 'Story') : 'Listing'}</dd>
             </div>
             <div>
               <dt>Lead photo</dt>
@@ -345,5 +368,14 @@ export default function BywayPage() {
       </div>
       {editing && <VisitEditor initialNote={note} key={b.id} byway={b} onClose={() => setEditing(false)} />}
     </main>
+  )
+}
+
+function Notice({ text }: { text: string }) {
+  return (
+    <p className={s.notice}>
+      <strong>What to notice</strong>
+      {text}
+    </p>
   )
 }

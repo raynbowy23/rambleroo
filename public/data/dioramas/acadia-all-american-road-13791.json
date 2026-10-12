@@ -1,0 +1,404 @@
+{
+  "authored": false,
+  "bywayId": "acadia-all-american-road-13791",
+  "title": "Acadia All American Road",
+  "longitude": -68.2158,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -68.246,
+        44.41033
+      ],
+      [
+        -68.2371,
+        44.40708
+      ],
+      [
+        -68.23113,
+        44.39989
+      ],
+      [
+        -68.2133,
+        44.38612
+      ],
+      [
+        -68.20424,
+        44.38756
+      ],
+      [
+        -68.19696,
+        44.37183
+      ],
+      [
+        -68.1978,
+        44.36536
+      ],
+      [
+        -68.20344,
+        44.36132
+      ],
+      [
+        -68.20006,
+        44.35916
+      ],
+      [
+        -68.1934,
+        44.36321
+      ],
+      [
+        -68.18848,
+        44.36011
+      ],
+      [
+        -68.1875,
+        44.34775
+      ],
+      [
+        -68.18308,
+        44.33875
+      ],
+      [
+        -68.1849,
+        44.32791
+      ],
+      [
+        -68.19135,
+        44.31783
+      ],
+      [
+        -68.18974,
+        44.30859
+      ],
+      [
+        -68.1929,
+        44.3075
+      ],
+      [
+        -68.19693,
+        44.31643
+      ],
+      [
+        -68.20008,
+        44.31708
+      ],
+      [
+        -68.20296,
+        44.30223
+      ],
+      [
+        -68.20837,
+        44.29872
+      ],
+      [
+        -68.2157,
+        44.29802
+      ],
+      [
+        -68.21803,
+        44.30503
+      ],
+      [
+        -68.22752,
+        44.31728
+      ],
+      [
+        -68.24079,
+        44.31176
+      ],
+      [
+        -68.24797,
+        44.31406
+      ],
+      [
+        -68.25276,
+        44.31983
+      ],
+      [
+        -68.24828,
+        44.32198
+      ],
+      [
+        -68.2513,
+        44.3343
+      ],
+      [
+        -68.24895,
+        44.34656
+      ],
+      [
+        -68.24488,
+        44.35155
+      ],
+      [
+        -68.24072,
+        44.35069
+      ],
+      [
+        -68.24138,
+        44.36479
+      ],
+      [
+        -68.23516,
+        44.37144
+      ],
+      [
+        -68.23136,
+        44.38327
+      ],
+      [
+        -68.22672,
+        44.38617
+      ],
+      [
+        -68.22999,
+        44.39008
+      ],
+      [
+        -68.22826,
+        44.3968
+      ],
+      [
+        -68.23788,
+        44.40683
+      ],
+      [
+        -68.25044,
+        44.41202
+      ],
+      [
+        -68.25114,
+        44.4277
+      ],
+      [
+        -68.27067,
+        44.43093
+      ],
+      [
+        -68.2857,
+        44.42892
+      ],
+      [
+        -68.31124,
+        44.43572
+      ],
+      [
+        -68.31974,
+        44.43313
+      ],
+      [
+        -68.32595,
+        44.42551
+      ],
+      [
+        -68.33491,
+        44.41995
+      ],
+      [
+        -68.35213,
+        44.41891
+      ],
+      [
+        -68.36348,
+        44.42149
+      ],
+      [
+        -68.37018,
+        44.43941
+      ],
+      [
+        -68.36937,
+        44.44869
+      ],
+      [
+        -68.36126,
+        44.45861
+      ],
+      [
+        -68.36282,
+        44.46848
+      ],
+      [
+        -68.3677,
+        44.47644
+      ],
+      [
+        -68.36572,
+        44.48286
+      ],
+      [
+        -68.39108,
+        44.50995
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Thunder Hole",
+      "model": "sea-stack",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "harbor",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Nannau",
+      "at": 0.10236842105263155,
+      "landmark": ""
+    },
+    {
+      "name": "Salsbury Cove",
+      "at": 0.7018421052631578,
+      "landmark": ""
+    },
+    {
+      "name": "Trenton",
+      "at": 0.885,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/acadia-all-american-road-13791.json",
+    "public/data/strips/acadia-all-american-road-13791.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

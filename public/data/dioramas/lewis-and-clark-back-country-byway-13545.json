@@ -1,0 +1,399 @@
+{
+  "authored": false,
+  "bywayId": "lewis-and-clark-back-country-byway-13545",
+  "title": "Lewis and Clark Back Country Byway",
+  "longitude": -113.4582,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -113.63983,
+        44.95645
+      ],
+      [
+        -113.6247,
+        44.95603
+      ],
+      [
+        -113.61112,
+        44.95055
+      ],
+      [
+        -113.59121,
+        44.94694
+      ],
+      [
+        -113.57579,
+        44.94717
+      ],
+      [
+        -113.5587,
+        44.94917
+      ],
+      [
+        -113.53527,
+        44.96908
+      ],
+      [
+        -113.51665,
+        44.97653
+      ],
+      [
+        -113.49988,
+        44.97874
+      ],
+      [
+        -113.48111,
+        44.97307
+      ],
+      [
+        -113.47181,
+        44.97932
+      ],
+      [
+        -113.46222,
+        44.97955
+      ],
+      [
+        -113.45997,
+        44.98381
+      ],
+      [
+        -113.44492,
+        44.97465
+      ],
+      [
+        -113.4481,
+        44.97883
+      ],
+      [
+        -113.44631,
+        44.98219
+      ],
+      [
+        -113.44932,
+        44.9851
+      ],
+      [
+        -113.44989,
+        44.99073
+      ],
+      [
+        -113.46002,
+        44.99246
+      ],
+      [
+        -113.45442,
+        44.99876
+      ],
+      [
+        -113.44345,
+        45.00405
+      ],
+      [
+        -113.44944,
+        45.00738
+      ],
+      [
+        -113.44745,
+        45.01073
+      ],
+      [
+        -113.44919,
+        45.01478
+      ],
+      [
+        -113.45686,
+        45.01522
+      ],
+      [
+        -113.46044,
+        45.01839
+      ],
+      [
+        -113.45344,
+        45.02602
+      ],
+      [
+        -113.45233,
+        45.03524
+      ],
+      [
+        -113.45785,
+        45.03631
+      ],
+      [
+        -113.45758,
+        45.04233
+      ],
+      [
+        -113.45984,
+        45.04423
+      ],
+      [
+        -113.4658,
+        45.04428
+      ],
+      [
+        -113.47417,
+        45.03836
+      ],
+      [
+        -113.48053,
+        45.04237
+      ],
+      [
+        -113.47896,
+        45.04506
+      ],
+      [
+        -113.45819,
+        45.04946
+      ],
+      [
+        -113.45882,
+        45.05462
+      ],
+      [
+        -113.49185,
+        45.05781
+      ],
+      [
+        -113.52385,
+        45.05481
+      ],
+      [
+        -113.54558,
+        45.04664
+      ],
+      [
+        -113.55464,
+        45.0355
+      ],
+      [
+        -113.57043,
+        45.0335
+      ],
+      [
+        -113.56969,
+        45.02975
+      ],
+      [
+        -113.57407,
+        45.02767
+      ],
+      [
+        -113.57296,
+        45.02412
+      ],
+      [
+        -113.58093,
+        45.02773
+      ],
+      [
+        -113.57977,
+        45.02373
+      ],
+      [
+        -113.59774,
+        45.0218
+      ],
+      [
+        -113.59539,
+        45.01602
+      ],
+      [
+        -113.60044,
+        45.01692
+      ],
+      [
+        -113.61118,
+        45.01092
+      ],
+      [
+        -113.62043,
+        45.00977
+      ],
+      [
+        -113.62354,
+        45.00494
+      ],
+      [
+        -113.64152,
+        45.00156
+      ],
+      [
+        -113.63892,
+        44.99497
+      ],
+      [
+        -113.63983,
+        44.95645
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lemhi Pass",
+      "model": "snow-peak",
+      "at": 0.31361589588270933,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Horseshoe Bend Creek",
+      "model": "switchback",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Lemhi Pass",
+      "at": 0.31394101876675606,
+      "landmark": ""
+    },
+    {
+      "name": "Tendoy",
+      "at": 0.9941018766756032,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/lewis-and-clark-back-country-byway-13545.json",
+    "public/data/strips/lewis-and-clark-back-country-byway-13545.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

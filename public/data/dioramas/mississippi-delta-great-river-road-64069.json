@@ -1,0 +1,367 @@
+{
+  "authored": false,
+  "bywayId": "mississippi-delta-great-river-road-64069",
+  "title": "Mississippi Delta Great River Road",
+  "longitude": -90.9814,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -90.12752,
+        34.99468
+      ],
+      [
+        -90.15206,
+        34.95919
+      ],
+      [
+        -90.18612,
+        34.96256
+      ],
+      [
+        -90.20238,
+        34.94815
+      ],
+      [
+        -90.21976,
+        34.9482
+      ],
+      [
+        -90.21968,
+        34.89994
+      ],
+      [
+        -90.28689,
+        34.85873
+      ],
+      [
+        -90.33859,
+        34.7881
+      ],
+      [
+        -90.35583,
+        34.74877
+      ],
+      [
+        -90.37613,
+        34.73187
+      ],
+      [
+        -90.39109,
+        34.6321
+      ],
+      [
+        -90.43761,
+        34.57501
+      ],
+      [
+        -90.43748,
+        34.5549
+      ],
+      [
+        -90.47946,
+        34.45217
+      ],
+      [
+        -90.48837,
+        34.4501
+      ],
+      [
+        -90.53689,
+        34.4844
+      ],
+      [
+        -90.55306,
+        34.42548
+      ],
+      [
+        -90.70899,
+        34.21208
+      ],
+      [
+        -90.76207,
+        34.16187
+      ],
+      [
+        -90.84836,
+        34.10539
+      ],
+      [
+        -90.85508,
+        34.02416
+      ],
+      [
+        -91.02782,
+        33.86052
+      ],
+      [
+        -91.02619,
+        33.83907
+      ],
+      [
+        -90.98045,
+        33.80287
+      ],
+      [
+        -90.98372,
+        33.6839
+      ],
+      [
+        -90.98806,
+        33.66993
+      ],
+      [
+        -91.08446,
+        33.59402
+      ],
+      [
+        -91.07119,
+        33.5012
+      ],
+      [
+        -91.04208,
+        33.44793
+      ],
+      [
+        -91.03759,
+        33.41369
+      ],
+      [
+        -91.04449,
+        33.31472
+      ],
+      [
+        -91.03388,
+        33.26485
+      ],
+      [
+        -91.06482,
+        33.18368
+      ],
+      [
+        -91.06576,
+        33.12552
+      ],
+      [
+        -91.03522,
+        33.09594
+      ],
+      [
+        -91.00135,
+        33.02982
+      ],
+      [
+        -90.96696,
+        33.00235
+      ],
+      [
+        -90.96199,
+        32.91897
+      ],
+      [
+        -90.96483,
+        32.91127
+      ],
+      [
+        -90.98303,
+        32.9108
+      ],
+      [
+        -91.02487,
+        32.92101
+      ],
+      [
+        -91.04914,
+        32.9022
+      ],
+      [
+        -91.05263,
+        32.87213
+      ],
+      [
+        -91.06703,
+        32.86321
+      ],
+      [
+        -91.07832,
+        32.82955
+      ],
+      [
+        -91.11623,
+        32.7852
+      ],
+      [
+        -91.11168,
+        32.76968
+      ],
+      [
+        -91.09801,
+        32.76382
+      ],
+      [
+        -91.04908,
+        32.75883
+      ],
+      [
+        -91.03245,
+        32.7248
+      ],
+      [
+        -90.97775,
+        32.71734
+      ],
+      [
+        -90.93953,
+        32.72595
+      ],
+      [
+        -90.91566,
+        32.67368
+      ],
+      [
+        -90.87495,
+        32.66711
+      ],
+      [
+        -90.85334,
+        32.58888
+      ],
+      [
+        -90.84141,
+        32.57551
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Friars Point",
+      "model": "town-blocks",
+      "at": 0.27844598156633754,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rosedale",
+      "model": "town-blocks",
+      "at": 0.4795119858438206,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Norfolk",
+      "at": 0.034110653863740285,
+      "landmark": ""
+    },
+    {
+      "name": "Tunica",
+      "at": 0.13283036122542297,
+      "landmark": ""
+    },
+    {
+      "name": "Lula",
+      "at": 0.21326017375400091,
+      "landmark": ""
+    },
+    {
+      "name": "Farrell",
+      "at": 0.31385459533607685,
+      "landmark": ""
+    },
+    {
+      "name": "Deeson",
+      "at": 0.4088705989940558,
+      "landmark": ""
+    },
+    {
+      "name": "Rosedale",
+      "at": 0.4794238683127572,
+      "landmark": "Rosedale"
+    },
+    {
+      "name": "Benoit",
+      "at": 0.5508916323731139,
+      "landmark": ""
+    },
+    {
+      "name": "Greenville",
+      "at": 0.6475080018289896,
+      "landmark": ""
+    },
+    {
+      "name": "Leota",
+      "at": 0.7342935528120714,
+      "landmark": ""
+    },
+    {
+      "name": "Mayersville",
+      "at": 0.8358939186099681,
+      "landmark": ""
+    },
+    {
+      "name": "Onward",
+      "at": 0.9383173296753544,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/mississippi-delta-great-river-road-64069.json",
+    "public/data/strips/mississippi-delta-great-river-road-64069.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

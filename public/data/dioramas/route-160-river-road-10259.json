@@ -1,0 +1,349 @@
+{
+  "authored": false,
+  "bywayId": "route-160-river-road-10259",
+  "title": "Route 160--River Road",
+  "longitude": -121.5575,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -121.75357,
+        38.00507
+      ],
+      [
+        -121.75154,
+        38.0143
+      ],
+      [
+        -121.75027,
+        38.04856
+      ],
+      [
+        -121.73805,
+        38.05954
+      ],
+      [
+        -121.73216,
+        38.07923
+      ],
+      [
+        -121.71241,
+        38.08279
+      ],
+      [
+        -121.70777,
+        38.08628
+      ],
+      [
+        -121.70565,
+        38.09943
+      ],
+      [
+        -121.68674,
+        38.13039
+      ],
+      [
+        -121.6862,
+        38.13808
+      ],
+      [
+        -121.68189,
+        38.15135
+      ],
+      [
+        -121.6759,
+        38.15578
+      ],
+      [
+        -121.6679,
+        38.17085
+      ],
+      [
+        -121.65848,
+        38.17467
+      ],
+      [
+        -121.65055,
+        38.17205
+      ],
+      [
+        -121.64396,
+        38.17188
+      ],
+      [
+        -121.62598,
+        38.16506
+      ],
+      [
+        -121.61132,
+        38.16198
+      ],
+      [
+        -121.5969,
+        38.16662
+      ],
+      [
+        -121.59272,
+        38.17149
+      ],
+      [
+        -121.59483,
+        38.17245
+      ],
+      [
+        -121.58326,
+        38.18697
+      ],
+      [
+        -121.56489,
+        38.19426
+      ],
+      [
+        -121.55964,
+        38.19954
+      ],
+      [
+        -121.55698,
+        38.22648
+      ],
+      [
+        -121.5596,
+        38.23607
+      ],
+      [
+        -121.55635,
+        38.24074
+      ],
+      [
+        -121.55043,
+        38.24242
+      ],
+      [
+        -121.52928,
+        38.23885
+      ],
+      [
+        -121.51828,
+        38.24049
+      ],
+      [
+        -121.51192,
+        38.24664
+      ],
+      [
+        -121.51208,
+        38.25075
+      ],
+      [
+        -121.51651,
+        38.25621
+      ],
+      [
+        -121.55372,
+        38.28386
+      ],
+      [
+        -121.56493,
+        38.29399
+      ],
+      [
+        -121.5743,
+        38.30402
+      ],
+      [
+        -121.57912,
+        38.31636
+      ],
+      [
+        -121.57888,
+        38.31875
+      ],
+      [
+        -121.57648,
+        38.31854
+      ],
+      [
+        -121.57359,
+        38.32753
+      ],
+      [
+        -121.56563,
+        38.33554
+      ],
+      [
+        -121.55404,
+        38.33538
+      ],
+      [
+        -121.54454,
+        38.33882
+      ],
+      [
+        -121.52023,
+        38.36115
+      ],
+      [
+        -121.5193,
+        38.36831
+      ],
+      [
+        -121.5236,
+        38.37793
+      ],
+      [
+        -121.51372,
+        38.38711
+      ],
+      [
+        -121.5122,
+        38.40028
+      ],
+      [
+        -121.51602,
+        38.40905
+      ],
+      [
+        -121.53149,
+        38.43133
+      ],
+      [
+        -121.52677,
+        38.43382
+      ],
+      [
+        -121.51055,
+        38.43505
+      ],
+      [
+        -121.50168,
+        38.44122
+      ],
+      [
+        -121.49997,
+        38.44516
+      ],
+      [
+        -121.49991,
+        38.45311
+      ],
+      [
+        -121.50432,
+        38.47538
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Isleton",
+      "model": "town-blocks",
+      "at": 0.3548020342107702,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Locke",
+      "model": "town-blocks",
+      "at": 0.5649960246074656,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Courtland",
+      "model": "town-blocks",
+      "at": 0.7191382994016313,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Rio Vista",
+      "at": 0.24904862579281173,
+      "landmark": ""
+    },
+    {
+      "name": "Isleton",
+      "at": 0.3543340380549682,
+      "landmark": "Isleton"
+    },
+    {
+      "name": "Walnut Grove",
+      "at": 0.5560253699788583,
+      "landmark": ""
+    },
+    {
+      "name": "Courtland",
+      "at": 0.7190274841437632,
+      "landmark": "Courtland"
+    },
+    {
+      "name": "Hood",
+      "at": 0.8059196617336152,
+      "landmark": ""
+    },
+    {
+      "name": "Clarksburg",
+      "at": 0.893446088794926,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-160-river-road-10259.json",
+    "public/data/strips/route-160-river-road-10259.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

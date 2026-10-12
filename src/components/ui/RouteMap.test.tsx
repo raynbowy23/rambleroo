@@ -31,6 +31,7 @@ vi.mock('../../features/map/maplibre', () => ({
       }
     },
     AttributionControl: class {},
+    NavigationControl: class {},
     Marker: class {
       setLngLat() {
         return this

@@ -1,0 +1,575 @@
+{
+  "note": "Facts and sources behind the member descriptions in NY.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Lakes to Locks Passage, All American Road",
+      "designation": "All-American Road (and New York State Scenic Byway)",
+      "where": "Waterford to Rouses Point along the upper Hudson, Champlain Canal, Lake George and Lake Champlain (US 4, NY 22, NY 9N, US 9); Saratoga, Washington, Warren, Essex and Clinton counties",
+      "facts": [
+        {
+          "fact": "NYSDOT lists the byway as connecting Waterford and Rouses Point, with part of the route paralleling the Champlain Canal.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/lakes-to-locks-passage"
+        },
+        {
+          "fact": "FHWA lists Lakes to Locks Passage as an All-American Road, 234 miles long.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2479"
+        },
+        {
+          "fact": "NY 9N runs the entire western shoreline of Lake George and the west edge of Lake Champlain between Ticonderoga and Westport.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_9N"
+        },
+        {
+          "fact": "Fort Ticonderoga and the forts at Crown Point are among the historic sites on the route.",
+          "source": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+        }
+      ],
+      "review": "lakestolocks.org did not respond; NYSDOT now links the organization's site passageport.org. Catalog line is 203 mi against FHWA's 234."
+    },
+    {
+      "name": "Mohawk Towpath Byway, National Scenic Byway",
+      "designation": "National Scenic Byway (and New York State Scenic Byway)",
+      "where": "Waterford to the Stockade District of Schenectady along the Mohawk River and Erie Canal, with a loop through Cohoes and Halfmoon; Albany, Saratoga and Schenectady counties",
+      "facts": [
+        {
+          "fact": "FHWA gives the byway's length as 26.2 miles and points visitors to the canal locks and bridges.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/57185"
+        },
+        {
+          "fact": "The byway parallels the Mohawk River and the Erie Canal from Waterford to Schenectady; buildings in the Stockade District date from 1670.",
+          "source": "https://www.mohawktowpath.org/"
+        }
+      ]
+    },
+    {
+      "name": "Great Lakes Seaway Trail, National Scenic Byway",
+      "designation": "National Scenic Byway (and New York State Scenic Byway)",
+      "where": "Ripley on Lake Erie to Massena on the St. Lawrence, 454 miles in New York along Lake Erie, the Niagara River, Lake Ontario and the St. Lawrence; continues into Pennsylvania",
+      "facts": [
+        {
+          "fact": "NYSDOT gives New York's stretch as 454 miles connecting Ripley and Massena, past harbors, lighthouses and bays.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/Great-Lakes-SeawaysTrails"
+        },
+        {
+          "fact": "FHWA lists Niagara Falls, the 1000 Islands and 29 lighthouses along the 518-mile byway.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2488"
+        },
+        {
+          "fact": "The trail was first designated in 1978 as an 80-mile byway between the Seaway International Bridge and the Thousand Islands Bridge.",
+          "source": "https://en.wikipedia.org/wiki/Great_Lakes_Seaway_Trail"
+        }
+      ],
+      "review": "seawaytrail.com is now a domain-for-sale page, so the FHWA page is used."
+    },
+    {
+      "name": "Palisades Scenic Byway, National Scenic Byway",
+      "designation": "National Scenic Byway (and New York State Scenic Byway)",
+      "where": "Palisades Interstate Parkway (NY 987C) from the New Jersey line to the Bear Mountain Bridge circle at Fort Montgomery; Rockland and Orange counties",
+      "facts": [
+        {
+          "fact": "NYSDOT gives 26.58 miles within New York, in Orange and Rockland counties, and notes the original stone arched bridges, forested buffers and landscaped medians.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/palisades"
+        },
+        {
+          "fact": "Parkway construction began in 1947; it was dedicated in 1957 and completed in 1962.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/palisades"
+        },
+        {
+          "fact": "The parkway's northern terminus is a traffic circle in Fort Montgomery at the Bear Mountain Bridge.",
+          "source": "https://en.wikipedia.org/wiki/Palisades_Interstate_Parkway"
+        },
+        {
+          "fact": "FHWA lists the Palisades Scenic Byway as a National Scenic Byway in New York, 38.25 miles in total.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/81561"
+        }
+      ],
+      "review": "Catalog has only the New Jersey half (palisades-scenic-byway-68569, NJ). The FHWA layer FHWA_ScenicByways_08042026_gdb/FeatureServer/0 has a line with NAME='Palisades Scenic Byway - NY' (NSB 2021), an alternative to the NYSDOT where clause."
+    },
+    {
+      "name": "Adirondack Trail",
+      "designation": "New York State Scenic Byway",
+      "where": "NY 30 from Fonda to Malone through Johnstown, Gloversville, Northville, Speculator, Indian Lake, Blue Mountain Lake, Long Lake, Tupper Lake and Paul Smiths",
+      "facts": [
+        {
+          "fact": "NYSDOT gives the trail as 188 miles connecting Fonda and Malone across the Adirondack Park.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/adirondack-trail"
+        },
+        {
+          "fact": "The trail follows Route 30 past the Saranac, Tupper, Long, Indian and St. Regis lakes, with the Adirondack Museum at Blue Mountain Lake.",
+          "source": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+        },
+        {
+          "fact": "Within the Adirondack Park, NY 30 is known as the Adirondack Trail.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_30"
+        }
+      ]
+    },
+    {
+      "name": "Black River Trail",
+      "designation": "New York State Scenic Byway",
+      "where": "Rome to Dexter and Black River Bay on Lake Ontario, 94 miles down the Black River valley; Oneida, Lewis and Jefferson counties",
+      "facts": [
+        {
+          "fact": "NYSDOT describes a 94-mile corridor from the City of Rome to the Village of Dexter and Black River Bay on Lake Ontario.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/blackriver"
+        },
+        {
+          "fact": "The valley lies between the Tug Hill Plateau to the west and the Adirondacks to the east.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/blackriver"
+        },
+        {
+          "fact": "The Black River is known for whitewater rafting.",
+          "source": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+        }
+      ],
+      "review": "Older FHWA and tourism descriptions give 111 miles from Rome to Ogdensburg; the catalog line (124 mi, bbox reaching 44.68N at Ogdensburg) follows that older alignment, which now overlaps Maple Traditions. The current NYSDOT route ends at Dexter."
+    },
+    {
+      "name": "Blue Ridge Road",
+      "designation": "New York State Scenic Byway",
+      "where": "Blue Ridge Road (Essex County road; NYSDOT page says County Road 2B, Boreas Road) from North Hudson to Newcomb, 17 miles",
+      "facts": [
+        {
+          "fact": "NYSDOT gives 17 miles from North Hudson to Newcomb along the southern fringe of the High Peaks, with trails to the Dix Mountain and Hoffman Notch wildernesses.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/blue-ridge-road"
+        },
+        {
+          "fact": "The road is named after Blue Ridge Falls.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/blue-ridge-road"
+        },
+        {
+          "fact": "The state tourism guide notes trout in the Boreas River and that buffalo are the only domesticated animals a traveler is likely to see.",
+          "source": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+        }
+      ],
+      "review": "Not flagged as a scenic byway in the NYSDOT inventory; the inventory carries it as BLUE RIDGE RD, county road 84 (18.6 mi), not 2B. The DEC Scenic Roads list has 'Essex County Highway 2B, 17.0 miles'."
+    },
+    {
+      "name": "Bronx River Parkway",
+      "designation": "New York State Scenic Byway",
+      "where": "Bronx River Parkway in Westchester County, Bronx/Westchester line north to Kensico Dam Plaza, 13.2 miles",
+      "facts": [
+        {
+          "fact": "Only the Westchester section, from the county line to Kensico Dam Plaza, is designated; construction began there in 1907.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/bronx-river-pkwy"
+        },
+        {
+          "fact": "NYSDOT calls it the earliest limited-access automobile route to start construction in the United States and the first highway with a median strip.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/bronx-river-pkwy"
+        },
+        {
+          "fact": "The Bronx River Parkway Reservation is Westchester County's first park.",
+          "source": "https://www.bronx-river.com/"
+        }
+      ],
+      "review": "Catalog line is 19.1 mi and includes the Bronx section south of the county line, which is not part of the designation."
+    },
+    {
+      "name": "Catskill Mountains Scenic Byway",
+      "designation": "New York State Scenic Byway",
+      "where": "NY 28 with short spurs on NY 42 and NY 214, Olive to Andes through Phoenicia, Pine Hill, Fleischmanns and Margaretville; Ulster and Delaware counties",
+      "facts": [
+        {
+          "fact": "The byway runs 52 miles, mainly on NY 28 with extensions on NY 42 and NY 214, through the towns of Olive, Shandaken, Middletown and Andes.",
+          "source": "https://sceniccatskills.com/"
+        },
+        {
+          "fact": "It links Phoenicia, Pine Hill, Fleischmanns and Margaretville.",
+          "source": "https://sceniccatskills.com/"
+        },
+        {
+          "fact": "NYSDOT describes the byway as celebrating the Catskill Park and the New York City watershed's reservoirs and historic railroads.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/lists/catskill"
+        }
+      ],
+      "review": "Official site is sceniccatskills.com. NYSDOT page says 65 miles, the byway site 52. The Ulster County layer Scenic_Byways_Ulster_and_Neighboring_Counties/FeatureServer/27 has a whole line with SB='Catskill Mountains'."
+    },
+    {
+      "name": "Cayuga Lake Scenic Byway",
+      "designation": "New York State Scenic Byway",
+      "where": "Loop around Cayuga Lake through Ithaca, Seneca Falls, Aurora and Union Springs; Tompkins, Seneca and Cayuga counties",
+      "facts": [
+        {
+          "fact": "Designated by NYSDOT in 2002, the byway is an 87-mile loop around Cayuga Lake.",
+          "source": "https://cayugalake.com/cayuga-lake-scenic-byway/"
+        },
+        {
+          "fact": "Frontenac Island lies offshore of Union Springs, and cattail marshes line parts of the lake.",
+          "source": "https://cayugalake.com/cayuga-lake-scenic-byway/"
+        },
+        {
+          "fact": "FHWA notes vineyards, lakeside bluffs and sites of the Women's Rights movement.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/57183"
+        }
+      ]
+    },
+    {
+      "name": "Central Adirondack Trail",
+      "designation": "New York State Scenic Byway",
+      "where": "Glens Falls to Rome by Lake George, North Creek, Indian Lake, Blue Mountain Lake, Raquette Lake, Inlet, Old Forge and Remsen (US 9, NY 28 and others)",
+      "facts": [
+        {
+          "fact": "FHWA describes an arc from Glens Falls by Lake George, Indian Lake and Blue Mountain Lake, then past the Fulton Chain of Lakes at Raquette Lake, Inlet and Old Forge.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2224"
+        },
+        {
+          "fact": "The route ends in Rome at the restored Fort Stanwix.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2224"
+        },
+        {
+          "fact": "NYSDOT gives 140 miles; FHWA gives 153.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/central-adirondack-trail"
+        }
+      ]
+    },
+    {
+      "name": "Dude Ranch Trail",
+      "designation": "New York State Scenic Byway",
+      "where": "40-mile loop from Lake George village through Warrensburg, Stony Creek and Lake Luzerne; Warren County",
+      "facts": [
+        {
+          "fact": "The trail is a 40-mile loop that begins and ends in the village of Lake George and passes horse ranches and resort villages.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2220"
+        },
+        {
+          "fact": "It travels through Warrensburg, Stony Creek and Lake Luzerne, where whitewater rafting trips on the Sacandaga River depart.",
+          "source": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Durham Valley Scenic Byway",
+      "designation": "New York State Scenic Byway",
+      "where": "A network of town and county roads in the Town of Durham, Greene County (Cornwallville, Cochrane, Sutton, Stone Bridge, Prink Hill and others), 21 miles",
+      "facts": [
+        {
+          "fact": "The byway is 21 miles of roads in the Town of Durham, first designated Scenic Roads by the NYS Department of Environmental Conservation in 1991.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/durham-valley"
+        },
+        {
+          "fact": "It is a network of mostly contiguous roads below the northern escarpment of the Catskills, with historic houses, farms, stone bridges and walls.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/durham-valley"
+        },
+        {
+          "fact": "A 'Five State View' looks over the Hudson Valley to the Berkshires, Vermont, Connecticut and New Hampshire.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/durham-valley"
+        }
+      ],
+      "review": "durhamvalley.com is the Town of Durham planning site (NYSDOT links it). Flagged NYSDOT segments in Durham and Windham total about 23 mi. The Ulster County layer also has SB='Durham Valley Scenic Byway'."
+    },
+    {
+      "name": "High Peaks Byway (Route 73)",
+      "designation": "New York State Scenic Byway",
+      "where": "NY 73 from Adirondack Northway (I-87) Exit 30 through Keene Valley and Keene to Lake Placid; Essex County",
+      "facts": [
+        {
+          "fact": "NYSDOT gives 30 miles from Northway Exit 30 to Lake Placid, past Chapel Pond, Johns Brook, Roaring Brook Falls and the Cascade Lakes.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/high-peaks-byway-rte-73"
+        },
+        {
+          "fact": "More than 40 peaks in the Adirondack Park rise above 4,000 feet.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/high-peaks-byway-rte-73"
+        },
+        {
+          "fact": "NY 73 passes several named peaks, including Porter Mountain and Lower Wolfjaw Mountain.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_73"
+        }
+      ]
+    },
+    {
+      "name": "Historic Parkways of Long Island",
+      "designation": "New York State Scenic Byway",
+      "where": "Bethpage, Wantagh, Meadowbrook, Loop, Bay and Ocean parkways; Nassau and Suffolk counties (Hempstead, Oyster Bay, Babylon, Islip, Freeport, Farmingdale, Massapequa Park)",
+      "facts": [
+        {
+          "fact": "NYSDOT lists the selected parkways as Bethpage State, Wantagh State, Meadowbrook State, Loop, Bay and Ocean parkways.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/historic-pkwy-li"
+        },
+        {
+          "fact": "The Wantagh's first 5-mile segment opened in 1929 as the Jones Beach Causeway.",
+          "source": "https://en.wikipedia.org/wiki/Wantagh_State_Parkway"
+        },
+        {
+          "fact": "Ocean Parkway runs 15.59 miles across Jones Beach Island between Jones Beach State Park and Captree State Park.",
+          "source": "https://en.wikipedia.org/wiki/Ocean_Parkway_(Long_Island)"
+        }
+      ],
+      "review": "NYSDOT page holds only the corridor management plan and parkway list, no description. In the NYSDOT inventory only the Suffolk part of Ocean Parkway (909D) carries the scenic flag."
+    },
+    {
+      "name": "Maple Traditions",
+      "designation": "New York State Scenic Byway",
+      "where": "Mainly NY 812 from Lowville through Croghan, Harrisville and Gouverneur to Ogdensburg, with an alternate loop through Canton; Lewis and St. Lawrence counties",
+      "facts": [
+        {
+          "fact": "The 80-mile route runs from Lowville past the American Maple Museum in Croghan to Ogdensburg at the Ogdensburg-Prescott International Bridge.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/mapletraditions"
+        },
+        {
+          "fact": "NYSDOT describes family sugar bush operations using wood-stoked fires and horse-drawn wagons, and Amish farmers working their fields.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/mapletraditions"
+        },
+        {
+          "fact": "NY 812 runs from Lowville through Croghan, Harrisville, Gouverneur and De Kalb to the international bridge at Ogdensburg.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_812"
+        }
+      ],
+      "review": "NYSDOT page's 'Connects: Rome and Dexter' line is copied from the Black River Trail page; the text itself says Lowville to Ogdensburg. NY 812 segments may also carry the flag from the older Black River Trail alignment."
+    },
+    {
+      "name": "Military Trail",
+      "designation": "New York State Scenic Byway",
+      "where": "Rouses Point to Massena through Mooers, Chateaugay and Malone (US 11 corridor); Clinton, Franklin and St. Lawrence counties",
+      "facts": [
+        {
+          "fact": "NYSDOT gives 84 miles connecting Rouses Point and Massena, a route long used to move troops and equipment between the St. Lawrence and Lake Champlain.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/military-trail"
+        },
+        {
+          "fact": "The byway passes the 120-foot High Falls at Chateaugay and the Almanzo Wilder Homestead near Malone.",
+          "source": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Mountain Cloves",
+      "designation": "New York State Scenic Byway",
+      "where": "NY 214, NY 23A, Platte Clove Road and other roads in the Town of Hunter, Greene County, 41 miles",
+      "facts": [
+        {
+          "fact": "NYSDOT gives 41 miles of scenic roads in the Town of Hunter in the northern Catskills, country that influenced the Hudson River School painters.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/mountain-cloves"
+        },
+        {
+          "fact": "NY 214 runs through the narrow pass of Stony Clove Notch and began as a tannery road opened by 1849.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_214"
+        },
+        {
+          "fact": "A 2013 state bill created the 41-mile Mountain Cloves Scenic Byway.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_214"
+        }
+      ],
+      "review": "Flagged NYSDOT segments in Hunter and Tannersville total about 35.5 mi of the 41. The Ulster County layer has SB='Mountain Cloves' (about 36 mi)."
+    },
+    {
+      "name": "North Fork Trail",
+      "designation": "New York State Scenic Byway",
+      "where": "Loop from Southold to Orient Point on NY 25 and County Road 48; Suffolk County",
+      "facts": [
+        {
+          "fact": "NYSDOT describes a 36-mile loop from Southold to Orient Point past wineries, farms and wetlands, ending with a view of the open Atlantic.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/north-fork-trail"
+        },
+        {
+          "fact": "NY 25 ends at the Cross Sound Ferry terminal at Orient Point.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_25"
+        },
+        {
+          "fact": "FHWA calls it a wine-and-water byway.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/63611"
+        }
+      ],
+      "review": "Catalog line is only 13.4 mi of the 36-mile loop. northfork.org (North Fork Promotion Council) loads by script and gave no text, so the NYSDOT page is used."
+    },
+    {
+      "name": "Olympic Trail",
+      "designation": "New York State Scenic Byway",
+      "where": "Sackets Harbor to Keeseville through Harrisville, Natural Bridge, Star Lake, Cranberry Lake, Tupper Lake, Saranac Lake, Lake Placid and Wilmington (NY 3, NY 86, NY 9N)",
+      "facts": [
+        {
+          "fact": "NYSDOT gives 170 miles connecting Sackets Harbor and Keeseville; Lake Placid hosted the Winter Olympics in 1932 and 1980.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/olympic-trail"
+        },
+        {
+          "fact": "The byway passes Cranberry Lake, Tupper Lake and Saranac Lake on the way to Lake Placid.",
+          "source": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Revolutionary Byway",
+      "designation": "New York State Scenic Byway",
+      "where": "Port Ontario to Albany through Rome, Utica, Herkimer, Fonda and Schenectady",
+      "facts": [
+        {
+          "fact": "NYSDOT gives 158 miles connecting Port Ontario and Albany.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/revolutionary-byway"
+        },
+        {
+          "fact": "The byway largely follows the Mohawk River, with the Herkimer Home, Oriskany Battlefield and Fort Stanwix interpreting the valley's role in the Revolutionary War.",
+          "source": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+        }
+      ],
+      "review": "NYSDOT's list calls it Revolutionary Byway; its own page and FHWA call it the Revolutionary Trail."
+    },
+    {
+      "name": "Roosevelt-Marcy Trail",
+      "designation": "New York State Scenic Byway",
+      "where": "NY 28N from Long Lake to North Creek through Newcomb and Minerva; Hamilton, Essex and Warren counties",
+      "facts": [
+        {
+          "fact": "The 40-mile section of NY 28N east of Long Lake is the byway, marking the path Theodore Roosevelt took in 1901 from Mount Marcy to North Creek after McKinley was shot.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_28N"
+        },
+        {
+          "fact": "At the North Creek train station Roosevelt learned he was to become the 26th president; the road was named the Roosevelt-Marcy Memorial Highway in the early 1980s.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/roosevelt-marcy-trail"
+        },
+        {
+          "fact": "Great Camp Santanoni and the fire tower on Goodnow Mountain are along the route.",
+          "source": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Route 20 Scenic Byway",
+      "designation": "New York State Scenic Byway",
+      "where": "US 20 from Duanesburg (Schenectady County) to LaFayette (Onondaga County), 108 miles through 7 counties",
+      "facts": [
+        {
+          "fact": "108 miles of US 20 from Duanesburg to LaFayette are designated, across 7 counties and 27 municipalities.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/route-20"
+        },
+        {
+          "fact": "The best-known turnpike on the route, the Cherry Valley Turnpike, connected Albany to Cherry Valley and later Cazenovia, and was dotted with taverns and hotels.",
+          "source": "https://www.nyroute20.com/"
+        }
+      ]
+    },
+    {
+      "name": "Scenic Route 90",
+      "designation": "New York State Scenic Byway",
+      "where": "NY 90 from Homer to Montezuma along the east side of Cayuga Lake; Cortland and Cayuga counties",
+      "facts": [
+        {
+          "fact": "NY 90 runs about 53 miles from Homer to Montezuma, all but 5 of them in Cayuga County.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_90"
+        },
+        {
+          "fact": "FHWA describes Finger Lakes farm country, small towns on Cayuga Lake, and access to the final home of Harriet Tubman.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2267"
+        }
+      ]
+    },
+    {
+      "name": "Seneca Lake Byway",
+      "designation": "New York State Scenic Byway",
+      "where": "NY 414 from Clute Park in Watkins Glen through Hector to Lodi Point State Marine Park, 19 miles; Schuyler and Seneca counties",
+      "facts": [
+        {
+          "fact": "The byway follows NY 414 for 19 miles along Seneca Lake's southeast shore, from Clute Park in Watkins Glen to Lodi Point State Marine Park.",
+          "source": "https://www.senecalakescenicbyway.com/about"
+        },
+        {
+          "fact": "Seneca Lake is more than 600 feet deep and never freezes.",
+          "source": "https://www.senecalakescenicbyway.com/about"
+        },
+        {
+          "fact": "NYSDOT lists it as the Seneca Lake, Hector and Lodi Scenic Byway.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/seneca-lake-hector-lodi"
+        }
+      ]
+    },
+    {
+      "name": "Shawangunk Mountains",
+      "designation": "New York State Scenic Byway",
+      "where": "88-mile loop around the northern Shawangunk Ridge through New Paltz, Rosendale, Ellenville, Gardiner and Wallkill; Ulster and Orange counties",
+      "facts": [
+        {
+          "fact": "Designated by the legislature in 2006, the byway is 88 miles around the northern Shawangunks through the Rondout and Wallkill valleys; the name is pronounced SHON-gum.",
+          "source": "https://www.mtnscenicbyway.org/about-the-byway/"
+        },
+        {
+          "fact": "Places along it include Mohonk Preserve, Minnewaska's Awosting Falls, New Paltz and Ellenville.",
+          "source": "https://www.mtnscenicbyway.org/"
+        }
+      ]
+    },
+    {
+      "name": "Southern Adirondack Trail",
+      "designation": "New York State Scenic Byway",
+      "where": "Herkimer and Little Falls to Speculator, looping around Piseco Lake; Herkimer and Hamilton counties",
+      "facts": [
+        {
+          "fact": "NYSDOT gives 112 miles connecting Herkimer and Little Falls on the Erie Canal with Speculator.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/southern-adirondack-trail"
+        },
+        {
+          "fact": "The trail loops around Piseco Lake and passes the Herkimer Diamond Mine, where visitors dig quartz crystals, and the Erie Canal locks at Little Falls.",
+          "source": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Taconic Parkway",
+      "designation": "New York State Scenic Byway",
+      "where": "Taconic State Parkway (NY 987G) from Kensico Dam to Chatham; Westchester, Putnam, Dutchess and Columbia counties",
+      "facts": [
+        {
+          "fact": "The parkway runs 104 miles from Kensico Dam to Chatham, the longest parkway in New York.",
+          "source": "https://en.wikipedia.org/wiki/Taconic_State_Parkway"
+        },
+        {
+          "fact": "Landscape architect Gilmore Clarke laid out its winding route for views of the Hudson Highlands, the Catskills and the Taconic region.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/taconic-pkwy"
+        },
+        {
+          "fact": "The entire parkway was listed on the National Register of Historic Places in 2005.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/taconic-pkwy"
+        }
+      ]
+    },
+    {
+      "name": "Upper Delaware (Route 97)",
+      "designation": "New York State Scenic Byway",
+      "where": "NY 97 from Port Jervis to Hancock along the Delaware River; Orange, Sullivan and Delaware counties",
+      "facts": [
+        {
+          "fact": "NY 97 runs 70.53 miles from Port Jervis to Hancock; its best-known stretch is the Hawk's Nest, a winding section along the Delaware north of Port Jervis.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_97"
+        },
+        {
+          "fact": "The whole highway officially opened on August 30, 1939.",
+          "source": "https://en.wikipedia.org/wiki/New_York_State_Route_97"
+        },
+        {
+          "fact": "The byway joined the state system on August 6, 2002; the Roebling Bridge is among its landmarks.",
+          "source": "https://www.udsb.net/"
+        }
+      ],
+      "review": "NYSDOT has no page for this byway; its list links udsb.net."
+    },
+    {
+      "name": "WNY Southtowns Scenic Byway",
+      "designation": "New York State Scenic Byway",
+      "where": "Loop on US 219, NY 240 and NY 242 from Orchard Park and East Aurora south through Boston, Colden, Concord and Ashford to Ellicottville; Erie and Cattaraugus counties",
+      "facts": [
+        {
+          "fact": "The byway forms a 108-mile loop from Orchard Park and Aurora south to the southern Ellicottville town line on US 219, NY 240 and NY 242.",
+          "source": "https://wnyssb.org/"
+        },
+        {
+          "fact": "The Roycroft Campus is in East Aurora.",
+          "source": "https://wnyssb.org/"
+        },
+        {
+          "fact": "Griffis Sculpture Park has had steel sculptures installed on its 450 acres since the early 1960s.",
+          "source": "https://www.dot.ny.gov/display/programs/scenic-byways/wny-southtowns"
+        }
+      ],
+      "review": "Catalog line (74 mi, south edge 42.51N) stops short of the Cattaraugus County extension through Ashford to Ellicottville (about 42.27N)."
+    }
+  ],
+  "issues": [
+    "Palisades Scenic Byway is a National Scenic Byway in New York (FHWA 81561, NSB 2021) but the catalog only has the New Jersey half (palisades-scenic-byway-68569, NJ). The New York half needs a line (PIP, NY 987C, 26.6 mi).",
+    "Black River Trail: catalog line (124.5 mi, reaches Ogdensburg) follows the old Rome to Ogdensburg alignment. NYSDOT now describes Rome to Dexter and Black River Bay, 94 miles; the Lowville to Ogdensburg part is now Maple Traditions (NY 812).",
+    "WNY Southtowns: catalog line (74 mi) lacks the Cattaraugus County extension to Ellicottville; the byway is 108 miles (FHWA still says 71.2).",
+    "North Fork Trail: catalog line is 13.4 mi; the byway is a 36-mile loop from Southold to Orient Point.",
+    "Bronx River Parkway: catalog line (19.1 mi) includes the Bronx section; only the Westchester 13.2 miles are designated.",
+    "Seaway Trail organization site seawaytrail.com is now a domain-for-sale page; lakestolocks.org did not respond (passageport.org works).",
+    "NYSDOT Maple Traditions page says 'Connects: Rome and Dexter', copied from Black River Trail; its text says Lowville to Ogdensburg.",
+    "Lengths disagree between sources: Catskill Mountains (NYSDOT 65 mi, byway site 52), Central Adirondack (140 vs FHWA 153), Route 20 (108 vs FHWA 123), High Peaks (30 vs FHWA 48). The Adirondack tourism guide used for several facts dates from the Pataki administration and predates some current NYSDOT descriptions.",
+    "Blue Ridge Road is not flagged as a scenic byway in the NYSDOT inventory; the inventory road is county road 84, while NYSDOT and DEC call it County Road 2B.",
+    "NYSDOT's list page heads a section 'Additional Legislated New York State Scenic Byways (Highway Law 349-dd)' covering DEC Scenic Roads (short roads and bridges, mostly in the Hudson Valley and Greene County) and the state parkways. These were left out as not byways in the usual sense; Rei may want to decide. Storm King Highway (catalog storm-king-highway-980008, 'Classic drive') is on that DEC list as 'Old Storm King Highway (NYS Rte. 218)', 5.83 mi, so it could be labelled a DEC Scenic Road instead of a classic drive.",
+    "Mountain Cloves and Durham Valley were designated by the legislature (2013 bill for Mountain Cloves); both are networks of short roads, so a single strip may not suit them."
+  ]
+}

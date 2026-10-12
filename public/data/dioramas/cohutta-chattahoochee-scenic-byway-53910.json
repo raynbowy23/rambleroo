@@ -1,0 +1,414 @@
+{
+  "authored": false,
+  "bywayId": "cohutta-chattahoochee-scenic-byway-53910",
+  "title": "Cohutta-Chattahoochee Scenic Byway",
+  "longitude": -84.7437,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -84.93922,
+        34.95515
+      ],
+      [
+        -84.92731,
+        34.95511
+      ],
+      [
+        -84.90966,
+        34.94428
+      ],
+      [
+        -84.89526,
+        34.94415
+      ],
+      [
+        -84.89402,
+        34.94177
+      ],
+      [
+        -84.86498,
+        34.94258
+      ],
+      [
+        -84.84263,
+        34.92138
+      ],
+      [
+        -84.83063,
+        34.92196
+      ],
+      [
+        -84.81696,
+        34.92965
+      ],
+      [
+        -84.78765,
+        34.94215
+      ],
+      [
+        -84.7812,
+        34.94316
+      ],
+      [
+        -84.77416,
+        34.95666
+      ],
+      [
+        -84.75619,
+        34.95747
+      ],
+      [
+        -84.737,
+        34.95116
+      ],
+      [
+        -84.74758,
+        34.93509
+      ],
+      [
+        -84.74591,
+        34.90951
+      ],
+      [
+        -84.74927,
+        34.89848
+      ],
+      [
+        -84.75297,
+        34.86799
+      ],
+      [
+        -84.74588,
+        34.86789
+      ],
+      [
+        -84.73254,
+        34.8551
+      ],
+      [
+        -84.73118,
+        34.84667
+      ],
+      [
+        -84.72406,
+        34.83181
+      ],
+      [
+        -84.69607,
+        34.81922
+      ],
+      [
+        -84.69451,
+        34.80756
+      ],
+      [
+        -84.69988,
+        34.80292
+      ],
+      [
+        -84.70375,
+        34.80351
+      ],
+      [
+        -84.72347,
+        34.79664
+      ],
+      [
+        -84.73947,
+        34.78405
+      ],
+      [
+        -84.74643,
+        34.77435
+      ],
+      [
+        -84.75478,
+        34.76967
+      ],
+      [
+        -84.75429,
+        34.7656
+      ],
+      [
+        -84.74858,
+        34.76431
+      ],
+      [
+        -84.74495,
+        34.75907
+      ],
+      [
+        -84.73255,
+        34.75914
+      ],
+      [
+        -84.72942,
+        34.75253
+      ],
+      [
+        -84.72036,
+        34.74583
+      ],
+      [
+        -84.71858,
+        34.74065
+      ],
+      [
+        -84.71844,
+        34.74365
+      ],
+      [
+        -84.7156,
+        34.7448
+      ],
+      [
+        -84.71274,
+        34.74221
+      ],
+      [
+        -84.70736,
+        34.74362
+      ],
+      [
+        -84.70392,
+        34.75144
+      ],
+      [
+        -84.69566,
+        34.75105
+      ],
+      [
+        -84.6939,
+        34.75367
+      ],
+      [
+        -84.68931,
+        34.75425
+      ],
+      [
+        -84.69205,
+        34.75931
+      ],
+      [
+        -84.68613,
+        34.77022
+      ],
+      [
+        -84.68303,
+        34.77176
+      ],
+      [
+        -84.67822,
+        34.77148
+      ],
+      [
+        -84.66589,
+        34.77594
+      ],
+      [
+        -84.65764,
+        34.77331
+      ],
+      [
+        -84.65479,
+        34.77567
+      ],
+      [
+        -84.64904,
+        34.77614
+      ],
+      [
+        -84.64642,
+        34.77911
+      ],
+      [
+        -84.63919,
+        34.77945
+      ],
+      [
+        -84.62367,
+        34.78577
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Prater's Mill",
+      "model": "gristmill",
+      "at": 0.04712493099625291,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Chatsworth",
+      "model": "town-blocks",
+      "at": 0.7223537111814933,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Cohutta",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Beaverdale",
+      "at": 0.15748218527315913,
+      "landmark": ""
+    },
+    {
+      "name": "Cisco",
+      "at": 0.32826603325415676,
+      "landmark": ""
+    },
+    {
+      "name": "Crandall",
+      "at": 0.48147268408551064,
+      "landmark": ""
+    },
+    {
+      "name": "Chatsworth",
+      "at": 0.7230403800475059,
+      "landmark": "Chatsworth"
+    }
+  ],
+  "sources": [
+    "content/stories/cohutta-chattahoochee-scenic-byway-53910.json",
+    "public/data/strips/cohutta-chattahoochee-scenic-byway-53910.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

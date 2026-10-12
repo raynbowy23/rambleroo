@@ -5,9 +5,13 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import type { Photo } from '../../src/lib/types.ts'
+import { splitPhotos } from './split.ts'
 
 const ROOT = new URL('../../', import.meta.url)
-const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway catalog; personal project) node-fetch' }
+const UA = {
+  'User-Agent':
+    'Rambleroo/0.1 (scenic byway catalog; personal project; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues) node-fetch',
+}
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 interface Candidate {
@@ -86,7 +90,7 @@ function altText(c: Candidate, name: string) {
     const subject = c.file.replace(/^File:/, '').split(' - ')[1]
     return subject ? `${name}: ${subject}.` : `A view along ${name}.`
   }
-  const first = c.description.replace(/\s+/g, ' ').split(/(?<=\.)\s/)[0]
+  const first = c.description.replace(/\s+/g, ' ').split(/(?<=[a-z]{2}\.)\s/)[0]
   return first && first.length > 12 ? `${name}: ${first.slice(0, 160)}` : `A view along ${name}.`
 }
 
@@ -134,3 +138,4 @@ for (const [bywayId, c] of Object.entries(candidates)) {
   await writeFile(new URL('content/photos.json', ROOT), JSON.stringify(registry, null, 2) + '\n')
 }
 console.log(`${added} photos published, ${registry.length} in registry`)
+await splitPhotos()

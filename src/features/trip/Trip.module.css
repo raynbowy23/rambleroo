@@ -14,7 +14,7 @@
 .actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
 }
 .actions button,
 .actions a {
@@ -52,4 +52,12 @@
   display: inline-flex;
   min-height: 44px;
   align-items: center;
+}
+
+/* Buttons on the trip page get breathing room (margin) rather than fat padding. */
+.page > button:global(.btn) {
+  margin: 20px 0 8px;
+}
+.page > a:global(.btn) {
+  margin-top: 32px;
 }

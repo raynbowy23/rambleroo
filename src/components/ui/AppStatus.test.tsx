@@ -1,10 +1,11 @@
 import { afterEach, expect, it, vi } from 'vitest'
 import { act, cleanup, render, screen } from '@testing-library/react'
+import { MemoryRouter } from 'react-router'
 import { AppStatus } from './AppStatus'
 import { requireNetwork } from '../../lib/network'
 import { toast } from './Toast'
 
-vi.mock('../../lib/registerWorker', () => ({ registerWorker: () => undefined }))
+vi.mock('../../lib/registerWorker', () => ({ registerWorker: () => undefined, applyPendingUpdate: () => undefined }))
 vi.mock('./Toast', () => ({ toast: vi.fn() }))
 afterEach(() => {
   cleanup()
@@ -13,7 +14,11 @@ afterEach(() => {
 
 it('announces offline status and clears it when connectivity returns', () => {
   const online = vi.spyOn(navigator, 'onLine', 'get').mockReturnValue(true)
-  render(<AppStatus />)
+  render(
+    <MemoryRouter>
+      <AppStatus />
+    </MemoryRouter>,
+  )
   expect(screen.queryByRole('status')).toBeNull()
   act(() => {
     online.mockReturnValue(false)

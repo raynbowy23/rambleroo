@@ -1,4 +1,5 @@
 import { photoRoute, photoList, photoUsage, deletePhotoPrefix } from './photos'
+import { streetView } from './streetview'
 import { buildSnapshot, createShareSlug, parseShareRequest } from '../src/lib/shares'
 import { getAuth } from './auth'
 import type { Env } from './env'
@@ -41,6 +42,8 @@ export default {
     const { pathname } = new URL(request.url)
     if (!pathname.startsWith('/api/')) return env.ASSETS.fetch(request)
     if (pathname === '/api/health') return json({ ok: true })
+    const street = pathname.match(/^\/api\/street\/(\d{1,24})$/)
+    if (street) return streetView(request, env, street[1])
     try {
       const publicShare = pathname.match(/^\/api\/public\/shares\/([A-Za-z0-9_-]{12,128})$/)
       if (publicShare && request.method === 'GET') {

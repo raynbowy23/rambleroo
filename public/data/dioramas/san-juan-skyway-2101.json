@@ -1,0 +1,471 @@
+{
+  "authored": false,
+  "bywayId": "san-juan-skyway-2101",
+  "title": "San Juan Skyway",
+  "longitude": -107.8853,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -107.88477,
+        37.26919
+      ],
+      [
+        -107.85152,
+        37.31645
+      ],
+      [
+        -107.85044,
+        37.38325
+      ],
+      [
+        -107.80351,
+        37.45934
+      ],
+      [
+        -107.82439,
+        37.55446
+      ],
+      [
+        -107.8116,
+        37.65879
+      ],
+      [
+        -107.79884,
+        37.65906
+      ],
+      [
+        -107.79567,
+        37.67884
+      ],
+      [
+        -107.78029,
+        37.67559
+      ],
+      [
+        -107.75098,
+        37.73177
+      ],
+      [
+        -107.69909,
+        37.73492
+      ],
+      [
+        -107.67054,
+        37.7747
+      ],
+      [
+        -107.68016,
+        37.80591
+      ],
+      [
+        -107.67107,
+        37.80535
+      ],
+      [
+        -107.71908,
+        37.82255
+      ],
+      [
+        -107.72359,
+        37.87299
+      ],
+      [
+        -107.73627,
+        37.87335
+      ],
+      [
+        -107.70111,
+        37.92248
+      ],
+      [
+        -107.66933,
+        37.94111
+      ],
+      [
+        -107.64976,
+        37.9889
+      ],
+      [
+        -107.73468,
+        38.13827
+      ],
+      [
+        -107.77358,
+        38.15913
+      ],
+      [
+        -107.80627,
+        38.15769
+      ],
+      [
+        -107.88124,
+        38.09405
+      ],
+      [
+        -107.9489,
+        38.10631
+      ],
+      [
+        -107.99108,
+        38.09537
+      ],
+      [
+        -108.06113,
+        38.0208
+      ],
+      [
+        -107.92251,
+        37.94872
+      ],
+      [
+        -107.87116,
+        37.9505
+      ],
+      [
+        -107.89126,
+        37.90599
+      ],
+      [
+        -107.86971,
+        37.86119
+      ],
+      [
+        -107.94438,
+        37.78069
+      ],
+      [
+        -107.9851,
+        37.77125
+      ],
+      [
+        -108.02048,
+        37.74266
+      ],
+      [
+        -108.03628,
+        37.66487
+      ],
+      [
+        -108.06834,
+        37.62152
+      ],
+      [
+        -108.18515,
+        37.57552
+      ],
+      [
+        -108.27643,
+        37.5673
+      ],
+      [
+        -108.30654,
+        37.58934
+      ],
+      [
+        -108.35786,
+        37.58865
+      ],
+      [
+        -108.3934,
+        37.50632
+      ],
+      [
+        -108.43088,
+        37.47528
+      ],
+      [
+        -108.53552,
+        37.46315
+      ],
+      [
+        -108.55448,
+        37.41314
+      ],
+      [
+        -108.55287,
+        37.35321
+      ],
+      [
+        -108.42725,
+        37.35313
+      ],
+      [
+        -108.36129,
+        37.32261
+      ],
+      [
+        -108.23955,
+        37.35914
+      ],
+      [
+        -108.21206,
+        37.33491
+      ],
+      [
+        -108.19,
+        37.33917
+      ],
+      [
+        -108.16826,
+        37.32327
+      ],
+      [
+        -108.09883,
+        37.3266
+      ],
+      [
+        -107.99312,
+        37.26422
+      ],
+      [
+        -107.96397,
+        37.26514
+      ],
+      [
+        -107.95503,
+        37.27944
+      ],
+      [
+        -107.88476,
+        37.26924
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Silverton",
+      "model": "false-front-town",
+      "at": 0.20848863628065062,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Silverton",
+      "model": "town-blocks",
+      "at": 0.20848863628065062,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Red Mountain Pass",
+      "model": "switchback",
+      "at": 0.2509361114372926,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Red Mountain Pass",
+      "model": "snow-peak",
+      "at": 0.2509361114372926,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ouray",
+      "model": "false-front-town",
+      "at": 0.3071051200928278,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ouray",
+      "model": "snow-peak",
+      "at": 0.3071051200928278,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ouray",
+      "model": "town-blocks",
+      "at": 0.3071051200928278,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "aspen",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Silverton",
+      "at": 0.20848484848484847,
+      "landmark": "Silverton"
+    },
+    {
+      "name": "Ouray",
+      "at": 0.3087012987012987,
+      "landmark": "Ouray"
+    },
+    {
+      "name": "Ridgway",
+      "at": 0.35103896103896104,
+      "landmark": ""
+    },
+    {
+      "name": "Placerville",
+      "at": 0.46134199134199133,
+      "landmark": ""
+    },
+    {
+      "name": "Rico",
+      "at": 0.6126406926406927,
+      "landmark": ""
+    },
+    {
+      "name": "Dolores",
+      "at": 0.7711255411255411,
+      "landmark": ""
+    },
+    {
+      "name": "Cortez",
+      "at": 0.8105194805194805,
+      "landmark": ""
+    },
+    {
+      "name": "Mancos",
+      "at": 0.8808658008658008,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/san-juan-skyway-2101.json",
+    "public/data/strips/san-juan-skyway-2101.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

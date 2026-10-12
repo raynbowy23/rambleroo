@@ -1,0 +1,427 @@
+{
+  "authored": false,
+  "bywayId": "old-o-brien-glacial-trail-scenic-byway-2317",
+  "title": "Old O'Brien Glacial Trail Scenic Byway",
+  "longitude": -95.3716,
+  "ground": "prairie-grid",
+  "palette": "prairie",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -95.34384,
+        42.91787
+      ],
+      [
+        -95.33495,
+        42.9176
+      ],
+      [
+        -95.33373,
+        42.91799
+      ],
+      [
+        -95.32861,
+        42.92128
+      ],
+      [
+        -95.32727,
+        42.92187
+      ],
+      [
+        -95.31917,
+        42.92307
+      ],
+      [
+        -95.31757,
+        42.92304
+      ],
+      [
+        -95.31368,
+        42.92239
+      ],
+      [
+        -95.31198,
+        42.92242
+      ],
+      [
+        -95.31016,
+        42.92285
+      ],
+      [
+        -95.30664,
+        42.92446
+      ],
+      [
+        -95.30503,
+        42.92481
+      ],
+      [
+        -95.28947,
+        42.92445
+      ],
+      [
+        -95.24997,
+        42.92443
+      ],
+      [
+        -95.24954,
+        42.9018
+      ],
+      [
+        -95.24693,
+        42.89207
+      ],
+      [
+        -95.24536,
+        42.89021
+      ],
+      [
+        -95.24346,
+        42.88961
+      ],
+      [
+        -95.24247,
+        42.88884
+      ],
+      [
+        -95.24187,
+        42.88715
+      ],
+      [
+        -95.24203,
+        42.87988
+      ],
+      [
+        -95.24785,
+        42.87975
+      ],
+      [
+        -95.24874,
+        42.87906
+      ],
+      [
+        -95.24944,
+        42.8505
+      ],
+      [
+        -95.29037,
+        42.85103
+      ],
+      [
+        -95.30878,
+        42.8509
+      ],
+      [
+        -95.32865,
+        42.8514
+      ],
+      [
+        -95.36831,
+        42.85089
+      ],
+      [
+        -95.36829,
+        42.86545
+      ],
+      [
+        -95.42596,
+        42.86525
+      ],
+      [
+        -95.45012,
+        42.86486
+      ],
+      [
+        -95.47174,
+        42.86479
+      ],
+      [
+        -95.47177,
+        42.8979
+      ],
+      [
+        -95.47153,
+        42.89866
+      ],
+      [
+        -95.47098,
+        42.89935
+      ],
+      [
+        -95.46796,
+        42.90086
+      ],
+      [
+        -95.46716,
+        42.90175
+      ],
+      [
+        -95.46693,
+        42.90249
+      ],
+      [
+        -95.46664,
+        42.92381
+      ],
+      [
+        -95.46672,
+        42.94591
+      ],
+      [
+        -95.45302,
+        42.94125
+      ],
+      [
+        -95.45011,
+        42.94008
+      ],
+      [
+        -95.4286,
+        42.92835
+      ],
+      [
+        -95.4159,
+        42.92426
+      ],
+      [
+        -95.40363,
+        42.9208
+      ],
+      [
+        -95.38814,
+        42.92068
+      ],
+      [
+        -95.37748,
+        42.92119
+      ],
+      [
+        -95.37572,
+        42.92172
+      ],
+      [
+        -95.37078,
+        42.92408
+      ],
+      [
+        -95.36903,
+        42.92439
+      ],
+      [
+        -95.36777,
+        42.92427
+      ],
+      [
+        -95.35783,
+        42.9216
+      ],
+      [
+        -95.34979,
+        42.92109
+      ],
+      [
+        -95.34878,
+        42.92065
+      ],
+      [
+        -95.34488,
+        42.91789
+      ],
+      [
+        -95.34384,
+        42.91787
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Peterson",
+      "model": "town-blocks",
+      "at": 0.0011862667228067086,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Linn Grove",
+      "model": "town-blocks",
+      "at": 0.209095120543125,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "field",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    }
+  ],
+  "towns": [
+    {
+      "name": "Peterson",
+      "at": 0.00113314447592068,
+      "landmark": "Peterson"
+    },
+    {
+      "name": "Linn Grove",
+      "at": 0.20906515580736545,
+      "landmark": "Linn Grove"
+    }
+  ],
+  "sources": [
+    "content/stories/old-o-brien-glacial-trail-scenic-byway-2317.json",
+    "public/data/strips/old-o-brien-glacial-trail-scenic-byway-2317.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

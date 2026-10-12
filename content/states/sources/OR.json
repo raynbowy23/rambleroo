@@ -1,0 +1,810 @@
+{
+  "note": "Facts and sources behind the member descriptions in OR.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Historic Columbia River Highway Scenic Byway",
+      "designation": "All-American Road (Oregon Scenic Byway program)",
+      "where": "Historic US 30 and I-84, Troutdale to The Dalles; Multnomah, Hood River and Wasco counties",
+      "facts": [
+        {
+          "fact": "Construction of the Columbia River Highway began in 1913 under engineer Samuel C. Lancaster.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Historic-Columbia-River"
+        },
+        {
+          "fact": "Vista House at Crown Point and Multnomah Falls Lodge (1925) stand along the route.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Historic-Columbia-River"
+        },
+        {
+          "fact": "East of Mosier the restored Mosier Twin Tunnels are walked on the Historic Columbia River Highway State Trail.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Historic-Columbia-River"
+        }
+      ],
+      "review": "Driven in two pieces: the western section Troutdale to Ainsworth and the eastern section Mosier to The Dalles, joined by I-84."
+    },
+    {
+      "name": "Hells Canyon Scenic Byway",
+      "designation": "All-American Road (Oregon Scenic Byway program)",
+      "where": "OR 82, Forest Road 39 and OR 86; loop between La Grande and Baker City around the Wallowa Mountains via Joseph and Halfway",
+      "facts": [
+        {
+          "fact": "The byway is a 218-mile loop around the Wallowa Mountains, meeting I-84 at La Grande and Baker City.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Hells-Canyon"
+        },
+        {
+          "fact": "It crosses the ancestral homelands of Chief Joseph and the Nez Perce, and passes Joseph and Wallowa Lake.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Hells-Canyon"
+        },
+        {
+          "fact": "Forest Road 39 is closed by snow from October 15 to May 15; a spur on Forest Road 3965 reaches the Hells Canyon Overlook.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Hells-Canyon"
+        }
+      ],
+      "review": "TripCheck gives 218 miles; the ODOT GIS layer says 208."
+    },
+    {
+      "name": "Pacific Coast Scenic Byway",
+      "designation": "All-American Road (Oregon Scenic Byway program)",
+      "where": "US 101, Astoria to the California line; all seven coastal counties",
+      "facts": [
+        {
+          "fact": "The byway follows US 101 along the entire Oregon coast from Astoria.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Pacific-Coast"
+        },
+        {
+          "fact": "Haystack Rock at Cannon Beach is a 235-foot monolith.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Pacific-Coast"
+        },
+        {
+          "fact": "An Oregon law keeps all beaches open to the public; gray whales migrate past between November and June.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Pacific-Coast"
+        }
+      ]
+    },
+    {
+      "name": "Volcanic Legacy Scenic Byway",
+      "designation": "All-American Road (Oregon Scenic Byway program)",
+      "where": "OR 138, Crater Lake National Park roads, OR 62 and OR 140 by Upper Klamath Lake; Oregon section from Diamond Lake Junction on US 97 to the California line",
+      "facts": [
+        {
+          "fact": "The Oregon section begins at Diamond Lake Junction on US 97 and climbs OR 138 to Crater Lake's north entrance, which is usually open only June through October.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Volcanic-Legacy"
+        },
+        {
+          "fact": "Crater Lake fills the caldera left when Mount Mazama erupted and collapsed about 7,700 years ago.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Volcanic-Legacy"
+        },
+        {
+          "fact": "The byway passes 90,000-acre Upper Klamath Lake, Oregon's largest lake, and continues to Mount Lassen in California.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Volcanic-Legacy"
+        }
+      ]
+    },
+    {
+      "name": "McKenzie Pass-Santiam Pass Scenic Byway",
+      "designation": "National Scenic Byway (Oregon Scenic Byway program)",
+      "where": "OR 242, OR 126 and US 20; 82-mile loop from Sisters over both passes",
+      "facts": [
+        {
+          "fact": "The byway is an 82-mile loop; McKenzie Pass (OR 242) is closed from November to July by snow.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-McKenzie-Pass-Santiam-Pass"
+        },
+        {
+          "fact": "At 5,325-foot McKenzie Pass the Civilian Conservation Corps built the lava-rock Dee Wright Observatory in 1935.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-McKenzie-Pass-Santiam-Pass"
+        },
+        {
+          "fact": "The route passes Sahalie Falls, Carmen Reservoir and Clear Lake.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-McKenzie-Pass-Santiam-Pass"
+        }
+      ]
+    },
+    {
+      "name": "West Cascades Scenic Byway",
+      "designation": "National Scenic Byway (Oregon Scenic Byway program)",
+      "where": "Forest Roads 19 (Aufderheide Drive) and 46, OR 126, OR 22 and OR 224; Westfir to the Clackamas River",
+      "facts": [
+        {
+          "fact": "The 220-mile byway begins at Westfir near Oakridge on the Aufderheide Drive (Forest Service Road 19).",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-West-Cascades"
+        },
+        {
+          "fact": "Its first sight is the 180-foot Office Bridge, Oregon's longest covered bridge.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-West-Cascades"
+        },
+        {
+          "fact": "It follows the North Fork of the Middle Fork Willamette, the McKenzie, the North Santiam and the Clackamas; Forest Roads 19 and 46 generally close from November 15 to April 30.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-West-Cascades"
+        }
+      ]
+    },
+    {
+      "name": "Rogue-Umpqua Scenic Byway",
+      "designation": "National Scenic Byway (Oregon Scenic Byway program)",
+      "where": "OR 138, OR 230 and OR 62; Roseburg to Diamond Lake to the Rogue Valley",
+      "facts": [
+        {
+          "fact": "The 172-mile byway is commonly known as the highway of waterfalls and follows the North Umpqua east from Roseburg on OR 138.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Rogue-Umpqua"
+        },
+        {
+          "fact": "At Glide the North Umpqua and Little River meet head-on at the Colliding Rivers; the CCC built Mott Bridge near Steamboat in 1935-36.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Rogue-Umpqua"
+        },
+        {
+          "fact": "The route reaches Diamond Lake at the base of Mount Thielsen, then follows the Wild and Scenic Rogue River.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Rogue-Umpqua"
+        }
+      ]
+    },
+    {
+      "name": "Outback Scenic Byway",
+      "designation": "National Scenic Byway (Oregon Scenic Byway program)",
+      "where": "OR 31 and US 395; near La Pine to New Pine Creek at the California line; Deschutes and Lake counties",
+      "facts": [
+        {
+          "fact": "Fort Rock, a volcanic maar, rises 325 feet above the desert and is a National Natural Landmark.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Outback"
+        },
+        {
+          "fact": "Abert Rim is a 30-mile fault escarpment rising more than 2,000 feet above the byway.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Outback"
+        },
+        {
+          "fact": "Lakeview, at 4,800 feet, calls itself Oregon's tallest town.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Outback"
+        }
+      ]
+    },
+    {
+      "name": "Cascade Lakes Scenic Byway",
+      "designation": "National Scenic Byway (Oregon Scenic Byway program)",
+      "where": "Century Drive (OR 372) and Forest Service roads; Bend past Mount Bachelor to the upper Deschutes lakes",
+      "facts": [
+        {
+          "fact": "Century Drive was a 100-mile dirt road in horse-and-buggy days, hence the name.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Cascade-Lakes"
+        },
+        {
+          "fact": "The road passes Mount Bachelor and runs along the Deschutes River and a dozen lakes.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Cascade-Lakes"
+        },
+        {
+          "fact": "The road closes beyond Mount Bachelor in winter; the best season is June to October.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Cascade-Lakes"
+        }
+      ]
+    },
+    {
+      "name": "Mt. Hood Scenic Byway",
+      "designation": "National Scenic Byway (Oregon Scenic Byway program)",
+      "where": "OR 35, US 26 and the Timberline Highway (OR 173) spur; Hood River to Troutdale",
+      "facts": [
+        {
+          "fact": "The ODOT layer runs the byway from Hood River on OR 35 and US 26 to the Sandy River bridge in Troutdale, with a spur up the Timberline Highway to Timberline Lodge.",
+          "source": "https://gis.odot.state.or.us/arcgis1006/rest/services/oregon_scenic_byways/oregon_scenic_byways/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "OR 35 crosses the Hood River Valley's pear, cherry and apple orchards; Barlow Pass is where the Oregon Trail crested the Cascades.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/mt-hood-scenic-byway/"
+        },
+        {
+          "fact": "Timberline Lodge was built by the Works Progress Administration in the 1930s at about 6,000 feet.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/mt-hood-scenic-byway/"
+        }
+      ],
+      "review": "Counted among ODOT's six National Scenic Byways and present in the GIS layer, but missing from TripCheck's byway list."
+    },
+    {
+      "name": "Blue Mountain Scenic Byway",
+      "designation": "Oregon State Scenic Byway",
+      "where": "OR 74, Willow Creek Road and Forest Service roads (53 in TripCheck, NF-52 in the GIS layer); Heppner Junction on I-84 to the North Fork John Day Campground",
+      "facts": [
+        {
+          "fact": "The byway leaves I-84 at Heppner Junction; Willow Creek near Cecil was a stopping place on the Oregon Trail.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Blue-Mountains"
+        },
+        {
+          "fact": "OR 74 passes wheat and canola fields to Ione, Lexington and Heppner, then Forest Service roads cross the Umatilla National Forest.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Blue-Mountains"
+        },
+        {
+          "fact": "Camas blooms blue in spring around Ukiah; the byway ends at the North Fork John Day Campground, where it meets the Elkhorn Drive.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Blue-Mountains"
+        }
+      ],
+      "review": "TripCheck calls it the Blue Mountains Scenic Byway; the GIS layer and ODOT proponent list say Blue Mountain."
+    },
+    {
+      "name": "Elkhorn Drive Scenic Byway",
+      "designation": "Oregon State Scenic Byway",
+      "where": "OR 7, Forest Road 73 and US 30; 106-mile loop from Baker City via Sumpter, Granite, Anthony Lake and Haines",
+      "facts": [
+        {
+          "fact": "The 106-mile loop starts in Baker City, once called the Queen City of the Mines.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Elkhorn-Drive"
+        },
+        {
+          "fact": "A 1935 gold dredge is displayed at Sumpter; Granite boomed after gold was found on Bull Run Creek in 1862.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Elkhorn-Drive"
+        },
+        {
+          "fact": "Forest Road 73 tops out at Elkhorn Summit, 7,392 feet, near Anthony Lake; the Granite to Anthony Lake section is often snowbound until July.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Elkhorn-Drive"
+        }
+      ]
+    },
+    {
+      "name": "Journey Through Time Scenic Byway",
+      "designation": "Oregon State Scenic Byway",
+      "where": "US 97, OR 218, OR 19 and OR 7 among others; Biggs on the Columbia to Baker City",
+      "facts": [
+        {
+          "fact": "The byway runs 286 miles from Biggs to Baker City.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Journey-Through-Time"
+        },
+        {
+          "fact": "Shaniko was a major wool-shipping center and is now a living ghost town.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Journey-Through-Time"
+        },
+        {
+          "fact": "The route passes the Clarno Unit of John Day Fossil Beds National Monument and the Kam Wah Chung Museum in John Day, which honors Chinese workers and miners.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Journey-Through-Time"
+        }
+      ]
+    },
+    {
+      "name": "High Desert Discovery Scenic Byway",
+      "designation": "Oregon State Scenic Byway",
+      "where": "OR 205 (and OR 78 out of Burns); Burns to Frenchglen to Fields; Harney County",
+      "facts": [
+        {
+          "fact": "The byway runs south from Burns on Highway 205 past Malheur National Wildlife Refuge, home to 320 bird species.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-High-Desert-Discovery"
+        },
+        {
+          "fact": "The Frenchglen Hotel was built in the mid-1920s and remodeled by the CCC in 1938.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-High-Desert-Discovery"
+        },
+        {
+          "fact": "South of Frenchglen the road parallels Catlow Rim, where wild horses and bighorn sheep are frequently seen, and ends at Fields.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-High-Desert-Discovery"
+        }
+      ]
+    },
+    {
+      "name": "Over the Rivers & Through the Woods Scenic Byway",
+      "designation": "Oregon State Scenic Byway",
+      "where": "Linn County roads and US 20; I-5 at Brownsville via Crawfordsville and Sweet Home to the US 20/OR 126 junction",
+      "facts": [
+        {
+          "fact": "Brownsville was settled in 1846 and is Oregon's third oldest town; the Crawfordsville Covered Bridge spans the Calapooia beside the byway.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Over-Rivers-Through-Woods"
+        },
+        {
+          "fact": "From Sweet Home the byway follows US 20 and the South Santiam River toward 4,241-foot Tombstone Pass, paralleling much of the Santiam Wagon Road.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Over-Rivers-Through-Woods"
+        },
+        {
+          "fact": "Near the end, the Hackleman Old Growth Trail passes trees more than 500 years old.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Over-Rivers-Through-Woods"
+        }
+      ]
+    },
+    {
+      "name": "Trees to Sea Scenic Byway",
+      "designation": "Oregon State Scenic Byway",
+      "where": "OR 6 (Wilson River Highway), US 101 and OR 131; Banks to Tillamook and Cape Meares",
+      "facts": [
+        {
+          "fact": "The ODOT layer runs the byway from the Banks-Vernonia State Trail at OR 47 in Banks to the Cape Meares peninsula.",
+          "source": "https://gis.odot.state.or.us/arcgis1006/rest/services/oregon_scenic_byways/oregon_scenic_byways/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "The Tillamook Burn fires began near the Gales Creek area in 1933 and with later burns covered about 355,000 acres.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/trees-sea-scenic-byway/"
+        },
+        {
+          "fact": "The Tillamook Forest Center is marked by a 40-foot replica fire lookout and tells of the replanting of 72 million seedlings.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/trees-sea-scenic-byway/"
+        }
+      ],
+      "review": "Designated after TripCheck's list was made (Travel Oregon page dates from 2018); ODOT spells it Trees to Seas on its program page."
+    },
+    {
+      "name": "McKenzie River Scenic Byway",
+      "designation": "Oregon State Scenic Byway",
+      "where": "OR 126 from Deerhorn Road east of Eugene to the Aufderheide Drive junction; Lane County",
+      "facts": [
+        {
+          "fact": "The ODOT layer runs the byway on OR 126 from Deerhorn Road east of Eugene to the Aufderheide Drive, where the West Cascades byway begins.",
+          "source": "https://gis.odot.state.or.us/arcgis1006/rest/services/oregon_scenic_byways/oregon_scenic_byways/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "The Leaburg-Walterville Hydroelectric Project, with an art deco powerhouse, is on the National Register of Historic Places.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/mckenzie-river-scenic-byway/"
+        },
+        {
+          "fact": "The Old McKenzie Fish Hatchery preserves a 1907 hatchery complex of 17 buildings and ponds.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/mckenzie-river-scenic-byway/"
+        }
+      ]
+    },
+    {
+      "name": "Umpqua River Scenic Byway",
+      "designation": "Oregon State Scenic Byway",
+      "where": "OR 138 and OR 38; Oakland and Sutherlin via Elkton and Scottsburg to US 101 at Reedsport; Douglas County",
+      "facts": [
+        {
+          "fact": "The ODOT layer runs the byway from SE Seventh Street in Oakland on OR 138 and OR 38 to US 101.",
+          "source": "https://gis.odot.state.or.us/arcgis1006/rest/services/oregon_scenic_byways/oregon_scenic_byways/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Fort Umpqua at Elkton is a reproduction of the Hudson's Bay Company post that operated across the river from 1836 to 1854.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/the-umpqua-river/"
+        },
+        {
+          "fact": "Near Reedsport the Dean Creek Elk Viewing Area protects pasture for Roosevelt elk.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/the-umpqua-river/"
+        }
+      ],
+      "review": "Not on TripCheck's list or ODOT's newest-three list, but in the GIS layer and on Travel Oregon."
+    },
+    {
+      "name": "Marys Peak to Pacific Scenic Byway",
+      "designation": "Oregon State Scenic Byway",
+      "where": "US 20 and OR 34 from I-5 via Corvallis and Philomath to US 101, with spurs on Marys Peak Road and South Fork Road; Linn, Benton and Lincoln counties",
+      "facts": [
+        {
+          "fact": "The ODOT layer includes spurs up Marys Peak Road and along South Fork Road to the Alsea Falls Recreational Site, and the main line ends at US 101.",
+          "source": "https://gis.odot.state.or.us/arcgis1006/rest/services/oregon_scenic_byways/oregon_scenic_byways/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "Marys Peak, at 4,097 feet, is the highest point in the Oregon Coast Range; the road up it was built by the CCC.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/marys-peak-pacific-scenic-byway/"
+        },
+        {
+          "fact": "West of Philomath the byway follows the Alsea River on OR 34 through the town of Alsea.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/marys-peak-pacific-scenic-byway/"
+        }
+      ],
+      "review": "ODOT writes Mary's Peak to Pacific; Travel Oregon writes Marys Peak. The South Fork Road spur overlaps the BLM South Fork-Alsea River Back Country Byway."
+    },
+    {
+      "name": "Silver Falls Tour Route",
+      "designation": "Oregon Tour Route",
+      "where": "Delaney Road, OR 214 and county roads; I-5 exit 248 south of Salem via Sublimity, Silver Falls, Silverton and Mount Angel to Woodburn",
+      "facts": [
+        {
+          "fact": "The 55-mile route starts at I-5 exit 248 and climbs OR 214 past vineyards and Christmas tree farms to Silver Falls State Park.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Silver-Falls"
+        },
+        {
+          "fact": "Silver Falls State Park's Trail of Ten Falls passes ten waterfalls; the CCC built South Falls Lodge in 1941.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Silver-Falls"
+        },
+        {
+          "fact": "Mount Angel has a Benedictine abbey; the route ends in Woodburn.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Silver-Falls"
+        }
+      ],
+      "review": "TripCheck's heading calls it the Silver Falls Scenic Byway, but it is a Tour Route in the GIS layer and TripCheck's list."
+    },
+    {
+      "name": "Grande Tour Route",
+      "designation": "Oregon Tour Route",
+      "where": "OR 203, OR 237 and county roads; loop from La Grande via Union and Cove; Union County",
+      "facts": [
+        {
+          "fact": "The route passes the ruins of Hot Lake Resort, a spa and hospital once called the Mayo Clinic of the West.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Grande"
+        },
+        {
+          "fact": "Cove has Ascension Chapel, an Episcopal church built in 1869.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Grande"
+        },
+        {
+          "fact": "From Cove it follows the Grande Ronde River past cherry orchards and mint fields.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Grande"
+        }
+      ]
+    },
+    {
+      "name": "East Steens Tour Route",
+      "designation": "Oregon Tour Route",
+      "where": "OR 78 and East Steens Road (gravel); Burns to Fields; Harney County",
+      "facts": [
+        {
+          "fact": "The 143-mile route leaves Burns on OR 78 and turns onto gravel East Steens Road near milepost 65.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-East-Steens"
+        },
+        {
+          "fact": "Steens Mountain rises a vertical mile above the Alvord Basin; Mann Lake is known for cutthroat trout.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-East-Steens"
+        },
+        {
+          "fact": "The Alvord Desert playa is about six miles wide and 11 miles long; the route ends at Fields.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-East-Steens"
+        }
+      ]
+    },
+    {
+      "name": "Steens Loop Tour Route",
+      "designation": "Oregon Tour Route",
+      "where": "Steens Mountain Loop Road (BLM); loop from Frenchglen; Harney County",
+      "facts": [
+        {
+          "fact": "The 59-mile loop departs Frenchglen and climbs to the top of Steens Mountain at nearly 10,000 feet; it is closed in winter.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Steens-Loop"
+        },
+        {
+          "fact": "The Kiger Gorge overlook stands at the head of a glacier-carved U-shaped canyon.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Steens-Loop"
+        },
+        {
+          "fact": "The end of the loop crosses the range of the South Steens wild horse herd.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Steens-Loop"
+        }
+      ],
+      "review": "Same road as the BLM Steens Mountain Back Country Byway (catalog steens-mountain-back-country-byway-68916). The catalog labels this entry 'Oregon State Scenic Backway'; it is an Oregon Tour Route."
+    },
+    {
+      "name": "Diamond Loop Tour Route",
+      "designation": "Oregon Tour Route",
+      "where": "South Diamond Lane, Diamond Lane and Lava Beds Road off OR 205; Harney County",
+      "facts": [
+        {
+          "fact": "The 69-mile route crosses the southern part of Malheur National Wildlife Refuge on South Diamond Lane to the ranch community of Diamond and the Hotel Diamond.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Diamond-Loop"
+        },
+        {
+          "fact": "The Peter French Round Barn, built about 1880, is 100 feet across and was used to break horses through winter.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Diamond-Loop"
+        },
+        {
+          "fact": "Lava Beds Road leads to Diamond Craters Outstanding Natural Area and its basalt domes.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Diamond-Loop"
+        }
+      ],
+      "review": "Catalog has this road only as the BLM Diamond Loop Back Country Byway; the state and BLM designations cover the same loop."
+    },
+    {
+      "name": "Charleston to Bandon Tour Route",
+      "designation": "Oregon Tour Route",
+      "where": "Cape Arago Highway and Seven Devils Road; North Bend and Charleston to Bandon; Coos County",
+      "facts": [
+        {
+          "fact": "The 41-mile route runs from North Bend on the Cape Arago Highway through the fishing port of Charleston to Cape Arago State Park.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Charleston-Bandon"
+        },
+        {
+          "fact": "Sunset Bay has a beach sheltered by sandstone cliffs; Shore Acres keeps the gardens of lumberman Louis B. Simpson's estate.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Charleston-Bandon"
+        },
+        {
+          "fact": "Seven Devils Road passes South Slough National Estuarine Research Reserve and cranberry bogs to Bandon's Old Town.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Charleston-Bandon"
+        }
+      ]
+    },
+    {
+      "name": "Myrtle Creek-Canyonville Tour Route",
+      "designation": "Oregon Tour Route",
+      "where": "County Road 1 and 46, Forest Roads 2810/2792, BLM 28-3-35 and South Myrtle Road; Canyonville via Tiller to Myrtle Creek; Douglas County",
+      "facts": [
+        {
+          "fact": "The 68-mile route follows the South Umpqua from Canyonville past the steel-framed Milo Covered Bridge to Tiller.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Myrtle-Creek-Canyonville"
+        },
+        {
+          "fact": "A steep one-lane section to Red Top Pond is often closed in winter and hazardous for motor homes.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Myrtle-Creek-Canyonville"
+        },
+        {
+          "fact": "The Horse Creek Covered Bridge in Myrtle Creek began in Lane County in 1930 and was moved there in 1986.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Myrtle-Creek-Canyonville"
+        }
+      ]
+    },
+    {
+      "name": "Cow Creek Tour Route",
+      "designation": "Oregon Tour Route; also a BLM Back Country Byway",
+      "where": "Cow Creek Road; I-5 exit 103 at Riddle to exit 80 at Glendale; Douglas County",
+      "facts": [
+        {
+          "fact": "The 45-mile route runs from I-5 exit 103 through Riddle, site of the last nickel mine and smelter in the lower 48, to exit 80.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Cow-Creek"
+        },
+        {
+          "fact": "The railroad beside the creek still follows the Oregon and California grade built in 1869; two steel girder bridges date from 1905.",
+          "source": "https://www.blm.gov/visit/cow-creek-back-country-byway"
+        },
+        {
+          "fact": "Gold panning is allowed in a designated segment of lower Cow Creek near Island Creek Day Use Area.",
+          "source": "https://www.blm.gov/visit/cow-creek-back-country-byway"
+        }
+      ]
+    },
+    {
+      "name": "Cottage Grove Covered Bridge Tour Route",
+      "designation": "Oregon Tour Route",
+      "where": "County roads around Cottage Grove and Dorena Lake on the Row River; Lane County",
+      "facts": [
+        {
+          "fact": "The 20-mile route passes seven bridges; Cottage Grove calls itself the Covered Bridge Capital of Oregon.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Cottage-Grove-Covered-Bridges"
+        },
+        {
+          "fact": "Mosby Creek Bridge, built in 1920, is the oldest in Lane County and still carries one lane of traffic.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Cottage-Grove-Covered-Bridges"
+        },
+        {
+          "fact": "The Chambers Railroad Bridge was built in 1925 by lumberman J.E. Chambers and rebuilt in 2011 for walkers and cyclists.",
+          "source": "https://tripcheck.com/Pages/Scenic-Byways-Cottage-Grove-Covered-Bridges"
+        }
+      ]
+    },
+    {
+      "name": "Vineyard and Valley Tour Route",
+      "designation": "Oregon Tour Route",
+      "where": "Washington County farm roads and OR 47/OR 219; OR 99W near Sherwood to Hillsboro, by way of Gaston, Gales Creek, Banks and Helvetia",
+      "facts": [
+        {
+          "fact": "The ODOT layer runs the route from OR 99W to Old Jacobson Road in Hillsboro on county roads including Bald Peak, Gales Creek, Helvetia and Scotch Church roads.",
+          "source": "https://gis.odot.state.or.us/arcgis1006/rest/services/oregon_scenic_byways/oregon_scenic_byways/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        },
+        {
+          "fact": "The route passes Tualatin River National Wildlife Refuge, hazelnut groves and Coast Range foothill vineyards.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/the-vineyard-and-valley/"
+        },
+        {
+          "fact": "Settlements along it reflect Dutch settlers in Verboort, Scottish in Roy and Swiss in Helvetia; the Old Scotch Church dates from 1878.",
+          "source": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/the-vineyard-and-valley/"
+        }
+      ],
+      "review": "Not on TripCheck's list; in the GIS layer and on Travel Oregon (page from 2016)."
+    },
+    {
+      "name": "Christmas Valley Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "County and BLM roads from OR 31 at County Road 5-10 around Christmas Valley; Lake County",
+      "facts": [
+        {
+          "fact": "The byway is 93 miles long and starts where OR 31 meets County Road 5-10, about 30 miles from US 97.",
+          "source": "https://www.blm.gov/visit/christmas-valley-back-country-byway"
+        },
+        {
+          "fact": "It reaches off-highway dunes of ash and pumice blown in about 7,000 years ago when Mount Mazama erupted.",
+          "source": "https://www.blm.gov/visit/christmas-valley-back-country-byway"
+        }
+      ]
+    },
+    {
+      "name": "Galice to Hellgate Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "Merlin-Galice Road along the Rogue River from Hellgate Canyon to Grave Creek; Josephine County",
+      "facts": [
+        {
+          "fact": "The byway is 40 miles one way on a narrow, winding paved road, part of it single lane, open year round.",
+          "source": "https://www.blm.gov/visit/galice-hellgate-back-country-byway"
+        },
+        {
+          "fact": "Smullin Visitor Center at Rand is 18 miles in; the byway reaches the Rogue River National Recreation Trail at Grave Creek, a path first used by the Takelma people.",
+          "source": "https://www.blm.gov/visit/galice-hellgate-back-country-byway"
+        }
+      ]
+    },
+    {
+      "name": "Grave Creek to Marial Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "Mount Reuben Road and BLM roads from Grave Creek to Marial; Josephine and Curry counties",
+      "facts": [
+        {
+          "fact": "Rainie Falls Overlook is on the byway 1.3 miles above the Grave Creek boat ramp.",
+          "source": "https://www.blm.gov/visit/rainie-falls-overlook"
+        },
+        {
+          "fact": "The byway is about 33 miles and ends at the Rogue River Ranch, which grew from a one-room cabin of the late 1800s.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/68926"
+        }
+      ],
+      "review": "No BLM page for the byway itself; url is FHWA's America's Byways entry. The 'no services' claim rests on search-summary text, check before publishing."
+    },
+    {
+      "name": "Lakeview to Steens Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "From Lakeview across the Warner Mountains and Warner Valley through Hart Mountain refuge toward Steens Mountain; Lake and Harney counties",
+      "facts": [
+        {
+          "fact": "The byway crosses the Warner Mountains, the Warner Valley wetlands and Hart Mountain National Antelope Refuge.",
+          "source": "https://www.blm.gov/visit/lakeview-steens-mountain-national-back-country-byway"
+        },
+        {
+          "fact": "Crescent-shaped sand dunes line the north shores of the Warner lakes, formed by repeated wet and dry cycles.",
+          "source": "https://www.blm.gov/visit/lakeview-steens-mountain-national-back-country-byway"
+        }
+      ]
+    },
+    {
+      "name": "Lower Crooked River Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "OR 27 from US 20 north to Prineville; Crook County",
+      "facts": [
+        {
+          "fact": "The byway follows OR 27 for 43 miles from US 20 to Prineville; its southern 18 miles are graded gravel.",
+          "source": "https://www.blm.gov/visit/lower-crooked-river-back-country-byway"
+        },
+        {
+          "fact": "It crosses the spillway of Bowman Dam and descends into the Chimney Rock segment of the Crooked Wild and Scenic River.",
+          "source": "https://www.blm.gov/visit/lower-crooked-river-back-country-byway"
+        }
+      ]
+    },
+    {
+      "name": "Lower Deschutes River Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "BLM road along the east bank of the Deschutes from Locked Gate through Maupin and Sherars Falls to Macks Canyon; Wasco County",
+      "facts": [
+        {
+          "fact": "The byway runs 32 miles along the east bank of the Lower Deschutes Wild and Scenic River; 12 miles from Maupin to OR 216 near Sherars Falls are paved, the rest gravel.",
+          "source": "https://www.blm.gov/visit/lower-deschutes-river-back-country-byway"
+        },
+        {
+          "fact": "It ends at Locked Gate Day Use Area in the south and Macks Canyon Campground in the north.",
+          "source": "https://www.blm.gov/visit/lower-deschutes-river-back-country-byway"
+        }
+      ]
+    },
+    {
+      "name": "Nestucca River Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "Nestucca River Road and Blaine Road between Carlton and Beaver; Yamhill and Tillamook counties",
+      "facts": [
+        {
+          "fact": "The byway winds through the Coast Range beside the Nestucca River, with four BLM campgrounds (Alder Glen, Dovre, Fan Creek and Elk Bend); log trucks use it year round.",
+          "source": "https://www.blm.gov/visit/nestucca-river-recreation-area"
+        },
+        {
+          "fact": "The canyon gets about 120 inches of rain a year and is lined with sandstone and basalt cliffs covered in moss and lichen.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/68923"
+        }
+      ]
+    },
+    {
+      "name": "Quartzville Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "Quartzville Road from US 20 near Sweet Home up the Quartzville Creek drainage; Linn County",
+      "facts": [
+        {
+          "fact": "The byway follows Quartzville Road from US 20 about five miles east of Sweet Home.",
+          "source": "https://www.blm.gov/visit/quartzville-back-country-byway"
+        },
+        {
+          "fact": "Recreational gold mining is allowed along the BLM portion, and Yellowbottom has a swimming area.",
+          "source": "https://www.blm.gov/visit/quartzville-back-country-byway"
+        }
+      ],
+      "review": "BLM calls it the Quartzville Back Country Byway; the catalog name adds 'Road'."
+    },
+    {
+      "name": "Snake River-Mormon Basin Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "Paved, gravel and dirt roads between the Baker City area, Snake River Road above Brownlee Reservoir and Huntington; Baker and Malheur counties",
+      "facts": [
+        {
+          "fact": "The byway runs about 150 miles through Baker and Malheur counties and suits high-clearance two-wheel-drive vehicles.",
+          "source": "https://www.blm.gov/visit/snake-river-mormon-basin-back-country-byway"
+        },
+        {
+          "fact": "Snake River Road runs above Brownlee Reservoir to the hamlet of Huntington; Oregon Trail wagon ruts are protected near the National Historic Oregon Trail Interpretive Center.",
+          "source": "https://www.blm.gov/visit/snake-river-mormon-basin-back-country-byway"
+        }
+      ]
+    },
+    {
+      "name": "South Fork John Day River Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "South Fork Road from Dayville south toward Izee and the Malheur National Forest; Grant County",
+      "facts": [
+        {
+          "fact": "The gravel byway runs 50 miles beside the Wild and Scenic South Fork John Day River from Dayville to the Malheur National Forest boundary.",
+          "source": "https://www.blm.gov/visit/south-fork-john-day-river-back-country-byway"
+        },
+        {
+          "fact": "Izee Falls drops 56 feet; the two-room Izee schoolhouse, about 34 miles from Dayville, closed to students in 1989.",
+          "source": "https://www.blm.gov/visit/south-fork-john-day-river-back-country-byway"
+        }
+      ]
+    },
+    {
+      "name": "South Fork-Alsea River Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "South Fork Road from near Alsea past Alsea Falls toward Monroe; Benton County",
+      "facts": [
+        {
+          "fact": "Alsea Falls Recreation Site, 13 miles west of Monroe, is on the byway; the South Fork Alsea drops 30 feet there.",
+          "source": "https://www.blm.gov/visit/alsea-falls-recreation-site"
+        },
+        {
+          "fact": "FHWA lists the byway at 11 miles, with Douglas fir and vine maple along the river.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/68918"
+        }
+      ],
+      "review": "Overlaps the South Fork Road spur of the Marys Peak to Pacific Scenic Byway. url is FHWA; no standalone BLM page found."
+    },
+    {
+      "name": "Steens Mountain Back Country Byway",
+      "designation": "BLM Back Country Byway",
+      "where": "Steens Mountain Loop Road from Frenchglen; Harney County",
+      "facts": [
+        {
+          "fact": "BLM gives the Steens Mountain Backcountry Byway as 52 miles, reaching four campgrounds and the Riddle Brothers Ranch National Historic District.",
+          "source": "https://www.blm.gov/visit/steens-mountain-cooperative-management-protection-area"
+        },
+        {
+          "fact": "Overlooks along it include Kiger Gorge, East Rim, Big Indian Gorge and Little Blitzen Gorge.",
+          "source": "https://www.blm.gov/visit/steens-mountain-cooperative-management-protection-area"
+        }
+      ],
+      "review": "Same road as the state Steens Loop Tour Route (steens-loop-tour-route-69104); consider merging the two catalog entries."
+    },
+    {
+      "name": "Rogue-Coquille Scenic Byway",
+      "designation": "National Forest Scenic Byway",
+      "where": "Gold Beach up the Rogue to Agness, over Agness Pass, then down the Coquille via Powers toward Myrtle Point and Coquille; Curry and Coos counties",
+      "facts": [
+        {
+          "fact": "The byway is 82.5 miles and travels along the Wild and Scenic Rogue River.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/64107"
+        },
+        {
+          "fact": "It runs from Gold Beach through Agness and the Siskiyou National Forest to Powers and on to Coquille.",
+          "source": "https://www.recreation.gov/camping/gateways/13822"
+        }
+      ]
+    },
+    {
+      "name": "State of Jefferson Scenic Byway",
+      "designation": "National Forest Scenic Byway",
+      "where": "CA 263 and CA 96 from Yreka to Happy Camp, then Grayback Road to US 199 at O'Brien, Oregon",
+      "facts": [
+        {
+          "fact": "The byway runs 108 miles from Yreka, California, along the Klamath River on Highway 96 to Happy Camp, then north over the 5,000-foot Grayback summit to US 199 at O'Brien, Oregon.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2192"
+        },
+        {
+          "fact": "Yreka was the 1941 capital of the proposed State of Jefferson.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2192"
+        }
+      ],
+      "review": "Only the Oregon end (Grayback Road to O'Brien) is in the catalog line, 16.5 miles; the rest is in California."
+    },
+    {
+      "name": "Emigrant Trail",
+      "designation": "National Forest Scenic Byway",
+      "where": "US 395 from New Pine Creek, Oregon, past Goose Lake to Alturas, then CA 299 and CA 139 to Tulelake",
+      "facts": [
+        {
+          "fact": "The route begins in New Pine Creek, Oregon, and links the Outback and Volcanic Legacy byways with California's Modoc and Shasta volcanic byways.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2318"
+        },
+        {
+          "fact": "It passes Goose Lake, goes through Alturas and the Modoc National Forest, and ends at Tulelake.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2318"
+        }
+      ],
+      "review": "Almost entirely in California; the catalog's 140 mapped miles are all in CA. Include in Oregon only as a border crossing, or drop."
+    }
+  ],
+  "issues": [
+    "Program is dormant: ODOT accepts no new designations and has no dedicated program manager until federal funding returns.",
+    "No single complete public list. TripCheck lists 23; ODOT's FAQ says 29; the GIS layer has exactly 29 names. The six missing from TripCheck are Mt. Hood, Trees to Sea, McKenzie River, Umpqua River, Marys Peak to Pacific and Vineyard and Valley. This chapter uses the GIS list.",
+    "Five state routes have no catalog line and need drawing from the GIS layer (gisValue): Trees to Sea, McKenzie River, Umpqua River, Marys Peak to Pacific, Vineyard and Valley.",
+    "Duplicates in catalog: Steens Loop Tour Route (69104) and Steens Mountain Back Country Byway (68916) are the same road. The state Diamond Loop Tour Route has no state entry and is matched to the BLM Diamond Loop Back Country Byway (68915). Cow Creek is one catalog entry carrying both designations.",
+    "Catalog designation for steens-loop-tour-route-69104 is 'Oregon State Scenic Backway'; it should be Oregon Tour Route. Volcanic Legacy (2587) lacks the Oregon state designation label, and Mt. Hood's catalog entry is fine.",
+    "emigrant-trail-2318 is mapped entirely in California (stateMiles CA only); it only starts at New Pine Creek on the Oregon line. state-of-jefferson-scenic-byway-2192 is drawn only for its 16.5-mile Oregon end, while the byway is 108 miles mostly in California.",
+    "Mileages disagree between TripCheck and the GIS layer for Hells Canyon (218 vs 208), Pacific Coast (350 vs 363), West Cascades (220 vs 215). TripCheck heading for Silver Falls says Scenic Byway, but the route is a Tour Route.",
+    "ODOT program page links (Official Driving Guide on journalgraphicsdigitalpublications.com) did not respond; the story map link is http and redirects to an ArcGIS MapSeries. The 2018 guide PDF on TripCheck works.",
+    "Grave Creek to Marial and South Fork-Alsea River have no BLM page found (blm.gov/visit slugs returned 403); FHWA America's Byways pages used instead. The Grave Creek 'no services' detail came from a search summary of BLM pages, verify.",
+    "BLM's Sutton Mountain Back Country Byway (near Mitchell) exists but is not in the catalog."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "bywayId": "us-202-new-hartford-990913",
+  "reviewed": false,
+  "generated": true,
+  "title": "US 202, New Hartford",
+  "direction": "",
+  "towns": [
+    {
+      "name": "New Hartford",
+      "wikipedia": "New Hartford, Connecticut",
+      "weight": 14863
+    },
+    {
+      "name": "Bakersville",
+      "wikipedia": "",
+      "osm": "node/158805719",
+      "at": [
+        -73.0306918,
+        41.8314121
+      ],
+      "weight": 3000
+    },
+    {
+      "name": "Nepaug",
+      "wikipedia": "",
+      "osm": "node/158825745",
+      "at": [
+        -73.001073,
+        41.8293514
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Browns Corner",
+      "wikipedia": "",
+      "osm": "node/158837907",
+      "at": [
+        -72.9764932,
+        41.8281528
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Bee Mountain",
+      "wikipedia": "",
+      "osm": "node/359260100",
+      "at": [
+        -72.9862159,
+        41.8217639
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Garrett Mountain",
+      "wikipedia": "",
+      "osm": "node/359263471",
+      "at": [
+        -72.9701042,
+        41.8078753
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Yellow Mountain",
+      "wikipedia": "",
+      "osm": "node/359272468",
+      "at": [
+        -73.0023276,
+        41.8389858
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Romeyn A. Spare Lookout",
+      "wikipedia": "",
+      "osm": "node/4353950902",
+      "at": [
+        -72.975461,
+        41.8357962
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

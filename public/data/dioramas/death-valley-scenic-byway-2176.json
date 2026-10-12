@@ -1,0 +1,350 @@
+{
+  "authored": false,
+  "bywayId": "death-valley-scenic-byway-2176",
+  "title": "Death Valley Scenic Byway",
+  "longitude": -117.1752,
+  "ground": "desert-mesas",
+  "palette": "desert",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -117.61033,
+        36.37294
+      ],
+      [
+        -117.5952,
+        36.37997
+      ],
+      [
+        -117.58284,
+        36.36154
+      ],
+      [
+        -117.57503,
+        36.35892
+      ],
+      [
+        -117.57134,
+        36.35271
+      ],
+      [
+        -117.55325,
+        36.35217
+      ],
+      [
+        -117.54369,
+        36.34931
+      ],
+      [
+        -117.53955,
+        36.34402
+      ],
+      [
+        -117.54077,
+        36.34861
+      ],
+      [
+        -117.53621,
+        36.34851
+      ],
+      [
+        -117.53487,
+        36.35771
+      ],
+      [
+        -117.52928,
+        36.35841
+      ],
+      [
+        -117.52771,
+        36.3485
+      ],
+      [
+        -117.51234,
+        36.34032
+      ],
+      [
+        -117.50455,
+        36.34553
+      ],
+      [
+        -117.49211,
+        36.34652
+      ],
+      [
+        -117.48111,
+        36.34233
+      ],
+      [
+        -117.47812,
+        36.33524
+      ],
+      [
+        -117.46943,
+        36.33993
+      ],
+      [
+        -117.45496,
+        36.3367
+      ],
+      [
+        -117.34903,
+        36.34464
+      ],
+      [
+        -117.33527,
+        36.34871
+      ],
+      [
+        -117.31182,
+        36.34245
+      ],
+      [
+        -117.30145,
+        36.34693
+      ],
+      [
+        -117.28638,
+        36.36432
+      ],
+      [
+        -117.27974,
+        36.40195
+      ],
+      [
+        -117.27415,
+        36.41465
+      ],
+      [
+        -117.25114,
+        36.43414
+      ],
+      [
+        -117.2439,
+        36.44625
+      ],
+      [
+        -117.23611,
+        36.46381
+      ],
+      [
+        -117.21929,
+        36.52903
+      ],
+      [
+        -117.19858,
+        36.56448
+      ],
+      [
+        -117.14553,
+        36.60732
+      ],
+      [
+        -117.0951,
+        36.60137
+      ],
+      [
+        -117.03254,
+        36.64001
+      ],
+      [
+        -117.00501,
+        36.62432
+      ],
+      [
+        -116.97156,
+        36.59745
+      ],
+      [
+        -116.94185,
+        36.58746
+      ],
+      [
+        -116.89426,
+        36.55661
+      ],
+      [
+        -116.8852,
+        36.54119
+      ],
+      [
+        -116.88129,
+        36.51215
+      ],
+      [
+        -116.86854,
+        36.48793
+      ],
+      [
+        -116.87134,
+        36.48241
+      ],
+      [
+        -116.862,
+        36.45135
+      ],
+      [
+        -116.85387,
+        36.44827
+      ],
+      [
+        -116.84405,
+        36.45048
+      ],
+      [
+        -116.83608,
+        36.44216
+      ],
+      [
+        -116.81934,
+        36.43552
+      ],
+      [
+        -116.80196,
+        36.41396
+      ],
+      [
+        -116.77298,
+        36.40155
+      ],
+      [
+        -116.75728,
+        36.38813
+      ],
+      [
+        -116.74367,
+        36.38494
+      ],
+      [
+        -116.72499,
+        36.36561
+      ],
+      [
+        -116.71082,
+        36.36249
+      ],
+      [
+        -116.69208,
+        36.37641
+      ],
+      [
+        -116.68514,
+        36.37541
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Stovepipe Wells",
+      "model": "false-front-town",
+      "at": 0.5307535509690701,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Stovepipe Wells",
+      "model": "town-blocks",
+      "at": 0.5307535509690701,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Furnace Creek",
+      "model": "town-blocks",
+      "at": 0.8329497335589547,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "mesa",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "mesa",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.6,
+      "scale": 1.3
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5,
+      "side": -1,
+      "distance": 0.7,
+      "scale": 1.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Stovepipe Wells",
+      "at": 0.530911330049261,
+      "landmark": "Stovepipe Wells"
+    },
+    {
+      "name": "Indian Village",
+      "at": 0.8376847290640393,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/death-valley-scenic-byway-2176.json",
+    "public/data/strips/death-valley-scenic-byway-2176.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

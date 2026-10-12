@@ -1,0 +1,413 @@
+{
+  "note": "Facts and sources behind the member descriptions in SC.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Ashley River Road National Scenic Byway",
+      "designation": "National Scenic Byway; South Carolina Scenic Byway",
+      "where": "SC 61 north of Church Creek Bridge, Charleston and Dorchester counties, about 11 mi",
+      "facts": [
+        {
+          "fact": "Runs on SC 61 for eleven miles north from the Church Creek Bridge, beside the Ashley River, under oak canopy.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Passes three national historic landmarks, St. Andrew's Episcopal Church, Drayton Hall and Middleton Place, inside a National Register historic district.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/13794"
+        },
+        {
+          "fact": "Designated a South Carolina Scenic Byway by 1998 Act No. 415, which bans off-premises outdoor advertising on it.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        }
+      ]
+    },
+    {
+      "name": "Cherokee Foothills National Scenic Byway",
+      "designation": "National Scenic Byway; South Carolina Scenic Highway",
+      "where": "SC 11 from I-85 near Gaffney to I-85 at the Georgia line, Cherokee, Spartanburg, Greenville, Pickens and Oconee counties",
+      "facts": [
+        {
+          "fact": "SC 11 runs about 112 miles between I-85 at Gaffney and I-85 at the Georgia line, with views of Table Rock and Caesars Head along the way.",
+          "source": "https://www.scencyclopedia.org/sce/entries/cherokee-foothills-scenic-highway/"
+        },
+        {
+          "fact": "The two-lane road follows an old Cherokee path through peach orchards and villages, past Cowpens National Battlefield and over Lake Keowee.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2161"
+        },
+        {
+          "fact": "State law designates all of SC 11 the Cherokee Foothills Scenic Highway, while the Pickens and Oconee portion keeps the older name Andrew Pickens Scenic Parkway.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        },
+        {
+          "fact": "Designated a state scenic highway in 1976 and a National Scenic Byway in 1998.",
+          "source": "https://www.scencyclopedia.org/sce/entries/cherokee-foothills-scenic-highway/"
+        }
+      ],
+      "review": "The statute keeps the name Andrew Pickens Scenic Parkway for the Pickens and Oconee County part of SC 11; the catalog's andrew-pickens-scenic-parkway-73581 entry is that name but is drawn in Bluffton (see issues). scenic11.com (Discover Upcountry) returns 403 to curl but loads in a browser/WebFetch."
+    },
+    {
+      "name": "Edisto Island National Scenic Byway",
+      "designation": "National Scenic Byway; South Carolina Scenic Highway",
+      "where": "SC 174 from the McKinley Washington Jr. Bridge at Dawhoo Creek to Edisto Beach State Park, Charleston County, about 14 mi",
+      "facts": [
+        {
+          "fact": "Runs on SC 174 from the McKinley Washington Bridge at Dawhoo Creek to Edisto Beach State Park and became a National Scenic Byway in 2009.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "The route crosses salt marsh, creeks, maritime forest and farm fields, with roadside stands selling sweetgrass baskets and local produce.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/73595"
+        },
+        {
+          "fact": "SC 174 south of the Dawhoo Bridge was first declared a state scenic highway by 1988 Act No. 594.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        }
+      ]
+    },
+    {
+      "name": "Savannah River National Scenic Byway",
+      "designation": "National Scenic Byway; South Carolina Scenic Highway",
+      "where": "SC 24, SC 187, SC 412, SC 81 and SC 28 from Oakway (Oconee County) to the Georgia line below Clarks Hill, about 100 to 110 mi",
+      "facts": [
+        {
+          "fact": "Strings together SC 24, SC 187, SC 412, SC 81 and SC 28 from the Oakway community through Starr and McCormick County to the SC 28 bridge over the Savannah River below Clarks Hill.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "State parks along the way sit on Hartwell, Richard B. Russell and J. Strom Thurmond lakes, and the road passes through Sumter National Forest near Thurmond Lake.",
+          "source": "https://www.scencyclopedia.org/sce/entries/savannah-river-scenic-highway/"
+        },
+        {
+          "fact": "The road passes through McCormick, whose downtown includes a historic railroad depot.",
+          "source": "https://www.scencyclopedia.org/sce/entries/savannah-river-scenic-highway/"
+        }
+      ]
+    },
+    {
+      "name": "Bohicket Road Scenic Highway",
+      "designation": "Scenic Highway",
+      "where": "Bohicket Road (S-10-20), Johns Island, Charleston County, about 10 mi",
+      "facts": [
+        {
+          "fact": "A ten-mile section of S-10-20 on Johns Island, home to the Angel Oak, a live oak thought to be more than 400 years old.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Development on Kiawah and Seabrook islands has made it a busy thoroughfare.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Designated a scenic highway by the General Assembly in 1974.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        }
+      ]
+    },
+    {
+      "name": "Cowpens National Battlefield Scenic Byway",
+      "designation": "Scenic Byway",
+      "where": "SC 110 from the town of Cowpens (Spartanburg County) north to SC 11 (Cherokee County), about 9 mi",
+      "facts": [
+        {
+          "fact": "SC 110 runs nine miles from the town of Cowpens north to SC 11, the Cherokee Foothills byway.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "The south end near I-85 is commercial, but the middle miles cross open farm country, and the road is the recommended way from I-85 to Cowpens National Battlefield.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        }
+      ]
+    },
+    {
+      "name": "Edisto Beach Scenic Highway",
+      "designation": "Scenic Highway",
+      "where": "SC 174 and Palmetto Boulevard in the Town of Edisto Beach, Colleton County, about 3 mi",
+      "facts": [
+        {
+          "fact": "When the Edisto Island byway went national in 2009, the Colleton County part of the older state scenic highway stayed a separate state route, about three miles in the Town of Edisto Beach.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "It follows the beachfront stretch of Palmetto Boulevard and ends at the Edisto Marina on Big Bay Creek.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        }
+      ],
+      "review": "Not in the catalog; draw from the SCDOT layer."
+    },
+    {
+      "name": "Falling Waters Scenic Byway",
+      "designation": "Scenic Byway",
+      "where": "SC 107 from the Forest Service line south of Dodge Mountain to the NC line, S-37-413 and SC 130 to the NC line, Oconee County, about 13 mi",
+      "facts": [
+        {
+          "fact": "Designated in 2010 on SC 107 north to the North Carolina line, plus S-37-413 across to SC 130 and SC 130 to the state line, about thirteen miles, with dual designation allowed where it overlaps the Oscar Wigington Forest Service byway.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        },
+        {
+          "fact": "Mostly inside Sumter National Forest, with Isaqueena Falls, Stumphouse Mountain Tunnel, Oconee State Park, the Chattooga fish hatchery and the Oscar Wigington Overlook above Lake Jocassee at about 2,000 feet.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        }
+      ],
+      "review": "Overlaps the USFS Oscar Wigington Scenic Byway (catalog oscar-wigington-scenic-byway-2292, listed under the Forest Service program); the catalog line lies wholly inside this layer line, which also covers SC 130. SCDOT spells Isaqueena; the SC Encyclopedia spells Issaqueena."
+    },
+    {
+      "name": "Fort Johnson Road Scenic Highway",
+      "designation": "Scenic Highway",
+      "where": "Fort Johnson Road, James Island, Charleston County, about 4.5 mi",
+      "facts": [
+        {
+          "fact": "Runs 4.5 miles on James Island from Folly Road to the S.C. Department of Natural Resources Marine Resources Center.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Designated in 1988; new billboards are banned and larger roadside trees cannot be removed without SCDOT permission on Charleston County's recommendation.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        }
+      ]
+    },
+    {
+      "name": "Hilton Head Scenic Highway",
+      "designation": "Scenic Highway",
+      "where": "US 278 from I-95 near Hardeeville to SC 170 at the Beaufort County line, Jasper County, about 8 mi",
+      "facts": [
+        {
+          "fact": "Despite its name it is not on Hilton Head Island but is an eight-mile, four-lane stretch of US 278 from I-95 near Hardeeville to SC 170, largely undeveloped.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Designated in 1988, with all off-premises outdoor advertising prohibited.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        }
+      ]
+    },
+    {
+      "name": "Hilton Head Island Scenic Byway",
+      "designation": "Scenic Byway",
+      "where": "US 278 from SC 170 to Sea Pines Circle on Hilton Head Island, Beaufort County, about 22 mi",
+      "facts": [
+        {
+          "fact": "Designated in 2012 on US 278 from SC 170 to S-80 at Sea Pines Circle on Hilton Head Island.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        },
+        {
+          "fact": "A 22-mile multi-lane highway with landscaped medians; local ordinances limit setbacks, sign sizes and density along it.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        }
+      ],
+      "review": "Catalog name is US-278 Scenic Highway."
+    },
+    {
+      "name": "Long Point Road Scenic Highway",
+      "designation": "Scenic Highway",
+      "where": "Long Point Road from Whipple Road to US 17 North, Mount Pleasant, Charleston County, about 2 mi",
+      "facts": [
+        {
+          "fact": "Two miles long in Mount Pleasant, with Boone Hall Plantation, Palmetto Islands County Park and the Charles Pinckney National Historic Site along it.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Designated in 1988 from Whipple Road to US 17 North; trees over six inches in caliper in the right-of-way may not be removed without SCDOT permission on the town's recommendation.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        }
+      ]
+    },
+    {
+      "name": "Mathis Ferry Road Scenic Highway",
+      "designation": "Scenic Highway",
+      "where": "Mathis Ferry Road from Whipple Road to 7th Street, Mount Pleasant, Charleston County, under 3 mi",
+      "facts": [
+        {
+          "fact": "Designated in 1988 from Whipple Road to 7th Street in Mount Pleasant.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        },
+        {
+          "fact": "Heavy residential growth has come since, but the road keeps most of its scenic character; it is under three miles long with two historical markers.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        }
+      ]
+    },
+    {
+      "name": "May River Scenic Byway",
+      "designation": "Scenic Byway",
+      "where": "SC 46 from the Jasper County line into Bluffton, Boundary Street (S-66), Bridge Street and Alljoy Road (S-13) to Brighton Beach, Beaufort County, about 11 mi",
+      "facts": [
+        {
+          "fact": "Designated in 2012 on SC 46 from the Jasper/Beaufort line to S-66 in Bluffton, S-66 to S-13, and S-13 to Brighton Beach on the May River, about eleven miles.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        },
+        {
+          "fact": "The route passes wetlands, oak canopies, plantations and historic sites, following Boundary Street and Bridge Street through Bluffton onto Alljoy Road.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        }
+      ],
+      "review": "The catalog splits this byway: sc-46-scenic-highway-73593 is the main line, s-13-scenic-highway-73591 is its Alljoy Road end, and andrew-pickens-scenic-parkway-73581 is a mislabeled duplicate of the S-13 piece. The SCDOT layer line (Name 'May River') covers the whole route."
+    },
+    {
+      "name": "McTeer Bridge & Causeways Scenic Highway",
+      "designation": "Scenic Highway",
+      "where": "James Edwin McTeer Bridge and causeways between Port Royal and Lady's Island, Beaufort County, under 3 mi",
+      "facts": [
+        {
+          "fact": "Connects Port Royal and Lady's Island in under three miles; the bridge spans the Beaufort River over marshes and a marina.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "The Broad River confluence is visible to the south and the Beaufort waterfront to the north.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        }
+      ]
+    },
+    {
+      "name": "Old Sheldon Church Road Scenic Byway",
+      "designation": "South Carolina Scenic Byway",
+      "where": "Old Sheldon Church Road (S-7-21) between Gardens Corner and Yemassee, Beaufort County, about 7 mi",
+      "facts": [
+        {
+          "fact": "On S-7-21 between Gardens Corner and Yemassee, about seven miles, past the Sheldon Church ruins from the 1740s and several plantations, under oak canopy.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Designated by 2005 Act No. 47, which bans all off-premises outdoor advertising on the road.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        }
+      ],
+      "review": "The SCDOT layer has two features for this road (about 7.1 mi together); the catalog line is 4.6 mi and may cover only the northern piece."
+    },
+    {
+      "name": "Plantersville Scenic Byway",
+      "designation": "Scenic Byway",
+      "where": "Choppee Road (S-22-4) and Plantersville Road (S-22-52), a loop off US 701 in upper Georgetown County, about 12 mi",
+      "facts": [
+        {
+          "fact": "Designated in 2012 on Choppee Road from US 701 for about 2.2 miles to Plantersville Road, then about ten miles along Plantersville Road back to US 701.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        },
+        {
+          "fact": "Lies beside the Great Pee Dee River among historic sites of the rice culture, including Samworth Plantation, a S.C. Department of Natural Resources property good for watching wildlife.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        }
+      ],
+      "review": "Not in the catalog; draw from the SCDOT layer."
+    },
+    {
+      "name": "Riverland Drive Scenic Highway",
+      "designation": "Scenic Highway",
+      "where": "Riverland Drive (S-10-53), James Island, Charleston County, about 5 mi",
+      "facts": [
+        {
+          "fact": "Runs five miles on S-10-53 to Grimball Road on James Island, less than three miles from downtown Charleston.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Features tree-lined streets, an undeveloped oak-canopied section, wetlands and two public recreation sites.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Designated in 1988; larger roadside trees cannot be removed without SCDOT permission on Charleston County's recommendation.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        }
+      ]
+    },
+    {
+      "name": "SC 170 Scenic Highway",
+      "designation": "Scenic Highway",
+      "where": "SC 170 from SC 462 at Okatie east to the Broad River Bridge, Beaufort County, about 8 mi",
+      "facts": [
+        {
+          "fact": "Runs eight miles from the SC 462 junction in the Okatie community east to the Broad River Bridge, a four-lane road with little commercial development and wide views.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Designated a state scenic highway in 2012.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        }
+      ]
+    },
+    {
+      "name": "US 21 Scenic Highway",
+      "designation": "Scenic Highway",
+      "where": "US 21 east of Beaufort to Hunting Island State Park, Beaufort County, about 19 mi",
+      "facts": [
+        {
+          "fact": "Designated by Act 73 of 1979 simply as 'a scenic highway' and sometimes called the Sea Island Scenic Highway; about 19 miles long.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "Ends at Hunting Island State Park, a seaside preserve with a lighthouse.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        }
+      ],
+      "review": "The 1979 act is not codified in Title 57 Chapter 23."
+    },
+    {
+      "name": "Western York County Scenic Byway",
+      "designation": "Scenic Byway",
+      "where": "SC 161, SC 49, SC 5, SC 324, S-46-347, SC 322, SC 211 and SC 97 from Kings Mountain National Military Park through York, McConnells, Sharon and Hickory Grove to Smyrna, York County, about 57 to 66 mi",
+      "facts": [
+        {
+          "fact": "Designated in 2009 as one contiguous route of about 57 miles from Kings Mountain National Military Park through York and McConnells to Bullock Creek, Sharon, Hickory Grove and Smyrna, with a side road to Brattonsville.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        },
+        {
+          "fact": "SCDOT describes a 66-mile route passing Historic Brattonsville, the W.L. Hill Store and the Museum of Western York County in Sharon.",
+          "source": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
+        },
+        {
+          "fact": "The county brochure describes fields of hay, wheat and cotton, the Whitesides cotton gin near Smyrna, and Smyrna as the state's second smallest municipality.",
+          "source": "https://www.yorkcountygov.com/DocumentCenter/View/1765/Western-York-County-Scenic-Byway-Brochure---CVB"
+        }
+      ],
+      "review": "Not in the catalog; draw from the SCDOT layer (two features). Length differs: statute about 57 mi, SCDOT 66 mi, layer about 61 mi."
+    },
+    {
+      "name": "Piedmont Gateway Scenic Byway",
+      "designation": "Scenic Byway",
+      "where": "US 21 from Ridgeway north to Camp Welfare Road, then Mobley Highway (S-20-20) and Bull Run Road (S-20-44) west to US 321 at White Oak, Fairfield County, about 26 mi",
+      "facts": [
+        {
+          "fact": "Created by 2024 Act No. 157 in three segments: streets in Ridgeway, 15 miles north on US 21 to Camp Welfare Road, and 10 miles west on S-20-20 across I-77 and SC 200 to Bull Run Road and US 321 in White Oak.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        },
+        {
+          "fact": "A 26-mile route with National Register sites in Ridgeway and White Oak, Revolutionary War sites, historical markers and a historic African American church camp.",
+          "source": "https://townofridgeway.com/wp-content/uploads/2025/05/Scenic-Byway-Flyer.pdf"
+        },
+        {
+          "fact": "Officially recognized in May 2024.",
+          "source": "https://www.scenic.org/2024/05/28/a-new-south-carolina-byway-introducing-the-piedmont-gateway-state-scenic-byway/"
+        }
+      ],
+      "review": "Newest byway (2024). Not on the SCDOT program page, its map series, or the SCDOT GIS layer, and not in the catalog; no agency line exists, so it needs an OSM line built from the statute's segments."
+    },
+    {
+      "name": "Oscar Wigington Scenic Byway",
+      "designation": "National Forest Scenic Byway",
+      "where": "SC 107 north from SC 28 toward the NC line, with SC 413 to the Wigington Overlook, Sumter National Forest, Oconee County",
+      "facts": [
+        {
+          "fact": "Runs along SC 107 through Sumter National Forest from its junction with the Cherokee Foothills byway, past Walhalla Fish Hatchery, Moody Spring and Cherry Hill Recreation Area.",
+          "source": "https://discoversouthcarolina.com/articles/take-a-scenic-drive-along-one-of-south-carolinas-prettiest-mountain-roads"
+        },
+        {
+          "fact": "The Wigington Overlook on SC 413 looks over Lake Jocassee and the Blue Ridge; the byway is named for a tree farmer and former mayor of Salem.",
+          "source": "https://discoversouthcarolina.com/articles/take-a-scenic-drive-along-one-of-south-carolinas-prettiest-mountain-roads"
+        },
+        {
+          "fact": "Parts of the route were folded into the state's Falling Waters Scenic Byway in 2010, which may keep dual designation.",
+          "source": "https://www.scstatehouse.gov/code/t57c023.php"
+        }
+      ],
+      "review": "Also part of the state's Falling Waters Scenic Byway (dual designation); listed here because the catalog carries it as the Forest Service byway. No dedicated USFS page found; the Forest Service has a page for the Oscar Wigington Overlook only."
+    }
+  ],
+  "issues": [
+    "Piedmont Gateway Scenic Byway (2024 Act No. 157, Fairfield County) is a 22nd state byway: missing from the SCDOT page (still says 21), the SCDOT map series (last modified 2019) and the SCDOT GIS layer, and from the catalog. Needs an OSM line from the statute's segments.",
+    "Catalog andrew-pickens-scenic-parkway-73581 is drawn in Bluffton on the same line as s-13-scenic-highway-73591 (May River Scenic Byway). By statute the Andrew Pickens Scenic Parkway is SC 11 in Pickens and Oconee counties, part of Cherokee Foothills. The catalog entry should be dropped or merged.",
+    "Catalog s-13-scenic-highway-73591 and sc-46-scenic-highway-73593 are both pieces of the May River Scenic Byway. s-163-scenic-highway-73592 runs half on the May River line and half north from Bluffton toward US 278 on a road not named in any statute; it looks stale or misattributed. Suggest replacing all of them with the SCDOT 'May River' line.",
+    "Catalog lists Edisto Island's designation as 'State Scenic Backway'; South Carolina has no such designation. It is a National Scenic Byway and state scenic highway (1988 Act No. 594).",
+    "Catalog oscar-wigington-scenic-byway-2292 lies wholly inside the SCDOT 'Falling Waters' line, which also covers SC 130 to the NC line. Both designations stand (statute allows dual designation).",
+    "Lengths disagree between sources: Western York 57 mi (statute), 63 mi (county), 66 mi (SCDOT), about 61 mi (layer); Savannah River 100 mi (SCDOT) vs 110 mi (FHWA); Cherokee Foothills 118 mi (SCDOT) vs 112 mi (FHWA, SC Encyclopedia); Edisto Island 14 mi (SCDOT) vs 16.79 mi (FHWA).",
+    "Old Sheldon Church Road: SCDOT layer has two features totalling about 7.1 mi, matching SCDOT's 'about seven miles'; catalog line is 4.6 mi and may be missing the southern piece.",
+    "US 21 (Act 73 of 1979), Cowpens (SC 110), McTeer Bridge and Savannah River are not in Title 57 Chapter 23 (uncodified acts or other authority), so the statute is not by itself a complete list; the SCDOT map series plus the 2024 act give the full 22. The 1988 SC 174 act names only the Charleston County part, while SCDOT treats the Colleton County Edisto Beach piece as the surviving state route; worth a check.",
+    "scenic11.com (Discover Upcountry, the Cherokee Foothills page) returns 403 to curl but loads via WebFetch.",
+    "Most small Lowcountry routes have no dedicated official page; url left null. The SCDOT map series has a tab for each but no per-road URL."
+  ]
+}

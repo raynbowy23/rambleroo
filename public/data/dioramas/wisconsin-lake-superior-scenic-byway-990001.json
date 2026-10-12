@@ -1,0 +1,445 @@
+{
+  "authored": false,
+  "bywayId": "wisconsin-lake-superior-scenic-byway-990001",
+  "title": "Wisconsin Lake Superior Scenic Byway",
+  "longitude": -91.0173,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -90.95435,
+        46.58768
+      ],
+      [
+        -90.95445,
+        46.60118
+      ],
+      [
+        -90.92527,
+        46.62848
+      ],
+      [
+        -90.92235,
+        46.6389
+      ],
+      [
+        -90.91757,
+        46.64425
+      ],
+      [
+        -90.91614,
+        46.66908
+      ],
+      [
+        -90.91286,
+        46.67063
+      ],
+      [
+        -90.89562,
+        46.67053
+      ],
+      [
+        -90.87395,
+        46.68481
+      ],
+      [
+        -90.87334,
+        46.72344
+      ],
+      [
+        -90.89007,
+        46.75368
+      ],
+      [
+        -90.88993,
+        46.75628
+      ],
+      [
+        -90.87581,
+        46.76135
+      ],
+      [
+        -90.8641,
+        46.76875
+      ],
+      [
+        -90.86204,
+        46.77437
+      ],
+      [
+        -90.86529,
+        46.78278
+      ],
+      [
+        -90.85938,
+        46.78986
+      ],
+      [
+        -90.82242,
+        46.80728
+      ],
+      [
+        -90.82225,
+        46.81096
+      ],
+      [
+        -90.81462,
+        46.81097
+      ],
+      [
+        -90.789,
+        46.85358
+      ],
+      [
+        -90.79027,
+        46.85632
+      ],
+      [
+        -90.80361,
+        46.86007
+      ],
+      [
+        -90.81531,
+        46.86906
+      ],
+      [
+        -90.82431,
+        46.87232
+      ],
+      [
+        -90.84022,
+        46.87054
+      ],
+      [
+        -90.84633,
+        46.86767
+      ],
+      [
+        -90.87742,
+        46.8678
+      ],
+      [
+        -90.8968,
+        46.88477
+      ],
+      [
+        -90.91022,
+        46.88923
+      ],
+      [
+        -90.92122,
+        46.88962
+      ],
+      [
+        -90.93934,
+        46.89661
+      ],
+      [
+        -90.95862,
+        46.89912
+      ],
+      [
+        -91.00904,
+        46.89122
+      ],
+      [
+        -91.03079,
+        46.87966
+      ],
+      [
+        -91.05934,
+        46.8774
+      ],
+      [
+        -91.06167,
+        46.87529
+      ],
+      [
+        -91.06166,
+        46.86264
+      ],
+      [
+        -91.06314,
+        46.8608
+      ],
+      [
+        -91.0954,
+        46.8606
+      ],
+      [
+        -91.11904,
+        46.84678
+      ],
+      [
+        -91.15095,
+        46.8468
+      ],
+      [
+        -91.17398,
+        46.84008
+      ],
+      [
+        -91.20938,
+        46.84304
+      ],
+      [
+        -91.21498,
+        46.84088
+      ],
+      [
+        -91.21954,
+        46.83503
+      ],
+      [
+        -91.2249,
+        46.83246
+      ],
+      [
+        -91.26906,
+        46.83226
+      ],
+      [
+        -91.3034,
+        46.82315
+      ],
+      [
+        -91.34427,
+        46.80815
+      ],
+      [
+        -91.38283,
+        46.77526
+      ],
+      [
+        -91.43946,
+        46.77524
+      ],
+      [
+        -91.54388,
+        46.74841
+      ],
+      [
+        -91.57114,
+        46.7476
+      ],
+      [
+        -91.57334,
+        46.74144
+      ],
+      [
+        -91.5731,
+        46.67613
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Bayfield",
+      "model": "harbor",
+      "at": 0.27550844453164663,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bayfield",
+      "model": "town-blocks",
+      "at": 0.27550844453164663,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mawikwe Bay sea caves",
+      "model": "sea-stack",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Illustrative position in driving order."
+    },
+    {
+      "name": "Cornucopia",
+      "model": "harbor",
+      "at": 0.5788089932742625,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cornucopia",
+      "model": "town-blocks",
+      "at": 0.5788089932742625,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Ashland",
+      "at": 0.03285917496443813,
+      "landmark": ""
+    },
+    {
+      "name": "Washburn",
+      "at": 0.10156472261735416,
+      "landmark": ""
+    },
+    {
+      "name": "Sioux",
+      "at": 0.17581792318634426,
+      "landmark": ""
+    },
+    {
+      "name": "Bayfield",
+      "at": 0.27596017069701284,
+      "landmark": "Bayfield"
+    },
+    {
+      "name": "Cornucopia",
+      "at": 0.5790896159317211,
+      "landmark": "Cornucopia"
+    },
+    {
+      "name": "Herbster",
+      "at": 0.694452347083926,
+      "landmark": ""
+    },
+    {
+      "name": "Port Wing",
+      "at": 0.8001422475106685,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/wisconsin-lake-superior-scenic-byway-990001.json",
+    "public/data/strips/wisconsin-lake-superior-scenic-byway-990001.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

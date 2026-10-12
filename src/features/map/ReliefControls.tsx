@@ -6,6 +6,7 @@ import { loadBywayGeometry } from './layers'
 import { bearing, longestPart, type RoutePart } from './routeJourney'
 import { useGarage } from '../../lib/garage'
 import { setRelief, isTerrainError } from './terrain'
+import type { GeoJSONSource } from './maplibre'
 
 const preference = 'rambleroo.relief.v1'
 function savedPreference() {
@@ -15,10 +16,13 @@ function savedPreference() {
     return false
   }
 }
-export function ReliefControls({ map, roadId }: { map: Map; roadId?: string }) {
+/** `onDrive`: called when 3D turns on with a road picked, so the map replays the drive in 3D. */
+export function ReliefControls({ map, roadId, onDrive }: { map: Map; roadId?: string; onDrive?: () => void }) {
   const [enabled, setEnabled] = useState(savedPreference)
   const [part, setPart] = useState<RoutePart>()
   const garage = useGarage()
+  const drive = useRef(onDrive)
+  drive.current = onDrive
   const wasEnabled = useRef(false)
   const motion = useMotionEnabled()
   useEffect(() => {
@@ -77,7 +81,20 @@ export function ReliefControls({ map, roadId }: { map: Map; roadId?: string }) {
         const car = createCarLayer(garage, part.coordinates[0] as [number, number], bearing(part.coordinates[0], part.coordinates[1]))
         map.addLayer(car.layer)
         if (map.getLayer('route-car')) map.setLayoutProperty('route-car', 'visibility', 'none')
+        // The 3D car rides where the flat car would be: it follows every step of the drive animation (and stays parked after it).
+        const follow = () => {
+          const data = (map.getSource('route-car') as GeoJSONSource | undefined)?.serialize().data as
+            { type?: string; geometry?: { coordinates: [number, number] }; properties?: { bearing?: number } } | undefined
+          if (data?.type === 'Feature' && data.geometry) car.update(data.geometry.coordinates, data.properties?.bearing ?? 0)
+        }
+        const onData = (event: { sourceId?: string }) => {
+          if (event.sourceId === 'route-car') follow()
+        }
+        map.on('sourcedata', onData)
+        follow()
+        drive.current?.()
         remove = () => {
+          map.off('sourcedata', onData)
           if (map.getLayer(carLayerId)) map.removeLayer(carLayerId)
           if (map.getLayer('route-car')) map.setLayoutProperty('route-car', 'visibility', 'visible')
         }

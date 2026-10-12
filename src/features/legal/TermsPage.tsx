@@ -32,7 +32,11 @@ export default function TermsPage() {
         <li>
           “Drive this stretch” hands your route to Google Maps. Check that the directions it gives actually follow the road you chose.
         </li>
-        <li>Stories are drafts unless marked reviewed, and places marked “off the road” require a detour.</li>
+        <li>
+          Stories, maps and road details are researched from the sources listed with them, but they may contain mistakes or fall out of
+          date. If you spot one, please open <Contact /> (issues are public, so leave out personal details). Corrections are always welcome.
+        </li>
+        <li>Places marked “off the road” require a detour.</li>
       </ul>
 
       <h2>Your content</h2>

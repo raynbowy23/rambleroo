@@ -1,0 +1,364 @@
+{
+  "authored": false,
+  "bywayId": "us-44-salisbury-990904",
+  "title": "US 44, Salisbury",
+  "longitude": -73.4249,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -73.49386,
+        41.95324
+      ],
+      [
+        -73.48668,
+        41.955
+      ],
+      [
+        -73.48448,
+        41.95581
+      ],
+      [
+        -73.48335,
+        41.95601
+      ],
+      [
+        -73.48018,
+        41.9558
+      ],
+      [
+        -73.47822,
+        41.95583
+      ],
+      [
+        -73.47441,
+        41.95445
+      ],
+      [
+        -73.47313,
+        41.95438
+      ],
+      [
+        -73.4723,
+        41.95466
+      ],
+      [
+        -73.46966,
+        41.95669
+      ],
+      [
+        -73.46892,
+        41.95701
+      ],
+      [
+        -73.46669,
+        41.95711
+      ],
+      [
+        -73.46577,
+        41.9569
+      ],
+      [
+        -73.46468,
+        41.95641
+      ],
+      [
+        -73.46395,
+        41.95632
+      ],
+      [
+        -73.45878,
+        41.95763
+      ],
+      [
+        -73.45816,
+        41.95796
+      ],
+      [
+        -73.45575,
+        41.96022
+      ],
+      [
+        -73.45396,
+        41.96105
+      ],
+      [
+        -73.45277,
+        41.96191
+      ],
+      [
+        -73.44923,
+        41.96356
+      ],
+      [
+        -73.44791,
+        41.96386
+      ],
+      [
+        -73.44323,
+        41.96377
+      ],
+      [
+        -73.44165,
+        41.96407
+      ],
+      [
+        -73.44066,
+        41.96478
+      ],
+      [
+        -73.43809,
+        41.96869
+      ],
+      [
+        -73.4359,
+        41.96953
+      ],
+      [
+        -73.43541,
+        41.96987
+      ],
+      [
+        -73.43293,
+        41.9729
+      ],
+      [
+        -73.42901,
+        41.97443
+      ],
+      [
+        -73.42709,
+        41.97618
+      ],
+      [
+        -73.42462,
+        41.97893
+      ],
+      [
+        -73.4232,
+        41.98093
+      ],
+      [
+        -73.42196,
+        41.98436
+      ],
+      [
+        -73.42157,
+        41.98503
+      ],
+      [
+        -73.41775,
+        41.98888
+      ],
+      [
+        -73.41375,
+        41.99351
+      ],
+      [
+        -73.411,
+        41.99526
+      ],
+      [
+        -73.40845,
+        41.99589
+      ],
+      [
+        -73.40362,
+        41.99878
+      ],
+      [
+        -73.40125,
+        41.99926
+      ],
+      [
+        -73.39623,
+        41.99974
+      ],
+      [
+        -73.39552,
+        42.00005
+      ],
+      [
+        -73.39428,
+        42.00101
+      ],
+      [
+        -73.39358,
+        42.00117
+      ],
+      [
+        -73.39291,
+        42.00106
+      ],
+      [
+        -73.38846,
+        41.99945
+      ],
+      [
+        -73.38748,
+        41.99941
+      ],
+      [
+        -73.38608,
+        42.00011
+      ],
+      [
+        -73.38453,
+        42.00212
+      ],
+      [
+        -73.38372,
+        42.00263
+      ],
+      [
+        -73.37474,
+        42.00346
+      ],
+      [
+        -73.36227,
+        42.00703
+      ],
+      [
+        -73.3606,
+        42.00676
+      ],
+      [
+        -73.35833,
+        42.00528
+      ],
+      [
+        -73.3576,
+        42.00504
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lakeville",
+      "model": "town-blocks",
+      "at": 0.3333333333333333,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Salisbury Center",
+      "model": "steeple-town",
+      "at": 0.5284629135925569,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Salisbury Center",
+      "model": "town-blocks",
+      "at": 0.5284629135925569,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Salisbury",
+      "at": 0.5438202247191011,
+      "landmark": ""
+    },
+    {
+      "name": "Wildcat Hollow",
+      "at": 0.8831460674157303,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/us-44-salisbury-990904.json",
+    "public/data/strips/us-44-salisbury-990904.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,112 @@
+{
+  "code": "RI",
+  "name": "Rhode Island",
+  "tagline": "Mill villages, Post Road salt ponds, Bristol's tree-lined Hope Street and Middletown's shore lanes.",
+  "intro": "Rhode Island's scenic roads are short pieces of old country: a colonial highway in the Moshassuck valley, an Olmsted parkway on the Providence River, Bristol's Hope Street, the lanes behind Middletown's beaches, and stretches of the Post Road and back roads in South County. This chapter follows the Rhode Island Scenic Roadways program, administered by the Rhode Island Department of Transportation with the Scenic Roadways Board. The state designates 'scenic roadways' rather than byways, at a town's request after a local public hearing, and each comes with a community stewardship plan; nine have been named since 1991, Route 1 counting twice as separate Charlestown and South Kingstown designations.",
+  "programs": [
+    {
+      "label": "Rhode Island Scenic Roadways",
+      "issuer": "Rhode Island Department of Transportation and the Rhode Island Scenic Roadways Board",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Shannock Road",
+          "bywayId": "shannock-road-2472",
+          "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Shannock%20Road.pdf",
+          "blurb": "Shannock Road runs 1.7 miles between Route 2 and Route 112 past marsh and stone-walled fields, dropping midway into Shannock, a nineteenth-century textile mill village on the Pawcatuck River."
+        },
+        {
+          "name": "Ministerial Road",
+          "bywayId": "ministerial-road-2471",
+          "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Ministerial%20Road.pdf",
+          "blurb": "Route 110 runs six miles through South Kingstown woods under a tunnel of overhanging trees, with mountain laurel and rhododendron at the pavement edge and Larkin Pond and glacial kettle holes along the way."
+        },
+        {
+          "name": "Veterans Memorial Parkway",
+          "bywayId": "veteran-s-memorial-parkway-2469",
+          "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Veterans%20Memorial%20Parkway.pdf",
+          "blurb": "An Olmsted firm parkway built between 1910 and 1920, it follows the Providence River for 2.4 miles under old maples and sycamores, with the Providence skyline across the water from the Fort Hill Overlook."
+        },
+        {
+          "name": "Paradise Avenue and Associated Roads",
+          "bywayId": "paradise-ave-and-other-roads-2470",
+          "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Paradise%20Ave%20and%20Associated%20Roads.pdf",
+          "blurb": "A loop of Middletown back roads winds past old farmhouses and the blue-gray ledges of Paradise Rock and Hanging Rock, then runs down to Second Beach with the Purgatory Chasm bluffs and Sachuest Point ahead.",
+          "note": "Shown on the map as Paradise Ave and Other Roads."
+        },
+        {
+          "name": "Great Road/Breakneck Hill Road",
+          "bywayId": "great-and-breakneck-hill-roads-2467",
+          "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Great%20Road%20Breakneck%20Hill%20Road.pdf",
+          "blurb": "Route 123 crosses the Moshassuck River valley in Lincoln on a colonial road of 1683, past the open pastures of old Chase Farm and the Arnold House, a stone-ender built in 1687."
+        },
+        {
+          "name": "Route 102",
+          "bywayId": "route-102-ten-rod-road-2468",
+          "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Route%20102.pdf",
+          "blurb": "Ten Rod Road crosses Exeter for seven miles over ridges up to 560 feet and five stream valleys of the Queen's River headwaters, between stone walls that once saw livestock driven to market at Wickford."
+        },
+        {
+          "name": "Route 114",
+          "bywayId": "route-114-and-high-street-2577",
+          "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Route%20114.pdf",
+          "blurb": "Hope Street carries Route 114 through Bristol under old shade trees, past a seventeenth-century street grid and Colt State Park to the Mount Hope Bridge, on the route of a Fourth of July parade held since 1785."
+        },
+        {
+          "name": "Route 1 (Charlestown)",
+          "bywayId": "route-1-charlestown-994401",
+          "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Route%201%20Charlestown.pdf",
+          "blurb": "The Post Road crosses Charlestown for seven miles with the wooded moraine on one side and glimpses of salt ponds on the other, passing the Stanton Inn of 1667 and the old Wilcox Tavern.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Route 1 (South Kingstown)",
+          "bywayId": "route-1-south-kingstown-994402",
+          "url": "https://www.southkingstownri.gov/1066/Route-1-Stewardship-Plan",
+          "blurb": "The old Post Road runs about twelve miles through South Kingstown beside four miles of stone walls, with Point Judith Pond below and, on clear days, Newport across the bay from the Hannah Robinson tower.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "RIDOT, Rhode Island's Scenic Roadways (program page with all nine roadways)",
+      "url": "https://www.dot.ri.gov/projects/ScenicRoads/index.php"
+    },
+    {
+      "label": "RIDOT, Scenic Roadways interactive story map",
+      "url": "https://storymaps.arcgis.com/stories/6232bed70fd2433bb11d624ef859ed5d"
+    },
+    {
+      "label": "RIDOT, Scenic Roads map service (layer behind the story map web map 'Scenic Roads Map')",
+      "url": "https://gisstage.dot.ri.gov/gpserver/rest/services/Roads/ScenicRoads/MapServer/0"
+    },
+    {
+      "label": "RIDOT, Scenic Roadways stewardship plans (one PDF per roadway)",
+      "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Route%20102.pdf"
+    },
+    {
+      "label": "Town of South Kingstown, Route 1 Stewardship Plan",
+      "url": "https://www.southkingstownri.gov/1066/Route-1-Stewardship-Plan"
+    },
+    {
+      "label": "Wikipedia, Shannock Historic District",
+      "url": "https://en.wikipedia.org/wiki/Shannock_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Great Road Historic District",
+      "url": "https://en.wikipedia.org/wiki/Great_Road_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Bristol Fourth of July Parade",
+      "url": "https://en.wikipedia.org/wiki/Bristol_Fourth_of_July_Parade"
+    }
+  ],
+  "bbox": [
+    -72.0,
+    41.1,
+    -71.0,
+    42.2
+  ]
+}

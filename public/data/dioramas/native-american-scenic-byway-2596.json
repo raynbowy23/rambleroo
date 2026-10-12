@@ -1,0 +1,364 @@
+{
+  "authored": false,
+  "bywayId": "native-american-scenic-byway-2596",
+  "title": "Native American Scenic Byway",
+  "longitude": -100.849,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -100.63517,
+        46.41524
+      ],
+      [
+        -100.64899,
+        46.20003
+      ],
+      [
+        -100.68337,
+        46.16811
+      ],
+      [
+        -100.67126,
+        46.05425
+      ],
+      [
+        -100.62813,
+        46.00703
+      ],
+      [
+        -100.62698,
+        45.94496
+      ],
+      [
+        -100.5427,
+        45.93369
+      ],
+      [
+        -100.45887,
+        45.85371
+      ],
+      [
+        -100.47959,
+        45.8242
+      ],
+      [
+        -100.47982,
+        45.73312
+      ],
+      [
+        -100.50385,
+        45.7099
+      ],
+      [
+        -100.50468,
+        45.65688
+      ],
+      [
+        -100.53111,
+        45.63472
+      ],
+      [
+        -100.49016,
+        45.60142
+      ],
+      [
+        -100.48516,
+        45.57383
+      ],
+      [
+        -100.52259,
+        45.55597
+      ],
+      [
+        -100.56216,
+        45.56365
+      ],
+      [
+        -100.5669,
+        45.50691
+      ],
+      [
+        -100.61144,
+        45.47863
+      ],
+      [
+        -100.58501,
+        45.45982
+      ],
+      [
+        -100.61296,
+        45.33308
+      ],
+      [
+        -100.39929,
+        45.31833
+      ],
+      [
+        -100.38528,
+        45.16304
+      ],
+      [
+        -100.42487,
+        45.07599
+      ],
+      [
+        -100.50631,
+        45.12782
+      ],
+      [
+        -100.65581,
+        45.1471
+      ],
+      [
+        -100.92564,
+        45.02326
+      ],
+      [
+        -101.27865,
+        45.00809
+      ],
+      [
+        -101.27842,
+        44.7926
+      ],
+      [
+        -101.20988,
+        44.68542
+      ],
+      [
+        -101.14706,
+        44.68139
+      ],
+      [
+        -101.13502,
+        44.63855
+      ],
+      [
+        -101.13521,
+        44.37212
+      ],
+      [
+        -100.4326,
+        44.38818
+      ],
+      [
+        -100.37868,
+        44.36894
+      ],
+      [
+        -100.30899,
+        44.29886
+      ],
+      [
+        -100.15544,
+        44.30042
+      ],
+      [
+        -100.09854,
+        44.26728
+      ],
+      [
+        -100.0404,
+        44.27622
+      ],
+      [
+        -99.94332,
+        44.24948
+      ],
+      [
+        -99.92956,
+        44.21971
+      ],
+      [
+        -99.97371,
+        44.22198
+      ],
+      [
+        -99.99221,
+        44.19824
+      ],
+      [
+        -99.89384,
+        44.11552
+      ],
+      [
+        -99.88334,
+        44.07946
+      ],
+      [
+        -99.68639,
+        44.09549
+      ],
+      [
+        -99.65852,
+        44.07572
+      ],
+      [
+        -99.57514,
+        44.06968
+      ],
+      [
+        -99.46727,
+        44.00243
+      ],
+      [
+        -99.44621,
+        44.01556
+      ],
+      [
+        -99.45596,
+        44.05791
+      ],
+      [
+        -99.43784,
+        44.06878
+      ],
+      [
+        -99.32706,
+        44.00165
+      ],
+      [
+        -99.29669,
+        43.9439
+      ],
+      [
+        -99.28869,
+        43.85807
+      ],
+      [
+        -99.33131,
+        43.80942
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Fort Yates",
+      "model": "alpine-lake",
+      "at": 0.06849869993952837,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Fort Yates",
+      "model": "town-blocks",
+      "at": 0.06849869993952837,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dignity of Earth and Sky",
+      "model": "ledge",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Cannon Ball",
+      "at": 0.018158198614318707,
+      "landmark": ""
+    },
+    {
+      "name": "Kenel",
+      "at": 0.13005196304849884,
+      "landmark": ""
+    },
+    {
+      "name": "Promise",
+      "at": 0.2604792147806005,
+      "landmark": ""
+    },
+    {
+      "name": "La Plant",
+      "at": 0.37973441108545036,
+      "landmark": ""
+    },
+    {
+      "name": "Parade",
+      "at": 0.4494803695150115,
+      "landmark": ""
+    },
+    {
+      "name": "Hayes",
+      "at": 0.6302540415704388,
+      "landmark": ""
+    },
+    {
+      "name": "Fort Pierre",
+      "at": 0.7236143187066975,
+      "landmark": ""
+    },
+    {
+      "name": "West Brule",
+      "at": 0.8869226327944574,
+      "landmark": ""
+    },
+    {
+      "name": "Chamberlain",
+      "at": 0.9998556581986144,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/native-american-scenic-byway-2596.json",
+    "public/data/strips/native-american-scenic-byway-2596.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

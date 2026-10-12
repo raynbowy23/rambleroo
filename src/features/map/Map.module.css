@@ -6,7 +6,8 @@
 .cartouche {
   position: absolute;
   top: 16px;
-  left: calc(50% + 180px);
+  /* Centred on the screen; nudged right only when the search panel (about 390px) would otherwise sit under it. */
+  left: max(50%, calc(400px + min(220px, 50% - 210px)));
   transform: translateX(-50%);
   width: min(440px, calc(100% - 420px));
   text-align: center;
@@ -143,7 +144,7 @@
   width: 46px;
   height: 21px;
   background: var(--ink-soft);
-  mask: url('./carriage.svg') center / contain no-repeat;
+  mask: url('../../components/art/carriage.svg') center / contain no-repeat;
 }
 .cartouche::before {
   left: -14px;
@@ -226,5 +227,69 @@
     height: 30px;
     padding: 0 10px;
     font-size: 12px;
+  }
+}
+
+/* Phones: the title box shrinks to its text, so the carriages sit right beside it instead of at the screen edges. */
+@media (max-width: 759px) {
+  .cartouche {
+    width: auto;
+    max-width: calc(100% - 110px);
+    padding: 6px 14px 10px;
+    white-space: nowrap;
+  }
+  .cartouche h2 {
+    font-size: 20px;
+  }
+  .cartouche :global(.kicker) {
+    font-size: 12px;
+    letter-spacing: 0.14em;
+  }
+  .cartouche::before,
+  .cartouche::after {
+    width: 34px;
+    height: 16px;
+  }
+  .cartouche::before {
+    left: -30px;
+  }
+  .cartouche::after {
+    right: -30px;
+  }
+  .controls,
+  .selectedControls {
+    max-height: 42px;
+    border-radius: 10px;
+  }
+  .controls :global(.btn) {
+    min-height: 42px;
+    min-width: 40px;
+    padding: 0 10px;
+    border: 0;
+  }
+  .controls select {
+    min-height: 40px;
+    max-width: 92px;
+    padding: 0 6px;
+    font-size: 13px;
+  }
+  .compass {
+    transform: scale(0.75);
+    transform-origin: bottom right;
+  }
+}
+
+/* Touch tablets: compact square map tools instead of a tall column of 44px buttons. */
+@media (min-width: 760px) and (any-pointer: coarse) {
+  .controls :global(.btn) {
+    min-height: 42px;
+    height: 42px;
+    min-width: 42px;
+    padding: 0 10px;
+  }
+  .controls select {
+    min-height: 42px;
+    height: 42px;
+    max-width: 96px;
   }
 }

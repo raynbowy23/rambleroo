@@ -1,0 +1,332 @@
+{
+  "authored": false,
+  "bywayId": "panhandle-historic-rivers-passage-scenic-byway-13574",
+  "title": "Panhandle Historic Rivers Passage Scenic Byway",
+  "longitude": -116.7627,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -117.03956,
+        48.18397
+      ],
+      [
+        -117.03718,
+        48.18406
+      ],
+      [
+        -117.0301,
+        48.18665
+      ],
+      [
+        -117.02751,
+        48.18698
+      ],
+      [
+        -117.01242,
+        48.18435
+      ],
+      [
+        -116.99862,
+        48.18265
+      ],
+      [
+        -116.99346,
+        48.18072
+      ],
+      [
+        -116.99082,
+        48.18033
+      ],
+      [
+        -116.97975,
+        48.18023
+      ],
+      [
+        -116.97076,
+        48.1808
+      ],
+      [
+        -116.88998,
+        48.18043
+      ],
+      [
+        -116.88786,
+        48.17982
+      ],
+      [
+        -116.88067,
+        48.17597
+      ],
+      [
+        -116.87146,
+        48.1726
+      ],
+      [
+        -116.86727,
+        48.17057
+      ],
+      [
+        -116.84224,
+        48.14956
+      ],
+      [
+        -116.83892,
+        48.14807
+      ],
+      [
+        -116.83499,
+        48.14797
+      ],
+      [
+        -116.8326,
+        48.14868
+      ],
+      [
+        -116.8219,
+        48.15378
+      ],
+      [
+        -116.81738,
+        48.15447
+      ],
+      [
+        -116.79835,
+        48.15572
+      ],
+      [
+        -116.78662,
+        48.15878
+      ],
+      [
+        -116.77493,
+        48.16413
+      ],
+      [
+        -116.74758,
+        48.17286
+      ],
+      [
+        -116.73153,
+        48.1809
+      ],
+      [
+        -116.72968,
+        48.18236
+      ],
+      [
+        -116.72342,
+        48.18912
+      ],
+      [
+        -116.71996,
+        48.19459
+      ],
+      [
+        -116.71976,
+        48.19712
+      ],
+      [
+        -116.72177,
+        48.20417
+      ],
+      [
+        -116.72,
+        48.20779
+      ],
+      [
+        -116.71983,
+        48.21215
+      ],
+      [
+        -116.71908,
+        48.21401
+      ],
+      [
+        -116.7147,
+        48.21752
+      ],
+      [
+        -116.71027,
+        48.22353
+      ],
+      [
+        -116.70125,
+        48.23005
+      ],
+      [
+        -116.69992,
+        48.23235
+      ],
+      [
+        -116.69747,
+        48.23518
+      ],
+      [
+        -116.69423,
+        48.24591
+      ],
+      [
+        -116.69125,
+        48.25054
+      ],
+      [
+        -116.68923,
+        48.25196
+      ],
+      [
+        -116.67251,
+        48.25878
+      ],
+      [
+        -116.66948,
+        48.25912
+      ],
+      [
+        -116.65971,
+        48.25728
+      ],
+      [
+        -116.65075,
+        48.25324
+      ],
+      [
+        -116.64726,
+        48.25231
+      ],
+      [
+        -116.61938,
+        48.25234
+      ],
+      [
+        -116.61174,
+        48.25288
+      ],
+      [
+        -116.60782,
+        48.25142
+      ],
+      [
+        -116.6062,
+        48.25132
+      ],
+      [
+        -116.60255,
+        48.25286
+      ],
+      [
+        -116.59117,
+        48.25591
+      ],
+      [
+        -116.55696,
+        48.2726
+      ],
+      [
+        -116.55591,
+        48.27306
+      ],
+      [
+        -116.55331,
+        48.2731
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Oldtown",
+      "model": "town-blocks",
+      "at": 0.05930279124087235,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dover",
+      "model": "town-blocks",
+      "at": 0.8792370575479704,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Oldtown",
+      "at": 0.059154929577464786,
+      "landmark": "Oldtown"
+    },
+    {
+      "name": "Laclede",
+      "at": 0.5214788732394366,
+      "landmark": ""
+    },
+    {
+      "name": "Dover",
+      "at": 0.8785211267605634,
+      "landmark": "Dover"
+    },
+    {
+      "name": "Sandpoint",
+      "at": 0.9950704225352114,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/panhandle-historic-rivers-passage-scenic-byway-13574.json",
+    "public/data/strips/panhandle-historic-rivers-passage-scenic-byway-13574.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

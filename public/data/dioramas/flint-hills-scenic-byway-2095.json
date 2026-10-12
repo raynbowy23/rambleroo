@@ -1,0 +1,421 @@
+{
+  "authored": false,
+  "bywayId": "flint-hills-scenic-byway-2095",
+  "title": "Flint Hills Scenic Byway",
+  "longitude": -96.5389,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -96.48809,
+        38.65578
+      ],
+      [
+        -96.48824,
+        38.65253
+      ],
+      [
+        -96.5011,
+        38.59674
+      ],
+      [
+        -96.50288,
+        38.59392
+      ],
+      [
+        -96.51638,
+        38.5801
+      ],
+      [
+        -96.52161,
+        38.5665
+      ],
+      [
+        -96.52214,
+        38.56139
+      ],
+      [
+        -96.5208,
+        38.54274
+      ],
+      [
+        -96.52223,
+        38.53555
+      ],
+      [
+        -96.52577,
+        38.52974
+      ],
+      [
+        -96.54368,
+        38.5122
+      ],
+      [
+        -96.55581,
+        38.49914
+      ],
+      [
+        -96.55707,
+        38.49634
+      ],
+      [
+        -96.55722,
+        38.47903
+      ],
+      [
+        -96.55438,
+        38.46927
+      ],
+      [
+        -96.55401,
+        38.46389
+      ],
+      [
+        -96.5514,
+        38.45858
+      ],
+      [
+        -96.55026,
+        38.45405
+      ],
+      [
+        -96.55122,
+        38.45069
+      ],
+      [
+        -96.55581,
+        38.44588
+      ],
+      [
+        -96.55692,
+        38.44318
+      ],
+      [
+        -96.55703,
+        38.40723
+      ],
+      [
+        -96.55521,
+        38.40167
+      ],
+      [
+        -96.55267,
+        38.39931
+      ],
+      [
+        -96.54247,
+        38.39579
+      ],
+      [
+        -96.5391,
+        38.39561
+      ],
+      [
+        -96.53888,
+        38.32842
+      ],
+      [
+        -96.53974,
+        38.32509
+      ],
+      [
+        -96.54858,
+        38.31075
+      ],
+      [
+        -96.54793,
+        38.30815
+      ],
+      [
+        -96.54345,
+        38.30274
+      ],
+      [
+        -96.5408,
+        38.29172
+      ],
+      [
+        -96.5444,
+        38.28
+      ],
+      [
+        -96.54456,
+        38.2699
+      ],
+      [
+        -96.54706,
+        38.25897
+      ],
+      [
+        -96.54883,
+        38.25576
+      ],
+      [
+        -96.56298,
+        38.23841
+      ],
+      [
+        -96.56745,
+        38.23127
+      ],
+      [
+        -96.56734,
+        38.17814
+      ],
+      [
+        -96.5669,
+        38.17506
+      ],
+      [
+        -96.56342,
+        38.16999
+      ],
+      [
+        -96.5633,
+        38.15394
+      ],
+      [
+        -96.57287,
+        38.14525
+      ],
+      [
+        -96.58677,
+        38.13948
+      ],
+      [
+        -96.5894,
+        38.13698
+      ],
+      [
+        -96.59105,
+        38.13359
+      ],
+      [
+        -96.58965,
+        38.12772
+      ],
+      [
+        -96.5902,
+        38.12506
+      ],
+      [
+        -96.59538,
+        38.1203
+      ],
+      [
+        -96.59743,
+        38.11711
+      ],
+      [
+        -96.6079,
+        38.1085
+      ],
+      [
+        -96.62076,
+        38.08674
+      ],
+      [
+        -96.62208,
+        38.0861
+      ],
+      [
+        -96.63781,
+        38.08615
+      ],
+      [
+        -96.63921,
+        38.0855
+      ],
+      [
+        -96.63935,
+        38.04781
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Council Grove",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Tallgrass Prairie National Preserve",
+      "model": "ridge",
+      "at": 0.35535494157121483,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cottonwood Falls",
+      "model": "town-blocks",
+      "at": 0.45723159384105466,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Council Grove",
+      "at": 0,
+      "landmark": "Council Grove"
+    },
+    {
+      "name": "Strong City",
+      "at": 0.42339055793991415,
+      "landmark": ""
+    },
+    {
+      "name": "Bazaar",
+      "at": 0.6118025751072962,
+      "landmark": ""
+    },
+    {
+      "name": "Matfield Green",
+      "at": 0.7860515021459228,
+      "landmark": ""
+    },
+    {
+      "name": "Cassoday",
+      "at": 0.9993562231759656,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/flint-hills-scenic-byway-2095.json",
+    "public/data/strips/flint-hills-scenic-byway-2095.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

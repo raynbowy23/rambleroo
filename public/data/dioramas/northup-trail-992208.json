@@ -1,0 +1,386 @@
+{
+  "authored": false,
+  "bywayId": "northup-trail-992208",
+  "title": "Northup Trail",
+  "longitude": -92.1069,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -92.36528,
+        31.04948
+      ],
+      [
+        -92.35877,
+        31.04495
+      ],
+      [
+        -92.35065,
+        31.04037
+      ],
+      [
+        -92.29507,
+        31.01278
+      ],
+      [
+        -92.2857,
+        31.00855
+      ],
+      [
+        -92.28269,
+        31.00775
+      ],
+      [
+        -92.27533,
+        31.00727
+      ],
+      [
+        -92.25679,
+        30.99761
+      ],
+      [
+        -92.23396,
+        30.9971
+      ],
+      [
+        -92.21618,
+        30.99044
+      ],
+      [
+        -92.21424,
+        30.9886
+      ],
+      [
+        -92.21324,
+        30.985
+      ],
+      [
+        -92.21224,
+        30.98316
+      ],
+      [
+        -92.21322,
+        30.97729
+      ],
+      [
+        -92.21275,
+        30.97276
+      ],
+      [
+        -92.21593,
+        30.96622
+      ],
+      [
+        -92.21425,
+        30.96359
+      ],
+      [
+        -92.21187,
+        30.96223
+      ],
+      [
+        -92.20152,
+        30.95927
+      ],
+      [
+        -92.19264,
+        30.95961
+      ],
+      [
+        -92.1907,
+        30.95932
+      ],
+      [
+        -92.18665,
+        30.95709
+      ],
+      [
+        -92.18307,
+        30.95333
+      ],
+      [
+        -92.18192,
+        30.95397
+      ],
+      [
+        -92.17849,
+        30.95372
+      ],
+      [
+        -92.17528,
+        30.95182
+      ],
+      [
+        -92.14241,
+        30.94819
+      ],
+      [
+        -92.14005,
+        30.94854
+      ],
+      [
+        -92.13361,
+        30.95159
+      ],
+      [
+        -92.13171,
+        30.95202
+      ],
+      [
+        -92.11075,
+        30.95074
+      ],
+      [
+        -92.10945,
+        30.9516
+      ],
+      [
+        -92.10897,
+        30.95268
+      ],
+      [
+        -92.109,
+        30.95455
+      ],
+      [
+        -92.11018,
+        30.95808
+      ],
+      [
+        -92.10981,
+        30.9596
+      ],
+      [
+        -92.10761,
+        30.96282
+      ],
+      [
+        -92.10204,
+        30.96532
+      ],
+      [
+        -92.10063,
+        30.96649
+      ],
+      [
+        -92.09811,
+        30.97245
+      ],
+      [
+        -92.0956,
+        30.97458
+      ],
+      [
+        -92.09466,
+        30.97604
+      ],
+      [
+        -92.0937,
+        30.97887
+      ],
+      [
+        -92.09384,
+        30.98457
+      ],
+      [
+        -92.09243,
+        30.98666
+      ],
+      [
+        -92.08264,
+        30.9906
+      ],
+      [
+        -92.07481,
+        30.9974
+      ],
+      [
+        -92.07073,
+        30.99668
+      ],
+      [
+        -92.06067,
+        30.99115
+      ],
+      [
+        -92.05942,
+        30.98895
+      ],
+      [
+        -92.05827,
+        30.98803
+      ],
+      [
+        -92.05524,
+        30.98728
+      ],
+      [
+        -92.05282,
+        30.98774
+      ],
+      [
+        -92.0511,
+        30.98957
+      ],
+      [
+        -92.04985,
+        30.99216
+      ],
+      [
+        -92.0498,
+        30.99522
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Epps House",
+      "model": "farmhouse",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Epps House",
+      "model": "town-blocks",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Cheneyville",
+      "model": "town-blocks",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Marksville",
+      "model": "town-blocks",
+      "at": 0.9158774042297271,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Lecompte",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Cheneyville",
+      "at": 0.20766129032258066,
+      "landmark": "Cheneyville"
+    },
+    {
+      "name": "Bunkie",
+      "at": 0.5604838709677419,
+      "landmark": ""
+    },
+    {
+      "name": "Evergreen",
+      "at": 0.7512096774193547,
+      "landmark": ""
+    },
+    {
+      "name": "Cottonport",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/northup-trail-992208.json",
+    "public/data/strips/northup-trail-992208.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

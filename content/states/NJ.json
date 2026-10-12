@@ -1,0 +1,96 @@
+{
+  "code": "NJ",
+  "name": "New Jersey",
+  "tagline": "Delaware Bay salt marsh, Pine Barrens sand roads, canal towpaths and the Palisades cliffs.",
+  "intro": "New Jersey's byways run along the Delaware River and its bay, through the forests and berry farms of the Pinelands, across Highlands ridges and Monmouth farmland, and under the Palisades cliffs on the Hudson. This chapter follows the New Jersey Scenic Byways Program of the New Jersey Department of Transportation, which designates eight byways; six of them have since also been named National Scenic Byways, more than half the state list, and several are run day to day by local partners such as the Pinelands Commission and the Palisades Interstate Park Commission.",
+  "programs": [
+    {
+      "label": "New Jersey Scenic Byways",
+      "issuer": "New Jersey Department of Transportation",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Bayshore Heritage Scenic Byway",
+          "bywayId": "bayshore-heritage-byway-80449",
+          "url": "https://dot.nj.gov/transportation/community/scenic/bayshore.shtm",
+          "blurb": "The byway follows the Delaware Bay from Mannington Township down to Cape May Point through salt marsh and oystering towns, with side roads out to the 1849 East Point Lighthouse and the Cape May-Lewes ferry."
+        },
+        {
+          "name": "Delaware River Scenic Byway",
+          "bywayId": "delaware-river-scenic-byway-2463",
+          "url": "https://dot.nj.gov/transportation/community/scenic/delaware.shtm",
+          "blurb": "Route 29 runs north from the riverside tunnel in Trenton to the Frenchtown bridge, the Delaware and the old canal feeder in view most of the way, past Lambertville, Stockton and the stone mill buildings at Prallsville."
+        },
+        {
+          "name": "Millstone Valley Scenic Byway",
+          "bywayId": "millstone-valley-scenic-byway-2462",
+          "url": "https://www.millstonevalley.org/",
+          "blurb": "Canal Road and River Road run up either side of the Millstone River with the Delaware and Raritan Canal towpath between, through old Dutch-settled villages like Rocky Hill, to a bridgetender's house at Griggstown kept as a visitor center."
+        },
+        {
+          "name": "Palisades Scenic Byway",
+          "bywayId": "palisades-scenic-byway-68569",
+          "url": "https://njpalisades.org/byway/",
+          "blurb": "The parkway keeps to the top of the Palisades cliffs from the George Washington Bridge to the New York line, while Henry Hudson Drive, built between 1912 and 1940, winds along their foot past riverside picnic docks."
+        },
+        {
+          "name": "Pine Barrens Byway",
+          "bywayId": "pine-barrens-byway-68570",
+          "url": "https://www.nj.gov/pinelands/landuse/current/byway/",
+          "blurb": "Three routes of county road wind through the Pinelands forest, from the old iron village of Batsto out to the Tuckerton Seaport and the marshes of the Forsythe refuge, then south past glassworks ruins toward the Maurice River."
+        },
+        {
+          "name": "Upper Freehold Historic Farmland Scenic Byway",
+          "bywayId": "upper-freehold-historic-farmland-byway-69815",
+          "url": "https://dot.nj.gov/transportation/community/scenic/freehold.shtm",
+          "blurb": "A 24-mile loop of farm roads out of Allentown through Upper Freehold Township, past old family farms and the hamlet of Imlaystown, crossing Crosswicks Creek on an iron bridge to the mill at Walnford."
+        },
+        {
+          "name": "Warren Heritage Scenic Byway",
+          "bywayId": "warren-heritage-scenic-byway-80452",
+          "url": "https://dot.nj.gov/transportation/community/scenic/route57.shtm",
+          "blurb": "Route 57 follows an 1806 turnpike over the Warren County ridges to Hackettstown, past farm valleys, a Morris Canal boat basin at Port Murray and a mile near New Village paved in 1912 with Edison's cement."
+        },
+        {
+          "name": "Western Highlands Scenic Byway",
+          "bywayId": null,
+          "url": "https://dot.nj.gov/transportation/community/scenic/western.shtm",
+          "blurb": "Routes 515 and 94 run north through Hardyston and Vernon to the New York line between Hamburg Mountain and Wawayanda State Park, past ski resorts, with the Appalachian Trail crossing the road above Vernon.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "NJDOT Community Programs, Scenic Byways",
+      "url": "https://dot.nj.gov/transportation/community/scenic/byways.shtm"
+    },
+    {
+      "label": "FHWA America's Byways, New Jersey",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/States/Show/NJ"
+    },
+    {
+      "label": "New Jersey Pinelands Commission, Pine Barrens Byway",
+      "url": "https://www.nj.gov/pinelands/landuse/current/byway/"
+    },
+    {
+      "label": "Millstone Valley Preservation Coalition, Millstone Valley Scenic Byway",
+      "url": "https://www.millstonevalley.org/"
+    },
+    {
+      "label": "Palisades Interstate Park Commission (NJ Section), Scenic Byway",
+      "url": "https://njpalisades.org/byway/"
+    },
+    {
+      "label": "New Jersey route layer (GIS)",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/fed82e3348294996b1a847fc85ef78b5/data?f=json"
+    }
+  ],
+  "bbox": [
+    -75.7,
+    38.7,
+    -73.7,
+    41.6
+  ]
+}

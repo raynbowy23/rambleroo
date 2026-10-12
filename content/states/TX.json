@@ -1,0 +1,78 @@
+{
+  "code": "TX",
+  "name": "Texas",
+  "tagline": "Hill Country canyons, the Frio and the Pedernales, and a byway program still waiting.",
+  "intro": "Texas has no designated scenic byways yet. No National Scenic Byway or All-American Road runs through the state, and the Texas Scenic Byways Program that the Texas Department of Transportation (TxDOT) has run since Senate Bill 941 of 2021 has so far named only the road segments eligible for designation, among them US 290 between Austin and Fredericksburg, SH 16 north of Kerrville and FM 170 along the Rio Grande. A road becomes a Texas Scenic Byway only when a local government or community group nominates it, so until one does, this chapter lists two well-known Hill Country drives that carry no designation.",
+  "programs": [
+    {
+      "label": "Classic drives (not designated)",
+      "issuer": "Rambleroo catalog",
+      "kind": "other",
+      "members": [
+        {
+          "name": "Twisted Sisters (Ranch Road 337)",
+          "bywayId": "twisted-sisters-ranch-road-337-980006",
+          "blurb": "Ranch Road 337 switchbacks through Hill Country canyons from Camp Wood to Leakey on the Frio River and on to Vanderpool, by the bigtooth maples of Lost Maples. It is one of the three roads nicknamed the Twisted Sisters."
+        },
+        {
+          "name": "Texas Hill Country Wine Road (US 290)",
+          "bywayId": "texas-hill-country-wine-road-us-290-980007",
+          "url": "https://wineroad290.com/",
+          "blurb": "US 290 leaves Johnson City and the Johnson boyhood home for the LBJ Ranch, where Herefords graze along the Pedernales, then runs on through vineyard country toward Fredericksburg, a town long known for its peaches."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "TxDOT, Scenic Byways",
+      "url": "https://www.txdot.gov/business/grants-and-funding/scenic-byways.html"
+    },
+    {
+      "label": "TxDOT, Texas Scenic Byways Program Guidelines (PDF)",
+      "url": "https://ftp.txdot.gov/pub/txdot-info/tpp/sb/sb-program-guide.pdf"
+    },
+    {
+      "label": "TxDOT, Routes Eligible for State Scenic Byways (PDF map, 2022)",
+      "url": "https://ftp.txdot.gov/pub/txdot-info/tpp/sb/routes-eligible-scenic-byways.pdf"
+    },
+    {
+      "label": "TxDOT, Interactive Map of Eligible Roadways (ArcGIS dashboard)",
+      "url": "https://www.arcgis.com/apps/dashboards/7c53608b54a648e6ac736c82b51da4de"
+    },
+    {
+      "label": "FHWA America's Byways, Texas",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/States/Show/TX"
+    },
+    {
+      "label": "Wikipedia, Ranch to Market Road 337",
+      "url": "https://en.wikipedia.org/wiki/Ranch_to_Market_Road_337"
+    },
+    {
+      "label": "Texas Parks and Wildlife, Lost Maples State Natural Area",
+      "url": "https://tpwd.texas.gov/state-parks/lost-maples"
+    },
+    {
+      "label": "NPS, Lyndon B. Johnson National Historical Park",
+      "url": "https://www.nps.gov/lyjo/index.htm"
+    },
+    {
+      "label": "NPS, Lyndon B. Johnson NHP, Directions and Transportation",
+      "url": "https://www.nps.gov/lyjo/planyourvisit/directions.htm"
+    },
+    {
+      "label": "Wikipedia, Texas Hill Country AVA",
+      "url": "https://en.wikipedia.org/wiki/Texas_Hill_Country_AVA"
+    },
+    {
+      "label": "Wine Road 290",
+      "url": "https://wineroad290.com/"
+    }
+  ],
+  "bbox": [
+    -106.9,
+    25.7,
+    -93.3,
+    36.7
+  ]
+}

@@ -38,10 +38,6 @@
 .intro p {
   line-height: 1.65;
 }
-.draft {
-  color: var(--rust);
-  font-size: var(--step--1);
-}
 .seasons {
   border: 0;
   padding: 0;
@@ -1263,5 +1259,28 @@
     min-height: 30px;
     padding: 2px 8px;
     font-size: 16px;
+  }
+}
+
+/* The print button gets its own line above the kicker at every width. */
+.introCopy > :global(.btn) {
+  display: flex;
+  width: fit-content;
+  margin: 12px 0 16px;
+}
+/* Phones: the floating inset map stays a small corner card. */
+@media (max-width: 759px) {
+  .intro h1 {
+    font-size: 32px;
+  }
+  .inset:not(.expanded):not(.reliefMap) {
+    width: 132px;
+    height: 132px;
+  }
+  .mapToggle,
+  .expanded .mapToggle {
+    inset: auto 0 6px;
+    padding: 2px 4px;
+    font-size: 12px;
   }
 }

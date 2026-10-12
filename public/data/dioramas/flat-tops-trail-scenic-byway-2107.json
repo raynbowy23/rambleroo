@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "flat-tops-trail-scenic-byway-2107",
+  "title": "Flat Tops Trail Scenic Byway",
+  "longitude": -107.3297,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -107.88329,
+        40.03894
+      ],
+      [
+        -107.83153,
+        40.03288
+      ],
+      [
+        -107.81495,
+        40.01298
+      ],
+      [
+        -107.8151,
+        39.98285
+      ],
+      [
+        -107.80335,
+        39.96663
+      ],
+      [
+        -107.78071,
+        39.94936
+      ],
+      [
+        -107.75358,
+        39.94707
+      ],
+      [
+        -107.74662,
+        39.94076
+      ],
+      [
+        -107.73569,
+        39.94291
+      ],
+      [
+        -107.73095,
+        39.94939
+      ],
+      [
+        -107.72327,
+        39.9445
+      ],
+      [
+        -107.67509,
+        39.95228
+      ],
+      [
+        -107.65381,
+        39.96069
+      ],
+      [
+        -107.60649,
+        39.99515
+      ],
+      [
+        -107.55969,
+        40.01094
+      ],
+      [
+        -107.55787,
+        40.0211
+      ],
+      [
+        -107.54463,
+        40.02951
+      ],
+      [
+        -107.49836,
+        40.04487
+      ],
+      [
+        -107.47689,
+        40.04472
+      ],
+      [
+        -107.45252,
+        40.05592
+      ],
+      [
+        -107.38856,
+        40.07092
+      ],
+      [
+        -107.35672,
+        40.07073
+      ],
+      [
+        -107.3478,
+        40.07495
+      ],
+      [
+        -107.32431,
+        40.06786
+      ],
+      [
+        -107.31506,
+        40.07093
+      ],
+      [
+        -107.32366,
+        40.06971
+      ],
+      [
+        -107.33388,
+        40.07629
+      ],
+      [
+        -107.31669,
+        40.08214
+      ],
+      [
+        -107.30794,
+        40.09091
+      ],
+      [
+        -107.31139,
+        40.09542
+      ],
+      [
+        -107.2967,
+        40.10352
+      ],
+      [
+        -107.29595,
+        40.11786
+      ],
+      [
+        -107.25674,
+        40.1353
+      ],
+      [
+        -107.22744,
+        40.16404
+      ],
+      [
+        -107.22272,
+        40.15432
+      ],
+      [
+        -107.2171,
+        40.17983
+      ],
+      [
+        -107.22595,
+        40.19862
+      ],
+      [
+        -107.21459,
+        40.20497
+      ],
+      [
+        -107.2166,
+        40.21393
+      ],
+      [
+        -107.22683,
+        40.21969
+      ],
+      [
+        -107.18667,
+        40.21436
+      ],
+      [
+        -107.1627,
+        40.20151
+      ],
+      [
+        -107.14594,
+        40.20703
+      ],
+      [
+        -107.1281,
+        40.18687
+      ],
+      [
+        -107.12357,
+        40.1884
+      ],
+      [
+        -107.12422,
+        40.18038
+      ],
+      [
+        -107.11322,
+        40.18768
+      ],
+      [
+        -107.10942,
+        40.1821
+      ],
+      [
+        -107.09482,
+        40.19773
+      ],
+      [
+        -107.03565,
+        40.21025
+      ],
+      [
+        -106.98994,
+        40.20198
+      ],
+      [
+        -106.97004,
+        40.19734
+      ],
+      [
+        -106.94973,
+        40.16737
+      ],
+      [
+        -106.91361,
+        40.16509
+      ],
+      [
+        -106.9135,
+        40.15787
+      ],
+      [
+        -106.90862,
+        40.15772
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Meeker",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Trappers Lake",
+      "model": "alpine-lake",
+      "at": 0.4812309470037134,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Yampa",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Meeker",
+      "at": 0,
+      "landmark": "Meeker"
+    },
+    {
+      "name": "Buford",
+      "at": 0.25203955500618047,
+      "landmark": ""
+    },
+    {
+      "name": "Yampa",
+      "at": 1,
+      "landmark": "Yampa"
+    }
+  ],
+  "sources": [
+    "content/stories/flat-tops-trail-scenic-byway-2107.json",
+    "public/data/strips/flat-tops-trail-scenic-byway-2107.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

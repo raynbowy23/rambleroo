@@ -1,0 +1,443 @@
+{
+  "authored": false,
+  "bywayId": "hells-canyon-scenic-byway-2145",
+  "title": "Hells Canyon Scenic Byway",
+  "longitude": -117.6847,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -117.81314,
+        44.80332
+      ],
+      [
+        -117.67275,
+        44.80921
+      ],
+      [
+        -117.61428,
+        44.81895
+      ],
+      [
+        -117.59047,
+        44.83644
+      ],
+      [
+        -117.47611,
+        44.8185
+      ],
+      [
+        -117.43334,
+        44.83174
+      ],
+      [
+        -117.41971,
+        44.81801
+      ],
+      [
+        -117.31598,
+        44.80571
+      ],
+      [
+        -117.29934,
+        44.78706
+      ],
+      [
+        -117.30576,
+        44.77861
+      ],
+      [
+        -117.23211,
+        44.78635
+      ],
+      [
+        -117.19569,
+        44.76183
+      ],
+      [
+        -117.14903,
+        44.7694
+      ],
+      [
+        -117.13546,
+        44.79083
+      ],
+      [
+        -117.12452,
+        44.78469
+      ],
+      [
+        -117.12531,
+        44.83409
+      ],
+      [
+        -117.10601,
+        44.82818
+      ],
+      [
+        -117.09277,
+        44.87653
+      ],
+      [
+        -116.96294,
+        44.88841
+      ],
+      [
+        -116.9504,
+        44.91214
+      ],
+      [
+        -116.96536,
+        44.93566
+      ],
+      [
+        -116.95976,
+        44.96578
+      ],
+      [
+        -116.90471,
+        45.01427
+      ],
+      [
+        -116.89778,
+        45.08855
+      ],
+      [
+        -116.87343,
+        45.08026
+      ],
+      [
+        -116.85206,
+        45.11107
+      ],
+      [
+        -116.86879,
+        45.12476
+      ],
+      [
+        -116.87799,
+        45.1783
+      ],
+      [
+        -116.96542,
+        45.14712
+      ],
+      [
+        -116.99003,
+        45.16722
+      ],
+      [
+        -117.03601,
+        45.15733
+      ],
+      [
+        -117.0687,
+        45.19452
+      ],
+      [
+        -117.08977,
+        45.24552
+      ],
+      [
+        -117.07411,
+        45.34058
+      ],
+      [
+        -117.15475,
+        45.3373
+      ],
+      [
+        -117.22989,
+        45.35435
+      ],
+      [
+        -117.22997,
+        45.39393
+      ],
+      [
+        -117.24532,
+        45.4117
+      ],
+      [
+        -117.381,
+        45.44938
+      ],
+      [
+        -117.39011,
+        45.47615
+      ],
+      [
+        -117.43185,
+        45.48617
+      ],
+      [
+        -117.49893,
+        45.55664
+      ],
+      [
+        -117.53534,
+        45.57047
+      ],
+      [
+        -117.56169,
+        45.59868
+      ],
+      [
+        -117.63032,
+        45.60492
+      ],
+      [
+        -117.66321,
+        45.63007
+      ],
+      [
+        -117.73016,
+        45.61942
+      ],
+      [
+        -117.7344,
+        45.58499
+      ],
+      [
+        -117.76558,
+        45.60255
+      ],
+      [
+        -117.81623,
+        45.58449
+      ],
+      [
+        -117.87944,
+        45.58433
+      ],
+      [
+        -117.91732,
+        45.56552
+      ],
+      [
+        -117.93088,
+        45.50559
+      ],
+      [
+        -117.96264,
+        45.46312
+      ],
+      [
+        -117.99399,
+        45.36884
+      ],
+      [
+        -118.07257,
+        45.33175
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Halfway",
+      "model": "town-blocks",
+      "at": 0.2660871658808933,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hells Canyon Overlook",
+      "model": "overlook-pullout",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Wallowa Lake",
+      "model": "alpine-lake",
+      "at": 0.6289184233700027,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Wallowa Lake",
+      "model": "snow-peak",
+      "at": 0.6289184233700027,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Richland",
+      "at": 0.20272108843537406,
+      "landmark": ""
+    },
+    {
+      "name": "Halfway",
+      "at": 0.265986394557823,
+      "landmark": "Halfway"
+    },
+    {
+      "name": "Copperfield",
+      "at": 0.35493613918326594,
+      "landmark": ""
+    },
+    {
+      "name": "Enterprise",
+      "at": 0.6686551543694401,
+      "landmark": ""
+    },
+    {
+      "name": "Wallowa",
+      "at": 0.7614861329147044,
+      "landmark": ""
+    },
+    {
+      "name": "Minam",
+      "at": 0.8302459445316588,
+      "landmark": ""
+    },
+    {
+      "name": "Elgin",
+      "at": 0.9,
+      "landmark": ""
+    },
+    {
+      "name": "La Grande",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/hells-canyon-scenic-byway-2145.json",
+    "public/data/strips/hells-canyon-scenic-byway-2145.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -17,6 +17,8 @@ import { Compass } from '../../components/art'
 import { WaterLabels } from './WaterLabels'
 import styles from './Map.module.css'
 export { createMapStyle } from './style'
+/** Gentle ease for the zoom buttons: slow off the mark, slow into place. */
+const easeInOut = (t: number) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2)
 const regions: Record<string, [number, number, number, number]> = {
   'Lower 48': [-125, 24, -66, 50],
   Alaska: [-179, 51, -129, 72],
@@ -78,8 +80,28 @@ export function BywayMap({
     return () => observer.disconnect()
   }, [selected])
   const enabled = useMotionEnabled()
+  // Phones: the road card covers the map when it opens, so the car's first run goes unseen. Scrolling or swiping the card replays
+  // the drive (at most every 2.5 s, never mid-run) while the road shows above the card.
+  const [replay, setReplay] = useState(0)
+  useEffect(() => {
+    const root = container.current?.parentElement
+    if (!root || !selected || !enabled) return
+    let last = performance.now()
+    const again = () => {
+      if (window.innerWidth >= 760 || performance.now() - last < 2500) return
+      last = performance.now()
+      setReplay((n) => n + 1)
+    }
+    root.addEventListener('scroll', again, { capture: true, passive: true })
+    root.addEventListener('touchmove', again, { passive: true })
+    return () => {
+      root.removeEventListener('scroll', again, { capture: true })
+      root.removeEventListener('touchmove', again)
+    }
+  }, [selected, enabled])
   const hovered = useHover((s) => s.id)
   const callbacks = useRef({ onSelect, onFailure })
+  const goHome = useRef(false)
   callbacks.current = { onSelect, onFailure }
   useEffect(() => {
     if (!container.current) return
@@ -165,7 +187,9 @@ export function BywayMap({
             map.getCanvas().style.cursor = ''
           })
           map.on('click', (e) => {
-            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'story-points', 'route-moments'] })[0]
+            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'byway-marks', 'story-points', 'route-moments'] })[0]
+            // A click on open map (not a road) goes back to the whole country; the card's close button keeps the view instead.
+            if (!feature) goHome.current = true
             callbacks.current.onSelect(feature ? String(feature.properties.id) : null)
           })
         })
@@ -210,30 +234,69 @@ export function BywayMap({
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
+    // Closing the card leaves the last road drawn, with its car parked at the end, until another road is picked. A click on open
+    // map clears it and flies back to the whole country.
+    if (!selected) {
+      if (!goHome.current) return
+      goHome.current = false
+      animateSelection(map, [], enabled)
+      map.fitBounds(regions['Lower 48'], {
+        padding: window.innerWidth < 760 ? { top: 80, bottom: 260, left: 25, right: 25 } : { top: 100, bottom: 260, left: 390, right: 60 },
+        linear: false,
+        curve: 1.3,
+        maxDuration: 2200,
+        ...(enabled ? {} : { duration: 0 }),
+      })
+      return
+    }
     let cancelled = false
     let stop = () => {}
     void loadBywayGeometry().then((data) => {
       if (cancelled) return
-      const features = selected ? data.features.filter((f) => f.properties.id === selected.id) : []
-      stop = animateSelection(map, features, enabled)
+      const features = data.features.filter((f) => f.properties.id === selected.id)
+      // Drive only once the camera has arrived, so the whole run is on screen.
+      const run = () => {
+        if (!cancelled) stop = animateSelection(map, features, enabled)
+      }
+      // The card's size is measured a moment after it opens and the camera may re-frame once, so wait until it is truly still.
+      let timer = 0
+      const settle = () => {
+        timer = window.setTimeout(() => (map.isMoving() ? map.once('moveend', settle) : run()), 120)
+      }
+      if (map.isMoving()) map.once('moveend', settle)
+      else settle()
+      const previous = stop
+      stop = () => {
+        window.clearTimeout(timer)
+        map.off('moveend', settle)
+        previous()
+      }
     })
     return () => {
       cancelled = true
       stop()
     }
-  }, [selected, enabled, ready])
+  }, [selected, enabled, ready, replay])
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
     setMomentPins(map, selected && selected.status !== 'listing' ? selected.id : undefined, moments ?? [])
   }, [selected, moments, ready])
+  // Frame a road only when a different road is picked. Closing the card, or dragging the sheet (which changes the padding), keeps
+  // whatever view the reader has zoomed to.
+  const framed = useRef<string | undefined>(undefined)
+  const framedAt = useRef(0)
   useEffect(() => {
     const map = ref.current
     if (!ready || !map) return
     if (!selected) {
-      map.fitBounds(regions['Lower 48'], { padding, duration: 0 })
+      framed.current = undefined
       return
     }
+    if (framed.current !== selected.id) {
+      framed.current = selected.id
+      framedAt.current = performance.now()
+    } else if (performance.now() - framedAt.current > 700) return
     map.fitBounds(selected.bbox, {
       padding: {
         top: Math.max(64, padding.top),
@@ -242,7 +305,12 @@ export function BywayMap({
         right: Math.max(64, padding.right),
       },
       maxZoom: 8,
-      duration: enabled ? 800 : 0,
+      // Fly rather than slide: zoom out, glide over, zoom back in, like turning to another page of the atlas.
+      linear: false,
+      curve: 1.3,
+      speed: 1.1,
+      maxDuration: 2200,
+      ...(enabled ? {} : { duration: 0 }),
     })
   }, [selected, enabled, ready, padding])
   return (
@@ -257,11 +325,19 @@ export function BywayMap({
         <Compass size={70} />
       </div>
       <div data-map-decoration className={`${styles.controls} ${selected ? styles.selectedControls : ''}`}>
-        {ready && ref.current && <ReliefControls map={ref.current} roadId={selected?.id} />}
-        <button className="btn btn-ghost" aria-label="Zoom in" onClick={() => ref.current?.zoomIn({ duration: enabled ? 250 : 0 })}>
+        {ready && ref.current && <ReliefControls map={ref.current} roadId={selected?.id} onDrive={() => setReplay((n) => n + 1)} />}
+        <button
+          className="btn btn-ghost"
+          aria-label="Zoom in"
+          onClick={() => ref.current?.zoomIn({ duration: enabled ? 600 : 0, easing: easeInOut })}
+        >
           +
         </button>
-        <button className="btn btn-ghost" aria-label="Zoom out" onClick={() => ref.current?.zoomOut({ duration: enabled ? 250 : 0 })}>
+        <button
+          className="btn btn-ghost"
+          aria-label="Zoom out"
+          onClick={() => ref.current?.zoomOut({ duration: enabled ? 600 : 0, easing: easeInOut })}
+        >
           −
         </button>
         <select
@@ -269,7 +345,8 @@ export function BywayMap({
           value=""
           onChange={(event) => {
             const bounds = regions[event.target.value]
-            if (bounds) ref.current?.fitBounds(bounds, { padding, duration: enabled ? 700 : 0 })
+            if (bounds)
+              ref.current?.fitBounds(bounds, { padding, linear: false, curve: 1.3, maxDuration: 2200, ...(enabled ? {} : { duration: 0 }) })
           }}
         >
           <option value="" disabled>

@@ -1,0 +1,91 @@
+{
+  "code": "DE",
+  "name": "Delaware",
+  "tagline": "From Brandywine estates to bayshore marshes, the Lewes dunes and the Woodland Ferry.",
+  "intro": "Delaware's byways run from the du Pont estate country and creek valleys above Wilmington down the marsh edge of the Delaware River and Bay to Lewes at the mouth of the bay, with one route through the farm towns of western Sussex County. This chapter follows the Delaware Byways Program of the Delaware Department of Transportation (DelDOT), created by Senate Bill 320 in 2000 as the Delaware Scenic and Historic Highways Program and later renamed. Two of its six byways, Brandywine Valley and Delaware Bayshore, are also National Scenic Byways, and the Bayshore route grew out of the older Route 9 Coastal Heritage Byway.",
+  "programs": [
+    {
+      "label": "Delaware Byways",
+      "issuer": "Delaware Department of Transportation",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Brandywine Valley National Scenic Byway",
+          "bywayId": "brandywine-valley-scenic-byway-57779",
+          "url": "https://deldot.gov/Programs/byways/index.shtml?dc=brandywine",
+          "blurb": "Routes 52 and 100 leave Rodney Square in Wilmington for Chateau Country, the rolling du Pont estate land where Winterthur and Nemours keep their gardens and the lower Brandywine once turned the wheels of water-powered mills."
+        },
+        {
+          "name": "Red Clay Scenic Byway",
+          "bywayId": "red-clay-valley-scenic-byway-61897",
+          "url": "https://deldot.gov/Programs/byways/index.shtml?dc=redclay",
+          "blurb": "A web of 28 roads in northern New Castle County follows Red Clay Creek past the Ashland and Wooddale covered bridges to Yorklyn, an old snuff and paper mill village, while steam trains run up to Hockessin."
+        },
+        {
+          "name": "Delaware Bayshore Byway",
+          "bywayId": "route-9-coastal-heritage-scenic-byway-2334",
+          "url": "https://deldot.gov/Programs/byways/index.shtml?dc=route9",
+          "blurb": "From the courthouse town of New Castle to the beaches outside Lewes, a two-lane road keeps to the marshes of the Delaware River and Bay, past river towns like Port Penn and Odessa and spring flocks of shorebirds.",
+          "note": "Shown on the map as Route 9 Coastal Heritage Scenic Byway."
+        },
+        {
+          "name": "Harriet Tubman Underground Railroad Byway",
+          "bywayId": "harriet-tubman-underground-railroad-byway-991001",
+          "url": "https://deldot.gov/Programs/byways/index.shtml?dc=railroad",
+          "blurb": "Picking up where Maryland's Tubman byway ends at Willow Grove Road, the route runs north through Camden and Dover, along the river on Route 9 to Wilmington and Thomas Garrett's Underground Railroad sites, then out Kennett Pike.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Historic Lewes Byway, Gateway to the Bayshore",
+          "bywayId": "historic-lewes-byway-gateway-to-the-bayshore-991002",
+          "url": "https://deldot.gov/Programs/byways/index.shtml?dc=lewes",
+          "blurb": "A dozen miles of town and marsh roads around Lewes at the mouth of Delaware Bay, past the Zwaanendael Museum and the Cape May ferry dock to Cape Henlopen, where walking dunes creep slowly into the pines.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Nanticoke Heritage Byway",
+          "bywayId": "nanticoke-heritage-byway-991003",
+          "url": "https://deldot.gov/Programs/byways/index.shtml?dc=sussex",
+          "blurb": "Farm roads in western Sussex County link the old shipbuilding and railroad towns of Seaford, Bethel and Laurel, cross the Nanticoke River on the cable-drawn Woodland Ferry and end at Trap Pond State Park.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "DelDOT, Delaware Byways",
+      "url": "https://deldot.gov/Programs/byways/index.shtml"
+    },
+    {
+      "label": "DelDOT, About Delaware Byways",
+      "url": "https://deldot.gov/Programs/byways/index.shtml?dc=about"
+    },
+    {
+      "label": "FHWA America's Byways, Delaware",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/States/Show/DE"
+    },
+    {
+      "label": "Delaware FirstMap, DE_Roadways_Other Byways layer",
+      "url": "https://enterprise.firstmap.delaware.gov/arcgis/rest/services/Transportation/DE_Roadways_Other/FeatureServer/18"
+    },
+    {
+      "label": "Delaware Greenways, Delaware Bayshore Byway Management",
+      "url": "https://delawaregreenways.org/delaware-bayshore-byway-project/"
+    },
+    {
+      "label": "Delaware Greenways, Brandywine Valley National Scenic Byway Management",
+      "url": "https://delawaregreenways.org/brandywine-valley-national-scenic-byway-project/"
+    },
+    {
+      "label": "Wikipedia, Woodland Ferry",
+      "url": "https://en.wikipedia.org/wiki/Woodland_Ferry"
+    }
+  ],
+  "bbox": [
+    -76.0,
+    38.3,
+    -74.8,
+    40.0
+  ]
+}

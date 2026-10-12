@@ -1,0 +1,222 @@
+{
+  "code": "NV",
+  "name": "Nevada",
+  "tagline": "Lake Tahoe's shore, Pyramid Lake's tufa, Ruby Mountain canyons and Las Vegas neon.",
+  "intro": "Nevada's byways climb to glacial lakes in the Ruby Mountains and East Humboldt Range, follow the shores of Lake Tahoe and Pyramid Lake, cross basin-and-range country to Great Basin National Park, and finish under the lights of Las Vegas. This chapter follows the Nevada Scenic Byways program of the Nevada Department of Transportation, whose 2023 map sorts the roads into four regions. Several short state routes are designated one by one and then gathered into a single national byway, as at Pyramid Lake and Lake Tahoe, and the BLM's back country byways and two named highways are listed separately.",
+  "programs": [
+    {
+      "label": "Nevada Scenic Byways",
+      "issuer": "Nevada Department of Transportation",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Pyramid Lake Road",
+          "bywayId": "pyramid-lake-scenic-byway-2457",
+          "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2457",
+          "blurb": "SR 445 follows the west shore of Pyramid Lake through Sutcliffe to Warrior Point, beside water that turns blue or gray with the sky. The lake lies within the Pyramid Lake Paiute Reservation, and visitors buy a tribal permit."
+        },
+        {
+          "name": "Mt Rose Highway",
+          "bywayId": "mount-rose-highway-2034",
+          "blurb": "SR 431 climbs out of Incline Village by hairpins to Mount Rose Summit at 8,911 feet, with a marked lookout naming the peaks around Lake Tahoe, then passes the ski area with views over Reno and Washoe Valley.",
+          "note": "Shown on the map as Mount Rose Highway."
+        },
+        {
+          "name": "Lake Tahoe North Shore",
+          "bywayId": "lake-tahoe-eastshore-drive-2456",
+          "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2456",
+          "blurb": "SR 28 leaves US 50 near Spooner Lake and follows Tahoe's northeast shore through state park and national forest to Incline Village and Crystal Bay. Sand Harbor, beside the road, hosts a Shakespeare festival each summer.",
+          "note": "Shown on the map as Lake Tahoe - Eastshore Drive."
+        },
+        {
+          "name": "Lamoille Canyon Road",
+          "bywayId": "lamoille-canyon-road-2030",
+          "blurb": "Forest Road 660 climbs a glacier-cut U of a canyon in the Ruby Mountains, past aspens along Lamoille Creek and the foundation of a 1913 powerhouse, to the Ruby Crest trailhead near 8,800 feet."
+        },
+        {
+          "name": "Angel Lake Road",
+          "bywayId": "angel-lake-road-2028",
+          "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/angel-lake-campground",
+          "blurb": "Switchbacks climb out of Wells and Clover Valley to Angel Lake, a small glacial tarn at 8,378 feet under cirque cliffs, named for an early rancher and reached by the only paved road to an alpine lake hereabouts."
+        },
+        {
+          "name": "US Highways 6/50/93",
+          "bywayId": null,
+          "blurb": "From south of Ely the highways climb over Connors Pass, the high point of US 50 in Nevada, and then Sacramento Pass by the ghost town of Osceola, on toward Great Basin National Park and the Utah line.",
+          "note": "No route line: the national dataset does not include this road and the state publishes no map line for it."
+        },
+        {
+          "name": "Lehman Caves Road",
+          "bywayId": "lehman-caves-road-993201",
+          "url": "https://www.nps.gov/grba/planyourvisit/directions.htm",
+          "blurb": "Five miles of SR 488 climb from Baker beside Lehman Creek to the gate of Great Basin National Park, the park of Lehman Caves and bristlecone pines under Wheeler Peak.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Baker Road",
+          "bywayId": "baker-road-993202",
+          "url": "https://www.nps.gov/grba/planyourvisit/directions.htm",
+          "blurb": "SR 487 crosses from Utah into the Pacific time zone and runs through desert and a few pockets of farmland to Baker, a town of about forty people at the doorstep of Great Basin National Park.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Great Basin Highway",
+          "bywayId": "highway-93-2031",
+          "blurb": "Nevada's first scenic byway runs US 93 for nearly 150 miles from Crystal Springs through Caliente and Pioche to Majors Place, linking five state parks with Great Basin National Park along the way.",
+          "note": "Shown on the map as Highway 93."
+        },
+        {
+          "name": "Mt Charleston Scenic Byway",
+          "bywayId": "mt-charleston-scenic-byway-39806",
+          "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/spring-mountains-national-recreation-area",
+          "blurb": "Three roads climb out of the creosote desert into the Spring Mountains, up Kyle and Lee canyons and across Deer Creek between them, into ponderosa and fir under Charleston Peak, a mountain the Nuwuvi hold as the place of creation."
+        },
+        {
+          "name": "Red Rock Road",
+          "bywayId": "red-rock-canyon-road-2035",
+          "url": "https://www.blm.gov/visit/red-rock-canyon-national-conservation-area",
+          "blurb": "SR 159 swings around the foot of Red Rock Canyon from the village of Blue Diamond, past Spring Mountain Ranch, under red and cream sandstone cliffs that sit seventeen miles from the Strip."
+        },
+        {
+          "name": "Las Vegas Strip All-American Road",
+          "bywayId": "las-vegas-strip-2032",
+          "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2032",
+          "blurb": "Four and a half miles of Las Vegas Boulevard from the Welcome to Fabulous Las Vegas sign north to Sahara Avenue, a byway meant for driving after dark, when the lights are on."
+        },
+        {
+          "name": "Las Vegas Boulevard National Scenic Byway",
+          "bywayId": "city-of-las-vegas-las-vegas-boulevard-state-scenic-byway-39538",
+          "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/39538",
+          "blurb": "The older Las Vegas Boulevard, from the Old Mormon Fort past the Neon Museum's signs from a bygone era to the Stratosphere tower, lined with motels and wedding chapels that predate the big resorts."
+        },
+        {
+          "name": "Hoover Dam Road",
+          "bywayId": "hoover-dam-road-993203",
+          "url": "https://www.usbr.gov/lc/hooverdam/",
+          "blurb": "The old US 93 grade winds over Rough Summit, past the Lakeview overlook, to the security checkpoint and on to Hoover Dam, the concrete arch built in Black Canyon during the Depression.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Valley of Fire Scenic Byway",
+          "bywayId": "valley-of-fire-state-park-roadways-2036",
+          "url": "https://parks.nv.gov/parks/valley-of-fire",
+          "blurb": "Valley of Fire Road crosses the state park between its two fee stations, past Elephant Rock and bright red Aztec sandstone, with a spur on White Domes Road, in a park where petroglyphs are over 2,000 years old."
+        }
+      ]
+    },
+    {
+      "label": "Back Country Byways",
+      "issuer": "Bureau of Land Management",
+      "kind": "federal",
+      "members": [
+        {
+          "name": "Bitter Springs Back Country Byway",
+          "bywayId": "bitter-springs-back-country-byway-68962",
+          "url": "https://www.blm.gov/programs/recreation/recreation-programs/byways/nevada",
+          "blurb": "A high-clearance track through the Muddy Mountains near Valley of Fire, among colored sandstone and the beds of long-dry rivers, with abandoned borax mines along the way."
+        },
+        {
+          "name": "California Trail Back Country Byway",
+          "bywayId": "california-trail-back-country-byway-68964",
+          "url": "https://www.blm.gov/programs/recreation/recreation-programs/byways/nevada",
+          "blurb": "Ninety-six miles beside the California Trail in northeastern Nevada, where wagon ruts and the remains of old structures survive near Thousand Springs, a watering place for emigrants bound west."
+        },
+        {
+          "name": "Fort Churchill to Wellington Back Country Byway",
+          "bywayId": "fort-churchill-to-wellington-back-country-byway-68958",
+          "url": "https://www.blm.gov/programs/recreation/recreation-programs/byways/nevada",
+          "blurb": "Sixty-seven miles from Fort Churchill, an Army post of the 1860s raised to guard Pony Express riders and settlers, south to Wellington, partly on roads that want high clearance."
+        },
+        {
+          "name": "Gold Butte Back Country Byway",
+          "bywayId": "gold-butte-back-country-byway-68960",
+          "url": "https://www.blm.gov/visit/gold-butte-back-country-byway",
+          "blurb": "A rough 62-mile loop south of Mesquite past Whitney Pocket's wind-pitted sandstone, the 110-foot sinkhole called Devil's Throat and the site of Gold Butte, a mining town of 1908."
+        },
+        {
+          "name": "Lovelock Cave Back Country Byway",
+          "bywayId": "lovelock-cave-back-country-byway-68957",
+          "url": "https://www.blm.gov/programs/recreation/recreation-programs/byways/nevada",
+          "blurb": "Twenty miles across the dry bed of old Lake Lahontan to Lovelock Cave, where diggers found duck decoys and baskets two thousand years old, and where Great Basin archaeology is said to have begun."
+        },
+        {
+          "name": "Lunar Crater Back Country Byway",
+          "bywayId": "lunar-crater-back-country-byway-68963",
+          "url": "https://www.blm.gov/visit/lunar-crater",
+          "blurb": "A bumpy unpaved loop off US 6 east of Tonopah through cinder cones and basalt flows, past Easy Chair Crater to Lunar Crater, a National Natural Landmark since 1973."
+        },
+        {
+          "name": "Mt. Wilson Back Country Byway",
+          "bywayId": "mt-wilson-back-country-byway-68959",
+          "url": "https://www.blm.gov/programs/recreation/recreation-programs/byways/nevada",
+          "blurb": "Gravel roads circle the Wilson Creek Range from Pioche through an old caldera gone to pinyon and juniper, with aspens higher up, past historic cabins and a pioneer cemetery."
+        },
+        {
+          "name": "Red Rock Canyon Back Country Byway",
+          "bywayId": "red-rock-canyon-back-country-byway-68961",
+          "url": "https://www.blm.gov/visit/red-rock-canyon-national-conservation-area",
+          "blurb": "The paved 13-mile Scenic Loop at Red Rock Canyon, pulling off beneath the red and cream sandstone cliffs, with timed-entry tickets required through the cooler months."
+        },
+        {
+          "name": "Barrel Springs Back Country Byway",
+          "bywayId": "barrel-springs-back-country-byway-2333",
+          "url": "https://www.blm.gov/california-northern-california-do-applegate-fo/public-room/guidebook/surprise-valleybarrel-springs",
+          "blurb": "A 93-mile loop out of Cedarville, California, that crosses into Nevada on gravel through sagebrush where pronghorn and sage-grouse range and willets work the shallow spring lakes."
+        },
+        {
+          "name": "Buckhorn Back Country Byway",
+          "bywayId": "buckhorn-back-country-byway-2332"
+        }
+      ]
+    },
+    {
+      "label": "Named highways outside the scenic byway program",
+      "issuer": "State of Nevada",
+      "kind": "other",
+      "members": [
+        {
+          "name": "The Loneliest Road in America",
+          "bywayId": "the-loneliest-road-in-america-2033",
+          "blurb": "US 50 across the middle of Nevada, valley after empty valley between mountain passes. Life magazine called it the loneliest road in America in 1986, and the state took the insult as a slogan."
+        },
+        {
+          "name": "Extraterrestrial Highway",
+          "bywayId": "extraterrestrial-highway-2029",
+          "blurb": "Ninety-eight lightly traveled miles of SR 375 along the edge of the Nellis range, named by the state in 1996 for the UFOs travelers report, with alien-themed stops in the hamlet of Rachel."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Nevada Department of Transportation, Nevada Scenic Byways",
+      "url": "https://www.dot.nv.gov/travel-info/travel-nevada/scenic-byways"
+    },
+    {
+      "label": "Nevada Department of Transportation, Nevada Scenic Byways map (2023, PDF)",
+      "url": "https://www.dot.nv.gov/home/showpublisheddocument/21914/638251859535000000"
+    },
+    {
+      "label": "Wikipedia, List of Nevada Scenic Byways (2015 NDOT list with designation dates)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Nevada_Scenic_Byways"
+    },
+    {
+      "label": "National Scenic Byway Foundation, Nevada",
+      "url": "https://nsbfoundation.com/nevada/"
+    },
+    {
+      "label": "Bureau of Land Management, Nevada Byways",
+      "url": "https://www.blm.gov/programs/recreation/recreation-programs/byways/nevada"
+    },
+    {
+      "label": "NDOT Open Data, Statewide Routes feature layer",
+      "url": "https://services1.arcgis.com/9Y4hSlLf13E9S0Eo/arcgis/rest/services/StatewideRoutes/FeatureServer/0"
+    }
+  ],
+  "bbox": [
+    -120.2,
+    34.8,
+    -113.8,
+    42.2
+  ]
+}

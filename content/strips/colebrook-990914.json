@@ -1,0 +1,47 @@
+{
+  "bywayId": "colebrook-990914",
+  "reviewed": false,
+  "generated": true,
+  "title": "Colebrook",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Colebrook",
+      "wikipedia": "Colebrook, Connecticut",
+      "weight": 19391
+    },
+    {
+      "name": "North Colebrook",
+      "wikipedia": "",
+      "osm": "node/158821540",
+      "at": [
+        -73.1148317,
+        42.0175938
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Mount Pisgah",
+      "wikipedia": "",
+      "osm": "node/359266400",
+      "at": [
+        -73.0937201,
+        42.0009276
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Panorama Hill",
+      "wikipedia": "",
+      "osm": "node/359267234",
+      "at": [
+        -73.092609,
+        41.9675947
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    }
+  ],
+  "stretches": []
+}

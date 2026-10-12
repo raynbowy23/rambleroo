@@ -12,12 +12,13 @@ export default function AboutPage() {
   return (
     <main className={styles.page}>
       <span className="kicker">About the data</span>
-      <h1>America's scenic byways</h1>
+      <h1>America’s scenic byways</h1>
       <p>
         Rambleroo brings together {byways.length ? usdot.toLocaleString() : '…'} scenic byways from the USDOT source layer,{' '}
         {byways.length ? stateLayers : '…'} more from state DOT route layers, and {byways.length ? classics : '…'} classic drives that are
-        not designated byways, with {meta?.storyCount ?? '…'} stories. These stories are drafts pending review. This catalog is a snapshot
-        of that source, not a complete inventory of every scenic road or current designation.
+        not designated byways, with {meta?.storyCount ?? '…'} stories. Each story is written from the sources listed with it, but stories
+        and road details may still contain mistakes. Stories marked draft are older versions waiting to be rewritten. This catalog is a
+        snapshot of that source, not a complete inventory of every scenic road or current designation.
       </p>
       <h2>What the map tells you</h2>
       <p>
@@ -51,6 +52,11 @@ export default function AboutPage() {
         America’s Byways collection. Each photo is reviewed by eye, credited, and freely licensed. Roads without a suitable photo show an
         illustration.
       </p>
+      <p>
+        Many road pages also show a few street-level frames from Mapillary, shared by contributors who drove the road. They are picked by a
+        script that keeps flat photos taken on the mapped line and looking along the road, and each is credited to its contributor with a
+        link to the original on Mapillary (CC BY-SA 4.0).
+      </p>
       <h2>Sharing postcards</h2>
       <p>
         Link previews on social sites show the generic Rambleroo card for now. Per-road preview images need prerendering, which is planned.
@@ -67,8 +73,8 @@ export default function AboutPage() {
         <a href={REPO_URL} target="_blank" rel="noreferrer">
           GitHub
         </a>
-        . Corrections are the most useful help: a road drawn in the wrong place, a town at the wrong mile, a photo credit. Open an issue
-        there, or help map a state&rsquo;s byway program.
+        . Corrections are the most useful help and always welcome: a story detail that is wrong, a road drawn in the wrong place, a town at
+        the wrong mile, a photo credit. Open an issue there, or help map a state&rsquo;s byway program.
       </p>
       <h2>Sources and credits</h2>
       <p>

@@ -1,0 +1,379 @@
+{
+  "authored": false,
+  "bywayId": "ohio-and-erie-canalway-10501",
+  "title": "Ohio & Erie Canalway",
+  "longitude": -81.5199,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.66554,
+        41.48055
+      ],
+      [
+        -81.62414,
+        41.44533
+      ],
+      [
+        -81.63627,
+        41.41699
+      ],
+      [
+        -81.65632,
+        41.42381
+      ],
+      [
+        -81.65774,
+        41.45704
+      ],
+      [
+        -81.6725,
+        41.48042
+      ],
+      [
+        -81.66673,
+        41.48721
+      ],
+      [
+        -81.69517,
+        41.50131
+      ],
+      [
+        -81.70833,
+        41.49257
+      ],
+      [
+        -81.69903,
+        41.47726
+      ],
+      [
+        -81.70489,
+        41.44166
+      ],
+      [
+        -81.66832,
+        41.41715
+      ],
+      [
+        -81.63215,
+        41.41415
+      ],
+      [
+        -81.61165,
+        41.36813
+      ],
+      [
+        -81.57826,
+        41.33935
+      ],
+      [
+        -81.57788,
+        41.31659
+      ],
+      [
+        -81.59272,
+        41.32208
+      ],
+      [
+        -81.59304,
+        41.31439
+      ],
+      [
+        -81.55811,
+        41.25908
+      ],
+      [
+        -81.55449,
+        41.23262
+      ],
+      [
+        -81.58392,
+        41.1815
+      ],
+      [
+        -81.56434,
+        41.14117
+      ],
+      [
+        -81.54217,
+        41.13004
+      ],
+      [
+        -81.54263,
+        41.10559
+      ],
+      [
+        -81.51603,
+        41.09258
+      ],
+      [
+        -81.52621,
+        41.06597
+      ],
+      [
+        -81.54295,
+        41.06154
+      ],
+      [
+        -81.55471,
+        41.0105
+      ],
+      [
+        -81.6006,
+        41.01041
+      ],
+      [
+        -81.5934,
+        41.02427
+      ],
+      [
+        -81.60474,
+        41.01768
+      ],
+      [
+        -81.60084,
+        40.97078
+      ],
+      [
+        -81.60939,
+        40.94209
+      ],
+      [
+        -81.62997,
+        40.91734
+      ],
+      [
+        -81.55453,
+        40.84993
+      ],
+      [
+        -81.5235,
+        40.84308
+      ],
+      [
+        -81.5211,
+        40.7951
+      ],
+      [
+        -81.54449,
+        40.78858
+      ],
+      [
+        -81.54853,
+        40.7262
+      ],
+      [
+        -81.50927,
+        40.72011
+      ],
+      [
+        -81.50148,
+        40.71138
+      ],
+      [
+        -81.50656,
+        40.69773
+      ],
+      [
+        -81.49164,
+        40.68336
+      ],
+      [
+        -81.49135,
+        40.66059
+      ],
+      [
+        -81.45225,
+        40.65008
+      ],
+      [
+        -81.46215,
+        40.63086
+      ],
+      [
+        -81.42157,
+        40.61047
+      ],
+      [
+        -81.39288,
+        40.57952
+      ],
+      [
+        -81.42657,
+        40.54687
+      ],
+      [
+        -81.43485,
+        40.52569
+      ],
+      [
+        -81.47407,
+        40.52055
+      ],
+      [
+        -81.44056,
+        40.50321
+      ],
+      [
+        -81.44876,
+        40.47854
+      ],
+      [
+        -81.44065,
+        40.46716
+      ],
+      [
+        -81.41355,
+        40.45001
+      ],
+      [
+        -81.41338,
+        40.46736
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Cascade Locks, Akron",
+      "model": "dam",
+      "at": 0.42651532174941564,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Canal Fulton",
+      "model": "town-blocks",
+      "at": 0.6138683974387434,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Zoar",
+      "model": "town-blocks",
+      "at": 0.849722773455508,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Cuyahoga Heights",
+      "at": 0.06280436607892528,
+      "landmark": ""
+    },
+    {
+      "name": "Brooklyn Heights",
+      "at": 0.1777497900923594,
+      "landmark": ""
+    },
+    {
+      "name": "Brandywine",
+      "at": 0.30621326616288835,
+      "landmark": ""
+    },
+    {
+      "name": "Botzum",
+      "at": 0.37212426532325776,
+      "landmark": ""
+    },
+    {
+      "name": "Akron",
+      "at": 0.4357682619647355,
+      "landmark": ""
+    },
+    {
+      "name": "Barberton",
+      "at": 0.5319059613769942,
+      "landmark": ""
+    },
+    {
+      "name": "Canal Fulton",
+      "at": 0.6137699412258606,
+      "landmark": "Canal Fulton"
+    },
+    {
+      "name": "Perry Heights",
+      "at": 0.6867503894716456,
+      "landmark": ""
+    },
+    {
+      "name": "Massillon",
+      "at": 0.6902602854743912,
+      "landmark": ""
+    },
+    {
+      "name": "Navarre",
+      "at": 0.7528127623845509,
+      "landmark": ""
+    },
+    {
+      "name": "Wilkshire Hills",
+      "at": 0.8367758186397986,
+      "landmark": ""
+    },
+    {
+      "name": "Dover",
+      "at": 0.9286314021830394,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/ohio-and-erie-canalway-10501.json",
+    "public/data/strips/ohio-and-erie-canalway-10501.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

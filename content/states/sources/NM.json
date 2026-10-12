@@ -1,0 +1,553 @@
+{
+  "note": "Facts and sources behind the member descriptions in NM.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Abo Pass Trail Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway",
+      "where": "NM 47 and US 60 from Belen east through Abo Pass to Abo Pueblo",
+      "facts": [
+        {
+          "fact": "The byway connects the remains of Abo Pueblo at its east end with Belen at its west end, and links El Camino Real to the Salt Missions byway.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/abo-pass-trail/"
+        },
+        {
+          "fact": "The route has been an east-west trade connection since it was a foot path and is used by trains today.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/abo-pass-trail/"
+        },
+        {
+          "fact": "NMDOT's byway layer draws it on NM 47 and US 60, about 35 miles.",
+          "source": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ]
+    },
+    {
+      "name": "Billy The Kid Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Scenic Byway (1998)",
+      "where": "US 70, US 380, NM 48 and NM 220 loop through Ruidoso, Lincoln and Fort Stanton; Lincoln County",
+      "facts": [
+        {
+          "fact": "Lincoln is the heart of the byway, which also takes in the ski town of Ruidoso and Fort Stanton.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/billy-the-kid/"
+        },
+        {
+          "fact": "Lincoln was once home to the outlaw Billy the Kid and the lawman Pat Garrett; the byway runs through the Lincoln National Forest.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2062"
+        },
+        {
+          "fact": "NMDOT's layer draws it on US 70, US 380, NM 48 and NM 220.",
+          "source": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ]
+    },
+    {
+      "name": "Corrales Road Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway",
+      "where": "NM 448 through the village of Corrales, north of Albuquerque",
+      "facts": [
+        {
+          "fact": "The Corrales bosque covers 400 acres along ten miles of the Rio Grande and is used by more than 180 species of migrating and nesting birds.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/corrales-road/"
+        },
+        {
+          "fact": "Visitors hear water in the acequia and smell green chile roasting in the fall.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/corrales-road/"
+        },
+        {
+          "fact": "The byway is 6.7 miles of NM 448 shaded by cottonwoods.",
+          "source": "https://en.wikipedia.org/wiki/List_of_New_Mexico_Scenic_and_Historic_Byways"
+        }
+      ]
+    },
+    {
+      "name": "El Camino Real National Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Scenic Byway (1998)",
+      "where": "I-25, NM 1, NM 47, NM 313, US 84 and other roads from Fort Selden near Las Cruces north to Ohkay Owingeh",
+      "facts": [
+        {
+          "fact": "Juan de Oñate led 500 colonists up this route in 1598.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/el-camino-real-national/"
+        },
+        {
+          "fact": "The byway begins at Fort Selden north of Las Cruces and crosses the 90 waterless miles of the Jornada del Muerto before Socorro.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/el-camino-real-national/"
+        },
+        {
+          "fact": "It ends at Ohkay Owingeh Pueblo, the first capital of New Mexico and the end of Oñate's journey, after passing Albuquerque and Santa Fe.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/el-camino-real-national/"
+        }
+      ]
+    },
+    {
+      "name": "Enchanted Circle Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Forest Scenic Byway",
+      "where": "NM 522, NM 38 and US 64 loop from Taos through Questa, Red River and the Moreno Valley; Taos and Colfax counties",
+      "facts": [
+        {
+          "fact": "The loop starts in Taos on NM 522, goes north through Arroyo Hondo to Questa, then east on NM 38 to Red River.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/enchanted-circle/"
+        },
+        {
+          "fact": "Red River was settled by miners from Elizabethtown in the late 1800s; the route then crosses Bobcat Pass into the Moreno Valley.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/enchanted-circle/"
+        },
+        {
+          "fact": "The byway links Taos Pueblo and the first memorial in the United States to Vietnam War veterans, and closes in Taos on Kit Carson Road.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/enchanted-circle/"
+        }
+      ]
+    },
+    {
+      "name": "Geronimo Trail National Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Scenic Byway (2005)",
+      "where": "NM 51, NM 52, NM 59, NM 152, NM 187 and I-25 Business from Truth or Consequences and Elephant Butte to Hillsboro and the Gila National Forest; Sierra and Grant counties",
+      "facts": [
+        {
+          "fact": "The route uses I-25 Business into Truth or Consequences, NM 51 to Elephant Butte Dam, NM 52 and NM 59 to the Beaverhead Ranger Station, and NM 152 through Hillsboro.",
+          "source": "https://en.wikipedia.org/wiki/Geronimo_Trail_Scenic_Byway"
+        },
+        {
+          "fact": "The byway starts in a desert town built over hot springs, passes the largest reservoir in New Mexico and ghost towns, and reaches the Gila, the nation's first designated wilderness.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/geronimo-trail-national/"
+        },
+        {
+          "fact": "FHWA notes the hot mineral springs used by Geronimo and his warriors and the mining towns that rose and fell with gold and silver.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2091"
+        }
+      ]
+    },
+    {
+      "name": "The Guadalupe Back Country Scenic Byway",
+      "designation": "State Scenic Backway; BLM Back Country Byway (1994)",
+      "where": "NM 137 from twelve miles north of Carlsbad into the Guadalupe Mountains; Eddy County",
+      "facts": [
+        {
+          "fact": "The byway begins twelve miles north of Carlsbad in the Chihuahuan Desert and climbs about 3,000 feet into the Guadalupe Mountains.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/the-guadalupe-back-country/"
+        },
+        {
+          "fact": "Prickly pear and sotol grow from cream-colored limestone, and wild caves lie beneath the surface.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/the-guadalupe-back-country/"
+        },
+        {
+          "fact": "A side road leads to Sitting Bull Falls, where springs pour over a 200-foot wall of tufa.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/the-guadalupe-back-country/"
+        }
+      ]
+    },
+    {
+      "name": "Jemez Mountain Trail National Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Scenic Byway (1998)",
+      "where": "US 550, NM 4 and NM 126 through Jemez Pueblo, Jemez Springs, the Valles Caldera, Los Alamos and Cuba; Sandoval, Los Alamos and Rio Arriba counties",
+      "facts": [
+        {
+          "fact": "The byway passes Jemez Pueblo and Jemez Springs under volcanic cliffs along the Jemez River, with Soda Dam and Spence Hot Springs along the way.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/jemez-mountain-trail-national/"
+        },
+        {
+          "fact": "It loops through the Santa Fe National Forest to the Valles Caldera National Preserve, Los Alamos, Fenton Lake and Cabezon Peak, a volcanic plug near Cuba.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/jemez-mountain-trail-national/"
+        },
+        {
+          "fact": "FHWA lists Jemez State Monument, Bandelier National Monument and Battleship Rock among its sites, along with logging, mining and ranching heritage.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2061"
+        }
+      ]
+    },
+    {
+      "name": "La Frontera Del Llano Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway",
+      "where": "NM 39 from the Kiowa National Grassland south through Roy to Logan; Harding and Quay counties",
+      "facts": [
+        {
+          "fact": "The northern part runs through the Kiowa and Rita Blanca National Grasslands, part of the Cibola National Forest, and then the town of Roy, once home to the Dawson Railroad.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/la-frontera-del-llano/"
+        },
+        {
+          "fact": "Small mission churches stand along the route from Solano to Gallegos, and the byway ends in Logan near Ute Lake State Park on the Canadian River.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/la-frontera-del-llano/"
+        },
+        {
+          "fact": "NMDOT's layer draws it entirely on NM 39, about 93 miles.",
+          "source": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ]
+    },
+    {
+      "name": "Lake Valley Back Country Byway",
+      "designation": "State Scenic Backway; BLM Back Country Byway (1993)",
+      "where": "NM 27 from Hillsboro south past Lake Valley to Nutt, with part of NM 152; Sierra and Luna counties",
+      "facts": [
+        {
+          "fact": "Lake Valley is a true ghost town whose last residents moved to Deming in 1994.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/lake-valley-back-country/"
+        },
+        {
+          "fact": "The byway continues to Nutt beside the grade of an 1884 Santa Fe Railway spur built to haul ore out of Lake Valley; the tracks were pulled up in 1934.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/lake-valley-back-country/"
+        },
+        {
+          "fact": "NMDOT's layer draws it on NM 27 and NM 152, about 47 miles.",
+          "source": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ]
+    },
+    {
+      "name": "Mesalands Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway",
+      "where": "About 380 miles of state and US highways around Tucumcari, Santa Rosa, San Jon and Logan, including NM 469, NM 104, NM 156 and US 54",
+      "facts": [
+        {
+          "fact": "South of San Jon, NM 469 climbs onto the mesalands to the Caprock Amphitheatre.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/mesalands/"
+        },
+        {
+          "fact": "The Mesalands Dinosaur Museum is in Tucumcari, and Ute Lake, Santa Rosa Lake and Conchas Dam state parks are on the byway.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/mesalands/"
+        },
+        {
+          "fact": "Santa Rosa's Blue Hole is a natural pool 80 feet deep used by scuba divers.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/mesalands/"
+        },
+        {
+          "fact": "NMDOT's layer draws about 380 miles of byway on roads including NM 156, US 54, NM 104 and NM 469.",
+          "source": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ]
+    },
+    {
+      "name": "Tracks Across Borders Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway (bi-state with Colorado)",
+      "where": "US 64 from Chama west to Dulce, then county road north past Navajo along the Navajo River to the Colorado line; Rio Arriba County",
+      "facts": [
+        {
+          "fact": "The bi-state byway runs 128 miles from Chama, New Mexico, to Durango, Colorado, along the abandoned narrow gauge line of the Denver and Rio Grande Western.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/tracks-across-borders/"
+        },
+        {
+          "fact": "In New Mexico it begins at the western end of the Cumbres and Toltec Scenic Railroad in Chama, crosses the Jicarilla Apache Nation at Dulce, and passes the old railroad bridge and water tank at Navajo.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/tracks-across-borders/"
+        },
+        {
+          "fact": "The stretch up the Navajo River canyon to the Colorado border should not be driven in wet or snowy weather.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/tracks-across-borders/"
+        }
+      ],
+      "review": "Formerly the Narrow Gauge Scenic Byway (9.9 miles near Chama). The catalog line (narrow-gauge-scenic-byway-2080, 10 mi) covers only part of the current New Mexico route; NMDOT's layer draws the full NM portion under NAME 'Tracks Across Borders Scenic and Historic Byway' (rows with BYWAY_ID 0 and 2080, about 41 miles on US 64, NM 17 and local roads). The Colorado half is in the CDOT layer as 'Tracks Across Borders'."
+    },
+    {
+      "name": "Quebradas Backcountry Scenic Byway",
+      "designation": "State Scenic Backway; BLM Back Country Byway (1989)",
+      "where": "Unpaved Quebradas Road east of Socorro, between the Sevilleta and Bosque del Apache refuges",
+      "facts": [
+        {
+          "fact": "It is a 24-mile unpaved road through the arroyos, or breaks, that give the area its Spanish name.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/quebradas-backcountry/"
+        },
+        {
+          "fact": "The byway is a rugged back country road east of Socorro, designated by BLM on June 20, 1989.",
+          "source": "https://en.wikipedia.org/wiki/List_of_New_Mexico_Scenic_and_Historic_Byways"
+        },
+        {
+          "fact": "The area has rainbow-colored ridges, deep canyons and dunes, and lies between the Sevilleta and Bosque del Apache national wildlife refuges.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/quebradas-backcountry/"
+        }
+      ]
+    },
+    {
+      "name": "Route 66 National Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Scenic Byway (2000); All-American Road",
+      "where": "Old US 66 alignments across the state, mostly beside I-40, with a northern loop on I-25 and US 84 (routes from the NMDOT layer)",
+      "facts": [
+        {
+          "fact": "Route 66 enters New Mexico across open prairie and passes rock outcrops, streams and adobe villages.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/route-66-national/"
+        },
+        {
+          "fact": "Motels and 1950s diners with restored neon signs line parts of the road, while other parts wind through Hispanic villages in the Sangre de Cristo foothills with adobe churches about a century older than the highway.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/route-66-national/"
+        },
+        {
+          "fact": "The New Mexico byway is 604 miles long and was designated a National Scenic Byway in 2000.",
+          "source": "https://en.wikipedia.org/wiki/List_of_New_Mexico_Scenic_and_Historic_Byways"
+        }
+      ]
+    },
+    {
+      "name": "Salt Missions Scenic Byways",
+      "designation": "New Mexico Scenic and Historic Byway",
+      "where": "NM 337, NM 55, NM 41, US 60 and I-40 south and east of Tijeras (routes from the NMDOT layer)",
+      "facts": [
+        {
+          "fact": "The byway's eastern and southern branches cross the plains and its western branch runs through the mountains, following old trade routes, rail beds and footpaths.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/salt-missions/"
+        },
+        {
+          "fact": "South of Tijeras it passes Cibola National Forest sites including Tunnel Canyon, Otero Canyon, Cedro Campground and Pine Flat Picnic Area.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/salt-missions/"
+        },
+        {
+          "fact": "NMDOT's layer draws it on NM 337, NM 55, NM 41, US 60 and I-40, about 137 miles.",
+          "source": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ]
+    },
+    {
+      "name": "Santa Fe National Forest Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Forest Scenic Byway",
+      "where": "NM 475 (Hyde Park Road) from downtown Santa Fe to the Santa Fe Ski Basin; Santa Fe County",
+      "facts": [
+        {
+          "fact": "The byway starts at the Palace of the Governors in downtown Santa Fe and runs 15 miles through aspen and evergreen forest to the Santa Fe Ski Basin.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/santa-fe-national-forest/"
+        },
+        {
+          "fact": "It passes through Hyde Memorial State Park and its stone-and-log lodge, with views of the Arroyo Seco badlands.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/santa-fe-national-forest/"
+        },
+        {
+          "fact": "At Ski Santa Fe the lifts rise 1,650 vertical feet to Tesuque Peak at about 12,000 feet.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/santa-fe-national-forest/"
+        },
+        {
+          "fact": "The byway follows NM 475.",
+          "source": "https://en.wikipedia.org/wiki/List_of_New_Mexico_Scenic_and_Historic_Byways"
+        }
+      ]
+    },
+    {
+      "name": "Santa Fe Trail Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Scenic Byway (1998)",
+      "where": "Mountain Branch on US 64 and I-25 from Raton through Cimarron; Cimarron Cutoff on US 56 and NM 406 from Clayton past Wagon Mound; joined at Watrous to Fort Union, Las Vegas, Pecos and Santa Fe",
+      "facts": [
+        {
+          "fact": "The Mountain Branch follows US 64 south of Raton through Cimarron, where the St. James Hotel began as a saloon in 1873.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/santa-fe-trail-national/"
+        },
+        {
+          "fact": "The Cimarron Cutoff runs west from Clayton past the Rabbit Ear Mountains to Wagon Mound; the two branches met at Watrous before Fort Union, Las Vegas and Pecos.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/santa-fe-trail-national/"
+        },
+        {
+          "fact": "A granite marker on the Santa Fe Plaza marks the trail's end; the railroad's arrival in 1880 ended nearly 60 years of wagon caravans.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/santa-fe-trail-national/"
+        }
+      ],
+      "review": "Catalog entry spans CO and NM; the 'where' route numbers come from the NMDOT layer (US 64, US 56, NM 406, NM 21, I-25)."
+    },
+    {
+      "name": "Socorro Historic District Byway",
+      "designation": "New Mexico Scenic and Historic Byway",
+      "where": "Streets of the historic district around the plaza in Socorro",
+      "facts": [
+        {
+          "fact": "The San Miguel Mission is the oldest existing structure in Socorro and a cornerstone of the byway.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/socorro-historic-district/"
+        },
+        {
+          "fact": "The Socorro Wheel of History, a bronze sculpture a block north of the plaza, tells the story from the Piro pueblos through the Spanish colonial settlement and the mining boom.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/socorro-historic-district/"
+        },
+        {
+          "fact": "The byway is about 3 miles long.",
+          "source": "https://en.wikipedia.org/wiki/List_of_New_Mexico_Scenic_and_Historic_Byways"
+        }
+      ]
+    },
+    {
+      "name": "Sunspot Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Forest Scenic Byway",
+      "where": "NM 130 and NM 6563 from near Cloudcroft south along the Sacramento Mountains rim to Sunspot; Otero County",
+      "facts": [
+        {
+          "fact": "The 15-mile road begins two miles south of Cloudcroft and is numbered NM 6563, after the wavelength in angstroms scientists use to locate active areas on the Sun.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/sunspot/"
+        },
+        {
+          "fact": "It follows the rim of the Sacramento Mountains through pine, aspen and fir, with overlooks such as Haynes Canyon Vista onto the basin some 5,000 feet below.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/sunspot/"
+        },
+        {
+          "fact": "Two national solar observatories at the 9,200-foot end of the road have a visitor center and museum.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/sunspot/"
+        }
+      ]
+    },
+    {
+      "name": "High Road To Taos Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway",
+      "where": "NM 76, NM 75, NM 518 and NM 503 through Chimayó, Truchas and Peñasco to Ranchos de Taos",
+      "facts": [
+        {
+          "fact": "The route runs through the Sangre de Cristo Mountains between Santa Fe and Ranchos de Taos, through Spanish villages and older Pueblo communities.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/high-road-to-taos/"
+        },
+        {
+          "fact": "El Santuario de Chimayó, built in the early 1800s, marks a healing clay and is a major Catholic pilgrimage site; Truchas is a Spanish land grant village below the Truchas peaks.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/high-road-to-taos/"
+        },
+        {
+          "fact": "Picuris Pueblo's San Lorenzo church, about 200 years old, was restored by hand, and the route ends at the San Francisco de Asís Church in Ranchos de Taos.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/high-road-to-taos/"
+        },
+        {
+          "fact": "NMDOT's layer draws the byway on NM 76, NM 518, NM 503 and NM 75, about 55 miles.",
+          "source": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ],
+      "review": "Tourism page calls it 105 miles (Santa Fe to Ranchos de Taos); Wikipedia gives 52 and NMDOT's layer draws about 55 (Chimayó area to Ranchos de Taos)."
+    },
+    {
+      "name": "Trail Of The Mountain Spirits Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Scenic Byway (2005); National Forest Scenic Byway",
+      "where": "Loop from Silver City on NM 15, NM 35, NM 152 and US 180 through the Gila National Forest; Grant County",
+      "facts": [
+        {
+          "fact": "The 93-mile byway crosses and recrosses the Continental Divide, through the Gila, the first national wilderness area, and past ancient cliff dwellings.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-mountain-spirits/"
+        },
+        {
+          "fact": "Known locally as the Inner Loop, it is the course of the annual Tour of the Gila bicycle race.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-mountain-spirits/"
+        },
+        {
+          "fact": "Silver City has old mine ruins, a museum of the 1800s miners, and the Buckhorn Saloon and Opera House.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-mountain-spirits/"
+        }
+      ],
+      "review": "Successor of the former Gila Cliff Dwellings/Inner Loop Scenic Byway (per Wikipedia's note)."
+    },
+    {
+      "name": "Trail Of The Ancients Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; part also National Scenic Byway (Trail of the Ancients, CO/UT/NM)",
+      "where": "A web of routes through the San Juan Basin and Zuni Plateau: US 64 and US 550 around Farmington and Aztec, NM 371 and NM 57 to Chaco Canyon and Crownpoint, NM 53 past El Morro, US 491 and NM 264; San Juan, McKinley and Cibola counties",
+      "facts": [
+        {
+          "fact": "Chaco Canyon, a ceremonial center between 850 and 1250 A.D., is the center of the byway.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-ancients/"
+        },
+        {
+          "fact": "Crownpoint is known for its monthly Navajo Rug auction, and travelers carved their names in the sandstone at El Morro.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-ancients/"
+        },
+        {
+          "fact": "Near Farmington, Aztec Ruins and Salmon Ruins are Chacoan outlier pueblos settled in the eleventh century.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-ancients/"
+        },
+        {
+          "fact": "FHWA lists the Trail of the Ancients National Scenic Byway in Colorado, Utah and New Mexico.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/States/Show/NM"
+        }
+      ],
+      "review": "NMDOT's layer splits this into 'Trail of the Ancients - NM' and 'Trail of the Ancients National Scenic Byway' (both BYWAY_ID 52214). The catalog's three-state national byway is a separate id (trail-of-the-ancients-2597) that the brief does not list for NM."
+    },
+    {
+      "name": "Turquoise Trail National Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway; National Scenic Byway (2000); National Forest Scenic Byway",
+      "where": "NM 14 between I-40 east of Albuquerque and Santa Fe through Madrid and Cerrillos, with NM 536 to Sandia Crest",
+      "facts": [
+        {
+          "fact": "The byway is named for turquoise deposits in the area and runs 52 miles on NM 14 between the outskirts of Santa Fe and east of Albuquerque.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/turquoise-trail-national/"
+        },
+        {
+          "fact": "FHWA notes the Cibola National Forest, the Sandia Mountain Wilderness and the artists' communities of Madrid and Los Cerrillos.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2094"
+        },
+        {
+          "fact": "NMDOT's layer includes NM 536 to Sandia Crest as part of the Turquoise Trail.",
+          "source": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ]
+    },
+    {
+      "name": "Wild Rivers Scenic Byway",
+      "designation": "State Scenic Backway; BLM Back Country Byway (1989)",
+      "where": "NM 378 and the loop road through BLM's Wild Rivers Recreation Area on the Taos Plateau",
+      "facts": [
+        {
+          "fact": "The byway loops through the BLM Wild Rivers Recreation Area on the Taos Plateau above a black-rock gorge 600 to 800 feet deep.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/wild-rivers/"
+        },
+        {
+          "fact": "At La Junta Overlook the Red River joins the Rio Grande 800 feet below.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/wild-rivers/"
+        },
+        {
+          "fact": "The loop passes the Wild Rivers Visitor Center, which has a mural painted by New Mexico artists.",
+          "source": "https://www.newmexico.org/places-to-visit/scenic-byways/wild-rivers/"
+        }
+      ]
+    },
+    {
+      "name": "Puye Cliffs Scenic Byway",
+      "designation": "New Mexico Scenic and Historic Byway",
+      "where": "Indian Road 565 on Santa Clara Pueblo, about 35 miles north of Santa Fe, to the Puye Cliff Dwellings",
+      "facts": [
+        {
+          "fact": "It is the only New Mexico state scenic byway located entirely on an Indian Pueblo, Santa Clara.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2584"
+        },
+        {
+          "fact": "The 14-mile byway follows Indian Road 565 to the Puye Cliff Dwellings, carved into volcanic tufa and later extended with adobe structures on the slopes and mesa tops.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2584"
+        },
+        {
+          "fact": "FHWA notes the byway may be closed because of damage from the Cerro Grande Fire.",
+          "source": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2584"
+        }
+      ],
+      "review": "Not on New Mexico True's list of 24, but in NMDOT's layer as a state byway; it is likely the 25th byway the tourism page counts. Access is controlled by Santa Clara Pueblo; check whether the road is open to through travel."
+    },
+    {
+      "name": "Chain of Craters Back Country Byway",
+      "designation": "BLM Back Country Byway (1993)",
+      "where": "Cibola County Road 42 between NM 53 and NM 117 in El Malpais National Conservation Area, south of Grants",
+      "facts": [
+        {
+          "fact": "The byway is County Road 42, 33 miles of unpaved road in El Malpais National Conservation Area that connects NM 53 and NM 117.",
+          "source": "https://www.blm.gov/visit/chain-craters-back-country-byway"
+        },
+        {
+          "fact": "The road forms the western boundary of the West Malpais Wilderness; a high-clearance vehicle is recommended and there is no water or restroom along it.",
+          "source": "https://www.blm.gov/visit/chain-craters-back-country-byway"
+        },
+        {
+          "fact": "BLM designated it a Back Country Byway on March 10, 1993.",
+          "source": "https://en.wikipedia.org/wiki/List_of_New_Mexico_Scenic_and_Historic_Byways"
+        }
+      ],
+      "review": "Not in NMDOT's 2025 byway layer and not on the state list, although the catalog also tags it 'New Mexico State Backway'. Catalog line exists (32 mi)."
+    },
+    {
+      "name": "Sandia Crest National Scenic Byway",
+      "designation": "National Forest Scenic Byway (Cibola National Forest)",
+      "where": "NM 536 from NM 14 up to Sandia Crest, Sandia Ranger District",
+      "facts": [
+        {
+          "fact": "The Sandia Ranger District calls the Sandias the most visited mountains in New Mexico and says more than half of the millions of visitors to the Sandia Mountains ride the tram or drive the Sandia Crest National Scenic Byway, NM 536, which has picnic grounds with shelters.",
+          "source": "https://www.fs.usda.gov/r03/cibola/recreation/sandia-ranger-district"
+        },
+        {
+          "fact": "Sandia Crest Scenic Byway, 11 miles on NM 536 through the Cibola National Forest, was a 1998 state byway that is no longer listed separately by the state.",
+          "source": "https://en.wikipedia.org/wiki/List_of_New_Mexico_Scenic_and_Historic_Byways"
+        },
+        {
+          "fact": "NMDOT's layer now labels the NM 536 segment (BYWAY_ID 2086) as part of the Turquoise Trail National Scenic Byway.",
+          "source": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+        }
+      ],
+      "review": "State now counts this road as part of the Turquoise Trail; the catalog's separate line duplicates the NM 536 spur of turquoise-trail-2094. Consider showing it only under the Turquoise Trail."
+    }
+  ],
+  "issues": [
+    "New Mexico True says 25 byways but lists 24; Puye Cliffs is the 25th in NMDOT's layer and is included here. FHWA's Puye page warns the road may be closed after the Cerro Grande Fire; Santa Clara Pueblo controls access, so confirm it is open before featuring it.",
+    "Narrow Gauge Scenic Byway (catalog narrow-gauge-scenic-byway-2080, 10 mi) is now Tracks Across Borders, a 128-mile Chama to Durango byway. The catalog line covers only a fraction of the NM portion; the full NM line is in NMDOT's layer under NAME 'Tracks Across Borders Scenic and Historic Byway' (BYWAY_ID 0 and 2080), and the CO half in CDOT's layer (see CO-research.json). Consider renaming the catalog entry and redrawing.",
+    "Sandia Crest (catalog sandia-crest-byway-2086) is no longer a separate state byway; NMDOT's layer labels NM 536 as Turquoise Trail, and the catalog Turquoise Trail line already includes NM 536. Kept under National Forest Scenic Byways because the Forest Service still uses the name.",
+    "Chain of Craters is tagged 'New Mexico State Backway' in the catalog but is not on the state list or in NMDOT's 2025 layer; listed under BLM only.",
+    "Trail of the Ancients: catalog id trail-of-the-ancients-nm-52214 merges the state byway and the NM part of the three-state Trail of the Ancients National Scenic Byway (FHWA id 2597, catalog trail-of-the-ancients-2597 apparently drawn only in CO/UT). Decide whether 2597 should extend into NM.",
+    "Lengths disagree: High Road to Taos is 105 miles on the tourism page (from Santa Fe) but about 52 to 55 in Wikipedia and the NMDOT layer; Trail of the Mountain Spirits 93 miles (tourism) vs about 101 in the layer; Jemez Mountain Trail 132 (Wikipedia) vs about 129 to 170 in the catalog and layer (US 550 counted both directions).",
+    "Catalog designations: Billy the Kid lists 'Scenic Historic Byway' as a separate designation (likely a duplicate of the state one); Historic Route 66 lacks the New Mexico state designation, which Wikipedia gives as July 31, 1998.",
+    "FHWA's old byway pages (fhwa.dot.gov/byways/byways/<id>) now redirect to a 404; the working FHWA pages are fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/<id>. Per-byway URLs here use New Mexico True pages, which block plain curl (a browser user agent is needed).",
+    "Wikipedia notes two other 1998 state byways that were dropped: Gila Cliff Dwellings/Inner Loop (now within Trail of the Mountain Spirits) and Dry Cimarron. Neither is in the catalog."
+  ]
+}

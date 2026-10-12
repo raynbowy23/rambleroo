@@ -63,7 +63,9 @@ export default function PrivacyPage() {
       <p>
         Pages, route data and photos are loaded from the server that hosts Rambleroo. Like almost any website host, that server may record
         standard request logs (such as IP address, time, and the page requested) for security and reliability. We do not combine these logs
-        with anything else or use them to profile anyone.
+        with anything else or use them to profile anyone. Street-level frames from Mapillary are fetched by that server too, so opening a
+        road page does not contact Mapillary or Meta. Following a frame's link to Mapillary takes you to their site, under their privacy
+        policy.
       </p>
 
       <p>

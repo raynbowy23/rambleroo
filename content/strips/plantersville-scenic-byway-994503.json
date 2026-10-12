@@ -1,0 +1,55 @@
+{
+  "bywayId": "plantersville-scenic-byway-994503",
+  "reviewed": false,
+  "generated": true,
+  "title": "Plantersville Scenic Byway",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Plantersville",
+      "wikipedia": "Plantersville, South Carolina",
+      "weight": 3550
+    },
+    {
+      "name": "Anne",
+      "wikipedia": "",
+      "osm": "node/158269802",
+      "at": [
+        -79.2536606,
+        33.472946
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Jackson",
+      "wikipedia": "",
+      "osm": "node/158487108",
+      "at": [
+        -79.1989352,
+        33.4993351
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Waterford Estates",
+      "wikipedia": "",
+      "osm": "node/158489807",
+      "at": [
+        -79.2767172,
+        33.4718348
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Campfield",
+      "wikipedia": "",
+      "osm": "node/158578086",
+      "at": [
+        -79.2692168,
+        33.4826682
+      ],
+      "weight": 1000
+    }
+  ],
+  "stretches": []
+}

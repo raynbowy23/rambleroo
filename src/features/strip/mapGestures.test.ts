@@ -21,13 +21,16 @@ describe('strip map gestures', () => {
     expect(adjust).toHaveBeenCalledTimes(2)
   })
 
-  it('rotates and tilts modified drags but leaves ordinary dragging alone', () => {
+  it('pans plain drags past a few pixels, and rotates and tilts modified drags', () => {
     const element = document.createElement('div')
     const adjust = vi.fn()
     const cleanup = bindMapGestures(element, adjust)
     element.dispatchEvent(new MouseEvent('mousedown', { clientX: 20, clientY: 50 }))
-    window.dispatchEvent(new MouseEvent('mousemove', { clientX: 40, clientY: 30 }))
+    window.dispatchEvent(new MouseEvent('mousemove', { clientX: 22, clientY: 51 }))
     expect(adjust).not.toHaveBeenCalled()
+    window.dispatchEvent(new MouseEvent('mousemove', { clientX: 40, clientY: 30 }))
+    expect(adjust).toHaveBeenLastCalledWith({ panX: 20, panY: -20 })
+    window.dispatchEvent(new MouseEvent('mouseup'))
     for (const options of [{ ctrlKey: true }, { metaKey: true }, { button: 2 }]) {
       element.dispatchEvent(new MouseEvent('mousedown', { ...options, clientX: 20, clientY: 50 }))
       window.dispatchEvent(new MouseEvent('mousemove', { clientX: 40, clientY: 30 }))

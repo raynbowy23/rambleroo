@@ -1,0 +1,412 @@
+{
+  "authored": false,
+  "bywayId": "western-york-county-scenic-byway-994504",
+  "title": "Western York County Scenic Byway",
+  "longitude": -81.2366,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.32697,
+        35.16006
+      ],
+      [
+        -81.31362,
+        35.14132
+      ],
+      [
+        -81.30708,
+        35.118
+      ],
+      [
+        -81.27905,
+        35.08202
+      ],
+      [
+        -81.27766,
+        35.05892
+      ],
+      [
+        -81.25476,
+        35.03554
+      ],
+      [
+        -81.25329,
+        35.02382
+      ],
+      [
+        -81.24086,
+        35.00653
+      ],
+      [
+        -81.23855,
+        34.9989
+      ],
+      [
+        -81.24201,
+        34.99411
+      ],
+      [
+        -81.22638,
+        34.98742
+      ],
+      [
+        -81.22537,
+        34.9837
+      ],
+      [
+        -81.21043,
+        34.9763
+      ],
+      [
+        -81.20565,
+        34.96703
+      ],
+      [
+        -81.20775,
+        34.9584
+      ],
+      [
+        -81.20493,
+        34.95021
+      ],
+      [
+        -81.19846,
+        34.94617
+      ],
+      [
+        -81.189,
+        34.94576
+      ],
+      [
+        -81.16912,
+        34.91949
+      ],
+      [
+        -81.14139,
+        34.91435
+      ],
+      [
+        -81.13277,
+        34.90531
+      ],
+      [
+        -81.15287,
+        34.90196
+      ],
+      [
+        -81.17066,
+        34.90353
+      ],
+      [
+        -81.18085,
+        34.8928
+      ],
+      [
+        -81.19192,
+        34.88535
+      ],
+      [
+        -81.17532,
+        34.86383
+      ],
+      [
+        -81.19192,
+        34.88535
+      ],
+      [
+        -81.209,
+        34.87134
+      ],
+      [
+        -81.21714,
+        34.86736
+      ],
+      [
+        -81.2371,
+        34.87009
+      ],
+      [
+        -81.24507,
+        34.86373
+      ],
+      [
+        -81.254,
+        34.86055
+      ],
+      [
+        -81.26143,
+        34.86187
+      ],
+      [
+        -81.28382,
+        34.8573
+      ],
+      [
+        -81.30559,
+        34.86007
+      ],
+      [
+        -81.32737,
+        34.8516
+      ],
+      [
+        -81.37427,
+        34.86523
+      ],
+      [
+        -81.39046,
+        34.86743
+      ],
+      [
+        -81.41252,
+        34.8531
+      ],
+      [
+        -81.40731,
+        34.87039
+      ],
+      [
+        -81.37096,
+        34.88655
+      ],
+      [
+        -81.362,
+        34.89362
+      ],
+      [
+        -81.35715,
+        34.90793
+      ],
+      [
+        -81.34647,
+        34.92083
+      ],
+      [
+        -81.34098,
+        34.94939
+      ],
+      [
+        -81.35224,
+        34.95069
+      ],
+      [
+        -81.36782,
+        34.95731
+      ],
+      [
+        -81.37967,
+        34.9535
+      ],
+      [
+        -81.38651,
+        34.95411
+      ],
+      [
+        -81.41129,
+        34.96808
+      ],
+      [
+        -81.41741,
+        34.98717
+      ],
+      [
+        -81.40237,
+        35.02646
+      ],
+      [
+        -81.40565,
+        35.03155
+      ],
+      [
+        -81.4036,
+        35.03734
+      ],
+      [
+        -81.40603,
+        35.04274
+      ],
+      [
+        -81.41152,
+        35.04135
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Sharon",
+      "model": "town-blocks",
+      "at": 0.8401901283895954,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Bethany",
+      "at": 0.05189873417721518,
+      "landmark": ""
+    },
+    {
+      "name": "York",
+      "at": 0.19224683544303797,
+      "landmark": ""
+    },
+    {
+      "name": "McConnells",
+      "at": 0.5204113924050633,
+      "landmark": ""
+    },
+    {
+      "name": "Sharon",
+      "at": 0.8408227848101265,
+      "landmark": "Sharon"
+    },
+    {
+      "name": "Hickory Grove",
+      "at": 0.9210443037974684,
+      "landmark": ""
+    },
+    {
+      "name": "Smyrna",
+      "at": 0.9987341772151898,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/western-york-county-scenic-byway-994504.json",
+    "public/data/strips/western-york-county-scenic-byway-994504.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

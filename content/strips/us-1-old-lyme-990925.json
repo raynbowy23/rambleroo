@@ -1,0 +1,41 @@
+{
+  "bywayId": "us-1-old-lyme-990925",
+  "reviewed": false,
+  "generated": true,
+  "title": "US 1, Old Lyme",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Old Lyme",
+      "wikipedia": "",
+      "osm": "node/158840106",
+      "at": [
+        -72.3296192,
+        41.3162517
+      ],
+      "weight": 4000
+    },
+    {
+      "name": "Quarry Hill",
+      "wikipedia": "",
+      "osm": "node/359267896",
+      "at": [
+        -72.341472,
+        41.3334316
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Old Lyme Historic District",
+      "wikipedia": "",
+      "osm": "node/359280271",
+      "at": [
+        -72.3314715,
+        41.3131538
+      ],
+      "weight": 1000
+    }
+  ],
+  "stretches": []
+}

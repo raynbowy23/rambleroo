@@ -516,19 +516,29 @@
   position: relative;
   padding-top: 48px;
 }
+/* Rules either side of a small carriage, the same one that drives in toward the map title. */
 .editorialPage .section::before {
-  content: '❦';
+  content: '';
   display: block;
   width: 140px;
+  height: 16px;
   margin: -28px auto 28px;
-  text-align: center;
-  color: var(--ink-soft);
-  line-height: 1;
   background:
     linear-gradient(var(--line-strong), var(--line-strong)) left 40% / 46px 1px no-repeat,
     linear-gradient(var(--line-strong), var(--line-strong)) right 40% / 46px 1px no-repeat,
     linear-gradient(var(--line-strong), var(--line-strong)) left 65% / 46px 1px no-repeat,
     linear-gradient(var(--line-strong), var(--line-strong)) right 65% / 46px 1px no-repeat;
+}
+.editorialPage .section::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 34px;
+  height: 16px;
+  transform: translateX(-50%);
+  background: var(--ink-soft);
+  mask: url('../art/carriage.svg') center / contain no-repeat;
 }
 .coverText {
   padding: 40px 36px;
@@ -932,4 +942,112 @@
   font-size: var(--step-0);
   line-height: 1.5;
   color: var(--ink);
+}
+
+/* Phones: hero titles and taglines at a size that leaves room for the text under them. */
+@media (max-width: 759px) {
+  .hero h1,
+  .page h1 {
+    font-size: 36px;
+    margin: 8px 0 12px;
+  }
+  .subline {
+    font-size: 19px;
+    line-height: 1.35;
+    margin: 8px 0 16px;
+  }
+  .passportHeader h1 {
+    font-size: 32px;
+  }
+}
+
+/* The arrow is a real link to the collection, its inked arrow centred in the ring. */
+.arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  z-index: 3;
+  transition:
+    background 160ms,
+    color 160ms;
+}
+.arrow:hover,
+.arrow:focus-visible {
+  background: currentColor;
+}
+.arrow:hover svg,
+.arrow:focus-visible svg {
+  color: var(--lining);
+}
+.arrow svg {
+  display: block;
+}
+/* The whole card opens the collection: the title link stretches over it (the photo credit chip stays above). */
+.cover h2 :global(a)::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+.cover .coverText {
+  position: static;
+}
+.cover .coverText > * {
+  position: relative;
+  z-index: 2;
+}
+.cover .coverText h2 {
+  position: static;
+}
+.corrections {
+  color: var(--ink-muted);
+  font-size: var(--step--1);
+}
+/* A plain triangle + "Sources": the triangle points right when closed and down when open. */
+.sourceList summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  cursor: pointer;
+  list-style: none;
+}
+.sourceList summary::-webkit-details-marker {
+  display: none;
+}
+.sourceList summary::before {
+  content: '';
+  border-block: 6px solid transparent;
+  border-inline-start: 9px solid currentColor;
+  transition: transform 0.15s ease;
+}
+.sourceList[open] summary::before {
+  transform: rotate(90deg);
+}
+@media (prefers-reduced-motion: reduce) {
+  .sourceList summary::before {
+    transition: none;
+  }
+}
+.sourceList summary h2 {
+  margin: 0;
+}
+.notice {
+  margin-top: 12px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: var(--forest-tint);
+  font-size: var(--step--1);
+}
+.notice strong {
+  display: block;
+  color: var(--forest);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
 }

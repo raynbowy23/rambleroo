@@ -1,0 +1,381 @@
+{
+  "authored": false,
+  "bywayId": "historic-national-road-2278",
+  "title": "Historic National Road",
+  "longitude": -82.7681,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -76.61213,
+        39.28782
+      ],
+      [
+        -76.78541,
+        39.26262
+      ],
+      [
+        -77.16578,
+        39.36549
+      ],
+      [
+        -77.49778,
+        39.42217
+      ],
+      [
+        -77.64515,
+        39.49748
+      ],
+      [
+        -77.71686,
+        39.64217
+      ],
+      [
+        -77.74301,
+        39.65337
+      ],
+      [
+        -78.01841,
+        39.64307
+      ],
+      [
+        -78.18633,
+        39.69999
+      ],
+      [
+        -78.28147,
+        39.70729
+      ],
+      [
+        -78.30011,
+        39.68898
+      ],
+      [
+        -78.29744,
+        39.70549
+      ],
+      [
+        -78.3867,
+        39.70801
+      ],
+      [
+        -78.47103,
+        39.67691
+      ],
+      [
+        -78.60929,
+        39.71294
+      ],
+      [
+        -78.75784,
+        39.65303
+      ],
+      [
+        -78.79103,
+        39.67012
+      ],
+      [
+        -78.84079,
+        39.63657
+      ],
+      [
+        -78.97652,
+        39.68869
+      ],
+      [
+        -79.25035,
+        39.69473
+      ],
+      [
+        -79.3347,
+        39.74805
+      ],
+      [
+        -79.42174,
+        39.74593
+      ],
+      [
+        -79.65838,
+        39.85036
+      ],
+      [
+        -79.87662,
+        40.02101
+      ],
+      [
+        -79.99379,
+        40.04725
+      ],
+      [
+        -80.25182,
+        40.17159
+      ],
+      [
+        -80.42119,
+        40.11434
+      ],
+      [
+        -80.545,
+        40.10513
+      ],
+      [
+        -80.65829,
+        40.04341
+      ],
+      [
+        -80.71892,
+        40.08199
+      ],
+      [
+        -81.30543,
+        40.05966
+      ],
+      [
+        -81.60534,
+        40.02483
+      ],
+      [
+        -81.99283,
+        39.93923
+      ],
+      [
+        -82.99106,
+        39.96332
+      ],
+      [
+        -83.87339,
+        39.92626
+      ],
+      [
+        -84.15289,
+        39.89524
+      ],
+      [
+        -84.16128,
+        39.87405
+      ],
+      [
+        -84.18041,
+        39.89233
+      ],
+      [
+        -84.28966,
+        39.86679
+      ],
+      [
+        -84.98986,
+        39.81777
+      ],
+      [
+        -86.21152,
+        39.76478
+      ],
+      [
+        -86.92162,
+        39.55599
+      ],
+      [
+        -87.69524,
+        39.40404
+      ],
+      [
+        -88.44022,
+        39.14031
+      ],
+      [
+        -89.00651,
+        38.9713
+      ],
+      [
+        -89.08568,
+        38.96021
+      ],
+      [
+        -89.11219,
+        38.97712
+      ],
+      [
+        -89.39137,
+        38.90191
+      ],
+      [
+        -89.39068,
+        38.87874
+      ],
+      [
+        -89.59566,
+        38.80324
+      ],
+      [
+        -89.67226,
+        38.73949
+      ],
+      [
+        -89.75438,
+        38.71392
+      ],
+      [
+        -89.88525,
+        38.72937
+      ],
+      [
+        -89.95616,
+        38.70794
+      ],
+      [
+        -90.00412,
+        38.65948
+      ],
+      [
+        -90.17888,
+        38.62895
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Casselman Bridge",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.20115785014930904,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Vandalia State House",
+      "model": "steeple-town",
+      "at": 0.9111446131301711,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Vandalia State House",
+      "model": "farmhouse",
+      "at": 0.9111446131301711,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Vandalia State House",
+      "model": "town-blocks",
+      "at": 0.9111446131301711,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Frederick",
+      "at": 0.05794230531137812,
+      "landmark": ""
+    },
+    {
+      "name": "Frostburg",
+      "at": 0.18449919524575964,
+      "landmark": ""
+    },
+    {
+      "name": "Uniontown",
+      "at": 0.24806239940571995,
+      "landmark": ""
+    },
+    {
+      "name": "Wheeling",
+      "at": 0.3289587718212208,
+      "landmark": ""
+    },
+    {
+      "name": "Zanesville",
+      "at": 0.42367215550328097,
+      "landmark": ""
+    },
+    {
+      "name": "Springfield",
+      "at": 0.5394701002847592,
+      "landmark": ""
+    },
+    {
+      "name": "Richmond",
+      "at": 0.616392224835954,
+      "landmark": ""
+    },
+    {
+      "name": "Plainfield",
+      "at": 0.7181626841649127,
+      "landmark": ""
+    },
+    {
+      "name": "Terre Haute",
+      "at": 0.7863191779125913,
+      "landmark": ""
+    },
+    {
+      "name": "Teutopolis",
+      "at": 0.8677726878791631,
+      "landmark": ""
+    },
+    {
+      "name": "East St. Louis",
+      "at": 0.9985514423672156,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/historic-national-road-2278.json",
+    "public/data/strips/historic-national-road-2278.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

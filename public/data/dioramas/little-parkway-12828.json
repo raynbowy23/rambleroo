@@ -1,0 +1,399 @@
+{
+  "authored": false,
+  "bywayId": "little-parkway-12828",
+  "title": "Little Parkway",
+  "longitude": -81.781,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.87038,
+        36.07111
+      ],
+      [
+        -81.86422,
+        36.07108
+      ],
+      [
+        -81.86343,
+        36.078
+      ],
+      [
+        -81.8604,
+        36.07933
+      ],
+      [
+        -81.8564,
+        36.08427
+      ],
+      [
+        -81.84418,
+        36.0843
+      ],
+      [
+        -81.83981,
+        36.08615
+      ],
+      [
+        -81.82938,
+        36.08541
+      ],
+      [
+        -81.82433,
+        36.0888
+      ],
+      [
+        -81.82109,
+        36.08563
+      ],
+      [
+        -81.81956,
+        36.08975
+      ],
+      [
+        -81.81339,
+        36.08842
+      ],
+      [
+        -81.81158,
+        36.08638
+      ],
+      [
+        -81.81018,
+        36.09018
+      ],
+      [
+        -81.81115,
+        36.09183
+      ],
+      [
+        -81.80706,
+        36.09418
+      ],
+      [
+        -81.80738,
+        36.09703
+      ],
+      [
+        -81.7985,
+        36.09389
+      ],
+      [
+        -81.79623,
+        36.09692
+      ],
+      [
+        -81.79099,
+        36.09663
+      ],
+      [
+        -81.7904,
+        36.09417
+      ],
+      [
+        -81.78513,
+        36.09201
+      ],
+      [
+        -81.77998,
+        36.09637
+      ],
+      [
+        -81.77239,
+        36.09725
+      ],
+      [
+        -81.77123,
+        36.09862
+      ],
+      [
+        -81.77387,
+        36.102
+      ],
+      [
+        -81.77301,
+        36.10327
+      ],
+      [
+        -81.77777,
+        36.10682
+      ],
+      [
+        -81.78192,
+        36.10749
+      ],
+      [
+        -81.77468,
+        36.11112
+      ],
+      [
+        -81.77844,
+        36.11438
+      ],
+      [
+        -81.77501,
+        36.11883
+      ],
+      [
+        -81.75808,
+        36.11895
+      ],
+      [
+        -81.75087,
+        36.12099
+      ],
+      [
+        -81.745,
+        36.1207
+      ],
+      [
+        -81.74063,
+        36.1186
+      ],
+      [
+        -81.73834,
+        36.11984
+      ],
+      [
+        -81.73768,
+        36.12336
+      ],
+      [
+        -81.72896,
+        36.12117
+      ],
+      [
+        -81.72321,
+        36.12266
+      ],
+      [
+        -81.7169,
+        36.1254
+      ],
+      [
+        -81.71488,
+        36.12862
+      ],
+      [
+        -81.71582,
+        36.13111
+      ],
+      [
+        -81.71344,
+        36.13231
+      ],
+      [
+        -81.71298,
+        36.13473
+      ],
+      [
+        -81.71432,
+        36.13583
+      ],
+      [
+        -81.71317,
+        36.13904
+      ],
+      [
+        -81.71065,
+        36.13944
+      ],
+      [
+        -81.70985,
+        36.14285
+      ],
+      [
+        -81.70533,
+        36.14618
+      ],
+      [
+        -81.69824,
+        36.14561
+      ],
+      [
+        -81.69403,
+        36.1398
+      ],
+      [
+        -81.68649,
+        36.13866
+      ],
+      [
+        -81.679,
+        36.13506
+      ],
+      [
+        -81.67321,
+        36.13414
+      ],
+      [
+        -81.67034,
+        36.13842
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Linn Cove Viaduct",
+      "model": "viaduct",
+      "at": 0.2790730779497225,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Blowing Rock",
+      "model": "town-blocks",
+      "at": 0.9802279793459475,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Linville",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Blowing Rock",
+      "at": 0.9790575916230365,
+      "landmark": "Blowing Rock"
+    }
+  ],
+  "sources": [
+    "content/stories/little-parkway-12828.json",
+    "public/data/strips/little-parkway-12828.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

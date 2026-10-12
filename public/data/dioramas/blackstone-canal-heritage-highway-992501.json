@@ -1,0 +1,337 @@
+{
+  "authored": false,
+  "bywayId": "blackstone-canal-heritage-highway-992501",
+  "title": "Blackstone Canal Heritage Highway",
+  "longitude": -71.5978,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -71.72782,
+        42.22846
+      ],
+      [
+        -71.70777,
+        42.22865
+      ],
+      [
+        -71.70998,
+        42.22971
+      ],
+      [
+        -71.71577,
+        42.23029
+      ],
+      [
+        -71.69781,
+        42.21938
+      ],
+      [
+        -71.70104,
+        42.22167
+      ],
+      [
+        -71.72306,
+        42.2286
+      ],
+      [
+        -71.7408,
+        42.23059
+      ],
+      [
+        -71.74499,
+        42.23246
+      ],
+      [
+        -71.73202,
+        42.2284
+      ],
+      [
+        -71.72166,
+        42.22868
+      ],
+      [
+        -71.71627,
+        42.2303
+      ],
+      [
+        -71.70777,
+        42.22865
+      ],
+      [
+        -71.70546,
+        42.22438
+      ],
+      [
+        -71.69143,
+        42.21426
+      ],
+      [
+        -71.6927,
+        42.20389
+      ],
+      [
+        -71.69292,
+        42.20476
+      ],
+      [
+        -71.68892,
+        42.19506
+      ],
+      [
+        -71.69001,
+        42.18892
+      ],
+      [
+        -71.68246,
+        42.17816
+      ],
+      [
+        -71.67779,
+        42.17309
+      ],
+      [
+        -71.67291,
+        42.17107
+      ],
+      [
+        -71.65256,
+        42.15538
+      ],
+      [
+        -71.64883,
+        42.14927
+      ],
+      [
+        -71.64503,
+        42.14639
+      ],
+      [
+        -71.64489,
+        42.14035
+      ],
+      [
+        -71.64799,
+        42.13377
+      ],
+      [
+        -71.64648,
+        42.12579
+      ],
+      [
+        -71.63785,
+        42.11475
+      ],
+      [
+        -71.63605,
+        42.10718
+      ],
+      [
+        -71.6377,
+        42.10452
+      ],
+      [
+        -71.64222,
+        42.10178
+      ],
+      [
+        -71.64463,
+        42.09747
+      ],
+      [
+        -71.64277,
+        42.09038
+      ],
+      [
+        -71.63679,
+        42.08141
+      ],
+      [
+        -71.63818,
+        42.08252
+      ],
+      [
+        -71.63199,
+        42.07933
+      ],
+      [
+        -71.62431,
+        42.07026
+      ],
+      [
+        -71.6226,
+        42.06097
+      ],
+      [
+        -71.61979,
+        42.05709
+      ],
+      [
+        -71.60945,
+        42.05163
+      ],
+      [
+        -71.60922,
+        42.04528
+      ],
+      [
+        -71.60583,
+        42.03997
+      ],
+      [
+        -71.59147,
+        42.03214
+      ],
+      [
+        -71.57297,
+        42.02386
+      ],
+      [
+        -71.56419,
+        42.02129
+      ],
+      [
+        -71.5607,
+        42.01846
+      ],
+      [
+        -71.54534,
+        42.01689
+      ],
+      [
+        -71.53282,
+        42.01875
+      ],
+      [
+        -71.5277,
+        42.0151
+      ],
+      [
+        -71.53753,
+        42.0186
+      ],
+      [
+        -71.53392,
+        42.01933
+      ],
+      [
+        -71.52914,
+        42.01651
+      ],
+      [
+        -71.541,
+        42.01777
+      ],
+      [
+        -71.53753,
+        42.0186
+      ],
+      [
+        -71.54653,
+        42.01725
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Grafton Common",
+      "model": "town-blocks",
+      "at": 0.30000998386728445,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Millville",
+      "model": "town-blocks",
+      "at": 0.8038677941172642,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Grafton",
+      "at": 0.3,
+      "landmark": ""
+    },
+    {
+      "name": "Northbridge",
+      "at": 0.45784313725490194,
+      "landmark": ""
+    },
+    {
+      "name": "Uxbridge",
+      "at": 0.6549019607843136,
+      "landmark": ""
+    },
+    {
+      "name": "Ironstone",
+      "at": 0.7624183006535947,
+      "landmark": ""
+    },
+    {
+      "name": "Blackstone",
+      "at": 0.9885620915032679,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/blackstone-canal-heritage-highway-992501.json",
+    "public/data/strips/blackstone-canal-heritage-highway-992501.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

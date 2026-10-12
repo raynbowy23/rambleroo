@@ -1,0 +1,416 @@
+{
+  "authored": false,
+  "bywayId": "gold-rush-historic-byway-2591",
+  "title": "Gold Rush Historic Byway",
+  "longitude": -115.9026,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -116.17903,
+        46.3919
+      ],
+      [
+        -116.17675,
+        46.39229
+      ],
+      [
+        -116.17437,
+        46.38866
+      ],
+      [
+        -116.17554,
+        46.38072
+      ],
+      [
+        -116.17095,
+        46.37626
+      ],
+      [
+        -116.17332,
+        46.38261
+      ],
+      [
+        -116.16906,
+        46.38469
+      ],
+      [
+        -116.16844,
+        46.38956
+      ],
+      [
+        -116.16664,
+        46.3851
+      ],
+      [
+        -116.17004,
+        46.38164
+      ],
+      [
+        -116.16744,
+        46.38009
+      ],
+      [
+        -116.16315,
+        46.3883
+      ],
+      [
+        -116.16648,
+        46.39588
+      ],
+      [
+        -116.16283,
+        46.39049
+      ],
+      [
+        -116.16264,
+        46.39634
+      ],
+      [
+        -116.15608,
+        46.38769
+      ],
+      [
+        -116.14588,
+        46.38598
+      ],
+      [
+        -116.14245,
+        46.38868
+      ],
+      [
+        -116.13953,
+        46.38272
+      ],
+      [
+        -116.12954,
+        46.38322
+      ],
+      [
+        -116.12004,
+        46.37833
+      ],
+      [
+        -116.08928,
+        46.37789
+      ],
+      [
+        -116.07925,
+        46.38396
+      ],
+      [
+        -116.06676,
+        46.38679
+      ],
+      [
+        -116.04357,
+        46.38687
+      ],
+      [
+        -116.0286,
+        46.37605
+      ],
+      [
+        -115.9383,
+        46.37589
+      ],
+      [
+        -115.93815,
+        46.38428
+      ],
+      [
+        -115.92952,
+        46.39175
+      ],
+      [
+        -115.92627,
+        46.39963
+      ],
+      [
+        -115.89722,
+        46.41603
+      ],
+      [
+        -115.88702,
+        46.42831
+      ],
+      [
+        -115.8879,
+        46.43268
+      ],
+      [
+        -115.88499,
+        46.4365
+      ],
+      [
+        -115.86212,
+        46.44444
+      ],
+      [
+        -115.83851,
+        46.46612
+      ],
+      [
+        -115.81624,
+        46.47153
+      ],
+      [
+        -115.80779,
+        46.47767
+      ],
+      [
+        -115.79867,
+        46.47865
+      ],
+      [
+        -115.799,
+        46.49173
+      ],
+      [
+        -115.80717,
+        46.49312
+      ],
+      [
+        -115.81273,
+        46.49902
+      ],
+      [
+        -115.81166,
+        46.50293
+      ],
+      [
+        -115.81685,
+        46.51353
+      ],
+      [
+        -115.82749,
+        46.51632
+      ],
+      [
+        -115.8321,
+        46.53399
+      ],
+      [
+        -115.83763,
+        46.54041
+      ],
+      [
+        -115.83549,
+        46.54406
+      ],
+      [
+        -115.83713,
+        46.55337
+      ],
+      [
+        -115.83521,
+        46.55717
+      ],
+      [
+        -115.83008,
+        46.55905
+      ],
+      [
+        -115.79383,
+        46.59245
+      ],
+      [
+        -115.78168,
+        46.59475
+      ],
+      [
+        -115.784,
+        46.60449
+      ],
+      [
+        -115.80609,
+        46.61668
+      ],
+      [
+        -115.81093,
+        46.63024
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Pierce",
+      "model": "town-blocks",
+      "at": 0.7012232931289637,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Headquarters",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Greer",
+      "at": 0.006855791962174941,
+      "landmark": ""
+    },
+    {
+      "name": "Weippe",
+      "at": 0.4238770685579196,
+      "landmark": ""
+    },
+    {
+      "name": "Pierce",
+      "at": 0.7011820330969267,
+      "landmark": "Pierce"
+    },
+    {
+      "name": "Headquarters",
+      "at": 0.9997635933806147,
+      "landmark": "Headquarters"
+    }
+  ],
+  "sources": [
+    "content/stories/gold-rush-historic-byway-2591.json",
+    "public/data/strips/gold-rush-historic-byway-2591.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

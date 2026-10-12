@@ -1,0 +1,76 @@
+{
+  "bywayId": "east-haddam-bridge-and-route-149-990928",
+  "reviewed": false,
+  "generated": true,
+  "title": "East Haddam Bridge and Route 149",
+  "direction": "",
+  "towns": [
+    {
+      "name": "Johnsonville Village",
+      "wikipedia": "Johnsonville Village, Connecticut",
+      "weight": 7514
+    },
+    {
+      "name": "Tylerville",
+      "wikipedia": "",
+      "osm": "node/158814232",
+      "at": [
+        -72.4744971,
+        41.4481347
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Goodspeeds Landing",
+      "wikipedia": "",
+      "osm": "node/158846588",
+      "at": [
+        -72.4578649,
+        41.4503769
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "East Haddam",
+      "wikipedia": "",
+      "osm": "node/158854628",
+      "at": [
+        -72.4613331,
+        41.4528584
+      ],
+      "weight": 4000
+    },
+    {
+      "name": "Scovill Landing",
+      "wikipedia": "",
+      "osm": "node/158855483",
+      "at": [
+        -72.4650873,
+        41.4892657
+      ],
+      "weight": 1000
+    },
+    {
+      "name": "Landing Hill",
+      "wikipedia": "",
+      "osm": "node/359265271",
+      "at": [
+        -72.4584205,
+        41.4664879
+      ],
+      "weight": 1000,
+      "kind": "landmark"
+    },
+    {
+      "name": "Johnsonville",
+      "wikipedia": "",
+      "osm": "node/3163696521",
+      "at": [
+        -72.4669373,
+        41.4949074
+      ],
+      "weight": 1000
+    }
+  ],
+  "stretches": []
+}

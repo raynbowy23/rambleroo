@@ -1,0 +1,418 @@
+{
+  "authored": false,
+  "bywayId": "lookout-mountain-parkway-2441",
+  "title": "Lookout Mountain Parkway",
+  "longitude": -85.5444,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -86.02713,
+        34.04045
+      ],
+      [
+        -86.0064,
+        34.05416
+      ],
+      [
+        -85.99276,
+        34.07749
+      ],
+      [
+        -85.94338,
+        34.11532
+      ],
+      [
+        -85.94075,
+        34.12845
+      ],
+      [
+        -85.91709,
+        34.15298
+      ],
+      [
+        -85.85272,
+        34.19172
+      ],
+      [
+        -85.81723,
+        34.22073
+      ],
+      [
+        -85.80791,
+        34.23403
+      ],
+      [
+        -85.82034,
+        34.26592
+      ],
+      [
+        -85.78894,
+        34.29089
+      ],
+      [
+        -85.76519,
+        34.32827
+      ],
+      [
+        -85.73699,
+        34.34599
+      ],
+      [
+        -85.73292,
+        34.36573
+      ],
+      [
+        -85.74381,
+        34.3866
+      ],
+      [
+        -85.73976,
+        34.39798
+      ],
+      [
+        -85.71759,
+        34.41496
+      ],
+      [
+        -85.71411,
+        34.43026
+      ],
+      [
+        -85.70236,
+        34.4453
+      ],
+      [
+        -85.68645,
+        34.45092
+      ],
+      [
+        -85.67722,
+        34.46074
+      ],
+      [
+        -85.64133,
+        34.46802
+      ],
+      [
+        -85.62923,
+        34.47631
+      ],
+      [
+        -85.6172,
+        34.50595
+      ],
+      [
+        -85.59763,
+        34.51404
+      ],
+      [
+        -85.58794,
+        34.52818
+      ],
+      [
+        -85.58519,
+        34.54371
+      ],
+      [
+        -85.57209,
+        34.54757
+      ],
+      [
+        -85.5696,
+        34.56807
+      ],
+      [
+        -85.52604,
+        34.54885
+      ],
+      [
+        -85.52667,
+        34.53501
+      ],
+      [
+        -85.49512,
+        34.51484
+      ],
+      [
+        -85.45075,
+        34.54292
+      ],
+      [
+        -85.44768,
+        34.57214
+      ],
+      [
+        -85.43855,
+        34.58896
+      ],
+      [
+        -85.48514,
+        34.61569
+      ],
+      [
+        -85.46937,
+        34.64369
+      ],
+      [
+        -85.47078,
+        34.71596
+      ],
+      [
+        -85.46214,
+        34.74195
+      ],
+      [
+        -85.44163,
+        34.75989
+      ],
+      [
+        -85.43877,
+        34.77577
+      ],
+      [
+        -85.43961,
+        34.79206
+      ],
+      [
+        -85.47581,
+        34.80899
+      ],
+      [
+        -85.46065,
+        34.82741
+      ],
+      [
+        -85.44733,
+        34.83468
+      ],
+      [
+        -85.46365,
+        34.87213
+      ],
+      [
+        -85.4333,
+        34.9107
+      ],
+      [
+        -85.39917,
+        34.93263
+      ],
+      [
+        -85.39533,
+        34.94559
+      ],
+      [
+        -85.35386,
+        34.98529
+      ],
+      [
+        -85.35272,
+        34.99452
+      ],
+      [
+        -85.34358,
+        34.99342
+      ],
+      [
+        -85.33703,
+        35.01338
+      ],
+      [
+        -85.34279,
+        35.02262
+      ],
+      [
+        -85.32497,
+        35.01457
+      ],
+      [
+        -85.315,
+        35.0306
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Noccalula Falls",
+      "model": "cove-waterfall",
+      "at": 0.00418775660085234,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "DeSoto State Park",
+      "model": "cove-waterfall",
+      "at": 0.46120812338021205,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mentone",
+      "model": "town-blocks",
+      "at": 0.48363815744847505,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Loveless",
+      "at": 0.25544840887174547,
+      "landmark": ""
+    },
+    {
+      "name": "Fort Payne",
+      "at": 0.35882352941176476,
+      "landmark": ""
+    },
+    {
+      "name": "Mentone",
+      "at": 0.4836065573770493,
+      "landmark": "Mentone"
+    }
+  ],
+  "sources": [
+    "content/stories/lookout-mountain-parkway-2441.json",
+    "public/data/strips/lookout-mountain-parkway-2441.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,104 @@
+{
+  "code": "OK",
+  "name": "Oklahoma",
+  "tagline": "Ouachita ridgelines, Ozark rivers, Osage prairie, Wichita granite and the Panhandle mesas.",
+  "intro": "Oklahoma's byways ride the Ouachita ridges along the Arkansas line, follow Ozark rivers through Cherokee country, cross the Osage tallgrass and the granite Wichita Mountains, and run out to the mesas at the far end of the Panhandle, with Route 66 cutting across the middle. This chapter follows the Oklahoma Scenic Byways Program of the Oklahoma Department of Transportation as promoted by TravelOK, the state tourism site, which counts four National Scenic Byways and four State Scenic Byways. ODOT keeps no public byway page, so the list comes from TravelOK and state map layers, and several highways the legislature has named 'scenic' or 'gateway' are memorial designations outside the program.",
+  "programs": [
+    {
+      "label": "Oklahoma Scenic Byways",
+      "issuer": "Oklahoma Department of Transportation",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Talimena National Scenic Byway",
+          "bywayId": "talimena-scenic-drive-2485",
+          "url": "https://www.fs.usda.gov/r08/ouachita/recreation/talimena-national-scenic-byway",
+          "blurb": "Highway 1 climbs out of Talihina and follows the crest of Winding Stair and Rich Mountain for 54 miles into Arkansas, with pullouts at Castle Rock and Sugarloaf above the Ouachita forest."
+        },
+        {
+          "name": "Mountain Pass Scenic Byway",
+          "bywayId": "mountain-pass-scenic-byway-58541",
+          "url": "https://www.travelok.com/listings/view.profile/id.14853",
+          "blurb": "Twenty-three miles of US 259 from Page south to Octavia, a two-lane road of steep grades and curves that crosses the Ouachita ridges through the Winding Stair Mountain National Recreation Area."
+        },
+        {
+          "name": "Mountain Gateway Scenic Byway",
+          "bywayId": "mountain-gateway-scenic-byway-58540",
+          "url": "https://www.travelok.com/listings/view.profile/id.14856",
+          "blurb": "US 59/270 runs 22 miles from Heavener to the Arkansas line through forested Ouachita valleys, on a two-lane road of sharp curves where wildflowers bloom in spring and the forest colors in autumn."
+        },
+        {
+          "name": "Route 66",
+          "bywayId": "historic-route-66-2489",
+          "url": "https://www.travelok.com/route_66",
+          "blurb": "Nearly 400 miles of the old highway from Quapaw to Texola, the longest stretch of Route 66 still drivable, past the Coleman Theatre in Miami and the Will Rogers museum in Claremore."
+        },
+        {
+          "name": "Osage Nation Heritage Trail",
+          "bywayId": "osage-nation-heritage-trail-byway-74113",
+          "url": "https://www.travelok.com/listings/view.profile/id.14855",
+          "blurb": "Highway 60 crosses the Osage Hills from Ponca City to Bartlesville, through tallgrass prairie and Pawhuska, the Osage Nation capital, where the Osage Nation Museum is the oldest tribally owned museum in the country."
+        },
+        {
+          "name": "Cherokee Hills Scenic Byway",
+          "bywayId": "cherokee-hills-byway-2346",
+          "url": "https://www.travelok.com/listings/view.profile/id.14852",
+          "blurb": "Eighty-four miles from Gore past Lake Tenkiller and the Cookson Hills to Tahlequah, the Cherokee Nation capital, then up the Illinois River to Natural Falls and the Arkansas line."
+        },
+        {
+          "name": "Wichita Mountains Scenic Byway",
+          "bywayId": "wichita-mountains-byway-6334",
+          "url": "https://www.travelok.com/listings/view.profile/id.14854",
+          "blurb": "A loop out of Apache through prairie and cross timbers to the Wichita Mountains Wildlife Refuge, where bison graze below Mount Scott, and on to the cobblestone town of Medicine Park."
+        },
+        {
+          "name": "Kenton to Keys State Scenic Byway",
+          "bywayId": "kenton-to-keys-state-scenic-byway-994001",
+          "url": "https://www.travelok.com/Kenton",
+          "blurb": "SH 325 enters from New Mexico at Kenton, the one Oklahoma town on Mountain time, among lava-capped mesas below Black Mesa, then crosses open Panhandle plains past Boise City toward Keyes.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "TravelOK (Oklahoma Tourism & Recreation Department), Oklahoma's Scenic Byways",
+      "url": "https://www.travelok.com/articles/oklahomasscenicbyways"
+    },
+    {
+      "label": "ODOT (OKDOT_GIS), Billboards Scenic Byways feature service, Scenic Byways layer",
+      "url": "https://services6.arcgis.com/RBtoEUQ2lmN0K3GY/arcgis/rest/services/Billboards_Scenic_Byways/FeatureServer/1"
+    },
+    {
+      "label": "Oklahoma Department of Commerce, Oklahoma Scenic Highway / Byway feature service",
+      "url": "https://services5.arcgis.com/ZTbCl7IqVy1LQh5d/arcgis/rest/services/Oklahoma_Scenic_Highway___Byway_WFL1/FeatureServer/0"
+    },
+    {
+      "label": "TravelOK, byway listing pages (Cherokee Hills, Mountain Pass, Wichita Mountains, Osage Nation Heritage Trail, Mountain Gateway, Talimena)",
+      "url": "https://www.travelok.com/listings/view.profile/id.14852"
+    },
+    {
+      "label": "USDA Forest Service, Ouachita National Forest, Talimena National Scenic Byway",
+      "url": "https://www.fs.usda.gov/r08/ouachita/recreation/talimena-national-scenic-byway"
+    },
+    {
+      "label": "TravelOK, Route 66",
+      "url": "https://www.travelok.com/route_66"
+    },
+    {
+      "label": "TravelOK, Kenton",
+      "url": "https://www.travelok.com/Kenton"
+    },
+    {
+      "label": "Oklahoma Statutes Title 69, Article 16 (memorial highways, including Scenic U.S. Highway 412 and Mountain Gateway)",
+      "url": "https://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST69&level=1"
+    }
+  ],
+  "bbox": [
+    -103.2,
+    33.4,
+    -94.2,
+    37.2
+  ]
+}

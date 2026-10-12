@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "illinois-river-road-58611",
+  "title": "Illinois River Road",
+  "longitude": -89.5218,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -89.45047,
+        41.37125
+      ],
+      [
+        -89.47406,
+        41.368
+      ],
+      [
+        -89.46505,
+        41.37176
+      ],
+      [
+        -89.46786,
+        41.3953
+      ],
+      [
+        -89.4509,
+        41.39532
+      ],
+      [
+        -89.43935,
+        41.34603
+      ],
+      [
+        -89.37963,
+        41.31164
+      ],
+      [
+        -89.36879,
+        41.29257
+      ],
+      [
+        -89.34179,
+        41.3261
+      ],
+      [
+        -89.26061,
+        41.33503
+      ],
+      [
+        -89.11592,
+        41.32752
+      ],
+      [
+        -89.01895,
+        41.3609
+      ],
+      [
+        -89.01019,
+        41.36088
+      ],
+      [
+        -89.01066,
+        41.33208
+      ],
+      [
+        -88.9813,
+        41.32388
+      ],
+      [
+        -88.84019,
+        41.34038
+      ],
+      [
+        -88.87956,
+        41.31718
+      ],
+      [
+        -88.95196,
+        41.30641
+      ],
+      [
+        -89.06831,
+        41.31276
+      ],
+      [
+        -89.07505,
+        41.26513
+      ],
+      [
+        -89.32819,
+        41.25801
+      ],
+      [
+        -89.3299,
+        41.23837
+      ],
+      [
+        -89.30908,
+        41.206
+      ],
+      [
+        -89.30446,
+        41.14405
+      ],
+      [
+        -89.33184,
+        41.10482
+      ],
+      [
+        -89.40532,
+        41.03934
+      ],
+      [
+        -89.4099,
+        40.99148
+      ],
+      [
+        -89.43213,
+        40.94336
+      ],
+      [
+        -89.428,
+        40.89414
+      ],
+      [
+        -89.44175,
+        40.86855
+      ],
+      [
+        -89.52178,
+        40.82164
+      ],
+      [
+        -89.52108,
+        40.73002
+      ],
+      [
+        -89.53473,
+        40.70648
+      ],
+      [
+        -89.522,
+        40.70095
+      ],
+      [
+        -89.59733,
+        40.65634
+      ],
+      [
+        -89.63465,
+        40.60904
+      ],
+      [
+        -89.66477,
+        40.53821
+      ],
+      [
+        -89.7101,
+        40.53765
+      ],
+      [
+        -89.78373,
+        40.51589
+      ],
+      [
+        -89.78024,
+        40.42772
+      ],
+      [
+        -89.82848,
+        40.36999
+      ],
+      [
+        -89.87457,
+        40.34821
+      ],
+      [
+        -89.99447,
+        40.34859
+      ],
+      [
+        -90.00035,
+        40.32055
+      ],
+      [
+        -90.05363,
+        40.32003
+      ],
+      [
+        -90.06505,
+        40.29406
+      ],
+      [
+        -90.08747,
+        40.2971
+      ],
+      [
+        -90.08779,
+        40.39344
+      ],
+      [
+        -90.01192,
+        40.41676
+      ],
+      [
+        -90.03087,
+        40.42896
+      ],
+      [
+        -90.02757,
+        40.54628
+      ],
+      [
+        -89.96019,
+        40.54567
+      ],
+      [
+        -89.93776,
+        40.52539
+      ],
+      [
+        -89.90445,
+        40.51685
+      ],
+      [
+        -89.8501,
+        40.55012
+      ],
+      [
+        -89.78438,
+        40.55581
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Starved Rock State Park",
+      "model": "cove-waterfall",
+      "at": 0.18891195215900153,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Starved Rock State Park",
+      "model": "ledge",
+      "at": 0.18891195215900153,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grandview Drive",
+      "model": "ledge",
+      "at": 0.5730285241671836,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Havana",
+      "model": "town-blocks",
+      "at": 0.8213538829213927,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Princeton",
+      "at": 0.010977948226270375,
+      "landmark": ""
+    },
+    {
+      "name": "Bureau Junction",
+      "at": 0.06616889573303154,
+      "landmark": ""
+    },
+    {
+      "name": "DePue",
+      "at": 0.0897411313518696,
+      "landmark": ""
+    },
+    {
+      "name": "North Utica",
+      "at": 0.17277085330776606,
+      "landmark": ""
+    },
+    {
+      "name": "Jonesville",
+      "at": 0.29554170661553214,
+      "landmark": ""
+    },
+    {
+      "name": "Hennepin",
+      "at": 0.37919463087248323,
+      "landmark": ""
+    },
+    {
+      "name": "Henry",
+      "at": 0.4331816957753438,
+      "landmark": ""
+    },
+    {
+      "name": "Lacon",
+      "at": 0.46428571428571425,
+      "landmark": ""
+    },
+    {
+      "name": "Chillicothe",
+      "at": 0.5007334554986498,
+      "landmark": ""
+    },
+    {
+      "name": "Spring Bay",
+      "at": 0.5452061361457335,
+      "landmark": ""
+    },
+    {
+      "name": "Peoria Heights",
+      "at": 0.5681613823151237,
+      "landmark": ""
+    },
+    {
+      "name": "Marquette Heights",
+      "at": 0.6273250239693193,
+      "landmark": ""
+    },
+    {
+      "name": "Mapleton",
+      "at": 0.6739730845688826,
+      "landmark": ""
+    },
+    {
+      "name": "Manito",
+      "at": 0.7262703739213806,
+      "landmark": ""
+    },
+    {
+      "name": "Havana",
+      "at": 0.8211409395973154,
+      "landmark": "Havana"
+    },
+    {
+      "name": "Maples Mill",
+      "at": 0.8906040268456377,
+      "landmark": ""
+    },
+    {
+      "name": "Banner",
+      "at": 0.9625599232981783,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/illinois-river-road-58611.json",
+    "public/data/strips/illinois-river-road-58611.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

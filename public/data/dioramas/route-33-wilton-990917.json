@@ -1,0 +1,401 @@
+{
+  "authored": false,
+  "bywayId": "route-33-wilton-990917",
+  "title": "Route 33, Wilton",
+  "longitude": -73.4711,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -73.48496,
+        41.24478
+      ],
+      [
+        -73.48594,
+        41.24261
+      ],
+      [
+        -73.48597,
+        41.24228
+      ],
+      [
+        -73.48586,
+        41.24186
+      ],
+      [
+        -73.48528,
+        41.24055
+      ],
+      [
+        -73.48497,
+        41.23945
+      ],
+      [
+        -73.48454,
+        41.23839
+      ],
+      [
+        -73.4842,
+        41.23776
+      ],
+      [
+        -73.48331,
+        41.23652
+      ],
+      [
+        -73.48301,
+        41.23521
+      ],
+      [
+        -73.48228,
+        41.23325
+      ],
+      [
+        -73.48191,
+        41.23271
+      ],
+      [
+        -73.48058,
+        41.23148
+      ],
+      [
+        -73.47986,
+        41.23033
+      ],
+      [
+        -73.47923,
+        41.22912
+      ],
+      [
+        -73.47756,
+        41.22523
+      ],
+      [
+        -73.47567,
+        41.22063
+      ],
+      [
+        -73.47515,
+        41.21915
+      ],
+      [
+        -73.47507,
+        41.21849
+      ],
+      [
+        -73.4751,
+        41.21783
+      ],
+      [
+        -73.47553,
+        41.21678
+      ],
+      [
+        -73.47557,
+        41.21659
+      ],
+      [
+        -73.47549,
+        41.21618
+      ],
+      [
+        -73.47505,
+        41.21555
+      ],
+      [
+        -73.47447,
+        41.21491
+      ],
+      [
+        -73.47407,
+        41.21461
+      ],
+      [
+        -73.47359,
+        41.21445
+      ],
+      [
+        -73.47038,
+        41.2138
+      ],
+      [
+        -73.46935,
+        41.21351
+      ],
+      [
+        -73.46764,
+        41.21294
+      ],
+      [
+        -73.46635,
+        41.21224
+      ],
+      [
+        -73.46562,
+        41.21211
+      ],
+      [
+        -73.46387,
+        41.21199
+      ],
+      [
+        -73.46306,
+        41.21184
+      ],
+      [
+        -73.46031,
+        41.2108
+      ],
+      [
+        -73.45725,
+        41.20943
+      ],
+      [
+        -73.45615,
+        41.20878
+      ],
+      [
+        -73.45512,
+        41.20788
+      ],
+      [
+        -73.45489,
+        41.20752
+      ],
+      [
+        -73.45482,
+        41.20641
+      ],
+      [
+        -73.45459,
+        41.20584
+      ],
+      [
+        -73.45267,
+        41.20354
+      ],
+      [
+        -73.45193,
+        41.20331
+      ],
+      [
+        -73.45014,
+        41.20311
+      ],
+      [
+        -73.44934,
+        41.20285
+      ],
+      [
+        -73.44747,
+        41.202
+      ],
+      [
+        -73.44632,
+        41.20116
+      ],
+      [
+        -73.44585,
+        41.2009
+      ],
+      [
+        -73.44429,
+        41.20036
+      ],
+      [
+        -73.44343,
+        41.19966
+      ],
+      [
+        -73.44181,
+        41.19774
+      ],
+      [
+        -73.44049,
+        41.19708
+      ],
+      [
+        -73.43969,
+        41.19655
+      ],
+      [
+        -73.43859,
+        41.19519
+      ],
+      [
+        -73.43809,
+        41.1951
+      ],
+      [
+        -73.4357,
+        41.19528
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Wilton Center",
+      "model": "steeple-town",
+      "at": 0.9652295068199613,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Wilton Center",
+      "model": "town-blocks",
+      "at": 0.9652295068199613,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ridgefield Road",
+      "model": "ridge",
+      "at": 0.9652295068199613,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Wilton",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-33-wilton-990917.json",
+    "public/data/strips/route-33-wilton-990917.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

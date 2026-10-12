@@ -1,0 +1,371 @@
+{
+  "authored": false,
+  "bywayId": "cherokee-hills-byway-2346",
+  "title": "Cherokee Hills Byway",
+  "longitude": -94.9766,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -95.07928,
+        35.48955
+      ],
+      [
+        -95.07888,
+        35.51071
+      ],
+      [
+        -95.09865,
+        35.51662
+      ],
+      [
+        -95.11752,
+        35.52931
+      ],
+      [
+        -95.10171,
+        35.54565
+      ],
+      [
+        -95.09624,
+        35.57294
+      ],
+      [
+        -95.06509,
+        35.58911
+      ],
+      [
+        -95.06623,
+        35.60327
+      ],
+      [
+        -95.04177,
+        35.59145
+      ],
+      [
+        -95.02342,
+        35.60239
+      ],
+      [
+        -95.00417,
+        35.60264
+      ],
+      [
+        -94.997,
+        35.60973
+      ],
+      [
+        -94.96537,
+        35.60985
+      ],
+      [
+        -94.96027,
+        35.62145
+      ],
+      [
+        -94.96512,
+        35.62832
+      ],
+      [
+        -94.96042,
+        35.64624
+      ],
+      [
+        -94.94781,
+        35.66333
+      ],
+      [
+        -94.91097,
+        35.6872
+      ],
+      [
+        -94.91425,
+        35.70583
+      ],
+      [
+        -94.92058,
+        35.71282
+      ],
+      [
+        -94.91001,
+        35.71889
+      ],
+      [
+        -94.8916,
+        35.7425
+      ],
+      [
+        -94.89238,
+        35.7544
+      ],
+      [
+        -94.90984,
+        35.7655
+      ],
+      [
+        -94.91813,
+        35.7813
+      ],
+      [
+        -94.93366,
+        35.78955
+      ],
+      [
+        -94.96658,
+        35.79678
+      ],
+      [
+        -94.96772,
+        35.84402
+      ],
+      [
+        -94.97941,
+        35.85774
+      ],
+      [
+        -94.97696,
+        35.89462
+      ],
+      [
+        -94.9699,
+        35.91554
+      ],
+      [
+        -94.94533,
+        35.91614
+      ],
+      [
+        -94.93689,
+        35.92484
+      ],
+      [
+        -94.92753,
+        35.92678
+      ],
+      [
+        -94.92265,
+        35.94097
+      ],
+      [
+        -94.9096,
+        35.9437
+      ],
+      [
+        -94.90632,
+        35.95938
+      ],
+      [
+        -94.92405,
+        35.97676
+      ],
+      [
+        -94.92181,
+        35.99447
+      ],
+      [
+        -94.92893,
+        35.997
+      ],
+      [
+        -94.93093,
+        36.00642
+      ],
+      [
+        -94.91931,
+        36.03202
+      ],
+      [
+        -94.91155,
+        36.03689
+      ],
+      [
+        -94.91035,
+        36.04907
+      ],
+      [
+        -94.85425,
+        36.08871
+      ],
+      [
+        -94.83488,
+        36.09346
+      ],
+      [
+        -94.82772,
+        36.10013
+      ],
+      [
+        -94.8198,
+        36.1222
+      ],
+      [
+        -94.80678,
+        36.12337
+      ],
+      [
+        -94.78192,
+        36.14168
+      ],
+      [
+        -94.78268,
+        36.17013
+      ],
+      [
+        -94.776,
+        36.1796
+      ],
+      [
+        -94.77967,
+        36.2052
+      ],
+      [
+        -94.73645,
+        36.20221
+      ],
+      [
+        -94.69365,
+        36.17751
+      ],
+      [
+        -94.56516,
+        36.17639
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lake Tenkiller",
+      "model": "alpine-lake",
+      "at": 0.2352600393887994,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Cherokee National Capitol",
+      "model": "town-blocks",
+      "at": 0.5142773868405189,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Natural Falls",
+      "model": "cove-waterfall",
+      "at": 0.9325291207616896,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Tahlonteeskee",
+      "at": 0.02007083825265643,
+      "landmark": ""
+    },
+    {
+      "name": "Notchietown",
+      "at": 0.09752066115702485,
+      "landmark": ""
+    },
+    {
+      "name": "Blackgum",
+      "at": 0.18571428571428572,
+      "landmark": ""
+    },
+    {
+      "name": "Caney Ridge",
+      "at": 0.351357733175915,
+      "landmark": ""
+    },
+    {
+      "name": "Keys",
+      "at": 0.42007083825265645,
+      "landmark": ""
+    },
+    {
+      "name": "Tahlequah",
+      "at": 0.5115702479338844,
+      "landmark": ""
+    },
+    {
+      "name": "Steely Hollow",
+      "at": 0.6231404958677687,
+      "landmark": ""
+    },
+    {
+      "name": "Kansas",
+      "at": 0.8504132231404958,
+      "landmark": ""
+    },
+    {
+      "name": "West Siloam Springs",
+      "at": 0.9785123966942149,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/cherokee-hills-byway-2346.json",
+    "public/data/strips/cherokee-hills-byway-2346.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

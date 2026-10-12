@@ -133,14 +133,16 @@ describe('content', () => {
 
 describe('photos', () => {
   const photos = json<import('../../src/lib/types').Photo[]>('content/photos.json')
-  const allowed = /^(CC0|Public domain|CC BY(-SA)? [0-9.]+)$/i
-  it.each(photos.map((p) => [p.file, p] as const))('%s is licensed, credited, present, and tied to a real story moment', (_, p) => {
+  // Ported Creative Commons licences carry a jurisdiction code, such as CC BY-SA 3.0 de.
+  const allowed = /^(CC0|Public domain|CC BY(-SA)? [0-9.]+( [a-z]{2})?)$/i
+  it.each(photos.map((p) => [p.file, p] as const))('%s is licensed, credited, named, and tied to a real story moment', (_, p) => {
     expect(allowed.test(p.license), p.license).toBe(true)
     expect(p.author).toBeTruthy()
     expect(p.alt.length).toBeGreaterThan(20)
     expect(p.sourceUrl).toMatch(/^https:\/\/commons\.wikimedia\.org\//)
     expect(p.licenseUrl).toMatch(/^https?:\/\//)
-    expect(existsSync(new URL(`public${p.file}`, root))).toBe(true)
+    // Files live in the photo library bucket (npm run photos:upload, and photos:check to confirm), not in the repository.
+    for (const file of [p.file, p.thumb ?? p.file]) expect(file).toMatch(/^\/photos\/[a-z0-9-]+\/[a-z0-9-]+\.jpg$/)
     expect(byId.has(p.bywayId)).toBe(true)
     if (p.town) {
       const strip = json<{ towns: { name: string }[] }>(`content/strips/${p.bywayId}.json`)
@@ -150,6 +152,18 @@ describe('photos', () => {
       const story = json<BywayStory>(`content/stories/${p.bywayId}.json`)
       expect(story.moments.map((m) => m.title)).toContain(p.moment)
     }
+  })
+})
+
+describe('photo files the app fetches', () => {
+  it('match content/photos.json (run npx tsx scripts/photos/split.ts after editing it)', async () => {
+    const { photoFiles } = await import('../photos/split')
+    const files = photoFiles(
+      json<import('../../src/lib/types').Photo[]>('content/photos.json'),
+      json<{ byways: { id: string }[] }>('public/data/catalog.json').byways.map((b) => b.id),
+    )
+    for (const [name, text] of Object.entries(files))
+      expect(readFileSync(new URL(`public/data/photos/${name}`, root), 'utf8'), name).toBe(text)
   })
 })
 
@@ -173,6 +187,40 @@ describe('overrides', () => {
       const { scene, themes: own } = value as { scene?: string; themes?: string[] }
       if (scene) expect(scenes, `${id} scene`).toContain(scene)
       for (const theme of own ?? []) expect(themes, `${id} theme`).toContain(theme)
+    }
+  })
+})
+
+describe('street-level frames', () => {
+  const road = json<import('../../src/lib/types').StreetView[]>('content/streetview.json')
+  const moments = json<import('../../src/lib/types').StreetView[]>('content/streetview-moments.json')
+  const rejects = json<{ moments: { bywayId: string; moment: string }[]; images: { id: string }[] }>('scripts/streetview/rejects.json')
+  const ids = new Set(json<{ byways: BywaySummary[] }>('public/data/catalog.json').byways.map((b) => b.id))
+  it('point at real roads, at most three per road, with no rejected frame', () => {
+    const refused = new Set(rejects.images.map((r) => r.id))
+    const perRoad = new Map<string, number>()
+    for (const v of [...road, ...moments]) {
+      expect(ids.has(v.bywayId), v.bywayId).toBe(true)
+      expect(v.id, v.bywayId).toMatch(/^\d{1,24}$/)
+      expect(refused.has(v.id), `${v.bywayId} ${v.id}`).toBe(false)
+      expect(v.captured).toMatch(/^\d{4}-\d{2}-\d{2}$/)
+    }
+    for (const v of road) perRoad.set(v.bywayId, (perRoad.get(v.bywayId) ?? 0) + 1)
+    for (const [id, n] of perRoad) expect(n, id).toBeLessThanOrEqual(3)
+  })
+  it('only put moment frames on roadside and town moments that exist and were not turned down', () => {
+    const stories = new Map(
+      readdirSync(new URL('content/stories/', root))
+        .filter((f) => f.endsWith('.json'))
+        .map((f) => json<BywayStory>(`content/stories/${f}`))
+        .map((s) => [s.id, s] as const),
+    )
+    const refused = new Set(rejects.moments.map((r) => `${r.bywayId}|${r.moment}`))
+    for (const v of moments) {
+      const m = stories.get(v.bywayId)?.moments.find((x) => x.title === v.moment)
+      expect(m, `${v.bywayId} · ${v.moment}`).toBeDefined()
+      expect(['roadside', 'town']).toContain(m!.kind)
+      expect(refused.has(`${v.bywayId}|${v.moment}`)).toBe(false)
     }
   })
 })

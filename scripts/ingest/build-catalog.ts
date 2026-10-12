@@ -1,3 +1,4 @@
+import { splitPhotos } from '../photos/split.ts'
 import { applyReplacements, supplementFiles } from '../states/sources.ts'
 // Normalises the raw snapshots in data/raw/ into the display data the app loads from public/data/.
 // Run with `npm run ingest:build` after `npm run ingest:fetch`. Deterministic for a given snapshot.
@@ -5,7 +6,7 @@ import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises'
 import * as turf from '@turf/turf'
 import type { Feature, FeatureCollection, LineString, MultiLineString, Polygon, MultiPolygon, Position } from 'geojson'
 import type { BywaySummary, Theme, SceneFamily, EditorialStatus } from '../../src/lib/types.ts'
-import { inferThemes, pickScene, slugify, hashSeed, regionFor } from './classify.ts'
+import { inferThemes, pickScene, pickMark, slugify, hashSeed, regionFor } from './classify.ts'
 import { assignLooks } from './looks.ts'
 
 const ROOT = new URL('../../', import.meta.url)
@@ -52,10 +53,14 @@ async function main() {
   const usStates = new Map(statesFc.features.filter((f) => f.properties.iso_a2 === 'US').map((f) => [String(f.properties.postal), f]))
 
   const storyIds = new Map<string, EditorialStatus>()
+  const storyMotifs = new Map<string, string[]>()
   for (const file of await readdir(STORIES).catch(() => [] as string[])) {
     if (!file.endsWith('.json')) continue
-    const story = await readJson<{ id: string; reviewed: boolean }>(new URL(file, STORIES))
+    const story = await readJson<{ id: string; reviewed: boolean; motifs?: string[]; moments: { motifs?: string[] }[] }>(
+      new URL(file, STORIES),
+    )
     storyIds.set(story.id, story.reviewed ? 'curated-story' : 'draft-story')
+    storyMotifs.set(story.id, [...(story.motifs ?? []), ...story.moments.flatMap((m) => m.motifs ?? [])])
   }
 
   const overrides = await readJson<Record<string, { themes: Theme[]; scene: SceneFamily }>>(OVERRIDES)
@@ -143,6 +148,7 @@ async function main() {
       themes,
       themeSource: override ? 'curated' : 'inferred',
       scene,
+      mark: pickMark(scene, storyMotifs.get(id) ?? []),
       status: storyIds.get(id) ?? 'listing',
       region: regionFor(centerState),
       look: undefined as unknown as BywaySummary['look'],
@@ -268,3 +274,5 @@ async function buildBasemap() {
 }
 
 await main()
+// The app fetches photos per road, so the registry is re-split whenever the catalog's roads change.
+console.log(`${await splitPhotos()} photo files`)

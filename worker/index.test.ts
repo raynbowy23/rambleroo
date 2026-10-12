@@ -374,3 +374,32 @@ describe('private photo API', () => {
     expect(env.PHOTOS.put).not.toHaveBeenCalled()
   })
 })
+
+describe('street view proxy', () => {
+  afterEach(() => vi.unstubAllGlobals())
+  it('serves only listed Mapillary frames, signed out, without exposing the token', async () => {
+    session.authenticated = false
+    const listed = (JSON.parse(readFileSync(new URL('../content/streetview.json', import.meta.url), 'utf8')) as { id: string }[])[0]
+    expect((await request('/api/street/123')).status).toBe(404)
+    if (!listed) return
+    env.MAPILLARY_TOKEN = 'secret-token'
+    const calls: string[] = []
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async (input: string | URL | Request, init?: RequestInit) => {
+        const url = String(input instanceof Request ? input.url : input)
+        calls.push(url)
+        if (url.startsWith('https://graph.mapillary.com/')) {
+          expect(new Headers(init?.headers).get('Authorization')).toBe('OAuth secret-token')
+          return Response.json({ thumb_1024_url: 'https://scontent.example/frame.jpg' })
+        }
+        return new Response(new Uint8Array([1, 2, 3]), { headers: { 'Content-Type': 'image/jpeg' } })
+      }),
+    )
+    const res = await request(`/api/street/${listed.id}`)
+    expect(res.status).toBe(200)
+    expect(res.headers.get('Content-Type')).toBe('image/jpeg')
+    expect(res.headers.get('Cache-Control')).toContain('public')
+    expect(calls.every((c) => !c.includes('secret-token'))).toBe(true)
+  })
+})

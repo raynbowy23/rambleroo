@@ -1,0 +1,435 @@
+{
+  "note": "Facts and sources behind the member descriptions in NH.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "American Independence Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 27, NH 84, NH 108, NH 150 and US 1 in a loop through Exeter, Hampton Falls, Hampton and Kensington; Rockingham County",
+      "facts": [
+        {
+          "fact": "A 21-mile loop through Exeter (1638) and Hampton (1639), two of New Hampshire's four original towns, plus Hampton Falls and Kensington, which were later divided from them.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/american-independence-byway"
+        },
+        {
+          "fact": "The American Independence Museum on the byway holds an original Dunlap broadside of the Declaration of Independence and one of three original Purple Hearts awarded in the Revolution.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/american-independence-byway"
+        },
+        {
+          "fact": "The loop has views of fields, woodland, marshes and the Atlantic Ocean.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/american-independence-byway"
+        }
+      ],
+      "review": "Catalog name is 'Independence Byway'; the GIS layer calls it 'American Independence Scenic Byway'."
+    },
+    {
+      "name": "Apple Way",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "Town roads in Londonderry (Gilcreast, Pillsbury, High Range, Elwood, Adams and Mammoth roads, short stretch of NH 128); Rockingham County",
+      "facts": [
+        {
+          "fact": "The Apple Way starts on Gilcreast Road by the Londonderry Town Offices and passes Dutton Farm, the town's first maple syrup producer, with its old sugar shack behind the barn.",
+          "source": "https://www.visitnh.gov/getContentAsset/b29855e2-6733-45da-b04c-aebc5a77616b/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Idea-appleway.pdf?language=en"
+        },
+        {
+          "fact": "Pillsbury Road passes Woodmont Orchards and School House #1; Mammoth Road passes School House #2 and Mack's Orchards, a stop for apples, cider and pumpkins.",
+          "source": "https://www.visitnh.gov/getContentAsset/b29855e2-6733-45da-b04c-aebc5a77616b/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Idea-appleway.pdf?language=en"
+        },
+        {
+          "fact": "High Range Road passes Sunnycrest Farm, where visitors pick their own apples, strawberries and blueberries.",
+          "source": "https://www.visitnh.gov/getContentAsset/b29855e2-6733-45da-b04c-aebc5a77616b/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Idea-appleway.pdf?language=en"
+        }
+      ],
+      "review": "Catalog name 'The Apple Way of Londonderry'. NHDOT map legend says 'Apple Way'. No separate byway web page found; url is the Visit NH trip-idea PDF."
+    },
+    {
+      "name": "Branch River Valley Scenic Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 153, NH 125 and NH 109 with village streets in Wakefield and Milton toward the Maine line; Carroll and Strafford counties",
+      "facts": [
+        {
+          "fact": "Wakefield Corner is a preserved village with 26 buildings on the National Register.",
+          "source": "https://www.visitnh.gov/getContentAsset/298ffdc7-5b7b-4db9-b0e7-74590c3cdfb4/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Idea-branchriver-trail.pdf?language=en"
+        },
+        {
+          "fact": "The byway passes Sanbornville and Union and the New Hampshire Farm Museum, a working 19th-century farm with an agricultural heritage museum.",
+          "source": "https://www.visitnh.gov/getContentAsset/298ffdc7-5b7b-4db9-b0e7-74590c3cdfb4/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Idea-branchriver-trail.pdf?language=en"
+        },
+        {
+          "fact": "The route runs through the small towns of Wakefield and Milton and on to the Maine border, a distance of about 14 miles.",
+          "source": "https://www.visitnh.gov/getContentAsset/298ffdc7-5b7b-4db9-b0e7-74590c3cdfb4/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Idea-branchriver-trail.pdf?language=en"
+        }
+      ],
+      "review": "Catalog name 'Branch River Valley Trail'. url is the Visit NH trip-idea PDF; no byway web page found."
+    },
+    {
+      "name": "Coastal Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 1A and NH 1B from Seabrook to Portsmouth via Hampton, North Hampton, Rye and New Castle; Rockingham County",
+      "facts": [
+        {
+          "fact": "The Coastal Byway follows NH 1A and 1B from Seabrook to Portsmouth (the page gives both 22 and 18.5 miles).",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/coastal-byway"
+        },
+        {
+          "fact": "It connects ten units of the state park system and overlooks the Hampton-Seabrook marsh and the beaches and rocky shore of the Gulf of Maine.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/coastal-byway"
+        },
+        {
+          "fact": "Route 1B winds around New Castle past Wentworth-by-the-Sea and two old forts, Fort Stark and Fort Constitution.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/seacoast"
+        },
+        {
+          "fact": "Highlights include the Hampton Beach boardwalk, Rye Harbor and the tidepools at Odiorne Point State Park.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/coastal-byway"
+        }
+      ]
+    },
+    {
+      "name": "Connecticut River Byway",
+      "designation": "National Scenic Byway; New Hampshire Scenic and Cultural Byway",
+      "where": "NH 12, NH 12A, NH 10, NH 135 and River Road along the river from Chesterfield to Littleton (continues in Vermont and Massachusetts); Cheshire, Sullivan and Grafton counties",
+      "facts": [
+        {
+          "fact": "The byway is a corridor of roads on both the Vermont and New Hampshire sides of the river, over 500 miles from the Massachusetts line to the Canadian border.",
+          "source": "https://ctriverbyways.org/travel-the-byway"
+        },
+        {
+          "fact": "North of Claremont, NH 12A passes the Cornish-Windsor Bridge and Saint-Gaudens National Historic Site.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/connecticut-river-byway"
+        },
+        {
+          "fact": "NH 10 runs north from Lebanon through Hanover to Lyme and Orford, home of the row of Federal-style houses called the Seven Swans.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/connecticut-river-byway"
+        }
+      ],
+      "review": "Multi-state; this entry covers the NH segment. Catalog NH stateMiles (344) is far larger than the NHDOT layer (about 130 mi), so the catalog line likely includes Vermont-side or non-state roads."
+    },
+    {
+      "name": "Currier and Ives Trail",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "US 202, NH 103 and NH 127 with town roads through Henniker, Hopkinton, Warner, Webster and Salisbury; Merrimack County",
+      "facts": [
+        {
+          "fact": "The byway is 40 miles long through Henniker, Hopkinton, Warner, Webster and Salisbury.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/currier-ives-scenic-byway"
+        },
+        {
+          "fact": "Daniel Webster's birthplace and the Franklin Pierce Homestead bookend the route; stone walls and long-hayed fields line it, with views of Mount Kearsarge and Pats Peak.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/currier-ives-scenic-byway"
+        },
+        {
+          "fact": "It began in 1976 as one of the state's Bicentennial 'Yankee Trails' and joined the Scenic and Cultural Byways Program in 1994.",
+          "source": "https://cnhrpc.org/transportation-planning/currier-ives-scenic-byway/"
+        },
+        {
+          "fact": "Hopkinton has two covered bridges, and the Contoocook River runs through its business center.",
+          "source": "https://www.visitnh.gov/getContentAsset/b29855e2-6733-45da-b04c-aebc5a77616b/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Idea-appleway.pdf?language=en"
+        }
+      ],
+      "review": "Byway organization now calls it the Currier & Ives Scenic Byway."
+    },
+    {
+      "name": "Enfield Shaker Village Scenic Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 4A along Mascoma Lake in Lebanon and Enfield; Grafton County",
+      "facts": [
+        {
+          "fact": "The byway is 3.2 miles of Route 4A in Lebanon and Enfield along Mascoma Lake.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/enfield-shaker-village-scenic-byway"
+        },
+        {
+          "fact": "It follows the path of the Enfield Shakers past Shaker Bridge and La Salette Shrine to the buildings and lands of the former Shaker community.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/enfield-shaker-village-scenic-byway"
+        }
+      ],
+      "review": "GIS layer name is misspelled 'Endfield Shaker Scenic Byway'; NHDOT map legend says 'Enfield Shaker Village Scenic Byway'. Draw from layer 6 (all features)."
+    },
+    {
+      "name": "General John Stark Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 13 and NH 77 loop through Goffstown, Dunbarton, Weare and New Boston; Hillsborough and Merrimack counties",
+      "facts": [
+        {
+          "fact": "The state designated the circular route through Goffstown, Dunbarton, Weare and New Boston in 2008, following NH 13 and NH 77.",
+          "source": "https://www.snhpc.org/DocumentCenter/View/376/Original-Corridor-Management-Plan"
+        },
+        {
+          "fact": "The state motto 'Live Free or Die' is attributed to General John Stark, who led troops at Bunker Hill and Bennington.",
+          "source": "https://www.snhpc.org/DocumentCenter/View/376/Original-Corridor-Management-Plan"
+        },
+        {
+          "fact": "Sites along the route include Weare Town Hall (1837) and the Molly Stark Cannon in New Boston.",
+          "source": "https://www.snhpc.org/DocumentCenter/View/376/Original-Corridor-Management-Plan"
+        }
+      ],
+      "review": "Byway site generalstarkbyway.org returns a database error (HTTP 500); url left null. Corridor plan PDF from Southern NH Planning Commission used for facts."
+    },
+    {
+      "name": "Kancamagus Byway",
+      "designation": "National Scenic Byway; National Forest Scenic Byway; New Hampshire Scenic and Cultural Byway",
+      "where": "NH 112 (Kancamagus Highway) from Lincoln to Conway; Grafton and Carroll counties",
+      "facts": [
+        {
+          "fact": "The Kancamagus Highway runs about 32 to 34 miles from Lincoln to Conway through the White Mountain National Forest; the Forest Service says it connects with the White Mountain Trail to make a loop.",
+          "source": "https://www.fs.usda.gov/r09/whitemountain/recreation/opportunities/scenic-drives"
+        },
+        {
+          "fact": "Heading east it follows the East Branch of the Pemigewasset and the Hancock Branch, crosses 2,855-foot Kancamagus Pass, then descends along the Swift River.",
+          "source": "https://en.wikipedia.org/wiki/New_Hampshire_Route_112"
+        },
+        {
+          "fact": "Its only major intersection is Bear Notch Road to Bartlett, which is closed in winter.",
+          "source": "https://en.wikipedia.org/wiki/New_Hampshire_Route_112"
+        }
+      ]
+    },
+    {
+      "name": "Lake Sunapee Scenic & Cultural Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 11, NH 103, NH 103A, NH 103B and NH 114 around Lake Sunapee through Sunapee, Newbury and New London; Sullivan and Merrimack counties",
+      "facts": [
+        {
+          "fact": "The 39-mile route encircles Lake Sunapee through Sunapee, Newbury and New London.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/lake-sunapee"
+        },
+        {
+          "fact": "It passes Sunapee Harbor, Newbury Harbor and New London village, The Fells and Mount Sunapee, with glimpses and occasional wide views of the lake and undeveloped mountainsides.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/lake-sunapee"
+        }
+      ],
+      "review": "Catalog maps about 22 mi; the NHDOT layer has about 41 mi, so the catalog line may be partial."
+    },
+    {
+      "name": "Lakes Region Tour",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 11, US 3, NH 25, NH 109, NH 28, NH 106, US 3B and NH 175 around Lake Winnipesaukee; Belknap, Carroll and Grafton counties",
+      "facts": [
+        {
+          "fact": "The route circles Lake Winnipesaukee, the state's largest lake, starting in Alton and following NH 11 north through Alton Bay to Gilford.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/lakes-tour"
+        },
+        {
+          "fact": "Stops include Mount Major, Ellacoya State Park, the arcades and amusements of Weirs Beach, and Meredith village.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/lakes-tour"
+        },
+        {
+          "fact": "NH 25 leads on to Center Harbor and Moultonborough on the less developed eastern side of the lake.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/lakes-tour"
+        }
+      ]
+    },
+    {
+      "name": "Mills Scenic Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "Front St, Main St, Roberts Rd and NH 4 in Rollinsford; NH 108 from Madbury through Durham to the Newmarket-Newfields line (gap through Dover); Strafford and Rockingham counties",
+      "facts": [
+        {
+          "fact": "The route starts at the South Berwick, Maine line in Rollinsford, follows NH 4 to the Dover line, then resumes on NH 108 in Madbury and runs through Durham to the Newmarket-Newfields town line.",
+          "source": "https://docs.straffordrpcnh.gov/documents/plans/mpo/cmp_millsscenicbyway_2016.pdf"
+        },
+        {
+          "fact": "In Newmarket it passes parks on the tidal Lamprey River with an old fishing weir, and the Wild and Scenic stretch of the Lamprey up to the Macallen Dam and fish ladder.",
+          "source": "https://docs.straffordrpcnh.gov/documents/plans/mpo/cmp_millsscenicbyway_2016.pdf"
+        },
+        {
+          "fact": "In Durham it crosses the Oyster River by the old Ambursen dam and Mill Pond; Rollinsford has 18th and 19th century farms.",
+          "source": "https://docs.straffordrpcnh.gov/documents/plans/mpo/cmp_millsscenicbyway_2016.pdf"
+        }
+      ],
+      "review": "The byway has a gap through Dover; GIS layer 11 holds both pieces. Durham town page for the byway is gone (404); url is the 2016 corridor management plan."
+    },
+    {
+      "name": "Moose Path Trail",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 16 from Gorham through Berlin to Errol, NH 26 through Dixville Notch to Colebrook, US 3 north through Pittsburg toward the Canadian border; Coos County",
+      "facts": [
+        {
+          "fact": "The route runs north on NH 16 from Gorham past Berlin, the Pontook Reservoir and the 13 Mile Woods along the Androscoggin River to Errol.",
+          "source": "https://www.visitnh.gov/getContentAsset/dbec0c79-eb8c-4d7d-bc95-ad96b1a0608d/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Ideas-moosepath.pdf?language=en"
+        },
+        {
+          "fact": "From Errol it follows NH 26 through Dixville Notch past Dixville Notch State Park and the Balsams, then US 3 north to Pittsburg and Lake Francis State Park.",
+          "source": "https://www.visitnh.gov/getContentAsset/dbec0c79-eb8c-4d7d-bc95-ad96b1a0608d/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Ideas-moosepath.pdf?language=en"
+        },
+        {
+          "fact": "Moose are often seen at the roadside in low-lying swampy areas.",
+          "source": "https://www.visitnh.gov/getContentAsset/dbec0c79-eb8c-4d7d-bc95-ad96b1a0608d/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Ideas-moosepath.pdf?language=en"
+        },
+        {
+          "fact": "Visit NH calls the stretch from Pontook through Dixville Notch the best chance of seeing a moose; the trip-idea sheet gives the length as 98 miles.",
+          "source": "https://www.visitnh.gov/getContentAsset/dbec0c79-eb8c-4d7d-bc95-ad96b1a0608d/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Ideas-moosepath.pdf?language=en"
+        }
+      ],
+      "review": "Catalog maps about 71 mi; NHDOT layer has about 120 mi, so the catalog line is likely partial."
+    },
+    {
+      "name": "Mountain Road Scenic Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "Weeks State Park auto road up Mount Prospect off US 3 in Lancaster; Coos County",
+      "facts": [
+        {
+          "fact": "The park auto road, built in 1911, climbs 1.6 miles up Mount Prospect in Lancaster and is described as one of the first scenic byways in New Hampshire.",
+          "source": "https://www.nhstateparks.org/find-parks-trails/weeks-state-park/"
+        },
+        {
+          "fact": "The summit views take in the Presidential Range, the Green Mountains of Vermont, the Kilkenny Range and the upper Connecticut River valley.",
+          "source": "https://www.nhstateparks.org/find-parks-trails/weeks-state-park/"
+        },
+        {
+          "fact": "The summit estate of John Wingate Weeks has a stone observation tower open to the public.",
+          "source": "https://en.wikipedia.org/wiki/Weeks_Estate"
+        }
+      ],
+      "review": "Not in the catalog. Wikipedia gives 1912 for the road; the state park page says 1911."
+    },
+    {
+      "name": "Old Stagecoach Scenic Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 121 from the Massachusetts line in Atkinson through Hampstead and Chester to Massabesic Lake in Auburn; Rockingham County",
+      "facts": [
+        {
+          "fact": "The Old Stagecoach Byway begins at the state line in Atkinson and runs northwest on NH 121 through Hampstead, Chester and Auburn to Massabesic Lake.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/robert-frost-old-stagecoach-byway"
+        },
+        {
+          "fact": "It follows a stagecoach route more than 200 years old that ran from Boston to Concord.",
+          "source": "https://www.frost-stagecoach-byway.org/"
+        },
+        {
+          "fact": "It is 22 miles long and joins the 21-mile Robert Frost Byway to form one combined byway.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/robert-frost-old-stagecoach-byway"
+        }
+      ],
+      "review": "Managed jointly with the Robert Frost Scenic Byway as the Frost-Stagecoach Scenic Byway; NHDOT keeps them as separate layers."
+    },
+    {
+      "name": "Presidential Range Trail",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 116, US 3, US 2, NH 16, US 302 and NH 115 around the Presidential Range from Littleton and Whitefield; Carroll and Coos counties",
+      "facts": [
+        {
+          "fact": "The trail runs from Littleton on NH 116 to Whitefield, US 3 to Lancaster, then US 2 through Jefferson and Randolph.",
+          "source": "https://www.visitnh.gov/getmedia/13e9d469-d880-4f9d-8383-9b89b2cd2b0b/Trip-Idea-presidential-Range.pdf"
+        },
+        {
+          "fact": "It continues south on NH 16 through Pinkham Notch past the Mount Washington Auto Road, then west on US 302 through Crawford Notch past the Mount Washington Hotel.",
+          "source": "https://www.visitnh.gov/getmedia/13e9d469-d880-4f9d-8383-9b89b2cd2b0b/Trip-Idea-presidential-Range.pdf"
+        },
+        {
+          "fact": "On a clear day the Cog Railway's smoke can be seen on the western side of Mount Washington from Route 2.",
+          "source": "https://www.visitnh.gov/getmedia/13e9d469-d880-4f9d-8383-9b89b2cd2b0b/Trip-Idea-presidential-Range.pdf"
+        }
+      ],
+      "review": "Catalog name 'Presidential Range Tour'."
+    },
+    {
+      "name": "River Heritage Trail",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "US 3, NH 175, NH 25, NH 10, US 302, NH 112, NH 18 and NH 117 in a loop from North Woodstock through Plymouth, Warren, Haverhill, Bath and Kinsman Notch; Grafton County",
+      "facts": [
+        {
+          "fact": "The 120-mile loop starts on US 3 in North Woodstock and runs south via US 3 and NH 175 into Plymouth.",
+          "source": "https://www.visitnh.gov/getmedia/80f780cc-562f-41ed-a425-f52d1efd1b4a/Trip-Idea-riverheritage-tour.pdf"
+        },
+        {
+          "fact": "NH 25 passes Warren with views of Mount Moosilauke, then heads to Piermont and Haverhill, whose villages have Federal-era buildings.",
+          "source": "https://www.visitnh.gov/getmedia/80f780cc-562f-41ed-a425-f52d1efd1b4a/Trip-Idea-riverheritage-tour.pdf"
+        },
+        {
+          "fact": "Three of the state's oldest and longest covered bridges are on this section: Woodsville, Bath and Swiftwater.",
+          "source": "https://www.visitnh.gov/getmedia/80f780cc-562f-41ed-a425-f52d1efd1b4a/Trip-Idea-riverheritage-tour.pdf"
+        }
+      ],
+      "review": "Catalog name 'River Heritage Tour'. Catalog maps about 62 mi; NHDOT layer has about 119 mi, so the catalog line is likely partial."
+    },
+    {
+      "name": "Robert Frost Scenic Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 28, NH 28 Bypass, NH 102 and local roads in Derry, Auburn and Hampstead; Rockingham County",
+      "facts": [
+        {
+          "fact": "The Robert Frost Byway follows NH 28 and local roads south through Derry village to the Robert Frost Farm State Park, then local roads east to rejoin NH 121 in Hampstead.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/robert-frost-old-stagecoach-byway"
+        },
+        {
+          "fact": "Robert Frost lived in Derry from 1900 to 1911.",
+          "source": "https://www.frost-stagecoach-byway.org/"
+        },
+        {
+          "fact": "The Robert Frost segment is 21 miles.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/robert-frost-old-stagecoach-byway"
+        }
+      ],
+      "review": "Managed jointly with the Old Stagecoach Scenic Byway."
+    },
+    {
+      "name": "Upper Lamprey Scenic Byway",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "NH 43, US 4, NH 107 and town roads in a loop through Candia, Deerfield, Northwood and Epsom; Rockingham and Merrimack counties",
+      "facts": [
+        {
+          "fact": "The loop runs through Candia, Deerfield and Northwood, reached from NH 101, and roughly follows the Lamprey River; Visit NH gives its length as 50.4 miles.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/upper-lamprey-scenic-byway"
+        },
+        {
+          "fact": "Sights include the Deerfield Fair in September and Northwood's Antique Alley.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/upper-lamprey-scenic-byway"
+        },
+        {
+          "fact": "Candia village once had a water-powered complex of mills; Deerfield had farms and inns and Northwood had shoe shops.",
+          "source": "https://www.visitnh.gov/things-to-do/scenic-drives/upper-lamprey-scenic-byway"
+        }
+      ],
+      "review": "Byway's only own web presence is a Facebook page; url is Visit NH. GIS layer 18 also touches Epsom."
+    },
+    {
+      "name": "White Mountains Trail",
+      "designation": "National Scenic Byway; National Forest Scenic Byway; New Hampshire Scenic and Cultural Byway",
+      "where": "US 3 and US 302 from Lincoln through Franconia and Crawford notches to Conway, with NH 112 and the Bear Notch Road branch; Grafton, Coos and Carroll counties",
+      "facts": [
+        {
+          "fact": "The byway uses US 3 and US 302 between Lincoln and Conway, connecting with the Kancamagus Highway at both ends, with a branch over Bear Notch from Bartlett; it passes through Franconia Notch and Crawford Notch state parks.",
+          "source": "https://en.wikipedia.org/wiki/White_Mountain_Trail"
+        },
+        {
+          "fact": "It was designated a National Scenic Byway on June 9, 1998, and is about 100 miles long.",
+          "source": "https://en.wikipedia.org/wiki/White_Mountain_Trail"
+        },
+        {
+          "fact": "The base road to the Mount Washington Cog Railway, the first mountain-climbing cog railway, leaves Route 302 in Bretton Woods.",
+          "source": "https://www.visitwhitemountains.com/things-to-do/scenic-drives/the-white-mountains-trail/"
+        }
+      ],
+      "review": "NHDOT page and map say 'White Mountains Trail'; GIS layer says 'White Mountain Trail'. Catalog maps about 71 mi vs about 108 mi in the NHDOT layer."
+    },
+    {
+      "name": "Woodland Heritage Trail",
+      "designation": "New Hampshire Scenic and Cultural Byway",
+      "where": "US 3, NH 110, NH 110A, NH 110B, NH 16 and US 2 loop from Lancaster through Northumberland, Stark, Milan, Berlin, Gorham, Randolph and Jefferson; Coos County",
+      "facts": [
+        {
+          "fact": "The 65-mile loop begins in Lancaster and follows US 3 to Northumberland, past working paper mills in Groveton.",
+          "source": "https://www.visitnh.gov/getContentAsset/91ca6970-a914-4eea-8418-2de8e39f8ace/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Ideas-woodland-trail.pdf?language=en"
+        },
+        {
+          "fact": "NH 110 passes Stark's much-photographed covered bridge and Union Church, then the route follows the Androscoggin south past the 1936 Nansen Ski Jump to Berlin.",
+          "source": "https://www.visitnh.gov/getContentAsset/91ca6970-a914-4eea-8418-2de8e39f8ace/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Ideas-woodland-trail.pdf?language=en"
+        },
+        {
+          "fact": "The loop circles the Kilkenny District of the White Mountain National Forest and returns on US 2 through Randolph and Jefferson, with views of King Ravine.",
+          "source": "https://www.visitnh.gov/getContentAsset/91ca6970-a914-4eea-8418-2de8e39f8ace/73aabf56-e6e5-4330-95a3-5f2a270a1d2b/Trip-Ideas-woodland-trail.pdf?language=en"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    "NHDOT program page and its PDFs return HTTP 403 to curl and WebFetch; they were read through a real browser. The page itself has no list; the list comes from the official byway map PDF (rev. 10/29/2018) and the GIS service, which agree on 21 byways (the map legend text omits the Kancamagus label but the page and GIS include it).",
+    "Canterbury Shaker Village Byway and Amoskeag Millyard Scenic and Cultural Byway are in the catalog (and in old FHWA data) but are not on NHDOT's 2018 map or in its GIS layers. Visit NH still links a Canterbury trip-idea sheet. Someone should ask NHDOT whether either is still designated.",
+    "Six designated byways are not in the catalog (bywayId null): Enfield Shaker Village, Mills, Mountain Road, Old Stagecoach, Robert Frost, Upper Lamprey. All can be drawn from their NHDOT layers with where 1=1.",
+    "Catalog lines look partial against NHDOT layer mileage: Moose Path (71 vs ~120 mi), River Heritage (62 vs ~119), White Mountain Trail (71 vs ~108), Lake Sunapee (22 vs ~41), Currier & Ives (33 vs ~45). Connecticut River NH mileage in catalog (344) is far above the NHDOT layer (~130).",
+    "Length figures disagree across official sources: Coastal Byway 18.5 vs 22 mi on the same Visit NH page; Moose Path 98 mi (Visit NH sheet) vs ~120 mi in GIS; Upper Lamprey 50.4 mi (Visit NH) vs ~46 mi in GIS.",
+    "Dead or unusable official sites: generalstarkbyway.org (HTTP 500 database error), ctriverbyway.org (parked domain; the live site is ctriverbyways.org), Durham's Mills Scenic Byway page (404), old nh.gov/dot/programs/scbp/tours pages cited by Visit NH.",
+    "GIS layer 6 name is misspelled 'Endfield Shaker Scenic Byway'.",
+    "Left out of the chapter: Earlier New Hampshire byways not on NHDOT's current map: Canterbury Shaker Village Byway, Amoskeag Millyard Scenic and Cultural Byway"
+  ]
+}

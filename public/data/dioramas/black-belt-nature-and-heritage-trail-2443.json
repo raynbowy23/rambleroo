@@ -1,0 +1,369 @@
+{
+  "authored": false,
+  "bywayId": "black-belt-nature-and-heritage-trail-2443",
+  "title": "Black Belt Nature and Heritage Trail",
+  "longitude": -86.9685,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -88.40329,
+        32.45428
+      ],
+      [
+        -88.32245,
+        32.43483
+      ],
+      [
+        -88.24419,
+        32.44475
+      ],
+      [
+        -88.20615,
+        32.45678
+      ],
+      [
+        -88.14046,
+        32.45342
+      ],
+      [
+        -88.09349,
+        32.46793
+      ],
+      [
+        -88.06054,
+        32.45905
+      ],
+      [
+        -88.01721,
+        32.45718
+      ],
+      [
+        -87.98239,
+        32.44275
+      ],
+      [
+        -87.88985,
+        32.47114
+      ],
+      [
+        -87.83758,
+        32.5035
+      ],
+      [
+        -87.7072,
+        32.50917
+      ],
+      [
+        -87.62746,
+        32.47105
+      ],
+      [
+        -87.51764,
+        32.44941
+      ],
+      [
+        -87.44385,
+        32.45036
+      ],
+      [
+        -87.38189,
+        32.4392
+      ],
+      [
+        -87.15669,
+        32.44588
+      ],
+      [
+        -87.02431,
+        32.4314
+      ],
+      [
+        -87.02393,
+        32.41481
+      ],
+      [
+        -87.00698,
+        32.372
+      ],
+      [
+        -86.97397,
+        32.35661
+      ],
+      [
+        -86.9401,
+        32.32806
+      ],
+      [
+        -86.83389,
+        32.30817
+      ],
+      [
+        -86.80226,
+        32.29012
+      ],
+      [
+        -86.73524,
+        32.27083
+      ],
+      [
+        -86.67768,
+        32.26212
+      ],
+      [
+        -86.51363,
+        32.27015
+      ],
+      [
+        -86.4442,
+        32.30032
+      ],
+      [
+        -86.35024,
+        32.3123
+      ],
+      [
+        -86.34424,
+        32.3288
+      ],
+      [
+        -86.23657,
+        32.32779
+      ],
+      [
+        -86.21031,
+        32.36907
+      ],
+      [
+        -86.21159,
+        32.38197
+      ],
+      [
+        -86.16243,
+        32.38222
+      ],
+      [
+        -86.13791,
+        32.36643
+      ],
+      [
+        -86.10376,
+        32.36245
+      ],
+      [
+        -86.08034,
+        32.36801
+      ],
+      [
+        -86.0441,
+        32.36546
+      ],
+      [
+        -86.0021,
+        32.37377
+      ],
+      [
+        -85.97156,
+        32.39543
+      ],
+      [
+        -85.95001,
+        32.40061
+      ],
+      [
+        -85.91395,
+        32.39764
+      ],
+      [
+        -85.84507,
+        32.37488
+      ],
+      [
+        -85.81588,
+        32.38502
+      ],
+      [
+        -85.77896,
+        32.37874
+      ],
+      [
+        -85.74795,
+        32.39751
+      ],
+      [
+        -85.71382,
+        32.4076
+      ],
+      [
+        -85.66595,
+        32.43982
+      ],
+      [
+        -85.57714,
+        32.46947
+      ],
+      [
+        -85.45168,
+        32.42502
+      ],
+      [
+        -85.37591,
+        32.43878
+      ],
+      [
+        -85.24683,
+        32.44642
+      ],
+      [
+        -85.09702,
+        32.47045
+      ],
+      [
+        -85.06972,
+        32.4681
+      ],
+      [
+        -85.03897,
+        32.47555
+      ],
+      [
+        -85.00077,
+        32.47103
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Edmund Pettus Bridge",
+      "model": "ledge",
+      "at": 0.39543824583355286,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lowndesboro",
+      "model": "steeple-town",
+      "at": 0.5229696334694139,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lowndesboro",
+      "model": "town-blocks",
+      "at": 0.5229696334694139,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Cuba",
+      "at": 0.009769585253456222,
+      "landmark": ""
+    },
+    {
+      "name": "Bellamy",
+      "at": 0.07769585253456221,
+      "landmark": ""
+    },
+    {
+      "name": "Demopolis",
+      "at": 0.15741935483870967,
+      "landmark": ""
+    },
+    {
+      "name": "Faunsdale",
+      "at": 0.2317511520737327,
+      "landmark": ""
+    },
+    {
+      "name": "Marion Junction",
+      "at": 0.32857142857142857,
+      "landmark": ""
+    },
+    {
+      "name": "Selma",
+      "at": 0.3916129032258065,
+      "landmark": ""
+    },
+    {
+      "name": "Lowndesboro",
+      "at": 0.5229032258064517,
+      "landmark": "Lowndesboro"
+    },
+    {
+      "name": "Mount Meigs",
+      "at": 0.6821198156682028,
+      "landmark": ""
+    },
+    {
+      "name": "Marvyn",
+      "at": 0.9000921658986175,
+      "landmark": ""
+    },
+    {
+      "name": "Phenix City",
+      "at": 0.9993548387096775,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/black-belt-nature-and-heritage-trail-2443.json",
+    "public/data/strips/black-belt-nature-and-heritage-trail-2443.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

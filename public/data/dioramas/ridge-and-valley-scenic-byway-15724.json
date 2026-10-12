@@ -1,0 +1,426 @@
+{
+  "authored": false,
+  "bywayId": "ridge-and-valley-scenic-byway-15724",
+  "title": "Ridge and Valley Scenic Byway",
+  "longitude": -85.0817,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -85.26914,
+        34.46573
+      ],
+      [
+        -85.26061,
+        34.48031
+      ],
+      [
+        -85.2507,
+        34.49048
+      ],
+      [
+        -85.23868,
+        34.50863
+      ],
+      [
+        -85.2318,
+        34.51196
+      ],
+      [
+        -85.22953,
+        34.5171
+      ],
+      [
+        -85.2192,
+        34.52198
+      ],
+      [
+        -85.18815,
+        34.56012
+      ],
+      [
+        -85.15696,
+        34.56945
+      ],
+      [
+        -85.1453,
+        34.58301
+      ],
+      [
+        -85.14186,
+        34.5906
+      ],
+      [
+        -85.13675,
+        34.595
+      ],
+      [
+        -85.13114,
+        34.61123
+      ],
+      [
+        -85.12967,
+        34.63004
+      ],
+      [
+        -85.12116,
+        34.64478
+      ],
+      [
+        -85.12169,
+        34.65103
+      ],
+      [
+        -85.1178,
+        34.65273
+      ],
+      [
+        -85.11461,
+        34.67382
+      ],
+      [
+        -85.09226,
+        34.66977
+      ],
+      [
+        -85.08011,
+        34.671
+      ],
+      [
+        -85.07883,
+        34.66591
+      ],
+      [
+        -85.08389,
+        34.65029
+      ],
+      [
+        -85.09093,
+        34.64902
+      ],
+      [
+        -85.08077,
+        34.63485
+      ],
+      [
+        -85.07916,
+        34.62112
+      ],
+      [
+        -85.08248,
+        34.59639
+      ],
+      [
+        -85.08916,
+        34.5806
+      ],
+      [
+        -85.09817,
+        34.57892
+      ],
+      [
+        -85.10136,
+        34.56389
+      ],
+      [
+        -85.10791,
+        34.54964
+      ],
+      [
+        -85.10755,
+        34.53637
+      ],
+      [
+        -85.11179,
+        34.52917
+      ],
+      [
+        -85.11638,
+        34.52876
+      ],
+      [
+        -85.11968,
+        34.52487
+      ],
+      [
+        -85.12001,
+        34.51191
+      ],
+      [
+        -85.11617,
+        34.50426
+      ],
+      [
+        -85.12849,
+        34.48826
+      ],
+      [
+        -85.13378,
+        34.48586
+      ],
+      [
+        -85.13761,
+        34.47525
+      ],
+      [
+        -85.15111,
+        34.45555
+      ],
+      [
+        -85.15151,
+        34.44007
+      ],
+      [
+        -85.15664,
+        34.42403
+      ],
+      [
+        -85.15697,
+        34.41229
+      ],
+      [
+        -85.16599,
+        34.40787
+      ],
+      [
+        -85.17081,
+        34.40173
+      ],
+      [
+        -85.18104,
+        34.39896
+      ],
+      [
+        -85.1895,
+        34.39241
+      ],
+      [
+        -85.21404,
+        34.40164
+      ],
+      [
+        -85.21967,
+        34.41056
+      ],
+      [
+        -85.22951,
+        34.41297
+      ],
+      [
+        -85.24738,
+        34.42418
+      ],
+      [
+        -85.24933,
+        34.42876
+      ],
+      [
+        -85.24737,
+        34.44535
+      ],
+      [
+        -85.25068,
+        34.45256
+      ],
+      [
+        -85.25914,
+        34.46091
+      ],
+      [
+        -85.26914,
+        34.46573
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Subligna",
+      "model": "town-blocks",
+      "at": 0.16176378979609762,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Villanow",
+      "model": "town-blocks",
+      "at": 0.3573263275102458,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Farmersville",
+      "at": 0.04299802761341223,
+      "landmark": ""
+    },
+    {
+      "name": "Subligna",
+      "at": 0.16252465483234713,
+      "landmark": "Subligna"
+    },
+    {
+      "name": "East Armuchee",
+      "at": 0.2863905325443787,
+      "landmark": ""
+    },
+    {
+      "name": "Villanow",
+      "at": 0.357396449704142,
+      "landmark": "Villanow"
+    },
+    {
+      "name": "Everett Springs",
+      "at": 0.6729783037475344,
+      "landmark": ""
+    },
+    {
+      "name": "Armuchee",
+      "at": 0.8467455621301775,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/ridge-and-valley-scenic-byway-15724.json",
+    "public/data/strips/ridge-and-valley-scenic-byway-15724.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

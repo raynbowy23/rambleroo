@@ -1,0 +1,107 @@
+{
+  "authored": false,
+  "bywayId": "perquiman-s-crossing-12838",
+  "title": "Perquiman's Crossing",
+  "longitude": -76.4667,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -76.4757,
+        36.1661
+      ],
+      [
+        -76.4745,
+        36.1869
+      ],
+      [
+        -76.467,
+        36.1868
+      ],
+      [
+        -76.4653,
+        36.1912
+      ],
+      [
+        -76.467,
+        36.1966
+      ],
+      [
+        -76.4625,
+        36.2014
+      ],
+      [
+        -76.4476,
+        36.2042
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Newbold-White House",
+      "model": "farmhouse",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "content/stories/perquiman-s-crossing-12838.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

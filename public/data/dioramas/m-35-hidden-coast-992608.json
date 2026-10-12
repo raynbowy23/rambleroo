@@ -1,0 +1,355 @@
+{
+  "authored": false,
+  "bywayId": "m-35-hidden-coast-992608",
+  "title": "M-35 Hidden Coast",
+  "longitude": -87.3437,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -87.6265,
+        45.10313
+      ],
+      [
+        -87.62013,
+        45.10791
+      ],
+      [
+        -87.61456,
+        45.10785
+      ],
+      [
+        -87.61252,
+        45.13431
+      ],
+      [
+        -87.60393,
+        45.14
+      ],
+      [
+        -87.60223,
+        45.14983
+      ],
+      [
+        -87.59161,
+        45.15749
+      ],
+      [
+        -87.58605,
+        45.16753
+      ],
+      [
+        -87.57288,
+        45.17408
+      ],
+      [
+        -87.56293,
+        45.1849
+      ],
+      [
+        -87.53934,
+        45.19586
+      ],
+      [
+        -87.53457,
+        45.20682
+      ],
+      [
+        -87.5191,
+        45.21779
+      ],
+      [
+        -87.50903,
+        45.23045
+      ],
+      [
+        -87.47513,
+        45.26201
+      ],
+      [
+        -87.46695,
+        45.27358
+      ],
+      [
+        -87.44129,
+        45.29459
+      ],
+      [
+        -87.43801,
+        45.30938
+      ],
+      [
+        -87.40105,
+        45.35654
+      ],
+      [
+        -87.395,
+        45.36793
+      ],
+      [
+        -87.37706,
+        45.38017
+      ],
+      [
+        -87.36081,
+        45.40592
+      ],
+      [
+        -87.34706,
+        45.41642
+      ],
+      [
+        -87.34651,
+        45.41984
+      ],
+      [
+        -87.35146,
+        45.43059
+      ],
+      [
+        -87.33907,
+        45.44536
+      ],
+      [
+        -87.33679,
+        45.45201
+      ],
+      [
+        -87.31073,
+        45.47292
+      ],
+      [
+        -87.30656,
+        45.48205
+      ],
+      [
+        -87.28914,
+        45.5041
+      ],
+      [
+        -87.28841,
+        45.52188
+      ],
+      [
+        -87.28458,
+        45.53392
+      ],
+      [
+        -87.2731,
+        45.54456
+      ],
+      [
+        -87.26795,
+        45.55544
+      ],
+      [
+        -87.24072,
+        45.58416
+      ],
+      [
+        -87.23579,
+        45.59254
+      ],
+      [
+        -87.22577,
+        45.59983
+      ],
+      [
+        -87.20047,
+        45.63584
+      ],
+      [
+        -87.1793,
+        45.65287
+      ],
+      [
+        -87.17347,
+        45.66208
+      ],
+      [
+        -87.16709,
+        45.66627
+      ],
+      [
+        -87.15447,
+        45.6705
+      ],
+      [
+        -87.13623,
+        45.68107
+      ],
+      [
+        -87.10121,
+        45.68861
+      ],
+      [
+        -87.09948,
+        45.70666
+      ],
+      [
+        -87.08015,
+        45.71754
+      ],
+      [
+        -87.07977,
+        45.74959
+      ],
+      [
+        -87.07713,
+        45.75341
+      ],
+      [
+        -87.07705,
+        45.76349
+      ],
+      [
+        -87.08336,
+        45.77549
+      ],
+      [
+        -87.08096,
+        45.79028
+      ],
+      [
+        -87.07619,
+        45.79649
+      ],
+      [
+        -87.06549,
+        45.80209
+      ],
+      [
+        -87.05319,
+        45.82191
+      ],
+      [
+        -87.02301,
+        45.85247
+      ],
+      [
+        -87.05415,
+        45.82026
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Cedar River",
+      "model": "town-blocks",
+      "at": 0.3955595098642915,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sand Point Lighthouse, Escanaba",
+      "model": "lighthouse-on-rock",
+      "at": 0.8386807147609013,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Gladstone",
+      "model": "town-blocks",
+      "at": 0.958770603530118,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Menominee",
+      "at": 0.010470409711684558,
+      "landmark": ""
+    },
+    {
+      "name": "Escanaba",
+      "at": 0.8305007587253415,
+      "landmark": ""
+    },
+    {
+      "name": "Gladstone",
+      "at": 0.9587253414264036,
+      "landmark": "Gladstone"
+    }
+  ],
+  "sources": [
+    "content/stories/m-35-hidden-coast-992608.json",
+    "public/data/strips/m-35-hidden-coast-992608.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

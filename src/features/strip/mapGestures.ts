@@ -4,10 +4,13 @@ export interface ViewOffsets {
   zoom: number
   bearing: number
   pitch: number
+  /** Screen pixels the reader dragged the view away from the car. */
+  panX: number
+  panY: number
 }
-export const defaultView = (): ViewOffsets => ({ zoom: 0, bearing: 0, pitch: 0 })
+export const defaultView = (): ViewOffsets => ({ zoom: 0, bearing: 0, pitch: 0, panX: 0, panY: 0 })
 
-/** Only modified mouse gestures and two-finger touches belong to the map. */
+/** A plain mouse drag pans; modified drags and two-finger touches turn and zoom. The plain wheel and one-finger swipes stay with the page, since scrolling is what drives the car. */
 export function bindMapGestures(element: HTMLElement, adjust: (delta: Partial<ViewOffsets>) => void) {
   const wheel = (event: WheelEvent) => {
     if (!event.ctrlKey && !event.metaKey) return
@@ -22,20 +25,30 @@ export function bindMapGestures(element: HTMLElement, adjust: (delta: Partial<Vi
     event.stopImmediatePropagation()
     suppressClick = false
   }
-  let mouse: { x: number; y: number } | undefined
+  let mouse: { x: number; y: number; pan: boolean; moved: boolean } | undefined
   const down = (event: MouseEvent) => {
     suppressClick = false
-    if (event.button !== 2 && !(event.button === 0 && (event.ctrlKey || event.metaKey))) return
-    event.preventDefault()
-    suppressClick = true
-    mouse = { x: event.clientX, y: event.clientY }
+    const turn = event.button === 2 || (event.button === 0 && (event.ctrlKey || event.metaKey))
+    if (!turn && event.button !== 0) return
+    if (turn) {
+      event.preventDefault()
+      suppressClick = true
+    }
+    mouse = { x: event.clientX, y: event.clientY, pan: !turn, moved: false }
     element.focus({ preventScroll: true })
   }
   const move = (event: MouseEvent) => {
     if (!mouse) return
+    const dx = event.clientX - mouse.x,
+      dy = event.clientY - mouse.y
+    // A pan starts only past a few pixels, so a click on a pin is still a click.
+    if (mouse.pan && !mouse.moved && Math.hypot(dx, dy) < 4) return
     event.preventDefault()
-    adjust({ bearing: (event.clientX - mouse.x) * 0.5, pitch: (mouse.y - event.clientY) * 0.3 })
-    mouse = { x: event.clientX, y: event.clientY }
+    if (mouse.pan) {
+      mouse.moved = suppressClick = true
+      adjust({ panX: dx, panY: dy })
+    } else adjust({ bearing: dx * 0.5, pitch: -dy * 0.3 })
+    mouse = { ...mouse, x: event.clientX, y: event.clientY }
   }
   const up = () => {
     mouse = undefined

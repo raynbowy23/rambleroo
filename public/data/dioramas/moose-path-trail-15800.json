@@ -1,0 +1,431 @@
+{
+  "authored": false,
+  "bywayId": "moose-path-trail-15800",
+  "title": "Moose Path Trail",
+  "longitude": -71.2731,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -71.17286,
+        44.38799
+      ],
+      [
+        -71.19339,
+        44.3951
+      ],
+      [
+        -71.19951,
+        44.40367
+      ],
+      [
+        -71.19407,
+        44.41485
+      ],
+      [
+        -71.1868,
+        44.46308
+      ],
+      [
+        -71.17085,
+        44.47572
+      ],
+      [
+        -71.16366,
+        44.49057
+      ],
+      [
+        -71.15857,
+        44.50975
+      ],
+      [
+        -71.16024,
+        44.52008
+      ],
+      [
+        -71.17451,
+        44.54143
+      ],
+      [
+        -71.18088,
+        44.55736
+      ],
+      [
+        -71.18107,
+        44.56904
+      ],
+      [
+        -71.19641,
+        44.59413
+      ],
+      [
+        -71.21361,
+        44.60799
+      ],
+      [
+        -71.23874,
+        44.61557
+      ],
+      [
+        -71.25062,
+        44.62817
+      ],
+      [
+        -71.25045,
+        44.63446
+      ],
+      [
+        -71.2348,
+        44.64284
+      ],
+      [
+        -71.2182,
+        44.6637
+      ],
+      [
+        -71.18044,
+        44.66749
+      ],
+      [
+        -71.17661,
+        44.68981
+      ],
+      [
+        -71.16968,
+        44.69771
+      ],
+      [
+        -71.17375,
+        44.71693
+      ],
+      [
+        -71.16298,
+        44.7229
+      ],
+      [
+        -71.18138,
+        44.74087
+      ],
+      [
+        -71.16467,
+        44.74723
+      ],
+      [
+        -71.14666,
+        44.74103
+      ],
+      [
+        -71.14769,
+        44.75746
+      ],
+      [
+        -71.13431,
+        44.76818
+      ],
+      [
+        -71.1411,
+        44.77638
+      ],
+      [
+        -71.13797,
+        44.78111
+      ],
+      [
+        -71.17836,
+        44.80045
+      ],
+      [
+        -71.20474,
+        44.80338
+      ],
+      [
+        -71.21852,
+        44.79976
+      ],
+      [
+        -71.24617,
+        44.81283
+      ],
+      [
+        -71.25436,
+        44.82702
+      ],
+      [
+        -71.29126,
+        44.8641
+      ],
+      [
+        -71.30781,
+        44.86703
+      ],
+      [
+        -71.33262,
+        44.86471
+      ],
+      [
+        -71.34283,
+        44.87163
+      ],
+      [
+        -71.36294,
+        44.87533
+      ],
+      [
+        -71.38752,
+        44.86993
+      ],
+      [
+        -71.42234,
+        44.87561
+      ],
+      [
+        -71.44082,
+        44.88522
+      ],
+      [
+        -71.46342,
+        44.89035
+      ],
+      [
+        -71.49706,
+        44.893
+      ],
+      [
+        -71.47277,
+        44.91082
+      ],
+      [
+        -71.45551,
+        44.93036
+      ],
+      [
+        -71.44876,
+        44.9641
+      ],
+      [
+        -71.4342,
+        44.97362
+      ],
+      [
+        -71.43005,
+        44.98663
+      ],
+      [
+        -71.41735,
+        45.00325
+      ],
+      [
+        -71.40919,
+        45.03286
+      ],
+      [
+        -71.40946,
+        45.04494
+      ],
+      [
+        -71.39181,
+        45.04866
+      ],
+      [
+        -71.39134,
+        45.05149
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Dixville Notch State Park",
+      "model": "cove-waterfall",
+      "at": 0.6562702161340388,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Dixville Notch",
+      "model": "town-blocks",
+      "at": 0.6660569990731674,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Gorham",
+      "at": 0.020451339915373845,
+      "landmark": ""
+    },
+    {
+      "name": "Milan",
+      "at": 0.20296191819464038,
+      "landmark": ""
+    },
+    {
+      "name": "Dummer",
+      "at": 0.2857545839210156,
+      "landmark": ""
+    },
+    {
+      "name": "Errol",
+      "at": 0.4913963328631876,
+      "landmark": ""
+    },
+    {
+      "name": "Dixville Notch",
+      "at": 0.665867418899859,
+      "landmark": "Dixville Notch"
+    },
+    {
+      "name": "Colebrook",
+      "at": 0.7617771509167842,
+      "landmark": ""
+    },
+    {
+      "name": "Stewartstown",
+      "at": 0.9086036671368124,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/moose-path-trail-15800.json",
+    "public/data/strips/moose-path-trail-15800.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

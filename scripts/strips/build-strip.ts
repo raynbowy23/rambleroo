@@ -10,7 +10,10 @@ import type { Feature, MultiPolygon, Polygon, Position } from 'geojson'
 import { booleanPointInPolygon, point } from '@turf/turf'
 
 const ROOT = new URL('../../', import.meta.url)
-const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway strip maps; personal project)' }
+const UA = {
+  'User-Agent':
+    'Rambleroo/0.1 (scenic byway strip maps; personal project; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues)',
+}
 const JOIN_MI = 0.08 // ends closer than this are the same point (digitising noise)
 const GAP_MI = 1.2 // ends further apart than this are not treated as part of the same drive
 const PLACE_MI = 4 // places further than this from the road are not placed on the ribbon (nearer ones show their distance)
@@ -129,7 +132,8 @@ if (content.clipToState) {
 }
 
 // ---------- 2. chain pieces into paths ----------
-/** Grow a path from `seed` at both ends, always attaching the longest unused piece whose end is within `tol` miles. */
+/** Grow a path from `seed` at both ends, attaching the longest unused piece that touches the tip (within JOIN_MI), or failing
+ *  that the longest whose end is within `tol` miles. Roads cut into many short edges stay continuous instead of jumping. */
 function chain(seed: Position[], pool: Position[][], tol: number) {
   const path = [...seed]
   const gaps: { atMile: number; miles: number }[] = []
@@ -143,7 +147,9 @@ function chain(seed: Position[], pool: Position[][], tol: number) {
         if (used.has(l)) continue
         for (const cand of [l, [...l].reverse()]) {
           const d = miles(tip, end === 'tail' ? cand[0] : cand[cand.length - 1])
-          if (d <= tol && (!pick || lengthOf(cand) > lengthOf(pick.line))) pick = { line: cand, d }
+          const touches = d <= JOIN_MI
+          const better = !pick || (touches && pick.d > JOIN_MI) || ((touches || pick.d > JOIN_MI) && lengthOf(cand) > lengthOf(pick.line))
+          if (d <= tol && better) pick = { line: cand, d }
         }
       }
       if (!pick) continue

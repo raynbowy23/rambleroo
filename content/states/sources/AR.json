@@ -1,0 +1,248 @@
+{
+  "note": "Facts and sources behind the member descriptions in AR.json, gathered 2026-10-05. \"review\" holds research notes for a human check; \"issues\" lists open questions.",
+  "byways": [
+    {
+      "name": "Camden Expedition Scenic Byway",
+      "designation": "Arkansas Scenic Byway",
+      "where": "Loop from Little Rock via Benton, Arkadelphia, Old Washington State Park, Prescott, Camden, Fordyce, Leola and Sheridan; Saline, Hot Spring, Clark, Hempstead, Nevada, Ouachita, Calhoun, Dallas, Cleveland, Grant and Pulaski counties",
+      "facts": [
+        {
+          "fact": "Designated a state scenic byway in 2021; a loop from Little Rock southwest to Old Washington State Park, east on Hwy 24 to Camden, north on Hwy 79 to Fordyce, then by Hwys 8/9 and 46 through Tulip, Leola and Sheridan, and Hwy 35 to Benton.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "The Camden Expedition (March 23 to May 3, 1864) was a failed Union campaign in southwest Arkansas; General Frederick Steele marched about 8,500 men out of the Little Rock Arsenal toward Shreveport, and Confederate state government had moved to Washington.",
+          "source": "https://en.wikipedia.org/wiki/Camden_Expedition"
+        }
+      ],
+      "review": "ARDOT's text describes the outbound leg on I-30, but the ARDOT GIS line follows US 67, Military Road and many county roads near the 1864 route (Marks Cemetery Road, Mount Elba Road). Draw from GIS; the line is fragmented across 112 features."
+    },
+    {
+      "name": "Crowley's Ridge Parkway National Scenic Byway",
+      "designation": "National Scenic Byway; Arkansas Scenic Byway",
+      "where": "Helena-West Helena north along Crowley's Ridge via Marianna, Forrest City, Wynne, Jonesboro and Paragould to the Missouri line; about 198 miles in Arkansas",
+      "facts": [
+        {
+          "fact": "Designated a state scenic byway in 1997 and a National Scenic Byway in 1998; 198 miles made of segments of 17 highways, two county roads and city streets.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "The parkway begins near the Helena Bridge over the Mississippi, passes the site of the 1863 Battle of Helena, and runs as a narrow two-lane road through the St. Francis National Forest past Storm Creek Lake.",
+          "source": "https://en.wikipedia.org/wiki/Crowley%27s_Ridge_Parkway"
+        },
+        {
+          "fact": "Crowley's Ridge rises up to 200 feet above the flat land of the Delta.",
+          "source": "https://experiencemississippiriver.com/states/arkansas/"
+        }
+      ]
+    },
+    {
+      "name": "Arkansas Scenic 7 Byway",
+      "designation": "Arkansas Scenic Byway; National Forest Scenic Byway (Ouachita and Ozark segments)",
+      "where": "Highway 7 from the Louisiana line south of El Dorado to Harrison, about 290 miles",
+      "facts": [
+        {
+          "fact": "Designated in 1993 and extended in 1999; about 290 miles from the Louisiana state line to Harrison.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "Passes El Dorado, Camden, Arkadelphia, Hot Springs and Bathhouse Row, Russellville and Jasper, crossing the Ouachita and Ozark National Forests and ending at Harrison's 1909 Boone County Courthouse; called Arkansas' first scenic byway.",
+          "source": "https://www.arkansas.com/experiences/discover/attraction-listings/arkansas-scenic-7-byway"
+        },
+        {
+          "fact": "On the Ouachita National Forest the byway passes Nimrod Reservoir, the Flatside Wilderness, the Ouachita National Recreation Trail and two Civilian Conservation Corps camps, and crosses the Fourche LaFave River.",
+          "source": "https://www.fs.usda.gov/r08/ouachita/recreation/scenic-7-byway"
+        }
+      ],
+      "review": "Catalog line is 314 mapped miles, longer than ARDOT's ~290; check whether it runs past Harrison toward Diamond City."
+    },
+    {
+      "name": "Boston Mountains Scenic Loop",
+      "designation": "Arkansas Scenic Byway",
+      "where": "US 71 (42 mi) and I-49, formerly I-540 (38 mi), between Alma (Dean's Market) and Fayetteville; Crawford and Washington counties",
+      "facts": [
+        {
+          "fact": "Two routes between Dean's Market and Fayetteville: Highway 71, designated 1998, 42 miles, and Interstate 540, designated 1999, 38 miles.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "The I-49 leg includes the Bobby Hopper Tunnel, the only road tunnel in Arkansas; the US 71 leg passes a string of small towns the interstate bypasses; the Butterfield Overland Mail stagecoach route once crossed these mountains.",
+          "source": "https://en.wikipedia.org/wiki/Boston_Mountains_Scenic_Loop"
+        }
+      ],
+      "review": "ARDOT still lists the interstate leg as I-540; it is now signed I-49."
+    },
+    {
+      "name": "Great River Road National Scenic Byway",
+      "designation": "National Scenic Byway and All-American Road; Arkansas Scenic Byway",
+      "where": "About 362 miles through the Arkansas Delta, from near Blytheville south through Helena-West Helena to Lake Village and the Louisiana line",
+      "facts": [
+        {
+          "fact": "Designated a state scenic byway in 2001 and a National Scenic Byway in 2002; 362 miles in Arkansas on 13 highways plus forest service, county and city roads.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "The Arkansas route crosses Delta cropland of soybeans, rice, cotton and wheat, runs atop Crowley's Ridge through the St. Francis National Forest, and passes Helena's Delta Cultural Center, which tells the history of the blues.",
+          "source": "https://experiencemississippiriver.com/states/arkansas/"
+        },
+        {
+          "fact": "Stops include Lake Chicot, described as the largest oxbow lake in North America, the Johnny Cash Boyhood Home at Dyess, and the Japanese American Internment Museum at McGehee.",
+          "source": "https://www.arkansas.com/plan-your-trip/plan/trip-ideas-itineraries/great-river-road-travel-the-arkansas-delta-region-along"
+        }
+      ]
+    },
+    {
+      "name": "Highway 21/Ozark Highlands Scenic Byway",
+      "designation": "Arkansas Scenic Byway; National Forest Scenic Byway",
+      "where": "Highway 21 from US 64 at Clarksville north to the Buffalo National River near Boxley; Johnson, Newton counties; 35 miles",
+      "facts": [
+        {
+          "fact": "Designated in 2005; 35 miles from Highway 64 to the Buffalo National River.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "The byway begins at US 64 in Clarksville and runs north through the Ozark National Forest to the Buffalo National River near Boxley; the highway is a main route to the Ozark Highlands Trail.",
+          "source": "https://en.wikipedia.org/wiki/Arkansas_Highway_21"
+        },
+        {
+          "fact": "The route follows ridges between the headwaters of major streams.",
+          "source": "https://www.arkansas.com/plan-your-trip/plan/trip-ideas-itineraries/road-trip-the-scenic-byway-guide-to-northwest-arkansas"
+        }
+      ],
+      "review": "Catalog line (35.6 mi) starts around lat 35.56, north of Clarksville; ARDOT and the GIS start at US 64 in Clarksville. Check the south end."
+    },
+    {
+      "name": "Interstate 530",
+      "designation": "Arkansas Scenic Byway",
+      "where": "I-530 from Highway 256 at White Hall to US 65 southeast of Pine Bluff; Jefferson County; 15 miles",
+      "facts": [
+        {
+          "fact": "Designated in 2001; 15 miles from Highway 256 in White Hall to Highway 65 southeast of Pine Bluff.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "The scenic segment crosses Bayou Bartholomew and the Mississippi Alluvial Plain; the interstate bypasses Pine Bluff on the southwest as the Wiley Branton Highway, and its exit numbers increase southward.",
+          "source": "https://en.wikipedia.org/wiki/Interstate_530"
+        }
+      ],
+      "review": "ARDOT GIS tags this feature with Type 'National Scenic Byway', which is wrong; it is a state designation only."
+    },
+    {
+      "name": "Mount Magazine Scenic Byway/Highway 309",
+      "designation": "Arkansas Scenic Byway; National Forest Scenic Byway",
+      "where": "Highway 309 from Highway 10 at Havana north over Mount Magazine through Paris to Highway 23 at Webb City; Yell, Logan, Franklin counties; 45 miles",
+      "facts": [
+        {
+          "fact": "Designated in 1994; 45 miles from Highway 10 in Havana north over Mount Magazine to Highway 23 in Webb City.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "Highway 309 passes Mount Magazine, at 2,753 feet Arkansas's highest point, with Cove Lake and an overlook toward Blue Mountain Lake; in Paris it passes the Logan County Courthouse.",
+          "source": "https://en.wikipedia.org/wiki/Arkansas_Highway_309"
+        },
+        {
+          "fact": "From the summit the road descends more than 2,300 feet toward Cove Lake and Paris.",
+          "source": "https://www.arkansas.com/plan-your-trip/plan/trip-ideas-itineraries/road-trip-the-scenic-byway-guide-to-northwest-arkansas"
+        }
+      ],
+      "review": "Catalog line (24 mi) covers only the national forest segment; the state byway runs on through Paris to Webb City (45 mi)."
+    },
+    {
+      "name": "Pig Trail Scenic Byway",
+      "designation": "Arkansas Scenic Byway; National Forest Scenic Byway",
+      "where": "Highway 23 from near I-40 north of Ozark to Highway 16 at Brashears; Franklin, Madison counties; 19 miles",
+      "facts": [
+        {
+          "fact": "19 miles of Highway 23 from near I-40 to Highway 16 at Brashears; listed by ARDOT with a Forest Service Scenic Byway designation.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "The segment winds through the Ozark National Forest with steep hills and hairpin turns and is a traditional route for Razorback fans driving from central Arkansas to Fayetteville.",
+          "source": "https://en.wikipedia.org/wiki/Arkansas_Highway_23"
+        },
+        {
+          "fact": "Along the way are Pig Trail Falls and the Mulberry River, a National Wild and Scenic River with class I-II rapids.",
+          "source": "https://www.arkansas.com/plan-your-trip/plan/trip-ideas-itineraries/road-trip-the-scenic-byway-guide-to-northwest-arkansas"
+        }
+      ]
+    },
+    {
+      "name": "Sylamore Scenic Byway",
+      "designation": "Arkansas Scenic Byway; National Forest Scenic Byway",
+      "where": "Calico Rock south on Highways 5 and 14 and Forest Service Road 1110 to Blanchard Springs Caverns; Stone County",
+      "facts": [
+        {
+          "fact": "Runs from Calico Rock along Highways 5 and 14 and a Forest Service road to Blanchard Springs Caverns; listed by ARDOT with a Forest Service Scenic Byway designation.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "About 26.5 miles in the Sylamore Ranger District of the Ozark National Forest; follows the White River past Optimus and Allison, and begins at the Blanchard Springs Caverns visitor center near the Mirror Lake Historic District. Designated a National Forest Scenic Byway on February 8, 1989.",
+          "source": "https://en.wikipedia.org/wiki/Sylamore_Scenic_Byway"
+        }
+      ],
+      "review": "ARDOT text says Forest Service Road 110; Wikipedia gives Forest Highway 1110."
+    },
+    {
+      "name": "Talimena Scenic Drive National Scenic Byway",
+      "designation": "National Scenic Byway; Arkansas Scenic Byway; National Forest Scenic Byway",
+      "where": "Highway 88 from US 71 in Mena west to the Oklahoma line (18 miles in Arkansas), continuing as Oklahoma SH 1 to Talihina",
+      "facts": [
+        {
+          "fact": "Designated a state scenic byway in 1998 and a National Scenic Byway in 2005; Highway 88 from Highway 71 in Mena to the Oklahoma line, 18 miles.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "The 54-mile drive between Mena and Talihina follows the spine of Rich Mountain and Winding Stair Mountain, passing Queen Wilhelmina State Park.",
+          "source": "https://www.fs.usda.gov/r08/ouachita/recreation/talimena-national-scenic-byway"
+        },
+        {
+          "fact": "Rich Mountain, 2,681 feet, is the second-highest peak in Arkansas; many of the stunted ridge-top forests were never logged; the road has 22 vista pull-outs and opened in 1969.",
+          "source": "https://en.wikipedia.org/wiki/Talimena_Scenic_Drive"
+        }
+      ],
+      "review": "Catalog line covers the whole 51-mile drive in both states; ARDOT's designation is the 18 miles in Arkansas."
+    },
+    {
+      "name": "West-Northwest Scenic Byway",
+      "designation": "Arkansas Scenic Byway",
+      "where": "US 71 from Mena north via Waldron, Mansfield and Greenwood toward Fort Smith; Highway 10 from Ola west via Danville, Havana, Booneville and Greenwood to the Oklahoma line; parts of Highways 23 and 96; Polk, Scott, Sebastian, Logan, Yell counties",
+      "facts": [
+        {
+          "fact": "Designated in 2005; 261 miles on Highway 71 from Mena to I-540, Highway 10 from Ola to the Oklahoma line, and Highways 23 and 96.",
+          "source": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+        },
+        {
+          "fact": "North of Mena, US 71 runs through the Ouachita National Forest to Waldron, then through Mansfield and Greenwood to I-540 at Fort Smith.",
+          "source": "https://en.wikipedia.org/wiki/U.S._Route_71_in_Arkansas"
+        },
+        {
+          "fact": "Highway 10 runs from the Oklahoma line through Greenwood, past Fort Chaffee, through Booneville and Magazine, then across mountainous country past Havana and Danville to Ola.",
+          "source": "https://en.wikipedia.org/wiki/Arkansas_Highway_10"
+        }
+      ],
+      "review": "ARDOT's own map link on the program page (/wp-content/uploads/2020/11/west_nw.pdf) is dead; the same map is at media.ark.org. The ARDOT GIS layer totals about 156 miles for this name (US 71 ~76, Hwy 10 ~71, Hwy 96 ~8, Hwy 23 ~2), well short of the stated 261."
+    },
+    {
+      "name": "St. Francis Scenic Byway",
+      "designation": "National Forest Scenic Byway",
+      "where": "Along the crest of Crowley's Ridge in the St. Francis National Forest between Marianna and Helena-West Helena, partly on gravel Forest Service Road 1900; Lee and Phillips counties",
+      "facts": [
+        {
+          "fact": "Runs over 21 miles along the crest of Crowley's Ridge between Marianna and Helena-West Helena, also signed as the Great River Road; passes 625-acre Bear Creek Lake and 420-acre Storm Creek Lake, with views of the Mississippi and St. Francis river valleys; about fourteen miles of Forest Service Road 1900 between the two lakes remain gravel.",
+          "source": "https://www.fs.usda.gov/r08/ozark-stfrancis/recreation/st-francis-scenic-byway"
+        }
+      ],
+      "review": "Not on ARDOT's list; overlaps the Great River Road and Crowley's Ridge Parkway in the St. Francis National Forest. ARDOT GIS carries it as Type 'National Forest Scenic Byway', Name 'St. Francis Scenic Byway'."
+    }
+  ],
+  "issues": [
+    "ARDOT's program page returns 403 to curl; the list was read via WebFetch (12 byways). Wikipedia says 10 or 11; ARDOT's 12 includes Camden Expedition (2021) and lists Pig Trail and Sylamore with a 'Forest Service Scenic Byway' designation.",
+    "West-Northwest map link on the ARDOT page (https://ardot.gov/wp-content/uploads/2020/11/west_nw.pdf) returns 404; https://media.ark.org/ardot/west_nw.pdf works. GIS mileage for West-Northwest (~156 mi) is far short of ARDOT's 261 mi.",
+    "Camden Expedition: ARDOT text says I-30 out and back, but the GIS line follows US 67 and old roads near the 1864 route. Decide which to draw.",
+    "Mount Magazine catalog line (24 mi) is only the forest segment; the state byway is Havana to Webb City (45 mi).",
+    "Ozark Highlands catalog line may not reach south to Clarksville/US 64.",
+    "ARDOT GIS mislabels Interstate 530 Scenic Byway as Type 'National Scenic Byway'; Talimena NFSB name is misspelled 'Scenic Dirve' in GIS.",
+    "The GIS layer also holds ~53 legislative 'State Scenic Highway' designations (Act 462 of 1975 and later, plus named ones such as Poteau Mountain, Sugarloaf Mountain and Hot Springs Bypass Extension scenic highways) and the 'Arkansas Rocks Mining And Mineral Trail'. These are a separate statutory system not on ARDOT's byway list and were not included as chapter members; a human may want a decision on whether to show them.",
+    "Each Arkansas byway has only an ARDOT PDF map, no page; member urls point to those PDFs except where USFS, tourism or MRPC pages exist. Crowley's Ridge Parkway has no working dedicated site that I could find."
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "authored": false,
+  "bywayId": "superior-national-forest-scenic-byway-13552",
+  "title": "Superior National Forest Scenic Byway",
+  "longitude": -91.7969,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -92.23702,
+        47.52982
+      ],
+      [
+        -92.23761,
+        47.51705
+      ],
+      [
+        -92.15537,
+        47.5174
+      ],
+      [
+        -92.14104,
+        47.51995
+      ],
+      [
+        -92.12821,
+        47.51851
+      ],
+      [
+        -92.09308,
+        47.49765
+      ],
+      [
+        -92.0687,
+        47.48764
+      ],
+      [
+        -92.04363,
+        47.48455
+      ],
+      [
+        -92.0318,
+        47.47268
+      ],
+      [
+        -92.02809,
+        47.46394
+      ],
+      [
+        -92.02865,
+        47.45766
+      ],
+      [
+        -92.02218,
+        47.44288
+      ],
+      [
+        -92.02336,
+        47.43875
+      ],
+      [
+        -92.01717,
+        47.42692
+      ],
+      [
+        -92.02613,
+        47.40785
+      ],
+      [
+        -92.02387,
+        47.40282
+      ],
+      [
+        -92.0115,
+        47.39145
+      ],
+      [
+        -92.01591,
+        47.37349
+      ],
+      [
+        -92.01444,
+        47.37215
+      ],
+      [
+        -91.93865,
+        47.37239
+      ],
+      [
+        -91.92924,
+        47.36673
+      ],
+      [
+        -91.91928,
+        47.36699
+      ],
+      [
+        -91.897,
+        47.38479
+      ],
+      [
+        -91.80416,
+        47.38727
+      ],
+      [
+        -91.79164,
+        47.40108
+      ],
+      [
+        -91.71883,
+        47.39947
+      ],
+      [
+        -91.69794,
+        47.39603
+      ],
+      [
+        -91.66436,
+        47.38626
+      ],
+      [
+        -91.65368,
+        47.39122
+      ],
+      [
+        -91.63905,
+        47.39275
+      ],
+      [
+        -91.62224,
+        47.37714
+      ],
+      [
+        -91.59772,
+        47.37592
+      ],
+      [
+        -91.57947,
+        47.37111
+      ],
+      [
+        -91.56748,
+        47.37338
+      ],
+      [
+        -91.55555,
+        47.37058
+      ],
+      [
+        -91.54791,
+        47.37329
+      ],
+      [
+        -91.52189,
+        47.37127
+      ],
+      [
+        -91.50659,
+        47.36106
+      ],
+      [
+        -91.49517,
+        47.3602
+      ],
+      [
+        -91.47212,
+        47.35114
+      ],
+      [
+        -91.46328,
+        47.34147
+      ],
+      [
+        -91.44818,
+        47.33234
+      ],
+      [
+        -91.43165,
+        47.33174
+      ],
+      [
+        -91.41042,
+        47.32144
+      ],
+      [
+        -91.3845,
+        47.31879
+      ],
+      [
+        -91.3749,
+        47.31936
+      ],
+      [
+        -91.36214,
+        47.32415
+      ],
+      [
+        -91.32857,
+        47.32407
+      ],
+      [
+        -91.32528,
+        47.32114
+      ],
+      [
+        -91.32522,
+        47.30971
+      ],
+      [
+        -91.329,
+        47.30354
+      ],
+      [
+        -91.3226,
+        47.29536
+      ],
+      [
+        -91.30916,
+        47.29548
+      ],
+      [
+        -91.28198,
+        47.28864
+      ],
+      [
+        -91.26694,
+        47.29502
+      ],
+      [
+        -91.25742,
+        47.29443
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Silver Bay",
+      "model": "town-blocks",
+      "at": 0.9868679999179575,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Aurora",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Hoyt Lakes",
+      "at": 0.09129720853858785,
+      "landmark": ""
+    },
+    {
+      "name": "Fairbanks",
+      "at": 0.386863711001642,
+      "landmark": ""
+    },
+    {
+      "name": "Bassett",
+      "at": 0.4715927750410509,
+      "landmark": ""
+    },
+    {
+      "name": "Silver Bay",
+      "at": 0.9870279146141215,
+      "landmark": "Silver Bay"
+    }
+  ],
+  "sources": [
+    "content/stories/superior-national-forest-scenic-byway-13552.json",
+    "public/data/strips/superior-national-forest-scenic-byway-13552.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

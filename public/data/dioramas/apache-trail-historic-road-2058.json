@@ -1,0 +1,430 @@
+{
+  "authored": false,
+  "bywayId": "apache-trail-historic-road-2058",
+  "title": "Apache Trail Historic Road",
+  "longitude": -111.3358,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -111.55012,
+        33.41477
+      ],
+      [
+        -111.51049,
+        33.44452
+      ],
+      [
+        -111.4923,
+        33.45412
+      ],
+      [
+        -111.4788,
+        33.46767
+      ],
+      [
+        -111.46609,
+        33.49491
+      ],
+      [
+        -111.45605,
+        33.50859
+      ],
+      [
+        -111.45815,
+        33.51815
+      ],
+      [
+        -111.4502,
+        33.5212
+      ],
+      [
+        -111.45405,
+        33.52486
+      ],
+      [
+        -111.4549,
+        33.53502
+      ],
+      [
+        -111.449,
+        33.54502
+      ],
+      [
+        -111.44432,
+        33.54341
+      ],
+      [
+        -111.44367,
+        33.53896
+      ],
+      [
+        -111.43433,
+        33.53818
+      ],
+      [
+        -111.42726,
+        33.53277
+      ],
+      [
+        -111.4208,
+        33.53478
+      ],
+      [
+        -111.41206,
+        33.52929
+      ],
+      [
+        -111.40405,
+        33.52967
+      ],
+      [
+        -111.392,
+        33.52569
+      ],
+      [
+        -111.38053,
+        33.5312
+      ],
+      [
+        -111.37743,
+        33.53637
+      ],
+      [
+        -111.36548,
+        33.53234
+      ],
+      [
+        -111.34964,
+        33.534
+      ],
+      [
+        -111.34297,
+        33.5438
+      ],
+      [
+        -111.32782,
+        33.54187
+      ],
+      [
+        -111.3182,
+        33.52581
+      ],
+      [
+        -111.3094,
+        33.53758
+      ],
+      [
+        -111.30726,
+        33.52471
+      ],
+      [
+        -111.30477,
+        33.53301
+      ],
+      [
+        -111.3007,
+        33.53608
+      ],
+      [
+        -111.27906,
+        33.53742
+      ],
+      [
+        -111.26086,
+        33.54163
+      ],
+      [
+        -111.24857,
+        33.5576
+      ],
+      [
+        -111.23378,
+        33.56851
+      ],
+      [
+        -111.22771,
+        33.57937
+      ],
+      [
+        -111.21908,
+        33.58412
+      ],
+      [
+        -111.21109,
+        33.58243
+      ],
+      [
+        -111.21042,
+        33.59087
+      ],
+      [
+        -111.20479,
+        33.59823
+      ],
+      [
+        -111.20313,
+        33.59637
+      ],
+      [
+        -111.20416,
+        33.60171
+      ],
+      [
+        -111.19759,
+        33.60625
+      ],
+      [
+        -111.19979,
+        33.61055
+      ],
+      [
+        -111.1964,
+        33.61129
+      ],
+      [
+        -111.19525,
+        33.62665
+      ],
+      [
+        -111.19751,
+        33.63952
+      ],
+      [
+        -111.1944,
+        33.64548
+      ],
+      [
+        -111.18566,
+        33.65317
+      ],
+      [
+        -111.18194,
+        33.65289
+      ],
+      [
+        -111.18339,
+        33.65543
+      ],
+      [
+        -111.17999,
+        33.65853
+      ],
+      [
+        -111.17118,
+        33.66092
+      ],
+      [
+        -111.16834,
+        33.66732
+      ],
+      [
+        -111.15927,
+        33.66798
+      ],
+      [
+        -111.1619,
+        33.66951
+      ],
+      [
+        -111.15296,
+        33.67262
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Canyon Lake",
+      "model": "alpine-lake",
+      "at": 0.29468336653893673,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Tortilla Flat",
+      "model": "town-blocks",
+      "at": 0.3864466201320586,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Theodore Roosevelt Dam",
+      "model": "alpine-lake",
+      "at": 0.9882591355543674,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Apache Junction",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Youngberg",
+      "at": 0.1091116173120729,
+      "landmark": ""
+    },
+    {
+      "name": "Tortilla Flat",
+      "at": 0.38724373576309795,
+      "landmark": "Tortilla Flat"
+    },
+    {
+      "name": "Roosevelt",
+      "at": 0.9995444191343964,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/apache-trail-historic-road-2058.json",
+    "public/data/strips/apache-trail-historic-road-2058.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

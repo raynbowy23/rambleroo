@@ -1,0 +1,332 @@
+{
+  "authored": false,
+  "bywayId": "haines-highway-valley-of-the-eagles-12395",
+  "title": "Haines Highway - Valley of the Eagles",
+  "longitude": -135.8197,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -135.46225,
+        59.2818
+      ],
+      [
+        -135.44858,
+        59.27818
+      ],
+      [
+        -135.44217,
+        59.27366
+      ],
+      [
+        -135.44537,
+        59.2698
+      ],
+      [
+        -135.44591,
+        59.26258
+      ],
+      [
+        -135.42853,
+        59.24879
+      ],
+      [
+        -135.42883,
+        59.24381
+      ],
+      [
+        -135.43878,
+        59.23943
+      ],
+      [
+        -135.44243,
+        59.2347
+      ],
+      [
+        -135.466,
+        59.23544
+      ],
+      [
+        -135.48766,
+        59.24297
+      ],
+      [
+        -135.51106,
+        59.24333
+      ],
+      [
+        -135.52966,
+        59.24899
+      ],
+      [
+        -135.5404,
+        59.24861
+      ],
+      [
+        -135.54424,
+        59.25436
+      ],
+      [
+        -135.5525,
+        59.25743
+      ],
+      [
+        -135.59366,
+        59.26584
+      ],
+      [
+        -135.63367,
+        59.26623
+      ],
+      [
+        -135.65645,
+        59.27318
+      ],
+      [
+        -135.68088,
+        59.28284
+      ],
+      [
+        -135.71051,
+        59.30224
+      ],
+      [
+        -135.72179,
+        59.31324
+      ],
+      [
+        -135.7309,
+        59.31497
+      ],
+      [
+        -135.74806,
+        59.33361
+      ],
+      [
+        -135.774,
+        59.35107
+      ],
+      [
+        -135.78511,
+        59.35527
+      ],
+      [
+        -135.7897,
+        59.3606
+      ],
+      [
+        -135.79748,
+        59.36222
+      ],
+      [
+        -135.8007,
+        59.36621
+      ],
+      [
+        -135.81367,
+        59.36553
+      ],
+      [
+        -135.8289,
+        59.36908
+      ],
+      [
+        -135.83565,
+        59.37425
+      ],
+      [
+        -135.83887,
+        59.38041
+      ],
+      [
+        -135.8538,
+        59.38864
+      ],
+      [
+        -135.86356,
+        59.39159
+      ],
+      [
+        -135.8781,
+        59.39994
+      ],
+      [
+        -135.89944,
+        59.40268
+      ],
+      [
+        -135.92616,
+        59.41578
+      ],
+      [
+        -135.95622,
+        59.41019
+      ],
+      [
+        -135.97002,
+        59.40992
+      ],
+      [
+        -135.99988,
+        59.41357
+      ],
+      [
+        -136.00977,
+        59.4178
+      ],
+      [
+        -136.01385,
+        59.42226
+      ],
+      [
+        -136.02336,
+        59.4243
+      ],
+      [
+        -136.07837,
+        59.42007
+      ],
+      [
+        -136.10097,
+        59.42237
+      ],
+      [
+        -136.12186,
+        59.42823
+      ],
+      [
+        -136.15562,
+        59.43115
+      ],
+      [
+        -136.17793,
+        59.43115
+      ],
+      [
+        -136.20097,
+        59.43412
+      ],
+      [
+        -136.22339,
+        59.43257
+      ],
+      [
+        -136.28054,
+        59.43926
+      ],
+      [
+        -136.3139,
+        59.43578
+      ],
+      [
+        -136.32233,
+        59.43959
+      ],
+      [
+        -136.34244,
+        59.44164
+      ],
+      [
+        -136.36202,
+        59.4505
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Klukwan",
+      "model": "town-blocks",
+      "at": 0.5860338672146487,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Porcupine",
+      "model": "false-front-town",
+      "at": 0.8843800489406405,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Haines",
+      "at": 0.09703196347031962,
+      "landmark": ""
+    },
+    {
+      "name": "Klukwan",
+      "at": 0.5858447488584475,
+      "landmark": "Klukwan"
+    },
+    {
+      "name": "Covenant Life",
+      "at": 0.7557077625570776,
+      "landmark": ""
+    },
+    {
+      "name": "Porcupine",
+      "at": 0.8844748858447489,
+      "landmark": "Porcupine"
+    }
+  ],
+  "sources": [
+    "content/stories/haines-highway-valley-of-the-eagles-12395.json",
+    "public/data/strips/haines-highway-valley-of-the-eagles-12395.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

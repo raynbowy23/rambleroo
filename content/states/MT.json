@@ -1,0 +1,133 @@
+{
+  "code": "MT",
+  "name": "Montana",
+  "tagline": "From Beartooth Pass and Lake Koocanusa to Garnet's ghost town and the Missouri Breaks.",
+  "intro": "Montana's byways cross the Beartooth and Little Belt ranges, follow the Clark Fork and Lake Koocanusa through the northwestern forests, and run back roads into the Missouri Breaks and the eastern badlands. This chapter follows the Montana Scenic-Historic Byways Program of the Montana Department of Transportation, whose Transportation Commission has designated only two roads, both in May 2011, because the program's rules admit only roads bordered entirely by public or tribal land. Every other road here carries a Forest Service, BLM or national designation and is listed under the agency that made it.",
+  "programs": [
+    {
+      "label": "Montana Scenic-Historic Byways",
+      "issuer": "Montana Department of Transportation",
+      "kind": "state",
+      "members": [
+        {
+          "name": "Giant Springs Road",
+          "bywayId": "giant-springs-road-993001",
+          "url": "https://fwp.mt.gov/stateparks/giant-springs",
+          "blurb": "A two-mile road along the Missouri on the edge of Great Falls, past the Lewis and Clark Interpretive Center and Giant Springs State Park, where 54-degree spring water pours into the Roe River, once listed as the world's shortest.",
+          "note": "Route line from the state route layer (not in the 2022 national dataset)."
+        },
+        {
+          "name": "Lake Koocanusa",
+          "bywayId": "lake-koocanusa-scenic-byway-2135",
+          "url": "https://www.fs.usda.gov/r01/kootenai/recreation/lake-koocanusa-scenic-byway",
+          "blurb": "MT 37 climbs from the Kootenai River past Libby Dam and runs up the east shore of Lake Koocanusa, a reservoir in a narrow gorge between the Purcell and Salish mountains, where bighorn sheep stand on the rock ledges."
+        }
+      ]
+    },
+    {
+      "label": "America's Byways",
+      "issuer": "Federal Highway Administration",
+      "kind": "federal",
+      "members": [
+        {
+          "name": "Beartooth Highway",
+          "bywayId": "beartooth-highway-2281",
+          "url": "https://www.fs.usda.gov/r01/custergallatin/recreation/us-hwy-212-corridor-beartooth-highway",
+          "blurb": "US 212 switchbacks out of Red Lodge onto the Beartooth Plateau, crosses into Wyoming over 10,947-foot Beartooth Pass and drops back into Montana at Cooke City, on a road finished in 1936 where snow lingers into July."
+        }
+      ]
+    },
+    {
+      "label": "National Forest Scenic Byways",
+      "issuer": "USDA Forest Service",
+      "kind": "federal",
+      "members": [
+        {
+          "name": "Kings Hill Scenic Byway",
+          "bywayId": "kings-hill-scenic-byway-2055",
+          "url": "https://visitmt.com/listing/kings-hill-scenic-byway-11884",
+          "blurb": "US 89 crosses the Little Belt Mountains between White Sulphur Springs and Armington, through the old silver camp of Neihart and over 7,393-foot Kings Hill Pass, with Showdown ski area just south of the summit."
+        },
+        {
+          "name": "Pioneer Mountains Scenic Byway",
+          "bywayId": "pioneer-mountains-scenic-byway-2136",
+          "url": "https://visitmt.com/listing/pioneer-mountains-scenic-byway-11885",
+          "blurb": "A paved forest road runs the length of the Pioneer Mountains from Wise River, over a 7,800-foot divide past the ghost town of Coolidge and the old Elkhorn silver mine, to the hot pools at Elkhorn Hot Springs."
+        },
+        {
+          "name": "St. Regis-Paradise Scenic Byway",
+          "bywayId": "st-regis-paradise-scenic-byway-2137",
+          "url": "https://visitmt.com/listing/clark-fork-scenic-drive-11904",
+          "blurb": "MT 135 follows the Clark Fork for 21 miles through the Lolo National Forest between St. Regis and Paradise, with a rail line beside the water, crossing the river midway as open flats give way to steep canyon walls."
+        }
+      ]
+    },
+    {
+      "label": "BLM Back Country Byways",
+      "issuer": "Bureau of Land Management",
+      "kind": "federal",
+      "members": [
+        {
+          "name": "Big Sheep Creek Back Country Byway",
+          "bywayId": "big-sheep-creek-back-country-byway-2138",
+          "url": "https://www.blm.gov/visit/big-sheep-creek-back-country-byway",
+          "blurb": "A gravel road leaves I-15 at Dell and threads Big Sheep Canyon in the Tendoy Mountains, where trout show in clear pools below the road, before opening into the Medicine Lodge valley. There are no services anywhere along it."
+        },
+        {
+          "name": "Big Sky Back Country Byway",
+          "bywayId": "big-sky-back-country-byway-68956",
+          "url": "https://www.blm.gov/visit/big-sky-back-country-byway",
+          "blurb": "State highways run 105 miles from Terry on the Yellowstone to Wolf Point on the Missouri, following part of the old Regina-Yellowstone Trail past badlands and dry-land farms to the Lewis and Clark Bridge."
+        },
+        {
+          "name": "Garnet Back Country Byway",
+          "bywayId": "garnet-back-country-byway-2139",
+          "url": "https://www.blm.gov/visit/garnet-back-country-byway",
+          "blurb": "A 12-mile road climbs 2,000 feet from MT 200 into the Garnet Range to Garnet, an 1890s gold town whose 30 surviving buildings look much as they did in 1895. In winter it is a groomed snowmobile route."
+        },
+        {
+          "name": "Missouri Breaks Back Country Byway",
+          "bywayId": "missouri-breaks-back-country-byway-2140",
+          "url": "https://visitmt.com/listing/missouri-breaks-back-country-byway-891",
+          "blurb": "Back roads run out of Winifred onto the ridges above the Missouri, in the broken country Lewis and Clark called the deserts of America, following the Nez Perce trail and looking down on the Wild and Scenic river."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "MDT, Montana's Scenic-Historic Byways (program page; no list of routes)",
+      "url": "https://www.mdt.mt.gov/travinfo/scenic.aspx"
+    },
+    {
+      "label": "MDT, State Scenic-Historic Byways Program FAQ",
+      "url": "https://www.mdt.mt.gov/travinfo/docs/scenic/Scenic-Byway-FAQ.pdf"
+    },
+    {
+      "label": "Montana Transportation Commission, minutes of May 26, 2011 (designation of Giant Springs Road and Lake Koocanusa; Wayback copy)",
+      "url": "https://web.archive.org/web/20121228233713/http://mdt.mt.gov/pubinvolve/docs/trans_comm/commission/2011/may26_minutes.pdf"
+    },
+    {
+      "label": "Montana Transportation Commission, minutes of November 7, 2024 (advisory council history; the two 2011 designations are the only ones)",
+      "url": "https://www.mdt.mt.gov/other/webdata/external/dir/508archive/2024/nov7-minutes-archive-2026-04-16.pdf"
+    },
+    {
+      "label": "MDT, State Scenic-Historic Byway Advisory Council minutes, October 27, 2010 (Wayback copy)",
+      "url": "https://web.archive.org/web/20131229085824/http://mdt.mt.gov/travinfo/docs/scenic/oct-2010-minutes.pdf"
+    },
+    {
+      "label": "MDT ALTIS Route Events, Special Designation layer (federal byway designations on Montana routes)",
+      "url": "https://gis.mtmdt.us/server/rest/services/ALTIS/ALTIS_Route_Events/MapServer/11"
+    },
+    {
+      "label": "MDT ALTIS Route Events, Route Name layer",
+      "url": "https://gis.mtmdt.us/server/rest/services/ALTIS/ALTIS_Route_Events/MapServer/17"
+    }
+  ],
+  "bbox": [
+    -116.2,
+    44.2,
+    -103.8,
+    49.2
+  ]
+}

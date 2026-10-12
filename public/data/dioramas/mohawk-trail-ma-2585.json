@@ -1,0 +1,359 @@
+{
+  "authored": false,
+  "bywayId": "mohawk-trail-ma-2585",
+  "title": "Mohawk Trail - MA",
+  "longitude": -72.7775,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -73.27316,
+        42.72386
+      ],
+      [
+        -73.24062,
+        42.70416
+      ],
+      [
+        -73.23846,
+        42.69028
+      ],
+      [
+        -73.23092,
+        42.68682
+      ],
+      [
+        -73.22088,
+        42.70969
+      ],
+      [
+        -73.21091,
+        42.71401
+      ],
+      [
+        -73.19605,
+        42.71052
+      ],
+      [
+        -73.18419,
+        42.70184
+      ],
+      [
+        -73.16189,
+        42.69947
+      ],
+      [
+        -73.0977,
+        42.70248
+      ],
+      [
+        -73.08268,
+        42.6899
+      ],
+      [
+        -73.07511,
+        42.6929
+      ],
+      [
+        -73.06297,
+        42.70915
+      ],
+      [
+        -73.06528,
+        42.69679
+      ],
+      [
+        -73.02982,
+        42.69457
+      ],
+      [
+        -73.0206,
+        42.68766
+      ],
+      [
+        -73.00627,
+        42.65961
+      ],
+      [
+        -72.98908,
+        42.64027
+      ],
+      [
+        -72.97542,
+        42.63304
+      ],
+      [
+        -72.96692,
+        42.63294
+      ],
+      [
+        -72.96235,
+        42.64089
+      ],
+      [
+        -72.94854,
+        42.64217
+      ],
+      [
+        -72.93135,
+        42.63299
+      ],
+      [
+        -72.92005,
+        42.6426
+      ],
+      [
+        -72.88165,
+        42.62644
+      ],
+      [
+        -72.85889,
+        42.62719
+      ],
+      [
+        -72.83441,
+        42.61704
+      ],
+      [
+        -72.80007,
+        42.6178
+      ],
+      [
+        -72.78422,
+        42.62388
+      ],
+      [
+        -72.75428,
+        42.62177
+      ],
+      [
+        -72.73267,
+        42.61087
+      ],
+      [
+        -72.72706,
+        42.59453
+      ],
+      [
+        -72.71205,
+        42.58411
+      ],
+      [
+        -72.67165,
+        42.59713
+      ],
+      [
+        -72.67214,
+        42.60864
+      ],
+      [
+        -72.66623,
+        42.61262
+      ],
+      [
+        -72.64495,
+        42.60949
+      ],
+      [
+        -72.63031,
+        42.58854
+      ],
+      [
+        -72.62326,
+        42.58567
+      ],
+      [
+        -72.61319,
+        42.60581
+      ],
+      [
+        -72.5994,
+        42.6143
+      ],
+      [
+        -72.5784,
+        42.60846
+      ],
+      [
+        -72.5536,
+        42.6169
+      ],
+      [
+        -72.52848,
+        42.60611
+      ],
+      [
+        -72.50514,
+        42.60762
+      ],
+      [
+        -72.49128,
+        42.59412
+      ],
+      [
+        -72.48714,
+        42.58005
+      ],
+      [
+        -72.46431,
+        42.57832
+      ],
+      [
+        -72.42851,
+        42.60698
+      ],
+      [
+        -72.41641,
+        42.60807
+      ],
+      [
+        -72.40046,
+        42.59965
+      ],
+      [
+        -72.344,
+        42.59613
+      ],
+      [
+        -72.32896,
+        42.58837
+      ],
+      [
+        -72.32209,
+        42.57207
+      ],
+      [
+        -72.30008,
+        42.55801
+      ],
+      [
+        -72.27454,
+        42.56244
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "The Hairpin Turn",
+      "model": "switchback",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Bridge of Flowers",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.5457282161364723,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "French King Bridge",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.7886261335563804,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Williamstown",
+      "at": 0.08758815232722143,
+      "landmark": ""
+    },
+    {
+      "name": "North Adams",
+      "at": 0.15952045133991538,
+      "landmark": ""
+    },
+    {
+      "name": "Florida",
+      "at": 0.2866008462623413,
+      "landmark": ""
+    },
+    {
+      "name": "Charlemont",
+      "at": 0.42863187588152324,
+      "landmark": ""
+    },
+    {
+      "name": "Shelburne Falls",
+      "at": 0.5445698166431593,
+      "landmark": ""
+    },
+    {
+      "name": "Greenfield",
+      "at": 0.672496473906911,
+      "landmark": ""
+    },
+    {
+      "name": "Turners Falls",
+      "at": 0.7459802538787024,
+      "landmark": ""
+    },
+    {
+      "name": "Orange",
+      "at": 0.9465444287729196,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/mohawk-trail-ma-2585.json",
+    "public/data/strips/mohawk-trail-ma-2585.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

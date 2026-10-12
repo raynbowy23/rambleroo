@@ -1,22 +1,22 @@
 {
   "id": "great-river-road-2279",
-  "tagline": "Follow the bluffs, the river towns, and the long autumn views.",
+  "tagline": "River towns and bluff-side roads trace Wisconsin’s share of the Mississippi.",
   "motifs": [
     "river-bluffs",
     "lake-wide",
     "steeple-town"
   ],
   "intro": [
-    "The Great River Road follows the Mississippi from Minnesota to the Gulf through ten states. This story covers its Wisconsin section, which runs along the east bank on Highway 35 from Prescott in the north to the Illinois line.",
-    "On the Wisconsin side the road sits between steep limestone bluffs and the river's backwaters, passing through a chain of old river towns. Lake Pepin, a natural widening of the Mississippi, is the broadest water along the way."
+    "Wisconsin’s Great River Road follows the Mississippi through river towns and rural stretches, with WIS 35 carrying most of the route. At Fountain City, the river presses against the bluffs so closely that parts of town are only two houses wide, one on each side of the highway. WisDOT describes a 250-mile route through 33 river towns and highlights its scenic overlook pullouts. The Wisconsin section is designated an All-American Road. This Wisconsin drive is one part of the ten-state corridor following the Mississippi from northern Minnesota toward the Gulf of Mexico.",
+    "The national project began with a planning commission in 1938, urged into being by Interior Secretary Harold Ickes. A 1951 federal study found a completely new parkway too expensive and recommended linking existing riverside roads instead. That decision left the states developing a coordinated scenic route, rather than a parkway owned by the National Park Service.",
+    "For this Wisconsin journey, start at Prescott, where the St. Croix joins the Mississippi, and follow the river south. Alma and Fountain City lie on WIS 35; the route then passes through downtown La Crosse on US 61 and US 53. Prairie du Chien stands near the Wisconsin River’s confluence. Farther south, the byway uses roads through Bagley and Cassville before returning to WIS 35 toward the Illinois line."
   ],
-  "season": "Late September into October for fall colour. Summer for river towns in full swing.",
   "moments": [
     {
       "title": "Lake Pepin",
       "kind": "roadside",
       "scene": "river",
-      "text": "The river spreads into a lake several miles wide. Pull-offs near Maiden Rock and Stockholm look straight across it.",
+      "text": "Pierre Pepin and Jean Pepin du Cardonnets explored and traded in the Upper Mississippi Valley. Their surname became attached to the lake, then to the village of Pepin and its county.",
       "at": [
         -92.2,
         44.47
@@ -30,7 +30,7 @@
       "title": "Alma",
       "kind": "town",
       "scene": "town",
-      "text": "A narrow town squeezed between the bluff and the river, with a lock and dam at its edge.",
+      "text": "At Alma, Lock and Dam No. 4 is part of the Mississippi riverfront. The Great Alma Fishing Float sits beside it and attracts anglers during the annual walleye run. The town itself sits on State Route 35 and serves as Buffalo County’s seat. Its name commemorates the 1854 Battle of the Alma in the Crimean War.",
       "at": [
         -91.914,
         44.32
@@ -44,7 +44,7 @@
       "title": "Perrot State Park",
       "kind": "short walk",
       "scene": "river",
-      "text": "Trails near Trempealeau climb the bluffs above the confluence of the Trempealeau and Mississippi rivers.",
+      "text": "Within Perrot State Park, water surrounds the cone of Trempealeau Mountain. The mountain and Brady’s Bluff Prairie are the two state natural areas protected by the park. The park occupies 1,270 acres in Wisconsin’s Driftless Area where the Trempealeau and Mississippi rivers meet. Its views take in steep limestone bluffs and the valleys of the rivers. Resident and migrating birds share this landscape; the park has observation platforms for watching them and other wildlife. Hiking trails provide another way to explore the park. On its northern boundary, the park adjoins the Trempealeau National Wildlife Refuge.",
       "at": [
         -91.47,
         44.017
@@ -57,7 +57,7 @@
       "title": "Prairie du Chien",
       "kind": "town",
       "scene": "town",
-      "text": "One of the oldest European settlements on the upper Mississippi, near where the Wisconsin River meets it.",
+      "text": "A river island became a city park after a flood forced its residents to move. St. Feriole Island, just west of downtown Prairie du Chien, had been the city’s fourth ward. The 1965 flood led to mandatory relocation to higher ground, followed by removal of most buildings without special historical significance. The island now serves as a 240-acre city park with a riverfront and a bicycle path. Prairie du Chien occupies a triangular plain between the Mississippi, the Wisconsin River and tall bluffs. Backwaters cross the plain’s western edge, forming small islands; most are too small and flood-prone to have supported settlement.",
       "at": [
         -91.141,
         43.051
@@ -67,15 +67,42 @@
       ]
     }
   ],
-  "practical": [
-    "WisDOT describes the Wisconsin section as 250 miles along WIS 35. The mapped segments in the national dataset total a little less.",
-    "Distances shown here are totals of the mapped road segments in the national dataset, not a suggested itinerary.",
-    "Directions go to the start of the Wisconsin section. Rambleroo does not route along the byway itself."
-  ],
   "sources": [
     {
-      "label": "WisDOT, Explore Wisconsin's Scenic Byways",
+      "label": "Wisconsin Department of Transportation, Explore Wisconsin's Scenic Byways",
       "url": "https://wisconsindot.gov/Pages/travel/road/scenic-ways/byways.aspx"
+    },
+    {
+      "label": "Wikipedia, Fountain City, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Fountain_City%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Great River Road",
+      "url": "https://en.wikipedia.org/wiki/Great_River_Road"
+    },
+    {
+      "label": "Wikipedia, Prescott, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Prescott%2C_Wisconsin"
+    },
+    {
+      "label": "Federal Highway Administration, Great River Road",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2279"
+    },
+    {
+      "label": "Wikipedia, Alma, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Alma%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Prairie du Chien, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Prairie_du_Chien%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Pepin, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Pepin%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Perrot State Park",
+      "url": "https://en.wikipedia.org/wiki/Perrot_State_Park"
     }
   ],
   "reviewed": false

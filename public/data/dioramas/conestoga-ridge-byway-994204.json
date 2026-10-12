@@ -1,0 +1,425 @@
+{
+  "authored": false,
+  "bywayId": "conestoga-ridge-byway-994204",
+  "title": "Conestoga Ridge Byway",
+  "longitude": -75.9586,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -75.9759,
+        40.13174
+      ],
+      [
+        -75.97895,
+        40.13159
+      ],
+      [
+        -75.97943,
+        40.13153
+      ],
+      [
+        -75.98193,
+        40.13099
+      ],
+      [
+        -75.9856,
+        40.13009
+      ],
+      [
+        -75.98624,
+        40.13001
+      ],
+      [
+        -75.98866,
+        40.12989
+      ],
+      [
+        -75.99023,
+        40.1297
+      ],
+      [
+        -75.99247,
+        40.12934
+      ],
+      [
+        -75.99524,
+        40.12878
+      ],
+      [
+        -75.99592,
+        40.12862
+      ],
+      [
+        -76.01304,
+        40.12359
+      ],
+      [
+        -76.01428,
+        40.12346
+      ],
+      [
+        -76.0237,
+        40.12276
+      ],
+      [
+        -76.02442,
+        40.12267
+      ],
+      [
+        -76.04771,
+        40.11845
+      ],
+      [
+        -76.04708,
+        40.11894
+      ],
+      [
+        -76.04669,
+        40.11913
+      ],
+      [
+        -76.04312,
+        40.1206
+      ],
+      [
+        -76.04201,
+        40.12092
+      ],
+      [
+        -76.04023,
+        40.12114
+      ],
+      [
+        -76.03879,
+        40.12124
+      ],
+      [
+        -76.03718,
+        40.12129
+      ],
+      [
+        -76.03455,
+        40.12124
+      ],
+      [
+        -76.03054,
+        40.12156
+      ],
+      [
+        -76.02905,
+        40.12182
+      ],
+      [
+        -76.01303,
+        40.12359
+      ],
+      [
+        -76.00916,
+        40.12444
+      ],
+      [
+        -76.00556,
+        40.12501
+      ],
+      [
+        -76.00512,
+        40.12512
+      ],
+      [
+        -75.99853,
+        40.12776
+      ],
+      [
+        -75.99723,
+        40.12822
+      ],
+      [
+        -75.99592,
+        40.12862
+      ],
+      [
+        -75.9759,
+        40.13174
+      ],
+      [
+        -75.97262,
+        40.13179
+      ],
+      [
+        -75.97147,
+        40.1319
+      ],
+      [
+        -75.96921,
+        40.13231
+      ],
+      [
+        -75.96612,
+        40.133
+      ],
+      [
+        -75.96348,
+        40.13345
+      ],
+      [
+        -75.96295,
+        40.13353
+      ],
+      [
+        -75.96011,
+        40.13369
+      ],
+      [
+        -75.9586,
+        40.13394
+      ],
+      [
+        -75.95758,
+        40.13422
+      ],
+      [
+        -75.957,
+        40.13447
+      ],
+      [
+        -75.95525,
+        40.13523
+      ],
+      [
+        -75.94973,
+        40.13793
+      ],
+      [
+        -75.94415,
+        40.14025
+      ],
+      [
+        -75.94326,
+        40.14057
+      ],
+      [
+        -75.93396,
+        40.14231
+      ],
+      [
+        -75.92899,
+        40.14337
+      ],
+      [
+        -75.92806,
+        40.14361
+      ],
+      [
+        -75.92383,
+        40.145
+      ],
+      [
+        -75.91482,
+        40.14715
+      ],
+      [
+        -75.90894,
+        40.14905
+      ],
+      [
+        -75.90308,
+        40.15125
+      ],
+      [
+        -75.90136,
+        40.15194
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Blue Ball",
+      "model": "town-blocks",
+      "at": 0.3220652895159904,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Churchtown",
+      "model": "town-blocks",
+      "at": 0.7007629290842686,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bangor Episcopal Church",
+      "model": "steeple-town",
+      "at": 0.71424651656013,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bangor Episcopal Church",
+      "model": "town-blocks",
+      "at": 0.71424651656013,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Blue Ball",
+      "at": 0.31983471074380165,
+      "landmark": "Blue Ball"
+    },
+    {
+      "name": "Churchtown",
+      "at": 0.7000000000000001,
+      "landmark": "Churchtown"
+    },
+    {
+      "name": "Morgantown",
+      "at": 0.9991735537190083,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/conestoga-ridge-byway-994204.json",
+    "public/data/strips/conestoga-ridge-byway-994204.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

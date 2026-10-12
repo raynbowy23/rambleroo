@@ -4,13 +4,17 @@
 //  2. data/raw/supplement-classics.geojson: famous drives that are not designated byways (content/classics.json), routed
 //     through Wikipedia/Wikidata waypoints with OSRM on OpenStreetMap data. Each route must use the roads the drive is known
 //     by (checked against OSRM step names), or the build fails rather than publish a shortcut.
-// Usage: npx tsx scripts/ingest/build-supplements.ts
+// Usage: npx tsx scripts/ingest/build-supplements.ts [STATE ... | classics]   (no arguments = every state and the classic drives;
+// arguments rebuild only those supplement files, e.g. when one agency's server is down)
 import { stateSources, supplementFile } from '../states/sources.ts'
 import { readFile, writeFile } from 'node:fs/promises'
 import type { Feature, LineString, MultiLineString, Position } from 'geojson'
 
 const ROOT = new URL('../../', import.meta.url)
-const UA = { 'User-Agent': 'Rambleroo/0.1 (scenic byway catalog; personal project)' }
+const UA = {
+  'User-Agent':
+    'Rambleroo/0.1 (scenic byway catalog; personal project; https://rambleroo.app; https://github.com/raynbowy23/rambleroo/issues)',
+}
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 async function getJson(url: string) {
@@ -86,7 +90,10 @@ const feature = (
 // State agency lines retain source order and the existing Wisconsin feature IDs and property schema.
 let fid = 9_000_000
 let stateFeatureCount = 0
+const only = process.argv.slice(2)
+const wanted = (key: string) => !only.length || only.includes(key)
 for (const source of stateSources) {
+  if (!wanted(source.state)) continue
   const features: Feature<LineString, Props>[] = []
   for (const b of source.byways) {
     let lines: Position[][]
@@ -102,14 +109,26 @@ for (const source of stateSources) {
       )
     } else {
       const q = new URLSearchParams({
-        where: `${source.nameField}='${(b.match ?? b.name).replaceAll("'", "''")}'${source.where ? ` AND ${source.where}` : ''}`,
+        where: `${b.where ?? `${source.nameField}='${(b.match ?? b.name).replaceAll("'", "''")}'`}${source.where ? ` AND ${source.where}` : ''}`,
         outFields: '*',
         outSR: '4326',
         f: 'geojson',
       })
-      const d = await getJson(`${source.layer}/query?${q}`)
-      lines = d.features.flatMap((f: Feature<LineString | MultiLineString>) =>
-        f.geometry.type === 'LineString' ? [f.geometry.coordinates] : f.geometry.coordinates,
+      let d = await getJson(`${b.layer ?? source.layer}/query?${q}`)
+      if (d.error) {
+        // Older ArcGIS servers can't answer f=geojson; ask for Esri JSON and read its paths instead.
+        q.set('f', 'json')
+        d = await getJson(`${b.layer ?? source.layer}/query?${q}`)
+        if (d.error) throw new Error(`${b.name}: ${b.layer ?? source.layer} query failed: ${JSON.stringify(d.error)}`)
+        d = {
+          features: d.features.map((f: { geometry?: { paths: Position[][] } }) => ({
+            geometry: f.geometry?.paths ? { type: 'MultiLineString', coordinates: f.geometry.paths } : null,
+          })),
+        }
+      }
+      // Some agency layers hold rows with empty geometry; skip them.
+      lines = d.features.flatMap((f: Feature<LineString | MultiLineString> | { geometry: null }) =>
+        !f.geometry ? [] : f.geometry.type === 'LineString' ? [f.geometry.coordinates] : f.geometry.coordinates,
       )
     }
     if (b.clip) lines = [clipAround(lines, b.clip.center, b.clip.miles)]
@@ -170,7 +189,7 @@ async function coordinate(title: string): Promise<Position> {
 const classicFeatures: Feature<LineString, Props>[] = []
 // Classic drives get their own feature-ID block, so adding a state never renumbers them.
 fid = 9_500_000
-for (const c of classics) {
+for (const c of wanted('classics') ? classics : []) {
   if (c.osm) {
     const [south, west, north, east] = c.osm.bbox
     const filter = c.osm.ref ? `["ref"="${c.osm.ref}"]` : `["name"="${c.osm.name}"]`
@@ -206,13 +225,14 @@ for (const c of classics) {
     throw new Error(`${c.name}: only ${Math.round(share * 100)}% of the route uses ${c.mustUse}; refusing to publish a shortcut`)
   classicFeatures.push(feature(fid++, c.id, c.name, c.state, 'Classic drive (not a designated scenic byway)', false, line))
 }
-await writeFile(
-  new URL('data/raw/supplement-classics.geojson', ROOT),
-  JSON.stringify({
-    type: 'FeatureCollection',
-    source: 'OSRM routes on OpenStreetMap data (© OpenStreetMap contributors, ODbL)',
-    retrievedAt: new Date().toISOString(),
-    features: classicFeatures,
-  }),
-)
+if (wanted('classics'))
+  await writeFile(
+    new URL('data/raw/supplement-classics.geojson', ROOT),
+    JSON.stringify({
+      type: 'FeatureCollection',
+      source: 'OSRM routes on OpenStreetMap data (© OpenStreetMap contributors, ODbL)',
+      retrievedAt: new Date().toISOString(),
+      features: classicFeatures,
+    }),
+  )
 console.log(`wrote ${stateFeatureCount} state agency and ${classicFeatures.length} classic features`)

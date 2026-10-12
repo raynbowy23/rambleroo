@@ -1,0 +1,29 @@
+.rr-diorama {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.rr-diorama-motion .rr-diorama-cloud {
+  animation: rr-diorama-drift 12s ease-in-out infinite alternate;
+}
+.rr-diorama-motion .rr-diorama-rain {
+  animation: rr-diorama-rainfall 1.8s linear infinite;
+}
+.rr-diorama-motion .rr-diorama-snow {
+  animation: rr-diorama-drift 8s ease-in-out infinite alternate;
+}
+@keyframes rr-diorama-drift {
+  to {
+    transform: translate(7px, 2px);
+  }
+}
+@keyframes rr-diorama-rainfall {
+  to {
+    transform: translate(-3px, 8px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rr-diorama * {
+    animation: none !important;
+  }
+}

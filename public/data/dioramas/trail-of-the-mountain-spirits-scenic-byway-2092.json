@@ -1,0 +1,431 @@
+{
+  "authored": false,
+  "bywayId": "trail-of-the-mountain-spirits-scenic-byway-2092",
+  "title": "Trail of the Mountain Spirits Scenic Byway",
+  "longitude": -107.952,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -108.21588,
+        33.04107
+      ],
+      [
+        -108.23263,
+        33.03452
+      ],
+      [
+        -108.22136,
+        33.00337
+      ],
+      [
+        -108.20497,
+        32.97865
+      ],
+      [
+        -108.2148,
+        32.97336
+      ],
+      [
+        -108.21882,
+        32.97677
+      ],
+      [
+        -108.22046,
+        32.96864
+      ],
+      [
+        -108.1959,
+        32.94099
+      ],
+      [
+        -108.24403,
+        32.89789
+      ],
+      [
+        -108.22705,
+        32.88701
+      ],
+      [
+        -108.21668,
+        32.869
+      ],
+      [
+        -108.22786,
+        32.85171
+      ],
+      [
+        -108.23,
+        32.83711
+      ],
+      [
+        -108.24353,
+        32.82453
+      ],
+      [
+        -108.24369,
+        32.81453
+      ],
+      [
+        -108.2515,
+        32.80771
+      ],
+      [
+        -108.25735,
+        32.78854
+      ],
+      [
+        -108.27407,
+        32.77742
+      ],
+      [
+        -108.25067,
+        32.78764
+      ],
+      [
+        -108.14488,
+        32.77985
+      ],
+      [
+        -108.10896,
+        32.81323
+      ],
+      [
+        -108.06023,
+        32.80621
+      ],
+      [
+        -108.0032,
+        32.81307
+      ],
+      [
+        -107.96051,
+        32.80012
+      ],
+      [
+        -107.93235,
+        32.79882
+      ],
+      [
+        -107.93663,
+        32.81796
+      ],
+      [
+        -107.97447,
+        32.84786
+      ],
+      [
+        -107.98484,
+        32.86189
+      ],
+      [
+        -107.98633,
+        32.87487
+      ],
+      [
+        -108.01928,
+        32.95087
+      ],
+      [
+        -108.03494,
+        32.95965
+      ],
+      [
+        -108.06231,
+        32.98794
+      ],
+      [
+        -108.08542,
+        32.9944
+      ],
+      [
+        -108.09246,
+        33.00612
+      ],
+      [
+        -108.10605,
+        33.01426
+      ],
+      [
+        -108.13637,
+        33.02679
+      ],
+      [
+        -108.1499,
+        33.02738
+      ],
+      [
+        -108.15598,
+        33.03675
+      ],
+      [
+        -108.16651,
+        33.032
+      ],
+      [
+        -108.20198,
+        33.035
+      ],
+      [
+        -108.21588,
+        33.04107
+      ],
+      [
+        -108.20892,
+        33.05532
+      ],
+      [
+        -108.21026,
+        33.06424
+      ],
+      [
+        -108.2045,
+        33.06814
+      ],
+      [
+        -108.20465,
+        33.08906
+      ],
+      [
+        -108.187,
+        33.10962
+      ],
+      [
+        -108.19943,
+        33.11589
+      ],
+      [
+        -108.1904,
+        33.121
+      ],
+      [
+        -108.19042,
+        33.14516
+      ],
+      [
+        -108.20684,
+        33.17469
+      ],
+      [
+        -108.20318,
+        33.1775
+      ],
+      [
+        -108.21051,
+        33.19171
+      ],
+      [
+        -108.20858,
+        33.2013
+      ],
+      [
+        -108.22375,
+        33.2021
+      ],
+      [
+        -108.25533,
+        33.22974
+      ],
+      [
+        -108.26534,
+        33.22963
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Pinos Altos",
+      "model": "false-front-town",
+      "at": 0.19214041143193372,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Pinos Altos",
+      "model": "town-blocks",
+      "at": 0.19214041143193372,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Pinos Altos",
+      "at": 0.19211087420042638,
+      "landmark": "Pinos Altos"
+    },
+    {
+      "name": "Silver City",
+      "at": 0.2814498933901918,
+      "landmark": ""
+    },
+    {
+      "name": "Santa Clara",
+      "at": 0.3574626865671642,
+      "landmark": ""
+    },
+    {
+      "name": "Santa Rita",
+      "at": 0.4271855010660981,
+      "landmark": ""
+    },
+    {
+      "name": "Mimbres",
+      "at": 0.5488272921108741,
+      "landmark": ""
+    },
+    {
+      "name": "Trout Valley",
+      "at": 0.7845415778251599,
+      "landmark": ""
+    },
+    {
+      "name": "Gila Hot Springs",
+      "at": 0.943816631130064,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/trail-of-the-mountain-spirits-scenic-byway-2092.json",
+    "public/data/strips/trail-of-the-mountain-spirits-scenic-byway-2092.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

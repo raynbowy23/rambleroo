@@ -79,8 +79,8 @@ it.each(['legacy', 'photo', 'own', 'illustration'] as const)(
     })
     expect(file.type).toBe('image/png')
     expect(file.name).toBe('rambleroo-river.png')
-    if (front === 'legacy') expect(sources).toContain('/photos/river/river.jpg')
-    else expect(sources).not.toContain('/photos/river/river.jpg')
+    if (front === 'legacy') expect(sources).toContain('https://photos.rambleroo.app/river/river.jpg')
+    else expect(sources).not.toContain('https://photos.rambleroo.app/river/river.jpg')
     const printed = text.join(' ')
     if (front === 'own' || front === 'illustration') {
       expect(printed).not.toContain('Photo:')

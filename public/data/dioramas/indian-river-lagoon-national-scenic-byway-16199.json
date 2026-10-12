@@ -1,0 +1,383 @@
+{
+  "authored": false,
+  "bywayId": "indian-river-lagoon-national-scenic-byway-16199",
+  "title": "Indian River Lagoon National Scenic Byway",
+  "longitude": -80.4196,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.62481,
+        28.64289
+      ],
+      [
+        -80.77179,
+        28.64256
+      ],
+      [
+        -80.79006,
+        28.62647
+      ],
+      [
+        -80.80753,
+        28.61534
+      ],
+      [
+        -80.80763,
+        28.60041
+      ],
+      [
+        -80.79836,
+        28.57317
+      ],
+      [
+        -80.79559,
+        28.54706
+      ],
+      [
+        -80.78403,
+        28.51101
+      ],
+      [
+        -80.78415,
+        28.50516
+      ],
+      [
+        -80.77391,
+        28.48853
+      ],
+      [
+        -80.76315,
+        28.46035
+      ],
+      [
+        -80.76298,
+        28.44248
+      ],
+      [
+        -80.75518,
+        28.41615
+      ],
+      [
+        -80.75454,
+        28.40361
+      ],
+      [
+        -80.7365,
+        28.37384
+      ],
+      [
+        -80.72514,
+        28.3345
+      ],
+      [
+        -80.71288,
+        28.31908
+      ],
+      [
+        -80.70126,
+        28.29808
+      ],
+      [
+        -80.68652,
+        28.258
+      ],
+      [
+        -80.63454,
+        28.14292
+      ],
+      [
+        -80.63036,
+        28.1297
+      ],
+      [
+        -80.63066,
+        28.11992
+      ],
+      [
+        -80.62028,
+        28.11449
+      ],
+      [
+        -80.59999,
+        28.0684
+      ],
+      [
+        -80.58995,
+        28.05724
+      ],
+      [
+        -80.58196,
+        28.03572
+      ],
+      [
+        -80.56844,
+        28.01656
+      ],
+      [
+        -80.55487,
+        27.98806
+      ],
+      [
+        -80.55313,
+        27.97975
+      ],
+      [
+        -80.54031,
+        27.96164
+      ],
+      [
+        -80.52549,
+        27.9273
+      ],
+      [
+        -80.52047,
+        27.92106
+      ],
+      [
+        -80.49406,
+        27.86658
+      ],
+      [
+        -80.48566,
+        27.83859
+      ],
+      [
+        -80.46988,
+        27.81856
+      ],
+      [
+        -80.43543,
+        27.74858
+      ],
+      [
+        -80.41304,
+        27.76308
+      ],
+      [
+        -80.39846,
+        27.76329
+      ],
+      [
+        -80.45871,
+        27.88021
+      ],
+      [
+        -80.50898,
+        27.96784
+      ],
+      [
+        -80.55722,
+        28.06841
+      ],
+      [
+        -80.5608,
+        28.06841
+      ],
+      [
+        -80.56089,
+        28.07664
+      ],
+      [
+        -80.57634,
+        28.1211
+      ],
+      [
+        -80.59481,
+        28.19407
+      ],
+      [
+        -80.60671,
+        28.27151
+      ],
+      [
+        -80.61067,
+        28.33088
+      ],
+      [
+        -80.6056,
+        28.36779
+      ],
+      [
+        -80.60589,
+        28.38823
+      ],
+      [
+        -80.62224,
+        28.40578
+      ],
+      [
+        -80.70571,
+        28.40585
+      ],
+      [
+        -80.7097,
+        28.47089
+      ],
+      [
+        -80.67806,
+        28.48374
+      ],
+      [
+        -80.66392,
+        28.52671
+      ],
+      [
+        -80.78597,
+        28.52784
+      ],
+      [
+        -80.79025,
+        28.53048
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Cocoa",
+      "model": "town-blocks",
+      "at": 0.19738110827050137,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "alpine-lake",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Titusville",
+      "at": 0.08884435537742141,
+      "landmark": ""
+    },
+    {
+      "name": "Cocoa",
+      "at": 0.19712758851035395,
+      "landmark": "Cocoa"
+    },
+    {
+      "name": "Eau Gallie",
+      "at": 0.3181028724114896,
+      "landmark": ""
+    },
+    {
+      "name": "Malabar",
+      "at": 0.385571142284569,
+      "landmark": ""
+    },
+    {
+      "name": "Roseland",
+      "at": 0.4694054776219104,
+      "landmark": ""
+    },
+    {
+      "name": "Melbourne Beach",
+      "at": 0.6875751503006011,
+      "landmark": ""
+    },
+    {
+      "name": "South Patrick Shores",
+      "at": 0.7535738142952572,
+      "landmark": ""
+    },
+    {
+      "name": "Angel City",
+      "at": 0.816821937449315,
+      "landmark": ""
+    },
+    {
+      "name": "Cape Canaveral",
+      "at": 0.8382097528390113,
+      "landmark": ""
+    },
+    {
+      "name": "Courtenay",
+      "at": 0.9065464261857047,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/indian-river-lagoon-national-scenic-byway-16199.json",
+    "public/data/strips/indian-river-lagoon-national-scenic-byway-16199.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

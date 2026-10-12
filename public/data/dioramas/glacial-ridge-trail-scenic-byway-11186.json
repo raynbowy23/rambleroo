@@ -1,0 +1,429 @@
+{
+  "authored": false,
+  "bywayId": "glacial-ridge-trail-scenic-byway-11186",
+  "title": "Glacial Ridge Trail Scenic Byway",
+  "longitude": -94.825,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -95.32801,
+        45.97163
+      ],
+      [
+        -95.37726,
+        45.92356
+      ],
+      [
+        -95.36666,
+        45.88938
+      ],
+      [
+        -95.38787,
+        45.85694
+      ],
+      [
+        -95.39003,
+        45.65024
+      ],
+      [
+        -95.42705,
+        45.65474
+      ],
+      [
+        -95.45611,
+        45.62072
+      ],
+      [
+        -95.53116,
+        45.6145
+      ],
+      [
+        -95.53125,
+        45.55672
+      ],
+      [
+        -95.48042,
+        45.55651
+      ],
+      [
+        -95.48041,
+        45.49867
+      ],
+      [
+        -95.43744,
+        45.49419
+      ],
+      [
+        -95.41944,
+        45.51362
+      ],
+      [
+        -95.39008,
+        45.49843
+      ],
+      [
+        -95.4074,
+        45.3949
+      ],
+      [
+        -95.28622,
+        45.3983
+      ],
+      [
+        -95.26966,
+        45.32344
+      ],
+      [
+        -95.28083,
+        45.31088
+      ],
+      [
+        -95.09139,
+        45.2969
+      ],
+      [
+        -95.08318,
+        45.22198
+      ],
+      [
+        -95.00869,
+        45.21226
+      ],
+      [
+        -95.02863,
+        45.19364
+      ],
+      [
+        -95.02115,
+        45.1611
+      ],
+      [
+        -94.98981,
+        45.18278
+      ],
+      [
+        -94.93065,
+        45.18254
+      ],
+      [
+        -94.9429,
+        45.26354
+      ],
+      [
+        -94.8251,
+        45.28298
+      ],
+      [
+        -94.82447,
+        45.32639
+      ],
+      [
+        -94.85971,
+        45.32624
+      ],
+      [
+        -94.88611,
+        45.29266
+      ],
+      [
+        -94.92708,
+        45.29007
+      ],
+      [
+        -94.96612,
+        45.32585
+      ],
+      [
+        -95.00926,
+        45.32919
+      ],
+      [
+        -95.00931,
+        45.31132
+      ],
+      [
+        -95.03087,
+        45.31167
+      ],
+      [
+        -95.06674,
+        45.35734
+      ],
+      [
+        -95.14216,
+        45.35478
+      ],
+      [
+        -95.14213,
+        45.36923
+      ],
+      [
+        -95.16861,
+        45.3696
+      ],
+      [
+        -95.16891,
+        45.39898
+      ],
+      [
+        -95.2236,
+        45.3975
+      ],
+      [
+        -95.2197,
+        45.41991
+      ],
+      [
+        -95.25524,
+        45.41992
+      ],
+      [
+        -95.2539,
+        45.45204
+      ],
+      [
+        -95.35759,
+        45.47763
+      ],
+      [
+        -95.35771,
+        45.51346
+      ],
+      [
+        -95.38752,
+        45.51586
+      ],
+      [
+        -95.38766,
+        45.58522
+      ],
+      [
+        -95.43862,
+        45.59254
+      ],
+      [
+        -95.38728,
+        45.61765
+      ],
+      [
+        -95.39003,
+        45.65024
+      ],
+      [
+        -95.30393,
+        45.65942
+      ],
+      [
+        -95.30107,
+        45.69743
+      ],
+      [
+        -95.28037,
+        45.70833
+      ],
+      [
+        -94.95357,
+        45.71614
+      ],
+      [
+        -94.95193,
+        45.73715
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Terrace Mill",
+      "model": "gristmill",
+      "at": 0.7974320167885665,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Alexandria",
+      "at": 0.03944281524926686,
+      "landmark": ""
+    },
+    {
+      "name": "Glenwood",
+      "at": 0.11544477028347996,
+      "landmark": ""
+    },
+    {
+      "name": "Sunburg",
+      "at": 0.3346041055718475,
+      "landmark": ""
+    },
+    {
+      "name": "Willmar",
+      "at": 0.46627565982404695,
+      "landmark": ""
+    },
+    {
+      "name": "New London",
+      "at": 0.6140273704789834,
+      "landmark": ""
+    },
+    {
+      "name": "Terrace",
+      "at": 0.7976050830889541,
+      "landmark": ""
+    },
+    {
+      "name": "Villard",
+      "at": 0.9170749073684427,
+      "landmark": ""
+    },
+    {
+      "name": "Sauk Centre",
+      "at": 0.9994134897360704,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/glacial-ridge-trail-scenic-byway-11186.json",
+    "public/data/strips/glacial-ridge-trail-scenic-byway-11186.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

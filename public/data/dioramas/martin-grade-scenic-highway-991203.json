@@ -1,0 +1,299 @@
+{
+  "authored": false,
+  "bywayId": "martin-grade-scenic-highway-991203",
+  "title": "Martin Grade Scenic Highway",
+  "longitude": -80.5807,
+  "ground": "prairie-grid",
+  "palette": "prairie",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.48182,
+        27.16196
+      ],
+      [
+        -80.49291,
+        27.162
+      ],
+      [
+        -80.49783,
+        27.16202
+      ],
+      [
+        -80.50516,
+        27.16201
+      ],
+      [
+        -80.51365,
+        27.162
+      ],
+      [
+        -80.51811,
+        27.16202
+      ],
+      [
+        -80.52899,
+        27.16205
+      ],
+      [
+        -80.5372,
+        27.16208
+      ],
+      [
+        -80.54121,
+        27.1621
+      ],
+      [
+        -80.54649,
+        27.16207
+      ],
+      [
+        -80.5543,
+        27.16208
+      ],
+      [
+        -80.56287,
+        27.16211
+      ],
+      [
+        -80.57993,
+        27.16213
+      ],
+      [
+        -80.59335,
+        27.16209
+      ],
+      [
+        -80.59468,
+        27.16209
+      ],
+      [
+        -80.59945,
+        27.16207
+      ],
+      [
+        -80.61215,
+        27.16207
+      ],
+      [
+        -80.61792,
+        27.16209
+      ],
+      [
+        -80.62944,
+        27.16212
+      ],
+      [
+        -80.63884,
+        27.16215
+      ],
+      [
+        -80.65906,
+        27.16225
+      ],
+      [
+        -80.66764,
+        27.16228
+      ],
+      [
+        -80.67567,
+        27.16233
+      ],
+      [
+        -80.67579,
+        27.16232
+      ],
+      [
+        -80.6759,
+        27.16229
+      ],
+      [
+        -80.67601,
+        27.16223
+      ],
+      [
+        -80.67611,
+        27.16215
+      ],
+      [
+        -80.67618,
+        27.16204
+      ],
+      [
+        -80.67627,
+        27.16181
+      ],
+      [
+        -80.67697,
+        27.15992
+      ],
+      [
+        -80.67717,
+        27.15944
+      ],
+      [
+        -80.67727,
+        27.15924
+      ],
+      [
+        -80.6774,
+        27.15908
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "orchard",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Bluefield",
+      "at": 0.5311475409836066,
+      "landmark": ""
+    },
+    {
+      "name": "Marcy",
+      "at": 0.8565573770491803,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/martin-grade-scenic-highway-991203.json",
+    "public/data/strips/martin-grade-scenic-highway-991203.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

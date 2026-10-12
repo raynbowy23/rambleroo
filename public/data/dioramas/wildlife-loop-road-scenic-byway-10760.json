@@ -1,0 +1,392 @@
+{
+  "authored": false,
+  "bywayId": "wildlife-loop-road-scenic-byway-10760",
+  "title": "Wildlife Loop Road Scenic Byway",
+  "longitude": -103.3896,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -103.47814,
+        43.70544
+      ],
+      [
+        -103.47152,
+        43.70535
+      ],
+      [
+        -103.46565,
+        43.70111
+      ],
+      [
+        -103.46487,
+        43.69965
+      ],
+      [
+        -103.46416,
+        43.69526
+      ],
+      [
+        -103.46316,
+        43.69376
+      ],
+      [
+        -103.46046,
+        43.69168
+      ],
+      [
+        -103.45851,
+        43.69094
+      ],
+      [
+        -103.45045,
+        43.68417
+      ],
+      [
+        -103.4435,
+        43.67951
+      ],
+      [
+        -103.44207,
+        43.67552
+      ],
+      [
+        -103.43688,
+        43.67115
+      ],
+      [
+        -103.43353,
+        43.66548
+      ],
+      [
+        -103.42645,
+        43.6618
+      ],
+      [
+        -103.42279,
+        43.6607
+      ],
+      [
+        -103.42126,
+        43.66118
+      ],
+      [
+        -103.42115,
+        43.66218
+      ],
+      [
+        -103.42054,
+        43.66036
+      ],
+      [
+        -103.41931,
+        43.66053
+      ],
+      [
+        -103.41935,
+        43.66225
+      ],
+      [
+        -103.41661,
+        43.65881
+      ],
+      [
+        -103.41216,
+        43.65832
+      ],
+      [
+        -103.40716,
+        43.65494
+      ],
+      [
+        -103.40606,
+        43.6519
+      ],
+      [
+        -103.4047,
+        43.64999
+      ],
+      [
+        -103.40028,
+        43.64959
+      ],
+      [
+        -103.38674,
+        43.64622
+      ],
+      [
+        -103.38364,
+        43.64494
+      ],
+      [
+        -103.38197,
+        43.64305
+      ],
+      [
+        -103.37908,
+        43.64287
+      ],
+      [
+        -103.3771,
+        43.64076
+      ],
+      [
+        -103.37564,
+        43.6402
+      ],
+      [
+        -103.36866,
+        43.64054
+      ],
+      [
+        -103.36125,
+        43.64544
+      ],
+      [
+        -103.36124,
+        43.65137
+      ],
+      [
+        -103.36321,
+        43.65496
+      ],
+      [
+        -103.36387,
+        43.66553
+      ],
+      [
+        -103.36201,
+        43.67242
+      ],
+      [
+        -103.35992,
+        43.67374
+      ],
+      [
+        -103.36022,
+        43.67594
+      ],
+      [
+        -103.35743,
+        43.67577
+      ],
+      [
+        -103.35562,
+        43.6772
+      ],
+      [
+        -103.35601,
+        43.68046
+      ],
+      [
+        -103.35325,
+        43.68425
+      ],
+      [
+        -103.35023,
+        43.68566
+      ],
+      [
+        -103.34983,
+        43.68676
+      ],
+      [
+        -103.34633,
+        43.68714
+      ],
+      [
+        -103.34748,
+        43.68943
+      ],
+      [
+        -103.347,
+        43.69066
+      ],
+      [
+        -103.34271,
+        43.69183
+      ],
+      [
+        -103.34006,
+        43.69353
+      ],
+      [
+        -103.34067,
+        43.69506
+      ],
+      [
+        -103.3396,
+        43.69785
+      ],
+      [
+        -103.33912,
+        43.7025
+      ],
+      [
+        -103.34088,
+        43.70725
+      ],
+      [
+        -103.34229,
+        43.7308
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Blue Bell",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Blue Bell",
+      "at": 0,
+      "landmark": "Blue Bell"
+    },
+    {
+      "name": "Legion Lake Fire",
+      "at": 0.4634615384615385,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/wildlife-loop-road-scenic-byway-10760.json",
+    "public/data/strips/wildlife-loop-road-scenic-byway-10760.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}
