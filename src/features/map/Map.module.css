@@ -62,9 +62,6 @@
 .legendItem svg {
   flex: none;
 }
-.legend b {
-  color: var(--rust);
-}
 @media (max-width: 1100px) {
   .legend {
     max-width: 390px;

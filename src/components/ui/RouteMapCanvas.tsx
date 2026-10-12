@@ -90,7 +90,7 @@ export function RouteMap({
           .then((data) => {
             if (disposed) return
             const ids = new Set(byways.map((b) => b.id))
-            addBywayLayers(current, { ...data, features: data.features.filter((f) => ids.has(f.properties.id)) }, byways)
+            addBywayLayers(current, { ...data, features: data.features.filter((f) => ids.has(f.properties.id)) })
             const c = palette()
             // Passport and collection maps colour roads by state (visited, saved, emphasised), so they keep plain lines at every zoom.
             if (visited || emphasized.length) {
@@ -111,7 +111,6 @@ export function RouteMap({
               current.setPaintProperty('byway-lines', 'line-opacity', ['case', ['in', ['get', 'id'], ['literal', emphasized]], 1, 0.35])
               current.setPaintProperty('byway-lines', 'line-width', ['case', ['in', ['get', 'id'], ['literal', emphasized]], 4, 2])
             }
-            current.setLayoutProperty('story-points', 'visibility', 'none')
             if (byways.length === 1 && !visited) {
               ;(current.getSource('selected') as maplibre.GeoJSONSource).setData({
                 ...data,
