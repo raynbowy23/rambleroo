@@ -40,9 +40,10 @@
   gap: 12px;
   margin-top: 16px;
 }
+/* Phones keep the header control too (beside the logo), so signing in never needs a trip to Passport first. */
 @media (max-width: 759px) {
-  .header {
-    display: none;
+  .header .identity {
+    max-width: 140px;
   }
 }
 @media (min-width: 760px) {

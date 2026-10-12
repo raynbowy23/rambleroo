@@ -168,3 +168,12 @@ test('postcard shows the front first and the back only after turning over', asyn
   await postcard.getByRole('button', { name: /Show front/ }).click()
   await expect(postcard.getByText('Your note')).toBeHidden()
 })
+
+test('sign in is in the phone header on every page', async ({ page }) => {
+  for (const route of ['/', '/collections', '/about']) {
+    await page.goto(route)
+    await expect(page.locator('header').first().getByRole('button', { name: 'Sign in', exact: true })).toBeVisible()
+  }
+  await page.locator('header').first().getByRole('button', { name: 'Sign in', exact: true }).tap()
+  await expect(page.getByRole('dialog', { name: 'Sign in to Rambleroo' })).toBeVisible()
+})
