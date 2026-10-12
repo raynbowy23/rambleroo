@@ -46,9 +46,8 @@ vi.mock('../../features/map/maplibre', () => ({
 }))
 vi.mock('../../features/map/style', () => ({ createMapStyle: () => ({}), palette: () => () => '#214a3b' }))
 vi.mock('../../lib/motion', () => ({ useMotionEnabled: () => false }))
-vi.mock('../../features/map/layers', () => ({
-  addBywayLayers: vi.fn(),
-  loadBywayGeometry: async () => ({
+vi.mock('../../features/map/layers', () => {
+  const all = {
     type: 'FeatureCollection',
     features: [
       {
@@ -66,8 +65,14 @@ vi.mock('../../features/map/layers', () => ({
         },
       },
     ],
-  }),
-}))
+  }
+  return {
+    addBywayLayers: vi.fn(),
+    loadBywayGeometry: async () => all,
+    loadRoadsGeometry: async () => all,
+    loadRoadGeometry: async () => all,
+  }
+})
 const road = { id: 'river', bbox: [-94, 29, -89, 48] } as BywaySummary
 beforeEach(() => {
   vi.clearAllMocks()

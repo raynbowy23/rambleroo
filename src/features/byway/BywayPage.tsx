@@ -22,7 +22,7 @@ import { RouteMap } from '../../components/ui/RouteMap'
 import { toast } from '../../components/ui/Toast'
 import { Postcard } from '../explore/Postcard'
 import { VisitEditor } from '../passport/VisitEditor'
-import { loadBywayGeometry } from '../map/layers'
+import { loadRoadGeometry } from '../map/layers'
 import s from '../../components/ui/Content.module.css'
 // Shared-boundary neighbors derived from the bundled us-atlas/states-10m.json topology.
 import adjacentStates from './adjacent-states.json'
@@ -58,7 +58,7 @@ export default function BywayPage() {
   useEffect(() => {
     let cancelled = false
     if (id)
-      void loadBywayGeometry()
+      void loadRoadGeometry(id)
         .then((data) => {
           const parts = data.features.filter((f) => f.properties.id === id).flatMap((f) => f.geometry.coordinates)
           const longest = parts.reduce<number[][]>((best, p) => (partLength(p) > partLength(best) ? p : best), [])

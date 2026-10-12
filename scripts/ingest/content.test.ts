@@ -197,6 +197,17 @@ describe('street-frame files the app fetches', () => {
   })
 })
 
+describe('road geometry files the app fetches', () => {
+  it('match public/data/byways.geojson (run npx tsx scripts/ingest/split-geometry.ts after rebuilding it)', async () => {
+    const { geometryFiles } = await import('./split-geometry')
+    const files = geometryFiles(
+      json('public/data/byways.geojson'),
+      json<{ byways: { id: string }[] }>('public/data/catalog.json').byways.map((b) => b.id),
+    )
+    for (const [name, text] of Object.entries(files)) expect(readFileSync(new URL(`public/data/${name}`, root), 'utf8'), name).toBe(text)
+  })
+})
+
 describe('photo credits', () => {
   it('never publish placeholder or run-together author text', () => {
     for (const p of json<import('../../src/lib/types').Photo[]>('content/photos.json')) {

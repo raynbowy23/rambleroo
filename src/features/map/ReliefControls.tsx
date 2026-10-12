@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import type { Map } from './maplibre'
 import { useMotionEnabled } from '../../lib/motion'
 import { toast } from '../../components/ui/Toast'
-import { loadBywayGeometry } from './layers'
+import { loadRoadGeometry } from './layers'
 import { bearing, longestPart, type RoutePart } from './routeJourney'
 import { useGarage } from '../../lib/garage'
 import { setRelief, isTerrainError } from './terrain'
@@ -34,7 +34,7 @@ export function ReliefControls({ map, roadId, onDrive }: { map: Map; roadId?: st
     let active = true
     setRoute(undefined)
     if (roadId)
-      void loadBywayGeometry()
+      void loadRoadGeometry(roadId)
         .then((data) => {
           const features = data.features.filter((f) => f.properties.id === roadId)
           const parts = features.flatMap((f) => f.geometry.coordinates)
