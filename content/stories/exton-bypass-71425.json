@@ -1,16 +1,27 @@
 {
   "id": "exton-bypass-71425",
-  "tagline": "Five miles of freeway that let the old crossroads breathe.",
+  "tagline": "A freeway bypass carries US 30 beyond Exton’s old crossroads.",
   "intro": [
-    "This byway is a freeway. West of Exton the US 30 freeway crosses over the Lincoln Highway, meets it at an interchange and takes the name Exton Bypass. From there it runs northeast beside Amtrak's Keystone Corridor to the US 202 interchange, where the freeway ends and US 30 goes back to being the Lincoln Highway.",
-    "It was slow in coming. Environmental concerns and money kept construction from starting until 1993, and the road opened in December 1995, taking through traffic away from the old crossing of US 30 and PA 100 in Exton, the source of major congestion. The legislature made it a scenic byway the next July."
+    "The Exton Bypass is a freeway scenic byway in Chester County, running beside Amtrak’s Keystone Corridor and meeting PA 100 on the way to US 202. The approach from the west passes suburban development and narrows from six lanes to four before US 30 crosses the older Lincoln Highway. PennDOT lists its designation under Act 82, effective July 2, 1996. The historic Lincoln Highway and American Helicopter Museum are nearby.",
+    "Plans to extend the Coatesville Downingtown Bypass eastward followed that road’s completion in 1963, but environmental concerns and funding delayed construction until 1993. The Exton Bypass opened in December 1995, completing a continuous US 30 freeway from PA 10 to US 202. Business 30 took over the former alignment through Exton, where the crossing with PA 100 had caused major congestion.",
+    "Traveling west to east, the designated section begins about 500 feet west of the Bell Tavern Road overpass. US 30 crosses the Lincoln Highway, meets Business 30, then takes the Exton Bypass name and turns northeast alongside the railroad. After the PA 100 interchange, it continues east-northeast to US 202 and the eastern end of Business 30. There the freeway ends, and US 30 resumes on the divided Lincoln Highway."
   ],
   "moments": [
+    {
+      "title": "Whitford station",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "An abandoned railway bridge crosses directly above Whitford station. The Pennsylvania Railroad built the freight line in 1906 to avoid steep grades and bottlenecks in the Philadelphia suburbs. Its Philadelphia and Thorndale Branch ran beside the passenger route, then crossed it on the large truss over the station. Conrail abandoned the freight line in 1989 after rail traffic declined. The station below remains on the passenger railway, served by SEPTA’s Paoli/Thorndale Line. Artist Grif Teller depicted both levels in his 1949 painting of freight and passenger traffic, when the overhead route was still in use.",
+      "at": [
+        -75.6381,
+        40.0147
+      ]
+    },
     {
       "title": "Exton",
       "kind": "town",
       "scene": "town",
-      "text": "A theory holds that the town is named for the X on the map where the Lancaster Road met the road to Pottstown, though more likely it borrowed the name of an English Exton.",
+      "text": "Exton grew at a crossing of two transportation routes: the Lancaster Road west from Philadelphia and the north-south road to Pottstown. That intersection later brought major congestion where the old US 30 alignment met PA 100. When the bypass opened, Business 30 extended through town on the former US 30 route. The new freeway relieved traffic at the crossing, while the older road retained its Lincoln Highway identity. A theory links Exton’s name to the X marking this intersection on a map, though a namesake in the United Kingdom is more likely.",
       "at": [
         -75.62778,
         40.03306
@@ -20,7 +31,7 @@
       "title": "American Helicopter Museum",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "In West Chester, south of the eastern end, a museum opened in October 1996 collects more than 40 autogyros, convertiplanes and helicopters, early models among them.",
+      "text": "A V-22 Osprey prototype is among the aircraft displayed at the American Helicopter Museum in West Chester. The collection covers rotary-wing flight through more than 40 civilian and military autogyros, convertiplanes and helicopters, including early models. Peter Wright, a Flying Tigers veteran and founder of Keystone Helicopter Corporation, founded the museum, which opened in October 1996. Its exhibits trace pioneers including Harold Frederick Pitcairn and Frank Piasecki, following rotorcraft development from early machines to tiltrotors. Alongside the aircraft, the Renzo Pierpaoli Memorial Library holds documents, films and memoirs for use by museum members.",
       "at": [
         -75.579,
         39.992
@@ -29,16 +40,24 @@
   ],
   "sources": [
     {
-      "label": "PennDOT, Pennsylvania Byways list (RW-745ISB)",
-      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
-    },
-    {
       "label": "Wikipedia, U.S. Route 30 in Pennsylvania",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_30_in_Pennsylvania"
     },
     {
+      "label": "Pennsylvania Department of Transportation, Pennsylvania Byways (RW-745ISB)",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
+    },
+    {
+      "label": "Wikipedia, List of Pennsylvania Scenic Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Pennsylvania_Scenic_Byways"
+    },
+    {
+      "label": "Wikipedia, Whitford station",
+      "url": "https://en.wikipedia.org/wiki/Whitford_station"
+    },
+    {
       "label": "Wikipedia, Exton, Pennsylvania",
-      "url": "https://en.wikipedia.org/wiki/Exton,_Pennsylvania"
+      "url": "https://en.wikipedia.org/wiki/Exton%2C_Pennsylvania"
     },
     {
       "label": "Wikipedia, American Helicopter Museum",

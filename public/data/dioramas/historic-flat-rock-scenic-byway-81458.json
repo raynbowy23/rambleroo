@@ -12,76 +12,76 @@
     "lanes": 2,
     "coordinates": [
       [
-        -82.501,
-        35.2714
-      ],
-      [
-        -82.4951,
-        35.2712
-      ],
-      [
-        -82.4899,
-        35.2655
-      ],
-      [
-        -82.4831,
-        35.2635
-      ],
-      [
-        -82.4757,
-        35.2641
-      ],
-      [
-        -82.4693,
-        35.2694
-      ],
-      [
-        -82.4619,
-        35.2688
-      ],
-      [
-        -82.4608,
-        35.2709
-      ],
-      [
-        -82.4567,
-        35.2719
-      ],
-      [
-        -82.4552,
-        35.2737
-      ],
-      [
-        -82.4482,
-        35.2747
-      ],
-      [
-        -82.4419,
-        35.2728
-      ],
-      [
-        -82.4392,
-        35.267
-      ],
-      [
-        -82.4378,
-        35.2576
-      ],
-      [
-        -82.435,
-        35.2526
-      ],
-      [
-        -82.4283,
-        35.2509
+        -82.4231,
+        35.2477
       ],
       [
         -82.4273,
         35.2488
       ],
       [
-        -82.4231,
-        35.2477
+        -82.4283,
+        35.2509
+      ],
+      [
+        -82.435,
+        35.2526
+      ],
+      [
+        -82.4378,
+        35.2576
+      ],
+      [
+        -82.4392,
+        35.267
+      ],
+      [
+        -82.4419,
+        35.2728
+      ],
+      [
+        -82.4482,
+        35.2747
+      ],
+      [
+        -82.4552,
+        35.2737
+      ],
+      [
+        -82.4567,
+        35.2719
+      ],
+      [
+        -82.4608,
+        35.2709
+      ],
+      [
+        -82.4619,
+        35.2688
+      ],
+      [
+        -82.4693,
+        35.2694
+      ],
+      [
+        -82.4757,
+        35.2641
+      ],
+      [
+        -82.4831,
+        35.2635
+      ],
+      [
+        -82.4899,
+        35.2655
+      ],
+      [
+        -82.4951,
+        35.2712
+      ],
+      [
+        -82.501,
+        35.2714
       ]
     ],
     "elevation": [
@@ -127,9 +127,9 @@
     {
       "name": "Flat Rock Playhouse",
       "model": "town-blocks",
-      "at": 0.6166773762032073,
+      "at": 0.3833246317287985,
       "offset": "roadside",
-      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
@@ -182,5 +182,5 @@
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }

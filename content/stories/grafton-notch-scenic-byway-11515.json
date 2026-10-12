@@ -1,19 +1,31 @@
 {
   "id": "grafton-notch-scenic-byway-11515",
-  "tagline": "Up the Bear River and through the notch to Umbagog.",
+  "tagline": "Follow the Bear River through a mountain pass toward Umbagog Lake.",
   "motifs": [
     "waterfall-cove"
   ],
   "intro": [
-    "Route 26 leaves Newry just north of the Sunday River ski area and follows the Bear River up into Grafton Notch, the pass between Baldpate and Old Speck, the fourth-highest mountain in Maine. Over the notch it comes down to Upton, a town of 69 people at the 2020 census, and Lake Umbagog on the New Hampshire line.",
-    "Old farmhouses and weathered stone walls mark the valley, and much of the land is state park or working forest now. The notch is glacier work, a U-shaped valley with boulders the ice left scattered across its floor."
+    "Grafton Notch Scenic Byway follows rural, two-lane Route 26 beside the Bear River for much of its journey. The National Scenic Byway Foundation identifies it as a 21-mile state byway and highlights a landscape of old farmhouses, stone walls, state parkland and working forest. The pass lies between Old Speck and Baldpate in the Mahoosuc Range. Glaciation left U-shaped valleys and scattered boulders across the valley floor; erosion exposes granite in the park’s gorges.",
+    "The road through Newry belonged to a longer trade connection: the Portland-to-Errol route, completed in 1802, followed what is now Route 26. Farms occupied the intervales, hay became the principal crop, and the Bear River supported a sawmill and gristmill. A different land use took shape in 1963, when Maine bought 2,875 acres from Brown Company for the state park; further purchases fixed its boundaries in 1977.",
+    "Begin in Newry, north of Sunday River Ski Area, and follow Route 26 toward Grafton Notch State Park. The Bear River rises in the notch and flows southeast to the Androscoggin; Route 26 follows its entire course. Screw Auger Falls occupies a steep gorge along the Bear River. Beyond the notch, the byway continues toward Lake Umbagog on the New Hampshire border."
   ],
   "moments": [
+    {
+      "title": "Newry",
+      "kind": "town",
+      "scene": "town",
+      "text": "The Bear River once supplied Newry with more than a route through the mountains: a sawmill and gristmill were built on its banks. Farms occupied the intervales, where the soil favored agriculture, while mountain slopes supplied grazing land. Hay was the principal crop. The trade road from Portland to Errol passed through town in 1802, along the route now numbered 26. Newry is now home to Sunday River Ski Resort, with a large seasonal winter population alongside its year-round residents. Both the Bear River and Sunday River drain the town and flow into the Androscoggin.",
+      "at": [
+        -70.83805556,
+        44.50305556
+      ]
+    },
     {
       "title": "Screw Auger Falls",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "The Bear River drops through a steep gorge cut in Devonian granite, and when the water runs low the boulders the glacier left show in the stream.",
+      "text": "At Screw Auger Falls, the Bear River occupies a steep gorge in Grafton Notch State Park. When water levels are low enough, boulders left by glacial processes are visible in the stream. The notch preserves U-shaped valleys and rock exposed by erosion, including Devonian granite cut by pegmatite intrusions. The precise origin of the gorges remains debated: meltwater could have carved them during the ice sheet’s retreat or beneath the ice under high pressure. Visible pegmatite veins cross the gorges’ water-eroded bedrock, another detail of the exposed rock alongside the valley’s larger glacial forms.",
+      "notice": "At low water, boulders left by glacial processes are visible in the Bear River gorge.",
       "motifs": [
         "waterfall-cove"
       ]
@@ -22,7 +34,7 @@
       "title": "Umbagog Lake",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "The name is said to be Abenaki for shallow water, and off the northwest shore floats an island made of generations of decaying marsh plants.",
+      "text": "Umbagog straddles Maine and New Hampshire, with an average depth of 10 feet. Its name is said to come from the Abenaki word for shallow water. The lake has changed: construction of a dam at Errol in the 19th century markedly increased both its area and depth. The Magalloway, Rapid and Dead Cambridge rivers feed it, and the Androscoggin flows from it. Along the northwest shore, a natural floating island consists of generations of decomposing marsh vegetation. The lake covers 7,850 acres and reaches a maximum depth of 45 feet below its surface.",
       "at": [
         -71.04917,
         44.75694
@@ -31,7 +43,7 @@
   ],
   "sources": [
     {
-      "label": "National Scenic Byway Foundation, Grafton Notch Scenic Byway (Wayback Machine)",
+      "label": "National Scenic Byway Foundation, Grafton Notch Scenic Byway",
       "url": "https://web.archive.org/web/20260309191751/https://nsbfoundation.com/sb/grafton-notch-scenic-byway/"
     },
     {
@@ -39,16 +51,16 @@
       "url": "https://en.wikipedia.org/wiki/Grafton_Notch_State_Park"
     },
     {
-      "label": "Wikipedia, Old Speck Mountain",
-      "url": "https://en.wikipedia.org/wiki/Old_Speck_Mountain"
+      "label": "Wikipedia, Newry, Maine",
+      "url": "https://en.wikipedia.org/wiki/Newry%2C_Maine"
     },
     {
-      "label": "Wikipedia, Upton, Maine",
-      "url": "https://en.wikipedia.org/wiki/Upton,_Maine"
+      "label": "Wikipedia, Bear River (Androscoggin River tributary)",
+      "url": "https://en.wikipedia.org/wiki/Bear_River_%28Androscoggin_River_tributary%29"
     },
     {
       "label": "Wikipedia, Umbagog Lake",
-      "url": "https://en.wikipedia.org/wiki/Lake_Umbagog"
+      "url": "https://en.wikipedia.org/wiki/Umbagog_Lake"
     }
   ],
   "reviewed": false

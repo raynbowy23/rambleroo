@@ -1,57 +1,51 @@
 {
   "id": "indian-heritage-trail-12825",
-  "tagline": "From a spa town's old fairground to the Pee Dee mound.",
+  "tagline": "A North Carolina byway, a former fairground, and a Pee Dee ceremonial center",
   "motifs": [
     "orchard"
   ],
   "intro": [
-    "The trail comes into Ellerbe from the east on Millstone Road, turns north on US 220, the road through the state's prime peach-growing country, where fruit stands open by the road in season, and then takes NC 73 for about 11 miles. Indian Mound Road, which turns into Town Creek Mound Road at the Montgomery County line, runs on to Town Creek, and NC 731 carries on into Mount Gilead.",
-    "Somewhere along the way the guidebook points out the farm of Andre the Giant. The wrestler owned land at Ellerbe for many years, and his ashes were scattered there after he died in Paris in 1993."
+    "The Indian Heritage Trail belongs to North Carolina’s scenic-byway collection. The North Carolina Department of Transportation selects these roads to introduce the state’s history, geography and culture. In this part of the Piedmont, Mount Gilead sits on a ridge draining toward tributaries of the Pee Dee River.",
+    "At Town Creek, professional archaeological work began in 1937 with Works Progress Administration funding. Landowner L. D. Frutchey donated the mound and about an acre of surrounding land to North Carolina. The state later reconstructed a ceremonial center, restoring the mound and rebuilding a temple on it.",
+    "In Mount Gilead, NC 73 is Main Street. Town Creek Indian Mound lies five miles southeast of town. NC 73 leads southeast from Mount Gilead to Ellerbe."
   ],
   "moments": [
     {
-      "title": "Ellerbe",
+      "title": "Mount Gilead",
       "kind": "town",
       "scene": "town",
-      "text": "Scottish settlers held a fair here every May and November, so the place was the Fair Grounds until W. T. Ellerbe built a spa at the springs nearby and the town took his name.",
+      "text": "Mount Gilead incorporated in 1899 as textile mills spread through the Piedmont. The mills processed cotton and employed white residents before later employing Black residents as well. When textile work moved offshore in the late twentieth century, the town lost jobs and population. Its downtown historic district entered the National Register in 2005. The town also received a $220,000 S.T.E.P. grant intended to help revitalize downtown and create jobs. Near downtown, the Mount Gilead Museum occupies the McAulay family’s restored Victorian house, with documents, photographs and artifacts tracing the town’s past.",
       "at": [
-        -79.75972222,
-        35.07194444
+        -80.005,
+        35.21638889
       ]
     },
     {
       "title": "Town Creek Indian Mound",
       "kind": "roadside",
       "scene": "river",
-      "text": "On a low bluff where Town Creek meets the Little River, the state has rebuilt a temple on the Pee Dee's platform mound, where clans gathered to settle debts and feast on new corn."
+      "text": "The Pee Dee built their mound on a low bluff where Town Creek meets the Little River. The earthwork covered the remains of a rectangular earth lodge. Archaeologists found a sequence of buildings: a collapsed lodge, a temple above it that burned, and another ceremonial structure on the mound. The structures presented by the state are reconstructions, including a temple on the restored mound and a mortuary. The Pee Dee people are based in South Carolina today. The state’s visitor center interprets the site through exhibits and audiovisual programs, while trails extend across the property.",
+      "notice": "The temple on the restored platform mound is a reconstruction."
     },
     {
-      "title": "Mount Gilead",
+      "title": "Ellerbe",
       "kind": "town",
       "scene": "town",
-      "text": "A textile town incorporated in 1899, where a downtown mural honors the Pee Dee and a loblolly pine in the community garden grew from a seed that went around the moon.",
+      "text": "Before this Richmond County town was Ellerbe, it was the Fair Grounds: Scottish settlers held fairs here each May and November in the 1700s. The name changed after W. T. Ellerbe developed the nearby Ellerbe Springs spa. A railroad and depot arrived in 1910, followed by incorporation in 1911, when the population was just 50. By 1923, the population had grown to more than 500. Several mills operated alongside two banks, three churches, a telephone exchange and a hotel. Rail service ended in 1954; the depot burned several years later.",
       "at": [
-        -80.005,
-        35.21638889
+        -79.75972222,
+        35.07194444
       ]
     }
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook",
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=152"
     },
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (route and points of interest)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=153"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (points of interest, continued)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=154"
-    },
-    {
       "label": "Wikipedia, Ellerbe, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Ellerbe,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Ellerbe%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Town Creek Indian Mound",
@@ -59,7 +53,7 @@
     },
     {
       "label": "Wikipedia, Mount Gilead, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Mount_Gilead,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Mount_Gilead%2C_North_Carolina"
     }
   ],
   "reviewed": false

@@ -17,8 +17,9 @@ export default function AboutPage() {
         Rambleroo brings together {byways.length ? usdot.toLocaleString() : '…'} scenic byways from the USDOT source layer,{' '}
         {byways.length ? stateLayers : '…'} more from state DOT route layers (Wisconsin and Florida so far), and{' '}
         {byways.length ? classics : '…'} classic drives that are not designated byways, with {meta?.storyCount ?? '…'} stories. Each story
-        is written from the sources listed with it, but stories and road details may still contain mistakes. This catalog is a snapshot of
-        that source, not a complete inventory of every scenic road or current designation.
+        is written from the sources listed with it, but stories and road details may still contain mistakes. Stories marked draft are older
+        versions waiting to be rewritten. This catalog is a snapshot of that source, not a complete inventory of every scenic road or
+        current designation.
       </p>
       <h2>What the map tells you</h2>
       <p>

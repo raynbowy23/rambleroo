@@ -1,39 +1,21 @@
 {
   "id": "kansas-historic-route-66-byway-81471",
-  "tagline": "Thirteen miles of Route 66 that the interstate passed by.",
+  "tagline": "Town streets and a concrete arch on Kansas’s bypassed Route 66.",
   "motifs": [
     "arch-bridge"
   ],
   "intro": [
-    "Route 66 comes over from Missouri on State Line Road and turns into Galena by Front and Main streets, then runs west on K-66 to Riverton and on to the concrete arch over Brush Creek before heading south through Baxter Springs to the Oklahoma line. It is about 13 miles end to end, all of it in Cherokee County, in old lead and zinc mining country.",
-    "Kansas paved its stretch in 1929, the first state to do so. When Interstate 44 came through in 1961 it crossed straight from Oklahoma into Missouri and missed Kansas by a quarter of a mile."
+    "Kansas’s Historic Route 66 Byway crosses the state’s southeastern corner on 13 miles of town streets and older highway. Kansas Tourism places it at the edge of the Ozarks and highlights mining history, the Rainbow Bridge and connections to the film Cars. The route links Baxter Springs, Riverton and Galena, with a crossing of Brush Creek west of Riverton. At the creek, the narrow concrete arch survives beside its replacement.",
+    "Route 66 received its number in 1926, and Kansas paved its section in 1929. Interstate 44 changed the journey in 1961: it crossed directly from Oklahoma to Missouri, missing Kansas by a quarter mile. The loss of highway traffic, together with lead and zinc mine closures, contributed to the closure of many Cherokee County businesses. After US 66 was decommissioned in 1985, its final Kansas alignment became US 69 Alternate and K-66.",
+    "From the Oklahoma line, head north on Military Avenue through Baxter Springs. The byway turns west at Third Street, follows Willow Avenue and 50th Street toward Rainbow Bridge, then turns east toward Riverton. K-66 continues to Galena, where Main Street, Front Street and State Line Road lead to the Missouri endpoint."
   ],
   "moments": [
-    {
-      "title": "Galena",
-      "kind": "town",
-      "scene": "town",
-      "text": "Lead found in 1877 named the town and once filled it with over 30,000 people, and a restored Kan-O-Tex station now keeps the original boom truck from the Mater story.",
-      "at": [
-        -94.63528,
-        37.075
-      ]
-    },
-    {
-      "title": "Riverton",
-      "kind": "town",
-      "scene": "town",
-      "text": "Pixar's researchers stopped at the Eisler Brothers store here and met Dean Walker, who could turn his feet backwards and walk in reverse, one of the models for Mater.",
-      "at": [
-        -94.70611,
-        37.07333
-      ]
-    },
     {
       "title": "Rainbow Bridge",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "Built over Brush Creek in 1923, the last Marsh arch left on all of old 66 still takes cars on a short one-way spur beside its replacement.",
+      "text": "Rainbow Bridge carried traffic over Brush Creek before Route 66 had its number. Built in 1923, it is a single-span concrete Marsh arch, the only surviving bridge of that type along the former highway. Kansas Route 66 once had two more Marsh arches, both crossing the Spring River. A replacement crossing now handles the main road, while the old bridge survives on a short one-way branch. Its National Register name is Brush Creek Bridge, recognizing its connection with US 66. It entered the National Register in 1983, six decades after its construction.",
+      "notice": "A single concrete Marsh arch spans Brush Creek beside the replacement crossing.",
       "at": [
         -94.74057,
         37.0734
@@ -41,32 +23,56 @@
       "motifs": [
         "arch-bridge"
       ]
+    },
+    {
+      "title": "Riverton",
+      "kind": "town",
+      "scene": "town",
+      "text": "Riverton’s historic Williams’ Store predates Route 66 by a year. Leo Williams built it in 1925, and he and his wife Lora sold groceries, general merchandise, chili and barbecue beef to travelers. A croquet court hosted local tournaments before it gave way to parking. Later known as the Eisler Brothers store, it was a stop on Pixar’s research trips for Cars. There, filmmakers met Dean Walker, whose ability to turn his feet backward and walk in reverse became one of many inspirations for Mater. The store entered the National Register of Historic Places in 2003.",
+      "at": [
+        -94.70611,
+        37.07333
+      ]
+    },
+    {
+      "title": "Galena",
+      "kind": "town",
+      "scene": "town",
+      "text": "Galena took its name from the lead ore discovered here in 1877. A railroad had already arrived in 1871, but the community began after the lead discovery. Route 66 later brought another kind of traffic to Main Street, where the Kan-O-Tex station served motorists in 1934. After years of vacancy, the station was restored in 2007. Its 1951 International boom truck helped inspire Pixar’s Tow Mater. The truck is named Tater; the restored station retains the original design of its pumps and exterior. The Kan-O-Tex name combined Kansas, Oklahoma and Texas, giving the regional fuel brand its name.",
+      "at": [
+        -94.63528,
+        37.075
+      ]
     }
   ],
   "sources": [
     {
-      "label": "Kansas Tourism, Kansas Historic Route 66 Byway",
+      "label": "Kansas Tourism, Kansas Route 66 Historic Byway",
       "url": "https://www.travelks.com/things-to-do/byways-and-highways/byways/route-66/"
+    },
+    {
+      "label": "Wikipedia, Rainbow Bridge (Kansas)",
+      "url": "https://en.wikipedia.org/wiki/Rainbow_Bridge_%28Kansas%29"
     },
     {
       "label": "Wikipedia, U.S. Route 66 in Kansas",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_66_in_Kansas"
     },
     {
-      "label": "Wikipedia, Rainbow Bridge (Kansas)",
-      "url": "https://en.wikipedia.org/wiki/Rainbow_Bridge_(Kansas)"
+      "label": "Wikipedia, Kan-O-Tex Service Station",
+      "url": "https://en.wikipedia.org/wiki/Kan-O-Tex_Service_Station"
     },
     {
-      "label": "Wikipedia, Galena, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Galena,_Kansas"
+      "label": "Wikipedia, Williams’ Store",
+      "url": "https://en.wikipedia.org/wiki/Williams%27_Store"
     },
     {
       "label": "Wikipedia, Riverton, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Riverton,_Kansas"
+      "url": "https://en.wikipedia.org/wiki/Riverton%2C_Kansas"
     },
     {
-      "label": "Wikipedia, Baxter Springs, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Baxter_Springs,_Kansas"
+      "label": "Wikipedia, Galena, Kansas",
+      "url": "https://en.wikipedia.org/wiki/Galena%2C_Kansas"
     }
   ],
   "reviewed": false

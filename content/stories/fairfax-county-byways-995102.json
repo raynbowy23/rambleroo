@@ -1,19 +1,20 @@
 {
   "id": "fairfax-county-byways-995102",
-  "tagline": "Country roads around a depot town, and a working mill.",
+  "tagline": "Clifton’s secondary roads, a rebuilt depot and a working water-powered mill.",
   "motifs": [
     "gristmill"
   ],
   "intro": [
-    "In southwestern Fairfax County the byways are a knot of country roads around Clifton, Popes Head and Yates Ford, Henderson and Newman, Compton and Fairfax Station. The land stays thinly built. When development crept close in the late 1970s and early 1980s, an ordinance allowed one building to an undivided five acres, to spare the Occoquan Reservoir, and the woods and horse country stayed.",
-    "Farther north, Hunter Mill Road runs up from Oakton, and Colvin Run Road follows an old line of Route 7 past a mill."
+    "Secondary roads lead into Clifton, where SR 645 passes along Main Street and School Street before becoming Clifton Road again. The surrounding land is less built up than neighboring areas, with woods and single-family homes to the south and east and equestrian land to the north.",
+    "The village developed at a railroad siding after Clifton Station opened in 1868. A century later, approaching suburban development raised concerns over harm to the Occoquan Reservoir. Restrictions on building on undivided five-acre parcels limited development near Clifton.",
+    "Begin in Clifton, where SR 645 connects US 29 to the northwest with SR 123 to the east. Fairfax Station lies between Clifton and Burke, with its original community at the crossing of Ox Road and the railway. For a separate excursion, Colvin Run Mill in Great Falls offers a working gristmill and wooded grounds on Colvin Run Road."
   ],
   "moments": [
     {
       "title": "Clifton",
       "kind": "town",
       "scene": "town",
-      "text": "The village grew up around Clifton Station, a depot opened in 1868, and with 243 people in 2020 it is the smallest of Fairfax County's three towns by a wide margin.",
+      "text": "Clifton’s original depot is gone, but the town remains beside the railway that brought it into being. Harrison G. Otis built a sawmill and train depot on land purchased from William Harris; the depot opened as Clifton Station in November 1868. In 1869 Harris offered ten nearby lots for sale, and homes and businesses followed. Most buildings in the historic district date from 1880 to 1910, including residences, churches and commercial buildings. Harris continued selling lots along Main Street in the mid-1870s, extending the village beyond the first group of homes and businesses.",
       "at": [
         -77.38638889,
         38.78
@@ -23,7 +24,7 @@
       "title": "Fairfax Station",
       "kind": "town",
       "scene": "town",
-      "text": "In August 1862 Clara Barton tended the wounded of Second Bull Run at this railroad station, and the depot museum is a replica of the station built in 1891.",
+      "text": "The depot museum represents the station built in 1891, with roughly 20 percent of that building incorporated into a replica. It is separate from the Civil War depot, destroyed on September 2, 1862. Before that destruction, Federal forces used Fairfax Station to evacuate soldiers wounded at Second Bull Run and Chantilly; Clara Barton was among the civilian volunteers who helped. The Friends of the Fairfax Station organized in 1973 to save the later depot. When dismantled timbers deteriorated, reconstruction replaced reassembly, and the museum opened in April 1988. Railroad tools, a functioning telegraph and salvaged post-office mailboxes are among its displays.",
       "at": [
         -77.331813,
         38.800656
@@ -31,9 +32,10 @@
     },
     {
       "title": "Colvin Run Mill",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "forest",
-      "text": "Addison Millard bought the mill in 1883 and moved into the miller's house with his wife Emma and some of their 20 children; it is the area's last working water-powered mill of its century.",
+      "text": "Water power remains at work at Colvin Run Mill, built around 1811 and surrounded by wooded parkland. Addison Millard bought the mill in 1883 and moved into the miller’s house with Emma, his wife, and some of their 20 children. The family operated it until 1934. Abandonment followed, and highway development cut the mill off from nearby water. The Fairfax County Park Authority acquired and repaired it. Visitors can walk the grounds and see the mill buildings from outside; the historic house contains a self-guided exhibit. Its restored mechanism demonstrates automated milling technologies that were later adopted elsewhere in American industry.",
+      "notice": "The mill and historic buildings stand within wooded and landscaped grounds.",
       "at": [
         -77.29388889,
         38.96888889
@@ -45,28 +47,28 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
-    {
       "label": "Wikipedia, Clifton, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Clifton,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Fairfax Station, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Fairfax_Station,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Clifton%2C_Virginia"
     },
     {
       "label": "Wikipedia, Fairfax Station Railroad Museum",
       "url": "https://en.wikipedia.org/wiki/Fairfax_Station_Railroad_Museum"
     },
     {
-      "label": "Wikipedia, Colvin Run Mill",
-      "url": "https://en.wikipedia.org/wiki/Colvin_Run_Mill"
+      "label": "Fairfax County Park Authority, Colvin Run Mill Historic Site",
+      "url": "https://www.fairfaxcounty.gov/parks/colvin-run-mill"
     },
     {
-      "label": "Fairfax County Park Authority, Colvin Run Mill",
-      "url": "https://www.fairfaxcounty.gov/parks/colvin-run-mill"
+      "label": "Wikipedia, Fairfax Station, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Fairfax_Station%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Clifton Historic District (Clifton, Virginia)",
+      "url": "https://en.wikipedia.org/wiki/Clifton_Historic_District_%28Clifton%2C_Virginia%29"
+    },
+    {
+      "label": "Wikipedia, Colvin Run Mill",
+      "url": "https://en.wikipedia.org/wiki/Colvin_Run_Mill"
     }
   ],
   "reviewed": false

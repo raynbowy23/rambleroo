@@ -1,19 +1,30 @@
 {
   "id": "giant-springs-road-993001",
-  "tagline": "A big spring and a very short river on the Missouri.",
+  "tagline": "A freshwater spring feeds a short river beside the Missouri.",
   "motifs": [
     "river-bluffs"
   ],
   "intro": [
-    "Giant Springs Road leaves River Drive at the edge of Great Falls and runs a little over two miles down the Missouri to the railroad tracks, with the River's Edge Trail alongside. Along the way are Giant Springs State Park and the Lewis and Clark Interpretive Center, and the road was moved slightly when the center was built. Across the water is Black Eagle, where the first dam on the Missouri went in in 1890.",
-    "This is the stretch where Lewis and Clark spent a month hauling their boats around the five Great Falls. On June 18, 1805, scouting the south bank, William Clark came on a spring he judged to be the largest in the world."
+    "Giant Springs Road reaches Giant Springs State Park just outside Great Falls. The park encompasses nearly 14 miles of Missouri River shoreline. Montana Fish, Wildlife & Parks describes a landscape of freshwater springs, river waterfalls and trails, with a fish hatchery beside the spring water.",
+    "The Lewis and Clark Expedition recorded the springs in 1805. The nearby falls forced the expedition into a portage that took nearly a month. In 1998, the Lewis and Clark Interpretive Center opened above the Missouri, with exhibits on the expedition’s portage.",
+    "At the interpretive center, the river lies below a cliff. At Giant Springs, water emerges on the Missouri’s east bank, downstream of Great Falls. The Roe River carries it into the Missouri, completing a journey only 201 feet long at its longest constant point."
   ],
   "moments": [
+    {
+      "title": "Lewis and Clark Interpretive Center",
+      "kind": "short walk",
+      "scene": "river",
+      "text": "The Lewis and Clark Interpretive Center occupies a cliff above the Missouri near Crooked Falls. The Forest Service opened it in 1998 to tell the story of the expedition’s passage through central Montana. That passage included a portage around the Great Falls that took nearly a month. Exhibits address both the portage and the Native peoples of the area. The center includes an exhibit hall, a theater, a store and classrooms. The center’s position above the Missouri connects the expedition’s overland detour with the waterway that made the long portage necessary.",
+      "motifs": [
+        "river-bluffs"
+      ]
+    },
     {
       "title": "Giant Springs",
       "kind": "short walk",
       "scene": "river",
-      "text": "More than 150 million gallons a day come up at a steady 54 degrees, snowmelt from the Little Belt Mountains that has spent some 3,000 years underground.",
+      "text": "Giant Springs begins with snowmelt in the Little Belt Mountains, 60 miles away. The water travels through Madison Limestone before emerging at a constant 54 degrees Fahrenheit. The spring produces over 156 million gallons each day. Some of that water supplies a state trout hatchery that raises mostly rainbow trout. The spring is the central feature of Giant Springs State Park, where the hatchery has a visitor center and a show pond. Beneath the park’s recreational setting is a water system connecting distant mountains with the Missouri’s bank.",
+      "notice": "Spring water cascades into the Roe River.",
       "at": [
         -111.23,
         47.53416667
@@ -23,7 +34,7 @@
       "title": "Roe River",
       "kind": "short walk",
       "scene": "river",
-      "text": "The spring runs about 200 feet to the Missouri. A Great Falls fifth-grade class named it in a campaign begun in 1987 and got Guinness to list it as the world's shortest river.",
+      "text": "The Roe River links Giant Springs with the Missouri in 201 feet at its longest constant point. Its name came before its record. In 1987, Susie Nardlinger’s fifth-grade students at Lincoln Elementary School began a campaign to have it recognized as the world’s shortest river. First they petitioned the United States Board on Geographic Names to accept Roe River for the unnamed stream. Then they submitted their proposal to Guinness, which awarded the title in 1989. Guinness dropped the category in 2006; the river’s short passage from spring to Missouri remains its defining feature.",
       "at": [
         -111.23027778,
         47.53472222
@@ -32,28 +43,24 @@
   ],
   "sources": [
     {
-      "label": "Montana FWP, Giant Springs State Park",
-      "url": "https://fwp.mt.gov/stateparks/giant-springs"
-    },
-    {
-      "label": "Montana Transportation Commission, May 26, 2011 minutes (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20121228233713/http://mdt.mt.gov/pubinvolve/docs/trans_comm/commission/2011/may26_minutes.pdf"
-    },
-    {
-      "label": "Wikipedia, Giant Springs",
-      "url": "https://en.wikipedia.org/wiki/Giant_Springs"
-    },
-    {
       "label": "Wikipedia, Roe River",
       "url": "https://en.wikipedia.org/wiki/Roe_River"
     },
     {
+      "label": "Montana Fish, Wildlife & Parks, Giant Springs State Park",
+      "url": "https://fwp.mt.gov/stateparks/giant-springs"
+    },
+    {
       "label": "Wikipedia, Great Falls of the Missouri River",
-      "url": "https://en.wikipedia.org/wiki/Great_Falls_of_the_Missouri_River"
+      "url": "https://en.wikipedia.org/wiki/Great_Falls_%28Missouri_River%29"
     },
     {
       "label": "Wikipedia, Black Eagle Dam",
       "url": "https://en.wikipedia.org/wiki/Black_Eagle_Dam"
+    },
+    {
+      "label": "Wikipedia, Giant Springs",
+      "url": "https://en.wikipedia.org/wiki/Giant_Springs"
     }
   ],
   "reviewed": false

@@ -1,48 +1,56 @@
 {
   "id": "james-edwin-mcteer-bridge-and-the-causways-scenic-highway-73586",
-  "tagline": "From Port Royal to the island’s changing ground.",
+  "tagline": "A short river crossing links Port Royal with Lady’s Island.",
   "intro": [
-    "From Port Royal, the McTeer Bridge spans the Beaufort River, over marshes and a marina, to Lady’s Island. The Broad River confluence lies to the south and the Beaufort waterfront to the north. Taller and wider than the old bridge from downtown, it came in the 1980s, as former plantation and timber tracts on the island turned into neighborhoods.",
-    "On the Port Royal side, Fort Frederick makes a separate excursion along the Beaufort River. Erosion has left part of the old fort underwater, while the heritage preserve keeps the surviving tabby walls beside the naval hospital."
+    "The McTeer Bridge and causeways connect Port Royal with Lady’s Island in less than three miles. South Carolina’s Department of Transportation includes the crossing in its scenic-highway network and identifies the bridge as the drive’s scenic centerpiece. It spans the Beaufort River above marshes and a marina, with views toward the Broad River confluence to the south and the Beaufort waterfront to the north.",
+    "Lady’s Island first gained a bridge to downtown Beaufort in 1927. During the later twentieth century, former plantation and timber tracts became residential subdivisions. The taller, wider McTeer Bridge opened in the 1980s, and US 21 shifted south from its downtown crossing.",
+    "Begin on the Port Royal side, where Fort Frederick Heritage Preserve lies beside the Beaufort River and the naval hospital as a separate excursion. The scenic route then crosses the Beaufort River to Lady’s Island. Beyond the crossing is a predominantly residential Sea Island with upland forest, tidal habitats and freshwater wetlands."
   ],
   "moments": [
     {
       "title": "Fort Frederick Heritage Preserve",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "The surviving tabby walls border the Beaufort River, which has eroded part of the old fort.",
+      "text": "The Beaufort River has eroded part of Fort Frederick, leaving some of the fort underwater. Exposed remnants of its tabby walls have received a protective new layer of tabby. The fort began as a log structure before it gained tabby walls. Its military importance diminished after Georgia’s founding brought other forts farther south. The three-acre preserve holds the fort’s remains beside the naval hospital. On January 1, 1863, people arriving by water landed at the fort’s dock and passed through the fort to hear the Emancipation Proclamation read at an adjacent site.",
+      "notice": "The exposed tabby walls have a newer protective layer of tabby.",
       "at": [
         -80.67833333,
         32.38444444
       ]
     },
     {
+      "title": "McTeer Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "From the bridge, the view reaches north to Beaufort’s waterfront and south to the Broad River confluence. Marshes and a marina lie below the crossing. The bridge also changed the route to the Sea Islands: when it was completed in the 1980s, US 21 moved south from downtown Beaufort. The McTeer span was taller and wider than the downtown crossing."
+    },
+    {
       "title": "Lady’s Island",
       "kind": "town",
       "scene": "coast",
-      "text": "Beyond the crossing, a largely residential Sea Island includes upland forest, tidal water and freshwater wetlands."
+      "text": "Lady’s Island contains upland forest, tidal water and freshwater wetlands. For much of its history, the island was rural and agricultural. Its first bridge linked it to downtown Beaufort in 1927; a second connection reached Port Royal in the 1980s. Between those changes, development began converting former plantation and timber tracts into residential subdivisions. The island is now predominantly residential, with most of it outside Beaufort’s city limits."
     }
   ],
   "sources": [
     {
-      "label": "SCDOT, South Carolina Scenic Byways map series (story text)",
+      "label": "South Carolina Department of Transportation, McTeer Bridge & Causeways Scenic Highway",
       "url": "https://scdot.maps.arcgis.com/sharing/rest/content/items/0a5192983b2845c2b20fbc5d7a0372f9/data"
     },
     {
-      "label": "Wikipedia, Beaufort, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Beaufort,_South_Carolina"
+      "label": "Wikipedia, Lady’s Island (South Carolina)",
+      "url": "https://en.wikipedia.org/wiki/Lady%27s_Island_%28South_Carolina%29"
     },
     {
-      "label": "Wikipedia, Fort Frederick, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Fort_Frederick%2C_South_Carolina"
+      "label": "Wikipedia, Beaufort, South Carolina",
+      "url": "https://en.wikipedia.org/wiki/Beaufort%2C_South_Carolina"
     },
     {
       "label": "Wikipedia, Fort Frederick Heritage Preserve",
       "url": "https://en.wikipedia.org/wiki/Fort_Frederick_Heritage_Preserve"
     },
     {
-      "label": "Wikipedia, Lady's Island (South Carolina)",
-      "url": "https://en.wikipedia.org/wiki/Lady%27s_Island_%28South_Carolina%29"
+      "label": "Wikipedia, Fort Frederick, South Carolina",
+      "url": "https://en.wikipedia.org/wiki/Fort_Frederick%2C_South_Carolina"
     }
   ],
   "reviewed": false

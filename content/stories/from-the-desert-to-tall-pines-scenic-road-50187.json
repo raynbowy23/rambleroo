@@ -1,29 +1,20 @@
 {
   "id": "from-the-desert-to-tall-pines-scenic-road-50187",
-  "tagline": "Desert to pines on dirt, by way of a feud.",
+  "tagline": "Unpaved mountain miles connect desert foothills, Pleasant Valley and pine country.",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "SR 288 leaves SR 188 near Roosevelt Lake and heads north into mountainous country, through the hamlet of Rock House, climbing out of the desert one biotic community at a time. Long stretches are unpaved. Between the lake and Pleasant Valley stands the Sierra Ancha, Spanish for broad range, cut by deep canyons and crossed by few improved roads.",
-    "At Young the pavement comes back for about ten miles, though no fully paved road connects the town to any other highway. North of town the byway carries on as Forest Road 512, up to SR 260."
+    "From the Desert to the Tall Pines is a scenic byway through central Arizona’s changing plant communities. The Forest Service identifies that variety of landscapes as the route’s theme. SR 288 crosses mountainous terrain, and most of the highway is unpaved. Young has paved stretches within and north of town, but no fully paved connection to another highway. In the Sierra Ancha, saguaro and palo verde grow in the southern foothills; oak scrub and juniper dominate middle elevations, and ponderosa pine grows above 6,000 feet.",
+    "SR 288 became a state route in 1959 and received scenic-road designation in 2001. The numbered highway ends at Chamberlain Trail in Young; the roadway continues north as a National Forest road. The wider landscape includes the Sierra Ancha, a range between Pleasant Valley and Roosevelt Lake with deep canyons and few improved roads. SR 188 at its southern end is the numbered highway’s only junction with another state highway.",
+    "Traveling north to south, Willow Springs Lake beside SR 260 provides a Rim-side excursion before the forest-road approach to Young. FR 512 leads south from SR 260 to Young in Pleasant Valley. Beyond town, SR 288 passes Rock House and reaches SR 188 southeast of Roosevelt Lake."
   ],
   "moments": [
     {
-      "title": "Young",
-      "kind": "town",
-      "scene": "forest",
-      "text": "Pleasant Valley's town, at the center of the Graham and Tewksbury feud. Many of the men it killed are buried in Young, and Pleasant Valley Cemetery is a common stop.",
-      "at": [
-        -110.92917,
-        34.11167
-      ]
-    },
-    {
       "title": "Willow Springs Lake",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "forest",
-      "text": "Up on the Rim beside SR 260, a lake Game and Fish made in 1967. In winter people fish it through the ice.",
+      "text": "Willow Springs Lake has no permanent inflow: annual snowmelt supplies its water. The Arizona Game and Fish Department created the lake in 1967 for public water recreation. Its 158 acres occupy a canyon on top of the Mogollon Rim beside SR 260. The department holds the lake’s sole water rights, and most of the year there is no spill downstream. When water does spill, it follows Willow Springs Canyon to Woods Canyon, where the two drainages form Chevelon Creek. The lake averages 60 feet deep, and its two arms can be reached on foot from SR 260.",
       "at": [
         -110.87061,
         34.30355
@@ -31,10 +22,30 @@
       "motifs": [
         "lake-wide"
       ]
+    },
+    {
+      "title": "Young",
+      "kind": "town",
+      "scene": "forest",
+      "text": "Young sits in Pleasant Valley, drained by Cherry Creek toward the Salt River. It was a center of the Pleasant Valley War, the conflict involving the Graham and Tewksbury families. The two families initially opposed cattleman James Stinson together; the conflict later drew in other cattlemen, sheepmen, hired gunmen and law officers. Both families raised cattle; the Tewksburys later added sheep to their operations. Many of the men murdered in the conflict are buried in Young’s cemetery. The Forest Service identifies Pleasant Valley Cemetery as a common stop along the byway.",
+      "at": [
+        -110.92917,
+        34.11167
+      ]
+    },
+    {
+      "title": "Sierra Ancha",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "The Sierra Ancha’s plant communities change with elevation. Saguaro, palo verde and creosote bush occupy the southern foothills above Roosevelt Lake. Oak scrub and juniper dominate the middle elevations; above 6,000 feet, ponderosa pine grows extensively, with Douglas-fir on the highest, coolest slopes. The range lies entirely within Tonto National Forest. Its eastern side is cut by deep canyons, while improved roads are few. The Sierra Ancha Wilderness protects high peaks and canyons on that eastern flank. The range’s Western Apache name, Dził Nteel, means “Wide Flat Mountain”; Sierra Ancha is Spanish for “broad range.”",
+      "at": [
+        -111.18666667,
+        33.9575
+      ]
     }
   ],
   "practical": [
-    "Not all sections are paved. Four-wheel drive is recommended in bad weather, and several areas get heavy snow in winter."
+    "Willow Springs Lake: Vehicle access is seasonal: the lake is accessible by paved Forest Road 149 from April through November and inaccessible to vehicles from December through March. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -42,28 +53,24 @@
       "url": "https://www.fs.usda.gov/r03/tonto/recreation/desert-tall-pines-scenic-byway"
     },
     {
-      "label": "ADOT, Arizona Parkways, Historic and Scenic Roads list (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20250714193207/https://apps.azdot.gov/files/roadway-engineering/roadside-dev/arizona-parkways-44-historic-and-scenic-roads-(ars-title-41-44-chapter-3-44-article-1-3)-list-and-statute.pdf"
+      "label": "Wikipedia, Sierra Ancha",
+      "url": "https://en.wikipedia.org/wiki/Sierra_Ancha"
     },
     {
       "label": "Wikipedia, Arizona State Route 288",
       "url": "https://en.wikipedia.org/wiki/Arizona_State_Route_288"
     },
     {
-      "label": "Wikipedia, Sierra Ancha",
-      "url": "https://en.wikipedia.org/wiki/Sierra_Ancha"
-    },
-    {
       "label": "Wikipedia, Young, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Young,_Arizona"
-    },
-    {
-      "label": "Wikipedia, Pleasant Valley War",
-      "url": "https://en.wikipedia.org/wiki/Pleasant_Valley_War"
+      "url": "https://en.wikipedia.org/wiki/Young%2C_Arizona"
     },
     {
       "label": "Wikipedia, Willow Springs Lake",
       "url": "https://en.wikipedia.org/wiki/Willow_Springs_Lake"
+    },
+    {
+      "label": "Wikipedia, Pleasant Valley War",
+      "url": "https://en.wikipedia.org/wiki/Pleasant_Valley_War"
     }
   ],
   "reviewed": false

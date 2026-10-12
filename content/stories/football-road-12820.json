@@ -1,16 +1,17 @@
 {
   "id": "football-road-12820",
-  "tagline": "The back way from Greensboro to the game in Chapel Hill.",
+  "tagline": "Quaker settlement, a cotton gin namesake and a railway town",
   "intro": [
-    "From I-85 at Greensboro, Alamance Church Road heads south and Greensboro-Chapel Hill Road carries the byway on, about 42 miles in all, past small dairy farms, creeks and ponds, through Snow Camp and into Carrboro. Most of it is a designated bicycle route, so bicycles are part of the traffic.",
-    "The name comes from the Triad fans who drove this way to football games at the university in Chapel Hill. At the NC 62 crossing a side trip of about 4.5 miles east along NC 62 leads to the Alamance battlefield, where Governor Tryon's militia beat the Regulators in 1771."
+    "Football Road belongs to North Carolina’s Piedmont collection of scenic byways. The North Carolina Department of Transportation describes its byways as alternatives to major highways, chosen to introduce the state’s history, geography and culture.",
+    "Snow Camp’s history reaches back to Quakers who migrated from Pennsylvania to the Cane Creek valley in the mid-1700s. Carrboro developed beside the State University Railroad spur, with settlement increasing after Thomas F. Lloyd built a gristmill near the depot in 1898.",
+    "From Snow Camp, Eli Whitney lies to the east, where Greensboro-Chapel Hill Road meets NC 87. Carrboro lies directly west of Chapel Hill, home of the University of North Carolina’s flagship campus."
   ],
   "moments": [
     {
       "title": "Snow Camp",
       "kind": "town",
-      "scene": "prairie",
-      "text": "Pennsylvania hunters are said to have camped here in a snowfall, and after Guilford Courthouse Cornwallis briefly took over the Quaker Simon Dixon's house and gristmill for quarters.",
+      "scene": "town",
+      "text": "Snow Camp’s Quaker history has a physical center at the spring, where several buildings from the early settlement remain. Friends from Pennsylvania came to the Cane Creek valley in the mid-1700s and established Spring Meeting. The congregation remains active; its present meeting house is the fourth, built in 1907. That wooden building has pointed Gothic Revival windows and a small cupola. Another part of the community’s history centers on Simon Dixon’s gristmill: Cornwallis seized his home and mill for temporary quarters after the Battle of Guilford Courthouse in 1781. Dixon’s gristmill continued operating into the 20th century.",
       "at": [
         -79.43,
         35.89361111
@@ -22,8 +23,8 @@
     {
       "title": "Eli Whitney",
       "kind": "town",
-      "scene": "prairie",
-      "text": "A crossroads named for the inventor of the cotton gin, with no tie to him beyond the cotton gin that once stood here.",
+      "scene": "town",
+      "text": "A cotton gin gave Eli Whitney its name, though the inventor’s life had no direct connection to the community. The crossroads sits at NC 87 and Greensboro-Chapel Hill Road, east of Snow Camp. The community’s former school has its own history of change. Eli Whitney High was built in the 1920s, served the community until 1974 and was demolished the next year. The former gymnasium has a different role now: it is the Eli Whitney Community Center.",
       "at": [
         -79.30722222,
         35.90694444
@@ -33,7 +34,7 @@
       "title": "Carrboro",
       "kind": "town",
       "scene": "town",
-      "text": "The road ends in Carrboro, which grew up around a rail spur that state law kept at least a mile from the university, to guard against damage to student morals and habits of study.",
+      "text": "Carrboro began as West End, a settlement beside the terminus of the State University Railroad spur in 1882. State law kept the railway at least a mile from the university campus to protect student morals and study habits. Thomas F. Lloyd built a steam-powered gristmill near the depot in 1898; it became the Alberta Cotton Mill. Mill No. 4, the original Alberta mill, closed in 1930; passenger trains stopped serving the town in 1936. When demolition threatened the abandoned mill in 1975, a community petition and fundraising effort secured its restoration as Carr Mill Mall.",
       "at": [
         -79.07527778,
         35.91
@@ -42,28 +43,24 @@
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 166)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=166"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 167)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=167"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 168)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=168"
-    },
-    {
       "label": "Wikipedia, Snow Camp, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Snow_Camp,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Snow_Camp%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Eli Whitney, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Eli_Whitney,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Eli_Whitney%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Carrboro, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Carrboro,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Carrboro%2C_North_Carolina"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=166"
+    },
+    {
+      "label": "Wikipedia, Friends Spring Meeting House",
+      "url": "https://en.wikipedia.org/wiki/Friends_Spring_Meeting_House"
     }
   ],
   "reviewed": false

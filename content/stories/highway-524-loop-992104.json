@@ -1,48 +1,63 @@
 {
   "id": "highway-524-loop-992104",
-  "tagline": "A twelve-mile detour to the river town that lost the court.",
+  "tagline": "A loop from US 42 reaches Westport on the Ohio River.",
   "intro": [
-    "KY 524 leaves US 42 between Goshen and Sligo and comes back to it twelve miles on, having gone down to the Ohio River at Westport in between. Across the water is Indiana.",
-    "Westport had its day early. Steamboats and showboats called at its docks, and for a time it held the Oldham County court. Then the railroad passed it by, the river trade fell off, and the flood of 1884 took 27 buildings. About 250 people live there now, and their post office has been open since 1815."
+    "Highway 524 Loop leaves US 42 between Goshen and Sligo, passes through Westport and rejoins the same highway. The Ohio River is the destination at Westport, an unincorporated community in Oldham County.",
+    "The Kentucky Transportation Cabinet recorded the loop’s scenic designation on February 24, 2011. Westport’s postal history reaches back much farther: its post office opened on November 29, 1815.",
+    "Follow KY 524 from US 42 to Westport, then continue along the loop to return to US 42. The state highway stays within Oldham County for its 12.148-mile course."
   ],
   "moments": [
     {
       "title": "Westport landing",
       "kind": "town",
       "scene": "river",
-      "text": "Levi Bowyer ran a ferry from here to the Indiana shore as early as 1800, and by 1818 the town was a commercial center where steamboats stopped regularly.",
+      "text": "Westport stands along the Ohio River, with a post office whose opening dates to November 29, 1815. The unincorporated community had 253 residents in the 2020 census. KY 524 passes through town between its two junctions with US 42.",
       "at": [
         -85.47528,
         38.48722
       ]
     },
     {
-      "title": "Old Westport Courthouse",
-      "kind": "town",
+      "title": "Reuben Sale House",
+      "kind": "separate excursion",
       "scene": "town",
-      "text": "The Westport Methodist Church was built as the county courthouse, and the court left it in 1838 for La Grange, which won the vote with a railroad on its way."
+      "text": "The Reuben Sale House is a brick landmark on Smith Lane near La Grange, built around 1833. Its two stories have four bays, with Flemish-bond brickwork on the front. A double-crib log barn forms a second contributing building in its National Register designation, recorded in 1982.",
+      "at": [
+        -85.425,
+        38.46777778
+      ]
+    },
+    {
+      "title": "Bethlehem, Indiana",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "Bethlehem lies across the Ohio River from Oldham County, in Indiana. Platted in 1812, the community was laid out in a rectangle of 124 lots. Its steamboat and ferry landing, together with roads to New Washington and Lexington, once made it a transportation center. By 1900, ferry service had ended. The 1937 Ohio River flood destroyed much of the town’s historical record. A later preservation effort began with Historic Bethlehem Inc. in 1993, which converted the old elementary school into a community center and started the Autumn on the River festival.",
+      "at": [
+        -85.42055556,
+        38.53916667
+      ]
     }
   ],
   "sources": [
+    {
+      "label": "Wikipedia, List of Kentucky supplemental roads and rural secondary highways (500–599)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Kentucky_supplemental_roads_and_rural_secondary_highways_%28500%E2%80%93599%29"
+    },
+    {
+      "label": "Wikipedia, Westport, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Westport%2C_Kentucky"
+    },
     {
       "label": "Kentucky Transportation Cabinet, Kentucky State and National Scenic Byways and Highways",
       "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
     },
     {
-      "label": "Wikipedia, Kentucky Route 524",
-      "url": "https://en.wikipedia.org/wiki/List_of_Kentucky_supplemental_roads_and_rural_secondary_highways_(500%E2%80%93599)#Kentucky_Route_524"
+      "label": "Wikipedia, Reuben Sale House",
+      "url": "https://en.wikipedia.org/wiki/Reuben_Sale_House"
     },
     {
-      "label": "Wikipedia, Westport, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Westport,_Kentucky"
-    },
-    {
-      "label": "Kentucky Historical Society, ExploreKYHistory, Westport",
-      "url": "https://explorekyhistory.ky.gov/items/show/700"
-    },
-    {
-      "label": "Kentucky Historical Society, ExploreKYHistory, Westport Courthouse",
-      "url": "https://explorekyhistory.ky.gov/items/show/847"
+      "label": "Wikipedia, Bethlehem, Indiana",
+      "url": "https://en.wikipedia.org/wiki/Bethlehem%2C_Indiana"
     }
   ],
   "reviewed": false

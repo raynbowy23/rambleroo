@@ -1,19 +1,30 @@
 {
   "id": "hanging-rock-scenic-byway-11582",
-  "tagline": "Out of Mayberry and around the mountains away from the mountains.",
+  "tagline": "Quartzite ridges and an iron furnace mark the Sauratown country",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "The drive starts on Main Street in Mount Airy, Andy Griffith's hometown and the town taken to be Mayberry, and heads east into the Sauratown Mountains. They are a small, isolated range of quartzite knobs standing up out of the rolling northern Piedmont, apart from the Blue Ridge, and they are sometimes called the mountains away from the mountains. Hanging Rock shows early, off in the distance.",
-    "The road comes down to the Dan River at Danbury, the Stokes County seat, then swings back west for a full loop around the foot of Pilot Mountain. The Saura called that peak Jomeokee, the Great Guide. The settlers who came after took the same hint and named it Pilot."
+    "North Carolina 89 connects Mount Airy with Westfield and Danbury, the county seat beside the Dan River. The Sauratown Mountains rise sharply above the surrounding country, with forested ridges broken by quartzite cliffs. NCDOT includes the Sauratown Mountains Scenic Byway in its Piedmont routes.",
+    "These peaks became parkland through separate efforts. In 1936, the Winston-Salem Foundation and Stokes County Committee for Hanging Rock donated land for a state park after a resort project failed. Pilot Mountain followed in 1968, protected from overdevelopment after a preservation committee raised money and obtained a federal grant to purchase the land.",
+    "From Mount Airy, N.C. 89 runs east through Westfield toward Danbury. Danbury stands on the Dan River near the entrance to Hanging Rock State Park. West of Danbury lies Moores Springs, also near Hanging Rock. Pilot Mountain State Park occupies the western end of the Sauratown range."
   ],
   "moments": [
     {
-      "title": "Hanging Rock State Park",
+      "title": "Moratock Iron Furnace",
       "kind": "roadside",
+      "scene": "town",
+      "text": "Moratock Iron Furnace survives in Danbury’s Moratock Park, where iron ore was once smelted. During the Civil War, Danbury supported the Confederate Army, though no battles occurred in the town. Union cavalry under George Stoneman destroyed most of the foundryworks during raids in 1865. The raid passed through Danbury on April 9, the day Confederate forces surrendered at Appomattox Court House. The furnace site is now part of a public park.",
+      "at": [
+        -80.19972222,
+        36.4075
+      ]
+    },
+    {
+      "title": "Hanging Rock State Park",
+      "kind": "separate excursion",
       "scene": "mountain",
-      "text": "The outcrop that names the park is one of the quartzite knobs left standing when the softer rock around them wore away, and it is in view from the start of the byway.",
+      "text": "Hanging Rock is one of the quartzite remnants left after erosion wore away surrounding rock. The Sauratown peaks stand apart from the Blue Ridge Mountains. A proposed resort on the highest summit failed when its developers went bankrupt. In 1936, the Winston-Salem Foundation and Stokes County Committee for Hanging Rock donated 3,096 acres to establish the park. The Civilian Conservation Corps built a dam, a 12-acre lake, trails and picnic and camping areas. The original facilities included a bathhouse, which entered the National Register of Historic Places in 1991.",
       "at": [
         -80.254122,
         36.411906
@@ -23,20 +34,11 @@
       ]
     },
     {
-      "title": "Moratock Iron Furnace",
-      "kind": "roadside",
-      "scene": "town",
-      "text": "Nathaniel Moody's granite furnace of 1843 made swords and munitions for the Confederacy until Stoneman's cavalry wrecked most of the works in 1865, and the furnace still stands in Moratock Park.",
-      "at": [
-        -80.19972222,
-        36.4075
-      ]
-    },
-    {
       "title": "Pilot Mountain",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "mountain",
-      "text": "The byway circles the base of the mountain, and the Big Pinnacle turns with it, bare rock walls under a rounded green top ringed with Catawba rhododendron.",
+      "text": "Big Pinnacle has bare rock walls beneath a rounded, vegetation-covered top. Its quartzite core resisted erosion while the surrounding mountain wore away. The Saura knew the mountain as Jomeokee, meaning the Great Guide; European settlers also used it as a guidepost and named it Pilot. After operating as a commercial tourist attraction, the mountain became a state park in 1968. Catawba rhododendron grows in a ring at Big Pinnacle and flowers pink in spring. Beside Big Pinnacle is Little Pinnacle, separated from the rounded knob by a curved depression that helps give the mountain its shape.",
+      "notice": "Big Pinnacle’s bare walls rise to a rounded top covered with vegetation.",
       "at": [
         -80.4742242,
         36.3401384
@@ -45,32 +47,32 @@
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=134"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (points of interest)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=136"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (points of interest, continued)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=137"
-    },
-    {
-      "label": "Wikipedia, Mount Airy, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Mount_Airy,_North_Carolina"
-    },
-    {
       "label": "Wikipedia, Sauratown Mountains",
       "url": "https://en.wikipedia.org/wiki/Sauratown_Mountains"
+    },
+    {
+      "label": "Wikipedia, Danbury, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Danbury%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Westfield, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Westfield%2C_North_Carolina"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, Fifth Edition",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=134"
     },
     {
       "label": "Wikipedia, Hanging Rock State Park",
       "url": "https://en.wikipedia.org/wiki/Hanging_Rock_State_Park"
     },
     {
-      "label": "Wikipedia, Danbury, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Danbury,_North_Carolina"
+      "label": "Wikipedia, Pilot Mountain State Park",
+      "url": "https://en.wikipedia.org/wiki/Pilot_Mountain_State_Park"
+    },
+    {
+      "label": "Wikipedia, Moores Springs, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Moores_Springs%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Moratock Park",
@@ -78,11 +80,7 @@
     },
     {
       "label": "Wikipedia, Pilot Mountain (North Carolina)",
-      "url": "https://en.wikipedia.org/wiki/Pilot_Mountain_(North_Carolina)"
-    },
-    {
-      "label": "Wikipedia, Pilot Mountain State Park",
-      "url": "https://en.wikipedia.org/wiki/Pilot_Mountain_State_Park"
+      "url": "https://en.wikipedia.org/wiki/Pilot_Mountain_%28North_Carolina%29"
     }
   ],
   "reviewed": false

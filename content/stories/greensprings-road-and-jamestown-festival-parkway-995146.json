@@ -1,16 +1,17 @@
 {
   "id": "greensprings-road-and-jamestown-festival-parkway-995146",
-  "tagline": "Three miles from a governor's spring to the Jamestown ships.",
+  "tagline": "A short parkway links Jamestown’s commemorative landscape with the Colonial Parkway",
   "intro": [
-    "A short one, about three miles. Centerville and Greensprings roads come down from near the old Green Spring plantation to the Jamestown Festival Parkway, a state highway only a third of a mile long, which meets the Colonial Parkway near Jamestown.",
-    "Green Spring belonged to Sir William Berkeley, one of the least popular governors colonial Virginia had, who tried flax, rice, silk and spirits there as something to sell besides tobacco. The plantation saw Bacon's Rebellion in 1676 and a battle of the Revolution in 1781."
+    "Jamestown Festival Parkway covers just 0.34 mile between SR 31 and the Colonial Parkway near Jamestown. Nearby, Jamestown Settlement presents a recreated fort, a Powhatan town and replica ships. Green Spring, the former plantation of Sir William Berkeley and Frances Culpeper Berkeley, lies about five miles west of Williamsburg.",
+    "The earlier, 1907 anniversary exposition had been held at Sewell’s Point in Norfolk because of transportation and other considerations. The approach changed for Jamestown’s 350th anniversary in 1957. Completion of the Colonial Parkway and restoration of the land connection to Jamestown Island gave visitors new access. State highway improvements also relocated the ferry’s north landing and part of SR 31. Virginia took over Jamestown Festival Parkway in 1959.",
+    "Green Spring’s preserved core contains archaeological and architectural remnants of the plantation house and associated structures. At the Jamestown end, Festival Parkway connects SR 31 with the Colonial Parkway. Jamestown Settlement stands beside the island; the glasshouse lies between the museum and Jamestown Island, near the Colonial Parkway. Historic Jamestowne occupies the original fort and town site on the island. On the island, the church built in 1907 incorporates a surviving 17th-century tower."
   ],
   "moments": [
     {
       "title": "Green Spring Plantation",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "Only remnants are left of Berkeley's house of 1645, but the spring still runs, so cold that a visitor in the 1680s thought it dangerous to drink in summer.",
+      "text": "Green Spring’s house survives as archaeological and architectural remnants, alongside traces of its associated buildings. The plantation house was built in 1645 on an experimental farm. Seeking exports to supplement tobacco, the plantation produced flax, fruit, potash, rice, silk and spirits for markets on both sides of the Atlantic. People enslaved here were emancipated in 1804 under William Ludwell Lee’s will. A second mansion burned during the Civil War; the National Park Service acquired the preserved property in 1966. The natural spring gave the plantation its name and continues to produce cold water.",
       "at": [
         -76.80305556,
         37.2575
@@ -18,31 +19,50 @@
     },
     {
       "title": "Jamestown Settlement",
-      "kind": "roadside",
+      "kind": "short walk",
       "scene": "river",
-      "text": "It opened as Jamestown Festival Park for the 350th anniversary in 1957, the year Queen Elizabeth II came, and keeps replicas of the Susan Constant, Godspeed and Discovery.",
+      "text": "The three ships here are replicas: Susan Constant, Godspeed and Discovery. Full-sized versions were built in Portsmouth for the 1957 festival and brought to Glass House Point. Jamestown Settlement began that year as Jamestown Festival Park, marking the colony’s 350th anniversary. Queen Elizabeth II and Prince Philip visited on October 16. The living history museum includes a recreated James Fort and Powhatan town; nearby Historic Jamestowne occupies the original settlement site. The indoor galleries bring together objects representing the Powhatan Indian, European and African cultures that converged in 17th-century Virginia.",
+      "notice": "Notice the replica ships and reconstructed fort as elements of the museum’s interpretation.",
       "at": [
         -76.78623056,
         37.22275
+      ]
+    },
+    {
+      "title": "Jamestown Glasshouse",
+      "kind": "short walk",
+      "scene": "river",
+      "text": "The glasshouse workshop uses a larger furnace than its 1608 predecessor, with natural gas replacing wood as fuel. German and Polish glassblowers arrived in 1608, and a glasshouse followed soon afterward. Workers cut hardwood for the furnaces and gathered ash, sand, crushed oyster shells and burned seaweed. Their glassware included a sample sent to England. The present building and workshop were rebuilt in the 1970s; local artists continue to blow glass and explain the craft. The modern workshop uses a purchased glass mix similar to the early material, demonstrating the craft with different equipment and fuel.",
+      "at": [
+        -76.78527778,
+        37.22083333
       ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
-    {
       "label": "Wikipedia, List of primary state highways in Virginia shorter than one mile",
       "url": "https://en.wikipedia.org/wiki/List_of_primary_state_highways_in_Virginia_shorter_than_one_mile"
+    },
+    {
+      "label": "Wikipedia, Jamestown Settlement",
+      "url": "https://en.wikipedia.org/wiki/Jamestown_Settlement"
     },
     {
       "label": "Wikipedia, Green Spring Plantation",
       "url": "https://en.wikipedia.org/wiki/Green_Spring_Plantation"
     },
     {
-      "label": "Wikipedia, Jamestown Settlement",
-      "url": "https://en.wikipedia.org/wiki/Jamestown_Settlement"
+      "label": "Wikipedia, Jamestown",
+      "url": "https://en.wikipedia.org/wiki/Jamestown"
+    },
+    {
+      "label": "Wikipedia, Jamestown Glasshouse",
+      "url": "https://en.wikipedia.org/wiki/Jamestown_Glasshouse"
+    },
+    {
+      "label": "Wikipedia, Historic Jamestown",
+      "url": "https://en.wikipedia.org/wiki/Historic_Jamestown"
     }
   ],
   "reviewed": false

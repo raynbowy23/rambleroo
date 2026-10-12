@@ -1,27 +1,39 @@
 {
   "id": "falling-waters-scenic-byway-994502",
-  "tagline": "A mountain road with walking trails beyond the pavement.",
+  "tagline": "Two highway branches lead toward the state line and waterfall trails.",
   "intro": [
-    "Along SC 107, Falling Waters runs north toward the North Carolina line, with a connecting branch across to SC 130. The Foothills Trail meets the highway at Sloan Bridge, five and a half miles by foot from Upper Whitewater Falls.",
-    "The waterfall is a separate excursion across the state line. Viewing platforms stand at different heights, and the trail passes through its base. The other way from Sloan Bridge, past Fish Hatchery Road, the trail descends into the Chattooga River gorge."
+    "Falling Waters follows SC 107 north toward North Carolina, with a connecting branch on S-37-413 and SC 130. South Carolina law designates these connected roads, totaling approximately thirteen miles, as the Falling Waters Scenic Byway. At Sloan Bridge, SC 107 meets the Foothills Trail, whose route links Upper Whitewater Falls with the Chattooga River gorge.",
+    "The state designation took effect on March 31, 2010, adding another identity to roads already partly recognized as the Oscar Wigington United States Forest Service Scenic Byway. The law allows both designations to remain on those overlapping sections. Beyond the roads, the Foothills Trail has its own construction history: the Forest Service began building the Sumter National Forest section in 1968, and Duke Power built the middle portion in conjunction with its Bad Creek pumped-storage project.",
+    "Begin at the Forest Service property line south of Dodge Mountain and follow SC 107 north to the state line. The other branch runs northeast from SC 107 along S-37-413 to SC 130, then continues northeast to North Carolina. Upper Whitewater Falls lies beyond that border, in North Carolina, with viewing platforms at different heights."
   ],
   "moments": [
+    {
+      "title": "Oconee State Park",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Some of the buildings at Oconee State Park were built by the Civilian Conservation Corps, which created the park in the 1930s. The work belonged to the Great Depression program that put men to work on civilian projects. The park now holds the southern end of the Foothills Trail and the western end of the Oconee Passage of the Palmetto Trail. Two small lakes and eight nature and hiking trails give this Blue Ridge park a landscape beyond its Depression-era buildings. Fifteen cabins, the superintendent’s residence and garage, shelters, the swimming lake and bath house were among the structures listed on the National Register in 2004.",
+      "at": [
+        -83.10413889,
+        34.86644444
+      ]
+    },
     {
       "title": "Sloan Bridge",
       "kind": "roadside",
       "scene": "forest",
-      "text": "At SC 107, the Foothills Trail reaches Sloan Bridge, a trailhead between Upper Whitewater Falls and the Chattooga River gorge."
+      "text": "At Sloan Bridge, a highway crossing divides two very different walks on the Foothills Trail. The section between here and Upper Whitewater Falls covers 5.5 miles, crossing into North Carolina and back into South Carolina. In the other direction, 3.3 miles lead to Fish Hatchery Road; the following section descends into the Chattooga River gorge. The longer trail grew in stages: the Forest Service began its Sumter National Forest section in 1968, and Duke Power built the middle portion alongside its Bad Creek hydroelectric project. The complete 76-mile trail connects Table Rock State Park with Oconee State Park."
     },
     {
       "title": "Upper Whitewater Falls",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Beyond the state line in North Carolina, viewing platforms look onto the falls from different heights."
+      "text": "Viewing platforms at different heights offer several perspectives on Upper Whitewater Falls. The waterfall lies on the Whitewater River in the mountainous part of North Carolina, close to the South Carolina border. Nantahala National Forest protects the waterfall, and the Foothills Trail passes through its base. Lower Whitewater Falls is a different waterfall, about two miles downstream in South Carolina.",
+      "notice": "Look for the different views from platforms at varying heights."
     }
   ],
   "sources": [
     {
-      "label": "South Carolina Legislature, Scenic Highways",
+      "label": "South Carolina Legislature, Highway Beautification and Scenic Routes",
       "url": "https://www.scstatehouse.gov/code/t57c023.php"
     },
     {
@@ -31,6 +43,10 @@
     {
       "label": "Wikipedia, Upper Whitewater Falls",
       "url": "https://en.wikipedia.org/wiki/Upper_Whitewater_Falls"
+    },
+    {
+      "label": "Wikipedia, Oconee State Park",
+      "url": "https://en.wikipedia.org/wiki/Oconee_State_Park"
     }
   ],
   "reviewed": false

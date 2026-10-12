@@ -1,25 +1,36 @@
 {
   "id": "garnet-back-country-byway-2139",
-  "tagline": "Twelve miles up to a gold town that kept its buildings.",
+  "tagline": "Climb through evergreen forest to a gold town with surviving buildings",
   "motifs": [
     "mining-town"
   ],
   "intro": [
-    "About 30 miles east of Missoula the Garnet Range Road leaves Highway 200 and climbs 2,000 feet in 12 miles through evergreen forest. At the top, around 6,000 feet in First Chance Gulch, is Garnet.",
-    "Miners worked these mountains from the 1860s, and when a stamp mill went up in 1895 a town grew around it, with three hotels, grocery stores, a barber shop and close to thirteen saloons. The gold gave out and the people left. Thirty buildings stayed, and they look much as they did in 1895."
+    "The Garnet Back Country Byway climbs 2,000 feet through the Garnet Range on a 12-mile journey to Garnet Ghost Town. Evergreen forest accompanies the ascent, with views of the Blackfoot River Valley, Swan Range, Mission Mountains and Bob Marshall Wilderness. Visit Montana identifies the ghost town as a major attraction of the byway; BLM emphasizes its preserved buildings. Driving the route usually takes 45 minutes.",
+    "Miners began prospecting in these mountains in the 1860s. A town grew beside a stamp mill built at First Chance Gulch in 1895, initially called Mitchell and renamed Garnet in 1897. Its population rose and fell with the mines, and a fire destroyed much of the town in 1912. One thousand people lived here in the 1890s; the town was largely abandoned twenty years later when the gold ran out. The remaining buildings have been preserved and are open to visitors.",
+    "From Highway 200, take Garnet Range Road into the mountains toward Garnet. The town occupies First Chance Gulch amid mountains and forest. The route ends at a junction with another BLM service road at Elk Creek. The alternative approach from Bear Gulch is steep, narrow and rough."
   ],
   "moments": [
     {
       "title": "Garnet Range Road",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "As the road climbs, the Blackfoot River valley opens up behind it, with the Swan Range, the Mission Mountains and the Bob Marshall Wilderness beyond."
+      "text": "The byway begins where Garnet Range Road leaves Highway 200, thirty miles east of Missoula. The ascent gains 2,000 feet, carrying the byway into evergreen forest. Views include the Blackfoot River Valley and the Swan and Mission ranges, as well as the Bob Marshall Wilderness. The road also has a winter role: BLM marks and grooms the route for snowmobiles from January 1 through April 30. Garnet belongs to a wider network of winter routes, with the 31.5-mile Garnet National Winter Recreation Trail System serving as the range’s winter recreation hub."
+    },
+    {
+      "title": "Coloma",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "Coloma is another ghost town in the Garnet Range, with a mining history that extended beyond a single boom. Records show substantial gold mining from 1896 onward. A mill was built in 1916, when further surveys examined the ore veins, apparently without success. Further prospecting took place between 1932 and 1950.",
+      "at": [
+        -113.38055556,
+        46.84305556
+      ]
     },
     {
       "title": "Garnet",
       "kind": "town",
       "scene": "mountain",
-      "text": "The hotels charged one to three dollars a night, and a miner who could not manage that could sleep in a windowless attic for a quarter.",
+      "text": "A stamp mill at First Chance Gulch gave Garnet its start in 1895. The town had three hotels alongside grocery stores and a barber shop. Hotel rates typically ran from one to three dollars; miners who could not afford them could pay a quarter to sleep in a windowless attic. The population reached as many as one thousand in 1898, but fell to three hundred by 1900. A fire destroyed much of the town in 1912, adding another loss to the repeated rises and falls of its mining population. The surviving buildings are preserved under BLM management and open to visitors.",
       "at": [
         -113.33888889,
         46.82527778
@@ -30,24 +41,28 @@
     }
   ],
   "practical": [
-    "In winter the byway is closed to cars and groomed for snowmobiles, and the other way in, up Bear Gulch from I-90, is steep, narrow and rough and not recommended for trailers or RVs."
+    "Garnet Range Road: Winter access to Garnet from either direction is only by snowmobile, snowshoes or cross-country skis. The steep, narrow and rough Bear Gulch approach is not recommended for trailers or RVs. (checked 2026-10-11)"
   ],
   "sources": [
-    {
-      "label": "BLM, Garnet Back Country Byway",
-      "url": "https://www.blm.gov/visit/garnet-back-country-byway"
-    },
-    {
-      "label": "BLM, Garnet Ghost Town",
-      "url": "https://www.blm.gov/visit/garnet-ghost-town"
-    },
     {
       "label": "Visit Montana, Garnet Back Country Byway",
       "url": "https://visitmt.com/listing/garnet-back-country-byway-7008"
     },
     {
+      "label": "Bureau of Land Management, Garnet Ghost Town",
+      "url": "https://www.blm.gov/visit/garnet-ghost-town"
+    },
+    {
       "label": "Wikipedia, Garnet, Montana",
-      "url": "https://en.wikipedia.org/wiki/Garnet,_Montana"
+      "url": "https://en.wikipedia.org/wiki/Garnet%2C_Montana"
+    },
+    {
+      "label": "Bureau of Land Management, Garnet Back Country Byway",
+      "url": "https://www.blm.gov/visit/garnet-back-country-byway"
+    },
+    {
+      "label": "Wikipedia, Coloma, Montana",
+      "url": "https://en.wikipedia.org/wiki/Coloma%2C_Montana"
     }
   ],
   "reviewed": false

@@ -1,16 +1,18 @@
 {
   "id": "historic-us-80-992203",
-  "tagline": "The old coast-to-coast road, from Ruston to the Mississippi.",
+  "tagline": "Farm and forest roads carry a coast-to-coast highway’s Louisiana story.",
   "intro": [
-    "Before the interstates, US 80 ran clear across the country, and much of it had been the auto trail called the Dixie Overland Highway. In north Louisiana the state keeps 105 miles of it as a byway, from Ruston east by Monroe and Tallulah to the Mississippi River opposite Vicksburg. I-20 runs alongside now and carries the long-distance traffic.",
-    "The road crosses farm and timber country and is still a working route for farmers and loggers. Ruston, where it starts, is known for its peaches and has an 18-block historic district."
+    "Historic US 80 leads east from Ruston through farms and forests to the Louisiana-Mississippi state line. Louisiana’s tourism office presents the designated byway as a view of that working landscape, still used by farmers and loggers. The drive changes from a two-lane approach to Monroe to wider commercial streets, then returns to two lanes east of the city. The tourism office suggests one to two days for a self-guided tour.",
+    "In Louisiana, US 80 followed the existing Dixie Overland Highway, an earlier named auto trail. The numbered highway was designated in 1926 as part of a route between Savannah and San Diego. Bridges changed the local journey: a new Ouachita crossing in 1936 carried an alignment that bypassed downtown Monroe. As I-20 opened in stages between 1960 and 1977, US 80 shifted from northern Louisiana’s main highway toward local service.",
+    "Ruston’s historic district extends across 18 blocks. Start in Ruston, then continue through Calhoun to West Monroe and across the Ouachita into Monroe. Eastward come Rayville, Delhi and Tallulah, with Poverty Point at Epps offering a separate excursion near Delhi. At Delta, the old highway bridge is closed to road traffic; US 80 joins I-20 for the Mississippi crossing toward Vicksburg."
   ],
+  "notice": "Farm fields and forested landscapes border the byway.",
   "moments": [
     {
       "title": "Biedenharn Museum and Gardens",
       "kind": "town",
       "scene": "river",
-      "text": "Joseph Biedenharn, credited with first bottling Coca-Cola, built this house beside the Ouachita in 1913, then with his son bought a crop-dusting business that grew into Delta Air Lines.",
+      "text": "A bottling fortune and a daughter’s collections meet at the Biedenharn Museum and Gardens beside the Ouachita River. Joseph Biedenharn built the house as a private residence in 1913. He made his fortune bottling Coca-Cola. The house is furnished for the years when his daughter Emma Louise, known as Emy-Lou, lived there. Her gardening and collections of Bibles and religious art led to the botanical gardens and Bible museum. The complex also includes a Coca-Cola museum; the garden’s name, ELsong, abbreviates Emy-Lou’s song. The garden includes the Four Seasons Garden, Oriental Garden and Musical Grotto.",
       "at": [
         -92.1312,
         32.5197
@@ -20,7 +22,8 @@
       "title": "Poverty Point",
       "kind": "separate excursion",
       "scene": "prairie",
-      "text": "Just outside Delhi, six concentric C-shaped earthen ridges, raised in the Late Archaic period and found nowhere else, run out to the edge of Macon Ridge.",
+      "text": "Six concentric C-shaped earthen ridges extend to the edge of Macon Ridge at Poverty Point. Indigenous builders raised the site’s ridges and mounds during the Late Archaic period. They lived by hunting, fishing and gathering. The plaza also required work: builders filled gullies and added soil to raise portions of its surface. The scale of the ridges concealed their geometry until researchers studied aerial photographs. Mound A rises 72 feet at its highest point, west of the ridges. Four aisles divide the ridges into sectors, and a swale separates each ridge from the next.",
+      "notice": "Mound A stands west of the concentric ridges and reaches 72 feet at its highest point.",
       "at": [
         -91.41138889,
         32.63666667
@@ -30,16 +33,19 @@
       "title": "Delta",
       "kind": "town",
       "scene": "river",
-      "text": "Across the river from Vicksburg, Delta is the birthplace of Madam C. J. Walker and keeps a remnant of Grant's Canal, dug in 1862 and 1863 to get around the Confederate guns.",
+      "text": "Across the Mississippi from Vicksburg, Delta preserves a remnant of a failed attempt to bypass the city’s Confederate defenses. Union troops began digging in 1862 under Thomas Williams, using labor from enslaved people taken from nearby plantations. Union raiding parties compelled people into service; many others came after being promised freedom for their work. Grant renewed the project in 1863, but flooding helped defeat it. The surviving section became part of Vicksburg National Military Park in 1990. Work stopped in March; Grant captured Vicksburg by other means, and its garrison surrendered on July 4, 1863.",
       "at": [
         -90.97,
         32.32555556
       ]
     }
   ],
+  "practical": [
+    "Delta: The old US 80 Mississippi bridge is closed to vehicle traffic. US 80 uses the I-20 bridge for the river crossing. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "Louisiana Office of Tourism, Historic US 80 (Wayback Machine snapshot)",
+      "label": "Louisiana Office of Tourism, Historic US 80 (archived April 22, 2025)",
       "url": "https://web.archive.org/web/20250422131002/https://byways.explorelouisiana.com/byway/historic-us-80"
     },
     {
@@ -51,16 +57,16 @@
       "url": "https://en.wikipedia.org/wiki/Biedenharn_Museum_and_Gardens"
     },
     {
-      "label": "Wikipedia, Joseph A. Biedenharn",
-      "url": "https://en.wikipedia.org/wiki/Joseph_A._Biedenharn"
-    },
-    {
       "label": "Wikipedia, Poverty Point",
       "url": "https://en.wikipedia.org/wiki/Poverty_Point"
     },
     {
       "label": "Wikipedia, Delta, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Delta,_Louisiana"
+      "url": "https://en.wikipedia.org/wiki/Delta%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Grant's Canal",
+      "url": "https://en.wikipedia.org/wiki/Grant%27s_Canal"
     }
   ],
   "reviewed": false

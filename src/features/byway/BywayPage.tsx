@@ -124,7 +124,9 @@ export default function BywayPage() {
         <p className={s.subline}>{story?.tagline ?? listingDescription(b)}</p>
         <p className={s.muted}>
           {story
-            ? 'Story'
+            ? story.draft
+              ? 'Draft story · pending rewrite'
+              : 'Story'
             : storyStatus === 'loading'
               ? 'Opening story…'
               : storyStatus === 'error'
@@ -338,7 +340,7 @@ export default function BywayPage() {
             </div>
             <div>
               <dt>Editorial status</dt>
-              <dd>{story ? 'Story' : 'Listing'}</dd>
+              <dd>{story ? (story.draft ? 'Draft story · pending rewrite' : 'Story') : 'Listing'}</dd>
             </div>
             <div>
               <dt>Lead photo</dt>
