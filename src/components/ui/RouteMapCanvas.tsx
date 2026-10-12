@@ -1,5 +1,6 @@
 import { ReliefControls } from '../../features/map/ReliefControls'
 import { isTerrainError } from '../../features/map/terrain'
+import { longestPart, journeyPoint } from '../../features/map/routeJourney'
 import { useEffect, useRef, useState } from 'react'
 import maplibre from '../../features/map/maplibre'
 import { createMapStyle, palette } from '../../features/map/style'
@@ -118,6 +119,7 @@ export function RouteMap({
               })
               current.setPaintProperty('selected-glow', 'line-opacity', 0)
               current.setLayoutProperty('selected-art', 'visibility', 'none')
+              const route = longestPart(data.features.filter((f) => ids.has(f.properties.id)).flatMap((f) => f.geometry.coordinates))
               const start = performance.now()
               const color = c('forest')
               const trace = (now: number) => {
@@ -130,6 +132,14 @@ export function RouteMap({
                   Math.max(0.00001, progress),
                   'rgba(0,0,0,0)',
                 ])
+                if (route) {
+                  const point = journeyPoint(route, progress)
+                  ;(current.getSource('route-car') as maplibre.GeoJSONSource).setData({
+                    type: 'Feature',
+                    properties: { bearing: point.bearing },
+                    geometry: { type: 'Point', coordinates: point.coordinates },
+                  })
+                }
                 if (progress < 1) frame = requestAnimationFrame(trace)
               }
               trace(start)

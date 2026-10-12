@@ -3,15 +3,24 @@ import maplibre, { type CustomLayerInterface, type Map } from './maplibre'
 import { buildShip, buildVehicle, disposeVehicle } from '../../components/art/vehicle3d'
 import type { Garage } from '../../lib/garage'
 import { loadCarPicture } from '../../lib/carPicture'
+import { ribbonFade, ribbonWidth, roadDeckLift } from './roadGeometry'
 
 export const carLayerId = 'garage-car-3d'
 /** `ship`: a marine-highway route, where the car rides aboard a ferry instead of driving. */
-export function createCarLayer(garage: Garage, initial: [number, number], heading = 0, ship = false) {
+export function createCarLayer(
+  garage: Garage,
+  initial: [number, number],
+  heading = 0,
+  ship = false,
+  options: { onReady?: () => void; onFailure?: () => void; road?: boolean } = {},
+) {
   let point = initial
   let bearing = heading
   let map: Map
   let renderer: THREE.WebGLRenderer
   let disposed = false
+  let failed = false
+  let ready = false
   const camera = new THREE.Camera()
   camera.matrixAutoUpdate = false
   camera.matrixWorldAutoUpdate = false
@@ -43,7 +52,17 @@ export function createCarLayer(garage: Garage, initial: [number, number], headin
     renderingMode: '3d',
     onAdd(current, gl) {
       map = current
-      renderer = new THREE.WebGLRenderer({ canvas: map.getCanvas(), context: gl })
+      try {
+        renderer = new THREE.WebGLRenderer({ canvas: map.getCanvas(), context: gl })
+        renderer.debug.onShaderError = () => {
+          failed = true
+          options.onFailure?.()
+        }
+      } catch {
+        failed = true
+        options.onFailure?.()
+        return
+      }
       renderer.autoClear = false
       // A ferry stays a ferry; the round car picture is for roads.
       if (!ship && garage.usePicture && garage.picture)
@@ -76,31 +95,44 @@ export function createCarLayer(garage: Garage, initial: [number, number], headin
           .catch(() => {})
     },
     render(_gl, input) {
-      const angle = (bearing * Math.PI) / 180
-      sun.position.set(-4 * Math.cos(angle) - 5 * Math.sin(angle), -4 * Math.sin(angle) + 5 * Math.cos(angle), 8)
-      const elevation = map.queryTerrainElevation(point) ?? 0
-      const location = maplibre.MercatorCoordinate.fromLngLat(point, elevation)
-      // Size the toy in screen pixels (~64 px long for a ~4.5-unit model), so it reads as a toy on the relief map at any
-      // zoom. Metres per pixel follow Web Mercator with MapLibre's 512 px tiles.
-      const metresPerPixel = (40075016.686 * Math.cos((point[1] * Math.PI) / 180)) / (512 * 2 ** map.getZoom())
-      const metres = (64 / 4.5) * metresPerPixel
-      const scale = location.meterInMercatorCoordinateUnits() * metres
-      const transform = new THREE.Matrix4()
-        .makeTranslation(location.x, location.y, location.z)
-        .scale(new THREE.Vector3(scale, -scale, scale))
-        .multiply(new THREE.Matrix4().makeRotationZ((-bearing * Math.PI) / 180))
-      // Separate view and projection so picture sprites really face the camera.
-      camera.projectionMatrix.fromArray(input.projectionMatrix)
-      view
-        .copy(camera.projectionMatrix)
-        .invert()
-        .multiply(new THREE.Matrix4().fromArray(input.defaultProjectionData.mainMatrix))
-        .multiply(transform)
-      camera.matrixWorldInverse.copy(view)
-      camera.matrixWorld.copy(view).invert()
-      renderer.resetState()
-      renderer.render(scene, camera)
-      renderer.resetState()
+      if (failed || map.getPitch() < 20) return
+      try {
+        const angle = (bearing * Math.PI) / 180
+        sun.position.set(-4 * Math.cos(angle) - 5 * Math.sin(angle), -4 * Math.sin(angle) + 5 * Math.cos(angle), 8)
+        const surface = options.road
+          ? ribbonFade(map.getZoom()) * (1 + ribbonWidth(map.getZoom(), point[1]) * (0.025 + (roadDeckLift.get(map)?.(point) ?? 0)))
+          : 0
+        const elevation = (map.queryTerrainElevation(point) ?? 0) + surface
+        const location = maplibre.MercatorCoordinate.fromLngLat(point, elevation)
+        // Size the toy in screen pixels (~64 px long for a ~4.5-unit model), so it reads as a toy on the relief map at any
+        // zoom. Metres per pixel follow Web Mercator with MapLibre's 512 px tiles.
+        const metresPerPixel = (40075016.686 * Math.cos((point[1] * Math.PI) / 180)) / (512 * 2 ** map.getZoom())
+        const metres = (64 / 4.5) * metresPerPixel
+        const scale = location.meterInMercatorCoordinateUnits() * metres
+        const transform = new THREE.Matrix4()
+          .makeTranslation(location.x, location.y, location.z)
+          .scale(new THREE.Vector3(scale, -scale, scale))
+          .multiply(new THREE.Matrix4().makeRotationZ((-bearing * Math.PI) / 180))
+        // Separate view and projection so picture sprites really face the camera.
+        camera.projectionMatrix.fromArray(input.projectionMatrix)
+        view
+          .copy(camera.projectionMatrix)
+          .invert()
+          .multiply(new THREE.Matrix4().fromArray(input.defaultProjectionData.mainMatrix))
+          .multiply(transform)
+        camera.matrixWorldInverse.copy(view)
+        camera.matrixWorld.copy(view).invert()
+        renderer.resetState()
+        renderer.render(scene, camera)
+        renderer.resetState()
+        if (!ready && !failed) {
+          ready = true
+          options.onReady?.()
+        }
+      } catch {
+        failed = true
+        options.onFailure?.()
+      }
     },
     onRemove() {
       disposed = true
