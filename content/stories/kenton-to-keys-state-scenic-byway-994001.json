@@ -1,16 +1,18 @@
 {
   "id": "kenton-to-keys-state-scenic-byway-994001",
-  "tagline": "Out of the one Oklahoma town that keeps Mountain Time.",
+  "tagline": "From lava mesas to straight miles on an old U.S. highway.",
   "intro": [
-    "SH 325 comes in from New Mexico at the far tip of the Panhandle, bridges Carrizozo Creek and passes through Kenton, down in the Cimarron River valley among mesas formed by ancient lava flows. Black Mesa, the top of Oklahoma at 4,973 feet, stands just north of town.",
-    "Past South Carrizo Creek the road swings south for about 12 miles, then east, and the rest is a mostly flat, straight shot into Boise City. From there the byway carries on along the US highways to Keyes, a railroad town of 1925."
+    "SH-325 crosses the western Oklahoma Panhandle from the New Mexico line through Kenton to Boise City. Kenton lies in the Cimarron River valley, among mesas formed by ancient lava flows. East of town, creek crossings give way to a southward turn, then a mostly flat, straight approach to Boise City. Black Mesa State Park is reached from this road, near Oklahoma’s highest point.",
+    "The Kenton road became part of the state highway system in 1926, carrying both SH-11 and the new U.S. 64 designation. The 1928 official state map marked the road “Not maintained,” although it still carried both numbers; state maintenance had resumed by 1930. In 1947, U.S. 64 moved to a new road southwest from Boise City, leaving the old route without a highway number. A brief return as SH-134 followed; the present SH-325 number arrived in 1973.",
+    "From the state line, the drive crosses Carrizozo Creek and passes through Kenton before reaching Tesesquite and South Carrizo creeks. The road then heads south for about 12 miles before turning east toward Boise City’s courthouse traffic circle. Continue toward Keyes on U.S. 56, which runs along the north side of that railroad town."
   ],
   "moments": [
     {
       "title": "Kenton",
       "kind": "town",
       "scene": "desert",
-      "text": "Kenton keeps Mountain Time informally, because most of the people it deals with come from New Mexico or Colorado, and posted business hours end in MT to settle the matter.",
+      "text": "Kenton keeps Mountain Time informally, even though the official time-zone boundary lies at the New Mexico line. Posted business hours use “MT” or “MST” to make that local practice clear. The town lies south of Black Mesa in the Cimarron River valley. Kenton briefly served as Cimarron County’s seat when Oklahoma became a state in 1907, before a county vote moved the seat to Boise City in 1908. Its museum occupies a former residence built of native rock in 1902. Inside are period photographs, antiques and artifacts connected with settlement of No Man’s Land.",
+      "notice": "The Kenton Museum occupies a 1902 building made of native rock.",
       "at": [
         -102.96333,
         36.90306
@@ -20,7 +22,7 @@
       "title": "Black Mesa State Park",
       "kind": "separate excursion",
       "scene": "desert",
-      "text": "Lake Carl Etling, dammed on South Carrizo Creek in 1959, lies under the darkest sky of any state park in Oklahoma.",
+      "text": "The lake and the summit belong to different stops. Black Mesa State Park lies about 15 miles from Black Mesa itself, whose Oklahoma high point reaches 4,973 feet. Within the park, Lake Carl Etling was created in 1959 by a dam across South Carrizo Creek. The creek is intermittent; beyond the lake it continues northeast to the Cimarron River. The mesa’s name comes from the black lava rock covering it. That resistant lava once filled a stream channel; erosion removed the neighboring softer rock and left the former valley standing as a ridge.",
       "at": [
         -102.8802,
         36.84586
@@ -30,7 +32,8 @@
       "title": "Boise City",
       "kind": "town",
       "scene": "prairie",
-      "text": "Its founders sold 3,000 lots off brochures promising paved, tree-lined streets, none of it true, and in 1943 a lost B-17 crew practice-bombed the town square.",
+      "text": "A red-brick courthouse stands inside Boise City’s highway traffic circle. The building opened in 1926, replacing a wooden courthouse destroyed by fire. The town itself began with a fraudulent sales campaign in 1908: developers promised paved streets, businesses and rail service, then sold 3,000 lots they did not own. Two developers served prison terms for mail fraud. Despite that beginning, Boise City took shape and incorporated in 1925. M.C. Parker designed the replacement courthouse in Classical Revival and Neoclassical styles; it was added to the National Register of Historic Places in 1984.",
+      "notice": "The red-brick courthouse occupies the center of the highway traffic circle.",
       "at": [
         -102.51139,
         36.73
@@ -39,12 +42,8 @@
   ],
   "sources": [
     {
-      "label": "TravelOK, City of Kenton",
+      "label": "Oklahoma Tourism & Recreation Department, City of Kenton",
       "url": "https://www.travelok.com/Kenton"
-    },
-    {
-      "label": "Oklahoma Department of Transportation, scenic byways layer",
-      "url": "https://services6.arcgis.com/RBtoEUQ2lmN0K3GY/arcgis/rest/services/Billboards_Scenic_Byways/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
       "label": "Wikipedia, Oklahoma State Highway 325",
@@ -52,21 +51,32 @@
     },
     {
       "label": "Wikipedia, Kenton, Oklahoma",
-      "url": "https://en.wikipedia.org/wiki/Kenton,_Oklahoma"
+      "url": "https://en.wikipedia.org/wiki/Kenton%2C_Oklahoma"
+    },
+    {
+      "label": "Wikipedia, Keyes, Oklahoma",
+      "url": "https://en.wikipedia.org/wiki/Keyes%2C_Oklahoma"
     },
     {
       "label": "Wikipedia, Black Mesa State Park",
       "url": "https://en.wikipedia.org/wiki/Black_Mesa_State_Park"
     },
     {
-      "label": "Wikipedia, Boise City, Oklahoma",
-      "url": "https://en.wikipedia.org/wiki/Boise_City,_Oklahoma"
+      "label": "Wikipedia, South Carrizo Creek",
+      "url": "https://en.wikipedia.org/wiki/South_Carrizo_Creek"
     },
     {
-      "label": "Wikipedia, Keyes, Oklahoma",
-      "url": "https://en.wikipedia.org/wiki/Keyes,_Oklahoma"
+      "label": "Wikipedia, Black Mesa (Oklahoma, Colorado, New Mexico)",
+      "url": "https://en.wikipedia.org/wiki/Black_Mesa_%28Oklahoma%2C_Colorado%2C_New_Mexico%29"
+    },
+    {
+      "label": "Wikipedia, Cimarron County Courthouse",
+      "url": "https://en.wikipedia.org/wiki/Cimarron_County_Courthouse"
+    },
+    {
+      "label": "Wikipedia, Boise City, Oklahoma",
+      "url": "https://en.wikipedia.org/wiki/Boise_City%2C_Oklahoma"
     }
   ],
-  "draft": true,
   "reviewed": false
 }
