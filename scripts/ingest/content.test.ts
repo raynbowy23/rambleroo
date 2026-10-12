@@ -131,6 +131,19 @@ describe('content', () => {
   })
 })
 
+describe('multi-part strips', () => {
+  // A road split into sections (public/data/strips/<id>.<part>.json) must keep the section list on its main file, or the strip page loses
+  // its part switcher. A strip rebuild once overwrote four of these with a single whole-road strip.
+  const files = readdirSync('public/data/strips')
+  const roads = [...new Set(files.map((f) => f.match(/^(.+)\.([a-z0-9]+)\.json$/)?.[1]).filter((id): id is string => !!id))]
+  it.each(roads)('%s keeps its parts on the main strip file', (id) => {
+    const main = JSON.parse(readFileSync(`public/data/strips/${id}.json`, 'utf8')) as { parts?: { key: string }[]; part?: { key: string } }
+    expect(main.parts?.length).toBeGreaterThan(1)
+    for (const { key } of main.parts!) expect(files).toContain(`${id}.${key}.json`)
+    expect(main.parts!.map((p) => p.key)).toContain(main.part?.key)
+  })
+})
+
 describe('photos', () => {
   const photos = json<import('../../src/lib/types').Photo[]>('content/photos.json')
   // Ported Creative Commons licences carry a jurisdiction code, such as CC BY-SA 3.0 de.
