@@ -52,3 +52,19 @@ test('the road-name popup on the map has a close button', async ({ page }) => {
   await popup.getByRole('button', { name: /close/i }).click()
   await expect(popup).toBeHidden()
 })
+
+test('the compass rose turns with the map', async ({ page }) => {
+  await page.goto('/')
+  await page.waitForFunction(() => (window as unknown as { __rambleMap?: { loaded(): boolean } }).__rambleMap?.loaded())
+  const rose = page.locator('svg.rr-compass')
+  const angle = () =>
+    rose.evaluate((svg) => {
+      const m = new DOMMatrix(getComputedStyle(svg).transform)
+      return Math.round((Math.atan2(m.b, m.a) * 180) / Math.PI)
+    })
+  expect(await angle()).toBe(0)
+  await page.evaluate(() => (window as unknown as { __rambleMap: { setBearing(b: number): void } }).__rambleMap.setBearing(90))
+  await expect.poll(angle).toBe(-90)
+  await page.evaluate(() => (window as unknown as { __rambleMap: { setBearing(b: number): void } }).__rambleMap.setBearing(0))
+  await expect.poll(angle).toBe(0)
+})
