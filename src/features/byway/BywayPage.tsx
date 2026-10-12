@@ -124,9 +124,9 @@ export default function BywayPage() {
         <p className={s.subline}>{story?.tagline ?? listingDescription(b)}</p>
         <p className={s.muted}>
           {story
-            ? !story.reviewed
-              ? 'Draft story · pending review'
-              : 'Reviewed story'
+            ? story.draft
+              ? 'Draft story · pending rewrite'
+              : 'Story'
             : storyStatus === 'loading'
               ? 'Opening story…'
               : storyStatus === 'error'
@@ -169,6 +169,7 @@ export default function BywayPage() {
                   {story.intro.map((p, i) => (
                     <p key={i}>{p}</p>
                   ))}
+                  {story.notice && <Notice text={story.notice} />}
                 </section>
                 {miniature}
                 <PhotoGallery photos={photos} />
@@ -212,7 +213,10 @@ export default function BywayPage() {
                         <h3>
                           {i + 1}. {m.title}
                         </h3>
-                        <p>{m.text}</p>
+                        {m.text.split('\n\n').map((p, j) => (
+                          <p key={j}>{p}</p>
+                        ))}
+                        {m.notice && <Notice text={m.notice} />}
                       </div>
                     </article>
                   ))}
@@ -336,7 +340,7 @@ export default function BywayPage() {
             </div>
             <div>
               <dt>Editorial status</dt>
-              <dd>{story ? (story.reviewed ? 'Reviewed story' : 'Draft story · pending review') : 'Listing'}</dd>
+              <dd>{story ? (story.draft ? 'Draft story · pending rewrite' : 'Story') : 'Listing'}</dd>
             </div>
             <div>
               <dt>Lead photo</dt>
@@ -364,5 +368,14 @@ export default function BywayPage() {
       </div>
       {editing && <VisitEditor initialNote={note} key={b.id} byway={b} onClose={() => setEditing(false)} />}
     </main>
+  )
+}
+
+function Notice({ text }: { text: string }) {
+  return (
+    <p className={s.notice}>
+      <strong>What to notice</strong>
+      {text}
+    </p>
   )
 }

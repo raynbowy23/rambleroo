@@ -1,39 +1,20 @@
 {
   "id": "copper-corridor-scenic-road-sr-77-990401",
-  "tagline": "Down the San Pedro, across the Gila, into the mountains.",
+  "tagline": "From mountain country to the meeting of the Gila and San Pedro.",
   "motifs": [
     "mining-town"
   ],
   "intro": [
-    "North of Mammoth, SR 77 crosses the San Pedro River and keeps to its east bank, past the turn for Aravaipa Canyon, whose name is Apache for laughing waters. At Winkelman the northward-flowing San Pedro runs into the westward-flowing Gila, and the highway crosses the Gila beside the old bridge.",
-    "From there it follows the Gila's west bank for seven miles, then leaves the river and works up through mountainous country by Dripping Springs and El Capitan. It was already an old road when the state took it on in 1938, laid down to tie the mining camps to the towns and the railroads."
+    "The SR 77 Copper Corridor drive links mountain country near El Capitan and Dripping Springs with the Gila and San Pedro river valleys. The road follows the Gila’s western bank for seven miles north of Winkelman and the San Pedro’s eastern side farther south. ADOT identifies a 38-mile stretch designated Copper Corridor Scenic Road East in 2008, within a highway corridor connecting mining communities and river valleys. At Winkelman, SR 177 branches west and northwest toward Superior, connecting this river corridor with another mining road.",
+    "The road between Oracle Junction and US 70 was already established when Arizona added it to the state system in 1938. It had developed to connect the mines near Mammoth with larger communities and railroads to the north and south. Transport had already shifted the valley’s centers: Dudleyville grew beside a stage road, then lost prominence when the Phoenix & Eastern Railroad reached Winkelman in 1904.",
+    "Traveling south from the US 70 junction outside Globe, pass El Capitan and Dripping Springs before reaching the Gila River section. At Winkelman the northward-flowing San Pedro joins the Gila, and SR 77 crosses beside the old Winkelman Bridge. Continue through Dudleyville toward Mammoth, following the San Pedro before crossing it north of town."
   ],
   "moments": [
-    {
-      "title": "Dudleyville",
-      "kind": "town",
-      "scene": "river",
-      "text": "A stage stop on the Globe to Tucson road from the late 1870s, eclipsed in 1904 when the railroad went to Winkelman, a mile north.",
-      "at": [
-        -110.73389,
-        32.92972
-      ]
-    },
-    {
-      "title": "Winkelman Bridge",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "The highway crosses the Gila beside the old Winkelman Bridge, built in 1916 at a town named for a local cattleman.",
-      "at": [
-        -110.77167,
-        32.985
-      ]
-    },
     {
       "title": "Christmas",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Two prospectors staked the claim in the early hours of Christmas Day 1902 and named it for the day. Nobody lives there now, but its post office once drew holiday mail wanting the postmark.",
+      "text": "Christmas’s holiday name followed a change to reservation boundaries. Earlier mining claims had been invalidated in 1884 because they lay within the San Carlos Apache Indian Reservation. After prospector George B. Chittenden petitioned for a boundary change, President Theodore Roosevelt signed an order removing the claims from the reservation in December 1902. Chittenden and N. H. Mellor staked their claim on Christmas morning. The post office attracted holiday mail seeking a Christmas postmark. In the 1960s, conversion to an open pit brought the removal or demolition of town buildings. The community is now uninhabited.",
       "at": [
         -110.7425,
         33.06222
@@ -41,11 +22,34 @@
       "motifs": [
         "mining-town"
       ]
+    },
+    {
+      "title": "Winkelman Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "SR 77 crosses the Gila beside the old Winkelman Bridge, giving this river crossing two generations of roadway. The older bridge was built in 1916 and entered the National Register of Historic Places in 1988. Winkelman stands where the northward-flowing San Pedro joins the westward-flowing Gila. The town takes its name from local cattleman Peter Winkelman.",
+      "at": [
+        -110.77167,
+        32.985
+      ]
+    },
+    {
+      "title": "Dudleyville",
+      "kind": "town",
+      "scene": "river",
+      "text": "A stage station made Dudleyville a regional center before the railroad shifted that role north. The station opened beside the Globe-to-Tucson stage road in the late 1870s. Its operator, William Dudley Harrington, became the first postmaster in 1881. Harrington had settled with his family on a San Pedro farm after living in Missouri and California. A mercantile, farms and ranches formed part of the small community. The Phoenix & Eastern Railroad reached Winkelman in 1904, and the new rail town eclipsed Dudleyville. Dudleyville lies south of Winkelman, along today’s SR 77.",
+      "at": [
+        -110.73389,
+        32.92972
+      ]
     }
+  ],
+  "practical": [
+    "Christmas: The Christmas mine is closed to the public. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "ADOT, List of Historic Roads (Wayback Machine snapshot)",
+      "label": "Arizona Department of Transportation, List of Historic Roads (archived)",
       "url": "https://web.archive.org/web/20260519152218/https://azdot.gov/about/historic-and-scenic-roads/list-historic-roads"
     },
     {
@@ -53,24 +57,20 @@
       "url": "https://en.wikipedia.org/wiki/Arizona_State_Route_77"
     },
     {
-      "label": "Wikipedia, Aravaipa Canyon Wilderness",
-      "url": "https://en.wikipedia.org/wiki/Aravaipa_Canyon_Wilderness"
-    },
-    {
       "label": "Wikipedia, Dudleyville, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Dudleyville,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Dudleyville%2C_Arizona"
     },
     {
-      "label": "Wikipedia, Winkelman, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Winkelman,_Arizona"
+      "label": "Wikipedia, Christmas, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Christmas%2C_Arizona"
     },
     {
       "label": "Wikipedia, Winkelman Bridge",
       "url": "https://en.wikipedia.org/wiki/Winkelman_Bridge"
     },
     {
-      "label": "Wikipedia, Christmas, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Christmas,_Arizona"
+      "label": "Wikipedia, Winkelman, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Winkelman%2C_Arizona"
     }
   ],
   "reviewed": false

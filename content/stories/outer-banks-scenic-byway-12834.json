@@ -1,20 +1,22 @@
 {
   "id": "outer-banks-scenic-byway-12834",
-  "tagline": "Down the barrier islands and over the sound by ferry.",
+  "tagline": "Two ferry crossings carry the road through a coast of working waterways.",
   "motifs": [
     "lighthouse",
     "harbor-village"
   ],
   "intro": [
-    "From Whalebone Junction NC 12 runs south down the barrier islands, Bodie and Pea and Hatteras, with Pamlico Sound in view to the west, through Rodanthe and Buxton to the ferry at Hatteras Inlet. A free ferry crosses to Ocracoke. A second, about two and a quarter hours over the sound, lands at Cedar Island, and the road goes on through the fishing villages Down East toward Beaufort.",
-    "The junction got its name in the early 1930s, when Alexander Midgett hauled a 72-foot whale skeleton there in the back of his Model T to drum up trade at his filling station. It worked."
+    "The Outer Banks Scenic Byway combines island roads with two ferry crossings, passing dunes, marshes and water between the Atlantic and the coastal sounds. Much of NC 12 is two lanes wide. The Federal Highway Administration identifies this National Scenic Byway with beaches, wildlife preserves, historic towns and lighthouses, alongside the maritime culture of its villages. Its listed travel allowance is 5.5 hours, including 3.5 hours aboard the two ferries. Harbors, old houses, family cemeteries and nineteenth-century life-saving stations preserve the settlement patterns described in the federal byway account.",
+    "Most of the present NC 12 began as sand road, paved during the 1950s and early 1960s. The current route appeared on the 1964 map between Ocracoke and Whalebone and reached the mainland connection with U.S. 70 in 1976. Maintaining that connection has required changes: the Rodanthe Bridge opened in 2022, replacing a section repeatedly closed by overwash, flooding and sand.",
+    "Traveling south from Whalebone Junction, NC 12 crosses Oregon Inlet, passes Pea Island and bypasses Rodanthe before reaching Avon and Buxton. Beyond Frisco and Hatteras, the ferry carries the route to Ocracoke. The next crossing reaches Cedar Island; the road continues to U.S. 70 near Sea Level, then west to the byway’s end at Merrimon Road."
   ],
   "moments": [
     {
       "title": "Cape Hatteras Lighthouse",
       "kind": "short walk",
       "scene": "coast",
-      "text": "The tallest masonry lighthouse in the country, 208 feet of black and white stripe, was moved 2,900 feet inland in 1999, when the sea had come within 15 feet of it.",
+      "text": "The striped tower at Buxton has occupied two sites, but it is the same lighthouse completed in 1870. An earlier lighthouse had been constructed in 1802; that original tower was demolished in 1871 after its replacement was completed. In 1999, workers moved it 2,900 feet southwest as erosion threatened its ocean-edge location. The support buildings moved too, retaining their compass orientations and relationships to the tower. Its black-and-white diagonal paint pattern helps mariners recognize the light by day. The Coast Guard operates the navigational equipment, while the National Park Service maintains the historic tower.",
+      "notice": "The tower’s black-and-white diagonal stripes form its daytime identification pattern.",
       "at": [
         -75.52880556,
         35.25055556
@@ -27,7 +29,7 @@
       "title": "Ocracoke Light",
       "kind": "town",
       "scene": "coast",
-      "text": "Built in 1823 by Silver Lake in Ocracoke village, the oldest operating light station in the state, near the inlet where Blackbeard was killed in 1718.",
+      "text": "Ocracoke’s light narrows as it rises: the tower is 25 feet across at its base and 12 feet across at its peak. Massachusetts builder Noah Porter built it in 1823 to guide vessels through Ocracoke Inlet into Pamlico Sound. At 75 feet tall, the tower was built entirely of brick. It stands near Silver Lake, the sheltered harbor at the village. The light was automated in 1955 and remains North Carolina’s oldest operating light station. Its wooden spiral stairs were removed during the 1950s; the holes they left in the brickwork were cemented closed.",
       "at": [
         -75.98605556,
         35.10897222
@@ -40,7 +42,7 @@
       "title": "Atlantic",
       "kind": "town",
       "scene": "coast",
-      "text": "Old workboats fill the harbor on Core Sound, in a village that has long fished for its living and keeps one fish house still working.",
+      "text": "Atlantic sits along Core Sound, where commercial fishing has long been the community’s principal livelihood. The village is at the eastern end of U.S. 70 and has a ferry terminal serving North Core Banks in Cape Lookout National Seashore. Atlantic has one operating fish house, Luther L. Smith and Son Seafood.",
       "at": [
         -76.31916667,
         34.87638889
@@ -50,21 +52,22 @@
       ]
     }
   ],
-  "practical": [
-    "The Hatteras Inlet ferry is free and takes about 40 minutes. The Cedar Island ferry charges a toll, takes about 2.25 hours, and reservations are recommended. Storms have breached NC 12 many times between Oregon Inlet and Rodanthe and on Ocracoke, closing it for days or months."
-  ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Outer Banks National Scenic Byway",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=238"
-    },
-    {
-      "label": "FHWA America's Byways, Outer Banks Scenic Byway",
+      "label": "Federal Highway Administration, Outer Banks Scenic Byway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/12834"
     },
     {
       "label": "Wikipedia, North Carolina Highway 12",
       "url": "https://en.wikipedia.org/wiki/North_Carolina_Highway_12"
+    },
+    {
+      "label": "Wikipedia, Cedar Island, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Cedar_Island%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Ocracoke, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Ocracoke%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Cape Hatteras Lighthouse",
@@ -76,7 +79,7 @@
     },
     {
       "label": "Wikipedia, Atlantic, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Atlantic,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Atlantic%2C_North_Carolina"
     }
   ],
   "reviewed": false

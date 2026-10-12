@@ -1,16 +1,18 @@
 {
   "id": "boston-mountains-scenic-loop-990502",
-  "tagline": "Over the mountains slow on 71, back fast through the tunnel.",
+  "tagline": "Two mountain crossings pair small-town U.S. 71 with an interstate tunnel.",
   "intro": [
-    "From Dean's Market at the edge of the Arkansas River Valley two roads cross the Boston Mountains to Fayetteville, and together they make a loop. Old US 71 takes 42 miles, winding through the small towns the interstate passes by. I-49 does it in 38, on high bridges through rugged country, with views over oak-hickory mountains and small farms in the valleys.",
-    "The Butterfield Overland Mail ran its stagecoaches over these mountains, and US 71 took their place in 1926. Old 71 was once classed among the most dangerous highways in America, and I-49, finished in 1999, was built to make the trip safer."
+    "The Boston Mountains Scenic Loop crosses the Ozarks on two roads between the Arkansas River Valley and Fayetteville. U.S. 71 passes through small towns; I-49 carries traffic across high bridges and through the Bobby Hopper Tunnel. Arkansas designated the U.S. 71 leg in 1998 and the interstate leg in 1999. The state transportation department highlights views of oak-hickory forests and small farms in the valleys.",
+    "Stagecoaches of the Butterfield Overland Mail crossed these mountains before numbered highways. Parts of that older route survive as Arkansas Highway 265. U.S. 71 arrived with the numbered highway system in 1926, and growing traffic later congested the region’s roads. Completed in 1999 as I-540, the interstate bypassed aging U.S. 71; the interstate is now numbered I-49. The interstate project aimed to shorten travel time and improve safety, but construction had to solve the problem of a mountain directly in its path.",
+    "The two legs measure 42 and 38 miles respectively. Take the U.S. 71 leg north from the Alma area through Mountainburg, then continue toward Winslow and Greenland before Fayetteville. The old highway crosses Gaylor Mountain at the highest point on U.S. 71. Return south on I-49, where the tunnel climbs through the mountain in the southbound direction."
   ],
   "moments": [
     {
       "title": "Mountainburg",
       "kind": "town",
       "scene": "town",
-      "text": "A railroad town of 1883 that did well while 71 was the main road and has been sleepier since the interstate, keeping two large dinosaur models in its downtown park since 1980.",
+      "text": "Two large dinosaur models have occupied Mountainburg’s downtown park since 1980. The town itself grew from a different arrival: it was laid out in 1883 when the St. Louis–San Francisco Railway reached this point. U.S. 71 later brought another era of prosperity while it served as northwest Arkansas’s main route. The interstate subsequently passed to the west. The old highway remains the route through Mountainburg, while the park’s two dinosaurs supply a much younger roadside landmark than their subjects suggest. Eight miles north of town, Lake Fort Smith State Park occupies the lake’s western side.",
+      "notice": "Two dinosaur models occupy the downtown city park.",
       "at": [
         -94.16917,
         35.60417
@@ -20,7 +22,7 @@
       "title": "Winslow",
       "kind": "town",
       "scene": "mountain",
-      "text": "A stagecoach stop first called Summit Home, renamed for the Frisco's president in 1881, and by the end of the 1800s a summer place for well-off families up from Fort Smith.",
+      "text": "Winslow’s change of name records the railway’s arrival in a stagecoach community. First called Summit Home, it grew after completion of the Winslow Tunnel allowed the St. Louis–San Francisco Railway through the steep Boston Mountains. In 1881, the community took the name of railroad president Edward F. Winslow. By the end of that century, wealthy visitors from Fort Smith spent summers here. West of town, Arkansas 74 leads toward Devil’s Den State Park, twelve miles away. The former high school building now houses the public library, giving the old campus a continuing civic use.",
       "at": [
         -94.13056,
         35.80083
@@ -30,7 +32,8 @@
       "title": "Bobby Hopper Tunnel",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Coming back south on I-49 the road climbs inside twin bores of nearly 1,600 feet each through an unnamed peak, the only highway tunnel in Arkansas.",
+      "text": "Southbound traffic climbs inside the Bobby Hopper Tunnel; northbound traffic descends. Its paired passages opened in 1999, each carrying two lanes with shoulder space. An unnamed peak stood in the interstate’s path, and the alternative to tunneling required a 200-foot cut. Crews mined the tunnels through shale and sandstone, then lined them with reinforced concrete. Each passage measures 1,595.2 feet long. Named for the Arkansas Highway Commission director during construction, it is the state’s only highway tunnel. The excavated passages have a horseshoe contour, rather than the circular section used for some other tunnels.",
+      "notice": "The roadway rises through the tunnel when traveling south.",
       "at": [
         -94.1896,
         35.7674
@@ -39,12 +42,12 @@
   ],
   "sources": [
     {
-      "label": "ARDOT, Scenic Byways",
-      "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
-    },
-    {
       "label": "Wikipedia, Boston Mountains Scenic Loop",
       "url": "https://en.wikipedia.org/wiki/Boston_Mountains_Scenic_Loop"
+    },
+    {
+      "label": "Arkansas Department of Transportation, Scenic Byways",
+      "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
     },
     {
       "label": "Wikipedia, Bobby Hopper Tunnel",
@@ -52,11 +55,23 @@
     },
     {
       "label": "Wikipedia, Mountainburg, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/Mountainburg,_Arkansas"
+      "url": "https://en.wikipedia.org/wiki/Mountainburg%2C_Arkansas"
+    },
+    {
+      "label": "Wikipedia, Muxen Building",
+      "url": "https://en.wikipedia.org/wiki/Muxen_Building"
+    },
+    {
+      "label": "Wikipedia, Greenland, Arkansas",
+      "url": "https://en.wikipedia.org/wiki/Greenland%2C_Arkansas"
+    },
+    {
+      "label": "Wikipedia, Mount Gayler, Arkansas",
+      "url": "https://en.wikipedia.org/wiki/Mount_Gayler%2C_Arkansas"
     },
     {
       "label": "Wikipedia, Winslow, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/Winslow,_Arkansas"
+      "url": "https://en.wikipedia.org/wiki/Winslow%2C_Arkansas"
     }
   ],
   "reviewed": false

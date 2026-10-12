@@ -1,20 +1,21 @@
 {
   "id": "lake-erie-coastal-ohio-trail-59836",
-  "tagline": "The whole Ohio shore of Lake Erie, light by light.",
+  "tagline": "Harbor lights and coastal marshes along Ohio’s Lake Erie shore",
   "motifs": [
     "lighthouse",
     "lake-wide"
   ],
   "intro": [
-    "From the Pennsylvania line at Conneaut the trail follows Lake Erie west for 293 miles, through Ashtabula and Cleveland, past Vermilion and Huron to Sandusky Bay and the Marblehead Peninsula, then along the marshes to Toledo and on to Waterville. Big cities and villages take turns along the way.",
-    "Private ferries carry cars, bicycles and people on foot out to Kelleys Island. There the glacier that made the Great Lakes left grooves in the bedrock 400 feet long and up to 15 feet deep, as though something very heavy had been dragged across it, which is about what happened."
+    "The Lake Erie Coastal Ohio Trail links beaches, parks, preserves, villages and big cities along a 293-mile scenic route. The Federal Highway Administration lists it as a National Scenic Byway, allowing eight hours for the drive or three to four days for stops. Its description emphasizes coastal marshes and maritime history, told through lighthouses, museums and restored freighters. The Ohio story map likewise includes vacation islands, while its mainland stops range from an estuary research reserve to a submarine museum in Cleveland.",
+    "Navigation along this coast required structures that changed with the harbors. At Ashtabula, widening the river mouth and building a breakwater in 1905 prompted a new lighthouse; it was moved and enlarged in 1915. Farther west, Congress funded a light at the entrance to Sandusky Bay in 1819, and a native-limestone tower rose on Marblehead Peninsula in 1821.",
+    "For an east-to-west journey, begin with Conneaut and Ashtabula, then continue through the Cleveland area toward Vermilion and Sandusky. Marblehead Lighthouse marks the peninsula at Sandusky Bay’s entrance. Continue west to Magee Marsh and Maumee Bay before reaching Toledo on the Maumee River. There, the National Museum of the Great Lakes brings the journey back to shipping, with a historic lake freighter beside the museum."
   ],
   "moments": [
     {
       "title": "Ashtabula Harbor Light",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "coast",
-      "text": "In 1928 an ice storm sealed the keepers inside. After two days they got the door thawed open and tunneled out through some five feet of ice.",
+      "text": "In 1928, ice sealed Ashtabula’s lighthouse keepers inside their station. Two days passed before they thawed the front door enough to open it, then tunneled through some five feet of ice to escape. The steel-and-iron house had been moved and enlarged in 1915, placing it on a concrete crib at the north breakwater’s end with living quarters for the keepers. Automation came in 1973; the lighthouse is reached by water. The light’s Fresnel lens was replaced by a modern beacon in 1995 and transferred to the local maritime museum.",
       "at": [
         -80.796,
         41.919
@@ -27,7 +28,7 @@
       "title": "Marblehead Lighthouse",
       "kind": "roadside",
       "scene": "coast",
-      "text": "The oldest light still working on the American side of the Great Lakes. Its first keeper lit thirteen whale-oil lamps each night, and when he died in 1832 his wife Rachel kept on.",
+      "text": "Thirteen whale-oil lamps made Marblehead’s original light. Keeper Benajah Wolcott lit their wicks each night, recorded passing ships and weather, and organized rescues. When he died in 1832, his wife Rachel took over the work. The native-limestone tower was built in 1821; later changes added height and replaced oil with electricity. The keeper’s house beside it also changed: the original stone house was replaced in 1880 by the wood-frame building. The Coast Guard continues to maintain the beacon, while Ohio’s Department of Natural Resources owns the tower and maintains the surrounding property.",
       "at": [
         -82.712,
         41.536
@@ -41,7 +42,7 @@
       "title": "Magee Marsh",
       "kind": "short walk",
       "scene": "coast",
-      "text": "A soldier of the War of 1812 wrote that the waterfowl here were worth a journey of five hundred miles just to see. A boardwalk trail now goes out among them.",
+      "text": "John Magee bought this marsh in 1903 intending to farm it, but repeated flooding persuaded him to keep it as hunting land. Ohio purchased the marshland in 1951 to create the wildlife area. Its purpose now centers on maintaining high-quality wetlands for wildlife, as the Ohio byway’s stop description explains. Waterfowl and other birds gather seasonally during migration, and the boardwalk is a place for birdwatching. The Ohio Department of Natural Resources manages the area. That protected wetland occupies a Lake Erie shoreline site in Ottawa County, continuing the transition from privately owned hunting land to a state wildlife area.",
       "at": [
         -83.163,
         41.616
@@ -50,16 +51,20 @@
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Lake Erie Coastal Ohio Trail",
+      "label": "Federal Highway Administration, Lake Erie Coastal Ohio Trail",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/59836"
     },
     {
-      "label": "ODOT, Lake Erie Coastal Ohio Trail story map tour stops (query)",
-      "url": "https://services1.arcgis.com/1AlElnGrgBM62OSj/arcgis/rest/services/LET_Storymap_View/FeatureServer/0/query?where=1%3D1&outFields=AOI_Number%2CAOI_Name%2CAOI_Description&returnGeometry=true&outSR=4326&f=html"
+      "label": "Wikipedia, Magee Marsh Wildlife Area",
+      "url": "https://en.wikipedia.org/wiki/Magee_Marsh_Wildlife_Area"
     },
     {
-      "label": "Wikipedia, Kelleys Island, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Kelleys_Island,_Ohio"
+      "label": "Ohio Department of Transportation, Lake Erie Coastal Ohio Trail story map",
+      "url": "https://storymaps.arcgis.com/stories/a7fcf6f6d55b4214a8edd1de7acef920"
+    },
+    {
+      "label": "Ohio Department of Transportation, Lake Erie Coastal Ohio Trail story-map tour stops",
+      "url": "https://services1.arcgis.com/1AlElnGrgBM62OSj/arcgis/rest/services/LET_Storymap_View/FeatureServer/0/query?where=1%3D1&outFields=AOI_Number%2CAOI_Name%2CAOI_Description&returnGeometry=true&outSR=4326&f=html"
     },
     {
       "label": "Wikipedia, Ashtabula Harbor Light",
@@ -67,11 +72,15 @@
     },
     {
       "label": "Wikipedia, Marblehead Light (Ohio)",
-      "url": "https://en.wikipedia.org/wiki/Marblehead_Light_(Ohio)"
+      "url": "https://en.wikipedia.org/wiki/Marblehead_Light_%28Ohio%29"
     },
     {
-      "label": "Wikipedia, Magee Marsh Wildlife Area",
-      "url": "https://en.wikipedia.org/wiki/Magee_Marsh_Wildlife_Area"
+      "label": "Wikipedia, Vermilion, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Vermilion%2C_Ohio"
+    },
+    {
+      "label": "Wikipedia, National Museum of the Great Lakes",
+      "url": "https://en.wikipedia.org/wiki/National_Museum_of_the_Great_Lakes"
     }
   ],
   "reviewed": false

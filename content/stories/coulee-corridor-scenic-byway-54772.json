@@ -1,33 +1,31 @@
 {
   "id": "coulee-corridor-scenic-byway-54772",
-  "tagline": "Up a dry flood channel to a waterfall with no water.",
+  "tagline": "Basalt cliffs and reservoir shores mark a corridor carved by Ice Age floods.",
   "motifs": [
     "lake-wide",
     "river-bluffs"
   ],
   "intro": [
-    "From Othello SR 17 runs north through Soap Lake and up the floor of the Lower Grand Coulee, where basalt walls rise 900 feet. At Dry Falls the coulee ends at a cliff with nothing going over it. After a short piece of US 2 at Coulee City, SR 155 follows the shore of Banks Lake, 27 miles long, to Grand Coulee and the dam, then crosses the Columbia onto the Colville Reservation and goes over Disautel Pass, 3,252 feet, down to Omak.",
-    "Ice Age floods cut the coulees, released dozens of times when an ice dam in Idaho gave way. Banks Lake fills the upper coulee now, with water pumped 280 feet up out of the Columbia."
+    "The Coulee Corridor links lakes, gorges and canyons along channels carved by Ice Age floods. SR 155 follows Banks Lake’s shore, while SR 17 runs along the floor of the Lower Grand Coulee beneath basalt walls. Banks Lake occupies a formerly dry part of the coulee, filled with water pumped up from the Columbia River’s reservoir. State of Washington Tourism describes the route as geologically and culturally significant, dates its national scenic designation to 2005 and lists a 150-mile, three-hour drive. The northern section crosses the Colville Reservation.",
+    "The Columbia crossing became part of the dam-building effort: the Grand Coulee Bridge was built in 1934–35 to carry heavy equipment, then serve as a permanent highway bridge. It now carries SR 155 immediately below the dam. That highway number dates from the state’s 1964 renumbering. The byway consortium has since added community kiosks and route signs linking the towns.",
+    "From Omak, take SR 155 over Disautel Pass and through Nespelem to the Columbia crossing at Grand Coulee Dam. Follow Banks Lake south past Steamboat Rock to Coulee City. A short connection on US 2 leads to SR 17, Dry Falls and the Lower Grand Coulee. Continue through Soap Lake toward Othello at the byway’s southern end."
   ],
   "moments": [
     {
-      "title": "Dry Falls",
+      "title": "Grand Coulee Dam",
       "kind": "roadside",
-      "scene": "desert",
-      "text": "A cliff 3.5 miles long and 400 feet high where floodwater fell at five times the width of Niagara. It has been dry since the Columbia went back to its old bed.",
+      "scene": "river",
+      "text": "Grand Coulee Dam was built to generate electricity and supply irrigation water, changing both the river and the land beside it. Congress approved the high-dam design in 1935, and water first passed over its spillway in June 1942. Its reservoir forced more than 3,000 people to relocate. Members of the Colville Confederated and Spokane tribes were among those resettled from the reservoir zone. The dam was built without fish passage, blocking migration to upstream spawning habitat. Water is pumped from Lake Roosevelt into Banks Lake for the Columbia Basin irrigation system.",
       "at": [
-        -119.357,
-        47.6
-      ],
-      "motifs": [
-        "river-bluffs"
+        -118.979,
+        47.957
       ]
     },
     {
       "title": "Steamboat Rock",
       "kind": "roadside",
       "scene": "desert",
-      "text": "A basalt butte standing 800 feet over Banks Lake, nearly surrounded by water, that was an island in the diverted Columbia during the last ice age.",
+      "text": "Steamboat Rock rises 800 feet above Banks Lake, which nearly surrounds the basalt butte. During the last ice age it stood as an island in the Columbia River’s diverted course. When the river returned to its original channel, the rock remained in the dry Grand Coulee. The water surrounding it now belongs to a reservoir held between two earth-fill dams. Banks Lake stores water pumped from Lake Roosevelt, then distributes it south for irrigation. The butte’s plateau covers more than 600 acres. The state park lies near the northern end of the lake.",
       "at": [
         -119.133,
         47.871
@@ -37,23 +35,31 @@
       ]
     },
     {
-      "title": "Grand Coulee Dam",
+      "title": "Dry Falls",
       "kind": "roadside",
-      "scene": "river",
-      "text": "The largest power station in the country by capacity, and from Memorial Day through September a free laser show is projected onto its face each night.",
+      "scene": "desert",
+      "text": "Dry Falls is a scalloped cliff 3.5 miles long and 400 feet high, with four major alcoves. Floods from glacial Lake Missoula spilled through Lake Columbia and down the Grand Coulee, enlarging the falls and gouging plunge pools below. After the ice blocking the Columbia melted, the river returned to its normal course and left the falls dry. The cliff is visible from the interpretive center on Route 17. The Civilian Conservation Corps built rock walls and the Vista House lookout here in 1938; the interpretive center followed in 1965.",
+      "notice": "Look for the four major alcoves in the scalloped cliff.",
       "at": [
-        -118.979,
-        47.957
+        -119.357,
+        47.6
+      ],
+      "motifs": [
+        "river-bluffs"
       ]
     }
   ],
   "practical": [
-    "Phone service can be limited in the remote stretches, so download maps before you go. The Dry Falls interpretive center is free, but parking requires a Discover Pass."
+    "Dry Falls: A Discover Pass is required for parking at the Dry Falls Interpretive Center. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Coulee Corridor Consortium, home page",
-      "url": "https://couleecorridor.com/"
+      "label": "Wikipedia, Soap Lake, Washington",
+      "url": "https://en.wikipedia.org/wiki/Soap_Lake%2C_Washington"
+    },
+    {
+      "label": "Wikipedia, Banks Lake",
+      "url": "https://en.wikipedia.org/wiki/Banks_Lake"
     },
     {
       "label": "State of Washington Tourism, Coulee Corridor Scenic Byway",
@@ -64,24 +70,32 @@
       "url": "https://en.wikipedia.org/wiki/Washington_State_Route_155"
     },
     {
-      "label": "Wikipedia, Soap Lake, Washington",
-      "url": "https://en.wikipedia.org/wiki/Soap_Lake,_Washington"
+      "label": "Wikipedia, Grand Coulee Bridge",
+      "url": "https://en.wikipedia.org/wiki/Grand_Coulee_Bridge"
+    },
+    {
+      "label": "Coulee Corridor Consortium, Home",
+      "url": "https://couleecorridor.com/"
+    },
+    {
+      "label": "Wikipedia, Coulee Corridor Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Coulee_Corridor_Scenic_Byway"
     },
     {
       "label": "Wikipedia, Dry Falls",
       "url": "https://en.wikipedia.org/wiki/Dry_Falls"
     },
     {
-      "label": "Wikipedia, Banks Lake",
-      "url": "https://en.wikipedia.org/wiki/Banks_Lake"
+      "label": "Wikipedia, Grand Coulee Dam",
+      "url": "https://en.wikipedia.org/wiki/Grand_Coulee_Dam"
     },
     {
       "label": "Wikipedia, Steamboat Rock State Park",
       "url": "https://en.wikipedia.org/wiki/Steamboat_Rock_State_Park"
     },
     {
-      "label": "Wikipedia, Grand Coulee Dam",
-      "url": "https://en.wikipedia.org/wiki/Grand_Coulee_Dam"
+      "label": "Wikipedia, Sun Lakes-Dry Falls State Park",
+      "url": "https://en.wikipedia.org/wiki/Sun_Lakes-Dry_Falls_State_Park"
     }
   ],
   "reviewed": false

@@ -3,8 +3,8 @@
   "bywayId": "drovers-road-12817",
   "title": "Drovers Road",
   "longitude": -82.3448,
-  "ground": "alpine-plateau",
-  "palette": "mountain",
+  "ground": "forested-ridges",
+  "palette": "forest",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
@@ -143,39 +143,39 @@
     "elevation": [
       [
         0,
-        0.45
+        0.35
       ],
       [
         0.125,
-        0.692
+        0.453
       ],
       [
         0.25,
-        1.275
+        0.7
       ],
       [
         0.375,
-        1.858
+        0.947
       ],
       [
         0.5,
-        2.1
+        1.05
       ],
       [
         0.625,
-        1.858
+        0.947
       ],
       [
         0.75,
-        1.275
+        0.7
       ],
       [
         0.875,
-        0.692
+        0.453
       ],
       [
         1,
-        0.45
+        0.35
       ]
     ]
   },
@@ -185,7 +185,7 @@
       "model": "town-blocks",
       "at": 0.5205159093290131,
       "offset": "roadside",
-      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [

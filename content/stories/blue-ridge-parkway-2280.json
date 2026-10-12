@@ -1,21 +1,22 @@
 {
   "id": "blue-ridge-parkway-2280",
-  "tagline": "A ridgeline road with nowhere to be.",
+  "tagline": "A mountain road whose last link took half a century to finish.",
   "motifs": [
     "rolling-ridges",
     "viaduct"
   ],
   "intro": [
-    "The Blue Ridge Parkway links Shenandoah National Park in Virginia to Great Smoky Mountains National Park in North Carolina. It was designed for driving slowly, with no commercial traffic, frequent overlooks, and mileposts in place of exits.",
-    "Sections close for weather and repairs, so check the National Park Service before a long trip."
+    "The Blue Ridge Parkway follows mountain ridges for much of its 469-mile connection between Shenandoah and Great Smoky Mountains national parks. An All-American Road, it offers the mountain and valley views, waterfalls and pastoral scenes highlighted by the Federal Highway Administration. Frequent overlooks and 26 rock tunnels punctuate a road whose speed limit never exceeds 45 mph. Tunnel design called for minimal impact on the land; tunnels were often used to reduce the landscape scars that open cuts would have produced in steep terrain.",
+    "Construction began in 1935 under Franklin D. Roosevelt’s New Deal, with the final link at Grandfather Mountain completed during Ronald Reagan’s administration. Private contractors did most of the building; New Deal crews also constructed roadway, planted roadsides and graded slopes. The project created jobs but displaced residents and restricted landowners’ building and commercial travel. The stretch containing Linn Cove Viaduct finally opened in 1987, completing a project that had taken more than 52 years.",
+    "Southbound from Rockfish Gap, the route reaches Mabry Mill before crossing into North Carolina at mile 216.9. Linn Cove Viaduct skirts Grandfather Mountain; farther south come Craggy Gardens and Asheville. Beyond Asheville, Richland Balsam marks the road’s high point at 6,053 feet, before its southern end near Cherokee."
   ],
-  "season": "Spring bloom at the higher elevations, October for colour.",
   "moments": [
     {
       "title": "Mabry Mill",
       "kind": "roadside",
       "scene": "town",
-      "text": "A restored gristmill beside the parkway in Virginia.",
+      "text": "Mabry Mill’s trail connects a gristmill, sawmill and blacksmith shop at mile 176.1. E.B. Mabry operated the mill from 1910 to 1935, the year construction began on the parkway. The National Park Service places the mill in Virginia’s Plateau district.",
+      "notice": "The trail links the gristmill, sawmill and blacksmith shop.",
       "at": [
         -80.405,
         36.749
@@ -28,7 +29,7 @@
       "title": "Linn Cove Viaduct",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "A curving bridge that carries the road around the slope of Grandfather Mountain.",
+      "text": "At mile 304.4, Linn Cove Viaduct carries the parkway along the side of Grandfather Mountain. This was the gap in a road otherwise completed by the end of 1966. The 7.7-mile stretch containing the viaduct did not open until 1987. North Carolina’s transportation department describes the whole parkway as a blend of landscape architecture and engineering. The completed route connected Shenandoah and Great Smoky Mountains national parks after 52 years of work.",
       "at": [
         -81.812,
         36.087
@@ -42,7 +43,8 @@
       "title": "Craggy Gardens",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "Open, rhododendron-covered summits north of Asheville.",
+      "text": "Craggy Gardens’ purple rhododendron display belongs to mid-to-late June. The gardens occupy the Great Craggy Mountains along miles 363.4 to 369.6 of the parkway. Craggy Pinnacle Trail and other paths provide ways to leave the road; a separate road leads to the picnic area and trails at mile 367.6.",
+      "notice": "Purple rhododendrons cover Craggy Gardens in mid-to-late June.",
       "at": [
         -82.38,
         35.699
@@ -53,10 +55,25 @@
       ]
     }
   ],
+  "practical": [
+    "Craggy Gardens: High-elevation and tunnel sections close seasonally. The National Park Service publishes daily road-status updates. (checked 2026-10-11)"
+  ],
   "sources": [
     {
+      "label": "Wikipedia, Blue Ridge Parkway",
+      "url": "https://en.wikipedia.org/wiki/Blue_Ridge_Parkway"
+    },
+    {
+      "label": "Federal Highway Administration, Blue Ridge Parkway (archived)",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2280"
+    },
+    {
+      "label": "North Carolina Department of Transportation, Scenic Byways Guidebook",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=14"
+    },
+    {
       "label": "National Park Service, Blue Ridge Parkway",
-      "url": "https://www.nps.gov/blri/"
+      "url": "https://www.nps.gov/blri/index.htm"
     }
   ],
   "reviewed": false

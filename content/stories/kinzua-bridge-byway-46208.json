@@ -1,30 +1,40 @@
 {
   "id": "kinzua-bridge-byway-46208",
-  "tagline": "A short road through the hardwoods to half a bridge.",
+  "tagline": "A hardwood forest approach to a railroad bridge remade for walking",
   "motifs": [
     "viaduct"
   ],
   "intro": [
-    "Route 3011 leaves US 6 near Mount Jewett and goes north through McKean County hardwood forest to Kinzua Bridge State Park, where the Kinzua Viaduct once carried the Erie's trains 301 feet above Kinzua Creek.",
-    "The first bridge went up in iron in 1882, and six of its 20 towers stood taller than the Brooklyn Bridge. Rebuilt in steel in 1900, it still held trains to five miles an hour. On July 21, 2003, a tornado brought eleven towers down in less than 30 seconds. The state left them where they fell."
+    "The Kinzua Bridge Byway follows Route 3011 from Route 6 to Kinzua Bridge in McKean County. PennDOT lists its byway designation as effective in 2001. Pennsylvania’s tourism office presents it as a hardwood forest byway with a skywalk built on six steel towers that survived the 2003 tornado.",
+    "The park’s access road was built in 1974, four years after the park opened to the public. Its destination began as an iron railroad bridge in 1882, then was rebuilt in steel in 1900 to carry heavier trains. The original crossing carried a branch line toward Elk County’s coalfields, avoiding eight extra miles of track over rough terrain. Commercial service ended in 1959; Pennsylvania purchased the bridge in 1963 as the centerpiece of a state park. After the tornado brought down eleven towers in 2003, the remaining structure became the basis of a pedestrian skywalk in 2011.",
+    "Start with Mount Jewett, where US 6 serves as Main Street. The park lies four miles northeast of town. From Route 6, Route 3011 leads to the bridge; within the park, an overlook takes in the fallen bridge and Kinzua Creek Valley. The Sky Walk’s partial glass platform gives a view down from the surviving structure."
   ],
-  "season": "October, when the scenic overlook in the park is a prime place to see the fall foliage.",
   "moments": [
     {
       "title": "Mount Jewett",
       "kind": "town",
       "scene": "town",
-      "text": "A ridge-top borough at 2,240 feet, among the highest towns in Pennsylvania, named for the president of the railroad that brought the line through.",
+      "text": "Mount Jewett’s name records the arrival of the railroad. Previously called Howard Hill, the borough took the name of Hugh Judge Jewett, president of the New York, Lake Erie and Western Railroad when rail service reached the area. US 6 now passes through as Main Street. The borough occupies a ridge at 2,240 feet, with drainage toward Kinzua Creek, the West Branch of the Clarion River and Marvin Creek. All three streams belong to the Allegheny River system, carrying water away from the ridge. Kinzua Bridge State Park lies four miles northeast of town.",
       "at": [
         -78.64362,
         41.72472
       ]
     },
     {
+      "title": "Kinzua Bridge State Park",
+      "kind": "short walk",
+      "scene": "forest",
+      "text": "The park’s overlook faces the fallen bridge and Kinzua Creek Valley. Pennsylvania created the park through legislation signed by Governor William Scranton in 1963, but it did not open until 1970. Excursion trains began crossing the bridge in 1987 and continued until it closed for restoration in June 2002. In July 2003, a tornado brought down eleven of its twenty spans. The fallen sections were left where they landed, making the wreckage part of the park’s landscape. Badly rusted bolts at the tower bases caused the failure; sections fell intact before striking the ground.",
+      "at": [
+        -78.58694,
+        41.75952
+      ]
+    },
+    {
       "title": "Kinzua Sky Walk",
       "kind": "short walk",
       "scene": "forest",
-      "text": "A walkway runs out along the standing towers to a platform partly floored in glass at the end, where the fallen towers lie below in the valley.",
+      "text": "Six surviving steel towers support the Sky Walk. Opened on September 15, 2011, the walkway ends at an observation deck with glass flooring that reveals the bridge and valley below. The steel belongs to the bridge rebuilt in 1900 for heavier trains, replacing the original wrought-iron structure. Even after that rebuilding, trains were limited to five miles per hour. The pedestrian walkway extends 600 feet along the remaining supports. The reconstruction reused the original anchor bolts, a decision that later contributed to the bridge’s collapse when corrosion weakened those connections.",
       "at": [
         -78.58861,
         41.76111
@@ -36,24 +46,24 @@
   ],
   "sources": [
     {
-      "label": "PennDOT, Pennsylvania Byways list (RW-745ISB)",
-      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
-    },
-    {
       "label": "visitPA, Kinzua Bridge PA Scenic Byway",
       "url": "https://www.visitpa.com/listing/kinzua-bridge-pa-scenic-byway/1519/"
+    },
+    {
+      "label": "PennDOT, Pennsylvania Byways",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
     },
     {
       "label": "Wikipedia, Kinzua Bridge",
       "url": "https://en.wikipedia.org/wiki/Kinzua_Bridge"
     },
     {
-      "label": "Wikipedia, Mount Jewett, Pennsylvania",
-      "url": "https://en.wikipedia.org/wiki/Mount_Jewett,_Pennsylvania"
-    },
-    {
       "label": "Wikipedia, Kinzua Bridge State Park",
       "url": "https://en.wikipedia.org/wiki/Kinzua_Bridge_State_Park"
+    },
+    {
+      "label": "Wikipedia, Mount Jewett, Pennsylvania",
+      "url": "https://en.wikipedia.org/wiki/Mount_Jewett%2C_Pennsylvania"
     }
   ],
   "reviewed": false

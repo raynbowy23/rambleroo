@@ -44,7 +44,9 @@ export function getAuth(env: Env): Auth {
 
 async function sendSignInEmail(env: Env, email: string, url: string) {
   const text = `Here is your link to sign in to Rambleroo:\n\n${url}\n\nIt works once and expires in 15 minutes. If you didn't ask for it, you can ignore this email.`
-  const html = `<p>Here is your link to sign in to Rambleroo:</p><p><a href="${url}">Sign in to Rambleroo</a></p><p>It works once and expires in 15 minutes. If you didn't ask for it, you can ignore this email.</p>`
+  // The link is already URL-encoded; escaping it for HTML as well keeps any query value from reaching the markup.
+  const href = url.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  const html = `<p>Here is your link to sign in to Rambleroo:</p><p><a href="${href}">Sign in to Rambleroo</a></p><p>It works once and expires in 15 minutes. If you didn't ask for it, you can ignore this email.</p>`
   const response = await fetch('https://api.resend.com/emails', {
     method: 'POST',
     headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },

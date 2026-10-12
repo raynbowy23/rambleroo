@@ -1,19 +1,21 @@
 {
   "id": "western-heritage-historic-byway-2593",
-  "tagline": "Off the interstate and down to the falcons' canyon.",
+  "tagline": "Sagebrush and canyon rims along the Snake River’s birds-of-prey country",
   "motifs": [
     "river-bluffs"
   ],
   "intro": [
-    "From exit 44 at Meridian, Idaho 69 runs south eight miles to Kuna, which began as a railroad stop with a coach on to Boise. There the byway, once a route for miners and homesteaders, turns down Swan Falls Road through farmland and then rocky country into the Morley Nelson Snake River Birds of Prey National Conservation Area. It comes to the Snake River at Swan Falls Dam and turns west toward Celebration Park.",
-    "More than 700 pairs of raptors, of 15 species, nest on the canyon walls. Out on the plateau, by the Bureau of Land Management's count, live the densest ground squirrel populations ever recorded."
+    "The Western Heritage Historic Byway crosses sagebrush lands and follows the canyon rims of the Snake River. The Federal Highway Administration lists it as a National Scenic Byway and allows one hour for the drive. Its account emphasizes views of the Owyhee Mountains, the Boise Front and the Snake River Birds of Prey National Conservation Area.",
+    "At Kuna, an earlier journey involved a change of transport: the settlement began as a railroad stop with a coach connection to Boise. On the Snake River, Swan Falls Dam was built in 1901 to generate power; its original power plant was replaced in the 1990s. Congress created the conservation area in 1993 after research showed the need to protect the birds’ prey habitat and hunting territory as well as their nesting places.",
+    "Most of Meridian lies on a flat plain crossed by irrigation canals, with the Owyhee Mountains visible to the south. Kuna’s Indian Creek also carries irrigation water. At the canyon rim, Dedication Point overlooks the river’s cliffs. Farther south, Swan Falls lies beside the Snake River within the conservation area. Celebration Park, near Melba, adds another river setting with petroglyphs and the Guffey railroad bridge."
   ],
+  "notice": "At Dedication Point, look out over the Snake River cliffs.",
   "moments": [
     {
       "title": "Kuna",
       "kind": "town",
       "scene": "town",
-      "text": "The town likes to say its name means the end of the trail, though one early account has it as a Shoshone word for green leaf, good to smoke.",
+      "text": "Kuna began as a railroad stop where passengers could continue to Boise by coach. Another working connection runs through town: Indian Creek is a seasonal watercourse now used as an irrigation canal. The New York Canal feeds it with water from the Boise River Diversion Dam. In the city center, Colonel Bernard Fisher Veteran’s Memorial Park bears the name of a Kuna resident.",
       "at": [
         -116.372,
         43.49
@@ -23,7 +25,7 @@
       "title": "Swan Falls Dam",
       "kind": "roadside",
       "scene": "river",
-      "text": "The oldest hydroelectric dam on the Snake, built in 1901 where the Bonneville Flood once came through at 33 million cubic feet a second.",
+      "text": "Swan Falls is the Snake River’s oldest hydroelectric dam, built in 1901 to generate electricity. It is a concrete gravity dam, with the river here marking the boundary between Ada and Owyhee counties. The dam and power plant entered the National Register of Historic Places in 1976. That listing predates a substantial change: the original power plant was replaced in the 1990s. Both the dam and its reservoir lie within the Snake River Birds of Prey National Conservation Area. Its original fish-passage facilities performed poorly, one reason the later C. J. Strike Dam upstream was built without them.",
       "at": [
         -116.379,
         43.243
@@ -34,9 +36,9 @@
     },
     {
       "title": "Celebration Park",
-      "kind": "short walk",
+      "kind": "separate excursion",
       "scene": "river",
-      "text": "Petroglyphs here go back more than 12,000 years, and the 1897 Guffey railroad bridge, built to haul Silver City ore to Nampa, now carries walkers and riders over the Snake.",
+      "text": "Celebration Park preserves petroglyphs in place beside the Snake River. The site was a seasonal home for several groups; Paiute people lived at lower elevations along the river here during winter, and the region was also home to Shoshone and Bannock people. A later river crossing, the Guffey railroad bridge, was built in 1897 to carry Silver City gold and silver ore to Nampa for smelting. Abandoned in 1947, it escaped demolition in the 1970s and was purchased and restored by Canyon County in 1989. The steel bridge spans 500 feet across the river and rises 70 feet tall.",
       "at": [
         -116.523,
         43.299
@@ -45,20 +47,28 @@
   ],
   "sources": [
     {
-      "label": "Visit Idaho, Western Heritage Historic Byway",
-      "url": "https://visitidaho.org/things-to-do/atv-recreation-motorsports/western-heritage-historic-byway/"
+      "label": "Federal Highway Administration, Western Heritage Historic Byway",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2593"
     },
     {
       "label": "Wikipedia, Kuna, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Kuna,_Idaho"
+      "url": "https://en.wikipedia.org/wiki/Kuna%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Swan Falls Dam",
+      "url": "https://en.wikipedia.org/wiki/Swan_Falls_Dam"
     },
     {
       "label": "Wikipedia, Morley Nelson Snake River Birds of Prey National Conservation Area",
       "url": "https://en.wikipedia.org/wiki/Morley_Nelson_Snake_River_Birds_of_Prey_National_Conservation_Area"
     },
     {
-      "label": "Wikipedia, Swan Falls Dam",
-      "url": "https://en.wikipedia.org/wiki/Swan_Falls_Dam"
+      "label": "Wikipedia, Meridian, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Meridian%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Swan Falls, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Swan_Falls%2C_Idaho"
     },
     {
       "label": "Wikipedia, Celebration Park",

@@ -1,16 +1,17 @@
 {
   "id": "black-mountain-rag-12813",
-  "tagline": "Named for a fiddle tune, and it twists like one.",
+  "tagline": "A river gorge connects Bat Cave, Chimney Rock and Lake Lure",
   "intro": [
-    "Out of Black Mountain, NC 9 runs south past the I-40 interchange and into sharp curves and hairpin turns, some seventeen miles of them, down to the hamlet of Bat Cave. There it picks up US 64 and US 74A and goes on through Hickory Nut Gorge, past Chimney Rock, to Lake Lure, where the byway ends. A spur runs west on US 64 to Edneyville.",
-    "The name comes from an old fiddle tune, and the state's guidebook says the road plays it, all twists and turns and ups and downs. The Black Mountains got their own name from the dark green firs that cover them."
+    "Black Mountain Rag appears in North Carolina’s scenic-byways guidebook. The road corridor runs from Black Mountain on NC 9 to Bat Cave, where it joins US 64 and US 74A in Hickory Nut Gorge. The Broad River passes through Bat Cave; farther along are Chimney Rock’s 315-foot gneiss monolith and the lake created by damming the river at Lake Lure. Bat Cave and Chimney Rock lie within a narrow gorge with steep walls.",
+    "A drovers’ road established in 1798 connected the Bat Cave area with Asheville along the corridor now followed by US 74A. Drovers moved turkeys, geese, hogs and cattle between the mountains and markets. In the 1920s, the Morse family’s dam project reshaped the Broad River into Lake Lure, completing the impoundment in 1927.",
+    "The geographic sequence is Black Mountain, Bat Cave, Chimney Rock and Lake Lure. At Bat Cave, the three highways merge as Lake Lure Highway and continue southeast. Helene flooding damaged Bat Cave, Chimney Rock and Lake Lure in 2024."
   ],
   "moments": [
     {
       "title": "Bat Cave",
       "kind": "town",
       "scene": "river",
-      "text": "Named for a granite fissure cave on Bluerock Mountain that is closed to the public, the hamlet on the Broad River keeps losing its road signs, especially around the time of Batman Returns.",
+      "text": "Bat Cave takes its name from a cave on Bluerock Mountain, a protected place closed to the public. The community sits beside the Broad River where NC 9, US 64 and US 74A merge. Its post office moved here and took the Bat Cave name in 1879, after earlier service as the Chimney Rock Post Office. Flooding destroyed the post office and much of the community in 1916; the post office was rebuilt. Tourism grew in the 1920s; the 186-acre Bat Cave Preserve was established to protect the cave’s bats, including endangered Indiana bats. Helene brought significant damage again in 2024.",
       "at": [
         -82.28694444,
         35.45138889
@@ -18,9 +19,9 @@
     },
     {
       "title": "Chimney Rock",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Between Bat Cave and Chimney Rock village the road passes below a 315-foot gneiss monolith, and in the state park around it Hickory Nut Falls drops 404 feet.",
+      "text": "Chimney Rock is a 315-foot monolith of gneiss, shaped by erosion along joints in the rock. Large blocks break away from rock surfaces and fall or slide, processes that have produced fissure caves in the gorge. Lucius B. Morse bought 64 acres here in 1902, including the Chimney and cliffs. His family ran the park privately until 2007, when the state completed its purchase agreement. The state park also contains the 404-foot Hickory Nut Falls. Helene destroyed the park’s access bridge in 2024; the park reopened on June 27, 2025.",
       "at": [
         -82.25055556,
         35.43305556
@@ -30,7 +31,7 @@
       "title": "Lake Lure",
       "kind": "town",
       "scene": "river",
-      "text": "The Morse family dammed the Broad River to make the lake in the 1920s, lost it to a Philadelphia mortgage holder in the Depression, and the town bought the dam and lake in 1965.",
+      "text": "Lake Lure began as a dam project financed through a mortgage. The Morse family formed Carolina Mountain Power Company in 1925, and the Broad River impoundment was complete in 1927. The power plant began selling electricity the following year. Elizabeth Morse, Lucius’s wife, is credited with naming both lake and town. When the Depression halted development, Philadelphia mortgage-holder Stroud & Company foreclosed on the lake and dam. The town acquired the dam, power company and real estate in 1965. Flooding during Helene damaged the town and the dam’s structural supports in September 2024, though its wall remained stable.",
       "at": [
         -82.20638889,
         35.44027778
@@ -42,28 +43,24 @@
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Black Mountain Rag",
+      "label": "Wikipedia, Bat Cave, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Bat_Cave%2C_North_Carolina"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, fifth edition",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=74"
     },
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Black Mountain Rag route and points of interest",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=75"
-    },
-    {
-      "label": "Wikipedia, Black Mountain, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Black_Mountain,_North_Carolina"
-    },
-    {
-      "label": "Wikipedia, Bat Cave, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Bat_Cave,_North_Carolina"
+      "label": "Wikipedia, Lake Lure, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Lake_Lure%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Chimney Rock State Park",
       "url": "https://en.wikipedia.org/wiki/Chimney_Rock_State_Park"
     },
     {
-      "label": "Wikipedia, Lake Lure, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Lake_Lure,_North_Carolina"
+      "label": "Wikipedia, Chimney Rock, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Chimney_Rock%2C_North_Carolina"
     }
   ],
   "reviewed": false

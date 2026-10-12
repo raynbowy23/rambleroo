@@ -1,20 +1,21 @@
 {
   "id": "kings-canyon-scenic-byway-2299",
-  "tagline": "Up to the big trees, then down into the canyon.",
+  "tagline": "A climb through sequoia country, then a descent to the Kings River.",
   "motifs": [
     "river-bluffs"
   ],
   "intro": [
-    "Highway 180 sets out from the western foothills of the Sierra Nevada at about 2,000 feet, near Dunlap, where the stagecoaches once stopped to change horses. It climbs through oak chaparral and pine and fir forest to 6,500 feet and the General Grant Grove, where a short walk reaches the second-largest giant sequoia in the world.",
-    "Then the road turns down, 2,700 feet to the Kings River, past Junction View, Marble Mountain View and Grizzly Falls. It is the only road into Kings Canyon, and it ends just past Cedar Grove."
+    "Kings Canyon Scenic Byway climbs from 2,000 feet at the Hume Lake Ranger Station to 6,500 feet in Kings Canyon National Park, then drops 2,700 feet to the Kings River. The Forest Service presents this fifty-mile scenic drive as a passage through Southern Sierra life zones: oak chaparral, pine and fir forest, and giant sequoia groves. It is the only vehicle route into Kings Canyon. The route is a National Forest scenic byway; the Forest Service gives a round-trip driving time of about two to three hours.",
+    "Access developed in stages. In the early 1890s, Fresno County built a stage road from Sanger to the lumber town of Millwood, bringing more visitors to Converse Basin and General Grant National Park. In 1905, the future highway’s eastern section, from General Grant Grove to Kings River Canyon, became Legislative Route 41. A 1919 bond measure financed extension and improvements toward Fresno, completed by 1933.",
+    "Begin in the western foothills and climb to General Grant Grove, where a short walk reaches the General Grant Tree. Wilsonia’s cabin village is surrounded by the grove section of the park. The descent passes Junction View, Marble Mountain View and Grizzly Falls, ending just beyond Cedar Grove."
   ],
-  "season": "Mid-May to mid-October, when the road into the canyon is open.",
+  "notice": "The climb passes through oak chaparral, pine and fir forest, and giant sequoia groves.",
   "moments": [
     {
       "title": "Wilsonia",
       "kind": "town",
       "scene": "forest",
-      "text": "A cabin village inside Grant Grove, named for Woodrow Wilson because California's mountain votes, held up by a snowstorm, decided his reelection in 1916.",
+      "text": "Wilsonia is surrounded by Kings Canyon National Park, but the village itself lies outside the park. Named in honor of Woodrow Wilson, the village stands at an elevation of 6,617 feet. The community began with a 100-acre homestead in the 1870s. After changes of ownership and subdivision, the village was established in 1918. Its historic district joined the National Register in 1996 and includes 139 contributing historic structures. Most of its land is privately owned, and more than 200 cabins occupy the village, many used as summer residences or vacation homes.",
       "at": [
         -118.95583,
         36.73472
@@ -24,7 +25,7 @@
       "title": "Boyden Cavern",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Below the 2,000-foot marble walls of the Portals of the Kings, guided tours go down past a flowstone called Mother Nature's Wedding Cake to a small underground stream.",
+      "text": "Boyden Cavern’s entrance lies beneath the 2,000-foot marble walls of the Portals of the Kings. The cave formed by dissolution in Mesozoic marble, limestone transformed by metamorphism. Its formations include shields, a stalactite group named the Upside Down City and a flowstone formation called Mother Nature’s Wedding Cake. The Drapery Room contains curtains, soda straws and helictites, and a small underground stream lies at the end of the tour route. The cavern is in Sequoia National Forest, just west of Kings Canyon National Park. The mapped passages total 0.63 miles.",
       "at": [
         -118.81816,
         36.81494
@@ -34,7 +35,7 @@
       "title": "Cedar Grove",
       "kind": "town",
       "scene": "forest",
-      "text": "John Muir called it Deer Park in 1891. A hotel went up here without a permit in 1897 and was made to close the next year. The incense cedars stayed.",
+      "text": "Incense cedars are abundant in the canyon at Cedar Grove, near the South Fork of the Kings River. John Muir used the name Deer Park in 1891; Cedar Grove was in use by 1902. Visitor development had already begun: a small hotel went up without a permit in 1897 and was forced to close the following year. The Cedar Grove Hotel name continued to appear on the Tehipite topographic map from 1905 through 1924. The South Fork passes through Cedar Grove after flowing west through a glacial valley of meadow flats and granite cliffs. The byway ends just beyond Cedar Grove.",
       "at": [
         -118.67038,
         36.79077
@@ -42,7 +43,7 @@
     }
   ],
   "practical": [
-    "The road from below the Hume Lake turnoff to Roads End closes in winter, typically November to April."
+    "Cedar Grove: The Forest Service’s January 14, 2026 notice marks the site closed. The road from the Hume Lake turnoff to Roads End closes in winter, typically November through April; CalTrans determines actual dates as weather allows. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -50,16 +51,16 @@
       "url": "https://www.fs.usda.gov/r05/sequoia/recreation/kings-canyon-scenic-byway"
     },
     {
-      "label": "Wikipedia, Dunlap, California",
-      "url": "https://en.wikipedia.org/wiki/Dunlap,_California"
+      "label": "Wikipedia, California State Route 180",
+      "url": "https://en.wikipedia.org/wiki/California_State_Route_180"
     },
     {
-      "label": "Wikipedia, General Grant Tree",
-      "url": "https://en.wikipedia.org/wiki/General_Grant_Tree"
+      "label": "Wikipedia, Millwood, California",
+      "url": "https://en.wikipedia.org/wiki/Millwood%2C_California"
     },
     {
       "label": "Wikipedia, Wilsonia, California",
-      "url": "https://en.wikipedia.org/wiki/Wilsonia,_California"
+      "url": "https://en.wikipedia.org/wiki/Wilsonia%2C_California"
     },
     {
       "label": "Wikipedia, Boyden Cavern",
@@ -67,7 +68,11 @@
     },
     {
       "label": "Wikipedia, Cedar Grove, Fresno County, California",
-      "url": "https://en.wikipedia.org/wiki/Cedar_Grove,_Fresno_County,_California"
+      "url": "https://en.wikipedia.org/wiki/Cedar_Grove%2C_Fresno_County%2C_California"
+    },
+    {
+      "label": "Wikipedia, South Fork Kings River",
+      "url": "https://en.wikipedia.org/wiki/South_Fork_Kings_River"
     }
   ],
   "reviewed": false

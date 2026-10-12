@@ -1,26 +1,17 @@
 {
   "id": "green-mountain-byway-995001",
-  "tagline": "Up Route 100 from Waterbury to Stowe, under Mount Mansfield.",
+  "tagline": "From Stowe’s mountain valley to Waterbury’s record of rising water.",
   "intro": [
-    "Route 100 leaves Waterbury village and heads north up the valley. Three and a half miles on it passes the west side of Waterbury Center, near the east arm of the Waterbury Reservoir on the Little River, and six miles after that it reaches Stowe, in a broad valley with Mount Mansfield and the Green Mountains to the west and the Worcester Range to the east.",
-    "That stretch is only the start of the Green Mountain Byway, which goes on to circle 71 miles around the northern Green Mountains through Morristown, Hyde Park, Johnson and Cambridge, and over Smugglers' Notch."
+    "Route 100 connects Stowe and Waterbury through a valley below Mount Mansfield, Vermont’s highest mountain. At Stowe, the Green Mountains rise to the west and the Worcester Range to the east. The Little River flows south past Moscow village into Waterbury Reservoir. From Stowe, Route 108 offers a separate, steep and winding drive through Smugglers’ Notch toward Jeffersonville.",
+    "Mountain scenery drew summer visitors to Stowe by the middle of the nineteenth century. W.H.H. Bingham promoted that trade with hotels and roads to Mount Mansfield and Smugglers’ Notch. The mountain toll road followed the Summit House by 1870. An electric railway later linked Stowe and Waterbury, carrying passengers and freight from 1897 until 1932. Later, the Depression-era Civilian Conservation Corps cut ski trails, adding winter journeys to a town already established as a summer resort.",
+    "For the southbound drive, leave Stowe village on Route 100 and continue to Waterbury Center. Waterbury Center State Park borders the community on the west, beside the reservoir’s east arm. The road continues south to Waterbury village and Interstate 89."
   ],
   "moments": [
-    {
-      "title": "Waterbury",
-      "kind": "town",
-      "scene": "town",
-      "text": "Inscriptions on some village buildings claim to mark how high the water rose in the flood of 1927.",
-      "at": [
-        -72.74861111,
-        44.34222222
-      ]
-    },
     {
       "title": "Stowe",
       "kind": "town",
       "scene": "mountain",
-      "text": "A summer resort by the mid-1800s, the village had an electric railway to Waterbury from 1897 to 1932, and by the 1930s the CCC was cutting ski trails on Mount Mansfield.",
+      "text": "Stowe’s resort history began with summer visitors drawn to mountain scenery. The Mount Mansfield Electric Railway connected the village with Waterbury from 1897 to 1932, carrying freight as well as passengers. Winter tourism took hold too: Stowe held its first Winter Carnival in 1921. During the Depression, the Civilian Conservation Corps cut ski trails on Mount Mansfield. The Bruce Trail came first in 1933, followed by Nose Dive in 1934. A single chairlift followed in 1940. The village center’s wood-frame buildings retain a variety of nineteenth-century architectural styles, clustered near the junction of Routes 100 and 108.",
       "at": [
         -72.685,
         44.46555556
@@ -30,45 +21,55 @@
       "title": "Mount Mansfield",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Vermont's highest mountain, at 4,393 feet, looks from the east like a long human profile with forehead, nose and chin, and the chin is the summit.",
+      "text": "Mount Mansfield’s summit is its chin. Seen from the east, the ridge resembles an elongated face with forehead, nose, lips and chin. The highest point reaches 4,393 feet, the highest elevation in Vermont. The toll road climbs to the Nose, leaving the Chin to be reached on foot along the ridge. Above, about 200 acres of alpine tundra survive from the Ice Ages. The Long Trail traverses the main ridgeline, while the mountain’s eastern flank carries Stowe’s ski terrain. In 1980, the National Park Service designated the Mount Mansfield Natural Area a National Natural Landmark.",
       "at": [
         -72.81430972,
         44.54394691
       ]
+    },
+    {
+      "title": "Waterbury",
+      "kind": "town",
+      "scene": "town",
+      "text": "Waterbury’s buildings carry inscriptions purporting to mark the height of the 1927 flood. The flood also washed away the steel bridge at Winooski Street. Its 1928 replacement used a Parker through truss as Vermont rebuilt after losing more than 1,200 bridges. Concrete abutments rest partly on remnants of older stone supports. In 1938, the Army Corps of Engineers built Waterbury Dam on the Little River to control future flooding downstream. The replacement bridge belonged to a statewide rebuilding program that relied largely on standardized designs and construction methods to restore the lost crossings.",
+      "at": [
+        -72.74861111,
+        44.34222222
+      ]
     }
+  ],
+  "practical": [
+    "Stowe: Route 108 through Smugglers’ Notch closes in winter, usually from late October until May. Tractor-trailers are prohibited on that section. (checked 2026-10-11)",
+    "Mount Mansfield: The 4.5-mile toll road is steep and mostly unpaved, with hairpin turns; it reaches the Nose, not the summit. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Green Mountain Byway",
-      "url": "https://greenmountainbywayvt.com/"
-    },
-    {
-      "label": "Wikipedia, Vermont Route 100",
-      "url": "https://en.wikipedia.org/wiki/Vermont_Route_100"
+      "label": "Wikipedia, Stowe, Vermont",
+      "url": "https://en.wikipedia.org/wiki/Stowe%2C_Vermont"
     },
     {
       "label": "Wikipedia, Waterbury, Vermont",
-      "url": "https://en.wikipedia.org/wiki/Waterbury,_Vermont"
-    },
-    {
-      "label": "Wikipedia, Waterbury Center, Vermont",
-      "url": "https://en.wikipedia.org/wiki/Waterbury_Center,_Vermont"
-    },
-    {
-      "label": "Wikipedia, Stowe, Vermont",
-      "url": "https://en.wikipedia.org/wiki/Stowe,_Vermont"
-    },
-    {
-      "label": "Wikipedia, Stowe (CDP), Vermont",
-      "url": "https://en.wikipedia.org/wiki/Stowe_(CDP),_Vermont"
-    },
-    {
-      "label": "Wikipedia, Waterbury (CDP), Vermont",
-      "url": "https://en.wikipedia.org/wiki/Waterbury_(CDP),_Vermont"
+      "url": "https://en.wikipedia.org/wiki/Waterbury%2C_Vermont"
     },
     {
       "label": "Wikipedia, Mount Mansfield",
       "url": "https://en.wikipedia.org/wiki/Mount_Mansfield"
+    },
+    {
+      "label": "Wikipedia, Vermont Route 108",
+      "url": "https://en.wikipedia.org/wiki/Vermont_Route_108"
+    },
+    {
+      "label": "Wikipedia, Stowe Village Historic District",
+      "url": "https://en.wikipedia.org/wiki/Stowe_Village_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Waterbury Center, Vermont",
+      "url": "https://en.wikipedia.org/wiki/Waterbury_Center%2C_Vermont"
+    },
+    {
+      "label": "Wikipedia, Winooski Street Bridge",
+      "url": "https://en.wikipedia.org/wiki/Winooski_Street_Bridge"
     }
   ],
   "reviewed": false

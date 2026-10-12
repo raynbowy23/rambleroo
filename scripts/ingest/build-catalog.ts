@@ -1,3 +1,4 @@
+import { splitPhotos } from '../photos/split.ts'
 import { applyReplacements, supplementFiles } from '../states/sources.ts'
 // Normalises the raw snapshots in data/raw/ into the display data the app loads from public/data/.
 // Run with `npm run ingest:build` after `npm run ingest:fetch`. Deterministic for a given snapshot.
@@ -273,3 +274,5 @@ async function buildBasemap() {
 }
 
 await main()
+// The app fetches photos per road, so the registry is re-split whenever the catalog's roads change.
+console.log(`${await splitPhotos()} photo files`)

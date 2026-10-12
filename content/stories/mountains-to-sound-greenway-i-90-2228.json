@@ -1,21 +1,21 @@
 {
   "id": "mountains-to-sound-greenway-i-90-2228",
-  "tagline": "An interstate that keeps a campground in its median.",
+  "tagline": "Floating bridges, forested mountains and farmland along a protected interstate corridor",
   "motifs": [
     "snow-peaks",
     "lake-wide"
   ],
   "intro": [
-    "The byway leaves Puget Sound on Interstate 90, crosses Lake Washington on floating bridges and passes Issaquah under the Issaquah Alps. Past North Bend it follows the South Fork of the Snoqualmie into the Cascades. Near the Asahel Curtis picnic area the two directions part around a campground in the median, then climb on high viaducts to Snoqualmie Pass, 3,022 feet. Then it runs down the shore of Keechelus Lake and on to Cle Elum and out to the ranches at Thorp.",
-    "The pass carried a wagon road in 1867, and 400 motorists dedicated the Sunset Highway at the summit in 1915. Between Hyak and Stampede Pass the animals now have a bridge of their own over the freeway."
+    "The Mountains to Sound Greenway follows I-90 from Seattle over Snoqualmie Pass to Thorp, crossing forested Cascades between Puget Sound and the Upper Yakima Basin’s farmland. State of Washington Tourism lists a 100-mile, two-hour drive and highlights historic towns and outdoor recreation. The route became a National Scenic Byway in 1998. It crosses Lake Washington on floating bridges and climbs toward the pass on high viaducts. The tourism office recommends two days for a visit.",
+    "A toll road crossed Snoqualmie Pass by 1867, but the intended wagon route remained usable only by pack trains and cattle drives for years. The Sunset Highway opened through the pass in 1915. In 1990, citizens hiking beside I-90 envisioned the Greenway; the trust formed the following year to protect natural areas near the pass from urban sprawl. The larger National Heritage Area now extends to Ellensburg.",
+    "Driving east from Seattle, cross Lake Washington and continue through Issaquah toward North Bend. The freeway follows the South Fork of the Snoqualmie River into the mountains. Near Asahel Curtis Picnic Area, its lanes separate across a median containing Denny Creek Campground. Beyond the pass, I-90 follows Keechelus Lake’s eastern shore, then the Yakima River past Easton and Cle Elum toward Thorp."
   ],
-  "season": "Autumn, for the fall color, by the state tourism office's advice.",
   "moments": [
     {
       "title": "Issaquah",
       "kind": "town",
       "scene": "town",
-      "text": "A mining town that turned to timber when the mines gave out in the 1890s, at the south end of Lake Sammamish, with a salmon hatchery and the Issaquah Alps behind it.",
+      "text": "Issaquah’s valley lies between the Sammamish Plateau and the wooded hills known as the Issaquah Alps. The town developed to serve mining, then drew lumber companies as mineral deposits neared depletion in the late 1890s. Timber went to Seattle and other growing western Washington communities. A surviving railway building gives that transport history a place in the present: the 1889 depot now operates as a museum. It originally combined passenger service with a freight warehouse for the Seattle, Lake Shore and Eastern Railway. On Issaquah Creek, the state-owned salmon hatchery dates to 1936.",
       "at": [
         -122.027,
         47.543
@@ -25,7 +25,8 @@
       "title": "Keechelus Lake",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The source of the Yakima River, its name means few fish. The freeway hugs its eastern shore, where bridges replaced the old snowshed in 2014.",
+      "text": "I-90 runs between Keechelus Lake’s eastern shore and the mountains, just beyond Snoqualmie Pass. The lake is the Yakima River’s source and also an irrigation reservoir. A dam built in 1917 controls the natural lake’s capacity and discharge for the Bureau of Reclamation’s Yakima Project. The highway has changed here too: a snowshed that protected westbound traffic was removed in 2014 and replaced with elevated bridges. Those bridges stand away from the slope so avalanches can pass beneath the road. On the opposite shore, the Milwaukee Road once ran trains toward its Snoqualmie Tunnel at Hyak.",
+      "notice": "The avalanche bridges leave space for slides to pass beneath the highway.",
       "at": [
         -121.37,
         47.35
@@ -38,48 +39,49 @@
       "title": "Thorp",
       "kind": "town",
       "scene": "prairie",
-      "text": "At the narrow west end of the Kittitas Valley, where the Cascade forest gives way to cattle ranches and hay fields, the byway ends by the old Thorp Mill.",
+      "text": "At Thorp, Cascade forests give way to cattle ranches and fields producing hay, alfalfa, vegetables and fruit. The byway officially ends here, at the western end of the Kittitas Valley. Water from the Yakima River powered a sawmill built by James L. Mills in 1879. Mills then arranged for the same wheels to drive Oren Hutchinson’s 1883 gristmill, which supplied livestock feed and flour for local residents. The town later developed at the railway depot, with maintenance facilities, shipping facilities and warehouses among its first developments. The historic Thorp Mill remains a landmark recognized on the National Register of Historic Places.",
       "at": [
         -120.673,
         47.068
       ]
     }
   ],
-  "practical": [
-    "Snoqualmie Pass is kept open all winter but can close for heavy snow or avalanche control, and chains are sometimes required. Check pass conditions before crossing."
-  ],
   "sources": [
     {
-      "label": "Mountains to Sound Greenway Trust, home page",
-      "url": "https://mtsgreenway.org/"
+      "label": "Wikipedia, Interstate 90 in Washington",
+      "url": "https://en.wikipedia.org/wiki/Interstate_90_in_Washington"
     },
     {
       "label": "State of Washington Tourism, Mountains to Sound Greenway",
       "url": "https://stateofwatourism.com/scenic-byways/mountains-to-sound-greenway/"
     },
     {
-      "label": "Wikipedia, Interstate 90 in Washington",
-      "url": "https://en.wikipedia.org/wiki/Interstate_90_in_Washington"
-    },
-    {
       "label": "Wikipedia, Snoqualmie Pass",
       "url": "https://en.wikipedia.org/wiki/Snoqualmie_Pass"
     },
     {
+      "label": "Wikipedia, Mountains to Sound Greenway",
+      "url": "https://en.wikipedia.org/wiki/Mountains_to_Sound_Greenway"
+    },
+    {
+      "label": "Mountains to Sound Greenway Trust, Connecting Ecosystems and Communities",
+      "url": "https://mtsgreenway.org/"
+    },
+    {
       "label": "Wikipedia, Issaquah, Washington",
-      "url": "https://en.wikipedia.org/wiki/Issaquah,_Washington"
+      "url": "https://en.wikipedia.org/wiki/Issaquah%2C_Washington"
+    },
+    {
+      "label": "Wikipedia, Issaquah station",
+      "url": "https://en.wikipedia.org/wiki/Issaquah_station"
     },
     {
       "label": "Wikipedia, Keechelus Lake",
       "url": "https://en.wikipedia.org/wiki/Keechelus_Lake"
     },
     {
-      "label": "Wikipedia, Hyak, Washington",
-      "url": "https://en.wikipedia.org/wiki/Hyak,_Washington"
-    },
-    {
       "label": "Wikipedia, Thorp, Washington",
-      "url": "https://en.wikipedia.org/wiki/Thorp,_Washington"
+      "url": "https://en.wikipedia.org/wiki/Thorp%2C_Washington"
     }
   ],
   "reviewed": false

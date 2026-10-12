@@ -1,16 +1,17 @@
 {
   "id": "a1a-ocean-shore-scenic-highway-2556",
-  "tagline": "A narrow town strip, with water on either side.",
+  "tagline": "Between ocean and waterway, A1A connects Beverly Beach with Flagler Beach.",
   "intro": [
-    "A1A runs south through Beverly Beach and on into Flagler Beach, a thin strip of a town between the Atlantic Ocean and the Intracoastal Waterway. Its six miles of sand take an orange hue from crushed coquina shells, and one fishing pier interrupts them.",
-    "The city is named for Henry Flagler, the railroad developer who helped turn East Florida toward the resort trade. A block west of the pier, the town museum keeps everything from colonial plantation artifacts to its World War II encounters with German submarines."
+    "A1A passes through Beverly Beach between the Atlantic Ocean and the Intracoastal Waterway, then continues into Flagler Beach. In its 2013 portrait of Flagler Beach, Budget Travel described orange sand colored by crushed coquina shells.",
+    "The highway’s coastal setting has also made it vulnerable to erosion: Hurricane Matthew’s storm surge significantly damaged A1A in Flagler Beach. The local historical museum includes A1A memorabilia and displays on severe weather, preserving records of the road and the town’s changing shoreline experience.",
+    "Travel south from Beverly Beach into Flagler Beach, where the historical museum stands on South Central Avenue. Continue along A1A to Gamble Rogers Memorial State Recreation Area, another stretch of land between ocean and Intracoastal Waterway, with a beach and a boat basin."
   ],
   "moments": [
     {
       "title": "Beverly Beach",
       "kind": "town",
       "scene": "coast",
-      "text": "A1A passes through this town of well under half a square mile, 30 miles south of St. Augustine and 23 miles north of Daytona Beach.",
+      "text": "Beverly Beach has water for two town boundaries: the Atlantic on the east and the Intracoastal Waterway on the west. A1A passes through this 0.39-square-mile municipality, connecting Painters Hill to the north with Flagler Beach to the south. Along A1A, St. Augustine lies 30 miles north and Daytona Beach 23 miles south.",
       "at": [
         -81.14694444,
         29.51638889
@@ -20,10 +21,20 @@
       "title": "Flagler Beach Historical Museum",
       "kind": "town",
       "scene": "town",
-      "text": "Prehistoric bones share the collection with space food and a Flagler Beach city flag that orbited the Earth aboard the Space Shuttle Endeavour.",
+      "text": "A Flagler Beach city flag traveled into Earth orbit aboard Space Shuttle Endeavour; it is part of the historical museum’s collection, alongside space food supplied by NASA astronauts. The collection also reaches back to prehistoric bones and Indigenous artifacts found in Flagler County. Railroad and turpentine-camp objects document earlier local industries, while A1A memorabilia records the highway. The museum’s recent-history displays include surfing and severe weather, keeping the collection connected to life on this coast. Buttons and bottles from area missions bring the collection down to the scale of personal belongings.",
       "at": [
         -81.1276,
         29.4798
+      ]
+    },
+    {
+      "title": "Gamble Rogers Memorial State Recreation Area",
+      "kind": "short walk",
+      "scene": "coast",
+      "text": "Gamble Rogers Memorial State Recreation Area occupies 144 acres between the Atlantic Ocean and the Intracoastal Waterway on A1A. Its name commemorates the Florida folk singer and guitarist who attempted to rescue a tourist here on October 10, 1991. Both men drowned in the heavy surf and riptides. The Florida legislature created the park in his honor. The park includes a mile-long nature trail, beach, boat ramp and basin with access to the Intracoastal Waterway. Between May and early September, the park’s wildlife includes loggerhead, green and leatherback sea turtles.",
+      "at": [
+        -81.11111111,
+        29.43694444
       ]
     }
   ],
@@ -39,6 +50,10 @@
     {
       "label": "Wikipedia, Flagler Beach Historical Museum",
       "url": "https://en.wikipedia.org/wiki/Flagler_Beach_Historical_Museum"
+    },
+    {
+      "label": "Wikipedia, Gamble Rogers Memorial State Recreation Area at Flagler Beach",
+      "url": "https://en.wikipedia.org/wiki/Gamble_Rogers_Memorial_State_Recreation_Area_at_Flagler_Beach"
     }
   ],
   "reviewed": false

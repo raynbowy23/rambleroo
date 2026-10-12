@@ -3,10 +3,12 @@ import { createPortal } from 'react-dom'
 import type { Photo } from '../../lib/types'
 import { Dialog } from '../../components/ui/Dialog'
 import s from './Photos.module.css'
+import { PHOTO_ORIGIN } from '../../lib/photoOrigin'
 
 export function photoPath(photo: Photo, thumbnail = false) {
   const file = thumbnail ? (photo.thumb ?? photo.file) : photo.file
-  return file.startsWith('/') ? file : `/photos/${photo.bywayId}/${file}`
+  const path = file.startsWith('/') ? file : `/photos/${photo.bywayId}/${file}`
+  return PHOTO_ORIGIN ? PHOTO_ORIGIN + path.replace(/^\/photos/, '') : path
 }
 export function photoSource(photo: Photo) {
   return photo.source === 'nara' && !photo.sourceUrl.includes('commons.wikimedia.org')
@@ -38,6 +40,8 @@ export function PhotoImage({ photo, full = false, hero = false }: { photo: Photo
       width={photo.width}
       height={photo.height}
       alt={photo.alt}
+      // Fetched with CORS, so the offline cache stores a readable copy rather than an opaque one.
+      crossOrigin="anonymous"
       loading={hero ? 'eager' : 'lazy'}
       fetchPriority={hero ? 'high' : undefined}
       decoding="async"

@@ -1,19 +1,21 @@
 {
   "id": "selma-to-montgomery-march-byway-2050",
-  "tagline": "Fifty-four miles from the Pettus Bridge to the Capitol steps.",
+  "tagline": "A river crossing and rural highway trace the voting-rights march",
   "motifs": [
     "arch-bridge"
   ],
   "intro": [
-    "The byway leaves Selma over the Edmund Pettus Bridge, which starts high on the town's bluff and comes down across the Alabama River, then follows US 80 east through the low hills of Lowndes County to the Capitol in Montgomery. It is the route of the voting rights march of March 1965, and markers along it show where the marchers camped.",
-    "In 1965 the road ran four lanes out of Selma, narrowed to two through Lowndes County and widened again at the Montgomery County line. A court order held the march to 300 people on the two-lane stretch. They crossed it in two days of cold rain, camping in muddy fields."
+    "The Selma to Montgomery March Byway crosses the Alabama River and follows US 80 through Lowndes County’s gently rolling hills to Montgomery. The Federal Highway Administration lists this 54-mile All-American Road as an hour’s drive, or a day with stops. Its profile emphasizes the 1965 march and the countryside where participants camped on their way to the capital.",
+    "The Dallas County Voters League and Student Nonviolent Coordinating Committee had pursued voter registration in Selma before Martin Luther King Jr. and the Southern Christian Leadership Conference joined the campaign. Voting-rights organizers made this road a route of protest in March 1965. State and local lawmen attacked the first march on March 7; a second march turned back at the bridge on March 9. The final march left Selma on March 21 under federal protection and reached the Capitol on March 25. Congress established the National Historic Trail in 1996 to commemorate the people, events and route.",
+    "Begin in Selma, cross the Edmund Pettus Bridge, then follow US 80 toward White Hall and the Lowndes Interpretive Center. Route markers identify campsites along the way. In Montgomery, the City of St. Jude was the final overnight stop before marchers continued to the Capitol steps on Dexter Avenue."
   ],
   "moments": [
     {
       "title": "Edmund Pettus Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "On March 7, 1965, police met the marchers here with horses, clubs and tear gas. On March 21 they crossed it again and kept walking to Montgomery.",
+      "text": "The bridge rises from Selma’s bluff, leaving its western end higher than its eastern end. That shape mattered on March 7, 1965: marchers could not see the police waiting beyond the crest until they reached the top. John Lewis of the Student Nonviolent Coordinating Committee and Hosea Williams of the Southern Christian Leadership Conference led that first march. State troopers and county possemen attacked with clubs and tear gas; mounted officers charged the crowd. The attack became known as Bloody Sunday. On March 21, marchers crossed again and continued to Montgomery. The 1940 bridge now carries US 80 Business across the Alabama River.",
+      "notice": "The steel arch spans the river; the western approach begins higher on Selma’s bluff.",
       "at": [
         -87.019,
         32.406
@@ -26,13 +28,14 @@
       "title": "Lowndes Interpretive Center, White Hall",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "The trail's center stands in the county where, in 1965, Black residents were 81 percent of the population and not one of them was registered to vote."
+      "text": "In 1965, Black residents made up 81% of Lowndes County’s population, yet none was registered to vote. The road narrowed to two lanes in the county, and Judge Frank Minis Johnson’s order limited the march to 300 participants while it occupied that section. They crossed the county on March 22 and 23, camping in muddy fields. Subsequent voter-registration work by Student Nonviolent Coordinating Committee organizers helped create the Lowndes County Freedom Organization, an independent political party. White Hall’s interpretive center is one of three National Park Service visitor centers along the march route, with the others in Selma and Montgomery."
     },
     {
       "title": "Alabama State Capitol",
       "kind": "town",
       "scene": "town",
-      "text": "On March 25, 25,000 people marched in from the City of St. Jude to these steps, where King gave the speech remembered as How Long, Not Long.",
+      "text": "The march ended at the foot of the Capitol steps on Dexter Avenue on March 25, 1965. A crowd of 25,000 had come from the City of St. Jude, and Martin Luther King Jr. delivered the speech remembered as “How Long, Not Long.” The broad marble steps were themselves a replacement: installed in 1949, they superseded a narrower flight. They remain as they were in 1965, with repairs made during the building’s 1992 renovation. The Capitol now houses the governor’s office and functions as a museum; the legislature meets at the Alabama State House. Commemorative Selma to Montgomery marches have returned to these steps.",
+      "notice": "The front steps extend the full width of the portico and have raised marble planters along their edges.",
       "at": [
         -86.301,
         32.378
@@ -41,8 +44,16 @@
   ],
   "sources": [
     {
-      "label": "National Park Service, Selma to Montgomery National Historic Trail",
-      "url": "https://www.nps.gov/semo/index.htm"
+      "label": "Wikipedia, Edmund Pettus Bridge",
+      "url": "https://en.wikipedia.org/wiki/Edmund_Pettus_Bridge"
+    },
+    {
+      "label": "Federal Highway Administration, Selma to Montgomery March Byway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2050"
+    },
+    {
+      "label": "Wikipedia, Selma to Montgomery National Historic Trail",
+      "url": "https://en.wikipedia.org/wiki/Selma_to_Montgomery_National_Historic_Trail"
     },
     {
       "label": "Alabama Byways, Selma to Montgomery Historic Trail",
@@ -53,16 +64,12 @@
       "url": "https://en.wikipedia.org/wiki/Selma_to_Montgomery_marches"
     },
     {
-      "label": "Wikipedia, Selma to Montgomery National Historic Trail",
-      "url": "https://en.wikipedia.org/wiki/Selma_to_Montgomery_National_Historic_Trail"
-    },
-    {
-      "label": "Wikipedia, Edmund Pettus Bridge",
-      "url": "https://en.wikipedia.org/wiki/Edmund_Pettus_Bridge"
-    },
-    {
       "label": "Wikipedia, Alabama State Capitol",
       "url": "https://en.wikipedia.org/wiki/Alabama_State_Capitol"
+    },
+    {
+      "label": "National Park Service, Selma To Montgomery National Historic Trail",
+      "url": "https://www.nps.gov/semo/index.htm"
     }
   ],
   "reviewed": false

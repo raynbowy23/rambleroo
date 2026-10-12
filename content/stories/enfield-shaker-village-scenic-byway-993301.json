@@ -1,22 +1,33 @@
 {
   "id": "enfield-shaker-village-scenic-byway-993301",
-  "tagline": "Three miles along Mascoma Lake to the Shakers' Chosen Vale.",
+  "tagline": "A lakeside road follows the Shakers’ buildings, lands and railroad connection.",
   "intro": [
-    "Route 4A runs 3.2 miles out of Lebanon along the shore of Mascoma Lake, on the path the Enfield Shakers took, toward Shaker Bridge and the buildings and fields of their old village in the valley between the lake and Mount Assurance, a peak the community held sacred.",
-    "The Shakers came in 1793 and called the place Chosen Vale. They made brooms, buckets and spinning wheels, sold seeds, applesauce and maple syrup, and left in 1923. The La Salette missionaries bought most of the property in 1927, and when the order left Enfield in 2023 the museum acquired the rest."
+    "The Enfield Shaker Village Scenic Byway follows Route 4A for 3.2 miles in Lebanon and Enfield, beside Mascoma Lake. Visit NH presents the byway as a connection between cultural communities and natural scenery, with conservation areas, mountains and forests along the corridor.",
+    "The Shakers established their village on the lake’s southwest shore in 1793 and called it Chosen Vale. They manufactured goods and packaged seeds; in 1849 they built Shaker Bridge to speed deliveries to the railroad across the lake. The village closed in 1923, and the Shakers moved to Canterbury. Much of their property was sold to the La Salettes in 1927; a museum has worked to preserve the site’s Shaker heritage since 1986.",
+    "From Lebanon toward Enfield, the route runs along Mascoma Lake toward Shaker Bridge, La Salette Shrine and the former community’s buildings and lands. The museum occupies the valley between the lake and Mount Assurance, with Shaker buildings and restored gardens."
   ],
   "moments": [
+    {
+      "title": "Mascoma Lake",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Mascoma Lake extends southeast to northwest, with its outlet at the northwestern end. Most of its 1,158 acres lie in Enfield; a smaller part reaches Lebanon, where the lake drains into the Mascoma River. The same river enters from the northeast at Enfield’s town center, while the Knox River feeds the southeastern end.",
+      "at": [
+        -72.14083333,
+        43.62222222
+      ]
+    },
     {
       "title": "Shaker Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "In 1849 the Shakers built a half-mile bridge across a narrow part of Mascoma Lake to get their goods to the railroad on the other side faster."
+      "text": "Shaker Bridge began as a link between the community’s workshops and the railroad across Mascoma Lake. In 1849 the Shakers built a half-mile crossing over a narrow part of the lake to reach the railway line. Their work included making brooms, buckets and spinning wheels, as well as selling applesauce, maple syrup and seeds. The crossing served that trade by making delivery faster."
     },
     {
       "title": "Enfield Shaker Museum",
       "kind": "town",
       "scene": "town",
-      "text": "The Great Stone Dwelling, the largest Shaker building, gave men and women separate doors to separate quarters under one slate roof and now holds the museum's main exhibits.",
+      "text": "Separate doors led men and women into separate quarters in the Great Stone Dwelling. Built from 1837 to 1841 for the Church Family, it combined work by Boston stonemasons with work by the Shaker brothers. Boston masons constructed the exterior granite stonework and slate roof; the brothers built the rest. The building now houses the museum’s main exhibition space. The museum preserves the history of the Shakers who lived here from 1793 to 1923, alongside buildings and restored Shaker gardens. Ammi Burnham Young designed the dwelling, which remains the largest Shaker building.",
       "at": [
         -72.14694444,
         43.62027778
@@ -25,24 +36,20 @@
   ],
   "sources": [
     {
-      "label": "Visit NH, Enfield Shaker Village Scenic Byway (Wayback Machine capture)",
-      "url": "https://web.archive.org/web/20250307132249/https://www.visitnh.gov/things-to-do/scenic-drives/enfield-shaker-village-scenic-byway"
+      "label": "Visit NH, Enfield Shaker Village Scenic Byway",
+      "url": "https://www.visitnh.gov/things-to-do/scenic-drives/enfield-shaker-village-scenic-byway"
+    },
+    {
+      "label": "Wikipedia, Enfield, New Hampshire",
+      "url": "https://en.wikipedia.org/wiki/Enfield%2C_New_Hampshire"
     },
     {
       "label": "Wikipedia, Enfield Shaker Museum",
       "url": "https://en.wikipedia.org/wiki/Enfield_Shaker_Museum"
     },
     {
-      "label": "Wikipedia, Enfield, New Hampshire",
-      "url": "https://en.wikipedia.org/wiki/Enfield,_New_Hampshire"
-    },
-    {
       "label": "Wikipedia, Mascoma Lake",
       "url": "https://en.wikipedia.org/wiki/Mascoma_Lake"
-    },
-    {
-      "label": "Wikipedia, Mount Assurance",
-      "url": "https://en.wikipedia.org/wiki/Mount_Assurance"
     }
   ],
   "reviewed": false

@@ -1,19 +1,20 @@
 {
   "id": "cape-flattery-tribal-scenic-byway-54774",
-  "tagline": "Twelve winding miles to the northwest corner of the lower 48.",
+  "tagline": "Twelve winding miles through Makah country lead to forest and sea cliffs.",
   "motifs": [
     "lighthouse"
   ],
   "intro": [
-    "SR 112 comes west along the Strait of Juan de Fuca, past Sekiu and over the Hoko River, with viewpoints looking across the water to Vancouver Island. At the mouth of the Sail River it enters the Makah Reservation, and from there it is about 12 miles of winding road through Neah Bay to the trailhead for Cape Flattery.",
-    "It was the first tribal road given scenic status, crossing the home of the Makah, who have lived here for thousands of years. It is also the only road that goes to the cape."
+    "The Cape Flattery Tribal Scenic Byway winds for 12 miles from the eastern boundary of the Makah Indian Reservation toward Cape Flattery. Washington’s tourism office gives a 30-minute driving time and recommends a day for the visit. The Olympic Peninsula Tourism Commission describes its scenic recognition in terms of archaeological, cultural, recreational and scenic qualities. At the cape, a forest trail reaches rocky cliffs where the Strait of Juan de Fuca joins the Pacific Ocean.",
+    "The approach from the east developed from a rough coastal trail into a wagon road in the 1920s. Washington bought right of way in 1947 to extend the state highway to Neah Bay; that connection was complete by 1953. The numbered highway became SR 112 in 1964. At the reservation boundary near the Sail River, the westward road continues as Bayview Avenue. The road crosses the ancestral home of the Makah Tribe, whose presence here extends back thousands of years.",
+    "From that boundary, continue through Neah Bay, home to the Makah Tribe and the Makah Museum. The museum displays objects recovered from the Ozette village site, including canoes and basketry. At Cape Flattery, the journey continues on foot: a 1.5-mile round-trip forest trail reaches views of rocky Pacific cliffs and Tatoosh Island."
   ],
   "moments": [
     {
       "title": "Makah Museum, Neah Bay",
       "kind": "town",
       "scene": "coast",
-      "text": "The museum keeps the canoes, basketry and whaling gear of a Makah village at Ozette that a mudslide buried, with a replica longhouse among them.",
+      "text": "The Makah Museum includes a replica longhouse, canoes, basketry, whaling gear and fishing equipment. The objects come from Ozette, a Makah village partly buried by a mudslide. The museum opened in 1979 under the leadership of tribal chairman Edward Eugene Claplanhoo, soon after the site was unearthed. It serves as both an archaeological and anthropological museum on the Makah Indian Reservation in Neah Bay.",
       "at": [
         -124.599,
         48.3683
@@ -23,7 +24,7 @@
       "title": "Cape Flattery",
       "kind": "short walk",
       "scene": "coast",
-      "text": "James Cook named the point in 1778 for an opening that flattered him with hopes of a harbour, and a trail, mostly boardwalk, now goes out through the forest to it.",
+      "text": "The forest trail reaches the place where the Strait of Juan de Fuca meets the Pacific Ocean, the northwesternmost point of the contiguous United States. Most of the short hike is on boardwalk. The cape lies within the Makah Reservation and marks the northern boundary of the Olympic Coast National Marine Sanctuary. James Cook named the cape in 1778 after an opening raised his hopes of finding a harbor. Offshore lies Tatoosh Island with the Cape Flattery lighthouse. To the west of the cape, Fuca Pillar rises as a tall, almost rectangular rock.",
       "at": [
         -124.726912,
         48.385961
@@ -33,7 +34,8 @@
       "title": "Tatoosh Island",
       "kind": "short walk",
       "scene": "coast",
-      "text": "Seen from the cape, the island has kept a lighthouse since 1857, though no one lives there now and landing takes the Makah tribe's written permission.",
+      "text": "From Cape Flattery, the lighthouse on Tatoosh Island is visible offshore. The island is part of the Makah Reservation and was used seasonally for Makah fishing camps. The island also housed employees of the Coast Guard, Weather Bureau and Navy; it now has no resident population. Cape Flattery Light first shone in 1857; its house and central 65-foot tower survive. The old light was decommissioned after a solar-powered beacon on a skeletal structure was built in 2008. This is a view from the cape: the lighthouse is closed to the public, and island access requires written permission from the Makah tribe.",
+      "notice": "The historic lighthouse has a 65-foot tower rising from the center of its house.",
       "at": [
         -124.7366,
         48.3917
@@ -44,16 +46,20 @@
     }
   ],
   "practical": [
-    "A Makah Recreation Permit must be displayed in the vehicle for outdoor activities along the byway."
+    "Cape Flattery: Display a Makah Recreation Permit in your vehicle for outdoor activities along the byway. Reservation access is occasionally restricted; check before traveling. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Olympic Peninsula, Cape Flattery Tribal Scenic Byway",
+      "label": "State of Washington Tourism, Cape Flattery Scenic Byway",
+      "url": "https://stateofwatourism.com/scenic-byways/cape-flattery-scenic-byway/"
+    },
+    {
+      "label": "Olympic Peninsula Tourism Commission, Cape Flattery Tribal Scenic Byway",
       "url": "https://olympicpeninsula.org/road-trips/cape-flattery-tribal-scenic-byway/"
     },
     {
-      "label": "State of Washington Tourism, Cape Flattery Scenic Byway",
-      "url": "https://stateofwatourism.com/scenic-byways/cape-flattery-scenic-byway/"
+      "label": "Wikipedia, Cape Flattery",
+      "url": "https://en.wikipedia.org/wiki/Cape_Flattery"
     },
     {
       "label": "Wikipedia, Washington State Route 112",
@@ -64,16 +70,12 @@
       "url": "https://en.wikipedia.org/wiki/Makah_Museum"
     },
     {
-      "label": "Wikipedia, Cape Flattery",
-      "url": "https://en.wikipedia.org/wiki/Cape_Flattery"
-    },
-    {
-      "label": "Wikipedia, Tatoosh Island",
-      "url": "https://en.wikipedia.org/wiki/Tatoosh_Island"
-    },
-    {
       "label": "Wikipedia, Cape Flattery Light",
       "url": "https://en.wikipedia.org/wiki/Cape_Flattery_Light"
+    },
+    {
+      "label": "Wikipedia, Tatoosh Island, Washington",
+      "url": "https://en.wikipedia.org/wiki/Tatoosh_Island%2C_Washington"
     }
   ],
   "reviewed": false

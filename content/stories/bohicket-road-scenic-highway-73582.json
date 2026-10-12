@@ -1,16 +1,18 @@
 {
   "id": "bohicket-road-scenic-highway-73582",
-  "tagline": "Across Johns Island, past a very old oak.",
+  "tagline": "An island road links agricultural sites with a centuries-old live oak.",
   "intro": [
-    "Bohicket Road runs ten miles down Johns Island, the largest island in South Carolina, toward Kiawah and Seabrook. Building on those two islands has made it a busy road, but SCDOT still counts it handsome, with historical, recreational and farm sites along the way.",
-    "The island took its name from Saint John Parish in Barbados, where its first English settlers came from. Before them were the Kiawah, the Stono and the Bohicket, and the island is still known for its farms and its tomatoes."
+    "Bohicket Road’s scenic section follows ten miles of S-10-20 on Johns Island in Charleston County. The South Carolina Department of Transportation highlights its historical, recreational and agricultural sites, including Angel Oak. The agency describes a busy thoroughfare shaped by development on Kiawah and Seabrook islands, while crediting the road with retaining its beauty.",
+    "The General Assembly designated Bohicket Road a scenic highway in 1974. The designation called for transportation, archives and tourism agencies to cooperate on markers and signs. The law also placed the scenic highway under the state’s Highway Advertising Control Act of 1971.",
+    "For a southward journey across Johns Island, Angel Oak provides an early excursion, followed by Johns Island Presbyterian Church on Bohicket Road. The Progressive Club lies farther south and east on the island, a separate excursion from the scenic drive. The wider island geography leads toward Kiawah and Seabrook: Johns Island sits inshore of both."
   ],
   "moments": [
     {
       "title": "Angel Oak",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "A southern live oak thought to be more than four centuries old throws shade over 17,200 square feet, its longest branch reaching 187 feet.",
+      "text": "Angel Oak’s longest branch measures 187 feet, extending from a southern live oak estimated to be 400–500 years old. The tree takes its name from the estate of Justus Angel and Martha Waight Tucker Angel. Severely damaged by Hurricane Hugo in 1989, it recovered; Charleston has owned the tree and surrounding park since 1991. Preservation later extended beyond the tree itself: the Lowcountry Land Trust purchased 17 adjacent acres, protecting them from development. Plans for a nearby 500-unit apartment complex had prompted a 2012 court challenge over effects on groundwater and nutrients.",
+      "notice": "The oak’s longest branch measures 187 feet.",
       "at": [
         -80.08043,
         32.71709
@@ -20,21 +22,44 @@
       "title": "Johns Island Presbyterian Church",
       "kind": "roadside",
       "scene": "town",
-      "text": "First built in 1719 and enlarged in 1792 and 1823, it is one of the oldest wood-frame churches in the country."
+      "text": "A T-shaped plan and clapboard walls distinguish this frame meeting house on Bohicket Road. Archibald Stobo, a Church of Scotland minister, founded the church in 1719. It formed part of his plan for five Presbyterian churches in rural South Carolina. Remodeling in 1792 and an extension in 1823 changed the building over time. The church entered the National Register of Historic Places in 1975.",
+      "notice": "The meeting house has a T-shaped plan and clapboard exterior."
+    },
+    {
+      "title": "The Progressive Club",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "The Progressive Club brought practical assistance and citizenship education into one building. The organization formed in 1948; its clubhouse followed in 1963. It housed Esau Jenkins’ legal and financial assistance programs, adult classes and dormitory lodging, along with childcare, recreation, meetings and a grocery store. Its Citizenship School enabled African-American citizens to register, vote and learn the political processes of their communities. The clubhouse was listed on the National Register in 2007.",
+      "at": [
+        -80.04222222,
+        32.67638889
+      ]
     }
   ],
   "sources": [
     {
-      "label": "SCDOT, National and State Scenic Byways map series (published entry text)",
+      "label": "South Carolina Department of Transportation, National and State Scenic Byways",
       "url": "https://www.arcgis.com/sharing/rest/content/items/0a5192983b2845c2b20fbc5d7a0372f9/data"
     },
     {
-      "label": "Wikipedia, Johns Island, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Johns_Island,_South_Carolina"
+      "label": "South Carolina Legislature, Code of Laws: Highway Beautification and Scenic Routes",
+      "url": "https://www.scstatehouse.gov/code/t57c023.php"
     },
     {
       "label": "Wikipedia, Angel Oak",
       "url": "https://en.wikipedia.org/wiki/Angel_Oak"
+    },
+    {
+      "label": "Wikipedia, John's Island Presbyterian Church",
+      "url": "https://en.wikipedia.org/wiki/John%27s_Island_Presbyterian_Church"
+    },
+    {
+      "label": "Wikipedia, Johns Island, South Carolina",
+      "url": "https://en.wikipedia.org/wiki/Johns_Island%2C_South_Carolina"
+    },
+    {
+      "label": "Wikipedia, The Progressive Club",
+      "url": "https://en.wikipedia.org/wiki/The_Progressive_Club"
     }
   ],
   "reviewed": false

@@ -1,20 +1,22 @@
 {
   "id": "stevens-pass-greenway-2231",
-  "tagline": "Up the Skykomish behind the railroad, and down into Bavaria.",
+  "tagline": "River valleys lead over Stevens Pass to Leavenworth’s Bavarian town center.",
   "motifs": [
     "snow-peaks",
     "waterfall-cove"
   ],
   "intro": [
-    "US 2 leaves Monroe up the Skykomish valley through Sultan and Gold Bar. At Index it takes the South Fork into the mountains, past Skykomish, a railroad town with no road out but this one, and climbs to Stevens Pass at 4,061 feet, where the Pacific Crest Trail crosses. The east side comes down the Wenatchee valley to Leavenworth and Peshastin.",
-    "The road keeps company with the Great Northern, finished in 1893. John Stevens, who surveyed the pass for it in 1890, found no trail, no blaze and no old campfire for ten miles either way. The trains now run through a tunnel 1,180 feet under the summit."
+    "The Stevens Pass Greenway follows US 2 from Monroe to Peshastin, climbing the Cascades between river valleys. The mountain road is hilly and curving, with a three-mile flat, straight section at Baring. State of Washington Tourism highlights rivers, waterfalls and mountain viewpoints on this National Scenic Byway, designated in 2005. It lists 90 miles and a two-hour drive, with two days recommended for a stay. The route passes through Mount Baker-Snoqualmie and Okanogan-Wenatchee national forests, with the pass marking its highest point.",
+    "In 1912, local residents formed a Good Roads Club to press for a highway across the Cascades. King, Chelan and Snohomish counties collaborated on the project, but World War I, funding and construction obstacles delayed completion. The Stevens Pass Highway opened in 1925, decades after the Great Northern Railway crossed the mountains. Its later US 10 Alternate designation gave way to US 2 in 1946.",
+    "From Monroe, follow the Skykomish River through Sultan and Gold Bar, then the South Fork near Index toward Skykomish. Continue along the Tye River to Stevens Pass, where the Pacific Crest Trail crosses US 2. Descend along Nason Creek, then the Wenatchee River through Leavenworth to Peshastin. Leavenworth’s town center adopts the forms of a Bavarian village."
   ],
   "moments": [
     {
       "title": "Wallace Falls",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "A mile out of Gold Bar, trails climb past the ruins of logging trestles to a 367-foot fall whose longest drop shows from the Skykomish Valley.",
+      "text": "Wallace Falls drops 367 feet in three sections; its largest single drop is 265 feet and visible from the Skykomish Valley. The state park also contains upper and lower waterfalls and old-growth conifer forest. Logging left a different set of landmarks: ruined railroad trestles, abandoned grades and springboard notches in stumps. The park began with the state’s 1971 purchase from Weyerhaeuser Timber Company. Its entrance lies one mile northeast of Gold Bar. The upper falls descend in five tiers and cannot be seen in their entirety; the lower falls also have five tiers.",
+      "notice": "Look for logging traces in the disused railroad grades and springboard notches in stumps.",
       "at": [
         -121.649,
         47.873
@@ -27,17 +29,30 @@
       "title": "Index",
       "kind": "town",
       "scene": "mountain",
-      "text": "The smallest town in the county, 155 people, named for a peak shaped like an index finger. Climbers come for the cliffs of the Index Town Wall.",
+      "text": "Granite cliffs face Index at the Town Wall, where climbing became part of the town’s changing economy. Mining, lumber and quarrying had supported Index before those industries declined in the middle of the twentieth century. Climbers mapped routes in the 1950s and developed them further in the early 1970s. In 2010, the Washington Climbers Coalition acquired the 20-acre Lower Town Wall to prevent its sale to a quarry operator. It joined Forks of the Sky State Park later that year. In Doolittle Pioneer Park, a rock-cutting saw from the former granite quarry is on display.",
       "at": [
         -121.554,
         47.821
       ]
     },
     {
+      "title": "Stevens Pass",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "US 2 reaches 4,061 feet at Stevens Pass, while the BNSF Railway’s Cascade Tunnel runs 1,180 feet below the pass summit. John Frank Stevens surveyed the crossing for the Great Northern in 1890. The Pacific Crest Trail crosses the highway here. The pass is also the road’s transition from Mount Baker-Snoqualmie National Forest into Wenatchee National Forest. The early railway crossed on a series of switchbacks, moving trains forward and backward to gain height. A tunnel replaced that route in 1900; a second tunnel beneath the mountains later replaced the first.",
+      "at": [
+        -121.09333333,
+        47.745
+      ],
+      "motifs": [
+        "snow-peaks"
+      ]
+    },
+    {
       "title": "Leavenworth",
       "kind": "town",
       "scene": "town",
-      "text": "A struggling logging town that in the 1960s made its whole center over as a Bavarian village, beginning with a fire-damaged hotel reopened as the Edelweiss in 1965.",
+      "text": "Leavenworth’s Bavarian town center began as a civic effort to revive a struggling logging town. The railroad had moved to Wenatchee in 1925, and the population declined as mills closed and shops relocated. Project LIFE formed in 1962 to investigate a new direction. The first Bavarian makeover was the fire-damaged Chikamin Hotel, reopened as the Edelweiss in 1965. By 1970, a design review board was maintaining the standards; the architectural theme now applies to new businesses, including chain stores. The town retains wide streets and large parking lots, features atypical of Bavaria.",
       "at": [
         -120.663,
         47.595
@@ -45,7 +60,7 @@
     }
   ],
   "practical": [
-    "The pass is usually open all year but can close for a time in heavy winter snow. Check WSDOT mountain pass conditions before a winter crossing."
+    "Stevens Pass: Heavy winter snow can temporarily close Stevens Pass. Check WSDOT mountain pass conditions before a winter crossing. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -57,12 +72,16 @@
       "url": "https://en.wikipedia.org/wiki/U.S._Route_2_in_Washington"
     },
     {
+      "label": "Wikipedia, Baring, Washington",
+      "url": "https://en.wikipedia.org/wiki/Baring%2C_Washington"
+    },
+    {
       "label": "Wikipedia, Stevens Pass",
       "url": "https://en.wikipedia.org/wiki/Stevens_Pass"
     },
     {
-      "label": "Wikipedia, Skykomish, Washington",
-      "url": "https://en.wikipedia.org/wiki/Skykomish,_Washington"
+      "label": "Wikipedia, Leavenworth, Washington",
+      "url": "https://en.wikipedia.org/wiki/Leavenworth%2C_Washington"
     },
     {
       "label": "Wikipedia, Wallace Falls State Park",
@@ -70,15 +89,11 @@
     },
     {
       "label": "Wikipedia, Index, Washington",
-      "url": "https://en.wikipedia.org/wiki/Index,_Washington"
+      "url": "https://en.wikipedia.org/wiki/Index%2C_Washington"
     },
     {
-      "label": "Wikipedia, Leavenworth, Washington",
-      "url": "https://en.wikipedia.org/wiki/Leavenworth,_Washington"
-    },
-    {
-      "label": "Wikipedia, Peshastin, Washington",
-      "url": "https://en.wikipedia.org/wiki/Peshastin,_Washington"
+      "label": "Wikipedia, Stevens Pass Historic District",
+      "url": "https://en.wikipedia.org/wiki/Stevens_Pass_Historic_District"
     }
   ],
   "reviewed": false

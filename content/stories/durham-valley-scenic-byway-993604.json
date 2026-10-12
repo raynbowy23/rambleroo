@@ -1,26 +1,37 @@
 {
   "id": "durham-valley-scenic-byway-993604",
-  "tagline": "A web of back roads below the Catskill escarpment.",
+  "tagline": "Stone bridges link a road network below the Catskill escarpment",
   "intro": [
-    "This byway is a web rather than a line, twenty-one miles of town and county roads crossing the Durham Valley, which slopes from the northernmost escarpment of the Catskills to a plain rolling gently north toward Albany and east to the Hudson. The state first marked them as scenic roads in 1991.",
-    "Old houses, farms, stone bridges and stone walls stand along the way. From one point the Five State View runs out over the Hudson Valley to the Berkshires, Vermont, Connecticut and New Hampshire, and north to the Adirondacks."
+    "The Durham Valley Scenic Byway spreads across 21 miles of roads beneath the northern Catskill escarpment. Its corridors form a mostly connected network, crossing a valley that slopes toward a rolling plain extending north toward Albany and east toward the Hudson. New York’s Department of Transportation identifies broad valley views, historic farms and houses, stone bridges and walls as defining features of the drive. Streams and the Catskill Mountains form the natural setting for those built features.",
+    "Some of those crossings share a builder. Jeremiah Cunningham built the Shady Glen Road bridge in 1886 and the Moore Road bridge in 1887, both with round arches of dry-laid limestone. By 1892 he was also responsible for the Allan Teator Road crossing at West Durham, as Durham’s highway commissioner. The state Department of Environmental Conservation designated the roads for their scenic quality in 1991.",
+    "Begin this passage through the network at East Durham, the hamlet southeast of Durham village on Route 145. Its Irish cultural center includes a traditional thatched cottage. Cornwallville, south of Durham village on Route 20, brings the Moore Road and Shady Glen Road stone bridges into the journey. Finish at Durham hamlet in the northern part of the town, on Route 145."
   ],
   "moments": [
     {
       "title": "East Durham",
       "kind": "town",
       "scene": "town",
-      "text": "A hamlet known for its Irish heritage, where the stone arch bridge on Woodward Road is listed on the National Register of Historic Places.",
+      "text": "A traditional Irish thatched cottage is part of the Michael J. Quill Irish Cultural & Sports Center in East Durham. The hamlet’s Irish cultural life includes Catskills Irish Arts Week, a summer program in traditional music, song, dance and arts for children and adults. Its road heritage is smaller in scale: the Woodward Road Stone Arch Bridge has a seven-foot span over a tributary of Cornwallsville Creek. Jeremiah Cunningham built it about 1887, using dry-laid limestone and a round arch. The bridge was added to the National Register of Historic Places in 2009.",
       "at": [
         -74.09556,
         42.3725
       ]
     },
     {
+      "title": "Cornwallville",
+      "kind": "town",
+      "scene": "town",
+      "text": "Two stone crossings at Cornwallville carry the work of Jeremiah Cunningham: Shady Glen Road’s bridge, built in 1886, and Moore Road’s, built the next year. Both use a single round arch of dry-laid limestone. Shady Glen’s crossing, also called Elliotts’ Bridge, spans an unnamed tributary of Catskill Creek. The hamlet stands south of Durham village on Route 20.",
+      "at": [
+        -74.15805556,
+        42.36805556
+      ]
+    },
+    {
       "title": "Durham",
       "kind": "town",
       "scene": "town",
-      "text": "The town took the name of Durham, Connecticut, in 1805, after years of being called New Durham by its many settlers from Connecticut.",
+      "text": "Durham’s name came from Connecticut, but its first official town name was Freehold. Established from part of Coxsackie in 1790, the town joined the newly formed Greene County in 1800. Many Connecticut settlers called it New Durham informally; Durham became its official name in 1805. The hamlet of Durham occupies the northern part of that larger town on Route 145. Cornwallville lies to its south, East Durham to its southeast, and Oak Hill to its northeast. Oak Hill developed into an industrial hamlet of productive mills and substantial homes in the early nineteenth century.",
       "at": [
         -74.15,
         42.38333
@@ -29,20 +40,32 @@
   ],
   "sources": [
     {
-      "label": "NYSDOT, Durham Valley Scenic Byway",
+      "label": "New York State Department of Transportation, Durham Valley Scenic Byway",
       "url": "https://www.dot.ny.gov/display/programs/scenic-byways/durham-valley"
     },
     {
-      "label": "Town of Durham, Durham Valley Scenic Byway",
-      "url": "https://www.durhamvalley.com/"
+      "label": "Wikipedia, Shady Glen Road Stone Arch Bridge",
+      "url": "https://en.wikipedia.org/wiki/Shady_Glen_Road_Stone_Arch_Bridge"
+    },
+    {
+      "label": "Wikipedia, Moore Road Stone Arch Bridge",
+      "url": "https://en.wikipedia.org/wiki/Moore_Road_Stone_Arch_Bridge"
+    },
+    {
+      "label": "Wikipedia, Allan Teator Road Stone Arch Bridge",
+      "url": "https://en.wikipedia.org/wiki/Allan_Teator_Road_Stone_Arch_Bridge"
     },
     {
       "label": "Wikipedia, Durham, New York",
-      "url": "https://en.wikipedia.org/wiki/Durham,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Durham%2C_New_York"
     },
     {
       "label": "Wikipedia, East Durham, New York",
-      "url": "https://en.wikipedia.org/wiki/East_Durham,_New_York"
+      "url": "https://en.wikipedia.org/wiki/East_Durham%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, Woodward Road Stone Arch Bridge",
+      "url": "https://en.wikipedia.org/wiki/Woodward_Road_Stone_Arch_Bridge"
     }
   ],
   "reviewed": false

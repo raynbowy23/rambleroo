@@ -5,6 +5,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import type { Photo } from '../../src/lib/types.ts'
+import { splitPhotos } from './split.ts'
 
 const ROOT = new URL('../../', import.meta.url)
 const UA = {
@@ -137,3 +138,4 @@ for (const [bywayId, c] of Object.entries(candidates)) {
   await writeFile(new URL('content/photos.json', ROOT), JSON.stringify(registry, null, 2) + '\n')
 }
 console.log(`${added} photos published, ${registry.length} in registry`)
+await splitPhotos()

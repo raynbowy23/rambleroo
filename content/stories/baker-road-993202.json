@@ -1,22 +1,24 @@
 {
   "id": "baker-road-993202",
-  "tagline": "Over the Utah line into Pacific time, and on to Baker.",
+  "tagline": "Desert and farmland on the approach to Great Basin National Park",
   "intro": [
-    "Utah Route 21 comes north through Garrison and crosses the state line as Nevada 487, Baker Road. From there it runs northwest through desert, past pockets of farmland near Baker, and on to US 6 and 50 about seven miles west of the Utah line.",
-    "The road was gravel by 1948 and paved by 1949. The park service calls this extremely remote country, with little or no cell coverage and long stretches between gas and groceries."
+    "Baker Road runs northwest from the Utah line through desert, passing pockets of farmland near Baker before continuing to US 6 and US 50. The Nevada Department of Transportation designated it a Nevada Scenic Byway in 2000, together with adjoining SR 488 and a portion of US 6/US 50. The National Park Service describes the country near Great Basin National Park as extremely remote, with limited services and little to no cell coverage. The park beyond Baker includes Lehman Caves, groves of ancient bristlecone pines and the 13,063-foot summit of Wheeler Peak.",
+    "Baker Road appeared on official Nevada highway maps by 1937, carrying the number SR 73 on some maps. The numbering had already varied between maps: the state’s tourist maps did not show Baker Road as SR 73 until 1942. It was gravel by 1948 and fully paved by 1949. Nevada’s statewide renumbering assigned it SR 487 in 1976; the change reached the official highway map’s 1978–79 edition.",
+    "Coming north through Garrison, Utah 21 becomes Nevada 487 at the state line, where travelers enter Pacific time. In Baker, Highway 488 branches west for the five-mile approach to the park. Baker Road itself continues northwest through desert to its junction with US 6/US 50."
   ],
+  "notice": "Pockets of farmland interrupt the desert near Baker.",
   "moments": [
     {
       "title": "The Utah line",
       "kind": "roadside",
       "scene": "desert",
-      "text": "At the line Utah 21 becomes Nevada 487, and drivers coming up from Utah cross into Pacific time, as the park service takes care to point out."
+      "text": "The state line changes both the road number and the clock. Northbound Utah 21 becomes Nevada 487 after passing through Garrison. The National Park Service reminds travelers that Nevada is on Pacific time. From the line, Baker Road heads northwest through desert toward Baker and its junction with Lehman Caves Road."
     },
     {
       "title": "Baker",
       "kind": "town",
       "scene": "desert",
-      "text": "Forty-one people lived in Baker in 2020, five miles from the park gate, and a Late Show visit in 1997 found it quiet, peaceful, beautiful and friendly.",
+      "text": "Baker’s connection to public land predates the national park. A ranger station opened at the town’s edge in 1911 to administer federal land in White Pine County. Its original four-room building was removed before construction of a new group began with a cottage in 1935. Men on local relief rolls built the replacement buildings, while Civilian Conservation Corps crews supplied other infrastructure for the compound. The station transferred to the National Park Service in 1986 as an administrative center for Great Basin National Park. Baker stands at the junction of routes 487 and 488, five miles east of the park’s main entrance.",
       "at": [
         -114.12638889,
         39.01444444
@@ -26,29 +28,36 @@
       "title": "Great Basin National Park",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Five miles west of Baker on Highway 488 lies the park of Lehman Caves, ancient bristlecone pines and Wheeler Peak, 13,063 feet high.",
+      "text": "Lehman Caves received federal protection before the surrounding mountain landscape became a national park. President Warren G. Harding proclaimed the caves a national monument in 1922; the park designation followed in 1986 after advocacy by Congressman Harry Reid. The park includes ancient bristlecone pine groves and Wheeler Peak, which rises to 13,063 feet. Vegetation changes with elevation: sagebrush and Utah juniper grow near the visitor center, while higher country supports mountain meadows, quaking aspen and Engelmann spruce. At treeline, low alpine plants and rocky outcrops replace the taller vegetation found at lower elevations.",
       "at": [
         -114.22,
         39.006
       ]
     }
   ],
+  "practical": [
+    "Great Basin National Park: The National Park Service warns of limited services, little to no cell coverage and long gaps between fuel and groceries. It advises against relying on navigation apps for park directions. (checked 2026-10-11)"
+  ],
   "sources": [
-    {
-      "label": "National Park Service, Great Basin National Park, Directions",
-      "url": "https://www.nps.gov/grba/planyourvisit/directions.htm"
-    },
     {
       "label": "Wikipedia, Nevada State Route 487",
       "url": "https://en.wikipedia.org/wiki/Nevada_State_Route_487"
     },
     {
-      "label": "Wikipedia, Baker, Nevada",
-      "url": "https://en.wikipedia.org/wiki/Baker,_Nevada"
+      "label": "National Park Service, Great Basin National Park: Directions",
+      "url": "https://www.nps.gov/grba/planyourvisit/directions.htm"
     },
     {
       "label": "Wikipedia, Great Basin National Park",
       "url": "https://en.wikipedia.org/wiki/Great_Basin_National_Park"
+    },
+    {
+      "label": "Wikipedia, Baker Ranger Station",
+      "url": "https://en.wikipedia.org/wiki/Baker_Ranger_Station"
+    },
+    {
+      "label": "Wikipedia, Baker, Nevada",
+      "url": "https://en.wikipedia.org/wiki/Baker%2C_Nevada"
     }
   ],
   "reviewed": false

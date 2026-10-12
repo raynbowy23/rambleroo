@@ -1,44 +1,61 @@
 {
   "id": "birkhead-wilderness-route-12812",
-  "tagline": "Back roads under the old Uwharries, and a forty-dollar bridge.",
+  "tagline": "A covered bridge rebuilt, and former farms within the Uwharrie wilderness",
   "intro": [
-    "High Pines Church Road runs about nine miles through southern Randolph County, near the Birkhead Mountains Wilderness, past hardwood forest, open pasture and outcrops of native rock, to Lassiter Mill Road. The Uwharries here are counted among the oldest mountains on the continent.",
-    "The core of the wilderness is a plantation that John Watson Birkhead pieced together from small tenant farms, and old homesteads, crumbling chimneys and the traces of gold mining can still be seen there. An extension from Ulah follows Pisgah Covered Bridge Road southwest to the bridge and on to rejoin the main road."
+    "NCDOT lists the Birkhead Wilderness Route among its Piedmont scenic byways. The Birkhead Mountains Wilderness protects 5,160 acres at the northern end of the Uwharrie Mountains, within Uwharrie National Forest.",
+    "Former farmland lies at the core of that wilderness. John Watson Birkhead assembled 3,000 acres from small tenant farms; the wilderness designation followed under the 1984 North Carolina Wilderness Act.",
+    "Pisgah Covered Bridge spans the west fork of the Little River, while road traffic crosses a nearby concrete bridge built in the 1950s. At Ulah, an 1897 railroad section house stands beside US 220 Alternate, with a plaque recording its history."
   ],
   "moments": [
     {
       "title": "Pisgah Covered Bridge",
       "kind": "short walk",
       "scene": "river",
-      "text": "Built in 1911 for $40, it was washed away by a flood in 2003 and rebuilt the next year from materials volunteers recovered, about 90 percent of the original.",
+      "text": "Pisgah Covered Bridge owes its present form to a rescue after a flood. J. J. Welch built the wooden crossing in 1911 for $40. Increasing traffic outgrew its single lane, and the road now uses a nearby two-lane concrete bridge built in the 1950s. The covered bridge washed away in August 2003. Volunteers recovered materials for its rebuilding the following year, salvaging about 90 percent of the original structure’s material. The restoration also replaced its tin roof with shingles. A quarter-mile woodland trail crosses footbridges and passes a baptismal pool downstream of the covered bridge.",
+      "notice": "The covered bridge has a shingled roof, restored after decades with tin roofing.",
       "at": [
         -79.89388056,
         35.5421
       ]
     },
     {
-      "title": "Robbins Branch Trail",
-      "kind": "short walk",
+      "title": "Birkhead Mountains Wilderness",
+      "kind": "separate excursion",
       "scene": "forest",
-      "text": "Two miles up Lassiter Mill Road a trailhead leads into the wilderness, where every path is a hiking trail and horses and vehicles are kept out."
+      "text": "The Birkhead name comes with a history of accumulated farmland. John Watson Birkhead acquired 3,000 acres made up of small tenant farms, and his former plantation forms the wilderness’s core. The 1984 North Carolina Wilderness Act established the protected area, which now covers 5,160 acres of Uwharrie National Forest. All its trails are designated for hiking; horses and vehicles are prohibited.",
+      "at": [
+        -79.92166667,
+        35.60277778
+      ]
+    },
+    {
+      "title": "Ulah",
+      "kind": "town",
+      "scene": "town",
+      "text": "Ulah’s railroad section house remains beside US 220 Alternate near Station Road. Built in 1897, it belonged to a railroad community that had both a station and a crew section house for the Aberdeen & Asheboro Railroad. Trains ran through Ulah until the line was abandoned in 1952. A commemorative plaque identifies the house’s heritage. Ulah is an unincorporated community south of Asheboro, the county seat of Randolph County.",
+      "notice": "The railroad section house beside US 220 Alternate has a commemorative plaque.",
+      "at": [
+        -79.82666667,
+        35.63527778
+      ]
     }
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 150)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=150"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 151)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=151"
+      "label": "Wikipedia, Pisgah Covered Bridge",
+      "url": "https://en.wikipedia.org/wiki/Pisgah_Covered_Bridge"
     },
     {
       "label": "Wikipedia, Birkhead Mountains Wilderness",
       "url": "https://en.wikipedia.org/wiki/Birkhead_Mountains_Wilderness"
     },
     {
-      "label": "Wikipedia, Pisgah Covered Bridge",
-      "url": "https://en.wikipedia.org/wiki/Pisgah_Covered_Bridge"
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways (2021)",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=150"
+    },
+    {
+      "label": "Wikipedia, Ulah, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Ulah%2C_North_Carolina"
     }
   ],
   "reviewed": false

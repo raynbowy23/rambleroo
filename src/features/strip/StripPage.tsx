@@ -296,7 +296,6 @@ function StripExperience({ data, byway }: { data: StripData; byway: BywaySummary
               ))}
             </nav>
           )}
-          <p className={s.draft}>{data.reviewed ? 'Reviewed strip map' : 'Draft · pending review'}</p>
           <p>{data.direction}</p>
           {/* Seasons at a glance: the same illustrated view of this road in all four seasons, side by side, so the difference is visible
             without toggling. Choosing one repaints the map and illustrated stops along the ribbon. Photos never change with season. */}

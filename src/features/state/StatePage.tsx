@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router'
-import { stateChapters, useCatalog, firstPhoto } from '../../lib/data'
+import { stateChapters, useCatalog, useCovers, firstPhoto } from '../../lib/data'
 import { states } from '../../lib/states'
 import type { Theme } from '../../lib/types'
 import { Hero, PageStatus, Sources, ThemeChips } from '../../components/ui/Content'
@@ -11,6 +11,7 @@ export default function StatePage() {
   const code = (useParams().code ?? '').toUpperCase()
   const chapter = stateChapters[code]
   const { byways, byId, status } = useCatalog()
+  const covers = useCovers()
   const [theme, setTheme] = useState<Theme | ''>('')
   const roads = useMemo(
     () =>
@@ -27,7 +28,7 @@ export default function StatePage() {
   return (
     <main>
       <Hero
-        photo={firstPhoto([...members, ...roads.map((road) => road.id)])}
+        photo={firstPhoto(covers, [...members, ...roads.map((road) => road.id)])}
         region={first?.region}
         family={first?.scene ?? 'prairie'}
         seed={first?.seed ?? 1}

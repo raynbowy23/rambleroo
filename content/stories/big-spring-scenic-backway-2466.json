@@ -1,61 +1,67 @@
 {
   "id": "big-spring-scenic-backway-2466",
-  "tagline": "Across the emigrant trails, from coal town to sheep town.",
+  "tagline": "A dirt backway through mountain valleys and the traces of emigrant wagons",
   "intro": [
-    "Leaving Kemmerer, the backway turns onto a dirt track and runs 68 miles to Cokeville, crossing old emigrant trails, following willowed river valleys and plunging deep into the Tunp Range of the Bridger National Forest. Abandoned homesteads stand within sight of the road.",
-    "Between 1841 and 1868 more than 350,000 emigrants crossed this part of the country with loaded wagons, bound for Utah, Oregon and California. In places their wagon ruts still show."
+    "Big Spring Scenic Backway runs 68 miles between Cokeville and Kemmerer, following willow-lined river valleys into the Tunp Mountain Range. This is an unimproved Forest Service road through remote country. The Forest Service identifies its Oregon Trail history, mountain views and wildlife as the reasons for its scenic-backway designation. The Federal Highway Administration lists two hours as the minimum driving time, with more time needed for stops. The federal byway account describes sheep grazing on the prairies and identifies moose, elk, eagles and sandhill cranes among the wildlife seen along the road.",
+    "Historic emigrant trails cross the backway, and the Forest Service identifies part of it with the Oregon Trail. Wagon tracks and ruts remain visible in places. The federal byway account places those traces within a larger migration: more than 350,000 emigrants crossed Wyoming between 1841 and 1868, bound for Utah, Oregon and California.",
+    "Start in Cokeville, where sheep ranching reached its peak in 1918, and head toward Kemmerer through the river valleys and mountain country. The backway passes abandoned homesteads, including the sagging log structure called Old Settler Cabin near the Kemmerer end. Finish in Kemmerer, where a coal town became the starting point for James Cash Penney’s department-store chain."
   ],
   "moments": [
     {
-      "title": "Kemmerer",
+      "title": "Cokeville",
       "kind": "town",
-      "scene": "town",
-      "text": "James Cash Penney opened his first Golden Rule Store here in 1902, in a coal town only five years old, and it became the start of the J. C. Penney chain.",
+      "scene": "prairie",
+      "text": "Cokeville’s name points to coal, while its “Sheep Capital of the World” nickname recalls a later ranching peak. Tilford Kutch arrived in 1869 and opened a trading post in 1873, also operating a ferry across Smiths Fork. The railroad arrived in 1882; the town grew and incorporated in 1910. Sheep ranching expanded after the railway came, reaching its peak in 1918, when Cokeville was informally called the “Sheep Capital of the World.” Wyoming 231 serves as Cokeville’s main street, branching from US 30, the town’s through road and its connection to Interstate 80 and Idaho.",
       "at": [
-        -110.54639,
-        41.78944
+        -110.95556,
+        42.085
       ]
     },
     {
       "title": "Old Settler Cabin",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "The first of the abandoned homesteads is the Old Settler Cabin, a sagging log structure out on a windswept plain."
+      "text": "Old Settler Cabin is a sagging log structure on an open plain, one of the abandoned homesteads visible from Big Spring Scenic Backway. Wyoming’s tourism account places it first among those homesteads when leaving Kemmerer on the dirt road.",
+      "notice": "The cabin’s sagging log walls are visible from the backway."
     },
     {
-      "title": "Cokeville",
+      "title": "Kemmerer",
       "kind": "town",
-      "scene": "prairie",
-      "text": "Named for the coal found nearby, the town turned to sheep after the railroad came, and at the peak, in 1918, it was known, informally, as the Sheep Capital of the World.",
+      "scene": "town",
+      "text": "Kemmerer grew from the coal mines of the Ham’s Fork field after its founding in 1897. In 1902, James Cash Penney opened the Golden Rule Store here, beginning what became the J. C. Penney chain. That first Pine Street building no longer stands. The shop outgrew it, and Penney moved in 1904. The historic district includes a later stone store building with a marble-and-cast-iron facade, as well as Penney’s house. It became a National Historic Landmark District in 1978 for Penney’s role in developing a national department-store chain. The district lies at the junction of JC Penney Drive and South Main Street.",
       "at": [
-        -110.95556,
-        42.085
+        -110.54639,
+        41.78944
       ]
     }
   ],
   "practical": [
-    "An unimproved Forest Service road through very remote country that calls for excellent map navigation. Four-wheel drive is highly recommended, and the Forest Service recommends only high-clearance vehicles west of Kelley Guard Station."
+    "Cokeville: The Forest Service recommends four-wheel drive and excellent map-navigation skills. Wyoming tourism reports a high-clearance recommendation west of Kelley Guard Station. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "USDA Forest Service, Bridger-Teton National Forest, Big Spring Scenic Backway",
-      "url": "https://www.fs.usda.gov/r04/bridger-teton/recreation/big-spring-scenic-backway"
-    },
-    {
-      "label": "Travel Wyoming, Big Spring Scenic Backway",
+      "label": "Wyoming Office of Tourism, Big Spring Scenic Backway",
       "url": "https://travelwyoming.com/listing/big-spring-scenic-backway/134/"
     },
     {
-      "label": "FHWA America's Byways, Big Spring Scenic Backway",
+      "label": "USDA Forest Service, Big Spring Scenic Backway",
+      "url": "https://www.fs.usda.gov/r04/bridger-teton/recreation/big-spring-scenic-backway"
+    },
+    {
+      "label": "Federal Highway Administration, Big Spring Scenic Backway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2466"
     },
     {
-      "label": "Wikipedia, Kemmerer, Wyoming",
-      "url": "https://en.wikipedia.org/wiki/Kemmerer,_Wyoming"
+      "label": "Wikipedia, Cokeville, Wyoming",
+      "url": "https://en.wikipedia.org/wiki/Cokeville%2C_Wyoming"
     },
     {
-      "label": "Wikipedia, Cokeville, Wyoming",
-      "url": "https://en.wikipedia.org/wiki/Cokeville,_Wyoming"
+      "label": "Wikipedia, Kemmerer, Wyoming",
+      "url": "https://en.wikipedia.org/wiki/Kemmerer%2C_Wyoming"
+    },
+    {
+      "label": "Wikipedia, J. C. Penney Historic District",
+      "url": "https://en.wikipedia.org/wiki/J._C._Penney_Historic_District"
     }
   ],
   "reviewed": false

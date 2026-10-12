@@ -1,22 +1,23 @@
 {
   "id": "cape-fear-historic-byway-73108",
-  "tagline": "A slow loop through the Port City and around the lake.",
+  "tagline": "A port city’s waterfront, a preserved battleship and a history of dispossession.",
   "intro": [
-    "The loop sets out from the Isabel Holmes Bridge over the Cape Fear River and works south through downtown Wilmington on the street grid the city finalized in 1743. Water Street follows the river beside the Riverwalk, a promenade of about a mile and three quarters. South Front Street holds some of the city's most exclusive homes, and Castle Street and South Fifth, once home to the seaport's workers, make up the heart of the historic district.",
-    "Fifth Street leads out to Greenfield Park and around the lake on Lake Shore Drive, and the loop comes back up Third Street past the government buildings and old churches."
+    "The Cape Fear Historic Byway is part of North Carolina’s scenic-byway network. Its Wilmington setting is a port city between the Cape Fear River and the Atlantic Ocean. Downtown’s riverwalk extends 1.75 miles, with the battleship North Carolina moored across from the port area.",
+    "Water and rail once connected this city’s commerce: the Wilmington and Raleigh Railroad opened a 161-mile line to Weldon in 1840. Union Station opened at Front and Red Cross streets in 1913. Passenger service ended in 1968; the station was demolished in 1970.",
+    "Along the downtown waterfront, the battleship provides a surviving link to World War II. South of the historic downtown is Sunset Park, a neighborhood planned with views toward the Cape Fear River and Greenfield Lake. Its early houses occupy Northern and Central boulevards, while Cape Cod and ranch houses from the 1940s and 1950s line the cross streets."
   ],
   "moments": [
     {
       "title": "1898 Memorial Park",
       "kind": "roadside",
       "scene": "town",
-      "text": "The park marks November 10, 1898, when white supremacists overthrew the city's elected biracial government, with deaths estimated from 60 to more than 300."
+      "text": "In 1898, white supremacists overthrew Wilmington’s elected government. Black residents had held public offices and worked as skilled craftspeople; Alexander and Frank Manly owned the Wilmington Daily Record. A white mob attacked and burned the newspaper, and Alfred M. Waddell’s men forced elected officials to resign at gunpoint. Waddell became mayor through the newly installed board of aldermen, and prominent Black residents and white Republicans were banished in the following days. Black residents were killed, and more than 2,100 Black people permanently left Wilmington after the attacks. Subsequent state voter-registration barriers effectively disenfranchised most Black voters."
     },
     {
       "title": "Battleship North Carolina",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "river",
-      "text": "Across from the Riverwalk lies the battleship North Carolina, which got away from its tugs on the way in, in 1961, and ran into a floating seafood restaurant.",
+      "text": "North Carolina reached Wilmington under tow in 1961, but its arrival included a collision with a floating seafood restaurant after the tugs lost control. The battleship had faced scrapping before James Craig organized a preservation campaign and persuaded Governor Luther H. Hodges to seek a delay. It opened as a memorial in April 1962 to more than 11,000 North Carolinians who died in U.S. military service during World War II. A walkway installed in 2018 lets visitors view the ship from all sides. The walkway sits on the cofferdam built for hull repairs, allowing the ship’s structure to be repaired in place.",
       "at": [
         -77.95416667,
         34.23638889
@@ -26,29 +27,29 @@
       "title": "Greenfield Park",
       "kind": "roadside",
       "scene": "river",
-      "text": "Lake Shore Drive takes a long turn around Lake Greenfield and past what the state guidebook calls the world's largest Rotary Club International sign."
+      "text": "Greenfield Lake figured in plans for the Sunset Park development. In 1912, the developer promised streetcar service, electric lights, sidewalks and tree-lined roads. The neighborhood’s name came from a contest won by Wilmington Star circulation editor Montrose Bain, whose prize was ten dollars. Many houses followed in 1940–1943 as the North Carolina Shipbuilding Company expanded onto land intended for homes."
     }
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 216)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=216"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 217)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=217"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (p. 218)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=218"
-    },
-    {
       "label": "Wikipedia, Wilmington, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Wilmington,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Wilmington%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, USS North Carolina (BB-55)",
-      "url": "https://en.wikipedia.org/wiki/USS_North_Carolina_(BB-55)"
+      "url": "https://en.wikipedia.org/wiki/USS_North_Carolina_%28BB-55%29"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, fifth edition (truncated cache)",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=216"
+    },
+    {
+      "label": "Wikipedia, Union Station (Wilmington, North Carolina)",
+      "url": "https://en.wikipedia.org/wiki/Union_Station_%28Wilmington%2C_North_Carolina%29"
+    },
+    {
+      "label": "Wikipedia, Sunset Park Historic District",
+      "url": "https://en.wikipedia.org/wiki/Sunset_Park_Historic_District"
     }
   ],
   "reviewed": false

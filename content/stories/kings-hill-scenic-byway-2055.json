@@ -1,19 +1,21 @@
 {
   "id": "kings-hill-scenic-byway-2055",
-  "tagline": "Up Belt Creek through the silver camps and over the pass.",
+  "tagline": "Mining towns and a high pass trace the route through the Little Belts.",
   "motifs": [
     "mining-town"
   ],
   "intro": [
-    "From US 87 near Armington, US 89 turns south into the Little Belt Mountains and the Lewis and Clark National Forest, up the Belt Creek canyon through Monarch and Neihart and over Kings Hill Pass at 7,393 feet, then down toward White Sulphur Springs and US 12, 71 miles in all. Gravel roads branch off on both sides to lakes, trailheads and old mines.",
-    "Mining built the towns. The claims around Monarch went by King, Czar, Emperor, Rex and Sultan, and the Montana Central Railway reached Monarch from Great Falls in 1889."
+    "Kings Hill Scenic Byway follows U.S. 89 for 71 miles through the Little Belt Mountains and Lewis and Clark National Forest. It climbs from the Belt Creek valley toward 7,393-foot Kings Hill Pass. Visit Montana highlights the mountain lakes and streams, with gravel side roads reaching trailheads, campgrounds and old mines. The tourism office gives a usual driving time of two hours.",
+    "The road through this country predates the U.S. 89 number. After Neihart gained a post office in 1882, a road was built toward White Sulphur Springs, though ore still went out by mule to Barker. The Montana Central Railway connected Monarch to Great Falls in 1889. The railway reached Neihart in 1891, making shipment of even low-grade ore to Great Falls cheaper. U.S. 89 extended north from Utah to the Canadian border in 1934.",
+    "Travel south from the U.S. 87 junction near Armington, passing the Belt Creek canyon at Sluice Boxes State Park before Monarch and Neihart. Beyond Neihart, the highway follows Sawmill Creek and climbs toward the pass. Showdown Ski Area lies just south of Kings Hill Pass. The byway finishes at U.S. 12 near White Sulphur Springs."
   ],
   "moments": [
     {
       "title": "Sluice Boxes State Park",
       "kind": "short walk",
       "scene": "river",
-      "text": "Belt Creek winds the last eight miles out of the mountains between cliffs and ledges, past the leavings of the mining and railroad days.",
+      "text": "Belt Creek winds between large cliffs and ledges in the northernmost eight miles of its mountain canyon. Sluice Boxes State Park occupies this reach on the Kings Hill Scenic Byway, twelve miles south of Belt. Remains of mining and railroading survive throughout the canyon.",
+      "notice": "Cliffs, ledges and mining and railroad remains mark the Belt Creek canyon.",
       "at": [
         -110.94138889,
         47.19222222
@@ -23,7 +25,7 @@
       "title": "Neihart",
       "kind": "town",
       "scene": "mountain",
-      "text": "Three prospectors struck silver here in 1881. About $16 million in silver came out by 1929, and some 43 people live here now, at 5,661 feet.",
+      "text": "Neihart’s silver discoveries did not guarantee a lasting boom. Three prospectors found silver here in 1881, but extraction costs held investment down, and the town was almost deserted by 1890. A Montana Central Railway spur arrived the following year and made low-grade ore economical to ship to Great Falls. The Panic of 1893 broke that recovery, although some mines continued working. Zinc supported another boom in 1935 and production during World War II. After the war, the rail spur was abandoned and its track removed. Ruins remain on the town’s outer edges, including Wu Tang’s former laundry and drug store.",
       "at": [
         -110.75138889,
         46.94166667
@@ -36,7 +38,7 @@
       "title": "Kings Hill Pass",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The top of the road at 7,393 feet, with an observation tower over the national forest and Showdown's ski runs just to the south.",
+      "text": "On the climb from Neihart, U.S. 89 follows Sawmill Creek before reaching this pass through the Little Belts. Kings Hill Pass carries the byway across the Little Belt Mountains at 7,393 feet. Snow-removal crews work to keep the road open through winter. Just south of the pass, Showdown began in 1936 as King’s Hill Ski Area, operated by the Great Falls Ski Club. Its first rope tow opened in 1940, donated by Great Falls businessman Charlie Bovey. The Showdown name followed in 1973. An observation tower offers views across the Lewis and Clark National Forest.",
       "at": [
         -110.69527778,
         46.84111111
@@ -44,12 +46,16 @@
     }
   ],
   "practical": [
-    "Snow crews keep the pass open through the winter, but Visit Montana warns that winter driving can be difficult and advises checking road conditions."
+    "Kings Hill Pass: Winter driving can be difficult; Visit Montana advises checking road conditions. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Visit Montana, Kings Hill Scenic Byway",
-      "url": "https://visitmt.com/listing/kings-hill-scenic-byway-11884"
+      "label": "Wikipedia, Neihart, Montana",
+      "url": "https://en.wikipedia.org/wiki/Neihart%2C_Montana"
+    },
+    {
+      "label": "Wikipedia, Monarch, Montana",
+      "url": "https://en.wikipedia.org/wiki/Monarch%2C_Montana"
     },
     {
       "label": "Wikipedia, Kings Hill Pass",
@@ -60,16 +66,20 @@
       "url": "https://en.wikipedia.org/wiki/U.S._Route_89_in_Montana"
     },
     {
-      "label": "Wikipedia, Neihart, Montana",
-      "url": "https://en.wikipedia.org/wiki/Neihart,_Montana"
+      "label": "Visit Montana, Kings Hill Scenic Byway",
+      "url": "https://visitmt.com/listing/kings-hill-scenic-byway-11884"
     },
     {
-      "label": "Wikipedia, Monarch, Montana",
-      "url": "https://en.wikipedia.org/wiki/Monarch,_Montana"
+      "label": "Wikipedia, Riceville, Montana",
+      "url": "https://en.wikipedia.org/wiki/Riceville%2C_Montana"
     },
     {
       "label": "Wikipedia, Sluice Boxes State Park",
       "url": "https://en.wikipedia.org/wiki/Sluice_Boxes_State_Park"
+    },
+    {
+      "label": "Wikipedia, Showdown Ski Area",
+      "url": "https://en.wikipedia.org/wiki/Showdown_Ski_Area"
     }
   ],
   "reviewed": false

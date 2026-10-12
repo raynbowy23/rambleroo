@@ -1,16 +1,17 @@
 {
   "id": "caroline-county-routes-606-and-721-995147",
-  "tagline": "Where Jackson died, and down the old line of Route 14.",
+  "tagline": "An old highway alignment, a crossroads settlement and a wartime station.",
   "intro": [
-    "Two roads make up this byway. Stonewall Jackson Road and Guinea Station Road run from SR 2 at Locks Corner toward US 1, by way of the old railroad stop at Guinea. The other, SR 721, follows the former line of SR 14 between US 360 at St. Stephens Church and US 301 near DeJarnette, through Newtown and Sparta.",
-    "Guinea was once spelled Guiney's, after an old county family, and its station stood on the Richmond, Fredericksburg and Potomac Railroad. After the Battle of Chancellorsville about four thousand captured Union soldiers were collected there."
+    "Newtown Road, numbered SR 721, follows the old alignment of SR 14 northwest from St. Stephens Church toward Bowling Green. At St. Stephens Church it meets US 360, the Richmond–Tappahannock Highway.",
+    "Newtown’s crossroads history reaches back to a junction of Chiskiack trails and later a post road between Williamsburg and Philadelphia. Elsewhere in Caroline County, Guinea became a stop on the Richmond, Fredericksburg and Potomac Railroad.",
+    "For a southeastward journey, Newtown and then St. Stephens Church offer historic buildings: Newtown’s district includes frame farmhouses, and Marriott School stands near St. Stephens Church. Guinea lies northwest of Bowling Green and belongs to a separate excursion."
   ],
   "moments": [
     {
       "title": "Guinea",
       "kind": "separate excursion",
-      "scene": "forest",
-      "text": "Lee had the wounded Stonewall Jackson moved back from the field hospital to Guiney's Station for safety, and Jackson died there on May 10, 1863.",
+      "scene": "town",
+      "text": "Guiney’s Station served the Richmond, Fredericksburg and Potomac Railroad before the name took its modern spelling, Guinea. The older spelling came from the Guineys, a Caroline County family whose surname appears in several forms in local records. After Chancellorsville, about four thousand captured Union soldiers were gathered at the station. Robert E. Lee ordered the wounded Stonewall Jackson moved there from the field hospital near the front lines for safety. Jackson died there on May 10, 1863. The following morning, his remains left Guiney’s Station for Richmond in a one-car train; he was later buried in Lexington.",
       "at": [
         -77.43778,
         38.14361
@@ -20,29 +21,39 @@
       "title": "Newtown",
       "kind": "town",
       "scene": "town",
-      "text": "Newtown, in King and Queen County on the old SR 14 line, has a historic district listed on the National Register of Historic Places.",
+      "text": "Newtown grew at a crossroads with roots in Chiskiack trails along the ridge above the York River and routes running northeast and northwest. Captain John Richards kept a store and tavern on the post road between Williamsburg and Philadelphia; the settlement took the name of his plantation. Later it became known for private schools, physicians and merchants. The historic district entered the National Register in 1982. The district includes detached frame farmhouses, a 1922 grocery store and a family cemetery. The district encompasses 22 contributing buildings, one site and one structure; its frame houses range from one and a half to two stories.",
       "at": [
         -77.12889,
         37.91333
+      ]
+    },
+    {
+      "title": "Marriott School",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "Marriott School’s central entrance has Doric pilasters and a triangular pediment, part of its Colonial Revival design. The original brick section dates to 1938, with an addition built in 1959. The central section is one story tall and five bays wide, with four-bay wings extending to either side. After the school closed in 1992, the building housed the King & Queen Branch of the Pamunkey Regional Library. That use ended when the library moved in 2001. The school near St. Stephens Church was added to the National Register of Historic Places in 2007.",
+      "at": [
+        -77.0542,
+        37.8078
       ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
-    {
       "label": "Wikipedia, Virginia State Route 14",
       "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_14"
     },
     {
-      "label": "Wikipedia, Guinea, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Guinea,_Virginia"
+      "label": "Wikipedia, Newtown Historic District (Newtown, Virginia)",
+      "url": "https://en.wikipedia.org/wiki/Newtown_Historic_District_%28Newtown%2C_Virginia%29"
     },
     {
-      "label": "Wikipedia, Newtown, King and Queen County, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Newtown,_King_and_Queen_County,_Virginia"
+      "label": "Wikipedia, Guinea, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Guinea%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Marriott School",
+      "url": "https://en.wikipedia.org/wiki/Marriott_School"
     }
   ],
   "reviewed": false

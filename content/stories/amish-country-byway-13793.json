@@ -1,73 +1,81 @@
 {
   "id": "amish-country-byway-13793",
-  "tagline": "Over the hills of Holmes County, at a buggy's pace.",
+  "tagline": "Curving backroads through rolling farmland and the communities of Amish Country",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "The byway makes a double loop through Holmes County on SR 39, US 62 and the back roads between, from Loudonville on the Mohican River through Millersburg, Berlin and Walnut Creek and over to Sugarcreek. It winds, and it goes up and down a good deal.",
-    "Half the county is Amish, the highest share of any county in the country. A horse and buggy covers perhaps 10 to 35 miles in a day, so the stores, banks and doctors have stayed within reach. The settlement dates from 1808, and Jonas Stutzman built his cabin on Walnut Creek the year after."
+    "The Amish Country Byway winds over hills and through curves in Ohio’s pastoral countryside. The Federal Highway Administration designates it a National Scenic Byway and highlights the cultural and historic heritage of Amish and northern Appalachian people. Its suggested driving time is three to four hours, with one or two days allowed for exploring. Backroads pass concentrations of Amish homes, farms and home businesses, giving the journey a working rural setting.",
+    "Ohio designated the byway in 1998, giving a scenic-road identity to backroads through Amish communities in Holmes County. The corridor’s focus is farmland, homes, farms and home businesses. The Holmes County settlement includes several Amish affiliations, alongside other Anabaptist communities including Mennonites and Brethren. Tourism promotion in Holmes County began in the 1950s, and bus tours were available by the 1960s.",
+    "Begin this journey at Brinkhaven’s Mohican River crossing, the Bridge of Dreams. Continue to Millersburg, the Holmes County seat, then to Behalt in Berlin, where a vast painting presents Amish and Mennonite heritage. Continue north to Mount Hope on State Route 241; Ohio’s byway story map identifies its weekly livestock and household-goods auction."
   ],
   "moments": [
     {
+      "title": "Bridge of Dreams",
+      "kind": "short walk",
+      "scene": "river",
+      "text": "The Bridge of Dreams began as a railroad crossing in the 1920s; its roof came much later. After the line was abandoned, local residents and businesses planned a trail on the old Pennsylvania Railroad bed. Covering the 370-foot bridge was the ambitious part. Skeptics called the planners dreamers, and the backers adopted the name. Completed in December 1998, the covered bridge is part of the Mohican Valley Trail, used by pedestrians, cyclists and Amish buggies. The trail follows an abandoned railroad bed, so this roofed crossing belongs to a reused railway corridor rather than the motor road.",
+      "at": [
+        -82.19386117,
+        40.4650695
+      ]
+    },
+    {
       "title": "Behalt, Berlin",
-      "kind": "town",
+      "kind": "short walk",
       "scene": "town",
-      "text": "An Amish blacksmith wished for a place where tourists could learn why the Plain people live as they do. Heinz Gaugel answered with a 265-foot painting, fourteen years in the making.",
+      "text": "Heinz Gaugel’s Behalt stretches 265 feet long and ten feet high inside Berlin’s Amish and Mennonite Heritage Center. The painting took fourteen years, with the final detail work completed in 1992. Gaugel researched Anabaptist history and recruited historians to check the work. Its scenes trace the development of Amish, Mennonite and Hutterite movements, including persecution and emigration. The room is octagonal, but the canvas curves across its corners to create the appearance of a round space. Gaugel had not seen the whole painting together until it was installed; the final retouching continued after the scenes were complete.",
       "at": [
         -81.779,
         40.557
       ]
     },
     {
-      "title": "Guggisberg Cheese, Charm",
-      "kind": "roadside",
-      "scene": "prairie",
-      "text": "Baby Swiss cheese was worked out here in the mid-1960s. Where the hamlet of Charm got its name, nobody can say for sure.",
-      "at": [
-        -81.795,
-        40.513
-      ]
-    },
-    {
       "title": "Mount Hope",
       "kind": "town",
       "scene": "prairie",
-      "text": "A community of 197 on State Route 241 with a weekly auction of livestock and household goods. Close by, Horse Progress Days is given over to horse-powered machines.",
+      "text": "Mount Hope lies on State Route 241 in eastern Salt Creek Township. Ohio’s byway story map points to the weekly auction of livestock and household goods here. It also identifies Horse Progress Days, devoted to horse-powered machines.",
       "at": [
         -81.769,
         40.619
       ]
     }
   ],
+  "practical": [
+    "Bridge of Dreams: The bridge is closed to motorized traffic. (checked 2026-10-11)"
+  ],
   "sources": [
-    {
-      "label": "FHWA America's Byways, Amish Country Byway",
-      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/13793"
-    },
-    {
-      "label": "ODOT, Amish Country Byway story map tour stops (query)",
-      "url": "https://services1.arcgis.com/1AlElnGrgBM62OSj/arcgis/rest/services/ACB_StoryMap_View/FeatureServer/0/query?where=1%3D1&outFields=AOI_Number%2CAOI_Name%2CAOI_Description&returnGeometry=true&outSR=4326&f=html"
-    },
     {
       "label": "Wikipedia, Ohio Amish Country",
       "url": "https://en.wikipedia.org/wiki/Ohio_Amish_Country"
     },
     {
-      "label": "Wikipedia, Loudonville, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Loudonville,_Ohio"
+      "label": "Federal Highway Administration, Amish Country Byway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/13793"
+    },
+    {
+      "label": "Wikipedia, Bridge of Dreams",
+      "url": "https://en.wikipedia.org/wiki/Bridge_of_Dreams"
+    },
+    {
+      "label": "Wikipedia, Brinkhaven, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Brinkhaven%2C_Ohio"
+    },
+    {
+      "label": "Wikipedia, Millersburg, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Millersburg%2C_Ohio"
     },
     {
       "label": "Wikipedia, Behalt",
       "url": "https://en.wikipedia.org/wiki/Behalt"
     },
     {
-      "label": "Wikipedia, Charm, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Charm,_Ohio"
+      "label": "Wikipedia, Mount Hope, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Mount_Hope%2C_Ohio"
     },
     {
-      "label": "Wikipedia, Mount Hope, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Mount_Hope,_Ohio"
+      "label": "Ohio Department of Transportation, Amish Country Byway story-map stops",
+      "url": "https://services1.arcgis.com/1AlElnGrgBM62OSj/arcgis/rest/services/ACB_StoryMap_View/FeatureServer/0/query?where=1%3D1&outFields=AOI_Number%2CAOI_Name%2CAOI_Description&returnGeometry=true&outSR=4326&f=html"
     }
   ],
   "reviewed": false

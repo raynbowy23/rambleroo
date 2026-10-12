@@ -1,20 +1,32 @@
 {
   "id": "cliff-drive-2178",
-  "tagline": "Blasted from limestone for carriages, and shut to cars again.",
+  "tagline": "A carriage road cut through limestone, now closed to cars",
   "motifs": [
     "limestone-ledges",
     "river-bluffs"
   ],
   "intro": [
-    "From The Paseo at Independence Avenue, Cliff Drive winds through Kessler Park under limestone bluffs that look down on the East Bottoms and the Missouri River, and ends at Indian Mound on Gladstone Boulevard. John Mahoney's crews blasted the roadbed out of solid rock, with drops of more than 200 feet in places, and it opened in 1900 as the centerpiece of the park, a cornerstone of George Kessler's parks and boulevards.",
-    "Kessler meant it for quiet carriage rides and worried about automobile speed-maniacs. In 1903, after a car spooked a horse, the park board banned motor vehicles, and the Kansas City Automobile Club got the ban repealed. The motorcars are shut out again now."
+    "Cliff Drive follows Kansas City’s limestone bluffs through George E. Kessler Park, above the East Bottoms and Missouri River. It is closed to motor vehicles. Designated a State Scenic Byway in 2000, it preserves a stretch of river-valley landscape beside the city core. Kansas City Parks & Recreation identifies its urban planning history and preserved limestone bluffs, vegetation and wildlife as reasons for that designation.",
+    "George Kessler’s broader 1893 plan joined parks and boulevards across the city, using steep hills and river bluffs as assets in his design. The road was established in 1900 as the park’s centerpiece. Contractor John Mahoney’s crews blasted the roadbed through solid limestone, beside drops exceeding 200 feet in places. George Kessler intended quiet carriage rides here, but cars brought conflict. After a car frightened a horse in 1903, the park board banned motor vehicles; the Kansas City Automobile Club successfully pressed for repeal.",
+    "The byway corridor runs from The Paseo and Independence Avenue through Indian Mound on Gladstone Boulevard at Belmont Boulevard. Pendleton Heights borders Cliff Drive on the western part of this journey. Within the park, the Carl J. DiCapo Fountain and The Colonnade give the landscape an architectural counterpoint. The road itself now serves pedestrians and athletic users."
   ],
+  "notice": "Limestone bluffs preserve a piece of the Missouri River valley beside the city core.",
   "moments": [
+    {
+      "title": "Pendleton Heights",
+      "kind": "town",
+      "scene": "town",
+      "text": "Pendleton Heights places a residential chapter beside the park road: Cliff Drive forms its northern boundary, with Independence Avenue to the south. The neighborhood was platted in the late nineteenth century from the 200-acre Jones Farm. Its houses range from Queen Anne and Italianate to Craftsman and American Foursquare. Tiffany Castle, a landmark house built in 1909, occupies the bluffs overlooking the East Bottoms and the Missouri River. A community garden launched in 2013 gives residents two ways to take part: lease a personal plot or work shared plots for a portion of the harvest.",
+      "at": [
+        -94.55444444,
+        39.11
+      ]
+    },
     {
       "title": "Carl J. DiCapo Fountain",
       "kind": "short walk",
       "scene": "town",
-      "text": "The spring where pioneers and the Scarritt family once cooled their milk and butter went dry, and in 1989 a 40-foot artificial waterfall and reflecting pool went in where it had been.",
+      "text": "The Carl J. DiCapo Fountain puts an artificial waterfall where Cliff Drive once had a spring. Pioneers and the Scarritt family used the spring to cool milk and butter; it was permanently capped in 1962 after its water was judged contaminated. By the late twentieth century, illegal dumping littered the roadside and the pavement was crumbling after a long period of decline. In the 1980s, Northeast community leaders campaigned successfully for money to restore Cliff Drive. That effort produced a 40-foot waterfall and reflecting pool in 1989, dedicated in 1993 as a monument to the restoration.",
       "motifs": [
         "limestone-ledges"
       ]
@@ -23,20 +35,21 @@
       "title": "The Colonnade",
       "kind": "short walk",
       "scene": "town",
-      "text": "Henry Wright's 1908 Beaux-Arts pavilion on The Concourse was built for admiring the landscape, and the neighborhood has since adopted it as Kansas City's biggest front porch."
+      "text": "The Colonnade was designed as a place to admire the landscape. The park surrounding it was an early cornerstone of Kansas City’s parks and boulevard system, with steep natural bluffs largely preserved in its design. Built on The Concourse in 1908, the open-air Beaux-Arts pavilion was the work of Henry Wright, an architect in George Kessler’s office. Its original fountain gave way in 1965 to a memorial to President John F. Kennedy. The memorial’s eternal flame has since been converted to an LED light. The pavilion is also a setting for the SummerDusk concert series, when neighbors gather on its lawn."
     }
-  ],
-  "practical": [
-    "Cliff Drive is closed to motorized vehicles."
   ],
   "sources": [
     {
-      "label": "Kansas City Parks and Recreation, Cliff Drive",
+      "label": "Wikipedia, Kessler Park (Kansas City, Missouri)",
+      "url": "https://en.wikipedia.org/wiki/Kessler_Park_%28Kansas_City%2C_Missouri%29"
+    },
+    {
+      "label": "Kansas City Parks & Recreation, Cliff Drive",
       "url": "https://kcparks.org/places/cliff-drive/"
     },
     {
-      "label": "Wikipedia, Kessler Park (Kansas City, Missouri)",
-      "url": "https://en.wikipedia.org/wiki/Kessler_Park_(Kansas_City,_Missouri)"
+      "label": "Wikipedia, Pendleton Heights, Kansas City",
+      "url": "https://en.wikipedia.org/wiki/Pendleton_Heights%2C_Kansas_City"
     }
   ],
   "reviewed": false

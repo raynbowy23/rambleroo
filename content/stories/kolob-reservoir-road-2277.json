@@ -1,29 +1,40 @@
 {
   "id": "kolob-reservoir-road-2277",
-  "tagline": "Aspen country above Zion’s red and white rock.",
+  "tagline": "Aspen forest, stored mountain water and Zion’s red and white backcountry",
   "motifs": [
     "aspens"
   ],
   "intro": [
-    "From Highway 14 east of Cedar City, the backway passes through thick aspen forest toward Kolob Reservoir. Grassy meadows follow, then the red and white backcountry of Zion on the way to Highway 9 at Virgin. The drive comes down from mountain water to red rock.",
-    "The reservoir was made for flood control and irrigation storage by a dam built by two canal companies. From December to May snow covers the roads, and the lake is reached only by snowmobile."
+    "The Kolob Reservoir Scenic Backway runs 45 miles between SR-14 east of Cedar City and SR-9. Visit Cedar City promotes the drive for its passage through thick aspen forest, grassy meadows and the red and white backcountry of Zion National Park. The tourism office lists 90 minutes for the route.",
+    "The reservoir took shape in 1956, when the Hurricane Canal Company and Washington Fields Canal Company built an earthen dam across Kolob Creek. Its purpose was flood control and irrigation storage. The Washington County Water Conservation District now owns and operates the dam and continued developing the reservoir and its recreational facilities through the 2000s. The dam is 67 feet high and stretches 686 feet along its crest, holding a reservoir with a maximum capacity of 6,914 acre-feet.",
+    "Begin off SR-14, five miles east of Cedar City, and follow the backway through aspen forest to Kolob Reservoir. Beyond the water, grassy meadows lead into Zion’s red and white backcountry on the way to SR-9. In that sandstone country, Northgate Peaks’ two summits are composed of white Navajo Sandstone, with cross-bedding resembling the patterns on Checkerboard Mesa. The southern approach to the reservoir is in Virgin, a town on SR-9 beside its namesake river."
   ],
   "moments": [
     {
       "title": "Kolob Reservoir",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Fences mark where private grazing land begins on almost every shore, so camping keeps close to the water.",
+      "text": "Kolob Reservoir is mountain water held for work downstream: the dam stores Kolob Creek water for irrigation and flood control. The Hurricane Canal Company and Washington Fields Canal Company built the earthen structure in 1956. It stands 67 feet high, with a crest 686 feet long. The reservoir lies on Kolob Mountain. Private grazing land surrounds the water, and fences mark the private boundary along almost all its shores. The Washington County Water Conservation District now owns and operates the dam and continued developing the reservoir’s size and recreational facilities through the 2000s.",
       "at": [
         -113.04777778,
         37.43166667
       ]
     },
     {
+      "title": "Northgate Peaks",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "Two white Navajo Sandstone summits form the Northgate Peaks in Zion National Park. Their rock shows cross-bedding like that seen on Checkerboard Mesa. The west summit reaches 7,267 feet, higher than the east summit at 7,159 feet. Their name refers to their position at the head of a difficult passageway. Runoff drains to North Creek, a tributary of the Virgin River. The U.S. Board on Geographic Names adopted the name in 1935; the peaks stand north of their nearest higher neighbor, North Guardian Angel.",
+      "at": [
+        -113.0592065,
+        37.3242262
+      ]
+    },
+    {
       "title": "Virgin",
       "kind": "town",
       "scene": "river",
-      "text": "At 3,606 feet, Virgin, named for the river beside it and first settled in 1858, is where the backway meets Highway 9.",
+      "text": "Virgin takes its name from the river beside it and lies on SR-9 at 3,606 feet. The James Jepson Jr. House connects Virgin to another irrigation project. Jepson built the two-story limestone house in 1877 and is credited with the inception and construction of the Hurricane Canal. He lived there with his wife Lucinda Stratton and their children. The house entered the National Register of Historic Places in 2000.",
       "at": [
         -113.18972222,
         37.20166667
@@ -31,7 +42,7 @@
     }
   ],
   "practical": [
-    "The backway closes in winter and is unsuitable for travel in wet conditions."
+    "Kolob Reservoir: The backway closes in winter and is unsuitable for travel in wet conditions. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -43,12 +54,20 @@
       "url": "https://en.wikipedia.org/wiki/Kolob_Creek_Dam"
     },
     {
+      "label": "Wikipedia, Northgate Peaks",
+      "url": "https://en.wikipedia.org/wiki/Northgate_Peaks"
+    },
+    {
       "label": "Wikipedia, Kolob Reservoir",
       "url": "https://en.wikipedia.org/wiki/Kolob_Reservoir"
     },
     {
       "label": "Wikipedia, Virgin, Utah",
       "url": "https://en.wikipedia.org/wiki/Virgin%2C_Utah"
+    },
+    {
+      "label": "Wikipedia, James Jepson Jr. House",
+      "url": "https://en.wikipedia.org/wiki/James_Jepson_Jr._House"
     }
   ],
   "reviewed": false

@@ -291,21 +291,21 @@
       "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
+      "name": "Stevens Pass",
+      "model": "snow-peak",
+      "at": 0.5205770411877031,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    },
+    {
       "name": "Leavenworth",
       "model": "town-blocks",
       "at": 0.8772100628943297,
       "offset": "roadside",
-      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 4; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
-    {
-      "model": "snow-peak",
-      "at": 0.5,
-      "side": -1,
-      "distance": 1.4,
-      "scale": 1.5
-    },
     {
       "model": "conifer",
       "at": 0.0875,

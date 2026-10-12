@@ -1,22 +1,33 @@
 {
   "id": "interlake-road-and-nacimiento-drive-990615",
-  "tagline": "Between the reservoirs, a boulder once full of bees.",
+  "tagline": "Between mountain communities, a reservoir stores winter water for the valley",
   "intro": [
-    "On Interlake Road, Bee Rock lies between Lake Nacimiento and Lake San Antonio in the Santa Lucia Range. The settlement took its reputation from a fissured granite boulder near Arroyo Alcalde, where nineteenth-century accounts described bees producing hundreds of pounds of honey a year.",
-    "Lake Nacimiento is a working reservoir. Its dam holds back winter runoff and lets it go slowly enough to recharge the aquifer that Salinas Valley farming depends on."
+    "Interlake Road and Nacimiento Drive form a county scenic highway from the Monterey County line to Chimney Rock Road in San Luis Obispo County. Bee Rock stands along Interlake Road between the Nacimiento and San Antonio reservoirs in the southeastern Santa Lucia Range. Near Tierra Redonda Mountain, the landscape includes chaparral, blue oak woodland, grassland and sand dunes.",
+    "Caltrans records the scenic designation in 1972, fifteen years after Nacimiento Dam was completed. Before the dam, winter stormwater passed down the Nacimiento and Salinas rivers faster than the Salinas Valley aquifer could absorb it. Monterey County’s flood-control district proposed storing those floods and releasing water slowly through the year to recharge groundwater for agriculture.",
+    "From the county-line end, the route continues toward Chimney Rock Road. Oak Shores Drive is a side road winding along Tierra Redonda Mountain’s western side to Lake Nacimiento. Bee Rock is on Interlake Road; the community of Lake Nacimiento sits beside the reservoir in the Santa Lucia Mountains."
   ],
   "moments": [
     {
       "title": "Oak Shores",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Oak Shores sits on the north side of Lake Nacimiento, 1,814 feet up in the Santa Lucia Mountains."
+      "text": "Oak Shores sits on the north side of Lake Nacimiento, in the Santa Lucia Mountains. The approach on Oak Shores Drive winds along the western part of Tierra Redonda Mountain from Interlake Road to the lakeshore. Chaparral and blue oak woodland are among the mountain’s plant communities."
+    },
+    {
+      "title": "Bee Rock",
+      "kind": "town",
+      "scene": "mountain",
+      "text": "Bee Rock’s nineteenth-century reputation came from a granite boulder near Arroyo Alcalde, its fissures inhabited by bees producing hundreds of pounds of honey a year. The settlement on Interlake Road also built a school through local fundraising in the early 1880s. Jim Hardy Allen led that effort, and local rancher Ernest KoneKamp donated an acre of his land on which the school was built. It doubled as a community hall and occasionally served as a church when a clergyman visited. The old school was abandoned by 1951; a new one was built in 1972.",
+      "at": [
+        -120.93916667,
+        35.78722222
+      ]
     },
     {
       "title": "Lake Nacimiento",
       "kind": "town",
       "scene": "mountain",
-      "text": "The lakeside community takes its name from the reservoir, which locals call Dragon Lake for its shape.",
+      "text": "The community of Lake Nacimiento stands beside a reservoir known locally as Dragon Lake for its shape. The water is stored behind an earthfill dam completed in 1957. Although the dam lies in San Luis Obispo County, Monterey County’s water agency owns and operates it. Its principal purpose is groundwater recharge for agriculture, alongside flood control, domestic water supply and hydropower. The structure rises 210 feet and has a crest 1,630 feet long. The reservoir first filled to capacity in 1958. Wet winters can fill it quickly, while droughts can leave it low for several consecutive years.",
       "at": [
         -120.88138889,
         35.7375
@@ -25,20 +36,28 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, Bee Rock, California",
-      "url": "https://en.wikipedia.org/wiki/Bee_Rock%2C_California"
-    },
-    {
-      "label": "Wikipedia, Lake Nacimiento, California",
-      "url": "https://en.wikipedia.org/wiki/Lake_Nacimiento%2C_California"
+      "label": "Wikipedia, Oak Shores, California",
+      "url": "https://en.wikipedia.org/wiki/Oak_Shores%2C_California"
     },
     {
       "label": "Wikipedia, Nacimiento Dam",
       "url": "https://en.wikipedia.org/wiki/Nacimiento_Dam"
     },
     {
-      "label": "Wikipedia, Oak Shores, California",
-      "url": "https://en.wikipedia.org/wiki/Oak_Shores%2C_California"
+      "label": "California Department of Transportation, Officially Designated County Scenic Highways",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/od-county-scenic-hwys-2015-a11y.pdf"
+    },
+    {
+      "label": "Wikipedia, Bee Rock, California",
+      "url": "https://en.wikipedia.org/wiki/Bee_Rock%2C_California"
+    },
+    {
+      "label": "Wikipedia, Tierra Redonda Mountain",
+      "url": "https://en.wikipedia.org/wiki/Tierra_Redonda_Mountain"
+    },
+    {
+      "label": "Wikipedia, Lake Nacimiento, California",
+      "url": "https://en.wikipedia.org/wiki/Lake_Nacimiento%2C_California"
     }
   ],
   "reviewed": false

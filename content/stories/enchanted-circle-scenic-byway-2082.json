@@ -1,33 +1,31 @@
 {
   "id": "enchanted-circle-scenic-byway-2082",
-  "tagline": "Once around Wheeler Peak, out of Taos and back again.",
+  "tagline": "Mountain passes and mining towns on a circuit of Wheeler Peak",
   "motifs": [
     "mining-town",
     "lake-wide"
   ],
   "intro": [
-    "From Taos the circle goes north on NM 522 to Arroyo Hondo, which grew out of an 1815 Spanish land grant, and on to Questa, then turns east on NM 38 up the old mining valley of the Red River. Over Bobcat Pass, the highest pass in New Mexico, it drops into the Moreno Valley and comes back west on US 64, entering Taos by Kit Carson Road.",
-    "All the way round it keeps Wheeler Peak, at 13,161 feet the tallest mountain in the state, in the middle."
+    "The Enchanted Circle loops from Taos through mountain passes and the Moreno Valley, encircling Wheeler Peak, New Mexico’s highest mountain. The New Mexico Tourism Department emphasizes alpine scenery, fishing, skiing and switchback roads through old mining country. The U.S. Forest Service designated the circle a National Forest Scenic Byway in 1989; state scenic-byway designation followed in 1998. The drive passes lakes and streams as well as historic towns, with ski resorts and recreation parks close to the route.",
+    "Palo Flechado Pass carried travelers toward Taos before the numbered highways. Comanche, Kiowa and Apache used the pass on a trail from the plains before the Spanish arrived. In the highway era, the road into Taos from the northeast was U.S. 485 in 1927; U.S. 64 replaced that number in 1931. The scenic circle later joined this approach to the roads through Questa and Red River.",
+    "From Taos, drive east on U.S. 64 through the Rio Fernando canyon and across Palo Flechado Pass toward the Moreno Valley. The Vietnam Veterans Memorial is near Angel Fire at the valley’s southern end. Continue north to Eagle Nest, then cross Bobcat Pass on NM 38 to Red River and Questa. NM 522 leads south through Arroyo Hondo and back to Taos."
   ],
   "moments": [
     {
-      "title": "Red River",
-      "kind": "town",
+      "title": "Vietnam Veterans Memorial",
+      "kind": "separate excursion",
       "scene": "mountain",
-      "text": "A gold, silver and copper camp of some 3,000 people in 1895 that got by on trout fishing and cool summers once the ore gave out, and now counts about 540.",
+      "text": "The chapel near Angel Fire was dedicated on May 22, 1971, to honor veterans of the Vietnam War. In 1987, Congress recognized the Disabled American Veterans Vietnam Veterans National Memorial as a memorial of national significance. The site lies near U.S. 64, at the southern end of the Moreno Valley.",
       "at": [
-        -105.3975,
-        36.70388889
-      ],
-      "motifs": [
-        "mining-town"
+        -105.29444444,
+        36.44083333
       ]
     },
     {
       "title": "Eagle Nest",
       "kind": "town",
       "scene": "mountain",
-      "text": "The Cimarron River was dammed here in 1918 into a lake at 8,300 feet, over ground where a railroad had bored a tunnel in 1907 for a line to Taos it never finished.",
+      "text": "A railway project preceded the lake at Eagle Nest. In 1907, the St. Louis, Rocky Mountain and Pacific Railway graded part of an extension from Ute Park toward Taos and bored a tunnel here, but the extension remained unfinished. Eagle Nest Dam impounded the Cimarron River in 1918, creating the reservoir. The lake lies at 8,300 feet in a glacial valley on Wheeler Peak’s slopes. The village occupies its northern end; originally called Therma, it took the name Eagle Nest in the 1930s. The reservoir became the main attraction of Eagle Nest Lake State Park, established in 2004.",
       "at": [
         -105.25194444,
         36.545
@@ -37,44 +35,51 @@
       ]
     },
     {
-      "title": "Vietnam Veterans Memorial",
-      "kind": "separate excursion",
+      "title": "Red River",
+      "kind": "town",
       "scene": "mountain",
-      "text": "Near US 64 at Angel Fire, at the south end of the Moreno Valley, stands a chapel dedicated in 1971, the first major memorial to the veterans of the Vietnam War.",
+      "text": "Red River takes its name from the perennial stream that flows through town from Wheeler Peak’s northern slopes. Before the mining town developed, Jicarilla Apache and Utes used the area as a summer hunting ground. Miners arrived from nearby Elizabethtown in the late nineteenth century, drawn by gold strikes. Mining peaked in 1897 and declined by 1905, but trout fishing and summer visitors helped the town survive. By the last serious mining efforts in 1931, tourism was already its principal livelihood. The resort town is surrounded by Carson National Forest.",
       "at": [
-        -105.29444444,
-        36.44083333
+        -105.3975,
+        36.70388889
+      ],
+      "motifs": [
+        "mining-town"
       ]
     }
   ],
   "sources": [
     {
-      "label": "New Mexico True, Enchanted Circle Scenic Byway",
+      "label": "Wikipedia, Enchanted Circle Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Enchanted_Circle_Scenic_Byway"
+    },
+    {
+      "label": "New Mexico Tourism Department, Enchanted Circle Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/enchanted-circle/"
     },
     {
-      "label": "Wikipedia, Enchanted Circle Scenic Byway",
-      "url": "https://en.wikipedia.org/wiki/Enchanted_Circle_Scenic_Byway"
+      "label": "Wikipedia, Palo Flechado Pass",
+      "url": "https://en.wikipedia.org/wiki/Palo_Flechado_Pass"
     },
     {
       "label": "Wikipedia, Bobcat Pass",
       "url": "https://en.wikipedia.org/wiki/Bobcat_Pass"
     },
     {
-      "label": "Wikipedia, Red River, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Red_River,_New_Mexico"
-    },
-    {
-      "label": "Wikipedia, Eagle Nest, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Eagle_Nest,_New_Mexico"
+      "label": "Wikipedia, Vietnam Veterans Memorial (New Mexico)",
+      "url": "https://en.wikipedia.org/wiki/Vietnam_Veterans_Memorial_%28New_Mexico%29"
     },
     {
       "label": "Wikipedia, Eagle Nest Lake State Park",
       "url": "https://en.wikipedia.org/wiki/Eagle_Nest_Lake_State_Park"
     },
     {
-      "label": "Wikipedia, Vietnam Veterans Memorial (New Mexico)",
-      "url": "https://en.wikipedia.org/wiki/Vietnam_Veterans_Memorial_(New_Mexico)"
+      "label": "Wikipedia, Eagle Nest, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Eagle_Nest%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Red River, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Red_River%2C_New_Mexico"
     }
   ],
   "reviewed": false

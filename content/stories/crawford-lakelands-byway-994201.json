@@ -1,19 +1,20 @@
 {
   "id": "crawford-lakelands-byway-994201",
-  "tagline": "Two lakes of different making, and ducks that walk on fish.",
+  "tagline": "Two lakes of different origins, with ducks walking on fish.",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "The byway strings US 6, PA 18, PA 618 and PA 285 together through the rural west end of Crawford County, past two lakes of very different making.",
-    "Pymatuning was a great swamp, where farm animals that wandered off were lost in the quicksand, until about 7,000 men went to work damming the Shenango River in 1931 and made a lake 17 miles long. Conneaut Lake is the glaciers' work, a kettle lake left where a block of ice broke off the retreating front and melted in place. By surface area it is the largest natural lake in Pennsylvania."
+    "The Crawford Lakelands Byway links rural countryside with Pymatuning Reservoir and Conneaut Lake. Its network includes US 6, PA 18, PA 618 and PA 285; at Conneaut Lake, PA 18 follows the eastern side and PA 618 the west. The Crawford County tourism bureau describes the scenic designation as recognition of the corridor’s scenery, history, recreation and natural features. The tourism bureau points to boating, fishing and eagle watching at Pymatuning, and swimming and water skiing at Conneaut Lake, as activities along the route.",
+    "The designation took effect on September 7, 2011, under Act 68. The waters it connects have very different origins: Conneaut formed when a detached block of glacial ice melted, leaving a depression that filled with water. Pymatuning replaced swampland with a reservoir after dam work began in 1931 and finished in 1934, providing water supply, flood protection and recreation. The reservoir extends across the Pennsylvania–Ohio boundary, with a state park on each side.",
+    "Begin at Linesville, just north of Pymatuning’s northeastern end. South Mercer Street leads across the spillway to PA 285, with its fish-and-waterfowl gathering. Continue toward Conneaut Lake on PA 285, then explore the lake roads on PA 618 and PA 18."
   ],
   "moments": [
     {
       "title": "Linesville",
       "kind": "town",
       "scene": "town",
-      "text": "At the town's one traffic light a sign on the Maclaine Building puts Chicago and New York each 500 miles off, though the true halfway point is about a mile west.",
+      "text": "A sign on the Maclaine Building gives Chicago and New York the same distance: 500 miles. It stands at the town’s main intersection, where Linesville has its sole traffic light. US 6 passes through the center of the borough, while South Mercer Street leads toward Pymatuning’s spillway. The borough sits just north of the reservoir’s northeastern end. The town’s history traces its beginnings to a mill Amos Line established in 1820, followed by a village laid out in 1825. The mill settlement was first called Line’s Mills, then Linesville Station, before taking the shorter name Linesville.",
       "at": [
         -80.4244,
         41.6564
@@ -23,13 +24,13 @@
       "title": "Linesville Spillway",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "South of town in warm weather the carp crowd the spillway so thick that ducks walk across their backs, billed locally as Pennsylvania's second most popular attraction, after the Liberty Bell."
+      "text": "In warm weather, thousands of carp gather on the spillway’s eastern, sanctuary side, attracted by bread thrown by visitors. The fish crowd densely enough for ducks and other waterfowl to walk across their backs while competing for food. Local businessman Alpine Maclaine coined the name “Place Where the Ducks Walk on the Fish.” The spillway separates the higher upstream portion of Pymatuning Lake from the rest of the reservoir. A parking area beside the spillway serves the warm-weather attraction; the lake beyond it was formed by damming the Shenango River in the 1930s."
     },
     {
       "title": "Conneaut Lake",
       "kind": "town",
       "scene": "river",
-      "text": "The lake was raised about ten feet in the 1820s for the Beaver and Erie Canal, then let back down to its natural level once the railroads had made canals obsolete.",
+      "text": "Conneaut Lake is natural, but its water level has a history of engineering. The lake was raised about ten feet in the 1820s for construction of the Beaver and Erie Canal. In the 1870s, railroads displaced canals, and the water returned to its natural elevation, although a flood-control dam remains. Rail travel also helped make the lake a recreation destination. By surface area, it is Pennsylvania’s largest natural lake. Water enters at the north through Inlet Run and leaves to the south through Conneaut Outlet. The outlet joins French Creek within the Mississippi River drainage.",
       "at": [
         -80.3056,
         41.6222
@@ -38,16 +39,24 @@
   ],
   "sources": [
     {
-      "label": "Visit Crawford County, Exploring the Crawford Lakelands Scenic Byway",
-      "url": "https://visitcrawford.org/exploring-the-crawford-lakelands-scenic-byway-a-journey-through-pennsylvanias-heartland/"
-    },
-    {
-      "label": "PennDOT, Pennsylvania Byways list (RW-745ISB)",
-      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
+      "label": "Wikipedia, Conneaut Lake",
+      "url": "https://en.wikipedia.org/wiki/Conneaut_Lake"
     },
     {
       "label": "Wikipedia, Pymatuning State Park (Pennsylvania)",
-      "url": "https://en.wikipedia.org/wiki/Pymatuning_State_Park_(Pennsylvania)"
+      "url": "https://en.wikipedia.org/wiki/Pymatuning_State_Park_%28Pennsylvania%29"
+    },
+    {
+      "label": "Crawford County Convention and Visitors Bureau, Exploring the Crawford Lakelands Scenic Byway",
+      "url": "https://visitcrawford.org/exploring-the-crawford-lakelands-scenic-byway-a-journey-through-pennsylvanias-heartland/"
+    },
+    {
+      "label": "Pennsylvania Department of Transportation, Pennsylvania Byways",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
+    },
+    {
+      "label": "Wikipedia, Conneaut Lakeshore, Pennsylvania",
+      "url": "https://en.wikipedia.org/wiki/Conneaut_Lakeshore%2C_Pennsylvania"
     },
     {
       "label": "Wikipedia, Pymatuning Reservoir",
@@ -55,11 +64,7 @@
     },
     {
       "label": "Wikipedia, Linesville, Pennsylvania",
-      "url": "https://en.wikipedia.org/wiki/Linesville,_Pennsylvania"
-    },
-    {
-      "label": "Wikipedia, Conneaut Lake",
-      "url": "https://en.wikipedia.org/wiki/Conneaut_Lake"
+      "url": "https://en.wikipedia.org/wiki/Linesville%2C_Pennsylvania"
     }
   ],
   "reviewed": false

@@ -1,16 +1,18 @@
 {
   "id": "jefferson-highway-heritage-byway-991903",
-  "tagline": "Two lanes down Iowa on the old Palm to Pine Highway.",
+  "tagline": "Two lanes through Iowa farmland on a former international motor trail",
   "intro": [
-    "The byway keeps to two-lane country roads roughly along US 65 and 69, from Northwood down to Lamoni, through farmland under open sky and from one courthouse square to the next. It is the way people drove town to town before the interstates, when there was little pavement and plenty of prairie and marsh mud.",
-    "E.T. Meredith of Des Moines was behind the Jefferson Highway Association, which first met in 1915 to promote a motor route from Winnipeg to New Orleans, nicknamed the Palm to Pine Highway. At Colo it still crosses the Lincoln Highway at the restored Reed-Niland Corner."
+    "The Jefferson Highway Heritage Byway follows paved, two-lane country roads through Iowa farmland, linking small towns beneath open skies. It stretches from Northwood to Lamoni, roughly along U.S. 65 and 69. Travel Iowa presents the byway as a way to experience town-to-town motoring before the interstates, with courthouse squares and Frank Lloyd Wright architecture along the historic route.",
+    "In the early 1900s, sparse pavement and prairie and marshland mud limited travel. Des Moines businessman E.T. Meredith conceived the Jefferson Highway Association, which first met in 1915 with a vision of a motor route from Winnipeg to New Orleans. The route sought visitors and commerce for Iowa towns, which built tourist camps to welcome motorists. Built during the 1910s as part of the National Auto Trail system, the Jefferson Highway took its Palm to Pine nickname from the trees at its two ends. The numbered U.S. Highway system replaced the named highway in the late 1920s.",
+    "Heading south from Northwood, the journey reaches Mason City’s Stockman House, then the Iowa River gorge at Iowa Falls. At Colo, Reed-Niland Corner marks the meeting of the Jefferson and Lincoln highways. Continue south through Des Moines, Indianola and Osceola toward Lamoni."
   ],
   "moments": [
     {
       "title": "Stockman House, Mason City",
       "kind": "roadside",
       "scene": "town",
-      "text": "Frank Lloyd Wright designed this Prairie house in 1908 from his plan for \"A Fireproof House for $5000\", and at auction in 1987 its only bidder wanted a parking lot.",
+      "text": "The Stockman House survived a bid for its land by moving to another address. Frank Lloyd Wright designed it for George and Eleanor Stockman in 1908, adapting a compact Prairie Style plan published in Ladies’ Home Journal. At the 1987 auction, the only bidder was a neighboring church seeking a parking lot; its offer fell below the minimum. Volunteers organized to save the house, and David Murphy contributed money on the condition that it be donated rather than demolished. Restoration followed the move; three built-in bookcases and a dining-room sideboard remain.",
+      "notice": "Notice the shallow hip roof and the cantilevered roof over the enlarged entrance.",
       "at": [
         -93.192,
         43.152
@@ -20,7 +22,7 @@
       "title": "Iowa Falls",
       "kind": "town",
       "scene": "river",
-      "text": "The town gave up its first name, Rocksylvania, as too hard to spell, and here the Iowa River runs through a limestone gorge 70 feet deep.",
+      "text": "The falls that named Iowa Falls lie beneath water impounded by a dam built in 1926. The Iowa River runs through a limestone gorge 70 feet deep, between bluffs that rise another 50 feet. Before the town was platted in 1856, the area was known as Rocksylvania. That name was abandoned for fear it would be difficult to spell and pronounce; the river supplied its replacement. The dam serves a hydroelectric power station. Another change of use survives in town: the Metropolitan Opera House, built in 1899 for live entertainment, now operates primarily as a movie theater.",
       "at": [
         -93.267,
         42.517
@@ -28,6 +30,12 @@
       "motifs": [
         "river-bluffs"
       ]
+    },
+    {
+      "title": "Reed-Niland Corner, Colo",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "Two early highways meet at Reed-Niland Corner in Colo: the Jefferson and the Lincoln. The east-west Lincoln Highway had inspired the north-south Jefferson Highway, whose full route connected Winnipeg and New Orleans. The restored roadside stop combines the services motorists needed on a long journey: gas, food and lodging. It belongs to a wider history of towns preparing for automobile visitors. Along the Jefferson Highway, Iowa communities built tourist camps and planned activities to attract travelers’ business. Iowa’s official byways guide identifies Reed-Niland Corner among the Lincoln Highway’s nationally known landmarks."
     }
   ],
   "sources": [
@@ -36,24 +44,24 @@
       "url": "https://www.traveliowa.com/trails/jefferson-highway-heritage-byway/99/"
     },
     {
-      "label": "Iowa DOT, Iowa Byways Official Travel Guide",
-      "url": "https://iowadot.gov/media/916/download?inline"
-    },
-    {
       "label": "Wikipedia, Jefferson Highway",
       "url": "https://en.wikipedia.org/wiki/Jefferson_Highway"
     },
     {
-      "label": "Wikipedia, Dr. G.C. Stockman House",
-      "url": "https://en.wikipedia.org/wiki/Dr._G.C._Stockman_House"
+      "label": "Iowa Department of Transportation, Scenic Byway View",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Iowa Department of Transportation, Iowa Byways Official Travel Guide",
+      "url": "https://iowadot.gov/media/916/download?inline"
     },
     {
       "label": "Wikipedia, Iowa Falls, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Iowa_Falls,_Iowa"
+      "url": "https://en.wikipedia.org/wiki/Iowa_Falls%2C_Iowa"
     },
     {
-      "label": "Iowa DOT, Scenic Byway View (ArcGIS feature service)",
-      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+      "label": "Wikipedia, Dr. G.C. Stockman House",
+      "url": "https://en.wikipedia.org/wiki/Dr._G.C._Stockman_House"
     }
   ],
   "reviewed": false

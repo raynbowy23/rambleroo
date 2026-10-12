@@ -1,16 +1,23 @@
 {
   "id": "delaware-river-valley-71427",
-  "tagline": "A Delaware river road that turns off through the fields.",
+  "tagline": "Seventeen miles of farmland and river towns between Easton and Riverton.",
   "intro": [
-    "The byway is seventeen miles of Route 611, Little Creek Road and the Belvidere Highway between Easton and Riverton, with the Delaware and Little Martin's Creek for a backdrop. Below Martins Creek, Route 611 keeps to the west bank of the Delaware through Forks Township, past woods and homes by the river. At Martins Creek it turns away from the water, and from there the byway reaches Riverton through farm country.",
-    "The country around Martins Creek was called Flatfield in the 1800s for its level ground, then Martinsville by the Civil War, and only later Martin's Creek."
+    "The Delaware River Valley Scenic Byway winds through farmland and riverside towns, with the Delaware River and Little Martin’s Creek as its backdrop. Pennsylvania’s tourism office highlights the combination of natural scenery and historic attractions along Route 611, Little Creek Road and the Belvidere Highway. PennDOT records its byway designation as effective in 2005. The corridor runs for 17 miles between Easton and Riverton in Pennsylvania.",
+    "The numbered highway took a different path before this designation. In the 1930s, U.S. 611 shifted from the route through Bangor to Delaware Drive between Martins Creek and Portland. In 1972, Pennsylvania Route 611 replaced the U.S. designation between Philadelphia and Tobyhanna. In Easton, the state route changed again in the 1970s, moving onto Larry Holmes Drive. Its earlier downtown course had used 3rd, Ferry, 2nd and Front streets, while the new alignment followed the riverfront.",
+    "Starting in Easton, the drive follows the Delaware’s west bank into Forks Township, through woods with houses beside the river. Beyond Sandts Eddy, Route 611 turns away from the Delaware toward Martins Creek, then crosses the creek and continues through woods into farm fields. The byway continues to Riverton, where the Riverton–Belvidere Bridge connects Pennsylvania with New Jersey across the Delaware."
   ],
   "moments": [
+    {
+      "title": "Easton’s river junction",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "At Easton, the Lehigh River joins the Delaware. Route 611 crosses the Lehigh on South 3rd Street, then turns onto Larry Holmes Drive along its north bank before curving beside the Delaware. The street takes its name from the former heavyweight boxing champion. Route 611 moved onto Larry Holmes Drive in the 1970s; its previous downtown alignment used 3rd, Ferry, 2nd and Front streets. An earlier transportation link began here, too: the Delaware Division of the Pennsylvania Canal opened in 1830, running parallel to the river from Easton to Bristol."
+    },
     {
       "title": "Martins Creek",
       "kind": "town",
       "scene": "town",
-      "text": "James Martin, who came around 1747, ran a gristmill here, and in 1939 the exiled Russian prime minister Alexander Kerensky was married in the village.",
+      "text": "Level ground gave this area an earlier name: Flatfield, in use by the 1800s. By the Civil War it was Martinsville; Martin’s Creek came later. James Martin arrived around 1747, operated a gristmill and later served as a colonel in the American Revolution. The Hunter-Martin Settlement Museum commemorates the area’s early history. Cement manufacture later became the area’s major industry, with the Alpha Portland Cement Company closing in 1964. The creek passes the former plant before emptying into the Delaware.",
       "at": [
         -75.18639,
         40.78333
@@ -20,7 +27,7 @@
       "title": "Riverton–Belvidere Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "The first bridge across to Belvidere, New Jersey went up here in 1836, and when the floods of 1903 took it, it was rebuilt the next year with steel in place of wood.",
+      "text": "The crossing at Riverton began as a ferry before a bridge connected it with Belvidere. Solon Chapin, a contractor from Easton, built the first bridge in 1836. Storms damaged it that year and again in 1841, but the 1903 flood destroyed it. The replacement followed in 1904. Its builders reused the wooden bridge’s three piers, raising them to clear high floodwaters. Tolls had ended in 1929, after the bridge commission acquired the crossing. That transfer brought extensive repairs, including new beams, new flooring and work on a pier. The crossing survived the 1955 flood with minor damage.",
       "at": [
         -75.0847,
         40.8288
@@ -29,11 +36,11 @@
   ],
   "sources": [
     {
-      "label": "visitPA, Delaware River Valley Scenic Byway",
+      "label": "Pennsylvania tourism office (visitPA), Delaware River Valley Scenic Byway",
       "url": "https://www.visitpa.com/listing/delaware-river-valley-scenic-byway/1467/"
     },
     {
-      "label": "PennDOT, Pennsylvania Byways list (RW-745)",
+      "label": "Pennsylvania Department of Transportation, Pennsylvania Byways",
       "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
     },
     {
@@ -41,12 +48,20 @@
       "url": "https://en.wikipedia.org/wiki/Pennsylvania_Route_611"
     },
     {
-      "label": "Wikipedia, Martins Creek, Pennsylvania",
-      "url": "https://en.wikipedia.org/wiki/Martins_Creek,_Pennsylvania"
-    },
-    {
       "label": "Wikipedia, Riverton–Belvidere Bridge",
       "url": "https://en.wikipedia.org/wiki/Riverton%E2%80%93Belvidere_Bridge"
+    },
+    {
+      "label": "Wikipedia, Delaware River",
+      "url": "https://en.wikipedia.org/wiki/Delaware_River"
+    },
+    {
+      "label": "Wikipedia, Martins Creek, Pennsylvania",
+      "url": "https://en.wikipedia.org/wiki/Martins_Creek%2C_Pennsylvania"
+    },
+    {
+      "label": "Wikipedia, Martins Creek (Delaware River tributary)",
+      "url": "https://en.wikipedia.org/wiki/Martins_Creek_%28Delaware_River_tributary%29"
     }
   ],
   "reviewed": false

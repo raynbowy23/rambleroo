@@ -277,11 +277,18 @@
   },
   "landmarks": [
     {
+      "name": "Pendleton Heights",
+      "model": "town-blocks",
+      "at": 0.3193486636093744,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
       "name": "Carl J. DiCapo Fountain",
       "model": "ledge",
-      "at": 0.3333333333333333,
+      "at": 0.5,
       "offset": "roadside",
-      "notes": "Story moment 1; short walk. Illustrative position in driving order."
+      "notes": "Story moment 2; short walk. Illustrative position in driving order."
     }
   ],
   "dressing": [

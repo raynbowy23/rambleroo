@@ -1,16 +1,17 @@
 {
   "id": "covered-bridges-scenic-byway-991902",
-  "tagline": "Spokes out of Winterset to the covered bridges.",
+  "tagline": "Covered bridges connect a journey through farmland and Iowa river valleys.",
   "intro": [
-    "From the square at Winterset, where a limestone courthouse stands in the middle, the byway runs out like the spokes of a wheel, 82 miles in all, to the red covered bridges of Madison County that a novel, a movie and a musical called The Bridges of Madison County made famous. Between bridges it keeps to farm country and the North River and Middle River valleys.",
-    "Winterset was platted during a cool spell in the summer of 1849. The commissioners had meant to call it Summerset. The weather changed their minds."
+    "The Covered Bridges Scenic Byway branches through Madison County on 82 miles of paved and gravel roads. Its spokes reach red covered bridges among rivers and wooded hills, with farmland and views along the North River and Middle River valleys. An Iowa state byway, it brings together the bridges, historic architecture and agricultural landscape featured by Travel Iowa. The bridges also connect this agricultural landscape to The Bridges of Madison County, which carried their name into a novel, a movie and a musical.",
+    "The crossings have histories of their own: Imes Bridge began over the Middle River in 1870, then moved to Clinton Creek in 1887 and to its present site in 1977. Holliwell Bridge was completed in 1880 and carried traffic until a bypass opened in 1986. It was restored in 1995 and appeared in The Bridges of Madison County.",
+    "Begin these spokes at Winterset, where a limestone courthouse anchors the town square. In Winterset itself, one of the county’s six covered bridges is in City Park. Holliwell lies two miles southeast of town, crossing the Middle River. For the eastern part of the journey, Bevington sits along the Middle River beside Interstate 35 on Highway 92; finish with Imes Bridge at St. Charles."
   ],
   "moments": [
     {
       "title": "Winterset",
       "kind": "town",
       "scene": "town",
-      "text": "John Wayne was born here, and the town keeps his birthplace along with a museum given over entirely to him, the only one in the world.",
+      "text": "The limestone courthouse at the center of Winterset gives the town square its focal point. Built in 1868, the courthouse was rebuilt in 1876 after fire partially destroyed it. The square has National Historic District designation, and shops and eateries ring it. John Wayne was born in Winterset; his birthplace museum opened in 2015 kitty-corner from the birthplace home. Its collections include scripts, costumes and personal correspondence, alongside a custom-made 1972 Pontiac station wagon. The Iowa Quilt Museum occupies the south side of the square and offers changing seasonal exhibits and workshops.",
       "at": [
         -94.001,
         41.37
@@ -20,7 +21,7 @@
       "title": "Holliwell Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "Two miles southeast of town the Holliwell crosses the Middle River on a 110-foot span, the longest of the county's six remaining covered bridges and one of the film's bridges.",
+      "text": "Holliwell has stayed at its original location, but not at its original angle across the Middle River. Floods repeatedly washed out its supporting abutments, forcing that change. Harvey P. Jones and George K. Foster built the wooden bridge in 1880. Its 110-foot span makes it the longest of the six remaining covered bridges in Madison County. Traffic bypassed it in 1986; restoration followed in 1995. The timber lattice truss uses metal fasteners instead of the wooden dowels found in the county’s other bridges of that type. A flat arch and partial arches at the ends reinforce that truss.",
       "at": [
         -93.959,
         41.323
@@ -30,7 +31,7 @@
       "title": "Imes Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "The oldest covered bridge left in the county, built in 1870 over the Middle River, has been moved twice, the second time in 1977 to its present spot at St. Charles.",
+      "text": "Imes Bridge has occupied three sites since its construction in 1870. It first crossed the Middle River, moved to Clinton Creek in 1887, and moved again in 1977 to the site at St. Charles. The wooden bridge measures 81 feet and is the oldest remaining covered bridge in Madison County. A renovation in 1997 cost $31,807.",
       "at": [
         -93.801,
         41.289
@@ -43,24 +44,28 @@
       "url": "https://www.traveliowa.com/trails/covered-bridges-scenic-byway/98/"
     },
     {
-      "label": "Iowa DOT, Iowa Byways Official Travel Guide",
+      "label": "Iowa Department of Transportation, Scenic Byway View",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Iowa Department of Transportation, The Official Travel Guide to Iowa’s Byways",
       "url": "https://iowadot.gov/media/916/download?inline"
-    },
-    {
-      "label": "Wikipedia, Winterset, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Winterset,_Iowa"
-    },
-    {
-      "label": "Wikipedia, Holliwell Covered Bridge",
-      "url": "https://en.wikipedia.org/wiki/Holliwell_Covered_Bridge"
     },
     {
       "label": "Wikipedia, Imes Bridge",
       "url": "https://en.wikipedia.org/wiki/Imes_Bridge"
     },
     {
-      "label": "Iowa DOT, Scenic Byway View (ArcGIS feature service)",
-      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+      "label": "Wikipedia, Holliwell Covered Bridge",
+      "url": "https://en.wikipedia.org/wiki/Holliwell_Covered_Bridge"
+    },
+    {
+      "label": "Wikipedia, Winterset, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Winterset%2C_Iowa"
+    },
+    {
+      "label": "Wikipedia, Bevington, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Bevington%2C_Iowa"
     }
   ],
   "reviewed": false

@@ -1,20 +1,31 @@
 {
   "id": "frontier-pathways-scenic-and-historic-byway-2108",
-  "tagline": "Over Hardscrabble Pass to a valley that keeps its lights low.",
+  "tagline": "Mountain roads connect a silver town, dark skies and a stone castle",
   "motifs": [
     "aspens",
     "mining-town"
   ],
   "intro": [
-    "From Pueblo, Highway 96 skirts Pueblo Reservoir, passes through Wetmore and climbs into the San Isabel National Forest over Hardscrabble Pass at 9,085 feet. Then it comes down into the Wet Mountain Valley at Silver Cliff and Westcliffe, under the Sangre de Cristo Range. A second leg, Highway 165, turns south through the forest past San Isabel to Rye and Colorado City.",
-    "The Ute came this way first, then Spanish and American explorers, trappers, homesteaders and ranchers. Silver Cliff had 5,040 people in 1880, the third largest town in Colorado. It has about 600 now, and with Westcliffe it turns its lights down for the stars."
+    "Frontier Pathways links the Wet Mountain Valley with Pueblo and Colorado City on a branching drive through the Wet Mountains. SH 96 crosses 9,085-foot Hardscrabble Pass; SH 165 runs through San Isabel National Forest past Bishop Castle. Colorado’s transportation department lists 103 miles and 3.5 hours of driving, highlighting canyons, meadows, aspen hillsides and historic buildings. The route received National Scenic Byway designation in 1998. At Westcliffe, the Wet Mountain Valley lies between the Wet Mountains to the east and the Sangre de Cristo Range to the west.",
+    "CDOT describes this corridor south of the Arkansas River as an intersection of Native American, Spanish, French and American territories. Its account traces Ute travel followed by explorers, traders, trappers, homesteaders and ranchers. Silver mining brought another period of growth: Silver Cliff formed to house miners in the late 1870s and had 5,040 residents by 1880. The town ranked behind only Denver and Leadville in Colorado’s population.",
+    "From Westcliffe, head east through Silver Cliff toward the Wet Mountains. At the SH 165 junction the route divides. The eastern branch descends through Wetmore and skirts Pueblo Reservoir before ending in Pueblo. The southern branch passes Bishop Castle and San Isabel, then leaves the forest toward Rye and finishes in Colorado City."
   ],
   "moments": [
+    {
+      "title": "Westcliffe",
+      "kind": "town",
+      "scene": "town",
+      "text": "At Smokey Jack Observatory, the roof rolls away to expose a 14-inch telescope to the sky. The instrument uses computer-guided pointing and tracking. Built in 2015, the observatory gives a concrete form to Westcliffe’s work on dark skies. Residents and businesses in town and on surrounding ranch land have reduced light pollution. Westcliffe and neighboring Silver Cliff are recognized as International Dark Sky Communities. Westcliffe lies in the Wet Mountain Valley, between the Wet Mountains to the east and the Sangre de Cristo Range to the west, with Silver Cliff immediately beside it.",
+      "at": [
+        -105.4625,
+        38.13
+      ]
+    },
     {
       "title": "Silver Cliff",
       "kind": "town",
       "scene": "town",
-      "text": "The Geyser mine on the hill north of town was once the deepest in Colorado. Eastern stock promoters ran it through two bankruptcies, and it never made a profit.",
+      "text": "Silver Cliff’s mining boom made it Colorado’s third most populous town by 1880, with 5,040 residents. Its namesake mine, also called the Geyser, lay on the hill immediately north of town and employed many residents. New York stock operator James R. Keene promoted shares in 1879. Yet the mine never made a profit. The first company went bankrupt; the successor Julianna Mining Company followed in 1888. Shareholders rescued and renamed the business, but the Geyser’s depth, once the greatest in Colorado, did not bring profitability. Silver Cliff had 609 residents at the 2020 census.",
       "at": [
         -105.4097,
         38.1292
@@ -24,20 +35,10 @@
       ]
     },
     {
-      "title": "Westcliffe",
-      "kind": "town",
-      "scene": "town",
-      "text": "Locals keep a free observatory in an old building whose roof rolls off to open a 14-inch telescope to the dark sky overhead.",
-      "at": [
-        -105.4625,
-        38.13
-      ]
-    },
-    {
       "title": "Bishop Castle",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Jim Bishop began a family cottage here in 1969. He covered a water tower in rock, the neighbors said it looked like a castle, and he kept building.",
+      "text": "A rock-covered water tower helped turn Jim Bishop’s planned family cottage into a castle. Construction began in 1969 on land he had bought for $450 at age 15. Neighbors saw a castle in the tower, and Bishop took up the idea. His project became a roadside attraction on SH 165 in the Wet Mountains. A 1996 dispute over unauthorized signs ended with officials issuing road signs pointing to the site. In 2018, fire destroyed a gift shop and guest house but spared the mostly stone castle. After Bishop died in November 2024, his son Dan became its caretaker.",
       "at": [
         -105.0944,
         38.0615
@@ -46,32 +47,28 @@
   ],
   "sources": [
     {
-      "label": "CDOT, Frontier Pathways",
-      "url": "https://www.codot.gov/travel/coloradobyways/south-central/frontier-pathways"
-    },
-    {
       "label": "Wikipedia, Frontier Pathways Scenic and Historic Byway",
       "url": "https://en.wikipedia.org/wiki/Frontier_Pathways_Scenic_and_Historic_Byway"
     },
     {
-      "label": "Wikipedia, Hardscrabble Pass",
-      "url": "https://en.wikipedia.org/wiki/Hardscrabble_Pass"
-    },
-    {
       "label": "Wikipedia, Silver Cliff, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Silver_Cliff,_Colorado"
+      "url": "https://en.wikipedia.org/wiki/Silver_Cliff%2C_Colorado"
     },
     {
-      "label": "Wikipedia, Westcliffe, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Westcliffe,_Colorado"
-    },
-    {
-      "label": "Wikipedia, Rye, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Rye,_Colorado"
+      "label": "Colorado Department of Transportation, Frontier Pathways",
+      "url": "https://www.codot.gov/travel/coloradobyways/south-central/frontier-pathways"
     },
     {
       "label": "Wikipedia, Bishop Castle",
       "url": "https://en.wikipedia.org/wiki/Bishop_Castle"
+    },
+    {
+      "label": "Wikipedia, Westcliffe, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Westcliffe%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Hardscrabble Pass",
+      "url": "https://en.wikipedia.org/wiki/Hardscrabble_Pass"
     }
   ],
   "reviewed": false

@@ -1,19 +1,20 @@
 {
   "id": "alabama-s-coastal-connection-2442",
-  "tagline": "By ferry across Mobile Bay's mouth, from one fort to another.",
+  "tagline": "Working waterfronts, protected shores and a ferry between Mobile Bay forts",
   "motifs": [
     "harbor-village"
   ],
   "intro": [
-    "From Grand Bay, where farmers have raised pecans, cotton, soybeans and watermelons for more than a century, the byway runs down to the shrimp boats of Bayou La Batre and across the Mississippi Sound to Dauphin Island. Iberville named the island Massacre Island in 1699 for a heap of skeletons, which turned out to be a burial mound a hurricane had broken open.",
-    "At the island's east end the road runs out. An auto ferry carries on across the mouth of Mobile Bay to Fort Morgan, and from there State Route 180 follows the Gulf shore east past the dunes of Bon Secour, French for safe harbor, to Gulf Shores and Orange Beach."
+    "Alabama’s Coastal Connection links inland farmland, small towns, oak-lined Mobile Bay shores and Gulf beaches. The Federal Highway Administration lists the 130-mile route as a National Scenic Byway, highlighting its working waterfronts, historic forts and protected coastal lands. An auto ferry connects Fort Gaines and Fort Morgan across the bay. The byway organization identifies farming and fishing as part of the coastal culture, with shrimp boats at Bayou La Batre and farmland at Elberta.",
+    "Road access to Dauphin Island has itself been vulnerable to the coast’s storms: a mainland bridge opened in 1955, and Hurricane Frederic destroyed it in 1979. The island’s present road connection is the Gordon Persons Bridge, carrying State Route 193. The island’s east end helps define Mobile Bay’s mouth, while the Gulf lies to its south and Mississippi Sound and Mobile Bay to its north.",
+    "For a coastal traverse, the Alabama Tourism Department’s itinerary starts at Grand Bay. From Bayou La Batre, it leads across Mississippi Sound to Dauphin Island. The ferry carries the journey to Fort Morgan, where State Route 180 runs east parallel to the Gulf shoreline through Gulf Shores and Orange Beach. Bon Secour’s protected beaches, dunes and marshes lie west of Gulf Shores on the Fort Morgan Peninsula."
   ],
   "moments": [
     {
       "title": "Bayou La Batre",
       "kind": "town",
       "scene": "coast",
-      "text": "Shrimp boats and fishing boats work out of the seafood harbor, and each first Sunday in May St. Margaret's church blesses the fleet, with a boat parade and a gumbo cook-off.",
+      "text": "Bayou La Batre’s harbor handles fishing boats, shrimp boats and seafood processing. On the first Sunday in May, fishing and shrimping communities gather for the Blessing of the Fleet, hosted by St. Margaret’s Catholic Church. They offer prayers for the harvest, vessels and people aboard. Land and boat parades accompany the blessing, along with a gumbo cook-off and seafood dinners. The town also builds boats: its shipyards are mainly owned and operated by local families. The bayou itself runs through the city and leads southwest to Portersville Bay, an arm of Mississippi Sound.",
       "at": [
         -88.251,
         30.409
@@ -26,7 +27,8 @@
       "title": "Fort Gaines",
       "kind": "short walk",
       "scene": "coast",
-      "text": "The anchor of Farragut's flagship Hartford rests inside the fort, and the Gulf, only feet away, takes up to 10 feet of beach and dune a year.",
+      "text": "The anchor of USS Hartford, Admiral David Farragut’s flagship, is among Fort Gaines’s exhibits. The fort on Dauphin Island played a part in the Civil War’s Battle of Mobile Bay. Its courtyard contains five brick buildings dating from before the war, and original battle cannons remain among its features. Tunnels connect to the fortified corner bastions. Hurricanes and tropical storms have damaged the masonry. Much of that damage has been repaired, but erosion remains a threat. The fort was partially modernized for the Spanish-American War, adding another period of military use to a site established in 1821.",
+      "notice": "Five pre-Civil War brick buildings occupy the interior courtyard.",
       "at": [
         -88.076,
         30.248
@@ -36,7 +38,7 @@
       "title": "Bon Secour National Wildlife Refuge",
       "kind": "short walk",
       "scene": "coast",
-      "text": "The endangered Alabama beach mouse lives among the dunes and sea oats here, and green, loggerhead and Kemp's ridley sea turtles come up the beach to nest.",
+      "text": "Bon Secour protects more than a beach: its habitats include dunes, scrub forest, fresh and saltwater marshes, swamps and uplands. Established in 1980, the refuge is divided into five units. Most of the refuge’s units occupy the Fort Morgan Peninsula; Little Dauphin Island is the exception, in Mobile County. It provides resting and feeding habitat for migratory birds. The endangered Alabama beach mouse lives among the dunes and sea oats, while green, loggerhead and Kemp’s ridley sea turtles nest along the beach. The Perdue unit contains four trails with a combined length of five miles.",
       "at": [
         -87.82,
         30.24
@@ -45,28 +47,20 @@
   ],
   "sources": [
     {
-      "label": "Alabama's Coastal Connection",
-      "url": "https://alabamascoastalconnection.com/"
+      "label": "Federal Highway Administration, Alabama’s Coastal Connection",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2442"
     },
     {
-      "label": "Alabama Tourism, Alabama's Coastal Connection National Scenic Byway",
+      "label": "Alabama Tourism Department, Alabama’s Coastal Connection National Scenic Byway",
       "url": "https://alabama.travel/road-trips/alabamas-coastal-connection-national-scenic-byway"
     },
     {
-      "label": "Wikipedia, Bayou La Batre, Alabama",
-      "url": "https://en.wikipedia.org/wiki/Bayou_La_Batre,_Alabama"
+      "label": "Alabama’s Coastal Connection, Home",
+      "url": "https://alabamascoastalconnection.com/"
     },
     {
       "label": "Wikipedia, Dauphin Island, Alabama",
-      "url": "https://en.wikipedia.org/wiki/Dauphin_Island,_Alabama"
-    },
-    {
-      "label": "Wikipedia, Fort Gaines (Alabama)",
-      "url": "https://en.wikipedia.org/wiki/Fort_Gaines_(Alabama)"
-    },
-    {
-      "label": "Wikipedia, Fort Morgan (Alabama)",
-      "url": "https://en.wikipedia.org/wiki/Fort_Morgan_(Alabama)"
+      "url": "https://en.wikipedia.org/wiki/Dauphin_Island%2C_Alabama"
     },
     {
       "label": "Wikipedia, Alabama State Route 180",
@@ -75,6 +69,14 @@
     {
       "label": "Wikipedia, Bon Secour National Wildlife Refuge",
       "url": "https://en.wikipedia.org/wiki/Bon_Secour_National_Wildlife_Refuge"
+    },
+    {
+      "label": "Wikipedia, Bayou La Batre, Alabama",
+      "url": "https://en.wikipedia.org/wiki/Bayou_La_Batre%2C_Alabama"
+    },
+    {
+      "label": "Wikipedia, Fort Gaines (Alabama)",
+      "url": "https://en.wikipedia.org/wiki/Fort_Gaines_%28Alabama%29"
     }
   ],
   "reviewed": false

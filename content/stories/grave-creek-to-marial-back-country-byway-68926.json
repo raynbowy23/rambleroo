@@ -1,16 +1,28 @@
 {
   "id": "grave-creek-to-marial-back-country-byway-68926",
-  "tagline": "Over the mountains to a ranch the mail mules once served.",
+  "tagline": "A canyon climb to a ranch once connected by mule mail",
   "intro": [
-    "Twenty-three miles down the Merlin-Galice Road, across the Graves Creek Bridge, Mt. Reuben Road turns off and climbs along the rugged edges of the Rogue River canyon. It winds on through the Siskiyou Mountains and ends, about 33 miles from the start, at the Rogue River Ranch at Marial.",
-    "Down on the water the Rogue River Trail runs between the same two points on foot, 24 miles from Grave Creek to Marial, on a path the Takelma made first and miners and settlers improved as they pushed deeper into the canyon."
+    "The Grave Creek to Marial Back Country Byway climbs along the rugged edges of the Rogue River Canyon, then winds through the Siskiyou Mountains. The Federal Highway Administration describes a 33-mile drive taking one to two hours, with views of the wild river and a finish at historic Rogue River Ranch. Rainie Falls Overlook adds a view of waterfalls, forest and the Wild and Scenic Rogue River. The road’s destination grew from a one-room cabin in the late nineteenth century into the ranch complex at the end of the route.",
+    "Travel through this canyon has taken several forms: the riverside trail was developed by the Takelma Indians and later improved by miners and settlers. A suspension bridge built in 1908 was washed away in the flood of 1927, leaving an abutment visible from Rainie Falls Overlook. At Marial, mail carriers used mules or horses to avoid difficult rapids; its post office closed in 1954.",
+    "From the Merlin exit, follow Merlin-Galice Road for 23 miles, cross Graves Creek Bridge and turn onto Mt. Reuben Road. Rainie Falls Overlook is 1.3 miles along that road. The mountain drive continues to Rogue River Ranch at the byway’s end, where the preserved buildings mark the former center of Marial."
   ],
   "moments": [
+    {
+      "title": "Grave Creek",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "At Grave Creek’s meeting with the Rogue, river runs and hiking trails converge. The mouth of the creek marks the beginning of the lower Rogue’s wild stretch. The Lower Rogue River Trail follows the river through the Wild Rogue Wilderness toward Illahe. The Takelma Indians developed this historic trail; miners and settlers later improved it as they moved farther into the canyon. A boat ramp lies near the Grave Creek Bridge over the Rogue, a different crossing from the covered bridge upstream in Sunny Valley. Grave Creek itself runs about 40 miles before reaching the Rogue.",
+      "at": [
+        -123.58472222,
+        42.64833333
+      ]
+    },
     {
       "title": "Rainie Falls Overlook",
       "kind": "roadside",
       "scene": "river",
-      "text": "High above the class V rapid of the same name, the overlook faces a 13-foot hexagonal abutment, one of the few remnants of a 1908 suspension bridge the 1927 flood took out.",
+      "text": "Across the river and upstream from Rainie Falls Overlook, a 13-foot-tall hexagonal bridge abutment survives. It is one of the few surviving pieces of a suspension bridge built in 1908 and washed out by the 1927 flood. The overlook sits well above Rainie Falls, a class V rapid with a ten-foot drop. Interpretive signs explain how the falls formed. From this viewpoint, the falls, surrounding forest and river are visible, but there is no access down to the water. The overlook lies along the byway, 1.3 miles above the Grave Creek boat ramp.",
+      "notice": "Across the river and upstream, look for the hexagonal remnant of the washed-out suspension bridge.",
       "at": [
         -123.606155,
         42.649552
@@ -18,9 +30,9 @@
     },
     {
       "title": "Rogue River Ranch",
-      "kind": "town",
+      "kind": "short walk",
       "scene": "river",
-      "text": "Marial, named for a Billings daughter, kept its post office until 1954, by then the last in the country served only by mule pack trains.",
+      "text": "Rogue River Ranch’s main house faces Mule Creek, its lumber hand-cut from ponderosa pine logs felled on the site. George Billings built the house in 1903 and established a trading company at Marial. The settlement followed the Rogue River Wars and the forced removal of most Takelma and other Native people along the river. The ranch passed to Stanley Anderson in 1931 and to the federal government in 1970. The Bureau of Land Management converted the main house into a museum covering Native American history, mining and the ranch families.",
       "at": [
         -123.88154,
         42.71864
@@ -28,24 +40,28 @@
     }
   ],
   "practical": [
-    "Beyond the Galice-Hellgate byway the country is remote with no services, so the BLM advises a full tank, a first aid kit, food and water, and roads out here are often closed by snow in winter."
+    "Rogue River Ranch: For travel beyond Galice-Hellgate toward the ranch, BLM advises a full fuel tank, first aid kit, food and water. Roads beyond that byway are often closed by winter snow. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "FHWA, Grave Creek to Marial Back Country Byway",
+      "label": "Federal Highway Administration, Grave Creek to Marial Back Country Byway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/68926"
     },
     {
-      "label": "BLM, Rainie Falls Overlook",
+      "label": "Wikipedia, Marial, Oregon",
+      "url": "https://en.wikipedia.org/wiki/Marial%2C_Oregon"
+    },
+    {
+      "label": "Bureau of Land Management, Rainie Falls Overlook",
       "url": "https://www.blm.gov/visit/rainie-falls-overlook"
     },
     {
-      "label": "BLM, Galice-Hellgate Back Country Byway",
+      "label": "Bureau of Land Management, Galice-Hellgate Back Country Byway",
       "url": "https://www.blm.gov/visit/galice-hellgate-back-country-byway"
     },
     {
-      "label": "Wikipedia, Marial, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Marial,_Oregon"
+      "label": "Wikipedia, Grave Creek (Oregon)",
+      "url": "https://en.wikipedia.org/wiki/Grave_Creek_%28Oregon%29"
     },
     {
       "label": "Wikipedia, Rogue River Ranch",

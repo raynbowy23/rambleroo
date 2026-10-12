@@ -1,19 +1,20 @@
 {
   "id": "river-road-scenic-byway-10781",
-  "tagline": "Down the river of sand, the way the pine went.",
+  "tagline": "Follow the Au Sable past dam ponds and reminders of logging",
   "motifs": [
     "river-bluffs"
   ],
   "intro": [
-    "The byway starts on M-65 near Loud Dam Pond and runs east through the Huron National Forest, then turns off onto River Road and keeps to the south bank of the Au Sable. It stays by the water past one dam pond after another into Oscoda, a few blocks short of Lake Huron.",
-    "The river was the road first. In the late 1800s white pine floated down it to the sawmills at the mouth. When the pine was gone, power dams went in during the 1920s, and the water stands behind them still."
+    "River Road follows the Au Sable through Michigan’s Huron National Forest, passing dam ponds and cutting inland through forest at a bend in the river. The Federal Highway Administration highlights views from high bluffs and opportunities for hiking, canoeing and winter recreation on this National Scenic Byway. It allows one hour for driving, or two days to explore.",
+    "The river carried white pine from the forest to Lake Huron sawmill towns before this became a scenic drive. Hydroelectric development changed the waterway: Cooke Dam began generating power in December 1911, the first of six Au Sable plants completed over the next 12 years. Cooke’s transmission line carried electricity 125 miles to Flint, extending the river’s industrial reach beyond its banks. The M-65 section joined the state highway system in the mid-1930s. National Forest Scenic Byway designation followed in 1988, then National Scenic Byway recognition in 2005.",
+    "Travel east from M-65 and Rollways Road near Loud Dam Pond, then leave M-65 for River Road along the south bank. Iargo Springs and Lumberman’s Monument interpret water and logging along the way. After the forest crossing, the road follows Foote Dam Pond and returns to the river, ending at US 23 in Oscoda, a few blocks from Lake Huron."
   ],
   "moments": [
     {
       "title": "Iargo Springs",
       "kind": "short walk",
       "scene": "river",
-      "text": "Stairs go down to boardwalks over springs that early loggers dammed to water their camps, back when most of Cooke Pond below was dry land.",
+      "text": "The little waterfalls at Iargo Springs owe their shape to barriers that pool water rising naturally from underground. Early loggers dammed the springs to divert water into nearby camps, when most of Cooke Pond was dry land. The Civilian Conservation Corps built a trail in 1934 and repaired the dams. A storm destroyed those barriers in 1981. Renovation in 1991 rebuilt them and added steps and boardwalks. Stairs descend from the road to the springs, where a wooden boardwalk winds for more than 1,000 feet. Viewing decks provide additional places to see the springs.",
       "at": [
         -83.67618,
         44.44106
@@ -23,7 +24,8 @@
       "title": "Lumberman's Monument",
       "kind": "short walk",
       "scene": "forest",
-      "text": "A timber cruiser with his compass, a sawyer and a river rat leaning on his peavey stand in bronze above Cooke Dam Pond, where the logs once went by.",
+      "text": "Three workers gather around a log in Robert Ingersoll Aitken’s bronze: a timber cruiser with a compass, a sawyer carrying a saw and a river rat with a peavey. Timber cruisers surveyed woods and reserved promising plots; sawyers felled the trees, and crews downstream dealt with logjams. Dedicated in 1932, the monument stands above Cooke Dam Pond and Horseshoe Island. Exhibits along the pathways explain the industry that heavily logged this forest in the nineteenth century. The fourteen-foot statue stands on a granite base inscribed with a memorial and the names of logging families.",
+      "notice": "A compass, saw and peavey distinguish the three bronze workers.",
       "at": [
         -83.62463889,
         44.43541667
@@ -36,7 +38,7 @@
       "title": "Oscoda",
       "kind": "town",
       "scene": "town",
-      "text": "The Au Sable canoe marathon finishes here after 120 miles and a night on the river, and the state counts the town as the official home of Paul Bunyan.",
+      "text": "Oscoda’s claim to Paul Bunyan rests on print. James MacGillivray published an early account in the Oscoda Press on August 10, 1906, later revising it for the Detroit News in 1910. Those documented publications led Michigan to designate Oscoda as Bunyan’s official home. Oscoda occupies the north side of the river mouth at Lake Huron, with the community of Au Sable opposite on the south side. It is also the finish of the 120-mile Au Sable River Canoe Marathon from Grayling. First run in 1947, the race starts at night and continues into the following day.",
       "at": [
         -83.33083333,
         44.42027778
@@ -45,32 +47,32 @@
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, River Road Scenic Byway",
-      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10781"
-    },
-    {
-      "label": "USDA Forest Service, Huron-Manistee National Forests, Scenic Drives",
-      "url": "https://www.fs.usda.gov/r09/huron-manistee/recreation/opportunities/scenic-drives"
-    },
-    {
       "label": "Wikipedia, River Road National Scenic Byway",
       "url": "https://en.wikipedia.org/wiki/River_Road_National_Scenic_Byway"
     },
     {
-      "label": "Wikipedia, Au Sable River (Michigan)",
-      "url": "https://en.wikipedia.org/wiki/Au_Sable_River_(Michigan)"
+      "label": "Federal Highway Administration, River Road Scenic Byway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10781"
+    },
+    {
+      "label": "Wikipedia, Cooke Dam",
+      "url": "https://en.wikipedia.org/wiki/Cooke_Dam"
     },
     {
       "label": "Wikipedia, Iargo Springs",
       "url": "https://en.wikipedia.org/wiki/Iargo_Springs"
     },
     {
-      "label": "Wikipedia, Lumberman's Monument",
+      "label": "Wikipedia, Lumberman’s Monument",
       "url": "https://en.wikipedia.org/wiki/Lumberman%27s_Monument"
     },
     {
       "label": "Wikipedia, Oscoda, Michigan",
-      "url": "https://en.wikipedia.org/wiki/Oscoda,_Michigan"
+      "url": "https://en.wikipedia.org/wiki/Oscoda%2C_Michigan"
+    },
+    {
+      "label": "Wikipedia, Au Sable River (Michigan)",
+      "url": "https://en.wikipedia.org/wiki/Au_Sable_River_%28Michigan%29"
     }
   ],
   "reviewed": false

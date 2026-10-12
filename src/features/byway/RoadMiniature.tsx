@@ -22,7 +22,10 @@ export default function RoadMiniature({ id, latitude }: { id: string; latitude: 
   return (
     <section className={s.section}>
       <h2>In miniature</h2>
-      <p className={s.muted}>An illustrated landscape, lit by local solar time. Drag to turn and tilt.</p>
+      <p className={s.muted}>
+        An illustrated landscape, lit by local solar time. Drag to turn and tilt, pinch or use the buttons to zoom, and share the drive as a
+        video or GIF with the share button.
+      </p>
       <RoadDiorama3D spec={spec} conditions={{ hour: solarHour(spec.longitude, now), season: seasonAt(latitude, now), weather: 'clear' }} />
     </section>
   )

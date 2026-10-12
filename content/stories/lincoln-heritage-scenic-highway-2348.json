@@ -1,20 +1,21 @@
 {
   "id": "lincoln-heritage-scenic-highway-2348",
-  "tagline": "Over the knobs from Lincoln's birthplace to Kentucky's first capital.",
+  "tagline": "Through Kentucky’s knobs, Lincoln family places meet the landscape of the Civil War",
   "motifs": [
     "rolling-ridges",
     "steeple-town"
   ],
   "intro": [
-    "The highway starts in Hodgenville, where Abraham Lincoln was born in a cabin on Sinking Spring Farm in 1809, and runs up to Bardstown before turning east over the Kentucky knobs. Springfield and Perryville come next, and the road ends in Danville, about 71 miles on. The Bourbon Trail shares the way, and so does Gethsemani, the oldest Trappist monastery in the country.",
-    "Most of the Lincoln houses in Kentucky are gone. Thomas Lincoln's two farms were razed in the 19th century, and his brother Josiah's cabin came down in 1941. Mordecai's house, outside Springfield, is the one that stayed."
+    "The Lincoln Heritage Scenic Highway winds through Kentucky’s knobs, linking communities across a 71.2-mile National Scenic Byway. The Federal Highway Administration allows approximately three hours and identifies four themes along the corridor: Lincoln, American history and the Civil War, bourbon, and religious heritage. At the Hodgenville end, LaRue County’s low rolling hills are largely cleared for farming and development.",
+    "Part of this journey follows an older route: Thomas Lincoln leased the Knob Creek farm beside the Old Cumberland Trail, now US 31E. Automobile travel later helped turn the family’s Kentucky places into destinations. Newly paved roads increased tourism in the 1920s, and the Nancy Lincoln Inn was built in 1928 to serve visitors to Lincoln’s birthplace.",
+    "Begin near Hodgenville, where Lincoln’s birthplace and boyhood farms form two separate park sites. At Sinking Spring, a symbolic cabin occupies the 1911 memorial to Lincoln’s birth; the building’s 56 entrance steps represent his age at death. Lincoln moved from Sinking Spring to Knob Creek at the age of two and lived there until 1816. US 31E leads northeast to Bardstown; from there, the journey continues east toward Springfield. Mordecai Lincoln’s house is a separate excursion six miles north of Springfield. Return to the eastward drive through Perryville and on to Danville along US 150."
   ],
   "moments": [
     {
       "title": "Bardstown",
       "kind": "town",
       "scene": "town",
-      "text": "The Old Talbott Tavern went up in 1780, a year before the town did, and still calls itself the oldest western stagecoach stop in operation.",
+      "text": "Bardstown once served a Catholic diocese stretching from the Appalachian Mountains to the Mississippi River. Established in 1808, the diocese divided territory previously served from Baltimore. Its seat moved to Louisville in 1841, while Bardstown’s cathedral is now the Basilica of Saint Joseph Proto-Cathedral. St. Joseph School and Bethlehem High School have operated since 1819, under what is now the Archdiocese of Louisville. The town’s religious history sits alongside its bourbon industry: distilleries operate here, and the annual Kentucky Bourbon Festival celebrates regional production. The festival became Kentucky’s official bourbon festival in 2000.",
       "at": [
         -85.455,
         37.8175
@@ -27,7 +28,7 @@
       "title": "Mordecai Lincoln House",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "Six miles north of Springfield, the farmhouse of the uncle who once saved his younger brother Thomas, the president's father, by shooting the attacker reaching for him.",
+      "text": "Mordecai Lincoln’s house survives where other Kentucky homes of the Lincoln family have disappeared. Mordecai was the brother of Thomas Lincoln, the president’s father. He received his inheritance in 1792 and married Mary Mudd later that year. He bought 300 acres from Terah Templin in 1797 and built his house on the property. His family lived here until moving to Grayson County in 1811. Thomas Lincoln’s Sinking Spring and Knob Creek houses were lost in the nineteenth century, and Josiah Lincoln’s cabin was destroyed in 1941. Mordecai’s house stands across KY 528 from Lincoln Homestead State Park.",
       "at": [
         -85.20972222,
         37.74833333
@@ -37,7 +38,8 @@
       "title": "Perryville Battlefield",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "Cannons and monuments stand in the fields west of town where two armies met on October 8, 1862. Bragg won the day, then withdrew from Kentucky.",
+      "text": "Cannons, monuments and interpretive signs mark the fighting at Perryville. On October 8, 1862, Don Carlos Buell’s U.S. Army of the Ohio fought Braxton Bragg’s Confederate Army of Mississippi here. The Confederates won tactically, but Bragg withdrew from Kentucky, leaving the state in U.S. hands for the rest of the war. Homes and farms suffered damage, and houses and outbuildings became field hospitals. In 1867, the U.S. soldiers buried in the postwar national cemetery here were transferred to Camp Nelson National Cemetery. The interpretive museum stands near the burial site of many Confederate soldiers killed in the battle.",
+      "notice": "Cannons, monuments and signs mark events across the battlefield.",
       "at": [
         -84.96972222,
         37.67527778
@@ -49,36 +51,44 @@
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Lincoln Heritage Scenic Highway",
+      "label": "Federal Highway Administration, Lincoln Heritage Scenic Highway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2348"
     },
     {
-      "label": "Wikipedia, Hodgenville, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Hodgenville,_Kentucky"
+      "label": "Wikipedia, LaRue County, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/LaRue_County%2C_Kentucky"
     },
     {
-      "label": "Wikipedia, Bardstown, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Bardstown,_Kentucky"
+      "label": "Wikipedia, Abraham Lincoln Birthplace National Historical Park",
+      "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln_Birthplace_National_Historical_Park"
+    },
+    {
+      "label": "Wikipedia, Nancy Lincoln Inn",
+      "url": "https://en.wikipedia.org/wiki/Nancy_Lincoln_Inn"
+    },
+    {
+      "label": "Wikipedia, Hodgenville, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Hodgenville%2C_Kentucky"
     },
     {
       "label": "Wikipedia, Springfield, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Springfield,_Kentucky"
+      "url": "https://en.wikipedia.org/wiki/Springfield%2C_Kentucky"
     },
     {
       "label": "Wikipedia, Mordecai Lincoln House (Springfield, Kentucky)",
-      "url": "https://en.wikipedia.org/wiki/Mordecai_Lincoln_House_(Springfield,_Kentucky)"
+      "url": "https://en.wikipedia.org/wiki/Mordecai_Lincoln_House_%28Springfield%2C_Kentucky%29"
+    },
+    {
+      "label": "Wikipedia, Danville, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Danville%2C_Kentucky"
+    },
+    {
+      "label": "Wikipedia, Bardstown, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Bardstown%2C_Kentucky"
     },
     {
       "label": "Wikipedia, Perryville Battlefield State Historic Site",
       "url": "https://en.wikipedia.org/wiki/Perryville_Battlefield_State_Historic_Site"
-    },
-    {
-      "label": "Wikipedia, Perryville, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Perryville,_Kentucky"
-    },
-    {
-      "label": "Wikipedia, Danville, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Danville,_Kentucky"
     }
   ],
   "reviewed": false

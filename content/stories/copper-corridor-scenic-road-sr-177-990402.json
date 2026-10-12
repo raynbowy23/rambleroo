@@ -1,19 +1,20 @@
 {
   "id": "copper-corridor-scenic-road-sr-177-990402",
-  "tagline": "South from Superior, past the pit that swallowed a town.",
+  "tagline": "Copper-bearing road cuts lead past Ray’s pit toward a replacement town.",
   "motifs": [
     "mining-town"
   ],
   "intro": [
-    "SR 177 leaves Superior heading south, into the rough country of Apache Leap and the Dripping Spring Mountains. The road cuts along the way lay open the strata of a copper-bearing region, and the designation was made for the geology and the terrain.",
-    "Past the mountains comes the open pit of the Ray mine, a whole landscape made by people, and then the road follows the Gila River past the mining towns. It was dirt and gravel until the state took it over in 1952, and has been paved since the middle of that decade."
+    "South of Superior, SR 177 passes Apache Leap and the Dripping Spring Mountains, then the open pit of the Ray copper mine. Road cuts expose the strata of this copper-bearing country; farther along, the highway follows the Gila River. ADOT credits the geology and terrain with earning a 15-mile segment its scenic-road designation in 2008. The southern half of SR 177 runs beside both the river and the Copper Basin Railroad, passing through or near the mining communities.",
+    "The route existed for decades before entering the state highway system in 1952. Sections of its dirt-and-gravel roadway were widened and realigned for safety, and it has been paved since the mid-1950s. The mining landscape changed too: in 1958, Kennecott built Kearny for residents of Ray, Sonora and Barcelona as its open pit expanded toward their communities. ADOT describes its continuing role as linking miners with mines and community services between Superior and Winkelman.",
+    "From the US 60 junction in Superior, follow SR 177 south through the mountains to Ray’s mining landscape. Kelvin comes next, near the Gila; continue toward Kearny and its relocated households. The full numbered highway continues past Hayden to SR 77 at Winkelman, beyond this scenic segment."
   ],
   "moments": [
     {
       "title": "Ray",
       "kind": "roadside",
       "scene": "desert",
-      "text": "Named, by way of its mine, for a miner's sister. The people began leaving for Kearny in 1958, ahead of the pit.",
+      "text": "Ray’s copper mine outgrew the town that shared its name. The mine began under the Ray Copper Company in 1882; relocation from Ray to Kearny began in 1958. The town had its own newspaper, the Arizona Copper Camp, published from 1910 to 1920. The Copper Basin Railway also ran through the former town. The mine also changed the course of Mineral Creek. Above the pit, Big Box Canyon Dam sends the creek into an underground tunnel; it emerges into a concrete channel connected to the Gila River south of the mine.",
       "at": [
         -110.9975,
         33.18333
@@ -26,7 +27,7 @@
       "title": "Kelvin",
       "kind": "roadside",
       "scene": "river",
-      "text": "A Gila River settlement named in 1900 for Kelvin Grove in Scotland, where the adobe post office still partly stands and the ruins of the old mill lie in plain view.",
+      "text": "Kelvin’s foundations and mill ruins survive beside a history of changing transport connections. The community began on the Gila’s north bank opposite the Riverside Stage Stop and took its name from Kelvin Grove in Scotland in 1900. Later, Ray Junction developed immediately north of Kelvin Bridge, where a branch left the Arizona Eastern Railway’s main line for the Ray mine. The old townsite and post office kept the Kelvin name; part of the adobe post office remains near Florence / Kelvin Highway and Ray Road. Nearby Kelvin Bridge and Mineral Creek Bridge are both on the National Register of Historic Places.",
       "at": [
         -110.97333,
         33.11139
@@ -36,7 +37,7 @@
       "title": "Kearny",
       "kind": "town",
       "scene": "town",
-      "text": "Kennecott built the town in 1958 for the people of Ray, Sonora and Barcelona. Some of the houses were simply moved down the road.",
+      "text": "Some Kearny houses arrived from another town. Kennecott Mining Company built this planned community in 1958 for the populations of Ray, Sonora and Barcelona, whose townsites lay in the path of its expanding open-pit copper mine. Many homes were new, while some mine employees moved their existing houses down the road. Kearny incorporated the following year. Ray High School moved here too, carrying the former town’s name into the replacement community near the Gila River. Kearny belongs to the Ray Unified School District, which includes Ray Junior-Senior High School and Ray Elementary School.",
       "at": [
         -110.90889,
         33.05417
@@ -48,20 +49,20 @@
   ],
   "sources": [
     {
-      "label": "ADOT, List of Historic Roads (Wayback Machine snapshot)",
+      "label": "Arizona Department of Transportation, List of Historic Roads (archived)",
       "url": "https://web.archive.org/web/20260519152218/https://azdot.gov/about/historic-and-scenic-roads/list-historic-roads"
+    },
+    {
+      "label": "Wikipedia, Kearny, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Kearny%2C_Arizona"
     },
     {
       "label": "Wikipedia, Arizona State Route 177",
       "url": "https://en.wikipedia.org/wiki/Arizona_State_Route_177"
     },
     {
-      "label": "Wikipedia, Superior, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Superior,_Arizona"
-    },
-    {
       "label": "Wikipedia, Ray, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Ray,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Ray%2C_Arizona"
     },
     {
       "label": "Wikipedia, Ray mine",
@@ -69,11 +70,11 @@
     },
     {
       "label": "Wikipedia, Kelvin, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Kelvin,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Kelvin%2C_Arizona"
     },
     {
-      "label": "Wikipedia, Kearny, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Kearny,_Arizona"
+      "label": "Wikipedia, Ray High School (Arizona)",
+      "url": "https://en.wikipedia.org/wiki/Ray_High_School_%28Arizona%29"
     }
   ],
   "reviewed": false

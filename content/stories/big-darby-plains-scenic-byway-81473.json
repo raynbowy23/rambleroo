@@ -1,37 +1,37 @@
 {
   "id": "big-darby-plains-scenic-byway-81473",
-  "tagline": "Covered bridges and pioneer graves on the old Darby prairie.",
+  "tagline": "Covered bridges trace an engineer’s work across the Darby country",
   "intro": [
-    "Country roads keep company with Big Darby Creek for more than 27 miles across Union County, by way of Milford Center and Unionville Center. This was the Darby Plains prairie, ground the early settlers thought undesirable because it swung between wet and dry extremes. Some of the prairie survives in pioneer graveyards kept as nature preserves.",
-    "Several of the older covered bridges are Reuben Partridge's work. He built more than 200 bridges across Union County and central Ohio, and died in 1900 of complications from a leg broken when he fell through one he was having taken down."
+    "The Big Darby Plains Scenic Byway’s main route parallels Big Darby Creek for more than 27 miles. Ohio’s Department of Transportation includes the road in its byways collection, highlighting covered bridges, nature preserves, century farms, cemeteries and historic homes. The creek itself carries both state and national scenic designations.",
+    "The corridor’s bridge-building history centers on Reuben Partridge, who developed a new truss and brace system after seeing local bridges fail under the stress of heavy rain. He patented his U-shaped truss in 1872 and built more than 200 bridges across Union County and central Ohio during his lifetime. His Bigelow Bridge was later strengthened with internal steel supports; his Reed Bridge collapsed in 1993.",
+    "Traveling from Milford Center toward Unionville Center brings you through Bridgeport, where Buck Run meets Big Darby Creek. A separate excursion to Axe Handle Road reaches Bigelow Bridge over Little Darby Creek, between Irwin and Chuckery. Farther southeast, Plain City stands along Big Darby Creek."
   ],
-  "season": "The wildflowers in the Bigelow Pioneer Cemetery preserve are at their peak from late July through August.",
   "moments": [
     {
-      "title": "Buck Run Bridge",
-      "kind": "short walk",
+      "title": "Bigelow Bridge",
+      "kind": "separate excursion",
       "scene": "river",
-      "text": "Built in 2006 to replace a steel bridge of 1914, this 160-foot covered span over Big Darby Creek is called the longest single-span wooden bridge in Ohio.",
+      "text": "Bigelow Bridge carries a wooden bridge-builder’s work reinforced with steel. Reuben Partridge built the crossing in 1873, the year after he patented his U-shaped truss design. Partridge developed his truss and brace system to handle stresses from heavy rain and vehicle traffic. Named for nearby resident Eliphas Bigelow, it crosses Little Darby Creek on Axe Handle Road between Irwin and Chuckery. A 1990 refurbishment added internal steel supports, and the bridge was repainted in 2008. In 2010, the Ohio Historical Society dedicated a marker honoring both the bridge and the surrounding Darby Plains.",
       "at": [
-        -83.48877,
-        40.20996
+        -83.425,
+        40.11611111
       ]
     },
     {
-      "title": "Bigelow Pioneer Cemetery",
-      "kind": "short walk",
-      "scene": "prairie",
-      "text": "Half an acre of graves dug between 1814 and 1892, kept by the state as a nature preserve for one of Ohio's few remaining populations of royal catchfly.",
+      "title": "Reed Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Reed Bridge is a crossing to understand through its absence. Reuben Partridge built this single-span wooden covered bridge over Big Darby Creek in 1884. At more than 150 feet, it was Union County’s longest covered bridge. Route 38 bypassed it in the 1960s; National Register listing followed in 1975. The bridge collapsed on August 19, 1993.",
       "at": [
-        -83.41923,
-        40.10981
+        -83.38055556,
+        40.14972222
       ]
     },
     {
       "title": "Unionville Center",
       "kind": "town",
       "scene": "town",
-      "text": "The village green was once home to Charles W. Fairbanks, vice president under Theodore Roosevelt, and the village of about 240 holds a festival in his name each May.",
+      "text": "Unionville Center marks its connection to Charles W. Fairbanks with a festival held each May. The future U.S. senator and vice president was born and raised here. The village began as Unionville, laid out in 1847; its post office followed in 1848 and incorporation in 1879.",
       "at": [
         -83.34167,
         40.13667
@@ -40,28 +40,40 @@
   ],
   "sources": [
     {
-      "label": "Ohio Department of Transportation, Big Darby Plains Scenic Byway story map",
-      "url": "https://storymaps.arcgis.com/stories/3b5e2b85173d4fd19f9413cc0e45bbc2"
-    },
-    {
-      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
-      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
-    },
-    {
-      "label": "Wikipedia, Big Darby Creek",
-      "url": "https://en.wikipedia.org/wiki/Big_Darby_Creek"
-    },
-    {
       "label": "Wikipedia, Reuben Partridge",
       "url": "https://en.wikipedia.org/wiki/Reuben_Partridge"
     },
     {
-      "label": "Wikipedia, Milford Center, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Milford_Center,_Ohio"
+      "label": "Ohio Department of Transportation, Big Darby Plains Scenic Byway",
+      "url": "https://storymaps.arcgis.com/stories/3b5e2b85173d4fd19f9413cc0e45bbc2"
+    },
+    {
+      "label": "Ohio Department of Transportation, Ohio Byways brochure",
+      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+    },
+    {
+      "label": "Wikipedia, Bigelow Bridge",
+      "url": "https://en.wikipedia.org/wiki/Bigelow_Bridge"
+    },
+    {
+      "label": "Wikipedia, Bridgeport, Union County, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Bridgeport%2C_Union_County%2C_Ohio"
+    },
+    {
+      "label": "Wikipedia, Plain City, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Plain_City%2C_Ohio"
+    },
+    {
+      "label": "Wikipedia, Reed Bridge",
+      "url": "https://en.wikipedia.org/wiki/Reed_Bridge"
     },
     {
       "label": "Wikipedia, Unionville Center, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Unionville_Center,_Ohio"
+      "url": "https://en.wikipedia.org/wiki/Unionville_Center%2C_Ohio"
+    },
+    {
+      "label": "Wikipedia, Fairbanks High School",
+      "url": "https://en.wikipedia.org/wiki/Fairbanks_High_School_%28Milford_Center%2C_Ohio%29"
     }
   ],
   "reviewed": false
