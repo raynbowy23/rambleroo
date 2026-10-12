@@ -5,7 +5,7 @@ import { Link, useSearchParams, useNavigate } from 'react-router'
 import { RoadVisual } from '../photos/RoadVisual'
 import { firstPhoto, useCovers } from '../../lib/data'
 import { Icon } from '../../components/art'
-import { collections, stateChapters, useCatalog } from '../../lib/data'
+import { chapterCodes, collections, useCatalog } from '../../lib/data'
 import { filterByways, themes } from '../../lib/filters'
 import { formatMiles, shortDesignation } from '../../lib/format'
 import { states, stateNames } from '../../lib/states'
@@ -268,9 +268,9 @@ export default function ExplorePage() {
                   }}
                 >
                   <option value="">Choose a chapter</option>
-                  {Object.values(stateChapters).map(({ code, name }) => (
+                  {chapterCodes.map((code) => (
                     <option key={code} value={code}>
-                      {name}
+                      {states[code] ?? code}
                     </option>
                   ))}
                 </select>

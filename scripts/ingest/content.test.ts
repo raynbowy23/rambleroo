@@ -7,6 +7,7 @@ import type { BywaySummary, BywayStory, Collection, StateChapter } from '../../s
 
 import { stateSources } from '../states/sources'
 import { stateFips } from '../states/fips'
+import { states } from '../../src/lib/states'
 
 const root = new URL('../../', import.meta.url)
 const json = <T>(rel: string): T => JSON.parse(readFileSync(new URL(rel, root), 'utf8'))
@@ -92,6 +93,8 @@ describe('content', () => {
     const chapter = json<StateChapter>(`content/states/${file}`)
     expect(file).toBe(`${chapter.code}.json`)
     expect(stateFips[chapter.code]).toBeDefined()
+    // The explore page lists chapters by code and labels them from src/lib/states.ts without loading the files.
+    expect(chapter.name).toBe(states[chapter.code])
     const ids = new Set<string>()
     const names = new Set<string>()
     for (const member of chapter.programs.flatMap((program) => program.members)) {
@@ -177,6 +180,20 @@ describe('photo files the app fetches', () => {
     )
     for (const [name, text] of Object.entries(files))
       expect(readFileSync(new URL(`public/data/photos/${name}`, root), 'utf8'), name).toBe(text)
+  })
+})
+
+describe('street-frame files the app fetches', () => {
+  it('match content/streetview*.json (run npx tsx scripts/streetview/split.ts after editing them)', async () => {
+    const { streetViewFiles } = await import('../streetview/split')
+    type View = import('../../src/lib/types').StreetView
+    const files = streetViewFiles(
+      json<View[]>('content/streetview.json'),
+      json<View[]>('content/streetview-moments.json'),
+      json<{ byways: { id: string }[] }>('public/data/catalog.json').byways.map((b) => b.id),
+    )
+    for (const [name, text] of Object.entries(files))
+      expect(readFileSync(new URL(`public/data/streetview/${name}`, root), 'utf8'), name).toBe(text)
   })
 })
 

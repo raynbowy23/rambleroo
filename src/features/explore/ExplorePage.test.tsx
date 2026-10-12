@@ -2,7 +2,7 @@ import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest'
 import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { MemoryRouter, useLocation, useNavigate } from 'react-router'
 import ExplorePage from './ExplorePage'
-import { stateChapters } from '../../lib/data'
+import { chapterCodes } from '../../lib/data'
 import { usePassport } from '../../lib/passport'
 import type { BywaySummary } from '../../lib/types'
 vi.mock('../map/BywayMap', () => ({
@@ -79,7 +79,7 @@ describe('explorer loop', () => {
     )
     await screen.findByRole('button', { name: /River Road WI/ })
     const chapters = screen.getByRole('combobox', { name: 'Browse by state' }) as HTMLSelectElement
-    expect([...chapters.options].map((option) => option.value)).toEqual(['', ...Object.keys(stateChapters)])
+    expect([...chapters.options].map((option) => option.value)).toEqual(['', ...chapterCodes])
     for (const filter of screen.getAllByRole('combobox', { name: 'State' })) {
       expect([...(filter as HTMLSelectElement).options].map((option) => option.value)).toContain('CA')
     }

@@ -4,27 +4,40 @@ import s from './Photos.module.css'
 
 // Street-level frames from Mapillary contributors, served through our Worker (/api/street/:id) so the image URL never expires
 // and visitors never load anything from Meta. Mapillary's terms ask for its logo and a link to the image page on every frame.
-let road: Promise<StreetView[]> | undefined
-let moments: Promise<StreetView[]> | undefined
-const loadRoad = () => (road ??= import('../../../content/streetview.json').then((m) => m.default as StreetView[]))
-const loadMoments = () => (moments ??= import('../../../content/streetview-moments.json').then((m) => m.default as StreetView[]))
+// Each road's frames are one small file (scripts/streetview/split.ts), fetched when its page opens.
+type RoadViews = { road: StreetView[]; moments: StreetView[] }
+const empty: RoadViews = { road: [], moments: [] }
+const loaded = new Map<string, Promise<RoadViews>>()
+export function loadStreetViews(bywayId: string) {
+  if (!loaded.has(bywayId))
+    loaded.set(
+      bywayId,
+      fetch(`/data/streetview/${encodeURIComponent(bywayId)}.json`)
+        .then((r) => (r.ok ? (r.json() as Promise<RoadViews>) : empty))
+        .catch(() => {
+          loaded.delete(bywayId)
+          return empty
+        }),
+    )
+  return loaded.get(bywayId)!
+}
 
-function useViews(load: () => Promise<StreetView[]>, bywayId?: string) {
+function useViews(kind: keyof RoadViews, bywayId?: string) {
   const [views, setViews] = useState<StreetView[]>([])
   useEffect(() => {
     let live = true
     setViews([])
-    if (bywayId) void load().then((list) => live && setViews(list.filter((v) => v.bywayId === bywayId)))
+    if (bywayId) void loadStreetViews(bywayId).then((views) => live && setViews(views[kind]))
     return () => {
       live = false
     }
-  }, [load, bywayId])
+  }, [kind, bywayId])
   return views
 }
 /** Frames along the whole road, for the strip. */
-export const useStreetViews = (bywayId?: string) => useViews(loadRoad, bywayId)
+export const useStreetViews = (bywayId?: string) => useViews('road', bywayId)
 /** Frames picked near story moments that have no photograph. */
-export const useMomentViews = (bywayId?: string) => useViews(loadMoments, bywayId)
+export const useMomentViews = (bywayId?: string) => useViews('moments', bywayId)
 
 export function StreetFrame({ view, near, fallback = null }: { view: StreetView; near?: string; fallback?: ReactNode }) {
   const [failed, setFailed] = useState(false)
