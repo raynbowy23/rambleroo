@@ -84,11 +84,14 @@ export default function ExplorePage() {
   const focusHeading = useRef(false)
   const [filtersOpen, setFiltersOpen] = useState(false)
   const sheet = useSheetDrag(snap, setSnap)
-  const postcardSwipe = useSheetDrag(0, () => select(null), true)
   const q = params.get('q') ?? ''
   const state = params.get('state') ?? ''
   const themeKey = params.get('themes') ?? ''
   const selectedId = params.get('byway')
+  // On phones, swiping the postcard down only minimizes it so the road stays on the map. Close, a tap on empty map or Back clears it.
+  const [minimizedId, setMinimizedId] = useState<string | null>(null)
+  const minimized = !!selectedId && minimizedId === selectedId
+  const postcardSwipe = useSheetDrag(minimized ? 0 : 1, (state) => setMinimizedId(state === 0 ? selectedId : null), true)
   const view = failed ? 'list' : ['map', 'gallery', 'list'].includes(params.get('view') ?? '') ? params.get('view')! : 'map'
   const activeThemes = useMemo(() => themes.filter((t) => themeKey.split(',').includes(t)), [themeKey])
   const filtered = useMemo(() => {
@@ -445,11 +448,33 @@ export default function ExplorePage() {
         </section>
       )}
       {selected && view !== 'gallery' && (
-        <div ref={postcardSwipe.ref} style={postcardSwipe.style} data-map-panel="postcard" className={styles.postcard}>
-          <button className={styles.handle} aria-label="Swipe down to close postcard" {...postcardSwipe.handlers}>
+        <div
+          ref={postcardSwipe.ref}
+          style={postcardSwipe.style}
+          data-map-panel="postcard"
+          className={`${styles.postcard} ${minimized ? styles.minimized : ''}`}
+        >
+          <button
+            className={styles.handle}
+            aria-label={minimized ? 'Open postcard' : 'Swipe down to minimize postcard'}
+            aria-expanded={!minimized}
+            {...postcardSwipe.handlers}
+          >
             —
           </button>
-          <Postcard key={selected.id} byway={selected} onClose={() => select(null)} focusHeading={focusHeading.current} />
+          {minimized && (
+            <div className={styles.peekBar}>
+              <button className={styles.peekTitle} onClick={() => setMinimizedId(null)}>
+                {selected.name}
+              </button>
+              <button className="btn btn-ghost" aria-label="Close postcard" onClick={() => select(null)}>
+                ×
+              </button>
+            </div>
+          )}
+          <div className={styles.postcardBody}>
+            <Postcard key={selected.id} byway={selected} onClose={() => select(null)} focusHeading={focusHeading.current} />
+          </div>
         </div>
       )}
       {selectedId && !selected && catalog.status === 'ready' && (

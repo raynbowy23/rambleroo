@@ -204,6 +204,12 @@
 .handle {
   display: none;
 }
+.peekBar {
+  display: none;
+}
+.postcardBody {
+  display: contents;
+}
 .postcard {
   position: absolute;
   z-index: 5;
@@ -467,6 +473,34 @@ tr[aria-selected='true'] {
     position: sticky;
     top: 0;
     z-index: 6;
+  }
+  /* Minimized: only the handle and a slim bar with the road's name stay up, so the road can be seen on the map. */
+  .minimized {
+    overflow: hidden;
+  }
+  .minimized .postcardBody {
+    display: none;
+  }
+  .minimized .peekBar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 max(16px, env(safe-area-inset-right)) 10px max(16px, env(safe-area-inset-left));
+  }
+  .peekTitle {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: start;
+    border: 0;
+    background: none;
+    padding: 6px 0;
+    color: var(--ink);
+    font-family: var(--font-serif);
+    font-size: var(--step-1);
+    cursor: pointer;
   }
   .withSelection {
     visibility: hidden;
