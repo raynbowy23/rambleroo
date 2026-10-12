@@ -17,7 +17,7 @@ export default {
       load(id: string) {
         const path = relative(process.cwd(), id.split('?')[0])
         if (process.env.ROUTE3D_BASELINE === '1' && baseline.has(path))
-          return execFileSync('git', ['show', `HEAD:${path}`], { encoding: 'utf8' })
+          return execFileSync('git', ['show', `${process.env.ROUTE3D_BASE_REF ?? 'HEAD'}:${path}`], { encoding: 'utf8' })
       },
     },
   ],
