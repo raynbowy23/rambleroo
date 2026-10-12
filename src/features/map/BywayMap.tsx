@@ -148,7 +148,7 @@ export function BywayMap({
         .then((data) => {
           if (disposed) return
           addDecor(map)
-          addBywayLayers(map, data, byways)
+          addBywayLayers(map, data)
           performance.mark('byways:attached')
           const firstRoutes = () => {
             if (!map.queryRenderedFeatures({ layers: ['byway-lines', 'byway-art'] }).length) return
@@ -196,7 +196,7 @@ export function BywayMap({
             if (!ontoPopup(e)) hide()
           })
           map.on('click', (e) => {
-            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'byway-marks', 'story-points', 'route-moments'] })[0]
+            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'route-moments'] })[0]
             // A click on open map (not a road) goes back to the whole country; the card's close button keeps the view instead.
             if (!feature) goHome.current = true
             callbacks.current.onSelect(feature ? String(feature.properties.id) : null)
@@ -385,9 +385,6 @@ export function BywayMap({
             {stroke.label}
           </span>
         ))}
-        <span className={styles.legendItem}>
-          <b aria-hidden="true">●</b>Has a story
-        </span>
       </div>
     </>
   )
