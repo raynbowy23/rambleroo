@@ -133,7 +133,8 @@ export function BywayMap({
       new maplibregl.AttributionControl({ compact: true, customAttribution: `Natural Earth · USDOT · ${basemapService.attribution}` }),
       'bottom-left',
     )
-    const tooltip = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12 })
+    // The road-name popup has a close button: on a phone a tap leaves it up (there is no hover to end), so it can be put away by hand.
+    const tooltip = new maplibregl.Popup({ closeButton: true, closeOnClick: false, offset: 12 })
     map.on('webglcontextlost', () => {
       if (!disposed) callbacks.current.onFailure()
     })
@@ -171,10 +172,19 @@ export function BywayMap({
             map.getCanvas().style.cursor = 'pointer'
             tooltip.setLngLat(e.lngLat).setText(String(f.properties.name)).addTo(map)
           })
-          map.on('mouseleave', 'byway-hit', () => {
+          // Moving onto the popup itself (to reach its close button) keeps it up; leaving the popup puts it away.
+          const ontoPopup = (e: maplibregl.MapMouseEvent) => {
+            const to = (e.originalEvent as MouseEvent).relatedTarget
+            return to instanceof Node && !!tooltip.getElement()?.contains(to)
+          }
+          const hide = () => {
             useHover.getState().setId(null)
             tooltip.remove()
             map.getCanvas().style.cursor = ''
+          }
+          tooltip.on('open', () => tooltip.getElement()?.addEventListener('mouseleave', hide))
+          map.on('mouseleave', 'byway-hit', (e) => {
+            if (!ontoPopup(e)) hide()
           })
           map.on('mousemove', 'route-moments', (e) => {
             const moment = e.features?.[0]
@@ -182,9 +192,8 @@ export function BywayMap({
             map.getCanvas().style.cursor = 'pointer'
             tooltip.setLngLat(e.lngLat).setText(String(moment.properties.title)).addTo(map)
           })
-          map.on('mouseleave', 'route-moments', () => {
-            tooltip.remove()
-            map.getCanvas().style.cursor = ''
+          map.on('mouseleave', 'route-moments', (e) => {
+            if (!ontoPopup(e)) hide()
           })
           map.on('click', (e) => {
             const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'byway-marks', 'story-points', 'route-moments'] })[0]
