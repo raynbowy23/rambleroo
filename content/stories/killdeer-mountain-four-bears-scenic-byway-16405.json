@@ -1,26 +1,38 @@
 {
   "id": "killdeer-mountain-four-bears-scenic-byway-16405",
-  "tagline": "From Killdeer into the badlands, losing an hour at the river.",
+  "tagline": "Into the badlands, where a bridge once waited for its road.",
   "intro": [
-    "Killdeer began in 1914 at the end of a Northern Pacific branch line and took its name from the Killdeer Mountains, two flat-topped buttes off to the northwest. ND 22 heads north out of town past them, and twelve miles on it enters the badlands. Then it crosses the Little Missouri River, and the clocks change from Mountain to Central time.",
-    "The town's Hidatsa name means Where-Deer-Are-Killed, and the buttes were a deer hunting ground before they were a battlefield."
+    "ND 22 runs north through Killdeer and enters the badlands 12 miles beyond town. The nearby Killdeer Mountains are two large, flat-topped buttes, shaped in substantial part by wind, river and lake erosion. At the Little Missouri River, the highway crosses from Mountain Time into Central Time. The river carries heavy loads of eroded sediment, washed downstream by highly seasonal runoff from the badlands.",
+    "Killdeer’s earlier transportation connection was a Northern Pacific Railway branch from Mandan: the town was founded at its terminus in 1914. The river crossing has a history of its own. A bridge built here in 1930 waited 20 years for a road to reach it, earning the name Lost Bridge. The original bridge was dismantled in 1994; a piece of it and a plaque were installed beside Route 22 near the new bridge.",
+    "Driving north from Killdeer, the battlefield site is a separate excursion northwest of town. Little Missouri State Park occupies badlands on the river’s western side, with much of its terrain accessible only by trail. After the river crossing, ND 22 continues west of Mandaree, meets Highway 73 and ends at Highway 23 west of New Town."
   ],
   "moments": [
     {
       "title": "Killdeer Mountain Battlefield",
       "kind": "separate excursion",
       "scene": "prairie",
-      "text": "In July 1864 General Alfred Sully advanced 2,200 soldiers on foot in a hollow square against a large Sioux encampment under the buttes, part of the largest Army expedition ever sent against Native Americans.",
+      "text": "In July 1864, Brigadier General Alfred Sully attacked a Sioux encampment at Killdeer Mountain. The encampment included Hunkpapa, Sihasapa, Miniconjou and Sans Arc Lakota, as well as Yanktonais and Santees. As the soldiers advanced, the Sioux worked to protect women and children fleeing the village. After the camp was abandoned, Sully ordered its remaining property destroyed, including tipis and stores of dried buffalo meat. The state historic site preserves part of the battlefield; its two headstones honor soldiers killed in the conflict. A sandstone slab monument and flagpole also mark the site, 8.5 miles northwest of Killdeer.",
       "at": [
         -102.9184,
         47.4252
       ]
     },
     {
+      "title": "Little Missouri State Park",
+      "kind": "separate excursion",
+      "scene": "prairie",
+      "text": "Much of Little Missouri State Park’s badlands can be reached only by trail. The park covers more than 6,000 acres on the western side of the river near Lake Sakakawea, and most of its land is managed under leases from federal and private owners. Oil drilling expanded into the park as part of operations in the Killdeer area that began in 2011. In 2015, ConocoPhillips agreed to pay to move trails away from well sites. In 2016, Governor Jack Dalrymple asked drillers to preserve the view as much as possible.",
+      "at": [
+        -102.74611111,
+        47.5525
+      ]
+    },
+    {
       "title": "Little Missouri River",
       "kind": "roadside",
       "scene": "river",
-      "text": "The highway crosses a river that rises near Devils Tower in Wyoming and carries the eroded badlands downstream, and on the far bank the time is Central."
+      "text": "The Little Missouri carries sediment eroded from badlands and other treeless terrain downstream. The sedimentary deposits along the river include siltstone, claystone, sandstone and lignite coal, laid down on a coastal plain. Its course begins in northeastern Wyoming and passes through Montana and South Dakota before entering North Dakota. It eventually reaches Lake Sakakawea, forming the reservoir’s 30-mile Little Missouri Bay. At the ND 22 crossing, the old Lost Bridge is gone. A surviving piece and a plaque beside the highway commemorate the bridge built in 1930, two decades before its road arrived.",
+      "notice": "A piece of the old Lost Bridge and a plaque stand near the replacement crossing."
     }
   ],
   "sources": [
@@ -29,22 +41,29 @@
       "url": "https://en.wikipedia.org/wiki/North_Dakota_Highway_22"
     },
     {
-      "label": "Wikipedia, Killdeer, North Dakota",
-      "url": "https://en.wikipedia.org/wiki/Killdeer,_North_Dakota"
+      "label": "Wikipedia, Lost Bridge",
+      "url": "https://en.wikipedia.org/wiki/Lost_Bridge"
     },
     {
       "label": "Wikipedia, Killdeer Mountains",
       "url": "https://en.wikipedia.org/wiki/Killdeer_Mountains"
     },
     {
+      "label": "Wikipedia, Little Missouri River (North Dakota)",
+      "url": "https://en.wikipedia.org/wiki/Little_Missouri_River_%28North_Dakota%29"
+    },
+    {
+      "label": "Wikipedia, Killdeer, North Dakota",
+      "url": "https://en.wikipedia.org/wiki/Killdeer%2C_North_Dakota"
+    },
+    {
       "label": "Wikipedia, Battle of Killdeer Mountain",
       "url": "https://en.wikipedia.org/wiki/Battle_of_Killdeer_Mountain"
     },
     {
-      "label": "Wikipedia, Little Missouri River (North Dakota)",
-      "url": "https://en.wikipedia.org/wiki/Little_Missouri_River_(North_Dakota)"
+      "label": "Wikipedia, Little Missouri State Park",
+      "url": "https://en.wikipedia.org/wiki/Little_Missouri_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }
