@@ -2,7 +2,7 @@ import type { BywaySummary, Motif, Photo, SceneFamily } from '../../lib/types'
 import { loadStrip } from '../strip/data'
 import type { Coordinate, StripData } from '../strip/types'
 import { coordinateAtMile, mappedIntervals } from '../strip/geometry'
-import { loadBywayGeometry } from '../map/layers'
+import { loadRoadGeometry } from '../map/layers'
 export interface Milestone {
   id: string
   kind?: 'town' | 'moment'
@@ -64,7 +64,7 @@ export async function loadCardRoute(id: string, milestone?: Milestone): Promise<
       position: coordinateAtMile(route, milestone?.mile ?? 0),
     }
   }
-  const data = await loadBywayGeometry()
+  const data = await loadRoadGeometry(id)
   return { lines: (data.features.find((feature) => feature.properties.id === id)?.geometry.coordinates ?? []) as Coordinate[][] }
 }
 export function routeInset(route: CardRoute) {

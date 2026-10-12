@@ -11,7 +11,7 @@ import { StreetGallery, MomentFrame, useMomentViews } from '../photos/StreetView
 import { ShareControl } from '../share/ShareControl'
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router'
-import { useByway, useStory, usePhotos, stateChapters } from '../../lib/data'
+import { useByway, useStory, usePhotos, useChapters } from '../../lib/data'
 import { illustrationCaption, listingDescription, shortDesignation } from '../../lib/format'
 import { greatCircleMiles } from '../../lib/geo'
 import { PostcardArt } from '../postcard/PostcardArt'
@@ -22,7 +22,7 @@ import { RouteMap } from '../../components/ui/RouteMap'
 import { toast } from '../../components/ui/Toast'
 import { Postcard } from '../explore/Postcard'
 import { VisitEditor } from '../passport/VisitEditor'
-import { loadBywayGeometry } from '../map/layers'
+import { loadRoadGeometry } from '../map/layers'
 import s from '../../components/ui/Content.module.css'
 // Shared-boundary neighbors derived from the bundled us-atlas/states-10m.json topology.
 import adjacentStates from './adjacent-states.json'
@@ -46,6 +46,7 @@ export default function BywayPage() {
   const momentViews = useMomentViews(id)
   const photo = photos[0]
   const { byway: b, status, byways, meta } = useByway(id)
+  const chapters = useChapters(b?.states ?? [])
   const { story, status: storyStatus } = useStory(id)
   const saved = usePassport((p) => Boolean(id && p.saved[id]))
   const toggleSave = usePassport((p) => p.toggleSave)
@@ -57,7 +58,7 @@ export default function BywayPage() {
   useEffect(() => {
     let cancelled = false
     if (id)
-      void loadBywayGeometry()
+      void loadRoadGeometry(id)
         .then((data) => {
           const parts = data.features.filter((f) => f.properties.id === id).flatMap((f) => f.geometry.coordinates)
           const longest = parts.reduce<number[][]>((best, p) => (partLength(p) > partLength(best) ? p : best), [])
@@ -321,7 +322,7 @@ export default function BywayPage() {
                     </li>
                   ))}
                 </ul>
-                {Object.values(stateChapters).flatMap((chapter) =>
+                {chapters.flatMap((chapter) =>
                   chapter.programs
                     .filter((program) => program.members.some((member) => member.bywayId === b.id))
                     .map((program) => (

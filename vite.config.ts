@@ -39,6 +39,7 @@ export default defineConfig({
               sameOrigin &&
               (url.pathname === '/data/catalog.json' ||
                 url.pathname === '/data/byways.geojson' ||
+                url.pathname === '/data/byways-overview.geojson' ||
                 url.pathname.startsWith('/data/basemap/')),
             handler: 'StaleWhileRevalidate',
             options: { cacheName: 'road-data' },

@@ -4,6 +4,7 @@
 // Usage: npx tsx scripts/streetview/discover.ts [byway-id ...]   (no ids = every byway; existing picks are kept unless --refresh)
 // Needs MAPILLARY_TOKEN in the environment or in .dev.vars.
 import { readFile, writeFile } from 'node:fs/promises'
+import { splitStreetViews } from './split.ts'
 import { existsSync } from 'node:fs'
 import type { StreetView } from '../../src/lib/types'
 import { ROOT, search, nearest, samples, turn, sleep, rejectedImage, type Image, type Pt } from './lib'
@@ -113,3 +114,4 @@ await Promise.all(
     }
   }),
 )
+console.log(`${await splitStreetViews()} street-frame files`)

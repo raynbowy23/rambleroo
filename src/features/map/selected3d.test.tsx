@@ -15,8 +15,8 @@ vi.mock('../../lib/motion', () => ({ useMotionEnabled: () => state.motion }))
 vi.mock('../../lib/garage', () => ({ useGarage: () => state.garage }))
 vi.mock('../../components/ui/Toast', () => ({ toast: vi.fn() }))
 vi.mock('./terrain', () => ({ setRelief: vi.fn(), isTerrainError: () => false }))
-vi.mock('./layers', () => ({
-  loadBywayGeometry: async () => ({
+vi.mock('./layers', () => {
+  const all = {
     features: [
       {
         properties: { id: 'road', name: 'Mountain road' },
@@ -45,8 +45,12 @@ vi.mock('./layers', () => ({
         },
       },
     ],
-  }),
-}))
+  }
+  return {
+    loadBywayGeometry: async () => all,
+    loadRoadGeometry: async (id: string) => ({ ...all, features: all.features.filter((f) => f.properties.id === id) }),
+  }
+})
 vi.mock('./car3d', () => ({
   carLayerId: 'garage-car-3d',
   createCarLayer: (...args: unknown[]) => {
