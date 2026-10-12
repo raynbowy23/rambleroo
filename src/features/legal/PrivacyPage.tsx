@@ -22,8 +22,9 @@ export default function PrivacyPage() {
           your account data syncs across devices. Photos you add also sync privately when signed in.
         </li>
         <li>
-          On rambleroo.app we ask before using Google Analytics cookies to count visits. If you decline, no analytics cookie is set. We use
-          no advertising and do not sell your personal information. Hosting and sign-in providers handle information as described below.
+          On rambleroo.app we ask before using Google Analytics cookies to count visits. If you decline, no analytics cookie is set. Our
+          host, Cloudflare, also counts page views without cookies (Cloudflare Web Analytics). We use no advertising and do not sell your
+          personal information. Hosting and sign-in providers handle information as described below.
         </li>
         <li>{LOCATION_POLICY}</li>
       </ul>
@@ -111,6 +112,15 @@ export default function PrivacyPage() {
           privacy policy
         </a>
         . You can change your choice at any time with “Cookie settings” in the site footer; declining removes the analytics cookies.
+      </p>
+      <p>
+        Separately, Cloudflare, which hosts the site, counts page views with Cloudflare Web Analytics. It sets no cookies and uses no local
+        storage, so it runs without the banner. It sends Cloudflare the page you open, the page that linked you there, your browser and
+        device type, your country, and how long the page took to load. We see only totals. Cloudflare’s handling is described in its{' '}
+        <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noreferrer">
+          privacy policy
+        </a>
+        .
       </p>
       <p>
         Everything else Rambleroo keeps in your browser is there because you asked for it, so it needs no consent: your choice in the cookie
