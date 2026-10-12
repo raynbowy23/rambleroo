@@ -1,0 +1,420 @@
+{
+  "authored": false,
+  "bywayId": "state-of-jefferson-scenic-byway-2192",
+  "title": "State of Jefferson Scenic Byway",
+  "longitude": -123.5733,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -123.53523,
+        42.00087
+      ],
+      [
+        -123.53887,
+        42.00275
+      ],
+      [
+        -123.53973,
+        42.00423
+      ],
+      [
+        -123.53958,
+        42.00624
+      ],
+      [
+        -123.54795,
+        42.00675
+      ],
+      [
+        -123.54784,
+        42.00906
+      ],
+      [
+        -123.55003,
+        42.01438
+      ],
+      [
+        -123.54533,
+        42.01901
+      ],
+      [
+        -123.5469,
+        42.02047
+      ],
+      [
+        -123.54573,
+        42.02408
+      ],
+      [
+        -123.54797,
+        42.02538
+      ],
+      [
+        -123.54887,
+        42.02819
+      ],
+      [
+        -123.54526,
+        42.03003
+      ],
+      [
+        -123.54846,
+        42.03192
+      ],
+      [
+        -123.5486,
+        42.03517
+      ],
+      [
+        -123.55007,
+        42.0374
+      ],
+      [
+        -123.549,
+        42.04553
+      ],
+      [
+        -123.55065,
+        42.04572
+      ],
+      [
+        -123.55185,
+        42.04347
+      ],
+      [
+        -123.55534,
+        42.04056
+      ],
+      [
+        -123.55287,
+        42.0468
+      ],
+      [
+        -123.56065,
+        42.04835
+      ],
+      [
+        -123.5617,
+        42.05152
+      ],
+      [
+        -123.5608,
+        42.05318
+      ],
+      [
+        -123.56158,
+        42.05497
+      ],
+      [
+        -123.56613,
+        42.05416
+      ],
+      [
+        -123.56828,
+        42.05522
+      ],
+      [
+        -123.56892,
+        42.05729
+      ],
+      [
+        -123.57262,
+        42.05834
+      ],
+      [
+        -123.57545,
+        42.06213
+      ],
+      [
+        -123.57425,
+        42.06472
+      ],
+      [
+        -123.57836,
+        42.06268
+      ],
+      [
+        -123.57655,
+        42.06066
+      ],
+      [
+        -123.57697,
+        42.05885
+      ],
+      [
+        -123.57604,
+        42.05771
+      ],
+      [
+        -123.57683,
+        42.05585
+      ],
+      [
+        -123.57302,
+        42.05436
+      ],
+      [
+        -123.5752,
+        42.05196
+      ],
+      [
+        -123.57188,
+        42.04934
+      ],
+      [
+        -123.57233,
+        42.04749
+      ],
+      [
+        -123.57588,
+        42.04851
+      ],
+      [
+        -123.57847,
+        42.05046
+      ],
+      [
+        -123.58581,
+        42.05203
+      ],
+      [
+        -123.58731,
+        42.05495
+      ],
+      [
+        -123.59376,
+        42.05556
+      ],
+      [
+        -123.5994,
+        42.05963
+      ],
+      [
+        -123.62345,
+        42.06651
+      ],
+      [
+        -123.62789,
+        42.06446
+      ],
+      [
+        -123.6298,
+        42.06229
+      ],
+      [
+        -123.64423,
+        42.05998
+      ],
+      [
+        -123.65216,
+        42.06255
+      ],
+      [
+        -123.66793,
+        42.06555
+      ],
+      [
+        -123.67563,
+        42.07082
+      ],
+      [
+        -123.68861,
+        42.07274
+      ],
+      [
+        -123.69571,
+        42.07687
+      ],
+      [
+        -123.69392,
+        42.07913
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Seiad Valley",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Happy Camp",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "O'Brien",
+      "model": "town-blocks",
+      "at": 0.989013312363125,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Takilma",
+      "at": 0.6945454545454546,
+      "landmark": ""
+    },
+    {
+      "name": "O'Brien",
+      "at": 0.9890909090909091,
+      "landmark": "O'Brien"
+    }
+  ],
+  "sources": [
+    "content/stories/state-of-jefferson-scenic-byway-2192.json",
+    "public/data/strips/state-of-jefferson-scenic-byway-2192.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

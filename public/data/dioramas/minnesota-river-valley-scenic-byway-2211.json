@@ -1,0 +1,364 @@
+{
+  "authored": false,
+  "bywayId": "minnesota-river-valley-scenic-byway-2211",
+  "title": "Minnesota River Valley Scenic Byway",
+  "longitude": -93.9609,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -94.43191,
+        44.26766
+      ],
+      [
+        -94.3994,
+        44.25334
+      ],
+      [
+        -94.37955,
+        44.24942
+      ],
+      [
+        -94.349,
+        44.25021
+      ],
+      [
+        -94.32111,
+        44.24021
+      ],
+      [
+        -94.30839,
+        44.22206
+      ],
+      [
+        -94.27724,
+        44.20554
+      ],
+      [
+        -94.26554,
+        44.19633
+      ],
+      [
+        -94.21352,
+        44.19707
+      ],
+      [
+        -94.20267,
+        44.1927
+      ],
+      [
+        -94.16961,
+        44.18995
+      ],
+      [
+        -94.1137,
+        44.16324
+      ],
+      [
+        -94.083,
+        44.1532
+      ],
+      [
+        -94.06866,
+        44.15526
+      ],
+      [
+        -94.06308,
+        44.15258
+      ],
+      [
+        -94.03451,
+        44.15394
+      ],
+      [
+        -94.02092,
+        44.1595
+      ],
+      [
+        -94.01629,
+        44.16996
+      ],
+      [
+        -94.00022,
+        44.1682
+      ],
+      [
+        -93.99476,
+        44.17581
+      ],
+      [
+        -93.99743,
+        44.19754
+      ],
+      [
+        -93.99132,
+        44.21807
+      ],
+      [
+        -93.98562,
+        44.22765
+      ],
+      [
+        -93.98042,
+        44.22945
+      ],
+      [
+        -93.97803,
+        44.23683
+      ],
+      [
+        -93.97781,
+        44.26103
+      ],
+      [
+        -93.96806,
+        44.28431
+      ],
+      [
+        -93.96792,
+        44.29216
+      ],
+      [
+        -93.95533,
+        44.29473
+      ],
+      [
+        -93.9574,
+        44.3045
+      ],
+      [
+        -93.96596,
+        44.31384
+      ],
+      [
+        -93.95583,
+        44.32587
+      ],
+      [
+        -93.93619,
+        44.31967
+      ],
+      [
+        -93.92306,
+        44.32178
+      ],
+      [
+        -93.91675,
+        44.32822
+      ],
+      [
+        -93.91231,
+        44.33946
+      ],
+      [
+        -93.91646,
+        44.35041
+      ],
+      [
+        -93.94125,
+        44.36658
+      ],
+      [
+        -93.94513,
+        44.37205
+      ],
+      [
+        -93.94609,
+        44.38197
+      ],
+      [
+        -93.93933,
+        44.38781
+      ],
+      [
+        -93.92474,
+        44.44495
+      ],
+      [
+        -93.91903,
+        44.45703
+      ],
+      [
+        -93.91422,
+        44.46089
+      ],
+      [
+        -93.93276,
+        44.4648
+      ],
+      [
+        -93.90611,
+        44.49731
+      ],
+      [
+        -93.90146,
+        44.51059
+      ],
+      [
+        -93.90841,
+        44.53406
+      ],
+      [
+        -93.91269,
+        44.53669
+      ],
+      [
+        -93.92295,
+        44.57306
+      ],
+      [
+        -93.90171,
+        44.59772
+      ],
+      [
+        -93.85512,
+        44.62295
+      ],
+      [
+        -93.84376,
+        44.63667
+      ],
+      [
+        -93.81595,
+        44.6391
+      ],
+      [
+        -93.80128,
+        44.63708
+      ],
+      [
+        -93.76696,
+        44.6431
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Hermann Heights Monument",
+      "model": "steeple-town",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hermann Heights Monument",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Courtland",
+      "at": 0.06434782608695652,
+      "landmark": ""
+    },
+    {
+      "name": "Judson",
+      "at": 0.20028985507246377,
+      "landmark": ""
+    },
+    {
+      "name": "Skyline",
+      "at": 0.3272463768115942,
+      "landmark": ""
+    },
+    {
+      "name": "Benning",
+      "at": 0.4010144927536232,
+      "landmark": ""
+    },
+    {
+      "name": "Kasota",
+      "at": 0.4946376811594203,
+      "landmark": ""
+    },
+    {
+      "name": "Ottawa",
+      "at": 0.6378260869565218,
+      "landmark": ""
+    },
+    {
+      "name": "Le Sueur",
+      "at": 0.7249275362318841,
+      "landmark": ""
+    },
+    {
+      "name": "Henderson",
+      "at": 0.808695652173913,
+      "landmark": ""
+    },
+    {
+      "name": "Blakeley",
+      "at": 0.9211594202898551,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/minnesota-river-valley-scenic-byway-2211.json",
+    "public/data/strips/minnesota-river-valley-scenic-byway-2211.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

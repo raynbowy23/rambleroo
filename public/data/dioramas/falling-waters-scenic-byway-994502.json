@@ -1,0 +1,272 @@
+{
+  "authored": false,
+  "bywayId": "falling-waters-scenic-byway-994502",
+  "title": "Falling Waters Scenic Byway",
+  "longitude": -83.1017,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -83.1313,
+        34.8417
+      ],
+      [
+        -83.1255,
+        34.8568
+      ],
+      [
+        -83.1214,
+        34.8613
+      ],
+      [
+        -83.1079,
+        34.8667
+      ],
+      [
+        -83.1082,
+        34.8733
+      ],
+      [
+        -83.1068,
+        34.876
+      ],
+      [
+        -83.1124,
+        34.8875
+      ],
+      [
+        -83.1071,
+        34.9032
+      ],
+      [
+        -83.1086,
+        34.9053
+      ],
+      [
+        -83.1118,
+        34.9062
+      ],
+      [
+        -83.1135,
+        34.9095
+      ],
+      [
+        -83.1117,
+        34.917
+      ],
+      [
+        -83.1022,
+        34.922
+      ],
+      [
+        -83.0967,
+        34.929
+      ],
+      [
+        -83.0939,
+        34.9384
+      ],
+      [
+        -83.0888,
+        34.9419
+      ],
+      [
+        -83.089,
+        34.9467
+      ],
+      [
+        -83.0905,
+        34.9488
+      ],
+      [
+        -83.0856,
+        34.9558
+      ],
+      [
+        -83.0871,
+        34.96
+      ],
+      [
+        -83.0789,
+        34.9632
+      ],
+      [
+        -83.078,
+        34.9671
+      ],
+      [
+        -83.0731,
+        34.97
+      ],
+      [
+        -83.0736,
+        34.9717
+      ],
+      [
+        -83.0715,
+        34.9738
+      ],
+      [
+        -83.0709,
+        34.9777
+      ],
+      [
+        -83.0638,
+        34.9803
+      ],
+      [
+        -83.0607,
+        34.9851
+      ],
+      [
+        -83.0548,
+        34.9885
+      ],
+      [
+        -83.0519,
+        34.9955
+      ],
+      [
+        -83.0551,
+        35.001
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "content/stories/falling-waters-scenic-byway-994502.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

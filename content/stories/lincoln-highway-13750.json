@@ -1,29 +1,32 @@
 {
   "id": "lincoln-highway-13750",
-  "tagline": "The old coast-to-coast road, Indiana line to the Mississippi.",
+  "tagline": "A coast-to-coast road campaign leaves its mark on northern Illinois",
   "motifs": [
     "steeple-town"
   ],
   "intro": [
-    "From the Indiana line the old coast-to-coast road comes across on US 30 through Frankfort and Joliet to Aurora, turns up the Fox River Valley on Illinois 31 to Geneva, and heads west on Illinois 38 into farm country. It passes through DeKalb, where Joseph Glidden patented the double-strand barbed wire still in common use, and goes on through Rochelle and Dixon to Fulton on the Mississippi.",
-    "The highway was dedicated in 1913, Times Square to San Francisco. Its association had little money for building road, so it sponsored short stretches of concrete to make the case, called seedling miles. The first official one was finished in November 1914, just west of Malta."
+    "Illinois’s Lincoln Highway crosses farm country and river towns on a route the state tourism office lists at 179 miles. Near Morrison, the byway dips and curves through farmland; farther east it follows the Fox River Valley and threads Aurora on signed one-way streets. Enjoy Illinois presents it among the state’s scenic byways, pairing country scenery with restored roadside buildings and the early history of automobile travel. Interstates 80 and 88 now parallel almost all of the Illinois route.",
+    "Carl G. Fisher conceived the transcontinental road in 1912, and it was dedicated in 1913 from New York’s Times Square to San Francisco. The Lincoln Highway Association lacked funds for long stretches of construction, so it sponsored short concrete demonstration sections called seedling miles to build support for government-funded roads. The first official seedling mile was completed west of Malta in November 1914. The U.S. numbered highway system followed in 1926, absorbing much of the Lincoln Highway into numbered routes.",
+    "Travel east from Fulton on the Mississippi through Morrison and Dixon, then Franklin Grove, Rochelle and DeKalb. Illinois 38 carries the route toward Geneva, where Illinois 31 follows the Fox River south through Batavia to Aurora. The drive continues through Plainfield, Joliet and Frankfort, then Chicago Heights toward the Indiana line."
   ],
   "moments": [
     {
-      "title": "Rochelle",
+      "title": "Fulton",
       "kind": "town",
-      "scene": "town",
-      "text": "An old Standard Oil filling station is restored as a visitors center, and at Railroad Park people come from across the country to watch trains where two railroads cross.",
+      "scene": "river",
+      "text": "De Immigrant was made in the Netherlands before becoming a landmark on Fulton’s Mississippi flood-control dike. In 1998, the city contracted for Dutch millwrights to fabricate a windmill and ship it here for assembly. Its tower, cap, sails and machinery came together in November 1999, and grinding began in May 2001. The work begun in 2001 included grinding wheat, buckwheat, rye and cornmeal. The Illinois tourism office describes a nine-story structure beside a levee walking path. Fulton also celebrates its Dutch heritage with Dutch Days, held each year on the first weekend in May.",
+      "notice": "The windmill stands on the Mississippi flood-control dike.",
       "at": [
-        -89.031,
-        41.907
+        -90.169,
+        41.867
       ]
     },
     {
       "title": "Franklin Grove",
       "kind": "town",
       "scene": "town",
-      "text": "The Lincoln Highway Association keeps its national headquarters here in a restored 1860 general store, built by Harry Isaac Lincoln, a cousin of Abraham's.",
+      "text": "A Lincoln family building became a home for Lincoln Highway preservation in Franklin Grove. Harry Isaac Lincoln, a cousin of the president, built the general store in 1860. The restored two-story limestone building houses the Lincoln Highway Association’s national headquarters. The original association, established in 1913, had planned, promoted and marked the highway as a national route. The association was re-formed in 1992 to preserve the road and improve access to its surviving sections and historic sites. Inside the store are road signs, photographs and reprinted guidebooks; outside, an original Lincoln Highway signpost marks the entrance.",
+      "notice": "An original Lincoln Highway signpost marks the entrance to the limestone store.",
       "at": [
         -89.3,
         41.841
@@ -33,48 +36,44 @@
       ]
     },
     {
-      "title": "Fulton",
+      "title": "Rochelle",
       "kind": "town",
-      "scene": "river",
-      "text": "The road ends at the Mississippi beside De Immigrant, a nine-story Dutch windmill by the levee, in a town that keeps Dutch Days the first weekend of May.",
+      "scene": "town",
+      "text": "Rochelle’s rail crossing served farmers shipping corn, wheat and other crops east. The Lincoln Highway and US 51 also passed through town, giving Rochelle the road connections behind its Hub City nickname. Passenger service ended in 1971, and the depot built in 1921 was demolished in 2007. The former Standard Oil filling station has been restored as a visitor center for byway travelers. Southwest of downtown, Railroad Park offers an observation pavilion beside the crossing. Visitors come from across the country to watch BNSF and Union Pacific trains pass through the intersection.",
       "at": [
-        -90.169,
-        41.867
+        -89.031,
+        41.907
       ]
     }
   ],
   "sources": [
     {
-      "label": "Enjoy Illinois, Journey along the Lincoln Highway",
-      "url": "https://www.enjoyillinois.com/things-to-do/illinois-scenic-byways/journey-along-the-lincoln-highway/"
-    },
-    {
       "label": "Wikipedia, Lincoln Highway",
       "url": "https://en.wikipedia.org/wiki/Lincoln_Highway"
+    },
+    {
+      "label": "Illinois Office of Tourism, Journey Along the Lincoln Highway",
+      "url": "https://www.enjoyillinois.com/things-to-do/illinois-scenic-byways/journey-along-the-lincoln-highway/"
     },
     {
       "label": "Wikipedia, Route of the Lincoln Highway",
       "url": "https://en.wikipedia.org/wiki/Route_of_the_Lincoln_Highway"
     },
     {
-      "label": "Wikipedia, DeKalb, Illinois",
-      "url": "https://en.wikipedia.org/wiki/DeKalb,_Illinois"
-    },
-    {
-      "label": "Wikipedia, Rochelle, Illinois",
-      "url": "https://en.wikipedia.org/wiki/Rochelle,_Illinois"
-    },
-    {
-      "label": "Wikipedia, Franklin Grove, Illinois",
-      "url": "https://en.wikipedia.org/wiki/Franklin_Grove,_Illinois"
+      "label": "Wikipedia, De Immigrant",
+      "url": "https://en.wikipedia.org/wiki/De_Immigrant"
     },
     {
       "label": "Wikipedia, Fulton, Illinois",
-      "url": "https://en.wikipedia.org/wiki/Fulton,_Illinois"
+      "url": "https://en.wikipedia.org/wiki/Fulton%2C_Illinois"
     },
     {
-      "label": "Wikipedia, De Immigrant",
-      "url": "https://en.wikipedia.org/wiki/De_Immigrant"
+      "label": "Wikipedia, Franklin Grove, Illinois",
+      "url": "https://en.wikipedia.org/wiki/Franklin_Grove%2C_Illinois"
+    },
+    {
+      "label": "Wikipedia, Rochelle, Illinois",
+      "url": "https://en.wikipedia.org/wiki/Rochelle%2C_Illinois"
     }
   ],
   "reviewed": false

@@ -1,20 +1,31 @@
 {
   "id": "flaming-gorge-uintas-national-scenic-byway-2008",
-  "tagline": "Past old seabeds to a dam named for a drowned gorge.",
+  "tagline": "Forest roads and a dam crossing connect ancient habitats with the Green River.",
   "motifs": [
     "switchbacks",
     "lake-wide"
   ],
   "intro": [
-    "North out of Vernal, US 191 climbs into the Uinta Mountains through formations that hold the record of warm shallow seas and Sahara-like dune fields, some 770 million years of it. Dinosaur bones, sharks' teeth and seashells turn up in this rock near Steinaker and Red Fleet. Then the road switchbacks to nearly 8,400 feet through aspen and pine and comes down toward Flaming Gorge.",
-    "There it forks. One branch crosses the dam to Dutch John and runs on to Wyoming. The other follows SR-44 along the south side of the reservoir and winds down through Sheep Creek Gap to Manila, a town named in 1898 for a naval victory on the far side of the Pacific."
+    "The Flaming Gorge-Uintas National Scenic Byway crosses Ashley National Forest between Manila and Vernal, with a branch over Flaming Gorge Dam toward Wyoming. US 191 climbs through switchbacks into the Uinta Mountains, while SR 44 winds through Sheep Creek Gap. The Forest Service’s theme, “Wildlife Through The Ages,” connects fossils with living habitats: aspen and pine forests, sandstone formations and streams lined with cottonwoods and willows. The Federal Highway Administration allows two hours for driving, including backtracking on Highway 44, or a day to explore.",
+    "A forest highway project linking Vernal and Manila was completed in 1926 and numbered SR 44 in 1927. Dam construction brought the Greendale area its first paved roads in the 1950s and 1960s. Later realignments changed the route through Ashley National Forest, and in 1981 the stretch south of Greendale Junction became part of US 191. National Scenic Byway designation followed in 1998.",
+    "Starting at Manila, take SR 44 south through Sheep Creek Gap and east toward Greendale Junction. The US 191 branch crosses the dam and reaches Dutch John before continuing toward Wyoming. Return to the junction for the mountain drive south to Vernal, passing Red Fleet and Steinaker state parks."
   ],
   "moments": [
+    {
+      "title": "Sheep Creek",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Sheep Creek brings the byway’s wildlife theme close to the road: the Forest Service says bighorn sheep can be seen on the rocky outcrops above the creek. Cottonwoods and willows along the stream shelter migrating songbirds. SR 44 makes a series of turns through Sheep Creek Gap near the reservoir’s southwestern tip. A separate route, the Sheep Creek Scenic Backway, crosses the geological area, where the Forest Service highlights twisted, colorful rock formations rising above travelers. The creek’s wooded streamside and the rocky outcrops offer two distinct habitats within this part of the drive.",
+      "notice": "Cottonwoods and willows line the creek below rocky outcrops.",
+      "motifs": [
+        "switchbacks"
+      ]
+    },
     {
       "title": "Flaming Gorge Dam",
       "kind": "roadside",
       "scene": "river",
-      "text": "The road crosses the top of a 502-foot concrete arch set in Red Canyon. The gorge John Wesley Powell named for its flaming red rock lies under the reservoir, almost 20 miles upstream.",
+      "text": "US 191 crosses the Green River on Flaming Gorge Dam, a concrete arch 502 feet high above its foundations. The dam stands in Red Canyon; the gorge that gave it its name lies beneath the reservoir almost 20 miles upstream. The Bureau of Reclamation built the dam between 1958 and 1964 for a system that stores and distributes upper Colorado River Basin water. The reservoir submerged four Green River gorges. Below the dam, releases are generally colder and clearer than the river’s naturally warm, silty flow, changing its ecology. The dam also generates hydroelectric power.",
       "at": [
         -109.4214,
         40.9144
@@ -27,50 +38,41 @@
       "title": "Dutch John",
       "kind": "town",
       "scene": "town",
-      "text": "Built by the Bureau of Reclamation in 1957 for the dam crews, once home to 3,500 people and now to about 140, plus the world's largest fishing fly, 32 feet long.",
+      "text": "Dutch John began as housing for the people building Flaming Gorge Dam. The Bureau of Reclamation laid out and began building the town in 1957; during peak construction, as many as 3,500 people lived here. After the dam was completed in 1964, a smaller community housed dam operations and maintenance staff and federal land-agency employees. The bureau owned the townsite and buildings until privatization in 1998, when buildings were sold to individual owners and undeveloped land passed to Daggett County. Residents voted to incorporate in 2014, and Dutch John officially became a town in January 2016.",
       "at": [
         -109.4042,
         40.93
-      ]
-    },
-    {
-      "title": "Sheep Creek",
-      "kind": "roadside",
-      "scene": "mountain",
-      "text": "Back on the Manila branch, bighorn sheep can be seen on the rocks above the creek, and its cottonwoods and willows hold more kinds of migrating songbirds than any other spot in Utah.",
-      "motifs": [
-        "switchbacks"
       ]
     }
   ],
   "sources": [
     {
-      "label": "USDA Forest Service, Ashley National Forest, Scenic Byways and Backways",
+      "label": "USDA Forest Service, Ashley National Forest: Scenic Byways and Backways",
       "url": "https://www.fs.usda.gov/r04/ashley/recreation/epic-adventures/scenic-byways-and-backways"
-    },
-    {
-      "label": "Visit Utah, Scenic Byways",
-      "url": "https://www.visitutah.com/things-to-do/road-trips/scenic-byways"
-    },
-    {
-      "label": "Wikipedia, Flaming Gorge-Uintas Scenic Byway",
-      "url": "https://en.wikipedia.org/wiki/Flaming_Gorge-Uintas_Scenic_Byway"
     },
     {
       "label": "Wikipedia, Flaming Gorge Dam",
       "url": "https://en.wikipedia.org/wiki/Flaming_Gorge_Dam"
     },
     {
-      "label": "Wikipedia, Dutch John, Utah",
-      "url": "https://en.wikipedia.org/wiki/Dutch_John,_Utah"
+      "label": "Wikipedia, Flaming Gorge-Uintas Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Flaming_Gorge-Uintas_Scenic_Byway"
     },
     {
-      "label": "Wikipedia, Manila, Utah",
-      "url": "https://en.wikipedia.org/wiki/Manila,_Utah"
+      "label": "Federal Highway Administration, Flaming Gorge-Uintas National Scenic Byway",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2008"
     },
     {
       "label": "Wikipedia, Utah State Route 44",
       "url": "https://en.wikipedia.org/wiki/Utah_State_Route_44"
+    },
+    {
+      "label": "Wikipedia, Greendale, Utah",
+      "url": "https://en.wikipedia.org/wiki/Greendale%2C_Utah"
+    },
+    {
+      "label": "Wikipedia, Dutch John, Utah",
+      "url": "https://en.wikipedia.org/wiki/Dutch_John%2C_Utah"
     }
   ],
   "reviewed": false

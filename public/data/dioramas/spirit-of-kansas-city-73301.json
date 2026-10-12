@@ -1,0 +1,119 @@
+{
+  "authored": false,
+  "bywayId": "spirit-of-kansas-city-73301",
+  "title": "Spirit of Kansas City",
+  "longitude": -94.5983,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -94.6106,
+        39.1181
+      ],
+      [
+        -94.6125,
+        39.1185
+      ],
+      [
+        -94.6155,
+        39.1141
+      ],
+      [
+        -94.6093,
+        39.1096
+      ],
+      [
+        -94.6033,
+        39.1076
+      ],
+      [
+        -94.5699,
+        39.107
+      ],
+      [
+        -94.5688,
+        39.1079
+      ],
+      [
+        -94.5704,
+        39.1078
+      ],
+      [
+        -94.5699,
+        39.107
+      ],
+      [
+        -94.5634,
+        39.1068
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "West Bottoms",
+      "model": "town-blocks",
+      "at": 0.3459034988188506,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "content/stories/spirit-of-kansas-city-73301.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

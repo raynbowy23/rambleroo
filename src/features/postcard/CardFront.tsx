@@ -78,7 +78,7 @@ export function CardFront({ byway, story, photo, choices, garage, milestone, rou
       data-card-front
     >
       {url ? (
-        <image href={url} width="400" height="267" preserveAspectRatio="xMidYMid slice" />
+        <image href={url} crossOrigin="anonymous" width="400" height="267" preserveAspectRatio="xMidYMid slice" />
       ) : (
         <Scene
           family={milestone?.scene ?? byway.scene}

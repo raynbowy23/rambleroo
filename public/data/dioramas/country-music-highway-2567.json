@@ -1,0 +1,466 @@
+{
+  "authored": false,
+  "bywayId": "country-music-highway-2567",
+  "title": "Country Music Highway",
+  "longitude": -82.8057,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -82.84263,
+        38.57722
+      ],
+      [
+        -82.78592,
+        38.5482
+      ],
+      [
+        -82.70719,
+        38.53748
+      ],
+      [
+        -82.6652,
+        38.48847
+      ],
+      [
+        -82.61781,
+        38.46563
+      ],
+      [
+        -82.59903,
+        38.41353
+      ],
+      [
+        -82.6117,
+        38.35213
+      ],
+      [
+        -82.57699,
+        38.31819
+      ],
+      [
+        -82.58334,
+        38.25819
+      ],
+      [
+        -82.61344,
+        38.23602
+      ],
+      [
+        -82.60209,
+        38.20582
+      ],
+      [
+        -82.60875,
+        38.17969
+      ],
+      [
+        -82.64527,
+        38.16597
+      ],
+      [
+        -82.62594,
+        38.11991
+      ],
+      [
+        -82.62697,
+        38.08627
+      ],
+      [
+        -82.63168,
+        38.05765
+      ],
+      [
+        -82.66502,
+        38.00935
+      ],
+      [
+        -82.65843,
+        37.994
+      ],
+      [
+        -82.67254,
+        37.97968
+      ],
+      [
+        -82.66978,
+        37.94942
+      ],
+      [
+        -82.6891,
+        37.92908
+      ],
+      [
+        -82.76696,
+        37.91006
+      ],
+      [
+        -82.77781,
+        37.87055
+      ],
+      [
+        -82.82384,
+        37.85111
+      ],
+      [
+        -82.83873,
+        37.81005
+      ],
+      [
+        -82.82781,
+        37.78264
+      ],
+      [
+        -82.78917,
+        37.74235
+      ],
+      [
+        -82.79385,
+        37.67169
+      ],
+      [
+        -82.78468,
+        37.65018
+      ],
+      [
+        -82.66361,
+        37.59364
+      ],
+      [
+        -82.66067,
+        37.57586
+      ],
+      [
+        -82.64169,
+        37.57339
+      ],
+      [
+        -82.64545,
+        37.56009
+      ],
+      [
+        -82.63072,
+        37.55662
+      ],
+      [
+        -82.62586,
+        37.53046
+      ],
+      [
+        -82.58564,
+        37.54257
+      ],
+      [
+        -82.56847,
+        37.52066
+      ],
+      [
+        -82.53421,
+        37.50723
+      ],
+      [
+        -82.5434,
+        37.48229
+      ],
+      [
+        -82.51917,
+        37.48253
+      ],
+      [
+        -82.53374,
+        37.47228
+      ],
+      [
+        -82.51684,
+        37.46129
+      ],
+      [
+        -82.52552,
+        37.44489
+      ],
+      [
+        -82.50475,
+        37.44665
+      ],
+      [
+        -82.55488,
+        37.36241
+      ],
+      [
+        -82.54728,
+        37.34556
+      ],
+      [
+        -82.55935,
+        37.3255
+      ],
+      [
+        -82.54363,
+        37.29967
+      ],
+      [
+        -82.55988,
+        37.28254
+      ],
+      [
+        -82.61236,
+        37.26801
+      ],
+      [
+        -82.62759,
+        37.21912
+      ],
+      [
+        -82.62248,
+        37.19847
+      ],
+      [
+        -82.64819,
+        37.15981
+      ],
+      [
+        -82.69269,
+        37.14943
+      ],
+      [
+        -82.72461,
+        37.15652
+      ],
+      [
+        -82.80304,
+        37.11112
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Paintsville",
+      "model": "town-blocks",
+      "at": 0.4817992968473298,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Butcher Hollow",
+      "model": "false-front-town",
+      "at": 0.5161765609209853,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Greenup",
+      "at": 0.003493737640079104,
+      "landmark": ""
+    },
+    {
+      "name": "Bellefonte",
+      "at": 0.07475280158206989,
+      "landmark": ""
+    },
+    {
+      "name": "England Hill",
+      "at": 0.13750823994726435,
+      "landmark": ""
+    },
+    {
+      "name": "Burnaugh",
+      "at": 0.20303230059327623,
+      "landmark": ""
+    },
+    {
+      "name": "Louisa",
+      "at": 0.2902439024390244,
+      "landmark": ""
+    },
+    {
+      "name": "Ulysses",
+      "at": 0.3752801582069875,
+      "landmark": ""
+    },
+    {
+      "name": "Nippa",
+      "at": 0.44073829927488467,
+      "landmark": ""
+    },
+    {
+      "name": "East Point",
+      "at": 0.5150955833882663,
+      "landmark": ""
+    },
+    {
+      "name": "Dwale",
+      "at": 0.588134475939354,
+      "landmark": ""
+    },
+    {
+      "name": "Harold",
+      "at": 0.6544495715227423,
+      "landmark": ""
+    },
+    {
+      "name": "Pikeville",
+      "at": 0.7293342122610416,
+      "landmark": ""
+    },
+    {
+      "name": "Esco",
+      "at": 0.807910349373764,
+      "landmark": ""
+    },
+    {
+      "name": "Beefhide",
+      "at": 0.8899802241265656,
+      "landmark": ""
+    },
+    {
+      "name": "Seco",
+      "at": 0.9599208965062624,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/country-music-highway-2567.json",
+    "public/data/strips/country-music-highway-2567.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

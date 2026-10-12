@@ -1,0 +1,402 @@
+{
+  "authored": false,
+  "bywayId": "mount-greylock-scenic-byway-2569",
+  "title": "Mount Greylock Scenic Byway",
+  "longitude": -73.1974,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -73.22619,
+        42.54811
+      ],
+      [
+        -73.21853,
+        42.54789
+      ],
+      [
+        -73.21437,
+        42.54973
+      ],
+      [
+        -73.215,
+        42.55348
+      ],
+      [
+        -73.2126,
+        42.55414
+      ],
+      [
+        -73.21277,
+        42.55563
+      ],
+      [
+        -73.21158,
+        42.55599
+      ],
+      [
+        -73.21048,
+        42.55985
+      ],
+      [
+        -73.21112,
+        42.56193
+      ],
+      [
+        -73.20581,
+        42.56997
+      ],
+      [
+        -73.20506,
+        42.57505
+      ],
+      [
+        -73.20276,
+        42.57708
+      ],
+      [
+        -73.20195,
+        42.58444
+      ],
+      [
+        -73.19686,
+        42.59077
+      ],
+      [
+        -73.19708,
+        42.5932
+      ],
+      [
+        -73.19968,
+        42.5941
+      ],
+      [
+        -73.20112,
+        42.59898
+      ],
+      [
+        -73.19931,
+        42.62081
+      ],
+      [
+        -73.19677,
+        42.62274
+      ],
+      [
+        -73.18863,
+        42.625
+      ],
+      [
+        -73.1838,
+        42.6295
+      ],
+      [
+        -73.17751,
+        42.63282
+      ],
+      [
+        -73.17819,
+        42.63105
+      ],
+      [
+        -73.17634,
+        42.63234
+      ],
+      [
+        -73.17163,
+        42.63286
+      ],
+      [
+        -73.16631,
+        42.63866
+      ],
+      [
+        -73.16464,
+        42.63835
+      ],
+      [
+        -73.16459,
+        42.63539
+      ],
+      [
+        -73.17086,
+        42.63398
+      ],
+      [
+        -73.17256,
+        42.63623
+      ],
+      [
+        -73.17278,
+        42.63852
+      ],
+      [
+        -73.17157,
+        42.64033
+      ],
+      [
+        -73.16358,
+        42.6425
+      ],
+      [
+        -73.16078,
+        42.64768
+      ],
+      [
+        -73.16164,
+        42.65295
+      ],
+      [
+        -73.16806,
+        42.6557
+      ],
+      [
+        -73.16736,
+        42.65727
+      ],
+      [
+        -73.16303,
+        42.65953
+      ],
+      [
+        -73.16077,
+        42.66295
+      ],
+      [
+        -73.16368,
+        42.66313
+      ],
+      [
+        -73.16463,
+        42.66453
+      ],
+      [
+        -73.16644,
+        42.66472
+      ],
+      [
+        -73.16772,
+        42.67098
+      ],
+      [
+        -73.16434,
+        42.67184
+      ],
+      [
+        -73.16187,
+        42.67564
+      ],
+      [
+        -73.15943,
+        42.67462
+      ],
+      [
+        -73.15153,
+        42.67455
+      ],
+      [
+        -73.14948,
+        42.67343
+      ],
+      [
+        -73.15085,
+        42.67578
+      ],
+      [
+        -73.14645,
+        42.67492
+      ],
+      [
+        -73.14523,
+        42.67741
+      ],
+      [
+        -73.14072,
+        42.67355
+      ],
+      [
+        -73.13548,
+        42.67385
+      ],
+      [
+        -73.12873,
+        42.68756
+      ],
+      [
+        -73.11987,
+        42.69133
+      ],
+      [
+        -73.1152,
+        42.6974
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "North Adams",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Saddle Ball Mountain",
+      "at": 0.37341040462427744,
+      "landmark": ""
+    },
+    {
+      "name": "Mount Greylock",
+      "at": 0.49009650964469137,
+      "landmark": ""
+    },
+    {
+      "name": "Mount Fitch",
+      "at": 0.6358381502890174,
+      "landmark": ""
+    },
+    {
+      "name": "North Adams",
+      "at": 1,
+      "landmark": "North Adams"
+    }
+  ],
+  "sources": [
+    "content/stories/mount-greylock-scenic-byway-2569.json",
+    "public/data/strips/mount-greylock-scenic-byway-2569.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

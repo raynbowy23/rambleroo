@@ -1,0 +1,452 @@
+{
+  "authored": false,
+  "bywayId": "pawnee-pioneer-trails-2113",
+  "title": "Pawnee Pioneer Trails",
+  "longitude": -104.2805,
+  "ground": "prairie-grid",
+  "palette": "prairie",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -104.73191,
+        40.5824
+      ],
+      [
+        -104.59492,
+        40.58049
+      ],
+      [
+        -104.59047,
+        40.58278
+      ],
+      [
+        -104.53051,
+        40.63626
+      ],
+      [
+        -104.52476,
+        40.63861
+      ],
+      [
+        -104.33257,
+        40.63959
+      ],
+      [
+        -104.33485,
+        40.64505
+      ],
+      [
+        -104.33453,
+        40.87233
+      ],
+      [
+        -104.28763,
+        40.87184
+      ],
+      [
+        -104.28634,
+        40.8723
+      ],
+      [
+        -104.2855,
+        40.87407
+      ],
+      [
+        -104.28433,
+        40.87424
+      ],
+      [
+        -104.27995,
+        40.87179
+      ],
+      [
+        -104.22505,
+        40.87129
+      ],
+      [
+        -104.22468,
+        40.86965
+      ],
+      [
+        -104.17165,
+        40.79842
+      ],
+      [
+        -104.1327,
+        40.79806
+      ],
+      [
+        -104.13111,
+        40.79866
+      ],
+      [
+        -104.05875,
+        40.79902
+      ],
+      [
+        -104.05493,
+        40.80023
+      ],
+      [
+        -104.04914,
+        40.80039
+      ],
+      [
+        -104.04867,
+        40.79939
+      ],
+      [
+        -104.01904,
+        40.80131
+      ],
+      [
+        -104.01706,
+        40.80062
+      ],
+      [
+        -104.01373,
+        40.80272
+      ],
+      [
+        -104.01293,
+        40.80227
+      ],
+      [
+        -104.01132,
+        40.78663
+      ],
+      [
+        -103.99311,
+        40.78685
+      ],
+      [
+        -103.99299,
+        40.79423
+      ],
+      [
+        -103.97482,
+        40.79444
+      ],
+      [
+        -103.97381,
+        40.78753
+      ],
+      [
+        -103.97298,
+        40.787
+      ],
+      [
+        -103.86045,
+        40.78767
+      ],
+      [
+        -103.85919,
+        40.70425
+      ],
+      [
+        -103.84854,
+        40.69555
+      ],
+      [
+        -103.84869,
+        40.67187
+      ],
+      [
+        -103.84201,
+        40.66669
+      ],
+      [
+        -103.83929,
+        40.66213
+      ],
+      [
+        -103.83971,
+        40.60724
+      ],
+      [
+        -103.82474,
+        40.61113
+      ],
+      [
+        -103.80177,
+        40.61135
+      ],
+      [
+        -103.80336,
+        40.53397
+      ],
+      [
+        -103.80347,
+        40.44566
+      ],
+      [
+        -103.8007,
+        40.44004
+      ],
+      [
+        -103.79962,
+        40.42993
+      ],
+      [
+        -103.80384,
+        40.42468
+      ],
+      [
+        -103.80425,
+        40.39379
+      ],
+      [
+        -103.80345,
+        40.39042
+      ],
+      [
+        -103.79855,
+        40.38261
+      ],
+      [
+        -103.79814,
+        40.38066
+      ],
+      [
+        -103.79888,
+        40.37841
+      ],
+      [
+        -103.80516,
+        40.37036
+      ],
+      [
+        -103.80479,
+        40.34892
+      ],
+      [
+        -103.80084,
+        40.34433
+      ],
+      [
+        -103.80018,
+        40.34241
+      ],
+      [
+        -103.80147,
+        40.25399
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Grover",
+      "model": "town-blocks",
+      "at": 0.4097777195953574,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Raymer",
+      "model": "town-blocks",
+      "at": 0.7505035029068439,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "field",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.125,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.375,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.4583333333333333,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.625,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "hardwood",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.9,
+      "scale": 0.8
+    },
+    {
+      "model": "field",
+      "at": 0.875,
+      "side": -1,
+      "distance": 1.3,
+      "scale": 1.3
+    },
+    {
+      "model": "field",
+      "at": 0.9583333333333334,
+      "side": 1,
+      "distance": 1.3,
+      "scale": 1.3
+    }
+  ],
+  "towns": [
+    {
+      "name": "Ault",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Briggsdale",
+      "at": 0.20899908172635445,
+      "landmark": ""
+    },
+    {
+      "name": "Grover",
+      "at": 0.4099173553719008,
+      "landmark": "Grover"
+    },
+    {
+      "name": "Raymer",
+      "at": 0.7506887052341598,
+      "landmark": "Raymer"
+    },
+    {
+      "name": "Sterling",
+      "at": 0.7700593955893428,
+      "landmark": ""
+    },
+    {
+      "name": "Stoneham",
+      "at": 0.7730504916229041,
+      "landmark": ""
+    },
+    {
+      "name": "Fort Morgan",
+      "at": 0.9954086317722681,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/pawnee-pioneer-trails-2113.json",
+    "public/data/strips/pawnee-pioneer-trails-2113.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

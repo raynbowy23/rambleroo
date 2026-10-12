@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
-import photoData from '../../../content/photos.json'
-import type { Photo } from '../../lib/types'
+import { loadPhotos } from '../../lib/data'
 import type { StripData } from './types'
 
 let indexPromise: Promise<string[]> | undefined
@@ -13,8 +12,8 @@ export function loadStripIndex() {
   }))
 }
 /** Town photos live in the photo registry (content/photos.json, `town` field), so reviewed additions show up without rebuilding strips. */
-function withTownPhotos(data: StripData): StripData {
-  const photos = (photoData as Photo[]).filter((photo) => photo.bywayId === data.bywayId && photo.town)
+async function withTownPhotos(data: StripData): Promise<StripData> {
+  const photos = (await loadPhotos(data.bywayId)).filter((photo) => photo.town)
   return { ...data, towns: data.towns.map((town) => ({ ...town, photo: town.photo ?? photos.find((photo) => photo.town === town.name) })) }
 }
 const cache = new Map<string, Promise<StripData | undefined>>()

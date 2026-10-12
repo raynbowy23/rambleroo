@@ -1,20 +1,21 @@
 {
   "id": "big-bend-scenic-byway-2599",
-  "tagline": "Two days, two trails, pines one way and Gulf the other.",
+  "tagline": "Pine forests, Gulf shores and crossings that changed coastal travel",
   "motifs": [
     "harbor-village",
     "lighthouse"
   ],
   "intro": [
-    "Out of Tallahassee the city lights give way to two trails, one through tall pines and one along the Gulf. The Gulf road follows US 98 from Newport through Medart, Panacea and Carrabelle to Apalachicola, with spurs down to St. Marks and out to St. George Island. Its keepers recommend two days at the least.",
-    "This is where the Gulf Coast curves westward, a shore of seagrass beds, marshes and winding rivers. More than 300 kinds of birds live in the region, and about 30 species of carnivorous plants, more than in any area its size in the world."
+    "The Big Bend Scenic Byway combines a Forest Trail through sand hills, hardwoods, pines and river floodplains with a Coastal Trail along Florida’s Gulf shore. US 98 links the coastal towns, with separate roads reaching St. Marks and St. George Island. A western forest branch follows SR 65 down to US 98 at the coast. The Federal Highway Administration identifies it as a National Scenic Byway and emphasizes its forests, wetlands, barrier islands and bays. The byway organization recommends at least two days for its 220 miles.",
+    "Road crossings changed travel along this coast before the scenic designation. The John Gorrie Memorial Bridge connected Apalachicola and Eastpoint in 1935 and was rebuilt in 1988. St. George Island’s first bridges opened in 1965, replacing ferry travel; the present bridge opened in 2004. Florida’s scenic-highway program records the byway’s designation on November 14, 2006.",
+    "Begin at Newport, with the separate CR 59 excursion to St. Marks National Wildlife Refuge and its lighthouse. Back at Newport, the forest loop turns northwest toward Tallahassee, west on SR 20 and south to Sopchoppy before rejoining US 98. Follow the coast west to Carrabelle, then Eastpoint, where the St. George Island bridge branches south. Continue across the bay on US 98 to finish in Apalachicola."
   ],
   "moments": [
     {
       "title": "St. Marks Light",
       "kind": "separate excursion",
       "scene": "coast",
-      "text": "Florida's second-oldest light station stands at the mouth of the St. Marks River on Apalachee Bay. The first tower built for it was turned down for having hollow walls.",
+      "text": "The first tower’s hollow walls failed inspection: customs collector Jesse H. Williams refused to accept the work. Calvin Knowlton rebuilt it, and the light was accepted and lit in 1831. The light served a port where boats carrying agricultural cargo could run aground in the shallow bay and river. That was not the end of construction. Erosion forced a replacement tower farther inland in 1842; Civil War damage required another rebuilding afterward. The station stands at the St. Marks River’s mouth on Apalachee Bay. A replica Fresnel lens was lit in 2019, and the light now operates seasonally as a private aid to navigation.",
       "at": [
         -84.18,
         30.072
@@ -27,7 +28,7 @@
       "title": "Sopchoppy",
       "kind": "town",
       "scene": "town",
-      "text": "The 1894 depot, now a museum, served a line locals called the Gopher, Frog and Alligator, which hauled turpentine, honey, oysters in iced barrels and caviar from Sopchoppy River sturgeon.",
+      "text": "Oysters packed in ice-filled barrels and caviar from Sopchoppy River sturgeon once traveled by rail through this town. The line also carried lumber, turpentine, honey and farm produce. In 1894, the Carrabelle, Tallahassee & Georgia Railroad laid out a town on its own land across the river from Greenough. Its advertising exaggerated the soil and climate to attract settlers. Soldiers traveled the line too, alongside shipments of frog legs and catfish. The depot dates from the same year, and the rail line closed in 1946. The depot is now a museum, preserving a building from that railway settlement.",
       "at": [
         -84.496,
         30.059
@@ -37,7 +38,8 @@
       "title": "Carrabelle",
       "kind": "town",
       "scene": "coast",
-      "text": "A Gulf town at the mouth of the Carrabelle River, named for its founder's niece, who became its first postmaster. The hurricane of 1899 left it nine homes.",
+      "text": "Carrabelle sits at its namesake river’s mouth on the Gulf of Mexico. The phone booth beside US 98 is a replica; Carrabelle’s original miniature police station is displayed in the history museum. It began in 1963 as a practical solution to a police telephone exposed to the weather. Telephone employee Johnnie Mirabella put the police phone into a retired booth, with help moving it from deputy Curly Messer. The shelter kept officers dry, but tourists continued slipping inside to make long-distance calls. The eventual remedy was simple: remove the dial.",
+      "notice": "The roadside phone booth is a replica; the original is displayed in the Carrabelle History Museum.",
       "at": [
         -84.665,
         29.868
@@ -49,12 +51,24 @@
   ],
   "sources": [
     {
-      "label": "Big Bend Scenic Byway",
+      "label": "Federal Highway Administration, Big Bend Scenic Byway (archived)",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2599"
+    },
+    {
+      "label": "Florida Department of Transportation, Big Bend Scenic Byway (archived Florida Scenic Highways profile)",
+      "url": "https://web.archive.org/web/20240717123949/https://floridascenichighways.com/our-byways/panhandle-region/big-bend-scenic-byway/"
+    },
+    {
+      "label": "Wikipedia, St. George Island Bridge",
+      "url": "https://en.wikipedia.org/wiki/St._George_Island_Bridge"
+    },
+    {
+      "label": "Big Bend Scenic Byway, About the Scenic Byway",
       "url": "https://www.floridabigbendscenicbyway.com/"
     },
     {
-      "label": "Florida Scenic Highways, Big Bend Scenic Byway (archived)",
-      "url": "https://web.archive.org/web/20240717123949/https://floridascenichighways.com/our-byways/panhandle-region/big-bend-scenic-byway/"
+      "label": "Wikipedia, Apalachicola, Florida",
+      "url": "https://en.wikipedia.org/wiki/Apalachicola%2C_Florida"
     },
     {
       "label": "Wikipedia, St. Marks Light",
@@ -62,11 +76,11 @@
     },
     {
       "label": "Wikipedia, Sopchoppy, Florida",
-      "url": "https://en.wikipedia.org/wiki/Sopchoppy,_Florida"
+      "url": "https://en.wikipedia.org/wiki/Sopchoppy%2C_Florida"
     },
     {
       "label": "Wikipedia, Carrabelle, Florida",
-      "url": "https://en.wikipedia.org/wiki/Carrabelle,_Florida"
+      "url": "https://en.wikipedia.org/wiki/Carrabelle%2C_Florida"
     }
   ],
   "reviewed": false

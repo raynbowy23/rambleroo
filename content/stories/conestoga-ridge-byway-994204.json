@@ -1,0 +1,84 @@
+{
+  "id": "conestoga-ridge-byway-994204",
+  "tagline": "A ridge road above farm valleys, through Goodville and Churchtown.",
+  "motifs": [
+    "rolling-ridges",
+    "steeple-town"
+  ],
+  "intro": [
+    "The Conestoga Ridge Byway carries PA 23 through Lancaster County farmland between Blue Ball and PA 10 west of Morgantown. PennDOT describes a ridge overlooking the Conestoga River and valleys, with small Amish and Mennonite farms and wooded hillsides. Designated in 2013, the byway runs through Goodville and Churchtown, where the highway serves as Main Street. PennDOT’s byway record also notes that local ordinances prohibit off-premise signs along the designated road.",
+    "At Blue Ball, the crossroads has an earlier history: John Wallace built his inn where the Native American French Creek Path met the Paxtang trail. This stretch belonged to the Morgantown, Churchtown, and Blue Ball Turnpike, chartered in 1814 and completed in 1819. Built along the Horse-Shoe Road, the turnpike connected Blue Ball with Little Conestoga in Morgantown. PA 23 received its number in 1927 as part of a longer highway from Lancaster toward Philadelphia; its entire length was paved when designated.",
+    "Start eastward at Blue Ball’s US 322 crossroads, then follow PA 23 through farmland and Goodville. The road crosses the Conestoga River before entering Churchtown. Beyond the village it curves north-northeast through rural country to PA 10, the byway’s eastern boundary west of Morgantown."
+  ],
+  "moments": [
+    {
+      "title": "Blue Ball",
+      "kind": "town",
+      "scene": "town",
+      "text": "A hanging sign gave Blue Ball its name; the inn that carried it is gone. Early in the eighteenth century, John Wallace built at the meeting of the Native American French Creek Path and Paxtang trail, now associated with PA 23 and US 322. Local usage followed his blue-ball sign, and Earl Town formally became Blue Ball in 1833. The inn stood on the southeastern corner of that intersection. The inn later took the name Blue Ball Hotel and was demolished in 1997. The two highways continue to meet in the center of town.",
+      "at": [
+        -76.0472,
+        40.1186
+      ]
+    },
+    {
+      "title": "Churchtown",
+      "kind": "town",
+      "scene": "town",
+      "text": "PA 23 serves as Main Street in Churchtown, a village on a ridge that drains south to the Conestoga River. The first settlers of the Lancaster Amish settlement settled nearby. The village also includes Bangor Episcopal Church and the Edward Davies House, both on the National Register of Historic Places. Built about 1805, the stone Davies house combined a shop in its eastern section with living quarters to the west and an old kitchen at the rear. The house’s T-shaped plan joins those three sections in a two-and-a-half-story Federal-style stone dwelling.",
+      "at": [
+        -75.9647,
+        40.1331
+      ]
+    },
+    {
+      "title": "Bangor Episcopal Church",
+      "kind": "town",
+      "scene": "town",
+      "text": "Bangor’s steeple came later than its brownstone walls. Built in 1830, the Churchtown church is a rectangular Gothic Revival building, with a steep slate roof and art-glass windows set in Gothic arches. The steeple was added about 1880. A frame school building from 1844 belongs to the same complex, but uses the Greek Revival style. The school is a single-story building with three bays, a smaller companion to the church. The churchyard contains graves dating from the Revolutionary War onward. The complex entered the National Register of Historic Places in 1978.",
+      "notice": "Look for Gothic arches in the art-glass windows and the steep slate roof.",
+      "at": [
+        -75.9617,
+        40.1336
+      ],
+      "motifs": [
+        "steeple-town"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "PennDOT, Pennsylvania Byways map descriptions",
+      "url": "https://services.arcgis.com/r2LkBfrj09zQhbhB/arcgis/rest/services/PAByways_Simple_Descript/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "VisitPA, Conestoga Ridge Road PA Scenic Byway",
+      "url": "https://www.visitpa.com/listing/conestoga-ridge-road-pa-scenic-byway/1514/"
+    },
+    {
+      "label": "Wikipedia, Churchtown, Pennsylvania",
+      "url": "https://en.wikipedia.org/wiki/Churchtown%2C_Pennsylvania"
+    },
+    {
+      "label": "PennDOT, Pennsylvania Byways",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
+    },
+    {
+      "label": "Wikipedia, Blue Ball, Pennsylvania",
+      "url": "https://en.wikipedia.org/wiki/Blue_Ball%2C_Pennsylvania"
+    },
+    {
+      "label": "Wikipedia, Pennsylvania Route 23",
+      "url": "https://en.wikipedia.org/wiki/Pennsylvania_Route_23"
+    },
+    {
+      "label": "Wikipedia, Edward Davies House",
+      "url": "https://en.wikipedia.org/wiki/Edward_Davies_House"
+    },
+    {
+      "label": "Wikipedia, Bangor Episcopal Church",
+      "url": "https://en.wikipedia.org/wiki/Bangor_Episcopal_Church"
+    }
+  ],
+  "reviewed": false
+}

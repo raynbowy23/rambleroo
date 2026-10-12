@@ -1,0 +1,424 @@
+{
+  "authored": false,
+  "bywayId": "yadkin-valley-scenic-byway-993711",
+  "title": "Yadkin Valley Scenic Byway",
+  "longitude": -80.8689,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -80.77863,
+        36.50808
+      ],
+      [
+        -80.75673,
+        36.48438
+      ],
+      [
+        -80.77408,
+        36.47461
+      ],
+      [
+        -80.76783,
+        36.46673
+      ],
+      [
+        -80.76986,
+        36.4579
+      ],
+      [
+        -80.80585,
+        36.46133
+      ],
+      [
+        -80.8483,
+        36.4462
+      ],
+      [
+        -80.85644,
+        36.45093
+      ],
+      [
+        -80.86743,
+        36.43449
+      ],
+      [
+        -80.87249,
+        36.43528
+      ],
+      [
+        -80.86004,
+        36.41856
+      ],
+      [
+        -80.85088,
+        36.41582
+      ],
+      [
+        -80.84103,
+        36.39681
+      ],
+      [
+        -80.82337,
+        36.39754
+      ],
+      [
+        -80.81224,
+        36.39183
+      ],
+      [
+        -80.79754,
+        36.39736
+      ],
+      [
+        -80.72298,
+        36.39659
+      ],
+      [
+        -80.71228,
+        36.37973
+      ],
+      [
+        -80.69265,
+        36.36929
+      ],
+      [
+        -80.68996,
+        36.33834
+      ],
+      [
+        -80.68079,
+        36.33254
+      ],
+      [
+        -80.67503,
+        36.3125
+      ],
+      [
+        -80.66719,
+        36.30562
+      ],
+      [
+        -80.67358,
+        36.29677
+      ],
+      [
+        -80.67113,
+        36.28214
+      ],
+      [
+        -80.65235,
+        36.27567
+      ],
+      [
+        -80.64794,
+        36.26566
+      ],
+      [
+        -80.65641,
+        36.22687
+      ],
+      [
+        -80.64709,
+        36.18741
+      ],
+      [
+        -80.65638,
+        36.18217
+      ],
+      [
+        -80.66065,
+        36.16849
+      ],
+      [
+        -80.65514,
+        36.15433
+      ],
+      [
+        -80.67706,
+        36.13535
+      ],
+      [
+        -80.70594,
+        36.13412
+      ],
+      [
+        -80.7129,
+        36.12754
+      ],
+      [
+        -80.74061,
+        36.12031
+      ],
+      [
+        -80.79626,
+        36.12001
+      ],
+      [
+        -80.86589,
+        36.13988
+      ],
+      [
+        -80.86408,
+        36.1583
+      ],
+      [
+        -80.86938,
+        36.17575
+      ],
+      [
+        -80.86281,
+        36.19575
+      ],
+      [
+        -80.86401,
+        36.22171
+      ],
+      [
+        -80.84018,
+        36.23037
+      ],
+      [
+        -80.85197,
+        36.24918
+      ],
+      [
+        -80.8478,
+        36.25796
+      ],
+      [
+        -80.85354,
+        36.2678
+      ],
+      [
+        -80.85275,
+        36.28866
+      ],
+      [
+        -80.84654,
+        36.2929
+      ],
+      [
+        -80.84324,
+        36.30601
+      ],
+      [
+        -80.83465,
+        36.31095
+      ],
+      [
+        -80.80879,
+        36.30915
+      ],
+      [
+        -80.79812,
+        36.32418
+      ],
+      [
+        -80.81047,
+        36.35
+      ],
+      [
+        -80.81088,
+        36.36301
+      ],
+      [
+        -80.81806,
+        36.3703
+      ],
+      [
+        -80.81264,
+        36.39112
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Round Peak",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rockford",
+      "model": "town-blocks",
+      "at": 0.4426786630745113,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Round Peak",
+      "at": 0,
+      "landmark": "Round Peak"
+    },
+    {
+      "name": "Dobson",
+      "at": 0.29885786802030456,
+      "landmark": ""
+    },
+    {
+      "name": "Rockford",
+      "at": 0.44238578680203045,
+      "landmark": "Rockford"
+    },
+    {
+      "name": "Yadkinville",
+      "at": 0.5681472081218275,
+      "landmark": ""
+    },
+    {
+      "name": "Brooks Crossroads",
+      "at": 0.6515228426395939,
+      "landmark": ""
+    },
+    {
+      "name": "Jonesville",
+      "at": 0.816751269035533,
+      "landmark": ""
+    },
+    {
+      "name": "Zephyr",
+      "at": 0.9771573604060914,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/yadkin-valley-scenic-byway-993711.json",
+    "public/data/strips/yadkin-valley-scenic-byway-993711.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

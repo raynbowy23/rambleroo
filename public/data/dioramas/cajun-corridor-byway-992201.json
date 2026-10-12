@@ -1,0 +1,391 @@
+{
+  "authored": false,
+  "bywayId": "cajun-corridor-byway-992201",
+  "title": "Cajun Corridor Byway",
+  "longitude": -92.3413,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -92.51377,
+        30.02571
+      ],
+      [
+        -92.49926,
+        30.02579
+      ],
+      [
+        -92.498,
+        30.02557
+      ],
+      [
+        -92.49671,
+        30.02481
+      ],
+      [
+        -92.49601,
+        30.0239
+      ],
+      [
+        -92.49573,
+        30.02297
+      ],
+      [
+        -92.49557,
+        30.00982
+      ],
+      [
+        -92.49527,
+        30.00897
+      ],
+      [
+        -92.49456,
+        30.0081
+      ],
+      [
+        -92.49369,
+        30.00754
+      ],
+      [
+        -92.49257,
+        30.00722
+      ],
+      [
+        -92.41198,
+        30.00746
+      ],
+      [
+        -92.39414,
+        30.00553
+      ],
+      [
+        -92.31672,
+        30.00685
+      ],
+      [
+        -92.31522,
+        30.00657
+      ],
+      [
+        -92.29669,
+        30.00107
+      ],
+      [
+        -92.29338,
+        30.00051
+      ],
+      [
+        -92.27521,
+        29.9951
+      ],
+      [
+        -92.27224,
+        29.99381
+      ],
+      [
+        -92.26484,
+        29.99163
+      ],
+      [
+        -92.26292,
+        29.99152
+      ],
+      [
+        -92.19161,
+        29.99142
+      ],
+      [
+        -92.16161,
+        29.98738
+      ],
+      [
+        -92.16034,
+        29.98706
+      ],
+      [
+        -92.15701,
+        29.98541
+      ],
+      [
+        -92.15477,
+        29.98484
+      ],
+      [
+        -92.15333,
+        29.98059
+      ],
+      [
+        -92.15198,
+        29.97803
+      ],
+      [
+        -92.15108,
+        29.97723
+      ],
+      [
+        -92.14969,
+        29.97676
+      ],
+      [
+        -92.14001,
+        29.97545
+      ],
+      [
+        -92.13745,
+        29.9741
+      ],
+      [
+        -92.13635,
+        29.97415
+      ],
+      [
+        -92.11904,
+        29.97144
+      ],
+      [
+        -92.1179,
+        29.97154
+      ],
+      [
+        -92.11518,
+        29.97271
+      ],
+      [
+        -92.11383,
+        29.97295
+      ],
+      [
+        -92.10264,
+        29.97129
+      ],
+      [
+        -92.1022,
+        29.97134
+      ],
+      [
+        -92.10183,
+        29.97164
+      ],
+      [
+        -92.09958,
+        29.97087
+      ],
+      [
+        -92.09065,
+        29.9694
+      ],
+      [
+        -92.06636,
+        29.96234
+      ],
+      [
+        -92.05922,
+        29.96139
+      ],
+      [
+        -92.05804,
+        29.96143
+      ],
+      [
+        -92.05656,
+        29.96171
+      ],
+      [
+        -92.05633,
+        29.96117
+      ],
+      [
+        -92.0557,
+        29.96088
+      ],
+      [
+        -92.0185,
+        29.95578
+      ],
+      [
+        -92.0177,
+        29.95597
+      ],
+      [
+        -92.01706,
+        29.95675
+      ],
+      [
+        -92.01698,
+        29.9565
+      ],
+      [
+        -92.01555,
+        29.95578
+      ],
+      [
+        -92.01361,
+        29.95519
+      ],
+      [
+        -92.00743,
+        29.95443
+      ],
+      [
+        -91.98279,
+        29.95094
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Kaplan",
+      "model": "town-blocks",
+      "at": 0.44668582060255946,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Abbeville",
+      "model": "town-blocks",
+      "at": 0.7585488809398214,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Delcambre",
+      "model": "harbor",
+      "at": 0.9708779166182574,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Delcambre",
+      "model": "town-blocks",
+      "at": 0.9708779166182574,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Gueydan",
+      "at": 0.017159763313609466,
+      "landmark": ""
+    },
+    {
+      "name": "Kaplan",
+      "at": 0.4473372781065089,
+      "landmark": "Kaplan"
+    },
+    {
+      "name": "Nunez",
+      "at": 0.5428994082840237,
+      "landmark": ""
+    },
+    {
+      "name": "Abbeville",
+      "at": 0.7591715976331361,
+      "landmark": "Abbeville"
+    },
+    {
+      "name": "Erath",
+      "at": 0.9011834319526628,
+      "landmark": ""
+    },
+    {
+      "name": "Bob Acres",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/cajun-corridor-byway-992201.json",
+    "public/data/strips/cajun-corridor-byway-992201.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

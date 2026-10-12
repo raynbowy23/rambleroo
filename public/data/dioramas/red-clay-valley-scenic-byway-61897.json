@@ -1,0 +1,342 @@
+{
+  "authored": false,
+  "bywayId": "red-clay-valley-scenic-byway-61897",
+  "title": "Red Clay Valley Scenic Byway",
+  "longitude": -75.6812,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -75.62639,
+        39.83146
+      ],
+      [
+        -75.67578,
+        39.80823
+      ],
+      [
+        -75.65898,
+        39.82298
+      ],
+      [
+        -75.64817,
+        39.82007
+      ],
+      [
+        -75.64919,
+        39.82637
+      ],
+      [
+        -75.65773,
+        39.80022
+      ],
+      [
+        -75.62558,
+        39.79057
+      ],
+      [
+        -75.63947,
+        39.78627
+      ],
+      [
+        -75.68035,
+        39.80606
+      ],
+      [
+        -75.68091,
+        39.81371
+      ],
+      [
+        -75.65266,
+        39.81479
+      ],
+      [
+        -75.65426,
+        39.82165
+      ],
+      [
+        -75.66275,
+        39.80305
+      ],
+      [
+        -75.66642,
+        39.80826
+      ],
+      [
+        -75.62837,
+        39.78975
+      ],
+      [
+        -75.62504,
+        39.8014
+      ],
+      [
+        -75.64278,
+        39.78094
+      ],
+      [
+        -75.66484,
+        39.77852
+      ],
+      [
+        -75.69397,
+        39.80293
+      ],
+      [
+        -75.68035,
+        39.80606
+      ],
+      [
+        -75.68797,
+        39.79506
+      ],
+      [
+        -75.67159,
+        39.78395
+      ],
+      [
+        -75.6585,
+        39.79676
+      ],
+      [
+        -75.66714,
+        39.81997
+      ],
+      [
+        -75.65266,
+        39.81479
+      ],
+      [
+        -75.66278,
+        39.8109
+      ],
+      [
+        -75.64349,
+        39.81853
+      ],
+      [
+        -75.62316,
+        39.81202
+      ],
+      [
+        -75.61562,
+        39.80732
+      ],
+      [
+        -75.62504,
+        39.8014
+      ],
+      [
+        -75.61798,
+        39.79119
+      ],
+      [
+        -75.62333,
+        39.76899
+      ],
+      [
+        -75.60311,
+        39.77147
+      ],
+      [
+        -75.59871,
+        39.76529
+      ],
+      [
+        -75.59832,
+        39.77891
+      ],
+      [
+        -75.65,
+        39.7851
+      ],
+      [
+        -75.6585,
+        39.79676
+      ],
+      [
+        -75.64007,
+        39.79161
+      ],
+      [
+        -75.65303,
+        39.80744
+      ],
+      [
+        -75.65818,
+        39.80043
+      ],
+      [
+        -75.67578,
+        39.80823
+      ],
+      [
+        -75.68697,
+        39.79139
+      ],
+      [
+        -75.63516,
+        39.80684
+      ],
+      [
+        -75.61988,
+        39.82637
+      ],
+      [
+        -75.64591,
+        39.81941
+      ],
+      [
+        -75.62316,
+        39.81202
+      ],
+      [
+        -75.62766,
+        39.78773
+      ],
+      [
+        -75.63549,
+        39.78567
+      ],
+      [
+        -75.62189,
+        39.7834
+      ],
+      [
+        -75.62333,
+        39.76899
+      ],
+      [
+        -75.64048,
+        39.7764
+      ],
+      [
+        -75.62916,
+        39.76734
+      ],
+      [
+        -75.63569,
+        39.76293
+      ],
+      [
+        -75.6338,
+        39.76908
+      ],
+      [
+        -75.62421,
+        39.76188
+      ],
+      [
+        -75.62333,
+        39.76899
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Ashland Covered Bridge",
+      "model": "covered-bridge",
+      "at": 0.17813723416576888,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Auburn Valley State Park",
+      "model": "gristmill",
+      "at": 0.20357459605568204,
+      "offset": "roadside",
+      "notes": "Story moment 2; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Ashland",
+      "at": 0.17963224893917962,
+      "landmark": ""
+    },
+    {
+      "name": "Loveville",
+      "at": 0.3755304101838755,
+      "landmark": ""
+    },
+    {
+      "name": "Guyencourt",
+      "at": 0.5533246415398098,
+      "landmark": ""
+    },
+    {
+      "name": "Greenville",
+      "at": 0.6363507779349363,
+      "landmark": ""
+    },
+    {
+      "name": "Centerville",
+      "at": 0.883026874115983,
+      "landmark": ""
+    },
+    {
+      "name": "Wooddale",
+      "at": 0.9789250353606788,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/red-clay-valley-scenic-byway-61897.json",
+    "public/data/strips/red-clay-valley-scenic-byway-61897.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,409 @@
+{
+  "authored": false,
+  "bywayId": "kings-hill-scenic-byway-2055",
+  "title": "Kings Hill Scenic Byway",
+  "longitude": -110.714,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -110.89679,
+        47.34907
+      ],
+      [
+        -110.9028,
+        47.34317
+      ],
+      [
+        -110.90446,
+        47.32317
+      ],
+      [
+        -110.89962,
+        47.29179
+      ],
+      [
+        -110.91037,
+        47.2673
+      ],
+      [
+        -110.92856,
+        47.24608
+      ],
+      [
+        -110.93348,
+        47.23316
+      ],
+      [
+        -110.9363,
+        47.21895
+      ],
+      [
+        -110.9278,
+        47.20859
+      ],
+      [
+        -110.93159,
+        47.20133
+      ],
+      [
+        -110.92256,
+        47.19721
+      ],
+      [
+        -110.9191,
+        47.19145
+      ],
+      [
+        -110.89139,
+        47.18186
+      ],
+      [
+        -110.88591,
+        47.17518
+      ],
+      [
+        -110.84503,
+        47.16635
+      ],
+      [
+        -110.824,
+        47.14635
+      ],
+      [
+        -110.82522,
+        47.13334
+      ],
+      [
+        -110.82094,
+        47.11816
+      ],
+      [
+        -110.83542,
+        47.09987
+      ],
+      [
+        -110.83559,
+        47.09518
+      ],
+      [
+        -110.81694,
+        47.07027
+      ],
+      [
+        -110.7955,
+        47.05474
+      ],
+      [
+        -110.78805,
+        47.03814
+      ],
+      [
+        -110.77036,
+        47.01708
+      ],
+      [
+        -110.7676,
+        46.98922
+      ],
+      [
+        -110.75685,
+        46.96972
+      ],
+      [
+        -110.75532,
+        46.95489
+      ],
+      [
+        -110.75083,
+        46.94741
+      ],
+      [
+        -110.72284,
+        46.92071
+      ],
+      [
+        -110.69045,
+        46.90842
+      ],
+      [
+        -110.68943,
+        46.89333
+      ],
+      [
+        -110.68317,
+        46.87986
+      ],
+      [
+        -110.66777,
+        46.86942
+      ],
+      [
+        -110.66457,
+        46.8628
+      ],
+      [
+        -110.67011,
+        46.85709
+      ],
+      [
+        -110.6876,
+        46.85118
+      ],
+      [
+        -110.69598,
+        46.83998
+      ],
+      [
+        -110.69512,
+        46.82606
+      ],
+      [
+        -110.70644,
+        46.80911
+      ],
+      [
+        -110.6967,
+        46.7828
+      ],
+      [
+        -110.71802,
+        46.76045
+      ],
+      [
+        -110.7564,
+        46.76093
+      ],
+      [
+        -110.81052,
+        46.7668
+      ],
+      [
+        -110.83282,
+        46.7726
+      ],
+      [
+        -110.86536,
+        46.77052
+      ],
+      [
+        -110.86428,
+        46.75047
+      ],
+      [
+        -110.85148,
+        46.7312
+      ],
+      [
+        -110.8629,
+        46.69884
+      ],
+      [
+        -110.87106,
+        46.69201
+      ],
+      [
+        -110.87769,
+        46.67821
+      ],
+      [
+        -110.8777,
+        46.67005
+      ],
+      [
+        -110.86968,
+        46.6489
+      ],
+      [
+        -110.84916,
+        46.62914
+      ],
+      [
+        -110.84082,
+        46.60356
+      ],
+      [
+        -110.8437,
+        46.5832
+      ],
+      [
+        -110.85657,
+        46.56529
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Neihart",
+      "model": "false-front-town",
+      "at": 0.4653571326177749,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Neihart",
+      "model": "town-blocks",
+      "at": 0.4653571326177749,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Armington",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Riceville",
+      "at": 0.13632538569424965,
+      "landmark": ""
+    },
+    {
+      "name": "Monarch",
+      "at": 0.297194950911641,
+      "landmark": ""
+    },
+    {
+      "name": "Neihart",
+      "at": 0.46507713884992985,
+      "landmark": "Neihart"
+    }
+  ],
+  "sources": [
+    "content/stories/kings-hill-scenic-byway-2055.json",
+    "public/data/strips/kings-hill-scenic-byway-2055.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

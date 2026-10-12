@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "woodlands-trace-2345",
+  "title": "Woodlands Trace",
+  "longitude": -88.0657,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -88.22056,
+        36.98947
+      ],
+      [
+        -88.21415,
+        36.98317
+      ],
+      [
+        -88.20346,
+        36.97856
+      ],
+      [
+        -88.19433,
+        36.96603
+      ],
+      [
+        -88.18449,
+        36.96283
+      ],
+      [
+        -88.18007,
+        36.95859
+      ],
+      [
+        -88.16806,
+        36.9564
+      ],
+      [
+        -88.16265,
+        36.95216
+      ],
+      [
+        -88.14968,
+        36.95239
+      ],
+      [
+        -88.14283,
+        36.95502
+      ],
+      [
+        -88.13833,
+        36.94996
+      ],
+      [
+        -88.12634,
+        36.94922
+      ],
+      [
+        -88.12035,
+        36.94568
+      ],
+      [
+        -88.09954,
+        36.91433
+      ],
+      [
+        -88.0861,
+        36.89899
+      ],
+      [
+        -88.08487,
+        36.89475
+      ],
+      [
+        -88.08735,
+        36.88546
+      ],
+      [
+        -88.08235,
+        36.86082
+      ],
+      [
+        -88.09299,
+        36.8469
+      ],
+      [
+        -88.07429,
+        36.81939
+      ],
+      [
+        -88.06624,
+        36.79388
+      ],
+      [
+        -88.0682,
+        36.7813
+      ],
+      [
+        -88.06158,
+        36.7741
+      ],
+      [
+        -88.06097,
+        36.76547
+      ],
+      [
+        -88.0662,
+        36.75867
+      ],
+      [
+        -88.06994,
+        36.74887
+      ],
+      [
+        -88.06559,
+        36.74535
+      ],
+      [
+        -88.06421,
+        36.7412
+      ],
+      [
+        -88.05186,
+        36.73131
+      ],
+      [
+        -88.05053,
+        36.72064
+      ],
+      [
+        -88.04492,
+        36.71388
+      ],
+      [
+        -88.04484,
+        36.70878
+      ],
+      [
+        -88.0342,
+        36.70641
+      ],
+      [
+        -88.02975,
+        36.70336
+      ],
+      [
+        -88.0282,
+        36.69861
+      ],
+      [
+        -88.03096,
+        36.6937
+      ],
+      [
+        -88.0259,
+        36.69068
+      ],
+      [
+        -88.02344,
+        36.68338
+      ],
+      [
+        -88.01394,
+        36.68199
+      ],
+      [
+        -88.00454,
+        36.67754
+      ],
+      [
+        -87.99377,
+        36.66607
+      ],
+      [
+        -87.9758,
+        36.65587
+      ],
+      [
+        -87.97775,
+        36.64291
+      ],
+      [
+        -87.96437,
+        36.63019
+      ],
+      [
+        -87.9631,
+        36.62035
+      ],
+      [
+        -87.95683,
+        36.61481
+      ],
+      [
+        -87.95442,
+        36.6084
+      ],
+      [
+        -87.94057,
+        36.60572
+      ],
+      [
+        -87.93866,
+        36.59104
+      ],
+      [
+        -87.93466,
+        36.58087
+      ],
+      [
+        -87.93304,
+        36.5559
+      ],
+      [
+        -87.93004,
+        36.55226
+      ],
+      [
+        -87.93069,
+        36.54814
+      ],
+      [
+        -87.92597,
+        36.53196
+      ],
+      [
+        -87.91813,
+        36.52003
+      ],
+      [
+        -87.91595,
+        36.51158
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Grand Rivers",
+      "model": "alpine-lake",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Grand Rivers",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Grand Rivers",
+      "at": 0,
+      "landmark": "Grand Rivers"
+    },
+    {
+      "name": "Model",
+      "at": 0.7575757575757576,
+      "landmark": ""
+    },
+    {
+      "name": "Tharpe",
+      "at": 0.9083916083916084,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/woodlands-trace-2345.json",
+    "public/data/strips/woodlands-trace-2345.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

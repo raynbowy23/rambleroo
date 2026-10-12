@@ -1,0 +1,399 @@
+{
+  "authored": false,
+  "bywayId": "old-main-streets-69091",
+  "title": "Old Main Streets",
+  "longitude": -77.2671,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -77.41161,
+        39.62371
+      ],
+      [
+        -77.40104,
+        39.6197
+      ],
+      [
+        -77.39626,
+        39.61537
+      ],
+      [
+        -77.38385,
+        39.61419
+      ],
+      [
+        -77.37207,
+        39.61702
+      ],
+      [
+        -77.3609,
+        39.61349
+      ],
+      [
+        -77.33558,
+        39.61044
+      ],
+      [
+        -77.32945,
+        39.60484
+      ],
+      [
+        -77.31354,
+        39.6051
+      ],
+      [
+        -77.30199,
+        39.6075
+      ],
+      [
+        -77.29658,
+        39.60665
+      ],
+      [
+        -77.29206,
+        39.60223
+      ],
+      [
+        -77.28944,
+        39.60165
+      ],
+      [
+        -77.26657,
+        39.60414
+      ],
+      [
+        -77.26363,
+        39.60586
+      ],
+      [
+        -77.25248,
+        39.60776
+      ],
+      [
+        -77.244,
+        39.6033
+      ],
+      [
+        -77.23719,
+        39.60304
+      ],
+      [
+        -77.23174,
+        39.60067
+      ],
+      [
+        -77.22701,
+        39.59635
+      ],
+      [
+        -77.21361,
+        39.59415
+      ],
+      [
+        -77.20689,
+        39.59496
+      ],
+      [
+        -77.20217,
+        39.59308
+      ],
+      [
+        -77.18946,
+        39.59296
+      ],
+      [
+        -77.16617,
+        39.59636
+      ],
+      [
+        -77.15088,
+        39.59992
+      ],
+      [
+        -77.1415,
+        39.59986
+      ],
+      [
+        -77.12784,
+        39.59301
+      ],
+      [
+        -77.10272,
+        39.59439
+      ],
+      [
+        -77.08582,
+        39.59398
+      ],
+      [
+        -77.06325,
+        39.58748
+      ],
+      [
+        -77.02661,
+        39.58055
+      ],
+      [
+        -77.01485,
+        39.58316
+      ],
+      [
+        -77.00197,
+        39.58082
+      ],
+      [
+        -77.00537,
+        39.58407
+      ],
+      [
+        -77.01112,
+        39.58517
+      ],
+      [
+        -77.01189,
+        39.58745
+      ],
+      [
+        -77.01632,
+        39.58677
+      ],
+      [
+        -77.02826,
+        39.589
+      ],
+      [
+        -77.0349,
+        39.59187
+      ],
+      [
+        -77.03935,
+        39.59538
+      ],
+      [
+        -77.04777,
+        39.59697
+      ],
+      [
+        -77.06474,
+        39.60565
+      ],
+      [
+        -77.07271,
+        39.60766
+      ],
+      [
+        -77.0766,
+        39.60969
+      ],
+      [
+        -77.07847,
+        39.61217
+      ],
+      [
+        -77.09251,
+        39.61878
+      ],
+      [
+        -77.09764,
+        39.61923
+      ],
+      [
+        -77.11236,
+        39.62806
+      ],
+      [
+        -77.17291,
+        39.65668
+      ],
+      [
+        -77.18021,
+        39.66321
+      ],
+      [
+        -77.23011,
+        39.6798
+      ],
+      [
+        -77.23588,
+        39.67896
+      ],
+      [
+        -77.25673,
+        39.68451
+      ],
+      [
+        -77.29751,
+        39.6999
+      ],
+      [
+        -77.32684,
+        39.7047
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Detour",
+      "model": "town-blocks",
+      "at": 0.19408840215585124,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Taneytown",
+      "model": "town-blocks",
+      "at": 0.7899297152458001,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Emmitsburg",
+      "model": "town-blocks",
+      "at": 0.9930126976260412,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Graceham",
+      "at": 0.04180138568129331,
+      "landmark": ""
+    },
+    {
+      "name": "Rocky Ridge",
+      "at": 0.1286374133949192,
+      "landmark": ""
+    },
+    {
+      "name": "Keymar",
+      "at": 0.2394919168591224,
+      "landmark": ""
+    },
+    {
+      "name": "New Windsor",
+      "at": 0.40715935334872977,
+      "landmark": ""
+    },
+    {
+      "name": "Westminster",
+      "at": 0.5413394919168592,
+      "landmark": ""
+    },
+    {
+      "name": "Frizzellburg",
+      "at": 0.6309468822170902,
+      "landmark": ""
+    },
+    {
+      "name": "Mayberry",
+      "at": 0.7025404157043881,
+      "landmark": ""
+    },
+    {
+      "name": "Taneytown",
+      "at": 0.7898383371824481,
+      "landmark": "Taneytown"
+    },
+    {
+      "name": "Emmitsburg",
+      "at": 0.9930715935334874,
+      "landmark": "Emmitsburg"
+    }
+  ],
+  "sources": [
+    "content/stories/old-main-streets-69091.json",
+    "public/data/strips/old-main-streets-69091.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

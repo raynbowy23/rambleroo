@@ -1,0 +1,431 @@
+{
+  "authored": false,
+  "bywayId": "west-elk-loop-2120",
+  "title": "West Elk Loop",
+  "longitude": -106.9388,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -107.21969,
+        39.40111
+      ],
+      [
+        -107.20325,
+        39.36526
+      ],
+      [
+        -107.23645,
+        39.24898
+      ],
+      [
+        -107.22722,
+        39.21539
+      ],
+      [
+        -107.27059,
+        39.12465
+      ],
+      [
+        -107.26664,
+        39.10429
+      ],
+      [
+        -107.27788,
+        39.12973
+      ],
+      [
+        -107.32756,
+        39.12396
+      ],
+      [
+        -107.36935,
+        39.07747
+      ],
+      [
+        -107.36175,
+        39.00765
+      ],
+      [
+        -107.33865,
+        38.96537
+      ],
+      [
+        -107.36281,
+        38.94129
+      ],
+      [
+        -107.34245,
+        38.92814
+      ],
+      [
+        -107.26787,
+        38.95495
+      ],
+      [
+        -107.28738,
+        38.9458
+      ],
+      [
+        -107.29496,
+        38.92594
+      ],
+      [
+        -107.2006,
+        38.89764
+      ],
+      [
+        -107.15301,
+        38.85745
+      ],
+      [
+        -107.12097,
+        38.86469
+      ],
+      [
+        -107.10022,
+        38.84984
+      ],
+      [
+        -106.98084,
+        38.86794
+      ],
+      [
+        -106.87756,
+        38.79594
+      ],
+      [
+        -106.84794,
+        38.72251
+      ],
+      [
+        -106.8458,
+        38.66622
+      ],
+      [
+        -106.87707,
+        38.62093
+      ],
+      [
+        -106.92172,
+        38.5885
+      ],
+      [
+        -106.92693,
+        38.54441
+      ],
+      [
+        -107.01917,
+        38.51608
+      ],
+      [
+        -107.04291,
+        38.48621
+      ],
+      [
+        -107.08932,
+        38.48856
+      ],
+      [
+        -107.16616,
+        38.46964
+      ],
+      [
+        -107.20303,
+        38.48353
+      ],
+      [
+        -107.25637,
+        38.46444
+      ],
+      [
+        -107.29889,
+        38.46621
+      ],
+      [
+        -107.30343,
+        38.45058
+      ],
+      [
+        -107.41442,
+        38.4554
+      ],
+      [
+        -107.41671,
+        38.48761
+      ],
+      [
+        -107.43709,
+        38.4552
+      ],
+      [
+        -107.46798,
+        38.47297
+      ],
+      [
+        -107.46918,
+        38.45643
+      ],
+      [
+        -107.50623,
+        38.45596
+      ],
+      [
+        -107.51569,
+        38.4791
+      ],
+      [
+        -107.54565,
+        38.46895
+      ],
+      [
+        -107.54056,
+        38.48608
+      ],
+      [
+        -107.56586,
+        38.49967
+      ],
+      [
+        -107.54249,
+        38.55842
+      ],
+      [
+        -107.58014,
+        38.61093
+      ],
+      [
+        -107.59336,
+        38.69093
+      ],
+      [
+        -107.62018,
+        38.71153
+      ],
+      [
+        -107.65951,
+        38.71488
+      ],
+      [
+        -107.67062,
+        38.77987
+      ],
+      [
+        -107.71458,
+        38.79913
+      ],
+      [
+        -107.67141,
+        38.84414
+      ],
+      [
+        -107.62269,
+        38.86163
+      ],
+      [
+        -107.53471,
+        38.921
+      ],
+      [
+        -107.36281,
+        38.94129
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Redstone Coke Ovens",
+      "model": "false-front-town",
+      "at": 0.08065662250301307,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Paonia",
+      "model": "orchard",
+      "at": 0.9260524558315236,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Paonia",
+      "model": "town-blocks",
+      "at": 0.9260524558315236,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Carbondale",
+      "at": 0.008017707820954253,
+      "landmark": ""
+    },
+    {
+      "name": "Redstone",
+      "at": 0.07978357107722577,
+      "landmark": ""
+    },
+    {
+      "name": "Crested Butte",
+      "at": 0.3634530250860797,
+      "landmark": ""
+    },
+    {
+      "name": "Gunnison",
+      "at": 0.49601574028529266,
+      "landmark": ""
+    },
+    {
+      "name": "Sapinero",
+      "at": 0.6168716182980816,
+      "landmark": ""
+    },
+    {
+      "name": "Crawford",
+      "at": 0.8318248893261191,
+      "landmark": ""
+    },
+    {
+      "name": "Paonia",
+      "at": 0.9259222823413674,
+      "landmark": "Paonia"
+    }
+  ],
+  "sources": [
+    "content/stories/west-elk-loop-2120.json",
+    "public/data/strips/west-elk-loop-2120.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

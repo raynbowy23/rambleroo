@@ -1,0 +1,115 @@
+.rr-diorama-gallery {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 64px 32px 96px;
+  color: #394739;
+}
+.rr-diorama-gallery header {
+  max-width: 700px;
+  margin-bottom: 48px;
+}
+.rr-diorama-gallery h1 {
+  font-family: 'Fraunces Variable', Georgia, serif;
+  font-size: clamp(38px, 5vw, 68px);
+  line-height: 1.08;
+  font-weight: 600;
+  margin: 16px 0 24px;
+}
+.rr-diorama-gallery h2 {
+  font-family: 'Fraunces Variable', Georgia, serif;
+  font-size: 36px;
+  margin: 8px 0 24px;
+}
+.rr-diorama-gallery header > p:not(.rr-diorama-eyebrow, .rr-diorama-note) {
+  max-width: 530px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.rr-diorama-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 11px;
+  font-weight: 650;
+}
+.rr-diorama-note {
+  font-size: 12px;
+  line-height: 1.7;
+  opacity: 0.75;
+}
+.rr-diorama-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+.rr-diorama-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 36px 24px;
+}
+.rr-diorama-gallery figure {
+  margin: 0;
+}
+.rr-diorama-card {
+  border-bottom: 1px solid #b9ab9266;
+  padding-bottom: 24px;
+}
+.rr-diorama-card svg {
+  width: 100%;
+}
+.rr-diorama-card figcaption {
+  padding: 12px 12px 0;
+}
+.rr-diorama-card h3 {
+  font-family: 'Fraunces Variable', Georgia, serif;
+  font-size: 21px;
+  line-height: 1.25;
+  margin: 8px 0;
+}
+.rr-diorama-card p {
+  font-size: 12px;
+  margin: 0;
+}
+.rr-diorama-studies {
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 2px solid #b9ab9266;
+}
+.rr-diorama-studies select {
+  display: block;
+  max-width: 100%;
+  margin: 8px 0 16px;
+  padding: 10px;
+  background: #f6ead3;
+  color: inherit;
+  border: 1px solid #b9ab92;
+  border-radius: 4px;
+}
+.rr-diorama-comparison {
+  margin-top: 32px;
+}
+.rr-diorama-comparison h3 {
+  font-family: 'Fraunces Variable', Georgia, serif;
+  font-size: 23px;
+  font-weight: 500;
+}
+.rr-diorama-strip {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+}
+.rr-diorama-strip figure {
+  flex: 0 0 280px;
+}
+.rr-diorama-strip figcaption {
+  margin-top: 12px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+@media (max-width: 600px) {
+  .rr-diorama-gallery {
+    padding: 32px 16px 64px;
+  }
+}

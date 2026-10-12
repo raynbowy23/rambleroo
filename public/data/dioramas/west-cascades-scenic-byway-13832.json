@@ -1,0 +1,431 @@
+{
+  "authored": false,
+  "bywayId": "west-cascades-scenic-byway-13832",
+  "title": "West Cascades Scenic Byway",
+  "longitude": -121.9922,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -122.50791,
+        43.74761
+      ],
+      [
+        -122.52529,
+        43.75719
+      ],
+      [
+        -122.49686,
+        43.75708
+      ],
+      [
+        -122.44955,
+        43.79912
+      ],
+      [
+        -122.4038,
+        43.81846
+      ],
+      [
+        -122.41176,
+        43.86045
+      ],
+      [
+        -122.37319,
+        43.88569
+      ],
+      [
+        -122.34817,
+        43.88205
+      ],
+      [
+        -122.32374,
+        43.89532
+      ],
+      [
+        -122.20299,
+        43.87352
+      ],
+      [
+        -122.10139,
+        43.88894
+      ],
+      [
+        -122.0698,
+        43.87965
+      ],
+      [
+        -122.08353,
+        43.90349
+      ],
+      [
+        -122.06676,
+        43.9362
+      ],
+      [
+        -122.08549,
+        43.95724
+      ],
+      [
+        -122.16851,
+        43.97602
+      ],
+      [
+        -122.17176,
+        44.01676
+      ],
+      [
+        -122.21734,
+        44.04681
+      ],
+      [
+        -122.26295,
+        44.15647
+      ],
+      [
+        -122.23232,
+        44.17203
+      ],
+      [
+        -122.04079,
+        44.19371
+      ],
+      [
+        -122.05966,
+        44.22814
+      ],
+      [
+        -122.03893,
+        44.25081
+      ],
+      [
+        -122.04684,
+        44.27647
+      ],
+      [
+        -121.99463,
+        44.32975
+      ],
+      [
+        -122.00348,
+        44.41862
+      ],
+      [
+        -121.94315,
+        44.43681
+      ],
+      [
+        -121.9685,
+        44.44375
+      ],
+      [
+        -122.00224,
+        44.48873
+      ],
+      [
+        -122.00053,
+        44.56804
+      ],
+      [
+        -121.93911,
+        44.63497
+      ],
+      [
+        -121.97334,
+        44.69257
+      ],
+      [
+        -122.04422,
+        44.68892
+      ],
+      [
+        -122.11745,
+        44.71297
+      ],
+      [
+        -122.15209,
+        44.73788
+      ],
+      [
+        -122.05802,
+        44.78105
+      ],
+      [
+        -121.95216,
+        44.78319
+      ],
+      [
+        -121.87409,
+        44.80515
+      ],
+      [
+        -121.8876,
+        44.8282
+      ],
+      [
+        -121.864,
+        44.86068
+      ],
+      [
+        -121.89086,
+        44.90287
+      ],
+      [
+        -121.8811,
+        44.98399
+      ],
+      [
+        -121.89823,
+        45.01001
+      ],
+      [
+        -121.94113,
+        45.0248
+      ],
+      [
+        -121.99656,
+        45.01881
+      ],
+      [
+        -122.05812,
+        45.03263
+      ],
+      [
+        -122.06215,
+        45.04599
+      ],
+      [
+        -122.04282,
+        45.0798
+      ],
+      [
+        -122.07166,
+        45.09212
+      ],
+      [
+        -122.08437,
+        45.14272
+      ],
+      [
+        -122.12369,
+        45.16736
+      ],
+      [
+        -122.15024,
+        45.16099
+      ],
+      [
+        -122.18162,
+        45.19738
+      ],
+      [
+        -122.21525,
+        45.19342
+      ],
+      [
+        -122.25867,
+        45.24124
+      ],
+      [
+        -122.3323,
+        45.28434
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Breitenbush",
+      "model": "town-blocks",
+      "at": 0.6957903465308877,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "snow-peak",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Westfir",
+      "at": 0.013213367609254512,
+      "landmark": ""
+    },
+    {
+      "name": "Belknap Springs",
+      "at": 0.367866323907455,
+      "landmark": ""
+    },
+    {
+      "name": "Santiam Junction",
+      "at": 0.4790745501285347,
+      "landmark": ""
+    },
+    {
+      "name": "Marion Forks",
+      "at": 0.557120822622108,
+      "landmark": ""
+    },
+    {
+      "name": "Breitenbush",
+      "at": 0.6957840616966581,
+      "landmark": "Breitenbush"
+    },
+    {
+      "name": "Three Lynx",
+      "at": 0.8939331619537275,
+      "landmark": ""
+    },
+    {
+      "name": "Cazadero",
+      "at": 0.9902827763496144,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/west-cascades-scenic-byway-13832.json",
+    "public/data/strips/west-cascades-scenic-byway-13832.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

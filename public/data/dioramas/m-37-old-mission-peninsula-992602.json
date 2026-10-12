@@ -1,0 +1,345 @@
+{
+  "authored": false,
+  "bywayId": "m-37-old-mission-peninsula-992602",
+  "title": "M-37 Old Mission Peninsula",
+  "longitude": -85.5153,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -85.59104,
+        44.77408
+      ],
+      [
+        -85.58459,
+        44.77789
+      ],
+      [
+        -85.57693,
+        44.78082
+      ],
+      [
+        -85.57537,
+        44.78199
+      ],
+      [
+        -85.57474,
+        44.78342
+      ],
+      [
+        -85.57492,
+        44.79518
+      ],
+      [
+        -85.57428,
+        44.79669
+      ],
+      [
+        -85.57166,
+        44.79934
+      ],
+      [
+        -85.56669,
+        44.80561
+      ],
+      [
+        -85.55955,
+        44.81151
+      ],
+      [
+        -85.5588,
+        44.81288
+      ],
+      [
+        -85.55775,
+        44.81599
+      ],
+      [
+        -85.55634,
+        44.81848
+      ],
+      [
+        -85.55246,
+        44.82225
+      ],
+      [
+        -85.54861,
+        44.82471
+      ],
+      [
+        -85.54783,
+        44.82577
+      ],
+      [
+        -85.54715,
+        44.82764
+      ],
+      [
+        -85.54374,
+        44.83081
+      ],
+      [
+        -85.54205,
+        44.83313
+      ],
+      [
+        -85.53847,
+        44.83588
+      ],
+      [
+        -85.532,
+        44.84228
+      ],
+      [
+        -85.53113,
+        44.84374
+      ],
+      [
+        -85.53134,
+        44.8465
+      ],
+      [
+        -85.53253,
+        44.84892
+      ],
+      [
+        -85.53203,
+        44.85054
+      ],
+      [
+        -85.52445,
+        44.85733
+      ],
+      [
+        -85.52085,
+        44.86167
+      ],
+      [
+        -85.51755,
+        44.86475
+      ],
+      [
+        -85.51673,
+        44.86591
+      ],
+      [
+        -85.51527,
+        44.86967
+      ],
+      [
+        -85.51533,
+        44.8854
+      ],
+      [
+        -85.51454,
+        44.88677
+      ],
+      [
+        -85.50928,
+        44.89163
+      ],
+      [
+        -85.50601,
+        44.89631
+      ],
+      [
+        -85.50489,
+        44.89871
+      ],
+      [
+        -85.50311,
+        44.90045
+      ],
+      [
+        -85.502,
+        44.90492
+      ],
+      [
+        -85.50223,
+        44.90595
+      ],
+      [
+        -85.50327,
+        44.90772
+      ],
+      [
+        -85.50343,
+        44.91079
+      ],
+      [
+        -85.50492,
+        44.91302
+      ],
+      [
+        -85.50519,
+        44.91386
+      ],
+      [
+        -85.50501,
+        44.95643
+      ],
+      [
+        -85.5048,
+        44.97244
+      ],
+      [
+        -85.50448,
+        44.97639
+      ],
+      [
+        -85.50392,
+        44.97768
+      ],
+      [
+        -85.50256,
+        44.97922
+      ],
+      [
+        -85.49817,
+        44.98167
+      ],
+      [
+        -85.4964,
+        44.98317
+      ],
+      [
+        -85.49568,
+        44.98427
+      ],
+      [
+        -85.49437,
+        44.98754
+      ],
+      [
+        -85.49294,
+        44.98891
+      ],
+      [
+        -85.49151,
+        44.98954
+      ],
+      [
+        -85.48987,
+        44.98983
+      ],
+      [
+        -85.48105,
+        44.98988
+      ],
+      [
+        -85.47919,
+        44.99015
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Old Mission",
+      "model": "orchard",
+      "at": 0.8425437917911047,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Old Mission",
+      "model": "town-blocks",
+      "at": 0.8425437917911047,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Mission Point Light",
+      "model": "lighthouse-on-rock",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Old Mission",
+      "at": 0.8427745664739884,
+      "landmark": "Old Mission"
+    }
+  ],
+  "sources": [
+    "content/stories/m-37-old-mission-peninsula-992602.json",
+    "public/data/strips/m-37-old-mission-peninsula-992602.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

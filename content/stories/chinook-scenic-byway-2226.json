@@ -1,20 +1,22 @@
 {
   "id": "chinook-scenic-byway-2226",
-  "tagline": "Up the White River, over the crest, down to the orchards.",
+  "tagline": "A seasonal Cascade crossing climbs from river forest to orchard country.",
   "motifs": [
     "switchbacks",
     "snow-peaks"
   ],
   "intro": [
-    "Enumclaw sits on a plateau laid down by a mudflow off Mount Rainier. Out of town, SR 410 follows the White River upstream through old-growth forest and into the national park. At Cayuse Pass it turns east and climbs a run of hairpins past Tipsoo Lake to Chinook Pass, 5,430 feet and above the trees. Then it comes down along the American and Naches rivers to Naches.",
-    "The road was built from both ends, the east side with horse teams and, after 1924, an army tractor, and the halves met at Tipsoo Lake in 1931. The lower Naches Pass needed a tunnel and lost on cost. No highway has crossed it yet."
+    "The Chinook Scenic Byway winds for about 92 miles on State Route 410 between Enumclaw and Naches, crossing the northeast edge of Mount Rainier National Park. Designated an All-American Road in 1998, it links dense western forests with eastern rock formations and farmland. The byway organization highlights Mount Rainier views, rocky ridges and river canyons; state tourism allows three hours for the drive. Heavy snowfall makes Chinook Pass a seasonal crossing.",
+    "This high crossing was a compromise: a lower route through Naches Pass would have required a tunnel, whose cost tipped the decision toward Chinook. Work on the Yakima side resumed in 1921 with horse teams, and an army tractor arrived in 1924 to speed construction. Crews working from opposite sides met at Tipsoo Lake in 1931. The completed highway was dedicated in 1932 as the Mather Memorial Highway, honoring conservationist Stephen Mather.",
+    "From Enumclaw, follow the White River upstream past Federation Forest and through Greenwater toward the national park. At Cayuse Pass, SR 410 turns east through hairpins past Tipsoo Lake to Chinook Pass. Beyond the crest, the road follows the American River, then the Naches River toward the orchards and its end at US 12 in Naches."
   ],
   "moments": [
     {
       "title": "Federation Forest State Park",
       "kind": "short walk",
       "scene": "forest",
-      "text": "The state's women's clubs bought their first old-growth park near Snoqualmie Pass and lost it to windstorms and logging. This stand on the White River, dedicated in 1949, is the second try.",
+      "text": "Federation Forest was a second attempt to protect old-growth trees. The Washington chapter of the General Federation of Women’s Clubs raised $25,000 to buy the first site from a lumber company in 1928. Windstorms, highway widening and neighboring logging damaged that park; the land was sold back in 1938. The White River site was dedicated in 1949. Its old-growth forest includes Douglas fir, western hemlock, Sitka spruce and western redcedar. In 1958, educator and club member Catherine T. Montgomery left her estate money to the park; it funded the interpretive center.",
+      "notice": "Old-growth Douglas fir, western hemlock, Sitka spruce and western redcedar grow here.",
       "at": [
         -121.689,
         47.153
@@ -24,7 +26,8 @@
       "title": "Chinook Pass",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "On the Cascade crest above the treeline, the Pacific Crest Trail crosses the road, and in winter the snow at the summit can lie fifteen feet deep.",
+      "text": "The log arch over the highway at Chinook Pass does two jobs: it marks Mount Rainier National Park’s eastern entrance and carries the Pacific Crest Trail. The Civilian Conservation Corps built it in 1936, using stone abutments to support horizontal logs above the road. The pass reaches 5,430 feet on the Cascade crest between Yakima Peak and Naches Peak. The summit is above the treeline, with roadside places to park and view the surrounding landscape. The crest also divides drainage: land immediately west of the pass belongs to the Cowlitz River watershed, while the eastern side drains toward the Yakima River.",
+      "notice": "Horizontal logs span the highway between stone abutments, carrying the Pacific Crest Trail.",
       "at": [
         -121.515,
         46.872
@@ -37,7 +40,7 @@
       "title": "Naches",
       "kind": "town",
       "scene": "river",
-      "text": "The byway ends at US 12 in a town of about 1,100 on the Naches River that lives on timber and on apples, cherries and pears.",
+      "text": "Orchards and farmland mark the byway’s eastern end at Naches. The town’s economy rests mainly on timber and agriculture, with apples, cherries and pears among its crops. Here the road’s river companion continues beyond the drive: the Naches River passes through town and joins the Yakima River 16 miles southeast in Yakima. The scenic byway itself finishes at US 12 near the Naches Selah Canal.",
       "at": [
         -120.691,
         46.726
@@ -48,36 +51,36 @@
     }
   ],
   "practical": [
-    "Chinook Pass usually closes in November and reopens around mid-May, with a winter gate at Morse Creek about five miles east of the summit. Commercial vehicles are not allowed on the national park section."
+    "Chinook Pass: Chinook Pass usually closes in late fall and reopens in late spring, depending on road conditions. (checked 2026-10-11)"
   ],
   "sources": [
-    {
-      "label": "Chinook Scenic Byway, home page",
-      "url": "https://chinookscenicbyway.com/index.html"
-    },
     {
       "label": "State of Washington Tourism, Chinook Scenic Byway",
       "url": "https://stateofwatourism.com/scenic-byways/chinook-scenic-byway/"
     },
     {
-      "label": "Wikipedia, Washington State Route 410",
-      "url": "https://en.wikipedia.org/wiki/Washington_State_Route_410"
+      "label": "Chinook Scenic Byway Organization, Chinook Scenic Byway",
+      "url": "https://chinookscenicbyway.com/index.html"
     },
     {
       "label": "Wikipedia, Chinook Pass",
       "url": "https://en.wikipedia.org/wiki/Chinook_Pass"
     },
     {
-      "label": "Wikipedia, Enumclaw, Washington",
-      "url": "https://en.wikipedia.org/wiki/Enumclaw,_Washington"
+      "label": "Wikipedia, Washington State Route 410",
+      "url": "https://en.wikipedia.org/wiki/Washington_State_Route_410"
     },
     {
       "label": "Wikipedia, Federation Forest State Park",
       "url": "https://en.wikipedia.org/wiki/Federation_Forest_State_Park"
     },
     {
+      "label": "Wikipedia, Chinook Pass Entrance Arch",
+      "url": "https://en.wikipedia.org/wiki/Chinook_Pass_Entrance_Arch"
+    },
+    {
       "label": "Wikipedia, Naches, Washington",
-      "url": "https://en.wikipedia.org/wiki/Naches,_Washington"
+      "url": "https://en.wikipedia.org/wiki/Naches%2C_Washington"
     }
   ],
   "reviewed": false

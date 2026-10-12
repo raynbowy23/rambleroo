@@ -1,0 +1,384 @@
+{
+  "authored": false,
+  "bywayId": "river-bluffs-scenic-byway-2184",
+  "title": "River Bluffs Scenic Byway",
+  "longitude": -91.8144,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -91.1785,
+        43.02199
+      ],
+      [
+        -91.30939,
+        43.0043
+      ],
+      [
+        -91.30558,
+        42.99111
+      ],
+      [
+        -91.33368,
+        42.96823
+      ],
+      [
+        -91.34436,
+        42.92828
+      ],
+      [
+        -91.39091,
+        42.92834
+      ],
+      [
+        -91.43121,
+        42.93541
+      ],
+      [
+        -91.43555,
+        42.94969
+      ],
+      [
+        -91.47414,
+        42.95276
+      ],
+      [
+        -91.4911,
+        42.96995
+      ],
+      [
+        -91.52263,
+        42.97298
+      ],
+      [
+        -91.58259,
+        42.99662
+      ],
+      [
+        -91.60341,
+        43.00108
+      ],
+      [
+        -91.63099,
+        42.99695
+      ],
+      [
+        -91.65264,
+        43.0036
+      ],
+      [
+        -91.66314,
+        42.99668
+      ],
+      [
+        -91.68256,
+        43.00766
+      ],
+      [
+        -91.72896,
+        43.00786
+      ],
+      [
+        -91.7309,
+        43.03067
+      ],
+      [
+        -91.76699,
+        43.04093
+      ],
+      [
+        -91.7937,
+        43.03349
+      ],
+      [
+        -91.79432,
+        43.00715
+      ],
+      [
+        -91.80403,
+        43.00512
+      ],
+      [
+        -91.80454,
+        42.96493
+      ],
+      [
+        -91.81437,
+        42.96419
+      ],
+      [
+        -91.81368,
+        42.85262
+      ],
+      [
+        -91.80933,
+        42.84441
+      ],
+      [
+        -91.80101,
+        42.84455
+      ],
+      [
+        -91.80072,
+        42.8362
+      ],
+      [
+        -91.792,
+        42.83503
+      ],
+      [
+        -91.79135,
+        42.82288
+      ],
+      [
+        -91.78393,
+        42.818
+      ],
+      [
+        -91.73664,
+        42.80918
+      ],
+      [
+        -91.69773,
+        42.82242
+      ],
+      [
+        -91.66143,
+        42.82604
+      ],
+      [
+        -91.65715,
+        42.83267
+      ],
+      [
+        -91.6347,
+        42.83098
+      ],
+      [
+        -91.55953,
+        42.8152
+      ],
+      [
+        -91.55147,
+        42.79789
+      ],
+      [
+        -91.50267,
+        42.78975
+      ],
+      [
+        -91.45876,
+        42.77255
+      ],
+      [
+        -91.44564,
+        42.79288
+      ],
+      [
+        -91.41799,
+        42.80417
+      ],
+      [
+        -91.40851,
+        42.82024
+      ],
+      [
+        -91.38566,
+        42.81411
+      ],
+      [
+        -91.36338,
+        42.79092
+      ],
+      [
+        -91.36173,
+        42.77763
+      ],
+      [
+        -91.32917,
+        42.76948
+      ],
+      [
+        -91.32004,
+        42.75804
+      ],
+      [
+        -91.27414,
+        42.74996
+      ],
+      [
+        -91.27192,
+        42.74185
+      ],
+      [
+        -91.19433,
+        42.78465
+      ],
+      [
+        -91.16537,
+        42.7888
+      ],
+      [
+        -91.12143,
+        42.7641
+      ],
+      [
+        -91.1003,
+        42.76993
+      ],
+      [
+        -91.10268,
+        42.78751
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Motor Mill",
+      "model": "gristmill",
+      "at": 0.8089605058528369,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Guttenberg",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "McGregor",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Froelich",
+      "at": 0.06733909702209415,
+      "landmark": ""
+    },
+    {
+      "name": "St. Olaf",
+      "at": 0.14601344860710855,
+      "landmark": ""
+    },
+    {
+      "name": "Gunder",
+      "at": 0.22363112391930837,
+      "landmark": ""
+    },
+    {
+      "name": "Clermont",
+      "at": 0.3006724303554275,
+      "landmark": ""
+    },
+    {
+      "name": "West Union",
+      "at": 0.451969260326609,
+      "landmark": ""
+    },
+    {
+      "name": "Fayette",
+      "at": 0.5347742555235351,
+      "landmark": ""
+    },
+    {
+      "name": "Wadena",
+      "at": 0.6266090297790586,
+      "landmark": ""
+    },
+    {
+      "name": "Volga",
+      "at": 0.6953890489913546,
+      "landmark": ""
+    },
+    {
+      "name": "Elkader",
+      "at": 0.7862338388365945,
+      "landmark": ""
+    },
+    {
+      "name": "Motor",
+      "at": 0.808837656099904,
+      "landmark": ""
+    },
+    {
+      "name": "Garber",
+      "at": 0.8876080691642653,
+      "landmark": ""
+    },
+    {
+      "name": "Guttenberg",
+      "at": 0.9998078770413065,
+      "landmark": "Guttenberg"
+    }
+  ],
+  "sources": [
+    "content/stories/river-bluffs-scenic-byway-2184.json",
+    "public/data/strips/river-bluffs-scenic-byway-2184.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

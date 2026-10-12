@@ -1,21 +1,21 @@
 {
   "id": "rogue-umpqua-scenic-byway-2147",
-  "tagline": "Up one wild river, over the divide, and down another.",
+  "tagline": "From oak-covered hills to waterfalls, a mountain lake and the Rogue",
   "motifs": [
     "waterfall-cove",
     "snow-peaks"
   ],
   "intro": [
-    "Out of Roseburg, OR 138 runs east through oak-dotted hills to Glide and takes up the North Umpqua there. The river is held in high regard by anglers, and thirty miles of it are fly-fishing-only water, all reachable from the road. The byway passes fifteen waterfalls in all, Watson Falls among them at 272 feet, on the way up to Diamond Lake between Mount Bailey and Mount Thielsen.",
-    "At the south end of the lake it turns west and picks up the Rogue near Union Creek, where the old Fort Klamath military wagon road ended. Then it is downhill with the river to Prospect, Shady Cove and Gold Hill."
+    "The Rogue-Umpqua Scenic Byway climbs from oak-dotted hills near Roseburg into the forested southern Cascades, following the North Umpqua toward Diamond Lake before turning toward the Rogue. Oregon’s transportation department describes the 172-mile drive as the highway of waterfalls and recommends five to seven hours. Its account emphasizes river scenery and opportunities to hike, fish and camp.",
+    "Earlier routes and public works remain part of the journey. Union Creek was the western end of the Fort Klamath military wagon road, used by settlers crossing the Cascades. Near Steamboat, the Civilian Conservation Corps built Mott Bridge in 1935–36; ODOT identifies it as an Oregon Historic Civil Engineering Landmark. The corridor gained National Forest Scenic Byway recognition in 1990, state designation in 1997 and National Scenic Byway status in 2002.",
+    "Drive east from Roseburg on OR 138 to Glide, where the Little River meets the North Umpqua head-on. Continue past the waterfall country to Diamond Lake, between Mount Bailey and Mount Thielsen. At the lake’s southern end, the byway turns west onto OR 230, which joins OR 62 near Union Creek. Follow the Rogue past Prospect and Shady Cove, then take OR 234 west toward Gold Hill, passing the flat-topped Table Rocks."
   ],
-  "season": "June through October, by the state's trip notes. Expect snow at the higher elevations.",
   "moments": [
     {
       "title": "Glide",
       "kind": "town",
       "scene": "river",
-      "text": "At the Colliding Rivers the Little River runs straight into the North Umpqua, one of the few places anywhere where two rivers meet head-on.",
+      "text": "At Glide’s Colliding Rivers, the Little River and North Umpqua meet head-on in white water. ODOT identifies this confluence as a stop on the drive east from Roseburg. Beyond Glide, the byway parallels the North Umpqua, with pullouts for river views and access to hikes. The meeting of the two rivers marks the beginning of that riverside stretch.",
       "at": [
         -123.09,
         43.294
@@ -25,7 +25,8 @@
       "title": "Toketee Falls",
       "kind": "short walk",
       "scene": "river",
-      "text": "The North Umpqua drops about 120 feet in two stages through old columnar basalt, at a falls whose name is Chinook Jargon for pretty or graceful.",
+      "text": "Toketee Falls drops approximately 120 feet in two stages through ancient columnar basalt. Its name comes from Chinook Jargon, meaning pretty or graceful; a 1916 federal naming decision chose Toketee over Ireland Falls and Toketie Falls. The North Umpqua’s flow here is regulated. An upstream dam forms Toketee Lake, and a penstock diverts water to generate electricity, reducing the volume that passes over the falls. The waterfall belongs to both a volcanic landscape and a working hydroelectric system. PacifiCorp constructed the North Umpqua Hydroelectric Project between 1947 and 1956, using dams, reservoirs, canals, flumes, penstocks and tunnels.",
+      "notice": "Columnar basalt frames the waterfall’s two-stage drop.",
       "at": [
         -122.433,
         43.263
@@ -38,7 +39,7 @@
       "title": "Mount Thielsen",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The spire over Diamond Lake is struck by lightning so often that rocks on its summit have melted into a rare mineraloid. It is known as the lightning rod of the Cascades.",
+      "text": "Mount Thielsen rises east of Diamond Lake, opposite Mount Bailey on the western side. Its pointed summit is the result of erosion: glaciers cut into the old volcano until no summit crater remained and the upper mountain became a horn. Lightning has added a smaller mark. Strikes melt summit rock into glassy material called fulgurite, found only within the top five to ten feet. A United States Geological Survey team studied those deposits in 1884. Mountain hemlock and fir grow up to the timberline. From the lake, the larger feature to notice is the spire itself.",
       "at": [
         -122.067,
         43.153
@@ -48,9 +49,12 @@
       ]
     }
   ],
+  "practical": [
+    "Mount Thielsen: ODOT recommends June through October for this drive and says to expect snowfall at higher elevations. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "ODOT TripCheck, Rogue-Umpqua Scenic Byway",
+      "label": "Oregon Department of Transportation, Rogue-Umpqua Scenic Byway",
       "url": "https://tripcheck.com/Pages/Scenic-Byways-Rogue-Umpqua"
     },
     {
@@ -58,20 +62,20 @@
       "url": "https://en.wikipedia.org/wiki/Rogue-Umpqua_Scenic_Byway"
     },
     {
-      "label": "Wikipedia, Glide, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Glide,_Oregon"
-    },
-    {
       "label": "Wikipedia, Toketee Falls",
       "url": "https://en.wikipedia.org/wiki/Toketee_Falls"
     },
     {
-      "label": "Wikipedia, Mount Thielsen",
-      "url": "https://en.wikipedia.org/wiki/Mount_Thielsen"
+      "label": "Wikipedia, North Umpqua Hydroelectric Project",
+      "url": "https://en.wikipedia.org/wiki/North_Umpqua_Hydroelectric_Project"
     },
     {
       "label": "Wikipedia, Diamond Lake (Oregon)",
-      "url": "https://en.wikipedia.org/wiki/Diamond_Lake_(Oregon)"
+      "url": "https://en.wikipedia.org/wiki/Diamond_Lake_%28Oregon%29"
+    },
+    {
+      "label": "Wikipedia, Mount Thielsen",
+      "url": "https://en.wikipedia.org/wiki/Mount_Thielsen"
     }
   ],
   "reviewed": false

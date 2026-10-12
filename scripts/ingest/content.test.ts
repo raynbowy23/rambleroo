@@ -133,14 +133,16 @@ describe('content', () => {
 
 describe('photos', () => {
   const photos = json<import('../../src/lib/types').Photo[]>('content/photos.json')
-  const allowed = /^(CC0|Public domain|CC BY(-SA)? [0-9.]+)$/i
-  it.each(photos.map((p) => [p.file, p] as const))('%s is licensed, credited, present, and tied to a real story moment', (_, p) => {
+  // Ported Creative Commons licences carry a jurisdiction code, such as CC BY-SA 3.0 de.
+  const allowed = /^(CC0|Public domain|CC BY(-SA)? [0-9.]+( [a-z]{2})?)$/i
+  it.each(photos.map((p) => [p.file, p] as const))('%s is licensed, credited, named, and tied to a real story moment', (_, p) => {
     expect(allowed.test(p.license), p.license).toBe(true)
     expect(p.author).toBeTruthy()
     expect(p.alt.length).toBeGreaterThan(20)
     expect(p.sourceUrl).toMatch(/^https:\/\/commons\.wikimedia\.org\//)
     expect(p.licenseUrl).toMatch(/^https?:\/\//)
-    expect(existsSync(new URL(`public${p.file}`, root))).toBe(true)
+    // Files live in the photo library bucket (npm run photos:upload, and photos:check to confirm), not in the repository.
+    for (const file of [p.file, p.thumb ?? p.file]) expect(file).toMatch(/^\/photos\/[a-z0-9-]+\/[a-z0-9-]+\.jpg$/)
     expect(byId.has(p.bywayId)).toBe(true)
     if (p.town) {
       const strip = json<{ towns: { name: string }[] }>(`content/strips/${p.bywayId}.json`)
@@ -150,6 +152,18 @@ describe('photos', () => {
       const story = json<BywayStory>(`content/stories/${p.bywayId}.json`)
       expect(story.moments.map((m) => m.title)).toContain(p.moment)
     }
+  })
+})
+
+describe('photo files the app fetches', () => {
+  it('match content/photos.json (run npx tsx scripts/photos/split.ts after editing it)', async () => {
+    const { photoFiles } = await import('../photos/split')
+    const files = photoFiles(
+      json<import('../../src/lib/types').Photo[]>('content/photos.json'),
+      json<{ byways: { id: string }[] }>('public/data/catalog.json').byways.map((b) => b.id),
+    )
+    for (const [name, text] of Object.entries(files))
+      expect(readFileSync(new URL(`public/data/photos/${name}`, root), 'utf8'), name).toBe(text)
   })
 })
 

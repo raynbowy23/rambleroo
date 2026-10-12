@@ -1,19 +1,20 @@
 {
   "id": "flint-hills-scenic-byway-2095",
-  "tagline": "South over the last of the tallgrass, radio on.",
+  "tagline": "Rolling prairie, creek crossings and a ranch remade as a preserve",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "K-177 leaves Council Grove, whose Main Street is the old Santa Fe Trail, and runs south over the Flint Hills to Cassoday, crossing creek after creek and keeping company with the railroad much of the way. North of Strong City it passes through Tallgrass Prairie National Preserve. Less than five percent of the tallgrass prairie that once covered the continent remains, most of it in these hills.",
-    "Tune the radio to 1680 AM. Transmitters at Council Grove, Cottonwood Falls and Cassoday tell of ranching and prairie wildlife, and why ranchers burn their pastures."
+    "K-177 carries the Flint Hills Scenic Byway through rolling tallgrass country between Council Grove and Cassoday. This is a two-lane drive with curves and creek crossings; Kansas Tourism lists the route at 47 miles. Kansas Tourism presents the National Scenic Byway as a way to see native prairie grasses and flowers, while the federal byway profile recommends an hour for the drive.",
+    "The highway once carried the number K-13 before becoming K-177. At the byway’s northern end, Council Grove’s Main Street follows the older Santa Fe Trail. Along the modern road, another change came in 1996, when Tallgrass Prairie National Preserve was established to protect a remnant of the grassland. The National Park Service reports that less than 4% of North America’s tallgrass prairie remains intact, mostly in the Kansas Flint Hills.",
+    "Heading south from Council Grove, the road passes through the preserve before reaching Strong City and crossing the Cottonwood River into Cottonwood Falls. Farther south, curves lead past Bazaar, with stretches beside the railway on the way to Matfield Green. The byway’s 1680 AM broadcasts explain prairie wildlife and pasture burning, with transmitters in Council Grove, Cottonwood Falls and Cassoday. Stay with K-177 to finish in Cassoday."
   ],
   "moments": [
     {
       "title": "Council Grove",
       "kind": "town",
       "scene": "town",
-      "text": "Named for an 1827 treaty with the Osage signed under an oak, the town later used a tree as its post office, where travelers left mail for whoever was going the right way.",
+      "text": "Main Street follows the old Santa Fe Trail, placing an earlier overland route at the northern end of this drive. Travelers once left letters in the Post Office Oak for others heading in the right direction to carry onward. The town’s name recalls an agreement with the Osage Nation allowing wagon trains to pass westward along the trail. A post office was established here in 1855. The present Main Street post office was built in 1938–39, and its mural, Charles B. Rogers’s “Autumn Colors,” dates from 1941. Painted for the New Deal post office mural program, it depicts a Flint Hills farm in autumn.",
       "at": [
         -96.49,
         38.661
@@ -23,7 +24,8 @@
       "title": "Tallgrass Prairie National Preserve",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "Stephen Jones built his Second Empire ranch house here in 1881, early in the fencing of the open range, and since 2009 the preserve has kept a bison herd.",
+      "text": "Stephen F. Jones completed his ranch headquarters here in 1881, enclosing cattle with walls and fences as open-range ranching gave way to a different system. His Second Empire ranch house dates from that year. The property later became the Z-Bar Ranch, then part of a preservation effort that paired federal management with private landownership. Senator Nancy Kassebaum brought stakeholders together in 1992 after local objections to a park owned entirely by the National Park Service. Bison arrived from Wind Cave National Park in 2009. Fire and grazing help keep trees from taking over the prairie; the preserve’s work includes both.",
+      "notice": "The historic ranch house dates from 1881; the barn from 1882.",
       "at": [
         -96.559,
         38.433
@@ -36,7 +38,8 @@
       "title": "Cottonwood Falls",
       "kind": "town",
       "scene": "town",
-      "text": "The Chase County Courthouse, of local limestone with a three-story winding staircase of local walnut, has been at work since 1873, longer than any other in Kansas.",
+      "text": "Local limestone gives the Chase County Courthouse its walls, while local walnut supplied its three-story winding staircase. Built in 1873, it remains Kansas’s oldest operating courthouse. Architect John G. Haskell also worked on the Kansas State Capitol. Cottonwood Falls had been designated the temporary county seat when Chase County was organized in 1859. The building’s architecture has been described as Second Empire or French Renaissance Revival. Cottonwood Falls sits south of Strong City, on the south side of the Cottonwood River. Through the late nineteenth and early twentieth centuries, farms and cattle ranches divided much of the surrounding land.",
+      "notice": "Look for the courthouse’s local limestone exterior.",
       "at": [
         -96.542,
         38.373
@@ -45,28 +48,40 @@
   ],
   "sources": [
     {
-      "label": "Travel Kansas, Flint Hills National Scenic Byway",
-      "url": "https://www.travelks.com/things-to-do/byways-and-highways/byways/flint-hills/"
-    },
-    {
       "label": "Wikipedia, K-177 (Kansas highway)",
-      "url": "https://en.wikipedia.org/wiki/K-177_(Kansas_highway)"
-    },
-    {
-      "label": "Wikipedia, Council Grove, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Council_Grove,_Kansas"
+      "url": "https://en.wikipedia.org/wiki/K-177_%28Kansas_highway%29"
     },
     {
       "label": "Wikipedia, Tallgrass Prairie National Preserve",
       "url": "https://en.wikipedia.org/wiki/Tallgrass_Prairie_National_Preserve"
     },
     {
+      "label": "Kansas Tourism, Flint Hills National Scenic Byway",
+      "url": "https://www.travelks.com/things-to-do/byways-and-highways/byways/flint-hills/"
+    },
+    {
+      "label": "Federal Highway Administration, Flint Hills Scenic Byway (archived)",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2095"
+    },
+    {
+      "label": "Wikipedia, Council Grove, Kansas",
+      "url": "https://en.wikipedia.org/wiki/Council_Grove%2C_Kansas"
+    },
+    {
+      "label": "National Park Service, Tallgrass Prairie National Preserve",
+      "url": "https://www.nps.gov/tapr/index.htm"
+    },
+    {
+      "label": "Wikipedia, United States Post Office (Council Grove, Kansas)",
+      "url": "https://en.wikipedia.org/wiki/United_States_Post_Office_%28Council_Grove%2C_Kansas%29"
+    },
+    {
       "label": "Wikipedia, Chase County Courthouse (Kansas)",
-      "url": "https://en.wikipedia.org/wiki/Chase_County_Courthouse_(Kansas)"
+      "url": "https://en.wikipedia.org/wiki/Chase_County_Courthouse_%28Kansas%29"
     },
     {
       "label": "Wikipedia, Cottonwood Falls, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Cottonwood_Falls,_Kansas"
+      "url": "https://en.wikipedia.org/wiki/Cottonwood_Falls%2C_Kansas"
     }
   ],
   "reviewed": false

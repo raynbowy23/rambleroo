@@ -44,9 +44,16 @@ export default defineConfig({
             options: { cacheName: 'road-data' },
           },
           {
-            urlPattern: ({ url, sameOrigin }) => sameOrigin && url.pathname.startsWith('/photos/'),
+            // The photo library (src/lib/photoOrigin.ts), or the local copy when VITE_PHOTO_ORIGIN is empty. Images are requested with
+            // CORS, so only readable 200 responses are kept, never opaque ones.
+            urlPattern: ({ url, sameOrigin }) =>
+              url.origin === 'https://photos.rambleroo.app' || (sameOrigin && url.pathname.startsWith('/photos/')),
             handler: 'CacheFirst',
-            options: { cacheName: 'road-photos', expiration: { maxEntries: 60, maxAgeSeconds: 30 * 24 * 60 * 60 } },
+            options: {
+              cacheName: 'road-photos',
+              cacheableResponse: { statuses: [200] },
+              expiration: { maxEntries: 60, maxAgeSeconds: 30 * 24 * 60 * 60 },
+            },
           },
           {
             urlPattern: ({ url, sameOrigin }) => sameOrigin && url.pathname.startsWith('/data/'),

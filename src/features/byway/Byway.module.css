@@ -117,3 +117,27 @@
     padding: 120px 20px 28px;
   }
 }
+
+/* A way back to the map, pinned over the top of the hero so it costs no space. */
+.roadPage {
+  position: relative;
+}
+.backToMap {
+  position: absolute;
+  z-index: 3;
+  top: 16px;
+  left: 16px;
+  padding: 6px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  color: var(--forest);
+  font-size: 14px;
+  text-decoration: none;
+  box-shadow: var(--shadow-1);
+}
+.backToMap:hover,
+.backToMap:focus-visible {
+  background: var(--paper);
+  text-decoration: underline;
+}

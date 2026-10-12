@@ -1,7 +1,10 @@
+// The account's free R2 allowance (10 GB stored, 1 million Class A and 10 million Class B operations a month) is shared with the public
+// photo library bucket (infra/README.md), which holds about 2 GB and is read only on Cloudflare cache misses. These ceilings leave it
+// 3 GB and 4 million reads.
 export const PHOTO_LIMITS = {
-  storedBytes: 9_000_000_000,
+  storedBytes: 7_000_000_000,
   classA: 800_000,
-  classB: 8_000_000,
+  classB: 6_000_000,
   userCount: 60,
   userBytes: 60_000_000,
   photoBytes: 1_500_000,

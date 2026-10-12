@@ -1,0 +1,406 @@
+{
+  "authored": false,
+  "bywayId": "state-routes-49-and-14a-2461",
+  "title": "State Routes 49 & 14A",
+  "longitude": -71.861,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -71.84463,
+        41.42116
+      ],
+      [
+        -71.84468,
+        41.42331
+      ],
+      [
+        -71.84831,
+        41.43147
+      ],
+      [
+        -71.84649,
+        41.43469
+      ],
+      [
+        -71.84782,
+        41.43581
+      ],
+      [
+        -71.84783,
+        41.43899
+      ],
+      [
+        -71.84918,
+        41.44048
+      ],
+      [
+        -71.84553,
+        41.45126
+      ],
+      [
+        -71.84143,
+        41.45462
+      ],
+      [
+        -71.83603,
+        41.45541
+      ],
+      [
+        -71.83557,
+        41.46179
+      ],
+      [
+        -71.83276,
+        41.46629
+      ],
+      [
+        -71.83232,
+        41.47807
+      ],
+      [
+        -71.83015,
+        41.48159
+      ],
+      [
+        -71.83316,
+        41.48968
+      ],
+      [
+        -71.83142,
+        41.49767
+      ],
+      [
+        -71.83294,
+        41.49989
+      ],
+      [
+        -71.83778,
+        41.50269
+      ],
+      [
+        -71.84169,
+        41.51335
+      ],
+      [
+        -71.83853,
+        41.5193
+      ],
+      [
+        -71.83924,
+        41.52396
+      ],
+      [
+        -71.8365,
+        41.53004
+      ],
+      [
+        -71.83665,
+        41.53196
+      ],
+      [
+        -71.83857,
+        41.53459
+      ],
+      [
+        -71.83932,
+        41.53792
+      ],
+      [
+        -71.84276,
+        41.54509
+      ],
+      [
+        -71.84613,
+        41.55016
+      ],
+      [
+        -71.84971,
+        41.55199
+      ],
+      [
+        -71.85352,
+        41.55876
+      ],
+      [
+        -71.85502,
+        41.56459
+      ],
+      [
+        -71.86291,
+        41.57387
+      ],
+      [
+        -71.86196,
+        41.57478
+      ],
+      [
+        -71.85452,
+        41.57627
+      ],
+      [
+        -71.85355,
+        41.5805
+      ],
+      [
+        -71.85586,
+        41.58594
+      ],
+      [
+        -71.85498,
+        41.59827
+      ],
+      [
+        -71.85023,
+        41.60392
+      ],
+      [
+        -71.84355,
+        41.60765
+      ],
+      [
+        -71.8428,
+        41.60876
+      ],
+      [
+        -71.84283,
+        41.61892
+      ],
+      [
+        -71.84677,
+        41.62605
+      ],
+      [
+        -71.84803,
+        41.63377
+      ],
+      [
+        -71.84655,
+        41.63947
+      ],
+      [
+        -71.84778,
+        41.65743
+      ],
+      [
+        -71.84608,
+        41.66358
+      ],
+      [
+        -71.85189,
+        41.67602
+      ],
+      [
+        -71.84904,
+        41.68456
+      ],
+      [
+        -71.85014,
+        41.6889
+      ],
+      [
+        -71.85686,
+        41.68706
+      ],
+      [
+        -71.86197,
+        41.68186
+      ],
+      [
+        -71.86856,
+        41.68126
+      ],
+      [
+        -71.8808,
+        41.67787
+      ],
+      [
+        -71.88633,
+        41.67886
+      ],
+      [
+        -71.88998,
+        41.6807
+      ],
+      [
+        -71.90009,
+        41.68201
+      ],
+      [
+        -71.90553,
+        41.68383
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Voluntown",
+      "model": "town-blocks",
+      "at": 0.5308274964866985,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sterling",
+      "model": "ridge",
+      "at": 0.8644827127235092,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Sterling",
+      "model": "town-blocks",
+      "at": 0.8644827127235092,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Voluntown",
+      "at": 0.5312236286919831,
+      "landmark": "Voluntown"
+    },
+    {
+      "name": "Plainfield",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/state-routes-49-and-14a-2461.json",
+    "public/data/strips/state-routes-49-and-14a-2461.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

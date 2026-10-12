@@ -1,0 +1,370 @@
+{
+  "authored": false,
+  "bywayId": "route-1-san-luis-obispo-north-coast-byway-2475",
+  "title": "Route 1 - San Luis Obispo North Coast Byway",
+  "longitude": -121.0327,
+  "ground": "coastal-cliff",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "cliff-shelf",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -120.65872,
+        35.28117
+      ],
+      [
+        -120.67508,
+        35.2998
+      ],
+      [
+        -120.67879,
+        35.30636
+      ],
+      [
+        -120.69525,
+        35.31895
+      ],
+      [
+        -120.71478,
+        35.32039
+      ],
+      [
+        -120.72406,
+        35.32413
+      ],
+      [
+        -120.73285,
+        35.33053
+      ],
+      [
+        -120.75428,
+        35.33465
+      ],
+      [
+        -120.77707,
+        35.35262
+      ],
+      [
+        -120.80672,
+        35.36185
+      ],
+      [
+        -120.83783,
+        35.3667
+      ],
+      [
+        -120.85174,
+        35.3738
+      ],
+      [
+        -120.86265,
+        35.39921
+      ],
+      [
+        -120.87144,
+        35.40853
+      ],
+      [
+        -120.88808,
+        35.43926
+      ],
+      [
+        -120.90076,
+        35.45195
+      ],
+      [
+        -120.90717,
+        35.45343
+      ],
+      [
+        -120.91276,
+        35.45073
+      ],
+      [
+        -120.92476,
+        35.44935
+      ],
+      [
+        -120.9433,
+        35.45117
+      ],
+      [
+        -120.95618,
+        35.45583
+      ],
+      [
+        -120.98243,
+        35.47232
+      ],
+      [
+        -120.98855,
+        35.47434
+      ],
+      [
+        -121.00506,
+        35.49461
+      ],
+      [
+        -121.04194,
+        35.52279
+      ],
+      [
+        -121.05739,
+        35.54034
+      ],
+      [
+        -121.07644,
+        35.55515
+      ],
+      [
+        -121.09115,
+        35.55585
+      ],
+      [
+        -121.0978,
+        35.56464
+      ],
+      [
+        -121.11002,
+        35.57148
+      ],
+      [
+        -121.1219,
+        35.58649
+      ],
+      [
+        -121.12705,
+        35.59821
+      ],
+      [
+        -121.15278,
+        35.62022
+      ],
+      [
+        -121.16609,
+        35.63644
+      ],
+      [
+        -121.20481,
+        35.65181
+      ],
+      [
+        -121.24294,
+        35.65396
+      ],
+      [
+        -121.25695,
+        35.66323
+      ],
+      [
+        -121.27836,
+        35.67022
+      ],
+      [
+        -121.28476,
+        35.67632
+      ],
+      [
+        -121.28869,
+        35.69026
+      ],
+      [
+        -121.29493,
+        35.69748
+      ],
+      [
+        -121.30364,
+        35.70255
+      ],
+      [
+        -121.30396,
+        35.7119
+      ],
+      [
+        -121.31471,
+        35.72717
+      ],
+      [
+        -121.31207,
+        35.75301
+      ],
+      [
+        -121.32134,
+        35.75973
+      ],
+      [
+        -121.31913,
+        35.7639
+      ],
+      [
+        -121.32267,
+        35.76686
+      ],
+      [
+        -121.32145,
+        35.7696
+      ],
+      [
+        -121.32326,
+        35.76957
+      ],
+      [
+        -121.32757,
+        35.77604
+      ],
+      [
+        -121.32954,
+        35.78222
+      ],
+      [
+        -121.33549,
+        35.78842
+      ],
+      [
+        -121.33798,
+        35.78843
+      ],
+      [
+        -121.34172,
+        35.79429
+      ],
+      [
+        -121.34501,
+        35.79488
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.85
+      ],
+      [
+        0.125,
+        0.894
+      ],
+      [
+        0.25,
+        1
+      ],
+      [
+        0.375,
+        1.106
+      ],
+      [
+        0.5,
+        1.15
+      ],
+      [
+        0.625,
+        1.106
+      ],
+      [
+        0.75,
+        1
+      ],
+      [
+        0.875,
+        0.894
+      ],
+      [
+        1,
+        0.85
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Morro Rock",
+      "model": "sea-stack",
+      "at": 0.23291615429994988,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Harmony",
+      "model": "town-blocks",
+      "at": 0.4844975453382001,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Piedras Blancas",
+      "model": "lighthouse-on-rock",
+      "at": 0.8187578815138065,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "San Luis Obispo",
+      "at": 0.000688468158347666,
+      "landmark": ""
+    },
+    {
+      "name": "Morro Bay",
+      "at": 0.2220309810671256,
+      "landmark": ""
+    },
+    {
+      "name": "Cayucos",
+      "at": 0.3225473321858864,
+      "landmark": ""
+    },
+    {
+      "name": "Harmony",
+      "at": 0.4848537005163511,
+      "landmark": "Harmony"
+    },
+    {
+      "name": "Cambria Pines",
+      "at": 0.5888123924268502,
+      "landmark": ""
+    },
+    {
+      "name": "San Simeon",
+      "at": 0.7230636833046471,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-1-san-luis-obispo-north-coast-byway-2475.json",
+    "public/data/strips/route-1-san-luis-obispo-north-coast-byway-2475.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

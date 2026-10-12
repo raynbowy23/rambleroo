@@ -1,19 +1,20 @@
 {
   "id": "grand-mesa-scenic-and-historic-byway-2103",
-  "tagline": "Up out of the canyon onto a lid of old lava.",
+  "tagline": "From Plateau Creek’s canyon to forests and lakes on a basalt cap.",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "From I-70 the road follows the canyon of Plateau Creek to the town of Mesa, then climbs the steep north side past Powderhorn into evergreen forest and out onto the top of the Grand Mesa, about 11,000 feet up. It crosses the top among its lakes and comes down the south slope to Cedaredge in the Surface Creek Valley.",
-    "The mesa wears a cap of basalt from at least 27 lava flows that filled an old valley some ten million years ago. The hard rock held while the rivers cut away everything around it. What was once the lowest ground is now the highest."
+    "The Grand Mesa byway climbs from Plateau Creek’s canyon into evergreen forest, crossing the mesa between the towns of Mesa and Cedaredge. CDOT gives the route 63 miles and two hours, and highlights fishing, hiking and mountain biking among its attractions. The U.S. Secretary of Transportation designated it a National Scenic Byway in 1996. The highway and its Land’s End spur form the byway: one crosses the mesa, while the other reaches the observatory on its rim.",
+    "Part of the road story lies on the spur to Land’s End. During the Depression, 200 unemployed World War I veterans completed 9.2 miles of Land’s End Road between June 1933 and May 1934, earning a dollar a day. The Forest Service and Works Progress Administration built the observatory in 1936–37, with help from two Civilian Conservation Corps side camps.",
+    "Starting at I-70, follow Plateau Creek’s canyon toward Mesa, then climb the steep north side near Powderhorn. The forested top holds more than 300 lakes, including reservoirs for drinking water and irrigation. Highway 65 passes Island Lake in Grand Mesa National Forest. Land’s End is a separate spur west of Highway 65; the main crossing descends to Cedaredge below the southern slopes."
   ],
   "moments": [
     {
       "title": "Grand Mesa",
       "kind": "roadside",
       "scene": "forest",
-      "text": "More than 300 lakes lie scattered over the top, many of them reservoirs for drinking and irrigation water, and they hold rainbow, cutthroat and brook trout.",
+      "text": "River cobbles beneath Grand Mesa’s basalt cap reveal a reversal: this high ground was once a valley. At least 27 lava flows formed the cap between about 10.9 and 9.6 million years ago. The hard basalt resisted erosion while the Colorado and Gunnison rivers cut down through surrounding sedimentary rocks. More than 300 lakes now dot the top, many serving as drinking-water and irrigation reservoirs. CDOT lists rainbow, cutthroat and brook trout among their fish. Beneath the basalt lie shale and sandstone. Farther down, the Mesaverde Group forms a cliff about halfway up the mesa’s side.",
       "at": [
         -108.0814,
         39.0267
@@ -26,7 +27,8 @@
       "title": "Land's End Observatory",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "About ten miles off the highway, a 1930s ranger observatory of fitted mesa basalt stands on the rim. Two hundred out-of-work veterans built much of the road there at a dollar a day.",
+      "text": "The observatory’s walls and terrace use basalt selected from the mesa and fitted together. Built in 1936–37 by the Forest Service and Works Progress Administration, the ranger observatory stands on Grand Mesa’s rim. The road had already employed 200 World War I veterans during the Depression; they finished 9.2 miles in 1933–34 for a dollar a day. The veterans lived in army tents below the rim. Civil Service machine operators and Forest Service hires completed the road’s toughest stretch over the next two summers. Outside the building, a large viewing area overlooks western Colorado and eastern Utah.",
+      "notice": "The walls and terrace are built from basalt gathered on the mesa.",
       "at": [
         -108.2236,
         39.025
@@ -36,7 +38,7 @@
       "title": "Cedaredge",
       "kind": "town",
       "scene": "town",
-      "text": "A farm town under the south slope of the mesa, raising beef cattle, elk, apples and peaches, with a view south to the San Juan Mountains.",
+      "text": "Below Grand Mesa’s southern slopes, Cedaredge occupies the Surface Creek Valley, with views south to the San Juan Mountains. Its agriculture includes beef cattle, elk, apples and peaches. At Pioneer Town, the octagonal Bar-I Silos survive from a cattle ranch established in the early 1880s. The museum village’s saloon, bank and other early-20th-century town buildings are replicas. The silos are the ranch’s last remaining structures; the recreated village also includes a creamery and a working blacksmith’s shop. The harvest festival took the name AppleFest in 1978 and continues as a celebration of apples, arts, music and food.",
       "at": [
         -107.9256,
         38.8942
@@ -44,11 +46,11 @@
     }
   ],
   "practical": [
-    "Services between Cedaredge and Mesa are limited. Land's End Road is about half gravel, and the observatory building itself was closed and boarded up as of 2022."
+    "Land's End Observatory: Land’s End Road is about half paved and half gravel. The saved account reports the observatory building closed and boarded up as of 2022. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "CDOT, Grand Mesa",
+      "label": "Colorado Department of Transportation, Grand Mesa",
       "url": "https://www.codot.gov/travel/coloradobyways/northwest/grand-mesa"
     },
     {
@@ -56,16 +58,20 @@
       "url": "https://en.wikipedia.org/wiki/Grand_Mesa"
     },
     {
-      "label": "Wikipedia, Colorado State Highway 65",
-      "url": "https://en.wikipedia.org/wiki/Colorado_State_Highway_65"
+      "label": "Wikipedia, Grand Mesa National Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Grand_Mesa_National_Scenic_Byway"
     },
     {
       "label": "Wikipedia, Land's End Observatory",
       "url": "https://en.wikipedia.org/wiki/Land%27s_End_Observatory"
     },
     {
+      "label": "Wikipedia, Colorado State Highway 65",
+      "url": "https://en.wikipedia.org/wiki/Colorado_State_Highway_65"
+    },
+    {
       "label": "Wikipedia, Cedaredge, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Cedaredge,_Colorado"
+      "url": "https://en.wikipedia.org/wiki/Cedaredge%2C_Colorado"
     }
   ],
   "reviewed": false

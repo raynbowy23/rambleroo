@@ -1,0 +1,343 @@
+{
+  "authored": false,
+  "bywayId": "route-75-san-diego-coronado-bridge-and-silver-strand-highway-2169",
+  "title": "Route 75--San Diego-Coronado Bridge and Silver Strand Highway",
+  "longitude": -117.1562,
+  "ground": "coastal-cliff",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "cliff-shelf",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -117.1223,
+        32.58891
+      ],
+      [
+        -117.12275,
+        32.59324
+      ],
+      [
+        -117.12269,
+        32.59766
+      ],
+      [
+        -117.12295,
+        32.59862
+      ],
+      [
+        -117.12462,
+        32.60282
+      ],
+      [
+        -117.12514,
+        32.60385
+      ],
+      [
+        -117.12582,
+        32.60456
+      ],
+      [
+        -117.12676,
+        32.60509
+      ],
+      [
+        -117.12922,
+        32.60591
+      ],
+      [
+        -117.13043,
+        32.60672
+      ],
+      [
+        -117.13258,
+        32.60927
+      ],
+      [
+        -117.1343,
+        32.61183
+      ],
+      [
+        -117.13463,
+        32.61293
+      ],
+      [
+        -117.13546,
+        32.61694
+      ],
+      [
+        -117.13673,
+        32.62172
+      ],
+      [
+        -117.13817,
+        32.62526
+      ],
+      [
+        -117.1386,
+        32.62716
+      ],
+      [
+        -117.13939,
+        32.62959
+      ],
+      [
+        -117.14004,
+        32.63123
+      ],
+      [
+        -117.14241,
+        32.63643
+      ],
+      [
+        -117.14744,
+        32.64665
+      ],
+      [
+        -117.14788,
+        32.6473
+      ],
+      [
+        -117.14972,
+        32.64947
+      ],
+      [
+        -117.1518,
+        32.65339
+      ],
+      [
+        -117.15562,
+        32.65943
+      ],
+      [
+        -117.16002,
+        32.66546
+      ],
+      [
+        -117.16403,
+        32.66996
+      ],
+      [
+        -117.16976,
+        32.67498
+      ],
+      [
+        -117.17063,
+        32.67567
+      ],
+      [
+        -117.17549,
+        32.67897
+      ],
+      [
+        -117.17589,
+        32.67952
+      ],
+      [
+        -117.17633,
+        32.68072
+      ],
+      [
+        -117.17829,
+        32.68238
+      ],
+      [
+        -117.17874,
+        32.68296
+      ],
+      [
+        -117.17888,
+        32.68325
+      ],
+      [
+        -117.17903,
+        32.68412
+      ],
+      [
+        -117.1797,
+        32.68474
+      ],
+      [
+        -117.18005,
+        32.68537
+      ],
+      [
+        -117.18004,
+        32.68579
+      ],
+      [
+        -117.17411,
+        32.69596
+      ],
+      [
+        -117.17135,
+        32.6948
+      ],
+      [
+        -117.17108,
+        32.69437
+      ],
+      [
+        -117.17097,
+        32.6938
+      ],
+      [
+        -117.17014,
+        32.69267
+      ],
+      [
+        -117.167,
+        32.69115
+      ],
+      [
+        -117.1644,
+        32.68899
+      ],
+      [
+        -117.16229,
+        32.68753
+      ],
+      [
+        -117.16082,
+        32.68694
+      ],
+      [
+        -117.15974,
+        32.68675
+      ],
+      [
+        -117.15854,
+        32.68672
+      ],
+      [
+        -117.15764,
+        32.68684
+      ],
+      [
+        -117.1565,
+        32.68717
+      ],
+      [
+        -117.15568,
+        32.68758
+      ],
+      [
+        -117.15482,
+        32.68824
+      ],
+      [
+        -117.14716,
+        32.69606
+      ],
+      [
+        -117.14447,
+        32.69901
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.85
+      ],
+      [
+        0.125,
+        0.894
+      ],
+      [
+        0.25,
+        1
+      ],
+      [
+        0.375,
+        1.106
+      ],
+      [
+        0.5,
+        1.15
+      ],
+      [
+        0.625,
+        1.106
+      ],
+      [
+        0.75,
+        1
+      ],
+      [
+        0.875,
+        0.894
+      ],
+      [
+        1,
+        0.85
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Silver Strand",
+      "model": "sandbar",
+      "at": 0.4037613641961945,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Coronado",
+      "model": "town-blocks",
+      "at": 0.6437460969347196,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Imperial Beach",
+      "at": 0.0018348623853210455,
+      "landmark": ""
+    },
+    {
+      "name": "Glacier Gardens",
+      "at": 0.9862385321100917,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/route-75-san-diego-coronado-bridge-and-silver-strand-highway-2169.json",
+    "public/data/strips/route-75-san-diego-coronado-bridge-and-silver-strand-highway-2169.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

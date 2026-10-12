@@ -1,0 +1,406 @@
+{
+  "authored": false,
+  "bywayId": "us-2-iron-county-heritage-trail-992613",
+  "title": "US-2 Iron County Heritage Trail",
+  "longitude": -88.4927,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -88.64254,
+        46.09241
+      ],
+      [
+        -88.63448,
+        46.09238
+      ],
+      [
+        -88.63341,
+        46.09254
+      ],
+      [
+        -88.63254,
+        46.09283
+      ],
+      [
+        -88.63217,
+        46.09301
+      ],
+      [
+        -88.63128,
+        46.09363
+      ],
+      [
+        -88.62841,
+        46.09705
+      ],
+      [
+        -88.62177,
+        46.10392
+      ],
+      [
+        -88.62122,
+        46.10436
+      ],
+      [
+        -88.62036,
+        46.10489
+      ],
+      [
+        -88.61914,
+        46.10533
+      ],
+      [
+        -88.61791,
+        46.10559
+      ],
+      [
+        -88.61363,
+        46.10568
+      ],
+      [
+        -88.6054,
+        46.10564
+      ],
+      [
+        -88.55246,
+        46.10622
+      ],
+      [
+        -88.54062,
+        46.10616
+      ],
+      [
+        -88.53397,
+        46.10663
+      ],
+      [
+        -88.53273,
+        46.10677
+      ],
+      [
+        -88.5272,
+        46.10764
+      ],
+      [
+        -88.52559,
+        46.10771
+      ],
+      [
+        -88.52459,
+        46.10768
+      ],
+      [
+        -88.51872,
+        46.10638
+      ],
+      [
+        -88.51633,
+        46.10558
+      ],
+      [
+        -88.50109,
+        46.09989
+      ],
+      [
+        -88.49891,
+        46.09926
+      ],
+      [
+        -88.49673,
+        46.09881
+      ],
+      [
+        -88.48861,
+        46.09769
+      ],
+      [
+        -88.48616,
+        46.09748
+      ],
+      [
+        -88.47865,
+        46.09715
+      ],
+      [
+        -88.47474,
+        46.09685
+      ],
+      [
+        -88.47118,
+        46.09648
+      ],
+      [
+        -88.46231,
+        46.09541
+      ],
+      [
+        -88.45182,
+        46.09427
+      ],
+      [
+        -88.44214,
+        46.09426
+      ],
+      [
+        -88.42585,
+        46.0945
+      ],
+      [
+        -88.42378,
+        46.09446
+      ],
+      [
+        -88.42056,
+        46.09416
+      ],
+      [
+        -88.4127,
+        46.09289
+      ],
+      [
+        -88.41092,
+        46.0927
+      ],
+      [
+        -88.40876,
+        46.09273
+      ],
+      [
+        -88.407,
+        46.09291
+      ],
+      [
+        -88.40272,
+        46.09372
+      ],
+      [
+        -88.39993,
+        46.09405
+      ],
+      [
+        -88.37531,
+        46.094
+      ],
+      [
+        -88.36756,
+        46.09403
+      ],
+      [
+        -88.36605,
+        46.09412
+      ],
+      [
+        -88.36541,
+        46.09422
+      ],
+      [
+        -88.36486,
+        46.09438
+      ],
+      [
+        -88.36394,
+        46.09481
+      ],
+      [
+        -88.36007,
+        46.09702
+      ],
+      [
+        -88.35941,
+        46.09733
+      ],
+      [
+        -88.35874,
+        46.09753
+      ],
+      [
+        -88.3579,
+        46.09767
+      ],
+      [
+        -88.33423,
+        46.09778
+      ],
+      [
+        -88.33408,
+        46.09774
+      ],
+      [
+        -88.33401,
+        46.09681
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Stambaugh",
+      "model": "false-front-town",
+      "at": 0.027085566728913647,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Stambaugh",
+      "model": "town-blocks",
+      "at": 0.027085566728913647,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Iron County Courthouse, Crystal Falls",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Stambaugh",
+      "at": 0.02692307692307692,
+      "landmark": "Stambaugh"
+    },
+    {
+      "name": "Crystal Falls",
+      "at": 0.9942307692307693,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/us-2-iron-county-heritage-trail-992613.json",
+    "public/data/strips/us-2-iron-county-heritage-trail-992613.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

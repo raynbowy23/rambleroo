@@ -1,0 +1,334 @@
+{
+  "authored": false,
+  "bywayId": "alligator-river-route-12810",
+  "title": "Alligator River Route",
+  "longitude": -76.2221,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -76.21009,
+        35.44165
+      ],
+      [
+        -76.2166,
+        35.51736
+      ],
+      [
+        -76.22625,
+        35.5465
+      ],
+      [
+        -76.23047,
+        35.58744
+      ],
+      [
+        -76.23361,
+        35.59812
+      ],
+      [
+        -76.23052,
+        35.60968
+      ],
+      [
+        -76.2308,
+        35.61685
+      ],
+      [
+        -76.21819,
+        35.63401
+      ],
+      [
+        -76.20518,
+        35.64465
+      ],
+      [
+        -76.20773,
+        35.65724
+      ],
+      [
+        -76.19448,
+        35.71976
+      ],
+      [
+        -76.19213,
+        35.72314
+      ],
+      [
+        -76.17601,
+        35.73262
+      ],
+      [
+        -76.17448,
+        35.73565
+      ],
+      [
+        -76.20025,
+        35.82418
+      ],
+      [
+        -76.21737,
+        35.85946
+      ],
+      [
+        -76.2212,
+        35.87298
+      ],
+      [
+        -76.22683,
+        35.88205
+      ],
+      [
+        -76.23151,
+        35.88632
+      ],
+      [
+        -76.23422,
+        35.89262
+      ],
+      [
+        -76.24156,
+        35.90398
+      ],
+      [
+        -76.25114,
+        35.91348
+      ],
+      [
+        -76.25232,
+        35.91772
+      ],
+      [
+        -76.23356,
+        35.91924
+      ],
+      [
+        -76.2191,
+        35.91767
+      ],
+      [
+        -76.1828,
+        35.93063
+      ],
+      [
+        -76.16315,
+        35.9339
+      ],
+      [
+        -76.15514,
+        35.93377
+      ],
+      [
+        -76.14661,
+        35.93106
+      ],
+      [
+        -76.10963,
+        35.90924
+      ],
+      [
+        -76.07515,
+        35.89899
+      ],
+      [
+        -76.07053,
+        35.89902
+      ],
+      [
+        -76.04124,
+        35.9069
+      ],
+      [
+        -76.03589,
+        35.90705
+      ],
+      [
+        -75.98087,
+        35.89464
+      ],
+      [
+        -75.96846,
+        35.89404
+      ],
+      [
+        -75.94783,
+        35.88163
+      ],
+      [
+        -75.91798,
+        35.86742
+      ],
+      [
+        -75.9132,
+        35.86738
+      ],
+      [
+        -75.90026,
+        35.87078
+      ],
+      [
+        -75.88379,
+        35.8715
+      ],
+      [
+        -75.87794,
+        35.87064
+      ],
+      [
+        -75.86185,
+        35.86431
+      ],
+      [
+        -75.85805,
+        35.86362
+      ],
+      [
+        -75.78402,
+        35.87163
+      ],
+      [
+        -75.77834,
+        35.87819
+      ],
+      [
+        -75.76231,
+        35.88534
+      ],
+      [
+        -75.77086,
+        35.89417
+      ],
+      [
+        -75.77064,
+        35.89852
+      ],
+      [
+        -75.77512,
+        35.90675
+      ],
+      [
+        -75.7734,
+        35.91051
+      ],
+      [
+        -75.70346,
+        35.9344
+      ],
+      [
+        -75.691,
+        35.9325
+      ],
+      [
+        -75.67994,
+        35.92395
+      ],
+      [
+        -75.67856,
+        35.9216
+      ],
+      [
+        -75.67635,
+        35.91025
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lake Mattamuskeet",
+      "model": "alpine-lake",
+      "at": 0.05239797785175432,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Columbia",
+      "model": "town-blocks",
+      "at": 0.4846072348346535,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Manns Harbor",
+      "model": "town-blocks",
+      "at": 0.8809541863675981,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Columbia",
+      "at": 0.4844897959183673,
+      "landmark": "Columbia"
+    },
+    {
+      "name": "Manns Harbor",
+      "at": 0.8808163265306121,
+      "landmark": "Manns Harbor"
+    },
+    {
+      "name": "Manteo",
+      "at": 0.9998639455782312,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/alligator-river-route-12810.json",
+    "public/data/strips/alligator-river-route-12810.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

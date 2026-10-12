@@ -1,0 +1,407 @@
+{
+  "authored": false,
+  "bywayId": "high-peaks-scenic-byway-nys-route-73-10499",
+  "title": "High Peaks Scenic Byway (NYS Route 73)",
+  "longitude": -73.7836,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -73.98003,
+        44.2794
+      ],
+      [
+        -73.98227,
+        44.27795
+      ],
+      [
+        -73.97926,
+        44.27154
+      ],
+      [
+        -73.97136,
+        44.26689
+      ],
+      [
+        -73.96813,
+        44.26126
+      ],
+      [
+        -73.96327,
+        44.25838
+      ],
+      [
+        -73.96216,
+        44.25667
+      ],
+      [
+        -73.96216,
+        44.25503
+      ],
+      [
+        -73.96634,
+        44.25072
+      ],
+      [
+        -73.96483,
+        44.24783
+      ],
+      [
+        -73.95,
+        44.24186
+      ],
+      [
+        -73.94016,
+        44.24203
+      ],
+      [
+        -73.93373,
+        44.24021
+      ],
+      [
+        -73.92529,
+        44.24148
+      ],
+      [
+        -73.914,
+        44.23772
+      ],
+      [
+        -73.91246,
+        44.23638
+      ],
+      [
+        -73.91167,
+        44.2317
+      ],
+      [
+        -73.90855,
+        44.22652
+      ],
+      [
+        -73.90122,
+        44.22313
+      ],
+      [
+        -73.89753,
+        44.21933
+      ],
+      [
+        -73.89484,
+        44.21833
+      ],
+      [
+        -73.88674,
+        44.2193
+      ],
+      [
+        -73.87405,
+        44.22691
+      ],
+      [
+        -73.86242,
+        44.2374
+      ],
+      [
+        -73.85245,
+        44.24029
+      ],
+      [
+        -73.83548,
+        44.24708
+      ],
+      [
+        -73.82847,
+        44.25468
+      ],
+      [
+        -73.82008,
+        44.26051
+      ],
+      [
+        -73.81247,
+        44.26406
+      ],
+      [
+        -73.80593,
+        44.26376
+      ],
+      [
+        -73.80353,
+        44.2672
+      ],
+      [
+        -73.80007,
+        44.26655
+      ],
+      [
+        -73.79644,
+        44.2592
+      ],
+      [
+        -73.78138,
+        44.24922
+      ],
+      [
+        -73.77914,
+        44.24406
+      ],
+      [
+        -73.78629,
+        44.22299
+      ],
+      [
+        -73.78869,
+        44.20468
+      ],
+      [
+        -73.78592,
+        44.19809
+      ],
+      [
+        -73.78658,
+        44.18606
+      ],
+      [
+        -73.78257,
+        44.17527
+      ],
+      [
+        -73.78229,
+        44.16915
+      ],
+      [
+        -73.77895,
+        44.16413
+      ],
+      [
+        -73.7733,
+        44.15746
+      ],
+      [
+        -73.76936,
+        44.15452
+      ],
+      [
+        -73.7676,
+        44.15021
+      ],
+      [
+        -73.75332,
+        44.14475
+      ],
+      [
+        -73.74525,
+        44.13979
+      ],
+      [
+        -73.74023,
+        44.13475
+      ],
+      [
+        -73.73234,
+        44.13237
+      ],
+      [
+        -73.72392,
+        44.12717
+      ],
+      [
+        -73.70836,
+        44.11265
+      ],
+      [
+        -73.70196,
+        44.11039
+      ],
+      [
+        -73.68179,
+        44.09806
+      ],
+      [
+        -73.67784,
+        44.09314
+      ],
+      [
+        -73.67632,
+        44.08765
+      ],
+      [
+        -73.66626,
+        44.07883
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Keene",
+      "model": "town-blocks",
+      "at": 0.4832041329729342,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Lake Placid",
+      "at": 0.00034013605442176874,
+      "landmark": ""
+    },
+    {
+      "name": "Cascade Mountain",
+      "at": 0.28741496598639454,
+      "landmark": ""
+    },
+    {
+      "name": "Keene",
+      "at": 0.48367346938775513,
+      "landmark": "Keene"
+    },
+    {
+      "name": "Round Mountain",
+      "at": 0.8091836734693878,
+      "landmark": ""
+    },
+    {
+      "name": "Makomis Mountain",
+      "at": 0.9843537414965987,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/high-peaks-scenic-byway-nys-route-73-10499.json",
+    "public/data/strips/high-peaks-scenic-byway-nys-route-73-10499.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,346 @@
+{
+  "authored": false,
+  "bywayId": "lower-susquehanna-scenic-byway-2263",
+  "title": "Lower Susquehanna Scenic Byway",
+  "longitude": -76.1363,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -76.07746,
+        39.55727
+      ],
+      [
+        -76.07925,
+        39.56067
+      ],
+      [
+        -76.07797,
+        39.57002
+      ],
+      [
+        -76.0832,
+        39.57734
+      ],
+      [
+        -76.08035,
+        39.58314
+      ],
+      [
+        -76.08028,
+        39.58698
+      ],
+      [
+        -76.08244,
+        39.59142
+      ],
+      [
+        -76.09144,
+        39.59732
+      ],
+      [
+        -76.09044,
+        39.59982
+      ],
+      [
+        -76.10095,
+        39.60452
+      ],
+      [
+        -76.10334,
+        39.60427
+      ],
+      [
+        -76.10951,
+        39.5994
+      ],
+      [
+        -76.1262,
+        39.6141
+      ],
+      [
+        -76.13432,
+        39.61884
+      ],
+      [
+        -76.14219,
+        39.62696
+      ],
+      [
+        -76.14799,
+        39.63468
+      ],
+      [
+        -76.15587,
+        39.65914
+      ],
+      [
+        -76.16021,
+        39.66282
+      ],
+      [
+        -76.17003,
+        39.66776
+      ],
+      [
+        -76.1761,
+        39.65596
+      ],
+      [
+        -76.17805,
+        39.655
+      ],
+      [
+        -76.17725,
+        39.65135
+      ],
+      [
+        -76.18068,
+        39.64641
+      ],
+      [
+        -76.18484,
+        39.64446
+      ],
+      [
+        -76.19672,
+        39.63537
+      ],
+      [
+        -76.19206,
+        39.63302
+      ],
+      [
+        -76.18888,
+        39.6291
+      ],
+      [
+        -76.17662,
+        39.62843
+      ],
+      [
+        -76.17171,
+        39.6296
+      ],
+      [
+        -76.16868,
+        39.62509
+      ],
+      [
+        -76.16622,
+        39.62459
+      ],
+      [
+        -76.16468,
+        39.62308
+      ],
+      [
+        -76.15835,
+        39.62264
+      ],
+      [
+        -76.15093,
+        39.61399
+      ],
+      [
+        -76.14322,
+        39.60839
+      ],
+      [
+        -76.14837,
+        39.60553
+      ],
+      [
+        -76.14868,
+        39.60326
+      ],
+      [
+        -76.15214,
+        39.60079
+      ],
+      [
+        -76.1578,
+        39.59907
+      ],
+      [
+        -76.17123,
+        39.59039
+      ],
+      [
+        -76.17809,
+        39.58474
+      ],
+      [
+        -76.18495,
+        39.58181
+      ],
+      [
+        -76.18682,
+        39.57674
+      ],
+      [
+        -76.17875,
+        39.57317
+      ],
+      [
+        -76.17384,
+        39.57223
+      ],
+      [
+        -76.15564,
+        39.57511
+      ],
+      [
+        -76.14685,
+        39.57471
+      ],
+      [
+        -76.13244,
+        39.56891
+      ],
+      [
+        -76.12255,
+        39.56343
+      ],
+      [
+        -76.10764,
+        39.56133
+      ],
+      [
+        -76.10059,
+        39.55688
+      ],
+      [
+        -76.09641,
+        39.55673
+      ],
+      [
+        -76.09635,
+        39.55515
+      ],
+      [
+        -76.09264,
+        39.55474
+      ],
+      [
+        -76.08978,
+        39.54971
+      ],
+      [
+        -76.08959,
+        39.53893
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Port Deposit",
+      "model": "ledge",
+      "at": 0.1464446285299518,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Port Deposit",
+      "model": "town-blocks",
+      "at": 0.1464446285299518,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Havre de Grace",
+      "model": "lighthouse-on-rock",
+      "at": 0.9684265455665045,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Havre de Grace",
+      "model": "town-blocks",
+      "at": 0.9684265455665045,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Port Deposit",
+      "at": 0.14635036496350365,
+      "landmark": "Port Deposit"
+    },
+    {
+      "name": "Lapidum",
+      "at": 0.18969776893116144,
+      "landmark": ""
+    },
+    {
+      "name": "Aldino",
+      "at": 0.7525547445255475,
+      "landmark": ""
+    },
+    {
+      "name": "Havre de Grace",
+      "at": 0.9671532846715329,
+      "landmark": "Havre de Grace"
+    }
+  ],
+  "sources": [
+    "content/stories/lower-susquehanna-scenic-byway-2263.json",
+    "public/data/strips/lower-susquehanna-scenic-byway-2263.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

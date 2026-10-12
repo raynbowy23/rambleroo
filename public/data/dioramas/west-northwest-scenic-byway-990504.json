@@ -1,0 +1,429 @@
+{
+  "authored": false,
+  "bywayId": "west-northwest-scenic-byway-990504",
+  "title": "West-Northwest Scenic Byway",
+  "longitude": -94.0576,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -94.2354,
+        34.58309
+      ],
+      [
+        -94.20521,
+        34.58814
+      ],
+      [
+        -94.20273,
+        34.6419
+      ],
+      [
+        -94.15964,
+        34.65151
+      ],
+      [
+        -94.15096,
+        34.65948
+      ],
+      [
+        -94.14988,
+        34.66596
+      ],
+      [
+        -94.1535,
+        34.6708
+      ],
+      [
+        -94.19825,
+        34.68914
+      ],
+      [
+        -94.19632,
+        34.69739
+      ],
+      [
+        -94.1607,
+        34.71607
+      ],
+      [
+        -94.13948,
+        34.7238
+      ],
+      [
+        -94.11969,
+        34.72596
+      ],
+      [
+        -94.10608,
+        34.73379
+      ],
+      [
+        -94.08737,
+        34.72843
+      ],
+      [
+        -94.07914,
+        34.73006
+      ],
+      [
+        -94.07734,
+        34.73396
+      ],
+      [
+        -94.08048,
+        34.73864
+      ],
+      [
+        -94.07584,
+        34.74666
+      ],
+      [
+        -94.07573,
+        34.76519
+      ],
+      [
+        -94.07225,
+        34.76966
+      ],
+      [
+        -94.06311,
+        34.77161
+      ],
+      [
+        -94.04861,
+        34.78067
+      ],
+      [
+        -94.0362,
+        34.82325
+      ],
+      [
+        -94.04559,
+        34.83699
+      ],
+      [
+        -94.05269,
+        34.83997
+      ],
+      [
+        -94.07508,
+        34.86565
+      ],
+      [
+        -94.10721,
+        34.88608
+      ],
+      [
+        -94.10692,
+        34.92159
+      ],
+      [
+        -94.10249,
+        34.93068
+      ],
+      [
+        -94.1022,
+        34.93982
+      ],
+      [
+        -94.11025,
+        34.96263
+      ],
+      [
+        -94.09673,
+        34.96981
+      ],
+      [
+        -94.09336,
+        34.97823
+      ],
+      [
+        -94.10425,
+        34.99537
+      ],
+      [
+        -94.12013,
+        35.00283
+      ],
+      [
+        -94.12194,
+        35.01232
+      ],
+      [
+        -94.11913,
+        35.02252
+      ],
+      [
+        -94.12242,
+        35.03151
+      ],
+      [
+        -94.12054,
+        35.04322
+      ],
+      [
+        -94.12854,
+        35.05788
+      ],
+      [
+        -94.13887,
+        35.06507
+      ],
+      [
+        -94.15627,
+        35.06287
+      ],
+      [
+        -94.20446,
+        35.07567
+      ],
+      [
+        -94.24246,
+        35.06334
+      ],
+      [
+        -94.25207,
+        35.06442
+      ],
+      [
+        -94.2634,
+        35.07921
+      ],
+      [
+        -94.26214,
+        35.09238
+      ],
+      [
+        -94.26743,
+        35.10725
+      ],
+      [
+        -94.26659,
+        35.1381
+      ],
+      [
+        -94.27079,
+        35.14288
+      ],
+      [
+        -94.27056,
+        35.15259
+      ],
+      [
+        -94.28647,
+        35.18039
+      ],
+      [
+        -94.28971,
+        35.20042
+      ],
+      [
+        -94.29708,
+        35.21794
+      ],
+      [
+        -94.36329,
+        35.26126
+      ],
+      [
+        -94.39882,
+        35.31253
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Mena",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Mena",
+      "at": 0,
+      "landmark": "Mena"
+    },
+    {
+      "name": "Acorn",
+      "at": 0.07447089947089947,
+      "landmark": ""
+    },
+    {
+      "name": "Gate",
+      "at": 0.20171957671957663,
+      "landmark": ""
+    },
+    {
+      "name": "Boles",
+      "at": 0.338095238095238,
+      "landmark": ""
+    },
+    {
+      "name": "Waldron",
+      "at": 0.46719576719576716,
+      "landmark": ""
+    },
+    {
+      "name": "Mansfield",
+      "at": 0.7279100529100528,
+      "landmark": ""
+    },
+    {
+      "name": "Witcherville",
+      "at": 0.8033068783068783,
+      "landmark": ""
+    },
+    {
+      "name": "Jenny Lind",
+      "at": 0.9162698412698412,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/west-northwest-scenic-byway-990504.json",
+    "public/data/strips/west-northwest-scenic-byway-990504.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

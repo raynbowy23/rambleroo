@@ -1,0 +1,485 @@
+{
+  "authored": false,
+  "bywayId": "coal-heritage-trail-10346",
+  "title": "Coal Heritage Trail",
+  "longitude": -81.5311,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.22264,
+        37.26988
+      ],
+      [
+        -81.2399,
+        37.26458
+      ],
+      [
+        -81.26098,
+        37.31352
+      ],
+      [
+        -81.30078,
+        37.32118
+      ],
+      [
+        -81.34015,
+        37.36693
+      ],
+      [
+        -81.41898,
+        37.38681
+      ],
+      [
+        -81.41923,
+        37.40321
+      ],
+      [
+        -81.44127,
+        37.42075
+      ],
+      [
+        -81.46584,
+        37.40514
+      ],
+      [
+        -81.50652,
+        37.43047
+      ],
+      [
+        -81.53264,
+        37.40909
+      ],
+      [
+        -81.55297,
+        37.43066
+      ],
+      [
+        -81.58452,
+        37.43131
+      ],
+      [
+        -81.58923,
+        37.43855
+      ],
+      [
+        -81.54314,
+        37.45097
+      ],
+      [
+        -81.53732,
+        37.50123
+      ],
+      [
+        -81.57223,
+        37.50642
+      ],
+      [
+        -81.59599,
+        37.52987
+      ],
+      [
+        -81.57649,
+        37.54979
+      ],
+      [
+        -81.5447,
+        37.55452
+      ],
+      [
+        -81.52247,
+        37.58319
+      ],
+      [
+        -81.49298,
+        37.56909
+      ],
+      [
+        -81.45064,
+        37.56877
+      ],
+      [
+        -81.43534,
+        37.58211
+      ],
+      [
+        -81.40893,
+        37.56145
+      ],
+      [
+        -81.38031,
+        37.58315
+      ],
+      [
+        -81.37235,
+        37.56814
+      ],
+      [
+        -81.35475,
+        37.57225
+      ],
+      [
+        -81.35102,
+        37.58902
+      ],
+      [
+        -81.32605,
+        37.58037
+      ],
+      [
+        -81.30095,
+        37.69659
+      ],
+      [
+        -81.25033,
+        37.70769
+      ],
+      [
+        -81.2504,
+        37.72312
+      ],
+      [
+        -81.19621,
+        37.7669
+      ],
+      [
+        -81.18362,
+        37.79569
+      ],
+      [
+        -81.19843,
+        37.85554
+      ],
+      [
+        -81.18741,
+        37.88595
+      ],
+      [
+        -81.15388,
+        37.90003
+      ],
+      [
+        -81.16538,
+        37.918
+      ],
+      [
+        -81.14922,
+        37.97162
+      ],
+      [
+        -81.10522,
+        38.0576
+      ],
+      [
+        -81.07273,
+        38.07023
+      ],
+      [
+        -81.0806,
+        38.07802
+      ],
+      [
+        -81.08051,
+        38.05955
+      ],
+      [
+        -81.09112,
+        38.07614
+      ],
+      [
+        -81.10522,
+        38.0576
+      ],
+      [
+        -81.1153,
+        38.09571
+      ],
+      [
+        -81.15311,
+        38.09717
+      ],
+      [
+        -81.14716,
+        38.13852
+      ],
+      [
+        -81.14097,
+        38.12406
+      ],
+      [
+        -81.12298,
+        38.12191
+      ],
+      [
+        -81.10041,
+        38.13629
+      ],
+      [
+        -81.06811,
+        38.12409
+      ],
+      [
+        -81.01138,
+        38.12762
+      ],
+      [
+        -81.00667,
+        38.11603
+      ],
+      [
+        -81.0747,
+        38.07335
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Bramwell",
+      "model": "false-front-town",
+      "at": 0.0574920137057963,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Bramwell",
+      "model": "town-blocks",
+      "at": 0.0574920137057963,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Kimball",
+      "model": "town-blocks",
+      "at": 0.17861996771664104,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Itmann",
+      "model": "false-front-town",
+      "at": 0.41663342389223595,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Brush Fork",
+      "at": 0.01761871988988306,
+      "landmark": ""
+    },
+    {
+      "name": "Maybeury",
+      "at": 0.09249827942188571,
+      "landmark": ""
+    },
+    {
+      "name": "Landgraff",
+      "at": 0.158155540261528,
+      "landmark": ""
+    },
+    {
+      "name": "Capels",
+      "at": 0.23055746730901594,
+      "landmark": ""
+    },
+    {
+      "name": "Pineville",
+      "at": 0.3492773571920166,
+      "landmark": ""
+    },
+    {
+      "name": "Tralee",
+      "at": 0.42381280110117003,
+      "landmark": ""
+    },
+    {
+      "name": "Rhodell",
+      "at": 0.4999311768754302,
+      "landmark": ""
+    },
+    {
+      "name": "Sophia",
+      "at": 0.5684790089470062,
+      "landmark": ""
+    },
+    {
+      "name": "Riley",
+      "at": 0.631452167928424,
+      "landmark": ""
+    },
+    {
+      "name": "Sun",
+      "at": 0.6951823812801101,
+      "landmark": ""
+    },
+    {
+      "name": "Glen Jean",
+      "at": 0.7015824234807918,
+      "landmark": ""
+    },
+    {
+      "name": "Fayetteville",
+      "at": 0.7684101858224364,
+      "landmark": ""
+    },
+    {
+      "name": "Bachman",
+      "at": 0.8558155540261528,
+      "landmark": ""
+    },
+    {
+      "name": "Ansted",
+      "at": 0.9225739848589126,
+      "landmark": ""
+    },
+    {
+      "name": "Lansing",
+      "at": 0.9976600137646249,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/coal-heritage-trail-10346.json",
+    "public/data/strips/coal-heritage-trail-10346.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

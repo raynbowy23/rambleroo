@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router'
-import { collections, useCatalog, firstPhoto } from '../../lib/data'
+import { collections, useCatalog, useCovers, firstPhoto } from '../../lib/data'
 import { usePassport, visitedBywayIds } from '../../lib/passport'
 import type { Theme } from '../../lib/types'
 import { PhotoImage, PhotoChip } from '../photos/Photos'
@@ -13,6 +13,7 @@ export default function CollectionsPage() {
   const { slug } = useParams()
   const collection = collections.find((c) => c.slug === slug)
   const { byId, status } = useCatalog()
+  const covers = useCovers()
   const passport = usePassport()
   const [theme, setTheme] = useState<Theme | ''>('')
   const roads = useMemo(
@@ -31,7 +32,7 @@ export default function CollectionsPage() {
     return (
       <main className={s.editorialPage}>
         <Hero
-          photo={firstPhoto(collection.bywayIds)}
+          photo={firstPhoto(covers, collection.bywayIds)}
           family={collection.scene}
           seed={collections.indexOf(collection) + 1}
           title={collection.title}
@@ -83,7 +84,7 @@ export default function CollectionsPage() {
       <ThemeChips value={theme} onChange={setTheme} />
       <div className={s.grid}>
         {shown.map((c) => {
-          const photo = firstPhoto(c.bywayIds)
+          const photo = firstPhoto(covers, c.bywayIds)
           return (
             <article className={s.cover} key={c.slug}>
               {photo ? (

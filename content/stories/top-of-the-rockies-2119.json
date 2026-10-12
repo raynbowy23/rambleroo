@@ -1,20 +1,21 @@
 {
   "id": "top-of-the-rockies-2119",
-  "tagline": "Three times over the Divide, by way of the silver towns.",
+  "tagline": "Three Divide crossings link mining towns and a former stage road.",
   "motifs": [
     "mining-town",
     "snow-peaks"
   ],
   "intro": [
-    "Up from Minturn, US 24 climbs past the Eagle River, crosses Tennessee Pass and comes down into Leadville, the old silver town at better than 10,000 feet. Ringed by fourteeners, it occupies the lowlands. South of town Mount Elbert and Mount Massive, the two highest peaks in the Rockies, stand side by side.",
-    "From Leadville the byway crosses the Continental Divide twice more. One branch traces the Arkansas River nearly to its source near Fremont Pass. The other runs by Twin Lakes and climbs from 9,200 feet to 12,095 at Independence Pass before dropping into Aspen."
+    "Top of the Rockies links high mountain passes, mining towns and the Arkansas River in a 115-mile drive that Colorado’s transportation department allows four to five hours to cover. The department presents this National Scenic Byway, designated in 1998, through its mining heritage and mountain setting, with Mount Elbert and Mount Massive south of Leadville. Tennessee Pass has gentle approaches without major hairpins; Independence Pass brings six-percent grades and switchbacks.",
+    "The Independence crossing began its road life serving mining camps. Mining investor B. Clark Wheeler financed a stage road to Leadville that opened in November 1881. Tolls helped pay men with snow shovels to keep the stage road open through its first five winters. When snow became too deep, passengers traveled by sleigh. A rail connection to Aspen drew traffic away, and the stage road fell into disuse. The state replaced it with an automobile road in 1927 and paved the crossing in 1967.",
+    "From Minturn, follow US 24 over Tennessee Pass to Leadville. The Fremont Pass branch runs northeast toward Copper Mountain; return to Leadville for the southern leg. South of Leadville, turn west on Highway 82 by Twin Lakes, climb to 12,095-foot Independence Pass and continue into Aspen."
   ],
   "moments": [
     {
       "title": "Gilman",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The remnants of a lead and zinc town show along the highway curves, on a 600-foot cliff above the Eagle River. It was abandoned in 1984 and is off limits.",
+      "text": "Gilman’s remnants are visible along the curves of US 24, on a 600-foot cliff above the Eagle River. The town grew into a center of lead and zinc mining. Zinc initially caused trouble: deeper ores contained so much of it that smelters refused them. Equipment installed in 1905 separated the zinc minerals, turning rejected material into a product. Gilman was abandoned in 1984. After the mine closed, the EPA placed the area on the Superfund National Priorities List in 1986. The townsite remains private property, strictly off limits to the public; the highway view does not mean the town is a visitor stop.",
       "at": [
         -106.394,
         39.533
@@ -27,7 +28,7 @@
       "title": "Climax",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The company town at Fremont Pass was razed in 1962 to make room for the molybdenum mine and its houses were hauled to Leadville. The post office carried on until 1974.",
+      "text": "At Fremont Pass, the mine outgrew its own company town. Climax developed because of a huge molybdenum deposit; the mine evolved from an underground operation into a pit mine. Molybdenum hardens steel, and demand for it increased during World War II. For many years, the mine supplied three-fourths of the world’s molybdenum. In 1962 the town was razed for mine expansion, and its houses were transported to Leadville’s West Park subdivision. The post office continued until 1974, outlasting the town’s removal. Mining buildings remained, and part of the former jail became the front office.",
       "at": [
         -106.184,
         39.369
@@ -40,7 +41,8 @@
       "title": "Independence Pass",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Prospectors crossed here on July 4, 1879, and named it for the day. An overlook near the top looks over tundra above treeline and east to Mount Elbert.",
+      "text": "At 12,095 feet, Independence Pass carries Highway 82 above treeline into alpine tundra. Its open grassy ground is broken by low shrubs and bare rock. The approach from Twin Lakes follows the North Fork of Lake Creek; the western descent uses the narrow Roaring Fork valley. A paved path leads from the parking area to an overlook. In clear enough weather, the eastward view includes Mount Elbert and La Plata Peak. The road crosses the Divide here, between the Arkansas drainage on the east and the Colorado drainage on the west.",
+      "notice": "Low shrubs and bare rock interrupt the alpine grassland above treeline.",
       "at": [
         -106.564,
         39.108
@@ -51,32 +53,36 @@
     }
   ],
   "practical": [
-    "Independence Pass on CO 82 is closed from October to May."
+    "Independence Pass: Independence Pass is open seasonally; it is not a year-round connection to Aspen. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "CDOT, Top of the Rockies",
+      "label": "Colorado Department of Transportation, Top of the Rockies",
       "url": "https://www.codot.gov/travel/coloradobyways/south-central/top-rockies"
+    },
+    {
+      "label": "Wikipedia, Gilman, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Gilman%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Independence Pass",
+      "url": "https://en.wikipedia.org/wiki/Independence_Pass"
+    },
+    {
+      "label": "Wikipedia, Tennessee Pass",
+      "url": "https://en.wikipedia.org/wiki/Tennessee_Pass"
     },
     {
       "label": "Wikipedia, Top of the Rockies National Scenic Byway",
       "url": "https://en.wikipedia.org/wiki/Top_of_the_Rockies_National_Scenic_Byway"
     },
     {
-      "label": "Wikipedia, Leadville, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Leadville,_Colorado"
-    },
-    {
-      "label": "Wikipedia, Gilman, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Gilman,_Colorado"
-    },
-    {
       "label": "Wikipedia, Climax, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Climax,_Colorado"
+      "url": "https://en.wikipedia.org/wiki/Climax%2C_Colorado"
     },
     {
-      "label": "Wikipedia, Independence Pass",
-      "url": "https://en.wikipedia.org/wiki/Independence_Pass_(Colorado)"
+      "label": "Wikipedia, Leadville, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Leadville%2C_Colorado"
     }
   ],
   "reviewed": false

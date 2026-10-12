@@ -1,20 +1,22 @@
 {
   "id": "schoodic-scenic-byway-13792",
-  "tagline": "Four miles from Bar Harbor by crow, forty-five by car.",
+  "tagline": "Granite shores and fishing harbors frame Acadia’s mainland coastal drive.",
   "motifs": [
     "harbor-village",
     "lighthouse"
   ],
   "intro": [
-    "Out of Hancock, US 1 runs east through Sullivan, whose harbor looks straight across Frenchman Bay to Mount Desert Island. Then Route 186 turns off and makes a half-loop down the Gouldsboro coast, through Winter Harbor and Birch Harbor to Prospect Harbor, among fishing villages where lobstering and clamming carry on.",
-    "Bar Harbor is four miles off as the crow flies and 45 by road, and only about one Acadia visitor in ten makes the trip around. The name Schoodic is thought to come from a Passamaquoddy word for the burned place."
+    "The Schoodic Scenic Byway follows Maine’s coast among harbors, islands and historic buildings, with an excursion into Acadia’s granite shoreline. FHWA lists the National Scenic Byway at 29 miles, with one hour for driving or eight hours to experience it. The agency highlights a coast where lobstering and clamming continue. Route 186 makes a half-loop from US 1 toward Winter Harbor and back to US 1.",
+    "In 1929, John Godfrey Moore’s widow Louise and daughters Ruth and Faith donated Schoodic land to Acadia. Park development followed in the next decade. The Schoodic park excursion owes part of its built landscape to Civilian Conservation Corps crews. In the 1930s they built hiking trails, service roads and comfort stations in the National Park Service’s Rustic style. More than 1,000 acres received National Register recognition in 2007 for that work.",
+    "From Hancock, US 1 crosses into Sullivan, where the harbor overlook faces Mount Desert Island across Frenchman Bay. Take Route 186 toward Winter Harbor. Moore Road marks the western entrance to the Schoodic loop-road excursion. Continue along Route 186 through Birch Harbor toward Prospect Harbor and its lighthouse on the point dividing Sand Cove from Inner Harbor."
   ],
   "moments": [
     {
       "title": "Sullivan",
       "kind": "town",
       "scene": "coast",
-      "text": "Granite quarried here was shipped as far as London and Hong Kong, and the Old Granite Store at the head of the harbor is built of the local stone.",
+      "text": "Sullivan’s granite once traveled much farther than the view across Frenchman Bay. North Sullivan’s quarries supplied cities including London and Hong Kong. At Sullivan Harbor, the Old Granite Store puts that local stone into view. Its two stories use courses of rough-cut granite, while the gable ends are framed in wood. Long granite blocks frame the central entrance. The stone walls contrast with the smaller sash window in the wooden gable. By the late 1850s the property served as a shipyard building fishing schooners. The harbor’s stone building connects quarrying with the maritime economy that used this shore.",
+      "notice": "The Old Granite Store pairs rough-cut stone walls with wood-framed gable ends.",
       "at": [
         -68.15472222,
         44.51944444
@@ -24,7 +26,8 @@
       "title": "Schoodic Peninsula",
       "kind": "separate excursion",
       "scene": "coast",
-      "text": "Past Winter Harbor a one-way loop road takes the park's quiet side around a granite shore laced with volcanic dikes, under 440-foot Schoodic Head.",
+      "text": "Dark volcanic dikes cut through the peninsula’s rocky granite shore. These bodies of diabase formed when later volcanic activity intruded into the granite; the dark rock is visible on Schoodic Peninsula. Above the shoreline, 440-foot Schoodic Head is the peninsula’s highest point, reached by several hiking trails. The former Navy base at Schoodic Point adds a different layer of history. It operated from 1935 to 2002, then passed to the National Park Service and became an education and research center. Mount Desert Island is visible across Frenchman Bay from this mainland part of Acadia.",
+      "notice": "Dark diabase dikes interrupt the granite shoreline.",
       "at": [
         -68.05336,
         44.42608
@@ -34,7 +37,7 @@
       "title": "Prospect Harbor Point Light",
       "kind": "roadside",
       "scene": "coast",
-      "text": "Lit in 1850, switched off in 1859 as not needed, lit again in 1870, and rebuilt in 1891 as the shingled wooden tower still working the harbor.",
+      "text": "Prospect Harbor’s light has been switched off, restored and rebuilt as judgments of the harbor’s needs changed. It began operating in 1850, when a substantial fishing fleet used the harbor. In 1859 the Lighthouse Board deactivated it, saying the harbor was not a storm shelter; the light returned in 1870. The present tower replaced the rubble-stone original in 1891. Its round wood frame rises 38 feet, clad in wooden shingles. Automated in 1934, the light remains an active aid to navigation. Its Fresnel lens was removed in 1951 and replaced with modern optics.",
       "at": [
         -68.01288889,
         44.40325
@@ -45,40 +48,48 @@
     }
   ],
   "practical": [
-    "The Acadia loop road at Schoodic Point is one-way, about 7 miles."
+    "Schoodic Peninsula: The park’s loop road is one-way and seven miles long. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Schoodic Scenic Byway",
-      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/13792"
+      "label": "Wikipedia, Schoodic Peninsula",
+      "url": "https://en.wikipedia.org/wiki/Schoodic_Peninsula"
     },
     {
-      "label": "Schoodic National Scenic Byway",
-      "url": "https://schoodicnationalbyway.org/"
+      "label": "Wikipedia, Winter Harbor, Maine",
+      "url": "https://en.wikipedia.org/wiki/Winter_Harbor%2C_Maine"
+    },
+    {
+      "label": "Federal Highway Administration, Schoodic Scenic Byway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/13792"
     },
     {
       "label": "Wikipedia, Maine State Route 186",
       "url": "https://en.wikipedia.org/wiki/Maine_State_Route_186"
     },
     {
+      "label": "Wikipedia, Acadia National Park",
+      "url": "https://en.wikipedia.org/wiki/Acadia_National_Park"
+    },
+    {
       "label": "Wikipedia, Sullivan, Maine",
-      "url": "https://en.wikipedia.org/wiki/Sullivan,_Maine"
+      "url": "https://en.wikipedia.org/wiki/Sullivan%2C_Maine"
     },
     {
-      "label": "Wikipedia, Gouldsboro, Maine",
-      "url": "https://en.wikipedia.org/wiki/Gouldsboro,_Maine"
+      "label": "Wikipedia, Winter Harbor (CDP), Maine",
+      "url": "https://en.wikipedia.org/wiki/Winter_Harbor_%28CDP%29%2C_Maine"
     },
     {
-      "label": "Wikipedia, Winter Harbor, Maine",
-      "url": "https://en.wikipedia.org/wiki/Winter_Harbor,_Maine"
-    },
-    {
-      "label": "Wikipedia, Schoodic Peninsula",
-      "url": "https://en.wikipedia.org/wiki/Schoodic_Peninsula"
+      "label": "Wikipedia, Birch Harbor, Maine",
+      "url": "https://en.wikipedia.org/wiki/Birch_Harbor%2C_Maine"
     },
     {
       "label": "Wikipedia, Prospect Harbor Point Light",
       "url": "https://en.wikipedia.org/wiki/Prospect_Harbor_Point_Light"
+    },
+    {
+      "label": "Wikipedia, Granite Store (Sullivan, Maine)",
+      "url": "https://en.wikipedia.org/wiki/Granite_Store_%28Sullivan%2C_Maine%29"
     }
   ],
   "reviewed": false

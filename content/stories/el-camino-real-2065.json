@@ -1,54 +1,48 @@
 {
   "id": "el-camino-real-2065",
-  "tagline": "Oñate's road north, across the dead man's ninety miles.",
+  "tagline": "A royal-road corridor connects Pueblo communities, river country and desert crossings.",
   "intro": [
-    "The byway starts at Fort Selden, twelve miles north of Las Cruces, where the old road left the Rio Grande. Ahead lies the Jornada del Muerto, a flat desert basin with mountains on the west shutting off the river and an almost waterless 90 miles of trail across it. South of Socorro the road comes back to the valley and follows it north through Albuquerque and Santa Fe to Ohkay Owingeh.",
-    "Juan de Oñate led 500 colonists up this way in 1598. The road stayed in use until 1882, the northern end of a royal road that began at a plaza in Mexico City."
+    "El Camino Real National Scenic Byway links Fort Selden, Socorro, Albuquerque, Santa Fe and Ohkay Owingeh. The New Mexico Tourism Department presents the route through the history of Juan de Oñate’s journey, including the flat desert of the Jornada del Muerto. In that basin, mountains west of the historic trail block access to the Rio Grande. At Socorro, the corridor reaches a city beside the Rio Grande, in a landscape shaped by the Rio Grande rift and extinct volcanoes.",
+    "Spanish colonists followed Indigenous trading routes as they expanded north from Mexico. In 1598, Oñate led a colonizing expedition across the Jornada, choosing a shorter route that was easier for ox-drawn carts and livestock than the river passage. The royal road linked Mexico City with Ohkay Owingeh; railroads ultimately superseded it in the nineteenth century. The United States section received a separate designation as a National Historic Trail in 2000.",
+    "For a southbound journey, begin at Ohkay Owingeh and continue through Santa Fe and Albuquerque to Socorro. South of Socorro lies the Jornada, where the historic trail crossed 90 almost waterless miles. Finish at Fort Selden near Las Cruces, on the Rio Grande at the former Paraje de Robledo campground."
   ],
   "moments": [
     {
-      "title": "Fort Selden",
-      "kind": "roadside",
+      "title": "Ohkay Owingeh",
+      "kind": "town",
       "scene": "river",
-      "text": "Before the fort this was Paraje de Robledo, the last camp on the river before the Jornada, named for a soldier of Oñate's who died in 1598 and was buried here under a cross.",
+      "text": "In November 2005, the people of Ohkay Owingeh restored their original name, meaning “place of the Strong People.” The Tewa pueblo is also a federally recognized tribe, and its community is the headquarters of the Eight Northern Indian Pueblos Council. Oñate’s expedition arrived here on July 11, 1598. Oñate renamed the pueblo San Juan de los Caballeros, which became the Spanish provincial capital; that capital moved to Santa Fe in 1610. Po’pay, a local man, later played a major role in the Pueblo Revolt of 1680. Ohkay Owingeh remains one of the largest Tewa-speaking pueblos.",
       "at": [
-        -106.925,
-        32.49583333
+        -106.07027778,
+        36.05416667
       ]
     },
     {
       "title": "Socorro",
       "kind": "town",
       "scene": "town",
-      "text": "Coming out of the Jornada in June 1598, Oñate's party was given food and water by the Piro people of Teypana pueblo, and called the place Socorro, which means help.",
+      "text": "Socorro’s name began with an act of assistance at Teypana, a Piro pueblo. In June 1598, Oñate’s party emerged from the Jornada del Muerto, and the people of Teypana supplied food and water. The Spaniards renamed the pueblo Socorro, meaning “help” or “aid”; the name was later applied to nearby Pilabó, another Piro pueblo. The present city lies beside the Rio Grande. Another transport connection arrived in July 1880, when the New Mexico and Southern Pacific Railroad built south through the valley toward El Paso, contributing to the community’s growth.",
       "at": [
         -106.88833333,
         34.05138889
       ]
     },
     {
-      "title": "Ohkay Owingeh",
-      "kind": "town",
+      "title": "Fort Selden",
+      "kind": "roadside",
       "scene": "river",
-      "text": "The end of the road. Oñate arrived on July 11, 1598, and made it the province's first capital until 1610. In 2005 the pueblo took back its own name, place of the Strong People.",
+      "text": "Before Fort Selden, this Rio Grande campsite was Paraje de Robledo, named for Pedro Robledo, a soldier who died during Oñate’s 1598 expedition. A cross marked his grave, giving the place the earlier name La Cruz de Robledo. The U.S. Army established the fort in 1865 and abandoned it in 1891. Its adobe buildings housed cavalry and infantry. The land was donated to the state in 1963; an interpretive trail now provides views of the ruins. A visitor center presents exhibits on frontier and military life, alongside the remains of the Army post.",
+      "notice": "The interpretive trail offers views of the fort’s ruins.",
       "at": [
-        -106.07027778,
-        36.05416667
+        -106.925,
+        32.49583333
       ]
     }
   ],
   "sources": [
     {
-      "label": "New Mexico True, El Camino Real National Scenic Byway",
-      "url": "https://www.newmexico.org/places-to-visit/scenic-byways/el-camino-real-national/"
-    },
-    {
       "label": "Wikipedia, Camino Real de Tierra Adentro",
       "url": "https://en.wikipedia.org/wiki/Camino_Real_de_Tierra_Adentro"
-    },
-    {
-      "label": "Wikipedia, Fort Selden",
-      "url": "https://en.wikipedia.org/wiki/Fort_Selden"
     },
     {
       "label": "Wikipedia, Jornada del Muerto",
@@ -56,11 +50,19 @@
     },
     {
       "label": "Wikipedia, Socorro, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Socorro,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Socorro%2C_New_Mexico"
+    },
+    {
+      "label": "New Mexico Tourism Department, El Camino Real National Scenic Byway",
+      "url": "https://www.newmexico.org/places-to-visit/scenic-byways/el-camino-real-national/"
+    },
+    {
+      "label": "Wikipedia, Fort Selden",
+      "url": "https://en.wikipedia.org/wiki/Fort_Selden"
     },
     {
       "label": "Wikipedia, Ohkay Owingeh, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Ohkay_Owingeh,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Ohkay_Owingeh%2C_New_Mexico"
     }
   ],
   "reviewed": false

@@ -1,0 +1,359 @@
+{
+  "authored": false,
+  "bywayId": "salmon-river-scenic-byway-2042",
+  "title": "Salmon River Scenic Byway",
+  "longitude": -113.9968,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -113.94843,
+        45.69344
+      ],
+      [
+        -113.94771,
+        45.67018
+      ],
+      [
+        -113.97788,
+        45.66061
+      ],
+      [
+        -113.96914,
+        45.58713
+      ],
+      [
+        -113.92825,
+        45.53872
+      ],
+      [
+        -113.94142,
+        45.50798
+      ],
+      [
+        -113.98921,
+        45.47431
+      ],
+      [
+        -113.9957,
+        45.40865
+      ],
+      [
+        -113.95798,
+        45.38475
+      ],
+      [
+        -113.96396,
+        45.36169
+      ],
+      [
+        -113.94421,
+        45.36527
+      ],
+      [
+        -113.94273,
+        45.35185
+      ],
+      [
+        -113.91907,
+        45.35002
+      ],
+      [
+        -113.92773,
+        45.33621
+      ],
+      [
+        -113.90457,
+        45.32692
+      ],
+      [
+        -113.89083,
+        45.23737
+      ],
+      [
+        -113.89928,
+        45.17826
+      ],
+      [
+        -113.8874,
+        45.1731
+      ],
+      [
+        -113.89243,
+        45.09401
+      ],
+      [
+        -113.91729,
+        45.06246
+      ],
+      [
+        -113.91506,
+        45.02873
+      ],
+      [
+        -113.95086,
+        44.97991
+      ],
+      [
+        -113.9463,
+        44.95808
+      ],
+      [
+        -113.96089,
+        44.9466
+      ],
+      [
+        -113.95807,
+        44.90295
+      ],
+      [
+        -113.97139,
+        44.90234
+      ],
+      [
+        -113.96054,
+        44.89215
+      ],
+      [
+        -113.97362,
+        44.88219
+      ],
+      [
+        -113.97861,
+        44.83304
+      ],
+      [
+        -114.01112,
+        44.80552
+      ],
+      [
+        -113.98947,
+        44.77587
+      ],
+      [
+        -114.00517,
+        44.72299
+      ],
+      [
+        -114.04888,
+        44.69641
+      ],
+      [
+        -114.09097,
+        44.6452
+      ],
+      [
+        -114.15522,
+        44.6294
+      ],
+      [
+        -114.19134,
+        44.59814
+      ],
+      [
+        -114.19848,
+        44.53675
+      ],
+      [
+        -114.22342,
+        44.5078
+      ],
+      [
+        -114.2087,
+        44.47527
+      ],
+      [
+        -114.22423,
+        44.45906
+      ],
+      [
+        -114.22527,
+        44.43032
+      ],
+      [
+        -114.26389,
+        44.38936
+      ],
+      [
+        -114.2532,
+        44.38068
+      ],
+      [
+        -114.26479,
+        44.34771
+      ],
+      [
+        -114.28879,
+        44.32993
+      ],
+      [
+        -114.30362,
+        44.28478
+      ],
+      [
+        -114.33856,
+        44.25555
+      ],
+      [
+        -114.41489,
+        44.26236
+      ],
+      [
+        -114.45951,
+        44.24593
+      ],
+      [
+        -114.48774,
+        44.2581
+      ],
+      [
+        -114.68192,
+        44.25015
+      ],
+      [
+        -114.73543,
+        44.27117
+      ],
+      [
+        -114.83336,
+        44.25918
+      ],
+      [
+        -114.84711,
+        44.26757
+      ],
+      [
+        -114.92676,
+        44.22954
+      ],
+      [
+        -114.93,
+        44.21646
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "North Fork",
+      "model": "town-blocks",
+      "at": 0.15235612049335817,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Clayton",
+      "model": "town-blocks",
+      "at": 0.7872372048715754,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Custer",
+      "model": "false-front-town",
+      "at": 0.9196494141735269,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Gibbonsville",
+      "at": 0.08270303781773093,
+      "landmark": ""
+    },
+    {
+      "name": "North Fork",
+      "at": 0.1523248605083695,
+      "landmark": "North Fork"
+    },
+    {
+      "name": "Salmon",
+      "at": 0.2861128332300062,
+      "landmark": ""
+    },
+    {
+      "name": "Elk Bend",
+      "at": 0.4329820210787353,
+      "landmark": ""
+    },
+    {
+      "name": "Ellis",
+      "at": 0.5389956602603844,
+      "landmark": ""
+    },
+    {
+      "name": "Challis",
+      "at": 0.6466831990080595,
+      "landmark": ""
+    },
+    {
+      "name": "Clayton",
+      "at": 0.7871047737135771,
+      "landmark": "Clayton"
+    },
+    {
+      "name": "Stanley",
+      "at": 0.9998140111593304,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/salmon-river-scenic-byway-2042.json",
+    "public/data/strips/salmon-river-scenic-byway-2042.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

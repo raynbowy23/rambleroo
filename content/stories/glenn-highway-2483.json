@@ -1,19 +1,20 @@
 {
   "id": "glenn-highway-2483",
-  "tagline": "Up the braided Matanuska from the colony farms to four ranges.",
+  "tagline": "A farm-colony road became a continental connection through a glacier-carved valley",
   "motifs": [
     "snow-peaks"
   ],
   "intro": [
-    "Out of Anchorage the Glenn runs northeast with the Chugach Mountains alongside, the whole way. Past Palmer it enters the glacier-cut canyon of the Matanuska River and follows the braided river for more than half its 135 miles, by the old coal camp of Sutton and up to Eureka Summit, at 3,332 feet the high point of the highway.",
-    "The road was made for farmers. It began in the 1930s as the Palmer Road, built to reach a new agricultural colony, and the war carried it on to Glennallen. It was paved in the 1950s."
+    "The Glenn Highway National Scenic Byway follows a glacier-carved corridor from Anchorage to Eureka Summit. For more than half its 135 miles, the road follows the braided Matanuska River, with the Chugach Mountains alongside the entire route. Alaska’s transportation department highlights that passage through glacial terrain, the colony farms of Palmer and the four mountain ranges visible at the summit. An archived federal byway guide allows 2.5 hours for the drive, or eight hours with visits along the way.",
+    "The road began in the 1930s as the Palmer Road, built to reach an agricultural colony. In May 1935, 203 families arrived from Michigan, Minnesota and Wisconsin, drawing lots for 40-acre farms. World War II changed the road’s reach: a military building program completed it to Glennallen and connected Anchorage to the continental highway system. Paving followed in the 1950s.",
+    "Leaving Anchorage, pass Eagle River and Chugiak before reaching Palmer’s colony farms. Beyond Palmer the road enters the Matanuska River Canyon, passing the former coal community of Sutton. Continue through Glacier View, where the Matanuska Glacier lies near the highway, to Eureka Summit. Here the byway ends at the highway’s 3,332-foot high point, on the divide between the Chugach and Talkeetna ranges."
   ],
   "moments": [
     {
       "title": "Palmer",
       "kind": "town",
       "scene": "town",
-      "text": "In May 1935, 203 families from the Iron Range of Michigan, Minnesota and Wisconsin arrived here, spent their first summer in a tent city and drew lots for 40-acre farms.",
+      "text": "Forty-acre parcels were assigned by lot when 203 families came to Palmer in May 1935. Federal Emergency Relief Administration money moved them from Michigan, Minnesota and Wisconsin and helped turn a railroad siding into a planned town. They arrived by train and ship and spent their first Alaskan summer in tents. Many farms failed, but descendants of the colony families still live here and farms continue to operate. The annual Alaska State Fair carries agriculture into public view with contests for the largest vegetables, including cabbage, radishes, spinach and lettuce.",
       "at": [
         -149.117,
         61.602
@@ -23,7 +24,7 @@
       "title": "Matanuska Glacier",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Twenty-seven miles of ice come down near the road and feed the river, moving about a foot a day. The park is public. The only bridge into it charges a toll.",
+      "text": "Matanuska Glacier feeds the river the byway follows. This valley glacier measures 27 miles long and four miles wide and lies near the Glenn Highway at Glacier View. Its ice flows about a foot each day. Over the three decades ending in 2007, its terminus changed little because ice was being lost from the lower glacier.",
       "at": [
         -147.581,
         61.656
@@ -33,32 +34,40 @@
       "title": "Eureka Summit",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "On the divide between the Chugach and the Talkeetnas the byway ends with the Alaska Range and the Wrangell-St. Elias Mountains also in sight.",
+      "text": "Eureka Summit is the Glenn Highway’s high point at 3,332 feet, on the divide between the Chugach and Talkeetna mountain ranges. It also marks the end of the national scenic byway. Alaska’s transportation department identifies four ranges in the view here: the Alaska Range, Chugach Mountains, Talkeetna Mountains and Wrangell-St. Elias Mountains.",
+      "notice": "Four ranges meet the view at Eureka Summit: Alaska, Chugach, Talkeetna and Wrangell-St. Elias.",
       "motifs": [
         "snow-peaks"
       ]
     }
   ],
+  "practical": [
+    "Matanuska Glacier: Wikipedia lists a private toll bridge connecting the glacier park to Alaska Route 1. (checked 2026-10-11)"
+  ],
   "sources": [
-    {
-      "label": "Alaska DOT&PF, Glenn Highway",
-      "url": "https://dot.alaska.gov/dmio/scenic/byways-glenn.shtml"
-    },
     {
       "label": "Wikipedia, Glenn Highway",
       "url": "https://en.wikipedia.org/wiki/Glenn_Highway"
     },
     {
+      "label": "Alaska Department of Transportation and Public Facilities, Glenn Highway",
+      "url": "https://dot.alaska.gov/dmio/scenic/byways-glenn.shtml"
+    },
+    {
+      "label": "Federal Highway Administration, Glenn Highway (archived)",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2483"
+    },
+    {
       "label": "Wikipedia, Palmer, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Palmer,_Alaska"
+      "url": "https://en.wikipedia.org/wiki/Palmer%2C_Alaska"
     },
     {
       "label": "Wikipedia, Matanuska Glacier",
       "url": "https://en.wikipedia.org/wiki/Matanuska_Glacier"
     },
     {
-      "label": "Wikipedia, Sutton-Alpine, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Sutton-Alpine,_Alaska"
+      "label": "Wikipedia, Glacier View, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Glacier_View%2C_Alaska"
     }
   ],
   "reviewed": false

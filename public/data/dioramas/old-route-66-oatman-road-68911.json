@@ -1,0 +1,423 @@
+{
+  "authored": false,
+  "bywayId": "old-route-66-oatman-road-68911",
+  "title": "Old Route 66 - Oatman Road",
+  "longitude": -114.3918,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -114.05279,
+        35.18942
+      ],
+      [
+        -114.06246,
+        35.18819
+      ],
+      [
+        -114.06399,
+        35.17694
+      ],
+      [
+        -114.06043,
+        35.17067
+      ],
+      [
+        -114.06129,
+        35.16657
+      ],
+      [
+        -114.08749,
+        35.15426
+      ],
+      [
+        -114.101,
+        35.13546
+      ],
+      [
+        -114.1071,
+        35.13923
+      ],
+      [
+        -114.11576,
+        35.13415
+      ],
+      [
+        -114.13505,
+        35.12208
+      ],
+      [
+        -114.15448,
+        35.10594
+      ],
+      [
+        -114.24815,
+        35.05017
+      ],
+      [
+        -114.25339,
+        35.04393
+      ],
+      [
+        -114.2749,
+        35.03275
+      ],
+      [
+        -114.27931,
+        35.02724
+      ],
+      [
+        -114.30474,
+        35.02555
+      ],
+      [
+        -114.32041,
+        35.03067
+      ],
+      [
+        -114.32804,
+        35.0356
+      ],
+      [
+        -114.34793,
+        35.03842
+      ],
+      [
+        -114.35343,
+        35.03731
+      ],
+      [
+        -114.36298,
+        35.04724
+      ],
+      [
+        -114.3623,
+        35.0457
+      ],
+      [
+        -114.37293,
+        35.04062
+      ],
+      [
+        -114.37908,
+        35.04585
+      ],
+      [
+        -114.3833,
+        35.0463
+      ],
+      [
+        -114.3891,
+        35.04218
+      ],
+      [
+        -114.39196,
+        35.04384
+      ],
+      [
+        -114.39358,
+        35.03651
+      ],
+      [
+        -114.38271,
+        35.02561
+      ],
+      [
+        -114.38268,
+        35.02215
+      ],
+      [
+        -114.39471,
+        35.00587
+      ],
+      [
+        -114.41062,
+        34.9982
+      ],
+      [
+        -114.42511,
+        34.98515
+      ],
+      [
+        -114.42372,
+        34.98062
+      ],
+      [
+        -114.4183,
+        34.97382
+      ],
+      [
+        -114.41535,
+        34.97315
+      ],
+      [
+        -114.40907,
+        34.96301
+      ],
+      [
+        -114.41,
+        34.95394
+      ],
+      [
+        -114.42348,
+        34.93114
+      ],
+      [
+        -114.43014,
+        34.90553
+      ],
+      [
+        -114.428,
+        34.90081
+      ],
+      [
+        -114.43199,
+        34.89495
+      ],
+      [
+        -114.43703,
+        34.87566
+      ],
+      [
+        -114.44568,
+        34.85828
+      ],
+      [
+        -114.46683,
+        34.82942
+      ],
+      [
+        -114.46692,
+        34.82278
+      ],
+      [
+        -114.4711,
+        34.81058
+      ],
+      [
+        -114.47131,
+        34.7985
+      ],
+      [
+        -114.48076,
+        34.79462
+      ],
+      [
+        -114.48146,
+        34.78231
+      ],
+      [
+        -114.47793,
+        34.76444
+      ],
+      [
+        -114.48466,
+        34.7424
+      ],
+      [
+        -114.47715,
+        34.73043
+      ],
+      [
+        -114.47841,
+        34.72139
+      ],
+      [
+        -114.4842,
+        34.71775
+      ],
+      [
+        -114.47821,
+        34.71803
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Oatman",
+      "model": "town-blocks",
+      "at": 0.5332719728850703,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Topock",
+      "model": "town-blocks",
+      "at": 0.9859951636072215,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "false-front-town",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "McConnico",
+      "at": 0.06778398510242085,
+      "landmark": ""
+    },
+    {
+      "name": "Oatman",
+      "at": 0.5333333333333333,
+      "landmark": "Oatman"
+    },
+    {
+      "name": "Golden Shores",
+      "at": 0.9087523277467411,
+      "landmark": ""
+    },
+    {
+      "name": "Topock",
+      "at": 0.9860335195530726,
+      "landmark": "Topock"
+    }
+  ],
+  "sources": [
+    "content/stories/old-route-66-oatman-road-68911.json",
+    "public/data/strips/old-route-66-oatman-road-68911.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,374 @@
+{
+  "authored": false,
+  "bywayId": "millstone-valley-scenic-byway-2462",
+  "title": "Millstone Valley Scenic Byway",
+  "longitude": -74.5843,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -74.63781,
+        40.40057
+      ],
+      [
+        -74.63801,
+        40.39969
+      ],
+      [
+        -74.63332,
+        40.39851
+      ],
+      [
+        -74.63282,
+        40.39692
+      ],
+      [
+        -74.63101,
+        40.39544
+      ],
+      [
+        -74.6304,
+        40.3912
+      ],
+      [
+        -74.62346,
+        40.38465
+      ],
+      [
+        -74.62153,
+        40.38027
+      ],
+      [
+        -74.62114,
+        40.37411
+      ],
+      [
+        -74.6134,
+        40.37563
+      ],
+      [
+        -74.61549,
+        40.37833
+      ],
+      [
+        -74.61724,
+        40.38419
+      ],
+      [
+        -74.62169,
+        40.38685
+      ],
+      [
+        -74.62684,
+        40.39941
+      ],
+      [
+        -74.63264,
+        40.40501
+      ],
+      [
+        -74.63282,
+        40.40865
+      ],
+      [
+        -74.62725,
+        40.41909
+      ],
+      [
+        -74.61808,
+        40.42888
+      ],
+      [
+        -74.61156,
+        40.44018
+      ],
+      [
+        -74.60431,
+        40.44476
+      ],
+      [
+        -74.59289,
+        40.44857
+      ],
+      [
+        -74.58142,
+        40.46037
+      ],
+      [
+        -74.582,
+        40.46101
+      ],
+      [
+        -74.57509,
+        40.46573
+      ],
+      [
+        -74.57153,
+        40.4698
+      ],
+      [
+        -74.57137,
+        40.47457
+      ],
+      [
+        -74.57611,
+        40.48252
+      ],
+      [
+        -74.57664,
+        40.48966
+      ],
+      [
+        -74.5841,
+        40.49999
+      ],
+      [
+        -74.58138,
+        40.5034
+      ],
+      [
+        -74.58845,
+        40.5028
+      ],
+      [
+        -74.58872,
+        40.50078
+      ],
+      [
+        -74.5878,
+        40.49665
+      ],
+      [
+        -74.58153,
+        40.48715
+      ],
+      [
+        -74.58088,
+        40.48296
+      ],
+      [
+        -74.57869,
+        40.47775
+      ],
+      [
+        -74.57662,
+        40.4757
+      ],
+      [
+        -74.57563,
+        40.47146
+      ],
+      [
+        -74.57754,
+        40.46831
+      ],
+      [
+        -74.58199,
+        40.46641
+      ],
+      [
+        -74.60013,
+        40.45276
+      ],
+      [
+        -74.61272,
+        40.44573
+      ],
+      [
+        -74.61686,
+        40.44176
+      ],
+      [
+        -74.62069,
+        40.43301
+      ],
+      [
+        -74.62874,
+        40.42789
+      ],
+      [
+        -74.63299,
+        40.42245
+      ],
+      [
+        -74.64016,
+        40.42026
+      ],
+      [
+        -74.64593,
+        40.4166
+      ],
+      [
+        -74.65065,
+        40.41753
+      ],
+      [
+        -74.65251,
+        40.41681
+      ],
+      [
+        -74.65,
+        40.41396
+      ],
+      [
+        -74.63965,
+        40.41164
+      ],
+      [
+        -74.63929,
+        40.40996
+      ],
+      [
+        -74.64116,
+        40.4054
+      ],
+      [
+        -74.63781,
+        40.40057
+      ],
+      [
+        -74.62684,
+        40.39941
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Rocky Hill",
+      "model": "town-blocks",
+      "at": 0.0012842907589001014,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Millstone",
+      "model": "town-blocks",
+      "at": 0.5747631620047099,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "gristmill",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    }
+  ],
+  "towns": [
+    {
+      "name": "Rocky Hill",
+      "at": 0.0012396694214876034,
+      "landmark": "Rocky Hill"
+    },
+    {
+      "name": "Kingston",
+      "at": 0.13801652892561983,
+      "landmark": ""
+    },
+    {
+      "name": "Griggstown",
+      "at": 0.3466942148760331,
+      "landmark": ""
+    },
+    {
+      "name": "Blackwells Mills",
+      "at": 0.49049586776859505,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/millstone-valley-scenic-byway-2462.json",
+    "public/data/strips/millstone-valley-scenic-byway-2462.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

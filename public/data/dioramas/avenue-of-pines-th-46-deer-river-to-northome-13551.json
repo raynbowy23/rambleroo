@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "avenue-of-pines-th-46-deer-river-to-northome-13551",
+  "title": "Avenue of Pines - TH 46, Deer River to Northome",
+  "longitude": -94.1061,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -93.81415,
+        47.33961
+      ],
+      [
+        -93.81682,
+        47.34193
+      ],
+      [
+        -93.95034,
+        47.39575
+      ],
+      [
+        -93.96438,
+        47.40076
+      ],
+      [
+        -93.98633,
+        47.41004
+      ],
+      [
+        -93.99732,
+        47.41608
+      ],
+      [
+        -94.00908,
+        47.42905
+      ],
+      [
+        -94.01545,
+        47.43707
+      ],
+      [
+        -94.02024,
+        47.44776
+      ],
+      [
+        -94.02302,
+        47.45813
+      ],
+      [
+        -94.02552,
+        47.46411
+      ],
+      [
+        -94.02811,
+        47.46811
+      ],
+      [
+        -94.03697,
+        47.47854
+      ],
+      [
+        -94.03875,
+        47.48242
+      ],
+      [
+        -94.04173,
+        47.50265
+      ],
+      [
+        -94.04544,
+        47.51282
+      ],
+      [
+        -94.04491,
+        47.51501
+      ],
+      [
+        -94.04176,
+        47.51949
+      ],
+      [
+        -94.04095,
+        47.52142
+      ],
+      [
+        -94.04096,
+        47.52401
+      ],
+      [
+        -94.04202,
+        47.52621
+      ],
+      [
+        -94.10412,
+        47.5805
+      ],
+      [
+        -94.10914,
+        47.58627
+      ],
+      [
+        -94.12355,
+        47.59658
+      ],
+      [
+        -94.12524,
+        47.5982
+      ],
+      [
+        -94.12656,
+        47.60148
+      ],
+      [
+        -94.12642,
+        47.60886
+      ],
+      [
+        -94.12691,
+        47.61144
+      ],
+      [
+        -94.1367,
+        47.6228
+      ],
+      [
+        -94.13657,
+        47.63282
+      ],
+      [
+        -94.13763,
+        47.63515
+      ],
+      [
+        -94.17652,
+        47.65681
+      ],
+      [
+        -94.17812,
+        47.65825
+      ],
+      [
+        -94.1802,
+        47.66247
+      ],
+      [
+        -94.18155,
+        47.66394
+      ],
+      [
+        -94.22206,
+        47.69295
+      ],
+      [
+        -94.23301,
+        47.69922
+      ],
+      [
+        -94.2496,
+        47.71104
+      ],
+      [
+        -94.25511,
+        47.71541
+      ],
+      [
+        -94.26593,
+        47.72559
+      ],
+      [
+        -94.26763,
+        47.72987
+      ],
+      [
+        -94.26776,
+        47.74559
+      ],
+      [
+        -94.26986,
+        47.75189
+      ],
+      [
+        -94.26951,
+        47.75418
+      ],
+      [
+        -94.26739,
+        47.76019
+      ],
+      [
+        -94.26686,
+        47.76358
+      ],
+      [
+        -94.26832,
+        47.776
+      ],
+      [
+        -94.27095,
+        47.78373
+      ],
+      [
+        -94.26567,
+        47.79717
+      ],
+      [
+        -94.26547,
+        47.79869
+      ],
+      [
+        -94.26494,
+        47.80953
+      ],
+      [
+        -94.26564,
+        47.82529
+      ],
+      [
+        -94.26863,
+        47.8352
+      ],
+      [
+        -94.26854,
+        47.84737
+      ],
+      [
+        -94.28103,
+        47.87013
+      ],
+      [
+        -94.28102,
+        47.87259
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Deer River",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lake Winnibigoshish",
+      "model": "alpine-lake",
+      "at": 0.3225269761572288,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Alvwood",
+      "at": 0.7838012958963283,
+      "landmark": ""
+    },
+    {
+      "name": "Bergville",
+      "at": 0.8712742980561555,
+      "landmark": ""
+    },
+    {
+      "name": "Northome",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/avenue-of-pines-th-46-deer-river-to-northome-13551.json",
+    "public/data/strips/avenue-of-pines-th-46-deer-river-to-northome-13551.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

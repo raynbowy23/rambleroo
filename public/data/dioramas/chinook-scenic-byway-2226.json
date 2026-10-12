@@ -1,0 +1,423 @@
+{
+  "authored": false,
+  "bywayId": "chinook-scenic-byway-2226",
+  "title": "Chinook Scenic Byway",
+  "longitude": -121.5066,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -121.99246,
+        47.19917
+      ],
+      [
+        -121.95333,
+        47.19884
+      ],
+      [
+        -121.93856,
+        47.19464
+      ],
+      [
+        -121.91031,
+        47.16533
+      ],
+      [
+        -121.87196,
+        47.16145
+      ],
+      [
+        -121.8514,
+        47.15277
+      ],
+      [
+        -121.82507,
+        47.1594
+      ],
+      [
+        -121.78996,
+        47.17774
+      ],
+      [
+        -121.7123,
+        47.1543
+      ],
+      [
+        -121.68088,
+        47.1533
+      ],
+      [
+        -121.66221,
+        47.16017
+      ],
+      [
+        -121.62589,
+        47.13782
+      ],
+      [
+        -121.58958,
+        47.1007
+      ],
+      [
+        -121.5672,
+        47.04001
+      ],
+      [
+        -121.55487,
+        47.03021
+      ],
+      [
+        -121.53434,
+        47.02276
+      ],
+      [
+        -121.52712,
+        47.0116
+      ],
+      [
+        -121.53652,
+        46.97706
+      ],
+      [
+        -121.52547,
+        46.95869
+      ],
+      [
+        -121.53207,
+        46.94796
+      ],
+      [
+        -121.53101,
+        46.9318
+      ],
+      [
+        -121.53693,
+        46.91035
+      ],
+      [
+        -121.54465,
+        46.89726
+      ],
+      [
+        -121.53874,
+        46.86638
+      ],
+      [
+        -121.53053,
+        46.86903
+      ],
+      [
+        -121.52242,
+        46.86525
+      ],
+      [
+        -121.5292,
+        46.86994
+      ],
+      [
+        -121.53715,
+        46.86848
+      ],
+      [
+        -121.52949,
+        46.87121
+      ],
+      [
+        -121.51683,
+        46.86724
+      ],
+      [
+        -121.5175,
+        46.8764
+      ],
+      [
+        -121.49937,
+        46.8885
+      ],
+      [
+        -121.44276,
+        46.89863
+      ],
+      [
+        -121.40778,
+        46.91383
+      ],
+      [
+        -121.37455,
+        46.91688
+      ],
+      [
+        -121.35912,
+        46.93235
+      ],
+      [
+        -121.27365,
+        46.96294
+      ],
+      [
+        -121.21383,
+        46.96782
+      ],
+      [
+        -121.17981,
+        46.97741
+      ],
+      [
+        -121.12766,
+        46.98094
+      ],
+      [
+        -121.09528,
+        46.98945
+      ],
+      [
+        -121.09138,
+        46.9857
+      ],
+      [
+        -121.09474,
+        46.9705
+      ],
+      [
+        -121.04727,
+        46.92831
+      ],
+      [
+        -121.04698,
+        46.92037
+      ],
+      [
+        -120.98749,
+        46.88868
+      ],
+      [
+        -120.97292,
+        46.87201
+      ],
+      [
+        -120.95783,
+        46.86597
+      ],
+      [
+        -120.94889,
+        46.84531
+      ],
+      [
+        -120.91985,
+        46.80891
+      ],
+      [
+        -120.87396,
+        46.79159
+      ],
+      [
+        -120.85236,
+        46.77321
+      ],
+      [
+        -120.82792,
+        46.76464
+      ],
+      [
+        -120.8293,
+        46.75927
+      ],
+      [
+        -120.81741,
+        46.75229
+      ],
+      [
+        -120.7885,
+        46.7483
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Chinook Pass",
+      "model": "snow-peak",
+      "at": 0.4880516259113652,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Naches",
+      "model": "orchard",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Naches",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "switchback",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Enumclaw",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Greenwater",
+      "at": 0.2210239651416122,
+      "landmark": ""
+    },
+    {
+      "name": "Cliffdell",
+      "at": 0.7970588235294118,
+      "landmark": ""
+    },
+    {
+      "name": "Nile",
+      "at": 0.9007625272331155,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/chinook-scenic-byway-2226.json",
+    "public/data/strips/chinook-scenic-byway-2226.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

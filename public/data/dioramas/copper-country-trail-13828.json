@@ -1,0 +1,424 @@
+{
+  "authored": false,
+  "bywayId": "copper-country-trail-13828",
+  "title": "Copper Country Trail",
+  "longitude": -88.3055,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -88.57401,
+        47.12364
+      ],
+      [
+        -88.57452,
+        47.12585
+      ],
+      [
+        -88.57882,
+        47.12701
+      ],
+      [
+        -88.59322,
+        47.12656
+      ],
+      [
+        -88.59975,
+        47.13
+      ],
+      [
+        -88.58161,
+        47.13155
+      ],
+      [
+        -88.55879,
+        47.15455
+      ],
+      [
+        -88.51646,
+        47.16976
+      ],
+      [
+        -88.48284,
+        47.19833
+      ],
+      [
+        -88.46128,
+        47.21449
+      ],
+      [
+        -88.45714,
+        47.21992
+      ],
+      [
+        -88.4523,
+        47.23383
+      ],
+      [
+        -88.45298,
+        47.23645
+      ],
+      [
+        -88.43867,
+        47.25113
+      ],
+      [
+        -88.42712,
+        47.26004
+      ],
+      [
+        -88.40774,
+        47.28562
+      ],
+      [
+        -88.40235,
+        47.28886
+      ],
+      [
+        -88.39135,
+        47.29964
+      ],
+      [
+        -88.37694,
+        47.30056
+      ],
+      [
+        -88.36518,
+        47.30379
+      ],
+      [
+        -88.33016,
+        47.32825
+      ],
+      [
+        -88.31947,
+        47.33832
+      ],
+      [
+        -88.30405,
+        47.35783
+      ],
+      [
+        -88.30365,
+        47.36101
+      ],
+      [
+        -88.307,
+        47.36729
+      ],
+      [
+        -88.30379,
+        47.37674
+      ],
+      [
+        -88.28435,
+        47.38842
+      ],
+      [
+        -88.27304,
+        47.38919
+      ],
+      [
+        -88.25874,
+        47.39607
+      ],
+      [
+        -88.23918,
+        47.40177
+      ],
+      [
+        -88.21911,
+        47.40421
+      ],
+      [
+        -88.20371,
+        47.40331
+      ],
+      [
+        -88.18704,
+        47.40626
+      ],
+      [
+        -88.16784,
+        47.41155
+      ],
+      [
+        -88.15429,
+        47.41759
+      ],
+      [
+        -88.14081,
+        47.4156
+      ],
+      [
+        -88.12988,
+        47.41941
+      ],
+      [
+        -88.08662,
+        47.42141
+      ],
+      [
+        -88.07792,
+        47.42505
+      ],
+      [
+        -88.03637,
+        47.42872
+      ],
+      [
+        -88.0172,
+        47.42607
+      ],
+      [
+        -88.00836,
+        47.42801
+      ],
+      [
+        -87.98603,
+        47.42806
+      ],
+      [
+        -87.98362,
+        47.42879
+      ],
+      [
+        -87.98283,
+        47.43203
+      ],
+      [
+        -87.97905,
+        47.43438
+      ],
+      [
+        -87.96163,
+        47.43636
+      ],
+      [
+        -87.9493,
+        47.44155
+      ],
+      [
+        -87.92157,
+        47.44679
+      ],
+      [
+        -87.91643,
+        47.45446
+      ],
+      [
+        -87.91531,
+        47.46131
+      ],
+      [
+        -87.89972,
+        47.46412
+      ],
+      [
+        -87.89276,
+        47.46874
+      ],
+      [
+        -87.87714,
+        47.4666
+      ],
+      [
+        -87.85904,
+        47.46794
+      ],
+      [
+        -87.84121,
+        47.46451
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Quincy Mine",
+      "model": "false-front-town",
+      "at": 0.06231733625219746,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Brockway Mountain Drive",
+      "model": "alpine-lake",
+      "at": 0.75,
+      "offset": "roadside",
+      "notes": "Story moment 3; separate excursion. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Houghton",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Swedetown",
+      "at": 0.24735772357723576,
+      "landmark": ""
+    },
+    {
+      "name": "Kearsarge",
+      "at": 0.3130081300813008,
+      "landmark": ""
+    },
+    {
+      "name": "Mohawk",
+      "at": 0.38170731707317074,
+      "landmark": ""
+    },
+    {
+      "name": "Clifton",
+      "at": 0.5038617886178861,
+      "landmark": ""
+    },
+    {
+      "name": "Delaware",
+      "at": 0.7227642276422764,
+      "landmark": ""
+    },
+    {
+      "name": "Mandan",
+      "at": 0.8022357723577235,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/copper-country-trail-13828.json",
+    "public/data/strips/copper-country-trail-13828.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

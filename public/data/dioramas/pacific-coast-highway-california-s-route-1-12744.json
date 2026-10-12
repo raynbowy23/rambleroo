@@ -1,0 +1,400 @@
+{
+  "authored": false,
+  "bywayId": "pacific-coast-highway-california-s-route-1-12744",
+  "title": "Pacific Coast Highway - California's Route 1",
+  "longitude": -123.0565,
+  "ground": "coastal-cliff",
+  "palette": "coast",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "cliff-shelf",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -123.71352,
+        39.86816
+      ],
+      [
+        -123.83286,
+        39.77652
+      ],
+      [
+        -123.75582,
+        39.53842
+      ],
+      [
+        -123.81621,
+        39.37537
+      ],
+      [
+        -123.68362,
+        39.0511
+      ],
+      [
+        -123.70577,
+        38.91822
+      ],
+      [
+        -123.33333,
+        38.57421
+      ],
+      [
+        -123.115,
+        38.44958
+      ],
+      [
+        -123.03363,
+        38.31952
+      ],
+      [
+        -122.89649,
+        38.3164
+      ],
+      [
+        -122.9194,
+        38.19522
+      ],
+      [
+        -122.75232,
+        37.99282
+      ],
+      [
+        -122.61657,
+        37.87933
+      ],
+      [
+        -122.54133,
+        37.88812
+      ],
+      [
+        -122.48658,
+        37.84669
+      ],
+      [
+        -122.4712,
+        37.67857
+      ],
+      [
+        -122.5178,
+        37.53371
+      ],
+      [
+        -122.43359,
+        37.47004
+      ],
+      [
+        -122.39931,
+        37.19512
+      ],
+      [
+        -122.12511,
+        36.97099
+      ],
+      [
+        -121.88637,
+        36.97512
+      ],
+      [
+        -121.77439,
+        36.89502
+      ],
+      [
+        -121.7659,
+        36.75234
+      ],
+      [
+        -121.93796,
+        36.51297
+      ],
+      [
+        -121.89126,
+        36.31559
+      ],
+      [
+        -121.50126,
+        36.00006
+      ],
+      [
+        -121.46036,
+        35.88711
+      ],
+      [
+        -121.32964,
+        35.78234
+      ],
+      [
+        -121.27868,
+        35.67048
+      ],
+      [
+        -121.16609,
+        35.63644
+      ],
+      [
+        -120.98855,
+        35.47434
+      ],
+      [
+        -120.90076,
+        35.45195
+      ],
+      [
+        -120.85195,
+        35.37393
+      ],
+      [
+        -120.66147,
+        35.2874
+      ],
+      [
+        -120.70108,
+        35.18216
+      ],
+      [
+        -120.58171,
+        35.09787
+      ],
+      [
+        -120.56346,
+        34.92386
+      ],
+      [
+        -120.45446,
+        34.86152
+      ],
+      [
+        -120.44332,
+        34.80039
+      ],
+      [
+        -120.52045,
+        34.75086
+      ],
+      [
+        -120.4076,
+        34.58507
+      ],
+      [
+        -120.33731,
+        34.52173
+      ],
+      [
+        -120.22754,
+        34.5104
+      ],
+      [
+        -120.22454,
+        34.47357
+      ],
+      [
+        -119.51642,
+        34.40127
+      ],
+      [
+        -119.18084,
+        34.23984
+      ],
+      [
+        -119.17739,
+        34.19009
+      ],
+      [
+        -119.08033,
+        34.10054
+      ],
+      [
+        -118.94528,
+        34.04677
+      ],
+      [
+        -118.82062,
+        34.01647
+      ],
+      [
+        -118.54111,
+        34.03848
+      ],
+      [
+        -118.39645,
+        33.95227
+      ],
+      [
+        -118.38431,
+        33.81898
+      ],
+      [
+        -118.14221,
+        33.79042
+      ],
+      [
+        -118.00042,
+        33.65608
+      ],
+      [
+        -117.67906,
+        33.46434
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.85
+      ],
+      [
+        0.125,
+        0.894
+      ],
+      [
+        0.25,
+        1
+      ],
+      [
+        0.375,
+        1.106
+      ],
+      [
+        0.5,
+        1.15
+      ],
+      [
+        0.625,
+        1.106
+      ],
+      [
+        0.75,
+        1
+      ],
+      [
+        0.875,
+        0.894
+      ],
+      [
+        1,
+        0.85
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Fort Bragg",
+      "model": "town-blocks",
+      "at": 0.05870929298807236,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Davenport",
+      "model": "town-blocks",
+      "at": 0.3834865526974714,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lucia",
+      "model": "town-blocks",
+      "at": 0.5293327202622127,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Fort Bragg",
+      "at": 0.058709853021230274,
+      "landmark": "Fort Bragg"
+    },
+    {
+      "name": "Fort Ross",
+      "at": 0.17440119760479045,
+      "landmark": ""
+    },
+    {
+      "name": "Sausalito",
+      "at": 0.2889493739793141,
+      "landmark": ""
+    },
+    {
+      "name": "Davenport",
+      "at": 0.38346488840500814,
+      "landmark": "Davenport"
+    },
+    {
+      "name": "Pasatiempo",
+      "at": 0.40025014124401526,
+      "landmark": ""
+    },
+    {
+      "name": "Monterey",
+      "at": 0.45521230266739254,
+      "landmark": ""
+    },
+    {
+      "name": "Lucia",
+      "at": 0.5293004899292325,
+      "landmark": "Lucia"
+    },
+    {
+      "name": "San Luis Obispo",
+      "at": 0.6406232988568319,
+      "landmark": ""
+    },
+    {
+      "name": "Lompoc",
+      "at": 0.719474686989657,
+      "landmark": ""
+    },
+    {
+      "name": "Oxnard",
+      "at": 0.8451415351115951,
+      "landmark": ""
+    },
+    {
+      "name": "Torrance",
+      "at": 0.9313826891671203,
+      "landmark": ""
+    },
+    {
+      "name": "Dana Point",
+      "at": 0.9983941208492108,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/pacific-coast-highway-california-s-route-1-12744.json",
+    "public/data/strips/pacific-coast-highway-california-s-route-1-12744.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

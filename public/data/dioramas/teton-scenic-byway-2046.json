@@ -1,0 +1,426 @@
+{
+  "authored": false,
+  "bywayId": "teton-scenic-byway-2046",
+  "title": "Teton Scenic Byway",
+  "longitude": -111.111,
+  "ground": "main-street",
+  "palette": "town",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "level",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -111.33991,
+        43.45139
+      ],
+      [
+        -111.32662,
+        43.46096
+      ],
+      [
+        -111.32573,
+        43.47033
+      ],
+      [
+        -111.34884,
+        43.48177
+      ],
+      [
+        -111.34987,
+        43.49128
+      ],
+      [
+        -111.35711,
+        43.50143
+      ],
+      [
+        -111.3573,
+        43.50434
+      ],
+      [
+        -111.35057,
+        43.51083
+      ],
+      [
+        -111.34115,
+        43.51568
+      ],
+      [
+        -111.3392,
+        43.51968
+      ],
+      [
+        -111.32716,
+        43.52517
+      ],
+      [
+        -111.30605,
+        43.53912
+      ],
+      [
+        -111.29451,
+        43.55309
+      ],
+      [
+        -111.26591,
+        43.56384
+      ],
+      [
+        -111.25343,
+        43.56116
+      ],
+      [
+        -111.2412,
+        43.57174
+      ],
+      [
+        -111.23417,
+        43.5738
+      ],
+      [
+        -111.21062,
+        43.57055
+      ],
+      [
+        -111.20643,
+        43.57389
+      ],
+      [
+        -111.20118,
+        43.57137
+      ],
+      [
+        -111.19191,
+        43.57069
+      ],
+      [
+        -111.18019,
+        43.57807
+      ],
+      [
+        -111.17532,
+        43.59247
+      ],
+      [
+        -111.13227,
+        43.59254
+      ],
+      [
+        -111.12164,
+        43.60197
+      ],
+      [
+        -111.11131,
+        43.60261
+      ],
+      [
+        -111.11105,
+        43.80363
+      ],
+      [
+        -111.11471,
+        43.80634
+      ],
+      [
+        -111.13903,
+        43.80651
+      ],
+      [
+        -111.14619,
+        43.80974
+      ],
+      [
+        -111.15786,
+        43.81076
+      ],
+      [
+        -111.16013,
+        43.81277
+      ],
+      [
+        -111.16158,
+        43.8241
+      ],
+      [
+        -111.18057,
+        43.82482
+      ],
+      [
+        -111.17989,
+        43.92235
+      ],
+      [
+        -111.17699,
+        43.93216
+      ],
+      [
+        -111.18093,
+        43.95333
+      ],
+      [
+        -111.19839,
+        43.95448
+      ],
+      [
+        -111.20353,
+        43.96202
+      ],
+      [
+        -111.20336,
+        43.96764
+      ],
+      [
+        -111.20597,
+        43.96946
+      ],
+      [
+        -111.23766,
+        43.96811
+      ],
+      [
+        -111.2795,
+        43.97318
+      ],
+      [
+        -111.29133,
+        43.96846
+      ],
+      [
+        -111.30021,
+        43.97498
+      ],
+      [
+        -111.31777,
+        43.97898
+      ],
+      [
+        -111.33423,
+        43.98929
+      ],
+      [
+        -111.34122,
+        43.99673
+      ],
+      [
+        -111.34592,
+        43.99842
+      ],
+      [
+        -111.42246,
+        43.99917
+      ],
+      [
+        -111.42618,
+        44.01941
+      ],
+      [
+        -111.43862,
+        44.02267
+      ],
+      [
+        -111.4385,
+        44.05446
+      ],
+      [
+        -111.43572,
+        44.05876
+      ],
+      [
+        -111.43578,
+        44.07131
+      ],
+      [
+        -111.44872,
+        44.07134
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Victor",
+      "model": "town-blocks",
+      "at": 0.29551330570312045,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Driggs",
+      "model": "town-blocks",
+      "at": 0.4473264008896389,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Ashton",
+      "model": "town-blocks",
+      "at": 0.9997130111778605,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Victor",
+      "at": 0.29604685212298687,
+      "landmark": "Victor"
+    },
+    {
+      "name": "Driggs",
+      "at": 0.44773060029282574,
+      "landmark": "Driggs"
+    },
+    {
+      "name": "Tetonia",
+      "at": 0.5515373352855051,
+      "landmark": ""
+    },
+    {
+      "name": "Felt",
+      "at": 0.6244509516837482,
+      "landmark": ""
+    },
+    {
+      "name": "Drummond",
+      "at": 0.8525622254758418,
+      "landmark": ""
+    },
+    {
+      "name": "Ashton",
+      "at": 0.9997071742313324,
+      "landmark": "Ashton"
+    }
+  ],
+  "sources": [
+    "content/stories/teton-scenic-byway-2046.json",
+    "public/data/strips/teton-scenic-byway-2046.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,397 @@
+{
+  "authored": false,
+  "bywayId": "pisgah-loop-scenic-byway-81460",
+  "title": "Pisgah Loop Scenic Byway",
+  "longitude": -81.9195,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -81.79298,
+        35.82613
+      ],
+      [
+        -81.778,
+        35.83494
+      ],
+      [
+        -81.7719,
+        35.84787
+      ],
+      [
+        -81.77945,
+        35.85104
+      ],
+      [
+        -81.78483,
+        35.86191
+      ],
+      [
+        -81.7941,
+        35.86599
+      ],
+      [
+        -81.79288,
+        35.87617
+      ],
+      [
+        -81.80304,
+        35.88912
+      ],
+      [
+        -81.80061,
+        35.89904
+      ],
+      [
+        -81.80805,
+        35.90482
+      ],
+      [
+        -81.81399,
+        35.92217
+      ],
+      [
+        -81.82059,
+        35.92331
+      ],
+      [
+        -81.82171,
+        35.93197
+      ],
+      [
+        -81.83973,
+        35.93868
+      ],
+      [
+        -81.84492,
+        35.95144
+      ],
+      [
+        -81.85194,
+        35.95611
+      ],
+      [
+        -81.85738,
+        35.9541
+      ],
+      [
+        -81.86105,
+        35.95926
+      ],
+      [
+        -81.87758,
+        35.95351
+      ],
+      [
+        -81.88806,
+        35.9545
+      ],
+      [
+        -81.89603,
+        35.9687
+      ],
+      [
+        -81.89269,
+        35.97616
+      ],
+      [
+        -81.89763,
+        35.97838
+      ],
+      [
+        -81.89588,
+        35.98389
+      ],
+      [
+        -81.90528,
+        35.98729
+      ],
+      [
+        -81.90937,
+        35.98471
+      ],
+      [
+        -81.92927,
+        35.96492
+      ],
+      [
+        -81.92925,
+        35.95781
+      ],
+      [
+        -81.93502,
+        35.95145
+      ],
+      [
+        -81.92814,
+        35.93008
+      ],
+      [
+        -81.91038,
+        35.90598
+      ],
+      [
+        -81.9121,
+        35.89792
+      ],
+      [
+        -81.90579,
+        35.8886
+      ],
+      [
+        -81.91804,
+        35.86034
+      ],
+      [
+        -81.91785,
+        35.8512
+      ],
+      [
+        -81.93001,
+        35.839
+      ],
+      [
+        -81.92998,
+        35.82269
+      ],
+      [
+        -81.93876,
+        35.81078
+      ],
+      [
+        -81.9356,
+        35.80253
+      ],
+      [
+        -81.92238,
+        35.79609
+      ],
+      [
+        -81.9172,
+        35.78425
+      ],
+      [
+        -81.90494,
+        35.77787
+      ],
+      [
+        -81.90257,
+        35.77137
+      ],
+      [
+        -81.89171,
+        35.77441
+      ],
+      [
+        -81.89657,
+        35.79067
+      ],
+      [
+        -81.88192,
+        35.79992
+      ],
+      [
+        -81.87408,
+        35.79945
+      ],
+      [
+        -81.87071,
+        35.79357
+      ],
+      [
+        -81.85656,
+        35.7974
+      ],
+      [
+        -81.84728,
+        35.81207
+      ],
+      [
+        -81.82894,
+        35.8231
+      ],
+      [
+        -81.82422,
+        35.83461
+      ],
+      [
+        -81.81541,
+        35.84211
+      ],
+      [
+        -81.8047,
+        35.83804
+      ],
+      [
+        -81.80502,
+        35.82606
+      ],
+      [
+        -81.79298,
+        35.82613
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Lake James",
+      "model": "alpine-lake",
+      "at": 0.7767893320352192,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Jonas Ridge",
+      "at": 0.33925619834710746,
+      "landmark": ""
+    },
+    {
+      "name": "Linville Falls",
+      "at": 0.44338842975206616,
+      "landmark": ""
+    },
+    {
+      "name": "Linville Gorge Wilderness",
+      "at": 0.5171487603305785,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/pisgah-loop-scenic-byway-81460.json",
+    "public/data/strips/pisgah-loop-scenic-byway-81460.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

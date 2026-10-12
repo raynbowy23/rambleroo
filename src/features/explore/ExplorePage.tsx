@@ -3,7 +3,7 @@ import { distanceLabel, sortByDistance, type Location } from './distance'
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams, useNavigate } from 'react-router'
 import { RoadVisual } from '../photos/RoadVisual'
-import { firstPhoto, hasPhoto } from '../../lib/data'
+import { firstPhoto, useCovers } from '../../lib/data'
 import { Icon } from '../../components/art'
 import { collections, stateChapters, useCatalog } from '../../lib/data'
 import { filterByways, themes } from '../../lib/filters'
@@ -74,6 +74,7 @@ export default function ExplorePage() {
   )
   const navigate = useNavigate()
   const catalog = useCatalog()
+  const covers = useCovers()
   const [params, setParams] = useSearchParams()
   const [failed, setFailed] = useState(false)
   const [collapsed, setCollapsed] = useState(false)
@@ -95,9 +96,9 @@ export default function ExplorePage() {
     // A typed search keeps its relevance order; browsing puts roads with real photos (and stories) first.
     if (location) return sortByDistance(matches, location)
     if (q) return matches
-    const rank = (id: string, status: string) => (status !== 'listing' ? 0 : hasPhoto(id) ? 1 : 2)
+    const rank = (id: string, status: string) => (status !== 'listing' ? 0 : covers?.[id] ? 1 : 2)
     return [...matches].sort((a, b) => rank(a.id, a.status) - rank(b.id, b.status))
-  }, [catalog.byways, q, state, activeThemes, location])
+  }, [catalog.byways, q, state, activeThemes, location, covers])
   const active = Boolean(q || state || activeThemes.length)
   const ids = useMemo(() => (active ? filtered.map((b) => b.id) : null), [active, filtered])
   const selected = selectedId ? catalog.byId.get(selectedId) : undefined
@@ -474,7 +475,7 @@ export default function ExplorePage() {
             <span className="kicker">Collections</span>
             {collections.map((c, i) => (
               <div className={styles.collectionPreview} key={c.slug}>
-                <RoadVisual bywayId={firstPhoto(c.bywayIds)?.bywayId} family={c.scene} seed={i} variant="thumb" />
+                <RoadVisual bywayId={firstPhoto(covers, c.bywayIds)?.bywayId} family={c.scene} seed={i} variant="thumb" />
                 <Link viewTransition to={`/collections/${c.slug}`}>
                   {c.title}
                 </Link>

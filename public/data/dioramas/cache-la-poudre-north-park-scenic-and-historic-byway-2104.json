@@ -1,0 +1,421 @@
+{
+  "authored": false,
+  "bywayId": "cache-la-poudre-north-park-scenic-and-historic-byway-2104",
+  "title": "Cache La Poudre-North Park Scenic and Historic Byway",
+  "longitude": -105.7269,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -106.28213,
+        40.72673
+      ],
+      [
+        -106.20691,
+        40.66687
+      ],
+      [
+        -106.18013,
+        40.65592
+      ],
+      [
+        -106.16659,
+        40.63907
+      ],
+      [
+        -106.13008,
+        40.63414
+      ],
+      [
+        -106.09296,
+        40.6121
+      ],
+      [
+        -106.06171,
+        40.57462
+      ],
+      [
+        -106.05686,
+        40.55463
+      ],
+      [
+        -106.03765,
+        40.55238
+      ],
+      [
+        -106.0328,
+        40.53163
+      ],
+      [
+        -106.01132,
+        40.51274
+      ],
+      [
+        -105.9575,
+        40.50042
+      ],
+      [
+        -105.88616,
+        40.50662
+      ],
+      [
+        -105.89319,
+        40.51935
+      ],
+      [
+        -105.87618,
+        40.55613
+      ],
+      [
+        -105.80563,
+        40.63674
+      ],
+      [
+        -105.81386,
+        40.65793
+      ],
+      [
+        -105.81014,
+        40.66502
+      ],
+      [
+        -105.80464,
+        40.67131
+      ],
+      [
+        -105.77793,
+        40.67725
+      ],
+      [
+        -105.75191,
+        40.70846
+      ],
+      [
+        -105.73339,
+        40.71416
+      ],
+      [
+        -105.6795,
+        40.69531
+      ],
+      [
+        -105.63696,
+        40.70339
+      ],
+      [
+        -105.60873,
+        40.69686
+      ],
+      [
+        -105.54594,
+        40.70031
+      ],
+      [
+        -105.5159,
+        40.69099
+      ],
+      [
+        -105.48832,
+        40.69081
+      ],
+      [
+        -105.47767,
+        40.67427
+      ],
+      [
+        -105.46766,
+        40.68372
+      ],
+      [
+        -105.45635,
+        40.68045
+      ],
+      [
+        -105.4481,
+        40.68636
+      ],
+      [
+        -105.45145,
+        40.69469
+      ],
+      [
+        -105.44249,
+        40.69805
+      ],
+      [
+        -105.43117,
+        40.6903
+      ],
+      [
+        -105.43533,
+        40.68118
+      ],
+      [
+        -105.42967,
+        40.67547
+      ],
+      [
+        -105.41805,
+        40.67414
+      ],
+      [
+        -105.41018,
+        40.68311
+      ],
+      [
+        -105.3811,
+        40.68321
+      ],
+      [
+        -105.37636,
+        40.69425
+      ],
+      [
+        -105.3684,
+        40.68671
+      ],
+      [
+        -105.32929,
+        40.69412
+      ],
+      [
+        -105.3022,
+        40.6858
+      ],
+      [
+        -105.28055,
+        40.69832
+      ],
+      [
+        -105.2555,
+        40.69138
+      ],
+      [
+        -105.24851,
+        40.69971
+      ],
+      [
+        -105.23647,
+        40.68986
+      ],
+      [
+        -105.234,
+        40.67017
+      ],
+      [
+        -105.1883,
+        40.66369
+      ],
+      [
+        -105.17398,
+        40.65035
+      ],
+      [
+        -105.1474,
+        40.65863
+      ],
+      [
+        -105.10732,
+        40.62542
+      ],
+      [
+        -105.08366,
+        40.62199
+      ],
+      [
+        -105.07641,
+        40.61411
+      ],
+      [
+        -105.07694,
+        40.59081
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Gould",
+      "model": "aspen",
+      "at": 0.21447005235417954,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Gould",
+      "model": "town-blocks",
+      "at": 0.21447005235417954,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rustic",
+      "model": "town-blocks",
+      "at": 0.582441133680585,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Walden",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Gould",
+      "at": 0.21450459652706844,
+      "landmark": "Gould"
+    },
+    {
+      "name": "Kinikinik",
+      "at": 0.4892747701736465,
+      "landmark": ""
+    },
+    {
+      "name": "Rustic",
+      "at": 0.5824310520939734,
+      "landmark": "Rustic"
+    },
+    {
+      "name": "Laporte",
+      "at": 0.954341164453524,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/cache-la-poudre-north-park-scenic-and-historic-byway-2104.json",
+    "public/data/strips/cache-la-poudre-north-park-scenic-and-historic-byway-2104.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -1,0 +1,355 @@
+{
+  "authored": false,
+  "bywayId": "schoodic-scenic-byway-13792",
+  "title": "Schoodic Scenic Byway",
+  "longitude": -68.0947,
+  "ground": "low-shore",
+  "palette": "coast",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -68.23222,
+        44.52773
+      ],
+      [
+        -68.22858,
+        44.53017
+      ],
+      [
+        -68.22412,
+        44.52976
+      ],
+      [
+        -68.21139,
+        44.5233
+      ],
+      [
+        -68.1908,
+        44.51908
+      ],
+      [
+        -68.17933,
+        44.51184
+      ],
+      [
+        -68.16527,
+        44.51078
+      ],
+      [
+        -68.15125,
+        44.50338
+      ],
+      [
+        -68.14105,
+        44.49485
+      ],
+      [
+        -68.1264,
+        44.4877
+      ],
+      [
+        -68.11629,
+        44.48467
+      ],
+      [
+        -68.1013,
+        44.47722
+      ],
+      [
+        -68.09764,
+        44.47385
+      ],
+      [
+        -68.09909,
+        44.4726
+      ],
+      [
+        -68.09418,
+        44.46747
+      ],
+      [
+        -68.09615,
+        44.46208
+      ],
+      [
+        -68.10808,
+        44.45804
+      ],
+      [
+        -68.11338,
+        44.45476
+      ],
+      [
+        -68.11373,
+        44.45146
+      ],
+      [
+        -68.1111,
+        44.44716
+      ],
+      [
+        -68.11196,
+        44.43615
+      ],
+      [
+        -68.10755,
+        44.42789
+      ],
+      [
+        -68.08898,
+        44.4097
+      ],
+      [
+        -68.08405,
+        44.39486
+      ],
+      [
+        -68.07961,
+        44.3956
+      ],
+      [
+        -68.0737,
+        44.39394
+      ],
+      [
+        -68.07278,
+        44.39038
+      ],
+      [
+        -68.07054,
+        44.38849
+      ],
+      [
+        -68.06867,
+        44.37789
+      ],
+      [
+        -68.07116,
+        44.37429
+      ],
+      [
+        -68.07519,
+        44.37379
+      ],
+      [
+        -68.0764,
+        44.37178
+      ],
+      [
+        -68.07643,
+        44.36056
+      ],
+      [
+        -68.07439,
+        44.35304
+      ],
+      [
+        -68.07298,
+        44.34983
+      ],
+      [
+        -68.06501,
+        44.34479
+      ],
+      [
+        -68.06047,
+        44.34397
+      ],
+      [
+        -68.05624,
+        44.33892
+      ],
+      [
+        -68.04839,
+        44.33838
+      ],
+      [
+        -68.04494,
+        44.33991
+      ],
+      [
+        -68.04417,
+        44.34253
+      ],
+      [
+        -68.04759,
+        44.35387
+      ],
+      [
+        -68.04666,
+        44.36008
+      ],
+      [
+        -68.03852,
+        44.36324
+      ],
+      [
+        -68.0391,
+        44.36701
+      ],
+      [
+        -68.03369,
+        44.37145
+      ],
+      [
+        -68.03603,
+        44.37746
+      ],
+      [
+        -68.03634,
+        44.38345
+      ],
+      [
+        -68.0392,
+        44.38656
+      ],
+      [
+        -68.03999,
+        44.38944
+      ],
+      [
+        -68.03611,
+        44.38899
+      ],
+      [
+        -68.03256,
+        44.39011
+      ],
+      [
+        -68.02916,
+        44.39462
+      ],
+      [
+        -68.02184,
+        44.39732
+      ],
+      [
+        -68.02681,
+        44.40642
+      ],
+      [
+        -68.02598,
+        44.40892
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Sullivan",
+      "model": "town-blocks",
+      "at": 0.14491228899033315,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Prospect Harbor Point Light",
+      "model": "lighthouse-on-rock",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "harbor",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "sandbar",
+      "at": 0.041666666666666664,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.2916666666666667,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.5416666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    },
+    {
+      "model": "sandbar",
+      "at": 0.7916666666666666,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.4
+    }
+  ],
+  "towns": [
+    {
+      "name": "Sullivan",
+      "at": 0.14486692015209127,
+      "landmark": "Sullivan"
+    },
+    {
+      "name": "Winter Harbor",
+      "at": 0.7049429657794676,
+      "landmark": ""
+    },
+    {
+      "name": "Birch Harbor",
+      "at": 0.9254752851711027,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/schoodic-scenic-byway-13792.json",
+    "public/data/strips/schoodic-scenic-byway-13792.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

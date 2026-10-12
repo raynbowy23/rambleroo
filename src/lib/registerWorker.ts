@@ -1,6 +1,7 @@
 // A new deploy installs in the background and is switched to quietly at a safe moment: the next page change, or when the visitor
 // leaves the app. Saved roads, the passport and notes live in the browser and the account, so the reload never loses them; it only
 // waits while someone is typing, so a half-written note survives.
+import { PHOTO_ORIGIN } from './photoOrigin'
 const CHECK_EVERY_MS = 60 * 60 * 1000
 let apply: (() => Promise<void>) | null = null
 
@@ -30,8 +31,9 @@ export function registerWorker() {
     performance.getEntriesByType('resource').forEach(({ name }) => {
       const url = new URL(name, location.href)
       if (url.origin === location.origin && (url.pathname.startsWith('/data/') || url.pathname.startsWith('/photos/'))) urls.add(url.href)
+      if (PHOTO_ORIGIN && url.origin === PHOTO_ORIGIN) urls.add(url.href)
     })
-    void Promise.allSettled([...urls].map((url) => fetch(url)))
+    void Promise.allSettled([...urls].map((url) => fetch(url, { mode: 'cors' })))
   }
   const onHidden = () => {
     if (document.visibilityState === 'hidden') applyPendingUpdate()

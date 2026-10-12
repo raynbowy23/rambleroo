@@ -1,0 +1,354 @@
+{
+  "authored": false,
+  "bywayId": "savannah-river-scenic-byway-2162",
+  "title": "Savannah River Scenic Byway",
+  "longitude": -82.5972,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -83.04639,
+        34.61907
+      ],
+      [
+        -83.02639,
+        34.60134
+      ],
+      [
+        -82.99,
+        34.59313
+      ],
+      [
+        -82.97625,
+        34.59623
+      ],
+      [
+        -82.94386,
+        34.58374
+      ],
+      [
+        -82.91698,
+        34.58191
+      ],
+      [
+        -82.90314,
+        34.5646
+      ],
+      [
+        -82.87085,
+        34.55838
+      ],
+      [
+        -82.8385,
+        34.5243
+      ],
+      [
+        -82.79328,
+        34.52849
+      ],
+      [
+        -82.76071,
+        34.51117
+      ],
+      [
+        -82.78724,
+        34.47777
+      ],
+      [
+        -82.78633,
+        34.45991
+      ],
+      [
+        -82.79491,
+        34.45101
+      ],
+      [
+        -82.79651,
+        34.40732
+      ],
+      [
+        -82.78511,
+        34.38672
+      ],
+      [
+        -82.76746,
+        34.38821
+      ],
+      [
+        -82.73056,
+        34.38012
+      ],
+      [
+        -82.71451,
+        34.38302
+      ],
+      [
+        -82.69452,
+        34.3764
+      ],
+      [
+        -82.68526,
+        34.35592
+      ],
+      [
+        -82.68702,
+        34.33685
+      ],
+      [
+        -82.66344,
+        34.31796
+      ],
+      [
+        -82.66463,
+        34.26763
+      ],
+      [
+        -82.65231,
+        34.23566
+      ],
+      [
+        -82.6525,
+        34.21612
+      ],
+      [
+        -82.64785,
+        34.21012
+      ],
+      [
+        -82.62336,
+        34.21253
+      ],
+      [
+        -82.6075,
+        34.18096
+      ],
+      [
+        -82.59135,
+        34.13002
+      ],
+      [
+        -82.59643,
+        34.12266
+      ],
+      [
+        -82.59871,
+        34.079
+      ],
+      [
+        -82.56785,
+        34.0512
+      ],
+      [
+        -82.52896,
+        34.03306
+      ],
+      [
+        -82.5077,
+        34.01245
+      ],
+      [
+        -82.49137,
+        33.977
+      ],
+      [
+        -82.46825,
+        33.97233
+      ],
+      [
+        -82.43631,
+        33.94909
+      ],
+      [
+        -82.42444,
+        33.95298
+      ],
+      [
+        -82.41507,
+        33.96539
+      ],
+      [
+        -82.39644,
+        33.9666
+      ],
+      [
+        -82.38919,
+        33.9566
+      ],
+      [
+        -82.35804,
+        33.9362
+      ],
+      [
+        -82.31806,
+        33.92673
+      ],
+      [
+        -82.29438,
+        33.91081
+      ],
+      [
+        -82.26008,
+        33.85466
+      ],
+      [
+        -82.2602,
+        33.8313
+      ],
+      [
+        -82.22784,
+        33.79881
+      ],
+      [
+        -82.20416,
+        33.76602
+      ],
+      [
+        -82.20699,
+        33.72861
+      ],
+      [
+        -82.19889,
+        33.69939
+      ],
+      [
+        -82.15669,
+        33.65044
+      ],
+      [
+        -82.15473,
+        33.64177
+      ],
+      [
+        -82.12819,
+        33.62093
+      ],
+      [
+        -82.13329,
+        33.60435
+      ],
+      [
+        -82.12324,
+        33.59276
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Richard B. Russell Lake",
+      "model": "alpine-lake",
+      "at": 0.5328983385055047,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "McCormick",
+      "model": "town-blocks",
+      "at": 0.7663043599655252,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Lake Strom Thurmond",
+      "model": "alpine-lake",
+      "at": 0.9336218256208714,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Townville",
+      "at": 0.09345622119815669,
+      "landmark": ""
+    },
+    {
+      "name": "Starr",
+      "at": 0.32534562211981566,
+      "landmark": ""
+    },
+    {
+      "name": "Lowndesville",
+      "at": 0.4411981566820276,
+      "landmark": ""
+    },
+    {
+      "name": "Calhoun Falls",
+      "at": 0.5346543778801843,
+      "landmark": ""
+    },
+    {
+      "name": "Mount Carmel",
+      "at": 0.6094930875576037,
+      "landmark": ""
+    },
+    {
+      "name": "Plum Branch",
+      "at": 0.8078341013824886,
+      "landmark": ""
+    },
+    {
+      "name": "Modoc",
+      "at": 0.8909677419354839,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/savannah-river-scenic-byway-2162.json",
+    "public/data/strips/savannah-river-scenic-byway-2162.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

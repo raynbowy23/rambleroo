@@ -1,0 +1,337 @@
+{
+  "authored": false,
+  "bywayId": "huguenot-trail-and-old-river-trail-west-of-richmond-995143",
+  "title": "Huguenot Trail and Old River Trail, west of Richmond",
+  "longitude": -77.8759,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -77.90165,
+        37.64857
+      ],
+      [
+        -77.89672,
+        37.64863
+      ],
+      [
+        -77.89144,
+        37.65082
+      ],
+      [
+        -77.88225,
+        37.64884
+      ],
+      [
+        -77.88024,
+        37.64777
+      ],
+      [
+        -77.87724,
+        37.64342
+      ],
+      [
+        -77.87542,
+        37.63513
+      ],
+      [
+        -77.87769,
+        37.62818
+      ],
+      [
+        -77.86995,
+        37.61991
+      ],
+      [
+        -77.87528,
+        37.61379
+      ],
+      [
+        -77.85166,
+        37.6065
+      ],
+      [
+        -77.82764,
+        37.60106
+      ],
+      [
+        -77.81425,
+        37.59569
+      ],
+      [
+        -77.7964,
+        37.5943
+      ],
+      [
+        -77.78973,
+        37.59657
+      ],
+      [
+        -77.78147,
+        37.597
+      ],
+      [
+        -77.77315,
+        37.59333
+      ],
+      [
+        -77.76283,
+        37.59303
+      ],
+      [
+        -77.75876,
+        37.59149
+      ],
+      [
+        -77.75396,
+        37.58776
+      ],
+      [
+        -77.75024,
+        37.58647
+      ],
+      [
+        -77.73586,
+        37.5787
+      ],
+      [
+        -77.72574,
+        37.57814
+      ],
+      [
+        -77.70616,
+        37.564
+      ],
+      [
+        -77.69713,
+        37.56185
+      ],
+      [
+        -77.69272,
+        37.5594
+      ],
+      [
+        -77.67833,
+        37.55794
+      ],
+      [
+        -77.67171,
+        37.55457
+      ],
+      [
+        -77.66288,
+        37.55381
+      ],
+      [
+        -77.65463,
+        37.54907
+      ],
+      [
+        -77.65035,
+        37.5431
+      ],
+      [
+        -77.64434,
+        37.54101
+      ],
+      [
+        -77.63922,
+        37.53815
+      ],
+      [
+        -77.62835,
+        37.52928
+      ],
+      [
+        -77.62508,
+        37.52772
+      ],
+      [
+        -77.62377,
+        37.53152
+      ],
+      [
+        -77.62447,
+        37.53324
+      ],
+      [
+        -77.62268,
+        37.54569
+      ],
+      [
+        -77.62132,
+        37.54809
+      ],
+      [
+        -77.6149,
+        37.55435
+      ],
+      [
+        -77.61255,
+        37.555
+      ],
+      [
+        -77.60425,
+        37.5537
+      ],
+      [
+        -77.60279,
+        37.55288
+      ],
+      [
+        -77.60198,
+        37.55119
+      ],
+      [
+        -77.60218,
+        37.54745
+      ],
+      [
+        -77.59824,
+        37.54302
+      ],
+      [
+        -77.59831,
+        37.54072
+      ],
+      [
+        -77.59689,
+        37.53945
+      ],
+      [
+        -77.59585,
+        37.53503
+      ],
+      [
+        -77.59228,
+        37.53417
+      ],
+      [
+        -77.59169,
+        37.53321
+      ],
+      [
+        -77.5959,
+        37.53507
+      ],
+      [
+        -77.59566,
+        37.53582
+      ],
+      [
+        -77.59429,
+        37.53466
+      ],
+      [
+        -77.6016,
+        37.54648
+      ],
+      [
+        -77.59789,
+        37.54042
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Fine Creek Mills",
+      "model": "gristmill",
+      "at": 0.2767001991599118,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Fine Creek Mills",
+      "model": "town-blocks",
+      "at": 0.2767001991599118,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Maidens",
+      "at": 0.0277992277992278,
+      "landmark": ""
+    },
+    {
+      "name": "Subletts",
+      "at": 0.4393822393822394,
+      "landmark": ""
+    },
+    {
+      "name": "Huguenot Springs",
+      "at": 0.5664092664092665,
+      "landmark": ""
+    },
+    {
+      "name": "Tarrington",
+      "at": 0.6926640926640928,
+      "landmark": ""
+    },
+    {
+      "name": "Lorraine",
+      "at": 0.8370656370656371,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/huguenot-trail-and-old-river-trail-west-of-richmond-995143.json",
+    "public/data/strips/huguenot-trail-and-old-river-trail-west-of-richmond-995143.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

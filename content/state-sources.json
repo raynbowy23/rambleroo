@@ -53,6 +53,14 @@
         "id": 991204,
         "designation": "Florida State Scenic Highway",
         "nsb": false
+      },
+      {
+        "name": "Bradenton Beach Scenic Highway",
+        "match": "BRADENTON BEACH HWY",
+        "id": 991205,
+        "designation": "Florida State Scenic Highway",
+        "nsb": false,
+        "replaces": 2465
       }
     ]
   },
@@ -682,6 +690,13 @@
         "designation": "County Scenic Highway",
         "nsb": false
       }
+    ],
+    "drop": [
+      {
+        "bywayId": 12744,
+        "southOf": 33.4649,
+        "reason": "Route 1 ends at I-5 in Dana Point (Caltrans SHN_Lines Route 1); the national part south of it follows I-5 and Pacific Highway into San Diego."
+      }
     ]
   },
   {
@@ -717,6 +732,21 @@
         "id": 994504,
         "designation": "Scenic Byway",
         "nsb": false
+      },
+      {
+        "name": "Andrew Pickens Scenic Parkway",
+        "match": "Cherokee Foothills",
+        "id": 994505,
+        "designation": "Scenic Highway",
+        "nsb": false,
+        "replaces": 73581,
+        "clip": {
+          "center": [
+            -83.0248,
+            34.8705
+          ],
+          "miles": 28.95
+        }
       }
     ]
   },
@@ -871,10 +901,11 @@
       },
       {
         "name": "Route 613, Green Springs",
-        "match": "SC-613E (Louisa County)",
         "id": 995116,
         "designation": "Virginia Byway",
-        "nsb": false
+        "nsb": false,
+        "layer": "https://services.arcgis.com/p5v98VHDX9Atv3l7/arcgis/rest/services/LRS_Edge_Rte_Overlap/FeatureServer/0",
+        "where": "RTE_NM='R-VA054SC00613EB'"
       },
       {
         "name": "Albemarle County byways (Garth Road and Thomas Jefferson Parkway)",
@@ -1063,7 +1094,8 @@
         "id": 995143,
         "designation": "Virginia Byway",
         "nsb": false,
-        "where": "LAD_SCENIC IN ('SC-617N (Powhatan County)','SC-673N (Chesterfield County)','UR-15N (City of Richmond)')"
+        "layer": "https://services.arcgis.com/p5v98VHDX9Atv3l7/arcgis/rest/services/LRS_Edge_Rte_Overlap/FeatureServer/0",
+        "where": "RTE_NM IN ('R-VA072SC00711EB','R-VA127UR00015NB') OR (RTE_NM='R-VA020SC00711EB' AND TRANSPORT_EDGE_TO_MSR<2.98) OR (RTE_NM='R-VA020SC00673NB' AND TRANSPORT_EDGE_FROM_MSR>0.25) OR (RTE_NM='R-VA072SC00617NB' AND TRANSPORT_EDGE_TO_MSR<3.61)"
       },
       {
         "name": "Route 5 (John Tyler Highway)",
@@ -1077,7 +1109,8 @@
         "id": 995145,
         "designation": "Virginia Byway",
         "nsb": false,
-        "where": "LAD_SCENIC IN ('SC-606N (New Kent County)','SC-608N (New Kent County)','SC-609N (New Kent County)','VA-249E')"
+        "layer": "https://services.arcgis.com/p5v98VHDX9Atv3l7/arcgis/rest/services/LRS_Edge_Rte_Overlap/FeatureServer/0",
+        "where": "(RTE_COMMON_NM='VA-249E' AND TRANSPORT_EDGE_FROM_MSR>6.89) OR RTE_NM IN ('R-VA063SC00608NB','R-VA063SC00609NB') OR (RTE_NM='R-VA063SC00606NB' AND TRANSPORT_EDGE_TO_MSR<3.31)"
       },
       {
         "name": "Greensprings Road and Jamestown Festival Parkway",
@@ -1255,6 +1288,33 @@
         "id": 993203,
         "designation": "Nevada Scenic Byway",
         "nsb": false
+      },
+      {
+        "name": "Red Rock Canyon Back Country Byway",
+        "id": 993204,
+        "designation": "BLM Back Country Byway",
+        "nsb": false,
+        "replaces": 68961,
+        "osm": {
+          "ways": [
+            14290995,
+            22893035,
+            533506497,
+            533506504,
+            880419416,
+            880419417,
+            880419418,
+            1105092131,
+            1105092132,
+            1105092133,
+            1105092134,
+            1105092138,
+            1105092139,
+            1105092140,
+            1105092141,
+            1105092142
+          ]
+        }
       }
     ]
   },
@@ -2124,6 +2184,60 @@
         "designation": "Hawaii Scenic Byway",
         "nsb": false,
         "where": "statertenm = '137' AND fullname = 'KALAPANA KAPOHO BEACH RD'"
+      }
+    ]
+  },
+  {
+    "state": "MO",
+    "agency": "Missouri Department of Transportation",
+    "layer": "https://www.google.com/maps/d/kml?mid=1E_nUDLJtYIMxcv7bsD-bayyvG-W3SpA&forcekml=1",
+    "nameField": "name",
+    "comment": "MoDOT publishes byway lines only as a Google My Maps KML (layer above, kept for provenance); roads here are drawn from OpenStreetMap ways matched to it.",
+    "byways": [
+      {
+        "name": "Ozark Mountain Parkway",
+        "id": 992901,
+        "designation": "Missouri Scenic Byway",
+        "nsb": false,
+        "replaces": 64978,
+        "osm": {
+          "ways": [
+            18408453,
+            18741975,
+            18741980,
+            18742188,
+            18743515,
+            18743936,
+            18743942,
+            18743944,
+            18743950,
+            18744676,
+            18744680,
+            18744696,
+            18744986,
+            18744989,
+            18744991,
+            18746382,
+            18746384,
+            31043502,
+            31043505,
+            31043506,
+            250886886,
+            250886890,
+            250886893,
+            256536072,
+            364265331,
+            364265332,
+            364265333,
+            364265335,
+            1201611195,
+            1484130765,
+            1484130806,
+            1525966832,
+            1525966833,
+            1531834552
+          ]
+        }
       }
     ]
   }

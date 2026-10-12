@@ -1,0 +1,409 @@
+{
+  "authored": false,
+  "bywayId": "loudoun-county-byways-995104",
+  "title": "Loudoun County byways",
+  "longitude": -77.7364,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -77.66979,
+        39.28084
+      ],
+      [
+        -77.67291,
+        39.28009
+      ],
+      [
+        -77.67577,
+        39.28096
+      ],
+      [
+        -77.67992,
+        39.28095
+      ],
+      [
+        -77.68051,
+        39.28034
+      ],
+      [
+        -77.68141,
+        39.27571
+      ],
+      [
+        -77.68835,
+        39.27364
+      ],
+      [
+        -77.69224,
+        39.26945
+      ],
+      [
+        -77.69333,
+        39.26659
+      ],
+      [
+        -77.69928,
+        39.2452
+      ],
+      [
+        -77.701,
+        39.24049
+      ],
+      [
+        -77.70035,
+        39.23983
+      ],
+      [
+        -77.70258,
+        39.23507
+      ],
+      [
+        -77.7014,
+        39.23338
+      ],
+      [
+        -77.70216,
+        39.23032
+      ],
+      [
+        -77.70144,
+        39.2263
+      ],
+      [
+        -77.70142,
+        39.22162
+      ],
+      [
+        -77.70465,
+        39.21359
+      ],
+      [
+        -77.70474,
+        39.21011
+      ],
+      [
+        -77.70842,
+        39.20309
+      ],
+      [
+        -77.71371,
+        39.20136
+      ],
+      [
+        -77.71708,
+        39.19786
+      ],
+      [
+        -77.71331,
+        39.19777
+      ],
+      [
+        -77.70687,
+        39.19544
+      ],
+      [
+        -77.69848,
+        39.18974
+      ],
+      [
+        -77.69023,
+        39.18689
+      ],
+      [
+        -77.68601,
+        39.1866
+      ],
+      [
+        -77.67372,
+        39.18823
+      ],
+      [
+        -77.67057,
+        39.18761
+      ],
+      [
+        -77.66883,
+        39.18622
+      ],
+      [
+        -77.65839,
+        39.17483
+      ],
+      [
+        -77.64944,
+        39.16718
+      ],
+      [
+        -77.63394,
+        39.15791
+      ],
+      [
+        -77.62842,
+        39.15249
+      ],
+      [
+        -77.62685,
+        39.15164
+      ],
+      [
+        -77.62003,
+        39.14952
+      ],
+      [
+        -77.61541,
+        39.14912
+      ],
+      [
+        -77.61392,
+        39.14851
+      ],
+      [
+        -77.61305,
+        39.14755
+      ],
+      [
+        -77.61172,
+        39.14433
+      ],
+      [
+        -77.61246,
+        39.13959
+      ],
+      [
+        -77.61162,
+        39.13936
+      ],
+      [
+        -77.61008,
+        39.13983
+      ],
+      [
+        -77.60945,
+        39.13844
+      ],
+      [
+        -77.60964,
+        39.13752
+      ],
+      [
+        -77.60796,
+        39.13475
+      ],
+      [
+        -77.60694,
+        39.12579
+      ],
+      [
+        -77.60771,
+        39.12388
+      ],
+      [
+        -77.60706,
+        39.12259
+      ],
+      [
+        -77.60423,
+        39.12019
+      ],
+      [
+        -77.60368,
+        39.11615
+      ],
+      [
+        -77.60282,
+        39.11425
+      ],
+      [
+        -77.60234,
+        39.11366
+      ],
+      [
+        -77.59964,
+        39.11212
+      ],
+      [
+        -77.59146,
+        39.11
+      ],
+      [
+        -77.58977,
+        39.10917
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Waterford",
+      "model": "town-blocks",
+      "at": 0.7190932229678716,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Hibbs Bridge",
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.9569596738969358,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Lovettsville",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Purcellville",
+      "at": 0.5,
+      "landmark": ""
+    },
+    {
+      "name": "Waterford",
+      "at": 0.7182857142857143,
+      "landmark": "Waterford"
+    },
+    {
+      "name": "Leesburg",
+      "at": 0.9988571428571429,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/loudoun-county-byways-995104.json",
+    "public/data/strips/loudoun-county-byways-995104.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

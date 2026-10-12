@@ -1,0 +1,399 @@
+{
+  "authored": false,
+  "bywayId": "route-9-saratoga-los-gatos-road-10255",
+  "title": "Route 9--Saratoga-Los Gatos Road",
+  "longitude": -122.0541,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -122.12196,
+        37.25851
+      ],
+      [
+        -122.12103,
+        37.25856
+      ],
+      [
+        -122.11618,
+        37.25635
+      ],
+      [
+        -122.11555,
+        37.25792
+      ],
+      [
+        -122.11247,
+        37.25943
+      ],
+      [
+        -122.11267,
+        37.26048
+      ],
+      [
+        -122.11146,
+        37.26015
+      ],
+      [
+        -122.10938,
+        37.26063
+      ],
+      [
+        -122.10953,
+        37.25863
+      ],
+      [
+        -122.11077,
+        37.25753
+      ],
+      [
+        -122.10962,
+        37.25688
+      ],
+      [
+        -122.1093,
+        37.25591
+      ],
+      [
+        -122.10859,
+        37.25717
+      ],
+      [
+        -122.10737,
+        37.25753
+      ],
+      [
+        -122.10636,
+        37.25878
+      ],
+      [
+        -122.10311,
+        37.25995
+      ],
+      [
+        -122.09918,
+        37.25943
+      ],
+      [
+        -122.0991,
+        37.2601
+      ],
+      [
+        -122.10263,
+        37.26142
+      ],
+      [
+        -122.10219,
+        37.26208
+      ],
+      [
+        -122.10088,
+        37.26114
+      ],
+      [
+        -122.09848,
+        37.261
+      ],
+      [
+        -122.09598,
+        37.25977
+      ],
+      [
+        -122.09603,
+        37.2587
+      ],
+      [
+        -122.09541,
+        37.25809
+      ],
+      [
+        -122.09256,
+        37.25774
+      ],
+      [
+        -122.08947,
+        37.25454
+      ],
+      [
+        -122.08361,
+        37.25023
+      ],
+      [
+        -122.07428,
+        37.24756
+      ],
+      [
+        -122.06862,
+        37.24851
+      ],
+      [
+        -122.06811,
+        37.24882
+      ],
+      [
+        -122.06761,
+        37.25127
+      ],
+      [
+        -122.06694,
+        37.25173
+      ],
+      [
+        -122.06477,
+        37.2512
+      ],
+      [
+        -122.06103,
+        37.2525
+      ],
+      [
+        -122.05927,
+        37.25209
+      ],
+      [
+        -122.05786,
+        37.25246
+      ],
+      [
+        -122.05302,
+        37.251
+      ],
+      [
+        -122.05173,
+        37.25211
+      ],
+      [
+        -122.04772,
+        37.25192
+      ],
+      [
+        -122.04628,
+        37.25266
+      ],
+      [
+        -122.04321,
+        37.2529
+      ],
+      [
+        -122.04237,
+        37.25386
+      ],
+      [
+        -122.03852,
+        37.25432
+      ],
+      [
+        -122.03788,
+        37.25554
+      ],
+      [
+        -122.03553,
+        37.25601
+      ],
+      [
+        -122.03185,
+        37.25933
+      ],
+      [
+        -122.03114,
+        37.25807
+      ],
+      [
+        -122.02752,
+        37.25513
+      ],
+      [
+        -122.02233,
+        37.25211
+      ],
+      [
+        -122.01477,
+        37.24648
+      ],
+      [
+        -122.00659,
+        37.24261
+      ],
+      [
+        -121.99729,
+        37.24025
+      ],
+      [
+        -121.99019,
+        37.23469
+      ],
+      [
+        -121.97903,
+        37.22796
+      ],
+      [
+        -121.975,
+        37.2266
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Saratoga Gap",
+      "model": "ridge",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Los Gatos",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Saratoga",
+      "at": 0.6517857142857143,
+      "landmark": ""
+    },
+    {
+      "name": "Los Gatos",
+      "at": 1,
+      "landmark": "Los Gatos"
+    }
+  ],
+  "sources": [
+    "content/stories/route-9-saratoga-los-gatos-road-10255.json",
+    "public/data/strips/route-9-saratoga-los-gatos-road-10255.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

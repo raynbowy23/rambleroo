@@ -110,17 +110,11 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
       'line-opacity': ['interpolate', ['linear'], ['zoom'], 4.6, 0, 5.6, 1],
     },
   })
-  // Each road's landmark: a small inked picture of its landscape at the road's middle, like the vignettes on an old pictorial map.
+  // Each road's landmark: a small inked picture at the road's middle, like the vignettes on an old pictorial map. The catalog picks it
+  // (scripts/ingest/classify.ts pickMark): a story's own landmark, else the kind of country, never a lighthouse the road does not have.
   // Symbol collision keeps the national view airy (national byways claim their spot first); more appear as you zoom in.
-  const kinds: Record<string, Glyph> = {
-    river: 'wave',
-    coast: 'lighthouse',
-    mountain: 'mountain',
-    forest: 'pine',
-    desert: 'mesa',
-    prairie: 'windmill',
-  }
-  for (const glyph of new Set<Glyph>([...Object.values(kinds), 'church'])) {
+  const marks: Glyph[] = ['wave', 'sailboat', 'lighthouse', 'mountain', 'pine', 'mesa', 'windmill', 'church']
+  for (const glyph of marks) {
     const canvas = document.createElement('canvas')
     canvas.width = canvas.height = 80
     const ctx = canvas.getContext('2d')
@@ -148,7 +142,7 @@ export function addBywayLayers(map: Map, data: BywayGeometry, byways: BywaySumma
       type: 'FeatureCollection',
       features: byways.map((b) => ({
         type: 'Feature' as const,
-        properties: { id: b.id, mark: `mark-${kinds[b.scene] ?? 'church'}`, rank: national.has(b.id) ? 0 : 1 },
+        properties: { id: b.id, mark: `mark-${b.mark ?? 'church'}`, rank: national.has(b.id) ? 0 : 1 },
         geometry: { type: 'Point' as const, coordinates: b.center },
       })),
     },

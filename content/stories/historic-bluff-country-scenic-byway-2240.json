@@ -1,20 +1,53 @@
 {
   "id": "historic-bluff-country-scenic-byway-2240",
-  "tagline": "Down the Root River, with buggies for company.",
+  "tagline": "An old US highway connects river towns and roadside overlooks.",
   "motifs": [
     "river-bluffs",
     "steeple-town"
   ],
   "intro": [
-    "Highway 16 takes its time through the Root River valley, 88 miles from La Crescent to Dexter, under wooded dolomite bluffs and between pasture and fields. Trout streams come down out of the hills to meet it, and on the country roads an Amish buggy is simply part of the traffic.",
-    "The valley towns come along one after another, Houston and Rushford and Preston. Between Spring Valley and Preston a state park keeps a village the railroad passed by and a cave that never changes its weather."
+    "Historic Bluff Country follows two-lane Minnesota Highway 16 between Dexter and La Crescent, linking small towns across southeastern Minnesota. Near Lanesboro, wooded hills and ravines share the landscape with tilled fields and pasture. Visit Bluff Country describes the 88-mile National Scenic Byway as a connection between the region’s scenery, historic places, cultural attractions and recreation. The route passes through Richard J. Dorer Memorial Hardwood State Forest in Fillmore and Houston counties, with a valley overlook outside Lanesboro. The Federal Highway Administration allows three hours to drive it.",
+    "The road carried the US 16 designation from 1926 until 1980. Interstate 90 replaced most of that highway in Minnesota, but the Dexter-to-La Crescent section remained a separate trunk highway. It became State Highway 16 in 1980 and received National Scenic Byway designation in 2003.",
+    "Start east from Dexter through Grand Meadow and Spring Valley. Between Spring Valley and Preston, Forestville Mystery Cave State Park offers a separate excursion from Highway 16. Continue past Preston to Inspiration Point’s Root River Valley overlook, southwest of Lanesboro. Farther east, the route links Peterson, Rushford, Houston and Hokah before La Crescent and the Mississippi River crossing. There MN 16 joins US 14 and US 61 at the Wisconsin state line."
   ],
   "moments": [
+    {
+      "title": "Mystery Cave",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Mystery Cave’s passages occupy two layers of rock, with more than 13 miles mapped in a system still being resurveyed. The cave contains stalactites, stalagmites and underground pools, and its temperature remains 48 degrees Fahrenheit. Floodwater dissolved fractures in limestone to create most of the cave within the last 500,000 to 1,000,000 years. Acidic rainwater also shaped the land above, forming sinkholes and other features of the region’s karst terrain. Its sedimentary rocks began as deposits left by shallow seas about 450 million years ago. It is Minnesota’s longest cave, within Forestville Mystery Cave State Park.",
+      "notice": "The cave contains stalactites, stalagmites and underground pools."
+    },
+    {
+      "title": "Historic Forestville",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Forestville’s general store became part of a village owned by one man. The rural trade center declined after the railroad went elsewhere in 1868. By 1889, Felix Meighen owned the whole settlement, and residents worked on his property in exchange for housing and store credit. His son Thomas inherited the land and wanted it to become a state park after his death in 1936. Costumed interpreters portray residents at work in the store, house, kitchen, farm and barn. The Minnesota Historical Society interprets the restored village as a living museum set in 1899.",
+      "at": [
+        -92.212,
+        43.64
+      ]
+    },
+    {
+      "title": "Preston Overlook",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "The wall and flagstone walk at Preston Overlook use limestone quarried below the overlook itself. The project began with the Preston Women’s Civic Improvement Club, which campaigned for highway beautification. The Minnesota Department of Highways built it in 1937–38 under a federal relief construction program. The National Reemployment Service project belonged to the New Deal’s effort to put people to work. Landscape architect Arthur R. Nichols designed the site in the Rustic Style. Its position on the bluff puts the Root River 90 feet below, while the mosaic-patterned stonework gives the roadside stop its own detail to study.",
+      "notice": "Look for the mosaic pattern in the limestone wall and the flagstone walk.",
+      "at": [
+        -92.07361111,
+        43.67333333
+      ],
+      "motifs": [
+        "river-bluffs"
+      ]
+    },
     {
       "title": "Lanesboro",
       "kind": "town",
       "scene": "river",
-      "text": "At Lanesboro, a town of about 700, the South Branch of the Root River spills over a dam across from Sylvan Park.",
+      "text": "Across from Sylvan Park, a dam carries the South Branch of the Root River over a waterfall in Lanesboro. The town also lies on the Root River State Trail. Its professional Commonweal Theatre Company began in 1989, founded by Eric Bunge, Scott Olson and Scott Putman. The artist-run company has a resident ensemble whose members handle its artistic and daily operational work. The company opened its new theater on the main street in July 2007. Artist Karl Unnasch designed an exterior recreating three Lanesboro shop fronts; inside, seats were reclaimed from the original Guthrie Theater.",
+      "notice": "The Commonweal Theatre’s exterior recreates three Lanesboro shop fronts.",
       "at": [
         -91.977,
         43.721
@@ -22,40 +55,43 @@
       "motifs": [
         "river-bluffs"
       ]
-    },
-    {
-      "title": "Historic Forestville",
-      "kind": "separate excursion",
-      "scene": "town",
-      "text": "A trade town that faded after the railroad went elsewhere in 1868, kept in 1899 by costumed interpreters minding the general store and the barn.",
-      "at": [
-        -92.212,
-        43.64
-      ]
-    },
-    {
-      "title": "Mystery Cave",
-      "kind": "separate excursion",
-      "scene": "forest",
-      "text": "Minnesota's longest cave holds at a steady 48 degrees among its stalactites and underground pools, seen on naturalist-led tours."
     }
   ],
+  "practical": [
+    "Historic Forestville: The cached park account records the historic bridge to Forestville as closed in 2023 because of structural failure. (checked 2026-10-11)"
+  ],
   "sources": [
+    {
+      "label": "Wikipedia, Minnesota State Highway 16",
+      "url": "https://en.wikipedia.org/wiki/Minnesota_State_Highway_16"
+    },
+    {
+      "label": "Wikipedia, Inspiration Point Wayside Rest",
+      "url": "https://en.wikipedia.org/wiki/Inspiration_Point_Wayside_Rest"
+    },
     {
       "label": "Visit Bluff Country, Scenic Byways",
       "url": "https://visitbluffcountry.com/scenic-byways/"
     },
     {
-      "label": "Explore Minnesota, Historic Bluff Country National Scenic Byway",
-      "url": "https://www.exploreminnesota.com/profile/historic-bluff-country-national-scenic-byway/9040"
-    },
-    {
-      "label": "Wikipedia, Lanesboro, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/Lanesboro,_Minnesota"
+      "label": "Federal Highway Administration, Historic Bluff Country Scenic Byway (archived)",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/2240"
     },
     {
       "label": "Wikipedia, Forestville Mystery Cave State Park",
       "url": "https://en.wikipedia.org/wiki/Forestville_Mystery_Cave_State_Park"
+    },
+    {
+      "label": "Wikipedia, Preston Overlook",
+      "url": "https://en.wikipedia.org/wiki/Preston_Overlook"
+    },
+    {
+      "label": "Wikipedia, Lanesboro, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Lanesboro%2C_Minnesota"
+    },
+    {
+      "label": "Wikipedia, Commonweal Theatre Company",
+      "url": "https://en.wikipedia.org/wiki/Commonweal_Theatre_Company"
     }
   ],
   "reviewed": false

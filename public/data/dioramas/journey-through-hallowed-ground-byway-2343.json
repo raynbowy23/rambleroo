@@ -1,0 +1,468 @@
+{
+  "authored": false,
+  "bywayId": "journey-through-hallowed-ground-byway-2343",
+  "title": "Journey Through Hallowed Ground Byway",
+  "longitude": -77.7889,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -77.18974,
+        39.89249
+      ],
+      [
+        -77.3173,
+        39.69727
+      ],
+      [
+        -77.4167,
+        39.63037
+      ],
+      [
+        -77.43574,
+        39.58067
+      ],
+      [
+        -77.42237,
+        39.529
+      ],
+      [
+        -77.39893,
+        39.49909
+      ],
+      [
+        -77.39971,
+        39.4538
+      ],
+      [
+        -77.45158,
+        39.38987
+      ],
+      [
+        -77.50455,
+        39.36546
+      ],
+      [
+        -77.51573,
+        39.30819
+      ],
+      [
+        -77.54831,
+        39.27099
+      ],
+      [
+        -77.54358,
+        39.25668
+      ],
+      [
+        -77.52997,
+        39.24912
+      ],
+      [
+        -77.53616,
+        39.16369
+      ],
+      [
+        -77.57,
+        39.10453
+      ],
+      [
+        -77.60261,
+        39.08166
+      ],
+      [
+        -77.62265,
+        39.04381
+      ],
+      [
+        -77.61355,
+        39.01442
+      ],
+      [
+        -77.63841,
+        38.85317
+      ],
+      [
+        -77.63444,
+        38.82302
+      ],
+      [
+        -77.66115,
+        38.8032
+      ],
+      [
+        -77.66554,
+        38.7826
+      ],
+      [
+        -77.72446,
+        38.7662
+      ],
+      [
+        -77.79083,
+        38.72793
+      ],
+      [
+        -77.79561,
+        38.71389
+      ],
+      [
+        -77.78708,
+        38.70281
+      ],
+      [
+        -77.78727,
+        38.67846
+      ],
+      [
+        -77.80487,
+        38.6448
+      ],
+      [
+        -77.8007,
+        38.54846
+      ],
+      [
+        -77.80953,
+        38.53172
+      ],
+      [
+        -77.94272,
+        38.48762
+      ],
+      [
+        -77.99357,
+        38.47997
+      ],
+      [
+        -78.00829,
+        38.44634
+      ],
+      [
+        -78.09531,
+        38.3793
+      ],
+      [
+        -78.12685,
+        38.33627
+      ],
+      [
+        -78.13973,
+        38.28164
+      ],
+      [
+        -78.1111,
+        38.24511
+      ],
+      [
+        -78.18824,
+        38.22224
+      ],
+      [
+        -78.21983,
+        38.22405
+      ],
+      [
+        -78.21063,
+        38.17442
+      ],
+      [
+        -78.18963,
+        38.14227
+      ],
+      [
+        -78.25113,
+        38.10941
+      ],
+      [
+        -78.35759,
+        38.02348
+      ],
+      [
+        -78.39657,
+        38.01396
+      ],
+      [
+        -78.40614,
+        37.97027
+      ],
+      [
+        -78.44299,
+        37.98935
+      ],
+      [
+        -78.46051,
+        38.00852
+      ],
+      [
+        -78.48091,
+        38.00378
+      ],
+      [
+        -78.47379,
+        38.03145
+      ],
+      [
+        -78.44786,
+        38.03908
+      ],
+      [
+        -78.37135,
+        38.11283
+      ],
+      [
+        -78.33505,
+        38.12214
+      ],
+      [
+        -78.30587,
+        38.16144
+      ],
+      [
+        -78.25426,
+        38.18543
+      ],
+      [
+        -78.23167,
+        38.22496
+      ],
+      [
+        -78.21983,
+        38.22405
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Catoctin Furnace",
+      "model": "town-blocks",
+      "at": 0.13078717908559254,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Point of Rocks",
+      "model": "town-blocks",
+      "at": 0.24947649015319553,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Gordonsville",
+      "model": "town-blocks",
+      "at": 0.763158975747406,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Gettysburg",
+      "at": 0.025198019801980196,
+      "landmark": ""
+    },
+    {
+      "name": "Thurmont",
+      "at": 0.11445544554455446,
+      "landmark": ""
+    },
+    {
+      "name": "Frederick",
+      "at": 0.18178217821782178,
+      "landmark": ""
+    },
+    {
+      "name": "Point of Rocks",
+      "at": 0.2495049504950495,
+      "landmark": "Point of Rocks"
+    },
+    {
+      "name": "Leesburg",
+      "at": 0.31326732673267327,
+      "landmark": ""
+    },
+    {
+      "name": "Haymarket",
+      "at": 0.4234158415841584,
+      "landmark": ""
+    },
+    {
+      "name": "Opal",
+      "at": 0.5172277227722772,
+      "landmark": ""
+    },
+    {
+      "name": "Culpeper",
+      "at": 0.6050990099009901,
+      "landmark": ""
+    },
+    {
+      "name": "Madison Mills",
+      "at": 0.6845049504950496,
+      "landmark": ""
+    },
+    {
+      "name": "Gordonsville",
+      "at": 0.7632178217821781,
+      "landmark": "Gordonsville"
+    },
+    {
+      "name": "Everettsville",
+      "at": 0.8298514851485148,
+      "landmark": ""
+    },
+    {
+      "name": "Pantops",
+      "at": 0.8996039603960396,
+      "landmark": ""
+    },
+    {
+      "name": "Barboursville",
+      "at": 0.9705445544554456,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/journey-through-hallowed-ground-byway-2343.json",
+    "public/data/strips/journey-through-hallowed-ground-byway-2343.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

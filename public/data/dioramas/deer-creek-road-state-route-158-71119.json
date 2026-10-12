@@ -1,0 +1,248 @@
+{
+  "authored": false,
+  "bywayId": "deer-creek-road-state-route-158-71119",
+  "title": "Deer Creek Road (State Route 158)",
+  "longitude": -115.6049,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -115.603,
+        36.2643
+      ],
+      [
+        -115.6008,
+        36.2657
+      ],
+      [
+        -115.5999,
+        36.2682
+      ],
+      [
+        -115.5911,
+        36.275
+      ],
+      [
+        -115.5903,
+        36.2775
+      ],
+      [
+        -115.5921,
+        36.2843
+      ],
+      [
+        -115.594,
+        36.2868
+      ],
+      [
+        -115.5996,
+        36.2898
+      ],
+      [
+        -115.6087,
+        36.2989
+      ],
+      [
+        -115.6101,
+        36.3024
+      ],
+      [
+        -115.6088,
+        36.304
+      ],
+      [
+        -115.6013,
+        36.3053
+      ],
+      [
+        -115.6,
+        36.307
+      ],
+      [
+        -115.6036,
+        36.3088
+      ],
+      [
+        -115.609,
+        36.3081
+      ],
+      [
+        -115.6138,
+        36.3094
+      ],
+      [
+        -115.6216,
+        36.3136
+      ],
+      [
+        -115.6197,
+        36.321
+      ],
+      [
+        -115.6235,
+        36.327
+      ],
+      [
+        -115.6304,
+        36.3339
+      ],
+      [
+        -115.6293,
+        36.3378
+      ],
+      [
+        -115.6403,
+        36.343
+      ],
+      [
+        -115.6525,
+        36.3406
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Desert View Overlook",
+      "model": "overlook-pullout",
+      "at": 0.8358776906274646,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [],
+  "sources": [
+    "content/stories/deer-creek-road-state-route-158-71119.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

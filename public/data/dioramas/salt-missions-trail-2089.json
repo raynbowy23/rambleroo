@@ -1,0 +1,426 @@
+{
+  "authored": false,
+  "bywayId": "salt-missions-trail-2089",
+  "title": "Salt Missions Trail",
+  "longitude": -106.2789,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -106.41697,
+        34.42768
+      ],
+      [
+        -106.40891,
+        34.42776
+      ],
+      [
+        -106.39723,
+        34.43832
+      ],
+      [
+        -106.38016,
+        34.43861
+      ],
+      [
+        -106.33924,
+        34.4519
+      ],
+      [
+        -106.29741,
+        34.47831
+      ],
+      [
+        -106.28372,
+        34.50008
+      ],
+      [
+        -106.22936,
+        34.5262
+      ],
+      [
+        -106.17266,
+        34.54278
+      ],
+      [
+        -106.07203,
+        34.60305
+      ],
+      [
+        -106.05924,
+        34.60134
+      ],
+      [
+        -106.0612,
+        34.73505
+      ],
+      [
+        -106.05558,
+        34.75404
+      ],
+      [
+        -106.05027,
+        34.99411
+      ],
+      [
+        -106.0444,
+        35.00847
+      ],
+      [
+        -106.0808,
+        35.01873
+      ],
+      [
+        -106.3215,
+        35.11512
+      ],
+      [
+        -106.3662,
+        35.09894
+      ],
+      [
+        -106.38803,
+        35.08064
+      ],
+      [
+        -106.37842,
+        35.05477
+      ],
+      [
+        -106.38184,
+        35.03589
+      ],
+      [
+        -106.35457,
+        35.03232
+      ],
+      [
+        -106.35127,
+        35.02076
+      ],
+      [
+        -106.33664,
+        35.01304
+      ],
+      [
+        -106.33537,
+        34.99852
+      ],
+      [
+        -106.32553,
+        34.98011
+      ],
+      [
+        -106.28795,
+        34.96473
+      ],
+      [
+        -106.29118,
+        34.9303
+      ],
+      [
+        -106.28604,
+        34.91802
+      ],
+      [
+        -106.26547,
+        34.90186
+      ],
+      [
+        -106.23701,
+        34.89676
+      ],
+      [
+        -106.2224,
+        34.88256
+      ],
+      [
+        -106.21764,
+        34.86118
+      ],
+      [
+        -106.21897,
+        34.82774
+      ],
+      [
+        -106.23663,
+        34.79755
+      ],
+      [
+        -106.25362,
+        34.79726
+      ],
+      [
+        -106.25488,
+        34.78476
+      ],
+      [
+        -106.28727,
+        34.75519
+      ],
+      [
+        -106.28727,
+        34.74254
+      ],
+      [
+        -106.29944,
+        34.72003
+      ],
+      [
+        -106.2993,
+        34.70027
+      ],
+      [
+        -106.31511,
+        34.68375
+      ],
+      [
+        -106.31601,
+        34.66711
+      ],
+      [
+        -106.32635,
+        34.65411
+      ],
+      [
+        -106.34484,
+        34.64667
+      ],
+      [
+        -106.32816,
+        34.63306
+      ],
+      [
+        -106.30262,
+        34.62465
+      ],
+      [
+        -106.27551,
+        34.59475
+      ],
+      [
+        -106.24105,
+        34.59405
+      ],
+      [
+        -106.24024,
+        34.50801
+      ],
+      [
+        -106.19105,
+        34.50679
+      ],
+      [
+        -106.19101,
+        34.39217
+      ],
+      [
+        -106.15664,
+        34.39027
+      ],
+      [
+        -106.15539,
+        34.34798
+      ],
+      [
+        -106.10398,
+        34.34646
+      ],
+      [
+        -106.102,
+        34.26354
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Estancia",
+      "model": "town-blocks",
+      "at": 0.23251767951164162,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Tijeras",
+      "model": "town-blocks",
+      "at": 0.48004919260401624,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Manzano",
+      "model": "town-blocks",
+      "at": 0.752583432281995,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Mountainair",
+      "at": 0.08122555410691004,
+      "landmark": ""
+    },
+    {
+      "name": "Estancia",
+      "at": 0.23246414602346802,
+      "landmark": "Estancia"
+    },
+    {
+      "name": "Moriarty",
+      "at": 0.33820078226857886,
+      "landmark": ""
+    },
+    {
+      "name": "Tijeras",
+      "at": 0.47992177314211215,
+      "landmark": "Tijeras"
+    },
+    {
+      "name": "Chilili",
+      "at": 0.6129074315514993,
+      "landmark": ""
+    },
+    {
+      "name": "Manzano",
+      "at": 0.7524119947848761,
+      "landmark": "Manzano"
+    }
+  ],
+  "sources": [
+    "content/stories/salt-missions-trail-2089.json",
+    "public/data/strips/salt-missions-trail-2089.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

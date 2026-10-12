@@ -1,20 +1,21 @@
 {
   "id": "wichita-mountains-byway-6334",
-  "tagline": "Out of Apache to granite mountains half a billion years old.",
+  "tagline": "Prairie roads link a gold camp, bison country and red cobblestones",
   "motifs": [
     "rolling-ridges",
     "mining-town"
   ],
   "intro": [
-    "From Apache the byway runs west on Highway 19 and then branches, north on Highway 58 to Carnegie and on to Mountain View, south to Medicine Park, across rocky lowlands, mixed-grass prairie and cross timbers. Highway 49 carries it on west through the Wichita Mountains Wildlife Refuge.",
-    "The refuge has been kept since 1901, the oldest in the Fish and Wildlife Service system, on mountains about 500 million years old. The bison, elk and longhorn cattle on its prairies were all brought in after it opened, the elk from Jackson Hole in 1911."
+    "The Wichita Mountains Byway winds through rocky lowlands, mixed-grass prairie and cross timbers, linking historic communities with the Wichita Mountains Wildlife Refuge. The Federal Highway Administration identifies it as a National Scenic Byway and allows at least two hours. Oklahoma’s tourism department emphasizes wildlife viewing, including bison, along a route through the refuge. TravelOK describes wildflowers in the warmer months and autumn color in both trees and grasses. Within the refuge, steep, rocky mountains rise 800 to 1,000 feet above the surrounding prairie.",
+    "The protected landscape took shape in stages. A forest preserve was proclaimed in 1901, and Theodore Roosevelt established a game preserve for bison in 1905. Fifteen bison arrived from the Bronx Zoo in 1907. In 1936, the forest designation ended, administration passed to the Bureau of Biological Survey, and the land became the Wichita Mountains Wildlife Refuge.",
+    "The byway branches west of Apache. Highway 19 reaches Highway 58, which runs north to Carnegie and south toward Medicine Park. On the northern circuit, Highway 9 extends west from Carnegie to Mountain View, while Highway 115 leads south toward Highway 49. Meers stands on Highway 115 in the foothills. Highway 49 crosses the refuge, reaching Medicine Park and continuing east to I-44."
   ],
   "moments": [
     {
       "title": "Meers",
       "kind": "town",
       "scene": "prairie",
-      "text": "Of the 1901 gold camp only the store remains. It served as the post office until 1989, and in 1985 the Oklahoma Geological Survey put a seismograph in it.",
+      "text": "Meers began in 1901 as a gold-prospecting town, named for mine operator Andrew J. Meers. Its surviving original structure is the Meers Store & Restaurant. The store served as the area post office from March 1902 until February 1989. In 1978 it entered the National Register as Meers Mining Camp, recognizing the surviving remnant of the gold-rush community. The Oklahoma Geological Survey installed a seismograph in the store in 1985 to monitor seismic activity. The community lies at the Meers Fault, a fracture in the ground with northwestern and southeastern sections.",
       "at": [
         -98.579,
         34.783
@@ -27,7 +28,8 @@
       "title": "Mount Scott",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "A three-mile paved road climbs to the 2,464-foot top. Artillery fire from Fort Sill nearby is often heard across the refuge and sometimes taken for thunder.",
+      "text": "A paved road winds three miles up Mount Scott to a summit 2,464 feet above sea level. The climb includes steep grades, sharp turns and scenic pullouts. From the mountain’s western side, the view includes Elk Mountain and Mount Sheridan. North of Mount Scott, Blue Canyon Wind Farm’s turbines are visible from the access road. The peak is named for General Winfield Scott. The refuge’s mountains rise 800 to 1,000 feet above the surrounding prairie, but their slopes are steep and rocky. The climb ends at a parking area on top of the mountain.",
+      "notice": "Wind turbines at Blue Canyon Wind Farm are visible north of Mount Scott from the access road.",
       "at": [
         -98.532,
         34.745
@@ -40,7 +42,8 @@
       "title": "Medicine Park",
       "kind": "town",
       "scene": "town",
-      "text": "Many of its old buildings are the Wichitas' own red granite cobblestones, but the resort began in 1908 as a surplus Army tent serving hot meals by a dammed swimming hole.",
+      "text": "Red granite cobblestones give many of Medicine Park’s original buildings their material character. Elmer Thomas, then an Oklahoma state senator, founded the resort town on July 4, 1908. Its first meal service occupied a surplus Army tent with a wooden floor. Two dams on Medicine Creek formed Bath Lake Swimming Hole, with a small number of campsites alongside the early resort. Visitors came from Oklahoma and North Texas; two inns followed, the Outside Inn and Apache Inn. The Dance Hall later drew Bob Wills and The Texas Playboys as regular performers from 1929 through the late 1930s.",
+      "notice": "Many original buildings use the Wichita Mountains’ naturally formed red granite cobblestones.",
       "at": [
         -98.453,
         34.724
@@ -49,28 +52,28 @@
   ],
   "sources": [
     {
-      "label": "TravelOK, Wichita Mountains Scenic Byway",
+      "label": "Oklahoma Tourism & Recreation Department, Wichita Mountains Scenic Byway",
       "url": "https://www.travelok.com/listings/view.profile/id.14854"
     },
     {
-      "label": "TravelOK, Oklahoma's Scenic Byways",
-      "url": "https://www.travelok.com/articles/oklahomasscenicbyways"
+      "label": "Wikipedia, Meers, Oklahoma",
+      "url": "https://en.wikipedia.org/wiki/Meers%2C_Oklahoma"
+    },
+    {
+      "label": "Wikipedia, Medicine Park, Oklahoma",
+      "url": "https://en.wikipedia.org/wiki/Medicine_Park%2C_Oklahoma"
+    },
+    {
+      "label": "Federal Highway Administration, Wichita Mountains Byway",
+      "url": "https://web.archive.org/web/2016/https://www.fhwa.dot.gov/byways/byways/6334"
     },
     {
       "label": "Wikipedia, Wichita Mountains Wildlife Refuge",
       "url": "https://en.wikipedia.org/wiki/Wichita_Mountains_Wildlife_Refuge"
     },
     {
-      "label": "Wikipedia, Meers, Oklahoma",
-      "url": "https://en.wikipedia.org/wiki/Meers,_Oklahoma"
-    },
-    {
       "label": "Wikipedia, Mount Scott (Oklahoma)",
-      "url": "https://en.wikipedia.org/wiki/Mount_Scott_(Oklahoma)"
-    },
-    {
-      "label": "Wikipedia, Medicine Park, Oklahoma",
-      "url": "https://en.wikipedia.org/wiki/Medicine_Park,_Oklahoma"
+      "url": "https://en.wikipedia.org/wiki/Mount_Scott_%28Oklahoma%29"
     }
   ],
   "reviewed": false

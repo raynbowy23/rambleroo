@@ -1,0 +1,348 @@
+{
+  "authored": false,
+  "bywayId": "steese-highway-12394",
+  "title": "Steese Highway",
+  "longitude": -145.9482,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -147.617,
+        64.9595
+      ],
+      [
+        -147.54469,
+        64.9773
+      ],
+      [
+        -147.52467,
+        65.00028
+      ],
+      [
+        -147.48708,
+        65.01291
+      ],
+      [
+        -147.47201,
+        65.02909
+      ],
+      [
+        -147.47652,
+        65.03428
+      ],
+      [
+        -147.43797,
+        65.04631
+      ],
+      [
+        -147.47926,
+        65.06209
+      ],
+      [
+        -147.4389,
+        65.07505
+      ],
+      [
+        -147.42175,
+        65.09107
+      ],
+      [
+        -147.50282,
+        65.11654
+      ],
+      [
+        -147.49715,
+        65.12859
+      ],
+      [
+        -147.33682,
+        65.15626
+      ],
+      [
+        -147.25453,
+        65.18811
+      ],
+      [
+        -147.25648,
+        65.19776
+      ],
+      [
+        -147.17448,
+        65.21934
+      ],
+      [
+        -147.11967,
+        65.22598
+      ],
+      [
+        -146.98309,
+        65.21869
+      ],
+      [
+        -146.82494,
+        65.23955
+      ],
+      [
+        -146.77821,
+        65.25836
+      ],
+      [
+        -146.68571,
+        65.27582
+      ],
+      [
+        -146.59811,
+        65.27637
+      ],
+      [
+        -146.52737,
+        65.29349
+      ],
+      [
+        -146.48144,
+        65.28976
+      ],
+      [
+        -146.44632,
+        65.29832
+      ],
+      [
+        -146.38263,
+        65.29037
+      ],
+      [
+        -146.32272,
+        65.30224
+      ],
+      [
+        -146.25777,
+        65.3416
+      ],
+      [
+        -146.09222,
+        65.3577
+      ],
+      [
+        -145.96226,
+        65.4046
+      ],
+      [
+        -145.87534,
+        65.41102
+      ],
+      [
+        -145.75125,
+        65.40462
+      ],
+      [
+        -145.72227,
+        65.39413
+      ],
+      [
+        -145.59029,
+        65.41489
+      ],
+      [
+        -145.53377,
+        65.43883
+      ],
+      [
+        -145.43204,
+        65.45699
+      ],
+      [
+        -145.43469,
+        65.46728
+      ],
+      [
+        -145.42125,
+        65.47984
+      ],
+      [
+        -145.39531,
+        65.48663
+      ],
+      [
+        -145.38942,
+        65.50101
+      ],
+      [
+        -145.36803,
+        65.51167
+      ],
+      [
+        -145.23213,
+        65.52627
+      ],
+      [
+        -145.17952,
+        65.54983
+      ],
+      [
+        -144.81168,
+        65.57119
+      ],
+      [
+        -144.72273,
+        65.5904
+      ],
+      [
+        -144.50119,
+        65.60874
+      ],
+      [
+        -144.41466,
+        65.64932
+      ],
+      [
+        -144.41283,
+        65.67091
+      ],
+      [
+        -144.3829,
+        65.70441
+      ],
+      [
+        -144.27467,
+        65.71461
+      ],
+      [
+        -144.24931,
+        65.73595
+      ],
+      [
+        -144.18507,
+        65.7552
+      ],
+      [
+        -144.16759,
+        65.77429
+      ],
+      [
+        -144.08391,
+        65.78989
+      ],
+      [
+        -144.08839,
+        65.80106
+      ],
+      [
+        -144.06772,
+        65.8251
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Gold Dredge Number 8",
+      "model": "false-front-town",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Central",
+      "model": "false-front-town",
+      "at": 0.7810607808678036,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Central",
+      "model": "town-blocks",
+      "at": 0.7810607808678036,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Circle",
+      "model": "town-blocks",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ledge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Goldstream",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Chatanika",
+      "at": 0.10960334029227559,
+      "landmark": ""
+    },
+    {
+      "name": "Circle",
+      "at": 1,
+      "landmark": "Circle"
+    }
+  ],
+  "sources": [
+    "content/stories/steese-highway-12394.json",
+    "public/data/strips/steese-highway-12394.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

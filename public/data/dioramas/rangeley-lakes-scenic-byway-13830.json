@@ -1,0 +1,411 @@
+{
+  "authored": false,
+  "bywayId": "rangeley-lakes-scenic-byway-13830",
+  "title": "Rangeley Lakes Scenic Byway",
+  "longitude": -70.7428,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -70.64783,
+        44.79195
+      ],
+      [
+        -70.68433,
+        44.81376
+      ],
+      [
+        -70.6931,
+        44.81195
+      ],
+      [
+        -70.69714,
+        44.81513
+      ],
+      [
+        -70.69742,
+        44.81888
+      ],
+      [
+        -70.70616,
+        44.82354
+      ],
+      [
+        -70.70621,
+        44.8258
+      ],
+      [
+        -70.70172,
+        44.83009
+      ],
+      [
+        -70.70951,
+        44.83547
+      ],
+      [
+        -70.71013,
+        44.83845
+      ],
+      [
+        -70.7021,
+        44.84881
+      ],
+      [
+        -70.70373,
+        44.85478
+      ],
+      [
+        -70.70157,
+        44.86205
+      ],
+      [
+        -70.70369,
+        44.86686
+      ],
+      [
+        -70.71218,
+        44.87335
+      ],
+      [
+        -70.71555,
+        44.88465
+      ],
+      [
+        -70.71232,
+        44.88945
+      ],
+      [
+        -70.71259,
+        44.89625
+      ],
+      [
+        -70.71726,
+        44.90267
+      ],
+      [
+        -70.72321,
+        44.90251
+      ],
+      [
+        -70.72639,
+        44.9058
+      ],
+      [
+        -70.73567,
+        44.90753
+      ],
+      [
+        -70.74247,
+        44.91158
+      ],
+      [
+        -70.75318,
+        44.92541
+      ],
+      [
+        -70.74978,
+        44.93429
+      ],
+      [
+        -70.75636,
+        44.94996
+      ],
+      [
+        -70.76162,
+        44.95703
+      ],
+      [
+        -70.7726,
+        44.96606
+      ],
+      [
+        -70.76591,
+        44.96778
+      ],
+      [
+        -70.75607,
+        44.96679
+      ],
+      [
+        -70.73363,
+        44.97631
+      ],
+      [
+        -70.72608,
+        44.97715
+      ],
+      [
+        -70.71486,
+        44.97641
+      ],
+      [
+        -70.70909,
+        44.97106
+      ],
+      [
+        -70.69475,
+        44.96808
+      ],
+      [
+        -70.64444,
+        44.96629
+      ],
+      [
+        -70.64015,
+        44.96292
+      ],
+      [
+        -70.63725,
+        44.94881
+      ],
+      [
+        -70.63253,
+        44.93853
+      ],
+      [
+        -70.61962,
+        44.93042
+      ],
+      [
+        -70.60999,
+        44.92099
+      ],
+      [
+        -70.60911,
+        44.90849
+      ],
+      [
+        -70.61142,
+        44.90092
+      ],
+      [
+        -70.605,
+        44.89332
+      ],
+      [
+        -70.59546,
+        44.88893
+      ],
+      [
+        -70.58491,
+        44.88889
+      ],
+      [
+        -70.54777,
+        44.89582
+      ],
+      [
+        -70.54064,
+        44.89267
+      ],
+      [
+        -70.54151,
+        44.88807
+      ],
+      [
+        -70.53827,
+        44.88626
+      ],
+      [
+        -70.53807,
+        44.88283
+      ],
+      [
+        -70.53081,
+        44.8782
+      ],
+      [
+        -70.52278,
+        44.86769
+      ],
+      [
+        -70.52189,
+        44.86549
+      ],
+      [
+        -70.52475,
+        44.86332
+      ],
+      [
+        -70.51323,
+        44.85821
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Height of Land",
+      "model": "alpine-lake",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Rangeley",
+      "model": "town-blocks",
+      "at": 0.49225065216147756,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Smalls Falls",
+      "model": "cove-waterfall",
+      "at": 0.9954460895878046,
+      "offset": "roadside",
+      "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Rangeley Plantation",
+      "at": 0.2613636363636363,
+      "landmark": ""
+    },
+    {
+      "name": "Macy",
+      "at": 0.3701704545454545,
+      "landmark": ""
+    },
+    {
+      "name": "Rangeley",
+      "at": 0.6448863636363635,
+      "landmark": "Rangeley"
+    }
+  ],
+  "sources": [
+    "content/stories/rangeley-lakes-scenic-byway-13830.json",
+    "public/data/strips/rangeley-lakes-scenic-byway-13830.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

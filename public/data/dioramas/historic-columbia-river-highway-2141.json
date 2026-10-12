@@ -1,0 +1,423 @@
+{
+  "authored": false,
+  "bywayId": "historic-columbia-river-highway-2141",
+  "title": "Historic Columbia River Highway",
+  "longitude": -122.2129,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "switchbacks",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -122.3815,
+        45.54445
+      ],
+      [
+        -122.38136,
+        45.54196
+      ],
+      [
+        -122.37513,
+        45.53848
+      ],
+      [
+        -122.37118,
+        45.53464
+      ],
+      [
+        -122.37192,
+        45.53231
+      ],
+      [
+        -122.37099,
+        45.52496
+      ],
+      [
+        -122.36864,
+        45.52277
+      ],
+      [
+        -122.36774,
+        45.51981
+      ],
+      [
+        -122.37081,
+        45.51413
+      ],
+      [
+        -122.3675,
+        45.51241
+      ],
+      [
+        -122.35612,
+        45.51772
+      ],
+      [
+        -122.34763,
+        45.51844
+      ],
+      [
+        -122.34311,
+        45.51624
+      ],
+      [
+        -122.33687,
+        45.51893
+      ],
+      [
+        -122.32964,
+        45.51894
+      ],
+      [
+        -122.31783,
+        45.52305
+      ],
+      [
+        -122.31465,
+        45.52572
+      ],
+      [
+        -122.30539,
+        45.52716
+      ],
+      [
+        -122.28883,
+        45.5325
+      ],
+      [
+        -122.2833,
+        45.53194
+      ],
+      [
+        -122.27723,
+        45.52974
+      ],
+      [
+        -122.26555,
+        45.53329
+      ],
+      [
+        -122.26055,
+        45.53327
+      ],
+      [
+        -122.25536,
+        45.53141
+      ],
+      [
+        -122.25092,
+        45.53206
+      ],
+      [
+        -122.24937,
+        45.53319
+      ],
+      [
+        -122.24797,
+        45.53733
+      ],
+      [
+        -122.24474,
+        45.53857
+      ],
+      [
+        -122.24453,
+        45.53987
+      ],
+      [
+        -122.24375,
+        45.53828
+      ],
+      [
+        -122.24075,
+        45.53895
+      ],
+      [
+        -122.23465,
+        45.53276
+      ],
+      [
+        -122.23317,
+        45.53405
+      ],
+      [
+        -122.22999,
+        45.53414
+      ],
+      [
+        -122.2315,
+        45.53461
+      ],
+      [
+        -122.23011,
+        45.53516
+      ],
+      [
+        -122.23264,
+        45.53595
+      ],
+      [
+        -122.21104,
+        45.54125
+      ],
+      [
+        -122.20584,
+        45.54152
+      ],
+      [
+        -122.19652,
+        45.54799
+      ],
+      [
+        -122.17993,
+        45.55423
+      ],
+      [
+        -122.1715,
+        45.56133
+      ],
+      [
+        -122.15971,
+        45.5681
+      ],
+      [
+        -122.15639,
+        45.57126
+      ],
+      [
+        -122.14256,
+        45.57541
+      ],
+      [
+        -122.12715,
+        45.57553
+      ],
+      [
+        -122.10421,
+        45.5805
+      ],
+      [
+        -122.07559,
+        45.58948
+      ],
+      [
+        -122.06407,
+        45.59082
+      ],
+      [
+        -122.05153,
+        45.59634
+      ],
+      [
+        -122.04828,
+        45.59944
+      ],
+      [
+        -122.04369,
+        45.60065
+      ],
+      [
+        -122.03726,
+        45.60539
+      ],
+      [
+        -122.02969,
+        45.60905
+      ],
+      [
+        -122.01395,
+        45.61234
+      ],
+      [
+        -122.00404,
+        45.61255
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Vista House, Crown Point",
+      "model": "farmhouse",
+      "at": 0.40184042626207284,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Horsetail Falls",
+      "model": "cove-waterfall",
+      "at": 0.8473841745457436,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Rowena Loops",
+      "model": "switchback",
+      "at": 0.8473841745457436,
+      "offset": "roadside",
+      "notes": "Story moment 3; roadside. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Troutdale",
+      "at": 0.05103734439834025,
+      "landmark": ""
+    },
+    {
+      "name": "Springdale",
+      "at": 0.1954356846473029,
+      "landmark": ""
+    },
+    {
+      "name": "Latourell",
+      "at": 0.491701244813278,
+      "landmark": ""
+    },
+    {
+      "name": "Dodson",
+      "at": 0.9307053941908713,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/historic-columbia-river-highway-2141.json",
+    "public/data/strips/historic-columbia-river-highway-2141.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

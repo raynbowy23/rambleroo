@@ -1,0 +1,392 @@
+{
+  "authored": false,
+  "bywayId": "mirror-lake-scenic-byway-wy-section-2174",
+  "title": "Mirror Lake Scenic Byway - WY Section",
+  "longitude": -110.8415,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -110.95243,
+        41.26224
+      ],
+      [
+        -110.9512,
+        41.2621
+      ],
+      [
+        -110.94834,
+        41.26082
+      ],
+      [
+        -110.945,
+        41.25753
+      ],
+      [
+        -110.94095,
+        41.25132
+      ],
+      [
+        -110.93832,
+        41.2462
+      ],
+      [
+        -110.9289,
+        41.23249
+      ],
+      [
+        -110.92005,
+        41.22362
+      ],
+      [
+        -110.91374,
+        41.21821
+      ],
+      [
+        -110.90044,
+        41.20501
+      ],
+      [
+        -110.89849,
+        41.20171
+      ],
+      [
+        -110.89581,
+        41.19359
+      ],
+      [
+        -110.89301,
+        41.18904
+      ],
+      [
+        -110.88827,
+        41.17995
+      ],
+      [
+        -110.87899,
+        41.16864
+      ],
+      [
+        -110.87642,
+        41.16687
+      ],
+      [
+        -110.87425,
+        41.1663
+      ],
+      [
+        -110.86919,
+        41.16554
+      ],
+      [
+        -110.86209,
+        41.16178
+      ],
+      [
+        -110.85277,
+        41.15856
+      ],
+      [
+        -110.8512,
+        41.15779
+      ],
+      [
+        -110.84911,
+        41.15616
+      ],
+      [
+        -110.84697,
+        41.15395
+      ],
+      [
+        -110.84562,
+        41.15191
+      ],
+      [
+        -110.84444,
+        41.14921
+      ],
+      [
+        -110.84415,
+        41.14782
+      ],
+      [
+        -110.84407,
+        41.14295
+      ],
+      [
+        -110.84365,
+        41.14174
+      ],
+      [
+        -110.841,
+        41.13753
+      ],
+      [
+        -110.8406,
+        41.13518
+      ],
+      [
+        -110.84232,
+        41.12759
+      ],
+      [
+        -110.84346,
+        41.12538
+      ],
+      [
+        -110.84402,
+        41.12344
+      ],
+      [
+        -110.84303,
+        41.11202
+      ],
+      [
+        -110.8429,
+        41.08329
+      ],
+      [
+        -110.8434,
+        41.08101
+      ],
+      [
+        -110.84958,
+        41.06838
+      ],
+      [
+        -110.85845,
+        41.05488
+      ],
+      [
+        -110.86322,
+        41.0479
+      ],
+      [
+        -110.86427,
+        41.04682
+      ],
+      [
+        -110.86613,
+        41.04593
+      ],
+      [
+        -110.86792,
+        41.04561
+      ],
+      [
+        -110.87383,
+        41.04634
+      ],
+      [
+        -110.88707,
+        41.0463
+      ],
+      [
+        -110.88852,
+        41.0459
+      ],
+      [
+        -110.89013,
+        41.04493
+      ],
+      [
+        -110.89104,
+        41.0439
+      ],
+      [
+        -110.89159,
+        41.04248
+      ],
+      [
+        -110.89156,
+        41.04134
+      ],
+      [
+        -110.88963,
+        41.03423
+      ],
+      [
+        -110.8873,
+        41.0258
+      ],
+      [
+        -110.88661,
+        41.02422
+      ],
+      [
+        -110.88173,
+        41.01838
+      ],
+      [
+        -110.87822,
+        41.01559
+      ],
+      [
+        -110.86712,
+        41.00123
+      ],
+      [
+        -110.86511,
+        40.99773
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Evanston",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "conifer",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "conifer",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Evanston",
+      "at": 0,
+      "landmark": "Evanston"
+    },
+    {
+      "name": "Beartown",
+      "at": 0.42098214285714286,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/mirror-lake-scenic-byway-wy-section-2174.json",
+    "public/data/strips/mirror-lake-scenic-byway-wy-section-2174.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

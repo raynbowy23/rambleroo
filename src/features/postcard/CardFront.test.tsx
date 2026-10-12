@@ -94,6 +94,6 @@ it('uses town photos under the postcard credit rule and renders a car sticker', 
       pictureUrl="data:image/png;base64,cGljdHVyZQ=="
     />,
   )
-  expect(container.querySelector('image')?.getAttribute('href')).toBe(photo.file)
+  expect(container.querySelector('image')?.getAttribute('href')).toBe('https://photos.rambleroo.app/town.jpg')
   expect(container.querySelector('[data-vehicle="picture"] image')?.getAttribute('href')).toMatch(/^data:image\/png/)
 })

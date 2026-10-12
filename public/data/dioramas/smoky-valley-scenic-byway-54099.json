@@ -1,0 +1,339 @@
+{
+  "authored": false,
+  "bywayId": "smoky-valley-scenic-byway-54099",
+  "title": "Smoky Valley Scenic Byway",
+  "longitude": -99.834,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -99.89012,
+        39.0214
+      ],
+      [
+        -99.88994,
+        38.99544
+      ],
+      [
+        -99.89105,
+        38.95756
+      ],
+      [
+        -99.8916,
+        38.93239
+      ],
+      [
+        -99.89164,
+        38.89134
+      ],
+      [
+        -99.89358,
+        38.78004
+      ],
+      [
+        -99.89372,
+        38.77763
+      ],
+      [
+        -99.89398,
+        38.77634
+      ],
+      [
+        -99.89653,
+        38.7682
+      ],
+      [
+        -99.89725,
+        38.76364
+      ],
+      [
+        -99.90004,
+        38.63569
+      ],
+      [
+        -99.86586,
+        38.63908
+      ],
+      [
+        -99.86122,
+        38.63938
+      ],
+      [
+        -99.84252,
+        38.63932
+      ],
+      [
+        -99.80718,
+        38.63976
+      ],
+      [
+        -99.7343,
+        38.64012
+      ],
+      [
+        -99.73402,
+        38.65596
+      ],
+      [
+        -99.73284,
+        38.69273
+      ],
+      [
+        -99.73258,
+        38.69401
+      ],
+      [
+        -99.73195,
+        38.69513
+      ],
+      [
+        -99.7314,
+        38.6958
+      ],
+      [
+        -99.72924,
+        38.6976
+      ],
+      [
+        -99.72872,
+        38.6983
+      ],
+      [
+        -99.7282,
+        38.69942
+      ],
+      [
+        -99.72803,
+        38.70046
+      ],
+      [
+        -99.72736,
+        38.73966
+      ],
+      [
+        -99.72655,
+        38.74218
+      ],
+      [
+        -99.72727,
+        38.74469
+      ],
+      [
+        -99.72706,
+        38.75559
+      ],
+      [
+        -99.72672,
+        38.75669
+      ],
+      [
+        -99.72603,
+        38.75775
+      ],
+      [
+        -99.72127,
+        38.76274
+      ],
+      [
+        -99.72055,
+        38.76383
+      ],
+      [
+        -99.71876,
+        38.77043
+      ],
+      [
+        -99.71849,
+        38.77229
+      ],
+      [
+        -99.71995,
+        38.7781
+      ],
+      [
+        -99.72028,
+        38.77884
+      ],
+      [
+        -99.72166,
+        38.78074
+      ],
+      [
+        -99.72204,
+        38.79292
+      ],
+      [
+        -99.72649,
+        38.8023
+      ],
+      [
+        -99.72669,
+        38.80317
+      ],
+      [
+        -99.72656,
+        38.8127
+      ],
+      [
+        -99.72488,
+        38.8688
+      ],
+      [
+        -99.72504,
+        38.86929
+      ],
+      [
+        -99.72565,
+        38.87007
+      ],
+      [
+        -99.72634,
+        38.87052
+      ],
+      [
+        -99.7276,
+        38.87091
+      ],
+      [
+        -99.74005,
+        38.87094
+      ],
+      [
+        -99.74114,
+        38.87111
+      ],
+      [
+        -99.74203,
+        38.8715
+      ],
+      [
+        -99.74267,
+        38.87203
+      ],
+      [
+        -99.7431,
+        38.87264
+      ],
+      [
+        -99.74327,
+        38.8733
+      ],
+      [
+        -99.74288,
+        38.92622
+      ],
+      [
+        -99.74307,
+        38.95645
+      ],
+      [
+        -99.74218,
+        38.98474
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Wilcox School",
+      "model": "ledge",
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Cedar Bluff",
+      "model": "ledge",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Illustrative position in driving order."
+    },
+    {
+      "name": "Cedar Bluff",
+      "model": "alpine-lake",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; short walk. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "WaKeeney",
+      "at": 0,
+      "landmark": ""
+    },
+    {
+      "name": "Wilcox",
+      "at": 0.25495049504950495,
+      "landmark": ""
+    },
+    {
+      "name": "Brownell",
+      "at": 0.5792079207920792,
+      "landmark": ""
+    },
+    {
+      "name": "Ogallah",
+      "at": 0.9995049504950495,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/smoky-valley-scenic-byway-54099.json",
+    "public/data/strips/smoky-valley-scenic-byway-54099.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

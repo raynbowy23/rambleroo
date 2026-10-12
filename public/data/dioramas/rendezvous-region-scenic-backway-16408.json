@@ -1,0 +1,322 @@
+{
+  "authored": false,
+  "bywayId": "rendezvous-region-scenic-backway-16408",
+  "title": "Rendezvous Region Scenic Backway",
+  "longitude": -97.83,
+  "ground": "river-valley",
+  "palette": "river",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "valley-floor",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -98.14671,
+        48.90565
+      ],
+      [
+        -98.09363,
+        48.90609
+      ],
+      [
+        -98.0879,
+        48.90572
+      ],
+      [
+        -98.08117,
+        48.90767
+      ],
+      [
+        -98.0806,
+        48.90978
+      ],
+      [
+        -98.07924,
+        48.91086
+      ],
+      [
+        -98.07562,
+        48.91132
+      ],
+      [
+        -98.0733,
+        48.91313
+      ],
+      [
+        -98.06933,
+        48.91399
+      ],
+      [
+        -98.06621,
+        48.91547
+      ],
+      [
+        -98.05876,
+        48.91614
+      ],
+      [
+        -98.05156,
+        48.91828
+      ],
+      [
+        -98.04817,
+        48.91841
+      ],
+      [
+        -98.0411,
+        48.92011
+      ],
+      [
+        -98.03632,
+        48.91948
+      ],
+      [
+        -98.03393,
+        48.92008
+      ],
+      [
+        -97.9931,
+        48.92028
+      ],
+      [
+        -97.92351,
+        48.91982
+      ],
+      [
+        -97.91523,
+        48.92382
+      ],
+      [
+        -97.91242,
+        48.92128
+      ],
+      [
+        -97.91041,
+        48.92062
+      ],
+      [
+        -97.90938,
+        48.91856
+      ],
+      [
+        -97.90811,
+        48.91753
+      ],
+      [
+        -97.89895,
+        48.91542
+      ],
+      [
+        -97.89464,
+        48.91365
+      ],
+      [
+        -97.89463,
+        48.91038
+      ],
+      [
+        -97.89412,
+        48.9098
+      ],
+      [
+        -97.88181,
+        48.9033
+      ],
+      [
+        -97.86447,
+        48.88987
+      ],
+      [
+        -97.85119,
+        48.88158
+      ],
+      [
+        -97.8457,
+        48.87649
+      ],
+      [
+        -97.81823,
+        48.87641
+      ],
+      [
+        -97.81858,
+        48.84775
+      ],
+      [
+        -97.81584,
+        48.84755
+      ],
+      [
+        -97.81335,
+        48.8458
+      ],
+      [
+        -97.81101,
+        48.84313
+      ],
+      [
+        -97.80364,
+        48.83784
+      ],
+      [
+        -97.80253,
+        48.8365
+      ],
+      [
+        -97.80213,
+        48.83441
+      ],
+      [
+        -97.79668,
+        48.83382
+      ],
+      [
+        -97.79697,
+        48.81227
+      ],
+      [
+        -97.79642,
+        48.80431
+      ],
+      [
+        -97.77484,
+        48.80478
+      ],
+      [
+        -97.77372,
+        48.78987
+      ],
+      [
+        -97.75268,
+        48.79073
+      ],
+      [
+        -97.73052,
+        48.78995
+      ],
+      [
+        -97.72876,
+        48.77871
+      ],
+      [
+        -97.72645,
+        48.77707
+      ],
+      [
+        -97.72619,
+        48.77622
+      ],
+      [
+        -97.72646,
+        48.77545
+      ],
+      [
+        -97.7285,
+        48.77476
+      ],
+      [
+        -97.72845,
+        48.77326
+      ],
+      [
+        -97.68497,
+        48.77656
+      ],
+      [
+        -97.63947,
+        48.79207
+      ],
+      [
+        -97.63062,
+        48.79366
+      ],
+      [
+        -97.62242,
+        48.79391
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.2
+      ],
+      [
+        0.125,
+        0.218
+      ],
+      [
+        0.25,
+        0.26
+      ],
+      [
+        0.375,
+        0.302
+      ],
+      [
+        0.5,
+        0.32
+      ],
+      [
+        0.625,
+        0.302
+      ],
+      [
+        0.75,
+        0.26
+      ],
+      [
+        0.875,
+        0.218
+      ],
+      [
+        1,
+        0.2
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Pembina Gorge State Park",
+      "model": "ledge",
+      "at": 0.1420283977584132,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Walhalla",
+      "model": "town-blocks",
+      "at": 0.3290855407731188,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "river",
+      "at": 0.5,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1
+    }
+  ],
+  "towns": [
+    {
+      "name": "Walhalla",
+      "at": 0.3295731707317074,
+      "landmark": "Walhalla"
+    },
+    {
+      "name": "Cavalier",
+      "at": 1,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/rendezvous-region-scenic-backway-16408.json",
+    "public/data/strips/rendezvous-region-scenic-backway-16408.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

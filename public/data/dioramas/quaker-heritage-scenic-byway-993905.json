@@ -1,0 +1,431 @@
+{
+  "authored": false,
+  "bywayId": "quaker-heritage-scenic-byway-993905",
+  "title": "Quaker Heritage Scenic Byway",
+  "longitude": -84.0321,
+  "ground": "alpine-plateau",
+  "palette": "mountain",
+  "snowInWinter": true,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -83.86723,
+        39.46386
+      ],
+      [
+        -83.83691,
+        39.46592
+      ],
+      [
+        -83.83975,
+        39.47674
+      ],
+      [
+        -83.85965,
+        39.48102
+      ],
+      [
+        -83.84035,
+        39.48886
+      ],
+      [
+        -83.81536,
+        39.48713
+      ],
+      [
+        -83.81504,
+        39.497
+      ],
+      [
+        -83.78527,
+        39.49545
+      ],
+      [
+        -83.78659,
+        39.47625
+      ],
+      [
+        -83.80406,
+        39.46515
+      ],
+      [
+        -83.80895,
+        39.45912
+      ],
+      [
+        -83.82396,
+        39.44749
+      ],
+      [
+        -83.83012,
+        39.44545
+      ],
+      [
+        -83.8882,
+        39.44576
+      ],
+      [
+        -83.91092,
+        39.44285
+      ],
+      [
+        -83.91129,
+        39.45254
+      ],
+      [
+        -83.92303,
+        39.45427
+      ],
+      [
+        -83.92639,
+        39.45783
+      ],
+      [
+        -83.9396,
+        39.4504
+      ],
+      [
+        -83.93877,
+        39.44635
+      ],
+      [
+        -83.94081,
+        39.44189
+      ],
+      [
+        -83.98259,
+        39.44587
+      ],
+      [
+        -83.98858,
+        39.4444
+      ],
+      [
+        -83.994,
+        39.45368
+      ],
+      [
+        -83.99459,
+        39.4613
+      ],
+      [
+        -84.01627,
+        39.46983
+      ],
+      [
+        -84.02882,
+        39.47123
+      ],
+      [
+        -84.03415,
+        39.48234
+      ],
+      [
+        -84.05374,
+        39.47
+      ],
+      [
+        -84.05577,
+        39.47876
+      ],
+      [
+        -84.06309,
+        39.48711
+      ],
+      [
+        -84.05497,
+        39.4952
+      ],
+      [
+        -84.05514,
+        39.49746
+      ],
+      [
+        -84.07274,
+        39.5187
+      ],
+      [
+        -84.0812,
+        39.51968
+      ],
+      [
+        -84.0897,
+        39.52664
+      ],
+      [
+        -84.08576,
+        39.53077
+      ],
+      [
+        -84.07644,
+        39.5243
+      ],
+      [
+        -84.02982,
+        39.51247
+      ],
+      [
+        -84.01449,
+        39.49923
+      ],
+      [
+        -83.99591,
+        39.49942
+      ],
+      [
+        -83.96726,
+        39.49337
+      ],
+      [
+        -83.95458,
+        39.48808
+      ],
+      [
+        -83.92332,
+        39.48305
+      ],
+      [
+        -83.92289,
+        39.49762
+      ],
+      [
+        -83.90718,
+        39.52013
+      ],
+      [
+        -83.90264,
+        39.52
+      ],
+      [
+        -83.90222,
+        39.5234
+      ],
+      [
+        -83.87695,
+        39.51491
+      ],
+      [
+        -83.84082,
+        39.49951
+      ],
+      [
+        -83.84097,
+        39.48151
+      ],
+      [
+        -83.83647,
+        39.46407
+      ],
+      [
+        -83.86915,
+        39.46379
+      ],
+      [
+        -83.86967,
+        39.48237
+      ],
+      [
+        -83.83975,
+        39.47674
+      ],
+      [
+        -83.83691,
+        39.46592
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.45
+      ],
+      [
+        0.125,
+        0.692
+      ],
+      [
+        0.25,
+        1.275
+      ],
+      [
+        0.375,
+        1.858
+      ],
+      [
+        0.5,
+        2.1
+      ],
+      [
+        0.625,
+        1.858
+      ],
+      [
+        0.75,
+        1.275
+      ],
+      [
+        0.875,
+        0.692
+      ],
+      [
+        1,
+        0.45
+      ]
+    ]
+  },
+  "landmarks": [
+    {
+      "name": "Isaac and Sarah Harvey House",
+      "model": "farmhouse",
+      "at": 0.35966177217162615,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Miami White Brick Meetinghouse",
+      "model": "town-blocks",
+      "at": 0.5771385108602765,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+    }
+  ],
+  "dressing": [
+    {
+      "model": "ridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Wilmington",
+      "at": 0.21333333333333335,
+      "landmark": ""
+    },
+    {
+      "name": "Ogden",
+      "at": 0.29367521367521365,
+      "landmark": ""
+    },
+    {
+      "name": "Wellman",
+      "at": 0.46410256410256406,
+      "landmark": ""
+    },
+    {
+      "name": "Waynesville",
+      "at": 0.5811965811965812,
+      "landmark": ""
+    },
+    {
+      "name": "Harveysburg",
+      "at": 0.6668067779321722,
+      "landmark": ""
+    },
+    {
+      "name": "Kingman",
+      "at": 0.7630769230769231,
+      "landmark": ""
+    },
+    {
+      "name": "Gurneyville",
+      "at": 0.8270085470085471,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/quaker-heritage-scenic-byway-993905.json",
+    "public/data/strips/quaker-heritage-scenic-byway-993905.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

@@ -20,13 +20,17 @@ export function createCarLayer(garage: Garage, initial: [number, number], headin
   const vehicle = ship ? buildShip(garage) : buildVehicle(garage)
   const snow = new THREE.Mesh(
     new THREE.BoxGeometry(
-      1.75,
-      garage.model === 'camper' ? 3.6 : garage.model === 'pickup' ? 1.4 : garage.model === 'wagon' ? 2.8 : 2.1,
+      1.48,
+      garage.model === 'camper' ? 3.52 : garage.model === 'pickup' ? 0.81 : garage.model === 'wagon' ? 2.01 : 1.64,
       0.08,
     ),
     new THREE.MeshStandardMaterial({ color: '#f7faff', roughness: 1 }),
   )
-  snow.position.set(0, garage.model === 'pickup' ? 0.65 : garage.model === 'camper' ? 0 : -0.15, garage.model === 'camper' ? 2.63 : 2.23)
+  snow.position.set(
+    0,
+    garage.model === 'pickup' ? 0.615 : garage.model === 'camper' ? 0 : garage.model === 'wagon' ? -0.235 : -0.05,
+    garage.model === 'camper' ? 2.68 : 2.25,
+  )
   snow.visible = false
   vehicle.add(snow)
   scene.add(vehicle, new THREE.AmbientLight(0xffffff, 2))

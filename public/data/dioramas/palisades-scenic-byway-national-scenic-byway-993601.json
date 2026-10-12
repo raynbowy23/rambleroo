@@ -1,0 +1,406 @@
+{
+  "authored": false,
+  "bywayId": "palisades-scenic-byway-national-scenic-byway-993601",
+  "title": "Palisades Scenic Byway, National Scenic Byway",
+  "longitude": -74.0303,
+  "ground": "forested-ridges",
+  "palette": "forest",
+  "snowInWinter": false,
+  "road": {
+    "shape": "from-geometry",
+    "profile": "rolling",
+    "lanes": 2,
+    "coordinates": [
+      [
+        -73.92152,
+        41.00753
+      ],
+      [
+        -73.91989,
+        41.00507
+      ],
+      [
+        -73.92551,
+        41.01504
+      ],
+      [
+        -73.92769,
+        41.01731
+      ],
+      [
+        -73.93491,
+        41.0227
+      ],
+      [
+        -73.94117,
+        41.03241
+      ],
+      [
+        -73.94409,
+        41.03484
+      ],
+      [
+        -73.95516,
+        41.04136
+      ],
+      [
+        -73.9627,
+        41.05262
+      ],
+      [
+        -73.96745,
+        41.05695
+      ],
+      [
+        -73.97506,
+        41.06224
+      ],
+      [
+        -73.97874,
+        41.0663
+      ],
+      [
+        -73.98227,
+        41.07449
+      ],
+      [
+        -73.98888,
+        41.08547
+      ],
+      [
+        -73.99051,
+        41.09099
+      ],
+      [
+        -73.99108,
+        41.09623
+      ],
+      [
+        -73.9931,
+        41.10254
+      ],
+      [
+        -74.00043,
+        41.11063
+      ],
+      [
+        -74.00316,
+        41.11681
+      ],
+      [
+        -74.00486,
+        41.11923
+      ],
+      [
+        -74.0115,
+        41.1245
+      ],
+      [
+        -74.01438,
+        41.1282
+      ],
+      [
+        -74.01779,
+        41.13858
+      ],
+      [
+        -74.02484,
+        41.14899
+      ],
+      [
+        -74.02579,
+        41.15131
+      ],
+      [
+        -74.02867,
+        41.16609
+      ],
+      [
+        -74.03463,
+        41.17483
+      ],
+      [
+        -74.03689,
+        41.17959
+      ],
+      [
+        -74.03809,
+        41.18564
+      ],
+      [
+        -74.03779,
+        41.19183
+      ],
+      [
+        -74.03646,
+        41.19805
+      ],
+      [
+        -74.03272,
+        41.20819
+      ],
+      [
+        -74.03227,
+        41.21117
+      ],
+      [
+        -74.03298,
+        41.21736
+      ],
+      [
+        -74.03591,
+        41.22757
+      ],
+      [
+        -74.03613,
+        41.23017
+      ],
+      [
+        -74.03548,
+        41.23251
+      ],
+      [
+        -74.0332,
+        41.23551
+      ],
+      [
+        -74.02929,
+        41.23909
+      ],
+      [
+        -74.02844,
+        41.24206
+      ],
+      [
+        -74.0299,
+        41.24526
+      ],
+      [
+        -74.0426,
+        41.25151
+      ],
+      [
+        -74.0439,
+        41.25317
+      ],
+      [
+        -74.04431,
+        41.25618
+      ],
+      [
+        -74.04298,
+        41.25954
+      ],
+      [
+        -74.04063,
+        41.26263
+      ],
+      [
+        -74.03745,
+        41.26505
+      ],
+      [
+        -74.03272,
+        41.26747
+      ],
+      [
+        -74.03063,
+        41.26999
+      ],
+      [
+        -74.03048,
+        41.27797
+      ],
+      [
+        -74.02534,
+        41.28908
+      ],
+      [
+        -74.02594,
+        41.292
+      ],
+      [
+        -74.02957,
+        41.2967
+      ],
+      [
+        -74.03049,
+        41.2996
+      ],
+      [
+        -74.03013,
+        41.30345
+      ],
+      [
+        -74.02752,
+        41.30709
+      ]
+    ],
+    "elevation": [
+      [
+        0,
+        0.35
+      ],
+      [
+        0.125,
+        0.453
+      ],
+      [
+        0.25,
+        0.7
+      ],
+      [
+        0.375,
+        0.947
+      ],
+      [
+        0.5,
+        1.05
+      ],
+      [
+        0.625,
+        0.947
+      ],
+      [
+        0.75,
+        0.7
+      ],
+      [
+        0.875,
+        0.453
+      ],
+      [
+        1,
+        0.35
+      ]
+    ]
+  },
+  "landmarks": [],
+  "dressing": [
+    {
+      "model": "open-spandrel-arch-bridge",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
+    {
+      "model": "hardwood",
+      "at": 0.0875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.09949999999999999,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.11149999999999999,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
+      "side": -1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    }
+  ],
+  "towns": [
+    {
+      "name": "Piermont",
+      "at": 0.098744769874477,
+      "landmark": ""
+    },
+    {
+      "name": "West Nyack",
+      "at": 0.299581589958159,
+      "landmark": ""
+    },
+    {
+      "name": "New Square",
+      "at": 0.44686192468619246,
+      "landmark": ""
+    },
+    {
+      "name": "Pomona",
+      "at": 0.608786610878661,
+      "landmark": ""
+    },
+    {
+      "name": "Stony Point",
+      "at": 0.7736401673640168,
+      "landmark": ""
+    }
+  ],
+  "sources": [
+    "content/stories/palisades-scenic-byway-national-scenic-byway-993601.json",
+    "public/data/strips/palisades-scenic-byway-national-scenic-byway-993601.json",
+    "public/data/byways.geojson",
+    "public/data/catalog.json"
+  ],
+  "geometryNotes": "Strip main route, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+}

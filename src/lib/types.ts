@@ -81,8 +81,8 @@ export interface Photo {
   license: string
   licenseUrl: string
   sourceUrl: string
-  /** How the photo was chosen: hand-picked for a story, the lead image of the byway's Wikipedia article, or the U.S. DOT America's Byways collection (NARA). Auto-sourced photos are still reviewed by eye before publishing. */
-  source?: 'curated' | 'wikipedia-lead' | 'nara'
+  /** How the photo was chosen: hand-picked for a story, the lead image of the byway's (or town's) Wikipedia article, the U.S. DOT America's Byways collection (NARA), or picked from a wider Commons search. Auto-sourced photos are still reviewed by eye before publishing. */
+  source?: 'curated' | 'wikipedia-lead' | 'nara' | 'commons-search'
   /** Small (~480px) version for cards and thumbnails. */
   thumb?: string
 }
@@ -101,6 +101,9 @@ export interface StreetView {
   /** Mapillary username of the contributor. */
   creator: string
 }
+
+/** Map glyph names; drawings live in src/features/map/decor.ts. */
+export type MapMark = 'wave' | 'sailboat' | 'lighthouse' | 'mountain' | 'pine' | 'mesa' | 'windmill' | 'church'
 
 /** Editorial completeness, not road condition. See blueprint §7. */
 export type EditorialStatus = 'listing' | 'draft-story' | 'curated-story'
@@ -122,6 +125,8 @@ export interface BywaySummary {
   themes: Theme[]
   themeSource: 'inferred' | 'curated'
   scene: SceneFamily
+  /** Inked picture on the national map, chosen from the story's landmarks when there is one. */
+  mark?: MapMark
   status: EditorialStatus
   region: Region
   look: PostcardLook
@@ -138,6 +143,8 @@ export interface StoryMoment {
   motifs?: Motif[]
   /** [lng, lat] approximate anchor for the companion map. */
   at?: [number, number]
+  /** What to notice here: one sourced, visible detail. */
+  notice?: string
 }
 
 export interface BywayStory {
@@ -146,10 +153,14 @@ export interface BywayStory {
   /** Motifs for the story hero and postcard, most characteristic first. */
   motifs?: Motif[]
   intro: string[]
+  /** What to notice along the whole drive: one sourced, visible detail. */
+  notice?: string
   moments: StoryMoment[]
   season?: string
   practical?: string[]
   sources: { label: string; url: string }[]
+  /** An older story not yet rewritten to the style guide (scripts/stories/STYLE.md); shown with a draft label until it is. */
+  draft?: boolean
   reviewed: boolean
 }
 
