@@ -275,15 +275,16 @@
       ]
     ]
   },
-  "landmarks": [],
-  "dressing": [
+  "landmarks": [
     {
+      "name": "Lewis and Clark Interpretive Center",
       "model": "ledge",
-      "at": 0.5,
-      "side": -1,
-      "distance": 1.4,
-      "scale": 1.5
-    },
+      "at": 0.25,
+      "offset": "roadside",
+      "notes": "Story moment 1; short walk. Illustrative position in driving order."
+    }
+  ],
+  "dressing": [
     {
       "model": "river",
       "at": 0.5,

@@ -277,11 +277,18 @@
   },
   "landmarks": [
     {
-      "name": "Arkansas View",
+      "name": "Hayden Park",
       "model": "ridge",
-      "at": 0.3333333333333333,
+      "at": 0.25,
       "offset": "roadside",
       "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
+      "name": "Arkansas View",
+      "model": "ridge",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
     }
   ],
   "dressing": [

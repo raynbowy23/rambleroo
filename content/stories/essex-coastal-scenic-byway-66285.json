@@ -1,16 +1,17 @@
 {
   "id": "essex-coastal-scenic-byway-66285",
-  "tagline": "Marsh towns of the North Shore, from clipper yards to clams.",
+  "tagline": "Marshes, shipyards and old houses connect the North Shore’s coastal towns.",
   "intro": [
-    "This stretch of the North Shore road leaves Newburyport, laid out on the high south bank of the Merrimack where clipper ships were once built, and heads south past the Newbury marshes to Ipswich, Essex and Cape Ann. The whole byway runs some ninety miles and ties together fourteen coastal towns between Salisbury and Lynn.",
-    "Around Essex the low country is part of the Great Marsh, the salt marsh that shapes much of this coast. There the first settlers lived by farming, fishing and clamming, and most of all by building ships."
+    "The Essex Coastal Scenic Byway links 14 coastal communities along 90 miles of North Shore roads, from Lynn to Salisbury. Through Ipswich it follows downtown streets and parts of the Ipswich River; Essex brings views across its river and marsh. In Essex, low hills rise above land close to sea level. Essex Heritage promotes the state-designated byway for its period architecture, historic sites, scenery and recreation.",
+    "Essex Heritage and the Greater Boston Metropolitan Area Planning Council initiated the byway. Essex Heritage then worked to secure state scenic byway designation and federal support for a management plan, seeking both preservation and investment in the road’s infrastructure and attractions. The corridor connects places where water shaped work: wharves and storehouses lined the Ipswich River by the mid-1700s, while Essex had 15 shipyards in 1852.",
+    "For the Newburyport-to-Gloucester portion, begin on the elevated south bank of the Merrimack and continue through Newbury, where Route 1A runs just inland from the marshes. At Ipswich, Routes 1A and 133 share the town center before separating; Route 133 continues to Essex and Gloucester. Newburyport built clipper ships; Gloucester’s inner harbor is home to its fishing fleet. Finish beside Gloucester Harbor, where the Man at the Wheel faces the water."
   ],
   "moments": [
     {
       "title": "Ipswich",
       "kind": "town",
       "scene": "town",
-      "text": "Incorporated in 1634, the town still has about 59 First Period houses standing and lived in, more than any other community in the country.",
+      "text": "Many of Ipswich’s First Period houses remain occupied, part of the country’s largest surviving collection. The byway passes roughly 59 of these early homes. Their survival has an economic history: nineteenth-century clipper ships favored deeper ports, and residents stayed in older houses they could not afford to replace. The river also powered mills, and salt marshes supplied livestock with hay. The drive through downtown follows parts of that working river, with the early houses remaining in the townscape. By the mid-eighteenth century, wharves and storehouses lined the river alongside tanning and shipbuilding operations.",
       "at": [
         -70.84167,
         42.67917
@@ -20,7 +21,7 @@
       "title": "Essex",
       "kind": "town",
       "scene": "river",
-      "text": "The town built schooners for Gloucester's fishing fleet until engines replaced sail, and in the summer of 1916 a clam shack owner here reportedly fried the first clam.",
+      "text": "Essex’s center lies on marshland beside the Essex River, within the Great Marsh. Its shipyards supplied schooners to Gloucester and other Atlantic fishing communities. The industry failed to adapt to the change from wooden sailing ships to metal vessels driven by engines and disappeared around World War II. Wooden boatbuilding continues on a smaller scale: beside the Essex Shipbuilding Museum, the Story Family’s yard constructs and launches wooden ships. The museum displays ship models, tools and the Essex-built 1927 schooner Evelina M. Goulart. Photographs and dioramas show the former shipyard, setting the surviving schooner among records of the trade.",
       "at": [
         -70.78333,
         42.63194
@@ -30,7 +31,8 @@
       "title": "Gloucester",
       "kind": "town",
       "scene": "coast",
-      "text": "On the harbor stands the Man at the Wheel, the fishermen's memorial, dedicated to they that go down to the sea in ships.",
+      "text": "The Man at the Wheel looks out over Gloucester Harbor from a base of sea-green granite. The eight-foot bronze fisherman wears oilskins and braces at the wheel on a sloping deck. Leonard Craske designed the sculpture, which the Gorham Company cast in 1925. The National Park Service describes its purpose as commemorating Gloucester’s 300th anniversary and the thousands of fishermen lost at sea during those centuries. On the harbor-facing panel, bronze lettering quotes Psalm 107:23. The inscription reads “They That Go Down To The Sea In Ships 1623-1923,” placing three centuries beneath the figure.",
+      "notice": "The fisherman faces the harbor; the sea-green granite base carries bronze lettering on its waterfront side.",
       "at": [
         -70.6625,
         42.61583
@@ -39,28 +41,44 @@
   ],
   "sources": [
     {
-      "label": "Essex Coastal Scenic Byway",
+      "label": "Essex National Heritage Commission, Essex Coastal Scenic Byway",
       "url": "https://coastalbyway.org/"
     },
     {
-      "label": "Essex Heritage, Essex Coastal Scenic Byway",
+      "label": "Wikipedia, Essex Coastal Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Essex_Coastal_Scenic_Byway"
+    },
+    {
+      "label": "Wikipedia, Essex, Massachusetts",
+      "url": "https://en.wikipedia.org/wiki/Essex%2C_Massachusetts"
+    },
+    {
+      "label": "Essex National Heritage Commission, Explore the Essex Coastal Scenic Byway",
       "url": "https://essexheritage.org/explore/essex-coastal-scenic-byway/"
     },
     {
       "label": "Wikipedia, Newburyport, Massachusetts",
-      "url": "https://en.wikipedia.org/wiki/Newburyport,_Massachusetts"
+      "url": "https://en.wikipedia.org/wiki/Newburyport%2C_Massachusetts"
+    },
+    {
+      "label": "Wikipedia, Newbury, Massachusetts",
+      "url": "https://en.wikipedia.org/wiki/Newbury%2C_Massachusetts"
     },
     {
       "label": "Wikipedia, Ipswich, Massachusetts",
-      "url": "https://en.wikipedia.org/wiki/Ipswich,_Massachusetts"
-    },
-    {
-      "label": "Wikipedia, Essex, Massachusetts",
-      "url": "https://en.wikipedia.org/wiki/Essex,_Massachusetts"
+      "url": "https://en.wikipedia.org/wiki/Ipswich%2C_Massachusetts"
     },
     {
       "label": "Wikipedia, Gloucester, Massachusetts",
-      "url": "https://en.wikipedia.org/wiki/Gloucester,_Massachusetts"
+      "url": "https://en.wikipedia.org/wiki/Gloucester%2C_Massachusetts"
+    },
+    {
+      "label": "Wikipedia, Gloucester Fisherman's Memorial",
+      "url": "https://en.wikipedia.org/wiki/Gloucester_Fisherman%27s_Memorial"
+    },
+    {
+      "label": "Wikipedia, Essex Shipbuilding Museum",
+      "url": "https://en.wikipedia.org/wiki/Essex_Shipbuilding_Museum"
     }
   ],
   "reviewed": false

@@ -1,20 +1,22 @@
 {
   "id": "highway-of-legends-2100",
-  "tagline": "Under the Spanish Peaks and down the Purgatoire, tall tales included.",
+  "tagline": "A mountain highway crosses Cucharas Pass and follows the Purgatoire toward Trinidad.",
   "motifs": [
     "rolling-ridges",
     "mining-town"
   ],
   "intro": [
-    "Highway 12 leaves US 160 north of La Veta and runs south through town into the San Isabel National Forest, through Cuchara near the Spanish Peaks and over Cucharas Pass at 9,995 feet. Beyond Monument Park it turns east near Stonewall Gap and follows the Purgatoire River down past Weston and Cokedale, a former coal mining town, to Trinidad. The red rock walls of the Dakota Wall and the Devil's Stairsteps belong to the same country.",
-    "The legends are the local kind: whether George Simpson saved Trinidad from the Utes by distracting them with taunts, and what became of Juan Humana and his conquistadors, who vanished near the Purgatoire in 1594. The state's byway page promises no answers."
+    "The Highway of Legends runs through southern Colorado mountain country, crossing the San Isabel National Forest and following the Purgatoire River toward Trinidad. Its 82 miles take two hours to drive. The U.S. Secretary of Transportation designated it a National Scenic Byway in 2021. The Colorado Department of Transportation highlights the Spanish Peaks and the red rock walls of the Dakota Wall and Devil's Stairsteps. The main highway climbs over Cucharas Pass, whose summit sign reads 9,995 feet, before reaching the Purgatoire valley.",
+    "The numbered highway took shape in stages. Established in the 1920s, State Highway 12 originally ran east from Stonewall through Trinidad to La Junta. The Weston-to-Trinidad stretch was paved in 1939; US 350 replaced the Trinidad-to-La Junta section in 1957. In 1970, Highway 12 extended to US 160, with that segment paved the following year. State scenic-byway designation followed in 1989. The corridor also holds National Forest Scenic Byway status.",
+    "From Walsenburg, take US 160 west to Highway 12 north of La Veta. The road heads south through La Veta and Cuchara, then crosses Cucharas Pass at 9,995 feet. Beyond Monument Park, it turns east near Stonewall Gap and follows the river through Weston and Cokedale to Trinidad."
   ],
+  "notice": "At the summit, the sign uses “Cuchara Pass” and gives the elevation as 9,995 feet.",
   "moments": [
     {
       "title": "La Veta",
       "kind": "town",
       "scene": "town",
-      "text": "Named for a mineral vein, the town began with Francisco Fort, a 100-foot-square adobe with two-foot walls and gun ports along the parapets, attacked by Utes in 1863.",
+      "text": "Francisco Fort began as the commercial center of a farming and ranching settlement, before La Veta had its present name. John M. Francisco and Henry Daigre bought 48,000 acres in the Cuchara Valley in 1862. Their plaza served as ranch headquarters, then as a temporary railroad depot when the Denver and Rio Grande arrived in 1876. It is now part of the museum complex. The surviving historic structures are adobe; other buildings were added or moved here during the 1960s. The ranch supplied beef to nearby U.S. military forts, making the plaza a center of commerce as well as a home.",
       "at": [
         -105.00806,
         37.50694
@@ -24,7 +26,7 @@
       "title": "Spanish Peaks",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The Comanche name means double mountain, and both summits stand higher than any point farther east in the United States, the first sight of the Rockies on the Santa Fe Trail.",
+      "text": "The Spanish Peaks stand east of, and separate from, the Culebra Range of the Sangre de Cristo Mountains. West Spanish Peak reaches 13,631 feet; East Spanish Peak reaches 12,688 feet. Both rise higher than any point farther east in the United States. The two mountains formed from separate shallow igneous intrusions, with the western peak older than the eastern one. They became a National Natural Landmark in 1976 for their igneous dikes. For travelers on the Santa Fe Trail, they had been the first sight of the Rocky Mountains. The Spanish Peaks Wilderness encompasses both summits.",
       "at": [
         -104.95,
         37.38
@@ -34,48 +36,57 @@
       "title": "Stonewall Gap",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The Middle Fork of the Purgatoire cuts a gap through 8,400-foot Stonewall Ridge here, and the highway leads east down the river valley 33 miles to Trinidad.",
+      "text": "At Stonewall Gap, the Middle Fork of the Purgatoire River cuts through Stonewall Ridge, whose elevation reaches 8,400 feet. Highway 12 turns east near the gap, following the river valley toward Trinidad, 33 miles away. In the opposite direction, the road crosses Cucharas Pass on its way to La Veta. Downriver, it passes through Weston and Cokedale. Cokedale was a coal-mining town: its mine closed in 1947, and the town incorporated the following year. Much of it belongs to the Cokedale Historic District. At Weston, the South Fork joins the main river near the town.",
       "at": [
         -105.03417,
         37.16056
       ]
     }
   ],
-  "practical": [
-    "The 35-mile extension over 11,248-foot Cordova Pass is partly gravel and closed in winter; the Forest Service does not usually plow it, so it is normally impassable from mid-November to late May."
-  ],
   "sources": [
-    {
-      "label": "Colorado Department of Transportation, Highway of Legends",
-      "url": "https://www.codot.gov/travel/coloradobyways/southeast/highway-legends"
-    },
     {
       "label": "Wikipedia, Colorado State Highway 12",
       "url": "https://en.wikipedia.org/wiki/Colorado_State_Highway_12"
     },
     {
-      "label": "Wikipedia, La Veta, Colorado",
-      "url": "https://en.wikipedia.org/wiki/La_Veta,_Colorado"
-    },
-    {
-      "label": "Wikipedia, Spanish Peaks",
-      "url": "https://en.wikipedia.org/wiki/Spanish_Peaks"
+      "label": "Colorado Department of Transportation, Highway of Legends",
+      "url": "https://www.codot.gov/travel/coloradobyways/southeast/highway-legends"
     },
     {
       "label": "Wikipedia, Cucharas Pass",
       "url": "https://en.wikipedia.org/wiki/Cucharas_Pass"
     },
     {
+      "label": "Wikipedia, Highway of Legends National Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Highway_of_Legends_National_Scenic_Byway"
+    },
+    {
+      "label": "Wikipedia, Walsenburg, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Walsenburg%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, La Veta, Colorado",
+      "url": "https://en.wikipedia.org/wiki/La_Veta%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Francisco Plaza",
+      "url": "https://en.wikipedia.org/wiki/Francisco_Plaza"
+    },
+    {
+      "label": "Wikipedia, Spanish Peaks",
+      "url": "https://en.wikipedia.org/wiki/Spanish_Peaks"
+    },
+    {
       "label": "Wikipedia, Stonewall Gap, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Stonewall_Gap,_Colorado"
+      "url": "https://en.wikipedia.org/wiki/Stonewall_Gap%2C_Colorado"
     },
     {
       "label": "Wikipedia, Cokedale, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Cokedale,_Colorado"
+      "url": "https://en.wikipedia.org/wiki/Cokedale%2C_Colorado"
     },
     {
-      "label": "Wikipedia, Cordova Pass",
-      "url": "https://en.wikipedia.org/wiki/Cordova_Pass"
+      "label": "Wikipedia, Weston, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Weston%2C_Colorado"
     }
   ],
   "reviewed": false

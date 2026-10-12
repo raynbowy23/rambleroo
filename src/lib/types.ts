@@ -159,6 +159,8 @@ export interface BywayStory {
   season?: string
   practical?: string[]
   sources: { label: string; url: string }[]
+  /** An older story not yet rewritten to the style guide (scripts/stories/STYLE.md); shown with a draft label until it is. */
+  draft?: boolean
   reviewed: boolean
 }
 

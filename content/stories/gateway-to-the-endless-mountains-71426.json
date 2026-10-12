@@ -1,16 +1,17 @@
 {
   "id": "gateway-to-the-endless-mountains-71426",
-  "tagline": "Tioga Street, where the mountain gateway keeps its storefronts.",
+  "tagline": "Tioga Street, historic buildings and a creek meeting the Susquehanna River",
   "intro": [
-    "Through Tunkhannock, Business Route 6 takes the name Tioga Street. Lumbering was once carried on extensively here, and the town keeps a historic district of commercial buildings and houses in Queen Anne and Italianate styles, among others. The Dietrich Theatre belongs to that district.",
-    "Close by, Tunkhannock Creek finishes its forty-two miles at the Susquehanna. The mountain gateway is also a river town."
+    "Gateway to the Endless Mountains takes Business Route 6 through Tunkhannock, where the road is named Tioga Street. Visit Pennsylvania presents the byway as access to the Endless Mountains region, including the Dietrich Theatre and nature trails in Sullivan County.",
+    "The state byway designation took effect on September 5, 2005. That same year, Tunkhannock’s historic district entered the National Register of Historic Places. Its commercial, residential and institutional buildings date from 1841 to 1954, including Queen Anne and Italianate designs.",
+    "Travel from the Business Route 6 interchange west of the borough through Tioga Street to the eastern connection in Tunkhannock Township. The historic district includes the 1925 Dietrich Theater. Tunkhannock Creek meets the Susquehanna here, while Osterhout Mountain rises over the town on the river’s east bank."
   ],
   "moments": [
     {
       "title": "Tunkhannock Historic District",
       "kind": "town",
       "scene": "town",
-      "text": "The district runs from the business blocks into the surrounding residential streets, with buildings from 1841 to 1954 in Queen Anne, Italianate and other styles.",
+      "text": "Tunkhannock’s historic district extends from the central business blocks into surrounding residential areas, encompassing 225 contributing buildings. Its buildings span 1841 to 1954 and include homes, businesses and institutions in styles such as Queen Anne and Italianate. The Dietrich Theater dates to 1925; the Presbyterian Church of Tunkhannock to 1891 and First United Methodist Church to 1934. The district joined the National Register of Historic Places in 2005. The named buildings also include the Wyoming County Courthouse and the former Masonic Hall, extending the district’s range beyond storefronts and houses to civic and gathering places.",
       "at": [
         -75.94694444,
         41.53888889
@@ -20,22 +21,24 @@
       "title": "Tunkhannock Creek",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "At Tunkhannock, the creek joins the Susquehanna after flowing through northeastern Pennsylvania.",
+      "text": "Tunkhannock Creek ends its 42.3-mile course at the Susquehanna in Tunkhannock. Its source is Cheraine Pond near Jackson, and its branches gather water from Herrick Township and from near Montdale in Scott Township. Upstream near Nicholson, the creek passes beneath the multiple concrete arches of the 2,400-foot Tunkhannock Viaduct, locally called the Nicholson Bridge.",
       "at": [
         -75.9467,
         41.5357
       ]
+    },
+    {
+      "title": "Osterhout Mountain",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "Osterhout Mountain rises over Tunkhannock on the east bank of the Susquehanna. Across the river stands its sister peak, Miller Mountain. Communication towers occupy Osterhout’s summit.",
+      "at": [
+        -75.8986,
+        41.5362
+      ]
     }
   ],
   "sources": [
-    {
-      "label": "Visit Pennsylvania, Gateway To The Endless Mountains",
-      "url": "https://www.visitpa.com/listing/gateway-to-endless-mountains-pa-scenic-byway/1515/"
-    },
-    {
-      "label": "PennDOT, Pennsylvania Byways list (RW-745ISB)",
-      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
-    },
     {
       "label": "Wikipedia, Tunkhannock, Pennsylvania",
       "url": "https://en.wikipedia.org/wiki/Tunkhannock%2C_Pennsylvania"
@@ -47,6 +50,18 @@
     {
       "label": "Wikipedia, Tunkhannock Creek (Susquehanna River tributary)",
       "url": "https://en.wikipedia.org/wiki/Tunkhannock_Creek_%28Susquehanna_River_tributary%29"
+    },
+    {
+      "label": "Pennsylvania Department of Transportation, Pennsylvania Byways (RW-745ISB)",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/rw-745isb.pdf"
+    },
+    {
+      "label": "Visit Pennsylvania, Gateway to Endless Mountains PA Scenic Byway",
+      "url": "https://www.visitpa.com/listing/gateway-to-endless-mountains-pa-scenic-byway/1515/"
+    },
+    {
+      "label": "Wikipedia, Osterhout Mountain",
+      "url": "https://en.wikipedia.org/wiki/Osterhout_Mountain"
     }
   ],
   "reviewed": false

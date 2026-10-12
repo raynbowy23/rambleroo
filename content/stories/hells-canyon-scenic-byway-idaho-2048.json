@@ -1,26 +1,37 @@
 {
   "id": "hells-canyon-scenic-byway-idaho-2048",
-  "tagline": "Down the creeks to the Snake, then into the gorge.",
+  "tagline": "Creek valleys lead to the Snake and a winding canyon road.",
   "intro": [
-    "West of Cambridge, Idaho 71 leaves the farmland and runs down Pine Creek and Brownlee Creek through remote, thinly settled country to the Snake River at Brownlee Dam. The route goes on to Oxbow, and from the Oxbow Bridge near Copperfield, Oregon, Hells Canyon Road follows the Idaho side of the river north.",
-    "This is the east side of Hells Canyon, North America's deepest river gorge, nearly 8,000 feet at its deepest. Pictographs and petroglyphs on its walls record the Nez Perce and the other peoples drawn here by its mild winters."
+    "Idaho’s Hells Canyon Scenic Byway runs from Cambridge to the Snake River, then north along the Idaho bank toward Hells Canyon Dam. Highway 71 is two lanes through largely remote, sparsely populated country. Hells Canyon Road is narrow and winding, with several steep grades. Visit Idaho promotes the scenic byway for its gorge views and wildlife, listing 62.4 miles and a driving time of one hour, 43 minutes.",
+    "Three Idaho Power dams reshaped this stretch of the Snake: Brownlee, Oxbow and Hells Canyon. They replaced a proposal for a single 710-foot-high dam. Brownlee Reservoir began filling in 1958, flooding Robinette, Oregon. Hells Canyon Dam began generating power in 1967. Without fish passage, the three dams blocked upstream salmon migration. At Oxbow, reservoir water covered an earlier railroad station, while a new community grew nearby during construction of the dam.",
+    "From Cambridge, Highway 71 crosses farmland and follows Pine Creek, crosses a ridge, then follows East Brownlee Creek and Brownlee Creek toward the reservoir. Continue past Brownlee Dam toward Oxbow Bridge, then follow the Idaho side of the river north to Hells Canyon Dam. Below the dam, the visitor center marks the entrance to the wild and scenic reach of the Snake."
   ],
   "moments": [
     {
       "title": "Brownlee Dam",
       "kind": "roadside",
       "scene": "river",
-      "text": "The first of the three dams Idaho Power built in the canyon holds the Snake back in a reservoir 58 miles long, and Idaho 71 runs right past it.",
+      "text": "Brownlee holds the Snake River in a reservoir 58 miles long. It is the first and uppermost of Idaho Power’s three Hells Canyon Project dams, built as an earth-fill embankment. Filling began on May 9, 1958, and submerged the community of Robinette, Oregon. Morrison-Knudsen of Boise was the contractor. Highway 71 runs beside the reservoir, passes the dam and reaches a bridge into Oregon just downstream. The road continues along the river’s west bank toward the Hells Canyon National Recreation Area. The three dams lack passage for migrating salmon and Pacific lamprey.",
       "at": [
         -116.9,
         44.836
       ]
     },
     {
+      "title": "Oxbow",
+      "kind": "town",
+      "scene": "river",
+      "text": "A U-shaped bend in the Snake gave Oxbow its name, borrowed from the curved implement used in agriculture. A station on the Oregon Short Line Railroad once carried the name; its site is now beneath Oxbow Reservoir. The present community developed in the early 1960s near former Copperfield during construction of Idaho Power’s Oxbow Dam. In 1965, the post office moved here from Homestead, six miles to the north. The rockfill dam forms part of Idaho Power’s three-dam Hells Canyon Project. The powerhouse at Oxbow Dam contains four generating units.",
+      "at": [
+        -116.8629359,
+        44.9748786
+      ]
+    },
+    {
       "title": "Hells Canyon Dam",
       "kind": "roadside",
       "scene": "river",
-      "text": "The road ends at the last of the three dams, and just below it, by the Hells Canyon Creek visitor center, the Snake begins its wild and scenic run.",
+      "text": "Hells Canyon Dam was the third and final dam in Idaho Power’s Hells Canyon Project. Two generating units began producing electricity in 1967, and a third followed the next year. The concrete gravity dam impounds Hells Canyon Reservoir on the Idaho-Oregon border. The road crosses the dam and continues another mile to the visitor center on the Oregon side. Below the dam lies the entrance to the Snake River’s wild and scenic reach. The structure is lower than the single 710-foot dam proposed in the 1940s, before plans changed to a three-dam project.",
       "at": [
         -116.69833,
         45.24472
@@ -29,28 +40,36 @@
   ],
   "sources": [
     {
-      "label": "Visit Idaho, Hells Canyon Scenic Byway (Wayback Machine, 2024)",
-      "url": "https://web.archive.org/web/20240402082258/https://visitidaho.org/things-to-do/hiking-backpacking/hells-canyon-scenic-byway/"
+      "label": "Wikipedia, Idaho State Highway 71",
+      "url": "https://en.wikipedia.org/wiki/Idaho_State_Highway_71"
     },
     {
-      "label": "Visit Idaho, Hells Canyon Scenic Byway (Wayback Machine, 2013)",
+      "label": "Visit Idaho, Hells Canyon Scenic Byway (archived 2013)",
       "url": "https://web.archive.org/web/20130605120852/http://www.visitidaho.org/scenic-byways/hells-canyon-scenic-byway/"
     },
     {
-      "label": "Wikipedia, Idaho State Highway 71",
-      "url": "https://en.wikipedia.org/wiki/Idaho_State_Highway_71"
+      "label": "Visit Idaho, Hells Canyon Scenic Byway (archived 2024)",
+      "url": "https://web.archive.org/web/20240402082258/https://visitidaho.org/things-to-do/hiking-backpacking/hells-canyon-scenic-byway/"
+    },
+    {
+      "label": "Wikipedia, Hells Canyon Dam",
+      "url": "https://en.wikipedia.org/wiki/Hells_Canyon_Dam"
     },
     {
       "label": "Wikipedia, Brownlee Dam",
       "url": "https://en.wikipedia.org/wiki/Brownlee_Dam"
     },
     {
-      "label": "Wikipedia, Hells Canyon",
-      "url": "https://en.wikipedia.org/wiki/Hells_Canyon"
+      "label": "Wikipedia, Oxbow, Oregon",
+      "url": "https://en.wikipedia.org/wiki/Oxbow%2C_Oregon"
     },
     {
-      "label": "Wikipedia, Hells Canyon Dam",
-      "url": "https://en.wikipedia.org/wiki/Hells_Canyon_Dam"
+      "label": "Wikipedia, Oxbow Dam",
+      "url": "https://en.wikipedia.org/wiki/Oxbow_Dam"
+    },
+    {
+      "label": "Wikipedia, Hells Canyon",
+      "url": "https://en.wikipedia.org/wiki/Hells_Canyon"
     }
   ],
   "reviewed": false

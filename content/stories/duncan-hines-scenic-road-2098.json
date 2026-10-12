@@ -1,35 +1,36 @@
 {
   "id": "duncan-hines-scenic-road-2098",
-  "tagline": "A loop from Duncan Hines's front door, river ferry included.",
+  "tagline": "From Duncan Hines’s former home to a Green River ferry crossing",
   "intro": [
-    "The tour starts at Duncan Hines's old home on US 31W in Bowling Green and heads north on KY 101 into Edmonson County, by Rhoda and Huff to Sunfish and Bee Spring, then into Mammoth Cave National Park and over the Green River on the ferry. It comes back by Sloans Crossing, Smiths Grove and Oakland, 83 miles around.",
-    "Hines sold printing for a Chicago firm and had eaten many meals on the road by 1935, when he and his wife Florence turned their list of good restaurants into a book, Adventures in Good Eating. The cake mixes came later, after he sold the rights to his name, from a mill company that licensed it."
+    "The Duncan Hines Scenic Tour links Bowling Green with Mammoth Cave National Park, crossing the Green River by ferry along its 83-mile course. Kentucky’s Transportation Cabinet includes it among the state’s scenic byways and highways. Within the park, the Green River runs through a forested landscape of caves and limestone drainage systems.",
+    "The route begins at Hines’s former home on US 31W. His connection with travel began well before the cake mixes: as a salesman for a Chicago printer, he ate his way across the country. He and his wife Florence compiled restaurant recommendations for friends, then turned the popular list into Adventures in Good Eating in 1935. By 1953, Hines had sold rights to his name and book title to Roy H. Park; Nebraska Consolidated Mills licensed the name and developed the first Duncan Hines cake mixes. After his death, a section of US 31W north of Bowling Green was named Duncan Hines Highway.",
+    "Following the circuit toward Smiths Grove first brings the park approach at Pig, where Park Boundary Road leads to KY 70 inside Mammoth Cave National Park. The tour crosses at Green River Ferry and continues toward Bee Spring and Sunfish. The return through Huff and Rhoda follows the circuit back toward Bowling Green."
   ],
   "moments": [
     {
-      "title": "Kyrock",
+      "title": "Pig",
       "kind": "town",
-      "scene": "river",
-      "text": "A company town that quarried rock asphalt and shipped it by steamboat on the Nolin and Green rivers to pave roads, and gave up its charter in 1966 after the company closed.",
+      "scene": "town",
+      "text": "Pig sits at the junction of KY 259 and KY 422 in southern Edmonson County. Its name followed a disagreement over what to call the town: a resident mentioned a small hog he had seen on the road, and Pig was accepted. Beyond KY 422’s northern end, the road continues as Park Boundary Road, also called Cedar Sink Road, toward KY 70 inside Mammoth Cave National Park.",
       "at": [
-        -86.25667,
-        37.26333
+        -86.17,
+        37.13278
       ]
     },
     {
       "title": "Green River Ferry",
       "kind": "roadside",
       "scene": "river",
-      "text": "Running since 1934, the last river ferry in Mammoth Cave National Park carries cars, hikers and bikers across the Green River 364 days a year."
+      "text": "Green River Ferry began in 1934 and is the last active river ferry in Mammoth Cave National Park. The Green River runs through the park, receiving the Nolin River just inside its boundary. It carries vehicles, hikers and cyclists, and gives county residents a more direct commute to communities south of the river. Beside the crossing, the parking area connects with the one-mile Accessible Echo River Spring loop through the forest. Benches and viewpoints stand along the trail, while a kayak and canoe launch lies just upstream of the ferry."
     },
     {
-      "title": "Pig",
+      "title": "Kyrock",
       "kind": "town",
-      "scene": "prairie",
-      "text": "The name was argued over until a resident mentioned a small hog he had seen on the road, and Pig it was.",
+      "scene": "river",
+      "text": "Kyrock shipped road paving by river. The name Kyrock came from the company’s own name, Kentucky Rock Asphalt Company. In the 1920s, the Kentucky Rock Asphalt Company mined and processed rock asphalt here, then sent hundreds of tons away by steamboat on the Nolin and Green rivers. The company built a town with schools, a church and a commissary. Competition from cheaper petroleum-based asphalt and higher shipping costs helped end the operation in 1957. The original water tower and a concrete footbridge foundation over Pigeon Creek remain from the town.",
       "at": [
-        -86.17,
-        37.13278
+        -86.25667,
+        37.26333
       ]
     }
   ],
@@ -39,28 +40,24 @@
       "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
     },
     {
-      "label": "National Park Service, Green River Ferry",
-      "url": "https://www.nps.gov/places/green-river-ferry.htm"
+      "label": "Wikipedia, Mammoth Cave National Park",
+      "url": "https://en.wikipedia.org/wiki/Mammoth_Cave_National_Park"
     },
     {
       "label": "Wikipedia, Duncan Hines",
       "url": "https://en.wikipedia.org/wiki/Duncan_Hines"
     },
     {
-      "label": "Wikipedia, Kyrock, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Kyrock,_Kentucky"
-    },
-    {
       "label": "Wikipedia, Pig, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Pig,_Kentucky"
+      "url": "https://en.wikipedia.org/wiki/Pig%2C_Kentucky"
     },
     {
-      "label": "Wikipedia, Bee Spring, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Bee_Spring,_Kentucky"
+      "label": "National Park Service, Green River Ferry",
+      "url": "https://www.nps.gov/places/green-river-ferry.htm"
     },
     {
-      "label": "Wikipedia, Sunfish, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Sunfish,_Kentucky"
+      "label": "Wikipedia, Kyrock, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Kyrock%2C_Kentucky"
     }
   ],
   "reviewed": false

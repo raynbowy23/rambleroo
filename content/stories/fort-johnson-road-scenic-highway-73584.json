@@ -1,22 +1,33 @@
 {
   "id": "fort-johnson-road-scenic-highway-73584",
-  "tagline": "Across James Island to where the war began.",
+  "tagline": "A scenic island road leads to fort ground and marine laboratories",
   "intro": [
-    "Fort Johnson Road leaves Folly Road and runs four and a half miles across James Island toward its northeast point, where it passes a state gate and ends among the laboratories of the Marine Resources Center beside Charleston Harbor. New billboards are barred along it, and no tree thicker than six inches in the right-of-way may come down without the state's permission.",
-    "The island has seen its share of trouble. Tadeusz Kościuszko was nearly killed here in 1782, in the last known armed action of the Revolutionary War, and the Battle of Secessionville was fought here in the next war."
+    "Fort Johnson Road leads through a state agency gate toward a marine research campus on James Island, beside the Charleston Harbor estuary. South Carolina designated it a scenic highway in 1988, prohibiting new off-premises outdoor advertising. The law also protects trees larger than six inches in caliper within the right-of-way: removal requires transportation department permission on Charleston County Council’s recommendation.",
+    "Fort Johnson’s guns helped the Confederates capture Fort Sumter in 1861. Confederate soldiers later buried the fort, which was uncovered in 1931. The property now supports state and federal research facilities across a 78-acre campus, largely maintained by the South Carolina Department of Natural Resources.",
+    "Approaching from Harbor View Road, turn onto Fort Johnson Road and continue through the SCDNR gate. The approach passes the Licensing Office, then Marshlands House and the Outdoor Classroom before the road forks. The right fork reaches the Marine Resources Research Institute, a one-story building with large glass windows."
   ],
   "moments": [
     {
       "title": "James Island",
       "kind": "town",
       "scene": "town",
-      "text": "The island's town has been incorporated four times, the City of Charleston having taken the first three to court and won."
+      "text": "The Town of James Island has never included the entire island. Its boundaries were central to a sequence of incorporations and court challenges beginning in 1993. Charleston challenged the first incorporation because already annexed salt marsh separated parts of the town. After further attempts, the state Supreme Court ruled in 2011 that the incorporation law was constitutional but approximately a quarter of the town was not contiguous. The remedy was closure of the whole town. A fourth incorporation followed a referendum in April 2012. The fourth incorporation went unchallenged after Charleston determined it could not successfully contest it."
+    },
+    {
+      "title": "Marshlands Plantation House",
+      "kind": "roadside",
+      "scene": "coast",
+      "text": "Marshlands House reached James Island through relocation, not original construction here. Built in 1810, the two-and-a-half-story Federal-style plantation house stood on what became the Navy shipyard site. The Navy warned that the empty house would be demolished unless it could be moved using $15,000 set aside for the purpose. Charleston took temporary possession, then transferred it to the College of Charleston, which moved it for preservation in the 1960s. SCDNR identifies it as the Marine Resources Division’s public affairs office, beside the campus road before the fork. The preserved house was listed in the National Register of Historic Places in 1973.",
+      "at": [
+        -79.90083333,
+        32.75027778
+      ]
     },
     {
       "title": "Fort Johnson",
       "kind": "roadside",
       "scene": "coast",
-      "text": "The road ends on the old ground of Fort Johnson, where the first shots of the Civil War were fired, now a 78-acre marine research campus beside the harbor.",
+      "text": "Fort Johnson occupies the northeast point of James Island, where military history and marine research share the same ground. Its brick powder magazine was built in 1765, measuring 27 feet long and 20 feet wide. In 1861, guns here were within range of Fort Sumter and helped the Confederate forces capture it. The fort and magazine received National Register recognition in 1972. The Marine Resources Center now occupies the historic fort property beside Charleston Harbor. Its research institutions include the College of Charleston’s Grice Marine Laboratory and the Hollings Marine Laboratory.",
       "at": [
         -79.89861,
         32.75222
@@ -25,28 +36,28 @@
   ],
   "sources": [
     {
-      "label": "SCDOT, National and State Scenic Byways story map",
-      "url": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
-    },
-    {
-      "label": "South Carolina Code of Laws, Title 57 Chapter 23",
+      "label": "South Carolina Legislature, Code of Laws, Title 57, Chapter 23",
       "url": "https://www.scstatehouse.gov/code/t57c023.php"
     },
     {
-      "label": "SCDNR, Directions to MRRI",
-      "url": "https://www.dnr.sc.gov/marine/mrri/directions.html"
-    },
-    {
-      "label": "SCDNR, Marine Resources Center",
+      "label": "South Carolina Department of Natural Resources, Marine Resources Center",
       "url": "https://www.dnr.sc.gov/marine/mrri/mrc.html"
     },
     {
+      "label": "South Carolina Department of Natural Resources, Directions to MRRI",
+      "url": "https://www.dnr.sc.gov/marine/mrri/directions.html"
+    },
+    {
       "label": "Wikipedia, Fort Johnson (South Carolina)",
-      "url": "https://en.wikipedia.org/wiki/Fort_Johnson_(South_Carolina)"
+      "url": "https://en.wikipedia.org/wiki/Fort_Johnson_%28South_Carolina%29"
     },
     {
       "label": "Wikipedia, James Island, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/James_Island,_South_Carolina"
+      "url": "https://en.wikipedia.org/wiki/James_Island%2C_South_Carolina"
+    },
+    {
+      "label": "Wikipedia, Marshlands Plantation House",
+      "url": "https://en.wikipedia.org/wiki/Marshlands_Plantation_House"
     }
   ],
   "reviewed": false

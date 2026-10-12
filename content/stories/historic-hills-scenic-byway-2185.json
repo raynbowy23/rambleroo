@@ -1,16 +1,18 @@
 {
   "id": "historic-hills-scenic-byway-2185",
-  "tagline": "Buggies, river towns and Iowa's oldest courthouse.",
+  "tagline": "Wooded hills lead to courthouse squares and former Des Moines River ports.",
   "intro": [
-    "The byway winds about 105 miles through the rolling hills and forests of southeast Iowa, across Wapello, Appanoose, Davis, Van Buren and Lee counties, through 20 towns without a fast-food restaurant among them. More than 100 Amish and Mennonite businesses work around Drakesville and Bloomfield, and horses and buggies share the road.",
-    "Farther east it reaches the Des Moines River and the corner of Iowa that Europeans settled first, with the oldest courthouse in the state, built at Keosauqua in 1843 and never replaced, and the site of Iowa's only Civil War battle."
+    "Historic Hills winds through southeastern Iowa’s rolling hills and forests, where horses and buggies share the road with cars. Near Keosauqua, wooded slopes alternate with farmland and streams feeding the Des Moines River. This Iowa state scenic byway links communities of Mennonites and Old Order Amish with historic river towns. Travel Iowa highlights its courthouse, historic districts and outdoor recreation. The corridor crosses Wapello, Appanoose, Davis, Van Buren and Lee counties, linking forests with the Des Moines River Water Trail and its paddling and fishing access points.",
+    "The Des Moines River carried steamboats in the nineteenth century and shaped the towns this drive connects. At Bentonsport, a dam and locks authorized in 1839 were followed by grist mills and a sawmill. The village declined after the railroad reached Des Moines in 1866. Its riverfront and sixteen original blocks became a National Register historic district in 1972, preserving the setting of a former port.",
+    "On an eastbound drive, begin with Blakesburg, then continue through Drakesville and Bloomfield, where Amish and Mennonite businesses are part of the region’s working life. Continue toward Keosauqua and the Des Moines River, then through Bentonsport and Bonaparte. Farmington follows on the river’s east bank before the drive reaches Donnellson."
   ],
   "moments": [
     {
       "title": "Bloomfield",
       "kind": "town",
       "scene": "town",
-      "text": "On October 12, 1864, a small party of Confederate soldiers raided the town and killed three citizens before retreating into Missouri.",
+      "text": "Bloomfield’s courthouse stands in a central park ringed by nineteenth-century commercial buildings. The present building followed years of borrowed courtrooms. By 1851, the first log courthouse was unusable; the county later held court in a Methodist church. Voters finally approved a replacement in 1875, and the new courthouse was completed in 1877. Its mansard roof and central bell-and-clock tower mark the square. On Franklin Street, a block rebuilt after an 1893 fire uses pressed tin and attached columns at the second-floor level. The courthouse tower is topped by a statue of Justice.",
+      "notice": "Look for the statue of Justice above the courthouse clock tower.",
       "at": [
         -92.417,
         40.751
@@ -20,7 +22,7 @@
       "title": "Keosauqua",
       "kind": "town",
       "scene": "river",
-      "text": "South of town in 1839, Iowa and Missouri militias faced off over the border in the Honey War, named for three bee trees cut down, and not a shot was fired.",
+      "text": "Van Buren County’s courthouse was completed in 1843 and remains in use in Keosauqua. Voters chose the town as county seat in 1838, on condition that it provide land and materials for the courthouse. Builders used native oak for the frame and locally made brick outside. The building has changed: its original tower and two circular walnut staircases were removed. Interior restoration from 1981 to 1983 improved safety while preserving much of its earlier appearance. It continues to serve as an active courtroom. Its exterior brick walls measure 22 inches thick on the first floor.",
       "at": [
         -91.96,
         40.735
@@ -30,7 +32,7 @@
       "title": "Bonaparte",
       "kind": "town",
       "scene": "river",
-      "text": "William Meek admired the Emperor, so he named this river town Bonaparte and gave a townsite across the river the name Napoleon, which never developed.",
+      "text": "Bonaparte began as Meek’s Mill, a Des Moines River settlement established by William Meek in 1837. When its lots were resurveyed in 1841, the name changed to Bonaparte. Meek admired Napoleon and supplied that name to another townsite across the river, but that settlement never developed. The town retains historic buildings, including a large pottery. Its riverfront district, pottery archaeological district and Meek’s Flour Mill are on the National Register, along with Des Moines River Locks No. 5 and No. 7. Bonaparte also lies along the historic Mormon Trail.",
       "at": [
         -91.801,
         40.701
@@ -43,28 +45,40 @@
       "url": "https://www.traveliowa.com/trails/historic-hills-scenic-byway/7/"
     },
     {
-      "label": "Iowa DOT, Iowa Byways Official Travel Guide",
-      "url": "https://iowadot.gov/media/916/download?inline"
+      "label": "Wikipedia, Bloomfield Square",
+      "url": "https://en.wikipedia.org/wiki/Bloomfield_Square"
     },
     {
-      "label": "Wikipedia, Bloomfield, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Bloomfield,_Iowa"
+      "label": "Wikipedia, Bentonsport",
+      "url": "https://en.wikipedia.org/wiki/Bentonsport"
+    },
+    {
+      "label": "Iowa Department of Transportation, Scenic Byway View",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
       "label": "Wikipedia, Keosauqua, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Keosauqua,_Iowa"
+      "url": "https://en.wikipedia.org/wiki/Keosauqua%2C_Iowa"
     },
     {
-      "label": "Wikipedia, Van Buren County Courthouse (Iowa)",
-      "url": "https://en.wikipedia.org/wiki/Van_Buren_County_Courthouse_(Iowa)"
+      "label": "Iowa Department of Transportation, Official Travel Guide to Iowa’s Byways",
+      "url": "https://iowadot.gov/media/916/download?inline"
     },
     {
       "label": "Wikipedia, Bonaparte, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Bonaparte,_Iowa"
+      "url": "https://en.wikipedia.org/wiki/Bonaparte%2C_Iowa"
     },
     {
-      "label": "Iowa DOT, Scenic Byway View (ArcGIS feature service)",
-      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+      "label": "Wikipedia, Farmington, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Farmington%2C_Iowa"
+    },
+    {
+      "label": "Wikipedia, Davis County Courthouse (Iowa)",
+      "url": "https://en.wikipedia.org/wiki/Davis_County_Courthouse_%28Iowa%29"
+    },
+    {
+      "label": "Wikipedia, Van Buren County Courthouse (Iowa)",
+      "url": "https://en.wikipedia.org/wiki/Van_Buren_County_Courthouse_%28Iowa%29"
     }
   ],
   "reviewed": false

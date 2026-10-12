@@ -1,16 +1,27 @@
 {
   "id": "interstate-530-990503",
-  "tagline": "Fifteen interstate miles over the world's longest bayou.",
+  "tagline": "A Pine Bluff bypass crosses the old riverbed of Bayou Bartholomew.",
   "intro": [
-    "An unlikely byway, and a plain four-lane freeway. From Highway 256 at White Hall, I-530 swings around the southwest side of Pine Bluff for 15 miles, flat across the Mississippi Alluvial Plain, to US 65 southeast of town. Its exit numbers climb southward, backward at first glance, because a spur counts its miles from where it leaves the parent road, up at Little Rock.",
-    "Locally the bypass is the Wiley Branton Highway, named for the Pine Bluff civil rights lawyer who filed the suit against the Little Rock School Board."
+    "I-530’s scenic stretch is a four-lane freeway that skirts Pine Bluff to the southwest and crosses Bayou Bartholomew on the Mississippi Alluvial Plain. Arkansas designated these 15 miles a State Scenic Byway in 2001. Arkansas DOT highlights the bayou’s wetlands, with bald cypress, birds and waterfowl, more than a hundred fish species, otters and alligators.",
+    "The interstate identity came after a change in the way traffic passed Pine Bluff. US 65 moved onto the new bypass, replacing its route through an expressway with at-grade intersections; the old road became US 65B. The bypass is known locally as the Wiley Branton Highway. Branton, born in Pine Bluff, was a civil rights lawyer who joined Thurgood Marshall in filing the 1956 suit against the Little Rock school board’s refusal to desegregate.",
+    "Begin at Highway 256 in White Hall and head south, passing the US 270 junction before the highway bends along Pine Bluff’s southwest side. The exits serve West 19th Street, South Camden Road and South Olive Street in that order. The byway finishes at Highway 65 southeast of Pine Bluff. The exit numbers rise southward because I-530 is a spur: its mileage begins at the parent interstate in Little Rock and increases toward Pine Bluff."
   ],
   "moments": [
+    {
+      "title": "Pine Bluff Arsenal Access Road Bridge No. 2280",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "On Highway 256 near White Hall, a concrete bridge over Caney Creek links White Hall and the Pine Bluff Arsenal to the surrounding road network. The arsenal was founded in 1941; the bridge followed in 1942, using money authorized by the National Defense Highway Act of 1941. Its concrete deck rests on abutments and four cast concrete piers, spanning a total of 152 feet. The roadway is 28 feet wide, carried on a concrete girder structure between the town and arsenal. The bridge entered the National Register of Historic Places in 2019.",
+      "at": [
+        -92.09611111,
+        34.29583333
+      ]
+    },
     {
       "title": "White Hall",
       "kind": "town",
       "scene": "town",
-      "text": "The byway begins in this small city north of Pine Bluff, home to the Pine Bluff Arsenal.",
+      "text": "White Hall marks the beginning of the 15-mile scenic stretch at Highway 256. The city is home to the Pine Bluff Arsenal. Here, southbound exit numbers increase, a detail explained by I-530’s relationship to its parent interstate. The spur starts at I-30 in Little Rock, so the numbering follows the drive toward Pine Bluff.",
       "at": [
         -92.09833,
         34.25833
@@ -20,14 +31,10 @@
       "title": "Bayou Bartholomew",
       "kind": "roadside",
       "scene": "river",
-      "text": "The highway crosses the world's longest bayou, a slow stream in an old bed of the Arkansas River with more than a hundred kinds of fish, among bald cypress and wetland."
+      "text": "I-530 crosses a watercourse that occupies an old bed of the Arkansas River. As that river changed course, its abandoned channel became Bayou Bartholomew. Before railroads spread through the region in the late nineteenth century, the bayou was the interior Delta’s most important transportation stream. Its wetlands support bald cypress, waterfowl and more than a hundred fish species. Beginning near Pine Bluff, the water winds through Arkansas and Louisiana before joining the Ouachita River. In 1995, Curtis Merrell organized the Bayou Bartholomew Alliance to work on restoring and preserving the stream."
     }
   ],
   "sources": [
-    {
-      "label": "ARDOT, Scenic Byways",
-      "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
-    },
     {
       "label": "Wikipedia, Interstate 530",
       "url": "https://en.wikipedia.org/wiki/Interstate_530"
@@ -37,12 +44,20 @@
       "url": "https://en.wikipedia.org/wiki/Bayou_Bartholomew"
     },
     {
+      "label": "Arkansas Department of Transportation, Scenic Byways",
+      "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
+    },
+    {
       "label": "Wikipedia, Wiley A. Branton",
       "url": "https://en.wikipedia.org/wiki/Wiley_A._Branton"
     },
     {
+      "label": "Wikipedia, Pine Bluff Arsenal Access Road Bridge No. 2280",
+      "url": "https://en.wikipedia.org/wiki/Pine_Bluff_Arsenal_Access_Road_Bridge_No._2280"
+    },
+    {
       "label": "Wikipedia, White Hall, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/White_Hall,_Arkansas"
+      "url": "https://en.wikipedia.org/wiki/White_Hall%2C_Arkansas"
     }
   ],
   "reviewed": false

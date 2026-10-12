@@ -1,36 +1,48 @@
 {
   "id": "general-john-stark-scenic-byway-76111",
-  "tagline": "A loop of four towns in General John Stark's country.",
+  "tagline": "Four towns, rolling farmland and river crossings in John Stark’s country",
   "intro": [
-    "From downtown Goffstown, NH 13 runs west to New Boston. The loop turns north there on NH 77 and NH 114 to Weare, east on NH 77 to Dunbarton, and south on NH 13 back to Goffstown. The Piscataquog River keeps beside much of the way, and when the byway was designated in 2008, sections of the old railroad bed through Weare, New Boston and Goffstown had already become paths for walkers and bicycles.",
-    "The state motto credited to General John Stark comes from a toast he sent his old comrades when poor health kept him from a Bennington reunion. In full it read, Live Free Or Die, Death Is Not The Worst of Evils."
+    "The General John Stark Scenic Byway makes a paved loop through Weare, New Boston, Goffstown and Dunbarton, passing villages, open farmland and rolling hills. NH 13 follows the South Branch Piscataquog River closely between New Boston and Goffstown. Designated by New Hampshire in 2008, the route combines historic and cultural sites with scenery and recreation, the four qualities identified in its corridor management plan. The byway council’s plan describes a landscape shared by all four towns: each lies within the Piscataquog watershed, and the river winds through three of them.",
+    "The byway began as a public planning effort in January 2007. A public tour followed that May, and the State Byways Council and state transportation department approved the designation in June 2008. A local council organized the following month to develop its management plan. The route’s namesake connects several stops: John Stark spent time at the Page homestead in Dunbarton, while New Boston received the cannon named for his wife, Molly. By 2008, sections of former railroad bed in Weare, New Boston and Goffstown had become walking and cycling paths.",
+    "From Weare, follow NH 114 and NH 77 south to New Boston, then NH 13 toward Goffstown along the river. Continue north on NH 13 to Dunbarton and return west on NH 77 to Weare, completing the four-town circuit."
   ],
   "moments": [
-    {
-      "title": "New Boston",
-      "kind": "town",
-      "scene": "town",
-      "text": "The Molly Stark cannon, cast in 1743 and given by the general to the town's artillery company after Bennington, is on the town seal and is fired each Fourth of July.",
-      "at": [
-        -71.69166667,
-        42.97583333
-      ]
-    },
     {
       "title": "Weare",
       "kind": "town",
       "scene": "town",
-      "text": "In 1772, after the sheriff caught a Weare sawmill cutting the king's mast pines, Ebenezer Mudgett and twenty men beat him and his deputy at the Quimby Inn and ran them out on horseback.",
+      "text": "The Pine Tree Riot began with a dispute over timber reserved for Royal Navy masts. The 1722 rule prohibited cutting white pines more than twelve inches in diameter in New Hampshire. In April 1772, Sheriff Benjamin Whiting and Deputy John Quigley went to South Weare to arrest mill-owner leader Ebenezer Mudgett. The following morning, Mudgett and other townsmen assaulted both officers at the inn where they were staying and forced them out of town. Eight men faced charges. They pleaded guilty, and the court imposed fines of twenty shillings each plus hearing costs.",
       "at": [
         -71.73055556,
         43.09472222
       ]
     },
     {
+      "title": "New Boston",
+      "kind": "town",
+      "scene": "town",
+      "text": "The Molly Stark cannon appears on New Boston’s town seal and takes part in its Fourth of July celebration. Dating to 1743, it was given by General John Stark to the New Boston Artillery Company after the Battle of Bennington. The cannon bears the name of Stark’s wife, Molly. Its annual firing accompanies a celebration with a parade through the town center to the fairgrounds, including locally made floats, marching bands and emergency vehicles. The 2008 byway inventory placed the cannon at River Road, NH 13, and Meetinghouse Hill Road.",
+      "at": [
+        -71.69166667,
+        42.97583333
+      ]
+    },
+    {
+      "title": "Goffstown Covered Railroad Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "The covered railroad bridge is gone; its concrete-capped granite abutments remain beside the Piscataquog River. The Boston and Maine Railroad built the bridge in 1901, replacing an earlier crossing built by the New Hampshire Central Railroad in 1850. It entered the National Register of Historic Places in 1975, but arson destroyed it the next year. The railroad chose not to replace it. The surviving abutments lie just east of the Main Street road bridge. Freight service continued east of the river until September 1980; complete abandonment of the line followed in February 1981.",
+      "notice": "Granite abutments capped in concrete mark the former railroad crossing.",
+      "at": [
+        -71.599145,
+        43.018172
+      ]
+    },
+    {
       "title": "Dunbarton",
       "kind": "town",
       "scene": "town",
-      "text": "Stark spent much time at the Page homestead between the wars and later married Molly Page, and the 2008 byway plan listed the homestead and his son Caleb's statue.",
+      "text": "Dunbarton once carried the name Starkstown. Granted under that name in 1748, it became Dunbarton when incorporated in 1765, taking its name from the Scottish home of settler Archibald Stark. John Stark spent time at the Page homestead between the French and Indian Wars and the Revolutionary War, and married Elizabeth “Molly” Page. The 2008 byway plan included the homestead and a statue honoring his son Caleb, who also fought in the Revolutionary War. The plan placed Caleb’s statue on the town common along Stark Highway North, among the town’s historic sites.",
       "at": [
         -71.61638889,
         43.1025
@@ -39,24 +51,32 @@
   ],
   "sources": [
     {
-      "label": "Southern NH Planning Commission, General John Stark Scenic Byway Corridor Management Plan",
+      "label": "General John Stark Byway Council / Southern New Hampshire Planning Commission, Corridor Management Plan (2008)",
       "url": "https://www.snhpc.org/DocumentCenter/View/376/Original-Corridor-Management-Plan"
     },
     {
-      "label": "Wikipedia, New Boston, New Hampshire",
-      "url": "https://en.wikipedia.org/wiki/New_Boston,_New_Hampshire"
+      "label": "Wikipedia, Goffstown (CDP), New Hampshire",
+      "url": "https://en.wikipedia.org/wiki/Goffstown_%28CDP%29%2C_New_Hampshire"
     },
     {
-      "label": "Wikipedia, Weare, New Hampshire",
-      "url": "https://en.wikipedia.org/wiki/Weare,_New_Hampshire"
+      "label": "Wikipedia, South Branch Piscataquog River",
+      "url": "https://en.wikipedia.org/wiki/South_Branch_Piscataquog_River"
+    },
+    {
+      "label": "Wikipedia, New Boston, New Hampshire",
+      "url": "https://en.wikipedia.org/wiki/New_Boston%2C_New_Hampshire"
     },
     {
       "label": "Wikipedia, Pine Tree Riot",
       "url": "https://en.wikipedia.org/wiki/Pine_Tree_Riot"
     },
     {
+      "label": "Wikipedia, Goffstown Covered Railroad Bridge",
+      "url": "https://en.wikipedia.org/wiki/Goffstown_Covered_Railroad_Bridge"
+    },
+    {
       "label": "Wikipedia, Dunbarton, New Hampshire",
-      "url": "https://en.wikipedia.org/wiki/Dunbarton,_New_Hampshire"
+      "url": "https://en.wikipedia.org/wiki/Dunbarton%2C_New_Hampshire"
     }
   ],
   "reviewed": false

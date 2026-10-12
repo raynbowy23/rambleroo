@@ -1,29 +1,47 @@
 {
   "id": "historic-lewes-byway-gateway-to-the-bayshore-991002",
-  "tagline": "The First Town in the First State, and wandering dunes.",
+  "tagline": "Town roads meet maritime history and moving dunes at Delaware Bay.",
   "motifs": [
     "harbor-village",
     "lighthouse"
   ],
   "intro": [
-    "The byway loops about a dozen miles around Lewes at the mouth of Delaware Bay, on Pilottown Road and Kings Highway, Savannah Road and Gills Neck Road, and out Cape Henlopen Drive to the state park. Travelers from New Jersey can come over on the Cape May ferry and begin from the water.",
-    "Lewes calls itself the First Town in the First State. The Dutch tried it twice, and after the English took New Netherland in 1664 the second settlement was razed until, by one report, \"not even a nail\" was left. A British cannonball from 1813 is still lodged in the foundation of Cannonball House."
+    "The Historic Lewes Byway covers 12.35 miles on six roads, linking town streets with the Delaware Bay shore. DelDOT gives the drive one hour and presents its appeal through maritime origins, historic places and natural resources. At Cape Henlopen, the Great Dune rises 80 feet above sea level, while walking dunes move slowly across pine forests. The route also takes in the five-square-mile Great Marsh and Gordon’s Pond Wildlife Area.",
+    "Kings Highway linked Lewes at the mouth of Delaware Bay with Wilmington, its economic center. Harbor protection, lighthouses and the defense of the bay became part of the town’s maritime role. In 2008, DelDOT approved the Lewes Byway as a Delaware Scenic and Historic Highway, bringing these roads into the state’s byway system.",
+    "Begin from the land on Kings Highway, Savannah Road or New Road. In Lewes, the byway’s stops include the Zwaanendael Museum and Lightship Overfalls. Pilottown Road and First Street form another part of the route; Cape Henlopen Drive takes the journey toward its sea gateway. Finish at Cape Henlopen, where the state park’s trails range from beach to pine forest. Gills Neck Road is part of the network too, and travelers arriving by ferry can enter Lewes from New Jersey."
   ],
+  "notice": "At Cape Henlopen, walking dunes move across pine forests.",
   "moments": [
     {
       "title": "Zwaanendael Museum",
       "kind": "town",
       "scene": "town",
-      "text": "Built in 1932 after the old city hall of Hoorn, stepped gable and all, it remembers a Dutch whaling post of 1631 that was gone by 1632.",
+      "text": "A stepped gable, terra cotta roof tiles and decorated shutters give the Zwaanendael Museum its Dutch architectural vocabulary. The museum was created to commemorate the 300th anniversary of Zwaanendael, Delaware’s first European settlement, founded in 1631. Wilmington architect E. William Martin designed the building. Its exhibits follow southeastern Delaware’s coastal history through shipwrecks such as HMS DeBraak, lighthouses and the pilots of the Delaware River and Bay. Above the front stands a statue of David Pietersen de Vries, one of the colony’s patroons. Carved stonework adds another seventeenth-century Dutch element to the exterior.",
+      "notice": "The museum’s front combines a stepped gable, decorated shutters and carved stonework.",
       "motifs": [
         "harbor-village"
+      ]
+    },
+    {
+      "title": "Lightship Overfalls",
+      "kind": "short walk",
+      "scene": "coast",
+      "text": "The name painted on Lightship Overfalls does not describe where this vessel served. Its working stations were Cornfield Point in Connecticut, then Cross Rip and Boston in Massachusetts. Built to replace a ship damaged in the 1938 New England hurricane, it was the last riveted-hull lightship built for the United States Lighthouse Service. A severe storm damaged it in December 1970, leading to its decommissioning in 1972. After retirement it was donated to the Lewes Historical Society; it remains preserved in Lewes as a museum ship. Its successors used welded hulls instead of rivets.",
+      "at": [
+        -75.14111111,
+        38.77791667
+      ],
+      "motifs": [
+        "harbor-village",
+        "lighthouse"
       ]
     },
     {
       "title": "Cape Henlopen",
       "kind": "roadside",
       "scene": "coast",
-      "text": "The Great Dune rises 80 feet here, and the lighthouse set on its north side for height lost its sand a few feet a year until a 1926 storm tipped it seaward.",
+      "text": "Cape Henlopen’s Great Dune rises 80 feet above sea level. The cape’s lighthouse was built on the dune’s north side to gain height, but that foundation proved vulnerable. In 1905, tons of brush were placed beside the tower and oil house to keep drifting sand from undermining them. A storm undermined the tower in April 1926, and it fell seaward. Other coastal defenses survive: the Army built Fort Miles here during World War II, and concrete observation towers, bunkers and a pier remain in the park. Cape Henlopen became a Delaware state park in 1964.",
+      "notice": "Concrete observation towers and bunkers survive from Fort Miles.",
       "at": [
         -75.09463,
         38.80317
@@ -35,20 +53,24 @@
   ],
   "sources": [
     {
-      "label": "DelDOT, Delaware Byways: Historic Lewes Byway, Gateway to the Bayshore",
+      "label": "Delaware Department of Transportation, Historic Lewes Byway, Gateway to the Bayshore",
       "url": "https://deldot.gov/Programs/byways/index.shtml?dc=lewes"
     },
     {
-      "label": "Wikipedia, Lewes, Delaware",
-      "url": "https://en.wikipedia.org/wiki/Lewes,_Delaware"
+      "label": "Wikipedia, List of Delaware Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Delaware_Byways"
+    },
+    {
+      "label": "Wikipedia, Cape Henlopen State Park",
+      "url": "https://en.wikipedia.org/wiki/Cape_Henlopen_State_Park"
     },
     {
       "label": "Wikipedia, Zwaanendael Museum",
       "url": "https://en.wikipedia.org/wiki/Zwaanendael_Museum"
     },
     {
-      "label": "Wikipedia, Cape Henlopen State Park",
-      "url": "https://en.wikipedia.org/wiki/Cape_Henlopen_State_Park"
+      "label": "Wikipedia, United States lightship Overfalls (LV-118)",
+      "url": "https://en.wikipedia.org/wiki/United_States_lightship_Overfalls_%28LV-118%29"
     },
     {
       "label": "Wikipedia, Cape Henlopen Light",

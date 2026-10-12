@@ -1,20 +1,38 @@
 {
   "id": "fredonia-vermillion-cliffs-scenic-road-11300",
-  "tagline": "Over the Colorado, under the cliffs, across the mountain lying down.",
+  "tagline": "Twin steel arches carry the story of a changing Colorado River crossing.",
   "motifs": [
     "arch-bridge",
     "hoodoos"
   ],
   "intro": [
-    "From Bitter Springs US 89A runs north along the foot of the Echo Cliffs, past bead stands and hogans, then turns west across the Colorado on Navajo Bridge and leaves Navajo land for the Arizona Strip. From there it follows the base of the Vermilion Cliffs, a 3,000-foot escarpment, past old trading post buildings at Soap Creek built around standing hoodoos, and out into the ranchland of House Rock Valley.",
-    "Then the road climbs steep and winding onto the Kaibab Plateau, which the Paiute called the mountain lying down, tops 7,900 feet, and comes down the far side to Fredonia, a name said to mean land of free women."
+    "US 89A crosses Marble Canyon on Navajo Bridge between Jacob Lake and Bitter Springs, connecting travelers with the Arizona Strip north of the Colorado River. At Jacob Lake, the road meets State Route 67 on the Kaibab Plateau. Jacob Lake stands at roughly 8,000 feet, while the community of Marble Canyon sits along the Colorado River on US 89A.",
+    "Before the first bridge opened in 1929, travelers used Lees Ferry, where weather and flooding could interrupt the crossing. The bridge replaced that uncertainty with a road crossing, but its narrow roadway and sharp approaches eventually became safety problems. A second span took over vehicle traffic in 1995. Fredonia experienced another change in 1960, when US 89 was rerouted north of Glen Canyon Dam and businesses lost passing traffic. The change is measurable in roadway width: the original span carried an 18-foot road, compared with 44 feet on the replacement.",
+    "From the Fredonia end, the journey’s anchors are Jacob Lake’s junction with Route 67, then the twin spans at Marble Canyon, and Bitter Springs, a terminus of US 89A on the Navajo Nation. At the crossing, the original arch stands 467 feet above the river beside its 470-foot successor."
   ],
   "moments": [
+    {
+      "title": "Jacob Lake",
+      "kind": "town",
+      "scene": "forest",
+      "text": "A small, permanent pond made Jacob Lake an important stopping place for travelers moving from Utah into Arizona. Water was scarce on the porous Kaibab Limestone. The community stands roughly a mile from the pond; both take their name from Jacob Hamblin, a Mormon pioneer in southern Utah and northern Arizona. In 1923, Harold and Nina Bowman founded Jacob Lake Inn to serve Grand Canyon travelers. Route 67 begins here, leaving US 89A on the Kaibab Plateau, and is the only paved road to the North Rim, some 44 miles south.",
+      "at": [
+        -112.21639,
+        36.71333
+      ]
+    },
+    {
+      "title": "House Rock Valley",
+      "kind": "separate excursion",
+      "scene": "desert",
+      "text": "House Rock Valley lies east of the Kaibab Plateau. In the early 1900s, “Buffalo Jones” held a buffalo herd in the Bar Z corrals at Jacob Lake before driving it to a ranch in the valley. Those same corrals later held a cattalo, the offspring of one of Jones’ buffalo and a domesticated Hereford bull."
+    },
     {
       "title": "Navajo Bridge",
       "kind": "short walk",
       "scene": "river",
-      "text": "Traffic takes the 1995 span. The original bridge beside it, which replaced the ferry at Lees Ferry, is kept for walking out 467 feet above the river.",
+      "text": "The two steel arches record two different eras of road travel. The original bridge opened in 1929 with an 18-foot roadway. By 1984, Arizona transportation officials judged the traffic too great; narrow width, load limits and sharp approach curves had become problems. The replacement opened in 1995 with a 44-foot roadway, leaving the older span for pedestrians and equestrians. The old bridge rises 467 feet above the river; the newer one reaches 470 feet. The replacement was designed to resemble the original while meeting modern highway standards, preserving the paired arches’ visual relationship.",
+      "notice": "Compare the paired steel arches and the narrow roadway of the original span.",
       "at": [
         -111.63167,
         36.81778
@@ -22,40 +40,28 @@
       "motifs": [
         "arch-bridge"
       ]
-    },
-    {
-      "title": "House Rock Valley",
-      "kind": "separate excursion",
-      "scene": "desert",
-      "text": "A side road runs north under the cliffs to the California condor release site, where the reintroduction began in 1996. Traces of the Mormon Honeymoon Trail follow the fence."
-    },
-    {
-      "title": "Jacob Lake",
-      "kind": "town",
-      "scene": "forest",
-      "text": "The road crests at an inn founded in 1923 for tourists trying to reach the Grand Canyon. SR 67, the only paved road to the North Rim, starts here.",
-      "at": [
-        -112.21639,
-        36.71333
-      ]
     }
   ],
   "sources": [
-    {
-      "label": "ADOT, Fredonia-Vermilion Cliffs Scenic Road Corridor Management Plan (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20250714101659/https://azdot.gov/sites/default/files/2019/05/cmp_vermillion_cliffs.pdf"
-    },
     {
       "label": "Wikipedia, Navajo Bridge",
       "url": "https://en.wikipedia.org/wiki/Navajo_Bridge"
     },
     {
       "label": "Wikipedia, Jacob Lake, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Jacob_Lake,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Jacob_Lake%2C_Arizona"
+    },
+    {
+      "label": "Wikipedia, Marble Canyon, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Marble_Canyon%2C_Arizona"
     },
     {
       "label": "Wikipedia, Fredonia, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Fredonia,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Fredonia%2C_Arizona"
+    },
+    {
+      "label": "Wikipedia, Bitter Springs, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Bitter_Springs%2C_Arizona"
     }
   ],
   "reviewed": false

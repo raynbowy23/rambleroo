@@ -1,16 +1,27 @@
 {
   "id": "great-divide-highway-2325",
-  "tagline": "Small lakes and a message beneath the sea.",
+  "tagline": "Forest lakes, returning elk and a former link to submarines",
   "intro": [
-    "Through the Chequamegon National Forest, the Great Divide Highway runs about 29 miles, crossing lakes, swamps and bogs on its way to Clam Lake on Highway 77. Clam Lake sits near the headwaters of the Chippewa Flowage, among smaller lakes known for musky fishing.",
-    "In 1995 the University of Wisconsin-Stevens Point brought a herd of 25 elk to Clam Lake, the start of their return to Wisconsin. The community itself counted 36 people in 2020."
+    "The Great Divide Highway passes through forest and crosses lakes, swamps and bogs in Wisconsin’s Chequamegon-Nicolet National Forest. The Federal Highway Administration calls it the Great Divide National Scenic Highway and highlights the Northwoods’ plant and animal diversity. Its description gives a length of 29 miles and allows three to five hours for a tour.",
+    "Clam Lake brought an unusual connection to this forest: from 1985 to 2004, a Navy transmitter used extremely low frequency signals to communicate with deeply submerged submarines. During that period, another project began here when the University of Wisconsin–Stevens Point reintroduced 25 elk in 1995.",
+    "Foo Lake is a four-acre seepage lake in the national forest. Clam Lake lies on Highway 77 near County Highway GG, close to the headwaters of the Chippewa Flowage. Several smaller lakes in the Clam Lake area hold muskellunge."
   ],
   "moments": [
+    {
+      "title": "Lost Land Lake",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Lost Land Lake covers 1,264 acres, but its average depth is 12 feet and its deepest point is 21 feet. Muskellunge, largemouth and smallmouth bass, northern pike and walleye inhabit the water. Much of the lake is surrounded by the Chequamegon-Nicolet National Forest.",
+      "at": [
+        -91.1453067,
+        46.09856
+      ]
+    },
     {
       "title": "Foo Lake",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "A four-acre lake in the national forest, fed by seepage from the surrounding swamp, with a muck bottom and, by the state's count, no sport fish.",
+      "text": "Foo Lake is fed by seepage from the swamp surrounding it, and its bottom is muck. The four-acre lake lies in Sawyer County’s portion of the Chequamegon National Forest. The Wisconsin Department of Natural Resources reports that it contains no sport fish.",
       "at": [
         -91.1286663,
         46.0606907
@@ -20,7 +31,7 @@
       "title": "Clam Lake",
       "kind": "town",
       "scene": "forest",
-      "text": "From 1985 to 2004, a Navy transmitter here sent extremely low frequency signals to deeply submerged submarines; it is now decommissioned.",
+      "text": "A transmitter at Clam Lake once reached submarines deep beneath the sea. The U.S. Navy used extremely low frequency signals here from 1985 to 2004; the installation is now decommissioned. The community also became a site of Wisconsin’s elk reintroduction when the University of Wisconsin–Stevens Point brought a herd of 25 in 1995. Clam Lake lies within the Chequamegon National Forest, on Highway 77 near County Highway GG.",
       "at": [
         -90.90194444,
         46.16388889
@@ -29,16 +40,20 @@
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Great Divide Highway",
+      "label": "Federal Highway Administration, Great Divide Highway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2325"
+    },
+    {
+      "label": "Wikipedia, Clam Lake, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Clam_Lake%2C_Wisconsin"
     },
     {
       "label": "Wikipedia, Foo Lake",
       "url": "https://en.wikipedia.org/wiki/Foo_Lake"
     },
     {
-      "label": "Wikipedia, Clam Lake, Wisconsin",
-      "url": "https://en.wikipedia.org/wiki/Clam_Lake%2C_Wisconsin"
+      "label": "Wikipedia, Lost Land Lake",
+      "url": "https://en.wikipedia.org/wiki/Lost_Land_Lake"
     }
   ],
   "reviewed": false
