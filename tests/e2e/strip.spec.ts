@@ -242,13 +242,13 @@ for (const relief of [false, true]) {
     await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(y + 500)
     expect(await page.evaluate(() => window.__rambleroo3d!.offsets())).toEqual(offset)
     await map.getByRole('button', { name: 'Reset view', exact: true }).click()
-    expect(await page.evaluate(() => window.__rambleroo3d!.offsets())).toEqual({ zoom: 0, bearing: 0, pitch: 0 })
+    expect(await page.evaluate(() => window.__rambleroo3d!.offsets())).toEqual({ zoom: 0, bearing: 0, pitch: 0, panX: 0, panY: 0 })
     await expect.poll(() => page.evaluate(() => window.__rambleroo3d!.zoom())).toBeCloseTo(zoom, 4)
     await expect(map.getByRole('button', { name: 'Reset view', exact: true })).toHaveCount(0)
     await map.focus()
     await page.keyboard.press('+')
     await page.keyboard.press(']')
-    expect(await page.evaluate(() => window.__rambleroo3d!.offsets())).toEqual({ zoom: 0.5, bearing: 15, pitch: 0 })
+    expect(await page.evaluate(() => window.__rambleroo3d!.offsets())).toEqual({ zoom: 0.5, bearing: 15, pitch: 0, panX: 0, panY: 0 })
   })
 }
 

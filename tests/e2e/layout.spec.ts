@@ -54,6 +54,8 @@ for (const width of [1440, 390]) {
 }
 
 test('explore keeps a compact collection rail and hides the selected cartouche below 1280px', async ({ page }) => {
+  // Desktop and tablet widths only: a phone profile cannot emulate a 1440 px window (the mobile layout has its own tests).
+  test.skip(!!test.info().project.use.isMobile, 'desktop widths only')
   await page.setViewportSize({ width: 1440, height: 900 })
   await page.goto('/')
   const rail = page.locator('main [class*="rail"]').first()
