@@ -4,7 +4,7 @@ import { longestPart, journeyPoint } from '../../features/map/routeJourney'
 import { useEffect, useRef, useState } from 'react'
 import maplibre from '../../features/map/maplibre'
 import { createMapStyle, palette } from '../../features/map/style'
-import { addBywayLayers, loadBywayGeometry } from '../../features/map/layers'
+import { addBywayLayers, loadRoadsGeometry } from '../../features/map/layers'
 import type { BywaySummary, StoryMoment } from '../../lib/types'
 import s from './Content.module.css'
 import { useMotionEnabled } from '../../lib/motion'
@@ -86,11 +86,11 @@ export function RouteMap({
         if (!isTerrainError(event)) fail()
       })
       current.on('load', () => {
-        void loadBywayGeometry()
+        void loadRoadsGeometry(byways.map((b) => b.id))
           .then((data) => {
             if (disposed) return
             const ids = new Set(byways.map((b) => b.id))
-            addBywayLayers(current, { ...data, features: data.features.filter((f) => ids.has(f.properties.id)) })
+            addBywayLayers(current, data)
             const c = palette()
             // Passport and collection maps colour roads by state (visited, saved, emphasised), so they keep plain lines at every zoom.
             if (visited || emphasized.length) {

@@ -2,12 +2,12 @@ import { ReliefControls } from './ReliefControls'
 import { clickMargin, pickRoad } from './pick'
 import { useEffect, useRef, useState } from 'react'
 import maplibregl from './maplibre'
-import type { Map, PointLike } from './maplibre'
+import type { GeoJSONSource, Map, PointLike } from './maplibre'
 import type { BywaySummary } from '../../lib/types'
 import { useMotionEnabled } from '../../lib/motion'
 import { createMapStyle } from './style'
 import { bindBasemapFallback, basemapService } from './basemap'
-import { addBywayLayers, filteredLayers, loadBywayGeometry } from './layers'
+import { addBywayLayers, filteredLayers, loadBywayGeometry, loadOverviewGeometry, loadRoadGeometry, OVERVIEW_MAX_ZOOM } from './layers'
 import { addDecor } from './decor'
 import { strokes } from './routeArt'
 import { animateSelection, setMomentPins } from './selection'
@@ -111,7 +111,7 @@ export function BywayMap({
     if (!container.current) return
     const started = performance.mark('byways:map-start')
     let disposed = false
-    const geometry = loadBywayGeometry()
+    const geometry = loadOverviewGeometry()
     // Attach a rejection handler immediately while the style initializes.
     void geometry.catch(() => {})
     let stopProfile = () => {}
@@ -158,6 +158,18 @@ export function BywayMap({
           addDecor(map)
           addBywayLayers(map, data)
           performance.mark('byways:attached')
+          // Zoomed in past the overview's detail: swap in the full lines, once.
+          const detail = () => {
+            if (map.getZoom() < OVERVIEW_MAX_ZOOM) return
+            map.off('zoomend', detail)
+            void loadBywayGeometry()
+              .then((full) => {
+                if (!disposed) (map.getSource('byways') as GeoJSONSource | undefined)?.setData(full)
+              })
+              .catch(() => map.on('zoomend', detail))
+          }
+          map.on('zoomend', detail)
+          detail()
           const firstRoutes = () => {
             if (!map.queryRenderedFeatures({ layers: ['byway-lines', 'byway-art'] }).length) return
             performance.mark('byways:first-render')
@@ -286,7 +298,7 @@ export function BywayMap({
     }
     let cancelled = false
     let stop = () => {}
-    void loadBywayGeometry().then((data) => {
+    void loadRoadGeometry(selected.id).then((data) => {
       if (cancelled) return
       const features = data.features.filter((f) => f.properties.id === selected.id)
       // Drive only once the camera has arrived, so the whole run is on screen.

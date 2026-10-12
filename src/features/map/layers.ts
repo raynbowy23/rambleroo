@@ -22,6 +22,47 @@ export function loadBywayGeometry() {
   }
   return geometry
 }
+// The country view draws a simplified copy (scripts/ingest/split-geometry.ts, about a quarter of the size) and swaps to full detail
+// once zoomed in past OVERVIEW_MAX_ZOOM; a single road's views fetch only that road's lines.
+/** Below this zoom the simplified lines (OVERVIEW_TOLERANCE in scripts/ingest/split-geometry.ts) are within about a pixel of the real ones. */
+export const OVERVIEW_MAX_ZOOM = 7
+const fetchGeometry = (url: string) =>
+  fetch(url).then((r) => {
+    if (!r.ok) throw new Error('Route geometry unavailable')
+    return r.json() as Promise<BywayGeometry>
+  })
+let overview: Promise<BywayGeometry> | undefined
+export function loadOverviewGeometry() {
+  return (overview ??= fetchGeometry('/data/byways-overview.geojson').catch((error: unknown) => {
+    overview = undefined
+    throw error
+  }))
+}
+const roads = new globalThis.Map<string, Promise<BywayGeometry>>()
+/** One road's full lines, from the full file when it is already loaded, else from that road's own small file. */
+export function loadRoadGeometry(id: string) {
+  if (geometry) return geometry.then((data) => ({ ...data, features: data.features.filter((f) => f.properties.id === id) }))
+  if (!roads.has(id))
+    roads.set(
+      id,
+      fetchGeometry(`/data/geometry/${encodeURIComponent(id)}.json`).catch((error: unknown) => {
+        roads.delete(id)
+        throw error
+      }),
+    )
+  return roads.get(id)!
+}
+/** Several roads' full lines: one small file each for a handful of roads, the full file for more. */
+export function loadRoadsGeometry(ids: string[]) {
+  if (geometry || ids.length > 24) {
+    const wanted = new Set(ids)
+    return loadBywayGeometry().then((data) => ({ ...data, features: data.features.filter((f) => wanted.has(f.properties.id)) }))
+  }
+  return Promise.all(ids.map(loadRoadGeometry)).then((parts) => ({
+    type: 'FeatureCollection' as const,
+    features: parts.flatMap((p) => p.features),
+  }))
+}
 export function addBywayLayers(map: Map, data: BywayGeometry) {
   const c = palette()
   // Each road family in its own earth ink (all browns and umbers, so the map stays sepia), with the landscape motif closer in.
