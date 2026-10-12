@@ -127,7 +127,7 @@ test('peek leaves room for the map and supports dragging and tapping', async ({ 
   await expect(sheet).not.toHaveAttribute('data-snap', snap!)
 })
 
-test('browse filters are a dismissible sheet; selected postcard swipes closed', async ({ page }) => {
+test('browse filters are a dismissible sheet; selected postcard swipes down to a slim bar and keeps the road', async ({ page }) => {
   await page.goto('/?view=gallery')
   await page.getByRole('button', { name: 'Filters', exact: true }).tap()
   const dialog = page.getByRole('dialog', { name: 'Filter byways' })
@@ -140,12 +140,22 @@ test('browse filters are a dismissible sheet; selected postcard swipes closed', 
   const postcard = page.locator('[data-map-panel="postcard"]')
   await expect(postcard).toBeVisible()
   expect((await postcard.boundingBox())!.height).toBeLessThanOrEqual((await page.locator('main').boundingBox())!.height * 0.75 + 1)
-  const handle = (await page.getByRole('button', { name: 'Swipe down to close postcard' }).boundingBox())!
+  const handle = (await page.getByRole('button', { name: 'Swipe down to minimize postcard' }).boundingBox())!
   await page.mouse.move(handle.x + handle.width / 2, handle.y + 22)
   await page.mouse.down()
   await page.mouse.move(handle.x + handle.width / 2, handle.y + 150, { steps: 12 })
   await page.mouse.up()
+  // Minimized, not closed: the road stays selected and only a slim bar with its name remains.
+  await expect(postcard).toBeVisible()
+  await expect(page).toHaveURL(/byway=great-river-road-2279/)
+  expect((await postcard.boundingBox())!.height).toBeLessThan(140)
+  await postcard.getByRole('button', { name: 'Great River Road', exact: true }).tap()
+  await expect(page.getByRole('button', { name: 'Swipe down to minimize postcard' })).toBeVisible()
+  expect((await postcard.boundingBox())!.height).toBeGreaterThan(200)
+  await page.getByRole('button', { name: 'Swipe down to minimize postcard' }).tap()
+  await postcard.getByRole('button', { name: 'Close postcard' }).tap()
   await expect(postcard).toBeHidden()
+  await expect(page).not.toHaveURL(/byway=/)
 })
 
 // Regression: Safari flattens 3D under the card's clip-path and used to show the mirrored back instead of the front.

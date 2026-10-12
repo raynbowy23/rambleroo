@@ -1,6 +1,7 @@
 import { useRef, useState, type CSSProperties, type PointerEvent } from 'react'
 
-/** Capture only the handle, leaving the sheet's content free to scroll. */
+/** Capture only the handle, leaving the sheet's content free to scroll. With `dismiss`, the sheet has two states (0 minimized, 1 open): swiping
+ * down minimizes, swiping up or tapping the handle toggles back. */
 export function useSheetDrag(snap: number, onSnap: (snap: number) => void, dismiss = false) {
   const ref = useRef<HTMLDivElement>(null)
   const gesture = useRef<{ y: number; height: number; lastY: number; time: number; velocity: number; moved: boolean } | null>(null)
@@ -18,7 +19,9 @@ export function useSheetDrag(snap: number, onSnap: (snap: number) => void, dismi
       const distance = event.clientY - drag.y
       const velocity = performance.now() - drag.time < 100 ? drag.velocity : 0
       if (dismiss) {
+        // Two-state sheet: a downward swipe minimizes (0), an upward one opens it again (1).
         if (distance > 80 || (distance > 20 && velocity > 0.45)) onSnap(0)
+        else if (distance < -60 || (distance < -20 && velocity < -0.45)) onSnap(1)
       } else {
         const projected = drag.height - distance - velocity * 180
         const heights = stops()
@@ -73,7 +76,7 @@ export function useSheetDrag(snap: number, onSnap: (snap: number) => void, dismi
       onPointerCancel: (event: PointerEvent<HTMLButtonElement>) => finish(event, true),
       onLostPointerCapture: (event: PointerEvent<HTMLButtonElement>) => finish(event, true),
       onClick() {
-        if (!suppressClick.current) onSnap(dismiss ? 0 : (snap + 1) % 3)
+        if (!suppressClick.current) onSnap(dismiss ? (snap === 0 ? 1 : 0) : (snap + 1) % 3)
         suppressClick.current = false
       },
     },
