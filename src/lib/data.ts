@@ -2,10 +2,53 @@ import { useEffect, useState } from 'react'
 import type { BywaySummary, BywayStory, Collection, Photo, StateChapter } from './types'
 import collectionData from '../../content/collections.json'
 export const collections: Collection[] = collectionData as Collection[]
-const chapterModules = import.meta.glob<StateChapter>('../../content/states/*.json', { eager: true, import: 'default' })
-export const stateChapters: Record<string, StateChapter> = Object.fromEntries(
-  Object.values(chapterModules).map((chapter) => [chapter.code, chapter]),
-)
+// State chapters load one file at a time, only on the pages that show them, so the 50 chapters stay out of the first download.
+const chapterModules = import.meta.glob<StateChapter>('../../content/states/*.json', { import: 'default' })
+const chapterLoaders = new Map(Object.entries(chapterModules).map(([path, load]) => [path.replace(/^.*\/|\.json$/g, ''), load]))
+/** State codes that have a chapter, in alphabetical order of code. */
+export const chapterCodes = [...chapterLoaders.keys()].sort()
+const chapterCache = new Map<string, Promise<StateChapter | undefined>>()
+const chaptersLoaded = new Map<string, StateChapter>()
+export function loadChapter(code: string) {
+  if (!chapterCache.has(code)) {
+    const load = chapterLoaders.get(code)
+    chapterCache.set(
+      code,
+      load
+        ? load().then(
+            (chapter) => (chaptersLoaded.set(code, chapter), chapter),
+            (error: unknown) => {
+              chapterCache.delete(code)
+              throw error
+            },
+          )
+        : Promise.resolve(undefined),
+    )
+  }
+  return chapterCache.get(code)!
+}
+/** The chapters for these state codes, as they arrive; states without a chapter are left out. */
+export function useChapters(codes: string[]) {
+  const key = codes.join(',')
+  const [, rerender] = useState(0)
+  useEffect(() => {
+    let active = true
+    const wanted = key ? key.split(',') : []
+    if (wanted.every((code) => chaptersLoaded.has(code) || !chapterLoaders.has(code))) return
+    void Promise.allSettled(wanted.map(loadChapter)).then(() => {
+      if (active) rerender((n) => n + 1)
+    })
+    return () => {
+      active = false
+    }
+  }, [key])
+  return (key ? key.split(',') : []).flatMap((code) => chaptersLoaded.get(code) ?? [])
+}
+/** One state's chapter: `ready` once it has loaded or turned out not to exist. */
+export function useChapter(code: string) {
+  const [chapter] = useChapters([code])
+  return { chapter, ready: !!chapter || !chapterLoaders.has(code) }
+}
 export interface CatalogMeta {
   builtAt: string
   retrievedAt: string

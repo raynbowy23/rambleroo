@@ -4,6 +4,7 @@
 // A frame must be on the mapped line within MAX_M of the moment's anchor; frames facing the anchor score higher.
 // Usage: npx tsx scripts/streetview/moments.ts [byway-id ...]   Writes content/streetview-moments.json.
 import { readFile, readdir, writeFile } from 'node:fs/promises'
+import { splitStreetViews } from './split.ts'
 import type { BywayStory, Photo, StreetView } from '../../src/lib/types'
 import { ROOT, search, nearest, metres, bearing, turn, sleep, rejects, rejectedImage, type Pt } from './lib'
 
@@ -76,3 +77,4 @@ for (const file of files) {
 }
 await writeFile(OUT, JSON.stringify(views, null, 2) + '\n')
 console.log(`${views.length} of ${tried} moments have a frame`)
+console.log(`${await splitStreetViews()} street-frame files`)

@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router'
-import { stateChapters, useCatalog, useCovers, firstPhoto } from '../../lib/data'
+import { useChapter, useCatalog, useCovers, firstPhoto } from '../../lib/data'
 import { states } from '../../lib/states'
 import type { Theme } from '../../lib/types'
 import { Hero, PageStatus, Sources, ThemeChips } from '../../components/ui/Content'
@@ -9,7 +9,7 @@ import { Postcard } from '../explore/Postcard'
 import s from '../../components/ui/Content.module.css'
 export default function StatePage() {
   const code = (useParams().code ?? '').toUpperCase()
-  const chapter = stateChapters[code]
+  const { chapter, ready } = useChapter(code)
   const { byways, byId, status } = useCatalog()
   const covers = useCovers()
   const [theme, setTheme] = useState<Theme | ''>('')
@@ -21,7 +21,7 @@ export default function StatePage() {
     [byways, code],
   )
   if (!states[code]) return <PageStatus title="State not found" />
-  if (status === 'loading') return <PageStatus title={`Opening ${states[code]}…`} />
+  if (status === 'loading' || !ready) return <PageStatus title={`Opening ${states[code]}…`} />
   if (status === 'error') return <PageStatus title="The catalog could not be loaded" error />
   const members = chapter?.programs.flatMap((p) => p.members.flatMap((m) => (m.bywayId ? [m.bywayId] : []))) ?? []
   const first = byId.get(members[0]) ?? roads[0]
