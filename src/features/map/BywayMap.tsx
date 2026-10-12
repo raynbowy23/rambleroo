@@ -1,7 +1,8 @@
 import { ReliefControls } from './ReliefControls'
+import { clickMargin, pickRoad } from './pick'
 import { useEffect, useRef, useState } from 'react'
 import maplibregl from './maplibre'
-import type { Map } from './maplibre'
+import type { Map, PointLike } from './maplibre'
 import type { BywaySummary } from '../../lib/types'
 import { useMotionEnabled } from '../../lib/motion'
 import { createMapStyle } from './style'
@@ -41,6 +42,9 @@ export function BywayMap({
 }) {
   const container = useRef<HTMLDivElement>(null)
   const ref = useRef<Map | null>(null)
+  const compass = useRef<HTMLDivElement>(null)
+  const selectedId = useRef(selected?.id)
+  selectedId.current = selected?.id
   const [ready, setReady] = useState(false)
   const [padding, setPadding] = useState({ top: 100, bottom: 260, left: 390, right: 40 })
   useEffect(() => {
@@ -129,11 +133,16 @@ export function BywayMap({
     // Development-only handle for debugging map layers from the browser console.
     if (import.meta.env.DEV) (window as unknown as { __rambleMap?: Map }).__rambleMap = map
     ref.current = map
+    // The compass rose turns with the map, so its N always points to true north on screen.
+    const turnCompass = () => compass.current?.style.setProperty('--bearing', `${-map.getBearing()}deg`)
+    map.on('rotate', turnCompass)
+    turnCompass()
     map.addControl(
       new maplibregl.AttributionControl({ compact: true, customAttribution: `Natural Earth · USDOT · ${basemapService.attribution}` }),
       'bottom-left',
     )
-    const tooltip = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12 })
+    // The road-name popup has a close button: on a phone a tap leaves it up (there is no hover to end), so it can be put away by hand.
+    const tooltip = new maplibregl.Popup({ closeButton: true, closeOnClick: false, offset: 12 })
     map.on('webglcontextlost', () => {
       if (!disposed) callbacks.current.onFailure()
     })
@@ -147,7 +156,7 @@ export function BywayMap({
         .then((data) => {
           if (disposed) return
           addDecor(map)
-          addBywayLayers(map, data, byways)
+          addBywayLayers(map, data)
           performance.mark('byways:attached')
           const firstRoutes = () => {
             if (!map.queryRenderedFeatures({ layers: ['byway-lines', 'byway-art'] }).length) return
@@ -171,10 +180,19 @@ export function BywayMap({
             map.getCanvas().style.cursor = 'pointer'
             tooltip.setLngLat(e.lngLat).setText(String(f.properties.name)).addTo(map)
           })
-          map.on('mouseleave', 'byway-hit', () => {
+          // Moving onto the popup itself (to reach its close button) keeps it up; leaving the popup puts it away.
+          const ontoPopup = (e: maplibregl.MapMouseEvent) => {
+            const to = (e.originalEvent as MouseEvent).relatedTarget
+            return to instanceof Node && !!tooltip.getElement()?.contains(to)
+          }
+          const hide = () => {
             useHover.getState().setId(null)
             tooltip.remove()
             map.getCanvas().style.cursor = ''
+          }
+          tooltip.on('open', () => tooltip.getElement()?.addEventListener('mouseleave', hide))
+          map.on('mouseleave', 'byway-hit', (e) => {
+            if (!ontoPopup(e)) hide()
           })
           map.on('mousemove', 'route-moments', (e) => {
             const moment = e.features?.[0]
@@ -182,15 +200,32 @@ export function BywayMap({
             map.getCanvas().style.cursor = 'pointer'
             tooltip.setLngLat(e.lngLat).setText(String(moment.properties.title)).addTo(map)
           })
-          map.on('mouseleave', 'route-moments', () => {
-            tooltip.remove()
-            map.getCanvas().style.cursor = ''
+          map.on('mouseleave', 'route-moments', (e) => {
+            if (!ontoPopup(e)) hide()
           })
           map.on('click', (e) => {
-            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'byway-marks', 'story-points', 'route-moments'] })[0]
-            // A click on open map (not a road) goes back to the whole country; the card's close button keeps the view instead.
-            if (!feature) goHome.current = true
-            callbacks.current.onSelect(feature ? String(feature.properties.id) : null)
+            // Roads within a small margin of the click count, so a near miss beside a road does not reset the view (pick.ts).
+            const margin = clickMargin(matchMedia('(any-pointer: coarse)').matches)
+            const box: [PointLike, PointLike] = [
+              [e.point.x - margin, e.point.y - margin],
+              [e.point.x + margin, e.point.y + margin],
+            ]
+            const candidates = map.queryRenderedFeatures(box, { layers: ['byway-hit', 'route-moments'] }).map((feature) => {
+              const g = feature.geometry
+              const lines =
+                g.type === 'Point'
+                  ? [[g.coordinates]]
+                  : g.type === 'LineString'
+                    ? [g.coordinates]
+                    : g.type === 'MultiLineString'
+                      ? g.coordinates
+                      : []
+              return { id: String(feature.properties.id), parts: lines.map((line) => line.map((c) => map.project(c as [number, number]))) }
+            })
+            const id = pickRoad(candidates, e.point, margin, selectedId.current)
+            // A click on open map (not near a road) goes back to the whole country; the card's close button keeps the view instead.
+            if (!id) goHome.current = true
+            callbacks.current.onSelect(id)
           })
         })
         .catch(() => {
@@ -321,7 +356,7 @@ export function BywayMap({
         <span className="kicker">Rambleroo · Est. 2026</span>
         <h2>America’s scenic byways</h2>
       </div>
-      <div data-map-decoration className={`${styles.compass} ${selected ? styles.selectedCompass : ''}`}>
+      <div ref={compass} data-map-decoration className={`${styles.compass} ${selected ? styles.selectedCompass : ''}`}>
         <Compass size={70} />
       </div>
       <div data-map-decoration className={`${styles.controls} ${selected ? styles.selectedControls : ''}`}>
@@ -376,9 +411,6 @@ export function BywayMap({
             {stroke.label}
           </span>
         ))}
-        <span className={styles.legendItem}>
-          <b aria-hidden="true">●</b>Has a story
-        </span>
       </div>
     </>
   )

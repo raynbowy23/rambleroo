@@ -1,5 +1,6 @@
 import { ReliefControls } from '../../features/map/ReliefControls'
 import { isTerrainError } from '../../features/map/terrain'
+import { longestPart, journeyPoint } from '../../features/map/routeJourney'
 import { useEffect, useRef, useState } from 'react'
 import maplibre from '../../features/map/maplibre'
 import { createMapStyle, palette } from '../../features/map/style'
@@ -89,7 +90,7 @@ export function RouteMap({
           .then((data) => {
             if (disposed) return
             const ids = new Set(byways.map((b) => b.id))
-            addBywayLayers(current, { ...data, features: data.features.filter((f) => ids.has(f.properties.id)) }, byways)
+            addBywayLayers(current, { ...data, features: data.features.filter((f) => ids.has(f.properties.id)) })
             const c = palette()
             // Passport and collection maps colour roads by state (visited, saved, emphasised), so they keep plain lines at every zoom.
             if (visited || emphasized.length) {
@@ -110,7 +111,6 @@ export function RouteMap({
               current.setPaintProperty('byway-lines', 'line-opacity', ['case', ['in', ['get', 'id'], ['literal', emphasized]], 1, 0.35])
               current.setPaintProperty('byway-lines', 'line-width', ['case', ['in', ['get', 'id'], ['literal', emphasized]], 4, 2])
             }
-            current.setLayoutProperty('story-points', 'visibility', 'none')
             if (byways.length === 1 && !visited) {
               ;(current.getSource('selected') as maplibre.GeoJSONSource).setData({
                 ...data,
@@ -118,6 +118,7 @@ export function RouteMap({
               })
               current.setPaintProperty('selected-glow', 'line-opacity', 0)
               current.setLayoutProperty('selected-art', 'visibility', 'none')
+              const route = longestPart(data.features.filter((f) => ids.has(f.properties.id)).flatMap((f) => f.geometry.coordinates))
               const start = performance.now()
               const color = c('forest')
               const trace = (now: number) => {
@@ -130,6 +131,14 @@ export function RouteMap({
                   Math.max(0.00001, progress),
                   'rgba(0,0,0,0)',
                 ])
+                if (route) {
+                  const point = journeyPoint(route, progress)
+                  ;(current.getSource('route-car') as maplibre.GeoJSONSource).setData({
+                    type: 'Feature',
+                    properties: { bearing: point.bearing },
+                    geometry: { type: 'Point', coordinates: point.coordinates },
+                  })
+                }
                 if (progress < 1) frame = requestAnimationFrame(trace)
               }
               trace(start)

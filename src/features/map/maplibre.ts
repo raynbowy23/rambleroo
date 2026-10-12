@@ -9,6 +9,7 @@ export default maplibregl
 export type {
   CustomLayerInterface,
   Map,
+  PointLike,
   GeoJSONSource,
   ExpressionSpecification,
   StyleSpecification,

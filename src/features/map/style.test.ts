@@ -24,7 +24,7 @@ it.each(['pattern', 'dash'])('validates the basemap and %s routes with the share
       style.layers.push(layer)
     },
   } as unknown as Map
-  addBywayLayers(adapter, { type: 'FeatureCollection', features: [] }, [])
+  addBywayLayers(adapter, { type: 'FeatureCollection', features: [] })
   expect(validateStyleMin(style).map((e) => e.message)).toEqual([])
   expect(style.glyphs).toBe(basemapService.glyphs)
   window.history.replaceState(null, '', '/')

@@ -145,6 +145,19 @@
   cursor: grabbing;
 }
 
+.rr-mini-zoom .rr-mini-labels {
+  margin-top: 6px;
+  font:
+    600 13px/1 Georgia,
+    serif;
+}
+.rr-mini-zoom .rr-mini-labels[aria-pressed='false'] {
+  color: #8a8270;
+  text-decoration: line-through;
+}
+.rr-mini-nolabels .rr-mini-town {
+  display: none;
+}
 .rr-mini-town {
   position: absolute;
   z-index: 6;

@@ -24,6 +24,8 @@ vi.mock('../../features/map/maplibre', () => ({
       getLayer = vi.fn()
       removeSource = vi.fn()
       jumpTo = vi.fn()
+      isMoving = () => false
+      getPitch = () => 45
       off = vi.fn()
       getCanvas = () => document.createElement('canvas')
       on(event: string, callback: () => void) {

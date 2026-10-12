@@ -70,3 +70,21 @@ it('dismisses the postcard with a downward swipe', () => {
   fireEvent.pointerUp(handle, { clientY: 350 })
   expect(close).toHaveBeenCalledOnce()
 })
+
+it('reopens a minimized two-state sheet with an upward swipe or a tap', () => {
+  const change = vi.fn()
+  function TwoState() {
+    const sheet = useSheetDrag(0, change, true)
+    return <button {...sheet.handlers}>Handle</button>
+  }
+  render(<TwoState />)
+  const handle = screen.getByText('Handle')
+  fireEvent.pointerDown(handle, { clientY: 400, button: 0 })
+  fireEvent.pointerMove(handle, { clientY: 300 })
+  fireEvent.pointerUp(handle, { clientY: 300 })
+  expect(change).toHaveBeenLastCalledWith(1)
+  fireEvent.click(handle)
+  expect(change).toHaveBeenCalledTimes(1)
+  fireEvent.click(handle)
+  expect(change).toHaveBeenLastCalledWith(1)
+})
