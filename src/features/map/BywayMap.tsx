@@ -41,6 +41,7 @@ export function BywayMap({
 }) {
   const container = useRef<HTMLDivElement>(null)
   const ref = useRef<Map | null>(null)
+  const compass = useRef<HTMLDivElement>(null)
   const [ready, setReady] = useState(false)
   const [padding, setPadding] = useState({ top: 100, bottom: 260, left: 390, right: 40 })
   useEffect(() => {
@@ -129,6 +130,10 @@ export function BywayMap({
     // Development-only handle for debugging map layers from the browser console.
     if (import.meta.env.DEV) (window as unknown as { __rambleMap?: Map }).__rambleMap = map
     ref.current = map
+    // The compass rose turns with the map, so its N always points to true north on screen.
+    const turnCompass = () => compass.current?.style.setProperty('--bearing', `${-map.getBearing()}deg`)
+    map.on('rotate', turnCompass)
+    turnCompass()
     map.addControl(
       new maplibregl.AttributionControl({ compact: true, customAttribution: `Natural Earth · USDOT · ${basemapService.attribution}` }),
       'bottom-left',
@@ -330,7 +335,7 @@ export function BywayMap({
         <span className="kicker">Rambleroo · Est. 2026</span>
         <h2>America’s scenic byways</h2>
       </div>
-      <div data-map-decoration className={`${styles.compass} ${selected ? styles.selectedCompass : ''}`}>
+      <div ref={compass} data-map-decoration className={`${styles.compass} ${selected ? styles.selectedCompass : ''}`}>
         <Compass size={70} />
       </div>
       <div data-map-decoration className={`${styles.controls} ${selected ? styles.selectedControls : ''}`}>

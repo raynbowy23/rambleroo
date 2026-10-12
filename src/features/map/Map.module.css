@@ -163,6 +163,10 @@
 .selectedCompass {
   right: 366px;
 }
+.compass svg {
+  display: block;
+  transform: rotate(var(--bearing, 0deg));
+}
 .waterLabels {
   position: absolute;
   inset: 0;
