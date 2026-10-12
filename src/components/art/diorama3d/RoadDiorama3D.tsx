@@ -17,6 +17,8 @@ export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditi
   const pinch = useRef<{ distance: number; x: number; y: number } | null>(null)
   const zoom = useRef(1)
   const [zoomLevel, setZoomLevel] = useState(1)
+  // Town names over the miniature, on by default; turning them off also leaves them out of a shared clip.
+  const [labels, setLabels] = useState(true)
   const zoomBy = (factor: number) => {
     zoom.current = controller.current?.zoomBy(factor) ?? zoom.current
     setZoomLevel(zoom.current)
@@ -42,7 +44,7 @@ export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditi
     try {
       const blob = await makeClip(
         format,
-        (i, count, width) => compose(miniature.snapshot(width, 0, (DRIVE_SECONDS * i) / count), spec.title, canvas),
+        (i, count, width) => compose(miniature.snapshot(width, 0, (DRIVE_SECONDS * i) / count, labels), spec.title, canvas),
         (progress) => setShare({ step: 'making', format, progress }),
       )
       setShare({ step: 'ready', file: new File([blob], `${spec.bywayId}-miniature.${format}`, { type: blob.type }) })
@@ -91,7 +93,7 @@ export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditi
   return (
     <div
       ref={element}
-      className="rr-mini-view"
+      className={labels ? 'rr-mini-view' : 'rr-mini-view rr-mini-nolabels'}
       tabIndex={0}
       role="group"
       aria-label={`${spec.title}. ${spec.landmarks.map((l) => l.name).join(', ')}. Drag or use the arrow keys to turn and tilt the miniature; pinch, the plus and minus keys, or the zoom buttons move in and out; shift-drag, a two-finger drag or shift and the arrow keys move around once zoomed in.`}
@@ -171,6 +173,16 @@ export function RoadDiorama3D({ spec, conditions }: { spec: DioramaSpec; conditi
         </button>
         <button type="button" aria-label="Zoom out" disabled={zoomLevel <= MIN_ZOOM} onClick={() => zoomBy(1 / 1.25)}>
           −
+        </button>
+        <button
+          type="button"
+          className="rr-mini-labels"
+          aria-label="Town names"
+          title={labels ? 'Hide town names' : 'Show town names'}
+          aria-pressed={labels}
+          onClick={() => setLabels(!labels)}
+        >
+          Aa
         </button>
         <button
           type="button"

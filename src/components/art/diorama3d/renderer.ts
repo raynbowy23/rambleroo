@@ -114,10 +114,10 @@ function paint(slot: Slot, camera: T.OrthographicCamera) {
   slot.built.scene.background = background
 }
 /**
- * A still of the miniature as the reader sees it now, `width` pixels wide, with its town names; `turn` radians further round the
- * turntable and `seconds` further along the drive, for the frames of a recording.
+ * A still of the miniature as the reader sees it now, `width` pixels wide, with its town names unless `labels` is false; `turn` radians
+ * further round the turntable and `seconds` further along the drive, for the frames of a recording.
  */
-function snapshot(slot: Slot, width: number, turn = 0, seconds = 0) {
+function snapshot(slot: Slot, width: number, turn = 0, seconds = 0, labels = true) {
   const angle = slot.angle,
     elapsed = slot.elapsed
   slot.angle += turn
@@ -151,7 +151,7 @@ function snapshot(slot: Slot, width: number, turn = 0, seconds = 0) {
   ctx.font = `${size}px Georgia, serif`
   ctx.textAlign = 'center'
   ctx.textBaseline = 'bottom'
-  for (const town of slot.built.townAnchors) {
+  for (const town of labels ? slot.built.townAnchors : []) {
     const point = town.point.clone().applyMatrix4(slot.built.world.matrixWorld).project(camera)
     if (Math.abs(point.x) > 0.94 || Math.abs(point.y) > 0.94) continue
     const x = ((point.x + 1) / 2) * width,
@@ -255,8 +255,8 @@ export function registerScene(element: HTMLElement, built: BuiltScene) {
       if (slot.focus.length() > panLimit(slot.zoom)) slot.focus.setLength(panLimit(slot.zoom))
       wake()
     },
-    snapshot(width = 1600, turn = 0, seconds = 0) {
-      return snapshot(slot, width, turn, seconds)
+    snapshot(width = 1600, turn = 0, seconds = 0, labels = true) {
+      return snapshot(slot, width, turn, seconds, labels)
     },
     /** Stops the page's miniatures drawing until the returned function is called. */
     hold() {
