@@ -1,7 +1,8 @@
 import { ReliefControls } from './ReliefControls'
+import { clickMargin, pickRoad } from './pick'
 import { useEffect, useRef, useState } from 'react'
 import maplibregl from './maplibre'
-import type { Map } from './maplibre'
+import type { Map, PointLike } from './maplibre'
 import type { BywaySummary } from '../../lib/types'
 import { useMotionEnabled } from '../../lib/motion'
 import { createMapStyle } from './style'
@@ -42,6 +43,8 @@ export function BywayMap({
   const container = useRef<HTMLDivElement>(null)
   const ref = useRef<Map | null>(null)
   const compass = useRef<HTMLDivElement>(null)
+  const selectedId = useRef(selected?.id)
+  selectedId.current = selected?.id
   const [ready, setReady] = useState(false)
   const [padding, setPadding] = useState({ top: 100, bottom: 260, left: 390, right: 40 })
   useEffect(() => {
@@ -201,10 +204,28 @@ export function BywayMap({
             if (!ontoPopup(e)) hide()
           })
           map.on('click', (e) => {
-            const feature = map.queryRenderedFeatures(e.point, { layers: ['byway-hit', 'route-moments'] })[0]
-            // A click on open map (not a road) goes back to the whole country; the card's close button keeps the view instead.
-            if (!feature) goHome.current = true
-            callbacks.current.onSelect(feature ? String(feature.properties.id) : null)
+            // Roads within a small margin of the click count, so a near miss beside a road does not reset the view (pick.ts).
+            const margin = clickMargin(matchMedia('(any-pointer: coarse)').matches)
+            const box: [PointLike, PointLike] = [
+              [e.point.x - margin, e.point.y - margin],
+              [e.point.x + margin, e.point.y + margin],
+            ]
+            const candidates = map.queryRenderedFeatures(box, { layers: ['byway-hit', 'route-moments'] }).map((feature) => {
+              const g = feature.geometry
+              const lines =
+                g.type === 'Point'
+                  ? [[g.coordinates]]
+                  : g.type === 'LineString'
+                    ? [g.coordinates]
+                    : g.type === 'MultiLineString'
+                      ? g.coordinates
+                      : []
+              return { id: String(feature.properties.id), parts: lines.map((line) => line.map((c) => map.project(c as [number, number]))) }
+            })
+            const id = pickRoad(candidates, e.point, margin, selectedId.current)
+            // A click on open map (not near a road) goes back to the whole country; the card's close button keeps the view instead.
+            if (!id) goHome.current = true
+            callbacks.current.onSelect(id)
           })
         })
         .catch(() => {
