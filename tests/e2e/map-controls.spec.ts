@@ -68,3 +68,41 @@ test('the compass rose turns with the map', async ({ page }) => {
   await page.evaluate(() => (window as unknown as { __rambleMap: { setBearing(b: number): void } }).__rambleMap.setBearing(0))
   await expect.poll(angle).toBe(0)
 })
+
+test('a click just beside the selected road keeps it; a click on open map resets', async ({ page }) => {
+  const id = 'kancamagus-scenic-byway-2458'
+  await page.goto(`/?byway=${id}`)
+  type TestMap = {
+    loaded(): boolean
+    isMoving(): boolean
+    queryRenderedFeatures(o: object): { properties: { id: string }; geometry: { type: string; coordinates: number[][] | number[][][] } }[]
+    project(c: number[]): { x: number; y: number }
+    getCanvas(): HTMLCanvasElement
+  }
+  await page.waitForFunction(() => {
+    const map = (window as unknown as { __rambleMap?: TestMap }).__rambleMap
+    return !!map && map.loaded() && !map.isMoving()
+  })
+  await page.waitForTimeout(1500)
+  const spot = await page.evaluate((road) => {
+    const map = (window as unknown as { __rambleMap: TestMap }).__rambleMap
+    const box = map.getCanvas().getBoundingClientRect()
+    const feature = map.queryRenderedFeatures({ layers: ['byway-hit'] }).find((f) => f.properties.id === road)!
+    const lines = (feature.geometry.type === 'LineString' ? [feature.geometry.coordinates] : feature.geometry.coordinates) as number[][][]
+    const line = lines.sort((a, b) => b.length - a.length)[0]
+    const p = map.project(line[Math.floor(line.length / 2)])
+    return { x: box.left + p.x, y: box.top + p.y, width: box.width, height: box.height, left: box.left, top: box.top }
+  }, id)
+  // 14 px off the line: outside the drawn hit area, inside the click margin.
+  await page.mouse.click(spot.x, spot.y + 14)
+  await page.waitForTimeout(500)
+  await expect(page).toHaveURL(new RegExp(`byway=${id}`))
+  // Far out in the Atlantic, nowhere near a road.
+  await page.evaluate(() =>
+    (window as unknown as { __rambleMap: { jumpTo(o: object): void } }).__rambleMap.jumpTo({ center: [-60, 38], zoom: 6 }),
+  )
+  await page.waitForTimeout(800)
+  // The upper part of the map: on a phone the road card covers the lower part.
+  await page.mouse.click(spot.left + spot.width * 0.5, spot.top + spot.height * 0.15)
+  await expect(page).not.toHaveURL(/byway=/)
+})
