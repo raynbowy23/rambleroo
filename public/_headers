@@ -8,12 +8,13 @@
 /sw.js
   Cache-Control: no-cache
 # Security headers for every page. HSTS keeps browsers on HTTPS (photos. and send. are HTTPS-only too). Framing is refused so another
-# site cannot overlay the account pages. The Content-Security-Policy is report-only for now: browsers log what it would block (DevTools
-# console) without blocking it, so it can be checked against maps, Turnstile and analytics before it is enforced.
+# site cannot overlay the account pages. The Content-Security-Policy lists every host the app loads from, plus Cloudflare Web Analytics,
+# which Cloudflare injects into each page (static.cloudflareinsights.com script, reporting to cloudflareinsights.com). A new external
+# host must be added here or the browser blocks it.
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Strict-Transport-Security: max-age=31536000; includeSubDomains
   X-Frame-Options: DENY
   Permissions-Policy: geolocation=(self), camera=(), microphone=(), payment=(), usb=(), interest-cohort=()
-  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' https://www.googletagmanager.com https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://photos.rambleroo.app https://*.googleusercontent.com https://tiles.openfreemap.org https://s3.amazonaws.com https://www.googletagmanager.com https://*.google-analytics.com; font-src 'self' data:; connect-src 'self' https://photos.rambleroo.app https://tiles.openfreemap.org https://s3.amazonaws.com https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://www.googletagmanager.com https://challenges.cloudflare.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://photos.rambleroo.app https://*.googleusercontent.com https://tiles.openfreemap.org https://s3.amazonaws.com https://www.googletagmanager.com https://*.google-analytics.com; font-src 'self' data:; connect-src 'self' https://photos.rambleroo.app https://tiles.openfreemap.org https://s3.amazonaws.com https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://challenges.cloudflare.com https://cloudflareinsights.com; frame-src https://challenges.cloudflare.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
