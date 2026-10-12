@@ -1,3 +1,5 @@
+// This test imports the Node-side split script; vitest 5 no longer brings in Node types implicitly.
+/// <reference types="node" />
 import { afterEach, expect, it, vi } from 'vitest'
 import { renderHook, waitFor } from '@testing-library/react'
 import { photoFiles } from '../../scripts/photos/split'
