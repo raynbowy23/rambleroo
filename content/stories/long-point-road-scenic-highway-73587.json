@@ -1,16 +1,18 @@
 {
   "id": "long-point-road-scenic-highway-73587",
-  "tagline": "Two plantation histories off a two-mile road.",
+  "tagline": "Two miles connect plantation histories and a protected roadside in Mount Pleasant.",
   "intro": [
-    "From Whipple Road, Long Point Road runs toward US 17 through Mount Pleasant. At Snee Farm, the Charles Pinckney National Historic Site preserves part of a working plantation once used as Pinckney’s country retreat. Its present house belongs to a later owner.",
-    "A separate visit to Boone Hall follows another plantation history. There, surviving brick cabins housed enslaved workers and then sharecroppers into the 1940s, while the main house dates from the twentieth century. The small buildings carry the longer record."
+    "Long Point Road Scenic Highway covers two miles in Mount Pleasant, east of Charleston. South Carolina DOT highlights its combination of historical and recreational sites: Boone Hall Plantation, Palmetto Islands County Park and Charles Pinckney National Historic Site.",
+    "The state designated the stretch from Whipple Road to U.S. 17 North in 1988. The legislation prohibited new off-premises advertising and protected roadside trees over six inches in caliper. Removing those trees from the highway right-of-way requires DOT permission on the recommendation of Mount Pleasant’s town council.",
+    "Travel from Whipple Road toward U.S. 17 North. At Snee Farm, the Pinckney site preserves part of a plantation and country retreat; its house replaced earlier buildings in 1828. Boone Hall’s brick cabins housed enslaved workers and later sharecroppers, while its main house dates to 1936."
   ],
   "moments": [
     {
       "title": "Charles Pinckney National Historic Site",
       "kind": "short walk",
       "scene": "town",
-      "text": "At Snee Farm, a coastal cottage with a full-width porch stands where later owners replaced the Pinckney-era buildings.",
+      "text": "The cottage at Snee Farm belongs to the plantation’s later history. William Mathews bought the property in 1828, demolished its buildings and erected a new main house that year. Its full-width porch, side-gable roof and brick piers describe a coastal cottage rather than a surviving Pinckney residence. The Pinckney years are recovered through archaeology and documents. Museum collections include pottery made by enslaved people and eighteenth- and nineteenth-century tableware, evidence of plantation life beyond the house itself. The estate was subdivided in the 1970s; preservationists purchased its central portion in 1988, before the National Park Service acquired it.",
+      "notice": "The cottage has a full-width front porch and a brick-pier foundation.",
       "at": [
         -79.82472222,
         32.84611111
@@ -20,21 +22,31 @@
       "title": "Boone Hall",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "Brick cabins preserve the homes of enslaved workers and later sharecroppers, beside an estate whose main house was built much later.",
+      "text": "Boone Hall’s brick cabins carry a longer history than its main house. Built between 1790 and 1810, they housed enslaved workers and later sharecroppers, who occupied them through the 1940s. The one-story dwellings have gabled roofs and simple fireplaces with brick hearths. Thomas and Alexandra Stone demolished the surviving wooden plantation house after buying the property in 1935. They replaced it in 1936 with a modern house in a historical style. The surviving cabins are interpreted with archaeological artifacts recovered nearby. Living-history presentations use song and storytelling to interpret the connection between enslaved workers’ history and Gullah culture.",
       "at": [
         -79.82204722,
         32.85755833
+      ]
+    },
+    {
+      "title": "Christ Church",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "The parish began in 1706 and also served as a civil administrative district, linking religious and local government functions. A brick church replaced a wooden one here after a fire in 1725. The rectangular Colonial building dates to 1726 and has a hipped roof. Its shape has changed: the cupola was replaced in 1835, when the north doorway became a window and the entrance moved. The church also served as a polling place until 1865. Wings for a sacristy and rector’s office were added in 1961; the cemetery holds graves dating to the mid-eighteenth century.",
+      "at": [
+        -79.81388889,
+        32.84388889
       ]
     }
   ],
   "sources": [
     {
-      "label": "South Carolina Legislature, Scenic Highways",
-      "url": "https://www.scstatehouse.gov/code/t57c023.php"
+      "label": "South Carolina Department of Transportation, South Carolina Scenic Byways",
+      "url": "https://scdot.maps.arcgis.com/sharing/rest/content/items/0a5192983b2845c2b20fbc5d7a0372f9/data"
     },
     {
-      "label": "SCDOT, South Carolina Scenic Byways map series (story text)",
-      "url": "https://scdot.maps.arcgis.com/sharing/rest/content/items/0a5192983b2845c2b20fbc5d7a0372f9/data"
+      "label": "South Carolina Legislature, Highway Beautification and Scenic Routes",
+      "url": "https://www.scstatehouse.gov/code/t57c023.php"
     },
     {
       "label": "Wikipedia, Charles Pinckney National Historic Site",
@@ -43,8 +55,11 @@
     {
       "label": "Wikipedia, Boone Hall",
       "url": "https://en.wikipedia.org/wiki/Boone_Hall"
+    },
+    {
+      "label": "Wikipedia, Christ Church (Mount Pleasant, South Carolina)",
+      "url": "https://en.wikipedia.org/wiki/Christ_Church_%28Mount_Pleasant%2C_South_Carolina%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

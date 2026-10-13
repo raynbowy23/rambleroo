@@ -1,16 +1,18 @@
 {
   "id": "monroe-street-m125-13755",
-  "tagline": "Main street over the River Raisin, with Custer on the corner.",
+  "tagline": "An old auto-trail corridor crosses the River Raisin through downtown Monroe.",
   "intro": [
-    "M-125 is the old Dixie Highway, the auto trail meant to run from Chicago to Miami, and later US 25. Through Monroe it turns into Monroe Street and serves as the main street. Coming in from the north it passes St. Mary's, the oldest church in the county, crosses the River Raisin and runs down through the Old Village, the downtown platted in 1817.",
-    "Paper mills once lined the river. Before the mills came the War of 1812, and in January 1813, at the Battle of Frenchtown on the north bank, only 33 of General Winchester's 980 men escaped the field."
+    "Monroe Street carries M-125 across the River Raisin as downtown Monroe’s main street. The downtown section is a Pure Michigan Byway. South of the river, Old Village’s row buildings hold small businesses at street level, with apartments and offices upstairs. Across the water stand St. Mary’s Church Complex and the Custer equestrian monument.",
+    "This corridor formed part of the Dixie Highway, an auto trail conceived in 1915 to connect Chicago and Miami. At Governor Woodbridge N. Ferris’s suggestion, Michigan representatives persuaded the Dixie Highway Association to include Michigan; the eastern division ran between Detroit and Toledo through Monroe. The Monroe County section entered the state highway system as US 25 in 1926. In the early 1930s, the downtown routing changed to continue north to Telegraph Road, replacing a westward turn toward that road. When that designation ended in Michigan in 1973, the segment from the state line to the Monroe area became M-125.",
+    "Approach from the north on Monroe Street to St. Mary’s at Elm Avenue and the Custer statue beside the river. The River Raisin battlefield lies east of downtown on the north bank, a separate excursion. Continue south across the river through Old Village. Beyond downtown, Monroe Street becomes South Dixie Highway after Jones Avenue."
   ],
   "moments": [
     {
       "title": "Custer Equestrian Monument",
       "kind": "roadside",
       "scene": "town",
-      "text": "Custer's 14-foot bronze stood in mid-intersection in 1910, was moved off as a traffic hazard, and by 1955 sat so deep in brush that the movers could not find it.",
+      "text": "Custer’s bronze statue has occupied three Monroe sites since 1910. The 14-foot figure, sculpted by Edward Clark Potter, first stood in the intersection of First and Washington streets. President William Howard Taft and Elizabeth Bacon Custer unveiled the statue together in 1910. As automobile traffic increased, residents complained that it was a hazard. In 1923, the statue moved to Soldiers and Sailors Park along the river. By the next move in 1955, vegetation hid it so thoroughly that movers initially could not find it. It now stands at Elm Avenue and North Monroe Street, depicting Custer in his Civil War uniform.",
+      "notice": "The bronze rider wears a Civil War uniform.",
       "at": [
         -83.39666667,
         41.91805556
@@ -20,7 +22,7 @@
       "title": "River Raisin National Battlefield Park",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "East of downtown, on ground a paper mill held until 1995, lies the only national battlefield park for the War of 1812.",
+      "text": "A paper mill occupied this battlefield before its recovery as parkland. The park preserves the site of the January 1813 Battle of Frenchtown in Michigan, fought during the War of 1812. British soldiers under Henry Procter and Indigenous warriors under Roundhead counterattacked American forces led by James Winchester. After the mill closed in 1995, Monroe organized efforts to restore the site. The mill was demolished by 2009 and cleanup finished in 2010. National park operations began that October. It is the only national battlefield park marking a War of 1812 site.",
       "at": [
         -83.37833333,
         41.91361111
@@ -30,7 +32,8 @@
       "title": "Old Village",
       "kind": "town",
       "scene": "town",
-      "text": "South of the river the 1817 grid of numbered streets still holds the county courthouse, and the row buildings on Monroe Street keep shops below and apartments and offices above.",
+      "text": "Monroe’s numbered downtown streets began with Henry Disbrow’s 1817 grid, modeled on New York City’s system. The land came from Joseph Loranger for a village serving the newly organized county. The county government has occupied its courthouse plot since 1817, though the current courthouse dates to 1880. Some surviving district buildings date to 1830. The streetscape also records loss: older buildings were demolished in the 1960s for modern buildings and parking lots. Along Monroe Street, the row buildings retain a mix of uses: small businesses on the ground floor and apartments and offices on the second and third floors.",
+      "notice": "Notice the row buildings’ ground-floor businesses and upper floors used for apartments and offices.",
       "at": [
         -83.4,
         41.9125
@@ -40,25 +43,28 @@
   "sources": [
     {
       "label": "Wikipedia, M-125 (Michigan highway)",
-      "url": "https://en.wikipedia.org/wiki/M-125_(Michigan_highway)"
+      "url": "https://en.wikipedia.org/wiki/M-125_%28Michigan_highway%29"
     },
     {
       "label": "Wikipedia, Old Village Historic District (Monroe, Michigan)",
-      "url": "https://en.wikipedia.org/wiki/Old_Village_Historic_District_(Monroe,_Michigan)"
+      "url": "https://en.wikipedia.org/wiki/Old_Village_Historic_District_%28Monroe%2C_Michigan%29"
+    },
+    {
+      "label": "Wikipedia, St. Mary’s Church Complex Historic District (Monroe, Michigan)",
+      "url": "https://en.wikipedia.org/wiki/St._Mary%27s_Church_Complex_Historic_District_%28Monroe%2C_Michigan%29"
     },
     {
       "label": "Wikipedia, George Armstrong Custer Equestrian Monument",
       "url": "https://en.wikipedia.org/wiki/George_Armstrong_Custer_Equestrian_Monument"
     },
     {
-      "label": "Wikipedia, St. Mary's Church Complex Historic District (Monroe, Michigan)",
-      "url": "https://en.wikipedia.org/wiki/St._Mary%27s_Church_Complex_Historic_District_(Monroe,_Michigan)"
-    },
-    {
       "label": "Wikipedia, River Raisin National Battlefield Park",
       "url": "https://en.wikipedia.org/wiki/River_Raisin_National_Battlefield_Park"
+    },
+    {
+      "label": "Wikipedia, Monroe, Michigan",
+      "url": "https://en.wikipedia.org/wiki/Monroe%2C_Michigan"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

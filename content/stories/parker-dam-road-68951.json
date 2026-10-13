@@ -1,26 +1,37 @@
 {
   "id": "parker-dam-road-68951",
-  "tagline": "A lawman’s namesake town and a dam built deep.",
+  "tagline": "Desert mining claims and a river dam with foundations beneath the riverbed",
   "intro": [
-    "Parker Dam Road starts at Earp, in the Sonoran Desert close to the Arizona line, and runs to the Colorado River community of Parker Dam. BLM and private campsites sit along the way. Wyatt Earp once worked more than 100 copper and gold claims near the base of the Whipple Mountains here.",
-    "The dam at the end stands 320 feet high, and 235 of those feet are below the riverbed, dug down to bedrock. In 1935 Arizona sent its National Guard to halt construction."
+    "Parker Dam Road is a Bureau of Land Management Back Country Byway with BLM and privately operated campsites along it. Earp lies in the Sonoran Desert at the Colorado River in Parker Valley; the community of Parker Dam sits along the river across from Arizona.",
+    "The dam that gave the community its name was built by the Bureau of Reclamation between 1934 and 1938. Crews excavated below the riverbed to reach bedrock for its foundation. Its reservoir, Lake Havasu, supplies the Colorado River Aqueduct and the Central Arizona Project.",
+    "Begin with Earp and its connection to Wyatt Earp’s Whipple Mountains mining claims. At Parker Dam, the road reaches the community named for the nearby structure; the dam spans the state border between the Whipple and Buckskin mountains."
   ],
   "moments": [
     {
       "title": "Earp",
       "kind": "town",
       "scene": "desert",
-      "text": "The town commemorates Wyatt Earp’s mining years, with a mock grave for a man actually buried in Colma.",
+      "text": "Wyatt Earp’s name here belongs to a mining story. He and Josephine Sarah Marcus lived part-time in the area beginning in 1906, and he staked more than 100 copper and gold claims near the Whipple Mountains. They bought a cottage in nearby Vidal, living there during the fall, winter and spring of 1925–1928 while he worked his Happy Days mines. They spent summers in Los Angeles, where Wyatt died on January 13, 1929, after winters spent working the claims. The tiny cemetery’s Earp grave is symbolic: his actual burial is in Colma, south of San Francisco.",
       "at": [
         -114.30111111,
         34.165
       ]
     },
     {
+      "title": "Buckskin Mountain State Park",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "Buckskin Mountain State Park is near Parker on the Arizona side of the river. Its two developed areas have Colorado River shoreline and views of the Buckskin Mountains. The second area is called River Island, and the park provides camping and water recreation.",
+      "at": [
+        -114.160942,
+        34.254255
+      ]
+    },
+    {
       "title": "Parker Dam",
       "kind": "town",
       "scene": "river",
-      "text": "The community takes its name from the dam nearby, which holds Lake Havasu where the river passes between the Whipple and Buckskin mountains.",
+      "text": "The community of Parker Dam takes its name from the nearby dam, which holds back the Colorado River. Much of the structure’s height is out of sight: 235 of its 320 feet lie below the riverbed, where excavation reached the bedrock needed for its foundation. Built to create a reservoir and generate electricity, the dam links water storage to water delivery. The Metropolitan Water District uses half the plant’s electricity to pump water along the Colorado River Aqueduct. The remaining electricity goes to utilities in California, Arizona and Nevada, extending the dam’s role beyond the river communities.",
       "at": [
         -114.14305556,
         34.28722222
@@ -29,18 +40,21 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, Parker Dam, California",
-      "url": "https://en.wikipedia.org/wiki/Parker_Dam%2C_California"
-    },
-    {
       "label": "Wikipedia, Earp, California",
       "url": "https://en.wikipedia.org/wiki/Earp%2C_California"
     },
     {
       "label": "Wikipedia, Parker Dam",
       "url": "https://en.wikipedia.org/wiki/Parker_Dam"
+    },
+    {
+      "label": "Wikipedia, Parker Dam, California",
+      "url": "https://en.wikipedia.org/wiki/Parker_Dam%2C_California"
+    },
+    {
+      "label": "Wikipedia, Buckskin Mountain State Park",
+      "url": "https://en.wikipedia.org/wiki/Buckskin_Mountain_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

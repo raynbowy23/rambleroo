@@ -1,67 +1,68 @@
 {
   "id": "old-red-old-ten-scenic-byway-75154",
-  "tagline": "The old Red Trail, taking the slow way beside the interstate.",
+  "tagline": "Old Highway 10 links rural towns beside North Dakota’s interstate",
   "intro": [
-    "From the Mandan Depot on Main Street the old road runs west beside Interstate 94 through Almont, New Salem, Glen Ullin, Hebron and Richardton to Dickinson, a slower way across the same country. Before there were highways, cross-country trails went by color names, and this one, the Red Trail, ran from Seattle to New York City before it became Highway 10. Custer used the route on his march west.",
-    "Glen Ullin got its name from a railroad land agent, who set the Gaelic word for valley in front of a name out of a Thomas Campbell poem."
+    "Old Red Old Ten follows old Highway 10 between Dickinson and Mandan, parallel to Interstate 94. North Dakota Tourism presents the scenic byway as a leisurely drive through rural countryside, with small-town museums and landmarks along the way. Its August 2021 guide describes blacktop with gravel sections between New Salem and Glen Ullin and on the Curlew Loop toward Almont. Between Hebron and Richardton, the route passes the 2,000-acre Schnell Recreation Area, a nature preserve.",
+    "The name reaches back to the Red Trail, one of the routes identified by color before numbered highways. Highway 10 followed that trail era. Rail transport also shaped the towns beside the road. Sims began as a coal town on the Northern Pacific Railway in 1883. When the railway straightened its main line in 1947, it cut off Sims and Almont, having less need for frequent servicing stops.",
+    "Drive east from Dickinson toward Richardton and Assumption Abbey, then through Hebron and Glen Ullin. The Sims church and Salem Sue at New Salem are later landmarks on this eastbound journey, which ends at Mandan's depot on Main Street. That depot dates to 1930, a replacement built at the railroad site."
   ],
   "moments": [
     {
-      "title": "Salem Sue",
-      "kind": "roadside",
-      "scene": "prairie",
-      "text": "On School Hill at New Salem stands a fiberglass Holstein 38 feet high, paid for in 1974 by local farmers and residents and visible for several miles.",
+      "title": "Assumption Abbey",
+      "kind": "town",
+      "scene": "town",
+      "text": "The Benedictine community at Richardton has changed both address and name. Founded in 1893 by a monk from Einsiedeln Abbey in Switzerland, it was first called St. Gall's. The monks moved from the north shore of Devils Lake to Richardton in June 1899 and renamed their community St. Mary's Priory. In 1903, the Holy See raised it to an abbey, and founder Vincent de Paul Wehrle became its first abbot. Wehrle later became the first bishop of the Diocese of Bismarck, in 1910. The Assumption Abbey name followed in 1928, when the community and its property were incorporated under that title.",
       "at": [
-        -101.42611,
-        46.85278
+        -102.32,
+        46.889
       ]
     },
     {
       "title": "Sims",
       "kind": "town",
       "scene": "prairie",
-      "text": "A coal town of 1883 that the railroad straightened away from in 1947, leaving a Lutheran church and a parsonage that locals say a pastor's wife still haunts.",
+      "text": "The railroad needed coal and water when Sims was founded in 1883. Coal mining and a brickyard helped the settlement grow, but in 1947 the Northern Pacific straightened its main line and left Sims without rail access. The post office also closed in 1947, with mail redirected through Almont. The church remains active even though its congregation lives elsewhere. Its buildings mark two stages of that religious community: the 1884 building combined church and residence and survives as the parsonage; the later church was begun in 1896 and completed in 1900. The restored parsonage houses the Sims Historical Society Museum.",
       "at": [
         -101.49861,
         46.77222
       ]
     },
     {
-      "title": "Assumption Abbey",
-      "kind": "town",
-      "scene": "town",
-      "text": "Benedictine monks who began on the north shore of Devils Lake moved to Richardton in 1899, and their priory was raised to an abbey in 1903.",
+      "title": "Salem Sue",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "Salem Sue arrived in three pieces. The hollow fiberglass Holstein was made in La Crosse, Wisconsin, then transported and assembled in New Salem. Local farmers and residents donated toward the $40,000 sculpture, built in 1974 and sponsored by the New Salem Lions Club to honor the dairy industry. At 38 feet high and 50 feet long, she stands on School Hill near Interstate 94 and is visible for several miles. Even the maintenance fund suits its subject: a milk-can-shaped donation bin at the bottom of the hill helps pay for upkeep and repainting.",
+      "notice": "The 38-foot fiberglass Holstein stands on School Hill and can be seen for several miles.",
       "at": [
-        -102.32,
-        46.889
+        -101.42611,
+        46.85278
       ]
     }
   ],
   "practical": [
-    "The 2021 state tourism page called the road blacktop but noted gravel between New Salem and Glen Ullin and on the Curlew Loop spur toward Almont."
+    "Sims: The 2021 North Dakota Tourism guide identifies gravel between New Salem and Glen Ullin and on the Curlew Loop toward Almont. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "North Dakota Tourism, Old Red Old Ten Scenic Byway (Wayback Machine, August 2021)",
+      "label": "North Dakota Tourism, Old Red Old Ten Scenic Byway (August 2021 archive)",
       "url": "https://web.archive.org/web/20210805172447/https://www.ndtourism.com/hebron/attractions/old-red-old-ten-scenic-byway"
     },
     {
-      "label": "Wikipedia, Glen Ullin, North Dakota",
-      "url": "https://en.wikipedia.org/wiki/Glen_Ullin,_North_Dakota"
+      "label": "Wikipedia, Sims, North Dakota",
+      "url": "https://en.wikipedia.org/wiki/Sims%2C_North_Dakota"
+    },
+    {
+      "label": "Wikipedia, Mandan, North Dakota",
+      "url": "https://en.wikipedia.org/wiki/Mandan%2C_North_Dakota"
+    },
+    {
+      "label": "Wikipedia, Assumption Abbey (North Dakota)",
+      "url": "https://en.wikipedia.org/wiki/Assumption_Abbey_%28North_Dakota%29"
     },
     {
       "label": "Wikipedia, Salem Sue",
       "url": "https://en.wikipedia.org/wiki/Salem_Sue"
-    },
-    {
-      "label": "Wikipedia, Sims, North Dakota",
-      "url": "https://en.wikipedia.org/wiki/Sims,_North_Dakota"
-    },
-    {
-      "label": "Wikipedia, Assumption Abbey (North Dakota)",
-      "url": "https://en.wikipedia.org/wiki/Assumption_Abbey_(North_Dakota)"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

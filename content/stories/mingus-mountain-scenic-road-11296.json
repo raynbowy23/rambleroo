@@ -1,20 +1,21 @@
 {
   "id": "mingus-mountain-scenic-road-11296",
-  "tagline": "Up through the pines, then down the switchbacks into Jerome.",
+  "tagline": "Pines above the Verde Valley, mining streets on Cleopatra Hill",
   "motifs": [
     "switchbacks",
     "mining-town"
   ],
   "intro": [
-    "On the Prescott Valley side, SR 89A starts up out of Yaeger Canyon at the base of the Black Hills, ponderosa pine hugging the road among pockets of basalt. It winds through narrow canyons between Mingus and Woodchute mountains. Over the top the Mogollon Rim and the Verde Valley open out ahead, and a steep drop brings it to Jerome.",
-    "The ore drew people long before the road. Spanish explorers located claims here in 1582 and 1598 and never worked them, and the deposits waited until Army troops came across them again in 1875."
+    "SR 89A traverses the Prescott National Forest at Mingus Mountain in Arizona’s Black Hills. Forest Service roads branch from the highway toward the summit, where views include the Verde Valley and Sycamore Canyon Wilderness. The Forest Service describes a pine setting with hiking, camping, hang gliding and paragliding.",
+    "Jerome’s mining industry built its own transport connections: United Verde constructed wagon roads to Prescott, the Verde Valley and the railroad depot at Ash Fork. Wagon transport proved expensive, and the company stopped operations in late 1884 after copper prices fell. William A. Clark bought the properties four years later and ordered a narrow-gauge railway to Jerome Junction.",
+    "Coming from the Prescott side, the mountain excursion branches off SR 89A before the journey reaches Jerome. Woodchute Wilderness lies north of the highway’s highest point. Jerome occupies Cleopatra Hill above the Verde Valley, its surviving buildings set along winding roads on the steep mountainside."
   ],
   "moments": [
     {
       "title": "Mingus Mountain",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Forest roads climb from the highway to the top, where the Mingus Lookout fire tower complex is on the National Register, and the mountain is a flying site for hang gliders and paragliders.",
+      "text": "A 60-foot steel fire tower stands atop Mingus Mountain, replacing a shorter wooden tower in 1935. Its wooden cab has an overhanging front porch and a gabled roof. The lookout complex entered the National Register of Historic Places in 1988. Forest Service roads reach the summit from SR 89A. The mountain offers views of the Verde Valley and Sycamore Canyon Wilderness; the surrounding recreation area includes a small lake periodically stocked with rainbow trout. Hang gliding and paragliding are among the Forest Service’s listed activities here, alongside hiking, horseback riding and mountain biking in the pines.",
       "at": [
         -112.12766,
         34.69391
@@ -24,7 +25,7 @@
       "title": "Jerome",
       "kind": "town",
       "scene": "mountain",
-      "text": "In the 1930s the ground sank away under dozens of Jerome's buildings, the jail among them, and after the mines closed in 1953 a town that had held more than 10,000 fell below 100.",
+      "text": "Jerome’s buildings follow winding streets on a steep mountainside above the Verde Valley. The copper mines supported more than 10,000 residents in the 1920s, but the population fell below 100 after mining ended in 1953. The town also endured ground subsidence: dozens of buildings, including the post office and jail, were lost as the ground sank during the 1930s. In 1953, residents organized the Jerome Historical Society and opened a museum. In 1956, the society completed negotiations with Phelps Dodge to prevent further demolition in the town’s main area. Houses, commercial buildings and civic buildings survive within the historic district.",
       "at": [
         -112.10833,
         34.74889
@@ -32,26 +33,21 @@
       "motifs": [
         "mining-town"
       ]
+    },
+    {
+      "title": "Sliding Jail",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "Jerome’s third jail began as part of a larger wood-and-tin structure, built in 1905. In 1938, it began moving downhill after dynamite blasting changed the mountainside. The jail tore free of the original building and ended up on Hull Avenue. Residents changed the road to pass it; Arizona’s transportation department later moved the jail to its present position. The Jerome Historical Society took control in 2017 and stabilized the remaining walls. Earth movement left the structure unusable but did not destroy it completely. An iron fence surrounds the surviving jail, whose walls were stabilized.",
+      "at": [
+        -112.1146,
+        34.7507
+      ]
     }
-  ],
-  "practical": [
-    "ADOT's corridor plan describes the mountain road as two lanes with no standard shoulder, many switchbacks and long stretches of guardrail."
   ],
   "sources": [
     {
-      "label": "ADOT, SR 89A Corridor Management Plan, the byway story (Wayback Machine capture)",
-      "url": "https://web.archive.org/web/20250909234044/https://azdot.gov/sites/default/files/2019/05/cmp_89a_mingus_mountain_road.pdf#page=9"
-    },
-    {
-      "label": "ADOT, SR 89A Corridor Management Plan, roadway description (Wayback Machine capture)",
-      "url": "https://web.archive.org/web/20250909234044/https://azdot.gov/sites/default/files/2019/05/cmp_89a_mingus_mountain_road.pdf#page=13"
-    },
-    {
-      "label": "ADOT, SR 89A Corridor Management Plan, Mingus Mountain (Wayback Machine capture)",
-      "url": "https://web.archive.org/web/20250909234044/https://azdot.gov/sites/default/files/2019/05/cmp_89a_mingus_mountain_road.pdf#page=22"
-    },
-    {
-      "label": "USDA Forest Service, Prescott National Forest, Mingus Mountain",
+      "label": "USDA Forest Service, Prescott National Forest: Mingus Mountain",
       "url": "https://www.fs.usda.gov/r03/prescott/recreation/mingus-mountain"
     },
     {
@@ -60,9 +56,20 @@
     },
     {
       "label": "Wikipedia, Jerome, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Jerome,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Jerome%2C_Arizona"
+    },
+    {
+      "label": "Wikipedia, Jerome Historic District",
+      "url": "https://en.wikipedia.org/wiki/Jerome_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Mingus Lookout Complex",
+      "url": "https://en.wikipedia.org/wiki/Mingus_Lookout_Complex"
+    },
+    {
+      "label": "Wikipedia, Sliding Jail",
+      "url": "https://en.wikipedia.org/wiki/Sliding_Jail"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

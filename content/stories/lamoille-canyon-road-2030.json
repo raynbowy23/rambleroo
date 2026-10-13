@@ -1,57 +1,70 @@
 {
   "id": "lamoille-canyon-road-2030",
-  "tagline": "Twelve miles up a glacier's U into the Ruby Mountains.",
+  "tagline": "A Civilian Conservation Corps road climbs a glacial canyon in the Ruby Mountains.",
   "motifs": [
     "aspens"
   ],
   "intro": [
-    "Out of Lamoille, a valley a settler named after his native Vermont, the road turns up into Lamoille Canyon, the largest valley in the Ruby Mountains. It climbs from about 6,100 feet at the canyon mouth, through a narrow slot and past Lamoille Falls, to 8,800 feet at Road's End.",
-    "Glaciers did the carving. They left the canyon a U in cross section, with four hanging valleys high on the side of Thomas Peak, 11,325 feet. At Road's End the driving stops and the 38-mile Ruby Crest Trail begins."
+    "Lamoille Canyon Road winds through the Ruby Mountains of northeastern Nevada, climbing to a trailhead parking area at 8,800 feet. This 12-mile National Forest Scenic Byway follows a canyon that glaciers carved into a U-shaped cross section, with hanging valleys high on Thomas Peak. District Ranger Josh Nicholes describes the byway as an easy way to experience the rugged Ruby Mountains. The road is not plowed in winter; vehicle access to its upper end is generally limited to June through October, with snowfall affecting the season.",
+    "The Civilian Conservation Corps built the road in the 1930s and 1940s. In 2026, the Forest Service announced reconstruction of a roadbed and retaining wall on a one-lane section, with a new culvert and repaving. The work called for closing the upper road to vehicles while keeping hiking trails open.",
+    "The route begins at SR 227 west of Lamoille and enters the canyon. Heading uphill, the sequence runs from Powerhouse Picnic Area past Camp Lamoille and Thomas Canyon to the Terraces Picnic Area. Aspens cover the Terraces, with the creek just beyond the picnic area. At Road’s End, the drive meets the northern terminus of the 38-mile Ruby Crest National Recreation Trail and the trail to Island Lake."
   ],
   "moments": [
     {
       "title": "Powerhouse Picnic Area",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "At the canyon mouth, a powerhouse built in 1913 for the Elko-Lamoille Power Company burned in 1971 and left only its foundation."
+      "text": "A foundation marks an earlier use of the canyon mouth: generating power. The Elko-Lamoille Power Company’s powerhouse was built here in 1913; it burned in 1971, leaving only that foundation. Powerhouse Picnic Area sits where Lamoille Canyon exits the mountains. Above it, the canyon rises 1,000 feet in three miles to Camp Lamoille, which stands at 7,100 feet."
     },
     {
       "title": "Terraces Picnic Area",
       "kind": "roadside",
       "scene": "forest",
-      "text": "A dense stand of aspens beside Lamoille Creek, where fly-fishermen work the water for brook and wild rainbow trout.",
+      "text": "Aspens cover the Terraces Picnic Area, with Lamoille Creek running just outside it. The creek holds brook trout and wild rainbow trout. Above the picnic area, Verdi Peak forms a prominent part of Lamoille Canyon’s east wall. Despite its singular official name, Verdi Peak consists of three summits. The two southern summits sit directly on the Ruby Crest, 5,000 feet above Ruby Valley to the east. The picnic area has paved footpaths, tables and grills. The aspens offer partial shade, and most sites have views of the surrounding peaks and canyon walls.",
+      "notice": "Look above the aspens toward Verdi Peak on the canyon’s east wall.",
       "motifs": [
         "aspens"
       ]
     },
     {
       "title": "Road's End",
-      "kind": "short walk",
+      "kind": "roadside",
       "scene": "mountain",
-      "text": "The high point of the road at 8,800 feet, where the canyon swings around Thomas Peak and a short trail starts up to Island Lake in one of the hanging valleys."
+      "text": "At 8,800 feet, Road’s End is the high point of Lamoille Canyon Road. Here the canyon curves around Thomas Peak, whose flanks hold four hanging valleys, including Island Lake. A two-mile trail leads from the road-end parking lot to Island Lake. The lake surface stands at 9,665 feet. The same trailhead is the northern end of the 38-mile Ruby Crest National Recreation Trail. A stand of whitebark pine grows farther down the canyon from the Dollar Lakes. Beyond the road, the Ruby Crest trail follows the western shore of those three glacial lakes."
     }
   ],
   "practical": [
-    "One section of Lamoille Canyon Road is a single lane."
+    "Road's End: The Forest Service announced a vehicle closure above Lions Camp Lamoille starting September 14, 2026, with work expected to finish by the end of October. Road-end parking is inaccessible during the closure. The road is not plowed in winter. (checked 2026-10-11)"
   ],
   "sources": [
+    {
+      "label": "Wikipedia, Lamoille Canyon Road",
+      "url": "https://en.wikipedia.org/wiki/Lamoille_Canyon_Road"
+    },
     {
       "label": "Wikipedia, Lamoille Canyon",
       "url": "https://en.wikipedia.org/wiki/Lamoille_Canyon"
     },
     {
-      "label": "Wikipedia, Lamoille, Nevada",
-      "url": "https://en.wikipedia.org/wiki/Lamoille,_Nevada"
+      "label": "USDA Forest Service, Lamoille Canyon road work begins next week",
+      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/newsroom/releases/lamoille-canyon-road-work-begins-next-week"
     },
     {
       "label": "USDA Forest Service, Terraces Campground-Picnic Area",
       "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/recreation/terraces-campground-picnic-area"
     },
     {
-      "label": "USDA Forest Service, Lamoille Canyon road work begins next week",
-      "url": "https://www.fs.usda.gov/r04/humboldt-toiyabe/newsroom/releases/lamoille-canyon-road-work-begins-next-week"
+      "label": "Wikipedia, Verdi Peak (Nevada)",
+      "url": "https://en.wikipedia.org/wiki/Verdi_Peak_%28Nevada%29"
+    },
+    {
+      "label": "Wikipedia, Island Lake (Nevada)",
+      "url": "https://en.wikipedia.org/wiki/Island_Lake_%28Nevada%29"
+    },
+    {
+      "label": "Wikipedia, Dollar Lakes",
+      "url": "https://en.wikipedia.org/wiki/Dollar_Lakes"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

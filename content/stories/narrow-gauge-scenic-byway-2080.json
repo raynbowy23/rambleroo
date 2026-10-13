@@ -1,16 +1,17 @@
 {
   "id": "narrow-gauge-scenic-byway-2080",
-  "tagline": "Where the narrow gauge ran, from Dulce up the Navajo River.",
+  "tagline": "A railroad bridge and tank mark the road beyond Dulce.",
   "intro": [
-    "This is the New Mexico end of Tracks Across Borders, a 128-mile byway from Chama to Durango that traces the right of way of the abandoned Denver and Rio Grande Western narrow gauge. Out of Chama it heads west into the Jicarilla Apache Nation at Dulce, then turns north past Navajo and up the canyon of the Navajo River to the Colorado line. The road mapped here is only about ten miles of that, out of Dulce and on past Navajo.",
-    "Most of the railroad's narrow gauge was abandoned in the 1950s and 1960s. The piece from Antonito to Chama survived as the Cumbres and Toltec. West of Chama the byway keeps to the old line instead."
+    "Beyond Dulce, the road passes a railroad bridge and tank at Navajo before turning north through a canyon of rock outcrops and tall pines. New Mexico’s tourism department describes this drive within Tracks Across Borders, a 128-mile Scenic and Historic Byway connecting Chama with Durango, Colorado. It presents the abandoned Denver and Rio Grande Western Railroad right of way as the route’s historic thread.",
+    "The railroad adopted narrow gauge partly because construction and equipment cost less than standard gauge. Its rails were three feet apart; by 1889 the narrow-gauge network connected Colorado, New Mexico and Utah across 1,861 miles of track. Most of its remaining narrow-gauge track was abandoned in the 1950s and 1960s. The Antonito–Chama section survived, with the Cumbres and Toltec Scenic Railroad taking over in 1970; the byway follows the abandoned corridor west of Chama. Another surviving section, Durango–Silverton, operates as the Durango and Silverton Narrow Gauge Railroad, separate from the abandoned corridor followed by the road.",
+    "For the larger journey, begin at the Cumbres and Toltec’s western terminus in Chama and head west through the Jicarilla Apache Nation at Dulce. Continue past Navajo’s railroad remnants, then follow the Navajo River canyon north to the Colorado border."
   ],
   "moments": [
     {
       "title": "Dulce",
       "kind": "town",
       "scene": "town",
-      "text": "The Gomez family named their 1877 ranch Agua Dulce for its sweet springs, and it is still theirs, surrounded now by the reservation whose headquarters took the name.",
+      "text": "Dulce is the tribal headquarters of the Jicarilla Apache Reservation. Its ranching history begins with Jose Eugenio Gomez’s homestead in 1877. The Gomez family called the ranch Agua Dulce, Spanish for sweet water, for springs that supplied people and animals with drinking water. A sawmill and a logging railroad later operated here, with the line extending southwest as far as Mills Lake from about 1914. Both closed around 1930. The town remains the reservation’s largest community. The Gomez Ranch remains under Manuel Gomez’s ownership, surrounded by reservation land. A post office opened in Dulce in 1892.",
       "at": [
         -106.9925,
         36.94222222
@@ -20,36 +21,37 @@
       "title": "Navajo",
       "kind": "roadside",
       "scene": "river",
-      "text": "At Navajo the narrow gauge left behind a railroad bridge and a water tank, both well preserved."
+      "text": "At Navajo, a railroad bridge and tank survive along the byway’s passage west from Dulce. They mark the abandoned Denver and Rio Grande Western narrow-gauge corridor traced by Tracks Across Borders. Beyond Navajo, the road turns north through the Navajo River canyon toward Colorado.",
+      "notice": "A railroad bridge and tank survive at Navajo."
     },
     {
       "title": "Navajo River canyon",
       "kind": "roadside",
       "scene": "river",
-      "text": "Rock outcrops and tall pines close in along the Navajo River to the Colorado line, on a river whose water goes in large part across the Continental Divide to the Rio Grande."
+      "text": "Rock outcrops and tall pines rise on both sides of the road through the Navajo River canyon toward the Colorado border. The river crosses the state boundary too: it begins in Colorado’s South San Juan Wilderness, dips into New Mexico just north of Dulce, then returns northwest to Colorado. There it joins the San Juan River. A large portion of its water takes another route, diverted across the Continental Divide into the Rio Grande basin through the San Juan–Chama Project. The Navajo is a 54-mile tributary of the San Juan, named Lóolahó in Jicarilla Apache.",
+      "notice": "Rock outcrops and tall pines line both sides of the canyon road."
     }
   ],
   "practical": [
-    "The stretch up the Navajo River canyon to the Colorado line is not a road to drive in wet or snowy weather."
+    "Navajo River canyon: Do not drive the Navajo River canyon section to the Colorado border in wet or snowy weather. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "New Mexico True, Tracks Across Borders Scenic Byway",
+      "label": "New Mexico Tourism Department, Tracks Across Borders Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/tracks-across-borders/"
-    },
-    {
-      "label": "Wikipedia, Dulce, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Dulce,_New_Mexico"
-    },
-    {
-      "label": "Wikipedia, Navajo River",
-      "url": "https://en.wikipedia.org/wiki/Navajo_River"
     },
     {
       "label": "Wikipedia, Denver and Rio Grande Western Railroad",
       "url": "https://en.wikipedia.org/wiki/Denver_and_Rio_Grande_Western_Railroad"
+    },
+    {
+      "label": "Wikipedia, Dulce, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Dulce%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Navajo River",
+      "url": "https://en.wikipedia.org/wiki/Navajo_River"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

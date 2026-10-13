@@ -277,11 +277,18 @@
   },
   "landmarks": [
     {
+      "name": "Ursine",
+      "model": "town-blocks",
+      "at": 0.7877623493270614,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
       "name": "Pioche",
       "model": "town-blocks",
       "at": 0.9924420288117453,
       "offset": "roadside",
-      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
@@ -374,7 +381,7 @@
     {
       "name": "Ursine",
       "at": 0.787995469988675,
-      "landmark": ""
+      "landmark": "Ursine"
     },
     {
       "name": "Pioche",

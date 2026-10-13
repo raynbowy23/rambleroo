@@ -1,30 +1,41 @@
 {
   "id": "lovelock-cave-back-country-byway-68957",
-  "tagline": "Across an old lake to the duck decoys.",
+  "tagline": "Lake remnants and ancient duck decoys beyond a railway town",
   "intro": [
-    "Out of Lovelock, the back country byway crosses what remains of Lake Lahontan on its twenty miles to Lovelock Cave. The old lake has gone. The cave kept duck decoys and baskets two thousand years, and it is known as the cradle of Great Basin archaeology.",
-    "Lovelock itself was founded with the building of the Central Pacific Railroad. When the railroad planned to tear down its wooden depot, the town took the building, moved it across Broadway Avenue and restored it. Shops lease it now."
+    "The Lovelock Cave Back Country Byway runs for 20 miles past remains of Lake Lahontan. The Bureau of Land Management classifies it as a Type I and Type II Back Country Byway and recommends two to three hours for the trip. Its destination has yielded 2,000-year-old duck decoys, baskets and textiles, the archaeological finds behind BLM’s description of the cave as the cradle of Great Basin archaeology.",
+    "At the town end of the journey, transport changed Lovelock twice. The Central Pacific Railroad’s arrival in 1868 brought the town’s foundation; in 1983, Interstate 80 bypassed old U.S. Route 40 through downtown and drew business away from the center. The city subsequently promoted its historic buildings as heritage attractions.",
+    "Begin in Lovelock with the wooden depot, relocated across Broadway Avenue, then the Marzen ranch house near town. Beyond town lies Lovelock Cave, where a self-guided nature trail explores the area."
   ],
   "moments": [
     {
       "title": "Lovelock depot",
       "kind": "town",
       "scene": "town",
-      "text": "Brackets and finials dress the wooden depot, moved across Broadway Avenue after the railroad proposed tearing it down.",
+      "text": "Lovelock’s depot combines a baggage room in its lower southern section with a taller northern section containing the waiting room, agent’s office and living quarters. Built in 1880, it became a regular stop for transcontinental trains. Amtrak’s California Zephyr stopped here until May 11, 1997, before Union Pacific proposed demolition in 1998. Union Pacific instead donated the building and the projected demolition cost to the city. Lovelock moved it across Broadway Avenue in 1999 and completed restoration in 2000. Finials, braces, brackets and flat board trim give both wooden sections their elaborate detail.",
       "at": [
         -118.47277778,
         40.17972222
       ]
     },
     {
+      "title": "Marzen House",
+      "kind": "short walk",
+      "scene": "town",
+      "text": "Ornate cutout window moldings and corner boards decorate the two-story Marzen House, a ranch residence with a low hipped roof. The Italianate house’s balanced exterior is clad in shiplap, initially painted white, with double-hung wooden windows beneath arch moldings. Joseph Marzen built it in 1875. He used Humboldt River water to irrigate land for wheat at Big Meadows. After its National Register listing, the empty house was moved to the edge of the ranch for use as a museum. The entrance has Victorian double doors beneath a frosted-glass transom, part of the house’s decorative design.",
+      "at": [
+        -118.48138889,
+        40.17083333
+      ]
+    },
+    {
       "title": "Lovelock Cave",
       "kind": "short walk",
       "scene": "desert",
-      "text": "A self-guided nature trail explores the cave area where duck decoys and baskets survived for two thousand years."
+      "text": "Duck decoys, baskets and textiles are among the 2,000-year-old objects recovered from Lovelock Cave. Many of the artifacts are displayed in museums across the United States. BLM calls the cave the cradle of Great Basin archaeology. At the cave itself, interpretive signs and a self-guided nature trail provide ways to explore the site."
     }
   ],
   "practical": [
-    "Portions of the byway may require a high-clearance vehicle."
+    "Lovelock Cave: Portions of the 20-mile byway may require a high-clearance vehicle. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -32,14 +43,17 @@
       "url": "https://www.blm.gov/programs/recreation/recreation-programs/byways/nevada"
     },
     {
+      "label": "Wikipedia, Lovelock, Nevada",
+      "url": "https://en.wikipedia.org/wiki/Lovelock%2C_Nevada"
+    },
+    {
       "label": "Wikipedia, Lovelock station",
       "url": "https://en.wikipedia.org/wiki/Lovelock_station"
     },
     {
-      "label": "Wikipedia, Lovelock, Nevada",
-      "url": "https://en.wikipedia.org/wiki/Lovelock%2C_Nevada"
+      "label": "Wikipedia, Marzen House",
+      "url": "https://en.wikipedia.org/wiki/Marzen_House"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

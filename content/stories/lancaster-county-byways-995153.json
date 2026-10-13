@@ -1,16 +1,18 @@
 {
   "id": "lancaster-county-byways-995153",
-  "tagline": "Down the neck to a free ferry, and back around.",
+  "tagline": "River Road and a free ferry connect the Northern Neck’s waterways.",
   "intro": [
-    "River Road leaves Route 3 near Litwalton and runs down the neck between the Rappahannock and the Western Branch of the Corrotoman, through Somers and on to Ottoman. There the road gives way to water, and a free ferry carries the loop across the Western Branch to Merry Point Road.",
-    "From Lancaster it runs Mary Ball Road to Kilmarnock and White Stone, then Irvington Road back north through Irvington and Pitmans Corner. It crosses itself in Kilmarnock."
+    "River Road follows a peninsula between the Rappahannock River and the Western Branch of the Corrotoman, passing Somers and Ottoman. North of Ottoman, this section of SR 354 is a Virginia Byway. The Virginia Department of Transportation also identifies Route 604, with its free Merry Point Ferry crossing, as a scenic byway. Belle Isle’s marsh-bordered peninsula lies west of Somers on the Rappahannock, while SR 200 links White Stone, Irvington and Kilmarnock on the eastern end of the Northern Neck.",
+    "The ferry connects Ottoman Ferry Road with Merry Point Road across the Western Branch. That water link was interrupted in April 2020, when VDOT suspended Northern Neck ferry service to protect passengers and operators during the stay-at-home order. During the interruption, travelers used land routes taking 20 minutes. A July announcement set the return of normal service for July 3.",
+    "From the SR 3 junction near Litwalton, follow River Road south through Somers, with Belle Isle State Park to the west, toward Ottoman and the ferry. Lancaster lies on SR 3 northwest of Kilmarnock. From White Stone, SR 200 crosses Carter Creek’s Eastern Branch into Irvington, then turns north past Christ Church at Pitmans Corner and returns to Kilmarnock."
   ],
   "moments": [
     {
       "title": "Belle Isle State Park",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "West of Somers, a park on a peninsula of tidewater marsh between Deep Creek and Morattico Creek, on land patented in 1652 and known in those years as Powell's Quarter.",
+      "text": "Tidewater marshes surround the peninsula at Belle Isle State Park, between Deep Creek and Morattico Creek on the Rappahannock River. The park took shape in 1993 after state bond funding bought 675 acres that had been slated for development. Its former farmland includes land that continues to be farmed. The historic Belle Isle house followed a different path: purchased in 2015 and protected from development, it is not open to the public. Trails serve walkers, cyclists and horseback riders, with some paths reserved for hiking. The surrounding marsh habitat supports birds including blue herons and osprey.",
+      "notice": "Look for the coastal marshes surrounding the park’s peninsula.",
       "at": [
         -76.59944444,
         37.77444444
@@ -20,13 +22,13 @@
       "title": "Merry Point Ferry",
       "kind": "roadside",
       "scene": "river",
-      "text": "At Ottoman the byway crosses the Western Branch of the Corrotoman on a free ferry, which lands on Merry Point Road on the far side."
+      "text": "The Merry Point Ferry carries Route 604 across the western end of the Corrotoman River. Its road connections are Merry Point Road and Ottoman Ferry Road. VDOT operates the crossing without a fare, using a ferry with a limit of six passengers and 16 tons. One operator runs the service, which pauses for a midday lunch break. Signs on the approach communicate whether it is operating; wind, weather and tides can affect service. Even the approach signs require the operator’s attention: service can pause briefly while that person changes the posted information."
     },
     {
       "title": "Christ Church",
       "kind": "roadside",
       "scene": "town",
-      "text": "The only colonial Virginia church still keeping its original high-backed pews, and John Carter, who paid for the first church here, lies in the grounds beside four of his five wives.",
+      "text": "High-backed box pews and a three-tiered pulpit survive inside Christ Church, built in 1732–35 north of Irvington. The brick church succeeded a wooden building funded by John Carter in 1670. His son Robert financed and supervised the replacement. The pulpit’s levels assigned a physical order to what the congregation heard: announcements at the bottom, gospel readings in the middle and sermons at the top. Restoration began in 1927 under the Association for the Preservation of Virginia Antiquities. The Foundation for Historic Christ Church now owns and operates the building as a museum, with its eighteenth-century appearance almost completely restored.",
       "at": [
         -76.41861111,
         37.67680556
@@ -34,16 +36,20 @@
     }
   ],
   "practical": [
-    "The Merry Point Ferry is a free VDOT ferry that does not run every day of the week, and wind, weather and tides can halt it; Virginia 511 gives its status."
+    "Merry Point Ferry: VDOT lists no Merry Point service on Sundays or Mondays. Wind, weather and tides can affect the crossing; check the approach signs for its operating status. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
-    {
       "label": "Wikipedia, Virginia State Route 354",
       "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_354"
+    },
+    {
+      "label": "Virginia Department of Transportation, Ferries",
+      "url": "https://www.vdot.virginia.gov/about/our-system/ferries/"
+    },
+    {
+      "label": "Wikipedia, Belle Isle State Park (Virginia)",
+      "url": "https://en.wikipedia.org/wiki/Belle_Isle_State_Park_%28Virginia%29"
     },
     {
       "label": "Wikipedia, Virginia State Route 200",
@@ -54,18 +60,13 @@
       "url": "https://rrecord.com/merry-point-and-sunnybank-ferries-to-resume-normal-service-on-friday/"
     },
     {
-      "label": "Wikipedia, Belle Isle State Park (Virginia)",
-      "url": "https://en.wikipedia.org/wiki/Belle_Isle_State_Park_(Virginia)"
+      "label": "Wikipedia, Lancaster, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Lancaster%2C_Virginia"
     },
     {
       "label": "Wikipedia, Christ Church (Lancaster County, Virginia)",
-      "url": "https://en.wikipedia.org/wiki/Christ_Church_(Lancaster_County,_Virginia)"
-    },
-    {
-      "label": "Virginia Department of Transportation, Ferries",
-      "url": "https://www.vdot.virginia.gov/about/our-system/ferries/"
+      "url": "https://en.wikipedia.org/wiki/Christ_Church_%28Lancaster_County%2C_Virginia%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

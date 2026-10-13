@@ -1,25 +1,33 @@
 {
   "id": "martin-grade-scenic-highway-991203",
-  "tagline": "A logging trail turned cattle road, under hundred-year-old oaks.",
+  "tagline": "A former logging trail beneath oaks, beside groves and wet prairie",
   "motifs": [
     "orchard"
   ],
   "intro": [
-    "Half an hour west of Stuart, County Road 714 runs 12 miles from Allapattah Road to State Road 710, and the locals call it simply the Grade. Cabbage palms, maples and hundred-year-old oaks arch over much of it, with pastures, groves, swamps and woods on either hand.",
-    "It began as a logging trail. In the early 1900s cowboys drove cattle along it, and citrus groves and ranches grew up beside it, with Lake Okeechobee off to the west."
+    "Martin Grade carries County Road 714 for 12 miles beneath a canopy of oaks, with pastures, groves, swamps and woods beside the road. Cabbage palms and maples join the trees along the corridor. Designated on January 28, 2015, this Florida scenic highway is presented by the state program as a journey through the county’s rural landscape and agricultural history.",
+    "The Grade began as a logging trail. By the early 1900s, cowboys were using it for cattle drives; citrus groves and cattle ranches soon bordered the route. Farming and ranching continued across generations; residents call the road the Grade.",
+    "Traveling west from Allapattah Road, follow CR 714 to Warfield Boulevard, State Road 710. Allapattah Flats lies south of the corridor, preserving sloughs and wet prairies from the Alpatiokee Swamp. Stuart lies east and Lake Okeechobee west; beyond the byway, Warfield Boulevard is the main route through Indiantown."
   ],
+  "notice": "Oaks arch over the roadway, joined by cabbage palms and maples.",
   "moments": [
+    {
+      "title": "The Grade’s tree canopy",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "Oaks form a canopy over much of the Grade, with cabbage palms and maples lining the road. Hundred-year-old oaks shade this 12-mile road. The surrounding land includes pastures, groves, swamps and woods. The agricultural setting developed along a former logging trail: cattle drives used the Grade in the early 1900s, and citrus groves and ranches followed."
+    },
     {
       "title": "Allapattah Flats",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "South of the road lies Allapattah Flats, what is left of the sloughs and wet prairies of the Alpatiokee Swamp in the northern Everglades."
+      "text": "South of the Grade, Allapattah Flats Wildlife Management Area preserves a remnant of the Alpatiokee Swamp in the northern Everglades. Its sloughs and wet prairies are part of the landscape adjoining this corridor of pastures, groves, swamps and woods."
     },
     {
       "title": "Indiantown",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "Where the Grade meets Warfield Boulevard, the road runs on to Indiantown, an old Seminole trading post that S. Davies Warfield meant as a railroad's southern hub until the land boom fizzled.",
+      "text": "Indiantown began as a Seminole trading post. In 1924, S. Davies Warfield brought an extension of the Seaboard Air Line Railroad through the community and planned its transformation into the line’s southern hub. He laid out streets and built a school, housing and a station. He also built the Seminole Inn, which is listed on the National Register of Historic Places. The land boom faded after 1926; Warfield’s death the next year ended the headquarters plan, and the 1928 hurricane halted further development. Passenger service ended in 1971, and the depot was later demolished. Warfield’s name remains on the main road through town.",
       "at": [
         -80.51139,
         27.04583
@@ -28,18 +36,17 @@
   ],
   "sources": [
     {
+      "label": "Florida Department of Transportation, Martin Grade Scenic Highway",
+      "url": "https://floridascenichighways.com/our-byways/southern-region/martin-grade-scenic-highway/"
+    },
+    {
       "label": "Keep Martin Beautiful, Martin Grade Scenic Highway",
       "url": "https://www.keepmartinbeautiful.org/martin-grade-scenic-highway.html"
     },
     {
-      "label": "Florida Scenic Highways, Martin Grade Scenic Highway",
-      "url": "https://floridascenichighways.com/our-byways/southern-region/martin-grade-scenic-highway/"
-    },
-    {
       "label": "Wikipedia, Indiantown, Florida",
-      "url": "https://en.wikipedia.org/wiki/Indiantown,_Florida"
+      "url": "https://en.wikipedia.org/wiki/Indiantown%2C_Florida"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

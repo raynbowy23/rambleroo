@@ -1,16 +1,17 @@
 {
   "id": "louisiana-scenic-bayou-byway-2074",
-  "tagline": "Bayou towns with rivers doing the heavy work.",
+  "tagline": "River towns trace the changing work of locks and levees",
   "intro": [
-    "From Simmesport, the northernmost town on the Atchafalaya, the drive reaches Morganza near the Mississippi, then turns through the bayou towns toward Plaquemine. There, Bayou Plaquemine once gave southwestern Louisiana a water route to the great river.",
-    "Morganza sits at the lower end of a sharp bend in the Mississippi, and levees broke there or just downriver in 1850, 1865, 1867 and 1890. Just north of town, the Morganza Spillway, built from 1939 to 1955, can turn the river's high water down into the Atchafalaya Basin."
+    "At Maringouin, Louisiana Highway 77 passes through town and follows Bayou Grosse Tete southeast toward Rosedale. The highway also links Maringouin with Plaquemine, a city surrounded by farmland with swampland farther west.",
+    "Bayou Plaquemine once provided a water route between southwestern Louisiana and the Mississippi through the Atchafalaya Basin. Its lock opened in 1909 after 14 years of construction, then closed in 1961 as growing river traffic demanded a larger replacement. At Morganza, the Army Corps of Engineers built a spillway from 1939 to 1955 to divert Mississippi high water into the Atchafalaya Basin.",
+    "Begin with Simmesport on the Atchafalaya’s west bank, then Morganza near the Mississippi. Maringouin and Plaquemine follow, before Port Allen’s Mississippi riverfront and Oscar on the southern end of False River. At New Roads, Main Street lies beside False River."
   ],
   "moments": [
     {
       "title": "Simmesport",
       "kind": "town",
       "scene": "river",
-      "text": "The town stands on the west bank of the Atchafalaya near Old River, which connects the Red and Atchafalaya rivers with the Mississippi.",
+      "text": "Simmesport occupies the west bank of the Atchafalaya near Old River, which connects the Red and Atchafalaya rivers with the Mississippi. It is the northernmost town on the Atchafalaya. Founder Bennet Barton Simmes owned White Hall Plantation at one time, across the river from town.",
       "at": [
         -91.81416667,
         30.98055556
@@ -20,7 +21,7 @@
       "title": "Maringouin",
       "kind": "town",
       "scene": "river",
-      "text": "Highway 77 passes through a town named for the mosquito, with Bayou Grosse Tete along its eastern border.",
+      "text": "Maringouin’s Louisiana Creole name means mosquito, and is pronounced mah-ring-gwin. Bayou Grosse Tete forms the town’s eastern boundary. Highway 77 runs through the center, then follows that bayou six miles southeast to Rosedale. Highway 76 follows a different waterway, Bayou Maringuoin, south toward Ramah. The town belongs to Louisiana’s French-speaking Acadiana region.",
       "at": [
         -91.51861111,
         30.49083333
@@ -30,7 +31,8 @@
       "title": "Plaquemine Lock State Historic Site",
       "kind": "short walk",
       "scene": "river",
-      "text": "George Goethals, later the Panama Canal's chief engineer, designed this lock; it opened in 1909, closed in 1961 when river traffic outgrew it, and its lockhouse is now the museum.",
+      "text": "Plaquemine Lock began with gravity flow; pumps came later. Colonel George Washington Goethals of the U.S. Army Corps of Engineers designed it before serving as chief engineer for construction of the Panama Canal Lock. The lock opened on April 9, 1909, after 14 years of work. Increasing river traffic and demand for a larger lock ended its service in 1961; a replacement opened in Port Allen. The Gary James Hebert Memorial Lockhouse now serves as a museum and visitor center, named for the man who led efforts to preserve the site.",
+      "notice": "The lockhouse houses the site’s museum and visitor center.",
       "at": [
         -91.23222222,
         30.29361111
@@ -39,8 +41,8 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, Simmesport, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Simmesport%2C_Louisiana"
+      "label": "Wikipedia, Plaquemine Lock State Historic Site",
+      "url": "https://en.wikipedia.org/wiki/Plaquemine_Lock_State_Historic_Site"
     },
     {
       "label": "Wikipedia, Morganza, Louisiana",
@@ -51,10 +53,25 @@
       "url": "https://en.wikipedia.org/wiki/Maringouin%2C_Louisiana"
     },
     {
-      "label": "Wikipedia, Plaquemine Lock State Historic Site",
-      "url": "https://en.wikipedia.org/wiki/Plaquemine_Lock_State_Historic_Site"
+      "label": "Wikipedia, Plaquemine, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Plaquemine%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Simmesport, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Simmesport%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Port Allen, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Port_Allen%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Oscar, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Oscar%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, New Roads, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/New_Roads%2C_Louisiana"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

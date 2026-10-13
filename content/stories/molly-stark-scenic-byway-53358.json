@@ -1,19 +1,21 @@
 {
   "id": "molly-stark-scenic-byway-53358",
-  "tagline": "Across southern Vermont on General Stark's road home.",
+  "tagline": "River valleys and winding climbs carry Route 9 across the Green Mountains.",
   "motifs": [
     "arch-bridge"
   ],
   "intro": [
-    "Route 9 comes over the Connecticut River from New Hampshire on a through arch bridge into Brattleboro, then heads west up Whetstone Brook, past Marlboro and over Hogback Mountain, and down Beaver Brook into Wilmington. It follows the Deerfield River up to Searsburg, tops the Green Mountains at Big Pond in Woodford, and comes down City Stream and the Walloomsac River into Bennington.",
-    "This is the way General John Stark's army went home to New Hampshire after the Battle of Bennington in 1777. The road is named for his wife Molly, who had figured in his battle cry: the enemy would be theirs, or that night Molly Stark would sleep a widow."
+    "The Molly Stark Byway crosses southern Vermont on Route 9 between Brattleboro and Bennington. The Brattleboro Area Chamber of Commerce presents its scenic appeal as a passage through lowland valleys, historic villages and the Green Mountain National Forest. West of Brattleboro, the road climbs through hills and forest to Hogback Mountain’s overlook, known as the “100-mile view,” spanning Vermont, New Hampshire and Massachusetts. At the Connecticut River, Route 9 uses the United States Navy Seabees Bridge, a through-arch crossing parallel to another arch bridge for pedestrians and cyclists.",
+    "The route’s name honors Molly Stark and commemorates General John Stark’s journey home after the Battle of Bennington. Road travel changed Wilmington in the next century: the stage route that became Route 9 was built through the area in 1831. In 1907, a hotel owner devised the Ideal Tour through New England’s hill country, helping establish Route 9 as a destination for pleasure driving. The numbered highway follows the course of the 1920s New England Interstate Route 9.",
+    "Drive west from Brattleboro along Whetstone Brook toward Marlboro and Hogback Mountain, then descend beside Beaver Brook to Wilmington. Continue beside the Deerfield River toward Searsburg, cross the Green Mountains at Big Pond in Woodford, and follow City Stream and the Walloomsac River down toward Bennington."
   ],
   "moments": [
     {
       "title": "Hogback Mountain",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The mountain stands just north of the highway, and its overlook, known as the 100-mile view, takes in Vermont, New Hampshire and Massachusetts.",
+      "text": "Hogback’s “100-mile view” takes in Vermont, New Hampshire and Massachusetts. The mountain itself rises north of Route 9; the former Hogback Mountain Ski Area occupied Mount Olga across the highway. From 1946 to 1986, skiers rode T-bars uphill and skied on natural snow. For years, the ski area offered free weekly skiing to students from nearby Marlboro School. The ski area blamed insurance costs for its closure. Roughly 590 acres were purchased and given to Marlboro as the Hogback Mountain Conservation Area. Some old lifts remain on the property, alongside buildings that include a fire lookout tower.",
+      "notice": "The overlook takes in three states: Vermont, New Hampshire and Massachusetts.",
       "at": [
         -72.7875,
         42.86694444
@@ -23,7 +25,8 @@
       "title": "Wilmington",
       "kind": "town",
       "scene": "river",
-      "text": "Downtown, near the Deerfield River, Molly Stark herself stands in statue form, holding a child and a musket.",
+      "text": "Molly Stark holds a child and a musket in the statue near the Deerfield River in downtown Wilmington. She also nursed her husband’s troops during a smallpox epidemic and opened their home as a hospital during the war. The town around the statue grew where stage routes met river power. Wilmington’s center moved down from Lisle Hill when that combination drew development to the present village. Some buildings moved with it; the river’s mills have not survived. The historic district contains 59 historically significant buildings, most built during the nineteenth century in local versions of popular architectural styles.",
+      "notice": "The Molly Stark statue holds both a child and a musket.",
       "at": [
         -72.86722222,
         42.88305556
@@ -33,7 +36,8 @@
       "title": "Bennington Battle Monument",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "A 306-foot stone obelisk marks the Battle of Bennington, which was actually fought over the line in New York.",
+      "text": "The 306-foot stone obelisk marks the supplies the British sought, rather than the ground where the Battle of Bennington was fought. The fighting took place in Walloomsac, New York, on August 16, 1777. A local historical society began planning a memorial for the battle’s centenary in 1877. The committee chose J. Phillip Rinn’s design with changes, and the cornerstone was laid in 1887. Completed in 1889 and dedicated in 1891, the monument is built of blue-gray Sandy Hill Dolomite from present-day Hudson Falls, New York. The stone contains numerous fossils; statues of John Stark and Seth Warner stand on the grounds.",
+      "notice": "Look for the stone obelisk and statues of John Stark and Seth Warner on the grounds.",
       "at": [
         -73.21563,
         42.88916
@@ -42,30 +46,29 @@
   ],
   "sources": [
     {
-      "label": "Brattleboro Area Chamber of Commerce, Route 9, The Molly Stark Byway",
-      "url": "https://www.brattleborochamber.org/towns/route-9-the-molly-stark-byway/"
-    },
-    {
       "label": "Wikipedia, Vermont Route 9",
       "url": "https://en.wikipedia.org/wiki/Vermont_Route_9"
+    },
+    {
+      "label": "Brattleboro Area Chamber of Commerce, Route 9, The Molly Stark Byway",
+      "url": "https://www.brattleborochamber.org/towns/route-9-the-molly-stark-byway/"
     },
     {
       "label": "Wikipedia, Molly Stark",
       "url": "https://en.wikipedia.org/wiki/Molly_Stark"
     },
     {
-      "label": "Wikipedia, Hogback Mountain (Vermont)",
-      "url": "https://en.wikipedia.org/wiki/Hogback_Mountain_(Vermont)"
+      "label": "Wikipedia, Wilmington Village Historic District",
+      "url": "https://en.wikipedia.org/wiki/Wilmington_Village_Historic_District"
     },
     {
-      "label": "Wikipedia, Wilmington, Vermont",
-      "url": "https://en.wikipedia.org/wiki/Wilmington,_Vermont"
+      "label": "Wikipedia, Hogback Mountain (Vermont)",
+      "url": "https://en.wikipedia.org/wiki/Hogback_Mountain_%28Vermont%29"
     },
     {
       "label": "Wikipedia, Bennington Battle Monument",
       "url": "https://en.wikipedia.org/wiki/Bennington_Battle_Monument"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

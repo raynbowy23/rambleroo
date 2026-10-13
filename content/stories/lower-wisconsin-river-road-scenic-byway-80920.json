@@ -1,21 +1,21 @@
 {
   "id": "lower-wisconsin-river-road-scenic-byway-80920",
-  "tagline": "Sandbars, bluffs, and a river left to run.",
+  "tagline": "Follow the Wisconsin River from Lodi toward its meeting with the Mississippi.",
   "motifs": [
     "sandbars",
     "river-bluffs"
   ],
   "intro": [
-    "The Lower Wisconsin River Road follows the last free-flowing stretch of the Wisconsin River, from Sauk Prairie toward its meeting with the Mississippi. There are no dams on this stretch, and much of the riverbank is protected as the Lower Wisconsin State Riverway.",
-    "The road stays close to the valley, crossing farm country and small towns between wooded bluffs."
+    "The Lower Wisconsin River Road follows WIS 60 for 100 miles from Lodi to Bridgeport and Prairie du Chien. Wisconsin’s Department of Transportation presents this designated state scenic byway as a drive through the Driftless Region and the lower Wisconsin River Valley. At the western end, Prairie du Chien occupies a plain between the Mississippi, the Wisconsin and tall bluffs.",
+    "The river’s transport history changed when the Prairie du Sac Dam created Lake Wisconsin. Completed in 1914, the dam ended the Fox-Wisconsin Waterway connection to the Mississippi, though commercial traffic had stopped decades earlier. Below it begins the Lower Wisconsin State Riverway; this is the river’s last dam before the Mississippi. Building across shifting river sands required more than 11,000 timber pilings beneath a base of rock and concrete. The power station began generating electricity in September 1914.",
+    "Begin at Lodi and follow WIS 60 toward Prairie du Chien. Along the valley, Sauk City and Prairie du Sac share the river’s west bank. Spring Green brings Taliesin and American Players Theatre into the journey. Farther west, Boydtown sits on WIS 60 and the river’s north bank. Finish where the byway meets the Great River Road at Prairie du Chien."
   ],
-  "season": "Summer for sandbar picnics and paddling, autumn for the bluffs.",
   "moments": [
     {
       "title": "Sauk Prairie",
       "kind": "town",
       "scene": "town",
-      "text": "The twin towns of Sauk City and Prairie du Sac sit where the river leaves its last dam.",
+      "text": "Sauk City and Prairie du Sac share a boundary on the west bank of the Wisconsin River, but remain separate communities. Just north of Prairie du Sac, the river’s last dam before the Mississippi forms Lake Wisconsin. Its builders had to anchor the structure in shifting river sand. They drove more than 11,000 timber pilings into the riverbed, then covered them with rock and concrete. The dam began generating electricity in September 1914; its timber foundation has held for more than a century. The power station is a three-story red brick building at the dam’s west end, 330 feet long.",
       "at": [
         -89.73,
         43.28
@@ -28,30 +28,27 @@
       "title": "Spring Green",
       "kind": "town",
       "scene": "prairie",
-      "text": "A river town known for its theatre and its architecture, a short drive off the byway.",
+      "text": "Frank Lloyd Wright spent summers near Spring Green with his mother’s family, the Lloyd-Joneses of Wyoming Valley. In 1911 he built his first Taliesin studio nearby. Taliesin was rebuilt again in 1925, and Wright’s architectural influence extends into the surrounding community. Architects from his foundation and Wisconsin architects trained by Wright have designed houses, businesses and civic buildings here. The area’s arts also include American Players Theatre, with classical and modern repertory in indoor and outdoor theaters. Taliesin served as Wright’s summer home and school, including the Hillside Home School within the estate.",
       "at": [
         -90.068,
         43.175
       ]
     },
     {
-      "title": "Riverway sandbars",
-      "kind": "separate excursion",
-      "scene": "river",
-      "text": "The river's sandbars are a paddling destination rather than a roadside stop. Plan a separate outing.",
+      "title": "Lone Rock",
+      "kind": "town",
+      "scene": "town",
+      "text": "Lone Rock takes its name from a sandstone outcrop. A sign near the site explains that the rock was a landmark for river raftsmen before it was cut into stone for village basements and foundations. The sign places the remnant west of Highway 130, across from Brace Park. The village itself was founded in 1856 and incorporated a decade later. The sign places the original rock a short distance from the Wisconsin River’s north bank, where it guided the raftsmen. The community lies north of the river, at the junction of US 14 and Highway 130.",
       "at": [
-        -90.44,
-        43.19
-      ],
-      "motifs": [
-        "sandbars"
+        -90.19833333,
+        43.18416667
       ]
     },
     {
       "title": "Wyalusing State Park",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "High bluffs overlook the confluence of the Wisconsin and Mississippi rivers.",
+      "text": "Wyalusing State Park is in Wisconsin, close to Prairie du Chien. Prairie du Chien stands near the meeting of the Wisconsin and Mississippi rivers.",
       "at": [
         -91.12,
         42.98
@@ -63,10 +60,37 @@
   ],
   "sources": [
     {
-      "label": "WisDOT, Explore Wisconsin's Scenic Byways",
+      "label": "Wisconsin Department of Transportation, Explore Wisconsin’s Scenic Byways",
       "url": "https://wisconsindot.gov/Pages/travel/road/scenic-ways/byways.aspx"
+    },
+    {
+      "label": "Wikipedia, Prairie du Chien, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Prairie_du_Chien%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Lake Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Lake_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Prairie du Sac Dam",
+      "url": "https://en.wikipedia.org/wiki/Prairie_du_Sac_Dam"
+    },
+    {
+      "label": "Wikipedia, Sauk City, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Sauk_City%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Spring Green, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Spring_Green%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Boydtown, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Boydtown%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Lone Rock, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Lone_Rock%2C_Wisconsin"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

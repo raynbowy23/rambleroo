@@ -1,16 +1,17 @@
 {
   "id": "lassen-scenic-byway-2195",
-  "tagline": "Cold lakes and hot ground on the same mountain road.",
+  "tagline": "A purpose-built park highway links high lakes with heat-altered volcanic rock.",
   "intro": [
-    "From Old Station, Routes 44 and 89 lead back to Lassen Volcanic National Park. There the byway turns south on Route 89, past Manzanita Lake and over an unnamed pass between Lassen Peak and Bumpass Mountain.",
-    "Out of the park it joins Route 36 east of Mineral and heads for Chester on Lake Almanor. The short stretch of Route 36 through Mineral is, officially, not part of it. The loop circles the lake, then runs northwest through the Lassen National Forest back toward Old Station."
+    "The Lassen Scenic Byway links Lake Almanor, Lassen National Forest and the high road through Lassen Volcanic National Park. The park section passes Manzanita Lake and climbs to an unnamed pass between Lassen Peak and Bumpass Mountain. The Lassen loop forms part of the larger Volcanic Legacy Scenic Byway, an All-American Road through California and Oregon. Stone retaining walls and culvert headwalls are part of the park road’s rustic design, arranged to give motorists a progression of views while fitting the landscape.",
+    "Planning for the park highway began in 1922 with engineer George E. Goodwin and landscape designer Daniel Ray Hull. Their route would replace primitive roads entering from the edges with access through the park’s center. After debate, the network was reduced to leave more backcountry. Construction began in 1925; the route was essentially complete for the July 1931 park dedication, though surfacing work continued.",
+    "From Old Station, SR 44 and SR 89 lead back to the park. Heading south through it, the drive passes Lake Helen before Sulphur Works, then joins SR 36 east of Mineral and reaches Chester. The lake loop uses SR 36, SR 147 and SR 89. From Chester, SR 36 leads east to SR 44 west of Susanville, which returns northwest through the forest to Old Station."
   ],
   "moments": [
     {
       "title": "Lake Helen",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Highway 89 runs along the southern and eastern shores of this cirque lake at about 8,200 feet, where the ice usually holds from autumn until July or August.",
+      "text": "Highway 89 traces Lake Helen’s southern and eastern shores, placing a glacial lake directly beside the park road. It occupies a cirque at around 8,200 feet, south of Lassen Peak and west of Bumpass Mountain. That elevation keeps it frozen and snow-covered for most of the year: ice usually forms around October or November and remains until July or August. Nearby Emerald Lake lies west of Lake Helen, with Highway 89 following its eastern shore. Near Lassen Peak, the park road rises higher still, reaching 8,512 feet before descending toward the park entrances.",
       "at": [
         -121.51,
         40.46861111
@@ -20,13 +21,14 @@
       "title": "Sulphur Works",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Gray-green andesite has broken down into red, yellow, and buff clays here, and a hot vent east of the road gives off hydrogen sulfide where the park road's builders put a rustic entrance station."
+      "text": "The red, yellow and buff material at Sulphur Works began as hard, gray-green volcanic rock. Sulfurous and sulfuric acids broke the andesite lava down into clays and iron oxides. A hot vent east of Route 89 releases hydrogen sulfide. Road construction brought another layer of change: after the park route was essentially complete in 1931, work continued on surfacing, signs and rustic entrance stations, including one at Sulphur Works. Sulphur Works is one of several thermal areas in Lassen Volcanic National Park, which has springs, steam vents and mudpots, but no true geysers.",
+      "notice": "Red, yellow and buff clays record the chemical alteration of gray-green andesite."
     },
     {
       "title": "Chester",
       "kind": "town",
       "scene": "mountain",
-      "text": "On Lake Almanor, the town’s name recalls the two Chesters, in Vermont and Missouri, that its founders came from.",
+      "text": "Chester stands on Lake Almanor’s northwest side. The buried northern end of the Sierra Nevada lies almost directly below town, alongside the southernmost volcanic Cascades. Its human geography has two namesakes as well: the settlers who founded and named Chester came from Chester, Vermont, and Chester, Missouri. Lumber production and tourism are its principal industries. On SR 36, the town serves as the retail center for the Lake Almanor region. The lake supports fishing and boating, while the surrounding area includes trails and campgrounds. From Chester, the lake loop follows SR 36 along the north shore toward Westwood.",
       "at": [
         -121.23472222,
         40.3025
@@ -34,16 +36,12 @@
     }
   ],
   "practical": [
-    "The section of Route 89 through Lassen Volcanic National Park is usually closed in winter."
+    "Lake Helen: The park section of SR 89 is typically closed in winter because of heavy snowfall and snowpack. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Wikipedia, Volcanic Legacy Scenic Byway",
-      "url": "https://en.wikipedia.org/wiki/Volcanic_Legacy_Scenic_Byway"
-    },
-    {
-      "label": "Wikipedia, Chester, California",
-      "url": "https://en.wikipedia.org/wiki/Chester%2C_California"
+      "label": "Wikipedia, Lassen Volcanic National Park Highway Historic District",
+      "url": "https://en.wikipedia.org/wiki/Lassen_Volcanic_National_Park_Highway_Historic_District"
     },
     {
       "label": "Wikipedia, Lake Helen (California)",
@@ -54,14 +52,25 @@
       "url": "https://en.wikipedia.org/wiki/Geothermal_areas_in_Lassen_Volcanic_National_Park"
     },
     {
+      "label": "Wikipedia, Volcanic Legacy Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Volcanic_Legacy_Scenic_Byway"
+    },
+    {
       "label": "Wikipedia, California State Route 89",
       "url": "https://en.wikipedia.org/wiki/California_State_Route_89"
     },
     {
-      "label": "Wikipedia, Lassen Volcanic National Park Highway Historic District",
-      "url": "https://en.wikipedia.org/wiki/Lassen_Volcanic_National_Park_Highway_Historic_District"
+      "label": "Wikipedia, Emerald Lake (Lassen Peak)",
+      "url": "https://en.wikipedia.org/wiki/Emerald_Lake_%28Lassen_Peak%29"
+    },
+    {
+      "label": "Wikipedia, Lassen Volcanic National Park",
+      "url": "https://en.wikipedia.org/wiki/Lassen_Volcanic_National_Park"
+    },
+    {
+      "label": "Wikipedia, Chester, California",
+      "url": "https://en.wikipedia.org/wiki/Chester%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

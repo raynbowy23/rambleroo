@@ -1,16 +1,17 @@
 {
   "id": "mulholland-highway-990618",
-  "tagline": "A mountain road through the old movie country.",
+  "tagline": "A mountain highway links lake country with a former movie ranch.",
   "intro": [
-    "Near Malibou Lake, this part of Mulholland Highway runs through Malibu Creek State Park between Cornell Road and Las Virgenes Road. It is a small piece of the mountain road built in the 1920s to bring Los Angeles toward the ocean.",
-    "The nearby lake and the park have both worked for Hollywood. Malibou Lake supplied the water for a scene in the 1931 Frankenstein; the former Fox Ranch in the park became the setting for M*A*S*H. The lake and its residential community are private."
+    "This inland stretch of Mulholland Highway passes through Malibu Creek State Park between Cornell Road and Las Virgenes Road. It belongs to the larger mountain road that zigzags through the Santa Monica Mountains without tunnels. Caltrans designated the section from West Cornell Road to Las Virgenes Road a County Scenic Highway in 2006, alongside a separate section between Route 1 and Kanan Dume Road.",
+    "Built during the 1920s, Mulholland Highway formed the rural western portion of a scenic route named for Los Angeles civil engineer William Mulholland. The highway formally opened in 1928. Nearby, Malibou Lake developed as a private residential community, while land later included in Malibu Creek State Park served as movie ranches for Paramount and 20th Century Fox.",
+    "Travel east from the Cornell Road end, with Malibou Lake half a mile south of the highway. The lake and its residential community are private. Continue through Malibu Creek State Park toward Las Virgenes Road; the former Fox Ranch was a filming location for M*A*S*H. Near the eastern end, Malibu Hindu Temple is a separate excursion off Malibu Canyon Road."
   ],
   "moments": [
     {
       "title": "Malibou Lake",
       "kind": "town",
       "scene": "mountain",
-      "text": "Half a mile south of Mulholland Highway, Malibou Lake waited nearly four years after its dam was built before rain finally filled it.",
+      "text": "For nearly four years, the development called Malibou Lake had no filled lake. George Wilson and Bertram Lackey bought 350 acres near Cornell in 1922 to create a residential community surrounding a lake. On April 5, 1926, a storm brought nearly five inches of rain, and runoff entering Medea and Triunfo creeks filled the reservoir for the first time. The lake later appeared in the 1931 film Frankenstein. Half a mile south of Mulholland Highway, the lake and its community remain private. The first clubhouse burned in 1936 and was replaced by a smaller building, designed by Russell and Alpaugh.",
       "at": [
         -118.757,
         34.107
@@ -20,10 +21,20 @@
       "title": "Malibu Creek State Park",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The highway crosses the old Fox Ranch, where M*A*S*H was filmed and its opening helicopters came in with the Goat Buttes behind them.",
+      "text": "The Goat Buttes appeared behind the approaching helicopters in the opening credits of M*A*S*H. The former Fox Ranch supplied locations for both the 1970 film and the television series that followed. Malibu Creek State Park was established in 1974 and opened to the public in 1976. The Woolsey Fire burned much of the park in 2018, including the Fox Ranch filming area. The park preserves Malibu Creek canyon, and the Backbone Trail passes through it. The park's film history also includes the Tarzan films of the 1930s and Robin Hood: Men in Tights.",
       "at": [
         -118.71111111,
         34.10083333
+      ]
+    },
+    {
+      "title": "Malibu Hindu Temple",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "Malibu Hindu Temple has two principal temples: an upper temple dedicated to Venkateswara and a lower one dedicated to Shiva. Built in 1981, the complex uses concrete to emulate Dravidian architecture, a South Indian style. Corner shrines are dedicated to Rama, Lakshmi, Bhoodevi and Krishna, with another shrine dedicated to Hanuman. The Hindu Temple Society of Southern California maintains the temple, where priests perform daily rituals and special ceremonies. The complex stands in Calabasas, in the Santa Monica Mountains, and serves as a center for Hindu worship and cultural events in Southern California.",
+      "at": [
+        -118.709687,
+        34.095103
       ]
     }
   ],
@@ -39,8 +50,15 @@
     {
       "label": "Wikipedia, Malibu Creek State Park",
       "url": "https://en.wikipedia.org/wiki/Malibu_Creek_State_Park"
+    },
+    {
+      "label": "California Department of Transportation, Officially Designated County Scenic Highways",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/od-county-scenic-hwys-2015-a11y.pdf"
+    },
+    {
+      "label": "Wikipedia, Malibu Hindu Temple",
+      "url": "https://en.wikipedia.org/wiki/Malibu_Hindu_Temple"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

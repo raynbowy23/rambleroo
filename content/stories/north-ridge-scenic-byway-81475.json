@@ -1,60 +1,69 @@
 {
   "id": "north-ridge-scenic-byway-81475",
-  "tagline": "Nine miles along an ancient beach ridge.",
+  "tagline": "An ancient beach ridge carries nine miles of historic homes.",
   "intro": [
-    "The byway follows SR 254 east from Sheffield into Avon, on North Ridge Road and then Detroit Road, about 9 miles along the northernmost of the ancient beach ridges, past more than a hundred historic houses, the oldest going back to the 1830s. Avon was once called the Greenhouse Capital of America, and a few greenhouses are left.",
-    "The name took a while to settle. The township was organized in 1818 as Xeuma, was renamed Troy, and became Avon in 1824."
+    "North Ridge Scenic Byway follows the northernmost ancient beach ridge through Sheffield and Avon. Its nine miles take in all of State Route 254 within Lorain County. The Ohio Department of Transportation’s byways brochure highlights more than 100 historic homes, with houses dating to the 1830s.",
+    "In Avon, the older settlement story follows French Creek: Wilbur Cahoon began building a sawmill in 1815 and established a gristmill in 1818. His family replaced its log-cabin home with the present house in 1826.",
+    "Travel east from Sheffield toward Avon along the ridge. SR 254 is called North Ridge Road at its western end and Detroit Road for most of its course. In Avon, Detroit Road passes Avon Isle, a sandstone dance pavilion with a low hip roof and columned porches."
   ],
   "moments": [
     {
-      "title": "Milton Garfield House",
+      "title": "Wilbur Cahoon House",
       "kind": "roadside",
       "scene": "town",
-      "text": "Milton Garfield's Greek Revival house of 1839 was featured in I. T. Frary's Early Homes of Ohio, and in 1851 he and Tempe Garfield sold Sheffield an acre for a graveyard.",
+      "text": "The Cahoon house stretches 80 feet long above French Creek, with 12 rooms inside. Wilbur Cahoon and his family first built a log cabin on their forested land; the present house replaced it in 1826. Its Greek Revival design departs from the style’s usual symmetry with an irregular floor plan. From the road, the two-story wooden house has a projecting gable on the left and shuttered windows across much of the front. The building rests on a stone foundation. Its low proportions and irregular plan set it apart from the symmetry usually associated with Greek Revival houses.",
       "at": [
-        -82.08944,
-        41.42278
+        -82.03277778,
+        41.44722222
       ]
     },
     {
-      "title": "Olde Avon Village",
-      "kind": "short walk",
+      "title": "Avon Isle",
+      "kind": "roadside",
       "scene": "town",
-      "text": "Among old buildings, some moved here to escape demolition, sits the Rock of Avon, a granite boulder left by the glaciers and dated at two billion years.",
+      "text": "Avon Isle’s sandstone pavilion hosted civic and social events from the 1920s through the 1970s. In its early years, nearby Lorain and Elyria prohibited Sunday dancing. That restriction helped Avon Isle attract entertainers including Guy Lombardo. The building’s French Colonial revival details include a low hip roof and columned porches. Inside are a stage and kitchenette; the pavilion entered the National Register of Historic Places in 2010. The pavilion stands on Detroit Road, where the sandstone exterior and porches identify a building designed for gatherings. It also hosted private events.",
+      "notice": "Look for the low hip roof and columned porches.",
       "at": [
-        -82.03316,
-        41.45356
+        -82.03277778,
+        41.45
       ]
     },
     {
-      "title": "The Stone Eagle",
-      "kind": "roadside",
+      "title": "Avon",
+      "kind": "town",
       "scene": "town",
-      "text": "William Hurst's Greek Revival house, its details taken from Minard Lafever's pattern book, is counted among the finest stone houses in the Western Reserve.",
+      "text": "Avon’s name followed changes in local government. Organized as Xeuma in 1818, the township was later called Troy. When Lorain County was created in 1824, it became Avon Township, and an Avon post office followed in 1825. The whole township incorporated as a village in 1917 before becoming the City of Avon in 1961.",
       "at": [
-        -81.98528,
-        41.45333
+        -82.00166667,
+        41.44861111
       ]
     }
   ],
   "sources": [
     {
-      "label": "Ohio Department of Transportation, North Ridge Scenic Byway story map",
+      "label": "Ohio Department of Transportation, North Ridge Scenic Byway",
       "url": "https://storymaps.arcgis.com/stories/bd271f3d24c94b50ba451b9d7b3758a2"
     },
     {
-      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
+      "label": "Ohio Department of Transportation, Ohio Byways brochure",
       "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+    },
+    {
+      "label": "Wikipedia, Wilbur Cahoon House",
+      "url": "https://en.wikipedia.org/wiki/Wilbur_Cahoon_House"
     },
     {
       "label": "Wikipedia, Ohio State Route 254",
       "url": "https://en.wikipedia.org/wiki/Ohio_State_Route_254"
     },
     {
+      "label": "Wikipedia, Avon Isle",
+      "url": "https://en.wikipedia.org/wiki/Avon_Isle"
+    },
+    {
       "label": "Wikipedia, Avon, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Avon,_Ohio"
+      "url": "https://en.wikipedia.org/wiki/Avon%2C_Ohio"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

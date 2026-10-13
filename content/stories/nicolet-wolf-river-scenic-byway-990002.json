@@ -1,16 +1,17 @@
 {
   "id": "nicolet-wolf-river-scenic-byway-990002",
-  "tagline": "Lumber towns give way to the Wolf River.",
+  "tagline": "Railways and lumber shaped Crandon; a trail follows Lily's old tracks.",
   "intro": [
-    "From Hiles on Highway 32, the drive runs south through Crandon toward the Wolf River country around Langlade. Crandon lies on the northern shore of Metonga Lake. It began as Ayr, after the town in Scotland, and was incorporated in 1909 under the name of Frank Crandon, the railroad tax commissioner who helped get Forest County created.",
-    "Farther south the road enters the town of Langlade, which the Wolf River crosses from northwest to southeast on its way, by the Fox River watershed, to Green Bay."
+    "Hiles lies on Highway 32 north-northwest of Crandon, a city on the northern shore of Metonga Lake. Farther south, Highway 55 connects Crandon with Lily, where the Lily River meets the Wolf.",
+    "Rail service helped shape these communities: a spur reached Crandon at the turn of the twentieth century, and lumber companies recruited loggers from Kentucky. At Lily, the railway operated until 2001, when its tracks were removed; the grade became the Wolf River State Trail.",
+    "Travel south from Hiles toward Crandon and the lake, then take Highway 55 toward Pickerel and Lily. Across the town of Langlade, the Wolf flows northwest to southeast within the Fox River watershed leading to Green Bay. Hollister also lies on Highway 55."
   ],
   "moments": [
     {
       "title": "Hiles",
       "kind": "town",
       "scene": "forest",
-      "text": "Named for the lumber baron F. P. Hiles, the community kept a post office from 1903 to 1968.",
+      "text": "Hiles takes its name from lumber baron F. P. Hiles. Its post office opened in 1903 and closed in 1968. The community is on Highway 32, ten miles north-northwest of Crandon.",
       "at": [
         -88.97722222,
         45.70388889
@@ -20,7 +21,7 @@
       "title": "Crandon",
       "kind": "town",
       "scene": "town",
-      "text": "Lumber companies recruited loggers from Kentucky and moved a sawmill up from Glasgow; the town still holds Kentuck Days for those ancestors.",
+      "text": "Kentucky is part of Crandon's story: lumber companies recruited settlers and loggers from there as rail service reached the timber country. A company sawmill was even moved here from Glasgow, Kentucky. Crandon's population rose from 800 to more than 2,400 in a few years. The city incorporated in 1909, and much of its building stock dates from that period. The annual Kentuck Days Festival celebrates that Kentucky ancestry. Although lumber's role has diminished, logging companies continue working in the nearby Nicolet National Forest, and logging remains among the city's major industries.",
       "at": [
         -88.90124,
         45.569845
@@ -30,7 +31,7 @@
       "title": "Lily",
       "kind": "town",
       "scene": "river",
-      "text": "Here the Lily River joins the Wolf, and the old Soo Line grade, its tracks pulled up in 2001, now carries the Wolf River State Trail.",
+      "text": "At Lily, two rivers meet and two state highways cross. The community stands on the eastern side of the Wolf River, joined here by the Lily River from the northeast. Wisconsin Central Ltd, successor here to the Soo Line, operated the railway through Lily until 2001. The tracks were removed that year, and the grade is now the Wolf River State Trail. Lily is also a junction for area snowmobile and ATV trails. Highways 52 and 55 meet here: one heads toward Wabeno and Antigo, the other links Crandon with Shawano.",
       "at": [
         -88.854,
         45.307
@@ -39,22 +40,25 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, Hiles (community), Wisconsin",
-      "url": "https://en.wikipedia.org/wiki/Hiles_%28community%29%2C_Wisconsin"
-    },
-    {
       "label": "Wikipedia, Crandon, Wisconsin",
       "url": "https://en.wikipedia.org/wiki/Crandon%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Lily, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Lily%2C_Wisconsin"
+    },
+    {
+      "label": "Wikipedia, Hiles (community), Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Hiles_%28community%29%2C_Wisconsin"
     },
     {
       "label": "Wikipedia, Langlade, Wisconsin",
       "url": "https://en.wikipedia.org/wiki/Langlade%2C_Wisconsin"
     },
     {
-      "label": "Wikipedia, Lily, Wisconsin",
-      "url": "https://en.wikipedia.org/wiki/Lily%2C_Wisconsin"
+      "label": "Wikipedia, Hollister, Wisconsin",
+      "url": "https://en.wikipedia.org/wiki/Hollister%2C_Wisconsin"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,37 +1,52 @@
 {
   "id": "mcauley-road-scenic-byway-993706",
-  "tagline": "A mile and a half of gravel, kept the old way.",
+  "tagline": "A Piedmont road in North Carolina’s state scenic byway program",
   "intro": [
-    "McAuley Road runs 1.6 miles from Huntersville-Concord Road to NC 73, unpaved the whole way, in a county the state's guidebook counts among the fastest-growing urban areas in the United States. Five minutes of driving, if nobody stops.",
-    "The Charlotte Mecklenburg Historic Landmarks Commission calls it one of the last vestiges of the rural vistas that held the county until the middle of the 20th century, and the Catawba Lands Conservancy keeps 775 acres around it under conservation easements."
+    "North Carolina’s scenic-byway program includes McAuley Road among its Piedmont routes.",
+    "Near Huntersville, Ramah Presbyterian Church’s present sanctuary dates to 1881, while the oldest burials in its cemetery date to about 1800.",
+    "Another Huntersville landmark, the John F. Ewart farmhouse, was built in 1898 and moved to Centennial Forest Drive in 2006."
   ],
   "moments": [
     {
-      "title": "Rolling farm country",
-      "kind": "roadside",
-      "scene": "prairie",
-      "text": "Rolling hills, mixed woods, pasture with grazing livestock and old farm buildings line the dirt road in what the guidebook calls a typical 19th-century landscape."
+      "title": "John F. Ewart Farm",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "The John F. Ewart farmhouse was built in 1898, but its address changed in 2006 when the house moved to Centennial Forest Drive in Huntersville. Its design is a two-story I-house with a rear kitchen wing, two exterior brick chimneys and a gabled front porch. The farm district entered the National Register in 1991, before that relocation."
     },
     {
-      "title": "Ramah Creek bridge",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "About halfway along, a one-lane wooden bridge crosses Ramah Creek, which meanders through the protected land on either side."
+      "title": "Oehler Nature Preserve",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "In August 2020, two teenagers found gasoline bubbling from the ground in Oehler Nature Preserve near Huntersville. The leak came from the buried Colonial Pipeline. Colonial later reported that its pipeline had failed on July 27, at least eighteen days before the discovery. In July 2022, the company estimated that at least two million gallons had escaped. That month, a court approved a consent decree requiring further testing, a cleanup plan and penalties."
+    },
+    {
+      "title": "Ramah Presbyterian Church and Cemetery",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Ramah Presbyterian Church’s frame sanctuary dates to 1881. The rectangular building combines vernacular Greek Revival and Italianate design, with a front-facing gable and arched sash windows. A log fellowship building followed in 1935. The cemetery’s oldest burials date to about 1800, predating the current sanctuary. It contains approximately 500 burials.",
+      "at": [
+        -80.80277778,
+        35.43944444
+      ]
     }
-  ],
-  "practical": [
-    "The road is gravel for its whole length and crosses Ramah Creek on a one-lane wooden bridge."
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, McAuley Road Scenic Byway",
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, fifth edition (cached extract)",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=124"
     },
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, McAuley Road route",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=125"
+      "label": "Wikipedia, Ramah Presbyterian Church and Cemetery",
+      "url": "https://en.wikipedia.org/wiki/Ramah_Presbyterian_Church_and_Cemetery"
+    },
+    {
+      "label": "Wikipedia, John F. Ewart Farm",
+      "url": "https://en.wikipedia.org/wiki/John_F._Ewart_Farm"
+    },
+    {
+      "label": "Wikipedia, 2020 Colonial Pipeline oil spill",
+      "url": "https://en.wikipedia.org/wiki/2020_Colonial_Pipeline_oil_spill"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,29 +1,20 @@
 {
   "id": "north-durham-country-byway-12833",
-  "tagline": "Back roads north of Durham, past Stagville to a three-family crossroads.",
+  "tagline": "A railway crossroads, Durham’s reservoir and surviving quarters at Stagville",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "Off I-85 north of Durham the byway takes Old Oxford Road past the old plantation lands of Fairntosh and Stagville, then Bahama Road to the crossroads of Bahama and along the water of Lake Michie. From there it wanders north by Red Mountain Road and Moores Mill Road to US 501 near Rougemont, then out along Lowell Road through rolling farmland with horses in the pastures.",
-    "On US 501 it passes Quail Roost, organized as a hunt club by Durham men in 1875 and later one of the country's leading stables and dairy farms."
+    "North Durham Country Byway is part of North Carolina’s scenic-byway network. The North Carolina Department of Transportation describes its byways as alternatives to major highways, chosen to offer encounters with the state’s history, geography and culture. In northern Durham County, Lake Michie near Bahama holds water from the Flat River for the city of Durham.",
+    "Movement changed Bahama’s center: a railroad station eclipsed the post office that had anchored the community. The reservoir brought another change in the 1920s, when its dam began supplying both drinking water and electricity to Durham.",
+    "Bahama and nearby Lake Michie provide two anchors for exploring northern Durham County. At Stagville, original quarters at Horton Grove preserve buildings from a plantation complex that held almost 900 people in slavery in 1860."
   ],
   "moments": [
-    {
-      "title": "Stagville",
-      "kind": "roadside",
-      "scene": "prairie",
-      "text": "At Horton Grove stand the only two-story slave quarters left in North Carolina, built in 1850 on a plantation complex where almost 900 people were enslaved in 1860.",
-      "at": [
-        -78.83361111,
-        36.11694444
-      ]
-    },
     {
       "title": "Bahama",
       "kind": "town",
       "scene": "town",
-      "text": "The crossroads answered to Balltown, Round Hill and Hunkadora until 1891, when it took the first letters of the Ball, Harris and Mangum families and became Bahama, said bah-HAY-ma.",
+      "text": "Bahama’s name combines Ball, Harris and Mangum, three local family names brought together in 1891. The settlement had carried several earlier names, including Balltown, Round Hill and Hunkadora. Round Hill and Hunkadora referred specifically to the community centered on William Horner’s post office, established in 1832. A new railroad station later overtook the post office as the center of activity. The settlement’s origins reach back to a log meetinghouse, an early home of what is now Mount Bethel United Methodist Church. The local pronunciation is bə-HAY-mə, with the emphasis on the middle syllable.",
       "at": [
         -78.87666667,
         36.16611111
@@ -33,46 +24,45 @@
       "title": "Lake Michie",
       "kind": "roadside",
       "scene": "river",
-      "text": "Bahama Road runs beside Durham's drinking water, a reservoir on the Flat River dammed between 1924 and 1926 that also supplied the city with hydroelectric power until 1960.",
+      "text": "Lake Michie began with a dam that did two jobs: retain Durham’s drinking water and generate electricity for the city. Built between 1924 and 1926, the concrete and earthwork structure created a reservoir fed principally by the Flat River. The generators were removed in 1960, ending the dam’s role as a hydroelectric power source. Water storage remains its work: Lake Michie is Durham’s primary reservoir, near Bahama in northern Durham County and within the Neuse River watershed. The 2007 drought lowered the lake to 15 feet below full by December 2. Above-average rainfall had filled it to overflowing again by March 2008.",
       "at": [
         -78.841667,
         36.161092
       ]
+    },
+    {
+      "title": "Stagville",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "The original quarters at Horton Grove preserve part of the place where people enslaved at Stagville lived. Stagville belonged to a larger plantation complex that held almost 900 enslaved African Americans in 1860. Enslaved craftspeople built Horton Grove’s quarters in the early 1850s, with shuttered windows, brick chimneys and raised stone foundations. After the Civil War, many formerly enslaved residents remained as sharecroppers; the dwellings continued to be occupied into the 1970s. In 1976, Liggett and Meyers Tobacco Company donated land to North Carolina, which operates Historic Stagville as a state historic site and museum.",
+      "notice": "The surviving Horton Grove quarters have two stories, shuttered windows, brick chimneys and raised stone foundations.",
+      "at": [
+        -78.83361111,
+        36.11694444
+      ]
     }
-  ],
-  "practical": [
-    "The optional State Forest Road extension is gravel, with a rough bridge over the Eno River."
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=178"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (route and extension note)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=179"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (route and points of interest)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=180"
-    },
-    {
-      "label": "Wikipedia, Stagville",
-      "url": "https://en.wikipedia.org/wiki/Stagville"
-    },
-    {
       "label": "Wikipedia, Bahama, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Bahama,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Bahama%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Lake Michie",
       "url": "https://en.wikipedia.org/wiki/Lake_Michie"
     },
     {
-      "label": "Wikipedia, Rougemont, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Rougemont,_North_Carolina"
+      "label": "Wikipedia, Stagville",
+      "url": "https://en.wikipedia.org/wiki/Stagville"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, fifth edition",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=178"
+    },
+    {
+      "label": "Wikipedia, Horton Grove",
+      "url": "https://en.wikipedia.org/wiki/Horton_Grove"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

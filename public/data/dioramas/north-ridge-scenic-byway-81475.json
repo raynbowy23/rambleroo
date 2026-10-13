@@ -233,11 +233,18 @@
   },
   "landmarks": [
     {
-      "name": "Milton Garfield House",
+      "name": "Wilbur Cahoon House",
       "model": "farmhouse",
-      "at": 0.17827249734181444,
+      "at": 0.5608352543077119,
       "offset": "roadside",
       "notes": "Story moment 1; roadside. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Avon",
+      "model": "town-blocks",
+      "at": 0.8131127012178175,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
@@ -293,7 +300,7 @@
     {
       "name": "Avon",
       "at": 0.8136363636363636,
-      "landmark": ""
+      "landmark": "Avon"
     }
   ],
   "sources": [

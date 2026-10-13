@@ -1,42 +1,43 @@
 {
   "id": "lower-valley-pike-scenic-byway-2330",
-  "tagline": "Up the Mad River under the limestone cliffs.",
+  "tagline": "Eleven miles beside the Mad River, with limestone cliffs and wetlands.",
   "motifs": [
     "limestone-ledges"
   ],
   "intro": [
-    "Out of Medway, Lower Valley Pike runs about 11 miles up the Mad River toward Springfield as County Road 316, between limestone cliffs and riparian woods, with wetlands alongside. Christopher Gist, one of the first English explorers here, came upon the river in flood and called it the Mad River, and the name is for its broken, rapid current.",
-    "It is the largest coldwater fishery in Ohio, and the state stocks it from time to time with rainbow and brown trout."
+    "Lower Valley Pike follows County Road 316 for 11 miles. The Mad River runs beside the byway, with limestone cliffs, riverside woods and wetlands along the corridor. Ohio’s byways brochure highlights canoeing, fishing and wildlife observation on the river.",
+    "At Piqua on the Mad River in 1780, George Rogers Clark’s Kentucky militia fought Shawnee people under Chief Black Hoof. The militia drove the Shawnee from the village and burned it and the surrounding fields.",
+    "Begin with Medway, named for its position midway between Springfield and Dayton. Continue toward Limestone City, whose name records the local limestone-quarrying industry."
   ],
   "moments": [
+    {
+      "title": "Medway",
+      "kind": "town",
+      "scene": "town",
+      "text": "Medway’s name describes a relationship between towns: the community was named for its midway position between Springfield and Dayton. It was platted in 1816, and a post office named Medway has operated since 1850.",
+      "at": [
+        -84.00972222,
+        39.88194444
+      ]
+    },
     {
       "title": "Peckuwe",
       "kind": "short walk",
       "scene": "river",
-      "text": "At the Shawnee town of Piqua, Clark's militia shelled the stockade from the river cliffs, and rather than rebuild, the Shawnee moved to the Great Miami River and took the name with them.",
+      "text": "The battle at Piqua on August 8, 1780, brought George Rogers Clark’s Kentucky militia against Shawnee people led by Chief Black Hoof. Clark’s artillery bombarded the stockade from cliffs above the village. His men then spent two days burning as much as 500 acres of corn. The Shawnee moved to the Great Miami River instead of rebuilding here, naming their new village Peckuwe. Their new settlement lay just north of the modern town of Piqua, Ohio. The Clark County Historical Society later built a memorial trail and park on the battlefield.",
       "at": [
         -83.91757,
         39.90489
       ]
     },
     {
-      "title": "Huffman House",
-      "kind": "short walk",
-      "scene": "river",
-      "text": "Jacob Huffman, one of Clark County's earliest settlers, spent seven years from 1825 quarrying local limestone and cutting it with refined detail for this house, which has a family cemetery beside it.",
+      "title": "Limestone City",
+      "kind": "town",
+      "scene": "town",
+      "text": "Limestone City was platted in 1886 and named for the local limestone-quarrying industry. It is an unincorporated community in Clark County.",
       "at": [
-        -83.89812,
-        39.91142
-      ]
-    },
-    {
-      "title": "Mad River Gorge",
-      "kind": "short walk",
-      "scene": "river",
-      "text": "Cliffs of 45 to 50 feet rise in this gorge park on the Mad River, and anyone may climb them, at no cost and at their own risk.",
-      "at": [
-        -83.86065,
-        39.91206
+        -83.87666667,
+        39.91194444
       ]
     }
   ],
@@ -46,18 +47,21 @@
       "url": "https://storymaps.arcgis.com/stories/2674516d4fbc48549eb1e6c73060c56c"
     },
     {
-      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
+      "label": "Ohio Department of Transportation, Ohio Byways brochure",
       "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
-    },
-    {
-      "label": "Wikipedia, Mad River (Ohio)",
-      "url": "https://en.wikipedia.org/wiki/Mad_River_(Ohio)"
     },
     {
       "label": "Wikipedia, Battle of Piqua",
       "url": "https://en.wikipedia.org/wiki/Battle_of_Piqua"
+    },
+    {
+      "label": "Wikipedia, Medway, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Medway%2C_Ohio"
+    },
+    {
+      "label": "Wikipedia, Limestone City, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Limestone_City%2C_Ohio"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

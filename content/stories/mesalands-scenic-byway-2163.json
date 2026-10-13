@@ -1,19 +1,20 @@
 {
   "id": "mesalands-scenic-byway-2163",
-  "tagline": "High plains, a painted mesa, and scuba diving in the desert.",
+  "tagline": "Mesa roads connect desert pools, a Canadian River reservoir and Route 66.",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "Tucumcari takes its name from the mesa just outside town, where residents have painted a letter T on the hillside. From there the byway's roads fan out across the high plains: northwest on NM 104 to Conchas Lake, out to Ute Lake near Logan, up NM 469 south of San Jon onto the mesalands, and as far west as Santa Rosa and Pastura on US 54.",
-    "Some of these towns began with the railroad. Pastura was a water stop for steam trains, fed by a 142-mile wooden pipeline, and faded once the diesels no longer needed it."
+    "The Mesalands Scenic Byway links several roads, including US 54, NM 104 and NM 469, under New Mexico’s Scenic and Historic Byway designation. South of San Jon, NM 469 climbs onto the mesalands; elsewhere, the drive reaches lakes and reservoirs. The New Mexico Tourism Department highlights Santa Rosa’s natural lakes and Tucumcari’s Mesalands Dinosaur Museum as reasons to explore the route.",
+    "Highway traffic reshaped these towns. Santa Rosa’s east-west road became US 66 in 1926, bringing more traffic and making it a rest stop with motels and cafes. San Jon also served Route 66 travelers. When Interstate 40 bypassed it in 1981, the local economy declined and most of its tourist businesses closed. Pastura had already experienced the cost of a bypass: Route 66 passed 20 miles north of the town. Later, diesel locomotives replaced steam engines in the 1940s, ending the railroad’s need for its watering stop and deepening the town’s decline.",
+    "Begin on US 54 at Pastura and continue northeast to Santa Rosa and Blue Hole. The eastern portion includes the climb south of San Jon; from San Jon, Tucumcari lies to the west. From Tucumcari, NM 104 leads northwest to Conchas Lake for a separate excursion. Back on the western stretch, historic Route 66 passes through Newkirk."
   ],
   "moments": [
     {
       "title": "Blue Hole",
       "kind": "short walk",
       "scene": "desert",
-      "text": "A bell-shaped artesian pool at Santa Rosa, more than 80 feet deep and a steady 62 degrees, where divers at 4,616 feet figure their stops from high-altitude tables.",
+      "text": "Blue Hole widens below the surface: the bell-shaped pool measures 80 feet across at the top and 130 feet at the bottom. Groundwater dissolved the limestone into caverns until a roof collapsed, exposing the water below. Pressurized groundwater feeds the resulting artesian pool. When Route 66 reached Santa Rosa in the 1920s, its original alignment passed the property, and the pool became a stop for motorists. It later served as a fish hatchery, then became a recreation area in the 1970s. The pool’s constant inflow is 3,000 gallons a minute, enough to replace its water every six hours.",
       "at": [
         -104.673239,
         34.940447
@@ -23,13 +24,13 @@
       "title": "Caprock Amphitheatre",
       "kind": "roadside",
       "scene": "desert",
-      "text": "South of San Jon, NM 469 climbs to the top of the mesalands, and up there is the entrance to the amphitheatre and the Ralph Stanfield Memorial Nature Trail."
+      "text": "NM 469 climbs to the top of the mesalands south of San Jon. At the top is the entrance to Caprock Amphitheatre and the Ralph Stanfield Memorial Nature Trail."
     },
     {
       "title": "Conchas Lake",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Twenty-five miles of reservoir behind a dam the Army Corps of Engineers finished on the Canadian River in 1939, with a seaplane base two nautical miles to the north.",
+      "text": "Conchas Lake extends 25 miles behind a dam on the Canadian River. The United States Army Corps of Engineers completed Conchas Dam in 1939. The adjoining state park is divided into northern and southern areas, with the southern area between Conchas and Hooverville. The lake holds walleye, largemouth bass and several kinds of catfish. NM 104 reaches the lake northwest of Tucumcari, making this a separate trip from the town’s Route 66 corridor. Fishing, camping and picnicking are among the activities the state tourism department identifies at the byway’s lake parks.",
       "at": [
         -104.231,
         35.38
@@ -41,38 +42,41 @@
   ],
   "sources": [
     {
-      "label": "New Mexico True, Mesalands Scenic Byway",
+      "label": "New Mexico Tourism Department, Mesalands Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/mesalands/"
-    },
-    {
-      "label": "Wikipedia, Tucumcari Mountain",
-      "url": "https://en.wikipedia.org/wiki/Tucumcari_Mountain"
-    },
-    {
-      "label": "Wikipedia, Tucumcari, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Tucumcari,_New_Mexico"
-    },
-    {
-      "label": "Wikipedia, Pastura, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Pastura,_New_Mexico"
-    },
-    {
-      "label": "Wikipedia, San Jon, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/San_Jon,_New_Mexico"
-    },
-    {
-      "label": "Wikipedia, Blue Hole (New Mexico)",
-      "url": "https://en.wikipedia.org/wiki/Blue_Hole_(New_Mexico)"
     },
     {
       "label": "Wikipedia, Conchas Lake",
       "url": "https://en.wikipedia.org/wiki/Conchas_Lake"
     },
     {
-      "label": "Wikipedia, Ute Lake State Park",
-      "url": "https://en.wikipedia.org/wiki/Ute_Lake_State_Park"
+      "label": "Wikipedia, Tucumcari, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Tucumcari%2C_New_Mexico"
+    },
+    {
+      "label": "New Mexico Department of Transportation, NM Scenic Byways GIS layer",
+      "url": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Santa Rosa, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Santa_Rosa%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, San Jon, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/San_Jon%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Pastura, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Pastura%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Newkirk, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Newkirk%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Blue Hole (New Mexico)",
+      "url": "https://en.wikipedia.org/wiki/Blue_Hole_%28New_Mexico%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

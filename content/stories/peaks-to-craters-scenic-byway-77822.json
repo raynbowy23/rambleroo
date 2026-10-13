@@ -1,39 +1,21 @@
 {
   "id": "peaks-to-craters-scenic-byway-77822",
-  "tagline": "From the lava fields up the valley to Idaho's highest peak.",
+  "tagline": "From Idaho’s highest summit country to lava fields beside an emigrant trail",
   "motifs": [
     "snow-peaks"
   ],
   "intro": [
-    "From Carey, a farm town on the Little Wood River, the highway runs northeast through the northwestern corner of Craters of the Moon, past lava flows as young as 2,000 years, to Arco on the Big Lost River.",
-    "There US 93 turns north up the Lost River Valley, through farmland under the Lost River Range, which holds nine of Idaho's twelve highest peaks. The valley narrows as the road nears Mount Borah, then winds through Grandview Canyon toward Idaho 75 near Challis."
+    "Peaks to Craters is a two-lane drive with some passing lanes, linking the Lost River Mountains with farmland and lava fields. Visit Idaho features it among the state’s scenic byways and highlights Mount Borah, Craters of the Moon and Arco’s atomic-energy history. Its 2024 guide lists 143 miles and two hours, 27 minutes.",
+    "An older journey survives beside the highway near the lava fields. In 1852, John Jeffrey promoted a trail following traditional Shoshoni paths to bring business to his Blackfoot River ferry. Tim Goodale led 1,095 people and 338 wagons over the cutoff in 1862. Goodale’s Cutoff remains visible at points beside US 20, 26 and 93 between Craters of the Moon and Carey.",
+    "At Craters of the Moon, road development followed the creation of the national monument in 1924. The Mission 66 program began construction of the park’s road system and visitor center in 1956.",
+    "For a north-to-south drive, begin at US 93’s junction with Idaho 75 south of Challis and wind through Grandview Canyon toward Borah Peak. Continue through Mackay to Arco on the Big Lost River. The combined highways cross the monument’s northwestern part, then reach Carey on the Little Wood River before the Idaho 75 junction."
   ],
   "moments": [
-    {
-      "title": "Craters of the Moon",
-      "kind": "roadside",
-      "scene": "desert",
-      "text": "Sixty separate lava flows lie along the Great Rift here, with spatter cones, lava tubes and the hollow molds of trees the lava burned.",
-      "at": [
-        -113.56271,
-        43.46167
-      ]
-    },
-    {
-      "title": "Arco",
-      "kind": "town",
-      "scene": "town",
-      "text": "For about an hour in July 1955 Arco became the first town lit by nuclear power, and every high school class since 1920 has painted its year on Number Hill.",
-      "at": [
-        -113.30167,
-        43.62583
-      ]
-    },
     {
       "title": "Borah Peak",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Idaho's highest summit, 12,662 feet, went without a name until it was found to beat Hyndman Peak, and the 1983 earthquake raised it about a foot.",
+      "text": "Borah Peak, Idaho’s highest summit, stands 12,662 feet high in the central Lost River Range, within Challis National Forest in eastern Custer County. The U.S. Geological Survey named it for Senator William Borah in February 1934, after it was found to exceed Hyndman Peak, previously considered the state’s highest point. The landscape changed again on October 28, 1983, when an earthquake raised the peak about a foot and lowered the nearby valley about eight feet. A scar remains visible on its western side. In Challis, falling masonry killed two children walking to school.",
       "at": [
         -113.7811,
         44.13739
@@ -41,34 +23,69 @@
       "motifs": [
         "snow-peaks"
       ]
+    },
+    {
+      "title": "Arco",
+      "kind": "town",
+      "scene": "town",
+      "text": "Number Hill carries a record of Arco’s graduating classes in paint. Since 1920, each Butte County High School class has painted its graduation year on the rocky slope. A different milestone came on July 17, 1955, when Arco became the first community in the world lit solely by nuclear-generated electricity. That demonstration lasted about an hour, supplied by Argonne National Laboratory’s BORAX-III reactor at the nearby National Reactor Testing Station. The station is now Idaho National Laboratory, part of the town’s economic base alongside agriculture and recreation. Arco sits along the Big Lost River, between the Snake River Plain and the Lost River Range.",
+      "notice": "The painted graduation years cover Number Hill’s rocky face.",
+      "at": [
+        -113.30167,
+        43.62583
+      ]
+    },
+    {
+      "title": "Craters of the Moon",
+      "kind": "roadside",
+      "scene": "desert",
+      "text": "Sixty solidified lava flows make up the Craters of the Moon Lava Field. They erupted along the Great Rift, a zone of weakness in the Earth’s crust. The forms record different movements of molten rock: pasty blobs built spatter cones, while streams left lava tubes after their crusts hardened and the liquid drained away. Elsewhere, lava overran trees; water released as they burned cooled the rock enough to preserve impressions. Some molds retain shapes of bark, a record of the forest consumed by the flow. The through highway cuts across the monument’s northwestern part; within the rugged landscape, the single paved road crosses its northern end.",
+      "at": [
+        -113.56271,
+        43.46167
+      ]
     }
+  ],
+  "practical": [
+    "Craters of the Moon: Snow drifts close the park’s Loop Road to vehicle traffic in winter. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Visit Idaho, Peaks to Craters Scenic Byway (Wayback Machine, 2024)",
+      "label": "Wikipedia, Borah Peak",
+      "url": "https://en.wikipedia.org/wiki/Borah_Peak"
+    },
+    {
+      "label": "Wikipedia, Goodale's Cutoff",
+      "url": "https://en.wikipedia.org/wiki/Goodale%27s_Cutoff"
+    },
+    {
+      "label": "Visit Idaho, Peaks to Craters Scenic Byway (archived 2024)",
       "url": "https://web.archive.org/web/20240104043513/https://visitidaho.org/things-to-do/ghost-towns-mining-history/peaks-to-craters-scenic-byway/"
-    },
-    {
-      "label": "Visit Idaho, Peaks to Craters Scenic Byway (Wayback Machine, 2013)",
-      "url": "https://web.archive.org/web/20130605112307/http://www.visitidaho.org/scenic-byways/peaks-to-craters-byway/"
-    },
-    {
-      "label": "Wikipedia, Carey, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Carey,_Idaho"
     },
     {
       "label": "Wikipedia, Craters of the Moon National Monument and Preserve",
       "url": "https://en.wikipedia.org/wiki/Craters_of_the_Moon_National_Monument_and_Preserve"
     },
     {
-      "label": "Wikipedia, Arco, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Arco,_Idaho"
+      "label": "Visit Idaho, Peaks to Craters Scenic Byway (archived 2013)",
+      "url": "https://web.archive.org/web/20130605112307/http://www.visitidaho.org/scenic-byways/peaks-to-craters-byway/"
     },
     {
-      "label": "Wikipedia, Borah Peak",
-      "url": "https://en.wikipedia.org/wiki/Borah_Peak"
+      "label": "Wikipedia, Challis, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Challis%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Mackay, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Mackay%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Arco, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Arco%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Carey, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Carey%2C_Idaho"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

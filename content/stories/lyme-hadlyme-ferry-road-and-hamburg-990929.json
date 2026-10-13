@@ -1,20 +1,21 @@
 {
   "id": "lyme-hadlyme-ferry-road-and-hamburg-990929",
-  "tagline": "Off the little ferry and up under the castle.",
+  "tagline": "A ferry crossing, a hilltop castle and a channel that shifted trade.",
   "motifs": [
     "harbor-village",
     "river-bluffs"
   ],
   "intro": [
-    "Off the ferry from Chester, Route 148 runs 1.6 miles east through Hadlyme, a village named for Haddam and Lyme because it straddles the line between them, to Route 82 at the Four Corners, where an old carriage factory now sells antiques. From there a side road goes north past Gillette Castle, and Route 156 heads south through Hamburg toward Old Lyme.",
-    "The crossing began in 1769, when Jonathan Warner, who owned land on both banks, put a raft to work with long poles. In the Revolution it carried supplies over the Connecticut."
+    "Route 148 crosses the Connecticut River by ferry before running 1.6 miles east through Hadlyme to Route 82. At the landing, the ground rises steeply from the river among six houses built before 1820. The ferry belongs to the scenic portion of Route 148, while Route 156 has scenic-road designation in East Haddam and Lyme.",
+    "Jonathan Warner began the ferry in 1769, using a raft propelled with long poles. In 1834, turnpike companies received authority to extend a road to the Chester landing and build from the Lyme landing toward Salem. Their larger ambition was an all-turnpike connection between New Haven and Norwich. The business failed to pay, and the companies dissolved between 1842 and 1847, handing their roads to the towns. The road serving Hamburg became Highway 150 in 1922, then Route 86 in 1932. In 1948, Route 156 absorbed it, creating the modern highway configuration.",
+    "From the Hadlyme landing, follow Ferry Road east to the Route 82 junction called Four Corners. Gillette Castle offers a separate excursion high above the Connecticut River. Route 156 begins at Route 82 in East Haddam and heads into Lyme, then south toward Old Lyme. Its predecessor, Highway 150, served Hamburg, Lyme’s town center."
   ],
   "moments": [
     {
       "title": "Chester-Hadlyme Ferry",
       "kind": "roadside",
       "scene": "river",
-      "text": "The Selden III takes eight or nine cars across in about five minutes, and anyone on the Hadlyme side calls it over by pushing a button that flashes a light.",
+      "text": "The Selden III carries eight to nine cars across the Connecticut River; the crossing usually takes about five minutes. At Hadlyme, a request button activates a flashing light visible to the crew. Jonathan Warner, who owned land on both banks, started the crossing in 1769. The ferry carried supplies during the American Revolution. Chester took supervision in 1877, and a steam-powered barge followed. The state took over operations in 1917. The Connecticut Department of Transportation operates the service. Its current boat measures 65 feet long by 30 feet wide and accommodates 49 passengers.",
       "at": [
         -72.430556,
         41.419722
@@ -24,7 +25,8 @@
       "title": "Gillette Castle",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "William Gillette, the stage Sherlock Holmes, found these cliffs from his houseboat and built a fieldstone castle on top, then willed that no \"blithering sap-head\" should ever have it.",
+      "text": "William Gillette discovered the Seven Sisters cliffs while traveling the Connecticut River in his houseboat, Aunt Polly. The actor, known for playing Sherlock Holmes on stage, designed his home here and oversaw its construction. Built from 1914 to 1919, the castle has a fieldstone exterior and hand-hewn southern white oak woodwork. Inside are 47 distinct doors and locks, carved wooden light switches and a movable table on tracks. Gillette also ran a narrow-gauge railroad on the estate. The rails were later removed and the roadbed became walking trails. Connecticut purchased the property in 1943, six years after Gillette’s death.",
+      "notice": "Fieldstone covers the castle’s exterior.",
       "at": [
         -72.42861111,
         41.42222222
@@ -37,23 +39,35 @@
       "title": "Hamburg",
       "kind": "town",
       "scene": "river",
-      "text": "About 1824 a deep-water channel was dredged up to Hamburg, the village center of Lyme, and the older landing upriver at Hamburg Bridge began to fade.",
+      "text": "A dredged channel changed which landing prospered here. Hamburg Bridge stood at the head of navigation on the Eight Mile River, where shallow water stopped deep-draft ships. By 1800, houses, shops and wharves lined both banks below the bridge. About 1824, a deep-water channel was dredged to Hamburg’s village center downstream, and the older waterfront declined economically. The historic district includes old stone wharves. Its present bridge is a three-arch concrete structure built in 1936. Nine of the district’s ten houses date to the eighteenth or early nineteenth century; all ten are wood-frame buildings.",
       "motifs": [
         "harbor-village"
       ]
     }
   ],
   "practical": [
-    "The ferry runs in daylight from April 1 to November 30 only."
+    "Chester-Hadlyme Ferry: The ferry operates during daytime from April 1 through November 30 and charges a toll. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Wikipedia, Chester-Hadlyme Ferry",
+      "label": "Wikipedia, Chester–Hadlyme Ferry",
       "url": "https://en.wikipedia.org/wiki/Chester%E2%80%93Hadlyme_Ferry"
+    },
+    {
+      "label": "Wikipedia, Gillette Castle State Park",
+      "url": "https://en.wikipedia.org/wiki/Gillette_Castle_State_Park"
+    },
+    {
+      "label": "Wikipedia, Hamburg Bridge Historic District",
+      "url": "https://en.wikipedia.org/wiki/Hamburg_Bridge_Historic_District"
     },
     {
       "label": "Wikipedia, Connecticut Route 148",
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_148"
+    },
+    {
+      "label": "Wikipedia, Hadlyme Ferry Historic District",
+      "url": "https://en.wikipedia.org/wiki/Hadlyme_Ferry_Historic_District"
     },
     {
       "label": "Wikipedia, Connecticut Route 156",
@@ -64,18 +78,9 @@
       "url": "https://en.wikipedia.org/wiki/Hadlyme_North_Historic_District"
     },
     {
-      "label": "Wikipedia, Gillette Castle State Park",
-      "url": "https://en.wikipedia.org/wiki/Gillette_Castle_State_Park"
-    },
-    {
       "label": "Wikipedia, Lyme, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Lyme,_Connecticut"
-    },
-    {
-      "label": "Wikipedia, Hamburg Bridge Historic District",
-      "url": "https://en.wikipedia.org/wiki/Hamburg_Bridge_Historic_District"
+      "url": "https://en.wikipedia.org/wiki/Lyme%2C_Connecticut"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

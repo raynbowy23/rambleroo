@@ -1,19 +1,21 @@
 {
   "id": "patagonia-sonoita-scenic-road-11288",
-  "tagline": "Through the grasslands and down the old railroad grade to Nogales.",
+  "tagline": "Hilly grasslands along highways shaped by ranching, mining and the railroad",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "ADOT's corridor plan starts the drive at I-10, where SR 83 runs south along the east side of the Santa Rita Mountains and tops out at about 5,085 feet in a pass between the Santa Ritas and the Empire Mountains. This was the road for the Empire Ranch, a 160-acre homestead in the 1870s that covered almost a million acres by 1906. At Sonoita SR 82 takes over and runs down the Sonoita Creek valley toward Nogales, in places on the very grade of the old railroad.",
-    "When Senator Jay Rockefeller drafted the national scenic byways law of 1991, his staff had toured this road and he borrowed from Arizona's statute."
+    "The Patagonia–Sonoita Scenic Road joins SR 83 and part of SR 82 in an undivided drive through hilly grasslands and mountain valleys. The Arizona Department of Transportation credits those views with making it the state’s second designated scenic road.",
+    "The route now numbered SR 83 served Empire Ranch and mountain mines in the 1870s. After the Southern Pacific Railroad arrived in 1881, it became the most direct connection to supplies at Pantano-Marsh Station. Pima and Santa Cruz counties graded their sections in 1920; the state graveled the full road in 1926. Paving followed between 1953 and 1959, turning the old transport route into a surfaced highway.",
+    "SR 82 developed from paths and wagon roads carrying cattle, military supplies, ore and stagecoaches between 1854 and 1882. It remained a lightly improved dirt road until 1935; most of its 66 miles received gravel and sealant between 1938 and 1946, largely with Works Progress Administration funding.",
+    "Start at I-10 and take SR 83 south along the east side of the Santa Rita Mountains to Sonoita. At the junction with SR 82, turn toward Patagonia, in the Sonoita Creek valley between the Santa Rita and Patagonia mountains. Continue through Beyerville along the Santa Cruz River toward Nogales, southwest along SR 82."
   ],
   "moments": [
     {
       "title": "Sonoita",
       "kind": "town",
       "scene": "prairie",
-      "text": "The crossroads of the two highways, named from the O'odham for spring field. ADOT's plan calls the spring quarter horse show at its fairgrounds the oldest in the nation.",
+      "text": "Sonoita sits where SR 83 and SR 82 meet, with the headwaters of Sonoita Creek just west of town. The Santa Rita Mountains lie to the west and the Canelo Hills to the southwest. The road now called SR 83 carried ranching and mining traffic in the 1870s, then connected the area to the Southern Pacific Railroad at Pantano-Marsh Station after 1881. Its first paving came between 1953 and 1959, decades after those freight journeys. Sonoita comes from the O’odham Ṣon ʼOidag, which may be best translated as “spring field”.",
       "at": [
         -110.65528,
         31.67944
@@ -23,37 +25,44 @@
       "title": "Patagonia",
       "kind": "town",
       "scene": "river",
-      "text": "By the local museum's account, Welsh miners who knew the real Patagonia thought the mountains here looked like the Andes and named them accordingly. The old rail embankment along Sonoita Creek is a trail.",
+      "text": "Patagonia occupies the Sonoita Creek valley between two mountain ranges, with SR 82 passing through town. It developed as a supply and trading center for mines and ranches in the mid-19th century. The New Mexico and Arizona Railroad gave miners and ranchers a way to ship products out and bring manufactured goods in. A two-story depot was built in 1900; the railroad was abandoned in 1962. The town is now an arts and crafts center as well as a tourist destination. The creek valley places the Santa Rita Mountains north of town and the Patagonia Mountains to its south.",
       "at": [
         -110.75611,
         31.53944
       ]
     },
     {
-      "title": "Telles Grotto Shrine",
-      "kind": "roadside",
-      "scene": "desert",
-      "text": "Near milepost 16, Juan and Juanita Telles built a shrine in thanks for their sons' safe return from the Second World War, and area residents have used it regularly."
+      "title": "Nogales",
+      "kind": "town",
+      "scene": "town",
+      "text": "Nogales takes its name from the walnut trees of the mountain pass between the Arizona city and its Sonoran neighbor. In 1880, Isaac and Jacob Isaacson established a trading post here; the post office first used their surname, then changed to Nogales in 1883. Cross-border trade remains central to the city’s economy. Union Pacific provides rail transportation north to Tucson on what was formerly the Southern Pacific Railroad. On the Santa Cruz County Historical Courthouse at Morley and Court streets, the figure of Lady Justice has an unusual detail: she wears no blindfold.",
+      "at": [
+        -110.93416667,
+        31.34027778
+      ]
     }
   ],
   "sources": [
     {
-      "label": "ADOT, Patagonia-Sonoita Scenic Road Corridor Management Plan (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20250714101657/https://azdot.gov/sites/default/files/2019/05/cmp_patagonia.pdf"
-    },
-    {
-      "label": "ADOT, List of Historic Roads (Wayback Machine snapshot)",
+      "label": "Arizona Department of Transportation, List of Historic Roads (archived)",
       "url": "https://web.archive.org/web/20260519152218/https://azdot.gov/about/historic-and-scenic-roads/list-historic-roads"
     },
     {
       "label": "Wikipedia, Sonoita, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Sonoita,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Sonoita%2C_Arizona"
     },
     {
       "label": "Wikipedia, Patagonia, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Patagonia,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Patagonia%2C_Arizona"
+    },
+    {
+      "label": "Wikipedia, Beyerville, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Beyerville%2C_Arizona"
+    },
+    {
+      "label": "Wikipedia, Nogales, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Nogales%2C_Arizona"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

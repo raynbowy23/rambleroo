@@ -1,16 +1,18 @@
 {
   "id": "mt-carmel-scenic-byway-2025",
-  "tagline": "Down the Grand Staircase from the Sevier headwaters to Little Hollywood.",
+  "tagline": "A road through sand hills links Long Valley with Kanab",
   "intro": [
-    "US 89 turns south at the Bryce Canyon junction and follows the Sevier River up its valley, past Hatch near the headwaters, onto the Markagunt Plateau. Past the high point the road begins a long, steady descent through Long Valley and down the cliff bands of the Grand Staircase, Pink, Gray, White and Vermilion, to Kanab.",
-    "Long Valley was cattle country first. Ranchers came in 1862 to graze along the East Fork of the Virgin River, and the Mormon towns that took hold in the 1870s, Glendale and then Orderville, were settled by people from failed settlements on the Muddy River in Nevada."
+    "Mount Carmel Scenic Byway follows U.S. 89 through red rock canyons and open valleys between the SR 12 junction near Bryce Canyon and Kanab. UDOT describes this state scenic byway as a 60-mile drive and advises motorists to allow an hour. The landscape changes from the Sevier River valley and Markagunt Plateau to the Pink, Gray, White and Vermilion cliffs of the Grand Staircase. Southbound travel includes a long, steady descent into Kanab.",
+    "Rail service stopped at Marysvale, so people in Glendale and Kanab had to travel north to reach the trains. The earlier state road reached Kanab through Alton and Johnson Canyon, approaching from the east. A more direct route through Long Valley faced a difficult obstacle: a mesa covered in loose sand. The State Road Commission connected Mount Carmel to the state system in 1912, then added the Mount Carmel–Kanab link in 1915. Construction of a sand-clay road began in 1916.",
+    "Driving south, pass Hatch near the Sevier’s headwaters before crossing Long Valley Junction at 7,450 feet. U.S. 89 continues through Glendale and Orderville along Long Valley. At Mount Carmel Junction, SR 9 turns toward Zion; the byway stays on U.S. 89, descending through the canyon cut by Kanab Creek to Kanab."
   ],
+  "notice": "The Grand Staircase exposes bands of Pink, Gray, White and Vermilion cliffs.",
   "moments": [
     {
       "title": "Hatch",
       "kind": "town",
       "scene": "river",
-      "text": "Settled in 1872 as Mammoth, the town in the Sevier valley near the river's headwaters later took the name of a pioneer citizen, Meltiar Hatch.",
+      "text": "Near the Sevier River’s headwaters, Hatch began under another name: Mammoth. Settled in 1872, it later took the name of Meltiar Hatch, a pioneer resident. A post office named Hatch has operated since 1904. The town occupies the Sevier valley, with U.S. 89 running through it between Panguitch to the north and Glendale to the south.",
       "at": [
         -112.43556,
         37.65083
@@ -20,7 +22,7 @@
       "title": "Orderville",
       "kind": "town",
       "scene": "town",
-      "text": "Founded in 1875 to live the United Order, where no one held private property and families ate in community dining halls, men first, until the system ended in 1885.",
+      "text": "Orderville’s name reflects an experiment in communal living. Brigham Young directed its establishment in 1875 to practice the United Order of the Church of Jesus Christ of Latter-day Saints. Homes stood in one- and two-room units around the town square, and a dining hall prepared meals for more than 80 families. Families were stewards of their homes rather than private owners. Communal dining ended in 1880, before the order itself ended in 1885. Some enterprises continued: the tannery, wool factory and sheep operation remained under the Board of Management until 1889.",
       "at": [
         -112.65333,
         37.26222
@@ -30,7 +32,7 @@
       "title": "Kanab",
       "kind": "town",
       "scene": "desert",
-      "text": "Locals call it Little Hollywood for the Westerns filmed around it, from Stagecoach in 1939 to The Outlaw Josey Wales in 1976.",
+      "text": "Kanab’s film history includes Stagecoach, released in 1939, and The Outlaw Josey Wales, released in 1976. Movie crews left a tangible record at Parry Lodge on East Center Street, where photographs show actors who stayed there and most rooms carry actors’ names. The main building began as Justin Merrill Johnson’s home in 1892. Three Parry brothers bought it in 1928; additions in 1930 and 1931 helped turn the property into a motel and restaurant complex. The complex entered the National Register of Historic Places in 2003, with buildings in American Craftsman and Victorian Eclectic styles.",
       "at": [
         -112.53111,
         37.03556
@@ -39,30 +41,37 @@
   ],
   "sources": [
     {
-      "label": "UDOT, Zion Area Scenic Byways",
+      "label": "Wikipedia, U.S. Route 89 in Utah",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_89_in_Utah"
+    },
+    {
+      "label": "Utah Department of Transportation, Zion Area Scenic Byways",
       "url": "https://zionarea.udot.utah.gov/scenic-byways/"
     },
     {
-      "label": "Visit Utah, Utah's Scenic Byways",
+      "label": "Utah Office of Tourism, Utah’s Scenic Byways",
       "url": "https://www.visitutah.com/things-to-do/road-trips/scenic-byways"
     },
     {
       "label": "Wikipedia, Hatch, Utah",
-      "url": "https://en.wikipedia.org/wiki/Hatch,_Utah"
+      "url": "https://en.wikipedia.org/wiki/Hatch%2C_Utah"
     },
     {
       "label": "Wikipedia, Glendale, Utah",
-      "url": "https://en.wikipedia.org/wiki/Glendale,_Utah"
+      "url": "https://en.wikipedia.org/wiki/Glendale%2C_Utah"
     },
     {
       "label": "Wikipedia, Orderville, Utah",
-      "url": "https://en.wikipedia.org/wiki/Orderville,_Utah"
+      "url": "https://en.wikipedia.org/wiki/Orderville%2C_Utah"
     },
     {
       "label": "Wikipedia, Kanab, Utah",
-      "url": "https://en.wikipedia.org/wiki/Kanab,_Utah"
+      "url": "https://en.wikipedia.org/wiki/Kanab%2C_Utah"
+    },
+    {
+      "label": "Wikipedia, Parry Lodge",
+      "url": "https://en.wikipedia.org/wiki/Parry_Lodge"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

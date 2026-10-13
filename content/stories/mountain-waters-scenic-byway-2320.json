@@ -1,42 +1,54 @@
 {
   "id": "mountain-waters-scenic-byway-2320",
-  "tagline": "Two river gorges, with a mountain gap between.",
+  "tagline": "Two river gorges and a high gap shape a forest drive",
   "motifs": [
     "waterfall-cove"
   ],
   "intro": [
-    "From Highlands, the byway follows US 64 and NC 28 down the Cullasaja Gorge toward Franklin, past one waterfall after another. Bridal Veil Falls actually comes off a tributary creek, and Dry Falls lets visitors walk behind it without getting wet.",
-    "Beyond Franklin, the road climbs west through Wayah Gap, at 4,180 feet, on its way to Nantahala Lake and Aquone. From there it follows the Nantahala River down through its gorge to the end of the byway at Lauada."
+    "Mountain Waters Scenic Byway links two river gorges through hardwood forest in western North Carolina’s Nantahala National Forest. The 64.5-mile National Forest Scenic Byway crosses Wayah Gap at 4,180 feet. The Forest Service designated the Cullasaja corridor for its river and waterfalls. Near Cullasaja Falls, U.S. 64 passes blind curves with sheer cliffs above and below the road. Along the Nantahala, two-lane U.S. 19/74 follows the river past picnic areas; the Cullasaja Gorge section is also a two-lane highway.",
+    "Water changed the road at Bridal Veil Falls: U.S. 64 originally carried all traffic behind the falling water. Ice on that stretch caused problems in freezing weather, so the highway was rerouted in front of the falls. Elsewhere along the corridor, Nantahala Power created Nantahala Lake in 1942 to supply electricity for the war effort. The lake remains a source of hydroelectric power for the region.",
+    "Starting at Lauada, follow U.S. 19/74 through the Nantahala Gorge to Beechertown, then take SR 1442 along the river toward Aquone and Nantahala Lake. Beyond the lake, the road crosses Wayah Gap toward Franklin. U.S. 64 and NC 28 complete the drive through Cullasaja Gorge to Highlands, passing Quarry Falls, Dry Falls and Bridal Veil Falls."
   ],
   "moments": [
     {
-      "title": "Quarry Falls",
+      "title": "Nantahala Lake",
       "kind": "roadside",
       "scene": "river",
-      "text": "Locals call this small waterfall beside US 64 Bust-Your-Butt Falls; the large, deep pool at its foot is a swimming place in warm weather.",
+      "text": "Nantahala Lake was made for electricity: Nantahala Power created it in 1942 to support the war effort. It lies at 3,000 feet in Nantahala National Forest, with 42 miles of shoreline. Its connection to the river runs partly underground. A 5.5-mile penstock, a conduit carrying diverted water, feeds the Nantahala Powerhouse before returning that water to the river channel far downstream. Releases made during electricity generation also supply the river’s whitewater. Most of the shoreline drops steeply beneath the surface, and the water contains almost no dissolved silt or clay.",
       "at": [
-        -83.267,
-        35.0924
+        -83.65222222,
+        35.19944444
+      ]
+    },
+    {
+      "title": "Wayah Bald",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "A stone fire-detection tower became a destination at Wayah Bald, where the Appalachian and Bartram trails cross. The Civilian Conservation Corps built the tower in 1937 at the area’s highest point, 5,385 feet. Repair has been part of its later history. In 2009 and 2010, the Forest Service removed stones from the deteriorating north wall and reset them with new concrete. Wildfire in 2016 left only the stone base; the tower reopened in 2018 after work to restore its wooden top. The tower stands in a high, treeless opening in Nantahala National Forest.",
+      "at": [
+        -83.56076389,
+        35.18047222
       ]
     },
     {
       "title": "Pendergrass Building",
       "kind": "short walk",
       "scene": "town",
-      "text": "Built in 1904 and left almost unaltered, this two-story brick store on Main Street sold goods until 1975 and now holds the Macon County Historical Society and Museum.",
+      "text": "The two-story brick Pendergrass Building preserves the form of a 1904 retail store at 6 West Main Street in Franklin. It remained a store until 1975 and is virtually unaltered. The building now houses the Macon County Historical Society and Museum, and was added to the National Register of Historic Places in 1991.",
       "at": [
         -83.38138889,
         35.17972222
       ]
     },
     {
-      "title": "Nantahala Outdoor Center",
-      "kind": "short walk",
+      "title": "Quarry Falls",
+      "kind": "roadside",
       "scene": "river",
-      "text": "The Appalachian Trail crosses the Nantahala on a bridge next to the outfitter, which opened in 1972 in the old Tote 'N Tarry Motel.",
+      "text": "Quarry Falls sits beside U.S. 64 west of Highlands, a small waterfall with a large, deep pool below it. One local name is Bust-Your-Butt-Falls. It belongs to the succession of waterfalls along the byway’s Cullasaja Gorge section, which also includes Bridal Veil, Dry and Cullasaja falls.",
+      "notice": "The waterfall drops into a large, deep pool beside U.S. 64.",
       "at": [
-        -83.5918,
-        35.3312
+        -83.267,
+        35.0924
       ]
     }
   ],
@@ -46,18 +58,33 @@
       "url": "https://en.wikipedia.org/wiki/Mountain_Waters_Scenic_Byway"
     },
     {
-      "label": "Wikipedia, Quarry Falls (Macon County)",
-      "url": "https://en.wikipedia.org/wiki/Quarry_Falls_%28Macon_County%29"
+      "label": "Wikipedia, Cullasaja River",
+      "url": "https://en.wikipedia.org/wiki/Cullasaja_River"
+    },
+    {
+      "label": "Wikipedia, Highlands, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Highlands%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Nantahala River",
+      "url": "https://en.wikipedia.org/wiki/Nantahala_River"
+    },
+    {
+      "label": "Wikipedia, Nantahala Lake",
+      "url": "https://en.wikipedia.org/wiki/Nantahala_Lake"
+    },
+    {
+      "label": "Wikipedia, Wayah Bald",
+      "url": "https://en.wikipedia.org/wiki/Wayah_Bald"
     },
     {
       "label": "Wikipedia, Pendergrass Building",
       "url": "https://en.wikipedia.org/wiki/Pendergrass_Building"
     },
     {
-      "label": "Wikipedia, Nantahala Outdoor Center",
-      "url": "https://en.wikipedia.org/wiki/Nantahala_Outdoor_Center"
+      "label": "Wikipedia, Quarry Falls (Macon County)",
+      "url": "https://en.wikipedia.org/wiki/Quarry_Falls_%28Macon_County%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

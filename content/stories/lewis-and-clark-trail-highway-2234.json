@@ -1,21 +1,21 @@
 {
   "id": "lewis-and-clark-trail-highway-2234",
-  "tagline": "Downstream with the Corps of Discovery, Clarkston to the sea.",
+  "tagline": "Canyons, vineyards and coastal headlands trace the expedition’s westward journey.",
   "motifs": [
     "river-bluffs",
     "lighthouse"
   ],
   "intro": [
-    "The byway starts at Clarkston, where the Clearwater meets the Snake and the expedition first came into what is now Washington in October 1805. From there it follows the expedition west toward the sea, by Dayton and the Walla Walla vineyards to the Tri-Cities, then along the Oregon line through the Columbia River Gorge.",
-    "It runs about 572 miles in all. At Beacon Rock, the core of an ancient volcano, the journals first noted the pull of the tide. The road ends at Cape Disappointment, on the headlands where the Columbia meets the Pacific, which the Corps reached in 1805."
+    "Washington’s Lewis and Clark Trail Scenic Byway connects Clarkston with the Pacific Coast through river-carved canyons, vineyard valleys and the Columbia River Gorge. Washington’s tourism office gives the drive as 572 miles, using SR 14 and portions of other highways, including US 12 and I-5. It presents the byway as a land journey following the Corps of Discovery along the Snake and Columbia rivers.",
+    "The legislature named the highway corridor in 1955, initially between Vancouver and Clarkston, then expanded it to include most state highways along the Columbia as far as Cape Disappointment. The much longer Lewis and Clark National Historic Trail was established in 1978. The rivers have changed too: four Snake River dams now allow barge traffic to reach Lewiston.",
+    "Travel west from Clarkston through Dayton, Walla Walla and the Tri-Cities, then follow the Columbia through the gorge toward Stevenson and Vancouver. Near Stevenson, SR 14 is a two-lane road with occasional truck climbing lanes. Continue toward Longview and the lower river, passing Dismal Nitch before finishing at Cape Disappointment’s headlands. At the river’s mouth, the state park includes old-growth forest, freshwater lakes, saltwater and freshwater marshes, and ocean tidelands, as well as the two lighthouses and former military post."
   ],
-  "season": "Usually open year-round; the state tourism office names spring and fall for mild weather.",
   "moments": [
     {
       "title": "Dayton",
       "kind": "town",
       "scene": "town",
-      "text": "On the way home the Corps camped by Patit Creek. The town has kept the oldest working courthouse in Washington, finished in 1887 while it was still a territory, and a depot from 1881.",
+      "text": "Dayton’s courthouse was completed in 1887, while Washington was still a territory, and remains the state’s oldest working courthouse. The town also has Washington’s oldest train depot, dating from 1881. A restoration program in the 1980s and 1990s repaired both buildings and added pedestrian amenities along Main Street. The restoration program cost $3 million and also created a National Historic District, alongside its repairs to the depot and courthouse. An earlier journey passed through the site of downtown: on their return east, the Corps of Discovery camped near Patit Creek after traveling nineteen miles that day.",
       "at": [
         -117.99306,
         46.31639
@@ -25,7 +25,7 @@
       "title": "Dismal Nitch",
       "kind": "roadside",
       "scene": "river",
-      "text": "A November storm in 1805 pinned the Corps in this cove for six days. \"A feeling person would be distressed by our situation,\" Clark wrote. It is a rest stop now.",
+      "text": "A rest area beside SR 401 occupies the former Megler ferry landing near the Astoria–Megler Bridge. Car ferries began crossing here in 1921, serving tourism on the Long Beach Peninsula, and stopped when the bridge was completed in 1966. Between those crossings, the Oregon Highway Department bought the ferry operation in 1946 and ran it until the bridge opened. The rest area took the name Dismal Nitch in 2005, recalling the cove where a November 1805 storm held the Corps of Discovery off the river for six days. Clark called their refuge “that dismal little nitch.”",
       "at": [
         -123.863,
         46.25
@@ -35,7 +35,7 @@
       "title": "Cape Disappointment",
       "kind": "short walk",
       "scene": "coast",
-      "text": "The Lewis and Clark Interpretive Center stands on the cliffs 200 feet above the surf, in a park that also holds two lighthouses and the Civil War batteries of the old fort.",
+      "text": "Two lighthouses share Cape Disappointment State Park with the remains of coastal defenses. A military post was established in 1862 to protect the Columbia’s northern approaches against Confederate raiders or foreign fleets. Civil War batteries survive, alongside ruined facilities from World War II. The Lewis and Clark Interpretive Center stands on cliffs 200 feet above the Pacific. Its exhibits follow the expedition and the cape’s later lighthouse, Coast Guard and military history. During the 1930s, Civilian Conservation Corps workers helped restore the fort and improved the roads and trails through the cape.",
       "at": [
         -124.06043,
         46.28982
@@ -47,30 +47,33 @@
   ],
   "sources": [
     {
-      "label": "Washington Tourism Alliance, Lewis and Clark Trail",
+      "label": "State of Washington Tourism, Lewis and Clark Trail",
       "url": "https://stateofwatourism.com/scenic-byways/lewis-and-clark-trail/"
+    },
+    {
+      "label": "Wikipedia, Cape Disappointment State Park",
+      "url": "https://en.wikipedia.org/wiki/Cape_Disappointment_State_Park"
+    },
+    {
+      "label": "Wikipedia, Lewis and Clark National Historic Trail",
+      "url": "https://en.wikipedia.org/wiki/Lewis_and_Clark_National_Historic_Trail"
     },
     {
       "label": "Scenic Washington, Lewis & Clark Trail in Washington State",
       "url": "https://www.scenicwa.com/lewis--clark-trail-in-washington-state"
     },
     {
-      "label": "Wikipedia, Dayton, Washington",
-      "url": "https://en.wikipedia.org/wiki/Dayton,_Washington"
+      "label": "Wikipedia, Stevenson, Washington",
+      "url": "https://en.wikipedia.org/wiki/Stevenson%2C_Washington"
     },
     {
-      "label": "Wikipedia, Clarkston, Washington",
-      "url": "https://en.wikipedia.org/wiki/Clarkston,_Washington"
+      "label": "Wikipedia, Dayton, Washington",
+      "url": "https://en.wikipedia.org/wiki/Dayton%2C_Washington"
     },
     {
       "label": "Wikipedia, Dismal Nitch",
       "url": "https://en.wikipedia.org/wiki/Dismal_Nitch"
-    },
-    {
-      "label": "Wikipedia, Cape Disappointment State Park",
-      "url": "https://en.wikipedia.org/wiki/Cape_Disappointment_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

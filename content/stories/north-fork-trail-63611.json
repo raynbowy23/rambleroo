@@ -1,19 +1,20 @@
 {
   "id": "north-fork-trail-63611",
-  "tagline": "Out the North Fork to the ferry at Orient Point.",
+  "tagline": "Farms and maritime villages lead east to the Orient Point ferry",
   "motifs": [
     "harbor-village"
   ],
   "intro": [
-    "Route 25 runs east out of Southold along the North Fork, through Greenport and the hamlet of Orient, to the end of the road at the Orient Point ferry landing. On the way it passes wineries, broad farms and wild wetlands, with the water showing now and then, and it finishes on an open view of the Atlantic.",
-    "FHWA calls it a wine-and-water byway. Out past the point, five minutes by boat across Plum Gut, lies Plum Island and its Department of Agriculture lab, where many Orient people make their living."
+    "The North Fork Trail carries a drive from Southold toward Orient Point past farms, wineries and wetlands, with intermittent views of beaches and water. New York’s Department of Transportation identifies the scenic byway as a 36-mile loop, with scenic, historic and recreational themes. The Federal Highway Administration calls it a “wine-and-water byway,” linking its wineries and hamlets with the coast.",
+    "The numbered highway arrived in stages: NY 25 was assigned in 1924 as far east as Greenport, then extended to Orient Point circa 1932. Earlier alignments survive beside Main Road, including Old Main Road northeast of Southold and loops near Bight Road in Orient. The landscape changed too: potato farming long dominated the North Fork before large areas became vineyards in the late twentieth century.",
+    "For the eastbound journey, take NY 25, Main Road, from Southold to Greenport, a former whaling and shipbuilding village. Rail travel stops earlier: Greenport remains the eastern terminus of the Long Island Rail Road’s Main Line, with connections to Shelter Island by ferry. Beyond Greenport, continue through East Marion toward Orient, whose historic district centers on its wharf. Orient Beach State Park lies along NY 25 before the highway ends at the Orient Point ferry landing, where Cross Sound Ferry connects to New London, Connecticut."
   ],
   "moments": [
     {
       "title": "Southold",
       "kind": "town",
       "scene": "town",
-      "text": "Puritans from New Haven Colony settled here in October 1640, in what most histories call the first English settlement on Long Island in the future New York.",
+      "text": "Southold’s fields changed crops as the North Fork’s wine industry developed: potato farming had long dominated before large areas became vineyards in the late twentieth century. English Puritans from New Haven Colony settled here in October 1640 and developed interior land for agriculture. The hamlet shares its name with the larger Town of Southold, which occupies Long Island’s North Fork. NY 25 remains the town’s main east-west route and is almost entirely called Main Road. Northeast of the hamlet, an earlier Main Road alignment survives as Old Main Road between Budd’s Pond and Hashamomuck Pond.",
       "at": [
         -72.43333,
         41.06667
@@ -23,7 +24,8 @@
       "title": "Greenport",
       "kind": "town",
       "scene": "coast",
-      "text": "A whaling and shipbuilding village whose people knew the waters well enough during Prohibition to outrun the Coast Guard.",
+      "text": "Greenport’s former railroad station now houses the East End Seaport Museum, bringing rail and maritime history into the same building. The whaling and shipbuilding village became the Long Island Rail Road’s eastern terminal on the North Fork in 1844. Its freight house has another role as the eastern home of the Railroad Museum of Long Island. The station, freight house and turntable entered the National Register together in 1989. A 1920s carousel stands near the waterfront. The wider village historic district contains 254 contributing buildings, including houses, churches and a small Main Street commercial district.",
+      "notice": "The waterfront carousel dates from the 1920s.",
       "at": [
         -72.36389,
         41.10306
@@ -36,7 +38,8 @@
       "title": "Orient",
       "kind": "town",
       "scene": "coast",
-      "text": "The easternmost hamlet on the fork has houses from three centuries, and locals joke that a new one is anything built since World War II.",
+      "text": "Orient Wharf, established in 1740, is the focal point of a historic district filled with houses from the late eighteenth and nineteenth centuries. The most common form is a Cape Cod type: a one-and-a-half-story frame house covered in shingles or clapboard. The hamlet once shared the name Oysterponds with East Marion, a reference to local shellfish. The communities separated in 1836; Orient’s new name reflected its position at the eastern end of the North Fork. Orient Point is the physical point, within the hamlet of Orient, where the fork ends.",
+      "notice": "Look for Cape Cod-type houses with one and a half stories and shingle or clapboard siding.",
       "at": [
         -72.30333,
         41.13889
@@ -45,30 +48,45 @@
   ],
   "sources": [
     {
-      "label": "NYSDOT, North Fork Trail",
+      "label": "New York State Department of Transportation, North Fork Trail",
       "url": "https://www.dot.ny.gov/display/programs/scenic-byways/north-fork-trail"
-    },
-    {
-      "label": "FHWA, North Fork Trail",
-      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/63611"
     },
     {
       "label": "Wikipedia, New York State Route 25",
       "url": "https://en.wikipedia.org/wiki/New_York_State_Route_25"
     },
     {
+      "label": "Federal Highway Administration, North Fork Trail",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/63611"
+    },
+    {
       "label": "Wikipedia, Southold, New York",
-      "url": "https://en.wikipedia.org/wiki/Southold,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Southold%2C_New_York"
     },
     {
       "label": "Wikipedia, Greenport, Suffolk County, New York",
-      "url": "https://en.wikipedia.org/wiki/Greenport,_Suffolk_County,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Greenport%2C_Suffolk_County%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, East Marion, New York",
+      "url": "https://en.wikipedia.org/wiki/East_Marion%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, Orient Historic District",
+      "url": "https://en.wikipedia.org/wiki/Orient_Historic_District"
     },
     {
       "label": "Wikipedia, Orient, New York",
-      "url": "https://en.wikipedia.org/wiki/Orient,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Orient%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, Greenport station",
+      "url": "https://en.wikipedia.org/wiki/Greenport_station"
+    },
+    {
+      "label": "Wikipedia, Greenport Village Historic District",
+      "url": "https://en.wikipedia.org/wiki/Greenport_Village_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }
