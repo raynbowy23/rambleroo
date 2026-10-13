@@ -1,28 +1,33 @@
 {
   "id": "perquiman-s-crossing-12838",
-  "tagline": "Into Hertford on an S-shaped bridge that still swings.",
+  "tagline": "Across the Perquimans River into Hertford, a former lumber town.",
   "intro": [
-    "US 17 Business leaves the main highway north of Hertford and takes two miles to rejoin it. Near Winfall it crosses Mill Creek, then sweeps down over the Perquimans River into Hertford, an early colonial port of entry and the county seat since 1758. The river runs on about ten miles southeast into Albemarle Sound.",
-    "Hertford lived on lumber through the first part of the 20th century. The state guidebook notes that the county courthouse holds records from the late 1600s, among them the Durant Deed, the oldest deed on record in North Carolina."
+    "US 17 Business connects Winfall and Hertford across the Perquimans River. North Carolina’s scenic-byway program includes Perquimans Crossing among its Coastal Plain routes. NCDOT describes the program as a way to experience the state’s history, geography and culture.",
+    "Hertford thrived on lumber through the early 20th century, using the river to its advantage. Its steel-and-wood floating bridge could be detached from one bank to let boats through, then hauled back into place with lines.",
+    "Traveling from Winfall, the business route crosses the river into Hertford, the county seat of Perquimans County. The town’s historic district includes the courthouse and the Church of the Holy Trinity."
   ],
   "moments": [
-    {
-      "title": "Mill Creek",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "Named Vosses Creek for the family that owned the land before 1700, it had become Brights Mill Creek by the end of the 19th century, after the local mill owner."
-    },
     {
       "title": "S Swing Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "The road enters Hertford on a swing bridge with S-shaped approaches, believed the only working one of its kind, where an earlier floating bridge was simply unhooked and let drift aside for boats."
+      "text": "The Perquimans crossing has a history of making room for river traffic. Hertford’s former floating bridge was built of steel and wood. When a boat needed passage, the bridge was released from one bank and floated aside. Afterward, lines pulled the free end back to the bank for reconnection. The later swing bridge had S-shaped approaches."
+    },
+    {
+      "title": "Perquimans County Courthouse",
+      "kind": "town",
+      "scene": "town",
+      "text": "Molded brick columns frame the courthouse’s small entrance portico. Built between 1819 and 1825, the Georgian-style brick courthouse has two and a half stories and a four-bay facade. Its T-shaped plan includes rear additions from the late 19th and 20th centuries. The building belongs to the Hertford Historic District and entered the National Register of Historic Places in 1979.",
+      "at": [
+        -76.46527778,
+        36.18916667
+      ]
     },
     {
       "title": "Newbold-White House",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "A mile and a half on down Church Street stands a Quaker's brick house dated by its timbers to 1730, the oldest known brick building in the state, later used for court sessions.",
+      "text": "The Newbold-White House has brickwork laid in Flemish bond. Abraham Sanders, a Quaker, purchased the property in 1726 and built the brick house in 1730. His plantation on the Perquimans River produced crops including corn, wheat, flax, indigo and tobacco, as well as wood products. Tree-ring dating places the house’s construction in 1730. The house entered the National Register of Historic Places in 1971.",
       "at": [
         -76.4375,
         36.16666667
@@ -31,22 +36,25 @@
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Perquimans Crossing",
+      "label": "Wikipedia, Hertford, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Hertford%2C_North_Carolina"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, Fifth Edition",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=230"
     },
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Perquimans Crossing route and points of interest",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=231"
+      "label": "Wikipedia, Hertford Historic District",
+      "url": "https://en.wikipedia.org/wiki/Hertford_Historic_District"
     },
     {
-      "label": "Wikipedia, Hertford, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Hertford,_North_Carolina"
+      "label": "Wikipedia, Perquimans County Courthouse",
+      "url": "https://en.wikipedia.org/wiki/Perquimans_County_Courthouse"
     },
     {
-      "label": "Wikipedia, Newbold-White House",
+      "label": "Wikipedia, Newbold–White House",
       "url": "https://en.wikipedia.org/wiki/Newbold%E2%80%93White_House"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

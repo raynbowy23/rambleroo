@@ -1,22 +1,24 @@
 {
   "id": "route-1-charlestown-994401",
-  "tagline": "Seven miles of Post Road between the moraine and the ponds.",
+  "tagline": "A wooded glacial edge and salt-pond glimpses frame Charlestown’s Post Road.",
   "intro": [
-    "Seven miles of the Post Road cross Charlestown between the South Kingstown and Westerly lines, divided all the way, with a median very wide over half its length whose plantings hide the oncoming traffic in many places. On the north the wooded edge of the glacial moraine rides along beside the road. On the south the land flattens into outwash plain, and the lower growth gives glimpses of the salt ponds.",
-    "The town's 2004 stewardship plan called the road the southern boundary of the Narragansett settlement lands, and counted the 1667 General Stanton Inn and the 1730 Wilcox Tavern among the historic sites signed from it."
+    "Route 1 crosses Charlestown between the South Kingstown and Westerly town lines, with woodland on its north side and occasional salt-pond views to the south. For more than half the road, a broad median carries plantings that screen oncoming traffic in many places. Rhode Island designated this seven-mile stretch a scenic highway in August 2002. The state transportation department highlights its natural, historic and cultural features, alongside access to undeveloped coast and salt ponds.",
+    "Known as Post Road, the corridor has historic sites dating to the seventeenth century, including the Stanton Inn. Scenic designation brought proposed changes within the road’s right-of-way under review by the Scenic Roadways Board. Its remit concerns the road and its scenic character; the board does not control zoning on adjoining property. Proposed alterations can receive approval with conditions to reduce harm to scenic resources, making the designation part of how the road is maintained and changed.",
+    "Travel west from the South Kingstown line toward Charlestown village, which lies south of Route 1 near the northern head of Ninigret Pond. Fort Ninigret is a separate stop on Fort Neck Road. Farther west, Burlingame Park lies along the scenic road, with Watchaug Pond at the park, before the corridor reaches the Westerly line."
   ],
   "moments": [
     {
       "title": "Charlestown Moraine",
       "kind": "roadside",
       "scene": "forest",
-      "text": "The rise edging much of the north side is soil and rock the last ice sheets dropped at their southernmost reach, grown up in oak, maple, white pine and red cedar."
+      "text": "The wooded edge on Post Road’s north side is the glacial Charlestown Moraine. It gives this part of the drive a different character from the southern side, where lower vegetation permits occasional glimpses of salt ponds. Plantings also occupy the road’s wide median, screening traffic coming the other way in many areas.",
+      "notice": "Woodland lines the northern side; lower growth to the south allows occasional salt-pond views."
     },
     {
       "title": "Fort Ninigret",
       "kind": "separate excursion",
       "scene": "coast",
-      "text": "Its 1883 dedication called it the oldest military post on the Atlantic coast, a fort most historians credit to the Dutch West India Company or Portuguese explorers before 1637, beside a Niantic settlement.",
+      "text": "Fort Neck was inhabited before Europeans arrived. Niantic people grew corn, made wampum and traded with Dutch and English colonists here; Ninigret was their sachem by the 1630s. In 1883, Rhode Island ended its relations with the tribe and turned the fort remains into a monument. The work reshaped the earthworks and added evergreens, an iron fence and an inscribed boulder. Gideon L. Ammons and Joshua H. Noka, both Indian Council members, spoke at the dedication. The federal government recognized the Narragansetts as a tribe in 1983. Charlestown remains the headquarters of the Narragansett Indian Tribe.",
       "at": [
         -71.6483,
         41.3811
@@ -24,9 +26,9 @@
     },
     {
       "title": "Burlingame State Park",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "forest",
-      "text": "Rhode Island's largest campground opened on Watchaug Pond in 1934 and served through the 1930s as the state's main base for the Civilian Conservation Corps.",
+      "text": "Watchaug Pond lies within Burlingame’s wooded recreation landscape. The Audubon Society established Kimball Wildlife Sanctuary on the pond’s southern shore in 1927; the State Parks Commission began acquiring surrounding land in 1930. Burlingame opened as a campground in 1934 and became the main base for Rhode Island’s Civilian Conservation Corps work during that decade. The sanctuary became part of the park after its sale to the state in 2015. Trails link the campground with the former sanctuary; Watchaug is a kettle pond. Burlingame is Rhode Island’s largest campground, one of the recreational destinations along the scenic road.",
       "at": [
         -71.6911,
         41.3839
@@ -35,12 +37,16 @@
   ],
   "sources": [
     {
-      "label": "RIDOT, Scenic Roadways",
+      "label": "Rhode Island Department of Transportation, Rhode Island’s Scenic Roadways",
       "url": "https://www.dot.ri.gov/projects/ScenicRoads/index.php"
     },
     {
-      "label": "Charlestown Conservation Commission, Route 1 Scenic Roadway Stewardship Plan (2004)",
-      "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Route%201%20Charlestown.pdf"
+      "label": "Wikipedia, Charlestown, Rhode Island",
+      "url": "https://en.wikipedia.org/wiki/Charlestown%2C_Rhode_Island"
+    },
+    {
+      "label": "Wikipedia, Charlestown (CDP), Rhode Island",
+      "url": "https://en.wikipedia.org/wiki/Charlestown_%28CDP%29%2C_Rhode_Island"
     },
     {
       "label": "Wikipedia, Fort Ninigret",
@@ -49,8 +55,11 @@
     {
       "label": "Wikipedia, Burlingame State Park",
       "url": "https://en.wikipedia.org/wiki/Burlingame_State_Park"
+    },
+    {
+      "label": "Wikipedia, Watchaug Pond",
+      "url": "https://en.wikipedia.org/wiki/Watchaug_Pond"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

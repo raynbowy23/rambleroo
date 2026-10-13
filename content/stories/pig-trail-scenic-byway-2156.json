@@ -1,26 +1,38 @@
 {
   "id": "pig-trail-scenic-byway-2156",
-  "tagline": "A roller coaster under the trees, pointed at Fayetteville.",
+  "tagline": "Steep grades and sharp curves carry Highway 23 through the Ozarks.",
   "motifs": [
     "switchbacks",
     "rolling-ridges"
   ],
   "intro": [
-    "Just north of I-40 at Ozark, Highway 23 goes into the Ozark National Forest and starts to climb and fall. ARDOT likens the 19 miles to Brashears to a roller coaster, all steep grades and sharp curves, with the trees crowding in so close that in summer the road runs in shade in places.",
-    "Very little has been built along it, and Pig Trail Falls is there for anyone wanting to cool down. The traffic has its own tradition. This is the Razorback road, the way fans from central Arkansas come up to Fayetteville."
+    "Highway 23 winds through the Ozark National Forest on steep hills and hairpin turns. The Pig Trail is a Forest Service Scenic Byway; ARDOT likens its sharp curves and inclines to a roller-coaster ride. Trees grow close to the pavement, shading portions of the road in summer, and development along the route is sparse. ARDOT also highlights the autumn color along this wooded stretch of road.",
+    "One chapter of Highway 23’s history is its Mulberry River crossing: a three-span bridge built in 1935. The 1935 river bridge spans 446 feet in three sections, a surviving example of the multi-span pony truss bridges built in Arkansas. The road also has a connection with the University of Arkansas Razorbacks, carrying fans between Central Arkansas and Northwest Arkansas. The scenic designation covers the forest stretch between I-40 north of Ozark and Highway 16 at Brashears.",
+    "Heading north from near I-40, the byway follows Highway 23 for 19 miles to Brashears. Along the way, Highway 23 crosses the Mulberry River in northern Franklin County. The drive ends at the junction with Highway 16, just south of the upper White River."
   ],
+  "notice": "Trees crowd the roadside and shade some stretches in summer.",
   "moments": [
     {
       "title": "Mulberry River",
       "kind": "roadside",
       "scene": "river",
-      "text": "A Wild and Scenic River with class I and II rapids, carried on the maps as Mulberry Creek until the Board on Geographic Names settled it in 1976."
+      "text": "The Mulberry crosses Highway 23 on its way toward the Arkansas River. Most of this 70-mile river runs through the Ozark National Forest. Rising in southwestern Newton County, it flows west before turning south into the Arkansas River valley. Its uppermost 56 miles received protection under the National Wild and Scenic Rivers System in 1992. The United States Board on Geographic Names settled on “Mulberry River” in 1976; the Geographic Names Information System also records “Mulberry Creek.” The river reaches the Arkansas south of the town of Mulberry; its flow varies greatly with the season and recent precipitation."
+    },
+    {
+      "title": "Mulberry River Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Three spans make up the Mulberry River Bridge. Built in 1935, the Highway 23 crossing is a Parker pony truss bridge with a total length of 446 feet. Its main span measures 112 feet, while the deck is 20 feet wide. The bridge entered the National Register of Historic Places in 2007. It is one of the state’s few surviving pony truss bridges built with multiple spans, carrying the road across the river in northern Franklin County.",
+      "at": [
+        -93.82944444,
+        35.67166667
+      ]
     },
     {
       "title": "Brashears",
       "kind": "town",
       "scene": "forest",
-      "text": "The trail runs out at Brashears Junction on Highway 16, just south of the upper White River, and the Razorback faithful carry on toward Fayetteville.",
+      "text": "Brashears Junction marks the Pig Trail’s northern end at Highways 16 and 23. This unincorporated community lies within the Ozark-St. Francis National Forest, just south of the upper White River. Combs is about two miles west on Highway 16, and St. Paul is about two miles east. Beyond the byway, Highways 23 and 16 run together through St. Paul as 5th Street and Madison Avenue.",
       "at": [
         -93.79583,
         35.81167
@@ -29,26 +41,29 @@
   ],
   "sources": [
     {
-      "label": "ARDOT, Arkansas Scenic Byways",
+      "label": "Arkansas Department of Transportation, Scenic Byways",
       "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
-    },
-    {
-      "label": "Arkansas Tourism, Road Trip: The Scenic Byway Guide to Northwest Arkansas",
-      "url": "https://www.arkansas.com/plan-your-trip/plan/trip-ideas-itineraries/road-trip-the-scenic-byway-guide-to-northwest-arkansas"
     },
     {
       "label": "Wikipedia, Arkansas Highway 23",
       "url": "https://en.wikipedia.org/wiki/Arkansas_Highway_23"
     },
     {
-      "label": "Wikipedia, Mulberry River (Arkansas)",
-      "url": "https://en.wikipedia.org/wiki/Mulberry_River_(Arkansas)"
+      "label": "Wikipedia, Mulberry River Bridge (Turner's Bend, Arkansas)",
+      "url": "https://en.wikipedia.org/wiki/Mulberry_River_Bridge_%28Turner%27s_Bend%2C_Arkansas%29"
     },
     {
       "label": "Wikipedia, Brashears, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/Brashears,_Arkansas"
+      "url": "https://en.wikipedia.org/wiki/Brashears%2C_Arkansas"
+    },
+    {
+      "label": "Wikipedia, Mulberry River (Arkansas)",
+      "url": "https://en.wikipedia.org/wiki/Mulberry_River_%28Arkansas%29"
+    },
+    {
+      "label": "Wikipedia, St. Paul, Arkansas",
+      "url": "https://en.wikipedia.org/wiki/St._Paul%2C_Arkansas"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

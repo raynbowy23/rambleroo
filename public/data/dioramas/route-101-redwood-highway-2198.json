@@ -3,12 +3,12 @@
   "bywayId": "route-101-redwood-highway-2198",
   "title": "Route 101--Redwood Highway",
   "longitude": -124.1149,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "coastal-cliff",
+  "palette": "coast",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "cliff-shelf",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,39 +239,39 @@
     "elevation": [
       [
         0,
-        0.35
+        0.85
       ],
       [
         0.125,
-        0.453
+        0.894
       ],
       [
         0.25,
-        0.7
+        1
       ],
       [
         0.375,
-        0.947
+        1.106
       ],
       [
         0.5,
-        1.05
+        1.15
       ],
       [
         0.625,
-        0.947
+        1.106
       ],
       [
         0.75,
-        0.7
+        1
       ],
       [
         0.875,
-        0.453
+        0.894
       ],
       [
         1,
-        0.35
+        0.85
       ]
     ]
   },

@@ -1,19 +1,21 @@
 {
   "id": "provo-canyon-scenic-byway-2006",
-  "tagline": "Up the Provo River, past a waterfall that falls twice.",
+  "tagline": "A river road passes a double waterfall and a working reservoir.",
   "motifs": [
     "waterfall-cove"
   ],
   "intro": [
-    "From Orem the byway takes US 189 up Provo Canyon beside the Provo River, between Mount Timpanogos and Mount Cascade, under gnarled walls and jagged rock grown thick with forest. At the top of the canyon it passes Deer Creek Reservoir, then leaves the highway for SR-113, through Midway and on into Heber City.",
-    "The canyon was the settlers' way over the Wasatch. A road was put through it in 1858, and permanent settlement in the Heber Valley followed in 1858 and 1859. The railroad came up the canyon in 1899, and part of its line still carries excursion trains between Heber City and Vivian Park."
+    "Provo Canyon Scenic Byway winds beside the Provo River, between Mount Timpanogos to the north and Mount Cascade to the south. Rock walls, jagged formations and forest vegetation line the canyon. Designated a Utah State Scenic Byway in 1990, the route is promoted by the Forest Service for its roadside double waterfall, reservoir recreation and passage into Heber Valley.",
+    "Before the road, the canyon connected Timpanogos Utes in Utah Valley and the Uinta Basin. Utah Valley settlers pressed for a road into Heber Valley, and construction in 1858 made settlement easier. Work had stopped during the Utah War in 1857, before residents renewed the effort and finished the road the following fall. The road was paved in the early 1930s and widened from two lanes to four by 1992. The scenic byway’s course changed again in 2003, moving from eastern US 189 onto SR-113.",
+    "Starting at SR-52 on US 189, follow the river up the canyon, past Bridal Veil Falls and toward Deer Creek Reservoir at its upper end. Near Charleston, the designated route turns onto SR-113, continuing through Midway and ending at US 40 in Heber City. The reservoir’s open water and Midway’s town square give the journey different stopping points beyond the canyon walls."
   ],
   "moments": [
     {
       "title": "Bridal Veil Falls",
       "kind": "roadside",
       "scene": "river",
-      "text": "A double cataract 607 feet tall, in sight of the road, that once had a six-passenger tram to a lodge on the cliff top until an avalanche in 1996 wrecked the machinery.",
+      "text": "Bridal Veil Falls drops in two stages within sight of the road. A six-passenger tram built in 1961 once carried visitors to Eagle’s Nest Lodge and restaurant on the cliff above. An avalanche destroyed the tram machinery and gift shop in early 1996; they were never rebuilt. In 2008, a separate arson fire burned the building at the top of the tramway, leaving very little of it. The railway also changed its relationship to the falls: tourist trains stopped passing them in the late 1980s, and the tracks in front became a recreational trail.",
+      "notice": "Look for the two stages of the waterfall visible from the road.",
       "at": [
         -111.60139,
         40.33889
@@ -26,7 +28,7 @@
       "title": "Deer Creek Reservoir",
       "kind": "roadside",
       "scene": "river",
-      "text": "An earthfill dam finished in 1941 holds back the Provo River at the top of the canyon, storing water for the Salt Lake and Utah valleys.",
+      "text": "Deer Creek’s broad water surface serves farms and cities as well as boaters. Water shortages in the Salt Lake City area and nearby farmland prompted congressional approval of a reservoir in 1935. Construction of the earthfill dam began in 1938 and finished in 1941. The dam itself rises 235 feet, with a crest 1,304 feet long, and is the key structure of the Provo River Project. The reservoir stores Provo River water for the Salt Lake and Utah valleys. A state park followed in 1971; US 189 runs beside the reservoir’s eastern and southern shores.",
       "at": [
         -111.52694,
         40.40667
@@ -36,12 +38,15 @@
       "title": "Midway",
       "kind": "town",
       "scene": "town",
-      "text": "Two early settlements on Snake Creek merged in the 1860s around Fort Midway, built halfway between them, and the fort's site is now the town square.",
+      "text": "Midway’s town square occupies the site of Fort Midway, halfway between two earlier settlements on Snake Creek. The upper settlement was called Mound City for nearby limestone formations. The two communities merged in the 1860s. A post office already carried the Midway name by 1864, before the Black Hawk War began. Snake Creek continues through the town from north to south, then joins the Provo River above Deer Creek Reservoir. The limestone mounds that gave Mound City its name belong to a landscape where fault activity also accounts for the prevalence of hot springs.",
       "at": [
         -111.47722,
         40.51444
       ]
     }
+  ],
+  "practical": [
+    "Bridal Veil Falls: US 189 closes periodically in winter for avalanche-control work. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -49,30 +54,29 @@
       "url": "https://www.fs.usda.gov/r04/uinta-wasatch-cache/recreation/provo-canyon-scenic-byway"
     },
     {
-      "label": "Wikipedia, Provo Canyon",
-      "url": "https://en.wikipedia.org/wiki/Provo_Canyon"
-    },
-    {
-      "label": "Wikipedia, Bridal Veil Falls (Utah)",
-      "url": "https://en.wikipedia.org/wiki/Bridal_Veil_Falls_(Utah)"
-    },
-    {
       "label": "Wikipedia, Deer Creek Dam and Reservoir",
       "url": "https://en.wikipedia.org/wiki/Deer_Creek_Dam_and_Reservoir"
     },
     {
-      "label": "Wikipedia, Heber Valley Railroad",
-      "url": "https://en.wikipedia.org/wiki/Heber_Valley_Railroad"
+      "label": "Wikipedia, Provo Canyon",
+      "url": "https://en.wikipedia.org/wiki/Provo_Canyon"
+    },
+    {
+      "label": "Cornell Law School Legal Information Institute, Utah Administrative Code R926-13-4",
+      "url": "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R926-13-4"
     },
     {
       "label": "Wikipedia, Midway, Utah",
-      "url": "https://en.wikipedia.org/wiki/Midway,_Utah"
+      "url": "https://en.wikipedia.org/wiki/Midway%2C_Utah"
     },
     {
-      "label": "Wikipedia, Charleston, Utah",
-      "url": "https://en.wikipedia.org/wiki/Charleston,_Utah"
+      "label": "Wikipedia, Bridal Veil Falls (Utah)",
+      "url": "https://en.wikipedia.org/wiki/Bridal_Veil_Falls_%28Utah%29"
+    },
+    {
+      "label": "Wikipedia, Deer Creek State Park (Utah)",
+      "url": "https://en.wikipedia.org/wiki/Deer_Creek_State_Park_%28Utah%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

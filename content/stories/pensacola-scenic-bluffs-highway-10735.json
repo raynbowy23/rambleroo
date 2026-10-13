@@ -1,19 +1,27 @@
 {
   "id": "pensacola-scenic-bluffs-highway-10735",
-  "tagline": "Eleven miles along the clay bluffs above Escambia Bay.",
+  "tagline": "Eleven miles of bay views, clay bluffs and a surviving mill chimney",
   "motifs": [
     "river-bluffs"
   ],
   "intro": [
-    "Past Perry Avenue in Pensacola, US 90 takes the name Scenic Highway, narrows to two lanes and turns north along the west side of Escambia Bay. For 11 miles it runs along the bluffs, which the state calls the highest points on Florida's coastline. Families picnic at Gaberonne, and lovers, by the state's own account, watch the moon rise from Bay Bluffs Park above the bay.",
-    "There is clay in the ground here, once used for making bricks. Don Tristan de Luna came along this shore in 1559, and one of his ships has lain sunk offshore ever since."
+    "Pensacola Scenic Bluffs Highway follows 11 miles of U.S. 90 beside Escambia Bay, with two-lane roadway, residential stretches, parks and open space. Designated a Florida Scenic Highway on April 24, 1998, it offers views from bluffs that FDOT identifies as the highest points along Florida’s coastline. Wetlands occupy its northern end, while clay deposits recall the shoreline’s brickmaking history.",
+    "The road’s role changed abruptly after Hurricane Ivan damaged the I-10 bay bridge in 2004. Interstate traffic moved onto U.S. 90 while temporary spans were built, and motorists waited as long as two hours at the Escambia River crossing. A replacement I-10 bridge followed, and Scenic Highway’s overpass at the interchange was replaced in 2015. The new interstate bridge took an alignment south of the original crossing, which stayed in place during construction, and expanded the crossing from four lanes to six.",
+    "Traveling south begins in the Escambia River wetlands and follows the shore past Macky Bay and the I-10 interchange in Ferry Pass. Chimney Park marks Red Bluff at Langley Avenue; farther toward Pensacola, the road follows the bay past residential neighborhoods and parkland. At Perry Avenue, Scenic Highway gives way to Cervantes Street."
   ],
   "moments": [
+    {
+      "title": "Escambia River",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "U.S. 90 crosses the Escambia River amid tidal wetlands at the northern end of the scenic drive. The crossing became a bottleneck after Hurricane Ivan struck in September 2004. Storm surge knocked 58 spans off the I-10 bay bridges and misaligned another 66. Traffic shifted to U.S. 90, where drivers waited as long as two hours to cross between Escambia and Santa Rosa counties. The river feeds Escambia Bay, which connects to open water through Pensacola Bay."
+    },
     {
       "title": "Chimney Park",
       "kind": "roadside",
       "scene": "coast",
-      "text": "On Red Bluff a lone chimney is all that is left of an 1854 steam sawmill, destroyed on Braxton Bragg's orders in 1862 so the Union could not use it.",
+      "text": "A single chimney marks the Hyer-Knowles mill at Red Bluff. The steam-powered sawmill dated to 1854. When Confederate forces abandoned Pensacola in 1862, mills were destroyed to keep them from Union use. Braxton Bragg ordered the destruction of this mill. The chimney survived and now belongs to Chimney Park, a wayside park along U.S. 90 opposite Langley Avenue. It entered the National Register of Historic Places in May 2012.",
+      "notice": "The mill’s chimney is the only surviving part of its building.",
       "at": [
         -87.16251,
         30.48064
@@ -23,30 +31,34 @@
       ]
     },
     {
-      "title": "Escambia River",
+      "title": "Bay Bluffs Park",
       "kind": "roadside",
-      "scene": "river",
-      "text": "The scenic road ends in tidal wetlands where US 90 bridges the Escambia River, a crossing where drivers waited up to two hours after Hurricane Ivan washed out the I-10 bridge in 2004."
+      "scene": "coast",
+      "text": "Bay Bluffs Park overlooks Escambia Bay. Its view belongs to a shoreline of high bluffs and clay deposits once used to make bricks. The bay connects to open water through Pensacola Bay to the southeast.",
+      "notice": "Escambia Bay lies below Bay Bluffs Park."
     }
   ],
   "sources": [
     {
-      "label": "Florida Scenic Highways, Pensacola Scenic Bluffs Highway",
+      "label": "Florida Department of Transportation, Pensacola Scenic Bluffs Highway",
       "url": "https://floridascenichighways.com/our-byways/panhandle-region/pensacola-scenic-bluffs/"
-    },
-    {
-      "label": "Wikipedia, U.S. Route 90 in Florida",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_90_in_Florida"
     },
     {
       "label": "Wikipedia, Hyer-Knowles Planing Mill Chimney",
       "url": "https://en.wikipedia.org/wiki/Hyer-Knowles_Planing_Mill_Chimney"
     },
     {
+      "label": "Wikipedia, U.S. Route 90 in Florida",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_90_in_Florida"
+    },
+    {
+      "label": "Wikipedia, Escambia Bay Bridge",
+      "url": "https://en.wikipedia.org/wiki/Escambia_Bay_Bridge"
+    },
+    {
       "label": "Wikipedia, Escambia Bay",
       "url": "https://en.wikipedia.org/wiki/Escambia_Bay"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

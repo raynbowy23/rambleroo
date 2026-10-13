@@ -1,26 +1,39 @@
 {
   "id": "riverboat-row-scenic-byway-2129",
-  "tagline": "Newport’s riverfront, where two rivers meet.",
+  "tagline": "A riverfront mile ends where the Ohio and Licking meet.",
   "intro": [
-    "Along Newport’s riverfront, Riverboat Row reaches General James Taylor Park, overlooking the meeting of the Ohio and Licking rivers with Cincinnati beyond. The park occupies the former Newport Barracks grounds.",
-    "Nearby, East Row keeps houses from Newport’s years of trade and industry. Italianate buildings along the district’s western edge give way to later Queen Anne and Colonial Revival homes, on land subdivided from the Taylor family estate."
+    "Riverboat Row is a one-mile Newport drive from KY 8 at Dave Cowens Drive to James Taylor City Park. At the park, the view takes in the meeting of the Ohio and Licking rivers and Cincinnati’s skyline. Kentucky’s scenic-byway inventory records its designation on May 24, 1995.",
+    "The land at the end of the road once held Newport Barracks. In 1803, James Taylor Jr. enlisted his cousin James Madison’s help to persuade the federal government to move Fort Washington across the Ohio from Cincinnati. Newport had given the waterfront land to the government in 1848 on condition that it revert to the city if the barracks were abandoned. The old post had also lost its military usefulness as the Army moved toward larger installations after the Civil War. Flooding later helped drive the move to Fort Thomas on higher ground, and the city eventually made a park on the former barracks grounds.",
+    "Start at Dave Cowens Drive and take Riverboat Row toward the park. East Row offers a nearby excursion among Italianate and later Queen Anne houses; the Taylor–Southgate Bridge carries US 27 between Newport and Cincinnati. Finish at General James Taylor Park, where the Licking joins the Ohio opposite Cincinnati."
   ],
+  "notice": "At General James Taylor Park, the two rivers meet below Cincinnati’s skyline.",
   "moments": [
     {
       "title": "East Row Historic District",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "Houses favored by Newport’s merchants and business owners preserve Italianate and Queen Anne work on land subdivided from the Taylor family estate.",
+      "text": "East Row’s western edge has early Italianate houses; later homes introduce Queen Anne, Colonial Revival and American Foursquare designs. Newport’s growth led James Taylor’s grandson to subdivide the family estate as Taylor’s Row Addition, attracting merchants and business owners in the late nineteenth century. By the late 1970s, many large houses had been divided into small apartments. Owners began restoring homes, and preservationists from Mansion Hill and Gateway joined forces in the mid-1980s. The Mansion Hill Neighborhood Association and its house tour both began in 1979, and the tour attracted more residents to the neighborhood.",
       "at": [
         -84.49,
         39.095
       ]
     },
     {
+      "title": "Taylor–Southgate Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "The Taylor–Southgate Bridge carries US 27 over the Ohio between Newport and Cincinnati. Opened in 1995, it replaced the Cincinnati–Newport Bridge, also known as the Central Bridge, which had served from 1890 until its demolition in 1992. Some ornate ironwork was transferred from the old crossing to the new one. The new continuous-truss bridge has an 850-foot main span and takes its name from the families of early Newport settlers James Taylor Jr. and Richard Southgate. The older bridge had become structurally deficient and functionally obsolete before the replacement was built.",
+      "at": [
+        -84.5012,
+        39.096
+      ]
+    },
+    {
       "title": "General James Taylor Park",
       "kind": "roadside",
       "scene": "river",
-      "text": "On the former barracks grounds, the park overlooks the Ohio and Licking confluence and Cincinnati’s skyline.",
+      "text": "General James Taylor Park occupies the former Newport Barracks grounds at the meeting of the Ohio and Licking rivers. A condition attached to Newport’s 1848 gift of waterfront land required its return to the city if the barracks were abandoned. That waterfront position repeatedly exposed the post to flooding, especially in 1882, 1883 and 1884. The Secretary of War bought hilltop land for Fort Thomas, and all personnel and equipment had moved to the new post by November 1894. The barracks property passed to Newport in January 1895 and eventually became this park, with Cincinnati’s skyline beyond the rivers.",
+      "notice": "The park overlooks the Ohio–Licking confluence and Cincinnati’s skyline.",
       "at": [
         -84.5024,
         39.0924
@@ -29,8 +42,8 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, East Row Historic District",
-      "url": "https://en.wikipedia.org/wiki/East_Row_Historic_District"
+      "label": "Kentucky Transportation Cabinet, Kentucky State and National Scenic Byways and Highways",
+      "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
     },
     {
       "label": "Wikipedia, General James Taylor Park",
@@ -39,8 +52,23 @@
     {
       "label": "Wikipedia, Newport Barracks",
       "url": "https://en.wikipedia.org/wiki/Newport_Barracks"
+    },
+    {
+      "label": "Wikipedia, East Row Historic District",
+      "url": "https://en.wikipedia.org/wiki/East_Row_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Taylor–Southgate Bridge",
+      "url": "https://en.wikipedia.org/wiki/Taylor%E2%80%93Southgate_Bridge"
+    },
+    {
+      "label": "Wikipedia, Licking River (Kentucky)",
+      "url": "https://en.wikipedia.org/wiki/Licking_River_%28Kentucky%29"
+    },
+    {
+      "label": "Wikipedia, Cincinnati–Newport Bridge",
+      "url": "https://en.wikipedia.org/wiki/Cincinnati%E2%80%93Newport_Bridge"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

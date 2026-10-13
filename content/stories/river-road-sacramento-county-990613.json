@@ -1,16 +1,17 @@
 {
   "id": "river-road-sacramento-county-990613",
-  "tagline": "Levee towns built for steamers, orchards and canneries.",
+  "tagline": "Between Delta bridges, a journey through steamer landings and rebuilt communities.",
   "intro": [
-    "River Road leaves Courtland, beside the Sacramento River, for Walnut Grove and Isleton in the Delta. These were working towns. Courtland grew from a steamer landing opened in 1870, and the farms, orchards and canneries around them kept the main streets downriver in business.",
-    "Both downriver towns rebuilt their Asian business districts after fires. Walnut Grove's Japanese residents put up Kawashimo in 1916, two-story buildings with families living above their shops. Isleton rebuilt after 1926 in pressed-tin siding found in no other Asian community of the Delta."
+    "River Road’s designated scenic stretch runs between SR 160 at Paintersville Bridge and SR 160 at Isleton Bridge in Sacramento County. It belongs to a landscape of river islands and agricultural communities: Sutter Island lies across the Sacramento from Paintersville, and Isleton occupies Andrus Island. Caltrans records its County Scenic Highway designation in 1969.",
+    "The corridor’s towns grew through river transport and farming. James V. Sims opened Courtland’s steamer landing in 1870; at Isleton, a wharf followed the town’s founding in 1874. Canneries developed with local agriculture, while Japanese residents rebuilt Kawashimo in Walnut Grove after the 1915 fire. At Isleton, the Chinese and Japanese commercial districts served workers in canneries, farms and ranches as well as town residents. Their shared Main Street was rebuilt after a 1926 fire, but the districts remained distinct areas, later recognized together on the National Register of Historic Places in 1991.",
+    "For the southbound journey, Courtland gives context to the Paintersville end: Paintersville is less than a mile south-southwest of town. The accompanying town stops continue through Walnut Grove to Isleton, whose bridge marks the other end of the designated road. The 1923 Isleton Bridge carries SR 160 across the Sacramento north of town."
   ],
   "moments": [
     {
       "title": "Courtland",
       "kind": "town",
       "scene": "river",
-      "text": "Courtland, named for a landowner's son, has held a Pear Fair for the Delta's Bartlett harvest since 1972.",
+      "text": "Courtland’s name comes from the son of James V. Sims, the landowner who opened a steamer landing here in 1870. The community sits beside the Sacramento River, and its agricultural connection continues in the annual Pear Fair. Held since 1972, the fair celebrates the Delta’s Bartlett pear harvest.",
       "at": [
         -121.56861111,
         38.33111111
@@ -20,7 +21,7 @@
       "title": "Walnut Grove Japanese-American Historic District",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "Unlike other Japantowns in the area, Kawashimo was designed and built by its own Asian residents after the 1915 fire, some coming from as far as San Francisco.",
+      "text": "Kawashimo means “downriver,” the name local Japanese immigrants used for the Walnut Grove area in reference to travel through the Sacramento Delta. Families lived above their businesses in many of the two-story buildings of the rebuilt Kawashimo. After fire swept through Chinatown and Japantown in 1915, residents of Japanese ancestry rebuilt one block north on Alex Brown’s land in 1916. Builders came from as far as San Francisco. Forced incarceration following Executive Order 9066 emptied Japantown in 1942. Filipino and Mexican laborers moved in during the war; many original residents later returned, but most left within a few years. With some exceptions, the district retains its 1916 architecture.",
       "at": [
         -121.512085,
         38.243202
@@ -30,7 +31,8 @@
       "title": "Isleton Chinese and Japanese Commercial Districts",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "Isleton divided its two blocks of Main Street down the middle, Japanese American homes and businesses on one side and Chinese American on the other.",
+      "text": "Pressed-tin siding distinguishes Isleton’s Chinese and Japanese commercial districts from other Asian communities in the Delta. Buildings along this two-block section of Main Street were rebuilt after the fire of May 30, 1926. Japanese American homes and businesses primarily occupied one side, while Chinese Americans used the other. Together they served residents and laborers from the canneries, farms and ranches nearby. The two areas share a National Register district, listed in 1991, which includes the Bing Kong Tong building at 29 Main Street. The district did not regain its former multiethnic population after the incarceration of Japanese Americans.",
+      "notice": "Pressed-tin siding marks the commercial districts’ architecture.",
       "at": [
         -121.605,
         38.1625
@@ -38,6 +40,10 @@
     }
   ],
   "sources": [
+    {
+      "label": "Caltrans, Officially Designated County Scenic Highways",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/od-county-scenic-hwys-2015-a11y.pdf"
+    },
     {
       "label": "Wikipedia, Courtland, California",
       "url": "https://en.wikipedia.org/wiki/Courtland%2C_California"
@@ -47,10 +53,29 @@
       "url": "https://en.wikipedia.org/wiki/Walnut_Grove_Japanese-American_Historic_District"
     },
     {
+      "label": "Wikipedia, Sutter Island",
+      "url": "https://en.wikipedia.org/wiki/Sutter_Island"
+    },
+    {
+      "label": "Wikipedia, Andrus Island",
+      "url": "https://en.wikipedia.org/wiki/Andrus_Island"
+    },
+    {
+      "label": "Wikipedia, Isleton, California",
+      "url": "https://en.wikipedia.org/wiki/Isleton%2C_California"
+    },
+    {
       "label": "Wikipedia, Isleton Chinese and Japanese Commercial Districts",
       "url": "https://en.wikipedia.org/wiki/Isleton_Chinese_and_Japanese_Commercial_Districts"
+    },
+    {
+      "label": "Wikipedia, Paintersville, California",
+      "url": "https://en.wikipedia.org/wiki/Paintersville%2C_California"
+    },
+    {
+      "label": "Wikipedia, Isleton Bridge",
+      "url": "https://en.wikipedia.org/wiki/Isleton_Bridge"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

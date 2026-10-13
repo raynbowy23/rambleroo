@@ -1,16 +1,18 @@
 {
   "id": "pine-barrens-byway-68570",
-  "tagline": "Into the pines at Batsto, out to the salt marsh.",
+  "tagline": "Forest roads lead from an iron village toward salt marshes and a seaport.",
   "intro": [
-    "The byway goes into the pines at Batsto, on CR 542 in Wharton State Forest, and runs a long way under forest. One branch follows the Mullica River out to Great Bay and Tuckerton, crossing salt marsh beside the Forsythe refuge. The others turn south past the ruins of old furnaces and glassworks toward the Maurice River.",
-    "The furnaces burned the forest for fuel, and the country turned to truck farming and then to berries. At Woodbine, Jewish settlers from Poland and Russia arrived in 1891 and cleared the woods within two years. The middle of town still keeps the grid laid out that first year."
+    "The Pine Barrens Byway follows three routes through forests, fields, marshes and bogs in southern New Jersey. Salt marshes and small inlet bridges bring the drive alongside the Forsythe National Wildlife Refuge. A National Scenic Byway, it emphasizes the maritime Pinelands: the Pinelands Commission highlights the scenery and historic hamlets of the Mullica, Maurice and Tuckahoe river corridors. NJDOT identifies nature and history as the route’s defining qualities.",
+    "The road’s scenic identity grew from an economic-development effort that sought environmentally suitable growth and wider appreciation of the Pinelands’ natural assets. Beginning in 2001, the Pinelands Commission worked with 16 municipalities and five counties to develop the byway. The Commission inventoried natural and cultural attractions, and every municipality and county along the route passed a resolution supporting designation. Previously called the Southern Pinelands Natural Heritage Trail, it received state scenic-byway designation in 2005. National designation followed in February 2021, after an application by the Commission.",
+    "Begin at Batsto Village, where the long northern loop heads east across the Wading River toward Tuckerton Seaport. The loop returns through Port Republic; the central connector runs from Batsto toward Mays Landing and Corbin City. Farther south, the byway crosses the Tuckahoe River and branches toward Dennisville and Port Elizabeth."
   ],
+  "notice": "At Batsto, look for the sawmill, charcoal kiln and 19th-century ore boat.",
   "moments": [
     {
       "title": "Batsto Village",
       "kind": "town",
       "scene": "forest",
-      "text": "Batsto takes its name from the Swedish for a bathing place, though its furnace, fed on bog ore dug from the streams, made cannonballs for Washington's army.",
+      "text": "Bog ore, forest and waterpower gave Charles Read the ingredients for an ironworks at Batsto. He completed the works by the end of 1766. The operation made household goods and supplied the Continental Army during the Revolution. As demand for iron declined in the mid-19th century, Batsto turned to glassmaking, but that venture failed to secure its future. Joseph Wharton bought Batsto in 1876, improved its buildings and pursued forestry and agricultural projects, including cranberry farming and a sawmill. The village now includes a sawmill, charcoal kiln and 19th-century ore boat among more than forty sites and structures.",
       "at": [
         -74.64777778,
         39.64166667
@@ -20,7 +22,7 @@
       "title": "Tuckerton Seaport",
       "kind": "short walk",
       "scene": "coast",
-      "text": "On Tuckerton Creek a boardwalk joins 17 historic and recreated buildings of a maritime village, opened in 2000 on ground once slated for a motel and marina.",
+      "text": "A boardwalk connects 17 historic and recreated buildings at Tuckerton Seaport. The museum occupies land along Tuckerton Creek where plans for a motel, campground and marina went before the planning board in 1989. Instead, a maritime village took shape, opening in May 2000. Its lighthouse is a re-creation: the original on Tucker’s Island fell into the sea. Perrine Boatworks includes working boatbuilding and exhibits of vintage and newly built Barnegat Bay sneakboxes and garveys. The museum also preserves two historic houseboats, Skinner/Donnelly and Periwinkle, among its buildings and maritime exhibits.",
       "at": [
         -74.3427,
         39.602
@@ -33,7 +35,7 @@
       "title": "Mauricetown",
       "kind": "town",
       "scene": "river",
-      "text": "Mauricetown, pronounced Morristown, stands on high ground above the Maurice River, a coastal-trade and shipbuilding town whose houses mostly date from 1790 to 1900.",
+      "text": "Mauricetown stands on high ground above the Maurice River, with salt marshes, tidal flats and creeks on three sides. The river supported a 19th-century boom in coastal trade and shipbuilding. Most of the buildings are houses dating from 1790 to 1900. Two main east-west roads and three north-south side streets form the small town’s grid. Construction of the County Route 649 bypass reduced traffic through the community. The town’s name is pronounced “Morristown.” The historic district entered the National Register in 2018 for architecture, commerce and maritime history, with 118 contributing buildings.",
       "at": [
         -74.99333333,
         39.28583333
@@ -42,30 +44,29 @@
   ],
   "sources": [
     {
-      "label": "NJDOT, Pine Barrens Byway",
+      "label": "New Jersey Department of Transportation, Pine Barrens Scenic Byway",
       "url": "https://dot.nj.gov/transportation/community/scenic/pinelands.shtm"
+    },
+    {
+      "label": "Wikipedia, Batsto Village, New Jersey",
+      "url": "https://en.wikipedia.org/wiki/Batsto_Village%2C_New_Jersey"
     },
     {
       "label": "New Jersey Pinelands Commission, Pine Barrens Byway",
       "url": "https://www.nj.gov/pinelands/landuse/current/byway/"
     },
     {
-      "label": "Wikipedia, Batsto Village, New Jersey",
-      "url": "https://en.wikipedia.org/wiki/Batsto_Village,_New_Jersey"
-    },
-    {
       "label": "Wikipedia, Tuckerton Seaport",
       "url": "https://en.wikipedia.org/wiki/Tuckerton_Seaport"
     },
     {
-      "label": "Wikipedia, Woodbine, New Jersey",
-      "url": "https://en.wikipedia.org/wiki/Woodbine,_New_Jersey"
+      "label": "Wikipedia, Tuckerton, New Jersey",
+      "url": "https://en.wikipedia.org/wiki/Tuckerton%2C_New_Jersey"
     },
     {
       "label": "Wikipedia, Mauricetown, New Jersey",
-      "url": "https://en.wikipedia.org/wiki/Mauricetown,_New_Jersey"
+      "url": "https://en.wikipedia.org/wiki/Mauricetown%2C_New_Jersey"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

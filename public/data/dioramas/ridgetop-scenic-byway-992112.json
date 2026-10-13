@@ -96,8 +96,8 @@
         37.70957
       ],
       [
-        -83.97523,
-        37.69992
+        -83.97517,
+        37.69938
       ],
       [
         -83.97748,
@@ -279,16 +279,23 @@
     {
       "name": "Irvine Historic Business District",
       "model": "town-blocks",
-      "at": 0.4879719454242153,
+      "at": 0.4881758231137903,
       "offset": "roadside",
       "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Riverview Hotel",
       "model": "town-blocks",
-      "at": 0.48903422063785634,
+      "at": 0.4889518842086565,
       "offset": "roadside",
       "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Irvine",
+      "model": "town-blocks",
+      "at": 0.48979945447760115,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
@@ -343,8 +350,8 @@
     },
     {
       "name": "Irvine",
-      "at": 0.4872246696035243,
-      "landmark": ""
+      "at": 0.4894273127753304,
+      "landmark": "Irvine"
     }
   ],
   "sources": [

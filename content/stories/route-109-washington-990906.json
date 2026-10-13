@@ -1,46 +1,65 @@
 {
   "id": "route-109-washington-990906",
-  "tagline": "East out of Washington Depot on the old Litchfield road.",
+  "tagline": "East from Washington Depot, a scenic road meets an old stagecoach crossroads.",
   "intro": [
-    "Route 109 leaves Washington Depot on Bee Brook Road in company with Route 47, and a third of a mile on it splits off east for Morris. From there it runs as Old Litchfield Road for about three miles through a town of rolling hills, mixed woods and open fields.",
-    "The town was named for George Washington, who came through several times during the Revolution and, as the saying goes, slept at New Preston in 1781. Joseph Hurlbut settled this eastern side of it in 1734, and his neighborhood took the name Judea Parish."
+    "Route 109 crosses Washington, a Connecticut town of rolling hills, high plateaus, woods and open farm fields. Connecticut DOT records identify its scenic section from the end of the Route 47 overlap to Wood Creek Road. Along Old Litchfield Road, the highway meets Sunny Ridge, a former crossroads village on a stagecoach and mail route.",
+    "The numbered highway originally took a different course. Commissioned in 1932, Route 109 ran from Bantam, past Bantam Lake, to Thomaston. In 1963, the lake section became Route 209, and Route 109 shifted to its present western terminus in New Milford.",
+    "Heading east, leave Washington Depot on Bee Brook Road, where Routes 47 and 109 briefly share the pavement. Route 109 then branches east toward Morris. Continue along Old Litchfield Road through the Sunny Ridge crossroads; the scenic designation ends at Wood Creek Road."
   ],
   "moments": [
     {
       "title": "Washington Depot",
       "kind": "town",
       "scene": "river",
-      "text": "The mill village once called Factory Hollow lost much of its center to the Shepaug flood of August 1955, and a later visit here gave Gilmore Girls its Stars Hollow."
+      "text": "The Shepaug River helped make Washington Depot an industrial village, then reshaped it through disaster. Early nineteenth-century mills and factories gave it the name Factory Hollow. In August 1955, debris blocked culverts upstream beneath U.S. Route 202; the culverts and roadway failed, sending floodwater through the village center and destroying homes and businesses. Henry B. Van Sinderen led the reconstruction. The rebuilding changed the layout and appearance of the Depot, giving its center a different character from Washington’s older architecture."
     },
     {
       "title": "Sunny Ridge",
       "kind": "roadside",
       "scene": "town",
-      "text": "Ten houses and their barns sit around a triangle of roads that was a stop on the north-south stage and mail route, and where the Rising Sun Tavern took in travelers from 1748.",
+      "text": "Sunny Ridge’s triangle of roads marks a former stop on a north–south stagecoach and mail route. Nettleton Hollow Road carried travelers between Hartford and Cornwall, with connections onward to Albany. Taverns developed at the crossroads, including the Rising Sun, established in 1748 and enlarged in the early nineteenth century. The village flourished until stage routes declined late in that century. The historic district now includes ten wood-frame houses, seven historically significant, with nineteenth-century barns and sheds.",
+      "notice": "Wood-frame houses, barns and sheds surround the triangle of roads.",
       "at": [
         -73.27667,
         41.6575
+      ]
+    },
+    {
+      "title": "Camp Columbia",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Beyond the Washington scenic section, Camp Columbia in Morris preserves part of an engineering school’s outdoor classroom. Columbia University bought the farmland in 1903 so engineering and surveying students could gain field experience. The camp closed in 1983; Connecticut purchased it in 2000 and dedicated the state forest and historic park in 2004. Building foundations remain, along with two standing structures: the Class of 1906 observation tower, dedicated in 1942, and the Instrument House.",
+      "at": [
+        -73.22388889,
+        41.67694444
       ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, Connecticut Route 109",
-      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_109"
+      "label": "Wikipedia, Sunny Ridge Historic District",
+      "url": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District"
     },
     {
       "label": "Wikipedia, Connecticut Route 47",
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_47"
     },
     {
-      "label": "Wikipedia, Washington, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Washington,_Connecticut"
+      "label": "Connecticut Department of Transportation, Roadway Classification and Characteristic Data",
+      "url": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
-      "label": "Wikipedia, Sunny Ridge Historic District",
-      "url": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District"
+      "label": "Wikipedia, Washington, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Washington%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Connecticut Route 109",
+      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_109"
+    },
+    {
+      "label": "Wikipedia, Camp Columbia State Park/State Forest",
+      "url": "https://en.wikipedia.org/wiki/Camp_Columbia_State_Park/State_Forest"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

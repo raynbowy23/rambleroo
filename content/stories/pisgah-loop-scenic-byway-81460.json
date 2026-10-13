@@ -1,19 +1,22 @@
 {
   "id": "pisgah-loop-scenic-byway-81460",
-  "tagline": "Fifteen miles of dirt along the rim of Linville Gorge.",
+  "tagline": "Mountain roads circle a protected gorge and return beside Lake James",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "The loop starts nine miles northwest of Morganton and climbs NC 181 into the Pisgah National Forest, with Table Rock and Hawksbill in view, past a rare mountain wetland to Jonas Ridge. Beyond the Linville Falls trailhead the pavement ends. For about fifteen miles Old NC 105 runs unpaved with the Linville Gorge Wilderness on its east side, then comes down to cross the Linville River where it runs into Lake James.",
-    "The gorge is about 1,400 feet deep and so steep that no industrial logging ever took place in it, and much of its forest is old growth. The Cherokee called the river Ee-see-oh, river of many cliffs."
+    "Pisgah Loop climbs and winds into Pisgah National Forest, with Table Rock and Hawksbill Mountain in view. Near the Linville Falls trailhead, the drive changes to 15 miles of unpaved road beside the wilderness. North Carolina’s scenic-byways guide presents the loop as a way to see remote mountain landscapes and gives a driving time of one hour, 50 minutes. Along the way, the road parallels the Blue Ridge Parkway and passes a rare mountain wetland before following the edge of Linville Gorge.",
+    "Early settlers and Revolutionary and Civil War units faced these mountains as a barrier to crossing west. Part of the byway now belongs to the Overmountain Victory Trail Commemorative Motor Route, marking the journey to the Battle of Kings Mountain. The unpaved stretch serves a different purpose: protecting the Linville Gorge wilderness along its east side.",
+    "Begin northwest of Morganton on NC 181, then take NC 183 at Jonas Ridge toward Old NC 105. Old NC 105 carries the loop along the gorge; Wiseman’s View looks across to the rock faces above the Linville River. Below the gorge, the byway crosses the river as it enters Lake James. NC 126 and Fish Hatchery Road complete the return to NC 181."
   ],
+  "notice": "Table Rock and Hawksbill Mountain come into view as the road climbs into Pisgah National Forest.",
   "moments": [
     {
       "title": "Table Rock",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The distinctive rock on the gorge's east rim turned up in Jules Verne's 1904 novel Master of the World as the Great Eyrie, belching strange sounds and fire over Morganton.",
+      "text": "Table Rock’s distinctive formation rises on the east rim of Linville Gorge, within Pisgah National Forest. The byway’s climb brings it into view with Hawksbill Mountain. Jules Verne gave the mountain another identity in his 1904 novel Master of the World: Great Eyrie, a height that sent strange sounds and fire over Morganton. The real mountain also drew botanists André Michaux and John Fraser in the nineteenth century. Fraser found Fraser’s Sedge near the mountain, adding a botanical association to the peak’s literary one. A nearby parking area also serves a short hike to the peak, which is used for rock climbing.",
+      "notice": "Look for Table Rock’s rock formation on the gorge’s east rim.",
       "at": [
         -81.8845,
         35.886
@@ -23,13 +26,14 @@
       "title": "Wiseman's View",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "A short, accessible trail ends at an overlook on Table Rock, Hawksbill Mountain and the Chimneys, with the Linville River running through the gorge far below."
+      "text": "Wiseman’s View is a rock outcrop near the center of Linville Gorge, overlooking its interior. From the overlook, Table Rock, Hawksbill Mountain and the Chimneys rise above the Linville River far below. That difficult terrain helped spare the gorge from industrial logging: extracting timber here was unprofitable. Old growth forest survives within the gorge. Formal protection began with a land purchase in 1952, and wilderness designation followed in 1964 under the new National Wilderness Preservation System. The gorge has no road along its bottom; the view takes in terrain kept beyond the reach of through traffic.",
+      "notice": "Table Rock, Hawksbill Mountain and the Chimneys frame the view above the river."
     },
     {
       "title": "Lake James",
       "kind": "roadside",
       "scene": "river",
-      "text": "The river leaves the gorge here for Lake James, and the Linville access area on its shore is where the fort battle and canoe scenes of The Last of the Mohicans were filmed.",
+      "text": "Where the byway crosses the Linville River below the gorge, the river enters Lake James. Duke Power created this reservoir between 1916 and 1923 as a hydroelectric project, holding water behind three earthen dams. The flooding took part of the farming community of Fonta Flora. The lake later supplied a setting for The Last of the Mohicans, doubling as Lake George, New York, in the 1992 film. The Linville Public Access Area was used for the fort battle and canoe scenes. The reservoir continues to generate electricity and is the uppermost lake in the Catawba River system.",
       "at": [
         -81.88444444,
         35.74333333
@@ -40,34 +44,25 @@
     }
   ],
   "practical": [
-    "About 15 miles of Old NC 105 along Linville Gorge are mostly unpaved, and four-wheel drive is required there. Tractor-trailers are prohibited and the route is not recommended for recreational vehicles or buses. The guidebook gives a paved alternative by US 221 and Lake James Road."
+    "Wiseman's View: Four-wheel-drive vehicles are required for the unpaved section of the byway. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=86"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (route, vehicle notes, alternate route)",
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways guidebook",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=87"
     },
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (Lake James, Last of the Mohicans site)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=88"
+      "label": "Wikipedia, Table Rock (North Carolina)",
+      "url": "https://en.wikipedia.org/wiki/Table_Rock_%28North_Carolina%29"
     },
     {
       "label": "Wikipedia, Linville Gorge Wilderness",
       "url": "https://en.wikipedia.org/wiki/Linville_Gorge_Wilderness"
     },
     {
-      "label": "Wikipedia, Table Rock (North Carolina)",
-      "url": "https://en.wikipedia.org/wiki/Table_Rock_(North_Carolina)"
-    },
-    {
       "label": "Wikipedia, Lake James",
       "url": "https://en.wikipedia.org/wiki/Lake_James"
     }
   ],
-  "draft": true,
   "reviewed": false
 }
