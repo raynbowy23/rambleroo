@@ -85,6 +85,8 @@ export interface Photo {
   source?: 'curated' | 'wikipedia-lead' | 'nara' | 'commons-search'
   /** Small (~480px) version for cards and thumbnails. */
   thumb?: string
+  /** Middle (960px wide) WebP version for page heroes on phones and small screens; set by scripts/photos/medium.ts. */
+  medium?: string
 }
 
 /** A Mapillary street-level frame on the byway. Only the id is stored; the Worker serves the picture, because Mapillary image URLs expire. */

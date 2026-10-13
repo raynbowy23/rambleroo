@@ -5,7 +5,7 @@ import type { BywaySummary, BywayStory, Photo } from '../../lib/types'
 import { creditedPhoto, type PostcardChoices } from '../../lib/postcards'
 import { userPhotos, usePhotoRevision } from '../../lib/userPhotos'
 import { PhotoLettering } from './PhotoPostcard'
-import { photoPath } from '../photos/Photos'
+import { postcardPhotoPath } from '../photos/Photos'
 import { cardTitle, loadCardRoute, routeInset, type CardRoute, type Milestone } from './cardData'
 import '../garage/studio.css'
 export function useCardAssets(id: string, choices: PostcardChoices, milestone?: Milestone) {
@@ -64,7 +64,7 @@ export interface CardFrontProps {
 /** One SVG composition is used both live and in the exported PNG. */
 export function CardFront({ byway, story, photo, choices, garage, milestone, route, ownUrl, pictureUrl }: CardFrontProps) {
   const credit = creditedPhoto(choices, photo)
-  const url = credit ? photoPath(credit) : choices.front === 'own' ? ownUrl : undefined
+  const url = credit ? postcardPhotoPath(credit) : choices.front === 'own' ? ownUrl : undefined
   const look = { ...byway.look, lettering: choices.lettering === 'off' ? byway.look.lettering : choices.lettering }
   const title = cardTitle(byway, milestone)
   const inset = choices.route && route ? routeInset(route) : undefined

@@ -4,12 +4,13 @@ import type { Photo } from '../../lib/types'
 import { Dialog } from '../../components/ui/Dialog'
 import s from './Photos.module.css'
 import { PHOTO_ORIGIN } from '../../lib/photoOrigin'
+import { photoPathAt, photoSources } from '../../lib/photoSources'
 
 export function photoPath(photo: Photo, thumbnail = false) {
-  const file = thumbnail ? (photo.thumb ?? photo.file) : photo.file
-  const path = file.startsWith('/') ? file : `/photos/${photo.bywayId}/${file}`
-  return PHOTO_ORIGIN ? PHOTO_ORIGIN + path.replace(/^\/photos/, '') : path
+  return photoPathAt(thumbnail ? (photo.thumb ?? photo.file) : photo.file, photo.bywayId, PHOTO_ORIGIN)
 }
+/** The 960px copy when there is one: enough for a postcard face, which is drawn 840px wide even in the downloaded PNG. */
+export const postcardPhotoPath = (photo: Photo) => photoPathAt(photo.medium ?? photo.file, photo.bywayId, PHOTO_ORIGIN)
 export function photoSource(photo: Photo) {
   return photo.source === 'nara' && !photo.sourceUrl.includes('commons.wikimedia.org')
     ? 'U.S. DOT / National Archives'
@@ -25,18 +26,15 @@ export function PhotoCredit({ photo }: { photo: Photo }) {
     </span>
   )
 }
-/** Use full resolution for heroes and lightboxes; cards request the registry thumbnail. */
+/** Lightboxes use full resolution; heroes and cards let the browser pick a size for the screen (src/lib/photoSources.ts). */
 export function PhotoImage({ photo, full = false, hero = false }: { photo: Photo; full?: boolean; hero?: boolean }) {
+  const { src, srcSet, sizes } = photoSources(photo, PHOTO_ORIGIN, full ? 'full' : hero ? 'hero' : 'card')
   return (
     <img
       className={s.image}
-      src={photoPath(photo, !full && !hero)}
-      srcSet={
-        !full && !hero && photo.thumb
-          ? `${photoPath(photo, true)} ${Math.min(480, photo.width)}w, ${photoPath(photo)} ${photo.width}w`
-          : undefined
-      }
-      sizes={!full && !hero && photo.thumb ? 'auto, (max-width: 759px) 100vw, 480px' : undefined}
+      src={src}
+      srcSet={srcSet}
+      sizes={sizes}
       width={photo.width}
       height={photo.height}
       alt={photo.alt}
