@@ -63,6 +63,7 @@ test('explore keeps a compact collection rail and hides the selected cartouche b
   expect((await rail.boundingBox())!.height).toBeLessThanOrEqual(72)
   // Thumbnails are a photo when one of the collection's roads has one, otherwise an illustration; either way they stay small.
   const thumbnails = rail.locator('[class*="collectionPreview"]').first().locator('img, svg').first()
+  await expect(thumbnails).toBeVisible()
   const thumbWidth = (await thumbnails.boundingBox())!.width
   expect(thumbWidth).toBeGreaterThanOrEqual(40)
   expect(thumbWidth).toBeLessThanOrEqual(64)

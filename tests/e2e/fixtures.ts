@@ -37,7 +37,17 @@ export const flatTerrainTile = (() => {
 })()
 
 // Tests never depend on the live OpenFreeMap service: the TileJSON is stubbed and every tile and glyph comes back empty, so maps render the bundled Natural Earth layers quickly and deterministically.
-export const test = base.extend<{ stubBasemap: void }>({
+export const test = base.extend<{ stubBasemap: void; webkitDemDecode: void }>({
+  // Playwright's Linux WebKit crashes its page process at random while MapLibre decodes elevation tiles in a worker (an ImageBitmap handed to an
+  // OffscreenCanvas there): about one 3D test in three died. Without OffscreenCanvas MapLibre decodes them on the page instead, which never crashed
+  // in 16 runs, so the iPhone tests still cover hillshade and terrain.
+  webkitDemDecode: [
+    async ({ page, browserName }, use) => {
+      if (browserName === 'webkit') await page.addInitScript(() => delete (window as { OffscreenCanvas?: unknown }).OffscreenCanvas)
+      await use()
+    },
+    { auto: true },
+  ],
   stubBasemap: [
     async ({ page }, use) => {
       await page.route('https://tiles.openfreemap.org/**', (route) => {
