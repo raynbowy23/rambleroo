@@ -1,26 +1,38 @@
 {
   "id": "millen-jenkins-county-scenic-byway-2335",
-  "tagline": "A farm loop out of a town once called 79.",
+  "tagline": "Railroad depots, farm country and a prison site beside the springs",
   "intro": [
-    "The loop starts among the early-1900s railroad depots of downtown Millen and heads out on State Route 23 and Perkins Green Fork Road, past woodland, pasture and old farmhouses in small scattered communities. Herndon Road brings a few historic churches. State Route 17 comes home across open farmland that runs on for miles.",
-    "Millen was settled in 1835 under the name \"79\", its rough distance in miles from Savannah. When two railroads met here in 1854 it took the name of a railway superintendent instead."
+    "The Millen-Jenkins County Scenic Byway makes a 35-mile loop from downtown Millen through woodland, pasture and scattered farm communities. Georgia DOT includes it among the state’s designated scenic byways, highlighting historic farmhouses, churches and the open farmland along SR 17. On SR 23 and Perkins Green Fork Road, woods and pasture share the route with old farmhouses; Herndon Road brings historic churches into the drive.",
+    "The loop’s starting point grew at a railroad connection: in 1854, the Central of Georgia Railway and the Georgia Railroad met at the settlement then called 79. The town became Millen’s Junction, taking the name of Central of Georgia superintendent McPherson B. Millen. Union soldiers destroyed the junction during the Civil War, and the town was rebuilt afterward. The downtown depots date from the early 1900s. The nearby railroad and drinking water from Magnolia Springs also made the area a site for a Confederate prison.",
+    "Begin in the Downtown Millen Historic District, follow SR 23 and Perkins Green Fork Road toward the loop’s northern reach, then continue by Herndon Road and return on SR 17 to Cotton Avenue. Near Perkins, Big Buckhead Church Road marks the loop’s northernmost point. Magnolia Springs State Park is a separate excursion, three miles from the SR 17 and US 25 intersection."
   ],
   "moments": [
     {
       "title": "Downtown Millen",
       "kind": "town",
       "scene": "town",
-      "text": "The railroad depots downtown date from the early 1900s, long after Sherman's march came through on December 3, 1864, and Union soldiers destroyed the junction.",
+      "text": "Downtown Millen’s railroad depots date from the early 1900s. Union soldiers destroyed the railway junction in 1864; the town was rebuilt after the war. In 1905, Millen became the seat of newly created Jenkins County. The county courthouse followed in 1910, designed by L.F. Goodrich in the Neoclassical Revival style. Its three stories rise to a copper-domed clock tower, with plain and fluted columns set on high bases. The downtown historic district entered the National Register in 1996, when its inventory included 44 contributing buildings, four structures and two objects.",
       "at": [
         -81.94,
         32.802
       ]
     },
     {
+      "title": "Carswell Grove Baptist Church and Cemetery",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "Carswell Grove’s congregation meets in a building constructed in 2008 beside the site of its lost historic church. After emancipation, Black worshippers who had occupied segregated pews at nearby Big Buckhead Baptist Church formed a separate congregation on land given by Porter W. Carswell. Their original church was the first of seven Black churches burned during the Jenkins County violence of 1919. A replacement built that year was itself destroyed by arson in 2014. The cemetery dates to around 1870, when the first church was built, and extends along the church site’s rear and sides.",
+      "at": [
+        -82.02361111,
+        32.90222222
+      ]
+    },
+    {
       "title": "Camp Lawton at Magnolia Springs",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Springs running some 7 million gallons a day drew a Confederate prison stockade here in 1864, and it held over 10,000 Union soldiers for barely six weeks before Sherman's advance emptied it.",
+      "text": "Magnolia Springs supplied water for Camp Lawton, a Confederate prison for Union soldiers established in 1864. Enslaved laborers and Union prisoners built the stockade from pine cut on the site. It opened in October and was evacuated within six weeks as Sherman’s army advanced. Little of the stockade remains, but the earthen breastworks are visible. Archaeologists uncovered the stockade wall and soldiers’ personal articles in 2010; artifacts are displayed in the park’s Camp Lawton museum. The spring flows seven million gallons a day, and a boardwalk spans the water where visitors can look for turtles and alligators.",
+      "notice": "A boardwalk crosses the spring water; the prison’s earthen breastworks remain visible.",
       "at": [
         -81.956,
         32.887
@@ -29,26 +41,33 @@
   ],
   "sources": [
     {
-      "label": "Georgia DOT, Scenic Byways",
+      "label": "Georgia Department of Transportation, Scenic Byways",
       "url": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
     },
     {
+      "label": "Georgia Department of Natural Resources, Magnolia Springs State Park",
+      "url": "https://gastateparks.org/MagnoliaSprings"
+    },
+    {
       "label": "Wikipedia, Millen, Georgia",
-      "url": "https://en.wikipedia.org/wiki/Millen,_Georgia"
+      "url": "https://en.wikipedia.org/wiki/Millen%2C_Georgia"
+    },
+    {
+      "label": "Wikipedia, Jenkins County Courthouse",
+      "url": "https://en.wikipedia.org/wiki/Jenkins_County_Courthouse"
     },
     {
       "label": "Wikipedia, Downtown Millen Historic District",
       "url": "https://en.wikipedia.org/wiki/Downtown_Millen_Historic_District"
     },
     {
-      "label": "Wikipedia, Magnolia Springs State Park",
-      "url": "https://en.wikipedia.org/wiki/Magnolia_Springs_State_Park"
+      "label": "Wikipedia, Carswell Grove Baptist Church and Cemetery",
+      "url": "https://en.wikipedia.org/wiki/Carswell_Grove_Baptist_Church_and_Cemetery"
     },
     {
       "label": "Wikipedia, Camp Lawton (Georgia)",
-      "url": "https://en.wikipedia.org/wiki/Camp_Lawton_(Georgia)"
+      "url": "https://en.wikipedia.org/wiki/Camp_Lawton_%28Georgia%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

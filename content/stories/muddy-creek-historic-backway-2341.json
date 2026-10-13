@@ -1,50 +1,41 @@
 {
   "id": "muddy-creek-historic-backway-2341",
-  "tagline": "The railroad left; the charcoal kilns remained.",
+  "tagline": "A railroad bypass left Piedmont behind, with its charcoal kilns surviving.",
   "intro": [
-    "From Fort Bridger the backway takes gravel county roads south and west to Muddy Creek, one of the famous camps of the western migration. The water was good and the bunchgrass grew tall, and some 70,000 Mormon pioneers crossed, passed through or camped here. A stage stop and a Pony Express station followed.",
-    "Piedmont, at the end, cut ties and burned charcoal for the railroad until the Union Pacific bored a tunnel through Aspen Mountain and rerouted the line several miles away. The road ends at the ghost town, where three beehive kilns of local sandstone have outlasted it."
+    "Muddy Creek Historic Backway connects Fort Bridger, Muddy Creek and the ghost town of Piedmont by back roads. The Wyoming Office of Tourism describes a 25-mile historic route centered on western migration, with a former campsite and surviving charcoal kilns. Its branching route includes a return leg from Piedmont to the junction leading toward I-80 Exit 24.",
+    "Water and tall bunchgrass made Muddy Creek a campsite for westward travelers and their animals. The transcontinental railroad passed through in 1869. At Piedmont, helper engines needed wood and water to work a steep railroad grade, bringing railroad families into town. Later, the Aspen tunnel eliminated that winding climb; the new line bypassed Piedmont by several miles, and the town declined.",
+    "For an eastbound journey, begin with Piedmont and its sandstone kilns, then retrace the branch north before turning east toward Fort Bridger. Muddy Creek marks the corridor used by emigrant companies, a stage stop and a Pony Express station. Finish in Fort Bridger, where the historic site includes a reconstructed trading post."
   ],
   "moments": [
     {
-      "title": "Fort Bridger",
-      "kind": "town",
+      "title": "Piedmont Charcoal Kilns",
+      "kind": "short walk",
       "scene": "town",
-      "text": "The backway starts on WY 219 in the town that took its name from Jim Bridger's trading post.",
+      "text": "Three beehive-shaped sandstone kilns survive at Piedmont. Moses Byrne built five here; two have since been destroyed. Most of his charcoal went to small smelters and blacksmith shops in the Salt Lake Valley. The surviving kilns have walls 24 inches thick and rise about 30 feet. They entered the National Register of Historic Places in 1971 and are managed by Wyoming as a state historic site. Byrne also built Pony Express stations and stables.",
+      "notice": "Look for the three beehive-shaped kilns built from local sandstone.",
       "at": [
-        -110.38638889,
-        41.31861111
+        -110.61861111,
+        41.21972222
       ]
     },
     {
       "title": "Muddy Creek",
       "kind": "roadside",
       "scene": "river",
-      "text": "Brigham Young's first company of Mormon pioneers used this campsite in the summer of 1847, and 2,000 army men camped here in June 1858."
+      "text": "Good water and tall bunchgrass made this a useful place to feed animals during westward journeys. Brigham Young's first group of Mormon pioneers used Muddy Creek in the summer of 1847. In June 1858, 2,000 U.S. Army men camped here. The site also held the Muddy Overland Stage Stop and a Pony Express station. In 1869, the original transcontinental railroad bed passed through."
     },
     {
-      "title": "Piedmont Charcoal Kilns",
-      "kind": "short walk",
+      "title": "Fort Bridger",
+      "kind": "town",
       "scene": "town",
-      "text": "Moses Byrne built five kilns here to make charcoal for smelters and blacksmith shops in the Salt Lake Valley; three still stand, about 30 feet high.",
+      "text": "The trading post at Fort Bridger is a reconstruction. The original establishment of Jim Bridger and Louis Vasquez supplied travelers on the Oregon Trail and served as a trading place with local Native Americans. Its modest arrangement consisted of two log cabins connected by a fence that held horses. Travelers also used its blacksmith shop. By 1858, the fort had become a military outpost. The historic site now includes the reconstructed trading post and a museum.",
       "at": [
-        -110.61861111,
-        41.21972222
+        -110.38638889,
+        41.31861111
       ]
     }
   ],
-  "practical": [
-    "The roads are gravel and may not suit travel in adverse weather; the remains of Piedmont are on private property, while the kilns are a state historic site."
-  ],
   "sources": [
-    {
-      "label": "Wyoming Office of Tourism, Muddy Creek Historic Backway",
-      "url": "https://travelwyoming.com/listing/muddy-creek-historic-backway/793/"
-    },
-    {
-      "label": "Wikipedia, Fort Bridger, Wyoming",
-      "url": "https://en.wikipedia.org/wiki/Fort_Bridger%2C_Wyoming"
-    },
     {
       "label": "Wikipedia, Piedmont, Wyoming",
       "url": "https://en.wikipedia.org/wiki/Piedmont%2C_Wyoming"
@@ -54,10 +45,13 @@
       "url": "https://en.wikipedia.org/wiki/Piedmont_Charcoal_Kilns_State_Historic_Site"
     },
     {
-      "label": "Wyoming Office of Tourism, Wyoming Scenic Byways brochure (PDF)",
-      "url": "https://nsbfoundation.com/wp-content/uploads/2023/08/Wyoming-Scenic-Byways-brochure.pdf"
+      "label": "Wyoming Office of Tourism, Muddy Creek Historic Backway",
+      "url": "https://travelwyoming.com/listing/muddy-creek-historic-backway/793/"
+    },
+    {
+      "label": "Wikipedia, Fort Bridger, Wyoming",
+      "url": "https://en.wikipedia.org/wiki/Fort_Bridger%2C_Wyoming"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

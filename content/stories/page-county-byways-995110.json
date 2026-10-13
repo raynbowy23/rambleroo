@@ -1,16 +1,17 @@
 {
   "id": "page-county-byways-995110",
-  "tagline": "Over Massanutten, across the South Fork, up into the Blue Ridge.",
+  "tagline": "Two mountain gaps frame a river crossing and Luray’s caverns",
   "intro": [
-    "The Page Valley is the valley of the South Fork of the Shenandoah, between Massanutten Mountain and the Blue Ridge. US 211 comes over Massanutten at New Market Gap, crosses the South Fork at Whitehouse Landing, skirts Luray, and climbs into Shenandoah National Park to Thornton Gap.",
-    "US 340 runs the length of the county, from the Rockingham line past Luray and through Big Spring to Overall, and back roads keep company with the river, Egypt Bend Road and River Road among them. Another, Bixlers Ferry and Fort Valley roads, heads out of Luray toward Camp Roosevelt."
+    "US 211 crosses Page County between Massanutten Mountain and the Blue Ridge, climbing through New Market Gap and Thornton Gap. On both mountain crossings, the highway gives ascending traffic two lanes and descending traffic one. Between them lies the Page Valley, with the South Fork Shenandoah River running between the two ranges. US 340 runs along the valley, crossing the South Fork near Grove Hill before joining US 211; north of Luray it continues through Big Spring and Rileyville toward Overall.",
+    "The eastern crossing carried a road long before it carried a U.S. route number. The privately owned Thornton’s Gap Turnpike Company opened its toll road in 1806. In 1922, Virginia extended State Route 21 west through Luray to New Market; the US 211 designation followed in 1926. The numbered highway now meets Skyline Drive at Thornton Gap.",
+    "For a west-to-east crossing, come over New Market Gap and join US 340 at Intersections. Cross the South Fork at Whitehouse Landing, then pass Luray Caverns on the west side of Luray. The main highway bypasses town to the north, while US 211 Business follows Main Street. Continue east into Shenandoah National Park for the climb to Thornton Gap."
   ],
   "moments": [
     {
       "title": "New Market Gap",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "US 211 takes a curving climb, two lanes up and one down, to this 1,804-foot wind gap at the middle of Massanutten Mountain.",
+      "text": "At 1,804 feet, New Market Gap divides Massanutten Mountain into northern and southern sections. US 211 uses this wind gap to connect New Market in the Shenandoah Valley with Luray in the Page Valley. The road curves across the mountain with two lanes uphill and one downhill. North of the gap, three roughly parallel ridges enclose Fort Valley and Little Fort Valley, then converge here. The Massanutten Visitor Center lies off US 211 in the gap. South of the gap, closely grouped ridges are separated by steep creek gorges, a different arrangement from the valleys enclosed to the north.",
       "at": [
         -78.6122367,
         38.6428967
@@ -18,9 +19,10 @@
     },
     {
       "title": "Luray Caverns",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Five local men dug their way inside in August 1878 after noticing cool air rising from a sinkhole, and a lithophone called the Great Stalacpipe Organ now plays its stalactites.",
+      "text": "The Great Stalacpipe Organ makes an instrument of the cave itself: electrically operated strikers tap stalactites of different sizes to produce musical tones. Five local men entered the caverns on August 13, 1878, after a limestone outcrop and cool air issuing from a sinkhole drew their attention. They dug an opening through which Andrew and Quint Campbell could squeeze, then descend on a rope. Columns, flowstone and pools are among the cave’s formations. At Dream Lake, stalactites reflected in the water appear to rise from beneath it. Flowstone draperies occur throughout the cavern, including the formation called Saracen’s Tent.",
+      "notice": "Dream Lake reflects stalactites, making them look like stalagmites beneath the water.",
       "at": [
         -78.48380556,
         38.66430556
@@ -30,7 +32,7 @@
       "title": "Thornton Gap",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "A toll road crossed the Blue Ridge here from 1806, and a town called Beahm stood at the gap until the national park and the Skyline Drive arrived.",
+      "text": "Thornton Gap carries US 211 across the Blue Ridge at the Page–Rappahannock county boundary. The Thornton’s Gap Turnpike Company was formed to build a road over the mountains here, opening its toll road in 1806. Beahm occupied the gap before Shenandoah National Park and Skyline Drive were built during the Great Depression. The community included farms, homesteads, cemeteries and a mill. The gap now connects US 211 with Skyline Drive, and the Appalachian Trail also passes through. Skyline Drive generally follows the mountain ridge tops through the park, while US 211 continues east toward Sperryville beside the Thornton River.",
       "at": [
         -78.32,
         38.66111
@@ -39,30 +41,33 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
-    {
       "label": "Wikipedia, U.S. Route 211",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_211"
     },
     {
-      "label": "Wikipedia, U.S. Route 340 in Virginia",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_340_in_Virginia"
+      "label": "Wikipedia, U.S. Route 340",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_340"
+    },
+    {
+      "label": "Wikipedia, Thornton Gap",
+      "url": "https://en.wikipedia.org/wiki/Thornton_Gap"
     },
     {
       "label": "Wikipedia, New Market Gap",
       "url": "https://en.wikipedia.org/wiki/New_Market_Gap"
     },
     {
+      "label": "Wikipedia, Massanutten Mountain",
+      "url": "https://en.wikipedia.org/wiki/Massanutten_Mountain"
+    },
+    {
       "label": "Wikipedia, Luray Caverns",
       "url": "https://en.wikipedia.org/wiki/Luray_Caverns"
     },
     {
-      "label": "Wikipedia, Thornton Gap",
-      "url": "https://en.wikipedia.org/wiki/Thornton_Gap"
+      "label": "Wikipedia, Beahm, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Beahm%2C_Virginia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

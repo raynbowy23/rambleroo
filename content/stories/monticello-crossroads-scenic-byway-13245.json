@@ -1,16 +1,17 @@
 {
   "id": "monticello-crossroads-scenic-byway-13245",
-  "tagline": "Two old roads out of Monticello, through pine and pasture.",
+  "tagline": "Two old travel corridors meet amid Jasper County’s pine forests and pastures.",
   "intro": [
-    "Two state highways, SR 11 and SR 83, fan out north from Monticello, and between them they make 29 miles of Jasper County pine forest and rolling pasture to the county line.",
-    "They are old roads. Native Americans and Methodist circuit riders used them, and Highway 83 was part of the Seven Island Stage Coach Road, which ran from Augusta to New Orleans and the Natchez Trace. Monticello itself was founded in 1808 as the new county's seat and named for Thomas Jefferson's estate."
+    "Pine forests and rolling pastures frame the Monticello Crossroads Scenic Byway, a 29-mile drive along sections of State Routes 11 and 83 in Jasper County. Georgia DOT designates it a Georgia Scenic Byway and highlights the area’s rural and historic character. The two branches meet in Monticello; SR 11 winds northwest from town, while SR 83 heads northeast toward Shady Dale.",
+    "These routes carried Native Americans and Methodist circuit riders before their present highway identity. Highway 83 formed part of the Seven Island Stage Coach Road, which ran from Augusta to New Orleans and the Natchez Trace. Monticello became the county seat in 1808, and its central business district is now listed on the National Register of Historic Places. Named for Thomas Jefferson’s estate, Monticello was incorporated as a town in 1810.",
+    "For a drive through both branches, begin at the Newton County line and follow SR 11 south through Eudora toward Monticello’s square. The Charlie Elliott Wildlife Center near Mansfield provides a separate excursion among forests, lakes and fields. In Monticello, the crossroads also brings these two highways together with State Routes 16 and 212. From the square, take SR 83 northeast through Shady Dale to the Morgan County line."
   ],
   "moments": [
     {
       "title": "Charlie Elliott Wildlife Center",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Near Mansfield the state manages 6,400 acres of forest, lakes and fields, with 22 public fishing lakes and ponds and a short hiking trail named for Murder Creek.",
+      "text": "Forests, lakes and fields share 6,400 acres at the Charlie Elliott Wildlife Center near Mansfield, managed by Georgia’s Department of Natural Resources. Within it, Marben Public Fishing Area contains 22 lakes and ponds, ranging from one to 96 acres. The center also includes Clybel Wildlife Management Area, where mowing, prescribed burning, timber harvesting and food-plot rotation support multiple animal species. Walking routes include the 1.1-mile Granite Outcrop Trail and the 0.9-mile Murder Creek Trail. The preserve’s name honors Charles Newton Elliott, while Marben takes its name from Margery and Bennet O’Boyle.",
       "at": [
         -83.731761,
         33.461189
@@ -20,7 +21,7 @@
       "title": "Jasper County Courthouse",
       "kind": "town",
       "scene": "town",
-      "text": "Monticello's courthouse of 1907, the county's third, stood in for the courthouse in the exterior shots of My Cousin Vinny.",
+      "text": "Monticello’s courthouse has a second identity on film: its exterior appears as the courthouse in the 1992 movie My Cousin Vinny. The building dates to 1907 and is Jasper County’s third courthouse. It entered the National Register of Historic Places in 1980.",
       "at": [
         -83.68361111,
         33.30472222
@@ -30,7 +31,7 @@
       "title": "Shady Dale",
       "kind": "town",
       "scene": "town",
-      "text": "Out SR 83, where it meets SR 142, a town founded about 1880 on the site of a Creek settlement took a name that simply described the place.",
+      "text": "State Routes 83 and 142 meet in the center of Shady Dale. The town was founded circa 1880 on the site of a former Creek Indian settlement; the Georgia General Assembly incorporated it in 1889. Beyond town, the byway continues northeast on SR 83 to the Morgan County line.",
       "at": [
         -83.59,
         33.39944444
@@ -39,26 +40,29 @@
   ],
   "sources": [
     {
-      "label": "Georgia DOT, Scenic Byways",
+      "label": "Georgia Department of Transportation, Scenic Byways",
       "url": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
     },
     {
+      "label": "Wikipedia, Monticello Crossroads Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Monticello_Crossroads_Scenic_Byway"
+    },
+    {
       "label": "Wikipedia, Monticello, Georgia",
-      "url": "https://en.wikipedia.org/wiki/Monticello,_Georgia"
-    },
-    {
-      "label": "Wikipedia, Jasper County Courthouse (Georgia)",
-      "url": "https://en.wikipedia.org/wiki/Jasper_County_Courthouse_(Georgia)"
-    },
-    {
-      "label": "Wikipedia, Shady Dale, Georgia",
-      "url": "https://en.wikipedia.org/wiki/Shady_Dale,_Georgia"
+      "url": "https://en.wikipedia.org/wiki/Monticello%2C_Georgia"
     },
     {
       "label": "Wikipedia, Charlie Elliott Wildlife Center",
       "url": "https://en.wikipedia.org/wiki/Charlie_Elliott_Wildlife_Center"
+    },
+    {
+      "label": "Wikipedia, Jasper County Courthouse (Georgia)",
+      "url": "https://en.wikipedia.org/wiki/Jasper_County_Courthouse_%28Georgia%29"
+    },
+    {
+      "label": "Wikipedia, Shady Dale, Georgia",
+      "url": "https://en.wikipedia.org/wiki/Shady_Dale%2C_Georgia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

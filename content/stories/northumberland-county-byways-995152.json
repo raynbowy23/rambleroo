@@ -1,35 +1,26 @@
 {
   "id": "northumberland-county-byways-995152",
-  "tagline": "Down the necks of the Northern Neck, with a ferry crossing.",
+  "tagline": "A ferry crosses the Little Wicomico; menhaden shaped Reedville’s waterfront.",
   "motifs": [
     "harbor-village"
   ],
   "intro": [
-    "The lower Northern Neck runs out into the Chesapeake in necks and points, and several of these byways are roads down them, to Hughlett Point, out Bluff Point Neck and to Ditchley. One, laid out in 1992, runs from US 360 near Avalon as close to the Potomac as it can without doubling back. On the way it comes to the Little Wicomico River, and there the road goes onto a ferry. It ends at Reedville.",
-    "Reedville was built on a small oily fish. A sea captain from Maine came down in 1874 to render menhaden for oil by the millions, and the town of about 500 was once called the wealthiest in the country."
+    "On Northumberland County’s byways, Route 644 crosses the Little Wicomico River by ferry. The river is mostly tidal and meets the Chesapeake Bay at the Potomac’s southern shore. Virginia’s byway designation identifies scenic roads that introduce travelers to alternative destinations.",
+    "The ferry connection has its own interruptions and repairs. After service stopped in summer 2020, the Sunnybank vessel went into dry dock for cleaning and maintenance. New loading ramps were installed before service resumed that December.",
+    "Follow the documented ferry segment from Route 645 north of Ganyon, across the Little Wicomico, to Route 652 east of Beverlyville. Reedville stands at US 360’s eastern end on Cockrell’s Creek, with Victorian mansions built from fishing wealth. For a separate coastal excursion, Hughlett Point preserves wetlands, dunes, forest and undeveloped beach."
   ],
   "moments": [
-    {
-      "title": "Hughlett Point Natural Area Preserve",
-      "kind": "short walk",
-      "scene": "coast",
-      "text": "At the end of Balls Neck Road, trails and a boardwalk cross a preserve of wetland, dunes, upland forest and undeveloped beach, a staging ground for migrating birds.",
-      "at": [
-        -76.3121,
-        37.738
-      ]
-    },
     {
       "title": "Sunnybank Ferry",
       "kind": "roadside",
       "scene": "river",
-      "text": "SR 644 crosses the Little Wicomico, a nine-mile, mostly tidal river, on a small cable-guided ferry that VDOT runs free of charge."
+      "text": "At Sunnybank, the road connection across the Little Wicomico depends on a cable-guided ferry. It links Sunny Bank and Ferry roads across a river that is mostly tidal. In July 2020, VDOT took Sunnybank and Merry Point out of service ahead of expected bad weather. Sunnybank’s suspension continued through a maintenance project; its December return followed dry-dock work and the installation of new vehicle ramps. The river runs nine miles to the Chesapeake Bay. VDOT’s byway record includes the ferry crossing between Route 645 and Route 652."
     },
     {
       "title": "Reedville",
       "kind": "town",
       "scene": "coast",
-      "text": "At the head of Cockrell's Creek, menhaden captains and factory owners built the Victorian mansions of Millionaire's Row along what is now Main Street, and the boats still land their catch here.",
+      "text": "Menhaden paid for Reedville’s Main Street houses. Captain Elijah W. Reed arrived from Maine in 1874 and brought a method of rendering the fish in large quantities for oil. The oil served lighting and lubrication; bones and carcasses became fertilizer. The town remains a landing place for the fish: Omega Protein runs vessels from Reedville and brings much of its catch here. The historic district includes five modified Queen Anne houses known as Millionaires Row, a tangible result of the menhaden industry. The Reedville Fishermen’s Museum preserves the town’s watermen’s heritage and includes the restored Walker House, the community’s oldest home.",
       "at": [
         -76.27583333,
         37.84194444
@@ -37,45 +28,54 @@
       "motifs": [
         "harbor-village"
       ]
+    },
+    {
+      "title": "Hughlett Point Natural Area Preserve",
+      "kind": "separate excursion",
+      "scene": "coast",
+      "text": "Hughlett Point protects 204 acres of habitat, from tidal and non-tidal wetlands to dunes, upland forest and undeveloped beaches. It provides a staging area for migrating birds and habitat for the northeastern beach tiger beetle and other rare invertebrates. Trails, a boardwalk and a viewing platform form part of the preserve’s visitor facilities. Some shoreline areas have seasonal access restrictions to protect shorebirds and other sensitive species. The Virginia Department of Conservation and Recreation owns and maintains the preserve. Educational signs accompany the trails and viewing facilities through these protected habitats.",
+      "at": [
+        -76.3121,
+        37.738
+      ]
     }
   ],
   "practical": [
-    "The Sunnybank Ferry is a small cable-guided boat, and 511Virginia posts whether it is running."
+    "Sunnybank Ferry: Check 511Virginia for ferry operating status before setting out. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
-    {
-      "label": "VDOT, Virginia Byways layer (Byways_022024), Sunnybank Ferry segment (query)",
+      "label": "Virginia Department of Transportation, Byways layer: Sunnybank Ferry segment",
       "url": "https://services.arcgis.com/p5v98VHDX9Atv3l7/arcgis/rest/services/Byways_022024/FeatureServer/0/query?where=LAD_SCEN_2+like+%27%25Sunnybank%25%27&outFields=RTE_COMMON%2CLAD_SCEN_2%2CLAD_SOURCE&returnGeometry=false&f=pjson"
     },
     {
-      "label": "Wikipedia, Hughlett Point Natural Area Preserve",
-      "url": "https://en.wikipedia.org/wiki/Hughlett_Point_Natural_Area_Preserve"
+      "label": "Wikipedia, Reedville, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Reedville%2C_Virginia"
     },
     {
       "label": "Wikipedia, Little Wicomico River",
       "url": "https://en.wikipedia.org/wiki/Little_Wicomico_River"
     },
     {
-      "label": "Wikipedia, Reedville, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Reedville,_Virginia"
+      "label": "Wikipedia, List of Virginia Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
     },
     {
-      "label": "Wikipedia, Transportation in Virginia",
-      "url": "https://en.wikipedia.org/wiki/Transportation_in_Virginia"
+      "label": "Rappahannock Record, Sunnybank Ferry resumes operations",
+      "url": "https://rrecord.com/sunnybank-ferry-resumes-operations/"
+    },
+    {
+      "label": "Wikipedia, Hughlett Point Natural Area Preserve",
+      "url": "https://en.wikipedia.org/wiki/Hughlett_Point_Natural_Area_Preserve"
     },
     {
       "label": "Rappahannock Record, Northern Neck ferries secured ahead of storms",
       "url": "https://rrecord.com/northern-neck-ferries-secured-ahead-of-storms/"
     },
     {
-      "label": "Rappahannock Record, Sunnybank Ferry resumes operations",
-      "url": "https://rrecord.com/sunnybank-ferry-resumes-operations/"
+      "label": "Wikipedia, Reedville Historic District",
+      "url": "https://en.wikipedia.org/wiki/Reedville_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

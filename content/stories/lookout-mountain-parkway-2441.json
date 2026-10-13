@@ -1,20 +1,21 @@
 {
   "id": "lookout-mountain-parkway-2441",
-  "tagline": "Up Lookout Mountain, with a yard sale every August.",
+  "tagline": "Waterfalls and mountain towns line a parkway that joined the yard sale.",
   "motifs": [
     "waterfall-cove",
     "rolling-ridges"
   ],
   "intro": [
-    "The parkway starts in Gadsden and follows Lookout Mountain north toward Chattanooga, 93 miles across three states. In Alabama it passes farms and woodland, the deep gorge of Little River Canyon, DeSoto State Park and Mentone, a town on the crest at about 1,700 feet.",
-    "For four days from the first Thursday in August the road joins the World's Longest Yard Sale, which began on US 127 between Kentucky and Chattanooga. A few years in, the parkway was added, and the sale now runs south along the mountain as far as Gadsden."
+    "Lookout Mountain Parkway runs across three states from Gadsden, Alabama, to Chattanooga, Tennessee. The parkway association describes a 93-mile corridor of waterfalls, canyons, mountain-edge views and towns. Alabama includes its portion among the state’s scenic byways, highlighting farms, woodlands and Little River Canyon National Preserve.",
+    "The parkway later became the southern extension of a roadside event conceived elsewhere. Fentress County executive Mike Walker’s idea became the 127 Corridor Sale in 1987, initially following U.S. 127 between Covington, Kentucky, and Chattanooga. Adding Lookout Mountain Parkway carried the sale through northwestern Georgia and northeastern Alabama to Gadsden. The event is held for four days beginning on the first Thursday in August.",
+    "Northbound from Gadsden, Noccalula Falls introduces the mountain with a 90-foot drop into Black Creek’s ravine. The Alabama corridor leads toward DeSoto State Park and Mentone, where the town center occupies Lookout Mountain’s crest at 1,736 feet. This is a corridor assembled from several roads: the yard-sale extension uses Tabor Road out of Gadsden, Alabama 176 toward Dogtown and County Road 89 toward Mentone, before crossing into Georgia on Alabama 117. Beyond Mentone, the parkway’s yard-sale route follows roads through Georgia and over Lookout Mountain into Tennessee, finishing in downtown Chattanooga."
   ],
   "moments": [
     {
       "title": "Noccalula Falls",
       "kind": "short walk",
       "scene": "forest",
-      "text": "A 90-foot waterfall in Gadsden, with trails down Black Creek Gorge past caves, an old dam and Civil War carvings, and a covered bridge from 1899 in the park.",
+      "text": "Noccalula Falls drops 90 feet into Black Creek’s ravine at Gadsden. Trails through the gorge pass caves, an abandoned dam and Civil War carvings. Most of the park occupies land bought in 1909 by former mayor R. A. Mitchell, who intended it for a city park. The city acquired the land in 1946 after inheritor Sadie Mitchell Elmore offered it for sale. The park’s 1899 Gilliland-Reese Covered Bridge arrived in 1967 after restoration and relocation from its earlier creek crossing. Restoration removed most of the bridge’s Town Lattice truss, changing the structure to stringer construction.",
       "at": [
         -86.02128,
         34.04149
@@ -27,7 +28,7 @@
       "title": "DeSoto State Park",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Developed by the Civilian Conservation Corps in the 1930s beside the Little River, the park keeps DeSoto Falls, 104 feet and the state's highest, in a separate section to the north.",
+      "text": "DeSoto State Park’s Civilian Conservation Corps lodge and cabins connect the mountain landscape to a Depression-era building program. The corps developed the park in the 1930s; it was established as State Park No. 5 in 1935 and dedicated under its DeSoto name in 1939. Forest, rivers, waterfalls and mountain terrain fill its 3,502 acres. The Little River borders the park and flows onward into Little River Canyon National Preserve. DeSoto Falls drops 104 feet in a separate park section six miles north of the main park. A museum celebrating the corps’ work in Alabama’s state parks opened here in 2013.",
       "at": [
         -85.59,
         34.54833
@@ -40,7 +41,7 @@
       "title": "Mentone",
       "kind": "town",
       "scene": "mountain",
-      "text": "Named for Menton in France and home to an unusual number of summer camps, it was nearest the epicenter of a 2003 magnitude 4.6 earthquake that alarmed residents before dawn and injured no one.",
+      "text": "Mentone sits on Lookout Mountain’s crest, with its town center at 1,736 feet. The western boundary follows the mountain’s slopes beside Valley Head, while the West Fork of the Little River crosses the town’s eastern portion less than 100 feet below the ridgecrest. The community took its name from Menton in France and incorporated in 1935. A number of the summer camps near Mentone are private, and the town has hosted an unusually large number for years. South of the center, the ridge rises to 1,785 feet within the town limits.",
       "at": [
         -85.58028,
         34.57222
@@ -49,16 +50,24 @@
   ],
   "sources": [
     {
-      "label": "Lookout Mountain Parkway Association",
+      "label": "Lookout Mountain Parkway Association, Lookout Mountain Parkway",
       "url": "https://drivelookoutmountain.com/"
+    },
+    {
+      "label": "Wikipedia, 127 Corridor Sale",
+      "url": "https://en.wikipedia.org/wiki/127_Corridor_Sale"
     },
     {
       "label": "Alabama Byways, Lookout Mountain Parkway",
       "url": "https://alabamabyways.com/2012/08/25/lookout-mountain-parkway/"
     },
     {
-      "label": "Wikipedia, 127 Corridor Sale",
-      "url": "https://en.wikipedia.org/wiki/127_Corridor_Sale"
+      "label": "Wikipedia, Gilliland-Reese Covered Bridge",
+      "url": "https://en.wikipedia.org/wiki/Gilliland-Reese_Covered_Bridge"
+    },
+    {
+      "label": "Wikipedia, Mentone, Alabama",
+      "url": "https://en.wikipedia.org/wiki/Mentone%2C_Alabama"
     },
     {
       "label": "Wikipedia, Noccalula Falls Park",
@@ -67,12 +76,7 @@
     {
       "label": "Wikipedia, DeSoto State Park",
       "url": "https://en.wikipedia.org/wiki/DeSoto_State_Park"
-    },
-    {
-      "label": "Wikipedia, Mentone, Alabama",
-      "url": "https://en.wikipedia.org/wiki/Mentone,_Alabama"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

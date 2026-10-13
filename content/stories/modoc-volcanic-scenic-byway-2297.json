@@ -1,16 +1,17 @@
 {
   "id": "modoc-volcanic-scenic-byway-2297",
-  "tagline": "From a mill town on Mount Shasta's slope toward Tule Lake.",
+  "tagline": "From a former lumber town through volcanic country to Tule Lake.",
   "intro": [
-    "Out of McCloud on Mount Shasta’s southern slope, the Modoc Volcanic Scenic Byway takes Highway 89 and the road northeast toward Medicine Lake. McCloud was a lumber town in a very practical sense: its mill supplied electricity and steam heat to the houses as well as work.",
-    "Beyond Medicine Lake the route passes Lava Beds National Monument, where the Army kept its Modoc War command post, on the way to Tulelake, named for nearby Tule Lake. Snow closes the road around November."
+    "The Modoc Volcanic Scenic Byway runs from McCloud through volcanic country toward Medicine Lake, Lava Beds National Monument and Tule Lake. The Forest Service calls it the Modoc Volcanic National Scenic Byway and identifies sections of Highway 89 out of McCloud and a road northeast to Medicine Lake. Snow closes the route around November, depending on snowfall.",
+    "At McCloud, moving timber once depended on getting over the hills. A lumber mill established in 1892 failed because hauling lumber by oxen proved difficult. The McCloud River Railroad Company, founded in 1895, enabled lumber transport from the region. The later McCloud River Lumber Company mill supplied homes with electricity and steam heat as well as processing lumber.",
+    "Start at McCloud on Mount Shasta’s southern slope. The drive leads to Medicine Lake, then Lava Beds National Monument, before reaching Tule Lake. Nearby Tulelake takes its name from the lake."
   ],
   "moments": [
     {
       "title": "McCloud",
       "kind": "town",
       "scene": "mountain",
-      "text": "McCloud's company houses passed to private owners in 1965, and the mill that once heated and lit them last closed in 2002.",
+      "text": "In McCloud, the lumber mill once reached into the home: it supplied electricity and steam heat to the company town’s houses. The railroad company founded in 1895 had made it possible to transport lumber from this region. The mill was sold to U.S. Plywood in 1963, and the company homes passed to private owners in 1965. The McCloud Community Services District was formed to oversee utilities and public services. The mill closed in 1979, reopened the following year and closed again in 2002. McCloud occupies Mount Shasta’s southern slope, with part of its downtown listed on the National Register of Historic Places.",
       "at": [
         -122.13638889,
         41.25472222
@@ -20,7 +21,8 @@
       "title": "Guillem’s Graveyard",
       "kind": "separate excursion",
       "scene": "desert",
-      "text": "A marker in Lava Beds National Monument recalls the Army cemetery from the Modoc War, whose burials were later moved elsewhere.",
+      "text": "A National Park Service marker identifies the former military cemetery at Guillem’s Graveyard in Lava Beds National Monument. Camp Guillem served as the U.S. Army command post during the Modoc War of 1872–1873. Modoc people defended their land against Army troops. Soldiers killed in the war were buried here, then reburied at Fort Klamath or the Presidio of San Francisco. No bodies remain in the graveyard. The marker stands on Hill Road, one mile south of Rim Road.",
+      "notice": "The National Park Service marker marks a former cemetery whose burials were moved elsewhere.",
       "at": [
         -121.5569,
         41.824
@@ -30,7 +32,7 @@
       "title": "Tulelake",
       "kind": "town",
       "scene": "town",
-      "text": "Tulelake began with a public auction of town land in 1931, when more than a hundred lots sold.",
+      "text": "Tulelake’s first public land auction took place on April 15, 1931. More than 100 lots sold, at prices ranging from $65 to $350. Incorporation followed in 1937. The town takes its name from nearby Tule Lake and sits near the Siskiyou–Modoc county line, at the northwestern corner of the Great Basin and Range.",
       "at": [
         -121.47583333,
         41.95416667
@@ -38,30 +40,29 @@
     }
   ],
   "practical": [
-    "Snow usually closes the route around November, depending on snowfall; winter snow depths permit travel only by snowmobile or snow cat."
+    "McCloud: Snow closes this route around November, depending on snowfall. Snow depths prevent vehicle travel except by snowmobile or snow cat. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "USDA Forest Service, Modoc Volcanic National Scenic Byway",
-      "url": "https://www.fs.usda.gov/r05/shasta-trinity/recreation/modoc-volcanic-national-scenic-byway"
+      "label": "Wikipedia, Shasta–Trinity National Forest",
+      "url": "https://en.wikipedia.org/wiki/Shasta%E2%80%93Trinity_National_Forest"
     },
     {
       "label": "Wikipedia, McCloud, California",
       "url": "https://en.wikipedia.org/wiki/McCloud%2C_California"
     },
     {
-      "label": "Wikipedia, Guillem’s Graveyard",
-      "url": "https://en.wikipedia.org/wiki/Guillem%27s_Graveyard"
+      "label": "USDA Forest Service, Modoc Volcanic National Scenic Byway",
+      "url": "https://www.fs.usda.gov/r05/shasta-trinity/recreation/modoc-volcanic-national-scenic-byway"
     },
     {
       "label": "Wikipedia, Tulelake, California",
       "url": "https://en.wikipedia.org/wiki/Tulelake%2C_California"
     },
     {
-      "label": "Wikipedia, Shasta–Trinity National Forest",
-      "url": "https://en.wikipedia.org/wiki/Shasta%E2%80%93Trinity_National_Forest"
+      "label": "Wikipedia, Guillem’s Graveyard",
+      "url": "https://en.wikipedia.org/wiki/Guillem%27s_Graveyard"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

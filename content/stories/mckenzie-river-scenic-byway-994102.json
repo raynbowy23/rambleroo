@@ -1,17 +1,19 @@
 {
   "id": "mckenzie-river-scenic-byway-994102",
-  "tagline": "Up the McKenzie from the farm plains toward the firs.",
+  "tagline": "A riverside drive from Willamette Valley farmland to Cascade fir forests.",
   "intro": [
-    "OR 126 leaves the farm country east of Eugene and follows the McKenzie upstream toward the fir forests of the Cascades, zigzagging along the bank of a river known for its fly-fishing. Past Leaburg the river slows behind a dam into Leaburg Lake, and past Vida it runs wilder again, through boulder fields and Class III rapids.",
-    "The McKenzie drift boat came from this river in the 1930s, a dory built to run the rocky water and give an angler a steady place to stand and cast."
+    "The McKenzie River Scenic Byway zigzags along the river for 34 miles, linking Willamette Valley farmland with the fir forests of the Cascades. Travel Oregon presents it as a riverside scenic drive with fishing, covered bridges and access to the water, and gives a driving time of one to two hours.",
+    "Crossing the river once meant taking a ferry: in the 1800s, the Hendricks Ferryboat carried people, livestock and goods between its banks. In 1938, Lane County built Goodpasture Bridge for local families and commercial logging trucks. When traffic weakened the structure, the county chose restoration in 1987 instead of a new concrete crossing.",
+    "River travel also shaped a boat: the McKenzie drift boat originated here in the 1930s, designed for rocky water and a stable casting platform. In 2020, the Holiday Farm Fire spread down the valley and into wooded foothills along Oregon Route 126, destroying most structures in Blue River.",
+    "Traveling east, the broad farm plains near Walterville give way to Leaburg, where a dam slows the river into Leaburg Lake. At Vida, the river runs through boulder fields and Class III rapids. Continue through Nimrod and Finn Rock toward Blue River; the byway ends at its connection with the West Cascades Scenic Byway."
   ],
-  "season": "Travel Oregon lists it as a year-round drive.",
   "moments": [
     {
       "title": "Leaburg",
       "kind": "town",
       "scene": "river",
-      "text": "Upstream, Leaburg Dam diverts the river into a canal that runs about five miles above its natural level to spin the turbines of an Art Deco powerhouse.",
+      "text": "Leaburg’s powerhouse pairs water engineering with Art Deco design. Ellis F. Lawrence designed the building in 1929, and its sculpture draws on Greek mythology. The dam, built in 1928, diverts McKenzie River water into a canal and forms the 40-acre Leaburg Reservoir. For about five miles, the canal holds water above the river’s natural elevation, providing the height needed to turn the powerhouse turbines. The Leaburg-Walterville Hydroelectric Project is listed on the National Register of Historic Places, with bas-relief panels on its powerhouse and 100-foot roller gates at the dam.",
+      "notice": "Look for the powerhouse’s bas-relief panels and the dam’s roller gates.",
       "at": [
         -122.67694,
         44.10722
@@ -21,7 +23,8 @@
       "title": "Goodpasture Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "Built in 1938, the second longest covered bridge in Oregon still carries logging trucks, and the 2020 rumor that wildfire had destroyed it proved false.",
+      "text": "Ten Gothic-style louvered windows line each side of Goodpasture Bridge. They were built to admit light so drivers could see approaching traffic inside the long covered span. Lane County built the 165-foot bridge in 1938 for local families and logging trucks. Heavy timbers and iron or steel rods form its Howe truss system. After traffic weakened the bridge, the county chose restoration in 1987 rather than a bypass. The work renewed the structure, road surface and approaches, and added a turn lane from Oregon Route 126. Weatherboard siding shelters the timber truss from the weather.",
+      "notice": "The louvered windows were designed to help drivers see oncoming traffic.",
       "at": [
         -122.5875,
         44.14806
@@ -31,7 +34,8 @@
       "title": "Finn Rock",
       "kind": "roadside",
       "scene": "forest",
-      "text": "The rock looks like a shark's fin but is named for Ben Finn, known as the biggest liar on the McKenzie, who claimed he was the model for Huckleberry Finn.",
+      "text": "The rock beside Route 126 resembles a shark’s fin, but Finn Rock takes its name from a person: early settler Benjamin Franklin Finn. The former logging community stands between Nimrod and Blue River, beside the McKenzie in the Willamette National Forest. Finn claimed to have inspired Mark Twain’s Huckleberry Finn. His claim belongs to the place’s story, but the visible namesake is the formation near the mouth of Finn Creek.",
+      "notice": "The roadside formation resembles a shark’s fin.",
       "at": [
         -122.38278,
         44.12889
@@ -44,18 +48,21 @@
       "url": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/mckenzie-river-scenic-byway/"
     },
     {
-      "label": "Wikipedia, Leaburg, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Leaburg,_Oregon"
-    },
-    {
       "label": "Wikipedia, Goodpasture Bridge",
       "url": "https://en.wikipedia.org/wiki/Goodpasture_Bridge"
     },
     {
+      "label": "Wikipedia, Holiday Farm Fire",
+      "url": "https://en.wikipedia.org/wiki/Holiday_Farm_Fire"
+    },
+    {
       "label": "Wikipedia, Finn Rock, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Finn_Rock,_Oregon"
+      "url": "https://en.wikipedia.org/wiki/Finn_Rock%2C_Oregon"
+    },
+    {
+      "label": "Wikipedia, Leaburg, Oregon",
+      "url": "https://en.wikipedia.org/wiki/Leaburg%2C_Oregon"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

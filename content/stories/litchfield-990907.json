@@ -1,19 +1,20 @@
 {
   "id": "litchfield-990907",
-  "tagline": "Out of the town that melted a king into bullets.",
+  "tagline": "Roads meet at a former pasture, then reach a knife-making village.",
   "motifs": [
     "steeple-town"
   ],
   "intro": [
-    "Route 63 comes up from the Morris line to Litchfield's green, where US 202 crosses, and carries on north out of town. Route 118 leaves the green eastward, crosses the Bantam River, and meets Route 254, which runs off southeast to the village of Northfield. Each stays scenic for a few miles.",
-    "The green began in 1720 as common pasture, with the first meetinghouse on it by 1723 and the county courthouse by 1751. The grazing ended after the Revolution, the ground served for military parades, and in 1836 the town made it a park."
+    "Litchfield’s scenic roads meet at a green framed by a district of Georgian buildings with clapboard walls, gables and hipped roofs. Routes 202 and 63 cross at the green; Route 118 leaves eastward, crossing the Bantam River before meeting Route 254 toward Northfield. Connecticut designates scenic sections of Routes 118 and 254 here. The Route 118 scenic section extends 2.8 miles from the green toward East Litchfield; Route 254’s designated stretch reaches Camp Hill Road in Northfield.",
+    "The eastward road has a turnpike ancestry: the Litchfield and Harwinton Turnpike company received its charter in 1798 to improve and maintain the connection through Litchfield, Harwinton and Burlington. Its alignment used what is now Route 118. A later highway realignment left East Litchfield Road as the old alignment, and the present Route 118 number arrived in 1966. The Thomaston-Northfield-Litchfield road acquired the Route 254 number in 1963, replacing its earlier unsigned state-road designation.",
+    "Approach the center from the Morris line on Route 63, then take Route 118 east from the green. At Route 254, the journey turns toward Northfield in southeastern Litchfield. There, Northfield Pond and Knife Shop Dam belong to Humaston Brook State Park, with the knife factory’s foundations surviving nearby."
   ],
   "moments": [
     {
       "title": "Tapping Reeve House and Law School",
       "kind": "short walk",
       "scene": "town",
-      "text": "On South Street stands the one-room school Tapping Reeve built beside his house in 1784, which taught more than 1,100 students, Aaron Burr and John C. Calhoun among them.",
+      "text": "Legal education here outgrew a downstairs parlor. Tapping Reeve began teaching in 1774; rising demand led him to build a separate, one-room school beside his South Street house in 1784. Students lodged with town residents and came to the house for morning lectures on common law. Lectures ranged across property, contracts, evidence and crimes, covering the whole body of law. Before closing in 1833, the school educated more than 1,100 students, including Aaron Burr and John C. Calhoun. The Litchfield Historical Society operates the house and school as a museum of nineteenth-century school life.",
       "at": [
         -73.18851,
         41.74395
@@ -23,7 +24,7 @@
       "title": "Litchfield",
       "kind": "town",
       "scene": "town",
-      "text": "In 1776 a lead statue of George III, pulled down in New York, was hauled here and melted into bullets in Oliver Wolcott's house by his daughter and sister.",
+      "text": "The town green began as shared pasture in 1720, with a meetinghouse added in 1723. A schoolhouse followed in 1732, then a courthouse in 1751 as Litchfield became the new county’s seat. After the Revolution, grazing gave way to military parades; in 1836 the town designated the green as a park. During the Civil War, the green served as a recruiting center and a place to welcome returning soldiers. The meetinghouse anchoring the historic district dates to 1829, a later building than the green’s first meetinghouse. Clapboard walls, gables and hipped roofs define the district’s predominantly Georgian architecture.",
       "at": [
         -73.18972,
         41.74722
@@ -35,8 +36,8 @@
     {
       "title": "Northfield",
       "kind": "town",
-      "scene": "town",
-      "text": "The Northfield Knife Company worked here from 1858 to 1926, and its foundations still sit across the street from Knife Shop Dam.",
+      "scene": "river",
+      "text": "Knife Shop Dam began with another trade: carriage making. Humaston Brook was dammed for that work in 1854, and J. Howard Catlin and his brother Franklin bought the factory and water rights in 1858 for their knife company. The company’s knives appeared at world fairs between 1876 and 1901, reaching beyond the village where they were made. The Northfield Knife Company operated until 1926. Its foundations remain below the dam in Humaston Brook State Park. A trail south of Knife Shop Road reaches the factory ruins and cascades, placing the remains of manufacturing beside the brook that supplied its water power.",
       "at": [
         -73.11067,
         41.69482
@@ -49,16 +50,8 @@
       "url": "https://en.wikipedia.org/wiki/Litchfield_Historic_District"
     },
     {
-      "label": "Wikipedia, Litchfield, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Litchfield,_Connecticut"
-    },
-    {
-      "label": "Wikipedia, Litchfield Law School",
-      "url": "https://en.wikipedia.org/wiki/Litchfield_Law_School"
-    },
-    {
-      "label": "Wikipedia, Connecticut Route 63",
-      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_63"
+      "label": "Wikipedia, Northfield, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Northfield%2C_Connecticut"
     },
     {
       "label": "Wikipedia, Connecticut Route 118",
@@ -69,10 +62,17 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_254"
     },
     {
-      "label": "Wikipedia, Northfield, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Northfield,_Connecticut"
+      "label": "Connecticut Department of Transportation, Scenic Road Classification Data",
+      "url": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Litchfield Law School",
+      "url": "https://en.wikipedia.org/wiki/Litchfield_Law_School"
+    },
+    {
+      "label": "Wikipedia, Humaston Brook State Park",
+      "url": "https://en.wikipedia.org/wiki/Humaston_Brook_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

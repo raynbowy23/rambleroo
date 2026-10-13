@@ -275,7 +275,22 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Gainesville",
+      "model": "town-blocks",
+      "at": 0.5040118053997988,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Pearlington",
+      "model": "town-blocks",
+      "at": 0.7323371484169394,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -289,7 +304,7 @@
     {
       "name": "Gainesville",
       "at": 0.503370786516854,
-      "landmark": ""
+      "landmark": "Gainesville"
     },
     {
       "name": "Logtown",
@@ -299,7 +314,7 @@
     {
       "name": "Pearlington",
       "at": 0.7314606741573033,
-      "landmark": ""
+      "landmark": "Pearlington"
     }
   ],
   "sources": [

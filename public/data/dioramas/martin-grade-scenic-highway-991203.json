@@ -3,12 +3,12 @@
   "bywayId": "martin-grade-scenic-highway-991203",
   "title": "Martin Grade Scenic Highway",
   "longitude": -80.5807,
-  "ground": "prairie-grid",
-  "palette": "prairie",
+  "ground": "forested-ridges",
+  "palette": "forest",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -147,39 +147,39 @@
     "elevation": [
       [
         0,
-        0.2
+        0.35
       ],
       [
         0.125,
-        0.218
+        0.453
       ],
       [
         0.25,
-        0.26
+        0.7
       ],
       [
         0.375,
-        0.302
+        0.947
       ],
       [
         0.5,
-        0.32
+        1.05
       ],
       [
         0.625,
-        0.302
+        0.947
       ],
       [
         0.75,
-        0.26
+        0.7
       ],
       [
         0.875,
-        0.218
+        0.453
       ],
       [
         1,
-        0.2
+        0.35
       ]
     ]
   },

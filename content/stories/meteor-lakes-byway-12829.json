@@ -1,16 +1,17 @@
 {
   "id": "meteor-lakes-byway-12829",
-  "tagline": "South through farm country to the lakes once blamed on meteors.",
+  "tagline": "A rural highway leads toward a rain-fed lake and the Cape Fear.",
   "intro": [
-    "The byway picks up NC 242 at US 421, a few miles south of Spivey's Corner, and runs south through Salemburg and Roseboro, across the southeastern tip of Cumberland County and down into Bladen to Elizabethtown, near the Cape Fear River. It is farm country most of the way, and the farmland owes something to the lakes.",
-    "Those lakes are Carolina bays, oval hollows in the coastal plain, many of them lined up northwest to southeast. People long blamed them on meteors. Geologists now favor wind and water, and the meteors have been dismissed for want of evidence, starting with a crater."
+    "NC 242 is a rural highway connecting Roseboro and Elizabethtown. North of Elizabethtown, Jones Lake State Park lies on NC 242 in North Carolina’s Coastal Plain. NCDOT includes the Carolina Bay Lakes Byway in its scenic-byway program, which highlights the state’s history, geography and culture.",
+    "The numbered highway began in 1930 between Roseboro and Beamans Crossroads. A southward extension reached the highways near Elizabethtown in 1937. Three years later, the route north of Salemburg shifted to US 421; its former alignment became Odom Road.",
+    "Traveling south from US 421, Salemburg lies on NC 242 before NC 24. Roseboro follows, then Jones Lake State Park north of Elizabethtown. The journey reaches the Cape Fear at a town whose river crossing changed in 1925, when the McGirt Bridge replaced a ferry."
   ],
   "moments": [
     {
       "title": "Spivey's Corner",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "From 1969 until 2015 this crossroads, a few miles north of the byway's start, held the National Hollerin' Contest, reviving the old art of calling across long distances before there were telephones.",
+      "text": "Spivey’s Corner gave long-distance calling a public stage: the National Hollerin’ Contest ran here from 1969 to 2015. The competition set out to revive a vocal practice used for communication and entertainment before telephones became widespread. Contestants appeared on television with Johnny Carson and David Letterman. The community sits at the meeting of US 13 and US 421.",
       "at": [
         -78.4825,
         35.19805556
@@ -20,7 +21,8 @@
       "title": "Jones Lake State Park",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Jones Lake has no stream to feed it and lives on rain alone, and its neighbor, Salters Lake, is named for the woman who spied on the Tory camp at Elizabethtown.",
+      "text": "No stream feeds Jones Lake; its water comes entirely from rain. The park includes both Jones and Salters lakes, two Carolina bays. Land purchases for a recreational demonstration project began in 1936, after the area’s cotton, turpentine and lumber industries had depleted farmland and cleared much of its timber. It opened in 1939 under segregation as a state park for African Americans. Black communities in southeastern North Carolina used it for family reunions, baptisms and church picnics. Salters Lake carries the name of Sallie Salter, who spied on Loyalists camped near Elizabethtown during the Revolutionary War.",
+      "notice": "Pond cypress trees covered in Spanish moss grow beside the lake’s side trails.",
       "at": [
         -78.595423,
         34.682743
@@ -30,7 +32,7 @@
       "title": "Elizabethtown",
       "kind": "town",
       "scene": "river",
-      "text": "In August 1781 the Patriots waded the Cape Fear by night, attacked with Washington's name for a battle cry, and drove the Loyalists into a ravine by the river still called Tory Hole.",
+      "text": "A ravine beside the river carries the name Tory Hole, recalling the fighting at Elizabethtown on August 27, 1781. Before the attack, Sallie Salter entered the Loyalist camp selling eggs and returned with information for the Patriot commanders, who then decided to attack the encampment. Patriot troops under Thomas Robeson and Thomas Brown attacked Loyalist militia commanded by John Slingsby and David Godden. Both Loyalist commanders were mortally wounded, and soldiers fled into the ravine. The battlefield is preserved as Tory Hole Park, with an amphitheater, playground and fitness trails.",
       "at": [
         -78.6075,
         34.62194444
@@ -39,42 +41,33 @@
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=192"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (route and points of interest)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=193"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (points of interest, continued)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=194"
-    },
-    {
       "label": "Wikipedia, North Carolina Highway 242",
       "url": "https://en.wikipedia.org/wiki/North_Carolina_Highway_242"
-    },
-    {
-      "label": "Wikipedia, Carolina bays",
-      "url": "https://en.wikipedia.org/wiki/Carolina_bays"
-    },
-    {
-      "label": "Wikipedia, Spivey's Corner, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Spivey's_Corner,_North_Carolina"
     },
     {
       "label": "Wikipedia, Jones Lake State Park",
       "url": "https://en.wikipedia.org/wiki/Jones_Lake_State_Park"
     },
     {
-      "label": "Wikipedia, Battle of Elizabethtown",
-      "url": "https://en.wikipedia.org/wiki/Battle_of_Elizabethtown"
+      "label": "Wikipedia, Elizabethtown, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Elizabethtown%2C_North_Carolina"
     },
     {
-      "label": "Wikipedia, Elizabethtown, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Elizabethtown,_North_Carolina"
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=192"
+    },
+    {
+      "label": "Wikipedia, Salemburg, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Salemburg%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Spivey's Corner, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Spivey%27s_Corner%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Battle of Elizabethtown",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Elizabethtown"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,19 +1,30 @@
 {
   "id": "mountain-pass-scenic-byway-58541",
-  "tagline": "Over the tops of the Ouachitas on the road Kennedy dedicated.",
+  "tagline": "Across the Ouachita mountaintops, with a presidential dedication at Big Cedar",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "The byway runs south on US 259 between Page and Octavia, across the tops of the Ouachita Mountains, 23 miles of two-lane road with steep hills and curves, through the Winding Stair Mountain National Recreation Area. On the way it meets the Talimena Drive and then SH 63 at Big Cedar.",
-    "The Ouachita National Recreation Trail has a trailhead at Big Cedar, and wilderness areas and the Kerr Arboretum lie off the road for hikers and riders. The Talimena Drive runs parallel, and a backpackers' camp on it looks out over Holson Valley."
+    "Mountain Pass follows US 259 for 23 miles between Page and Octavia, crossing the tops of the Ouachita Mountains. It is a paved, two-lane drive with steep hills and curves. Oklahoma’s tourism department presents the scenic byway as a route through the Winding Stair Mountain National Recreation Area, with wilderness, the Kerr Arboretum and access to the Ouachita National Recreation Trail. The recreation area encompasses 26,445 acres, and forested campgrounds lie a short drive off the byway.",
+    "This road had a presidential opening: John F. Kennedy came to Big Cedar on October 29, 1961, to dedicate the route then called the Ouachita National Forest Road. A memorial dedicated in 1966 marks the US 259 and State Highway 63 intersection. The community itself predates the dedication: its post office opened in 1903, when Big Cedar lay in Wade County in the Choctaw Nation’s Apukshunnubbee District.",
+    "Driving south from the Page end, US 259 meets State Highway 1, the Talimena Drive, before reaching Big Cedar and State Highway 63. The Kerr Arboretum is a separate forest excursion near the northern part of the drive. At Big Cedar, the Ouachita Trail adds a walking route to the highway crossing, with a named trailhead in the community. Continue through national forest toward the State Highway 144 junction near Octavia, the byway’s southern end."
   ],
   "moments": [
+    {
+      "title": "Kerr Arboretum and Botanical Area",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Dwarf white oaks, yellow buckeye and Ouachita indigo distinguish the Kerr Arboretum’s plant communities. The Robert S. Kerr Memorial Arboretum, Nature Center and Botanical Area covers 8,026 acres in the Ouachita National Forest near Talihina. Its boundaries reach US 270-59 on the north and the Talimena Scenic Byway on the west and south. The tourism department includes the arboretum among the byway’s opportunities for hikers, backpackers and horseback riders.",
+      "at": [
+        -94.63166667,
+        34.69388889
+      ]
+    },
     {
       "title": "Big Cedar",
       "kind": "town",
       "scene": "forest",
-      "text": "President Kennedy came to this crossroads on October 29, 1961, to dedicate US 259, then the Ouachita National Forest Road, and his memorial has stood at the SH 63 intersection since 1966.",
+      "text": "The junction of US 259 and State Highway 63 has a memorial to a road dedication attended by President John F. Kennedy. Kennedy visited on October 29, 1961, to open what was then called the Ouachita National Forest Road. The memorial was dedicated five years later, in 1966. Another route meets the community too: the Ouachita National Recreation Trail, with the Big Cedar trailhead at mile 30.5 of its second segment. The older community’s postal name changed too: its office opened as Bigcedar in 1903, became Big Cedar in 1929 and closed in 1943.",
       "at": [
         -94.64889,
         34.64583
@@ -23,7 +34,7 @@
       "title": "Octavia",
       "kind": "town",
       "scene": "forest",
-      "text": "The end of the byway took its name in 1898 from Octavia Lewis, its first postmaster, and kept a post office until 1953.",
+      "text": "Octavia takes its name from its first postmaster, Octavia Lewis. The post office opened in Indian Territory on October 29, 1898, and closed in 1953. At its founding, the community belonged to Nashoba County in the Choctaw Nation’s Apukshunnubbee District. It remains an unincorporated community on the Choctaw Reservation and marks the end of this byway.",
       "at": [
         -94.70306,
         34.52667
@@ -32,11 +43,15 @@
   ],
   "sources": [
     {
-      "label": "TravelOK, Mountain Pass Scenic Byway",
+      "label": "Oklahoma Tourism and Recreation Department, Mountain Pass Scenic Byway",
       "url": "https://www.travelok.com/listings/view.profile/id.14853"
     },
     {
-      "label": "TravelOK, Oklahoma's Scenic Byways",
+      "label": "Wikipedia, Big Cedar, Oklahoma",
+      "url": "https://en.wikipedia.org/wiki/Big_Cedar%2C_Oklahoma"
+    },
+    {
+      "label": "Oklahoma Tourism and Recreation Department, Oklahoma’s Scenic Byways",
       "url": "https://www.travelok.com/articles/oklahomasscenicbyways"
     },
     {
@@ -44,14 +59,13 @@
       "url": "https://en.wikipedia.org/wiki/U.S._Route_259"
     },
     {
-      "label": "Wikipedia, Big Cedar, Oklahoma",
-      "url": "https://en.wikipedia.org/wiki/Big_Cedar,_Oklahoma"
+      "label": "Wikipedia, Kerr Arboretum and Botanical Area",
+      "url": "https://en.wikipedia.org/wiki/Kerr_Arboretum_and_Botanical_Area"
     },
     {
       "label": "Wikipedia, Octavia, Oklahoma",
-      "url": "https://en.wikipedia.org/wiki/Octavia,_Oklahoma"
+      "url": "https://en.wikipedia.org/wiki/Octavia%2C_Oklahoma"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

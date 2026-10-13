@@ -1,19 +1,20 @@
 {
   "id": "lake-koocanusa-scenic-byway-2135",
-  "tagline": "Up a drowned canyon to the Tobacco Plains.",
+  "tagline": "A river canyon becomes a reservoir, and Rexford moves to its shore.",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "MT 37 leaves downtown Libby and follows the Kootenai River upstream into a narrow, tightly winding canyon, with the railroad on the far bank. Past the east end of Libby Dam it starts to climb and holds to the east shore of Lake Koocanusa, hugging the walls of what used to be the canyon, all the way north to Rexford. Bighorn sheep are often seen on the rock ledges along the way.",
-    "The name sounds like a Kootenai word and is not. When the dam was going up, the Corps of Engineers held a contest, and the winner took the first three letters of Kootenai and Canada and added USA."
+    "Montana 37 follows the Kootenai River into a narrow, tightly winding canyon, then climbs beside Lake Koocanusa’s eastern shore. The Forest Service’s 67-mile scenic byway connects Libby and Eureka, highlighting the reservoir’s southern half. The agency describes a narrow gorge between the Purcell and Salish mountains, with rock ledges that provide habitat for bighorn sheep. Montana 37 is open year-round. A paved two-lane side loop on Forest Road 228 follows the lake’s western side, but closes in winter. The reservoir itself extends north into British Columbia.",
+    "The reservoir formed behind Libby Dam, completed in 1974, and changed both settlement and transportation: Rexford and the Great Northern Railway line were moved. During construction, the Corps of Engineers held a naming contest; the winning entry joined parts of Kootenai and Canada with USA. In 1992, the Forest Service designated the highway and a west-shore service road as the Lake Koocanusa Scenic Byway.",
+    "Leave Libby upstream, with the railroad across the river in the canyon. Beyond Libby Dam’s eastern end, the highway follows the walls of the former canyon north toward Rexford. It bypasses town to the south, then turns east through farmland to U.S. 93 at Eureka’s northern end."
   ],
   "moments": [
     {
       "title": "Libby Dam",
       "kind": "roadside",
       "scene": "river",
-      "text": "422 feet of concrete holding back the Kootenai, which backs up 90 miles behind it and some 42 of those in British Columbia.",
+      "text": "Libby Dam rises 422 feet, holding a reservoir that stretches 90 miles upriver, including 42 miles in British Columbia. Construction began in 1966, and the dam was dedicated in 1975. The concrete structure does more than hold back water: operators can release it from different lake depths to moderate downstream temperatures. Five turbines in the powerhouse generate electricity. The U.S. Army Corps of Engineers operates the dam. The visitor center offers displays and tours of the powerhouse. The project also required a new Flathead Railroad Tunnel, linking the dam’s construction to changes in rail travel through the region.",
       "at": [
         -115.314,
         48.41
@@ -26,7 +27,7 @@
       "title": "Rexford",
       "kind": "town",
       "scene": "town",
-      "text": "Rexford incorporated to bargain with the Corps over the dam, and when its old townsite on the Kootenai went under the lake, the town moved up to the new shore.",
+      "text": "Rexford’s original riverfront townsite lies beneath the reservoir; the town now stands on Lake Koocanusa’s shore. It began with construction of the Great Northern Railway’s Jennings-to-Fernie branch in 1901. Incorporation came in 1966, allowing negotiations with the U.S. Army Corps of Engineers during Libby Dam’s construction. When the river was dammed in the 1970s, the old townsite flooded and Rexford moved to the shore of Lake Koocanusa. The Pacific Northwest National Scenic Trail passes through the relocated town. Montana 37 bypasses Rexford to the south, turning east and crossing a former railroad alignment farther on toward Eureka.",
       "at": [
         -115.17139,
         48.89972
@@ -36,7 +37,7 @@
       "title": "Eureka",
       "kind": "town",
       "scene": "prairie",
-      "text": "The road ends here, in country early explorers named the Tobacco Plains after the native tobacco they found the Indians growing, in a town once billed as Christmas Tree Capital of the World.",
+      "text": "Eureka once shipped evergreens to cities for holiday sales, billing itself as the Christmas Tree Capital of the World. Founded in the early 1880s and first known as Deweyville, it relied on logging as a major source of income for decades. The Owens & Hurst lumber mill closed in 2005. The town’s Historical Village gathers several historic buildings furnished with period artifacts. The Tobacco River flows west through the southern part of town. The Pacific Northwest Trail passes through Eureka on its route between the Continental Divide and the Pacific Ocean.",
       "at": [
         -115.04556,
         48.87667
@@ -44,16 +45,20 @@
     }
   ],
   "practical": [
-    "MT 37 is open year-round. The paved side loop on the west shore, Forest Road 228, is closed in winter."
+    "Libby Dam: Montana 37 is open year-round. The paved west-shore side loop, Forest Road 228, closes in winter. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "USDA Forest Service, Lake Koocanusa Scenic Byway",
-      "url": "https://www.fs.usda.gov/r01/kootenai/recreation/lake-koocanusa-scenic-byway"
+      "label": "Wikipedia, Rexford, Montana",
+      "url": "https://en.wikipedia.org/wiki/Rexford%2C_Montana"
     },
     {
       "label": "Wikipedia, Montana Highway 37",
       "url": "https://en.wikipedia.org/wiki/Montana_Highway_37"
+    },
+    {
+      "label": "USDA Forest Service, Lake Koocanusa Scenic Byway",
+      "url": "https://www.fs.usda.gov/r01/kootenai/recreation/lake-koocanusa-scenic-byway"
     },
     {
       "label": "Wikipedia, Lake Koocanusa",
@@ -64,14 +69,9 @@
       "url": "https://en.wikipedia.org/wiki/Libby_Dam"
     },
     {
-      "label": "Wikipedia, Rexford, Montana",
-      "url": "https://en.wikipedia.org/wiki/Rexford,_Montana"
-    },
-    {
       "label": "Wikipedia, Eureka, Montana",
-      "url": "https://en.wikipedia.org/wiki/Eureka,_Montana"
+      "url": "https://en.wikipedia.org/wiki/Eureka%2C_Montana"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

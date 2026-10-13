@@ -1,16 +1,18 @@
 {
   "id": "minuteman-highway-992503",
-  "tagline": "An old tavern beside the road to Concord.",
+  "tagline": "Turnpike alignments and an unfinished expressway plan shape the road toward Concord",
   "intro": [
-    "From Cambridge, Route 2 runs through Arlington and Belmont toward Lexington, then continues through Lincoln to the Concord Rotary. The freeway gives way to a road with traffic lights. Parts of Route 2 are still known as the Cambridge and Concord Turnpike.",
-    "The neighboring buildings keep several different centuries. Lexington has modern houses fitted to the hills of a former peacock farm; in Lincoln, Hoar Tavern faces the highway from behind sound barriers and a low stone wall."
+    "The Minuteman Highway follows Route 2 between Cambridge and the Concord Rotary, through freeway sections and roads with traffic lights. MassDOT includes it on its scenic-byways map, describing a route parallel to and just south of Battle Road near the national historical park. Through Belmont the freeway has six lanes; in Arlington it widens to eight before narrowing again toward Cambridge.",
+    "Parts of Route 2 carry the older name Cambridge and Concord Turnpike. A later plan would have extended the upgraded highway into Boston as the Northwest Expressway, meeting the proposed Inner Beltway. Both projects were canceled in 1970, leaving the abrupt narrowing at Alewife; the Red Line extension from Harvard to Alewife followed in the 1980s. At Crosby’s Corner, a later rebuilding replaced an at-grade intersection with an overpass, ramps and service roads. The project was completed in 2016.",
+    "Traveling west from Cambridge, the highway passes through Arlington, Belmont and Lexington before Lincoln and Concord. Peacock Farm in Lexington fits modern houses to a hilly site. In Lincoln, Hoar Tavern faces Route 2 from behind sound barriers and a low stone wall. Farther west, the road crosses the Assabet River before reaching the Concord Rotary."
   ],
   "moments": [
     {
       "title": "Peacock Farm",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "In Lexington, split-level houses follow the hills of a former peacock farm, whose old farmhouse and barn remain at the development entrance.",
+      "text": "One split-level plan takes several forms at Peacock Farm in southeast Lexington. Most houses were built between 1953 and 1960, with mirrored plans and hillside siting giving the neighborhood variety. Architects Danforth Compton and Walter Pierce bought 42 acres of former dairy farmland to test their ideas. Their designs used low-pitched roofs, vertical cedar siding and large areas of glass. The land had also been used to train trotting horses and raise peacocks; the original farmhouse and barn remain at the development entrance. Residents share a large tract of land set aside for recreation.",
+      "notice": "The original farmhouse and barn stand at the entrance to the modern development.",
       "at": [
         -71.20361111,
         42.42083333
@@ -20,7 +22,7 @@
       "title": "Hoar Tavern",
       "kind": "roadside",
       "scene": "town",
-      "text": "Behind sound barriers beside Route 2, the clapboard tavern faces the road that follows the colonial turnpike.",
+      "text": "Sound barriers and a low stone wall separate Hoar Tavern from Route 2 in eastern Lincoln. The clapboard building faces south toward the highway, which here follows the colonial-era Cambridge Turnpike. The Hoar family operated the property as a tavern for over a century before selling it in 1869. Its construction history reaches back to 1680. A central chimney rises above a five-bay front, with a projecting entrance vestibule in the middle. An ell now joins the house and barn. The barn’s large timber frame includes beams eighteen inches thick.",
       "at": [
         -71.27663889,
         42.43555556
@@ -30,7 +32,7 @@
       "title": "Dr. John Cuming House",
       "kind": "roadside",
       "scene": "town",
-      "text": "At Elm Street and Reformatory Circle, a timber-framed house recalls the physician who left Harvard a bequest for a medical school.",
+      "text": "At Elm Street and Reformatory Circle, the timber-framed Dr. John Cuming House links a physician’s public career with slavery in his household. Cuming built the house around 1754, presided over Concord town meetings during the Revolution and attended the 1779 convention that drafted the Massachusetts State Constitution. He enslaved Brister Freeman and a man recorded only as Jem. He left Harvard a bequest intended for the establishment of its medical school. It entered the National Register of Historic Places in 1977. The house later became the residence of Concord State Prison’s deputy superintendent and is now state-owned.",
       "at": [
         -71.39627778,
         42.46736111
@@ -41,6 +43,10 @@
     {
       "label": "Wikipedia, Massachusetts Route 2",
       "url": "https://en.wikipedia.org/wiki/Massachusetts_Route_2"
+    },
+    {
+      "label": "MassDOT, Massachusetts Scenic Byways map",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/73be8245bacc4c2db06294824a601159/data"
     },
     {
       "label": "Wikipedia, Peacock Farm",
@@ -55,6 +61,5 @@
       "url": "https://en.wikipedia.org/wiki/Dr._John_Cuming_House"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

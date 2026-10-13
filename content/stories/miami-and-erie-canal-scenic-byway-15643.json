@@ -1,16 +1,17 @@
 {
   "id": "miami-and-erie-canal-scenic-byway-15643",
-  "tagline": "South along the old canal, from Delphos to the Loramie Summit.",
+  "tagline": "Farms, canal towns and limestone locks follow an old water route.",
   "intro": [
-    "From Delphos the byway follows the line of the Miami and Erie Canal south through Spencerville, St. Marys, New Bremen and Minster toward Piqua, through farm country settled by Germans. The canal ran 274 miles from Cincinnati to Toledo and was finished in 1845, and the first settlers at Delphos were mostly men drawn there to build it.",
-    "Hands were scarce. Around New Bremen the subcontractors had to offer jiggers, two-ounce bottles of whiskey, to bring workers to the job."
+    "The Miami and Erie Canal Scenic Byway follows a former transportation route through farms and rural canal communities. Ohio’s byways program highlights the region’s German settlement and historic sites, including a lockkeeper’s house beside the Towpath Trail. Between Delphos and St. Marys, the canal still holds water; south of St. Marys, much of it has become a shallow ditch with ruined locks.",
+    "The state built the canal to connect Cincinnati and Toledo, creating a water route between the Ohio River and Lake Erie. Construction lasted from 1825 to 1845. Locks carried boats over changes in elevation, while reservoirs such as Grand Lake St. Marys and Lake Loramie supplied water. Animals walking the towpath pulled boats at four to five miles per hour. At New Bremen, lower shipping costs opened markets for farm products that had previously brought little cash. Railroads eroded the canal’s trade, and flood damage ended its commercial use in 1913.",
+    "Travel south from Delphos through Spencerville and St. Marys, with Grand Lake lying west of St. Marys. New Bremen, Minster and Fort Loramie follow along the canal corridor. At Lockington, north of Piqua, the locks mark the southern end of the Loramie Summit, the canal’s highest ground."
   ],
   "moments": [
     {
       "title": "Grand Lake St. Marys",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Built as a feeder reservoir for the canal and once the largest man-made lake in the world, it had oil derricks standing out in the water by about 1891.",
+      "text": "Grand Lake began as a water supply for moving freight, built as a reservoir for the Miami and Erie Canal. Its construction flooded a swampy prairie. Oil brought another use: derricks went up in the lake sometime around 1891. In 1949, the lake became one of Ohio’s first state parks, with recreational facilities added afterward. The water covers 13,500 acres, yet averages only five to seven feet deep. Woodlands, wetlands and prairie now share its shores with farms and residential development. The park’s facilities are scattered along the shore, intermingled with private property.",
       "at": [
         -84.50083,
         40.52667
@@ -23,7 +24,8 @@
       "title": "New Bremen",
       "kind": "town",
       "scene": "town",
-      "text": "Restored canal locks and a lockkeeper's house stand downtown, at the north end of the Loramie Summit, the stretch that carried the canal to its highest ground.",
+      "text": "New Bremen’s restored canal locks mark a change in what a farm town could earn. German immigrants founded the village in 1833, but difficult transport through swampy ground made reaching markets slow and expensive. The canal reduced shipping costs and brought new buyers for agricultural products that had held little cash value. Freight boats and passenger boats from Cincinnati made the town a busy canal stop. The restored locks and an added lockkeeper’s house are visible downtown, at the New Bremen end of the Loramie Summit. That summit was the canal’s highest stretch between New Bremen and Lockington.",
+      "notice": "Look for the restored canal locks and the added lockkeeper’s house downtown.",
       "at": [
         -84.37944,
         40.43639
@@ -33,7 +35,7 @@
       "title": "Lockington Locks",
       "kind": "short walk",
       "scene": "river",
-      "text": "Northbound boats were lifted 67 feet through these limestone locks, a passage of several hours, and the village of Lockington grew up to serve the idle boatmen.",
+      "text": "Construction began in 1833, and the locks opened for regular traffic in 1845, the year the full canal was completed. Northbound canal boats gained 67 feet at Lockington, climbing toward the Loramie Summit. Passing through the locks usually took several hours, and the village, first called Locksport, developed to serve waiting boatmen and passengers. The locks combined heavy limestone blocks with wooden floors and white-oak gates. Restoration efforts ended after the destructive flood of 1913. The locks and surrounding land now form a park, where only runoff from heavy rains flows through the old chambers.",
       "at": [
         -84.24389,
         40.20944
@@ -42,34 +44,29 @@
   ],
   "sources": [
     {
-      "label": "Ohio Department of Transportation, Miami and Erie Canal Scenic Byway story map",
-      "url": "https://storymaps.arcgis.com/stories/a72f087646b2488da2aa1f13e488e1f0"
+      "label": "Ohio Department of Transportation, Ohio Byways brochure",
+      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
     },
     {
-      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
-      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+      "label": "Wikipedia, Lockington Locks",
+      "url": "https://en.wikipedia.org/wiki/Lockington_Locks"
+    },
+    {
+      "label": "Ohio Department of Transportation, Miami and Erie Canal Scenic Byway",
+      "url": "https://storymaps.arcgis.com/stories/a72f087646b2488da2aa1f13e488e1f0"
     },
     {
       "label": "Wikipedia, Miami and Erie Canal",
       "url": "https://en.wikipedia.org/wiki/Miami_and_Erie_Canal"
     },
     {
-      "label": "Wikipedia, Delphos, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Delphos,_Ohio"
-    },
-    {
       "label": "Wikipedia, New Bremen, Ohio",
-      "url": "https://en.wikipedia.org/wiki/New_Bremen,_Ohio"
+      "url": "https://en.wikipedia.org/wiki/New_Bremen%2C_Ohio"
     },
     {
       "label": "Wikipedia, Grand Lake St. Marys State Park",
       "url": "https://en.wikipedia.org/wiki/Grand_Lake_St._Marys_State_Park"
-    },
-    {
-      "label": "Wikipedia, Lockington Locks",
-      "url": "https://en.wikipedia.org/wiki/Lockington_Locks"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,16 +1,17 @@
 {
   "id": "midway-versailles-road-us-62-2122",
-  "tagline": "From the railroad's town to Lafayette's, between horse farms.",
+  "tagline": "Horse farms line the road between Midway and Versailles.",
   "intro": [
-    "US 62 runs south out of Midway for six miles to US 60 at Versailles, through Woodford County horse country. The byway's listing names Fawn Leap, Shadowlawn, Adena Springs, Stonewall and Land's End among the farms along the way.",
-    "Midway was the railroad's idea. In 1835 the Lexington and Ohio Railroad bought a 216-acre farm and laid out Kentucky's first railroad town on it, naming it Middleway for where it lay between Lexington and Frankfort, and named the streets for its own officials."
+    "The Midway-Versailles Road follows US 62 for 6.3 miles between Parrish Avenue in Midway and US 60 in Versailles. Designated a state byway in 1995, it runs through horse-farm country. The National Scenic Byway Foundation draws attention to the landscaped farms along the route, including Fawn Leap, Shadowlawn and Stonewall.",
+    "Midway’s origins lie in a railroad’s purchase of farmland. In 1835, the Lexington and Ohio Railroad bought John Francisco’s farm and laid out Kentucky’s first railroad town. It called the settlement Middleway for its position between Lexington and Frankfort and named major streets for railroad officials. The name became Midway in 1837.",
+    "Begin at Parrish Avenue and follow US 62 toward Versailles through the farms. Versailles is the Woodford County seat, founded in 1792 on land owned by a child, Hezekiah Briscoe. The designated drive ends at US 60; a separate excursion to the Bluegrass Railroad and Museum outside Versailles continues the area’s railway story."
   ],
   "moments": [
     {
       "title": "Midway",
       "kind": "town",
       "scene": "town",
-      "text": "When a distillery warehouse burned in 1908, Lee's Branch ran afire for over a mile, and townspeople dipping tin cups for bourbon and water got scorched, and Martin Street beside the branch was nicknamed Tin Cup Alley.",
+      "text": "Midway’s major streets were named for the officials of the railroad that established the town. One street acquired a less formal name after a distillery warehouse fire on August 4, 1908. The distillery had operated beside Lee’s Branch at Gratz and Dudley streets. More than 47,000 barrels of bourbon were destroyed, and Lee’s Branch burned for over a mile. Residents who dipped tin cups into the stream for bourbon and water were scorched. Martin Street, beside the branch, became known as Tin Cup Alley. Much of downtown belongs to the Midway Historic District, listed on the National Register of Historic Places.",
       "at": [
         -84.68639,
         38.14778
@@ -20,31 +21,44 @@
       "title": "Versailles",
       "kind": "town",
       "scene": "town",
-      "text": "The county seat was founded in 1792 on land owned by a child, whose guardian named it after the French royal town in honor of Lafayette, and it is said here as ver-SAYLZ.",
+      "text": "Versailles has a French name with a Kentucky pronunciation: vər-SAYLZ. The town was founded on June 23, 1792, on 80 acres belonging to Hezekiah Briscoe, then a child. His guardian, Marquis Calmes, chose the name to honor Lafayette, a family friend and Revolutionary War figure. Formal incorporation followed in 1837. The county seat lies in the Inner Bluegrass, where horse breeding and training include thoroughbreds, standardbreds and saddlebreds.",
       "at": [
         -84.72583,
         38.04861
+      ]
+    },
+    {
+      "title": "Bluegrass Railroad and Museum",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "A threatened rail line became the backbone of the Bluegrass Railroad and Museum outside Versailles. Members of a model railroad club founded the museum in 1976 and began collecting equipment from local railroads. The museum acquired five and a half miles of track toward the Kentucky River in 1987–1988. That line had been built by the Louisville Southern Railroad in the 1880s. The museum moved to its present site in 1988, after storing its collection at several locations in and near Lexington. After a 2006 fire, a partially burned house was remodeled as the station and museum.",
+      "at": [
+        -84.758075,
+        38.04709444
       ]
     }
   ],
   "sources": [
     {
+      "label": "National Scenic Byway Foundation, Midway-Versailles Road (US Highway 62)",
+      "url": "https://web.archive.org/web/20240522183218/https://nsbfoundation.com/sb/midway-versailles-road-us-highway-62/"
+    },
+    {
       "label": "Kentucky Transportation Cabinet, Kentucky State and National Scenic Byways and Highways",
       "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
     },
     {
-      "label": "National Scenic Byway Foundation, Midway-Versailles Road (US Highway 62) (Wayback Machine capture)",
-      "url": "https://web.archive.org/web/20240522183218/https://nsbfoundation.com/sb/midway-versailles-road-us-highway-62/"
-    },
-    {
       "label": "Wikipedia, Midway, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Midway,_Kentucky"
+      "url": "https://en.wikipedia.org/wiki/Midway%2C_Kentucky"
     },
     {
       "label": "Wikipedia, Versailles, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Versailles,_Kentucky"
+      "url": "https://en.wikipedia.org/wiki/Versailles%2C_Kentucky"
+    },
+    {
+      "label": "Wikipedia, Bluegrass Railroad and Museum",
+      "url": "https://en.wikipedia.org/wiki/Bluegrass_Railroad_and_Museum"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

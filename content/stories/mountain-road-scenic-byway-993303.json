@@ -1,16 +1,24 @@
 {
   "id": "mountain-road-scenic-byway-993303",
-  "tagline": "Up Mount Prospect to John Weeks's stone tower.",
+  "tagline": "A narrow summit road links a country estate with forest conservation",
   "intro": [
-    "Off US 3 just south of Lancaster, a narrow auto road, counted among the first scenic byways in the state, climbs Mount Prospect through the woods. Pullouts along the way look out on the Connecticut River and the White Mountains. At the top stands the summer estate of John Wingate Weeks, a stucco house under a red tile roof, with its carriage house and a round stone tower.",
-    "Weeks grew up in Lancaster and, as a congressman, carried the Weeks Act of 1911, which let the government buy land for national forests in the East. The White Mountain National Forest it made possible is in view from the summit."
+    "The drive up Mount Prospect follows a narrow auto road from U.S. Route 3 to the Weeks estate above Lancaster, New Hampshire. Most of the park is wooded, with pullouts along the climb offering views of the Connecticut River and White Mountains. NH State Parks identifies the 1.6-mile road as one of the state’s first scenic byways and describes summit views reaching from the Presidential Range to Vermont’s Green Mountains.",
+    "Lancaster native John Wingate Weeks began buying land on Prospect Mountain, and his main house was built in 1912. The year before, he had helped secure passage of the Weeks Act, which allowed national forests to be established in the eastern United States. In 1941, his children Katherine Weeks Davidge and Sinclair Weeks gave the estate to New Hampshire; the former family property is now Weeks State Park.",
+    "From Route 3, the ascent passes parking pullouts before reaching the summit’s house, carriage house, servants’ quarters and circular stone tower. The house pairs stucco and half-timbering with a red tile roof. From the summit area, the White Mountain National Forest is visible: a landscape connected to the legislation Weeks helped pass. The house and grounds also overlook the upper Connecticut River Valley and the Kilkenny Range."
   ],
+  "notice": "The house combines a red tile roof with half-timbering and stucco walls.",
   "moments": [
+    {
+      "title": "The summit auto road",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "A narrow road connects Route 3 with the estate buildings on the summit of Prospect Mountain. Parking pullouts interrupt the climb with views of the Connecticut River and White Mountains. The road has a second life as a walking route: the auto road, scenic overlooks and trails are open to walkers throughout the year."
+    },
     {
       "title": "Stone observation tower",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "From the round stone tower, built around a water tank, the view runs all the way around, to the Presidential Range, the Green Mountains of Vermont, the Kilkenny Range and the Percy Peaks.",
+      "text": "The circular stone tower began with a practical job as well as a view: it originally contained a central water-storage tank. It now serves as an observation tower, with views in every direction. The summit estate includes a main house, carriage house and servants’ quarters alongside the tower.",
       "at": [
         -71.57055556,
         44.45027778
@@ -20,31 +28,29 @@
       "title": "Weeks house",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "Weeks died here at his summer home, and the house museum tells of the family and of his part in the early conservation movement.",
+      "text": "Red roof tiles and English-style half-timbering meet on the Weeks house, a two-story stucco building combining Tudor and Spanish Mediterranean Revival designs. The carriage house and servants’ quarters repeat its styling, but use asphalt-shingle roofs. Inside the main house, museum displays cover the Weeks family and John Wingate Weeks’s involvement in the early twentieth-century conservation movement. Weeks died at his summer home on Prospect Mountain in 1926. His children gave the property to the state in 1941; the summit area entered the National Register of Historic Places in 1985.",
       "at": [
         -71.57055556,
         44.45027778
       ]
     }
   ],
+  "practical": [
+    "The summit auto road: The 2026 auto-road gate season runs May 22 through October 12, Wednesday through Sunday, 10 a.m. to 5 p.m. (checked 2026-10-11)"
+  ],
   "sources": [
-    {
-      "label": "NH State Parks, Weeks State Park & The John Wingate Weeks Historic Site",
-      "url": "https://www.nhstateparks.org/find-parks-trails/weeks-state-park/"
-    },
     {
       "label": "Wikipedia, Weeks Estate",
       "url": "https://en.wikipedia.org/wiki/Weeks_Estate"
     },
     {
-      "label": "Wikipedia, John W. Weeks",
-      "url": "https://en.wikipedia.org/wiki/John_W._Weeks"
+      "label": "NH State Parks, Weeks State Park & The John Wingate Weeks Historic Site",
+      "url": "https://www.nhstateparks.org/find-parks-trails/weeks-state-park/"
     },
     {
-      "label": "Wikipedia, Weeks Act",
-      "url": "https://en.wikipedia.org/wiki/Weeks_Act"
+      "label": "Wikipedia, John W. Weeks",
+      "url": "https://en.wikipedia.org/wiki/John_W._Weeks"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

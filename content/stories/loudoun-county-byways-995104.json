@@ -1,19 +1,20 @@
 {
   "id": "loudoun-county-byways-995104",
-  "tagline": "Old turnpikes and a Quaker mill village in western Loudoun.",
+  "tagline": "Mountain gaps, old toll roads and a bridge preserved in stone",
   "motifs": [
     "arch-bridge"
   ],
   "intro": [
-    "Western Loudoun keeps a handful of old roads. Charles Town Pike comes down from Keyes Gap into the narrow valley called Between the Hills, then follows the North Fork of Catoctin Creek through Hillsboro Gap, a water gap the town of Hillsboro fills so completely that the road cannot be widened. Lanes wander off through Waterford, Lovettsville and Taylorstown.",
-    "Farther south the Snickersville Turnpike runs from Aldie to Bluemont, once Snickersville, a road that took over part of the first recorded turnpike in operation in the country, open by the end of 1786."
+    "Charles Town Pike descends from Keyes Gap as a two-lane road into the narrow valley called Between the Hills. Farther south, Snickersville Turnpike remains a rural road between Aldie and Bluemont. The General Assembly designated that road a Virginia Byway in 1988; the Commonwealth Transportation Board designated all of Route 9 in 2002.",
+    "These crossings carried roads between Alexandria and Winchester in the late 18th century. Virginia appointed commissioners to establish toll gates in 1785, and those toll roads were operating by the end of 1786. Low tolls left the southern road poorly maintained. In 1810, the Snicker’s Gap Turnpike Company received a charter for the road from Aldie across the Blue Ridge to the Shenandoah River. Route 9 later became a major commuter route. At Hillsboro, where the town fills the gap and prevents widening in place, VDOT and the town completed reconstruction and traffic-calming work in 2022.",
+    "For the northern crossing, follow Route 9 southeast from Keyes Gap through Hillsboro Gap and into the wider Catoctin Valley. Waterford is a village in that valley. On the separate southern drive from Bluemont toward Aldie, the turnpike passes Airmont and Philomont, crosses Hibbs Bridge, then reaches Mountville."
   ],
   "moments": [
     {
       "title": "Keyes Gap",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Once Vestal's Gap, at 906 feet one of the lowest crossings of the Blue Ridge in Virginia, and part of Braddock's army came through it with George Washington.",
+      "text": "At 906 feet, Keyes Gap is one of Virginia’s lowest Blue Ridge crossings. The colonial road between Alexandria and Winchester passed through this opening, then known as Vestal’s Gap. Part of General Edward Braddock’s army crossed here under George Washington on its way to Fort Duquesne during the French and Indian War. By 1820, the main western route had shifted south to the newly completed Snickers Gap Turnpike. During the Civil War, the gap remained strategically important as an alternative route from Virginia to Harpers Ferry. Route 9 and the Appalachian Trail now cross Keyes Gap.",
       "at": [
         -77.76,
         39.26
@@ -23,7 +24,7 @@
       "title": "Waterford",
       "kind": "town",
       "scene": "town",
-      "text": "Called Janney's Mill after the Quaker who built mills on Catoctin Creek in the 1740s, the village lay just southeast of the population center of the United States in 1810.",
+      "text": "Waterford grew as a grain-trading village after Amos Janney established a gristmill and sawmill on Catoctin Creek in the 1740s. Janney was a Quaker from Pennsylvania, and the settlement first became known as Janney’s Mill. After his death in 1747, his son Mahlon replaced the log mill with a two-story structure. The Waterford Foundation formed in 1944 to preserve the village. National Historic Landmark designation followed in 1970, recognizing the village’s preserved 18th- and 19th-century architecture and landscape. In 1974, the foundation helped create a program protecting historic properties through open-space and facade easements.",
       "at": [
         -77.61,
         39.18666667
@@ -33,7 +34,8 @@
       "title": "Hibbs Bridge",
       "kind": "roadside",
       "scene": "forest",
-      "text": "The turnpike crosses Beaverdam Creek on a stone double-arch bridge of about 1829, which local opposition has kept from being bypassed.",
+      "text": "Two stone arches carry the turnpike across Beaverdam Creek between Philomont and Mountville. The bridge measures 124 feet long and 22 feet wide. Built circa 1829, Hibbs Bridge takes its name from a family that operated mills nearby. Local opposition prevented a bypass, and the Snickersville Turnpike Association organized to prevent replacement of the bridge. In May 2007, the Virginia Department of Transportation closed it for rebuilding that lasted more than nine months. Workers replaced deteriorated mortar and some stones and rebuilt the approaches. The bridge entered the National Register of Historic Places in 2011.",
+      "notice": "Hibbs Bridge crosses Beaverdam Creek on two stone arches.",
       "at": [
         -77.72303,
         39.037332
@@ -45,12 +47,16 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
-    {
       "label": "Wikipedia, Virginia State Route 9",
       "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_9"
+    },
+    {
+      "label": "Wikipedia, Snicker's Gap Turnpike",
+      "url": "https://en.wikipedia.org/wiki/Snicker%27s_Gap_Turnpike"
+    },
+    {
+      "label": "Wikipedia, Catoctin Valley",
+      "url": "https://en.wikipedia.org/wiki/Catoctin_Valley"
     },
     {
       "label": "Wikipedia, Keyes Gap",
@@ -58,13 +64,8 @@
     },
     {
       "label": "Wikipedia, Waterford, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Waterford,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Snicker's Gap Turnpike",
-      "url": "https://en.wikipedia.org/wiki/Snicker%27s_Gap_Turnpike"
+      "url": "https://en.wikipedia.org/wiki/Waterford%2C_Virginia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,19 +1,21 @@
 {
   "id": "lake-valley-back-country-byway-11303",
-  "tagline": "From a gold town to a silver ghost, by the old rail grade.",
+  "tagline": "Mining towns and an abandoned rail grade along the Black Range",
   "motifs": [
     "mining-town"
   ],
   "intro": [
-    "The byway comes into Hillsboro on NM 152 and turns south on NM 27 along the eastern flank of the Black Range, through Chihuahuan grassland, to Lake Valley and on to Nutt. NM 27 stayed graded or gravel until it was paved sometime in the 1960s.",
-    "Below Lake Valley the road keeps beside the grade of a Santa Fe spur built in 1884 to carry supplies in and ore out. The tracks came up in 1934. The grade is still there to see."
+    "Lake Valley Back Country Byway follows NM 27 over the eastern flank of the Black Range, through Chihuahuan grasslands and former mining towns. This part of the drive is a paved, two-lane highway. The corridor is designated a BLM Back Country Byway and State Scenic Backway; New Mexico’s tourism department presents it as a journey through mining and railroad history.",
+    "The road now numbered NM 27 began as part of territorial Route 26, created in 1905. When Route 26 was redirected toward Hatch in the early 1940s, the Hillsboro road became Route 27. It remained graded or gravel until paving in the 1960s. An earlier transport route ran beside the byway toward Nutt: the Santa Fe railroad spur, built in 1884 to bring supplies into Lake Valley and carry ore out.",
+    "The NM 152 section brings the journey to Hillsboro, where NM 27 heads south toward Lake Valley. South of Hillsboro, the highway crosses Oak Spring, Tierra Blanca and Berrenda creeks before reaching Lake Valley; farther south it passes between the Nutt and Round Mountains. Lake Valley lies 17 miles south of Hillsboro; its last resident left in 1994. Continue toward Nutt beside the old railroad grade, visible despite the removal of the tracks in 1934. NM 27 ends at NM 26 near Nutt."
   ],
+  "notice": "The old railroad grade remains visible beside the byway toward Nutt.",
   "moments": [
     {
       "title": "Hillsboro",
       "kind": "town",
       "scene": "town",
-      "text": "Two prospectors picked up loose rock here in 1877 that assayed at $160 a ton, and the town that followed was the county seat until 1936.",
+      "text": "Loose rock helped start Hillsboro. In 1877, prospectors Dan Dugan and Dave Stitzel collected pieces that assayed at $160 per ton in gold and silver. The first house went up that August, and a ten-stamp mill followed in 1878 to pulverize ore. The town’s name began as Hillsborough, chosen by prospectors in December 1877, before being shortened to Hillsboro. The mining settlement became Sierra County’s seat in 1884 and gained a courthouse in 1892. That administrative role ended in 1936, when the county seat moved to Hot Springs, now Truth or Consequences. NM 152 and NM 27 intersect in the town.",
       "at": [
         -107.56694444,
         32.92083333
@@ -26,7 +28,7 @@
       "title": "Lake Valley",
       "kind": "town",
       "scene": "desert",
-      "text": "Miners here broke into a silver-lined cavity they named the bridal chamber, good for 2.5 million ounces, and the last resident left in 1994.",
+      "text": "The mining began after a rancher found silver deposits in 1876 and sold his claims to an engineer two years later. Lake Valley’s bridal chamber was exhausted before the railroad arrived. Miners called it the bridal chamber, and it yielded 2.5 million troy ounces of silver. Yet shareholders in all five companies organized by promoters George D. Roberts and Whitaker Wright lost money. The chamber was worked out by 1883; after the line reached town in 1884, mining continued only periodically into the twentieth century. World War II brought manganese mining, which continued into the 1950s. The last resident departed in 1994.",
       "at": [
         -107.56778,
         32.71778
@@ -39,19 +41,16 @@
       "title": "Nutt",
       "kind": "town",
       "scene": "prairie",
-      "text": "Nutt calls itself the Middle of Nowhere, and its one claim to fame is the 1892 payroll train that Black Jack Ketchum's gang held up just outside town.",
+      "text": "Nutt began as a place to transfer a journey from rail to wagon. Founded in 1881 as a Santa Fe depot and water station, it sent wagon trains toward the Black Range mining communities. The railroad’s Lake Valley spur arrived in 1884, and Nutt quickly declined afterward. Its post office closed that year, reopened in 1899 and lasted until 1939. The settlement occupies a rise between Los Uvas Valley and Macho Creek Valley, a pass through remnants of the Good Sight Mountains. Nutt Mountain, north of the settlement, is a volcanic plug made of layered rhyolites and has also been called Sunday Cone.",
       "at": [
         -107.44944444,
         32.57277778
       ]
     }
   ],
-  "practical": [
-    "The Bureau of Land Management restricts access to the old buildings at Lake Valley to daylight hours."
-  ],
   "sources": [
     {
-      "label": "New Mexico True, Lake Valley Back Country Byway",
+      "label": "New Mexico Tourism Department, Lake Valley Back Country Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/lake-valley-back-country/"
     },
     {
@@ -59,18 +58,21 @@
       "url": "https://en.wikipedia.org/wiki/New_Mexico_State_Road_27"
     },
     {
-      "label": "Wikipedia, Hillsboro, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Hillsboro,_New_Mexico"
+      "label": "New Mexico Department of Transportation, Scenic Byways",
+      "url": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
       "label": "Wikipedia, Lake Valley, Sierra County, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Lake_Valley,_Sierra_County,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Lake_Valley%2C_Sierra_County%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Hillsboro, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Hillsboro%2C_New_Mexico"
     },
     {
       "label": "Wikipedia, Nutt, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Nutt,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Nutt%2C_New_Mexico"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

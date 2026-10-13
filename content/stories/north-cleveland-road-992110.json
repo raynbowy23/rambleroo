@@ -1,16 +1,18 @@
 {
   "id": "north-cleveland-road-992110",
-  "tagline": "Out of a village the fires made small, near Boone's old station.",
+  "tagline": "A road to Athens, where fires reduced a manufacturing village",
   "intro": [
-    "North Cleveland Road, KY 1973, leaves the village of Athens at the Athens-Boonesboro Road and runs north for about six miles through rural eastern Fayette County to US 60, the Winchester Road.",
-    "Athens, said locally as AY-thenz, began as Cross Plains. Early on it had a woolen factory and a bagging and rope works, and fire had taken all of them by 1860. In 1853 and 1854 a single blaze swept away every business house on the south side of Main Street west of the Cleveland pike, and the fires left the village's business center the size it is now."
+    "North Cleveland Road links Winchester Road with Athens-Boonesboro Road in Fayette County. The Kentucky Transportation Cabinet records its scenic designation on December 15, 2008.",
+    "At the Athens end, the Cleveland pike figured in local historian Robert Peter’s description of the fires that reduced the village’s business district. He recorded that a single blaze in 1853-54 destroyed every business house on the south side of Main Street west of the pike. The village’s manufacturing buildings, including woolen, bagging and rope works, had all burned by 1860.",
+    "Begin at US 60, Winchester Road, and take North Cleveland Road toward KY 418, Athens-Boonesboro Road. In Athens, the Aubrey Inn stands at Main and Cleveland, among early village buildings now used mostly as homes."
   ],
   "moments": [
     {
       "title": "Athens",
       "kind": "town",
       "scene": "town",
-      "text": "At the corner of Main Street and Cleveland Road stands the Aubrey Inn of about 1800, one of the old village buildings, most of them homes now, in a National Register district.",
+      "text": "The Aubrey Inn stands at Main and Cleveland Road, a circa-1800 building in a village whose commercial center shrank after repeated fires. Athens once had woolen, bagging and rope factories, but fire had destroyed all its manufacturing buildings by 1860. Its surviving early buildings include the Dr. Parker House, built of log and frame between 1780 and 1820. The historic district entered the National Register in 1979 for its Italianate, Greek Revival and Late Victorian architecture; most of these early buildings now serve as homes. The brick Marshall Tavern, built around 1840, also survives from the village’s early history.",
+      "notice": "The Aubrey Inn stands at the corner of Main and Cleveland Road.",
       "at": [
         -84.36417,
         37.94917
@@ -20,10 +22,20 @@
       "title": "Boone Station",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Daniel Boone made his home at this frontier station on Boone's Creek from 1779 to 1782, until the tangle of Kentucky land claims cost him the ground.",
+      "text": "Boone’s New Station took its name to distinguish it from the fort now known as Boonesborough. Daniel Boone lived here from 1779 to 1782, in a settlement that held 15 to 20 families at its height. Overlapping land claims left an uncertain ending: Boone lost or sold his title, and the date of his departure is unclear. The community had ceased to exist by 1791. The former state historic site near Athens was transferred to David’s Fork Baptist Church in December 2018. The station site lies on Boone’s Creek near Athens in Fayette County.",
       "at": [
         -84.355,
         37.95306
+      ]
+    },
+    {
+      "title": "Middle Reaches of Boone Creek Rural Historic District",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "The Middle Reaches of Boone Creek Rural Historic District extends across Fayette and Clark counties. Its 7,186 acres entered the National Register in 1996, with 38 contributing buildings, 97 structures and five sites. Three Clark County properties already had individual recognition: Boot Hill Farm, the Dailey-Milton Holliday House and the Captain Robert V. Bush House.",
+      "at": [
+        -84.32138889,
+        37.95944444
       ]
     }
   ],
@@ -33,18 +45,17 @@
       "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
     },
     {
-      "label": "Wikipedia, Kentucky Route 1973",
-      "url": "https://en.wikipedia.org/wiki/Kentucky_Route_1973"
-    },
-    {
       "label": "Wikipedia, Athens, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Athens,_Kentucky"
+      "url": "https://en.wikipedia.org/wiki/Athens%2C_Kentucky"
     },
     {
       "label": "Wikipedia, Boone Station",
       "url": "https://en.wikipedia.org/wiki/Boone_Station"
+    },
+    {
+      "label": "Wikipedia, Middle Reaches of Boone Creek Rural Historic District",
+      "url": "https://en.wikipedia.org/wiki/Middle_Reaches_of_Boone_Creek_Rural_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

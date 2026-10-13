@@ -1,63 +1,65 @@
 {
   "id": "lost-gold-trails-loop-2592",
-  "tagline": "A gold road north, and opals at the end of it.",
+  "tagline": "Stage stops, sheep research and an opal town in Clark County",
   "intro": [
-    "From the Y on County Road A-2 the loop runs southwest over rolling desert and lava hills, where cattle and wild game share the grazing in spring and fall, crosses the railroad into Dubois and turns north on Old Highway 91. The old road follows Beaver Creek on the line of an early trail to the Montana gold mines.",
-    "At Spencer the gold trail turns into an opal trail. From there the Spencer-Idmon road heads east on an old Nez Perce trail to meet the Fort Henry byway at Idmon, a pioneer town that no longer exists."
+    "Dubois stands at 5,148 feet above sea level near the Caribou-Targhee National Forest. To the north, the Bitterroot Range forms Clark County’s boundary with Montana and the continental divide.",
+    "In 1864, stagecoach stops at Dry Creek and Beaver Canyon served the route between Salt Lake City and Montana mining towns. The Utah and Northern Railway reached Beaver Canyon in 1879; that settlement moved to Spencer in 1897.",
+    "In Dubois, the former St. James’ Episcopal Mission Church carries the name Heritage Hall Museum. Six miles north of town is the U.S. Sheep Experiment Station. Spencer serves as a base for an opal mine five to six miles outside town."
   ],
   "moments": [
     {
       "title": "Dubois",
       "kind": "town",
       "scene": "town",
-      "text": "Drought moved the railroad's water stop to Dry Creek, now Dubois, in 1892, and the town's first church, a Gothic Revival Episcopal church of 1905, now holds the Heritage Hall Museum.",
+      "text": "Dry Creek, now Dubois, had a stagecoach stop established in 1864 on the route between Salt Lake City and the Montana mining towns. Dry Creek became Dubois in 1892, taking the name of Idaho politician Fred Dubois. On Reynolds Street, St. James’ Episcopal Mission Church was built in 1904 to a design by Wayland & Fennell. Its Gothic Revival design has a gable facing the front. Listed on the National Register of Historic Places in 1993, the building was renamed Heritage Hall Museum in 2017.",
+      "notice": "The former mission church has a front-facing gable and Gothic Revival design.",
       "at": [
         -112.22917,
         44.17278
       ]
     },
     {
-      "title": "China Point",
+      "title": "U.S. Sheep Experiment Station",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "By the story told here, a stage stalled in a blizzard south of Spencer, and its passengers, Chinese men bound to cook in the Montana mine camps, would not leave it and froze."
+      "text": "Sheep breeding and rangeland research share a home at the U.S. Sheep Experiment Station, run by the USDA’s Agricultural Research Service. The Columbia breed’s originating flock moved here in 1918 after early crosses in Wyoming. The station also developed the Polypay in the 1960s and the Targhee, a rangeland breed named for the adjacent national forest. Its lands include subalpine meadows, foothills, sagebrush steppe and desert shrubland. Research ranges from reproductive efficiency and breed improvement to grazing management and the quality of meat and wool. Land in Montana’s Centennial Mountains and near Kilgore supports seasonal grazing and rangeland studies.",
+      "at": [
+        -112.222595,
+        44.251839
+      ]
     },
     {
       "title": "Spencer",
       "kind": "town",
       "scene": "town",
-      "text": "Spencer is called the Opal Capital of America. A deer hunter found the opal in old volcanic rock in 1948, and the mines lie five or six miles out of town.",
+      "text": "Spencer is the base for Idaho’s opal mine, with the mine itself five to six miles outside the hamlet. Its settlement history includes a move: Beaver Canyon relocated to Spencer in 1897, after the Utah and Northern Railway had reached Beaver Canyon in 1879. Spencer incorporated in 1947. The 2020 census counted 31 residents.",
       "at": [
         -112.19111,
         44.37833
       ]
     }
   ],
-  "practical": [
-    "County Road A-2 and the Spencer-Idmon road close in winter and become snowmobile trails."
-  ],
   "sources": [
     {
-      "label": "Visit Idaho, Lost Gold Trails Loop (Wayback Machine, 2024)",
-      "url": "https://web.archive.org/web/20241003174931/https://visitidaho.org/things-to-do/ghost-towns-mining-history/lost-gold-trails-loop/"
+      "label": "Wikipedia, Clark County, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Clark_County%2C_Idaho"
     },
     {
-      "label": "Visit Idaho, Lost Gold Trails Loop (Wayback Machine, 2013)",
-      "url": "https://web.archive.org/web/20130906111615/http://www.visitidaho.org/scenic-byways/lost-gold-trails-loop/"
-    },
-    {
-      "label": "Visit Idaho, Fort Henry Historic Byway (Wayback Machine, 2013)",
-      "url": "https://web.archive.org/web/20130605122814/http://www.visitidaho.org/scenic-byways/fort-henry-historic-byway/"
-    },
-    {
-      "label": "Wikipedia, Dubois, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Dubois,_Idaho"
+      "label": "Wikipedia, U.S. Sheep Experiment Station",
+      "url": "https://en.wikipedia.org/wiki/U.S._Sheep_Experiment_Station"
     },
     {
       "label": "Wikipedia, Spencer, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Spencer,_Idaho"
+      "url": "https://en.wikipedia.org/wiki/Spencer%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Dubois, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Dubois%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, St. James' Episcopal Mission Church",
+      "url": "https://en.wikipedia.org/wiki/St._James%27_Episcopal_Mission_Church"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

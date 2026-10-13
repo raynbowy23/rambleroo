@@ -1,16 +1,17 @@
 {
   "id": "laureles-grade-road-990612",
-  "tagline": "Six steep, winding miles over to the Carmel River.",
+  "tagline": "Six steep, winding miles connect Highway 68 with Carmel Valley Road",
   "intro": [
-    "Laureles Grade leaves Highway 68, about halfway between Salinas and Monterey, and heads for Carmel Valley. It is a steep, winding road of six miles, and at the far end it meets Carmel Valley Road.",
-    "The road shares its name with Rancho Los Laureles, a Mexican land grant along the Carmel River named for the California bay laurel. Juana Cota Boronda, whose family settled on the rancho in 1840, brought to Carmel Valley a white-yellow cheese made from a Spanish recipe. David Jack is credited with first marketing what came to be called Monterey Jack."
+    "Laureles Grade is a six-mile, steep and winding connection between Highway 68 and Carmel Valley Road. Also numbered County Route G20, it meets Highway 68 halfway between Monterey and Salinas. Caltrans records its recognition as an officially designated County Scenic Highway in 1969.",
+    "That designation belongs to the road; Rancho Los Laureles has a separate, older history along the Carmel River. Governor Juan Alvarado granted the rancho to José Manuel Boronda and Vicente Blas Martínez in 1839. The Boronda family settled there the following year. Los Laureles refers to the California bay laurel tree.",
+    "Begin on the Highway 68 side, where Corral de Tierra occupies the valley of Steinbeck’s The Pastures of Heaven. Follow Laureles Grade to Carmel Valley Road, which runs along the Carmel River. Garland Ranch Regional Park and the eucalyptus row at Boronda Road extend the journey onto that valley road."
   ],
   "moments": [
     {
       "title": "Corral de Tierra",
       "kind": "town",
       "scene": "town",
-      "text": "Near the start of the grade lies the valley of Steinbeck's The Pastures of Heaven, where he and his sister Mary played below Castle Rock, the earthen fence behind the name.",
+      "text": "Corral de Tierra supplies a real valley for John Steinbeck’s The Pastures of Heaven, his 1932 cycle of short stories. As children, Steinbeck and his sister Mary played below Castle Rock, the landform behind the Spanish name’s reference to a fence of earth. The community lies on the former Rancho Corral de Tierra grant, along Highway 68 between Salinas and the Monterey Peninsula.",
       "at": [
         -121.7325,
         36.57
@@ -20,21 +21,32 @@
       "title": "Garland Ranch Regional Park",
       "kind": "short walk",
       "scene": "forest",
-      "text": "On Carmel Valley Road near the foot of the grade, the Rancho Loop Trail leads to a packing shed, a barn and a display of old farm equipment.",
+      "text": "The park occupies the south side of Carmel Valley Road along the river. A packing shed, barn and display of old farm equipment stand along Garland Ranch’s Rancho Loop Trail. The ranch became the Monterey Peninsula Regional Park District’s first land acquisition in 1975, and the park opened in June 1976. Its terrain reaches from the Carmel River to the former hayfield called La Mesa. The La Mesa Trail climbs to high grassland, while other trails offer shorter loops. Large clusters of blue gum eucalyptus grow here, alongside the park’s oak woodland and river floodplain habitats.",
+      "notice": "The Rancho Loop Trail passes a packing shed, a barn and old farm equipment.",
       "at": [
         -121.767574,
         36.509384
+      ]
+    },
+    {
+      "title": "Carmel Valley Road-Boronda Road Eucalyptus Tree Row",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "The eucalyptus at Boronda Road began as an entrance to a ranch. Nathan Weston Spaulding planted the row between 1874 and 1881, during a period when eucalyptus was popular in California landscaping. In 1957, the Carmel Valley Property Owners’ Association voted to retain the trees. A citizens’ application for historic status followed in 2007, and the row entered the National Register of Historic Places in January 2008. The trees occupy the public right-of-way along Carmel Valley Road and both sides of Boronda Road. They remain in their original positions, preserving the planted approach to the rancho.",
+      "at": [
+        -121.74694444,
+        36.49444444
       ]
     }
   ],
   "sources": [
     {
-      "label": "Caltrans, Officially Designated County Scenic Highways",
-      "url": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/od-county-scenic-hwys-2015-a11y.pdf"
-    },
-    {
       "label": "Wikipedia, California county routes in zone G",
       "url": "https://en.wikipedia.org/wiki/California_county_routes_in_zone_G"
+    },
+    {
+      "label": "California Department of Transportation, Officially Designated County Scenic Highways",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/design/documents/od-county-scenic-hwys-2015-a11y.pdf"
     },
     {
       "label": "Wikipedia, Rancho Los Laureles",
@@ -47,8 +59,11 @@
     {
       "label": "Wikipedia, Garland Ranch Regional Park",
       "url": "https://en.wikipedia.org/wiki/Garland_Ranch_Regional_Park"
+    },
+    {
+      "label": "Wikipedia, Carmel Valley Road-Boronda Road Eucalyptus Tree Row",
+      "url": "https://en.wikipedia.org/wiki/Carmel_Valley_Road-Boronda_Road_Eucalyptus_Tree_Row"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

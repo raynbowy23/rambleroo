@@ -1,26 +1,37 @@
 {
   "id": "mt-wilson-back-country-byway-68959",
-  "tagline": "Gravel around the Wilson Creek Range to a rough old town.",
+  "tagline": "Volcanic basins and wooded heights frame a drive to mining country.",
   "intro": [
-    "Gravel roads circle the Wilson Creek Range, crossing wide basins and slipping through narrow canyons. Along the skirts of the range they wind through an old volcanic caldera gone over to pinyon and juniper, and toward the peaks, under Mount Wilson's 9,315-foot summit, aspen and ponderosa pine take over. Historic cabins and a pioneer cemetery turn up along the way.",
-    "Near the end of the loop comes Pioche, a silver camp that by the early 1870s was among the most important in Nevada and had a name as one of the roughest towns in the Old West."
+    "Mount Wilson Back Country Byway crosses broad basins and narrow canyons on gravel, dirt and paved roads. Pinyons and junipers grow across volcanic terrain, with aspen and ponderosa pine higher in the range. The Bureau of Land Management identifies it as a Type II Back Country Byway and highlights its landscape, historic cabins and pioneer cemetery. Recreation.gov allows two to four hours for the drive.",
+    "The corridor reaches Pioche, where a silver mine opened in 1864. By the early 1870s, the town had become one of Nevada's important silver-mining centers. A later change came to nearby Spring Valley: a dam built in 1965 stored water for agriculture, and the reservoir area became a state park in 1969.",
+    "On the approach to Pioche, Spring Valley State Park lies at the east end of State Route 322, near Ursine. Ursine sits downstream from Eagle Valley Reservoir in the foothills of the White Rock Mountains. Continue toward Pioche, where abandoned tramway cables and ore buckets remain over parts of town."
   ],
   "moments": [
     {
       "title": "Spring Valley State Park",
       "kind": "roadside",
       "scene": "river",
-      "text": "A 1965 dam on Meadow Valley Wash holds back the 65-acre Eagle Valley Reservoir, and the park around it keeps a set of historic ranch buildings.",
+      "text": "Eagle Valley Reservoir began as an agricultural water project. The Eagle Valley Dam was built across Meadow Valley Wash in 1965, and the land surrounding the reservoir received state-park designation four years later. The park adjoins the 65-acre reservoir and includes historic ranch buildings. It lies near Ursine at the east end of State Route 322, 20 miles east of Pioche. The reservoir area combines hiking trails with a boat launch and places to picnic, beside the historic ranch buildings.",
       "at": [
         -114.19805556,
         38.02305556
       ]
     },
     {
+      "title": "Ursine",
+      "kind": "town",
+      "scene": "town",
+      "text": "Ursine lies in Eagle Valley below the White Rock Mountains, about two miles downstream from Eagle Valley Reservoir. Its post office opened in 1895 and operated until 1959.",
+      "at": [
+        -114.22888889,
+        37.97722222
+      ]
+    },
+    {
       "title": "Pioche",
       "kind": "town",
       "scene": "mountain",
-      "text": "Local lore holds that 72 men died in gunfights here before the camp saw its first natural death, and Boot Hill is still there to make the point.",
+      "text": "Ore once traveled above Pioche in buckets suspended from an aerial tramway. During the 1920s and 1930s, the system carried silver and nickel ore from the mines to the Godbe Mill; cables and some original buckets remain over parts of town. Silver mining had begun here in 1864, and by the early 1870s Pioche ranked among Nevada's important silver-mining towns. Two theaters overlook downtown: Thompson's Opera House, built in 1873, and the Gem Theater, built in 1937. The opera house was restored in 2009, while restoration of the neighboring cinema began in 2022.",
       "at": [
         -114.44333,
         37.95194
@@ -28,11 +39,11 @@
     }
   ],
   "practical": [
-    "Parts of the byway may need a high-clearance vehicle."
+    "Spring Valley State Park: High-clearance vehicles are recommended for the byway. The route is generally seasonal and can become unsafe or impassable in winter or when wet. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "BLM, Nevada Byways",
+      "label": "Bureau of Land Management, Nevada Byways",
       "url": "https://www.blm.gov/programs/recreation/recreation-programs/byways/nevada"
     },
     {
@@ -40,18 +51,17 @@
       "url": "https://www.recreation.gov/camping/poi/10407128"
     },
     {
-      "label": "Wikipedia, Mount Wilson, Nevada",
-      "url": "https://en.wikipedia.org/wiki/Mount_Wilson,_Nevada"
+      "label": "Wikipedia, Pioche, Nevada",
+      "url": "https://en.wikipedia.org/wiki/Pioche%2C_Nevada"
     },
     {
       "label": "Wikipedia, Spring Valley State Park",
       "url": "https://en.wikipedia.org/wiki/Spring_Valley_State_Park"
     },
     {
-      "label": "Wikipedia, Pioche, Nevada",
-      "url": "https://en.wikipedia.org/wiki/Pioche,_Nevada"
+      "label": "Wikipedia, Ursine, Nevada",
+      "url": "https://en.wikipedia.org/wiki/Ursine%2C_Nevada"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

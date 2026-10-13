@@ -1,29 +1,37 @@
 {
   "id": "otter-trail-scenic-byway-2242",
-  "tagline": "Round Otter Tail County, among more than a thousand lakes.",
+  "tagline": "A lake-country loop links glacial hills, roadside sculpture and a saved flour mill.",
   "motifs": [
     "gristmill"
   ],
   "intro": [
-    "Out of Pelican Rapids the loop runs 150 miles around Otter Tail County, linking Perham, Battle Lake and Fergus Falls through rolling countryside dotted with lakes, stands of woods and farmland.",
-    "Battle Lake goes by an anglicized form of Lac du Battaile, the name early French mapmakers gave it, likely for fighting between Ojibwe and Dakota there. Nearby Glendalough State Park spent decades as the game farm of the Minneapolis Tribune's owners, and its lodge put up Eisenhower and Nixon."
+    "The Otter Trail Scenic Byway makes a 150-mile circuit through rolling Otter Tail County countryside, passing lakes, woods and farmland. Explore Minnesota presents the byway as a route to more than 1,000 lakes, wetlands, nineteenth-century flour mills and roadside sculptures. Maplewood and Glendalough state parks and the overlook at Inspiration Peak are among its stops. Near Fergus Falls, gentle hills and numerous lakes mark country shaped by retreating glaciers, between deciduous forest to the east and plains to the west.",
+    "One of the route’s historic anchors, Phelps Mill, opened on the Otter Tail River in 1889. Rail transportation later made shipping grain to Minneapolis-St. Paul more economical, while electricity, gasoline and steam offered more efficient mill power. The mill closed in 1939; Geneva Tweten’s preservation campaign preceded the county’s purchase in 1965. The mill entered the National Register of Historic Places in 1975.",
+    "Starting at Pelican Rapids, follow the circuit toward Perham and Battle Lake, then continue through the southern countryside. Inspiration Peak offers a walk above the plains; its lower slopes carry oak forest and its open upper slopes support prairie plants. Continue to Fergus Falls, where the Union Avenue Bridge crosses the Otter Tail River, then return by way of Phelps Mill toward Pelican Rapids."
   ],
   "moments": [
     {
       "title": "Pelican Rapids",
       "kind": "town",
       "scene": "river",
-      "text": "Beside the Pelican River stands Pelican Pete, fifteen feet of concrete and plaster put up in 1957 and claimed as the largest pelican statue in the world.",
+      "text": "Pelican Pete stands 15.4 feet tall, a concrete-and-plaster bird built beside the river in 1957. The town takes its name from the rapids on the Pelican River and was platted in 1872. Pete’s fiftieth anniversary brought a smaller flock: in 2007, the town launched a local public-art project placing about three dozen four-foot pelican sculptures across town. Local artists decorated those birds. A University of Minnesota Press architecture survey calls the original Pete an “effective programmatic advertisement for the town,” describing it as just outrageous enough to attract considerable attention.",
+      "notice": "Pelican Pete is made of concrete and plaster.",
       "at": [
         -96.08611111,
         46.57
       ]
     },
     {
+      "title": "Inspiration Peak",
+      "kind": "short walk",
+      "scene": "prairie",
+      "text": "Oak forest covers the foot of Inspiration Peak, while prairie plants occupy its open upper slopes. The hill sits at the boundary between deciduous forest to the east and prairie to the west. It is a glacial feature of the Leaf Hills Moraines, rising about 310 feet above the surrounding plains. A short but strenuous trail climbs from the parking lot to the top. Its prairie species include pasqueflower, blazing star, asters and goldenrod. Sinclair Lewis described a view of some 50 lakes within a 20-mile circle, comparing them to sequins on a Paisley shawl."
+    },
+    {
       "title": "Phelps Mill",
       "kind": "roadside",
       "scene": "river",
-      "text": "Royal Powers framed this flour mill on the Otter Tail River without a blueprint, keeping the whole plan in his head, and it ground flour from 1889 until 1939.",
+      "text": "Royal Powers framed Phelps Mill without blueprints, holding the plan in his head as he cut the lumber. William E. Thomas commissioned the mill, which opened in October 1889 and was designed to produce 60 to 75 barrels of flour a day. He added equipment for buckwheat and rye in 1895. Thomas also built a bunkhouse for overnight guests and a barn for their horses. After the mill closed in 1939, Geneva Tweten campaigned to save it. Otter Tail County bought the site in 1965; the historic district also includes the general store and an Italianate miller’s house.",
       "at": [
         -95.82055556,
         46.38055556
@@ -31,40 +39,29 @@
       "motifs": [
         "gristmill"
       ]
-    },
-    {
-      "title": "Inspiration Peak",
-      "kind": "short walk",
-      "scene": "prairie",
-      "text": "A short, strenuous trail climbs the glacial hill to the view Sinclair Lewis likened to sequins fallen on an old Paisley shawl, some 50 lakes in a 20-mile circle."
     }
   ],
   "sources": [
     {
-      "label": "Explore Minnesota, Otter Trail Scenic Byway (Wayback Machine capture)",
+      "label": "Explore Minnesota, Otter Trail Scenic Byway (archived February 7, 2026)",
       "url": "https://web.archive.org/web/20260207064042/https://www.exploreminnesota.com/profile/otter-trail-scenic-byway/2332"
-    },
-    {
-      "label": "Wikipedia, Phelps Mill",
-      "url": "https://en.wikipedia.org/wiki/Phelps_Mill"
     },
     {
       "label": "Wikipedia, Inspiration Peak",
       "url": "https://en.wikipedia.org/wiki/Inspiration_Peak"
     },
     {
+      "label": "Wikipedia, Phelps Mill",
+      "url": "https://en.wikipedia.org/wiki/Phelps_Mill"
+    },
+    {
+      "label": "Wikipedia, Fergus Falls, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Fergus_Falls%2C_Minnesota"
+    },
+    {
       "label": "Wikipedia, Pelican Rapids, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/Pelican_Rapids,_Minnesota"
-    },
-    {
-      "label": "Wikipedia, Battle Lake, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/Battle_Lake,_Minnesota"
-    },
-    {
-      "label": "Wikipedia, Glendalough State Park",
-      "url": "https://en.wikipedia.org/wiki/Glendalough_State_Park"
+      "url": "https://en.wikipedia.org/wiki/Pelican_Rapids%2C_Minnesota"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

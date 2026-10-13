@@ -1,20 +1,22 @@
 {
   "id": "mason-and-dixon-byway-2262",
-  "tagline": "Farm country a short way below the Pennsylvania line.",
+  "tagline": "Farm country, a working mill and a river crossing atop a dam",
   "motifs": [
     "gristmill",
     "rolling-ridges"
   ],
   "intro": [
-    "North out of Westminster and then east, the byway keeps a short way south of the Pennsylvania line through Manchester, over Prettyboy Reservoir and by Deer Creek, crosses the Susquehanna on top of Conowingo Dam and finishes at Appleton on the Delaware border. It is farm country, with hayrides and corn mazes in season.",
-    "Mason and Dixon spent nearly four years surveying the line in the 1760s. For people enslaved in Maryland, a Union state that kept slavery, an escape across it into Pennsylvania brought the promise of freedom."
+    "The Mason and Dixon Scenic Byway runs through rural Maryland just south of the Pennsylvania boundary. Maryland’s tourism office presents this state scenic drive as a journey through farm country, historical sites and outdoor recreation. Its landscape includes Prettyboy Reservoir, the rocky forest of Rocks State Park and the Susquehanna crossing at Conowingo Dam. Manchester lies in rolling upland on the Piedmont Plateau, west of the Chesapeake Bay’s coastal lowlands.",
+    "The name recalls Charles Mason and Jeremiah Dixon, whose survey in the 1760s separated Maryland from Pennsylvania. Their boundary work helped settle a land dispute involving Maryland, Pennsylvania, Virginia and Delaware. A later engineering project changed the route across the Susquehanna: Conowingo Dam’s reservoir would cover the old U.S. 1 bridge, which was demolished in 1927. U.S. 1 now crosses the top of the dam, while the reservoir covers the original town of Conowingo.",
+    "Start in Westminster and head north to Union Mills, then east through Manchester toward Prettyboy Reservoir. Beyond White Hall, a side loop reaches Rocks State Park and Deer Creek. Return to the main route for the crossing on Conowingo Dam, then continue through Rising Sun and past Fair Hill’s equestrian grounds to Appleton at the Delaware border."
   ],
   "moments": [
     {
       "title": "Union Mills",
       "kind": "roadside",
       "scene": "town",
-      "text": "The brick grist mill and the Shriver homestead both date from 1797. On June 30, 1863, the family hosted J.E.B. Stuart's Confederates, and the next day other Shrivers welcomed a Union general.",
+      "text": "The brick gristmill at Union Mills dates to 1797, the same year Andrew and David Shriver built their homestead. Locally made bricks form its walls, laid in both Flemish and common bond. In June 1863, part of the Shriver family hosted Confederate General J.E.B. Stuart; the next day, other family members welcomed Union General James Barnes. The homestead is now a museum, and the mill still works. The complex also contains a surviving tannery bark shed and a reconstructed tannery barn, two different kinds of evidence of its industrial past.",
+      "notice": "Locally made brick forms the mill walls in Flemish and common bond.",
       "at": [
         -77.01611111,
         39.67055556
@@ -27,7 +29,8 @@
       "title": "King and Queen's Seat",
       "kind": "short walk",
       "scene": "forest",
-      "text": "A rock outcrop high above Deer Creek in Rocks State Park, its legend of Native ceremony owed to an 1880 book that admitted to mingling fact and fancy.",
+      "text": "The King and Queen’s Seat rises 190 feet above the banks of Deer Creek in Rocks State Park. Visitors were coming to the Rocks of Deer Creek in the nineteenth century, when the Maryland and Pennsylvania Railroad served the attraction. The state bought 82 acres here in 1949 and opened Deer Creek State Park in 1953. The park now has three separate sections in the valley. The outcrop belongs to the largest, along Rocks Ridge; Kilgore Falls lies in the separate Falling Branch section. Across the park, 3.5 miles of hiking trails offer views of this landscape.",
+      "notice": "The rock outcrop towers above the banks of Deer Creek.",
       "at": [
         -76.41083333,
         39.63777778
@@ -40,31 +43,43 @@
       "title": "Fair Hill",
       "kind": "separate excursion",
       "scene": "prairie",
-      "text": "Old du Pont land kept for horses, with a thoroughbred training center, turf racing on Memorial Day weekend and a covered bridge near the nature center."
+      "text": "Fair Hill’s protected land was once part of William duPont, Jr.’s holdings. Its long equestrian use gained a thoroughbred training center in 1983. The natural resources management area has 80 miles of trails, fishing areas and a nature center. Near the Fair Hill Nature and Environmental Center is the Foxcatcher Farm Covered Bridge, one of two covered bridges in Cecil County.",
+      "notice": "The Foxcatcher Farm Covered Bridge stands near the nature center."
     }
   ],
   "sources": [
     {
-      "label": "Visit Maryland, Mason & Dixon (Wayback Machine snapshot, October 2025)",
+      "label": "Maryland Office of Tourism, Mason & Dixon (archived October 2025)",
       "url": "https://web.archive.org/web/20251014124832/https://www.visitmaryland.org/scenic-byways/mason-dixon"
     },
     {
-      "label": "Wikipedia, Union Mills Homestead Historic District",
-      "url": "https://en.wikipedia.org/wiki/Union_Mills_Homestead_Historic_District"
+      "label": "Wikipedia, List of Maryland Scenic Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Maryland_Scenic_Byways"
+    },
+    {
+      "label": "Wikipedia, Manchester, Maryland",
+      "url": "https://en.wikipedia.org/wiki/Manchester%2C_Maryland"
+    },
+    {
+      "label": "Wikipedia, Conowingo Dam",
+      "url": "https://en.wikipedia.org/wiki/Conowingo_Dam"
     },
     {
       "label": "Wikipedia, Rocks State Park",
       "url": "https://en.wikipedia.org/wiki/Rocks_State_Park"
     },
     {
-      "label": "Wikipedia, Fair Hill Natural Resources Management Area",
-      "url": "https://en.wikipedia.org/wiki/Fair_Hill_Natural_Resources_Management_Area"
+      "label": "Wikipedia, Union Mills Homestead Historic District",
+      "url": "https://en.wikipedia.org/wiki/Union_Mills_Homestead_Historic_District"
     },
     {
-      "label": "Wikipedia, List of Maryland Scenic Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Maryland_Scenic_Byways"
+      "label": "Wikipedia, Fair Hill, Maryland",
+      "url": "https://en.wikipedia.org/wiki/Fair_Hill%2C_Maryland"
+    },
+    {
+      "label": "Wikipedia, Fair Hill Natural Resources Management Area",
+      "url": "https://en.wikipedia.org/wiki/Fair_Hill_Natural_Resources_Management_Area"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

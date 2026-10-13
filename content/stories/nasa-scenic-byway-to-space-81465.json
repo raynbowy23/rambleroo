@@ -1,46 +1,61 @@
 {
   "id": "nasa-scenic-byway-to-space-81465",
-  "tagline": "Oak-shaded roads to the towns that moved out for the rockets.",
+  "tagline": "Pearl River communities displaced for rocket tests left foundations and cemeteries.",
   "intro": [
-    "Four-lane Highway 607 runs north to the gates of Stennis Space Center, where the first and second stages of the Saturn V were test-fired, and five more roads make up the rest of the network through the 125,000-acre acoustic buffer zone around it. They run through pine plantation and hardwoods, often under oaks.",
-    "The other five are named for Pearlington, at the zone's edge, and for the towns that had to go when the zone was drawn, Logtown, Napoleon, Westonia and Santa Rosa. No habitable building may go up in the zone without a special exception, which, the byway plan noted, suited the beekeepers who kept hives among the pines with no neighbors to mind them."
+    "US 90 reaches Pearlington beside the Pearl River at the Louisiana state line. Nearby Logtown is now a ghost town within the 125,000-acre acoustic buffer surrounding NASA’s Stennis Space Center. Pine and hardwood forest surrounds the Possum Walk Trail between Logtown and the INFINITY Science Center.",
+    "NASA announced the Mississippi Test Facility in 1961, choosing a site with barge access because Apollo rocket stages were too large for overland transport. The federal land acquisition required 700 families to relocate from five communities and northern Pearlington. The test stands were used to fire the first and second stages of Saturn V rockets.",
+    "Gainesville was a Pearl River port whose land NASA acquired in 1962. Pearlington remains on US 90; Logtown’s surviving traces include family cemeteries, an artesian well and building foundations beside the river."
   ],
   "moments": [
+    {
+      "title": "Gainesville",
+      "kind": "town",
+      "scene": "river",
+      "text": "Gainesville’s decline began before NASA arrived. The Pearl River port shipped cotton downstream to New Orleans, then timber, but railroads drew trade away in the second half of the 19th century. A major line bypassed the town by ten miles, and residents left in search of work. NASA acquired the land in 1962 and used some abandoned buildings during its early operations. Almost none of the original town structures remained by the early 21st century. The acquisition also displaced burials: 483 graves were reinterred to make way for construction, including 224 that were unmarked.",
+      "at": [
+        -89.63972222,
+        30.35111111
+      ]
+    },
+    {
+      "title": "Pearlington",
+      "kind": "town",
+      "scene": "river",
+      "text": "Only part of Pearlington was acquired for the rocket-testing buffer. In 1961, the federal government acquired its northern section along with all of Gainesville, Logtown, Napoleon, Santa Rosa and Westonia. The six communities together accounted for 700 families relocated from their properties. Pearlington remains a community on US 90 along the Pearl River at the Louisiana state line, with 1,153 residents counted in 2020. Inside the buffer, remnants of the acquired communities include streets overgrown with grass and shrubs and a one-room schoolhouse. The acoustic buffer covers 125,000 acres around the test facility.",
+      "at": [
+        -89.60833333,
+        30.26388889
+      ]
+    },
     {
       "title": "Logtown",
       "kind": "short walk",
       "scene": "river",
-      "text": "The H. Weston Lumber Company once kept over 3,000 people here, and now three family cemeteries, some old foundations and an artesian well by the Pearl River are what remain.",
+      "text": "Concrete and brick foundations and an artesian well remain beside the Pearl River at Logtown. The town’s economy depended on logging and lumber shipping; Henry Weston founded the H. Weston Lumber Company here in 1889. At its peak, the company supported a community of more than 3,000 people. Operations ended in 1930, after the usable, marketable timber had been exhausted, and the population declined. Three privately owned family cemeteries survive, with graves dating to the 1850s. The three-mile Possum Walk Trail links Logtown with the INFINITY Science Center, passing history signs and remnants of the Dummy Line railroad.",
+      "notice": "Brick and concrete foundations and an artesian well remain along the Pearl River.",
       "at": [
         -89.62111111,
         30.28305556
       ]
-    },
-    {
-      "title": "Turtle Skin Cemetery",
-      "kind": "roadside",
-      "scene": "forest",
-      "text": "Inside a stuccoed block wall on the site of the old Corinth Baptist Church, graves going back to the 1860s still say that Santa Rosa was here."
     }
   ],
   "sources": [
-    {
-      "label": "MDOT, Mississippi Scenic Byways",
-      "url": "https://mdot.ms.gov/portal/scenic_byways_program"
-    },
-    {
-      "label": "MDOT, Byways to Space Scenic Byway Corridor Management Plan",
-      "url": "https://mdot.ms.gov/documents/Planning/Programs/Scenic%20byways/Byways%20to%20Space%20Scenic%20Byway%20Corridor%20Management%20Plan.pdf"
-    },
     {
       "label": "Wikipedia, Stennis Space Center",
       "url": "https://en.wikipedia.org/wiki/Stennis_Space_Center"
     },
     {
       "label": "Wikipedia, Logtown, Mississippi",
-      "url": "https://en.wikipedia.org/wiki/Logtown,_Mississippi"
+      "url": "https://en.wikipedia.org/wiki/Logtown%2C_Mississippi"
+    },
+    {
+      "label": "Wikipedia, Pearlington, Mississippi",
+      "url": "https://en.wikipedia.org/wiki/Pearlington%2C_Mississippi"
+    },
+    {
+      "label": "Wikipedia, Gainesville, Mississippi",
+      "url": "https://en.wikipedia.org/wiki/Gainesville%2C_Mississippi"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

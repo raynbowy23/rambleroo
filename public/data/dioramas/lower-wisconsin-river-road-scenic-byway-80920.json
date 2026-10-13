@@ -298,11 +298,11 @@
       "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
-      "name": "Riverway sandbars",
-      "model": "sandbar",
-      "at": 0.5487630147883431,
+      "name": "Lone Rock",
+      "model": "town-blocks",
+      "at": 0.41165652400091574,
       "offset": "roadside",
-      "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Wyalusing State Park",
@@ -313,6 +313,13 @@
     }
   ],
   "dressing": [
+    {
+      "model": "sandbar",
+      "at": 0.5,
+      "side": -1,
+      "distance": 1.4,
+      "scale": 1.5
+    },
     {
       "model": "river",
       "at": 0.5,
@@ -335,7 +342,7 @@
     {
       "name": "Lone Rock",
       "at": 0.41147540983606556,
-      "landmark": ""
+      "landmark": "Lone Rock"
     },
     {
       "name": "Muscoda",

@@ -1,16 +1,18 @@
 {
   "id": "little-kanawha-parkway-15738",
-  "tagline": "Upriver, beside the water that was once the highway.",
+  "tagline": "Along the Little Kanawha, road travel follows a former commercial waterway.",
   "intro": [
-    "From Mineralwells at the I-77 end, the two-lane road follows the Little Kanawha upstream for about 77 miles, through Elizabeth, Grantsville and Glenville to Burnsville near I-79. The river meanders and the road keeps with it nearly the whole way, past farmland, forest and small rural towns.",
-    "Before the road the river was the highway. Barrels of oil went down it to Parkersburg, and at Glenville, where the paper first printed \"The West Virginia Hills\" in 1885, river traffic ran the town until road building helped end the riverboats by the late 1930s."
+    "The Little Kanawha Parkway winds beside its river through farmland, forests and small rural towns. West Virginia’s byways guide describes a two-lane state highway linking I-77 and I-79, with two to three hours allowed for the 77.63-mile drive, including stops. Designated in June 1996, the byway offers river, forest and farmstead views. It provides an alternative to interstate travel between central West Virginia and Parkersburg.",
+    "Glenville’s early name, the Ford, came from its river crossing, a place where travelers could get from one bank to the other. Before roads took over, the Little Kanawha carried commercial traffic for the logging and petroleum industries. Oil barrels from Burning Springs traveled downstream to Parkersburg, where they transferred to Ohio River boats or railroad cars. River traffic dominated Glenville’s economy before the 1930s; road construction helped bring riverboating to an end by the decade’s close. Bridges record the development of overland crossings: Burnsville’s truss bridge dates to 1893, while Duck Run’s cable suspension bridge followed in 1922.",
+    "Traveling upriver, Elizabeth comes before Burning Springs, followed by Grantsville and Glenville. WV 5 begins at Elizabeth and parallels the river for almost all its length. Beyond Glenville, the drive continues through Sand Fork toward Burnsville, where Saltlick Creek meets the Little Kanawha."
   ],
+  "notice": "River bends, forests and farmsteads are the recurring views along the byway.",
   "moments": [
     {
       "title": "Burning Springs",
       "kind": "town",
       "scene": "river",
-      "text": "Oil was sold here for lamps years before Drake's well in Pennsylvania, and in May 1863 Confederate raiders set every well afire, so that the river burned for miles.",
+      "text": "The community’s name comes from natural gas bubbling through a spring, which burned when lit. Oil emerged here as a byproduct of salt making. By 1836, brine wells produced petroleum sold for lighting; the first local well drilled specifically for oil began in 1859. Barrels traveled down the Little Kanawha to Parkersburg for transfer to larger boats or trains. On May 9, 1863, Confederate raiders burned the wells and stored oil during the Jones-Imboden Raid, destroying the town and setting the river and its forested banks ablaze for miles. Oil production later resumed, and some production continues.",
       "at": [
         -81.31389,
         38.98111
@@ -20,7 +22,8 @@
       "title": "Duck Run Cable Suspension Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "At Trubada a swinging bridge built in 1922 hangs 351 feet across the river on two wire rope cables strung between four concrete towers.",
+      "text": "Two wire-rope cables and four reinforced-concrete towers give Duck Run Bridge its structure. Built in 1922 across the Little Kanawha, it is also known as the Trubada Swinging Bridge. Its full length is 351 feet, 7 inches, with a main span of 209 feet, 9 inches and two shorter spans. The bridge entered the National Register of Historic Places in 1997.",
+      "notice": "Four concrete towers support two wire-rope cables across the river.",
       "at": [
         -80.78733,
         38.9283
@@ -30,7 +33,8 @@
       "title": "Burnsville Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "Near the end of the run, an 1893 truss from a Cleveland iron works crosses the Little Kanawha on two stone piers.",
+      "text": "Burnsville’s 1893 bridge combines two truss spans with a girder span across the Little Kanawha. The Variety Iron Works Company of Cleveland built the Pratt through-truss structure. Two stone piers and a stone abutment support it. The longest of its three spans measures 138 feet, 3 inches; the others measure 44 feet and 23 feet, 9 inches. It entered the National Register of Historic Places in 1995.",
+      "notice": "Look for the stone supports beneath the truss and girder spans.",
       "at": [
         -80.65694,
         38.85528
@@ -39,38 +43,41 @@
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Little Kanawha Parkway",
-      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/15738"
-    },
-    {
-      "label": "West Virginia Byways and Backways guide, Little Kanawha Byway",
-      "url": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf#page=41"
-    },
-    {
-      "label": "Wikipedia, West Virginia Route 5",
-      "url": "https://en.wikipedia.org/wiki/West_Virginia_Route_5"
-    },
-    {
       "label": "Wikipedia, Little Kanawha River",
       "url": "https://en.wikipedia.org/wiki/Little_Kanawha_River"
     },
     {
-      "label": "Wikipedia, Burning Springs, West Virginia",
-      "url": "https://en.wikipedia.org/wiki/Burning_Springs,_West_Virginia"
+      "label": "Federal Highway Administration, Little Kanawha Parkway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/15738"
+    },
+    {
+      "label": "West Virginia Byways and Backways, Little Kanawha Byway",
+      "url": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
     },
     {
       "label": "Wikipedia, Glenville, West Virginia",
-      "url": "https://en.wikipedia.org/wiki/Glenville,_West_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Glenville%2C_West_Virginia"
+    },
+    {
+      "label": "Wikipedia, Burning Springs, West Virginia",
+      "url": "https://en.wikipedia.org/wiki/Burning_Springs%2C_West_Virginia"
+    },
+    {
+      "label": "Wikipedia, Burnsville Bridge",
+      "url": "https://en.wikipedia.org/wiki/Burnsville_Bridge"
     },
     {
       "label": "Wikipedia, Duck Run Cable Suspension Bridge",
       "url": "https://en.wikipedia.org/wiki/Duck_Run_Cable_Suspension_Bridge"
     },
     {
-      "label": "Wikipedia, Burnsville Bridge",
-      "url": "https://en.wikipedia.org/wiki/Burnsville_Bridge"
+      "label": "Wikipedia, West Virginia Route 5",
+      "url": "https://en.wikipedia.org/wiki/West_Virginia_Route_5"
+    },
+    {
+      "label": "Wikipedia, Burnsville, West Virginia",
+      "url": "https://en.wikipedia.org/wiki/Burnsville%2C_West_Virginia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

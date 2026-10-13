@@ -1,36 +1,38 @@
 {
   "id": "neil-armstrong-scenic-byway-993904",
-  "tagline": "Around Wapakoneta on the homecoming parade route.",
+  "tagline": "A hometown parade route connects Wapakoneta with its lunar legacy",
   "intro": [
-    "This short drive through Wapakoneta, the Auglaize County seat on the Auglaize River, follows the route of the parade the town gave Neil Armstrong when he came home from the moon. It goes by the former Rhine and Brading drugstore, where he worked in high school to pay for flying lessons, and by Blume High School, where he graduated in 1947 and played baritone horn in the band.",
-    "The river's name came from French soldiers, after its clay-filled water."
+    "The Neil Armstrong Scenic Byway takes its story into downtown Wapakoneta, an Ohio city on the Auglaize River. Ohio’s byway program identifies the route with Armstrong’s homecoming parade after his return from the Moon. The surrounding city includes his former high school and a museum designed to resemble a lunar base.",
+    "Armstrong grew up in Wapakoneta and received his pilot’s license at Port Koneta on the north side of town. After high school, he left for Purdue University to study aeronautical engineering. The town’s commemoration also took architectural form: the Armstrong Air & Space Museum opened on July 20, 1972.",
+    "For the places in this story, start with the former airfield north of town, then continue into downtown for Blume High School. Finish on the city’s east side at the museum, where a white dome and earth mounds give the building its lunar-base form."
   ],
   "moments": [
     {
       "title": "Port Koneta",
       "kind": "separate excursion",
       "scene": "prairie",
-      "text": "Armstrong rode his bicycle out to the Port Koneta airfield, now closed, for flying lessons, and earned his student flight certificate in August 1946, at 16, before he had a driver's license.",
+      "text": "Port Koneta was where Neil Armstrong received his pilot’s license while living in Wapakoneta. The airfield was on the north side of town and is now defunct. After high school, Armstrong went to Purdue University to study aeronautical engineering; Navy service during the Korean War interrupted his studies.",
       "at": [
         -84.18372,
         40.60893
       ]
     },
     {
-      "title": "Wapa Theater",
-      "kind": "town",
+      "title": "Blume High School",
+      "kind": "roadside",
       "scene": "town",
-      "text": "Opened in 1904 as the Brown Theater and given its neon marquee in 1939, it is where Armstrong and his classmates would have seen first-run pictures.",
+      "text": "Neil Armstrong graduated from Blume High School in 1947; the former school has since become apartments. Its growth had once reflected an expanding school district. In the mid-1920s, a bequest from L.N. Blume paid for a library and gymnasium, while bonds financed a red-brick addition. By the mid-1950s the school was overcrowded, and voters approved a replacement in 1956. The new high school opened in 1959; Blume became a junior high before closing by 1990. Local architect William M. Runkle designed the original section, while Frank Packard of Columbus designed the later additions.",
       "at": [
-        -84.1942,
-        40.56978
+        -84.19722222,
+        40.56611111
       ]
     },
     {
       "title": "Armstrong Air & Space Museum",
       "kind": "short walk",
       "scene": "prairie",
-      "text": "Built to look like a moon base, it opened on July 20, 1972, three years to the day after the first step, though Armstrong himself never had any formal connection with it.",
+      "text": "The museum’s white dome and surrounding earth mounds were designed as parts of a simulated lunar base. Its straight entrance walkway, lined with airport landing lights, represents a lunar landing strip. Governor James Rhodes proposed the museum in July 1969 and pledged $500,000 in state money if the community matched it. More than 9,000 people donated during the first year, surpassing that target. Armstrong attended the opening on July 20, 1972. The collection includes the original Gemini 8 spacecraft and a Moon rock brought back by Apollo 11. Despite bearing his name, the museum had no formal connection with Armstrong.",
+      "notice": "The entrance walkway has airport landing lights, extending the building’s lunar-base design.",
       "at": [
         -84.17111,
         40.56389
@@ -43,18 +45,17 @@
       "url": "https://storymaps.arcgis.com/stories/901ddbb829304a25886248c0494e67c9"
     },
     {
-      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
-      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+      "label": "Wikipedia, Wapakoneta, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Wapakoneta%2C_Ohio"
     },
     {
-      "label": "Wikipedia, Wapakoneta, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Wapakoneta,_Ohio"
+      "label": "Wikipedia, Blume High School",
+      "url": "https://en.wikipedia.org/wiki/Blume_High_School"
     },
     {
       "label": "Wikipedia, Armstrong Air & Space Museum",
       "url": "https://en.wikipedia.org/wiki/Armstrong_Air_%26_Space_Museum"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

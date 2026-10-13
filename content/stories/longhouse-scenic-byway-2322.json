@@ -1,25 +1,33 @@
 {
   "id": "longhouse-scenic-byway-2322",
-  "tagline": "A loop through the oak and cherry, around a contested lake.",
+  "tagline": "Oak and black cherry frame a loop around the Allegheny Reservoir.",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "The loop starts where Longhouse Drive meets Route 321 and climbs through hardwoods and hemlock toward the top of the plateau, under oak and black cherry, where the road can feel like a tunnel. Route 59 takes it past the Rimrock turnoff down to the reservoir, across Cornplanter Bridge, and back around the Kinzua Creek arm on Longhouse Drive, 36 miles in all.",
-    "The lake came late. Kinzua Dam made it in 1965, and the hamlets of Kinzua and Cornplanter were lost, with some of the Seneca Nation's land flooded. Its unofficial name, Lake Perfidy, comes from a Peter La Farge ballad that Johnny Cash recorded."
+    "Longhouse Scenic Byway circles the Kinzua Creek arm of the Allegheny Reservoir on a 36-mile loop through the Allegheny National Forest. Oak, black cherry and hemlock accompany the climb toward the plateau, before the route reaches the reservoir and crosses Cornplanter Bridge. The Forest Service presents the byway as a drive through northern hardwoods, with overlooks, campgrounds and picnic areas along the water. The National Forest Scenic Byway follows Pennsylvania Routes 321 and 59 and Forest Road 262, combining numbered highways with the forest-road return leg.",
+    "The reservoir changed the landscape this loop now follows. Congress authorized Kinzua Dam for flood control after the destructive Pittsburgh-area flood of 1936. The Army Corps of Engineers began construction in 1960 and completed the dam in 1965; filling continued until 1967. Federal condemnation took Seneca land for the reservoir and forced residents to relocate.",
+    "Begin at Route 321 and Longhouse Drive, passing Red Bridge Recreation Area before climbing toward the Old Powerhouse. Beyond the Bradford Ranger Station, Route 59 leads past the Rimrock turnoff to the reservoir, with Kinzua Beach on the left. Cross Cornplanter Bridge and take Longhouse Drive back toward Route 321, with a side loop to Jakes Rocks Overlook."
   ],
   "moments": [
     {
       "title": "Old Powerhouse",
       "kind": "roadside",
       "scene": "forest",
-      "text": "A scrap-metal powerhouse from 1939 drove the rod lines to the oil pumps for half a century, in country where the Bradford field once supplied over 90 percent of the nation's petroleum."
+      "text": "The Old Powerhouse explains how one engine could lift oil from underground. Its Cooper-Bessemer single-piston engine powered belts, wheels and rod lines; the mechanism changed horizontal motion into the vertical stroke needed at the well. The scrap-metal building dates to 1939 and worked for half a century. That machinery belongs to the larger history of the Bradford oil field, founded in 1875. The Forest Service and its partners restored the powerhouse as an interpretive site, preserving a place to understand the equipment and its work. Early twentieth-century oil fields used different pumping systems, each with its own solution to moving power from engine to well."
+    },
+    {
+      "title": "Allegheny Reservoir",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "The water beside the byway is a constructed landscape. Kinzua Dam was built for flood control, and the resulting reservoir extends into Pennsylvania and New York. Its creation flooded Seneca land and forced people from their homes. The federal government also condemned most of the Cornplanter Tract in Pennsylvania, including a cemetery containing Cornplanter’s remains and those of descendants and followers. The state exhumed and reburied remains in a new cemetery near Bradford. The reservoir now lies within a landscape of national forest, state park and the Seneca Nation’s Allegany Reservation."
     },
     {
       "title": "Jakes Rocks Overlook",
       "kind": "short walk",
       "scene": "forest",
-      "text": "Hardened paths wander through the woods, past trees growing through the boulders, to a rock outcrop looking over Jackson Bay, Kinzua Dam and the forest beyond.",
+      "text": "Trees grow through the boulders at Jakes Rocks, and sometimes on top of them. Hardened paths lead through the woods to a rock outcrop overlooking Jackson Bay, Kinzua Dam and the surrounding forest. The trail loops through the day-use area, passing large boulders before reaching the overlook built onto one of them. The approach road also makes a loop, with pull-offs for views of the reservoir. Wildflowers, mosses and fungi grow along the walking paths, among trees rooted through and on the rocks. Mountain laurel grows along the heavily forested access road, which leads to the walking loop and its boulders.",
+      "notice": "Look for trees growing through and on the large boulders.",
       "motifs": [
         "lake-wide"
       ]
@@ -31,18 +39,25 @@
       "url": "https://www.fs.usda.gov/r09/allegheny/recreation/longhouse-national-scenic-byway"
     },
     {
+      "label": "Wikipedia, List of Pennsylvania Scenic Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Pennsylvania_Scenic_Byways"
+    },
+    {
+      "label": "Wikipedia, Kinzua Dam",
+      "url": "https://en.wikipedia.org/wiki/Kinzua_Dam"
+    },
+    {
       "label": "USDA Forest Service, Old Powerhouse",
       "url": "https://www.fs.usda.gov/r09/allegheny/recreation/old-powerhouse"
     },
     {
-      "label": "USDA Forest Service, Jakes Rocks Overlook",
-      "url": "https://www.fs.usda.gov/r09/allegheny/recreation/jakes-rocks-overlook"
-    },
-    {
       "label": "Wikipedia, Allegheny Reservoir",
       "url": "https://en.wikipedia.org/wiki/Allegheny_Reservoir"
+    },
+    {
+      "label": "USDA Forest Service, Jakes Rocks Overlook",
+      "url": "https://www.fs.usda.gov/r09/allegheny/recreation/jakes-rocks-overlook"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

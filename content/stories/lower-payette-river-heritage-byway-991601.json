@@ -1,19 +1,20 @@
 {
   "id": "lower-payette-river-heritage-byway-991601",
-  "tagline": "Up the Payette from the Snake, through the Gem of Plenty.",
+  "tagline": "Follow the Payette past a ferry town and a fruit-growing valley",
   "motifs": [
     "orchard"
   ],
   "intro": [
-    "Idaho 52 starts near the mouth of the Payette, where native tribes gathered their winter food, and follows the river east through Payette and Emmett, then up Black Canyon past the diversion dam of the early 1920s to Horseshoe Bend. Ruts of the Goodale Trail can still be seen along the way.",
-    "Settlers bound west for land came this way, passing others headed east for the gold and silver fields. The Falk store site marks what was the only stage stop between Boise and Umatilla, Oregon."
+    "The Lower Payette River Heritage Byway follows Highway 52 east from the Snake River through Payette, Emmett and Horseshoe Bend. Visit Idaho presents this scenic byway as a drive through rural scenery, with historic museums, parks and orchards among its attractions. The road is a paved, two-lane highway with occasional passing lanes, continuing into Black Canyon beyond Emmett. Bluffs, the river and Black Canyon Reservoir give the journey its changing shape. Speeds are restricted through the cities along the highway.",
+    "The highway corridor existed by 1929 as part of State Highway 16. State Highway 52 was created in 1938, then extended west from Emmett toward New Plymouth, Payette and the state line in 1955. In the valley it crossed, irrigation projects had helped Emmett expand as a service center for farms and fruit growers. Fruit packers adopted the name “Gem of Plenty” in the early 1900s, linking the valley’s identity to its crops.",
+    "Start at the Snake River and travel through Payette, whose beginnings lay in a railroad construction camp. Continue east to Emmett, then turn north with Highway 52 before following it east into Black Canyon. Beyond the dam and reservoir, Horseshoe Bend marks the highway’s end and the river’s horseshoe-shaped turn."
   ],
   "moments": [
     {
       "title": "Payette",
       "kind": "town",
       "scene": "town",
-      "text": "Payette began as Boomerang, a railroad camp where logs floated down the river to be sawn into ties, and took the name of a fur trader remembered as a large, merry man.",
+      "text": "Before it was Payette, the settlement was Boomerang, an Oregon Short Line construction camp at the river’s mouth from 1882 to 1884. The camp’s work depended on both water and rail: logs floated down the Payette to its sawmills, where they were sawn into ties for the new railroad. Once the railroad was finished, the settlement moved upstream to its present location. It incorporated as Payette in 1891, taking the name of French-Canadian fur trapper François Payette. He had headed the Hudson’s Bay Company’s Fort Boise trading post from 1835 to 1844. The town became the county seat when Payette County was created in 1917.",
       "at": [
         -116.92528,
         44.07889
@@ -23,7 +24,7 @@
       "title": "Emmett",
       "kind": "town",
       "scene": "town",
-      "text": "Emmett grew up around a ferry crossing on the Payette, and in the early 1900s its fruit packers labeled the valley the Gem of Plenty.",
+      "text": "The “Gem of Plenty” label began with fruit packers in the early 1900s, when irrigation was helping Emmett grow into a service center for the surrounding farming valley. The town had developed beside a ferry built by Nathaniel Martin and Jonathan Smith. Its first name, Martinsville, gave way to Emmettville, a post-office name honoring an early settler’s son. The post office moved, but the town kept the name, later shortened to Emmett. The Idaho Northern Railroad arrived in the valley in March 1902. East of the city stands Black Canyon Diversion Dam, originally completed in 1924 and reconstructed between 1951 and 1955.",
       "at": [
         -116.495,
         43.87278
@@ -36,7 +37,8 @@
       "title": "Horseshoe Bend",
       "kind": "town",
       "scene": "river",
-      "text": "The town sits on a horseshoe turn of the Payette and began as a camp where prospectors waited for the snow to melt off the Boise Basin gold country.",
+      "text": "The Payette turns from south to north here before heading west toward Black Canyon Reservoir, giving Horseshoe Bend its name. Prospectors first used the place as a staging area, waiting beside the river for snow to thaw at higher elevations after the Boise Basin gold discovery of 1862. Called Warrinersville after a sawmill operator, the settlement became Horseshoe Bend in 1867. Ranching and logging followed the gold rush, and a railroad from Emmett to Long Valley was completed in 1913. The sawmill operated by Boise Cascade, the city’s primary employer, closed on September 30, 1998.",
+      "notice": "The Payette River makes a horseshoe-shaped turn before flowing west toward Black Canyon Reservoir.",
       "at": [
         -116.19972,
         43.91639
@@ -45,11 +47,15 @@
   ],
   "sources": [
     {
-      "label": "Visit Idaho, Lower Payette River Heritage Byway (Wayback Machine, 2021)",
-      "url": "https://web.archive.org/web/20211021220519/https://visitidaho.org/things-to-do/road-trips/lower-payette-river-heritage-byway/"
+      "label": "Visit Idaho, Lower Payette River Heritage Byway (archived 2026)",
+      "url": "https://web.archive.org/web/20260211192556/https://visitidaho.org/things-to-do/ziplining/lower-payette-river-heritage-byway/"
     },
     {
-      "label": "Visit Idaho, Lower Payette River Heritage Byway (Wayback Machine, 2014)",
+      "label": "Wikipedia, Emmett, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Emmett%2C_Idaho"
+    },
+    {
+      "label": "Visit Idaho, Lower Payette River Heritage Byway (archived 2014)",
       "url": "https://web.archive.org/web/20140712101123/http://www.visitidaho.org/scenic-byways/lower-payette-river-heritage-byway/"
     },
     {
@@ -58,17 +64,16 @@
     },
     {
       "label": "Wikipedia, Payette, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Payette,_Idaho"
-    },
-    {
-      "label": "Wikipedia, Emmett, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Emmett,_Idaho"
+      "url": "https://en.wikipedia.org/wiki/Payette%2C_Idaho"
     },
     {
       "label": "Wikipedia, Horseshoe Bend, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Horseshoe_Bend,_Idaho"
+      "url": "https://en.wikipedia.org/wiki/Horseshoe_Bend%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Black Canyon Diversion Dam",
+      "url": "https://en.wikipedia.org/wiki/Black_Canyon_Diversion_Dam"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

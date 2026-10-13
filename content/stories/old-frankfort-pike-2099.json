@@ -1,16 +1,18 @@
 {
   "id": "old-frankfort-pike-2099",
-  "tagline": "Between stone fences on the old road to Frankfort.",
+  "tagline": "Two lanes through limestone fences, hardwood canopy and Thoroughbred country.",
   "intro": [
-    "This stretch of KY 1681 was part of the original road between Frankfort and Lexington, and it is still two lanes all the way, running east from Duckers Station Road in Woodford County to Wolf Run Creek at the edge of Lexington. Underneath lies phosphate-rich limestone, full of springs that flow for miles and then sink out of sight.",
-    "For about two miles the trees close overhead and dry-laid limestone fences hold the shoulders. Along the rest of the way come railroad stations, country churches, a tavern from the late eighteenth century and double-fenced fields of Thoroughbreds. There is one four-way stop, at Midway Road."
+    "Old Frankfort Pike runs two lanes through Kentucky’s gently rolling Bluegrass country, past dry-laid limestone fences and double-fenced horse fields. For two miles, trees form a canopy over the road. The Federal Highway Administration recognizes this National Scenic Byway for a landscape where diversified farming and the international equine industry coexist. The local byway organization gives a nonstop drive from US 60 to the viewing area near Lexington about half an hour. Under the rolling plain lies phosphate-rich limestone, with springs that flow for miles before sinking underground or disappearing into caves.",
+    "This stretch of KY 1681 belonged to the original road between Frankfort and Lexington. In 1988, the Lexington-Frankfort Scenic Corridor organization formed to preserve and conserve the surrounding area. It later sponsored the national byway nomination, and the road received that designation in 2021. The designated 15.5 miles pass through six National Register rural historic districts.",
+    "Drive east from Duckers Station Road in Woodford County toward Wolf Run Creek at Lexington’s edge. KY 1681 passes the former Woodburn Stud, now operated as Airdrie Stud. Midway Road has the route’s four-way stop. Near the eastern end, the viewing area at Alexandria Drive explains the pike’s history. Off the pike, McConnell Springs adds a separate excursion to the encampment where Lexington was named."
   ],
+  "notice": "Dry-laid limestone fences border the two-mile stretch beneath the trees.",
   "moments": [
     {
       "title": "Woodburn Stud",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "The farm where the stallion Lexington stood as America's leading sire for sixteen years was turned over to cattle in the early 1900s, and has bred horses again since 1972 as Airdrie Stud.",
+      "text": "Woodburn’s horse-breeding history includes a break for cattle. During the nineteenth century, the farm was home to Lexington, America’s leading sire for sixteen years. His offspring included Preakness, the horse whose name became that of the Preakness Stakes. Woodburn also bred Standardbreds for harness racing and was best known for these trotting horses during the middle and later nineteenth century. After A. J. Alexander died in 1902, the operation declined and the land shifted to cattle. Horse breeding returned in 1972 under the Airdrie Stud name, on land that includes much of the former Woodburn property.",
       "at": [
         -84.74,
         38.14
@@ -20,13 +22,14 @@
       "title": "Old Frankfort Pike Visitor Viewing Area",
       "kind": "short walk",
       "scene": "town",
-      "text": "At the roundabout with Alexandria Drive a brick loop trail passes panels on the history of the pike, and a statue of Secretariat keeps the middle of the roundabout."
+      "text": "A bronze Secretariat stretches across the roundabout at Alexandria Drive. The viewing area sits to its southeast, with a brick-paved loop and interpretive panels on the pike and the wider Lexington-Frankfort Scenic Corridor. The statue is visible from the viewing area. This is the Lexington end of a road recognized as a Kentucky Scenic Byway since the 1990s and a National Scenic Byway since February 2021.",
+      "notice": "Secretariat’s bronze figure occupies the roundabout, visible from the viewing area."
     },
     {
       "title": "McConnell Springs",
       "kind": "separate excursion",
-      "scene": "town",
-      "text": "William McConnell's party camped at these springs in June 1775 and named the camp Lexington, beside water that rises, sinks underground and surfaces again a third of a mile away.",
+      "scene": "river",
+      "text": "At McConnell Springs, water appears above ground, disappears and returns, finally surfacing again a third of a mile away. The limestone landscape contains sinkholes, underground streams and springs formed as water dissolves soluble rock. William McConnell’s party camped here in June 1775 and named the camp Lexington in honor of the Revolutionary War battle in Massachusetts. Later uses left stone fences, a barn foundation and a small quarry visible in the park. The park opened to the public in 1994 after debris removal and restoration work. The Blue Hole spring’s blue appearance comes from its fifteen-foot depth.",
       "at": [
         -84.52777778,
         38.05527778
@@ -35,19 +38,15 @@
   ],
   "sources": [
     {
+      "label": "Lexington-Frankfort Scenic Corridor, Old Frankfort Pike National Scenic Byway description",
+      "url": "https://www.oldfrankfortpike.org/visitor-viewing-area/old-frankfort-pike-national-scenic-byway/"
+    },
+    {
       "label": "Lexington-Frankfort Scenic Corridor, Old Frankfort Pike National Scenic Byway",
       "url": "https://www.oldfrankfortpike.org/"
     },
     {
-      "label": "Lexington-Frankfort Scenic Corridor, Old Frankfort Pike National Scenic Byway (byway description)",
-      "url": "https://www.oldfrankfortpike.org/visitor-viewing-area/old-frankfort-pike-national-scenic-byway/"
-    },
-    {
-      "label": "Lexington-Frankfort Scenic Corridor, The Visitor Viewing Area",
-      "url": "https://www.oldfrankfortpike.org/visitor-viewing-area/"
-    },
-    {
-      "label": "FHWA America's Byways, Old Frankfort Pike Historic and Scenic Byway",
+      "label": "Federal Highway Administration, Old Frankfort Pike Historic and Scenic Byway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/81495"
     },
     {
@@ -59,10 +58,13 @@
       "url": "https://en.wikipedia.org/wiki/Woodburn_Stud"
     },
     {
+      "label": "Lexington-Frankfort Scenic Corridor, The Visitor Viewing Area",
+      "url": "https://www.oldfrankfortpike.org/visitor-viewing-area/"
+    },
+    {
       "label": "Wikipedia, McConnell Springs Park",
-      "url": "https://en.wikipedia.org/wiki/McConnell_Springs"
+      "url": "https://en.wikipedia.org/wiki/McConnell_Springs_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

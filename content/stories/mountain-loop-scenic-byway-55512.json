@@ -1,19 +1,20 @@
 {
   "id": "mountain-loop-scenic-byway-55512",
-  "tagline": "A miners' road over Barlow Pass, gravel in the middle.",
+  "tagline": "Mining routes became a mountain drive with gravel at its heart",
   "motifs": [
     "mining-town"
   ],
   "intro": [
-    "The byway begins at Granite Falls, but the line drawn here starts a few miles short of Verlot and follows the South Fork Stillaguamish River upstream past Verlot and Silverton and under Big Four Mountain to Barlow Pass, at 2,349 feet. There the pavement quits. The road turns north as gravel Forest Road 20 and follows the Sauk River down past Bedal, picking up pavement again at the Whitechuck bridge into Darrington.",
-    "Miners pushed the way through in 1891, when the surveyor M.Q. Barlow blazed a route from Silverton toward the strikes at Monte Cristo, and a railroad started up the same line the next year. Loggers and the CCC made a road of it later. The tracks are gone."
+    "Mountain Loop links Granite Falls and Darrington through river valleys and glacier-clad peaks in Washington’s Cascades. The Forest Service describes this National Forest Scenic Byway, designated in 1991, through its abandoned claims, former boomtowns and mountain scenery. Pavement gives way to a single-lane gravel middle section, and lingering snow at Barlow Pass usually limits the full drive to late spring through fall.",
+    "The route’s beginnings lie in the mining traffic of 1891, when wagon roads opened access to Monte Cristo. Mining interests funded a road from Silverton over Barlow Pass to join the Sauk wagon road. Loggers and the Civilian Conservation Corps later developed the road. Highway construction ran from 1936 to 1941. The CCC work connected ranger stations at Granite Falls and Darrington and opened backcountry to logging and recreation. Flood damage later interrupted the connection: a 2003 flood and subsequent windstorms kept the highway closed until its reopening on June 25, 2008.",
+    "From Granite Falls, follow the South Fork Stillaguamish past Verlot and Silverton toward Big Four Mountain. At Barlow Pass the road turns north, becoming gravel Forest Route 20 and following the Sauk toward Darrington. Pavement returns at Whitechuck, with the drive ending at State Route 530. Despite its name, Mountain Loop needs other highways to complete a circuit."
   ],
   "moments": [
     {
       "title": "Verlot",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Civilian Conservation Corps crews put up the ranger buildings here between 1933 and 1942, and the Forest Service still opens them in season to help plan an outing.",
+      "text": "The Civilian Conservation Corps left a visible record beside the South Fork Stillaguamish at Verlot: the buildings of its Public Service Center. Crews built the complex between 1933 and 1942, and the buildings are listed on the National Register of Historic Places. The former ranger station became a visitor center after combining with the Darrington Ranger District. The Forest Service operates the center seasonally, with staff helping visitors plan outings. Its Depression-era architecture survives alongside the road the CCC helped develop. Inside, a museum accompanies maps and information on mountain weather and hiking, giving the old administrative building a visitor role.",
       "at": [
         -121.76277778,
         48.08583333
@@ -23,7 +24,8 @@
       "title": "Big Four Ice Caves",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "Avalanche snow piles up under the mountain's 4,200-foot north face and can last all year in its shade, and hikers are told to stay out of the caves that melt into it.",
+      "text": "Summer meltwater makes the caves at Big Four, flowing beneath avalanche debris piled at the mountain’s north face. That face rises 4,200 feet, and the piles may remain year-round in its permanent shade. The caves can collapse: hikers are advised to stay out of them. The approach has changed too, after river flooding destroyed a major footbridge in 2006. Repairs finished in 2009, but later erosion closed the bridge again in 2019; it reopened in November 2022. Big Four and neighboring Hall Peak are visible from the picnic area where the trail starts.",
+      "notice": "Big Four Mountain and Hall Peak are visible from the picnic area at the trail’s start.",
       "at": [
         -121.5196,
         48.0539
@@ -33,7 +35,7 @@
       "title": "Monte Cristo",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Four miles beyond Barlow Pass, on a road closed to motor vehicles, the town that started it all mined gold and silver from 1889 to 1907, then carried on as a resort until 1983.",
+      "text": "Monte Cristo’s gold and silver mines drew wagon roads and a railway into these mountains. By 1893 there were 211 mining claims, and a five-level concentrator followed in 1894 to process ore at the townsite. Floods in 1896 and 1897 damaged the railway, and repair bills cut into mining profits. Mining ended in 1907; tourism carried on until the remaining lodge burned in 1983. Few original structures survive. The former town is reached by a separate four-mile route from Barlow Pass, closed to motor vehicles. A preservation association formed in 1983 to save and restore the historical site after the lodge fire.",
       "at": [
         -121.39388889,
         47.98555556
@@ -44,7 +46,7 @@
     }
   ],
   "practical": [
-    "The middle section north of Barlow Pass is single-lane gravel, and snow lingering at Barlow Pass usually limits the full drive to late spring through fall."
+    "Verlot: Snow at Barlow Pass usually limits the full drive to late spring through fall. The middle 14 miles are single-lane gravel. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -56,14 +58,25 @@
       "url": "https://en.wikipedia.org/wiki/Mountain_Loop_Highway"
     },
     {
-      "label": "Wikipedia, Monte Cristo, Washington",
-      "url": "https://en.wikipedia.org/wiki/Monte_Cristo,_Washington"
+      "label": "Wikipedia, Darrington, Washington",
+      "url": "https://en.wikipedia.org/wiki/Darrington%2C_Washington"
+    },
+    {
+      "label": "Wikipedia, Verlot Ranger Station Public Service Center",
+      "url": "https://en.wikipedia.org/wiki/Verlot_Ranger_Station-Public_Service_Center"
     },
     {
       "label": "Wikipedia, Big Four Ice Caves",
       "url": "https://en.wikipedia.org/wiki/Big_Four_Ice_Caves"
+    },
+    {
+      "label": "Wikipedia, Hall Peak (Washington)",
+      "url": "https://en.wikipedia.org/wiki/Hall_Peak_%28Washington%29"
+    },
+    {
+      "label": "Wikipedia, Monte Cristo, Washington",
+      "url": "https://en.wikipedia.org/wiki/Monte_Cristo%2C_Washington"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

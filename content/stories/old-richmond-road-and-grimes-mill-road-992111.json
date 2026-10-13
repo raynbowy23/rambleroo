@@ -1,16 +1,28 @@
 {
   "id": "old-richmond-road-and-grimes-mill-road-992111",
-  "tagline": "Quarried stone beside Boone's Creek.",
+  "tagline": "A short Kentucky drive with stone buildings and a former mill",
   "intro": [
-    "From near the entrance to Jacobson Park, the byway runs southeast across I-75 and follows Grimes Mill Road to McCalls Mill Road, 6.8 miles in all. Grimes Mill Road carries on a little past that end to Boone's Creek and the Grimes House and Mill Complex, with its house, mill, springhouse, and cemetery, and the foundations of a flax house and a distillery.",
-    "The mill rises two and a half stories, its quarried-stone walls three and a half feet thick around a hand-hewn wooden frame. It was in use until 1927."
+    "Old Richmond Road and Grimes Mill Road form a 6.8-mile corridor in Fayette County, crossing I-75 and ending at McCalls Mill Road. The Kentucky Transportation Cabinet records its scenic designation on October 6, 1999.",
+    "Nearby on Boone's Creek, the Grimes complex brings the area's industrial past into focus. The mill worked until 1927; the Iroquois Hunt bought it the following year as a permanent headquarters. The complex includes the family home and springhouse as well as foundations left by a flax house and distillery.",
+    "Begin at KY 418 near the entrance to Jacobson Park, then follow the corridor southeast across the interstate and onto Grimes Mill Road. The designated drive finishes at the junction with McCalls Mill Road."
   ],
   "moments": [
+    {
+      "title": "Walnut Hill Church",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Walnut Hill Church began with a log meetinghouse built in 1785. Its replacement, constructed in 1801, used stone and occupied land donated by Levi Todd, Mary Todd Lincoln's grandfather. The building measures 40 by 50 feet. Its windows record a later change: the original two rows of square openings gave way to Gothic shapes in an 1880 renovation. Stone front steps followed as a donation in 1900. The church building entered the National Register of Historic Places in 1973.",
+      "at": [
+        -84.42472222,
+        37.96861111
+      ]
+    },
     {
       "title": "Grimes springhouse",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Across the road from the mill, a quarried-stone springhouse with a stone doorway and an earthen mound faces straight out onto Grimes Mill Road.",
+      "text": "The Grimes springhouse faces directly onto Grimes Mill Road, across from the mill. The quarried-stone building has a stone doorway and an earthen mound. It belongs to a complex that combined domestic life with manufacturing: the family house and cemetery share the site with the mill and the foundations of a flax house and distillery.",
+      "notice": "The springhouse has a stone doorway and an earthen mound, directly beside Grimes Mill Road.",
       "at": [
         -84.34029,
         37.91606
@@ -20,7 +32,7 @@
       "title": "Grimes Mill",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "The Iroquois Hunt, named for the first American-bred horse to win the Epsom Derby, made the old mill its permanent headquarters in 1928.",
+      "text": "Three-and-a-half-foot stone walls enclose a hand-hewn wooden support system at Grimes Mill. The two-and-a-half-story building remained in use as a mill until 1927. In 1928 the Iroquois Hunt purchased it for a permanent headquarters. The organization had been founded in 1880, was active until 1914, and was reestablished in 1926. Its name honors Iroquois, the first American-bred horse to win the Epsom Derby, in 1881. The purchase brought a new purpose to a building whose working life had just ended.",
       "at": [
         -84.33993,
         37.91588
@@ -29,14 +41,17 @@
   ],
   "sources": [
     {
+      "label": "Kentucky Transportation Cabinet, Kentucky State and National Scenic Byways and Highways",
+      "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
+    },
+    {
       "label": "Wikipedia, Grimes House and Mill Complex",
       "url": "https://en.wikipedia.org/wiki/Grimes_House_and_Mill_Complex"
     },
     {
-      "label": "Kentucky Transportation Cabinet, Kentucky State and National Scenic Byways and Highways",
-      "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
+      "label": "Wikipedia, Walnut Hill Presbyterian Church",
+      "url": "https://en.wikipedia.org/wiki/Walnut_Hill_Presbyterian_Church"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

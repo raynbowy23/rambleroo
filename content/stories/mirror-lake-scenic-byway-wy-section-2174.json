@@ -1,38 +1,65 @@
 {
   "id": "mirror-lake-scenic-byway-wy-section-2174",
-  "tagline": "A railroad town with the Uintas ahead.",
+  "tagline": "A railroad town gives way to ranchland beneath the Uinta skyline",
   "intro": [
-    "South from Evanston, WYO 150 is the Wyoming end of the Mirror Lake road, about twenty minutes of driving before the byway carries on into Utah toward Kamas. Ahead are the Uinta Mountains, the only major range in the country laid out east to west.",
-    "Evanston began in 1868 as a divisional point on the transcontinental railroad, and for a moment it looked like another end-of-track town. The railroad moved the end of the line west to Wahsatch, and the town went with it. The headquarters came back the next June, and an 1871 machine shop and roundhouse gave Evanston a longevity many railroad towns lacked."
+    "Wyoming Highway 150 heads south from Evanston toward the Uinta Mountains, crossing ranch country on the way to the Utah line. WYDOT describes sagebrush flats and aspen and conifer forests along the route out of town. Both Wyoming and Utah have designated their portions as state scenic byways. Wyoming’s tourism office highlights the southbound mountain panorama and gives the Wyoming drive as about 20 minutes.",
+    "Evanston began in 1868 as a divisional point on Union Pacific’s transcontinental railroad. Timber and water along the Bear River made it a locomotive refueling station; it later became a stop on the Lincoln Highway. The Mirror Lake route’s connection from Utah developed later: in 1953, Utah extended SR-150 east and north via Mirror Lake to the Wyoming state line. Interstate 80 now bisects the former railroad divisional town.",
+    "Start in Evanston, where restored railroad buildings include a downtown roundhouse. Bear River State Park lies on the city’s east side, connected to downtown by the Bear River Greenway. Heading south, the byway crosses the Bear River six miles from Evanston. Sulphur Creek Reservoir is within sight of the road nine miles south of town. Across the state line, Utah Highway 150 continues into the Uinta Mountains toward Kamas."
   ],
+  "notice": "The Uinta Mountains form the panorama ahead when traveling south from Evanston.",
   "moments": [
     {
       "title": "Evanston",
       "kind": "town",
       "scene": "town",
-      "text": "Restored railroad buildings, a roundhouse among them, stand downtown in a town that once moved twelve miles west in three days and then came back.",
+      "text": "Restored railroad buildings, including a roundhouse, stand downtown in a town that almost moved away. After the first train arrived in December 1868, railroad managers ordered the end of the line moved twelve miles west to Wahsatch. Within three days, most of Evanston had followed. Headquarters returned in June 1869, and construction of a machine shop and roundhouse in 1871 helped make the town last. Depot Square’s Chinese Joss House is a 1990 reconstruction; the original burned in 1922. The reconstructed Joss House contains a scale model of Evanston’s original Chinatown and artifacts from the nineteenth and twentieth centuries.",
       "at": [
         -110.96323611,
         41.26828056
       ]
     },
     {
+      "title": "Bear River State Park",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "An arched footbridge crosses the Bear River at the state park on Evanston’s east side. The park straddles the river and covers 324 acres. Established in 1991, it forms the eastern end of the city’s Bear River Greenway, connecting the park with downtown. Its paths include both paved and packed-gravel trails, used for cross-country skiing in winter. Wildlife viewing includes a small captive herd of bison and elk; the animals are kept within an enclosure. A visitors center and picnic facilities provide other places to pause beside this stretch of river.",
+      "notice": "The park’s arched footbridge spans the Bear River.",
+      "at": [
+        -110.93833333,
+        41.26472222
+      ]
+    },
+    {
       "title": "Uinta Mountain view",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Southbound, the Wyoming section opens on a panoramic view of the Uintas before the road continues into Utah."
+      "text": "The Wyoming stretch gives southbound travelers a panoramic view of the Uinta Mountains. The range runs east to west. Below that mountain country, the Bear River crosses the byway six miles south of Evanston. Its waters begin in the Uintas and pass through Utah, Wyoming and Idaho before emptying into Great Salt Lake. Sulphur Creek Reservoir lies within sight of the byway nine miles south of Evanston, before the state-line crossing. The road continues across the state line as Utah Highway 150, entering the Uinta Mountains and national forest on the way to Kamas."
     }
   ],
+  "practical": [
+    "Uinta Mountain view: The Utah continuation, SR-150, closes to automobiles during winter. (checked 2026-10-11)"
+  ],
   "sources": [
+    {
+      "label": "Wyoming Department of Transportation, Mirror Lake Scenic Byway & Big Spring Scenic Backway",
+      "url": "https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Planning/Mirror%20Lake%20Scenic%20Byway%20%26%20Big%20Spring%20Scenic%20Backway.pdf"
+    },
+    {
+      "label": "Wikipedia, Evanston, Wyoming",
+      "url": "https://en.wikipedia.org/wiki/Evanston%2C_Wyoming"
+    },
     {
       "label": "Wyoming Office of Tourism, Mirror Lake Scenic Byway",
       "url": "https://travelwyoming.com/listing/mirror-lake-scenic-byway/755/"
     },
     {
-      "label": "Wikipedia, Evanston, Wyoming",
-      "url": "https://en.wikipedia.org/wiki/Evanston%2C_Wyoming"
+      "label": "Wikipedia, Utah State Route 150",
+      "url": "https://en.wikipedia.org/wiki/Utah_State_Route_150"
+    },
+    {
+      "label": "Wikipedia, Bear River State Park",
+      "url": "https://en.wikipedia.org/wiki/Bear_River_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

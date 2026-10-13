@@ -1,46 +1,49 @@
 {
   "id": "native-stone-scenic-byway-72337",
-  "tagline": "Limestone barns and fences, and a church named for smuggled rifles.",
+  "tagline": "Limestone moves from hillsides into barns, fences and an abolitionist church",
   "motifs": [
     "limestone-ledges",
     "steeple-town"
   ],
   "intro": [
-    "East of Dover the byway sets out west on K-4 through Eskridge, turns north on K-99 to Alma, and runs west on K-18 past Wabaunsee toward Manhattan, finishing south on K-177 at I-70, about 75 miles in all. The country is built of its own blond limestone, quarried nearby, and it shows in every form from hillside outcrop to stone barn and rough-hewn fence.",
-    "Near the end, a lookout on K-177 faces Konza Prairie, a piece of the largest unplowed tallgrass left in North America, with limestone breaking through the grass."
+    "The Native Stone Scenic Byway links 75 miles of Kansas highways with limestone as its recurring feature. Kansas Tourism presents the scenic byway as a journey through natural rock formations and the work of masons who built communities from local stone. Stone barns and roughhewn fences accompany limestone on the hillsides, while a K-177 overlook faces Konza Prairie. Konza lies within the Flint Hills’ unplowed tallgrass prairie, where limestone outcrops appear throughout the landscape.",
+    "Part of this road corridor has an older traveling story: K-4 roughly follows the Southwest Trail, which connected the Oregon Trail at Topeka with the Santa Fe Trail at Council Grove. Dover offered one of only two wagon fords on Mission Creek, and an inn grew at that crossing. The Sage Inn’s northern half dates to 1865; its southern half was added in 1878. Around 1900, the railroad went to Harveyville instead of Dover, and the inn and stagecoach station declined.",
+    "Travel west to east from I-70 south of Manhattan, taking K-177 north and K-18 east toward Wabaunsee. K-99 leads south through Alma to K-4, which continues past Lake Wabaunsee and Eskridge toward Dover. The route ends east of Dover at Glick Road."
   ],
+  "notice": "Look for local limestone in hillside formations, stone barns and roughhewn fences.",
   "moments": [
-    {
-      "title": "Lake Wabaunsee",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "Relief crews started digging it in 1933 and the WPA finished in 1937, and in the Second World War it held a branch camp for prisoners of war.",
-      "at": [
-        -96.193,
-        38.863
-      ]
-    },
-    {
-      "title": "Alma",
-      "kind": "town",
-      "scene": "town",
-      "text": "The county seat since it moved over from Wabaunsee after the Civil War, named for either Alma in Germany or a stream in Ukraine, nobody being quite sure which.",
-      "at": [
-        -96.28722,
-        39.01528
-      ]
-    },
     {
       "title": "Beecher Bible and Rifle Church",
       "kind": "roadside",
       "scene": "town",
-      "text": "Built of local limestone for the New Haven colonists whose rifles came west in crates marked Bibles, finished in 1862 with the men seated on one side and the women on the other.",
+      "text": "Local limestone gives the Beecher Bible and Rifle Church its walls; its name comes from the conflict over slavery in Kansas. Henry Ward Beecher helped finance rifles for the New Haven emigrants who settled Wabaunsee. The weapons passed through pro-slavery territory in crates marked “Beecher’s Bibles.” Church member Robert Banks built the church with contrasting stone accents, completing it in 1862 after four years of construction. A wooden bell tower rises above the gabled roof; inside, the main space was divided into men’s and women’s sides. Metal stovepipes connect the perimeter wood stoves to a central brick chimney.",
+      "notice": "The limestone walls have contrasting stone accents beneath a gabled roof and wooden bell tower.",
       "at": [
         -96.34556,
         39.14444
       ],
       "motifs": [
         "steeple-town"
+      ]
+    },
+    {
+      "title": "Alma",
+      "kind": "town",
+      "scene": "town",
+      "text": "Alma’s downtown concentrates its architectural history along Missouri Street between Second and Fifth streets. The historic district includes 21 contributing buildings, among them commercial buildings, a post office and a fire station. The county seat moved here from Wabaunsee after the Civil War. Then, in 1887, the Chicago, Kansas and Nebraska Railway built its main line through Alma. That same year Joseph and Christena Brandt built a limestone hotel for travelers and railroad passengers. Its tall arched windows and pressed-metal cornice survive in the restored Brandt House. Its entrance faces Missouri Avenue from a downtown corner.",
+      "at": [
+        -96.28722,
+        39.01528
+      ]
+    },
+    {
+      "title": "Lake Wabaunsee",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Lake Wabaunsee began as a relief-work project in 1933, when the Kansas Emergency Relief Corporation established a camp here. The Works Progress Administration took over the digging in 1936 and completed construction in 1937; Eskridge purchased the lake. During World War II, Fort Riley established a branch prisoner-of-war camp at the lake, west of Eskridge. Kansas Tourism now identifies the lake on K-4 as one of the byway’s interpretive sites.",
+      "at": [
+        -96.193,
+        38.863
       ]
     }
   ],
@@ -50,30 +53,41 @@
       "url": "https://www.travelks.com/things-to-do/byways-and-highways/byways/native-stone/"
     },
     {
-      "label": "Wikipedia, Lake Wabaunsee",
-      "url": "https://en.wikipedia.org/wiki/Lake_Wabaunsee"
-    },
-    {
-      "label": "Wikipedia, Eskridge, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Eskridge,_Kansas"
-    },
-    {
-      "label": "Wikipedia, Alma, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Alma,_Kansas"
-    },
-    {
-      "label": "Wikipedia, Wabaunsee, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Wabaunsee,_Kansas"
-    },
-    {
       "label": "Wikipedia, Beecher Bible and Rifle Church",
       "url": "https://en.wikipedia.org/wiki/Beecher_Bible_and_Rifle_Church"
     },
     {
       "label": "Wikipedia, Konza Prairie Biological Station",
       "url": "https://en.wikipedia.org/wiki/Konza_Prairie_Biological_Station"
+    },
+    {
+      "label": "Wikipedia, Dover, Kansas",
+      "url": "https://en.wikipedia.org/wiki/Dover%2C_Kansas"
+    },
+    {
+      "label": "Wikipedia, Eskridge, Kansas",
+      "url": "https://en.wikipedia.org/wiki/Eskridge%2C_Kansas"
+    },
+    {
+      "label": "Wikipedia, Alma Downtown Historic District (Alma, Kansas)",
+      "url": "https://en.wikipedia.org/wiki/Alma_Downtown_Historic_District_%28Alma%2C_Kansas%29"
+    },
+    {
+      "label": "Wikipedia, Wabaunsee, Kansas",
+      "url": "https://en.wikipedia.org/wiki/Wabaunsee%2C_Kansas"
+    },
+    {
+      "label": "Wikipedia, Alma, Kansas",
+      "url": "https://en.wikipedia.org/wiki/Alma%2C_Kansas"
+    },
+    {
+      "label": "Wikipedia, Brandt Hotel",
+      "url": "https://en.wikipedia.org/wiki/Brandt_Hotel"
+    },
+    {
+      "label": "Wikipedia, Lake Wabaunsee",
+      "url": "https://en.wikipedia.org/wiki/Lake_Wabaunsee"
     }
   ],
-  "draft": true,
   "reviewed": false
 }
