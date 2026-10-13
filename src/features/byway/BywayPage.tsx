@@ -19,6 +19,7 @@ import { usePassport } from '../../lib/passport'
 import { Scene } from '../../components/art'
 import { Hero, PageStatus, Sources } from '../../components/ui/Content'
 import { RouteMap } from '../../components/ui/RouteMap'
+import { WhenNear } from '../../components/ui/WhenNear'
 import { toast } from '../../components/ui/Toast'
 import { Postcard } from '../explore/Postcard'
 import { VisitEditor } from '../passport/VisitEditor'
@@ -100,9 +101,11 @@ export default function BywayPage() {
   if (!b) return <NotFound title="Road not found" />
   const point = start?.id === b.id ? start.point : b.center
   const miniature = (
-    <Suspense fallback={null}>
-      <RoadMiniature id={b.id} latitude={b.center[1]} />
-    </Suspense>
+    <WhenNear>
+      <Suspense fallback={null}>
+        <RoadMiniature id={b.id} latitude={b.center[1]} />
+      </Suspense>
+    </WhenNear>
   )
   return (
     <main className={`${roadStyle.roadPage} ${story ? s.editorialPage : ''}`}>

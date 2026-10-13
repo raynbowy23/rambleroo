@@ -27,6 +27,7 @@ it('lists every road, state and collection page in the sitemap, but not the lega
     chapters: [{ code: 'ME', name: 'Maine', tagline: 'Coast.', intro: '', programs: [], sources: [] } as StateChapter],
     collections: [{ slug: 'coast', title: 'Coast', intro: 'Shores.', bywayIds: ['a'] } as unknown as Collection],
     covers: { a: { file: '/photos/a/x.jpg', width: 1, height: 1, alt: '' } as Photo },
+    heroes: { a: { bywayId: 'a', file: '/photos/a/x.jpg', medium: '/photos/a/x-960.webp', width: 1600, height: 1000, alt: '' } as Photo },
     photoOrigin: 'https://photos.example',
   })
   expect(pages.map((p) => p.file)).toEqual([
@@ -44,4 +45,8 @@ it('lists every road, state and collection page in the sitemap, but not the lega
   expect(xml).toContain('<loc>https://rambleroo.app/state/ME</loc>')
   expect(xml).not.toContain('/privacy')
   expect(pages.find((p) => p.file === 'collections/coast.html')!.meta.image?.url).toBe('https://photos.example/a/x.jpg')
+  const road = withMeta(index, pages.find((p) => p.file === 'byway/a.html')!.meta)
+  expect(road).toContain(
+    '<link rel="preload" as="image" fetchpriority="high" crossorigin="anonymous" href="https://photos.example/a/x-960.webp" imagesrcset="https://photos.example/a/x-960.webp 960w, https://photos.example/a/x.jpg 1600w" imagesizes="100vw" />',
+  )
 })

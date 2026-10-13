@@ -14,6 +14,8 @@ export interface PageMeta {
   title: string
   description: string
   image?: { url: string; width: number; height: number; alt: string }
+  /** The page's hero photo, announced in the head so it starts downloading before the app has loaded. */
+  preload?: { src: string; srcSet?: string; sizes?: string }
 }
 
 /** Tab and preview title: the page's own name first, the site name after. */

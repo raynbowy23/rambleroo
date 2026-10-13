@@ -3,6 +3,13 @@ import { expect, test } from '@playwright/test'
 test('miniature town names can be turned off and on', async ({ page }) => {
   await page.goto('/byway/big-bend-scenic-byway-2599')
   const miniature = page.locator('.rr-mini-view')
+  // The miniature mounts only when it comes near the screen, so scroll down the page the way a reader would until it appears.
+  await expect
+    .poll(async () => {
+      await page.evaluate(() => window.scrollBy(0, 600))
+      return miniature.count()
+    })
+    .toBeGreaterThan(0)
   await miniature.scrollIntoViewIfNeeded()
   const town = miniature.locator('.rr-mini-town').first()
   await expect(town).toBeAttached({ timeout: 20000 })

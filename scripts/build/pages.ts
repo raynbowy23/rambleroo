@@ -5,6 +5,7 @@
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { dirname, join } from 'node:path'
+import { photoSources } from '../../src/lib/photoSources.ts'
 import type { BywaySummary, BywayStory, Collection, Photo, StateChapter } from '../../src/lib/types.ts'
 import {
   collectionMeta,
@@ -45,6 +46,14 @@ export function withMeta(html: string, meta: PageMeta) {
           `<meta name="twitter:card" content="summary_large_image" />`,
         ]
       : [`<meta name="twitter:card" content="summary" />`]),
+    // The same src, srcset and sizes as the hero <img>, and the same CORS mode, so the browser reuses this download.
+    ...(meta.preload
+      ? [
+          `<link rel="preload" as="image" fetchpriority="high" crossorigin="anonymous" href="${escape(meta.preload.src)}"` +
+            (meta.preload.srcSet ? ` imagesrcset="${escape(meta.preload.srcSet)}" imagesizes="${escape(meta.preload.sizes ?? '')}"` : '') +
+            ' />',
+        ]
+      : []),
   ]
   const title = /<title>[^<]*<\/title>/
   const description = /<meta name="description" content="[^"]*" \/>/
@@ -60,12 +69,14 @@ export interface SiteData {
   chapters: StateChapter[]
   collections: Collection[]
   covers: Record<string, Photo>
+  /** Each road's first photo, the hero of its road page. */
+  heroes: Record<string, Photo>
   photoOrigin: string
 }
 
 /** Every public page's meta, in sitemap order. Personal pages (trip, passport, shares) and the legal pages stay out. */
 export function publicPages(data: SiteData): { file: string; meta: PageMeta; listed: boolean }[] {
-  const { byways, taglines, chapters, collections, covers, photoOrigin } = data
+  const { byways, taglines, chapters, collections, covers, heroes, photoOrigin } = data
   const sitePhoto = covers[SITE_PHOTO_ROAD]
   const image = sitePhoto && { url: photoUrl(sitePhoto, photoOrigin), width: sitePhoto.width, height: sitePhoto.height, alt: sitePhoto.alt }
   const fixed = (path: string, name: string | undefined, description: string, listed = true) => ({
@@ -97,7 +108,14 @@ export function publicPages(data: SiteData): { file: string; meta: PageMeta; lis
         listed: true,
       }
     }),
-    ...byways.map((b) => ({ file: `byway/${b.id}.html`, meta: roadMeta(b, taglines[b.id], covers[b.id], photoOrigin), listed: true })),
+    ...byways.map((b) => ({
+      file: `byway/${b.id}.html`,
+      meta: {
+        ...roadMeta(b, taglines[b.id], covers[b.id], photoOrigin),
+        preload: heroes[b.id] && photoSources(heroes[b.id], photoOrigin, 'hero'),
+      },
+      listed: true,
+    })),
   ]
 }
 
@@ -134,6 +152,10 @@ export async function loadSiteData(photoOrigin: string): Promise<SiteData> {
     chapters,
     collections: await read<Collection[]>('content/collections.json'),
     covers: await read<Record<string, Photo>>('public/data/photos/covers.json'),
+    heroes: (await read<Photo[]>('content/photos.json')).reduce<Record<string, Photo>>(
+      (first, photo) => ((first[photo.bywayId] ??= photo), first),
+      {},
+    ),
     photoOrigin,
   }
 }
