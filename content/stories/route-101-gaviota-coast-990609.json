@@ -1,16 +1,17 @@
 {
   "id": "route-101-gaviota-coast-990609",
-  "tagline": "Nineteen miles along the bluffs, then north through the pass.",
+  "tagline": "Coastal bluffs lead to a mountain pass with two different roadways.",
   "intro": [
-    "West of Goleta the freeway narrows to an expressway and runs nineteen miles along the Gaviota Coast, often right above the shore, past bluffs, isolated beaches and terraced grassland. Three state parks are strung along it. At Gaviota the road turns sharply north and heads inland through Gaviota Pass, on the line of El Camino Real. Only the northbound lanes go through the tunnel. Southbound traffic keeps the old road.",
-    "At least fourteen Chumash villages once stood on this coast. In 1942 a Japanese submarine shelled the oil pier near Ellwood, and nobody was hurt."
+    "West of Goleta, US 101 narrows from six lanes to four and changes from freeway to expressway, following 19 miles of the Gaviota Coast with frequent views directly over the shore. Bluffs, beaches and terraced grasslands occupy the coastal landscape. The state-designated scenic highway extends 21 miles from Goleta’s northern boundary to Route 1 at Las Cruces, including the inland turn through Gaviota Pass.",
+    "The pass was widened for wagons in 1854 and widened again when the first county road through it was completed in 1861. The California Division of Highways took over in 1915. Increasing traffic brought tunnel construction in 1952 and an opening in 1953; northbound traffic took the new tunnel while southbound traffic kept the original road’s route. Highway construction also changed Las Cruces: its village store was demolished in December 1967 to make room for the interchange beyond the pass.",
+    "Driving west from Goleta, El Capitán is the first of the coast’s three state parks, followed 2.5 miles later by Refugio State Beach. At Gaviota State Park, the highway curves sharply north into the Santa Ynez Mountains. Beyond the tunnel, the journey reaches Las Cruces, where Route 1 branches toward Lompoc and US 101 continues toward Buellton."
   ],
   "moments": [
     {
       "title": "El Capitán State Beach",
       "kind": "roadside",
       "scene": "coast",
-      "text": "Tide pools on the beach and sycamores and oaks in the campground. Monarch butterflies gather here in autumn to spend the winter.",
+      "text": "Tide pools edge El Capitán’s beach, while sycamores and oaks grow in the campground area. Monarch butterflies gather here in autumn to overwinter. The state acquired the original parkland between 1953 and 1967, then added 2,500 acres from El Capitan Ranch in 2002. That addition rises through oak woodland and chaparral to the Santa Ynez ridgelines. In 2021, rebuilding the entrance bridge removed barriers for steelhead trout swimming upstream to reproduce. Water also damaged this entrance: heavy rainfall in January 2023 wrecked the park’s water system and entrance road, prompting evacuation and closure for repairs.",
       "at": [
         -120.02417,
         34.46056
@@ -20,7 +21,7 @@
       "title": "Refugio State Beach",
       "kind": "roadside",
       "scene": "coast",
-      "text": "The Chumash village of Qasil stood on a bluff just east of here. It may have traded with Santa Cruz Island, and remains of boats have been found at the site.",
+      "text": "Near the ocean bluff east of Refugio State Beach stood Qasil, a Chumash village. Boat remains have been found at the site. The beach’s later history reflects the growth of automobile travel: a resort developed here in the early 1920s as motorists began visiting the coast. The Army installed a radar unit at the resort during World War II. After the unit was decommissioned in 1946, the owners sold the property to the state, and it became Refugio State Beach. It is the middle of the three state parks along the Gaviota Coast, west of El Capitán.",
       "at": [
         -120.0725,
         34.46222
@@ -30,7 +31,8 @@
       "title": "Gaviota State Park",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The park runs from the beach to the mountain crest, split by the pass, a deep canyon cut clean through. Sundowner winds are often at their most violent here, mostly in late spring.",
+      "text": "Gaviota State Park extends from the Pacific shore to the crest of the Santa Ynez Mountains. US 101 divides it into two units as the road turns inland through a canyon cut entirely across the range’s southern branch. The western unit contains the beach and campground; upland areas support chaparral, with oak woodland elsewhere. The 420-foot tunnel carries only northbound traffic, while southbound lanes descend through the narrow canyon west of it. Netting covers some road cuts and hillsides to control erosion. Along the roadway, additional netting fences catch rocks that fall toward the pavement.",
+      "notice": "Northbound lanes enter the tunnel; southbound lanes follow the canyon to its west.",
       "at": [
         -120.22917,
         34.49028
@@ -39,12 +41,20 @@
   ],
   "sources": [
     {
+      "label": "Wikipedia, Gaviota Coast",
+      "url": "https://en.wikipedia.org/wiki/Gaviota_Coast"
+    },
+    {
+      "label": "Wikipedia, Gaviota Tunnel",
+      "url": "https://en.wikipedia.org/wiki/Gaviota_Tunnel"
+    },
+    {
       "label": "Wikipedia, U.S. Route 101 in California",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_101_in_California"
     },
     {
-      "label": "Wikipedia, Gaviota Coast",
-      "url": "https://en.wikipedia.org/wiki/Gaviota_Coast"
+      "label": "Wikipedia, Las Cruces, California",
+      "url": "https://en.wikipedia.org/wiki/Las_Cruces%2C_California"
     },
     {
       "label": "Wikipedia, El Capitán State Beach",
@@ -55,18 +65,13 @@
       "url": "https://en.wikipedia.org/wiki/Refugio_State_Beach"
     },
     {
-      "label": "Wikipedia, Qasil, California",
-      "url": "https://en.wikipedia.org/wiki/Qasil,_California"
-    },
-    {
       "label": "Wikipedia, Gaviota State Park",
       "url": "https://en.wikipedia.org/wiki/Gaviota_State_Park"
     },
     {
-      "label": "Wikipedia, Gaviota, California",
-      "url": "https://en.wikipedia.org/wiki/Gaviota,_California"
+      "label": "Wikipedia, Qasil, California",
+      "url": "https://en.wikipedia.org/wiki/Qasil%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

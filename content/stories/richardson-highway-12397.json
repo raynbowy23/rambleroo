@@ -1,65 +1,89 @@
 {
   "id": "richardson-highway-12397",
-  "tagline": "Alaska's oldest highway, from the bison country to Santa's door.",
+  "tagline": "From river crossings to mountain passes on Alaska’s oldest highway",
   "motifs": [
     "river-bluffs"
   ],
   "intro": [
-    "The north end of the Richardson comes up through Delta Junction, where the Alaska Highway runs out, and heads on north for Fairbanks. The road began in 1898 as an Army pack trail to Eagle, an all-American route to the Klondike gold fields. After the Fairbanks strike it was made a wagon road under Wilds P. Richardson, opened to automobiles in the 1920s and paved in 1957.",
-    "Roadhouses stood along the old trail about every 15 to 20 miles. In 1928 a herd of 23 bison was brought up from Montana for the hunters, and it still roams the Delta Junction country."
+    "The Richardson Highway links Fairbanks with Valdez, changing from a divided road near Fairbanks to mountain country farther south. Summit Lake lies above the tree line; near Valdez, Thompson Pass brings glaciers and waterfalls beside the highway. Separate northern and southern sections carry Alaska State Scenic Byway designations. Alaska’s transportation department highlights the northern section’s lakes, restored roadhouse, military telegraph station and early highway work camps.",
+    "The road began as a gold-rush trail to Eagle in 1898. After the Fairbanks gold strike, Wilds P. Richardson worked to upgrade it to a wagon road in 1910. It was improved for automobiles in the 1920s and paved in 1957. Roadhouses had supplied meals, beds and provisions along the trail, typically about 15 to 20 miles apart. As road improvements and automobiles let travelers cover more ground each day, fewer roadhouses remained in business.",
+    "Heading south from Fairbanks, North Pole comes first, followed by Big Delta’s old river crossing. At Delta Junction, the Alaska Highway meets the Richardson. Summit Lake sits just south of Isabel Pass, before the Denali Highway junction at Paxson. The southern approach crosses Thompson Pass and Keystone Canyon to end at Valdez on Prince William Sound."
   ],
   "moments": [
+    {
+      "title": "North Pole",
+      "kind": "town",
+      "scene": "town",
+      "text": "North Pole’s Christmas identity began with a real-estate plan. In 1952, Dahl and Gaske Development Company bought and subdivided the Davis homestead, giving it a name intended to attract a toy manufacturer. The city incorporated the following January. Its streets include Santa Claus Lane, St. Nicholas Drive and Snowman Lane, and streetlights carry candy-cane decorations. The highway later changed the town’s geography: a four-lane alignment built in the 1970s bypassed Davis Subdivision, then effectively the downtown. The Christmas identity also reaches the mail: a community program answers letters addressed to 1 Santa Claus Lane.",
+      "at": [
+        -147.35194,
+        64.75111
+      ]
+    },
     {
       "title": "Rika's Roadhouse",
       "kind": "short walk",
       "scene": "river",
-      "text": "At the old Tanana crossing, John Hajdukovich deeded his roadhouse to Rika Wallen in place of back wages, and she ran it for many years, even after a bridge downriver drew the traffic off.",
+      "text": "Rika Wallen made a hardwood parquet floor from wooden kerosene crates collected from freighters and boatmen. Her roadhouse stood at the Tanana crossing, serving travelers on the route into Alaska’s interior. She acquired it from John Hajdukovich and operated it into the early 1950s. A bridge downstream rerouted the highway and drew travelers away. The building was restored in 1984, using original timbers on a new foundation and restoring portions of the crate floor. It is preserved within Big Delta State Historical Park. Wallen raised sheep and goats, weaving the wool and making butter and cheese from the milk.",
       "at": [
         -145.84058,
         64.15524
       ]
     },
     {
-      "title": "North Pole",
-      "kind": "town",
-      "scene": "town",
-      "text": "The homestead was renamed North Pole in 1952 in hopes of attracting a toy manufacturer, and a trading post opened on the highway that year grew into Santa Claus House, 42-foot Santa and all.",
+      "title": "Summit Lake",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Summit Lake sits above the tree line on the south slope of the Alaska Range, just south of Isabel Pass. At an elevation of 3,300 feet, it occupies the stretch beside Richardson Highway miles 192–196. Creeks feed the lake from several directions, including Gunn Creek from the Gulkana Glacier. The lake in turn forms the headwaters of the Gulkana River, a tributary of the Copper. It reaches a depth of 300 feet and extends 7.1 miles along the mountain slope. Salmon migrate to Gunn Creek at the lake’s north end in late September to spawn.",
       "at": [
-        -147.35194,
-        64.75111
+        -145.55,
+        63.13888889
+      ]
+    },
+    {
+      "title": "Valdez",
+      "kind": "town",
+      "scene": "coast",
+      "text": "The highway ends at a port whose townsite moved after disaster. The 1964 earthquake triggered an underwater landslide that destroyed the main freight dock and killed 32 people. Residents stayed for three more years while a new site was prepared on more stable ground four miles away. Under Army Corps of Engineers supervision, 54 houses and buildings were moved by truck. Valdez remains a commercial fishing port and freight terminal at the head of Port Valdez, with heavily glaciated Chugach Mountains surrounding it. The Trans-Alaska Pipeline also ends here, delivering oil to the marine terminal for loading onto tanker ships.",
+      "at": [
+        -146.34833333,
+        61.13083333
       ]
     }
   ],
   "sources": [
     {
-      "label": "Alaska DOT&PF, Scenic Byways: Richardson Highway north segment",
+      "label": "Alaska Department of Transportation and Public Facilities, Richardson Highway: North Segment",
       "url": "https://dot.alaska.gov/dmio/scenic/byways-richardsonnorth.shtml"
     },
     {
-      "label": "Wikipedia, Richardson Highway",
-      "url": "https://en.wikipedia.org/wiki/Richardson_Highway"
-    },
-    {
-      "label": "Wikipedia, Delta Junction, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Delta_Junction,_Alaska"
-    },
-    {
-      "label": "Wikipedia, Big Delta, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Big_Delta,_Alaska"
+      "label": "Wikipedia, Valdez, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Valdez%2C_Alaska"
     },
     {
       "label": "Wikipedia, Rika's Landing Roadhouse",
       "url": "https://en.wikipedia.org/wiki/Rika%27s_Landing_Roadhouse"
     },
     {
-      "label": "Wikipedia, North Pole, Alaska",
-      "url": "https://en.wikipedia.org/wiki/North_Pole,_Alaska"
+      "label": "Wikipedia, Richardson Highway",
+      "url": "https://en.wikipedia.org/wiki/Richardson_Highway"
     },
     {
-      "label": "Wikipedia, Santa Claus House",
-      "url": "https://en.wikipedia.org/wiki/Santa_Claus_House"
+      "label": "Wikipedia, Summit Lake (Paxson, Alaska)",
+      "url": "https://en.wikipedia.org/wiki/Summit_Lake_%28Paxson%2C_Alaska%29"
+    },
+    {
+      "label": "Wikipedia, North Pole, Alaska",
+      "url": "https://en.wikipedia.org/wiki/North_Pole%2C_Alaska"
+    },
+    {
+      "label": "Wikipedia, Delta Junction, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Delta_Junction%2C_Alaska"
+    },
+    {
+      "label": "Wikipedia, Paxson, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Paxson%2C_Alaska"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

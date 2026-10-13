@@ -1,26 +1,28 @@
 {
   "id": "river-road-2130",
-  "tagline": "The old Westport pike, into Louisville along the Ohio.",
+  "tagline": "An old pike links river communities and Louisville’s ornamental water tower.",
   "intro": [
-    "River Road begins at US 42 near Prospect and runs seven miles southwest beside the Ohio into Louisville, ending at Zorn Avenue. It was built as the Louisville-Westport Pike.",
-    "The railroad came out this way in the 1870s, the Louisville, Harrods Creek and Westport, and never reached Westport. Prospect grew up around one of its stations, named either for the view from the hill or for the expected completion of the line, which went bankrupt in 1879. Louisville families followed the tracks out to build country estates."
+    "River Road connects US 42 near Prospect with Zorn Avenue in Louisville, a seven-mile stretch in Kentucky’s scenic-byway inventory. The Ohio River and Glenview’s high bluffs give this corridor its setting, with old estate houses above the water. The state designated the route on May 24, 1995. At the Louisville end, the waterworks combines a river-facing industrial site with a 183-foot ornamental column, an architectural feature of the drive’s Zorn Avenue endpoint.",
+    "Before it was River Road, this was the Louisville-Westport Pike; its construction brought development to Harrods Creek. The railway reached that community in 1877 and joined the L&N network in 1881. Improved transportation made Harrods Creek a location for suburban estates by the turn of the century, though working farms remained alongside country houses well into the next. Glenview residents helped open the commuter railroad in 1877. The Binghams, Ballards and Belknaps were among the Louisville families who moved into the area after it opened.",
+    "For a drive toward Prospect, begin at the Zorn Avenue end, where the waterworks site overlooks the Ohio. Continue through the Glenview area toward Harrods Creek, centered at River Road and Wolf Pen Branch Road, before finishing at US 42 near Prospect."
   ],
   "moments": [
     {
-      "title": "Harrods Creek",
+      "title": "Louisville Water Tower",
       "kind": "roadside",
       "scene": "river",
-      "text": "Harrod's Tavern was an early stopping point for boats headed downstream, and the building lives on, heavily rebuilt, as the Captain's Quarters bar and restaurant.",
+      "text": "A 183-foot Doric column rises from a Corinthian portico at the Louisville Water Tower. Theodore Scowden and Charles Hermany designed the structures as an ornament intended to win over residents skeptical of the water company. Pumping began in 1860 and ended here in 1909. The column has changed since its first working days: an 1890 tornado destroyed the wood-paneled shaft that protected its iron pipe, and cast iron replaced it. The riverside location served the machinery as well as the architecture: coal boats could deliver the fuel needed to operate the station.",
+      "notice": "The Doric column rises above a Corinthian portico.",
       "at": [
-        -85.6322,
-        38.3265
+        -85.70111,
+        38.28056
       ]
     },
     {
       "title": "Glenview",
       "kind": "town",
       "scene": "river",
-      "text": "Old estate houses stand on high bluffs over the Ohio here, and when Louisville tried to annex the place in 1983 its residents had it made a city of its own.",
+      "text": "Glenview’s old estate houses occupy high bluffs overlooking the Ohio River. Its name began with a horse farm: James C. McFerran bought the estate in 1868 and called his farm Glen View. After McFerran’s death in 1885, John E. Green acquired it and renamed it Glenview Stock Farm. Residents helped other communities open the Louisville, Harrods Creek and Westport Railroad in 1877, and Louisville families moved into the area after the line opened. Many houses now belong to the Glenview Historic District. When Louisville sought annexation in 1983, residents sought separate incorporation; the legislature granted it in 1985.",
       "at": [
         -85.65167,
         38.30194
@@ -30,38 +32,37 @@
       ]
     },
     {
-      "title": "Louisville Water Tower",
-      "kind": "roadside",
+      "title": "Harrods Creek",
+      "kind": "town",
       "scene": "river",
-      "text": "At the end of the byway a 183-foot Doric column rises from a Corinthian portico, built handsome so a skeptical city would warm to the water company that started pumping here in 1860.",
+      "text": "Harrods Creek centers on the meeting of River Road and Wolf Pen Branch Road. A planned town here never developed, even after the Transylvania Company sold lots. Building the Louisville-Westport Pike brought some development, while early nineteenth-century agriculture supplied Louisville with flour and cornmeal. River travelers had their own stopping place at Harrod’s Tavern. Its building survives in heavily rebuilt form as Captain’s Quarters. Farms and country estates remained together here well into the twentieth century, before later subdivisions added another layer of housing. Improved transportation had made the community attractive for suburban estates by the turn of the century.",
       "at": [
-        -85.70111,
-        38.28056
+        -85.6322,
+        38.3265
       ]
     }
   ],
   "sources": [
     {
-      "label": "Kentucky Transportation Cabinet, Kentucky State and National Scenic Byways and Highways",
-      "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
-    },
-    {
       "label": "Wikipedia, Harrods Creek, Louisville",
-      "url": "https://en.wikipedia.org/wiki/Harrods_Creek,_Louisville"
-    },
-    {
-      "label": "Wikipedia, Prospect, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Prospect,_Kentucky"
-    },
-    {
-      "label": "Wikipedia, Glenview, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Glenview,_Kentucky"
+      "url": "https://en.wikipedia.org/wiki/Harrods_Creek%2C_Louisville"
     },
     {
       "label": "Wikipedia, Louisville Water Tower",
       "url": "https://en.wikipedia.org/wiki/Louisville_Water_Tower"
+    },
+    {
+      "label": "Kentucky Transportation Cabinet, Kentucky State and National Scenic Byways and Highways",
+      "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
+    },
+    {
+      "label": "Wikipedia, Glenview, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Glenview%2C_Kentucky"
+    },
+    {
+      "label": "Wikipedia, Louisville WaterWorks Museum",
+      "url": "https://en.wikipedia.org/wiki/Louisville_WaterWorks_Museum"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

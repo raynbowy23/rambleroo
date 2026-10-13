@@ -1,19 +1,31 @@
 {
   "id": "route-10-farmington-990911",
-  "tagline": "A mile of Main Street the railroad passed by.",
+  "tagline": "A canal hotel and colonial meetinghouse along Farmington’s Main Street.",
   "motifs": [
     "steeple-town"
   ],
   "intro": [
-    "Route 10 comes into Farmington Center as Main Street and runs a little over a mile to Route 4, past houses, many of them built before 1835. George Washington came through more than once in the Revolution and called it the village of pretty houses.",
-    "Settled in 1640, the town for a time rivaled Hartford in trade. Then the canal declined and the railroad went around, and Main Street kept the look it had. In 1841 the Mende Africans of the Amistad were housed and taught here while the town raised money to send them home."
+    "Route 10 follows Main Street through Farmington Center, where colonial houses line the historic village street. Connecticut designated the 1.11-mile section between Tunxis Road and Route 4 as a scenic road in 1999. The larger historic district includes 115 buildings built before 1835, most of them houses. That district extends beyond the scenic mile, roughly following Route 10 between Route 4 and US 6; its buildings include the church and former canal hotel.",
+    "Main Street was laid out early in the town’s history. The Farmington Canal operated from 1828 to 1848, and the brick Union Hotel was built circa 1830 to serve its travelers. That building later became part of Miss Porter’s School. Sarah Porter had founded her school in Farmington in 1843. Route 10 acquired its present alignment along Connecticut’s College Highway in 1932, long after the canal era.",
+    "Heading north from Tunxis Road, follow Main Street into the village toward Route 4. Meadow Road provides a side trip to the old Pequabuck Bridge; the First Church of Christ stands at 75 Main Street, and the former Union Hotel belongs to the school in the town center. Beyond Route 4, Route 10 becomes Waterville Road and begins paralleling the Farmington River."
   ],
   "moments": [
+    {
+      "title": "Pequabuck Bridge",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "The old stone arch beside Meadow Road spans a former river channel. The Pequabuck River was moved east when the modern road bridge was constructed. Built in 1832–33, the stone bridge replaced a wooden crossing strained by heavy use; Farmington Canal operators helped pay for it. Its brownstone arch spans 22 feet, with finished stones shaping the curve above the channel. The bridge carried road traffic into the second half of the twentieth century; its paved surface now carries pedestrians and bicycles. The canal crossing that once connected with it has disappeared, leaving only traces of the linking embankment.",
+      "at": [
+        -72.83977778,
+        41.71669444
+      ]
+    },
     {
       "title": "First Church of Christ",
       "kind": "town",
       "scene": "town",
-      "text": "Judah Woodruff's meetinghouse of 1771 keeps its main door and pulpit on the long sides in the original colonial arrangement, under a slender steeple seen for miles.",
+      "text": "The meetinghouse keeps its main entrance and pulpit on the building’s long sides, preserving its colonial arrangement. Judah Woodruff designed this church, built in 1771 as the congregation’s third building. Its slender steeple is visible for miles. In 1841, Africans released after the Amistad revolt stayed with Austin Williams in Farmington and attended the church before returning to Africa. The building became a National Historic Landmark in 1975 for its role in sheltering the Amistad Africans. Although the congregation began in 1652, the meetinghouse that marks Main Street belongs to the century that followed.",
+      "notice": "The main entrance and pulpit occupy the long sides of the meetinghouse.",
       "at": [
         -72.82973611,
         41.72059444
@@ -26,27 +38,34 @@
       "title": "Union Hotel",
       "kind": "town",
       "scene": "town",
-      "text": "Built of brick about 1830 for travelers on the Farmington Canal, the old hotel now holds offices of Miss Porter's School, which occupies much of the village center."
+      "text": "The brick Union Hotel was built circa 1830 for travelers on the Farmington Canal. The canal operated between 1828 and 1848, linking New Haven with Northampton, Massachusetts. In 1848, the hotel became part of Miss Porter’s School. Known as Main House, it now combines student life, dining and administration. A renovation and expansion finished in 2021, another change in a building first intended for canal passengers. Its front door appears on the school’s seal. The school occupies much of the village center, incorporating historic buildings into its day and boarding campus."
     }
   ],
   "sources": [
+    {
+      "label": "Wikipedia, Farmington Historic District (Farmington, Connecticut)",
+      "url": "https://en.wikipedia.org/wiki/Farmington_Historic_District_%28Farmington%2C_Connecticut%29"
+    },
     {
       "label": "Wikipedia, Connecticut Route 10",
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_10"
     },
     {
-      "label": "Wikipedia, Farmington Historic District (Farmington, Connecticut)",
-      "url": "https://en.wikipedia.org/wiki/Farmington_Historic_District_(Farmington,_Connecticut)"
+      "label": "Wikipedia, Farmington, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Farmington%2C_Connecticut"
     },
     {
-      "label": "Wikipedia, Farmington, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Farmington,_Connecticut"
+      "label": "Wikipedia, Miss Porter's School",
+      "url": "https://en.wikipedia.org/wiki/Miss_Porter%27s_School"
+    },
+    {
+      "label": "Wikipedia, Pequabuck Bridge",
+      "url": "https://en.wikipedia.org/wiki/Pequabuck_Bridge"
     },
     {
       "label": "Wikipedia, First Church of Christ, Congregational (Farmington, Connecticut)",
-      "url": "https://en.wikipedia.org/wiki/First_Church_of_Christ,_Congregational_(Farmington,_Connecticut)"
+      "url": "https://en.wikipedia.org/wiki/First_Church_of_Christ%2C_Congregational_%28Farmington%2C_Connecticut%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

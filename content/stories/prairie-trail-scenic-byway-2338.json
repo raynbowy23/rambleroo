@@ -1,19 +1,21 @@
 {
   "id": "prairie-trail-scenic-byway-2338",
-  "tagline": "From the wickedest cow town past sandstone mushrooms to Little Sweden.",
+  "tagline": "Curving roads connect sandstone mushrooms, Kanopolis Lake and Swedish Lindsborg.",
   "motifs": [
     "hoodoos"
   ],
   "intro": [
-    "From I-70 the byway runs into Ellsworth on K-156, then out on K-140 past Mushroom Rock and south on K-141 toward the sandstone canyons around Kanopolis Lake, east on K-4 to Lindsborg, and down Smoky Valley Road to Roxbury and 27th Avenue to Canton, some 80 miles of curving road.",
-    "Ellsworth, at the start, was a cattle town in the late 1860s, with the Kansas Pacific stockyards and a name as the wickedest of them all. Wild Bill Hickok ran for county sheriff there in 1868. He lost."
+    "The Prairie Trail Scenic Byway joins curving roads, sandstone formations and the reservoir landscape at Kanopolis. Kansas Tourism presents this Kansas Byways route as an 80-mile journey through prairie history, Swedish heritage and art. Mushroom Rock supplies the stone shapes; Kanopolis State Park adds sandstone canyons, rolling hills, bluffs and woods.",
+    "At the western end, Ellsworth grew as a railroad cattle town in the late 1860s. Texas herds reached its stockyards for shipment to major markets, but Kansas Pacific closed the pens in 1875 and the trade dwindled. Further along the corridor, a later engineering project changed the Smoky Hill River: the Army Corps of Engineers completed Kanopolis Dam in 1948 for flood control and water conservation. Work had begun in 1940, then stopped in 1942 during World War II. The interruption lasted three and a half years; water storage finally began in February 1948.",
+    "Start at I-70’s exit 225 and take K-156 into Ellsworth, then K-140 east toward Mushroom Rock. K-141 runs south along Kanopolis Lake’s eastern shore and over its dam. Turn east on K-4 toward Lindsborg, then follow Smoky Valley Road to Roxbury and 27th Avenue south to Canton."
   ],
   "moments": [
     {
       "title": "Mushroom Rock State Park",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "The smallest state park in Kansas, five acres of Cretaceous sandstone concretions, the largest 27 feet across, where pioneers and Native Americans once met.",
+      "text": "Two mushrooms and a giant shoe give this five-acre park its unusual collection of rock shapes. The formations preserve beach sands and sediments from the Cretaceous Period. Natural cement holds the sandstone and sedimentary rock together; the mushroom-shaped concretions are cemented with calcium carbonate. The largest rock measures 27 feet across. This is Kansas’s smallest state park, managed by Kanopolis State Park.",
+      "notice": "Look for the two mushroom forms and the giant shoe rock.",
       "at": [
         -98.03056,
         38.72583
@@ -26,7 +28,7 @@
       "title": "Lindsborg",
       "kind": "town",
       "scene": "town",
-      "text": "Settled in 1869 by emigrants from Värmland, Little Sweden sells Dala horses downtown and keeps the Swedish Pavilion from the 1904 St. Louis World's Fair.",
+      "text": "The Swedish Pavilion traveled to Lindsborg after serving as an exposition building at the 1904 St. Louis World’s Fair. At Bethany College it housed classrooms, a library, a museum and art-department facilities. It moved again in 1969 to the museum now called the Lindsborg Old Mill & Swedish Heritage Museum. Immigrants from Sweden’s Värmland province settled Lindsborg in 1869. The town continues to celebrate that heritage through Svensk Hyllningsfest, held every other year. The pavilion itself remains part of that cultural life: the museum uses it for heritage events on its grounds.",
       "at": [
         -97.67389,
         38.57722
@@ -36,7 +38,8 @@
       "title": "Canton",
       "kind": "town",
       "scene": "prairie",
-      "text": "The two water towers read HOT and COLD, painted that way in 1956 at a real estate agent's suggestion, and both hold water at the same temperature.",
+      "text": "Canton’s two water towers offer a choice their contents do not: one says “HOT” in red, the other “COLD” in blue. Both tanks hold water at ambient temperature. The lettering dates to 1956, when local real estate agent Mrs. M.D. Fisher suggested painting the words as a tourist attraction.",
+      "notice": "The tower labels use red for “HOT” and blue for “COLD.”",
       "at": [
         -97.43,
         38.38583
@@ -49,26 +52,33 @@
       "url": "https://www.travelks.com/things-to-do/byways-and-highways/byways/prairie-trail/"
     },
     {
-      "label": "Wikipedia, Ellsworth, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Ellsworth,_Kansas"
-    },
-    {
       "label": "Wikipedia, Mushroom Rock State Park",
       "url": "https://en.wikipedia.org/wiki/Mushroom_Rock_State_Park"
+    },
+    {
+      "label": "Wikipedia, Lindsborg, Kansas",
+      "url": "https://en.wikipedia.org/wiki/Lindsborg%2C_Kansas"
     },
     {
       "label": "Wikipedia, Kanopolis State Park",
       "url": "https://en.wikipedia.org/wiki/Kanopolis_State_Park"
     },
     {
-      "label": "Wikipedia, Lindsborg, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Lindsborg,_Kansas"
+      "label": "Wikipedia, Ellsworth, Kansas",
+      "url": "https://en.wikipedia.org/wiki/Ellsworth%2C_Kansas"
+    },
+    {
+      "label": "Wikipedia, Kanopolis Lake",
+      "url": "https://en.wikipedia.org/wiki/Kanopolis_Lake"
+    },
+    {
+      "label": "Wikipedia, Swedish Pavilion",
+      "url": "https://en.wikipedia.org/wiki/Swedish_Pavilion"
     },
     {
       "label": "Wikipedia, Canton, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Canton,_Kansas"
+      "url": "https://en.wikipedia.org/wiki/Canton%2C_Kansas"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

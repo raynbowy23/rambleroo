@@ -1,19 +1,20 @@
 {
   "id": "prince-of-wales-island-road-system-81454",
-  "tagline": "Logging roads through the rainforest, from totem park to totem park.",
+  "tagline": "Rainforest roads connect Haida and Tlingit communities with totem parks.",
   "motifs": [
     "harbor-village"
   ],
   "intro": [
-    "The ferry from Ketchikan takes three hours to cross to Hollis, a mining town from 1900 to about 1915, later a logging camp, now a hundred people and a ferry landing. From there mostly paved roads run out through the Tongass rainforest to the island's small towns. The island holds the most extensive road system in the whole forest, built for the logging companies and now open to everyone else.",
-    "Not everyone wanted in. In 1974 Point Baker and Port Protection chose not to be connected."
+    "The Prince of Wales Island Road System crosses a landscape of fjords, dense forest and steep mountains. Alaska’s Department of Transportation and Public Facilities presents this scenic byway as a journey through temperate rainforest, Native culture and historical artifacts. Its description covers 260 miles of mostly paved roads linking island communities, with improved gravel roads reaching shorelines and mountains. The Tongass National Forest covers most of the island.",
+    "The network grew out of logging: roads built for timber companies later improved access for hiking and camping. Busier routes between communities were upgraded and paved. That expansion had limits. Point Baker and Port Protection chose in 1974 to remain outside the road system. Hollis shows that change in miniature. Active as a mining town from 1900 to about 1915, it was abandoned, then re-established as a logging camp in the 1950s; it now has a ferry terminal.",
+    "For the town sequence here, begin with Hydaburg on Sukkwan Strait, then Klawock on the island’s west coast, and finish at Kasaan on its eastern coast. Each has a totem park. Farther north, the byway’s attractions include El Capitan Caves and karst landscapes. Logging roads extend beyond the paved network into the forest."
   ],
   "moments": [
     {
       "title": "Hydaburg",
       "kind": "town",
       "scene": "coast",
-      "text": "Three Haida villages on Cordova Bay came together here in 1911, picking the spot for its reliable water, and the town keeps a totem park.",
+      "text": "A reliable water supply determined the location of Hydaburg when three Haida villages consolidated here in 1911. They were Howkan on Long Island, Sukkwan on Sukkwan Island, and Klinkwan at the mouth of Hunter Bay. The town occupies the north shore of Sukkwan Strait, connected to Cordova Bay through Hetta Inlet. A totem park is one place to encounter its carved poles. The association was established in 1938, following the extension of the Indian Reorganization Act to Alaska in 1936. Hydaburg is also headquarters of the Hydaburg Cooperative Association, which remains a federally recognized tribe.",
       "at": [
         -132.82083,
         55.20472
@@ -23,7 +24,8 @@
       "title": "Klawock",
       "kind": "town",
       "scene": "coast",
-      "text": "Twenty-one poles, original and replica, stand in the totem park, brought from the old village of Tuxekan, and in 1878 the first cannery in Alaska opened here.",
+      "text": "Klawock’s totem park displays 21 poles, including originals and replicas from the old village of Tuxekan. The connection reaches back to Tlingit people from Tuxekan who used Klawock as a summer fishing camp. Commercial fish processing followed: a trading post and salmon saltery opened in 1868, then a cannery in 1878. The city later built a carving shed for pole restoration and commissioned a longhouse, Gaanì Ax Adi, in 1998. The town is headquarters of the Klawock Cooperative Association, a federally recognized Tlingit tribe, and has a harbor on Klawock Inlet.",
+      "notice": "The totem park includes both original poles and replicas from Tuxekan.",
       "at": [
         -133.08528,
         55.555
@@ -33,38 +35,46 @@
       "title": "Kasaan",
       "kind": "town",
       "scene": "forest",
-      "text": "The village moved in the early 1900s to be nearer a copper mine, and in 1938 its totem poles followed, to stand now with Chief Son-I-Hat's Whale House.",
+      "text": "Kasaan’s move brought its people closer to mining and cannery work, but the poles followed on another timetable. In 1938, five historic poles and three replicas were moved to New Kasaan. During the 1930s, Civilian Conservation Corps crews restored Chief Son-I-Hat’s clan house, relocated or replicated poles, and cut a trail from the town to the park and cemeteries. Kasaan remains headquarters of the Organized Village of Kasaan, a federally recognized Haida tribe. The community speaks English and the Haida language, and cultural tourism and timber contribute to the tribe’s livelihood.",
       "at": [
         -132.40194,
         55.54167
       ]
     }
   ],
-  "practical": [
-    "Use four-wheel drive or a sturdy SUV for the logging roads. Fuel is sold in Craig, Klawock, Naukati, Thorne Bay, Coffman Cove and Whale Pass."
-  ],
   "sources": [
     {
-      "label": "Alaska DOT&PF, Scenic Byways: Prince of Wales Island Road System",
+      "label": "Alaska Department of Transportation and Public Facilities, Prince of Wales Island Road System",
       "url": "https://dot.alaska.gov/dmio/scenic/byways-pow.shtml"
     },
     {
-      "label": "Wikipedia, Prince of Wales Island (Alaska)",
-      "url": "https://en.wikipedia.org/wiki/Prince_of_Wales_Island_(Alaska)"
-    },
-    {
       "label": "Wikipedia, Hydaburg, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Hydaburg,_Alaska"
+      "url": "https://en.wikipedia.org/wiki/Hydaburg%2C_Alaska"
     },
     {
       "label": "Wikipedia, Klawock, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Klawock,_Alaska"
+      "url": "https://en.wikipedia.org/wiki/Klawock%2C_Alaska"
+    },
+    {
+      "label": "Wikipedia, Prince of Wales Island (Alaska)",
+      "url": "https://en.wikipedia.org/wiki/Prince_of_Wales_Island_%28Alaska%29"
+    },
+    {
+      "label": "Wikipedia, Coffman Cove, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Coffman_Cove%2C_Alaska"
+    },
+    {
+      "label": "Wikipedia, Organized Village of Kasaan",
+      "url": "https://en.wikipedia.org/wiki/Organized_Village_of_Kasaan"
     },
     {
       "label": "Wikipedia, Kasaan, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Kasaan,_Alaska"
+      "url": "https://en.wikipedia.org/wiki/Kasaan%2C_Alaska"
+    },
+    {
+      "label": "Wikipedia, Chief Son-I-Hat's Whale House and Totems Historic District",
+      "url": "https://en.wikipedia.org/wiki/Chief_Son-I-Hat%27s_Whale_House_and_Totems_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

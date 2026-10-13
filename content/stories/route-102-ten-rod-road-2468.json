@@ -1,41 +1,53 @@
 {
   "id": "route-102-ten-rod-road-2468",
-  "tagline": "A drovers' road laid out ten rods wide, paved narrower.",
+  "tagline": "A former livestock route crosses Exeter’s wooded hills and stream valleys.",
   "intro": [
-    "From Route 2 the road heads west across Exeter between farm fields, then into second-growth woods, over five hills between 290 and 560 feet and down through the valleys of the Queen's River headwaters. For its last stretch it turns onto Victory Highway, built in 1927, and runs to Route 3 under arching trees.",
-    "The road was laid out in 1703, ten rods or 165 feet wide, so cattle could graze and water on the way to market at Wickford. Sheep, butter, cheese and wool all came down it. The stone walls that still line much of it mark that old width. In most places the pavement takes up less than 30 feet of it."
+    "Route 102 crosses Exeter’s rolling hills and narrow valleys for 7.3 miles between Routes 2 and 3. Designated a Rhode Island scenic roadway in September 1993, it passes hills reaching 560 feet and five valleys containing headwater streams of the Queen’s River watershed. RIDOT highlights the contrast between hilltop panoramas and enclosed valley views, with pine stands and red maples in the wetlands.",
+    "Most of the highway follows eighteenth-century Ten Rod Road, which carried goods and livestock to market at the colonial port of Wickford. Significant stretches of its original stone walls remain beside the road.",
+    "Heading west from Route 2 toward Route 3 reverses the landscape’s eastward transition from forest to agricultural open space. Ten Rod Road crosses the Queen River, and Lawton’s Mill preserves a wood-frame mill building and surviving waterways along the road. In autumn, the valley and wetland red maples turn scarlet."
   ],
-  "season": "Autumn, when the red maples in the valleys and wetlands turn scarlet.",
+  "notice": "Original stone walls remain beside significant stretches of the old Ten Rod Road.",
   "moments": [
     {
-      "title": "Eastern Gateway picnic area",
-      "kind": "roadside",
-      "scene": "forest",
-      "text": "Under white pines near Route 2, old stone fireplaces sit among the picnic tables, a stopping place for beachgoers in the 1930s and 1940s, according to the 2004 stewardship plan."
-    },
-    {
-      "title": "Exeter Hollow",
+      "title": "Queen River",
       "kind": "roadside",
       "scene": "river",
-      "text": "Between Exeter Hill and Chestnut Hill the road drops into a nineteenth-century village where the 2004 plan found a restored mill on the Queen's River, a schoolhouse and old foundations."
+      "text": "Ten Rod Road crosses the Queen River in Exeter, part of a landscape threaded with headwater streams. The river rises in Dead Swamp in West Greenwich and flows south through Exeter into South Kingstown. There it meets Glen Rock Brook and becomes the Usquepaug River. Sodom Brook, Locke Brook and Rake Factory Brook are among the tributaries feeding it."
     },
     {
       "title": "Chestnut Hill",
       "kind": "town",
       "scene": "town",
-      "text": "Climbing out of the Hollow, the 2004 plan noted a Baptist church, a Grange Hall and an old cemetery in view at the Chestnut Hill settlement."
+      "text": "Chestnut Hill Baptist Church is an 1838 Greek Revival building in Exeter. It entered the National Register of Historic Places in 1978."
+    },
+    {
+      "title": "Lawton’s Mill",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "A dam and raceway extend several hundred feet north of Lawton’s Mill on Ten Rod Road. These waterways survive from the mill’s working years, alongside a wood-frame mill building constructed circa 1820. Also called Albro Mill, the property includes an eighteenth-century house and a nineteenth-century barn enlarged in the early twentieth century. The mill entered the National Register of Historic Places in 1980.",
+      "at": [
+        -71.57027778,
+        41.58166667
+      ]
     }
   ],
   "sources": [
     {
-      "label": "RIDOT, Scenic Roadways",
+      "label": "Rhode Island Department of Transportation, Rhode Island’s Scenic Roadways",
       "url": "https://www.dot.ri.gov/projects/ScenicRoads/index.php"
     },
     {
-      "label": "RIDOT, Route 102 / Ten Rod Road / Victory Highway Scenic Roadway Stewardship Plan (2004), pages 1 to 14",
-      "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Route%20102.pdf"
+      "label": "Wikipedia, Queen River (Rhode Island)",
+      "url": "https://en.wikipedia.org/wiki/Queen_River_%28Rhode_Island%29"
+    },
+    {
+      "label": "Wikipedia, Lawton's Mill",
+      "url": "https://en.wikipedia.org/wiki/Lawton%27s_Mill"
+    },
+    {
+      "label": "Wikipedia, Baptist Church in Exeter",
+      "url": "https://en.wikipedia.org/wiki/Baptist_Church_in_Exeter"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

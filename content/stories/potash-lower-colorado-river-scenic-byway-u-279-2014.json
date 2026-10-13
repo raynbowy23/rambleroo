@@ -1,51 +1,58 @@
 {
   "id": "potash-lower-colorado-river-scenic-byway-u-279-2014",
-  "tagline": "Down the Colorado's gorge to the potash ponds.",
+  "tagline": "A road built for potash follows the Colorado past rock art and arches.",
   "intro": [
-    "Potash Road turns off US 191 just north of Moab, and after 2.7 miles it enters the deep gorge of the Colorado River, following the north bank downstream under reddish-orange sandstone cliffs. Near the four-mile mark climbers work the walls of the stretch called Wall Street. Past Jug Handle Arch the canyon widens, and the sheer cliffs below Dead Horse Point show in the distance.",
-    "The road was built in 1962 and 1963 to serve a potash mine, the first piece of a longer route up to Dead Horse Point that was never finished. At the mine, potash is flushed from underground tunnels with water, and the water is left to evaporate in ponds."
+    "Potash Road follows the Colorado River’s north bank through a gorge of reddish-orange sandstone cliffs. The highway bends with the river along much of its length. The Utah State Legislature designated the entire highway as the Potash-Lower Colorado River Scenic Byway. The Moab Office of Tourism lists 17 miles and one hour for the drive, highlighting river views, rock art and dinosaur tracks.",
+    "Built in 1962–1963, the road served the Cane Creek potash mine and processing plant. Plans also called for a road through Day Canyon to Dead Horse Point, but that climb was never built. In 1975, the legislature deleted the proposed park spur, SR-278, in favor of SR-313 along an existing county road through Sevenmile Canyon. At the mine, water flushed through underground tunnels extracts potash; evaporation ponds then remove the water. Potash is often used as fertilizer.",
+    "Leave U.S. 191 north of Moab and enter the river gorge after 2.7 miles. Wall Street’s climbing cliffs come first, followed by petroglyph panels, the Poison Spider trailhead and the trail to Corona Arch. Beyond Jug Handle Arch the canyon widens, revealing distant cliffs below Dead Horse Point State Park. The pavement ends at the Intrepid Potash Mine."
   ],
   "moments": [
     {
       "title": "Petroglyph panels",
       "kind": "roadside",
       "scene": "river",
-      "text": "At mile 5.1 several panels of petroglyphs show on the cliffs beside the highway, with marked pull-offs across the road."
+      "text": "Several petroglyph panels appear on the cliffs at mile 5.1 from the U.S. 191 turnoff. Driving toward the potash mine, the panels are on the right, while marked pull-offs provide parking on the left. An interpretive sign supplies information at the site.",
+      "notice": "Look for several panels on the cliffs to the right when driving from U.S. 191."
     },
     {
       "title": "Dinosaur tracks",
       "kind": "short walk",
       "scene": "river",
-      "text": "From the Poison Spider trailhead at mile 5.9 a short trail leads to dinosaur tracks and more rock art."
+      "text": "Dinosaur tracks and rock art share a short trail reached from the Poison Spider parking area. The trailhead comes at mile 5.9, on the right when driving from U.S. 191 toward the mine. A kiosk near the vault toilet has the trail map."
     },
     {
       "title": "Corona Arch",
       "kind": "separate excursion",
       "scene": "desert",
-      "text": "A 1.5-mile trail leads to an arch with an opening 140 by 105 feet, also known as Little Rainbow for its likeness to Rainbow Bridge at Lake Powell.",
+      "text": "Corona Arch opens 140 feet across and 105 feet high. The sandstone arch stands in a side canyon of the Colorado River west of Moab. A 1.5-mile hiking trail links it to Potash Road. Trailhead parking for Corona and Bowtie Arches comes at mile 9.9 along the byway. Corona shares its rock formation with Bowtie and Pinto Arches. Its other name, Little Rainbow, refers to its resemblance to Rainbow Bridge at Lake Powell.",
       "at": [
         -109.619887,
         38.579943
       ]
+    },
+    {
+      "title": "Jug Handle Arch",
+      "kind": "roadside",
+      "scene": "desert",
+      "text": "Jug Handle Arch stands beside the highway at mile 13.5. Just beyond it, the canyon widens and the cliffs below Dead Horse Point State Park appear in the distance. The paved drive continues to the Intrepid Potash Mine, where the byway ends."
     }
   ],
   "practical": [
-    "The pavement ends at the potash mine. Beyond it a dirt road continues toward Canyonlands National Park for high-clearance vehicles."
+    "Jug Handle Arch: Pavement ends at the Intrepid Potash Mine. The continuation toward Canyonlands National Park is a dirt road for high-clearance vehicles. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Discover Moab, Potash-Lower Colorado River Scenic Byway (U-279)",
-      "url": "https://www.discovermoab.com/trail/potash-lower-colorado-river-scenic-byway-(u-279)/681e961cc610f14d9362aa64/"
-    },
-    {
       "label": "Wikipedia, Utah State Route 279",
       "url": "https://en.wikipedia.org/wiki/Utah_State_Route_279"
+    },
+    {
+      "label": "Moab Office of Tourism, Potash-Lower Colorado River Scenic Byway (U-279)",
+      "url": "https://www.discovermoab.com/trail/potash-lower-colorado-river-scenic-byway-(u-279)/681e961cc610f14d9362aa64/"
     },
     {
       "label": "Wikipedia, Corona Arch",
       "url": "https://en.wikipedia.org/wiki/Corona_Arch"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

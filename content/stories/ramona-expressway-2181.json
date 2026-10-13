@@ -1,16 +1,17 @@
 {
   "id": "ramona-expressway-2181",
-  "tagline": "Across the San Jacinto Valley, past an old polar landing.",
+  "tagline": "Across a changing valley, where a polar flight ended in 1937.",
   "intro": [
-    "The Ramona Expressway crosses the San Jacinto Valley from the Lake Perris country to San Jacinto. Along the way it passes Lakeview, then comes into a city that was laid out at Five Points in 1883 and incorporated the year the railroad arrived, 1888.",
-    "Agriculture and dairies built the local economy, and tourists came for the nearby hot springs. The valley is also where Helen Hunt Jackson set her story Ramona, written after she visited in the 1880s, and San Jacinto helped start the Ramona Pageant in 1923."
+    "Ramona Expressway links the Lake Perris area with San Jacinto in a valley where agriculture has given way to urban development. The San Jacinto Mountains border the valley on the east; the Santa Rosa Hills lie to the south. Lake Perris itself fills a mountain-rimmed valley between Moreno Valley and Perris.",
+    "Congestion on existing routes prompted the Mid County Parkway proposal, a highway intended to link Perris and San Jacinto. Its planned corridor would follow or replace Ramona Expressway as far as Lake Perris. The first completed piece, the Placentia Avenue interchange at I-215, opened in December 2022.",
+    "Travel east from the Lake Perris area through Lakeview, named for Mystic Lake, then toward San Jacinto. In San Jacinto, Cottonwood Avenue was chosen for a stone marker commemorating Mikhail Gromov’s 1937 flight from Moscow. Continue toward Valle Vista, east of San Jacinto and Hemet, where Bautista Creek meets the San Jacinto River just north of the community."
   ],
   "moments": [
     {
       "title": "Lakeview",
       "kind": "town",
       "scene": "prairie",
-      "text": "Named for nearby Mystic Lake, the community stands on the old Rancho San Jacinto Nuevo y Potrero, an 1846 Mexican land grant that also took in the site of Lake Perris.",
+      "text": "Lakeview takes its name from nearby Mystic Lake. The community and the site of Lake Perris were both included in Rancho San Jacinto Nuevo y Potrero, a Mexican land grant given by Governor Pío Pico to Miguel Pedrorena in 1846. A claim for the rancho went before the Public Land Commission in 1852; the grant was patented in 1883 to T. W. Sutherland, guardian of Pedrorena’s minor children. Lake Perris was completed much later, in 1973, as the southern terminus of the California State Water Project. The grant also included today’s Davis Road Unit of the San Jacinto Wildlife Area.",
       "at": [
         -117.11805556,
         33.83861111
@@ -20,13 +21,13 @@
       "title": "Gromov flight marker, San Jacinto",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "A stone marker on Cottonwood Avenue recalls July 15, 1937, when Mikhail Gromov's crew of three ended a 6,262-mile polar flight from Moscow in San Jacinto."
+      "text": "A stone marker was erected on Cottonwood Avenue to commemorate a flight across the pole from Moscow to San Jacinto. On July 15, 1937, Mikhail Gromov’s three-person crew landed after flying 6,262 miles in a Tupolev ANT-25. Earlier that year, Valery Chkalov’s crew had completed another polar flight at Pearson Airfield in Vancouver. E Clampus Vitus and the Riverside County Department of Transportation erected the San Jacinto marker in the early 1950s, just west of Sanderson Avenue. The landing site also carries California State Historical Landmark designation, number 989."
     },
     {
       "title": "Valle Vista",
       "kind": "town",
       "scene": "river",
-      "text": "Bautista Creek, whose canyon Juan Bautista de Anza passed through in 1774 and 1776, comes down channelized and joins the San Jacinto River just north of town.",
+      "text": "Bautista Creek reaches Valle Vista in a channel, then joins the San Jacinto River north of town and south of the Soboba Reservation. At State Route 74, it becomes part of the levee system managed by the U.S. Army Corps of Engineers. Upstream, the creek descends through Bautista Canyon from headwaters in the San Jacinto Mountains. The 9.8-mile stretch within San Bernardino National Forest received Wild and Scenic River designation in 2009, under the recreation classification. That protected reach is in the national forest upstream, distinct from the channel and levee system near town.",
       "at": [
         -116.89333333,
         33.74777778
@@ -35,34 +36,37 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, Lakeview, California",
-      "url": "https://en.wikipedia.org/wiki/Lakeview%2C_California"
+      "label": "Wikipedia, San Jacinto Valley",
+      "url": "https://en.wikipedia.org/wiki/San_Jacinto_Valley"
     },
     {
       "label": "Wikipedia, San Jacinto, California",
       "url": "https://en.wikipedia.org/wiki/San_Jacinto%2C_California"
     },
     {
-      "label": "Wikipedia, Valle Vista, California",
-      "url": "https://en.wikipedia.org/wiki/Valle_Vista%2C_California"
+      "label": "Wikipedia, Mid County Parkway",
+      "url": "https://en.wikipedia.org/wiki/Mid_County_Parkway"
     },
     {
-      "label": "Wikipedia, Rancho San Jacinto Nuevo y Potrero",
-      "url": "https://en.wikipedia.org/wiki/Rancho_San_Jacinto_Nuevo_y_Potrero"
+      "label": "Wikipedia, Lake Perris",
+      "url": "https://en.wikipedia.org/wiki/Lake_Perris"
+    },
+    {
+      "label": "Wikipedia, Lakeview, California",
+      "url": "https://en.wikipedia.org/wiki/Lakeview%2C_California"
+    },
+    {
+      "label": "Wikipedia, Valle Vista, California",
+      "url": "https://en.wikipedia.org/wiki/Valle_Vista%2C_California"
     },
     {
       "label": "Wikipedia, Bautista Creek",
       "url": "https://en.wikipedia.org/wiki/Bautista_Creek"
     },
     {
-      "label": "Wikipedia, Mid County Parkway",
-      "url": "https://en.wikipedia.org/wiki/Mid_County_Parkway"
-    },
-    {
-      "label": "Wikipedia, San Jacinto Valley",
-      "url": "https://en.wikipedia.org/wiki/San_Jacinto_Valley"
+      "label": "Wikipedia, Rancho San Jacinto Nuevo y Potrero",
+      "url": "https://en.wikipedia.org/wiki/Rancho_San_Jacinto_Nuevo_y_Potrero"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

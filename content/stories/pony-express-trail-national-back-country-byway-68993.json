@@ -1,71 +1,78 @@
 {
   "id": "pony-express-trail-national-back-country-byway-68993",
-  "tagline": "Across the west desert on the mail riders' line.",
+  "tagline": "A gravel road follows the mail route through desert mountains and basins",
   "intro": [
-    "The byway turns off SR-73 near Fairfield and heads west on maintained gravel across Utah's west desert, over bare desert ranges and across wide basins, on the line the Pony Express riders took in 1860 and 1861. Every ten miles or so the remains of an old station sit beside the road. It ends in Goshute country at Ibapah, near the Nevada line.",
-    "The riders carried the nation's priority mail from Missouri to California in as little as ten days. The service lasted only until the transcontinental telegraph was finished, and it never made a profit."
+    "The Pony Express Trail National Back Country Byway crosses western Utah on maintained gravel, through bare desert mountains and broad basins. The Bureau of Land Management gives the drive as 133 miles and advises allowing five hours. The byway was established to conserve the Pony Express route’s historical significance; station sites and interpretive displays mark the journey. BLM describes old station remains beside the road every ten miles or so, interspersing the long desert crossing with evidence of the former mail service.",
+    "In 1860 and 1861, riders carried priority mail between Missouri and California on horses or mules, delivering letters in ten days. The transcontinental telegraph ended that brief period of rapid horse-carried communication, and the enterprise never made a profit. At Simpson Springs, the station served later stage and freight traffic, with local freight use continuing into the 1890s.",
+    "Traveling east from Ibapah near the Nevada line, the route passes Callao, once the Pony Express community of Willow Springs. The road runs through the wetlands refuge at Fish Springs, then reaches Simpson Springs and its replica station. Farther east are Faust, where Henry J. Faust managed a station in 1860, and Fairfield on SR 73. Fairfield’s Stagecoach Inn served military personnel, stage passengers and Pony Express riders."
   ],
+  "notice": "Old station remains punctuate the desert route; the Simpson Springs station building is a 1975 replica.",
   "moments": [
     {
-      "title": "Fairfield",
-      "kind": "town",
-      "scene": "town",
-      "text": "When Johnston's Army camped nearby in 1858 and 1859, the place then called Frogtown swelled past 7,000 people, and its Stagecoach Inn took in soldiers, stage travelers and Pony Express riders.",
+      "title": "Fish Springs",
+      "kind": "roadside",
+      "scene": "desert",
+      "text": "Natural springs feed wetlands at the southern end of the Great Salt Lake Desert, where the Pony Express Road runs through Fish Springs National Wildlife Refuge. The refuge supports migratory birds, fish and other wildlife and is managed by the U.S. Fish and Wildlife Service. Fish Springs began as a Pony Express and Overland Stage station and took its name from the fish in the springs. The springs line the foot of the range, with the Fish Springs Range immediately west of the refuge. The spring water is warm and highly saline, and is not suitable for people to drink.",
       "at": [
-        -112.09306,
-        40.26222
+        -113.36694,
+        39.85806
       ]
     },
     {
       "title": "Simpson Springs",
       "kind": "roadside",
       "scene": "desert",
-      "text": "A long-relied-on water source on the trail west, it served the mule mail, the Pony Express and the Overland Stage, and the station building there now is a 1975 replica.",
+      "text": "The station building at Simpson Springs is a replica constructed by the Future Farmers of America in 1975. Water had long made this a stopping place on the desert route west from Salt Lake City. George Chorpenning established an Overland Mail station here for mule trains between Salt Lake City and Sacramento. Pony Express and Overland Stage service followed, then Wells Fargo. The station closed after the transcontinental railroad’s completion in 1869, though local freight continued using the site into the 1890s. A Civilian Conservation Corps camp occupied the location in the late 1930s and early 1940s, adding another use to the former mail stop.",
+      "notice": "The station building is a 1975 replica, built by the Future Farmers of America.",
       "at": [
         -112.78639,
         40.03778
       ]
     },
     {
-      "title": "Fish Springs",
-      "kind": "roadside",
-      "scene": "desert",
-      "text": "The road runs through a refuge of warm, salty springs whose fish, reported at over six inches long, are left over from ancient Lake Bonneville.",
+      "title": "Fairfield",
+      "kind": "town",
+      "scene": "town",
+      "text": "The Stagecoach Inn brought several kinds of travelers under one roof: stage passengers, military personnel and Pony Express riders. The settlement had begun in 1855, when John Carson, his four brothers and others made their homes in Cedar Valley. The settlement was known as Frogtown when Johnston’s Army arrived in 1858–59 and established nearby Camp Floyd. Its population grew past 7,000, including 3,500 troops alongside teamsters and other camp followers. The troops were recalled east in 1861 at the outbreak of the Civil War. That year Frogtown became Fairfield; the inn is now a museum.",
       "at": [
-        -113.36694,
-        39.85806
+        -112.09306,
+        40.26222
       ]
     }
   ],
-  "practical": [
-    "The byway is a maintained gravel road."
-  ],
   "sources": [
     {
-      "label": "BLM, Pony Express Back Country Byway",
-      "url": "https://www.blm.gov/visit/pony-express-back-country-byway-bcb"
-    },
-    {
-      "label": "BLM, Utah Byways",
+      "label": "Bureau of Land Management, Utah Byways",
       "url": "https://www.blm.gov/programs/recreation-and-visitor-services/recreation-programs/byways/utah"
     },
     {
-      "label": "Wikipedia, Fairfield, Utah",
-      "url": "https://en.wikipedia.org/wiki/Fairfield,_Utah"
+      "label": "Bureau of Land Management, Pony Express Back Country Byway",
+      "url": "https://www.blm.gov/visit/pony-express-back-country-byway-bcb"
     },
     {
       "label": "Wikipedia, Simpson Springs",
       "url": "https://en.wikipedia.org/wiki/Simpson_Springs"
     },
     {
+      "label": "Wikipedia, Callao, Utah",
+      "url": "https://en.wikipedia.org/wiki/Callao%2C_Utah"
+    },
+    {
+      "label": "Wikipedia, Ibapah, Utah",
+      "url": "https://en.wikipedia.org/wiki/Ibapah%2C_Utah"
+    },
+    {
       "label": "Wikipedia, Fish Springs National Wildlife Refuge",
       "url": "https://en.wikipedia.org/wiki/Fish_Springs_National_Wildlife_Refuge"
     },
     {
-      "label": "Wikipedia, Ibapah, Utah",
-      "url": "https://en.wikipedia.org/wiki/Ibapah,_Utah"
+      "label": "Wikipedia, Faust, Utah",
+      "url": "https://en.wikipedia.org/wiki/Faust%2C_Utah"
+    },
+    {
+      "label": "Wikipedia, Fairfield, Utah",
+      "url": "https://en.wikipedia.org/wiki/Fairfield%2C_Utah"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

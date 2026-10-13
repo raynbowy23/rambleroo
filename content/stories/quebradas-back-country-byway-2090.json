@@ -1,26 +1,39 @@
 {
   "id": "quebradas-back-country-byway-2090",
-  "tagline": "Twenty-four miles of dirt across the breaks.",
+  "tagline": "An unpaved road crosses arroyos and ridges striped with colored rock.",
   "intro": [
-    "From the Escondida exit on I-25 the byway runs about 24 miles on unpaved county road, out to the east and then down to US 380. It climbs onto bench land above the floodplain and crosses arroyos draining to the river, through the quebradas, the breaks, that give the country its name.",
-    "The Sevilleta refuge lies a few miles north and Bosque del Apache a few miles south. In between there are badlands, box canyons and multicolored cliffs, and no restrooms or drinking water anywhere along the road."
+    "Quebradas Back Country Byway crosses about 24 miles of unpaved county road east of Socorro. Blind curves and steep hills carry the drive through sparsely vegetated desert mountains, above the Rio Grande floodplain and across arroyos draining toward the river. New Mexico’s tourism department presents the scenic byway as a way to see the state’s geological past in ridges, canyons and dunes. The BLM recommends a high-clearance vehicle, and heavy rain can make the road difficult or impossible to navigate.",
+    "The road became a BLM Back Country Byway in 1989 and a New Mexico Scenic and Historic Byway in 1998. Its name comes from the breaks cut into the landscape. Erosion has exposed multicolored cliffs and shaped badlands and narrow box canyons along the road. Arroyo de la Presilla, Arroyo del Tajo and the Loma de las Canas ridgeline are among the landforms shaped by that erosion.",
+    "Approach from Escondida in the north and follow the byway east, then south toward US 380. Minas del Chupadero marks an abandoned mining area along the route. Midway through the drive, colored soils and bands of rock become visible. The southern junction meets US 380 eleven miles east of San Antonio."
   ],
+  "notice": "Midway through the drive, look for colored soils and bands in the rock formations.",
   "moments": [
+    {
+      "title": "Escondida Approach",
+      "kind": "town",
+      "scene": "town",
+      "text": "Escondida is the northern approach to the byway from Interstate 25. The interstate passes through this small community in Socorro County. Beyond it, the route reaches rolling bench lands above the Rio Grande floodplain. There are no restrooms or drinking water along the byway; Socorro is the nearest source of food, gas and water.",
+      "at": [
+        -106.8975,
+        34.10138889
+      ]
+    },
     {
       "title": "Minas del Chupadero",
       "kind": "roadside",
       "scene": "desert",
-      "text": "An abandoned mining ground along the byway, with a shaft, an adit and several exploration pits."
+      "text": "Minas del Chupadero is an abandoned mining area along the Quebradas byway. Its workings include a mine shaft, an adit and several exploration pits."
     },
     {
       "title": "The banded ridges",
       "kind": "roadside",
       "scene": "desert",
-      "text": "About midway the banding shows in the north-south ridges, red and yellow sandstone, red and purple shale and white to gray limestone."
+      "text": "The north-south ridges alternate red and yellow sandstone, red and purple shale, and white to gray limestone. Their bands and colored soils can be seen midway through the drive. The surrounding terrain includes rolling bench lands above the Rio Grande floodplain and desert mountains with sparse vegetation. Arroyos carry drainage toward the river, while erosion has shaped the Loma de las Canas ridgeline and Arroyo del Tajo. Elsewhere along the road, near-vertical cliffs stand beside twisted badlands and narrow box canyons, other forms in this eroded terrain.",
+      "notice": "Red and yellow sandstone alternates with red and purple shale and white to gray limestone."
     }
   ],
   "practical": [
-    "A high-clearance vehicle is recommended. The road has blind curves and steep hills, can become difficult or impossible to drive after heavy rain, and has no water or restrooms; the nearest food and fuel are in Socorro."
+    "Escondida Approach: BLM recommends a high-clearance vehicle for the blind curves, steep hills and rugged road. Heavy rain can make the road difficult or impossible to navigate. There is no drinking water or restroom along the byway; obtain food, gas and water in Socorro. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -28,14 +41,17 @@
       "url": "https://www.blm.gov/visit/quebradas-backcountry-byway"
     },
     {
-      "label": "New Mexico True, Quebradas Backcountry Byway",
+      "label": "New Mexico Tourism Department, Quebradas Backcountry Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/quebradas-backcountry/"
     },
     {
       "label": "Wikipedia, Quebradas Back Country Byway",
       "url": "https://en.wikipedia.org/wiki/Quebradas_Back_Country_Byway"
+    },
+    {
+      "label": "Wikipedia, Escondida, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Escondida%2C_New_Mexico"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

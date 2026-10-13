@@ -1,16 +1,17 @@
 {
   "id": "revolutionary-trail-2222",
-  "tagline": "Down the Mohawk Valley, where the Revolution came through.",
+  "tagline": "Follow the Mohawk passage through forts, a battlefield and canal engineering",
   "intro": [
-    "The byway starts at Port Ontario on Lake Ontario and runs inland through Pulaski, Williamstown and Camden to Rome. From there it largely follows the Mohawk River down its valley, through Utica, Ilion, Little Falls, Canajoharie and Amsterdam to Schenectady. The mapped line stops there, and the official byway carries on to Albany, 158 miles from the lake.",
-    "In the Revolution the Mohawk was a critical east-west artery for trade, settlement and the movement of troops. In August 1777 a British army that had come in from Canada by way of Lake Ontario laid siege to Fort Stanwix, and the militia marching to relieve it was ambushed at Oriskany."
+    "The Revolutionary Trail crosses valleys and woodlands between Port Ontario and Albany, largely following the Mohawk River. New York’s scenic-byways program identifies historic, scenic and recreational themes along its 158 miles. The valley’s forts and battlefield explain its Revolutionary War importance; at Little Falls, the river drops through a narrow rock passage.",
+    "The Mohawk corridor carried trade and troops during the Revolution. In August 1777, an invading British army besieged Fort Stanwix after approaching from Canada by Lake Ontario. After the war, new roads strengthened the valley’s connections: a 1794 contract tasked the Mohawk Turnpike and Bridge Company with extending the road from Utica toward Albany, and the extension followed in 1798. Construction of the Erie Canal began in Rome in 1817. Its completion in 1825 connected the Hudson River with the Great Lakes and increased trade and traffic along the corridor.",
+    "Traveling east from Port Ontario, the byway reaches Rome. In Rome stands the reconstructed Fort Stanwix; Oriskany Battlefield lies southeast of the city. The byway continues through Utica and Herkimer. Little Falls lies east of Utica, where the city occupies both banks of the Mohawk and the canal negotiates the falls. The official route continues through Fonda and Schenectady to Albany."
   ],
   "moments": [
     {
       "title": "Fort Stanwix",
       "kind": "short walk",
       "scene": "town",
-      "text": "In Rome a reconstructed fort stands on the Oneida Carry, the old portage between the Mohawk and the waters to Lake Ontario, with three short trails circling it.",
+      "text": "Fort Stanwix guarded a place where boats and cargo had to leave the water. The Oneida Carry linked the Mohawk River with Wood Creek and the waterways leading to Lake Ontario. British construction began in 1758; American forces later rebuilt the fort and withstood the siege of August 1777. The structure in Rome is a National Park Service reconstruction. Three short trails encircle it, with one tracing part of the old carry. The reconstructed walls stand at the same strategic portage the original fort was built to protect. The Marinus Willett center holds artifacts and documents and exhibits the history of the fort and Mohawk Valley.",
       "at": [
         -75.45527778,
         43.21055556
@@ -20,7 +21,7 @@
       "title": "Oriskany Battlefield",
       "kind": "roadside",
       "scene": "river",
-      "text": "On a rise above the Mohawk bottomlands an 1884 obelisk marks where the wounded General Herkimer rallied and directed his militia, who fought in pairs, one firing while the other reloaded.",
+      "text": "An obelisk dedicated in 1884 marks a rise above the Mohawk bottomlands at Oriskany. In 1777, General Nicholas Herkimer led a relief column toward besieged Fort Stanwix and was ambushed in a ravine. Wounded, he rallied and directed his men from the rise commemorated by the monument. He died of his wounds days later. Plaques depict Herkimer and name many American participants. The battlefield lies south of the river, its small hills separated by ravines. The site is northwest of Oriskany village on Route 69, southeast of Rome and the fort the column sought to relieve.",
       "at": [
         -75.369521,
         43.177259
@@ -30,7 +31,7 @@
       "title": "Little Falls",
       "kind": "town",
       "scene": "river",
-      "text": "The Mohawk drops 45 feet in less than a mile through a rocky defile here, and Lock 17 of the Erie Canal, 40.5 feet high, does the work of three older locks.",
+      "text": "At Little Falls, the Mohawk descends 45 feet in less than a mile through a narrow, rocky defile. The rapids obstructed upriver travel, and the need to carry goods past the falls helped establish a trading place. The Erie Canal, completed in 1825, improved transportation through the valley and passed through the city. Lock 17 replaced three locks of that original canal with a single structure 40.5 feet high. The city occupies both sides of the river at this former obstacle to travel. The cliff on the south bank has its own name: Rollaway.",
       "at": [
         -74.85972222,
         43.04333333
@@ -39,30 +40,33 @@
   ],
   "sources": [
     {
-      "label": "NYSDOT, The Revolutionary Trail",
+      "label": "Adirondack Regional Tourism Council and Adirondack North Country Association, Adirondack North Country Scenic Byways",
+      "url": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
+    },
+    {
+      "label": "Wikipedia, Little Falls, New York",
+      "url": "https://en.wikipedia.org/wiki/Little_Falls%2C_New_York"
+    },
+    {
+      "label": "New York State Department of Transportation, The Revolutionary Trail",
       "url": "https://www.dot.ny.gov/display/programs/scenic-byways/revolutionary-byway"
-    },
-    {
-      "label": "Adirondack Regional Tourism Council, Adirondack North Country Scenic Byways (p. 9)",
-      "url": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf#page=9"
-    },
-    {
-      "label": "Adirondack Regional Tourism Council, Adirondack North Country Scenic Byways (p. 15)",
-      "url": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf#page=15"
     },
     {
       "label": "Wikipedia, Fort Stanwix",
       "url": "https://en.wikipedia.org/wiki/Fort_Stanwix"
     },
     {
-      "label": "Wikipedia, Oriskany Battlefield State Historic Site",
-      "url": "https://en.wikipedia.org/wiki/Oriskany_Battlefield_State_Historic_Site"
+      "label": "Wikipedia, Utica, New York",
+      "url": "https://en.wikipedia.org/wiki/Utica%2C_New_York"
     },
     {
-      "label": "Wikipedia, Little Falls, New York",
-      "url": "https://en.wikipedia.org/wiki/Little_Falls,_New_York"
+      "label": "Wikipedia, Rome, New York",
+      "url": "https://en.wikipedia.org/wiki/Rome%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, Oriskany Battlefield State Historic Site",
+      "url": "https://en.wikipedia.org/wiki/Oriskany_Battlefield_State_Historic_Site"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

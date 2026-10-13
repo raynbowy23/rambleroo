@@ -12,16 +12,16 @@
     "lanes": 2,
     "coordinates": [
       [
-        -76.4757,
-        36.1661
+        -76.4476,
+        36.2042
       ],
       [
-        -76.4745,
-        36.1869
+        -76.4625,
+        36.2014
       ],
       [
         -76.467,
-        36.1868
+        36.1966
       ],
       [
         -76.4653,
@@ -29,15 +29,15 @@
       ],
       [
         -76.467,
-        36.1966
+        36.1868
       ],
       [
-        -76.4625,
-        36.2014
+        -76.4745,
+        36.1869
       ],
       [
-        -76.4476,
-        36.2042
+        -76.4757,
+        36.1661
       ]
     ],
     "elevation": [
@@ -81,9 +81,16 @@
   },
   "landmarks": [
     {
+      "name": "Perquimans County Courthouse",
+      "model": "town-blocks",
+      "at": 0.46681063071544104,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    },
+    {
       "name": "Newbold-White House",
       "model": "farmhouse",
-      "at": 0.5,
+      "at": 0.963910676629298,
       "offset": "roadside",
       "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
     }
@@ -103,5 +110,5 @@
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }
