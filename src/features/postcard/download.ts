@@ -1,5 +1,5 @@
 import type { Photo } from '../../lib/types'
-import { photoPath, photoCredit } from '../photos/Photos'
+import { postcardPhotoPath, photoCredit } from '../photos/Photos'
 export function downloadBlob(blob: Blob, filename: string) {
   const url = URL.createObjectURL(blob)
   const link = document.createElement('a')
@@ -116,7 +116,7 @@ export async function renderPostcard(input: PostcardInput) {
   const photo = new Image()
   // The library is on its own domain; CORS keeps the canvas readable for export.
   photo.crossOrigin = 'anonymous'
-  if (input.photo && !input.composedFront) photo.src = photoPath(input.photo)
+  if (input.photo && !input.composedFront) photo.src = postcardPhotoPath(input.photo)
   const [scene, stamp] = await Promise.all([
     input.photo && !input.composedFront ? photo.decode().then(() => photo) : svgImage(input.scene),
     svgImage(input.stamp),

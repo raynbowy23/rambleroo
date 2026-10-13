@@ -6,14 +6,19 @@ import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-rou
 import { Icon, Logo, type IconName } from '../art'
 import { AppStatus } from '../ui/AppStatus'
 import { Toast } from '../ui/Toast'
-import { useCatalog } from '../../lib/data'
+import { collections, useCatalog } from '../../lib/data'
+import { titleFor } from '../../lib/seo'
+import { useEffect } from 'react'
 import { usePassport } from '../../lib/passport'
 import styles from './Layout.module.css'
 const supportsViewTransitions = typeof document !== 'undefined' && 'startViewTransition' in document
 
 export default function Layout() {
   const { pathname } = useLocation()
-  const { meta } = useCatalog()
+  const { meta, byId } = useCatalog()
+  useEffect(() => {
+    document.title = titleFor(pathname, (id) => byId.get(id)?.name, collections)
+  }, [pathname, byId])
   const tripCount = useTrip((s) => s.roads.length)
   const count = usePassport((s) => Object.keys(s.saved).length + s.savedStretches.length + s.visits.length)
   const nav = (

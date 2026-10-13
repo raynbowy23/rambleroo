@@ -1,4 +1,4 @@
-// Uploads the photo library to the public R2 bucket behind photos.rambleroo.app (infra/README.md). Every image and thumbnail named in
+// Uploads the photo library to the public R2 bucket behind photos.rambleroo.app (infra/README.md). Every image, thumbnail and middle-size copy named in
 // content/photos.json is looked up on the photo domain and, when missing, uploaded from the local public/photos/ copy that the photo
 // scripts download into (public/photos/ is gitignored). Already uploaded files are skipped, so it is safe to rerun after any photo
 // script. Uses the logged-in Wrangler; nothing else needs a key.
@@ -15,12 +15,14 @@ const AT_ONCE = 8
 const check = process.argv.includes('--check')
 
 const photos = JSON.parse(await readFile(new URL('content/photos.json', ROOT), 'utf8')) as Photo[]
-const paths = [...new Set(photos.flatMap((p) => [p.file, p.thumb].filter((f): f is string => Boolean(f))))]
+const paths = [...new Set(photos.flatMap((p) => [p.file, p.thumb, p.medium].filter((f): f is string => Boolean(f))))]
 for (const path of paths) if (!path.startsWith('/photos/')) throw new Error(`unexpected photo path ${path}`)
 
 const present = async (path: string) => {
   for (let i = 0; i < 4; i++) {
-    const res = await fetch(ORIGIN + path.slice('/photos'.length), { method: 'HEAD' }).catch(() => null)
+    // A query string the site never uses keeps this check out of the edge cache: a cached 404 from before the upload would
+    // otherwise keep the new file hidden from visitors until it expires.
+    const res = await fetch(`${ORIGIN}${path.slice('/photos'.length)}?uploaded-check=${Date.now()}`, { method: 'HEAD' }).catch(() => null)
     if (res && (res.ok || res.status === 404)) return res.ok
     await new Promise((r) => setTimeout(r, 2000 * (i + 1)))
   }
@@ -41,7 +43,7 @@ const put = (path: string) =>
         '--file',
         new URL(`public${path}`, ROOT).pathname,
         '--content-type',
-        'image/jpeg',
+        path.endsWith('.webp') ? 'image/webp' : 'image/jpeg',
         '--cache-control',
         'public, max-age=604800',
       ],

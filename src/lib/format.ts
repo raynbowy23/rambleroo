@@ -1,5 +1,5 @@
-import type { BywaySummary } from './types'
-import { states } from './states'
+import type { BywaySummary } from './types.ts'
+import { states } from './states.ts'
 export const formatMiles = (miles: number) => `≈ ${Math.round(miles).toLocaleString('en-US')} mi mapped`
 export function shortDesignation(b: BywaySummary) {
   // Famous drives outside the byway programs are labelled as such everywhere a designation shows.
@@ -20,7 +20,7 @@ export function listingDescription(b: BywaySummary) {
   return `A ${character || 'scenic'} road${place ? ` through ${place}` : ''}.`
 }
 
-export function illustrationCaption(place: string, region: import('./types').Region, motifs?: import('./types').Motif[]) {
+export function illustrationCaption(place: string, region: import('./types.ts').Region, motifs?: import('./types.ts').Motif[]) {
   const label = region
     .split('-')
     .map((word) => word[0].toUpperCase() + word.slice(1))

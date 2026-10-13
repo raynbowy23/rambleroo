@@ -20,11 +20,13 @@ const pages = {
 }
 const page = (load: () => Promise<{ default: React.ComponentType }>) => async () => ({ Component: (await load()).default })
 
-/** Fetch every page's code once the first screen is idle, so later navigations never wait on the network. */
+/** Fetch every page's code once the first screen has loaded (its photo included) and the browser is idle, so later navigations never
+ * wait on the network and the prefetch never competes with the page being opened. */
 export function preloadPages() {
   const run = () => Object.values(pages).forEach((load) => void load())
-  if ('requestIdleCallback' in window) requestIdleCallback(run, { timeout: 4000 })
-  else setTimeout(run, 2500)
+  const idle = () => ('requestIdleCallback' in window ? requestIdleCallback(run, { timeout: 4000 }) : setTimeout(run, 2500))
+  if (document.readyState === 'complete') idle()
+  else window.addEventListener('load', idle, { once: true })
 }
 
 const galleryModules = import.meta.glob<{ default: React.ComponentType }>('./components/art/ArtGallery.tsx')
