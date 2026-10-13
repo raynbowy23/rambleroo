@@ -1,16 +1,17 @@
 {
   "id": "national-historic-seaport-2270",
-  "tagline": "Around the harbor, the working city keeps its tools.",
+  "tagline": "A harbor of working terminals, former factories and preserved shipyard neighborhoods",
   "intro": [
-    "From Locust Point toward Fells Point, the drive rounds a harbor shaped by industry and immigration. Fort McHenry holds the end of the Locust Point peninsula, where it turned back British warships in September 1814. The Domino sugar factory nearby shows the harbor still works for a living.",
-    "Across the water, the Fells Point yards built fast topsail schooners known as Baltimore clippers, more than 150 of them between 1810 and 1815. Many sailed as privateers against British shipping, which helped bring the British to Baltimore in 1814."
+    "Baltimore’s waterfront brings an industrial peninsula, city streets and harbor views into the same journey. Locust Point contains marine terminals and the Domino sugar factory; Federal Hill Park looks north across the Inner Harbor toward downtown. Pratt Street runs eastbound through most of downtown, while Fells Point occupies the harbor’s north shore.",
+    "The waterfront’s road history includes a highway that residents stopped. In 1965, planners proposed an elevated highway linking Interstates 83, 70 and 95 along the harbor’s north shore. It would have demolished parts of Fells Point and Federal Hill and separated the remaining neighborhood from the waterfront. Residents helped defeat the proposal, with Barbara Mikulski among the campaign’s leaders.",
+    "Begin with Locust Point, home to Fort McHenry and the Baltimore Museum of Industry. The museum occupies the former Platt Oyster Cannery on Key Highway. Continue past Federal Hill on the harbor’s south side, then through the Inner Harbor toward Fells Point to the east. There, nineteenth- and early twentieth-century row houses share the neighborhood with older brick homes."
   ],
   "moments": [
     {
       "title": "Locust Point",
       "kind": "town",
       "scene": "town",
-      "text": "From 1868 until the piers closed in 1914, 1.2 million European immigrants came ashore here, and the neighborhood earned the name Baltimore's Ellis Island.",
+      "text": "At Locust Point, the harbor was both an arrival point and a workplace. Between 1868 and the closure of its piers in 1914, 1.2 million European immigrants entered Baltimore here. The peninsula later held a Procter & Gamble plant that made soap and detergents before production ended in 1995. Its next substantial change came with redevelopment as Tide Point: the former soap factory became office space in 2002. Industrial work remains part of the neighborhood, which contains two marine terminals and the Domino sugar factory. The peninsula acquired the name Locust Point in 1846, after the locust trees growing there.",
       "at": [
         -76.59305556,
         39.27027778
@@ -20,7 +21,7 @@
       "title": "Baltimore Museum of Industry",
       "kind": "short walk",
       "scene": "town",
-      "text": "An old oyster cannery holds recreated workshops and the pharmacy where Noxzema was invented; at its dock lies the 1906 steam tug Baltimore, which can no longer leave.",
+      "text": "An oyster cannery provides the setting for a museum of Baltimore’s working life. Founded in 1977 through the mayor’s office to preserve downtown industrial history, the museum recreates a garment loft and machine shop from 1900, a print shop and parts of a cannery. Its pharmacy exhibit recreates Dr. Bunting’s Pharmacy, where Noxzema was invented. The museum is also home to Baltimore, a steam tug built in 1906. The vessel once inspected the harbor, moved city barges and served as an official welcoming boat. Inside the galleries, hands-on sections include working equipment alongside other artifacts.",
       "at": [
         -76.60138889,
         39.27388889
@@ -30,7 +31,7 @@
       "title": "Fells Point",
       "kind": "town",
       "scene": "town",
-      "text": "Frederick Douglass taught himself to read here as a boy, copying the letters shipyard men marked on boards, and in 1835 he was hired out to caulk ships in the same yards.",
+      "text": "Letters on shipyard boards became part of Frederick Douglass’s education in Fells Point. In his autobiography, Douglass recalled learning to read and write here by copying those letters and getting help from white boys he met in the streets. In 1835, while enslaved, he was hired out to shipbuilder John A. Robb as a caulker. The yards remained a shipbuilding center until the Civil War, when the larger ships coming into use exceeded what they could handle. Manufacturing followed, including canning and packing, as shipping shifted to larger facilities farther downriver.",
       "at": [
         -76.59277778,
         39.28305556
@@ -43,22 +44,25 @@
       "url": "https://en.wikipedia.org/wiki/Locust_Point%2C_Baltimore"
     },
     {
+      "label": "Wikipedia, Baltimore Museum of Industry",
+      "url": "https://en.wikipedia.org/wiki/Baltimore_Museum_of_Industry"
+    },
+    {
       "label": "Wikipedia, Fells Point",
       "url": "https://en.wikipedia.org/wiki/Fells_Point"
     },
     {
-      "label": "Wikipedia, Fort McHenry",
-      "url": "https://en.wikipedia.org/wiki/Fort_McHenry"
+      "label": "Wikipedia, Pratt Street",
+      "url": "https://en.wikipedia.org/wiki/Pratt_Street"
     },
     {
-      "label": "Wikipedia, Baltimore Museum of Industry",
-      "url": "https://en.wikipedia.org/wiki/Baltimore_Museum_of_Industry"
+      "label": "Wikipedia, Federal Hill Park",
+      "url": "https://en.wikipedia.org/wiki/Federal_Hill_Park"
     },
     {
       "label": "Wikipedia, Baltimore (tug)",
       "url": "https://en.wikipedia.org/wiki/Baltimore_%28tug%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

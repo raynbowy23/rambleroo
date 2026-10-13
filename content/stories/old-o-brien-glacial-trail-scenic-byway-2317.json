@@ -1,26 +1,40 @@
 {
   "id": "old-o-brien-glacial-trail-scenic-byway-2317",
-  "tagline": "A short loop through a valley the meltwater cut.",
+  "tagline": "Prairie hills above a river valley carved by glacial meltwater",
   "intro": [
-    "The byway is a 36-mile loop through the corners of O'Brien, Clay, Buena Vista and Cherokee counties, around the small towns of Peterson and Linn Grove. Surging glacial meltwater cut the middle valley of the Little Sioux River deep into soft drift, and steep hills of unplowed prairie now stand along the meandering river above its forested and farmed bottoms.",
-    "The Prairie Heritage Center near Peterson explains what the ice left behind, kames and kettles, glacial till, hanging valleys and catsteps. Artifacts of the Mill Creek culture here go back to around 1000 AD."
+    "The Glacial Trail Scenic Byway makes a paved, 36-mile loop through northwest Iowa. It crosses the corners of O'Brien, Clay, Buena Vista and Cherokee counties through Peterson and Linn Grove. Steep hills carrying unplowed prairie flank the winding Little Sioux River, above valley land divided between woods and farms. Golden Hills RC&D, which coordinates the byway, identifies its natural, scenic, archaeological and historic qualities as the focus of the corridor.",
+    "Glacial meltwater cut the middle Little Sioux valley deep into soft deposits left by ice. Later park building added another layer to this landscape. At Wanata, south of Peterson, Dr. E.W. Spaulding helped acquire land for a park dedicated in 1934. Civilian Conservation Corps Company 778 built a stone shelter on a hillside descending toward the river.",
+    "Start in Peterson, where the fort's blockhouse remains near Second and Park, and include the shelter south of town as a separate excursion. Continue through the loop to Linn Grove, also near the Little Sioux River. The Prairie Heritage Center outside Peterson adds geological context and a restored prairie to the circuit. The center interprets glacial features including kames and kettles, hanging valleys and catsteps, alongside the role of prairie in Iowa’s agricultural heritage."
   ],
+  "notice": "Unplowed prairie covers steep hills above the wooded and farmed Little Sioux valley.",
   "moments": [
     {
       "title": "Peterson",
       "kind": "town",
       "scene": "prairie",
-      "text": "Settlers built a fort here in 1862 against a Dakota attack that never came, and its blockhouse still stands near where it was built, at Second and Park.",
+      "text": "Peterson's blockhouse stands near its original site at Second and Park. Settlers built the fort in 1862 because they anticipated Dakota attacks during the Dakota War. The fort was never attacked. The town's later development followed another transport connection: Peterson was platted in 1881 when the railroad arrived. The surviving blockhouse therefore predates that town plan.",
+      "notice": "The blockhouse remains near its original location at Second and Park.",
       "at": [
         -95.343,
         42.918
       ]
     },
     {
+      "title": "Wanata State Park Picnic Shelter",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "Stone walls and timber supports meet on the hillside above the Little Sioux River at Wanata's picnic shelter. Dr. E.W. Spaulding of Peterson helped secure the park property, dedicated in 1934, and Civilian Conservation Corps Company 778 built the shelter. Its rear and side walls use irregular rubble stone. Across the front, four stone pillars carry vertical timbers supporting the roof's eaves. Openings for a door and window punctuate each side wall; a fireplace and chimney occupy the center of the rear wall. Cemented stone covers the floor, and a small stone basement occupies the northwest corner.",
+      "notice": "Four stone pillars and vertical timbers support the shelter’s front eaves.",
+      "at": [
+        -95.33805556,
+        42.91083333
+      ]
+    },
+    {
       "title": "Linn Grove",
       "kind": "town",
       "scene": "river",
-      "text": "The town is named for a grove of linden trees and lies near the Chan-Ya-Ta Site, the remains of a prehistoric village a thousand years old.",
+      "text": "Linn Grove takes its name from a grove of linden trees near the town site. Near this Little Sioux River town, the Chan-Ya-Ta Site contains the remains of a 1,000-year-old village. It is listed on the National Register of Historic Places. Across the byway corridor, artifacts from the Mill Creek culture date to around AD 1000. Archaeological sites and the museums in Linn Grove and Peterson document this earlier history.",
       "at": [
         -95.242,
         42.893
@@ -37,14 +51,17 @@
       "url": "https://www.traveliowa.com/trails/glacial-trail-scenic-byway/4/"
     },
     {
+      "label": "Wikipedia, Wanata State Park Picnic Shelter",
+      "url": "https://en.wikipedia.org/wiki/Wanata_State_Park_Picnic_Shelter"
+    },
+    {
       "label": "Wikipedia, Peterson, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Peterson,_Iowa"
+      "url": "https://en.wikipedia.org/wiki/Peterson%2C_Iowa"
     },
     {
       "label": "Wikipedia, Linn Grove, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Linn_Grove,_Iowa"
+      "url": "https://en.wikipedia.org/wiki/Linn_Grove%2C_Iowa"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

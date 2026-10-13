@@ -1,35 +1,43 @@
 {
   "id": "old-sheldon-church-road-scenic-highway-73589",
-  "tagline": "Church walls and a house that leaned with the trees.",
+  "tagline": "Oak canopies and wetlands frame a road past surviving church walls",
   "intro": [
-    "Old Sheldon Church Road runs about seven miles through Beaufort County between Gardens Corner and Yemassee, under oak canopies and past Lowcountry wetlands. The old parish church survives along it as walls among oaks and scattered graves. Its ruin has more than one account of how it came to be.",
-    "Near Yemassee, Auldbrass makes a separate architectural excursion. Frank Lloyd Wright set its walls at a slant to echo the local trees, using cypress and cedar from the nearby swamp. Right angles had little part in the design."
+    "Old Sheldon Church Road carries the drive between Gardens Corner and Yemassee through oak canopies and Lowcountry wetlands. The South Carolina Department of Transportation describes an approximately seven-mile route on S-7-21, passing the Sheldon Church ruins and several plantations. It is a designated South Carolina Scenic Byway in Beaufort County.",
+    "The road's formal protection came in 2005. Act No. 47 designated the corridor and prohibited off-premises outdoor advertising on it. The church beside the road is much older: built between 1745 and 1753 as Prince William's Parish Church, it survives as ruins among oaks and graves. Its Civil War damage remains disputed, with a postwar church report describing a burning and an 1866 letter describing a damaged interior that could be repaired. The act also directed the Department of Transportation to install signs marking the designation.",
+    "From Gardens Corner, follow Old Sheldon Church Road past the church ruins toward Yemassee. Near that end of the journey, Auldbrass lies on River Road as a separate excursion: Frank Lloyd Wright's cypress-clad buildings use sloping walls and copper roofs. Yemassee itself adds a different transport landmark, the railway station where Marine recruits stopped on their way to Parris Island from 1915 to 1965."
   ],
   "moments": [
     {
       "title": "Old Sheldon Church Ruins",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Oaks and scattered graves surround the surviving walls of the former Prince William’s Parish Church."
+      "text": "Oaks and scattered graves surround the walls of Prince William's Parish Church, built between 1745 and 1753. How it became a ruin is less settled than its appearance suggests. Bishop Thomas, writing in the postwar South Carolina report on church destruction, said Sherman burned it in February 1865. Milton Leverett wrote something different on February 3, 1866: “Sheldon Church not burn't. Just torn up in the inside, but can be repaired.” The two descriptions leave the cause of the surviving ruin unresolved. Inside the church ruins lie the remains of Governor William Bull.",
+      "notice": "The surviving church walls stand among oaks and scattered graves."
     },
     {
       "title": "Auldbrass",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Slanting wooden walls and copper roofs give Wright’s plantation complex the angles he found in the native trees.",
+      "text": "At Auldbrass, Frank Lloyd Wright turned the lean of native cypress and oak trees into sloping walls, windows and doors. Cypress and cedar from the nearby swamp cover the buildings; copper roofs and hexagonal forms carry the design across the complex. Charles Leigh Stevens asked Wright for a functioning farm where he could test agricultural innovations. Much later, Joel Silver's renovation combined restoration of surviving buildings, reconstruction of destroyed structures and completion of previously unbuilt designs. Silver bought Auldbrass in 1986; the main house renovation was completed in June 1989. Auldbrass is on River Road near Yemassee.",
       "at": [
         -80.81305556,
         32.68083333
+      ]
+    },
+    {
+      "title": "Yemassee station",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "From 1915 to 1965, Marine recruits stopped at Yemassee station before continuing to Parris Island. That history spans several station buildings: the current station house was built around 1955 to replace earlier ones. The Charleston and Western Carolina Railway originally built the station and freight house, and the Atlantic Coast Line later ran the station. Its platform follows the northwest side of tracks running northeast to southwest. The depot's association with recruits therefore reaches back well before the present building, through the years from World War I to Vietnam.",
+      "at": [
+        -80.84694444,
+        32.68805556
       ]
     }
   ],
   "sources": [
     {
-      "label": "South Carolina Legislature, Scenic Highways",
-      "url": "https://www.scstatehouse.gov/code/t57c023.php"
-    },
-    {
-      "label": "SCDOT, South Carolina Scenic Byways map series (story text)",
+      "label": "South Carolina Department of Transportation, Old Sheldon Church Road Scenic Byway",
       "url": "https://scdot.maps.arcgis.com/sharing/rest/content/items/0a5192983b2845c2b20fbc5d7a0372f9/data"
     },
     {
@@ -37,10 +45,17 @@
       "url": "https://en.wikipedia.org/wiki/Old_Sheldon_Church_Ruins"
     },
     {
+      "label": "South Carolina Legislature, Highway Beautification and Scenic Routes",
+      "url": "https://www.scstatehouse.gov/code/t57c023.php"
+    },
+    {
       "label": "Wikipedia, Auldbrass Plantation",
       "url": "https://en.wikipedia.org/wiki/Auldbrass_Plantation"
+    },
+    {
+      "label": "Wikipedia, Yemassee station",
+      "url": "https://en.wikipedia.org/wiki/Yemassee_station"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

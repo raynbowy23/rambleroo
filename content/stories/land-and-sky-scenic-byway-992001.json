@@ -1,44 +1,46 @@
 {
   "id": "land-and-sky-scenic-byway-992001",
-  "tagline": "Straight north across the grain country to the breaks.",
+  "tagline": "Grain fields and water-cut badlands share Kansas’s westernmost north–south state highway.",
   "intro": [
-    "From US 40 at Sharon Springs, K-27 runs north 88 miles across grain country and over the creeks, through Goodland at I-70 and on through St. Francis to the Nebraska line. It is the westernmost north-south state highway in Kansas, never far from Colorado.",
-    "Near the top of the state the flat gives way. The Arikaree Breaks are a band of badlands two to three miles wide, cut by water into loess that lies as much as 100 feet thick, all ravines and vertical cliffs."
+    "The Land and Sky Scenic Byway follows 88 miles of K-27 between the Nebraska line and Sharon Springs. Kansas Tourism presents the drive through its agriculture and wildlife, with grain fields and the ravines of the Arikaree Breaks among its defining features. Flat farmland alternates with rolling hills on the northern reach; farther south, the highway crosses creeks and rivers on its way through farm country. K-27 is Kansas’s westernmost north–south state highway, paralleling the Colorado border. Near the northern end, the Breaks extend the journey into terrain carved into loess by water.",
+    "The numbered road began as K-25 in 1926 and became K-27 by 1927. Its course was less direct then: northwest of St. Francis, it zigzagged until a 1950 realignment eliminated 13 sharp curves. Goodland’s alignment changed too, reaching its present course by 1970. The scenic designation covers only the section from US 40 to Nebraska, rather than the entire K-27 highway.",
+    "Traveling south from Nebraska, the Arikaree Breaks lie near the byway’s northern end, reached by unpaved roads. K-27 joins US 36 through St. Francis before turning south toward Goodland and its I-70 connection. Continue through farmland to the US 40 junction in Sharon Springs, the southern end of the byway."
   ],
   "moments": [
     {
-      "title": "Sharon Springs",
-      "kind": "town",
+      "title": "Arikaree Breaks",
+      "kind": "separate excursion",
       "scene": "prairie",
-      "text": "Founded in 1868 as Eagle Tail station and renamed in 1886 for Sharon Springs, New York, and in 2013 the largest sinkhole in Kansas opened just north of town.",
+      "text": "Water cut the Arikaree Breaks into loess deposits that reach 100 feet in thickness. Deep ravines and vertical cliffs form a band of rough terrain two to three miles wide across the plains. The badlands extend beyond northwest Kansas into eastern Colorado and southwestern Nebraska, within the Arikaree and Republican river basins. The back roads give access to this landscape, but the land is privately owned.",
+      "notice": "The loess formations include deep ravines and vertical cliffs.",
       "at": [
-        -101.75111,
-        38.89444
+        -101.79139,
+        39.98667
       ]
     },
     {
       "title": "Goodland",
       "kind": "town",
       "scene": "town",
-      "text": "Laid out in 1887 to settle a four-way quarrel over the county seat, it won the vote, and in January 1888 an armed party from Goodland went to Eustis and took the records.",
+      "text": "Goodland entered the contest for Sherman County’s seat as a proposed solution to a four-town dispute. It won the vote, but Eustis challenged the result and refused to surrender the county records. The Kansas Supreme Court considered proceedings over the disputed election without changing its outcome; the transfer of records came afterward. On January 13, 1888, an armed party from Goodland seized them and brought them to the new county seat. The town grew around the Chicago, Rock Island and Pacific Railroad. Goodland remains Sherman County’s seat, at the intersection of K-27 and I-70.",
       "at": [
         -101.71417,
         39.34889
       ]
     },
     {
-      "title": "Arikaree Breaks",
-      "kind": "separate excursion",
+      "title": "Sharon Springs",
+      "kind": "town",
       "scene": "prairie",
-      "text": "North of St. Francis, water has carved the loess into ravines and cliffs that run on into Colorado and Nebraska, reached only by unpaved back roads.",
+      "text": "Sharon Springs began in 1868 with another name: Eagle Tail station. The change came in 1886, taking the name of Sharon Springs, New York; incorporation followed in 1890. The town is Wallace County’s seat and the byway’s southern gateway at US 40 and K-27. Before state highways carried numbers, an earlier named auto route, the Union Pacific Highway, crossed here. K-27 follows US 40 briefly through the town before the scenic byway begins on its northbound course. North of town, K-27 crosses the Smoky Hill River and shifts east through an S-curve before continuing across farmland.",
       "at": [
-        -101.79139,
-        39.98667
+        -101.75111,
+        38.89444
       ]
     }
   ],
   "practical": [
-    "The Arikaree Breaks are on private land, reached only on unpaved roads; stay out of fenced areas."
+    "Arikaree Breaks: Access is by unpaved roads. Kansas Tourism identifies the Breaks as private land and asks visitors not to cross fenced areas. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -46,26 +48,21 @@
       "url": "https://www.travelks.com/things-to-do/byways-and-highways/byways/land-and-sky/"
     },
     {
-      "label": "Wikipedia, K-27 (Kansas highway)",
-      "url": "https://en.wikipedia.org/wiki/K-27_(Kansas_highway)"
-    },
-    {
       "label": "Wikipedia, Arikaree Breaks",
       "url": "https://en.wikipedia.org/wiki/Arikaree_Breaks"
     },
     {
-      "label": "Wikipedia, Sharon Springs, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Sharon_Springs,_Kansas"
+      "label": "Wikipedia, K-27 (Kansas highway)",
+      "url": "https://en.wikipedia.org/wiki/K-27_%28Kansas_highway%29"
     },
     {
       "label": "Wikipedia, Goodland, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Goodland,_Kansas"
+      "url": "https://en.wikipedia.org/wiki/Goodland%2C_Kansas"
     },
     {
-      "label": "Wikipedia, St. Francis, Kansas",
-      "url": "https://en.wikipedia.org/wiki/St._Francis,_Kansas"
+      "label": "Wikipedia, Sharon Springs, Kansas",
+      "url": "https://en.wikipedia.org/wiki/Sharon_Springs%2C_Kansas"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,61 +1,65 @@
 {
   "id": "oscar-wigington-scenic-byway-2292",
-  "tagline": "Up SC 107 through the forest to the Jocassee overlook.",
+  "tagline": "A winding forest road connects mountain waterfalls and a reservoir overlook.",
   "intro": [
-    "SC 107 climbs north into the Blue Ridge through the Sumter National Forest, two winding lanes with forest on both sides, turnouts for the mountain views and picnic waysides along the way. Just north of the Cherry Hill campground Moody Spring runs on the east side of the road, cool mountain water for anyone with a bottle.",
-    "Just before the state line, Burrell's Place Pull-off remembers a B-25 that crashed into a mountaintop one night in March 1943. The wreck was found eleven days later, when a boy's horse shied at one of its engines on the Moody Trail."
+    "The Oscar Wigington Scenic Byway winds through Sumter National Forest along the crest of the Blue Ridge Mountains. Two lanes run between forested roadsides, with mountain turnouts and wayside picnic areas. Discover South Carolina highlights its waterfall access and the Wigington Overlook, where Lake Jocassee and the Blue Ridge Mountains fill the view. The route carries a United States Forest Service Scenic Byway designation and takes its name from a tree farmer and former mayor of Salem. SC 107 itself climbs through hilly country from SC 28 to the North Carolina border.",
+    "In 2010, South Carolina created the Falling Waters Scenic Byway, incorporating parts of the earlier corridor. The law allows those sections to retain both state and Forest Service designations. The newer designation connects northern SC 107 with S-37-413 and SC 130, extending to the North Carolina state line.",
+    "Traveling south, begin with the Wigington Overlook on SC 413, which branches from SC 107 near the North Carolina line. Along SC 107, a spur road leads to the trailheads for Spoonauger and King Creek falls. Moody Spring lies on the east side of the road just north of Cherry Hill Recreation Area. Continue toward Oconee State Park, whose entrance is near the southern end of SC 107 at SC 28."
   ],
-  "season": "Discover South Carolina calls the road especially fine in the fall color season and in early summer, when the rhododendron bloom.",
   "moments": [
     {
-      "title": "Oconee State Park",
-      "kind": "separate excursion",
-      "scene": "forest",
-      "text": "Near the foot of the road the Civilian Conservation Corps built this park in the 1930s, and the Foothills Trail has its southern end here.",
-      "at": [
-        -83.1041,
-        34.8664
-      ]
+      "title": "Wigington Overlook",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Lake Jocassee, visible from the Wigington Overlook on SC 413, is a reservoir created in 1973 by the state and Duke Power. The water covers Mount Carmel Baptist Church Cemetery, which appeared in the film Deliverance before the flooding. That site now lies beneath 130 feet of water. Four Appalachian rivers supply water to the lake: the Whitewater, Thompson, Horsepasture and Toxaway. Several waterfalls also flow directly into it, including Laurel Fork Falls and Mill Creek Falls. The dam that holds the reservoir measures 385 feet high and 1,750 feet long.",
+      "notice": "Look across Lake Jocassee toward the Blue Ridge Mountains."
     },
     {
       "title": "Kings Creek Falls",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "A spur road off the byway leads to the trailheads, an easy twenty minutes to Spoonauger Falls and a harder mile on to the falls on Kings Creek, bound for the Chattooga.",
+      "text": "Kings Creek Falls lies off a short spur from the Foothills Trail in Sumter National Forest. The falls lie near the Georgia line and Ellicott Rock Wilderness; their creek is a tributary of the Chattooga River. A spur road from the byway reaches trailheads for this waterfall and Spoonauger Falls. Discover South Carolina describes Spoonauger as an easy 20-minute hike and the walk to King Creek, a mile away, as more strenuous.",
       "at": [
         -83.1113,
         34.9662
       ]
     },
     {
-      "title": "Wigington Overlook",
-      "kind": "roadside",
-      "scene": "mountain",
-      "text": "Off SC 413 the view runs out over Lake Jocassee, which in 1973 drowned a churchyard where a scene from Deliverance had been filmed, now 130 feet down."
+      "title": "Oconee State Park",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Some buildings at Oconee State Park date to the Civilian Conservation Corps, which created the park in the 1930s. The work formed part of Franklin D. Roosevelt’s civilian employment projects during the Great Depression. In 2004, fifteen cabins, the superintendent’s residence and garage, shelters, the swimming lake and bath house were listed on the National Register of Historic Places. The park also marks the southern end of the Foothills Trail and the western end of the Oconee Passage of the Palmetto Trail. Fishing and boating take place on the park’s two small lakes.",
+      "at": [
+        -83.1041,
+        34.8664
+      ]
     }
   ],
   "sources": [
     {
-      "label": "Discover South Carolina, Take a scenic drive along one of South Carolina's prettiest mountain roads",
+      "label": "Discover South Carolina, Take a Scenic Drive Along One of South Carolina’s Prettiest Mountain Roads",
       "url": "https://discoversouthcarolina.com/articles/take-a-scenic-drive-along-one-of-south-carolinas-prettiest-mountain-roads"
+    },
+    {
+      "label": "Wikipedia, Lake Jocassee",
+      "url": "https://en.wikipedia.org/wiki/Lake_Jocassee"
+    },
+    {
+      "label": "South Carolina Legislature, Code of Laws Title 57 Chapter 23",
+      "url": "https://www.scstatehouse.gov/code/t57c023.php"
     },
     {
       "label": "Wikipedia, South Carolina Highway 107",
       "url": "https://en.wikipedia.org/wiki/South_Carolina_Highway_107"
     },
     {
-      "label": "Wikipedia, Oconee State Park",
-      "url": "https://en.wikipedia.org/wiki/Oconee_State_Park"
-    },
-    {
       "label": "Wikipedia, Kings Creek Falls",
       "url": "https://en.wikipedia.org/wiki/Kings_Creek_Falls"
     },
     {
-      "label": "Wikipedia, Lake Jocassee",
-      "url": "https://en.wikipedia.org/wiki/Lake_Jocassee"
+      "label": "Wikipedia, Oconee State Park",
+      "url": "https://en.wikipedia.org/wiki/Oconee_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

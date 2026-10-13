@@ -1,16 +1,18 @@
 {
   "id": "morgan-county-scenic-byway-13594",
-  "tagline": "Across the Muskingum, with old work close by.",
+  "tagline": "An Appalachian foothills drive crosses the Muskingum between two river towns",
   "intro": [
-    "From Bishopville, laid out in 1859 on the south side of Burr Oak State Park, Route 78 reaches Ringgold and runs on to the Muskingum River. Malta stands on the west bank and McConnelsville on the east, and the route crosses between them on its way toward Meigs.",
-    "Malta took its name from an early settler who had seen the island as a sailor. Both towns grew on river trade after locks and dams went into the Muskingum between 1836 and 1841, and the 1913 bridge between them is part of the river's historic navigation district. Covered and iron bridges turn up elsewhere along the byway too."
+    "The Morgan County Scenic Byway runs through the Appalachian foothills, with a crossing of the Muskingum between Malta and McConnelsville. The Federal Highway Administration highlights covered and iron bridges, wildlife areas, historic districts and state parks as its attractions, and allows an hour for the drive.",
+    "Before that road crossing, the river became a major route for transport and trade after locks and dams were built between 1836 and 1841. Malta grew through the nineteenth century because of its position on the river. The 1913 Morgan County Veterans’ Memorial Bridge later linked Malta and McConnelsville and became part of the Muskingum River Navigation Historic District.",
+    "Begin at Bishopville on State Route 78, beside the southern edge of Burr Oak State Park. The road reaches Ringgold at the junction with Route 555, southwest of Malta. Malta occupies the west bank of the Muskingum; across the river, Route 78 enters McConnelsville on the 7th Street bridge."
   ],
+  "notice": "The Muskingum separates Malta on the west bank from McConnelsville on the east.",
   "moments": [
     {
       "title": "Bishopville",
       "kind": "town",
       "scene": "forest",
-      "text": "The community stands beside Burr Oak State Park's southern edge, where it has a public dock.",
+      "text": "Bishopville stands on State Route 78 along the south side of Burr Oak State Park. James M. Bishop laid out the community in 1859 and gave it his name. The neighboring lake came much later: the Army Corps of Engineers began Tom Jenkins Dam in March 1948 and completed it in February 1950. The earth-fill dam was built for flood control, recreation and drinking water for the Athens area. Burr Oak State Park was dedicated in 1952. The lake covers 664 acres; the park borders Wayne National Forest and Sunday Creek State Wildlife Area.",
       "at": [
         -82.04916667,
         39.51305556
@@ -20,7 +22,8 @@
       "title": "Malta",
       "kind": "town",
       "scene": "river",
-      "text": "The Morgan County Dungeon, a stone jail about 11 feet long and 5 wide, once held people convicted of larceny, rioting and adultery; rediscovered in 1964, it now sits on Main Street.",
+      "text": "The Morgan County Dungeon is a small stone jail preserved on Malta’s Main Street. It measures approximately 11 feet long, 5 feet wide and 12 feet high. People convicted of larceny, rioting and adultery were confined inside. Construction work uncovered the jail in 1964; it was subsequently moved to Main Street, where an Ohio Historical Marker identifies it. Its construction is believed to date to the 1830s.",
+      "notice": "An Ohio Historical Marker identifies the relocated stone jail on Main Street.",
       "at": [
         -81.86416667,
         39.65166667
@@ -30,7 +33,7 @@
       "title": "McConnelsville",
       "kind": "town",
       "scene": "river",
-      "text": "Built in 1892 on the public square, the opera house was one of the first buildings in the county lit by electricity, and William Jennings Bryan spoke from its stage.",
+      "text": "Electric light was an early distinction of McConnelsville’s opera house, built in 1892 on the northwest corner of the public square. It was among the first buildings in Morgan County to use it. The stage hosted traveling shows and speakers including William Jennings Bryan, Reverend Billy Sunday and Senator Albert Beveridge. Downtown also has the Greek Revival courthouse, designed by William P. Johnson and built in 1858. The courthouse houses the Court of Common Pleas and its probate and juvenile divisions in the building completed for $10,000. McConnelsville is Morgan County’s seat.",
       "at": [
         -81.84666667,
         39.65666667
@@ -39,8 +42,16 @@
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Morgan County Scenic Byway",
+      "label": "Federal Highway Administration, Morgan County Scenic Byway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/13594"
+    },
+    {
+      "label": "Wikipedia, McConnelsville, Ohio",
+      "url": "https://en.wikipedia.org/wiki/McConnelsville%2C_Ohio"
+    },
+    {
+      "label": "Wikipedia, Malta, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Malta%2C_Ohio"
     },
     {
       "label": "Wikipedia, Bishopville, Ohio",
@@ -51,18 +62,9 @@
       "url": "https://en.wikipedia.org/wiki/Ringgold%2C_Ohio"
     },
     {
-      "label": "Wikipedia, McConnelsville, Ohio",
-      "url": "https://en.wikipedia.org/wiki/McConnelsville%2C_Ohio"
-    },
-    {
-      "label": "Wikipedia, Meigs, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Meigs%2C_Ohio"
-    },
-    {
-      "label": "Wikipedia, Malta, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Malta%2C_Ohio"
+      "label": "Wikipedia, Burr Oak State Park",
+      "url": "https://en.wikipedia.org/wiki/Burr_Oak_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

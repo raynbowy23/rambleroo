@@ -3,12 +3,12 @@
   "bywayId": "laureles-grade-road-990612",
   "title": "Laureles Grade Road",
   "longitude": -121.7495,
-  "ground": "main-street",
-  "palette": "town",
+  "ground": "forested-ridges",
+  "palette": "forest",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "level",
+    "profile": "rolling",
     "lanes": 2,
     "coordinates": [
       [
@@ -28,20 +28,12 @@
         36.56398
       ],
       [
-        -121.7516,
-        36.5635
-      ],
-      [
         -121.75024,
         36.56302
       ],
       [
         -121.74953,
         36.56201
-      ],
-      [
-        -121.74958,
-        36.56149
       ],
       [
         -121.75081,
@@ -176,39 +168,19 @@
         36.52061
       ],
       [
-        -121.75583,
-        36.51951
+        -121.75599,
+        36.51979
       ],
       [
-        -121.75597,
-        36.51889
+        -121.75581,
+        36.51931
+      ],
+      [
+        -121.75675,
+        36.51797
       ],
       [
         -121.75754,
-        36.51729
-      ],
-      [
-        -121.75624,
-        36.51397
-      ],
-      [
-        -121.75597,
-        36.51473
-      ],
-      [
-        -121.75614,
-        36.51519
-      ],
-      [
-        -121.75791,
-        36.51556
-      ],
-      [
-        -121.75839,
-        36.51621
-      ],
-      [
-        -121.75755,
         36.51729
       ],
       [
@@ -232,46 +204,74 @@
         36.50556
       ],
       [
-        -121.75281,
-        36.50672
+        -121.75507,
+        36.51191
+      ],
+      [
+        -121.75616,
+        36.51337
+      ],
+      [
+        -121.75603,
+        36.51505
+      ],
+      [
+        -121.75648,
+        36.51538
+      ],
+      [
+        -121.75791,
+        36.51556
+      ],
+      [
+        -121.75832,
+        36.51589
+      ],
+      [
+        -121.75825,
+        36.51655
+      ],
+      [
+        -121.75755,
+        36.51729
       ]
     ],
     "elevation": [
       [
         0,
-        0.2
+        0.35
       ],
       [
         0.125,
-        0.218
+        0.453
       ],
       [
         0.25,
-        0.26
+        0.7
       ],
       [
         0.375,
-        0.302
+        0.947
       ],
       [
         0.5,
-        0.32
+        1.05
       ],
       [
         0.625,
-        0.302
+        0.947
       ],
       [
         0.75,
-        0.26
+        0.7
       ],
       [
         0.875,
-        0.218
+        0.453
       ],
       [
         1,
-        0.2
+        0.35
       ]
     ]
   },
@@ -279,64 +279,106 @@
     {
       "name": "Corral de Tierra",
       "model": "town-blocks",
-      "at": 0.09286293742834834,
+      "at": 0.08888250733214752,
       "offset": "roadside",
       "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
     {
-      "model": "town-blocks",
-      "at": 0.041666666666666664,
+      "model": "hardwood",
+      "at": 0.0875,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.20833333333333334,
+      "model": "hardwood",
+      "at": 0.09949999999999999,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.375,
+      "model": "hardwood",
+      "at": 0.11149999999999999,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 1.5,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.5416666666666666,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "hardwood",
+      "at": 0.3375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.7083333333333334,
-      "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "model": "hardwood",
+      "at": 0.34950000000000003,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
     },
     {
-      "model": "town-blocks",
-      "at": 0.875,
+      "model": "hardwood",
+      "at": 0.36150000000000004,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5875,
       "side": -1,
-      "distance": 0.85,
-      "scale": 0.8
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.5995,
+      "side": -1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.6115,
+      "side": -1,
+      "distance": 1.5,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8375,
+      "side": 1,
+      "distance": 0.8,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8495,
+      "side": 1,
+      "distance": 1.15,
+      "scale": 1.05
+    },
+    {
+      "model": "hardwood",
+      "at": 0.8615,
+      "side": 1,
+      "distance": 1.5,
+      "scale": 1.05
     }
   ],
   "towns": [
     {
       "name": "Corral de Tierra",
-      "at": 0.09402985074626866,
+      "at": 0.09,
       "landmark": "Corral de Tierra"
     },
     {
       "name": "Siesta Point",
-      "at": 0.908955223880597,
+      "at": 0.7885714285714285,
       "landmark": ""
     }
   ],

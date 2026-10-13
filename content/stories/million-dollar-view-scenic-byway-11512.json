@@ -1,19 +1,40 @@
 {
   "id": "million-dollar-view-scenic-byway-11512",
-  "tagline": "A short run of US 1, all turnouts and long views.",
+  "tagline": "Hayfields and border lakes spread beyond the turnouts on US 1",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "From the Danforth town line, US 1 runs north through Weston to just past the Orient line, and the road keeps pulling over. From the turnouts the view takes in hayfields, the Chiputneticook lakes, East Grand, Brackett and Deering, and the country of New Brunswick, with Peekaboo Mountain and the far shape of Katahdin on the other hand.",
-    "It is called the Million Dollar View. The town at the middle of it came cheaper. Weston was supposedly named for the man who surveyed it in 1835, and nobody kept his full name."
+    "The Million Dollar View Scenic Byway follows US 1, with scenic turnouts overlooking rolling hayfields, lakes and the landscape of New Brunswick. The National Scenic Byway Foundation identifies it as an eight-mile state byway and highlights views of East Grand, Brackett and Deering lakes, Mount Katahdin and Peekaboo Mountain.",
+    "Weston was incorporated in 1835. The lakes have an older collective name, Shoodic, and belong to the Chiputneticook chain at the headwaters of the St. Croix River. The international boundary passes through East Grand Lake itself.",
+    "For a southbound journey, Orient comes before Weston, its neighbor to the south. The turnouts on US 1 give views across the lakes and hayfields; East Grand stretches for 22 miles. Continuing south leads toward Danforth village, where US 1 passes along the eastern side."
   ],
   "moments": [
+    {
+      "title": "Orient",
+      "kind": "town",
+      "scene": "forest",
+      "text": "Orient’s eastern edge follows the Saint Croix River beside North Lake parish in New Brunswick. The Orient–Fosterville Border Crossing connects the two. Weston lies to the south, the next town in this southbound sequence.",
+      "at": [
+        -67.87389,
+        45.8225
+      ]
+    },
+    {
+      "title": "Weston",
+      "kind": "town",
+      "scene": "prairie",
+      "text": "Weston’s town boundary takes in 9.94 square miles of water out of a total 40.55 square miles, figures reported by the United States Census Bureau. The town was incorporated in 1835 and had 245 residents at the 2020 census.",
+      "at": [
+        -67.87167,
+        45.73806
+      ]
+    },
     {
       "title": "East Grand Lake",
       "kind": "roadside",
       "scene": "river",
-      "text": "Twenty-two miles of water with the international boundary passing through it, one of the chain of lakes at the head of the St. Croix River.",
+      "text": "The international boundary runs through East Grand Lake, dividing water shared by Maine and New Brunswick. The lake reaches 22 miles in length and four miles at its widest point. It belongs to the Chiputneticook chain, whose lakes form the headwaters of the St. Croix River. Its water level is controlled by the Forest City Dam in New Brunswick. Landlocked salmon, lake trout, smallmouth bass and American eel are among the species living here. The Maine shore belongs to Washington and Aroostook counties; across the boundary, the lake forms the western edge of New Brunswick’s York County.",
       "at": [
         -67.8,
         45.7
@@ -21,54 +42,29 @@
       "motifs": [
         "lake-wide"
       ]
-    },
-    {
-      "title": "Weston",
-      "kind": "town",
-      "scene": "prairie",
-      "text": "A town of about 250 people with nearly ten of its forty square miles under water.",
-      "at": [
-        -67.87167,
-        45.73806
-      ]
-    },
-    {
-      "title": "Orient",
-      "kind": "town",
-      "scene": "forest",
-      "text": "The byway ends just past the Orient line, in a town whose eastern edge is the St. Croix River and the Orient–Fosterville border crossing into New Brunswick.",
-      "at": [
-        -67.87389,
-        45.8225
-      ]
     }
   ],
   "sources": [
     {
-      "label": "National Scenic Byway Foundation, Million Dollar View Scenic Byway (Wayback Machine snapshot)",
+      "label": "National Scenic Byway Foundation, Million Dollar View Scenic Byway (archived September 10, 2026)",
       "url": "https://web.archive.org/web/20260910161455/https://nsbfoundation.com/sb/million-dollar-view-scenic-byway/"
     },
     {
-      "label": "MaineDOT, Scenic Byways open data",
-      "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+      "label": "Wikipedia, Weston, Maine",
+      "url": "https://en.wikipedia.org/wiki/Weston%2C_Maine"
     },
     {
       "label": "Wikipedia, East Grand Lake",
       "url": "https://en.wikipedia.org/wiki/East_Grand_Lake"
     },
     {
-      "label": "Wikipedia, Weston, Maine",
-      "url": "https://en.wikipedia.org/wiki/Weston,_Maine"
-    },
-    {
       "label": "Wikipedia, Orient, Maine",
-      "url": "https://en.wikipedia.org/wiki/Orient,_Maine"
+      "url": "https://en.wikipedia.org/wiki/Orient%2C_Maine"
     },
     {
-      "label": "Wikipedia, Danforth, Maine",
-      "url": "https://en.wikipedia.org/wiki/Danforth,_Maine"
+      "label": "Wikipedia, Danforth (CDP), Maine",
+      "url": "https://en.wikipedia.org/wiki/Danforth_%28CDP%29%2C_Maine"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

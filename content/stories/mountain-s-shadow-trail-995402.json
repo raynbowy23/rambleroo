@@ -1,26 +1,38 @@
 {
   "id": "mountain-s-shadow-trail-995402",
-  "tagline": "From a found diamond to a mountain gap.",
+  "tagline": "One-lane farm roads follow the valleys beneath the Peters Mountain ridge",
   "intro": [
-    "Out of Peterstown, across Rich Creek from Virginia, the backway takes one-lane roads, some paved and some gravel, toward Gap Mills. The farms along them were carved out of the mountain valleys by settlers who lived apart from the rest of the county, by choice or by economic necessity.",
-    "Over all of it stands Peters Mountain, a ridge forty miles long, and the backway gives access to the Allegheny and Appalachian trails. Gap Mills takes its name from the gap in the adjacent mountain and two gristmills that once stood there; the mills survive in the name."
+    "Mountain’s Shadow Trail crosses mountain-valley farmland on 29 miles of one-lane paved and gravel roads. Peters Mountain, a 40-mile ridge, is the landscape’s unifying feature. Designated a state backway in June 1996, the route gives access to the Allegheny and Appalachian hiking trails. The drive takes one hour and 15 minutes.",
+    "The valley farms were established by settlers living apart from the rest of the county. At Gap Mills, established in 1775, the community’s name joins a pass in Gap Mountain with two former grist mills.",
+    "Begin with Peterstown, on the Virginia border across Rich Creek from Midway. Lindside lies northeast of Peterstown on U.S. 219. Gap Mills lies on West Virginia Route 3 east of Union."
   ],
+  "notice": "Valley farms lie beneath the long ridge of Peters Mountain.",
   "moments": [
     {
       "title": "Peterstown",
       "kind": "town",
       "scene": "town",
-      "text": "Grover Jones and his son William, known as Punch, found the 34.48-carat Jones Diamond here in 1928.",
+      "text": "In 1928, Grover C. Jones and his son William, known as Punch, discovered the 34.48-carat Jones Diamond in Peterstown. The town takes its name from settler Christian Peters. It sits on the West Virginia side of the state boundary, directly across Rich Creek from Midway in Virginia’s Giles County.",
       "at": [
         -80.795,
         37.39861111
       ]
     },
     {
+      "title": "Peters Mountain Wilderness",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Sandstone outcrops cap the Peters Mountain ridge, while high mountain bogs occupy Pine Swamp Ridge. Congress designated this wilderness in 1984; the Forest Service manages it. Its forests include upland oak, yellow poplar and hickory, with at least three tracts of old growth. The Appalachian Trail runs about 1.5 miles through the area. Outside the wilderness boundary, a 398-acre Nature Conservancy of Virginia preserve protects the rare Peters Mountain mallow. The ridge straddles the Virginia–West Virginia boundary, extending from the New River through Monroe County into Virginia’s Alleghany County.",
+      "at": [
+        -80.6225,
+        37.43305556
+      ]
+    },
+    {
       "title": "Gap Mills",
       "kind": "town",
       "scene": "mountain",
-      "text": "The village dates from 1775, but the first recorded English expedition reached the area in 1671, sent by Abraham Wood of Fort Henry.",
+      "text": "Gap Mills takes its name from two features: the natural pass in adjacent Gap Mountain and two grist mills once located here. The community was established in 1775. More than a century earlier, in 1671, Fort Henry commander Abraham Wood sent the first recorded English expedition to reach the area. Gap Mills lies on West Virginia Route 3 east of Union.",
       "at": [
         -80.40805556,
         37.56222222
@@ -28,22 +40,29 @@
     }
   ],
   "practical": [
-    "Every road is one lane, paved or gravel; RVs are not recommended because the roads are narrow."
+    "Peterstown: The backway’s paved and gravel roads are one lane. RVs are not recommended; snow and ice can make the roads unsuitable for passenger cars. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Wikipedia, Peterstown, West Virginia",
-      "url": "https://en.wikipedia.org/wiki/Peterstown%2C_West_Virginia"
+      "label": "West Virginia Byways and Backways, Byways and Backways Guide",
+      "url": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
     },
     {
       "label": "Wikipedia, Gap Mills, West Virginia",
       "url": "https://en.wikipedia.org/wiki/Gap_Mills%2C_West_Virginia"
     },
     {
-      "label": "West Virginia Byways and Backways guide (PDF)",
-      "url": "https://mh3wv.org/wp-content/uploads/2022/04/wv-byways-and-backways-guide.pdf"
+      "label": "Wikipedia, Peterstown, West Virginia",
+      "url": "https://en.wikipedia.org/wiki/Peterstown%2C_West_Virginia"
+    },
+    {
+      "label": "Wikipedia, Lindside, West Virginia",
+      "url": "https://en.wikipedia.org/wiki/Lindside%2C_West_Virginia"
+    },
+    {
+      "label": "Wikipedia, Peters Mountain Wilderness",
+      "url": "https://en.wikipedia.org/wiki/Peters_Mountain_Wilderness"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

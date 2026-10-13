@@ -1,39 +1,21 @@
 {
   "id": "northeast-kingdom-byway-995002",
-  "tagline": "Up the Passumpsic and along a lake that freezes late.",
+  "tagline": "Lake Willoughby’s cliff views lead into the Passumpsic River valley.",
   "motifs": [
     "lake-wide",
     "rolling-ridges"
   ],
   "intro": [
-    "US 5 leaves St. Johnsbury, the county seat where the platform scale was invented in 1830, and follows the Passumpsic River north into Lyndon. At West Burke the byway takes VT 5A, the more direct and easterly of the two roads to Derby, and runs up the east shore of Lake Willoughby beneath Mount Pisgah, with Mount Hor across the water.",
-    "The lake is over 300 feet deep in places, and because of that depth it freezes later than the other lakes in the Kingdom. From Derby the road comes down to Newport at the south end of Lake Memphremagog, 51 miles from where it began."
+    "The Northeast Kingdom drive follows Lake Willoughby’s eastern shore on VT 5A, with overlooks facing the water and cliffs on either side. Farther south, US 5 follows the Passumpsic River between Lyndon and St. Johnsbury. VT 5A passes through Willoughby State Forest, where Mount Pisgah stands east of the lake and Mount Hor to the west.",
+    "The lake road began its numbered life as New England Interstate Route 2A, an alternate to Route 2 in the regional road-marking system of 1922–1927. Route 2 became US 5, while the alternate became a state highway. Vermont took responsibility for US 5 in 1931 and finished paving it in 1933. The lake route’s number changed, but its course and role as the easterly alternative between Burke and Derby remained.",
+    "Begin at Newport on Lake Memphremagog and head through Derby Center toward Charleston. VT 5A shares VT 105 between Derby Center and Charleston before continuing to Lake Willoughby and West Burke. At West Burke it meets US 5; continue south toward Lyndon and St. Johnsbury. At St. Johnsbury, the Passumpsic meets the Moose and Sleeper’s rivers, placing the southern end of the drive at another meeting of waterways."
   ],
   "moments": [
-    {
-      "title": "Lyndon",
-      "kind": "town",
-      "scene": "river",
-      "text": "A town of covered bridges over the branches of the Passumpsic, the Randall from 1865 and the Sanborn from 1867 among them, the Sanborn standing between Lyndon and St. Johnsbury.",
-      "at": [
-        -71.99444,
-        44.5275
-      ]
-    },
-    {
-      "title": "Devil's Rock, Lake Willoughby",
-      "kind": "roadside",
-      "scene": "mountain",
-      "text": "A pull-off on the Mount Pisgah shore, where the rock carries a painted devil and, in still water, its reflection is said to show a skull lying on its side.",
-      "motifs": [
-        "lake-wide"
-      ]
-    },
     {
       "title": "Newport",
       "kind": "town",
       "scene": "town",
-      "text": "First called Pickeral Point, then Lake Bridge, the city wraps the south shore of Lake Memphremagog, where the Clyde, Barton and Black rivers all come in.",
+      "text": "Newport occupies the southern shore of Lake Memphremagog, where the Clyde, Barton and Black rivers enter the lake. Railroad construction reached the settlement in 1863, and Lake Bridge incorporated as the Village of Newport five years later. The Lady of the Lake began carrying passengers in 1867 and operated until 1917. The city uses the steamboat as its logo, preserving a visible link to that era of lake travel. The railway’s connections to outside markets helped the village expand. Passenger service later declined as people turned to cars; Newport’s last passenger train left in 1965.",
       "at": [
         -72.20889,
         44.93722
@@ -41,42 +23,65 @@
       "motifs": [
         "lake-wide"
       ]
+    },
+    {
+      "title": "Devil's Rock, Lake Willoughby",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "A painted devil faces the lake from Devil’s Rock on the Mount Pisgah shore. The VT 5A pull-off offers views across the water toward the cliffs. Lake Willoughby exceeds 300 feet in depth in places, and its depth makes its surface freeze later than other Northeast Kingdom lakes. Mount Pisgah and Mount Hor’s sheer cliffs support arctic and cliff-alpine plants and provide nesting habitat for peregrine falcons. Tourists once traveled this water by small steamboat. Those boats operated from 1884 into the early 1900s, when gasoline engines replaced steam power.",
+      "notice": "The east-shore overlooks face Lake Willoughby and the cliffs rising on both sides.",
+      "motifs": [
+        "lake-wide"
+      ]
+    },
+    {
+      "title": "Lyndon",
+      "kind": "town",
+      "scene": "river",
+      "text": "The Passumpsic River powered Lyndon’s gristmills and sawmills, but the railroad shifted its business center. About 1867, the Connecticut & Passumpsic Rivers Railroad bypassed Lyndon Corner and Lyndon Center, drawing business to Lyndonville. Covered bridges record another part of the town’s transport history. The Old Schoolhouse Bridge dates to 1871 and spans the South Wheelock Branch of the Passumpsic. Its trusses have vertical board siding inside as well as outside, an unusual detail among Lyndon’s bridges. The bridge stands south of the modern road crossing, with a metal gabled roof extending beyond its timber trusses.",
+      "at": [
+        -71.99444,
+        44.5275
+      ]
     }
   ],
   "sources": [
     {
-      "label": "Vermont's Northeast Kingdom, Scenic Drives",
-      "url": "https://www.northeastkingdom.com/scenic-drives"
+      "label": "Wikipedia, Vermont Route 5A",
+      "url": "https://en.wikipedia.org/wiki/Vermont_Route_5A"
+    },
+    {
+      "label": "Wikipedia, Lyndon, Vermont",
+      "url": "https://en.wikipedia.org/wiki/Lyndon%2C_Vermont"
     },
     {
       "label": "Wikipedia, U.S. Route 5 in Vermont",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_5_in_Vermont"
     },
     {
-      "label": "Wikipedia, Vermont Route 5A",
-      "url": "https://en.wikipedia.org/wiki/Vermont_Route_5A"
+      "label": "Wikipedia, Willoughby State Forest",
+      "url": "https://en.wikipedia.org/wiki/Willoughby_State_Forest"
+    },
+    {
+      "label": "Wikipedia, Newport (city), Vermont",
+      "url": "https://en.wikipedia.org/wiki/Newport_%28city%29%2C_Vermont"
+    },
+    {
+      "label": "Wikipedia, West Burke, Vermont",
+      "url": "https://en.wikipedia.org/wiki/West_Burke%2C_Vermont"
+    },
+    {
+      "label": "Wikipedia, St. Johnsbury, Vermont",
+      "url": "https://en.wikipedia.org/wiki/St._Johnsbury%2C_Vermont"
     },
     {
       "label": "Wikipedia, Lake Willoughby",
       "url": "https://en.wikipedia.org/wiki/Lake_Willoughby"
     },
     {
-      "label": "Wikipedia, Mount Pisgah (Vermont)",
-      "url": "https://en.wikipedia.org/wiki/Mount_Pisgah_(Vermont)"
-    },
-    {
-      "label": "Wikipedia, Lyndon, Vermont",
-      "url": "https://en.wikipedia.org/wiki/Lyndon,_Vermont"
-    },
-    {
-      "label": "Wikipedia, St. Johnsbury, Vermont",
-      "url": "https://en.wikipedia.org/wiki/St._Johnsbury,_Vermont"
-    },
-    {
-      "label": "Wikipedia, Newport (city), Vermont",
-      "url": "https://en.wikipedia.org/wiki/Newport_(city),_Vermont"
+      "label": "Wikipedia, Old Schoolhouse Bridge",
+      "url": "https://en.wikipedia.org/wiki/Old_Schoolhouse_Bridge"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

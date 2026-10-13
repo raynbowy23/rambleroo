@@ -1,66 +1,68 @@
 {
   "id": "palisades-scenic-byway-national-scenic-byway-993601",
-  "tagline": "A parkway of stone arches, run north to Bear Mountain.",
+  "tagline": "Stone arches and forested buffers connect the city with parkland",
   "motifs": [
     "arch-bridge"
   ],
   "intro": [
-    "The parkway crosses into New York at the hamlet of Palisades and swings northwest, away from the Hudson, under stone arch overpasses and between forested buffers and planted medians. Past the Thruway at West Nyack and the last busy exit at Stony Point it enters Harriman State Park and runs on through parkland into Orange County. It ends at a traffic circle by the river, at the foot of the Bear Mountain Bridge.",
-    "The park at its north end was nearly a prison. In 1908 the state meant to move Sing Sing to Bear Mountain, until Mary Harriman offered 10,000 acres and a million dollars for a park instead."
+    "The New York stretch of the Palisades Interstate Parkway runs through Rockland and Orange counties, with stone arch bridges, wooded buffers and landscaped medians surviving from its original design. NYSDOT gives the state section a length of 26.58 miles and identifies historic, scenic and recreational qualities. It is both a State Scenic Byway and a National Scenic Byway; the Federal Highway Administration describes a drive designed to connect New York City with nature. The route serves commuters as well as park visitors.",
+    "Engineer William A. Welch developed the parkway proposal in 1933–34 to connect the New Jersey Palisades with parks farther north along the Hudson. John D. Rockefeller donated 700 acres in 1933, but the New Jersey Highway Commission’s opposition put the idea on hold. Rockefeller renewed the campaign with Robert Moses in the 1940s, and construction began in New York in 1947.",
+    "Driving south, start at the Bear Mountain Bridge traffic circle and pass through Bear Mountain State Park toward Harriman. The visitor center occupies a former median service area between exits 16 and 17. Beyond Harriman, continue past Stony Point and Mount Ivy to the Thruway interchange at West Nyack. The state section ends at the hamlet of Palisades on the New Jersey border."
   ],
+  "notice": "Stone arch bridges, forested buffers and landscaped medians survive from the original parkway design.",
   "moments": [
     {
-      "title": "Harriman State Park",
-      "kind": "separate excursion",
-      "scene": "forest",
-      "text": "The state's second largest park, with 31 lakes and more than 200 miles of volunteer-kept trail, reached from the parkway by Lake Welch Parkway and Seven Lakes Drive.",
+      "title": "Bear Mountain Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Bear Mountain Bridge opened on November 27, 1924, with the world’s longest suspension span. That record lasted 19 months, until the Benjamin Franklin Bridge surpassed it. Earlier schemes had proposed a railway crossing; the company authorized in 1922 instead built for automobiles. Only the span between the towers hangs from cables; the approach spans are unsuspended. US 6, US 202 and the Appalachian Trail cross the Hudson here, where sidewalks flank the two vehicle lanes. It was the first automobile bridge over the Hudson south of Albany, and its construction methods influenced the later George Washington and Golden Gate bridges.",
       "at": [
-        -74.10055556,
-        41.24305556
+        -73.98027778,
+        41.32
       ]
     },
     {
       "title": "Palisades Interstate Park Commission Visitor Center",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Just inside Orange County, a parkway service area in the center median now serves as the visitor center, with an information desk and a bookstore open to both directions."
+      "text": "A former parkway service area now houses the Palisades Interstate Park Commission Visitor Center in the center median. It stands in Orange County between exits 16 and 17, north of the Lake Welch Parkway junction. The center offers information and a bookstore, with access from both directions."
     },
     {
-      "title": "Bear Mountain Bridge",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "When it opened in 1924 it was the longest suspension bridge in the world, for 19 months, and it still carries the Appalachian Trail across the Hudson.",
+      "title": "Harriman State Park",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Harriman’s lakes and roads owe part of their shape to public works during the Great Depression. Civilian Conservation Corps crews built roads, trails and camps, and worked on lakes including Welch, Silvermine and Pine Meadow. The park itself grew from Mary Harriman’s offer of 10,000 acres and $1 million in exchange for abandoning the state’s planned prison at Bear Mountain. The state agreed, and the deed and check were presented in 1910. Volunteers from the New York–New Jersey Trail Conference maintain more than 200 miles of trails. Lake Welch Parkway and Seven Lakes Drive connect with the Palisades Interstate Parkway within the park.",
       "at": [
-        -73.98027778,
-        41.32
+        -74.10055556,
+        41.24305556
       ]
     }
   ],
   "practical": [
-    "Commercial vehicles are prohibited on the entire parkway."
+    "Bear Mountain Bridge: Crossing the bridge eastbound requires an electronic toll. Payment uses E-ZPass or a mailed bill. (checked 2026-10-11)",
+    "Palisades Interstate Park Commission Visitor Center: Commercial vehicles are prohibited on the entire Palisades Interstate Parkway. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "NYSDOT, Palisades Interstate Parkway scenic byway",
+      "label": "New York State Department of Transportation, Palisades Interstate Parkway",
       "url": "https://www.dot.ny.gov/display/programs/scenic-byways/palisades"
+    },
+    {
+      "label": "Federal Highway Administration, Palisades Scenic Byway",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/81561"
     },
     {
       "label": "Wikipedia, Palisades Interstate Parkway",
       "url": "https://en.wikipedia.org/wiki/Palisades_Interstate_Parkway"
     },
     {
-      "label": "Wikipedia, Harriman State Park (New York)",
-      "url": "https://en.wikipedia.org/wiki/Harriman_State_Park_(New_York)"
-    },
-    {
-      "label": "Wikipedia, Bear Mountain State Park",
-      "url": "https://en.wikipedia.org/wiki/Bear_Mountain_State_Park"
-    },
-    {
       "label": "Wikipedia, Bear Mountain Bridge",
       "url": "https://en.wikipedia.org/wiki/Bear_Mountain_Bridge"
+    },
+    {
+      "label": "Wikipedia, Harriman State Park (New York)",
+      "url": "https://en.wikipedia.org/wiki/Harriman_State_Park_%28New_York%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

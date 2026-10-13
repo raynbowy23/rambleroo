@@ -1,19 +1,21 @@
 {
   "id": "lost-villages-scenic-byway-81478",
-  "tagline": "Back roads past a reservoir that took four towns.",
+  "tagline": "Back roads beside the Quabbin, where a reservoir changed the map",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "Route 122 leaves Orange and runs south through New Salem, Petersham, Barre and Rutland to Paxton, forty miles of back roads on the north side of the Quabbin Reservoir. In Petersham it crosses Turnpike Street, which was Route 21 before the reservoir took the valley the old road ran through.",
-    "Four towns were given up in the 1930s so the Quabbin could supply Boston. Hundreds of homes, a state highway, a railroad line and 34 cemeteries were moved or dismantled. Greenwich sat lower than its neighbors and is largely under water, except three hilltops, which are islands now."
+    "The Route 122 Scenic Byway links Orange and Paxton along 40 miles of back roads north of the Quabbin Reservoir. Western Massachusetts Scenic Byways promotes the corridor for reservoir overlooks, outdoor recreation and the remains of mills and former towns. Route 122 North became a state scenic byway in 2007.",
+    "The reservoir supplies Boston and other Greater Boston communities, as part of a system that also includes Wachusett Reservoir. The Quabbin project changed the roads as well as the valley. Dana, Enfield, Greenwich and Prescott were disincorporated in April 1938 for the reservoir. Homes and businesses, a railroad line and 34 cemeteries were moved or dismantled. Route 21 was cut back to the reservoir’s south side, while new roads ran along its western and eastern sides. Quabbin first filled to capacity in June 1946, after the river’s diversion tunnel was sealed in August 1939.",
+    "Start in Orange, where downtown retains 19th- and early 20th-century houses and mill buildings, then continue through New Salem toward Petersham. In Petersham, Turnpike Street marks Route 21’s former alignment. Continue through Barre Common, Oakham and Rutland toward Paxton, where Moore State Park preserves mill foundations and a restored mill."
   ],
+  "notice": "At Moore State Park, paths pass stone foundations and a restored mill.",
   "moments": [
     {
       "title": "The Lookout, New Salem",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Behind the New Salem fire station an unmarked gravel road leads to a lookout over the reservoir, with Mount Wachusett to the east and Mount Monadnock in New Hampshire to the north.",
+      "text": "The Lookout gives New Salem a view across the Quabbin Reservoir, reached by an unmarked gravel road behind the fire station. Its 180-degree panorama includes Mount Wachusett to the east and New Hampshire’s Mount Monadnock to the north. The water belongs to a landscape reshaped in the 1930s, when the reservoir project required the relocation of four towns. The changes extended beyond houses: a state highway, a railroad line and 34 cemeteries were moved or dismantled.",
       "motifs": [
         "lake-wide"
       ]
@@ -22,7 +24,8 @@
       "title": "Dana Common",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Through Gate 40 the old road, closed to cars, leads on foot to cellar holes and a stone marker reading Site of Dana Common 1801-1938.",
+      "text": "Most of the former town of Dana remains above water. Incorporated in 1801, it had been assembled from parts of Petersham, Greenwich and Hardwick. The reservoir project ended its municipal existence on April 28, 1938, and transferred its territory to Petersham. Houses were moved or demolished, leaving cellar holes. Gate 40 leads to the former common, where a stone marker commemorates the people who gave up their homes and way of life. Dana Reunion erected the marker in 1996. The old road is closed to cars; visitors reach the former town on foot.",
+      "notice": "Cellar holes remain where houses were moved or demolished.",
       "at": [
         -72.2275,
         42.42194
@@ -32,39 +35,37 @@
       "title": "Moore State Park",
       "kind": "short walk",
       "scene": "forest",
-      "text": "Turkey Hill Brook drops 90 feet in 400 feet here, and it turned a gristmill and a sawmill as early as 1747, with a restored sawmill there now.",
+      "text": "Turkey Hill Brook falls 90 feet in a run of 400 feet at Moore State Park, a concentrated source of power for a mill village. A gristmill and sawmill were built here as early as 1747; the site eventually held at least five watermills from the 18th and 19th centuries. The property became a private estate in the early 20th century before much of it entered the state park. Eames Pond is also within the park. Walking paths now pass old stone foundations and a restored mill, with mill chutes and waterfalls among the park’s features.",
       "at": [
         -71.95194,
         42.31722
       ]
     }
   ],
+  "practical": [
+    "Dana Common: The former town of Dana is accessible only on foot; the old road is blocked to cars. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "Western Massachusetts Scenic Byways, Route 122",
+      "label": "Western Massachusetts Scenic Byways, Route 122 Scenic Byway",
       "url": "https://www.bywayswestmass.com/byways/route-122"
-    },
-    {
-      "label": "Wikipedia, Massachusetts Route 122",
-      "url": "https://en.wikipedia.org/wiki/Massachusetts_Route_122"
     },
     {
       "label": "Wikipedia, Quabbin Reservoir",
       "url": "https://en.wikipedia.org/wiki/Quabbin_Reservoir"
     },
     {
-      "label": "Wikipedia, Dana, Massachusetts",
-      "url": "https://en.wikipedia.org/wiki/Dana,_Massachusetts"
+      "label": "Wikipedia, Massachusetts Route 122",
+      "url": "https://en.wikipedia.org/wiki/Massachusetts_Route_122"
     },
     {
-      "label": "Wikipedia, Greenwich, Massachusetts",
-      "url": "https://en.wikipedia.org/wiki/Greenwich,_Massachusetts"
+      "label": "Wikipedia, Dana, Massachusetts",
+      "url": "https://en.wikipedia.org/wiki/Dana%2C_Massachusetts"
     },
     {
       "label": "Wikipedia, Moore State Park",
       "url": "https://en.wikipedia.org/wiki/Moore_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

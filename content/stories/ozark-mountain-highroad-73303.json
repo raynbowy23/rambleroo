@@ -1,26 +1,33 @@
 {
   "id": "ozark-mountain-highroad-73303",
-  "tagline": "Four lanes around Branson, with ramps to nowhere at one end.",
+  "tagline": "Four lanes through wooded hills, with an unfinished connection at one end",
   "intro": [
-    "The Highroad starts at a Route 76 interchange northwest of Branson, where a stub of freeway with ghost ramps runs a short way south and stops. From there four lanes head north through wooded hills, curve northeast into Taney County, and turn east past Route 248 to US 65 north of town.",
-    "It opened in June 2003 as Route 465. So that Branson could take over its own strip, the state moved Route 76 onto the Highroad, and the 465 signs came down in 2020. The state owns the right of way to carry the road on to US 65 at the other end, and for lack of funding has no plans to build it."
+    "The Ozark Mountain Highroad carries four lanes through wooded hills northwest of Branson, curving north and northeast before turning east toward US 65. The Missouri Department of Transportation identifies it as a scenic byway on its corridor map. At the eastern end, the freeway becomes an undivided four-lane road for the short approach to US 65. The median widens as the road enters Taney County, then narrows on the eastern approach to Route 248.",
+    "The road opened in June 2003 as Route 465. Its later change of number was tied to Branson’s entertainment strip: to let the city take over the stretch between Route 376 and US 65, the state rerouted Route 76 along the Highroad and US 65. Route 465 was decommissioned, and replacement of the old signs began on January 6, 2020. An extension back to US 65 was planned, but the western interchange has a short unfinished freeway stub with unused ramps.",
+    "Begin at the western connection with Routes 76 and 376, where the interchange remains incomplete. The drive crosses from Stone County into Taney County and turns east to the Route 248 interchange. Continue through rural terrain to Adair Road and US 65; beyond US 65, the road becomes Route F."
   ],
   "moments": [
     {
       "title": "Silver Dollar City",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Out Route 76 to the west, an 1880s-themed park opened in 1960 at Marvel Cave, whose owner William Lynch once cleared the brush for the road from Branson that became Route 76.",
+      "text": "Marvel Cave came before Silver Dollar City, the 1880s-themed park that opened on May 1, 1960. The park occupies the site of the older cave attraction, off Route 76 on Table Rock Lake’s Indian Point peninsula. William Henry Lynch and his family began cave sightseeing operations in 1894. As automobile visitors arrived, Lynch cleared a path from Branson toward the cave that became Route 76. The Herschends later built an 1880s-style village above the cave, creating the themed town from which the park grew. The original village included five shops, a church and a log cabin when it opened.",
       "at": [
         -93.3389,
         36.6671
       ]
     },
     {
+      "title": "The unfinished interchange",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "A short freeway stub and unused ramps extend south from the Highroad’s western interchange. They mark an unfinished road connection: plans called for extending the Highroad back to US 65. The road that opened in June 2003 instead connected the old Route 76 junction northwest of Branson with US 65 north of town. Route 76 now returns to its original route here, meeting Route 376 at the incomplete interchange."
+    },
+    {
       "title": "Chula Vista",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "A 1,302-foot summit on Route 248, named by a settler who had visited Chula Vista, California, which is Spanish for pretty view.",
+      "text": "Chula Vista is a 1,302-foot summit beside Route 248 at Buchanan Road in Taney County. Its name came from a settler who had visited Chula Vista, California, and borrowed the name for this Missouri hill. In Spanish, it means pretty view.",
       "at": [
         -93.24889,
         36.69833
@@ -29,12 +36,16 @@
   ],
   "sources": [
     {
-      "label": "MoDOT, Ozark Mountain Highroad Scenic Byway map",
+      "label": "Wikipedia, Missouri Route 465",
+      "url": "https://en.wikipedia.org/wiki/Missouri_Route_465"
+    },
+    {
+      "label": "Missouri Department of Transportation, Ozark Mountain Highroad Scenic Byway map",
       "url": "https://www.modot.org/media/11342"
     },
     {
-      "label": "Wikipedia, Missouri Route 465",
-      "url": "https://en.wikipedia.org/wiki/Missouri_Route_465"
+      "label": "Wikipedia, Missouri Route 76",
+      "url": "https://en.wikipedia.org/wiki/Missouri_Route_76"
     },
     {
       "label": "Wikipedia, Silver Dollar City",
@@ -42,9 +53,8 @@
     },
     {
       "label": "Wikipedia, Chula Vista (Missouri)",
-      "url": "https://en.wikipedia.org/wiki/Chula_Vista_(Missouri)"
+      "url": "https://en.wikipedia.org/wiki/Chula_Vista_%28Missouri%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

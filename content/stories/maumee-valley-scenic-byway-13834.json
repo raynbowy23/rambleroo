@@ -1,20 +1,22 @@
 {
   "id": "maumee-valley-scenic-byway-13834",
-  "tagline": "Down the Maumee from Defiance, with the old canal alongside.",
+  "tagline": "Along the Maumee, canal ruins and a mill trace water’s working life",
   "motifs": [
     "lock-and-dam",
     "gristmill"
   ],
   "intro": [
-    "From Defiance the byway follows the Maumee downstream through Napoleon, Grand Rapids and Waterville toward Maumee and Perrysburg, on a river that meanders northeast through farm country to Lake Erie. The Miami and Erie Canal ran alongside. It thrived for about thirty years before the railroads took its trade, and a flood in 1913 destroyed much of what was left.",
-    "Grand Rapids was still called Gilead in 1845, when the state built a large dam across the river there to keep the canals in water. It cut the water power of the village mill, and the citizens destroyed it."
+    "The Maumee Valley Scenic Byway parallels a river that meanders northeast through farm country toward Lake Erie. Ohio’s transportation department highlights the byway’s historic towns, War of 1812 sites and Interurban Bridge. Along the valley, canal remains share the riverbanks with parks, including Independence Dam near Defiance and Providence near Grand Rapids.",
+    "The Miami and Erie Canal ran parallel to the Maumee between Toledo and Defiance to carry freight farther along the valley. At Independence Dam, boats entered a stretch of river water held back by the dam. At Defiance, the canal left the river and continued south toward Cincinnati. The canal system prospered for about thirty years before railroads displaced it, and a 1913 flood destroyed much of what remained. Preserved towpath sections now serve recreation, while Providence retains a functioning original lock.",
+    "Begin on Defiance’s north bank at State Route 15 and River Drive. Follow the river’s downstream sequence through Napoleon and Grand Rapids, then Waterville toward Maumee and Perrysburg. Independence Dam provides an early encounter with canal ruins; Providence’s mill follows near Grand Rapids. At Perrysburg, Fort Meigs occupies the south side of the river, with a replica fort surrounding an original defensive earthwork."
   ],
   "moments": [
     {
       "title": "Independence Dam State Park",
       "kind": "short walk",
       "scene": "river",
-      "text": "Three miles east of Defiance the park's main entrance crosses the ruins of Lock 13, and seven preserved miles of the canal run on from here.",
+      "text": "The entrance to Independence Dam State Park crosses the ruins of canal Lock Number Thirteen. Seven preserved canal miles extend between the park and County Road 424. The dam originally supplied water to the canal system; the concrete structure replaced a wooden dam in 1924. Civic organizations then campaigned to preserve the land between river and canal as a park. It opened in 1949, and the old towpath now serves walkers and cyclists. Along the riverbanks, stands of sycamore, beech, maple and black locust form the park’s wooded edge beside the water.",
+      "notice": "The main park entrance crosses the ruins of Lock Number Thirteen.",
       "at": [
         -84.2825,
         41.29389
@@ -27,7 +29,7 @@
       "title": "Providence Metropark",
       "kind": "short walk",
       "scene": "river",
-      "text": "Lock 44 here is the only original working canal lock in Ohio, and the park's Ludwig mill of 1866 began as a sawmill and took to grinding grain in the 1880s.",
+      "text": "At Providence Metropark near Grand Rapids, Lock 44 is an original canal lock that still functions. The park’s Isaac Ludwig Mill dates to 1866 and began as a sawmill driven by a water wheel. In the 1880s it changed both its work and its machinery, becoming a gristmill powered by water turbines. The mill now functions as a living museum. A walking trail connects Providence with Bend View and Farnsworth metroparks.",
       "at": [
         -83.85861,
         41.41583
@@ -40,7 +42,8 @@
       "title": "Fort Meigs",
       "kind": "short walk",
       "scene": "river",
-      "text": "Raised in 1813 on the south bank, it was the largest wooden-walled fort in North America, and that winter a sentry froze to death during his two hours on guard.",
+      "text": "The wooden fort at Fort Meigs is a full-size replica; an original defensive earthwork survives inside it. Soldiers under William Henry Harrison began building the original fort in February 1813 as a supply depot and staging point for operations in Upper Canada. British forces and Tecumseh’s Confederacy failed to capture it. The Ohio Historical Society reconstructed the fort in the late 1960s. Inside, the original grand traverse, an embankment used to absorb incoming shells, remains at a reduced height after erosion. The original walls combined upright logs with a steep earthen slope to strengthen them against bombardment.",
+      "notice": "An original defensive embankment survives inside the reconstructed fort.",
       "at": [
         -83.65167,
         41.55278
@@ -48,14 +51,6 @@
     }
   ],
   "sources": [
-    {
-      "label": "Ohio Department of Transportation, Maumee Valley Scenic Byway story map",
-      "url": "https://storymaps.arcgis.com/stories/cfec08b4642343c9bf39ce0eaf6b8ed7"
-    },
-    {
-      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
-      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
-    },
     {
       "label": "Wikipedia, Maumee River",
       "url": "https://en.wikipedia.org/wiki/Maumee_River"
@@ -65,18 +60,21 @@
       "url": "https://en.wikipedia.org/wiki/Independence_Dam_State_Park"
     },
     {
-      "label": "Wikipedia, Grand Rapids, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Grand_Rapids,_Ohio"
-    },
-    {
       "label": "Wikipedia, Providence Metropark",
       "url": "https://en.wikipedia.org/wiki/Providence_Metropark"
+    },
+    {
+      "label": "Ohio Department of Transportation, Ohio Byways brochure",
+      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+    },
+    {
+      "label": "Ohio Department of Transportation, Maumee Valley Scenic Byway story map",
+      "url": "https://storymaps.arcgis.com/stories/cfec08b4642343c9bf39ce0eaf6b8ed7"
     },
     {
       "label": "Wikipedia, Fort Meigs",
       "url": "https://en.wikipedia.org/wiki/Fort_Meigs"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

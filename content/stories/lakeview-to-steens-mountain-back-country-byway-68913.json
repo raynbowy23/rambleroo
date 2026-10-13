@@ -1,26 +1,39 @@
 {
   "id": "lakeview-to-steens-mountain-back-country-byway-68913",
-  "tagline": "Over the Warners, past the dune-rimmed lakes, toward Steens.",
+  "tagline": "Across the Warner Mountains to wetland dunes and Hart Mountain’s escarpment",
   "intro": [
-    "The byway leaves US 395 at OR 140 north of Lakeview and crosses the Warner Mountains, then comes down into the Warner Valley, where marshes and shallow lakes spread out around Plush. From there it crosses Hart Mountain, a geologic escarpment, and runs east over a broad high desert with Steens Mountain far off, to meet OR 205 south of Frenchglen, about 90 miles in all.",
-    "Crescent dunes line the north shores of the Warner lakes, built up by swings between wet years and dry, and the BLM says the only other lake complex like it is in South Africa."
+    "Lakeview to Steens Back Country Byway crosses the Warner Mountains, descends into the Warner Valley’s lakes and marshes, then crosses Hart Mountain toward open high desert. The Bureau of Land Management describes about 90 miles between access points, with 40 miles paved and 50 graveled. It describes the byway as suitable for passenger cars, while cautioning that severe winter storms can bring brief closures or adverse driving conditions. Its description of the Back Country Byway emphasizes waterfowl habitat, Hart Mountain’s wildlife and views of distant Steens Mountain. The valley’s lakes and wetlands lie below steep cliffs.",
+    "Crossing these wetlands with military wagons required a stone causeway. In 1867, soldiers built a causeway between Hart and Crump lakes for General George Crook’s wagons. They hauled basalt boulders and smaller rocks from Hart Mountain into the marsh, creating the quarter-mile Stone Bridge. The stone causeway still exists.",
+    "Begin at US 395 and OR 140 north of Lakeview. OR 140 crosses the Warner Mountains before a county road branches toward the North Warner Valley and Plush. Hart Mountain Road leads east and northeast from Plush to the wetlands and antelope refuge. Beyond Hart Mountain, the route crosses high desert with Steens in the distance, ending at OR 205 south of Frenchglen."
   ],
+  "notice": "Crescent-shaped dunes mark the northern edges of the Warner lakes.",
   "moments": [
     {
       "title": "Plush",
       "kind": "town",
       "scene": "desert",
-      "text": "The name is said to come from a flush mispronounced over a 19th-century poker game, and in 1898 a Daniel Boone, kin to the Kentucky pathfinder, became the postmaster.",
+      "text": "Plush developed with sheep grazing and small cattle ranches in the late nineteenth century. Catholics from Ireland came to work as shepherds. Its post office opened in 1888 with David R. Jones as postmaster. A decade later, Daniel Boone, a relative of the Kentucky pathfinder, took the job and opened a general store with the post office. The valley surrounding the community contains shallow lakes and marshes, most of them intermittent. Hart Mountain Road leaves town toward those wetlands and the refuge. Plush–Adel Road follows the valley floor north and south, while Plush Cutoff connects the community with OR 140 west of Adel.",
       "at": [
         -119.89944444,
         42.405
       ]
     },
     {
+      "title": "Warner Lakes",
+      "kind": "roadside",
+      "scene": "desert",
+      "text": "The Warner lakes are remnants of a much larger body of water that filled the valley during the Pleistocene. As its level receded, separate lakes remained in low places, with marshland between them. The system has no outlet: water moves northward and evaporates. Northern lakes can dry out during low rainfall. Repeated wet and dry cycles have formed crescent-shaped sand dunes along the lakes’ northern edges. Hart Lake receives overflow from Crump Lake and fresh water from Honey Creek. The valley slopes northward: Crump Lake stands 123 feet higher than Bluejoint Lake at the far northern end of the chain.",
+      "notice": "Sand ridges north of Anderson Lake carry greasewood, with some reaching 50 feet high.",
+      "at": [
+        -119.85106,
+        42.44988
+      ]
+    },
+    {
       "title": "Hart Mountain National Antelope Refuge",
       "kind": "roadside",
       "scene": "desert",
-      "text": "Set aside in 1936 for the remnant herds of pronghorn, the refuge is among the largest wildlife habitats with no domestic livestock, and bighorn sheep and golden eagles share it.",
+      "text": "Hart Mountain’s refuge began in 1936 as a range for remnant pronghorn herds. Its management later broadened to conserve the high desert’s wildlife and restore native ecosystems. Pronghorn use the upland sagebrush on the east side; bighorn sheep favor the rocky western cliffs. Disease and hunting had eliminated bighorn sheep here by 1915, and reintroduction began in 1954 with animals from British Columbia. The Bureau of Land Management identifies opportunities to see both species, along with mule deer, golden eagles and prairie falcons. Shallow lakes and spring-fed grassy meadows support the refuge’s greatest variety of species, alongside the upland sagebrush and rocky cliffs.",
       "at": [
         -119.6555036,
         42.5493254
@@ -28,22 +41,25 @@
     }
   ],
   "practical": [
-    "The byway is all-weather road, about 40 miles paved and 50 graveled and fit for passenger cars, though winter storms can close it for short spells, and most roads inside the refuge are primitive."
+    "Hart Mountain National Antelope Refuge: Severe winter storms can briefly close the byway or create adverse driving conditions. Most refuge roads are primitive. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "BLM, Lakeview to Steens Back Country Byway",
+      "label": "Bureau of Land Management, Lakeview to Steens Back Country Byway",
       "url": "https://www.blm.gov/visit/lakeview-steens-mountain-national-back-country-byway"
     },
     {
+      "label": "Wikipedia, Warner Lakes",
+      "url": "https://en.wikipedia.org/wiki/Warner_Lakes"
+    },
+    {
       "label": "Wikipedia, Plush, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Plush,_Oregon"
+      "url": "https://en.wikipedia.org/wiki/Plush%2C_Oregon"
     },
     {
       "label": "Wikipedia, Hart Mountain National Antelope Refuge",
       "url": "https://en.wikipedia.org/wiki/Hart_Mountain_National_Antelope_Refuge"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

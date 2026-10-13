@@ -1,16 +1,17 @@
 {
   "id": "mississippi-delta-great-river-road-64069",
-  "tagline": "Down the Delta, with the river levee off one shoulder.",
+  "tagline": "River ports and railroad departures shape the towns beside the Mississippi",
   "intro": [
-    "From the Helena Bridge the road comes into Mississippi on US 49, turns south on Highway 1 as far as Onward, then follows US 61 to the Warren County line above Vicksburg, about 175 miles in all. Along much of the way the levee stands behind the fields and hides the river. Men with buckets, shovels and mules built it.",
-    "The country is flat enough to see the horizon over both shoulders, laid down by floods as topsoil more than 100 feet deep in places. The fields go from green wheat in early spring to white cotton in early fall."
+    "Mississippi Highway 1 carries the Great River Road through the Greenville area, where the city stands beside Lake Ferguson, an old channel of the Mississippi. Farther south at Mayersville, a levee separates the town from the river.",
+    "Changes in transportation reshaped these river towns. Mayersville lost shipping business to railways, although no railway reached the town itself. After the 1927 flood, construction of a levee cut off its direct river access. In Rosedale, the railroad shipped cotton to distant markets and carried people north during the Great Migration.",
+    "For a southbound journey, Friars Point lies west of US 49 and US 61; Rosedale stands at highways 1 and 8. Greenville follows, beside its oxbow lake. Highway 1 connects Greenville with Mayersville and continues south to Onward, where it meets US 61."
   ],
   "moments": [
     {
       "title": "Friars Point",
       "kind": "town",
       "scene": "river",
-      "text": "Jesse James came through one evening in the 1880s, called on the Methodist minister, played poker at the saloon, and was gone by morning.",
+      "text": "The river channel has moved north, away from Friars Point, a former cotton-shipping port. Before the Civil War, the town was the largest cotton-shipping center south of Memphis. Union troops occupied it and burned parts of the town during the war. The Robinson-Slack-Marinelli House, now called the Minie Ball House, survives with marks of gunboat shelling. The Yazoo and Mississippi Valley Railroad arrived in 1887. A Mississippi Blues Trail marker recognizes Robert Nighthawk, who lived here at different times and recorded Friars Point Blues in 1940. Friars Point has public access to the Mississippi River’s shore.",
       "at": [
         -90.63666667,
         34.37138889
@@ -20,7 +21,8 @@
       "title": "Rosedale",
       "kind": "town",
       "scene": "town",
-      "text": "Locals hold that Robert Johnson sold his soul to the Devil where Highways 1 and 8 meet at the south end of town, though other Delta towns claim the same deal.",
+      "text": "At Rosedale’s former railroad depot site, a Mississippi Blues Trail marker connects the town’s music with journeys out of the Delta. The Yazoo and Mississippi Valley Railroad carried many migrants north during the first half of the twentieth century. The Mississippi Blues Commission installed the marker in 2007, commemorating places named in Robert Johnson’s Travelling Riverside Blues. Its interpretation treats railroad travel in blues songs as a metaphor for escape from poverty and Jim Crow. The same depot also shipped cotton to northern and other markets, linking agricultural trade with passenger journeys.",
+      "notice": "A Blues Trail marker stands at the former Yazoo and Mississippi Valley Railroad depot site.",
       "at": [
         -91.03388889,
         33.8525
@@ -30,7 +32,7 @@
       "title": "Onward",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "A state marker at the Onward Store recalls the 1902 hunt nearby when Theodore Roosevelt would not shoot a bear his guide Holt Collier had tied to a tree, and the Teddy Bear followed.",
+      "text": "At Onward, Highway 1 ends at US 61, and a state historical marker recalls the hunt behind the teddy bear. The marker stands on the grounds of Onward Store, near the site of Theodore Roosevelt’s 1902 bear hunt at Smedes Plantation. Onward’s post office occupied the store during the early to middle decades of the twentieth century. Holt Collier, an African-American hunter, led the hunt. By Collier’s account, he told Roosevelt not to shoot the bear while it was tied to a tree, and Roosevelt complied. Clifford Berryman’s cartoon depicted the bear as a cub, helping inspire the stuffed toy.",
       "at": [
         -90.94194444,
         32.72527778
@@ -39,30 +41,29 @@
   ],
   "sources": [
     {
-      "label": "MDOT, Mississippi Scenic Byways",
-      "url": "https://mdot.ms.gov/portal/scenic_byways_program"
+      "label": "Wikipedia, Rosedale, Mississippi",
+      "url": "https://en.wikipedia.org/wiki/Rosedale%2C_Mississippi"
     },
     {
-      "label": "MDOT, Mississippi Delta Great River Road Corridor Management Plan",
-      "url": "https://mdot.ms.gov/documents/Planning/Programs/Scenic%20byways/Mississippi%20Delta%20Great%20River%20Road%20Corridor%20Management%20Plan.pdf"
+      "label": "Wikipedia, Mayersville, Mississippi",
+      "url": "https://en.wikipedia.org/wiki/Mayersville%2C_Mississippi"
+    },
+    {
+      "label": "Wikipedia, Greenville, Mississippi",
+      "url": "https://en.wikipedia.org/wiki/Greenville%2C_Mississippi"
     },
     {
       "label": "Wikipedia, Friars Point, Mississippi",
-      "url": "https://en.wikipedia.org/wiki/Friars_Point,_Mississippi"
-    },
-    {
-      "label": "Wikipedia, Rosedale, Mississippi",
-      "url": "https://en.wikipedia.org/wiki/Rosedale,_Mississippi"
+      "url": "https://en.wikipedia.org/wiki/Friars_Point%2C_Mississippi"
     },
     {
       "label": "Wikipedia, Onward, Mississippi",
-      "url": "https://en.wikipedia.org/wiki/Onward,_Mississippi"
+      "url": "https://en.wikipedia.org/wiki/Onward%2C_Mississippi"
     },
     {
       "label": "Wikipedia, Holt Collier",
       "url": "https://en.wikipedia.org/wiki/Holt_Collier"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

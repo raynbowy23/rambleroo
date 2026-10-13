@@ -1,55 +1,64 @@
 {
   "id": "mount-greylock-scenic-byway-2569",
-  "tagline": "From Lanesborough farmland to the top of Massachusetts and down again.",
+  "tagline": "A seasonal parkway links mill-town North Adams with fir, spruce and farmland",
   "intro": [
-    "From open farmland in Lanesborough the parkway climbs through Mount Greylock State Reservation to the 3,491-foot summit, the state's high point, then comes down the Notch Road to North Adams. The climb runs from northern hardwoods to balsam fir and red spruce, like going from Pennsylvania to northern Maine in under an hour.",
-    "Cars came early. A pair of steam-powered Locomobiles made the summit by the Notch Road in 1902, and a road from the south followed in 1907. Herman Melville could see the mountain from his house in Pittsfield and dedicated a novel to it."
+    "Mount Greylock Scenic Byway crosses a landscape that changes with elevation, from farmland and northern hardwoods to fir and spruce near Massachusetts’ highest summit. The parkway meanders through the reservation on its way between Lanesborough and North Adams. Western Massachusetts Scenic Byways promotes this state-designated route for its summit views, forest trails and Civilian Conservation Corps architecture. Lower and middle slopes carry northern hardwood forest, while balsam fir and red spruce cover the upper slopes.",
+    "Automobiles first reached the summit from the north in 1902, when two steam-powered Locomobiles climbed Notch Road. In 1907, the Berkshire County Commission opened a southern road to join that existing approach. The CCC later improved the gravel road system and built much of Bascom Lodge, along with the Thunderbolt Ski Trail and its shelter. A 2008–2009 rehabilitation project restored the reservation’s road system and its scenic viewing opportunities.",
+    "Starting in North Adams, the northern approach follows Notch Road toward the summit. There, the War Memorial Tower and Bascom Lodge share the summit area with the Thunderbolt Ski Shelter. Rockwell Road provides the southern connection through Cheshire to Lanesborough, where the byway reaches open farmland."
   ],
   "moments": [
     {
-      "title": "Mount Greylock summit",
-      "kind": "roadside",
-      "scene": "mountain",
-      "text": "A circular staircase climbs the 93-foot War Memorial Tower for views across western New England into New York, beside the stone and wood Bascom Lodge the CCC built.",
+      "title": "North Adams",
+      "kind": "town",
+      "scene": "town",
+      "text": "The former Sprague Electric campus became the Massachusetts Museum of Contemporary Art in 1999. Its industrial spaces had already changed trades once: Sprague bought the former Arnold Print Works site in 1942. Sprague closed its Marshall Street operations in 1985. Museum director Thomas Krens was seeking room for art too large for conventional galleries, and Mayor John Barrett III proposed the complex. That proposal turned factory scale into exhibition space. At the byway’s northern end, Western Gateway Heritage State Park tells another transport story: the construction of the Hoosac Tunnel.",
       "at": [
-        -73.16599,
-        42.63726
+        -73.11667,
+        42.7
       ]
     },
     {
       "title": "Thunderbolt Ski Trail",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "The CCC cut this trail in 1934 to drop 2,000 feet from the summit in just under two miles, and championship downhill races ran on it through the late 1950s."
+      "text": "A drop of 2,000 feet in just under two miles made the Thunderbolt a steep addition to Greylock’s recreation landscape. The CCC cut the trail in 1934 with help in its design from ski groups. In 1940, the corps added a warming shelter several hundred feet north of the summit tower. Local stone and wood beams form the shelter; inside, four wooden benches are built into a central four-hearth fireplace. Major ski races were held here almost annually from 1935 through 1948; the 1938 race drew 7,000 spectators."
     },
     {
-      "title": "North Adams",
-      "kind": "town",
-      "scene": "town",
-      "text": "At the byway's northern end a heritage state park tells how the Hoosac Tunnel was built, and the old Sprague Electric plant became a museum of contemporary art in 1999.",
+      "title": "Mount Greylock summit",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Bascom Lodge’s stone and timber came from the mountain: Greylock schist and red spruce. The Greylock Commission wanted a more substantial shelter after an earlier summit house burned in 1929. Jules Emil Deloye Jr. built the west wing in 1932; the CCC completed the central and east wings under his supervision between 1935 and 1938. Nearby, the 93-foot War Memorial Tower has eight observation windows and a granite facing brought from Quincy. The tower was completed in 1932 and dedicated in 1933; its ground-floor chamber was designed to hold tablets and war relics.",
+      "notice": "Compare the lodge’s local stone and wood with the memorial tower’s Quincy granite.",
       "at": [
-        -73.11667,
-        42.7
+        -73.16599,
+        42.63726
       ]
     }
   ],
   "practical": [
-    "The parkway through the reservation is open to cars from late May through mid-October. The 70 miles of trails stay open all year."
+    "Mount Greylock summit: The summit roads open seasonally, weather permitting. The byway organization lists the vehicle season as late May through mid-October. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Western Massachusetts Scenic Byways, Mount Greylock",
-      "url": "https://www.bywayswestmass.com/byways/mt-greylock"
+      "label": "Wikipedia, Mount Greylock State Reservation",
+      "url": "https://en.wikipedia.org/wiki/Mount_Greylock_State_Reservation"
+    },
+    {
+      "label": "Wikipedia, North Adams, Massachusetts",
+      "url": "https://en.wikipedia.org/wiki/North_Adams%2C_Massachusetts"
     },
     {
       "label": "Wikipedia, Mount Greylock",
       "url": "https://en.wikipedia.org/wiki/Mount_Greylock"
     },
     {
-      "label": "Wikipedia, Mount Greylock State Reservation",
-      "url": "https://en.wikipedia.org/wiki/Mount_Greylock_State_Reservation"
+      "label": "Western Massachusetts Scenic Byways, Mount Greylock",
+      "url": "https://www.bywayswestmass.com/byways/mt-greylock"
+    },
+    {
+      "label": "Wikipedia, Lanesborough, Massachusetts",
+      "url": "https://en.wikipedia.org/wiki/Lanesborough%2C_Massachusetts"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

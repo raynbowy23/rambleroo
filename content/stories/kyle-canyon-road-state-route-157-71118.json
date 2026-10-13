@@ -1,26 +1,33 @@
 {
   "id": "kyle-canyon-road-state-route-157-71118",
-  "tagline": "A mountain village above the Las Vegas valley.",
+  "tagline": "A forested mountain village and spring-fed lakes beyond Las Vegas",
   "intro": [
-    "From Mount Charleston, Kyle Canyon Road runs down toward Lower Kyle Canyon, leaving a village set in the Spring Mountains at about 7,500 feet. Las Vegas sits near 2,000 feet, and the mean high up here runs about 20 degrees cooler, which is why Las Vegans come up to vacation.",
-    "Around 1870 to 1880, Conrad Keil, also known as Kyle, built a sawmill and cabin in the canyon. Edmund Griffith started a campground about 1905, and his Charleston Park Lodge stood where the village library and volunteer fire department are now."
+    "State Route 157 provides access to Mount Charleston, a village in the Spring Mountains northwest of Las Vegas. The village lies at approximately 7,500 feet, where rain and snow support coniferous forests. Las Vegas lies at about 2,000 feet; the higher village is a vacation destination for city residents.",
+    "Historian Stanley W. Paher places Conrad Keil, also known as Kyle, in the canyon with a sawmill and cabin circa 1870–1880. Edmund W. Griffith established a campground around 1905 and built Charleston Park Lodge around 1915. The Civilian Conservation Corps based Camp Charleston Mountain in the canyon beginning in 1933.",
+    "Start with the mountain village, which lies in Kyle Canyon. The Spring Mountains have conifers at their upper elevations, with juniper and pinyon below and creosote bush at their bases. Tule Springs offers a separate Las Vegas excursion to natural spring-fed lakes in the Mojave Desert."
   ],
   "moments": [
     {
       "title": "Mount Charleston",
       "kind": "town",
       "scene": "mountain",
-      "text": "The village fills a valley of the Spring Mountains noted for its hiking trails, where, unlike the rest of arid Nevada, enough rain and snow fall to keep a coniferous forest.",
+      "text": "The village’s approximately 7,500-foot elevation puts it above Las Vegas, at about 2,000 feet. Rain and melted snow sustain coniferous forest here. Mount Charleston takes its name from the nearby mountain and occupies a valley known for hiking trails. Its early vacation development included Edmund W. Griffith’s Charleston Park Lodge, later enlarged with a casino and lost to fire in 1961. The lodge stood in what is now Old Town. Historical postcards held by the Pomona, California, public library place that lodge at the present location of the Mount Charleston Library and Volunteer Fire Department.",
       "at": [
         -115.635,
         36.25805556
       ]
     },
     {
+      "title": "Silent Heroes of the Cold War Memorial",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "A propeller from a downed aircraft forms part of the Silent Heroes of the Cold War Memorial at Spring Mountains Visitor Gateway. Installed in 2015, the memorial recalls a 1955 crash near Mount Charleston’s summit. The aircraft was traveling from Burbank to Groom Lake for work on the secret U-2 program when it crashed during a blizzard. All fourteen men aboard died, including military personnel and civilian contractors, engineers and technicians. The recovered propeller stands with a granite monument; aircraft wreckage also remains near the summit, just off the southern loop trail."
+    },
+    {
       "title": "Tule Springs",
       "kind": "separate excursion",
       "scene": "desert",
-      "text": "Spring-fed lakes make an oasis in the Mojave at an old guest ranch where out-of-state residents once came to live in Nevada for its easy divorce; several buildings remain, and a few peacocks."
+      "text": "Natural spring-fed lakes form a Mojave Desert oasis within Floyd Lamb Park at Tule Springs. The springs also supported a guest ranch for out-of-state residents seeking Nevada divorces. Most ranch buildings date from the 1940s, when Prosper Jacob Goumond developed the divorce ranch. Las Vegas acquired the site as a park in 1964; state control followed in 1977, before the park returned to the city in 2007. Several ranch buildings remain, along with a few peacocks. The ranch became a National Register historic district in 1981. The city operates the park."
     }
   ],
   "sources": [
@@ -29,18 +36,25 @@
       "url": "https://en.wikipedia.org/wiki/Mount_Charleston%2C_Nevada"
     },
     {
-      "label": "Wikipedia, Spring Mountains",
-      "url": "https://en.wikipedia.org/wiki/Spring_Mountains"
-    },
-    {
       "label": "Wikipedia, Floyd Lamb Park at Tule Springs",
       "url": "https://en.wikipedia.org/wiki/Floyd_Lamb_Park_at_Tule_Springs"
     },
     {
+      "label": "Wikipedia, Spring Mountains",
+      "url": "https://en.wikipedia.org/wiki/Spring_Mountains"
+    },
+    {
+      "label": "Wikipedia, Mount Charleston",
+      "url": "https://en.wikipedia.org/wiki/Mount_Charleston"
+    },
+    {
       "label": "Wikipedia, Tule Springs",
       "url": "https://en.wikipedia.org/wiki/Tule_Springs"
+    },
+    {
+      "label": "Wikipedia, Tule Springs Ranch",
+      "url": "https://en.wikipedia.org/wiki/Tule_Springs_Ranch"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,20 +1,22 @@
 {
   "id": "m-123-tahquamenon-992603",
-  "tagline": "A U-shaped road to the Root Beer Falls and Whitefish Bay.",
+  "tagline": "A U-shaped drive links the Tahquamenon falls with Whitefish Bay.",
   "motifs": [
     "waterfall-cove",
     "lake-wide"
   ],
   "intro": [
-    "M-123 leaves Newberry heading north on Falls Road, crosses the Auger River and comes into Tahquamenon Falls State Park, where it is the only paved road. It follows the river east to Paradise on Whitefish Bay, then turns south along the shore, crosses the Tahquamenon near its mouth and comes back down to M-28 at Eckerman. It meets the same highway at both ends.",
-    "The river drains cedar swamps and runs brown with their tannin, which is why people call the big drop the Root Beer Falls. Longfellow put it in The Song of Hiawatha, where the hero builds his birch-bark canoe by the rushing Taquamenaw."
+    "The Tahquamenon Scenic Byway follows 63 miles of M-123 between Newberry and Eckerman. Its U-shaped course meets M-28 at both ends, taking in Tahquamenon Falls State Park and the shores of Whitefish Bay. M-123 is the park’s only paved road. When Michigan’s Department of Transportation expanded the scenic designation in 2007, it recognized views of rivers, forests, trails and the state park.",
+    "Construction began near Eckerman in the 1930s; by 1936, M-123 ran north of M-28 on ten miles of hard-surface pavement. It reached the Tahquamenon River bridge permanently in 1957, then extended through Paradise to Newberry in 1962. The first scenic designation covered Galloway Creek to County Road 500 in 1997. The later expansion covered the highway north of M-28. The Eastern Upper Peninsula Regional Planning & Development Commission planned that expansion with local governments and businesses along the route.",
+    "From the M-28 junction south of Newberry, drive north through town and follow Falls Road toward the park, crossing the Auger River. The Upper Falls precede the Lower Falls, about four miles downstream. Continue to Paradise on Whitefish Bay, where Whitefish Point Road branches north. Turn south along the bay, cross the Tahquamenon near its mouth and return to M-28 at Eckerman."
   ],
   "moments": [
     {
       "title": "Upper Tahquamenon Falls",
       "kind": "short walk",
       "scene": "forest",
-      "text": "The river falls about 50 feet in a single sheet more than 200 feet across, reached by paved trails and boardwalks through Michigan's largest stand of old growth.",
+      "text": "The brown water at the Upper Falls comes from tannins leached from cedar swamps drained by the river. That color gave the falls their Root Beer nickname. Here the river is more than 200 feet across and falls in a single drop. During late-spring runoff, as much as 50,000 gallons of water pass over each second. A paved walking trail leads from the visitor-center parking lot to the Upper Falls. Beyond the falls, the state park follows the Tahquamenon River to Whitefish Bay on Lake Superior, where the river drains into the lake.",
+      "notice": "The river’s brown color comes from tannins leached from cedar swamps.",
       "at": [
         -85.2564,
         46.5747
@@ -27,7 +29,8 @@
       "title": "Lower Tahquamenon Falls",
       "kind": "short walk",
       "scene": "river",
-      "text": "Four miles downstream the river breaks into five smaller falls around an island, reached by rowboat from the basin or by a footbridge built in 2022.",
+      "text": "About four miles downstream from the Upper Falls, five smaller falls cascade around an island. Visitors can reach it by rowboat or footbridge. Before the bridge, the island was accessible only by rowboat. Four aluminum sections came from Florida and were delivered to the falls by helicopter, then bolted together. The bridge was added to improve access for people with disabilities and is named for Ronald A. Olson of Michigan’s parks division. The pedestrian bridge includes railings and can carry 4,000 pounds; its design also gives visitors new angles on the running water.",
+      "notice": "Five smaller falls divide around the island.",
       "at": [
         -85.2069,
         46.6033
@@ -40,7 +43,7 @@
       "title": "Paradise",
       "kind": "town",
       "scene": "coast",
-      "text": "A town founded in 1925 on Whitefish Bay, at the turn for Whitefish Point, eleven miles north, with its shipwreck museum and lighthouse.",
+      "text": "At Paradise, M-123 turns while Whitefish Point Road continues north. The community was founded in 1925 on the western side of Whitefish Bay and is surrounded by state and national forests. Lake Superior’s shipping lanes lie several miles offshore. Whitefish Point, eleven miles north, has the Great Lakes Shipwreck Museum and Whitefish Point Lighthouse. It also lies on a bird-migration route protected by Seney National Wildlife Refuge and studied by the Whitefish Point Bird Observatory. Tourism is the community’s main business. The region harvests blueberries and cranberries in season, and Paradise holds a blueberry festival each summer.",
       "at": [
         -85.0375,
         46.6275
@@ -52,16 +55,16 @@
   ],
   "sources": [
     {
-      "label": "Eastern U.P. Regional Planning, Eastern U.P. Byways",
+      "label": "Wikipedia, M-123 (Michigan highway)",
+      "url": "https://en.wikipedia.org/wiki/M-123_%28Michigan_highway%29"
+    },
+    {
+      "label": "Eastern Upper Peninsula Regional Planning and Development Commission, Eastern U.P. Byways",
       "url": "https://www.eup-planning.org/eastern-up-byways/"
     },
     {
-      "label": "MDOT, Pure Michigan Byways Driving Guide (Wayback Machine snapshot, December 2025)",
-      "url": "https://web.archive.org/web/20251206181129/https://www.michigan.gov/mdot/-/media/Project/Websites/MDOT/Travel/Tourists/Byways/Pure-Michigan-Byways-Driving-Guide.pdf"
-    },
-    {
-      "label": "Wikipedia, M-123 (Michigan highway)",
-      "url": "https://en.wikipedia.org/wiki/M-123_(Michigan_highway)"
+      "label": "Wikipedia, Tahquamenon Falls State Park",
+      "url": "https://en.wikipedia.org/wiki/Tahquamenon_Falls_State_Park"
     },
     {
       "label": "Wikipedia, Tahquamenon Falls",
@@ -69,9 +72,8 @@
     },
     {
       "label": "Wikipedia, Paradise, Michigan",
-      "url": "https://en.wikipedia.org/wiki/Paradise,_Michigan"
+      "url": "https://en.wikipedia.org/wiki/Paradise%2C_Michigan"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

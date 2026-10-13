@@ -1,22 +1,23 @@
 {
   "id": "la-frontera-del-llano-byway-51378",
-  "tagline": "Through the shortgrass, past the towns a coal railroad left.",
+  "tagline": "Prairie miles connect mission churches and towns shaped by the Dawson Railway",
   "intro": [
-    "NM 39 comes south through the Kiowa National Grassland, shortgrass prairie nearly all of it leased for grazing cattle, and on through Roy and Mosquero toward the Canadian River. Small mission churches stand along the road from Solano to Gallegos.",
-    "Roy and Mosquero grew up on the Dawson Railway, built in 1902 from Tucumcari to the coal fields at Dawson. When the rails came up after mid-century, Roy started a long decline. The road ends at Logan, a town born when the Rock Island bridged the Canadian River, with Ute Lake just to the west."
+    "La Frontera del Llano follows NM 39 across northeastern New Mexico as a New Mexico State Scenic Byway. The New Mexico Tourism Department presents the Abbott-to-Logan drive through its grasslands, mission churches and state parks. Shortgrass prairie is the dominant vegetation in the Kiowa and adjoining Rita Blanca grasslands, while the Canadian River cuts through the western unit. The grassland mixes public and private land, and nearly all Kiowa National Grassland acreage is leased for cattle grazing.",
+    "The corridor’s towns took shape with another transport route: the Dawson Railway, built through Roy in 1902 to carry the line from Tucumcari toward Dawson’s coal fields. Roy moved to meet it, and Mosquero began as a railway water stop. After the rails were removed, Roy’s economy declined. Solano, once Harding County’s largest town, also lost importance when Dawson’s coal mines closed in the 1950s.",
+    "Travel southeast from Abbott through the grasslands toward Roy. At Mills, a separate excursion leads west to the Canadian River’s canyon rim. Continue through Roy, Solano and Mosquero; mission churches mark the stretch from Solano to Gallegos. The drive ends at Logan beside the Canadian River country of Ute Lake State Park."
   ],
   "moments": [
     {
       "title": "Mills Canyon",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Six miles west of Mills the grassland drops 700 feet into the red-rock canyon of the Canadian River, where Melvin Mills once kept an apple orchard on the floor."
+      "text": "Mills itself lies eleven miles north of Roy on NM 39. Six miles west of Mills, the Canadian River Canyon opens 700 feet deep and more than a mile across. Its red rock and vegetation belong to the western unit of New Mexico’s Kiowa National Grassland. On the canyon floor, ruins mark Melvin Mills’s early-1900s homestead, where he had a home and apple orchard. The community above takes its name from Mills, a rancher and attorney. A primitive campground occupies the rim; the road below accommodates walkers, horses and high-clearance vehicles."
     },
     {
       "title": "Roy",
       "kind": "town",
       "scene": "prairie",
-      "text": "Roy moved two miles east to meet the Dawson Railway, and its more than 40 city blocks still show the size it reached before the rails came up.",
+      "text": "Roy’s more than forty city blocks record the extent of its earlier growth. Ranchers Frank and William Roy founded the village; Frank became its first postmaster in 1901 and gave the settlement its name. When the Dawson Railway arrived in 1902, the village relocated to the line serving the coal fields. The move took Roy two miles east of its original location. Incorporation followed in 1916. Removal of the railroad after 1950 brought a significant loss of economic activity. The village now sits off NM 39 in New Mexico’s northeastern plains.",
       "at": [
         -104.19305556,
         35.94388889
@@ -26,16 +27,19 @@
       "title": "Mosquero",
       "kind": "town",
       "scene": "prairie",
-      "text": "A water stop on the Dawson line whose name is Spanish for swarm of flies, and which once made dry ice from the carbon dioxide of local gas wells.",
+      "text": "Mosquero combined a railway water stop with an industry drawn from underground gas. Its dry ice plant used carbon dioxide from wells drilled into the Bravo Dome gas field beneath Harding and Union counties. Benjamin Brown founded the village in 1908, and it developed as a farming, stock-raising and shipping center. The railway, absorbed by Southern Pacific, was removed in 1950; the population dwindled after the dry ice plant was destroyed. NM 39 continues southeast from Mosquero to Logan. The village is Harding County’s seat, with a small portion extending into San Miguel County.",
       "at": [
         -103.95444444,
         35.77444444
       ]
     }
   ],
+  "practical": [
+    "Mills Canyon: The road into the canyon calls for a high-clearance vehicle. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "New Mexico True, La Frontera del Llano",
+      "label": "New Mexico Tourism Department, La Frontera del Llano Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/la-frontera-del-llano/"
     },
     {
@@ -43,26 +47,25 @@
       "url": "https://en.wikipedia.org/wiki/Kiowa_National_Grassland"
     },
     {
-      "label": "Wikipedia, Mills, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Mills,_New_Mexico"
+      "label": "New Mexico Department of Transportation, Scenic Byways data",
+      "url": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
       "label": "Wikipedia, Roy, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Roy,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Roy%2C_New_Mexico"
     },
     {
       "label": "Wikipedia, Mosquero, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Mosquero,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Mosquero%2C_New_Mexico"
     },
     {
-      "label": "Wikipedia, Logan, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Logan,_New_Mexico"
+      "label": "Wikipedia, Solano, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Solano%2C_New_Mexico"
     },
     {
-      "label": "Wikipedia, Ute Lake State Park",
-      "url": "https://en.wikipedia.org/wiki/Ute_Lake_State_Park"
+      "label": "Wikipedia, Mills, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Mills%2C_New_Mexico"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

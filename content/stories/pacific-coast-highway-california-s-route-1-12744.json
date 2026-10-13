@@ -1,16 +1,18 @@
 {
   "id": "pacific-coast-highway-california-s-route-1-12744",
-  "tagline": "Down the California coast, one cliff town at a time.",
+  "tagline": "Redwood switchbacks, coastal cliffs and city streets on one numbered highway",
   "intro": [
-    "Route 1 starts in the redwoods outside Leggett and follows Cottaneva Creek out to the sea. At Fort Bragg it becomes Main Street and bridges the Noyo River. Farther south it crosses the Golden Gate Bridge with US 101, then keeps to the coast through Davenport and Santa Cruz.",
-    "Big Sur was the slow part. San Quentin set up convict camps there, paying inmates 35 cents a day and trimming their sentences, and the road opened on June 17, 1937, after 18 years and 33 bridges. For about 72 miles it hugs the cliffs."
+    "California’s Route 1 changes from redwood-forested switchbacks to coastal two-lane road, urban streets and freeway. Along Big Sur, it winds against the cliffs for about 72 miles and briefly turns inland through redwoods in the Big Sur River valley. The Big Sur coast became California’s first State Scenic Highway in 1965; the San Luis Obispo-to-Carmel section has National Scenic Byway status.",
+    "The highway came together in sections. In 1919, California approved the Carmel-San Simeon Highway to connect Big Sur with the rest of the state. San Quentin established prison camps whose incarcerated workers helped build the road. Workers received 35 cents a day and sentence reductions. The route required 33 bridges and opened on June 17, 1937, after 18 years of construction. The full route acquired its unified SR 1 designation in the 1964 renumbering.",
+    "Southbound from US 101 near Leggett, follow Cottaneva Creek through redwood country toward the coast. Route 1 becomes Main Street in Fort Bragg. Farther south, cross the Golden Gate Bridge with US 101. Continue through Davenport, Santa Cruz and Monterey toward Big Sur.",
+    "Beyond San Simeon, the route reaches San Luis Obispo, turns inland through parts of the Central Coast and shares US 101 through Santa Barbara. It follows the Malibu coast, crosses the Los Angeles area and continues through Orange County to I-5 at Dana Point."
   ],
   "moments": [
     {
       "title": "Fort Bragg",
       "kind": "town",
       "scene": "coast",
-      "text": "At Glass Beach, waves wore discarded bottles and other glass from the town’s former dump into small, smooth pieces.",
+      "text": "Glass Beach began as a dumping ground on the edge of Fort Bragg. In the early twentieth century, residents threw household rubbish over Union Lumber Company cliffs, including glass, appliances and vehicles. City leaders closed the dump in 1967, and cleanup programs followed. Over decades, waves worked the discarded glass into small, smooth pieces of sea glass. Through town, Route 1 carries the name Main Street and crosses both the Noyo River and Pudding Creek on bridges. The beach at the end of Elm Street became a destination for visitors to the coast.",
       "at": [
         -123.8044,
         39.4457
@@ -20,7 +22,7 @@
       "title": "Davenport",
       "kind": "town",
       "scene": "coast",
-      "text": "Agua Puerca Creek, whose name means muddy water, silted up Captain Davenport's lumber wharf until steamers could not tie up, and the town kept his name anyway.",
+      "text": "Davenport’s name traveled from a lumber landing to a cement town. Captain John Pope Davenport built a 400-foot wharf at Agua Puerca Creek to load lumber brought down from the hills. Mud filled the port until steamers could no longer reach the wharf, and an extension failed to solve the problem. After the Santa Cruz Portland Cement Company plant was built in 1906, the post office reopened in the settlement beside it, carrying the Davenport name to the new town. The cement plant ceased operations in 2010; its remains lie north of the town’s homes.",
       "at": [
         -122.19722222,
         37.01805556
@@ -30,20 +32,34 @@
       "title": "Lucia",
       "kind": "town",
       "scene": "coast",
-      "text": "Ten cabins stand on a 300-foot cliff above the Pacific, on land the Harlan family homesteaded in 1885 and refused to sell to William Randolph Hearst.",
+      "text": "Lucia sits 22 miles south of Big Sur Village in a sparsely settled part of the coast. Before the coast highway was completed, travelers used Wagon Cave as a resting place between the coast and inland markets. They changed from horseback to wagons kept there, then followed an 18-mile wagon road to Jolon for goods and supplies. The store at Lucia opened in 1937, the same year the Big Sur Coast Highway opened. The modern highway has its own adaptations to the terrain: south of Lucia, a bridge and covered rock shed replaced the landslide-prone section at Pitkins Curve and Rain Rocks.",
       "at": [
         -121.55111111,
         36.02055556
       ]
+    },
+    {
+      "title": "Dana Point",
+      "kind": "town",
+      "scene": "coast",
+      "text": "Dana Point’s harbor changed both the anchorage and the surf. The harbor was built in the 1960s and dedicated on July 31, 1971. Construction of its breakwater destroyed the surf break called Killer Dana, which had risen from deep water and broken near the shoreline rocks. The city’s name comes from Richard Henry Dana Jr., whose 1840 memoir, Two Years Before the Mast, described the area. Dana visited in 1835 aboard the brig Pilgrim, during the coast’s hide-trading era. Route 1 reaches its southern end here, meeting I-5 in Capistrano Beach.",
+      "at": [
+        -117.69805556,
+        33.46722222
+      ]
     }
   ],
   "practical": [
-    "Landslides and erosion along the coast, Big Sur especially, have closed stretches of the road for long periods."
+    "Lucia: Landslides and coastal erosion have repeatedly closed sections of Route 1 for long periods. (checked 2026-10-11)"
   ],
   "sources": [
     {
       "label": "Wikipedia, California State Route 1",
       "url": "https://en.wikipedia.org/wiki/California_State_Route_1"
+    },
+    {
+      "label": "Wikipedia, Monterey, California",
+      "url": "https://en.wikipedia.org/wiki/Monterey%2C_California"
     },
     {
       "label": "Wikipedia, Fort Bragg, California",
@@ -56,8 +72,11 @@
     {
       "label": "Wikipedia, Lucia, California",
       "url": "https://en.wikipedia.org/wiki/Lucia%2C_California"
+    },
+    {
+      "label": "Wikipedia, Dana Point, California",
+      "url": "https://en.wikipedia.org/wiki/Dana_Point%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

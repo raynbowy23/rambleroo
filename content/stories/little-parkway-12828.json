@@ -1,19 +1,21 @@
 {
   "id": "little-parkway-12828",
-  "tagline": "The old toll road around Grandfather, from before the Parkway.",
+  "tagline": "An old toll road winds along the side of Grandfather Mountain.",
   "motifs": [
     "viaduct"
   ],
   "intro": [
-    "From Linville, laid out in 1883 by a Kansan named Samuel T. Kelsey, US 221 swings around the flank of Grandfather Mountain on its way to Blowing Rock. Along the way, signs mark the Eastern Continental Divide, the invisible line between water bound for the Atlantic and water bound for the Gulf of Mexico.",
-    "Men and mules cut the road in 1889 as a private toll road, the Yonahlossee Trail. It was the link between Linville and Blowing Rock until the Blue Ridge Parkway, which runs along the same mountain, was finally completed in 1987."
+    "Little Parkway follows US 221 from Linville to Blowing Rock, winding along Grandfather Mountain’s side. NCDOT includes it among North Carolina’s scenic byways and gives the 18.5-mile drive 35 minutes. NCDOT highlights the mountain and Linn Cove Viaduct along the drive. Signs mark the Eastern Continental Divide, the boundary between water flowing toward the Atlantic and the Gulf of Mexico.",
+    "Linville was established in 1883, with a plan by Samuel T. Kelsey of Kansas. Men and mules built the road in 1889 as the privately owned Yonahlossee Trail, a toll route linking Linville and Blowing Rock. The later Blue Ridge Parkway faced its own problem at Grandfather Mountain: how to carry traffic without the damage of a conventional cut-and-fill road. Linn Cove Viaduct was completed in 1983; the Parkway opened for through travel in 1987. The two roads belong to different generations of mountain travel.",
+    "Begin in Linville and follow US 221 toward Blowing Rock. The viaduct comes into view along Grandfather Mountain; closer to Blowing Rock, Westglow’s columns mark artist Elliott Daingerfield’s former summer residence. The drive ends at Main Street in Blowing Rock. At Blowing Rock, the route reaches a town on the Blue Ridge crest, where drainage divides toward the Ohio River valley and the Atlantic."
   ],
+  "notice": "Signs mark the Eastern Continental Divide between Atlantic-bound and Gulf-bound waters.",
   "moments": [
     {
       "title": "Linn Cove Viaduct",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Across the face of Grandfather the Parkway's last link curls around the rock on a concrete viaduct, set segment by segment from above so no heavy equipment touched the mountainside.",
+      "text": "Linn Cove carries the Blue Ridge Parkway around Grandfather Mountain on 153 concrete segments. A crane advanced along the growing bridge, placing each segment from above. The segments were precast at an onsite facility, each weighing 50 tons, then carried to the crane. Almost every segment curves to follow the mountain’s contours. This method kept heavy equipment off the mountainside, though drilling the pier footings required work on the ground. Completed in 1983, the viaduct preceded the Parkway’s full opening in 1987. Its seven piers support a crossing 1,243 feet long.",
       "at": [
         -81.81223,
         36.09513
@@ -26,7 +28,7 @@
       "title": "Westglow",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The columned Colonial Revival house near Blowing Rock was painter Elliott Daingerfield's summer home, and his \"Madonna of the Hills\" hangs in town at St. Mary's-of-the-Hills Episcopal Church.",
+      "text": "Westglow announces itself with four large columns, their capitals in the Ionic order. Built in 1917, the Colonial Revival house served as artist Elliott Daingerfield’s summer home and studio. The rectangular frame house rises two and a half stories beneath its hipped roof. The property also includes an artist’s studio and a caretaker’s cottage from the 1920s. The house entered the National Register of Historic Places in 1979. NCDOT identifies those columns as a landmark to look for near Blowing Rock; the house’s hipped roof and columned portico give the former summer residence its distinctive outline.",
       "at": [
         -81.71388889,
         36.13805556
@@ -36,36 +38,17 @@
       "title": "Blowing Rock",
       "kind": "town",
       "scene": "mountain",
-      "text": "The town takes its name from a cliff over the Johns River Valley, where the air comes up so strongly that light things tossed off it are blown back.",
+      "text": "Blowing Rock takes its name from a cliff above the Johns River Valley, where rising air can return light objects tossed over the edge. The town sits on the crest of the Blue Ridge, with most of it just north of the divide. Water on that side drains toward the Middle Fork of the New River and the Ohio River valley. South of the crest, water reaches the Johns River, then the Catawba valley and eventually the Atlantic in South Carolina. The actual cliff lies in Caldwell County, in the southernmost portion of town.",
       "at": [
         -81.67055556,
         36.12972222
       ]
     }
   ],
-  "practical": [
-    "The route is not recommended for recreational vehicles or buses."
-  ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=94"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (points of interest)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=95"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (points of interest, continued)",
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways (Little Parkway)",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=96"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (Blowing Rock)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=97"
-    },
-    {
-      "label": "Wikipedia, Linville, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Linville,_North_Carolina"
     },
     {
       "label": "Wikipedia, Linn Cove Viaduct",
@@ -77,9 +60,8 @@
     },
     {
       "label": "Wikipedia, Blowing Rock, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Blowing_Rock,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Blowing_Rock%2C_North_Carolina"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

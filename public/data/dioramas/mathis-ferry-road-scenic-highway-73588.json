@@ -12,20 +12,20 @@
     "lanes": 2,
     "coordinates": [
       [
-        -79.8477,
-        32.8246
-      ],
-      [
-        -79.8708,
-        32.8135
+        -79.8902,
+        32.8084
       ],
       [
         -79.888,
         32.8106
       ],
       [
-        -79.8902,
-        32.8084
+        -79.8708,
+        32.8135
+      ],
+      [
+        -79.8477,
+        32.8246
       ]
     ],
     "elevation": [
@@ -118,5 +118,5 @@
     "public/data/byways.geojson",
     "public/data/catalog.json"
   ],
-  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
+  "geometryNotes": "Longest connected mapped chain; disconnected branches omitted, simplified to 56 bends. Reversed to story order. Elevation is a smooth illustrative scene profile, not surveyed heights. Terrain, vegetation and water are schematic; only editorial evidence authorizes landmarks."
 }

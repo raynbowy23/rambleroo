@@ -1,16 +1,18 @@
 {
   "id": "mathis-ferry-road-scenic-highway-73588",
-  "tagline": "A Mount Pleasant road beside two community histories.",
+  "tagline": "A short Mount Pleasant drive with protection for roadside trees",
   "intro": [
-    "From Whipple Road to 7th Street, Mathis Ferry Road runs through Mount Pleasant. Its scenic designation came with protection for larger trees in the highway right-of-way. Houses have filled in along the route since 1988, and the state still counts it as having kept most of its scenic qualities.",
-    "Nearby excursions tell different stories of community. I’On was planned around traditional neighborhood design; at Remley Point Cemetery in Scanlonville, residents fought a proposal to move graves for a private homestead, and a judge ruled against development of the cemetery."
+    "Mathis Ferry Road’s scenic section runs less than three miles through Mount Pleasant, from Whipple Road to 7th Street. The South Carolina Department of Transportation says the road has retained most of its scenic qualities despite substantial residential development since its 1988 designation. The department also identifies two historical markers along the route.",
+    "The 1988 scenic-highway law paired the designation with restrictions on new off-premises advertising and the removal of larger roadside trees. Trees exceeding six inches in caliper within the highway right-of-way require state transportation permission for removal, following a recommendation from Mount Pleasant’s governing council.",
+    "Follow the designated stretch from Whipple Road to 7th Street. Separate excursions in Mount Pleasant include I’On, a planned neighborhood with a village square, and Remley Point Cemetery in Scanlonville. The cemetery’s marked graves date from 1867 to 1989."
   ],
+  "notice": "Two historical markers stand along the scenic route.",
   "moments": [
     {
       "title": "I’On",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "A planned neighborhood in Mount Pleasant built around a village square, with sites for churches and schools, after a lengthy legal contest over its development.",
+      "text": "A village square anchors the plan for I’On, a Mount Pleasant community designed around traditional neighborhood development. Vince Graham directed its founding and planning in 1995, with designs by Dover, Kohl & Partners and Duany Plater-Zyberk & Company. The proposal originally included more than 1,200 units, including multifamily and rental housing. The planning process reduced it to approximately 762 single-family homes, the square and sites for civic buildings. Development was delayed by litigation with the Town of Mount Pleasant, which ended with the South Carolina Supreme Court ruling in the developer’s favor.",
       "at": [
         -79.879972,
         32.813538
@@ -20,31 +22,44 @@
       "title": "Remley Point Cemetery",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "In Scanlonville, marked graves preserve an African American community’s burial ground that residents went to court to protect.",
+      "text": "Remley Point Cemetery in Scanlonville contains 41 marked graves dating from 1867 to 1989. Residents say more than 1,000 people, largely African American, may be buried here. Tom and Victoria Rogers bought the three-acre cemetery in 1999 as part of a proposed homestead. Their 2001 request to relocate the graves prompted residents to sue to stop it. The request was withdrawn, then renewed. In 2005, a judge ruled that the historic cemetery could not be developed. Between the relocation request and the ruling, the cemetery entered the National Register of Historic Places in 2002.",
       "at": [
         -79.89861111,
         32.81305556
+      ]
+    },
+    {
+      "title": "Lucas Family Cemetery",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Charleston stonecarvers signed several of the grave markers in the walled Lucas Family Cemetery near Mount Pleasant. Established in 1825, this plantation cemetery retains eleven markers dating from that year through 1892. Five are brick box tombs topped with slabs or tables. The cemetery entered the National Register of Historic Places in 1998.",
+      "at": [
+        -79.87166667,
+        32.79583333
       ]
     }
   ],
   "sources": [
     {
-      "label": "South Carolina Legislature, Scenic Highways",
-      "url": "https://www.scstatehouse.gov/code/t57c023.php"
-    },
-    {
-      "label": "SCDOT, South Carolina Scenic Byways map series (story text)",
+      "label": "South Carolina Department of Transportation, National and State Scenic Byways",
       "url": "https://scdot.maps.arcgis.com/sharing/rest/content/items/0a5192983b2845c2b20fbc5d7a0372f9/data"
     },
     {
-      "label": "Wikipedia, I'On, Mount Pleasant, South Carolina",
+      "label": "South Carolina Legislature, Code of Laws: Highway Beautification and Scenic Routes",
+      "url": "https://www.scstatehouse.gov/code/t57c023.php"
+    },
+    {
+      "label": "Wikipedia, I’On, Mount Pleasant, South Carolina",
       "url": "https://en.wikipedia.org/wiki/I%27On%2C_Mount_Pleasant%2C_South_Carolina"
     },
     {
       "label": "Wikipedia, Remley Point Cemetery",
       "url": "https://en.wikipedia.org/wiki/Remley_Point_Cemetery"
+    },
+    {
+      "label": "Wikipedia, Lucas Family Cemetery",
+      "url": "https://en.wikipedia.org/wiki/Lucas_Family_Cemetery"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

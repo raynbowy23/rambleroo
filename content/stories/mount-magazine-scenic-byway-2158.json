@@ -1,20 +1,21 @@
 {
   "id": "mount-magazine-scenic-byway-2158",
-  "tagline": "From Havana over the top of Arkansas to Paris.",
+  "tagline": "Highway 309 crosses a cliff-rimmed mountain and a Depression-era stone bridge",
   "motifs": [
     "rolling-ridges",
     "arch-bridge"
   ],
   "intro": [
-    "Highway 309 leaves Highway 10 at Havana and climbs north through the Ozark National Forest onto Mount Magazine, a flat-topped mountain rimmed by cliffs whose Signal Hill, at 2,753 feet, is the highest point in Arkansas. An overlook along the way looks out over Blue Mountain Lake. Then the road comes down more than 2,300 feet, past Cove Lake, to Paris and on to Webb City, 45 miles in all.",
-    "The road itself is Depression work, built by the WPA and the Civilian Conservation Corps along with the trails and the dam at Cove Lake. The French named the mountain for a storehouse it was thought to resemble."
+    "Highway 309 winds through the Ozark National Forest and over Mount Magazine, then descends into Arkansas River Valley farmland. The mountain is a flat-topped mesa edged with cliffs, with an overlook along the route facing Blue Mountain Lake. ARDOT designated the 45-mile Havana-to-Webb City corridor an Arkansas Scenic Byway in 1994, highlighting the passage over Arkansas’ highest mountain and down into the valley.",
+    "The road’s recreation history reaches back to Depression-era public works. The Works Progress Administration and Civilian Conservation Corps built the mountain road, trails, an amphitheater and dams that created Cove Lake and Spring Lake. At Cove Lake, WPA funding paid for the earth-and-stone dam and the masonry bridge carrying the highway across its spillway in 1937. The recreation landscape later became a state park: a partnership between Arkansas and the USDA Forest Service allowed Mount Magazine State Park to open in 1998.",
+    "Begin at Highway 10 in Havana and climb north onto Mount Magazine. The byway then drops more than 2,300 feet, crosses Cove Lake and reaches Paris. In town, Highway 309 meets Highway 22 at the Logan County Courthouse and Paris Commercial Historic District. Continue north to the corridor’s end at Highway 23 in Webb City."
   ],
   "moments": [
     {
       "title": "Mount Magazine",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "A sandstone-capped plateau spared by erosion and rimmed with sheer cliffs, where the Resettlement Administration bought out every private holding in 1934 and a state park now holds the top.",
+      "text": "Signal Hill reaches 2,753 feet on a mountain with a broad, flat top and cliff edges. Mount Magazine is Arkansas’ highest point and the site of a state park. Its recreation buildings have changed: the WPA began a 27-room lodge in 1939, but that building burned in 1971. The state park opened in 1998 through a partnership with the USDA Forest Service. The lodge opened in 2006 is a later building, accompanied by 13 cliffside cabins. The mountain’s two summits are Signal Hill and Mossback Ridge, the latter reaching 2,700 feet above sea level.",
       "at": [
         -93.64473,
         35.16702
@@ -27,7 +28,8 @@
       "title": "Cove Lake Spillway Dam-Bridge",
       "kind": "roadside",
       "scene": "forest",
-      "text": "The highway crosses the spillway on a five-arch masonry bridge, built with the earth and stone dam in 1937 on WPA money.",
+      "text": "Five masonry arches carry Highway 309 across Cove Lake’s spillway. The bridge and its earth-and-stone dam were built in 1937 with Works Progress Administration funding. The dam holds back Cove Lake, the setting for a national forest recreation area north of Corley. The pair entered the National Register of Historic Places in 1995.",
+      "notice": "The highway crosses the spillway on five masonry arches.",
       "at": [
         -93.62917,
         35.23278
@@ -40,7 +42,7 @@
       "title": "Paris",
       "kind": "town",
       "scene": "town",
-      "text": "A Logan County seat named for the French capital in 1874 and later a coal town, it keeps an Eiffel Tower Park, the tower doubling as a fountain, with the historic courthouse behind.",
+      "text": "Paris took the French capital’s name in 1874 and incorporated in 1879. The village had formed on the Old Military Road between Little Rock and Fort Smith. Coal became its main industry by 1917, then declined by the 1960s, prompting local leaders to seek a broader economic base. It remains the seat of Logan County’s northern district. At Eiffel Tower Park, a tower fountain stands against the backdrop of the historic courthouse. A love-lock fence completes the park’s French reference. Highway 309 passes the courthouse and the Paris Commercial Historic District at its junction with Highway 22.",
       "at": [
         -93.725,
         35.28944
@@ -49,34 +51,33 @@
   ],
   "sources": [
     {
-      "label": "ARDOT, Scenic Byways",
+      "label": "Arkansas Department of Transportation, Scenic Byways",
       "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
-    },
-    {
-      "label": "Arkansas Tourism, Road Trip: The Scenic Byway Guide to Northwest Arkansas",
-      "url": "https://www.arkansas.com/plan-your-trip/plan/trip-ideas-itineraries/road-trip-the-scenic-byway-guide-to-northwest-arkansas"
-    },
-    {
-      "label": "Wikipedia, Arkansas Highway 309",
-      "url": "https://en.wikipedia.org/wiki/Arkansas_Highway_309"
     },
     {
       "label": "Wikipedia, Mount Magazine",
       "url": "https://en.wikipedia.org/wiki/Mount_Magazine"
     },
     {
-      "label": "Wikipedia, Mount Magazine State Park",
-      "url": "https://en.wikipedia.org/wiki/Mount_Magazine_State_Park"
-    },
-    {
       "label": "Wikipedia, Cove Lake Spillway Dam-Bridge",
       "url": "https://en.wikipedia.org/wiki/Cove_Lake_Spillway_Dam-Bridge"
     },
     {
+      "label": "Wikipedia, Arkansas Highway 309",
+      "url": "https://en.wikipedia.org/wiki/Arkansas_Highway_309"
+    },
+    {
+      "label": "Wikipedia, Mount Magazine State Park",
+      "url": "https://en.wikipedia.org/wiki/Mount_Magazine_State_Park"
+    },
+    {
+      "label": "Arkansas Tourism, Road Trip: The Scenic Byway Guide to Northwest Arkansas",
+      "url": "https://www.arkansas.com/plan-your-trip/plan/trip-ideas-itineraries/road-trip-the-scenic-byway-guide-to-northwest-arkansas"
+    },
+    {
       "label": "Wikipedia, Paris, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/Paris,_Arkansas"
+      "url": "https://en.wikipedia.org/wiki/Paris%2C_Arkansas"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

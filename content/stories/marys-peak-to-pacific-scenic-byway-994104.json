@@ -1,17 +1,17 @@
 {
   "id": "marys-peak-to-pacific-scenic-byway-994104",
-  "tagline": "Down the Alsea from the Coast Range's top to the sea.",
+  "tagline": "A winding Alsea River drive with summit and forest-waterfall spurs",
   "intro": [
-    "The byway starts near I-5 at Tangent, named for a run of railroad with no curves for more than 20 miles, and goes through Corvallis and Philomath before turning southwest onto OR 34. From there it follows the Alsea River on an often narrow, twisting road through Alsea and Tidewater, near the head of the tide, to Waldport and US 101.",
-    "Two spurs climb away from it. One goes up Marys Peak Road, built by the Civilian Conservation Corps, and the other runs ten miles down South Fork Road to Alsea Falls."
+    "Marys Peak to Pacific Scenic Byway crosses from the Willamette Valley toward the coast on a road that is often narrow and twisting. Travel Oregon presents the 72-mile drive as a connection between the Coast Range’s highest point and the Central Coast’s broad sandy beaches, allowing three to five hours. West of Alsea, the river’s bends tighten as it continues toward the ocean. Two spurs leave the main route for Marys Peak and Alsea Falls.",
+    "The Civilian Conservation Corps built Marys Peak Road, which climbs past waterfalls and stonework lookouts toward the summit. Down in the Alsea valley, another piece of roadbuilding history spans the river: Hayden Covered Bridge, constructed in 1918. Rebuilding in 1945 enlarged its portals to accommodate bigger vehicles. A logging truck damaged it in 2006, requiring further work after repairs made three years earlier.",
+    "Begin near I-5 and Tangent, pass through Corvallis and Philomath, then turn southwest on OR 34. The Marys Peak spur comes first; back on OR 34, the route follows the Alsea valley to Alsea and the South Fork Road excursion to the falls. Continue past Hayden Bridge and Tidewater to Waldport, where the river widens into Alsea Bay and the byway ends at US 101."
   ],
-  "season": "Travel Oregon lists it as a year-round drive.",
   "moments": [
     {
       "title": "Marys Peak",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "From the top of the Coast Range, 4,097 feet, the view runs east over the Willamette Valley to the Cascades and, on a clear day, west to the Pacific.",
+      "text": "At 4,097 feet, Marys Peak is the highest point in the Oregon Coast Range. On clear days the summit offers views east across the Willamette Valley to the Cascades and west to the Pacific. Its grassland supports wildflowers, with noble fir on the upper slopes and Douglas fir and western hemlock below. In 1989, the Forest Service designated 924 acres as a Scenic Botanical Special Interest Area, including summit meadow, streamside zones and noble fir forest. The approach road climbs past waterfalls and stonework lookouts toward the mountain. Wildflowers bloom in the summit meadows in late spring and summer.",
       "at": [
         -123.55246,
         44.50436
@@ -21,7 +21,8 @@
       "title": "Alsea Falls",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "The falls come down 30 feet in stair steps among old-growth Douglas fir and western redcedar, with a campground and trails alongside.",
+      "text": "South Fork Road leaves the main byway for a ten-mile excursion to Alsea Falls Recreation Site. The falls descend 30 feet in a series of steps, surrounded by old-growth Douglas fir and western redcedar forest. The recreation area lies along the South Fork Alsea River, with trails leading through the forest to several waterfalls. Near Alsea, the South Fork joins the North Fork to form the main river.",
+      "notice": "The waterfall descends in stair steps among Douglas fir and western redcedar.",
       "at": [
         -123.49185,
         44.32642
@@ -31,15 +32,12 @@
       "title": "Waldport",
       "kind": "town",
       "scene": "coast",
-      "text": "Many early settlers were German, so the town became wald, forest, plus port, and here the Alsea River slows and widens into Alsea Bay.",
+      "text": "The Alsea River slows and spreads into Alsea Bay at Waldport, where the byway meets US 101. The coastal crossing changed the town’s connections in 1936, when Conde McCullough’s Alsea Bay Bridge opened as one of five federally funded bridges completing the Oregon Coast Highway. Marine corrosion eventually forced its replacement. The new span opened in 1991, and the original bridge was demolished. The interpretive center, built on the Waldport side in 1991, houses a replica of McCullough’s office. At the foot of the bridge, the Alsea Bay Historic Interpretive Center explains the Oregon Coast’s bridges through exhibits.",
       "at": [
         -124.06639,
         44.41722
       ]
     }
-  ],
-  "practical": [
-    "Marys Peak Road stays open in winter but is not maintained then, and a high-clearance four-wheel-drive vehicle or chains on all four wheels are required."
   ],
   "sources": [
     {
@@ -47,8 +45,8 @@
       "url": "https://traveloregon.com/things-to-do/trip-ideas/scenic-drives/marys-peak-pacific-scenic-byway/"
     },
     {
-      "label": "Wikipedia, Tangent, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Tangent,_Oregon"
+      "label": "Wikipedia, Hayden Bridge (Alsea, Oregon)",
+      "url": "https://en.wikipedia.org/wiki/Hayden_Bridge_%28Alsea%2C_Oregon%29"
     },
     {
       "label": "Wikipedia, Oregon Route 34",
@@ -56,7 +54,7 @@
     },
     {
       "label": "Wikipedia, Tidewater, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Tidewater,_Oregon"
+      "url": "https://en.wikipedia.org/wiki/Tidewater%2C_Oregon"
     },
     {
       "label": "Wikipedia, Marys Peak",
@@ -67,10 +65,13 @@
       "url": "https://en.wikipedia.org/wiki/Alsea_Falls"
     },
     {
+      "label": "Wikipedia, South Fork Alsea River",
+      "url": "https://en.wikipedia.org/wiki/South_Fork_Alsea_River"
+    },
+    {
       "label": "Wikipedia, Waldport, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Waldport,_Oregon"
+      "url": "https://en.wikipedia.org/wiki/Waldport%2C_Oregon"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

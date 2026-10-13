@@ -1,16 +1,17 @@
 {
   "id": "morgan-parleys-scenic-byway-994901",
-  "tagline": "Over Big Mountain on the pioneers' line, when the snow allows.",
+  "tagline": "Through canyons and forests on parts of three historic trails",
   "intro": [
-    "From Morgan, SR-66 heads south up East Canyon beside East Canyon Creek, through Porterville and Richville, to the reservoir at East Canyon State Park. There the byway turns onto SR-65 and climbs over Big Mountain Pass, then comes down past Little Dell Reservoir to I-80 in Parleys Canyon, winding through canyons, farmland and forest.",
-    "The road keeps old company. It follows parts of the Mormon, California and Pony Express trails, and when SR-65 was made a state highway in 1931 it was meant to follow the Mormon Trail as closely as practicable."
+    "The Morgan–Parleys drive winds through canyons, farmland and forests, passing East Canyon State Park between Morgan and I-80. Visit Utah gives the trip as 33 miles and 50 minutes and highlights its connections with the Mormon, California and Pony Express trails. Utah designated the corridor a state scenic byway on December 11, 2017.",
+    "The road’s relationship to the Mormon Trail was deliberate: when SR 65 joined the state highway system in 1931, it followed that trail as closely as practicable over Big Mountain Pass and through Emigration Canyon to Salt Lake City. SR 66 itself had begun in 1931 as the state connection from Hardscrabble through Porterville to Morgan. The Hardscrabble link left state control in 1953, before the later southward extension brought East Canyon Reservoir into the numbered route. In 1969, the state rerouted SR 65 to I-80 in Parleys Canyon and extended SR 66 from Porterville to East Canyon Reservoir.",
+    "From Morgan, SR 66 follows East Canyon Creek through East Canyon, then winds along the reservoir’s northern end. At SR 65, turn south for Big Mountain Pass, the 7,420-foot crossing used by Mormon pioneers in 1847. The road then passes Little Dell Reservoir before reaching I-80 near Mountain Dell Dam."
   ],
   "moments": [
     {
       "title": "Morgan",
       "kind": "town",
       "scene": "town",
-      "text": "Settled around 1861 and put on the map by the Union Pacific in 1868 and 1869, this is the town in and around which most of the 1989 horror film Troll 2 was shot.",
+      "text": "Commercial Street became Morgan’s business center when merchants moved closer to the railroad’s freight and passenger stations. Union Pacific laid tracks through Weber Canyon in 1868–1869. Businesses shifted to the west side of the tracks, and Commercial Street remains the town’s main street and the focus of its historic district. The depot at 98 North Commercial Street dates to 1926 and served passengers until 1972. Ownership passed from Union Pacific to Morgan County in 1982. A steel caboose displayed near the depot once served as a crew shuttle in Ogden before its donation to Morgan in 2019.",
       "at": [
         -111.67611,
         41.04111
@@ -20,7 +21,7 @@
       "title": "East Canyon State Park",
       "kind": "roadside",
       "scene": "river",
-      "text": "The road winds along the north end of a 680-acre reservoir in a narrow-walled canyon, held back by a concrete arch dam 259 feet high.",
+      "text": "A 680-acre reservoir occupies the narrow-walled canyon at East Canyon State Park. East Canyon Creek feeds the water held behind a concrete arch dam built between 1964 and 1966. The dam stands 259 feet high and stretches 436 feet across, with a base 20 feet wide and a crest only 7 feet wide. SR 66 winds along the northern end of the reservoir before meeting SR 65. The reservoir belongs to the Weber Basin Project. The park sits at 5,700 feet above sea level, below the byway’s crossing at Big Mountain Pass.",
       "at": [
         -111.58694,
         40.90111
@@ -30,7 +31,7 @@
       "title": "Big Mountain Pass",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The Mormon pioneers crossed this 7,420-foot pass in 1847 on their way to the Salt Lake Valley, a year after the Donner Party came through.",
+      "text": "Big Mountain Pass carries the road over a 7,420-foot crossing in the Wasatch Mountains. The Donner Party used it in 1846, followed in 1847 by Mormon pioneers heading for the Salt Lake Valley. When the state established SR 65 in 1931, it kept as close as practicable to the historic Mormon Trail over this pass. Snowfall determines the seasonal closure at the crossing.",
       "at": [
         -111.65378,
         40.828
@@ -38,34 +39,41 @@
     }
   ],
   "practical": [
-    "SR-65 south of Big Mountain closes each year from winter into spring."
+    "Big Mountain Pass: SR 65 south of Big Mountain to Little Dell Reservoir closes for approximately six months each winter and spring. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Visit Utah, Utah's Scenic Byways",
+      "label": "Utah Office of Tourism, Utah’s Scenic Byways",
       "url": "https://www.visitutah.com/things-to-do/road-trips/scenic-byways"
     },
     {
-      "label": "Wikipedia, Utah State Route 66",
-      "url": "https://en.wikipedia.org/wiki/Utah_State_Route_66"
+      "label": "Cornell Law School Legal Information Institute, Utah Admin. Code R926-13-4",
+      "url": "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R926-13-4"
     },
     {
       "label": "Wikipedia, Utah State Route 65",
       "url": "https://en.wikipedia.org/wiki/Utah_State_Route_65"
     },
     {
-      "label": "Wikipedia, Morgan, Utah",
-      "url": "https://en.wikipedia.org/wiki/Morgan,_Utah"
-    },
-    {
-      "label": "Wikipedia, East Canyon State Park",
-      "url": "https://en.wikipedia.org/wiki/East_Canyon_State_Park"
+      "label": "Wikipedia, Utah State Route 66",
+      "url": "https://en.wikipedia.org/wiki/Utah_State_Route_66"
     },
     {
       "label": "Wikipedia, Big Mountain Pass",
       "url": "https://en.wikipedia.org/wiki/Big_Mountain_Pass"
+    },
+    {
+      "label": "Wikipedia, Morgan, Utah",
+      "url": "https://en.wikipedia.org/wiki/Morgan%2C_Utah"
+    },
+    {
+      "label": "Wikipedia, Morgan Union Pacific Depot",
+      "url": "https://en.wikipedia.org/wiki/Morgan_Union_Pacific_Depot"
+    },
+    {
+      "label": "Wikipedia, East Canyon State Park",
+      "url": "https://en.wikipedia.org/wiki/East_Canyon_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

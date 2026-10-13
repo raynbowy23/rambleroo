@@ -1,41 +1,44 @@
 {
   "id": "lake-waramaug-and-new-preston-990905",
-  "tagline": "A slow loop around Lake Waramaug, and back to the falls.",
+  "tagline": "Shore roads circle a lake whose outlet powered New Preston’s mills",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "Out of New Preston, Route 45 runs a half mile through the village and comes out on the east shore of Lake Waramaug. From there an unsigned state road, SSR 478, carries on around the south, west and north shores, so the drive becomes a slow loop past houses, seasonal cottages and boathouses on a shore that is nearly all private.",
-    "The lake is a natural one, raised by a small concrete and masonry dam, and 40 feet at its deepest. It drains south into the East Aspetuck River, which takes the water back through New Preston and over the falls."
+    "Lake Waramaug’s shore roads pass houses, seasonal cottages and boathouses, with Route 45 along the eastern shore and unsigned Special Service Road 478 looping along the other three sides. In New Preston, the surrounding terrain has steep hills, narrow valleys and exposed ledge rock. Connecticut’s Department of Transportation designated the lake’s perimeter roads as state scenic roads in 1996, with protection against changes that would diminish their scenic qualities.",
+    "The shoreline’s summer houses followed another transport change: the Shepaug Railroad arrived in 1872, bringing passenger service from New York City and prompting construction of homes and inns beside the lake. Rail operations ended in 1948. The New Preston road north through Warren became state Highway 152 in 1922, then Route 45 in the 1932 renumbering. Scenic designation extended through New Preston village in 2010, along with the US 202 section between Route 45 and Rabbit Hill Road.",
+    "Start in Marbledale on US 202 and continue to New Preston, where the East Aspetuck River carries the lake’s outflow over New Preston Falls. Route 45 leads north along the east shore into Warren. North Shore Road leads west toward Lake Waramaug State Park on the northwest shore. The unsigned loop continues along the west and south shores to Route 45."
   ],
   "moments": [
+    {
+      "title": "Marbledale",
+      "kind": "town",
+      "scene": "town",
+      "text": "During the nineteenth century, the village supported a prosperous cooper’s shop. Marbledale is one of five villages within the town of Washington. St. Andrew’s gives Marbledale a distinctive roadside detail: Gothic lancet windows with marble sills set into a brick church. Its square tower projects from the building, with wood finishing the upper stages. The congregation began in New Preston in 1764, abandoned its original building during Revolutionary War harassment, and later used a former Quaker meeting house. The present church belongs to the early 1820s and was enlarged in 1855. It stands on New Milford Turnpike at Wheaton Road.",
+      "notice": "The church’s lancet windows have marble sills and wood frames.",
+      "at": [
+        -73.369,
+        41.663
+      ]
+    },
     {
       "title": "New Preston",
       "kind": "town",
       "scene": "river",
-      "text": "The East Aspetuck runs through the village center and over New Preston Falls, in country of steep hills, narrow valleys and ledge rock."
+      "text": "The East Aspetuck drops sharply from Lake Waramaug into New Preston, where it runs through the village center and over the falls. That descent powered mills and small factories in the early nineteenth century. Manufacturers made twine, hats, cheese boxes, ax handles, shoes and harnesses. Industry later declined as electricity, expanding rail networks and larger manufacturing centers changed production. Several nineteenth-century mill structures remain along the river, among the village’s collection of Georgian, Greek Revival, Italianate and Shingle-style homes. The steep, rocky terrain limited building sites, and most viable sites were already in use before 1900, leaving little room for new construction.",
+      "notice": "The East Aspetuck River runs through the village center and over New Preston Falls."
     },
     {
       "title": "Lake Waramaug State Park",
       "kind": "roadside",
       "scene": "river",
-      "text": "On the northwest shore is the lake's one public way to the water, a park the state began buying in 1920, with swimming, camping and a launch for canoes.",
+      "text": "Connecticut bought the first 75 acres of Lake Waramaug State Park in 1920. The park occupies the lake’s northwest shore in Kent and covers 95 acres. Beyond it, the lake’s developed shoreline includes houses, seasonal cottages and boathouses. The water itself is natural in origin, though a small concrete and masonry dam has raised its surface. Sucker Brook, smaller streams and groundwater feed the lake; its outflow runs south into the East Aspetuck River. The lake reaches a maximum depth of 40 feet. Its steep underwater slopes hold gravel, cobbles and boulders, while flatter bottom areas contain sand, mud and organic muck.",
       "at": [
         -73.3825,
         41.70639
       ],
       "motifs": [
         "lake-wide"
-      ]
-    },
-    {
-      "title": "Marbledale",
-      "kind": "town",
-      "scene": "town",
-      "text": "Out along US 202, a village that kept a prosperous cooper's shop in the 19th century and has kept St. Andrew's Episcopal Church, Gothic Revival, since 1822.",
-      "at": [
-        -73.369,
-        41.663
       ]
     }
   ],
@@ -45,26 +48,29 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_45"
     },
     {
+      "label": "Wikipedia, New Preston, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/New_Preston%2C_Connecticut"
+    },
+    {
       "label": "Wikipedia, Lake Waramaug",
       "url": "https://en.wikipedia.org/wiki/Lake_Waramaug"
+    },
+    {
+      "label": "Wikipedia, Washington, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Washington%2C_Connecticut"
     },
     {
       "label": "Wikipedia, Lake Waramaug State Park",
       "url": "https://en.wikipedia.org/wiki/Lake_Waramaug_State_Park"
     },
     {
-      "label": "Wikipedia, New Preston, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/New_Preston,_Connecticut"
-    },
-    {
-      "label": "Wikipedia, U.S. Route 202 in Connecticut",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_202_in_Connecticut"
-    },
-    {
       "label": "Wikipedia, Marbledale, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Marbledale,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Marbledale%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, St. Andrew’s Episcopal Church (Washington, Connecticut)",
+      "url": "https://en.wikipedia.org/wiki/St._Andrew%27s_Episcopal_Church_%28Washington%2C_Connecticut%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

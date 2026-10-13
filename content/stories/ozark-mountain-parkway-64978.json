@@ -1,20 +1,21 @@
 {
   "id": "ozark-mountain-parkway-64978",
-  "tagline": "No passing to Galena, where the old bridge forks.",
+  "tagline": "Switchbacks to the James River, where an old bridge forks",
   "motifs": [
     "switchbacks",
     "river-bluffs"
   ],
   "intro": [
-    "Branson West was Linchpin once, then Lakeview, until 1992, when it took the name of its busier neighbor. From there Route 265 heads north with Route 413 through mountainous country to Reeds Spring. Past Reeds Spring, Route 248 joins in, and the three share one winding two-lane road of switchbacks to Galena. It is striped no-passing the whole way.",
-    "At Galena the road crosses the James River and turns west, then north through farmland and woods by Elsey to Crane, and on toward the Christian County line."
+    "Between Reeds Spring and Galena, three route numbers share one winding, hilly road: Routes 248, 265 and 413. This two-lane stretch makes switchbacks through the Ozarks and has no-passing stripes throughout. The Missouri Department of Transportation includes the Ozark Mountain Parkway on its scenic-byways roster as Route 265 in Stone County.",
+    "At Galena, the road’s history takes the shape of a letter. The Y-Bridge opened over the James River in 1927 to carry Routes 13 and 44, now numbered 413 and 248. Its east end split so drivers could turn north or south where the highway was confined between a steep bluff and the river. A newer crossing to the north now carries traffic. Route 413 follows an older alignment of Route 13, which was later rerouted. Route 265 shares much of its length with other numbered highways.",
+    "From Branson West, Routes 265 and 413 head north through mountainous country to Reeds Spring. Route 248 joins them for the winding approach to Galena and the James River crossing. Route 248 leaves the shared road at Galena. Beyond Galena, Routes 265 and 413 continue through farmland, pass Elsey and a dense forest, and reach Crane."
   ],
   "moments": [
     {
       "title": "Reeds Spring",
       "kind": "town",
       "scene": "mountain",
-      "text": "Fitzhugh Reed settled by a spring here and farmed it as Reed's Springs before the town was organized in 1906 and kept his name.",
+      "text": "The name Reeds Spring began with a farm beside a spring. Fitzhugh Reed settled near the original town site and called his farm Reed’s Springs; the town was formally organized in 1906. Here Route 248 joins Routes 265 and 413 for the winding two-lane drive toward Galena.",
       "at": [
         -93.38277778,
         36.74555556
@@ -24,7 +25,8 @@
       "title": "Y-Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "The 1927 bridge over the James forks at its east end like a Y, so traffic could turn north or south between bluff and river. Cars now use a newer bridge to the north.",
+      "text": "Galena’s Y-Bridge made a junction out of a river crossing. Opened in 1927, it carried Routes 13 and 44 over the James River. At the east end, drivers could choose a northbound or southbound branch, fitting the highway into the space between a steep bluff and the water. Those routes are now numbered 413 and 248. The old bridge is on the National Register of Historic Places, while a newer bridge to its north carries vehicles across the river. The old crossing’s three branches give the bridge its name and distinctive outline.",
+      "notice": "The east end divides into two branches between the bluff and river.",
       "at": [
         -93.46138889,
         36.805
@@ -37,55 +39,49 @@
       "title": "Crane",
       "kind": "town",
       "scene": "river",
-      "text": "The town is named for Crane Creek, which was named for the blue cranes in the area and runs past the southwest side of town as a Blue Ribbon Trout Area.",
+      "text": "Crane took its name from the creek when the town was platted in 1895. The stream runs through town and belongs to the James River system, part of the larger White River drainage. Past Crane’s southwest side, it flows beneath Route 13, then turns east past Quail and south of Hurley before bending southeast toward the James. The creek is classified as a Blue Ribbon Trout Area in the Missouri Department of Conservation’s trout management program. The stream runs for 23.2 miles; its name refers to the blue cranes in the area.",
       "at": [
         -93.57166667,
         36.90527778
       ]
     }
   ],
+  "practical": [
+    "Y-Bridge: The Y-Bridge is closed to vehicles; the newer bridge to the north carries road traffic. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "MoDOT, Scenic Byways Contacts",
+      "label": "Wikipedia, Missouri Route 248",
+      "url": "https://en.wikipedia.org/wiki/Missouri_Route_248"
+    },
+    {
+      "label": "Wikipedia, Y-Bridge (Galena, Missouri)",
+      "url": "https://en.wikipedia.org/wiki/Y-Bridge_%28Galena%2C_Missouri%29"
+    },
+    {
+      "label": "Missouri Department of Transportation, Scenic Byways Contacts",
       "url": "https://www.modot.org/scenic-byways-contacts"
-    },
-    {
-      "label": "MoDOT, Ozark Mountain Byway map",
-      "url": "https://www.modot.org/media/11341"
-    },
-    {
-      "label": "Wikipedia, Missouri Route 265",
-      "url": "https://en.wikipedia.org/wiki/Missouri_Route_265"
     },
     {
       "label": "Wikipedia, Missouri Route 413",
       "url": "https://en.wikipedia.org/wiki/Missouri_Route_413"
     },
     {
-      "label": "Wikipedia, Missouri Route 248",
-      "url": "https://en.wikipedia.org/wiki/Missouri_Route_248"
-    },
-    {
-      "label": "Wikipedia, Branson West, Missouri",
-      "url": "https://en.wikipedia.org/wiki/Branson_West,_Missouri"
+      "label": "Wikipedia, Missouri Route 265",
+      "url": "https://en.wikipedia.org/wiki/Missouri_Route_265"
     },
     {
       "label": "Wikipedia, Reeds Spring, Missouri",
-      "url": "https://en.wikipedia.org/wiki/Reeds_Spring,_Missouri"
-    },
-    {
-      "label": "Wikipedia, Y-Bridge (Galena, Missouri)",
-      "url": "https://en.wikipedia.org/wiki/Y-Bridge_(Galena,_Missouri)"
+      "url": "https://en.wikipedia.org/wiki/Reeds_Spring%2C_Missouri"
     },
     {
       "label": "Wikipedia, Crane, Missouri",
-      "url": "https://en.wikipedia.org/wiki/Crane,_Missouri"
+      "url": "https://en.wikipedia.org/wiki/Crane%2C_Missouri"
     },
     {
       "label": "Wikipedia, Crane Creek (James River tributary)",
-      "url": "https://en.wikipedia.org/wiki/Crane_Creek_(James_River_tributary)"
+      "url": "https://en.wikipedia.org/wiki/Crane_Creek_%28James_River_tributary%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

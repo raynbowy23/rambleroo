@@ -1,52 +1,53 @@
 {
   "id": "nine-mile-canyon-backway-15780",
-  "tagline": "An Army freight road through the long gallery of the Fremont.",
+  "tagline": "An Army freight road passes Fremont rock art and stagecoach remains.",
   "intro": [
-    "From Wellington, south of Price, the road heads northeast on Soldier Creek Road into Nine Mile Canyon, down a flat bottom of grazing and farm ground between craggy buff walls topped with pinyon, juniper and sage. At the far end the backway runs through Gate Canyon to Myton.",
-    "Buffalo Soldiers of the 9th Cavalry built the road in 1886 to tie Fort Duchesne to the railroad at Price, and until about 1905 most of the stage, mail and freight traffic into the Uinta Basin came this way. The Fremont were here long before, farming corn and squash on the canyon floor."
+    "Nine Mile Canyon's road runs between a flat floor of grazing and agricultural land and craggy walls topped with pinyon, juniper and sagebrush. The Bureau of Land Management identifies this Back Country Byway with Fremont rock panels, cliff granaries and buff cliffs shaped into balanced rocks and window arches. BLM gives the route as approximately 78 miles and allows two hours to drive it.",
+    "Buffalo Soldiers of the 9th Cavalry Regiment built the canyon road in 1886 to connect Fort Duchesne with the railroad at Price. Gilsonite discoveries in the Uinta Basin increased traffic in 1889. Most stagecoach, mail, freight and telegraph traffic into the basin came this way until after the Uintah Railway arrived around 1905. The freight trade brought ranches and the settlement of Harper into the canyon. In 1990, BLM designated the road a Scenic Backcountry Byway.",
+    "Approach from Wellington on Soldier Creek Road, heading northeast. Harper occupies the mouth of Argyle Canyon. Rock panels occur beside the main road and in side canyons, while Cottonwood Canyon has trails to rock art and a Fremont village beyond Frank's Canyon. Cottonwood Glen has a picnic area and historic homestead; Daddy Canyon provides trailheads to rock panels. The through route continues by Gate Canyon to Myton."
   ],
+  "notice": "Buff cliffs have balanced rocks and window arches.",
   "moments": [
+    {
+      "title": "Harper",
+      "kind": "town",
+      "scene": "desert",
+      "text": "Harper grew from a stagecoach stop into a scattered string of ranches and buildings, without a formal town site. Its precinct reached a population of 130 in 1910, but by the early 1920s Harper was a ghost town. Schooling outlasted the town's busiest years: the school closed permanently in 1931 and was moved to Wellington in the 1930s. A few log dwellings and the old stagecoach stop remain. The two-story hotel burned in the late 1980s or early 1990s, leaving only its stone foundation. Most of the town site is private property, requiring permission to explore.",
+      "at": [
+        -110.35417,
+        39.80278
+      ]
+    },
     {
       "title": "Telegraph poles",
       "kind": "roadside",
       "scene": "desert",
-      "text": "The Army ran telegraph poles up the canyon around 1886, Civil War surplus, and they went on to carry the Basin's telephone line from 1907 to 1917."
+      "text": "Iron telegraph poles remain among the canyon's stage stations and settler cabins. The Army installed surplus Civil War poles around 1886. Their use changed with communications technology: the telegraph line became the basin's telephone line in 1907 and served that role until 1917. The poles then carried a local line into the 1990s."
     },
     {
       "title": "Rock art panels",
       "kind": "roadside",
       "scene": "desert",
-      "text": "Along the road and up the side canyons the walls carry Fremont petroglyphs and pictographs and later Ute hunters on horseback, rock art more concentrated here than anywhere else in North America."
-    },
-    {
-      "title": "Harper",
-      "kind": "town",
-      "scene": "desert",
-      "text": "A stagecoach stop that grew into a long scatter of ranches with a hotel and a school, a ghost by the early 1920s, whose precinct never cast more than 72 votes.",
-      "at": [
-        -110.35417,
-        39.80278
-      ]
+      "text": "Carved petroglyphs and painted pictographs depict animals and hunting scenes on canyon rock faces. The Fremont grew corn and squash on the canyon floor and built granaries high above it. Their presence here dates to AD 950–1250. By the sixteenth century, ancestral Utes were adding their own images; horseback hunting scenes date to the 1800s. BLM identifies trailheads to rock-art sites and a Fremont village in Cottonwood Canyon beyond Frank's Canyon. The images were carved and painted mainly on weathered sandstone, which is susceptible to erosion accelerated by touching and airborne dust."
     }
   ],
   "sources": [
     {
-      "label": "BLM, 9 Mile Canyon",
-      "url": "https://www.blm.gov/visit/nine-mile-canyon"
+      "label": "Wikipedia, Ninemile Canyon (Utah)",
+      "url": "https://en.wikipedia.org/wiki/Ninemile_Canyon_%28Utah%29"
     },
     {
-      "label": "BLM, Utah Byways",
+      "label": "Bureau of Land Management, Utah Byways",
       "url": "https://www.blm.gov/programs/recreation-and-visitor-services/recreation-programs/byways/utah"
     },
     {
-      "label": "Wikipedia, Ninemile Canyon (Utah)",
-      "url": "https://en.wikipedia.org/wiki/Ninemile_Canyon_(Utah)"
+      "label": "Wikipedia, Harper, Utah",
+      "url": "https://en.wikipedia.org/wiki/Harper%2C_Utah"
     },
     {
-      "label": "Wikipedia, Harper, Utah",
-      "url": "https://en.wikipedia.org/wiki/Harper,_Utah"
+      "label": "Bureau of Land Management, 9 Mile Canyon",
+      "url": "https://www.blm.gov/visit/nine-mile-canyon"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

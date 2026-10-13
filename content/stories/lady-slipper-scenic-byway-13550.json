@@ -1,17 +1,17 @@
 {
   "id": "lady-slipper-scenic-byway-13550",
-  "tagline": "Through the Chippewa forest, in lady slipper country.",
+  "tagline": "Pine, hardwoods and lady slippers along a Mississippi-crossing forest road",
   "intro": [
-    "County Road 39 leaves Blackduck and runs south for 28 miles through the pine and hardwood of the Chippewa National Forest, past fishing lakes and an old CCC camp, across the Mississippi and on to US 2 just east of Cass Lake. Lady slippers are a common sight along it.",
-    "Blackduck itself was founded in 1900 for the timber. The Laurentian Divide runs near it and drains the land well, and dry land made for good logging."
+    "The Lady Slipper Scenic Byway runs 28 miles through Chippewa National Forest between Blackduck and US 2 east of Cass Lake. Explore Minnesota highlights pine and hardwood forests, fishing lakes, historic sites and a crossing of the Mississippi. Lady slippers become a common roadside sight beginning in late June. Rabideau CCC Camp stands among its historic sites.",
+    "Timber helped establish Blackduck in 1900. A later chapter of forest work began at Rabideau in 1935, when the Civilian Conservation Corps established a camp for young men unemployed during the Great Depression. They built roads and facilities, surveyed land and worked on wildlife protection within Chippewa National Forest. Those temporary camp buildings outlasted the program through University of Illinois use for engineering and forestry schools between 1946 and 1972.",
+    "Follow Highway 39 south from Blackduck toward US 2. Rabideau’s surviving camp buildings lie off County Highway 39. Thirteen of the original twenty-five buildings remain, including the mess hall and five barracks. Farther south, Pennington is also known as Cass River. A separate excursion reaches the former Knutson Dam on the upper Mississippi, where rock-arch rapids replaced the dam in 2015. The byway finishes at US 2 just east of Cass Lake."
   ],
-  "season": "Plan around the lady slipper bloom, which begins in late June.",
   "moments": [
     {
       "title": "Blackduck",
       "kind": "town",
       "scene": "forest",
-      "text": "Named for Blackduck Lake, the town has the Blue Ox Trail running through it on an old rail line that crosses a railway bridge listed on the National Register.",
+      "text": "The town had been founded for logging in 1900, taking its name from Blackduck Lake. An old railway route runs through Blackduck as the Blue Ox Trail, used by hikers and snowmobilers. The Minnesota and International Railway built its timber trestle in 1901 and 1902 to cross Coburn Creek and a difficult marsh. The trestle carried a railway linking Bemidji and Koochiching, now International Falls. The low structure stretched 701 feet and later became part of the recreational trail. It entered the National Register in 2014, but arson burned more than a third of it in April 2015.",
       "at": [
         -94.54778,
         47.73028
@@ -21,27 +21,49 @@
       "title": "Rabideau CCC Camp",
       "kind": "short walk",
       "scene": "forest",
-      "text": "Built from 1935 for about 300 young men working in the forest, the camp keeps 13 of its 25 buildings, the mess hall and five barracks among them.",
+      "text": "Thirteen of Rabideau’s original twenty-five buildings remain, including five barracks and the mess hall. Alongside the barracks and mess hall, the surviving group includes a hospital, laundry, recreation hall and officers’ quarters. The camp housed about 300 men aged seventeen to twenty-one, most from northern Minnesota, for conservation work in the national forest. Built for temporary occupation, it survived through reuse by the University of Illinois for engineering and forestry schools from 1946 to 1972. The Forest Service began restoring the Education Building in 1999, adding a foundation, replacing the roof and repairing floors and siding.",
+      "notice": "The surviving camp includes five barracks and a mess hall.",
       "at": [
         -94.54862,
         47.63999
+      ]
+    },
+    {
+      "title": "Knutson Dam",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "Knutson Dam began as a logging dam on the upper Mississippi in the 1890s. The U.S. Army Corps of Engineers rebuilt it in 1928, and the Forest Service took over its management. That structure is gone: rock-arch rapids replaced the dam in 2015.",
+      "at": [
+        -94.483466,
+        47.451804
       ]
     }
   ],
   "sources": [
     {
-      "label": "Explore Minnesota, Lady Slipper Scenic Byway (Wayback Machine snapshot)",
+      "label": "Explore Minnesota, Lady Slipper Scenic Byway (archived February 7, 2026)",
       "url": "https://web.archive.org/web/20260207064810/https://www.exploreminnesota.com/profile/lady-slipper-scenic-byway/2342"
     },
     {
       "label": "Wikipedia, Blackduck, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/Blackduck,_Minnesota"
+      "url": "https://en.wikipedia.org/wiki/Blackduck%2C_Minnesota"
     },
     {
       "label": "Wikipedia, Rabideau CCC Camp",
       "url": "https://en.wikipedia.org/wiki/Rabideau_CCC_Camp"
+    },
+    {
+      "label": "Wikipedia, Pennington, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Pennington%2C_Minnesota"
+    },
+    {
+      "label": "Wikipedia, Knutson Dam",
+      "url": "https://en.wikipedia.org/wiki/Knutson_Dam"
+    },
+    {
+      "label": "Wikipedia, Minnesota and International Railway Trestle at Blackduck",
+      "url": "https://en.wikipedia.org/wiki/Minnesota_and_International_Railway_Trestle_at_Blackduck"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

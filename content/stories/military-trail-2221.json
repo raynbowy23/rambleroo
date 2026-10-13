@@ -1,16 +1,18 @@
 {
   "id": "military-trail-2221",
-  "tagline": "Along the Canadian line from the St. Lawrence to Lake Champlain.",
+  "tagline": "A former troop route links the St. Lawrence and Lake Champlain.",
   "intro": [
-    "Out of Massena near the St. Lawrence, the road runs east never far from the Canadian line, through Hogansburg and Fort Covington to Malone, then on by Chateaugay, Ellenburg and Mooers to Rouses Point on Lake Champlain, 84 miles of rural corridor with roadside farm stands.",
-    "For years the military used it to move troops and equipment between the two waters. Fort Covington was French Mills until 1817, when it took the name of a general mortally wounded in the War of 1812, four years after a blockhouse went up there to shelter wounded soldiers."
+    "The Military Trail crosses a rural corridor between Massena and Rouses Point, linking the St. Lawrence with Lake Champlain. NYSDOT gives the scenic byway a length of 84 miles and identifies its themes as history, scenery and recreation. The Adirondack Regional Tourism Council highlights roadside farm stands, the Wilder Homestead and Chateaugay’s 120-foot High Falls along the journey.",
+    "For years, the military used this corridor to move troops and equipment between the two waterways. At French Mills, a blockhouse built in July 1813 sheltered wounded soldiers and served as winter headquarters. The community became Fort Covington in 1817, honoring Brigadier General Leonard Covington, mortally wounded during the War of 1812. At the eastern end, fort construction also changed with the boundary itself: an 1816 fort was abandoned on Canadian ground, and the 1842 border settlement allowed work on its replacement to begin in 1844.",
+    "Driving east from Massena, NY 37 passes Hogansburg and reaches Fort Covington before turning southeast toward Malone. Dairy farms and potato producers surround Malone; the Wilder Homestead lies east of the village in Burke. Continue through Chateaugay and Mooers toward Rouses Point. The eastern end reaches Lake Champlain’s western shore at the source of the Richelieu River."
   ],
   "moments": [
     {
       "title": "Wilder Homestead",
       "kind": "separate excursion",
       "scene": "prairie",
-      "text": "Near Malone stands the 1843 Greek Revival farmhouse where Almanzo Wilder grew up, the boyhood that Laura Ingalls Wilder wrote into Farmer Boy.",
+      "text": "Almanzo Wilder’s childhood home connects an 1843 farmhouse to the farm life described in Laura Ingalls Wilder’s Farmer Boy. The house is a two-story timber building in the Greek Revival style, with square columns supporting its small front porch. Behind the main house is a lower rear block with a small colonnaded portico, another feature of the farmhouse’s design. The family occupied the property until about 1875. The barns are reconstructions, dating from 1995, 1997 and 1999. The Almanzo & Laura Ingalls Wilder Association operates the property as a museum, educational center and working farm.",
+      "notice": "The farmhouse’s small front porch rests on square columns; the barns are later reconstructions.",
       "at": [
         -74.21555556,
         44.86805556
@@ -20,7 +22,7 @@
       "title": "Chateaugay",
       "kind": "town",
       "scene": "river",
-      "text": "The Chateaugay River runs north through the town toward the St. Lawrence, the regional byway brochure points travelers to its 120-foot High Falls, and the village has come through three great fires.",
+      "text": "High Falls gives Chateaugay a 120-foot waterfall southwest of the village. The Chateaugay River runs north from Lower Chateaugay Lake through the town, joining the St. Lawrence river system. Within the village, Bailey Brook runs north before turning west to meet that river. The village incorporated in 1868 and has endured three major fires. US 11 meets NY 374 here; the latter runs north to the Canadian border.",
       "at": [
         -74.07416667,
         44.9225
@@ -30,7 +32,7 @@
       "title": "Rouses Point",
       "kind": "town",
       "scene": "coast",
-      "text": "A first fort here was abandoned when a new survey put it in Canada, the locals carried off its stone for their own houses, and it became known as Fort Blunder.",
+      "text": "The first fort at Island Point was built on the wrong side of a border. Construction began in 1816, then stopped when a new survey placed the site in Canada. Local people carried away materials for homes and public buildings, and the abandoned works became known as Fort Blunder. The Webster–Ashburton Treaty moved Island Point into the United States in 1842. Work on a second fort, Fort Montgomery, began in 1844. Most of that later fort was demolished in 1936–1937; crushed stone became fill for the nearby bridge to Vermont.",
       "at": [
         -73.3675,
         44.9875
@@ -39,16 +41,32 @@
   ],
   "sources": [
     {
-      "label": "NYSDOT, The Military Trail",
+      "label": "New York State Department of Transportation, The Military Trail",
       "url": "https://www.dot.ny.gov/display/programs/scenic-byways/military-trail"
     },
     {
-      "label": "Adirondack Regional Tourism Council, Adirondack North Country Scenic Byways (p. 10)",
-      "url": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf#page=10"
+      "label": "Adirondack Regional Tourism Council, Adirondack North Country Scenic Byways",
+      "url": "https://visitadirondacks.com/sites/default/files/2021-08/adkscenicbyways_0.pdf"
     },
     {
       "label": "Wikipedia, Fort Covington, New York",
-      "url": "https://en.wikipedia.org/wiki/Fort_Covington,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Fort_Covington%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, Fort Montgomery (Lake Champlain)",
+      "url": "https://en.wikipedia.org/wiki/Fort_Montgomery_%28Lake_Champlain%29"
+    },
+    {
+      "label": "Wikipedia, Hogansburg, New York",
+      "url": "https://en.wikipedia.org/wiki/Hogansburg%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, Malone, New York",
+      "url": "https://en.wikipedia.org/wiki/Malone%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, Rouses Point, New York",
+      "url": "https://en.wikipedia.org/wiki/Rouses_Point%2C_New_York"
     },
     {
       "label": "Wikipedia, Wilder Homestead",
@@ -56,21 +74,12 @@
     },
     {
       "label": "Wikipedia, Chateaugay, New York",
-      "url": "https://en.wikipedia.org/wiki/Chateaugay,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Chateaugay%2C_New_York"
     },
     {
       "label": "Wikipedia, Chateaugay (village), New York",
-      "url": "https://en.wikipedia.org/wiki/Chateaugay_(village),_New_York"
-    },
-    {
-      "label": "Wikipedia, Fort Montgomery (Lake Champlain)",
-      "url": "https://en.wikipedia.org/wiki/Fort_Montgomery_(Lake_Champlain)"
-    },
-    {
-      "label": "Wikipedia, Rouses Point, New York",
-      "url": "https://en.wikipedia.org/wiki/Rouses_Point,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Chateaugay_%28village%29%2C_New_York"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

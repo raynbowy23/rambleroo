@@ -1,19 +1,20 @@
 {
   "id": "mount-baker-highway-route-542-2236",
-  "tagline": "From Bellingham up the North Fork to Artist Point.",
+  "tagline": "A former wagon road climbs from river country to Artist Point",
   "motifs": [
     "snow-peaks"
   ],
   "intro": [
-    "SR 542 leaves Bellingham along Squalicum Creek and heads out through farmland and wooded hills, crosses the Nooksack River and runs through Deming, a town with its roots in logging. At Kendall it turns up the North Fork of the Nooksack, enters the national forest at Glacier and climbs the northeast side of Mount Baker, past the ski area and around Picture Lake, over Austin Pass to Artist Point at 5,210 feet.",
-    "It began in 1893 as a county wagon road to Maple Falls and reached Heather Meadows in 1926. For years the snow shut the top each winter, until the filming of The Call of the Wild in 1934 got the highway department plowing."
+    "Mount Baker Highway winds out of Bellingham through farmland, wooded hills and small communities before entering the national forest at Glacier. Evergreens and maples line the road, with views of the Nooksack River along the way. It joined Washington’s Scenic and Recreational Highways program in 1987 and became a National Forest Scenic Byway in 1988. State of Washington Tourism highlights its old-growth forests, waterfalls and mountain views, and gives a two-hour drive time.",
+    "The highway’s earliest development in the late nineteenth century served the logging industry. Whatcom County built a wagon road from Bellingham to Maple Falls in 1893. An extension reached Heather Meadows in 1926 and Artist Point in 1931. Filming The Call of the Wild brought winter snow clearing in 1934; afterward, crews continued clearing between Glacier and Heather Meadows, except during World War II gasoline shortages. It entered the state highway system in 1925 and received the number SR 542 in 1964.",
+    "Head east from Bellingham through Deming and Kendall, then follow the North Fork of the Nooksack through Glacier. Beyond the ski area, the highway divides into one-way lanes on either side of Picture Lake. Through Austin Pass, the summer road reaches Artist Point on Kulshan Ridge at 5,210 feet."
   ],
   "moments": [
     {
       "title": "Nooksack Falls",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Two-thirds of a mile off the highway the North Fork drops 88 feet into a rocky canyon, the falls that turn up in the hunting scene of The Deer Hunter.",
+      "text": "At Nooksack Falls, the North Fork of the Nooksack drops 88 feet from a narrow valley into a rocky canyon. The falls lie two-thirds of a mile off Mount Baker Highway. Nearby mining gave this water another role: in 1902 the Excelsior mine used a water-powered turbine to run a mill that crushed ore. When the mill was rebuilt in 1914, a line from the Nooksack Falls power plant supplied its electricity. The Excelsior claim lay one mile from the power plant, linking the mining district’s ore processing to electricity generated at the falls.",
       "at": [
         -121.80888889,
         48.90527778
@@ -23,7 +24,8 @@
       "title": "Picture Lake",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The highway splits to go around both sides of the lake, which reflects snow-capped Mount Shuksan, its name taken from a Lummi word said to mean high peak.",
+      "text": "Picture Lake reflects Mount Shuksan beside the highway’s loop of one-way lanes. The mountain’s highest point is a three-sided summit called Summit Pyramid. Its rock began as oceanic basalt, transformed when the Easton terrane collided with North America approximately 120 million years ago. Shuksan is an eroded remnant of the thrust plate formed in that collision. The glaciated mountain stands east of Mount Baker within North Cascades National Park. On Shuksan’s southeastern flank, Sulphide Creek Falls plunges from the mountain. Other waterfalls on Shuksan and neighboring peaks draw most of their water from snowfields and glaciers.",
+      "notice": "Mount Shuksan’s highest point is the three-sided Summit Pyramid.",
       "motifs": [
         "snow-peaks"
       ]
@@ -32,27 +34,27 @@
       "title": "Artist Point",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The highway ends in a parking lot on Kulshan Ridge, with trails out from it and Mount Baker's 10,781-foot peak across the way.",
+      "text": "Artist Point is the highway’s endpoint on Kulshan Ridge, 5,210 feet above sea level. From the parking area, Mount Baker’s 10,781-foot summit is part of the view. Table Mountain stands west of Artist Point, and a trail from the parking lot climbs to its summit. The highway reached this terminus in 1931. Vehicle access remains seasonal: the winter road ends at the Mount Baker Ski Area, below the summer endpoint. A rock-wall collapse closed the Artist Point section in October 2020. After rebuilding the wall, the Washington State Department of Transportation reopened it in August 2021.",
       "motifs": [
         "snow-peaks"
       ]
     }
   ],
   "practical": [
-    "The last stretch beyond the ski area to Artist Point is closed to vehicles through the snow season and reopens each summer, so check its status before going."
+    "Artist Point: The final road to Artist Point closes seasonally to vehicles. Check the Artist Point trailhead status before driving the upper stretch. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Bellingham Whatcom County Tourism, Mt. Baker Scenic Byway",
+      "label": "Wikipedia, Washington State Route 542",
+      "url": "https://en.wikipedia.org/wiki/Washington_State_Route_542"
+    },
+    {
+      "label": "Bellingham Whatcom County Tourism, Drive and Hike Mt. Baker Scenic Byway",
       "url": "https://www.bellingham.org/drive-and-hike-mt-baker-scenic-byway"
     },
     {
       "label": "State of Washington Tourism, Mount Baker Highway",
       "url": "https://stateofwatourism.com/scenic-byways/mount-baker-highway/"
-    },
-    {
-      "label": "Wikipedia, Washington State Route 542",
-      "url": "https://en.wikipedia.org/wiki/Washington_State_Route_542"
     },
     {
       "label": "Wikipedia, Nooksack Falls",
@@ -61,8 +63,11 @@
     {
       "label": "Wikipedia, Mount Shuksan",
       "url": "https://en.wikipedia.org/wiki/Mount_Shuksan"
+    },
+    {
+      "label": "Wikipedia, Table Mountain",
+      "url": "https://en.wikipedia.org/wiki/Table_Mountain_%28Whatcom_County%2C_Washington%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

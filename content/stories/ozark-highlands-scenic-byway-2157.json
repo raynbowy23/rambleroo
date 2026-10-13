@@ -1,52 +1,50 @@
 {
   "id": "ozark-highlands-scenic-byway-2157",
-  "tagline": "North out of Clarksville, along the ridges to the Buffalo.",
+  "tagline": "Along forest ridges between stream headwaters, north to the Buffalo",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "Highway 21 leaves US 64 at Clarksville and heads north into the Ozark National Forest, up into the Boston Mountains. For 35 miles it keeps to the ridges between the headwaters of major streams, and it is a main way in to the Ozark Highlands Trail.",
-    "The Boston Mountains have several stories for their name, and apparently none of them involve Massachusetts. The drive ends at the Buffalo, the first river in the country to be made a National River."
+    "Highway 21 crosses the Boston Mountains for 35 miles between Highway 64 and the Buffalo National River. The Ozark Highlands Scenic Byway follows ridges between stream headwaters through rugged terrain. The Arkansas Department of Transportation presents the byway as a forest drive with recreational opportunities and views before the river. The road through this corridor has two lanes. Across the Boston Mountains, forested uplands stand above deeply eroded valleys, with sandstone and shale capping the highest ridges.",
+    "In 2005, the Arkansas State Highway and Transportation Department designated this portion of Highway 21 as the Ozark Highlands Scenic Byway. The scenic corridor occupies part of a longer highway, which continues north across US 62 to the Missouri state line. Highway 21 also serves as a major route to the Ozark National Forest and Ozark Highlands Trail.",
+    "Start at US 64 in Clarksville and travel north toward the Ozark National Forest. Ozone lies on Highway 21, 11.5 miles north of Clarksville. Farther along, Highway 21 shares Highway 16 before turning north at Edwards Junction toward Boxley. The byway ends near Boxley at the Buffalo National River. Boxley Bridge carries Highway 21 across the upper river."
   ],
   "moments": [
     {
       "title": "Ozone",
       "kind": "town",
       "scene": "forest",
-      "text": "Eleven and a half miles north of Clarksville, Ozone counted 92 people in 2020 and still keeps a post office of its own.",
+      "text": "Ozone’s school gives this Highway 21 community a distinctive piece of public architecture. Built in 1942 with Works Progress Administration funding, it served as a public school until 1957, when the district consolidated with Lamar. Fieldstone blocks form its single story. A projecting entrance tower has arched openings below a crosswise gabled roof, while exposed rafter ends mark the main roof. The building entered the National Register of Historic Places in 2015.",
       "at": [
         -93.445,
         35.63528
       ]
     },
     {
-      "title": "Mossville",
-      "kind": "town",
-      "scene": "mountain",
-      "text": "Over the Newton County line the highway passes Mossville, a community standing at 2,267 feet.",
+      "title": "Mulberry River",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "The Mulberry River is a 70-mile tributary of the Arkansas River. It rises in southwestern Newton County, travels west through Johnson and Franklin counties, then turns south into the Arkansas River valley. Most of its course lies in the Ozark National Forest. In 1992, the federal government protected its uppermost 56 miles through the National Wild and Scenic Rivers System. Its character changes with the water level: high water can make paddling hazardous, while at low water the river barely flows. Season and recent rainfall strongly influence the flow.",
       "at": [
-        -93.39028,
-        35.895
-      ],
-      "motifs": [
-        "rolling-ridges"
+        -93.4501831,
+        35.7459139
       ]
     },
     {
       "title": "Boxley",
       "kind": "roadside",
       "scene": "river",
-      "text": "Highway 21 meets the upper Buffalo at Boxley Bridge. ARDOT says to watch for elk here, and the park keeps the only herd in the state."
+      "text": "At Boxley Bridge, Highway 21 reaches the upper Buffalo River. The river flows north through Boxley to Ponca before turning east across northern Arkansas. Along the upper river, steep gradients and fast water give way downstream to a flatter, slower course. Congress established the Buffalo National River on March 1, 1972, ending recurring Army Corps of Engineers plans to dam the river. It was the first National River designated in the United States. The Arkansas Department of Transportation singles out the area near the river as a place to watch for elk."
     }
   ],
   "sources": [
     {
-      "label": "ARDOT, Arkansas Scenic Byways",
-      "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
-    },
-    {
       "label": "Arkansas Tourism, Road Trip: The Scenic Byway Guide to Northwest Arkansas",
       "url": "https://www.arkansas.com/plan-your-trip/plan/trip-ideas-itineraries/road-trip-the-scenic-byway-guide-to-northwest-arkansas"
+    },
+    {
+      "label": "Arkansas Department of Transportation, Scenic Byways",
+      "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
     },
     {
       "label": "Wikipedia, Arkansas Highway 21",
@@ -58,17 +56,20 @@
     },
     {
       "label": "Wikipedia, Ozone, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/Ozone,_Arkansas"
-    },
-    {
-      "label": "Wikipedia, Mossville, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/Mossville,_Arkansas"
+      "url": "https://en.wikipedia.org/wiki/Ozone%2C_Arkansas"
     },
     {
       "label": "Wikipedia, Buffalo National River",
       "url": "https://en.wikipedia.org/wiki/Buffalo_National_River"
+    },
+    {
+      "label": "Wikipedia, Ozone School",
+      "url": "https://en.wikipedia.org/wiki/Ozone_School"
+    },
+    {
+      "label": "Wikipedia, Mulberry River (Arkansas)",
+      "url": "https://en.wikipedia.org/wiki/Mulberry_River_%28Arkansas%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

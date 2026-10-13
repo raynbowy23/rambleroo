@@ -1,19 +1,20 @@
 {
   "id": "los-caminos-antiguos-2111",
-  "tagline": "Across the San Luis Valley, oldest parish to oldest town.",
+  "tagline": "Mountain passes lead into a valley of old settlements and moving sand.",
   "motifs": [
     "snow-peaks"
   ],
   "intro": [
-    "From Cumbres Pass the byway comes down to Antonito, where the Cumbres & Toltec Scenic Railroad keeps its Colorado terminus, and sets out across the San Luis Valley, a high basin between the Sangre de Cristos and the San Juans that averages 7,664 feet. It passes Conejos and Manassa, crosses to San Luis and Fort Garland, and swings north toward the Great Sand Dunes before it finishes at Alamosa, 129 miles in all.",
-    "The dunes, the tallest in North America at up to 750 feet, are more than a thousand miles from the nearest ocean beach. Wind carried the sand off an old lakebed and piled it against a low curve in the Sangre de Cristo Range."
+    "Los Caminos Antiguos crosses the broad San Luis Valley between the Sangre de Cristo Range and the San Juan foothills. On Highway 17, Cumbres Pass reaches 10,022 feet, with a 5.8 percent northern approach. Beyond the mountains, the route links valley towns with the Great Sand Dunes. CDOT gives this Colorado Scenic and Historic Byway 129 miles and three hours of driving, emphasizing San Luis, Our Lady of Guadalupe parish and Fort Garland. The valley is a high-elevation basin averaging 7,664 feet above sea level, drained southward by the Rio Grande into New Mexico.",
+    "Road and railroad share Cumbres Pass, but their histories are distinct. The Denver & Rio Grande built its line over the pass in the early 1880s as part of the Alamosa-to-Durango San Juan Extension. Later highway realignment demolished some railroad structures, including the station. The original section house and part of the old snowshed remain at the pass.",
+    "Travel from the New Mexico border on Highway 17 toward Antonito and neighboring Conejos. Continue through Romeo and east on Highway 142 to San Luis, then north to Fort Garland. Highways 160 and 150 lead toward the dunes; the route then crosses through Mosca and turns south toward Alamosa East."
   ],
   "moments": [
     {
       "title": "Conejos",
       "kind": "town",
       "scene": "town",
-      "text": "Our Lady of Guadalupe, founded in 1858 and built by Spanish colonists from Taos, was the first Roman Catholic parish in present-day Colorado, and Conejos is the state's last unincorporated county seat.",
+      "text": "Our Lady of Guadalupe in Conejos is Colorado’s oldest parish. Its history belongs to a settlement founded in 1858, when this was Taos County in New Mexico Territory. Colorado Territory followed in 1861, and the new county initially had its seat across the Conejos River at Guadalupe. Fear of flooding had already prompted the post office to move across the river in 1862 to ground three feet higher. The county seat moved to Conejos in 1863. Conejos remains an unincorporated county seat, immediately north of Antonito, with U.S. 285 along its eastern edge.",
       "at": [
         -106.0197,
         37.0883
@@ -23,7 +24,7 @@
       "title": "San Luis",
       "kind": "town",
       "scene": "town",
-      "text": "Settlers from the Taos Valley took possession here in April 1851 and dedicated their church that June, and the town has been occupied ever since, longer than any other in Colorado.",
+      "text": "San Luis’s Stations of the Cross climb a local mesa 250 feet high. Below them is Colorado’s oldest continuously occupied town, formerly called San Luis de la Culebra. Hispanic settlers from the Taos Valley established villages along the Rio Culebra and took possession of this part of the Sangre de Cristo Land Grant on April 9, 1851. The settlement remained in New Mexico Territory until Colorado Territory was created in 1861. The town celebrates the Fiesta de Santiago y Santa Ana in July and San Luis Manito Christmas in December.",
       "at": [
         -105.4225,
         37.2025
@@ -33,43 +34,64 @@
       "title": "Fort Garland",
       "kind": "town",
       "scene": "prairie",
-      "text": "Kit Carson commanded the post and lived with his wife in the adobe Commandant's Quarters, and the Buffalo Soldiers of the Ninth Cavalry were stationed here from 1876 to 1879.",
+      "text": "Fort Garland’s museum includes restored and reconstructed buildings, among them the adobe Commandant’s Quarters associated with Kit Carson and his wife. The Army post operated from 1858 to 1883. The Ninth U.S. Cavalry, known as Buffalo Soldiers, served here from 1876 to 1879. In 1877, those troops helped remove illegal white settlers from Ute reservation land. The Colorado Historical Society restored the fort and opened the museum in 1950. The cavalry barracks include exhibits of Hispanic traditional arts and nineteenth-century transportation. History Colorado administers the museum, whose permanent exhibits address Carson and the Buffalo Soldiers.",
       "at": [
         -105.43224,
         37.42397
+      ]
+    },
+    {
+      "title": "Great Sand Dunes",
+      "kind": "separate excursion",
+      "scene": "desert",
+      "text": "The Great Sand Dunes rise as high as 750 feet at the eastern edge of the San Luis Valley, below the Sangre de Cristo Range. Their sand came from sediments left exposed as lakes in the valley receded. Southwest winds carried it toward a low curve in the mountains; storm winds push back toward the valley, helping the dunes grow upward. Medano and Sand Creeks carry sand from the mountainside of the dune field back to the valley floor. There the creeks disappear into the sand sheet, and wind returns sand to the dunes.",
+      "at": [
+        -105.5121,
+        37.7329
       ]
     }
   ],
   "sources": [
     {
+      "label": "Wikipedia, La Manga Pass",
+      "url": "https://en.wikipedia.org/wiki/La_Manga_Pass"
+    },
+    {
       "label": "Colorado Department of Transportation, Los Caminos Antiguos",
       "url": "https://www.codot.gov/travel/coloradobyways/south-central/los-caminos"
     },
     {
-      "label": "Wikipedia, Antonito, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Antonito,_Colorado"
+      "label": "Wikipedia, Great Sand Dunes National Park and Preserve",
+      "url": "https://en.wikipedia.org/wiki/Great_Sand_Dunes_National_Park_and_Preserve"
+    },
+    {
+      "label": "Wikipedia, Cumbres Pass",
+      "url": "https://en.wikipedia.org/wiki/Cumbres_Pass"
+    },
+    {
+      "label": "Wikipedia, Los Caminos Antiguos Scenic and Historic Byway",
+      "url": "https://en.wikipedia.org/wiki/Los_Caminos_Antiguos_Scenic_and_Historic_Byway"
     },
     {
       "label": "Wikipedia, Manassa, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Manassa,_Colorado"
+      "url": "https://en.wikipedia.org/wiki/Manassa%2C_Colorado"
     },
     {
       "label": "Wikipedia, Conejos, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Conejos,_Colorado"
+      "url": "https://en.wikipedia.org/wiki/Conejos%2C_Colorado"
     },
     {
       "label": "Wikipedia, San Luis, Colorado",
-      "url": "https://en.wikipedia.org/wiki/San_Luis,_Colorado"
+      "url": "https://en.wikipedia.org/wiki/San_Luis%2C_Colorado"
     },
     {
       "label": "Wikipedia, Fort Garland",
       "url": "https://en.wikipedia.org/wiki/Fort_Garland"
     },
     {
-      "label": "Wikipedia, Great Sand Dunes National Park and Preserve",
-      "url": "https://en.wikipedia.org/wiki/Great_Sand_Dunes_National_Park_and_Preserve"
+      "label": "Wikipedia, Fort Garland, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Fort_Garland%2C_Colorado"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

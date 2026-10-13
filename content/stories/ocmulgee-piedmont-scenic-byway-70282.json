@@ -1,64 +1,65 @@
 {
   "id": "ocmulgee-piedmont-scenic-byway-70282",
-  "tagline": "Two old trails from Gray down to the Ocmulgee.",
+  "tagline": "Old trail routes link mill country, pine forest and Gray.",
   "intro": [
-    "From downtown Gray, State Route 11 runs north about nine miles through Bradley, Wayside and Round Oak on the line of an old Indian trail. At Round Oak the byway turns west onto Round Oak-Juliette Road, a trail once too, and goes about 12 miles through the pine forest of the Piedmont National Wildlife Refuge to the Ocmulgee River at Juliette.",
-    "The road has seen armies. In 1864 opposing forces met along it at the Battle of Sunshine Church, and later that year Sherman's march to the sea came through Jones County the same way."
+    "The Ocmulgee-Piedmont Scenic Byway connects the Ocmulgee River with Gray by way of pine forest and small communities. Georgia DOT includes it among the state’s designated scenic byways, highlighting Jones County history, the Piedmont National Wildlife Refuge and East Juliette’s mill village. The wooded stretch follows Round Oak-Juliette Road; the other leg uses State Route 11. The refuge’s ridges carry loblolly pines, with hardwoods along creek bottoms and in upland coves. Streams and beaver ponds add wetland habitat to the forest.",
+    "Both roads follow earlier Native American trails. The SR 11 corridor became a major route between Hillsboro and Clinton, Jones County’s nineteenth-century seat. Opposing forces fought along it at Sunshine Church in 1864; later that year Sherman followed the route through the county on his March to the Sea. The forested leg also crosses land with a changed purpose: the refuge was established in 1939 to demonstrate wildlife restoration on eroded land.",
+    "Drive from the river end, with Juliette on the west bank and the mill village across the Ocmulgee. Head east through the refuge to Round Oak, then south on SR 11 through Wayside and Bradley to downtown Gray’s depot. GDOT describes the two legs as approximately twelve and nine miles respectively."
   ],
   "moments": [
     {
-      "title": "Round Oak",
+      "title": "Juliette",
       "kind": "town",
-      "scene": "town",
-      "text": "Founded as Sylvania in 1807, the settlement later took its name from an ancient oak known as a gathering place for Native Americans.",
+      "scene": "river",
+      "text": "Juliette’s main street changed roles after the filming of Fried Green Tomatoes. The film sets were renovated into a tourist district, including a working Whistle Stop Cafe. The community itself formed from the merger of Brownsville and Iceberg and took the name of Juliette McCracken, a railroad engineer’s daughter. It occupies the Ocmulgee’s west bank, across from East Juliette’s mill village. Round Oak-Juliette Road crosses the river here and continues east to Round Oak. The Ocmulgee also marks the county boundary here, separating Monroe County on Juliette’s side from Jones County across the water.",
       "at": [
-        -83.615,
-        33.111
+        -83.8,
+        33.107
       ]
     },
     {
       "title": "Piedmont National Wildlife Refuge",
       "kind": "roadside",
       "scene": "forest",
-      "text": "By the 1930s cotton had worn these hills down to bare red clay, and the refuge began in 1939 on that abandoned farmland, which is forest again.",
+      "text": "Loblolly pines occupy the ridges at Piedmont, while hardwoods grow along creek bottoms and in upland coves. This forest grew back on exhausted farmland. Repeated cotton planting caused erosion and depleted the soil; by the 1930s, lost topsoil had exposed red clay. Established in 1939, the refuge was intended to demonstrate that wildlife could return to eroded land. The U.S. Fish & Wildlife Service now uses prescribed fire, thinning and regeneration to maintain habitat. Streams and beaver ponds provide wetlands for migrating waterfowl. The refuge covers 35,000 acres and serves as a model for managing forest for wildlife.",
+      "notice": "Pines occupy ridges; hardwoods follow creek bottoms and grow in scattered upland coves.",
       "at": [
         -83.75,
         33.125
       ]
     },
     {
-      "title": "Juliette",
+      "title": "Round Oak",
       "kind": "town",
-      "scene": "river",
-      "text": "Across the Ocmulgee from the old mill village of East Juliette, the main street sets from Fried Green Tomatoes became a tourist district with a working Whistle Stop Cafe.",
+      "scene": "town",
+      "text": "Round Oak began as Sylvania in 1807, then took a name honoring an ancient oak used as a Native American gathering place. A depot built in 1885 brought an economic upswing that lasted into the early 1920s. Sunshine Church carries another part of the local story: Sherman’s forces burned it in 1864, and it was rebuilt at Round Oak in 1875. The community sits on SR 11, north-northwest of Gray.",
       "at": [
-        -83.8,
-        33.107
+        -83.615,
+        33.111
       ]
     }
   ],
   "sources": [
     {
-      "label": "Georgia DOT, Scenic Byways",
+      "label": "Georgia Department of Transportation, Scenic Byways",
       "url": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
     },
     {
-      "label": "Wikipedia, Gray, Georgia",
-      "url": "https://en.wikipedia.org/wiki/Gray,_Georgia"
+      "label": "U.S. Fish & Wildlife Service, Piedmont National Wildlife Refuge",
+      "url": "https://www.fws.gov/refuge/piedmont"
     },
     {
-      "label": "Wikipedia, Round Oak, Georgia",
-      "url": "https://en.wikipedia.org/wiki/Round_Oak,_Georgia"
+      "label": "Wikipedia, Juliette, Georgia",
+      "url": "https://en.wikipedia.org/wiki/Juliette%2C_Georgia"
     },
     {
       "label": "Wikipedia, Piedmont National Wildlife Refuge",
       "url": "https://en.wikipedia.org/wiki/Piedmont_National_Wildlife_Refuge"
     },
     {
-      "label": "Wikipedia, Juliette, Georgia",
-      "url": "https://en.wikipedia.org/wiki/Juliette,_Georgia"
+      "label": "Wikipedia, Round Oak, Georgia",
+      "url": "https://en.wikipedia.org/wiki/Round_Oak%2C_Georgia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

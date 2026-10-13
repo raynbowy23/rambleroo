@@ -1,19 +1,20 @@
 {
   "id": "nanticoke-heritage-byway-991003",
-  "tagline": "Shipbuilding towns, a cable ferry and the northern cypress.",
+  "tagline": "Farmland and river towns lead to a ferry and cypress pond.",
   "motifs": [
     "steeple-town"
   ],
   "intro": [
-    "From US 13 at Bridgeville Road the byway runs through Seaford, crosses the Nanticoke River on the Woodland Ferry and goes on through Bethel and Laurel to Trap Pond State Park, about 35 miles of farmland, woods and small towns.",
-    "These were water towns first, building ships and trading by river, and after the railroad came in 1856 Seaford and Laurel sent oysters, fruit and baskets north. Bethel's yards on Broad Creek turned out the Chesapeake sailing ram, a flat-bottomed three-masted schooner that needed only a small crew."
+    "The Nanticoke Heritage Byway alternates between farmland, woods and small towns in western Sussex County, with a ferry crossing of the Nanticoke River. DelDOT gives the drive as about 35 miles and about 45 minutes, and presents its appeal through the region’s transportation history and natural features. The route became a Delaware Scenic and Historic Highway in 2010.",
+    "Before its byway designation, this was a network of water-connected trading towns. Seaford and Bethel built ships; when the railroad arrived in 1856, Seaford and Laurel gained access to northern markets for oysters, fruit and baskets. At Bethel, John M. C. Moore developed the Chesapeake sailing ram, a flat-bottomed, three-masted schooner designed to carry coastal freight with a small crew. The road corridor was nominated as the Western Sussex Byway in 2009, linking those transportation histories under a new designation the following year.",
+    "From US 13 at Bridgeville Road, travel through Seaford, cross the Nanticoke on the Woodland Ferry, and continue through Bethel and Laurel. Old Christ Church stands east of Laurel; the route ends at Trap Pond State Park. There, a pond created to power a sawmill lies within surviving wetlands and bald cypress stands."
   ],
   "moments": [
     {
       "title": "Woodland Ferry",
       "kind": "roadside",
       "scene": "river",
-      "text": "A public ferry has crossed the Nanticoke here since at least 1793, and the state runs it year-round as the last cable ferry in Delaware, six vehicles at a time.",
+      "text": "The Woodland Ferry carries vehicles across the Nanticoke by cable, continuing a public crossing documented at least since 1793. That year, Jacob Cannon’s widow petitioned the Delaware General Assembly for exclusive rights to operate the service after her husband’s death. The Cannon family ran it privately until the mid-19th century, when the county was authorized to operate a free ferry. DelDOT took responsibility in 1935. Delaware’s last cable ferry now uses the Tina Fallon, which carries six vehicles. The 65-foot vessel entered service in 2007, replacing the Virginia C, whose capacity was three vehicles.",
       "at": [
         -75.65694,
         38.6
@@ -23,7 +24,8 @@
       "title": "Old Christ Church",
       "kind": "roadside",
       "scene": "town",
-      "text": "The 1772 wooden church near Laurel has never been plumbed or electrified, and its high box pews carry the family names in chalk.",
+      "text": "High box pews at Old Christ Church have doors to each family section, with names written in chalk. The wooden church was built in 1772 and resembles its parent church at Green Hill in Maryland, which was built of brick. Its exterior has been repaired and painted, but the simple, original interior has never been plumbed or electrified. The west gallery remains. Once assigned to enslaved and free Black people, it had seats without backrests. The pulpit stands midway along the north wall, with the altar at the east end.",
+      "notice": "Box pews have doors and chalked family names; a gallery remains at the west end.",
       "at": [
         -75.53778,
         38.56111
@@ -36,35 +38,41 @@
       "title": "Trap Pond State Park",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Lumbermen dammed the outflow to power a sawmill for the bald cypress, and the pond they made lies in the northernmost park in North America with cypress in it.",
+      "text": "Trap Pond’s cypress wetland was reshaped by the industry that cut its trees. Beginning in the 18th century, lumbermen harvested the rot-resistant bald cypress, then dammed the wetland’s outflow to power a sawmill. The dam helped form the pond. Later, farmers drained nearby wetlands into it, enlarging the water body. In the 1930s, the Civilian Conservation Corps identified the pond for recreation development; Delaware made it a state park in 1951. Bald cypress stands and large American holly trees remain features of the bottomland. Bald cypress is adapted to the calm, shallow standing water of wetlands.",
       "at": [
         -75.47433,
         38.52459
       ]
     }
   ],
+  "practical": [
+    "Woodland Ferry: The ferry closes on Christmas, Thanksgiving and New Year’s Day, and when weather requires. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "DelDOT, Delaware Byways: Nanticoke Heritage Byway",
+      "label": "Delaware Department of Transportation, Nanticoke Heritage Byway",
       "url": "https://deldot.gov/Programs/byways/index.shtml?dc=sussex"
+    },
+    {
+      "label": "Wikipedia, Trap Pond State Park",
+      "url": "https://en.wikipedia.org/wiki/Trap_Pond_State_Park"
+    },
+    {
+      "label": "Wikipedia, List of Delaware Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Delaware_Byways"
+    },
+    {
+      "label": "Wikipedia, Bethel, Delaware",
+      "url": "https://en.wikipedia.org/wiki/Bethel%2C_Delaware"
     },
     {
       "label": "Wikipedia, Woodland Ferry",
       "url": "https://en.wikipedia.org/wiki/Woodland_Ferry"
     },
     {
-      "label": "Wikipedia, Bethel, Delaware",
-      "url": "https://en.wikipedia.org/wiki/Bethel,_Delaware"
-    },
-    {
       "label": "Wikipedia, Old Christ Church (Laurel, Delaware)",
-      "url": "https://en.wikipedia.org/wiki/Old_Christ_Church_(Laurel,_Delaware)"
-    },
-    {
-      "label": "Wikipedia, Trap Pond State Park",
-      "url": "https://en.wikipedia.org/wiki/Trap_Pond_State_Park"
+      "url": "https://en.wikipedia.org/wiki/Old_Christ_Church_%28Laurel%2C_Delaware%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

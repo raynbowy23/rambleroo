@@ -1,20 +1,21 @@
 {
   "id": "palouse-scenic-byway-54775",
-  "tagline": "Farm highways over the wheat hills of Whitman County.",
+  "tagline": "A network of farm roads links rolling hills and river country",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "This is a web of highways rather than one road, US 195 with state routes 26, 27, 272 and others, laid over the wheat-covered hills of Whitman County. It takes in Rosalia, Oakesdale and Tekoa, Colfax, the county seat, in its valley on the Palouse River, and Pullman and Uniontown.",
-    "The hills are silty loess, and Steptoe Butte stands up out of them, an island of quartzite more than 400 million years old. It made such an example that lone summits poking up through lava flows are now called steptoes."
+    "The Palouse Scenic Byway winds through rolling farmland south of Spokane, combining highways with quieter roads. State of Washington Tourism presents a 208-mile drive through hills dotted with buttes, with four hours and 30 minutes of driving time. It recommends spring for green fields and fall for golds and browns. Colfax occupies a river valley amid wheat-covered hills, while Steptoe Butte projects above the silty landscape as exposed quartzite. In Colfax, Highway 195 serves as the town’s main street and meets Route 26 at the north end of town.",
+    "The state scenic and recreational highway designation gathered sections of four existing highways into the byway on April 17, 2003. Route 278 joined in 2011; the network now follows seven highways in Whitman County. The resulting route has branches: one follows Highway 195 from the Idaho line toward Spokane County, while another links Colfax and Palouse on Route 272.",
+    "The northern branches include Rosalia and Oakesdale on Route 271 and Tekoa on Route 27. Continue south through the network toward Steptoe Butte and Colfax on the Palouse River, then Pullman and Uniontown. Treat Palouse Falls as a separate excursion: Highway 261 leaves the main byway for the waterfall and its canyon."
   ],
-  "season": "State of Washington Tourism suggests spring for green fields or fall for golds and browns.",
+  "notice": "Spring fields turn green; fall brings golds and browns.",
   "moments": [
     {
       "title": "Steptoe Butte",
       "kind": "separate excursion",
       "scene": "prairie",
-      "text": "The summit stands 3,612 feet up, about 1,000 feet above the country around it, and Mount Spokane is visible from it 70 miles to the north.",
+      "text": "Steptoe Butte rises from the silty loess of the Palouse hills as an island of quartzite. Its rock is more than 400 million years old, far older than the Columbia River basalts underlying the surrounding country. The butte gave geology a term: isolated bedrock summits projecting through lava flows are called steptoes. Virgil McCroskey donated land for the park in 1946. The summit reaches 3,612 feet above sea level, approximately 1,000 feet above the surrounding countryside. Mount Spokane is visible 70 miles to the north, across a landscape where the butte stands above the surrounding hills.",
       "at": [
         -117.29666667,
         47.03222222
@@ -27,7 +28,7 @@
       "title": "Uniontown",
       "kind": "town",
       "scene": "prairie",
-      "text": "Its founder, Thomas Montgomery, had such a difficult personality that several businesses moved three miles north to the rival town of Colton.",
+      "text": "Two towers flank the brick front of St. Boniface Church in Uniontown, with a seven-foot statue of the Blessed Mother above the front gable. The building followed a stalled attempt to replace the original wooden church of 1879. Plans begun in 1888 stopped in 1893 after a dispute between the priest and parishioners, with only a foundation laid. Under a new priest, the congregation completed the present church in spring 1905; consecration followed in 1910. The Romanesque design is by Herman Preusse and Julius Zittel; the interior retains original stained-glass windows, altar rails and five altars.",
       "at": [
         -117.08611111,
         46.53916667
@@ -37,7 +38,7 @@
       "title": "Palouse Falls",
       "kind": "separate excursion",
       "scene": "desert",
-      "text": "Off on SR 261 the Palouse River drops into a canyon 377 feet deep cut by the Missoula floods, and in 1984 the ratepayers declined to pay for a dam above it.",
+      "text": "The canyon at Palouse Falls exposes Columbia River basalt through a depth of 377 feet. The river once followed what is now dry Washtucna Coulee toward the Columbia River. Missoula floods overtopped that old valley wall and eroded a new channel toward the Snake River, creating the falls and surrounding canyons. The state park was created in 1951 with land from several donors, protecting part of the canyon landscape left by those floods. In 1984, Franklin County Public Utility District proposed a hydroelectric dam upstream. A majority of ratepayers declined to approve the investment.",
       "at": [
         -118.22361111,
         46.66361111
@@ -50,22 +51,25 @@
       "url": "https://stateofwatourism.com/scenic-byways/palouse-scenic-byway/"
     },
     {
+      "label": "Wikipedia, Colfax, Washington",
+      "url": "https://en.wikipedia.org/wiki/Colfax%2C_Washington"
+    },
+    {
       "label": "Wikipedia, Steptoe Butte",
       "url": "https://en.wikipedia.org/wiki/Steptoe_Butte"
     },
     {
-      "label": "Wikipedia, Colfax, Washington",
-      "url": "https://en.wikipedia.org/wiki/Colfax,_Washington"
+      "label": "Wikipedia, Palouse Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Palouse_Scenic_Byway"
     },
     {
       "label": "Wikipedia, Uniontown, Washington",
-      "url": "https://en.wikipedia.org/wiki/Uniontown,_Washington"
+      "url": "https://en.wikipedia.org/wiki/Uniontown%2C_Washington"
     },
     {
       "label": "Wikipedia, Palouse Falls",
       "url": "https://en.wikipedia.org/wiki/Palouse_Falls"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

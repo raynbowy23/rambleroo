@@ -1,25 +1,26 @@
 {
   "id": "old-trails-road-64976",
-  "tagline": "Napoleon to Wellington by way of Waterloo, along the river.",
+  "tagline": "A former US highway follows the Missouri toward Lexington’s river bluffs",
   "motifs": [
     "river-bluffs"
   ],
   "intro": [
-    "Route 224 is the old US 24, the road through the river towns until a bypass took the traffic away in 1959. From the west end it runs through Napoleon and Wellington beside the Missouri, close enough to be prone to flooding, and comes into Lexington on the bluffs.",
-    "The two little towns were laid out in 1836 and 1837 and named for the commanders at Waterloo. Lexington grew rich on hemp, tobacco and cattle, and in September 1861 the hemp went to war."
+    "Old Trails Road follows Route 224 through Missouri River country, from west of Napoleon toward Lexington's bluffs. The highway follows the river and is prone to flooding. The Missouri Department of Transportation includes Old Trails Road on its scenic-byway map alongside Show Me Santa Fe Trails.",
+    "This was once the route of US 24 through Napoleon and Lexington. A bypass completed in 1959 moved US 24 away, leaving the old alignment as US 24 Business. In 1969 the business designation ended and Route 224 took its place. The road's present number therefore belongs to the later chapter of an older highway, after the through route had shifted.",
+    "Drive east from US 24 west of Napoleon, passing Waterloo before Wellington. Waterloo lies approximately halfway between those two towns, near the Missouri's south bank. Continue toward Lexington, where the river bluffs hold the battlefield of the 1861 siege. The courthouse on Main Street carries another visible connection to that fighting: a cannonball in an upper pillar. Route 224 returns to US 24 near Lexington."
   ],
   "moments": [
     {
       "title": "Waterloo",
       "kind": "roadside",
       "scene": "river",
-      "text": "About halfway between Napoleon and Wellington lies a small unincorporated crossroads that could hardly have been called anything else."
+      "text": "Waterloo sits approximately halfway between Napoleon and Wellington, a small crossroads on Route 224 near the Missouri River's south bank. Wellington, laid out in 1837, takes its name from Arthur Wellesley, the British commander at Waterloo. Napoleon was laid out a year earlier and most likely named for Napoleon Bonaparte. Waterloo's post office operated from 1877 to 1909; the community was laid out in 1905. The post office thus predates the recorded town layout."
     },
     {
       "title": "Battle of the Hemp Bales",
       "kind": "short walk",
       "scene": "river",
-      "text": "Here Price's Missouri State Guard rolled river-soaked hemp bales up the bluff as a moving breastwork in 1861, and the red-hot shot fired at them would not take.",
+      "text": "Hemp from nearby warehouses became moving cover during the September 1861 siege of Lexington. Soldiers of Thomas A. Harris's division of the pro-Confederate Missouri State Guard soaked the bales in river water overnight, then advanced behind them on September 20. Heated Union shot failed to ignite the wet hemp. Inside the defenses, Colonel James A. Mulligan's men also faced a shortage of drinking water. Mulligan requested surrender terms after noon. The battlefield on the Missouri River bluffs is now a state park. At the Anderson House, used as a Union hospital during the siege, cannon and rifle damage remains visible inside and outside.",
       "at": [
         -93.878636,
         39.1915
@@ -32,7 +33,7 @@
       "title": "Lexington",
       "kind": "town",
       "scene": "town",
-      "text": "A cannonball from the siege sits in an upper pillar of the 1847 courthouse, though by accounts from 1920 it fell out and was screwed onto a two-foot iron rod decades later.",
+      "text": "A cannonball in an upper pillar makes the Lafayette County Courthouse a visible reminder of Lexington's siege. The Greek Revival building dates to 1847 and stands on Main Street. Before the Civil War, the town's wealth came from hemp, tobacco, coal, cattle and river trade. That prosperity coexisted with slavery: enslaved people made up 32 percent of Lafayette County's population. Lexington also supplied merchants and emigrants preparing to travel the Santa Fe, California, Oregon and Mormon trails. Its position on the Missouri linked that overland trade with a river wharf that served as a center of commerce.",
       "at": [
         -93.87222222,
         39.18444444
@@ -41,30 +42,33 @@
   ],
   "sources": [
     {
-      "label": "MoDOT, Old Trails and Show Me Santa Fe Trails Scenic Byway map",
-      "url": "https://www.modot.org/media/11340"
-    },
-    {
       "label": "Wikipedia, Missouri Route 224",
       "url": "https://en.wikipedia.org/wiki/Missouri_Route_224"
     },
     {
-      "label": "Wikipedia, Napoleon, Missouri",
-      "url": "https://en.wikipedia.org/wiki/Napoleon,_Missouri"
+      "label": "Wikipedia, Lexington, Missouri",
+      "url": "https://en.wikipedia.org/wiki/Lexington%2C_Missouri"
+    },
+    {
+      "label": "Missouri Department of Transportation, Old Trails and Show Me Santa Fe Trails Scenic Byway map",
+      "url": "https://www.modot.org/media/11340"
     },
     {
       "label": "Wikipedia, Wellington, Missouri",
-      "url": "https://en.wikipedia.org/wiki/Wellington,_Missouri"
+      "url": "https://en.wikipedia.org/wiki/Wellington%2C_Missouri"
     },
     {
-      "label": "Wikipedia, Lexington, Missouri",
-      "url": "https://en.wikipedia.org/wiki/Lexington,_Missouri"
+      "label": "Wikipedia, Waterloo, Lafayette County, Missouri",
+      "url": "https://en.wikipedia.org/wiki/Waterloo%2C_Lafayette_County%2C_Missouri"
     },
     {
       "label": "Wikipedia, First Battle of Lexington",
       "url": "https://en.wikipedia.org/wiki/First_Battle_of_Lexington"
+    },
+    {
+      "label": "Wikipedia, Napoleon, Missouri",
+      "url": "https://en.wikipedia.org/wiki/Napoleon%2C_Missouri"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

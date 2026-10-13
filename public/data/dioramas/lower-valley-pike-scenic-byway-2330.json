@@ -3,12 +3,12 @@
   "bywayId": "lower-valley-pike-scenic-byway-2330",
   "title": "Lower Valley Pike Scenic Byway",
   "longitude": -83.9362,
-  "ground": "river-valley",
-  "palette": "river",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": true,
   "road": {
     "shape": "from-geometry",
-    "profile": "valley-floor",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -277,11 +277,18 @@
   },
   "landmarks": [
     {
-      "name": "Huffman House",
-      "model": "farmhouse",
-      "at": 0.8080423999098751,
+      "name": "Medway",
+      "model": "town-blocks",
+      "at": 0.18736686688448478,
       "offset": "roadside",
-      "notes": "Story moment 2; short walk. Projected coordinate, kept in driving order."
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
+      "name": "Limestone City",
+      "model": "town-blocks",
+      "at": 0.9107661663928388,
+      "offset": "roadside",
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
@@ -293,18 +300,53 @@
       "scale": 1.5
     },
     {
-      "model": "river",
-      "at": 0.5,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1
+      "model": "town-blocks",
+      "at": 0.041666666666666664,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.20833333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.375,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.5416666666666666,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.7083333333333334,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
+    },
+    {
+      "model": "town-blocks",
+      "at": 0.875,
+      "side": -1,
+      "distance": 0.85,
+      "scale": 0.8
     }
   ],
   "towns": [
     {
       "name": "Medway",
       "at": 0.18761904761904763,
-      "landmark": ""
+      "landmark": "Medway"
     },
     {
       "name": "Donnelsville",
@@ -314,7 +356,7 @@
     {
       "name": "Limestone City",
       "at": 0.9133333333333333,
-      "landmark": ""
+      "landmark": "Limestone City"
     }
   ],
   "sources": [
