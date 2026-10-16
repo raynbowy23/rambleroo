@@ -1,60 +1,68 @@
 {
   "id": "zachary-taylor-parkway-992207",
-  "tagline": "From Bogalusa's mill town over the Mississippi to the Red River.",
+  "tagline": "Across the Mississippi on a bridge that opened before its scheduled debut",
   "intro": [
-    "The parkway runs 203 miles from Bogalusa west to Pineville, by Franklinton, Clinton and St. Francisville, over the Mississippi to New Roads and on through Marksville and Alexandria, crossing three other Louisiana byways as it goes. It is named for Zachary Taylor, who served in the War of 1812 and the Mexican-American War and made Baton Rouge his adopted home.",
-    "Bogalusa, at the east end, was built in the early 1900s as a company town for the Great Southern Lumber Company, whose sawmill was the largest in the world at the time. Its name comes from Choctaw words for dark or smoky water."
+    "The Zachary Taylor Parkway connects small towns and agricultural country across Louisiana and into Mississippi. Its Mississippi River crossing carries four lanes on the John James Audubon Bridge, with two-lane roads linking the crossing to LA 1 and US 61.",
+    "The bridge changed the parkway’s river crossing in 2011, replacing the ferry between New Roads and St. Francisville. Its opening had been expected in June, but rising water closed the ferry and brought the bridge into service on May 5.",
+    "Begin at the Alexandria and Pineville end of the corridor. At the Mississippi, cross from the New Roads side toward St. Francisville; LA 10 then passes through Jackson toward Clinton. Bogalusa stands at the junction of LA 10 and LA 21, in pine-forest country where the Great Southern Lumber Company developed a mill town in the early twentieth century."
   ],
   "moments": [
     {
-      "title": "Clinton",
-      "kind": "town",
-      "scene": "town",
-      "text": "The courthouse and Lawyer's Row, Greek Revival buildings, make up the heart of a National Historic Landmark district in a town that has been the parish seat since 1824.",
+      "title": "Forts Randolph and Buhlow",
+      "kind": "short walk",
+      "scene": "river",
+      "text": "At Pineville, the Forts Randolph and Buhlow State Historic Site includes the remains of Bailey’s Dam. The dam allowed Admiral David Porter’s Union fleet to pass below the Red River rapids during the retreat after the Battle of Mansfield. The historic site combines the two forts with a visitor center and elevated boardwalk.",
       "at": [
-        -91.01444444,
-        30.87027778
+        -92.449203,
+        31.324172
       ]
     },
     {
       "title": "John James Audubon Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "The only bridge across the Mississippi between Natchez and Baton Rouge opened in May 2011, ahead of schedule, because the rising river had shut down the ferry it was built to replace."
+      "text": "The Mississippi River brought forward this bridge’s opening. Rising water had stopped the New Roads–St. Francisville ferry, so the new crossing opened on May 5, 2011, ahead of the expected June debut. It carries LA 10 and the Zachary Taylor Parkway between Pointe Coupee and West Feliciana parishes. The cable-stayed span between its towers measures 1,583 feet. Sliding joints accommodate movement between the decks, with a travel allowance of 49 inches. It is the only bridge over the Mississippi between Natchez and Baton Rouge, replacing the ferry link between New Roads and St. Francisville."
     },
     {
-      "title": "Forts Randolph and Buhlow",
-      "kind": "short walk",
-      "scene": "river",
-      "text": "At Pineville the remains of Bailey's Dam recall how Admiral Porter's Union fleet got back down past the Red River rapids in the retreat after the Battle of Mansfield.",
+      "title": "Clinton",
+      "kind": "town",
+      "scene": "town",
+      "text": "Clinton became a parish seat because Feliciana Parish was divided. Residents in the west had complained that bad weather made travel to the government offices in Jackson difficult. In 1824, the legislature split the parish, choosing Clinton for East Feliciana and St. Francisville for West Feliciana. Clinton remains East Feliciana’s parish seat.",
       "at": [
-        -92.449203,
-        31.324172
+        -91.01444444,
+        30.87027778
       ]
     }
   ],
   "sources": [
     {
-      "label": "Louisiana Office of Tourism, Zachary Taylor Parkway (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20250715031518/https://byways.explorelouisiana.com/byway/zachary-taylor-parkway"
+      "label": "Wikipedia, John James Audubon Bridge (Mississippi River)",
+      "url": "https://en.wikipedia.org/wiki/John_James_Audubon_Bridge_%28Mississippi_River%29"
+    },
+    {
+      "label": "Wikipedia, Zachary Taylor Parkway",
+      "url": "https://en.wikipedia.org/wiki/Zachary_Taylor_Parkway"
+    },
+    {
+      "label": "Wikipedia, Jackson, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Jackson%2C_Louisiana"
     },
     {
       "label": "Wikipedia, Bogalusa, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Bogalusa,_Louisiana"
-    },
-    {
-      "label": "Wikipedia, Clinton, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Clinton,_Louisiana"
-    },
-    {
-      "label": "Wikipedia, John James Audubon Bridge (Mississippi River)",
-      "url": "https://en.wikipedia.org/wiki/John_James_Audubon_Bridge_(Mississippi_River)"
+      "url": "https://en.wikipedia.org/wiki/Bogalusa%2C_Louisiana"
     },
     {
       "label": "Wikipedia, Forts Randolph and Buhlow State Historic Site",
       "url": "https://en.wikipedia.org/wiki/Forts_Randolph_and_Buhlow_State_Historic_Site"
+    },
+    {
+      "label": "Wikipedia, Clinton, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Clinton%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Feliciana Parish, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Feliciana_Parish%2C_Louisiana"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

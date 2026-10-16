@@ -1,26 +1,37 @@
 {
   "id": "route-136-westport-990920",
-  "tagline": "Over a hand-cranked swing bridge and up to the Post Road.",
+  "tagline": "An iron swing bridge leads into Westport’s Bridge Street neighborhood.",
   "intro": [
-    "The scenic run of Route 136 begins on the Saugatuck River Bridge at Saugatuck, a name from the Paugussett meaning the mouth of the tidal river, and goes a little under two miles north to the Post Road in Westport.",
-    "Westport was a seaport from the start. For some decades after its incorporation in 1835 it was the leading onion-growing center in the country, and a shipping center partly to carry the onions to market, until blight ended the trade. Boats mattered enough that the bridge was built to swing open and let them through."
+    "Route 136 crosses the Saugatuck on a wrought-iron bridge, then enters the largely residential stretch of Bridge Street. Connecticut DOT records the scenic section from the Saugatuck River crossing to US 1, Post Road East, in Westport. The houses along Bridge Street span the late nineteenth and early twentieth centuries, with the Saugatuck Elementary School near the district’s eastern end.",
+    "The Allen family donated land on the river’s eastern bank for a bridgehead and for Bridge Street, requiring fences or stone walls to separate the road from their remaining property. Afterward, family members began selling parcels for houses. The crossing also had to serve boats: maritime commerce justified the extra expense of a bridge that could open. The larger Route 136 was established in 1932 to serve beach communities between Darien and Southport. In 1963 its eastern end was relocated, sending the highway northeast from Westport to Easton.",
+    "Start at the Saugatuck River Bridge and continue along Bridge Street through its residential district. The oldest house in the district, the 1809 Delancey Allen House, stands at Bridge Street and Compo Road South. Continue on Route 136 to Post Road East, the end of the designated scenic section."
   ],
   "moments": [
     {
       "title": "Saugatuck River Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "The hand-cranked wrought-iron swing span of 1884 replaced a wooden bridge of 1869 that shipworms had made nearly impassable before the town finished paying for it.",
+      "text": "Shipworms helped decide the material of this river crossing. Westport’s wooden bridge was nearly impassable within the decade the town took to pay for it. The replacement used wrought iron and came from the Union Bridge Company of Buffalo, the only firm to bid. Its eastern approach is fixed, while the movable span turns by hand crank. Both spans use pin-connected Pratt trusses. The opening span allowed boats to pass, preserving the waterborne traffic on which the local economy depended. In 2007, it was named the William F. Cribari Memorial Bridge.",
       "at": [
         -73.36944,
         41.12278
       ]
     },
     {
+      "title": "Bridge Street Historic District",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "Some stone walls along Bridge Street survive from the bargain that made the road possible. The Allen family supplied the land, asking the town to separate the new road from the property they kept. Family members then sold parcels for residential development. Most of the neighborhood’s houses were built between about 1880 and 1920. The district extends along Bridge Street and a short section of Imperial Avenue, including the Georgian Revival Saugatuck Elementary School, built in 1931. The Delancey Allen House at Compo Road South and Bridge Street predates most of its neighbors: it was built in 1809.",
+      "at": [
+        -73.36444444,
+        41.12305556
+      ]
+    },
+    {
       "title": "Westport Village",
       "kind": "town",
       "scene": "town",
-      "text": "The route ends at the town center on the Post Road, where from about 1910 artists and writers, F. Scott Fitzgerald among them, came to live clear of the commute.",
+      "text": "Westport Village centers on Post Road and Main Street near the Saugatuck River. On Post Road East, the Old Town Hall records a change in civic life: completed in 1909, it was Westport’s first purpose-built municipal office building. Brown & von Beren of New Haven designed it with cobblestones in a Classical Revival composition. Town meetings began there in May 1909. In 1979, municipal offices moved to a rehabilitated grade school on Myrtle Avenue, leaving the old civic building to other uses. The former town hall was listed on the National Register of Historic Places in 1982.",
       "at": [
         -73.34694,
         41.12333
@@ -29,22 +40,29 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, Connecticut Route 136",
-      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_136"
+      "label": "Wikipedia, Bridge Street Historic District (Westport, Connecticut)",
+      "url": "https://en.wikipedia.org/wiki/Bridge_Street_Historic_District_%28Westport%2C_Connecticut%29"
     },
     {
       "label": "Wikipedia, Saugatuck River Bridge",
       "url": "https://en.wikipedia.org/wiki/Saugatuck_River_Bridge"
     },
     {
-      "label": "Wikipedia, Saugatuck, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Saugatuck,_Connecticut"
+      "label": "Connecticut Department of Transportation, Scenic Roadway Classification and Characteristic Data",
+      "url": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Connecticut Route 136",
+      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_136"
     },
     {
       "label": "Wikipedia, Westport, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Westport,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Town Hall (Westport, Connecticut)",
+      "url": "https://en.wikipedia.org/wiki/Town_Hall_%28Westport%2C_Connecticut%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

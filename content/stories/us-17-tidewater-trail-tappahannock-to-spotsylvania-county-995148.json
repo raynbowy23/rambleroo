@@ -1,16 +1,17 @@
 {
   "id": "us-17-tidewater-trail-tappahannock-to-spotsylvania-county-995148",
-  "tagline": "Up the Rappahannock from one old tobacco port to another.",
+  "tagline": "Tobacco ports and a brick parish church beside the Rappahannock corridor",
   "intro": [
-    "Tidewater Trail leaves downtown Tappahannock as a divided highway along the west bank of the Rappahannock, crosses Mount Landing Creek and turns inland through Caret, Champlain, Chance and Loretto. Over Portobogo Creek it enters Caroline County and comes to Port Royal, an old port at the head of the river's sea-going reach.",
-    "Past Port Royal it runs as a two-lane road along the eastern edge of Fort A.P. Hill, through Rappahannock Academy, named for a military school that is gone, and on to the Spotsylvania line."
+    "North of downtown Tappahannock, US 17 becomes a divided highway along the Rappahannock’s west bank, then turns inland beyond Mount Landing Creek. The river at Tappahannock is a wide tidal estuary. Beyond Port Royal, the road continues northwest with two lanes, passing Rappahannock Academy before entering Spotsylvania County.",
+    "At Port Royal, an early stage road brought passengers and freight to ships on the river. Competing railroads began reducing the port’s shipping trade in the 1830s. Scheduled passenger shipping ended in 1932, supplanted by highways, and the town became a crossroads of US 17 and US 301. Tappahannock was also a shipping port reachable by ocean-going vessels. Public warehouses for tobacco inspection and export were established there under the Tobacco Inspection Act of 1730. The road now connects these former tobacco ports along the Rappahannock.",
+    "From Tappahannock, follow Tidewater Trail through Caret and Champlain toward Chance and Loretto. Vauter’s Church at Loretto is a T-shaped brick building whose south wing was added in 1731. Crossing Portobogo Creek brings the road into Caroline County and onward to Port Royal. Continue through Rappahannock Academy, Moss Neck and Olney Corner to the Spotsylvania line, where US 17 takes the name Mills Drive."
   ],
   "moments": [
     {
       "title": "Tappahannock",
       "kind": "town",
       "scene": "river",
-      "text": "The county seat began as Hobbs Hole, after a captain who anchored his ship in a deep spot of the river, and a British naval force burned its courthouse in 1814.",
+      "text": "A deep anchorage helped give Tappahannock an earlier name, Hobbs Hole. Captain Richard Hobbs anchored his ship Elizabeth and Mary here, and George Morris’s 1680 survey recorded Hobbs His Hole Harbour. The port was called New Plymouth before taking the name Tappahannock. British naval forces seized the town on December 2, 1814, and departed two days later after burning the courthouse and two jails. The historic district contains buildings from the 18th through late 19th centuries, including the Customs House and Old Clerk’s Office. The river beside the town remains a wide tidal estuary.",
       "at": [
         -76.86305556,
         37.92222222
@@ -20,7 +21,8 @@
       "title": "Vauter's Church",
       "kind": "roadside",
       "scene": "town",
-      "text": "A T-shaped brick church from 1719 at Loretto, the upper church of St. Anne's Parish, which grew its south wing in 1731.",
+      "text": "Vauter’s Church at Loretto took shape in two building campaigns: the brick church dates to 1719, and its south wing was added in 1731. The result is a one-story building with a T-shaped plan and a gabled roof. It is the upper church of St. Anne’s Parish, listed on the National Register of Historic Places in 1972.",
+      "notice": "The brick church has a T-shaped plan and a gabled roof.",
       "at": [
         -77.06861111,
         38.08666667
@@ -30,7 +32,7 @@
       "title": "Port Royal",
       "kind": "town",
       "scene": "river",
-      "text": "A tobacco port from 1652 whose last scheduled passenger ship left in 1932, and two miles out of town John Wilkes Booth was cornered in a tobacco barn.",
+      "text": "The chimneys of the Roy house survive as landmarks in Port Royal. Dorothy and John Roy owned a warehouse, a ferry across the Rappahannock and a tavern. Their enterprises belonged to a port established by English colonists in 1652 at the head of sea-going navigation. The town’s transport connections changed as railroads competed for freight and highways replaced passenger ships, whose scheduled service ended in 1932. US 17 and US 301 now intersect just southwest of town. Its town green was reserved for public and civic use when the town incorporated in 1744.",
       "at": [
         -77.19083333,
         38.16972222
@@ -39,26 +41,25 @@
   ],
   "sources": [
     {
+      "label": "Wikipedia, Tappahannock, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Tappahannock%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Port Royal, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Port_Royal%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Vauter’s Church",
+      "url": "https://en.wikipedia.org/wiki/Vauter%27s_Church"
+    },
+    {
       "label": "Wikipedia, U.S. Route 17 in Virginia",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_17_in_Virginia"
     },
     {
-      "label": "Wikipedia, Tappahannock, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Tappahannock,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Vauter's Church",
-      "url": "https://en.wikipedia.org/wiki/Vauter%27s_Church"
-    },
-    {
-      "label": "Wikipedia, Port Royal, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Port_Royal,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Rappahannock Academy, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Rappahannock_Academy,_Virginia"
+      "label": "Wikipedia, Tappahannock Historic District",
+      "url": "https://en.wikipedia.org/wiki/Tappahannock_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

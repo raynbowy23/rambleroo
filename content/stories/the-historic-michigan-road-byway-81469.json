@@ -1,72 +1,85 @@
 {
   "id": "the-historic-michigan-road-byway-81469",
-  "tagline": "North from the Ohio on Indiana's pioneer highway.",
+  "tagline": "An early Indiana highway links inland towns with the Ohio River",
   "intro": [
-    "The Michigan Road leaves the Ohio River at Madison and runs north, nearly straight, through Jefferson and Ripley counties to Napoleon, on its way to Indianapolis and, a long way on, Lake Michigan. West of the road lies the old Jefferson Proving Ground, where the Army fired its first test round in 1941 and whose northern ground is now Big Oaks National Wildlife Refuge.",
-    "Indiana got the right of way from the Potawatomi in an 1826 treaty, a ribbon of land 100 feet wide from the river to the lake. Half the pioneers who settled northwestern Indiana came up it, and in 1838 the last of the Potawatomi were forcibly removed along the same road."
+    "The Michigan Road connects the Ohio River, Indianapolis and Lake Michigan through a succession of county, state and U.S. highways. Its southern course between Napoleon and Madison runs straight through Ripley and Jefferson counties. Indiana designated the road a State Byway in 2011. The Historic Michigan Road Association presents its forests, farms, towns and cities as a way to understand how Indiana developed. Across the full statewide route, the road’s character changes from farm road and country highway to city thoroughfare and Interstate.",
+    "The state legislature commissioned the road in 1826 to connect Madison with Michigan City through the new capital at Indianapolis. A decade later, legislators funded paving along its entire length. Overspending and the Panic of 1837 brought partial state bankruptcy before that work was complete. Indiana handed control to individual counties as part of its effort to keep the road from creditors.",
+    "Traveling south, the town sequence runs from Napoleon through New Marion toward Madison. At Bryantsburg, the larger western portion of the village became part of Jefferson Proving Ground in 1941. Madison finishes the journey on the Ohio River, where river traffic and the Michigan Road once made the town an entry point into Indiana Territory."
   ],
   "moments": [
     {
-      "title": "Madison",
+      "title": "Napoleon",
       "kind": "town",
-      "scene": "river",
-      "text": "By 1850 the river town at the foot of the road was Indiana's third-largest city, and its historic district keeps the major building styles from Federal to Art Moderne.",
+      "scene": "town",
+      "text": "Napoleon was laid out in 1820, six years before the legislature commissioned the Michigan Road. Its name honors the French general and emperor; its post office began operating in 1821. The Central House belongs to another strand of travel history here. Built in the late 1820s, the two-story Federal brick building served as an inn on the Cincinnati–Indianapolis stagecoach line. Its stepped gable ends rise above a building arranged with three rooms on each floor. The town’s Elias Conwell House, built about 1822 for a local storekeeper, has a fanlight above its main entrance.",
       "at": [
-        -85.39722,
-        38.75833
+        -85.32778,
+        39.20444
       ]
     },
     {
       "title": "Bryantsburg",
       "kind": "town",
-      "scene": "prairie",
-      "text": "The village once stood on both sides of the road, until the Army took its larger west half for the proving ground in 1941 and left a handful of houses on the east.",
+      "scene": "town",
+      "text": "Jacob Bryant had laid out the community in 1834, beginning with a plan of 32 lots. Bryantsburg once occupied both sides of the Michigan Road, now U.S. 421. In 1941, its larger western section became part of Jefferson Proving Ground, leaving a handful of houses east of the road. Across the planned proving-ground site, residents had been given 30 to 120 days to leave their land. The Army fired its first test round there on May 10, 1941. The installation closed in 1995; land north of its firing line was leased in 2000 for Big Oaks National Wildlife Refuge.",
       "at": [
         -85.37444,
         38.88583
       ]
     },
     {
-      "title": "Napoleon",
+      "title": "Madison",
       "kind": "town",
-      "scene": "town",
-      "text": "Laid out in 1820 and named for the emperor, the town has had a post office since 1821, the year he died.",
+      "scene": "river",
+      "text": "Madison’s buildings show both the prosperity of river commerce and the adjustments that followed its decline. By 1850, the city was Indiana’s third largest, behind New Albany and Indianapolis. New railroad routes later drew trade away, slowing the growth Madison had known before the Civil War. Owners modernized older buildings with cast-iron storefronts and ornamental sheet-metal cornices. Others survived without major changes, leaving the historic district with architectural styles ranging from Federal to Art Moderne. The district occupies 133 blocks overlooking the Ohio River, a large surviving concentration of the city’s buildings.",
+      "notice": "Cast-iron storefronts and ornamental sheet-metal cornices show how older Madison buildings were modernized.",
       "at": [
-        -85.32778,
-        39.20444
+        -85.39722,
+        38.75833
       ]
     }
   ],
   "sources": [
     {
-      "label": "The Historic Michigan Road, About the Road",
-      "url": "https://historicmichiganroad.org/about/"
-    },
-    {
       "label": "Wikipedia, Michigan Road",
       "url": "https://en.wikipedia.org/wiki/Michigan_Road"
     },
     {
-      "label": "Wikipedia, Madison, Indiana",
-      "url": "https://en.wikipedia.org/wiki/Madison,_Indiana"
+      "label": "Historic Michigan Road Association, About the Road",
+      "url": "https://historicmichiganroad.org/about/"
+    },
+    {
+      "label": "Historic Michigan Road Association, Explore Indiana's Pioneer Highway",
+      "url": "https://historicmichiganroad.org/"
     },
     {
       "label": "Wikipedia, Bryantsburg, Indiana",
-      "url": "https://en.wikipedia.org/wiki/Bryantsburg,_Indiana"
+      "url": "https://en.wikipedia.org/wiki/Bryantsburg%2C_Indiana"
+    },
+    {
+      "label": "Wikipedia, Madison, Indiana",
+      "url": "https://en.wikipedia.org/wiki/Madison%2C_Indiana"
     },
     {
       "label": "Wikipedia, Napoleon, Indiana",
-      "url": "https://en.wikipedia.org/wiki/Napoleon,_Indiana"
+      "url": "https://en.wikipedia.org/wiki/Napoleon%2C_Indiana"
+    },
+    {
+      "label": "Wikipedia, Central House (Napoleon, Indiana)",
+      "url": "https://en.wikipedia.org/wiki/Central_House_%28Napoleon%2C_Indiana%29"
+    },
+    {
+      "label": "Wikipedia, Elias Conwell House",
+      "url": "https://en.wikipedia.org/wiki/Elias_Conwell_House"
     },
     {
       "label": "Wikipedia, Jefferson Proving Ground",
       "url": "https://en.wikipedia.org/wiki/Jefferson_Proving_Ground"
     },
     {
-      "label": "Wikipedia, Big Oaks National Wildlife Refuge",
-      "url": "https://en.wikipedia.org/wiki/Big_Oaks_National_Wildlife_Refuge"
+      "label": "Wikipedia, Madison Historic District (Madison, Indiana)",
+      "url": "https://en.wikipedia.org/wiki/Madison_Historic_District_%28Madison%2C_Indiana%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

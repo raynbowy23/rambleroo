@@ -1,54 +1,61 @@
 {
   "id": "stars-and-stripes-historical-cultural-byway-73304",
-  "tagline": "The town where soldiers found a press and printed a paper.",
+  "tagline": "Bloomfield preserves the military newspaper that Union soldiers began in 1861",
   "intro": [
-    "The byway is a few miles of Routes 25 and AA around Bloomfield, the Stoddard County seat, 6.5 miles north of Dexter on Route 25. The town was platted in 1835 and named for the wildflowers around it.",
-    "In November 1861 Union troops marched in under orders to catch the Missouri State Guard general M. Jeff Thompson, the Swamp Fox, and found the town abandoned. Ten of the soldiers were printers by trade. With their colonel's permission they took over the local press, and the first Stars and Stripes came off it. Then the paper went quiet for 57 years, until General Pershing revived it in France in 1918."
+    "Missouri Route 25 reaches Bloomfield 6.5 miles north of Dexter. Bloomfield is the Stoddard County seat, with Civil War sites identified by markers.",
+    "In November 1861, Colonel Richard J. Oglesby brought Union troops to Bloomfield under General Ulysses S. Grant’s orders to capture M. Jeff Thompson. Confederate forces had abandoned the town. Ten soldiers who were printers requested its local press; Oglesby approved, and they produced the first Stars and Stripes.",
+    "Approaching from Dexter, follow Route 25 north to Bloomfield. The Stars and Stripes National Museum and Library is at 17377 Stars and Stripes Way. The town’s courthouse has a large clock tower above its roof."
   ],
   "moments": [
+    {
+      "title": "Stars and Stripes National Museum and Library",
+      "kind": "town",
+      "scene": "town",
+      "text": "The newspaper’s first print edition is preserved in Bloomfield, where soldiers began publishing it during the Civil War. That first venture produced four editions before publication stopped until World War I. In 1918, General John J. Pershing authorized its revival for the American Expeditionary Forces in France. The museum now documents that publishing history through more than 10,000 square feet of multimedia exhibits and a collection of over 20,000 artifacts. Its public archives include newspaper editions spanning over 160 years. Free library services and research support extend the museum’s work beyond its exhibits."
+    },
     {
       "title": "Stoddard County Courthouse",
       "kind": "town",
       "scene": "town",
-      "text": "The two-story brick courthouse, built between 1867 and 1870 and remodeled in Classical Revival style in 1909, carries a massive clock tower on its roof.",
+      "text": "Bloomfield’s courthouse took shape in two stages. Built between 1867 and 1870, it began as a two-story brick building on a concrete foundation. An enlargement and remodeling in 1909 gave it its Classical Revival treatment. Above the hipped cross-gable roof rises a large clock tower. The courthouse entered the National Register of Historic Places in 1984.",
+      "notice": "Look for the clock tower above the courthouse’s hipped cross-gable roof.",
       "at": [
         -89.92916667,
         36.88444444
       ]
     },
     {
-      "title": "Stars and Stripes National Museum and Library",
+      "title": "Bloomfield",
       "kind": "town",
       "scene": "town",
-      "text": "The museum in the paper's birthplace keeps the first edition among more than 20,000 artifacts, and Barney, its cat since 2018, greets visitors in the gift shop."
+      "text": "Bloomfield was platted in 1835 and took its name from wildflowers in the vicinity. Its Civil War history has a visible presence in markers identifying sites in the area. Soldiers of the 11th, 18th and 29th Illinois Regiments camped here on November 9, 1861; the first Stars and Stripes was printed during that occupation.",
+      "at": [
+        -89.93055556,
+        36.8875
+      ]
     }
   ],
   "sources": [
     {
-      "label": "Stars and Stripes National Museum and Library, home",
-      "url": "https://www.nssml.org/"
-    },
-    {
-      "label": "Stars and Stripes National Museum and Library, Stars and Stripes newspaper history 1861",
+      "label": "Stars and Stripes National Museum and Library, Stars and Stripes Newspaper History",
       "url": "https://www.nssml.org/stars-and-stripes-newspaper-history-1861/"
     },
     {
-      "label": "Wikipedia, Bloomfield, Missouri",
-      "url": "https://en.wikipedia.org/wiki/Bloomfield,_Missouri"
+      "label": "Stars and Stripes National Museum and Library, Home",
+      "url": "https://www.nssml.org/"
     },
     {
-      "label": "Wikipedia, Stars and Stripes (newspaper)",
-      "url": "https://en.wikipedia.org/wiki/Stars_and_Stripes_(newspaper)"
+      "label": "Wikipedia, Bloomfield, Missouri",
+      "url": "https://en.wikipedia.org/wiki/Bloomfield%2C_Missouri"
     },
     {
       "label": "Wikipedia, Stoddard County Courthouse",
       "url": "https://en.wikipedia.org/wiki/Stoddard_County_Courthouse"
     },
     {
-      "label": "Wikipedia, M. Jeff Thompson",
-      "url": "https://en.wikipedia.org/wiki/M._Jeff_Thompson"
+      "label": "Wikipedia, Stars and Stripes (newspaper)",
+      "url": "https://en.wikipedia.org/wiki/Stars_and_Stripes_%28newspaper%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

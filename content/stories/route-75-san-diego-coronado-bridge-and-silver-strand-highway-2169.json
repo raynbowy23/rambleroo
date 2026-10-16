@@ -1,19 +1,42 @@
 {
   "id": "route-75-san-diego-coronado-bridge-and-silver-strand-highway-2169",
-  "tagline": "Up a sand spit between ocean and bay, then over.",
+  "tagline": "A curved bay crossing meets a highway between ocean and bay",
   "motifs": [
     "sandbars"
   ],
   "intro": [
-    "From Imperial Beach the highway curves north onto the Silver Strand, a low, narrow isthmus of sand seven miles long with the Pacific on one side and San Diego Bay on the other. It passes Navy training beaches and Silver Strand State Beach, crosses the Naval Amphibious Base and comes into Coronado as Orange Avenue, the main street. From there it climbs onto the bridge.",
-    "The strand road opened in 1924 with a festival at Tent City, Coronado's summer resort. After a highway project around 1939 the route ran through Tent City itself and, by the account of a later city works director, contributed to its demise."
+    "Route 75 combines a crossing of San Diego Bay with a drive along the Silver Strand, the narrow sandy connection between Coronado and Imperial Beach. The bridge bends through 80 degrees; on the strand, the highway runs between bay and Pacific. The bridge and the section from the Imperial Beach city limit to Avenida del Sol are officially designated scenic highway.",
+    "The Silver Strand Highway opened in 1924 during a festival at Tent City, Coronado's summer resort. The highway joined the state system in 1933, connecting the ferry landing with the route now numbered I-5. A four-lane widening was completed in 1956. By 1964, the Navy supported a bridge with at least 200 feet of ship clearance. The curved alignment provided the extra length needed to reach that height without an excessive grade. The bridge opened in 1969, providing a direct connection across the bay.",
+    "From San Diego, cross the bridge toward Coronado and follow the westbound Third Street connection to Orange Avenue. Orange Avenue is the main street through Coronado. At the naval base, Route 75 separates the ocean-side and bayside sections. Continue south through the Naval Amphibious Base, past Silver Strand State Beach and Coronado Cays, and along the strand to Imperial Beach."
   ],
   "moments": [
+    {
+      "title": "San Diego-Coronado Bridge",
+      "kind": "roadside",
+      "scene": "coast",
+      "text": "The bridge's long curve answers a naval requirement. By 1964, the Navy supported a bridge if it provided at least 200 feet of clearance for ships using Naval Base San Diego. A curved route added enough length to reach that height at a workable grade. The finished bridge climbs from Coronado at 4.67 percent and turns 80 degrees toward San Diego. It opened on August 3, 1969. Its five lanes include a reversible center lane, with a movable barrier installed in 1993. Before the barrier was installed, movable cones separated opposing traffic on the crossing.",
+      "notice": "The curve lengthens the crossing so the roadway can reach the required ship clearance.",
+      "at": [
+        -117.1583,
+        32.6865
+      ]
+    },
+    {
+      "title": "Coronado",
+      "kind": "town",
+      "scene": "town",
+      "text": "Orange Avenue once carried streetcars as well as street traffic; they ran here in the 1910s and were retired in 1939. The Hotel del Coronado anchors the town's resort history: the wooden Victorian beachfront hotel opened in 1888. Its construction depended largely on Chinese immigrant labor from San Francisco and Oakland. Raw lumber arrived from Humboldt Bay, then was finished in planing mills built on site. The historic front facade and veranda were restored in 2021, part of a continuing sequence of renovations. The hotel received National Historic Landmark designation in 1977, recognizing a surviving wooden Victorian beach resort.",
+      "at": [
+        -117.1725,
+        32.67806
+      ]
+    },
     {
       "title": "Silver Strand",
       "kind": "roadside",
       "scene": "coast",
-      "text": "On the ocean side, two and a half miles of shoreline are trimmed with silver shells, which is how the strand got its name.",
+      "text": "The Silver Strand is a low, narrow, seven-mile sandy isthmus connecting Coronado and Imperial Beach. Together with Point Loma, it shelters and defines San Diego Bay. Silver shells along 2.5 miles of its ocean shore gave the strand its name. Silver Strand State Beach includes both bay and ocean beaches. The beaches north and south of the state beach belong to the Department of Defense: Naval Amphibious Base Coronado lies to the north and Silver Strand Training Complex to the south. Route 75 runs the length of this connection, with Silver Strand State Beach 4.5 miles south of Coronado.",
+      "notice": "Silver shells line part of the ocean shore.",
       "at": [
         -117.1479,
         32.6466
@@ -21,27 +44,10 @@
       "motifs": [
         "sandbars"
       ]
-    },
-    {
-      "title": "Coronado",
-      "kind": "town",
-      "scene": "town",
-      "text": "Orange Avenue runs through a town that keeps the Hotel del Coronado, a wooden Victorian beach resort that was the largest resort hotel in the world when it opened in 1888.",
-      "at": [
-        -117.1725,
-        32.67806
-      ]
-    },
-    {
-      "title": "San Diego-Coronado Bridge",
-      "kind": "roadside",
-      "scene": "coast",
-      "text": "It rises from Coronado at a 4.67 percent grade and swings 80 degrees toward San Diego, a curve that lengthens the bridge to give Navy ships 200 feet of clearance.",
-      "at": [
-        -117.1583,
-        32.6865
-      ]
     }
+  ],
+  "practical": [
+    "San Diego-Coronado Bridge: The bridge has no pedestrian walkways, bike paths or shoulders. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -49,22 +55,29 @@
       "url": "https://en.wikipedia.org/wiki/California_State_Route_75"
     },
     {
+      "label": "Wikipedia, San Diego–Coronado Bridge",
+      "url": "https://en.wikipedia.org/wiki/San_Diego%E2%80%93Coronado_Bridge"
+    },
+    {
       "label": "Wikipedia, Silver Strand (San Diego County)",
-      "url": "https://en.wikipedia.org/wiki/Silver_Strand_(San_Diego_County)"
+      "url": "https://en.wikipedia.org/wiki/Silver_Strand_%28San_Diego_County%29"
+    },
+    {
+      "label": "Wikipedia, Naval Amphibious Base Coronado",
+      "url": "https://en.wikipedia.org/wiki/Naval_Amphibious_Base_Coronado"
     },
     {
       "label": "Wikipedia, Coronado, California",
-      "url": "https://en.wikipedia.org/wiki/Coronado,_California"
+      "url": "https://en.wikipedia.org/wiki/Coronado%2C_California"
     },
     {
       "label": "Wikipedia, Hotel del Coronado",
       "url": "https://en.wikipedia.org/wiki/Hotel_del_Coronado"
     },
     {
-      "label": "Wikipedia, San Diego-Coronado Bridge",
-      "url": "https://en.wikipedia.org/wiki/San_Diego%E2%80%93Coronado_Bridge"
+      "label": "Wikipedia, Imperial Beach, California",
+      "url": "https://en.wikipedia.org/wiki/Imperial_Beach%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

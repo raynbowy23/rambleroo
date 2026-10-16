@@ -1,56 +1,65 @@
 {
   "id": "wind-river-canyon-scenic-byway-2340",
-  "tagline": "Through the canyon's rock layers, signed one by one.",
+  "tagline": "Rock layers, three tunnels and a river with two names",
   "intro": [
-    "North of Shoshoni, US 20 runs past Boysen Reservoir, with the bare yellow and red rock of the Owl Creek Mountains beyond, and enters Wind River Canyon on the Wind River Indian Reservation, which the Eastern Shoshone and Northern Arapaho share. The walls rise as much as 2,500 feet. At three road tunnels the canyon narrows into Precambrian rock, and signs beside the highway name each layer on the way through.",
-    "The river was here before the mountains, holding its course while they rose around it. The road came through between 1922 and 1924, replacing the route over Bird's Eye Pass."
+    "US 20 runs through Wind River Canyon between walls that rise as much as 2,500 feet, with three road tunnels cut through Precambrian rock. Designated a Wyoming Scenic Byway in 2005, the corridor crosses the Wind River Indian Reservation. Travel Wyoming highlights the rock layers identified by roadside signs and gives a nonstop drive time of about 40 minutes. The reservation is shared by the Eastern Shoshone and Northern Arapaho.",
+    "The river’s course predates the uplift of the Owl Creek Mountains, cutting through them as the land rose. Work on the canyon road began in 1922 and finished in 1924, replacing the route over Bird’s Eye Pass. Construction preparations for Boysen Dam later required relocation of both US 20 and the Chicago, Burlington and Quincy Railway.",
+    "Traveling south, begin at the Thermopolis end and pass the Wedding of the Waters, where the river’s name changes between Bighorn and Wind. On this southbound journey, red sandstone at the canyon’s northern end gives way to cliffs of limestone, dolomite and sandstone before the tunnels in Precambrian rock. Continue through the canyon toward Boysen Dam at its southern mouth. Beyond Boysen Reservoir, the route reaches Shoshoni, with the yellow and red rocks of the Owl Creek Mountains beside this part of the drive."
   ],
+  "notice": "Roadside signs identify the canyon’s exposed rock layers.",
   "moments": [
     {
-      "title": "Boysen Dam",
+      "title": "Wedding of the Waters",
       "kind": "roadside",
       "scene": "river",
-      "text": "At the head of the canyon a rockfill dam holds back Boysen Reservoir, and the railroad passes beneath it through a tunnel 7,131 feet long.",
-      "at": [
-        -108.1775,
-        43.41722
-      ]
+      "text": "At the north end of the canyon, the Wind River becomes the Bighorn without meeting another stream. The name Wedding of the Waters dates to at least 1934, when a marker was placed here. The water flows north from Boysen Reservoir through the canyon, then through Thermopolis. Wind River is the name applied to the Bighorn’s upper reaches."
     },
     {
       "title": "Wind River Canyon",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "In 1995, 43 bighorn sheep came from Dubois in horse trailers and rode the last seven miles on railroad flatcars before they were let go along the canyon.",
+      "text": "Forty-three bighorn sheep reached the canyon in 1995 by an unusual combination of road and rail. They traveled from Dubois in horse trailers, then rode the final seven miles on railroad flatcars before release in the canyon. The highway itself runs at canyon-floor level in places, with views of Chimney Rock. Roadside signs identify exposed strata, including a sequence of rock layers cut by a river older than the uplift of the Owl Creek Mountains. At the southern tunnels the canyon narrows into Precambrian rock; farther north, high cliffs expose Madison Limestone, Bighorn Dolomite and sandstone.",
       "at": [
         -108.18044,
         43.52027
       ]
     },
     {
-      "title": "Wedding of the Waters",
+      "title": "Boysen Dam",
       "kind": "roadside",
       "scene": "river",
-      "text": "At the north end of the canyon the Wind River becomes the Bighorn, changing its name without changing its course."
+      "text": "Boysen Dam holds back the reservoir at the head of Wind River Canyon, supplying irrigation water, flood control and hydroelectric power. An earlier concrete dam, built under Asmus Boysen’s supervision in 1908, silted up and was removed in 1948. The replacement required a railway tunnel beneath the dam and part of the future reservoir, 7,131 feet long. That tunnel opened in September 1950; the new dam was completed in February 1952. When the river’s diversion tunnel was sealed in October 1951, the new reservoir began to rise behind the embankment.",
+      "at": [
+        -108.1775,
+        43.41722
+      ]
     }
   ],
   "sources": [
     {
-      "label": "Travel Wyoming, Wind River Canyon Scenic Byway",
+      "label": "Wikipedia, Wind River Canyon",
+      "url": "https://en.wikipedia.org/wiki/Wind_River_Canyon"
+    },
+    {
+      "label": "Wyoming Office of Tourism, Wind River Canyon Scenic Byway",
       "url": "https://travelwyoming.com/listing/wind-river-canyon-scenic-byway/1381/"
     },
     {
-      "label": "Wikipedia, Wind River Canyon",
-      "url": "https://en.wikipedia.org/wiki/Wind_River_Canyon"
+      "label": "Wikipedia, Wind River Indian Reservation",
+      "url": "https://en.wikipedia.org/wiki/Wind_River_Indian_Reservation"
     },
     {
       "label": "Wikipedia, Boysen Dam",
       "url": "https://en.wikipedia.org/wiki/Boysen_Dam"
     },
     {
-      "label": "Wikipedia, Wind River Indian Reservation",
-      "url": "https://en.wikipedia.org/wiki/Wind_River_Indian_Reservation"
+      "label": "Wikipedia, Thermopolis, Wyoming",
+      "url": "https://en.wikipedia.org/wiki/Thermopolis%2C_Wyoming"
+    },
+    {
+      "label": "Wikipedia, Wind River (Wyoming)",
+      "url": "https://en.wikipedia.org/wiki/Wind_River_%28Wyoming%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

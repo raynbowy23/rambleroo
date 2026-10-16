@@ -1,60 +1,76 @@
 {
   "id": "welsh-scenic-byway-13595",
-  "tagline": "Chapel country, where the men and the women used separate doors.",
+  "tagline": "Welsh migration links Ohio’s inland towns with an Ohio River finish",
   "intro": [
-    "The mapped road comes down through Jackson and over the hills to Kanauga, on the Ohio across from Point Pleasant, and the byway's chapels lie along it and on side roads toward Oak Hill and Centerville. This was Welsh country. The first of them, the 1818 Welsh, stopped at Gallipolis to mend a flatboat bound for Paddy's Run near Cincinnati and never left, and more than 3,000 followed in the 1830s and 1840s.",
-    "Many of their chapels had two front doors, because men and women sat on opposite sides, and a tea house, the ty capel, for feeding the minister. They also fired charcoal iron furnaces, until richer ores in Michigan and Minnesota brought Ohio's iron industry to an end."
+    "The Welsh Scenic Byway loops through Gallia and Jackson counties in southeastern Ohio, celebrating the Welsh immigrants who settled there in the nineteenth century. Along the journey, Jackson’s industrial history gives way to Rio Grande near Raccoon Creek and Kanauga on the Ohio River.",
+    "Welsh immigrants arrived in the area in 1818. Those first settlers wrote home and persuaded others to come to Gallia and Jackson counties; more than 3,000 followed in the 1830s and 1840s. Centerville, laid out in 1835, was settled chiefly by Welsh immigrants.",
+    "Start at Savageville, northwest of Jackson on U.S. 35, then continue through Jackson toward Rio Grande. Rio Grande’s village flag uses the Welsh flag with the village name and establishment year added. Finish at Kanauga, across the Ohio from Point Pleasant and the mouth of the Kanawha River."
   ],
   "moments": [
     {
       "title": "Jackson",
       "kind": "town",
       "scene": "town",
-      "text": "John Wesley Powell spent his formative years in Jackson, and in 1938 the square got a memorial to him built of stones given by tribes of the Improved Order of Red Men.",
+      "text": "Local coal and iron ore supplied Jackson’s iron businesses. By 1880, two railroads passed through town, helping its economy and population grow. In 1886, the Star Furnace Company and Globe Iron Company were its largest businesses, each employing 30 people. That industrial history connects with the region’s Welsh settlement: the Welsh-American Heritage Museum in Oak Hill describes immigrants’ work in farming, ironmaking and clay manufacturing. In Jackson itself, the Lillian E. Jones museum occupies a house built in 1869. The town was established in 1817; its population grew from 297 in 1840 to 3,021 in 1880.",
       "at": [
         -82.62917,
         39.04028
       ]
     },
     {
-      "title": "Centerville Hill Cemetery",
-      "kind": "separate excursion",
-      "scene": "prairie",
-      "text": "Many of the first Welsh settlers lie on this hilltop a mile outside Centerville, which began when the widow Thomas gave the land and had her husband moved up from the village cemetery.",
-      "at": [
-        -82.4528,
-        38.9008
-      ]
-    },
-    {
       "title": "Rio Grande",
       "kind": "town",
       "scene": "town",
-      "text": "Pronounced Rye-O Grand, the village flies a flag identical to the Flag of Wales, and the first Bob Evans restaurant began here as a single truck stop diner.",
+      "text": "Rio Grande’s name is pronounced Rye-O Grand, and its village flag carries the Welsh flag’s design with the village name and establishment year added. Welsh immigrants began arriving in the area in 1818; the first settlers wrote home to encourage others to follow. More than 3,000 arrived during the 1830s and 1840s. The village itself was established in 1874. Nearby Raccoon Creek is a tributary of the Ohio River. Education also shaped the village: Permelia Ridgeway Atwood endowed Rio Grande College and deeded ten acres for it in 1873. The college opened in 1876.",
       "at": [
         -82.37778,
         38.87972
+      ]
+    },
+    {
+      "title": "Kanauga",
+      "kind": "town",
+      "scene": "river",
+      "text": "At Kanauga, the Ohio River separates Ohio from West Virginia, with Point Pleasant and the Kanawha River’s mouth directly across the water. U.S. 35 crosses on the Silver Memorial Bridge. That bridge opened in 1969 to replace the Silver Bridge, which collapsed in 1967, killing 46 people. The replacement is a cantilever bridge, downstream from the original crossing. The original bridge had carried U.S. 35 since 1928. Its collapse led to changes in bridge inspection and maintenance across the country. A surviving eyebar, one of its suspension-chain components, is displayed at an Ohio-side rest area along Route 7.",
+      "at": [
+        -82.14944444,
+        38.84111111
       ]
     }
   ],
   "sources": [
     {
-      "label": "Ohio Department of Transportation, Welsh Scenic Byway story map",
+      "label": "Ohio Department of Transportation, Welsh Scenic Byway",
       "url": "https://storymaps.arcgis.com/stories/2d8caba67bb74e3c90ed7dff790e2775"
     },
     {
+      "label": "Wikipedia, Kanauga, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Kanauga%2C_Ohio"
+    },
+    {
       "label": "Wikipedia, Jackson, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Jackson,_Ohio"
+      "url": "https://en.wikipedia.org/wiki/Jackson%2C_Ohio"
     },
     {
       "label": "Wikipedia, Rio Grande, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Rio_Grande,_Ohio"
+      "url": "https://en.wikipedia.org/wiki/Rio_Grande%2C_Ohio"
     },
     {
-      "label": "Wikipedia, Kanauga, Ohio",
-      "url": "https://en.wikipedia.org/wiki/Kanauga,_Ohio"
+      "label": "Wikipedia, Centerville, Gallia County, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Centerville%2C_Gallia_County%2C_Ohio"
+    },
+    {
+      "label": "Wikipedia, Savageville, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Savageville%2C_Ohio"
+    },
+    {
+      "label": "Wikipedia, University of Rio Grande",
+      "url": "https://en.wikipedia.org/wiki/University_of_Rio_Grande"
+    },
+    {
+      "label": "Wikipedia, Silver Bridge",
+      "url": "https://en.wikipedia.org/wiki/Silver_Bridge"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

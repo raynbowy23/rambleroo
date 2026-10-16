@@ -1,19 +1,30 @@
 {
   "id": "scenic-route-90-2267",
-  "tagline": "Down Cayuga Lake's east shore and off into farm country.",
+  "tagline": "Along Cayuga Lake’s eastern shore, then inland through rolling farm country",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "Out of Montezuma, NY 90 crosses over the Thruway, the one place in the state where two highways of the same number cross, with no way from one onto the other. South of US 20 it keeps to the eastern shore of Cayuga Lake through Cayuga, Union Springs and Aurora. At King Ferry it turns east, away from the water, and runs through the farms of Genoa, Locke and Summerhill to Homer.",
-    "Its oldest ancestor is a stretch of the Great Western Turnpike, chartered in 1814 from Homer to Cayuga Lake, where ferries carried travelers across. The road also leads to historic homes, among them the last home of Harriet Tubman."
+    "Scenic Route 90 follows Cayuga Lake’s eastern shore, then turns inland toward Homer through farm country. The drive alternates two-lane lakeside village streets with rural stretches and hills. New York’s scenic-byways program identifies scenic, recreational, natural and historic themes here, highlighting rolling farmland, state parks and wildlife habitats. The Federal Highway Administration describes a journey through historic Finger Lakes farm country and small Cayuga Lake towns.",
+    "The road’s earliest predecessor was the fifth section of the Great Western Turnpike, chartered in 1814 between Homer and Cayuga Lake. Ferries carried travelers onward across the lake. NY 90 received its number in 1930. The early numbered route began at Messengerville and reached Homer through Virgil and Cortland before continuing toward the lake. The southern extension was removed in the early 1980s.",
+    "Leaving Montezuma, NY 90 crosses above Interstate 90 without an interchange between the two roads. Continue south through Cayuga, Union Springs and Aurora along the lake. Near King Ferry, the route turns inland and runs east through Genoa, Locke and Summerhill toward Homer. Near Locke, the road winds alongside Hemlock Creek, then passes through the farms of Summerhill. It ends at US 11 and NY 41 in Homer village."
   ],
   "moments": [
+    {
+      "title": "Montezuma canal crossing",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "At Montezuma, the Enlarged Erie Canal crossed above the Seneca River on the Richmond Aqueduct. Built between 1849 and 1856, it had 31 stone arches. The canal’s popularity with passengers and freight prompted the state to enlarge it. The Seneca River Crossing Canals Historic District includes aqueduct remains, a drydock and more than a mile of the enlarged canal channel. Remnants of the original canal include Lock 62 and piers from its mule bridge. A culvert carries a stream beneath the enlarged canal, another surviving part of the crossing’s layered engineering.",
+      "at": [
+        -76.7125,
+        43.00888889
+      ]
+    },
     {
       "title": "Union Springs",
       "kind": "town",
       "scene": "river",
-      "text": "Offshore lies Frontenac Island, ceremonially important to the Cayuga and the only natural island in the Finger Lakes, though in 1859 nearly a third of it went into a railroad embankment.",
+      "text": "Frontenac Island lies offshore from Union Springs in Cayuga Lake. The village took its name from nearby mineral springs, which made it a health spa. The island is ceremonially important to the Cayuga. The village assumed ownership of the island in 1856, three years before the removal of material for the railroad. In 1859, nearly one third of it was removed for a New York Central Railroad embankment along the lake’s east shore, without regard for artifacts. In the mid-twentieth century, the Rochester Museum of Arts and Sciences excavated the island for study and display.",
       "at": [
         -76.69305556,
         42.84305556
@@ -22,8 +33,8 @@
     {
       "title": "Aurora",
       "kind": "town",
-      "scene": "river",
-      "text": "The lakeside village was a college town from 1868, when Henry Wells founded Wells College for women, until the college closed in 2024.",
+      "scene": "town",
+      "text": "Aurora’s lakeside history joins shipping with education. Farm produce traveled from its port up Cayuga Lake and through the Erie Canal to distant markets. Henry Wells founded Wells College for women in 1868; it became coeducational in 2005 and closed in 2024. The Aurora Village-Wells College Historic District includes commercial buildings, homes, churches and the former college campus. On the former college campus, Glen Park, Henry Wells’s 1852 home, was later donated to the college. Its campus architecture also includes an 1890 Main Building and an 1898 boathouse on Cayuga Lake.",
       "at": [
         -76.69944444,
         42.74666667
@@ -32,26 +43,41 @@
   ],
   "sources": [
     {
-      "label": "NYSDOT, Scenic Route 90",
-      "url": "https://www.dot.ny.gov/display/programs/scenic-byways/route-90"
-    },
-    {
-      "label": "FHWA, Scenic Route 90",
-      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2267"
-    },
-    {
       "label": "Wikipedia, New York State Route 90",
       "url": "https://en.wikipedia.org/wiki/New_York_State_Route_90"
     },
     {
+      "label": "New York State Department of Transportation, Scenic Route 90",
+      "url": "https://www.dot.ny.gov/display/programs/scenic-byways/route-90"
+    },
+    {
+      "label": "Federal Highway Administration, Scenic Route 90",
+      "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/2267"
+    },
+    {
+      "label": "Wikipedia, Montezuma, New York",
+      "url": "https://en.wikipedia.org/wiki/Montezuma%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, Seneca River Crossing Canals Historic District",
+      "url": "https://en.wikipedia.org/wiki/Seneca_River_Crossing_Canals_Historic_District"
+    },
+    {
       "label": "Wikipedia, Union Springs, New York",
-      "url": "https://en.wikipedia.org/wiki/Union_Springs,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Union_Springs%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, Frontenac Island",
+      "url": "https://en.wikipedia.org/wiki/Frontenac_Island"
     },
     {
       "label": "Wikipedia, Aurora, Cayuga County, New York",
-      "url": "https://en.wikipedia.org/wiki/Aurora,_Cayuga_County,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Aurora%2C_Cayuga_County%2C_New_York"
+    },
+    {
+      "label": "Wikipedia, Aurora Village–Wells College Historic District",
+      "url": "https://en.wikipedia.org/wiki/Aurora_Village%E2%80%93Wells_College_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

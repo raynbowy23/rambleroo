@@ -1,19 +1,20 @@
 {
   "id": "route-168-bishop-creek-990610",
-  "tagline": "Down Bishop Creek from a power lake to the Owens Valley.",
+  "tagline": "From a dammed mountain lake, Bishop Creek descends toward the Owens Valley.",
   "motifs": [
     "aspens"
   ],
   "intro": [
-    "Highway 168 begins at Lake Sabrina, high on the eastern slope of the Sierra Nevada, and follows Bishop Creek down past Aspendell, at 8,409 feet, to Bishop at 4,150 feet in the Owens Valley. Below Intake Two the forks of the creek have come together, and it starts its steep descent.",
-    "The road was meant to keep going west. The state once planned a High Sierra Piute Highway over 11,453-foot Piute Pass to Fresno. The crest and two wilderness areas stood in the way, and the gap is still crossed on foot."
+    "Route 168’s eastern segment starts at Lake Sabrina on the Sierra Nevada’s eastern slope and runs down to Bishop. The drive passes Aspendell at 8,409 feet before reaching the Owens Valley town at 4,150 feet. Caltrans designates the stretch from Camp Sabrina to Brockman Lane a scenic highway. Above Aspendell, winter snow removal makes the upper road seasonal for most vehicles. Bishop Creek is also a working power system: five hydroelectric plants use its water, with some stretches carried through pipelines to increase their output.",
+    "The state once conceived Route 168 as a highway connecting Fresno and Bishop across the Sierra. The proposed High Sierra Piute Highway would have crossed 11,453-foot Piute Pass, but the two road segments were never joined. The rugged crest and eastern escarpment would have made construction difficult, and designated wilderness areas now block the connection. Caltrans has no plans to complete the crossing.",
+    "Starting at Lake Sabrina, the drive leads toward Aspendell, where the combined North and Middle forks of Bishop Creek flow through town. Below the village, those waters enter Intake Two; the South Fork joins below that reservoir before the creek descends steeply toward the valley. The road reaches Bishop and joins US 395."
   ],
   "moments": [
     {
       "title": "Lake Sabrina",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Dammed in 1907 and 1908 to keep water running to the power plants, and named for Sabrina Hobbs, wife of the power company's manager. Locals pronounce it differently than she did.",
+      "text": "Lake Sabrina stores the Middle Fork of Bishop Creek behind a dam built in 1907–08. The dam supplied a steady flow to the power plants, making the lake part of the Bishop Creek power system. It took its name from Sabrina Hobbs, wife of California Nevada Power Company’s first general manager. Local residents say “Sah-bry-nuh,” although her name was pronounced “suh-BREE-nuh.” The reason for the pronunciation change is unclear. Downstream, the creek’s hydroelectric system has five plants owned by Southern California Edison, numbered 2 through 6. Plant 1 was never completed.",
       "at": [
         -118.6187,
         37.20727
@@ -26,7 +27,8 @@
       "title": "Aspendell",
       "kind": "town",
       "scene": "forest",
-      "text": "A village of about 70, laid out in 1961 and known in fall for its aspens. Its lone resort began in a mining town born of an 1885 gold strike on the creek.",
+      "text": "Aspendell’s autumn distinction is its aspen trees, but the village itself dates to development by Gene Scherer in 1961. It stands at 8,409 feet above sea level. The North and Middle forks of Bishop Creek meet above the community and flow through it, then enter the reservoir at Intake Two below. An older settlement lies behind the area’s Cardinal Village Resort: it began as part of a mining town after gold was discovered in Bishop Creek in 1885. The winter closure of Route 168 just south of the village prevents the remaining drive to Lake Sabrina and North Lake.",
+      "notice": "In fall, the community is known for its aspen trees.",
       "at": [
         -118.59833,
         37.23806
@@ -39,7 +41,7 @@
       "title": "Bishop",
       "kind": "town",
       "scene": "desert",
-      "text": "The valley town took its name from the creek, and the creek from Samuel Addison Bishop, an early settler. John Wayne made westerns here.",
+      "text": "Bishop sits between the Sierra Nevada and the White Mountains, near the northern end of the Owens Valley. Its name came from Bishop Creek, named for settler Samuel Addison Bishop. The Eastern Mono, also called Owens Valley Paiute, lived in settlements along rivers and snowmelt-fed springs and continue to live in and near Bishop. The Bishop Paiute Tribe operates the Owens Valley Paiute Shoshone Cultural Center, displaying art and artifacts from area Paiute and Timbisha tribes and maintaining an active repatriation program. The center’s store sells contemporary beadwork, basketry, jewelry, and quillwork alongside educational materials.",
       "at": [
         -118.39583,
         37.36667
@@ -47,30 +49,33 @@
     }
   ],
   "practical": [
-    "The road from Aspendell up to Lake Sabrina is closed to most vehicles in winter, usually until mid- or late April; the gate is just southwest of Aspendell."
+    "Lake Sabrina: The road between Lake Sabrina and Aspendell is subject to winter closure to most vehicles, usually reopening in mid- or late April. The gate is southwest of Aspendell. (checked 2026-10-11)"
   ],
   "sources": [
     {
+      "label": "Wikipedia, Bishop Creek (Inyo County)",
+      "url": "https://en.wikipedia.org/wiki/Bishop_Creek_%28Inyo_County%29"
+    },
+    {
       "label": "Wikipedia, California State Route 168",
       "url": "https://en.wikipedia.org/wiki/California_State_Route_168"
+    },
+    {
+      "label": "Wikipedia, Aspendell, California",
+      "url": "https://en.wikipedia.org/wiki/Aspendell%2C_California"
+    },
+    {
+      "label": "Wikipedia, Bishop, California",
+      "url": "https://en.wikipedia.org/wiki/Bishop%2C_California"
     },
     {
       "label": "Wikipedia, Lake Sabrina",
       "url": "https://en.wikipedia.org/wiki/Lake_Sabrina"
     },
     {
-      "label": "Wikipedia, Aspendell, California",
-      "url": "https://en.wikipedia.org/wiki/Aspendell,_California"
-    },
-    {
-      "label": "Wikipedia, Bishop Creek (Inyo County)",
-      "url": "https://en.wikipedia.org/wiki/Bishop_Creek_(Inyo_County)"
-    },
-    {
-      "label": "Wikipedia, Bishop, California",
-      "url": "https://en.wikipedia.org/wiki/Bishop,_California"
+      "label": "Wikipedia, Bishop Paiute Tribe",
+      "url": "https://en.wikipedia.org/wiki/Bishop_Paiute_Tribe"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

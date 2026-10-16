@@ -1,75 +1,88 @@
 {
   "id": "the-shires-of-vermont-byway-995003",
-  "tagline": "Old US 7, between the Taconics and the Green Mountains.",
+  "tagline": "The old highway joins two shire towns between mountain ranges",
   "intro": [
-    "The road comes up from the Massachusetts line at Pownal on US 7, and at Bennington it turns off onto the old highway, signed Historic 7A. From there it keeps to the valley between the Taconic Range and the Green Mountains, through South Shaftsbury and Arlington, where the Batten Kill swings west for New York, and on to Manchester.",
-    "Bennington is the South Shire and Manchester the North Shire, and the old highway joins the two. Arlington, along the way, was the first capital of the Vermont Republic in 1777, and the Batten Kill running through it is known for its trout."
+    "Historic Route 7A links Bennington and Manchester in the country between the Taconic and Green Mountains. Vermont Tourism includes the Shires of Vermont Byway among the state’s scenic routes, highlighting its mountain setting and the Batten Kill flowing through the valley. The road bends northeast between Arlington and Manchester and passes near Hildene, reached by Hildene Road. At Arlington, the Batten Kill turns west toward New York. The village occupies its south bank, with the Taconic Mountains to the west and Green Mountains to the east.",
+    "Before the limited-access US 7 opened, this was the route of US 7 itself. The Historic VT 7A signs distinguish that earlier alignment from the newer highway. The byway’s name describes a different arrangement: Bennington County has two shire towns, or county seats, with Manchester the North Shire and Bennington the South Shire. The old route still passes through Arlington village, while US 7 bypasses it to the east.",
+    "From Manchester Center, follow the old alignment south toward Arlington and Bennington. Hildene comes before Arlington, then South Shaftsbury and the Robert Frost Stone House. Old Bennington occupies a hill west of downtown; farther south, US 7 leads through Pownal toward Massachusetts."
   ],
   "moments": [
     {
-      "title": "Old Bennington",
-      "kind": "town",
-      "scene": "town",
-      "text": "On a hill above downtown, the Old First Church of 1806 shares the village with a 306-foot stone obelisk raised for a battle that was actually fought over the line in New York.",
+      "title": "Hildene",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "Hildene’s formal garden takes its pattern from a cathedral’s stained-glass window. Privet hedges draw the outlines, with flowering annuals and perennials supplying the colors. Planted in 1907, the garden followed the completion of Robert Todd Lincoln and Mary Harlan Lincoln’s summer house in 1905. The Georgian Revival house occupies a 300-foot promontory above the Battenkill Valley. Lincoln descendants lived here until 1975. Three years later, the Friends of Hildene bought the property and began restoring the house, outbuildings and gardens. Inside, the house is furnished almost entirely with Lincoln family furniture.",
+      "notice": "Privet hedges outline the garden’s stained-glass-window pattern.",
       "at": [
-        -73.21416667,
-        42.88472222
+        -73.07944444,
+        43.14027778
       ]
     },
     {
       "title": "Robert Frost Stone House",
       "kind": "roadside",
-      "scene": "prairie",
-      "text": "Frost bought this 1769 stone farmhouse in 1920 to farm apples, wrote \"Stopping by Woods on a Snowy Evening\" in it, and the orchard has since been replanted from one of his last trees.",
+      "scene": "town",
+      "text": "The young orchard at Robert Frost’s Stone House grew from trees grafted from one of his orchard’s last surviving apple trees. Frost bought the farm in 1920 with the goal of growing apples; during his residency, it included 80 acres and a large orchard. He also wrote “Stopping by Woods on a Snowy Evening” while living here. The house dates to 1769 and uses local stone and timber. The site now contains seven acres, stone walls and two barns, along with surviving apple trees. The Friends of Robert Frost restored the property after acquiring it in 2002.",
       "motifs": [
         "orchard"
       ]
     },
     {
-      "title": "Hildene",
-      "kind": "separate excursion",
-      "scene": "mountain",
-      "text": "Robert Todd Lincoln's summer house of 1905 stands on a promontory over the Battenkill Valley, beside a garden laid out in privet in the pattern of a stained-glass window.",
+      "title": "Old Bennington",
+      "kind": "town",
+      "scene": "town",
+      "text": "The Bennington Battle Monument marks the supplies the British sought, rather than the ground where the battle was fought. The fighting took place in Walloomsac, New York, in August 1777. The 306-foot stone obelisk was completed in 1889 after a local historical society began planning a centennial memorial. It shares Old Bennington’s hilltop historic district with the Old First Church, built in 1806 and restored in 1937. The district also preserves homes from the Revolutionary War era. The monument is built from blue-gray, fossil-bearing stone quarried in what is now Hudson Falls, New York.",
       "at": [
-        -73.07944444,
-        43.14027778
+        -73.21416667,
+        42.88472222
       ]
     }
   ],
   "sources": [
     {
-      "label": "Vermont Vacation, Vermont Byways",
-      "url": "https://vermontvacation.com/things-to-do/trip-ideas-itineraries/scenic-drives/vermont-byways/"
+      "label": "The Shires of Southwestern Vermont Destination Marketing Organization, Explore the Shires",
+      "url": "https://exploretheshires.com/"
     },
     {
       "label": "Wikipedia, Vermont Route 7A",
       "url": "https://en.wikipedia.org/wiki/Vermont_Route_7A"
     },
     {
-      "label": "Wikipedia, Arlington, Vermont",
-      "url": "https://en.wikipedia.org/wiki/Arlington,_Vermont"
+      "label": "Vermont Tourism, Vermont Scenic Byways",
+      "url": "https://vermontvacation.com/things-to-do/trip-ideas-itineraries/scenic-drives/vermont-byways/"
     },
     {
       "label": "Wikipedia, Batten Kill",
       "url": "https://en.wikipedia.org/wiki/Batten_Kill"
     },
     {
-      "label": "Wikipedia, Old Bennington, Vermont",
-      "url": "https://en.wikipedia.org/wiki/Old_Bennington,_Vermont"
+      "label": "Wikipedia, Arlington (CDP), Vermont",
+      "url": "https://en.wikipedia.org/wiki/Arlington_%28CDP%29%2C_Vermont"
     },
     {
-      "label": "Wikipedia, Bennington Battle Monument",
-      "url": "https://en.wikipedia.org/wiki/Bennington_Battle_Monument"
+      "label": "Wikipedia, Manchester Center, Vermont",
+      "url": "https://en.wikipedia.org/wiki/Manchester_Center%2C_Vermont"
+    },
+    {
+      "label": "Wikipedia, Old Bennington, Vermont",
+      "url": "https://en.wikipedia.org/wiki/Old_Bennington%2C_Vermont"
+    },
+    {
+      "label": "Wikipedia, Pownal (CDP), Vermont",
+      "url": "https://en.wikipedia.org/wiki/Pownal_%28CDP%29%2C_Vermont"
+    },
+    {
+      "label": "Wikipedia, Hildene",
+      "url": "https://en.wikipedia.org/wiki/Hildene"
     },
     {
       "label": "Wikipedia, Robert Frost Stone House Museum",
       "url": "https://en.wikipedia.org/wiki/Robert_Frost_Stone_House_Museum"
     },
     {
-      "label": "Wikipedia, Hildene",
-      "url": "https://en.wikipedia.org/wiki/Hildene"
+      "label": "Wikipedia, Bennington Battle Monument",
+      "url": "https://en.wikipedia.org/wiki/Bennington_Battle_Monument"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

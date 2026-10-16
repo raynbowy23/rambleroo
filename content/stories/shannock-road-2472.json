@@ -1,16 +1,23 @@
 {
   "id": "shannock-road-2472",
-  "tagline": "Across the Pawcatuck twice, through a mill village.",
+  "tagline": "Marshes, woodland and stone-walled fields on the approach to Shannock",
   "intro": [
-    "From Route 2 Shannock Road heads west past marsh and stone-walled fields, crosses the Pawcatuck River into Richmond, and reaches Shannock, a mill village of the nineteenth century. Beyond the second river crossing it is back in Charlestown and runs into woods, curving and dipping under overhanging trees to Route 112. The whole of it is 1.7 miles.",
-    "It was one of the first roads named under Rhode Island's scenic roadways program, after neighbors objected to state plans to repave and significantly alter it."
+    "Shannock Road winds for 1.7 miles between Routes 2 and 112 through rolling terrain, marshes, woodland and fields bounded by stone walls. Rhode Island designated it a scenic highway in January 1991. The state transportation department highlights the small textile mill village midway along the road, where nineteenth-century mills and worker housing shaped the settlement.",
+    "The designation followed residents’ opposition to state plans to repave, repair and substantially alter the road. The transportation department responded with a revised plan addressing safety, drainage and pavement while adding sidewalks and streetscape improvements. Stalled negotiations and lost federal construction funds prevented implementation. The 1999 Shannock Road Stewardship Plan then widened the focus to land beside the road. The plan also addressed Amtrak electrification, seeking ways to reduce its impact on the village’s appearance while encouraging reuse of the burned mill and more public spaces beside the river.",
+    "Travel west from Route 2 past the fields east of Shannock, then enter the village between two crossings of the Pawcatuck River. The river divides Richmond from Charlestown; the road’s middle section lies in Richmond, with both ends in Charlestown. West of the village, the road curves and changes grade through a wooded residential section before reaching Route 112."
   ],
   "moments": [
+    {
+      "title": "Eastern fields",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "Open fields mark the eastern approach to Shannock village. The 1999 Shannock Road Stewardship Plan recorded two or three fields at the corridor’s eastern limits, no longer farmed but providing wide views beyond the road. The fields belonged to the broader setting of a mill village that also included nearby farms, worker housing, the railroad and the river."
+    },
     {
       "title": "Shannock",
       "kind": "town",
       "scene": "river",
-      "text": "Worker houses from the second half of the 1800s stand close to the road around two mill complexes, with three houses that belonged to the mill owners among them.",
+      "text": "Worker houses sit close to the road in Shannock, most dating from the second half of the nineteenth century. Mill owners had a different architectural presence: two Greek Revival houses and a Late Victorian house belonged to them. The village stretches between two Pawcatuck crossings, mainly in Richmond but extending into Charlestown. Its historic district entered the National Register in 1983. The 1999 Shannock Road Stewardship Plan identified the mill-worker homes, commercial buildings and support structures as elements of the village’s character. Old Shannock Road, Railroad Street and Shannock Village Road connect this settlement along the river.",
       "at": [
         -71.64111,
         41.44806
@@ -18,18 +25,18 @@
     },
     {
       "title": "Horseshoe Falls",
-      "kind": "town",
+      "kind": "roadside",
       "scene": "river",
-      "text": "The 1999 stewardship plan singled out this man-made fall on the Pawcatuck, curved like a horseshoe to turn river water into the mill raceway."
+      "text": "Horseshoe Falls was built to send Pawcatuck River water into a mill raceway. Its curved shape is part of that industrial purpose. The 1999 Shannock Road Stewardship Plan identified both the falls and river views within the village and along its approaches as features of the mill-village landscape."
     }
   ],
   "sources": [
     {
-      "label": "RIDOT, Scenic Roadways",
+      "label": "Rhode Island Department of Transportation, Rhode Island’s Scenic Roadways",
       "url": "https://www.dot.ri.gov/projects/ScenicRoads/index.php"
     },
     {
-      "label": "RIDOT, Shannock Road Stewardship Plan (1999), pages 1 to 5",
+      "label": "Rhode Island Department of Transportation, Shannock Road Stewardship Plan (1999)",
       "url": "https://www.dot.ri.gov/projects/ScenicRoads/docs/StewardshipPlans/Shannock%20Road.pdf"
     },
     {
@@ -37,6 +44,5 @@
       "url": "https://en.wikipedia.org/wiki/Shannock_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

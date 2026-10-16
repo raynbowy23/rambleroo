@@ -1,25 +1,26 @@
 {
   "id": "route-20-scenic-byway-68467",
-  "tagline": "The old Cherry Valley Turnpike over the Central New York hills.",
+  "tagline": "Across working hill country, a turnpike corridor becomes a touring road.",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "From LaFayette, US 20 drops into a deep valley and climbs back to the ridge at Pompey, then comes down to the south end of Cazenovia Lake. East of there it climbs into the high ground again past Morrisville, takes the name Cherry Valley Turnpike near Waterville and skirts the northern edge of the Catskills, valley views opening to the south, through Richfield Springs to Duanesburg, 108 miles on.",
-    "The turnpike was built around the turn of the 19th century to join Albany to Cherry Valley and later Cazenovia, and taverns and hotels lined it for the wagon trade. Dairy barns of Dutch and English build still stand along it, along with motor courts from the 1930s to the 1950s."
+    "Route 20 crosses Central New York in a succession of valleys and ridges, with climbs, curves and stretches that widen to four lanes. The 108-mile state scenic byway links LaFayette and Duanesburg. New York’s transportation department identifies its scenic, natural and historic themes with rolling hills, lakes, working landscapes and historic places.",
+    "In 1799, the First Great Western Turnpike Corporation received a charter to build from Albany to Cherry Valley; a second company was chartered in 1803 to extend the road to Cazenovia. Together, the two turnpikes became a stagecoach route in 1816. Competition from the Erie Canal and the Utica and Schenectady Railroad reduced the turnpike’s revenue. It ceased collecting tolls in 1857, before the automobile era brought its later touring trade. The automobile brought another layer of roadside services. The Route 20 Association points to dairy barns, drive-ins and motor courts from the 1930s–1950s along the route.",
+    "Eastbound from LaFayette, descend through Big Bend and climb to Pompey before reaching Cazenovia Lake. Beyond Morrisville, the road takes the Cherry Valley Turnpike name at Sangerfield and continues through Richfield Springs. It swings past Cherry Valley’s ridges and the turn for Sharon Springs, then crosses Schoharie Creek on the way to Duanesburg."
   ],
   "moments": [
     {
       "title": "Pompey",
       "kind": "roadside",
-      "scene": "prairie",
-      "text": "Out of the valley at the Big Bend the road climbs five miles to the crest of the ridge, crossing NY 91 at 1,700 feet above the sea."
+      "scene": "mountain",
+      "text": "The climb to Pompey makes the road’s ridge-and-valley course tangible: from Big Bend, US 20 climbs five miles toward the crest, meeting NY 91 at 1,700 feet above sea level. This part of the modern highway came together in the 1930s. The final section between Pompey and Cazenovia opened in September 1934. East of the crest, the road drops into the Limestone Creek valley, crosses into Madison County and curves uphill again before reaching the lake at Cazenovia. The earlier Seneca Turnpike ran through Cazenovia, Manlius and Onondaga Hollow, giving the region a different east-west line before this modern connection."
     },
     {
       "title": "Cazenovia",
       "kind": "town",
       "scene": "town",
-      "text": "In 1850 this village at the south end of Cazenovia Lake held the Fugitive Slave Convention, chaired by Frederick Douglass, days before the act it met to answer was passed.",
+      "text": "The village had incorporated in 1810 and served as the first county seat until 1817, before the convention brought Smith and Douglass here. At the south end of Cazenovia Lake, the village hosted the Fugitive Slave Convention in 1850. Abolitionist Gerrit Smith organized the gathering, and Frederick Douglass, who had been enslaved, chaired it. They met to consider a response to the Fugitive Slave Act of 1850, before its passage. US 20 passes through the village, where many historic buildings fall within the Albany Street and Cazenovia Village historic districts.",
       "at": [
         -75.85111111,
         42.93138889
@@ -29,7 +30,7 @@
       "title": "Sharon Springs",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "In 1875 the New York Times reported a spring here so full of sulfur gas that its creek ran white as milk, and old shoes thrown in turned snowy white or deep black.",
+      "text": "Sharon Springs lies on NY 10 immediately north of US 20, a village whose mineral waters supported a nineteenth-century spa trade. In 1875, the New York Times described Gardner Spring’s sulfur-laden water whitening the creek and coating its stones. Discarded shoes and other objects turned white or black in the mineral deposits. Travel arrangements grew with the resort: ferry-to-stagecoach services connected the village with New York City, followed by rail connections to New York and Boston. Main Street’s interpretive plaques pair photographs with text about the village’s past, including buildings that no longer stand.",
       "at": [
         -74.61583333,
         42.79472222
@@ -38,26 +39,29 @@
   ],
   "sources": [
     {
-      "label": "NYSDOT, Route Twenty Scenic Byway",
+      "label": "New York State Department of Transportation, Route Twenty Scenic Byway",
       "url": "https://www.dot.ny.gov/display/programs/scenic-byways/route-20"
-    },
-    {
-      "label": "Route 20 Association of New York State",
-      "url": "https://www.nyroute20.com/"
     },
     {
       "label": "Wikipedia, U.S. Route 20 in New York",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_20_in_New_York"
     },
     {
+      "label": "Route 20 Association of New York State, Route 20 Scenic Byway",
+      "url": "https://www.nyroute20.com/"
+    },
+    {
+      "label": "Wikipedia, Pompey, New York",
+      "url": "https://en.wikipedia.org/wiki/Pompey%2C_New_York"
+    },
+    {
       "label": "Wikipedia, Cazenovia (village), New York",
-      "url": "https://en.wikipedia.org/wiki/Cazenovia_(village),_New_York"
+      "url": "https://en.wikipedia.org/wiki/Cazenovia_%28village%29%2C_New_York"
     },
     {
       "label": "Wikipedia, Sharon Springs, New York",
-      "url": "https://en.wikipedia.org/wiki/Sharon_Springs,_New_York"
+      "url": "https://en.wikipedia.org/wiki/Sharon_Springs%2C_New_York"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

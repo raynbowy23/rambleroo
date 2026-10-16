@@ -1,42 +1,39 @@
 {
   "id": "scenic-olentangy-heritage-corridor-13597",
-  "tagline": "Down a river that was given another river's name.",
-  "motifs": [
-    "gristmill"
-  ],
+  "tagline": "A river road through wooded stretches, with a stone church at Stratford",
   "intro": [
-    "From US 23 at Stratford, SR 315 runs about ten miles south to I-270 with the Olentangy beside it, east of the road the whole way, past the old stone houses the corridor is known for. It was the first road commissioned in Delaware County, in 1808.",
-    "The river's Delaware name meant sharp tool river, for the shale along its shores, and settlers called it the Whetstone. In 1833 the legislature set out to restore the old name and gave it \"Olentangy\" by mistake, a name that had belonged to what is now Big Darby Creek."
+    "North of Columbus, the Olentangy corridor follows SR 315 through woodland and housing developments between Stratford and I-270. Most of this northern section is a two-lane road, with a short divided stretch near I-270. Ohio’s byways program presents the Scenic Olentangy Heritage Corridor as a route following an ancient Indigenous trail along the river in Franklin and Delaware counties.",
+    "The Ohio Department of Transportation dates the road’s commissioning to 1808, calling it Delaware County’s first commissioned road. The SR 315 number came later: it was signed in 1932 between SR 161 near Linworth and US 23 near Stratford. The entire numbered route was paved by 1935.",
+    "The river was once called Whetstone, a settler translation of a Delaware name meaning sharp tool river, referring to shoreline shale. In 1833, the Ohio General Assembly mistakenly applied the name Olentangy, which had belonged to what is now Big Darby Creek.",
+    "Start at Stratford, where the former Methodist church stands at the junction of US 23 and SR 315. Follow the corridor south toward Powell and I-270. Highbanks Metro Park, beside US 23, offers a separate excursion to the river’s limestone and shale bluffs. The byway ends at I-270 in Franklin County."
   ],
   "moments": [
     {
       "title": "Stratford",
       "kind": "town",
       "scene": "town",
-      "text": "Jonathan Crist built his limestone house in the 1840s onto his log tavern, and on this spot the town took the name Stratford on July 4, 1841.",
+      "text": "The stone church at Stratford’s southern end belonged to a village built for paper-mill workers. In 1838, Caleb Howard and Hosea Williams bought a river mill to develop two paper mills. The church was built in 1842, with funding from Williams and his new partner Hiram Andrews. Financially dependent on the mills, the congregation closed when they did in 1896. The former church has limestone and sandstone walls pierced by large semicircular window arches. The church’s open lot preserves the village’s rural setting, while several original workers’ houses stand farther north.",
+      "notice": "Large semicircular arches frame windows in the former church’s stone walls.",
       "at": [
         -83.06417,
         40.25556
       ]
     },
     {
-      "title": "Bieber Mill",
-      "kind": "short walk",
-      "scene": "river",
-      "text": "Fully equipped it would have been the largest mill in Delaware County, but money ran short and only a sawmill ever ran, while the attached Knapp and Blinn grist mill kept working.",
+      "title": "Perkins Observatory",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "The telescope for which Perkins Observatory was built eventually left Ohio. Its 69-inch mirror entered service here in 1931, after four unsuccessful casting attempts and three years of grinding and polishing. Growing light pollution and difficult observing conditions preceded the telescope’s 1961 move to Arizona. The original mirror returned to Perkins in 1999 and went on display. Ohio Wesleyan University owns and operates the observatory. Professor Hiram Perkins had required the mirror to be cast in the United States; the National Bureau of Standards undertook the work when no American company had experience casting one so large.",
       "at": [
-        -83.0623,
-        40.2305
-      ],
-      "motifs": [
-        "gristmill"
+        -83.056,
+        40.251
       ]
     },
     {
       "title": "Highbanks Metro Park",
-      "kind": "short walk",
+      "kind": "separate excursion",
       "scene": "forest",
-      "text": "Named for its shale bluffs high over the Olentangy, the park also keeps burial mounds and earthworks left by the Adena people.",
+      "text": "Limestone and shale form the steep river bluffs that give Highbanks its name. Some rise 110 feet above the Olentangy. The first parkland purchase in 1948 included a bluff overlook; adjacent land purchases in 1964 and 1965 preceded the park’s 1973 opening. Within the park, the Highbank Park Works consists of a curved embankment in four sections, bordered by a shallow ditch. Two burial mounds occupy separate sites outside that embankment. The park also has ten trails and a nature center. Glacial meltwater carved the deep ravines ten thousand years ago.",
       "at": [
         -83.027064,
         40.145365
@@ -45,16 +42,20 @@
   ],
   "sources": [
     {
-      "label": "Ohio Department of Transportation, Olentangy Heritage Corridor story map",
+      "label": "Ohio Department of Transportation, Olentangy Heritage Corridor",
       "url": "https://storymaps.arcgis.com/stories/67705a328daf4fbcb693bce17d450057"
-    },
-    {
-      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
-      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
     },
     {
       "label": "Wikipedia, Ohio State Route 315",
       "url": "https://en.wikipedia.org/wiki/Ohio_State_Route_315"
+    },
+    {
+      "label": "Wikipedia, Stratford Methodist Episcopal Church",
+      "url": "https://en.wikipedia.org/wiki/Stratford_Methodist_Episcopal_Church"
+    },
+    {
+      "label": "Ohio Department of Transportation, Ohio Byways brochure",
+      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
     },
     {
       "label": "Wikipedia, Olentangy River",
@@ -63,8 +64,15 @@
     {
       "label": "Wikipedia, Highbanks Metro Park",
       "url": "https://en.wikipedia.org/wiki/Highbanks_Metro_Park"
+    },
+    {
+      "label": "Wikipedia, Perkins Observatory",
+      "url": "https://en.wikipedia.org/wiki/Perkins_Observatory"
+    },
+    {
+      "label": "Wikipedia, Highbank Park Works",
+      "url": "https://en.wikipedia.org/wiki/Highbank_Park_Works"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

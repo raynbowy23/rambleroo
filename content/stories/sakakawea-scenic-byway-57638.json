@@ -1,29 +1,30 @@
 {
   "id": "sakakawea-scenic-byway-57638",
-  "tagline": "High ground above the Missouri, where Lewis and Clark wintered.",
+  "tagline": "Earth-lodge traces and a reconstructed fort beside the Missouri",
   "motifs": [
     "river-bluffs"
   ],
   "intro": [
-    "Highway 200A runs between Washburn and Stanton through the Missouri River valley, keeping to the high ground above the winding river on the course of Lewis and Clark's journey, toward the wooded valleys where the Knife River comes in.",
-    "The expedition wintered near here in 1804 and 1805 in a triangular fort of cottonwood, with the cold dipping to 45 below. Sakakawea, a Shoshone captive from the Knife River villages, gave birth to her son that February, possibly at the fort, and carried him west with the party in the spring."
+    "River bluffs, broad plains and bottomland forests meet at the Knife and Missouri rivers near Stanton. At the Washburn end of the journey, the Lewis and Clark Interpretive Center overlooks the Missouri and adjoins a rest stop serving Highways 83 and 200A.",
+    "Travel here entered an established agricultural and trading landscape: Hidatsa and Mandan people traded corn alongside furs and other goods. The Lewis and Clark Expedition built Fort Mandan for the winter of 1804–1805. When the party returned in August 1806, the fort had burned; later, the Missouri eroded its former site.",
+    "Start with the Knife River villages north of Stanton, then continue toward the Fort Clark site west of Washburn. Near Washburn, Hensler lies beside railroad tracks close to Highway 200 Alternate. Finish at the interpretive center and the separate Fort Mandan reconstruction, about two miles apart."
   ],
   "moments": [
     {
-      "title": "Washburn",
-      "kind": "town",
+      "title": "Knife River Indian Villages",
+      "kind": "separate excursion",
       "scene": "river",
-      "text": "Founded in 1882 near the site of Fort Mandan, which is now thought to lie under the river, with a replica of the fort built near the original ground.",
+      "text": "Circular depressions mark earth lodges at the Knife River villages, where collapsed walls and roofs left visible rims. Some dwellings measured as much as 40 feet across. The villages formed a trading and agricultural center; women managed extensive gardens of corn, beans, squash and sunflowers. Sakakawea, a Shoshone captive, lived in one of the Knife River villages. The historic site preserves village remains, cache pits and traces of travois trails. Wooden lodge structures were covered with willows, dried grass and earth. A central fireplace vented through a hole in the roof.",
       "at": [
-        -101.02778,
-        47.29194
+        -101.38583,
+        47.35417
       ]
     },
     {
       "title": "Fort Clark",
       "kind": "separate excursion",
       "scene": "prairie",
-      "text": "Lodge depressions and more than 800 unmarked graves are what remain of a Mandan village on the Missouri bluffs, emptied in 1837 when a steamboat brought smallpox.",
+      "text": "Lodge depressions and an unmarked cemetery with more than 800 graves remain at Fort Clark. Mandan people built an earth-lodge settlement on the Missouri bluffs in 1822. James Kipp of the American Fur Company established a trading post south of the village in 1830. In 1837, passengers infected with smallpox arrived aboard the St. Peters; the ensuing epidemic killed approximately ninety percent of the villagers. Arikara people moved into the abandoned village in 1838. A second trading post followed in 1850. Further epidemics struck before an attack by the Dakota in 1861 led to permanent abandonment of the fort.",
       "at": [
         -101.27528,
         47.25194
@@ -33,42 +34,37 @@
       ]
     },
     {
-      "title": "Knife River Indian Villages",
-      "kind": "separate excursion",
+      "title": "Washburn",
+      "kind": "town",
       "scene": "river",
-      "text": "Half a mile north of Stanton, circles in the ground mark Hidatsa earth lodges up to 40 feet across, in the villages where Sakakawea lived.",
+      "text": "The Fort Mandan near Washburn is a reconstruction of the expedition’s winter quarters. The original was triangular, built from cottonwood cut along the riverbanks, with its gate facing the Missouri. Its precise location is uncertain and is believed to lie beneath the river. The reconstruction follows materials and designs described in the expedition journals. Nearby, the interpretive center also addresses Mandan and Hidatsa farming cultures and the fur trade at Fort Clark. Reproduction furnishings include bunks, map-making tools and a blacksmith’s forge. Walking trails follow the property and the river beside it.",
       "at": [
-        -101.38583,
-        47.35417
+        -101.02778,
+        47.29194
       ]
     }
   ],
   "sources": [
     {
-      "label": "North Dakota Tourism, Sakakawea Scenic Byway (Wayback Machine, August 2021)",
-      "url": "https://web.archive.org/web/20210805191145/https://www.ndtourism.com/washburn/attractions/sakakawea-scenic-byway"
-    },
-    {
-      "label": "North Dakota Tourism, Byways and Backways (Wayback Machine, July 2026)",
-      "url": "https://web.archive.org/web/20260706062943/https://www.ndtourism.com/bywaysbackways"
+      "label": "Wikipedia, Knife River Indian Villages National Historic Site",
+      "url": "https://en.wikipedia.org/wiki/Knife_River_Indian_Villages_National_Historic_Site"
     },
     {
       "label": "Wikipedia, Fort Mandan",
       "url": "https://en.wikipedia.org/wiki/Fort_Mandan"
     },
     {
-      "label": "Wikipedia, Washburn, North Dakota",
-      "url": "https://en.wikipedia.org/wiki/Washburn,_North_Dakota"
+      "label": "Wikipedia, North Dakota Lewis and Clark Interpretive Center",
+      "url": "https://en.wikipedia.org/wiki/North_Dakota_Lewis_and_Clark_Interpretive_Center"
     },
     {
       "label": "Wikipedia, Fort Clark Trading Post State Historic Site",
       "url": "https://en.wikipedia.org/wiki/Fort_Clark_Trading_Post_State_Historic_Site"
     },
     {
-      "label": "Wikipedia, Knife River Indian Villages National Historic Site",
-      "url": "https://en.wikipedia.org/wiki/Knife_River_Indian_Villages_National_Historic_Site"
+      "label": "Wikipedia, Hensler, North Dakota",
+      "url": "https://en.wikipedia.org/wiki/Hensler%2C_North_Dakota"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,31 +1,43 @@
 {
   "id": "route-163-cabrillo-freeway-10248",
-  "tagline": "A parkway beneath the exposition arches.",
+  "tagline": "Four lanes curve through Balboa Park beneath the exposition’s concrete arches.",
   "motifs": [
     "arch-bridge"
   ],
   "intro": [
-    "From downtown San Diego, Route 163 enters Balboa Park on four lanes divided by a broad grassy median planted with trees. The curves tighten. Above the canyon floor, Cabrillo Bridge carries the approach to the old exposition grounds, while the freeway passes underneath.",
-    "The park section opened in 1948 as part of US 395. The bridge had been built for the 1915 Panama–California Exposition, leaving the later road to find its way beneath seven concrete arches."
+    "The Cabrillo Freeway enters Balboa Park with four through lanes, a broad grassy median planted with trees, and several very sharp curves. Built to parkway standards, this section of Route 163 passes beneath Cabrillo Bridge. Caltrans designates the freeway in Balboa Park a State Scenic Highway, and the stretch also became a California Historic Parkway in 2002.",
+    "The bridge came first, built for the Panama–California Exposition of 1915 to carry visitors across Cabrillo Canyon. Freeway construction began in 1942, and the park section opened in 1948 as part of US 395, becoming San Diego County’s first freeway. The later road occupied the canyon floor beneath the older crossing, whose height follows the terrain on either side. The bridge had been intended chiefly for pedestrians attending the exposition; its first two years reserved most automobile traffic for dignitaries. Its seven arches rest on fourteen hollow concrete pillars.",
+    "From downtown San Diego, Route 163 passes its I-5 interchange before entering the park. The bridge is visible from the freeway below, but there is no direct connection from Route 163 to El Prado on its deck. After the park, the route reaches I-8 in Mission Valley; north of that interchange it becomes an eight-lane freeway."
   ],
+  "notice": "The grassy, tree-planted median separates four lanes through the park.",
   "moments": [
     {
       "title": "Balboa Park",
       "kind": "roadside",
       "scene": "town",
-      "text": "A grassy median with trees separates the four lanes through Balboa Park, where the freeway, built to parkway standards, takes several very sharp curves."
+      "text": "The park’s stretch of freeway has a broad median of grass and trees, with four lanes and several very sharp curves. Construction began in 1942, and the road opened in 1948 as part of US 395. It was San Diego County’s first freeway. The Cabrillo Freeway also carried US 80 from the late 1940s until 1964. Its parkway design received California Historic Parkway designation in 2002, while the road through Balboa Park also holds State Scenic Highway status. That older roadway ends its park passage before the Mission Valley interchange with I-8, beyond which the freeway expands to eight lanes."
     },
     {
       "title": "Cabrillo Bridge",
       "kind": "roadside",
       "scene": "town",
-      "text": "Seven arches span the canyon above the freeway, high enough to hide the traffic crossing the bridge from the traffic below.",
+      "text": "Seven concrete arches carry Cabrillo Bridge above the canyon, each spanning 56 feet. The bridge was built for the 1915 Panama–California Exposition, primarily as a pedestrian approach. Construction began in December 1912 under Frank P. Allen Jr., using a design by Thomas B. Hunter. The main span rises 120 feet, high enough that traffic on the deck is hidden from freeway traffic below. El Prado crosses at the level of the ground on either side; the freeway occupies the canyon below. An earlier proposal called for three large arches, but Allen persuaded park commissioners to choose Hunter’s less expensive design.",
       "at": [
         -117.154185,
         32.731412
       ],
       "motifs": [
         "arch-bridge"
+      ]
+    },
+    {
+      "title": "George W. Marston House",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "The Marston House pairs Arts and Crafts architecture with five acres of lawns and gardens in Balboa Park. William Sterling Hebbard and Irving Gill designed the house, completed in 1905 for George and Anna Marston. The family later gave it to the city, and it became a museum in 1987. Many original family possessions remain on display. The gardens also retain original plants, including Canary Island pines and California oaks, while Save Our Heritage Organisation restores other garden features. Landscape gardener George Cooke first designed the gardens in 1905, and Hale Walker redesigned the grounds in the late 1920s.",
+      "at": [
+        -117.15777778,
+        32.74166667
       ]
     }
   ],
@@ -37,8 +49,11 @@
     {
       "label": "Wikipedia, Cabrillo Bridge",
       "url": "https://en.wikipedia.org/wiki/Cabrillo_Bridge"
+    },
+    {
+      "label": "Wikipedia, George W. Marston House",
+      "url": "https://en.wikipedia.org/wiki/George_W._Marston_House"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

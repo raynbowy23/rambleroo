@@ -1,16 +1,17 @@
 {
   "id": "western-york-county-scenic-byway-994504",
-  "tagline": "From a Revolutionary battlefield to a town of fifty-five.",
+  "tagline": "A Piedmont route linking Revolutionary ground, plantation buildings and commercial landmarks",
   "intro": [
-    "From Kings Mountain National Military Park near Bethany, SC 161 runs into York, and a string of state roads carries the byway on through McConnells to the Bullock Creek community, then through Sharon and Hickory Grove to Smyrna, all one contiguous route.",
-    "Smyrna, the end of the line, counted 55 people at the 2020 census. It took its name from the Smyrna Associate Reformed Presbyterian Church, which had served the neighborhood for fifty years before the town was incorporated in 1895."
+    "Western York County’s byway connects Kings Mountain National Military Park, York and a chain of towns ending at Smyrna. The county lies in the Piedmont, with a predominantly rural western sector and heavily wooded areas. South Carolina’s designation defines one contiguous route of approximately 57 miles, including side roads toward Brattonsville and along York Street in Sharon.",
+    "The byway became law on June 3, 2009. Its designation joined sections of existing state roads and directed the Department of Transportation to install identifying signs. The Brattonsville side road was explicitly included, making the historic district part of the designated corridor rather than an unrelated attraction.",
+    "From Kings Mountain, SC 161 leads toward York. Through York, the route uses sections of SC 49 and SC 5, then SC 324 and S-46-347 toward SC 322. The Brattonsville excursion comes before McConnells and Bullock Creek. Continue to Sharon, then take the corridor through Hickory Grove to its end at North Main Street in Smyrna."
   ],
   "moments": [
     {
       "title": "Kings Mountain National Military Park",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Here on October 7, 1780, the Patriots destroyed the left wing of Cornwallis's army in the battle Thomas Jefferson called the turn of the tide of success.",
+      "text": "Patriots defeated American Loyalists at Kings Mountain on October 7, 1780, destroying the left wing of Lord Cornwallis’s army. The victory stopped the British advance into North Carolina and forced Cornwallis to retreat from Charlotte into South Carolina. Congress established the military park in 1931 to commemorate the battle. Its paved battlefield trail follows Patriot positions at the mountain’s base and climbs to the crest where the Loyalists stood. Along it are monuments and Patrick Ferguson’s grave. The park also marks the end of the Overmountain Victory National Historic Trail, which commemorates the Patriot army’s approach over the Appalachian Mountains.",
       "at": [
         -81.3894,
         35.1378
@@ -19,8 +20,8 @@
     {
       "title": "Historic Brattonsville",
       "kind": "separate excursion",
-      "scene": "prairie",
-      "text": "Down a side road of nearly two miles stand the Bratton family houses, the oldest a 1776 log house hidden under later clapboards, where scenes of the 2000 film The Patriot were shot.",
+      "scene": "town",
+      "text": "Clapboards cover the original logs of Brattonsville’s Revolutionary House, built by William Bratton in 1776 as a single room with a small porch. The family’s later Homestead was the center of an 8,500-acre plantation. The history here also includes Watt, a man enslaved by the Bratton family who supplied intelligence to Patriot forces before Huck’s Defeat. Historic Brattonsville operates as an open-air museum. Its buildings include the McConnell House, moved here in 1983, as well as the Homestead and Hightower Hall. At Hightower Hall, the property includes two cabins that housed enslaved people.",
       "at": [
         -81.1775,
         34.8678
@@ -30,7 +31,7 @@
       "title": "Sharon",
       "kind": "town",
       "scene": "town",
-      "text": "The old Hill's Mercantile, built around 1900 of bricks fired right on the site, is the tallest building in the southwestern part of the county.",
+      "text": "The W.L. Hill Store brought the scale of a city department store to York Street in Sharon. Built in 1913 to a design by Julian Starr, the three-story building is part of the Hill Complex Historic District. That district also includes William Lawrence Hill’s house, cotton gin, and cotton warehouse and dock, placing the store among the buildings of his broader enterprise. Sharon’s separate downtown historic district preserves a group of mainly masonry commercial buildings dating from 1908 to 1944. The store itself received National Register recognition in 1995, before the wider Hill district was listed in 2003.",
       "at": [
         -81.3436,
         34.9519
@@ -39,8 +40,8 @@
   ],
   "sources": [
     {
-      "label": "South Carolina Code of Laws, Title 57 Chapter 23, Scenic Highways",
-      "url": "https://www.scstatehouse.gov/code/t57c023.php"
+      "label": "Wikipedia, York County, South Carolina",
+      "url": "https://en.wikipedia.org/wiki/York_County%2C_South_Carolina"
     },
     {
       "label": "Wikipedia, Kings Mountain National Military Park",
@@ -51,14 +52,29 @@
       "url": "https://en.wikipedia.org/wiki/Brattonsville_Historic_District"
     },
     {
-      "label": "Wikipedia, Sharon, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Sharon,_South_Carolina"
+      "label": "Wikipedia, Sharon Downtown Historic District",
+      "url": "https://en.wikipedia.org/wiki/Sharon_Downtown_Historic_District"
     },
     {
-      "label": "Wikipedia, Smyrna, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Smyrna,_South_Carolina"
+      "label": "South Carolina Legislature, Code of Laws, Title 57 Chapter 23",
+      "url": "https://www.scstatehouse.gov/code/t57c023.php"
+    },
+    {
+      "label": "Wikipedia, Huck’s Defeat",
+      "url": "https://en.wikipedia.org/wiki/Huck%27s_Defeat"
+    },
+    {
+      "label": "Wikipedia, Hightower Hall",
+      "url": "https://en.wikipedia.org/wiki/Hightower_Hall"
+    },
+    {
+      "label": "Wikipedia, W.L. Hill Store",
+      "url": "https://en.wikipedia.org/wiki/W.L._Hill_Store"
+    },
+    {
+      "label": "Wikipedia, Hill Complex Historic District",
+      "url": "https://en.wikipedia.org/wiki/Hill_Complex_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

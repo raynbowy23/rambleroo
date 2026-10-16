@@ -1,49 +1,68 @@
 {
   "id": "routes-79-and-80-north-madison-990922",
-  "tagline": "Two miles of the Fairhaven Turnpike to a 1934 arch.",
+  "tagline": "Two former turnpikes meet before an arch crosses a wooded ravine.",
   "motifs": [
     "arch-bridge",
     "rolling-ridges"
   ],
   "intro": [
-    "From the roundabout where Route 79 meets Route 80 in North Madison, the scenic road runs two miles east on Route 80 to the Hammonasset River and the Killingworth line.",
-    "It follows the Fairhaven Turnpike of 1824, which came east from the Fair Haven section of New Haven to Killingworth center. Killingworth was named for Kenilworth in England, the old home of the settler Edward Griswold, and over the years the two spellings drifted apart."
+    "Route 80 carries two lanes across the Hammonasset River in a steep, wooded ravine at the Madison–Killingworth line. Connecticut DOT records Scenic Road No. 39 along Route 80 from Squires Road to that town line, with short sections at the Route 79 junction. The Connecticut Highway Department highlighted the bridge's scenic location when it was built. The main arch spans 100 feet, with the road carried above it on concrete beams.",
+    "The east–west route began as the Fairhaven Turnpike, built in 1824 from Fair Haven in New Haven to Killingworth center. Modern Route 80 took shape in the 1932 state highway renumbering. Two years later, the new Hammonasset bridge replaced a crossing farther down the ravine and eliminated its steep approaches. At Killingworth center, the Fairhaven route joined the earlier Pettipauge and Guilford Turnpike, a toll-road connection chartered in 1818.",
+    "Begin at Squires Road and continue east through North Madison, where Route 79 meets Route 80 at a roundabout. Route 79 leads north toward Killingworth and Durham; Route 80 continues to the Hammonasset crossing at the town line. Beyond the designated stretch, an eastward extension on Route 80 reaches Chatfield Hollow State Park before the traffic circle in Killingworth center."
   ],
   "moments": [
     {
       "title": "North Madison",
       "kind": "town",
       "scene": "town",
-      "text": "Route 79, the Durham Road up from Madison center, meets Route 80 at a roundabout in the village and goes on north toward Killingworth and Durham."
+      "text": "The roundabout in North Madison joins two roads with separate turnpike histories. Route 79, called Durham Road within Madison, follows the former Durham and East Guilford Turnpike, a private toll road established in 1811. The state took over trunkline maintenance in 1922 and numbered the old turnpike Highway 190. It became Route 79 in 1932, with portions in Madison straightened during the 1940s. At the junction, Route 80 carries the older Fairhaven Turnpike route east toward Killingworth. North of the roundabout, Route 79 continues through Killingworth and into Durham, ending at Route 17 south of its town center."
     },
     {
       "title": "Hammonasset River Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "At the Killingworth line the road crosses the Hammonasset on Bridge No. 1132, an open-spandrel arch the state highway department built in 1934.",
+      "text": "Open spaces between the concrete arch and the road deck distinguish Bridge No. 1132 over the Hammonasset River. Its main arch spans 100 feet, with three concrete girder spans on each side. The Connecticut Highway Department designed it, and the Osborn-Barnes Construction Company of Danbury built it in 1934. The design suited the steep-sided ravine; replacing an older bridge lower down removed steep approaches from the road. Bailey Trail North provides a view from below, where the supporting structure can be seen. The deck is 30 feet wide, while the arches beneath it stand 20 feet apart.",
+      "notice": "The main concrete arch has open spaces beneath the road deck.",
       "motifs": [
         "arch-bridge"
+      ]
+    },
+    {
+      "title": "Chatfield Hollow State Park",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Beyond the scenic road's eastern end, Chatfield Hollow combines a glacial valley with a landscape reshaped for recreation in the 1930s. The Civilian Conservation Corps created Schreeder Pond in 1934 by damming Chatfield Hollow Brook, then built Oak Lodge on its west side in 1937. The lodge has a fieldstone chimney, wooden casement windows and doors fastened with wrought-iron strap hinges. Chatfield Hollow became a state park in 1949; a restoration of the lodge was completed in 2017. The covered bridge in the park is a reproduction. An 825-foot boardwalk crosses an inland swamp, another structure built to carry visitors across the terrain.",
+      "at": [
+        -72.58972222,
+        41.36944444
       ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, Connecticut Route 80",
-      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_80"
-    },
-    {
       "label": "Wikipedia, Connecticut Route 79",
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_79"
     },
     {
-      "label": "Wikipedia, Killingworth, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Killingworth,_Connecticut"
+      "label": "Wikipedia, Connecticut Route 80",
+      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_80"
     },
     {
-      "label": "Wikipedia, Hammonasset River",
-      "url": "https://en.wikipedia.org/wiki/Hammonasset_River"
+      "label": "Wikipedia, Bridge No. 1132",
+      "url": "https://en.wikipedia.org/wiki/Bridge_No._1132"
+    },
+    {
+      "label": "Connecticut Department of Transportation, Scenic Roads roadway data (2025)",
+      "url": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Chatfield Hollow State Park",
+      "url": "https://en.wikipedia.org/wiki/Chatfield_Hollow_State_Park"
+    },
+    {
+      "label": "Wikipedia, Oak Lodge",
+      "url": "https://en.wikipedia.org/wiki/Oak_Lodge"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

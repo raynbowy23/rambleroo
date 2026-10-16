@@ -1,19 +1,20 @@
 {
   "id": "santa-fe-national-forest-scenic-byway-2084",
-  "tagline": "From the plaza to the ski basin, fifteen miles uphill.",
+  "tagline": "From the Palace of the Governors through forest to the ski basin",
   "motifs": [
     "aspens"
   ],
   "intro": [
-    "The byway starts at the Palace of the Governors on the Santa Fe Plaza and climbs east on NM 475 into the Sangre de Cristo Mountains, 15 miles through aspen and evergreen forest, with the Arroyo Seco badlands off in the distance. Past Hyde Memorial State Park it goes on to the Santa Fe Ski Basin, above 10,000 feet, and there the road simply ends.",
-    "Skiing came up here early. In 1936 the first rope tow in New Mexico went in at the future site of the basin, powered by the engine of a Packard sedan."
+    "The Santa Fe National Forest Scenic Byway runs 15 miles from the Palace of the Governors through aspen and evergreen forest to the Santa Fe Ski Basin. NM 475 provides the climb into the Sangre de Cristo Mountains. The New Mexico Tourism Department promotes the byway for its mountain and badlands views and opportunities for hiking, skiing and picnicking. The drive passes through Hyde Memorial State Park, whose stone-and-log lodge is one of the route’s built landmarks. Farther up, the ski basin sits in alpine forest near tree line, with its base reached directly by NM 475.",
+    "The upper destination began taking shape in 1936, when a rope tow powered by a Packard sedan engine was installed at the future resort site. In 1949, the Sierras de Santa Fe group founded the ski basin and raised money for its first chairlift. The resort now occupies alpine forest near tree line.",
+    "Begin downtown at the Palace, then follow the mountain road through Hyde Memorial State Park. Its stone-and-log lodge stands along a route with trailheads, picnic areas and views toward the Arroyo Seco badlands. Beyond the park, continue to the ski basin above 10,000 feet. NM 475 ends there, rather than crossing the mountain range."
   ],
   "moments": [
     {
       "title": "Palace of the Governors",
       "kind": "town",
       "scene": "town",
-      "text": "The adobe seat of government from 1610, where territorial governor Lew Wallace wrote the last of Ben-Hur by a shaded lamp in 1879, fearing a bullet from outside.",
+      "text": "The adobe Palace of the Governors served as New Mexico’s seat of government until 1901. It housed Spanish colonial government, then the administration of the Mexican province, and later the first U.S. territorial capitol. Its later museum life required restoration: Jesse L. Nusbaum took charge of that work in 1909 and completed it in 1913. The Palace housed the state history museum from 1909 to 2009. The New Mexico History Museum opened beside it in 2009. The building faces the Santa Fe Plaza on Palace Avenue, between Lincoln and Washington avenues, within the Santa Fe Historic District.",
       "at": [
         -105.9375,
         35.68777778
@@ -23,7 +24,8 @@
       "title": "Hyde Memorial State Park",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Eight miles out of town the road jogs through the park past its massive stone-and-log lodge, and in winter people go tubing on its snowy hillsides.",
+      "text": "The byway jogs through Hyde Memorial State Park beside a lodge built of stone and logs. The park lies eight miles northeast of Santa Fe in the Sangre de Cristo Mountains. Hiking and camping are summer activities here; snow-covered hillsides draw people for tubing in winter.",
+      "notice": "Notice the lodge’s stone-and-log construction along the byway.",
       "at": [
         -105.83666667,
         35.73
@@ -36,7 +38,7 @@
       "title": "Ski Santa Fe",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The end of the road, near tree line, where chairlifts climb 1,650 vertical feet to Tesuque Peak at about 12,000 feet.",
+      "text": "NM 475 ends at Santa Fe Ski Basin, in alpine forest near tree line. The resort spreads across Lake Peak and Tesuque Peak, with runs descending toward the base in a fan shape. Its early lift was a rope tow installed in 1936 and powered by a Packard sedan engine. The Sierras de Santa Fe group raised money for a chairlift when it founded the basin in 1949. The following year, Joe Juhan bought the basin and skier Ernie Blake managed it. In winter, snowfall draws cross-country skiers and snowshoers to backcountry trails, while downhill skiers and snowboarders use the resort’s groomed slopes.",
       "at": [
         -105.80128056,
         35.796325
@@ -45,8 +47,12 @@
   ],
   "sources": [
     {
-      "label": "New Mexico True, Santa Fe National Forest Scenic Byway",
+      "label": "New Mexico Tourism Department, Santa Fe National Forest Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/santa-fe-national-forest/"
+    },
+    {
+      "label": "Wikipedia, Ski Santa Fe",
+      "url": "https://en.wikipedia.org/wiki/Ski_Santa_Fe"
     },
     {
       "label": "Wikipedia, New Mexico State Road 475",
@@ -59,12 +65,7 @@
     {
       "label": "Wikipedia, Hyde Memorial State Park",
       "url": "https://en.wikipedia.org/wiki/Hyde_Memorial_State_Park"
-    },
-    {
-      "label": "Wikipedia, Ski Santa Fe",
-      "url": "https://en.wikipedia.org/wiki/Ski_Santa_Fe"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,20 +1,30 @@
 {
   "id": "route-89-monitor-pass-and-luther-pass-highways-and-lake-tahoe-road-2308",
-  "tagline": "Two passes, the Carson River, then Tahoe's west shore.",
+  "tagline": "Switchbacks, two mountain passes and the western shore of Lake Tahoe.",
   "motifs": [
     "switchbacks",
     "lake-wide"
   ],
   "intro": [
-    "From US 395 near Topaz, Highway 89 works west through a few switchbacks and climbs to Monitor Pass at 8,314 feet, then comes down to the Carson River at Markleeville and Woodfords. It climbs once more, over Luther Pass at 7,740 feet, drops toward Lake Tahoe at Meyers and runs up the lake's west shore past Camp Richardson and Emerald Bay.",
-    "The pavement over Monitor Pass came late, finished in the early 1950s, one of the last Sierra passes to get a paved road. The way itself is old. Jedediah Smith came through it in 1827, on the first crossing of the Sierra Nevada by a non-native."
+    "Route 89 climbs through switchbacks from US 395 toward 8,314-foot Monitor Pass, drops to the Carson River, then crosses 7,740-foot Luther Pass toward Lake Tahoe. Caltrans designates the stretch from 3.2 miles west of US 395 to the El Dorado–Placer county line as scenic highway. The designation recognizes a “memorable landscape” without “visual intrusions.” Beyond the mountain crossings, the highway runs beside Lake Tahoe’s western shore. The route through the passes and along the lake links Markleeville, Woodfords and South Lake Tahoe.",
+    "Monitor Pass gained its paved highway in the early 1950s, in a project promoted by Robert M. Jackson of the Alpine County Public Works Department. The crossing made US 395 and Markleeville more directly connected, although it required additional climbing. Luther Pass had carried covered-wagon travel in 1854 and the initial Pony Express route in 1860. The Pony Express soon shifted from Luther Pass to Kingsbury Grade, changing the mountain crossing used by its riders.",
+    "From Monitor Pass, continue past Heenan Lake to the Route 4 junction, then northwest through Markleeville and Woodfords. A short shared stretch with Route 88 leads toward Luther Pass and Meyers, where Route 89 joins US 50 into South Lake Tahoe. Follow the lake’s western shore past Camp Richardson, Emerald Bay and Meeks Bay to Tahoma."
   ],
   "moments": [
+    {
+      "title": "Monitor Pass",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Monitor Pass crosses a side ridge between tributaries of the East Fork Carson River, even though this stretch of Route 89 links the West Walker and Carson river basins. The paved highway arrived in the early 1950s, making this one of the later Sierra Nevada passes opened by pavement. Robert M. Jackson of Markleeville promoted the project during a career of more than thirty years with Alpine County Public Works. The crossing gives a more direct connection between US 395 and Markleeville, with extra elevation as the tradeoff. Snow accumulation makes the crossing subject to winter closure.",
+      "motifs": [
+        "switchbacks"
+      ]
+    },
     {
       "title": "Markleeville",
       "kind": "town",
       "scene": "mountain",
-      "text": "The county seat stands on the claim of Jacob Marklee, who put a toll bridge across the Carson River in 1861 and died after a gunfight two years later.",
+      "text": "Jacob J. Marklee established a toll bridge across the Carson River in 1861 to serve traffic from Silver Mountain City’s mining boom. His 160-acre claim was recorded in Nevada in 1862, but a boundary survey placed the property in California. Marklee died after a gunfight in 1863, the same year that the town’s post office opened. The town developed on that property, now occupied in part by the Alpine County Courthouse. Markleeville became the county seat in 1874. Court met in the Odd Fellows Hall before the courthouse opened in September 1928.",
       "at": [
         -119.78028,
         38.695
@@ -24,7 +34,7 @@
       "title": "Woodfords",
       "kind": "town",
       "scene": "mountain",
-      "text": "Warren Upson rode in over Luther Pass through a blinding snowstorm in April 1860 to open the Pony Express station here, and five weeks later the route moved elsewhere.",
+      "text": "Woodfords served the Pony Express for just five weeks before its route shifted. On April 4, 1860, Warren Upson arrived from Lake Tahoe over Luther Pass through a blinding snowstorm, continuing toward Carson City. The station supplied fresh mounts. The replacement route used Echo Summit and Kingsbury Grade, ending this brief role in the mail service. The pass itself bears the name of Ira M. Luther, who crossed it by covered wagon in 1854 and later worked to have the Central Pacific Railroad routed through it. The remount station is designated California Historical Landmark 805.",
       "at": [
         -119.82194,
         38.77778
@@ -34,7 +44,8 @@
       "title": "Emerald Bay",
       "kind": "roadside",
       "scene": "forest",
-      "text": "On the shore stands Vikingsholm, a 38-room summer house built in 1929, and out on Fannette Island, the only island in Lake Tahoe, its owner kept a tea house.",
+      "text": "Vikingsholm’s four wings enclose a courtyard on the shore of Emerald Bay. Lora Josephine Knight built the 38-room summer house in 1929 after traveling with her architect to Scandinavia for ideas. Pine and fir siding bears ornamental carving, including serpents above doors and windows. The north and south wings have sod roofs with an original sprinkler system. Their former mix of wildflowers and grasses has given way to grass. On Fannette Island, Lake Tahoe’s only island, Knight’s stone tea house survives as a ruin. Its roof, door and windows were destroyed by vandalism; the main stone structure remains.",
+      "notice": "Carved serpents frame Vikingsholm’s lake-facing door and windows; the island tea house retains only its main stone structure.",
       "at": [
         -120.09389,
         38.95361
@@ -45,7 +56,7 @@
     }
   ],
   "practical": [
-    "Monitor Pass is closed by snow each winter. The dates vary with the weather, but it is generally shut from late November to early April."
+    "Monitor Pass: Monitor Pass is subject to winter closure for snow. Closure dates vary with the weather. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -57,26 +68,29 @@
       "url": "https://en.wikipedia.org/wiki/Monitor_Pass"
     },
     {
-      "label": "Wikipedia, Markleeville, California",
-      "url": "https://en.wikipedia.org/wiki/Markleeville,_California"
-    },
-    {
-      "label": "Wikipedia, Woodfords, California",
-      "url": "https://en.wikipedia.org/wiki/Woodfords,_California"
-    },
-    {
       "label": "Wikipedia, Luther Pass",
       "url": "https://en.wikipedia.org/wiki/Luther_Pass"
     },
     {
-      "label": "Wikipedia, Emerald Bay State Park",
-      "url": "https://en.wikipedia.org/wiki/Emerald_Bay_State_Park"
+      "label": "Wikipedia, Markleeville, California",
+      "url": "https://en.wikipedia.org/wiki/Markleeville%2C_California"
+    },
+    {
+      "label": "Wikipedia, Alpine County Courthouse",
+      "url": "https://en.wikipedia.org/wiki/Alpine_County_Courthouse"
+    },
+    {
+      "label": "Wikipedia, Woodfords, California",
+      "url": "https://en.wikipedia.org/wiki/Woodfords%2C_California"
     },
     {
       "label": "Wikipedia, Vikingsholm",
       "url": "https://en.wikipedia.org/wiki/Vikingsholm"
+    },
+    {
+      "label": "Wikipedia, Fannette Island",
+      "url": "https://en.wikipedia.org/wiki/Fannette_Island"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

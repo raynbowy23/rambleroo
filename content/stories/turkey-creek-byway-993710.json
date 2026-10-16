@@ -1,16 +1,17 @@
 {
   "id": "turkey-creek-byway-993710",
-  "tagline": "A highway that made room for a creek.",
+  "tagline": "US 264 crosses Turkey Creek between Middlesex and Bailey.",
   "intro": [
-    "East of Zebulon, US 264 runs through Nash County pine and hardwood, with farmland showing between the trees, north of Middlesex and Bailey to the Wilson County line. It is 11 miles, about ten minutes.",
-    "The highway was moved onto this line in the 1970s. Planning it, the state widened the median rather than change Turkey Creek's channel, and the creek kept its own course between the lanes."
+    "US 264 runs through rural Nash County north of Middlesex and Bailey, crossing Turkey Creek and Big Branch along the way. This is part of the freeway between Raleigh and Wilson. NCDOT includes Turkey Creek Byway among the Coastal Plain routes in its North Carolina Scenic Byways guidebook.",
+    "Between 1972 and 1978, US 264 moved onto a new alignment north of Middlesex, Bailey and Sims. Much of the former route became US 264 Business and is now part of US 264 Alternate. The new alignment was upgraded to freeway standards in 1979.",
+    "Heading east through Nash County, the highway reaches the NC 231 interchange north of Middlesex before crossing Turkey Creek. Big Branch follows, then the NC 581 interchange north of Bailey. Beyond Bailey, US 264 continues into Wilson County and passes north of Sims. The older route runs to the south of the freeway."
   ],
   "moments": [
     {
       "title": "Middlesex",
       "kind": "roadside",
       "scene": "forest",
-      "text": "The highway passes north of town at the NC 231 interchange. The old US 264 through Middlesex was left behind as a business loop and now carries US 264 Alternate.",
+      "text": "The NC 231 interchange places Middlesex south of the freeway, while US 264 Alternate follows the older highway corridor. When US 264 moved north of Middlesex, Bailey and Sims in the 1970s, much of the old alignment became a business route. That business route was extended west to NC 39 in 1979, then renumbered US 264 Alternate in 1984.",
       "at": [
         -78.20472,
         35.78944
@@ -20,23 +21,36 @@
       "title": "Turkey Creek",
       "kind": "roadside",
       "scene": "river",
-      "text": "About 2,500 feet of the creek runs down the wide median, spared what the state guidebook calls a disastrous channel change."
+      "text": "Turkey Creek crosses the US 264 corridor east of the NC 231 interchange at Middlesex. Traveling east, the next named stream is Big Branch, followed by the highway’s passage north of Bailey."
+    },
+    {
+      "title": "Bailey",
+      "kind": "town",
+      "scene": "town",
+      "text": "US 264 passes north of Bailey at its junction with NC 581. In the Bailey area, Morgan School records another change of use: the Rosenwald school built in 1925–1926 closed in 1956 and became a private residence soon afterward. The one-story frame building held two classrooms in a shallow T-shaped plan, on a brick foundation. It was added to the National Register of Historic Places in 2006.",
+      "at": [
+        -78.11305556,
+        35.78055556
+      ]
     }
   ],
   "sources": [
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Turkey Creek Byway",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=206"
-    },
     {
       "label": "Wikipedia, U.S. Route 264",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_264"
     },
     {
-      "label": "Wikipedia, Middlesex, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Middlesex,_North_Carolina"
+      "label": "Wikipedia, Bailey, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Bailey%2C_North_Carolina"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, Fifth Edition",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=206"
+    },
+    {
+      "label": "Wikipedia, Morgan School",
+      "url": "https://en.wikipedia.org/wiki/Morgan_School"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

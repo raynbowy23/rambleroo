@@ -1,16 +1,17 @@
 {
   "id": "tolland-green-990939",
-  "tagline": "Across a long, narrow green where the county once held court.",
+  "tagline": "Across a narrow green, past a courthouse turned library and museum",
   "intro": [
-    "Out of the Rockville side, Route 74, the Tolland Stage Road, runs east into Tolland and cuts straight across the town green, a long and narrow strip set north to south with Route 195 along its western edge. East of the center the road follows the Tolland County Turnpike, laid out in 1809, which took tolls until its company was dissolved in 1834.",
-    "Two town halls face each other at the south end of the green, and the Congregational church and the old county buildings stand near where Route 74 crosses it. Most of the houses date from the 18th and 19th centuries. Tolland was the county seat until the courts mostly went to Rockville in 1890."
+    "Tolland Stage Road, Route 74, crosses Tolland Green from east to west. The long, narrow green runs north to south, with Route 195 along its western edge. Most buildings in the surrounding historic district are houses dating from the 18th and 19th centuries. Connecticut DOT records identify the Tolland Stage Road section as scenic road 35.",
+    "East of Tolland center, modern Route 74 follows part of the Tolland County Turnpike, laid out in 1809. The company collected tolls until it dissolved in 1834. In 1922, the road from Rockville to Tolland and the turnpike route onward to West Ashford became State Highway 107. The 1932 state highway renumbering made old Highway 107 Route 74.",
+    "The designation begins just west of Gottier Road. A second scenic section follows Route 195 north from just south of Cider Mill Connector to the Route 74 junction. Approaching from Rockville, Route 74 heads east toward Tolland, where it briefly shares Route 30. The scenic stretch ends at Route 195, beside the green. Two town halls occupy opposite sides of the green’s southern end. On the west side, the former courthouse became the town library in 1899, after most county courts moved to Rockville in 1890."
   ],
   "moments": [
     {
       "title": "Old Tolland County Courthouse",
       "kind": "roadside",
       "scene": "town",
-      "text": "The Federal courthouse of 1822 housed the town library from 1899 to 1985, and in 1930 the whole building changed hands for one dollar.",
+      "text": "A square tower base, octagonal belfry and round cupola rise above the old courthouse. Built in 1822, it remained in service until most county courts moved to Rockville in 1890. The town library occupied it from 1899 to 1985. In 1930, Samuel Simpson bought the building for one dollar and donated it to the library association. The association gave it to the Tolland Historical Society in 2001 for restoration and conversion into a museum. The restored second floor resembles its original courtroom. The exterior has clapboards and a Palladian window beneath the gabled roof.",
       "at": [
         -72.36972222,
         41.87166667
@@ -20,13 +21,13 @@
       "title": "Old Tolland County Jail",
       "kind": "roadside",
       "scene": "town",
-      "text": "Across the street the stone jail of 1856 held prisoners until 1968, and some former inmates have come back to tell visitors about their days in the Hollyhock Hotel."
+      "text": "The stone section built in 1856 was already the fourth jail on this site. It held people convicted of crimes and people awaiting trial at the courthouse across the street. A hotel in front, the County House, accommodated visitors with jail or court business until fire destroyed it in 1893. That year, a brick addition doubled the cells from 16 to 32. The jail remained in use until 1968. The Tolland Historical Society now operates the building as a museum. County administration ran the jail until 1960, when the state government took over."
     },
     {
       "title": "Hicks-Stearns Family Museum",
       "kind": "town",
       "scene": "town",
-      "text": "Built in 1788 as a tavern, the house got its tower and porch from Ratcliffe Hicks, whose will paid to start the school of agriculture that opened at UConn in 1941.",
+      "text": "The Hicks-Stearns house began as a tavern in 1788. The Hicks family occupied it from 1845 to 1970. Ratcliffe Hicks expanded the house with a front porch and three-story tower, adding Victorian elements to the earlier building. His daughter Elizabeth left the family home to a nonprofit trust for conversion into a museum. A colonial kitchen and Victorian parlor now share the house. The collections include family heirlooms, a Victrola and faux bamboo furniture, alongside the furnished parlor. Ratcliffe’s work extended beyond the house: he was a lawyer, industrialist and Connecticut state legislator.",
       "at": [
         -72.368123,
         41.871419
@@ -39,16 +40,16 @@
       "url": "https://en.wikipedia.org/wiki/Tolland_Green_Historic_District"
     },
     {
-      "label": "Wikipedia, Connecticut Route 74",
-      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_74"
-    },
-    {
-      "label": "Wikipedia, Connecticut Route 195",
-      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_195"
-    },
-    {
       "label": "Wikipedia, Tolland County Courthouse",
       "url": "https://en.wikipedia.org/wiki/Tolland_County_Courthouse"
+    },
+    {
+      "label": "Connecticut Department of Transportation, Roadway Classification and Characteristic Data",
+      "url": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Connecticut Route 74",
+      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_74"
     },
     {
       "label": "Wikipedia, Old Tolland County Jail and Museum",
@@ -59,6 +60,5 @@
       "url": "https://en.wikipedia.org/wiki/Hicks-Stearns_Family_Museum"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

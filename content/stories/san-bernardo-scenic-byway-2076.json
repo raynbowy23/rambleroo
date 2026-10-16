@@ -1,16 +1,17 @@
 {
   "id": "san-bernardo-scenic-byway-2076",
-  "tagline": "Downriver from New Orleans to the fishing boats at Shell Beach.",
+  "tagline": "From city streets to a canal-side dead end at Shell Beach.",
   "intro": [
-    "Highway 46 leaves New Orleans on St. Claude Avenue, crosses into St. Bernard Parish and runs downriver through Arabi and Chalmette. Then it turns east past the turnings for Yscloskey and Hopedale, comes to Shell Beach and stops at a dead end on the Mississippi River-Gulf Outlet Canal.",
-    "The byway takes its name from San Bernardo, one of four settlements founded by Canary Islanders who came to Spanish Louisiana between 1778 and 1783. Of the four it kept the most of its old ways, and the Canarian Spanish of the 1700s is still spoken in the parish. In the town of St. Bernard six museum houses keep the Isleño story."
+    "Louisiana Highway 46 runs east from New Orleans into St. Bernard Parish, following the Mississippi before turning toward Shell Beach. The highway carries the San Bernardo Scenic Byway name. Four divided lanes narrow to two at Paris Road in Chalmette; farther east, the road widens again before returning to two lanes for its final approach to Shell Beach.",
+    "San Bernardo was one of four communities founded by Canarians who arrived in Spanish Louisiana between 1778 and 1783. The community preserved much of its language and culture into the 21st century. The Spanish dialect brought from the Canary Islands is still spoken in St. Bernard Parish.",
+    "Begin on Elysian Fields Avenue, turn east onto St. Claude Avenue and cross the Industrial Canal. Arabi lies between the Lower 9th Ward and Chalmette on the Mississippi’s east bank. Beyond Chalmette, LA 46 shares two miles with LA 39, then turns east through Reggio. The journey ends at Shell Beach on the Mississippi River-Gulf Outlet Canal near Lake Borgne."
   ],
   "moments": [
     {
       "title": "Arabi",
       "kind": "town",
       "scene": "town",
-      "text": "The town began as Stockyard Landing, and people digging swimming pools in Old Arabi have turned up dishes from New Orleans hotels whose table scraps once fed the animals.",
+      "text": "Hotel dishes unearthed during swimming-pool excavations tell an unexpected part of Arabi’s stockyard history: table scraps from New Orleans hotels and restaurants once fed the animals here. The settlement began as Stockyard Landing, named for its stockyards and slaughterhouses. Those businesses also helped redraw the parish boundary. Seeking independence from New Orleans control, stockyard interests persuaded Louisiana to transfer the area downriver from Jackson Barracks to St. Bernard Parish in 1875. The mostly residential Friscoville Street Historic District includes a former casino, a historic jail, a church and a brick school.",
       "at": [
         -89.99888889,
         29.9575
@@ -20,7 +21,7 @@
       "title": "Chalmette Battlefield",
       "kind": "short walk",
       "scene": "river",
-      "text": "Beside the field where Andrew Jackson's troops beat the British in 1815 stood Fazendeville, an African American village of shotgun houses, razed in the 1960s to make the battlefield park larger.",
+      "text": "Chalmette preserves the site where Andrew Jackson’s forces defeated the British in January 1815. The American victory is only one part of this ground’s history. Fazendeville, an African American community with stores, a school and the Battle Ground Baptist Church, later occupied land here. In 1964, the parish government expropriated the land for park expansion. More than 50 families were forced to relocate when the National Park Service acquired it; demolition was completed in 1966. The visitor center near the battlefield obelisk is a replacement: it reopened in 2010 after Hurricane Katrina destroyed the earlier center.",
       "at": [
         -89.99416667,
         29.9425
@@ -30,7 +31,7 @@
       "title": "Shell Beach",
       "kind": "town",
       "scene": "coast",
-      "text": "Near the end of the highway, on the Gulf Outlet canal by Lake Borgne, shrimp and oyster fishermen can be seen hoisting their nets.",
+      "text": "At Shell Beach, LA 46 reaches its eastern terminus beside the Mississippi River-Gulf Outlet Canal. The community lies near Lake Borgne, 18 miles east-southeast of Chalmette. Nearby Fort Proctor is listed on the National Register of Historic Places.",
       "at": [
         -89.67944444,
         29.85333333
@@ -42,34 +43,37 @@
   ],
   "sources": [
     {
-      "label": "Louisiana Office of Tourism, San Bernardo Byway (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20250808110444/https://byways.explorelouisiana.com/byway/san-bernardo-byway"
-    },
-    {
       "label": "Wikipedia, Louisiana Highway 46",
       "url": "https://en.wikipedia.org/wiki/Louisiana_Highway_46"
     },
     {
-      "label": "Wikipedia, Isleño",
-      "url": "https://en.wikipedia.org/wiki/Isle%C3%B1o"
+      "label": "Wikipedia, Isleños",
+      "url": "https://en.wikipedia.org/wiki/Isle%C3%B1os"
     },
     {
       "label": "Wikipedia, Arabi, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Arabi,_Louisiana"
+      "url": "https://en.wikipedia.org/wiki/Arabi%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Shell Beach, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Shell_Beach%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Friscoville Street Historic District",
+      "url": "https://en.wikipedia.org/wiki/Friscoville_Street_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Chalmette, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Chalmette%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Fazendeville, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Fazendeville%2C_Louisiana"
     },
     {
       "label": "Wikipedia, Jean Lafitte National Historical Park and Preserve",
       "url": "https://en.wikipedia.org/wiki/Jean_Lafitte_National_Historical_Park_and_Preserve"
-    },
-    {
-      "label": "Wikipedia, Fazendeville, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Fazendeville,_Louisiana"
-    },
-    {
-      "label": "Wikipedia, Shell Beach, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Shell_Beach,_Louisiana"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

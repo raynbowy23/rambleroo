@@ -1,49 +1,47 @@
 {
   "id": "wild-rivers-back-country-scenic-byway-2081",
-  "tagline": "Across the sagebrush to the rim, and two rivers far below.",
+  "tagline": "A plateau loop reaches the meeting of rivers cut into volcanic rock.",
   "intro": [
-    "NM 378 leaves NM 522 north of Questa, runs west through Cerro, and carries on as pavement into the Bureau of Land Management's Wild Rivers Recreation Area, a loop across the sagebrush and piñon-juniper of the Taos Plateau to the rim of the Rio Grande gorge. The gorge is cut through black volcanic rock, 600 to 800 feet deep, with the Sangre de Cristo peaks off to the east.",
-    "Down at the bottom the Rio Grande runs rocky and riffling, its upper reaches not yet slowed by dams and diversions. In 1968 it was among the first eight rivers Congress named Wild and Scenic."
+    "Wild Rivers Backcountry Byway loops across the sagebrush and piñon-juniper country of the Taos Plateau above a gorge cut through black rock. New Mexico’s tourism department presents the scenic byway as a way to reach the upper Rio Grande and its hiking, cycling and wildlife-viewing country. The paved approach continues beyond the end of state-maintained NM 378 onto BLM land. Volcanic cones, cliffs and the Sangre de Cristo peaks frame a landscape where the canyon falls 600 to 800 feet to the river.",
+    "Protection of the river preceded the national monument that surrounds this drive. In 1968, Congress included the Rio Grande among the first eight rivers in the National Wild and Scenic Rivers System. President Barack Obama proclaimed Rio Grande del Norte National Monument in 2013, encompassing the gorge and surrounding lands. Wild Rivers Recreation Area now lies within that monument, along protected reaches of both the Rio Grande and Red River.",
+    "From NM 522 north of Questa, turn west onto NM 378 and pass through Cerro. Continue onto the BLM road and into Wild Rivers Recreation Area. The loop passes the Wild Rivers Visitor Center and reaches La Junta Overlook, where the Red River meets the Rio Grande 800 feet below."
   ],
   "moments": [
     {
       "title": "Cerro",
       "kind": "town",
       "scene": "prairie",
-      "text": "Settlers from Taos and Questa founded Cerro in 1854 and named it for Cerro Guadalupe, and the thermometer here has twice gone to 34 below.",
+      "text": "Cerro takes its name from Cerro Guadalupe. Settlers from Taos and Questa founded the community in 1854. NM 378 passes through town heading west from NM 522, then ends at the boundary of BLM land. The pavement continues under another designation toward Wild Rivers Recreation Area.",
       "at": [
         -105.62111111,
         36.75694444
       ]
     },
     {
-      "title": "La Junta Point",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "From a rim overlook a wheelchair can reach, the Red River can be seen coming into the Rio Grande 800 feet below."
-    },
-    {
       "title": "Wild Rivers Visitor Center",
       "kind": "roadside",
       "scene": "desert",
-      "text": "The loop passes the visitor center, whose mural was painted by a group of New Mexico artists with a shared passion for the area and its wildlife."
+      "text": "A mural at the Wild Rivers Visitor Center is the work of a collaboration of New Mexico artists. The byway loop passes the center within Wild Rivers Recreation Area. The recreation area is part of Rio Grande del Norte National Monument, where the Rio Grande and Red River cut into volcanic flows. BLM manages the area through its Taos Field Office. Beyond the center, the recreation area includes overlooks, trails and campgrounds."
+    },
+    {
+      "title": "La Junta Point",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "At La Junta Point, the Red River meets the Rio Grande 800 feet below the rim. The overlook is wheelchair accessible. The Red River begins on the north slope of Mount Wheeler in the Sangre de Cristo Mountains, flows west past Red River and Questa, then turns south into the Rio Grande. Here the two rivers have sliced into volcanic flows, exposing an 800-foot-deep canyon. Snowmelt and summer storms feed the Red River, whose relatively consistent mountain precipitation keeps it flowing throughout the year. The confluence lies just south of La Junta Campground.",
+      "notice": "The Red River joins the Rio Grande below the overlook."
     }
   ],
   "practical": [
-    "The recreation area is open all year, and snow is possible from November through March."
+    "Wild Rivers Visitor Center: Expect daylight construction delays on roads within Wild Rivers Recreation Area. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "New Mexico True, Wild Rivers Back Country Byway",
+      "label": "New Mexico Tourism Department, Wild Rivers Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/wild-rivers/"
     },
     {
       "label": "Bureau of Land Management, Wild Rivers Recreation Area",
       "url": "https://www.blm.gov/visit/wild-rivers-recreation-area"
-    },
-    {
-      "label": "Wikipedia, Wild Rivers Recreation Area",
-      "url": "https://en.wikipedia.org/wiki/Wild_Rivers_Recreation_Area"
     },
     {
       "label": "Wikipedia, New Mexico State Road 378",
@@ -54,10 +52,17 @@
       "url": "https://en.wikipedia.org/wiki/Rio_Grande_Gorge"
     },
     {
+      "label": "Wikipedia, Rio Grande del Norte National Monument",
+      "url": "https://en.wikipedia.org/wiki/Rio_Grande_del_Norte_National_Monument"
+    },
+    {
       "label": "Wikipedia, Cerro, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Cerro,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Cerro%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Red River (New Mexico)",
+      "url": "https://en.wikipedia.org/wiki/Red_River_%28New_Mexico%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

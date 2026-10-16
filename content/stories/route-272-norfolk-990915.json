@@ -1,49 +1,52 @@
 {
   "id": "route-272-norfolk-990915",
-  "tagline": "Through the Icebox of Connecticut to the Massachusetts line.",
+  "tagline": "Mountain parks and a triangular village green mark Norfolk’s scenic road.",
   "motifs": [
     "steeple-town",
     "waterfall-cove"
   ],
   "intro": [
-    "Route 272 comes over from Goshen into Norfolk, runs north past Dennis Hill State Park, shares the center of town with US 44, then goes on past Haystack Mountain and turns northwest by Campbell Falls to the Massachusetts line.",
-    "Norfolk stands at 1,230 feet and is sometimes called the Icebox of Connecticut. When the railroad came in 1871 the town sold that high, fresh air to summer people. The lowest temperature ever recorded in the state, 37 below, was taken here in February 1943."
+    "Route 272’s Norfolk section is a designated scenic road in Connecticut’s Litchfield Hills. The drive passes Dennis Hill, Haystack Mountain and Campbell Falls state parks, with a brief US 44 overlap in the town center. There, a triangular green marks the junction of the two highways; north of the village, Haystack Mountain carries a stone observation tower. At Campbell Falls, the Whiting River drops nearly 100 feet just across the Massachusetts boundary; at Dennis Hill, a cleared summit looks over the surrounding hills.",
+    "The road between Torrington and Norfolk entered the secondary state highway system in 1922 as Highway 312. Renumbered Route 49 in 1932, it became part of an extended Route 72 in 1954. When Route 72 was shortened in 1963, the former section north of Route 4 became Route 272. Norfolk’s resort growth had begun earlier, after the railroad arrived in 1871, when the town was marketed for its elevation and fresh air.",
+    "Traveling south from the Massachusetts line, the route passes Campbell Falls State Park, then Haystack Mountain before reaching Norfolk center. The green gathers two churches on its west side and the Shingle-style library on its north side. Beyond the shared stretch with US 44, it passes Dennis Hill and South Norfolk on the way to Goshen."
   ],
   "moments": [
-    {
-      "title": "Norfolk",
-      "kind": "town",
-      "scene": "town",
-      "text": "A Stanford White fountain marks the tip of the green, and the Stoeckel estate west of it holds Yale's summer chamber music festival, believed the oldest still running in North America.",
-      "at": [
-        -73.19638889,
-        41.98361111
-      ],
-      "motifs": [
-        "steeple-town"
-      ]
-    },
-    {
-      "title": "Haystack Mountain Tower",
-      "kind": "separate excursion",
-      "scene": "mountain",
-      "text": "Stoeckel Drive leaves Route 272 and runs 1.3 paved miles up to a 50-foot tower of granite quarried on the spot, built in 1929 and looking into three states.",
-      "at": [
-        -73.20805556,
-        42.00444444
-      ]
-    },
     {
       "title": "Campbell Falls",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Just over the line in Massachusetts the Whiting River drops nearly 100 feet, in a park the two states run together, with a stone monument marking the border.",
+      "text": "The Whiting River’s waterfall lies just north of the Connecticut–Massachusetts line, cascading nearly 100 feet. Campbell Falls State Park Reserve spans 102 acres and is an undeveloped recreation area and nature preserve. The White Memorial Foundation donated the land to the two states, and legislation passed in 1923 and 1924 provided for joint management. A stone monument within the park marks the state boundary.",
+      "notice": "A stone monument marks the Connecticut–Massachusetts boundary within the park.",
       "at": [
         -73.23277778,
         42.04583333
       ],
       "motifs": [
         "waterfall-cove"
+      ]
+    },
+    {
+      "title": "Haystack Mountain Tower",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "Dark gray granite quarried on site forms Haystack Mountain’s 50-foot observation tower. Built in 1929, it was designed by Ehrick K. Rossiter and donated by Ellen Battell Stoeckel in memory of her husband, Carl. Her gift also included the park’s first tracts of land. Stoeckel Drive begins at Route 272 and ends at a parking lot below the summit. Inside, concrete steps rise through two landings before a metal stair reaches the observation platform. Eight openings beneath a conical roof frame views in all directions; in clear weather, parts of Connecticut, Massachusetts and New York are visible.",
+      "notice": "Deeply recessed mortar separates the tower’s randomly laid granite stones.",
+      "at": [
+        -73.20805556,
+        42.00444444
+      ]
+    },
+    {
+      "title": "Norfolk",
+      "kind": "town",
+      "scene": "town",
+      "text": "A memorial fountain designed by Stanford White stands at the southern tip of Norfolk’s triangular green. The railroad’s arrival in 1871 helped turn the town into a summer resort. The interrelated Robbins-Battell-Stoeckel families contributed churches, civic buildings and memorials to the center. The library faces the green from the north, while two churches face it from the west, one Federal in style and the other Romanesque. West of the green, the Ellen Battell Stoeckel estate’s Music Shed hosts the Norfolk Chamber Music Festival, an annual concert series presented by the Yale School of Music.",
+      "at": [
+        -73.19638889,
+        41.98361111
+      ],
+      "motifs": [
+        "steeple-town"
       ]
     }
   ],
@@ -53,12 +56,12 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_272"
     },
     {
-      "label": "Wikipedia, Norfolk, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Norfolk,_Connecticut"
-    },
-    {
       "label": "Wikipedia, Norfolk Historic District",
       "url": "https://en.wikipedia.org/wiki/Norfolk_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Norfolk, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Norfolk%2C_Connecticut"
     },
     {
       "label": "Wikipedia, Haystack Mountain Tower",
@@ -67,8 +70,11 @@
     {
       "label": "Wikipedia, Campbell Falls State Park Reserve",
       "url": "https://en.wikipedia.org/wiki/Campbell_Falls_State_Park_Reserve"
+    },
+    {
+      "label": "Wikipedia, Dennis Hill State Park",
+      "url": "https://en.wikipedia.org/wiki/Dennis_Hill_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

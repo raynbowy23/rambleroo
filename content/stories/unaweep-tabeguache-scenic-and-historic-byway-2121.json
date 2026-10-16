@@ -1,20 +1,21 @@
 {
   "id": "unaweep-tabeguache-scenic-and-historic-byway-2121",
-  "tagline": "One canyon, two outlets, and a flume hung on a cliff.",
+  "tagline": "Two canyon outlets, a suspended watercourse and a vanished mining town",
   "motifs": [
     "slickrock-ridge",
     "mining-town"
   ],
   "intro": [
-    "From Whitewater on the Gunnison, CO 141 turns into Unaweep Canyon and runs through it to Gateway. Past Gateway it follows the Dolores, then the San Miguel by way of Uravan and Naturita, and CO 145 carries it on to Placerville. The canyon cuts through the red sandstone of the Uncompahgre Plateau down to Precambrian rock, under cliffs a thousand feet high.",
-    "Two creeks drain the one canyon in opposite directions. The Hayden Survey wondered at that in the 19th century, and the question of what carved it is still argued."
+    "Highways 141 and 145 carry the Unaweep/Tabeguache Scenic and Historic Byway through western Colorado’s canyon country. The Colorado Department of Transportation describes a 133-mile, three-hour journey through geology and mining history, beneath cliffs rising a thousand feet. Highway 141 winds through rugged terrain. In Unaweep Canyon, red sandstone gives way to exposed Precambrian rock, and two creeks flow out through opposite ends. An almost imperceptible divide separates those creeks inside the canyon, an arrangement that has prompted several competing explanations for its origin.",
+    "Mining left its own engineering along this corridor. Beginning in 1887, workers built the Hanging Flume to carry water for hydraulic gold mining above the Dolores River. The flume operated for only three years before the mine closed. At Uravan, a company town founded in 1936 for vanadium extraction later supplied uranium for the Manhattan Project. Cleanup eventually removed every building there, leaving an interpretive sign along Highway 141.",
+    "From Whitewater, take Highway 141 through Unaweep Canyon to Gateway, then follow the Dolores and San Miguel rivers past Uravan toward Naturita. Highway 145 continues through Redvale toward Norwood. Placerville marks the connection with the San Juan Skyway."
   ],
   "moments": [
     {
       "title": "Unaweep Divide",
       "kind": "roadside",
       "scene": "desert",
-      "text": "Near mile marker 135 the road crosses the Unaweep Divide at 7,048 feet, a rise so slight it is hardly noticed, with East Creek draining one way and West Creek the other.",
+      "text": "A divide separates two creeks inside the same canyon. East Creek and West Creek leave Unaweep in opposite directions, divided by an almost imperceptible rise near mile marker 135 on Highway 141. The divide stands at 7,048 feet. Members of the Hayden Survey noticed this unusual arrangement in the late nineteenth century and proposed that an ancestral Colorado or Gunnison river had carved the canyon. Its origin remains debated: later explanations include a river cutting the gorge or uncovering an older canyon beneath sediment. The canyon cuts across the Uncompahgre Plateau in Mesa County, in western Colorado.",
       "at": [
         -108.655,
         38.79055556
@@ -24,7 +25,8 @@
       "title": "Hanging Flume",
       "kind": "roadside",
       "scene": "river",
-      "text": "About two dozen workers, most of them Asian immigrants, hung on ropes to fix this flume to the cliff above the Dolores, and it ran three years before the mine closed.",
+      "text": "Fragments of a wooden water chute remain fixed to the Dolores River Canyon wall. The Montrose Placer Mining Company built the Hanging Flume to supply water for gold mining, using mostly local ponderosa pine supported by iron rods. Construction began in 1887 and took three years. The wooden channel measured six feet wide and four feet deep, but its working life lasted only three years: the mine closed when most of its gold proved unrecoverable. Local residents reused timber after the closure; much of the wood has disappeared. When operating, the channel carried 80 million gallons of water each day.",
+      "notice": "Surviving sections of the flume cling to the canyon wall; much of the wooden channel has vanished.",
       "at": [
         -108.79888889,
         38.40166667
@@ -34,7 +36,7 @@
       "title": "Uravan",
       "kind": "roadside",
       "scene": "river",
-      "text": "Named for uranium and vanadium, the company town once kept over 800 people, a school and a pool beside the San Miguel, and none of its buildings remain.",
+      "text": "Uravan’s name combines uranium and vanadium. Established by U. S. Vanadium Corporation in 1936, the company town once housed more than 800 people, with a school, medical facilities and a swimming pool beside the San Miguel River. During World War II it supplied uranium for the first atomic bomb. The town closed in 1985, and cleanup ran from 1986 to 2008. Every building was removed and the ground regraded and replanted. An interpretive sign beside Highway 141 marks a place where houses and public facilities once stood. The former town is now an uninhabited Superfund site.",
       "at": [
         -108.73638889,
         38.36833333
@@ -45,20 +47,12 @@
     }
   ],
   "practical": [
-    "Some sections have no fuel or cell service, with long intervals between service stops."
+    "Unaweep Divide: Start the byway with a full tank, food and water; some sections lack fuel and cell service. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "CDOT, Unaweep Tabeguache Byway",
-      "url": "https://www.codot.gov/travel/coloradobyways/southwest/unaweep-tabeguache"
-    },
-    {
       "label": "Wikipedia, Unaweep Canyon",
       "url": "https://en.wikipedia.org/wiki/Unaweep_Canyon"
-    },
-    {
-      "label": "Wikipedia, Colorado State Highway 141",
-      "url": "https://en.wikipedia.org/wiki/Colorado_State_Highway_141"
     },
     {
       "label": "Wikipedia, Hanging Flume",
@@ -66,9 +60,24 @@
     },
     {
       "label": "Wikipedia, Uravan, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Uravan,_Colorado"
+      "url": "https://en.wikipedia.org/wiki/Uravan%2C_Colorado"
+    },
+    {
+      "label": "Colorado Department of Transportation, Unaweep Tabeguache Byway",
+      "url": "https://www.codot.gov/travel/coloradobyways/southwest/unaweep-tabeguache"
+    },
+    {
+      "label": "Wikipedia, Unaweep Tabeguache Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Unaweep_Tabeguache_Scenic_Byway"
+    },
+    {
+      "label": "Wikipedia, Colorado State Highway 141",
+      "url": "https://en.wikipedia.org/wiki/Colorado_State_Highway_141"
+    },
+    {
+      "label": "Wikipedia, Redvale, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Redvale%2C_Colorado"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,56 +1,64 @@
 {
   "id": "us-421-scenic-byway-81462",
-  "tagline": "From Doc Watson's Deep Gap up the ridge toward Boone.",
+  "tagline": "Through Deep Gap toward Boone on Doc and Merle’s highway",
   "intro": [
-    "US 421 has come a long way by now. It starts at Fort Fisher on the coast, crosses the whole state, and in the last five miles before Deep Gap climbs the steep escarpment on the eastern edge of the Blue Ridge.",
-    "The byway begins at Deep Gap, where the Blue Ridge Parkway crosses overhead on a bridge faced with native stone. From there the road ascends the ridge some eight and a half miles toward Boone, with Snake Mountain and Elk Knob in view and hardwood and mixed forest, horse and cattle farms along the way."
+    "US 421’s scenic byway runs between Deep Gap and Boone in the Blue Ridge Mountains. Approaching Deep Gap from Wilkesboro, the highway climbs the steep eastern escarpment of the Blue Ridge. The Blue Ridge Parkway crosses US 421 at the natural gap beside Fire Scale Mountain. The modern expressway approach ends just before Old US 421 near Boone, where the road continues as a boulevard.",
+    "US 421 appeared on highway maps in 1931 along NC 60’s alignment to Boone. The NC 60 designation was removed from that route in 1934. In 1957–1958, the route between Wilkesboro and Deep Gap was straightened. Later widening made the Wilkesboro-to-Boone highway a four-lane expressway. The stretch from the Wilkes–Watauga county line to Boone bears the names of Doc and Merle Watson.",
+    "From Deep Gap and its Parkway crossing, continue toward Boone, the Blue Ridge town that is home to Appalachian State University. Near the gap, Fire Scale Mountain drains toward both the South Fork New River and the Yadkin River. US 421 enters Boone on King Street."
   ],
   "moments": [
     {
       "title": "Deep Gap",
       "kind": "town",
       "scene": "mountain",
-      "text": "Doc Watson was born here and lived here until 2012, and he got his nickname on the radio, when an announcer wanted something easier than Arthel and a fan shouted for Doc.",
+      "text": "A highway sign near Deep Gap names Doc and Merle Watson, linking the road to a father and son who performed together. Doc was born here and lived here until his death in 2012. On his recording Legacy, Watson recalled getting his nickname during a live radio broadcast: an announcer wanted an easier name than Arthel, and someone in the audience suggested Doc. He performed with Merle for more than fifteen years, until Merle’s death in 1985. His signature guitar sound included fiddle tunes, a technique he first developed on electric guitar and later transferred to acoustic guitar.",
       "at": [
         -81.51222222,
         36.23694444
       ]
     },
     {
-      "title": "Christmas tree farms",
-      "kind": "roadside",
-      "scene": "forest",
-      "text": "Fraser fir Christmas tree farms show along the climb, in a county that is a leading national producer of the trees."
-    },
-    {
       "title": "South Fork New River",
       "kind": "roadside",
       "scene": "river",
-      "text": "The byway ends near the bridge over the South Fork of the New River, a northward-flowing river that some scientists believe only the Nile can beat for age."
+      "text": "Fire Scale Mountain straddles the Eastern Continental Divide, sending water toward two river systems. Gap Creek feeds the South Fork New River, while Stony Fork drains toward the Yadkin. Nearby Tomkins Mountain also supplies the South Fork, through West Fork Pine Swamp Creek."
+    },
+    {
+      "title": "Boone",
+      "kind": "town",
+      "scene": "mountain",
+      "text": "Boone once had a rail approach that disappeared after a flood. The narrow-gauge East Tennessee and Western North Carolina Railroad served the town until 1940, when floodwaters washed away much of the track. The damaged track was not replaced. US 421’s King Street has since grown wider: a section between Hardin Street and a point east of Jefferson Road expanded from four lanes to six in 2012. Boone is home to Appalachian State University and remains a center for bluegrass musicians and Appalachian storytellers. The town sits 3,333 feet above sea level.",
+      "at": [
+        -81.66694444,
+        36.21111111
+      ]
     }
   ],
   "sources": [
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, US 421 Scenic Byway",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=102"
-    },
-    {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, US 421 route and points of interest",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=103"
-    },
     {
       "label": "Wikipedia, U.S. Route 421 in North Carolina",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_421_in_North_Carolina"
     },
     {
       "label": "Wikipedia, Deep Gap, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Deep_Gap,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Deep_Gap%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Boone, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Boone%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Fire Scale Mountain",
+      "url": "https://en.wikipedia.org/wiki/Fire_Scale_Mountain"
     },
     {
       "label": "Wikipedia, Doc Watson",
       "url": "https://en.wikipedia.org/wiki/Doc_Watson"
+    },
+    {
+      "label": "Wikipedia, Tomkins Knob",
+      "url": "https://en.wikipedia.org/wiki/Tomkins_Knob"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

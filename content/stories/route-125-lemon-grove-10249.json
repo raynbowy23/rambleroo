@@ -1,22 +1,33 @@
 {
   "id": "route-125-lemon-grove-10249",
-  "tagline": "A brief scenic interval between two freeway junctions.",
+  "tagline": "A scenic freeway through La Mesa, west of Mount Helix.",
   "intro": [
-    "From SR 94, Route 125 crosses into La Mesa and runs west of Mount Helix to Interstate 8. Caltrans designates this stretch scenic, a memorable landscape without visual intrusions. In 2018 the part between SR 94 and Lemon Avenue also carried 183,000 vehicles a day, more than any other part of the route. La Mesa began discussing the designation in 1968.",
-    "Nearby Eucalyptus County Park recalls another transportation scheme. Charles Crosby planted eucalyptus for railroad ties, transplanting some seedlings to a picnic ground that became the heart of the park."
+    "Route 125’s designated scenic stretch runs from State Route 94 to Interstate 8 through La Mesa, passing west of Mount Helix. Caltrans gives this portion scenic-highway status; the numbered highway itself continues north to Santee and south to Otay Mesa.",
+    "The connection between Route 94 and US 80 entered the state highway system in 1933. A freeway opened in March 1957 under the Route 67 number, then became Route 125 south of I-8 in the 1964 renumbering. La Mesa began discussing scenic designation in 1968, and the county Planning Commission continued pursuing it in 1970.",
+    "Travel north from the Route 94 junction into La Mesa, keeping west of Mount Helix until the interchange with I-8. That interchange marks the end of the scenic segment, though Route 125 carries on through El Cajon toward Santee."
   ],
   "moments": [
     {
       "title": "SR 94 junction",
       "kind": "roadside",
       "scene": "town",
-      "text": "The freeway from here toward old US 80 opened as Route 67 in 1957, before the 1964 renumbering made it Route 125."
+      "text": "This junction anchors the southern end of a freeway connection completed in March 1957. It ran from Campo Road and Route 94 to US 80 under the Route 67 number. The 1964 renumbering made the part south of I-8 Route 125. The junction itself changed later: a new interchange with Route 94 was completed in July 1976. The later freeway connection south from Route 94 to Jamacha Boulevard was completed in 2003. During its construction, Caltrans moved the historic H. Lee House, built in 1928, to City Center Park in Lemon Grove."
+    },
+    {
+      "title": "Eucalyptus County Park",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "The eucalyptus trees in this Spring Valley park began with an idea for railroad ties. Charles S. Crosby planted eucalyptus in 1880 and moved some seedlings to a picnic area called the Grove, which became the park’s heart. The county Parks and Recreation Department replaces Crosby’s trees with new eucalyptus saplings when they die. The house on the upper lot was removed for safety, but its two original rock staircases and hewn-log stairs continue to be maintained. The park was dedicated on July 4, 1930, with a community parade, games and picnics.",
+      "at": [
+        -117.00083333,
+        32.75972222
+      ]
     },
     {
       "title": "Interstate 8 junction",
       "kind": "roadside",
       "scene": "town",
-      "text": "The original interchange gave no way onto Route 125 from eastbound I-8 and no way onto westbound I-8 from Route 125, so La Mesa asked the state for changes."
+      "text": "The original interchange left two movements out: drivers could not enter Route 125 from eastbound I-8 or reach westbound I-8 from Route 125. La Mesa’s City Council asked the state to change it. By 1986, rebuilding was under way, including provision for Route 125 to extend north of I-8 to Fletcher Parkway. The reconstruction was completed in April 1993. The freeway beyond it arrived in stages. The section from Fletcher Parkway to Amaya Drive’s ramps was finished at the beginning of 2001; the entire connection between I-8 and Route 52 was complete by mid-2004."
     }
   ],
   "sources": [
@@ -29,6 +40,5 @@
       "url": "https://en.wikipedia.org/wiki/Eucalyptus_County_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

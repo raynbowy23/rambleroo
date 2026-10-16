@@ -1,19 +1,20 @@
 {
   "id": "us-2-iron-county-heritage-trail-992613",
-  "tagline": "Two old iron towns, and a county seat they fought over.",
+  "tagline": "Forest roads, early roadside parks and a courthouse won by votes",
   "motifs": [
     "mining-town"
   ],
   "intro": [
-    "US 2 runs east out of Iron River through forest past several small lakes to Crystal Falls, where it climbs to meet M-69 beside the courthouse at the top of the hill. The trail ties together the two towns and the mining and logging country between them.",
-    "The courthouse was a fight. When Iron County was formed in 1885 the seat went to Iron River, and at one point men from Crystal Falls carried the county records off from the temporary courthouse there. A vote in 1888 went to Crystal Falls by five votes. The next year's vote settled it by nearly a hundred."
+    "Between Iron River and Crystal Falls, US 2 runs east through forest near small lakes, ending this drive beside a courthouse on a hilltop. This section is the Iron County Heritage Trail, a Pure Michigan Byway designated to honor mining and logging. Crystal Falls developed as a center of iron mining and the timber industry.",
+    "The road’s numbering changed before its modern route settled: M-12 was in use by 1919, and US 2 replaced part of it in 1926. Near Iron River, Herbert Larson created an early roadside park in 1919–20. As engineer-manager of the county road commission, he bought land and wide road rights of way for public parks, seeking surviving stands of virgin timber. In Iron River, the highway shifted again in 1998, leaving its former bridge on Genesee Street to carry local traffic. The road’s history is visible in that bypassed crossing as well as in the parks developed along its route.",
+    "Start in Iron River, which absorbed Stambaugh and Mineral Hills in 2000. East along US 2, Bewabic State Park occupies the shore of Fortune Lake west of Crystal Falls. At Crystal Falls, US 2 joins US 141 on Crystal Avenue, then turns onto 5th Street to meet M-69 beside the county courthouse."
   ],
   "moments": [
     {
       "title": "Stambaugh",
       "kind": "town",
       "scene": "forest",
-      "text": "Platted in 1882 on the site of the Iron River Mine and named for the man who had just bought the mine, the town was folded into Iron River in 2000.",
+      "text": "Stambaugh’s name came from a mine owner: John Stambaugh, president of Todd, Stambaugh Co., had recently bought the Iron River Mine when the town was platted in 1882. The mine occupied the townsite. Stambaugh later became a city in 1923. Voters approved consolidation with Iron River and Mineral Hills in 1999, and the combined city took the Iron River name on July 1, 2000.",
       "at": [
         -88.63028,
         46.08167
@@ -26,13 +27,24 @@
       "title": "Larson Park",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Herbert Larson set this one out beside the road near Iron River in 1919 and 1920, and it is thought to be the first roadside park in the country."
+      "text": "Herbert Larson created a roadside park near Iron River in 1919–20. His work extended beyond roadbuilding: as engineer-manager of the Iron County Road Commission, he acquired land along what is now US 2 for public parks. He sought some of the county’s remaining stands of virgin timber."
+    },
+    {
+      "title": "Bewabic State Park",
+      "kind": "short walk",
+      "scene": "forest",
+      "text": "A fieldstone wall built in 1936 lines US 2 at Bewabic State Park. The park began with Herbert Larson’s purchase of a Fortune Lake farmstead in 1923, including a stand of virgin timber. Civil Works Administration crews improved it in 1933; Civilian Conservation Corps workers followed from 1935 to 1937. Their surviving work includes the wall and a log bathhouse above the lake. The island reached by a footbridge was once a peninsula: workers dug a separating canal in 1933. Michigan purchased the park in 1966, making the former county recreation ground part of its state park system.",
+      "at": [
+        -88.42722222,
+        46.0925
+      ]
     },
     {
       "title": "Iron County Courthouse, Crystal Falls",
       "kind": "town",
       "scene": "town",
-      "text": "Red-brown brick on a hilltop above the business street, with 17-foot zinc statues of Law, Mercy and Justice over the door since 1910.",
+      "text": "Law, Mercy and Justice stand above the courthouse entrance as 17-foot zinc statues. They were added in 1910 to a building whose location had provoked a county-wide dispute. Iron River became county seat when Iron County formed in 1885, but men from Crystal Falls carried off its county records. Crystal Falls won the 1888 referendum by five votes, then won again in 1889 by nearly 100. The resulting courthouse has reddish-brown brick walls and stone trim, overlooking the town’s business street. Architect J. C. Clancy of Antigo, Wisconsin, designed the building after bonds were issued to fund construction.",
+      "notice": "Three zinc figures stand above the granite entrance arch: Law, Mercy and Justice.",
       "at": [
         -88.33528,
         46.09667
@@ -41,30 +53,33 @@
   ],
   "sources": [
     {
-      "label": "MDOT, Pure Michigan Byways Driving Guide (Wayback Machine snapshot, December 2025)",
-      "url": "https://web.archive.org/web/20251206181129/https://www.michigan.gov/mdot/-/media/Project/Websites/MDOT/Travel/Tourists/Byways/Pure-Michigan-Byways-Driving-Guide.pdf"
-    },
-    {
       "label": "Wikipedia, U.S. Route 2 in Michigan",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_2_in_Michigan"
     },
     {
-      "label": "Wikipedia, Stambaugh, Michigan",
-      "url": "https://en.wikipedia.org/wiki/Stambaugh,_Michigan"
-    },
-    {
-      "label": "Wikipedia, Iron River, Michigan",
-      "url": "https://en.wikipedia.org/wiki/Iron_River,_Michigan"
-    },
-    {
-      "label": "Wikipedia, Crystal Falls, Michigan",
-      "url": "https://en.wikipedia.org/wiki/Crystal_Falls,_Michigan"
+      "label": "Wikipedia, Bewabic State Park",
+      "url": "https://en.wikipedia.org/wiki/Bewabic_State_Park"
     },
     {
       "label": "Wikipedia, Iron County Courthouse (Michigan)",
-      "url": "https://en.wikipedia.org/wiki/Iron_County_Courthouse_(Michigan)"
+      "url": "https://en.wikipedia.org/wiki/Iron_County_Courthouse_%28Michigan%29"
+    },
+    {
+      "label": "Wikipedia, Crystal Falls, Michigan",
+      "url": "https://en.wikipedia.org/wiki/Crystal_Falls%2C_Michigan"
+    },
+    {
+      "label": "Wikipedia, US 2–Iron River Bridge",
+      "url": "https://en.wikipedia.org/wiki/US_2%E2%80%93Iron_River_Bridge"
+    },
+    {
+      "label": "Wikipedia, Iron River, Michigan",
+      "url": "https://en.wikipedia.org/wiki/Iron_River%2C_Michigan"
+    },
+    {
+      "label": "Wikipedia, Stambaugh, Michigan",
+      "url": "https://en.wikipedia.org/wiki/Stambaugh%2C_Michigan"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

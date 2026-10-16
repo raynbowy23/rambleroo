@@ -1,19 +1,20 @@
 {
   "id": "white-mountain-scenic-road-2060",
-  "tagline": "A pine-forest loop through Arizona's high lake country.",
+  "tagline": "Old supply roads lead through pine forest to high mountain lakes.",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "The loop sets out in the pines near McNary, on the Fort Apache Indian Reservation, and runs east on Highway 260 to Eagar at the foot of the White Mountains. From there Highway 261 winds south through the forest to Big Lake, at 9,000 feet below Mount Baldy. Highway 273 brings it back north past White Mountain Reservoir and along Sunrise Lake, by the turn for the ski slopes the White Mountain Apache Tribe runs. Part of that stretch was gravel once.",
-    "The Highway 260 stretch goes back to the 1870s, when a wagon road brought hay and goods to Fort Apache from Cluff Cienega, now McNary, and from Springerville."
+    "The White Mountain Scenic Road links pine forests, open glades and lake country on Routes 260, 261 and 273. Arizona designated the route in 1993; ADOT describes a 67-mile loop with the 4.6-mile Greer Highway spur. Route 261 bends with the terrain, while Route 273 winds through forest past Sunrise Lake and White Mountain Reservoir. The lake circuit reaches Big Lake at 9,000 feet, where subalpine grasslands meet forest. Route 273 also provides access to Sunrise Park Resort, owned and operated by the White Mountain Apache Tribe.",
+    "The Route 260 corridor has roots in an 1870s wagon road connecting Fort Apache with suppliers at Cluff Cienega, now McNary, and Springerville. The McNary–Springerville/Eagar road entered the state highway system as Route 73 in 1928. It was renumbered Route 260 after 1975, well before the scenic designation joined it to the neighboring mountain roads.",
+    "From McNary, follow Route 260 toward Eagar at the foot of the White Mountains. After Eagar, return west on 260 for the Greer excursion via Route 373. Back on 260, Route 273 leads past Sunrise Lake and White Mountain Reservoir toward Big Lake. Route 261 connects the lake-country junction back to Route 260 at Eagar."
   ],
   "moments": [
     {
       "title": "McNary",
       "kind": "town",
       "scene": "forest",
-      "text": "In 1924 a lumber company moved its whole operation here from McNary, Louisiana, hundreds of workers included, and brought the town's name along. The mill closed after a fire in 1979.",
+      "text": "McNary’s name crossed state lines with a lumber company, part of a relocation that brought hundreds of employees into this Arizona community. In 1924, Cady Lumber moved its entire operation from McNary, Louisiana, to the Arizona community then called Cooley. For marketing purposes, the company obtained federal permission to bring the name along. An earlier name, Cluff Cienega, recalled Benjamin Cluff’s hay harvests for Fort Apache in 1879 and 1880. The mill closed after a fire in 1979. The community is on the Fort Apache Indian Reservation, where the White Mountain Apache Tribe operates local bus service.",
       "at": [
         -109.85472,
         34.09194
@@ -23,7 +24,7 @@
       "title": "Eagar",
       "kind": "town",
       "scene": "town",
-      "text": "The first postmistress wanted to call the place Union. The postmaster general said the name was too common, and later trimmed her second choice, Eagarville, to Eagar.",
+      "text": "The name Eagar was a postal compromise, reached after the first postmistress tried to give the community a name expressing her hope for local unity. Emma Goldsbrough Udall proposed Union, hoping eventually to combine the community with places including Amity and Springerville. The postmaster general rejected Union as too common. She then submitted Eagarville to honor the Eagar brothers, only to have it shortened to Eagar. The town’s plan also reflects its Mormon settlement: square blocks and broad streets followed the general City of Zion concept, with irrigation supplied from the Little Colorado River through the Big Ditch.",
       "at": [
         -109.29111,
         34.10667
@@ -33,54 +34,63 @@
       "title": "Greer",
       "kind": "town",
       "scene": "river",
-      "text": "Up a 4.6-mile spur, the highest town in Arizona sits at about 8,400 feet with the Little Colorado River running through the middle of it.",
+      "text": "The Little Colorado River runs through Greer, a White Mountains community reached by Highway 373. Originally called Lee Valley, the settlement took the shorter name Greer when its post office was built. A separate transport history lies west of town, in remnants of the Apache Railway. Logging operations began in 1918; the White Mountain Scenic Railroad began operating on the line in 1964 and ceased in 1976. The Maverick-to-McNary track was removed in 1982. Cottonwood, maple, boxelder and oak grow in the area’s riverside habitats, while pine, aspen, fir and spruce occur in the surrounding landscape.",
       "at": [
         -109.46083,
         34.00528
       ]
+    },
+    {
+      "title": "Big Lake",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Big Lake holds rainwater and snowmelt at 9,000 feet in the White Mountains. The reservoir was created by damming a small tributary of the Black River and belongs to the Salt River watershed. Its setting combines subalpine grasslands and forest at the base of Mount Baldy. Winter changes the road journey here: snow closes access roads, generally from December to early April. The lake’s cold water supports rainbow, cutthroat and brook trout. The reservoir covers 575 acres and is managed by the Apache-Sitgreaves National Forests, with an average depth of sixteen feet.",
+      "at": [
+        -109.41524444,
+        33.88466667
+      ]
     }
   ],
   "practical": [
-    "Roads to Big Lake close for snow in winter, generally December to early April."
+    "Big Lake: Snow closes roads to Big Lake in winter, generally December to early April. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "ADOT, List of Historic Roads (Wayback Machine snapshot)",
+      "label": "Arizona Department of Transportation, List of Historic Roads (archived May 19, 2026)",
       "url": "https://web.archive.org/web/20260519152218/https://azdot.gov/about/historic-and-scenic-roads/list-historic-roads"
     },
     {
-      "label": "ADOT, List of Scenic Roads (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20260412095407/https://azdot.gov/about/historic-and-scenic-roads/list-scenic-roads"
+      "label": "Wikipedia, Big Lake, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Big_Lake_%28Arizona%29"
     },
     {
       "label": "Wikipedia, Arizona State Route 273",
       "url": "https://en.wikipedia.org/wiki/Arizona_State_Route_273"
     },
     {
+      "label": "Wikipedia, Sunrise Park Resort",
+      "url": "https://en.wikipedia.org/wiki/Sunrise_Park_Resort"
+    },
+    {
       "label": "Wikipedia, Arizona State Route 261",
       "url": "https://en.wikipedia.org/wiki/Arizona_State_Route_261"
     },
     {
-      "label": "Wikipedia, McNary, Arizona",
-      "url": "https://en.wikipedia.org/wiki/McNary,_Arizona"
-    },
-    {
       "label": "Wikipedia, Eagar, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Eagar,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Eagar%2C_Arizona"
     },
     {
       "label": "Wikipedia, Greer, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Greer,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Greer%2C_Arizona"
     },
     {
-      "label": "Wikipedia, Big Lake (Arizona)",
-      "url": "https://en.wikipedia.org/wiki/Big_Lake_(Arizona)"
+      "label": "Wikipedia, McNary, Arizona",
+      "url": "https://en.wikipedia.org/wiki/McNary%2C_Arizona"
     },
     {
-      "label": "Wikipedia, Sunrise Park Resort",
-      "url": "https://en.wikipedia.org/wiki/Sunrise_Park_Resort"
+      "label": "Wikipedia, Eagar Townsite Historic District",
+      "url": "https://en.wikipedia.org/wiki/Eagar_Townsite_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

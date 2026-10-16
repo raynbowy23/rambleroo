@@ -1,17 +1,18 @@
 {
   "id": "tunica-trace-scenic-byway-2078",
-  "tagline": "From the Angola gate along an old portage through the hills.",
+  "tagline": "A wooded highway follows the Tunica Trace from Angola toward Bayou Sara.",
   "intro": [
-    "Highway 66 starts at the main gate of the Louisiana State Penitentiary at Angola, in a bend of the Mississippi near the state line, and winds about 20 miles through the wooded Tunica Hills to US 61 at Bains, north of St. Francisville. It follows an ancient Native American portage called the Tunica Trace, and burial mounds lie in the country around it.",
-    "The road has been straightened in places by cutting into the hills. At Tunica the curve it left behind is still there, now called Crescent Road."
+    "LA 66 winds through the wooded Tunica Hills, a two-lane road running 19.62 miles from the Angola prison entrance to US 61 north of St. Francisville. The entire highway belongs to the Louisiana Scenic Byways system as the Tunica Trace Byway. Some sharper curves have been straightened by cuts into the hills; at Tunica, one bypassed bend survives as Crescent Road.",
+    "The route derives from a Native American portage known as the Tunica Trace. In 1926, the legislature added State Route 124, creating a state-maintained connection between Angola and the main highway through the area. The dirt road received gravel by 1929 and pavement in 1939, then became LA 66 in the 1955 renumbering. The state legislature designated the scenic byway in 1988, and West Feliciana Parish changed its local name from Angola Road to Tunica Trace to emphasize that history.",
+    "Driving east from the prison gate, the road passes through Tunica and curves northeast between the wildlife management area’s two tracts. At Retreat it turns southeast, continuing through Turnbull and Weyanoke. The final stretch roughly follows the east side of Little Bayou Sara, crosses Big Bayou Sara on a 1940s pony truss bridge, and reaches US 61 at Bains."
   ],
-  "season": "Spring, when flowers bloom along the way.",
+  "notice": "Crescent Road at Tunica preserves a curve bypassed when the highway was straightened.",
   "moments": [
     {
       "title": "Angola",
       "kind": "roadside",
       "scene": "river",
-      "text": "The prison covers 28 square miles of Isaac Franklin's old slave plantations, one named Angola for the African country many of the enslaved came from, and it still runs as a working farm.",
+      "text": "The main gate of Louisiana State Penitentiary marks the western end of LA 66. The prison occupies land assembled as four plantations by slave trader Isaac Franklin in the 1830s. His widow sold them to Samuel Lawrence James in 1880. James used prisoners leased from the state as plantation laborers; Angola opened as a state prison in 1901. The Angola Museum occupies a former bank building outside the main gate, placing the institution’s history at the road’s endpoint. Prisoners leased to James endured abuse, inadequate food and unregulated violence, with little state oversight of their conditions.",
       "at": [
         -91.59472222,
         30.95611111
@@ -21,20 +22,17 @@
       "title": "Tunica Hills Wildlife Management Area",
       "kind": "roadside",
       "scene": "forest",
-      "text": "The highway runs between the two tracts of forested bluffs and ravines, home to birds rare elsewhere in Louisiana, such as the worm-eating warbler and the Cooper's hawk."
+      "text": "LA 66 passes between the north and south tracts of Tunica Hills Wildlife Management Area. Established in 1991, the protected area lies at the western edge of the Mississippi Valley Loess Plains, in the bluff escarpment. The Louisiana Department of Wildlife and Fisheries owns and manages the land. Its trees include American beech, tulip tree and Southern magnolia, with paw paw and oak-leaf hydrangea among the understory plants. Cooper’s hawks and worm-eating warblers are among the birds recorded here. American ginseng also grows in the understory, where it is classified as critically imperiled and its harvest is prohibited in Louisiana."
     },
     {
       "title": "Big Bayou Sara",
       "kind": "roadside",
       "scene": "river",
-      "text": "After following the snaking Little Bayou Sara for several miles, the road turns east and crosses the main bayou on a pony truss bridge from the 1940s."
+      "text": "Near the eastern end of the drive, LA 66 turns east to cross Big Bayou Sara on a pony truss bridge dating to the 1940s. This is the main branch of Bayou Sara. The preceding stretch of highway roughly follows the east side of the winding Little Bayou Sara. Beyond the crossing, the highway reaches US 61 at Bains, where the byway ends.",
+      "notice": "The road crosses Big Bayou Sara on a pony truss bridge from the 1940s."
     }
   ],
   "sources": [
-    {
-      "label": "Louisiana Office of Tourism, Tunica Trace Byway (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20240722225414/https://byways.explorelouisiana.com/byway/tunica-trace-byway"
-    },
     {
       "label": "Wikipedia, Louisiana Highway 66",
       "url": "https://en.wikipedia.org/wiki/Louisiana_Highway_66"
@@ -42,8 +40,11 @@
     {
       "label": "Wikipedia, Louisiana State Penitentiary",
       "url": "https://en.wikipedia.org/wiki/Louisiana_State_Penitentiary"
+    },
+    {
+      "label": "Wikipedia, Tunica Hills Wildlife Management Area",
+      "url": "https://en.wikipedia.org/wiki/Tunica_Hills_Wildlife_Management_Area"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

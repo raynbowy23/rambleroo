@@ -1,41 +1,53 @@
 {
   "id": "theodore-roosevelt-national-park-north-unit-scenic-byway-16409",
-  "tagline": "Along the badlands floor, then up to the rim.",
+  "tagline": "From the badlands floor to the rim, then back again",
   "intro": [
-    "About 15 miles south of Watford City the park road turns west off US 85 and runs 14 miles into the North Unit, to a dead end and back. The first half traces the floor of the badlands. Midway it crawls up out of the canyon to River Bend Overlook, and from there it is an easy run along the rim to Oxbow Overlook, where the road stops.",
-    "Roosevelt first came to the North Dakota badlands in 1883 to hunt bison. Bison are often in sight from the drive now, at any hour of the day. Twenty of them were brought up from the South Unit in 1962."
+    "The North Unit Scenic Drive runs 14 miles into the badlands, climbing from the canyon floor to the rim before ending at Oxbow Overlook. The National Park Service recommends at least an hour and 15 minutes for the 28-mile round trip. North Dakota Tourism presents the scenic byway as a route through open prairie and wooded draws, with the Little Missouri River and opportunities to see wildlife. Bison are often visible from the drive at any hour of the day.",
+    "Civilian Conservation Corps camps worked in both future park units from 1934 to 1941, building roads and structures that remain in use. The North Unit joined Theodore Roosevelt National Memorial Park in 1948. Congress established the Theodore Roosevelt Wilderness in 1978, when the park also received its present national-park designation. The landscape’s wildlife also reflects park management: twenty bison were transferred from the South Unit herd to the North Unit in 1962.",
+    "Enter from US 85 south of Watford City and travel west along the scenic drive. The first half follows the bottom of the badlands before climbing to River Bend Overlook. The remaining drive follows the rim to Oxbow, then returns by the same road. The surface is almost entirely paved, with one gravel stretch."
   ],
   "moments": [
+    {
+      "title": "Buckhorn Trail",
+      "kind": "separate excursion",
+      "scene": "prairie",
+      "text": "The Buckhorn Trail leaves the driving tour for an eleven-mile loop through the North Unit. It begins and ends at a parking lot directly across from the North Unit campground. Buckhorn is one of the backcountry trails that traverse the park’s wilderness areas. In this unit, seeing prairie dogs requires a hike, while bison are often visible from the scenic drive. The National Park Service asks visitors to keep a safe distance from wildlife.",
+      "at": [
+        -103.33237,
+        47.59649
+      ]
+    },
     {
       "title": "River Bend Overlook",
       "kind": "roadside",
       "scene": "desert",
-      "text": "The North Unit's best-known view, with a shelter from the Civilian Conservation Corps, whose camps built roads and structures here between 1934 and 1941."
+      "text": "River Bend Overlook marks the climb out of the canyon, midway along the scenic drive. Its Civilian Conservation Corps shelter connects the view with the park’s early development. CCC camps operated in both future park units between 1934 and 1941, developing roads and other structures still used today. That work preceded the North Unit’s addition to the memorial park in 1948. Beyond the overlook, the road continues along the badlands rim toward Oxbow.",
+      "notice": "The CCC shelter accompanies the view at River Bend Overlook."
     },
     {
       "title": "Oxbow Overlook",
       "kind": "roadside",
       "scene": "desert",
-      "text": "The road ends here on the rim, in a unit that is mostly wilderness, set aside by Congress in 1978."
+      "text": "Oxbow Overlook is the end of the road, reached along the badlands rim. Most of the North Unit belongs to the wilderness Congress established in 1978. The protected terrain includes steep cliffs carved into prairie by erosion. The Little Missouri River is the principal erosional force behind that landscape. The scenic drive is an out-and-back route, so Oxbow also marks the turn for the return journey."
     }
-  ],
-  "practical": [
-    "The scenic drive is 28 miles round trip, and the park suggests allowing at least an hour and a quarter. It is almost entirely paved, with one gravel stretch, and is open to RVs and cyclists. There are no services in the park."
   ],
   "sources": [
     {
-      "label": "National Park Service, Theodore Roosevelt National Park, North Unit",
+      "label": "National Park Service, North Unit",
       "url": "https://www.nps.gov/thro/planyourvisit/north-unit.htm"
     },
     {
-      "label": "North Dakota Tourism, Theodore Roosevelt National Park North Unit Scenic Byway (Wayback Machine, September 2021)",
+      "label": "North Dakota Tourism, Theodore Roosevelt National Park North Unit Scenic Byway (archived September 2021)",
       "url": "https://web.archive.org/web/20210927214637/https://www.ndtourism.com/watford-city/attractions/theodore-roosevelt-national-park-north-unit-scenic-byway"
     },
     {
       "label": "Wikipedia, Theodore Roosevelt National Park",
       "url": "https://en.wikipedia.org/wiki/Theodore_Roosevelt_National_Park"
+    },
+    {
+      "label": "Wikipedia, Buckhorn Trail",
+      "url": "https://en.wikipedia.org/wiki/Buckhorn_Trail"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

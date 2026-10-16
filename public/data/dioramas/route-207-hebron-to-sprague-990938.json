@@ -12,24 +12,16 @@
     "lanes": 2,
     "coordinates": [
       [
-        -72.33246,
-        41.63889
-      ],
-      [
-        -72.33566,
-        41.63968
-      ],
-      [
-        -72.34311,
-        41.63975
-      ],
-      [
         -72.34665,
         41.63884
       ],
       [
-        -72.33246,
-        41.63889
+        -72.34369,
+        41.63972
+      ],
+      [
+        -72.33608,
+        41.63971
       ],
       [
         -72.32769,
@@ -88,8 +80,16 @@
         41.62003
       ],
       [
+        -72.25692,
+        41.62016
+      ],
+      [
         -72.25417,
         41.62062
+      ],
+      [
+        -72.24533,
+        41.62367
       ],
       [
         -72.23987,
@@ -279,30 +279,30 @@
     {
       "name": "Lebanon Green",
       "model": "steeple-town",
-      "at": 0.5096147023680639,
+      "at": 0.48709531772896164,
       "offset": "roadside",
-      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Lebanon Green",
       "model": "town-blocks",
-      "at": 0.5096147023680639,
+      "at": 0.48709531772896164,
       "offset": "roadside",
-      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Baltic",
       "model": "gristmill",
       "at": 1,
       "offset": "roadside",
-      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Baltic",
       "model": "town-blocks",
       "at": 1,
       "offset": "roadside",
-      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
@@ -352,17 +352,17 @@
   "towns": [
     {
       "name": "Lebanon",
-      "at": 0.4293413173652695,
+      "at": 0.401875,
       "landmark": ""
     },
     {
       "name": "Franklin",
-      "at": 0.7467065868263474,
+      "at": 0.73375,
       "landmark": ""
     },
     {
       "name": "Sprague",
-      "at": 0.9994011976047905,
+      "at": 0.9975,
       "landmark": ""
     }
   ],

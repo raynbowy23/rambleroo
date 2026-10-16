@@ -1,20 +1,21 @@
 {
   "id": "route-58-easton-990919",
-  "tagline": "Three miles of turnpike in the water company's woods.",
+  "tagline": "An old toll-road corridor through a landscape of water supply",
   "motifs": [
     "lake-wide",
     "rolling-ridges"
   ],
   "intro": [
-    "From the Fairfield line Route 58, the Black Rock Turnpike, runs three miles north through Easton beside the Hemlock Reservoir, one of two lakes along this road that give the Bridgeport area much of its drinking water.",
-    "Easton was slow to settle because of the rough hills along the Aspetuck River, and it did not part from Weston until 1845. Today the water company owns half the property in town. Helen Keller spent her last years here."
+    "Route 58 follows Black Rock Turnpike north through Easton, passing Hemlock and Aspetuck reservoirs, which supply much of Greater Bridgeport’s drinking water. A 3.1-mile section near Hemlock Reservoir is a designated scenic highway. The surrounding town developed slowly among rough hills along the Aspetuck River.",
+    "The turnpike name joins two separate road ventures. In 1797, the Fairfield, Weston, and Redding Turnpike was chartered to improve the route north from Easton village through Redding Ridge into Bethel. In 1832, the road from Black Rock harbor to Easton village became a public toll road. The modern Route 58 number dates to the 1932 state highway renumbering.",
+    "Travel north from Fairfield into Easton along Black Rock Turnpike, also called Black Rock Road within Easton. Hemlock Reservoir comes before Aspetuck Reservoir on this northbound journey. Farther along Black Rock Turnpike, the Bradley-Hubbell House overlooks Aspetuck Reservoir, a reminder that the water-supply landscape includes former farmland."
   ],
   "moments": [
     {
       "title": "Hemlock Reservoir",
       "kind": "roadside",
       "scene": "river",
-      "text": "Behind a dam finished in 1914, the reservoir holds largemouth bass, chain pickerel and rainbow trout, and fishing is prohibited.",
+      "text": "Hemlock Reservoir’s dam was completed in 1914; the reservoir supplies water to Fairfield, Bridgeport and nearby towns. Its connections extend beyond the water beside the road: an underground aqueduct carries diverted water from Saugatuck Reservoir to Aspetuck Reservoir. Water is also diverted from Aspetuck into Hemlock, which then flows into the Mill River.",
       "at": [
         -73.2914,
         41.2183
@@ -27,7 +28,17 @@
       "title": "Redding Road",
       "kind": "roadside",
       "scene": "forest",
-      "text": "On April 25, 1777, General William Tryon's British troops marched up the old Redding Road, which ran alongside this one, on their way to raid Danbury."
+      "text": "On April 25, 1777, British troops under General William Tryon marched toward Danbury to destroy homes, warehouses and ammunition stores. They used Redding Road, which paralleled present Route 58 south of Easton center and followed its alignment north of the center. The northern road became a chartered turnpike twenty years later, carrying the names Fairfield, Weston and Redding."
+    },
+    {
+      "title": "Bradley-Hubbell House",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "The Bradley-Hubbell House overlooks a reservoir that swallowed much of its farmland. Built in 1816 for Aljah and Elizabeth Bradley, the house has a traditional central chimney and Federal-style details, including oval windows in the gables. The family sold the property to Bridgeport Hydraulic Company in 1912; the company leased the house to its employee Franklin Hubbell. The house was donated to the Easton Historical Society in 1998. At 535 Black Rock Turnpike, its view is over Aspetuck Reservoir. John Dimon Bradley, the couple’s son, left a memoir describing life on what was mainly a subsistence farm.",
+      "at": [
+        -73.32083333,
+        41.24472222
+      ]
     }
   ],
   "sources": [
@@ -36,14 +47,25 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_58"
     },
     {
+      "label": "Wikipedia, Easton, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Easton%2C_Connecticut"
+    },
+    {
       "label": "Wikipedia, Hemlock Reservoir",
       "url": "https://en.wikipedia.org/wiki/Hemlock_Reservoir"
     },
     {
-      "label": "Wikipedia, Easton, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Easton,_Connecticut"
+      "label": "Wikipedia, Aspetuck Reservoir",
+      "url": "https://en.wikipedia.org/wiki/Aspetuck_Reservoir"
+    },
+    {
+      "label": "Wikipedia, Bradley-Hubbell House",
+      "url": "https://en.wikipedia.org/wiki/Bradley-Hubbell_House"
+    },
+    {
+      "label": "Wikipedia, Aspetuck River",
+      "url": "https://en.wikipedia.org/wiki/Aspetuck_River"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

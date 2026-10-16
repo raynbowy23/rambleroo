@@ -1,76 +1,88 @@
 {
   "id": "texas-hill-country-wine-road-us-290-980007",
-  "tagline": "West on 290, past a president's porch and his cattle.",
+  "tagline": "Vineyards, a presidential ranch and a post-office porch along US 290",
   "intro": [
-    "US 290 leaves Johnson City, where the Johnson family moved in 1913 when the future president was five, and heads west through the Hill Country toward Fredericksburg. The highway is promoted these days as Wine Road 290, the wine trail to the wineries and vineyards around Fredericksburg, a town long known for its peaches.",
-    "Johnson left his ranch on the Pedernales to the public on condition that it remain a working ranch and not become a sterile relic of the past. Hereford cattle still roam it, as they have since he started his herd in 1957."
+    "US 290 connects Fredericksburg with Stonewall, Hye and Johnson City through the Texas Hill Country. The surrounding region is a landscape of hills, valleys, canyons and low mountains. Wine Road 290 promotes the Fredericksburg route for its wineries and vineyards. Near Stonewall, the Pedernales River passes the LBJ Ranch, where Hereford cattle roam.",
+    "The Austin–Fredericksburg road once gave Hiram Brown a place to establish a store and house near the Pedernales. A post office opened in his store in 1886 and took his nickname, Hye; other businesses followed. The modern wine landscape developed later: commercial growing of Vitis vinifera grapes in the Hill Country dates to the mid-1970s. In 1991, the Bureau of Alcohol, Tobacco and Firearms established the Texas Hill Country American Viticultural Area after reviewing Edwin Auler’s petition on behalf of winery and vineyard owners. That wine-growing designation covers 9.6 million acres across the Edwards Plateau and encompasses two earlier wine-growing areas, Bell Mountain and Fredericksburg in the Texas Hill Country.",
+    "Start in Fredericksburg and drive east on US 290 through Blumenthal toward Stonewall. The state park near Stonewall provides access to the LBJ Ranch. Continue east through Hye to Johnson City, where Johnson’s family moved in 1913, when he was five."
   ],
   "moments": [
     {
-      "title": "Hye",
+      "title": "Fredericksburg",
       "kind": "town",
-      "scene": "prairie",
-      "text": "Johnson reportedly mailed his first letter at the Hye post office at the age of four, and in 1965 he came back to its porch to swear in a Postmaster General.",
+      "scene": "town",
+      "text": "Fredericksburg’s historic district follows the town’s original plat, its streets arranged in a wide grid. German immigrants founded the town in 1846 under the Society for the Protection of German Immigrants in Texas. On West Main Street, the Pioneer Memorial Library occupies an 1882 courthouse designed by Alfred Giles in native limestone. A new courthouse superseded it in 1939. After other uses and eventual condemnation, the older building was restored as a library in 1967 with a gift from Mr. and Mrs. Eugene McDermott. The library’s children’s collection occupies the first floor, with adult books upstairs.",
       "at": [
-        -98.57,
-        30.2425
+        -98.87472,
+        30.26389
       ]
     },
     {
       "title": "LBJ Ranch",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "A free permit from the state park visitor center near Stonewall opens the drive past the Texas White House, the family cemetery and one of the five presidential Jetstars.",
+      "text": "Hereford cattle roam the LBJ Ranch beside the Pedernales River, continuing the herd Johnson began in 1957. The ranch also holds the Texas White House, the home the press named for Johnson’s time spent in Texas during his presidency. A Lockheed Jetstar used during his presidency is on display here. Pink granite headstones mark the graves of Lyndon and Lady Bird Johnson. The National Park Service is restoring the Texas White House and hangar. The national historical park also includes a separate district in Johnson City, preserving the president’s boyhood home and his grandparents’ log cabin settlement.",
+      "notice": "Pink granite headstones mark Lyndon and Lady Bird Johnson’s graves.",
       "at": [
         -98.62417,
         30.24083
       ]
     },
     {
-      "title": "Fredericksburg",
+      "title": "Hye",
       "kind": "town",
-      "scene": "town",
-      "text": "German settlers founded the town in 1846 and named it for Prince Frederick of Prussia, and its first generations spoke a Texas German, refusing at first to learn English.",
+      "scene": "prairie",
+      "text": "A post-office porch became a presidential stage in Hye in 1965, when Lyndon B. Johnson swore in Lawrence F. O’Brien as Postmaster General. The post office had begun inside Hiram Brown’s store in 1886, taking Brown’s nickname as its name. Its arrival drew other businesses, including a gristmill, blacksmith shop and cotton gin. Brown erected a new store and post-office building in 1904. The Hye General Store and Post Office received Recorded Texas Historic Landmark status in 1966. The community stands on US 290 ten miles west of Johnson City, near the Gillespie County line.",
       "at": [
-        -98.87472,
-        30.26389
+        -98.57,
+        30.2425
       ]
     }
   ],
+  "practical": [
+    "LBJ Ranch: Obtain a free ranch driving permit at the LBJ State Park & Historic Site Visitor Center near Stonewall. (checked 2026-10-11)"
+  ],
   "sources": [
-    {
-      "label": "NPS, Lyndon B. Johnson National Historical Park",
-      "url": "https://www.nps.gov/lyjo/index.htm"
-    },
-    {
-      "label": "NPS, Lyndon B. Johnson National Historical Park, Directions and Transportation",
-      "url": "https://www.nps.gov/lyjo/planyourvisit/directions.htm"
-    },
-    {
-      "label": "Wine Road 290",
-      "url": "https://wineroad290.com/"
-    },
-    {
-      "label": "Wikipedia, Lyndon B. Johnson National Historical Park",
-      "url": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson_National_Historical_Park"
-    },
     {
       "label": "Wikipedia, Texas Hill Country AVA",
       "url": "https://en.wikipedia.org/wiki/Texas_Hill_Country_AVA"
     },
     {
+      "label": "National Park Service, Directions and Transportation: Lyndon B. Johnson National Historical Park",
+      "url": "https://www.nps.gov/lyjo/planyourvisit/directions.htm"
+    },
+    {
       "label": "Wikipedia, Hye, Texas",
-      "url": "https://en.wikipedia.org/wiki/Hye,_Texas"
+      "url": "https://en.wikipedia.org/wiki/Hye%2C_Texas"
     },
     {
       "label": "Wikipedia, Stonewall, Texas",
-      "url": "https://en.wikipedia.org/wiki/Stonewall,_Texas"
+      "url": "https://en.wikipedia.org/wiki/Stonewall%2C_Texas"
     },
     {
-      "label": "Wikipedia, Fredericksburg, Texas",
-      "url": "https://en.wikipedia.org/wiki/Fredericksburg,_Texas"
+      "label": "Wine Road 290, Fredericksburg Wine Road 290",
+      "url": "https://wineroad290.com/"
+    },
+    {
+      "label": "National Park Service, Lyndon B. Johnson National Historical Park",
+      "url": "https://www.nps.gov/lyjo/index.htm"
+    },
+    {
+      "label": "Wikipedia, Blumenthal, Texas",
+      "url": "https://en.wikipedia.org/wiki/Blumenthal%2C_Texas"
+    },
+    {
+      "label": "Wikipedia, Fredericksburg Historic District (Texas)",
+      "url": "https://en.wikipedia.org/wiki/Fredericksburg_Historic_District_%28Texas%29"
+    },
+    {
+      "label": "Wikipedia, Fredericksburg Memorial Library",
+      "url": "https://en.wikipedia.org/wiki/Fredericksburg_Memorial_Library"
+    },
+    {
+      "label": "Wikipedia, Lyndon B. Johnson National Historical Park",
+      "url": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson_National_Historical_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

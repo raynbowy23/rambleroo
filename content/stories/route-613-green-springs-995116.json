@@ -1,16 +1,17 @@
 {
   "id": "route-613-green-springs-995116",
-  "tagline": "Back roads through the farm district that turned away a prison.",
+  "tagline": "Farms and woodland frame a district preserved through conservation easements.",
   "intro": [
-    "From US 250 near Zion Crossroads, Route 613 goes by four names, Poindexter, Oakland, Goldmine and Mansfield roads, on its way to US 522 at Wares Crossroads. On the way it marks part of the edge of Green Springs, 14,000 acres of manor houses and farms on a heavy clay that holds moisture, where the country around is poor soil and scrub pine.",
-    "In the early 1970s the state planned a detention center here. Owners put more than 7,000 acres under easement in a few months, opponents went to court, and Green Springs became the first rural National Historic Landmark district."
+    "Route 613 marks part of the boundary of Green Springs, a rural district of farms, woodland and historic houses in Louisa County. Its 14,000 acres of fertile land contrast with the poorer soil and scrub pine outside the district. At Poindexter, farmland and small wooded patches surround the crossroads.",
+    "A proposed state detention center brought preservation efforts together in the early 1970s. Opponents organized as Historic Green Springs Inc. and challenged the plans in court. After Governor Linwood Holton suggested in October 1972 that conservation easements could change his decision, owners placed more than 7,000 acres under easement by the following spring. Green Springs became a National Historic Landmark in May 1974.",
+    "Approach from Zion Crossroads, south of the Green Springs district. At Poindexter, Route 613 meets Jack Jouett Road. Trevilians centers on the junction of US 33 and Route 22; farther north, Blue Ridge Shores surrounds Lake Louisa. The lake community began as a resort development in 1960."
   ],
   "moments": [
     {
       "title": "Poindexter",
       "kind": "town",
       "scene": "town",
-      "text": "Probably named for the postman who ran its post office and store in the 1850s. Both are gone. Foster Creek Baptist Church, built in 1795 as Siloam, is not.",
+      "text": "Poindexter is a four-way crossroads where Poindexter Road meets Jack Jouett Road, with Central Branch Road leaving Route 613 nearby. A store and post office once operated here. The community lies within the Green Springs district, surrounded by farmland, private properties and small patches of woodland. Nearby churches include Foster Creek Baptist, built in 1795 as Siloam Baptist Church, and Berea Baptist, built in 1857.",
       "at": [
         -78.14466111,
         38.00153056
@@ -20,35 +21,48 @@
       "title": "Trevilian Station",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "In June 1864 Sheridan and Hampton fought the war's largest all-cavalry battle here, and Custer, having captured Hampton's supply train, soon found himself surrounded.",
+      "text": "The railway was the target at Trevilian Station in June 1864. Union cavalry commander Philip Sheridan sought to damage the Virginia Central and join David Hunter’s army at Charlottesville. Wade Hampton’s Confederate cavalry reached the station first. During the fighting, George A. Custer captured Hampton’s supply train, then found his own force surrounded. After two days of battle, Sheridan withdrew without achieving the planned junction with Hunter or permanently disabling the railway. The track was repaired within two weeks, allowing supplies to continue reaching Robert E. Lee’s army. The Trevilian Station Battlefield Foundation has developed an online driving tour beginning at the Louisa County Courthouse.",
       "at": [
         -78.06604,
         38.04973
       ]
+    },
+    {
+      "title": "Blue Ridge Shores",
+      "kind": "town",
+      "scene": "town",
+      "text": "Lake Louisa sits at the center of Blue Ridge Shores, a community begun in 1960 as a resort. The lake is a reservoir on Hickory Creek in northern Louisa County’s Piedmont landscape. Its water belongs to a larger river system: Hickory Creek flows northeast to the North Anna River, within the Pamunkey watershed, which leads to the tidal York River and Chesapeake Bay.",
+      "at": [
+        -78.02083333,
+        38.10833333
+      ]
     }
   ],
   "sources": [
-    {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
     {
       "label": "Wikipedia, Green Springs National Historic Landmark District",
       "url": "https://en.wikipedia.org/wiki/Green_Springs_National_Historic_Landmark_District"
     },
     {
       "label": "Wikipedia, Poindexter, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Poindexter,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Poindexter%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Zion Crossroads, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Zion_Crossroads%2C_Virginia"
     },
     {
       "label": "Wikipedia, Trevilians, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Trevilians,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Trevilians%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Blue Ridge Shores, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Blue_Ridge_Shores%2C_Virginia"
     },
     {
       "label": "Wikipedia, Battle of Trevilian Station",
       "url": "https://en.wikipedia.org/wiki/Battle_of_Trevilian_Station"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

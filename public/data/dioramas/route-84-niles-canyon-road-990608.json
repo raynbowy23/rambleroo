@@ -279,26 +279,26 @@
     {
       "name": "Niles",
       "model": "town-blocks",
-      "at": 0.25,
+      "at": 0.2,
       "offset": "roadside",
       "notes": "Story moment 1; town. Illustrative position in driving order."
+    },
+    {
+      "name": "Vallejo Flour Mill",
+      "model": "gristmill",
+      "at": 0.2,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
     },
     {
       "name": "Sunol",
       "model": "town-blocks",
       "at": 0.854100749118007,
       "offset": "roadside",
-      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 4; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
-    {
-      "model": "gristmill",
-      "at": 0.5,
-      "side": -1,
-      "distance": 1.4,
-      "scale": 1.5
-    },
     {
       "model": "town-blocks",
       "at": 0.041666666666666664,

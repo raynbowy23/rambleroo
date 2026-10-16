@@ -1,25 +1,34 @@
 {
   "id": "valley-of-fire-state-park-roadways-2036",
-  "tagline": "Ten miles of red sandstone that once played Mars.",
+  "tagline": "A desert road through red sandstone and Civilian Conservation Corps history",
   "motifs": [
     "slickrock-ridge"
   ],
   "intro": [
-    "Valley of Fire Road comes in across open desert from Interstate 15, pays at the west entrance station and crosses the southern part of the park for about ten miles. The country beside the road turns colorful there, bright red Aztec sandstone set among gray and tan limestone mountains, old dunes turned to stone that look to be on fire when the sun strikes them.",
-    "Civilian Conservation Corps crews built campgrounds, trails and stone cabins here from 1933, and it is Nevada's oldest state park. Later the outdoor scenes of Mars in Total Recall were shot almost entirely in the valley."
+    "Valley of Fire Road approaches the park on two lanes through open desert, then takes a hillier, curving course through the Muddy Mountains. The 10.5-mile section between the park entrances became a Nevada Scenic Byway in 1995. Nevada State Parks highlights red Aztec sandstone among gray and tan limestone, petrified trees and petroglyphs more than 2,000 years old.",
+    "Civilian Conservation Corps crews began work here in 1933, building roads alongside campgrounds, trails and stone visitor cabins. The park opened in 1934, before the legislature gave it official designation in 1935. By 1941, State Route 40 had shifted onto an unimproved alignment through the park’s southern side, resembling the present road. Paving followed by 1964; by 1982, the road no longer carried a state route number. Its road’s later scenic designation covers the park section, while the approach from Interstate 15 and the continuation to Northshore Road lie beyond it.",
+    "From the Interstate 15 end, the route heads southeast toward the west entrance. Beyond the fee station it crosses the southern part of the park, passing trails, campgrounds and the visitor center. Elephant Rock marks the east-entrance end of the scenic section; the road continues to Northshore Road in Lake Mead National Recreation Area."
   ],
+  "notice": "Red Aztec sandstone outcrops contrast with gray and tan limestone.",
   "moments": [
     {
       "title": "Mouse's Tank and Atlatl Rock",
       "kind": "separate excursion",
       "scene": "desert",
-      "text": "Two of the easier petroglyph sites to reach, with rock art left by Ancestral Puebloan farmers from the Moapa Valley, who probably came here to hunt and gather."
+      "text": "Mouse’s Tank and Atlatl Rock are two places where the park’s petroglyphs are concentrated. Nevada State Parks identifies carvings by the Basketmaker culture about 2,500 years ago, followed by the Early Pueblo culture. Paiutes were living in the area in 1865 when Mormons settled at nearby St. Thomas. The rock art and other traces of occupation are protected by state and federal law. The visitor center presents the region’s prehistory alongside exhibits on geology, ecology and later history. Removing, disturbing or damaging artifacts and other historic features is prohibited."
+    },
+    {
+      "title": "Civilian Conservation Corps cabins",
+      "kind": "separate excursion",
+      "scene": "desert",
+      "text": "Three stone cabins preserve part of the Civilian Conservation Corps’ work at Valley of Fire. Park creation began with the transfer of 8,760 acres of federal land to Nevada in 1931. Crews started in 1933 and worked into the early 1940s, building visitor cabins, roads, trails and campgrounds. The park opened in 1934, a year before its official designation by the state legislature. Their work also included ramadas, adding another kind of visitor shelter to the park’s buildings. Nevada State Parks identifies the Cabins as one of the park’s shaded picnic locations."
     },
     {
       "title": "Elephant Rock",
       "kind": "short walk",
       "scene": "desert",
-      "text": "By the east entrance a quarter-mile trail from a roadside lot leads to a sandstone arch that looks like an elephant, on a knob rising 120 feet above the road.",
+      "text": "Elephant Rock takes its name from a natural sandstone arch shaped like an elephant. Near the park’s east entrance, the formation rises 120 feet above Valley of Fire Road. Its Aztec Sandstone began as desert dunes that hardened into rock. Runoff drains east toward Lake Mead through Thomas Wash and Valley of Fire Wash. The U.S. Board on Geographic Names has officially adopted the descriptive name. The rock stands in the Mojave Desert. Across the wider park, uplift, faulting and erosion have shaped the sandstone landscape.",
+      "notice": "The natural arch has the shape that gives Elephant Rock its name.",
       "at": [
         -114.4609548,
         36.4283735
@@ -30,7 +39,8 @@
     }
   ],
   "practical": [
-    "A state park entrance fee is charged to drive the road between the west and east entrance stations. The park closes at sunset except to campers, and closes to all visitors each year from December 1 through December 14."
+    "Mouse's Tank and Atlatl Rock: The park closes to all visitors December 1–14 each year. The saved park alert also announces a temporary west-entrance closure, without dates. (checked 2026-10-11)",
+    "Elephant Rock: A park entrance fee is required to drive between the west and east entrance stations. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -38,18 +48,17 @@
       "url": "https://parks.nv.gov/parks/valley-of-fire"
     },
     {
-      "label": "Wikipedia, Valley of Fire Road",
-      "url": "https://en.wikipedia.org/wiki/Valley_of_Fire_Road"
-    },
-    {
       "label": "Wikipedia, Valley of Fire State Park",
       "url": "https://en.wikipedia.org/wiki/Valley_of_Fire_State_Park"
     },
     {
+      "label": "Wikipedia, Valley of Fire Road",
+      "url": "https://en.wikipedia.org/wiki/Valley_of_Fire_Road"
+    },
+    {
       "label": "Wikipedia, Elephant Rock (Valley of Fire)",
-      "url": "https://en.wikipedia.org/wiki/Elephant_Rock_(Valley_of_Fire)"
+      "url": "https://en.wikipedia.org/wiki/Elephant_Rock_%28Valley_of_Fire%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

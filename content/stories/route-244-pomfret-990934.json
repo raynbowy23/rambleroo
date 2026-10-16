@@ -1,16 +1,17 @@
 {
   "id": "route-244-pomfret-990934",
-  "tagline": "Three miles of the old Boston Turnpike into Pomfret Center.",
+  "tagline": "The old Boston Turnpike carries Route 244 into Pomfret Center.",
   "intro": [
-    "Route 244 is the Boston Turnpike, and the scenic part runs east from Ragged Hill Road to its end at Route 97 in Pomfret Center.",
-    "This was once part of the Middle Boston Post Road, one of the principal roads from Hartford to Boston and Providence. It opened as a private toll road in 1797 and went back to being a public road in 1879. The state only gave it a posted number in 1988."
+    "Route 244 is a rural northeastern Connecticut road linking Eastford with Pomfret. Known as the Boston Turnpike, it runs east, bends northeast and returns to an eastward course. The designated scenic section begins at Ragged Hill Road in Pomfret and ends at Route 97.",
+    "This road once belonged to the Middle Boston Post Road, one of the principal connections from Hartford to Boston and Providence. It became the privately operated Boston Turnpike toll road in 1797, then returned to public-road status in 1879. State responsibility came in 1962 as unsigned State Road 622; the posted Route 244 designation followed in 1988.",
+    "Follow the scenic section east from Ragged Hill Road toward Pomfret Center. The final approach parallels Vineyard Valley Golf Club before meeting Route 97. There, Route 244 ends, and northbound Route 97 continues toward US 44 and Route 169."
   ],
   "moments": [
     {
       "title": "Bara-Hack",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Settled in 1778 by two families fleeing the British in Rhode Island, the spinning-wheel hamlet was abandoned by 1890 and is now stone foundations under forest on private property.",
+      "text": "Stone foundations remain where Bara-Hack’s houses and farms once stood, with forest covering most former fields and streets. Johnathan Randall and Obediah Higinbotham settled here with their families in 1778 after fleeing British advances in Rhode Island. On land Randall had purchased in 1776, they established farms, a water-powered mill and a business making spinning wheels for textile production. The families also established a small burial ground for members of both households. The settlement was abandoned by 1890. Its shared burial ground remains intact, but the site is private property.",
       "at": [
         -72.011,
         41.88
@@ -20,8 +21,21 @@
       "title": "Pomfret Center",
       "kind": "town",
       "scene": "town",
-      "text": "The turnpike runs beside the Vineyard Valley Golf Club and ends at Route 97, which carries the road on north toward US 44 and Route 169."
+      "text": "Route 244 reaches Pomfret Center beside Vineyard Valley Golf Club and ends at Route 97. The road continues north under that number toward US 44 and Route 169. That connection has its own sequence of names: the Abington-to-Pomfret Center road became State Highway 345 in 1922, Route 201 in 1932 and part of Route 97 in 1934. Route 97 has a separate scenic designation between its southern US 44 junction and its northern end."
+    },
+    {
+      "title": "Pomfret Street Historic District",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Along Route 169, the Pomfret Street Historic District includes houses that became school buildings and cottages that outlasted their inn. The Rectory School’s main building began as a house built in 1792 and once owned by Col. Thomas Grosvenor. Pomfret School occupies brick Georgian and Colonial Revival buildings designed by Ernest Flagg in the early twentieth century. The Ben Grosvenor Inn was demolished in 1960, but Orchard Cottage and Olive Cottage remain as school dormitories. Flagg also designed Clark Chapel, a Romanesque building from 1908, among the district’s school architecture.",
+      "at": [
+        -71.96416667,
+        41.88861111
+      ]
     }
+  ],
+  "practical": [
+    "Bara-Hack: Bara-Hack is on private property. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -30,13 +44,16 @@
     },
     {
       "label": "Wikipedia, Bara-Hack, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Bara-Hack,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Bara-Hack%2C_Connecticut"
     },
     {
       "label": "Wikipedia, Connecticut Route 97",
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_97"
+    },
+    {
+      "label": "Wikipedia, Pomfret Street Historic District",
+      "url": "https://en.wikipedia.org/wiki/Pomfret_Street_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

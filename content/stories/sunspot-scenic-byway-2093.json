@@ -1,40 +1,44 @@
 {
   "id": "sunspot-scenic-byway-2093",
-  "tagline": "Along the mountain rim to a town that studies the Sun.",
+  "tagline": "A road numbered for sunlight zigzags through pine, aspen and fir.",
   "motifs": [
     "aspens"
   ],
   "intro": [
-    "Two miles south of Cloudcroft, named for the clouds that hug its hillsides, NM 6563 leaves NM 130 and runs about 15 miles south along the front rim of the Sacramento Mountains, through pine, aspen and fir, with lookouts onto the basin some 5,000 feet below. Partway along is Dirty Drawers Canyon, named, the local story goes, for a woman whose hygiene was in question, like her reputation.",
-    "The highway number is the wavelength in angstroms of the hydrogen-alpha line, which the observatory at the end of the road uses to find flares on the Sun. Only two other state highways in New Mexico carry four digits."
+    "Sunspot Scenic Byway follows the front rim of the Sacramento Mountains through pine, aspen and fir forests on two-lane NM 6563. New Mexico’s tourism department describes a zigzagging woodland drive with lookouts toward dunes, desert and mountains, some 5,000 feet below. The highway became a National Forest scenic byway on October 6, 1990.",
+    "Its unusual number connects the road to the observatory at Sunspot: 6563 is the hydrogen-alpha wavelength in angstroms used to study the Sun’s chromosphere and locate solar flares. In 2011, the observatory added planet signs spaced as a scale model of distances in the solar system. Solar research had already shaped the destination for decades: the Dunn Solar Telescope was completed in 1969 and renamed for Richard B. Dunn in 1998. The highway is one of only three New Mexico state roads with four-digit numbers.",
+    "The 15-mile drive starts two miles south of Cloudcroft. Head south from NM 130 toward Haynes Canyon Vista, where the outlook includes White Sands and the Oscura and San Andres peaks. The road continues to Sunspot in Lincoln National Forest. The destination has changed: the solar observatory and visitor center closed after a mercury leak, and in February 2026 the National Science Foundation announced plans to dismantle the Dunn telescope."
   ],
   "moments": [
     {
       "title": "Haynes Canyon Vista",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "From the overlook the landmarks run out across the basin to the Oscura and San Andres peaks and the white of White Sands."
+      "text": "Haynes Canyon Vista opens a view toward White Sands, the Oscura and San Andres peaks, and the Hardscrabble and Little Burro mountains. The Sacramento Mountains have a material connection to those distant dunes: gypsum washed from the range is a main source of the sand at White Sands National Park. The range is an east-dipping fault block made almost entirely of limestone. Its western edge rises in escarpments to a high ridge, while the mountains slope gently down toward the east. The Tularosa Basin lies immediately west of the range’s main section."
     },
     {
       "title": "The planets",
       "kind": "roadside",
       "scene": "forest",
-      "text": "In 2011 the observatory put up signs along the highway naming the planets, spaced as a model of the solar system at one to 250 million."
+      "text": "Planet-name signs turn the highway into a model of solar-system distances. The observatory installed them in 2011 at a scale of one to 250 million. Their locations mark the planets’ relative distances from the Sun in proportion to their distance from Sunspot. The highway number carries a different measurement: 6563 angstroms, the hydrogen-alpha wavelength used by observatory scientists to study the Sun and locate solar flares."
     },
     {
       "title": "Sunspot",
       "kind": "town",
       "scene": "mountain",
-      "text": "The observatory community at the end of the road took its name in a vote that the observatory director, John Evans, is said to have rigged.",
+      "text": "Sunspot’s Dunn Solar Telescope was completed in 1969, with more than half its building underground. Sunlight traveled down a vacuum tube to a primary mirror 193 feet below ground, then returned to an optical laboratory at ground level. A mercury bearing supported the rotating instrument. After a mercury leak, the observatory and visitor center closed. In February 2026, the National Science Foundation announced demolition and site restoration plans, having determined that safe mercury removal would leave the telescope inoperable. Plans include an educational exhibit on the telescope and Sacramento Peak Observatory’s scientific legacy.",
       "at": [
         -105.818,
         32.791
       ]
     }
   ],
+  "practical": [
+    "Sunspot: The solar observatory and visitor center are closed following the mercury leak. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "New Mexico True, Sunspot Scenic Byway",
+      "label": "New Mexico Tourism Department, Sunspot Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/sunspot/"
     },
     {
@@ -42,14 +46,17 @@
       "url": "https://en.wikipedia.org/wiki/New_Mexico_State_Road_6563"
     },
     {
-      "label": "Wikipedia, Dirty Drawers Canyon",
-      "url": "https://en.wikipedia.org/wiki/Dirty_Drawers_Canyon"
+      "label": "Wikipedia, Richard B. Dunn Solar Telescope",
+      "url": "https://en.wikipedia.org/wiki/Richard_B._Dunn_Solar_Telescope"
+    },
+    {
+      "label": "Wikipedia, Sacramento Mountains (New Mexico)",
+      "url": "https://en.wikipedia.org/wiki/Sacramento_Mountains_%28New_Mexico%29"
     },
     {
       "label": "Wikipedia, Sunspot, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Sunspot,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Sunspot%2C_New_Mexico"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

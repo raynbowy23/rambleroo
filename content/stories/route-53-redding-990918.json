@@ -1,20 +1,21 @@
 {
   "id": "route-53-redding-990918",
-  "tagline": "Two miles of old turnpike above a drowned valley.",
+  "tagline": "An old turnpike beside a valley remade as a reservoir",
   "motifs": [
     "lake-wide",
     "rolling-ridges"
   ],
   "intro": [
-    "Route 53 crosses from Weston into Redding and runs two miles to where Route 107 joins it, on the line of the Norwalk and Newtown Turnpike, a private turnpike organized in 1829. The old turnpike followed this road from Norwalk as far as the Saugatuck Reservoir, then kept straight on toward Newtown by roads the towns look after now.",
-    "Redding lies across three ridges running north and south, with steep valleys between. Its lowest ground, about 290 feet, is at the reservoir."
+    "Route 53’s designated scenic stretch runs 2.03 miles through Redding, from the Weston line to the start of its overlap with Route 107. The setting is a town of three north–south ridges, separated by valleys with steep slopes and rocky ledges in places. The Saugatuck Reservoir occupies the town’s low ground along its southern border.",
+    "This part of Route 53 follows the Norwalk and Newtown Turnpike, organized privately in May 1829. That route followed much of today’s Route 53 as far as the reservoir, then continued toward Newtown on roads now maintained by the towns. The Route 53 number came later: a 1963 realignment moved its southern section onto the Newtown Turnpike.",
+    "Heading north from the Weston line, follow the scenic section to the Route 107 junction. The two numbered roads share the Saugatuck River crossing. Beyond the scenic section, Route 107 continues east as Hill Road into Redding Center."
   ],
   "moments": [
     {
       "title": "Saugatuck Reservoir",
       "kind": "roadside",
       "scene": "river",
-      "text": "The water company flooded the Saugatuck River valley for it, taking the villages of Hull and Valley Forge, and finished the dam in January 1942.",
+      "text": "The reservoir replaced two villages with a water supply. Bridgeport Hydraulic Company Holdings flooded the Saugatuck River Valley after 1938, removing Hull and Valley Forge; completion of the Samuel P. Senior dam in January 1942 marked the reservoir’s completion. The water straddles Redding, Weston and Easton, surrounded by Centennial Watershed State Forest and a small section of Trout Brook Valley State Park Reserve. An uncontrolled spillway beside the dam limits the maximum water level. A concrete levee on the reservoir’s southeastern side keeps water from flooding Trout Brook Valley.",
       "at": [
         -73.365,
         41.265
@@ -27,7 +28,18 @@
       "title": "Saugatuck River",
       "kind": "roadside",
       "scene": "river",
-      "text": "Where the scenic stretch ends, Route 107 comes in and the two roads cross the Saugatuck together, a little under a mile west of Redding Center."
+      "text": "At the northern end of the scenic section, Routes 53 and 107 meet and share a crossing of the Saugatuck River. The Saugatuck is one of four streams that flow south through Redding toward Long Island Sound. It passes through the reservoir, which extends south into Weston. East of the crossing, Route 107 takes the name Hill Road and continues into the town center."
+    },
+    {
+      "title": "Redding Center Historic District",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Beyond the scenic road, Redding Center groups a church and an old town hall facing a central green. The First Church of Christ was built in Greek Revival style in 1837, more than a century after the congregation received permission to establish a separate parish. Facing the same green, the 1834 town hall continues to host some town functions, including meetings. The historic district also includes homes, barns and the Read Cemetery, whose markers date from 1786 to 1860. Its buildings mix Greek Revival, Colonial Revival and Italianate styles.",
+      "notice": "The Greek Revival church and the old town hall face the central green.",
+      "at": [
+        -73.38194444,
+        41.30388889
+      ]
     }
   ],
   "sources": [
@@ -36,18 +48,21 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_53"
     },
     {
-      "label": "Wikipedia, Connecticut Route 107",
-      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_107"
-    },
-    {
       "label": "Wikipedia, Saugatuck Reservoir",
       "url": "https://en.wikipedia.org/wiki/Saugatuck_Reservoir"
     },
     {
       "label": "Wikipedia, Redding, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Redding,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Redding%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Connecticut Route 107",
+      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_107"
+    },
+    {
+      "label": "Wikipedia, Redding Center Historic District",
+      "url": "https://en.wikipedia.org/wiki/Redding_Center_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

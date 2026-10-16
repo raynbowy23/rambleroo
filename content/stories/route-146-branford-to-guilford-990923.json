@@ -1,29 +1,40 @@
 {
   "id": "route-146-branford-to-guilford-990923",
-  "tagline": "The shore way from Branford to the Guilford green.",
+  "tagline": "Shore roads link former summer resorts, railroad crossings and Guilford Green",
   "motifs": [
     "harbor-village",
     "steeple-town"
   ],
   "intro": [
-    "Route 146 slips behind the Branford green and heads south to the Sound at Indian Neck, then east along the shore to Pine Orchard. There it turns inland by Stony Creek Road and Leetes Island Road into Guilford, passing under the Amtrak tracks several times on the way, and comes round the south side of the Guilford green to US 1.",
-    "In the middle of the 19th century Branford was a resort with some twenty hotels, the Montowese House at Indian Neck and the Sheldon House at Pine Orchard among them. Guilford is older. Its 24 Puritan families signed their covenant at sea in 1639."
+    "Route 146 reaches Long Island Sound at Indian Neck and follows the shore toward Pine Orchard before turning inland. It crosses the Branford River and passes beneath Amtrak tracks several times on the way to Guilford. The state scenic designation begins 0.84 miles from the road’s western end in Branford and continues to its eastern end. Within that drive, the Route 146 Historic District preserves rural houses and a road layout shaped before World War II.",
+    "In the historic district, the road began in the early 18th century among scattered farmsteads. The railway arrived in 1852; when its tracks were raised and widened in the 1890s, stone overpasses replaced grade crossings. State assistance later paid for road improvements, and crews widened, paved and smoothed the roadway in the 1920s and 1930s. The Route 146 number dates to 1932, but the shore roads through Indian Neck and Pine Orchard joined it in 1962.",
+    "From Branford, the drive passes behind the green before heading south to Indian Neck and east to Pine Orchard. It then turns inland toward Stony Creek Road and Leetes Island Road. Crossing into Guilford, it reaches Water Street and Boston Street, passes the south side of Guilford Green and finishes at US 1 east of the center."
   ],
   "moments": [
     {
       "title": "Indian Neck",
       "kind": "town",
       "scene": "coast",
-      "text": "Trolleys once ran down to Sybil and Limewood avenues, where the tourist trade kept a bait shop, inns and a Dairy Joy, and the shops closed as the houses turned year-round.",
+      "text": "Indian Neck’s peninsula borders Branford Harbor, and its shore roads once carried trolley passengers into a summer resort district. In the early to mid-20th century, service reached Sybil and Limewood avenues, where a commercial area included a general store, bait shop, restaurants and an ice-cream business. Many houses were second homes. As the neighborhood became more residential year-round, those businesses gradually closed. The Montasco Inn was demolished in the 1960s, and fire destroyed the Waverly Inn in the early 1970s. Route 146 still reaches Indian Neck by Sybil Avenue before turning east along Limewood Avenue beside the shore.",
       "motifs": [
         "harbor-village"
+      ]
+    },
+    {
+      "title": "Pine Orchard Union Chapel",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "A small belfry and latticework in the gable ends distinguish Pine Orchard Union Chapel, built for a seasonal congregation. Pine Orchard developed as a summer resort in the 1850s and grew rapidly in the 1880s and early 1890s. Summer residents began discussing a chapel in 1895 and had raised enough money to start construction the following year. Brown and Berger of New Haven designed the building, dedicated on July 4, 1897. Alongside July and August services, it hosted lectures, music and social events. The chapel remains in use, mainly for weddings, memorial services and meetings.",
+      "at": [
+        -72.77611111,
+        41.26666667
       ]
     },
     {
       "title": "Guilford Green",
       "kind": "town",
       "scene": "town",
-      "text": "The road runs along the south side of the 7.7-acre green, ringed with shops, churches and the town hall, and ends at US 1 a little east of it.",
+      "text": "Route 146 follows the south side of Guilford Green on Boston Street. The green occupies 7.7 acres in the historic district, surrounded by shops, churches, the town hall and the Nathanael B. Greene Community Center. The road’s approach has changed: when Route 146 was numbered in 1932, it turned north along what is now Route 77 to reach US 1. In 1955, the eastern section shifted to Boston Street, while Route 77 extended south along the former alignment. That change gave Route 146 its present finish, continuing past the green to US 1 east of the town center.",
       "motifs": [
         "steeple-town"
       ]
@@ -36,13 +47,20 @@
     },
     {
       "label": "Wikipedia, Branford, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Branford,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Branford%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Route 146 Historic District",
+      "url": "https://en.wikipedia.org/wiki/Route_146_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Pine Orchard Union Chapel",
+      "url": "https://en.wikipedia.org/wiki/Pine_Orchard_Union_Chapel"
     },
     {
       "label": "Wikipedia, Guilford, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Guilford,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Guilford%2C_Connecticut"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

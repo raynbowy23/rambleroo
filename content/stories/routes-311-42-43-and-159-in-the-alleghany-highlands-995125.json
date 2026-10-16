@@ -1,19 +1,39 @@
 {
   "id": "routes-311-42-43-and-159-in-the-alleghany-highlands-995125",
-  "tagline": "Over Catawba Mountain and down the creek valleys to Paint Bank.",
+  "tagline": "Creek valleys and mountain crossings link Paint Bank with Catawba.",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "Out of Hanging Rock, Route 311 leaves the Roanoke Valley along Mason Creek and climbs Catawba Mountain, crossing the Appalachian Trail on top. It drops into the Catawba valley, enters the Jefferson National Forest at McAfee Gap and follows Craig Creek to New Castle, the only town in Craig County. Then it climbs Potts Mountain and comes down to Paint Bank.",
-    "The other roads come in from the sides. Route 42 drops off Johns Creek Mountain into New Castle, and Route 43 follows the James River on Narrow Passage Road from Buchanan to Eagle Rock, where the road passes through a water gap between Rathole and Crawford mountains."
+    "Route 311 crosses Potts Mountain and Catawba Mountain, linking creek valleys with stretches of Jefferson National Forest. It is a Virginia Byway north of Route 419; Route 43 also carries the designation except south of the Altavista bypass. The Commonwealth designates Virginia Byways as scenic roads that introduce travelers to alternative destinations. On Route 43, Narrow Passage Road follows the James River between Buchanan and Eagle Rock, passing through a water gap between Rathole and Crawford mountains.",
+    "The road numbers have changed along these valleys. Route 42 once continued northeast from New Castle along what is now Route 615, toward Eagle Rock. The gap in Route 42's numbered alignment was never completely filled; part of Route 615 once carried Route 43. The present Route 42 section ends at Route 311 in New Castle, while Route 43 follows the James River between Eagle Rock and Buchanan.",
+    "From Sweet Chalybeate, follow Route 311 through Sweet Springs and over Peters Mountain to Paint Bank, then cross Potts Mountain toward New Castle. Route 42 provides a side trip from New Castle toward Meadow Creek Falls and Simmonsville. Back on Route 311, continue through the Craig Creek valley and Catawba, cross the Appalachian Trail on Catawba Mountain, and descend toward Hanging Rock."
   ],
   "moments": [
+    {
+      "title": "Paint Bank",
+      "kind": "town",
+      "scene": "mountain",
+      "text": "Paint Bank occupies the valley between Potts Mountain and Peters Mountain, where Routes 18 and 311 meet. The Sweet Springs and Price's Mountain Turnpike passed through the village, a stagecoach stop between Fincastle and Sweet Springs. Rail transport followed: tracks reached Paint Bank in 1909, and daily trains carried ore and lumber out while bringing passengers and goods in. The tracks were removed during the 1930s. Potts Creek runs through the village, whose mill building dates to 1873 rather than the original establishment of the mill site. Its train depot dates to 1909, the year the tracks reached the village.",
+      "at": [
+        -80.26194444,
+        37.56888889
+      ]
+    },
+    {
+      "title": "Meadow Creek Falls",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "Meadow Creek Falls marks a change in Route 42: the road reaches a twisting section beside the creek. Toward New Castle, it descends through the gap between Sinking Creek Mountain and Johns Creek Mountain, then down the latter mountain's slopes. The descent from Looney to New Castle runs from 2,570 feet to 1,310 feet.",
+      "motifs": [
+        "waterfall-cove"
+      ]
+    },
     {
       "title": "McAfee Knob",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Four miles up the Appalachian Trail from Route 311, a ledge sticks out like a diving platform 1,600 feet above the Catawba Valley, reckoned the most photographed spot on the trail.",
+      "text": "McAfee Knob projects from Catawba Mountain above a valley 1,600 feet below. The overlook takes a separate hike along the Appalachian Trail from Route 311. Its 270-degree panorama includes North Mountain to the west, Tinker Cliffs to the north and the Roanoke Valley to the east. Much of Catawba Mountain was open farmland in the mid-1900s; the knob's ridgeline is covered in pine forest. The name commemorates James McAfee, a Scottish-Irish immigrant who settled in the Catawba Valley in the late 1730s. Volunteers of the Roanoke Appalachian Trail Club maintain hiking trails in this region.",
       "at": [
         -80.036274,
         37.392466
@@ -21,57 +41,33 @@
       "motifs": [
         "rolling-ridges"
       ]
-    },
-    {
-      "title": "Meadow Creek Falls",
-      "kind": "roadside",
-      "scene": "forest",
-      "text": "Past the falls Route 42 turns twisty and descends between Sinking Creek and Johns Creek mountains, on a drop of 1,260 feet from Looney to New Castle.",
-      "motifs": [
-        "waterfall-cove"
-      ]
-    },
-    {
-      "title": "Paint Bank",
-      "kind": "town",
-      "scene": "mountain",
-      "text": "Named for the red clay in the banks of Potts Creek, once used for war paint and pottery, and known in the Civil War, for its mixed loyalties, as the Union Hole.",
-      "at": [
-        -80.26194444,
-        37.56888889
-      ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
-    {
       "label": "Wikipedia, Route 311 (Virginia–West Virginia)",
-      "url": "https://en.wikipedia.org/wiki/Route_311_(Virginia%E2%80%93West_Virginia)"
-    },
-    {
-      "label": "Wikipedia, Virginia State Route 42",
-      "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_42"
+      "url": "https://en.wikipedia.org/wiki/Route_311_%28Virginia%E2%80%93West_Virginia%29"
     },
     {
       "label": "Wikipedia, Virginia State Route 43",
       "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_43"
     },
     {
-      "label": "Wikipedia, McAfee Knob",
-      "url": "https://en.wikipedia.org/wiki/McAfee_Knob"
+      "label": "Wikipedia, List of Virginia Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
     },
     {
-      "label": "Wikipedia, New Castle, Virginia",
-      "url": "https://en.wikipedia.org/wiki/New_Castle,_Virginia"
+      "label": "Wikipedia, Virginia State Route 42",
+      "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_42"
     },
     {
       "label": "Wikipedia, Paint Bank, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Paint_Bank,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Paint_Bank%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, McAfee Knob",
+      "url": "https://en.wikipedia.org/wiki/McAfee_Knob"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

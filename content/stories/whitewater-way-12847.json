@@ -1,19 +1,30 @@
 {
   "id": "whitewater-way-12847",
-  "tagline": "Downhill through the hemlocks to a road built for a waterfall.",
+  "tagline": "A forested descent follows a highway extension built for waterfall visitors.",
   "motifs": [
     "waterfall-cove"
   ],
   "intro": [
-    "From US 64 at Sapphire, NC 281 heads south and down, curving through dense forest past Gorges State Park to the South Carolina line, where it turns into SC 130. It is 8.7 miles. This stretch was laid out in 1980, chiefly to bring visitors to the Whitewater Falls overlook.",
-    "Large stands of hemlock and spruce line the way, and in spring native azaleas, rhododendron and mountain laurel bloom beneath them. In 1916 the dam holding Lake Toxaway broke, and the flood down the Toxaway River scoured the gorges the state park now holds, leaving debris piled 15 to 20 feet high."
+    "Whitewater Way descends through dense forest on a curving stretch of NC 281, passing Gorges State Park and Upper Whitewater Falls. North Carolina’s Department of Transportation includes it among the state’s scenic byways, highlighting its access to waterfalls. The drive covers 8.7 miles; NCDOT gives a driving time of 15 minutes. Large stands of hemlock and spruce line this part of the route, with native azaleas, rhododendrons and mountain laurels flowering beneath them in spring. Not all the roadside is public forest: privately owned stretches contain homes, farms and craft shops.",
+    "The highway did not always reach these falls. NC 281 began in 1930 as a route between Lake Toxaway and Tuckasegee. In 1980 it was extended west along US 64 to near Sapphire, then south on new routing to the state line. That extension was intended to connect visitors with the Whitewater Falls overlook maintained by the United States Forest Service.",
+    "Begin at US 64 and NC 281 at Sapphire and follow NC 281 south. The Grassy Ridge entrance gives access to Gorges State Park from this highway. Farther along, Upper Whitewater Falls comes before the South Carolina boundary, where the byway ends and the road continues as SC 130."
   ],
   "moments": [
+    {
+      "title": "Sapphire",
+      "kind": "town",
+      "scene": "mountain",
+      "text": "Sapphire marks the start of Whitewater Way at the junction of US 64 and NC 281. This unincorporated community lies in Transylvania County, 8.5 miles east of Cashiers. The southward road from here belongs to the 1980 extension of NC 281, built to bring visitors to the Whitewater Falls overlook.",
+      "at": [
+        -83.00305556,
+        35.10694444
+      ]
+    },
     {
       "title": "Gorges State Park",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "The Grassy Ridge entrance off NC 281 leads to Rainbow and Turtleback falls on the Horsepasture River, in a park that gets over 91 inches of rain a year.",
+      "text": "The second-growth forest at Gorges State Park follows a history of flood, logging and plans for hydropower. In 1916, the Lake Toxaway dam broke, sending water down the Toxaway River, destroying communities and scouring the gorges. Singer Sewing Machine Company later logged much of the land before selling it to Duke Energy in the 1940s and 1950s. North Carolina bought the parkland from Duke in 1999. Grassy Ridge Access leads to Rainbow and Turtleback falls, which lie on adjoining Pisgah National Forest land rather than inside the park. The land rises more than 2,000 feet in just over three miles, and average annual rainfall exceeds 91 inches.",
       "at": [
         -82.9522,
         35.097
@@ -23,7 +34,7 @@
       "title": "Upper Whitewater Falls",
       "kind": "short walk",
       "scene": "forest",
-      "text": "A short walk from the road, the Whitewater River drops off the mountains close to the South Carolina border, seen from platforms set at several heights.",
+      "text": "The Whitewater River drops through mountain country close to the South Carolina border. Upper Whitewater Falls belongs to a cluster of waterfalls near the meeting of Georgia and the Carolinas. The falls are protected within Nantahala National Forest. Viewing platforms at different heights offer several perspectives on the falling water. The Foothills Trail passes through the base of the falls, while Lower Whitewater Falls lies in South Carolina about two miles downstream. The overlook was the destination behind NC 281’s 1980 extension, which brought the highway south from near Sapphire to the state line.",
       "at": [
         -83.01754,
         35.03583
@@ -34,11 +45,11 @@
     }
   ],
   "practical": [
-    "The road is not recommended for recreational vehicles or buses, and the state guidebook notes that tractor-trailers are prohibited."
+    "Sapphire: NCDOT’s scenic-byway guide prohibits tractor-trailers on this road and does not recommend the route for recreational vehicles or buses. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Whitewater Way",
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways: Whitewater Way",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=40"
     },
     {
@@ -50,10 +61,13 @@
       "url": "https://en.wikipedia.org/wiki/Gorges_State_Park"
     },
     {
+      "label": "Wikipedia, Sapphire, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Sapphire%2C_North_Carolina"
+    },
+    {
       "label": "Wikipedia, Upper Whitewater Falls",
       "url": "https://en.wikipedia.org/wiki/Upper_Whitewater_Falls"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,16 +1,17 @@
 {
   "id": "sierra-heritage-scenic-byway-route-168-2314",
-  "tagline": "Up the western slope, where lumber once rode a flume.",
+  "tagline": "From the San Joaquin Valley to a lake shaped by lumber and power.",
   "intro": [
-    "Out of Clovis, Highway 168 leaves the San Joaquin Valley for the western slope of the Sierra Nevada, passing Prather before climbing toward Shaver Lake and Huntington Lake. The road was once imagined as a crossing to the eastern Sierra. That connection was never built.",
-    "Clovis and Shaver Lake were joined by a different kind of route: a flume that carried lumber downhill to the railroad town. Water did the hauling. The lake later went to Southern California Edison."
+    "The Sierra Heritage Scenic Byway climbs from Clovis in the San Joaquin Valley up the western slope of the Sierra Nevada. The Forest Service describes a 70-mile drive taking about four hours, with access to resort towns, recreation areas and lakes. The Clovis-to-Huntington Lake segment is a National Forest Scenic Byway; the Forest Service describes the full scenic drive as extending to Kaiser Pass Meadow at approximately 9,000 feet.",
+    "Highway 168 began with a larger ambition: a trans-Sierra connection between Fresno and Bishop. The proposed High Sierra Piute Highway would have crossed Piute Pass, but its two segments were never joined. The rugged crest and eastern escarpment would have made construction difficult, and Highway 168 cannot carry a drive across the range. Before the scenic drive, another link joined the mountains to Clovis: water carried rough-cut lumber from a mountain mill to a planing mill beside the railroad station.",
+    "Leaving Clovis, the four-lane expressway becomes two-lane Tollhouse Road at Shepherd Avenue before the foothill ascent. Highway 168 passes through Prather, rejoins Tollhouse Road north of Tollhouse, then takes the name Huntington Lake Road in Ockenden. Shaver Lake comes before Huntington Lake, where the numbered highway ends; Kaiser Pass Road continues beyond Huntington Lake."
   ],
   "moments": [
     {
       "title": "Clovis",
       "kind": "town",
       "scene": "town",
-      "text": "Clovis grew around a railroad stop and a lumber operation whose rough-cut boards arrived by water in a V-shaped flume.",
+      "text": "Water delivered rough-cut lumber to the railroad town of Clovis through a V-shaped flume. When the flume and mill began operating in 1894, lumber workers built homes nearby, followed by services, churches and schools. The mill burned in 1914 and was not rebuilt; Clark Intermediate School and the rodeo grounds occupy its site. A railroad depot survives near the original station site, but it was moved there in 1999 and restored by the Clovis Big Dry Creek Historical Society. The restored depot stands at the northeast corner of Clovis Avenue and Fourth Street.",
       "at": [
         -119.70305556,
         36.82527778
@@ -20,7 +21,7 @@
       "title": "Prather",
       "kind": "town",
       "scene": "mountain",
-      "text": "At Prather, named for the rancher whose land became the town, Highway 168 is still below the climb toward the mountain lakes.",
+      "text": "Prather marks the last community on Highway 168 before the climb into the Sierras toward Shaver Lake and Huntington Lake. Its name honors Joseph L. Prather, who arrived in California in 1872 and whose ranch became the townsite. At 1,657 feet, the community stands below Shaver Lake, at 5,500 feet.",
       "at": [
         -119.51388889,
         37.0375
@@ -30,7 +31,7 @@
       "title": "Shaver Lake",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "At 5,500 feet Shaver Lake once held timber for the flume company's mill, and most of its water now goes on to Big Creek to turn several powerhouses in succession.",
+      "text": "Shaver Lake connects two industries: lumber transport and hydroelectric power. Southern California Edison bought the lake in 1917 from the Fresno Flume and Lumber Company and completed Shaver Lake Dam in 1927. The 180-foot dam was built in blocks, with a copper sheet to make it watertight. Some water goes into Stevenson Creek for fish and other wildlife; the rest is diverted to Big Creek to power several hydroelectric plants in succession. The lake also receives water through tunnels belonging to the Big Creek Hydroelectric Project. The town occupies the southwest shore of this artificial lake on Stevenson Creek.",
       "at": [
         -119.29075,
         37.12597
@@ -39,8 +40,12 @@
   ],
   "sources": [
     {
-      "label": "USDA Forest Service, Sierra National Forest scenic drives",
+      "label": "USDA Forest Service, Sierra National Forest Scenic Drives",
       "url": "https://www.fs.usda.gov/r05/sierra/recreation/opportunities/scenic-drives"
+    },
+    {
+      "label": "Wikipedia, Shaver Lake",
+      "url": "https://en.wikipedia.org/wiki/Shaver_Lake"
     },
     {
       "label": "Wikipedia, California State Route 168",
@@ -53,12 +58,7 @@
     {
       "label": "Wikipedia, Prather, California",
       "url": "https://en.wikipedia.org/wiki/Prather%2C_California"
-    },
-    {
-      "label": "Wikipedia, Shaver Lake",
-      "url": "https://en.wikipedia.org/wiki/Shaver_Lake"
     }
   ],
-  "draft": true,
   "reviewed": false
 }
