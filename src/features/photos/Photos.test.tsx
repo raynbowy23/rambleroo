@@ -1,6 +1,6 @@
 import { afterEach, beforeAll, expect, it, vi } from 'vitest'
 import { cleanup, fireEvent, render, screen } from '@testing-library/react'
-import { MomentPhoto, PhotoGallery, PhotoImage, photoCredit, photoPath } from './Photos'
+import { MomentPhoto, PhotoGallery, PhotoImage, leadPhoto, photoCredit, photoPath } from './Photos'
 import type { Photo } from '../../lib/types'
 
 const photo: Photo = {
@@ -76,4 +76,12 @@ it('keeps an illustration when a moment has no suitable photo', () => {
     </MomentPhoto>,
   )
   expect(screen.getByText('Illustration · no photo yet')).toBeTruthy()
+})
+
+it('leads with a road or place photo over a town photo, and falls back to a town photo', () => {
+  const town = { ...photo, file: '/photos/x/town.jpg', town: 'Greenville' }
+  const place = { ...photo, file: '/photos/x/place.jpg' }
+  expect(leadPhoto([town, place])).toBe(place)
+  expect(leadPhoto([town])).toBe(town)
+  expect(leadPhoto([])).toBeUndefined()
 })

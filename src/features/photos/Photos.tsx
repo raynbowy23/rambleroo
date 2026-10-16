@@ -9,6 +9,8 @@ import { photoPathAt, photoSources } from '../../lib/photoSources'
 export function photoPath(photo: Photo, thumbnail = false) {
   return photoPathAt(thumbnail ? (photo.thumb ?? photo.file) : photo.file, photo.bywayId, PHOTO_ORIGIN)
 }
+/** A road's lead photo for its hero and postcard: the road or one of its places, like its cover on cards, and a town photo only when it has nothing else. */
+export const leadPhoto = (photos: Photo[]) => photos.find((photo) => !photo.town) ?? photos[0]
 /** The 960px copy when there is one: enough for a postcard face, which is drawn 840px wide even in the downloaded PNG. */
 export const postcardPhotoPath = (photo: Photo) => photoPathAt(photo.medium ?? photo.file, photo.bywayId, PHOTO_ORIGIN)
 export function photoSource(photo: Photo) {
