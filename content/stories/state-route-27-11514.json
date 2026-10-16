@@ -1,29 +1,32 @@
 {
   "id": "state-route-27-11514",
-  "tagline": "Up the Carrabassett, along the Dead River, on to Quebec.",
+  "tagline": "A border road follows the Dead River toward Sugarloaf and Kingfield  ",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "From Kingfield, Route 27 follows the Carrabassett River up its valley past Sugarloaf, the third-highest peak in Maine, and over to Stratton and Eustis. Then it passes Flagstaff Lake and traces the Dead River, and north of Eustis the country grows wilder, past Shadagee Falls, Sarampus Falls and the Chain of Ponds, climbing through the Boundary Mountains to the Quebec line at Coburn Gore.",
-    "Benedict Arnold's men came this way in October 1775, bound for Quebec. They found the Dead River running fast enough that they had trouble poling against it, whatever its name said."
+    "Route 27 connects Coburn Gore at the Quebec border with Eustis, Stratton and Carrabassett Valley, passing Sugarloaf Mountain on the way to Kingfield. North of Eustis, the road parallels the North Branch Dead River, which flows from Chain of Ponds. MaineDOT records a state scenic-byway designation in 1971, beginning 0.80 mile north of the Routes 16 and 27 junction in Kingfield. Sugarloaf is Maine’s third-highest peak, after Katahdin’s Baxter and Hamlin peaks. The scenic corridor occupies the northern part of a much longer numbered highway, which begins at Newagen in Southport.",
+    "The river corridor carried a much earlier journey. In 1775, Benedict Arnold’s expedition ascended the North Branch through Chain of Ponds toward Quebec’s Chaudière River. Part of that expedition route now lies beneath Flagstaff Lake, enlarged when the Dead River was dammed in the twentieth century. The enlarged lake also drowned the meeting of the North and South branches of the Dead River at Eustis in 1950.",
+    "Drive south from Coburn Gore toward Eustis, then Stratton, where Route 16 joins Route 27. Flagstaff Lake is one of Eustis’s sites of interest. The shared highway continues through Carrabassett Valley past Sugarloaf to Kingfield. There, the Carrabassett meets its West Branch in the village."
   ],
   "moments": [
     {
-      "title": "Kingfield",
-      "kind": "town",
-      "scene": "river",
-      "text": "The Stanley twins, sons of one of the early settlers of this mill town on the Carrabassett, went on to build the Stanley Steamer automobile.",
+      "title": "Coburn Gore",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "Two houses across Route 27 from the inspection building explain the remoteness of this border station: it was built with housing for its principal officers. The 1931 station belonged to a federal program to improve border security and create Depression-era jobs. Prohibition smuggling, growing automobile use and immigration quotas helped drive that program. The brick-veneered inspection building retains much of its Colonial Revival styling. Its central lobby separates immigration and customs service areas. Garage wings extend from either side of the main building, and a metal canopy shelters two lanes where vehicles are processed at the crossing.",
+      "notice": "The inspection building and the officers’ residences occupy opposite sides of Route 27.",
       "at": [
-        -70.15389,
-        44.95917
+        -70.80792,
+        45.37865
       ]
     },
     {
       "title": "Flagstaff Lake",
       "kind": "roadside",
       "scene": "river",
-      "text": "Long Falls Dam raised the lake out of a smaller one in 1950, and parts of four abandoned townships, Flagstaff among them, lie under it now.",
+      "text": "Flagstaff Lake covers parts of four abandoned townships: Flagstaff, Bigelow, Dead River and Carrying Place. The lake was smaller before Long Falls Dam impounded the Dead River in 1950, enlarging it into a reservoir. The project had been contested since 1923, with Central Maine Power president Walter Wyman opposed by legislator and future governor Percival Proctor Baxter. The dam generates no electricity itself. It regulates water for eight downstream Kennebec hydropower projects and controls flooding. The Bigelow Mountain Range overlooks the southern shore. The North and South branches meet in the lake, forming the Dead River.",
+      "notice": "The Bigelow Mountain Range rises along the lake’s southern shore.",
       "at": [
         -70.31456,
         45.19414
@@ -33,54 +36,61 @@
       ]
     },
     {
-      "title": "Coburn Gore",
-      "kind": "roadside",
-      "scene": "forest",
-      "text": "At the line stands a border station built in 1931, when Prohibition smuggling was rampant, with houses for its officers because the nearest town, Eustis, is 22 miles back.",
+      "title": "Kingfield",
+      "kind": "town",
+      "scene": "river",
+      "text": "The Carrabassett River powered Kingfield’s sawmills, flour mill, tannery and rake factory; those mills are now closed. The town’s Stanley twins, Francis and Freelan, manufactured photographic dry plates and the Stanley Steamer automobile. Their sister Chansonetta photographed rural life, and the Stanley Museum celebrates the family’s work. In the early 1950s, local residents began developing Sugarloaf as a ski resort. Kingfield is now a gateway to the mountain. The twins also designed the Amos G. Winter House, whose original heating system used a railroad engine boiler. Steam powered more than their automobiles.",
       "at": [
-        -70.80792,
-        45.37865
+        -70.15389,
+        44.95917
       ]
     }
   ],
   "sources": [
     {
-      "label": "National Scenic Byway Foundation, High Peaks Scenic Byway (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20260225020534/https://nsbfoundation.com/sb/high-peaks-scenic-byway-2/"
-    },
-    {
-      "label": "MaineDOT, Scenic Byways open data",
-      "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+      "label": "Wikipedia, North Branch Dead River",
+      "url": "https://en.wikipedia.org/wiki/North_Branch_Dead_River"
     },
     {
       "label": "Wikipedia, Maine State Route 27",
       "url": "https://en.wikipedia.org/wiki/Maine_State_Route_27"
     },
     {
-      "label": "Wikipedia, Kingfield, Maine",
-      "url": "https://en.wikipedia.org/wiki/Kingfield,_Maine"
+      "label": "Wikipedia, Coburn Gore–Woburn Border Crossing",
+      "url": "https://en.wikipedia.org/wiki/Coburn_Gore%E2%80%93Woburn_Border_Crossing"
+    },
+    {
+      "label": "Maine Department of Transportation, Scenic Byways Open Data",
+      "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
       "label": "Wikipedia, Sugarloaf Mountain (Maine)",
-      "url": "https://en.wikipedia.org/wiki/Sugarloaf_Mountain_(Maine)"
-    },
-    {
-      "label": "Wikipedia, Flagstaff Lake (Maine)",
-      "url": "https://en.wikipedia.org/wiki/Flagstaff_Lake_(Maine)"
-    },
-    {
-      "label": "Wikipedia, Eustis, Maine",
-      "url": "https://en.wikipedia.org/wiki/Eustis,_Maine"
+      "url": "https://en.wikipedia.org/wiki/Sugarloaf_Mountain_%28Maine%29"
     },
     {
       "label": "Wikipedia, Benedict Arnold's expedition to Quebec",
       "url": "https://en.wikipedia.org/wiki/Benedict_Arnold%27s_expedition_to_Quebec"
     },
     {
-      "label": "Wikipedia, Coburn Gore–Woburn Border Crossing",
-      "url": "https://en.wikipedia.org/wiki/Coburn_Gore%E2%80%93Woburn_Border_Crossing"
+      "label": "Wikipedia, Eustis, Maine",
+      "url": "https://en.wikipedia.org/wiki/Eustis%2C_Maine"
+    },
+    {
+      "label": "Wikipedia, Kingfield (CDP), Maine",
+      "url": "https://en.wikipedia.org/wiki/Kingfield_%28CDP%29%2C_Maine"
+    },
+    {
+      "label": "Wikipedia, Flagstaff Lake (Maine)",
+      "url": "https://en.wikipedia.org/wiki/Flagstaff_Lake_%28Maine%29"
+    },
+    {
+      "label": "Wikipedia, Kingfield, Maine",
+      "url": "https://en.wikipedia.org/wiki/Kingfield%2C_Maine"
+    },
+    {
+      "label": "Wikipedia, Amos G. Winter House",
+      "url": "https://en.wikipedia.org/wiki/Amos_G._Winter_House"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

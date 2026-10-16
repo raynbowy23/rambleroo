@@ -1,60 +1,71 @@
 {
   "id": "route-680-contra-costa-county-10254",
-  "tagline": "Up the San Ramon Valley under Mount Diablo.",
+  "tagline": "A valley freeway between Las Trampas Ridge and the Diablo Range",
   "intro": [
-    "From the Alameda County line Interstate 680 runs north up the San Ramon Valley along the line of the Calaveras Fault, through San Ramon, Danville and Alamo to the Highway 24 junction at Walnut Creek. The valley narrows at Danville, between Las Trampas Ridge on the west and the Diablo Range on the east, with Mount Diablo standing up behind the town.",
-    "Danville farmed wheat first, then fruit and nuts once the Southern Pacific ran a spur line through in 1891. The freeway cut through Danville in the mid-1960s, and an old railroad line through town is now the Iron Horse Regional Trail."
+    "Interstate 680 follows the San Ramon Valley through Contra Costa County, with local-road connections in San Ramon, Danville and Alamo before Walnut Creek. At Danville, the valley narrows between Las Trampas Ridge and the Diablo Range, with Mount Diablo to the east. The section from the Alameda county line to State Route 24 belongs to the State Scenic Highway System.",
+    "By the 1920s, a road connected Martinez with valley towns and Mission San Jose; most of it entered the state highway system in 1933. The later SR 21 alignment used San Ramon Valley Boulevard, Danville Boulevard and Main Street in Walnut Creek. The Bureau of Public Roads approved the Bay Area interstate loop in 1955. The freeway bypass of downtown Walnut Creek opened in 1960, connecting with SR 24 toward Oakland. By the mid-1960s, the new I-680 freeway cut through Danville.",
+    "From the SR 24 junction in Walnut Creek, drive south through Alamo to Danville. Las Trampas Ridge parallels the interstate between Walnut Creek and San Ramon. In Danville, an earlier transport corridor has become the Iron Horse Regional Trail, a former railroad converted for walking and cycling. Continue through San Ramon to the Alameda county line, with the valley’s western ridge paralleling the interstate."
   ],
   "moments": [
     {
-      "title": "Danville",
+      "title": "Alamo",
       "kind": "town",
-      "scene": "town",
-      "text": "The 1891 Southern Pacific depot now holds the Museum of the San Ramon Valley, and the Danville Hotel, moved in 1927 to face Hartz Avenue, still stands downtown.",
+      "scene": "prairie",
+      "text": "At Alamo Elementary School, the courtyard holds a bell from the 1880s, even though the school itself opened in 1965. It is the fourth school to bear the Alamo name; the first was built in 1871. Mary Ann and John Jones passed through Alamo in 1847 and returned in 1851. John became the first postmaster in 1852, while Mary Ann worked on schooling children and starting a Cumberland Presbyterian church. A San Ramon Valley Historical Society plaque accompanies the bell, commemorating early education in Alamo. The three earlier Alamo schools stood near the present corner of Stone Valley Road West and Danville Boulevard.",
       "at": [
-        -122.0,
-        37.82167
+        -122.03222,
+        37.85028
       ]
     },
     {
       "title": "Tao House",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Eugene O'Neill spent his Nobel Prize money on a house in the hills above Danville and wrote The Iceman Cometh and Long Day's Journey Into Night there between 1937 and 1944.",
+      "text": "Eugene O'Neill used his 1936 Nobel Prize money to build Tao House above Danville. He and his wife, actress Carlotta Monterey, designed the two-story house themselves and lived there from 1937 to 1944. Here he wrote The Iceman Cometh and Long Day's Journey Into Night. The house faced demolition in the early 1970s; women including Darlene Blair and Lois Sizoo formed the Eugene O'Neill Foundation to raise money to buy it. National Park Service management followed in 1980. The foundation maintains an archive at the house, including manuscripts, photographs and the playwright’s original phonograph record collection.",
       "at": [
         -122.02972,
         37.82444
       ]
     },
     {
-      "title": "Alamo",
+      "title": "Danville",
       "kind": "town",
-      "scene": "prairie",
-      "text": "In 1847 John Jones stopped his wagon here to ask Mary Ann whether she had ever seen anything so beautiful, and she wrote of wild oats waist high, rippling like a lake.",
+      "scene": "town",
+      "text": "The Museum of the San Ramon Valley occupies the restored 1891 Southern Pacific depot. The railroad changed both farming and the shape of town: growers shifted from wheat to fruit and nuts after the spur arrived in 1891. John Hartz sold land for the depot, then subdivided lots east of the station, shifting the town's focus from Front Street to Hartz Avenue. The Danville Hotel was moved to face Hartz Avenue in 1927. Passenger service ended in 1934; freight trains continued through town until the line was abandoned in 1978. The former railway through town now carries the Iron Horse Regional Trail.",
       "at": [
-        -122.03222,
-        37.85028
+        -122.0,
+        37.82167
       ]
     }
   ],
+  "practical": [
+    "Tao House: Private vehicles are not allowed at Tao House. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "Wikipedia, Interstate 680 (California)",
-      "url": "https://en.wikipedia.org/wiki/Interstate_680_(California)"
+      "label": "Wikipedia, Danville, California",
+      "url": "https://en.wikipedia.org/wiki/Danville%2C_California"
     },
     {
-      "label": "Wikipedia, Danville, California",
-      "url": "https://en.wikipedia.org/wiki/Danville,_California"
+      "label": "Wikipedia, Interstate 680 (California)",
+      "url": "https://en.wikipedia.org/wiki/Interstate_680_%28California%29"
+    },
+    {
+      "label": "Wikipedia, Las Trampas Ridge",
+      "url": "https://en.wikipedia.org/wiki/Las_Trampas_Ridge"
+    },
+    {
+      "label": "Wikipedia, Alamo, California",
+      "url": "https://en.wikipedia.org/wiki/Alamo%2C_California"
     },
     {
       "label": "Wikipedia, Eugene O'Neill National Historic Site",
       "url": "https://en.wikipedia.org/wiki/Eugene_O%27Neill_National_Historic_Site"
     },
     {
-      "label": "Wikipedia, Alamo, California",
-      "url": "https://en.wikipedia.org/wiki/Alamo,_California"
+      "label": "Wikipedia, Danville station (California)",
+      "url": "https://en.wikipedia.org/wiki/Danville_station_%28California%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

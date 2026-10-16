@@ -1,16 +1,27 @@
 {
   "id": "whistle-stop-byway-995127",
-  "tagline": "Up Big Stony Creek on an old railroad's trail.",
+  "tagline": "Creek valleys connect a railway’s timber trade with industrial town names.",
   "intro": [
-    "Near Pembroke, a New River town named in 1845 by a postmaster who came across the name in his reading, Big Stony Creek Road turns off and follows the creek up toward West Virginia. It keeps mostly to the line of the Big Stony Railway, which ran up the creek from the New River and was carried on by the Norfolk and Western to Potts Creek. The upper 34 miles of track were given up in 1934.",
-    "The road passes into Monroe County, West Virginia, and comes back into Virginia as Waiteville Road, which runs on to Route 311 at Paint Bank."
+    "Big Stony Creek Road runs beside the mountain country of Hickory Flats, where long ridges rise above narrow stream valleys. Goldbond stands on Stony Creek and Route 635; farther along the journey, Paint Bank lies between Potts and Peters mountains. The creeks also explain the course of the railway that once served this country.",
+    "Construction of the Big Stony Railway began at the New River in 1892 and reached Interior in 1896. Norfolk and Western acquired the line in 1905, extended it to the state border and chartered additional companies to complete the connection to Potts Creek. Its full extent was reached by 1910, but the upper 34 miles were abandoned in 1934.",
+    "Begin with Ripplemead on the New River, then Goldbond on Stony Creek. At the Paint Bank end of the journey, Potts Creek runs through a village where trains once carried out ore and lumber and brought in passengers and goods."
   ],
   "moments": [
+    {
+      "title": "Ripplemead",
+      "kind": "town",
+      "scene": "river",
+      "text": "Ripplemead stands on the New River, at the railway connection that sent trains into the Big Stony Creek valley. The Big Stony line followed the creek on an easy grade toward mountain timber stands. Norfolk and Western acquired the railway in 1905 and extended it toward the state border. After the upper 34 miles were abandoned in 1934, the remaining five miles continued as the Potts Valley Branch, serving a lime plant at Kimballton. The larger railway eventually connected Big Stony Creek with Potts Creek, linking the New River side of the mountains to a James River tributary.",
+      "at": [
+        -80.68611111,
+        37.33694444
+      ]
+    },
     {
       "title": "Goldbond",
       "kind": "town",
       "scene": "forest",
-      "text": "A Stony Creek settlement once called Kerns after a bread company, renamed for the Gold Bond wallboard of the National Gypsum works that came later.",
+      "text": "Two businesses have supplied this Stony Creek community with its names. It was Kerns when the Kern’s Bread Company operated here; Goldbond came from the National Gypsum works and its Gold Bond wallboard. The post office followed a different kind of continuity. Opened in 1923 on Reed family land, it later moved into the home of postmasters Irene and Tyree Moser. The Virginian Leader recorded more than sixty years of family postal service when the couple retired and the office moved in the early 1990s. A later community post office operated inside the local store until its closure on July 30, 2005.",
       "at": [
         -80.66638889,
         37.38
@@ -20,7 +31,7 @@
       "title": "Paint Bank",
       "kind": "town",
       "scene": "river",
-      "text": "Between Potts and Peters mountains, the red clay of Potts Creek gave the Cherokee war paint and pottery, and later settlers paint and brick.",
+      "text": "At Paint Bank, the railway reached a dead end and trains had to turn back. Ore and lumber went out; passengers and goods came in during the mining and timber boom of the early twentieth century. The depot dates to 1909 and the section foreman’s cottage to 1910. The tracks were removed during the 1930s. Potts Creek runs through the village between Potts and Peters mountains, the same setting that once supported the timber and mineral traffic. The village had already served stagecoaches on the Sweet Springs and Price’s Mountain Turnpike before the railroad era.",
       "at": [
         -80.26194444,
         37.56888889
@@ -29,26 +40,25 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
+      "label": "Wikipedia, Paint Bank, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Paint_Bank%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Goldbond, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Goldbond%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Hickory Flats",
+      "url": "https://en.wikipedia.org/wiki/Hickory_Flats"
     },
     {
       "label": "Wikipedia, Big Stony Railway",
       "url": "https://en.wikipedia.org/wiki/Big_Stony_Railway"
     },
     {
-      "label": "Wikipedia, Pembroke, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Pembroke,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Goldbond, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Goldbond,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Paint Bank, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Paint_Bank,_Virginia"
+      "label": "Wikipedia, Ripplemead, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Ripplemead%2C_Virginia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

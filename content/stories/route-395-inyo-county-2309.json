@@ -1,54 +1,76 @@
 {
   "id": "route-395-inyo-county-2309",
-  "tagline": "Up the Owens Valley to where Los Angeles takes its water.",
+  "tagline": "A valley highway through volcanic ground and Los Angeles waterworks",
   "intro": [
-    "North of Independence, US 395 runs up the Owens Valley past the small Fort Independence Indian Reservation, through rangeland of big sagebrush and rabbitbrush, toward Big Pine. Near Tinemaha Reservoir the Los Angeles Aqueduct draws its water from the Owens River, and north of that point there is more green to be seen.",
-    "Frémont named the valley in 1845 for Richard Owens, one of his guides. Camp Independence was set up on Oak Creek on the Fourth of July, 1862, during the Owens Valley Indian War."
+    "US 395 runs through the Owens Valley between the Sierra Nevada and the White and Inyo mountains. North of Independence, shrub-covered rangeland dominates the valley floor, with sagebrush and rabbitbrush among its plants. The highway crosses the Big Pine volcanic field and passes Tinemaha Reservoir, part of the Los Angeles Aqueduct system. A stretch beginning at Fort Independence is officially designated a California scenic highway. Near Tinemaha, the aqueduct draws from the Owens River; the highway passes more vegetation north of that diversion point.",
+    "Before the highway number, the Camino Sierra trail loosely followed this corridor. Prospectors used it during the gold and silver rushes; construction of the Los Angeles Aqueduct brought renewed use beginning in 1908. Southern Pacific promoted the route’s scenery as a side trip from its rail lines by 1912. US 395 extended south over the Camino Sierra in the 1930s, using existing state roads.",
+    "Traveling south from Fish Springs, Tinemaha Reservoir lies nearby on the Owens River. The road continues through the volcanic field toward Fort Independence and Independence. Near the southern end, the former army post has a historical marker on Highway 395, while the Mount Whitney Fish Hatchery occupies a site on Oak Creek just north of town."
   ],
   "moments": [
-    {
-      "title": "Mount Whitney Fish Hatchery",
-      "kind": "separate excursion",
-      "scene": "mountain",
-      "text": "A Tudor Revival hatchery on Oak Creek, its walls built of 3,500 tons of granite gathered within a quarter mile, begun in 1916 to match the mountains and last forever.",
-      "at": [
-        -118.24469,
-        36.83111
-      ]
-    },
     {
       "title": "Tinemaha Reservoir",
       "kind": "roadside",
       "scene": "river",
-      "text": "A dam on the Owens River holds this link in the Los Angeles Aqueduct, where Roy Rogers filmed Under Western Stars in 1938 and tundra swans come for the winter.",
+      "text": "A dam on the Owens River creates Tinemaha Reservoir, one component of the Los Angeles Aqueduct system operated by the Los Angeles Department of Water and Power. It also serves migratory birds, including loons and American white pelicans; tundra swans winter here. The reservoir supplied a setting for the 1938 Roy Rogers western Under Western Stars.",
       "at": [
         -118.225,
         37.058
+      ]
+    },
+    {
+      "title": "Fort Independence",
+      "kind": "roadside",
+      "scene": "desert",
+      "text": "A historical marker on Highway 395 identifies the former Fort Independence site. The army established Camp Independence on Oak Creek on July 4, 1862, during the Owens Valley Indian War. After a brief abandonment in 1864, Nevada Volunteers reoccupied it in 1865 during renewed conflict with local Paiute people. The army finally left in 1877. The Fort Independence Indian Community of Paiute Indians is a federally recognized tribe, governed by an elected tribal council. The reservation was established later, through executive orders in 1915 and 1916, on land adjacent to Oak Creek.",
+      "at": [
+        -118.22164722,
+        36.83338889
+      ]
+    },
+    {
+      "title": "Mount Whitney Fish Hatchery",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "Local granite gives the Mount Whitney Fish Hatchery its heavy walls: 3,500 short tons came from within a quarter mile of the site. Independence residents began raising money for the site in 1915. The design team chose Tudor Revival architecture, and construction began in March 1916. In 2008, a mudslide in the fire-damaged Oak Creek watershed severely damaged the ponds and water supplies. The main building escaped major damage. Restoration allowed the interpretive center and display pond to reopen in May 2009. The granite walls measure two to three feet thick beneath a roof of red Spanish tile made in Lincoln, California.",
+      "at": [
+        -118.24469,
+        36.83111
       ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, U.S. Route 395 in California",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_395_in_California"
+      "label": "Wikipedia, Big Pine volcanic field",
+      "url": "https://en.wikipedia.org/wiki/Big_Pine_volcanic_field"
+    },
+    {
+      "label": "Wikipedia, Tinemaha Reservoir",
+      "url": "https://en.wikipedia.org/wiki/Tinemaha_Reservoir"
     },
     {
       "label": "Wikipedia, Owens Valley",
       "url": "https://en.wikipedia.org/wiki/Owens_Valley"
     },
     {
-      "label": "Wikipedia, Fort Independence Indian Community of Paiute Indians",
-      "url": "https://en.wikipedia.org/wiki/Fort_Independence_Indian_Community_of_Paiute_Indians"
+      "label": "Wikipedia, U.S. Route 395 in California",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_395_in_California"
+    },
+    {
+      "label": "Wikipedia, Fish Springs, California",
+      "url": "https://en.wikipedia.org/wiki/Fish_Springs%2C_California"
+    },
+    {
+      "label": "Wikipedia, Fort Independence (California)",
+      "url": "https://en.wikipedia.org/wiki/Fort_Independence_%28California%29"
     },
     {
       "label": "Wikipedia, Mount Whitney Fish Hatchery",
       "url": "https://en.wikipedia.org/wiki/Mount_Whitney_Fish_Hatchery"
     },
     {
-      "label": "Wikipedia, Tinemaha Reservoir",
-      "url": "https://en.wikipedia.org/wiki/Tinemaha_Reservoir"
+      "label": "Wikipedia, Fort Independence Indian Community of Paiute Indians",
+      "url": "https://en.wikipedia.org/wiki/Fort_Independence_Indian_Community_of_Paiute_Indians"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

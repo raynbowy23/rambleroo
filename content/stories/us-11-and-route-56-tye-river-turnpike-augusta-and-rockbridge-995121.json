@@ -1,16 +1,17 @@
 {
   "id": "us-11-and-route-56-tye-river-turnpike-augusta-and-rockbridge-995121",
-  "tagline": "Across Natural Bridge, and up the Tye River Turnpike.",
+  "tagline": "Over a limestone arch, then up the Blue Ridge beside a creek",
   "intro": [
-    "This byway comes in two short pieces. US 11 runs south out of Lexington to Natural Bridge and goes over the top of it.",
-    "To the northeast, Route 56 leaves US 11 at Steeles Tavern, 1,683 feet up and a short way from the McCormick farm, as the Tye River Turnpike. It enters the George Washington National Forest, passes under the railroad at Vesuvius and winds up the Blue Ridge beside Little Marys Creek to meet the Parkway at Tye River Gap."
+    "US 11 crosses the top of Natural Bridge, a limestone arch above Cedar Creek; protective fences limit the view from the roadway. On Route 56, the Tye River Turnpike enters George Washington National Forest and winds up the Blue Ridge Mountains beside Little Marys Creek. The climb reaches Tye River Gap, where Route 56 crosses into Nelson County and becomes Crabtree Falls Highway. Beyond the Parkway junction, the highway descends through Montebello toward the Tye River.",
+    "Before the interstates, US 11 was the main long-distance road through western Virginia. Its numbered identity came in 1926, after the corridor had entered the state highway system in 1918 under earlier route numbers. Much of US 11 roughly follows the Great Wagon Road, the colonial route along the Appalachians from Georgia to Pennsylvania. Most of US 11 now closely parallels I-81, following much the same alignment it received in 1926.",
+    "For the US 11 section, travel from Lexington toward Natural Bridge, where the highway meets Route 130. The separate Route 56 drive begins at US 11 in Steeles Tavern, just east of Cyrus McCormick Farm. It passes beneath the railroad at Vesuvius before climbing to the Blue Ridge Parkway at Tye River Gap."
   ],
   "moments": [
     {
       "title": "Lexington",
       "kind": "town",
       "scene": "town",
-      "text": "Named in 1778 for the Massachusetts town of the Revolution's first shot, the second of many American places to borrow the name.",
+      "text": "The Chessie Nature Trail follows a former C&O railway bed beside the Maury River. That river forms Lexington’s northeastern boundary, while US 11 and US 60 meet in the city. Lexington took its name in 1778 from Lexington, Massachusetts, the Revolutionary War namesake. It is home to Virginia Military Institute and Washington and Lee University. On the Washington and Lee campus, a statue commemorates Cyrus McCormick, whose mechanical reaper was developed at his family’s Rockbridge County farm. The city’s downtown historic district and the George C. Marshall Library are among its historic destinations.",
       "at": [
         -79.44277778,
         37.78388889
@@ -18,9 +19,9 @@
     },
     {
       "title": "Natural Bridge",
-      "kind": "roadside",
+      "kind": "short walk",
       "scene": "river",
-      "text": "US 11 rides across the top of a 215-foot limestone arch over Cedar Creek, though the fences along it hide nearly everything but the pavement.",
+      "text": "From US 11, fences obscure the limestone arch carrying the road. Below is a different scale: Natural Bridge rises 215 feet and spans 90 feet in the gorge carved by Cedar Creek. Edgar W. Spencer interpreted the arch as the surviving roof of an underground river tunnel. The surrounding property became a state park in 2016. Its Cedar Creek trail passes beneath the bridge and continues to the 30-foot Lace Falls. Thomas Jefferson purchased the bridge and surrounding land in 1774, then built a two-room cabin with a room reserved for guests.",
       "at": [
         -79.54527778,
         37.6275
@@ -30,7 +31,7 @@
       "title": "Cyrus McCormick Farm",
       "kind": "separate excursion",
       "scene": "prairie",
-      "text": "At Walnut Grove, in the farm's blacksmith shop, Cyrus McCormick worked out the mechanical reaper that led in time to the combine harvester.",
+      "text": "The blacksmith shop at Walnut Grove served two purposes: repairing the family’s farm implements and developing Cyrus McCormick’s reaper. McCormick improved and patented the machine, a predecessor of the combine harvester. Eight original buildings survive, including the shop, grist mill and quarters for people enslaved by the McCormick family. The family enslaved forty-one people here. In 1847, Cyrus moved his operations to Chicago; the farm later became a museum run by Virginia Tech’s agricultural experimental station. The farm’s schoolroom holds textbooks, toys and other school supplies dating from the 1830s.",
       "at": [
         -79.21777778,
         37.93388889
@@ -39,26 +40,29 @@
   ],
   "sources": [
     {
+      "label": "Wikipedia, Natural Bridge (Virginia)",
+      "url": "https://en.wikipedia.org/wiki/Natural_Bridge_%28Virginia%29"
+    },
+    {
       "label": "Wikipedia, Virginia State Route 56",
       "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_56"
     },
     {
-      "label": "Wikipedia, Steeles Tavern, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Steeles_Tavern,_Virginia"
+      "label": "Wikipedia, U.S. Route 11 in Virginia",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_11_in_Virginia"
+    },
+    {
+      "label": "Wikipedia, Natural Bridge, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Natural_Bridge%2C_Virginia"
     },
     {
       "label": "Wikipedia, Lexington, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Lexington,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Natural Bridge (Virginia)",
-      "url": "https://en.wikipedia.org/wiki/Natural_Bridge_(Virginia)"
+      "url": "https://en.wikipedia.org/wiki/Lexington%2C_Virginia"
     },
     {
       "label": "Wikipedia, Cyrus McCormick Farm",
       "url": "https://en.wikipedia.org/wiki/Cyrus_McCormick_Farm"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

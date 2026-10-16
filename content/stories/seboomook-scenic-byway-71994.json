@@ -1,19 +1,20 @@
 {
   "id": "seboomook-scenic-byway-71994",
-  "tagline": "Up the west shore of Moosehead, then into the woods.",
+  "tagline": "From Moosehead’s lake towns to Jackman, where numbered routes meet",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "Route 15 leaves Greenville beside Moosehead Lake and runs up to Rockwood, on the west side of the lake, then on through the woods to Jackman.",
-    "Moosehead is the largest lake in Maine, about 40 miles by 10, and takes its name from the way it looks on a map, like an antlered moose. The highway came late to it. Route 15 reached Rockwood around 1934 and Jackman only in 1940."
+    "The Moosehead Lake Scenic Byway follows Route 15 from Greenville to Jackman, with Rockwood on Moosehead’s western shore. Moosehead is Maine’s largest lake, with a shoreline dominated by boreal forest. MaineDOT records the Route 15 corridor as a state byway designated in 2007; the National Scenic Byway Foundation highlights its water recreation and river views. The lake measures approximately 40 by 10 miles, and its name comes from its map outline’s resemblance to an antlered moose.",
+    "Lake traffic preceded the numbered highway: Greenville launched a small steamboat to tow logs in 1836, and a large lake steamer began operating in 1838. When Route 15 was designated in 1926, its northern end was Greenville Junction. The designation extended to Rockwood between 1933 and 1934, then to Jackman in 1940.",
+    "Begin at Indian Hill rest area and continue toward Greenville at the lake’s lower end. At Rockwood, Mount Kineo is a separate water crossing from the public dock. Routes 6 and 15 turn west toward Jackman, where Route 15 ends at U.S. 201. A separate byway extension, designated in 2011, follows Lily Bay Road from downtown Greenville north to Kokadjo."
   ],
   "moments": [
     {
       "title": "Greenville",
       "kind": "town",
       "scene": "town",
-      "text": "Henry Gower cleared land by the lake here in 1835 and put up the first hotel, a two-story building he called the Seboomook House.",
+      "text": "Greenville’s early lakefront development included a hotel called the Seboomook House. Henry Gower began clearing land beside Moosehead Lake in 1835 and built the two-story hotel and the first store. A log-towing steamboat followed in 1836, then a large lake steamer in 1838. The Bangor and Piscataquis Railroad reached Greenville Junction in 1884. Rail travelers could connect with steamers crossing the lake to Mount Kineo House. The present S/S Katahdin dates from 1914. At Greenville Junction, the depot that opened in 1889 served passengers and freight until 1965; its conical roof gives one end the shape of a witch’s hat.",
       "at": [
         -69.59056,
         45.45944
@@ -23,7 +24,7 @@
       "title": "Mount Kineo",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Across the water from Rockwood its cliffs rise 700 feet straight out of the lake, and the state park around them can only be reached by boat.",
+      "text": "Mount Kineo’s cliffs rise 700 feet directly from Moosehead Lake. The mountain occupies a peninsula extending from the lake’s eastern shore and forms the central feature of Mount Kineo State Park. Its stone drew Indigenous travelers who used the rhyolite to make tools. Although called Kineo flint, this material is volcanic rhyolite, not the sedimentary quartz rock implied by that name. Trails follow the peninsula and climb to the peak, but the park can be reached only by water. Tools made from Kineo stone have been found throughout New England and farther south, evidence of the material’s reach beyond this peninsula.",
       "at": [
         -69.73389,
         45.69972
@@ -36,47 +37,53 @@
       "title": "Jackman",
       "kind": "town",
       "scene": "forest",
-      "text": "The road ends at US 201 in a town named for Captain James Jackman, whom the state hired in the 1830s to build the road through to Canada.",
+      "text": "Jackman takes its name from a road builder: Captain James Jackman, hired by Maine in the 1830s to construct a road connecting the United States and Canada. Rail connections followed in 1889 with completion of the International Railway of Maine. In 1915, the Jackman Lumber Company built the Bald Mountain Railroad up Heald Stream and across the South Branch Penobscot River. That line carried logs to the town’s sawmill until 1926. Route 15 now ends here at U.S. 201, while Route 6 continues toward Canada. Passenger trains served Jackman until 1981, resumed in 1985, then stopped again in 1994.",
       "at": [
         -70.18972,
         45.60833
       ]
     }
   ],
+  "practical": [
+    "Mount Kineo: There is no road access to the park. The water shuttle from Rockwood is seasonal. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "National Scenic Byway Foundation, Moosehead Lake Scenic Byway (Wayback Machine snapshot)",
+      "label": "National Scenic Byway Foundation, Moosehead Lake Scenic Byway",
       "url": "https://web.archive.org/web/20260222190942/https://nsbfoundation.com/sb/moosehead-lake-scenic-byway/"
-    },
-    {
-      "label": "MaineDOT, Scenic Byways open data",
-      "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
       "label": "Wikipedia, Maine State Route 15",
       "url": "https://en.wikipedia.org/wiki/Maine_State_Route_15"
     },
     {
+      "label": "Wikipedia, Rockwood, Maine",
+      "url": "https://en.wikipedia.org/wiki/Rockwood%2C_Maine"
+    },
+    {
       "label": "Wikipedia, Moosehead Lake",
       "url": "https://en.wikipedia.org/wiki/Moosehead_Lake"
     },
     {
-      "label": "Wikipedia, Greenville, Maine",
-      "url": "https://en.wikipedia.org/wiki/Greenville,_Maine"
+      "label": "Maine Department of Transportation, Scenic Byways open data",
+      "url": "https://gis.maine.gov/mapservices/rest/services/dot/MaineDOT_OpenData/MapServer/6/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
-      "label": "Wikipedia, Rockwood, Maine",
-      "url": "https://en.wikipedia.org/wiki/Rockwood,_Maine"
+      "label": "Wikipedia, Greenville, Maine",
+      "url": "https://en.wikipedia.org/wiki/Greenville%2C_Maine"
     },
     {
       "label": "Wikipedia, Mount Kineo",
       "url": "https://en.wikipedia.org/wiki/Mount_Kineo"
     },
     {
+      "label": "Wikipedia, Greenville Junction station",
+      "url": "https://en.wikipedia.org/wiki/Greenville_Junction_station"
+    },
+    {
       "label": "Wikipedia, Jackman, Maine",
-      "url": "https://en.wikipedia.org/wiki/Jackman,_Maine"
+      "url": "https://en.wikipedia.org/wiki/Jackman%2C_Maine"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

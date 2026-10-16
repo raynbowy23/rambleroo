@@ -1,35 +1,37 @@
 {
   "id": "swift-trail-parkway-11298",
-  "tagline": "Mexico to Canada in an afternoon, by way of Mount Graham.",
+  "tagline": "Switchbacks climb from desert plants to forests of pine, spruce and fir",
   "motifs": [
     "switchbacks",
     "aspens"
   ],
   "intro": [
-    "SR 366 leaves US 191 south of Safford in cactus and mesquite at 2,900 feet and runs straight for the Pinaleño Mountains, the highest of southeastern Arizona's sky islands. Then it starts to climb, through oak grassland and pinyon and juniper, into pine, and at last spruce and fir on the 9,000-foot ridges. The Forest Service calls it the ecological equivalent of driving from Mexico to Canada.",
-    "The road is named for T. T. Swift, first supervisor of the Coronado National Forest. The Civilian Conservation Corps built it during the Depression, along with many of the campgrounds and trails it reaches."
+    "Swift Trail climbs from cactus, yucca and mesquite into the high forests of the Pinaleño Mountains. The winding road rises from 2,900 feet in the Gila Valley to ridges at 9,000 feet. Part of SR 366 is designated Swift Trail Parkway under Arizona’s Parkways, Historic and Scenic Roads program. The Forest Service compares its changing life zones to a drive from Mexico to Canada and suggests around five hours for the round trip, plus side trips. These mountains are called Sky Islands because desert separates their high forests from neighboring ranges. The Pinaleños are the highest of southeastern Arizona’s Sky Islands.",
+    "Named for T. T. Swift, the Coronado National Forest’s first supervisor, the route was constructed by the Civilian Conservation Corps during the Great Depression. Workers based at Columbine extended it to Riggs Flat Lake while developing mountain campgrounds and trails. SR 366 followed in 1960, initially as a gravel highway; its lower portion was later paved.",
+    "From US 191 south of Safford, the climb leads through oak grasslands and pinyon-juniper woodland into pine, spruce and fir. Five hairpins mark Turkey Flat. Beyond Columbine Visitor Center, forest roads continue to Riggs Flat Lake, set among alpine forest and meadow."
   ],
   "moments": [
     {
       "title": "Turkey Flat",
       "kind": "roadside",
       "scene": "forest",
-      "text": "One of two cabin communities the road serves, and the place where it takes five hairpin turns in a row.",
+      "text": "Five hairpin turns carry SR 366 through Turkey Flat as the highway follows the mountain terrain. The nearby dispersed camping area sits in open ponderosa pine forest at 7,400 feet. A 0.3-mile trail connects that campground with Ladybug Trail.",
       "motifs": [
         "switchbacks"
       ]
     },
     {
       "title": "Columbine",
-      "kind": "town",
+      "kind": "short walk",
       "scene": "forest",
-      "text": "The other cabin community, near where the state highway runs out, with a visitor center on the edge of an alpine meadow."
+      "text": "Columbine Visitor Center began as a ranger station residence, built around 1935 by the Civilian Conservation Corps. The residence was part of a larger work station whose other buildings were also constructed by CCC crews. The Columbine camp operated in summer, and its workers extended Swift Trail to Riggs Flat Lake and developed campgrounds and trails. The residence now houses exhibits on the area’s natural and cultural history. Its gabled roof, multipaned windows and lapped siding reflect the Forest Service’s Depression-era architecture. Beside the building, a paved interpretive path follows the edge of an alpine meadow.",
+      "notice": "Look for the gabled roof, multipaned windows and lapped siding of the former ranger residence."
     },
     {
       "title": "Riggs Flat Lake",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "At the end of the road, an 11-acre lake in alpine forest and meadow, its cold water stocked with trout in summer.",
+      "text": "Swift Trail ends at Riggs Flat Lake, an 11-acre lake set in alpine forest and meadow high in the Pinaleños. Workers from the Columbine CCC camp extended the road here. The approach beyond Columbine Visitor Center follows Forest Roads 803 and 287. Brown and rainbow trout are stocked in the cold water during summer. West Peak is visible from the lake’s vicinity, while a short hike to an overlook gives views west to Aravaipa Valley and the Galiuro Mountains. Winter closes the vehicle approach, and early or late snow can lengthen the season when the lake is inaccessible by road.",
       "at": [
         -109.96611,
         32.70778
@@ -37,38 +39,25 @@
     }
   ],
   "practical": [
-    "The pavement ends partway up and the upper road continues on gravel. The Forest Service closes the Swift Trail for the winter, from November 15 to April 15, and does not recommend vehicles longer than 22 feet on its switchbacks."
+    "Riggs Flat Lake: Vehicle access closes November 15 to April 15; early or late snow may extend the closure. Vehicles including trailers longer than 22 feet are not recommended on the switchbacks. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "USDA Forest Service, Coronado National Forest, Swift Trail Parkway / State Highway 366 Scenic Drive",
+      "label": "USDA Forest Service, Swift Trail Parkway / State Highway 366 Scenic Drive",
       "url": "https://www.fs.usda.gov/r03/coronado/recreation/groups/swift-trail-parkway-state-highway-366-scenic-drive"
-    },
-    {
-      "label": "ADOT, Swift Trail Parkway Corridor Management Plan (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20250909225018/https://azdot.gov/sites/default/files/2019/05/cmp_swift_trail.pdf"
     },
     {
       "label": "Wikipedia, Arizona State Route 366",
       "url": "https://en.wikipedia.org/wiki/Arizona_State_Route_366"
     },
     {
-      "label": "Wikipedia, Pinaleño Mountains",
-      "url": "https://en.wikipedia.org/wiki/Pinale%C3%B1o_Mountains"
-    },
-    {
-      "label": "Wikipedia, Riggs Flat Lake",
-      "url": "https://en.wikipedia.org/wiki/Riggs_Flat_Lake"
-    },
-    {
-      "label": "USDA Forest Service, Coronado National Forest, Riggs Flat Lake",
-      "url": "https://www.fs.usda.gov/r03/coronado/recreation/riggs-flat-lake"
-    },
-    {
-      "label": "USDA Forest Service, Coronado National Forest, Columbine Visitor Center",
+      "label": "USDA Forest Service, Columbine Visitor Center",
       "url": "https://www.fs.usda.gov/r03/coronado/recreation/columbine-visitor-center"
+    },
+    {
+      "label": "USDA Forest Service, Riggs Flat Lake",
+      "url": "https://www.fs.usda.gov/r03/coronado/recreation/riggs-flat-lake"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

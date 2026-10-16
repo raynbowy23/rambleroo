@@ -1,16 +1,18 @@
 {
   "id": "sc-46-scenic-highway-73593",
-  "tagline": "Into Bluffton, where the old churches kept their walls.",
+  "tagline": "Wetlands and oak canopies lead through Bluffton to the May River",
   "intro": [
-    "The May River route follows SC 46 about eight miles from the Jasper County line into Bluffton, then turns onto Boundary Street. The old town stands on the northern bluff of the river. Two thirds of it burned in 1863, and rebuilding came slowly.",
-    "Boundary Street’s Campbell Chapel passed from a white congregation to an African Methodist Episcopal congregation after the war. On nearby Calhoun Street, the Church of the Cross kept its Gothic building, with rose-colored glass brought from England."
+    "SC 46 carries the May River Scenic Byway through wetlands and oak canopies on a route that reaches the river at Brighton Beach. The South Carolina Department of Transportation describes an eleven-mile drive through historic Bluffton, with plantations and historic sites among its features.",
+    "The corridor received its May River Scenic Byway designation in 2012. The designation joins SC 46 with State Roads S-66 and S-13, taking the scenic route beyond the numbered highway to the May River.",
+    "Begin at the Jasper/Beaufort County line and follow SC 46 east for approximately eight miles into Bluffton. Boundary Street brings the route past Campbell Chapel, built in 1853 and acquired by an African Methodist Episcopal congregation in 1874. The Church of the Cross stands on Calhoun Street. The byway continues from Boundary onto Bridge Street, which becomes Alljoy Road, ending at Brighton Beach."
   ],
+  "notice": "Wetlands and oak canopies characterize the corridor.",
   "moments": [
     {
       "title": "Campbell Chapel",
       "kind": "roadside",
       "scene": "town",
-      "text": "At 23 Boundary Street, the church acquired by an African Methodist Episcopal congregation in 1874 retains much of its nineteenth-century form and fabric.",
+      "text": "Campbell Chapel at 23 Boundary Street has housed two congregations across its history. A white congregation built the church in 1853; an African Methodist Episcopal congregation acquired it in 1874. Its 2019 National Register recognition identified Greek Revival architecture and substantial surviving nineteenth-century form and fabric.",
       "at": [
         -80.86083333,
         32.23638889
@@ -20,25 +22,27 @@
       "title": "Church of the Cross",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "On Calhoun Street, palmetto-like arches top the windows of a Gothic church built with rose-colored glass from England.",
+      "text": "Palmetto-like fans top the windows of the Church of the Cross on Calhoun Street. The builders ordered rose-colored window glass from England for the Gothic church designed by E. B. White and consecrated in July 1857. Federal troops burned most of Bluffton in 1863, but spared the church; the congregation fled. Services resumed in 1870 under the Rev. E. E. Bellinger, who oversaw repairs. A hurricane damaged the building in 1898, and repairs were complete by February 1900. Latticed shutters frame the windows, and exposed pine timbers form part of the interior.",
       "at": [
         -80.86444444,
         32.23111111
       ]
+    },
+    {
+      "title": "Brighton Beach",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Brighton Beach is the byway’s endpoint on the May River. The approach follows Bridge Street as it becomes Alljoy Road. The 2012 designation includes this final stretch of State Road S-13, carrying the corridor from Bluffton to the river."
     }
   ],
   "sources": [
     {
-      "label": "South Carolina Legislature, Scenic Highways",
-      "url": "https://www.scstatehouse.gov/code/t57c023.php"
-    },
-    {
-      "label": "SCDOT, South Carolina Scenic Byways map series (story text)",
+      "label": "South Carolina Department of Transportation, May River Scenic Byway",
       "url": "https://scdot.maps.arcgis.com/sharing/rest/content/items/0a5192983b2845c2b20fbc5d7a0372f9/data"
     },
     {
-      "label": "Wikipedia, Bluffton, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Bluffton%2C_South_Carolina"
+      "label": "South Carolina Legislature, Highway Beautification and Scenic Routes",
+      "url": "https://www.scstatehouse.gov/code/t57c023.php"
     },
     {
       "label": "Wikipedia, Campbell Chapel African Methodist Episcopal Church (Bluffton, South Carolina)",
@@ -49,6 +53,5 @@
       "url": "https://en.wikipedia.org/wiki/Church_of_the_Cross"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

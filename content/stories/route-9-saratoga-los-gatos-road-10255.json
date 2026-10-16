@@ -1,19 +1,21 @@
 {
   "id": "route-9-saratoga-los-gatos-road-10255",
-  "tagline": "Seven miles down from the crest, against the bicycles.",
+  "tagline": "Down from Saratoga Gap, a mountain road reaches gardens and mill country",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "At Saratoga Gap, about 2,608 feet up on the summit of the Santa Cruz Mountains, a vista point gives a somewhat obstructed view of the Bay Area. From there Highway 9 descends east as Congress Springs Road, seven miles down to Saratoga Village, the same grade bicycles climb in numbers on weekend mornings. In Saratoga it turns southeast as Saratoga-Los Gatos Road and runs on through Monte Sereno to Los Gatos.",
-    "The town at the bottom has answered to McCarthysville, Toll Gate and Bank Mills. In 1865 it became Saratoga, after the New York spa whose waters its own mineral springs resembled."
+    "Highway 9 descends east from Saratoga Gap into Saratoga, trading the Santa Cruz Mountains for the streets leading toward Los Gatos. The seven-mile grade between the gap and Saratoga Village draws cyclists on weekend mornings. Between the junction with Highway 35 and the Los Gatos town limit, it is an officially designated state scenic highway. Curves characterize Highway 9, which remains two lanes for most of its length before approaching Fruitvale Avenue in Saratoga.",
+    "This route assembled earlier roads into a state highway. In 1913, the road southwest from Saratoga Gap toward Big Basin entered the state system, becoming unsigned Route 42 in 1917. The gap’s only connection to the continuous state highway system was then Skyline Boulevard. The state extended Route 42 east from the gap to Los Gatos in 1933. The 1964 renumbering then put the Saratoga-to-Los Gatos section on the signed Highway 9 route.",
+    "Start at the Highway 35 junction, where the vista point offers a partly obstructed Bay Area view. Descend Congress Springs Road to Saratoga, then follow the southeast turn onto Saratoga-Los Gatos Road. The road widens near Fruitvale Avenue, narrows through Monte Sereno, and widens again in downtown Los Gatos before ending at Highway 17."
   ],
   "moments": [
     {
       "title": "Saratoga Gap",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The road's highest point, where Highway 9 meets Skyline Boulevard and motorcyclists gather in the junction parking lot through the summer months.",
+      "text": "At the meeting of Highway 9 and Skyline Boulevard, the road reaches its highest point, around 2,608 feet. The vista point has a partly obstructed view of the Bay Area, and the junction marks Highway 9’s passage into Santa Clara County. Nearby Saratoga Gap Open Space Preserve protects oak and evergreen woodland. The 1,540-acre preserve is owned and operated by the Midpeninsula Regional Open Space District. The gap also contains part of the Bay Area Ridge Trail, extending the journey beyond the highway junction. The preserve’s trails connect with neighboring Long Ridge Open Space Preserve.",
+      "notice": "The vista point offers a partly obstructed view of the Bay Area.",
       "motifs": [
         "rolling-ridges"
       ]
@@ -22,7 +24,8 @@
       "title": "Hakone Gardens",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "A Japanese garden built from 1917 to 1929 as a summer retreat, where Madama Butterfly had its West Coast premiere in 1923.",
+      "text": "Hakone’s Cultural Exchange Center reproduces a nineteenth-century Kyoto tea merchant’s house and shop. The gardens began as a summer retreat for Oliver and Isabel Stine, who bought the site in 1915. Isabel hired Japanese landscape artists and architects; construction continued from 1917 to 1929. Later owners restored the estate and offered it to Saratoga in 1966; the city’s purchase saved it from potential redevelopment. The Bamboo Garden, added in 1987, commemorates Saratoga’s sister-city relationship with Mukō in Kyoto Prefecture. In the Hill and Pond Garden, a waterfall feeds a koi pond with a bridged island.",
+      "notice": "The Hill and Pond Garden has a waterfall, koi pond and an island reached by a bridge.",
       "at": [
         -122.04095,
         37.25238
@@ -32,7 +35,7 @@
       "title": "Los Gatos",
       "kind": "town",
       "scene": "town",
-      "text": "Since 1978 the Great Race has sent more than 1,000 runners between Saratoga and Los Gatos near the end of April, into a town named for its cougars and bobcats.",
+      "text": "The two-story stone building left from Forbes Mill is its storage annex, added in 1880 to the original four-story mill. James Alexander Forbes began grinding flour here in 1855, but insufficient water and falling flour prices undermined the business. William H. Rogers bought the mill in 1866, replaced its water wheels with turbines and made it profitable. The town grew beside the mill and eventually took the name Los Gatos. The original mill was demolished in 1916; the annex’s former museum collections are now part of New Museum Los Gatos.",
       "at": [
         -121.96167,
         37.23611
@@ -45,18 +48,25 @@
       "url": "https://en.wikipedia.org/wiki/California_State_Route_9"
     },
     {
-      "label": "Wikipedia, Saratoga, California",
-      "url": "https://en.wikipedia.org/wiki/Saratoga,_California"
-    },
-    {
       "label": "Wikipedia, Hakone Gardens",
       "url": "https://en.wikipedia.org/wiki/Hakone_Gardens"
     },
     {
+      "label": "Wikipedia, Forbes Mill",
+      "url": "https://en.wikipedia.org/wiki/Forbes_Mill"
+    },
+    {
+      "label": "Wikipedia, Saratoga Gap Open Space Preserve",
+      "url": "https://en.wikipedia.org/wiki/Saratoga_Gap_Open_Space_Preserve"
+    },
+    {
+      "label": "Wikipedia, Long Ridge Open Space Preserve",
+      "url": "https://en.wikipedia.org/wiki/Long_Ridge_Open_Space_Preserve"
+    },
+    {
       "label": "Wikipedia, Los Gatos, California",
-      "url": "https://en.wikipedia.org/wiki/Los_Gatos,_California"
+      "url": "https://en.wikipedia.org/wiki/Los_Gatos%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

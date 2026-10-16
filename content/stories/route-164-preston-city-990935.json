@@ -1,19 +1,31 @@
 {
   "id": "route-164-preston-city-990935",
-  "tagline": "Out of the old town center, north to Griswold.",
+  "tagline": "A road to Preston’s old center, where farms supplied a river port.",
   "motifs": [
     "steeple-town"
   ],
   "intro": [
-    "Route 164 leaves Preston City at its junction with Route 165 and goes north as Jewett City Road to the Griswold town line, a short scenic run. The direct way from the village to Jewett City became Route 164 in the 1932 renumbering, and its line has seen no major change since.",
-    "Preston City was set out in 1686 as the center of a farming town that fed the port of Norwich. Its good years ran from the Revolution to about 1830, when Preston farm goods went down the Thames and out to other east coast ports, and the farmers' and merchants' houses still show it."
+    "Route 164’s designated scenic section connects the Griswold town line with the center of Preston City. It is called Jewett City Road on this stretch, with a Route 165 junction in the village. The historic village district includes Georgian, Federal, and Greek Revival buildings, with houses built by farmers and merchants during Preston’s trading years.",
+    "Preston City was established as a town center in 1686 and became a focus for sending farm goods to Norwich. From that Thames River port, local produce traveled to other East Coast ports. The direct road between Preston City and Jewett City became Route 164 in the 1932 renumbering, with no major alignment or designation changes since.",
+    "Traveling south from the Griswold line, Jewett City Road reaches the village and Route 165 at the scenic section’s end. Old Shetucket and Amos Roads were major thoroughfares before the 1930s; they now lie within the historic district. Beyond the village, Route 164 continues south as Preston Plains Road toward Route 2."
   ],
   "moments": [
+    {
+      "title": "Timothy Lester Farmstead",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Stone walls line the surviving 43 acres of the Timothy Lester Farmstead, where the landscape is gradually returning to woodland. At Crary and Browning Roads in southern Griswold, the farmhouse was built in stages beginning circa 1741. The house served as a garrison and training ground during the American Revolutionary War. The Lester children signed petitions for Griswold’s separation from Preston, which took place in 1815. Sold outside the family in 1857, the farm remained in agricultural use until the middle of the twentieth century. Beside the central-chimney farmhouse stand an eighteenth-century barn and a small wellhouse.",
+      "at": [
+        -71.95888889,
+        41.5675
+      ]
+    },
     {
       "title": "Preston City Baptist Church",
       "kind": "town",
       "scene": "town",
-      "text": "Built in 1812, the church was later turned to face a different way, and its three-stage steeple went up twenty years after the rest of it.",
+      "text": "The church’s steeple came twenty years after the building. Built in 1812, the Preston City Baptist Church was turned to face a different direction and received its three-stage steeple and bell tower in 1832. A pyramidal roof tops the tower. It is one of the wood-frame buildings contributing to the village’s historic district.",
+      "notice": "The steeple rises in three stages to a pyramidal roof.",
       "motifs": [
         "steeple-town"
       ]
@@ -22,19 +34,22 @@
       "title": "Old Town Pound",
       "kind": "town",
       "scene": "town",
-      "text": "On Amos Road a stone-walled enclosure served the village as a pound, the kind of pen where British medieval villages held stray livestock."
+      "text": "A stone-walled enclosure on Amos Road is Preston City’s Old Town Pound. It served as a pound, a common feature of British medieval villages where stray livestock might be held. Amos Road itself was a major thoroughfare before the 1930s, and the enclosure contributes to the Preston City Historic District."
     }
   ],
   "sources": [
+    {
+      "label": "Wikipedia, Preston City, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Preston_City%2C_Connecticut"
+    },
     {
       "label": "Wikipedia, Connecticut Route 164",
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_164"
     },
     {
-      "label": "Wikipedia, Preston City, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Preston_City,_Connecticut"
+      "label": "Wikipedia, Timothy Lester Farmstead",
+      "url": "https://en.wikipedia.org/wiki/Timothy_Lester_Farmstead"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

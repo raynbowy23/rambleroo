@@ -1,45 +1,48 @@
 {
   "id": "us-7-kent-to-canaan-990901",
-  "tagline": "Up the Housatonic, two miles of it kept for fly rods.",
+  "tagline": "Two lanes beside the Housatonic, with bridges and falls along the way",
   "motifs": [
     "waterfall-cove"
   ],
   "intro": [
-    "From the New Milford line US 7 runs north as a two-lane road through Kent, follows the east side of the Housatonic into Cornwall Bridge, and crosses the river there. From there it goes on through Sharon and Salisbury to the North Canaan line, 28 miles in all.",
-    "Two state parks sit right on the highway. One is a waterfall, coming down a side brook across the road from the river. The other is a stretch of the river itself, set aside for fly fishing."
+    "US 7 is a two-lane road north of New Milford, with 28.11 miles designated as a Connecticut scenic road between the New Milford–Kent line and the North Canaan town line. Along this drive, the Housatonic passes the rugged hills at Housatonic Meadows, while Falls Brook drops 250 feet at Kent Falls. The scenic designation came in four sections between 1990 and 2002.",
+    "US 7 originally headed southwest from North Canaan through Sharon into New York. Around 1930, its southern end moved to Norwalk, using existing state highways, including State Highway 134 between Canaan and New Milford. At Cornwall Bridge, a concrete crossing built in 1930 took road traffic from the old covered bridge, which remained for pedestrians until the 1936 flood swept it away. Built for the Connecticut Highway Department by C.W. Blakeslee and Sons, the new bridge uses six open-spandrel concrete arches.",
+    "Travel south from the North Canaan line through Canaan, Salisbury and Sharon. Route 128 connects US 7 with West Cornwall across the Housatonic. Continue past Housatonic Meadows to Cornwall Bridge, where US 7 crosses to the river’s east side. Kent Falls lies across the highway from the river; beyond Kent, the designated road ends at the New Milford line."
   ],
   "moments": [
     {
-      "title": "Kent Falls State Park",
-      "kind": "short walk",
-      "scene": "forest",
-      "text": "Over a replica covered bridge, Falls Brook comes down 250 feet in under a quarter mile, with a steep trail and viewing platforms alongside.",
+      "title": "West Cornwall Covered Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "West Cornwall’s covered bridge carries Route 128 across the Housatonic in a single lane. Research by Michael R. Gannett for the Cornwall Historical Society dates the present bridge to about 1864, correcting the older 1841 date. When the state considered replacement in 1968, a local committee organized to save it, and the transportation department chose renovation. Workers raised the bridge two feet and inserted steel supports. A concealed steel deck added in 1973 took the traffic load; the wooden trusses now support only themselves. The bridge was first painted red in 1957.",
+      "notice": "The bridge’s red-spruce lattice is joined with wooden treenails.",
       "at": [
-        -73.41917,
-        41.77694
-      ],
-      "motifs": [
-        "waterfall-cove"
+        -73.36444,
+        41.87167
       ]
     },
     {
       "title": "Housatonic Meadows State Park",
       "kind": "roadside",
       "scene": "river",
-      "text": "Along a two-mile stretch by the park the river is catch and release, fly fishing only, and the Appalachian Trail crosses the park.",
+      "text": "Housatonic Meadows protects 452 acres along the river in Sharon and Cornwall. The river valley here sits among the rugged hills of Connecticut’s northwestern uplands. A two-mile stretch, including the park shore, is reserved for fly fishing. The Appalachian Trail crosses the park, which also offers hiking, picnicking and canoeing. US 7 runs to the park’s address in Sharon.",
       "at": [
         -73.38278,
         41.83306
       ]
     },
     {
-      "title": "West Cornwall Covered Bridge",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "A lattice covered bridge of about 1864 carries the Sharon-Goshen Turnpike over the river. The state thought of replacing it in 1968, a local committee objected, and it was raised two feet instead.",
+      "title": "Kent Falls State Park",
+      "kind": "short walk",
+      "scene": "forest",
+      "text": "Falls Brook drops 250 feet in less than a quarter mile at Kent Falls, with the largest cascade falling more than 70 feet into a pool. Mills once stood along the brook during colonial times. The state park began with Alain C. White’s 1919 gift of 200 acres through the White Memorial Foundation. A replica covered bridge crosses the brook, and observation platforms built in 2006 line the trail beside the falls. The trail climbs steeply alongside the cascades. Civil Works Administration crews helped develop the park in the 1930s; the Youth Conservation Corps rebuilt trails in the 1970s.",
+      "notice": "The covered bridge over Falls Brook is a replica.",
       "at": [
-        -73.36444,
-        41.87167
+        -73.41917,
+        41.77694
+      ],
+      "motifs": [
+        "waterfall-cove"
       ]
     }
   ],
@@ -49,30 +52,37 @@
       "url": "https://en.wikipedia.org/wiki/U.S._Route_7_in_Connecticut"
     },
     {
+      "label": "Wikipedia, Cornwall Bridge, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Cornwall_Bridge%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Kent, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Kent%2C_Connecticut"
+    },
+    {
+      "label": "Connecticut Department of Energy and Environmental Protection, Housatonic Meadows State Park",
+      "url": "https://portal.ct.gov/deep/state-parks/parks/housatonic-meadows-state-park"
+    },
+    {
       "label": "Wikipedia, Kent Falls State Park",
       "url": "https://en.wikipedia.org/wiki/Kent_Falls_State_Park"
     },
     {
-      "label": "Wikipedia, Kent, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Kent,_Connecticut"
+      "label": "Wikipedia, Cornwall Bridge",
+      "url": "https://en.wikipedia.org/wiki/Cornwall_Bridge"
     },
     {
-      "label": "Connecticut DEEP, Housatonic Meadows State Park",
-      "url": "https://portal.ct.gov/deep/state-parks/parks/housatonic-meadows-state-park"
-    },
-    {
-      "label": "Wikipedia, Housatonic Meadows State Park",
-      "url": "https://en.wikipedia.org/wiki/Housatonic_Meadows_State_Park"
-    },
-    {
-      "label": "Wikipedia, Cornwall Bridge, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Cornwall_Bridge,_Connecticut"
+      "label": "Wikipedia, West Cornwall, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/West_Cornwall%2C_Connecticut"
     },
     {
       "label": "Wikipedia, West Cornwall Covered Bridge",
       "url": "https://en.wikipedia.org/wiki/West_Cornwall_Covered_Bridge"
+    },
+    {
+      "label": "Wikipedia, Housatonic Meadows State Park",
+      "url": "https://en.wikipedia.org/wiki/Housatonic_Meadows_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

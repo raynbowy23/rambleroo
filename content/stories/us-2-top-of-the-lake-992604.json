@@ -1,19 +1,21 @@
 {
   "id": "us-2-top-of-the-lake-992604",
-  "tagline": "Along the top of Lake Michigan, bluff and beach by turns.",
+  "tagline": "A highway brought to the lakeshore, linking beaches and small communities",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "From St. Ignace, US 2 heads west along the north shore of Lake Michigan, winding along tall bluffs and diving down to skirt miles of empty beach, through Brevort, Epoufette and Naubinway. Past Naubinway it runs south of Engadine, swings inland by Gould City and Blaney Park, then comes back to the lake for the last run into Manistique, 92 miles from where it began.",
-    "The lakeshore road out of St. Ignace was begun in 1936. Before that the highway went inland from Brevort. Long before either, the Sault and Green Bay Trail kept roughly to this same shore."
+    "US 2 follows Lake Michigan through Naubinway, crosses the Cut River high above its valley, and passes through Hiawatha National Forest near Brevort. The Top of the Lake route belongs to the Pure Michigan Byways program. The Eastern Upper Peninsula Regional Planning and Development Commission highlights its white-sand beaches, views and small communities between St. Ignace and Manistique.",
+    "The highway did not always keep so close to the water. In 1936, the Michigan State Highway Department began a new lakeshore road into St. Ignace, replacing an inland routing from Brevort through Moran. In 1941, another realignment carried US 2 from Gould City through Naubinway and along the lake to Epoufette. The new highway initially detoured around Cut River, where steel shortages during World War II delayed the bridge. Completion came after the war.",
+    "Driving west from St. Ignace, follow the shore toward Brevort, where Lake Michigan and Brevoort Lake flank the road. Cross the Cut River before Epoufette and continue through Naubinway; US 2 then passes south of Engadine and heads inland past Gould City to Blaney Park. Beyond Gulliver, the road returns to Lake Michigan at Manistique and crosses the river that gives the city its name."
   ],
   "moments": [
     {
       "title": "Cut River Bridge",
       "kind": "short walk",
-      "scene": "forest",
-      "text": "The road crosses 147 feet above the gorge on a steel cantilever finished after the war, with stairs down into the valley and, under the east end, a door plaque reading \"T. Troll\".",
+      "scene": "river",
+      "text": "Cut River Bridge carries US 2 across a valley 147 feet below the roadway. The State Highway Department designed the crossing, and W.J. Meagher and Sons began construction in 1941. Wartime demand for steel halted work until after World War II. The finished cantilever spans 641 feet and contains 888 short tons of structural steel. A wooden staircase was added later to reach the valley. Under the east end, an office door bears a brass plaque inscribed “T. Troll.” Original metal guardrails remain on the sidewalks on both sides of the roadway.",
+      "notice": "The sidewalk guardrails are original; the steel members have extensive latticing.",
       "at": [
         -85.12521,
         46.04499
@@ -23,7 +25,7 @@
       "title": "Naubinway",
       "kind": "town",
       "scene": "coast",
-      "text": "The northernmost point of Lake Michigan is here, and in 1805 it was used to draw the western boundary of the new Michigan Territory.",
+      "text": "Lake Michigan supplied Naubinway with both a harbor and a place on a territorial boundary. The lake’s northernmost point helped define the western boundary of Michigan Territory in 1805; the territory expanded westward in 1818. By 1880, Naubinway was a lumbering community, with commercial fishing growing alongside the timber trade. Fishing continued after lumber declined at the turn of the century. Millecoquins Point forms the natural harbor, which contains a park and marina. US 2 was rerouted through the community along Lake Michigan beginning in the 1940s, providing a major transportation route.",
       "at": [
         -85.45083,
         46.09083
@@ -33,7 +35,7 @@
       "title": "Manistique",
       "kind": "town",
       "scene": "coast",
-      "text": "Named for its river, which was then spelled Monistique, the city owes its present spelling to a mistake in its charter.",
+      "text": "Manistique takes its name from its river, but not its original spelling. The river was spelled Monistique; a mistake in the city charter produced the name used now. At the river mouth, a natural harbor has been improved with dredging, breakwaters and the Manistique East Breakwater Light. Timber and pig iron shipped daily from this harbor at the beginning of the twentieth century. The east light first shone on August 17, 1916, after completion of the east breakwater the previous year. Its square tower is assembled from prefabricated steel plates bolted together.",
       "at": [
         -86.24972,
         45.95778
@@ -42,11 +44,7 @@
   ],
   "sources": [
     {
-      "label": "MDOT, Pure Michigan Byways Driving Guide (Wayback Machine snapshot, December 2025)",
-      "url": "https://web.archive.org/web/20251206181129/https://www.michigan.gov/mdot/-/media/Project/Websites/MDOT/Travel/Tourists/Byways/Pure-Michigan-Byways-Driving-Guide.pdf"
-    },
-    {
-      "label": "EUP Regional Planning and Development Commission, Eastern U.P. Byways",
+      "label": "Eastern Upper Peninsula Regional Planning and Development Commission, Eastern U.P. Byways",
       "url": "https://www.eup-planning.org/eastern-up-byways/"
     },
     {
@@ -54,22 +52,21 @@
       "url": "https://en.wikipedia.org/wiki/U.S._Route_2_in_Michigan"
     },
     {
+      "label": "Wikipedia, Manistique, Michigan",
+      "url": "https://en.wikipedia.org/wiki/Manistique%2C_Michigan"
+    },
+    {
       "label": "Wikipedia, Cut River Bridge",
       "url": "https://en.wikipedia.org/wiki/Cut_River_Bridge"
     },
     {
       "label": "Wikipedia, Naubinway, Michigan",
-      "url": "https://en.wikipedia.org/wiki/Naubinway,_Michigan"
+      "url": "https://en.wikipedia.org/wiki/Naubinway%2C_Michigan"
     },
     {
-      "label": "Wikipedia, Engadine, Michigan",
-      "url": "https://en.wikipedia.org/wiki/Engadine,_Michigan"
-    },
-    {
-      "label": "Wikipedia, Manistique, Michigan",
-      "url": "https://en.wikipedia.org/wiki/Manistique,_Michigan"
+      "label": "Wikipedia, Manistique East Breakwater Light",
+      "url": "https://en.wikipedia.org/wiki/Manistique_East_Breakwater_Light"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

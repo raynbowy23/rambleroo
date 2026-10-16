@@ -1,29 +1,40 @@
 {
   "id": "route-151-middle-haddam-990930",
-  "tagline": "Up the Connecticut's east bank through a shipbuilders' village.",
+  "tagline": "A riverbank road through a village shaped by ocean-going shipbuilding",
   "intro": [
-    "The last mile and a half of Route 151 runs as Middle Haddam Road up the east bank of the Connecticut River, through the village of Middle Haddam, and ends at Route 66 in Cobalt. The village keeps to the shape of the ground, the river on one side and steep banks or stream valleys on the other.",
-    "Middle Haddam had a sawmill on Mill Brook and a ferry across the river early on, and by the Revolution it was trading with the West Indies and the coast and building ocean-going ships in its yards. Most of its 58 old buildings went up before 1835, and the Federal look has held."
+    "Middle Haddam Road follows the Connecticut River’s east bank through a village constrained by steep slopes and stream valleys. The last 1.51 miles of Route 151 have state scenic-road designation, ending at Route 66 in Cobalt. Along this short stretch, Middle Haddam’s historic district contains 58 significant primary buildings, most built before 1835. Their predominantly Federal character belongs to the village’s years as a river port.",
+    "By the American Revolution, Middle Haddam was a commercial center for farmland to the east and a focus of the roads serving it. The village handled shipments to the West Indies and North American coast, and its yards built ocean-going vessels. The later Moodus–Haddam Neck–Cobalt highway became state Highway 167 in the 1920s. Renumbering in 1932 incorporated it into Route 151.",
+    "Approaching from the south, Route 151 passes the Hurd State Park access road before reaching Middle Haddam. Continue north through the village toward Cobalt, where the older port district gives way to later industrial development and the road meets Route 66."
   ],
   "moments": [
     {
-      "title": "Middle Haddam",
-      "kind": "town",
+      "title": "Hurd State Park",
+      "kind": "separate excursion",
       "scene": "river",
-      "text": "Christ Episcopal Church of 1786 still stands among houses as old as 1732, and the village's lone Queen Anne Victorian is a summer house down by the town landing.",
+      "text": "Hurd State Park lies on the east bank of the Connecticut River, south of Middle Haddam. The state bought its first 150 acres in 1914, then faced a dispute over mining rights when Jesse S. Miller claimed the property’s feldspar. The state prevailed in the Connecticut State Supreme Court in 1935. The park now offers hiking, picnicking and mountain biking, as well as primitive camping for boaters on the river.",
       "at": [
-        -72.55167,
-        41.55306
+        -72.54222222,
+        41.52194444
       ]
     },
     {
       "title": "Dart Island State Park",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "A shad fishermen's sandbar, reached only by boat, given to the state in 1918 at about an acre and a half, billed in 1924 as the nation's smallest state park, officially 19 acres today.",
+      "text": "Dart Island is a wooded sandbar in the Connecticut River, reachable only by boat. Fishermen once used it for the hickory shad runs, building a shed and equipment to manage their fishing lines. Russell Dart donated the approximately 1.5-acre island to the state in 1918. Its reported size then varied: official publications rounded it to two acres, while an unofficial 1924 claim called it the country’s smallest state park at one acre. The state’s 2012 Register and Manual listed 19 acres. Willow, poplar and red maple grow on the undeveloped island, which has no public facilities.",
       "at": [
         -72.56417,
         41.55333
+      ]
+    },
+    {
+      "title": "Middle Haddam",
+      "kind": "town",
+      "scene": "river",
+      "text": "Shipbuilding gave Middle Haddam connections beyond the Connecticut River. A sawmill operated on Mill Brook, a ferry crossed the river by the early 18th century, and the village became a shipping point for trade with the West Indies and the North American coast. Its shipyards built vessels for ocean voyages. The village’s shape reflects the terrain: river to the west, steep banks and stream valleys inland. Most of the historic district’s 58 significant primary buildings predate 1835, and the oldest date to 1732. Among this predominantly Federal architecture, a single Queen Anne Victorian summer residence stands near the town landing.",
+      "at": [
+        -72.55167,
+        41.55306
       ]
     }
   ],
@@ -37,10 +48,13 @@
       "url": "https://en.wikipedia.org/wiki/Middle_Haddam_Historic_District"
     },
     {
+      "label": "Wikipedia, Hurd State Park",
+      "url": "https://en.wikipedia.org/wiki/Hurd_State_Park"
+    },
+    {
       "label": "Wikipedia, Dart Island State Park",
       "url": "https://en.wikipedia.org/wiki/Dart_Island_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

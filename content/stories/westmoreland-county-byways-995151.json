@@ -1,16 +1,18 @@
 {
   "id": "westmoreland-county-byways-995151",
-  "tagline": "Kings Highway, with short roads down to the Potomac.",
+  "tagline": "Kings Highway links wooded country roads with Potomac shores and memorials.",
   "intro": [
-    "From Oak Grove, Kings Highway runs east across the Northern Neck through Wakefield Corner, Potomac Mills and Baynesville to Montross, the county seat. Along the way short roads turn off toward the Potomac, one to Popes Creek and Washington's birthplace, one into Westmoreland State Park.",
-    "At Montross, Route 622 turns off and runs down to the Potomac at Currioman Landing on Currioman Bay. A side road off it leads to Stratford Hall, where four generations of Lees lived and Robert E. Lee was born."
+    "Kings Highway crosses Westmoreland County through woods, farms and rural residences, with side roads leading to the Potomac. VDOT’s byway map includes Route 3 between Oak Grove and Montross and branches toward the river. Virginia designates its byways to introduce travelers to alternative destinations. At Montross, the highway narrows to two lanes and turns past the courthouse; beyond town, rural woods alternate with nearby farms and homes.",
+    "At Oak Grove, travel history reaches back to a colonial stagecoach stop. Public destinations developed beside this corridor in the twentieth century: Congress authorized Washington’s birthplace as a national monument in 1930, and Westmoreland State Park opened in June 1936. Civilian Conservation Corps workers dug most of the park’s roads and trails by hand and built cabins from local timber.",
+    "Drive east from Oak Grove to Wakefield Corner, where Route 204 branches to Washington’s birthplace. Continue through Potomac Mills toward Baynesville and the Route 347 turn for Westmoreland State Park. Farther along, Route 214 leads toward Stratford Hall before Kings Highway reaches Montross and its historic courthouse. From Montross, Route 622 continues to Currioman Landing on Currioman Bay, bringing the drive back to the Potomac."
   ],
+  "notice": "Crushed oyster shells mark Washington’s home foundation beside the later Memorial House.",
   "moments": [
     {
       "title": "George Washington Birthplace National Monument",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Where Popes Creek meets the Potomac, the house Washington was born in was lost to fire on Christmas Day 1779, and crushed oyster shells now outline his boyhood home's foundation.",
+      "text": "Crushed oyster shells outline the foundation of Washington’s boyhood home beside a later Memorial House. The original house was destroyed by fire and flood on Christmas Day 1779 and was never rebuilt. Its exact appearance is unknown, so Edward Donn Jr. designed the 1931 Memorial House to represent similar buildings of the period. The distinction matters here: the memorial’s handmade bricks came from local clay, while the shell outline marks the actual home site. The National Park Service opened the park and Memorial House in 1932, two hundred years after Washington’s birth.",
       "at": [
         -76.91638889,
         38.18555556
@@ -20,7 +22,7 @@
       "title": "Westmoreland State Park",
       "kind": "separate excursion",
       "scene": "coast",
-      "text": "A trail runs down to the Potomac below the Horsehead Cliffs, which hold fossils of porpoises, whales and sharks from as long as 15 million years ago.",
+      "text": "The Horsehead Cliffs contain fossils of porpoises, whales and sharks from as long as 15 million years ago. Erosion exposes the remains, and the Beach Trail leads from the visitor center to the Potomac shore below the cliffs. The route through the park also carries a more recent history. Before its June 1936 opening, Civilian Conservation Corps workers constructed trails and amenities; most of the roads and trails were dug by hand. They built the cabins with local timber, giving the park’s early buildings a direct connection to its woodland setting.",
       "at": [
         -76.86611111,
         38.1625
@@ -30,7 +32,7 @@
       "title": "Montross",
       "kind": "town",
       "scene": "town",
-      "text": "At the old courthouse here in June 1774, a meeting adopted Richard Henry Lee's resolution to send aid to blockaded Boston.",
+      "text": "The old courthouse in Montross was a place where events elsewhere in the colony prompted local political action. A courthouse marker records that a meeting on June 22, 1774, adopted Richard Henry Lee’s resolution to aid Boston after Britain blockaded the port. The next year, Royal Governor Lord Dunmore’s seizure of gunpowder in Williamsburg prompted the Westmoreland Committee of Safety to meet here on May 23. The committee denounced the governor’s actions in another resolution. Kings Highway passes east of the historic courthouse as it turns through the center of the county seat.",
       "at": [
         -76.82611111,
         38.09388889
@@ -43,8 +45,20 @@
       "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_3"
     },
     {
+      "label": "Virginia Department of Transportation, Westmoreland County byway segments",
+      "url": "https://services.arcgis.com/p5v98VHDX9Atv3l7/arcgis/rest/services/Byways_022024/FeatureServer/0/query?where=LAD_SOURCE%3D%27Westmoreland+County%27&outFields=RTE_COMMON,LAD_SCEN_2&returnGeometry=false&returnDistinctValues=true&f=json"
+    },
+    {
       "label": "Wikipedia, George Washington Birthplace National Monument",
       "url": "https://en.wikipedia.org/wiki/George_Washington_Birthplace_National_Monument"
+    },
+    {
+      "label": "Wikipedia, List of Virginia Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
+    },
+    {
+      "label": "Wikipedia, Oak Grove, Westmoreland County, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Oak_Grove%2C_Westmoreland_County%2C_Virginia"
     },
     {
       "label": "Wikipedia, Westmoreland State Park",
@@ -52,17 +66,8 @@
     },
     {
       "label": "Wikipedia, Montross, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Montross,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Stratford Hall (plantation)",
-      "url": "https://en.wikipedia.org/wiki/Stratford_Hall_(plantation)"
-    },
-    {
-      "label": "VDOT, Virginia Byways layer, Westmoreland County segments",
-      "url": "https://services.arcgis.com/p5v98VHDX9Atv3l7/arcgis/rest/services/Byways_022024/FeatureServer/0/query?where=LAD_SOURCE%3D%27Westmoreland+County%27&outFields=RTE_COMMON,LAD_SCEN_2&returnGeometry=false&returnDistinctValues=true&f=json"
+      "url": "https://en.wikipedia.org/wiki/Montross%2C_Virginia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

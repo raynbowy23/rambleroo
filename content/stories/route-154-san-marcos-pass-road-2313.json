@@ -1,20 +1,21 @@
 {
   "id": "route-154-san-marcos-pass-road-2313",
-  "tagline": "The old stage road over the mountains to Santa Barbara.",
+  "tagline": "A mountain crossing pairs a steel arch with the old stagecoach road.",
   "motifs": [
     "arch-bridge",
     "lake-wide"
   ],
   "intro": [
-    "Highway 154 leaves US 101 at Los Olivos, a town named for a ranch of five thousand olive trees, and runs southeast past Santa Ynez and along Cachuma Lake into Los Padres National Forest. It crosses the Santa Ynez Mountains at San Marcos Pass, never much above 2,000 feet, and comes down the other side to Santa Barbara.",
-    "Before US 101 went through Gaviota Pass this was the main road to Santa Barbara, and a stagecoach route in its early years. Frémont's battalion came over the pass on a rainy Christmas Eve in 1846, when it was only a rough path, and lost 150 horses and mules sliding down the mud."
+    "Route 154 crosses the Santa Ynez Mountains between Los Olivos and Santa Barbara on two lanes, supplemented by passing lanes. It passes Lake Cachuma and enters Los Padres National Forest before crossing Cold Spring Canyon on a steel arch. Caltrans officially designates the route a scenic highway; the designation recognizes a memorable landscape without visual intrusions. San Marcos Pass offers a shorter but hillier alternative to US 101 through Gaviota Pass.",
+    "Before US 101 went through Gaviota Pass, this was the main route to Santa Barbara, used by stagecoaches in its early years. At Los Olivos, passengers could continue by stagecoach over the pass from the narrow-gauge railway’s southern terminus. The mountain highway entered the state system in 1931 and received the number 154 in the 1964 renumbering. That February, the Cold Spring Canyon bridge opened to traffic above the old stage road, carrying the highway on its steel arch.",
+    "Travel from US 101 through Los Olivos toward Santa Ynez, then continue to Lake Cachuma and Cold Spring Canyon. Stagecoach Road passes below the bridge, where Cold Spring Tavern occupies the old route. Beyond Camino Cielo, the highway passes the Painted Cave Road and Old San Marcos Road junction before descending into Santa Barbara."
   ],
   "moments": [
     {
       "title": "Cachuma Lake",
       "kind": "roadside",
       "scene": "river",
-      "text": "The Santa Ynez River backs up behind Bradbury Dam beside the road, a reservoir that fell to about 7 percent of capacity in 2016 and was nearly full again in January 2023.",
+      "text": "Cachuma is a reservoir beside Route 154, formed when the U.S. Bureau of Reclamation built Bradbury Dam across the Santa Ynez River in 1953. The project stored water for regional cities and irrigation. Its shoreline changes with the water supply: the reservoir spills in some years and drops below 10 percent of capacity in dry years. In October 2016, storage fell to approximately 7.3 percent of capacity. By January 15, 2023, successive storms had brought it nearly to capacity. Originally called Cachuma Dam, the structure was renamed in 1971 for local water-supply advocate C. W. Bradbury.",
       "at": [
         -119.98098,
         34.58666
@@ -27,7 +28,7 @@
       "title": "Cold Spring Canyon Arch Bridge",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The highway crosses Cold Spring Canyon on a steel arch opened in 1964, its deck 400 feet above the canyon floor.",
+      "text": "At its highest point, the deck of Cold Spring Canyon Arch Bridge stands 400 feet above the canyon floor. The steel arch opened to traffic in February 1964, built by American Bridge and Massman Construction. In 1976, the American Society of Civil Engineers designated it a Historic Civil Engineering Landmark. Below it, Stagecoach Road preserves a piece of the old San Marcos Pass route, with Cold Spring Tavern in the canyon. American Bridge returned to complete seismic retrofitting, bringing one of the original bridge construction companies back to the structure.",
       "at": [
         -119.83459,
         34.52606
@@ -40,17 +41,18 @@
       "title": "Cold Spring Tavern",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Down in the canyon on the old stage road, a relay station of 1865 was in 1956 the first restaurant to serve the Hensons' guest-ranch salad dressing, since known as ranch.",
+      "text": "Cold Spring Tavern began in 1865 as the Cold Spring Relay Station, where stagecoach horses were changed and passengers broke for meals. It sits in Cold Spring Canyon on Stagecoach Road, about a mile off Highway 154. In 1956, owner Audrey Ovington became the first commercial customer for Steve Henson’s salad dressing. Henson and his wife had been serving it at their nearby Hidden Valley Ranch. Its popularity with guests led them to market it locally, and the condiment became known as ranch dressing. The former relay stop lies below the highway’s Cold Spring Canyon bridge.",
       "at": [
         -119.83541,
         34.52332
       ]
     }
   ],
-  "practical": [
-    "Caltrans and the California Highway Patrol have designated the road over San Marcos Pass a daylight-headlight highway because of frequent accidents."
-  ],
   "sources": [
+    {
+      "label": "Wikipedia, Cold Spring Canyon Arch Bridge",
+      "url": "https://en.wikipedia.org/wiki/Cold_Spring_Canyon_Arch_Bridge"
+    },
     {
       "label": "Wikipedia, California State Route 154",
       "url": "https://en.wikipedia.org/wiki/California_State_Route_154"
@@ -61,21 +63,20 @@
     },
     {
       "label": "Wikipedia, Los Olivos, California",
-      "url": "https://en.wikipedia.org/wiki/Los_Olivos,_California"
+      "url": "https://en.wikipedia.org/wiki/Los_Olivos%2C_California"
     },
     {
       "label": "Wikipedia, Cachuma Lake",
       "url": "https://en.wikipedia.org/wiki/Cachuma_Lake"
     },
     {
-      "label": "Wikipedia, Cold Spring Canyon Arch Bridge",
-      "url": "https://en.wikipedia.org/wiki/Cold_Spring_Canyon_Arch_Bridge"
+      "label": "Wikipedia, Bradbury Dam",
+      "url": "https://en.wikipedia.org/wiki/Bradbury_Dam"
     },
     {
       "label": "Wikipedia, Cold Spring Tavern",
       "url": "https://en.wikipedia.org/wiki/Cold_Spring_Tavern"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

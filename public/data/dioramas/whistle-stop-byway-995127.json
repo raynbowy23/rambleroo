@@ -3,12 +3,12 @@
   "bywayId": "whistle-stop-byway-995127",
   "title": "Whistle Stop Byway",
   "longitude": -80.6255,
-  "ground": "forested-ridges",
-  "palette": "forest",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,149 +239,79 @@
     "elevation": [
       [
         0,
-        0.35
+        0.2
       ],
       [
         0.125,
-        0.453
+        0.218
       ],
       [
         0.25,
-        0.7
+        0.26
       ],
       [
         0.375,
-        0.947
+        0.302
       ],
       [
         0.5,
-        1.05
+        0.32
       ],
       [
         0.625,
-        0.947
+        0.302
       ],
       [
         0.75,
-        0.7
+        0.26
       ],
       [
         0.875,
-        0.453
+        0.218
       ],
       [
         1,
-        0.35
+        0.2
       ]
     ]
   },
   "landmarks": [
     {
+      "name": "Ripplemead",
+      "model": "town-blocks",
+      "at": 0.038285597640791834,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
       "name": "Goldbond",
       "model": "town-blocks",
       "at": 0.26721701379529056,
       "offset": "roadside",
-      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Paint Bank",
       "model": "town-blocks",
       "at": 1,
       "offset": "roadside",
-      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
     {
-      "model": "hardwood",
-      "at": 0.0875,
-      "side": -1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.09949999999999999,
-      "side": -1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.11149999999999999,
-      "side": -1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.3375,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
       "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.34950000000000003,
-      "side": 1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.36150000000000004,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5875,
-      "side": -1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5995,
-      "side": -1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.6115,
-      "side": -1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8375,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8495,
-      "side": 1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8615,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.05
+      "scale": 1
     }
   ],
   "towns": [
     {
       "name": "Ripplemead",
       "at": 0.03837209302325582,
-      "landmark": ""
+      "landmark": "Ripplemead"
     },
     {
       "name": "Goldbond",

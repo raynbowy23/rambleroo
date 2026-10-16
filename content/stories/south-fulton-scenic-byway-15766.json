@@ -1,19 +1,20 @@
 {
   "id": "south-fulton-scenic-byway-15766",
-  "tagline": "A country loop that a new city was founded to keep.",
+  "tagline": "Rolling hills and mill ruins on a rural Atlanta loop",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "The loop runs 29 miles through a quiet corner of metropolitan Atlanta in south Fulton County, much of it on Cochran Mill Road and Hutcheson Ferry Road, over rolling hills and forested ridges and past pastures. The east side of Cochran Mill Park keeps the ruins of the old mill and the old millpond.",
-    "Much of this country is now the city of Chattahoochee Hills, incorporated in 2007 so its residents could hold the zoning and keep the land rural. Its plan sets aside 70 percent of the city as forest and farm for good. The state's bicycle guide to the byway sends riders to Smith's Store in the old Rico community to put air in their tires."
+    "South Fulton Scenic Byway makes a 29-mile loop through rolling hills, wooded ridges and pastures in metropolitan Atlanta. Cochran Mill Road, Hutcheson Ferry Road and State Highway 70 carry the route. Georgia DOT includes it among the state’s designated scenic byways and highlights its rural communities and farmhouses, with recreation at Cochran Mill Park and the nearby Chattahoochee River.",
+    "That rural setting became a focus of local government. The 2006 state law enabling incorporation sought local zoning control to preserve rural character while managing development. The initial plan concentrated most building in three planned villages. Residents sought control of zoning and subdivision, and Chattahoochee Hill Country incorporated in 2007; the city became Chattahoochee Hills the following year. Its zoning envisions protecting 70 percent of the city’s land as forest and farm while concentrating development on the remaining land.",
+    "Start the loop at the junction of Hutcheson Ferry and Cochran Mill roads. A side trip near the southern leg reaches Serenbe’s shared greenspaces. Take Hutcheson Ferry Road toward Redwine, then follow the loop north toward Rivertown and Cedar Grove. Return along Cochran Mill Road, where the park preserves mill ruins and the old millpond."
   ],
   "moments": [
     {
       "title": "Serenbe",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "A short way off the loop, a village built so that every house has a front porch and none has a backyard, all of them facing a shared green and its trails.",
+      "text": "Front porches face shared green space and trails at Serenbe, where single-family houses and row houses have no backyards. Steve Nygren developed the neighborhood in Chattahoochee Hills. In the 1990s, he and Marie Nygren formed a plan for a sustainable community outside Atlanta, with protection of the area’s wetlands and natural landscape among their goals. The first home sold in 2005. Its architecture ranges from Arts and Crafts cottages to loft-style townhouses and modern box forms; nearby shops and services encourage walking. Nygren used New Urbanist principles to combine walkability, shared greens and varied buildings. Seventy percent of Serenbe’s land is protected from development.",
       "at": [
         -84.73778,
         33.525
@@ -23,35 +24,45 @@
       "title": "Rivertown",
       "kind": "town",
       "scene": "river",
-      "text": "The community takes its name from the Chattahoochee River, which runs along the northwest edge of this hill country.",
+      "text": "Rivertown’s name records its setting beside the Chattahoochee River. The river forms the northwestern border of the wider Chattahoochee Hill Country region. Rivertown is among the historic communities included within the newer city of Chattahoochee Hills, along with Rico, Goodes and Campbellton.",
       "at": [
         -84.7375,
         33.61556
       ]
+    },
+    {
+      "title": "Cochran Mill Park",
+      "kind": "short walk",
+      "scene": "forest",
+      "text": "Mill ruins and an old millpond occupy the east side of Cochran Mill Park. The 800-acre park includes miles of hiking and horse trails. Its west side holds a picnic pavilion and playground. The adjoining Cochran Mill Nature Center occupies 50 wooded acres connected to the park’s east side, with wildlife exhibits and walking trails.",
+      "notice": "The park’s east side holds the historic mill ruins and old millpond."
     }
   ],
   "sources": [
     {
-      "label": "Georgia DOT, Scenic Byways",
+      "label": "Georgia Department of Transportation, Scenic Byways",
       "url": "https://www.dot.ga.gov/GDOT/pages/ScenicByways.aspx"
     },
     {
-      "label": "Georgia DOT, South Fulton Scenic Byway Bicycle Guide",
+      "label": "Georgia Department of Transportation, South Fulton Scenic Byway Bicycle Guide",
       "url": "https://www.dot.ga.gov/DriveSmart/Travel/ScenicByways/SouthFulton-Brochure.pdf"
     },
     {
       "label": "Wikipedia, Chattahoochee Hills, Georgia",
-      "url": "https://en.wikipedia.org/wiki/Chattahoochee_Hills,_Georgia"
+      "url": "https://en.wikipedia.org/wiki/Chattahoochee_Hills%2C_Georgia"
     },
     {
       "label": "Wikipedia, Serenbe",
       "url": "https://en.wikipedia.org/wiki/Serenbe"
     },
     {
+      "label": "Georgia Department of Transportation, South Fulton Scenic Byway Map",
+      "url": "https://www.dot.ga.gov/DriveSmart/Travel/ScenicByways/South_Fulton.pdf"
+    },
+    {
       "label": "Wikipedia, Rivertown, Georgia",
-      "url": "https://en.wikipedia.org/wiki/Rivertown,_Georgia"
+      "url": "https://en.wikipedia.org/wiki/Rivertown%2C_Georgia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

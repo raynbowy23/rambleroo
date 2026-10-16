@@ -1,19 +1,20 @@
 {
   "id": "route-38-san-bernardino-mountains-990605",
-  "tagline": "Over southern California's highest pass, down to the Santa Ana.",
+  "tagline": "Over Onyx Summit, a mountain highway descends toward the Santa Ana",
   "motifs": [
     "snow-peaks"
   ],
   "intro": [
-    "Out of Big Bear City, Highway 38 heads southeast and climbs to Onyx Summit. Past the top it turns south and then southwest and begins a slow descent along Cienaga Seca Creek, by the forest road to Heart Bar Campground, to the upper Santa Ana River near the South Fork campground.",
-    "On the way down the road looks out over the Sand to Snow National Monument, which runs from about 1,000 feet on the Coachella Valley floor to over 11,000 feet in these mountains. The headwaters of the Santa Ana are inside it."
+    "Route 38 climbs southeast from Big Bear City to Onyx Summit, then descends beside Cienaga Seca Creek toward the upper Santa Ana River. Caltrans designates the stretch between a point east of South Fork Campground and State Lane as a scenic highway. It also belongs to the broader Rim of the World Scenic Byway; the Forest Service highlights views of Sand to Snow National Monument between Mill Creek and Onyx Summit. The mostly rural highway connects Redlands with the Big Bear Lake area, reaching one of Southern California’s highest roads near the summit.",
+    "The highway began its state-system history in 1933, when a road from Redlands to near Baldwin Lake was added. It became Route 190 in 1935. The 1964 renumbering gave it the Route 38 designation, and the highway was rerouted along the north side of Big Bear Lake at the same time.",
+    "From Big Bear City, follow the climb to the 8,443-foot pass, near 9,114-foot Onyx Peak. Beyond the summit, the road turns south and then southwest, descending gradually beside the creek to the forest road for Heart Bar Campground. The upper Santa Ana then leads the highway northwest toward Barton Flats and its campgrounds."
   ],
   "moments": [
     {
       "title": "Big Bear City",
       "kind": "town",
       "scene": "forest",
-      "text": "Big Bear takes its name from the grizzlies that once roamed the valley. The post office here opened in 1927 as Van Duesen and became Big Bear City six months later.",
+      "text": "Big Bear City is a community of small houses and cabins arranged in square blocks, surrounded by San Bernardino National Forest. Despite its name, it is unincorporated, distinct from the neighboring city of Big Bear Lake. The bear in the name refers to the grizzlies that once roamed the area. Air travel reached the community in summer 1929, when Standard Air Lines of Los Angeles began regular service. The airport now serves general aviation, with no commercial airline service. Most of the community and its business district center on Big Bear Boulevard.",
       "at": [
         -116.77833,
         34.23889
@@ -23,7 +24,7 @@
       "title": "Onyx Summit",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "At 8,443 feet, the highest mountain pass in southern California, with Onyx Peak standing nearly 700 feet higher beside it.",
+      "text": "At 8,443 feet, Onyx Summit is the highest mountain pass in Southern California. Route 38 crosses it in the eastern part of San Bernardino National Forest. Nearby Onyx Peak rises to 9,114 feet. The highway reaches the summit on its southeastward climb from Big Bear City, then turns south and southwest into a gradual descent beside Cienaga Seca Creek.",
       "at": [
         -116.71889,
         34.19222
@@ -33,7 +34,7 @@
       "title": "San Gorgonio Mountain",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "The forest road to Heart Bar Campground also leads to a trail up Old Greyback, at 11,503 feet the highest peak in southern California, its summit plateau a square mile across.",
+      "text": "Old Greyback has a broad top: San Gorgonio Mountain’s summit plateau covers one square mile. At 11,503 feet, it is Southern California’s highest peak, within the San Gorgonio Wilderness and Sand to Snow National Monument. Its north face is steep, its south face shallower. The mountain also divides watersheds: it stands on the Great Basin Divide, separating streams bound for inland basins from rivers flowing to the Pacific. The Santa Ana, Whitewater and San Gorgonio rivers all have their sources here. Several trails reach the broad summit, but most routes are strenuous and gain well over 4,000 feet in elevation.",
       "at": [
         -116.82485,
         34.09916
@@ -43,21 +44,18 @@
       ]
     }
   ],
-  "practical": [
-    "The road is open all year, but this country gets snow and chains may be needed in winter."
-  ],
   "sources": [
-    {
-      "label": "USDA Forest Service, Rim of the World Scenic Byway",
-      "url": "https://www.fs.usda.gov/r05/sanbernardino/recreation/rim-world-scenic-byway"
-    },
     {
       "label": "Wikipedia, California State Route 38",
       "url": "https://en.wikipedia.org/wiki/California_State_Route_38"
     },
     {
+      "label": "USDA Forest Service, Rim of the World Scenic Byway",
+      "url": "https://www.fs.usda.gov/r05/sanbernardino/recreation/rim-world-scenic-byway"
+    },
+    {
       "label": "Wikipedia, Big Bear City, California",
-      "url": "https://en.wikipedia.org/wiki/Big_Bear_City,_California"
+      "url": "https://en.wikipedia.org/wiki/Big_Bear_City%2C_California"
     },
     {
       "label": "Wikipedia, Onyx Summit",
@@ -66,12 +64,7 @@
     {
       "label": "Wikipedia, San Gorgonio Mountain",
       "url": "https://en.wikipedia.org/wiki/San_Gorgonio_Mountain"
-    },
-    {
-      "label": "Wikipedia, Sand to Snow National Monument",
-      "url": "https://en.wikipedia.org/wiki/Sand_to_Snow_National_Monument"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

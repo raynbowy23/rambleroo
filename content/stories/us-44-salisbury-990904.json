@@ -1,25 +1,36 @@
 {
   "id": "us-44-salisbury-990904",
-  "tagline": "An old turnpike through Connecticut's iron corner.",
+  "tagline": "An old turnpike corridor crosses marble built for iron loads",
   "motifs": [
     "steeple-town"
   ],
   "intro": [
-    "US 44 crosses from Millerton, New York, and runs to Lakeville on the line of the old Salisbury and Canaan Turnpike. Route 41 joins it for under two miles through Salisbury center, and then it goes on alone toward North Canaan, about nine miles in all.",
-    "This corner of the state made iron from before the Revolution until about 1920. Its mines were small and far from any river that could carry the iron cheaply, so the town worked it into wrought iron fine enough for gun barrels and cast it into railroad car wheels. The mines are under water now."
+    "US 44 enters Connecticut east of Millerton as a rural road, passing through Lakeville and Salisbury center toward North Canaan. The state’s scenic-road inventory identifies 8.83 miles between the New York line and the Salisbury–North Canaan line as Scenic Road No. 23. Along the drive are Lakeville’s former industrial village and Salisbury’s compact Main Street district, with a green, converted houses and a stone library. In Lakeville, the historic district’s street grid remains virtually unchanged from the late nineteenth century.",
+    "From the state line to Lakeville, the road follows the western end of the former Salisbury and Canaan Turnpike. Iron traffic left a more tangible piece of road engineering: Lorenzo Tupper built the Burton Brook Bridge in 1873–74, using local marble. Designed to carry heavy loads of iron ore, it has survived on a major road. The state took over the bridge when US 44 was designated in 1935.",
+    "Travel east from the New York line into Lakeville, then cross Burton Brook north of the village center. US 44 shares 1.67 miles with Route 41 through Salisbury center. The library and town hall anchor the southern end of the historic district; the triangular green marks its northern end. Beyond the center, US 44 continues toward North Canaan."
   ],
   "moments": [
     {
       "title": "Lakeville",
       "kind": "town",
       "scene": "town",
-      "text": "The village was called Furnace Village until 1846, for blast furnaces that included one Ethan Allen set up in the 1760s, and it holds Lake Wononscopomuc, the deepest natural lake in Connecticut."
+      "text": "Lakeville was Furnace Village until 1846, a name tied to the blast furnaces of Salisbury’s iron industry. Ethan Allen established one of those furnaces in the 1760s. The historic district includes Holley Manufacturing Company buildings and its millpond, as well as the village’s 1871 railroad station. Beside this industrial history is Lake Wononscopomuc, Connecticut’s deepest natural lake, with a maximum depth of 102 feet. The town beach and boat launch occupy its north shore; the Hotchkiss School’s private beach is on the south. Furnace Park and Bicentennial Park are also included in the village’s historic district."
+    },
+    {
+      "title": "Burton Brook Bridge",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Locally quarried marble carries two lanes of US 44 over Burton Brook in Lakeville. Lorenzo Tupper, a local stonemason who also served on the town’s road commission, built the bridge in 1873–74. Its single masonry arch was engineered for heavy iron-ore loads, helping it survive later use on a major roadway. The state assumed responsibility in 1935 when the route became US 44. Iron-railed pedestrian bridges flank it on both sides, beside the stone parapets of the road crossing. The arch spans 20 feet, its exterior finished in roughly dressed, mortared square blocks.",
+      "at": [
+        -73.43944444,
+        41.96777778
+      ]
     },
     {
       "title": "Salisbury Center",
       "kind": "town",
       "scene": "town",
-      "text": "Main Street runs from the green and the White Hart Tavern of about 1800 down to the 1894 stone Scoville Library, the first library in the country open to the public free of charge.",
+      "text": "Salisbury’s Main Street places civic buildings at one end of the historic district and a triangular green at the other. The stone Scoville Library dates to 1894, but the collection began in 1771, when furnace owner Richard Smith used community contributions to buy 200 books in London. Early library borrowers paid damage fees for candle wax dripped onto the books they read. A later bequest from Jonathan Scoville helped finance a library building of locally quarried gray marble. The neighboring town hall is newer than its traditional appearance suggests: it was built in 1988 with clapboard siding and pilasters.",
       "at": [
         -73.42361,
         41.98278
@@ -35,22 +46,37 @@
       "url": "https://en.wikipedia.org/wiki/U.S._Route_44"
     },
     {
-      "label": "Wikipedia, Salisbury, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Salisbury,_Connecticut"
+      "label": "Wikipedia, Bridge No. 2305",
+      "url": "https://en.wikipedia.org/wiki/Bridge_No._2305"
     },
     {
       "label": "Wikipedia, Lakeville, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Lakeville,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Lakeville%2C_Connecticut"
+    },
+    {
+      "label": "Connecticut Department of Transportation, Scenic Road inventory (2025)",
+      "url": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Salisbury Center Historic District",
+      "url": "https://en.wikipedia.org/wiki/Salisbury_Center_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Lakeville Historic District",
+      "url": "https://en.wikipedia.org/wiki/Lakeville_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Salisbury, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Salisbury%2C_Connecticut"
     },
     {
       "label": "Wikipedia, Lake Wononscopomuc",
       "url": "https://en.wikipedia.org/wiki/Lake_Wononscopomuc"
     },
     {
-      "label": "Wikipedia, Salisbury Center Historic District",
-      "url": "https://en.wikipedia.org/wiki/Salisbury_Center_Historic_District"
+      "label": "Wikipedia, Scoville Library",
+      "url": "https://en.wikipedia.org/wiki/Scoville_Library"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

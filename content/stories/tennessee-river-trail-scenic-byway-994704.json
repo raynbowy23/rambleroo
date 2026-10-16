@@ -1,45 +1,47 @@
 {
   "id": "tennessee-river-trail-scenic-byway-994704",
-  "tagline": "A long loop around a river that turned into a lake.",
+  "tagline": "Two-lane roads link river towns, battlefields and a remade shoreline",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "The trail is a loop of two-lane roads on both banks of the Tennessee River, 440 miles of them, the longest scenic byway in the state. From the eastern gateway on I-40, TN 13 runs north through Waverly to Erin and the road carries on to Dover on the Cumberland. From there it goes west to the river at Paris Landing and on to Paris, comes south through Camden and Parsons to Savannah, and returns north through Waynesboro and Linden.",
-    "Part of the river along here is Kentucky Lake now. When the TVA dammed it in 1944, the water covered the town of Johnsonville, which had stood only since 1864."
+    "The Tennessee River Trail follows winding two-lane roads on both banks of the Tennessee River, with countryside views and repeated connections to the water. Tennessee’s scenic-byway program identifies it as the state’s longest scenic byway, at 440 miles, and highlights Civil War battlefields, wildlife management areas and the TVA story at Johnsonville. It forms a continuous loop, crossing I-40 at gateways on either side of the river.",
+    "Waverly began as a stop on the Nashville–Memphis stagecoach road in the early nineteenth century. During the Civil War, Union troops occupied it to guard the railroad to Johnsonville, a supply depot and transfer station. The river landscape changed when TVA dammed the Tennessee in 1944 to create Kentucky Lake. The original steamboat landing at Paris Landing went underwater; the state park lies inland from that site. Johnsonville, a town that existed from 1864 to 1944, was also flooded. Its historic site is now commemorated by Johnsonville State Historic Park.",
+    "For a circuit from Dover, head toward Waverly, then south through Lobelville and Linden to Waynesboro. Continue through Collinwood to Savannah, then cross to Crump and turn north through Parsons and Camden. Paris and Paris Landing complete the northern return toward Dover."
   ],
   "moments": [
     {
       "title": "Fort Donelson",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "On the Cumberland just below Dover, Grant took the fort in February 1862, one of the first major Union successes of the war, and Nashville fell to the Union within weeks.",
+      "text": "The river batteries and eroded fort remains preserve part of the ground contested at Fort Donelson. In February 1862, Union forces under Ulysses S. Grant and Andrew Hull Foote captured three Confederate forts in the Henry–Donelson campaign, opening the Tennessee and Cumberland rivers to Union naval control. Fort Donelson’s capture led to Nashville’s capture that same month. The water beside the battlefield has changed: damming the Cumberland in the 1960s created the area now called Lake Barkley. Part of the ground attacked by Confederate troops on February 15, 1862, is now privately owned and occupied by homes.",
+      "notice": "River batteries and eroded fort remains survive within the battlefield park.",
       "at": [
         -87.86083,
         36.48722
       ]
     },
     {
+      "title": "Savannah",
+      "kind": "town",
+      "scene": "river",
+      "text": "Savannah began as Rudd’s Ferry, named for James Rudd, who established a crossing in the early 1820s. The settlement on the east side of the Tennessee River later took the name of Savannah, Georgia, the hometown of Rudd’s wife, Elizabeth. In 1862, Ulysses S. Grant commandeered the Cherry Mansion just off the city square for his headquarters during the Battle of Shiloh. The battlefield lies ten miles southwest of Savannah. In downtown Savannah, the Tennessee River Museum occupies a historic post office and includes exhibits on steamboats and the modern musseling industry.",
+      "at": [
+        -88.23694,
+        35.22361
+      ]
+    },
+    {
       "title": "Paris Landing State Park",
       "kind": "roadside",
       "scene": "river",
-      "text": "The park stands inland from the original Paris Landing, a steamboat stop that went under Kentucky Lake when the river was dammed.",
+      "text": "Paris Landing State Park occupies the western bank of Kentucky Lake, inland from the steamboat landing that gave it its name. The original Paris Landing served traffic on the Tennessee River. TVA’s damming of the river in 1944 put that site underwater. The park covers 841 acres, with a marina on the lake. Its tree-lined golf course follows the western shore, with several holes beside the water. The present shoreline is part of a reservoir landscape that replaced the old landing. The golf course opened in 1971, adding another recreational use to the reservoir’s edge.",
       "at": [
         -88.086,
         36.435
       ],
       "motifs": [
         "lake-wide"
-      ]
-    },
-    {
-      "title": "Savannah",
-      "kind": "town",
-      "scene": "river",
-      "text": "The river town began as Rudd's Ferry, and in 1862 Grant commandeered the Cherry Mansion off its square as headquarters for the battle at Shiloh, ten miles to the southwest.",
-      "at": [
-        -88.23694,
-        35.22361
       ]
     }
   ],
@@ -49,30 +51,33 @@
       "url": "https://tnscenicbyways.com/"
     },
     {
-      "label": "Tennessee Scenic Byways, Tennessee River Trail driving directions",
+      "label": "Wikipedia, Paris Landing State Park",
+      "url": "https://en.wikipedia.org/wiki/Paris_Landing_State_Park"
+    },
+    {
+      "label": "Tennessee Department of Transportation, Tennessee River Trail driving directions",
       "url": "https://tnscenicbyways.com/directions/tn-river-trail_driving-directions.pdf"
     },
     {
-      "label": "TDOT, Tennessee Byways flipbook, Tennessee River Trail",
-      "url": "https://www.tn.gov/content/dam/tn/tdot/environmental/highway-beautification/scenic_byways/Tennessee%20Byways%20Flipbook.pdf#page=52"
-    },
-    {
-      "label": "Wikipedia, Fort Donelson National Battlefield",
-      "url": "https://en.wikipedia.org/wiki/Fort_Donelson_National_Battlefield"
-    },
-    {
-      "label": "Wikipedia, Paris Landing State Park",
-      "url": "https://en.wikipedia.org/wiki/Paris_Landing_State_Park"
+      "label": "Wikipedia, Waverly, Tennessee",
+      "url": "https://en.wikipedia.org/wiki/Waverly%2C_Tennessee"
     },
     {
       "label": "Wikipedia, Johnsonville State Historic Park",
       "url": "https://en.wikipedia.org/wiki/Johnsonville_State_Historic_Park"
     },
     {
+      "label": "Wikipedia, Fort Donelson National Battlefield",
+      "url": "https://en.wikipedia.org/wiki/Fort_Donelson_National_Battlefield"
+    },
+    {
       "label": "Wikipedia, Savannah, Tennessee",
-      "url": "https://en.wikipedia.org/wiki/Savannah,_Tennessee"
+      "url": "https://en.wikipedia.org/wiki/Savannah%2C_Tennessee"
+    },
+    {
+      "label": "Tennessee Department of Tourist Development, Tennessee River Trail",
+      "url": "https://www.tnvacation.com/things-to-do/road-trips/trails-byways/tennessee-river-trail"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

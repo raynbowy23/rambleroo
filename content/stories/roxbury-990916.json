@@ -1,19 +1,30 @@
 {
   "id": "roxbury-990916",
-  "tagline": "Four miles through a town that quarried bridge granite.",
+  "tagline": "Short scenic roads through a hill town shaped by iron and granite",
   "motifs": [
     "steeple-town"
   ],
   "intro": [
-    "Route 67 comes over the Bridgewater line and runs a little under four miles east into Roxbury, a town settled about 1713 whose old name, Shepaug, is a Mahican word for rocky water. At the town center Route 317 turns north up Church Street past the Congregational church, and the scenic part ends at Painter Hill Road, where the street becomes Good Hill Road.",
-    "Mine Hill, in the northwest of town, was dug for gold, silver and lead in the 1700s. None of it lasted more than a few years. The iron turned out to be the real thing, and the granite quarried there went into the Brooklyn Bridge and Grand Central Terminal."
+    "Roxbury’s scenic drive follows 3.77 miles of Route 67 and the section of Route 317 between Route 67 and Painter Hill Road. Route 317’s scenic section runs along Church Street past Roxbury Congregational Church.",
+    "The road through Roxbury and Bridgewater became State Highway 125 in 1922; Route 67 followed in the 1932 renumbering. In 1959, a new alignment bypassed Bridgewater center. Route 317 received its number in 1964.",
+    "From the Bridgewater line, follow Route 67 into Roxbury, where it meets Route 199 and Route 317. The Route 67 designation continues 0.30 mile east of Route 317. The scenic branch on Route 317 heads north through the center, then northeast to Painter Hill Road, where Church Street becomes Good Hill Road."
   ],
   "moments": [
+    {
+      "title": "Bridgewater Center Historic District",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Bridgewater center belongs to an earlier alignment of the journey: Route 67 bypassed it in 1959. The village took shape after the Congregational Church was built in 1807, before Bridgewater separated from New Milford in 1856. Its town green was laid out in the year of incorporation. Federal and Greek Revival buildings give the district its early nineteenth-century character; St. Mark’s Episcopal Church adds Gothic Revival architecture in wood. Hat manufacturers west of the village supported its commercial life. More than 60 historic buildings belong to the district, including the present and former town halls.",
+      "at": [
+        -73.36638889,
+        41.535
+      ]
+    },
     {
       "title": "Mine Hills Preserve",
       "kind": "short walk",
       "scene": "forest",
-      "text": "Trails run along the east face of Mine Hill past old quarries to the stone blast furnaces of an ironworks that closed in 1905, with panels explaining what each part was for.",
+      "text": "Mine Hill’s surviving shafts record attempts to extract gold, silver and lead in the eighteenth century. Iron mining developed after the Shepaug Spathic Iron and Steel Company bought the hill in 1865. A railroad carried ore down to furnaces, and a dam on Mineral Spring Brook supplied water. The iron operation closed in 1905; granite quarrying continued until 1935. Trails now reach abandoned quarries and preserved ironworks remains, with panels explaining their uses. The company also built a small workers’ town. Granite from the quarry traveled by rail to New York City markets.",
       "at": [
         -73.33528,
         41.56083
@@ -23,7 +34,7 @@
       "title": "Roxbury Center",
       "kind": "town",
       "scene": "town",
-      "text": "Route 317 leaves Route 67 in the town center and goes up Church Street past Roxbury Congregational Church, inside a historic district of 32 buildings.",
+      "text": "Roxbury Center gathers its historic buildings near the junction of Routes 67 and 317. The village became the community’s dominant center beginning in the 1790s, and much of its architecture dates from that period and the following 50 to 60 years. Most district buildings stand on Weller’s Bridge Road or Church Street; Federal and Greek Revival houses predominate. On the town green, an obelisk marks the burial of Revolutionary War figure Seth Warner. The district also includes the 1937 public library and a mid-nineteenth-century town hall, alongside agricultural land surrounding the village.",
       "at": [
         -73.3025,
         41.55194
@@ -35,6 +46,18 @@
   ],
   "sources": [
     {
+      "label": "Wikipedia, Roxbury Center",
+      "url": "https://en.wikipedia.org/wiki/Roxbury_Center"
+    },
+    {
+      "label": "Wikipedia, Mine Hills Preserve",
+      "url": "https://en.wikipedia.org/wiki/Mine_Hills_Preserve"
+    },
+    {
+      "label": "Wikipedia, Roxbury, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Roxbury%2C_Connecticut"
+    },
+    {
       "label": "Wikipedia, Connecticut Route 67",
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_67"
     },
@@ -43,14 +66,9 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_317"
     },
     {
-      "label": "Wikipedia, Roxbury, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Roxbury,_Connecticut"
-    },
-    {
-      "label": "Wikipedia, Mine Hills Preserve",
-      "url": "https://en.wikipedia.org/wiki/Mine_Hills_Preserve"
+      "label": "Wikipedia, Bridgewater Center Historic District",
+      "url": "https://en.wikipedia.org/wiki/Bridgewater_Center_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,19 +1,21 @@
 {
   "id": "upper-freehold-historic-farmland-byway-69815",
-  "tagline": "Farm lanes out of Allentown, ending at a mill.",
+  "tagline": "Farmland roads link old mill communities and a colonial meetinghouse",
   "motifs": [
     "gristmill"
   ],
   "intro": [
-    "The loop starts at the Presbyterian Church on High Street in Allentown and goes out into Upper Freehold Township by county routes and farm lanes, Rues Road and Red Valley Road among them. Many of the farms along the way have been worked by the same families for generations, and this was contested ground in the Revolution, held by each side at different times.",
-    "Near the end the route turns onto Walnford Road and crosses Crosswicks Creek on the old iron bridge. The two pieces of Walnford Road were once connected. The second one dead-ends at the mill."
+    "The Upper Freehold Historic Farmland Scenic Byway links Allentown with farmland and mill communities in Monmouth County. The drive follows county and local roads, including Rues Road and Red Valley Road. New Jersey DOT identifies history and culture as the scenic byway’s defining qualities and describes a corridor where agricultural traditions remain visible. Its published length is approximately 24 miles. Allentown and Imlaystown are historic districts within the corridor, and the neighboring farms have been here for multiple generations.",
+    "The roads connect settlements shaped by farming and milling. At Walnford, Philadelphia merchant Richard Waln bought several mills in 1772 and built a house the following year. The road network changed: two sections of Walnford Road that once joined now require a circuit through other roads to reach the mill.",
+    "Following DOT’s detailed tour, begin at Allentown’s Presbyterian Church and head out along Main Street toward Chambers Road and Rues Road. Route 526 leads toward Red Valley Road, with a northward spur to the Old Yellow Meeting House. Continue by Holmes Mill Road and Arneytown-Hornerstown Road to Hill Road, then cross Crosswicks Creek on the old iron bridge. The final approach ends at Walnford Mill. An optional return from the mill takes drivers back through Holmes Mill Road toward Allentown."
   ],
   "moments": [
     {
       "title": "Imlaystown",
       "kind": "town",
       "scene": "town",
-      "text": "A hamlet founded in 1690 and largely rebuilt after an 1898 fire, gathered around Salter's Mill and a 28-acre millpond that once kept an ice business too.",
+      "text": "A 28-acre millpond served two businesses in Imlaystown: milling and ice. The community dates to 1690 and takes its name from the Imlay family, major colonial landowners. Much of the town was rebuilt in 1898 after a destructive fire. Salter’s Mill also replaced an earlier mill damaged by fire, and its two-and-a-half-story frame building contains a horizontal turbine wheel. The Golden family closed milling operations in 1962; the millpond was restored in 1995. The historic district also includes a two-story brick school built in 1930 in the Colonial Revival style.",
+      "notice": "Salter’s Mill stands beside the 28-acre millpond.",
       "at": [
         -74.51527778,
         40.1675
@@ -23,13 +25,15 @@
       "title": "Old Yellow Meeting House",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "A short spur north off Route 526 leads to the meeting house that a congregation begun in 1720 built in 1737."
+      "text": "The meetinghouse’s gable ends face east and west, an arrangement intended to maximize sunlight on its southern side. An earlier Baptist meeting building went up in 1720 on land Thomas and Rachel Salter donated. The present meetinghouse followed in 1737. The cemetery preserves an earlier date: its oldest dated grave belongs to their son John, who died on August 29, 1723. The byway’s spur reaches the meetinghouse north of Route 526 on Yellow Meeting House Road. The congregation’s first resident minister was David Jones; the meetinghouse is the oldest Baptist meetinghouse in New Jersey.",
+      "notice": "The gable ends face east and west."
     },
     {
       "title": "Walnford",
       "kind": "roadside",
       "scene": "river",
-      "text": "At the end of the road is the grist mill on Crosswicks Creek, in the mill village a Philadelphia merchant, Richard Waln, bought in 1772 and his family kept nearly 200 years.",
+      "text": "Walnford’s gristmill stands on Crosswicks Creek, within a historic district that also includes Richard Waln’s 1773 house. Waln was a Philadelphia merchant who bought several mills here in 1772 and gave the settlement its name. His son Nicolas inherited the property, and descendants lived here for nearly 200 years. The preserved complex includes a carriage house and cow barn as well as the restored Georgian house and mill. The district entered the National Register of Historic Places in 1976 for its significance in agriculture and commerce. Walnford Road ends at the mill.",
+      "notice": "The gristmill sits on Crosswicks Creek; the historic district also includes Waln’s 1773 house.",
       "at": [
         -74.56,
         40.13444444
@@ -41,22 +45,33 @@
   ],
   "sources": [
     {
-      "label": "NJDOT, Upper Freehold Historic Farmland Scenic Byway",
+      "label": "New Jersey Department of Transportation, Upper Freehold",
       "url": "https://dot.nj.gov/transportation/community/scenic/freehold.shtm"
     },
     {
-      "label": "Wikipedia, Imlaystown, New Jersey",
-      "url": "https://en.wikipedia.org/wiki/Imlaystown,_New_Jersey"
+      "label": "Wikipedia, List of New Jersey Scenic Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_New_Jersey_Scenic_Byways"
     },
     {
       "label": "Wikipedia, Walnford, New Jersey",
-      "url": "https://en.wikipedia.org/wiki/Walnford,_New_Jersey"
+      "url": "https://en.wikipedia.org/wiki/Walnford%2C_New_Jersey"
+    },
+    {
+      "label": "Wikipedia, Imlaystown, New Jersey",
+      "url": "https://en.wikipedia.org/wiki/Imlaystown%2C_New_Jersey"
+    },
+    {
+      "label": "Wikipedia, Salter's Mill",
+      "url": "https://en.wikipedia.org/wiki/Salter%27s_Mill"
+    },
+    {
+      "label": "Wikipedia, Upper Freehold Baptist Meeting",
+      "url": "https://en.wikipedia.org/wiki/Upper_Freehold_Baptist_Meeting"
     },
     {
       "label": "Wikipedia, Upper Freehold Township, New Jersey",
-      "url": "https://en.wikipedia.org/wiki/Upper_Freehold_Township,_New_Jersey"
+      "url": "https://en.wikipedia.org/wiki/Upper_Freehold_Township%2C_New_Jersey"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,32 +1,31 @@
 {
   "id": "route-395-mono-county-10688",
-  "tagline": "Over Deadman Summit to the salt shore of Mono Lake.",
+  "tagline": "High passes divide river watersheds from the salt basin of Mono Lake",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "US 395 comes into Mono County partway up the Sherwin Grade, tops Sherwin Summit and runs along the west shore of Crowley Lake. Then it leaves the Owens River behind and cuts across the Long Valley Caldera. Eight miles past the Mammoth turnoff it crests Deadman Summit at 8,036 feet, a pass named for a murder victim found nearby around 1868.",
-    "On the far side the road comes down to Mono Lake, squeezed between the water and the Sierra crest, then climbs to Conway Summit and over Devil's Gate Pass before following the West Walker River down toward Walker."
+    "US 395 crosses Mono County by a succession of mountain passes, running between Mono Lake and the Sierra crest and winding beside the West Walker River. Conway Summit is the highway’s highest point; farther south, Deadman Summit separates the Mono Lake and Owens River watersheds. The stretch from the Inyo County line to south of Walker is officially designated a scenic highway by Caltrans. South of Deadman Summit, the road crosses the Long Valley Caldera instead of continuing along the Owens River, passing the turnoff for Mammoth Lakes.",
+    "The earlier Camino Sierra trail connected Los Angeles with Lake Tahoe, loosely paralleling the later highway corridor. At Casa Diablo, a stage stop opened on the Bishop Creek-to-Bodie route in 1878 and served the nearby mining camps. Its stage operation ended in 1881. In the 1930s, the extension of US 395 from Spokane to San Diego followed the Camino Sierra over existing state routes.",
+    "Heading south from Walker, follow the West Walker River toward Devil’s Gate Pass, then continue through Bridgeport to Conway Summit. Descend toward Mono Lake and Lee Vining, then climb over Deadman Summit into the Long Valley Caldera. Beyond the Mammoth Lakes turnoff, the highway follows Crowley Lake’s west shore and crosses Sherwin Summit before descending toward the Inyo County line."
   ],
   "moments": [
     {
-      "title": "Crowley Lake",
+      "title": "Conway Summit",
       "kind": "roadside",
-      "scene": "river",
-      "text": "A reservoir for the Los Angeles Aqueduct since 1941, named for Father John Crowley, the desert padre who told the Owens Valley it could become a place for tourists.",
+      "scene": "mountain",
+      "text": "Conway Summit is the highest point on US 395, dividing the Mono Lake watershed from the East Walker River drainage. To the west rises Sawtooth Ridge, topped by Matterhorn Peak; the Bodie Hills lie to the east. The pass formed from an upland plateau as land in the Mono Basin sank. Its road connection runs between Bridgeport and the East Walker River on the north and Mono Lake and Lee Vining on the south. On the descent toward Bridgeport, US 395 passes the turnoff for the preserved ghost town of Bodie.",
       "at": [
-        -118.7397,
-        37.61735
-      ],
-      "motifs": [
-        "lake-wide"
+        -119.18194,
+        38.08806
       ]
     },
     {
       "title": "Mono Lake",
       "kind": "roadside",
       "scene": "desert",
-      "text": "A lake with no outlet, about three times as salty as the ocean, where brine shrimp feed some two million migrating birds a year.",
+      "text": "Mono Lake’s limestone towers formed underwater, where calcium-bearing springs met the lake’s alkaline water. Falling lake levels exposed these formations, called tufa. With no outlet to the ocean, the lake retains dissolved salts carried in by runoff. Its brine shrimp and alkali flies feed migrating birds. In 1941, Los Angeles extended its aqueduct system into the Mono Basin. Diversions reduced inflow, and the lake fell, exposing formerly submerged tufa and a land bridge that allowed predators to reach gull nests on Negit Island. The brine shrimp themselves feed on microscopic algae.",
+      "notice": "The tufa towers above the water originally formed on the lake bottom.",
       "at": [
         -119.0093,
         38.0166
@@ -36,13 +35,16 @@
       ]
     },
     {
-      "title": "Conway Summit",
+      "title": "Crowley Lake",
       "kind": "roadside",
-      "scene": "mountain",
-      "text": "At 8,138 feet the top of US 395, with the Sawtooth Ridge rising to the west and the Bodie Hills to the east.",
+      "scene": "river",
+      "text": "Crowley Lake stores upper Owens River water for the Los Angeles Aqueduct and provides flood control. The Los Angeles Department of Water and Power created it in 1941 by building Long Valley Dam. Along the eastern shore, columns rise as high as 20 feet, with arches joining their tops. In 2015, UC Berkeley geologists concluded that snowmelt had seeped into volcanic ash and risen again as steam, depositing minerals resistant to erosion. As the surrounding ash wore away, the mineral columns remained. Some columns are upright; others lean, twist or remain partly submerged along the shore.",
       "at": [
-        -119.18194,
-        38.08806
+        -118.7397,
+        37.61735
+      ],
+      "motifs": [
+        "lake-wide"
       ]
     }
   ],
@@ -52,8 +54,12 @@
       "url": "https://en.wikipedia.org/wiki/U.S._Route_395_in_California"
     },
     {
-      "label": "Wikipedia, Crowley Lake",
-      "url": "https://en.wikipedia.org/wiki/Crowley_Lake"
+      "label": "Wikipedia, Casa Diablo Hot Springs",
+      "url": "https://en.wikipedia.org/wiki/Casa_Diablo_Hot_Springs"
+    },
+    {
+      "label": "Wikipedia, Conway Summit",
+      "url": "https://en.wikipedia.org/wiki/Conway_Summit"
     },
     {
       "label": "Wikipedia, Deadman Summit",
@@ -64,10 +70,9 @@
       "url": "https://en.wikipedia.org/wiki/Mono_Lake"
     },
     {
-      "label": "Wikipedia, Conway Summit",
-      "url": "https://en.wikipedia.org/wiki/Conway_Summit"
+      "label": "Wikipedia, Crowley Lake",
+      "url": "https://en.wikipedia.org/wiki/Crowley_Lake"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

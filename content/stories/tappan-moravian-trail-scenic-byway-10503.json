@@ -1,19 +1,21 @@
 {
   "id": "tappan-moravian-trail-scenic-byway-10503",
-  "tagline": "Lake roads where a church moved uphill ahead of the water.",
+  "tagline": "Lake causeways follow a valley where two towns were submerged",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "From Deersville the byway winds about 55 miles through Tappan Lake country and around Clendening Lake, with US 250 following Tappan Lake for several miles on causeways built along with the lake. A northern loop on SR 646 goes by Scio, Jewett and New Rumley. Delaware and Wyandot people traveled this country, and Moravians settled it.",
-    "There are towns under the water. The community of Tappan, which gave the lake its name, was flooded when the lake was finished, and so was Laceyville."
+    "The Tappan-Moravian Trail winds for 55 miles through eastern Ohio’s rural lake country, passing Tappan Lake and circling Clendening Lake. Ohio’s byways program presents the scenic route as a journey through two lake regions and country traveled by the Delaware and Wyandot tribes. Along Tappan Lake, US 250 follows the water for several miles on causeways.",
+    "Those causeways date to the lake’s construction in the 1930s. When the reservoir was completed in 1938, it inundated the community of Tappan, whose name the lake carries. Laceyville also lies beneath the water.",
+    "The lake-road section follows US 250 between Dennison and Cadiz. In the northern villages, Jewett marks an end of the Conotton Creek rail trail. Germano stands on State Routes 9 and 646; at New Rumley, the Custer birthplace memorial stands beside Route 646."
   ],
   "moments": [
     {
       "title": "Tappan Dam",
       "kind": "roadside",
       "scene": "river",
-      "text": "Eslick Road runs along the top of the dam, a vantage point over Tappan Lake.",
+      "text": "Completion of the reservoir in 1938 inundated Tappan; Laceyville also lies beneath the lake. The road belongs to that same transformation: US 250 follows the shoreline on causeways built during the lake’s construction in the 1930s. The reservoir occupies 2,350 acres within the Muskingum Watershed Conservancy District.",
+      "notice": "US 250 follows the lake on causeways built in the 1930s.",
       "at": [
         -81.22611,
         40.35833
@@ -23,16 +25,21 @@
       ]
     },
     {
-      "title": "Pleasant Valley Church",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "When the valley was flooded for Tappan Dam, the church and the graves in its cemetery were moved up this hill, and now they overlook the lake and US 250."
+      "title": "Jewett",
+      "kind": "town",
+      "scene": "town",
+      "text": "Streetcars built in Jewett traveled far beyond this Ohio village. The Jewett Car Company manufactured them here from 1894 until 1904, when it moved to Newark, Ohio. The village itself had changed names, from Fairview to Jewett, honoring railroad official T. M. Jewett. Fairview was platted in 1851; the streetcar factory arrived more than four decades after that initial town layout. A different use of a rail corridor now reaches the village: Jewett is an endpoint of the paved Conotton Creek Trail, a former railway route used for walking and cycling along the creek.",
+      "at": [
+        -81.00138889,
+        40.36777778
+      ]
     },
     {
       "title": "New Rumley",
       "kind": "town",
-      "scene": "prairie",
-      "text": "George Armstrong Custer was born here, and of the house only the foundations remain, beside Erwin Frey's statue of him along SR 646.",
+      "scene": "town",
+      "text": "Only foundations remain of the house where George Armstrong Custer was born in New Rumley. Erwin Frey’s memorial stands on the community’s west side beside State Route 646. It combines a statue with an exhibit pavilion containing information on Custer’s life. The birthplace site also has a museum operated by the Custer Memorial Association.",
+      "notice": "The birthplace survives as foundations beside the statue and exhibit pavilion.",
       "at": [
         -81.03083,
         40.40167
@@ -41,22 +48,29 @@
   ],
   "sources": [
     {
-      "label": "Ohio Department of Transportation, Tappan-Moravian Trail story map",
-      "url": "https://storymaps.arcgis.com/stories/a68aed0661aa423ab947c40762aa0884"
-    },
-    {
-      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
-      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
-    },
-    {
       "label": "Wikipedia, Tappan Lake",
       "url": "https://en.wikipedia.org/wiki/Tappan_Lake"
     },
     {
+      "label": "Ohio Department of Transportation, Tappan-Moravian Trail story map",
+      "url": "https://storymaps.arcgis.com/stories/a68aed0661aa423ab947c40762aa0884"
+    },
+    {
+      "label": "Ohio Department of Transportation, Ohio Byways brochure",
+      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+    },
+    {
+      "label": "Wikipedia, Jewett, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Jewett%2C_Ohio"
+    },
+    {
+      "label": "Wikipedia, Germano, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Germano%2C_Ohio"
+    },
+    {
       "label": "Wikipedia, New Rumley, Ohio",
-      "url": "https://en.wikipedia.org/wiki/New_Rumley,_Ohio"
+      "url": "https://en.wikipedia.org/wiki/New_Rumley%2C_Ohio"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

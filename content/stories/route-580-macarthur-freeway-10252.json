@@ -1,46 +1,60 @@
 {
   "id": "route-580-macarthur-freeway-10252",
-  "tagline": "Through Oakland, with the big trucks sent elsewhere.",
+  "tagline": "An Oakland freeway carries a name inherited from city streets.",
   "intro": [
-    "From the San Leandro line the MacArthur Freeway runs northwest through Oakland to the Highway 24 junction, keeping near or along the trace of the Hayward Fault south of the Warren Freeway. It went in from 1960 beside the old city streets of US 50, which Oakland had renamed MacArthur Boulevard in 1942, and was finished in May 1966 at the cost of about 160 homes in Trestle Glen.",
-    "Oakland already kept heavy trucks off those streets before the freeway came, and the ban came along with it. Trucks over 4.5 tons are still barred through the city, which leaves this the only stretch of Interstate in California outside the National Truck Network."
+    "The MacArthur Freeway carries I-580 through Oakland and San Leandro toward Castro Valley. Caltrans designates the stretch from the San Leandro city limits to State Route 24 as a scenic highway. Between the Warren Freeway interchange and Castro Valley, I-580 runs near or along the Hayward Fault.",
+    "The name came to Oakland streets before it came to the freeway. In March 1942, the City Council renamed streets carrying US 50 for General Douglas MacArthur. Construction began in February 1960 beside the US 50 streets between Castro Valley and the MacArthur Maze. Buildings along the alignment were demolished, including homes in Oakland’s Trestle Glen. The freeway opened in eight segments, reaching completion in May 1966. The last segment opened in Castro Valley on May 20, 1966, connecting with what is now I-238. MacArthur Boulevard continues to parallel much of the freeway.",
+    "From the Route 24 end, follow the Oakland stretch toward San Leandro. The Oakland California Temple stands on a hill overlooking the Bay Area. The Mills campus lies in Oakland’s foothills. At the Warren Freeway interchange, the route meets State Route 13 before continuing toward San Leandro and Castro Valley. Oakland Zoo occupies the Grass Valley neighborhood."
   ],
   "moments": [
+    {
+      "title": "Oakland California Temple",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Five spires mark the Oakland California Temple, whose design combines Asian, Art Deco and mid-century elements. The tallest spire reaches 170 feet; the building is faced with white granite from Raymond, California. The church bought the site in 1943 and began construction in 1962; dedication followed in 1964. Originally windowless, the temple gained windows during renovation. The grounds include palm trees, fountains and a waterfall. During the 2018–2019 renovation, a new waiting area gained windows that gather light reflected from the pool outside. The temple was rededicated in June 2019.",
+      "at": [
+        -122.1991,
+        37.8078
+      ]
+    },
     {
       "title": "Mills College",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "Founded at Benicia in 1852 as the Young Ladies Seminary and moved to Oakland in 1871, the college counts among its publications a journal of arts and letters called 580 Split.",
+      "text": "Mills began in Benicia as the Young Ladies Seminary in 1852. It moved to Oakland in 1871 and became part of Northeastern University in 2022. Julia Morgan designed the campus bell tower, El Campanil. Its survival of the 1906 San Francisco earthquake unscathed helped establish her reputation. Ten bells sit behind seven arched openings beneath a red tile roof. They were cast for Chicago’s 1893 World’s Columbian Exposition and given to Mills by trustee David Hewes. The 72-foot tower is built of reinforced concrete in the Spanish Mission style and stands in front of Seminary Hall.",
       "at": [
         -122.18222,
         37.77972
       ]
     },
     {
-      "title": "Oakland California Temple",
+      "title": "Oakland Zoo",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "Five spires on a hill with views across the Bay Area, dedicated in 1964 and the only temple of its church built without windows, until a renovation finished in 2019 put some in.",
+      "text": "Oakland Zoo began downtown, where naturalist Henry A. Snow established it in 1922 at 19th and Harrison streets. After several moves, it reached Durant Park in 1939. Its California Trail opened in 2018 on the hill above the main zoo. An aerial gondola connects the main zoo with the trail, where the animals include bears, wolves, mountain lions and bison. The Conservation Habitarium has a wall-length window looking into the grizzly bear habitat. Native plant and animal habitats form the California Trail’s exhibits, while the children’s zoo includes brass insects embedded in its concrete walkways as public art.",
       "at": [
-        -122.1991,
-        37.8078
+        -122.1477,
+        37.7508
       ]
     }
   ],
   "sources": [
     {
       "label": "Wikipedia, Interstate 580 (California)",
-      "url": "https://en.wikipedia.org/wiki/Interstate_580_(California)"
+      "url": "https://en.wikipedia.org/wiki/Interstate_580_%28California%29"
+    },
+    {
+      "label": "Wikipedia, Oakland California Temple",
+      "url": "https://en.wikipedia.org/wiki/Oakland_California_Temple"
     },
     {
       "label": "Wikipedia, Mills College",
       "url": "https://en.wikipedia.org/wiki/Mills_College"
     },
     {
-      "label": "Wikipedia, Oakland California Temple",
-      "url": "https://en.wikipedia.org/wiki/Oakland_California_Temple"
+      "label": "Wikipedia, Oakland Zoo",
+      "url": "https://en.wikipedia.org/wiki/Oakland_Zoo"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

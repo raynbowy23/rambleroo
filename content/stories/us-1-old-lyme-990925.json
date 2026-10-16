@@ -1,16 +1,27 @@
 {
   "id": "us-1-old-lyme-990925",
-  "tagline": "A painters' boarding house and a tavern Washington danced in.",
+  "tagline": "A tidal river, painted doors and a former post-road tavern",
   "intro": [
-    "This is under a mile of the Post Road through Old Lyme, from the Lieutenant River to Griswold Avenue. The river is tidal here and joins the Connecticut in its estuary, just above Long Island Sound.",
-    "Old Lyme was a shipbuilding village and home to many ship captains before the painters came. US 1 itself spent 1949 to 1976 out on the line of I-95, then came back to its old road."
+    "Old Lyme’s scenic section of US 1 runs 0.96 mile between the Lieutenant River and Griswold Avenue, designated by Connecticut in 2012. At the river end, a tidal waterway joins the Connecticut River’s estuary just above Long Island Sound.",
+    "US 1 generally follows the Boston Post Road and the turnpikes built to replace it; the New London and Lyme Turnpike connected Old Lyme with New London in 1807. In Old Lyme and East Lyme, US 1 shifted onto the line now used by I-95 from 1949 to 1976. It returned to the 9.4-mile Boston Post Road stretch in 1976, replacing Route 51.",
+    "Begin with the Lieutenant River and continue toward Griswold Avenue. The Florence Griswold Museum on Lyme Street preserves the boardinghouse where American Impressionists painted on walls and doors. At Sill Lane’s junction with the Post Road, Peck Tavern is now a private residence."
   ],
   "moments": [
     {
-      "title": "Florence Griswold Museum",
+      "title": "Lieutenant River",
       "kind": "roadside",
       "scene": "river",
-      "text": "Miss Florence's boarding house by the Lieutenant River sheltered the Old Lyme Art Colony, whose painters left 41 panels on its doors and walls, and Childe Hassam painted the river from there.",
+      "text": "The Lieutenant River meets the Connecticut River in its estuary, just above Long Island Sound. This 3.7-mile tidal river became a subject for American Impressionists, including Childe Hassam, while they stayed at the Florence Griswold House. The museum’s windows look onto the river, connecting its setting with the landscape those artists painted.",
+      "at": [
+        -72.3292,
+        41.3265
+      ]
+    },
+    {
+      "title": "Florence Griswold Museum",
+      "kind": "short walk",
+      "scene": "river",
+      "text": "Forty-one painted panels occupy the downstairs rooms of Florence Griswold’s former boardinghouse. Her artist-boarders made the dining room’s walls and doors into a showcase for their work. Matilda Browne was the only woman invited to contribute a panel; she painted Griswold’s bedroom door. The house became a center of the Old Lyme Art Colony, whose members helped develop American Impressionism. Harry Hoffman, an Old Lyme resident, helped save it through a fundraising campaign for its conversion into a museum. The first floor is furnished to reflect about 1910, the height of its boardinghouse years.",
       "at": [
         -72.3275,
         41.32555556
@@ -20,7 +31,7 @@
       "title": "Peck Tavern",
       "kind": "roadside",
       "scene": "town",
-      "text": "At the junction of Sill Lane and the Post Road stands the old tavern, now a private house, where George Washington stopped in April 1776 and was seen dancing the night away upstairs.",
+      "text": "Peck Tavern occupies the triangular junction of Sill Lane and Boston Post Road, at the northern end of Old Lyme’s historic village center. The former tavern is now a private residence. Its clapboard exterior has a projecting central entrance section rising two stories, with a transom window above the door. The property served travelers into the early 19th century as a major stop on the post road, which was later upgraded to a turnpike. Inside, a surviving taproom contains the original 18th-century sign, remnants of the building’s former work as a tavern.",
       "at": [
         -72.32444444,
         41.33027778
@@ -29,16 +40,8 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, U.S. Route 1 in Connecticut",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_1_in_Connecticut"
-    },
-    {
       "label": "Wikipedia, Lieutenant River",
       "url": "https://en.wikipedia.org/wiki/Lieutenant_River"
-    },
-    {
-      "label": "Wikipedia, Old Lyme Historic District",
-      "url": "https://en.wikipedia.org/wiki/Old_Lyme_Historic_District"
     },
     {
       "label": "Wikipedia, Florence Griswold Museum",
@@ -47,8 +50,11 @@
     {
       "label": "Wikipedia, Peck Tavern",
       "url": "https://en.wikipedia.org/wiki/Peck_Tavern"
+    },
+    {
+      "label": "Wikipedia, U.S. Route 1 in Connecticut",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_1_in_Connecticut"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

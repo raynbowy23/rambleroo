@@ -184,10 +184,6 @@
         45.4314
       ],
       [
-        -123.95978,
-        45.45136
-      ],
-      [
         -123.96558,
         45.45335
       ],
@@ -212,8 +208,12 @@
         45.48822
       ],
       [
-        -123.94683,
-        45.49289
+        -123.94998,
+        45.49012
+      ],
+      [
+        -123.94564,
+        45.49925
       ],
       [
         -123.94844,
@@ -279,21 +279,21 @@
     {
       "name": "Oceanside",
       "model": "sea-stack",
-      "at": 0.8494509912041892,
+      "at": 0.8464774379969453,
       "offset": "roadside",
       "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Oceanside",
       "model": "town-blocks",
-      "at": 0.8494509912041892,
+      "at": 0.8464774379969453,
       "offset": "roadside",
       "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Cape Meares",
       "model": "lighthouse-on-rock",
-      "at": 0.89117549744225,
+      "at": 0.8881480274247363,
       "offset": "roadside",
       "notes": "Story moment 3; short walk. Projected coordinate, kept in driving order."
     }
@@ -387,32 +387,32 @@
   "towns": [
     {
       "name": "Banks",
-      "at": 0.016422287390029378,
+      "at": 0.01024890190336758,
       "landmark": ""
     },
     {
       "name": "Idiotville",
-      "at": 0.28856304985337244,
+      "at": 0.28653001464128847,
       "landmark": ""
     },
     {
       "name": "Lees Camp",
-      "at": 0.3907624633431086,
+      "at": 0.38857979502196194,
       "landmark": ""
     },
     {
       "name": "Tillamook",
-      "at": 0.7218475073313784,
+      "at": 0.7191800878477306,
       "landmark": ""
     },
     {
       "name": "Oceanside",
-      "at": 0.8495601173020528,
+      "at": 0.8465592972181551,
       "landmark": "Oceanside"
     },
     {
       "name": "Cape Meares",
-      "at": 0.922434017595308,
+      "at": 0.9225475841874085,
       "landmark": ""
     }
   ],

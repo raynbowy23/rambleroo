@@ -1,17 +1,17 @@
 {
   "id": "sylamore-scenic-byway-2159",
-  "tagline": "Down the White River, up to a 58-degree cave.",
+  "tagline": "Follow the White River into oak-hickory woods and a growing cave",
   "intro": [
-    "From the White River bridge at Calico Rock the byway follows the river south through Optimus to Allison, then winds west on Highway 14 into the Sylamore District of the Ozark National Forest, about 26 miles in all. It ends on Forest Road 1110 at Blanchard Springs.",
-    "There in 1940 a Civilian Conservation Corps crew dammed the creek that runs out of the spring and made Mirror Lake, with an observation shelter of their building nearby. The spring's water comes out of the cave at the same temperature all year."
+    "The Sylamore Scenic Byway follows the White River and winds through forest on its way from Calico Rock to Blanchard Springs Caverns. ARDOT identifies it as a Forest Service Scenic Byway and highlights white oak-hickory forests, early spring dogwoods and redbuds, and fall color.",
+    "The route received its National Forest Scenic Byway designation in 1989. Its cave destination had opened to the public in 1973 after ten years of work on the Dripstone Trail. Earlier recreation work remains at nearby Mirror Lake: a Civilian Conservation Corps crew dammed the creek from Blanchard Spring in 1940, and the historic district includes their observation shelter and a CCC-built bridge.",
+    "Drive south from Calico Rock through Optimus, following the White River toward Allison. There, turn west onto winding Highway 14, then take the forest road to the caverns’ visitor center."
   ],
-  "season": "Early spring for the dogwoods and redbuds in the white oak-hickory woods, or fall for the color.",
   "moments": [
     {
       "title": "Calico Rock",
       "kind": "town",
       "scene": "river",
-      "text": "A town on the north bank of the White River, named by pioneers for a colorful rock formation they thought looked like calico cloth.",
+      "text": "Calico Rock’s name comes from a colorful rock formation that pioneers said resembled calico cloth. The town occupies the White River’s north bank, at the Calico Rock end of the scenic byway.",
       "at": [
         -92.13667,
         36.11861
@@ -21,7 +21,8 @@
       "title": "Sylamore Creek Bridge",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Just west of Highway 9 at Allison, a county road crosses Sylamore Creek on a wire-cable suspension bridge of 1945, one of three known in Arkansas.",
+      "text": "Four main cables carry the Sylamore Creek suspension bridge, supported by steel towers on concrete piers and anchored into concrete abutments. Built in 1945, the 202-foot bridge crosses the creek on County Road 283, just west of Highway 9 in Allison. It is one of three known wire-cable bridges in Arkansas and was added to the National Register in 1999.",
+      "notice": "Notice the four main cables and the steel towers standing on concrete piers.",
       "at": [
         -92.12167,
         35.93583
@@ -31,7 +32,7 @@
       "title": "Blanchard Springs Caverns",
       "kind": "short walk",
       "scene": "forest",
-      "text": "Locals in the 1930s knew it as Half-Mile Cave, and guided tours now reach all three of its levels, where the cave holds at 58 degrees the year round.",
+      "text": "Water continues to build Blanchard Springs Caverns’ formations, depositing calcite as it seeps and drips through the cave. Residents knew the place as Half-Mile Cave by the 1930s, before systematic exploration began in the 1950s. Ten years of development on the Dripstone Trail preceded the public opening in 1973. The upper Dripstone route opened first; the Discovery Trail followed in 1977, descending to the lower cave. The cave formed largely below the water table, producing passages with elliptical cross-sections. Its stream emerges at Blanchard Springs at a constant 58 degrees Fahrenheit, the same temperature as the cave throughout the year.",
       "at": [
         -92.17933,
         35.96368
@@ -40,24 +41,12 @@
   ],
   "sources": [
     {
-      "label": "ARDOT, Scenic Byways",
-      "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
-    },
-    {
       "label": "Wikipedia, Sylamore Scenic Byway",
       "url": "https://en.wikipedia.org/wiki/Sylamore_Scenic_Byway"
     },
     {
-      "label": "Wikipedia, Calico Rock, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/Calico_Rock,_Arkansas"
-    },
-    {
-      "label": "Wikipedia, Allison, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/Allison,_Arkansas"
-    },
-    {
-      "label": "Wikipedia, Sylamore Creek Bridge",
-      "url": "https://en.wikipedia.org/wiki/Sylamore_Creek_Bridge"
+      "label": "Arkansas Department of Transportation, Scenic Byways",
+      "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
     },
     {
       "label": "Wikipedia, Blanchard Springs Caverns",
@@ -66,8 +55,15 @@
     {
       "label": "Wikipedia, Mirror Lake Historic District",
       "url": "https://en.wikipedia.org/wiki/Mirror_Lake_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Calico Rock, Arkansas",
+      "url": "https://en.wikipedia.org/wiki/Calico_Rock%2C_Arkansas"
+    },
+    {
+      "label": "Wikipedia, Sylamore Creek Bridge",
+      "url": "https://en.wikipedia.org/wiki/Sylamore_Creek_Bridge"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

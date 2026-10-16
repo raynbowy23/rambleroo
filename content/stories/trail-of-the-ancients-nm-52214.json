@@ -1,29 +1,20 @@
 {
   "id": "trail-of-the-ancients-nm-52214",
-  "tagline": "Lonely roads from Chaco Canyon to a rock full of names.",
+  "tagline": "Sandstone buttes, carved names and Pueblo buildings along New Mexico’s scenic roads",
   "motifs": [
     "slickrock-ridge"
   ],
   "intro": [
-    "Chaco Canyon sits at the middle of this web of roads, a remote canyon cut by the Chaco Wash. South of the park the road crosses lonely country, then winds among sandstone buttes near Crownpoint, where a Navajo rug auction comes round once a month. Farther west, El Morro appears on the horizon like an ocean liner.",
-    "North, around Farmington, there was water, and people settled there early. Two Chacoan outlier pueblos of the eleventh century are open to visitors. West of town US 64 runs down a canyon of yellow- and gray-striped hills toward Arizona."
+    "The Trail of the Ancients winds among sandstone buttes near Crownpoint and descends through yellow- and gray-striped hills on US 64 toward Arizona. New Mexico Tourism presents Chaco Canyon as the center of this scenic byway, connecting it with El Morro, Aztec Ruins and Salmon Ruins. The route belongs to New Mexico’s designated scenic byways. In the badlands, erosion has shaped geological layers of different colors and resistance into varied formations.",
+    "Older travel routes form part of these places’ histories. At El Morro, a pueblo stood above the Zuni-Acoma Trail, and a pool at the sandstone cliff’s base supplied travelers with water. At Chaco, roads linked the canyon with outlying communities. Protection came later: El Morro became a national monument in 1906, followed by Chaco Canyon in 1907.",
+    "For a south-to-north sequence of the principal sites, begin in the Ramah area: State Road 53 leads to El Morro. Grants lies on the byway at the northern end of the El Malpais lava field. Farther north, Chaco occupies a remote canyon between Albuquerque and Farmington. Continue toward Bloomfield, with Salmon Ruins to its west and Aztec Ruins to its north. Westward from the Farmington area, US 64 leads toward the striped canyon country and Arizona."
   ],
   "moments": [
-    {
-      "title": "Chaco Culture National Historical Park",
-      "kind": "separate excursion",
-      "scene": "desert",
-      "text": "Between 900 and 1150 the Chacoans hauled timber from great distances to raise 15 major complexes here, the largest buildings in North America until the 19th century.",
-      "at": [
-        -107.96,
-        36.06
-      ]
-    },
     {
       "title": "El Morro National Monument",
       "kind": "short walk",
       "scene": "desert",
-      "text": "Above a pool at the foot of the bluff travelers carved their names for centuries, the oldest legible one Juan de Oñate's of April 16, 1605, until carving was outlawed in 1906.",
+      "text": "A pool beneath the sandstone bluff made El Morro a stopping place on an arid route. Travelers left names, dates, poems and accounts of their journeys on the cliff. Ancestral Puebloan petroglyphs and carvings predate the European inscriptions by centuries. The local Zuni name, A’ts’ina, means Place of writings on the rock. Federal law prohibited further carving in 1906, the year El Morro became a national monument. Many inscriptions remain visible and legible. Above the inscriptions, the monument preserves a mesa-top pueblo; its village stood on the old Zuni-Acoma trade route.",
       "at": [
         -108.35333333,
         35.03833333
@@ -33,10 +24,20 @@
       ]
     },
     {
+      "title": "Chaco Culture National Historical Park",
+      "kind": "separate excursion",
+      "scene": "desert",
+      "text": "At Pueblo Bonito, sandstone masonry walls reached three feet thick to carry multistory construction. Parts of the complex rose four stories, and it contains at least 650 rooms. Chacoans quarried stone and brought timber from distant sources to build the canyon’s major complexes. The walls combined parallel stone faces with rubble cores and veneers of smaller sandstone pieces. Hopi and Pueblo peoples consider these sites sacred ancestral homelands and maintain oral accounts of their relationship to Chaco. The major complexes extend along nine miles of canyon floor, with Pueblo Bonito divided by a north–south wall through its plaza.",
+      "at": [
+        -107.96,
+        36.06
+      ]
+    },
+    {
       "title": "Aztec Ruins National Monument",
       "kind": "short walk",
       "scene": "river",
-      "text": "Pueblo ruins on the west bank of the Animas River, named by 19th-century settlers who guessed wrong about who built them.",
+      "text": "The name records a mistake: 19th-century American settlers attributed these Puebloan buildings to the Aztecs of central Mexico. The preserved structures stand on the western bank of the Animas River. Archaeological evidence dates construction to the 12th and 13th centuries. The site became a national monument in 1923 and was included in the Chaco Culture World Heritage designation in 1987. Within the monument, the Hubbard Site’s tri-wall structure resembles a building at Pueblo del Arroyo in Chaco Canyon. The ruins once lay within H.D. Abrams’s homestead; Abrams supported preservation of the Puebloan structures on his land.",
       "at": [
         -107.9981235,
         36.835837
@@ -45,26 +46,33 @@
   ],
   "sources": [
     {
-      "label": "New Mexico True, Trail of the Ancients Scenic Byway",
+      "label": "New Mexico Tourism Department, Trail of the Ancients Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/trail-of-the-ancients/"
     },
     {
-      "label": "Wikipedia, Chaco Culture National Historical Park",
-      "url": "https://en.wikipedia.org/wiki/Chaco_Culture_National_Historical_Park"
-    },
-    {
-      "label": "Wikipedia, Crownpoint, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Crownpoint,_New_Mexico"
+      "label": "Wikipedia, Aztec Ruins National Monument",
+      "url": "https://en.wikipedia.org/wiki/Aztec_Ruins_National_Monument"
     },
     {
       "label": "Wikipedia, El Morro National Monument",
       "url": "https://en.wikipedia.org/wiki/El_Morro_National_Monument"
     },
     {
-      "label": "Wikipedia, Aztec Ruins National Monument",
-      "url": "https://en.wikipedia.org/wiki/Aztec_Ruins_National_Monument"
+      "label": "Wikipedia, Chaco Culture National Historical Park",
+      "url": "https://en.wikipedia.org/wiki/Chaco_Culture_National_Historical_Park"
+    },
+    {
+      "label": "Wikipedia, Ramah, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Ramah%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Grants, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Grants%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Bloomfield, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Bloomfield%2C_New_Mexico"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

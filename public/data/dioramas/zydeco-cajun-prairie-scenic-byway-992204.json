@@ -192,6 +192,10 @@
         30.53126
       ],
       [
+        -92.10469,
+        30.53516
+      ],
+      [
         -92.12465,
         30.53396
       ],
@@ -212,28 +216,24 @@
         30.49492
       ],
       [
-        -92.50096,
-        30.48029
+        -92.50133,
+        30.48027
       ],
       [
-        -92.59987,
-        30.4808
-      ],
-      [
-        -92.59152,
-        30.48065
-      ],
-      [
-        -92.59202,
-        30.48592
+        -92.60102,
+        30.48082
       ],
       [
         -92.60144,
         30.48528
       ],
       [
-        -92.60102,
-        30.48082
+        -92.59202,
+        30.48592
+      ],
+      [
+        -92.59152,
+        30.48065
       ]
     ],
     "elevation": [
@@ -279,14 +279,14 @@
     {
       "name": "Washington",
       "model": "town-blocks",
-      "at": 0.2416745333657583,
+      "at": 0.24255506133353996,
       "offset": "roadside",
       "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Opelousas",
       "model": "town-blocks",
-      "at": 0.7137752083991433,
+      "at": 0.7163843058807641,
       "offset": "roadside",
       "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
@@ -338,47 +338,52 @@
   "towns": [
     {
       "name": "Bayou Chicot",
-      "at": 0.004668930390492361,
+      "at": 0.004684838160136286,
       "landmark": ""
     },
     {
       "name": "Ville Platte",
-      "at": 0.10721561969439729,
+      "at": 0.1075809199318569,
       "landmark": ""
     },
     {
       "name": "Washington",
-      "at": 0.24176570458404076,
+      "at": 0.24258943781942077,
       "landmark": "Washington"
     },
     {
       "name": "Palmetto",
-      "at": 0.3696943972835314,
+      "at": 0.370954003407155,
       "landmark": ""
     },
     {
       "name": "Melville",
-      "at": 0.4502546689303905,
+      "at": 0.45178875638841565,
       "landmark": ""
     },
     {
       "name": "Krotz Springs",
-      "at": 0.549660441426146,
+      "at": 0.5515332197614992,
+      "landmark": ""
+    },
+    {
+      "name": "Port Barre",
+      "at": 0.6534923339011924,
       "landmark": ""
     },
     {
       "name": "Opelousas",
-      "at": 0.7139219015280136,
+      "at": 0.7163543441226575,
       "landmark": "Opelousas"
     },
     {
       "name": "Eunice",
-      "at": 0.8923599320882852,
+      "at": 0.8954003407155026,
       "landmark": ""
     },
     {
       "name": "Basile",
-      "at": 0.9949915110356536,
+      "at": 0.9923339011925042,
       "landmark": ""
     }
   ],

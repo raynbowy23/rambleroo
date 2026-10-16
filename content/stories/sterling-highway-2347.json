@@ -1,16 +1,17 @@
 {
   "id": "sterling-highway-2347",
-  "tagline": "From Kenai Lake to the road's end on Homer Spit.",
+  "tagline": "From Kenai Lake and river country to the tip of Homer Spit",
   "intro": [
-    "The Sterling leaves the Seward Highway at Tern Lake Junction and runs west beside the ice blue-green water of Kenai Lake to Cooper Landing, then plays tag with the Kenai River, a sportfishing water where the Russian River comes in. The byway is drawn here in two pieces, that north segment and a south segment that follows the Cook Inlet shore, with four volcanoes across the water, through Anchor Point to Homer and the tip of Homer Spit.",
-    "Work began in 1946. The highway opened in the winter of 1950, when the cold made it possible to drive the unfinished surface, and it needed grading and gravel before it was ready for summer traffic."
+    "The Sterling Highway follows Kenai Lake and the Kenai River before turning south along Cook Inlet’s eastern shore. Alaska’s scenic-byways program presents separate north and south segments: the north features blue-green lake water and river fishing, while the south offers views of four volcanoes across Cook Inlet on the approach to Anchor Point.",
+    "Construction began in 1946 to connect the Kenai Peninsula’s agricultural area with Seward, improving transport for farms and opening the area to tourism. The road first carried traffic in winter 1950, when freezing temperatures made the unfinished surface passable. Grading and gravel were needed before summer traffic could use it the following year. Full paving followed in 1958. The highway honors Hawley W. Sterling, an engineer whose service as assistant chief engineer lasted from 1932 until his death in 1948.",
+    "Start at Tern Lake Junction on the Seward Highway and follow Kenai Lake to Cooper Landing. The highway continues west beside the Kenai River to Soldotna, then turns south along Cook Inlet. From Anchor Point, Route 1 leads southeast to Homer. The road ends at the tip of Homer Spit, 4.5 miles into Kachemak Bay, where a ferry terminal connects with the Alaska Marine Highway."
   ],
   "moments": [
     {
       "title": "Cooper Landing",
       "kind": "town",
       "scene": "river",
-      "text": "Named for Joseph Cooper, who found gold here in 1884, the settlement at the outlet of Kenai Lake counted 21 miners and one wife in the census of 1900.",
+      "text": "Cooper Landing occupies the outlet where Kenai Lake becomes the Kenai River. Its name recalls Joseph Cooper’s 1884 gold discovery, though Russian engineer Peter Doroshin had identified gold prospects in 1848. Road connections expanded in stages: east to Seward in 1938, west to Kenai in 1948 and north to Anchorage by 1951. The former post office began as a simple log cabin and grew through additions in the 1920s and 1930s. Caribou and moose antlers decorate its facade. The building and the historic school were moved a short distance west and became part of the Cooper Landing Historical Museum.",
       "at": [
         -149.79452,
         60.49053
@@ -20,7 +21,7 @@
       "title": "Anchor Point",
       "kind": "town",
       "scene": "coast",
-      "text": "Named, the legend goes, for an anchor Captain Cook lost here, the town is the westernmost point on the North American highway system.",
+      "text": "Anchor Point reaches the westernmost point of the contiguous highway system. Its English name comes from a legend that Captain James Cook lost an anchor here. The Anchor River runs through the community and enters Cook Inlet just west of its center. The river supports wild salmon and steelhead runs, which Alaska’s transportation department highlights in its description of the southern byway. There is no harbor; a beach service uses tractors to launch boats into deeper water and retrieve them. From the recreation-area beach, the view includes the distant volcanic peaks of Mount Augustine, Mount Iliamna and Mount Redoubt.",
       "at": [
         -151.77022,
         59.77747
@@ -30,7 +31,7 @@
       "title": "Homer Spit",
       "kind": "roadside",
       "scene": "coast",
-      "text": "The highway ends 4.5 miles out into Kachemak Bay, on a spit where an 1899 railroad hauling coal to the docks started the business that grew into Homer.",
+      "text": "Homer Spit carries the highway’s final miles into Kachemak Bay. In 1899, the Cook Inlet Coal Fields Company laid railroad track along it to connect the docks with coal fields beside the bay. That business helped generate the settlement that became Homer. The 1964 earthquake reduced the spit’s area and killed most of its vegetation, leaving a surface dominated by gravel and sand. The spit now holds Homer Boat Harbor, with deep- and shallow-water docks serving commercial and pleasure boats. At the highway’s end, the ferry terminal connects road travel with the Alaska Marine Highway.",
       "at": [
         -151.45472,
         59.62
@@ -39,30 +40,37 @@
   ],
   "sources": [
     {
-      "label": "Alaska DOT&PF, Scenic Byways, Sterling Highway: north segment",
+      "label": "Alaska Department of Transportation and Public Facilities, Scenic Byways: Sterling Highway, north segment",
       "url": "https://dot.alaska.gov/dmio/scenic/byways-sterling-north.shtml"
-    },
-    {
-      "label": "Alaska DOT&PF, Scenic Byways, Sterling Highway: south segment",
-      "url": "https://dot.alaska.gov/dmio/scenic/byways-sterling-south.shtml"
     },
     {
       "label": "Wikipedia, Sterling Highway",
       "url": "https://en.wikipedia.org/wiki/Sterling_Highway"
     },
     {
-      "label": "Wikipedia, Cooper Landing, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Cooper_Landing,_Alaska"
+      "label": "Alaska Department of Transportation and Public Facilities, Scenic Byways: Sterling Highway, south segment",
+      "url": "https://dot.alaska.gov/dmio/scenic/byways-sterling-south.shtml"
     },
     {
       "label": "Wikipedia, Anchor Point, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Anchor_Point,_Alaska"
+      "url": "https://en.wikipedia.org/wiki/Anchor_Point%2C_Alaska"
+    },
+    {
+      "label": "Wikipedia, Cooper Landing, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Cooper_Landing%2C_Alaska"
+    },
+    {
+      "label": "Wikipedia, Cooper Landing Post Office",
+      "url": "https://en.wikipedia.org/wiki/Cooper_Landing_Post_Office"
+    },
+    {
+      "label": "Wikipedia, Anchor River",
+      "url": "https://en.wikipedia.org/wiki/Anchor_River"
     },
     {
       "label": "Wikipedia, Homer Spit",
       "url": "https://en.wikipedia.org/wiki/Homer_Spit"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,39 +1,41 @@
 {
   "id": "route-160-river-road-10259",
-  "tagline": "Along the Sacramento River levees, bridge by bridge to the capital.",
+  "tagline": "Levee roads and drawbridges follow the Sacramento River through the Delta.",
   "intro": [
-    "From the Antioch Bridge, Highway 160 crosses Sherman Island and takes to the east levee of the Sacramento River, and all the way to Sacramento it stays near the water. It crosses Three Mile Slough on a 1949 lift bridge, passes Rio Vista and Isleton, and changes banks and islands on a run of drawbridges before the last levee into the city.",
-    "The bascule bridges at Isleton and Paintersville replaced free ferries in 1923, built to a type patented by Joseph Strauss, who went on to design the Golden Gate Bridge. The year before, the Victory Highway Association chose this river road, promoted locally as the Netherlands of America, for its route to the bay."
+    "Route 160 follows Sacramento River levees through the Delta, crossing between banks on bridges that lift or open for river traffic. Its southern section links Sacramento and Antioch across the river’s alluvial plain. The California Department of Transportation designates the route a scenic highway. South of the Sacramento River levees, the road crosses Sherman Island on two lanes before reaching the Antioch Bridge over the San Joaquin River. The 1949 Three Mile Slough crossing is a lift bridge; the Isleton and Paintersville crossings date to 1923.",
+    "Sacramento County improved the levee road in the late 1910s, when free ferries carried it across the river near Paintersville and Isleton. The Victory Highway Association selected this river route in 1922 for its highway west of Sacramento. Bridges replaced the two free ferries in 1923; paving completed in 1927 then made a continuous paved route between Sacramento and the Bay Area.",
+    "Heading south from Sacramento, the drive follows the east levee toward Courtland and Paintersville. The Paintersville and Steamboat Slough bridges connect the mainland, Sutter Island, and Grand Island. Locke lies north of Walnut Grove, and the Isleton Bridge carries the route back across the Sacramento River. Beyond Isleton come the Route 12 junction near Rio Vista, Three Mile Slough, Sherman Island, and the Antioch crossing."
   ],
   "moments": [
     {
-      "title": "Isleton",
+      "title": "Courtland",
       "kind": "town",
       "scene": "river",
-      "text": "Josiah Poole founded the town in 1874 and built a wharf, then moved out after the floods of 1878 and 1881. Some of the old storefronts on the main street show a Chinese hand.",
+      "text": "Courtland’s name belongs to the son of a steamer-landing owner. James V. Sims opened the landing in 1870, and the community took the name of Courtland Sims. A post office followed in 1872. The town remains on the Sacramento River, 17 miles south-southwest of Sacramento. Its annual Pear Fair celebrates the Delta’s Bartlett pear harvest, a practice dating to 1972.",
       "at": [
-        -121.60917,
-        38.16194
+        -121.56861,
+        38.33111
       ]
     },
     {
       "title": "Locke",
       "kind": "town",
       "scene": "river",
-      "text": "A 14-acre town that grew after a 1915 fire burned the Chinatown in Walnut Grove, a mile south. It is a National Historic Landmark for its Chinese American rural life.",
+      "text": "Locke grew after fire destroyed Walnut Grove’s Chinatown in October 1915. Chinese immigrants from what is now Zhongshan, led by businessman Lee Bing, established and settled its Main Street. The land was leased because California’s Alien Land Law of 1913 barred the sale of farmland to Asian immigrants. During harvest, farmhands shared boarding-house rooms, and residents behind Main Street took in agricultural workers. The district became a National Historic Landmark in 1990; in 2004, the Sacramento Housing and Redevelopment Agency allowed longtime residents to buy the land beneath them. The restored Locke Boarding House at the north end of Main Street now serves as a museum.",
       "at": [
         -121.50944,
         38.25056
       ]
     },
     {
-      "title": "Courtland",
+      "title": "Isleton",
       "kind": "town",
       "scene": "river",
-      "text": "Named for Courtland Sims, son of the landowner who opened a steamer landing here in 1870.",
+      "text": "Pressed tin siding distinguishes buildings in Isleton’s Chinese and Japanese commercial districts. The two communities shared Main Street but occupied distinct districts, serving residents and workers from nearby farms, ranches, and canneries. More than 50 original buildings date from rebuilding after the fire of May 30, 1926. Japanese American internment disrupted the community, and the area never regained its former multiethnic population. The two districts entered the National Register together in 1991, including the Bing Kong Tong building at 29 Main Street. The town began earlier, in 1874, when Josiah Poole laid out its streets and built a Sacramento River wharf.",
+      "notice": "Look for pressed tin siding along the Chinese and Japanese commercial districts’ shared Main Street.",
       "at": [
-        -121.56861,
-        38.33111
+        -121.60917,
+        38.16194
       ]
     }
   ],
@@ -43,18 +45,25 @@
       "url": "https://en.wikipedia.org/wiki/California_State_Route_160"
     },
     {
-      "label": "Wikipedia, Isleton, California",
-      "url": "https://en.wikipedia.org/wiki/Isleton,_California"
+      "label": "Wikipedia, Paintersville, California",
+      "url": "https://en.wikipedia.org/wiki/Paintersville%2C_California"
     },
     {
       "label": "Wikipedia, Locke, California",
-      "url": "https://en.wikipedia.org/wiki/Locke,_California"
+      "url": "https://en.wikipedia.org/wiki/Locke%2C_California"
     },
     {
       "label": "Wikipedia, Courtland, California",
-      "url": "https://en.wikipedia.org/wiki/Courtland,_California"
+      "url": "https://en.wikipedia.org/wiki/Courtland%2C_California"
+    },
+    {
+      "label": "Wikipedia, Isleton Chinese and Japanese Commercial Districts",
+      "url": "https://en.wikipedia.org/wiki/Isleton_Chinese_and_Japanese_Commercial_Districts"
+    },
+    {
+      "label": "Wikipedia, Isleton, California",
+      "url": "https://en.wikipedia.org/wiki/Isleton%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

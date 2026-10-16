@@ -1,22 +1,33 @@
 {
   "id": "taconic-trail-992505",
-  "tagline": "A short, steep climb over the Taconics into New York.",
+  "tagline": "A winding mountain road from Williamstown to Petersburg Pass",
   "intro": [
-    "Route 2 leaves US 7 in Williamstown and winds west and up into the Taconic Range, about four miles through Taconic Trail State Forest to the New York line. It crosses at Petersburg Pass, 1,650 feet up in the gap between Mount Raimer and Smith Hill.",
-    "On the far side the road becomes New York Route 2 and keeps the Taconic Trail name, running through dense woods in the Taconic Mountains toward the hamlet of Petersburgh. On both sides of the line it was once numbered Route 96."
+    "The Taconic Trail follows Route 2 west from Route 7 in Williamstown toward the New York line. MassDOT includes this four-mile route on its scenic-byways map, highlighting its passage through Taconic Trail State Forest to New York. The road winds through Berkshire County and makes a steep ascent toward Petersburg Pass, a crossing at 1,650 feet.",
+    "The crossing once carried a different number: Route 96 linked Williamstown and Petersburgh. In the early 1920s, the Boston-to-Troy route used a different approach, following what are now Massachusetts Route 43 and New York Routes 43 and 66. On the New York side, Route 96 had received its number in the state’s 1930 highway renumbering. New York renumbered its Troy-to-Massachusetts highway as Route 2 in 1942.",
+    "For a westbound drive, begin at Route 7 in Williamstown and follow the Taconic Trail to Petersburg Pass on the state line. At the pass, the landscape continues beyond the pavement: Mount Raimer lies to the south and the White Rock ridgeline to the north, both traversed by the Taconic Crest hiking trail. Beyond the Massachusetts byway, New York Route 2 continues through dense woods in the Taconic Mountains toward Petersburgh, retaining the Taconic Trail name."
   ],
   "moments": [
+    {
+      "title": "Williamstown",
+      "kind": "town",
+      "scene": "town",
+      "text": "Williamstown’s 1753 House dates from 1953. Volunteers used eighteenth-century materials and tools to build the replica for the town’s bicentennial celebration. The town’s name has a separate story: Ephraim Williams left money on condition that the town bear his name and establish a free school. The town was incorporated under the Williamstown name in 1765, following Williams’s will; its earlier name was West Hoosac. That school opened in 1791 and became Williams College in 1793. The college remains in Williamstown, where the town center lies southwest of the Green and Hoosic rivers’ confluence.",
+      "at": [
+        -73.20944444,
+        42.71333333
+      ]
+    },
     {
       "title": "Petersburg Pass",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "From 1962 a ski area worked the height of land here, short of snowmaking water and handicapped by the steep climb up Route 2, until it went out of business in 1980."
+      "text": "Petersburg Pass once had a ski lodge and parking lots beside the height of land on New York Route 2. The ski area opened in 1962 with a double chairlift, then added a novice lift in 1964. The steep road approach and a shortage of snowmaking water contributed to its difficulties. It missed several seasons in the 1970s and closed in 1980, leaving an attempted expansion on Mount Raimer’s western face unfinished. Attempts to revive the business included two name changes, first to Taconic Trails and then Mount Raimer; its double chairlift was later sold to Ski Butternut."
     },
     {
       "title": "White Rock",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "North of the pass the Taconic Crest Trail follows the White Rock ridge, where a crevasse called the Snow Hole keeps snow well into the summer.",
+      "text": "North of Petersburg Pass, the White Rock ridge carries the Taconic Crest Trail through a landscape of meadow and woodland. The trail traverses White Rock, the 2,550-foot high point of a seven-mile ridgeline extending through the corner of New York, Massachusetts and Vermont. Between White Rock and Bald Mountain, the Snow Hole is a crevasse where snow can persist well into summer. Parts of the ridge are protected conservation land; much of it is privately owned. Red spruce, balsam fir and northern hardwoods share the summit ridge, which has views into the Hoosic and Hudson river valleys.",
       "at": [
         -73.28,
         42.75388889
@@ -25,30 +36,29 @@
   ],
   "sources": [
     {
-      "label": "MassDOT, Massachusetts Scenic Byways map (2018)",
-      "url": "https://www.arcgis.com/sharing/rest/content/items/73be8245bacc4c2db06294824a601159/data"
-    },
-    {
-      "label": "Wikipedia, Williamstown, Massachusetts",
-      "url": "https://en.wikipedia.org/wiki/Williamstown,_Massachusetts"
-    },
-    {
       "label": "Wikipedia, Massachusetts Route 2",
       "url": "https://en.wikipedia.org/wiki/Massachusetts_Route_2"
     },
     {
-      "label": "Wikipedia, New York State Route 2",
-      "url": "https://en.wikipedia.org/wiki/New_York_State_Route_2"
+      "label": "Wikipedia, Williamstown, Massachusetts",
+      "url": "https://en.wikipedia.org/wiki/Williamstown%2C_Massachusetts"
+    },
+    {
+      "label": "MassDOT, Massachusetts Scenic Byways map (2018)",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/73be8245bacc4c2db06294824a601159/data"
     },
     {
       "label": "Wikipedia, Mount Raimer",
       "url": "https://en.wikipedia.org/wiki/Mount_Raimer"
     },
     {
+      "label": "Wikipedia, New York State Route 2",
+      "url": "https://en.wikipedia.org/wiki/New_York_State_Route_2"
+    },
+    {
       "label": "Wikipedia, White Rock (Taconic Mountains)",
-      "url": "https://en.wikipedia.org/wiki/White_Rock_(Taconic_Mountains)"
+      "url": "https://en.wikipedia.org/wiki/White_Rock_%28Taconic_Mountains%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

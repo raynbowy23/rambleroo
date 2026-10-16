@@ -1,26 +1,27 @@
 {
   "id": "scenic-scioto-heritage-trail-scenic-byway-81474",
-  "tagline": "Out of Portsmouth into Ohio's Little Smokies.",
+  "tagline": "Forest roads, a covered crossing and Roy Rogers’s farm country",
   "intro": [
-    "From downtown Portsmouth, near the floodwall murals, the byway heads west into Shawnee State Forest, the largest in Ohio and known as Ohio's Little Smokies, then swings north to Otway and Rarden and comes back by Duck Run and Lucasville. Building stone was quarried in these hills from the mid-1800s, and most of it went by rail and barge to put up buildings in Cincinnati.",
-    "In the 1930s the Civilian Conservation Corps had seven camps in the forest, four of them segregated African American camps, and built most of its roads and five small lakes."
+    "The Scioto Heritage Trail begins in downtown Portsmouth, meeting the Ohio River Scenic Byway near the city’s murals. Ohio’s byways brochure presents a route of forest land, canal remnants and the boyhood homes of Roy Rogers and Branch Rickey.",
+    "In Shawnee State Forest, the road network took shape during the 1930s, when seven Civilian Conservation Corps camps operated there. Four were segregated African American camps. Workers built most of the forest roads and five small lakes to supply the camps with water.",
+    "The journey starts at Portsmouth’s connection with the river byway. Friendship lies on U.S. Route 52; Shawnee State Forest occupies western Scioto and eastern Adams counties. At Otway, the covered bridge crosses Scioto Brush Creek, while Duck Run, near Lucasville, was home to the Slye family farm."
   ],
   "moments": [
     {
-      "title": "Picnic Point",
-      "kind": "short walk",
+      "title": "Shawnee State Forest",
+      "kind": "roadside",
       "scene": "forest",
-      "text": "From this spot in the state forest the view runs southeast down the Ohio River valley toward Portsmouth.",
+      "text": "Shawnee’s woodland occupies land once worked for timber and building stone. From the mid-1800s into the early 1900s, quarried stone traveled by railroad to the Ohio River, then by barge; most went into Cincinnati buildings. The state established the forest in 1922 by purchasing 5,000 acres of cutover land. Now Ohio’s largest state forest, Shawnee includes both actively logged areas and approximately 8,000 acres of wilderness where roads and logging are prohibited. The forest surrounds Shawnee State Park and covers 63,747 acres of woodland in western Scioto and eastern Adams counties.",
       "at": [
-        -83.12878,
-        38.69313
+        -83.12891667,
+        38.69322222
       ]
     },
     {
       "title": "Otway Covered Bridge",
-      "kind": "short walk",
+      "kind": "roadside",
       "scene": "river",
-      "text": "Built in 1874 by the Smith Bridge Company of Toledo, the 127-foot bridge over Scioto Brush Creek was bypassed in 1961 and kept up after that by the Otway Historical Society.",
+      "text": "The Smith Bridge Company of Toledo built Otway’s covered bridge in 1874. Its 127-foot timber truss crosses Scioto Brush Creek north of State Route 348. Bypassed and closed to traffic in 1961, it passed to the Otway Historical Society. Volunteers maintained the bridge, but it deteriorated; a tornado damaged its roof in March 2012. A federal grant followed that August, and repairs concluded with a ribbon-cutting in August 2014. The rehabilitation brought together the county engineer, historical society and engineering and construction firms, earning a state historic preservation award in 2015.",
       "at": [
         -83.19,
         38.86278
@@ -29,8 +30,8 @@
     {
       "title": "Duck Run",
       "kind": "town",
-      "scene": "prairie",
-      "text": "On the family farm here young Leonard Slye, later Roy Rogers, learned to ride and to yodel, and he and his mother used different yodels to call to each other across the farm.",
+      "scene": "town",
+      "text": "Before he became Roy Rogers, Leonard Slye learned horsemanship on his family’s Duck Run farm. The Slyes bought the farm in 1919 and built a six-room house. His father worked weekdays at a Portsmouth shoe factory because the farm could not support the family alone. With no radio, they made their own entertainment, inviting neighbors for Saturday square dances where Len sang, played mandolin and called the dances. He and his mother also used different yodels to communicate across the farm. Len attended high school in McDermott before his family returned to Cincinnati; Republic Pictures gave him the stage name Roy Rogers in 1938.",
       "at": [
         -83.06964,
         38.87905
@@ -38,14 +39,6 @@
     }
   ],
   "sources": [
-    {
-      "label": "Ohio Department of Transportation, Scioto Heritage Trail story map",
-      "url": "https://storymaps.arcgis.com/stories/cebb6dd727124a7892710ba889be9061"
-    },
-    {
-      "label": "Ohio Department of Transportation, Ohio Byways brochure (PDF)",
-      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
-    },
     {
       "label": "Wikipedia, Shawnee State Forest",
       "url": "https://en.wikipedia.org/wiki/Shawnee_State_Forest"
@@ -57,8 +50,19 @@
     {
       "label": "Wikipedia, Roy Rogers",
       "url": "https://en.wikipedia.org/wiki/Roy_Rogers"
+    },
+    {
+      "label": "Ohio Department of Transportation, Scioto Heritage Trail",
+      "url": "https://storymaps.arcgis.com/stories/cebb6dd727124a7892710ba889be9061"
+    },
+    {
+      "label": "Ohio Department of Transportation, Ohio Byways brochure",
+      "url": "https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/environmental-services/ohiobyways/OhioBywaysBrochure.pdf"
+    },
+    {
+      "label": "Wikipedia, Friendship, Ohio",
+      "url": "https://en.wikipedia.org/wiki/Friendship%2C_Ohio"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,16 +1,17 @@
 {
   "id": "spirit-lake-memorial-highway-2237",
-  "tagline": "Up the North Fork Toutle into the 1980 blast zone.",
+  "tagline": "A rebuilt highway enters the landscape reshaped by Mount St. Helens.",
   "intro": [
-    "SR 504 leaves I-5 at Castle Rock, climbs into the hills above Salmon Creek past farms, and runs along the north side of Silver Lake to Toutle, where the river's two forks meet. Then it follows the North Fork Toutle up its narrowing valley through Kid Valley and past the Toutle River Sediment Dam, climbing through cuts in the cliffs, and beyond Elk Rock it hairpins between viewpoints to Coldwater Lake.",
-    "Cowlitz County finished the first road in 1903, to the shore of Spirit Lake. The eruption of May 18, 1980, and its lahar destroyed a major section, and the state rebuilt most of the highway from 1988 to 1997 on a line farther north."
+    "Spirit Lake Memorial Highway follows the North Fork Toutle River toward Mount St. Helens, climbing through cliff cuts and hairpin turns beyond Elk Rock. It is both a state scenic byway and a National Forest Scenic Byway. Scenic Washington emphasizes the drive’s passage into the volcanic blast zone and the landscape’s regeneration since 1980. Its full alignment runs 52 miles from I-5 at Castle Rock to Johnston Ridge Observatory, though the upper section is closed.",
+    "Cowlitz County completed the first road in 1903, following the river from Castle Rock to Spirit Lake. The eruption of May 18, 1980, and the volcanic mudflow that followed destroyed a major section. Washington named the road to honor the victims, then rebuilt most of it between 1988 and 1997 farther north, connecting new interpretive centers.",
+    "From I-5 at Castle Rock, the drive passes Silver Lake and Toutle before following the narrowing valley through Kid Valley. Hoffstadt Creek Bridge marks the blast zone’s western edge; beyond Elk Rock, the road turns toward Coldwater Lake. The mapped route ends at Johnston Ridge Observatory, but a 2023 slide destroyed the Spirit Lake Outlet Bridge. The present drive stops at the closure at milepost 45.2."
   ],
   "moments": [
     {
       "title": "Kid Valley",
       "kind": "town",
       "scene": "river",
-      "text": "Its bridge of 1965 over the North Fork was the only one on the highway that the 1980 mudflows neither damaged nor carried away, because it sat high enough to clear them.",
+      "text": "High clearance saved the Kid Valley Bridge in 1980. The eruption’s mudflow destroyed seven of the highway’s eight major bridges, but passed beneath this crossing. Completed in November 1965, it had replaced a narrower truss bridge. The crossing carries SR 504 from the north bank to the south bank of the North Fork Toutle River. The road between Toutle and Kid Valley was buried in sediment; temporary bridges restored access to Kid Valley by early September. Sediment Dam Road now follows a short piece of the old highway east of Kid Valley to a viewpoint over the dam.",
       "at": [
         -122.61916667,
         46.37277778
@@ -20,13 +21,14 @@
       "title": "Hoffstadt Creek Bridge",
       "kind": "roadside",
       "scene": "forest",
-      "text": "The longest of the highway's 13 bridges runs 2,340 feet, 370 feet above the valley floor, and marks the western edge of the blast zone, replanted since with young fir, pine and cottonwood."
+      "text": "Hoffstadt Creek Bridge carries the highway 370 feet above the valley floor on a 2,340-foot steel truss structure. It is the longest of SR 504’s thirteen bridges and marks the western edge of the 1980 blast zone. Trees were felled here during the eruption. The replacement highway was planned at a higher elevation, crossing the creeks between Kid Valley and Coldwater Lake on ten major bridges. Weyerhaeuser planted fir, pine and cottonwood in the 1980s as part of a restoration project. The company’s Forest Learning Center overlooks the North Fork Toutle River, interpreting the forests and their recovery."
     },
     {
       "title": "Coldwater Lake",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "The 1980 debris avalanche dammed Coldwater Creek 180 feet high, and within a few months the water had backed up into a lake five miles long.",
+      "text": "Coldwater Lake fills a glacial valley blocked by debris from the 1980 eruption. The avalanche dammed Coldwater Creek, creating a lake where water had previously drained away. Water accumulated over the following months, threatening to overtop the loose volcanic material and flood downstream. In early 1981, the U.S. Army Corps of Engineers cut a spillway and outlet channel to stabilize the lake. Interpretive displays along the boardwalk explain how the eruption formed it. The narrow lake occupies a trough between ridges rising more than 1,000 feet above the water; its width is no more than half a mile.",
+      "notice": "Ridges rise more than 1,000 feet above the narrow lake.",
       "at": [
         -122.237,
         46.304
@@ -34,30 +36,29 @@
     }
   ],
   "practical": [
-    "Beyond milepost 45 the highway closes in winter for hazardous conditions and avalanche risk, and typically reopens in time for the May 18 anniversary of the eruption."
+    "Coldwater Lake: SR 504 is closed at milepost 45.2. WSDOT expects road construction to finish in spring 2027; Forest Service repairs at Johnston Ridge Observatory must follow before it reopens. Coldwater Lake Recreation Area remains open, subject to seasonal closures. (checked 2026-10-11)"
   ],
   "sources": [
-    {
-      "label": "Scenic Washington, Spirit Lake Memorial Highway",
-      "url": "https://www.scenicwa.com/spirit-lake-memorial-highway-mount-st-helens"
-    },
     {
       "label": "Wikipedia, Washington State Route 504",
       "url": "https://en.wikipedia.org/wiki/Washington_State_Route_504"
     },
     {
+      "label": "Scenic Washington, Spirit Lake Memorial Highway – Mount St. Helens",
+      "url": "https://www.scenicwa.com/spirit-lake-memorial-highway-mount-st-helens"
+    },
+    {
+      "label": "Washington State Department of Transportation, SR 504 South Coldwater Slide – Spirit Lake Outlet Bridge Washout",
+      "url": "https://wsdot.wa.gov/construction-planning/search-projects/sr-504-south-coldwater-slide-spirit-lake-outlet-bridge-washout"
+    },
+    {
       "label": "Wikipedia, Kid Valley, Washington",
-      "url": "https://en.wikipedia.org/wiki/Kid_Valley,_Washington"
+      "url": "https://en.wikipedia.org/wiki/Kid_Valley%2C_Washington"
     },
     {
       "label": "Wikipedia, Coldwater Lake (Washington)",
-      "url": "https://en.wikipedia.org/wiki/Coldwater_Lake_(Washington)"
-    },
-    {
-      "label": "WSDOT, SR 504 South Coldwater Slide, Spirit Lake Outlet Bridge Washout",
-      "url": "https://wsdot.wa.gov/construction-planning/search-projects/sr-504-south-coldwater-slide-spirit-lake-outlet-bridge-washout"
+      "url": "https://en.wikipedia.org/wiki/Coldwater_Lake_%28Washington%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

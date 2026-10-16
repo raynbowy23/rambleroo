@@ -1,32 +1,39 @@
 {
   "id": "route-20-nevada-county-990603",
-  "tagline": "Along Washington Ridge on the old emigrant road.",
+  "tagline": "An emigrant road winds past the waterworks of gold mining.",
   "intro": [
-    "East of Nevada City, Highway 20 winds along Washington Ridge, and this short stretch starts at Skillman Flat. The highway largely follows the trace of the 1850 cutoff of the Emigrant Trail, which became a toll road and then a public turnpike and was still called the Old Emigrant Road. Signs of it show on either side of the pavement, and the Pioneer Trail follows sections of it beside the highway.",
-    "The gold camps on the ridge had names to suit the times. Alpha is said to have started as Hell-out-for-noon and Omega began as Delerium Tremens, and by 1880 a historian found Alpha worked out and abandoned."
+    "East of Nevada City, Highway 20 climbs as a two-lane road along Harmony Ridge and Washington Ridge. A stretch near its eastern end belongs to California’s State Scenic Highway System and the larger Yuba-Donner National Forest Scenic Byway. The Forest Service presents the drive between Nevada City and Interstate 80 as a route for hiking, biking and camping, with traces of the 1850 Emigrant Trail cutoff along the way.",
+    "Between Nevada City and Bear Valley, the highway largely follows that cutoff. It became a toll road and then a public turnpike, retaining the name Old Emigrant Road. Sections of the Pioneer Trail now follow its trace; signs of the earlier road remain on both sides of Highway 20. The state highway extension reached Emigrant Gap in 1919 as part of the Tahoe-Ukiah Highway. The numbered Sign Route 20 followed in 1934.",
+    "Traveling east, Skillman Flat introduces the mining country through a different kind of channel: the Ridge Ditch, built in 1857–58 to carry water to gold mines. Farther along, Omega Overlook gives a view of the Alpha and Omega Diggins. Continuing beyond the ridge country, the broader highway descends through hairpin turns into Bear Valley before climbing toward I-80."
   ],
   "moments": [
     {
       "title": "Skillman Flat",
       "kind": "short walk",
       "scene": "forest",
-      "text": "A sawmill here burned in 1858 with 300,000 feet of lumber, and the Pioneer Trail now follows the Ridge Ditch, dug in 1857 and 1858 to carry water to the gold mines."
+      "text": "At Skillman Flat, the Pioneer Trail follows the Ridge Ditch, a water channel built in 1857–58 by the South Yuba Canal Company for Nevada County’s gold mines. The flat was also a lumber-mill site. Skillman’s mill burned in 1858, losing 300,000 feet of lumber. Lumber from the local sawmills supplied Alpha’s buildings, giving the mining town wooden structures in place of the canvas buildings common in other gold-rush settlements. The mill stood about one mile west of Alpha, where at least three sawmills operated in the 1850s. Whether Skillman’s was rebuilt is unclear."
+    },
+    {
+      "title": "Alpha",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Water shortages once set the rhythm of mining at Alpha: the settlement was busy in winter and largely deserted in summer. Ditches began to change that pattern. In January 1858, the South Yuba Canal brought a substantial supply through flumes and ditches, and hydraulic mining expanded. The mines depleted quickly. By the mid-1860s, only Captain Merriman’s mine remained in operation. As residents left, empty buildings became firewood or building material for neighboring Omega. Many residents moved to Omega as Alpha declined. The Masonic lodge moved there too, while other residents left to follow new strikes in Nevada.",
+      "at": [
+        -120.78138889,
+        39.33055556
+      ]
     },
     {
       "title": "Omega Overlook",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "From here you can see the Alpha and Omega Diggins, a hydraulic mine once fed by Yuba River water in wooden flumes hung from granite cliffs above the river."
+      "text": "The Alpha and Omega Diggins are visible from Omega Overlook. Their water supply involved more than a ditch beside the road: water diverted from the Yuba River entered the Omega Ditch and wooden flumes suspended from granite cliffs above the river. The older travel route is close by, too. Fifty yards beyond the historic marker lies a trace of the Old Emigrant Road. The Pioneer Trail follows that trace east to Diamond Creek Road, one and a half miles away. The state landmark inscription records that hydraulic excavations engulfed most of the original townsites of Alpha and Omega."
     }
   ],
   "sources": [
     {
-      "label": "USDA Forest Service, Tahoe National Forest, Highway 20",
+      "label": "USDA Forest Service, Tahoe National Forest: Highway 20",
       "url": "https://www.fs.usda.gov/r05/tahoe/recreation/highway-20-0"
-    },
-    {
-      "label": "National Recreation Trails database, Pioneer Trail",
-      "url": "https://www.nrtapplication.org/trails/pioneer-trail"
     },
     {
       "label": "Wikipedia, California State Route 20",
@@ -34,13 +41,12 @@
     },
     {
       "label": "Wikipedia, Alpha, California",
-      "url": "https://en.wikipedia.org/wiki/Alpha,_California"
+      "url": "https://en.wikipedia.org/wiki/Alpha%2C_California"
     },
     {
-      "label": "Wikipedia, Omega, California",
-      "url": "https://en.wikipedia.org/wiki/Omega,_California"
+      "label": "Wikipedia, Omega Hydraulic Diggings",
+      "url": "https://en.wikipedia.org/wiki/Omega_Hydraulic_Diggings"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

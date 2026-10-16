@@ -1,16 +1,27 @@
 {
   "id": "route-629-to-douthat-state-park-995124",
-  "tagline": "A short road up to a park the CCC built.",
+  "tagline": "A mountain lake and park built by the Civilian Conservation Corps",
   "intro": [
-    "Douthat State Park Road leaves Interstate 64 at Cliftondale Park for Douthat State Park, in the Allegheny Mountains, and beyond the park carries on over to Route 39 near Bath Alum.",
-    "The park is one of Virginia's six originals, opened on June 15, 1936. About 600 men of the Civilian Conservation Corps built most of it between 1933 and 1942, one company on forestry and trails, one on the office, shelters and first 25 cabins, one on the dam. For its first 29 years state law kept non-white visitors out, and the Clifton Forge NAACP pressed for Green Pastures Recreation Area instead, which opened in 1940."
+    "Douthat State Park occupies 4,545 acres in Virginia’s Allegheny Mountains, with a 50-acre lake. Many of its hiking trails originated with the Civilian Conservation Corps, which built the park in the 1930s.",
+    "Approximately 600 CCC men constructed most of the park between 1933 and 1942. One company handled forestry and trails, another the office, shelters and first 25 cabins, and a third the dam. Douthat opened in 1936, but Virginia law excluded non-white visitors for its first 29 years. The Clifton Forge NAACP pressed for an alternative for Black visitors, and Green Pastures Recreation Area opened in 1940. Virginia’s state parks ceased imposing segregation in 1965.",
+    "Longdale preserves a different transport connection: Longdale Station Road runs through a hamlet that once had a Chesapeake and Ohio railway station. At Douthat Lake, Wilson Creek flows in from the mountains and continues below the dam’s spillway."
   ],
   "moments": [
+    {
+      "title": "Clifton Forge",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "A change in locomotive technology shifted work away from Clifton Forge. The Chesapeake and Ohio railroad had established a major steam-engine maintenance facility here; during its heyday, the railroad employed over 2,000 people. In the early 1950s, the company chose West Virginia for its diesel maintenance facilities, transferring many jobs there. Railroad history remains a subject here through the Chesapeake & Ohio Historical Society and C&O Railway Heritage Center. The town also serves as a locomotive fueling location for CSX Transportation. Before the railroad expansion, the iron industry and a road over North Mountain had helped the settlement grow.",
+      "at": [
+        -79.823584,
+        37.819801
+      ]
+    },
     {
       "title": "Longdale",
       "kind": "town",
       "scene": "forest",
-      "text": "A hamlet near the North Mountain line of the Chesapeake and Ohio, where a station of the same name stood in the nineteenth century and a road called Longdale Station still runs.",
+      "text": "Longdale Station Road carries a railway name through this Alleghany County hamlet. Longdale lies near the North Mountain Subdivision of the Chesapeake and Ohio Railway, and a station bearing the community’s name existed in the nineteenth century. The road is numbered Virginia State Route 639. This is Longdale, distinct from the larger Longdale Furnace community to the east.",
       "at": [
         -79.7756,
         37.8335
@@ -20,23 +31,22 @@
       "title": "Douthat Lake",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "CCC Company 1373 dammed Wilson Creek, the only natural body of water in the area, to make the 50-acre lake, and the creek still runs down out of the mountains into it."
+      "text": "Douthat Lake began with a dam across Wilson Creek. CCC Company 1373 built the dam and spillway, while other companies worked on the trails and park buildings. The resulting lake covers 50 acres. Construction continued after the park opened on June 15, 1936, finally ending in 1942. Wilson Creek remains part of the lake’s geography: it descends from the mountains beside Lakeside Campground, enters the lake and continues downstream below the spillway. The park’s three CCC companies divided the work: Company 1836 made trails and conducted forestry work, while Company 1374 built the first 25 cabins."
     }
   ],
   "sources": [
-    {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
     {
       "label": "Wikipedia, Douthat State Park",
       "url": "https://en.wikipedia.org/wiki/Douthat_State_Park"
     },
     {
       "label": "Wikipedia, Longdale, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Longdale,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Longdale%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Clifton Forge, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Clifton_Forge%2C_Virginia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

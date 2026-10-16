@@ -1,16 +1,17 @@
 {
   "id": "u-s-12-snake-river-bridge-to-walla-walla-scenic-byway-65308",
-  "tagline": "Wheat by rail, and an older village of fur traders.",
+  "tagline": "Family farms, a wheat railroad and the scattered settlement of Frenchtown",
   "intro": [
-    "Along US 12 between Wallula and Walla Walla, Lowden sits among family farms and wineries. The railroad from Wallula was not finished to Walla Walla until 1875, but its track reached Touchet in March 1874, and by the end of that year Touchet farmers had shipped 4,000 tons of wheat.",
-    "Frenchtown is older than all of it. French Canadian and Métis fur traders built the first cabins in the 1820s, and the community scattered after the army ordered residents out of the valley in 1855 and fighting followed. Its historic site keeps the Saint Rose of Lima cemetery."
+    "US 12 passes through Wallula and Touchet on its way toward Walla Walla, entering a valley of farms and wineries. Washington law includes this corridor within the scenic and recreational highway system. State of Washington Tourism presents the broader Lewis and Clark Trail as a journey through river-carved canyons and vineyard-rich valleys, with historic forts, museums and interpretive centers.",
+    "That modern touring route includes portions of US 12; the earlier journeys used other means. Lewis and Clark followed the Old Celilo Falls Trail up the Walla Walla and Touchet valleys in 1806. Later, a railroad connected Walla Walla with the Columbia at Wallula. Construction began in 1871, and the line was completed in 1875; its original wooden rails carried strap iron on top.",
+    "Traveling east from Wallula, Touchet introduces the wheat-shipping history of that railway. Lowden follows, with family farms and Frenchtown Hall, a community gathering place. At Frenchtown, the historic site preserves a cemetery and the relocated Prince’s cabin. The journey ends at Walla Walla, where vineyards spread through the surrounding valley."
   ],
   "moments": [
     {
       "title": "Touchet",
       "kind": "town",
       "scene": "town",
-      "text": "The name comes from Tuushi, a Walla Walla village near the townsite, meaning baking salmon on sticks over coals.",
+      "text": "Wheat was moving out of Touchet before the railroad reached Walla Walla. By March 1874, the Walla Walla & Columbia River Railroad had laid 16 miles of track from Wallula to Touchet; completion to Walla Walla followed in 1875. By the end of 1874, Touchet farmers had shipped 4,000 tons of wheat and received 1,100 tons of merchandise. The townsite also lies near the earlier Walla Walla village of Tuushi, whose residents lived here before removal to reservations. The village name Tuushi means “baking salmon on sticks over coals,” a name rooted in a coyote myth.",
       "at": [
         -118.6725,
         46.04111111
@@ -20,7 +21,7 @@
       "title": "Lowden",
       "kind": "town",
       "scene": "town",
-      "text": "The community nearest old Frenchtown kept that name until 1915, when it was renamed for farmer and rancher Francis M. Lowden.",
+      "text": "Frenchtown Hall remains a community gathering place in Lowden, a settlement on US 12 between Wallula and Walla Walla. The name connects the town with the French Canadian and Métis settlement that preceded it. In 1915, the community was renamed for local farmer and rancher Francis M. Lowden. Farming continues here alongside wineries. The nearby Frenchtown historic site preserves a different part of that history, including the cemetery acquired by the Frenchtown Historical Foundation in 2005.",
       "at": [
         -118.58583333,
         46.05611111
@@ -30,7 +31,7 @@
       "title": "Frenchtown",
       "kind": "short walk",
       "scene": "town",
-      "text": "The restored Prince's cabin, built around 1837 near the Whitman Mission for a Cayuse man the Hudson's Bay Company called the Prince, now stands at the historic site.",
+      "text": "The Prince’s cabin was relocated and restored in 2016. Built circa 1837 near Whitman Mission, it was made for a Cayuse man whom the Hudson’s Bay Company called “The Prince.” Frenchtown’s Métis and French Canadian settlement suffered forced displacement: in October 1855, the US Army ordered all valley residents to leave. Some stayed, but fighting followed and families scattered. The historic site opened formally in 2010 with a cemetery rededication in collaboration with the Confederated Tribes of the Umatilla Indian Reservation. The Frenchtown Historical Foundation of Walla Walla maintains the historic site today.",
       "at": [
         -118.51333333,
         46.04861111
@@ -39,18 +40,33 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, Touchet, Washington",
-      "url": "https://en.wikipedia.org/wiki/Touchet%2C_Washington"
-    },
-    {
       "label": "Wikipedia, Lowden, Washington",
       "url": "https://en.wikipedia.org/wiki/Lowden%2C_Washington"
     },
     {
+      "label": "Wikipedia, Touchet, Washington",
+      "url": "https://en.wikipedia.org/wiki/Touchet%2C_Washington"
+    },
+    {
       "label": "Wikipedia, Frenchtown, Washington",
       "url": "https://en.wikipedia.org/wiki/Frenchtown%2C_Washington"
+    },
+    {
+      "label": "Washington State Legislature, RCW 47.39.020",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=47.39.020"
+    },
+    {
+      "label": "State of Washington Tourism, lewis and clark trail",
+      "url": "https://stateofwatourism.com/scenic-byways/lewis-and-clark-trail/"
+    },
+    {
+      "label": "Wikipedia, Touchet River",
+      "url": "https://en.wikipedia.org/wiki/Touchet_River"
+    },
+    {
+      "label": "Wikipedia, Wallula, Washington",
+      "url": "https://en.wikipedia.org/wiki/Wallula%2C_Washington"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

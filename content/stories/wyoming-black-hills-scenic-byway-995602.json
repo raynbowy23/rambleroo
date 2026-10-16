@@ -1,16 +1,17 @@
 {
   "id": "wyoming-black-hills-scenic-byway-995602",
-  "tagline": "A cavalry stable and the road to the goldfields.",
+  "tagline": "Stage roads and railway towns trace journeys into the Black Hills.",
   "intro": [
-    "At Newcastle, the road enters a town whose commercial center grew up along the railroad. The Black Hills rise from the surrounding plains, dark from a distance because of their trees. North of town, Four Corners sits at a junction once served by the stages between Cheyenne and the Deadwood gold fields.",
-    "Newcastle keeps a few substantial stone buildings. A sandstone stable built for the National Guard's cavalry horses became the Anna Miller Museum, and north of town part of the Cambria Casino lodge was meant as a memorial to the miners of nearby Cambria."
+    "The Wyoming Black Hills Scenic Byway approaches a wooded mountain range rising from the Great Plains. Wyoming’s tourism office describes curves through rock formations and across streams, with dark evergreen-covered hills contrasting with open grassland. It promotes the byway for its historic sites, geology and recreation at the western gateway to the Black Hills.",
+    "Travel through this corridor once served the Deadwood goldfields: Four Corners was a stage station on the route connecting them with Cheyenne and the Union Pacific Railroad. Newcastle later developed along the Burlington and Missouri Railroad in the late 1880s. US 16, associated with the Black and Yellow Trail, became a connection between the Black Hills and Yellowstone tourist centers.",
+    "For the Newcastle-to-Four Corners portion, begin at Newcastle’s junction of US 16 and US 85, on the southwest edge of the Black Hills. Cambria’s former mining town lies eight miles north of Newcastle, off US 85. Beyond it, Four Corners marks the junction of US 85 and Wyoming 585, southeast of Sundance."
   ],
   "moments": [
     {
       "title": "Newcastle",
       "kind": "town",
       "scene": "town",
-      "text": "A riding hall was planned beside the cavalry stable; the footings were started, World War II intervened, and the stone went to other local projects.",
+      "text": "The Anna Miller Museum occupies a sandstone building made for cavalry horses. Built between 1933 and 1936, the stable was funded by the Civil Works Administration and Works Progress Administration. Its walls are 18 inches thick, using stone quarried on Salt Creek. Plans also called for a riding hall beside it. Workers began the footings, but World War II interrupted the project and the hall was never finished. Stone intended for that hall went into other local construction projects. The Weston County Historical Society has used the stable as the Anna Miller Museum since 1966.",
       "at": [
         -104.20944444,
         43.85305556
@@ -20,7 +21,7 @@
       "title": "Cambria Casino",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "The two-story sandstone lodge dresses the Wyoming hills as a Tudor manor, and the timbers of its upstairs ballroom may have come from area mines.",
+      "text": "Cambria Casino gives a Wyoming lodge the details of an English Tudor manor. New York architect Bruce Rabenold designed the two-story sandstone building, named for the nearby coal-mining community of Cambria. Part of the property was intended as a memorial to the area’s miners. The dance hall opened in January 1929. Upstairs, the ballroom has a timber-framed roof resembling a medieval hammer-beam truss; those timbers may have come from local mines. The six guest cottages have been removed. The lodge faces a court entered through a gatehouse, with guest-room wings originally flanking the court.",
       "at": [
         -104.19305556,
         43.95555556
@@ -30,7 +31,7 @@
       "title": "Four Corners",
       "kind": "town",
       "scene": "mountain",
-      "text": "At the junction of US 85 and Wyoming 585, a former stage station recalls the road from Cheyenne to the Deadwood goldfields.",
+      "text": "Four Corners occupies the meeting of US 85 and Wyoming 585 near the Bear Lodge Mountains. Before it was a highway junction, it served as a stage station on the Cheyenne Black Hills Stage Route. That route linked Cheyenne and the Union Pacific Railroad with the goldfields at Deadwood. The community lies north of Newcastle, southeast of Sundance and southwest of Lead, South Dakota.",
       "at": [
         -104.1382706,
         44.0774811
@@ -39,16 +40,28 @@
   ],
   "sources": [
     {
+      "label": "Wikipedia, Four Corners, Wyoming",
+      "url": "https://en.wikipedia.org/wiki/Four_Corners%2C_Wyoming"
+    },
+    {
+      "label": "Wikipedia, Newcastle Commercial District (Wyoming)",
+      "url": "https://en.wikipedia.org/wiki/Newcastle_Commercial_District_%28Wyoming%29"
+    },
+    {
       "label": "Wyoming Office of Tourism, Black Hills Scenic Byway",
       "url": "https://travelwyoming.com/listing/black-hills-scenic-byway/142/"
+    },
+    {
+      "label": "Wyoming Office of Tourism, Scenic Byways",
+      "url": "https://travelwyoming.com/places-to-go/destinations/scenic-byways/"
     },
     {
       "label": "Wikipedia, Newcastle, Wyoming",
       "url": "https://en.wikipedia.org/wiki/Newcastle%2C_Wyoming"
     },
     {
-      "label": "Wikipedia, Newcastle Commercial District",
-      "url": "https://en.wikipedia.org/wiki/Newcastle_Commercial_District_%28Wyoming%29"
+      "label": "Wikipedia, Cambria, Wyoming",
+      "url": "https://en.wikipedia.org/wiki/Cambria%2C_Wyoming"
     },
     {
       "label": "Wikipedia, Wyoming Army National Guard Cavalry Stable",
@@ -57,12 +70,7 @@
     {
       "label": "Wikipedia, Cambria Casino",
       "url": "https://en.wikipedia.org/wiki/Cambria_Casino"
-    },
-    {
-      "label": "Wikipedia, Four Corners, Wyoming",
-      "url": "https://en.wikipedia.org/wiki/Four_Corners%2C_Wyoming"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

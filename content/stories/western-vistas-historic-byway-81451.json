@@ -1,61 +1,51 @@
 {
   "id": "western-vistas-historic-byway-81451",
-  "tagline": "North across an old sea floor, then west on old 40.",
+  "tagline": "Prairie highways link chalk badlands, a post cemetery and a pueblo site",
   "intro": [
-    "From Scott City, US 83 runs north and K-95 turns off into Lake Scott State Park, a spring-fed lake in Ladder Creek Canyon. The road goes on past the Little Jerusalem Badlands to Oakley, where it takes old US 40 west to Sharon Springs.",
-    "Western Kansas was once the bottom of an inland sea, and here and there erosion has opened up the chalk it left. Sharon Springs, at the far end, began in 1868 as Eagle Tail station. In 2013 the largest sinkhole in Kansas opened just north of town."
+    "Western Vistas links US 40, US 83 and K-95 across western Kansas, with a drive through Historic Lake Scott State Park and a separate visit to Little Jerusalem’s chalk badlands. Kansas Tourism gives the Historic Byway a length of 102 miles and highlights the meeting of rugged landscapes, history and prehistory. The prairie landscape includes rock formations left exposed after an inland sea receded. Lake Scott is a spring-fed freshwater lake, while Little Jerusalem offers narrow canyons cut into white chalk. These are distinct stops reached from the highway corridor.",
+    "Travel shaped places along this corridor before the byway: Monument served the overland stage, while Fort Wallace was built to protect stages and settlers. Later preservation changed what travelers could visit. Lake Scott became a state park in 1928 after the Steele family donated land; Little Jerusalem opened to the public in October 2019.",
+    "From Sharon Springs, head east on US 40 toward Oakley, with Fort Wallace’s cemetery south of the highway. At Oakley, turn south on US 83 for Little Jerusalem, reached by gravel county roads. Return to US 83 and continue south to K-95 for Lake Scott and El Cuartelejo, then rejoin US 83 to finish in Scott City."
   ],
   "moments": [
     {
-      "title": "El Cuartelejo",
+      "title": "Fort Wallace",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "Pueblo people who had fled Spanish New Mexico built the only known pueblo in Kansas here, with ditches to carry water from a nearby spring to their crops.",
+      "text": "The cemetery is what remains of Fort Wallace, a US Cavalry post on Pond Creek. Built to protect stages and settlers against Cheyenne and Sioux raids, the fort had accommodations for 500 men, with troops dispersed between Fort Hays and Fort Denver. Its cemetery stands beside Wallace Township Cemetery. A separate museum in Wallace holds relics, photographs and reproduction items relating to the post. The museum’s Milford Becker Addition, opened in 2017, features facades of buildings from the fort and the old town. The fort took its name from General W. H. L. Wallace.",
       "at": [
-        -100.91417,
-        38.67806
+        -101.55944,
+        38.905
       ]
     },
     {
       "title": "Little Jerusalem Badlands State Park",
       "kind": "short walk",
-      "scene": "desert",
-      "text": "Narrow canyons cut into white Smoky Hill Chalk, likened to the walls and winding streets of ancient Jerusalem, where visitors keep to the trail unless a guide takes them off it.",
+      "scene": "prairie",
+      "text": "Little Jerusalem’s chalk formed 85 million years ago beneath the Western Interior Seaway. Fossils found here include swimming and flying reptiles, giant clams and oysters. The chalk also supports living habitat: Great Plains wild buckwheat grows in western Kansas chalk-bluff prairie and nowhere else in the world. Once part of the McGuire Ranch, the land is now owned by The Nature Conservancy, which partnered with Kansas wildlife and parks officials to open portions to visitors. Two permanent trails lead to overlooks of the formations. Cliff swallows and their mud nests are common near the tops of the rocks.",
       "at": [
         -100.9425,
         38.8025
       ]
     },
     {
-      "title": "Fort Wallace",
+      "title": "El Cuartelejo",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "A cavalry post built to protect the stages once had room for 500 men, and all that remains is its cemetery, beside the township's own.",
+      "text": "The walls at El Cuartelejo show the layout of a seven-room pueblo, but they are a partial reconstruction made after excavations in the 1970s. The site in Ladder Creek Canyon was shared by Plains Apache and Pueblo people who moved north from Spanish-ruled New Mexico. Irrigation ditches carried spring water to crops. Excavators found corn, animal bones and pottery representing both Plains and southwestern Pueblo traditions. Interpretive markers accompany the remains within Lake Scott State Park. The pueblo had no doors or windows; people entered from above by climbing a ladder to the roof.",
+      "notice": "Reconstructed partial walls show the pueblo’s excavated layout.",
       "at": [
-        -101.55944,
-        38.905
+        -100.91417,
+        38.67806
       ]
     }
   ],
   "practical": [
-    "Little Jerusalem Badlands State Park is open year-round during daylight hours only."
+    "Little Jerusalem Badlands State Park: A state park vehicle permit is required. Access is by gravel county roads, which can become inaccessible; the park is open from sunup to sundown. (checked 2026-10-11)"
   ],
   "sources": [
     {
       "label": "Kansas Tourism, Western Vistas Historic Byway",
       "url": "https://www.travelks.com/things-to-do/byways-and-highways/byways/western-vistas/"
-    },
-    {
-      "label": "Wikipedia, Lake Scott State Park",
-      "url": "https://en.wikipedia.org/wiki/Lake_Scott_State_Park"
-    },
-    {
-      "label": "Wikipedia, El Cuartelejo",
-      "url": "https://en.wikipedia.org/wiki/El_Cuartelejo"
-    },
-    {
-      "label": "Wikipedia, Little Jerusalem Badlands State Park",
-      "url": "https://en.wikipedia.org/wiki/Little_Jerusalem_Badlands_State_Park"
     },
     {
       "label": "The Nature Conservancy, Little Jerusalem Badlands State Park",
@@ -66,14 +56,21 @@
       "url": "https://en.wikipedia.org/wiki/Fort_Wallace"
     },
     {
-      "label": "Wikipedia, Sharon Springs, Kansas",
-      "url": "https://en.wikipedia.org/wiki/Sharon_Springs,_Kansas"
+      "label": "Wikipedia, El Cuartelejo",
+      "url": "https://en.wikipedia.org/wiki/El_Cuartelejo"
     },
     {
-      "label": "Wikipedia, Monument Rocks (Kansas)",
-      "url": "https://en.wikipedia.org/wiki/Monument_Rocks_(Kansas)"
+      "label": "Wikipedia, Lake Scott State Park",
+      "url": "https://en.wikipedia.org/wiki/Lake_Scott_State_Park"
+    },
+    {
+      "label": "Wikipedia, Little Jerusalem Badlands State Park",
+      "url": "https://en.wikipedia.org/wiki/Little_Jerusalem_Badlands_State_Park"
+    },
+    {
+      "label": "Wikipedia, Monument, Kansas",
+      "url": "https://en.wikipedia.org/wiki/Monument%2C_Kansas"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

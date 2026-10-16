@@ -1,16 +1,17 @@
 {
   "id": "route-160-glastonbury-ferry-road-990931",
-  "tagline": "A mile inland from the oldest ferry still running.",
+  "tagline": "A river crossing leads to meadows shaped by centuries of farming.",
   "intro": [
-    "Off the ferry from Rocky Hill, Route 160 runs a mile inland across the Great Meadows of South Glastonbury and stops being scenic at Roaring Brook. That is the whole of it.",
-    "The crossing began in 1655, before there was a Glastonbury or a Rocky Hill, when both were still part of Wethersfield, and it is believed to be the oldest ferry in the country running without a break. It started as a raft poled across, went over to a horse on a treadmill, and took to steam in 1876. Glastonbury built ships along this river in the 18th and early 19th centuries."
+    "Route 160’s scenic section runs 1.06 miles from the Connecticut River to Roaring Brook in Glastonbury. At the river, the Rocky Hill–Glastonbury Ferry carries the highway across the water. The surrounding historic district includes ferry landings, farms, and a landing village; its Great Meadows retain seventeenth-century land-use patterns. On the Glastonbury side, broad floodplain meadows meet houses set above the floodplain along Tryon Street. Across the water at Rocky Hill, a steep bluff separates the ferry landing from the town’s main economic center.",
+    "The crossing began in 1655, when both banks belonged to Wethersfield. A poled raft gave way to horse power on a treadmill, then to steam in 1876. In 1932, the ferry became part of the newly commissioned Route 160. Glastonbury later sought an eastward extension to the New London Turnpike near Route 2, but the state declined the request in 1960.",
+    "Traveling east from the ferry, the scenic section begins at the river and ends at Roaring Brook. Near that eastern end, the John Hollister House stands on Tryon Street just west of the brook. The numbered highway continues to Route 17 in South Glastonbury. Roaring Brook’s grist and saw mills helped spur South Glastonbury’s development as the town’s first village."
   ],
   "moments": [
     {
       "title": "Rocky Hill-Glastonbury Ferry",
       "kind": "roadside",
       "scene": "river",
-      "text": "The Hollister III, a barge for three cars, goes over in tow of the diesel towboat Cumberland, and the ferry turns up in Billy Joel's video for \"The River of Dreams\".",
+      "text": "Three cars fit on the Hollister III, the ferry barge towed by the diesel-powered Cumberland. That pairing follows a succession of ways to cross the Connecticut River: a poled raft, a horse working a treadmill, and a steamship introduced in 1876. The service began in 1655, before Rocky Hill and Glastonbury became separate towns. The ferry and its landings became part of a National Register historic district in 2005, following a proposal intended to help preserve the crossing. Rocky Hill’s landing became a port after a flood in 1700 destroyed Wethersfield’s old port, adding a shipping role to this riverbank.",
       "at": [
         -72.629648,
         41.666363
@@ -20,26 +21,43 @@
       "title": "Great Meadows",
       "kind": "roadside",
       "scene": "river",
-      "text": "The farm fields here still keep the land-use patterns of the 17th century, with Colonial and Greek Revival farmhouses among them."
+      "text": "The Great Meadows preserve seventeenth-century land-use patterns, with Colonial and Greek Revival farmhouses within the ferry historic district. Agriculture here predates English settlement: Native Americans cultivated the broad Connecticut River floodplain before Wethersfield residents surveyed and divided it in the 1640s. Houses went up above the floodplain along what became Tryon Street. Later development added farm buildings and ferry infrastructure, while landowners maintained family and business connections across the river. In 1871, the Connecticut Valley Railroad reached the Rocky Hill landing area, providing another way to carry South Glastonbury’s goods to market."
+    },
+    {
+      "title": "John Hollister House",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "The John Hollister House has larger windows than it began with: its window openings were enlarged in the nineteenth century. Built about 1675 by John Hollister, Jr., it began as two rooms with a chimney. The central chimney remains part of a wood-frame house with a gabled roof and clapboard exterior. Its second floor projects slightly over the five-bay front, and the roof extends into a deep eave. The house stands on Tryon Street, just west of Roaring Brook. It is Glastonbury’s oldest surviving colonial structure; John Hollister’s father’s house, credited as the town’s first, no longer stands. A two-story gabled extension reaches behind the house.",
+      "at": [
+        -72.60888889,
+        41.66694444
+      ]
     }
   ],
   "practical": [
-    "The ferry is seasonal and does not run in winter."
+    "Rocky Hill-Glastonbury Ferry: The ferry crossing is seasonal. (checked 2026-10-11)"
   ],
   "sources": [
+    {
+      "label": "Wikipedia, Rocky Hill–Glastonbury Ferry",
+      "url": "https://en.wikipedia.org/wiki/Rocky_Hill%E2%80%93Glastonbury_Ferry"
+    },
     {
       "label": "Wikipedia, Connecticut Route 160",
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_160"
     },
     {
-      "label": "Wikipedia, Rocky Hill-Glastonbury Ferry",
-      "url": "https://en.wikipedia.org/wiki/Rocky_Hill%E2%80%93Glastonbury_Ferry"
+      "label": "Wikipedia, Glastonbury–Rocky Hill Ferry Historic District",
+      "url": "https://en.wikipedia.org/wiki/Glastonbury%E2%80%93Rocky_Hill_Ferry_Historic_District"
     },
     {
-      "label": "Wikipedia, Glastonbury, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Glastonbury,_Connecticut"
+      "label": "Wikipedia, John Hollister House",
+      "url": "https://en.wikipedia.org/wiki/John_Hollister_House"
+    },
+    {
+      "label": "Wikipedia, South Glastonbury Historic District",
+      "url": "https://en.wikipedia.org/wiki/South_Glastonbury_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

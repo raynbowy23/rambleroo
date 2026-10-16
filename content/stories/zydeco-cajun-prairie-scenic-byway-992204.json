@@ -1,16 +1,18 @@
 {
   "id": "zydeco-cajun-prairie-scenic-byway-992204",
-  "tagline": "Three loops and a spur across the Cajun prairie.",
+  "tagline": "Rolling hills, a bayou port and a home for zydeco",
   "intro": [
-    "Out of Ville Platte the byway takes to the rolling prairie, three loops and a spur laid over St. Landry, Acadia and Evangeline parishes, past crawfish farms, sweet potato fields and pasture for beef cattle and saddle horses. The country around Mamou was so wide that Anglo-Americans called it Mammouth Prairie. The French made it Mamou.",
-    "Mamou calls itself the Cajun Music Capital of the World. Its Fred's Lounge, a bar Alfred Tate bought in 1946, made its name with Saturday mornings of Cajun music and dancing, and its radio broadcasts went out in Louisiana French from 1962."
+    "Near Ville Platte, Chicot State Park has rolling hills surrounding a man-made lake. Ville Platte itself occupies relatively flat ground, contrasting with the hillier country to its north. Melville lies on mostly flat land inside a ring levee built to protect it from the Atchafalaya River and the West Atchafalaya Floodway. Music gives these towns another point of interest: Ville Platte has a swamp pop museum in a former railway station, and Opelousas is a center of zydeco.",
+    "Water crossings changed travel here: the Krotz Springs Bridge opened across the Atchafalaya in 1928, carrying trains and automobiles. Other bridges replaced it at the same location in 1934, 1973 and 1988.",
+    "Begin at Bayou Chicot, due north of Ville Platte. In Ville Platte, US 167 runs through town as Main and Lasalle streets. Washington brings the history of an inland port; Krotz Springs brings the Atchafalaya River. Port Barre sits where Bayou Courtableau and Bayou Teche meet, east of Opelousas. Continue west to Eunice, then Basile, both on US 190."
   ],
   "moments": [
     {
       "title": "Chicot State Park",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Rolling hills ring a 2,000-acre man-made lake here, and the Civilian Conservation Corps did much of the building in the park, which joined the state system in 1939.",
+      "text": "Lake Chicot is a made landscape: a 2,000-acre artificial lake surrounded by rolling hills in a 6,400-acre park near Ville Platte. The park entered the Louisiana state system in 1939, and the Civilian Conservation Corps developed much of the area under National Park Service direction. A hiking and backpacking trail circles the lake, with primitive campsites along it. The lake supports largemouth bass, crappie, bluegill and red-ear sunfish. The Louisiana State Arboretum State Preservation Area is at the South Landing.",
+      "notice": "Rolling hills surround the man-made lake.",
       "at": [
         -92.27972,
         30.80028
@@ -20,7 +22,7 @@
       "title": "Washington",
       "kind": "town",
       "scene": "town",
-      "text": "Steamboats coming up Bayou Courtableau could not turn around at Washington until 1848, when a captain finished a turnaround and made the village an inland port.",
+      "text": "Founded as a French trading post in 1764, Washington later had a problem for steamboats: they could reach the village but could not turn around. The boats came up Bayou Teche, passed Barre’s Landing and continued along Bayou Courtableau. In 1848, Captain George W. Haygood completed a turnaround, and Washington became an inland port. The Washington Historic District entered the National Register of Historic Places in 1978. At the time of listing, the district included 200 contributing buildings and three contributing sites.",
       "at": [
         -92.05944,
         30.615
@@ -30,7 +32,7 @@
       "title": "Opelousas",
       "kind": "town",
       "scene": "town",
-      "text": "The center of zydeco and the birthplace of Clifton Chenier, Opelousas also spent nine months as Louisiana's capital during the Civil War.",
+      "text": "Zydeco has a home in Opelousas, which has hosted the Original Southwest Louisiana Zydeco Festival since 1982. The festival moved from Zydeco Park in Plaisance to the Yambilee Festival grounds in Opelousas. Its musicians perform with the aim of keeping the genre alive. Music also reaches listeners through KOCZ-LP, a community radio station owned and operated by the Southern Development Foundation. Volunteers from Opelousas and across the country built the station at the third Prometheus Radio Project barnraising. Its programming includes music, news and public affairs for listeners at 92.9.",
       "at": [
         -92.07944,
         30.50417
@@ -39,30 +41,49 @@
   ],
   "sources": [
     {
-      "label": "Louisiana Scenic Byways, Zydeco Cajun Prairie Scenic Byway (Wayback Machine)",
-      "url": "https://web.archive.org/web/20250720043154/https://byways.explorelouisiana.com/byway/zydeco-cajun-prairie-byway"
-    },
-    {
-      "label": "Wikipedia, Mamou, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Mamou,_Louisiana"
-    },
-    {
-      "label": "Wikipedia, Fred's Lounge",
-      "url": "https://en.wikipedia.org/wiki/Fred's_Lounge"
-    },
-    {
       "label": "Wikipedia, Chicot State Park",
       "url": "https://en.wikipedia.org/wiki/Chicot_State_Park"
     },
     {
       "label": "Wikipedia, Washington, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Washington,_Louisiana"
+      "url": "https://en.wikipedia.org/wiki/Washington%2C_Louisiana"
     },
     {
       "label": "Wikipedia, Opelousas, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Opelousas,_Louisiana"
+      "url": "https://en.wikipedia.org/wiki/Opelousas%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Ville Platte, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Ville_Platte%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Melville, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Melville%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Krotz Springs, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Krotz_Springs%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Bayou Chicot, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Bayou_Chicot%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Port Barre, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Port_Barre%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Eunice, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Eunice%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Basile, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Basile%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Washington Historic District (Washington, Louisiana)",
+      "url": "https://en.wikipedia.org/wiki/Washington_Historic_District_%28Washington%2C_Louisiana%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

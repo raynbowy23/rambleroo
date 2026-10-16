@@ -1,33 +1,31 @@
 {
   "id": "route-41-sharon-and-salisbury-990903",
-  "tagline": "Border to border through Connecticut's old iron country.",
+  "tagline": "A border-to-border road links mountain trails, Lakeville and Sharon’s green through rural Connecticut.",
   "motifs": [
     "steeple-town",
     "lake-wide"
   ],
   "intro": [
-    "Route 41 picks up at the New York line in Amenia Union and runs north past the Sharon Country Club onto South Main Street, between the country estates that came in when the tourists did. From Sharon it goes on as Gay Street and Sharon Road to Lakeville, rides US 44 into Salisbury, and leaves again on Under Mountain Road for Massachusetts. It is the only numbered route in Connecticut with a state line at both ends.",
-    "This was iron country from before the Revolution until about 1920. Salisbury iron, worked fine enough for gun barrels, went into the state's early arms and into railroad car wheels. The mines are under water now."
+    "Route 41 crosses rural northwestern Connecticut in 17.86 miles, with a state border at each end. The drive passes Mount Riga State Park, shares Main Street with US 44 between Salisbury and Lakeville, and runs through Sharon’s center. Connecticut’s scenic-road designation protects appearance by restricting changes including widening and rerouting. In Sharon, residences and civic buildings line the long town green; farther north, the Undermountain Trail connects the highway to the Appalachian Trail.",
+    "The northern portion had briefly carried US 7 after its designation in 1926, before that highway moved to its modern alignment by 1928. The modern road took shape in the 1932 highway renumbering, joining part of old New England Route 4 to State Highway 360. Scenic protection came in stages: Sharon’s town-center section in 1990, the rest of its stretch in 1992, then Salisbury’s portion the following year after the town applied.",
+    "Driving south from Massachusetts, follow Under Mountain Road past Mount Riga State Park to Salisbury center. The US 44 overlap leads to Lakeville; Sharon Road then passes the Route 112 junction south of Lake Wononscopomuc. Continue on Gay Street into Sharon, then through its Main Street center and onto Amenia Union Road for the New York line."
   ],
   "moments": [
     {
-      "title": "Sharon",
-      "kind": "town",
-      "scene": "town",
-      "text": "A crossroads town the railroads passed by, laid out along a green a mile long, with four churches, an 1893 Romanesque library and a memorial clock tower.",
+      "title": "Mount Riga State Park",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "The Undermountain Trail links Route 41 with the northernmost section of the Appalachian Trail in Connecticut. Its trailhead is at the Mount Riga State Park parking lot, a connection between the highway and an undeveloped public recreation area in Salisbury. The park offers hiking and bow hunting and is managed by the Connecticut Department of Energy and Environmental Protection.",
       "at": [
-        -73.45,
-        41.86667
-      ],
-      "motifs": [
-        "steeple-town"
+        -73.43389,
+        42.03528
       ]
     },
     {
       "title": "Lake Wononscopomuc",
       "kind": "roadside",
       "scene": "river",
-      "text": "The state's deepest natural lake, 102 feet at the bottom, lies at Lakeville, which was Furnace Village until 1846, named for one of the Salisbury iron trade's early blast furnaces.",
+      "text": "Lake Wononscopomuc reaches 102 feet deep, making it Connecticut’s deepest natural lake. It lies in Lakeville, whose earlier name, Furnace Village, came from an early blast furnace in the Salisbury iron industry. The village used that name until 1846. The lake is a natural marl lake supporting a diverse community of aquatic plants, with residential development on large lots along its shores. Along the lake’s north shore, the town beach and boat launch form Salisbury Town Grove. On the opposite shore are the Hotchkiss School’s boathouse and private beach. Most lakeside houses stand well back behind buffers of trees.",
       "at": [
         -73.446,
         41.956
@@ -37,13 +35,16 @@
       ]
     },
     {
-      "title": "Mount Riga State Park",
-      "kind": "separate excursion",
-      "scene": "mountain",
-      "text": "From the parking lot on Under Mountain Road, the Undermountain Trail heads up to the northernmost stretch of the Appalachian Trail in Connecticut.",
+      "title": "Sharon",
+      "kind": "town",
+      "scene": "town",
+      "text": "Sharon’s long green is lined with Federal-period architecture, a legacy of the crossroads town’s early-19th-century prosperity. Railroads bypassed the village, but iron mines and furnaces supported its economy. As those industries declined in the 1880s, tourism grew. Country estates took over the southern part of the green, with new Colonial Revival houses and alterations to older buildings. The northern green continued to acquire Victorian houses and civic buildings, while the brick Ebenezer Gay House now serves as the historical society museum. Four churches, the Romanesque library of 1893 and a memorial clock tower punctuate the civic center.",
       "at": [
-        -73.43389,
-        42.03528
+        -73.45,
+        41.86667
+      ],
+      "motifs": [
+        "steeple-town"
       ]
     }
   ],
@@ -53,12 +54,12 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_41"
     },
     {
-      "label": "Wikipedia, Sharon Historic District (Sharon, Connecticut)",
-      "url": "https://en.wikipedia.org/wiki/Sharon_Historic_District_(Sharon,_Connecticut)"
+      "label": "Wikipedia, Mount Riga State Park",
+      "url": "https://en.wikipedia.org/wiki/Mount_Riga_State_Park"
     },
     {
-      "label": "Wikipedia, Sharon, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Sharon,_Connecticut"
+      "label": "Wikipedia, Sharon Historic District (Sharon, Connecticut)",
+      "url": "https://en.wikipedia.org/wiki/Sharon_Historic_District_%28Sharon%2C_Connecticut%29"
     },
     {
       "label": "Wikipedia, Lake Wononscopomuc",
@@ -66,17 +67,8 @@
     },
     {
       "label": "Wikipedia, Lakeville, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Lakeville,_Connecticut"
-    },
-    {
-      "label": "Wikipedia, Salisbury, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Salisbury,_Connecticut"
-    },
-    {
-      "label": "Wikipedia, Mount Riga State Park",
-      "url": "https://en.wikipedia.org/wiki/Mount_Riga_State_Park"
+      "url": "https://en.wikipedia.org/wiki/Lakeville%2C_Connecticut"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

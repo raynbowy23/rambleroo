@@ -1,22 +1,33 @@
 {
   "id": "white-river-scenic-road-11297",
-  "tagline": "Down from Hon-Dah to the trout hatchery on the North Fork.",
+  "tagline": "An old territorial road leads south through the White Mountain Apache homeland",
   "intro": [
-    "SR 73 leaves Highway 260 at Hondah, by the tribe's Hon-Dah Resort Casino, and heads south into the Fort Apache Indian Reservation, home of the White Mountain Apache, in country covered mostly by pine forest below the Mogollon Rim. The scenic road is eleven miles of it, and ADOT counts the Alchesay and Williams Creek fish hatcheries among its points of interest.",
-    "SR 73 was one of Arizona's original state routes of 1927. The hatchery takes its name from Alchesay, a White Mountain Apache chief and Army scout who received the Medal of Honor."
+    "White River Scenic Road follows 11 miles of Arizona 73 south from Hon-Dah to Alchesay National Fish Hatchery. It lies on the Fort Apache Indian Reservation, whose landscape is mostly pine forest directly south of the Mogollon Rim. Arizona designated the scenic road in 1993, and its transportation department highlights the hatchery complex, White Mountain Apache Cultural Center and Kinishba Ruin as points of interest.",
+    "The road’s longer story reaches back to the territorial route linking Globe and Springerville through the White Mountain Apache homeland. After a military camp was established in 1870, rough trails needed improvement into packed-earth roads. During the 1870s, a wagon road connected Fort Apache with suppliers of hay, food and equipment to the north and east. The modern highway retains the Fort Apache-to-Hon-Dah portion of that territorial route; the Carrizo-to-Fort-Apache segment came from a former tribal road added in 1959.",
+    "Begin at Arizona 260 near Hon-Dah and head south on Arizona 73 toward the hatchery. The hatchery occupies a canyon of the North Fork of the White River, nine miles north of Whiteriver. The scenic designation ends there; continuing south through Whiteriver to Fort Apache extends the journey beyond those 11 miles."
   ],
   "moments": [
+    {
+      "title": "Indian Pine",
+      "kind": "town",
+      "scene": "forest",
+      "text": "Indian Pine marks the meeting of Arizona 260 and the northern end of Arizona 73. The community is on the Fort Apache Indian Reservation. From this junction, Arizona 73 leads south toward the hatchery on the White River Scenic Road.",
+      "at": [
+        -109.90527778,
+        34.08
+      ]
+    },
     {
       "title": "Alchesay National Fish Hatchery",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "In a canyon of the White River's North Fork, nine miles north of Whiteriver, trout are raised for the waters of 17 reservations and pueblos, and visitors may fish for the threatened Apache trout."
+      "text": "Young trout arrive here from Williams Creek National Fish Hatchery and grow before being released into tribal waters. Alchesay raises brown and rainbow trout for waterways on 17 reservations and pueblos in eastern Arizona and western New Mexico. The hatchery lies in the North Fork’s canyon, nine miles north of Whiteriver. Its name honors Alchesay, a White Mountain Apache chief and U.S. Army scout who received the Medal of Honor. The U.S. Fish and Wildlife Service operates the hatchery as part of a complex with Williams Creek. The two hatcheries combined their operations in 1972."
     },
     {
       "title": "Fort Apache Historic Park",
       "kind": "separate excursion",
       "scene": "town",
-      "text": "South past Whiteriver, the Army post founded in 1870 at the suggestion of White Mountain Apache leaders keeps 27 historic buildings, ruins and its old parade ground as a tribal park.",
+      "text": "The former parade ground sits within a tribal park of 27 historic buildings, ruins and other remnants. Fort Apache began as a military camp in 1870. In 1923, the Bureau of Indian Affairs took over the property and established the Theodore Roosevelt School. The boarding school mainly targeted Navajo youth, removing them from their reservation and encouraging non-Native customs. The White Mountain Apache now operate the Roosevelt Indian School as a tribal middle school. Their cultural center stands at the park’s western end. Surviving early buildings include a commandant’s log cabin, a guardhouse and an adjutant’s office.",
       "at": [
         -109.98916667,
         33.78972222
@@ -25,16 +36,16 @@
   ],
   "sources": [
     {
-      "label": "ADOT, List of Scenic Roads (Wayback Machine capture, April 2026)",
-      "url": "https://web.archive.org/web/20260412095407/https://azdot.gov/about/historic-and-scenic-roads/list-scenic-roads"
-    },
-    {
-      "label": "Wikipedia, Arizona State Route 73",
-      "url": "https://en.wikipedia.org/wiki/Arizona_State_Route_73"
+      "label": "Arizona Department of Transportation, List of Historic Roads",
+      "url": "https://web.archive.org/web/20260519152218/https://azdot.gov/about/historic-and-scenic-roads/list-historic-roads"
     },
     {
       "label": "Wikipedia, Fort Apache Indian Reservation",
       "url": "https://en.wikipedia.org/wiki/Fort_Apache_Indian_Reservation"
+    },
+    {
+      "label": "Arizona Department of Transportation, List of Scenic Roads",
+      "url": "https://web.archive.org/web/20260412095407/https://azdot.gov/about/historic-and-scenic-roads/list-scenic-roads"
     },
     {
       "label": "Wikipedia, Alchesay National Fish Hatchery",
@@ -45,10 +56,9 @@
       "url": "https://en.wikipedia.org/wiki/Fort_Apache_Historic_Park"
     },
     {
-      "label": "Wikipedia, Hondah, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Hondah,_Arizona"
+      "label": "Wikipedia, Indian Pine, Arizona",
+      "url": "https://en.wikipedia.org/wiki/Indian_Pine%2C_Arizona"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

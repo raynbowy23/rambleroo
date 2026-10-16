@@ -1,30 +1,41 @@
 {
   "id": "wildlife-loop-road-scenic-byway-10760",
-  "tagline": "Eighteen miles, timed by the buffalo.",
+  "tagline": "A winding prairie road through the country of a managed bison herd",
   "intro": [
-    "From the Blue Bell entrance on the west side of Custer State Park, the Wildlife Loop bends in a long U for 18 miles to the east entrance, twisting through prairie and ponderosa hills. The park puts the drive at an hour and a half and adds that the time depends on wildlife jams.",
-    "The park calls the buffalo its number one inhabitant. The herd began with thirty-six animals bought in 1914, and each fall riders gather it in a roundup held officially since 1965. In December 2017 the Legion Lake Fire jumped the road and in one night grew from 6 square miles to 55, burning most of the country around it."
+    "Wildlife Loop Road twists through prairie and ponderosa pine hills in Custer State Park. Travel South Dakota presents this 18-mile State Scenic Byway as a drive through pine-covered hills, rolling prairies and red-walled canyons, with bison and other wildlife along the way. The state park agency allows an hour and a half, with travel time dependent on wildlife jams. The 18 miles form a U rather than a complete loop; returning along the full loop brings the distance to 30 miles.",
+    "The herd began with 36 bison bought in 1914. As the population grew, the park developed a management system to protect both the animals and their grazing ground. The official roundup began in 1965; each fall, riders gather the animals for health checks and selection of animals for removal. In December 2017, the Legion Lake Fire crossed Wildlife Loop Road and burned much of the herd’s grazing ground. Afterward, park officials increased their annual debris-clearing area.",
+    "Drive from Blue Bell on the western side toward the east entrance along the U-shaped route. Near the southeastern tip, burros are often found beside the road. At the visitor center by the east entrance, a map shows the buffalo’s whereabouts that day."
   ],
   "moments": [
     {
       "title": "Blue Bell",
       "kind": "town",
       "scene": "forest",
-      "text": "Named for the native bluebells, the place had a post office only from 1932 to 1941, though its public lodge goes back to 1925.",
+      "text": "Blue Bell takes its name from the bluebell flowers native to the area. A public recreational lodge was established here in 1925, before the community’s post office opened in 1932. The post office lasted until 1941. The Blue Bell entrance marks the western end of the byway’s 18-mile U.",
       "at": [
         -103.4825,
         43.71667
       ]
     },
     {
+      "title": "Legion Lake Fire",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "In December 2017, the Legion Lake Fire jumped Wildlife Loop Road. It burned most of the land surrounding the route, including much of the bison herds’ grazing area and its fenced perimeter. Bison and burros were moved into corrals for protection, but injured animals in both herds were later euthanized. Afterward, park officials increased the area cleared of debris each year from 1,000 to 3,000 acres. The fire began when wind brought down a tree onto an active power line. A 2018 grant helped fund reseeding and weeding of the burned ground.",
+      "at": [
+        -103.38141667,
+        43.65072222
+      ]
+    },
+    {
       "title": "The burros",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "Near the southeastern tip of the loop a band of burros descended from the miners' pack animals begs at passing cars, though park rules forbid feeding any wildlife."
+      "text": "The burros often found near the southeastern tip of the loop descend from pack animals used by miners and others in the Black Hills. They beg for snacks from passing vehicles, but park rules prohibit feeding any wildlife."
     }
   ],
   "practical": [
-    "The road is open year-round with a South Dakota state park entrance license, and it calls for careful driving in winter conditions."
+    "Blue Bell: The road is open year-round; a South Dakota State Park Entrance License or Temporary Custer State Park pass is required. Winter conditions require careful driving. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -32,22 +43,21 @@
       "url": "https://gfp.sd.gov/csp-scenic-drives/"
     },
     {
-      "label": "Travel South Dakota, Wildlife Loop State Scenic Byway (Wayback capture)",
-      "url": "https://web.archive.org/web/20250622190339/https://www.travelsouthdakota.com/trip-ideas/story/wildlife-loop-state-scenic-byway"
-    },
-    {
       "label": "Wikipedia, Custer State Park",
       "url": "https://en.wikipedia.org/wiki/Custer_State_Park"
     },
     {
-      "label": "Wikipedia, Blue Bell, South Dakota",
-      "url": "https://en.wikipedia.org/wiki/Blue_Bell,_South_Dakota"
+      "label": "Travel South Dakota, Wildlife Loop State Scenic Byway",
+      "url": "https://web.archive.org/web/20250622190339/https://www.travelsouthdakota.com/trip-ideas/story/wildlife-loop-state-scenic-byway"
     },
     {
       "label": "Wikipedia, Legion Lake Fire",
       "url": "https://en.wikipedia.org/wiki/Legion_Lake_Fire"
+    },
+    {
+      "label": "Wikipedia, Blue Bell, South Dakota",
+      "url": "https://en.wikipedia.org/wiki/Blue_Bell%2C_South_Dakota"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

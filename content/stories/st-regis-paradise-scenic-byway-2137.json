@@ -1,19 +1,20 @@
 {
   "id": "st-regis-paradise-scenic-byway-2137",
-  "tagline": "Down the Clark Fork with the railroad for company.",
+  "tagline": "Road and rail follow the Clark Fork through Lolo National Forest",
   "motifs": [
     "river-bluffs"
   ],
   "intro": [
-    "MT 135 leaves I-90 at St. Regis and follows the Clark Fork for 21 miles through the Lolo National Forest, with a rail line running alongside. The country starts out in open, rolling flats and closes into steep canyon walls. Near Quinn the river and the road straighten, and a couple of miles short of Paradise the highway comes out of the forest and meets MT 200.",
-    "On the old secondary route that ran this way from 1960 to 1978, a toll ferry took traffic across the river."
+    "Montana Highway 135 follows the Clark Fork through Lolo National Forest for 21.5 miles, linking I-90 at St. Regis with MT 200 near Paradise. Visit Montana calls this the St. Regis-Paradise Scenic Byway and highlights the change from open, rolling flats to steep canyon walls. Road and railway initially share the northern bank of the river.",
+    "From 1960 to 1978, a secondary route followed the alignment now used by MT 135. It connected U.S. 10 with U.S. 10A, later MT 200, and included a toll-ferry crossing of the Clark Fork.",
+    "Leaving St. Regis, the highway heads north and northeast along the river. Near the midpoint, it crosses the Clark Fork and passes beneath the railroad, putting road and tracks on opposite banks. The bends straighten near Quinn, and the highway leaves the national forest before meeting MT 200 a couple of miles east of Paradise."
   ],
   "moments": [
     {
       "title": "St. Regis",
       "kind": "town",
       "scene": "river",
-      "text": "A town where the St. Regis River meets the Clark Fork, named for the river that Pierre-Jean De Smet named after a fellow Jesuit.",
+      "text": "Two rivers meet at St. Regis: the St. Regis River joins the Clark Fork here. The town takes its name from the St. Regis River, which Pierre-Jean De Smet named for a fellow Jesuit priest. The post office opened in 1896, and the Northern Pacific Railway built through town in the early 1900s, boosting the local economy. MT 135 begins at I-90 and soon meets the former U.S. Highway 10 at a four-way stop.",
       "at": [
         -115.10027778,
         47.29944444
@@ -23,7 +24,8 @@
       "title": "The river crossing",
       "kind": "roadside",
       "scene": "river",
-      "text": "Near the midpoint the highway crosses the Clark Fork and ducks under the railroad, and from there road and rails keep to opposite banks.",
+      "text": "Near the midpoint of MT 135, the road crosses the Clark Fork and passes beneath the railroad. Until this crossing, road and tracks have run together along the northern bank. Beyond it, they follow opposite banks as the highway keeps close to the river’s bends.",
+      "notice": "Beyond the crossing, road and railroad follow opposite banks of the Clark Fork.",
       "motifs": [
         "river-bluffs"
       ]
@@ -32,7 +34,7 @@
       "title": "Paradise",
       "kind": "town",
       "scene": "river",
-      "text": "A Northern Pacific division point from 1883 near where the Flathead joins the Clark Fork, and the place where railroaders set their watches from Mountain to Pacific time.",
+      "text": "Paradise was a place to reset a railroad watch: crews changed from Mountain to Pacific time here. The community began in 1883 when the Northern Pacific Railroad selected it as a division point. Nearby, the Flathead River enters the Clark Fork. The byway’s MT 135 alignment ends at MT 200 a couple of miles east of Paradise.",
       "at": [
         -114.80083333,
         47.38805556
@@ -41,22 +43,29 @@
   ],
   "sources": [
     {
-      "label": "Visit Montana, Clark Fork Scenic Drive",
-      "url": "https://visitmt.com/listing/clark-fork-scenic-drive-11904"
-    },
-    {
       "label": "Wikipedia, Montana Highway 135",
       "url": "https://en.wikipedia.org/wiki/Montana_Highway_135"
     },
     {
+      "label": "Visit Montana, Clark Fork Scenic Drive",
+      "url": "https://visitmt.com/listing/clark-fork-scenic-drive-11904"
+    },
+    {
       "label": "Wikipedia, St. Regis, Montana",
-      "url": "https://en.wikipedia.org/wiki/St._Regis,_Montana"
+      "url": "https://en.wikipedia.org/wiki/St._Regis%2C_Montana"
+    },
+    {
+      "label": "Wikipedia, St. Regis River (Montana)",
+      "url": "https://en.wikipedia.org/wiki/St._Regis_River_%28Montana%29"
     },
     {
       "label": "Wikipedia, Paradise, Montana",
-      "url": "https://en.wikipedia.org/wiki/Paradise,_Montana"
+      "url": "https://en.wikipedia.org/wiki/Paradise%2C_Montana"
+    },
+    {
+      "label": "Wikipedia, Flathead River",
+      "url": "https://en.wikipedia.org/wiki/Flathead_River"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,16 +1,17 @@
 {
   "id": "wythe-county-byways-995132",
-  "tagline": "Back roads down to the lead mines on the New River.",
+  "tagline": "From a railroad town to lead-working country beside the New River.",
   "intro": [
-    "Out of Rural Retreat the country roads run through Speedwell and past Noble Furnace on Francis Mill Creek, where a steam-powered iron furnace with a stone stack once worked ore brought in by tramway. They reach the New River at Austinville.",
-    "Farther north a second set of roads, Fort Chiswell Road, Max Meadows Road and Peppers Ferry Road, runs from near Poplar Camp toward Wytheville."
+    "The Wythe County journey connects places beside a railway, a mountain creek and the New River. Rural Retreat lies between Marion and Wytheville; Noble Furnace occupies Francis Mill Creek near Hussy Mountain and Fry Hill, and Austinville stands on the New River.",
+    "Transport shaped the area’s industry. At Noble Furnace, a tramway brought material from nearby deposits to a steam-powered iron furnace with a stone stack. At Jackson Ferry, a tower and a shaft beneath it supplied the long drop needed to turn molten lead into shot.",
+    "Begin with Rural Retreat’s railway history, then continue through Speedwell and Noble Furnace to Austinville. New River Trail State Park runs through Austinville, and nearby Shot Tower Historical State Park centers on the Jackson Ferry tower beside the river."
   ],
   "moments": [
     {
       "title": "Rural Retreat",
       "kind": "town",
       "scene": "town",
-      "text": "A town by the railroad that began as Mount Airy, with a depot of that name, and changed it because too many other places were Mount Airy already.",
+      "text": "Rural Retreat began with a less distinctive name: Mount Airy. Confusion with other communities of the same name prompted the change. In the nineteenth century, the Virginia and Tennessee Railroad had a Mount Airy depot here. The Rural Retreat Depot received National Register recognition in 2014.",
       "at": [
         -81.27611111,
         36.89333333
@@ -20,7 +21,7 @@
       "title": "Austinville",
       "kind": "town",
       "scene": "river",
-      "text": "Built on Lead Mines, once the seat of a Fincastle County that took in all of present Kentucky, it is where Stephen F. Austin was born in 1793.",
+      "text": "Austinville occupies the site of Lead Mines, once the seat of Fincastle County. Created in 1772, the county included all of present-day Kentucky as well as parts of what are now Virginia and West Virginia. The colonial governor ordered the county seat placed at Lead Mines; Austinville developed there later. In 1776, the Virginia General Assembly abolished Fincastle County and divided it into Montgomery, Washington and Kentucky counties. New River Trail State Park now runs through Austinville. The community stands on the New River in southern Wythe County, near Shot Tower Historical State Park.",
       "at": [
         -80.9120233,
         36.8512342
@@ -30,7 +31,7 @@
       "title": "Jackson Ferry Shot Tower",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Molten lead fell 150 feet here to become shot, down a 75-foot limestone tower on a cliff edge and a 75-foot shaft beneath it, into a kettle of water.",
+      "text": "Only half of the shot’s 150-foot fall was inside the tower above ground. The limestone structure stands 75 feet high; another 75 feet of shaft extends below it beside the New River. At the top, a wood-fired furnace melted lead with arsenic, and a sieve divided the molten metal into drops. Falling made the drops spherical and cooled them until they became rigid. They landed in a kettle of water that finished cooling them without deforming their shape. The stone walls, two and a half feet thick, helped keep the interior temperature cooler and more consistent, improving the shot’s quality.",
       "at": [
         -80.87055556,
         36.87
@@ -39,38 +40,29 @@
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
-    {
       "label": "Wikipedia, Rural Retreat, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Rural_Retreat,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Speedwell, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Speedwell,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Noble Furnace, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Noble_Furnace,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Austinville, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Austinville,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Fincastle County, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Fincastle_County,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Stephen F. Austin",
-      "url": "https://en.wikipedia.org/wiki/Stephen_F._Austin"
+      "url": "https://en.wikipedia.org/wiki/Rural_Retreat%2C_Virginia"
     },
     {
       "label": "Wikipedia, Jackson Ferry Shot Tower",
       "url": "https://en.wikipedia.org/wiki/Jackson_Ferry_Shot_Tower"
+    },
+    {
+      "label": "Wikipedia, Shot Tower Historical State Park",
+      "url": "https://en.wikipedia.org/wiki/Shot_Tower_Historical_State_Park"
+    },
+    {
+      "label": "Wikipedia, Noble Furnace, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Noble_Furnace%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Austinville, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Austinville%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Fincastle County, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Fincastle_County%2C_Virginia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

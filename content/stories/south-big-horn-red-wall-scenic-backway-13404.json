@@ -1,26 +1,39 @@
 {
   "id": "south-big-horn-red-wall-scenic-backway-13404",
-  "tagline": "An old stock driveway climbs toward the Red Wall.",
+  "tagline": "Old livestock trails cross working range beneath Wyoming’s Red Wall",
   "intro": [
-    "From US 20/26 northwest of Casper, the backway takes the old Stock Driveway toward Buffalo Creek and the southern Bighorns, on gravel across open range still used by ranchers. The tourism office notes that a flock of sheep is likelier here than another vehicle. Through Fifty-Mile Flat the land gains height, and ponderosa pines and wind-carved rock begin to appear.",
-    "Then the Red Wall comes forward. The route follows the spine of the southern Bighorns before joining County Road 105 along the wall and returning south to Waltman."
+    "The South Big Horn/Red Wall Scenic Backway makes a 102-mile horseshoe through the southern end of the Big Horn Mountains. Most of the road is gravel, crossing open range that ranchers continue to use. The Bureau of Land Management presents this back country byway as a journey along livestock trails to the Red Wall, with access to Buffalo Creek and the Middle Fork of the Powder River. Across Fifty-Mile Flat, the road gains elevation and ponderosa pines appear among wind-carved rock formations. The Red Wall itself is a long escarpment of red sandstone and shale, running northwest to southeast through the landscape. Both ends of the horseshoe meet U.S. 20/26 west of Casper and east of Shoshone.",
+    "Settlers moved cattle and sheep along these routes to high mountain pastures. The modern byway follows the 33-mile Stock Driveway to Buffalo Creek and the Red Wall. Ranching remains part of the open-range landscape through which the gravel road passes.",
+    "For a west-to-east trip, start at the Waltman end on U.S. 20/26 and follow County Road 105 toward the Red Wall. County Road 109 follows the spine of the southern Big Horn Mountains. The Stock Driveway and County Road 125 connect the Buffalo Creek side of the journey with U.S. 20/26 northwest of Casper."
   ],
   "moments": [
     {
-      "title": "Fifty-Mile Flat",
-      "kind": "roadside",
+      "title": "Arminto",
+      "kind": "town",
       "scene": "prairie",
-      "text": "As the road slowly gains elevation across the flat, ponderosa pines spring up from the prairie among wind-carved rocks."
+      "text": "Arminto began as a stop on the Chicago, Burlington and Quincy Railroad. Its name honors Manuel Armenta, who started the nearby Jack Pot Ranch. When the railway arrived in 1913, the Big Horn Hotel was moved here from Wolton. The town voted to incorporate in 1915, when unincorporated Wyoming towns could not sell liquor. Arminto is now unincorporated, and the relocated hotel burned in 1985. Its National Register designation in 1978 preceded that loss.",
+      "at": [
+        -107.2575,
+        43.17888889
+      ]
     },
     {
       "title": "Red Wall",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "A long escarpment of red sandstone and shale runs beside the road, with Hole-in-the-Wall, the hideout of Butch Cassidy and the Sundance Kid, not far to the north."
+      "text": "Red sandstone and shale form the long Red Wall escarpment, running northwest to southeast. County Road 105 follows the wall, while County Road 109 connects with it from the spine of the southern Big Horn Mountains. North of the wall lies Hole-in-the-Wall, a hideout used by Butch Cassidy and the Sundance Kid.",
+      "notice": "The Red Wall is an escarpment of red sandstone and shale."
+    },
+    {
+      "title": "Fifty-Mile Flat",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "Fifty-Mile Flat marks a change between prairie and higher ground. The climb across it brings ponderosa pines and wind-carved rock formations into the landscape. This is also working range: the byway traces old livestock trails across land still used by ranchers.",
+      "notice": "Ponderosa pines and wind-carved formations mark the transition from prairie to higher ground."
     }
   ],
   "practical": [
-    "The mostly gravel backway is passable for most high-clearance vehicles in summer and fall; trailers, fifth-wheelers and motor homes are not suited to it."
+    "Fifty-Mile Flat: The mostly gravel backway is passable for most high-clearance vehicles in summer and fall. Trailers, fifth-wheelers and motor homes are not suited to it. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -30,8 +43,11 @@
     {
       "label": "Wyoming Office of Tourism, South Big Horn/Red Wall Scenic Backway",
       "url": "https://travelwyoming.com/listing/south-big-horn-red-wall-scenic-backway/1097/"
+    },
+    {
+      "label": "Wikipedia, Arminto, Wyoming",
+      "url": "https://en.wikipedia.org/wiki/Arminto%2C_Wyoming"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

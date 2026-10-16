@@ -1,80 +1,94 @@
 {
   "id": "stone-valley-byway-72908",
-  "tagline": "Along the Mettawee through the slate towns to a battlefield.",
+  "tagline": "Slate sidewalks and marble underfoot along Route 30 through the Taconics",
   "motifs": [
     "rolling-ridges",
     "lake-wide"
   ],
   "intro": [
-    "At the roundabout in Manchester Center, Route 30 turns northwest and follows the Mettawee River through the Taconic Mountains, by Dorset, Pawlet and Wells. Pawlet takes its name from the river, which the earliest maps called the Paulet.",
-    "This is stone country. Dorset holds America's oldest marble quarry, and the Taconics are Vermont's slate-producing region. At Poultney the road turns north, crosses US 4 at Castleton, and runs along the east shore of Lake Bomoseen in Hubbardton, where the only battle fought in Vermont during the Revolution took place in July 1777."
+    "Stone Valley’s Route 30 corridor follows the Mettawee drainage through the Taconic Mountains and passes along Lake Bomoseen’s eastern shore in Hubbardton. Vermont Tourism presents the Stone Valley Byway as a journey through the region’s stone heritage, linking the Dorset Playhouse, Poultney’s historical museums and a Revolutionary War battlefield. In the Mettawee Valley, farmland opens out at the Pawlet Flats, where hay and corn grow; surrounding forests produce lumber and maple syrup.",
+    "The road’s number has a history broader than this byway. From 1922 to 1926, New England Route 30 ran from Granville, New York, through Poultney and north to Alburg. When northern sections became U.S. highways in 1926, Vermont subsequently extended the Route 30 designation southeast to Brattleboro. A later change left a mark at the former Jenks Tavern in East Rupert: its attached barn was demolished when Route 30 was realigned in 1948.",
+    "Driving south from Hubbardton, follow Lake Bomoseen’s eastern shore toward Castleton, cross U.S. 4 and continue to Poultney. The road passes the eastern edge of Lake St. Catherine State Park, then runs through Wells, Pawlet and Dorset toward Manchester Center. In Dorset, locally quarried marble faces some Church Street sidewalks; in Manchester Center, Route 30 reaches the roundabout."
   ],
+  "notice": "Compare Poultney’s slate sidewalks and fences with Dorset’s locally quarried marble sidewalks.",
   "moments": [
     {
-      "title": "Dorset",
-      "kind": "town",
-      "scene": "town",
-      "text": "Marble from the quarries here went into the New York Public Library's main building. The East Dorset quarry has closed and serves in summer as a swimming hole.",
+      "title": "Hubbardton Battlefield",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "On July 7, 1777, British troops caught the American rear guard at Hubbardton during the retreat from Fort Ticonderoga. Most of the American army had continued toward Castleton, while Seth Warner’s rear guard stopped to rest and gather stragglers. German reinforcements helped scatter the Americans, but British losses ended pursuit of the main army. A monument commissioned in 1859 began a later chapter of commemoration. Vermont acquired battlefield land in the 1930s, and interpretive signs along the battlefield trail identify locations in the fighting. The visitor center’s permanent exhibit places the battle within the wider story of the Revolutionary War.",
       "at": [
-        -73.06167,
-        43.25889
+        -73.13861,
+        43.69528
+      ]
+    },
+    {
+      "title": "Lake Bomoseen",
+      "kind": "separate excursion",
+      "scene": "mountain",
+      "text": "Slate quarry holes and rubble piles survive in Bomoseen State Park on the lake’s western shore. Their material began as ocean-floor clay, compressed into shale and transformed by heat and pressure as the Taconic Mountains rose. The quarries supplied the West Castleton Railroad and Slate Company, whose complex stood between Glen Lake and Lake Bomoseen. Several slate buildings and foundations remain in the park. The lake itself was formed by glaciation and lies in both Castleton and Hubbardton. A self-guided Slate History Trail brochure is available at the park’s contact station.",
+      "at": [
+        -73.21305556,
+        43.64416667
+      ],
+      "motifs": [
+        "lake-wide"
       ]
     },
     {
       "title": "Poultney",
       "kind": "town",
       "scene": "town",
-      "text": "Once a hub of the slate trade, the town still shows it in slate sidewalks and slate fences along its streets.",
+      "text": "Poultney’s slate history runs underfoot and along its streets. The town was a center of the slate industry, and slate sidewalks and fences remain part of its streetscape. Vermont Tourism singles out the Poultney Historical Society’s museums as part of the Stone Valley Byway. Nearby, Route 30 passes along the eastern edge of Lake St. Catherine State Park.",
       "at": [
         -73.23583,
         43.51806
       ]
     },
     {
-      "title": "Hubbardton Battlefield",
-      "kind": "separate excursion",
-      "scene": "forest",
-      "text": "On Monument Hill the American rear guard held off the British, until German grenadiers came up singing hymns to a military band to seem more numerous than they were.",
+      "title": "Dorset",
+      "kind": "town",
+      "scene": "town",
+      "text": "Dorset’s marble appears in the village’s everyday surfaces: some Church Street sidewalks are faced with stone quarried locally. The Congregational Church also has a marble-faced exterior, in Gothic Revival style. The village began as an agricultural community, then gained from demand for marble for projects across the country. Limited water power and poor rail connections constrained its nineteenth-century growth, and East Dorset overtook it in importance. The historic village center stands at the junction of Route 30, Church Street and Kent Hill Road. Wood-frame commercial buildings and mainly nineteenth-century houses cluster in the historic center alongside those marble surfaces.",
       "at": [
-        -73.13861,
-        43.69528
+        -73.06167,
+        43.25889
       ]
     }
   ],
   "sources": [
     {
-      "label": "Vermont Tourism, Vermont Byways",
-      "url": "https://vermontvacation.com/things-to-do/trip-ideas-itineraries/scenic-drives/vermont-byways/"
+      "label": "Vermont Tourism, 72 Hours in Rutland and Vermont’s Stone Valley",
+      "url": "https://vermontvacation.com/72-hours-in-rutland-and-vermonts-stone-valley/"
     },
     {
-      "label": "Vermont Tourism, 72 Hours in Rutland and Vermont's Stone Valley",
-      "url": "https://vermontvacation.com/72-hours-in-rutland-and-vermonts-stone-valley/"
+      "label": "Wikipedia, Dorset Village Historic District",
+      "url": "https://en.wikipedia.org/wiki/Dorset_Village_Historic_District"
     },
     {
       "label": "Wikipedia, Vermont Route 30",
       "url": "https://en.wikipedia.org/wiki/Vermont_Route_30"
     },
     {
-      "label": "Wikipedia, Pawlet, Vermont",
-      "url": "https://en.wikipedia.org/wiki/Pawlet,_Vermont"
+      "label": "Vermont Tourism, Vermont Scenic Byways",
+      "url": "https://vermontvacation.com/things-to-do/trip-ideas-itineraries/scenic-drives/vermont-byways/"
     },
     {
-      "label": "Wikipedia, Dorset, Vermont",
-      "url": "https://en.wikipedia.org/wiki/Dorset,_Vermont"
+      "label": "Wikipedia, Mettawee Valley",
+      "url": "https://en.wikipedia.org/wiki/Mettawee_Valley"
     },
     {
-      "label": "Wikipedia, Poultney (village), Vermont",
-      "url": "https://en.wikipedia.org/wiki/Poultney_(village),_Vermont"
-    },
-    {
-      "label": "Wikipedia, Lake Bomoseen",
-      "url": "https://en.wikipedia.org/wiki/Lake_Bomoseen"
+      "label": "Wikipedia, Jenks Tavern",
+      "url": "https://en.wikipedia.org/wiki/Jenks_Tavern"
     },
     {
       "label": "Wikipedia, Battle of Hubbardton",
       "url": "https://en.wikipedia.org/wiki/Battle_of_Hubbardton"
+    },
+    {
+      "label": "Wikipedia, Lake Bomoseen",
+      "url": "https://en.wikipedia.org/wiki/Lake_Bomoseen"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

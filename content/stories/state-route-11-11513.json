@@ -1,19 +1,21 @@
 {
   "id": "state-route-11-11513",
-  "tagline": "The far end of Maine's longest state road, up the Fish.",
+  "tagline": "Forested hills and connected lakes at the northern end of Route 11  ",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "From Fort Kent on the St. John, Route 11 heads south up the valley of the Fish River, which comes north out of Portage Lake through St. Froid Lake and Eagle Lake to meet the St. John at town. The road keeps roughly to the river the whole way to Portage Lake.",
-    "This stretch was Maine's first scenic byway. It is now the Fish River part of a national byway, joined at Fort Kent to the state's first cultural byway along the St. John, where French is heard as often as English. The highway itself starts 400 miles back, at the New Hampshire line. These are its last miles, or its first."
+    "Route 11’s Fish River stretch crosses rolling land between Fort Kent and Portage, with forest along much of the drive. Aroostook County Tourism highlights views of wildflower meadows and Eagle Lake. This is part of the St. John Valley/Fish River National Scenic Byway, which combines Maine’s first scenic byway, Fish River, with its first cultural byway, St. John Valley. The tourism office presents the larger byway as a cultural journey through communities celebrating Maine Acadian, Scotch-Irish, Maliseet, Mi’kmaq and French-Canadian ancestry.",
+    "Route 11 began on a much smaller scale. Its predecessor was the Manchester-Biddeford Route, whose Maine portion ran 29 miles from Lebanon to Biddeford. It became State Route 11 in 1926. During the 1933–34 expansion of Maine’s interregional highway system, the number extended north to Fort Kent, replacing nearly all of Route 158 from Sherman. The renumbering linked existing roads into long travel corridors, giving a single route number to journeys between the New Hampshire and Canadian borders.",
+    "Start at Fort Kent, where the Fish River joins the Saint John, and drive south toward Eagle Lake. The road runs roughly parallel to the Fish River’s course through Eagle Lake and St. Froid Lake to Portage Lake. Portage village stands on Route 11 at the lake’s southeastern shore."
   ],
   "moments": [
     {
       "title": "Fort Kent",
       "kind": "town",
       "scene": "river",
-      "text": "The village began in 1839 with a blockhouse built for the Aroostook War and named for Governor Edward Kent, and it still stands where the Fish meets the St. John.",
+      "text": "The original log blockhouse survives at the meeting of the Fish and Saint John rivers. Its hand-hewn cedar timbers, overhanging second story and pyramidal roof belong to a fort built during the border tensions known as the Aroostook War. The territory on both sides of the river remained disputed until the Webster-Ashburton Treaty of 1842. Troops stayed until 1845. The property later passed into private hands before Maine bought it in 1891 to establish a park. Rifle ports pierce both stories. Cannon ports were also built into the lower floor, but a lack of funds kept guns from being installed.",
+      "notice": "Look for the blockhouse’s overhanging upper story and hand-hewn cedar timbers.",
       "at": [
         -68.57222,
         47.24194
@@ -23,7 +25,7 @@
       "title": "Eagle Lake",
       "kind": "roadside",
       "scene": "river",
-      "text": "The lake is shaped like an L, takes the Fish River in at the bend, and lets it out again 13 miles above Fort Kent.",
+      "text": "Eagle Lake joins two systems of water: the Fish River enters at the bend in its L shape, while water from Square Lake arrives through Eagle Lake Thoroughfare. The outlet sends the Fish River toward Fort Kent, 13 miles upstream of its meeting with the Saint John. The Bangor and Aroostook Railroad follows the western shore through town and then the river into Fort Kent. These waters provide habitat for rainbow smelt, brook trout, lake trout and land-locked salmon. Its entire eastern arm lies within a 23,000-acre public-land reserve, while the river and railroad continue north along the route toward Fort Kent.",
       "at": [
         -68.61194,
         47.05778
@@ -36,7 +38,7 @@
       "title": "Portage Lake",
       "kind": "town",
       "scene": "forest",
-      "text": "Lumbermen from Canada settled here in 1844, the town took the lake's French name for carrying, and Route 11 is still the only state road it has.",
+      "text": "Portage’s name describes a way of traveling: the French word means “to carry.” The town borrowed it from the lake at its center. Lumbermen from Canada settled here in 1844; the settlement became a plantation in 1872 and an incorporated town in 1909. The village occupies the southeastern lakeshore on Route 11, the town’s only state road. The Fish River enters the lake from the west and leaves at its northern end. The Bangor and Aroostook Railroad approaches along the eastern shore, then follows the Fish River downstream all the way to Fort Kent.",
       "at": [
         -68.50194,
         46.76972
@@ -45,12 +47,8 @@
   ],
   "sources": [
     {
-      "label": "Aroostook County Tourism, St. John Valley/Fish River National Scenic Byway",
+      "label": "Aroostook County Tourism, Drive the St. John Valley/Fish River National Scenic Byway",
       "url": "https://www.visitaroostook.com/post/st-john-valley-fish-river-national-scenic-byway"
-    },
-    {
-      "label": "National Scenic Byway Foundation, St. John Valley Cultural/Fish River Byway (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20260715074502/https://nsbfoundation.com/nb/st-john-valley-cultural-fish-river-byway/"
     },
     {
       "label": "Wikipedia, Maine State Route 11",
@@ -58,25 +56,24 @@
     },
     {
       "label": "Wikipedia, Fish River (Maine)",
-      "url": "https://en.wikipedia.org/wiki/Fish_River_(Maine)"
+      "url": "https://en.wikipedia.org/wiki/Fish_River_%28Maine%29"
+    },
+    {
+      "label": "Wikipedia, Portage, Maine",
+      "url": "https://en.wikipedia.org/wiki/Portage%2C_Maine"
+    },
+    {
+      "label": "Wikipedia, Fort Kent (fort)",
+      "url": "https://en.wikipedia.org/wiki/Fort_Kent_%28fort%29"
     },
     {
       "label": "Wikipedia, Fish River chain of lakes",
       "url": "https://en.wikipedia.org/wiki/Fish_River_chain_of_lakes"
     },
     {
-      "label": "Wikipedia, Fort Kent, Maine",
-      "url": "https://en.wikipedia.org/wiki/Fort_Kent,_Maine"
-    },
-    {
-      "label": "Wikipedia, Eagle Lake, Maine",
-      "url": "https://en.wikipedia.org/wiki/Eagle_Lake,_Maine"
-    },
-    {
       "label": "Wikipedia, Portage Lake, Maine",
-      "url": "https://en.wikipedia.org/wiki/Portage_Lake,_Maine"
+      "url": "https://en.wikipedia.org/wiki/Portage_Lake%2C_Maine"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

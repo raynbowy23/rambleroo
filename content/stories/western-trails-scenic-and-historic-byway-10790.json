@@ -1,16 +1,18 @@
 {
   "id": "western-trails-scenic-and-historic-byway-10790",
-  "tagline": "Down the North Platte on the line of the Oregon Trail.",
+  "tagline": "North Platte highways connect emigrant landmarks, bluff gaps and wagon ruts",
   "intro": [
-    "From the Wyoming line, US 26 and NE 92 come down the North Platte valley on the line of the Oregon, California and Mormon trails. From Scottsbluff to Lewellen the two highways and the river braid together for 91 miles, crossing and recrossing, past Chimney Rock and through Bridgeport, Lisco and Oshkosh. Below Lewellen, US 26 crosses the North Platte again, goes through Ash Hollow and comes down past Lake McConaughy to Ogallala.",
-    "The highway used to keep north of the river there. When Kingsley Dam made the lake in the 1930s, the road was moved to its present line."
+    "Western Trails follows the North Platte valley between the Wyoming border and Ogallala, with rock formations and pine-shaded bluffs among the sights highlighted by Visit Nebraska. Nebraska DOT lists the scenic and historic byway as a 144-mile route along US 26 and Nebraska Highway 92. US 26 largely parallels the river; east of Lewellen it crosses the water and passes through Ash Hollow. The route’s highway character varies: US 26 becomes divided after Morrill, runs through northern Scottsbluff and returns to an undivided road at Minatare.",
+    "The modern highways parallel older journeys along the Oregon, California and Mormon trails. Highway 92 originally went through Mitchell Pass, then shifted to a more level route north of Scotts Bluff. US 26 also changed course: its original alignment east of Lewellen lay north of the North Platte. Lake McConaughy’s construction prompted the present alignment; the reservoir project was built between 1936 and 1941.",
+    "Traveling east from Wyoming, reach Morrill and Scottsbluff, with Mitchell Pass a separate excursion near Gering. Continue toward Chimney Rock and Bridgeport, then through Broadwater, Lisco and Oshkosh to Lewellen. From there, US 26 passes Ash Hollow and joins Highway 61 northwest of Ogallala before reaching the town and Interstate 80."
   ],
   "moments": [
     {
       "title": "Mitchell Pass",
       "kind": "separate excursion",
       "scene": "prairie",
-      "text": "Emigrants called the gap between the bluffs Devil's Gap for its howling winds, and after 1851 the wagons, the Pony Express and the first transcontinental telegraph all went through it.",
+      "text": "The gap between South Bluff and Scotts Bluff changed the emigrant route in 1851. Once a road had been built through it, travelers favored Mitchell Pass over Robidoux Pass because it shortened the journey and kept them closer to North Platte water. The road’s builders are unknown. The Mormon Trail remained north of the river rather than using this gap. Pony Express riders and the first transcontinental telegraph also passed through. Wagon ruts and historic markers can be seen here within Scotts Bluff National Monument. The name Mitchell Pass followed the establishment of nearby Fort Mitchell in 1864.",
+      "notice": "Wagon ruts mark Mitchell Pass within Scotts Bluff National Monument.",
       "at": [
         -103.71199167,
         41.82976944
@@ -20,7 +22,8 @@
       "title": "Chimney Rock",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "A landmark of all three trails, this spire of clay, volcanic ash and sandstone, has been worn shorter since the wagon days by erosion, lightning and, reportedly, cannon fire.",
+      "text": "Chimney Rock’s narrow pillar owes its survival to harder sandstone near the top, which protected it as the cliff line retreated south. The formation consists mainly of Brule clay layered with volcanic ash and Arikaree sandstone. In the mid-19th century, it served as a landmark on the Oregon, California and Mormon trails, whose routes passed north of the rock. It remains visible to travelers on US 26 and Highway 92. The site received National Historic Site designation in 1956. Nebraska later put the formation on its 2006 state quarter, alongside a covered wagon heading west.",
+      "notice": "The pillar remains visible from US 26 and Nebraska Highway 92.",
       "at": [
         -103.34833333,
         41.70361111
@@ -30,7 +33,8 @@
       "title": "Ash Hollow",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "At Windlass Hill the wagons came down off the high table lands at a 25-degree pitch for about 300 feet, and their ruts still mark the slope.",
+      "text": "Wagon ruts mark Windlass Hill, where the Oregon-California Trail descended from high tablelands into Ash Hollow and the North Platte valley. The descent ran for about 300 feet at a 25-degree angle. The name Windlass Hill came later; emigrants did not use it, and its origin is unknown. The state park also includes Ash Hollow Cave, 2.5 miles from the hill. A nearby spring supported repeated habitation, and archaeological work identifies more than 1,500 years of Indigenous occupation. The cave served as a base camp for hunting and gathering food, well before the emigrant wagons crossed the hill.",
+      "notice": "Wagon ruts remain visible on Windlass Hill.",
       "at": [
         -102.12,
         41.29805556
@@ -39,20 +43,24 @@
   ],
   "sources": [
     {
-      "label": "Nebraska Department of Transportation, Scenic Byways",
-      "url": "https://dot.nebraska.gov/travel/scenic-byways/"
-    },
-    {
-      "label": "Visit Nebraska, Western Trails Scenic & Historic Byway (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20250909032944/https://visitnebraska.com/western-trails-scenic-historic-byway"
-    },
-    {
       "label": "Wikipedia, U.S. Route 26 in Nebraska",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_26_in_Nebraska"
     },
     {
+      "label": "Visit Nebraska, Western Trails Scenic & Historic Byway (archived September 9, 2025)",
+      "url": "https://web.archive.org/web/20250909032944/https://visitnebraska.com/western-trails-scenic-historic-byway"
+    },
+    {
+      "label": "Nebraska Department of Transportation, Scenic Byways",
+      "url": "https://dot.nebraska.gov/travel/scenic-byways/"
+    },
+    {
       "label": "Wikipedia, Nebraska Highway 92",
       "url": "https://en.wikipedia.org/wiki/Nebraska_Highway_92"
+    },
+    {
+      "label": "Wikipedia, Lake McConaughy",
+      "url": "https://en.wikipedia.org/wiki/Lake_McConaughy"
     },
     {
       "label": "Wikipedia, Mitchell Pass",
@@ -65,12 +73,7 @@
     {
       "label": "Wikipedia, Ash Hollow State Historical Park",
       "url": "https://en.wikipedia.org/wiki/Ash_Hollow_State_Historical_Park"
-    },
-    {
-      "label": "Wikipedia, Lake McConaughy",
-      "url": "https://en.wikipedia.org/wiki/Lake_McConaughy"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -124,6 +124,10 @@
         45.0916
       ],
       [
+        -83.43613,
+        45.14915
+      ],
+      [
         -83.41916,
         45.16729
       ],
@@ -192,8 +196,8 @@
         45.5719
       ],
       [
-        -84.21691,
-        45.63377
+        -84.21589,
+        45.63331
       ],
       [
         -84.28123,
@@ -230,10 +234,6 @@
       [
         -84.73386,
         45.77681
-      ],
-      [
-        -84.72947,
-        45.77123
       ]
     ],
     "elevation": [
@@ -279,21 +279,21 @@
     {
       "name": "Tawas Point Light",
       "model": "lighthouse-on-rock",
-      "at": 0.19444868325709744,
+      "at": 0.19488508128309512,
       "offset": "roadside",
       "notes": "Story moment 1; short walk. Projected coordinate, kept in driving order."
     },
     {
       "name": "Alpena and Thunder Bay",
       "model": "town-blocks",
-      "at": 0.5138285595127935,
+      "at": 0.5149817366149296,
       "offset": "roadside",
       "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Old Presque Isle Light",
       "model": "lighthouse-on-rock",
-      "at": 0.6079969361555854,
+      "at": 0.6093614538180687,
       "offset": "roadside",
       "notes": "Story moment 3; separate excursion. Projected coordinate, kept in driving order."
     }
@@ -331,47 +331,47 @@
   "towns": [
     {
       "name": "Standish",
-      "at": 0.0003593429158111894,
+      "at": 0,
       "landmark": ""
     },
     {
       "name": "Au Gres",
-      "at": 0.07705338809034912,
+      "at": 0.07689140504374681,
       "landmark": ""
     },
     {
       "name": "Tawas City",
-      "at": 0.18136550308008215,
+      "at": 0.18147195059186838,
       "landmark": ""
     },
     {
       "name": "Oscoda",
-      "at": 0.26437371663244347,
+      "at": 0.2647452393206382,
       "landmark": ""
     },
     {
       "name": "Harrisville",
-      "at": 0.35123203285420945,
+      "at": 0.35177560473494596,
       "landmark": ""
     },
     {
       "name": "Alpena",
-      "at": 0.5139117043121151,
+      "at": 0.5149253731343284,
       "landmark": ""
     },
     {
       "name": "Rogers City",
-      "at": 0.7085215605749486,
+      "at": 0.710036026762738,
       "landmark": ""
     },
     {
       "name": "Cheboygan",
-      "at": 0.9165811088295688,
+      "at": 0.9186309830159547,
       "landmark": ""
     },
     {
       "name": "Mackinaw City",
-      "at": 0.9969199178644764,
+      "at": 1,
       "landmark": ""
     }
   ],

@@ -1,16 +1,17 @@
 {
   "id": "route-130-natural-bridge-to-elon-995123",
-  "tagline": "From a limestone arch down the James River gorge.",
+  "tagline": "Follow the James through the Blue Ridge, then cross toward Elon.",
   "intro": [
-    "Route 130 begins on US 11 at Natural Bridge, beside the Natural Bridge Hotel, and runs about six miles east to Glasgow, where the Maury meets the James. There it picks up US 501 and follows the rivers into the gorge the James has cut through the Blue Ridge.",
-    "Past the gorge, US 501 crosses the James into Bedford County and Route 130 goes on alone as Elon Road. It crosses the Pedlar River and slips through a gap in Tobacco Row Mountain to the hamlet of Elon."
+    "Route 130 begins as a two-lane road at Natural Bridge and joins US 501 for the James River gorge through the Blue Ridge. The highways follow the river and railway before climbing into a winding mountain crossing near the Rockbridge–Amherst county line. The route is a Virginia Byway west of US 29 Business near Madison Heights. At Glasgow, the highway crosses the Maury River before joining US 501 on the eastern bank, then follows the Maury south to its mouth at the James.",
+    "At Glasgow, the Maury River once connected with the James River and Kanawha Canal, carrying passengers, pig iron and agricultural goods toward Lexington. Locks and dams helped boats navigate the shallow, rocky river; the first canal boat reached Lexington in 1860. Railways later offered faster, easier transport along much of the Maury.",
+    "From US 11 at Natural Bridge, head east through Natural Bridge Station and Glasgow, then cross the Maury to join US 501. After the gorge, US 501 crosses the James; Route 130 continues as Elon Road, passing the Blue Ridge Parkway connection and crossing the Pedlar River. A gap in Tobacco Row Mountain leads to Elon, followed by the road southeast to US 29 Business on Madison Heights’ northern fringe."
   ],
   "moments": [
     {
       "title": "Natural Bridge",
-      "kind": "roadside",
+      "kind": "short walk",
       "scene": "forest",
-      "text": "A 215-foot limestone arch over Cedar Creek, the last of an old cave roof, with the initials G.W. cut 23 feet up that tour guides credit to a young George Washington.",
+      "text": "Cedar Creek passes beneath a limestone arch 215 feet high, with a span of 90 feet. Edgar W. Spencer’s explanation makes the bridge the surviving roof of an underground river tunnel that collapsed through weathering and erosion. US 11 runs across the top, where protective fences restrict the view beyond the roadway. The state park’s trail follows Cedar Creek under the bridge and includes Lace Falls, a 30-foot waterfall. The bridge and its surroundings have been managed as Natural Bridge State Park since 2016, bringing the arch into the state park system.",
       "at": [
         -79.54527778,
         37.6275
@@ -20,7 +21,7 @@
       "title": "Glasgow",
       "kind": "town",
       "scene": "river",
-      "text": "On July 15, 1954, Balcony Falls, by the meeting of the Maury and the James, recorded 110 degrees, the highest temperature ever measured in Virginia.",
+      "text": "Glasgow grew quickly at the meeting of the James and Maury rivers, then suffered an equally abrupt reversal. When the Rockbridge Company held its drawing of lots in March 1890, only two houses stood here and the population was twenty. By 1892, the town had paved roads, streetlamps, telephone service and a 200-room hotel. The panic of 1893 bankrupted the company. Most buildings in the historic district date from the 1890s, retaining evidence of that brief building surge. The abandoned Rockbridge Hotel was torn down around 1906, so that large hotel is no longer part of the streetscape.",
       "at": [
         -79.45166667,
         37.63305556
@@ -30,7 +31,7 @@
       "title": "James River gorge",
       "kind": "roadside",
       "scene": "river",
-      "text": "The road keeps to the level of the river beside the railroad through the gorge, then climbs away for a winding crossing of the mountain near the Amherst line."
+      "text": "The James cuts through the Blue Ridge here, with the James River Face Wilderness peaks to the south and Big Rocky Row and Little Rocky Row to the north. Route 130 and US 501 share the passage with the river and CSX’s James River Subdivision. Near the county line, the highways climb away from the water for their winding mountain crossing. After they descend, the railway crosses to the south bank; US 501 then crosses the James too, while Route 130 continues east as Elon Road. The gorge’s exposed rock is metamorphic, with its oldest outcrops dating to the Proterozoic Era."
     }
   ],
   "sources": [
@@ -39,18 +40,25 @@
       "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_130"
     },
     {
+      "label": "Wikipedia, Maury River",
+      "url": "https://en.wikipedia.org/wiki/Maury_River"
+    },
+    {
       "label": "Wikipedia, Natural Bridge (Virginia)",
-      "url": "https://en.wikipedia.org/wiki/Natural_Bridge_(Virginia)"
+      "url": "https://en.wikipedia.org/wiki/Natural_Bridge_%28Virginia%29"
     },
     {
       "label": "Wikipedia, Glasgow, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Glasgow,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Glasgow%2C_Virginia"
     },
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
+      "label": "Wikipedia, Glasgow Historic District",
+      "url": "https://en.wikipedia.org/wiki/Glasgow_Historic_District"
+    },
+    {
+      "label": "Wikipedia, James River Gorge",
+      "url": "https://en.wikipedia.org/wiki/James_River_Gorge"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

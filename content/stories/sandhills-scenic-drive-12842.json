@@ -1,59 +1,75 @@
 {
   "id": "sandhills-scenic-drive-12842",
-  "tagline": "West over the sand ridges to the Pee Dee.",
+  "tagline": "Across the Pee Dee to the timber country of Troy",
   "intro": [
-    "Out of Carthage, a courthouse town in country the Scots from the Cape Fear settled, NC 24/27 runs west over the Sandhills, low rolling hills named for their coarse sandy soil, through Biscoe and Troy to Albemarle. It is 46.2 miles, a little under an hour.",
-    "Longleaf pine once covered the Sandhills, until logging nearly finished it in 1895. Nearing the Pee Dee, Horse Trough and Shelter mountains of the Uwharrie range rise on either side of the road, isolated peaks that have outlasted the weather."
+    "NC 24/27 connects Albemarle, Troy, Biscoe and Carthage, crossing the Pee Dee River at Lake Tillery. Albemarle lies among rolling hills and deciduous forests; Troy stands at the eastern edge of the Uwharrie Mountains. NCDOT includes Sandhills Scenic Drive in its scenic-byways guide.",
+    "A concrete bridge replaced Swift’s Island Ferry in 1922. When Carolina Power & Light began its hydroelectric project in 1926, the planned lake would submerge that bridge. The company paid for a replacement, which opened in 1927.",
+    "Travel east from Albemarle across the river to Troy, where the business routes pass through the town center. Continue through Biscoe toward Carthage, where NC 24/27 follows McReynolds and Monroe streets through town."
   ],
   "moments": [
     {
-      "title": "Carthage",
-      "kind": "town",
-      "scene": "town",
-      "text": "The Tyson & Jones Buggy Company built carts and buggies here in the late 1800s, and a local story, repeated without evidence, has the owners turning away Henry Ford.",
-      "at": [
-        -79.41139,
-        35.32278
+      "title": "Lake Tillery crossing",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Two bridges carry NC 24/27/73 across the Pee Dee River and Lake Tillery under the James B. Garrison name. The older of these opened in 1927, replacing a 1922 bridge threatened by the new reservoir. Before the water rose, the Army tried to destroy the original with weight, aerial bombs and artillery. Explosives at its base finally brought it down. The lake submerged its remains in 1928; the surviving 1927 bridge gained a parallel crossing in 1979. The first bridge had three concrete arches; its replacement used four, each spanning 210 feet.",
+      "motifs": [
+        "lake-wide"
       ]
     },
     {
       "title": "Troy",
       "kind": "town",
       "scene": "forest",
-      "text": "The Montgomery County seat sits on a hilltop at the eastern edge of the Uwharrie Mountains, a town that got its start cutting longleaf pine for lumber and turpentine.",
+      "text": "Longleaf pine forests supplied much of Troy’s early economy, with trees harvested for lumber and turpentine. The Asheboro and Aberdeen Railroad and nearby gold mining accelerated growth in the late nineteenth century. Textile mills and lumber mills contributed heavily to the economy in the twentieth century. The county courthouse dates from 1921: a three-story tan-brick building with a columned portico and a clock in its triangular pediment. The town occupies a hilltop, with drainage running toward the Little River. NC 24/27 passes south of town, while its business routes enter the center.",
       "at": [
         -79.89639,
         35.36056
       ]
     },
     {
-      "title": "Lake Tillery crossing",
-      "kind": "roadside",
-      "scene": "river",
-      "text": "The road crosses the Pee Dee on the James B. Garrison Bridge, and the older bridge the lake was to drown in the 1920s took Army bombs, cannon fire and a ton of TNT.",
-      "motifs": [
-        "lake-wide"
+      "title": "Carthage",
+      "kind": "town",
+      "scene": "town",
+      "text": "The Tyson & Jones Buggy Company manufactured carts and buggies here in the late nineteenth century. The former plant burned a few years after it closed. The town’s spring Buggy Festival displays old Tyson buggies alongside tractors, hot rods and local pottery crafts. It takes place in the square by the Old Court House. The Moore County Courthouse was built in 1922–1923, with limestone facing and arched windows at its base. Above those windows, pilasters divide the upper floors and Ionic half-columns mark a recessed central section of the courthouse.",
+      "at": [
+        -79.41139,
+        35.32278
       ]
     }
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Sandhills Scenic Drive",
+      "label": "Wikipedia, James B. Garrison Bridge",
+      "url": "https://en.wikipedia.org/wiki/James_B._Garrison_Bridge"
+    },
+    {
+      "label": "Wikipedia, Troy, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Troy%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Biscoe, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Biscoe%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Albemarle, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Albemarle%2C_North_Carolina"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, Fifth Edition",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=146"
     },
     {
       "label": "Wikipedia, Carthage, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Carthage,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Carthage%2C_North_Carolina"
     },
     {
-      "label": "Wikipedia, Troy, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Troy,_North_Carolina"
+      "label": "Wikipedia, Montgomery County Courthouse (North Carolina)",
+      "url": "https://en.wikipedia.org/wiki/Montgomery_County_Courthouse_%28North_Carolina%29"
     },
     {
-      "label": "Wikipedia, Lake Tillery",
-      "url": "https://en.wikipedia.org/wiki/Lake_Tillery"
+      "label": "Wikipedia, Moore County Courthouse",
+      "url": "https://en.wikipedia.org/wiki/Moore_County_Courthouse"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

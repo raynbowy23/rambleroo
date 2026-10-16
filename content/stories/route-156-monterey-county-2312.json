@@ -1,26 +1,38 @@
 {
   "id": "route-156-monterey-county-2312",
-  "tagline": "From the artichoke town to Prunedale, whose plums died young.",
+  "tagline": "Artichokes and a failed plum orchard frame a highway link.",
   "intro": [
-    "East of Castroville, Highway 156 comes down from freeway to a two-lane road for the four miles to US 101 at Prunedale. It is a heavily traveled stretch, part of the quickest way between the Bay Area and the Monterey Peninsula.",
-    "This was slough country once, crisscrossed by swamps. In the 1840s a mapmaker crossing near here wrote of a patch of turf where the ground trembled under the horses' feet. Castroville, at the west end, calls itself the Artichoke Center of the World and holds a festival to prove it."
+    "Route 156 links Castroville with Prunedale, narrowing from freeway to two lanes between the towns. It carries heavy truck traffic as part of the connection between the Monterey Peninsula and the rest of California. Castroville developed in a landscape crossed by sloughs and swamps. Tembladero Slough forms the community’s southwest edge, while much of Prunedale’s land is oak reserve protecting California’s native trees. Caltrans designates the stretch from one mile east of Castroville to US 101 a scenic highway, recognizing a memorable landscape without visual intrusions.",
+    "The Castroville–US 101 section joined the state route in 1933, extending a road whose original 1909 segment ran from US 101 to Hollister. By 1963 it carried Route 156 signs. Prunedale had already gained a major highway connection when US 101 was rerouted through the community in 1931–32. US 101 had previously connected Salinas directly with San Juan Bautista along the alignment now called San Juan Grade Road.",
+    "Begin at Castroville, known for its artichoke crop, and travel east toward Prunedale. Oak Hills lies along Route 156 between the two towns. At Prunedale, Route 156 joins US 101. The numbered highway continues beyond this scenic segment, sharing eight miles with US 101 before turning toward San Juan Bautista."
   ],
   "moments": [
     {
       "title": "Castroville",
       "kind": "town",
       "scene": "town",
-      "text": "Juan Bautista Castro founded the town in 1863 on his family's rancho. To fill it, 100 lots were given away by lottery to anyone who would clear the land and build a house.",
+      "text": "Juan Bautista Castro founded Castroville in 1863. A lottery offered 100 town lots to people who would clear the land and build homes. Castroville’s artichoke identity took root in 1922, when Andrew Molera planted the town’s first shoots. There were nine growers in 1923; within four years, more than 50 growers cultivated 12,000 acres in Castroville and the Monterey Bay area. The crop now appears in the town’s name sign. A replacement installed in July 2025 substitutes an artichoke for the O in Castroville. The previous sign had been in place since the 1930s.",
+      "notice": "An artichoke replaces the O in Castroville’s town sign.",
       "at": [
         -121.75806,
         36.76583
       ]
     },
     {
+      "title": "Castroville Japanese Language School",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "The Castroville Japanese Language School served more than one purpose: it was a school, Buddhist temple and meeting hall for Japanese-American sharecropping families. Built in 1936, it closed in 1942 when the area’s Japanese Americans were incarcerated for the duration of World War II. Kunio A. Sumida, who nominated the building for the National Register, identified it as a symbol of the denial of constitutional rights. The historic building is at 11199 Geil Street. By its 1995 National Register nomination, the building was weathered but otherwise unchanged from its condition when the school closed in 1942.",
+      "at": [
+        -121.7513,
+        36.7651
+      ]
+    },
+    {
       "title": "Prunedale",
       "kind": "town",
       "scene": "prairie",
-      "text": "Named for a plum orchard that died early for want of irrigation and fertilizer. The name was kept.",
+      "text": "Prunedale kept its name after the plum orchard failed. The trees died early in the community’s history for lack of irrigation and fertilizer. A different change proved lasting: in 1931–32, US 101 was rerouted through Prunedale. Previously, the highway ran directly from Salinas to San Juan Bautista on what is now San Juan Grade Road. US 101 widened to four lanes in 1946. Langley Creek flows beside it through Prunedale, with views of the creek at Tustin Road. The community also preserves an earlier name in Langley Canyon Road, named for the family of Charles Langley, an early settler and postmaster.",
       "at": [
         -121.66972,
         36.77583
@@ -32,18 +44,25 @@
   ],
   "sources": [
     {
+      "label": "Wikipedia, Castroville, California",
+      "url": "https://en.wikipedia.org/wiki/Castroville%2C_California"
+    },
+    {
+      "label": "Wikipedia, Prunedale, California",
+      "url": "https://en.wikipedia.org/wiki/Prunedale%2C_California"
+    },
+    {
       "label": "Wikipedia, California State Route 156",
       "url": "https://en.wikipedia.org/wiki/California_State_Route_156"
     },
     {
-      "label": "Wikipedia, Castroville, California",
-      "url": "https://en.wikipedia.org/wiki/Castroville,_California"
+      "label": "Wikipedia, Oak Hills, Monterey County, California",
+      "url": "https://en.wikipedia.org/wiki/Oak_Hills%2C_Monterey_County%2C_California"
     },
     {
-      "label": "Wikipedia, Prunedale, California",
-      "url": "https://en.wikipedia.org/wiki/Prunedale,_California"
+      "label": "Wikipedia, Castroville Japanese Language School",
+      "url": "https://en.wikipedia.org/wiki/Castroville_Japanese_Language_School"
     }
   ],
-  "draft": true,
   "reviewed": false
 }
