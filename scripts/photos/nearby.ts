@@ -110,11 +110,17 @@ for (const b of roads) {
     for (const g of d.query?.geosearch ?? []) if (!NOT_A_VIEW.test(g.title)) titles.set(g.title, [g.lon, g.lat])
   }
   const found: Found[] = []
-  const all = [...titles.keys()]
-  for (let i = 0; i < all.length; i += 50) {
+  // Up to 50 titles a request, fewer when they are long: Commons refuses a URL past about 8 KB (414).
+  const batches: string[][] = []
+  for (const t of titles.keys()) {
+    const last = batches.at(-1)
+    if (last && last.length < 50 && encodeURIComponent([...last, t].join('|')).length < 6000) last.push(t)
+    else batches.push([t])
+  }
+  for (const batch of batches) {
     const d = await api({
       action: 'query',
-      titles: all.slice(i, i + 50).join('|'),
+      titles: batch.join('|'),
       prop: 'imageinfo',
       iiprop: 'url|size|mime|extmetadata',
       iiurlwidth: '480',

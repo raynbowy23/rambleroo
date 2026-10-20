@@ -12,7 +12,7 @@ import { CardFront, useCardAssets } from './CardFront'
 import { PostcardStudio } from './PostcardStudio'
 import { useGarage } from '../../lib/garage'
 import { cardKey, creditedPhoto, postcardDefaults, usePostcards } from '../../lib/postcards'
-import { PhotoCredit } from '../photos/Photos'
+import { leadPhoto, PhotoCredit } from '../photos/Photos'
 import { milestoneMessage, type Milestone } from './cardData'
 
 export function PostcardArt({
@@ -35,7 +35,7 @@ export function PostcardArt({
   milestone?: Milestone
 }) {
   const photos = usePhotos(byway.id)
-  const selectedPhoto = milestone ? milestone.photo : (photo ?? photos[0])
+  const selectedPhoto = milestone ? milestone.photo : (photo ?? leadPhoto(photos))
   const key = cardKey(byway.id, milestone?.id)
   const saved = usePostcards((state) => state.cards[key])
   const choices = saved ?? { ...postcardDefaults(selectedPhoto, milestone ? 'greetings' : byway.look.lettering), note }

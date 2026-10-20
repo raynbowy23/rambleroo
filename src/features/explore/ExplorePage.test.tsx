@@ -63,7 +63,11 @@ beforeAll(() => {
   vi.stubGlobal('matchMedia', () => ({ matches: false, addEventListener: vi.fn(), removeEventListener: vi.fn() }))
   vi.stubGlobal(
     'fetch',
-    vi.fn().mockResolvedValue({ ok: true, json: async () => ({ byways: roads, meta: { bywayCount: 2, storyCount: 0 } }) }),
+    vi.fn(async (url: string) => ({
+      ok: true,
+      // A road's photo file is a list; everything else here is the catalog.
+      json: async () => (String(url).startsWith('/data/photos/') ? [] : { byways: roads, meta: { bywayCount: 2, storyCount: 0 } }),
+    })),
   )
 })
 beforeEach(() => {
