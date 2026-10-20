@@ -149,14 +149,21 @@ for (const f of (await readdir(new URL('content/stories/', ROOT))).sort()) {
 }
 console.log(`${todo.length} story moments without a photo`)
 
-/** Image facts for up to 50 Commons files, keeping free JPEGs at least 800 px wide that are not maps, signs or the like. */
+/** Image facts for Commons files, keeping free JPEGs at least 800 px wide that are not maps, signs or the like. */
 async function commonsInfo(files: string[]) {
   const out = new Map<string, Candidate & { at?: number[]; text: string }>()
-  const wanted = [...new Set(files)].filter((f) => !NOT_A_VIEW.test(f))
-  for (let i = 0; i < wanted.length; i += 50) {
+  const wanted = [...new Set(files)].filter((f) => /\.jpe?g$/i.test(f) && !NOT_A_VIEW.test(f))
+  // Up to 50 titles a request, fewer when they are long: Commons refuses a URL past about 8 KB (414).
+  const batches: string[][] = []
+  for (const t of wanted) {
+    const last = batches.at(-1)
+    if (last && last.length < 50 && encodeURIComponent([...last, t].join('|')).length < 6000) last.push(t)
+    else batches.push([t])
+  }
+  for (const batch of batches) {
     const d = await api('commons.wikimedia.org', {
       action: 'query',
-      titles: wanted.slice(i, i + 50).join('|'),
+      titles: batch.join('|'),
       prop: 'imageinfo|coordinates',
       iiprop: 'url|size|mime|extmetadata',
       iiurlwidth: '480',
