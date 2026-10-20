@@ -22,6 +22,7 @@ data/strips/*.out
 scripts/strips/.queue.sh
 data/photos/town-candidates.json
 data/photos/moment-candidates.json
+data/photos/landmarks/
 
 # The photo library is served from the rambleroo-library R2 bucket (infra/README.md); photo scripts download here before upload.
 public/photos/
