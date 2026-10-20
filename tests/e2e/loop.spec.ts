@@ -18,7 +18,8 @@ test('explore → postcard → story → save → visit → passport stamp', asy
   await expect(postcard).toBeVisible()
   await postcard.getByRole('link', { name: /View story/ }).click()
   await expect(page.getByRole('heading', { level: 1, name: 'Door County Coastal Byway' })).toBeVisible()
-  await expect(page.getByText(/Draft story/).first()).toBeVisible()
+  // Every story is written now, so the page labels it a story rather than a draft.
+  await expect(page.getByText('Story', { exact: true }).first()).toBeVisible()
 
   await page
     .getByRole('button', { name: /^Save$/ })
