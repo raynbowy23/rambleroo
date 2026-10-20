@@ -1,58 +1,71 @@
 {
   "id": "plantersville-scenic-byway-994503",
-  "tagline": "A twelve-mile loop through the old Pee Dee rice country.",
+  "tagline": "A designated loop through rice country, with a chapel reduced to ruins",
   "intro": [
-    "Choppee Road leaves US 701 and runs southeast a little over two miles to Plantersville Road, which turns northeast and carries on about ten miles back to 701. The loop keeps near the Great Pee Dee River, among the plantations and rice fields of a culture that flourished here from about 1750 to about 1910.",
-    "Plantersville itself is a community on 701, six miles north of Georgetown. Samworth Plantation, now a state Department of Natural Resources property, is kept for watching wildlife and learning about its habitat."
+    "Plantersville Scenic Byway connects two points on US 701 by way of Choppee and Plantersville roads. The designated route takes in approximately 2.2 miles of Choppee Road and approximately ten miles of Plantersville Road. This is plantation and rice-field country: the Pee Dee River Rice Planters Historic District includes buildings, ricefields, canals and dikes associated with the region’s rice economy. Chicora Wood is among the district’s surviving plantation houses, with a rice mill and chimney that record the infrastructure of rice production.",
+    "South Carolina designated the byway in 2012 and directed the Department of Transportation to install markers or signs. The landscape’s rice economy dates much further back, spanning about 1750 to about 1910. At Chicora Wood, enslaved people worked the plantation under Robert Francis Withers Allston’s ownership. As rice planting declined, Prince Frederick’s Chapel deteriorated until it was deemed unsafe and largely demolished.",
+    "Starting at Plantersville on US 701, follow Plantersville Road southwest past the Summer Chapel, Chicora Wood and Prince Frederick’s Chapel Ruins. The Summer Chapel was moved to Plantersville in 1877; the ruins farther along belong to a different church completed in 1876. Choppee Road then leads northwest to US 701, completing the drive between the highway junctions."
   ],
+  "notice": "At Prince Frederick’s Chapel Ruins, the front wall and tower remain.",
   "moments": [
     {
-      "title": "Prince Frederick's Chapel Ruins",
+      "title": "Summer Chapel, Prince Frederick's Episcopal Church",
       "kind": "roadside",
-      "scene": "forest",
-      "text": "Only the front wall and tower remain of a Gothic Revival church begun for the rice planters in 1859, finished in 1876 and pulled down as unsafe in 1966.",
+      "scene": "town",
+      "text": "This frame chapel reached Plantersville by being moved. Finished by 1836, it was relocated in 1877 to replace the community’s summer chapel, traveling with the associated rectory. The one-story building has clapboard walls and a metal gable roof, with a hipped-roof porch sheltering the entrance. Its National Register listing came in 1988.",
+      "notice": "The clapboard chapel has a hipped-roof entrance porch beneath its metal gable roof.",
       "at": [
-        -79.18028,
-        33.50556
+        -79.21166667,
+        33.55472222
       ]
     },
     {
       "title": "Chicora Wood Plantation",
       "kind": "roadside",
       "scene": "river",
-      "text": "An 1819 house and rice mill on the north side of the road, where 630 enslaved people worked by 1860 and Elizabeth Allston Pringle later ran the place and wrote A Woman Rice Planter.",
+      "text": "Chicora Wood’s 1819 house survives with outbuildings that include a rice mill complex. Robert Francis Withers Allston inherited the plantation from his father and left his state surveying post in 1827 to manage it full time. It became the home base for his network of rice plantations, worked by enslaved people. His daughter Elizabeth Allston Pringle gained ownership in 1896 and managed Chicora Wood until her death in 1921. She described plantation life in A Woman Rice Planter and Chronicles of Chicora Wood. The house is Greek Revival in style, raised above a basement; the surviving mill complex belongs to the same historic property.",
       "at": [
         -79.17556,
         33.5175
+      ]
+    },
+    {
+      "title": "Prince Frederick's Chapel Ruins",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "The front wall and tower are what remain of the second church built on this site. The first was built in 1848 for a congregation made up largely of Pee Dee rice planters. Work on its successor began in 1859, but the Civil War interrupted construction. Louis J. Barbot’s Gothic Revival design was completed in 1876 with a gift from John Earle Allston. As rice planting declined, the church fell into disrepair; it was deemed unsafe and demolished in 1966, leaving the surviving fragments. The ruins entered the National Register in 1974, eight years after that demolition.",
+      "notice": "The front wall and tower remain from the church demolished in 1966.",
+      "at": [
+        -79.18028,
+        33.50556
       ]
     }
   ],
   "sources": [
     {
-      "label": "SCDOT, National and State Scenic Byways story map",
-      "url": "https://scdot.maps.arcgis.com/apps/MapSeries/index.html?appid=0a5192983b2845c2b20fbc5d7a0372f9"
-    },
-    {
-      "label": "South Carolina Code of Laws, Title 57 Chapter 23",
+      "label": "South Carolina Legislature, Code of Laws, Title 57, Chapter 23",
       "url": "https://www.scstatehouse.gov/code/t57c023.php"
     },
     {
       "label": "Wikipedia, Plantersville, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Plantersville,_South_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Plantersville%2C_South_Carolina"
+    },
+    {
+      "label": "Wikipedia, Prince Frederick’s Chapel Ruins",
+      "url": "https://en.wikipedia.org/wiki/Prince_Frederick%27s_Chapel_Ruins"
     },
     {
       "label": "Wikipedia, Pee Dee River Rice Planters Historic District",
       "url": "https://en.wikipedia.org/wiki/Pee_Dee_River_Rice_Planters_Historic_District"
     },
     {
-      "label": "Wikipedia, Prince Frederick's Chapel Ruins",
-      "url": "https://en.wikipedia.org/wiki/Prince_Frederick%27s_Chapel_Ruins"
-    },
-    {
       "label": "Wikipedia, Chicora Wood Plantation",
       "url": "https://en.wikipedia.org/wiki/Chicora_Wood_Plantation"
+    },
+    {
+      "label": "Wikipedia, Summer Chapel, Prince Frederick’s Episcopal Church",
+      "url": "https://en.wikipedia.org/wiki/Summer_Chapel%2C_Prince_Frederick%27s_Episcopal_Church"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

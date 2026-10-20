@@ -1,22 +1,24 @@
 {
   "id": "white-pole-road-scenic-byway-991904",
-  "tagline": "Seven hundred white poles, and an outlaw at either end.",
+  "tagline": "White-painted poles lead through five towns along an earlier automobile route",
   "intro": [
-    "Out of Adair the old road runs east beside Interstate 80, 26 miles through Casey, Menlo and Stuart to Dexter, past some 700 telephone poles painted white. It began as a dirt road in the early 1900s and became Iowa's first certified route under the State Highway Commission.",
-    "Auto tourists of the day called it the Great White Way. In good weather you can leave the pavement for remnant stretches of the 1913 route, where the old railroad tracks ran alongside before the automobile got Iowa out of the mud."
+    "White Pole Road runs for 26 paved miles beside I-80, linking Adair and Dexter along old U.S. 6. Seven hundred white-painted telephone poles line the route. Iowa includes it among its state byways; Travel Iowa emphasizes the transportation history that shaped the five towns along the drive.",
+    "The White Pole Auto Club created the Great White Way in 1910, following the Rock Island railroad between Council Bluffs and Des Moines. Members painted poles white to mark the route. The Great White Way Association paid five dollars to register its named trail with the Iowa State Highway Commission in 1914, becoming the first official registered route. The later numbered highway changed again in 1980, when U.S. 6 traffic between Adair and Dexter moved onto I-80. In 2002, residents of the five towns organized to draw visitors back onto the historic road.",
+    "Driving east, begin at Adair, where a steam-engine wheel marks the Jesse James gang’s train-robbery site. The road continues through Casey and Menlo to Stuart and ends at Dexter. Stuart’s Saints Center occupies a restored church, while Dexter’s landmarks include the site of the 1948 National Plowing Matches. In each town, White Pole Road signs give a short history of the community and its founders."
   ],
+  "notice": "Look for the white-painted telephone poles that line the old highway.",
   "moments": [
     {
       "title": "Adair",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "A steam engine wheel marks where the Jesse James gang derailed the Rock Island Express in July 1873 and left with $3,000, the first successful train robbery in the American West."
+      "text": "A steam-engine wheel marks the train-robbery site at the byway’s western gateway. On July 21, 1873, the James-Younger Gang derailed the Rock Island Express southwest of Adair and took $3,000. The derailment killed the engineer. Nearby, the Adair Viaduct tells a later transportation story. Increasing traffic required replacement of a 1908 bridge; the new three-span arch bridge opened in June 1924. Its 80-foot main span crosses a deep cut, with shorter, 56-foot approach spans on either side. The Iowa State Highway Commission designed it, and the Federal Bridge Company of Des Moines received the construction contract."
     },
     {
       "title": "Stuart",
       "kind": "town",
       "scene": "town",
-      "text": "In Stuart the Saints Center for Culture and the Arts rose from an arson's ashes and now houses the Learning Museum of Religious Tolerance.",
+      "text": "The Saints Center occupies a church rebuilt after an arson attack. Completed in 1910, All Saints combined Byzantine Revival and Romanesque Revival design in blue Bedford limestone. The 1995 fire left its exterior walls standing but much of the building in ruins. The parish built a new church elsewhere, and Project Restore Foundation acquired the damaged historic building in 1997. Its replacement dome was lifted into place in 2008; interior work finished in 2010. The cultural center now houses the Learning Museum of Religious Tolerance. The original dome’s copper melted in the fire and was replaced with new sheeting.",
       "at": [
         -94.31972,
         41.49806
@@ -26,7 +28,7 @@
       "title": "Dexter",
       "kind": "town",
       "scene": "town",
-      "text": "The Barrow gang shot it out here with police from as far away as Des Moines in July 1933, and in 1948 President Truman spoke at the national plowing match.",
+      "text": "President Harry Truman brought his 1948 campaign to a national plowing match in Dexter. He spoke on September 18, attacking the 80th Congress over its treatment of American farmers. The match site is among the byway’s historic landmarks. In town, the 1917 Community House continues to host community functions. Known as the Roundhouse, it is elliptical, with hollow-block exterior walls supporting a dome roof. Inside, a large stage faces the main entrance. The town also marks a grimmer event: a July 23, 1933, shootout between the Barrow gang and police.",
       "at": [
         -94.2275,
         41.51528
@@ -35,34 +37,41 @@
   ],
   "sources": [
     {
+      "label": "Iowa Department of Transportation, Scenic Byway feature service",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
       "label": "Travel Iowa, White Pole Road",
       "url": "https://www.traveliowa.com/trails/white-pole-road/18/"
     },
     {
-      "label": "Iowa DOT, Iowa Byways guide",
+      "label": "Iowa Department of Transportation, The Official Travel Guide to Iowa’s Byways",
       "url": "https://iowadot.gov/media/916/download?inline"
-    },
-    {
-      "label": "Iowa DOT, Scenic Byway feature service",
-      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
       "label": "Wikipedia, U.S. Route 6 in Iowa",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_6_in_Iowa"
     },
     {
-      "label": "Wikipedia, Adair, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Adair,_Iowa"
+      "label": "Wikipedia, All Saints Catholic Church (Stuart, Iowa)",
+      "url": "https://en.wikipedia.org/wiki/All_Saints_Catholic_Church_%28Stuart%2C_Iowa%29"
     },
     {
-      "label": "Wikipedia, Stuart, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Stuart,_Iowa"
+      "label": "Wikipedia, Adair, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Adair%2C_Iowa"
+    },
+    {
+      "label": "Wikipedia, Adair Viaduct",
+      "url": "https://en.wikipedia.org/wiki/Adair_Viaduct"
     },
     {
       "label": "Wikipedia, Dexter, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Dexter,_Iowa"
+      "url": "https://en.wikipedia.org/wiki/Dexter%2C_Iowa"
+    },
+    {
+      "label": "Wikipedia, Dexter Community House",
+      "url": "https://en.wikipedia.org/wiki/Dexter_Community_House"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

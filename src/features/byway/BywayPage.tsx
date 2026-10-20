@@ -6,7 +6,7 @@ import { LoadingRoad, NotFound } from '../../components/ui/RoadStatus'
 import roadStyle from './Byway.module.css'
 import { StripLink } from '../strip/StripLink'
 import { requireNetwork } from '../../lib/network'
-import { PhotoGallery, MomentPhoto, PhotoCredit } from '../photos/Photos'
+import { PhotoGallery, MomentPhoto, PhotoCredit, leadPhoto } from '../photos/Photos'
 import { StreetGallery, MomentFrame, useMomentViews } from '../photos/StreetViews'
 import { ShareControl } from '../share/ShareControl'
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
@@ -45,7 +45,7 @@ export default function BywayPage() {
   const strip = useStrip(id ?? '')
   const photos = usePhotos(id)
   const momentViews = useMomentViews(id)
-  const photo = photos[0]
+  const photo = leadPhoto(photos)
   const { byway: b, status, byways, meta } = useByway(id)
   const chapters = useChapters(b?.states ?? [])
   const { story, status: storyStatus } = useStory(id)

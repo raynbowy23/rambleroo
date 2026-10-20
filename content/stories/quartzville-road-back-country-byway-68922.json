@@ -1,16 +1,28 @@
 {
   "id": "quartzville-road-back-country-byway-68922",
-  "tagline": "Up Quartzville Creek, where a gold pan still counts as gear.",
+  "tagline": "A creek named for a former town parallels the byway.",
   "intro": [
-    "Five miles east of Sweet Home, Quartzville Road turns off US 20, and before long it has Quartzville Creek alongside, keeping to the creek's right bank on the way up toward the Cascades. Twelve miles of the creek below the national forest line are a designated Wild and Scenic river.",
-    "The creek takes its name from Quartzville, a former townsite up a side gulch. The gold has not quite been given up on. Recreational mining is allowed along the BLM stretch, and people still come to pan the creek."
+    "Quartzville Road leaves US 20 five miles east of Sweet Home and follows the creek corridor toward Oregon’s Cascades. Along the creek below Canal Creek, the road keeps to the right bank. The Bureau of Land Management promotes its Back Country Byway for hiking, fishing, swimming and gold panning. Quartzville Creek enters a northern arm of Green Peter Reservoir, where it meets the Middle Santiam River.",
+    "The creek takes its name from the former Quartzville townsite, in the drainage of Dry Gulch, a tributary of Canal Creek. In 1988, the lower 12 miles of Quartzville Creek, between the national forest boundary and Green Peter Reservoir, received Wild and Scenic designation. Recreational mining remains allowed along the BLM portion of the byway. The Wild and Scenic reach ends at the reservoir, rather than extending over the creek’s full 28-mile length.",
+    "From the US 20 approach, head upstream toward Dogwood Picnic Area and Cascade Falls, then Yellowbottom, where a tributary joins Quartzville Creek. Yellowbottom’s swimming area remains available, although camping there is closed. Farther upstream, Canal Creek leads into the drainage of the old townsite; Quartzville Creek continues into Willamette National Forest."
   ],
   "moments": [
+    {
+      "title": "Foster Reservoir",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Foster Reservoir stores water for winter and spring flood control and serves recreation in summer. The lake formed behind Foster Dam on the South Santiam River. Designed by the Corps of Engineers, the rock-fill dam entered service on August 22, 1968. It also regulates water arriving from Green Peter Dam upstream. The reservoir’s north shore includes Lewis Creek Park, with a swim beach, paved trails and shoreline fishing access. Two generators in the powerhouse provide a combined 20 megawatts of capacity, adding electricity production to the dam’s principal task of flood control.",
+      "at": [
+        -122.66806,
+        44.41667
+      ]
+    },
     {
       "title": "Cascade Falls",
       "kind": "roadside",
       "scene": "forest",
-      "text": "At the Dogwood Recreation Site a waterfall comes down a small side stream into Quartzville Creek, and it is known as a point for rafting the corridor.",
+      "text": "Cascade Falls lies on a small tributary of Quartzville Creek opposite Dogwood Picnic Area. The waterfall is a landmark for rafting through the Quartzville corridor and the central attraction of Dogwood Recreation Site.",
+      "notice": "The falls occupy a small tributary opposite Dogwood Picnic Area.",
       "at": [
         -122.42864,
         44.54571
@@ -20,23 +32,33 @@
       "title": "Yellowbottom",
       "kind": "roadside",
       "scene": "river",
-      "text": "Where Yellowbottom Creek comes in, the campground is closed to camping now, but the swimming area on the creek is still open."
+      "text": "Yellowbottom Creek joins Quartzville Creek at the campground that shares its name. The site’s uses have changed: camping is closed, while its swimming area remains available. Old Miner’s Meadow provides a separate group campground within the byway corridor. Recreational mining is allowed on the BLM portion of the route, where gold panning is among the activities promoted by the agency."
     }
   ],
+  "practical": [
+    "Yellowbottom: Yellowbottom Recreation Site is closed to camping; the swimming area remains available. (checked 2026-10-11)"
+  ],
   "sources": [
-    {
-      "label": "BLM, Quartzville Back Country Byway",
-      "url": "https://www.blm.gov/visit/quartzville-back-country-byway"
-    },
     {
       "label": "Wikipedia, Quartzville Creek",
       "url": "https://en.wikipedia.org/wiki/Quartzville_Creek"
     },
     {
+      "label": "Bureau of Land Management, Quartzville Back Country Byway",
+      "url": "https://www.blm.gov/visit/quartzville-back-country-byway"
+    },
+    {
+      "label": "Wikipedia, Foster Reservoir",
+      "url": "https://en.wikipedia.org/wiki/Foster_Reservoir"
+    },
+    {
+      "label": "Wikipedia, Foster Dam",
+      "url": "https://en.wikipedia.org/wiki/Foster_Dam"
+    },
+    {
       "label": "Wikipedia, Cascade Falls (Linn County, Oregon)",
-      "url": "https://en.wikipedia.org/wiki/Cascade_Falls_(Linn_County,_Oregon)"
+      "url": "https://en.wikipedia.org/wiki/Cascade_Falls_%28Linn_County%2C_Oregon%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

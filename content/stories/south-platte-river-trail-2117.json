@@ -1,26 +1,38 @@
 {
   "id": "south-platte-river-trail-2117",
-  "tagline": "Nineteen miles of the old road west, and four Julesburgs.",
+  "tagline": "Four Julesburg townsites trace changing routes along the South Platte",
   "intro": [
-    "The loop starts at the Colorado Welcome Center in Julesburg, on the north side of the South Platte a little short of the Nebraska line, and is done in 19 miles. It is the shortest byway in the state.",
-    "The valley was the main road west. Here the Overland stage line left the Oregon-California trail, and the Pony Express kept its only Colorado home station. In January 1865 a thousand Cheyenne, Arapaho and Lakota warriors attacked Julesburg in revenge for Sand Creek, and in February they came back and burned it. There have been four Julesburgs in all, and markers stand at each townsite."
+    "The South Platte River Trail circles the river between Julesburg and Ovid on a 19-mile loop that includes US 138 and County Road 28. Colorado DOT gives a driving time of 30 minutes and identifies this as the shortest of the state’s 26 byways. Designated a Colorado Scenic and Historic Byway in 1991, it interprets the valley’s westward travel routes through signs at townsites, a Pony Express station site and Fort Sedgwick.",
+    "Julesburg served the Pony Express in 1860–1861; Fort Sedgwick followed in 1864 to guard the trail and telegraph. After the U.S. Army’s Sand Creek Massacre of Cheyenne and Arapaho people, Cheyenne, Arapaho and Lakota warriors attacked Julesburg in January 1865 and returned to burn the settlement in February. In 1867, Julesburg became a Union Pacific construction town, housing workers as the railroad advanced west. The modern byway also marks the Lincoln Highway, carrying the corridor’s transportation story into the automobile era.",
+    "Begin at the Colorado Welcome Center and travel through Julesburg, then west toward Ovid on the river’s northern side. At Ovid’s eastern edge, a monument commemorates Fort Sedgwick; the fort site lies south of the river. The loop returns along County Road 28, where another historical marker records the fort."
   ],
+  "notice": "Interpretive signs mark Julesburg townsites, the Pony Express home station site and Fort Sedgwick.",
   "moments": [
     {
       "title": "Julesburg",
       "kind": "town",
       "scene": "prairie",
-      "text": "In 1867 the Union Pacific made it an end-of-track town of some 4,000 workers, and an Army colonel found that only six of its 127 graves held natural deaths.",
+      "text": "Julesburg became a temporary home for Union Pacific railroad workers in 1867, an end-of-track town that grew as construction pushed west. About 4,000 workers lived there, with saloons and gambling tents serving them. As the tracks advanced into Wyoming, towns such as Cheyenne took on that role. The byway’s markers commemorate four different Julesburg townsites, as well as the railroad and the Lincoln Highway. The original townsite also marks Colorado’s only Pony Express home station, part of the route Julesburg served in 1860–1861. The present town stands north of the South Platte, along US 138 and US 385 near the Nebraska boundary.",
       "at": [
         -102.25694444,
         40.97722222
       ]
     },
     {
+      "title": "Julesburg Depot",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "The brick depot at Julesburg combined passengers, freight and express shipments under one roof. Union Pacific built this single-story station in 1930 to a standard combination-depot design. A tornado badly damaged it in June 1947, but the building was repaired. In 1974 it moved a short distance and became a museum. Its National Register recognition in 2004 acknowledged both its transportation role and the design, materials and workmanship preserved through that move. The preserved station is also known as the Depot Museum and is located at 210 West First Street in Julesburg.",
+      "at": [
+        -102.26333333,
+        40.98555556
+      ]
+    },
+    {
       "title": "Fort Sedgwick",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "Begun in 1864 as a couple of sod huts, the post paid as much as $100 a cord for firewood, there being not a tree for 50 miles.",
+      "text": "Fort Sedgwick has markers in place of buildings. The military post operated from 1864 to 1871; after its abandonment, the buildings were dismantled. It began as Camp Rankin with a couple of sod huts, then grew to include company quarters, stables and a corral. Troops guarded the stage route, stations and telegraph line. The Julesburg Historical Society placed a monument on Ovid’s eastern edge in 1940, north of the actual fort site. Another historical marker stands along County Road 28. The former post lies south of the South Platte River.",
       "at": [
         -102.37833333,
         40.93888889
@@ -29,22 +41,29 @@
   ],
   "sources": [
     {
-      "label": "CDOT, South Platte River Trail",
+      "label": "Colorado Department of Transportation, South Platte River Trail",
       "url": "https://www.codot.gov/travel/coloradobyways/northeast/so-platte-trail"
     },
     {
+      "label": "Wikipedia, South Platte River Trail Scenic and Historic Byway",
+      "url": "https://en.wikipedia.org/wiki/South_Platte_River_Trail_Scenic_and_Historic_Byway"
+    },
+    {
       "label": "Wikipedia, Julesburg, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Julesburg,_Colorado"
+      "url": "https://en.wikipedia.org/wiki/Julesburg%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Battle of Julesburg",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Julesburg"
     },
     {
       "label": "Wikipedia, Fort Sedgwick",
       "url": "https://en.wikipedia.org/wiki/Fort_Sedgwick"
     },
     {
-      "label": "Wikipedia, Overland Trail",
-      "url": "https://en.wikipedia.org/wiki/Overland_Trail"
+      "label": "Wikipedia, Julesburg station",
+      "url": "https://en.wikipedia.org/wiki/Julesburg_station"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

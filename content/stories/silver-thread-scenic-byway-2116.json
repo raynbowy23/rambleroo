@@ -1,30 +1,32 @@
 {
   "id": "silver-thread-scenic-byway-2116",
-  "tagline": "Up the Rio Grande to Creede, then over the Divide.",
+  "tagline": "Two high passes and a moving mountainside between former mining camps.",
   "motifs": [
     "mining-town",
     "snow-peaks"
   ],
   "intro": [
-    "Out of South Fork, CO 149 follows the upper Rio Grande through the Rio Grande National Forest and comes in 21 miles to Creede. Past town it leaves the river, crosses the Continental Divide at Spring Creek Pass, 10,901 feet, and climbs again to Slumgullion Pass at 11,361 before it drops to Lake City and follows the Lake Fork down toward Blue Mesa Reservoir and US 50.",
-    "Both towns were silver camps. Creede went from 600 people to more than 10,000 in two years and kept its mines working until 1985. Lake City is where Alfred Packer was tried for murder and cannibalism, and the county museum there keeps buttons from the clothes of the men he ate."
+    "The Silver Thread follows Colorado 149 through the San Juan Mountains, crossing the Continental Divide at Spring Creek Pass and climbing higher at Slumgullion Pass. Colorado DOT gives this 117-mile drive three hours and highlights the old mining camps, North Clear Creek Falls and the Slumgullion earth slide. The U.S. Secretary of Transportation designated it a National Scenic Byway in 2021.",
+    "Highway 149 was established in the 1920s and was not completely paved until 1977. Automobile visitors began arriving in Lake City around 1920, and their numbers grew as western Colorado highways developed and Hinsdale County roads improved. The scenic byway later extended north from Lake City to Blue Mesa Reservoir at the junction of US 50 and CO 149. The shift in travel had older roots: Lake City first served as a supply center for miners, while tourism became a viable industry there by the 1930s.",
+    "Starting at US 50, drive south past the edge of Curecanti National Recreation Area and the turn near Powderhorn, then follow the Lake Fork upstream to Lake City. Climb across the Slumgullion Earthflow to Slumgullion Pass, then cross Spring Creek Pass toward the upper Rio Grande. Continue through Creede and Wagon Wheel Gap to South Fork, where the highway meets US 160."
   ],
   "moments": [
     {
-      "title": "Wagon Wheel Gap",
+      "title": "Slumgullion Earthflow",
       "kind": "roadside",
-      "scene": "river",
-      "text": "In 1860 a miner in a hurry to get away from the Ute Colorow lost a wagon wheel in the Rio Grande here, and the wheel stayed in the mud.",
+      "scene": "mountain",
+      "text": "Slumgullion is a landslide in two stages: an older mass and a second flow moving over it. About 700 years ago, the first earthflow descended the valley and blocked the Lake Fork of the Gunnison River, creating Lake San Cristobal. The second flow has moved continuously for about 300 years, advancing about 23 feet a year over older, stable material. Highway 149 crosses the earthflow area southeast of Lake City. The U.S. Geological Survey investigated the natural dam and concluded that it is stable, citing its non-porous composition and a spillway partly cut into bedrock.",
       "at": [
-        -106.8312,
-        37.7736
+        -107.25704,
+        37.991665
       ]
     },
     {
       "title": "North Clear Creek Falls",
       "kind": "short walk",
       "scene": "mountain",
-      "text": "Half a mile off the highway on a paved county road, the creek pours over a deck of volcanic ash that hardened to rock some 27 million years ago.",
+      "text": "North Clear Creek spills over Nelson Mountain tuff, rock formed from volcanic ash. The ash came from an eruption in the San Juan volcanic field about 27 million years ago. The creek is a tributary of the Rio Grande, and the falls lie within the Rio Grande National Forest. An overlook with a parking area and short trail sits about half a mile from Highway 149 on a paved county road. The overlook provides a view of the waterfall, and another trail leads to the top of a nearby bluff.",
+      "notice": "The waterfall drops over a deck of hardened volcanic ash.",
       "at": [
         -107.15032778,
         37.84916667
@@ -34,50 +36,45 @@
       ]
     },
     {
-      "title": "Slumgullion Earthflow",
+      "title": "Wagon Wheel Gap",
       "kind": "roadside",
-      "scene": "mountain",
-      "text": "The highway crosses a landslide that crawled down the valley about 700 years ago and dammed Lake San Cristobal, and a second flow still creeps over it about 23 feet a year.",
+      "scene": "river",
+      "text": "Wagon Wheel Gap was the first tollgate on the journey between South Fork and Lake City. In the 1870s it served as both stage stop and supply town, beside the Rio Grande. Railroad magnate William Jackson Palmer began bringing visitors to the hot springs and providing lodging in 1883. He built a bath house at the turn of the century. The gap lies on Highway 149 at 8,468 feet, southeast of Creede. Nearby fluorspar mines operated from 1911 to 1950, adding mineral extraction to the history of a place used for travel and bathing.",
       "at": [
-        -107.25704,
-        37.991665
+        -106.8312,
+        37.7736
       ]
     }
   ],
   "sources": [
     {
-      "label": "CDOT, Silver Thread",
-      "url": "https://www.codot.gov/travel/coloradobyways/south-central/silver-thread"
-    },
-    {
       "label": "Wikipedia, Colorado State Highway 149",
       "url": "https://en.wikipedia.org/wiki/Colorado_State_Highway_149"
-    },
-    {
-      "label": "Wikipedia, Creede, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Creede,_Colorado"
-    },
-    {
-      "label": "Wikipedia, Lake City, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Lake_City,_Colorado"
-    },
-    {
-      "label": "Wikipedia, Wagon Wheel Gap, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Wagon_Wheel_Gap,_Colorado"
-    },
-    {
-      "label": "Wikipedia, North Clear Creek Falls",
-      "url": "https://en.wikipedia.org/wiki/North_Clear_Creek_Falls"
     },
     {
       "label": "Wikipedia, Slumgullion Earthflow",
       "url": "https://en.wikipedia.org/wiki/Slumgullion_Earthflow"
     },
     {
+      "label": "Colorado Department of Transportation, Silver Thread",
+      "url": "https://www.codot.gov/travel/coloradobyways/south-central/silver-thread"
+    },
+    {
+      "label": "Wikipedia, Lake City, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Lake_City%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Wagon Wheel Gap, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Wagon_Wheel_Gap%2C_Colorado"
+    },
+    {
       "label": "Wikipedia, Lake San Cristobal",
       "url": "https://en.wikipedia.org/wiki/Lake_San_Cristobal"
+    },
+    {
+      "label": "Wikipedia, North Clear Creek Falls",
+      "url": "https://en.wikipedia.org/wiki/North_Clear_Creek_Falls"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

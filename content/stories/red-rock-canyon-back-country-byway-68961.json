@@ -1,26 +1,33 @@
 {
   "id": "red-rock-canyon-back-country-byway-68961",
-  "tagline": "Thirteen one-way miles under cliffs where old rock rides on young.",
+  "tagline": "Thirteen paved miles beneath cliffs where older rock lies over younger rock",
   "motifs": [
     "slickrock-ridge"
   ],
   "intro": [
-    "The loop leaves the visitor center going one way only, a moderate climb at first and then mostly downhill or flat for 13 miles. Side roads and pullouts reach the trailheads below walls of red and cream sandstone as much as 3,000 feet high.",
-    "The mix of colors is the work of the Keystone Thrust, which pushed older gray rock over the younger red, and the seam shows along the escarpment for 13 miles. Near the north end of the loop the Excelsior Company once quarried the sandstone, found it did not pay, and left some of the huge blocks behind."
+    "Red Rock Canyon Back Country Byway makes a 13-mile paved loop through red- and cream-colored sandstone country west of Las Vegas. The one-way road starts with a moderate climb, then runs mostly downhill or flat, with side roads and parking areas serving trails. BLM lists it as a Type I Back Country Byway, highlights the colors of its rock formations and suggests allowing an hour. Sandstone walls rise as much as 3,000 feet.",
+    "Near the loop's northern section, the Excelsior Company quarried sandstone in the early 20th century. The business proved uneconomical and closed, leaving huge sandstone blocks behind. Protection followed: BLM designated 10,000 acres as Red Rock Recreation Lands in 1967, and legislation changed their status to a National Conservation Area in 1990. The new conservation status also provides funds to maintain and protect the area that the scenic loop travels through.",
+    "Begin at the visitor center, which stands at the start of the loop. The northern quarry preserves evidence of stonecutting; Willow Springs provides an approach on foot to Bridge Mountain, a separate mountain excursion. Along the escarpment, the Keystone Thrust exposes older gray rock pushed over younger red rock. Its exposed seam extends for 13 miles along the cliffs."
   ],
-  "season": "BLM suggests the warmer months, for better views and more daylight on the drive.",
   "moments": [
     {
       "title": "Red Rock Canyon Visitor Center",
       "kind": "roadside",
       "scene": "desert",
-      "text": "The loop starts here, beside a habitat for the desert tortoise that houses eight females and two males."
+      "text": "The visitor center marks the start of the one-way scenic loop. A desert tortoise habitat here connects the road's starting point with one of the conservation area's protected animals. The surrounding vegetation changes with elevation: Joshua trees, Mojave yucca and blackbrush grow on the valley floor, while Utah juniper and scrub oak dominate higher ground. The conservation area spans two elevation zones, with the Upper Sonoran Zone beginning at 4,500 feet and extending into higher country. From the center, the loop climbs moderately before continuing through its mostly downhill or level sections."
+    },
+    {
+      "title": "Sandstone Quarry",
+      "kind": "roadside",
+      "scene": "desert",
+      "text": "Huge sandstone blocks remain where the Excelsior Company operated a small quarry near the northern part of the loop. The company worked here in the early 20th century, then closed the quarry when it proved uneconomical. The stone has a much longer history: immense dunes became cemented into the colorful Aztec Sandstone. Sandstone Quarry is also a rock-climbing area.",
+      "notice": "Look for the huge sandstone blocks left by the abandoned quarry."
     },
     {
       "title": "Bridge Mountain",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "From Willow Springs hikers walk 5 miles to the summit, by way of a sandstone arch, the leftover side of an eroded rock water tank. Ponderosa pines hide in a cleft at the top.",
+      "text": "Bridge Mountain takes its name from a sandstone arch near the summit. The arch is the remaining side of an eroded tinaja, a natural water tank. Reaching this terrain involves steep climbing down a chimney, an ascent over slickrock and a difficult ridge near the top. From north Willow Springs, the approach to the summit is five miles. The route crosses a narrow rock neck between the Pine Creek drainage to the south and Icebox Canyon to the north. The mountain belongs to the Spring Mountain range and lies within the Rainbow Mountain Wilderness. Ponderosa pines grow in a cleft in the summit sandstone.",
       "at": [
         -115.4905643,
         36.1355235
@@ -31,15 +38,11 @@
     }
   ],
   "practical": [
-    "From October 1 to May 31, entry between 8 am and 5 pm requires a timed entry reservation for each day."
+    "Red Rock Canyon Visitor Center: Timed-entry reservations are required for each day of scenic-drive entry from October 1 through May 31, 8 a.m. to 5 p.m. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "BLM, Red Rock Canyon National Conservation Area",
-      "url": "https://www.blm.gov/visit/red-rock-canyon-national-conservation-area"
-    },
-    {
-      "label": "BLM, Nevada Back Country Byways",
+      "label": "Bureau of Land Management, Nevada Byways",
       "url": "https://www.blm.gov/programs/recreation/recreation-programs/byways/nevada"
     },
     {
@@ -47,10 +50,13 @@
       "url": "https://en.wikipedia.org/wiki/Red_Rock_Canyon_National_Conservation_Area"
     },
     {
+      "label": "Bureau of Land Management, Red Rock Canyon National Conservation Area",
+      "url": "https://www.blm.gov/visit/red-rock-canyon-national-conservation-area"
+    },
+    {
       "label": "Wikipedia, Bridge Mountain (Nevada)",
-      "url": "https://en.wikipedia.org/wiki/Bridge_Mountain_(Nevada)"
+      "url": "https://en.wikipedia.org/wiki/Bridge_Mountain_%28Nevada%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

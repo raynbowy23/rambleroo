@@ -1,22 +1,24 @@
 {
   "id": "rim-of-the-world-scenic-byway-2595",
-  "tagline": "Along the mountain rim, above the old lumber roads.",
+  "tagline": "Mountain roads connect forest communities, a reservoir and old hauling routes",
   "intro": [
-    "From Cajon Pass, the byway follows the rim of the San Bernardino Mountains toward San Gorgonio Pass, using Highways 138, 18 and 38. Near Crestline, Lake Gregory occupies the old Houston Flat; farther along, Running Springs stands above six thousand feet.",
-    "In the years around 1900 a logging railroad near Running Springs worked the high country with no link to the lines below, so its Shay locomotives were taken apart and hauled up the mountain by wagon. The locomotives made the climb as freight."
+    "Rim of the World follows the San Bernardino Mountains from Cajon Pass to San Gorgonio Pass, using portions of California highways 138, 18 and 38. It is a National Forest Scenic Byway through the San Bernardino National Forest. The Forest Service describes a 110-mile drive with panoramas along the route and views of Sand to Snow National Monument between Mill Creek and Onyx Summit.",
+    "Earlier mountain roads carried timber: Mormon volunteers supplied most of the labor for the Mormon Lumber Road, built up Waterman Canyon in 1852. Six sawmills followed at its upper end in 1854, and timber went downhill to help build San Bernardino and other Southern California settlements. Later, Running Springs developed after state highway improvements in the 1920s.",
+    "From Cajon Pass, Highway 138 leads toward Crestline, where Lake Gregory lies in the center of town. Highway 18 continues toward Big Bear Dam, passing Running Springs at its junction with Highway 330. Along the way, Running Springs stands at 6,080 feet, while Fawnskin occupies the northwest side of Big Bear Valley. Highway 38 carries the journey onward toward Mill Creek Canyon, with Angelus Oaks on this part of the drive. The byway remains open year-round, with snow in winter."
   ],
+  "notice": "Between Mill Creek and Onyx Summit, look for views of Sand to Snow National Monument.",
   "moments": [
     {
       "title": "Lake Gregory",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "At Crestline, a reservoir expected to take three years to fill did the job in three days during the rains of 1938."
+      "text": "Lake Gregory filled much faster than its builders expected: three days instead of the estimated three years. Work to dam the forks of Houston Creek began in 1937 with a Works Progress Administration grant. Federal money ran out before completion, and citrus grower Arthur Gregory lent the district money to finish. Heavy rain in March 1938 supplied the water. Gregory had also built a sawmill to produce wood for crates for his citrus fruit. The final part of the project was a road over the dam, completed in January 1939: present-day Lake Drive."
     },
     {
       "title": "Running Springs",
       "kind": "town",
       "scene": "mountain",
-      "text": "From the old Fredalba mill near Running Springs, most of the lumber went down the steep grades by wagon to a Highland factory making citrus crates.",
+      "text": "The locomotives reached the mountains by wagon. Brookings Lumber & Box Company operated between Fredalba and Hunsaker Flats, now Running Springs, from 1899 to 1912. The railroad had carried logs to Fredalba for milling. Its logging railroad had no connection to the lowland railways, so the Shay engines were dismantled for the trip uphill. About 60 percent of the finished lumber went down steep grades by wagon to Highland’s Molino box factory, which made citrus packing crates. In 1912, the company dismantled the Fredalba mill and moved much of its machinery to Oregon.",
       "at": [
         -117.10833333,
         34.20777778
@@ -26,7 +28,8 @@
       "title": "Angelus Oaks",
       "kind": "town",
       "scene": "mountain",
-      "text": "The lodge at Angelus Oaks began as a stagecoach stop where horses were changed and passengers were served sandwiches.",
+      "text": "A small road in front of Angelus Oaks Lodge follows the original wagon road. Stagecoaches carried passengers and mail from Redlands through Camp Angelus, as the community was then called, toward Seven Oaks and Big Bear. The lodge began as a place to change horses at the top of the climb and serve sandwiches to passengers. The community’s present name came in the 1970s, when the postal service combined the Camp Angelus and Seven Oaks post offices. The wagon road continues from the lodge’s front to the present chain-up turnout, at Middle Control Road.",
+      "notice": "The small road along the lodge’s front follows the original wagon road.",
       "at": [
         -116.9825,
         34.14583333
@@ -34,7 +37,7 @@
     }
   ],
   "practical": [
-    "The byway is open year-round, but winter snow can require tire chains."
+    "Angelus Oaks: The byway is open year-round, but winter snow can make chains necessary. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -42,18 +45,33 @@
       "url": "https://www.fs.usda.gov/r05/sanbernardino/recreation/rim-world-scenic-byway"
     },
     {
-      "label": "Wikipedia, Lake Gregory (California)",
-      "url": "https://en.wikipedia.org/wiki/Lake_Gregory_%28California%29"
+      "label": "Wikipedia, Mormon Lumber Road",
+      "url": "https://en.wikipedia.org/wiki/Mormon_Lumber_Road"
+    },
+    {
+      "label": "Wikipedia, Crestline, California",
+      "url": "https://en.wikipedia.org/wiki/Crestline%2C_California"
+    },
+    {
+      "label": "Wikipedia, Rim of the World Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/Rim_of_the_World_Scenic_Byway"
     },
     {
       "label": "Wikipedia, Running Springs, California",
       "url": "https://en.wikipedia.org/wiki/Running_Springs%2C_California"
     },
     {
+      "label": "Wikipedia, Fawnskin, California",
+      "url": "https://en.wikipedia.org/wiki/Fawnskin%2C_California"
+    },
+    {
       "label": "Wikipedia, Angelus Oaks, California",
       "url": "https://en.wikipedia.org/wiki/Angelus_Oaks%2C_California"
+    },
+    {
+      "label": "Wikipedia, Lake Gregory (California)",
+      "url": "https://en.wikipedia.org/wiki/Lake_Gregory_%28California%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

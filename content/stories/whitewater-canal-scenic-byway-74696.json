@@ -1,19 +1,20 @@
 {
   "id": "whitewater-canal-scenic-byway-74696",
-  "tagline": "Down the Whitewater valley beside a canal that fell too fast.",
+  "tagline": "A canal’s steep descent left locks, an aqueduct and water-powered milling",
   "motifs": [
     "gristmill"
   ],
   "intro": [
-    "The byway starts at Hagerstown, the canal's northern end, and follows the Whitewater River down its valley through Cambridge City, Connersville, Laurel, Metamora and Brookville toward Lawrenceburg on the Ohio. It keeps to the line of a canal that dropped 491 feet in 76 miles, 6.4 feet to the mile, nearly four times the grade of the Erie.",
-    "It took 56 locks and seven dams to manage that, and the steepness was trouble whenever heavy rains came. Indiana went bankrupt in 1839 and the work stopped until 1842, and in November 1847 a flood washed out long stretches, a few months after the last of the canal reached Hagerstown."
+    "Flat agricultural land surrounds Hagerstown, the northern end of the old Whitewater Canal. Farther south, the journey reaches Metamora in the Whitewater River valley and Brookville at the meeting of the river’s two forks. At Metamora, canal water powers a restored grain mill and crosses Duck Creek on a wooden aqueduct.",
+    "Before the canal, farmers hauled goods and livestock toward Cincinnati on rutted roads that could become impassable. Over its 76 miles, the canal descended 491 feet, requiring 56 locks and seven dams to manage the steep grade. Indiana began canal construction in 1836, but its finances failed and work stopped in 1839. Work resumed in 1842; the Hagerstown Canal Company completed the northern link in 1847. That November, floods washed out sections of the canal, and the Harrison-to-Lawrenceburg stretch was never rebuilt.",
+    "Travel south from Hagerstown through Cambridge City and Connersville, then Laurel and Metamora. Continue through Brookville toward New Trenton, where U.S. 52 follows the valley downstream toward Harrison. Lawrenceburg on the Ohio River was the canal’s southern end."
   ],
   "moments": [
     {
       "title": "Cambridge City",
       "kind": "town",
       "scene": "town",
-      "text": "The canal reached this National Road town in 1846, and the town still keeps Canal Days on the second weekend of every September.",
+      "text": "The National Road and Whitewater Canal both helped define Cambridge City. The town grew when the canal reached it in 1846, and Canal Days commemorates that connection. Its historic district includes Greek Revival, Italianate and Federal architecture across the business district and surrounding residential streets. One home took on a different working life: the Overbeck family bought the Lackey-Overbeck House in 1882, and four daughters later converted it into a pottery studio. Margaret, Hannah, Elizabeth and Mary Frances made pottery whose colors and glazes became widely recognized. Their work is held in museum collections across the country.",
       "at": [
         -85.17028,
         39.8125
@@ -23,7 +24,7 @@
       "title": "Laurel",
       "kind": "town",
       "scene": "town",
-      "text": "James Conwell of Maryland platted the town in 1836 and nearly named it New Baltimore. Canal boats were arriving by 1843.",
+      "text": "The diversion dam near Laurel supplies the restored canal at Metamora and its mill. Rebuilt in the 1940s, it continues a use of canal water that outlasted the transport business. Canal boats had reached Laurel by 1843. The town itself was platted in 1836 by James Conwell, a Maryland native who first considered calling it New Baltimore. He chose Laurel after Laurel, Maryland, instead. The canal’s route required an aqueduct here to cross the Whitewater River. That crossing formed part of a canal whose steep descent required 56 locks and seven dams along its full route.",
       "at": [
         -85.18778,
         39.50028
@@ -33,7 +34,8 @@
       "title": "Metamora",
       "kind": "town",
       "scene": "river",
-      "text": "Canal water still turns the restored grain mill here and crosses Duck Creek on a wooden aqueduct, a reconstruction of the one built in 1846.",
+      "text": "At Duck Creek, canal water passes over another stream in an oak trough. The covered wooden aqueduct resembles a bridge, but its load is the canal itself. An 1846 replacement followed the loss of the original aqueduct in a flood. Work in 1946–1949 gave it its present appearance, and the trough was replaced again in 2005. The restored grain mill uses canal water too. Metamora’s canal once powered mills processing cotton, grinding flour and making paper, as well as carrying boats. Valves and a spillway at the aqueduct’s western end regulate the canal’s water level.",
+      "notice": "The aqueduct’s covered wooden structure carries canal water over Duck Creek.",
       "at": [
         -85.12889,
         39.44583
@@ -50,25 +52,40 @@
     },
     {
       "label": "Wikipedia, Hagerstown, Indiana",
-      "url": "https://en.wikipedia.org/wiki/Hagerstown,_Indiana"
-    },
-    {
-      "label": "Wikipedia, Cambridge City, Indiana",
-      "url": "https://en.wikipedia.org/wiki/Cambridge_City,_Indiana"
-    },
-    {
-      "label": "Wikipedia, Laurel, Indiana",
-      "url": "https://en.wikipedia.org/wiki/Laurel,_Indiana"
+      "url": "https://en.wikipedia.org/wiki/Hagerstown%2C_Indiana"
     },
     {
       "label": "Wikipedia, Metamora, Indiana",
-      "url": "https://en.wikipedia.org/wiki/Metamora,_Indiana"
+      "url": "https://en.wikipedia.org/wiki/Metamora%2C_Indiana"
     },
     {
       "label": "Wikipedia, Brookville, Indiana",
-      "url": "https://en.wikipedia.org/wiki/Brookville,_Indiana"
+      "url": "https://en.wikipedia.org/wiki/Brookville%2C_Indiana"
+    },
+    {
+      "label": "Wikipedia, Duck Creek Aqueduct",
+      "url": "https://en.wikipedia.org/wiki/Duck_Creek_Aqueduct"
+    },
+    {
+      "label": "Wikipedia, New Trenton, Indiana",
+      "url": "https://en.wikipedia.org/wiki/New_Trenton%2C_Indiana"
+    },
+    {
+      "label": "Wikipedia, Cambridge City, Indiana",
+      "url": "https://en.wikipedia.org/wiki/Cambridge_City%2C_Indiana"
+    },
+    {
+      "label": "Wikipedia, Cambridge City Historic District",
+      "url": "https://en.wikipedia.org/wiki/Cambridge_City_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Lackey-Overbeck House",
+      "url": "https://en.wikipedia.org/wiki/Lackey-Overbeck_House"
+    },
+    {
+      "label": "Wikipedia, Laurel, Indiana",
+      "url": "https://en.wikipedia.org/wiki/Laurel%2C_Indiana"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

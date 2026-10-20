@@ -1,16 +1,17 @@
 {
   "id": "the-college-town-ride-993709",
-  "tagline": "Here the college came first and the town followed.",
+  "tagline": "A college campus and a town shaped by learning and cotton",
   "intro": [
-    "The ride starts at the county line on Davidson's Main Street, part of the old trade route between Charlotte and Statesville, runs south past the college, then turns out Concord Road into the Piedmont and ends at Fisher Farm Park. It is 5.5 miles.",
-    "Presbyterian farmers founded the college in 1837 and the town grew up around it, answering to the name Davidson College until 1891. Beyond the last houses come farmhouses, barns and pasture, and on weekends the bicycles. The state guidebook, citing local bike shops, put it at 60 to 300 riders a weekend."
+    "Davidson's Main Street is NC 115, with Davidson College at the heart of town. The town lies in North Carolina's Piedmont, north of Charlotte, and the college campus has tree cover and classically inspired architecture. The College Town Ride appears among the Piedmont routes in the NCDOT scenic-byways guide.",
+    "The college preceded the surrounding community and influenced its commerce and buildings. Rail service brought another role: Davidson became a shipping point for cotton and a service center for farmers. In 1891, the town shortened its name from Davidson College to Davidson.",
+    "On Main Street, the college and downtown face one another. The historic district includes both the campus and the business district, with Helper Hotel among its contributing buildings."
   ],
   "moments": [
     {
       "title": "Davidson College",
       "kind": "roadside",
       "scene": "town",
-      "text": "An arboretum begun in 1869 covers the whole campus, and Oak and Elm Rows, built as dormitories, later sheltered Confederate soldiers on their way home.",
+      "text": "Davidson’s campus trees belong to a project with several beginnings. In 1855, women in the college community proposed changes to the landscape; students organized tree plantings in 1861. Eight years later, the faculty recommended a campus planting scheme representing the forests of the state and, if possible, the botany of the region. National arboretum designation came in 1986, after decades of planting both exotic species and plants native to the North Carolina Piedmont. Students and staff continue to label and care for the trees, making the planted campus an ongoing educational project.",
       "at": [
         -80.8453,
         35.49999
@@ -20,33 +21,41 @@
       "title": "Helper Hotel",
       "kind": "roadside",
       "scene": "town",
-      "text": "Across Main Street from the campus, a building of 1848 that opened as a store and soon went over to putting up college visitors."
+      "text": "Helper Hotel dates to 1848 and is one of the notable buildings in Davidson’s national historic district. The district joins the college campus, central business district and surrounding residential neighborhoods in one designation, added to the National Register in 2009."
     },
     {
-      "title": "Concord Road marker",
-      "kind": "roadside",
+      "title": "Philanthropic Hall",
+      "kind": "short walk",
       "scene": "town",
-      "text": "A campus marker remembers physics professor Henry Louis Smith and his X-ray work with his students in 1896, among the first in America."
+      "text": "Four massive columns mark the front of Philanthropic Hall, a brick building made in the form of a Greek Revival temple. The columns are stuccoed brick, supporting a pedimented portico. A literary and debating society, the Philanthropic Society, built the hall on the Davidson College campus. It faces Eumenean Hall across the original quadrangle. Its use changed to offices in 1956, and it entered the National Register in 1972. The brickwork is laid in Flemish bond. The two-story hall is three bays wide and three bays deep, with Doric columns at the front.",
+      "notice": "Four stuccoed brick columns support Philanthropic Hall’s pedimented front portico.",
+      "at": [
+        -80.84638889,
+        35.49916667
+      ]
     }
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, The College Town Ride",
+      "label": "Wikipedia, Davidson, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Davidson%2C_North_Carolina"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=120"
     },
     {
-      "label": "Wikipedia, Davidson, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Davidson,_North_Carolina"
+      "label": "Wikipedia, Davidson Historic District",
+      "url": "https://en.wikipedia.org/wiki/Davidson_Historic_District"
     },
     {
-      "label": "Wikipedia, Davidson College",
-      "url": "https://en.wikipedia.org/wiki/Davidson_College"
+      "label": "Wikipedia, Davidson College Arboretum",
+      "url": "https://en.wikipedia.org/wiki/Davidson_College_Arboretum"
     },
     {
-      "label": "Wikipedia, Henry Louis Smith",
-      "url": "https://en.wikipedia.org/wiki/Henry_Louis_Smith"
+      "label": "Wikipedia, Philanthropic Hall, Davidson College",
+      "url": "https://en.wikipedia.org/wiki/Philanthropic_Hall%2C_Davidson_College"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

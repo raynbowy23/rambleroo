@@ -1,67 +1,84 @@
 {
   "id": "snake-river-canyon-scenic-byway-2337",
-  "tagline": "Chicken Dinner Road and the orchards above the Snake.",
+  "tagline": "Ferries and a fur-trading post shaped journeys beside the Snake River.",
   "motifs": [
     "orchard"
   ],
   "intro": [
-    "From Walters Ferry on Idaho 45 the byway turns off onto back roads, Map Rock Road and Chicken Dinner Road among them, and wanders north some fifty miles through farm country above the Snake River canyon to the bridge at Nyssa, Oregon.",
-    "Volcanoes laid this ground down millions of years ago, and about 15,000 years ago the Bonneville Flood, one of the largest in geologic history, ran through the whole valley. The pioneers found it sagebrush and made it into farms."
+    "The Snake River places Homedale on the boundary between Owyhee and Canyon counties. Sunnyslope is a center of the Snake River Valley wine region, with State Highway 55 passing through the community.",
+    "River crossings once connected mines with rail transport. In 1884, J. C. Bernard began a ferry and opened a road between Silver City and Caldwell’s Oregon Short Line railhead. Stagecoach and freight traffic used the road and ferry; a bridge at Walter’s Ferry in 1920 ended Bernard’s period of success.",
+    "Parma has a reconstructed Fort Boise, while Homedale’s own ferry history began in 1898. At Claytonia, a former railway gravel pit became a pond and fish habitat. Farther south, State Highway 45 reaches the riverside community of Walters Ferry near the highway’s southern end."
   ],
-  "season": "Visit Idaho calls it a drive for any time of year, with the orchards best seen in spring or in fall just before harvest.",
   "moments": [
     {
-      "title": "Sunnyslope Wine Trail",
-      "kind": "roadside",
-      "scene": "prairie",
-      "text": "Along these back roads the byway runs among the orchards and the vineyards of the Sunnyslope Wine Trail, in the state's wine-growing country.",
-      "motifs": [
-        "orchard"
+      "title": "Parma",
+      "kind": "town",
+      "scene": "river",
+      "text": "Parma’s Fort Boise is a reconstruction; the old trading-post site lies within the Fort Boise Wildlife Management Area. Thomas McKay built Fort Boise in 1834 with Hudson’s Bay Company backing to challenge the American Fort Hall farther east. The company took full control in 1836. Francois Payette built a second Fort Boise near the Boise–Snake confluence in 1838, with a pole stockade later covered and replaced by sun-dried adobe. A different Fort Boise, established as a military post in 1863, stood fifty miles east, at the place that became the city of Boise.",
+      "at": [
+        -116.94278,
+        43.78639
       ]
     },
     {
       "title": "Homedale",
       "kind": "town",
       "scene": "town",
-      "text": "Homedale drew its name out of a hat at a community picnic, and the Austrians lured here in 1914 with promises of good farmland still have an Austrian Town.",
+      "text": "Jacob Mussell’s ferry made Homedale easier to reach across the Snake River in 1898. By 1914, the settlement had a railroad, schoolhouse, mayor and council, six years before it became an official city. The railroad connection made Homedale a terminus of an Oregon Short Line branch. Austrians arriving in 1914 had been promised good farmland but found undeveloped land they still had to purchase. An Austrian Town remains in Homedale. The town’s name came from a community picnic, where the choice was made by drawing names out of a hat.",
       "at": [
         -116.93694,
         43.62167
       ]
     },
     {
-      "title": "Parma",
-      "kind": "town",
+      "title": "Sunnyslope Wine Trail",
+      "kind": "roadside",
+      "scene": "prairie",
+      "text": "Sunnyslope is a center of the Snake River Valley American Viticultural Area, with 14 area wineries making up the Sunnyslope Wine Trail. State Highway 55 runs through the community.",
+      "motifs": [
+        "orchard"
+      ]
+    },
+    {
+      "title": "Map Rock",
+      "kind": "separate excursion",
       "scene": "river",
-      "text": "Near Parma the Hudson's Bay Company built Fort Boise in 1834 by the mouth of the Boise River to rival Fort Hall, and kept it until 1854.",
+      "text": "Map Rock is a massive basalt boulder covered in petroglyphs. The district includes carvings believed to have been made by Northern Shoshone before 19th-century settlers expanded westward into Idaho. Robert Limbert gave it that name in the early 1920s because he believed the markings depicted the Snake River valley. In 1924, a proposal called for moving the rock, or cutting it into pieces, for display on the State Capitol grounds in Boise. The plan was abandoned, but the rock was found to have suffered damage. Canyon County acquired Map Rock and the surrounding 38 acres in 2012.",
       "at": [
-        -116.94278,
-        43.78639
+        -116.7041083,
+        43.4206361
       ]
     }
   ],
   "sources": [
     {
-      "label": "Visit Idaho, Snake River Canyon Scenic Byway (Wayback Machine, 2021)",
-      "url": "https://web.archive.org/web/20211204192144/https://visitidaho.org/things-to-do/road-trips/snake-river-canyon-scenic-byway/"
-    },
-    {
-      "label": "Visit Idaho, Snake River Canyon Scenic Byway (Wayback Machine, 2013)",
-      "url": "https://web.archive.org/web/20130605123744/http://www.visitidaho.org/scenic-byways/snake-river-canyon-byway/"
-    },
-    {
-      "label": "Wikipedia, Homedale, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Homedale,_Idaho"
-    },
-    {
-      "label": "Wikipedia, Parma, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Parma,_Idaho"
+      "label": "Wikipedia, Bernard’s Ferry",
+      "url": "https://en.wikipedia.org/wiki/Bernard%27s_Ferry"
     },
     {
       "label": "Wikipedia, Fort Boise",
       "url": "https://en.wikipedia.org/wiki/Fort_Boise"
+    },
+    {
+      "label": "Wikipedia, Homedale, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Homedale%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Sunnyslope, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Sunnyslope%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Claytonia, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Claytonia%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Walters Ferry, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Walters_Ferry%2C_Idaho"
+    },
+    {
+      "label": "Wikipedia, Map Rock Petroglyphs Historic District",
+      "url": "https://en.wikipedia.org/wiki/Map_Rock_Petroglyphs_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

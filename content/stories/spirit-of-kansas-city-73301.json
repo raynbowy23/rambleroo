@@ -1,16 +1,17 @@
 {
   "id": "spirit-of-kansas-city-73301",
-  "tagline": "Down in the bottoms where the Kaw meets the Missouri.",
+  "tagline": "At two rivers, stockyard buildings find new uses beside Kansas City.",
   "intro": [
-    "It is a short city drive, and it starts low, in the West Bottoms where the Kansas River runs into the Missouri. Woodswether Road leads east toward downtown, and Berkley Parkway carries the route on to the Missouri riverfront.",
-    "The bottoms were a livestock and meatpacking district from 1871, with stockyards second only to Chicago's at their peak, and they were always prone to flood. The Great Flood of 1951 wrecked the yards for good. In the Second World War a plant at the mouth of the Kansas River built landing craft, one a day, and floated them more than 1,000 miles down the rivers to New Orleans. People called them Prairie Ships."
+    "The West Bottoms lies low beside the meeting of the Kansas and Missouri rivers, immediately west of downtown Kansas City. Brick industrial buildings distinguish the neighborhood; galleries, shops, apartments and offices now occupy many of them. Missouri’s transportation department includes Spirit of Kansas City on its Kansas City Area Scenic Byways map.",
+    "The district developed as a livestock and meatpacking center in 1871, with the city’s first Union railway depot and stockyards at its center. The 1903 flood damaged businesses and helped persuade developers to move Union Station. The 1951 flood devastated the stockyards and meatpacking businesses, which never fully recovered. The yards finally closed in 1991.",
+    "Begin the river story with a separate excursion to Kaw Point in Kansas City, Kansas, where the Kansas River meets the Missouri. Across the confluence, the West Bottoms faces that former Lewis and Clark campsite. Finish at Berkley Riverfront Park on the Missouri beside Berkley Parkway. The park carries the name of a mayor who advocated cleaning up and redeveloping the neighboring riverfront."
   ],
   "moments": [
     {
       "title": "Kaw Point",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Across the mouth of the Kansas River, Lewis and Clark camped three days in June 1804, mending pirogues and noting that the Missouri ran muddier than the Kaw.",
+      "text": "The Kansas River ends here, joining the Missouri at Kaw Point in Kansas City, Kansas. Lewis and Clark’s expedition camped at the confluence in June 1804, repairing pirogues and taking measurements. Lewis observed that the Missouri’s water was muddier than the Kaw’s. The river mouth also helped define a state: its longitude set Missouri’s western boundary when Missouri entered the Union in 1821. South of the Missouri River, that longitude remains the Kansas-Missouri border. The Missouri changes direction here, turning from its southward course to flow east across Missouri toward the Mississippi at St. Louis.",
       "at": [
         -94.6105,
         39.1165
@@ -20,7 +21,8 @@
       "title": "West Bottoms",
       "kind": "town",
       "scene": "town",
-      "text": "The brick buildings put up for stockyards, rail yards and factories now hold galleries, antique shops and haunted-house attractions.",
+      "text": "The brick buildings of the West Bottoms were built for stockyards, train yards and factories in the early 1900s. Their scale belonged to a livestock market that, at its peak, was surpassed only by Chicago’s Union Stock Yards. The market had offered livestock owners an alternative to railroad-set prices: cattle could be sold to the highest bidder. Sixteen railroads converged at the yards. The Great Flood of 1951 devastated the yards and associated slaughterhouses; business fell sharply and never recovered. Many industrial buildings now house galleries, restaurants, shops, apartments and offices, while haunted-house attractions have become another neighborhood use.",
+      "notice": "Brick industrial buildings rise above the West Bottoms streets.",
       "at": [
         -94.603441,
         39.102755
@@ -30,17 +32,17 @@
       "title": "Berkley Riverfront Park",
       "kind": "roadside",
       "scene": "river",
-      "text": "On Berkley Parkway by the Missouri, the park takes the name of the mayor who championed cleaning up and redeveloping the old riverfront beside it."
+      "text": "Berkley Riverfront Park takes its name from Richard L. Berkley, Kansas City’s mayor from 1979 to 1991. He had served on the City Council when the Port Authority was formed in 1977, and advocated cleanup and redevelopment of the riverfront. Built in 1999, the park lies along the Missouri River beside Berkley Parkway. The wider riverfront’s changing use includes CPKC Stadium, which opened on March 16, 2024, as the home of the Kansas City Current. After Berkley’s death in 2023, Port KC established a public cemetery within the park for his burial."
     }
   ],
   "sources": [
     {
-      "label": "MoDOT, Kansas City Area Scenic Byways map",
-      "url": "https://www.modot.org/media/11344"
-    },
-    {
       "label": "Wikipedia, West Bottoms",
       "url": "https://en.wikipedia.org/wiki/West_Bottoms"
+    },
+    {
+      "label": "Missouri Department of Transportation, Kansas City Area Scenic Byways",
+      "url": "https://www.modot.org/media/11344"
     },
     {
       "label": "Wikipedia, Kansas City Stockyards",
@@ -53,8 +55,11 @@
     {
       "label": "Wikipedia, Richard L. Berkley",
       "url": "https://en.wikipedia.org/wiki/Richard_L._Berkley"
+    },
+    {
+      "label": "Wikipedia, Port of Kansas City",
+      "url": "https://en.wikipedia.org/wiki/Port_of_Kansas_City"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

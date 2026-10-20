@@ -1,16 +1,28 @@
 {
   "id": "riverland-drive-scenic-highway-73590",
-  "tagline": "Five miles of island oaks, three from downtown Charleston.",
+  "tagline": "Five miles of island road, with wetlands and an oak canopy",
   "intro": [
-    "Riverland Drive runs five miles across James Island from Wappoo Hall Road to Grimball Road, less than three miles from downtown Charleston, by tree-lined streets, wetlands and two public recreation grounds.",
-    "James Island has long been semi-rural and is now giving way to the city. The town on it was incorporated four times, Charleston having sued over the first three."
+    "Riverland Drive runs five miles on James Island, less than three miles from downtown Charleston. The drive passes tree-lined streets, wetlands and an undeveloped stretch beneath an oak canopy. South Carolina designated it a scenic highway in 1988. SCDOT highlights the combination of trees, wetlands and two public recreation facilities within the metropolitan area.",
+    "The designation came with controls on what could change beside the road. The law prohibits new off-premises outdoor advertising and restricts removal of trees larger than a six-inch caliper within the highway right-of-way. Removing those trees requires permission from the Department of Transportation on Charleston County Council’s recommendation.",
+    "Follow the corridor from Wapoo Hall Road to Grimball Road on S-10-53. The five-mile corridor includes both streets lined with trees and an undeveloped oak-canopied section, with wetlands also part of the drive."
   ],
+  "notice": "An undeveloped stretch of the road runs beneath an oak canopy.",
   "moments": [
     {
+      "title": "Riverland Terrace",
+      "kind": "town",
+      "scene": "town",
+      "text": "Riverland Terrace was planned with winding streets instead of a traditional grid. Edisto Realty Co. announced the James Island development in October 1925; the first houses were finished in May 1926. Two man-made lakes were formed from inlets of the Wappoo Cut, which borders the development to the north. The entrance’s Avenue of Oaks began about 1910, and developers completed the oak planting during landscaping that started in 1925. The original development offered 229 lots, including thirteen commercial lots among the residential properties. The Avenue of Oaks contains 73 live oak trees at the neighborhood entrance.",
+      "at": [
+        -79.99028,
+        32.76194
+      ]
+    },
+    {
       "title": "Fort Pemberton",
-      "kind": "short walk",
+      "kind": "separate excursion",
       "scene": "river",
-      "text": "In the Riverland Terrace neighborhood a Confederate earthwork fort under live oaks on the Stono River opened in July 2026 as a city park, with walking paths and a kayak launch.",
+      "text": "Enslaved workers from neighboring plantations supplied most of the labor to build Fort Pemberton. Confederate Brigadier General John C. Pemberton ordered its original section built in 1862. The earthen fort served as both a land and water battery: many guns faced inland, while others defended the Stono River approach. A 700-foot rampart was added the following year. The earthworks remain essentially intact, covered with live oaks and other native trees. By October 1862 it held twenty guns of different calibers, anchoring the western end of James Island’s shore defenses. The original fort had five sides, with bastions along its perimeter.",
       "at": [
         -80.00083,
         32.75972
@@ -20,23 +32,26 @@
       "title": "The oak canopy",
       "kind": "roadside",
       "scene": "forest",
-      "text": "One undeveloped stretch runs under a canopy of oaks, on a road SCDOT finds remarkable for lying inside the Charleston metropolitan area at all."
+      "text": "An undeveloped section of Riverland Drive carries the road beneath an oak canopy. Trees along the scenic highway have a specific legal protection: those larger than a six-inch caliper within the right-of-way cannot be removed without state transportation permission on the county council’s recommendation."
     }
   ],
   "sources": [
     {
-      "label": "SCDOT, National and State Scenic Byways map series (published entry text)",
+      "label": "South Carolina Department of Transportation, Riverland Drive Scenic Highway",
       "url": "https://www.arcgis.com/sharing/rest/content/items/0a5192983b2845c2b20fbc5d7a0372f9/data"
     },
     {
-      "label": "Wikipedia, James Island, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/James_Island,_South_Carolina"
+      "label": "South Carolina Legislature, Code of Laws: Highway Beautification and Scenic Routes",
+      "url": "https://www.scstatehouse.gov/code/t57c023.php"
+    },
+    {
+      "label": "Wikipedia, Riverland Terrace",
+      "url": "https://en.wikipedia.org/wiki/Riverland_Terrace"
     },
     {
       "label": "Wikipedia, Fort Pemberton (South Carolina)",
-      "url": "https://en.wikipedia.org/wiki/Fort_Pemberton_(South_Carolina)"
+      "url": "https://en.wikipedia.org/wiki/Fort_Pemberton_%28South_Carolina%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

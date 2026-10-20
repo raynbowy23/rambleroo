@@ -1,16 +1,18 @@
 {
   "id": "route-91-riverside-freeway-10247",
-  "tagline": "Up the one natural gap from the coastal plain inland.",
+  "tagline": "A river gap carries the freeway between coastal plain and inland valleys",
   "intro": [
-    "East of Highway 55 the Riverside Freeway heads up Santa Ana Canyon, the water gap where the Santa Ana River comes between the Santa Ana Mountains and the Chino Hills, and the only natural break in the range between the coastal plain and the Inland Empire. Only the stretch from Highway 55 to the east Anaheim city limit, in the western part of the canyon, is designated scenic. The freeway runs on through Corona to Riverside.",
-    "Before the freeway there was a trail. Benjamin Wilson used it in 1845 to reach the valley he named Big Bear, and gold seekers followed it after 1860, until the Santa Ana flood of 1916 washed most of it away."
+    "The Riverside Freeway passes through Santa Ana Canyon, where the river cuts between the Santa Ana Mountains and Chino Hills. This is the natural break between the Orange County coastal plain and the Inland Empire. Only the stretch from Highway 55 to Anaheim’s eastern city limit belongs to the State Scenic Highway System; the canyon section beyond it toward Interstate 15 is eligible for designation. This is a freeway corridor with heavy commuter traffic.",
+    "In 1931, the state took over a mostly paved county road through Riverside and Santa Ana Canyon to Olive. Road improvements followed in 1935, bypassing a section that curved along the canyon’s southern slope. The Prado Dam project prompted another, longer bypass in the late 1930s. The road carried U.S. 91, whose southwest extension to Long Beach came in the late 1940s. The freeway’s final section was built in 1975.",
+    "Travel east from Highway 55 into the western canyon, then continue toward Corona at its upper end. The river, railway and highway share this passage through the hills. Prado Dam crosses the river near Corona. Beyond the canyon, the Riverside Freeway continues to Riverside, where Route 91 ends at the junction with Interstate 215 and Highway 60."
   ],
   "moments": [
     {
       "title": "Olive",
       "kind": "town",
       "scene": "town",
-      "text": "Portolà's party camped near here in July 1769, and Crespí named the spot for the earthquake that struck while they were there, while the soldiers called the river the Rio de Santa Ana.",
+      "text": "Olive is a small unincorporated community entirely surrounded by the city of Orange. It lies along Lincoln Avenue between Eisenhower Park and Orange Olive Road. A developer in the olive industry founded the community in 1887. Many of its original 63 lots have since been subdivided. The older residential pattern remains visible in houses built before the 1930s, set well back on their lots along streets without sidewalks. At Palm and Lincoln Avenues, an entrance sign identifies this community as Olive Heights. Orange Olive Road roughly bisects the community, which lies west of Anaheim Hills.",
+      "notice": "Houses built before the 1930s sit deep on their lots; the streets lack sidewalks.",
       "at": [
         -117.84611,
         33.83611
@@ -20,7 +22,7 @@
       "title": "Santa Ana Canyon",
       "kind": "roadside",
       "scene": "river",
-      "text": "In the canyon a bicycle path follows the river bank, roughly alongside the freeway in places, and keeps going all the way down to Pacific Coast Highway.",
+      "text": "River, road and railway converge in the gap between the Santa Ana Mountains and Chino Hills. U.S. Route 91 formerly ran through the canyon; State Route 91 is its principal successor. The BNSF Southern Transcon also uses the canyon, along with Amtrak’s Southwest Chief and Metrolink passenger services. Beside the river, a bicycle path runs past Yorba Regional Park and continues to Pacific Coast Highway. Santa Ana Canyon Road provides another parallel road route, running beside the Riverside Freeway from the Anaheim-Orange line to Gypsum Canyon Road in Yorba Linda.",
       "at": [
         -117.81833,
         33.85694
@@ -30,7 +32,7 @@
       "title": "Prado Dam",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "An earth-fill dry dam across the river at the Chino Hills, finished in 1941 after the flood of 1938 had made the case for it, waits to catch the Santa Ana's floodwaters.",
+      "text": "Prado Dam’s flood-control purpose explains its location at a natural constriction of the Santa Ana River. Authorization preceded the disaster that demonstrated its need: construction was authorized in 1936, before the flood of 1938. The U.S. Army Corps of Engineers completed the earth-fill dam in 1941. Its basin also stores water for groundwater recharge. The dam changed road travel as well: its construction project prompted a longer highway bypass in the late 1930s. The river enters its flood-control basin after passing through western Riverside; Chino Creek and Temescal Creek join it in the reservoir area.",
       "at": [
         -117.6408,
         33.8902
@@ -38,6 +40,10 @@
     }
   ],
   "sources": [
+    {
+      "label": "Wikipedia, Santa Ana River",
+      "url": "https://en.wikipedia.org/wiki/Santa_Ana_River"
+    },
     {
       "label": "Wikipedia, California State Route 91",
       "url": "https://en.wikipedia.org/wiki/California_State_Route_91"
@@ -47,18 +53,17 @@
       "url": "https://en.wikipedia.org/wiki/Santa_Ana_Canyon"
     },
     {
-      "label": "Wikipedia, Santa Ana River",
-      "url": "https://en.wikipedia.org/wiki/Santa_Ana_River"
-    },
-    {
-      "label": "Wikipedia, Olive, California",
-      "url": "https://en.wikipedia.org/wiki/Olive,_California"
+      "label": "Wikipedia, Corona, California",
+      "url": "https://en.wikipedia.org/wiki/Corona%2C_California"
     },
     {
       "label": "Wikipedia, Prado Dam",
       "url": "https://en.wikipedia.org/wiki/Prado_Dam"
+    },
+    {
+      "label": "Wikipedia, Olive, California",
+      "url": "https://en.wikipedia.org/wiki/Olive%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

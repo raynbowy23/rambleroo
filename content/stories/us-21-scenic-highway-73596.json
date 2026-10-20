@@ -1,19 +1,20 @@
 {
   "id": "us-21-scenic-highway-73596",
-  "tagline": "Out over the Sea Islands to a lighthouse made to move.",
+  "tagline": "Across the Sea Islands to a lighthouse built to move",
   "motifs": [
     "lighthouse"
   ],
   "intro": [
-    "East of Beaufort, US 21 leaves the town behind and runs out across the Sea Islands, over St. Helena and the tidal marsh of Harbor Island, to the barrier island at the end. The state made it scenic by an act of 1979 that called it simply \"a scenic highway\". Some call it the Sea Island Scenic Highway.",
-    "The road out came in the 1930s, when US 21 was built from St. Helena to Hunting Island, bridges tied the outer islands to Beaufort, and Hunting Island was made a park. Around 1980 the sea took part of the highway, and US 21 now stops where it used to turn toward the lighthouse. The beach has kept washing away since."
+    "East of Beaufort, US 21 connects Saint Helena Island with Harbor Island and Hunting Island, crossing a landscape of tidal marsh and barrier islands. South Carolina designated the corridor a scenic highway in 1979. The state transportation department emphasizes expansive views and Hunting Island State Park at the route’s end. There, maritime forest fills the interior, with saltwater marsh on the western side and more than four miles of beach.",
+    "Bridges connected the outer Sea Islands with Beaufort in the 1930s, while the Civilian Conservation Corps developed Hunting Island as a state park. The US 21 designation reached Hunting Island in 1953. The highway once continued to the island’s south end, but erosion destroyed part of it about 1980. The state made a new park entrance and one-lane roads through the palmetto forest. At Harbor River, a fixed bridge replaced the narrow 1939 swing span in 2021, changing the crossing used to reach the outer islands.",
+    "From Beaufort, the island journey passes through Saint Helena, a center of Gullah culture and language. Continue to Harbor Island, where US 21 provides the only vehicle access, then to Hunting Island between Harbor and Fripp islands. US 21 ends where it once turned east toward the lighthouse."
   ],
   "moments": [
     {
       "title": "Saint Helena Island",
       "kind": "town",
       "scene": "coast",
-      "text": "A Sea Island known for its rural Lowcountry character and its Gullah culture and language, where the spiritual \"Michael Row the Boat Ashore\" originated in the 1860s.",
+      "text": "Saint Helena is an inland Sea Island, surrounded by marshes rather than fronting the Atlantic. It is a major center of Gullah culture and language. At Penn Center, that cultural work shares a site with the history of education after emancipation. Penn School was founded in 1862 for formerly enslaved people and moved to its present site in 1864. Darrah Hall at Penn Center is part of Reconstruction Era National Historical Park. Nearby, The Green continues to host community meetings, celebrations and gatherings. The Green occupies the site of the first Darrah Hall, destroyed in 1893.",
       "at": [
         -80.572228,
         32.376272
@@ -23,7 +24,7 @@
       "title": "Harbor Island",
       "kind": "roadside",
       "scene": "coast",
-      "text": "Mostly tidal marsh, with US 21 its only road in, and in 2021 the narrow 1939 swing bridge over the Harbor River gave way to a fixed span.",
+      "text": "Most of Harbor Island is tidal marsh, and US 21 is its only road connection. The highway through it was constructed in the 1930s to link Saint Helena and Hunting islands. A swing bridge built in 1939 carried traffic over the Harbor River. Narrow and structurally deficient, it was replaced by a fixed span that opened on April 25, 2021. The island also supports a volunteer sea-turtle nest protection program permitted by the South Carolina Department of Natural Resources. Development remained limited until The Fripp Company bought most of the island and created a gated residential and resort community.",
       "at": [
         -80.43694,
         32.40444
@@ -33,7 +34,8 @@
       "title": "Hunting Island State Park",
       "kind": "roadside",
       "scene": "coast",
-      "text": "The road ends in the park, whose lighthouse was built of bolted cast-iron sections so it could be taken apart, and in 1889, with the tide closing on it, it was moved a mile.",
+      "text": "Hunting Island’s lighthouse was built to come apart. Its cast-iron shell consists of bolted sections, with a brick lining carrying the main structural load. Completed in 1875, this tower replaced an earlier lighthouse destroyed during the Civil War. The movable design proved necessary: severe beach erosion threatened the station, and in 1889 the lighthouse, keeper’s house and two other structures moved a mile to their present location. The cast-iron sections weigh up to 1,200 pounds each, bolted together to make a shell that could be dismantled. The tower’s upper third is black; the lower two-thirds are white.",
+      "notice": "The lighthouse has a cast-iron outer shell and a black upper third above its white lower section.",
       "at": [
         -80.44444,
         32.36639
@@ -45,8 +47,20 @@
   ],
   "sources": [
     {
-      "label": "SCDOT, National and State Scenic Byways story map (item data)",
+      "label": "Wikipedia, Hunting Island Lighthouse",
+      "url": "https://en.wikipedia.org/wiki/Hunting_Island_Lighthouse"
+    },
+    {
+      "label": "Wikipedia, Harbor Island, South Carolina",
+      "url": "https://en.wikipedia.org/wiki/Harbor_Island%2C_South_Carolina"
+    },
+    {
+      "label": "South Carolina Department of Transportation, National and State Scenic Byways",
       "url": "https://www.arcgis.com/sharing/rest/content/items/0a5192983b2845c2b20fbc5d7a0372f9/data"
+    },
+    {
+      "label": "Wikipedia, Hunting Island State Park",
+      "url": "https://en.wikipedia.org/wiki/Hunting_Island_State_Park"
     },
     {
       "label": "Wikipedia, U.S. Route 21",
@@ -54,21 +68,16 @@
     },
     {
       "label": "Wikipedia, Saint Helena Island (South Carolina)",
-      "url": "https://en.wikipedia.org/wiki/Saint_Helena_Island_(South_Carolina)"
+      "url": "https://en.wikipedia.org/wiki/Saint_Helena_Island_%28South_Carolina%29"
     },
     {
-      "label": "Wikipedia, Harbor Island, South Carolina",
-      "url": "https://en.wikipedia.org/wiki/Harbor_Island,_South_Carolina"
+      "label": "Wikipedia, Reconstruction Era National Historical Park",
+      "url": "https://en.wikipedia.org/wiki/Reconstruction_Era_National_Historical_Park"
     },
     {
-      "label": "Wikipedia, Hunting Island State Park",
-      "url": "https://en.wikipedia.org/wiki/Hunting_Island_State_Park"
-    },
-    {
-      "label": "Wikipedia, Hunting Island Lighthouse",
-      "url": "https://en.wikipedia.org/wiki/Hunting_Island_Lighthouse"
+      "label": "Wikipedia, The Green (Frogmore, South Carolina)",
+      "url": "https://en.wikipedia.org/wiki/The_Green_%28Frogmore%2C_South_Carolina%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

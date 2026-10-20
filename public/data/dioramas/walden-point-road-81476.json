@@ -277,18 +277,25 @@
   },
   "landmarks": [
     {
+      "name": "Father William Duncan House",
+      "model": "farmhouse",
+      "at": 1,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Projected coordinate, kept in driving order."
+    },
+    {
       "name": "Metlakatla",
       "model": "harbor",
       "at": 1,
       "offset": "roadside",
-      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Metlakatla",
       "model": "town-blocks",
       "at": 1,
       "offset": "roadside",
-      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [

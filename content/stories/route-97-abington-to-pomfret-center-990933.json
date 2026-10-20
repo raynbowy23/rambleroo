@@ -1,19 +1,21 @@
 {
   "id": "route-97-abington-to-pomfret-center-990933",
-  "tagline": "From an old meetinghouse in Abington north to Pomfret Center.",
+  "tagline": "Four and a half scenic miles link Abington with Pomfret Center",
   "motifs": [
     "steeple-town"
   ],
   "intro": [
-    "Route 97 comes a long way up from Norwich, but the scenic part is the last four and a half miles, from its southern junction with US 44 at Abington to its end at US 44 and Route 169 in Pomfret Center.",
-    "This stretch was a state highway of its own in 1922, the road from Abington to Pomfret Center, and was folded into Route 97 in 1934. Pomfret takes its name from Pontefract in West Yorkshire and has no formal town center, only several villages, Abington and Pomfret Center among them."
+    "Route 97’s scenic stretch runs four and a half miles between its two junctions with U.S. 44 in Pomfret. Abington’s meetinghouse stands just south of the first junction. Pomfret lies in the Last Green Valley, a National Heritage Corridor whose land remains predominantly forested or agricultural.",
+    "This short connection had its own highway identity before joining Route 97. The state designated the Abington-to-Pomfret Center road Highway 345 in 1922 and renumbered it Route 201 in 1932. Two years later, Route 97 was rerouted between Hampton and Abington, then absorbed Route 201 to reach Pomfret Center.",
+    "Begin at Abington and travel north toward Pomfret Center. Route 244, the Boston Turnpike, joins Route 97 there from the west. Route 97 then continues the road to U.S. 44 and Route 169, its northern endpoint."
   ],
   "moments": [
     {
       "title": "Abington Congregational Church",
       "kind": "roadside",
       "scene": "town",
-      "text": "Just south of the scenic start, on the east side of Route 97, stands the meetinghouse of 1751, the oldest church building in Connecticut in continuous religious use.",
+      "text": "The meetinghouse’s Greek Revival front is younger than the building behind it. Built in 1751 for a congregation established two years earlier, the church was enlarged and restyled in the 1830s by Edwin Fitch of Mansfield. Its timber construction uses the pegs and beams characteristic of eighteenth-century New England. The clapboard exterior has a central round window in the front gable and a square tower rising above the entrance. The church stands on Route 97’s east side, south of U.S. 44. A parsonage followed in 1851 and an adjacent parish hall in 1951.",
+      "notice": "A round window centers the front gable beneath a three-stage square tower.",
       "at": [
         -72.00805556,
         41.8575
@@ -23,10 +25,20 @@
       ]
     },
     {
+      "title": "Mashamoquet Brook State Park",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "A gift of eleven and a half acres of hemlock-lined gorge began the state’s interest in Mashamoquet Brook. Former Pomfret resident Sarah Fay donated the land in 1918. In 1925, the state combined that parcel with the Wolf Den property, purchased by the Daughters of the American Revolution in 1899. Later gifts and purchases expanded the park to more than 900 acres. Its features include Brayton Grist Mill and the natural stone formations called Table Rock and Indian Chair. Brayton Grist Mill stands just south of U.S. 44 beside the park entrance road.",
+      "at": [
+        -71.98472222,
+        41.85111111
+      ]
+    },
+    {
       "title": "Pomfret Center",
       "kind": "town",
       "scene": "town",
-      "text": "Near the end of the run the old Boston Turnpike, Route 244, comes in from the west, and Route 97 carries its line the rest of the way to US 44."
+      "text": "Despite the village’s name, Pomfret has no formal town center: it expanded southward after its establishment. At Pomfret Center, Route 244 brings the Boston Turnpike into Route 97. The road now numbered 244 was once part of the Middle Boston Post Road, a principal connection from Hartford toward Boston and Providence. It became the private Boston Turnpike in 1797 and returned to public-road status in 1879. Route 244 received its present number in 1988, having previously been unsigned State Road 622. Northbound Route 97 continues its line toward U.S. 44 and Route 169."
     }
   ],
   "sources": [
@@ -40,13 +52,20 @@
     },
     {
       "label": "Wikipedia, Pomfret, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Pomfret,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Pomfret%2C_Connecticut"
     },
     {
       "label": "Wikipedia, Connecticut Route 244",
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_244"
+    },
+    {
+      "label": "Wikipedia, Mashamoquet Brook State Park",
+      "url": "https://en.wikipedia.org/wiki/Mashamoquet_Brook_State_Park"
+    },
+    {
+      "label": "Wikipedia, Brayton Grist Mill",
+      "url": "https://en.wikipedia.org/wiki/Brayton_Grist_Mill"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

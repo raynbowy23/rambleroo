@@ -277,25 +277,25 @@
   },
   "landmarks": [
     {
+      "name": "Ridgefield Road",
+      "model": "ridge",
+      "at": 0.5,
+      "offset": "roadside",
+      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+    },
+    {
       "name": "Wilton Center",
       "model": "steeple-town",
       "at": 0.9652295068199613,
       "offset": "roadside",
-      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Wilton Center",
       "model": "town-blocks",
       "at": 0.9652295068199613,
       "offset": "roadside",
-      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
-    },
-    {
-      "name": "Ridgefield Road",
-      "model": "ridge",
-      "at": 0.9652295068199613,
-      "offset": "roadside",
-      "notes": "Story moment 2; roadside. Illustrative position in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [

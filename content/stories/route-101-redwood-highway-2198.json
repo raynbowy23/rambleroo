@@ -1,16 +1,17 @@
 {
   "id": "route-101-redwood-highway-2198",
-  "tagline": "Through the coast redwoods on ground that will not hold still.",
+  "tagline": "Coast redwoods and ocean views along a highway built on shifting ground.",
   "intro": [
-    "North of Klamath, US 101 runs about twelve miles through Del Norte Coast Redwoods State Park toward Crescent City, among coast redwoods in a park that also holds eight miles of wild Pacific coastline.",
-    "Part of the way is Last Chance Grade, first cut as a wagon road in 1894 and laid on its present line in the 1930s. Some of it rests on an earthflow that creeps about two inches a year, and the road has since shifted some 40 feet sideways and 30 feet vertically. It is the only road between Crescent City and Humboldt County, and the way around is 449 miles longer."
+    "US 101 through Del Norte Coast Redwoods State Park is an officially designated scenic highway. The park includes eight miles of Pacific shoreline and is about half old-growth coast redwood forest. Between Crescent City and Klamath, the three-mile Last Chance Grade carries the road through redwoods with ocean views, across ground vulnerable to slides and collapse.",
+    "Before the twentieth century, ships handled almost all commerce on the Redwood Coast. Residents and logging companies called for a dependable road north of the Golden Gate, and Redwood Highway construction began in Del Norte County in 1917. Last Chance Grade had begun as a wagon trail in 1894; its present alignment was completed between 1933 and 1937. Slides during construction warned engineers that the moving ground would keep demanding repairs. The early Redwood Highway opened in stages as landslides and washouts slowed construction; the final Klamath River bridge opened to traffic in October 1926.",
+    "Travel south from Crescent City toward Klamath through the state park and Last Chance Grade. More than two dozen retaining walls support the grade. Beyond this scenic stretch, the former Klamath Air Force Station offers a separate historical excursion northwest of Klamath, where radar buildings were removed after military use ended."
   ],
   "moments": [
     {
       "title": "Del Norte Coast Redwoods State Park",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Set aside in 1925 and about half old-growth coast redwood, the park takes in the highway's whole scenic stretch.",
+      "text": "Coast redwoods share this park with eight miles of Pacific shoreline. About half the park is old-growth forest. Established in 1925, it expanded substantially in 2002 with the 39-square-mile Mill Creek Addition. It is now part of Redwood National and State Parks. That larger park partnership also enters its administrative history: after a closure threat in 2011, the National Park Service agreed that October to provisionally manage Del Norte Coast Redwoods for one year. The park’s expanded area covers 48.8 square miles, bringing coast, forest and the Mill Creek addition into one state park.",
       "at": [
         -124.11722,
         41.67083
@@ -20,13 +21,28 @@
       "title": "Last Chance Grade",
       "kind": "roadside",
       "scene": "coast",
-      "text": "Three miles lined with redwoods and open to the ocean, propped by more than two dozen retaining walls, where Caltrans has proposed a 6,000-foot tunnel to go underneath."
+      "text": "Retaining walls mark a continuing attempt to hold this road in place: more than two dozen have been built along Last Chance Grade. Part of the highway sits on an earthflow moving about two inches a year; another part lies on fractured sandstone. By 2025, the road had moved 40 feet horizontally and 30 feet vertically from its 1930s alignment. Caltrans selected a proposed 6,000-foot tunnel beneath the unstable ground in 2024. The road was closed to two-way traffic from 2014 to 2023, and a landslide in 2021 stopped traffic completely for several days.",
+      "notice": "Retaining walls line a section of highway bordered by redwoods and views of the Pacific."
+    },
+    {
+      "title": "Klamath Air Force Station",
+      "kind": "separate excursion",
+      "scene": "coast",
+      "text": "The former radar station northwest of Klamath is a place of removed buildings, not surviving military towers. Construction formed part of an accelerated air-defense radar program after the Korean War began. The station’s squadron guided interceptor aircraft toward unidentified radar targets. After military operations ended in 1981, most of the property passed to the National Park Service and later served park maintenance. Removal followed the opening of a new park operations center in 2009; by 2012, only cellular telecommunications equipment remained. The removal project aimed to return the former station to a more natural condition.",
+      "at": [
+        -124.08611111,
+        41.55916667
+      ]
     }
   ],
   "practical": [
-    "Last Chance Grade is prone to landslides and slipouts and has been closed at times."
+    "Last Chance Grade: Landslides can close Last Chance Grade; a 2021 slide shut the route completely for several days. (checked 2026-10-11)"
   ],
   "sources": [
+    {
+      "label": "Wikipedia, Last Chance Grade",
+      "url": "https://en.wikipedia.org/wiki/Last_Chance_Grade"
+    },
     {
       "label": "Wikipedia, U.S. Route 101 in California",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_101_in_California"
@@ -36,10 +52,9 @@
       "url": "https://en.wikipedia.org/wiki/Del_Norte_Coast_Redwoods_State_Park"
     },
     {
-      "label": "Wikipedia, Last Chance Grade",
-      "url": "https://en.wikipedia.org/wiki/Last_Chance_Grade"
+      "label": "Wikipedia, Klamath Air Force Station",
+      "url": "https://en.wikipedia.org/wiki/Klamath_Air_Force_Station"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

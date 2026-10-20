@@ -275,7 +275,15 @@
       ]
     ]
   },
-  "landmarks": [],
+  "landmarks": [
+    {
+      "name": "Askov",
+      "model": "town-blocks",
+      "at": 0.07536591016946127,
+      "offset": "roadside",
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+    }
+  ],
   "dressing": [
     {
       "model": "river",
@@ -294,7 +302,7 @@
     {
       "name": "Askov",
       "at": 0.07540322580645162,
-      "landmark": ""
+      "landmark": "Askov"
     },
     {
       "name": "Bruno",

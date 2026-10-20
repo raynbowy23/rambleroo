@@ -1,20 +1,22 @@
 {
   "id": "us-12-heritage-trail-992612",
-  "tagline": "The old Sauk Trail, from the Lake Michigan shore to Detroit.",
+  "tagline": "A former river crossing and kettle lakes along Michigan’s Chicago Road",
   "motifs": [
     "arch-bridge",
     "steeple-town"
   ],
   "intro": [
-    "From New Buffalo, where the state highway department opened the nation's first highway travel information center in 1935, US-12 runs east across the bottom of Michigan through Niles, Mottville, Sturgis and Coldwater, into the lake country of the Irish Hills and on through Ypsilanti and Dearborn to Woodward Avenue in downtown Detroit, 208 miles.",
-    "The line is a Native American trail that settlers called the Sauk Trail. In 1820 Henry Schoolcraft found it a plain horse path that a stranger could not follow without a guide for all its side trails. In 1825 the federal government surveyed it into the Chicago Road."
+    "The US-12 Heritage Trail connects New Buffalo and Detroit, with river crossings, towns and the kettle lakes of Irish Hills along the way. In Irish Hills, US 12 borders a chain of small kettle lakes; at Mottville it crosses the St. Joseph River beside an older pedestrian bridge. The US-12 Heritage Trail organization promotes the corridor through an annual garage sale at homes, farms and businesses along the highway.",
+    "The older Sauk Trail was an Indigenous route through Illinois, Indiana and Michigan. At Mottville, it crossed the St. Joseph at a shallow place near the modern bridges. In 1825, the federal government surveyed the trail and converted it into the Chicago Road. The US 12 number came to Michigan’s Sauk Trail route in 1962; before that, the road carried the US 112 number.",
+    "Travel east from New Buffalo on Lake Michigan toward Mottville, Coldwater and Irish Hills. Coldwater’s Tibbits Opera House began as an 1882 theater, while the Irish Hills roadside attractions date back to the 1920s. Farther east, Ypsilanti stands on the Huron River and the historic Detroit–Chicago Road. Dearborn, bordering Detroit, developed from an agricultural community into an automotive manufacturing center."
   ],
   "moments": [
     {
       "title": "Mottville Bridge",
       "kind": "short walk",
       "scene": "river",
-      "text": "The fourth bridge at the old Sauk Trail ford of the St. Joseph, a 1922 concrete camelback now kept for walkers. A farmer bought its covered predecessor and built a barn from it.",
+      "text": "Three concrete camelback spans mark an older crossing of the St. Joseph River at Mottville. Built in 1922, this was the fourth bridge here, following a timber bridge, a pile-supported replacement and an 1867 covered bridge. Farmer Ray Berger bought the covered bridge and reused its wood for a barn in 1927. When a new highway bridge opened alongside in 1990, the Michigan Department of Transportation preserved the camelback bridge for pedestrians. Each of its three arches has five openings above a row of decorative recesses. Its three matching spans each measure 90 feet.",
+      "notice": "Each arch has five openings above a row of recesses.",
       "at": [
         -85.7569,
         41.8
@@ -27,7 +29,7 @@
       "title": "Coldwater",
       "kind": "town",
       "scene": "town",
-      "text": "A town of five historic districts and the Tibbits Opera House, the second-oldest theatre in Michigan, with the Capri Drive-In just west on the highway.",
+      "text": "Tibbits Opera House has made the journey from live theater to movies and back toward its original purpose. Built in 1882, it is Michigan’s second-oldest theater. Its conversion to a movie house came in the 1930s; a restoration campaign began in the 1960s with the eventual goal of recovering its French Empire architecture. Coldwater also preserves another kind of performance: the Little River Railroad offers rides behind a steam locomotive built in 1911, departing from the city’s 1883 depot. The 1875 Wing House now serves as a historical museum operated by the Branch County Historical Society.",
       "at": [
         -85.0,
         41.94
@@ -40,7 +42,7 @@
       "title": "Irish Hills",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Hills and kettle lakes named for the Irish who settled them in the 1830s and 1840s. Of the old roadside attractions, the dinosaur forest and Fantasy Land have closed, and Mystery Hill carries on.",
+      "text": "US 12 borders a chain of small kettle lakes in Irish Hills, where larger lakes and hills surround Hayes State Park. The region takes its name from Irish immigrants who settled here between 1830 and 1850. Roadside entertainment followed in the 1920s. Frontier City offered an Old West theme, Prehistoric Forest displayed mock dinosaurs, and Fantasy Land drew on fairy tales; all three have closed. In the 1970s, Cedar Point acquired land for another amusement park, but residents opposed the project and it was canceled. The lakes link to Cambridge Junction Historic State Park beside Michigan International Speedway.",
       "at": [
         -84.16666667,
         42.08333333
@@ -49,30 +51,37 @@
   ],
   "sources": [
     {
-      "label": "US-12 Heritage Trail",
-      "url": "https://www.us12heritagetrail.org/"
+      "label": "Wikipedia, US 12–St. Joseph River Bridge",
+      "url": "https://en.wikipedia.org/wiki/US_12%E2%80%93St._Joseph_River_Bridge"
     },
     {
-      "label": "MDOT, Pure Michigan Byways Driving Guide (Wayback Machine snapshot, December 2025)",
-      "url": "https://web.archive.org/web/20251206181129/https://www.michigan.gov/mdot/-/media/Project/Websites/MDOT/Travel/Tourists/Byways/Pure-Michigan-Byways-Driving-Guide.pdf"
+      "label": "Wikipedia, Irish Hills",
+      "url": "https://en.wikipedia.org/wiki/Irish_Hills"
     },
     {
       "label": "Wikipedia, Sauk Trail",
       "url": "https://en.wikipedia.org/wiki/Sauk_Trail"
     },
     {
-      "label": "Wikipedia, US 12–St. Joseph River Bridge",
-      "url": "https://en.wikipedia.org/wiki/US_12%E2%80%93St._Joseph_River_Bridge"
+      "label": "US-12 Heritage Trail, US-12 Heritage Route",
+      "url": "https://www.us12heritagetrail.org/"
+    },
+    {
+      "label": "Wikipedia, New Buffalo, Michigan",
+      "url": "https://en.wikipedia.org/wiki/New_Buffalo%2C_Michigan"
     },
     {
       "label": "Wikipedia, Coldwater, Michigan",
-      "url": "https://en.wikipedia.org/wiki/Coldwater,_Michigan"
+      "url": "https://en.wikipedia.org/wiki/Coldwater%2C_Michigan"
     },
     {
-      "label": "Wikipedia, Irish Hills",
-      "url": "https://en.wikipedia.org/wiki/Irish_Hills"
+      "label": "Wikipedia, Ypsilanti, Michigan",
+      "url": "https://en.wikipedia.org/wiki/Ypsilanti%2C_Michigan"
+    },
+    {
+      "label": "Wikipedia, Dearborn, Michigan",
+      "url": "https://en.wikipedia.org/wiki/Dearborn%2C_Michigan"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

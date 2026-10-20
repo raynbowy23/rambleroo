@@ -1,20 +1,21 @@
 {
   "id": "route-140-mariposa-county-2307",
-  "tagline": "Down the grade to the Merced, on the first all-year road.",
+  "tagline": "Pine forest and a river canyon along Yosemite’s All-Year Highway",
   "motifs": [
     "river-bluffs",
     "mining-town"
   ],
   "intro": [
-    "Out of Mariposa, Highway 140 runs through Midpines with ponderosa pine on both sides, then takes a steep, winding grade down to the Merced River at Briceburg. From there it keeps to the river toward El Portal and the park, with the Sierra National Forest on the south bank and the Stanislaus on the north.",
-    "This is the All-Year Highway, built largely by prison labor and opened on July 31, 1926, on the south bank, opposite the Yosemite Valley Railroad. Visitor cars in the park nearly doubled the first year. The railroad ran its last scheduled train in 1945."
+    "Route 140 passes through ponderosa pine forest at Midpines, then descends a steep, winding grade to the Merced River at Briceburg. From there, it follows the river toward El Portal and Yosemite National Park. The Mariposa-to-El Portal stretch is designated a California scenic highway; the upper Merced valley below the park also has Wild and Scenic River status. Sierra National Forest lies south of this river corridor, with Stanislaus National Forest to the north.",
+    "The canyon’s low elevation made winter travel possible. In 1924, the California Highway Commission began building a paved highway here, largely with prison labor. It followed the Merced’s south bank, opposite the Yosemite Valley Railroad. Opening on July 31, 1926, the All-Year Highway gave automobiles their first all-season route to Yosemite. Park visitor car counts nearly doubled in the following year. The railroad lost passengers to the highway, then lost major freight customers when lumber and cement operations closed. Its last regularly scheduled train ran in 1945.",
+    "Traveling east, leave Mariposa for Midpines and the descent to Briceburg, then follow the canyon through El Portal to the park entrance. Beyond the state highway, federally maintained El Portal Drive continues beside the Merced into Yosemite Valley. There it divides into Southside Drive eastbound and Northside Drive westbound."
   ],
   "moments": [
     {
       "title": "Midpines",
       "kind": "town",
       "scene": "forest",
-      "text": "Gold country first, the Whitlock district, with over 70 lode mines at its peak. In 1926, the year the highway opened, it started over as a resort.",
+      "text": "Midpines began as a resort in 1926, founded by Newell D. Chamberlain. The surrounding country had already supported the Whitlock Mining District, where placer mining followed the Gold Rush of 1849 and hard-rock mining came soon afterward. At its peak, the district had more than 70 lode mines; the Whitlock Mine processed ore in a 20-stamp mill. The resort’s founding coincided with the opening of the All-Year Highway. Along Route 140, Midpines now consists of scattered residential areas in the Sierra foothills, with ponderosa pine forest bordering the road. Bear Creek flows through its valley toward the Merced at Briceburg.",
       "at": [
         -119.92889,
         37.55222
@@ -24,7 +25,7 @@
       "title": "Briceburg",
       "kind": "town",
       "scene": "river",
-      "text": "Around 1924, 255 convicts camped here to build the highway up the canyon. When they left in 1926, William Brice moved his store across the river and the place took his name.",
+      "text": "A highway work camp helped shape Briceburg. Around 1924, 255 prisoners were stationed here to build 16.7 miles of road through the Merced canyon toward El Portal. When the All-Year Highway was completed in 1926, the camp closed and William M. Brice moved his store to the river’s south side. The community took his name. Another public works crew followed: 30 Civilian Conservation Corps enrollees built the suspension bridge completed in 1937. Its 160-foot span connects the community with Highway 140 across the Merced. Downstream, the former Yosemite Valley Railroad grade serves as a hiking trail and gravel road.",
       "at": [
         -119.96694,
         37.605
@@ -34,7 +35,7 @@
       "title": "Hites Cove",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Up the South Fork of the Merced lies the ghost town where John Hite struck a gold vein in 1861. The trail through the canyon is known for its spring wildflowers.",
+      "text": "John Hite’s 1861 discovery of gold-bearing quartz led to a tunnel and stamp mill beside the South Fork of the Merced. Flood destroyed his first ten-stamp mill; its replacement grew to forty stamps powered by water. By the mid-1860s, more than 100 people lived in the camp, including Chinese workers who built Hites Cove Road and occupied a Chinatown at the settlement’s south end. The buildings burned in 1924. The trail to the former settlement follows the South Fork for 4.5 miles one way from Route 140. Its spring flowers include California poppies, baby blue eyes and lupine.",
       "at": [
         -119.84917,
         37.64083
@@ -43,6 +44,9 @@
         "mining-town"
       ]
     }
+  ],
+  "practical": [
+    "Hites Cove: The trail is seasonally closed in summer and fall because of extreme fire danger. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -55,21 +59,16 @@
     },
     {
       "label": "Wikipedia, Midpines, California",
-      "url": "https://en.wikipedia.org/wiki/Midpines,_California"
+      "url": "https://en.wikipedia.org/wiki/Midpines%2C_California"
     },
     {
       "label": "Wikipedia, Briceburg, California",
-      "url": "https://en.wikipedia.org/wiki/Briceburg,_California"
+      "url": "https://en.wikipedia.org/wiki/Briceburg%2C_California"
     },
     {
       "label": "Wikipedia, Hites Cove, California",
-      "url": "https://en.wikipedia.org/wiki/Hites_Cove,_California"
-    },
-    {
-      "label": "Wikipedia, El Portal, California",
-      "url": "https://en.wikipedia.org/wiki/El_Portal,_California"
+      "url": "https://en.wikipedia.org/wiki/Hites_Cove%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

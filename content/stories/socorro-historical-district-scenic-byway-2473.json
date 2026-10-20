@@ -1,16 +1,18 @@
 {
   "id": "socorro-historical-district-scenic-byway-2473",
-  "tagline": "Three slow miles through a town named for a kindness.",
+  "tagline": "Old streets connect a mission wall, mining history and an opera hall",
   "intro": [
-    "This one is a town drive, about three miles around the old streets of Socorro, past the San Miguel church and the plaza. Buildings from the Spanish colonial years still stand along the way.",
-    "The name means help. In 1598 Oñate's settlers came out of the Jornada del Muerto and the Piro people of Teypana gave them food and water, so the Spaniards renamed the pueblo. Later came the railroad, in 1880, and for a while some of the richest lead and zinc mining in the country."
+    "The Socorro Historic District Scenic Byway follows old town streets past architecture from different periods of the city’s history. The New Mexico Tourism Department presents the route as a way to see the changes from colonial settlement to mining town and modern city. It identifies San Miguel Mission as the oldest surviving structure in Socorro and notes that Spanish Colonial buildings remain in the area.",
+    "Socorro’s name began with the Piro pueblo of Teypana, whose people gave food and water to Juan de Oñate’s Spanish settlers in 1598. The Spaniards renamed that pueblo Socorro, meaning help or aid; the name later transferred to nearby Pilabó. The railroad arrived in 1880 and contributed to the growth of a town becoming a lead-and-zinc mining center. Rail transport also brought new building materials and styles: brick houses on and near McCutcheon Avenue from the 1880s and early 1890s reflected the prosperity of the mining boom.",
+    "Begin with San Miguel, where part of an earlier mission’s adobe wall survives behind glass. The Wheel of History, a block north of the plaza, places Piro pueblos, colonial settlement and mining within a bronze sculpture. The Garcia Opera House at Terry Avenue and California Street dates to 1886."
   ],
   "moments": [
     {
       "title": "San Miguel de Socorro",
       "kind": "town",
       "scene": "town",
-      "text": "The oldest building in town stands on the ruins of a 1620s mission, and a piece of that older adobe wall shows behind glass to the left of the altar.",
+      "text": "A piece of the earlier mission survives inside San Miguel: an adobe wall visible behind glass to the left of the altar. Nuestra Señora de Socorro was built around 1627 and destroyed during the Pueblo Revolt of 1680. The present San Miguel church was built over its ruins in the nineteenth century. The New Mexico Tourism Department calls San Miguel the oldest existing structure in Socorro. The surviving wall belongs to the older church beneath it.",
+      "notice": "A section of the earlier adobe wall is visible behind glass left of the altar.",
       "at": [
         -106.89389,
         34.06028
@@ -20,13 +22,14 @@
       "title": "Socorro Wheel of History",
       "kind": "town",
       "scene": "town",
-      "text": "A block north of the plaza a bronze wheel tells the whole account, from the Piro pueblos and the colonial village to the mining boomtown and the science town of today."
+      "text": "The Wheel of History gathers more than four hundred years into a bronze sculpture a block north of the plaza. Its subjects run from the Piro pueblos through Spanish colonial settlement and the mining boom to Socorro’s present role in science and technology. The New Mexico School of Mines, founded here in 1889, is now the New Mexico Institute of Mining and Technology.",
+      "notice": "The Wheel of History is a bronze sculpture a block north of the plaza."
     },
     {
       "title": "Garcia Opera House",
       "kind": "town",
       "scene": "town",
-      "text": "Its owner hoped to draw opera to the 1886 hall and got travelling theatre and masked balls instead, with no record of an opera company ever stopping.",
+      "text": "The Garcia Opera House carried an ambition in its name. Built in 1886 at Terry Avenue and California Street, the hall hosted traveling theater, masked balls and other gatherings. Its owner hoped to attract opera, but no visit by a traveling opera company is recorded. The building was listed on the National Register of Historic Places in 1974.",
       "at": [
         -106.89111,
         34.05833
@@ -35,12 +38,8 @@
   ],
   "sources": [
     {
-      "label": "New Mexico True, Socorro Historic District Scenic Byway",
+      "label": "New Mexico Tourism Department, Socorro Historic District Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/socorro-historic-district/"
-    },
-    {
-      "label": "Wikipedia, Socorro, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Socorro,_New_Mexico"
     },
     {
       "label": "Wikipedia, San Miguel de Socorro",
@@ -49,8 +48,15 @@
     {
       "label": "Wikipedia, Garcia Opera House",
       "url": "https://en.wikipedia.org/wiki/Garcia_Opera_House"
+    },
+    {
+      "label": "Wikipedia, Socorro, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Socorro%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, James Gurden Fitch House",
+      "url": "https://en.wikipedia.org/wiki/James_Gurden_Fitch_House"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

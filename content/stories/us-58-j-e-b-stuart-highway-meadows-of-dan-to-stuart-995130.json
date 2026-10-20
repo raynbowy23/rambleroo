@@ -1,16 +1,18 @@
 {
   "id": "us-58-j-e-b-stuart-highway-meadows-of-dan-to-stuart-995130",
-  "tagline": "Off the Blue Ridge from Meadows of Dan toward Stuart.",
+  "tagline": "From the Parkway crossroads toward Stuart along a former turnpike corridor",
   "intro": [
-    "US 58 crosses the Blue Ridge Parkway at Meadows of Dan and winds its way toward Stuart, past the hamlet of Vesta, seven and a half miles out of town. The byway stops at Route 8, just north of Stuart. Its predecessor here was the Danville and Wytheville Turnpike of the 1850s.",
-    "The highway carries the name of J.E.B. Stuart, and so does the county seat it is headed for, which started out as Taylorsville."
+    "At Meadows of Dan, US 58 meets the Blue Ridge Parkway at milepost 178, among country shops, older houses and restaurants. East of the Parkway, US 58 winds toward Martinsville; on the way toward Stuart, it passes through Vesta. Patrick County spans mountainous country and the rolling hills and valleys of the Piedmont. Meadows of Dan is about 14 miles northwest of Stuart, the Patrick County seat.",
+    "The Danville and Wytheville Turnpike, established in the 1850s, preceded present-day US 58. The first train reached what was then Taylorsville in August 1884. The southern Virginia road corridor entered the initial state highway system in 1918 as State Route 12, generally following present US 58 from Abingdon to Virginia Beach. Travel to Stuart remained difficult until a hard-paved road arrived from Martinsville in 1925. In 1932, the road extended to Hillsville.",
+    "Begin at Meadows of Dan, named for the meadows near the Dan River. Mabry Mill is a separate Parkway excursion just north of the community, at milepost 176.2. Back on US 58, continue through Vesta, 7.5 miles northwest of Stuart. Stuart’s historic core occupies a hilltop, with its later railroad district downhill beside the Mayo River."
   ],
   "moments": [
     {
       "title": "Meadows of Dan",
       "kind": "town",
       "scene": "mountain",
-      "text": "A crossroads of country shops at Parkway milepost 178, named for the meadows along the Dan, where a Mayberry Road is one guess at where the television town got its name.",
+      "text": "The Parkway and US 58 meet at Meadows of Dan, a community named for meadows near the Dan River. The crossing is at Parkway milepost 178, near the Patrick and Floyd county line. Country shops and older houses are part of the community, which also lies along the Crooked Road, Virginia’s heritage music trail. It hosts an annual Folk Fair in cooperation with the Virginia Peach Festival. Nearby Cockram Mill, a historic gristmill complex, stands beside a concrete dam on the Dan River’s headwaters. The mill dates to about 1885 and uses two metal turbine wheels.",
+      "notice": "Older houses share the community with country shops.",
       "at": [
         -80.39527778,
         36.73638889
@@ -20,7 +22,7 @@
       "title": "Mabry Mill",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Just up the Parkway, E. B. Mabry's mill was a blacksmith and wheelwright shop when he started building in 1903, and grinding as a gristmill by 1905.",
+      "text": "Edwin Boston Mabry began building his mill after returning to Floyd County in 1903. It started as a blacksmith and wheelwright shop, became a sawmill, and was grinding grain by 1905. The front section, completed by 1910, held equipment for making wheel hubs and shaping lumber. Mabry bought adjoining land between 1905 and 1914, mostly to acquire more water power. A short trail now connects the gristmill, sawmill and blacksmith shop with historical exhibits on rural Virginia life. The National Park Service runs the former working mill, just north of Meadows of Dan on the Parkway.",
       "at": [
         -80.406,
         36.7509
@@ -28,34 +30,47 @@
       "motifs": [
         "gristmill"
       ]
+    },
+    {
+      "title": "Stuart",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Stuart’s uphill and downhill districts grew from two different centers of activity. The courthouse village occupied a hilltop; after the first train arrived in August 1884, industry and commerce developed beside the railroad on the Mayo River flats. The town was renamed from Taylorsville to Stuart that year, honoring Confederate Major General J.E.B. Stuart. Uptown retained the courthouse, churches, banks and stores. The first telephone line connected the two districts, running from the downtown depot to the Hotel Perkins uphill. Patrick County voters had approved a $150,000 bond in 1883 to extend the railroad from Martinsville.",
+      "at": [
+        -80.27388889,
+        36.64027778
+      ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, U.S. Route 58 in Virginia",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_58_in_Virginia"
-    },
-    {
       "label": "Wikipedia, Meadows of Dan, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Meadows_of_Dan,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Vesta, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Vesta,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Meadows_of_Dan%2C_Virginia"
     },
     {
       "label": "Wikipedia, Stuart, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Stuart,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Stuart%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, U.S. Route 58",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_58"
+    },
+    {
+      "label": "Wikipedia, Patrick County, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Patrick_County%2C_Virginia"
     },
     {
       "label": "Wikipedia, Mabry Mill",
       "url": "https://en.wikipedia.org/wiki/Mabry_Mill"
     },
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
+      "label": "Wikipedia, Vesta, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Vesta%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Cockram Mill",
+      "url": "https://en.wikipedia.org/wiki/Cockram_Mill"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

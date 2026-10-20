@@ -1,20 +1,41 @@
 {
   "id": "toledo-bend-forest-scenic-byway-2077",
-  "tagline": "Along the big Sabine lake, through the old Neutral Strip.",
+  "tagline": "Pines and hardwoods line a reservoir along the Texas border",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "Toledo Bend Reservoir backs the Sabine River up along the Texas line, 185,000 acres of water, the largest man-made lake in the South. The byway keeps to the Louisiana side for about 78 miles, a rolling road through pine and hardwood forest, with parks, marinas, fishing resorts and lookouts for eagles and blue herons along the way.",
-    "After the Louisiana Purchase this was the Neutral Strip, land the United States and Spain agreed to keep free of soldiers while they argued over the line. It went without government or law until the treaty of 1819 set the border at the Sabine."
+    "The Toledo Bend Forest Scenic Byway follows rolling country beside the reservoir on Louisiana’s Texas border, through pines and hardwoods. Louisiana Tourism describes a 78-mile byway whose attractions combine forest scenery with lake recreation, and suggests one day for a self-guided tour. LA 191 parallels the reservoir, crossing it several times and providing access to parks along the eastern shore. The reservoir covers 185,000 acres on the Sabine River between Texas and Louisiana.",
+    "The lake beside the road is the result of a joint Texas and Louisiana project for water supply, hydroelectric power and recreation. Construction began in 1964, water impoundment followed in 1966, and the power plant began operating in 1969. The reservoir inundated communities in Sabine Parish, including homes, schools and churches in predominantly poor and minority communities.",
+    "Begin at Logansport’s Sabine riverfront, then take US 84 east to the LA 191 connection and turn south along the reservoir. Between Logansport and the southern park, North Toledo Bend State Park offers hiking and birding beside the reservoir’s upriver reaches. Fort Jesup is a separate excursion near Many. Continuing south, LA 191 passes through South Toledo Bend State Park near the Texas line, where small bluffs rise above the water."
   ],
-  "season": "Spring and summer, when the wildflowers and native trees bloom along the road.",
   "moments": [
+    {
+      "title": "Logansport",
+      "kind": "town",
+      "scene": "river",
+      "text": "The Sabine at Logansport was once an international boundary. After Texas became an independent republic in 1836, surveyors marked the boundary in work that began at the Gulf of Mexico in 1840 and finished in 1841. A marker was placed in Logansport. Texas annexation in 1845 ended the river’s nine years as that international dividing line. The town’s riverfront now has terraced grounds, walking paths, a veterans memorial and a gazebo beside the US 84 entrance from Texas. The town took the name Logansport when its post office was established in 1848.",
+      "at": [
+        -93.99888889,
+        31.98027778
+      ]
+    },
+    {
+      "title": "Fort Jesup",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Fort Jesup’s surviving kitchen and reconstructed officers’ quarters tell different parts of its story. Colonel Zachary Taylor established Cantonment Jesup in 1822; the post operated until 1846. It was built to restore order in the Neutral Strip, territory disputed after the Louisiana Purchase. By the 1930s, only the kitchen of Enlisted Barracks 4 remained. Residents of Many raised money to restore it and made the grounds a park. The reconstructed quarters now serve as a museum; the original kitchen is a survivor of the military post. The site lies seven miles northeast of Many on Louisiana Highway 6.",
+      "notice": "The field kitchen is original; the officers’ quarters are a reconstruction.",
+      "at": [
+        -93.40083333,
+        31.61138889
+      ]
+    },
     {
       "title": "South Toledo Bend State Park",
       "kind": "short walk",
       "scene": "forest",
-      "text": "On a few small bluffs above the reservoir, the park is a nesting ground for bald eagles and a favorite of the bass fishermen.",
+      "text": "Small bluffs lift South Toledo Bend State Park above the reservoir. The park is a nesting ground for bald eagles, which feed on freshwater fish. The land was acquired in 1979, but facilities did not open to the public until November 2004. A surfaced nature trail runs 3,000 feet from the visitor center museum to the Hippie Point Hiking Trail. The museum’s nature exhibits explain local species and their environmental roles. The Hippie Point trail continues for 1.5 miles; the reservoir supports largemouth bass, catfish, bream and white perch.",
       "at": [
         -93.57,
         31.208
@@ -22,50 +43,33 @@
       "motifs": [
         "lake-wide"
       ]
-    },
-    {
-      "title": "Fort Jesup",
-      "kind": "separate excursion",
-      "scene": "forest",
-      "text": "Colonel Zachary Taylor set up the post in 1822 to bring order to the Neutral Strip, and its original field kitchen still stands beside a replica of the officers' quarters.",
-      "at": [
-        -93.40083333,
-        31.61138889
-      ]
-    },
-    {
-      "title": "Logansport",
-      "kind": "town",
-      "scene": "river",
-      "text": "When the Sabine was the border with the Republic of Texas, surveyors set markers along it, and the one at Logansport is the only known international boundary marker inside the United States.",
-      "at": [
-        -93.99888889,
-        31.98027778
-      ]
     }
   ],
   "sources": [
     {
-      "label": "Louisiana Office of Tourism, Toledo Bend Forest Scenic Byway (Wayback Machine snapshot)",
+      "label": "Louisiana Office of Tourism, Toledo Bend Forest Scenic Byway (archived August 2025)",
       "url": "https://web.archive.org/web/20250808114953/https://byways.explorelouisiana.com/byway/toledo-bend-forest-scenic-byway"
+    },
+    {
+      "label": "Wikipedia, List of state highways in Louisiana (150–199)",
+      "url": "https://en.wikipedia.org/wiki/List_of_state_highways_in_Louisiana_%28150%E2%80%93199%29"
     },
     {
       "label": "Wikipedia, Toledo Bend Reservoir",
       "url": "https://en.wikipedia.org/wiki/Toledo_Bend_Reservoir"
     },
     {
-      "label": "Wikipedia, South Toledo Bend State Park",
-      "url": "https://en.wikipedia.org/wiki/South_Toledo_Bend_State_Park"
+      "label": "Wikipedia, Logansport, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Logansport%2C_Louisiana"
     },
     {
       "label": "Wikipedia, Fort Jesup",
-      "url": "https://en.wikipedia.org/wiki/Fort_Jesup_State_Historic_Site"
+      "url": "https://en.wikipedia.org/wiki/Fort_Jesup"
     },
     {
-      "label": "Wikipedia, Logansport, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Logansport,_Louisiana"
+      "label": "Wikipedia, South Toledo Bend State Park",
+      "url": "https://en.wikipedia.org/wiki/South_Toledo_Bend_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -160,10 +160,6 @@
         48.1181
       ],
       [
-        -122.57511,
-        48.10194
-      ],
-      [
         -122.56824,
         48.08852
       ],
@@ -216,12 +212,16 @@
         48.00425
       ],
       [
-        -122.4076,
-        47.99982
+        -122.40908,
+        48.00019
       ],
       [
-        -122.391,
-        47.98552
+        -122.40289,
+        47.99747
+      ],
+      [
+        -122.38984,
+        47.98472
       ],
       [
         -122.37806,
@@ -286,21 +286,21 @@
     {
       "name": "Coupeville",
       "model": "harbor",
-      "at": 0.42665688368838156,
+      "at": 0.4266324007223203,
       "offset": "roadside",
       "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Coupeville",
       "model": "town-blocks",
-      "at": 0.42665688368838156,
+      "at": 0.4266324007223203,
       "offset": "roadside",
       "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Greenbank",
       "model": "town-blocks",
-      "at": 0.6504198674878767,
+      "at": 0.6503825442706731,
       "offset": "roadside",
       "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     }
@@ -358,7 +358,7 @@
     },
     {
       "name": "Clinton",
-      "at": 0.99957805907173,
+      "at": 0.999789029535865,
       "landmark": ""
     }
   ],

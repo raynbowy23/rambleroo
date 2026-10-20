@@ -1,80 +1,79 @@
 {
   "id": "san-francisco-peaks-scenic-road-11292",
-  "tagline": "Northwest out of Flagstaff, around the shoulder of Arizona's highest mountain.",
+  "tagline": "A highway through Arizona’s highest mountains, remnants of one larger volcano.",
   "motifs": [
     "aspens",
     "snow-peaks"
   ],
   "intro": [
-    "US 180 leaves Flagstaff heading northwest along the flank of the San Francisco Peaks, the remnant of a single larger volcano. Humphreys Peak, the highest point in the state, stands at 12,633 feet. The road runs through the pine forest, aspen groves and open prairie of the Coconino National Forest.",
-    "Snowbowl sits on the western slopes of Humphreys Peak. The Forest Service allowed a road and ski lodge there in 1938, twenty-three years after Ole and Pete Solberg first came down Flagstaff's Mars Hill on homemade wooden skis."
+    "US 180 passes through the San Francisco Peaks, Arizona’s highest mountains, between Flagstaff and Valle. The peaks are what remains of a larger single volcano, with Humphreys Peak the highest point in Arizona. The Forest Service describes the surrounding country on its separate Around the Peaks Loop as pine forest, aspen groves and open prairie.",
+    "Road access developed alongside mountain recreation. In 1938, the Forest Service authorized a road and ski lodge at Hart Prairie on the western slopes. That was the beginning of skiing operations at Arizona Snowbowl. In 1979, the agency approved expanded parking, lifts, trails and a paved road; Hopi and Navajo people protested development on the sacred peaks.",
+    "For the drive toward Flagstaff, Valle lies northwest of the city on US 180. Lava River Cave is a separate excursion west of Flagstaff. Fort Valley’s open meadow lies at the base of Snowbowl Road. In Flagstaff, the Museum of Northern Arizona brings the Colorado Plateau’s natural history and cultures into its collections."
   ],
   "moments": [
     {
-      "title": "Museum of Northern Arizona",
+      "title": "Lava River Cave",
       "kind": "separate excursion",
-      "scene": "town",
-      "text": "A zoologist and an artist from Philadelphia founded it in 1928 in two rooms of the Flagstaff Woman's Club. One curator stayed 51 years.",
+      "scene": "forest",
+      "text": "A hollow left inside a lava flow runs for approximately three-quarters of a mile beneath Coconino National Forest. The flow’s top, sides and bottom cooled into solid rock while lava drained from the middle, leaving the tube behind. Lumbermen discovered the cave in 1915. Its entrance area becomes slippery with condensation, and some rocks carry ice. Summer temperatures inside are around 40 degrees Fahrenheit. There are no interior light sources. The tube reaches 30 feet high in places, but a side passage that rejoins the main tunnel drops to only two or three feet.",
       "at": [
-        -111.66211,
-        35.23501
+        -111.83561,
+        35.34227
       ]
     },
     {
       "title": "Fort Valley",
       "kind": "town",
       "scene": "forest",
-      "text": "Settled in 1881 at the foot of Mount Agassiz and named for a fort built against the Apache that was never actually used.",
+      "text": "The open meadow at the base of Snowbowl Road is also a place of small farms and ranches. Logging drew settlers to Fort Valley, where ponderosa pine supplied timber shipped by rail. Ranching followed, and overgrazing damaged the land while silt darkened water sources including Leroux spring. Forest Service member Gustaf Adolf Pearson arrived in 1908 and began work to revive the area. Fort Valley remains a settlement at the edge of Flagstaff. The combination of mountain and desert environments also drew geologists, paleontologists and other scientists here to collect data.",
       "at": [
         -111.73972,
         35.32278
       ]
     },
     {
-      "title": "Lava River Cave",
+      "title": "Museum of Northern Arizona",
       "kind": "separate excursion",
-      "scene": "forest",
-      "text": "Three quarters of a mile of lava tube, found by lumbermen in 1915. It holds near 40 degrees all summer, often with ice on some of the rocks.",
+      "scene": "town",
+      "text": "Two rooms in the Flagstaff Woman’s Club were the starting point for the Museum of Northern Arizona. Zoologist Harold S. Colton and artist Mary-Russell Ferrell Colton founded it in 1928, two years after moving to Flagstaff. Katharine Bartlett joined as curator in 1930 and remained for 51 years. The museum grew into a 24,700-square-foot exhibition building with adjacent research and collections facilities. Its Ethnology Gallery focuses on the Hopi, Zuni, Navajo and Pai tribes. Harold became director, while Mary-Russell took responsibility for art and ethnology, bringing their different disciplines into the same institution.",
       "at": [
-        -111.83561,
-        35.34227
+        -111.66211,
+        35.23501
       ]
     }
   ],
+  "practical": [
+    "Lava River Cave: Dirt access roads may be impassable to cars in winter or wet weather; Forest Roads 245 and 171 typically close in winter. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "ADOT, List of Scenic Roads (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20260412095407/https://azdot.gov/about/historic-and-scenic-roads/list-scenic-roads"
-    },
-    {
-      "label": "USDA Forest Service, Coconino National Forest, Around the Peaks Loop Scenic Drive",
-      "url": "https://www.fs.usda.gov/r03/coconino/recreation/around-peaks-loop-scenic-drive"
+      "label": "Wikipedia, San Francisco Peaks",
+      "url": "https://en.wikipedia.org/wiki/San_Francisco_Peaks"
     },
     {
       "label": "Wikipedia, U.S. Route 180",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_180"
     },
     {
-      "label": "Wikipedia, San Francisco Peaks",
-      "url": "https://en.wikipedia.org/wiki/San_Francisco_Peaks"
+      "label": "USDA Forest Service, Coconino National Forest, Around the Peaks Loop Scenic Drive",
+      "url": "https://www.fs.usda.gov/r03/coconino/recreation/around-peaks-loop-scenic-drive"
     },
     {
       "label": "Wikipedia, Arizona Snowbowl",
       "url": "https://en.wikipedia.org/wiki/Arizona_Snowbowl"
     },
     {
-      "label": "Wikipedia, Museum of Northern Arizona",
-      "url": "https://en.wikipedia.org/wiki/Museum_of_Northern_Arizona"
+      "label": "Wikipedia, Lava River Cave (Arizona)",
+      "url": "https://en.wikipedia.org/wiki/Lava_River_Cave_%28Arizona%29"
     },
     {
       "label": "Wikipedia, Fort Valley, Arizona",
-      "url": "https://en.wikipedia.org/wiki/Fort_Valley,_Arizona"
+      "url": "https://en.wikipedia.org/wiki/Fort_Valley%2C_Arizona"
     },
     {
-      "label": "Wikipedia, Lava River Cave (Arizona)",
-      "url": "https://en.wikipedia.org/wiki/Lava_River_Cave_(Arizona)"
+      "label": "Wikipedia, Museum of Northern Arizona",
+      "url": "https://en.wikipedia.org/wiki/Museum_of_Northern_Arizona"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

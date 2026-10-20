@@ -1,46 +1,53 @@
 {
   "id": "sawtooth-scenic-byway-2400",
-  "tagline": "Up the Big Wood, over Galena, down to the Sawtooths.",
+  "tagline": "Over Galena Summit, from the Salmon watershed to the Big Wood",
   "intro": [
-    "Idaho 75 leaves Shoshone, an old railroad town set among lava rock, and climbs the Big Wood River valley through farmland to Bellevue, Hailey and Ketchum. North of Ketchum it runs under the Boulder Mountains, with peaks over 11,000 feet, and climbs to Galena Summit at 8,701 feet, the divide between the Big Wood and the Salmon.",
-    "A mile on, an overlook at 8,400 feet looks across to the Sawtooth range. The road comes down into the Sawtooth Valley and follows the headwaters of the Salmon north to Stanley, with the Sawtooths close on the west and the White Clouds farther off to the east."
+    "The Sawtooth Scenic Byway follows Idaho 75 between Stanley and Shoshone, crossing Galena Summit between the Salmon and Big Wood river valleys. This two-lane highway runs through the Sawtooth Valley, with the Sawtooth Mountains to the west and the White Cloud Mountains farther east. The pass reaches 8,701 feet, with a viewpoint on its Stanley side overlooking the Salmon headwaters. The route provides access to the Sawtooth National Recreation Area. North of Ketchum, the highway passes its headquarters before climbing past Galena Lodge toward the summit.",
+    "The road dates to at least 1926, when it carried the U.S. 93 designation. In 1977, U.S. 93 moved to the former alternate route through Arco, and this road became State Highway 75. The overlook had opened in 1964; it was renamed for Frank and Bethine Church in 2006. Before the road became Idaho 75, the pass already carried travelers on U.S. 93.",
+    "Heading south from Stanley, pass the Redfish Lake turnoff and follow the Salmon valley toward Galena Summit. Beyond the pass, descend toward Ketchum beneath the Boulder Mountains, whose peaks rise above 11,000 feet. The Big Wood valley carries the highway through Hailey and Bellevue, then toward Shoshone, where the surrounding land includes extensive lava rock."
   ],
   "moments": [
     {
-      "title": "Shoshone Ice Caves",
+      "title": "Redfish Lake",
       "kind": "separate excursion",
-      "scene": "desert",
-      "text": "About 15 miles north of Shoshone the ice in these lava tubes holds through the summer, and it once made the town the only place for hundreds of miles to get a cold beer."
+      "scene": "mountain",
+      "text": "Redfish Lake takes its name from the sockeye salmon that returned here from the Pacific Ocean to spawn. The lake lies south of Stanley in the Sawtooth National Recreation Area. A paved road branches from Idaho 75 to its north shore. At the opposite end, Mount Heyburn and Grand Mogul frame the water. The lake extends 4.5 miles, but the trail around it runs 17.5 miles. Forest Service facilities support hiking, camping and water sports along the lake. The Forest Service developed the shore for recreation while largely maintaining the natural landscape of the surrounding Sawtooth Mountains.",
+      "at": [
+        -114.93333,
+        44.11667
+      ]
+    },
+    {
+      "title": "Galena Summit",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Galena Summit divides the Salmon River drainage from the Big Wood River drainage. The highway crosses at 8,701 feet in the Boulder Mountains. On the Stanley side, Galena Overlook stands a little more than a mile west of the summit, at 8,400 feet. Its view takes in the Sawtooth range and the Salmon headwaters. Opened in 1964, the overlook was renamed for Frank and Bethine Church in 2006 and renovated in 2010. The highway pass also carried a stage of the Women’s Challenge bicycle race, held from 1984 to 2002.",
+      "at": [
+        -114.713,
+        43.87
+      ]
     },
     {
       "title": "Ketchum",
       "kind": "town",
       "scene": "town",
-      "text": "By 1920 Ketchum was the largest sheep-shipping center in the West, and Hemingway, who later bought a house above the Big Wood River, is buried in its cemetery.",
+      "text": "Ketchum began as a smelting center called Leadville in 1880. When mining declined in the 1890s, sheepmen drove flocks through town to summer grazing in the higher mountains. In autumn, the sheep returned to corrals at the Union Pacific railhead, connected to the main line at Shoshone. The town marks its wagon history each Labor Day weekend with Wagon Days, whose parade includes narrow ore wagons. Two streams, Trail Creek and Warm Springs Creek, join the Big Wood River in town. Ketchum and neighboring Sun Valley share the valley beneath Bald Mountain.",
       "at": [
         -114.365,
         43.68
       ]
     },
     {
-      "title": "Redfish Lake",
+      "title": "Shoshone Ice Caves",
       "kind": "separate excursion",
-      "scene": "mountain",
-      "text": "The lake is named for sockeye salmon that once came back from the Pacific in such numbers that it shimmered red at spawning time.",
-      "at": [
-        -114.93333,
-        44.11667
-      ]
+      "scene": "desert",
+      "text": "The Shoshone Ice Caves are lava tubes where ice remains frozen through summer. They lie about 15 miles north of Shoshone, in a region where lava rock covers much of the land. That rock also limits farmland and makes excavation for buildings difficult."
     }
   ],
   "sources": [
     {
-      "label": "Visit Idaho, Sawtooth Scenic Byway (Wayback Machine, 2024)",
-      "url": "https://web.archive.org/web/20240104043512/https://visitidaho.org/things-to-do/museums-exhibits/sawtooth-scenic-byway/"
-    },
-    {
-      "label": "Visit Idaho, Sawtooth Scenic Byway (Wayback Machine, 2013)",
-      "url": "https://web.archive.org/web/20130605121832/http://www.visitidaho.org/scenic-byways/sawtooth-scenic-byway/"
+      "label": "Wikipedia, Galena Summit",
+      "url": "https://en.wikipedia.org/wiki/Galena_Summit"
     },
     {
       "label": "Wikipedia, Idaho State Highway 75",
@@ -48,21 +55,16 @@
     },
     {
       "label": "Wikipedia, Shoshone, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Shoshone,_Idaho"
-    },
-    {
-      "label": "Wikipedia, Ketchum, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Ketchum,_Idaho"
-    },
-    {
-      "label": "Wikipedia, Galena Summit",
-      "url": "https://en.wikipedia.org/wiki/Galena_Summit"
+      "url": "https://en.wikipedia.org/wiki/Shoshone%2C_Idaho"
     },
     {
       "label": "Wikipedia, Redfish Lake",
       "url": "https://en.wikipedia.org/wiki/Redfish_Lake"
+    },
+    {
+      "label": "Wikipedia, Ketchum, Idaho",
+      "url": "https://en.wikipedia.org/wiki/Ketchum%2C_Idaho"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

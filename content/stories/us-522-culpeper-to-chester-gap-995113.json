@@ -1,39 +1,41 @@
 {
   "id": "us-522-culpeper-to-chester-gap-995113",
-  "tagline": "Out of Culpeper and up through the foothills to Chester Gap.",
+  "tagline": "Mountain gaps and river crossings link villages along the Blue Ridge foothills",
   "intro": [
-    "US 522 leaves Culpeper on Evans Street and heads northwest into the Blue Ridge foothills as Sperryville Pike, through Griffinsburg, across the Hazel River and through the village of Boston. In Rappahannock County it follows Blackwater Creek through the gap between Butler Mountain and Bessie Bell Mountain to Woodville, then passes through Sperryville and crosses the Thornton River.",
-    "It runs with US 211 past the county seat of Washington, then turns north at Massies Corner as Zachary Taylor Highway, through Flint Hill and over the Jordan River and its branches, and climbs the Blue Ridge to Chester Gap, where it crosses the Appalachian Trail by the headwaters of the Rappahannock."
+    "Between Culpeper and Chester Gap, US 522 follows streams through the Blue Ridge foothills before climbing the mountains from Huntly. On Sperryville Pike, Blackwater Creek leads it between Butler Mountain and Bessie Bell Mountain to Woodville. The road changes scale at Sperryville, joining four-lane divided US 211 before returning to two lanes north of Massies Corner. Between Flint Hill and Huntly, the highway crosses the Jordan River and three of its tributaries.",
+    "The villages were serving mountain travelers before the numbered highway: Sperryville had a tavern and stagecoach office for the journey from Culpeper Court House to New Market. Turnpikes built in the 1850s connected Sperryville with Culpeper, New Market and the Rappahannock River. In Washington, part of the old road to Chester Gap became Gay Street. By the later 1930s, tourists were visiting Washington on their way to Skyline Drive in Shenandoah National Park.",
+    "For a southbound drive, begin at Chester Gap, where US 522 meets the Appalachian Trail, and descend through Huntly toward Flint Hill. At Massies Corner, the route joins US 211; the business routes lead into Washington while the main highway passes southeast of town. Continue through Sperryville and Woodville, then past Boston toward Culpeper, where Evans Street crosses Mountain Run."
   ],
   "moments": [
     {
-      "title": "Sperryville",
-      "kind": "town",
-      "scene": "town",
-      "text": "A village laid out in lots from 1820 on two branches of the Thornton River, which by 1880 had seven distillers and exactly one saloon.",
+      "title": "Chester Gap",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Chester Gap takes its name from the wind gap in which the community sits. US 522 climbs here from Huntly and meets the Appalachian Trail at the Rappahannock, Warren and Fauquier county tripoint. North of the gap, the highway enters Warren County and descends toward Front Royal along Happy Creek.",
       "at": [
-        -78.22611111,
-        38.65694444
+        -78.1325,
+        38.85333333
       ]
     },
     {
       "title": "Washington",
       "kind": "town",
       "scene": "town",
-      "text": "Little Washington, a county seat of 86 people, whose story that George Washington surveyed it in 1749 is believed to rest on documents invented in 1932.",
+      "text": "Washington keeps the street grid and street names shown on its 1797 town plan. George Calvert, James Jett Jr. and James Wheeler petitioned for the town in 1796; a second petition, joined by William Porter, sought to add more land the following year. Four of the six planned streets bore the petitioners’ names. Washington became the county seat in 1833, and its courthouse is a two-story brick building in the Jeffersonian style. The business route through town follows the old US 211 alignment. The former Presbyterian church, built in 1858 with Doric detailing, now serves as Town Hall.",
+      "notice": "The town retains the street grid and street names drawn in its 1797 plan.",
       "at": [
         -78.15944444,
         38.71277778
       ]
     },
     {
-      "title": "Chester Gap",
-      "kind": "roadside",
-      "scene": "mountain",
-      "text": "At the top of the climb the highway crosses the Appalachian Trail in a wind gap of the Blue Ridge, near where the Rappahannock begins.",
+      "title": "Sperryville",
+      "kind": "town",
+      "scene": "town",
+      "text": "Two main streets follow the two branches of the Thornton River through Sperryville, with pasture and farmland surrounding the village. Francis Thornton began selling small lots along the main road in 1820. A tavern and stagecoach office served travelers between Culpeper Court House and New Market. Manufacturing left another layer of buildings: the historic district includes houses built for Smoot tannery workers from 1867 into the early twentieth century. Its buildings are predominantly one- and two-story wood-frame residences, some converted to businesses. An apple-processing facility followed in 1918, built to serve the area’s many orchardists.",
       "at": [
-        -78.1325,
-        38.85333333
+        -78.22611111,
+        38.65694444
       ]
     }
   ],
@@ -44,17 +46,20 @@
     },
     {
       "label": "Wikipedia, Sperryville, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Sperryville,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Sperryville%2C_Virginia"
     },
     {
       "label": "Wikipedia, Washington, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Washington,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Washington%2C_Virginia"
     },
     {
       "label": "Wikipedia, Chester Gap, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Chester_Gap,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Chester_Gap%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Sperryville Historic District",
+      "url": "https://en.wikipedia.org/wiki/Sperryville_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

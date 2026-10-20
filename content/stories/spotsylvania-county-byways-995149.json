@@ -1,26 +1,37 @@
 {
   "id": "spotsylvania-county-byways-995149",
-  "tagline": "Two county roads out of Civil War ground.",
+  "tagline": "A church, crossroads and iron furnace reveal the war’s civilian landscape.",
   "intro": [
-    "Guinea Station Road comes up from the Stonewall Jackson death site to US 1 near Massaponax, a name taken from a Native American village and said to mean corn as tall as a man. Through the war the Baptist church here served as a stable, a hospital and a headquarters, and Grant had its pews carried outside for a meeting photographed from upstairs.",
-    "River Road is a separate piece. It starts from SR 3 at Chancellorsville, where the battle was fought in May 1863, and heads toward Fredericksburg."
+    "At Massaponax, US 1 meets Massaponax Church Road beside a brick church built in 1859. Chancellorsville lies about ten miles west of Fredericksburg, with portions of its battlefield preserved in Fredericksburg and Spotsylvania National Military Park. The park includes the ruins of the Chancellor family mansion and the house where Stonewall Jackson died.",
+    "The roads carried civilian commerce before becoming military routes: the Chancellor family operated an inn at the meeting of the Orange Turnpike and Orange Plank Road. During the 1863 campaign, River Road offered Union troops one of three routes east from Chancellorsville. Joseph Hooker made the Chancellor mansion his headquarters. At nearby Catharine Furnace, cart roads became part of Stonewall Jackson’s flanking march.",
+    "Start the historical sequence at Massaponax’s church, where soldiers’ wall drawings survive behind plexiglass. Catharine Furnace, near Chancellorsville, is a separate excursion within the national military park. Then turn to the Chancellorsville inn site, preserved within the park at the former headquarters."
   ],
   "moments": [
     {
       "title": "Massaponax",
       "kind": "town",
       "scene": "town",
-      "text": "Renovation work in 1938 uncovered the soldiers' drawings and messages beneath the church's whitewash, and portions now show behind plexiglass.",
+      "text": "Soldiers’ drawings and messages survive inside Massaponax Baptist Church, exposed during renovations in 1938 after decades beneath whitewash. The congregation had completed its brick church in 1859. After the Civil War began, Black members received letters of dismissal; several small churches were established for those excluded. Services stopped during the war, and the building served as a stable, hospital and headquarters. In May 1864, Grant ordered pews carried outside for a generals’ meeting; Timothy H. O’Sullivan photographed it from the second floor. Portions of the soldiers’ graffiti are visible behind plexiglass frames.",
       "at": [
         -77.50922222,
         38.19330556
       ]
     },
     {
+      "title": "Catharine Furnace",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Catharine Furnace supplied iron for war, using a workforce that included enslaved people. Built in 1837, it closed ten years later, then resumed production during the Civil War. The revived company contracted to deliver 2,000 tons of pig iron to the Confederate Navy over three years. Its cart roads also served Jackson’s flanking movement at Chancellorsville. Union cavalry fighting damaged the furnace in 1864, but it was operating again in early 1865 and hiring enslaved workers. After the war, government demand ended and competition from western Pennsylvania helped bring the business to an end.",
+      "at": [
+        -77.64835,
+        38.28866
+      ]
+    },
+    {
       "title": "Chancellorsville",
       "kind": "town",
       "scene": "town",
-      "text": "The Chancellor family's inn at the Orange Turnpike and Orange Plank Road named the place and housed Hooker's headquarters, its site now preserved in the national military park.",
+      "text": "Chancellorsville takes its name from the Chancellor family’s inn at the junction of the Orange Turnpike and Orange Plank Road. Union commander Joseph Hooker used it as his headquarters during the battle in May 1863. The national military park preserves the inn site, including the mansion’s ruins. It also preserves the place where Confederate general Stonewall Jackson was wounded by his own side’s fire. Jackson died of pneumonia eight days later at Guinea Station, a separate site in Caroline County. The park, established in 1927, brings these places together with the Fredericksburg, Wilderness and Spotsylvania battlefields.",
       "at": [
         -77.63444444,
         38.30833333
@@ -28,10 +39,6 @@
     }
   ],
   "sources": [
-    {
-      "label": "Wikipedia, Massaponax, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Massaponax%2C_Virginia"
-    },
     {
       "label": "Wikipedia, Massaponax Baptist Church",
       "url": "https://en.wikipedia.org/wiki/Massaponax_Baptist_Church"
@@ -41,10 +48,17 @@
       "url": "https://en.wikipedia.org/wiki/Chancellorsville%2C_Virginia"
     },
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
+      "label": "Wikipedia, Catharine Furnace",
+      "url": "https://en.wikipedia.org/wiki/Catharine_Furnace"
+    },
+    {
+      "label": "Wikipedia, Fredericksburg and Spotsylvania National Military Park",
+      "url": "https://en.wikipedia.org/wiki/Fredericksburg_and_Spotsylvania_National_Military_Park"
+    },
+    {
+      "label": "Wikipedia, Battle of Chancellorsville",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Chancellorsville"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

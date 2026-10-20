@@ -1,19 +1,22 @@
 {
   "id": "ponderosa-pine-scenic-byway-2041",
-  "tagline": "Through the gold camps and over Banner Summit to Stanley.",
+  "tagline": "From a gold-country toll road to switchbacks and the Sawtooth Mountains",
   "motifs": [
     "switchbacks"
   ],
   "intro": [
-    "Idaho 21 leaves Boise up the Boise River through a basalt canyon, past Lucky Peak Dam, then climbs with Mores Creek out of the sagebrush into the ponderosa pine of the Boise National Forest and the old gold country of the Boise Basin. Past Idaho City it crosses two summits and drops 2,240 feet in switchbacks to Lowman, on the South Fork of the Payette.",
-    "From Lowman it follows the river up toward the Sawtooths and climbs to Banner Creek Summit at 7,056 feet, the divide between the Payette and the Salmon. The road comes down the far side and along the northern edge of the Sawtooths to Stanley."
+    "The Ponderosa Pine Scenic Byway follows Idaho 21 from Boise to Stanley, mostly on two lanes. A basalt river canyon gives way to sagebrush, then ponderosa pine forest as the highway climbs toward Idaho City. Beyond the mining town, summits and switchbacks carry the road down to Lowman and the South Fork of the Payette River. Visit Idaho presents the designated byway as a journey through national forests, gold-rush history and the Sawtooth landscape, allowing three hours for its 131 miles.",
+    "Parts of the highway began in the 1860s as a toll road linking Boise with the gold workings near Idaho City. The numbered highway later entered downtown Boise along Warm Springs Avenue. In 1980, the state approved a new endpoint at I-84’s Gowen Road interchange. A new Boise River bridge opened in 1996, and the former alignment passed to the Ada County Highway District the following year.",
+    "From Boise, the drive passes Lucky Peak Dam and follows Mores Creek into Idaho City. Mores Creek and Beaver Creek summits come next, before the switchback descent to Lowman. Beyond Lowman, the road climbs toward Banner Creek Summit, crosses into the Salmon drainage and continues to the Stanley Lake turnoff before ending at Idaho 75 in Stanley."
   ],
+  "notice": "Sagebrush gives way to ponderosa pine as the road climbs toward Idaho City.",
   "moments": [
     {
       "title": "Idaho City",
       "kind": "town",
       "scene": "town",
-      "text": "In 1864 Idaho City held 7,000 people, more than Portland, and being built of wood it burned four times between 1865 and 1871.",
+      "text": "Water helped Idaho City outgrow the other gold camps of the Boise Basin. Founded as Bannock in December 1862 near Elk and Mores creeks, the settlement grew during the Civil War gold rush. The territorial legislature renamed it to avoid confusion with Bannack in what is now Montana. Its boom brought more than 200 businesses, including three dozen saloons and two dozen law offices, by the mid-1860s. Wood supplied shelter and heat, but also fed four town fires between 1865 and 1871. Mining tailings remain outside town, while the Boise Basin Museum occupies a building constructed as a post office in 1867.",
+      "notice": "Mining tailings remain outside Idaho City.",
       "at": [
         -115.83222,
         43.82861
@@ -26,7 +29,7 @@
       "title": "Lowman",
       "kind": "town",
       "scene": "forest",
-      "text": "Lowman, population 44, still keeps a one-room school, and in 1989 a wildfire burned some 45,000 acres around it without injuring anyone.",
+      "text": "Idaho 21 reaches Lowman by descending in switchbacks from Beaver Creek Summit. Here the route meets the Wildlife Canyon Scenic Byway, which follows the South Fork of the Payette west toward Banks. Lowman takes its name from Nathaniel Winfield Lowman, an Iowa homesteader who settled here in 1907. A wildfire in 1989 destroyed 26 structures in the surrounding area without injuries or deaths. The community has a one-room school still in use, and natural hot springs surface within Lowman and the surrounding mountains. Beyond this junction, the Ponderosa Pine route turns up the South Fork toward Grandjean and the western side of the Sawtooths.",
       "at": [
         -115.62444,
         44.07861
@@ -36,38 +39,30 @@
       "title": "Stanley Lake",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "About four miles short of Stanley a three-mile spur road leads to Stanley Lake, under the jagged 9,860-foot McGown Peak."
+      "text": "About four miles west of Stanley, a three-mile spur leaves Idaho 21 for Stanley Lake. The lake sits at 6,513 feet, framed by the jagged profile of McGown Peak at 9,860 feet.",
+      "notice": "McGown Peak’s jagged profile rises above Stanley Lake."
     }
   ],
   "practical": [
-    "Avalanche conditions in the Banner Summit area can close the road in winter, and the upper elevations are often closed in the winter months."
+    "Lowman: Check road conditions before winter travel: avalanche conditions in the Banner Summit area can cause closures. (checked 2026-10-11)"
   ],
   "sources": [
-    {
-      "label": "Visit Idaho, Ponderosa Pine Scenic Byway (Wayback Machine, 2024)",
-      "url": "https://web.archive.org/web/20240104043512/https://visitidaho.org/things-to-do/horseback-riding/ponderosa-pine-scenic-byway/"
-    },
-    {
-      "label": "Visit Idaho, Ponderosa Pine Scenic Byway (Wayback Machine, 2013)",
-      "url": "https://web.archive.org/web/20130605114105/http://www.visitidaho.org/scenic-byways/ponderosa-pine-scenic-byway/"
-    },
     {
       "label": "Wikipedia, Idaho State Highway 21",
       "url": "https://en.wikipedia.org/wiki/Idaho_State_Highway_21"
     },
     {
+      "label": "Visit Idaho, Ponderosa Pine Scenic Byway (archived April 18, 2026)",
+      "url": "https://web.archive.org/web/20260418140807/https://visitidaho.org/things-to-do/horseback-riding/ponderosa-pine-scenic-byway/"
+    },
+    {
       "label": "Wikipedia, Idaho City, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Idaho_City,_Idaho"
+      "url": "https://en.wikipedia.org/wiki/Idaho_City%2C_Idaho"
     },
     {
       "label": "Wikipedia, Lowman, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Lowman,_Idaho"
-    },
-    {
-      "label": "Wikipedia, Banner Creek Summit",
-      "url": "https://en.wikipedia.org/wiki/Banner_Creek_Summit"
+      "url": "https://en.wikipedia.org/wiki/Lowman%2C_Idaho"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

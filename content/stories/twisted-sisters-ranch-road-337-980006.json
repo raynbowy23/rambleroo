@@ -1,19 +1,30 @@
 {
   "id": "twisted-sisters-ranch-road-337-980006",
-  "tagline": "One of three sisters, and all three go by Twisted.",
+  "tagline": "Hairpin switchbacks link Hill Country ranches, river crossings and canyon towns.",
   "motifs": [
     "switchbacks"
   ],
   "intro": [
-    "Out of Camp Wood, RM 337 crosses Camp Wood Creek twice and then takes to sharp curves, up and down steep hills, before it straightens out and runs into Leakey. Past the Frio River it runs through hilly country for several miles more and reaches the Sabinal River at Vanderpool.",
-    "The road is known for its hairpin switchbacks, and with RM 335 and RM 336 it makes up the loop called the Twisted Sisters. It began in 1945 as a farm road between Camp Wood and Leakey and was renamed a ranch road eleven years later."
+    "RM 337 crosses Texas Hill Country canyonland on a two-lane road with sharp curves, steep hills and hairpin switchbacks. Together with RM 335 and RM 336, it forms the scenic loop nicknamed the Twisted Sisters. The drive described here follows RM 337 from Camp Wood through Leakey to Vanderpool; the full numbered highway continues to Medina.",
+    "The road began in 1945 as Farm to Market Road 337 between Camp Wood and Leakey. It became a ranch-to-market road in 1956. Extensions in 1957 and 1960 carried it farther east, and another eight miles brought it to RM 187 in 1968. The last addition came in 1975, when the former FM 1336 between RM 187 and SH 16 became part of RM 337, completing the connection to Medina.",
+    "Leaving Camp Wood, the road passes ranches and crosses Camp Wood Creek twice before climbing into the hills. It straightens onto flatter ground approaching Leakey, follows Sixth Street through town and crosses the Frio River near the city limits. More hills lead to RM 187 near Lost Maples State Natural Area. The roads share about a mile before separating at Vanderpool, with the Sabinal River crossing just east of the junction."
   ],
   "moments": [
+    {
+      "title": "Camp Wood",
+      "kind": "town",
+      "scene": "mountain",
+      "text": "RM 337 begins in Camp Wood at SH 55, following East Fourth Street for a few blocks before leaving town. The rural stretch passes ranches and small subdivisions, then crosses Camp Wood Creek twice. After the second crossing, the road takes on the sharp curves and steep climbs and descents that characterize this part of the drive. Camp Wood and Leakey were the endpoints when the farm-to-market road was designated in 1945. The bends eventually give way to flatter ground near John Buchanan Road, before the highway enters Leakey near Patterson Creek Road.",
+      "at": [
+        -100.01083333,
+        29.66916667
+      ]
+    },
     {
       "title": "Leakey",
       "kind": "town",
       "scene": "river",
-      "text": "John Leakey settled by a spring on the Frio in 1856, and the place made shingles and lumber from cypress and cedar until ranching and Angora goats took over.",
+      "text": "Cypress and cedar supported Leakey’s early lumber and shingle production along the Frio River. John and Nancy Leakey settled near a riverside spring in 1856 with a small group of other settlers. By the early 1900s, ranching had overtaken lumber, cotton and corn in the local economy, with Angora goats an important part of the business. The town became the seat of Real County when the county was created in 1913 from parts of Edwards, Bandera and Kerr counties. RM 337 now passes through town along Sixth Street, meets US 83 and leaves near the Frio crossing.",
       "at": [
         -99.76139,
         29.72528
@@ -23,12 +34,16 @@
       "title": "Lost Maples State Natural Area",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Five miles north of Vanderpool, bigtooth maples thought to be left over from the cooler, wetter climate of the last glacial period color the Sabinal canyon in the fall.",
+      "text": "Lost Maples protects Uvalde bigtooth maples among steep canyon walls and the Sabinal River, north of Vanderpool. The state acquired land for the natural area in 1973 and 1974 and opened it to the public in 1979. The maples’ autumn display varies with the weather. Their shallow roots can be damaged by people walking over them, so Texas Parks and Wildlife asks visitors to stay on designated trails. More than ten miles of hiking trails pass through the natural area, including a loop along the top of a 2,200-foot cliff.",
+      "notice": "Bigtooth maples grow among steep canyon walls; their autumn color varies with weather conditions.",
       "at": [
         -99.58306,
         29.81972
       ]
     }
+  ],
+  "practical": [
+    "Lost Maples State Natural Area: Texas Parks and Wildlife reports daily capacity limits being reached in October and November. Reserve passes before visiting to guarantee entry. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -36,22 +51,21 @@
       "url": "https://en.wikipedia.org/wiki/Ranch_to_Market_Road_337"
     },
     {
-      "label": "Wikipedia, Leakey, Texas",
-      "url": "https://en.wikipedia.org/wiki/Leakey,_Texas"
+      "label": "Wikipedia, Camp Wood, Texas",
+      "url": "https://en.wikipedia.org/wiki/Camp_Wood%2C_Texas"
     },
     {
-      "label": "Wikipedia, Vanderpool, Texas",
-      "url": "https://en.wikipedia.org/wiki/Vanderpool,_Texas"
+      "label": "Wikipedia, Leakey, Texas",
+      "url": "https://en.wikipedia.org/wiki/Leakey%2C_Texas"
+    },
+    {
+      "label": "Texas Parks and Wildlife Department, Lost Maples State Natural Area",
+      "url": "https://tpwd.texas.gov/state-parks/lost-maples"
     },
     {
       "label": "Wikipedia, Lost Maples State Natural Area",
       "url": "https://en.wikipedia.org/wiki/Lost_Maples_State_Natural_Area"
-    },
-    {
-      "label": "Texas Parks and Wildlife, Lost Maples State Natural Area",
-      "url": "https://tpwd.texas.gov/state-parks/lost-maples"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

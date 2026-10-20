@@ -1,19 +1,30 @@
 {
   "id": "routes-5-and-580-west-side-freeway-10260",
-  "tagline": "Up the valley's west edge, with the aqueduct alongside.",
+  "tagline": "Along the Diablo foothills, a freeway shares the valley with engineered waterways.",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "North of Highway 152 and the San Luis Reservoir, Interstate 5 runs up the far western edge of the San Joaquin Valley along the eastern foothills of the Diablo Range, well away from the valley's larger towns. The California Aqueduct keeps it company, and the freeway crosses it twice along here, once between 152 and Highway 33 and again near Crows Landing. South of Tracy, I-580 splits off toward the Bay Area and carries the designation on to I-205 near Altamont Raceway Park.",
-    "The freeway took over an older line. Through Santa Nella, it and Highway 33 replaced the route of El Camino Viejo."
+    "The West Side Freeway follows the western edge of the Central Valley, away from major population centers and beside the eastern foothills of the Diablo Range. Caltrans designates I-5 from Highway 152 to I-580, and I-580 from I-5 to I-205, as scenic highway. The California Aqueduct runs through the same corridor. Between Wheeler Ridge and Tracy, the freeway median has room for expansion to six or eight lanes.",
+    "That distance from the valley's cities was deliberate. When planners considered an interstate through the San Joaquin Valley in 1956, they weighed upgrading US 99 against building the West Side Freeway, endorsed by local groups since 1945. The western route won as the faster, more direct option; its San Joaquin County line-to-Los Banos section was completed in 1967. The I-580 link between I-205 and I-5 used a new right-of-way through low hills, built during the late 1960s and early 1970s.",
+    "Heading north from Highway 152 near San Luis Reservoir, cross the aqueduct before Highway 33 at Santa Nella. Another crossing comes near Crows Landing, before I-580 branches toward the Bay Area south of Tracy. Follow I-580 through low hills to I-205, whose junction lies near Altamont Raceway Park."
   ],
   "moments": [
+    {
+      "title": "O'Neill Forebay",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "O'Neill Forebay gathers water from both the California Aqueduct and the Delta–Mendota Canal below San Luis Reservoir. Its dam was built from 1963 to 1967, an earth-and-rock barrier across the valley of San Luis Creek. Water from the canal is lifted eight feet into a channel leading to the forebay. From there, the Gianelli Pumping-Generating Plant pumps water into San Luis Reservoir. The forebay also receives releases from San Luis Dam and the powerplant, making it a working part of the water system beside this freeway corridor. The dam stretches more than three miles across the creek valley.",
+      "at": [
+        -121.0426,
+        37.0832
+      ]
+    },
     {
       "title": "Santa Nella",
       "kind": "town",
       "scene": "prairie",
-      "text": "The name is a corruption of centinela, not a saint, after the Sentinel Ranch of 1810, which became a stopping place for stages and travelers on El Camino Viejo.",
+      "text": "Santa Nella's name comes from centinela, Spanish for sentinel, rather than a saint. The earlier Rancho de Centinela began in 1810 as a horse ranch established by stockmen from San Juan Bautista and Monterey. It became a stopping place for stages and travelers on El Camino Viejo. I-5 and Highway 33 later replaced that route through the community. The buildings changed too: a two-story adobe gave way to a frame house in the 1890s, and by 1966 the house and barn had been removed for a roadside stop. Highway 152, the east–west connection to the Santa Clara Valley, runs south of town.",
       "at": [
         -121.01694,
         37.09778
@@ -23,7 +34,7 @@
       "title": "Del Puerto Canyon",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Del Puerto Creek's canyon falls from 2,800 feet at its head, on the south slope of Red Mountain, to 223 feet at its mouth.",
+      "text": "Del Puerto Canyon follows Del Puerto Creek in Stanislaus County. Its head lies on the south slope of Red Mountain at 2,800 feet, while its mouth is at 223 feet. The difference between those elevations is 2,577 feet: a measure of the terrain beyond the valley freeway.",
       "at": [
         -121.20694,
         37.48833
@@ -37,17 +48,24 @@
     },
     {
       "label": "Wikipedia, Interstate 580 (California)",
-      "url": "https://en.wikipedia.org/wiki/Interstate_580_(California)"
+      "url": "https://en.wikipedia.org/wiki/Interstate_580_%28California%29"
     },
     {
       "label": "Wikipedia, Santa Nella, California",
-      "url": "https://en.wikipedia.org/wiki/Santa_Nella,_California"
+      "url": "https://en.wikipedia.org/wiki/Santa_Nella%2C_California"
+    },
+    {
+      "label": "Wikipedia, O'Neill Forebay",
+      "url": "https://en.wikipedia.org/wiki/O%27Neill_Forebay"
+    },
+    {
+      "label": "Wikipedia, Delta–Mendota Canal",
+      "url": "https://en.wikipedia.org/wiki/Delta%E2%80%93Mendota_Canal"
     },
     {
       "label": "Wikipedia, Del Puerto Canyon",
       "url": "https://en.wikipedia.org/wiki/Del_Puerto_Canyon"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,16 +1,17 @@
 {
   "id": "ridgetop-scenic-byway-992112",
-  "tagline": "Across Estill County to the river at Irvine.",
+  "tagline": "Across Estill County, a river town between Bluegrass and mountains",
   "intro": [
-    "Kentucky 89 crosses Estill County from the Clark County line to the Jackson County line and meets the Kentucky River at Irvine, the county seat. The county sits at the edge of the Cumberland Plateau, with nearly 1,000 feet of relief, and its towns keep to the river bottomlands.",
-    "Iron mining and smelting began here in 1810, and the ruins of the Estill, Cottage, and Fitchburg furnaces can still be seen. Gen. Green Clay laid out Irvine on 20.5 acres of his own land in 1812. In the 19th century the Estill Springs resort, by mineral springs in Irvine, drew Henry Clay on vacation."
+    "Ridgetop Scenic Byway follows Kentucky 89 across Estill County, between the Clark and Jackson county lines. This is the meeting of the Bluegrass and the Cumberland Plateau, where the Kentucky River cuts a deep valley and much of the county’s development occupies its fertile bottomlands. The county’s total relief is nearly 1,000 feet. Kentucky designated Ridgetop Scenic Byway on October 1, 2013.",
+    "Irvine’s history reaches back to 1812, when Gen. Green Clay established the town on 20.5 acres of his own land. A century later, the Riverview Hotel was built during a period of oil exploration in the area.",
+    "Traveling from the Clark County line toward Jackson County takes you through Irvine, where the historic business district lies roughly at the junction of Kentucky 52 and Kentucky 89. Irvine occupies the northeast side of the Kentucky River; the designated corridor continues to the Jackson County line."
   ],
   "moments": [
     {
       "title": "Irvine Historic Business District",
       "kind": "town",
       "scene": "town",
-      "text": "Around the junction of Routes 52 and 89, the district's 28 contributing buildings include the county courthouse, the 1922 Wallace Hotel, and the Mack Theatre on Main.",
+      "text": "The business district gathers several generations of public and commercial buildings near the meeting of Kentucky 52 and Kentucky 89. Its National Register listing dates to 2000 and included 28 contributing buildings, along with four non-contributing buildings and sites. The district includes the Estill County Courthouse, the Wallace Hotel on Court Street and the Mack Theatre on Main.",
       "at": [
         -83.975,
         37.69972222
@@ -20,14 +21,28 @@
       "title": "Riverview Hotel",
       "kind": "town",
       "scene": "town",
-      "text": "The three-story brick hotel on Main Street, set on a stone foundation, went up sometime between 1913 and 1918, during a spell of oil exploration.",
+      "text": "The Riverview Hotel on Main Street is a three-story brick building set on a stone foundation. It was built sometime between 1913 and 1918, during a period of oil exploration in the area. Its Classical Revival architecture and National Register listing, granted in 1992, distinguish this hotel as a historic building.",
       "at": [
         -83.97527778,
         37.69944444
       ]
+    },
+    {
+      "title": "Irvine",
+      "kind": "town",
+      "scene": "river",
+      "text": "Irvine began as a town on land belonging to Gen. Green Clay, who established it on January 28, 1812. The post office followed in 1813, but incorporation came later, in 1849. The county seat sits on the northeast side of the Kentucky River, with Ravenna bordering it to the southeast. The county had been created four years before the town, and Irvine later became a summer resort destination. Estill Springs stood near mineral springs in Irvine and attracted 19th-century visitors including Henry Clay, John Crittenden and John C. Breckinridge.",
+      "at": [
+        -83.96694444,
+        37.69694444
+      ]
     }
   ],
   "sources": [
+    {
+      "label": "Wikipedia, Estill County, Kentucky",
+      "url": "https://en.wikipedia.org/wiki/Estill_County%2C_Kentucky"
+    },
     {
       "label": "Kentucky Transportation Cabinet, Kentucky State and National Scenic Byways and Highways",
       "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
@@ -43,12 +58,7 @@
     {
       "label": "Wikipedia, Irvine Historic Business District",
       "url": "https://en.wikipedia.org/wiki/Irvine_Historic_Business_District"
-    },
-    {
-      "label": "Wikipedia, Estill County, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Estill_County%2C_Kentucky"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,22 +1,33 @@
 {
   "id": "route-62-twentynine-palms-highway-2173",
-  "tagline": "Nine miles toward Morongo, with desert water beyond.",
+  "tagline": "From San Gorgonio Pass toward Morongo Valley, a highway assembled in stages",
   "intro": [
-    "At the eastern end of San Gorgonio Pass, Route 62 leaves Interstate 10 and heads north toward Morongo Valley. Its designated scenic stretch ends at the San Bernardino County line, long before Twentynine Palms. The stretch from White Water to Morongo Valley joined the state highway system in 1935.",
-    "Beyond the designated stretch, Big Morongo Canyon Preserve makes a separate excursion from Morongo Valley. There the Morongo fault turns water draining from the mountains into a creek and a marsh, and a spring-fed oasis of cottonwoods and willows."
+    "Route 62 leaves Interstate 10 at the eastern end of San Gorgonio Pass and heads north toward Morongo Valley. The highway crosses the Little San Bernardino Mountains, but its recognized scenic stretch covers just nine miles, from I-10 to the Riverside–San Bernardino county line. Caltrans recognizes that section under a scenic-highway standard of memorable landscape without visual intrusions. At the pass, mountains flank a transition from the Mediterranean climate to the west to desert climate on the east.",
+    "The road acquired its state identity in pieces. White Water to Morongo Valley entered the state system in 1935; the continuation to Yucca Valley followed in 1959. Both belonged to Route 187. In 1961, the state added Yucca Valley to Twentynine Palms as Route 218, another piece of the future highway. The 1964 renumbering brought the route from I-10 to Twentynine Palms under the SR 62 number. Its extension to Arizona followed in 1970.",
+    "Begin at the pass and follow the northward road to the county line. Beyond the designated section, Morongo Valley provides the entrance to Big Morongo Canyon Preserve, just off Route 62. There, mountain drainage and the Morongo fault create a creek and marsh in the desert."
   ],
   "moments": [
     {
       "title": "San Gorgonio Pass",
       "kind": "roadside",
       "scene": "desert",
-      "text": "At the eastern end of the pass, the highway turns north from Interstate 10 toward Morongo Valley."
+      "text": "Wind development at San Gorgonio Pass began in the 1980s, but an earlier experiment used a salvaged roller-coaster generator. In 1926, Dew R. Oliver and electrician W. Sperry Knighton built a turbine near Whitewater. They fitted the generator with aluminum propellers and a funnel to concentrate the wind, then mounted it on a circular rail so it could turn. That machine was dismantled for scrap in 1942. More recent repowering replaces groups of small, aging turbines with fewer, larger machines. Southern California Edison began testing two turbine generators near its Devers substation in 1980."
+    },
+    {
+      "title": "Mission Creek Preserve",
+      "kind": "separate excursion",
+      "scene": "desert",
+      "text": "Stone cabins and a small swimming pool once served an early twentieth-century guest ranch at Mission Creek. Remnants remain visible near the entrance. The Wildlands Conservancy acquired the property in 1997 and opened it for low-impact recreation; it became part of Sand to Snow National Monument in 2016. The preserve occupies the transition between the Mojave and Sonoran deserts. At Painted Hills Wetland, cottonwoods and other streamside vegetation mark a different habitat from the adjacent mountain slopes and desert washes. The road generally parallels Mission Creek; beyond the Stone House, a trail climbs to the Pacific Crest Trail.",
+      "at": [
+        -116.62805556,
+        34.01666667
+      ]
     },
     {
       "title": "Big Morongo Canyon Preserve",
       "kind": "separate excursion",
       "scene": "desert",
-      "text": "Off Route 62 in Morongo Valley, short marsh trails enter a spring-fed oasis where the Morongo fault gathers water draining from the mountains into a creek and marsh."
+      "text": "Water gives Big Morongo Canyon its marsh. The Morongo fault causes drainage from the surrounding mountains to form Big Morongo Creek and the marsh habitat. The canyon begins in the Mojave Desert and opens downstream into the Colorado Desert. A spring-fed oasis supports cottonwoods and willows. Lands contributed and managed by the Nature Conservancy, San Bernardino County and the Bureau of Land Management formed the preserve in 1982. The Marsh and Mesquite trails are each under a mile, giving this excursion from Morongo Valley a smaller scale than the longer canyon route."
     }
   ],
   "sources": [
@@ -25,10 +36,17 @@
       "url": "https://en.wikipedia.org/wiki/California_State_Route_62"
     },
     {
+      "label": "Wikipedia, San Gorgonio Pass wind farm",
+      "url": "https://en.wikipedia.org/wiki/San_Gorgonio_Pass_wind_farm"
+    },
+    {
       "label": "Wikipedia, Big Morongo Canyon Preserve",
       "url": "https://en.wikipedia.org/wiki/Big_Morongo_Canyon_Preserve"
+    },
+    {
+      "label": "Wikipedia, Mission Creek Preserve",
+      "url": "https://en.wikipedia.org/wiki/Mission_Creek_Preserve"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

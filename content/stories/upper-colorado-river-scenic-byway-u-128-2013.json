@@ -1,20 +1,21 @@
 {
   "id": "upper-colorado-river-scenic-byway-u-128-2013",
-  "tagline": "Up the river road, between red walls, to Cisco.",
+  "tagline": "A former toll road follows the Colorado past sandstone walls and spires",
   "motifs": [
     "river-bluffs",
     "snow-peaks"
   ],
   "intro": [
-    "From the Colorado River bridge at the north end of Moab, Route 128 goes into the river's gorge and keeps to it for 13 miles, sandstone walls close on either hand and Arches National Park across the water. Moab calls it the river road. Then the gorge opens into Castle and Professor valleys, where Wagon Master and Rio Grande were filmed.",
-    "A few miles past the Dewey crossing the road leaves the gorge and runs across open desert toward the Book Cliffs, ending at Interstate 70 near Cisco, an old water stop for steam locomotives. Cisco is the town the highway is signed for, though it never actually enters it."
+    "SR 128 follows the Colorado River through a narrow sandstone gorge north of Moab, with blind corners and stretches without shoulders. The entire highway is designated the Upper Colorado River Scenic Byway and also forms part of the Dinosaur Diamond National Scenic Byway. Discover Moab highlights river viewpoints, red cliffs and the Fisher Towers against the often snow-covered La Sal Mountains, and lists a two-hour drive.",
+    "Moab residents campaigned for a riverbank road when the area depended on Grand Junction and other Colorado towns for supplies and agricultural markets. By 1902, King’s Toll Road had replaced the Heavenly Stairway pack trail. Flooding remained a problem until reconstruction raised the road above ordinary high water in the 1920s. The state assigned route number 128 in 1933 and gradually upgraded the highway to two paved lanes.",
+    "Begin at the Colorado River bridge north of Moab. After 13 miles beside the river, the gorge opens into Castle and Professor valleys, filming locations for Wagon Master and Rio Grande. Pass the Fisher Towers viewpoint, then the Dewey crossing. Beyond it, the road leaves the gorge and crosses open desert toward the Book Cliffs, ending at I-70 near Cisco without entering the town."
   ],
   "moments": [
     {
       "title": "Grandstaff Canyon",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "river",
-      "text": "A trailhead beside the road leads up the canyon of William Grandstaff, who ran cattle here in the late 1870s, to Morning Glory Natural Bridge about 2.5 miles in.",
+      "text": "A trailhead directly beside SR 128 leads into Grandstaff Canyon, where a stream drains to the Colorado River. Morning Glory Natural Bridge lies about 2.5 miles from the trailhead. The canyon’s name honors William Grandstaff, a mixed-race cowboy who prospected and ran cattle here in the late 1870s with a Canadian trapper called Frenchie. Grandstaff later lived near Glenwood Springs, Colorado. The U.S. Board on Geographic Names adopted Grandstaff Canyon in 2017, replacing the canyon’s earlier name. The trailhead is about three miles east of the junction between SR 128 and US 191.",
       "at": [
         -109.5311,
         38.6072
@@ -24,33 +25,38 @@
       "title": "Fisher Towers",
       "kind": "roadside",
       "scene": "desert",
-      "text": "At about mile 24.7 a viewpoint looks over to the Fisher Towers, red spires named for an 1880s miner, standing against the often snow-covered La Sal Mountains.",
-      "motifs": [
-        "snow-peaks"
-      ],
+      "text": "The viewpoint at 24.7 miles pairs the red spires of Fisher Towers with the often snow-covered La Sal Mountains behind them. The towers consist of Cutler sandstone capped by Moenkopi sandstone and coated in red mud. Their name comes from a miner who lived nearby in the 1880s. Three major rock fins extend southwest from a larger mesa, each carrying multiple towers. Among them are King Fisher, Echo Tower, Cottontail and Titan, forms that remain connected to the larger pattern of fins and mesa. The fins extend between 1,000 and 2,000 feet, separating the towers into three long groups.",
+      "notice": "Red sandstone spires stand against the La Sal Mountains, whose peaks are often snow-covered.",
       "at": [
         -109.3043,
         38.7217
+      ],
+      "motifs": [
+        "snow-peaks"
       ]
     },
     {
       "title": "Dewey Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "Dewey Bridge, a 1916 suspension span with a wooden deck, was the longest in Utah until 2008, when a child playing with matches started the fire that took it."
+      "text": "The wooden deck of the 1916 Dewey Bridge measured just eight feet between its rails. It replaced a ferry crossing whose vulnerability became clear when river ice sank the ferry in 1913. Grand County raised money through a bond election and hired the Midland Bridge Company to build the span. A replacement road bridge was completed in 1988; the old bridge subsequently carried bicycles and pedestrians. In April 2008, a campground fire spread up the riverbank and destroyed the historic bridge’s wooden deck and rails. The crossing used by today’s highway is the replacement."
     }
   ],
   "practical": [
-    "Parts of the road are narrow, with blind corners and no shoulders, and vehicles over 55,000 pounds gross weight are prohibited on the whole highway."
+    "Grandstaff Canyon: SR 128 has narrow sections, blind corners and no shoulders. UDOT prohibits vehicles over 55,000 pounds gross vehicle weight along the entire highway. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Discover Moab, Upper Colorado River Scenic Byway (U-128)",
+      "label": "Wikipedia, Utah State Route 128",
+      "url": "https://en.wikipedia.org/wiki/Utah_State_Route_128"
+    },
+    {
+      "label": "Discover Moab (Moab Office of Tourism), Upper Colorado River Scenic Byway (U-128)",
       "url": "https://www.discovermoab.com/trail/upper-colorado-river-scenic-byway-(u-128)/681e949dc610f14d9362aa06/"
     },
     {
-      "label": "Wikipedia, Utah State Route 128",
-      "url": "https://en.wikipedia.org/wiki/Utah_State_Route_128"
+      "label": "Wikipedia, Cisco, Utah",
+      "url": "https://en.wikipedia.org/wiki/Cisco%2C_Utah"
     },
     {
       "label": "Wikipedia, Grandstaff Canyon",
@@ -61,10 +67,9 @@
       "url": "https://en.wikipedia.org/wiki/Fisher_Towers"
     },
     {
-      "label": "Wikipedia, Cisco, Utah",
-      "url": "https://en.wikipedia.org/wiki/Cisco,_Utah"
+      "label": "Wikipedia, Dewey, Utah",
+      "url": "https://en.wikipedia.org/wiki/Dewey%2C_Utah"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

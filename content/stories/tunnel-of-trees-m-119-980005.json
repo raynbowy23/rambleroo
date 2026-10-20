@@ -1,26 +1,28 @@
 {
   "id": "tunnel-of-trees-m-119-980005",
-  "tagline": "A highway with no centerline, kept that way on purpose.",
+  "tagline": "A narrow shoreline road threads a tree canopy without a centerline.",
   "motifs": [
-    "river-bluffs",
     "steeple-town"
   ],
   "intro": [
-    "Out of Harbor Springs on Bluff Drive, M-119 turns north along the Lake Michigan shore and narrows into the woods, oak and maple, birch and cedar, on an old Odawa trail along the bluffs. The lake shows only now and then through the trees. Twenty miles on it comes out at Cross Village.",
-    "In 1936, when there was talk of widening it for traffic, Alice Irwin took up the road's cause in her newspaper column and petitioned the Legislature to keep it as it was. It still has no shoulders and no centerline."
+    "The Tunnel of Trees follows Lake Michigan from north of Harbor Springs to Cross Village, a roughly 20-mile stretch of M-119 beneath a tree canopy. The road is narrow and winding, with hairpin turns and no centerline; lake views appear only occasionally. The Tunnel of Trees Scenic Heritage Route Committee says the corridor’s designation recognizes its natural beauty and the community’s commitment to protecting its integrity. The committee describes forested areas, historic homes and buildings among the route’s features, and identifies the overhead canopy as the source of its name.",
+    "The roadway follows an old Ottawa trail through oak, maple, birch and cedar. The numbered highway reached Cross Village in 1933, when M-131 was extended north from Harbor Springs. That northern section lost its designation in 1937 and regained it in 1945. The M-119 number replaced M-131 in 1979; the route has not changed since.",
+    "From Harbor Springs, Bluff Drive becomes Lake Shore Drive as M-119 turns north along the shoreline. The highway narrows into forest, continues through Good Hart and ends in Cross Village at State Road. The committee identifies Devil’s Elbow and Horseshoe Bend among the route’s landmarks, and notes that the corridor passes through properties that are almost all privately owned."
   ],
+  "notice": "The tree canopy arches over a narrow road without a centerline.",
   "moments": [
     {
       "title": "Devil's Elbow",
       "kind": "roadside",
       "scene": "forest",
-      "text": "North of the Hoogland preserve the road makes one sharp turn, a named spot on a road that is mostly curves anyway."
+      "text": "Devil’s Elbow is one of the named landmarks along the Tunnel of Trees, alongside Horseshoe Bend. The corridor combines a narrow roadway, hairpin turns and a low tree canopy. The route committee asks visitors to park only in designated areas."
     },
     {
       "title": "Good Hart",
       "kind": "town",
       "scene": "forest",
-      "text": "Middle Village, halfway along, was once an Ojibwe settlement led by Joseph Black Hawk and his brother Good Heart. Its 1934 general store is still open and keeps the post office.",
+      "text": "At Saint Ignatius in Good Hart, the white clapboard church and rows of white cemetery crosses give the village a distinct landmark. A Catholic chapel occupied a bark longhouse here in 1741. Its replacement, dedicated in 1833, burned on Easter Sunday in 1889. Construction began immediately on the present church. A local carpenter managed the work, much of it carried out by local Odawa people, and the new building was dedicated that September. Saint Ignatius remains one of the four churches in the Catholic community of L’Arbre Croche, linking this replacement building to an ongoing religious community.",
+      "notice": "White crosses stand in rows beside the white clapboard church and its wooden steeple.",
       "at": [
         -85.1133,
         45.5672
@@ -33,7 +35,7 @@
       "title": "Cross Village",
       "kind": "town",
       "scene": "coast",
-      "text": "High on a bluff over the lake, where Legs Inn, built in 1921, takes its name from the stove legs set along its roofline.",
+      "text": "M-119 ends at Cross Village, on Lake Michigan at the southern edge of Sturgeon Bay. The community formed part of the Odawa settlement region known as Waganagisi, or L’Arbre Croche, extending south to Harbor Springs. In 1836, the Odawa ceded land across much of the Eastern Upper Peninsula and Northern Lower Peninsula under the Treaty of Washington. Chief Joseph Nowimashkote then initiated a plan to buy back land at Cross Village, which was also called La Croix in the 19th century. The shoreline highway finishes at the meeting of Lake Shore Drive and State Road in the middle of the community.",
       "at": [
         -85.0375,
         45.64222222
@@ -43,31 +45,27 @@
       ]
     }
   ],
-  "practical": [
-    "The road is narrow and winding with low branches, hard going for large vehicles. There is no fuel between Harbor Springs and Cross Village and very few public restrooms."
-  ],
   "sources": [
     {
-      "label": "M-119 Tunnel of Trees Scenic Heritage Route Committee",
+      "label": "M-119 Tunnel of Trees Scenic Heritage Route Committee, M-119 Tunnel of Trees Scenic Heritage Route",
       "url": "https://www.m119tunneloftrees.org/"
     },
     {
-      "label": "MDOT, Pure Michigan Byways Driving Guide (Wayback Machine snapshot, December 2025)",
-      "url": "https://web.archive.org/web/20251206181129/https://www.michigan.gov/mdot/-/media/Project/Websites/MDOT/Travel/Tourists/Byways/Pure-Michigan-Byways-Driving-Guide.pdf"
-    },
-    {
       "label": "Wikipedia, M-119 (Michigan highway)",
-      "url": "https://en.wikipedia.org/wiki/M-119_(Michigan_highway)"
+      "url": "https://en.wikipedia.org/wiki/M-119_%28Michigan_highway%29"
     },
     {
-      "label": "Wikipedia, Readmond Township, Michigan (Good Hart)",
-      "url": "https://en.wikipedia.org/wiki/Readmond_Township,_Michigan"
+      "label": "Wikipedia, Saint Ignatius Church and Cemetery",
+      "url": "https://en.wikipedia.org/wiki/Saint_Ignatius_Church_and_Cemetery"
     },
     {
       "label": "Wikipedia, Cross Village, Michigan",
-      "url": "https://en.wikipedia.org/wiki/Cross_Village,_Michigan"
+      "url": "https://en.wikipedia.org/wiki/Cross_Village%2C_Michigan"
+    },
+    {
+      "label": "Wikipedia, L'Arbre Croche",
+      "url": "https://en.wikipedia.org/wiki/L%27Arbre_Croche"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

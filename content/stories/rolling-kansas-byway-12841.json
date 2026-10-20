@@ -1,38 +1,64 @@
 {
   "id": "rolling-kansas-byway-12841",
-  "tagline": "Stanly County hills that go by the name Rolling Kansas.",
+  "tagline": "Ritchie’s Field became Richfield, where two highways now meet",
   "intro": [
-    "Out of Richfield the road follows Main Street, which becomes Millingport Road, then turns onto Bear Creek Church Road for the last 3.4 miles to the Cabarrus County line. It is 9.2 miles in all, about fifteen minutes.",
-    "The country is hilly, and with its turn-of-the-century farms and windmills it earned the nickname Rolling Kansas. The road winds through it with long views over the western Piedmont."
+    "Rolling Kansas is included in North Carolina’s scenic-byway network.",
+    "Richfield began as Ritchie’s Field, named for the family who established its post office, sawmill and streets.",
+    "Millingport lies on NC 73 in Stanly County. Richfield is at the junction of U.S. 52 and NC 49. Nearby Misenheimer has a university campus divided by U.S. 52 and a railroad."
   ],
   "moments": [
+    {
+      "title": "Millingport",
+      "kind": "town",
+      "scene": "town",
+      "text": "NC 73 passes through Millingport, an unincorporated community in Stanly County. The 2020 census counted 588 residents here.",
+      "at": [
+        -80.305,
+        35.38083333
+      ]
+    },
     {
       "title": "Richfield",
       "kind": "town",
       "scene": "town",
-      "text": "The starting town began as Ritchie's Field, after the family who set up its post office, its sawmill and its streets.",
+      "text": "Richfield’s former name, Ritchie’s Field, identifies the family who laid out its streets and established its post office and sawmill. The town stands at the junction of U.S. 52 and NC 49 in Stanly County.",
       "at": [
         -80.25861,
         35.47167
       ]
     },
     {
-      "title": "Bethel Bear Creek Church",
-      "kind": "roadside",
-      "scene": "prairie",
-      "text": "Near the end of the road the churchyard keeps tombstones from the 1820s, in one of the oldest cemeteries in Stanly County."
+      "title": "Pfeiffer Junior College Historic District",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Pfeiffer University’s campus in Misenheimer grew from a school that moved here in 1910 after a fire and an intervening stay in Lenoir. Junior-college classes began in 1928. Gifts from the Pfeiffer family funded new buildings in 1934, and the institution took the name Pfeiffer Junior College the following year. The historic district includes Georgian Revival brick academic buildings erected between 1923 and 1948. U.S. 52 and a railroad line divide the campus. Its fourteen contributing buildings and one contributing structure entered the National Register of Historic Places in 1999.",
+      "at": [
+        -80.2825,
+        35.48444444
+      ]
     }
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Rolling Kansas Byway",
+      "label": "Wikipedia, Richfield, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Richfield%2C_North_Carolina"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, fifth edition",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=138"
     },
     {
-      "label": "Wikipedia, Richfield, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Richfield,_North_Carolina"
+      "label": "Wikipedia, Millingport, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Millingport%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Misenheimer, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Misenheimer%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Pfeiffer University",
+      "url": "https://en.wikipedia.org/wiki/Pfeiffer_University"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

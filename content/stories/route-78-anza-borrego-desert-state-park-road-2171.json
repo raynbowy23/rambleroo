@@ -1,26 +1,38 @@
 {
   "id": "route-78-anza-borrego-desert-state-park-road-2171",
-  "tagline": "Below the gold camps, into a park named partly for sheep.",
+  "tagline": "A desert highway beyond Julian’s gold camps and the old stage stations.",
   "intro": [
-    "Below Julian, Highway 78 leaves town as Banner Road and runs past the old gold camp of Banner to Scissors Crossing, where County Route S2 crosses it in the San Felipe Valley. Shortly after, the road enters Anza-Borrego Desert State Park and keeps to it for about eighteen miles, out past Ocotillo Wells. Banner sits at 2,743 feet. Ocotillo Wells sits at 163.",
-    "The park, the largest state park in California, is named for the explorer Juan Bautista de Anza and for borrego, the Spanish word for sheep. The way down was once harder. Before the Banner toll road opened, miners' supplies were lowered by hand down a 1,000-foot slope."
+    "Route 78 crosses Anza-Borrego Desert State Park after Scissors Crossing, continuing through Ocotillo Wells before leaving the park. The park lies in the Colorado Desert, a landscape of mountains, badlands, washes and natural springs. Caltrans designated the park section a scenic highway in 1971. The state’s scenic-highway criteria call for a “memorable landscape” without “visual intrusions.” Cacti and ocotillo grow in the park, while its washes support woodlands of smoke tree, velvet mesquite and catclaw.",
+    "On the western approach, the Old Banner Toll Road connected Julian and Banner after the 1870 gold rush. It ended the need to lower miners’ supplies by hand down a 1,000-foot slope. The county bought the road from Horace Wilcox in 1874 and abolished its toll. A road from Julian to Kane Springs was completed in 1925; Route 78 followed as a signed state highway in 1934. By 1947, the whole length of Route 78 then in existence had been paved.",
+    "Heading east from Julian, follow Banner Road toward Scissors Crossing, where Route 78 meets County Route S2. Beyond the crossing, the highway enters the park. County Route S3 provides a connection north to Borrego Springs, while Route 78 continues through Ocotillo Wells toward Imperial County."
   ],
   "moments": [
     {
       "title": "San Felipe Valley",
       "kind": "roadside",
       "scene": "desert",
-      "text": "From 1858 the Butterfield Overland Mail kept its San Felipe Station in this valley, headquarters for twelve stage stations strung between Warner's Ranch and Fort Yuma.",
+      "text": "The San Felipe Hills frame this valley on the east, with the Volcan Mountains on the west. Stagecoaches used it for water and rest: the San Antonio-San Diego Mail Line from 1857, then the Butterfield Overland Mail from 1858. San Felipe Station housed the mail agent responsible for twelve stations between Warner’s Ranch and Fort Yuma. During the Civil War, the abandoned stage station became Camp San Filipe, a Union Army outpost from 1861 to 1865. Later stage lines used the station from 1867 to 1877, before the railroad reached Fort Yuma and made the stage route obsolete.",
       "at": [
         -116.46333,
         33.0975
       ]
     },
     {
+      "title": "Yaqui Well",
+      "kind": "separate excursion",
+      "scene": "desert",
+      "text": "Yaqui Well is a seep: groundwater reaches the surface along the San Felipe Fault and supports a small patch of cattails. Desert ironwood and mesquite grow here, along with mistletoe sown by Northern phainopepla birds. In 1872, former Butterfield driver John McCain and his brothers built a road from Scissors Crossing or Sentenac Cienega to the spring, passing over the hill and down Plum Canyon. Early twentieth-century ranchers added a cabin and troughs to water cattle. The hiking loop followed in 1973. Its route begins at Tamarisk Grove Campground and reaches the watering hole on a 1.64-mile round trip.",
+      "at": [
+        -116.3878,
+        33.1395
+      ]
+    },
+    {
       "title": "Ocotillo Wells",
       "kind": "town",
       "scene": "desert",
-      "text": "A desert community with a dirt-runway airport, where down Split Mountain Road the Iron Door bar keeps decorated dollar bills stapled to its walls in layers.",
+      "text": "Ocotillo Wells sits on Route 78 at 163 feet above sea level, three miles west of the Imperial County line. Its name became official for federal use in 1962, when the US Board on Geographic Names adopted it. The community borders the Ocotillo Wells State Vehicular Recreation Area, operated by the California Department of Parks and Recreation. Blowsand Hill is visible from Route 78 between Ranger Station Road and Main Street. At the airport, white paving blocks mark the ends of two dirt runways. The Juan Bautista de Anza National Historic Trail also passes through the neighboring vehicular recreation area.",
+      "notice": "Blowsand Hill is visible from Route 78 between Ranger Station Road and Main Street.",
       "at": [
         -116.13417,
         33.14444
@@ -28,6 +40,14 @@
     }
   ],
   "sources": [
+    {
+      "label": "Wikipedia, San Felipe Valley, California",
+      "url": "https://en.wikipedia.org/wiki/San_Felipe_Valley%2C_California"
+    },
+    {
+      "label": "Wikipedia, Banner, California",
+      "url": "https://en.wikipedia.org/wiki/Banner%2C_California"
+    },
     {
       "label": "Wikipedia, California State Route 78",
       "url": "https://en.wikipedia.org/wiki/California_State_Route_78"
@@ -37,18 +57,13 @@
       "url": "https://en.wikipedia.org/wiki/Anza-Borrego_Desert_State_Park"
     },
     {
-      "label": "Wikipedia, Banner, California",
-      "url": "https://en.wikipedia.org/wiki/Banner,_California"
-    },
-    {
-      "label": "Wikipedia, San Felipe Valley, California",
-      "url": "https://en.wikipedia.org/wiki/San_Felipe_Valley,_California"
+      "label": "Wikipedia, Yaqui Well",
+      "url": "https://en.wikipedia.org/wiki/Yaqui_Well"
     },
     {
       "label": "Wikipedia, Ocotillo Wells, California",
-      "url": "https://en.wikipedia.org/wiki/Ocotillo_Wells,_California"
+      "url": "https://en.wikipedia.org/wiki/Ocotillo_Wells%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

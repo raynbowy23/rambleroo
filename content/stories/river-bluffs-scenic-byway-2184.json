@@ -1,20 +1,22 @@
 {
   "id": "river-bluffs-scenic-byway-2184",
-  "tagline": "Hide and seek with three rivers in Iowa's Little Switzerland.",
+  "tagline": "Three river valleys connect a stone mill and Mississippi towns",
   "motifs": [
     "river-bluffs",
     "gristmill"
   ],
   "intro": [
-    "The byway runs 109 miles through Fayette and Clayton counties, country sometimes called Iowa's Little Switzerland, playing hide and seek with the Turkey, the Volga and the Mississippi, now crossing them and now looking down their valleys from a distance. It passes through 13 towns, and three of them, McGregor, Marquette and Guttenberg, sit on the Mississippi.",
-    "Near McGregor, Pikes Peak State Park looks out across the Mississippi into three states. At Froelich a village of the 1890s marks where the first successful gasoline tractor was built."
+    "River Bluffs Scenic Byway crosses rivers and opens onto distant valley views through northeastern Iowa. Travel Iowa describes a 109-mile route through 13 towns, with the Turkey, Volga and Mississippi rivers defining the journey. The route is paved, with an optional 5.6-mile gravel loop. Iowa’s official byways guide includes River Bluffs among the state byways and highlights its limestone bluffs and river views. Near McGregor, Pikes Peak State Park offers a view of the Mississippi into three states.",
+    "The corridor’s towns grew with river transport and milling. At McGregor, grain crossed the Mississippi to reach the Milwaukee railroad; at Motor, investors built a mill and planned a town beside the Turkey River. Motor’s mill was operating by 1870, but crop losses and floods undermined the venture. The county conservation board acquired the property in 1983 and made it a park.",
+    "Begin at McGregor on the Mississippi, then travel inland toward Clermont and Montauk, William Larrabee’s hilltop home. Clermont stands on the Turkey River. Continue through West Union and Fayette into the Volga River country, then toward Motor Mill. The Guttenberg branch runs east from south of Elkader through Elkport and Garber, returning to the Mississippi at Guttenberg."
   ],
+  "notice": "Pikes Peak State Park near McGregor offers a Mississippi River view into three states.",
   "moments": [
     {
       "title": "Montauk, Clermont",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Governor William Larrabee built his Italianate house on the hill in 1874 because his wife feared malaria down by the Turkey River, and named it for a lighthouse.",
+      "text": "Montauk’s hilltop setting began with Anna Matilda Appelman Larrabee’s concern about illness near the Turkey River. William Larrabee had the house built in 1874, using bricks made in Clermont and stone from nearby Williams Quarry. Architect E. Townsend Mix designed the two-story Italianate mansion with 14 rooms. Its name honors Montauk Point Light and Mrs. Larrabee’s seafaring family. The family deeded the house, its contents and 40 acres to Iowa in 1976; the State Historical Society preserves the property. Wooden porches and a widow’s walk atop the hip roof complete the house’s exterior.",
       "at": [
         -91.649,
         43.008
@@ -24,7 +26,7 @@
       "title": "Motor Mill",
       "kind": "short walk",
       "scene": "river",
-      "text": "Legend says four German stonemasons each took a wall of the six-story mill and tried to outdo the others, which is why three walls are rounded stone and one is square-cut.",
+      "text": "Stone for Motor Mill came from the bluff above, lowered in cable cars running on wooden rails. German stonemasons from nearby Communia built the six-story gristmill, completed in 1869. It ground grain for feed, flour and cornmeal, while a nearby cooperage made shipping barrels. Chinch bugs destroyed local wheat crops, a planned railway was washed out, and an 1883 flood destroyed the dam. The investors never recovered their money. After buying the townsite in 1903, Louis Klink sold the machinery and used the buildings for his farm. The county conservation board later acquired the property and converted it into a park.",
       "at": [
         -91.351,
         42.807
@@ -37,7 +39,8 @@
       "title": "Guttenberg",
       "kind": "town",
       "scene": "river",
-      "text": "Nearly all German by 1850, the river town built in limestone, named itself for the inventor of movable type and named its streets for German writers and poets.",
+      "text": "Limestone buildings preserve the work of Guttenberg’s German immigrants along the Mississippi. Immigration began in 1845, and builders erected more than a hundred stone buildings between 1845 and 1865. Bluff limestone, local clay and lime supplied the materials. Four large riverside warehouses opened as steamboats brought merchandise and carried away farm produce, flour and lead ore. Railroads and inland roads later reduced the town’s role as a market center. The Front Street Historic District preserves buildings from before the Civil War, including the Albertus Building. The surviving limestone buildings served both homes and businesses.",
+      "notice": "Look for the limestone buildings preserved in the Front Street Historic District.",
       "at": [
         -91.106,
         42.788
@@ -50,30 +53,37 @@
       "url": "https://www.traveliowa.com/trails/river-bluffs-scenic-byway/11/"
     },
     {
-      "label": "Iowa DOT, Iowa Byways Official Travel Guide",
-      "url": "https://iowadot.gov/media/916/download?inline"
-    },
-    {
-      "label": "Wikipedia, McGregor, Iowa",
-      "url": "https://en.wikipedia.org/wiki/McGregor,_Iowa"
-    },
-    {
-      "label": "Wikipedia, Montauk (Clermont, Iowa)",
-      "url": "https://en.wikipedia.org/wiki/Montauk_(Clermont,_Iowa)"
-    },
-    {
       "label": "Wikipedia, Motor Mill Historic District",
       "url": "https://en.wikipedia.org/wiki/Motor_Mill_Historic_District"
     },
     {
-      "label": "Wikipedia, Guttenberg, Iowa",
-      "url": "https://en.wikipedia.org/wiki/Guttenberg,_Iowa"
+      "label": "Iowa Department of Transportation, Scenic Byway View",
+      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
     },
     {
-      "label": "Iowa DOT, Scenic Byway View (ArcGIS feature service)",
-      "url": "https://services.arcgis.com/8lRhdTsQyJpO52F1/arcgis/rest/services/Scenic_Byway_View/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+      "label": "Iowa Department of Transportation, The Official Travel Guide to Iowa’s Byways",
+      "url": "https://iowadot.gov/media/916/download?inline"
+    },
+    {
+      "label": "Wikipedia, McGregor, Iowa",
+      "url": "https://en.wikipedia.org/wiki/McGregor%2C_Iowa"
+    },
+    {
+      "label": "Wikipedia, Montauk (Clermont, Iowa)",
+      "url": "https://en.wikipedia.org/wiki/Montauk_%28Clermont%2C_Iowa%29"
+    },
+    {
+      "label": "Wikipedia, Clermont, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Clermont%2C_Iowa"
+    },
+    {
+      "label": "Wikipedia, Fayette, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Fayette%2C_Iowa"
+    },
+    {
+      "label": "Wikipedia, Guttenberg, Iowa",
+      "url": "https://en.wikipedia.org/wiki/Guttenberg%2C_Iowa"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

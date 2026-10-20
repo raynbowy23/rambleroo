@@ -1,26 +1,37 @@
 {
   "id": "walden-point-road-81476",
-  "tagline": "A road promised in wartime, finished half a century on.",
+  "tagline": "A wartime road promise became a coastal connection across Annette Island.",
   "motifs": [
     "waterfall-cove",
     "harbor-village"
   ],
   "intro": [
-    "From Annette Bay, on the side of the island that faces Ketchikan, Walden Point Road runs 14.7 miles to Metlakatla. It keeps to the edge of the forest, looking out over the ocean. Waterfalls are many along the way, there are creeks where fish spawn, and Sitka black-tailed deer are a common sight on the muskeg side.",
-    "During the Second World War the United States promised the Metlakatla Indian Community a road across the island in exchange for an airfield. More than half a century later, military crews built it."
+    "Walden Point Road follows the forest’s edge above the ocean for 14.7 miles between Annette Bay and Metlakatla. Alaska’s scenic-byways program highlights its waterfalls, spawning creeks and offshore island views. In clear weather, the views reach Gravina Island, Prince of Wales Island and the Percy Islands. Pullouts provide places to stop along the route.",
+    "During World War II, the United States promised the Metlakatla Indian Community a road to the Inside Passage in exchange for permission to construct and operate a military airbase on Annette Island. The road was meant to allow year-round ferry service to Ketchikan. Construction began in 1998, and Department of Defense crews completed the road early in 2010 through an innovative readiness training program. It opened access to central parts of the island previously reached only by old logging roads.",
+    "Start at Annette Bay, with views toward Ketchikan, and continue toward Metlakatla past the coastal landmarks of Walden Rocks and Japan Bay. Closer to town, the view includes the Dall Islands at Gravina’s southern end and the peninsula occupied by the Metlakatla Indian Community. Downtown, the William Duncan Museum interprets the community’s migration and town history."
   ],
   "moments": [
     {
       "title": "Annette Bay",
       "kind": "roadside",
       "scene": "coast",
-      "text": "The road begins here with views across to Ketchikan, and pullouts along the way give room to stop and look out over the water."
+      "text": "The drive begins at Annette Bay, with a view across the water toward Ketchikan. From here, Walden Point Road continues to Metlakatla along the forest’s edge, overlooking the ocean. The coastal landmarks along the journey include Walden Rocks and Japan Bay, with pullouts for stopping. Clear weather makes the difference for the wider island panorama: Alaska’s byway description identifies Gravina Island, Prince of Wales Island and the Percy Islands as visible in those conditions. Along the road, waterfalls and creeks that support spawning fish are among the features highlighted by Alaska’s scenic-byways program."
+    },
+    {
+      "title": "Father William Duncan House",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "Four evenly spaced pilasters divide the shiplap front of the Father William Duncan House in Metlakatla. Tsimshian followers of William Duncan built the single-story wooden house in 1891. It now houses the Duncan Cottage Museum. Decorative woodwork fills the shallow gable end, a small architectural detail on a house added to the National Register of Historic Places in 1972.",
+      "at": [
+        -131.57319,
+        55.1285
+      ]
     },
     {
       "title": "Metlakatla",
       "kind": "town",
       "scene": "coast",
-      "text": "Named for the British Columbia village that some 800 Tsimshian left by canoe with William Duncan in 1887, it is the main town of Alaska's only Indian reserve.",
+      "text": "Metlakatla’s longhouse has hand-carved totem poles and is used for Native dancing and ceremonies. The community began here in 1887, when Tsimshian people migrated from British Columbia with missionary William Duncan. The settlement followed a grid plan and included a church, school, cannery and sawmill. They named their settlement after the Metlakatla they had left behind. The island received federal recognition as an Indian Reserve four years later, in 1891. All land on the reserve remains in Metlakatla Indian Community ownership. Fishing, seaweed harvesting and hunting remain important to the community’s livelihood.",
       "at": [
         -131.57639,
         55.12694
@@ -31,26 +42,25 @@
     }
   ],
   "practical": [
-    "Visitor, fishing and hunting permits come from the Metlakatla Indian Community."
+    "Annette Bay: Contact the Metlakatla Indian Community for visitor, fishing and hunting permits. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "Alaska DOT&PF, Scenic Byways: Metlakatla Walden Point Road",
+      "label": "Wikipedia, Metlakatla, Alaska",
+      "url": "https://en.wikipedia.org/wiki/Metlakatla%2C_Alaska"
+    },
+    {
+      "label": "Alaska Department of Transportation and Public Facilities, Walden Point Road",
       "url": "https://dot.alaska.gov/dmio/scenic/byways-metlakatla.shtml"
     },
     {
-      "label": "Wikipedia, Metlakatla, Alaska",
-      "url": "https://en.wikipedia.org/wiki/Metlakatla,_Alaska"
+      "label": "Wikipedia, Father William Duncan House",
+      "url": "https://en.wikipedia.org/wiki/Father_William_Duncan_House"
     },
     {
-      "label": "Wikipedia, Annette Island",
-      "url": "https://en.wikipedia.org/wiki/Annette_Island"
-    },
-    {
-      "label": "Wikipedia, William Duncan (missionary)",
-      "url": "https://en.wikipedia.org/wiki/William_Duncan_(missionary)"
+      "label": "Wikipedia, Metlakatla Indian Community",
+      "url": "https://en.wikipedia.org/wiki/Metlakatla_Indian_Community"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

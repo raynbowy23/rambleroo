@@ -1,53 +1,64 @@
 {
   "id": "steens-mountain-back-country-byway-68916",
-  "tagline": "Oregon's highest road, up the long west slope of the Steens.",
+  "tagline": "Oregon’s highest road crosses the west slope of a single mountain",
   "intro": [
-    "Just past Frenchglen the loop road turns off Highway 205 and starts up the west slope of Steens Mountain, a single fault block some fifty miles long, built of more than forty lava flows stacked one on another. The road climbs to about 9,700 feet, the highest in Oregon, and nearly to the summit.",
-    "Along the way it reaches the overlooks above Kiger, Big Indian and Little Blitzen gorges, carved deep by glaciers. The fur traders called it the Snowy Mountains. In 1860 it took the name of an army major instead."
+    "The 52-mile Steens Mountain Backcountry Byway traverses the mountain’s west slope and reaches 9,700 feet, the highest road elevation in Oregon. The Bureau of Land Management presents the byway as access to glacier-carved gorges, wild horse country and the Riddle Brothers Ranch National Historic District. The mountain’s east face is built from stacked basalt flows that inundated the region between 17 and 14 million years ago. Its western face slopes more gradually than its almost vertical eastern face, with canyons cut through basalt reaching depths of half a mile.",
+    "In 2000, a law approved by President Bill Clinton created the Steens Mountain Cooperative Management and Protection Area. Local landowners and government representatives developed the act in response to a proposed national monument. The resulting landscape includes public and private land as well as specially designated areas with particular regulations.",
+    "The loop road leaves Highway 205 just past Frenchglen. Whorehouse Meadow lies on the western slope, southeast of the town. Above, the drive reaches viewpoints including Kiger Gorge; BLM also identifies East Rim, Big Indian Gorge, Wildhorse and Little Blitzen Gorge overlooks. Frenchglen’s historic hotel marks the northern end of the loop road."
   ],
   "moments": [
     {
-      "title": "Frenchglen",
-      "kind": "town",
-      "scene": "desert",
-      "text": "Named for the French-Glenn Livestock Company, which built its headquarters here in 1872, the settlement is home to the 1917 Frenchglen Hotel, now a state heritage site.",
-      "at": [
-        -118.91556,
-        42.82694
-      ]
-    },
-    {
       "title": "Whorehouse Meadow",
-      "kind": "short walk",
+      "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Women from Vale once pitched tents here for the sheepherders, and when the BLM maps changed the name to Naughty Girl Meadow, a public outcry put the old one back in 1981.",
+      "text": "Whorehouse Meadow lies on Steens Mountain’s western slope, southeast of Frenchglen. Bureau of Land Management maps substituted Naughty Girl Meadow in the 1960s, but public outcry led to restoration of the older name in 1981. Women from Vale had set up wood-and-canvas tents here to serve local sheepherders and cattlemen. Many herders were Basque American immigrants. Their carvings, sometimes explicit, remain in the surrounding aspens. The meadow now lies within the Steens Mountain Wilderness. Lewis McArthur’s Oregon Geographic Names locates it a mile east of Fish Lake and describes it as accessible but secluded.",
       "at": [
         -118.6304,
         42.7306
       ]
+    },
+    {
+      "title": "Little Blitzen Gorge",
+      "kind": "roadside",
+      "scene": "mountain",
+      "text": "Little Blitzen Gorge carries a river through a U-shaped trench cut by ice into the western face of Steens Mountain. BLM includes its overlook among the byway’s viewpoints. The Little Blitzen runs 12.5 miles, and Congress designated that whole stretch Wild and Scenic in 1988. In 2000 it became part of the nation’s first Great Basin redband trout reserve. The river joins the South Fork Donner und Blitzen to form the main stem, which continues north to Malheur Lake. At the gorge’s head, the Little Blitzen Research Natural Area protects terrestrial and aquatic ecosystems as well as individual plant species."
+    },
+    {
+      "title": "Frenchglen",
+      "kind": "town",
+      "scene": "desert",
+      "text": "The hotel at the northern end of the loop served both ranch business and wildlife travel. Frenchglen itself takes its name from the French-Glenn Livestock Company, which established its headquarters here in 1872. Schoolteachers also stayed at the hotel. In 1937–38, Civilian Conservation Corps workers helped restore and enlarge it. Oregon’s parks department took possession in 1973. The historic building has eight guest rooms; the modern Drovers’ Inn provides additional accommodation. The site joined the National Register of Historic Places in 1984. Guests continue to come for the refuge and Steens Mountain.",
+      "at": [
+        -118.91556,
+        42.82694
+      ]
     }
   ],
-  "practical": [
-    "Fuel, drinking water, restrooms and cell reception are all far apart on the mountain, and the BLM calls a current map essential."
-  ],
   "sources": [
-    {
-      "label": "BLM, Steens Mountain Cooperative Management and Protection Area",
-      "url": "https://www.blm.gov/visit/steens-mountain-cooperative-management-protection-area"
-    },
     {
       "label": "Wikipedia, Steens Mountain",
       "url": "https://en.wikipedia.org/wiki/Steens_Mountain"
     },
     {
-      "label": "Wikipedia, Frenchglen, Oregon",
-      "url": "https://en.wikipedia.org/wiki/Frenchglen,_Oregon"
+      "label": "Bureau of Land Management, Steens Mountain Cooperative Management & Protection Area",
+      "url": "https://www.blm.gov/visit/steens-mountain-cooperative-management-protection-area"
+    },
+    {
+      "label": "Wikipedia, Little Blitzen River",
+      "url": "https://en.wikipedia.org/wiki/Little_Blitzen_River"
     },
     {
       "label": "Wikipedia, Whorehouse Meadow",
       "url": "https://en.wikipedia.org/wiki/Whorehouse_Meadow"
+    },
+    {
+      "label": "Wikipedia, Frenchglen Hotel State Heritage Site",
+      "url": "https://en.wikipedia.org/wiki/Frenchglen_Hotel_State_Heritage_Site"
+    },
+    {
+      "label": "Wikipedia, Frenchglen, Oregon",
+      "url": "https://en.wikipedia.org/wiki/Frenchglen%2C_Oregon"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

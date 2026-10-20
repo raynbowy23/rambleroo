@@ -1,16 +1,17 @@
 {
   "id": "route-234-pequot-trail-990937",
-  "tagline": "An old road the state let go and then took back.",
+  "tagline": "The Pequot Trail passed from state highway to town road and back.",
   "intro": [
-    "The Pequot Trail starts at Route 27 in Old Mystic and heads southeast across the middle of Stonington, and the scenic stretch runs about three miles of it to North Main Street. Past that it goes on toward Pawcatuck and US 1.",
-    "Its history is mostly paperwork. The state numbered it in 1932 as part of Route 84, moved Route 84 onto the Providence-New London Turnpike in 1935 and handed the trail back to the town. In 1963 the state took it over again as unsigned State Road 645, and in 1987 it became Route 234."
+    "Route 234 crosses central Stonington from Old Mystic toward Pawcatuck, carrying the name Pequot Trail for its entire length. The drive heads southeast before turning east, passing over Interstate 95 along the way. Only the section from the western end to North Main Street is designated a state scenic road.",
+    "The trail entered the numbered state highway system in 1932 as the eastern half of Route 84. When Route 84 moved to the Providence-New London Turnpike in 1935, the Pequot Trail returned to town control. The state took it back in 1963 as unsigned State Road 645; the Route 234 number followed in 1987.",
+    "Begin at Route 27 in Old Mystic. The first I-95 crossing, 2.4 miles along, has no intersection; another mile brings the road east to an interchange. Beyond that, Route 234 continues east for 3.5 miles to US 1 in Pawcatuck."
   ],
   "moments": [
     {
       "title": "Old Mystic",
       "kind": "town",
       "scene": "town",
-      "text": "The trail sets out from Old Mystic, a village shared between the towns of Groton and Stonington.",
+      "text": "Old Mystic straddles Groton and Stonington, while the Pequot Trail begins on the Stonington side at Route 27. At 39 Main Street, the former Mystic Bank gives the village a connection to shipbuilding: local businessmen founded the bank in 1833 to serve shipbuilders and the surrounding rural area. The business expanded into its brick building in 1856. After the bank closed, Stonington acquired the building for district meetings and voting. Its three-bay front has a pedimented gable and round-arched recesses. The building rests on a granite foundation beneath its gabled roof.",
       "at": [
         -71.96166667,
         41.39138889
@@ -20,7 +21,18 @@
       "title": "Over Interstate 95",
       "kind": "roadside",
       "scene": "town",
-      "text": "About two and a half miles out the trail crosses over I-95 and carries on without so much as an intersection."
+      "text": "The Pequot Trail crosses above I-95 2.4 miles from its start, without an intersection. This is a crossing rather than an entrance to the interstate: Route 234 continues southeast before turning east toward an interchange another mile along."
+    },
+    {
+      "title": "Stonington Cemetery",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Stonington Cemetery lies at North Main Street and Route 1, beyond the trail itself. Its oldest legible marker dates to 1754, when this was the Chesebrough family burying ground. The Phelps family acquired the cemetery in 1792 and allowed others to be buried here; incorporation in 1849 formalized its public use. Three nineteenth-century expansions left the oldest sections in the western third. Stone walls and fencing surround rectangular sections divided by paved and gravel roadways. Its enlargements came in 1849, 1864 and 1888, with each section following the cemetery fashions of its time.",
+      "notice": "The cemetery’s oldest sections occupy its western third.",
+      "at": [
+        -71.90305556,
+        41.35055556
+      ]
     }
   ],
   "sources": [
@@ -30,13 +42,16 @@
     },
     {
       "label": "Wikipedia, Old Mystic, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Old_Mystic,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Old_Mystic%2C_Connecticut"
     },
     {
-      "label": "Wikipedia, Stonington, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Stonington,_Connecticut"
+      "label": "Wikipedia, Mystic Bank",
+      "url": "https://en.wikipedia.org/wiki/Mystic_Bank"
+    },
+    {
+      "label": "Wikipedia, Stonington Cemetery",
+      "url": "https://en.wikipedia.org/wiki/Stonington_Cemetery"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

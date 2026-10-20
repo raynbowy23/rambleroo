@@ -1,19 +1,20 @@
 {
   "id": "pee-dee-valley-drive-12837",
-  "tagline": "A French company town, then down the river to Lake Tillery.",
+  "tagline": "Company housing and a flooded crossing tell a valley’s industrial story",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "From Badin, at the south end of Badin Lake, Valley Drive heads south along the Pee Dee past the turn for Morrow Mountain. A short stretch of NC 24/27/73 and then Indian Mound Road bring it into Norwood, near Lake Tillery.",
-    "Badin was a French idea. The town was established in 1913 around an aluminum plant built by the French industrialist Adrian Badin, and when the First World War stopped work on his dam, ALCOA bought it half-built and finished it. ALCOA shut the plant down in 2007, but the dams still make electricity."
+    "Pee Dee Valley Drive appears among North Carolina’s Piedmont scenic byways. Its valley setting includes Badin Lake, contained by Narrows Dam, and Lake Tillery, created by impounding the Pee Dee River. NCDOT says its byways offer an alternative to major highways while introducing the state’s history, geography and culture.",
+    "The valley’s transport history changed with its dams. Alcoa built Narrows Dam and its power plant in 1917 to support the Badin plant. Farther downstream, the planned Lake Tillery would drown the Swift Island Ferry Bridge, so Carolina Power & Light funded a replacement.",
+    "Badin sits at the south end of Badin Lake. Morrow Mountain offers an overlook of the Yadkin-Pee Dee River. To the south, Norwood lies between Lake Tillery on the east and the Rocky River on the west."
   ],
   "moments": [
     {
       "title": "Badin",
       "kind": "town",
       "scene": "town",
-      "text": "The town's French colonial-inspired townhouses are among the earliest townhouses in North Carolina, and the Badin Historic District is on the National Register.",
+      "text": "Badin’s company housing records a divided town. Southern Aluminum Company of America, later Alcoa, developed Badin for white residents and West Badin for African-American residents. Both historic districts include homes, institutional buildings and commercial structures, with Gothic Revival and American Craftsman architecture. The Badin district includes a Henderson Street duplex and a Boyden Street quadruplex; West Badin includes a Lincoln Avenue duplex, churches and the Badin Colored School. Both districts entered the National Register of Historic Places in 1983. The Narrows dam and power plant supplied the industrial complex that these communities served, supporting Alcoa’s Badin plant from their construction in 1917.",
       "at": [
         -80.11833333,
         35.40722222
@@ -23,7 +24,8 @@
       "title": "Morrow Mountain State Park",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "From the overlook Badin Lake lies to the north and Lake Tillery to the south, and stone quarried from this summit by early Native Americans turns up as tools from Maine to Florida.",
+      "text": "The summit of Morrow Mountain supplied stone for tools found from Maine to Florida. At the nearby Hardaway Site, excavators found thousands of stone tools and weapon points whose raw material came primarily from the mountaintop. That quarrying history gives the summit another meaning beside its view of the Yadkin-Pee Dee River. A local committee worked to establish the park in the 1930s, and it opened in summer 1939. Civilian Conservation Corps and Work Projects Administration crews built many park facilities between 1937 and 1942, during a joint state and federal development effort.",
+      "notice": "The Yadkin-Pee Dee River is visible from the summit overlook.",
       "at": [
         -80.073477,
         35.373724
@@ -33,7 +35,7 @@
       "title": "Lake Tillery",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "When the lake was about to cover the old river bridge, the military tried dead weight, bombs and cannon fire on it, and in the end it took a ton of TNT.",
+      "text": "Lake Tillery required a new river crossing before it filled. The first Swift Island Ferry Bridge opened in 1922, replacing the ferry service. When a replacement opened in 1927, the U.S. Army used the condemned bridge for demolition attempts. Weight, aerial bombing and artillery failed; explosives placed at the structure’s bases finally brought it down. The lake submerged the remains in 1928. The 1927 replacement later joined a parallel 1979 bridge under the James B. Garrison name. The paired bridges carry NC 24, NC 27 and NC 73 over the Pee Dee River and Lake Tillery between Stanly and Montgomery counties.",
       "at": [
         -80.06611111,
         35.20666667
@@ -45,26 +47,45 @@
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook",
+      "label": "Wikipedia, Badin Historic District",
+      "url": "https://en.wikipedia.org/wiki/Badin_Historic_District"
+    },
+    {
+      "label": "Wikipedia, James B. Garrison Bridge",
+      "url": "https://en.wikipedia.org/wiki/James_B._Garrison_Bridge"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways guidebook",
       "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=140"
     },
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook (route and points of interest)",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=141"
+      "label": "Wikipedia, Badin Lake",
+      "url": "https://en.wikipedia.org/wiki/Badin_Lake"
+    },
+    {
+      "label": "Wikipedia, Lake Tillery",
+      "url": "https://en.wikipedia.org/wiki/Lake_Tillery"
+    },
+    {
+      "label": "Wikipedia, Narrows Dam and Power Plant Complex",
+      "url": "https://en.wikipedia.org/wiki/Narrows_Dam_and_Power_Plant_Complex"
     },
     {
       "label": "Wikipedia, Badin, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Badin,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Badin%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Morrow Mountain State Park",
       "url": "https://en.wikipedia.org/wiki/Morrow_Mountain_State_Park"
     },
     {
-      "label": "Wikipedia, Lake Tillery",
-      "url": "https://en.wikipedia.org/wiki/Lake_Tillery"
+      "label": "Wikipedia, Norwood, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Norwood%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, West Badin Historic District",
+      "url": "https://en.wikipedia.org/wiki/West_Badin_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

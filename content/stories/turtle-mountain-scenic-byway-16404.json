@@ -1,50 +1,64 @@
 {
   "id": "turtle-mountain-scenic-byway-16404",
-  "tagline": "Up into the border woods and lakes, then down to prairie.",
+  "tagline": "Woods and lakes cover a plateau divided by an international border.",
   "intro": [
-    "Three miles north of Rolla, by St. John, County Highway 43 starts west into the Turtle Mountains, crosses US 281 and carries on as State Highway 43 to Highway 14. It climbs past farmsteads and pasture, clear lakes and wooded wildlife areas, then comes down into the foothills with the prairie laid out below.",
-    "The Turtle Mountains are a plateau standing 300 to 400 feet above the country around them, wooded in ash, aspen, oak and birch and scattered with lakes. They are the traditional territory of the Plains Ojibwe and part of the Métis homeland."
+    "The Turtle Mountains rise 300 to 400 feet above the surrounding countryside, with forests and lakes spread across a plateau in North Dakota and Manitoba. Green ash, quaking aspen, paper birch and bur oak are among its woodland trees. On Highway 43 near Carbury, Mystical Horizons provides a view of the mountains and surrounding valley.",
+    "The plateau is traditional Plains Ojibwe territory and part of the Métis homeland. During the 19th century, colonization, settlement and the establishment of a firm international border displaced Indigenous peoples to and from the region.",
+    "For a west-to-east sequence of landmarks, begin with Mystical Horizons on Highway 43, then Lake Metigoshe, whose northern bays extend into Canada. Farther east, the International Peace Garden occupies the border at the northern end of US 281. Near the plateau’s center, the garden was established in 1932 as a symbol of peaceful relations between the two countries."
   ],
   "moments": [
     {
-      "title": "International Peace Garden",
-      "kind": "separate excursion",
-      "scene": "forest",
-      "text": "Up US 281 at the border, visitors cross between the two countries at will inside the garden, then go through customs on the way out, even when heading home.",
+      "title": "Mystical Horizons",
+      "kind": "short walk",
+      "scene": "prairie",
+      "text": "Six slotted walls at Mystical Horizons form a solar calendar, admitting direct sunlight through their openings only at the solstices and equinoxes. A fixed sighting tube points to Polaris, and a human-sized sundial adds another way to follow the sky. Aerospace engineer Jack Olson conceived the site but died in 2001 before construction began. Community fundraising and partnerships with state agencies and Bottineau brought it to completion in 2005. Explanations beside the instruments describe their use and the science they demonstrate. The site also offers a panoramic view across the Turtle Mountains and the surrounding valley, alongside its astronomical instruments.",
+      "notice": "Slots in six walls mark the solstices and equinoxes; a fixed tube locates Polaris.",
       "at": [
-        -100.05264,
-        48.99936
+        -100.52333333,
+        48.94861111
       ]
     },
     {
       "title": "Lake Metigoshe",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Settlers first called it Fish Lake, and two of its north-shore bays reach over the line into Canada.",
+      "text": "Two bays on Lake Metigoshe’s north shore extend into Canada, while most of the lake lies in the United States. The 1,544-acre lake occupies part of the Turtle Mountains and reaches a maximum depth of 24 feet. White settlers called it Fish Lake, a name recorded on an early plat map of Roland Township. That older map name remains attached to Little Fish Lake, a bay connected to the Canadian part of the lake. Lake Metigoshe State Park encompasses about a quarter of the shoreline, along the east half of the portion known locally as North Lake.",
       "at": [
         -100.354,
         48.979
       ]
+    },
+    {
+      "title": "International Peace Garden",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "The International Peace Garden straddles the Manitoba–North Dakota boundary, a park established on July 14, 1932, to symbolize peaceful relations between Canada and the United States. It gave North Dakota its Peace Garden State nickname, which appeared on vehicle plates in 1956 and became official the following year. An 18-foot floral clock and fountains are among the garden’s features. The twin concrete peace towers were demolished in 2017 after weather-related erosion made them unsafe. The garden’s fourteen Arma Sifton bells were a 1972 gift from Central United Church in Brandon, Manitoba.",
+      "at": [
+        -100.05264,
+        48.99936
+      ]
     }
+  ],
+  "practical": [
+    "International Peace Garden: All visitors must pass through their destination country’s immigration procedures when leaving the garden, including those returning to the country they entered from. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "North Dakota Tourism, Turtle Mountain Byway (Wayback Machine, September 2021)",
-      "url": "https://web.archive.org/web/20210927222423/https://www.ndtourism.com/bottineau/attractions/turtle-mountain-byway"
-    },
-    {
       "label": "Wikipedia, Turtle Mountain (plateau)",
-      "url": "https://en.wikipedia.org/wiki/Turtle_Mountain_(plateau)"
+      "url": "https://en.wikipedia.org/wiki/Turtle_Mountain_%28plateau%29"
     },
     {
-      "label": "Wikipedia, International Peace Garden",
-      "url": "https://en.wikipedia.org/wiki/International_Peace_Garden"
+      "label": "Wikipedia, Mystical Horizons",
+      "url": "https://en.wikipedia.org/wiki/Mystical_Horizons"
     },
     {
       "label": "Wikipedia, Lake Metigoshe",
       "url": "https://en.wikipedia.org/wiki/Lake_Metigoshe"
+    },
+    {
+      "label": "Wikipedia, International Peace Garden",
+      "url": "https://en.wikipedia.org/wiki/International_Peace_Garden"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

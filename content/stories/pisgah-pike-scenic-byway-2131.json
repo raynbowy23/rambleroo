@@ -1,54 +1,57 @@
 {
   "id": "pisgah-pike-scenic-byway-2131",
-  "tagline": "Farm miles, a castle, and a hedge grown over the road.",
+  "tagline": "A farm-road canopy links horse country with an early Kentucky settlement",
   "intro": [
-    "Pisgah Pike, KY 1967, starts just north of US 60 between Versailles and Lexington and runs north for five miles through Woodford County farm country to Old Frankfort Pike. Along the way it passes through the Pisgah Rural Historic District, 4,035 acres roughly bounded by South Elkhorn Creek, US 60 and Big Sink Road.",
-    "A colony from Virginia settled here in 1784 and named the place for Mount Pisgah, the mountain in the Hebrew Bible. The railroad came through in 1888, and the post office lasted from 1890 to 1931."
+    "Pisgah Pike follows KY 1967 through Woodford County between Old Frankfort Pike and a point half a mile north of US 60. Kentucky designated the 5.069-mile stretch a scenic byway in 1995. Beside the historic Silver Pool farm property, an Osage orange hedge has grown into a canopy over the road. The neighboring Pisgah Rural Historic District covers 4,035 acres in Fayette and Woodford counties, bringing farm buildings and other agricultural features into a single historic designation.",
+    "The farm began with the Williams family from Virginia’s Tidewater in the late 1700s and remained in the family for more than 150 years. Livestock and hemp manufacturing were among its uses before much of the land became Prestonwood Farm. Purchased in 2000, Prestonwood became WinStar Farm. Its historic portion lies mostly beside Pisgah Pike, including a farmhouse, smokehouse and a former tobacco barn converted for horses.",
+    "Traveling south from Old Frankfort Pike, the journey passes WinStar’s historic farm landscape before reaching Pisgah and its Presbyterian church. The church’s current building dates from 1812. Beyond the designated southern endpoint, the Kentucky Castle stands at 201 Pisgah Pike near Versailles Road. Its construction began in 1969, after a European trip inspired Rex and Caroline Martin."
   ],
+  "notice": "An Osage orange hedge arches over Pisgah Pike beside the historic Silver Pool property.",
   "moments": [
     {
-      "title": "The Kentucky Castle",
+      "title": "WinStar Farm",
       "kind": "roadside",
       "scene": "prairie",
-      "text": "Rex and Caroline Martin began a castle here in 1969 after a trip to Germany, divorced in 1975 and left it unfinished, and for years it stood as a roadside oddity.",
+      "text": "An Osage orange hedge arches over Pisgah Pike beside WinStar’s historic property. The National Register recognizes the hedge as a historic feature, along with buildings and a stone-lined, spring-fed pond. That pond once supplied ice for cutting and hauling. This was Silver Pool Farm, settled by the Williams family in the late 1700s. Its working buildings changed with the farm: a tobacco barn became a horse barn, while the original farmhouse received additions after the Civil War. Most of Silver Pool later became Prestonwood Farm, which Kenny Troutt and Bill Casner bought and renamed WinStar in 2000.",
+      "notice": "Notice the Osage orange canopy arching over the road beside the farm.",
       "at": [
-        -84.65299,
-        38.04671
+        -84.6615,
+        38.09007
       ]
     },
     {
       "title": "Pisgah",
       "kind": "town",
       "scene": "town",
-      "text": "Pisgah Presbyterian Church was founded with the settlement in 1784 and has met in its present building since 1812.",
+      "text": "Pisgah Presbyterian Church dates to the community’s beginnings, but its present building came later. A colony from Virginia settled Pisgah in 1784, the same year the church was founded. The building now identified with the church dates from 1812. The settlement took its name from Mount Pisgah in the Hebrew Bible. Rail service reached the community in 1888; a post office followed in 1890 and operated until 1931.",
       "at": [
         -84.655,
         38.05667
       ]
     },
     {
-      "title": "WinStar Farm",
+      "title": "The Kentucky Castle",
       "kind": "roadside",
-      "scene": "prairie",
-      "text": "Where the pike runs beside the old Silver Pool farm, an Osage orange hedge has grown so tall that it arches over the road, and the National Register counts it as historic.",
+      "scene": "town",
+      "text": "The Kentucky Castle began as Rex and Caroline Martin’s private building project in 1969, inspired by architecture they had seen in Europe. Their divorce in 1975 left it unfinished, and the building became a roadside photo subject. Thomas R. Post bought it in 2003 and began renovations. A fire in May 2004 damaged the main building; reconstruction was completed in fall 2008. The rebuilt property includes suites in its outside turrets. The reconstruction added a library, music room and formal garden, turning the long-unfinished project into an inn and events venue.",
       "at": [
-        -84.6615,
-        38.09007
+        -84.65299,
+        38.04671
       ]
     }
   ],
   "sources": [
     {
-      "label": "Kentucky Transportation Cabinet, Kentucky State and National Scenic Byways and Highways",
-      "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
-    },
-    {
-      "label": "National Scenic Byway Foundation, Pisgah Pike Scenic Byway (Wayback Machine capture)",
-      "url": "https://web.archive.org/web/20260919034112/https://nsbfoundation.com/sb/pisgah-pike-scenic-byway/"
+      "label": "Wikipedia, WinStar Farm",
+      "url": "https://en.wikipedia.org/wiki/WinStar_Farm"
     },
     {
       "label": "Wikipedia, Pisgah, Kentucky",
-      "url": "https://en.wikipedia.org/wiki/Pisgah,_Kentucky"
+      "url": "https://en.wikipedia.org/wiki/Pisgah%2C_Kentucky"
+    },
+    {
+      "label": "Kentucky Transportation Cabinet, Kentucky State and National Scenic Byways and Highways",
+      "url": "https://transportation.ky.gov/LocalPrograms/Documents/Kentucky%20State%20and%20National%20Scenic%20Byways%20and%20Highways.pdf"
     },
     {
       "label": "Wikipedia, Pisgah Rural Historic District",
@@ -57,12 +60,7 @@
     {
       "label": "Wikipedia, Martin Castle",
       "url": "https://en.wikipedia.org/wiki/Martin_Castle"
-    },
-    {
-      "label": "Wikipedia, WinStar Farm",
-      "url": "https://en.wikipedia.org/wiki/WinStar_Farm"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

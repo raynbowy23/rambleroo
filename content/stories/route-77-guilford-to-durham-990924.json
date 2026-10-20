@@ -1,20 +1,31 @@
 {
   "id": "route-77-guilford-to-durham-990924",
-  "tagline": "Inland from the Guilford green on the 1824 turnpike.",
+  "tagline": "An old turnpike connects Guilford’s green with the road to Durham.",
   "motifs": [
     "steeple-town",
     "lake-wide"
   ],
   "intro": [
-    "Route 77 starts at the Guilford green, goes round its west side, crosses US 1 and I-95, and heads inland as Durham Road through North Guilford, past Lake Quonnipaug and the Route 80 junction, into Durham. There it meets Route 17 just south of the town center, and the scenic road follows Route 17 on through.",
-    "It was chartered in 1824 as the Guilford and Durham Turnpike. Durham is a former farming village on the Coginchaug River with the trap rock of the Metacomet Ridge along its west side, and on the last full weekend of September it holds a fair run entirely by volunteers, where oxen, draft horses and tractors pull concrete weights."
+    "Route 77 leads from Guilford’s town green through North Guilford into Durham, with state scenic designation along its entire length. The drive passes Lake Quonnipaug on the way inland. A separate 1.4-mile scenic section of Route 17 continues through Durham, from Route 77 to just north of Route 68. Guilford’s green is framed by churches and civic buildings; Durham’s western side is flanked by the traprock heights of the Metacomet Ridge.",
+    "In 1824, the road between the two town centers was chartered as the private Guilford and Durham Turnpike. Connecticut took over its main through roads in 1922, incorporating the old alignment into State Highway 112. In 1932, the portion south of Durham center became Route 77. Its original southern end was US 1; the extension to Route 146 followed in 1962.",
+    "Start on Whitfield Street at the green, follow its west side, then leave on Church Street. Beyond US 1 and I-95, the road becomes Durham Road. The Route 80 junction provides connections toward Killingworth and North Branford before the road crosses into Durham. Across the Durham town line it becomes Guilford Road and ends at Route 17 just south of the center."
   ],
+  "notice": "At Guilford’s green, Route 77 follows the west side before leaving on Church Street.",
   "moments": [
+    {
+      "title": "Guilford Green",
+      "kind": "town",
+      "scene": "town",
+      "text": "The green occupies 7.7 acres in Guilford’s historic district, with churches, shops and the town hall along its edges. Nearby on Union Street, the Sabbathday House preserves a shelter for churchgoing families. Colonial churchgoers attended morning and afternoon Sunday services. Families traveling long distances needed somewhere to rest between them. The town allocated land for these shelters, and as many as thirty were built. This house is one of two that survive in Guilford. The house’s roof combines a gambrel front with a rear shed roof, above wooden clapboards and an irregular pair of front windows.",
+      "motifs": [
+        "steeple-town"
+      ]
+    },
     {
       "title": "Lake Quonnipaug",
       "kind": "roadside",
       "scene": "river",
-      "text": "The road passes Guilford's largest lake, where a town park keeps a supervised beach and the water is open for swimming, paddling and fishing.",
+      "text": "Route 77 passes Lake Quonnipaug in northern Guilford. Guilford’s largest lake has a 41-acre park with a pavilion, picnic tables and a supervised beach.",
       "motifs": [
         "lake-wide"
       ]
@@ -23,7 +34,7 @@
       "title": "Durham",
       "kind": "town",
       "scene": "town",
-      "text": "The town started one of the first public libraries in the country in 1733, two years after Benjamin Franklin started his in Philadelphia.",
+      "text": "Durham’s Main Street follows a ridge between swampy areas, a layout that limited the street grid. The agricultural town’s center benefited from travelers between Hartford and New Haven, with taverns and other services along their route. Shoemaking developed as a cottage industry in the early nineteenth century. Its civic buildings changed use, too: the town hall occupies a Greek Revival church built in 1849. The historic district also includes a library built in 1901. The district’s houses span Federal and Victorian styles and include simpler buildings constructed for mill workers, alongside the more elaborate residences.",
       "at": [
         -72.68194444,
         41.46027778
@@ -43,18 +54,21 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_17"
     },
     {
-      "label": "Wikipedia, Durham, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Durham,_Connecticut"
-    },
-    {
-      "label": "Wikipedia, Durham Fair",
-      "url": "https://en.wikipedia.org/wiki/Durham_Fair"
-    },
-    {
       "label": "Wikipedia, Guilford, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Guilford,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Guilford%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Durham, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Durham%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Sabbathday House (Guilford, Connecticut)",
+      "url": "https://en.wikipedia.org/wiki/Sabbathday_House_%28Guilford%2C_Connecticut%29"
+    },
+    {
+      "label": "Wikipedia, Main Street Historic District (Durham, Connecticut)",
+      "url": "https://en.wikipedia.org/wiki/Main_Street_Historic_District_%28Durham%2C_Connecticut%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

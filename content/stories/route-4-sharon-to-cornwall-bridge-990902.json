@@ -1,36 +1,47 @@
 {
   "id": "route-4-sharon-to-cornwall-bridge-990902",
-  "tagline": "Four miles of old turnpike to the Housatonic arches.",
+  "tagline": "An old turnpike reaches concrete arches above the Housatonic River",
   "motifs": [
     "arch-bridge",
     "rolling-ridges"
   ],
   "intro": [
-    "From Old Sharon Road, Route 4 runs about four miles east on the line of the old Sharon and Cornwall Turnpike and comes to US 7 at Cornwall Bridge, where the two roads cross the Housatonic together.",
-    "A few miles south of Cornwall Bridge lay Dudleytown, a farm settlement named for the Dudley family, who came there from the 1740s. It emptied out after the Midwest opened in the mid-19th century and the local iron trade wound down, and only cellar holes are left. Ghost stories brought vandals in the 1980s, and the owners have closed it to the public."
+    "Route 4 approaches Cornwall Bridge as a rural road, joining US 7 to cross the Housatonic River. The crossing carries two lanes above the river and railroad on six open-spandrel concrete arches. Connecticut designated 3.17 miles of Route 4 in Sharon as scenic in 1990 and extended the section by 1.05 miles in 1992, to Old Sharon Road. The designation covers a portion of the longer highway connecting Sharon with West Hartford.",
+    "The Sharon-to-Cornwall Bridge section was once the Sharon and Cornwall Turnpike. In 1930, the state replaced the river crossing with a concrete bridge as part of a program to modernize its principal travel routes. The old covered bridge became a pedestrian crossing, then washed away in the 1936 flood. The village’s industrial and commercial center gradually moved uphill toward the Route 7 and Route 4 intersection. The open-spandrel design reduced the concrete needed for the crossing, limiting both its footprint and the expense of more conventional designs.",
+    "From the Old Sharon Road end, follow Route 4 toward Cornwall Bridge and its junction with US 7. The shared crossing spans the south-flowing Housatonic and the railroad along its east bank. Below the concrete bridge, the former Cornwall Bridge station remains beside the railway."
   ],
   "moments": [
     {
-      "title": "Cornwall Bridge",
-      "kind": "town",
+      "title": "Housatonic Meadows State Park",
+      "kind": "separate excursion",
       "scene": "river",
-      "text": "After the new bridge went up in 1930 the village center slowly moved uphill from the river to Route 7 and Route 4, and the old covered bridge went out in the 1936 flood.",
+      "text": "Housatonic Meadows State Park occupies 452 acres along the Housatonic River in Sharon and Cornwall. The Appalachian Trail crosses the park, which is managed by the Connecticut Department of Energy and Environmental Protection.",
       "at": [
-        -73.38305556,
-        41.80444444
+        -73.38277778,
+        41.83305556
       ]
     },
     {
       "title": "Bridge No. 560",
       "kind": "roadside",
       "scene": "river",
-      "text": "Six open-spandrel concrete arches, the largest such bridge in the state, carry the road over the Housatonic and the railroad, with the old station, unserved since 1972, below.",
+      "text": "Six open-spandrel concrete arches carry the road across the Housatonic and its railroad corridor. The design reduced the amount of concrete and the bridge’s footprint compared with more conventional alternatives. C.W. Blakeslee and Sons built it for the Connecticut Highway Department in 1930. The longest arch spans 180 feet over the river; five smaller arches measure 76 feet each. Reconstruction followed in 1994. The crossing has two traffic lanes and no sidewalks. Three concrete girder approach spans on each bank bring the total bridge length to 859 feet, beyond the six arches.",
       "at": [
         -73.37277778,
         41.81944444
       ],
       "motifs": [
         "arch-bridge"
+      ]
+    },
+    {
+      "title": "Cornwall Bridge",
+      "kind": "town",
+      "scene": "river",
+      "text": "Cornwall Bridge’s commercial center moved uphill after the concrete river crossing opened in 1930. The older covered bridge stayed in use for pedestrians until a Housatonic flood carried it away in 1936. Below the replacement bridge stands the former railway station. The Housatonic Railroad built the wood-frame station in the 1880s to replace an earlier building. Its National Register designation came in 1972. The present community extends across the river into Sharon, although most of it lies in Cornwall; US 7 follows the river’s eastern side. The station follows the Stick style of architecture.",
+      "at": [
+        -73.38305556,
+        41.80444444
       ]
     }
   ],
@@ -44,14 +55,17 @@
       "url": "https://en.wikipedia.org/wiki/Cornwall_Bridge"
     },
     {
-      "label": "Wikipedia, Cornwall Bridge, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Cornwall_Bridge,_Connecticut"
+      "label": "Wikipedia, Housatonic Meadows State Park",
+      "url": "https://en.wikipedia.org/wiki/Housatonic_Meadows_State_Park"
     },
     {
-      "label": "Wikipedia, Dudleytown, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Dudleytown,_Connecticut"
+      "label": "Wikipedia, Cornwall Bridge station",
+      "url": "https://en.wikipedia.org/wiki/Cornwall_Bridge_station"
+    },
+    {
+      "label": "Wikipedia, Cornwall Bridge, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Cornwall_Bridge%2C_Connecticut"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

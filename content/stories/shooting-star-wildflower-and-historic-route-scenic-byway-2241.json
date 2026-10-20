@@ -1,16 +1,17 @@
 {
   "id": "shooting-star-wildflower-and-historic-route-scenic-byway-2241",
-  "tagline": "Thirty-one miles of wildflower shoulders down to the Iowa line.",
+  "tagline": "A wildflower gives its name to the highway through railroad towns.",
   "intro": [
-    "From the interchange on I-90 east of Austin, Highway 56 runs due south to Rose Creek and then turns east for the Iowa line, 31 miles through farm country and small towns with old buildings of their own. It was one of Minnesota's first designated wildflower routes, and the state's highway and natural resources departments keep its roadsides in native grasses and flowers.",
-    "The name comes from the wildflowers that bloom along it in June and July."
+    "The Shooting Star Scenic Byway follows southern Highway 56 between Interstate 90 and US 63 near the Iowa line. From the interstate east of Austin, the road heads south, then turns east through Rose Creek and the towns toward Le Roy. The designated byway takes its name from the shooting star wildflower, with blooms in June and July.",
+    "Highway 56 first received authorization in 1920 for a route between US 16 and Kenyon. Its 1933 extension south to US 63 brought the numbered route to its present southern endpoint. Railroads had already shaped towns along this stretch: Le Roy was platted when the railway arrived in 1867, and Rose Creek followed in 1868. The separate Shooting Star State Trail now uses the former Milwaukee Road’s railbed and largely follows this leg of Highway 56.",
+    "Continue from Rose Creek to Adams, where Highway 56 becomes Main Street, then pass through Taopi toward Le Roy. Lake Louise State Park lies northwest of Le Roy, with a man-made lake, prairie and deciduous forest. Beyond Le Roy, the highway continues six miles east to US 63 just north of Chester, Iowa."
   ],
   "moments": [
     {
       "title": "Taopi",
       "kind": "town",
       "scene": "prairie",
-      "text": "Named for the chief who befriended settlers after the New Ulm massacre, Taopi once had the largest steam-powered flour mill in southern Minnesota, good for 300,000 bushels of wheat a year.",
+      "text": "Taopi once had a steam-powered flour mill capable of processing 300,000 bushels of wheat a year. The Taopi Farming Company platted the town in 1875 in the name of John W. Wood. Highway 56 now passes through the city between Adams and Le Roy. At its eastern edge, the North Branch of the Upper Iowa River crosses the city limits; the Wapsipinicon River’s source lies less than a mile to the south.",
       "at": [
         -92.64277778,
         43.55805556
@@ -18,9 +19,10 @@
     },
     {
       "title": "Lake Louise State Park",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "prairie",
-      "text": "The lake comes from an earthen dam on the Upper Iowa River, rebuilt by the people of Le Roy after the first one washed away and named for a settler's sister.",
+      "text": "Lake Louise began with an earthen dam on the Upper Iowa River and land set aside for recreation. Conrad Hambrecht donated that land to Le Roy as Wildwood Park, requiring that it remain a park. When the original dam washed away, residents rebuilt it and named the lake for his sister. Local advocates brought state park officials to visit in 1961; the legislature created Lake Louise State Park in 1963. The park combines prairie and deciduous forest and includes a picnic shelter from the Public Works Administration era. Its grounds are used for hiking, camping and horseback riding.",
+      "notice": "Prairie and deciduous forest surround a man-made lake.",
       "at": [
         -92.525454,
         43.533576
@@ -30,7 +32,7 @@
       "title": "Le Roy",
       "kind": "town",
       "scene": "town",
-      "text": "Platted in 1867 when the railroad got this far and named for a first settler's hometown in New York, Le Roy sits half a mile short of Iowa.",
+      "text": "Some of Le Roy’s buildings made the move to the railroad intact. The old village stood beside the Little Iowa River, where Henry Edmonds erected a mill in 1855. When the first train arrived at Le Roy Station in August 1867, it brought building supplies for a new town. That town was platted the following month, and houses and businesses moved from the earlier settlement. The city’s name came from Le Roy, New York, the hometown of an early settler. Highway 56 passes through its center today, half a mile north of Iowa.",
       "at": [
         -92.50388889,
         43.50972222
@@ -39,26 +41,37 @@
   ],
   "sources": [
     {
-      "label": "Explore Minnesota, Shooting Star Scenic Byway (Wayback Machine capture)",
-      "url": "https://web.archive.org/web/20260207032042/https://www.exploreminnesota.com/profile/shooting-star-scenic-byway/2329"
+      "label": "Wikipedia, Shooting Star State Trail",
+      "url": "https://en.wikipedia.org/wiki/Shooting_Star_State_Trail"
+    },
+    {
+      "label": "Wikipedia, Rose Creek, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Rose_Creek%2C_Minnesota"
+    },
+    {
+      "label": "Wikipedia, Le Roy, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Le_Roy%2C_Minnesota"
     },
     {
       "label": "Wikipedia, Minnesota State Highway 56",
       "url": "https://en.wikipedia.org/wiki/Minnesota_State_Highway_56"
     },
     {
+      "label": "Wikipedia, Adams, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Adams%2C_Minnesota"
+    },
+    {
       "label": "Wikipedia, Taopi, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/Taopi,_Minnesota"
+      "url": "https://en.wikipedia.org/wiki/Taopi%2C_Minnesota"
     },
     {
       "label": "Wikipedia, Lake Louise State Park",
       "url": "https://en.wikipedia.org/wiki/Lake_Louise_State_Park"
     },
     {
-      "label": "Wikipedia, Le Roy, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/Le_Roy,_Minnesota"
+      "label": "Wikipedia, Le Roy Township, Mower County, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Le_Roy_Township%2C_Mower_County%2C_Minnesota"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

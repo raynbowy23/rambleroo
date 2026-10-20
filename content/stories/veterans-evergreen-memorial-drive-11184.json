@@ -1,42 +1,68 @@
 {
   "id": "veterans-evergreen-memorial-drive-11184",
-  "tagline": "The old scenic route to Duluth, over the trout streams.",
+  "tagline": "From Kettle River quarry country to a bridge honoring veterans",
   "intro": [
-    "From the Banning exit on I-35, Highway 23 heads north and east for 50 miles through Askov, Bruno, Kerrick, Duquette, Nickerson and Wrenshall, and for decades people have called it the scenic route to Duluth. Creeks and small rivers cross it all the way up, and on the northern stretch the Nemadji and the South Fork are known for their trout.",
-    "Near the end of the route the Veterans Memorial Overlook looks out over the St. Louis River valley."
+    "Veterans Evergreen Memorial Scenic Drive follows about 50 miles of MN 23 between I-35 near Askov and Duluth’s Gary-New Duluth neighborhood. The scenic roadway offers views of Banning State Park, the Saint Louis River valley and nearby Jay Cooke State Park.",
+    "MN 23 began in 1920 as a highway from Paynesville to Mission Creek, south of Hinckley. Its 1934 extension east to Duluth brought the highway number into this corridor. In Fond du Lac, a three-quarter-mile section took the form of a wide, shaded, divided parkway, with a granite-faced crossing over Mission Creek built in 1937. The Minnesota Department of Highways designed that bridge, and a private contractor built it. Its corrugated-iron culverts have granite headwalls and railings with narrow openings recalling Gothic Revival architecture. Paving progressed along MN 23 from the 1930s through the 1950s; by 1961, the entire highway had a paved surface.",
+    "From Banning State Park, the drive leads through Askov and Bruno toward Nickerson. The Nemadji River flows through Nickerson, with Nemadji State Forest nearby. Farther north, Highway 23 passes east of Wrenshall. At Fond du Lac it crosses the Saint Louis River on Biauswah Bridge before reaching the Gary-New Duluth end of the scenic drive."
   ],
   "moments": [
     {
       "title": "Banning State Park",
       "kind": "short walk",
       "scene": "river",
-      "text": "The Kettle River churns through a mile and a half of rapids here, Hell's Gate among them, past an old sandstone quarry whose town, the reason the park was made, has vanished entirely.",
+      "text": "At Banning, quarry remains share the Kettle River valley with sandstone formations and 1.5 miles of rapids. Quarrying began in 1892 after the St. Paul and Duluth Railroad laid a spur to the sandstone outcrop. By 1905, accessible high-quality stone was running out while building methods shifted toward structural steel. The Pine County Historical Society’s 1959 effort to preserve the ghost town developed into a proposal for a state park. The town’s remains are no longer visible, though quarry remains survive along the river. Hell’s Gate is one of the named rapids, where the river has cut a gorge into the bedrock.",
       "at": [
         -92.85444444,
         46.16472222
       ]
     },
     {
+      "title": "Askov",
+      "kind": "town",
+      "scene": "town",
+      "text": "Nearly all of Askov’s streets have Danish names. That pattern follows a deliberate settlement effort: in 1906, the Dansk Folkesamfund, or Danish Peoples Society, bought 45 parcels near the railway station and post office with help from the railroad. By 1909, it had sold them exclusively to Danish settlers. The post office changed its name from Partridge to Askov that year. The new name commemorated Askov in Denmark, home to a folk high school. Dairy farming became the early economic mainstay, and the first cooperative creamery was built in 1910, alongside a broader practice of mixed farming.",
+      "at": [
+        -92.7825,
+        46.18861111
+      ]
+    },
+    {
       "title": "Biauswah Bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "In Duluth's Fond du Lac neighborhood the highway crosses the St. Louis River on a bridge dedicated in 2008 to American Indian veterans."
+      "text": "The highway crossing over the Saint Louis River in Fond du Lac carries a dedication to American Indian veterans. The Minnesota Legislature named it Biauswah Bridge in 2005; the dedication followed on June 28, 2008. This crossing also takes MN 23 briefly outside Minnesota. The highway runs through Wisconsin for half a mile before returning to Minnesota, without signs announcing the state-line passage."
     }
   ],
   "sources": [
     {
-      "label": "Explore Minnesota, Veterans Evergreen Memorial Drive Scenic Byway (Wayback Machine capture)",
-      "url": "https://web.archive.org/web/20260207034038/https://www.exploreminnesota.com/profile/veterans-evergreen-memorial-drive-scenic-byway/2328"
+      "label": "Wikipedia, Banning State Park",
+      "url": "https://en.wikipedia.org/wiki/Banning_State_Park"
     },
     {
       "label": "Wikipedia, Minnesota State Highway 23",
       "url": "https://en.wikipedia.org/wiki/Minnesota_State_Highway_23"
     },
     {
-      "label": "Wikipedia, Banning State Park",
-      "url": "https://en.wikipedia.org/wiki/Banning_State_Park"
+      "label": "Wikipedia, Bridge 5757",
+      "url": "https://en.wikipedia.org/wiki/Bridge_5757"
+    },
+    {
+      "label": "Wikipedia, Askov, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Askov%2C_Minnesota"
+    },
+    {
+      "label": "Wikipedia, Bruno, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Bruno%2C_Minnesota"
+    },
+    {
+      "label": "Wikipedia, Nickerson, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Nickerson%2C_Minnesota"
+    },
+    {
+      "label": "Wikipedia, Wrenshall, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Wrenshall%2C_Minnesota"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,19 +1,20 @@
 {
   "id": "route-151-shasta-dam-boulevard-10250",
-  "tagline": "From a 602-foot dam to the towns that built it.",
+  "tagline": "A dam, a reservoir and the communities built for its workers",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "Shasta Dam Boulevard starts at the visitor center south of Shasta Dam, a concrete wall 602 feet high that holds the Sacramento River back as Shasta Lake, the largest reservoir in California. The stretch across the top of the dam is closed to the public. The state road heads south instead, a little over three miles through heavily vegetated country to Lake Boulevard.",
-    "The towns along it came with the dam. In 1938 the government built Toyon for its staff on a farm here, and allowed no stores or restaurants. Makeshift camps called Central Valley, Project City and Summit City filled with men from all over the state hoping for work."
+    "Shasta Dam Boulevard heads south from the visitor center through heavily vegetated country before reaching Lake Boulevard. Caltrans designates this stretch of Route 151 as a scenic highway under a program recognizing a “memorable landscape” without “visual intrusions.” At its northern end, Shasta Dam rises 602 feet above its foundations across the Sacramento River. Behind it lies Shasta Lake, California’s largest reservoir, created for water storage, flood control and hydroelectric power.",
+    "The dam project gave rise to communities along the boulevard in 1938. The Bureau of Reclamation built Toyon for government personnel, while Central Valley, Project City and Summit City filled with men seeking construction work. Summit City stood where Shasta Dam and Lake boulevards meet; Central Valley grew farther along the boulevard. The project also submerged earlier places: Kennett’s copper-mining town and traditional Winnemem Wintu lands lie beneath the reservoir. Shasta Dam was completed in 1945.",
+    "Begin at the visitor center south of the dam, where state maintenance starts, and follow the boulevard south toward Lake Boulevard. Beyond the designated scenic stretch, Route 151 turns east through the city of Shasta Lake and ends at Interstate 5. The city and the reservoir share a name; the road passes through the former construction communities on its way to the freeway."
   ],
   "moments": [
     {
       "title": "Shasta Dam",
       "kind": "roadside",
       "scene": "river",
-      "text": "Tours run all year, with a 428-foot elevator ride down to the base. Behind the dam, the copper town of Kennett went under the rising lake within five years of the groundbreaking.",
+      "text": "Shasta Dam’s concrete wall holds back the Sacramento River for water storage, flood control and electricity. Building it also transformed the river’s communities. Kennett, a copper-mining town upstream, disappeared beneath the reservoir. The rising water flooded traditional Winnemem Wintu lands, including village sites, burial places and other sacred locations. The structure also blocks salmon migration into the Upper Sacramento, Pit and McCloud rivers. These consequences belong alongside the dam’s engineering story: water storage began in February 1944, and workers poured the last bucket of concrete on January 2, 1945. The finished dam stands 602 feet above its foundations.",
       "at": [
         -122.41889,
         40.71861
@@ -23,30 +24,42 @@
       ]
     },
     {
+      "title": "Toyon",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "Toyon housed the Bureau of Reclamation staff who worked on Shasta Dam. Laid out on a farm purchased from Porter Seaman in 1938, it provided houses, offices and storage, but prohibited stores and restaurants. Its wooden houses had several rooms, unlike the tents and shacks of construction camps. Bureau employees had to leave by the end of 1964, when the site became a Job Corps camp. The later settlement lost most of its buildings. A metal storage building, flagpole and overgrown streets and sidewalks remain, and the site is fenced off from Shasta Dam Boulevard."
+    },
+    {
       "title": "Shasta Lake",
       "kind": "town",
       "scene": "town",
-      "text": "The construction camps grew into the city of Shasta Lake. Summit City stood at the end of this road, where Shasta Dam Boulevard meets Lake Boulevard.",
+      "text": "The city of Shasta Lake began as five communities associated with dam construction: Central Valley, Toyon, Project City, Pine Grove and Summit City. Their locations followed the roads serving the project. Summit City formed at Shasta Dam Boulevard’s junction with Lake Boulevard; Central Valley occupied a midpoint along the dam road, and Project City stood at its intersection with US 99. Workers needed inexpensive housing, and land was cheap. Central Valley became their commercial hub, though the new communities initially lacked a water supply and wells yielded little. The communities incorporated as the city of Shasta Lake in 1993.",
       "at": [
         -122.36661,
         40.68119
       ]
     }
   ],
+  "practical": [
+    "Shasta Dam: The boulevard segment leading directly to and across the dam is closed to the general public. (checked 2026-10-11)"
+  ],
   "sources": [
-    {
-      "label": "Wikipedia, California State Route 151",
-      "url": "https://en.wikipedia.org/wiki/California_State_Route_151"
-    },
     {
       "label": "Wikipedia, Shasta Dam",
       "url": "https://en.wikipedia.org/wiki/Shasta_Dam"
     },
     {
       "label": "Wikipedia, Shasta Lake, California",
-      "url": "https://en.wikipedia.org/wiki/Shasta_Lake,_California"
+      "url": "https://en.wikipedia.org/wiki/Shasta_Lake%2C_California"
+    },
+    {
+      "label": "Wikipedia, California State Route 151",
+      "url": "https://en.wikipedia.org/wiki/California_State_Route_151"
+    },
+    {
+      "label": "Wikipedia, Kennett, California",
+      "url": "https://en.wikipedia.org/wiki/Kennett%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

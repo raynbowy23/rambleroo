@@ -1,40 +1,48 @@
 {
   "id": "route-615-rapidan-road-orange-to-rapidan-995115",
-  "tagline": "Five miles out of Orange to a mill village.",
+  "tagline": "A river mill village became a railway shipping point.",
   "intro": [
-    "Rapidan Road leaves Orange, which was Orange Court House until the late nineteenth century, and runs about five miles northeast to Rapidan, a village on both banks of the Rapidan River. It grew up in the late eighteenth century around the mill at Waugh's Ford, and milling lasted there into the mid-twentieth century.",
-    "When the railroad came through in 1854 the place became Rapid Ann Station, after the customary name of the river. In 1886 it settled on Rapidan."
+    "Route 615 meets Routes 614 and 673 at Rapidan’s passenger depot. The village spans both banks of the Rapidan River, approximately five miles northeast of Orange.",
+    "Rapidan grew around the Waugh’s Ford mill in the late eighteenth century. The Orange and Alexandria Railroad arrived in 1854, and the settlement became Rapid Ann Station. After wartime destruction and railway rebuilding, it again shipped lumber and wood products. The name changed to Rapidan in 1886; milling continued into the mid-twentieth century.",
+    "Begin at the depot junction in Rapidan, with Waddell Memorial Presbyterian Church nearby. Orange lies to the southwest. There, the courthouse at Madison Road and Main Street marks another place reshaped by the railway."
   ],
   "moments": [
+    {
+      "title": "Rapidan Passenger Depot",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "The depot stands at the meeting of Routes 614, 615 and 673, in a village whose name changed with the arrival of rail. A station was established when the Orange and Alexandria Railroad reached the river in January 1854. Waugh’s Ford became Rapid Ann Station, reflecting the river’s customary name. Confederate cavalry burned the river bridge in April 1863; federal cavalry burned station facilities the following year. The village and station took the name Rapidan in 1886. After the Civil War, the rebuilt railroad helped the village resume its role as a shipping point for lumber and wood products.",
+      "at": [
+        -78.0653,
+        38.3133
+      ]
+    },
     {
       "title": "Waddell Memorial Presbyterian Church",
       "kind": "town",
       "scene": "town",
-      "text": "A Carpenter Gothic church of 1874 in board-and-batten siding, with a rose window in the middle stage of its tower and a belfry above.",
+      "text": "Waddell Memorial’s tower arranges three features one above another: an arched doorway, a rose window and a belfry with paired pointed windows. Built in 1874, the frame church uses board-and-batten siding and Carpenter Gothic design. The tower stands at the gable end. The church entered the National Register of Historic Places in 1975 and is part of the Rapidan Historic District.",
+      "notice": "The tower’s rose window sits between the arched doorway and the belfry.",
       "at": [
         -78.0628,
         38.3081
       ]
     },
     {
-      "title": "Rapidan Passenger Depot",
-      "kind": "roadside",
+      "title": "Orange County Courthouse",
+      "kind": "town",
       "scene": "town",
-      "text": "The depot sits at the junction where Route 615 ends, on a railroad whose Rapidan River bridge Confederate cavalry burned in April 1863.",
+      "text": "Orange’s courthouse moved to make room for the railroad. In 1847, the Orange and Alexandria Railroad chose a route through town, and the county granted passage across the courthouse property. The replacement, completed in 1859, stands at Madison Road and Main Street in the Italian Villa style. Its entrance arcade has a broad central arch flanked by two smaller arches. The tower clock arrived later, fitted into existing round windows in 1949. The courthouse complex also includes a clerk’s office dating to 1894 and a jail built in 1891, both contributing historic buildings.",
       "at": [
-        -78.0653,
-        38.3133
+        -78.11194444,
+        38.245
       ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, List of Virginia Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
-    },
-    {
       "label": "Wikipedia, Rapidan, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Rapidan,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Rapidan%2C_Virginia"
     },
     {
       "label": "Wikipedia, Rapidan station",
@@ -46,9 +54,12 @@
     },
     {
       "label": "Wikipedia, Orange, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Orange,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Orange%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Orange County Courthouse (Virginia)",
+      "url": "https://en.wikipedia.org/wiki/Orange_County_Courthouse_%28Virginia%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,16 +1,17 @@
 {
   "id": "route-12-valley-of-the-moon-highway-2202",
-  "tagline": "South down the Valley of the Moon, past Jack London's ranch.",
+  "tagline": "A valley road through vineyard towns, past Jack London’s ranch",
   "intro": [
-    "Out of the east side of Santa Rosa, Highway 12 turns south into the Sonoma Valley as the Sonoma Highway. It runs past Kenwood, with Bennett Mountain to the west and Sugarloaf Ridge off to the northeast, then down by Glen Ellen, where Sonoma Creek comes through, toward Agua Caliente and the town of Sonoma.",
-    "The Valley of the Moon is a translation of the name the Pomo and Coast Miwok peoples gave the valley. Jack London used it for the title of a novel, and lived at Glen Ellen from 1909 until his death in 1916."
+    "Highway 12 turns south from Santa Rosa into Sonoma Valley, passing Glen Ellen on its way to Sonoma. The valley lies between the Mayacamas and Sonoma mountains, with Sonoma Creek flowing toward San Pablo Bay. The officially designated State Scenic Highway segment runs from Danielli Avenue east of Santa Rosa to London Way near Agua Caliente.",
+    "The road could have taken a different form at the Santa Rosa end. Beginning in the 1950s, the California Department of Transportation bought land for a freeway alignment through eastern Santa Rosa. The city later purchased that land for a two-mile pedestrian and bicycle path linking the freeway’s eastern end with Spring Lake Regional Park.",
+    "Heading south, reach Kenwood between Bennett Mountain to the west and Sugarloaf Ridge to the northeast, in an area of vineyards and wineries. Sonoma Creek runs through Glen Ellen, where Jack London’s former ranch is now a state historic park. Beyond Glen Ellen, Agua Caliente and Fetters Hot Springs lie along Sonoma Highway northwest of Sonoma. Continue beyond the designated segment into Sonoma, where Highway 12 winds along surface streets past the historic park’s mission and Vallejo Estate."
   ],
   "moments": [
     {
       "title": "Kenwood",
       "kind": "town",
       "scene": "town",
-      "text": "The town tried on Rohrerville and Los Guilicos before a vote around 1895 settled on Kenwood, after people complained that Guilicos was hard to pronounce.",
+      "text": "Kenwood grew from a town laid out with a railway in mind. The Sonoma Land & Improvement Company divided the property into lots in 1887; the community went through the names Rohrerville, Los Guilicos and South Los Guilicos. Around 1895, residents voted to change the name after complaints that Guilicos was hard to pronounce. The railway’s stone depot became a community center after Southern Pacific sold it to the Kenwood Improvement Club in 1940. Rail service ended in 1936, and the tracks were removed in 1942.",
       "at": [
         -122.54611,
         38.41389
@@ -20,7 +21,7 @@
       "title": "Glen Ellen",
       "kind": "town",
       "scene": "town",
-      "text": "The town took its name from the vineyard Charles V. Stuart planted here and named Glen Ellen after his wife.",
+      "text": "A vineyard gave Glen Ellen its name. Charles V. Stuart established a 1,000-acre vineyard and named it for his wife; the town that developed beside it adopted the same name. His home was later renamed Glen Oaks Ranch. Jack London lived in Glen Ellen from 1909 until his death in 1916, working on Beauty Ranch and Wolf House. Glen Ellen and Sonoma County also entered his fiction, including The Iron Heel and The Valley of the Moon. Sonoma Creek, the valley’s principal river, flows through town.",
       "at": [
         -122.53111,
         38.36444
@@ -30,7 +31,8 @@
       "title": "Jack London State Historic Park",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "On the slope of Sonoma Mountain stand the stone ruins of Wolf House, which burned in August 1913, before the Londons ever got to move in.",
+      "text": "Wolf House survives as stone ruins on the eastern slope of Sonoma Mountain. Construction began in 1910, but the house burned on August 22, 1913, before Jack and Charmian London could move in. The couple pledged to rebuild, and workers began drying redwood logs for the project. London died in 1916 before the wood was ready, and construction stopped. Another house tells Charmian’s part of the story: the House of Happy Walls now serves as the park’s visitor center and museum. Much of its furniture had been intended for Wolf House.",
+      "notice": "The stone ruins of Wolf House remain visible within the park.",
       "at": [
         -122.54306,
         38.35056
@@ -44,17 +46,32 @@
     },
     {
       "label": "Wikipedia, Kenwood, California",
-      "url": "https://en.wikipedia.org/wiki/Kenwood,_California"
+      "url": "https://en.wikipedia.org/wiki/Kenwood%2C_California"
+    },
+    {
+      "label": "Wikipedia, Sonoma Valley",
+      "url": "https://en.wikipedia.org/wiki/Sonoma_Valley"
+    },
+    {
+      "label": "Wikipedia, Southeast Greenway",
+      "url": "https://en.wikipedia.org/wiki/Southeast_Greenway"
     },
     {
       "label": "Wikipedia, Glen Ellen, California",
-      "url": "https://en.wikipedia.org/wiki/Glen_Ellen,_California"
+      "url": "https://en.wikipedia.org/wiki/Glen_Ellen%2C_California"
+    },
+    {
+      "label": "Wikipedia, Fetters Hot Springs-Agua Caliente, California",
+      "url": "https://en.wikipedia.org/wiki/Fetters_Hot_Springs-Agua_Caliente%2C_California"
+    },
+    {
+      "label": "Wikipedia, Kenwood station (California)",
+      "url": "https://en.wikipedia.org/wiki/Kenwood_station_%28California%29"
     },
     {
       "label": "Wikipedia, Jack London State Historic Park",
       "url": "https://en.wikipedia.org/wiki/Jack_London_State_Historic_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,29 +1,30 @@
 {
   "id": "route-16-sugar-grove-to-tazewell-995134",
-  "tagline": "Three mountains and hundreds of turns, Marion to Tazewell.",
+  "tagline": "Mountain climbs and hundreds of bends give the Dragon its name.",
   "motifs": [
     "switchbacks"
   ],
   "intro": [
-    "North of Marion, Route 16 passes the west shore of Hungry Mother Lake and sets out on the 32 miles to Tazewell known as the Back of the Dragon. Larry Brent Davidson pushed for the name because the road put him in mind of the humps on a dragon's back.",
-    "It crosses Walker Mountain, the North Fork of the Holston at Chatham Hill, then Brushy and Clinch mountains. The limit is generally 55, and many of the curves are posted at 15. The designated byway begins farther south, at Dickey Gap above Sugar Grove, and runs on to Pisgah; the line drawn here keeps to Marion and Tazewell."
+    "Route 16 crosses mountains and valleys between Sugar Grove and Tazewell, passing Hungry Mother Lake north of Marion. The 32-mile stretch between Hungry Mother State Park and Tazewell is known as the Back of the Dragon, with hundreds of sharp turns and scenic overlooks. North of Marion, the road winds over Walker Mountain into Rich Valley and crosses the North Fork Holston River at Chatham Hill before climbing again. Larry Brent Davidson led the effort to name it: the succession of mountain crossings reminded him of a dragon’s back.",
+    "The highway took shape in pieces. In 1928, the state added road sections extending north and south from Marion as Route 113. In 1933, the Route 113 sections through Marion and south from Tazewell became Route 88. The remaining gap in Tazewell County was filled in 1937 and 1938. The 1940 renumbering assembled the present Route 16 from several earlier numbered roads.",
+    "Driving south from Tazewell, pass through Thompson Valley before the hairpin climb toward Clinch Mountain. Continue across Freestone Valley and Brushy Mountain, then through Rich Valley and over Walker Mountain to Hungry Mother Lake and Marion. Beyond Marion, Route 16 follows Staley Creek, crosses the Appalachian Trail and Brushy Mountain, and descends toward Sugar Grove."
   ],
   "moments": [
     {
-      "title": "Hungry Mother State Park",
-      "kind": "roadside",
-      "scene": "forest",
-      "text": "The name comes from a legend in which Molly Marley and her small child escaped raiders, and the child, finding help alone, could say only \"Hungry Mother.\"",
+      "title": "Tazewell",
+      "kind": "town",
+      "scene": "town",
+      "text": "A five-cent streetcar once connected North Tazewell’s station and industrial complexes with downtown Main Street. The Tazewell Railway and Light Company began with horse-drawn cars in 1892 and electrified the line in 1904. By 1920, it faced competition from automobiles; service ended in 1933. Route 16 now runs through downtown on Main Street and Fincastle Turnpike. The courthouse dates from 1874 but was rebuilt in Classical Revival style in 1913, during the trolley era. The town itself changed names in 1892, the year the horsecar began running: before then, it had been called Jeffersonville.",
       "at": [
-        -81.53472222,
-        36.88111111
+        -81.51944444,
+        37.12694444
       ]
     },
     {
       "title": "Thompson Valley",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Off Clinch Mountain a single hairpin drops the road into the wide Thompson Valley, where the community is named for William and Archibald Thompson, its first settlers in the early 19th century.",
+      "text": "Thompson Valley is a wide interval between mountain crossings on Route 16. Traveling south, the highway leaves the valley through a hairpin on the way up Clinch Mountain, then drops into Freestone Valley before climbing Brushy Mountain. The community takes its name from William and Archibald Thompson, who settled it in the early 19th century.",
       "at": [
         -81.5475,
         37.07833333
@@ -33,13 +34,14 @@
       ]
     },
     {
-      "title": "Tazewell",
-      "kind": "town",
-      "scene": "town",
-      "text": "Called Jeffersonville until 1892, the town is said to be one of the smallest in the country ever to run a streetcar, a five-cent trolley that quit in 1933.",
+      "title": "Hungry Mother State Park",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "Route 16 passes the west shore of Hungry Mother Lake and the entrance to its state park. The 108-acre lake and sandy beach are the park’s principal features. Local landowners donated much of the land, and the Civilian Conservation Corps built the original grounds, trails and campsites. Hungry Mother opened on June 15, 1936, with five other Virginia state parks. Governor George C. Peery attended the opening here. In his opening remarks, Peery linked the park system to Depression-era jobs and recreation for working families. At its opening, the park admitted white visitors only.",
+      "notice": "A sandy beach borders the park’s 108-acre lake.",
       "at": [
-        -81.51944444,
-        37.12694444
+        -81.53472222,
+        36.88111111
       ]
     }
   ],
@@ -49,18 +51,25 @@
       "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_16"
     },
     {
+      "label": "Wikipedia, Tazewell, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Tazewell%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Tazewell Historic District",
+      "url": "https://en.wikipedia.org/wiki/Tazewell_Historic_District"
+    },
+    {
+      "label": "Wikipedia, Thompson Valley, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Thompson_Valley%2C_Virginia"
+    },
+    {
       "label": "Wikipedia, Hungry Mother State Park",
       "url": "https://en.wikipedia.org/wiki/Hungry_Mother_State_Park"
     },
     {
-      "label": "Wikipedia, Thompson Valley, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Thompson_Valley,_Virginia"
-    },
-    {
-      "label": "Wikipedia, Tazewell, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Tazewell,_Virginia"
+      "label": "Wikipedia, George C. Peery",
+      "url": "https://en.wikipedia.org/wiki/George_C._Peery"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

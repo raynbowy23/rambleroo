@@ -1,26 +1,37 @@
 {
   "id": "route-1-santa-barbara-county-las-cruces-to-lompoc-990602",
-  "tagline": "The coast road leaves the freeway here. So did a village.",
+  "tagline": "At Las Cruces, the road to Lompoc begins where a village store disappeared.",
   "intro": [
-    "North of Gaviota Pass, at Las Cruces, Highway 1 parts from US 101 and takes the name Cabrillo Highway, after the explorer who sailed this coast. It heads northwest about eighteen miles for Lompoc.",
-    "The junction has been a crossroads a long while. The 1941 state guide found a cluster of homes here under immense old sycamores, around an inn, a wayside store and a garage. Cattlemen once gathered at the spot to drive their herds through the pass to Gaviota Landing. In December 1967 the village store came down to make way for the interchange. The village went with it."
+    "At Las Cruces, Highway 1 leaves US 101 and heads northwest to Lompoc as the Cabrillo Highway. The shared highway has already turned inland from the Gaviota Coast, through the pass and tunnel south of the junction. Toward Lompoc, Salsipuedes Creek runs north alongside Highway 1 to the Santa Ynez River. Most of Lompoc occupies that river’s valley.",
+    "Las Cruces had a post office by 1876 and served nineteenth-century farmers carrying crops from the Santa Ynez Valley to Gaviota Wharf. In 1933, California added the route through Lompoc to Las Cruces to legislative Route 56 as part of an expansion of the state highway system. The 1941 American Guide to Santa Barbara described homes beneath old sycamores, with an inn, store and garage. That roadside settlement lost its village store in December 1967, when the building was demolished for the interchange.",
+    "Begin at the Las Cruces split, with Gaviota Hot Springs a separate excursion from the Gaviota Peak trail nearby. Continue toward the junction with Jalama Road, where El Jaro Creek joins Salsipuedes Creek just to the south. The creek then accompanies Highway 1 north toward the river. In Lompoc, Highway 1 joins Route 246 along Ocean Avenue before turning north onto H Street."
   ],
   "moments": [
     {
       "title": "Gaviota Hot Springs",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Two pools off the Gaviota Peak trail, near the junction. Campers in 1893 hung hammocks from the sycamores here and had to clear the mud out of the bathing hole first.",
+      "text": "Two pools near the Gaviota Peak trail have different bottoms: one is natural, the other built from rock and concrete. The Works Progress Administration built the artificial basin in the 1930s. Before that, the springs supplied local ranch uses: a 1917 California state minerals bureau report described water piped to ranch houses. The springs lie along the southern branch of the Santa Ynez Fault. Their water cools between its source and the pools, and its temperature varies with the season. Willows, sycamores and elderberry grow in the surrounding streamside habitat.",
       "at": [
         -120.2184,
         34.5027
       ]
     },
     {
+      "title": "Salsipuedes Creek",
+      "kind": "roadside",
+      "scene": "river",
+      "text": "Salsipuedes Creek follows Highway 1 north toward its meeting with the Santa Ynez River southeast of Lompoc. Just south of the Jalama Road junction, it receives El Jaro Creek. Together, these streams form the lower Santa Ynez River’s largest tributary. The upper reaches of both creeks flow year-round and provide habitat for steelhead trout. Beavers are prevalent on Salsipuedes Creek, where they improve habitat for young salmonids.",
+      "at": [
+        -120.41277778,
+        34.63166667
+      ]
+    },
+    {
       "title": "Lompoc",
       "kind": "town",
       "scene": "town",
-      "text": "The road ends near a city founded as a temperance colony and incorporated in 1888. It is often called a military town now, being near Vandenberg Space Force Base.",
+      "text": "Lompoc’s museum occupies a Carnegie library built in 1910, with exhibits on the valley’s flower industry and fossils from its diatomaceous earth. The city grew from a temperance colony established by the Lompoc Valley Land Company and incorporated in 1888. The Chumash people inhabited this area for thousands of years before the colony’s establishment. Its later expansion followed a different enterprise. In 1958, the Air Force announced missile work at the former Camp Cooke; Lompoc grew rapidly to house civilians and contractors employed at the base. Agriculture, including seed flowers and vegetables, remains part of the local economy.",
       "at": [
         -120.46028,
         34.64611
@@ -29,26 +40,29 @@
   ],
   "sources": [
     {
+      "label": "Wikipedia, Las Cruces, California",
+      "url": "https://en.wikipedia.org/wiki/Las_Cruces%2C_California"
+    },
+    {
       "label": "Wikipedia, California State Route 1",
       "url": "https://en.wikipedia.org/wiki/California_State_Route_1"
     },
     {
-      "label": "Wikipedia, U.S. Route 101 in California",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_101_in_California"
+      "label": "Wikipedia, Salsipuedes Creek (Santa Ynez River tributary)",
+      "url": "https://en.wikipedia.org/wiki/Salsipuedes_Creek_%28Santa_Ynez_River_tributary%29"
     },
     {
-      "label": "Wikipedia, Las Cruces, California",
-      "url": "https://en.wikipedia.org/wiki/Las_Cruces,_California"
+      "label": "Wikipedia, Lompoc, California",
+      "url": "https://en.wikipedia.org/wiki/Lompoc%2C_California"
     },
     {
       "label": "Wikipedia, Gaviota Hot Springs",
       "url": "https://en.wikipedia.org/wiki/Gaviota_Hot_Springs"
     },
     {
-      "label": "Wikipedia, Lompoc, California",
-      "url": "https://en.wikipedia.org/wiki/Lompoc,_California"
+      "label": "Wikipedia, Lompoc Museum",
+      "url": "https://en.wikipedia.org/wiki/Lompoc_Museum"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

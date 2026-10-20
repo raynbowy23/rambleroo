@@ -1,16 +1,17 @@
 {
   "id": "route-6-and-us-250-west-of-charlottesville-995118",
-  "tagline": "Over the Blue Ridge at Rockfish Gap, then down its valley.",
+  "tagline": "From the Blue Ridge crossing to curves through the Rockfish Valley.",
   "intro": [
-    "Out of Charlottesville, US 250 runs west as Ivy Road over the Mechums River, roughly on the line of the colonial Three Notch'd Road, named, it is believed, for the three notches cut in trees to blaze it. Past the Route 151 junction it climbs the Blue Ridge as the Rockfish Gap Turnpike.",
-    "A mile short of the gap Route 6 turns off and comes down Afton Mountain in curves through the village of Afton, follows the Rockfish Valley and then the Rockfish River, and crosses into Albemarle through a gap between Shiloh and Butler mountains. The ground gentles on the way to Scottsville."
+    "US 250 climbs the Blue Ridge as Rockfish Gap Turnpike, while Route 6 curves down Afton Mountain toward the Rockfish Valley. Route 6 carries Virginia Byway status from Avon eastward to SR 650 near Manakin. Virginia’s byway designation identifies scenic roads that introduce travelers to alternative destinations. The valley stretch shares Route 151 before turning along the Rockfish River, then briefly joins four-lane US 29 between mountains.",
+    "The older Three Notch’d Road crossed the Blue Ridge at Jarmans Gap, reaching from the future site of Richmond to the Shenandoah Valley by the 1730s. Much of US 250 between Short Pump and Crozet follows that route. Carriages could cross at Rockfish Gap by 1782. At Rockfish Gap, an early-20th-century road received the US 250 designation in 1935; I-64 followed across the mountain in 1972 and 1973.",
+    "Start west of Charlottesville on Ivy Road, crossing the Mechums River before climbing toward Rockfish Gap. Route 6 branches off about a mile east of the gap, descending through Afton to Avon and the Rockfish Valley. Continue along the Rockfish River, cross the railway at Faber, and pass through the gap between Shiloh and Butler mountains toward Esmont. The terrain gentles on the approach to Scottsville."
   ],
   "moments": [
     {
       "title": "Rockfish Gap",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "At about 1,900 feet the turnpike tops the Blue Ridge in a gap the Appalachian Trail also uses, a short way from where Skyline Drive meets the Blue Ridge Parkway.",
+      "text": "At about 1,900 feet, Rockfish Gap connects the Piedmont with the Shenandoah Valley. US 250 and I-64 cross here, and the Appalachian Trail passes through the gap. Skyline Drive and the Blue Ridge Parkway meet just north of it. Railway engineers took a different approach: Claudius Crozet oversaw construction of a tunnel beneath the gap in the 1850s. The Chesapeake and Ohio Railway replaced that tunnel on a different alignment in the mid-20th century. The gap also divides drainage: streams on its southeast side flow toward the James, while those to the northwest enter the Shenandoah River system.",
       "at": [
         -78.858,
         38.0324
@@ -20,7 +21,7 @@
       "title": "Faber",
       "kind": "town",
       "scene": "mountain",
-      "text": "A Nelson County community where Route 6 crosses the railroad, named in several episodes of The Waltons, which drew on the lay of this country.",
+      "text": "Route 6 crosses the railway at Faber before entering Albemarle County between Shiloh and Butler mountains. The Waltons mentioned this Nelson County community in several episodes. The drama drew on the geography of Faber and nearby Schuyler for its rural Virginia setting.",
       "at": [
         -78.7375,
         37.83194444
@@ -30,7 +31,7 @@
       "title": "Esmont",
       "kind": "town",
       "scene": "town",
-      "text": "A farming town on old plantation land whose quarries made it the nation's largest soapstone producer by the mid-1920s, with a depot and three stores at its peak.",
+      "text": "Esmont grew on land purchased from the former plantation estate whose name it took. It developed as a farming community with a predominantly African American population. The community was populated in the eighteenth century, but its post office did not arrive until the later nineteenth century. Quarrying added another livelihood: slate extraction began nearby in 1883, and the quarry operation ended in the 1960s. At its peak, the town had a Chesapeake and Ohio Railway depot, three stores, a church and a bank. The bank building was converted into a post office, giving a former financial institution another role in town life.",
       "at": [
         -78.60722222,
         37.83138889
@@ -39,12 +40,16 @@
   ],
   "sources": [
     {
+      "label": "Wikipedia, Virginia State Route 6",
+      "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_6"
+    },
+    {
       "label": "Wikipedia, U.S. Route 250 in Virginia",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_250_in_Virginia"
     },
     {
-      "label": "Wikipedia, Virginia State Route 6",
-      "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_6"
+      "label": "Wikipedia, List of Virginia Byways",
+      "url": "https://en.wikipedia.org/wiki/List_of_Virginia_Byways"
     },
     {
       "label": "Wikipedia, Three Notch'd Road",
@@ -56,13 +61,12 @@
     },
     {
       "label": "Wikipedia, Faber, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Faber,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Faber%2C_Virginia"
     },
     {
       "label": "Wikipedia, Esmont, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Esmont,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Esmont%2C_Virginia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

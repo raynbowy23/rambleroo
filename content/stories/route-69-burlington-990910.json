@@ -1,26 +1,38 @@
 {
   "id": "route-69-burlington-990910",
-  "tagline": "The far end of a road that starts in New Haven.",
+  "tagline": "Milford Street carries Route 69 toward its Burlington finish",
   "intro": [
-    "Route 69 begins in the Amity section of New Haven. North of Bristol it gives up being a main road and goes on as a secondary one into Burlington, as Milford Street, toward its end at Route 4 near the town center. The scenic part is about three miles of that last run, from Bradley Road to Saw Mill Road.",
-    "Burlington broke from Bristol in 1806 and once kept several clock-making shops. Many of its industries quit or moved off after the Farmington Canal opened in 1829. The state extended Route 69 up here only in 1962."
+    "North of Bristol, Route 69 becomes a secondary road and enters Burlington as Milford Street. Connecticut DOT records identify the stretch from Bradley Road to Saw Mill Road as scenic road 34. Burlington is a rural hill town at the foot of the Berkshires.",
+    "Route 69 began in 1932 as a New Haven–Waterbury route, using part of the old Litchfield Turnpike and former town roads. It reached Bristol in 1934; the Burlington extension followed in 1962, taking over unsigned SR 787.",
+    "Follow the scenic segment north from Bradley Road to Saw Mill Road. Sessions Woods lies on Route 69, about three miles south of Route 4, with self-guided trails and habitat-management demonstrations. Beyond the scenic segment, Milford Street continues to Route 4 near Burlington center. Brown Tavern faces the triangular green at its western end."
   ],
   "moments": [
     {
       "title": "Sessions Woods",
-      "kind": "roadside",
+      "kind": "short walk",
       "scene": "forest",
-      "text": "At 341 Milford Street the state keeps a 771-acre preserve for teaching wildlife management, and black bears are commonly seen along its trails.",
+      "text": "Sessions Woods makes wildlife management something visitors can examine along a trail. Demonstrations line the Beaver Pond and Forest Meadow trails, with another area devoted to backyard habitat. Connecticut's Wildlife Division established the area to help residents understand their role in conservation, in a state where more than 90 percent of the acreage is privately owned. Federal Aid in Wildlife Restoration funds helped pay for the purchase. The education center adds exhibits to the outdoor demonstration sites. The programs serve school groups, the general public and natural-resource professionals, pairing educational workshops with the demonstration sites outside.",
       "at": [
         -72.9623,
         41.7283
       ]
     },
     {
+      "title": "Nassahegon State Forest",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Nassahegon's forest includes a place where fish are raised for waters across Connecticut. The Burlington Trout Hatchery on Belden Road opened in 1923 and raises brown and rainbow trout for lakes, ponds, rivers and streams with public access. Its facilities include an egg-incubation building, fish pools and ponds, and a short nature trail. The surrounding state forest is managed for both forestry and recreation, with Blue-Blazed Trails crossing it. It adjoins Sessions Woods. The Connecticut Department of Energy and Environmental Protection operates the 1,352-acre forest, where approved mountain-biking trails offer another way through the woods.",
+      "at": [
+        -72.94027778,
+        41.75472222
+      ]
+    },
+    {
       "title": "Burlington green",
       "kind": "town",
       "scene": "town",
-      "text": "In Burlington center, at Route 4 and the George Washington Turnpike, the Federal-style Brown Tavern of about 1809, built for a merchant and later kept as a tavern, faces the triangular green.",
+      "text": "Brown Tavern faces Burlington's triangular green with a carefully ornamented Federal-style entrance. Sidelights and pilasters frame the doorway beneath a half-round transom; above it, a Palladian window breaks the roof-eave moulding. The house is believed to have been built about 1809–10 for merchant Giles Griswold. Some later owners operated a tavern here during the nineteenth century. The town acquired the building in 1974, and the local historical society now manages it. At the top of the front gable, dentil moulding frames a semi-oval fan, carrying the decorative work above the windows.",
+      "notice": "Look for the half-round transom above the entrance and the Palladian window above it.",
       "at": [
         -72.96583333,
         41.76861111
@@ -33,22 +45,29 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_69"
     },
     {
+      "label": "Connecticut Department of Transportation, Roadway Classification and Characteristic Data",
+      "url": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
       "label": "Wikipedia, Burlington, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Burlington,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Burlington%2C_Connecticut"
     },
     {
-      "label": "CT DEEP, Sessions Woods Wildlife Management Area",
+      "label": "Connecticut Department of Energy and Environmental Protection, Sessions Woods Wildlife Management Area",
       "url": "https://portal.ct.gov/DEEP/wildlife/wildlife-mangement-areas/sessions-woods-wildlife-management-area"
-    },
-    {
-      "label": "Wikipedia, Sessions Woods Wildlife Management Area",
-      "url": "https://en.wikipedia.org/wiki/Sessions_Woods_Wildlife_Management_Area"
     },
     {
       "label": "Wikipedia, Brown Tavern",
       "url": "https://en.wikipedia.org/wiki/Brown_Tavern"
+    },
+    {
+      "label": "Wikipedia, Nassahegon State Forest",
+      "url": "https://en.wikipedia.org/wiki/Nassahegon_State_Forest"
+    },
+    {
+      "label": "Wikipedia, Sessions Woods Wildlife Management Area",
+      "url": "https://en.wikipedia.org/wiki/Sessions_Woods_Wildlife_Management_Area"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

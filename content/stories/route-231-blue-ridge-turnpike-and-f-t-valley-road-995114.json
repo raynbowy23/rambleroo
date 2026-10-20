@@ -1,41 +1,45 @@
 {
   "id": "route-231-blue-ridge-turnpike-and-f-t-valley-road-995114",
-  "tagline": "Up Francis Thornton's valley, under the bare top of Old Rag.",
+  "tagline": "Through Blue Ridge foothills, past Old Rag to Madison’s Main Street.",
   "intro": [
-    "From the county seat at Madison, Route 231 follows Blue Ridge Turnpike north and crosses the Robinson River near Banco, where it turns onto F.T. Valley Road. The F.T. is Francis Thornton, the same man who gave Thornton Gap its name.",
-    "The road runs up his valley through the foothills of the Blue Ridge, past Etlan directly east of Old Rag Mountain, and through Peola Mills into Rappahannock County, ending at US 522 near Sperryville. The designated byway begins farther south at Gordonsville, crossing the Southwest Mountains and the Rapidan to reach Madison; the line drawn here starts at Madison."
+    "Route 231 follows a valley through the Blue Ridge foothills between the Sperryville area and Madison, passing Etlan directly east of Old Rag Mountain. Almost all of Route 231 is a Virginia Byway. The northern stretch crosses the Hazel, Hughes and Robinson rivers; in Madison, it shares Main Street with US 29 Business.",
+    "The road’s names preserve different connections: F.T. Valley Road takes its initials from Francis Thornton, whose name also belongs to Thornton Gap. Sperryville became a junction for several turnpikes in the 1850s, linking it with Culpeper, New Market and the Rappahannock River. Later, the opening of Skyline Drive brought gasoline stations, lunch rooms and motels to the village. At the southern end of this drive, Madison retains the old US 29 alignment on Main Street, while the main highway now passes southeast of town. Route 231 continues to share that older street.",
+    "Travel south from the US 522 junction southeast of Sperryville, passing Ashbys Corner and crossing the upper Hazel River toward Peola Mills and the Hughes River. Continue through Etlan to Banco, where F.T. Valley Road meets Blue Ridge Turnpike. Route 231 crosses the Robinson River south of Banco and carries the Blue Ridge Turnpike name toward Madison’s Main Street."
   ],
   "moments": [
     {
-      "title": "Madison",
+      "title": "Sperryville",
       "kind": "town",
       "scene": "town",
-      "text": "A county seat of 205 people in 2020, where Route 231 shares Main Street with the old line of US 29 before heading north on Blue Ridge Turnpike.",
+      "text": "Sperryville’s two main streets follow the two branches of the Thornton River, with pasture and farmland surrounding the village. Francis Thornton Jr. began selling lots along the main road in 1820. A tavern and stagecoach office served travelers between Culpeper Court House and New Market. Manufacturing later added another layer of housing. The historic district includes homes built for Smoot tannery workers from 1867 into the early twentieth century, alongside wood-frame residences later converted to businesses. The village’s apple industry followed: an apple-processing facility opened in 1918, and a packing and juice plant later occupied the former tannery site.",
       "at": [
-        -78.25805556,
-        38.38083333
+        -78.22611111,
+        38.65694444
       ]
     },
     {
       "title": "Old Rag Mountain",
       "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Unlike most of the Blue Ridge it has a bare rocky summit of granite about a billion years old, and the most common way up starts at Nethers, off Route 231.",
+      "text": "Old Rag’s exposed rocky summit distinguishes it from most mountains in the Blue Ridge. The rock beneath the mountain is Old Rag Granite, formed during the Grenville mountain-building event about a billion years ago. The summit is in Shenandoah National Park, and the approach from Nethers branches from Route 231. On the Ridge Trail, the ascent reaches a false summit before becoming a rock scramble for 1.1 miles to the top, a section that can be strenuous for inexperienced hikers. The Saddle Trail descends past two shelters to Weakley Hollow Fire Road, which forms the return leg of the circuit.",
       "at": [
         -78.31452778,
         38.55183333
       ]
     },
     {
-      "title": "Sperryville",
+      "title": "Madison",
       "kind": "town",
       "scene": "town",
-      "text": "Francis Thornton Jr. began selling lots for his little town in 1820, and by 1880 it had a woolen mill, seven distillers, four general stores and one saloon.",
+      "text": "Main Street carries both Route 231 and the old alignment of US 29 through Madison; the main US 29 route now bypasses the town to the southeast. The county courthouse, built in 1828, is a two-story brick building with an open arcade across its front and a tall, domed octagonal cupola. It anchors a historic district of houses, commercial buildings and institutions dating from the early nineteenth through the twentieth century. The county clerk’s office dates to 1832, and the district also includes the Arcade from the 1830s, among the district’s nineteenth-century civic and commercial buildings.",
       "at": [
-        -78.22611111,
-        38.65694444
+        -78.25805556,
+        38.38083333
       ]
     }
+  ],
+  "practical": [
+    "Old Rag Mountain: The National Park Service announced day-use tickets for each Old Rag hiker March 1–November 30 in 2022, in addition to the park pass fee. (checked 2026-10-11)"
   ],
   "sources": [
     {
@@ -43,18 +47,29 @@
       "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_231"
     },
     {
+      "label": "Wikipedia, Sperryville, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Sperryville%2C_Virginia"
+    },
+    {
       "label": "Wikipedia, Madison, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Madison,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Madison%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Sperryville Historic District",
+      "url": "https://en.wikipedia.org/wiki/Sperryville_Historic_District"
     },
     {
       "label": "Wikipedia, Old Rag Mountain",
       "url": "https://en.wikipedia.org/wiki/Old_Rag_Mountain"
     },
     {
-      "label": "Wikipedia, Sperryville, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Sperryville,_Virginia"
+      "label": "Wikipedia, Madison County Courthouse (Virginia)",
+      "url": "https://en.wikipedia.org/wiki/Madison_County_Courthouse_%28Virginia%29"
+    },
+    {
+      "label": "Wikipedia, Madison County Courthouse Historic District",
+      "url": "https://en.wikipedia.org/wiki/Madison_County_Courthouse_Historic_District"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,29 +1,30 @@
 {
   "id": "tamiami-trail-windows-to-the-gulf-coast-waters-scenic-highway-2329",
-  "tagline": "Up the Gulf coast on the old Tamiami Trail.",
+  "tagline": "Gulf Coast cities and architecture along the Tampa-to-Miami road",
   "motifs": [
     "harbor-village"
   ],
   "intro": [
-    "This stretch of US 41 runs 70 miles up the Gulf side of Florida from the Charlotte County line, through North Port, Venice, Sarasota, Bradenton and Palmetto, to the Hillsborough County line.",
-    "It is part of the Tamiami Trail, the road from Tampa to Miami. When the state ran out of construction money for the trail in 1922, the advertising man Barron Collier offered to pay for the rest, and in return the legislature named a county after him. The trail opened on April 26, 1928, after 13 years and 2.6 million sticks of dynamite."
+    "The Windows to the Gulf Coast Waters Scenic Highway follows 70 miles of US 41 through Florida’s Gulf Coast cities. Designated in December 2003, the byway combines recreation with urban stops for walking and sightseeing, as Florida Scenic Highways emphasizes. In Sarasota, the trail briefly follows Bayfront Drive before turning north parallel to the coast.",
+    "This corridor belongs to the longer Tamiami Trail linking Tampa and Miami. In 1915, Francis W. Perry of the Fort Myers Chamber of Commerce and Miami’s James F. Jaudon began campaigning for a cross-peninsula highway. When state construction funds for the east-west section ran out in 1922, Barron Collier pledged the following year to finance its completion. The full trail opened on April 26, 1928. The northern alignment changed in 1951: between Tampa and Palmetto, US 41 shifted from the inland route through Riverview and Parrish to the route through Ruskin and Apollo Beach.",
+    "At Venice, the numbered highway and the older trail alignment diverge: US 41 was rerouted onto a bypass in 1965, while Business US 41 marks the former alignment. Drive this coastal byway south from the Manatee-Hillsborough county line through Palmetto and Bradenton, then Sarasota, Venice and North Port, ending at the Sarasota-Charlotte line."
   ],
   "moments": [
     {
-      "title": "Warm Mineral Springs",
-      "kind": "town",
-      "scene": "town",
-      "text": "The place is known for a free-flowing artesian spring, and its motel was designed by Victor Lundy, one of the architects of the Sarasota School of Architecture.",
+      "title": "Ca' d'Zan",
+      "kind": "separate excursion",
+      "scene": "coast",
+      "text": "John and Mable Ringling’s winter residence beside Sarasota Bay brought Venetian architecture to a Florida waterfront. Their visits to Venice inspired its Gothic-arched windows and terra cotta ornament. Architect Dwight James Baum designed the house; Owen Burns built it between 1924 and 1926. Its 56 rooms included a ballroom and great hall for entertaining. The name means House of John in Venetian. After John Ringling’s death, the residence formed part of his bequest to the state of Florida. The waterfront setting also brought damage: Hurricanes Helene and Milton flooded the basement and damaged the terrace in 2024.",
       "at": [
-        -82.27028,
-        27.04722
+        -82.56472,
+        27.38306
       ]
     },
     {
       "title": "Venice",
       "kind": "town",
       "scene": "town",
-      "text": "Fishermen knew the spot as Horse and Chaise for a carriage-shaped stand of trees, and in the 1920s the Brotherhood of Locomotive Engineers had John Nolen plan it into a city.",
+      "text": "Venice’s planned streets began with a surgeon’s land purchase during the 1920s Florida boom. Fred H. Albee hired John Nolen to lay out the city, then sold the land to the Brotherhood of Locomotive Engineers, retaining Nolen as planner. The first city infrastructure took shape in 1925 and 1926. Earlier fishermen knew the place as Horse and Chaise, after a carriage-shaped formation of trees. The Venice name first accompanied an 1888 post office, suggested by Frank Higel for the place’s resemblance to the Italian canal city. What residents call Venice Island is mainland reached by bridges across the artificial Intracoastal Waterway.",
       "at": [
         -82.39583,
         27.12944
@@ -33,19 +34,22 @@
       ]
     },
     {
-      "title": "Ca' d'Zan",
-      "kind": "separate excursion",
-      "scene": "coast",
-      "text": "John and Mable Ringling's 56-room winter house on Sarasota Bay, finished in 1926, took its Gothic-arched windows from their visits to Venice and its name from the Venetian for House of John.",
+      "title": "Warm Mineral Springs",
+      "kind": "town",
+      "scene": "town",
+      "text": "A free-flowing artesian spring distinguishes Warm Mineral Springs, where a large part of the area has been annexed into North Port. The community also has a modernist architectural landmark: Victor Lundy designed the Warm Mineral Springs Motel. Lundy was associated with the Sarasota School of Architecture, and the motel is listed on the National Register of Historic Places.",
       "at": [
-        -82.56472,
-        27.38306
+        -82.27028,
+        27.04722
       ]
     }
   ],
+  "practical": [
+    "Ca' d'Zan: The mansion closed to visitors indefinitely after Hurricane Helene in September 2024. (checked 2026-10-11)"
+  ],
   "sources": [
     {
-      "label": "Florida Scenic Highways, Tamiami Trail - Windows to the Gulf Coast Waters Scenic Highway",
+      "label": "Florida Scenic Highways, Tamiami Trail – Windows to the Gulf Coast Waters Scenic Highway",
       "url": "https://floridascenichighways.com/our-byways/southern-region/tamiami-trail-windows-gulf-coast-waters-scenic-highway/"
     },
     {
@@ -53,18 +57,21 @@
       "url": "https://en.wikipedia.org/wiki/Tamiami_Trail"
     },
     {
-      "label": "Wikipedia, Warm Mineral Springs, Florida",
-      "url": "https://en.wikipedia.org/wiki/Warm_Mineral_Springs,_Florida"
+      "label": "Wikipedia, Sarasota, Florida",
+      "url": "https://en.wikipedia.org/wiki/Sarasota%2C_Florida"
+    },
+    {
+      "label": "Wikipedia, Ca’ d’Zan",
+      "url": "https://en.wikipedia.org/wiki/Ca%27_d%27Zan"
     },
     {
       "label": "Wikipedia, Venice, Florida",
-      "url": "https://en.wikipedia.org/wiki/Venice,_Florida"
+      "url": "https://en.wikipedia.org/wiki/Venice%2C_Florida"
     },
     {
-      "label": "Wikipedia, Ca' d'Zan",
-      "url": "https://en.wikipedia.org/wiki/Ca%27_d%27Zan"
+      "label": "Wikipedia, Warm Mineral Springs, Florida",
+      "url": "https://en.wikipedia.org/wiki/Warm_Mineral_Springs%2C_Florida"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

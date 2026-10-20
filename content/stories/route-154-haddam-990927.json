@@ -1,19 +1,31 @@
 {
   "id": "route-154-haddam-990927",
-  "tagline": "Up the west bank on the old Middlesex Turnpike.",
+  "tagline": "An old turnpike follows the Connecticut River past meadows and a port.",
   "motifs": [
     "sandbars"
   ],
   "intro": [
-    "Route 154 comes up from Chester into Haddam and keeps to the west bank of the Connecticut River for nine miles, sharing the road with Route 82 for a stretch, past Haddam Meadows and on through Higganum to the Middletown line.",
-    "From 1802 to 1876 this was the Middlesex Turnpike, a toll road from Old Saybrook to Wethersfield. Haddam is the only town in Connecticut the river cuts down the middle, and for its first two hundred years the river was its living. Wallace Stevens gave the place a line of verse, addressed to its thin men."
+    "Route 154 follows the west bank of the Connecticut River through Haddam, where 9.16 miles of the highway form a state scenic road. Beside the river, Haddam Meadows gathers marsh, beach, sand bar, meadow and hardwood forest into one park.",
+    "The west-bank road between Old Saybrook and Wethersfield operated as the Middlesex Turnpike from 1802 to 1876, collecting tolls. The turnpike helped Haddam Center grow after American independence, and river traffic also supported the town. Steamship and railroad traffic beginning around 1850 later contributed to its decline. The turnpike alignment became New England Interstate Route 10 in 1922, then Route 9 in 1932. After the Route 9 freeway opened, the old surface road acquired new numbers; the Route 9A stretch joined Route 154 in 1986.",
+    "Travel south from Higganum, the former river-port village, toward Haddam Meadows. Along Route 154 and Walkley Hill Road, Haddam Center’s historic district includes Federal-period houses and civic buildings made from locally quarried granite. Farther south, Route 154 shares a stretch with Route 82, the road carried across the river by the East Haddam Swing Bridge. At the river crossing, the bridge’s movable span opens a path for vessels."
   ],
   "moments": [
+    {
+      "title": "Higganum",
+      "kind": "town",
+      "scene": "river",
+      "text": "A natural cove made Higganum Landing a river port and shipbuilding center from the late 1700s through the mid-1800s. Water power also supported industry here. The Scovil Hoe Company had a major factory in the village, making tools used to cultivate crops including cotton and tobacco. Higganum remains Haddam’s shopping and civic center. Its green has a veterans’ memorial, a shad museum and a gazebo. Higganum Landing became a National Register historic district in 2018. The village’s former manufacturing and shipping roles sit alongside its continuing place as Haddam’s civic center.",
+      "at": [
+        -72.55694444,
+        41.49694444
+      ]
+    },
     {
       "title": "Haddam Meadows State Park",
       "kind": "roadside",
       "scene": "river",
-      "text": "Given in 1944 by the Hazen Foundation, the park's 175 acres hold meadow and hardwoods, marsh, a beach and a sand bar on the river.",
+      "text": "Haddam Meadows contains several kinds of riverbank within its 175 acres: marsh and meadow, beach and sand bar, fern growths and hardwood forest. Trails give access to these different landscapes. The Edward W. Hazen Foundation donated the land in 1944, establishing the park. It is managed by the Connecticut Department of Energy and Environmental Protection.",
+      "notice": "Trails reach marsh, beach, sand bar, meadow and hardwood forest.",
       "at": [
         -72.50861111,
         41.47888889
@@ -23,13 +35,13 @@
       ]
     },
     {
-      "title": "Higganum",
-      "kind": "town",
+      "title": "East Haddam Swing Bridge",
+      "kind": "roadside",
       "scene": "river",
-      "text": "The natural cove at Higganum Landing was a river port and shipyard from the late 1700s to the mid-1800s, and the village green now keeps a shad museum.",
+      "text": "The East Haddam Swing Bridge carries Route 82 across the Connecticut River on three steel spans. In 1909, a governor’s transportation commission recommended a bridge between Haddam and East Haddam. The state redirected ferry aid toward its construction. It opened on June 14, 1913. Alfred P. Boller designed the drawbridge to pivot, leaving a passage for river traffic. The crossing joined a road connection to a movable span that could clear the waterway. The swing span measures 461 feet, more than half the crossing’s total 889-foot length. Stone-block piers and abutments rest on timber pilings.",
       "at": [
-        -72.55694444,
-        41.49694444
+        -72.46432,
+        41.45173
       ]
     }
   ],
@@ -39,18 +51,21 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_154"
     },
     {
-      "label": "Wikipedia, Haddam, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Haddam,_Connecticut"
-    },
-    {
       "label": "Wikipedia, Haddam Meadows State Park",
       "url": "https://en.wikipedia.org/wiki/Haddam_Meadows_State_Park"
     },
     {
       "label": "Wikipedia, Higganum, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Higganum,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Higganum%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Haddam Center Historic District",
+      "url": "https://en.wikipedia.org/wiki/Haddam_Center_Historic_District"
+    },
+    {
+      "label": "Wikipedia, East Haddam Swing Bridge",
+      "url": "https://en.wikipedia.org/wiki/East_Haddam_Swing_Bridge"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,16 +1,17 @@
 {
   "id": "trail-of-the-lonesome-pine-daniel-boone-heritage-trail-10300",
-  "tagline": "Through Moccasin Gap and west to the Wilderness Road.",
+  "tagline": "Through a creek-cut mountain gap toward the preserved Wilderness Road",
   "intro": [
-    "Up from the Tennessee line, the road runs through Weber City and Moccasin Gap, a break in the mountains cut by Big Moccasin Creek, and on past Gate City, named in 1886 as the gateway to the West. It follows the Clinch River to Clinchport and then Stock Creek, where the railroad splits off north through the Natural Tunnel, and passes through the Devil's Racepath toward Duffield.",
-    "West of Jonesville US 58 becomes Wilderness Road, running through rolling hills and farmland along the slope of Poor Valley Ridge, by Rose Hill and Ewing, toward Cumberland Gap."
+    "From Weber City, US 23 and US 58 pass through Moccasin Gap with the railroad and creek, then follow river valleys toward Duffield. West of Jonesville, US 58 crosses rolling country with farms, woods and homes along the southeastern slope of Poor Valley Ridge. On this western stretch, the highway carries the name Wilderness Road.",
+    "Cumberland Gap had long been used by Native American nations before Daniel Boone’s party widened the path in 1775. The Transylvania Company hired Boone to make settlement of Kentucky and Tennessee easier; by the 1790s, the trail had been widened for wagons. Modern highways changed the crossing again in 1996, when the Cumberland Gap Tunnel opened and US 25E moved off the overland route. US 58 then extended into Tennessee along a short section of the former US 25E alignment.",
+    "Begin at the Tennessee line south of Weber City, cross the North Fork Holston River, and continue through Moccasin Gap to Gate City. The highway follows the Clinch River to Clinchport, then Stock Creek; near Glenita, the railway turns toward Natural Tunnel. South of Duffield, US 58 separates from US 23. Continue west through Jonesville, Rose Hill and Ewing, past Wilderness Road State Park toward Cumberland Gap."
   ],
   "moments": [
     {
       "title": "Weber City",
       "kind": "town",
       "scene": "town",
-      "text": "A service-station owner put up a \"Welcome to Weber City\" sign as a joke borrowed from Amos 'n' Andy, and when the town incorporated in 1954 the joke became its name.",
+      "text": "A radio joke supplied Weber City’s name. Frank Parker Sr. heard an Amos ’n’ Andy skit about a real-estate development with that name, then put a welcome sign outside his service station on US 23. By incorporation in 1954, the name had become established locally and was chosen for the town. The older name was Moccasin Gap. The town occupies the southern side of that natural mountain break, cut by Big Moccasin Creek, with US 23 as its main road. The highway enters town as Main Street, paralleling the railway before the two continue through the gap.",
       "at": [
         -82.56111111,
         36.62333333
@@ -20,7 +21,7 @@
       "title": "Natural Tunnel State Park",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "Groundwater and Stock Creek hollowed this cave through Purchase Ridge, up to 200 feet wide and big enough to carry the railroad.",
+      "text": "A naturally formed cave through Purchase Ridge carries a railroad. Groundwater bearing carbonic acid dissolved limestone and dolomite; Stock Creek then flowed underground and continued the erosion. The opening reaches 200 feet wide and 80 feet high. The South Atlantic and Ohio railroad laid tracks through it in 1893, and the first train passed the following year. The railway originally carried passengers and now carries coal. Fossils occur in both the creek bed and tunnel walls. The state park was created in 1967 and opened to the public in 1971, decades after trains first used the tunnel.",
       "at": [
         -82.743,
         36.703
@@ -30,7 +31,7 @@
       "title": "Wilderness Road State Park",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Inside the park a piece of Boone's 1775 road has been preserved, beside a rebuilt Martin's Station, once the only station along some 200 miles of the Wilderness Road.",
+      "text": "A preserved section of the Wilderness Road and a reconstructed fort occupy this park near Ewing and Cumberland Gap. Martin’s Station originally stood at nearby Rose Hill, where several fortified cabins formed a frontier station. The fort inside the park is a reconstruction, named for Joseph Martin. Much of the Wilderness Road’s original path has been used by modern roads, but a section inside the park has been preserved. The Karlan Mansion also stands within the park. The original station lay between the road’s Virginia blockhouse and Crab Orchard, at the edge of the Kentucky settlement.",
       "at": [
         -83.52361111,
         36.63388889
@@ -38,6 +39,14 @@
     }
   ],
   "sources": [
+    {
+      "label": "Wikipedia, Weber City, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia"
+    },
+    {
+      "label": "Wikipedia, Wilderness Road State Park",
+      "url": "https://en.wikipedia.org/wiki/Wilderness_Road_State_Park"
+    },
     {
       "label": "Wikipedia, U.S. Route 23 in Virginia",
       "url": "https://en.wikipedia.org/wiki/U.S._Route_23_in_Virginia"
@@ -47,22 +56,17 @@
       "url": "https://en.wikipedia.org/wiki/U.S._Route_58"
     },
     {
-      "label": "Wikipedia, Gate City, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Gate_City,_Virginia"
+      "label": "Wikipedia, Cumberland Gap",
+      "url": "https://en.wikipedia.org/wiki/Cumberland_Gap"
     },
     {
-      "label": "Wikipedia, Weber City, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Weber_City,_Virginia"
+      "label": "Wikipedia, Ewing, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Ewing%2C_Virginia"
     },
     {
       "label": "Wikipedia, Natural Tunnel State Park",
       "url": "https://en.wikipedia.org/wiki/Natural_Tunnel_State_Park"
-    },
-    {
-      "label": "Wikipedia, Wilderness Road State Park",
-      "url": "https://en.wikipedia.org/wiki/Wilderness_Road_State_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

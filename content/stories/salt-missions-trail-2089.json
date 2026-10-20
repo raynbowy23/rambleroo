@@ -1,16 +1,17 @@
 {
   "id": "salt-missions-trail-2089",
-  "tagline": "Out across the plains and back down through the mountains.",
+  "tagline": "Old trade routes cross the plains and enter mountain country.",
   "intro": [
-    "The byway follows old trade routes, rail beds and footpaths. From Mountainair it runs north across the plains through Estancia to Moriarty, west to Tijeras, then south on NM 337 through Chilili and back down through Manzano. The eastern and southern branches keep to the plains, the western one to the mountains.",
-    "South of Tijeras the road passes the forested canyons of the Cibola National Forest, Tunnel Canyon and Otero Canyon among them, with Cedro Campground and the Pine Flat picnic ground."
+    "The Salt Missions Trail crosses plains on its eastern and southern branches and mountains on its western branch. It is a New Mexico Scenic & Historic Byway. The New Mexico Tourism Department highlights old trade routes, rail beds and footpaths, along with the forested valleys of Cibola National Forest south of Tijeras. Those valleys include Tunnel Canyon and Otero Canyon.",
+    "At Tijeras Canyon, road building changed an established passage through the mountains. In 1950, Skousen, Isbell & Johnston Contracting Company won the contract for the canyon project, the first four-lane divided stretch of U.S. Route 66 built in New Mexico. Work finished in 1951; Interstate 40 now traverses the canyon along historic Route 66.",
+    "Begin in Mountainair, home to the main visitor center for Salinas Pueblo Missions National Monument. Continue through Estancia, the Torrance County seat, and Moriarty before reaching Tijeras. Tijeras marks the junction with Cedro Canyon, which leads south toward the Manzano Mountains. Follow NM 337 south through Cedro Canyon and Chilili to NM 55 east of Tajique. Farther south, Torreon occupies the eastern slopes of the Manzano Mountains on NM 55, with Manzano 6.6 miles to its south."
   ],
   "moments": [
     {
       "title": "Estancia",
       "kind": "town",
       "scene": "prairie",
-      "text": "The county seat turns up on a map of 1779, drawn by Don Bernardo de Miera y Pacheco, marked as a town destroyed by enemies.",
+      "text": "Estancia is the seat of Torrance County. Its name appears on a 1779 map by Don Bernardo de Miera y Pacheco, marked as a town “destroyed by enemies.”",
       "at": [
         -106.05555556,
         34.75833333
@@ -20,7 +21,7 @@
       "title": "Tijeras",
       "kind": "town",
       "scene": "mountain",
-      "text": "Tijeras sits in the canyon that served as the corridor between the plains and the Rio Grande settlements, beside a pueblo that had some 200 rooms at first and was lived in from about 1313 to 1425.",
+      "text": "Tijeras stands where Tijeras Canyon meets Cedro Canyon, with one passage leading west toward Albuquerque and the other south toward the Manzano Mountains. Ancestral Puebloans occupied the Tijeras Pueblo site from about 1313 CE to 1425 CE. Its first phase had about 200 rooms in terraced buildings forming a U, with a large ceremonial kiva at the center. Partial abandonment after about 1360 gave way to rebuilding about 1390, but the pueblo never regained its earlier size. The village’s setting was a natural corridor between the Great Plains and Spanish settlements in the Rio Grande valley.",
       "at": [
         -106.37,
         35.095
@@ -30,7 +31,7 @@
       "title": "Manzano",
       "kind": "town",
       "scene": "mountain",
-      "text": "Twenty-six people live in Manzano, named for the apple tree, and the center of population of New Mexico falls right here, with the Quarai mission ruins nearby.",
+      "text": "Manzano takes its name from the Spanish word for apple tree. The Quarai ruins of Salinas Pueblo Missions National Monument lie near the town. Manzano also supplied a name to the Torreon Grant: it was named for defensive towers built at Manzano, 6.6 miles south of Torreon.",
       "at": [
         -106.345,
         34.64638889
@@ -39,26 +40,49 @@
   ],
   "sources": [
     {
-      "label": "New Mexico True, Salt Missions Trail",
+      "label": "New Mexico Tourism Department, Salt Missions Trail Scenic Byway",
       "url": "https://www.newmexico.org/places-to-visit/scenic-byways/salt-missions/"
     },
     {
+      "label": "New Mexico Department of Transportation, NM Scenic Byways feature records",
+      "url": "https://services.arcgis.com/hOpd7wfnKm16p9D9/arcgis/rest/services/NM_Scenic_Byways/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Tijeras Canyon",
+      "url": "https://en.wikipedia.org/wiki/Tijeras_Canyon"
+    },
+    {
+      "label": "Wikipedia, Mountainair, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Mountainair%2C_New_Mexico"
+    },
+    {
       "label": "Wikipedia, Estancia, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Estancia,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Estancia%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Moriarty, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Moriarty%2C_New_Mexico"
     },
     {
       "label": "Wikipedia, Tijeras, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Tijeras,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Tijeras%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Cedro, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Cedro%2C_New_Mexico"
     },
     {
       "label": "Wikipedia, Chilili, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Chilili,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Chilili%2C_New_Mexico"
+    },
+    {
+      "label": "Wikipedia, Torreon, Torrance County, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Torreon%2C_Torrance_County%2C_New_Mexico"
     },
     {
       "label": "Wikipedia, Manzano, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Manzano,_New_Mexico"
+      "url": "https://en.wikipedia.org/wiki/Manzano%2C_New_Mexico"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

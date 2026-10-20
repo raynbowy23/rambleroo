@@ -1,16 +1,17 @@
 {
   "id": "yadkin-valley-scenic-byway-993711",
-  "tagline": "Tobacco country turning to grapes, with Pilot Mountain looking on.",
+  "tagline": "String-band music, farm country and changing crossings of the Yadkin.",
   "intro": [
-    "The byway starts at Round Peak near Mount Airy and wanders by back roads to Dobson, down to the Yadkin at Rockford and on to Yadkinville, then west through the Swan Creek country to Elkin and north again to end at Zephyr. It is 76.5 miles of country road, about two hours.",
-    "Long tobacco country, it has been turning to vineyards. Pilot Mountain stays in view for much of the drive, a knob rising some 1,400 feet above the land around it."
+    "The Yadkin Valley Scenic Byway appears among North Carolina’s designated scenic routes. Its setting includes Round Peak in the southern Appalachians, Dobson’s farming country and Rockford beside the Yadkin River. Farther south, Yadkin County lies in the Piedmont close to the Blue Ridge Mountains, with hillier country to the west.",
+    "Crossing the river once meant a ferry at Rockford. In 1900, piano seller R.F. Bland built a bridge and charged a quarter to cross. Floods destroyed that crossing in the 1930s; later bridges renewed the link.",
+    "Begin with Round Peak near Mount Airy, then Dobson and Rockford on the Yadkin. Continue through Yadkinville toward Jonesville, which faces Elkin across the river, and finish at Zephyr between the Mitchell River and Little Creek."
   ],
   "moments": [
     {
       "title": "Round Peak",
       "kind": "town",
       "scene": "mountain",
-      "text": "The byway sets out from a community that gave its name to a style of old-time fiddle and banjo music, carried on by players such as Tommy Jarrell and Fred Cockerham.",
+      "text": "Round Peak names both a community and a style of old-time music practiced in the area. The community takes its own name from the nearby summit, which reaches 2,094 feet. The musical tradition draws on Anglo-Celtic fiddle and African banjo music. Its banjo playing uses syncopated drop-thumb rhythms and melodic noting. Research materials on the style are held in Appalachian State University’s W. L. Eury Appalachian Collection, and the area hosts the Mount Airy Fiddlers Convention. Charlie Lowe, Tommy Jarrell and Fred Cockerham are among the performers associated with this local style of string-band music.",
       "at": [
         -80.787,
         36.513
@@ -18,9 +19,10 @@
     },
     {
       "title": "Pilot Mountain",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "mountain",
-      "text": "Off on the horizon stands Big Pinnacle, bare rock walls under a rounded green top, a core of quartzite left standing as the rest of the mountain wore away.",
+      "text": "Big Pinnacle’s bare rock walls rise beneath a rounded, vegetation-covered top. The mountain reaches 2,421 feet above sea level, with Big Pinnacle and Little Pinnacle forming its two distinctive features. Pilot Mountain is a remnant of the ancient Sauratown Mountains. As the mountain eroded, its resistant quartzite core remained, forming Big Pinnacle. Little Pinnacle has a different composition: biotite gneiss layered with schist. A curved depression separates the ridge slope, Little Pinnacle and Big Pinnacle’s rounded knob. Pilot Mountain State Park extends to the Yadkin River through a corridor of land.",
+      "notice": "Look for Big Pinnacle’s bare walls and rounded, vegetation-covered top.",
       "at": [
         -80.47422,
         36.34014
@@ -30,7 +32,7 @@
       "title": "Rockford",
       "kind": "town",
       "scene": "river",
-      "text": "The old Surry County seat on the Yadkin still has its former courthouse, and from 1900 a piano seller charged a quarter to cross his bridge, until 1930s floods took it.",
+      "text": "Rockford’s river crossing has taken several forms. Ferries served the Yadkin until 1900, when piano seller R.F. Bland opened a bridge linking the banks with an island and charged a quarter to cross. Floods swept it away in the 1930s. A one-lane, low-water bridge arrived in 1962, followed by a high-rise bridge in 2002. The town was founded in 1790 to serve as Surry’s county seat after Stokes County was split off. The former county courthouse survives from Rockford’s years as the Surry County seat. Beside the river, the former Southern Railway line is now used by the Yadkin Valley Railroad.",
       "at": [
         -80.649,
         36.268
@@ -39,22 +41,37 @@
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Yadkin Valley Scenic Byway",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=116"
-    },
-    {
       "label": "Wikipedia, Round Peak, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Round_Peak,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Round_Peak%2C_North_Carolina"
     },
     {
-      "label": "Wikipedia, Pilot Mountain (North Carolina)",
-      "url": "https://en.wikipedia.org/wiki/Pilot_Mountain_(North_Carolina)"
+      "label": "Wikipedia, Dobson, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Dobson%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Rockford, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Rockford,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Rockford%2C_North_Carolina"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, Fifth Edition",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=116"
+    },
+    {
+      "label": "Wikipedia, Yadkin County, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Yadkin_County%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Jonesville, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Jonesville%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Zephyr, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Zephyr%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Pilot Mountain (North Carolina)",
+      "url": "https://en.wikipedia.org/wiki/Pilot_Mountain_%28North_Carolina%29"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

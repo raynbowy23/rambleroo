@@ -1,16 +1,17 @@
 {
   "id": "yakama-scenic-byway-54777",
-  "tagline": "Across the reservation, over Satus Pass, down to the Columbia.",
+  "tagline": "Farmland, Satus Pass and a highway above the Columbia River",
   "intro": [
-    "The designated byway follows US 97 south from Union Gap, but the road drawn here starts at Fort Simcoe, in the foothills of the Cascades, and comes east through White Swan to Toppenish, a farm town that lies entirely within the Yakama Reservation. There it turns south on US 97, leaves the farmland behind and climbs slowly into the hills toward the Simcoe Mountains and over Satus Pass, 3,107 feet up.",
-    "On the far side it drops through Goldendale to the Columbia near Maryhill, where Sam Hill's unfinished mansion was dedicated as a museum by the Queen of Romania. The byway is spelled for the Yakama people, not the city of Yakima."
+    "The Yakama Scenic Byway climbs from the Yakima Valley’s farmland into the hills leading to Satus Pass, then continues toward the Columbia River. Scenic Washington presents the route through its farming towns, wilderness and Goldendale’s public observatory. Much of this drive through the Yakama people’s ancestral homeland lies within the Yakama Reservation.",
+    "Near its southern end, road building once meant experimenting with the climb out of the Columbia River country. In 1911, Samuel Hill and engineer Samuel C. Lancaster built Maryhill Loops Road, using horseshoe curves to keep grades low on Washington’s first asphalt road. US 97 acquired its federal number in 1926. The straighter US 97 bypassed that experimental road after World War II. At Maryhill, a ferry had crossed the Columbia since the early 1920s; the Sam Hill Memorial Bridge opened in 1962.",
+    "Follow the byway south from Union Gap on US 97 to Toppenish, then through Goldendale to SR 14 near Maryhill Museum. Fort Simcoe is a separate excursion west of Toppenish. South of Toppenish, the highway crosses the wildlife refuge before the climb toward Satus Pass; beyond the pass, forest gives way to the plateau at Goldendale and the descent through the Columbia Hills."
   ],
   "moments": [
     {
       "title": "Fort Simcoe",
-      "kind": "roadside",
+      "kind": "separate excursion",
       "scene": "forest",
-      "text": "The army built its post here in the late 1850s, in an old oak grove watered by springs, used it only three years, and five of the original buildings still stand.",
+      "text": "Five original buildings remain at Fort Simcoe: the commander’s house, three captains’ houses and a blockhouse. Other buildings are recreations, a distinction that matters when looking across the former post. The Army built the fort in the late 1850s in an oak grove fed by natural springs and used it for three years. Its position lay on a Yakama route between the Yakima Valley and Columbia River fishing areas, allowing soldiers to monitor the tribe and its visitors. The preserved post is now a day-use heritage park on the Yakama Indian Reservation, with houses furnished in period style.",
       "at": [
         -120.83694,
         46.34278
@@ -20,7 +21,7 @@
       "title": "Toppenish",
       "kind": "town",
       "scene": "town",
-      "text": "The first mural, \"Clearing the Land\", went up in 1989, and more than 75 now cover the town's walls, every one set somewhere between 1840 and 1940.",
+      "text": "Toppenish’s first mural, “Clearing the Land,” was painted in 1989. More than 75 murals now cover its buildings, depicting regional scenes from 1840 to 1940. The town itself began in 1884 along the Northern Pacific Railway, within the Yakama Indian Reservation. Its 1911 depot later became the Northern Pacific Railway Museum. The railroad closed the depot in 1981; it remained boarded up for nearly ten years before a museum association formed in 1989. The painted scenes span a century of regional history; the depot gives that railway town’s past a building of its own.",
       "at": [
         -120.31,
         46.37639
@@ -30,7 +31,7 @@
       "title": "Goldendale",
       "kind": "town",
       "scene": "town",
-      "text": "The telescope on the hill north of town was built by four amateurs for a Vancouver college that wanted clearer, darker skies, until a Goldendale diner owner suggested they give it to the town.",
+      "text": "Goldendale’s observatory began with a telescope looking for a home. Four amateur astronomers built the 24.5-inch reflector for Clark College in Vancouver, which paid for the materials. The college wanted a darker, clearer location than Vancouver, and a Goldendale diner owner and city council member suggested donating it to the town. The gift came with a condition: the community had to build an observatory. Dedicated in 1973, it was intended primarily for public science education. The observatory occupies a hill north of town, reached by a winding paved road through oak forest.",
       "at": [
         -120.82333,
         45.81917
@@ -43,30 +44,25 @@
       "url": "https://www.scenicwa.com/yakama-scenic-byway"
     },
     {
+      "label": "Wikipedia, Maryhill Loops Road",
+      "url": "https://en.wikipedia.org/wiki/Maryhill_Loops_Road"
+    },
+    {
+      "label": "Wikipedia, U.S. Route 97 in Washington",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_97_in_Washington"
+    },
+    {
       "label": "Wikipedia, Fort Simcoe",
       "url": "https://en.wikipedia.org/wiki/Fort_Simcoe"
     },
     {
       "label": "Wikipedia, Toppenish, Washington",
-      "url": "https://en.wikipedia.org/wiki/Toppenish,_Washington"
-    },
-    {
-      "label": "Wikipedia, Satus Pass",
-      "url": "https://en.wikipedia.org/wiki/Satus_Pass"
-    },
-    {
-      "label": "Wikipedia, Goldendale, Washington",
-      "url": "https://en.wikipedia.org/wiki/Goldendale,_Washington"
+      "url": "https://en.wikipedia.org/wiki/Toppenish%2C_Washington"
     },
     {
       "label": "Wikipedia, Goldendale Observatory State Park",
       "url": "https://en.wikipedia.org/wiki/Goldendale_Observatory_State_Park"
-    },
-    {
-      "label": "Wikipedia, Maryhill Museum of Art",
-      "url": "https://en.wikipedia.org/wiki/Maryhill_Museum_of_Art"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

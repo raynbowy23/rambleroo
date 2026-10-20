@@ -1,19 +1,20 @@
 {
   "id": "walton-road-scenic-byway-994706",
-  "tagline": "Over the Cumberland Plateau on a turnpike from 1801.",
+  "tagline": "Across the Cumberland Plateau, a highway follows an early wagon road.",
   "motifs": [
     "waterfall-cove"
   ],
   "intro": [
-    "From Carthage the byway crosses the Cumberland River and heads east on US 70N through Baxter and Cookeville, climbs onto the plateau at Monterey, and runs on through Crossville, Crab Orchard, Ozone and Rockwood to the Clinch River at Kingston. Most of the way it keeps close to the old Walton Road, and stretches of the original roadbed can still be seen from the highway.",
-    "Captain William Walton finished his road in 1801 as the Cumberland Turnpike, fifteen feet wide and free of stumps, with tollgates and a marker every three miles. A traveler in 1802 called it as broad and commodious as the roads around Philadelphia."
+    "The Walton Road Scenic Byway crosses Tennessee’s Cumberland Plateau on US 70N and US 70, linking Carthage with Kingston. Along the corridor, sections of the original road remain visible, while Ozone Falls lies a few hundred meters south of US 70. Tennessee Scenic Byways presents the route through its connections to frontier settlement, the waterfall and Fort Southwest Point.",
+    "Captain William Walton began building in 1799, incorporating portions of older roads into a route from the Cumberland and Caney Fork rivers to Southwest Point. Completed in 1801 as the Cumberland Turnpike, it carried settlers west from East Tennessee toward the Cumberland River. The road was fifteen feet wide and cleared of stumps, with tollgates and mileage markers every three miles. Inns spaced a day’s journey apart supplied meals and lodging. Modern US 70 closely follows the historic route, and east of Monterey much of the older roadbed lies beneath the highway.",
+    "Driving east, cross the Cumberland River at Carthage and follow US 70N through Baxter and Cookeville to Monterey. Monterey sits at the plateau’s western edge; beyond it, the route continues to Crossville, where US 70N becomes US 70. Continue through Crab Orchard, Ozone and Rockwood, finishing at the Clinch River crossing in Kingston."
   ],
   "moments": [
     {
       "title": "Monterey",
       "kind": "town",
       "scene": "mountain",
-      "text": "The town grew around the Standing Stone, a guidepost for travelers, at the top of a 900-foot climb from White Plains that wore out people and animals alike.",
+      "text": "The old Walton Road climbed 900 feet from White Plains to Monterey, an ascent that exhausted travelers and their animals. The settlement developed beside the Standing Stone, a landmark used as a guidepost by travelers. By 1805, the Standing Stone Inn was serving westbound migrants. Railroad construction later brought a different plan for the town: the Cumberland Mountain Coal Company bought coal property and hired Robert John Moscrip to lay out housing and commercial space for workers. Monterey occupies the western edge of the Cumberland Plateau. Freight trains continue to connect Monterey with Nashville on the Nashville and Eastern Railroad.",
       "at": [
         -85.26583,
         36.14528
@@ -23,7 +24,8 @@
       "title": "Ozone Falls",
       "kind": "short walk",
       "scene": "forest",
-      "text": "A few hundred meters south of the highway Fall Creek drops 110 feet into a half-domed gorge, and migrants on the Walton Road wrote home about it.",
+      "text": "Fall Creek passes beneath US 70 before plunging 110 feet at Ozone Falls. The walls beside the plungepool slope inward, giving the gorge a half-dome shape. Travelers crossing the plateau toward Nashville in the early nineteenth century described the falls in journals and letters home. The waterfall stood beside the Walton Road, part of the stage route between East and Middle Tennessee. Protection came in 1973, when the state natural area was established with 14 acres; it expanded to 43 acres in 1996. The creek continues south through the gorge before joining Piney Creek.",
+      "notice": "The gorge walls curve inward beside the plungepool, forming a half-dome.",
       "at": [
         -84.81001,
         35.88045
@@ -36,7 +38,7 @@
       "title": "Fort Southwest Point",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "On a hill above the meeting of the Clinch and the Tennessee, part of the 1797 frontier fort at the road's eastern end has been rebuilt on its original foundation.",
+      "text": "Fort Southwest Point overlooks the meeting of the Clinch and Tennessee rivers from a hill in Kingston. Built in 1797, the federal outpost served both as a way station for migrants and a place of interaction between the Cherokee and the United States government. Among the garrison’s early duties was removing settlers who occupied Cherokee lands illegally. The structures seen here are a partial reconstruction: archaeological excavations in the 1970s and 1980s established the layout, which the City of Kingston and Tennessee Division of Archaeology used to rebuild part of the fort.",
       "at": [
         -84.52917,
         35.86056
@@ -45,24 +47,28 @@
   ],
   "sources": [
     {
-      "label": "Walton Road Historic Byway, Historical Significance",
-      "url": "https://waltonroad.com/historical-significance/"
+      "label": "Walton Road Historic Byway, Walton Road",
+      "url": "https://waltonroad.com/"
     },
     {
-      "label": "Tennessee Scenic Byways, Walton Road",
-      "url": "https://tnscenicbyways.com/"
+      "label": "Walton Road Historic Byway, Historical Significance",
+      "url": "https://waltonroad.com/historical-significance/"
     },
     {
       "label": "Tennessee Scenic Byways, Walton Road driving directions",
       "url": "https://tnscenicbyways.com/directions/walton_driving-directions.pdf"
     },
     {
-      "label": "TDOT, Tennessee Byways flipbook, Walton Road",
-      "url": "https://www.tn.gov/content/dam/tn/tdot/environmental/highway-beautification/scenic_byways/Tennessee%20Byways%20Flipbook.pdf#page=59"
+      "label": "Tennessee Scenic Byways, Walton Road",
+      "url": "https://tnscenicbyways.com/"
+    },
+    {
+      "label": "Wikipedia, Ozone Falls",
+      "url": "https://en.wikipedia.org/wiki/Ozone_Falls"
     },
     {
       "label": "Wikipedia, Monterey, Tennessee",
-      "url": "https://en.wikipedia.org/wiki/Monterey,_Tennessee"
+      "url": "https://en.wikipedia.org/wiki/Monterey%2C_Tennessee"
     },
     {
       "label": "Wikipedia, Ozone Falls State Natural Area",
@@ -73,6 +79,5 @@
       "url": "https://en.wikipedia.org/wiki/Fort_Southwest_Point"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

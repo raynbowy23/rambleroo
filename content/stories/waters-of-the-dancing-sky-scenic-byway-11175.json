@@ -1,29 +1,31 @@
 {
   "id": "waters-of-the-dancing-sky-scenic-byway-11175",
-  "tagline": "Along the Canadian line, under the northern lights.",
+  "tagline": "Woods and farmland lead to Lake of the Woods and the Rainy River.",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "Out of International Falls, nicknamed the Icebox of the Nation, Highway 11 heads west along the Rainy River to Baudette with Canada just across the water. From there it skirts Lake of the Woods to Warroad and Roseau and runs on across the top of the state toward North Dakota, through woods and farmland.",
-    "The dancing sky is the aurora borealis, which turns up often this far north, where there are few city lights to wash it out. Between Baudette and Warroad the roadsides bloom with wildflowers, lady's slippers among them."
+    "Waters of the Dancing Sky Scenic Byway crosses northern Minnesota through woods and farmland, reaching Lake of the Woods and following the Rainy River beside Canada. Explore Minnesota promotes the drive for fishing, birding and wildflowers, including lady’s slippers between Warroad and Baudette. The name refers to the northern lights, which frequently appear here thanks to the northern location and lack of bright city lights. West of Warroad, the drive shares the Pine to Prairie Birding Trail; Zippel Bay offers a three-mile beach on Lake of the Woods.",
+    "Highway 11 began with a much different outline. Authorized in 1920, it ran from Donaldson east to International Falls, then south through the Iron Range to Duluth. In 1934, the north-south portion became US 53, while Highway 11 extended west to the Red River and east beyond Island View. The final unpaved section, between the North Dakota line and Donaldson, was paved by 1961.",
+    "For an eastbound journey, take Highway 11 from Karlstad toward Roseau and Warroad on Muskeg Bay. Williams is the gateway to a separate visit to Zippel Bay State Park, then Baudette brings the road to the Rainy River. Follow the river east to International Falls; Highway 11 continues to Island View at Rainy Lake."
   ],
   "moments": [
     {
-      "title": "Baudette",
+      "title": "Warroad",
       "kind": "town",
-      "scene": "river",
-      "text": "When fire took most of Baudette in 1910, many of its people got away in boxcars that a train pulled across the river to Rainy River, Ontario.",
+      "scene": "coast",
+      "text": "Warroad’s former railway depot is a brick replacement for a wooden station lost to fire in July 1914. The original depot opened in 1900, when the town became a Canadian Northern Railway stop. The replacement included customs and immigration offices, waiting space and living quarters for the stationmaster. Passenger service ended in 1977 and the station closed the next year. After renovation, the building housed city offices and a public library by July 1985. The town stands at Muskeg Bay, where commercial fishing gradually gave way to sport fishing and tourism.",
       "at": [
-        -94.595,
-        48.7125
+        -95.31444444,
+        48.90527778
       ]
     },
     {
       "title": "Zippel Bay State Park",
       "kind": "separate excursion",
       "scene": "coast",
-      "text": "Wilhelm Zippel's fishing village is down to foundations and hollows in the ground, but the park keeps a three-mile white sand beach on Lake of the Woods.",
+      "text": "Zippel Bay State Park has a three-mile beach on Lake of the Woods, with white sand along the shoreline. Wilhelm Zippel moved here in 1887 and built a home near the bay’s entrance. His family established a commercial fishing business, and by 1909 a village included fishermen’s homes, a post office and cold storage. Foundations, debris and depressions are the village’s remaining traces. The state park was established in 1959 to provide public lake access; construction followed from 1963 to 1967. Lake of the Woods is a remnant of glacial Lake Agassiz, which once covered this part of Minnesota.",
+      "notice": "White sand lines the Lake of the Woods shoreline.",
       "at": [
         -94.85944444,
         48.86388889
@@ -33,19 +35,19 @@
       ]
     },
     {
-      "title": "Warroad",
+      "title": "Baudette",
       "kind": "town",
-      "scene": "coast",
-      "text": "Named for the old war road the Sioux followed down to the mouth of the Warroad River, the town on Muskeg Bay now answers to Hockeytown USA.",
+      "scene": "river",
+      "text": "The Rainy River was an escape route when fire largely destroyed Baudette in 1910. A train sent from Rainy River, Ontario, carried many residents to safety across the water in boxcars. The town had developed as a steamboat landing and lumber community with a sawmill after the railway arrived in 1901. It rebuilt quickly after the fire. Baudette lies where its namesake river meets the Rainy River, opposite the Ontario town that sent help. An international bridge connects the two communities. Highway 11 continues east from Baudette toward International Falls, following the same border river.",
       "at": [
-        -95.31444444,
-        48.90527778
+        -94.595,
+        48.7125
       ]
     }
   ],
   "sources": [
     {
-      "label": "Explore Minnesota, Waters of the Dancing Sky Scenic Byway (Wayback Machine capture)",
+      "label": "Explore Minnesota, Waters of the Dancing Sky Scenic Byway (archived February 7, 2026)",
       "url": "https://web.archive.org/web/20260207034318/https://www.exploreminnesota.com/profile/waters-dancing-sky-scenic-byway/2337"
     },
     {
@@ -53,22 +55,25 @@
       "url": "https://en.wikipedia.org/wiki/Minnesota_State_Highway_11"
     },
     {
-      "label": "Wikipedia, International Falls, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/International_Falls,_Minnesota"
+      "label": "Wikipedia, Karlstad, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Karlstad%2C_Minnesota"
+    },
+    {
+      "label": "Wikipedia, Warroad, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Warroad%2C_Minnesota"
+    },
+    {
+      "label": "Wikipedia, Williams, Minnesota",
+      "url": "https://en.wikipedia.org/wiki/Williams%2C_Minnesota"
     },
     {
       "label": "Wikipedia, Baudette, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/Baudette,_Minnesota"
+      "url": "https://en.wikipedia.org/wiki/Baudette%2C_Minnesota"
     },
     {
       "label": "Wikipedia, Zippel Bay State Park",
       "url": "https://en.wikipedia.org/wiki/Zippel_Bay_State_Park"
-    },
-    {
-      "label": "Wikipedia, Warroad, Minnesota",
-      "url": "https://en.wikipedia.org/wiki/Warroad,_Minnesota"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

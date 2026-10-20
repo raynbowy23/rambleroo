@@ -1,64 +1,79 @@
 {
   "id": "river-heritage-tour-15793",
-  "tagline": "From the Pemigewasset over to the Connecticut by way of Moosilauke.",
+  "tagline": "From Connecticut River farmland through mountain towns to the Pemigewasset",
   "intro": [
-    "From Lincoln the route runs south through Campton and crosses the Pemigewasset into Plymouth, the college town where Nathaniel Hawthorne died on a holiday in 1864. NH 25 then follows the Baker River up through Rumney and Wentworth to Warren, with Mount Moosilauke in view, and NH 25C crosses over to Piermont on the Connecticut. The last miles run north on Route 10 to Haverhill Corner and North Haverhill.",
-    "The official loop runs 120 miles from North Woodstock, and this map follows about 62 of them, Lincoln to North Haverhill. The rest goes north to Woodsville and home by Bath and Kinsman Notch, over three of the oldest and longest covered bridges in the state."
+    "River Heritage links Connecticut River farmland, small towns and forests with views of Mount Moosilauke. New Hampshire’s tourism brochure presents a 120-mile loop beginning in North Woodstock and emphasizes mountain scenery, river recreation and period architecture. Between Piermont and Warren, NH 25C crosses mountainous terrain; along the Baker River, NH 25 and NH 118 share a road that crosses the river several times.",
+    "Some of these roads once directed business toward a different center. Haverhill Corner stood at the end of a main road from the seacoast to the Connecticut River, now called Court Street within Haverhill. When the railroad went to Woodsville in the mid-19th century, economic and county functions gradually followed it there. NH 25 has a separate highway history: in the 1920s it formed part of New England Interstate Route 25, within the regional New England Interstate Highway system.",
+    "For the North Haverhill-to-Lincoln section, begin on Route 10 in the Connecticut valley and pass Haverhill Corner toward Piermont. NH 25C leads to Warren; NH 25 then follows the Baker River through Wentworth and Rumney toward Plymouth. From Plymouth, the tour uses NH 175 and US 3 through the Campton area toward North Woodstock, beside Lincoln."
   ],
+  "notice": "At Warren, the tour offers views of Mount Moosilauke.",
   "moments": [
     {
-      "title": "Plymouth",
+      "title": "Haverhill Corner",
       "kind": "town",
-      "scene": "river",
-      "text": "Daniel Webster lost his first criminal case at the old courthouse in 1806, and the building now houses the historical society.",
+      "scene": "town",
+      "text": "Two grassy commons frame Court Street where it meets Route 10. Federal-style buildings from the late 18th and early 19th centuries surround them, including the First Congregational Church of 1827. This was Haverhill’s early civic center, at the end of an important road from the seacoast. The railroad’s arrival at Woodsville shifted economic and county functions away from the corner. The former courthouse, built in 1840, now houses the public library and local historical society. Longtime resident Mildred Page left a bequest to maintain the village’s historic civic buildings.",
+      "notice": "The 1827 First Congregational Church stands among the buildings surrounding the commons.",
       "at": [
-        -71.72222222,
-        43.74388889
+        -72.06416667,
+        44.03138889
       ]
     },
     {
       "title": "Warren",
       "kind": "town",
       "scene": "mountain",
-      "text": "A Redstone missile has stood on the village green since 1971, brought up from Alabama in honor of Senator Norris Cotton, a Warren native.",
+      "text": "A Redstone ballistic missile stands in the center of Warren’s village green. Henry T. Asselin brought it from the Redstone Arsenal near Huntsville, Alabama, in 1971 and donated it in honor of Senator Norris Cotton, a Warren native.",
+      "notice": "The Redstone missile occupies the center of the village green.",
       "at": [
         -71.88222222,
         43.94527778
       ]
     },
     {
-      "title": "Haverhill Corner",
+      "title": "Plymouth",
       "kind": "town",
-      "scene": "town",
-      "text": "Federal houses and the 1827 Congregational church stand around a pair of grassy commons on Route 10, a county seat left behind when the railroad went to Woodsville.",
+      "scene": "river",
+      "text": "Daniel Webster lost his first criminal case at Plymouth’s courthouse in 1806. The building has a different role now, housing the Historical Society. The town lies at the meeting of the Baker and Pemigewasset rivers and is home to Plymouth State University. Its educational history took a turn in 1871, when the existing Holmes Plymouth Academy became the basis for Plymouth Normal School. That teachers’ school became Plymouth Teachers’ College in 1939, Plymouth State College in 1963 and Plymouth State University in 2003. Plymouth State’s campus occupies the center of town.",
       "at": [
-        -72.06416667,
-        44.03138889
+        -71.72222222,
+        43.74388889
       ]
     }
   ],
   "sources": [
     {
-      "label": "Visit NH, River Heritage Tour trip idea",
+      "label": "Visit New Hampshire, River Heritage Tour",
       "url": "https://www.visitnh.gov/getmedia/80f780cc-562f-41ed-a425-f52d1efd1b4a/Trip-Idea-riverheritage-tour.pdf"
+    },
+    {
+      "label": "Wikipedia, Plymouth, New Hampshire",
+      "url": "https://en.wikipedia.org/wiki/Plymouth%2C_New_Hampshire"
     },
     {
       "label": "Wikipedia, New Hampshire Route 25",
       "url": "https://en.wikipedia.org/wiki/New_Hampshire_Route_25"
     },
     {
-      "label": "Wikipedia, Plymouth, New Hampshire",
-      "url": "https://en.wikipedia.org/wiki/Plymouth,_New_Hampshire"
+      "label": "Wikipedia, Haverhill Corner Historic District",
+      "url": "https://en.wikipedia.org/wiki/Haverhill_Corner_Historic_District"
+    },
+    {
+      "label": "Wikipedia, North Haverhill, New Hampshire",
+      "url": "https://en.wikipedia.org/wiki/North_Haverhill%2C_New_Hampshire"
+    },
+    {
+      "label": "Wikipedia, Campton, New Hampshire",
+      "url": "https://en.wikipedia.org/wiki/Campton%2C_New_Hampshire"
+    },
+    {
+      "label": "Wikipedia, North Woodstock, New Hampshire",
+      "url": "https://en.wikipedia.org/wiki/North_Woodstock%2C_New_Hampshire"
     },
     {
       "label": "Wikipedia, Warren, New Hampshire",
-      "url": "https://en.wikipedia.org/wiki/Warren,_New_Hampshire"
-    },
-    {
-      "label": "Wikipedia, Haverhill Corner Historic District",
-      "url": "https://en.wikipedia.org/wiki/Haverhill_Corner_Historic_District"
+      "url": "https://en.wikipedia.org/wiki/Warren%2C_New_Hampshire"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

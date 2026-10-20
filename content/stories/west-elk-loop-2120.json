@@ -1,20 +1,22 @@
 {
   "id": "west-elk-loop-2120",
-  "tagline": "From the coke ovens over gravel to orchard country.",
+  "tagline": "From Redstone’s coke ovens over mountain gravel to Paonia’s orchards",
   "motifs": [
     "mining-town",
     "orchard"
   ],
   "intro": [
-    "Out of Carbondale, below the twin summits of Mount Sopris, CO 133 goes up the Crystal River to Redstone and over McClure Pass at 8,755 feet into the valley of the North Fork of the Gunnison. From there the loop takes in Crested Butte and Gunnison, Crawford and Paonia, 205 miles with the Black Canyon of the Gunnison at the far end.",
-    "Coal built Redstone. At Redstone John Osgood put up 84 cottages for his miners and cokers, all with indoor plumbing and electricity, and a 42-room Tudor mansion for his second wife. Down the North Fork, around Paonia, the orchards grow peaches, apples and cherries."
+    "The West Elk Loop is a 205-mile scenic and historic byway with a driving time of six to eight hours. Mount Sopris’s twin summits and the Black Canyon of the Gunnison anchor the route, which gives access to the White River and Gunnison national forests. McClure Pass carries Highway 133 over 8% approaches; Kebler Pass adds a 31-mile gravel section that closes in winter.",
+    "Coal helped shape transportation through the Crystal Valley. John Cleveland Osgood found coal suitable for coking in 1882 and bought land there. Four years later, he and his associates established a toll-road company and a railroad, though their early surveying brought no construction. Redstone’s coking operation eventually developed, then ended in 1909 when shipping fuel to Pueblo was unprofitable.",
+    "From Carbondale, take Highway 133 toward Redstone and McClure Pass, then cross Kebler Pass toward Crested Butte. Highway 135 leads south to Gunnison; U.S. 50 follows Blue Mesa Reservoir before the loop continues toward Crawford and Paonia. At Blue Mesa, U.S. 50 crosses the reservoir on Middle Bridge, then runs west to the dam, where Highway 92 travels over its top. Finish in the North Fork Valley’s orchard country, where Highway 133 leads back over McClure Pass toward Carbondale."
   ],
   "moments": [
     {
       "title": "Redstone Coke Ovens",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Ninety of the original two hundred beehive ovens stand in a 600-foot arc beside the highway, idle within ten years of their building and later lived in by hippies.",
+      "text": "Ninety coke ovens remain in a 600-foot arc beside Highway 133, most shaped like stone beehives. They belonged to Colorado Fuel and Iron’s coking operation, which ended in 1909 when shipping fuel to Pueblo became unprofitable. Their steel supports went into World War II scrap drives, leaving the ovens vulnerable to decay. A proposed gas station later threatened the site. The Aspen Valley Land Trust acquired it in 2003, and it passed through the historical society to Pitkin County. Four ovens have been restored to their original appearance. Wooden fences and guardrails separate visitors from the masonry remains.",
+      "notice": "The stone beehive forms include four ovens restored to their original appearance.",
       "at": [
         -107.24138889,
         39.18111111
@@ -27,13 +29,13 @@
       "title": "Kebler Pass",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "Between Route 133 and Crested Butte the pavement mostly quits, and County Road 12 crosses the pass at 10,007 feet on gravel."
+      "text": "Kebler Pass reaches 10,007 feet on Gunnison County Road 12. The road joins Highway 133 near the southern end of Paonia State Park to Crested Butte. Most of the surface is gravel, although a few stretches near the summit are paved. The winter closure makes this a seasonal link in the loop."
     },
     {
       "title": "Paonia",
       "kind": "town",
       "scene": "town",
-      "text": "Samuel Wade brought peony roots here in 1881 and wanted the town called Paeonia, but the post office would not allow the extra vowel.",
+      "text": "Paonia’s name began with peony roots that Samuel Wade brought to Colorado in 1881. He proposed Paeonia, the flower’s Latin name; the post office rejected the extra vowel. Fruit is another part of the town’s agricultural identity: surrounding orchards produce peaches, apples, cherries, pears and plums. The Lions Club began Cherry Days in 1946, and community volunteers continue to run the festival. The town lies on the North Fork Gunnison River, with Mount Lamborn southeast of the valley and Grand Mesa northwest. Highway 133 touches Paonia’s northwest boundary before climbing toward McClure Pass.",
       "at": [
         -107.59583333,
         38.87277778
@@ -44,24 +46,24 @@
     }
   ],
   "practical": [
-    "The 31-mile gravel section over Kebler Pass is closed in winter."
+    "Kebler Pass: The 31-mile gravel section over Kebler Pass is closed in winter. (checked 2026-10-11)"
   ],
   "sources": [
     {
-      "label": "CDOT, West Elk Loop",
+      "label": "Colorado Department of Transportation, West Elk Loop",
       "url": "https://www.codot.gov/travel/coloradobyways/southwest/west-elk-loop"
     },
     {
-      "label": "Wikipedia, Mount Sopris",
-      "url": "https://en.wikipedia.org/wiki/Mount_Sopris"
+      "label": "Wikipedia, Paonia, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Paonia%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Carbondale, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Carbondale%2C_Colorado"
     },
     {
       "label": "Wikipedia, McClure Pass",
       "url": "https://en.wikipedia.org/wiki/McClure_Pass"
-    },
-    {
-      "label": "Wikipedia, Redstone, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Redstone,_Colorado"
     },
     {
       "label": "Wikipedia, Redstone Coke Oven Historic District",
@@ -72,10 +74,13 @@
       "url": "https://en.wikipedia.org/wiki/Kebler_Pass"
     },
     {
-      "label": "Wikipedia, Paonia, Colorado",
-      "url": "https://en.wikipedia.org/wiki/Paonia,_Colorado"
+      "label": "Wikipedia, Crested Butte, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Crested_Butte%2C_Colorado"
+    },
+    {
+      "label": "Wikipedia, Blue Mesa Reservoir",
+      "url": "https://en.wikipedia.org/wiki/Blue_Mesa_Reservoir"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

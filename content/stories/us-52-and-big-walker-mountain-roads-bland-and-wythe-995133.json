@@ -1,32 +1,44 @@
 {
   "id": "us-52-and-big-walker-mountain-roads-bland-and-wythe-995133",
-  "tagline": "The long way over Big Walker Mountain, switchback by switchback.",
+  "tagline": "Switchbacks over Big Walker Mountain, where the interstate takes a tunnel",
   "motifs": [
     "switchbacks"
   ],
   "intro": [
-    "Since 1972 Interstate 77 has gone under Big Walker Mountain through a tunnel of 4,229 feet, saving half an hour between Wytheville and Bland County. US 52 still goes over the top.",
-    "On Stoney Fork Road it climbs steeply to the crest of the ridge, named for the explorer Thomas Walker who came through in 1749, and passes Big Walker Lookout at a hairpin turn. The other side comes down in a long series of short switchbacks to Bland, where it takes the name Scenic Highway."
+    "US 52 crosses Walker Mountain at Big Walker Lookout, with a hairpin turn at the ridge and a long series of short switchbacks on the Bland side. The Big Walker Mountain Scenic Byway also includes State Route 717, which follows the east fork of Stony Creek through the Seven Sisters area. The Wilderness Society recognizes Seven Sisters as a “Mountain Treasure,” worthy of protection from logging and road construction.",
+    "A different crossing opened in 1972: the 4,229-foot Big Walker Mountain Tunnel, completed after five years of construction. Carrying I-77 beneath the mountain, it cut the journey from Wytheville to Bland County by 30 minutes. The lookout above predates that change: its tower was built in 1947. At $50 million, the tunnel was then the most expensive single project on Virginia’s Interstate system. Singstad & Kehart of New York designed the roadway and tunnel after preliminary studies by Richmond engineers Brokenborough & Watkins.",
+    "Start at Bland, the county seat once called Bland Court House. From the Bland side, the switchbacks lead up to the lookout at the ridge; beyond it, US 52 descends toward Wytheville. The byway’s Route 717 section connects US 52 with Stony Fork Campground, the Seven Sisters trailheads and I-77 at exit 47."
   ],
   "moments": [
+    {
+      "title": "Bland",
+      "kind": "town",
+      "scene": "town",
+      "text": "Bland was originally called Bland Court House and remains the seat of Bland County. At Bland, US 52 meets I-77 after its descent from Big Walker Mountain. North of here, US 52 takes the name Scenic Highway and climbs another ridge to meet the Appalachian Trail south of Bastian.",
+      "at": [
+        -81.11611111,
+        37.10194444
+      ]
+    },
     {
       "title": "Big Walker Lookout",
       "kind": "roadside",
       "scene": "mountain",
-      "text": "A 100-foot tower from 1947 at 3,405 feet, standing at the pass Molly Tynes is said to have crossed in 1863 to warn Wytheville of a Union raid.",
+      "text": "Big Walker Lookout adds a 100-foot observation tower to the crest of Big Walker Mountain. Built in 1947, the tower has been run continuously by the Kime family. The store beside it is a replacement: the first building burned in 2003, and a new one was built to its right. The swinging bridge that once connected the old store to the tower survived the fire. From the lookout, the north approach to the interstate tunnel can be seen below. The lookout’s site is at an elevation of 3,405 feet above sea level.",
+      "notice": "The swinging bridge survived the fire that destroyed the original store.",
       "at": [
         -81.22836111,
         37.04575
       ]
     },
     {
-      "title": "Bland",
-      "kind": "town",
-      "scene": "town",
-      "text": "The county seat, a place of about three hundred people that went by Bland Court House at the start.",
+      "title": "Seven Sisters",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "The Seven Sisters Trail follows Little Walker Mountain’s crest, passing along seven knobs. The 4.8-mile trail rises from 2,500 to 3,300 feet and is rated difficult. Its crest offers views of Griffith Knob, the Big Bend of Walker Mountain and the Stony Fork Valley. Below the ridges, the wildland contains the upper East Fork Stony Fork watershed, between Walker Mountain and Little Walker Mountain. State Route 717 passes through along the east fork of Stony Creek. The surrounding ridges run northeast to southwest, with sandstone and shale above parallel valleys eroded from limestone or shale.",
       "at": [
-        -81.11611111,
-        37.10194444
+        -81.15916667,
+        37.00833333
       ]
     }
   ],
@@ -40,12 +52,8 @@
       "url": "https://en.wikipedia.org/wiki/Big_Walker_Mountain_Tunnel"
     },
     {
-      "label": "Wikipedia, Big Walker Mountain",
-      "url": "https://en.wikipedia.org/wiki/Big_Walker_Mountain"
-    },
-    {
-      "label": "Wikipedia, Walker Mountain Cluster",
-      "url": "https://en.wikipedia.org/wiki/Walker_Mountain_Cluster"
+      "label": "Wikipedia, Seven Sisters (conservation area)",
+      "url": "https://en.wikipedia.org/wiki/Seven_Sisters_%28conservation_area%29"
     },
     {
       "label": "Wikipedia, Big Walker Lookout",
@@ -53,9 +61,8 @@
     },
     {
       "label": "Wikipedia, Bland, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Bland,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Bland%2C_Virginia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

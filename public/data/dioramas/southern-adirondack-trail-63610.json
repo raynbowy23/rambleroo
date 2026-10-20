@@ -3,12 +3,12 @@
   "bywayId": "southern-adirondack-trail-63610",
   "title": "Southern Adirondack Trail",
   "longitude": -74.8428,
-  "ground": "alpine-plateau",
-  "palette": "mountain",
+  "ground": "river-valley",
+  "palette": "river",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "valley-floor",
     "lanes": 2,
     "coordinates": [
       [
@@ -30,6 +30,10 @@
       [
         -74.96923,
         43.13906
+      ],
+      [
+        -74.89322,
+        43.13182
       ],
       [
         -74.87545,
@@ -70,10 +74,6 @@
       [
         -74.8596,
         43.0434
-      ],
-      [
-        -74.91087,
-        43.07269
       ],
       [
         -74.90589,
@@ -239,39 +239,39 @@
     "elevation": [
       [
         0,
-        0.45
+        0.2
       ],
       [
         0.125,
-        0.692
+        0.218
       ],
       [
         0.25,
-        1.275
+        0.26
       ],
       [
         0.375,
-        1.858
+        0.302
       ],
       [
         0.5,
-        2.1
+        0.32
       ],
       [
         0.625,
-        1.858
+        0.302
       ],
       [
         0.75,
-        1.275
+        0.26
       ],
       [
         0.875,
-        0.692
+        0.218
       ],
       [
         1,
-        0.45
+        0.2
       ]
     ]
   },
@@ -279,145 +279,68 @@
     {
       "name": "Little Falls",
       "model": "town-blocks",
-      "at": 0.31477094010687046,
+      "at": 0.3145954883062862,
       "offset": "roadside",
       "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Nobleboro",
       "model": "town-blocks",
-      "at": 0.6995083225861741,
+      "at": 0.6996758151947514,
       "offset": "roadside",
-      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Speculator",
       "model": "town-blocks",
       "at": 1,
       "offset": "roadside",
-      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 4; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
     {
-      "model": "hardwood",
-      "at": 0.0875,
-      "side": -1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.09949999999999999,
-      "side": -1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.11149999999999999,
-      "side": -1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.3375,
+      "model": "river",
+      "at": 0.5,
       "side": 1,
       "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.34950000000000003,
-      "side": 1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.36150000000000004,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5875,
-      "side": -1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.5995,
-      "side": -1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.6115,
-      "side": -1,
-      "distance": 1.5,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8375,
-      "side": 1,
-      "distance": 0.8,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8495,
-      "side": 1,
-      "distance": 1.15,
-      "scale": 1.05
-    },
-    {
-      "model": "hardwood",
-      "at": 0.8615,
-      "side": 1,
-      "distance": 1.5,
-      "scale": 1.05
+      "scale": 1
     }
   ],
   "towns": [
     {
       "name": "Herkimer",
-      "at": 0.011892450879007237,
+      "at": 0.011880165289256197,
       "landmark": ""
     },
     {
       "name": "Fairfield",
-      "at": 0.11799379524301964,
+      "at": 0.11787190082644629,
       "landmark": ""
     },
     {
       "name": "Little Falls",
-      "at": 0.31478800413650465,
+      "at": 0.31446280991735537,
       "landmark": "Little Falls"
     },
     {
       "name": "Newport",
-      "at": 0.4577042399172699,
+      "at": 0.4577479338842976,
       "landmark": ""
     },
     {
       "name": "Nobleboro",
-      "at": 0.6995863495346433,
+      "at": 0.6993801652892563,
       "landmark": "Nobleboro"
     },
     {
       "name": "Hoffmeister",
-      "at": 0.778593588417787,
+      "at": 0.7784090909090908,
       "landmark": ""
     },
     {
       "name": "Higgins Bay",
-      "at": 0.8847983453981386,
+      "at": 0.884400826446281,
       "landmark": ""
     }
   ],

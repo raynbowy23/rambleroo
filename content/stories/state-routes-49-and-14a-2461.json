@@ -1,39 +1,20 @@
 {
   "id": "state-routes-49-and-14a-2461",
-  "tagline": "Stone-walled hilltop farms, at a speed limit the state kept.",
+  "tagline": "Stone-walled hilltop farms and forest along a road once numbered 95  ",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "Route 49 leaves Route 184 in North Stonington as Pendleton Hill Road and heads north into Voluntown. Past the town center it becomes Ekonk Hill Road, crosses the Pachaug River and runs through Pachaug State Forest, the largest in the state's system, before it ends on Sterling Hill and Route 14A carries on east.",
-    "The prize is the view from big hilltop farms fenced with stone walls, cattle grazing and corn growing tall. A 2003 plan for the corridor named its concerns as speed, stone walls and the scenery. North Stonington asked that year to bring the 45 mph limit down. The state said no."
+    "Routes 49 and 14A link hilltop farmland with a drive through Pachaug State Forest. The Federal Highway Administration highlights the views from farms marked by stone walls, grazing cattle and cornfields. Route 49 has two designated scenic sections: one north from Route 184 toward Voluntown, and another from the Voluntown boat launch to Sterling.",
+    "This road once carried the number 95. Assigned that number in 1932, it extended east to the Rhode Island line in 1950. Interstate 95’s designation in 1958 created a numbering conflict, so the older road became Route 49. The creation of Route 14A in 1963 moved Route 49’s northern end to its present junction. A corridor management effort began in 2003 with speed, stone walls and scenery among its concerns. That October, the state refused North Stonington’s request to lower the speed limit from 45 mph to 35 and 30 mph.",
+    "From Sterling Hill on Route 14A, take Route 49 south along Ekonk Hill Road through the forest and across the Pachaug River. In Voluntown center, the road briefly shares Routes 165 and 138, then continues south as Westerly Road. In North Stonington, it becomes Pendleton Hill Road and reaches Route 184."
   ],
   "moments": [
     {
-      "title": "Voluntown",
-      "kind": "town",
-      "scene": "town",
-      "text": "The town takes its name from the colonial volunteers of King Philip's War, men who stayed to fight \"and went not away\".",
-      "at": [
-        -71.83333,
-        41.58333
-      ]
-    },
-    {
-      "title": "Pachaug State Forest",
-      "kind": "roadside",
-      "scene": "forest",
-      "text": "More than 27,000 acres along the Pachaug River, with an Atlantic white cedar swamp at Great Meadow and a boardwalk trail through a rhododendron sanctuary.",
-      "at": [
-        -71.88583,
-        41.60139
-      ]
-    },
-    {
       "title": "Sterling",
       "kind": "town",
-      "scene": "prairie",
-      "text": "Rochambeau's army marched through and camped here in 1781, coming from Narragansett Bay to join Washington on the Hudson.",
+      "scene": "town",
+      "text": "Sterling Hill’s church began as a town hall. The town voted to build it in 1797 and made it available to a Baptist congregation in 1812. It is now the Sterling Hill Baptist Church, with Greek Revival styling added in 1859. The village stands where Plainfield Pike meets Sterling Hill Road and Route 49. French troops camped overnight here in 1781 and again in 1782. Industrial development and the railroad bypassed the village during the nineteenth century. The historic district includes houses in Federal, Greek Revival and Italianate styles, clustered around those road junctions.",
       "at": [
         -71.81639,
         41.70222
@@ -41,11 +22,31 @@
       "motifs": [
         "rolling-ridges"
       ]
+    },
+    {
+      "title": "Pachaug State Forest",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Pachaug grew substantially during the Great Depression. Established in 1928, the forest acquired most of its land through later Depression-era purchases. Its parcels now cover more than 27,000 acres across six towns, making it Connecticut’s largest state forest. The Pachaug River runs through its center and gives it its name. Great Meadow’s Atlantic white cedar swamp earned National Natural Landmark status in 1973. Elsewhere, the Rhododendron Sanctuary Trail includes a wooden boardwalk section. Rhododendrons bloom in June and July along that sanctuary trail, in the Herman Haupt Chapman Management Area of the forest.",
+      "at": [
+        -71.88583,
+        41.60139
+      ]
+    },
+    {
+      "title": "Voluntown",
+      "kind": "town",
+      "scene": "town",
+      "text": "Voluntown’s name refers to colonial volunteers in King Philip’s War in 1675. Lieutenant Thomas Leffingwell helped secure legislative approval for the town and surveyed its original layout. The modern road changes names here: Route 49 is Ekonk Hill Road north of the center and Westerly Road to the south. Between them, it shares Routes 165 and 138 through town. On Ekonk Hill Road, the Wylie School preserves another part of town history. Used until 1939, it is Voluntown’s only surviving district school building, with two matching entrances leading toward a single schoolroom.",
+      "at": [
+        -71.83333,
+        41.58333
+      ]
     }
   ],
   "sources": [
     {
-      "label": "FHWA America's Byways, State Routes 49 & 14A",
+      "label": "Federal Highway Administration, State Routes 49 & 14A",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2461"
     },
     {
@@ -53,8 +54,8 @@
       "url": "https://en.wikipedia.org/wiki/Connecticut_Route_49"
     },
     {
-      "label": "Wikipedia, Connecticut Route 14",
-      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_14"
+      "label": "Wikipedia, Sterling Hill Historic District (Plainfield and Sterling, Connecticut)",
+      "url": "https://en.wikipedia.org/wiki/Sterling_Hill_Historic_District_%28Plainfield_and_Sterling%2C_Connecticut%29"
     },
     {
       "label": "Wikipedia, Pachaug State Forest",
@@ -62,13 +63,12 @@
     },
     {
       "label": "Wikipedia, Voluntown, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Voluntown,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/Voluntown%2C_Connecticut"
     },
     {
-      "label": "Wikipedia, Sterling, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Sterling,_Connecticut"
+      "label": "Wikipedia, Wylie School",
+      "url": "https://en.wikipedia.org/wiki/Wylie_School"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

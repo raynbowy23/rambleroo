@@ -1,16 +1,18 @@
 {
   "id": "southern-swamp-byway-992206",
-  "tagline": "Up out of the swamp to strawberry country, and back down.",
+  "tagline": "Swamp boardwalks and railroad towns trace changing routes through Louisiana.",
   "intro": [
-    "From Sorrento the byway heads north through small communities where fishing, hunting and trapping are still a way of life, and climbs to higher ground between Springfield and Ponchatoula, often called the Strawberry Capital of the World. Then old US 51 turns south across the Manchac swamp to Manchac on Lake Maurepas, where people come from all around for the catfish at Middendorf's, and runs about 17 more miles to LaPlace.",
-    "Springfield goes back to the 18th century, when it grew up at about the head of navigation on the Natalbany River, and bricks from an old Spanish fort can still be found about 200 yards in front of the post office."
+    "Acy on Louisiana Highway 22 has woodlands and pastures beside swampland. Farther along the regional journey, Clio occupies the east bank of the Amite River, almost enclosed by swamps. At Ponchatoula, Highway 22 becomes Pine Street, lined with antique shops.",
+    "Water once determined Springfield’s connections: the Natalbany River, Lake Maurepas, Lake Pontchartrain and Bayou Saint John linked it to New Orleans. The railroad completed in 1854 bypassed Springfield and took away its transport role. Ponchatoula grew beside that new railway, with a depot near the first dry land north of the Manchac swamp. Hundreds of refrigerated cars later carried its strawberries to northern markets each spring.",
+    "For the journey’s swamp landscapes, Tickfaw State Park lies seven miles west of Springfield. South of Ponchatoula, Joyce Wildlife Management Area extends east of old Highway 51. Frenier, near LaPlace, is a ghost town destroyed by the hurricane of 1915. Its former rail connection carried sauerkraut as far as Chicago."
   ],
   "moments": [
     {
       "title": "Tickfaw State Park",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "West of Springfield, trails and more than a mile of boardwalk go through cypress-tupelo swamp and bottomland hardwoods to the Tickfaw River, where canoes are for rent.",
+      "text": "Four ecosystems meet within Tickfaw State Park: cypress-tupelo swamp, bottomland hardwood forest, mixed pine hardwood forest and the Tickfaw River. Trails and more than a mile of boardwalks lead through this varied landscape. Much of the 1,200-acre park occupies the river’s floodplain and floods periodically. Opened in May 1999, the park lies seven miles west of Springfield. Its habitats support alligators, beavers and white-tailed deer; Carolina anoles and skinks are frequently seen beside the boardwalks. About 560 acres west of the river remain undeveloped, and the park is included on the Louisiana Natural Areas Registry.",
+      "notice": "Boardwalks pass through cypress-tupelo swamp and forests beside the Tickfaw River.",
       "at": [
         -90.6313,
         30.3822
@@ -20,7 +22,7 @@
       "title": "Joyce Wildlife Management Area",
       "kind": "short walk",
       "scene": "forest",
-      "text": "South of Ponchatoula a boardwalk leads out into the swamp, and the tract takes in 100 acres of old Ponchatoula cypress that a 1950s mayor kept from the clear-cutters.",
+      "text": "The Swamp Walk began in 1990 as a boardwalk entering Joyce Wildlife Management Area from its northwest corner. The protected area grew through donations and purchases, including 12,809 acres donated by the Joyce Foundation in 1982. A 2008 addition included 100 acres of ancient Ponchatoula cypress saved from clear-cutting by mayor John Jacob Dahmer. Hurricane Isaac severely damaged the walk; reconstruction was completed by January 21, 2015. Flooding caused another temporary closure in 2016. The area sits northeast of Lake Maurepas, with the Tangipahoa River running through its eastern side and Pass Manchac to the south.",
       "at": [
         -90.3825,
         30.36861111
@@ -30,7 +32,7 @@
       "title": "Frenier",
       "kind": "roadside",
       "scene": "forest",
-      "text": "Frenier has been a ghost town since the hurricane of 1915, which by legend struck during the funeral of Julia Brown, who had sung that when she died she would take the whole town.",
+      "text": "Before Frenier became a ghost town, its families shipped sauerkraut to New Orleans and Chicago. The settlement had once been called Schlösser after Martin, a German immigrant; more German settlers followed until the village held over twenty-five families. Martin and Adam Schlösser first harvested timber, then turned to farming as competition in lumber grew. The New Orleans, Jackson, and Great Northern Railroad arrived in 1854, giving their produce a route north. On September 29, 1915, a hurricane destroyed Frenier. Twenty-five people sheltering in the railroad depot died when it collapsed.",
       "at": [
         -90.42666667,
         30.1075
@@ -39,16 +41,24 @@
   ],
   "sources": [
     {
-      "label": "Louisiana Office of Tourism, Southern Swamp Byway (Wayback Machine snapshot)",
-      "url": "https://web.archive.org/web/20250715031758/https://byways.explorelouisiana.com/byway/southern-swamp-byway"
+      "label": "Wikipedia, Tickfaw State Park",
+      "url": "https://en.wikipedia.org/wiki/Tickfaw_State_Park"
+    },
+    {
+      "label": "Wikipedia, Ponchatoula, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Ponchatoula%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Acy, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Acy%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Clio, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Clio%2C_Louisiana"
     },
     {
       "label": "Wikipedia, Springfield, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Springfield,_Louisiana"
-    },
-    {
-      "label": "Wikipedia, Tickfaw State Park",
-      "url": "https://en.wikipedia.org/wiki/Tickfaw_State_Park"
+      "url": "https://en.wikipedia.org/wiki/Springfield%2C_Louisiana"
     },
     {
       "label": "Wikipedia, Joyce Wildlife Management Area",
@@ -56,13 +66,8 @@
     },
     {
       "label": "Wikipedia, Frenier, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Frenier,_Louisiana"
-    },
-    {
-      "label": "Wikipedia, List of Louisiana Scenic Byways",
-      "url": "https://en.wikipedia.org/wiki/List_of_Louisiana_Scenic_Byways"
+      "url": "https://en.wikipedia.org/wiki/Frenier%2C_Louisiana"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

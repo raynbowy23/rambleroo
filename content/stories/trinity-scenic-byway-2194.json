@@ -1,19 +1,20 @@
 {
   "id": "trinity-scenic-byway-2194",
-  "tagline": "The river road keeps traces of its older course.",
+  "tagline": "Older roadbeds and bridges trace a mountain highway’s changing course.",
   "motifs": [
     "arch-bridge"
   ],
   "intro": [
-    "West from Shasta near Redding, Highway 299 passes Whiskeytown Lake before reaching the Trinity River country. Beyond Weaverville it follows the river through Junction City and the smaller settlements toward Willow Creek, then continues toward Blue Lake near Arcata.",
-    "The road has moved more than once to ease the mountain grades and make room for a reservoir. Old stretches remain beside the highway, with abandoned bridges visible from the newer line, including an arch from 1923. Some crossings have outlived the roads that needed them."
+    "The Trinity Scenic Byway follows Highway 299 west from Shasta, outside Redding, to Blue Lake near Arcata. The drive passes Whiskeytown Lake and follows the Trinity River through mountain country. Designated in October 1991, the byway carries the Forest Service theme “From the Valley Oaks to the Redwood Coast,” chosen to highlight plants and animals across its climate zones. Near Del Loma, the river passes steep terrain and dense forest. The National Forest Scenic Byway designation covers this western corridor, while SR 299 itself continues east across northern California to Nevada.",
+    "The highway has repeatedly changed course to ease mountain grades and curves and to make room for Whiskeytown Lake. The basin began filling in 1962; some Whiskeytown buildings moved uphill while others remained underwater. Elsewhere, old roadbeds remain visible beside SR 299, along with bypassed bridges, including an arch bridge dating to 1923. The Arcata-to-Alturas highway carried the US 299 number from 1934 to 1964.",
+    "From Shasta, head west past Whiskeytown Lake toward Douglas City and Weaverville. Beyond Weaverville, the river corridor links Junction City, Helena and Big Bar, then Del Loma, Burnt Ranch and Salyer. At Willow Creek, Highway 96 branches off; continue on 299 through Six Rivers National Forest toward Blue Lake."
   ],
   "moments": [
     {
       "title": "Whiskeytown",
       "kind": "town",
       "scene": "river",
-      "text": "The federal government refused the Whiskeytown name for the post office until 1952; ten years later the new lake began covering the town, and only some buildings were moved to higher ground.",
+      "text": "Whiskeytown was a Gold Rush mining settlement first called Whiskey Creek Diggings. The post office opened in 1856, but federal officials considered the town’s name inappropriate until agreeing to it in 1952. Ten years later, the basin began filling behind the new dam. Some buildings moved to higher ground; others remain underwater. The relocated store, a few residences and old mines above the water level are what remains of the mining settlement. The cemetery moved too: all graves were exhumed and transported uphill during dam construction. President John F. Kennedy dedicated the dam in 1963.",
       "at": [
         -122.561,
         40.6348
@@ -23,7 +24,7 @@
       "title": "Junction City",
       "kind": "town",
       "scene": "river",
-      "text": "At Junction City the Trinity turns northwest, past a settlement first called Milltown for the mills that worked here.",
+      "text": "At Junction City, the Trinity River heads northwest. The settlement began with a few cabins at the mouth of Canyon Creek in the 1850s. Its first name, Milltown, reflected the number of mills. Mining also reshaped the river: the Arkansas diversion dam upstream was removed in 1857 so miners could reach gold deposits beneath it. In 1861 it became Junction City for the transportation routes meeting at Canyon Creek and the Trinity River. SR 299 now runs through the middle of town. A centennial marker beside the Junction City store commemorates the community.",
       "at": [
         -123.05861111,
         40.74361111
@@ -33,7 +34,7 @@
       "title": "Willow Creek",
       "kind": "town",
       "scene": "river",
-      "text": "Where Highways 299 and 96 meet, Willow Creek gives the Bigfoot stories a home in a museum devoted to the creature.",
+      "text": "The town was formerly China Flat, a name associated with Chinese laborers from mining and lumber camps who settled here. Willow Creek sits along the Trinity River and has a Bigfoot Museum. Highways 299 and 96 meet here, with the latter leading toward the country associated with alleged sightings and footprint finds. The Bluff Creek / Fish Lake Road junction is about 50 miles north along Route 96. Willow Creek itself lies approximately 50 miles south of the Patterson-Gimlin filming location. The town’s annual Bigfoot Daze festival honors the cryptid.",
       "at": [
         -123.63138889,
         40.93944444
@@ -42,12 +43,16 @@
   ],
   "sources": [
     {
+      "label": "Wikipedia, California State Route 299",
+      "url": "https://en.wikipedia.org/wiki/California_State_Route_299"
+    },
+    {
       "label": "USDA Forest Service, Trinity Scenic Byway",
       "url": "https://www.fs.usda.gov/r05/shasta-trinity/recreation/trinity-scenic-byway"
     },
     {
-      "label": "Wikipedia, California State Route 299",
-      "url": "https://en.wikipedia.org/wiki/California_State_Route_299"
+      "label": "Wikipedia, Del Loma, California",
+      "url": "https://en.wikipedia.org/wiki/Del_Loma%2C_California"
     },
     {
       "label": "Wikipedia, Whiskeytown, California",
@@ -62,6 +67,5 @@
       "url": "https://en.wikipedia.org/wiki/Willow_Creek%2C_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

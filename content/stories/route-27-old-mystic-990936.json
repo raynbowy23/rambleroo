@@ -1,25 +1,38 @@
 {
   "id": "route-27-old-mystic-990936",
-  "tagline": "Up the Mystic River's east bank into Old Mystic.",
+  "tagline": "A riverside road follows the Mystic’s east bank into Old Mystic.",
   "intro": [
-    "North of Jerry Browne Road, Route 27 keeps close to the east bank of the Mystic River, with the water in view, and turns into Main Street through the village of Old Mystic before it ends at Route 184. The scenic part is short.",
-    "The river is a mostly tidal estuary that held three large shipbuilding firms in the 19th century. Its name comes from the Pequot missi-tuk, a large river driven into waves by tide or wind."
+    "Route 27 follows the east bank of the Mystic River between Mystic and Old Mystic. The state-designated scenic section runs from Jerry Browne Road in Stonington to Route 184 in Groton, closely paralleling the water and providing river views. It forms the northern end of a highway that begins at US 1 in Mystic. The river is an estuary where three large shipbuilding firms operated in the nineteenth century.",
+    "The riverside road was Highway 344 in the 1920s, then became Route 169 in the 1932 renumbering. Route 27 began elsewhere in 1950, following the Colonel Ledyard Highway to Route 184. The following year it absorbed the old Route 169 section through a short overlap with Route 184. In 1963, the portion north of Route 184 was removed, leaving the present route.",
+    "Approaching the scenic section from Mystic, the road passes Mystic Seaport and crosses I-95. North of the interstate it becomes Whitehall Avenue, then Main Street through Old Mystic. Old Mystic itself spans the towns of Groton and Stonington, while this highway ends on the Groton side. From Jerry Browne Road, follow the river toward the village; the drive finishes a short distance beyond at Route 184."
   ],
+  "notice": "The scenic section closely parallels the Mystic River, with views of the water.",
   "moments": [
     {
       "title": "Mystic River",
       "kind": "roadside",
       "scene": "river",
-      "text": "The road runs close alongside the river from Jerry Browne Road up toward the village, with the water in view."
+      "text": "Much of the Mystic River is tidal: this is a 3.4-mile estuary fed chiefly by Whitford Brook and emptying into Fishers Island Sound. It divides Mystic between Groton and Stonington. Three large shipbuilding firms operated along it in the nineteenth century; Mystic Seaport maritime museum now stands on the river. The Mystic River Historical Society traces the name to the Pequot missi-tuk, describing a large river driven into waves by tides or wind. Route 27’s scenic section follows the water closely enough to provide river views."
     },
     {
       "title": "Mystic Bank",
       "kind": "town",
       "scene": "town",
-      "text": "On Main Street stands a small brick Greek Revival bank, built in 1856 for a bank founded to serve the shipbuilders and later the town's meeting hall and polling place.",
+      "text": "At 39 Main Street, the former Mystic Bank presents three recessed arches beneath a pedimented gable. Rectangular windows fill the outer bays, with the entrance between them. The bank was founded in 1833 to serve local shipbuilders and the surrounding rural communities. It commissioned this brick building in 1856 as business expanded. Meanwhile, Mystic’s economic center had begun shifting south toward Mystic Bridge. After the bank closed, Stonington used the building for district meetings and voting. Those civic uses ended about 1960. The single-story building has a granite foundation and a gabled roof.",
+      "notice": "Rectangular windows and the central entrance sit within round-arched recesses beneath the bank’s pedimented gable.",
       "at": [
         -71.96,
         41.39027778
+      ]
+    },
+    {
+      "title": "B. F. Clyde's Cider Mill",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Benjamin F. Clyde sold cider before he owned a mill. He began in 1881, having other mills press it, then bought his own machinery in 1897 and had it installed in 1898. The historic Mystic mill uses steam power and steel construction, with a screw press. Ownership has passed through six generations of the family. In 1994, the American Society of Mechanical Engineers listed it as a Historic Mechanical Engineering Landmark.",
+      "at": [
+        -71.95393,
+        41.39903
       ]
     }
   ],
@@ -30,17 +43,20 @@
     },
     {
       "label": "Wikipedia, Mystic River (Connecticut)",
-      "url": "https://en.wikipedia.org/wiki/Mystic_River_(Connecticut)"
+      "url": "https://en.wikipedia.org/wiki/Mystic_River_%28Connecticut%29"
+    },
+    {
+      "label": "Wikipedia, Old Mystic, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Old_Mystic%2C_Connecticut"
     },
     {
       "label": "Wikipedia, Mystic Bank",
       "url": "https://en.wikipedia.org/wiki/Mystic_Bank"
     },
     {
-      "label": "Wikipedia, Old Mystic, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Old_Mystic,_Connecticut"
+      "label": "Wikipedia, B. F. Clyde's Cider Mill",
+      "url": "https://en.wikipedia.org/wiki/B._F._Clyde%27s_Cider_Mill"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

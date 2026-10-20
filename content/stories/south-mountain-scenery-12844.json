@@ -1,62 +1,72 @@
 {
   "id": "south-mountain-scenery-12844",
-  "tagline": "Out of the Piedmont farms and over the South Mountains.",
-  "motifs": [
-    "orchard"
-  ],
+  "tagline": "Across the South Mountains, from Marion’s rebuilt streets to Polkville",
   "intro": [
-    "NC 226 starts among the farms north of Shelby and runs 34 miles to Marion, leaving the rolling Piedmont for the mountains. Corn fields and apple orchards keep it company. At Polkville, in the First Broad River valley, the South Mountains come into view ahead, and the road goes over them.",
-    "Off to the southwest stands Cherry Mountain. It got its name from the cherry bounce brewed out of local cherries after the Civil War."
+    "South Mountain Scenery appears among North Carolina’s state scenic byways. NC 226 connects Marion and Polkville across the South Mountains, an old, deeply eroded range separated from the Blue Ridge by the Catawba River valley. Forests cover the mountains, where rivers and streams have carved narrow ridges and valleys.",
+    "At Marion, the approach begins in a town reshaped by fire. In November 1894, flames spread from a building behind the courthouse and destroyed most of Main Street. Rebuilding followed; the Main Street Historic District entered the National Register in 1991.",
+    "From Marion, follow NC 226 southeast across the mountains to Polkville. South Mountains State Park offers a separate mountain excursion, with High Shoals Falls dropping more than 80 feet over a cliff. At Polkville, NC 226 meets roads leading toward Lincolnton and Newton, then continues southeast toward Shelby."
   ],
   "moments": [
     {
-      "title": "Polkville",
+      "title": "Marion",
       "kind": "town",
-      "scene": "prairie",
-      "text": "A small Cleveland County town where three state highways meet, and where NC 226 sets off northwest over the South Mountains to Marion.",
+      "scene": "town",
+      "text": "Marion’s Main Street burned on a Sunday morning in November 1894. Fire began behind the courthouse in a building called the Ark, then spread through a downtown built largely of wood. Even the few brick buildings were gutted. With no public water supply, residents formed bucket brigades, but most of the street was destroyed. The city rebuilt. The Main Street Historic District, listed in 1991, includes the former Eagle Hotel, which survived the fire, and a public library originally built as a post office in 1937. St. Matthew’s Lutheran Church, built in 1935, adds river-rock walls, pointed lancet windows and flying buttresses to the district.",
+      "notice": "St. Matthew’s Lutheran Church has river-rock walls, lancet windows and flying buttresses.",
       "at": [
-        -81.64389,
-        35.41639
+        -82.00139,
+        35.6775
       ]
     },
     {
       "title": "South Mountains State Park",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "In a deeply eroded range the Cherokee once called the Oakanoahs, High Shoals Falls drops more than 80 feet down a sheer cliff into a deep pool.",
+      "text": "High Shoals Falls plunges more than 80 feet over a sheer cliff into a deep pool in South Mountains State Park. Water has shaped the wider range too: rivers and streams cut its narrow ridges and valleys. North Carolina bought 5,779 acres here in 1973, and the park was created in 1975. Botanist Bill Moye documented many of its rare and endangered plants, and his work helped expand the park. Much of the park remains undeveloped wilderness, within a heavily forested mountain range. The Catawba River valley separates these mountains from the Blue Ridge chain to the west.",
       "motifs": [
         "waterfall-cove"
       ]
     },
     {
-      "title": "Marion",
+      "title": "Polkville",
       "kind": "town",
-      "scene": "town",
-      "text": "Main Street was mostly wood until a Sunday morning fire in November 1894 burned it nearly to the ground, and the rebuilt downtown is now on the National Register.",
+      "scene": "prairie",
+      "text": "Three state highways meet at Polkville. NC 226 links the town with Marion across the South Mountains and Shelby to the southeast; NC 182 heads east toward Lincolnton, while NC 10 leads northeast toward Newton. Near town, the John Lattimore House records an earlier pattern of building. A one-room log structure from the early 19th century gained a frame addition, a full-length porch and rear shed rooms in the 1820s or 1830s. The house rests on fieldstone piers beneath a gable roof. The house entered the National Register in 1982, after the early log core and later additions became a single dwelling.",
       "at": [
-        -82.00139,
-        35.6775
+        -81.64389,
+        35.41639
       ]
     }
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, South Mountain Scenery",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=82"
-    },
-    {
       "label": "Wikipedia, Polkville, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Polkville,_North_Carolina"
-    },
-    {
-      "label": "Wikipedia, South Mountains (North Carolina)",
-      "url": "https://en.wikipedia.org/wiki/South_Mountains_(North_Carolina)"
+      "url": "https://en.wikipedia.org/wiki/Polkville%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Marion, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Marion,_North_Carolina"
+      "url": "https://en.wikipedia.org/wiki/Marion%2C_North_Carolina"
+    },
+    {
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways, Fifth Edition",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=82"
+    },
+    {
+      "label": "Wikipedia, South Mountains (North Carolina)",
+      "url": "https://en.wikipedia.org/wiki/South_Mountains_%28North_Carolina%29"
+    },
+    {
+      "label": "Wikipedia, Main Street Historic District (Marion, North Carolina)",
+      "url": "https://en.wikipedia.org/wiki/Main_Street_Historic_District_%28Marion%2C_North_Carolina%29"
+    },
+    {
+      "label": "Wikipedia, St. Matthew's Lutheran Church",
+      "url": "https://en.wikipedia.org/wiki/St._Matthew%27s_Lutheran_Church"
+    },
+    {
+      "label": "Wikipedia, John Lattimore House",
+      "url": "https://en.wikipedia.org/wiki/John_Lattimore_House"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

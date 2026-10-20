@@ -1,19 +1,40 @@
 {
   "id": "the-ridge-scenic-highway-71115",
-  "tagline": "Along old sand islands, through a town that was not frostproof.",
+  "tagline": "A winding ridge road through citrus country and Florida hill towns",
   "motifs": [
     "orchard"
   ],
   "intro": [
-    "SR 17, called Scenic Highway by the people who live on it, leaves US 27 south of Frostproof and winds 38.7 miles north along the Lake Wales Ridge to Haines City, through Babson Park, Lake Wales, Dundee and Lake Hamilton, past lakes and citrus fields.",
-    "The ridge is what is left of a chain of sand islands from two million years ago, when water covered nearly all of Florida, and its white sand still shows in the neighborhoods. Babson Park was Crooked Lake until the economist Roger Babson bought about 400 acres there in 1923 and the town took his name."
+    "SR 17 winds through the hills of the Lake Wales Ridge, linking lakes, citrus fields and historic town centers. The Ridge Scenic Highway extends 38.7 miles between Haines City and US 27 south of Frostproof. Designated in 2005, the byway is presented by Florida Scenic Highways as a journey through rural agricultural Central Florida, with access to lakes and natural areas. The ridge itself preserves remnants of ancient sand islands, with white sand visible in neighborhoods built along it. Its landscape includes scrub, flatwoods, wetlands and lakes.",
+    "The road acquired its SR 17 number in the statewide renumbering of 1945. When US 27 was extended south to Miami in 1948, much of its planned alignment between Haines City and Sebring had yet to be built. Much of SR 17 therefore carried the temporary US 27 designation until the new alignment was completed in the late 1950s. Parts then became US 27 Alternate; that designation was removed between the Frostproof area and Haines City in 1998.",
+    "Traveling south from Haines City, the corridor passes Lake Hamilton and Dundee before reaching Lake Wales, with Bok Tower Gardens north of downtown. Continue through Babson Park and Hillcrest Heights to Frostproof, then to the junction with US 27."
   ],
   "moments": [
+    {
+      "title": "Bok Tower Gardens",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "Bok Tower began with a practical job as well as a musical one. By 1925, Edward Bok had decided to replace his bird sanctuary’s water tower with a stone tower holding both water and bells. The 60-bell carillon occupies the top, while tanks elsewhere in the structure supplied irrigation for the gardens. Frederick Law Olmsted Jr. had been commissioned to transform the dry sandhill; trenches, pipes and imported soil preceded the planting. The 205-foot tower combines pink and gray marble with coquina stone, and its architectural sculpture depicts Florida plants and animals.",
+      "at": [
+        -81.5775,
+        27.93533
+      ]
+    },
+    {
+      "title": "Spook Hill",
+      "kind": "roadside",
+      "scene": "town",
+      "text": "At Spook Hill in Lake Wales, cars appear to roll uphill: the attraction is an optical illusion known as a gravity hill. Its setting is the Lake Wales Ridge, a range of sand and limestone hills that formed islands when sea levels were higher two to three million years ago. The attraction stands beside Spook Hill Elementary School, which adopted Casper the Friendly Ghost as its mascot. In 2019, Spook Hill joined the National Register of Historic Places.",
+      "at": [
+        -81.582,
+        27.912
+      ]
+    },
     {
       "title": "Frostproof",
       "kind": "town",
       "scene": "town",
-      "text": "J.W. Carson scratched out Lakemont on the post office application and wrote Frostproof, a promise to would-be landowners that the Great Freeze of 1894 and 1895 broke.",
+      "text": "The name Frostproof was chosen to persuade prospective landowners that frost would never destroy the community’s citrus economy. Then the Great Freeze of 1894 and 1895 killed most of the citrus here. The town lies between Lake Clinch and Lake Reedy, with its historic downtown district running along Wall Street between the two lakes. The community incorporated as a town in 1918 and became the City of Frostproof in 1960. Rail service arrived in 1912; the historic Atlantic Coast Line depot dates from that year. The Ramon Theater, built in 1925, continues to host live entertainment.",
       "at": [
         -81.52528,
         27.74917
@@ -21,32 +42,16 @@
       "motifs": [
         "orchard"
       ]
-    },
-    {
-      "title": "Spook Hill",
-      "kind": "roadside",
-      "scene": "town",
-      "text": "On this gravity hill in Lake Wales cars appear to roll uphill, the doing, by one local tale, of a chief and a giant alligator who killed each other here.",
-      "at": [
-        -81.582,
-        27.912
-      ]
-    },
-    {
-      "title": "Bok Tower Gardens",
-      "kind": "separate excursion",
-      "scene": "forest",
-      "text": "Edward Bok had Frederick Law Olmsted Jr. turn a dry sandhill on Iron Mountain into gardens around a 205-foot carillon tower, and flamingos were tried there more than once.",
-      "at": [
-        -81.5775,
-        27.93533
-      ]
     }
   ],
   "sources": [
     {
-      "label": "Ridge Scenic Highway",
+      "label": "Polk Transportation Planning Organization, Ridge Scenic Highway",
       "url": "https://www.ridgescenichighway.com/"
+    },
+    {
+      "label": "Wikipedia, Florida State Road 17",
+      "url": "https://en.wikipedia.org/wiki/Florida_State_Road_17"
     },
     {
       "label": "Florida Scenic Highways, The Ridge Scenic Highway",
@@ -57,22 +62,17 @@
       "url": "https://en.wikipedia.org/wiki/Lake_Wales_Ridge"
     },
     {
-      "label": "Wikipedia, Babson Park, Florida",
-      "url": "https://en.wikipedia.org/wiki/Babson_Park,_Florida"
-    },
-    {
-      "label": "Wikipedia, Frostproof, Florida",
-      "url": "https://en.wikipedia.org/wiki/Frostproof,_Florida"
+      "label": "Wikipedia, Bok Tower Gardens",
+      "url": "https://en.wikipedia.org/wiki/Bok_Tower_Gardens"
     },
     {
       "label": "Wikipedia, Spook Hill",
       "url": "https://en.wikipedia.org/wiki/Spook_Hill"
     },
     {
-      "label": "Wikipedia, Bok Tower Gardens",
-      "url": "https://en.wikipedia.org/wiki/Bok_Tower_Gardens"
+      "label": "Wikipedia, Frostproof, Florida",
+      "url": "https://en.wikipedia.org/wiki/Frostproof%2C_Florida"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,49 +1,44 @@
 {
   "id": "rich-mountain-backway-10355",
-  "tagline": "Over the mountain on gravel, the way the turnpike went.",
+  "tagline": "Gravel curves cross the mountain where armies contested a turnpike",
   "intro": [
-    "Out of Beverly, the oldest settlement in the Tygart Valley, Rich Mountain Road climbs west on the line of the old Staunton-Parkersburg Turnpike. About five miles over the mountain are still gravel, twisting with the contour at a 19th-century pace. At the top of the pass is the battlefield. Then the road drops past Camp Garnett and runs out through Mabie toward Coalton.",
-    "The fight up here on July 11, 1861 gave the Union its hold on western Virginia for most of the war, the first step toward a separate West Virginia."
+    "Rich Mountain Backway follows the mountain’s contours through twists and turns, with about five miles still surfaced in gravel. The Federal Highway Administration gives the 12.5-mile backway a driving estimate of 30–40 minutes and presents it as a way to understand the difficult terrain of the original Staunton-Parkersburg Turnpike. At the pass, interpretive trails connect the battlefield, Hart house site and veterans’ rock carvings; earthworks remain on the western slope.",
+    "The turnpike reached Beverly in 1841, helping the town develop as a regional transport and trading center. When the Civil War began, the road linked Virginia’s heartland with its western counties. Confederate Camp Garnett controlled the turnpike in early summer 1861. On July 10–11, William Rosecrans led a Union brigade along a mountain path to seize the road behind the Confederate position. Beverly’s transport prominence later shifted: in 1899 it lost the county seat to Elkins, a developing railroad and timber center.",
+    "From the Coalton-Pumpkintown Road end, travel through Mabie, where Roaring Creek Flats held the Union encampment. Camp Garnett lies on the west side of the mountain, below the battlefield at the pass. The eastern descent ends in Beverly, five miles from the battlefield."
   ],
   "moments": [
     {
-      "title": "Rich Mountain Battlefield",
-      "kind": "short walk",
-      "scene": "mountain",
-      "text": "A local boy, David Hart, led a Union brigade around through the woods for an offered hundred dollars in gold, and the fighting came down on his own family's farm.",
+      "title": "Mabie",
+      "kind": "town",
+      "scene": "river",
+      "text": "The rolling hills beside the creek at Mabie mark Roaring Creek Flats, where Union troops camped before the Rich Mountain attack. The original Staunton and Parkersburg Turnpike crosses the community before climbing Rich Mountain. Mabie was first named Roaring Creek for the stream running through it. Its later name came from W. H. Mabie, who built a sawmill here in 1897. Timber and mineral resources drew newcomers, and a twelve-foot coal seam was discovered in 1876. The community lies 1.5 miles southwest of Womelsdorf, also called Coalton, whose alternative name reflects local mining operations.",
       "at": [
-        -79.93389,
-        38.86611
+        -79.98306,
+        38.87639
       ]
     },
     {
       "title": "Camp Garnett",
       "kind": "short walk",
       "scene": "forest",
-      "text": "A mile and a half down the west side, trails lead to the earthworks of the Confederate camp that held the turnpike in the early summer of 1861."
+      "text": "Camp Garnett’s surviving earthworks mark the Confederate position that controlled the turnpike in early summer 1861. The camp lies 1.5 miles west of the main battlefield, at the bottom of the mountain. Interpretive trails lead to the defenses. A hiking trail also connects the camp with Field of Fire Park just to its west.",
+      "notice": "The defensive earthworks remain visible at Camp Garnett."
     },
     {
-      "title": "Mabie",
-      "kind": "town",
-      "scene": "prairie",
-      "text": "The rolling ground along Roaring Creek was the Union camp the attack set out from, beside a town later renamed for W. H. Mabie, who built a sawmill there in 1897.",
+      "title": "Rich Mountain Battlefield",
+      "kind": "short walk",
+      "scene": "mountain",
+      "text": "The Hart family’s farm stood at the top of Rich Mountain, where most of the fighting took place on July 11, 1861. David Hart guided Rosecrans’ Union brigade through the woods toward the rear of the Confederate lines. The attack reached his family’s farm. The site includes interpretive signs, a half-mile walking trail and the remains of the family’s spring house. Soldiers carved graffiti here; the federal byway description also identifies veterans’ rock carvings along the interpretive trails. The Rich Mountain Battlefield Foundation owns and protects both the battlefield and Camp Garnett, preserving the two positions connected by the turnpike.",
       "at": [
-        -79.98306,
-        38.87639
+        -79.93389,
+        38.86611
       ]
     }
   ],
-  "practical": [
-    "About five miles over the mountain are gravel, twisting with the contour."
-  ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Rich Mountain Backway",
+      "label": "Federal Highway Administration, Rich Mountain Backway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/byway/10355"
-    },
-    {
-      "label": "Beverly Heritage Center, Rich Mountain Battlefield",
-      "url": "https://beverlyheritagecenter.org/rich-mountain-battlefield/"
     },
     {
       "label": "Wikipedia, Battle of Rich Mountain",
@@ -51,13 +46,20 @@
     },
     {
       "label": "Wikipedia, Beverly, West Virginia",
-      "url": "https://en.wikipedia.org/wiki/Beverly,_West_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Beverly%2C_West_Virginia"
+    },
+    {
+      "label": "Beverly Heritage Center, Rich Mountain Battlefield",
+      "url": "https://beverlyheritagecenter.org/rich-mountain-battlefield/"
     },
     {
       "label": "Wikipedia, Mabie, West Virginia",
-      "url": "https://en.wikipedia.org/wiki/Mabie,_West_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Mabie%2C_West_Virginia"
+    },
+    {
+      "label": "Wikipedia, Womelsdorf (Coalton), West Virginia",
+      "url": "https://en.wikipedia.org/wiki/Womelsdorf_%28Coalton%29%2C_West_Virginia"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

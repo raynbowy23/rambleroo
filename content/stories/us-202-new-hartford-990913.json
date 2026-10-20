@@ -1,19 +1,20 @@
 {
   "id": "us-202-new-hartford-990913",
-  "tagline": "Across southern New Hartford, where the Nepaug meets its reservoir.",
+  "tagline": "Across rural New Hartford to the Nepaug River and reservoir",
   "motifs": [
     "lake-wide"
   ],
   "intro": [
-    "US 202 crosses the southern part of New Hartford for about five miles to the Canton line, in a mostly rural town of farms, homes and parks. The road was Route 4, and later Route 25, before US 202 took it over in 1974.",
-    "The road's main event is water. The Nepaug River runs down to the US 202 bridge and there enters the Nepaug Reservoir, about two miles long and a mile wide, made by the Nepaug Dam and managed by the Metropolitan District Commission."
+    "US 202 crosses New Hartford on its way from Torrington to Canton, through a town of farms, homes and parks. Connecticut’s scenic-road inventory identifies the stretch ending at the Canton line as Scenic Road 59. At the Nepaug River bridge, the river enters the northwest corner of the Nepaug Reservoir.",
+    "This part of US 202 has carried three route numbers. The road from Torrington to Canton was Route 4 until that route shifted south in 1963. Route 25 then extended to Canton, before US 202 moved onto its present alignment in 1974.",
+    "Traveling east, the scenic stretch begins 0.20 mile north of East Cotton Hill Road and ends at the New Hartford–Canton line. Between Bakerville and Nepaug, Route 219 branches north toward New Hartford Center. The Nepaug crossing brings the drive to a reservoir managed by the Metropolitan District Commission. Beyond New Hartford, US 202 continues into Canton and crosses the Farmington River."
   ],
   "moments": [
     {
       "title": "Gillette's Grist Mill",
       "kind": "separate excursion",
       "scene": "river",
-      "text": "Off Maple Hollow Road on the Nepaug stands a rare grist mill that still has its water wheel and iron gears of about 1870, though it stopped grinding by 1880.",
+      "text": "Gillette’s Grist Mill retains the machinery that turned moving water into ground grain. On the north bank of the Nepaug, west of the Maple Hollow Road crossing, the wooden building sits on a high stone foundation containing a wheel pit. The surviving equipment appears to date to about 1870: a water wheel and iron gears connected to the grindstone drive shafts. Joseph Gillette’s children acquired the mill in 1840, but it struggled as milling grew larger and more regional. It had shut down by 1880; portions of the water raceways survive. The barnlike building remains the only industrial survivor among a cluster of houses.",
       "at": [
         -73.02472222,
         41.83833333
@@ -26,30 +27,51 @@
       "title": "Nepaug River bridge",
       "kind": "roadside",
       "scene": "river",
-      "text": "Paddlers run Class I and II water down the Nepaug as far as this bridge, where the river slides into the northwest corner of the reservoir.",
+      "text": "At the US 202 bridge, the Nepaug River enters the reservoir’s northwest corner. Upstream, the paddling run from Dings Road has Class I–II whitewater. The Nepaug Dam created the reservoir, which the Metropolitan District Commission manages. The lake is approximately two miles long north to south and approximately one mile wide east to west. Water continues beyond the dam: the final stretch of the Nepaug carries overflow east to the Farmington River at Collinsville.",
       "motifs": [
         "lake-wide"
+      ]
+    },
+    {
+      "title": "Nepaug State Forest",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "The blue-blazed Tunxis Trail crosses Nepaug State Forest, which lies primarily in New Hartford. The forest offers hiking and biking, as well as cross-country skiing. Trails including the Tunxis can be reached from Satan’s Kingdom Road, south of the Route 44 bridge over the Farmington River.",
+      "at": [
+        -72.9575,
+        41.83777778
       ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, U.S. Route 202 in Connecticut",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_202_in_Connecticut"
-    },
-    {
       "label": "Wikipedia, New Hartford, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/New_Hartford,_Connecticut"
+      "url": "https://en.wikipedia.org/wiki/New_Hartford%2C_Connecticut"
     },
     {
       "label": "Wikipedia, Nepaug River",
       "url": "https://en.wikipedia.org/wiki/Nepaug_River"
     },
     {
+      "label": "Wikipedia, U.S. Route 202 in Connecticut",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_202_in_Connecticut"
+    },
+    {
+      "label": "Connecticut Department of Transportation, Roadway Classification and Characteristic Data: Scenic Roads",
+      "url": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
       "label": "Wikipedia, Gillette's Grist Mill",
       "url": "https://en.wikipedia.org/wiki/Gillette%27s_Grist_Mill"
+    },
+    {
+      "label": "Wikipedia, Nepaug State Forest",
+      "url": "https://en.wikipedia.org/wiki/Nepaug_State_Forest"
+    },
+    {
+      "label": "Wikipedia, Satan's Kingdom State Recreation Area",
+      "url": "https://en.wikipedia.org/wiki/Satan%27s_Kingdom_State_Recreation_Area"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -1,20 +1,41 @@
 {
   "id": "route-33-wilton-990917",
-  "tagline": "Out of Wilton center on the old ridge road.",
+  "tagline": "A ridge road links Wilton’s farming past with its meetinghouse center.",
   "motifs": [
     "steeple-town",
     "rolling-ridges"
   ],
   "intro": [
-    "Route 33, called Ridgefield Road here, leaves Wilton center and runs nearly five miles northwest to the Ridgefield line.",
-    "Wilton began in 1726 as a parish of Norwalk, forty families who wanted a church of their own, and a center grew up around their first meetinghouse. In 1802, over Norwalk's objections, it became a town by itself."
+    "Ridgefield Road carries Route 33 through Wilton toward Ridgefield, turning northwest and west before heading north across the town line. Connecticut DOT records the scenic section between Old Ridgefield Road and the Wilton–Ridgefield town line. The road passes through Wilton Center’s historic district, where the Congregational Church stands on Ridgefield Road.",
+    "Route 33 was commissioned in 1932 using parts of two highways numbered in the 1920s. Its northern end once reached the New York state line, but was shortened to Route 116 in 1967 and to Route 35 in 1978. Ridgefield Road’s settlement history reaches further back: it was among the ridges farmed by early non-Indigenous settlers in Wilton. Clearing those farms meant removing forest and glacial rocks; the rocks became stone boundary walls.",
+    "Coming south from Ridgefield, follow the scenic section toward Old Ridgefield Road in Wilton. At the Wilton end, the historic district lies largely along Ridgefield Road, with the church at number 70 and the Old Town Hall at number 69."
   ],
   "moments": [
+    {
+      "title": "Weir Farm National Historical Park",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "At Weir Farm, J. Alden Weir and his guests painted Ridgefield landscapes and the surrounding countryside. J. Alden Weir acquired a 153-acre farm in Ridgefield in 1882, exchanging a painting and $10 for the property. His daughter Dorothy managed it after his death in 1919; after their 1931 marriage, her husband, sculptor Mahonri Young, built a second studio. Preservation efforts followed a late-1980s subdivision of the farm for housing; the Trust for Public Land worked to reacquire the divided property. The property’s house and two artists’ studios underwent restoration and reopened to the public in May 2014.",
+      "at": [
+        -73.45472,
+        41.25806
+      ]
+    },
+    {
+      "title": "Ridgefield Road",
+      "kind": "roadside",
+      "scene": "forest",
+      "text": "Ridgefield Road was one of the ridges where Wilton’s early non-Indigenous settlers established farms, alongside settlements in the Norwalk River valley. Before they could till the land, farmers cleared forest and removed hundreds of glacial rocks, using them for stone boundary walls. In the nineteenth century, Wilton’s farmland supported dairy herds, horses and market crops, though farmers struggled with low yields from the rocky soil. The road now carries Route 33’s scenic section in Wilton. The numbered route dates to 1932, when parts of former state highways 304 and 176 were combined as Route 33.",
+      "motifs": [
+        "rolling-ridges"
+      ]
+    },
     {
       "title": "Wilton Center",
       "kind": "town",
       "scene": "town",
-      "text": "The second meetinghouse had fallen into disrepair in under sixty years, and the third, put up on Ridgefield Road in 1790, is now the oldest church building in Fairfield County.",
+      "text": "The Congregational Church at 70 Ridgefield Road is Wilton’s third meetinghouse, built in 1790. The first, built in 1726, gave the settlement a town center; by 1738 it was too small and was replaced. That second building deteriorated within sixty years, leading to the church that stands on Ridgefield Road. Wilton was still part of Norwalk when its parish formed in 1726; the Connecticut General Assembly granted it separate town government in 1802, despite Norwalk’s objections. The historic district also includes the 1832 Old Town Hall and original Congregational Church parsonage.",
+      "notice": "The 1790 Congregational Church stands at 70 Ridgefield Road.",
       "at": [
         -73.43888889,
         41.19527778
@@ -22,31 +43,33 @@
       "motifs": [
         "steeple-town"
       ]
-    },
-    {
-      "title": "Ridgefield Road",
-      "kind": "roadside",
-      "scene": "forest",
-      "text": "Early settlers farmed this ridge after clearing the forest and prying out hundreds of glacial rocks, which went into the stone walls Wilton still prizes.",
-      "motifs": [
-        "rolling-ridges"
-      ]
     }
   ],
   "sources": [
     {
-      "label": "Wikipedia, Connecticut Route 33",
-      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_33"
+      "label": "Wikipedia, Wilton, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Wilton%2C_Connecticut"
     },
     {
       "label": "Wikipedia, Wilton Center Historic District",
       "url": "https://en.wikipedia.org/wiki/Wilton_Center_Historic_District"
     },
     {
-      "label": "Wikipedia, Wilton, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Wilton,_Connecticut"
+      "label": "Wikipedia, Connecticut Route 33",
+      "url": "https://en.wikipedia.org/wiki/Connecticut_Route_33"
+    },
+    {
+      "label": "Connecticut Department of Transportation, Roadway Classification and Characteristic Data: Scenic Roads",
+      "url": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Wilton Center, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Wilton_Center%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Weir Farm National Historical Park",
+      "url": "https://en.wikipedia.org/wiki/Weir_Farm_National_Historical_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

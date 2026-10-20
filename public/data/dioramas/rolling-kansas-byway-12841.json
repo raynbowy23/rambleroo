@@ -277,11 +277,18 @@
   },
   "landmarks": [
     {
+      "name": "Millingport",
+      "model": "town-blocks",
+      "at": 0.4489466963367487,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
       "name": "Richfield",
       "model": "town-blocks",
       "at": 1,
       "offset": "roadside",
-      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
@@ -332,7 +339,7 @@
     {
       "name": "Millingport",
       "at": 0.4486238532110091,
-      "landmark": ""
+      "landmark": "Millingport"
     },
     {
       "name": "Richfield",

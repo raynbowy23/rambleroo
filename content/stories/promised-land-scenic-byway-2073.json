@@ -1,16 +1,17 @@
 {
   "id": "promised-land-scenic-byway-2073",
-  "tagline": "Along the Teche, names carry the migrations.",
+  "tagline": "Bayou settlements preserve changing names and an Acadian church’s later building.",
   "intro": [
-    "Out of Catahoula, just beyond the western boundary of the Atchafalaya Basin, the drive reaches St. Martinville on Bayou Teche. Swamp and prairie share the ground here. Farther along, Ruth and Gecko also stand by the bayou, while Cecilia carries a succession of names left by different languages.",
-    "St. Martinville once went by Petit Paris, for its good hotels and a French theater, the Duchamp Opera House, founded in 1830. The Evangeline Oak of Longfellow's poem is here too. Up the road, Cecilia remains one of the last strongholds of Cajun French in Louisiana."
+    "At the Catahoula end of this journey, the settlement lies outside the Atchafalaya River Basin’s western boundary. St. Martinville brings the journey to Bayou Teche, in terrain combining swamp and prairie.",
+    "St. Martinville grew from Poste des Atakapas, a trading post on the bayou. Acadians expelled by the British arrived in the area in 1765. That year, Father Jean-Louis de Civrey and Acadian refugees founded the church later known as Saint Martin of Tours. The present building followed in 1840.",
+    "From Catahoula, the town sequence leads to St. Martinville, then Ruth and Gecko, both on Bayou Teche. Gecko lies southwest of Cecilia, whose earlier names include La Punta and La Grande Pointe. The sequence finishes at Henderson in St. Martin Parish."
   ],
   "moments": [
     {
       "title": "Catahoula",
       "kind": "town",
       "scene": "river",
-      "text": "The settlement lies just outside the western boundary of the Atchafalaya River Basin.",
+      "text": "Catahoula sits outside the western boundary of the Atchafalaya River Basin, south of Henderson. The settlement is in St. Martin Parish.",
       "at": [
         -91.70888889,
         30.21472222
@@ -20,7 +21,7 @@
       "title": "Saint Martin of Tours Church",
       "kind": "short walk",
       "scene": "town",
-      "text": "Founded in 1765 with Acadian refugees, the parish built its present church after an 1820 act let the congregation raise the money by lottery.",
+      "text": "A lottery was authorized to fund a new church for a congregation founded by Acadian refugees. Father Jean-Louis de Civrey and the refugees founded the church in 1765, calling it l’Église des Attakapas. The legislature authorized the lottery in 1820; the present building was completed in 1840 and consecrated four years later. It began with a rectangular plan and Doric columns separating the nave from the side aisles. Expansion in the 1870s added transepts, a semicircular apse and a longer nave. The church stands at 133 South Main Street in Saint Martinville.",
       "at": [
         -91.82805556,
         30.12277778
@@ -30,7 +31,7 @@
       "title": "Cecilia",
       "kind": "town",
       "scene": "town",
-      "text": "Once called La Punta and La Grande Pointe, the community later shed La Place after its mail became confused with another town's.",
+      "text": "Cecilia has carried names in Spanish and French, and one that caused trouble for the mail. The Spanish name La Punta became La Grande Pointe in French. During the Civil War, the settlement was also called La Place, but postal confusion with LaPlace in St. John the Baptist Parish ended that usage. La Grande Pointe remained in use into contemporary times; the later name Cecilia honors the community’s first postal clerk. A 2013 study recorded Cajun French in daily use among 42.60 percent of residents, including 20.25 percent of children.",
       "at": [
         -91.85317,
         30.33714
@@ -38,10 +39,6 @@
     }
   ],
   "sources": [
-    {
-      "label": "Wikipedia, Catahoula, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Catahoula%2C_Louisiana"
-    },
     {
       "label": "Wikipedia, St. Martinville, Louisiana",
       "url": "https://en.wikipedia.org/wiki/St._Martinville%2C_Louisiana"
@@ -51,18 +48,25 @@
       "url": "https://en.wikipedia.org/wiki/Ruth%2C_Louisiana"
     },
     {
-      "label": "Wikipedia, Gecko, Louisiana",
-      "url": "https://en.wikipedia.org/wiki/Gecko%2C_Louisiana"
-    },
-    {
       "label": "Wikipedia, Cecilia, Louisiana",
       "url": "https://en.wikipedia.org/wiki/Cecilia%2C_Louisiana"
     },
     {
       "label": "Wikipedia, St. Martin of Tours Catholic Church (St. Martinville, Louisiana)",
       "url": "https://en.wikipedia.org/wiki/St._Martin_of_Tours_Catholic_Church_%28St._Martinville%2C_Louisiana%29"
+    },
+    {
+      "label": "Wikipedia, Catahoula, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Catahoula%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Gecko, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Gecko%2C_Louisiana"
+    },
+    {
+      "label": "Wikipedia, Henderson, Louisiana",
+      "url": "https://en.wikipedia.org/wiki/Henderson%2C_Louisiana"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

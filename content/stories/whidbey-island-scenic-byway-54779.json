@@ -1,21 +1,22 @@
 {
   "id": "whidbey-island-scenic-byway-54779",
-  "tagline": "Over the high bridge and down the island to the ferry.",
+  "tagline": "A high bridge, Penn Cove and farmland lead to the Clinton ferry.",
   "motifs": [
     "arch-bridge",
     "harbor-village"
   ],
   "intro": [
-    "From Fidalgo Island the highway crosses Deception Pass about 180 feet above the water and runs south the length of Whidbey Island to Coupeville on Penn Cove. Below Coupeville it becomes SR 525 and goes inland through Greenbank, turns along Holmes Harbor at Freeland and comes down to the ferry landing at Clinton.",
-    "Before the bridge there was a ferry with no timetable. Travelers called it by banging a saw with a mallet, then sat back to wait. The bridge was dedicated in 1935, and at the other end the Mukilteo boat takes about 20 minutes."
+    "The Whidbey Scenic Isle Way follows Routes 20 and 525 between Deception Pass and the Clinton ferry terminal. This Washington State Scenic and Recreational Highway links shoreline cliffs and forest at its northern gateway with Penn Cove and the farmland surrounding Greenbank. State of Washington Tourism presents the drive as a way to experience the island’s maritime character through beaches, lighthouse viewpoints and seaside towns. At Deception Pass, the bridge carries two lanes above the channel. Farther south, the route alternates between the island’s interior and the shore of Holmes Harbor.",
+    "Before the bridge, travelers crossing from Fidalgo Island used an unscheduled ferry, summoning it by striking a saw with a mallet. Construction began in August 1934, and the bridge was dedicated on July 31, 1935. Public Works Administration and county funds paid for the project. The highway numbers changed later: in 1973, Route 20 replaced the northern part of Route 525, leaving their junction south of Coupeville.",
+    "Heading south, cross Deception Pass to Oak Harbor, then continue toward Coupeville on Penn Cove. Below Coupeville, take Route 525 through Greenbank and along Holmes Harbor at Freeland. The road then crosses the island’s interior to Clinton, where the ferry links Whidbey with Mukilteo."
   ],
-  "season": "State of Washington Tourism says the route is open by road and ferry year-round, with summer the busiest and spring and fall often quieter.",
   "moments": [
     {
       "title": "Deception Pass",
       "kind": "roadside",
       "scene": "coast",
-      "text": "Two spans meet on Pass Island, an arch over Canoe Pass and a longer crossing over Deception Pass itself, where the current can run at nine knots underneath.",
+      "text": "Pass Island divides the crossing into two bridges: an arch over Canoe Pass and a longer span over Deception Pass. The roadway stands about 180 feet above the water, with the height varying by tide. Below it, the tidal current reverses between ebb and flood. Standing waves, whirlpools and eddies can be visible from the pedestrian walkways. The two channels have different structures: Canoe Pass has an arch, while the Deception Pass crossing combines cantilever spans with a suspended span. The Canoe Pass arch is on the north side of Pass Island, with the Deception Pass crossing to the south.",
+      "notice": "Pass Island separates the Canoe Pass arch from the longer Deception Pass span.",
       "at": [
         -122.64444,
         48.40639
@@ -28,7 +29,7 @@
       "title": "Coupeville",
       "kind": "town",
       "scene": "coast",
-      "text": "Captain Thomas Coupe laid out the town on Penn Cove in the 1850s, and he was the only man ever to sail a full-rigged ship through Deception Pass.",
+      "text": "Coupeville’s grain wharf gives the waterfront a direct link to the island’s farms. Built in 1905, it served grain exports from Whidbey Island. The town stands at the site of bəc̓adᶻali, meaning “snake place,” the largest of three Lower Skagit villages on Penn Cove. Captain Thomas Coupe laid out the town in the 1850s. Its historic district is now part of Ebey’s Landing National Historical Reserve, which includes cultivated prairie farms as well as the seaport community. Congress authorized the reserve in 1978; its boundaries encompass a mixture of federal, state, county and private property.",
       "at": [
         -122.67889,
         48.21917
@@ -41,7 +42,7 @@
       "title": "Greenbank",
       "kind": "town",
       "scene": "prairie",
-      "text": "SR 525 cuts straight through Greenbank, named for a homestead back in Delaware and home to Greenbank Farm and its big 1904 barn, once given over to loganberries.",
+      "text": "Greenbank Farm’s fields now hold trails, while its large historic 1904 barn hosts gatherings and seasonal markets. The former loganberry farm was saved from development when the Port of Coupeville agreed to buy the 151-acre property in 1997. A twenty-year bond payment accompanied the purchase, completed in 2017, and the port continues to operate the farm. Behind the barns, a small marsh has a viewing platform built by the Whidbey Audubon Society. The community itself takes its name from Calvin Philips’s homestead in Delaware, while Route 525 cuts through its center.",
       "at": [
         -122.57306,
         48.09806
@@ -58,22 +59,37 @@
       "url": "https://en.wikipedia.org/wiki/Deception_Pass_Bridge"
     },
     {
-      "label": "Wikipedia, Deception Pass",
-      "url": "https://en.wikipedia.org/wiki/Deception_Pass"
-    },
-    {
-      "label": "Wikipedia, Coupeville, Washington",
-      "url": "https://en.wikipedia.org/wiki/Coupeville,_Washington"
-    },
-    {
-      "label": "Wikipedia, Greenbank, Washington",
-      "url": "https://en.wikipedia.org/wiki/Greenbank,_Washington"
+      "label": "Wikipedia, Whidbey Scenic Isle Way",
+      "url": "https://en.wikipedia.org/wiki/Whidbey_Scenic_Isle_Way"
     },
     {
       "label": "Wikipedia, Washington State Route 525",
       "url": "https://en.wikipedia.org/wiki/Washington_State_Route_525"
+    },
+    {
+      "label": "Wikipedia, Whidbey Island",
+      "url": "https://en.wikipedia.org/wiki/Whidbey_Island"
+    },
+    {
+      "label": "Wikipedia, Deception Pass",
+      "url": "https://en.wikipedia.org/wiki/Deception_Pass"
+    },
+    {
+      "label": "Wikipedia, Coupeville grain wharf",
+      "url": "https://en.wikipedia.org/wiki/Coupeville_grain_wharf"
+    },
+    {
+      "label": "Wikipedia, Coupeville, Washington",
+      "url": "https://en.wikipedia.org/wiki/Coupeville%2C_Washington"
+    },
+    {
+      "label": "Wikipedia, Ebey’s Landing National Historical Reserve",
+      "url": "https://en.wikipedia.org/wiki/Ebey%27s_Landing_National_Historical_Reserve"
+    },
+    {
+      "label": "Wikipedia, Greenbank, Washington",
+      "url": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

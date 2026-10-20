@@ -1,20 +1,31 @@
 {
   "id": "route-207-hebron-to-sprague-990938",
-  "tagline": "Past the long green that ran a war, to the Shetucket.",
+  "tagline": "Between ponds and the Shetucket, a common and a cotton-mill village.",
   "motifs": [
     "steeple-town",
     "gristmill"
   ],
   "intro": [
-    "Route 207 leaves Route 85 in Hebron and runs sixteen miles east, between Williams and Brewster ponds, through the center of Lebanon and on through Franklin past Gages Pond, to end on the west bank of the Shetucket River at Baltic.",
-    "In the Revolution Lebanon was a base of American operations. Jonathan Trumbull, the only colonial governor to side with the Patriots, ran a Council of Safety here that met more than 1,100 times, mostly in his own house. The French horse of the duc de Lauzun wintered in town in 1780 and 1781, and Lauzun later wrote that only Siberia could give an idea of the place."
+    "Route 207 runs east from Hebron through Lebanon and Franklin to Baltic on the Shetucket River, passing ponds and Lebanon’s mile-long green. Connecticut’s transportation department records it as scenic road 74, from Route 85 to Route 97.",
+    "The numbered road first connected Lebanon center and Baltic as part of Highway 354, designated in 1922. That section became Route 207 in 1932. Westward extensions reached Exeter in 1935 and Hebron in 1940. Later changes addressed the drive itself: a Franklin section was rebuilt to improve its grade in 1961, and the eastern terminus moved to its present location in 1962. Those highway changes linked places with older histories. At Lebanon, the War Office and Jonathan Trumbull’s home had directed Connecticut’s Revolutionary War effort; farther east, Baltic developed beside a cotton mill on the Shetucket.",
+    "Starting at Route 85, the road heads into Lebanon, turns southeast between Williams and Brewster ponds, then east through the town center. The green’s grassy meadows face houses from the eighteenth and nineteenth centuries. Continue through Franklin past Gages Pond, then southeast into Sprague and east to Baltic. Route 207 ends on the river’s west bank."
   ],
   "moments": [
+    {
+      "title": "Hebron Center",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Hebron’s old green survives in pieces on either side of Main Street, divided by twentieth-century highway widening and realignment. At the junction of Routes 66 and 85, the village center has served the town’s civic life since incorporation in 1708. The green once held a colonial meetinghouse; a tavern, shop and gristmill followed. Nineteenth-century fires destroyed virtually all the village’s eighteenth-century buildings. Only a handful of early nineteenth-century houses survive. The historic district also includes churches and the Douglas Library, while war memorials occupy the surviving portions of the green. Highway changes have altered the common’s shape.",
+      "at": [
+        -72.36888889,
+        41.65722222
+      ]
+    },
     {
       "title": "Lebanon Green",
       "kind": "town",
       "scene": "town",
-      "text": "A mile of grassy common, a rare survivor from the 18th century and still partly farmed, with the 1730 War Office and the Trumbull houses facing it.",
+      "text": "Lebanon’s mile-long common remains partly in agricultural use. Its grassy meadows belong to a surviving eighteenth-century town common, but the civic buildings do not all share that age: the town hall, library and Congregational church are twentieth-century buildings. During the Revolution, Connecticut’s war effort was directed from the War Office and Governor Jonathan Trumbull’s adjacent home. The house itself moved several hundred feet in 1830 to its present site. French cavalry under the duc de Lauzun camped in Lebanon from November 1780 to June 1781, then rode toward White Plains, New York.",
       "at": [
         -72.21888889,
         41.64055556
@@ -27,7 +38,7 @@
       "title": "Baltic",
       "kind": "town",
       "scene": "river",
-      "text": "The village grew up around a cotton mill on the Shetucket, and nearly all of it is a historic district now, though fire took most of what was left of the mill in 1999.",
+      "text": "Baltic grew around a cotton mill on the Shetucket River, on land purchased by William Sprague III in 1856. After the first mill burned, Frederick Sayles bought the site and built a replacement that opened in 1899. Manufacturing continued until 1967; the property later served a mail-order operation. Fire destroyed the mill’s remains in 1999, leaving one critically damaged building. The historic district encompasses virtually the entire village, extending the story beyond the factory site. Listed on the National Register in 1987, the district includes 210 contributing structures across 122 acres, preserving the scale of the mill village.",
       "at": [
         -72.085,
         41.61722222
@@ -47,14 +58,25 @@
       "url": "https://en.wikipedia.org/wiki/Lebanon_Green_Historic_District"
     },
     {
-      "label": "Wikipedia, Lebanon, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Lebanon,_Connecticut"
+      "label": "Wikipedia, Baltic, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Baltic%2C_Connecticut"
     },
     {
-      "label": "Wikipedia, Baltic, Connecticut",
-      "url": "https://en.wikipedia.org/wiki/Baltic,_Connecticut"
+      "label": "Connecticut Department of Transportation, Scenic Roads: Roadway Classification and Characteristic Data",
+      "url": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json"
+    },
+    {
+      "label": "Wikipedia, Lebanon, Connecticut",
+      "url": "https://en.wikipedia.org/wiki/Lebanon%2C_Connecticut"
+    },
+    {
+      "label": "Wikipedia, Hebron Center Historic District",
+      "url": "https://en.wikipedia.org/wiki/Hebron_Center_Historic_District"
+    },
+    {
+      "label": "Wikipedia, John Trumbull Birthplace",
+      "url": "https://en.wikipedia.org/wiki/John_Trumbull_Birthplace"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

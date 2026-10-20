@@ -1,19 +1,20 @@
 {
   "id": "prince-william-county-byways-995103",
-  "tagline": "From a stone mill in the gap to the forest's edge.",
+  "tagline": "Six designated roads connect mill country, a courthouse village and forest.",
   "motifs": [
     "gristmill"
   ],
   "intro": [
-    "Prince William County's byways keep to its rural edge. In the northwest, Waterfall Road, Antioch Road and SR 55 run out to the county line at Thoroughfare Gap, where they meet the Fauquier County byways. Farther south, Aden Road, Bristow Road and Joplin Road go by way of Nokesville and Brentsville to Independent Hill and the edge of Prince William Forest Park, ending at I-95.",
-    "Brentsville was the county seat from 1820 to 1894, and it had a hard war. Union troops took parts of its courthouse apart to build other things."
+    "Prince William County’s byways form a network of six roads, connecting historic districts, battlefields and parkland. The state’s designation brief identifies nearby parks and connections to Fauquier County’s byways as reasons for choosing these corridors. The Prince William Conservation Alliance described mountain views and little visible development along the roads when the designation was announced.",
+    "The county Board of Supervisors requested byway status in December 2015 and January 2016. State transportation and conservation staff reviewed the corridors, and a public hearing followed in November. On December 7, 2016, the Commonwealth Transportation Board approved the designation unanimously, adding 39.4 miles to the system. The resolution called for protecting scenic integrity while allowing road improvements and maintenance. These were the county’s first Virginia Byways; Waterfall Road and John Marshall Highway connected the new designation with roads already recognized across the Fauquier County line.",
+    "In the northern group, follow Waterfall Road east from the Fauquier line, Antioch Road south, then John Marshall Highway back toward the county line and Thoroughfare Gap. The southern group uses Aden and Bristow roads between Route 28 and Route 619, with Joplin Road continuing toward I-95. Brentsville’s courthouse and Prince William Forest Park anchor that part of the journey."
   ],
   "moments": [
     {
       "title": "Beverley Mill",
       "kind": "roadside",
       "scene": "river",
-      "text": "A five-story stone mill straddling the county line in Thoroughfare Gap, where Broad Run drops 87 feet in 1,300, kept from I-66 in the 1960s when private citizens got the interstate routed around it.",
+      "text": "Broad Run drops 87 feet in its 1,300-foot passage through Thoroughfare Gap, providing the water power for Beverley Mill. The five-story rubble-stone mill straddles the Prince William and Fauquier county line. The mill’s position on two sides of a county boundary is no accident: it served as a landmark when Fauquier County was created. After an 1858 fire, enslaved workers rebuilt it and added two stories. In the 1960s, private citizens helped get I-66 routed past the mill without destroying it. Arson in 1998 destroyed the roof, floors and internal machinery.",
       "at": [
         -77.71083333,
         38.82444444
@@ -26,7 +27,8 @@
       "title": "Brentsville",
       "kind": "town",
       "scene": "town",
-      "text": "The old courthouse hamlet was laid out in 1822 with seventy lots, a court house, a clerk's office and a jail, and by 1835 had two taverns to go with them.",
+      "text": "Brentsville’s brick courthouse has a fanlight above its entrance and an octagonal-roofed cupola. The village was laid out in 1822 with seventy lots, a courthouse, clerk’s office and jail. By 1835, the courthouse village had two taverns, three stores, a nondenominational church and nineteen houses. During the Civil War, Union troops dismantled parts of the courthouse for use in other structures. The county seat later moved to Manassas in the 1890s, leaving the courthouse and jail abandoned. The restored courthouse now anchors an open-air museum owned and operated by the county’s Historic Preservation Division.",
+      "notice": "The courthouse entrance has a fanlight within a semicircular brick arch.",
       "at": [
         -77.49611111,
         38.68805556
@@ -36,7 +38,7 @@
       "title": "Prince William Forest Park",
       "kind": "separate excursion",
       "scene": "forest",
-      "text": "More than 13,000 acres of Piedmont forest, which in the Second World War was fenced in with barbed wire and used to train spies.",
+      "text": "Prince William Forest Park protects Eastern Piedmont forest and the Quantico Creek watershed. Its creation displaced communities: the Resettlement Administration bought 79 properties in Hickory Ridge and Batestown and condemned 48 more for a recreation area. During World War II, the Office of Strategic Services used the land to train spies and radio operators. Remnants of Joplin, Hickory Ridge and Batestown are among the park’s cultural resources. Trails follow Quantico Creek past small waterfalls or lead toward historic sites such as the pyrite mine. The park also preserves facilities, roads and lakes built by the Civilian Conservation Corps between 1936 and 1942.",
       "at": [
         -77.37972222,
         38.58527778
@@ -45,22 +47,29 @@
   ],
   "sources": [
     {
-      "label": "Commonwealth Transportation Board, Resolution on Virginia Byway designation, Prince William County (PDF)",
+      "label": "Commonwealth Transportation Board, Prince William County Virginia Byway designation resolution",
       "url": "https://ctb.virginia.gov/media/ctb/agendas-and-meeting-minutes/2016/dec/reso/Resolution_14_Byway_NoVA.pdf"
+    },
+    {
+      "label": "Potomac Local News, Prince William now has 6 scenic byways with 11 historical sites",
+      "url": "https://www.potomaclocal.com/2016/12/21/prince-william-now-6-scenic-byways-11-historical-sites/"
     },
     {
       "label": "Wikipedia, Beverley Mill",
       "url": "https://en.wikipedia.org/wiki/Beverley_Mill"
     },
     {
+      "label": "Wikipedia, Brentsville Courthouse and Jail",
+      "url": "https://en.wikipedia.org/wiki/Brentsville_Courthouse_and_Jail"
+    },
+    {
       "label": "Wikipedia, Brentsville, Virginia",
-      "url": "https://en.wikipedia.org/wiki/Brentsville,_Virginia"
+      "url": "https://en.wikipedia.org/wiki/Brentsville%2C_Virginia"
     },
     {
       "label": "Wikipedia, Prince William Forest Park",
       "url": "https://en.wikipedia.org/wiki/Prince_William_Forest_Park"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

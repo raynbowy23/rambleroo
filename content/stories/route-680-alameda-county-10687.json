@@ -1,60 +1,68 @@
 {
   "id": "route-680-alameda-county-10687",
-  "tagline": "Over the Sunol Grade and up the valleys.",
+  "tagline": "An inland freeway through valleys and over the Sunol Grade",
   "intro": [
-    "From Mission Boulevard in Fremont, Interstate 680 turns abruptly northeast into the hills of the Coast Ranges, crosses Mission Pass, also known as the Sunol Grade, and comes down into the Sunol Valley, running with Highway 84 for a short way near Sunol. From there it heads north-northwest through the valleys, past Pleasanton and Dublin, to the Contra Costa line.",
-    "After the September 11 attacks someone painted a US flag on a large piece of concrete on a hill along the grade. It stayed there nine years, until Caltrans painted it over, nobody having asked permission in the first place."
+    "Interstate 680 crosses Alameda County through Coast Range hills and valleys, climbing over Mission Pass, also called the Sunol Grade. Its scenic section extends from Mission Boulevard in Fremont to the Contra Costa county line. That status recognizes a landscape meeting the state scenic-highway standard of memorable scenery without visual intrusions. The Sunol Valley remains largely rural despite its proximity to Fremont, Pleasanton and Livermore. The freeway runs through this valley before crossing the pass, a gap in the Mount Hamilton Range.",
+    "The freeway follows a much older corridor. By the 1920s, a road connected Dublin and Sunol with Mission San Jose, but the section south of Dublin was still unpaved. Most of the road entered the state system in 1933. By 1937 it carried the SR 21 number. In 1955, the Bureau of Public Roads approved a Bay Area interstate loop whose eastern half became I-680. During the 1960s, freeway construction reached south to Mission San Jose.",
+    "Traveling south from the county line, pass through Dublin and the I-580 interchange, then Pleasanton, before reaching the Sunol Valley. Near Sunol the freeway shares a short stretch with SR 84. From the valley it crosses Mission Pass and turns toward Fremont and Mission Boulevard, completing the scenic section."
   ],
   "moments": [
     {
-      "title": "Sunol Water Temple",
-      "kind": "separate excursion",
-      "scene": "river",
-      "text": "Willis Polk's 1910 ring of twelve Corinthian columns, modeled on the Temple of Vesta at Tivoli, marks where three underground water sources meet, and half of San Francisco's water once flowed through it.",
+      "title": "Pleasanton",
+      "kind": "town",
+      "scene": "town",
+      "text": "Pleasanton’s earlier settlement, Alisal, formed near the Francisco Solano Alviso Adobe, built in 1844. The adobe survives as the centerpiece of Alviso Adobe Community Park. After World War II, farming and ranching gave way to a commuter community and corporate headquarters as the Bay Area grew. Downtown preserves another part of that changing town: Gothic Revival, Italianate and Queen Anne buildings stand within walking distance of one another. A Main Street redesign in the 1990s emphasized pedestrians and outdoor dining. Alisal Elementary School preserves the earlier settlement’s name, another link to the town that preceded Pleasanton.",
       "at": [
-        -121.88543,
-        37.58545
+        -121.87472,
+        37.6625
       ]
     },
     {
       "title": "Sunol",
       "kind": "town",
       "scene": "town",
-      "text": "The town once elected a dog named Bosco its mayor, which the People's Daily held up in 1990 as a failing of American elections, and his statue sits in front of the post office.",
+      "text": "Sunol’s 1884 depot combined passenger, freight and station-agent facilities under one roof. It is the last surviving example of Southern Pacific’s standard No. 7 design. The agent’s office has a five-window bay facing the tracks, while the freight room’s raised floor matched the height of freight cars and wagons. After Southern Pacific ended canyon operations in 1984, the Pacific Locomotive Association began rebuilding track in 1987. The first Niles Canyon Railway passenger train left Sunol in May 1988. The depot’s freight room now serves exhibits and meetings. Its roof pairs a gabled section over the eastern rooms with a higher hipped section over the freight room.",
       "at": [
         -121.88861,
         37.59444
       ]
     },
     {
-      "title": "Pleasanton",
-      "kind": "town",
-      "scene": "town",
-      "text": "Before it was Pleasanton it was Alisal, a bandit refuge nicknamed the Most Desperate Town in the West, and the present spelling is apparently a clerk's typo for General Pleasonton.",
+      "title": "Sunol Water Temple",
+      "kind": "separate excursion",
+      "scene": "river",
+      "text": "Twelve concrete Corinthian columns make a water junction into a classical pavilion. Willis Polk designed the Sunol Water Temple, built in 1910, after the Temple of Vesta at Tivoli. It marked the meeting of three underground water sources. Before the Hetch Hetchy Aqueduct was built, half of San Francisco’s water supply passed through it. The 1989 Loma Prieta earthquake severely damaged the deteriorating structure. Restoration from 1997 to 2001 added seismic and accessibility improvements. Water flowing through the temple is no longer part of the drinking-water supply. San Francisco purchased the Spring Valley Water Company, including the temple, in 1930.",
       "at": [
-        -121.87472,
-        37.6625
+        -121.88543,
+        37.58545
       ]
     }
   ],
   "sources": [
     {
       "label": "Wikipedia, Interstate 680 (California)",
-      "url": "https://en.wikipedia.org/wiki/Interstate_680_(California)"
+      "url": "https://en.wikipedia.org/wiki/Interstate_680_%28California%29"
+    },
+    {
+      "label": "Wikipedia, Sunol Valley",
+      "url": "https://en.wikipedia.org/wiki/Sunol_Valley"
+    },
+    {
+      "label": "Wikipedia, Mission Pass (Alameda County)",
+      "url": "https://en.wikipedia.org/wiki/Mission_Pass_%28Alameda_County%29"
+    },
+    {
+      "label": "Wikipedia, Pleasanton, California",
+      "url": "https://en.wikipedia.org/wiki/Pleasanton%2C_California"
+    },
+    {
+      "label": "Wikipedia, Niles Canyon Railway",
+      "url": "https://en.wikipedia.org/wiki/Niles_Canyon_Railway"
     },
     {
       "label": "Wikipedia, Sunol Water Temple",
       "url": "https://en.wikipedia.org/wiki/Sunol_Water_Temple"
-    },
-    {
-      "label": "Wikipedia, Sunol, California",
-      "url": "https://en.wikipedia.org/wiki/Sunol,_California"
-    },
-    {
-      "label": "Wikipedia, Pleasanton, California",
-      "url": "https://en.wikipedia.org/wiki/Pleasanton,_California"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

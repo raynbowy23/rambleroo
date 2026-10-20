@@ -1,0 +1,177 @@
+{
+ "id": "route-109-washington-990906",
+ "style": "scripts/stories/STYLE.md",
+ "evidence": [
+  {
+   "claim": "East from Washington Depot, a scenic road meets an old stagecoach crossroads.",
+   "source": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District",
+   "quote": "It consists of properties abutting the triangular intersection of Sunny Ridge Road, Nettletown Hollow Road, and Old Litchfield Road (Connecticut Route 109)."
+  },
+  {
+   "claim": "East from Washington Depot, a scenic road meets an old stagecoach crossroads.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_47",
+   "quote": "Route 109 splits off to the east (for Morris)"
+  },
+  {
+   "claim": "East from Washington Depot, a scenic road meets an old stagecoach crossroads.",
+   "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json",
+   "quote": "\"ROUTE_ID\":\"109-E\",\"BEGIN_POINT\":6.38,\"END_POINT\":9.69,\"START_DESCRIP\":\"END OVLP RTE 47(BEE BROOK RD)\",\"END_DESCRIP\":\"WOOD CREEK RD\",\"NATIONAL_SCEN\":\"42\""
+  },
+  {
+   "claim": "Route 109 crosses Washington, a Connecticut town of rolling hills, high plateaus, woods and open farm fields.",
+   "source": "https://en.wikipedia.org/wiki/Washington%2C_Connecticut",
+   "quote": "The landscape is characterized by rolling hills, high plateaus, and river and stream valleys. Mixed deciduous and coniferous forest covers most of Washington, but open agricultural fields are also prevalent."
+  },
+  {
+   "claim": "Connecticut DOT records identify its scenic section from the end of the Route 47 overlap to Wood Creek Road.",
+   "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json",
+   "quote": "\"ROUTE_ID\":\"109-E\",\"BEGIN_POINT\":6.38,\"END_POINT\":9.69,\"START_DESCRIP\":\"END OVLP RTE 47(BEE BROOK RD)\",\"END_DESCRIP\":\"WOOD CREEK RD\",\"NATIONAL_SCEN\":\"42\""
+  },
+  {
+   "claim": "Along Old Litchfield Road, the highway meets Sunny Ridge, a former crossroads village on a stagecoach and mail route.",
+   "source": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District",
+   "quote": "It consists of properties abutting the triangular intersection of Sunny Ridge Road, Nettletown Hollow Road, and Old Litchfield Road (Connecticut Route 109).  This area was in the 18th and 19th centuries a stop on a north–south stagecoach and mail route."
+  },
+  {
+   "claim": "The numbered highway originally took a different course.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_109",
+   "quote": "In 1963, the section past Bantam Lake was reassigned to Route 209 and Route 109 was rerouted to its current western terminus using former SR 857."
+  },
+  {
+   "claim": "Commissioned in 1932, Route 109 ran from Bantam, past Bantam Lake, to Thomaston.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_109",
+   "quote": "This became part of Route 109 when it was commissioned in 1932, running from the Bantam section of Litchfield past Bantam Lake to its current eastern terminus in Thomaston."
+  },
+  {
+   "claim": "In 1963, the lake section became Route 209, and Route 109 shifted to its present western terminus in New Milford.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_109",
+   "quote": "In 1963, the section past Bantam Lake was reassigned to Route 209 and Route 109 was rerouted to its current western terminus using former SR 857."
+  },
+  {
+   "claim": "Heading east, leave Washington Depot on Bee Brook Road, where Routes 47 and 109 briefly share the pavement.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_47",
+   "quote": "Route 47 and Route 109 turn right together on Bee Brook Road as they leave the village."
+  },
+  {
+   "claim": "Route 109 then branches east toward Morris.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_47",
+   "quote": "Route 109 splits off to the east (for Morris)"
+  },
+  {
+   "claim": "Continue along Old Litchfield Road through the Sunny Ridge crossroads; the scenic designation ends at Wood Creek Road.",
+   "source": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District",
+   "quote": "It consists of properties abutting the triangular intersection of Sunny Ridge Road, Nettletown Hollow Road, and Old Litchfield Road (Connecticut Route 109)."
+  },
+  {
+   "claim": "Route 109 crosses Washington, a Connecticut town of rolling hills, high plateaus, woods and open farm fields.",
+   "source": "https://en.wikipedia.org/wiki/Washington%2C_Connecticut",
+   "quote": "Connecticut Route 109 runs east–west near the town's geographic center, connecting Washington Depot with New Milford and Morris."
+  },
+  {
+   "claim": "present western terminus in New Milford",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_109",
+   "quote": "Route 109 begins at an intersection with US 202 in New Milford"
+  },
+  {
+   "claim": "the scenic designation ends at Wood Creek Road.",
+   "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json",
+   "quote": "\"END_DESCRIP\":\"WOOD CREEK RD\",\"NATIONAL_SCEN\":\"42\""
+  },
+  {
+   "claim": "The Shepaug River helped make Washington Depot an industrial village, then reshaped it through disaster.",
+   "source": "https://en.wikipedia.org/wiki/Washington%2C_Connecticut",
+   "quote": "Early in the 19th century, small mills and factories proliferated along the Shepaug River in present-day Washington Depot, which came to be known as \"Factory Hollow\"."
+  },
+  {
+   "claim": "Early nineteenth-century mills and factories gave it the name Factory Hollow.",
+   "source": "https://en.wikipedia.org/wiki/Washington%2C_Connecticut",
+   "quote": "Early in the 19th century, small mills and factories proliferated along the Shepaug River in present-day Washington Depot, which came to be known as \"Factory Hollow\"."
+  },
+  {
+   "claim": "In August 1955, debris blocked culverts upstream beneath U.S. Route 202; the culverts and roadway failed, sending floodwater through the village center and destroying homes and businesses.",
+   "source": "https://en.wikipedia.org/wiki/Washington%2C_Connecticut",
+   "quote": "The culverts and roadway succumbed to the resulting pressure, causing a wall of water to race down the river valley, washing away many of the homes and businesses in the Depot's village center"
+  },
+  {
+   "claim": "Henry B. Van Sinderen led the reconstruction.",
+   "source": "https://en.wikipedia.org/wiki/Washington%2C_Connecticut",
+   "quote": "A reconstruction effort, led by Henry B. Van Sinderen, and modeled after a town on Long Island, was quickly commenced."
+  },
+  {
+   "claim": "The rebuilding changed the layout and appearance of the Depot, giving its center a different character from Washington’s older architecture.",
+   "source": "https://en.wikipedia.org/wiki/Washington%2C_Connecticut",
+   "quote": "The layout and visual character of the Depot were also radically altered, and the village center assumed its contemporary appearance, which varies considerably from Washington's traditional architectural vernacular."
+  },
+  {
+   "claim": "In August 1955, debris blocked culverts upstream beneath U.S. Route 202",
+   "source": "https://en.wikipedia.org/wiki/Washington%2C_Connecticut",
+   "quote": "In August 1955, two large storms passed over Litchfield County in close succession, flooding many local river valleys. North of Washington Depot, twin culverts carrying the Shepaug River under U.S. Route 202 were plugged with debris"
+  },
+  {
+   "claim": "Sunny Ridge’s triangle of roads marks a former stop on a north–south stagecoach and mail route.",
+   "source": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District",
+   "quote": "It consists of properties abutting the triangular intersection of Sunny Ridge Road, Nettletown Hollow Road, and Old Litchfield Road (Connecticut Route 109).  This area was in the 18th and 19th centuries a stop on a north–south stagecoach and mail route."
+  },
+  {
+   "claim": "Nettleton Hollow Road carried travelers between Hartford and Cornwall, with connections onward to Albany.",
+   "source": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District",
+   "quote": "The Nettleton Hollow Road had been cut through the area, serving travelers between Hartford and Cornwall, where connections to the Albany, New York could be made."
+  },
+  {
+   "claim": "Taverns developed at the crossroads, including the Rising Sun, established in 1748 and enlarged in the early nineteenth century.",
+   "source": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District",
+   "quote": "The presence of local cross roads presented the opportunity to establish taverns.  One, the Rising Sun Tavern at 6 Romford Road, was established in 1748 and enlarged in the early 19th century"
+  },
+  {
+   "claim": "The village flourished until stage routes declined late in that century.",
+   "source": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District",
+   "quote": "The area flourished until the stage routes declined in the later years of the 19th century."
+  },
+  {
+   "claim": "The historic district now includes ten wood-frame houses, seven historically significant, with nineteenth-century barns and sheds.",
+   "source": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District",
+   "quote": "It includes ten houses, seven of which are historically significant, as well as a number of 19th-century outbuildings, including barns and sheds.  All of the buildings are of wood-frame construction"
+  },
+  {
+   "claim": "Wood-frame houses, barns and sheds surround the triangle of roads.",
+   "source": "https://en.wikipedia.org/wiki/Sunny_Ridge_Historic_District",
+   "quote": "It includes ten houses, seven of which are historically significant, as well as a number of 19th-century outbuildings, including barns and sheds."
+  },
+  {
+   "claim": "Beyond the Washington scenic section, Camp Columbia in Morris preserves part of an engineering school’s outdoor classroom.",
+   "source": "https://en.wikipedia.org/wiki/Camp_Columbia_State_Park/State_Forest",
+   "quote": "The 600-acre (240 ha) site was once the rural campus of Columbia University's Engineering Department."
+  },
+  {
+   "claim": "Columbia University bought the farmland in 1903 so engineering and surveying students could gain field experience.",
+   "source": "https://en.wikipedia.org/wiki/Camp_Columbia_State_Park/State_Forest",
+   "quote": "The area was primarily farmland until 1903 when it was purchased by Columbia University for use as a summer camp where engineering and surveying students could receive practical field experience."
+  },
+  {
+   "claim": "The camp closed in 1983; Connecticut purchased it in 2000 and dedicated the state forest and historic park in 2004.",
+   "source": "https://en.wikipedia.org/wiki/Camp_Columbia_State_Park/State_Forest",
+   "quote": "The camp remained in near continuous use for 80 years until closing down in 1983."
+  },
+  {
+   "claim": "Building foundations remain, along with two standing structures: the Class of 1906 observation tower, dedicated in 1942, and the Instrument House.",
+   "source": "https://en.wikipedia.org/wiki/Camp_Columbia_State_Park/State_Forest",
+   "quote": "Other than the remains of building foundations only two structures on the property are still standing: the \"Class of 1906\" observation tower (dedicated in 1942) and the \"Instrument House\"."
+  },
+  {
+   "claim": "Beyond the Washington scenic section, Camp Columbia in Morris",
+   "source": "https://en.wikipedia.org/wiki/Camp_Columbia_State_Park/State_Forest",
+   "quote": "Camp Columbia State Park/State Forest is a public recreation area and state forest located in the town of Morris in Litchfield County, Connecticut."
+  },
+  {
+   "claim": "Connecticut purchased it in 2000 and dedicated the state forest and historic park in 2004.",
+   "source": "https://en.wikipedia.org/wiki/Camp_Columbia_State_Park/State_Forest",
+   "quote": "The state of Connecticut purchased the land from the university in 2000; it was dedicated as Camp Columbia State Forest and State Historic Park in 2004."
+  }
+ ],
+ "flags": [
+  "The cache establishes the scenic designation and endpoints but supplies no designation rationale, travel time, or route-specific grades, curves or overlooks. Landscape description is town-wide; overview kept short.",
+  "Camp Columbia is an eastward excursion beyond the designated Washington segment, added to meet the three-moment minimum. The strip map supplies only Washington; ordering uses cached route geography.",
+  "No unsupported current claims identified. Omitted supported George Washington, Joseph Hurlbut and television details to focus on transport history.",
+  "Current story and moments have no motifs; empty motif arrays used. No at field added to retained Washington Depot."
+ ]
+}

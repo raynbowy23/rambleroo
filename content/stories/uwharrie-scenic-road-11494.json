@@ -1,67 +1,71 @@
 {
   "id": "uwharrie-scenic-road-11494",
-  "tagline": "Across the slate belt and the stumps of old volcanoes.",
+  "tagline": "Across the Uwharrie foothills, a river crossing and a gold discovery",
   "intro": [
-    "From Asheboro, NC 49 runs southwest across the Carolina Slate Belt, where buildings and fences were once built of slate, skirts the northern foothills of the Uwharrie Mountains, then crosses the Yadkin on its way to Mount Pleasant and Concord. The main route is 50.7 miles. An extension on NC 109 through Denton adds 22.4.",
-    "The Uwharries are what is left of a chain of volcanoes active some 550 million years ago, worn down to isolated, heavily eroded hills. They were once cleared for timber and farms. They became a national forest in 1961, and the woods have come back. Corn and winter wheat grow along the road."
+    "NC 49 skirts the northern foothills of the Uwharrie Mountains and crosses the Yadkin River near Tuckertown Reservoir. Northeast of Mount Pleasant, it becomes a designated North Carolina Scenic Byway. NCDOT describes its byway program as a way to experience the state’s history, geography and culture.",
+    "The highway number came first to a shorter road: NC 49 was established in late 1934 between Lake Wylie and Charlotte. In 1940, an extension carried the number northeast to Virginia, replacing NC 62 through Richfield and Farmer to Asheboro. In 1953, a new routing bypassed Concord.",
+    "Traveling northeast, start with Mount Pleasant, whose town center lies south of NC 49. Richfield marks the junction with US 52. Beyond the river crossing, the highway skirts the foothills before descending into the Asheboro area."
   ],
   "moments": [
     {
-      "title": "Denton",
-      "kind": "town",
-      "scene": "town",
-      "text": "Once Finch's Cross Roads, the town borrowed its name from Texas in 1878 and later shipped nearly 200,000 railroad cross ties a year at its peak.",
+      "title": "Reed Gold Mine",
+      "kind": "separate excursion",
+      "scene": "forest",
+      "text": "In 1799, Conrad Reed found a 17-pound yellow rock in Little Meadow Creek on his family’s farm. It served as a doorstop for three years before a Fayetteville jeweler identified it as gold in 1802. John Reed asked $3.50 for it, the equivalent of a week’s wages. Mining later moved underground in 1831; the last underground work at Reed Mine took place in 1912. The mine in Midland is a National Historic Landmark, recognized for the first documented commercial gold find in the United States. The nugget’s true value was around $3,600.",
       "at": [
-        -80.09778,
-        35.62056
+        -80.46996,
+        35.28542
       ]
     },
     {
       "title": "Tuckertown crossing",
       "kind": "roadside",
       "scene": "river",
-      "text": "NC 49 crosses the Yadkin on the bridge at Tuckertown, where the reservoir fills a narrow valley at the western edge of the Uwharries.",
+      "text": "The NC 49 bridge crosses Tuckertown Reservoir, where the Yadkin occupies a narrow valley at the western edge of the Uwharrie Mountains. The reservoir lies between High Rock Dam and Tuckertown Dam. Its water serves hydroelectric power generation. Alcoa historically operated the lake’s power generation before selling it to Cube Hydro Carolinas in February 2017.",
       "motifs": [
         "lake-wide"
       ]
     },
     {
-      "title": "Reed Gold Mine",
-      "kind": "separate excursion",
-      "scene": "forest",
-      "text": "About eight miles south of Mount Pleasant, a boy found a 17-pound yellow rock in Little Meadow Creek in 1799, and the family used it as a doorstop for three years.",
+      "title": "Denton",
+      "kind": "town",
+      "scene": "town",
+      "text": "Denton’s railroad story began with a strip of land. In 1906, Branson Ivey Harrison sold a right-of-way for the Thomasville and Glen Anna Railroad to reach the town. Regular service began in 1912, after the line became the Carolina and Yadkin Railroad and extended to High Rock. Timber drove the resulting growth: during the peak years of 1917–1918, Denton shipped nearly 200,000 railroad cross ties annually. The town had previously been Finch’s Cross Roads; its Denton post office opened in 1878 with Samuel Moses Peacock as postmaster. Peacock had suggested the name after a town in Texas.",
       "at": [
-        -80.46996,
-        35.28542
+        -80.09778,
+        35.62056
       ]
     }
   ],
   "sources": [
     {
-      "label": "NCDOT, North Carolina Scenic Byways guidebook, Uwharrie Scenic Road",
-      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=130"
-    },
-    {
       "label": "Wikipedia, North Carolina Highway 49",
       "url": "https://en.wikipedia.org/wiki/North_Carolina_Highway_49"
     },
     {
-      "label": "Wikipedia, Uwharrie Mountains",
-      "url": "https://en.wikipedia.org/wiki/Uwharrie_Mountains"
+      "label": "Wikipedia, Reed Gold Mine",
+      "url": "https://en.wikipedia.org/wiki/Reed_Gold_Mine"
     },
     {
-      "label": "Wikipedia, Denton, North Carolina",
-      "url": "https://en.wikipedia.org/wiki/Denton,_North_Carolina"
+      "label": "North Carolina Department of Transportation, North Carolina Scenic Byways",
+      "url": "https://www.ncdot.gov/travel-maps/traffic-travel/scenic-byways/Documents/nc-scenic-byways-guidebook.pdf#page=130"
+    },
+    {
+      "label": "Wikipedia, Mount Pleasant, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_North_Carolina"
+    },
+    {
+      "label": "Wikipedia, Richfield, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Richfield%2C_North_Carolina"
     },
     {
       "label": "Wikipedia, Tuckertown Reservoir",
       "url": "https://en.wikipedia.org/wiki/Tuckertown_Reservoir"
     },
     {
-      "label": "Wikipedia, Reed Gold Mine",
-      "url": "https://en.wikipedia.org/wiki/Reed_Gold_Mine"
+      "label": "Wikipedia, Denton, North Carolina",
+      "url": "https://en.wikipedia.org/wiki/Denton%2C_North_Carolina"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

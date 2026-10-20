@@ -277,11 +277,25 @@
   },
   "landmarks": [
     {
+      "name": "Wise River",
+      "model": "town-blocks",
+      "at": 0,
+      "offset": "roadside",
+      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+    },
+    {
       "name": "Coolidge",
       "model": "false-front-town",
-      "at": 0.3333333333333333,
+      "at": 0.4,
       "offset": "roadside",
-      "notes": "Story moment 1; separate excursion. Illustrative position in driving order."
+      "notes": "Story moment 2; separate excursion. Illustrative position in driving order."
+    },
+    {
+      "name": "Polaris",
+      "model": "town-blocks",
+      "at": 0.849540081094132,
+      "offset": "roadside",
+      "notes": "Story moment 4; town. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
@@ -386,7 +400,7 @@
     {
       "name": "Polaris",
       "at": 0.8493150684931509,
-      "landmark": ""
+      "landmark": "Polaris"
     }
   ],
   "sources": [

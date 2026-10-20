@@ -1,19 +1,20 @@
 {
   "id": "west-northwest-scenic-byway-990504",
-  "tagline": "North on US 71, then east the slow way.",
+  "tagline": "Forest highways and surviving concrete trace western Arkansas’s changing road network",
   "motifs": [
     "rolling-ridges"
   ],
   "intro": [
-    "From Mena, US 71 runs north into the Ouachita National Forest and on to Waldron, then through Mansfield and Greenwood toward Fort Smith. At Greenwood, Highway 10 takes up the circuit and heads east past Fort Chaffee, through Booneville and Magazine, then over mountainous country past Havana and Danville to Ola.",
-    "ARDOT points out that the Ouachitas are the only mountains in North America that run east and west, and gentler country than the Ozarks, which suited the early settlers. Highway 10 was one of the state's original 1926 highways, and even then US 64 was built to a better standard. It is still the slower, scenic way out of Fort Smith."
+    "The West–Northwest Scenic Byway is a network of connected highways: 261 miles designated an Arkansas State Scenic Byway in 2005. Much of it lies within the Ouachita National Forest, with U.S. 71 running north from Mena and Highway 10 extending between the Oklahoma line and Ola. Highway 10 crosses mountainous terrain near Havana and Belleville.",
+    "Highway 10 began as one of Arkansas’s original state highways in 1926 and remains close to that early routing. Near Jenny Lind, a surviving stretch of U.S. 71 shows another stage of road building: narrow concrete pavement laid in 1927–29. It was bypassed in 1959. The 2005 byway designation joined these highway corridors with portions of Highways 23 and 96. At Greenwood, the connection between the old and new roads survives in Highway 10 Spur. Until the mid-1960s, that road was part of U.S. 71’s original alignment; it now connects U.S. 71 west of town with Highway 10 near downtown.",
+    "For the Mena-to-Ola journey, head north through the forest toward Waldron, which the U.S. 71 mainline bypasses to the west. Continue through Mansfield toward Greenwood, with Jenny Lind farther north. Return toward Greenwood for Highway 10 east past Fort Chaffee, Booneville and Magazine, then continue through Havana, Belleville and Danville to Ola."
   ],
   "moments": [
     {
       "title": "Mena",
       "kind": "town",
       "scene": "town",
-      "text": "A railroad town from 1896, named by its founder Arthur Stilwell for the wife of his friend and financier, who called her Mena.",
+      "text": "Mena grew with the Kansas City, Pittsburg and Gulf Railroad, whose trains began serving the town in 1896. Founder Arthur Edward Stilwell named it for Folmina Margaretha Janssen-De Goeijen, his financier’s wife, called Mena by her husband. The railroad’s departure from its local shops in 1910 cost the town eight hundred jobs. The route through Mena passes the Kansas City-Southern Depot and the commercial historic district. Janssen Park, in the center of town, also bears her name. Mena was incorporated in September 1896, and two years later the county seat moved here from nearby Dallas.",
       "at": [
         -94.23972,
         34.58611
@@ -23,7 +24,7 @@
       "title": "Jenny Lind",
       "kind": "roadside",
       "scene": "town",
-      "text": "A coal town named for a Swedish opera singer. Southeast of it, three quarters of a mile of the original 1920s concrete highway still crosses Bear Creek, bypassed since 1959.",
+      "text": "Southeast of Jenny Lind, an old stretch of U.S. 71 survives as Doraul Acres Lane. Its concrete pavement is eighteen feet wide, without a shoulder, and a concrete slab bridge crosses Bear Creek. Built in 1927–29 and bypassed in 1959, the segment preserves an earlier highway alignment. Nearby Jenny Lind took its name from the Swedish opera singer. Coal discovered in the 1880s brought a new mining settlement beside the older community; the mines closed in the 1950s. The new settlement was originally called New Jenny Lind, while its neighbor became Old Jenny Lind; the newer community eventually shortened its name.",
       "at": [
         -94.31855,
         35.25037
@@ -31,9 +32,9 @@
     },
     {
       "title": "Fort Chaffee",
-      "kind": "roadside",
-      "scene": "prairie",
-      "text": "A camp since 1941, where Elvis Presley spent four days in 1958 and got his first military haircut in Building 803.",
+      "kind": "separate excursion",
+      "scene": "town",
+      "text": "Camp Chaffee’s first soldiers arrived on December 7, 1941, the day Japan attacked Pearl Harbor. Armored divisions trained here during World War II; the installation also held 3,000 German prisoners of war. Renamed Fort Chaffee in 1956, it briefly received Elvis Presley in 1958. During his four-day stay, Presley received his first military haircut in Building 803. In 1975–76, Chaffee processed Vietnamese and Cambodian refugees, and the Arkansas National Guard now uses it for training. Its later history also includes sheltering people displaced by Hurricane Katrina in 2005, when empty barracks became temporary housing.",
       "at": [
         -94.202,
         35.27
@@ -42,7 +43,7 @@
   ],
   "sources": [
     {
-      "label": "ARDOT, Arkansas Scenic Byways",
+      "label": "Arkansas Department of Transportation, Scenic Byways",
       "url": "https://ardot.gov/divisions/right-of-way/row_sections/beautification-section/scenic-byways/"
     },
     {
@@ -54,18 +55,17 @@
       "url": "https://en.wikipedia.org/wiki/Arkansas_Highway_10"
     },
     {
-      "label": "Wikipedia, Mena, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/Mena,_Arkansas"
+      "label": "Wikipedia, Jenny Lind, Arkansas",
+      "url": "https://en.wikipedia.org/wiki/Jenny_Lind%2C_Arkansas"
     },
     {
-      "label": "Wikipedia, Jenny Lind, Arkansas",
-      "url": "https://en.wikipedia.org/wiki/Jenny_Lind,_Arkansas"
+      "label": "Wikipedia, Mena, Arkansas",
+      "url": "https://en.wikipedia.org/wiki/Mena%2C_Arkansas"
     },
     {
       "label": "Wikipedia, Fort Chaffee Maneuver Training Center",
       "url": "https://en.wikipedia.org/wiki/Fort_Chaffee_Maneuver_Training_Center"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

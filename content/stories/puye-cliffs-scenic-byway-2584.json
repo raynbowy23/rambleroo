@@ -1,49 +1,61 @@
 {
   "id": "puye-cliffs-scenic-byway-2584",
-  "tagline": "From the pottery village up to the old cliff town.",
+  "tagline": "A Pueblo road connects the Rio Grande with volcanic cliff dwellings.",
   "intro": [
-    "Indian Road 565 starts at Santa Clara Pueblo, close by Española, and heads west across Santa Clara land toward the Jemez Mountains. It is the only state scenic byway in New Mexico that lies entirely on a pueblo.",
-    "At the end of it stands Puye, a town cut into a cliff of soft volcanic tuff, where up to 1,500 people once hunted and farmed. Drought sent them down toward the Rio Grande, and the people of Santa Clara, some ten miles east, count themselves their descendants. In 2000 the Cerro Grande Fire burned through Santa Clara Canyon. The site has since reopened."
+    "Puye Cliffs Scenic Byway follows Indian Road 565 for 14 miles on Santa Clara Pueblo land. The Federal Highway Administration allows an hour for the drive and presents its cultural and historic places as the route’s draw. It is New Mexico’s only state scenic byway entirely on an Indian Pueblo.",
+    "The route reaches dwellings carved into volcanic rock and expanded with adobe buildings on the slopes and mesa tops. In 2000, the Cerro Grande Fire devastated Santa Clara Canyon.",
+    "Begin with Santa Clara Pueblo on the Rio Grande, where potters make polished black and red pottery with incised designs. The journey continues across the reservation to Puye Cliff Dwellings in Santa Clara Canyon, with two levels of cliff rooms and a village on the mesa above."
   ],
   "moments": [
     {
       "title": "Santa Clara Pueblo",
       "kind": "town",
       "scene": "town",
-      "text": "A Tewa village on the Rio Grande whose potters are known for polished black and red wares with deep engravings, where knife-wing and eagle feather designs are common.",
+      "text": "Santa Clara Pueblo’s pottery includes polished black and red wares, with designs cut into the surface. Knife-wing and eagle feather designs are common, alongside painted designs, impressed patterns and resist-firing with incised or sgraffito decoration. Women and girls traditionally made most of the pottery; men also practice the craft now. This is a Tewa community on the Rio Grande, between Ohkay Owingeh to the north and San Ildefonso Pueblo to the south, whose people speak Rio Grande Tewa. The pueblo belongs to the Eight Northern Pueblos and is a federally recognized tribe of Tewa Pueblo people.",
       "at": [
         -106.09278,
         35.9725
       ]
     },
     {
+      "title": "Santa Clara Pueblo Land",
+      "kind": "roadside",
+      "scene": "desert",
+      "text": "The byway lies entirely on an Indian Pueblo, but the reservation extends beyond the village that gives it its name. Santa Clara Pueblo land reaches into Rio Arriba, Sandoval and Santa Fe counties. Española is the largest community on reservation land, although part of the city lies outside the reservation. Much of Española also falls within the byway’s visual corridor.",
+      "at": [
+        -106.205,
+        35.97833333
+      ]
+    },
+    {
       "title": "Puye Cliff Dwellings",
       "kind": "short walk",
       "scene": "desert",
-      "text": "Paths and some twelve stairways and ladders climb a 200-foot cliff past two levels of carved rooms, about 740 of them, to a pueblo on the mesa top.",
+      "text": "Puye’s rooms were carved from volcanic tuff soft enough to excavate with wooden tools. Two levels of cliff dwellings accompany surface and cave dwellings; a multistory village occupied the mesa top. A large plaza stood at the center of the complex. In 1907, Edgar Hewett excavated Puye with the Southwest Society of the Archaeological Institute of America. The ruins became a National Historic Landmark in 1966. The Community House is a reconstruction, part of a complex linked by paths, stairways and ladders. One level of cliff dwellings extends for more than a mile; the second runs about 2,100 feet along the rock.",
+      "notice": "Two levels of cliff dwellings occupy the volcanic rock below the mesa-top village.",
       "at": [
         -106.2275,
         35.97556
       ]
     }
   ],
-  "practical": [
-    "Visitors to the cliff dwellings check in at the Puye Cliffs Welcome Center, and tours can be scheduled; Santa Clara Pueblo has current information."
-  ],
   "sources": [
     {
-      "label": "FHWA America's Byways, Puye Cliffs Scenic Byway",
+      "label": "Federal Highway Administration, Puye Cliffs Scenic Byway",
       "url": "https://fhwaapps.fhwa.dot.gov/bywaysp/StateMaps/Show/byway/2584"
+    },
+    {
+      "label": "Wikipedia, Santa Clara Pueblo, New Mexico",
+      "url": "https://en.wikipedia.org/wiki/Santa_Clara_Pueblo%2C_New_Mexico"
     },
     {
       "label": "Wikipedia, Puye Cliff Dwellings",
       "url": "https://en.wikipedia.org/wiki/Puye_Cliff_Dwellings"
     },
     {
-      "label": "Wikipedia, Santa Clara Pueblo, New Mexico",
-      "url": "https://en.wikipedia.org/wiki/Santa_Clara_Pueblo,_New_Mexico"
+      "label": "Wikipedia, Santa Clara Indian Reservation",
+      "url": "https://en.wikipedia.org/wiki/Santa_Clara_Indian_Reservation"
     }
   ],
-  "draft": true,
   "reviewed": false
 }

@@ -277,35 +277,35 @@
   },
   "landmarks": [
     {
+      "name": "Monitor Pass",
+      "model": "switchback",
+      "at": 0.2,
+      "offset": "roadside",
+      "notes": "Story moment 1; roadside. Illustrative position in driving order."
+    },
+    {
       "name": "Markleeville",
       "model": "town-blocks",
       "at": 0.2913337030179127,
       "offset": "roadside",
-      "notes": "Story moment 1; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Woodfords",
       "model": "town-blocks",
       "at": 0.3872659641827993,
       "offset": "roadside",
-      "notes": "Story moment 2; town. Projected coordinate, kept in driving order."
+      "notes": "Story moment 3; town. Projected coordinate, kept in driving order."
     },
     {
       "name": "Emerald Bay",
       "model": "alpine-lake",
       "at": 0.8248614376767022,
       "offset": "roadside",
-      "notes": "Story moment 3; roadside. Projected coordinate, kept in driving order."
+      "notes": "Story moment 4; roadside. Projected coordinate, kept in driving order."
     }
   ],
   "dressing": [
-    {
-      "model": "switchback",
-      "at": 0.5,
-      "side": -1,
-      "distance": 1.4,
-      "scale": 1.5
-    },
     {
       "model": "hardwood",
       "at": 0.0875,

@@ -1,0 +1,188 @@
+{
+ "id": "route-69-burlington-990910",
+ "style": "scripts/stories/STYLE.md",
+ "evidence": [
+  {
+   "claim": "Milford Street carries Route 69 toward its Burlington finish",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_69",
+   "quote": "In Burlington, the road name changes to Milford Street and eventually ends at a junction with Route 4 near the town center of Burlington."
+  },
+  {
+   "claim": "North of Bristol, Route 69 becomes a secondary road and enters Burlington as Milford Street.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_69",
+   "quote": "After the junction with Route 6, the road becomes a secondary, minor arterial road as it heads into the town of Burlington. In Burlington, the road name changes to Milford Street"
+  },
+  {
+   "claim": "Connecticut DOT records identify the stretch from Bradley Road to Saw Mill Road as scenic road 34.",
+   "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json",
+   "quote": "\"ROUTE_ID\":\"69-N\",\"BEGIN_POINT\":31.34,\"END_POINT\":34.51,\"START_DESCRIP\":\"BRADLEY RD\",\"END_DESCRIP\":\"SAW MILL RD\",\"NATIONAL_SCEN\":\"34\",\"SCEN_DATE\":1364256000000,\"TOWN_NUMBER\":\"020\",\"TOWN_NAME\":\"BURLINGTON\",\"YEAR\":\"2025\""
+  },
+  {
+   "claim": "Burlington is a rural hill town at the foot of the Berkshires.",
+   "source": "https://en.wikipedia.org/wiki/Burlington%2C_Connecticut",
+   "quote": "Situated at the foot of the Berkshires and bordering the Farmington River, it is a scenic hill town, rural in nature"
+  },
+  {
+   "claim": "Route 69 began in 1932 as a New Haven–Waterbury route, using part of the old Litchfield Turnpike and former town roads.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_69",
+   "quote": "Route 69 was created in the 1932 state highway renumbering as a direct route from New Haven to Waterbury. It used the southernmost portion of the old Litchfield Turnpike"
+  },
+  {
+   "claim": "and former town roads.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_69",
+   "quote": "then former town roads from Bethany to Prospect (Carrington Road and New Haven Road)"
+  },
+  {
+   "claim": "It reached Bristol in 1934; the Burlington extension followed in 1962, taking over unsigned SR 787.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_69",
+   "quote": "In 1934, Route 69 was extended to Bristol (at Route 6), taking over former Route 119. In 1962, a further extension north to Burlington (at Route 4) using former unsigned SR 787 was made."
+  },
+  {
+   "claim": "Follow the scenic segment north from Bradley Road to Saw Mill Road.",
+   "source": "https://services1.arcgis.com/FCaUeJ5SOVtImake/arcgis/rest/services/CTDOT_Roadway_Classification_and_Characteristic_Data/FeatureServer/14/query?where=1%3D1&outFields=*&returnGeometry=false&f=json",
+   "quote": "\"ROUTE_ID\":\"69-N\",\"BEGIN_POINT\":31.34,\"END_POINT\":34.51,\"START_DESCRIP\":\"BRADLEY RD\",\"END_DESCRIP\":\"SAW MILL RD\",\"NATIONAL_SCEN\":\"34\",\"SCEN_DATE\":1364256000000,\"TOWN_NUMBER\":\"020\",\"TOWN_NAME\":\"BURLINGTON\",\"YEAR\":\"2025\""
+  },
+  {
+   "claim": "Sessions Woods lies on Route 69, about three miles south of Route 4, with self-guided trails and habitat-management demonstrations.",
+   "source": "https://portal.ct.gov/DEEP/wildlife/wildlife-mangement-areas/sessions-woods-wildlife-management-area",
+   "quote": "Sessions Woods WMA and Conservation Education Center is located on Route 69, about three miles south of Route 4 in Burlington"
+  },
+  {
+   "claim": "with self-guided trails and habitat-management demonstrations.",
+   "source": "https://portal.ct.gov/DEEP/wildlife/wildlife-mangement-areas/sessions-woods-wildlife-management-area",
+   "quote": "demonstration sites, self-guided hiking trails, and displays."
+  },
+  {
+   "claim": "Beyond the scenic segment, Milford Street continues to Route 4 near Burlington center.",
+   "source": "https://en.wikipedia.org/wiki/Connecticut_Route_69",
+   "quote": "In Burlington, the road name changes to Milford Street and eventually ends at a junction with Route 4 near the town center of Burlington."
+  },
+  {
+   "claim": "Brown Tavern faces the triangular green at its western end.",
+   "source": "https://en.wikipedia.org/wiki/Brown_Tavern",
+   "quote": "The Brown Tavern stands facing Burlington's triangular town green, on the south side of George Washington Turnpike at the green's western end."
+  },
+  {
+   "claim": "Sessions Woods makes wildlife management something visitors can examine along a trail.",
+   "source": "https://portal.ct.gov/DEEP/wildlife/wildlife-mangement-areas/sessions-woods-wildlife-management-area",
+   "quote": "Demonstrations of wildlife and habitat management practices are featured along the Beaver Pond Trail, Forest Meadow Trail, and in the Backyard Habitat Demonstration Area."
+  },
+  {
+   "claim": "Demonstrations line the Beaver Pond and Forest Meadow trails, with another area devoted to backyard habitat.",
+   "source": "https://portal.ct.gov/DEEP/wildlife/wildlife-mangement-areas/sessions-woods-wildlife-management-area",
+   "quote": "Demonstrations of wildlife and habitat management practices are featured along the Beaver Pond Trail, Forest Meadow Trail, and in the Backyard Habitat Demonstration Area."
+  },
+  {
+   "claim": "Connecticut's Wildlife Division established the area to help residents understand their role in conservation, in a state where more than 90 percent of the acreage is privately owned.",
+   "source": "https://portal.ct.gov/DEEP/wildlife/wildlife-mangement-areas/sessions-woods-wildlife-management-area",
+   "quote": "Because more than 90 percent of our state's acreage is privately owned, both large and small landowners, as well as all Connecticut residents, must play a critical role in Connecticut's wildlife conservation efforts. To meet this need, the Wildlife Division established the Sessions Woods Wildlife Management Area (WMA)"
+  },
+  {
+   "claim": "Federal Aid in Wildlife Restoration funds helped pay for the purchase.",
+   "source": "https://portal.ct.gov/DEEP/wildlife/wildlife-mangement-areas/sessions-woods-wildlife-management-area",
+   "quote": "The purchase was made possible with the help of sportsmen-generated Federal Aid in Wildlife Restoration (Pittman-Robertson) funds."
+  },
+  {
+   "claim": "The education center adds exhibits to the outdoor demonstration sites.",
+   "source": "https://portal.ct.gov/DEEP/wildlife/wildlife-mangement-areas/sessions-woods-wildlife-management-area",
+   "quote": "These facilities include an education center with an exhibit area and a large meeting room, as well as interpretive trails, and habitat management demonstration sites."
+  },
+  {
+   "claim": "The programs serve school groups, the general public and natural-resource professionals, pairing educational workshops with the demonstration sites outside.",
+   "source": "https://portal.ct.gov/DEEP/wildlife/wildlife-mangement-areas/sessions-woods-wildlife-management-area",
+   "quote": "facilities to bring school groups, the general public and natural resource professionals from throughout Connecticut and the region to participate in educational programs, demonstrations, and workshops pertaining to wildlife and natural resource management."
+  },
+  {
+   "claim": "Nassahegon's forest includes a place where fish are raised for waters across Connecticut.",
+   "source": "https://en.wikipedia.org/wiki/Nassahegon_State_Forest",
+   "quote": "the hatchery raises brown trout and rainbow trout that are distributed into state lakes, ponds, rivers and streams with public access."
+  },
+  {
+   "claim": "The Burlington Trout Hatchery on Belden Road opened in 1923 and raises brown and rainbow trout for lakes, ponds, rivers and streams with public access.",
+   "source": "https://en.wikipedia.org/wiki/Nassahegon_State_Forest",
+   "quote": "The state's Burlington Trout Hatchery is located on Belden Road. Opened in 1923, the hatchery raises brown trout and rainbow trout that are distributed into state lakes, ponds, rivers and streams with public access."
+  },
+  {
+   "claim": "Its facilities include an egg-incubation building, fish pools and ponds, and a short nature trail.",
+   "source": "https://en.wikipedia.org/wiki/Nassahegon_State_Forest",
+   "quote": "The facility includes a building for egg incubation, fish pools and ponds, and a short nature trail."
+  },
+  {
+   "claim": "The surrounding state forest is managed for both forestry and recreation, with Blue-Blazed Trails crossing it.",
+   "source": "https://en.wikipedia.org/wiki/Nassahegon_State_Forest",
+   "quote": "The forest is managed for forestry and recreational purposes"
+  },
+  {
+   "claim": "with Blue-Blazed Trails crossing it.",
+   "source": "https://en.wikipedia.org/wiki/Nassahegon_State_Forest",
+   "quote": "The forest is crossed by the Blue-Blazed Trails system"
+  },
+  {
+   "claim": "It adjoins Sessions Woods.",
+   "source": "https://en.wikipedia.org/wiki/Sessions_Woods_Wildlife_Management_Area",
+   "quote": "The WMA also abuts the Nassahegon State Forest."
+  },
+  {
+   "claim": "The Connecticut Department of Energy and Environmental Protection operates the 1,352-acre forest, where approved mountain-biking trails offer another way through the woods.",
+   "source": "https://en.wikipedia.org/wiki/Nassahegon_State_Forest",
+   "quote": "Nassahegon State Forest is a Connecticut state forest occupying 1,352 acres (547 ha) in the town of Burlington. The forest is managed for forestry and recreational purposes and is operated by the Connecticut Department of Energy and Environmental Protection."
+  },
+  {
+   "claim": "approved mountain-biking trails",
+   "source": "https://en.wikipedia.org/wiki/Nassahegon_State_Forest",
+   "quote": "offers opportunities for hunting, hiking, and mountain biking on approved mountain biking trails."
+  },
+  {
+   "claim": "Brown Tavern faces Burlington's triangular green with a carefully ornamented Federal-style entrance.",
+   "source": "https://en.wikipedia.org/wiki/Brown_Tavern",
+   "quote": "The Brown Tavern stands facing Burlington's triangular town green"
+  },
+  {
+   "claim": "Federal-style entrance.",
+   "source": "https://en.wikipedia.org/wiki/Brown_Tavern",
+   "quote": "an elaborate Federal style entrance surround at the center."
+  },
+  {
+   "claim": "Sidelights and pilasters frame the doorway beneath a half-round transom; above it, a Palladian window breaks the roof-eave moulding.",
+   "source": "https://en.wikipedia.org/wiki/Brown_Tavern",
+   "quote": "The entry is flanked by sidelight windows and pilasters, and is topped by a half-round transom window and shallow gabled hood.  Above the entrance is a Palladian window with a rounded center that breaks the moulding at the roof eave."
+  },
+  {
+   "claim": "The house is believed to have been built about 1809–10 for merchant Giles Griswold.",
+   "source": "https://en.wikipedia.org/wiki/Brown_Tavern",
+   "quote": "The building is believed to have been built about 1809-10 for Giles Griswold, a merchant"
+  },
+  {
+   "claim": "Some later owners operated a tavern here during the nineteenth century.",
+   "source": "https://en.wikipedia.org/wiki/Brown_Tavern",
+   "quote": "It has passed through a succession of owners, some of whom operated a tavern on the premises in the 19th century."
+  },
+  {
+   "claim": "The town acquired the building in 1974, and the local historical society now manages it.",
+   "source": "https://en.wikipedia.org/wiki/Brown_Tavern",
+   "quote": "The building was acquired by the town in 1974."
+  },
+  {
+   "claim": "and the local historical society now manages it.",
+   "source": "https://en.wikipedia.org/wiki/Brown_Tavern",
+   "quote": "Now managed by the local historical society"
+  },
+  {
+   "claim": "At the top of the front gable, dentil moulding frames a semi-oval fan, carrying the decorative work above the windows.",
+   "source": "https://en.wikipedia.org/wiki/Brown_Tavern",
+   "quote": "The front gable is fully pedimented, with dentil moulding around the edges and a Federal style semi-oval fan at the center."
+  },
+  {
+   "claim": "Look for the half-round transom above the entrance and the Palladian window above it.",
+   "source": "https://en.wikipedia.org/wiki/Brown_Tavern",
+   "quote": "The entry is flanked by sidelight windows and pilasters, and is topped by a half-round transom window and shallow gabled hood.  Above the entrance is a Palladian window"
+  }
+ ],
+ "flags": [
+  "Overview kept short: no cached source describes curves, grades, driving time or the scenic-designation rationale. DOT data verifies the designated segment, not an evaluative description.",
+  "Nassahegon is a separate excursion east of the corridor, placed between Sessions Woods and the town-center extension using cached coordinates. Material provides only one strip town and no intermediate stop miles. Burlington green lies beyond the scenic segment.",
+  "Brown Tavern construction remains qualified as believed and about 1809–10; architect attribution is speculative and omitted. No interior access is promised.",
+  "Cache 05.txt is a New York building with Connecticut coordinates and was excluded. No current motifs were supplied.",
+  "Current claims dropped or corrected: added the source’s believed qualification to Brown Tavern’s date. The bear observation, acreage and canal-era industry history are cached but omitted for focus, not lack of evidence."
+ ]
+}

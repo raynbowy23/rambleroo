@@ -1,19 +1,21 @@
 {
   "id": "thousand-springs-scenic-byway-2038",
-  "tagline": "Out of Bliss, past springs running out of the canyon wall.",
+  "tagline": "Follow the Snake River canyon where springs emerge from rock",
   "motifs": [
     "waterfall-cove"
   ],
   "intro": [
-    "US 30 leaves the interstate at Bliss and dips into the Hagerman Valley and a canyon of the Snake River, then runs southeast through Hagerman, Buhl and Filer toward Twin Falls. Along the east wall of the canyon, streams and rivulets come straight out of the rock, many of them plain to see from the road with the river in front.",
-    "They are outlets of the Snake River Aquifer, which moves through porous volcanic rock and is believed to be fed by the Big Lost River, a river that disappears into the lava near Arco, about 90 miles away."
+    "US 30 drops into the Hagerman Valley and a canyon of the Snake River, where springs emerge from the east wall. Many are visible from the road, with the river in front. Visit Idaho presents Thousand Springs as one of the state’s scenic byways for its geological features, canyon views and waterfalls. Its itinerary covers 65.4 miles, with a listed driving time of one hour and 32 minutes.",
+    "US 30 was established in 1926 as part of the United States Numbered Highway System. Across southern Idaho it followed Route 2 from the Oregon line to Burley. Construction of the parallel freeway, then called I-80N and now I-84, began in the 1960s. Sections of US 30 shifted onto the freeway as it opened, but at Bliss the numbered route leaves the interstate for the byway. An earlier crossing survives south of Hagerman: Owsley Bridge, built in 1920–21, carried a former alignment of US 30 across the Snake.",
+    "From Bliss, travel southeast through Hagerman, Buhl and Filer to Twin Falls. The springs along the canyon are outlets of the Snake River Aquifer, which moves through porous volcanic rock. Beyond Twin Falls, the tourism itinerary continues to Idaho 50 and turns north to I-84, with US 93 providing another northbound connection."
   ],
+  "notice": "Springs emerge from the canyon’s east wall, with many visible beyond the river from the road.",
   "moments": [
     {
       "title": "Thousand Springs State Park",
-      "kind": "short walk",
+      "kind": "separate excursion",
       "scene": "river",
-      "text": "In the Box Canyon unit, between walls 250 feet high, the eleventh-largest spring in North America gushes 180,000 gallons a minute.",
+      "text": "Thousand Springs State Park joins several landscapes under one name. It was created in 2005 by merging four existing state parks in the Hagerman Valley, with another unit added later. At Malad Gorge, the Malad River has cut a canyon 250 feet deep below a 60-foot waterfall. Elsewhere in the park, Box Canyon has walls 250 feet high and a 20-foot waterfall. The Nature Conservancy bought the Box Canyon property in 1999 and completed its transfer to the state in 2016. Ritter Island, another unit, lies between two large springs along the Snake River.",
       "at": [
         -114.8516,
         42.8632
@@ -26,7 +28,7 @@
       "title": "Hagerman Fossil Beds National Monument",
       "kind": "separate excursion",
       "scene": "desert",
-      "text": "The Hagerman Horse Quarry has given up 20 complete skeletons of a zebra-like ancestor of today's horse, the best known of more than 180 species found in these beds.",
+      "text": "Hagerman’s fossil record includes horses, camels and river otters. The deposits preserve a Pliocene landscape, with fossils dating from 3.07 million to at least four million years ago. The Hagerman Horse Quarry has yielded 20 complete skeletons as well as partial skeletons of Equus simplicidens. The beds became a National Natural Landmark in 1975 and a national monument in 1988. In 2016, researchers began a project to date individual fossil sites more closely and reconstruct the ancient landscapes they represent. The assemblage also includes birds, fish, amphibians and turtles, extending the record beyond large mammals.",
       "at": [
         -114.94528,
         42.79028
@@ -36,7 +38,7 @@
       "title": "Buhl",
       "kind": "town",
       "scene": "town",
-      "text": "The Trout Capital of the World, by its own account, ringed with hatcheries that raise most of the rainbow trout eaten in the United States.",
+      "text": "Buhl’s name points to the financing behind the Magic Valley’s irrigation. Founded in 1906, the town was named for Frank H. Buhl, a Pennsylvania investor in the Twin Falls South Side Project. That project introduced large-scale irrigation to the valley in the early twentieth century. US 30 passes through town, and numerous trout hatcheries operate in the surrounding area.",
       "at": [
         -114.75556,
         42.59694
@@ -45,12 +47,16 @@
   ],
   "sources": [
     {
-      "label": "Visit Idaho, Thousand Springs Scenic Byway (Wayback Machine snapshot)",
+      "label": "Wikipedia, U.S. Route 30 in Idaho",
+      "url": "https://en.wikipedia.org/wiki/U.S._Route_30_in_Idaho"
+    },
+    {
+      "label": "Visit Idaho, Thousand Springs Scenic Byway (archived April 2026)",
       "url": "https://web.archive.org/web/20260418131147/https://visitidaho.org/things-to-do/hiking-backpacking/thousand-springs-scenic-byway/"
     },
     {
-      "label": "Wikipedia, U.S. Route 30 in Idaho",
-      "url": "https://en.wikipedia.org/wiki/U.S._Route_30_in_Idaho"
+      "label": "Wikipedia, Owsley Bridge",
+      "url": "https://en.wikipedia.org/wiki/Owsley_Bridge"
     },
     {
       "label": "Wikipedia, Thousand Springs State Park",
@@ -62,13 +68,12 @@
     },
     {
       "label": "Wikipedia, Hagerman, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Hagerman,_Idaho"
+      "url": "https://en.wikipedia.org/wiki/Hagerman%2C_Idaho"
     },
     {
       "label": "Wikipedia, Buhl, Idaho",
-      "url": "https://en.wikipedia.org/wiki/Buhl,_Idaho"
+      "url": "https://en.wikipedia.org/wiki/Buhl%2C_Idaho"
     }
   ],
-  "draft": true,
   "reviewed": false
 }
