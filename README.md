@@ -2,7 +2,7 @@
 
 # Rambleroo
 
-Drive into the heart of the American story. Rambleroo is a guide to more than 1,000 scenic roads in the United States. Find a road on the national map, read its postcard, then scroll down the road mile by mile on a strip map. Save it, add it to a trip, record a visit and collect a stamp in your passport.
+Drive into the heart of the American story. Rambleroo is a guide to more than 1,000 scenic roads in the United States. Find a road on the national map, read its history and the stops worth pulling over for, then scroll down the road mile by mile on a strip map, the way an old AAA TripTik laid a road out on paper. Save it, add it to a trip, record a visit and collect a stamp in your passport.
 
 Open it at **https://rambleroo.app**. No account is needed. Rambleroo is a personal, noncommercial, open-source project, and [contributions are welcome](#contributing).
 
@@ -36,8 +36,9 @@ Rambleroo catalogs **1,047 scenic drives across the United States**, combining f
 
 ### Features
 
-- **Linear Strip Maps (970 routes):** Each corridor unrolls into a continuous linear ribbon as you scroll. Towns, natural landmarks, and scenic overlooks are pinned to their true relative milepost. Drive times are dynamically routed via OpenStreetMap, while data discontinuities render as dashed connector lines.
-- **Four-Season Visuals & Custom Postcards:** Every route features a procedural postcard and seasonal strip illustrations. For 945 roads, 991 human-verified, freely licensed photographs provide authentic field references.
+- **Road Stories (1,033 routes):** A short history of each road, written from its sources, with the stops along the way. 2,376 of the 3,137 stops have a photo of the landmark itself, never just a view taken somewhere nearby.
+- **Linear Strip Maps (972 routes):** Each corridor unrolls into a continuous linear ribbon as you scroll. Towns, natural landmarks, and scenic overlooks are pinned to their true relative milepost. Drive times are dynamically routed via OpenStreetMap, while data discontinuities render as dashed connector lines.
+- **Four-Season Visuals & Custom Postcards:** Every route features a procedural postcard and seasonal strip illustrations. 1,029 roads have a photo postcard, and the library holds 4,960 freely licensed photographs in all, of the roads, the towns on the strip maps and the stops in the stories, each credited to its photographer.
 - **State Chapters:** Each state's byway program, its roads described one by one, and a link to the agency that designates them. Every state has one; [docs/state-programs.md](docs/state-programs.md) links each state's program.
 - **Granular Designations:** Instantly differentiate between _All-American Roads_, _National Scenic Byways_, _State Scenic Byways_, and _National Forest Byways_, with direct links to respective state agency programs.
 
@@ -47,7 +48,7 @@ Rambleroo prioritizes ground truth and transparency over smoothed assumptions:
 
 - **Mapped Miles vs. Driving Distance:** Mileage is calculated directly along mapped geometry rather than odometer estimates. Divided segments are summed as drawn.
 - **Explicit Discontinuities:** Gaps in source GIS layers remain visible as breaks—no synthetic route interpolation without indication.
-- **Clear Provenance:** Generated artwork, verified photographs, and work-in-progress routes carry clear state labels (`Illustration · no photo yet`, `Draft · pending review`).
+- **Clear Provenance:** Generated artwork, credited photographs, and roads without a story yet carry clear labels (`Illustration · no photo yet`, `Listing`).
 - **Open Source & Agency Attribution:** Sourced with attribution from USDOT, state transportation and tourism agencies, Natural Earth, OpenStreetMap, Wikipedia, and Wikimedia Commons. See [docs/licensing.md](docs/licensing.md) for full attribution schemas.
 
 ## What you can do
@@ -59,7 +60,7 @@ Rambleroo prioritizes ground truth and transparency over smoothed assumptions:
 | **Strip map**                    | `/byway/:id/strip`             | The road as a ribbon you scroll mile by mile, in four seasons, with a 3D view and a printable version (`/print`).               |
 | **Trip**                         | `/trip`                        | Roads in the order you want to drive them, with mapped miles, drive times and Google Maps links.                                |
 | **Passport**                     | `/passport`                    | Saved roads, visits, stamps, your postcards and your car; share a trip or passport as a read-only link (`/s/:slug`).            |
-| **State chapters & collections** | `/state/:code`, `/collections` | Each state's byway program with links to its agency ([all 50 states](docs/state-programs.md)), and editorial collections.   |
+| **State chapters & collections** | `/state/:code`, `/collections` | Each state's byway program with links to its agency ([all 50 states](docs/state-programs.md)), and editorial collections.       |
 
 ## Run it locally
 
@@ -101,7 +102,7 @@ npm run strips:build -- <bywayId>             # build one road's strip map
 - **Strip maps** (`scripts/strips/`) order towns and stops by their true mile along the road and route drive times with OSRM once, at build time.
 - **Themes** are inferred from road names (`scripts/ingest/classify.ts`) unless `content/overrides.json` sets them by hand.
 - **Basemap:** Natural Earth 1:50m (public domain) is bundled for the national view. Closer in, detail comes from OpenFreeMap vector tiles. Neither needs an API key.
-- **Photos** are proposed by `scripts/photos/discover.ts` from Wikipedia lead images and the U.S. DOT America's Byways collection on Commons, or picked by hand from a wider Commons search for a state chapter. Every one is reviewed by a person and published with `scripts/photos/fetch.ts` into `content/photos.json`. Photos of the towns on the strip maps and the places in the stories come from `scripts/photos/towns.ts` and `moments.ts`, are screened on contact sheets, and are published with `scripts/photos/fetch-places.ts`. The scripts download into `public/photos/` (not committed); `npm run photos:upload` then puts the files in the public R2 bucket served at https://photos.rambleroo.app (see infra/README.md).
+- **Photos** are proposed by `scripts/photos/discover.ts` from Wikipedia lead images and the U.S. DOT America's Byways collection on Commons, or picked by hand from a wider Commons search for a state chapter. Every one is reviewed by a person and published with `scripts/photos/fetch.ts` into `content/photos.json`. Photos of the towns on the strip maps and the places in the stories come from `scripts/photos/towns.ts`, `moments.ts` and `landmarks.ts`, are screened on contact sheets, and are published with `scripts/photos/fetch-places.ts`. `landmarks.ts` keeps only pictures that name the landmark and, when geotagged, were taken within 2 km of it (5 km for a town, 8 km for a lake, canyon or park), and it looks in the existing library first. The scripts download into `public/photos/` (not committed); `npm run photos:upload` then puts the files in the public R2 bucket served at https://photos.rambleroo.app (see infra/README.md).
 - **Editorial content** lives in `content/`: stories, strip text, collections, state chapters and overrides. `scripts/ingest/content.test.ts` fails the tests if content points at a road that doesn't exist.
 
 Known gaps: the Ohio River Scenic Byway's mileage can't all be assigned to a state, because many of its segment midpoints fall in the river. State chapter links are checked by hand with `npx tsx scripts/states/check-links.ts`, which reports failed URLs and redirects to another host.
