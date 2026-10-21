@@ -3,12 +3,12 @@
   "bywayId": "highlands-scenic-byway-10335",
   "title": "Highlands Scenic Byway",
   "longitude": -79.6713,
-  "ground": "alpine-plateau",
-  "palette": "mountain",
+  "ground": "main-street",
+  "palette": "town",
   "snowInWinter": false,
   "road": {
     "shape": "from-geometry",
-    "profile": "rolling",
+    "profile": "level",
     "lanes": 2,
     "coordinates": [
       [
@@ -239,39 +239,39 @@
     "elevation": [
       [
         0,
-        0.45
+        0.2
       ],
       [
         0.125,
-        0.692
+        0.218
       ],
       [
         0.25,
-        1.275
+        0.26
       ],
       [
         0.375,
-        1.858
+        0.302
       ],
       [
         0.5,
-        2.1
+        0.32
       ],
       [
         0.625,
-        1.858
+        0.302
       ],
       [
         0.75,
-        1.275
+        0.26
       ],
       [
         0.875,
-        0.692
+        0.218
       ],
       [
         1,
-        0.45
+        0.2
       ]
     ]
   },
@@ -375,6 +375,7 @@
     }
   ],
   "sources": [
+    "content/stories/highlands-scenic-byway-10335.json",
     "public/data/strips/highlands-scenic-byway-10335.json",
     "public/data/byways.geojson",
     "public/data/catalog.json"
