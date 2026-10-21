@@ -114,11 +114,14 @@ export function createRoadLayer(
     view = ''
   const readWater = () => {
     if (!hydroDirty || !map.getStyle || !map.querySourceFeatures) return
+    // While a style is still loading (first load or a basemap switch) there is nothing to read yet; stay dirty and retry on its next data.
+    const style = map.getStyle()
+    if (!style) return
     hydroDirty = false
     const found = new Set<string>(),
       polygons: WaterPolygon[] = []
     // Use the style's actual hydro sources, including OpenMapTiles water polygons.
-    const layers = map.getStyle().layers ?? []
+    const layers = style.layers ?? []
     const sources: [string, string | undefined][] = layers.flatMap((l) =>
       'source' in l && l.type === 'fill' && /water|lake|ocean/i.test(l.id + ('source-layer' in l ? l['source-layer'] : ''))
         ? [[l.source as string, 'source-layer' in l ? l['source-layer'] : undefined] as [string, string | undefined]]

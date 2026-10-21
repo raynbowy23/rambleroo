@@ -81,13 +81,15 @@ it('refreshes exaggerated elevations after terrain tiles settle and removes pend
 it('updates bridge decks from arriving water polygons without rebuilding and disposes the scenery', () => {
   vi.useFakeTimers()
   let water: unknown[] = []
+  const loaded = { layers: [{ id: 'water', type: 'fill', source: 'openfreemap', 'source-layer': 'water' }] }
+  let style: typeof loaded | undefined = loaded
   const listeners = new globalThis.Map<string, (event?: { sourceId: string }) => void>()
   const map = {
     getTerrain: () => null,
     getCanvas: () => document.createElement('canvas'),
     triggerRepaint: vi.fn(),
     getZoom: () => 15,
-    getStyle: () => ({ layers: [{ id: 'water', type: 'fill', source: 'openfreemap', 'source-layer': 'water' }] }),
+    getStyle: () => style,
     getSource: () => ({}),
     querySourceFeatures: () => water,
     on: (type: string, fn: (event?: { sourceId: string }) => void) => listeners.set(type, fn),
@@ -131,7 +133,13 @@ it('updates bridge decks from arriving water polygons without rebuilding and dis
       },
     },
   ]
+  // Water that arrives while the style is still loading is read once the style is there, not dropped.
+  style = undefined
   listeners.get('sourcedata')!({ sourceId: 'openfreemap' })
+  vi.advanceTimersByTime(100)
+  expect(bridge.getX(0)).toBe(0)
+  style = loaded
+  listeners.get('idle')!()
   vi.advanceTimersByTime(100)
   layer.render(gl, input)
   expect(state.scene).toBe(scene)
